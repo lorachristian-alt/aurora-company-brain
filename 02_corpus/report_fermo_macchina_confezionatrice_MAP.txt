@@ -1,0 +1,251 @@
+AURORA FOOD GROUP S.R.L. - OFFICINA MANUTENZIONE
+MOD-PR-04 rev.3 - RAPPORTO FERMO MACCHINA / INTERVENTO NON PROGRAMMATO
+
+N. progressivo: 2026/087
+Data apertura: 10/05/2026        Ora chiamata: 15:05
+Macchina: PKM-450 confezionatrice flow-pack MAP (Pakmatic)      Linea: 1
+Reparto: confezionamento         Lotto in produzione: L26130-L1-T2
+Prodotto: AF-SN-0450 snack rustico 100 g ATM (promo Tosano)
+Segnalato da: capoturno I. Popescu       Ricevuto da: I. Dal Maso
+Tipo fermo:  [X] guasto   [ ] programmato   [ ] cambio formato   [ ] pulizia
+Fermo produzione:  DALLE 15:05  ALLE 18:45   TOT. 3 h 40 min
+Priorita': URGENTE (linea 1 ferma, domenica, promo in consegna martedi)
+
+DESCRIZIONE GUASTO (a cura del richiedente):
+la macchina ha smesso di tirare azoto, allarme pressione gas basso, saldatura
+ok ma le confezioni escono sgonfie / O2 fuori. sibilo forte lato valvola.
+gia' segnalato venerdi che perdeva. --Popescu
+
+DESCRIZIONE INTERVENTO (a cura manutenzione):
+rota la valvola inieзion azoto, corpo valvola creposo lato premistopa,
+guarnizion interna andata. sostituida guarnizione, ripartiti.
+tempo intervento: 2,5 h + prove
+materiale usato: 1 guarnizione (da carrello ricambi bordo linea)
+ricambio definitivo: ORDINATO - kit valvola orig. Pakmatic cod. PK45-VN2-08
+                     in arivo el 15/05 (conferma Pakmatic del 08/05)
+macchina riconsegnata a produzione: ore 18:45 - collaudo ok
+firma manutentore: Dal Maso I.        firma capoturno: Popescu I.
+visto Resp. Produzione: Zanella D. (11/05)
+visto Qualita': _______________  <-- NON FIRMATO
+
+--------------------------------------------------------------------
+ALLEGATO 1 al MOD-PR-04 n. 2026/087
+RELAZIONE TECNICA ESTESA - richiesta da ing. Fantin il 12/05 dopo la
+deviazione rilevata sul PT-104. Stesa da I. Dal Maso con l'aiuto di Federica x
+la battitura. Le note tra virgolette sono sue.
+--------------------------------------------------------------------
+
+1. ANTEFATTO - venerdi 08/05
+
+Ore 10:30 circa, durante giro ispettivo settimanale, sentito sibilo
+anomalo zona gruppo iniezione N2 della PKM-450. Perdita stimata piccola
+ma continua, flussimetro azoto segnava consumo +15% a parita' di ricetta
+gas. Consumo bombole Nordgas su del 15-20% gia' da fine aprile, adesso
+si spiega.
+
+"la valvola la sibilava come na bissa. go streto el premistopa mezo
+giro, la se ga calmà ma mi go dito subito: questa nn la riva a fine
+mese."
+
+Aperto rapportino segnalazione n. 2026/081 (08/05). Chiamata Pakmatic
+Italia S.r.l. (Bologna, forn. F0077) ore 11:15: kit valvola iniezione
+completo cod. PK45-VN2-08 NON disponibile a magazzino, in produzione,
+consegna confermata per 15/05. Costo preventivato 1.240,00 € + iva +
+trasferta tecnico se serve.
+
+Riunione veloce con Zanella e Fantin (08/05 ore 14): decisione di
+ANDARE AVANTI fino all'arrivo del ricambio, vista la promo Tosano
+sett. 19-21 e la domenica gia' programmata. Monitoraggio a vista ogni
+turno. Verbale non fatto, decisione a voce.
+
+"mi gavevo dito de fermarse sabo e cambiar almeno la guarnizion, ma
+sabo gnente ricambio e domenega se prodoto. capi mia, se va vanti."
+
+2. IL GUASTO - domenica 10/05
+
+15:05 - chiamata dal capoturno: allarme AL-217 "N2 pressure low" su
+pannello PKM-450, macchina in blocco. Sul posto in 20 min (ero a casa,
+domenica).
+
+15:25 - arrivo. Constatato: corpo valvola iniezione N2 spaccato lato
+premistoppa, guarnizione interna disintegrata, pezzi di guarnizione
+vecchia nel raccordo. Perdita azoto franca, bombola parzializzata.
+Chiuso subito il rubinetto di linea gas.
+
+diagnosi: la valvola perdeva da giorni, el premistopa streto de piu
+venerdi ga tegnu fin ancuo, po' col caldo e la pression la ga molà de
+colpo. usura + fadiga. la valvola la ga 6 ani, mai revisionada.
+
+"nota mia: le guarnizion de sta macchina le gera in scadenzario da
+zenaro. sempre rimandà x la produzion. nn go voia de dir mi gavevo
+razon ma insoma."
+
+3. RIPARAZIONE D'EMERGENZA
+
+Opzioni valutate sul momento:
+a) fermare tutto fino al 15/05 -> NO, promo Tosano, 40.000 pz da fare
+b) bypass valvola e confezionare in aria -> NO, prodotto ATM, shelf
+   life non garantita, Marchetti non avrebbe mai firmato
+c) riparazione provvisoria con materiale disponibile -> FATTO
+
+Intervento eseguito (15:40 - 18:10):
+- smontato gruppo valvola completo
+- pulito sede e raccordo, tolti residui guarnizione vecchia
+- corpo valvola: cricca ripresa con serraggio flangia + frenafiletti
+- guarnizione interna sostituita con guarnizione piana AZZURRA diam.
+  42x30x3 presa dal carrello ricambi che tengo a bordo linea 1
+  (cassetta guarnizioni miste, scomparto 3)
+- rimontato, serrato a mano + 1/4 giro
+- prova tenuta con spray cercafughe: ok
+- prova pressione a 6 bar: tiene
+
+"la guarnizion gera quela che gavevo nel careto, azura, misura giusta.
+marca nn so, le guarnizion nel scomparto le xe li da ani, se compra a
+mucio. la tegneva ben e mi son ripartio. co riva el kit Pakmatic el 15
+buto via tuto e monto l'originale."
+
+18:10 - 18:45: riavvio assistito con capoturno. Prime confezioni
+scartate x taratura gas. Collaudo: ricetta gas ok, saldatura ok.
+18:45 - riconsegna a produzione. Restato a bordo linea fino alle 19:30.
+
+4. PEZZI SCARTATI / PRODOTTO
+
+- confezioni scartate al riavvio (spurgo + taratura): 348 pz, bidone
+  scarto confezionato, registrate su modulo linea
+- prodotto sfuso rimasto fermo tra forno e confezionatrice durante il
+  fermo: parte ricircolata, parte a scarto (vedi conteggio produzione,
+  nn roba mia)
+- verifica O2 residuo su campioni post riavvio: fatta da QC (Pozzato)
+  lunedi mattina, valori ok da quel che so
+
+5. RICHIESTA ORDINE URGENTE (gia' inoltrata)
+
+RDA n. 2026/112 del 10/05 sera, urgente, appr. Fantin 11/05:
+- 1 x kit valvola iniezione N2 completo Pakmatic PK45-VN2-08, 1.240,00 €
+- 2 x serie guarnizioni testa saldante PKM-450 cod. PK45-GT-112 (quelle
+  in scadenzario da gennaio!!) 380,00 € /serie
+- 1 x revisione generale gruppo gas da tecnico Pakmatic in trasferta
+- scorta minima guarnizioni ORIGINALI da tenere in magazzino ricambi
+  (NON sul carrello, ho capito l'antifona)
+consegna kit confermata 15/05, tecnico Pakmatic il 16/05 mattina.
+
+6. NOTE FINALI
+
+Sostituzione definitiva programmata 15/05 sera a fine turno 2, fermo
+previsto 2 h. La guarnizione provvisoria resta in esercizio fino ad
+alora, controlo tenuta ogni turno, fin'ora ok.
+
+"go fato quel che se podeva far de domenega co la linea ferma e el
+camion che riva marti. se la qualita ga altre domande son in oficina."
+
+Dal Maso Ivano - capo officina
+Cologna Veneta, 12/05/2026
+
+[TIMBRO OFFICINA]
+
+--------------------------------------------------------------------
+corrispondenza allegata al fascicolo (stampata da Federica il 14/05)
+--------------------------------------------------------------------
+
+Da: Elena Marchetti <e.marchetti@aurorafoodgroup.it>
+A: Ivano Dal Maso <officina@aurorafoodgroup.it>
+Cc: Marco Fantin <m.fantin@aurorafoodgroup.it>; Sara Pozzato <s.pozzato@aurorafoodgroup.it>
+Inviato: mercoledi 13 maggio 2026 09:32
+Oggetto: MOD-PR-04 n. 2026/087 - PKM-450 - richiesta urgente specifica materiale guarnizione
+
+Buongiorno Ivano,
+in relazione al rapporto in oggetto e alla segnalazione pervenuta da
+consumatore in data 12/05 (frammento di materiale plastico rigido di
+colore azzurro rinvenuto in confezione di prodotto AF-SN-0450, lotto
+L26130 - pratica reclamo MOD-QA-31 rif. REC-2026-011), si richiede con la
+massima urgenza di specificare per iscritto:
+
+1) materiale costitutivo della guarnizione "azzurra" installata in via
+   provvisoria sulla valvola di iniezione azoto in data 10/05/2026;
+2) fornitore, codice articolo e lotto della medesima;
+3) disponibilita' della Dichiarazione di Conformita' ai sensi del Reg.
+   (CE) 1935/2004 e Reg. (UE) 10/2011 per contatto con alimenti (MOCA);
+4) se trattasi di materiale detettabile al metal detector (metal
+   detectable) o meno;
+5) da quanto tempo il carrello ricambi staziona in area produttiva e
+   con quale controllo di integrita', tenuto conto che la custodia di
+   ricambi e attrezzi in area produttiva senza controllo costituisce
+   la NC n. 2 dell'audit CSQA del 17-18/02/2026 (BRCGS cl. 4.7.5),
+   formalmente chiusa con evidenze trasmesse in data 02/04/2026.
+
+Si rammenta che il cliente Tosano (dott.ssa Perbellini, QA fornitori)
+ha richiesto riscontro scritto entro 48 ore e che e' in corso la
+valutazione di ritiro cautelativo dei lotti L26130 e L26131.
+Si resta in attesa di riscontro entro OGGI.
+Cordiali saluti
+
+dott.ssa Elena Marchetti
+Responsabile Sistema Gestione Qualita' - Team Leader HACCP
+Aurora Food Group S.r.l. - Via dell'Industria 27, 37044 Cologna Veneta (VR)
+Tel. 0442 854122 int. 214 - www.aurorafoodgroup.it
+Le informazioni contenute nella presente comunicazione e i relativi
+allegati sono riservate ai destinatari. Ai sensi del Reg. UE 679/2016
+(GDPR) e' vietata la diffusione a terzi. Se avete ricevuto questa mail
+per errore siete pregati di eliminarla.
+
+- - - - - - - - - - - - - - - - - - - - - - - -
+
+Da: Ivano Dal Maso <officina@aurorafoodgroup.it>
+A: Elena Marchetti <e.marchetti@aurorafoodgroup.it>
+Inviato: mercoledi 13 maggio 2026 13:47
+Oggetto: R: MOD-PR-04 n. 2026/087 - PKM-450 - richiesta urgente specifica materiale guarnizione
+
+ciao Elena
+la guarnizion la gera na guarnizion piana normale da 42, roba che se
+usa da sempre, el scomparto del careto el xe pien da ani. marca nn
+saprai dirte, le se compra a scatole miste dal grosista, fatura la
+trova la Trentin se serve. el color azuro nn vol dir gnente, le xe
+quasi tute azure o verdi ste guarnizion.
+material: gomma. quale de preciso nn go el datasheet soto man.
+DoC moca: da verificar co Flexipack.. cioe nn so se ghe xe, el careto
+nn xe roba comprada come moca, xe ricambi de oficina.
+detectabile: no credo.
+comunque la guarnizion la xe ANCORA MONTADA sula valvola e la tien,
+quindi el tocheto che ga trova la siora nn pol esser quela. i pezi
+dela guarnizion VECIA disintegrada invece i xe nda in giro prima
+del fermo, ma quela gera l'originale Pakmatic eh.
+venerdi 15 riva el kit e monto tuto novo, tegno da parte la roba
+smontada se la voli veder.
+el careto sta li da quando ghe son mi, 11 ani, e nissun ga mai dito
+gnente fin a febraro.
+ivano
+
+Inviato dal mio iPhone
+
+- - - - - - - - - - - - - - - - - - - - - - - -
+
+Da: Elena Marchetti <e.marchetti@aurorafoodgroup.it>
+A: Ivano Dal Maso <officina@aurorafoodgroup.it>
+Cc: Marco Fantin <m.fantin@aurorafoodgroup.it>
+Inviato: mercoledi 13 maggio 2026 14:31
+Oggetto: R: R: MOD-PR-04 n. 2026/087 - PKM-450 - URGENTE
+
+Ivano,
+"gomma" non e' una risposta che posso girare a Tosano. NON smontare
+ne' buttare NULLA senza di me: la guarnizione provvisoria, i resti di
+quella vecchia e TUTTO il contenuto dello scomparto 3 del carrello
+vanno messi sotto chiave in sala qualita' oggi stesso, sacchetti
+identificati, li fotografa Sara. Se venerdi il tecnico Pakmatic smonta,
+lo fa in mia presenza.
+Il confronto del frammento del reclamo con i materiali disponibili
+verra' effettuato tramite laboratorio esterno (Analytica Veneta).
+Passo in officina alle 15:30.
+E.M.
+
+- - - - - - - - - - - - - - - - - - - - - - - -
+
+Da: Ivano Dal Maso <officina@aurorafoodgroup.it>
+A: Elena Marchetti <e.marchetti@aurorafoodgroup.it>
+Inviato: mercoledi 13 maggio 2026 14:52
+Oggetto: R: R: R: MOD-PR-04 n. 2026/087 - PKM-450 - URGENTE
+
+va ben, meto via tuto. el careto intanto lo go porta fora dala linea,
+adeso el xe in oficina. te speto ale 15.30
+ivano
+
+Inviato dal mio iPhone

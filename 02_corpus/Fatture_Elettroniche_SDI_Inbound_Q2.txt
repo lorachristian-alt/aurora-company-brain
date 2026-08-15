@@ -1,0 +1,202 @@
+EXPORT PORTALE FATTURE E CORRISPETTIVI - FATTURE RICEVUTE - TRIMESTRE 2 2026
+utente: LTRENTIN - scaricato il 03/06/2026 11:22 - n. 9 documenti selezionati
+ATTENZIONE alcuni file risultano gia' contabilizzati in Zucchetti, altri NO (vedi mail a Bellotto del 28/05)
+
+=========================================================================
+FILE: IT00298440231_1F0a3.xml   ricevuta il 02/05/2026   IdSdi 7714002951
+=========================================================================
+<?xml version="1.0" encoding="UTF-8"?>
+<p:FatturaElettronica versione="FPR12" xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+<FatturaElettronicaHeader>
+  <DatiTrasmissione>
+      <IdTrasmittente><IdPaese>IT</IdPaese><IdCodice>00298440231</IdCodice></IdTrasmittente>
+      <ProgressivoInvio>00877</ProgressivoInvio>
+      <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+      <CodiceDestinatario>M5UXCR1</CodiceDestinatario>
+  </DatiTrasmissione>
+ <CedentePrestatore>
+   <DatiAnagrafici>
+     <IdFiscaleIVA><IdPaese>IT</IdPaese><IdCodice>00298440231</IdCodice></IdFiscaleIVA>
+     <Anagrafica><Denominazione>MOLINO VENETO S.P.A.</Denominazione></Anagrafica>
+     <RegimeFiscale>RF01</RegimeFiscale>
+   </DatiAnagrafici>
+      <Sede><Indirizzo>VIA MOLINARA 18</Indirizzo><CAP>37063</CAP><Comune>ISOLA DELLA SCALA</Comune><Provincia>VR</Provincia><Nazione>IT</Nazione></Sede>
+ </CedentePrestatore>
+<CessionarioCommittente><DatiAnagrafici><IdFiscaleIVA><IdPaese>IT</IdPaese><IdCodice>03984710230</IdCodice></IdFiscaleIVA><Anagrafica><Denominazione>AURORA FOOD GROUP S.R.L.</Denominazione></Anagrafica></DatiAnagrafici><Sede><Indirizzo>VIA DELL'INDUSTRIA 27</Indirizzo><CAP>37044</CAP><Comune>COLOGNA VENETA</Comune><Provincia>VR</Provincia><Nazione>IT</Nazione></Sede></CessionarioCommittente>
+</FatturaElettronicaHeader>
+<FatturaElettronicaBody>
+  <DatiGenerali>
+    <DatiGeneraliDocumento>
+      <TipoDocumento>TD01</TipoDocumento><Divisa>EUR</Divisa>
+      <Data>2026-04-30</Data>
+      <Numero>877/2026</Numero>
+      <ImportoTotaleDocumento>29884.15</ImportoTotaleDocumento>
+      <Causale>FORNITURE FARINE APRILE 2026 - DDT 1102-1145-1188-1204 - lotti come da bolle, alveogramma allegato al certificato di analisi (vedi allegato)</Causale>
+    </DatiGeneraliDocumento>
+    <DatiOrdineAcquisto><IdDocumento>ORD-2026-0142</IdDocumento></DatiOrdineAcquisto>
+  </DatiGenerali>
+  <DatiBeniServizi>
+      <DettaglioLinee><NumeroLinea>1</NumeroLinea><Descrizione>FARINA FRUMENTO TENERO TIPO 0 W300 P/L 0,55 SFUSA CISTERNA</Descrizione><Quantita>24000.00</Quantita><UnitaMisura>KG</UnitaMisura><PrezzoUnitario>0.68000</PrezzoUnitario><PrezzoTotale>16320.00</PrezzoTotale><AliquotaIVA>4.00</AliquotaIVA></DettaglioLinee>
+      <DettaglioLinee><NumeroLinea>2</NumeroLinea><Descrizione>FARINA FRUMENTO TENERO TIPO 00 SACCO CARTA KG 25</Descrizione><Quantita>12000.00</Quantita><UnitaMisura>KG</UnitaMisura><PrezzoUnitario>0.62000</PrezzoUnitario><PrezzoTotale>7440.00</PrezzoTotale><AliquotaIVA>4.00</AliquotaIVA></DettaglioLinee>
+      <DettaglioLinee><NumeroLinea>3</NumeroLinea><Descrizione>SEMOLA RIMACINATA GRANO DURO SACCO KG 25</Descrizione><Quantita>6000.00</Quantita><UnitaMisura>KG</UnitaMisura><PrezzoUnitario>0.82913</PrezzoUnitario><PrezzoTotale>4974.78</PrezzoTotale><AliquotaIVA>4.00</AliquotaIVA></DettaglioLinee>
+  </DatiBeniServizi>
+  <DatiRiepilogo><AliquotaIVA>4.00</AliquotaIVA><Arrotondamento>-0.02</Arrotondamento><ImponibileImporto>28734.76</ImponibileImporto><Imposta>1149.39</Imposta><EsigibilitaIVA>I</EsigibilitaIVA></DatiRiepilogo>
+  <DatiPagamento>
+    <CondizioniPagamento>TP01</CondizioniPagamento>
+    <DettaglioPagamento><ModalitaPagamento>MP12</ModalitaPagamento><DataScadenzaPagamento>2026-05-31</DataScadenzaPagamento><ImportoPagamento>14942.00</ImportoPagamento></DettaglioPagamento>
+    <DettaglioPagamento><ModalitaPagamento>MP12</ModalitaPagamento><DataScadenzaPagamento>2026-05-31</DataScadenzaPagamento><ImportoPagamento>14942.15</ImportoPagamento></DettaglioPagamento>
+  </DatiPagamento>
+</FatturaElettronicaBody>
+</p:FatturaElettronica>
+<IdSdi>7714002951</IdSdi>
+
+=========================================================================
+FILE: IT03412550281_88wQ1.xml   ricevuta il 26/04/2026   IdSdi 7711985520
+=========================================================================
+<?xml version="1.0" encoding="UTF-8"?><p:FatturaElettronica versione="FPR12"><FatturaElettronicaHeader><DatiTrasmissione><IdTrasmittente><IdPaese>IT</IdPaese><IdCodice>03412550281</IdCodice></IdTrasmittente><ProgressivoInvio>EE118</ProgressivoInvio><FormatoTrasmissione>FPR12</FormatoTrasmissione><CodiceDestinatario>M5UXCR1</CodiceDestinatario></DatiTrasmissione><CedentePrestatore><DatiAnagrafici><IdFiscaleIVA><IdPaese>IT</IdPaese><IdCodice>03412550281</IdCodice></IdFiscaleIVA><Anagrafica><Denominazione>VENETA ENERGIA S.P.A. - SocietÃ  con unico socio</Denominazione></Anagrafica><RegimeFiscale>RF01</RegimeFiscale></DatiAnagrafici><Sede><Indirizzo>CORSO STATI UNITI 14/B</Indirizzo><CAP>35127</CAP><Comune>PADOVA</Comune><Provincia>PD</Provincia><Nazione>IT</Nazione></Sede></CedentePrestatore><CessionarioCommittente><DatiAnagrafici><IdFiscaleIVA><IdPaese>IT</IdPaese><IdCodice>03984710230</IdCodice></IdFiscaleIVA><Anagrafica><Denominazione>AURORA FOOD GROUP SRL</Denominazione></Anagrafica></DatiAnagrafici><Sede><Indirizzo>VIA DELL INDUSTRIA 27</Indirizzo><CAP>37044</CAP><Comune>COLOGNA VENETA</Comune><Provincia>VR</Provincia><Nazione>IT</Nazione></Sede></CessionarioCommittente></FatturaElettronicaHeader><FatturaElettronicaBody><DatiGenerali><DatiGeneraliDocumento><TipoDocumento>TD01</TipoDocumento><Divisa>EUR</Divisa><Data>2026-04-24</Data><Numero>2026-EE-1188041</Numero><ImportoTotaleDocumento>28440.12</ImportoTotaleDocumento><Causale>FORNITURA ENERGIA ELETTRICA MARZO 2026 POD IT001E984412 - VIA DELL'INDUSTRIA 27 COLOGNA VENETA (VR) - ITALIA - POTENZA DISP. 630 KW - mercato libero, offerta AZIENDA FIX 24</Causale></DatiGeneraliDocumento></DatiGenerali><DatiBeniServizi>
+<DettaglioLinee><NumeroLinea>1</NumeroLinea><Descrizione>ENERGIA ATTIVA FASCIA F1</Descrizione><Quantita>41230.000</Quantita><UnitaMisura>KWH</UnitaMisura><PrezzoUnitario>0.16420</PrezzoUnitario><PrezzoTotale>6769.97</PrezzoTotale><AliquotaIVA>10.00</AliquotaIVA></DettaglioLinee>
+<DettaglioLinee><NumeroLinea>2</NumeroLinea><Descrizione>ENERGIA ATTIVA FASCIA F2</Descrizione><Quantita>28114.000</Quantita><UnitaMisura>KWH</UnitaMisura><PrezzoUnitario>0.15710</PrezzoUnitario><PrezzoTotale>4416.71</PrezzoTotale><AliquotaIVA>10.00</AliquotaIVA></DettaglioLinee>
+<DettaglioLinee><NumeroLinea>3</NumeroLinea><Descrizione>ENERGIA ATTIVA FASCIA F3</Descrizione><Quantita>55402.000</Quantita><UnitaMisura>KWH</UnitaMisura><PrezzoUnitario>0.11080</PrezzoUnitario><PrezzoTotale>6138.54</PrezzoTotale><AliquotaIVA>10.00</AliquotaIVA></DettaglioLinee>
+<DettaglioLinee><NumeroLinea>4</NumeroLinea><Descrizione>PERDITE DI RETE</Descrizione><PrezzoTotale>1023.40</PrezzoTotale><AliquotaIVA>10.00</AliquotaIVA></DettaglioLinee>
+<DettaglioLinee><NumeroLinea>5</NumeroLinea><Descrizione>TRASPORTO E GESTIONE DEL CONTATORE - QUOTA VARIABILE + QUOTA FISSA</Descrizione><PrezzoTotale>1844.12</PrezzoTotale><AliquotaIVA>10.00</AliquotaIVA></DettaglioLinee>
+<DettaglioLinee><NumeroLinea>6</NumeroLinea><Descrizione>ONERI DI SISTEMA - COMPONENTE ASOS</Descrizione><PrezzoTotale>2980.55</PrezzoTotale><AliquotaIVA>10.00</AliquotaIVA></DettaglioLinee>
+<DettaglioLinee><NumeroLinea>7</NumeroLinea><Descrizione>ONERI DI SISTEMA - COMPONENTE ARIM</Descrizione><PrezzoTotale>512.30</PrezzoTotale><AliquotaIVA>10.00</AliquotaIVA></DettaglioLinee>
+<DettaglioLinee><NumeroLinea>8</NumeroLinea><Descrizione>ACCISA ENERGIA ELETTRICA USI INDUSTRIALI D.LGS 504/95</Descrizione><PrezzoTotale>1581.06</PrezzoTotale><AliquotaIVA>10.00</AliquotaIVA></DettaglioLinee>
+<DettaglioLinee><NumeroLinea>9</NumeroLinea><Descrizione>CORRISPETTIVO POTENZA IMPEGNATA</Descrizione><PrezzoTotale>588.00</PrezzoTotale><AliquotaIVA>10.00</AliquotaIVA></DettaglioLinee>
+</DatiBeniServizi><DatiRiepilogo><AliquotaIVA>10.00</AliquotaIVA><ImponibileImporto>25854.65</ImponibileImporto><Imposta>2585.47</Imposta><EsigibilitaIVA>I</EsigibilitaIVA><RiferimentoNormativo>IVA 10% ex n.103 Tab.A parte III DPR 633/72 - energia per uso di imprese estrattive agricole e manifatturiere</RiferimentoNormativo></DatiRiepilogo><DatiPagamento><CondizioniPagamento>TP02</CondizioniPagamento><DettaglioPagamento><ModalitaPagamento>MP19</ModalitaPagamento><DataScadenzaPagamento>2026-05-02</DataScadenzaPagamento><ImportoPagamento>28440.12</ImportoPagamento></DettaglioPagamento></DatiPagamento></FatturaElettronicaBody></p:FatturaElettronica>
+<IdSdi>7711985520</IdSdi>
+
+=========================================================================
+FILE: IT02987410244_0Prt6.xml   ricevuta il 02/02/2026   IdSdi 7689443102
+(NB Luisa: questa era gia' in contabilita' a febbraio, ricompare nell'export Q2 non so perchÃ¨)
+=========================================================================
+<?xml version="1.0" encoding="UTF-8"?>
+<p:FatturaElettronica versione="FPR12">
+<FatturaElettronicaHeader>
+   <DatiTrasmissione><IdTrasmittente><IdPaese>IT</IdPaese><IdCodice>02987410244</IdCodice></IdTrasmittente><ProgressivoInvio>455</ProgressivoInvio><FormatoTrasmissione>FPR12</FormatoTrasmissione><CodiceDestinatario>M5UXCR1</CodiceDestinatario></DatiTrasmissione>
+   <CedentePrestatore>
+      <DatiAnagrafici>
+         <IdFiscaleIVA><IdPaese>IT</IdPaese><IdCodice>02987410244</IdCodice></IdFiscaleIVA>
+         <Anagrafica><Denominazione>FLEXIPACK NORDEST S.R.L.</Denominazione></Anagrafica>
+         <RegimeFiscale>RF01</RegimeFiscale>
+      </DatiAnagrafici>
+      <Sede><Indirizzo>VIA DELL'ARTIGIANATO 44</Indirizzo><CAP>36100</CAP><Comune>VICENZA</Comune><Provincia>VI</Provincia><Nazione>IT</Nazione></Sede>
+   </CedentePrestatore>
+   <CessionarioCommittente><DatiAnagrafici><IdFiscaleIVA><IdPaese>IT</IdPaese><IdCodice>03984710230</IdCodice></IdFiscaleIVA><Anagrafica><Denominazione>AURORA FOOD GROUP S.R.L.</Denominazione></Anagrafica></DatiAnagrafici><Sede><Indirizzo>VIA DELL'INDUSTRIA 27</Indirizzo><CAP>37044</CAP><Comune>COLOGNA VENETA</Comune><Provincia>VR</Provincia><Nazione>IT</Nazione></Sede></CessionarioCommittente>
+</FatturaElettronicaHeader>
+<FatturaElettronicaBody>
+   <DatiGenerali><DatiGeneraliDocumento><TipoDocumento>TD01</TipoDocumento><Divisa>EUR</Divisa><Data>2026-01-30</Data><Numero>455/2026</Numero><ImportoTotaleDocumento>31220.45</ImportoTotaleDocumento><Causale>MATERIALE CONFEZIONAMENTO GENNAIO - ORD.851 - MOCA conformi Reg. (CE) 1935/2004 e DM 21/03/1973 - Dichiarazione di ConformitÃ  n. DoC-2026-018 trasmessa via PEC</Causale></DatiGeneraliDocumento><DatiDDT><NumeroDDT>112</NumeroDDT><DataDDT>2026-01-12</DataDDT></DatiDDT><DatiDDT><NumeroDDT>146</NumeroDDT><DataDDT>2026-01-26</DataDDT></DatiDDT></DatiGenerali>
+   <DatiBeniServizi>
+      <DettaglioLinee><NumeroLinea>1</NumeroLinea><CodiceArticolo><CodiceTipo>FORN</CodiceTipo><CodiceValore>FLX-7020</CodiceValore></CodiceArticolo><Descrizione>FILM PP/EVOH/PP 70 MY ALTA BARRIERA BOBINA H 420 MM NEUTRO</Descrizione><Quantita>1840.000</Quantita><UnitaMisura>KG</UnitaMisura><PrezzoUnitario>8.94000</PrezzoUnitario><PrezzoTotale>16449.60</PrezzoTotale><AliquotaIVA>22.00</AliquotaIVA></DettaglioLinee>
+      <DettaglioLinee><NumeroLinea>2</NumeroLinea><CodiceArticolo><CodiceTipo>FORN</CodiceTipo><CodiceValore>FLX-VAS90</CodiceValore></CodiceArticolo><Descrizione>VASCHETTA PP TRASPARENTE 2 SCOMPARTI 90X140 SALDABILE MAP</Descrizione><Quantita>96000.000</Quantita><UnitaMisura>PZ</UnitaMisura><PrezzoUnitario>0.07800</PrezzoUnitario><PrezzoTotale>7488.00</PrezzoTotale><AliquotaIVA>22.00</AliquotaIVA></DettaglioLinee>
+      <DettaglioLinee><NumeroLinea>3</NumeroLinea><Descrizione>FILM FLOW-PACK STAMPATO 5 COLORI "BONTA' DI CASA" SNACK RUSTICO 100G - impianto stampa ammortizzato</Descrizione><Quantita>184.000</Quantita><UnitaMisura>KG</UnitaMisura><PrezzoUnitario>8.98000</PrezzoUnitario><PrezzoTotale>1652.32</PrezzoTotale><AliquotaIVA>22.00</AliquotaIVA></DettaglioLinee>
+      <DettaglioLinee><NumeroLinea>4</NumeroLinea><Descrizione>CONTRIBUTO CONAI ASSOLTO OVE DOVUTO</Descrizione><PrezzoTotale>0.61</PrezzoTotale><AliquotaIVA>22.00</AliquotaIVA></DettaglioLinee>
+   </DatiBeniServizi>
+   <DatiRiepilogo><AliquotaIVA>22.00</AliquotaIVA><ImponibileImporto>25590.53</ImponibileImporto><Imposta>5629.92</Imposta><EsigibilitaIVA>I</EsigibilitaIVA></DatiRiepilogo>
+   <DatiPagamento><CondizioniPagamento>TP01</CondizioniPagamento>
+      <DettaglioPagamento><ModalitaPagamento>MP12</ModalitaPagamento><DataScadenzaPagamento>2026-04-30</DataScadenzaPagamento><ImportoPagamento>15610.22</ImportoPagamento></DettaglioPagamento>
+      <DettaglioPagamento><ModalitaPagamento>MP12</ModalitaPagamento><DataScadenzaPagamento>2026-04-30</DataScadenzaPagamento><ImportoPagamento>15610.23</ImportoPagamento></DettaglioPagamento>
+   </DatiPagamento>
+</FatturaElettronicaBody>
+</p:FatturaElettronica>
+<IdSdi>7689443102</IdSdi>
+
+=========================================================================
+FILE: IT01887650172_zZ41b.xml   ricevuta il 08/03/2026   IdSdi 7698120440
+=========================================================================
+<?xml version="1.0" encoding="UTF-8"?>
+<p:FatturaElettronica versione="FPR12"><FatturaElettronicaHeader><DatiTrasmissione><IdTrasmittente><IdPaese>IT</IdPaese><IdCodice>01887650172</IdCodice></IdTrasmittente><ProgressivoInvio>761</ProgressivoInvio><FormatoTrasmissione>FPR12</FormatoTrasmissione><CodiceDestinatario>M5UXCR1</CodiceDestinatario></DatiTrasmissione>
+<CedentePrestatore><DatiAnagrafici><IdFiscaleIVA><IdPaese>IT</IdPaese><IdCodice>01887650172</IdCodice></IdFiscaleIVA><Anagrafica><Denominazione>CHEMIFOOD ITALIA S.R.L.</Denominazione></Anagrafica><RegimeFiscale>RF01</RegimeFiscale></DatiAnagrafici><Sede><Indirizzo>VIA INDUSTRIALE 102</Indirizzo><CAP>25125</CAP><Comune>BRESCIA</Comune><Provincia>BS</Provincia><Nazione>IT</Nazione></Sede></CedentePrestatore>
+<CessionarioCommittente><DatiAnagrafici><IdFiscaleIVA><IdPaese>IT</IdPaese><IdCodice>03984710230</IdCodice></IdFiscaleIVA><Anagrafica><Denominazione>AURORA FOOD GROUP S.R.L.</Denominazione></Anagrafica></DatiAnagrafici><Sede><Indirizzo>VIA DELL'INDUSTRIA 27</Indirizzo><CAP>37044</CAP><Comune>COLOGNA VENETA</Comune><Provincia>VR</Provincia><Nazione>IT</Nazione></Sede></CessionarioCommittente></FatturaElettronicaHeader>
+<FatturaElettronicaBody><DatiGenerali><DatiGeneraliDocumento><TipoDocumento>TD01</TipoDocumento><Divisa>EUR</Divisa><Data>2026-03-05</Data><Numero>REC-2026-01161</Numero><ImportoTotaleDocumento>6238.49</ImportoTotaleDocumento><Causale>PRODOTTI DETERGENZA CIP FEBBRAIO - trasporto in ADR - SDS rev. aggiornate scaricabili area riservata - rif. IO-05 cliente</Causale></DatiGeneraliDocumento></DatiGenerali>
+<DatiBeniServizi>
+<DettaglioLinee><NumeroLinea>1</NumeroLinea><Descrizione>SODA CAUSTICA SOL. 30% CIP ALCALINO - CISTERNETTA IBC 1000 L - UN1824</Descrizione><Quantita>2.000</Quantita><UnitaMisura>PZ</UnitaMisura><PrezzoUnitario>1240.00000</PrezzoUnitario><PrezzoTotale>2480.00</PrezzoTotale><AliquotaIVA>22.00</AliquotaIVA></DettaglioLinee>
+<DettaglioLinee><NumeroLinea>2</NumeroLinea><Descrizione>ACIDO NITRICO 58% CIP ACIDO - IBC 1000 L - UN2031</Descrizione><Quantita>1.000</Quantita><UnitaMisura>PZ</UnitaMisura><PrezzoUnitario>1610.00000</PrezzoUnitario><PrezzoTotale>1610.00</PrezzoTotale><AliquotaIVA>22.00</AliquotaIVA></DettaglioLinee>
+<DettaglioLinee><NumeroLinea>3</NumeroLinea><Descrizione>SANIFICANTE ACIDO PERACETICO 15% TANICA 25 KG - UN3109</Descrizione><Quantita>18.000</Quantita><UnitaMisura>PZ</UnitaMisura><PrezzoUnitario>52.14000</PrezzoUnitario><PrezzoTotale>938.52</PrezzoTotale><AliquotaIVA>22.00</AliquotaIVA></DettaglioLinee>
+<DettaglioLinee><NumeroLinea>4</NumeroLinea><Descrizione>SPESE TRASPORTO ADR + GESTIONE VUOTI IBC</Descrizione><PrezzoTotale>85.00</PrezzoTotale><AliquotaIVA>22.00</AliquotaIVA></DettaglioLinee>
+</DatiBeniServizi>
+<DatiRiepilogo><AliquotaIVA>22.00</AliquotaIVA><ImponibileImporto>5113.52</ImponibileImporto><Imposta>1124.97</Imposta><EsigibilitaIVA>I</EsigibilitaIVA></DatiRiepilogo>
+<DatiPagamento><CondizioniPagamento>TP02</CondizioniPagamento><DettaglioPagamento><ModalitaPagamento>MP12</ModalitaPagamento><DataScadenzaPagamento>2026-05-05</DataScadenzaPagamento><ImportoPagamento>6238.49</ImportoPagamento><IstitutoFinanziario>UNICREDIT SPA FIL. COLOGNA VENETA</IstitutoFinanziario></DettaglioPagamento></DatiPagamento>
+</FatturaElettronicaBody></p:FatturaElettronica>
+<IdSdi>7698120440</IdSdi>
+NB IN CONTABILITA' RISULTA PAGATA 6.238,50 - DIFF. 0,01 DA SISTEMARE CON NOTA (L.T. 19/05)
+
+=========================================================================
+FILE: IT04123980288_p88M2.xml   ricevuta il 30/04/2026   IdSdi 7712889034
+=========================================================================
+<?xml version="1.0" encoding="UTF-8"?><p:FatturaElettronica versione="FPR12"><FatturaElettronicaHeader><DatiTrasmissione><IdTrasmittente><IdPaese>IT</IdPaese><IdCodice>04123980288</IdCodice></IdTrasmittente><ProgressivoInvio>V28841</ProgressivoInvio><FormatoTrasmissione>FPR12</FormatoTrasmissione><CodiceDestinatario>M5UXCR1</CodiceDestinatario></DatiTrasmissione><CedentePrestatore><DatiAnagrafici><IdFiscaleIVA><IdPaese>IT</IdPaese><IdCodice>04123980288</IdCodice></IdFiscaleIVA><Anagrafica><Denominazione>NORDGAS S.P.A.</Denominazione></Anagrafica><RegimeFiscale>RF01</RegimeFiscale></DatiAnagrafici><Sede><Indirizzo>ZONA IND. NORD VIA PRIMA STRADA 33</Indirizzo><CAP>35129</CAP><Comune>PADOVA</Comune><Provincia>PD</Provincia><Nazione>IT</Nazione></Sede></CedentePrestatore><CessionarioCommittente><DatiAnagrafici><IdFiscaleIVA><IdPaese>IT</IdPaese><IdCodice>03984710230</IdCodice></IdFiscaleIVA><Anagrafica><Denominazione>AURORA FOOD GROUP S.R.L.</Denominazione></Anagrafica></DatiAnagrafici><Sede><Indirizzo>VIA DELL'INDUSTRIA 27</Indirizzo><CAP>37044</CAP><Comune>COLOGNA VENETA</Comune><Provincia>VR</Provincia><Nazione>IT</Nazione></Sede></CessionarioCommittente></FatturaElettronicaHeader><FatturaElettronicaBody><DatiGenerali><DatiGeneraliDocumento><TipoDocumento>TD01</TipoDocumento><Divisa>EUR</Divisa><Data>2026-04-30</Data><Numero>V2-8841</Numero><ImportoTotaleDocumento>7912.33</ImportoTotaleDocumento><Causale>GAS TECNICI ALIMENTARI APRILE 2026 - AZOTO E941 / ANIDRIDE CARBONICA E290 conformi Reg. UE 231/2012 - certificati analisi lotto su portale</Causale></DatiGeneraliDocumento></DatiGenerali><DatiBeniServizi><DettaglioLinee><NumeroLinea>1</NumeroLinea><Descrizione>AZOTO LIQUIDO ALIMENTARE E941 RIFORNIMENTO SERBATOIO CRIOGENICO 6000L - CONSEGNE 03/04 - 14/04 - 24/04</Descrizione><Quantita>4180.000</Quantita><UnitaMisura>KG</UnitaMisura><PrezzoUnitario>0.89000</PrezzoUnitario><PrezzoTotale>3720.20</PrezzoTotale><AliquotaIVA>22.00</AliquotaIVA></DettaglioLinee><DettaglioLinee><NumeroLinea>2</NumeroLinea><Descrizione>ANIDRIDE CARBONICA ALIMENTARE E290 BOMBOLE 30 KG N.24 CONSEGNA/RITIRO</Descrizione><Quantita>24.000</Quantita><UnitaMisura>PZ</UnitaMisura><PrezzoUnitario>48.50000</PrezzoUnitario><PrezzoTotale>1164.00</PrezzoTotale><AliquotaIVA>22.00</AliquotaIVA></DettaglioLinee><DettaglioLinee><NumeroLinea>3</NumeroLinea><Descrizione>CANONE MENSILE SERBATOIO CRIOGENICO + TELEMETRIA LIVELLO</Descrizione><Quantita>1.000</Quantita><UnitaMisura>MESE</UnitaMisura><PrezzoUnitario>1250.00000</PrezzoUnitario><PrezzoTotale>1250.00</PrezzoTotale><AliquotaIVA>22.00</AliquotaIVA></DettaglioLinee><DettaglioLinee><NumeroLinea>4</NumeroLinea><Descrizione>NOLO BOMBOLE + TRASPORTO E CONSEGNA</Descrizione><PrezzoTotale>351.32</PrezzoTotale><AliquotaIVA>22.00</AliquotaIVA></DettaglioLinee></DatiBeniServizi><DatiRiepilogo><AliquotaIVA>22.00</AliquotaIVA><ImponibileImporto>6485.52</ImponibileImporto><Imposta>1426.81</Imposta><EsigibilitaIVA>I</EsigibilitaIVA></DatiRiepilogo><DatiPagamento><CondizioniPagamento>TP02</CondizioniPagamento><DettaglioPagamento><ModalitaPagamento>MP19</ModalitaPagamento><DataScadenzaPagamento>2026-05-07</DataScadenzaPagamento><ImportoPagamento>7912.33</ImportoPagamento></DettaglioPagamento></DatiPagamento></FatturaElettronicaBody></p:FatturaElettronica>
+<IdSdi>7712889034</IdSdi>
+
+=========================================================================
+FILE: IT03556120230_1qqL0.xml   ricevuta il 02/05/2026   IdSdi 7714112087
+=========================================================================
+<?xml version="1.0" encoding="UTF-8"?>
+<p:FatturaElettronica versione="FPR12">
+<FatturaElettronicaHeader>
+      <DatiTrasmissione><IdTrasmittente><IdPaese>IT</IdPaese><IdCodice>03556120230</IdCodice></IdTrasmittente><ProgressivoInvio>301</ProgressivoInvio><FormatoTrasmissione>FPR12</FormatoTrasmissione><CodiceDestinatario>M5UXCR1</CodiceDestinatario></DatiTrasmissione>
+      <CedentePrestatore><DatiAnagrafici><IdFiscaleIVA><IdPaese>IT</IdPaese><IdCodice>03556120230</IdCodice></IdFiscaleIVA><Anagrafica><Denominazione>TRASPORTI FRIGO VENETO S.R.L.</Denominazione></Anagrafica><RegimeFiscale>RF01</RegimeFiscale></DatiAnagrafici><Sede><Indirizzo>VIA CAMPAGNOLA 9</Indirizzo><CAP>37054</CAP><Comune>NOGARA</Comune><Provincia>VR</Provincia><Nazione>IT</Nazione></Sede></CedentePrestatore>
+      <CessionarioCommittente><DatiAnagrafici><IdFiscaleIVA><IdPaese>IT</IdPaese><IdCodice>03984710230</IdCodice></IdFiscaleIVA><Anagrafica><Denominazione>AURORA FOOD GROUP S.R.L.</Denominazione></Anagrafica></DatiAnagrafici><Sede><Indirizzo>VIA DELL'INDUSTRIA 27</Indirizzo><CAP>37044</CAP><Comune>COLOGNA VENETA</Comune><Provincia>VR</Provincia><Nazione>IT</Nazione></Sede></CessionarioCommittente>
+</FatturaElettronicaHeader>
+<FatturaElettronicaBody>
+      <DatiGenerali><DatiGeneraliDocumento><TipoDocumento>TD01</TipoDocumento><Divisa>EUR</Divisa><Data>2026-04-30</Data><Numero>301/26</Numero><ImportoTotaleDocumento>4880.00</ImportoTotaleDocumento><Causale>TRASPORTI REFRIGERATI APRILE 2026 MOTRICE MC FRG 442 + SEMIRIMORCHIO XA 88712 - TRATTE COLOGNA VENETA / CE.DI. TOSANO CEREA E PIATTAFORME GDO NORD EST - temperatura documentata ATP</Causale></DatiGeneraliDocumento></DatiGenerali>
+      <DatiBeniServizi>
+            <DettaglioLinee><NumeroLinea>1</NumeroLinea><Descrizione>VIAGGI REFRIGERATI -18 C APRILE N.16 COME DA DISTINTA ALLEGATA (vedi allegato)</Descrizione><Quantita>16.000</Quantita><UnitaMisura>VIAGGIO</UnitaMisura><PrezzoUnitario>195.00000</PrezzoUnitario><PrezzoTotale>3120.00</PrezzoTotale><AliquotaIVA>22.00</AliquotaIVA></DettaglioLinee>
+            <DettaglioLinee><NumeroLinea>2</NumeroLinea><Descrizione>VIAGGI TEMPERATURA CONTROLLATA +4 C N.8</Descrizione><Quantita>8.000</Quantita><UnitaMisura>VIAGGIO</UnitaMisura><PrezzoUnitario>110.00000</PrezzoUnitario><PrezzoTotale>880.00</PrezzoTotale><AliquotaIVA>22.00</AliquotaIVA></DettaglioLinee>
+      </DatiBeniServizi>
+      <DatiRiepilogo><AliquotaIVA>22.00</AliquotaIVA><ImponibileImporto>4000.00</ImponibileImporto><Imposta>880.00</Imposta><EsigibilitaIVA>I</EsigibilitaIVA></DatiRiepilogo>
+      <DatiPagamento><CondizioniPagamento>TP02</CondizioniPagamento><DettaglioPagamento><ModalitaPagamento>MP05</ModalitaPagamento><DataScadenzaPagamento>2026-05-15</DataScadenzaPagamento><ImportoPagamento>4880.00</ImportoPagamento><IBAN>IT33Q0503459880000000112044</IBAN></DettaglioPagamento></DatiPagamento>
+</FatturaElettronicaBody>
+</p:FatturaElettronica>
+<IdSdi>7714112087</IdSdi>
+(pagata con bonifico unico 8.940,00 assieme alla 302/26 che nell'export NON C'E' - risulta solo su Zucchetti, boh)
+
+=========================================================================
+FILE: IT02244780371_visual.txt   VISUALIZZAZIONE SEMPLIFICATA SDI (stampa da AssoInvoice)
+=========================================================================
+FATTURA ELETTRONICA - VISUALIZZAZIONE
+Mittente: PAKMATIC ITALIA S.R.L. P.IVA IT02244780371 VIA DELL'INTERPORTO 88 40010 BENTIVOGLIO BO ITALIA
+Destinatario: AURORA FOOD GROUP S.R.L. P.IVA IT03984710230 Cod.Dest. M5UXCR1
+Tipologia doc: TD01 fattura   Numero: 771/26   Data: 12-05-2026   Divisa EUR
+Causale: FORNITURA RICAMBI URGENTE - rif. chiamata sig. Dal Maso 08/05 - spedizione espressa concordata consegna prevista 15/05
+Linea Descrizione Qta UM Prezzo Totale IVA
+1 KIT VALVOLA INIEZIONE AZOTO COMPLETA PER CONFEZIONATRICE PKM-450 COD.PK-VLV-0808 ORIGINALE 1,00 PZ 1.386,48 1.386,48 22%
+2 GUARNIZIONI OR VITON RICAMBIO SET 10 PZ COD.PK-OR-0844 1,00 SET 65,00 65,00 22%
+3 SPEDIZIONE ESPRESSA DEDICATA 24H 1,00 - 80,00 80,00 22%
+Riepilogo: Aliquota 22% Imponibile 1.531,48 Imposta 336,92
+TOTALE DOCUMENTO 1.868,40
+Pagamento: MP05 bonifico - scadenza 12-06-2026 - IBAN IT14Z0306902477100000009915
+NB pagata in anticipo il 14/05 causa fermo linea (autorizz. Fantin tel.)
+
+=========================================================================
+FILE: IT02052850241_visual.txt   VISUALIZZAZIONE SEMPLIFICATA SDI
+=========================================================================
+FATTURA ELETTRONICA - VISUALIZZAZIONE
+Mittente: CSQA CERTIFICAZIONI S.R.L. P.IVA IT02052850241 VIA S.GAETANO 74 36016 THIENE VI ITALIA
+Destinatario: AURORA FOOD GROUP SRL P.IVA IT03984710230 Cod.Dest. M5UXCR1
+Tipologia doc: TD01 fattura Numero: 2201/26 Data: 28-02-2026 Divisa EUR
+Causale: Attivita' di audit di certificazione svolte in data 17-18/02/2026 presso sito produttivo di Cologna Veneta (VR) - schema BRCGS Food Safety Issue 9 (cert. BRC/IT/24/00871) e IFS Food v8 (cert. IFS/IT/25/03390) audit combinato - lead auditor dott.ssa N. Franceschini co-auditor p.i. F. Menegazzo
+Linea Descrizione Qta UM Prezzo Totale IVA 1 AUDIT COMBINATO BRCGS ISSUE 9 + IFS FOOD V8 - 2 GG UOMO X 2 AUDITOR - QUOTA SCHEMA E ROYALTIES INCLUSE 1,00 CORPO 4.100,00 4.100,00 22% 2 SPESE VIAGGIO E TRASFERTA FORFAIT 1,00 CORPO 400,00 400,00 22%
+Riepilogo: Aliquota 22% Imponibile 4.500,00 Imposta 990,00
+TOTALE DOCUMENTO 5.490,00
+Pagamento: MP05 bonifico 60gg df - scadenza 29-04-2026
+[pag. 1/1]
+
+=========================================================================
+FILE: NS_IT01455870483_00042.xml   NOTIFICA DI SCARTO   ricevuta il 19/05/2026
+=========================================================================
+<?xml version="1.0" encoding="UTF-8"?>
+<ns3:RicevutaScarto xmlns:ns3="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/messaggi/v1.0">
+   <IdentificativoSdI>7716220981</IdentificativoSdI>
+   <NomeFile>IT01455870483_00042.xml</NomeFile>
+   <DataOraRicezione>2026-05-19T16:44:02.000+02:00</DataOraRicezione>
+   <ListaErrori>
+      <Errore>
+         <Codice>00301</Codice>
+         <Descrizione>00301 - Partita IVA cedente non valida : verifica anagrafica IdFiscaleIVA/IdCodice 01455870483 [EUROGLASS BOCCACCI S.R.L. - EMPOLI FI]</Descrizione>
+      </Errore>
+   </ListaErrori>
+   <MessageId>184490221</MessageId>
+</ns3:RicevutaScarto>
+girata a Euroglass il 20/05 via PEC, dicono che hanno cambiato P.IVA con la fusione e il gestionale mandava ancora la vecchia. Rimandano la fattura vasetti a giugno. AVVISARE MAGAZZINO che la bolla resta senza fattura (L.T.)
+
+fine export - 9 documenti - portale Fatture e Corrispettivi Agenzia delle Entrate

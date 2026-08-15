@@ -1,0 +1,213 @@
+VERBALI PROVE DI SCALE-UP — CORNETTO PREMIUM
+rif. prodotti: AF-CR-0212 (Cornetto Premium burro 6x50 g surgelato, marchio Aurora)
+               AF-CR-0215 (Cornetto Premium PL Tosano 8x45 g surgelato, "Bonta' di Casa")
+obiettivo: trasferire la ricetta pilota (planetaria 5 kg) su impastatrice
+industriale IMP-300 (300 kg) — Linea 2 — mantenendo qualita' sfoglia e peso pezzo
+target peso pezzo crudo AF-CR-0215: 45 g +/- 2 g (capitolato Tosano)
+target peso pezzo crudo AF-CR-0212: 50 g +/- 2 g
+redige: dott. A. Zanchetta (R&D) — verbali approvati da ing. M. Fantin
+
+file unico, aggiornato dopo ogni prova. le decisioni stanno in fondo a ogni verbale.
+
+##########################################################################
+PROVA 1 — giovedi' 05/03/2026 — Linea 2 — ore 06:00-13:30
+##########################################################################
+
+Presenti: Zanchetta (R&D), Meneghello (R&D tirocinante), Zanella (resp. produzione),
+Ben Salah (capoturno L2), Dal Maso (officina, solo avviamento), Pozzato (QC, campioni)
+
+Batch: 180 kg farina — impasto teorico ~306 kg
+Farina 0 W300 lotto F0012/26-081 (alveogramma W=305 P/L=0,55, conforme)
+Burro placche 82% m.g. F0021 Latteria Bassanese, lotto BP-26044, stoccato CF-01 a +4
+
+parametri impasto IMP-300 (trasposizione diretta da pilota — ERRORE, vedi sotto):
+                                  pilota 5kg      IMP-300 prova 1
+  vel.1 (min)                        8                8
+  vel.2 (min)                        6                6
+  T acqua ingresso                  14 C             14 C
+  T farina                          19 C             21 C
+  T IMPASTO FINE IMPASTO           24,5 C           31,4 C   <<<< +6,9 C !!!
+
+L'IMP-300 scalda molto piu' della planetaria: massa 60x, attrito spirale, vasca
+che a inizio turno era gia' a 24 C (sala impasti a 26, il raffrescamento in sala
+e' sottodimensionato, nota gia' fatta a Fantin a settembre).
+Impasto a 31,4 C = burro in laminazione impossibile: gia' al primo giro di
+sfogliatrice il panetto "beve" il burro.
+
+incordatura: NON replicabile coi tempi pilota. a 8+6 min l'impasto era ancora
+slegato, maglia corta. servono altri 4 min di vel.2 ma cosi' la T sale ancora.
+prova di forza (finestra): strappa. Ben Salah conferma che con la ricetta classica
+(0212 attuale) l'incordatura all'IMP-300 arriva a 9 min vel.2, non 6.
+
+sfogliatura (sfogliatrice L2):
+  burro placche: uscito da CF-01 alle 05:40, in laminazione alle 08:55 — T burro
+  rilevata 16,8 C: TROPPO ALTA (target 12-14). le placche si sfaldavano ai bordi,
+  due si sono spaccate al primo giro (burro ancora troppo freddo al cuore e caldo
+  fuori — gradiente, sono uscite dalla cella e rimaste 3 h in sala a 26).
+  3 pieghe da 3 previste; fatte 3 ma con 2 soste extra in abbattitore (15 min cad)
+  per recuperare la T impasto -> tempo totale sfogliatura 2 h 10 vs 1 h 15 pianificato
+laminazione finale: 3,2 mm — irregolare, spessore misurato 2,9-3,6 sul fronte nastro
+
+formatura/avvolgitura: ok meccanicamente
+peso pezzo crudo (target 45 +/- 2 g, formato 0215):
+  campione n=50: media 47,1 g — dev.st 2,8 — FUORI TOLLERANZA (min 41,8 max 53,0)
+  il velo irregolare si porta dietro tutto.
+
+lievitazione: cella L2 a 28 C / 80% UR, 150 min come da pilota
+  sviluppo DISOMOGENEO: i pezzi dei primi carrelli ok, gli ultimi (impasto piu'
+  caldo, piu' vecchio di 50 min) sovralievitati, alcuni collassati in cottura
+
+cottura FT-02: 175 C, 16 min (profilo standard 0212) — accettabile
+surgelazione TS-01: T cuore -18 C raggiunta in 205 min (limite CCP4 240 min) OK
+  ma il TS-01 era mezzo vuoto. a pieno carico non ci sta dentro, dice Guerra. flag.
+
+volume specifico (metodo semi di colza, lab): 6,1 ml/g vs 7,4 pilota = -18%   MALE
+sfogliatura al taglio: irregolare, strati fusi nella meta' inferiore
+assaggio post-cottura (da surgelato, 12 min a 180): burro c'e', struttura "pane"
+
+SCARTO PROVA 1: 23,2% (pezzi fuori peso + collassati + fine nastro)
+71 kg di impasto a scarto. Zanella, testuale: "ogni prova cosi' costa come mezza
+produzione persa, tra materia prima, 6 persone e la linea ferma per la 0450 che
+intanto non gira. la quarta prova la fate pagare al budget R&D, non al mio."
+(riportato per completezza, la questione budget la vede Fantin)
+
+DECISIONI PROVA 1:
+D1. acqua ghiacciata (50% ghiaccio scaglie) per abbattere T fine impasto
+D2. vasca IMP-300 pre-raffreddata (giro di acqua fredda in camicia 30 min prima)
+D3. burro: fuori cella 45 min PRIMA della laminazione, non 3 h. termometro spillone.
+D4. impasto in 2 sub-batch da 150 kg per ridurre il tempo di attesa in formatura
+AZIONI APERTE:
+A1. Dal Maso: verificare camicia raffreddamento IMP-300 (perde? scala?) — entro 12/03
+A2. Zanchetta: profilo lievitazione ridotto per impasto industriale — proposta
+A3. Fantin: valutare abbattitore dedicato zona sfogliatura (richiesta CapEx?)
+
+##########################################################################
+PROVA 2 — giovedi' 19/03/2026 — Linea 2 — ore 06:00-12:45
+##########################################################################
+
+Presenti: Zanchetta, Meneghello, Zanella, Ben Salah, Popescu (in affiancamento,
+richiesto da Zanella per polivalenza), Pozzato (campioni)
+Assente giustificato: Dal Maso (intervento su MD-3200) — camicia IMP-300 verificata
+il 13/03: funzionante ma incrostata, disincrostata con ciclo acido (rif. IO-05)
+
+modifiche applicate: D1, D2, D3, D4 tutte attive
+
+  sub-batch A (150 kg farina):
+  T acqua+ghiaccio ingresso:  4 C
+  vasca pre-raffreddata:      18 C a inizio impasto
+  vel.1: 8 min / vel.2: 10 min (incordatura piena raggiunta al min 9,5)
+  T FINE IMPASTO: 26,1 C    <- MOLTO meglio (+1,6 vs pilota, era +6,9)
+  sub-batch B: identico, T fine 26,8 (vasca gia' calda dal batch A, ovvio)
+
+burro placche: fuori CF-01 alle 08:10, laminazione 08:55, T burro 13,2 C  OK
+  placche integre, plastiche, nessuno sfaldamento
+sfogliatura: 3x3, UNA sosta in abbattitore da 15 min (solo tra 2a e 3a piega)
+  tempo totale 1 h 35
+laminazione finale 3,2 mm: rilevato 3,0-3,4  meglio, non perfetto
+  (rullo di testa della sfogliatrice ha gioco? chiesto a officina, vedi A4)
+
+peso pezzo crudo n=50: media 45,8 g — dev.st 1,6 — max 49,1 min 42,4
+  DENTRO tolleranza ma la coda alta preoccupa, 4 pezzi sopra 48
+
+lievitazione: 28 C / 80% UR, ridotta a 135 min (proposta A2) — sviluppo omogeneo
+  sub-batch B in cella 40 min dopo A, differenza visiva minima. D4 funziona.
+cottura FT-02 175 C 16 min: ok
+surgelazione TS-01: -18 C cuore in 220 min. carico maggiore di prova 1. limite 240
+  si avvicina. quando arriva il Criotech CR-SP180 questo problema sparisce, ma
+  il CapEx e' slittato (acconto a maggio, dice Trentin). per ora: non caricare
+  TS-01 con piu' di 2 carrelli/ora. Guerra avvisato.
+
+volume specifico: 6,9 ml/g (-7% vs pilota)   in recupero
+sfogliatura al taglio: strati leggibili, base ancora un po' fusa
+SCARTO PROVA 2: 8,5%
+
+DECISIONI PROVA 2:
+D5. lievitazione industriale CONFERMATA a 135 min 28C/80%UR
+D6. peso: tarare avvolgitrice su velo 3,1 (non 3,2) e rialzare se serve
+AZIONI:
+A4. officina: gioco rullo di testa sfogliatrice — verifica entro prova 3
+A5. Zanchetta: curva T impasto nei 2 sub-batch con datalogger (per il dossier)
+
+##########################################################################
+PROVA 3 — giovedi' 02/04/2026 — Linea 2 — ore 06:00-12:10
+##########################################################################
+
+Presenti: Zanchetta, Zanella, Ben Salah, Rossato (TecnoForni, per profilo FT-02),
+Pozzato. Meneghello assente (universita').
+Nota: stessa mattina Marchetti chiudeva l'invio evidenze audit CSQA, QC ridotto.
+
+A4 chiusa: rullo di testa aveva 0,3 mm di gioco, spessorato da officina il 27/03.
+
+sub-batch A: T fine impasto 25,7 / sub-batch B: 26,3   bene
+burro 13,0 C — ok — sfogliatura 1 h 30, una sosta
+laminazione 3,1 mm: rilevato 3,0-3,25   il gioco era mezzo problema. bene.
+
+peso pezzo crudo n=80 (aumentato il campione, richiesta QC):
+  media 45,3 g — dev.st 1,1 — min 43,0 max 47,7   4 pz sopra tolleranza
+  su 0212 (velo dedicato, 50 g): media 50,4 dev.st 1,2  ok
+
+lievitazione 135 min: ok
+cottura: Rossato ha rimappato FT-02 -> zona 2 aveva -8 C vs set (resistenza
+  parziale ko, sostituita in giornata, ecco perche' "base fusa": sotto-cottura
+  della suola nelle prove 1-2, non solo colpa della sfogliatura)
+  nuovo profilo: 178/172/168 nelle 3 zone, 15 min
+surgelazione: -18 in 210 min con carico pieno di prova. ok ma vedi nota TS-01 sopra.
+
+volume specifico: 7,2 ml/g (-3% vs pilota)   ACCETTABILE per me
+sfogliatura al taglio: buona, strati distinti anche alla base
+assaggio: Ben Salah dice "come il pilota". Zanella: "spedibile".
+SCARTO PROVA 3: 6,8%
+
+DECISIONI:
+D7. profilo FT-02 nuovo (178/172/168 x 15) ADOTTATO per 0212/0215
+D8. prova 4 = prova di CONFERMA in condizioni di produzione reale (turno vero,
+    nessun presidio R&D continuo, solo audit finale) — se regge, si chiude
+AZIONI:
+A6. Rossato/officina: contratto verifica semestrale mappatura FT-02 (proposta
+    a Fantin, costo da definire)
+A7. Pozzato: campioni prova 3 a shelf life domestica (-18, riprove a 30/60/90 gg)
+
+##########################################################################
+PROVA 4 — mercoledi' 15/04/2026 — Linea 2 — turno 1 regolare
+##########################################################################
+
+Presenti (solo audit): Zanchetta, Meneghello. Conduzione: Ben Salah + squadra turno 1.
+Zanella passato alle 09:00. Fantin presente alla chiusura per firma.
+
+condotta interamente dal turno con la scheda di lavorazione nuova (bozza SCH-L2-CR
+rev.0 scritta da R&D, da formalizzare con QA — Marchetti la vuole nel sistema
+documentale, non "un foglio di Zanchetta", parole sue, ha ragione)
+
+numeri di sintesi:
+  T fine impasto:        25,9 / 26,5 (sub-batch A/B)
+  T burro laminazione:   13,5
+  sfogliatura:           1 h 40 (squadra, senza R&D addosso: accettabile)
+  peso pezzo 0215 n=80:  media 45,1 — dev.st 1,2 — range 42,6-47,9  CONFORME salvo code
+  lievitazione:          135 min 28C/80%UR
+  cottura:               profilo D7
+  volume specifico:      7,1 ml/g
+  scarto:                5,9%   <- da 14% a 5,9% in 4 prove
+  surgelazione:          -18 cuore in 215 min
+
+problemi residui (non bloccanti, tracciati):
+- il secondo sub-batch resta +0,5/0,7 C piu' caldo: conviene invertire l'ordine
+  dei veli (prima il B) o raffreddare la vasca tra i batch (costa 15 min/ciclo)
+- domenica: la scheda nuova allunga il ciclo di ~25 min vs 0212 storico. con gli
+  ordini Tosano delle settimane promo (19-21) e la Linea 2 gia' su 3 domeniche,
+  Zanella chiede che il primo lotto vero di 0215 nuova ricetta NON cada in
+  settimana promo. concordato: primo lotto produttivo dopo la settimana 21.
+- TS-01 resta il collo di bottiglia vero. fuori scopo di questo dossier.
+
+ESITO: SCALE-UP VALIDATO per AF-CR-0212 e AF-CR-0215 con parametri D1-D7.
+La scheda SCH-L2-CR passa a QA per emissione controllata (target rev.1 entro 10/05,
+poi formazione squadre L2 registrata su MOD-HR-11).
+
+Costi prove (stima Zanella, da verificare con Trentin — materia prima + linea +
+personale, 4 prove): ~9.800 euro. Non era a budget R&D. Fantin: "se ne parla a
+consuntivo, intanto il prodotto esce". Verbale chiuso.
+
+firmato: ing. M. Fantin  (Direttore di Stabilimento)
+         dott. A. Zanchetta (R&D)
+copia a: Zanella, Ben Salah, Marchetti (per SCH-L2-CR), archivio R&D
+
+distribuzione fatta a mano il 17/04, manca ancora la copia protocollata per QA

@@ -1,0 +1,151 @@
+REGISTRO TAMPONI SUPERFICI - MOD-QA-19 - anno 2026 - lab. esterno Analytica Veneta S.r.l. (ACCREDIA 0987);;;;;;;;;;;;;;
+N_rapporto;Data_prelievo;Data_analisi;Zona;Punto_prelievo;Linea;Tipo_superficie;Parametro;Metodo;Risultato;UM;Limite;Esito;Operatore;Note
+AV-26/0142;13/01/26;16/01/26;1;nastro forno FT-01;L1;acciaio inox;CBT 30°C;ISO 4833-1;<10;UFC/cm2;<=50;CONFORME;Pozzato S.;post sanificazione
+AV-26/0142;13/01/26;16/01/26;1;nastro forno FT-01;L1;acciaio inox;Enterobacteriaceae;ISO 21528-2;<1;UFC/cm2;<=10;CONFORME;Pozzato S.;
+AV-26/0142;13/01/26;18/01/26;1;nastro forno FT-01;L1;acciaio inox;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0142;13/01/26;16/01/26;1;uscita PT-104;L1;acciaio inox;CBT 30°C;ISO 4833-1;<10;UFC/cm2;<=50;CONFORME;Pozzato S.;
+AV-26/0142;13/01/26;16/01/26;1;uscita PT-104;L1;acciaio inox;Enterobacteriaceae;ISO 21528-2;<1;UFC/cm2;<=10;CONFORME;Pozzato S.;
+AV-26/0142;13/01/26;18/01/26;1;uscita PT-104;L1;acciaio inox;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0142;13/01/26;16/01/26;1;scivolo MD-3200;L1;acciaio inox;CBT 30°C;ISO 4833-1;15;UFC/cm2;<=50;CONFORME;Pozzato S.;
+AV-26/0142;13/01/26;16/01/26;1;scivolo MD-3200;L1;acciaio inox;Enterobacteriaceae;ISO 21528-2;<1;UFC/cm2;<=10;CONFORME;Pozzato S.;
+AV-26/0142;13/01/26;16/01/26;1;ganasce PKM-450;L1;acciaio inox;CBT 30°C;ISO 4833-1;22;UFC/cm2;<=50;CONFORME;Pozzato S.;
+AV-26/0142;13/01/26;16/01/26;1;ganasce PKM-450;L1;acciaio inox;Enterobacteriaceae;ISO 21528-2;2;UFC/cm2;<=10;CONFORME;Pozzato S.;
+AV-26/0142;13/01/26;18/01/26;1;ganasce PKM-450;L1;acciaio inox;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0142;13/01/26;16/01/26;1;mani operatore (Popescu I.);L1;cute/guanto;Staphylococcus aureus;ISO 6888-1;<1;UFC/cm2;<=1;CONFORME;Pozzato S.;
+AV-26/0142;13/01/26;16/01/26;1;mani operatore (addetto farcitura);L1;cute/guanto;Enterobacteriaceae;ISO 21528-2;<1;UFC/cm2;<=1;CONFORME;Pozzato S.;
+AV-26/0142;13/01/26;16/01/26;2;maniglie porta ingresso L1;L1;acciaio verniciato;CBT 30°C;ISO 4833-1;1,4x10^2;UFC/cm2;<=100;NON CONFORME;Pozzato S.;risanificato in giornata vedi riga sotto
+AV-26/0143;15/01/26;17/01/26;2;maniglie porta ingresso L1;L1;acciaio verniciato;CBT 30°C;ISO 4833-1;35;UFC/cm2;<=100;CONFORME;Pozzato S.;ricampionamento post sanificazione straordinaria IO-05 del 14/01
+AV-26/0142;13/01/26;16/01/26;2;ruote carrelli farcitura;L1;plastica;CBT 30°C;ISO 4833-1;2,3x10^2;UFC/cm2;<=500;CONFORME;Pozzato S.;zona 2 limite ampio
+AV-26/0142;13/01/26;18/01/26;3;scarico a pavimento sotto PT-104;L1;ghisa/PVC;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0142;13/01/26;18/01/26;3;scarico a pavimento sotto PT-104;L1;ghisa/PVC;Salmonella spp.;ISO 6579-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0142;13/01/26;18/01/26;1;guarnizioni cella CF-02;L3;gomma;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0142;13/01/26;16/01/26;1;guarnizioni cella CF-02;L3;gomma;Lieviti;ISO 21527-1;<10;UFC/cm2;<=100;CONFORME;Pozzato S.;
+AV-26/0142;13/01/26;16/01/26;1;guarnizioni cella CF-02;L3;gomma;Muffe;ISO 21527-1;12;UFC/cm2;<=100;CONFORME;Pozzato S.;condensa su guarnizione lato sx
+AV-26/0142;13/01/26;16/01/26;1;piano sfogliatrice;L2;acciaio inox;CBT 30°C;ISO 4833-1;<10;UFC/cm2;<=50;CONFORME;Pozzato S.;
+AV-26/0142;13/01/26;16/01/26;1;piano sfogliatrice;L2;acciaio inox;Lieviti;ISO 21527-1;28;UFC/cm2;<=100;CONFORME;Pozzato S.;residui farina
+AV-26/0142;13/01/26;18/01/26;3;scarico a pavimento L2;L2;PVC;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0158;2026-02-10;2026-02-13;1;nastro forno FT-01;L1;acciaio inox;CBT 30°C;ISO 4833-1;12;UFC/cm2;<=50;CONFORME;Pozzato S.;
+AV-26/0158;2026-02-10;2026-02-13;1;nastro forno FT-01;L1;acciaio inox;Enterobacteriaceae;ISO 21528-2;<1;UFC/cm2;<=10;CONFORME;Pozzato S.;
+AV-26/0158;2026-02-10;2026-02-15;1;nastro forno FT-01;L1;acciaio inox;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0158;2026-02-10;2026-02-13;1;uscita PT-104;L1;acciaio inox;CBT 30°C;ISO 4833-1;18;UFC/cm2;<=50;CONFORME;Pozzato S.;
+AV-26/0158;2026-02-10;2026-02-13;1;uscita PT-104;L1;acciaio inox;Enterobacteriaceae;ISO 21528-2;<1;UFC/cm2;<=10;CONFORME;Pozzato S.;
+AV-26/0158;2026-02-10;2026-02-15;1;uscita PT-104;L1;acciaio inox;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;prelievo in presenza auditor CSQA prova a campione
+AV-26/0158;2026-02-10;2026-02-13;1;scivolo MD-3200;L1;acciaio inox;CBT 30°C;ISO 4833-1;25;UFC/cm2;<=50;CONFORME;Pozzato S.;
+AV-26/0158;2026-02-10;2026-02-13;1;scivolo MD-3200;L1;acciaio inox;Enterobacteriaceae;ISO 21528-2;3;UFC/cm2;<=10;CONFORME;Pozzato S.;
+AV-26/0158;2026-02-10;2026-02-13;1;ganasce PKM-450;L1;acciaio inox;CBT 30°C;ISO 4833-1;30;UFC/cm2;<=50;CONFORME;Pozzato S.;
+AV-26/0158;2026-02-10;2026-02-13;1;ganasce PKM-450;L1;acciaio inox;Enterobacteriaceae;ISO 21528-2;4;UFC/cm2;<=10;CONFORME;Pozzato S.;
+AV-26/0158;2026-02-10;2026-02-15;1;ganasce PKM-450;L1;acciaio inox;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0158;2026-02-10;2026-02-13;2;ruote carrelli farcitura;L1;plastica;CBT 30°C;ISO 4833-1;>1500;UFC/cm2;<=500;NON CONFORME;Pozzato S.;ruote incrostate segnalato a Zanella D.
+AV-26/0158;2026-02-10;2026-02-13;2;ruote carrelli farcitura;L1;plastica;Enterobacteriaceae;ISO 21528-2;2,4x10^2;UFC/cm2;<=50;NON CONFORME;Pozzato S.;idem sopra apertura NC-26-018
+AV-26/0161;14/02/26;17/02/26;2;ruote carrelli farcitura;L1;plastica;CBT 30°C;ISO 4833-1;85;UFC/cm2;<=500;CONFORME;Pozzato S.;ricampionamento post sanificazione straordinaria del 12/02 (schiuma + PAA) IO-05
+AV-26/0161;14/02/26;17/02/26;2;ruote carrelli farcitura;L1;plastica;Enterobacteriaceae;ISO 21528-2;8;UFC/cm2;<=50;CONFORME;Pozzato S.;chiusura NC-26-018
+AV-26/0158;2026-02-10;2026-02-13;2;maniglie porta ingresso L1;L1;acciaio verniciato;CBT 30°C;ISO 4833-1;42;UFC/cm2;<=100;CONFORME;Pozzato S.;
+AV-26/0158;2026-02-10;2026-02-15;3;scarico a pavimento sotto PT-104;L1;ghisa/PVC;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0158;2026-02-10;2026-02-15;3;scarico a pavimento sotto PT-104;L1;ghisa/PVC;Salmonella spp.;ISO 6579-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0158;2026-02-10;2026-02-15;1;guarnizioni cella CF-02;L3;gomma;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0158;2026-02-10;2026-02-13;1;guarnizioni cella CF-02;L3;gomma;Muffe;ISO 21527-1;18;UFC/cm2;<=100;CONFORME;Pozzato S.;
+AV-26/0158;2026-02-10;2026-02-13;1;mani operatore (Ben Salah A.);L2;cute/guanto;Staphylococcus aureus;ISO 6888-1;<1;UFC/cm2;<=1;CONFORME;Pozzato S.;
+AV-26/0158;2026-02-10;2026-02-13;1;mani operatore (addetto sfogliatura);L2;cute/guanto;Enterobacteriaceae;ISO 21528-2;<1;UFC/cm2;<=1;CONFORME;Pozzato S.;
+AV-26/0158;2026-02-10;2026-02-13;1;piano sfogliatrice;L2;acciaio inox;CBT 30°C;ISO 4833-1;14;UFC/cm2;<=50;CONFORME;Pozzato S.;
+AV-26/0158;2026-02-10;2026-02-15;3;scarico a pavimento L2;L2;PVC;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0158;2026-02-10;2026-02-13;1;nastro uscita tunnel TS-01;L3;acciaio inox;CBT 30°C;ISO 4833-1;<10;UFC/cm2;<=50;CONFORME;Pozzato S.;
+AV-26/0158;2026-02-10;2026-02-15;1;nastro uscita tunnel TS-01;L3;acciaio inox;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0177;09/03/2026;12/03/2026;1;nastro forno FT-01;L1;acciaio inox;CBT 30°C;ISO 4833-1;16;UFC/cm2;<=50;CONFORME;Pozzato S.;
+AV-26/0177;09/03/2026;12/03/2026;1;nastro forno FT-01;L1;acciaio inox;Enterobacteriaceae;ISO 21528-2;<1;UFC/cm2;<=10;CONFORME;Pozzato S.;
+AV-26/0177;09/03/2026;14/03/2026;1;nastro forno FT-01;L1;acciaio inox;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0177;09/03/2026;12/03/2026;1;uscita PT-104;L1;acciaio inox;CBT 30°C;ISO 4833-1;20;UFC/cm2;<=50;CONFORME;Pozzato S.;
+AV-26/0177;09/03/2026;12/03/2026;1;uscita PT-104;L1;acciaio inox;Enterobacteriaceae;ISO 21528-2;2;UFC/cm2;<=10;CONFORME;Pozzato S.;
+AV-26/0177;09/03/2026;14/03/2026;1;uscita PT-104;L1;acciaio inox;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0177;09/03/2026;12/03/2026;1;scivolo MD-3200;L1;acciaio inox;CBT 30°C;ISO 4833-1;19;UFC/cm2;<=50;CONFORME;Pozzato S.;
+AV-26/0177;09/03/2026;12/03/2026;1;ganasce PKM-450;L1;acciaio inox;CBT 30°C;ISO 4833-1;28;UFC/cm2;<=50;CONFORME;Pozzato S.;
+AV-26/0177;09/03/2026;12/03/2026;1;ganasce PKM-450;L1;acciaio inox;Enterobacteriaceae;ISO 21528-2;3;UFC/cm2;<=10;CONFORME;Pozzato S.;
+AV-26/0177;09/03/2026;14/03/2026;1;ganasce PKM-450;L1;acciaio inox;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0177;09/03/2026;12/03/2026;2;maniglie porta ingresso L1;L1;acciaio verniciato;CBT 30°C;ISO 4833-1;55;UFC/cm2;<=100;CONFORME;Pozzato S.;
+AV-26/0177;09/03/2026;12/03/2026;2;ruote carrelli farcitura;L1;plastica;CBT 30°C;ISO 4833-1;1,1x10^2;UFC/cm2;<=500;CONFORME;Pozzato S.;pulizia settimanale ruote inserita a piano
+AV-26/0177;09/03/2026;14/03/2026;3;scarico a pavimento sotto PT-104;L1;ghisa/PVC;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0177;09/03/2026;14/03/2026;3;scarico a pavimento sotto PT-104;L1;ghisa/PVC;Salmonella spp.;ISO 6579-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0177;09/03/2026;14/03/2026;1;guarnizioni cella CF-02;L3;gomma;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0177;09/03/2026;12/03/2026;1;guarnizioni cella CF-02;L3;gomma;Muffe;ISO 21527-1;25;UFC/cm2;<=100;CONFORME;Pozzato S.;guarnizione lato sx da sostituire segnalato a Dal Maso
+AV-26/0177;09/03/2026;12/03/2026;1;mani operatore (Guerra R.);L3;cute/guanto;Staphylococcus aureus;ISO 6888-1;<1;UFC/cm2;<=1;CONFORME;Pozzato S.;
+AV-26/0177;09/03/2026;12/03/2026;1;piano sfogliatrice;L2;acciaio inox;CBT 30°C;ISO 4833-1;22;UFC/cm2;<=50;CONFORME;Pozzato S.;
+AV-26/0177;09/03/2026;12/03/2026;1;piano sfogliatrice;L2;acciaio inox;Lieviti;ISO 21527-1;45;UFC/cm2;<=100;CONFORME;Pozzato S.;
+AV-26/0177;09/03/2026;14/03/2026;3;scarico a pavimento L2;L2;PVC;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0177;09/03/2026;14/03/2026;3;scarico a pavimento L2;L2;PVC;Salmonella spp.;ISO 6579-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0177;09/03/2026;12/03/2026;1;nastro uscita tunnel TS-01;L3;acciaio inox;CBT 30°C;ISO 4833-1;<10;UFC/cm2;<=50;CONFORME;Pozzato S.;
+AV-26/0177;09/03/2026;14/03/2026;1;nastro uscita tunnel TS-01;L3;acciaio inox;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+N_rapporto;Data_prelievo;Data_analisi;Zona;Punto_prelievo;Linea;Tipo_superficie;Parametro;Metodo;Risultato;UM;Limite;Esito;Operatore;Note
+AV-26/0195;13-apr-26;16-apr-26;1;nastro forno FT-01;L1;acciaio inox;CBT 30°C;ISO 4833-1;38;UFC/cm2;<=50;CONFORME;Pozzato S.;valore in salita vs marzo
+AV-26/0195;13-apr-26;16-apr-26;1;nastro forno FT-01;L1;acciaio inox;Enterobacteriaceae;ISO 21528-2;5;UFC/cm2;<=10;CONFORME;Pozzato S.;
+AV-26/0195;13-apr-26;18-apr-26;1;nastro forno FT-01;L1;acciaio inox;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0195;13-apr-26;16-apr-26;1;uscita PT-104;L1;acciaio inox;CBT 30°C;ISO 4833-1;44;UFC/cm2;<=50;CONFORME;Pozzato S.;produzione spinta promo Tosano meno tempo x sanificazione
+AV-26/0195;13-apr-26;16-apr-26;1;uscita PT-104;L1;acciaio inox;Enterobacteriaceae;ISO 21528-2;6;UFC/cm2;<=10;CONFORME;Pozzato S.;
+AV-26/0195;13-apr-26;18-apr-26;1;uscita PT-104;L1;acciaio inox;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0195;13-apr-26;16-apr-26;1;scivolo MD-3200;L1;acciaio inox;CBT 30°C;ISO 4833-1;41;UFC/cm2;<=50;CONFORME;Pozzato S.;
+AV-26/0195;13-apr-26;16-apr-26;1;scivolo MD-3200;L1;acciaio inox;Enterobacteriaceae;ISO 21528-2;7;UFC/cm2;<=10;CONFORME;Pozzato S.;
+AV-26/0195;13-apr-26;16-apr-26;1;ganasce PKM-450;L1;acciaio inox;CBT 30°C;ISO 4833-1;47;UFC/cm2;<=50;CONFORME;Pozzato S.;appena sotto limite
+AV-26/0195;13-apr-26;16-apr-26;1;ganasce PKM-450;L1;acciaio inox;Enterobacteriaceae;ISO 21528-2;8;UFC/cm2;<=10;CONFORME;Pozzato S.;
+AV-26/0195;13-apr-26;18-apr-26;1;ganasce PKM-450;L1;acciaio inox;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0195;13-apr-26;16-apr-26;2;maniglie porta ingresso L1;L1;acciaio verniciato;CBT 30°C;ISO 4833-1;88;UFC/cm2;<=100;CONFORME;Pozzato S.;
+AV-26/0195;13-apr-26;16-apr-26;2;ruote carrelli farcitura;L1;plastica;CBT 30°C;ISO 4833-1;3,2x10^2;UFC/cm2;<=500;CONFORME;Pozzato S.;
+AV-26/0195;13-apr-26;18-apr-26;3;scarico a pavimento sotto PT-104;L1;ghisa/PVC;Listeria monocytogenes;ISO 11290-1;PRESENTE;/25cm2;assente/25cm2;NON CONFORME;Pozzato S.;zona 3 non a contatto - avvisata Marchetti E. - sanificazione straordinaria scarichi 15/04 con schiumogeno clorattivo + verifica sifoni - apertura NC-26-041
+AV-26/0195;13-apr-26;18-apr-26;3;scarico a pavimento sotto PT-104;L1;ghisa/PVC;Salmonella spp.;ISO 6579-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0199;17/04/26;22/04/26;3;scarico a pavimento sotto PT-104;L1;ghisa/PVC;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;ricampionamento post sanificazione straordinaria - esteso a 5 scarichi L1
+AV-26/0199;17/04/26;22/04/26;3;scarico a pavimento centro L1;L1;ghisa/PVC;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;punto aggiuntivo
+AV-26/0199;17/04/26;22/04/26;3;scarico a pavimento lato PKM-450;L1;ghisa/PVC;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;punto aggiuntivo
+AV-26/0199;17/04/26;22/04/26;3;scarico a pavimento L2;L2;PVC;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;punto aggiuntivo x estensione
+AV-26/0199;17/04/26;22/04/26;3;scarico a pavimento L3;L3;PVC;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;punto aggiuntivo x estensione
+AV-26/0195;13-apr-26;18-apr-26;1;guarnizioni cella CF-02;L3;gomma;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0195;13-apr-26;16-apr-26;1;guarnizioni cella CF-02;L3;gomma;Muffe;ISO 21527-1;35;UFC/cm2;<=100;CONFORME;Pozzato S.;guarnizione sx ancora non sostituita sollecito a officina
+AV-26/0195;13-apr-26;16-apr-26;1;mani operatore (addetto confezionamento);L1;cute/guanto;Staphylococcus aureus;ISO 6888-1;<1;UFC/cm2;<=1;CONFORME;Pozzato S.;
+AV-26/0195;13-apr-26;16-apr-26;1;mani operatore (addetto farcitura);L1;cute/guanto;Enterobacteriaceae;ISO 21528-2;2;UFC/cm2;<=1;NON CONFORME;Pozzato S.;richiamo su lavaggio mani - ripetuto il 17/04 esito conforme - registrato su MOD-HR-11
+AV-26/0199;17/04/26;22/04/26;1;mani operatore (addetto farcitura);L1;cute/guanto;Enterobacteriaceae;ISO 21528-2;<1;UFC/cm2;<=1;CONFORME;Pozzato S.;dopo formazione lavaggio mani
+AV-26/0195;13-apr-26;16-apr-26;1;piano sfogliatrice;L2;acciaio inox;CBT 30°C;ISO 4833-1;31;UFC/cm2;<=50;CONFORME;Pozzato S.;
+AV-26/0195;13-apr-26;18-apr-26;3;scarico a pavimento L2;L2;PVC;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0195;13-apr-26;16-apr-26;1;nastro uscita tunnel TS-01;L3;acciaio inox;CBT 30°C;ISO 4833-1;11;UFC/cm2;<=50;CONFORME;Pozzato S.;
+AV-26/0195;13-apr-26;18-apr-26;1;nastro uscita tunnel TS-01;L3;acciaio inox;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0195;13-apr-26;16-apr-26;2;ruote carrelli surgelato;L3;plastica;CBT 30°C;ISO 4833-1;95;UFC/cm2;<=500;CONFORME;Pozzato S.;
+AV-26/0218;11/05/26;14/05/26;1;nastro forno FT-01;L1;acciaio inox;CBT 30°C;ISO 4833-1;52;UFC/cm2;<=50;NON CONFORME;Pozzato S.;trend in peggioramento da aprile - sanificazione straordinaria notte 12/05 smontaggio nastro - NC-26-055
+AV-26/0218;11/05/26;14/05/26;1;nastro forno FT-01;L1;acciaio inox;Enterobacteriaceae;ISO 21528-2;9;UFC/cm2;<=10;CONFORME;Pozzato S.;al limite
+AV-26/0218;11/05/26;16/05/26;1;nastro forno FT-01;L1;acciaio inox;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0221;13/05/26;16/05/26;1;nastro forno FT-01;L1;acciaio inox;CBT 30°C;ISO 4833-1;14;UFC/cm2;<=50;CONFORME;Pozzato S.;ricampionamento post sanificazione straordinaria del 12/05 - chiusura NC-26-055
+AV-26/0218;11/05/26;14/05/26;1;uscita PT-104;L1;acciaio inox;CBT 30°C;ISO 4833-1;49;UFC/cm2;<=50;CONFORME;Pozzato S.;appena sotto - vedi trend
+AV-26/0218;11/05/26;14/05/26;1;uscita PT-104;L1;acciaio inox;Enterobacteriaceae;ISO 21528-2;8;UFC/cm2;<=10;CONFORME;Pozzato S.;
+AV-26/0218;11/05/26;16/05/26;1;uscita PT-104;L1;acciaio inox;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0218;11/05/26;14/05/26;1;scivolo MD-3200;L1;acciaio inox;CBT 30°C;ISO 4833-1;46;UFC/cm2;<=50;CONFORME;Pozzato S.;
+AV-26/0218;11/05/26;14/05/26;1;scivolo MD-3200;L1;acciaio inox;Enterobacteriaceae;ISO 21528-2;;UFC/cm2;<=10;;Pozzato S.;dato non pervenuto dal lab sollecitato
+AV-26/0218;11/05/26;14/05/26;1;ganasce PKM-450;L1;acciaio inox;CBT 30°C;ISO 4833-1;1,2x10^3;UFC/cm2;<=50;NON CONFORME;Pozzato S.;prelievo post intervento manutenzione valvola azoto del 10/05 - smontaggio e sanificazione ganasce notte 12/05 - NC-26-056 - avvisati Marchetti e Zanella
+AV-26/0218;11/05/26;14/05/26;1;ganasce PKM-450;L1;acciaio inox;Enterobacteriaceae;ISO 21528-2;65;UFC/cm2;<=10;NON CONFORME;Pozzato S.;idem - vedi NC-26-056
+AV-26/0218;11/05/26;16/05/26;1;ganasce PKM-450;L1;acciaio inox;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0221;13/05/26;16/05/26;1;ganasce PKM-450;L1;acciaio inox;CBT 30°C;ISO 4833-1;18;UFC/cm2;<=50;CONFORME;Pozzato S.;ricampionamento post sanificazione - chiusura parziale NC-26-056 in attesa ricambio originale Pakmatic
+AV-26/0221;13/05/26;16/05/26;1;ganasce PKM-450;L1;acciaio inox;Enterobacteriaceae;ISO 21528-2;3;UFC/cm2;<=10;CONFORME;Pozzato S.;
+AV-26/0218;11/05/26;14/05/26;2;maniglie porta ingresso L1;L1;acciaio verniciato;CBT 30°C;ISO 4833-1;96;UFC/cm2;<=100;CONFORME;Pozzato S.;trend alto
+AV-26/0218;11/05/26;14/05/26;2;ruote carrelli farcitura;L1;plastica;CBT 30°C;ISO 4833-1;4,8x10^2;UFC/cm2;<=500;CONFORME;Pozzato S.;di nuovo in salita
+AV-26/0218;11/05/26;16/05/26;3;scarico a pavimento sotto PT-104;L1;ghisa/PVC;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;monitoraggio rinforzato post aprile mensile->quindicinale
+AV-26/0218;11/05/26;16/05/26;3;scarico a pavimento sotto PT-104;L1;ghisa/PVC;Salmonella spp.;ISO 6579-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0218;11/05/26;16/05/26;3;scarico a pavimento lato PKM-450;L1;ghisa/PVC;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0218;11/05/26;16/05/26;1;guarnizioni cella CF-02;L3;gomma;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0218;11/05/26;14/05/26;1;guarnizioni cella CF-02;L3;gomma;Muffe;ISO 21527-1;41;UFC/cm2;<=100;CONFORME;Pozzato S.;guarnizione sostituita 05/05 valore in calo atteso
+AV-26/0218;11/05/26;14/05/26;1;mani operatore (Popescu I.);L1;cute/guanto;Staphylococcus aureus;ISO 6888-1;<1;UFC/cm2;<=1;CONFORME;Pozzato S.;
+AV-26/0218;11/05/26;14/05/26;1;mani operatore (addetto confezionamento);L1;cute/guanto;Enterobacteriaceae;ISO 21528-2;<1;UFC/cm2;<=1;CONFORME;Pozzato S.;
+AV-26/0218;11/05/26;14/05/26;1;piano sfogliatrice;L2;acciaio inox;CBT 30°C;ISO 4833-1;26;UFC/cm2;<=50;CONFORME;Pozzato S.;
+AV-26/0218;11/05/26;14/05/26;1;piano sfogliatrice;L2;acciaio inox;Lieviti;ISO 21527-1;52;UFC/cm2;<=100;CONFORME;Pozzato S.;
+AV-26/0218;11/05/26;16/05/26;3;scarico a pavimento L2;L2;PVC;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0218;11/05/26;16/05/26;3;scarico a pavimento L2;L2;PVC;Salmonella spp.;ISO 6579-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0218;11/05/26;14/05/26;1;nastro uscita tunnel TS-01;L3;acciaio inox;CBT 30°C;ISO 4833-1;13;UFC/cm2;<=50;CONFORME;Pozzato S.;
+AV-26/0218;11/05/26;16/05/26;1;nastro uscita tunnel TS-01;L3;acciaio inox;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0218;11/05/26;14/05/26;2;ruote carrelli surgelato;L3;plastica;CBT 30°C;ISO 4833-1;1,05x10^2;UFC/cm2;<=500;CONFORME;Pozzato S.;
+AV-26/0225;25/05/26;28/05/26;1;nastro forno FT-01;L1;acciaio inox;CBT 30°C;ISO 4833-1;21;UFC/cm2;<=50;CONFORME;Pozzato S.;controllo quindicinale rinforzato
+AV-26/0225;25/05/26;28/05/26;1;uscita PT-104;L1;acciaio inox;CBT 30°C;ISO 4833-1;33;UFC/cm2;<=50;CONFORME;Pozzato S.;
+AV-26/0225;25/05/26;28/05/26;1;ganasce PKM-450;L1;acciaio inox;CBT 30°C;ISO 4833-1;24;UFC/cm2;<=50;CONFORME;Pozzato S.;ricambio originale montato 15/05 - vedi MOD-PR-04
+AV-26/0225;25/05/26;28/05/26;1;ganasce PKM-450;L1;acciaio inox;Enterobacteriaceae;ISO 21528-2;2;UFC/cm2;<=10;CONFORME;Pozzato S.;
+AV-26/0225;25/05/26;30/05/26;3;scarico a pavimento sotto PT-104;L1;ghisa/PVC;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0225;25/05/26;30/05/26;3;scarico a pavimento lato PKM-450;L1;ghisa/PVC;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0225;25/05/26;28/05/26;2;ruote carrelli farcitura;L1;plastica;CBT 30°C;ISO 4833-1;1,3x10^2;UFC/cm2;<=500;CONFORME;Pozzato S.;
+AV-26/0225;25/05/26;28/05/26;2;maniglie porta ingresso L1;L1;acciaio verniciato;CBT 30°C;ISO 4833-1;61;UFC/cm2;<=100;CONFORME;Pozzato S.;
+AV-26/0225;25/05/26;28/05/26;1;mani operatore (addetto farcitura);L1;cute/guanto;Staphylococcus aureus;ISO 6888-1;<1;UFC/cm2;<=1;CONFORME;Pozzato S.;
+AV-26/0225;25/05/26;28/05/26;1;guarnizioni cella CF-02;L3;gomma;Muffe;ISO 21527-1;15;UFC/cm2;<=100;CONFORME;Pozzato S.;
+AV-26/0225;25/05/26;30/05/26;1;guarnizioni cella CF-02;L3;gomma;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0225;25/05/26;28/05/26;1;piano sfogliatrice;L2;acciaio inox;CBT 30°C;ISO 4833-1;18;UFC/cm2;<=50;CONFORME;Pozzato S.;
+AV-26/0225;25/05/26;30/05/26;3;scarico a pavimento L2;L2;PVC;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;
+AV-26/0225;25/05/26;28/05/26;1;nastro uscita tunnel TS-01;L3;acciaio inox;CBT 30°C;ISO 4833-1;<10;UFC/cm2;<=50;CONFORME;Pozzato S.;
+AV-26/0225;25/05/26;30/05/26;1;nastro uscita tunnel TS-01;L3;acciaio inox;Listeria monocytogenes;ISO 11290-1;ASSENTE;/25cm2;assente/25cm2;CONFORME;Pozzato S.;ultima campagna su TS-01 prima del collaudo CR-SP180 previsto autunno

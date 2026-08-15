@@ -1,0 +1,224 @@
+INVENTARIO FISICO MAGAZZINI AL 31/05/2026 - logica FEFO - estratto gestionale + conta manuale;;;;;;;;;;;;
+compilato: Faggionato N. + Trentin L. (valorizzazione);ultimo agg. 01/06/26 h 7.40;;;;;;;;;;;
+Ubicazione;Cod_Art;Descrizione;Lotto;Data_arrivo;Scadenza/TMC;Giacenza;UM;Valore_unit_€;Valore_tot_€;Stato;gg_alla_scadenza;Note
+A-01-01;FAR-0-W300;Farina tipo 0 W300 sacco 25 kg;MV26-0402/B;2026-04-14;20/10/26;1.250;KG;0,52;650,00;OK;142;usare per prima - FEFO
+A-01-02;FAR-0-W300;Farina tipo 0 W300 sacco 25 kg;MV26-0429/A;04/05/26;30/10/26;3.975;KG;0,52;2.067,00;OK;152;1 sacco segregato (lacerato) v. riga sotto
+A-01-02;FAR-0-W300;Farina tipo 0 W300 sacco 25 kg - SEGREGATO;MV26-0430/A;04/05/26;01/11/26;25;KG;0,52;13,00;SEGREGATO;154;sacco rotto DDT 48392 - verificare con Marchetti prima di usare
+A-01-03;FAR-0-W300;Farina tipo 0 W300 sacco 25 kg;MV26-0429/B;04/05/26;30/10/26;2.000;KG;0,52;1.040,00;OK;152;
+A-01-04;FAR-0-W300;Farina tipo 0 W300 sacco 25 kg;MV26-0430/A;04/05/26;01/11/26;3.900;KG;0,52;2.028,00;OK;154;
+A-01-05;FAR-0-W300;Farina tipo 0 W300 sacco 25 kg;MV26-0431/A;04/05/26;02/11/26;2.000;KG;0,52;1.040,00;OK;155;
+A-01-06;FAR-0-W300;Farina tipo 0 W300 sacco 25 kg;MV26-0432/A;04/05/26;03/11/26;2.000;KG;0,52;1.040,00;OK;156;
+A-02-01;FAR-00;Farina tipo 00 sacco 25 kg;MV26-0388/A;2026-04-02;15/09/26;875;KG;0,55;481,25;OK;107;
+A-02-02;FAR-00;Farina tipo 00 sacco 25 kg;MV26-0411/C;21/04/26;05/10/26;1.500;KG;0,55;825,00;OK;127;
+A-02-03;FAR-SEM;Semola rimacinata sacco 25 kg;MV26-0355/A;19/03/26;30/06/26;450;KG;0,61;274,50;IN SCADENZA;30;solo focacceria - smaltire in produzione
+A-03-01;FAR-0-BIO;Farina tipo 0 BIO sacco 25 kg;MV26-B-0091;2026-04-28;10/10/26;600;KG;0,74;444,00;OK;132;linea bio AF-CR-0220 - cert ICEA
+A-03-02;FAR-MULTI;Mix multicereali sacco 20 kg;MX26-0177;15/04/26;20/07/26;720;KG;0,89;640,80;IN SCADENZA;50;x AF-SN-0450
+A-03-03;FAR-MULTI;Mix multicereali sacco 20 kg;MX26-0201;12/05/26;10/08/26;1.400;KG;0,89;1.246,00;OK;71;
+A-04-01;MALTO-D;Malto diastasico sacco 10 kg;LV26-M-044;10/03/26;10/03/27;180;KG;2,20;396,00;OK;283;
+A-04-02;GLUT-V;Glutine vitale sacco 25 kg;GV26-018;22/04/26;22/04/27;350;KG;1,95;682,50;OK;;gg non calcolati
+B-01-01;ZUC-SEM;Zucchero semolato sacco 50 kg;ZP26-1104;2026-03-30;N/D;2.850;KG;0,68;1.938,00;OK;;TMC non applicabile
+B-01-02;ZUC-SEM;Zucchero semolato sacco 50 kg;ZP26-1140;05/05/26;N/D;4.000;KG;0,68;2.720,00;OK;;
+B-01-03;DESTR;Destrosio monoidrato sacco 25 kg;ZP26-D-0872;05/05/26;05/05/28;500;KG;0,92;460,00;OK;704;
+B-02-01;SALE-F;Sale fino alimentare sacco 25 kg;SA26-220;18/02/26;;1.100;KG;0,18;198,00;OK;;senza scadenza
+B-02-02;SALE-MAR;Sale marino grosso (topping) sacco 10 kg;SA26-198;18/02/26;;240;KG;0,31;74,40;OK;;
+B-03-01;OLIO-AO;Olio girasole alto oleico cisternetta 1000 L;OA26-0510;27/04/26;27/01/27;1.840;KG;1,86;3.422,40;OK;241;prezzo vecchio - dal 01/06 nuovo listino +11% (v. ordini)
+B-03-02;OLIO-AO;Olio girasole alto oleico cisternetta 1000 L;OA26-0533;19/05/26;19/02/27;2.000;KG;1,86;3.720,00;OK;264;
+B-03-03;OLIO-EVO;Olio extravergine oliva latta 5 L;EV25-889;10/11/25;30/06/26;185;KG;7,10;1.313,50;IN SCADENZA;30;x AF-FC-0330 - priorita FEFO
+B-04-01;SEMI-GIR;Semi di girasole sacco 25 kg;SG26-076;2026-03-12;12/09/26;625;KG;1,42;887,50;OK;104;
+B-04-02;SEMI-ZUC;Semi di zucca sacco 25 kg;SZ26-041;12/03/26;30/06/26;180;KG;3,85;693,00;IN SCADENZA;30;lotto piccolo - finire su promo
+B-04-03;SEMI-LINO;Semi di lino sacco 25 kg;SL25-233;2025-10-20;15/04/26;75;KG;1,60;120,00;SCADUTO - DA SMALTIRE;-46;SMALTIRE - richiesta smaltimento aperta con Marchetti
+B-04-04;SEMI-SES;Semi di sesamo sacco 25 kg;SS26-102;08/04/26;08/10/26;250;KG;2,30;575,00;OK;130;ALLERGENE - solo prototipo AF-SN-0470 - area segregata
+B-04-05;SEMI-GIR;Semi di girasole sacco 25 kg;SG26-118;20/05/26;20/11/26;1.000;KG;1,42;1.420,00;OK;173;
+B-05-01;LIEV-DIS;Lievito secco disidratato ct 20x500 g;LV26-D-310;14/04/26;14/04/27;140;KG;6,20;868,00;OK;318;
+B-05-02;MIGL-PANE;Miglioratore panificazione sacco 25 kg;IM26-055;03/03/26;03/09/26;275;KG;3,40;935,00;OK;95;
+B-05-03;EMUL-E471;Emulsionante E471 sacco 25 kg;EM26-029;03/03/26;03/03/27;150;KG;4,15;622,50;OK;276;
+CF-01-R1;BURRO-82;Burro 82% mg placca 25 kg;LB26-0455;12/05/26;12/08/26;1.375;KG;7,80;10.725,00;OK;73;ALLERGENE LATTE - cella +4
+CF-01-R1;BURRO-82;Burro 82% mg placca 25 kg;LB26-0421;28/04/26;28/06/26;450;KG;7,80;3.510,00;IN SCADENZA;28;FEFO!! usare prima del lotto 0455
+CF-01-R2;BURRO-82;Burro 82% mg placca 25 kg;LB26-0398;14/04/26;28/05/26;50;KG;7,80;390,00;SCADUTO - DA SMALTIRE;-3;scaduto 28/05 - Pozzato avvisata - MOD-MAG-02
+CF-01-R2;PANNA-UHT;Panna UHT 35% brik 10 L;LB26-P-112;10/03/26;10/05/26;60;LT;2,95;177,00;SCADUTO - DA SMALTIRE;-21;dimenticata dietro bancale - smaltire
+CF-01-R3;LIEV-COMP;Lievito compresso panetto 500 g;LV26-C-1180;25/05/26;15/06/26;220;KG;3,10;682,00;IN SCADENZA;15;rotazione settimanale
+CF-01-R3;LIEV-COMP;Lievito compresso panetto 500 g;LV26-C-1164;18/05/26;08/06/26;45;KG;3,10;139,50;IN SCADENZA;8;finire entro venerdi
+CF-01-R3;LIEV-COMP;Lievito compresso panetto 500 g;LV26-C-1139;08/05/26;22/05/26;12;KG;3,10;37,20;SCADUTO - DA SMALTIRE;-9;perche' e' ancora qui?? sentire Zanella
+CF-01-R4;UOVA-PAST;Uovo intero pastorizzato brik 10 kg;OV26-0310;26/05/26;09/06/26;180;KG;2,60;468,00;IN SCADENZA;9;ALLERGENE UOVA
+CF-01-R4;UOVA-PAST;Uovo intero pastorizzato brik 10 kg;OV26-0322;29/05/26;12/06/26;300;KG;2,60;780,00;IN SCADENZA;12;
+CF-01-R5;SL-IMP-L2;Semilavorato impasto croissant (riposo);L26150-L2-T1;30/05/26;01/06/26;850;KG;1,15;977,50;OK;1;in lavorazione 01/06 turno 1
+CF-01-R5;SL-CREMA;Semilavorato crema nocciola vasca inox;L26149-L2-T2;29/05/26;05/06/26;120;KG;4,30;516,00;IN SCADENZA;5;ALLERGENE FRUTTA A GUSCIO
+;;;;;;;;;;;;
+TOTALE PARZIALE MATERIE PRIME (zona A+B+CF-01);;;;;;;;;51.017,55;;;valore da verificare con Trentin - non quadra col gestionale (-880 ca.)
+;;;;;;;;;;;;
+Ubicazione;Cod_Art;Descrizione;Lotto;Data_arrivo;Scadenza/TMC;Giacenza;UM;Valore_unit_€;Valore_tot_€;Stato;gg_alla_scadenza;Note
+C-01-01;FILM-MAP-450;Film MAP PP/EVOH bobina h450 mm;FX26-0712;2026-04-08;08/04/28;18;BOB;168,00;3.024,00;OK;677;MOCA - DoC Flexipack agli atti QA
+C-01-02;FILM-MAP-450;Film MAP PP/EVOH bobina h450 mm;FX26-0790;06/05/26;06/05/28;24;BOB;168,00;4.032,00;OK;705;
+C-01-03;FILM-MAP-320;Film MAP PP/EVOH bobina h320 mm;FX26-0713;08/04/26;08/04/28;10;BOB;131,00;1.310,00;OK;677;linea focaccine
+C-01-04;FILM-NEUTRO;Film neutro no-print bobina;FX25-1201;2025-12-04;04/12/27;6;BOB;96,00;576,00;OK;552;scorta emergenza
+C-02-01;VAS-PP-100;Vaschetta PP nera 100 g;FX26-0654;25/03/26;N/D;38.500;PZ;0,058;2.233,00;OK;;
+C-02-02;VAS-PP-100;Vaschetta PP nera 100 g;FX26-0801;12/05/26;N/D;120.000;PZ;0,058;6.960,00;OK;;x promo Tosano sett 19-21
+C-02-03;VAS-PP-2X90;Vaschetta PP 2 scomparti 2x90 g;FX26-0655;25/03/26;N/D;22.400;PZ;0,072;1.612,80;OK;;
+C-03-01;CRT-0450;Cartone espositore AF-SN-0450 Bonta di Casa;RP26-1808;29/04/26;;5.200;PZ;0,42;2.184,00;OK;;stampa PL Tosano
+C-03-02;CRT-0455;Cartone AF-SN-0455 promo 3+1;RP26-1839;12/05/26;;7.800;PZ;0,46;3.588,00;OK;;ordinati x promo - avanzeranno
+C-03-03;CRT-CR-STD;Cartone croissant standard marchio Aurora;RP26-1771;10/04/26;;4.150;PZ;0,38;1.577,00;OK;;
+C-03-04;CRT-CR-PL;Cartone AF-CR-0215 PL Tosano;RP26-1772;10/04/26;;6.000;PZ;0,39;2.340,00;OK;;
+C-03-05;CRT-FC;Cartone focaccina AF-FC-0330;RP26-1790;18/04/26;;2.900;PZ;0,40;1.160,00;OK;;
+C-03-06;INTERF;Interfalda cartone 800x1200;RP26-1650;02/03/26;;1.850;PZ;0,21;388,50;OK;;
+C-04-01;ETI-0450;Etichetta AF-SN-0450 rotolo 2000 pz;ET26-388;15/04/26;;92.000;PZ;0,011;1.012,00;OK;;
+C-04-02;ETI-0455;Etichetta AF-SN-0455 promo;ET26-402;12/05/26;;68.000;PZ;0,012;816,00;OK;;
+C-04-03;ETI-0330;Etichetta AF-FC-0330;ET26-371;02/04/26;;41.000;PZ;0,011;451,00;OK;;
+C-04-04;ETI-0212;Etichetta AF-CR-0212;ET25-960;2025-11-18;;15.500;PZ;0,011;170,50;OK;;vecchia grafica - verificare se ancora valida x etichettatura (Marchetti)
+E-03-01;VG-212-STD;Vasetto vetro 212 ml TO63;EGB-26-1147;05/05/26;N/D;17.280;PZ;0,145;2.505,60;OK;;DDT 99201 - v. riserva film strappato
+E-03-02;VG-212-STD;Vasetto vetro 212 ml TO63;EGB-26-1152;05/05/26;N/D;17.280;PZ;0,145;2.505,60;OK;;ped 4 accettata con riserva - soffiare bene prima uso
+E-04-01;VG-212-STD;Vasetto vetro 212 ml TO63;EGB-26-1153;05/05/26;N/D;11.520;PZ;0,145;1.670,40;OK;;ped 7 con riserva
+E-05-01;CP-TO63-AU;Capsula twist-off 63 mm oro;CAP-63-0455;05/05/26;05/05/29;48.000;PZ;0,038;1.824,00;OK;1069;tenere lontano da umidita
+E-05-02;CP-TO63-AU;Capsula twist-off 63 mm oro;CAP-63-0301;2025-09-22;22/09/28;6.400;PZ;0,036;230,40;OK;844;resto vecchio ordine
+E-06-01;EPAL;Pallet EPAL interscambio;;;;218;PZ;9,50;2.071,00;OK;;conteggio fisico 31/05 - v. contenzioso buoni Tosano
+E-06-02;PAL-PERD;Pallet a perdere 800x1200;;;;95;PZ;4,20;399,00;OK;;
+C-02-02;VAS-PP-100;Vaschetta PP nera 100 g;FX26-0801;12/05/26;N/D;120.000;PZ;0,058;6.960,00;OK;;riga doppia? gia contata sopra - NON sommare
+CHEM-01;DET-SODA;Soda caustica 30% fusto 200 kg;CH26-S-118;14/04/26;14/04/28;400;KG;0,55;220,00;OK;683;CIP-01 - SDS in bacheca
+CHEM-01;DET-NITR;Acido nitrico 58% fusto 200 kg;CH26-N-097;14/04/26;14/04/28;380;KG;0,72;273,60;OK;683;CIP-01
+CHEM-02;SANIF-PAA;Sanificante PAA tanica 25 kg;CH26-P-201;06/05/26;06/11/26;150;KG;2,10;315,00;OK;159;
+CHEM-02;DET-MANI;Detergente sanificante mani tanica 5 L;CH26-M-155;06/05/26;06/05/27;60;LT;3,30;198,00;OK;340;
+CHEM-03;LUBRI-H1;Lubrificante food grade H1 spray;CH26-L-076;10/03/26;10/03/28;36;PZ;8,90;320,40;OK;648;uso officina - Dal Maso
+GAS-EXT;AZOTO-E941;Azoto alimentare E941 serbatoio criogenico;NG26-0644;06/05/26;N/D;2.310;M3;0,38;877,80;OK;;bolla Nordgas 06/05 - livello 68%
+GAS-EXT;CO2-E290;CO2 alimentare E290 pacco bombole;NG26-0645;06/05/26;05/29;96;KG;1,15;110,40;OK;;cert. analisi in QA
+PF-A-01;AF-SN-0450;Snack rustico multicereali 100 g ATM;L26144-L1-T1;24/05/26;08/07/26;4.320;CF;0,71;3.067,20;OK;38;TMC 45 gg - vendibile
+PF-A-01;AF-SN-0450;Snack rustico multicereali 100 g ATM;L26146-L1-T2;26/05/26;10/07/26;5.760;CF;0,71;4.089,60;OK;40;
+PF-A-02;AF-SN-0450;Snack rustico multicereali 100 g ATM;L26130-L1-T2;10/05/26;24/06/26;1.980;CF;0,71;1.405,80;BLOCCATO QA;24;NON SPEDIRE - blocco Marchetti 13/05 - reclamo corpo estraneo - resto lotto richiamato da rete
+PF-A-02;AF-SN-0450;Snack rustico multicereali 100 g ATM;L26131-L1-T2;11/05/26;25/06/26;1.340;CF;0,71;951,40;BLOCCATO QA;25;NON SPEDIRE - blocco precauzionale - v. Marchetti/Perbellini
+PF-A-03;AF-SN-0455;Snack rustico promo 3+1;L26149-L1-T1;29/05/26;13/07/26;3.900;CF;0,89;3.471,00;OK;43;x volantino - uscita sett 23
+PF-A-04;AF-FC-0330;Focaccina olio EVO 2x90 g ATM;L26147-L1-T2;27/05/26;11/07/26;2.150;CF;0,64;1.376,00;OK;41;TMC 45 gg
+PF-A-04;AF-FC-0330;Focaccina olio EVO 2x90 g ATM;L26142-L1-T1;22/05/26;06/07/26;480;CF;0,64;307,20;IN SCADENZA;36;uscire per primi - FEFO
+CF-02-A1;AF-CR-0212;Cornetto Premium burro 6x50 g SURG;L26128-L2-T1;08/05/26;08/05/27;3.850;CF;1,32;5.082,00;OK;342;
+CF-02-A1;AF-CR-0212;Cornetto Premium burro 6x50 g SURG;L26135-L2-T2;15/05/26;15/05/27;4.200;CF;1,32;5.544,00;OK;349;
+CF-02-A2;AF-CR-0215;Cornetto PL Tosano 8x45 g SURG;L26136-L2-T1;16/05/26;16/05/27;6.480;CF;1,18;7.646,40;OK;350;consegna CE.DI. Cerea sett 23
+CF-02-A2;AF-CR-0215;Cornetto PL Tosano 8x45 g SURG;L26143-L2-T2;23/05/26;23/05/27;7.200;CF;1,18;8.496,00;OK;357;
+CF-02-A3;AF-CR-0215;Cornetto PL Tosano 8x45 g SURG;L26150-L2-T1;30/05/26;30/05/27;5.900;CF;1,18;6.962,00;OK;364;
+CF-02-A4;AF-CR-0220;Sfogliatina bio cereali SURG;L26140-L2-T1;20/05/26;20/05/27;1.850;CF;1,05;1.942,50;OK;354;Famila - cert ICEA
+CF-02-B1;SL-CROIS-CRUDO;Croissant crudo formato su teglie SURG;L26148-L2-T3;28/05/26;28/11/26;2.600;KG;2,40;6.240,00;OK;181;semilavorato x cottura differita
+CF-02-B1;SL-CROIS-CRUDO;Croissant crudo formato su teglie SURG;L26141-L2-T3;21/05/26;21/11/26;1.100;KG;2,40;2.640,00;OK;174;
+CF-02-B2;AF-CR-0212;Cornetto Premium burro RESO Ali;L26088-L2-T2;29/03/26;29/03/27;140;CF;1,32;#RIF!;OK;302;reso commerciale - riverificare astucci ammaccati
+CF-02-C1;AF-SN-0450;pallet snack in attesa disposizione QA;L26130-L1-T2;14/05/26;24/06/26;620;CF;0,71;440,20;BLOCCATO QA;24;RIENTRO da CE.DI. Cerea 16/05 - tenere separato in gabbia
+;;;;;;;;;;;;
+;;conteggio interrotto h 12.10 x carico Zorzi - ripreso h 14.00;;;;;;;;;;
+GAS-EXT;AZOTO-E941;bombole azoto scorta rampa;NG26-0512;02/04/26;N/D;18;PZ;22,00;396,00;OK;;rampa emergenza PKM-450
+OFF-01;RIC-PKM;Guarnizione valvola iniezione PKM-450 ORIGINALE;PKM-R-2210;15/05/26;;2;PZ;145,00;290,00;OK;;arrivate 15/05 - UNA montata da Dal Maso 16/05 - v. MOD-PR-04
+OFF-01;RIC-PKM;Guarnizioni azzurre generiche (carrello officina);;;;7;PZ;3,50;24,50;SEGREGATO;;RITIRATE da bordo linea 13/05 ordine Marchetti - NON USARE SU MACCHINE FOOD
+OFF-02;RIC-MD;Tasselli test metal detector Fe/NonFe/AISI;KIT-MD-05;;;3;KIT;95,00;285,00;OK;;taratura CCP3 - MOD-QA-07 rev.5
+OFF-02;NASTRO-PT;Ricambio nastro PT-104;PT-R-0810;28/02/26;;1;PZ;1.850,00;1.850,00;OK;;
+A-05-01;FAR-0-W300;Farina tipo 0 W300 sacco 25 kg;MV26-0355/B;19/03/26;19/09/26;250;KG;0,52;130,00;OK;111;fondo lotto - FEFO prima dei nuovi
+A-05-02;FAR-00;Farina tipo 00 sacco 25 kg;MV26-0340/A;05/03/26;28/06/26;175;KG;0,55;96,25;IN SCADENZA;28;finire su L2 entro giugno
+A-05-03;ZUC-VELO;Zucchero a velo sacco 10 kg;ZP26-V-233;10/04/26;10/10/26;90;KG;0,95;85,50;OK;132;
+A-05-04;CIOC-GOCCE;Gocce cioccolato fondente sacco 10 kg;CG26-155;22/04/26;22/04/27;320;KG;5,40;1.728,00;OK;326;puo contenere LATTE FRUTTA A GUSCIO
+A-05-05;NOCC-GRAN;Granella nocciola sacco 5 kg;GN26-072;22/04/26;22/10/26;110;KG;9,80;1.078,00;OK;144;ALLERGENE - scaffale dedicato
+A-05-06;CONF-ALB;Confettura albicocca 55% secchiello 12 kg;CA26-118;29/04/26;29/04/27;432;KG;2,15;928,80;OK;332;
+A-06-01;MARG-SF;Margarina sfoglia placca 10 kg;MG26-090;06/05/26;06/09/26;800;KG;2,05;1.640,00;OK;98;solo linea convenzionale NO bio
+A-06-02;MARG-SF;Margarina sfoglia placca 10 kg;MG26-101;20/05/26;20/09/26;1.200;KG;2,05;2.460,00;OK;112;
+A-06-03;FAR-SEG;Farina di segale sacco 25 kg;SG25-largo-88;12/12/25;12/06/26;150;KG;0,79;118,50;IN SCADENZA;12;x prototipo 0470? chiedere a Zanchetta se la usa o si smaltisce
+E-01-01;CRT-NEU;Cartone neutro americano 60x40x40;RP26-1550;10/02/26;;3.400;PZ;0,35;1.190,00;OK;;
+E-01-02;FILM-ESTENS;Film estensibile manuale kg 2,3;RP26-1602;24/02/26;;140;PZ;4,10;574,00;OK;;
+E-01-03;FILM-ESTENS-M;Film estensibile macchina bobina 17 my;RP26-1603;24/02/26;;44;BOB;11,80;519,20;OK;;fasciapallet baia 1
+E-01-04;REGG-PP;Reggia PP bobina;RP26-1604;24/02/26;;12;BOB;18,50;222,00;OK;;
+E-02-01;ETI-LOG;Etichetta logistica SSCC rotolo;ET26-350;20/03/26;;28.000;PZ;0,006;168,00;OK;;stampante baia spedizioni
+E-02-02;ANGOL-CART;Angolari cartone x pallet;RP26-1610;24/02/26;;900;PZ;0,09;81,00;OK;;
+Ubicazione;Cod_Art;Descrizione;Lotto;Data_arrivo;Scadenza/TMC;Giacenza;UM;Valore_unit_€;Valore_tot_€;Stato;gg_alla_scadenza;Note
+CF-01-R6;BURRO-82;Burro 82% placca 25 kg (bancale promo);LB26-0467;22/05/26;22/07/26;2.000;KG;7,78;15.560,00;OK;52;prezzo diverso? contratto promo Latteria Bassanese - chiedere Trentin
+CF-01-R6;LIEV-MADRE;Lievito madre essiccato sacco 10 kg;LV26-LM-021;30/04/26;30/10/26;80;KG;5,60;448,00;OK;152;
+CF-01-R7;SL-FARCIA-SAL;Farcia salata pomodoro-olive vasca;L26151-L1-T1;31/05/26;03/06/26;95;KG;1,80;171,00;OK;3;produzione lunedi
+CF-01-R7;SL-FARCIA-SAL;Farcia salata pomodoro-olive vasca;L26145-L1-T2;25/05/26;28/05/26;40;KG;1,80;72,00;SCADUTO - DA SMALTIRE;-3;dimenticata?? smaltire subito - avvisato Zanella 31/05
+PF-A-05;AF-SN-0450;Snack rustico multicereali ATM;L26151-L1-T2;31/05/26;15/07/26;5.400;CF;0,71;3.834,00;OK;45;non ancora rilasciato da QA (rilascio previsto 01/06)
+PF-A-06;AF-FC-0330;Focaccina olio EVO ATM;L26150-L1-T1;30/05/26;14/07/26;3.100;CF;0,64;1.984,00;OK;44;
+PF-A-07;AF-SN-0455;Snack promo 3+1;L26150-L1-T2;30/05/26;14/07/26;4.480;CF;0,89;3.987,20;OK;44;
+MAG2-PALU;AF-CR-0215;Cornetto PL Tosano SURG - magazzino Via Palu;L26122-L2-T1;02/05/26;02/05/27;8.100;CF;1,18;9.558,00;OK;336;cella esterna Palu 3/A - bolla interna MOD-MAG-02 n.221
+MAG2-PALU;AF-CR-0212;Cornetto Premium SURG - magazzino Via Palu;L26115-L2-T2;25/04/26;25/04/27;2.750;CF;1,32;3.630,00;OK;329;
+MAG2-PALU;AF-CR-0220;Sfogliatina bio SURG - Via Palu;L26129-L2-T1;09/05/26;09/05/27;950;CF;1,05;997,50;OK;343;
+B-06-01;AROMA-PAPR;Aroma paprika affumicata sacco 5 kg;AP26-033;15/05/26;15/05/27;45;KG;7,20;324,00;OK;349;R&D 0470 v12 - Zanchetta
+B-06-02;FIOCCHI-PAT;Fiocchi di patate sacco 15 kg;FP26-060;08/04/26;08/01/27;330;KG;1,25;412,50;OK;222;
+B-06-03;ROSMAR-SEC;Rosmarino secco sacco 1 kg;RS25-140;2025-09-30;30/09/26;14;KG;12,50;175,00;OK;122;
+B-06-04;POM-SEMISEC;Pomodoro semisecco secchiello 5 kg;PS26-088;20/05/26;20/08/26;125;KG;4,60;575,00;OK;81;cella? no - shelf ambiente ok dice scheda tecnica
+B-06-05;OLIVE-DEN;Olive nere denocciolate secchiello 10 kg;OL26-102;20/05/26;20/11/26;240;KG;3,20;768,00;OK;173;
+B-07-01;;bancale misto rientro fiera Cibus - da inventariare;;12/05/26;;1;PLT;;#DIV/0!;N/D;;contiene campioni 0450/0470 + roll-up - decide Silvia B.
+E-07-01;VG-212-STD;vasetti vetro ROTTI da ped. film strappato;EGB-26-1152;05/05/26;;144;PZ;0,145;20,88;SEGREGATO;;conta rotture x eventuale addebito Euroglass - foto fatte
+E-07-02;CP-TO63-AU;capsule cadute/ammaccate;CAP-63-0455;05/05/26;;250;PZ;0,038;9,50;DA SMALTIRE;;non usare su linea
+A-01-07;FAR-0-W300;Farina tipo 0 W300 sacco 25 kg;MV26-0432/A;04/05/26;03/11/26;2.000;KG;0,52;1.040,00;OK;156;ATTENZIONE riga forse doppia con A-01-06 - conta fisica dice 80 sacchi totali non 160 - VERIFICARE
+B-03-04;OLIO-AO;fusto olio parzialmente usato bordo linea;OA26-0510;27/04/26;27/01/27;140;KG;1,86;260,40;OK;241;in produzione L1
+CF-02-D1;PF-NC;pallet misto non conforme surgelato (sfrido);VARI;;;380;KG;0;0,00;DA SMALTIRE;;destino cat.3 - ritiro Ecoveneta giugno
+;;;;;;;;;;;;
+;;DETTAGLIO PALLET PER PALLET CELLA CF-02 (conta fisica 31/05 h 15.30 - Faggionato + Popescu in prestito);;;;;;;;;;
+CF-02-A1-P01;AF-CR-0212;Cornetto Premium 6x50 SURG pallet 01;L26128-L2-T1;08/05/26;08/05/27;640;CF;1,32;844,80;OK;342;
+CF-02-A1-P02;AF-CR-0212;Cornetto Premium 6x50 SURG pallet 02;L26128-L2-T1;08/05/26;08/05/27;640;CF;1,32;844,80;OK;342;
+CF-02-A1-P03;AF-CR-0212;Cornetto Premium 6x50 SURG pallet 03;L26128-L2-T1;08/05/26;08/05/27;640;CF;1,32;844,80;OK;342;
+CF-02-A1-P04;AF-CR-0212;Cornetto Premium 6x50 SURG pallet 04;L26128-L2-T1;08/05/26;08/05/27;640;CF;1,32;844,80;OK;342;
+CF-02-A1-P05;AF-CR-0212;Cornetto Premium 6x50 SURG pallet 05;L26128-L2-T1;08/05/26;08/05/27;640;CF;1,32;844,80;OK;342;
+CF-02-A1-P06;AF-CR-0212;Cornetto Premium 6x50 SURG pallet 06 incompleto;L26128-L2-T1;08/05/26;08/05/27;650;CF;1,32;858,00;OK;342;pallet basso - conta a mano
+CF-02-A1-P07;AF-CR-0212;Cornetto Premium 6x50 SURG pallet 07;L26135-L2-T2;15/05/26;15/05/27;640;CF;1,32;844,80;OK;349;
+CF-02-A1-P08;AF-CR-0212;Cornetto Premium 6x50 SURG pallet 08;L26135-L2-T2;15/05/26;15/05/27;640;CF;1,32;844,80;OK;349;
+CF-02-A1-P09;AF-CR-0212;Cornetto Premium 6x50 SURG pallet 09;L26135-L2-T2;15/05/26;15/05/27;640;CF;1,32;844,80;OK;349;
+CF-02-A1-P10;AF-CR-0212;Cornetto Premium 6x50 SURG pallet 10;L26135-L2-T2;15/05/26;15/05/27;640;CF;1,32;844,80;OK;349;
+CF-02-A1-P11;AF-CR-0212;Cornetto Premium 6x50 SURG pallet 11;L26135-L2-T2;15/05/26;15/05/27;640;CF;1,32;844,80;OK;349;
+CF-02-A1-P12;AF-CR-0212;Cornetto Premium 6x50 SURG pallet 12;L26135-L2-T2;15/05/26;15/05/27;640;CF;1,32;844,80;OK;349;
+CF-02-A1-P13;AF-CR-0212;Cornetto Premium 6x50 SURG pallet 13 incompleto;L26135-L2-T2;15/05/26;15/05/27;360;CF;1,32;475,20;OK;349;
+CF-02-A2-P01;AF-CR-0215;Cornetto PL Tosano 8x45 SURG pallet 01;L26136-L2-T1;16/05/26;16/05/27;720;CF;1,18;849,60;OK;350;
+CF-02-A2-P02;AF-CR-0215;Cornetto PL Tosano 8x45 SURG pallet 02;L26136-L2-T1;16/05/26;16/05/27;720;CF;1,18;849,60;OK;350;
+CF-02-A2-P03;AF-CR-0215;Cornetto PL Tosano 8x45 SURG pallet 03;L26136-L2-T1;16/05/26;16/05/27;720;CF;1,18;849,60;OK;350;
+CF-02-A2-P04;AF-CR-0215;Cornetto PL Tosano 8x45 SURG pallet 04;L26136-L2-T1;16/05/26;16/05/27;720;CF;1,18;849,60;OK;350;
+CF-02-A2-P05;AF-CR-0215;Cornetto PL Tosano 8x45 SURG pallet 05;L26136-L2-T1;16/05/26;16/05/27;720;CF;1,18;849,60;OK;350;
+CF-02-A2-P06;AF-CR-0215;Cornetto PL Tosano 8x45 SURG pallet 06;L26136-L2-T1;16/05/26;16/05/27;720;CF;1,18;849,60;OK;350;
+CF-02-A2-P07;AF-CR-0215;Cornetto PL Tosano 8x45 SURG pallet 07;L26136-L2-T1;16/05/26;16/05/27;720;CF;1,18;849,60;OK;350;
+CF-02-A2-P08;AF-CR-0215;Cornetto PL Tosano 8x45 SURG pallet 08;L26136-L2-T1;16/05/26;16/05/27;720;CF;1,18;849,60;OK;350;
+CF-02-A2-P09;AF-CR-0215;Cornetto PL Tosano 8x45 SURG pallet 09 incompleto;L26136-L2-T1;16/05/26;16/05/27;720;CF;1,18;849,60;OK;350;in realta pieno - errore etichetta SSCC
+CF-02-A2-P10;AF-CR-0215;Cornetto PL Tosano 8x45 SURG pallet 10;L26143-L2-T2;23/05/26;23/05/27;720;CF;1,18;849,60;OK;357;
+CF-02-A2-P11;AF-CR-0215;Cornetto PL Tosano 8x45 SURG pallet 11;L26143-L2-T2;23/05/26;23/05/27;720;CF;1,18;849,60;OK;357;
+CF-02-A2-P12;AF-CR-0215;Cornetto PL Tosano 8x45 SURG pallet 12;L26143-L2-T2;23/05/26;23/05/27;720;CF;1,18;849,60;OK;357;
+CF-02-A2-P13;AF-CR-0215;Cornetto PL Tosano 8x45 SURG pallet 13;L26143-L2-T2;23/05/26;23/05/27;720;CF;1,18;849,60;OK;357;
+CF-02-A2-P14;AF-CR-0215;Cornetto PL Tosano 8x45 SURG pallet 14;L26143-L2-T2;23/05/26;23/05/27;720;CF;1,18;849,60;OK;357;
+CF-02-A2-P15;AF-CR-0215;Cornetto PL Tosano 8x45 SURG pallet 15;L26143-L2-T2;23/05/26;23/05/27;720;CF;1,18;849,60;OK;357;
+CF-02-A2-P16;AF-CR-0215;Cornetto PL Tosano 8x45 SURG pallet 16;L26143-L2-T2;23/05/26;23/05/27;720;CF;1,18;849,60;OK;357;
+CF-02-A2-P17;AF-CR-0215;Cornetto PL Tosano 8x45 SURG pallet 17;L26143-L2-T2;23/05/26;23/05/27;720;CF;1,18;849,60;OK;357;
+CF-02-A2-P18;AF-CR-0215;Cornetto PL Tosano 8x45 SURG pallet 18;L26143-L2-T2;23/05/26;23/05/27;720;CF;1,18;849,60;OK;357;
+CF-02-A2-P19;AF-CR-0215;Cornetto PL Tosano 8x45 SURG pallet 19 incompleto;L26143-L2-T2;23/05/26;23/05/27;720;CF;1,18;849,60;OK;357;NO: contati 719? boh riverificare
+CF-02-A3-P01;AF-CR-0215;Cornetto PL Tosano 8x45 SURG pallet 01;L26150-L2-T1;30/05/26;30/05/27;720;CF;1,18;849,60;OK;364;
+CF-02-A3-P02;AF-CR-0215;Cornetto PL Tosano 8x45 SURG pallet 02;L26150-L2-T1;30/05/26;30/05/27;720;CF;1,18;849,60;OK;364;
+CF-02-A3-P03;AF-CR-0215;Cornetto PL Tosano 8x45 SURG pallet 03;L26150-L2-T1;30/05/26;30/05/27;720;CF;1,18;849,60;OK;364;
+CF-02-A3-P04;AF-CR-0215;Cornetto PL Tosano 8x45 SURG pallet 04;L26150-L2-T1;30/05/26;30/05/27;720;CF;1,18;849,60;OK;364;
+CF-02-A3-P05;AF-CR-0215;Cornetto PL Tosano 8x45 SURG pallet 05;L26150-L2-T1;30/05/26;30/05/27;720;CF;1,18;849,60;OK;364;
+CF-02-A3-P06;AF-CR-0215;Cornetto PL Tosano 8x45 SURG pallet 06;L26150-L2-T1;30/05/26;30/05/27;720;CF;1,18;849,60;OK;364;
+CF-02-A3-P07;AF-CR-0215;Cornetto PL Tosano 8x45 SURG pallet 07;L26150-L2-T1;30/05/26;30/05/27;720;CF;1,18;849,60;OK;364;
+CF-02-A3-P08;AF-CR-0215;Cornetto PL Tosano 8x45 SURG pallet 08 incompleto;L26150-L2-T1;30/05/26;30/05/27;860;CF;1,18;1.014,80;OK;364;pallet doppio strato? conta rifatta x2 ok
+CF-02-A4-P01;AF-CR-0220;Sfogliatina bio SURG pallet 01;L26140-L2-T1;20/05/26;20/05/27;640;CF;1,05;672,00;OK;354;
+CF-02-A4-P02;AF-CR-0220;Sfogliatina bio SURG pallet 02;L26140-L2-T1;20/05/26;20/05/27;640;CF;1,05;672,00;OK;354;
+CF-02-A4-P03;AF-CR-0220;Sfogliatina bio SURG pallet 03 incompleto;L26140-L2-T1;20/05/26;20/05/27;570;CF;1,05;598,50;OK;354;
+;;;;;;;;;;;;
+;;DETTAGLIO PALLET ZONA PF-A (ATM ambiente) - conta 31/05 h 16.45;;;;;;;;;;
+PF-A-01-P01;AF-SN-0450;Snack rustico ATM pallet 01;L26144-L1-T1;24/05/26;08/07/26;1.440;CF;0,71;1.022,40;OK;38;
+PF-A-01-P02;AF-SN-0450;Snack rustico ATM pallet 02;L26144-L1-T1;24/05/26;08/07/26;1.440;CF;0,71;1.022,40;OK;38;
+PF-A-01-P03;AF-SN-0450;Snack rustico ATM pallet 03;L26144-L1-T1;24/05/26;08/07/26;1.440;CF;0,71;1.022,40;OK;38;
+PF-A-01-P04;AF-SN-0450;Snack rustico ATM pallet 04 residuo;L26144-L1-T1;24/05/26;08/07/26;0;CF;0,71;0,00;OK;38;spedito 30/05 a Ali - riga da chiudere a gestionale
+PF-A-01-P05;AF-SN-0450;Snack rustico ATM pallet 05;L26146-L1-T2;26/05/26;10/07/26;1.440;CF;0,71;1.022,40;OK;40;
+PF-A-01-P06;AF-SN-0450;Snack rustico ATM pallet 06;L26146-L1-T2;26/05/26;10/07/26;1.440;CF;0,71;1.022,40;OK;40;
+PF-A-01-P07;AF-SN-0450;Snack rustico ATM pallet 07;L26146-L1-T2;26/05/26;10/07/26;1.440;CF;0,71;1.022,40;OK;40;
+PF-A-01-P08;AF-SN-0450;Snack rustico ATM pallet 08;L26146-L1-T2;26/05/26;10/07/26;1.440;CF;0,71;1.022,40;OK;40;
+PF-A-02-P01;AF-SN-0450;Snack rustico ATM pallet BLOCCATO gabbia 1;L26130-L1-T2;10/05/26;24/06/26;1.440;CF;0,71;1.022,40;BLOCCATO QA;24;cartello rosso NON SPEDIRE firmato Marchetti
+PF-A-02-P02;AF-SN-0450;Snack rustico ATM pallet BLOCCATO gabbia 1;L26130-L1-T2;10/05/26;24/06/26;540;CF;0,71;383,40;BLOCCATO QA;24;
+PF-A-02-P03;AF-SN-0450;Snack rustico ATM pallet BLOCCATO gabbia 2;L26131-L1-T2;11/05/26;25/06/26;1.340;CF;0,71;951,40;BLOCCATO QA;25;
+PF-A-02-P04;AF-SN-0450;RIENTRO CE.DI. Cerea BLOCCATO gabbia 2;L26130-L1-T2;14/05/26;24/06/26;620;CF;0,71;440,20;BLOCCATO QA;24;colli misti - alcuni astucci rovinati
+PF-A-03-P01;AF-SN-0455;Snack promo 3+1 pallet 01;L26149-L1-T1;29/05/26;13/07/26;1.300;CF;0,89;1.157,00;OK;43;
+PF-A-03-P02;AF-SN-0455;Snack promo 3+1 pallet 02;L26149-L1-T1;29/05/26;13/07/26;1.300;CF;0,89;1.157,00;OK;43;
+PF-A-03-P03;AF-SN-0455;Snack promo 3+1 pallet 03;L26149-L1-T1;29/05/26;13/07/26;1.300;CF;0,89;1.157,00;OK;43;
+PF-A-04-P01;AF-FC-0330;Focaccina EVO ATM pallet 01;L26147-L1-T2;27/05/26;11/07/26;1.075;CF;0,64;688,00;OK;41;
+PF-A-04-P02;AF-FC-0330;Focaccina EVO ATM pallet 02;L26147-L1-T2;27/05/26;11/07/26;1.075;CF;0,64;688,00;OK;41;
+PF-A-04-P03;AF-FC-0330;Focaccina EVO ATM pallet 03 residuo;L26142-L1-T1;22/05/26;06/07/26;480;CF;0,64;307,20;IN SCADENZA;36;FEFO - prima uscita utile
+;;;;;;;;;;;;
+;;ALTRE UBICAZIONI MINORI / RICAMBI / VARIE;;;;;;;;;;
+OFF-03;RIC-FT01;Resistenze forno FT-01 ricambio;FT-R-118;10/01/26;;4;PZ;220,00;880,00;OK;;
+OFF-03;RIC-FT02;Tappeto rete forno FT-02;FT-R-119;10/01/26;;1;PZ;3.400,00;3.400,00;OK;;ordinato 2025 - mai montato
+OFF-03;RIC-IMP300;Kit paraolio IMP-300;IMP-R-021;22/03/26;;2;KIT;68,00;136,00;OK;;
+OFF-04;RIC-TS01;Piastre eutettiche TS-01 (obsoleto);TS-R-009;;;6;PZ;140,00;840,00;OK;;da rottamare con TS-01 quando arriva Criotech
+OFF-04;CINGHIE-VAR;Cinghie trasmissione assortite;;;;28;PZ;12,00;336,00;OK;;cassetta officina - conta spannometrica
+OFF-04;CUSCIN-VAR;Cuscinetti assortiti SKF;;;;35;PZ;9,50;332,50;OK;;
+CHEM-03;CARTA-IND;Bobina carta industriale 800 strappi;CH26-C-190;06/05/26;;48;PZ;6,20;297,60;OK;;
+CHEM-03;GUANTI-NITR;Guanti nitrile blu tg M/L ct 10 box;DPI26-077;06/05/26;;22;CT;28,00;616,00;OK;;consumo alto - riordinare
+CHEM-03;CUFFIE-COPRIC;Cuffie copricapo ct 1000 pz;DPI26-078;06/05/26;;15;CT;9,80;147,00;OK;;
+CHEM-03;CAMICI-TNT;Camici TNT visitatori;DPI26-052;12/03/26;;180;PZ;1,10;198,00;OK;;x audit e visite - ne servono x ispezione ULSS giugno
+E-02-03;PLACC-ATM;Placchette test tenuta ATM (blu metilene);QA26-011;15/04/26;15/04/27;190;PZ;0,85;161,50;OK;319;uso QC Pozzato
+E-02-04;INDIC-TT;Indicatori tempo-temperatura adesivi;QA26-014;15/04/26;15/10/26;240;PZ;1,20;288,00;OK;137;x spedizioni surgelato - richiesta Perbellini Tosano
+;;;;;;;;;;;;
+;;RIEPILOGO SCADENZE (conta manuale N.F.): 15 lotti entro 30 gg - 4 scaduti da smaltire - 2 BLOCCATO QA (L26130/L26131) + segregati vari;;;;;;;;;
+;;valori PF a costo industriale - non a listino;;;;;;;;;;(nota Trentin: i totali li rifaccio io a chiusura mese)

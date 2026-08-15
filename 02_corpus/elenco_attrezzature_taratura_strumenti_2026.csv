@@ -1,0 +1,122 @@
+Strumento;Matricola;Ubicazione;Classe/Portata;Ultima_taratura;Prossima_scadenza;Ente_taratura;N_certificato;Esito;Incertezza_dichiarata;Stato;Note
+Termometro a sonda Testo 926;TS-001;Linea 1 - zona forno FT-01;-50/+400 °C;12/01/2026;12/01/2027;MetroLab Taratura S.r.l. (Padova) LAT 214;ML-2026-00412;Conforme;±0,3 °C;IN USO;
+Termometro a sonda Testo 926;TS-002;Linea 1 - uscita PT-104;-50/+400 °C;12/01/2026;12/01/2027;MetroLab Taratura S.r.l. (Padova) LAT 214;ML-2026-00413;Conforme;±0,3 °C;IN USO;strumento di riferimento verifica CCP2
+Termometro a sonda Testo 926;TS-003;Linea 2 - cella lievitazione;-50/+400 °C;2026-01-12;2027-01-12;MetroLab Taratura S.r.l. (Padova) LAT 214;ML-2026-00414;Conforme;±0,3 °C;IN USO;
+Termometro a sonda Testo 926;TS-004;Linea 3 - uscita TS-01;-50/+400 °C;12/01/26;12/01/27;MetroLab Taratura S.r.l. (Padova) LAT 214;ML-2026-00415;Conforme;±0,4 °C;IN USO;
+Termometro a sonda Testo 926;TS-005;Laboratorio QC;-50/+400 °C;12/01/2026;12/01/2027;MetroLab Taratura S.r.l. (Padova) LAT 214;ML-2026-00416;Conforme;±0,3 °C;IN USO;riferimento per tarature interne
+Termometro a sonda Testo 106;TS-006;Ricevimento merci;-50/+275 °C;03/02/2026;03/02/2027;taratura interna (Pozzato S.) vs TS-005;INT-2026-011;Conforme;±0,5 °C;IN USO;
+Termometro a sonda Testo 106;TS-007;Ricevimento merci;-50/+275 °C;03/02/2026;03/02/2027;taratura interna (Pozzato S.) vs TS-005;INT-2026-012;Conforme;±0,5 °C;IN USO;
+Termometro a sonda Testo 106;TS-008;Spedizioni - controllo T carico;-50/+275 °C;03/02/2026;2027-02-03;taratura interna (Pozzato S.) vs TS-005;INT-2026-013;Conforme;±0,5 °C;IN USO;
+Termometro a sonda Testo 106;TS-009;Linea 2 - impasti;-50/+275 °C;03/02/2026;03/02/2027;taratura interna (Pozzato S.) vs TS-005;INT-2026-014;Conforme;±0,6 °C;IN USO;
+Termometro a sonda Testo 106;TS-010;Linea 1 - impasti;-50/+275 °C;10-feb-26;10-feb-27;taratura interna (Pozzato S.) vs TS-005;INT-2026-015;Conforme;±0,5 °C;IN USO;
+Termometro a sonda Testo 106;TS-011;Magazzino Via Palù;-50/+275 °C;15/09/2025;15/03/2026;taratura interna (Pozzato S.) vs TS-005;INT-2025-098;Conforme;±0,5 °C;SCADUTO;SCADUTA - usare in attesa di sostituzione??? chiesto a Marchetti il 20/04, nessuna risposta
+Termometro a sonda Testo 106;TS-012;Linea 3 - controllo cuore prodotto;-50/+275 °C;03/02/2026;03/02/2027;taratura interna (Pozzato S.) vs TS-005;INT-2026-016;Conforme;±0,5 °C;IN USO;usato per verifica CCP4
+Termometro a sonda Hanna Checktemp;TS-013;Laboratorio QC - scorta;-50/+220 °C;;;;;;;DISMESSO;puntale piegato, in attesa smaltimento
+Termometro a sonda Testo 106;TS-014;Linea 2 - uscita forno FT-02;-50/+275 °C;03/02/2026;03/02/2027;taratura interna (Pozzato S.) vs TS-005;INT-2026-017;Conforme;±0,5 °C;IN USO;
+Termometro IR pistola Fluke 62 MAX;TS-015;Manutenzione - officina;-30/+500 °C;20/03/2026;20/03/2027;taratura interna (Pozzato S.) vs TS-005;INT-2026-031;Conforme;±1,5 °C;IN USO;solo indicativo, NON per registrazioni CCP
+Datalogger temperatura PT-104;DL-001;PT-104 Linea 1 - canale 1 (cuore prodotto);4 canali Pt100 -100/+250 °C;28/11/2025;28/11/2026;CalService Italia S.r.l. (Modena) LAT 087;CS-25-7741;Conforme;±0,15 °C;IN USO;registrazione automatica CCP2
+Datalogger temperatura PT-104;DL-002;PT-104 Linea 1 - canale 2 (camera);4 canali Pt100 -100/+250 °C;28/11/2025;28/11/2026;CalService Italia S.r.l. (Modena) LAT 087;CS-25-7742;Conforme;±0,15 °C;IN USO;
+Datalogger temperatura PT-104;DL-003;PT-104 Linea 1 - canale 3 (camera);4 canali Pt100 -100/+250 °C;28/11/2025;2026-11-28;CalService Italia S.r.l. (Modena) LAT 087;CS-25-7743;Conforme;±0,2 °C;IN USO;
+Datalogger temperatura PT-104;DL-004;PT-104 Linea 1 - canale 4 (riserva);4 canali Pt100 -100/+250 °C;28/11/2025;28/11/2026;CalService Italia S.r.l. (Modena) LAT 087;CS-25-7744;Conforme;±0,2 °C;IN USO;canale di riserva, sonda in cassetto quadro
+Datalogger USB Testo 174T;DL-005;Cella CF-01;-30/+70 °C;14/01/2026;14/01/2027;MetroLab Taratura S.r.l. (Padova) LAT 214;ML-2026-00488;Conforme;±0,4 °C;IN USO;
+Datalogger USB Testo 174T;DL-006;Cella CF-02;-30/+70 °C;14/01/2026;14/01/2027;MetroLab Taratura S.r.l. (Padova) LAT 214;ML-2026-00489;Conforme;±0,4 °C;IN USO;
+Datalogger USB Testo 174T;DL-007;Furgone campionature;-30/+70 °C;14/01/2026;14/01/27;MetroLab Taratura S.r.l. (Padova) LAT 214;ML-2026-00490;Conforme;±0,5 °C;IN USO;
+Datalogger USB Testo 174T;DL-008;Magazzino Via Palù - cella surgelati;-30/+70 °C;10/10/2025;10/04/2026;MetroLab Taratura S.r.l. (Padova) LAT 214;ML-2025-03317;Conforme;±0,5 °C;SCADUTO;SCADUTA - ordine taratura fatto? Trentin dice che il preventivo è fermo in amministrazione
+Bilancia di linea Pakmatic integrata;BL-001;Linea 1 - PKM-450 controllo peso;0-3 kg div. 0,1 g;07/01/2026;07/07/2026;TecnoBilance Verona S.n.c.;TB-26-0112;Conforme;±0,2 g;IN USO;taratura semestrale come da capitolato Tosano
+Bilancia di linea a nastro;BL-002;Linea 1 - uscita confezionamento;0-6 kg div. 0,5 g;07/01/2026;07/07/2026;TecnoBilance Verona S.n.c.;TB-26-0113;Conforme;±0,5 g;IN USO;
+Bilancia di linea a nastro;BL-003;Linea 3 - pesatura cartoni;0-30 kg div. 5 g;07/01/2026;07/07/2026;TecnoBilance Verona S.n.c.;TB-26-0114;Conforme;±5 g;IN USO;
+Bilancia dosaggio impasti;BL-004;Linea 1 - IMP zona impasti;0-150 kg div. 20 g;07/01/2026;07/07/2026;TecnoBilance Verona S.n.c.;TB-26-0115;Conforme;±20 g;IN USO;
+Bilancia dosaggio impasti;BL-005;Linea 2 - IMP-300;0-300 kg div. 50 g;07/01/2026;2026-07-07;TecnoBilance Verona S.n.c.;TB-26-0116;Conforme;±50 g;IN USO;
+Bilancia tecnica laboratorio Kern PCB;BL-006;Laboratorio QC;0-2500 g div. 0,01 g;22/01/2026;22/01/2027;MetroLab Taratura S.r.l. (Padova) LAT 214;ML-2026-00521;Conforme;±0,02 g;IN USO;
+Bilancia analitica Sartorius;BL-007;Laboratorio QC;0-220 g div. 0,0001 g;22/01/2026;22/01/2027;MetroLab Taratura S.r.l. (Padova) LAT 214;ML-2026-00522;Conforme;±0,0003 g;IN USO;pesate di riferimento, umidità
+Bilancia da banco;BL-008;R&D - sala prove;0-6 kg div. 1 g;22/01/2026;22/01/2027;MetroLab Taratura S.r.l. (Padova) LAT 214;ML-2026-00523;Conforme;±1 g;IN USO;in uso a Zanchetta / Meneghello per i prototipi v12
+Bilancia da banco;BL-009;Magazzino ricevimento;0-60 kg div. 10 g;18/11/2025;18/05/2026;TecnoBilance Verona S.n.c.;TB-25-0891;Conforme;±10 g;IN USO;scade a maggio, inserire nel giro di giugno con le semestrali
+Bilancia pesa-pallet;BL-010;Magazzino spedizioni;0-2000 kg div. 0,5 kg;18/11/2025;18/11/2026;TecnoBilance Verona S.n.c.;TB-25-0892;Conforme;±0,5 kg;IN USO;
+Bilancia da banco vecchia;BL-011;Officina manutenzione;0-30 kg;;;;;;;FUORI SERVIZIO;certificato non trovato. Dal Maso la usa per pesare i ricambi, NON per prodotto - etichettata "NO ALIMENTI"
+pHmetro da banco Hanna HI-2211;PH-001;Laboratorio QC;0-14 pH;05/02/2026;05/08/2026;taratura interna (Pozzato S.) con buffer certificati 4.01/7.01/10.01;INT-2026-022;Conforme;±0,02 pH;IN USO;taratura a 2 punti ogni utilizzo + verifica semestrale
+pHmetro portatile Hanna HI-99161;PH-002;Linea 1 - controllo impasti;0-12 pH;05/02/2026;05/08/2026;taratura interna (Pozzato S.) con buffer certificati;INT-2026-023;Conforme;±0,05 pH;IN USO;elettrodo a penetrazione per impasti
+Aw-metro Rotronic HygroPalm;AW-001;Laboratorio QC;0,03-1,00 aw;17/12/2025;17/12/2026;CalService Italia S.r.l. (Modena) LAT 087;CS-25-8102;Conforme;±0,008 aw;IN USO;verifica con sali saturi ogni 3 mesi (registro a parte)
+Metal detector Loma IQ4;MD-3200;Linea 1 - post confezionamento;Fe 2,0 / NonFe 2,5 / AISI316 3,0 mm;04/03/2026;04/09/2026;Loma Systems Italia - verifica funzionale + certificazione tasselli;LM-26-1174;Conforme;n.a.;IN USO;CCP3 - verifica interna ogni 60 min su MOD-QA-07 rev.5 con tasselli certificati
+Kit tasselli test MD-3200 (Fe 2,0);TT-001;Linea 1 - a bordo MD-3200;Fe ⌀ 2,0 mm;04/03/2026;04/03/2027;certificato costruttore Loma;LM-26-1174-A;Conforme;n.a.;IN USO;
+Kit tasselli test MD-3200 (NonFe 2,5);TT-002;Linea 1 - a bordo MD-3200;NonFe ⌀ 2,5 mm;04/03/2026;04/03/2027;certificato costruttore Loma;LM-26-1174-B;Conforme;n.a.;IN USO;
+Kit tasselli test MD-3200 (AISI 3,0);TT-003;Linea 1 - a bordo MD-3200;AISI 316 ⌀ 3,0 mm;04/03/2026;04/03/2027;certificato costruttore Loma;LM-26-1174-C;Conforme;n.a.;IN USO;tassello con clip rotta, fissato con fascetta - ordinare ricambio
+Metal detector MD-1800;MD-1800;Linea 3 - pre cartonatura;Fe 2,5 / NonFe 3,0 / AISI316 3,5 mm;19/02/2026;19/08/2026;Loma Systems Italia - verifica funzionale;LM-26-0983;Conforme;n.a.;IN USO;sensibilità inferiore a MD-3200 per effetto prodotto surgelato
+Kit tasselli test MD-1800;TT-004;Linea 3 - a bordo MD-1800;Fe 2,5 / NonFe 3,0 / AISI 3,5 mm;19/02/2026;19/02/2027;certificato costruttore Loma;LM-26-0983-A;Conforme;n.a.;IN USO;
+Manometro glicerina caldaia vapore;MN-001;Centrale termica - generatore vapore;0-10 bar cl. 1,6;28/10/2025;28/10/2026;Idrotermica Scaligera S.r.l.;IS-25-441;Conforme;±0,16 bar;IN USO;
+Manometro glicerina caldaia vapore;MN-002;Centrale termica - collettore;0-10 bar cl. 1,6;28/10/2025;28/10/2026;Idrotermica Scaligera S.r.l.;IS-25-442;Conforme;±0,16 bar;IN USO;
+Manometro linea CIP;MN-003;CIP-01 - mandata;0-6 bar cl. 2,5;28/10/2025;28/04/2026;Idrotermica Scaligera S.r.l.;IS-25-443;Conforme;±0,15 bar;SCADUTO;SCADUTA - usare in attesa di sostituzione??? segnalato da Dal Maso, il CIP gira lo stesso
+Manometro linea CIP;MN-004;CIP-01 - ritorno;0-6 bar cl. 2,5;28/11/2025;28/11/2026;Idrotermica Scaligera S.r.l.;IS-25-444;Conforme;±0,15 bar;IN USO;tarato un mese dopo il MN-003 perché al primo giro era smontato
+Manometro aria compressa;MN-005;Sala compressori;0-16 bar cl. 1,6;28/10/2025;28/10/2026;Idrotermica Scaligera S.r.l.;IS-25-445;Conforme;±0,25 bar;IN USO;
+Manometro azoto PKM-450;MN-006;Linea 1 - quadro gas PKM-450;0-10 bar cl. 1,0;28/10/2025;28/10/2026;Idrotermica Scaligera S.r.l.;IS-25-446;Conforme;±0,1 bar;IN USO;controllo pressione iniezione azoto MAP
+Manometro riduttore CO2;MN-007;Locale bombole Nordgas;0-16 bar cl. 1,6;28/10/2025;28/10/2026;Idrotermica Scaligera S.r.l.;IS-25-447;Conforme;±0,25 bar;IN USO;
+Termoigrometro cella;TI-001;Cella CF-01 (+4 °C);-40/+70 °C / 0-100 %UR;09/01/2026;09/01/2027;MetroLab Taratura S.r.l. (Padova) LAT 214;ML-2026-00450;Conforme;±0,4 °C / ±2 %UR;IN USO;collegato a centralina allarmi
+Termoigrometro cella;TI-002;Cella CF-02 (-18 °C);-40/+70 °C / 0-100 %UR;09/01/2026;09/01/2027;MetroLab Taratura S.r.l. (Padova) LAT 214;ML-2026-00451;Conforme;±0,5 °C / ±3 %UR;IN USO;sonda ridondante rispetto a DL-006
+Termoigrometro cella;TI-003;Cella lievitazione Linea 2;0/+60 °C / 0-100 %UR;09/01/2026;2027-01-09;MetroLab Taratura S.r.l. (Padova) LAT 214;ML-2026-00452;Conforme;±0,4 °C / ±2,5 %UR;IN USO;
+Termoigrometro ambiente;TI-004;Magazzino materie prime;-10/+50 °C / 0-100 %UR;09/01/2026;09/01/2027;MetroLab Taratura S.r.l. (Padova) LAT 214;ML-2026-00453;Conforme;±0,5 °C / ±3 %UR;IN USO;
+Termoigrometro ambiente;TI-005;Magazzino imballi (film MAP Flexipack);-10/+50 °C / 0-100 %UR;09/01/2026;09/01/2027;MetroLab Taratura S.r.l. (Padova) LAT 214;ML-2026-00454;Conforme;±0,5 °C / ±3 %UR;IN USO;
+Termoigrometro cella;TI-006;Magazzino Via Palù - cella surgelati;-40/+70 °C / 0-100 %UR;22/08/2025;22/02/2026;MetroLab Taratura S.r.l. (Padova) LAT 214;ML-2025-02981;Conforme;±0,5 °C / ±3 %UR;SCADUTO;certificato non trovato. Faggionato dice che era nella cartellina blu in portineria del Palù, la cartellina non c'è più
+Sonda spillone cuore prodotto;TS-016;Linea 3 - verifica CCP4;-50/+150 °C;03/02/2026;03/02/2027;taratura interna (Pozzato S.) vs TS-005;INT-2026-018;Conforme;±0,5 °C;IN USO;verifica in punto ghiaccio e a -18 in CF-02
+Sonda spillone cuore prodotto;TS-017;Linea 3 - riserva;-50/+150 °C;03/02/2026;03/02/2027;taratura interna (Pozzato S.) vs TS-005;INT-2026-019;Conforme;±0,5 °C;IN USO;
+Termometro a sonda Testo 926;TS-018;Linea 2 - controllo cottura;-50/+400 °C;12/01/2026;12/01/2027;MetroLab Taratura S.r.l. (Padova) LAT 214;ML-2026-00417;Conforme;±0,3 °C;IN USO;
+Termometro a sonda Testo 926;TS-019;Laboratorio QC - riserva;-50/+400 °C;12/01/2026;12/01/2027;MetroLab Taratura S.r.l. (Padova) LAT 214;ML-2026-00418;Conforme;±0,3 °C;IN USO;
+Cronometro digitale;CR-001;Linea 1 - verifica tempo mantenimento CCP2;0-24 h;15/01/2026;15/01/2027;taratura interna vs orologio radiocontrollato;INT-2026-005;Conforme;±1 s/h;IN USO;
+Cronometro digitale;CR-002;Laboratorio QC;0-24 h;15/01/2026;15/01/2027;taratura interna vs orologio radiocontrollato;INT-2026-006;Conforme;±1 s/h;IN USO;
+Strumento;Matricola;Ubicazione;Classe/Portata;Ultima_taratura;Prossima scadenza;Ente;N. certificato;Esito;Incertezza;Stato;Note
+Termometro registratore forno FT-01;TR-001;Linea 1 - FT-01 zona 1;0-400 °C;05/12/2025;05/12/2026;TecnoForni Service (Rossato G.);TF-25-2211;Conforme;±2 °C;IN USO;taratura in occasione manutenzione annuale forno
+Termometro registratore forno FT-01;TR-002;Linea 1 - FT-01 zona 2;0-400 °C;05/12/2025;05/12/2026;TecnoForni Service (Rossato G.);TF-25-2212;Conforme;±2 °C;IN USO;
+Termometro registratore forno FT-01;TR-003;Linea 1 - FT-01 zona 3;0-400 °C;05/12/2025;05/12/2026;TecnoForni Service (Rossato G.);TF-25-2213;Conforme;±2 °C;IN USO;
+Termometro registratore forno FT-02;TR-004;Linea 2 - FT-02 zona 1;0-400 °C;05/12/2025;05/12/2026;TecnoForni Service (Rossato G.);TF-25-2214;Conforme;±2 °C;IN USO;
+Termometro registratore forno FT-02;TR-005;Linea 2 - FT-02 zona 2;0-400 °C;05/12/2025;05/12/2026;TecnoForni Service (Rossato G.);TF-25-2215;Conforme;±2,5 °C;IN USO;deriva in aumento, tenere monitorato al prossimo giro
+Termometro registratore forno FT-02;TR-006;Linea 2 - FT-02 zona 3;0-400 °C;05/12/2025;05/12/2026;TecnoForni Service (Rossato G.);TF-25-2216;Conforme;±2 °C;IN USO;
+Sonda Pt100 quadro TS-01;TR-007;Linea 3 - TS-01 evaporatore;-45/+50 °C;11/11/2025;11/11/2026;Criotech Impianti S.r.l.;CRT-25-0877;Conforme;±0,5 °C;IN USO;strumento del vecchio tunnel, si ritara finché non arriva il CR-SP180
+Sonda Pt100 quadro TS-01;TR-008;Linea 3 - TS-01 uscita prodotto;-45/+50 °C;11/11/2025;11/11/2026;Criotech Impianti S.r.l.;CRT-25-0878;Conforme;±0,5 °C;IN USO;
+Sonda cella CF-01 centralina;TR-009;CF-01 - quadro frigo;-40/+40 °C;11/11/2025;11/11/2026;Criotech Impianti S.r.l.;CRT-25-0879;Conforme;±0,5 °C;IN USO;
+Sonda cella CF-02 centralina;TR-010;CF-02 - quadro frigo;-40/+40 °C;11/11/2025;11/11/2026;Criotech Impianti S.r.l.;CRT-25-0880;Conforme;±0,5 °C;IN USO;sonda che comanda l'allarme -18, vedi log allarmi aprile
+Termometro a sonda Testo 106;TS-020;Pulizie / sanificazione - controllo T acqua;-50/+275 °C;03/02/2026;03/02/2027;taratura interna (Pozzato S.) vs TS-005;INT-2026-020;Conforme;±0,6 °C;IN USO;
+Termometro a sonda Testo 106;TS-021;Linea 2 - scorta cassetto capoturno;-50/+275 °C;;;;;;;SMARRITO;non trovato all'inventario del 28/02, Ben Salah dice mai visto. Da stralciare?
+Termometro frigo campioni shelf-life;TS-022;Laboratorio QC - frigo campioni;-30/+50 °C;05/02/2026;05/02/2027;taratura interna (Pozzato S.) vs TS-005;INT-2026-024;Conforme;±0,5 °C;IN USO;
+Bilancia controllo peso confezioni;BL-012;Laboratorio QC - controllo legale peso;0-3 kg div. 0,1 g;07/01/2026;07/07/2026;TecnoBilance Verona S.n.c.;TB-26-0117;Conforme;±0,2 g;IN USO;usata per i controlli legge 690/78 sui preconfezionati
+Bilancia da banco R&D;BL-013;R&D - seconda postazione;0-3 kg div. 0,5 g;22/01/2026;22/01/2027;MetroLab Taratura S.r.l. (Padova) LAT 214;ML-2026-00524;Conforme;±0,5 g;IN USO;
+Termoigrometro portatile;TI-007;Qualità - giri ispettivi;-20/+60 °C / 0-100 %UR;09/01/2026;09/01/2027;MetroLab Taratura S.r.l. (Padova) LAT 214;ML-2026-00455;Conforme;±0,5 °C / ±3 %UR;IN USO;in dotazione a Pozzato
+Manometro filtro aria compressa;MN-008;Linea 1 - filtrazione aria contatto prodotto;0-16 bar cl. 2,5;28/10/2025;28/10/2026;Idrotermica Scaligera S.r.l.;IS-25-448;Conforme;±0,4 bar;IN USO;
+Manometro vapore PT-104;MN-009;Linea 1 - alimentazione vapore PT-104;0-10 bar cl. 1,0;28/10/2025;28/10/2026;Idrotermica Scaligera S.r.l.;IS-25-449;Conforme;±0,1 bar;IN USO;
+Vacuometro pompa vuoto;MN-010;Linea 1 - PKM-450;-1/0 bar cl. 1,6;28/10/2025;28/10/2026;Idrotermica Scaligera S.r.l.;IS-25-450;Conforme;±0,016 bar;IN USO;
+Analizzatore gas MAP Witt Oxybaby;GA-001;Linea 1 - controllo miscela O2/CO2 confezioni;O2 0-100% / CO2 0-100%;30/01/2026;30/07/2026;Witt Italia - centro assistenza;WI-26-0334;Conforme;±0,1% O2;IN USO;controllo residuo O2 su ogni lotto MAP, registro a parte
+Analizzatore gas MAP Witt Oxybaby;GA-002;Laboratorio QC - riserva;O2 0-100% / CO2 0-100%;30/01/2026;30/07/2026;Witt Italia - centro assistenza;WI-26-0335;Conforme;±0,1% O2;IN USO;
+Misuratore spessore film;SP-001;Laboratorio QC;0-2 mm div. 0,001 mm;;18/03/2026;CalService Italia S.r.l. (Modena) LAT 087;;;±0,003 mm;SCADUTO;data ultima taratura non registrata, certificato non trovato. Usato per accettazione film Flexipack - AVVISARE MARCHETTI prima del prossimo arrivo F0044
+Dinamometro prova saldatura;SP-002;Laboratorio QC;0-100 N;18/03/2026;18/03/2027;CalService Italia S.r.l. (Modena) LAT 087;CS-26-1501;Conforme;±0,5 N;IN USO;ritarato al giro di marzo insieme allo spessimetro cartone
+Termometro a sonda Testo 926;TS-023;Produzione - jolly;-50/+400 °C;12/01/2026;12/01/2027;MetroLab Taratura S.r.l. (Padova) LAT 214;ML-2026-00419;Conforme;±0,3 °C;IN USO;
+Sonda ambiente sala confezionamento;TI-008;Linea 1 - sala bianca confezionamento;0/+40 °C / 0-100 %UR;09/01/2026;09/01/2027;MetroLab Taratura S.r.l. (Padova) LAT 214;ML-2026-00456;Conforme;±0,4 °C / ±2 %UR;IN USO;
+Sonda ambiente sala confezionamento;TI-009;Linea 3 - zona cartonatura;0/+40 °C / 0-100 %UR;9-gen-26;9-gen-27;MetroLab Taratura S.r.l. (Padova) LAT 214;ML-2026-00457;Conforme;±0,4 °C / ±2 %UR;IN USO;
+Contatore volumetrico acqua impasti;CV-001;Linea 1 - dosatore acqua;0-100 l/min;16/12/2025;16/12/2026;taratura interna (Dal Maso I.) con recipiente tarato;INT-2025-142;Conforme;±1%;IN USO;metodo interno IO-05 allegato B
+Contatore volumetrico acqua impasti;CV-002;Linea 2 - dosatore acqua IMP-300;0-100 l/min;16/12/2025;16/12/2026;taratura interna (Dal Maso I.) con recipiente tarato;INT-2025-143;Conforme;±1%;IN USO;
+Dosatore azoto PKM-450 - flussimetro;CV-003;Linea 1 - PKM-450;0-50 Nl/min;16/12/2025;16/12/2026;Pakmatic Italia - service;PK-25-1188;Conforme;±2%;IN USO;verifica in occasione service annuale confezionatrice
+Termometro di riferimento certificato;TS-REF;Laboratorio QC - cassaforte strumenti;-50/+250 °C;08/07/2025;08/07/2026;CalService Italia S.r.l. (Modena) LAT 087 - certificato LAT;CS-25-5501;Conforme;±0,08 °C;IN USO;RIFERIMENTO AZIENDALE - scade a luglio, prenotare taratura entro giugno (lead time 3 settimane)
+Peso campione F1 200 g;PC-001;Laboratorio QC - cassaforte strumenti;200 g cl. F1;08/07/2025;08/07/2026;CalService Italia S.r.l. (Modena) LAT 087;CS-25-5502;Conforme;±1,0 mg;IN USO;per verifica interna bilance
+Peso campione F1 2 kg;PC-002;Laboratorio QC - cassaforte strumenti;2 kg cl. F1;08/07/2025;08/07/2026;CalService Italia S.r.l. (Modena) LAT 087;CS-25-5503;Conforme;±10 mg;IN USO;
+Peso campione M1 20 kg;PC-003;Magazzino - verifica bilance pesatura;20 kg cl. M1;08/07/2025;08/07/2026;CalService Italia S.r.l. (Modena) LAT 087;CS-25-5504;Conforme;±1 g;IN USO;
+Luxmetro;LX-001;Qualità - verifiche illuminamento reparti;0-20000 lux;20/03/2026;20/03/2028;MetroLab Taratura S.r.l. (Padova) LAT 214;ML-2026-00602;Conforme;±5%;IN USO;biennale, usato per requisiti BRCGS ambienti
+Fonometro;FN-001;RSPP (Bonato) - in comodato;30-130 dB;;;strumento dello Studio Bonato & Partners;;;;NON DI PROPRIETÀ;registrato solo per tracciabilità, taratura a carico dello studio
+Anemometro flussi aria;AN-001;Manutenzione - verifiche aeraulica;0-30 m/s;20/03/2026;20/03/2027;MetroLab Taratura S.r.l. (Padova) LAT 214;ML-2026-00603;Conforme;±3%;IN USO;
+Termometro a sonda Testo 106;TS-024;Ricevimento - terzo turno;-50/+275 °C;03/02/2026;03/02/2027;taratura interna (Pozzato S.) vs TS-005;INT-2026-021;Conforme;±0,5 °C;IN USO;
+Datalogger USB Testo 174T;DL-009;Scorta a magazzino QC;-30/+70 °C;14/01/2026;14/01/2027;MetroLab Taratura S.r.l. (Padova) LAT 214;ML-2026-00491;Conforme;±0,5 °C;SCORTA;nuovo, mai messo in campo
+Datalogger USB Testo 174T;DL-010;Scorta a magazzino QC;-30/+70 °C;14/01/2026;14/01/2027;MetroLab Taratura S.r.l. (Padova) LAT 214;ML-2026-00492;Conforme;±0,5 °C;SCORTA;
+Sonda Pt100 pastorizzatore - riserva fredda;DL-011;Officina - armadio ricambi PT-104;Pt100 -100/+250 °C;28/11/2025;28/11/2026;CalService Italia S.r.l. (Modena) LAT 087;CS-25-7745;Conforme;±0,2 °C;SCORTA;sonda di ricambio già tarata, da montare in caso di guasto canale 1
+pHmetro portatile - riserva;PH-003;Laboratorio QC - cassetto;0-14 pH;;;;;;;FUORI SERVIZIO;elettrodo secco, da rigenerare o buttare
+Aw-metro portatile vecchio;AW-002;R&D - armadio;0,10-0,95 aw;14/06/2024;;CalService Italia S.r.l. (Modena);CS-24-3319;;±0,015 aw;FUORI SERVIZIO;ritirato dall'uso il 20/06/2025, non più tarato. Zanchetta lo voleva tenere per le prove v12 - NO, in R&D si usa AW-001
+Kit sali saturi verifica aw;AW-K01;Laboratorio QC;aw 0,328 / 0,753 / 0,973;01/02/2026;01/02/2027;soluzioni certificate Rotronic;ROT-26-118;Conforme;±0,003 aw;IN USO;
+Spessimetro cartone;SP-003;Magazzino - accettazione imballi Rational Pack;0-20 mm div. 0,01 mm;18/03/2026;18/03/2027;CalService Italia S.r.l. (Modena) LAT 087;CS-26-1502;Conforme;±0,02 mm;IN USO;
+Termocamera FLIR;TC-001;Manutenzione;-20/+400 °C;;;;;;;IN USO;strumento di diagnostica quadri elettrici, non usato per prodotto - esente da taratura periodica secondo Dal Maso, confermare con Marchetti
+Sonda umidità farina al silo;UM-001;Silos farina Molino Veneto;5-20 %;16/12/2025;16/12/2026;taratura interna vs metodo stufa laboratorio;INT-2025-144;Conforme;±0,3%;IN USO;confronto trimestrale con essiccatore lab
+Essiccatore alogeno umidità;UM-002;Laboratorio QC;0-100 % umidità;22/01/2026;22/01/2027;MetroLab Taratura S.r.l. (Padova) LAT 214;ML-2026-00525;Conforme;±0,15%;IN USO;
+Termometro min/max frigo reagenti;TS-025;Laboratorio QC - frigo reagenti;-30/+50 °C;05/02/2026;05/02/2027;taratura interna (Pozzato S.) vs TS-005;INT-2026-025;Conforme;±0,5 °C;IN USO;
+Bilancia etichettatrice peso-prezzo;BL-014;Spedizioni - linea peso variabile;0-15 kg div. 2 g;18/11/2025;18/05/2026;TecnoBilance Verona S.n.c.;TB-25-0893;Conforme;±2 g;IN USO;scade maggio - METROLOGIA LEGALE, verifica CCIAA da prenotare, non basta la taratura
+Sonda temperatura olio friggitrice R&D;TS-026;R&D - sala prove;0-300 °C;03/02/2026;03/02/2027;taratura interna (Pozzato S.) vs TS-005;INT-2026-026;Conforme;±1 °C;IN USO;solo prove sviluppo, non produzione
+Datalogger trasporto usa-e-getta;DL-USA;Spedizioni - consumabili;-30/+70 °C;n.a.;n.a.;certificato di lotto del fornitore;vari;;±0,5 °C;CONSUMABILE;si allegano ai carichi export su richiesta cliente, certificato singolo per lotto
+Termoigrometro spogliatoi/servizi;TI-010;Spogliatoi produzione;0/+50 °C / 0-100 %UR;09/01/2026;09/01/2027;MetroLab Taratura S.r.l. (Padova) LAT 214;ML-2026-00458;Conforme;±0,5 °C / ±3 %UR;IN USO;richiesto dopo rilievo Bonato su microclima
+Manometro bombole azoto - riduttore 2;MN-011;Locale bombole Nordgas - linea 2;0-16 bar cl. 1,6;28/10/2025;28/10/2026;Idrotermica Scaligera S.r.l.;IS-25-451;Conforme;±0,25 bar;IN USO;
+Contalitri gasolio gruppo elettrogeno;CV-004;Area tecnica esterna;0-60 l/min;;;;;;;IN USO;mai tarato, non rilevante per prodotto. Censito per completezza inventario
+Termometro a sonda Testo 926;TS-027;Qualità - audit e verifiche ispettive;-50/+400 °C;12/01/2026;12/01/2027;MetroLab Taratura S.r.l. (Padova) LAT 214;ML-2026-00420;Conforme;±0,3 °C;IN USO;usato da Marchetti durante gli audit interni
+Sonda Pt100 cella lievitazione;TR-011;Linea 2 - cella lievitazione quadro;0/+60 °C;11/11/2025;11/11/2026;Criotech Impianti S.r.l.;CRT-25-0881;Conforme;±0,5 °C;IN USO;
+Sonda Pt100 abbattitore R&D;TR-012;R&D - abbattitore prove;-45/+50 °C;11/11/2025;11/11/2026;Criotech Impianti S.r.l.;CRT-25-0882;Conforme;±0,5 °C;IN USO;
+Kit tasselli scorta (Fe 2,0);TT-005;Laboratorio QC - armadio;Fe ⌀ 2,0 mm;04/03/2026;04/03/2027;certificato costruttore Loma;LM-26-1174-D;Conforme;n.a.;SCORTA;scorta nuova sigillata

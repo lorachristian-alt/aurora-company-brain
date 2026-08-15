@@ -1,0 +1,479 @@
+AURORA FOOD GROUP S.r.l. - Via dell'Industria 27 - 37044 Cologna Veneta (VR)
+SISTEMA DI AUTOCONTROLLO IGIENICO-SANITARIO
+MANUALE HACCP - REVISIONE 4 del 15/01/2024
+Manuale HACCP rev.5 - pag. 1 di 78 - Doc. non controllato se stampato
+
+Redatto da: dott.ssa Elena Marchetti (RSGQ - Team Leader HACCP)
+Verificato da: dott.ssa Chiara Vicentini (consulente esterna - Studio Alimentaria, Verona)
+Approvato da: ing. Marco Fantin (Direttore di Stabilimento)
+
+Copia controllata n. 03 - assegnataria: Sara Pozzato (QC laboratorio)
+Distribuzione: Direzione, Qualità, Produzione, Manutenzione, Magazzino
+
+
+1. SCOPO E CAMPO DI APPLICAZIONE
+
+1.1 Scopo
+Il presente Manuale descrive il sistema di autocontrollo igienico-sanitario adottato da
+Aurora Food Group S.r.l. presso lo stabilimento di Via dell'Industria 27, Cologna Veneta
+(VR), registrazione sanitaria n. 037/2019/SIAN - ULSS 9 Scaligera, ai fini della garanzia
+della sicurezza alimentare dei prodotti fabbricati, in conformità ai principi del sistema
+HACCP di cui al Codex Alimentarius e alla legislazione comunitaria e nazionale applicabile.
+
+1.2 Campo di applicazione
+Il sistema si applica a tutte le fasi di ricevimento, stoccaggio, lavorazione,
+confezionamento in atmosfera protettiva (ATM/MAP), surgelazione, stoccaggio del prodotto
+finito e spedizione, relative alle seguenti categorie di prodotto:
+a) prodotti da forno farciti e snack salati confezionati in ATM (Linea 1);
+b) croissanteria surgelata, anche a marchio del cliente (Linea 2);
+c) prodotti da forno surgelati (Linea 3).
+Sono incluse le lavorazioni in private label per la Grande Distribuzione Organizzata
+(marchio "Bontà di Casa" - Tosano Cerea S.p.A. e altri). E' incluso il secondo magazzino
+di prodotto finito surgelato sito in Via Palù 3/A, Cologna Veneta (VR).
+Sono escluse dal campo di applicazione le attività di trasporto affidate a vettori terzi,
+per le quali si applica la procedura PRO-QA-09 (qualifica e monitoraggio dei vettori),
+vedi All. 7.
+
+Manuale HACCP rev.5 - pag. 2 di 78 - Doc. non controllato se stampato
+
+2. RIFERIMENTI NORMATIVI
+
+- Reg. (CE) n. 852/2004 del 29/04/2004 sull'igiene dei prodotti alimentari e s.m.i.;
+- Reg. (CE) n. 178/2002 che stabilisce i principi e i requisiti generali della
+  legislazione alimentare (rintracciabilità, obblighi degli OSA, artt. 18-19);
+- Reg. (UE) n. 1169/2011 relativo alla fornitura di informazioni sugli alimenti ai
+  consumatori (allergeni, All. II);
+- Reg. (CE) n. 2073/2005 sui criteri microbiologici applicabili ai prodotti alimentari;
+- Reg. (CE) n. 1935/2004 sui materiali e oggetti destinati a venire a contatto con i
+  prodotti alimentari (MOCA);
+- Codex Alimentarius - General Principles of Food Hygiene CAC/RCP 1-1969, rev. 4 (2003)
+  e Annex on HACCP System and Guidelines for its Application;
+- D.Lgs. 6 novembre 2007 n. 193 "Attuazione della direttiva 2004/41/CE relativa ai
+  controlli in materia di sicurezza alimentare e applicazione dei regolamenti comunitari
+  nel medesimo settore" (regime sanzionatorio);
+- BRCGS Food Safety Issue 9 (standard volontario, cert. n. BRC/IT/24/00871);
+- IFS Food v8 (standard volontario, cert. n. IFS/IT/25/03390);
+- Linee guida regionali Regione Veneto in materia di autocontrollo (DGR applicabili).
+
+Nota (1): l'elenco completo dei riferimenti, comprese le norme ISO di supporto ai metodi
+di prova (ISO 11290-1, ISO 6579-1, ISO 4833-1), è riportato nell'All. 1 "Elenco documenti
+di origine esterna", tenuto aggiornato da RSGQ.
+
+3. TERMINI E DEFINIZIONI
+
+3.1 Ai fini del presente Manuale si applicano le definizioni del Codex Alimentarius
+CAC/RCP 1-1969 rev.4 e del Reg. (CE) 178/2002. In particolare:
+- Pericolo: agente biologico, chimico o fisico contenuto in un alimento, o condizione
+  in cui un alimento si trova, in grado di provocare un effetto nocivo sulla salute;
+- CCP (Punto Critico di Controllo): fase in cui il controllo può essere applicato ed è
+  essenziale per prevenire o eliminare un pericolo per la sicurezza alimentare o per
+  ridurlo a un livello accettabile;
+- PRP (Programma di Prerequisiti): pratiche e condizioni di base necessarie per il
+  mantenimento di un ambiente igienico;
+- PRPo (PRP operativo): PRP identificato dall'analisi dei pericoli come essenziale per
+  controllare la probabilità di introdurre pericoli;
+- Limite critico: criterio che distingue l'accettabilità dall'inaccettabilità;
+- Deviazione: mancato rispetto di un limite critico.
+
+Manuale HACCP rev.5 - pag. 5 di 78 - Doc. non controllato se stampato
+
+4. IL TEAM HACCP
+
+4.1 Composizione
+Il Team HACCP è nominato dalla Direzione con ordine di servizio ODS-02/2024 ed è così
+composto:
+
+Ruolo nel team | Nome | Funzione aziendale | Competenze
+Team Leader | dott.ssa Elena Marchetti | Responsabile Qualità (RSGQ) | Laurea CTF ind. alimentare, corso HACCP avanzato, lead auditor ISO 22000
+Membro | Sara Pozzato | Assistente Qualità / QC laboratorio interno | diploma perito chimico, campionamenti e analisi
+Membro | ing. Marco Fantin | Direttore di Stabilimento / Operations | processi e impianti
+Membro | Denis Zanella | Responsabile Produzione | conduzione linee 1-2-3
+Membro | Ivano Dal Maso | Capo officina / Manutenzione | impianti, taratura, MOCA lubrificanti
+Membro | dott. Alberto Zanchetta | R&D - tecnologo alimentare | formulazioni, shelf life, allergeni
+Membro | Nicola Faggionato | Resp. Magazzino e Spedizioni | catena del freddo, FEFO
+Consulente esterno | dott.ssa Chiara Vicentini | Studio Alimentaria (Verona) | consulenza HACCP, aggiornamento normativo
+
+4.2 Il Team si riunisce con frequenza almeno semestrale e comunque in occasione di:
+modifiche di prodotto/processo, nuove referenze, non conformità significative, esiti di
+audit, allerta RASFF pertinenti. I verbali sono conservati da RSGQ (vedi All. 3).
+
+4.3 Compiti del Team Leader
+4.3.1 Il Team Leader convoca e coordina il Team, mantiene aggiornato il piano HACCP,
+verifica l'attuazione delle azioni correttive e riferisce alla Direzione in sede di
+riesame (PRO-QA-02).
+4.3.2 Verifica delle registrazioni
+4.3.2.1 Il Team Leader, o suo delegato formalmente individuato (Sara Pozzato), verifica
+con cadenza definita le registrazioni dei monitoraggi ai CCP. La verifica in seconda
+firma delle registrazioni manuali CCP2 e CCP3 deve avvenire entro la fine del turno di
+produzione a cura del capoturno, e comunque entro 24 ore a cura di QA. (2)
+4.3.2.2 Le registrazioni elettroniche (datalogger PT-104, log MD-3200) sono riesaminate
+settimanalmente da QA con estrazione a campione e confronto con le registrazioni
+cartacee corrispondenti.
+
+(2) Nota: requisito rafforzato a seguito audit CSQA del 17-18/02/2026, rif. NC minore
+BRCGS 9 cl. 2.10.2 / IFS v8 cl. 2.3.9.2 - vedi piano azioni correttive AC-2026-03.
+
+Manuale HACCP rev.5 - pag. 9 di 78 - Doc. non controllato se stampato
+
+5. DESCRIZIONE DEL PRODOTTO E DESTINAZIONE D'USO
+
+5.1 Famiglie di prodotto
+
+Famiglia A - Snack salati e focaccine in ATM (Linea 1)
+Referenze rappresentative: AF-SN-0450 Snack salato rustico multicereali 100 g;
+AF-SN-0455 formato promo 3+1; AF-FC-0330 Focaccina olio EVO 2x90 g.
+Caratteristiche: prodotto da forno cotto, farcito/condito, confezionato in flow-pack in
+atmosfera protettiva (miscela N2/CO2 - E941/E290, fornitore Nordgas S.p.A.), aw 0,30-0,40 (prodotto); farcitura in massa aw 0,90-0,94,
+pH 5,4-5,9, shelf life 45 gg a T ambiente ≤ 25 °C. Consumo diretto senza ulteriore
+trattamento (ready to eat).
+Destinazione: consumatore generico via GDO. Non destinato specificatamente a lattanti o
+soggetti allergici (per allergeni vedi par. 9 e All. 12 - matrice allergeni).
+
+Famiglia B - Croissanteria surgelata (Linea 2)
+Referenze rappresentative: AF-CR-0212 Cornetto Premium burro 6x50 g; AF-CR-0215 Cornetto
+Premium PL 8x45 g; AF-CR-0220 Sfogliatina bio ai cereali (cert. ICEA IT BIO 006).
+Prodotto crudo lievitato o semicotto, surgelato, TMC 12 mesi a -18 °C. Destinato a
+cottura completa da parte del consumatore o del punto vendita (not ready to eat).
+
+Famiglia C - Prodotti da forno surgelati (Linea 3)
+Prodotti cotti surgelati, TMC 12 mesi a -18 °C, cella CF-02.
+
+5.2 Il dettaglio composizionale di ciascuna referenza è riportato nelle schede tecniche
+di prodotto (archivio ST, gestione a cura di R&D - dott. Zanchetta) e non è duplicato
+nel presente Manuale, vedi All. 5.
+
+6. DIAGRAMMA DI FLUSSO
+
+6.1 Il diagramma di flusso è stato elaborato dal Team HACCP e verificato in campo in
+data 11/12/2023 (verifica in situ, turno 1 e turno 2, firme sul modulo di verifica).
+Si riporta la descrizione testuale delle fasi; la rappresentazione grafica è in All. 6.
+
+Fase 01 - Ricevimento materie prime (farine sfuse e in sacchi, grassi, zuccheri, lievito,
+         ingredienti vari, imballi primari MOCA e secondari). Controlli al ricevimento
+         secondo PRO-QA-05: integrità, temperatura ove applicabile, DDT, lotto, CoA.
+Fase 02 - Stoccaggio: silos farina (2x25 t), magazzino ingredienti a T ambiente, cella
+         CF-01 (+4 °C) per burro/panna (fornitore Latteria Bassanese), cella CF-02
+         (-18 °C) per surgelati e semilavorati congelati.
+Fase 03 - Setacciatura farina e passaggio su magnete permanente >>> CCP1
+Fase 04 - Dosaggio ingredienti / pesatura (verifica bilance secondo piano tarature).
+Fase 05 - Impastamento (IMP-300, 300 kg/ciclo, controllo T impasto ≤ 27 °C).
+Fase 06 - Laminazione/sfogliatura (Linea 2), formatura, farcitura.
+Fase 07 - Lievitazione in cella (Linea 2: 28-30 °C, UR 75-80%).
+Fase 08 - Cottura forno tunnel FT-01 (Linea 1) / FT-02 (Linea 2) - PRP forno, profilo
+         tempo/temperatura da scheda processo.
+Fase 09 - Trattamento termico di pastorizzazione superficiale post-farcitura in tunnel
+         termico PT-104 (solo Linea 1) >>> CCP2
+Fase 10 - Raffreddamento in spirale (Linea 1: da 65 °C a ≤ 30 °C in ≤ 55 min, aria
+         filtrata G4+F7).
+Fase 11 - Surgelazione (Linea 3: tunnel TS-01, in sostituzione con tunnel a spirale
+         Criotech CR-SP180) >>> CCP4
+Fase 12 - Rilevazione metalli su prodotto confezionato/non confezionato: MD-3200
+         (Linea 1) >>> CCP3 ; MD-1800 (Linea 3, gestito come CCP assimilato al CCP3
+         con medesimi limiti, vedi nota tabella).
+Fase 13 - Confezionamento primario in ATM: confezionatrice flow-pack PKM-450 (Linea 1),
+         film PP/EVOH fornitore Flexipack Nordest (DoC ex Reg. 1935/2004); controllo
+         miscela gas e tenuta saldature (PRP confezionamento, MOD-QA-15 (3)).
+Fase 14 - Etichettatura e stampa lotto/TMC (formato lotto: L26<ggg>-<linea>-<turno>).
+Fase 15 - Confezionamento secondario (cartone, fornitore Rational Pack), pallettizzazione.
+Fase 16 - Stoccaggio prodotto finito: magazzino T ambiente / cella CF-02 -18 °C /
+         magazzino esterno Via Palù 3/A.
+Fase 17 - Spedizione (vettori qualificati: Trasporti Frigo Veneto, Logistica Zorzi,
+         FrigoExpress Nordest, Autotrasporti Bregolin; controllo T pianale per surgelato).
+
+(3) il MOD-QA-15 sostituisce dal 01/02/2024 il precedente MOD-QA-15a; le copie della
+revisione superata sono state ritirate, ad eccezione
+
+Manuale HACCP rev.5 - pag. 14 di 78 - Doc. non controllato se stampato
+
+7. ANALISI DEI PERICOLI (Principio 1)
+
+7.1 Metodologia
+Per ciascuna fase del diagramma di flusso il Team ha identificato i pericoli Biologici
+(B), Chimici (C, inclusi allergeni ove pertinente come categoria a sé - A) e Fisici (F),
+valutandone la significatività mediante stima di Probabilità (P) x Gravità (G), ciascuna
+su scala 1-4:
+P: 1 = remota; 2 = occasionale; 3 = probabile; 4 = frequente
+G: 1 = trascurabile; 2 = moderata; 3 = grave; 4 = critica (pericolo di vita)
+
+Matrice di rischio R = P x G:
+R ≤ 3: pericolo non significativo, gestito da PRP;
+4 ≤ R ≤ 6: pericolo significativo, gestito da PRP rafforzato o PRPo;
+R ≥ 8: pericolo significativo, da sottoporre all'albero delle decisioni per
+l'individuazione di eventuale CCP.
+
+7.2 Estratto della tabella di analisi dei pericoli (tabella completa in All. 8)
+
+Fase | Pericolo | Tipo | P | G | R | Misura di controllo
+01 Ricevimento | micotossine (DON, OTA) in farina | C | 2 | 3 | 6 | qualifica fornitore F0012 Molino Veneto, CoA per lotto, piano analisi
+01 Ricevimento | Salmonella spp. in materie prime | B | 2 | 4 | 8 | CoA, cottura successiva (fase 08), piano tamponi
+02 Stoccaggio | sviluppo microbico per rottura catena freddo | B | 2 | 3 | 6 | monitoraggio T celle CF-01/CF-02, allarmi, PRP
+03 Setacciatura | corpi estranei > 800 µm, frammenti metallici da silos/coclee | F | 3 | 3 | 9 | CCP1 - setaccio + magnete
+05 Impastamento | frammenti da usura organi meccanici IMP-300 | F | 2 | 3 | 6 | PRP manutenzione preventiva, ispezione visiva
+06 Farcitura | contaminazione crociata allergeni (latte, uova, soia, frutta a guscio, sesamo su AF-SN-0470) | A | 3 | 3 | 9 | PRPo1 - gestione allergeni (par. 9.2)
+08 Cottura | sopravvivenza patogeni per cottura insufficiente | B | 2 | 4 | 8 | scheda processo, PRP forno; per L1 il controllo finale è demandato a CCP2
+09 Pastorizzazione PT-104 | sopravvivenza di L. monocytogenes / S. aureus su prodotto farcito RTE | B | 3 | 4 | 12 | CCP2
+11 Surgelazione | sviluppo microbico per abbattimento lento | B | 2 | 3 | 6 | CCP4 (mantenuto CCP per criticità commerciale e storicità impianto TS-01)
+12 Metal detection | frammenti metallici Fe/NonFe/AISI da monte | F | 3 | 4 | 12 | CCP3
+13 Confezionamento | migrazione da MOCA non conforme | C | 1 | 3 | 3 | PRP: DoC fornitore F0044, vedi All. 10
+13 Confezionamento | frammenti di guarnizioni/plastiche da organi macchina PKM-450 | F | 2 | 3 | 6 | PRP manutenzione; ispezione post-intervento (4)
+16 Stoccaggio PF | abuso termico surgelato | B | 2 | 3 | 6 | monitoraggio CF-02, registrazione continua
+
+(4) il pericolo "frammenti di plastica da organi macchina" NON è rilevabile dal metal
+detector MD-3200; la misura di controllo è di natura preventiva (manutenzione,
+ispezione avvio linea, controllo integrità dopo ogni intervento, MOD-PR-04).
+
+Manuale HACCP rev.5 - pag. 22 di 78 - Doc. non controllato se stampato
+
+7.3 Albero delle decisioni (Principio 2)
+E' stato applicato l'albero delle decisioni Codex (CAC/RCP 1-1969 rev.4, diagramma 2)
+a tutti i pericoli con R ≥ 8:
+
+D1: esistono misure preventive di controllo? Se no -> modificare fase/processo/prodotto.
+D2: la fase è specificatamente progettata per eliminare o ridurre il pericolo a un
+    livello accettabile? Se sì -> CCP.
+D3: la contaminazione potrebbe verificarsi a livelli inaccettabili o aumentare fino a
+    livelli inaccettabili? Se no -> non è CCP.
+D4: una fase successiva eliminerà o ridurrà il pericolo a un livello accettabile?
+    Se sì -> non è CCP; se no -> CCP.
+
+Esiti: fase 03 -> CCP1; fase 09 -> CCP2; fase 12 -> CCP3; fase 11 -> CCP4.
+La gestione allergeni (fase 06 e trasversale) esita in PRPo1 in quanto il controllo non
+è riconducibile a un limite critico misurabile in linea (razionale in All. 12).
+
+8. PIANO HACCP - TABELLA DEI CCP (Principi 3-4-5-6-7)
+
+8.1 Tabella riepilogativa dei punti critici di controllo
+
+============================================================================
+CCP1 - SETACCIATURA FARINA E MAGNETE
+Fase: 03 - Setacciatura farina
+Pericolo: F - corpi estranei > 800 µm; particelle ferrose
+Limite critico: assenza corpi estranei > 800 µm; setaccio maglia 800 µm integro;
+  magnete permanente 10.000 Gauss efficiente
+Monitoraggio: controllo integrità rete setaccio e ispezione/pulizia magnete con
+  registrazione di quanto trattenuto
+Frequenza: integrità setaccio a inizio e fine turno; magnete: ispezione e pulizia
+  settimanale; verifica potenza magnetica (gaussmetro esterno) annuale
+Responsabile: capoturno di linea (Popescu I. - T. / Ben Salah A. / Guerra R.);
+  verifica QA
+Azione correttiva: in caso di rete lacerata: blocco e segregazione della farina
+  setacciata dall'ultimo controllo conforme; sostituzione rete; apertura NC su
+  registro NC interne; valutazione QA sul rilascio
+Verifica: riesame settimanale registrazioni a cura QA; verifica annuale potenza
+  magnete con rapporto esterno
+Registrazione: registro setacciatura e scheda magnete (allegate al dossier di lotto);
+  rapporto taratura gaussmetro
+----------------------------------------------------------------------------
+CCP2 - TRATTAMENTO TERMICO PT-104 (LINEA 1)
+Fase: 09 - Pastorizzazione tunnel termico PT-104
+Pericolo: B - sopravvivenza di patogeni (L. monocytogenes, S. aureus) su prodotto RTE
+Limite critico: temperatura al cuore del prodotto ≥ 72,0 °C mantenuta per ≥ 2 min;
+  set point di esercizio 74,0-76,0 °C
+Monitoraggio: registrazione in continuo T camera e T cuore (sonda a spillone su
+  prodotto campione) tramite datalogger PT-104; lettura e trascrizione manuale su
+  modulo MOD-QA-12 (registro CCP2 temperature)
+Frequenza: registrazione datalogger in continuo; trascrizione manuale su MOD-QA-12
+  ogni 60 minuti; verifica in seconda firma del capoturno entro fine turno
+Responsabile: operatore di linea addetto al PT-104; capoturno per la seconda firma;
+  QA per il riesame
+Azione correttiva: BLOCCO DEL LOTTO e segregazione di tutto il prodotto transitato
+  dall'ultimo controllo conforme; RIPROCESSO del prodotto ove tecnologicamente
+  possibile, altrimenti declassamento/distruzione; verifica taratura sonde;
+  registrazione della deviazione e notifica immediata a RSGQ (Marchetti E.)
+Verifica: confronto settimanale QA tra tracciato datalogger e MOD-QA-12; taratura
+  sonde semestrale (centro LAT); challenge test/validazione trattamento ogni 3 anni
+  o a modifica di prodotto/processo
+Registrazione: MOD-QA-12; tracciati datalogger PT-104 (archivio elettronico, 24 mesi);
+  rapporti di taratura
+----------------------------------------------------------------------------
+CCP3 - METAL DETECTOR MD-3200 (LINEA 1)
+Fase: 12 - Rilevazione metalli
+Pericolo: F - frammenti metallici Fe / Non-Fe / acciaio inox
+Limite critico: rilevazione ed espulsione dei tasselli di prova certificati:
+  Fe diametro 2,0 mm; Non-Fe diametro 2,5 mm; AISI 316 diametro 3,0 mm
+Monitoraggio: passaggio dei tre tasselli certificati in condizioni di produzione
+  (tassello su confezione, posizioni testa/centro/coda) con verifica espulsione
+Frequenza: ogni 60 minuti, nonché a inizio turno, fine turno, cambio prodotto e
+  dopo ogni intervento sull'apparecchio
+Responsabile: operatore di linea; capoturno per la seconda firma entro fine turno;
+  QA per il riesame settimanale
+Azione correttiva: in caso di mancata rilevazione anche di un solo tassello: fermo
+  linea, blocco e segregazione di tutto il prodotto dall'ultima verifica conforme,
+  ripasso integrale al MD dopo ripristino; chiamata assistenza (Loma); apertura NC;
+  in caso di espulsione prodotto in produzione: gestione scarto secondo IO dedicata
+Verifica: riesame settimanale QA dei moduli; verifica annuale del costruttore;
+  taratura tasselli certificata
+Registrazione: modulo MOD-QA-07 rev.5 (verifica metal detector); log elettronico
+  MD-3200; certificati tasselli
+NOTA: il MD-1800 (Linea 3) è gestito con medesimi limiti critici, frequenze e
+  modulistica; le registrazioni riportano l'identificativo macchina.
+----------------------------------------------------------------------------
+CCP4 - SURGELAZIONE (LINEA 3)
+Fase: 11 - Surgelazione tunnel TS-01 (in sostituzione: Criotech CR-SP180)
+Pericolo: B - sviluppo microbico per abbattimento termico insufficiente/lento
+Limite critico: temperatura al cuore del prodotto ≤ -18 °C entro 240 min dall'ingresso
+  in tunnel; cella di stoccaggio CF-02 ≤ -18 °C
+Monitoraggio: rilevazione T al cuore su campione a fine tunnel (sonda a penetrazione);
+  registrazione in continuo T cella CF-02 (sistema di monitoraggio con allarme)
+Frequenza: T cuore: ogni 2 ore per referenza in produzione; CF-02: continuo con
+  soglia allarme -16 °C e notifica a Faggionato N. e Guerra R.
+Responsabile: capoturno Linea 3 (Guerra R.); magazzino per CF-02; QA per riesame
+Azione correttiva: prodotto che non raggiunge -18 °C entro 240 min: prolungamento
+  permanenza e nuova verifica; se non risolutivo, blocco lotto e valutazione QA
+  (declassamento a catena del fresco ove ammissibile, altrimenti distruzione);
+  per CF-02 fuori limite: trasferimento prodotto, chiamata frigorista, valutazione
+  QA su tempo/temperatura di esposizione
+Verifica: riesame settimanale registrazioni; taratura sonde semestrale; mappatura
+  termica cella CF-02 annuale
+Registrazione: registro surgelazione L3; tracciato continuo CF-02; MOD-MAG-02 per
+  eventuali movimentazioni di segregazione
+============================================================================
+
+Manuale HACCP rev.5 - pag. 31 di 78 - Doc. non controllato se stampato
+
+9. PROGRAMMI DI PREREQUISITI (PRP) E PRP OPERATIVI
+
+9.1 Elenco dei PRP attivi (procedure richiamate, non duplicate qui - vedi All. 2):
+PRP-01 Pulizia e sanificazione (CIP-01, istruzione operativa IO-05; detergenti
+       Chemifood Italia F0052: soda caustica, acido nitrico, sanificante PAA;
+       schede di sicurezza in archivio SDS)
+PRP-02 Disinfestazione e monitoraggio infestanti (ditta esterna, 24 postazioni esca +
+       6 lampade UV, report mensile)
+PRP-03 Manutenzione preventiva impianti e taratura strumenti (piano annuale a cura
+       Dal Maso I.; lubrificanti food grade H1; divieto di deposito di ricambi e
+       attrezzi in area produttiva al di fuori degli interventi - vedi nota (5))
+PRP-04 Igiene e formazione del personale (MOD-HR-11 registro formazione; visite
+       mediche; regole di accesso, indumenti, lavaggio mani)
+PRP-05 Qualifica e monitoraggio fornitori (vendor rating annuale; fornitori critici:
+       F0012, F0021, F0044, F0090)
+PRP-06 Gestione dell'acqua (acquedotto + analisi potabilità semestrali)
+PRP-07 Gestione rifiuti e sottoprodotti (ex Reg. 1069/2009 ove applicabile)
+PRP-08 Controllo corpi estranei: vetro e plastica dura (registro vetri/plexiglas,
+       ispezioni mensili; politica no-vetro in produzione; coltelli censiti)
+PRP-09 Rintracciabilità (PRO-QA-08: identificazione lotto L26<ggg>-<linea>-<turno>,
+       mass balance, esercitazione annuale - vedi PRO-QA-14 per il ritiro)
+PRP-10 Catena del freddo e trasporti (qualifica vettori, controllo T pianale)
+PRP-11 Food defense e sicurezza sito (BRCGS 9 sez. 4.2; TACCP a cura team dedicato)
+PRP-12 Gestione MOCA (DoC fornitori F0044 Flexipack, F0031 Euroglass; test migrazione)
+
+(5) nota rafforzata a seguito audit CSQA 17-18/02/2026, NC minore BRCGS cl. 4.7.5
+(ricambi e attrezzi custoditi in area produttiva senza controllo integrità): il
+carrello ricambi di linea è stato rimosso; ogni intervento in produzione richiede
+il modulo MOD-PR-04 con conta attrezzi in ingresso e in uscita.
+
+9.2 PRPo1 - Gestione allergeni
+Allergeni presenti in stabilimento: GLUTINE (cereali), LATTE (burro, panna - F0021
+Latteria Bassanese), UOVA, SOIA, FRUTTA A GUSCIO; SESAMO in fase di introduzione con
+la referenza in sviluppo AF-SN-0470 (v12, R&D Zanchetta A. / Meneghello G.).
+Misure: matrice allergeni per referenza (All. 12, doc. "scheda allergeni matrice
+cross contamination"); sequenze di produzione dal meno allergenico al più allergenico;
+lavaggio validato tra referenze incompatibili con test proteina specifica (latte,
+uovo, soia) a cura QC (Pozzato S., 1 validazione/trimestre per linea); gestione rework
+vincolata alla matrice; etichettatura precauzionale deliberata dal Team HACCP, non
+applicata di default; formazione specifica registrata su MOD-HR-11.
+Monitoraggio PRPo1: check-list di cambio produzione; esito test proteine.
+Azione in caso di fallimento: blocco prodotto dal cambio produzione, valutazione QA,
+eventuale rietichettatura o declassamento.
+
+Manuale HACCP rev.5 - pag. 44 di 78 - Doc. non controllato se stampato
+
+10. GESTIONE DELLE DEVIAZIONI E DEL PRODOTTO POTENZIALMENTE NON SICURO
+
+10.1 Ogni deviazione da un limite critico comporta: (a) identificazione e segregazione
+del prodotto coinvolto dall'ultimo controllo conforme, con cartellino BLOCCATO e
+registrazione su MOD-MAG-02; (b) registrazione della deviazione sul modulo del CCP
+interessato e sul registro NC interne; (c) notifica a RSGQ entro il turno; (d) decisione
+documentata di RSGQ sul destino del prodotto (rilascio previo riprocesso / declassamento
+/ distruzione), con razionale scritto; (e) analisi della causa radice per deviazioni
+ripetute (≥ 2 nello stesso trimestre sullo stesso CCP).
+10.2 Il prodotto bloccato è fisicamente segregato in area dedicata del magazzino o
+identificato informaticamente con stato di blocco; la movimentazione richiede firma QA.
+10.3 Qualora la deviazione sia rilevata dopo la spedizione, si applica la procedura
+PRO-QA-14 rev.3 "Gestione ritiro e richiamo del prodotto" e, ove ne ricorrano i
+presupposti, la notifica ex art. 19 Reg. (CE) 178/2002 all'Autorità competente
+(ULSS 9 Scaligera - SIAN).
+10.4 Reclami dei consumatori e dei clienti: gestione su MOD-QA-31, con valutazione di
+sicurezza entro 24 h a cura QA; i reclami per corpo estraneo comportano sempre la
+richiesta del reperto e, ove disponibile, l'identificazione merceologica del materiale.
+
+11. PROCEDURE DI VERIFICA (Principio 6)
+
+11.1 Attività di verifica pianificate:
+- riesame settimanale delle registrazioni CCP (QA - Pozzato S., supervisione Marchetti E.);
+- audit interni: programma annuale che copre tutte le sezioni BRCGS/IFS almeno una
+  volta/anno; auditor qualificati o consulente esterno (Vicentini C.);
+- piano analitico su prodotto finito e ambiente: tamponi di superficie e ambientali
+  (MOD-QA-19) con laboratorio esterno Analytica Veneta S.r.l. (ACCREDIA n. 0987),
+  ricerca L. monocytogenes ISO 11290-1 e Salmonella spp. ISO 6579-1 secondo piano
+  di zoning (zona 1 contatto diretto, zona 2 prossimità, zona 3 ambiente, zona 4
+  esterna alle aree di lavorazione);
+- shelf life test su referenze rappresentative (challenge test ove richiesto);
+- verifica annuale metal detector a cura del costruttore; taratura sonde semestrale;
+- mock recall annuale (PRO-QA-14) con obiettivo di ricostruzione ≥ 99% entro 4 h;
+- verifica potabilità acqua semestrale.
+11.2 Gli esiti delle verifiche confluiscono nel riesame della direzione (PRO-QA-02,
+verbale annuale) e nell'aggiornamento dell'analisi dei pericoli.
+
+11.3 Validazione
+Le misure di controllo ai CCP sono state validate come segue: CCP2 mediante studio di
+penetrazione termica su prodotto farcito peggiore caso (AF-SN-0450 con farcitura fredda,
+rapporto Studio Alimentaria SA-VAL-21/09 del 2021, rivalidazione prevista 2024 - NOTA:
+rivalidazione eseguita? vedi verbale team 03/2024); CCP3 mediante test di sensibilità
+in condizioni dinamiche con prodotto; CCP4 mediante mappatura tunnel TS-01 (2019 - da
+ripetere su CR-SP180 al collaudo, azione a carico Fantin M. / Criotech).
+
+Manuale HACCP rev.5 - pag. 58 di 78 - Doc. non controllato se stampato
+
+12. RIESAME DEL SISTEMA
+
+12.1 Il piano HACCP è riesaminato dal Team con frequenza annuale e comunque al
+verificarsi di: modifiche di layout, nuovi impianti (es. sostituzione TS-01 con
+CR-SP180 - riesame straordinario pianificato al collaudo), nuove referenze (AF-SN-0470
+con introduzione SESAMO - riesame obbligatorio pre-lancio), esiti sfavorevoli di audit
+o di analisi, reclami per pericolo sanitario, allerta RASFF su ingredienti in uso.
+12.2 Il riesame annuale 2026 del sistema HACCP si integra con il riesame della
+direzione SGQ del 12/03/2026 (verbale VRD-2026-01).
+12.3 Ogni revisione del Manuale è approvata da Direzione; la matrice delle revisioni
+è riportata in ultima pagina. Rev. 4 del 15/01/2024: adeguamento a BRCGS Issue 9 e
+IFS v8, inserimento PT-104 come CCP2 in sostituzione del precedente CP cottura,
+aggiornamento zoning tamponi.
+
+13. DOCUMENTAZIONE E CONSERVAZIONE
+
+13.1 Le registrazioni relative ai CCP sono conservate per 24 mesi oltre il TMC del
+prodotto cui si riferiscono. I moduli in uso: MOD-QA-07 rev.5, MOD-QA-12, MOD-QA-19,
+MOD-PR-04, MOD-MAG-02, MOD-HR-11, MOD-QA-31. La modulistica è gestita secondo
+PRO-QA-01 (tenuta sotto controllo dei documenti); l'uso di moduli in revisione
+superata costituisce non conformità interna.
+13.2 Archivio: cartaceo presso ufficio QA (armadi 1-4); elettronico su server aziendale
+\\AURORA-SRV01\Qualita (backup notturno). E' in valutazione la digitalizzazione
+dell'archivio storico (input della Direzione, vedi verbale riesame 12/03/2026).
+
+ALLEGATI (richiamati nel testo)
+All. 1 - Elenco documenti di origine esterna
+All. 2 - Elenco PRP e procedure richiamate
+All. 3 - Verbali del Team HACCP
+All. 5 - Schede tecniche di prodotto (archivio R&D)
+All. 6 - Diagrammi di flusso grafici per linea
+All. 7 - Qualifica vettori e trasporti
+All. 8 - Tabella completa analisi dei pericoli
+All. 10 - Dossier MOCA
+All. 12 - Matrice allergeni e validazione pulizie
+
+Manuale HACCP rev.5 - pag. 78 di 78 - Doc. non controllato se stampato
+
+MATRICE DELLE REVISIONI
+Rev. 0 - 06/2019 - prima emissione (consulente: Studio Alimentaria)
+Rev. 1 - 03/2021 - inserimento Linea 3 surgelati, CCP4
+Rev. 2 - 09/2022 - adeguamento BRCGS Issue 9 (transizione)
+Rev. 3 - 02/2023 - nuova confezionatrice PKM-450, aggiornamento fase 13
+Rev. 4 - 15/01/2024
+Rev. 5 - 08/04/2026 - recepimento esiti audit CSQA 17-18/02/2026 (note 2 e 5), aggiornamento PRPo1 allergene sesamo su AF-SN-0470, recepimento riesame direzione 12/03/2026 - approvata E. Marchetti / M. Fantin
+
+Firme (originale firmato in archivio QA, copia scansionata)
+Redatto: E. Marchetti ______________
+Verificato: C. Vicentini ______________
+Approvato: M. Fantin ______________
+
+fine estratto - le pagine 32-43 e 45-57 (istruzioni operative di dettaglio e schede
+di monitoraggio) non sono incluse nel presente estratto

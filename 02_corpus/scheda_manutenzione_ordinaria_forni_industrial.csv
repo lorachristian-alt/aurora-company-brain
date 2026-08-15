@@ -1,0 +1,115 @@
+Macchina;Componente;Cod_ricambio;Tipo_intervento;Frequenza;Ultima_esec;Prossima_scad;Esecutore;Durata_h;Costo_EUR;Stato;N_OdL;Note
+FT-01;Bruciatore Weishaupt G7 - pulizia ugelli e taratura;WSH-G7-KIT;pulizia/taratura;6 mesi;11/02/26;2026-08-11;TecnoForni Service (Rossato);4;680,00;OK;OdL-26-0102;
+FT-01;Catena trasporto nastro;FT1-CAT-88;lubrificazione;500 h;2026-04-28;26-mag-26;interno (Bissoli);1,5;;OK;OdL-26-0166;
+FT-01;Catena trasporto nastro - tensionamento;FT1-CAT-88;controllo tensione;1000 h;02-mar-26;20/04/26;interno (Dal Maso);2;;RIMANDATO;OdL-26-0131;rimandato per produzione Tosano
+FT-01;Termocoppie zone 1-4;TC-K-4X;taratura ACCREDIA;12 mesi;15/09/25;2026-09-15;Analytica Veneta (F0090);3;450,00;OK;OdL-25-0412;
+FT-01;Guarnizioni porte camera cottura;FT1-GRN-P2;sostituzione;12 mesi;2025-03-20;20-mar-26;TecnoForni Service (Rossato);5;920,00;SCADUTO;;manca ricambio - ordinato TecnoForni
+FT-01;Ventilatori ricircolo aria - cuscinetti;SKF-6208-2Z;controllo/ingrassaggio;2000 h;04-apr-26;10/07/26;interno (Bissoli);2;;OK;OdL-26-0149;
+FT-01;Refrattario camera - ispezione visiva;;ispezione;12 mesi;18/08/25;2026-08-18;TecnoForni Service (Rossato);2;350,00;OK;;
+FT-01;Motoriduttore nastro - cambio olio;OLIO-SEW-VG220;cambio olio;4000 h;2025-12-09;30-giu-26;interno (Dal Maso);1,5;85,50;OK;OdL-25-0533;
+FT-01;Quadro elettrico - termografia e serraggi;;verifica;12 mesi;03-nov-25;03/11/26;Elettromec Snc;3;390,00;OK;;
+FT-01;Fotocellule fine forno;OMR-E3Z;pulizia;1 mese;30/04/26;2026-05-30;interno (Bissoli);N/D;;OK;;
+FT-02;Bruciatore Weishaupt G5 - pulizia e taratura;WSH-G5-KIT;pulizia/taratura;6 mesi;2026-01-22;22-lug-26;TecnoForni Service (Rossato);4;680,00;OK;OdL-26-0071;
+FT-02;Catena trasporto nastro;FT2-CAT-71;lubrificazione;500 h;02-mag-26;28/05/26;interno (Bissoli);1,5;;OK;OdL-26-0172;
+FT-02;Guarnizioni porte camera cottura;FT2-GRN-P1;sostituzione;12 mesi;07/10/25;2026-10-07;TecnoForni Service (Rossato);5;880,00;OK;;
+FT-02;Termocoppie zone 1-3;TC-K-3X;taratura ACCREDIA;12 mesi;2025-09-15;15-set-26;Analytica Veneta (F0090);2,5;380,00;OK;OdL-25-0412;
+FT-02;Ventilatori estrazione vapori;;controllo cinghie;2000 h;14-feb-26;05/06/26;interno (Dal Maso);1;;RIMANDATO;OdL-26-0158;attesa fermo linea 2 - turni anche domenica x promo
+FT-02;Nastro rete inox - giunzioni;FT2-RETE-04;controllo;1000 h;30/03/26;2026-05-18;interno (Dal Maso);2;;OK;;
+FT-02;Refrattario camera - ispezione;;ispezione;12 mesi;2025-08-18;18-ago-26;TecnoForni Service (Rossato);2;350,00;OK;;
+PT-104;Pompa ricircolo acqua P01 - tenuta meccanica;PT-P01-TM22;revisione;6 mesi;12-gen-26;12/07/26;interno (Dal Maso);3;240,00;OK;OdL-26-0055;
+PT-104;Sonde TT_01/TT_02/TT_03;PT100-A3;taratura;6 mesi;09/02/26;2026-08-09;Analytica Veneta (F0090);2;310,00;OK;OdL-26-0098;rif. CCP2
+PT-104;Sonda a cuore T_CUORE;PT100-CUORE;taratura;3 mesi;2026-03-16;16-giu-26;Analytica Veneta (F0090);1;120,00;OK;OdL-26-0125;rif. CCP2 - MOD-QA-12
+PT-104;Valvola modulante vapore VM-2;SPIR-VM2-DN40;revisione;12 mesi;10-apr-25;10/04/26;TecnoForni Service (Rossato);4;560,00;RIMANDATO;OdL-26-0140;rimandato x2 - sollecitare, oscillazioni in regolazione
+PT-104;Scambiatore - disincrostazione;;pulizia chimica;6 mesi;20/12/25;2026-06-20;interno (Dal Maso);6;;OK;;
+PT-104;Guarnizioni portelli ispezione;PT-GRN-ISP;sostituzione;6 mesi;2026-01-12;12-lug-26;interno (Bissoli);2;;OK;;
+PT-104;Nastro rete - controllo giunzioni;PT-RETE-02;controllo;1000 h;11-apr-26;02/06/26;interno (Dal Maso);1,5;;OK;OdL-26-0151;
+PKM-450;Guarnizioni valvola iniezione azoto;PKM-4471-EPDM (orig. Pakmatic);sostituzione;6 mesi;12/07/25;2026-01-12;Pakmatic Italia (F0077);3;410,00;SCADUTO;OdL-26-0019;manca ricambio - ordine F0077 del 08/05 sollecitato, arrivo previsto 15/05
+PKM-450;Ganasce saldanti - teflon barre;PKM-TFL-450;sostituzione;3 mesi;2026-03-07;07-giu-26;interno (Dal Maso);2;160,00;OK;OdL-26-0121;
+PKM-450;Coltello rotante taglio film;PKM-CLT-09;affilatura/sost.;6 mesi;02-feb-26;02/08/26;Pakmatic Italia (F0077);2;290,00;OK;;
+PKM-450;Cinghia traino film;PKM-CNG-12;controllo tensione;1000 h;18/04/26;2026-06-09;interno (Bissoli);1;;OK;;
+PKM-450;Fotocellula tacca film;;pulizia/allineamento;1 mese;2026-04-29;29-mag-26;interno (Bissoli);0,5;;OK;;
+PKM-450;Filtro linea azoto (F0061);FLT-N2-05;sostituzione cartuccia;6 mesi;25-ott-25;25/04/26;interno (Dal Maso);1;75,00;RIMANDATO;OdL-26-0160;manca ricambio
+PKM-450;Catena formatore tubo;PKM-CAT-31;lubrificazione;500 h;04/05/26;2026-05-30;interno (Bissoli);1;;OK;;
+PKM-450;Pressostato circuito azoto;PKM-PRS-02;verifica taratura;12 mesi;2025-07-12;12-lug-26;Pakmatic Italia (F0077);1;140,00;OK;;
+MD-3200;Convalida annuale Loma + certificato;;convalida;12 mesi;06-feb-26;06/02/27;Loma Systems Italia;N/D;850,00;OK;OdL-26-0090;rif. CCP3 - MOD-QA-07
+MD-3200;Tasselli certificati Fe/NFe/AISI316;TST-CERT-KIT;ricertificazione;12 mesi;06/02/26;2027-02-06;Loma Systems Italia;;180,00;OK;;Fe 2,0 / NFe 2,5 / AISI 3,0
+MD-3200;Nastro espulsore - cinghia;MD-ESP-C2;controllo;6 mesi;2026-01-30;30-lug-26;interno (Bissoli);1;;OK;;
+MD-1800;Convalida annuale linea 3;;convalida;12 mesi;03-apr-25;03/04/26;Loma Systems Italia;4;850,00;SCADUTO;;sollecitato da QA (Marchetti) 2 volte
+IMP-300;Tenuta albero vasca;IMP-TEN-300;sostituzione;12 mesi;30/06/25;2026-06-30;interno (Dal Maso);4;310,00;OK;;
+IMP-300;Riduttore - cambio olio;OLIO-VG320;cambio olio;4000 h;2025-11-11;15-mag-26;interno (Dal Maso);2;110,00;RIMANDATO;OdL-26-0169;rimandato per produzione Tosano
+IMP-300;Raschiatori vasca;IMP-RAS-06;sostituzione;6 mesi;03-mar-26;03/09/26;interno (Bissoli);1;65,00;OK;;
+IMP-300;Ispezione bracci impastatori - cricche;;ispezione LP;12 mesi;09/05/25;2026-05-09;esterno (CND Verona);3;;SCADUTO;;da pianificare con fermo L2
+TS-01;Compressore frigorifero - controllo generale;;controllo;6 mesi;2025-11-28;28-mag-26;Frigotecnica Scaligera;3;380,00;RIMANDATO;;in dismissione - arrivo tunnel Criotech CR-SP180 (CapEx)
+Macchina;Componente;Codice;Intervento;Freq.;Ultima;Scadenza;Chi;Ore;Costo;Stato;OdL;Note
+TS-01;Carica gas refrigerante - verifica fughe;R448A;verifica FGAS;12 mesi;02-set-25;02/09/26;Frigotecnica Scaligera;2;260,00;OK;;registro FGAS aggiornato
+TS-01;Ventilatori evaporatore;;pulizia pale;3 mesi;20/02/26;2026-05-20;interno (Bissoli);2;;OK;;
+TS-01;Piastre - pulizia e sbrinamento profondo;;pulizia;1 mese;2026-04-26;26-mag-26;interno (Bissoli);3;;OK;;
+CF-02;Compressore frigo - controllo assorbimenti;;controllo;6 mesi;30-ott-25;30/04/26;Frigotecnica Scaligera;2;310,00;SCADUTO;OdL-26-0175;assorbimento anomalo segnalato 08/05 (Dal Maso) - vedi consumi
+CF-02;Resistenze sbrinamento evaporatore;CF2-RES-800W;verifica/sostituzione;3 mesi;15/01/26;2026-04-15;interno (Bissoli);2;95,00;RIMANDATO;OdL-26-0161;manca ricambio - ghiaccio su evaporatore
+CF-02;Guarnizione porta cella;CF2-GRN-P;sostituzione;12 mesi;2025-07-22;22-lug-26;interno (Bissoli);1;130,00;OK;;
+CF-02;Sonda temperatura cella - taratura;PT100-CF2;taratura;6 mesi;25-mar-26;25/09/26;Analytica Veneta (F0090);1;95,00;OK;OdL-26-0134;rif. CCP4
+CF-02;Valvola termostatica;CF2-VTE-12;controllo;12 mesi;30/10/25;2026-10-30;Frigotecnica Scaligera;1;;OK;;
+CF-02;Registratore temperatura - verifica;;verifica;6 mesi;2026-02-28;28-ago-26;interno (Bissoli);0,5;;OK;;
+CF-01;Compressore frigo cella +4;;controllo;6 mesi;20-gen-26;20/07/26;Frigotecnica Scaligera;2;280,00;OK;;
+CF-01;Guarnizione porta;CF1-GRN-P;controllo;6 mesi;12/03/26;2026-09-12;interno (Bissoli);0,5;;OK;;
+CF-01;Sonda temperatura - taratura;PT100-CF1;taratura;6 mesi;2026-03-25;25-set-26;Analytica Veneta (F0090);1;95,00;OK;OdL-26-0134;
+CIP-01;Pompe dosaggio soda/acido (F0052);DOS-CHM-2X;taratura portata;6 mesi;17-feb-26;17/08/26;interno (Dal Maso);2;;OK;OdL-26-0105;
+CIP-01;Sonda conducibilita;COND-S7;taratura;3 mesi;08/01/26;2026-04-08;Chemifood Italia (F0052);1;150,00;SCADUTO;;sollecitato da QA - allarmi sonda su log maggio
+CIP-01;Valvole a farfalla pneumatiche;CIP-VF-DN50;revisione guarnizioni;12 mesi;2025-06-15;15-giu-26;interno (Dal Maso);N/D;220,00;OK;;
+;;--- RIEPILOGO PARZIALE: interventi SCADUTI n. 7 / RIMANDATI n. 8 (agg. 09/05/26 L.T.) ---;;;;;;;;;;
+CIP-01;Serbatoio soda - ispezione interna;;ispezione;12 mesi;01-lug-25;01/07/26;interno (Dal Maso);3;;OK;;DPI: visiera+grembiule antiacido
+CIP-01;Scambiatore riscaldo soluzioni;;disincrostazione;12 mesi;10/09/25;2026-09-10;interno (Dal Maso);4;;OK;;
+COMP-01,Filtri aria aspirazione,FLT-ASP-90,sostituzione,2000 h,2026-03-18,18-giu-26,interno (Bissoli),1,"65,00",OK,OdL-26-0129,
+COMP-01,Olio compressore,OLIO-RS-46,cambio olio,4000 h,02-dic-25,02/06/26,interno (Bissoli),"1,5","140,00",OK,,
+COMP-01,Essiccatore - controllo punto rugiada,,verifica,6 mesi,25/01/26,2026-07-25,Aria Service Vicenza,2,"190,00",OK,,
+COMP-01,Separatore condensa - scarico,,pulizia,1 mese,2026-04-27,27-mag-26,interno (Bissoli),"0,5",,OK,,
+COMP-02,Filtri aria aspirazione,FLT-ASP-90,sostituzione,2000 h,05-feb-26,20/05/26,interno (Bissoli),1,"65,00",OK,,
+COMP-02,Olio compressore,OLIO-RS-46,cambio olio,4000 h,10/01/26,2026-07-10,interno (Bissoli),"1,5","140,00",OK,,
+COMP-02,Valvola sicurezza - verifica,,verifica,12 mesi,2025-05-05,05-mag-26,Aria Service Vicenza,1,"120,00",SCADUTO,,pianificare con visita PED
+SET-01,Setaccio farina - integrita rete 800um,SET-RETE-800,ispezione,1 mese,28-apr-26,28/05/26,interno (Bissoli),1,,OK,OdL-26-0167,rif. CCP1
+SET-01,Magnete permanente 10.000 Gauss,MAG-10K,verifica forza magnetica,6 mesi,12/02/26,2026-08-12,Analytica Veneta (F0090),1,"160,00",OK,,rif. CCP1
+SF-200,Sfogliatrice L2 - tappeti,SF-TAP-2X,controllo/centraggio,500 h,2026-04-22,19-mag-26,interno (Dal Maso),1,,OK,,
+SF-200,Cilindri laminazione - raschiatori,SF-RAS-04,sostituzione,6 mesi,17-gen-26,17/07/26,interno (Dal Maso),2,"85,00",OK,,
+CL-01,Cella lievitazione - umidificatore,CL-UMD-01,pulizia/decalcificazione,3 mesi,08/02/26,2026-05-08,interno (Bissoli),2,,SCADUTO,OdL-26-0176,rimandato per produzione Tosano - domeniche
+CL-01,Sonda umidita relativa,,taratura,6 mesi,2026-03-01,01-set-26,Analytica Veneta (F0090),1,"95,00",OK,,
+MUL-01,Muletto elettrico - tagliando,,tagliando,6 mesi,19-feb-26,19/08/26,Carrelli Nordest Srl,3,"240,00",OK,,
+MUL-01;Controllo forche e catene;;verifica trim.;3 mesi;10/03/26;2026-06-10;Carrelli Nordest Srl;1;90,00;OK;;
+MUL-01;Batteria trazione - livelli;;rabbocco;1 mese;2026-04-29;29-mag-26;interno (Bissoli);0,5;;OK;;
+MUL-02;Muletto elettrico - tagliando;;tagliando;6 mesi;14-ott-25;14/04/26;Carrelli Nordest Srl;3;240,00;SCADUTO;;muletto usato in cella CF-02, condensa
+MUL-02;Controllo forche e catene;;verifica trim.;3 mesi;26/02/26;2026-05-26;Carrelli Nordest Srl;1;90,00;OK;;
+MUL-02;Batteria trazione - livelli;;rabbocco;1 mese;2026-05-02;02-giu-26;interno (Bissoli);0,5;;OK;;
+MUL-03;Transpallet elettrico - tagliando;;tagliando;12 mesi;01-dic-25;01/12/26;Carrelli Nordest Srl;2;180,00;OK;;
+MUL-03;Ruote - sostituzione;TPL-RUO-02;sostituzione;12 mesi;01/12/25;2026-12-01;Carrelli Nordest Srl;N/D;110,00;OK;;
+GEN;Addolcitore acqua - resine e sale;;controllo;1 mese;2026-04-30;30-mag-26;interno (Bissoli);0,5;;OK;;
+GEN;Gruppo pompaggio antincendio;;prova avviamento;1 mese;26-apr-26;26/05/26;Antincendio Veneta;1;;OK;;verbale in portineria
+GEN;Estintori e idranti;;verifica semestrale;6 mesi;31/01/26;2026-07-31;Antincendio Veneta;4;310,00;OK;;
+GEN;UTA reparto confezionamento - filtri;UTA-FLT-F7;sostituzione;3 mesi;2026-02-25;25-mag-26;interno (Bissoli);2;145,00;OK;OdL-26-0163;filtri F7 - igiene aria BRCGS 4.4
+GEN;Lampade UV monconi - sostituzione;;sostituzione;12 mesi;20-giu-25;20/06/26;interno (Bissoli);1;220,00;OK;;
+GEN;Retine antinsetto finestre - integrita;;ispezione;3 mesi;14/03/26;2026-06-14;interno (Bissoli);1;;OK;;pest control: Ecopest contratto
+FT-01;Pulizia bruciatore - controllo fiamma;;pulizia programmata;1 mese;2026-04-26;26-mag-26;interno (Bissoli);1;;OK;;
+FT-01;Pulizia bruciatore - controllo fiamma;;pulizia programmata;1 mese;02-mag-26;01/06/26;interno (Bissoli);1;;OK;;
+FT-02;Pulizia bruciatore - controllo fiamma;;pulizia programmata;1 mese;07/04/26;2026-05-07;interno (Bissoli);1;;OK;;
+FT-02;Pulizia bruciatore - controllo fiamma;;pulizia programmata;1 mese;2026-05-02;01-giu-26;interno (Bissoli);1;;OK;;
+PKM-450;Pulizia gruppo saldatura;;pulizia programmata;1 mese;07-apr-26;07/05/26;interno (Bissoli);1;;OK;;
+PKM-450;Pulizia gruppo saldatura;;pulizia programmata;1 mese;02/05/26;2026-06-01;interno (Bissoli);1;;OK;;
+MD-3200;Pulizia testata e nastro;;pulizia programmata;1 mese;2026-04-09;09-mag-26;interno (Bissoli);1;;OK;;
+MD-3200;Pulizia testata e nastro;;pulizia programmata;1 mese;08-mag-26;07/06/26;interno (Bissoli);1;;OK;;
+PT-104;Pulizia sonde e ugelli vapore;;pulizia programmata;1 mese;03/04/26;2026-05-03;interno (Bissoli);1;;OK;;
+PT-104;Pulizia sonde e ugelli vapore;;pulizia programmata;1 mese;2026-05-03;02-giu-26;interno (Bissoli);1;;OK;;
+CIP-01;Controllo livelli prodotti chimici (F0052);;pulizia programmata;1 mese;23-apr-26;23/05/26;interno (Bissoli);1;;OK;;
+CIP-01;Controllo livelli prodotti chimici (F0052);;pulizia programmata;1 mese;09/05/26;2026-06-08;interno (Bissoli);1;;OK;;
+TS-01;Sbrinamento programmato;;pulizia programmata;1 mese;2026-04-19;19-mag-26;interno (Bissoli);1;;OK;;
+TS-01;Sbrinamento programmato;;pulizia programmata;1 mese;04-mag-26;03/06/26;interno (Bissoli);1;;OK;;
+CF-02;Sbrinamento programmato;;pulizia programmata;1 mese;24/04/26;2026-05-24;interno (Bissoli);1;;OK;;
+CF-02;Sbrinamento programmato;;pulizia programmata;1 mese;2026-05-08;07-giu-26;interno (Bissoli);1;;OK;;
+IMP-300;Pulizia approfondita vasca;;pulizia programmata;1 mese;17-apr-26;17/05/26;interno (Bissoli);N/D;;OK;;
+IMP-300;Pulizia approfondita vasca;;pulizia programmata;1 mese;04/05/26;2026-06-03;interno (Bissoli);1;;OK;;
+COMP-01;Scarico condensa serbatoio;;pulizia programmata;1 mese;2026-04-22;22-mag-26;interno (Bissoli);1;;OK;;
+COMP-01;Scarico condensa serbatoio;;pulizia programmata;1 mese;02-mag-26;01/06/26;interno (Bissoli);1;;OK;;
+COMP-02;Scarico condensa serbatoio;;pulizia programmata;1 mese;14/04/26;2026-05-14;interno (Bissoli);1;;OK;;
+COMP-02;Scarico condensa serbatoio;;pulizia programmata;1 mese;2026-05-06;05-giu-26;interno (Bissoli);1;;OK;;
+PKM-450;Guarnizioni valvola iniezione azoto;PKM-4471-EPDM (orig. Pakmatic);sostituzione;6 mesi;12/07/25;2026-01-12;Pakmatic Italia (F0077);3;410,00;SCADUTO;OdL-26-0019;manca ricambio - ordine F0077 del 08/05 sollecitato, arrivo previsto 15/05
+CF-02;Compressore frigo - controllo assorbimenti;;controllo;6 mesi;30-ott-25;30/04/26;Frigotecnica Scaligera;2;310,00;SCADUTO;OdL-26-0175;assorbimento anomalo segnalato 08/05 (Dal Maso) - vedi consumi
+CIP-01;Pompe dosaggio soda/acido (F0052);DOS-CHM-2X;taratura portata;6 mesi;17-feb-26;17/08/26;interno (Dal Maso);2;;OK;OdL-26-0105;
+;;;;;;;;;;;;
+NB (Trentin): costi senza IVA. dove manca il costo e' in economia interna (non tracciato, da sistemare con nuovo gestionale);;;;;;;;;;;;

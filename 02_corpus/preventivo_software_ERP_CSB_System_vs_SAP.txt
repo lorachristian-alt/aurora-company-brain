@@ -1,0 +1,234 @@
+COMPARATIVA GESTIONALI - bozza di lavoro (Trentin/Fantin) - agg. 26/05/26
+file: confronto_ERP_v3_DEFINITIVO_ok2.txt
+NON GIRARE FUORI. contiene condizioni riservate delle due offerte.
+
+incollo qui sotto i pezzi delle due offerte + le mie note. scusate il formato,
+viene da due pdf diversi e da una mail. (L.T.)
+
+=================================================================
+OFFERTA A - CSB-System S.r.l. - offerta n. OF-2026-0412 del 28/04/2026
+rif. commerciale: dott. Massimo Ferraresi - sede italiana Verona
+=================================================================
+
+Spett.le Aurora Food Group S.r.l., facendo seguito al sopralluogo del 15/04 u.s.
+presso il Vostro stabilimento di Cologna Veneta e alle esigenze emerse nel corso
+dell'incontro con l'ing. Fantin e la rag. Trentin, siamo lieti di sottoporVi la
+nostra migliore offerta per la soluzione CSB-System ERP, soluzione verticale
+specificamente sviluppata per l'industria alimentare, in uso presso oltre 1.200
+aziende del settore food a livello internazionale.
+
+MODULI OFFERTI (configurazione "Food Bakery & Frozen"):
+- Gestione produzione e ricette (distinte base, versioning ricette, rese)
+- Tracciabilita' lotti bidirezionale (rintracciabilita' < 4 ore, conforme
+  Reg. CE 178/2002, gestione ritiro/richiamo con lista clienti per lotto)
+- Modulo Qualita' (piani di controllo, CCP, non conformita', gestione audit,
+  scadenzario certificazioni, firma elettronica sulle registrazioni)
+- Magazzino WMS con terminali radiofrequenza (12 terminali inclusi)
+- MRP / pianificazione fabbisogni e schedulazione di produzione
+- Contabilita' generale, IVA, cespiti, integrazione fatturazione elettronica SDI
+- EDI con la GDO: tracciati EURITMO/EDIFACT, gia' attivi connettori per i
+  principali CE.DI. italiani (ORDERS, DESADV, INVOIC)
+- Etichettatura: generazione etichette con dati variabili lotto/scadenza,
+  gestione EAN-128, integrazione stampanti di linea
+- Rilevazione dati di produzione (MES base) su 3 linee - postazioni touch a
+  bordo linea n. 6
+
+CONDIZIONI ECONOMICHE:
+                                                una tantum      canone/anno
+Licenze software (25 utenti concurrent)         168.000,00 EUR       --
+Manutenzione e aggiornamenti (dal 2° anno)           --          33.600 EUR
+  (20% del valore licenze, comprende hotline 8-18 e release)
+Moduli MES/bordo linea (6 postazioni)            24.500,00            incl.
+Server e infrastruttura (opz. on-premise)        18.900,00            --
+   oppure hosting cloud CSB                          --          14.400 EUR
+
+SERVIZI PROFESSIONALI:
+Analisi organizzativa e progettazione            18 gg    1.150 EUR/gg   20.700
+Parametrizzazione e configurazione               45 gg    1.150 EUR/gg   51.750
+Migrazione dati (anagrafiche, lotti aperti,
+  contabilita' ultimo triennio)                  12 gg                   13.800
+Formazione utenti chiave (a Verona o on-site)    10 gg                   11.500
+Assistenza avviamento (go-live + 4 settimane)    15 gg                   17.250
+                                                          totale gg: 100
+
+TEMPI DI PROGETTO: 9-11 mesi dalla firma. Go-live suggerito: gennaio 2027
+(sconsigliato avviamento in periodo di picco produttivo).
+
+REFERENZE NEL SETTORE (visitabili su appuntamento): primario produttore di
+prodotti da forno surgelati in provincia di Cuneo (280 dip.), pastificio
+industriale Emilia-Romagna, azienda croissanteria PL per GDO in Veneto (che
+conoscete), 2 realta' bakery in Baviera.
+
+Validita' offerta: 90 gg. Pagamenti: 30% alla firma, 40% ad avanzamento, 30%
+al collaudo. Sconto 5% per firma entro il 30/06/2026.
+
+=================================================================
+OFFERTA B - SAP Business One - partner: Innovaway Solutions S.r.l. (Padova)
+offerta n. 26/PRE/0883 del 05/05/2026 - rif. dott.ssa Laura Businaro
+=================================================================
+
+Gentile rag. Trentin,
+
+come da colloquio telefonico Le invio la nostra proposta per l'adozione di SAP
+Business One versione 10.0 FP2308, database SAP HANA, con la soluzione verticale
+Food-One di ns. sviluppo per le esigenze specifiche del comparto alimentare.
+
+Perche' SAP Business One + Food-One:
+* piattaforma internazionale, oltre 80.000 installazioni nel mondo
+* verticale Food-One: tracciabilita' lotti, qualita', scadenze, allergeni
+* scalabilita: pronto per crescita dimensionale e multi-plant (nuovo stabilimento)
+* ecosistema: app mobile, BI integrata (SAP Analytics), firma remota
+
+Scenario licenze proposto (subscription, cloud privato presso ns. datacenter):
+
+  n. 18 utenti Professional     x  148 EUR/utente/mese  =  2.664,00 /mese
+  n. 10 utenti Limited          x   83 EUR/utente/mese  =    830,00 /mese
+  verticale Food-One (canone)                           =    690,00 /mese
+  hosting HANA + backup + DR                            =  1.150,00 /mese
+                                       totale mensile   =  5.334,00 /mese
+                                       totale annuo     = 64.008,00 EUR/anno
+
+  NB il canone include manutenzione, aggiornamenti di versione e assistenza
+  applicativa di 1° livello (SLA 8x5, presa in carico 4h).
+
+Servizi di implementazione (project one-shot):
+
+  Fase                              Giornate      Tariffa        Importo
+  Blueprint e analisi processi         14         980,00        13.720,00
+  Installazione e configurazione       38         980,00        37.240,00
+  Sviluppi custom (etichett., EDI)     20       1.100,00        22.000,00
+  Migrazione dati                       8         980,00         7.840,00
+  Formazione                            8         980,00         7.840,00
+  Go-live support                      10         980,00         9.800,00
+  Project management                   10       1.100,00        11.000,00
+                                     -----                    ----------
+                                      108                     109.440,00
+
+Tempi: 6-8 mesi. Possibile partenza modulare (prima amministrazione+magazzino,
+poi produzione e qualita' in fase 2).
+
+EDI GDO: tracciato EURITMO per Tosano gia' realizzato per altro ns. cliente,
+riuso stimato nelle giornate di sviluppo custom. Per Ali' e Famila da
+analizzare.
+
+Referenze: azienda beverage (PD) 70 dip., salumificio (TV) 45 dip., azienda
+dolciaria (VI) 30 dip., piu' 40+ installazioni B1 non food in Triveneto.
+
+Condizioni: canoni anticipati trimestrali. Servizi: SAL mensili. Offerta
+valida 60 gg. Eventuale noleggio operativo tramite ns. partner finanziario.
+
+=================================================================
+TABELLA DI CONFRONTO (Trentin - ATTENZIONE righe da sistemare)
+=================================================================
+
+voce                        CSB-System           SAP B1 + Food-One
+---------------------------------------------------------------------
+licenze                     168.000 una tantum    subscription 64.008/anno
+                            (25 utenti)              (28 utenti tot)
+manutenzione anno           33.600 dal 2° anno     inclusa nel canone
+giornate consulenza           100 gg                  108 gg
+costo giornate            115.000 EUR ca.         109.440,00
+   nb tariffe diverse per fase, vedi sopra, non tornano al centesimo
+infrastruttura             18.900 (server ns.)     inclusa (cloud)
+                           oppure 14.400/anno cloud
+tempi                      9-11 mesi              6-8 mesi
+migrazione dati            12 gg                  8 gg (MA vedi nota 3)
+EDI Tosano                 connettore std          sviluppo custom (riuso)
+etichettatura linea        modulo nativo           sviluppo custom
+qualita'/CCP               modulo nativo forte     verticale, da verificare
+bilance e MD di linea      ???                     ???     <-- VEDI NOTA MF
+
+TCO 5 ANNI (calcolo mio, controllare):
+
+CSB on-premise:
+  168.000 + 24.500 + 18.900 + 115.000 + (33.600 x 4 anni) = 460.800 EUR
+  piu' iva. piu' i costi interni ns. personale (non quantificati)
+
+CSB cloud:
+  168.000+24.500+115.000 + 14.400x5 + 33.600x4 = 513.900 ?? (mi viene diverso
+  da quello detto al telefono da Ferraresi, lui diceva "sotto i 500", riverificare)
+
+SAP B1 cloud:
+  109.440 + (64.008 x 5) = 429.480,00 EUR + iva
+  MA i canoni salgono se aggiungiamo utenti (nuovo stabilimento = altri utenti)
+  e a fine dei 5 anni NON abbiamo licenze di proprieta', si continua a pagare
+
+ipotesi "restiamo su Excel" (per confronto, richiesta del titolare):
+  costo software: zero (Office gia' pagato)
+  costo vero: 2 persone x mezza giornata/sett. per riconciliare dati = stima
+  ~25.000 EUR/anno di tempo perso, MA non e' un dato difendibile, e' una stima mia
+  + il costo di quello che NON vediamo: la settimana del 10/05 per ricostruire
+  un lotto ci abbiamo messo in tre due giorni e mezzo. quanto vale? boh
+  + rischio errori (v. registro carta vs datalogger, senza commento)
+  totale 5 anni: sulla carta 125.000, in realta' non lo sa nessuno
+  (nota mia: Excel non e' gratis, e' solo gia' pagato. non e' la stessa cosa)
+
+=================================================================
+NOTE CRITICHE - M. Fantin - 18/05, sera
+=================================================================
+
+Ho letto tutto due volte. Tre righe come chiede Giancarlo non bastano, ne
+servono dieci.
+
+1) NESSUNO DEI DUE PARLA CON LE BILANCE. Ne' con le bilance di ricetta ne'
+   con i metal detector ne' col datalogger del PT-104. CSB dice "MES base"
+   ma a domanda diretta Ferraresi mi ha risposto "l'integrazione con il
+   pastorizzatore va analizzata" = non ce l'hanno pronta. Innovaway
+   nemmeno l'ha capita la domanda. Il nostro problema del 10/05 era ESATTAMENTE
+   questo: la macchina registrava 68,9 e sulla carta c'era scritto 74,5.
+   Un ERP dove i dati di processo li ricopia un uomo NON risolve niente,
+   sposta l'errore da un modulo di carta a una maschera video.
+2) CSB e' piu' vicino al nostro mestiere, si vede dalle domande che fanno.
+   SAP e' piu' vicino al nostro commercialista. Decidere COSA ci serve prima
+   di decidere QUALE compriamo.
+3) Migrazione dati: tutti e due la stimano senza aver visto i ns. dati.
+   8-12 giornate per migrare 30 anni di excel della Trentin e' fantascienza,
+   quando apriranno i file capiranno. Prevedo raddoppio della voce.
+4) La cosa che non ho detto a nessuno dei due: prima dell'ERP ci serve
+   mettere ordine nei DOCUMENTI e nei processi. Se digitalizziamo il caos
+   otteniamo caos digitale, pagato 400.000 euro.
+5) Tempi: gennaio 2027 col trasloco magazzino eventuale + ispezione chiusa +
+   Criotech in montaggio a settembre = follia. Se ne parla per un go-live
+   a meta' 2027, con calma.
+
+MF
+
+=================================================================
+Domanda del titolare (riportata da Federica, mail del 17/05):
+=================================================================
+
+"il bertoldi ha letto la comparativa e chiede: MA IN SOLDONI quanto mi costa
+al mese tutto compreso uno e quanto l altro, un numero solo per ciascuno,
+e chi dei due viene qui quando si blocca tutto alle 5 di mattina che stiamo
+caricando i camion per il cedi. queste due cose. il resto dice che sono
+dettagli"
+
+risposta Trentin (bozza, da validare con Fantin):
+- CSB: mediamente ~7.700 EUR/mese spalmando tutto su 5 anni (ipotesi on-premise; ~8.550 in ipotesi cloud)
+- SAP: mediamente ~7.150 EUR/mese, ma dopo il 5° anno continua ~5.300/mese
+  per sempre, CSB scende a ~4.000 (manutenzione + cloud)
+- assistenza alle 5 di mattina: NESSUNO dei due. CSB hotline 8-18. SAP SLA
+  8x5 presa in carico 4 ore. Per h24 c'e' un'opzione a listino in entrambi
+  i casi, da quotare. (questa non gli piacera')
+
+appunti sparsi ancora da chiarire (L.T.):
+- chiedere a Bellotto trattamento fiscale: licenze una tantum = cespite
+  ammortizzabile, canoni = costo d'esercizio. incide sul confronto, non
+  l'ho considerato nel TCO. VERIFICARE con lo studio, non stimare.
+- Ferraresi ha lasciato intendere sconto oltre il 5% se firmiamo entro giugno
+  e facciamo da referenza visitabile. Businaro: "margini di manovra sui
+  servizi, non sulle licenze SAP"
+- il cugino di Denis lavora in un'azienda che ha messo B1 nel 2023: sentire
+  com'e' andata DAVVERO (Denis dice "bestemmiano ancora" ma vuol dire tutto
+  e niente)
+- che fine fa il ns. vecchio gestionale contabile? Innovaway dice che i dati
+  storici "si possono tenere in sola lettura". CSB non ha risposto.
+- demo: CSB propone visita referenza CN il 4/06. IMPOSSIBILE, c'e' la
+  pre-verifica Vicentini. chiedere date dopo il 10/06.
+- entrambe le offerte NON includono: lettori barcode aggiuntivi, stampanti
+  etichette nuove (le ns. Zebra 2019 sono compatibili? chiesto, attesa
+  risposta), eventuale cablaggio di rete zona linea 3 (li' il wifi non
+  prende, chiedere a Ivano quanto costa tirare il cavo)
+- 16/05 pomeriggio: chiamata di un terzo fornitore (gestionale italiano,
+  non ricordo il nome, quello della fiera di Parma) che "vorrebbe farci
+  un'offerta". per ora parcheggiato, due sono gia' troppi

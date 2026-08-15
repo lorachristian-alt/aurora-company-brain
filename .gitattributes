@@ -1,0 +1,5 @@
+# Nessuna conversione di line ending, su nessun file.
+# core.autocrlf=true riscriverebbe LF -> CRLF al checkout: i byte dei grezzi
+# in 02_corpus/ cambierebbero e gli SHA-256 non tornerebbero piu' col
+# manifest del corpus v1. Il corpus e' congelato byte per byte.
+* -text

@@ -1,0 +1,27 @@
+RICHIESTA DPI - MOD-HR-04;;;;;
+data richiesta;12/03/2026;;;;
+richiedente;Sartori F.;;;;
+fornitore;Sicurlavoro Vicenza srl;;;;
+;;;;;
+cognome nome;reparto;articolo;taglia;qta;note
+Popescu I.;Linea 1;scarpa S2 bassa;44;1;
+Ben Salah A.;Linea 2;scarpa S2 bassa;42;1;
+Guerra R.;Linea 3;scarpa S3 alta (cella);45;1;imbottita, lavora in cella
+Bissoli M.;Manutenzione;scarpa S3 alta;43;1;
+Dal Maso I.;Officina;scarpa S3 alta;44;1;dice che le ultime duravano di piu'
+Faggionato N.;Magazzino;scarpa S1P;42;1;
+Corradin E.;Linea 3;scarpa S3 alta;41;1;
+Marangoni T.;Confezionamento;scarpa S2 bassa;38;1;
+Bertacco P.;Linea 2;scarpa S2 bassa;43;1;
+Zampieri L.;Linea 1;scarpa S2 bassa;45;1;
+Rigoni G.;Linea 1;scarpa S2 bassa;40;1;
+Cestaro L.;Linea 1;scarpa S2 bassa;44;1;
+Ranzato F.;Linea 1;scarpa S2 bassa;42;1;
+Kovacs A.;Confezionamento;scarpa S2 bassa;39;1;
+Bortolaso M.;Linea 2;scarpa S2 bassa;41;1;
+;;;;;
+;;;TOTALE PAIA;15;
+;;;;;
+NOTE: ordinare anche 2 paia in piu' taglia 42 e 44 come scorta per i nuovi assunti.;;;;;
+La consegna precedente e' arrivata dopo 5 settimane, sollecitare.;;;;;
+Costo unitario indicativo 38,00 EUR + iva (S2) / 46,00 EUR (S3).;;;;;

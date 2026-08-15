@@ -1,0 +1,94 @@
+COMPARATIVA TARIFFE VETTORI 2026 - catena del freddo +2/+4 e -18 - uso interno logistica;;;;;;;;;;;;
+file iniziato da Faggionato gen 2026 - AGGIORNARE SOLO QUESTO non le copie sul desktop di Luisa;;;;;;;;;;;;
+rev.2 del 12/03 sostituisce rev.1 del 09/01 - le righe rev.1 andavano cancellate ma ne sono rimaste alcune (contrassegnate o no);;;;;;;;;;;;
+Vettore;Tratta;CAP_destino;Tipo_mezzo;Tariffa_pallet_eur;Tariffa_viaggio_eur;Suppl_gasolio;Sponda_idraulica;Attesa_oltre_60min_eur_h;Notturno_festivo;Penale_mancata_consegna;Validita;Note
+Trasporti Frigo Veneto;Cologna Veneta-CE.DI. Cerea;37053;motrice frigo -18;18,50;185,00;indicizz. MISE mensile +/-;inclusa;35,00;+25%;80,00;31/12/26;rev.2 - tratta principale Tosano
+Trasporti Frigo Veneto;Cologna Veneta-CE.DI. Cerea;37053;bilico frigo -18;14,00;310,00;indicizz. MISE mensile;inclusa;35,00;+25%;80,00;31/12/26;rev.2 - carichi completi 33 plt
+Trasporti Frigo Veneto;Cologna Veneta-CE.DI. Cerea;37053;motrice frigo -18;17,20;172,00;7,5% fisso;inclusa;30,00;+20%;n/d;31/12/25;VECCHIA rev.1 - NON USARE
+Trasporti Frigo Veneto;Cologna Veneta-Ali Padova;35127;motrice frigo +2/+4;16,80;168,00;indicizz. MISE;inclusa;35,00;+25%;80,00;31/12/26;rev.2
+Trasporti Frigo Veneto;Cologna Veneta-Ali Padova;35127;motrice frigo -18;19,20;192,00;indicizz. MISE;inclusa;35,00;+25%;80,00;31/12/26;rev.2
+Trasporti Frigo Veneto;Cologna Veneta-Rossetto Trade VR;37135;motrice frigo +2/+4;15,50;155,00;indicizz. MISE;inclusa;35,00;+25%;80,00;31/12/26;
+Trasporti Frigo Veneto;Cologna Veneta-CEDI Famila Nordest VI;36100;motrice frigo -18;17,80;178,00;indicizz. MISE;inclusa;35,00;+25%;80,00;31/12/26;
+Trasporti Frigo Veneto;Cologna Veneta-Brescia grossista;25100;motrice frigo +2/+4;21,00;230,00;indicizz. MISE;inclusa;35,00;+25%;80,00;31/12/26;
+Trasporti Frigo Veneto;Cologna Veneta-Milano piattaforma;20090;bilico frigo -18;16,50;480,00;indicizz. MISE;no;40,00;+25%;120,00;31/12/26;groupage lun-mer-ven
+Trasporti Frigo Veneto;Cologna Veneta-Bologna interporto;40010;bilico frigo -18;15,80;420,00;indicizz. MISE;no;40,00;+25%;120,00;31/12/26;
+Trasporti Frigo Veneto;Cologna Veneta-Treviso grossista HoReCa;31100;motrice frigo +2/+4;17,00;170,00;indicizz. MISE;inclusa;35,00;+25%;80,00;31/12/26;
+Trasporti Frigo Veneto;giro consegne HoReCa 3 tappe VR-VI;vari;motrice frigo +2/+4;;265,00;indicizz. MISE;inclusa;35,00;+30%;80,00;31/12/26;forfait a giro - max 14 plt
+Logistica Zorzi;Cologna Veneta-CE.DI. Cerea;37053;motrice frigo -18;17,90;179,00;incluso nel prezzo;inclusa;25,00;+20%;60,00;30/06/26;rev.2 - da rinegoziare a luglio
+Logistica Zorzi;Cologna Veneta-CE.DI. Cerea;37053;furgone frigo +2/+4;;95,00;incluso;no;25,00;+20%;60,00;30/06/26;consegne urgenti piccole - max 4 plt
+Logistica Zorzi;Cologna Veneta-Ali Padova;35127;motrice frigo +2/+4;16,20;162,00;incluso;inclusa;25,00;+20%;60,00;30/06/26;
+Logistica Zorzi;Cologna Veneta-Ali Padova;35127;motrice frigo +2/+4;17,00;170,00;incluso;inclusa;25,00;+20%;60,00;30/06/26;ATTENZIONE prezzo diverso da riga sopra - quale vale? sentire Zorzi
+Logistica Zorzi;Cologna Veneta-Rossetto Trade VR;37135;motrice frigo +2/+4;14,90;149,00;incluso;inclusa;25,00;+20%;60,00;30/06/26;
+Logistica Zorzi;Cologna Veneta-CEDI Famila Nordest VI;36100;motrice frigo -18;18,40;184,00;incluso;inclusa;25,00;+20%;60,00;30/06/26;
+Logistica Zorzi;Cologna Veneta-Verona citta HoReCa;37100;furgone frigo +2/+4;;85,00;incluso;no;25,00;+20%;60,00;30/06/26;
+Logistica Zorzi;Cologna Veneta-Vicenza citta HoReCa;36100;furgone frigo +2/+4;;90,00;incluso;no;25,00;+20%;60,00;30/06/26;
+Logistica Zorzi;Cologna Veneta-Padova citta HoReCa;35100;furgone frigo +2/+4;;98,00;incluso;no;25,00;+20%;60,00;30/06/26;
+Logistica Zorzi;navetta stabilimento-Via Palu 3/A;37044;motrice frigo -18;;55,00;incluso;inclusa;n/d;n/d;n/d;31/12/26;navetta interna magazzino surgelato - anche 2 giri/gg
+Logistica Zorzi;navetta stabilimento-Via Palu 3/A;37044;motrice frigo -18;;48,00;incluso;inclusa;;;;31/12/25;rev.1 vecchia - lasciata x storico
+FrigoExpress Nordest;Cologna Veneta-CE.DI. Cerea;37053;motrice frigo -18;19,50;195,00;9% fisso su imponibile;35,00 eur;45,00;+30%;100,00;31/12/26;caro ma sempre disponibile
+FrigoExpress Nordest;Cologna Veneta-Ali Padova;35127;motrice frigo +2/+4;17,50;175,00;9% fisso;35,00 eur;45,00;+30%;100,00;31/12/26;
+FrigoExpress Nordest;Cologna Veneta-Ali Padova;35127;motrice frigo -18;20,10;201,00;9% fisso;35,00 eur;45,00;+30%;100,00;31/12/26;
+FrigoExpress Nordest;Cologna Veneta-CEDI Famila Nordest VI;36100;motrice frigo -18;19,00;190,00;9% fisso;35,00 eur;45,00;+30%;100,00;31/12/26;
+FrigoExpress Nordest;Cologna Veneta-Milano piattaforma;20090;bilico frigo -18;18,20;530,00;9% fisso;no;45,00;+30%;150,00;31/12/26;
+FrigoExpress Nordest;Cologna Veneta-Torino piattaforma;10156;bilico frigo -18;21,50;690,00;9% fisso;no;45,00;+30%;150,00;31/12/26;1 viaggio/sett giovedi
+FrigoExpress Nordest;Cologna Veneta-Roma CAR Guidonia;00012;bilico frigo -18;26,00;980,00;9% fisso;no;50,00;+30%;200,00;31/12/26;groupage - transit time 24h
+FrigoExpress Nordest;Cologna Veneta-Roma CAR Guidonia;00012;bilico frigo -18;24,50;940,00;7% fisso;no;50,00;+30%;200,00;31/12/25;rev.1 NON VALIDA
+FrigoExpress Nordest;Cologna Veneta-Firenze Mercafir;50127;bilico frigo -18;22,80;760,00;9% fisso;no;45,00;+30%;150,00;31/12/26;
+FrigoExpress Nordest;Cologna Veneta-Bologna interporto;40010;bilico frigo -18;16,90;450,00;9% fisso;no;45,00;+30%;150,00;31/12/26;
+FrigoExpress Nordest;espresso dedicato entro 150 km;vari;furgone frigo -18;;240,00;incluso;no;45,00;+40%;n/d;31/12/26;emergenze - anche sabato
+Autotrasporti Bregolin;Cologna Veneta-CE.DI. Cerea;37053;motrice centinata AMBIENTE;12,50;125,00;5% fisso;20,00 eur;30,00;+20%;50,00;31/12/26;SOLO SECCO/ATM ambiente - no frigo!!
+Autotrasporti Bregolin;Cologna Veneta-Ali Padova;35127;motrice centinata AMBIENTE;13,20;132,00;5% fisso;20,00 eur;30,00;+20%;50,00;31/12/26;secco/ATM
+Autotrasporti Bregolin;Cologna Veneta-Rossetto Trade VR;37135;motrice centinata AMBIENTE;11,80;118,00;5% fisso;20,00 eur;30,00;+20%;50,00;31/12/26;
+Autotrasporti Bregolin;Cologna Veneta-CEDI Famila Nordest VI;36100;motrice centinata AMBIENTE;13,00;130,00;5% fisso;20,00 eur;30,00;+20%;50,00;31/12/26;
+Autotrasporti Bregolin;ritiri fornitori VR-VI-PD (farine ecc);vari;bilico centinato;10,50;per tratta;5% fisso;no;30,00;n/d;n/d;31/12/26;usato x ritiri Molino Veneto quando rende
+Autotrasporti Bregolin;Cologna Veneta-Empoli (reso pedane Euroglass);50053;bilico centinato;;520,00;5% fisso;no;30,00;n/d;n/d;31/12/26;solo se carico di ritorno
+Cargo Frigo Emilia;Cologna Veneta-CE.DI. Cerea;37053;motrice frigo -18;16,90;169,00;gasolio incluso fino a 1,85 eur/l poi conguaglio;inclusa;38,00;+28%;90,00;30/09/26;SPOT - provato marzo, puntuali
+Cargo Frigo Emilia;Cologna Veneta-Bologna interporto;40010;bilico frigo -18;14,90;395,00;come sopra;no;38,00;+28%;120,00;30/09/26;SPOT
+Cargo Frigo Emilia;Cologna Veneta-Milano piattaforma;20090;bilico frigo -18;15,90;455,00;come sopra;no;38,00;+28%;120,00;30/09/26;SPOT - ma a maggio ha rifiutato 2 carichi
+Cargo Frigo Emilia;Cologna Veneta-Reggio Emilia (Criotech);42124;motrice centinata;;280,00;come sopra;20,00 eur;38,00;n/d;n/d;30/09/26;x eventuali ritiri ricambi tunnel
+;;;;;;;;;;;;
+NOTE GASOLIO: indicizzazione MISE = adeguamento mensile su variazione prezzo medio gasolio autotrazione (fonte MISE/MASE) rispetto a baseline contratto. TFV baseline dic 2025. Zorzi tutto incluso. FrigoExpress 9% FISSO sempre (occhio: a gasolio basso ci perdiamo).;;;;;;;;;;;;
+Vettore;Tratta;CAP_destino;Tipo_mezzo;Tariffa_pallet_eur;Tariffa_viaggio_eur;Suppl_gasolio;Sponda_idraulica;Attesa_oltre_60min_eur_h;Notturno_festivo;Penale_mancata_consegna;Validita;Note
+TARIFFE FESTIVI/DOMENICA (x promo Tosano sett 19-21 - richieste apposta);;;;;;;;;;;;
+Trasporti Frigo Veneto;Cerea DOMENICA;37053;motrice frigo -18;;231,25;indicizz. MISE;inclusa;35,00;incluso nel prezzo;80,00;solo sett 19-21;185+25% - confermato da Scapin x mail
+Logistica Zorzi;Cerea DOMENICA;37053;motrice frigo -18;;215,00;incluso;inclusa;25,00;incluso;60,00;solo sett 19-21;disponibile solo domenica mattina
+FrigoExpress Nordest;Cerea DOMENICA;37053;motrice frigo -18;;253,50;9% fisso;35,00 eur;45,00;incluso;100,00;sempre;195+30%
+Cargo Frigo Emilia;Cerea DOMENICA;37053;motrice frigo -18;;non disponibile;;;;;;;non lavora la domenica
+;;;;;;;;;;;;
+CONFRONTO RAPIDO CEREA -18 A VIAGGIO (fatto da N.F. 20/03): TFV 310 bilico / Zorzi 179 motrice / FrigoExpress 195 motrice / CFE 169 motrice MA spot;;;;;;;;;;;;
+;;;;;;;;;;;;
+righe sotto = residuo rev.1 gennaio, da tabella vecchia con colonne in ordine diverso - NON ricopiate su rev.2, tenute perche non si sa mai;;;;;;;;;;;;
+Vettore;Tratta;Mezzo;eur_plt;eur_viaggio;note;;;;;;;
+Trasporti Frigo Veneto;Cerea;motrice -18;17,20;172,00;listino 2025 prorogato a gen-feb;;;;;;;
+Trasporti Frigo Veneto;Padova;motrice +4;15,60;156,00;;;;;;;;
+Logistica Zorzi;Cerea;motrice -18;16,50;165,00;prezzo di favore vecchio - Zorzi e' del paese;;;;;;;
+Logistica Zorzi;giro HoReCa;furgone +4;;78,00;;;;;;;;
+FrigoExpress Nordest;Cerea;motrice -18;18,90;189,00;;;;;;;;
+FrigoExpress Nordest;Milano;bilico -18;17,50;510,00;;;;;;;;
+Autotrasporti Bregolin;Cerea;centinato;11,90;119,00;ambiente;;;;;;;
+;;;;;;;;;;;;
+SUPPLEMENTI E VOCI ACCESSORIE (validita 2026 salvo diversa nota);;;;;;;;;;;;
+Vettore;Voce;;;Importo;;;;;;;;Note
+Trasporti Frigo Veneto;consegna con preavviso telefonico obbligatorio;;;5,00 eur/consegna;;;;;;;;solo piattaforme che lo chiedono
+Trasporti Frigo Veneto;secondo tentativo di consegna;;;60% della tariffa;;;;;;;;
+Trasporti Frigo Veneto;fermo mezzo oltre 3h (oltre attesa fatturata);;;180,00 eur;;;;;;;;mezza giornata
+Trasporti Frigo Veneto;pallet EPAL non resi a interscambio;;;9,00 eur/plt;;;;;;;;v. contenzioso buoni Tosano!!
+Logistica Zorzi;secondo tentativo di consegna;;;50,00 eur;;;;;;;;forfait
+Logistica Zorzi;fermo mezzo oltre 3h;;;150,00 eur;;;;;;;;
+Logistica Zorzi;bancali interscambio;;;non addebita;;;;;;;;rapporto storico - verbale
+FrigoExpress Nordest;preavviso telefonico;;;incluso;;;;;;;;
+FrigoExpress Nordest;secondo tentativo;;;70% della tariffa;;;;;;;;
+FrigoExpress Nordest;gestione non conformita a destino (foto+verbale);;;25,00 eur;;;;;;;;dal 01/04/26
+FrigoExpress Nordest;pallet EPAL non resi;;;10,50 eur/plt;;;;;;;;
+Autotrasporti Bregolin;secondo tentativo;;;55,00 eur;;;;;;;;
+Autotrasporti Bregolin;sosta ritiro fornitore oltre 90 min;;;28,00 eur/h;;;;;;;;succede sempre da Molino Veneto il lunedi
+Cargo Frigo Emilia;secondo tentativo;;;65% della tariffa;;;;;;;;
+Cargo Frigo Emilia;assicurazione all-risk merce oltre franchigia;;;0,8% valore fattura;;;;;;;;solo su richiesta scritta
+;;;;;;;;;;;;
+PROMEMORIA PENALI SUBITE DA NOI (lato cliente - non c'entra col listino ma lo tengo qua):;;;;;;;;;;;;
+Tosano: penale slot 250 eur da condizioni generali MA contratto quadro art. 11.3 dice 150 primo evento - fatto valere a maggio;;;;;;;;;;;;
+Ali: 100 eur fuori slot + storno riga se manca lotto/scadenza su DDT;;;;;;;;;;;;
+Famila Nordest: 80 eur + vendor rating trimestrale;;;;;;;;;;;;
+Rossetto: nessuna penale scritta - ma il capo ricevimento urla uguale;;;;;;;;;;;;
+;;;;;;;;;;;;
+da fare (appunto N.F. 28/05): 1) chiedere a TFV sconto bilico Cerea se confermiamo 3 carichi/sett post promo 2) capire se CFE affidabile o no prima di darglieli 3) Zorzi rinnovo 01/07 - portare confronto stampato 4) valutare groupage sud con FrigoExpress se parte Aurora Vega (ma quando?);;;;;;;;;;;;

@@ -1,0 +1,329 @@
+MOD-QA-07 rev.5 - VERIFICA FUNZIONALE METAL DETECTOR MD-3200 (LINEA 1)
+trascrizione dai moduli cartacei originali compilati a penna - archivio QA raccoglitore 2026/05
+trascritto da: Sara Pozzato (QC) - dove nn si legge ho messo ??
+tasselli certificati kit TL-114: Fe diam. 2,0 mm / Non-Fe diam. 2,5 mm / AISI 316 diam. 3,0 mm
+frequenza verifica: ogni 60 min (CCP3) + avvio e fine produzione
+esito = tassello rilevato + espulsione confezione + allarme acustico
+firma operatore + SECONDA FIRMA capoturno entro fine turno (rif. NC audit CSQA feb. 2026!!)
+
+=============================================================
+FOGLIO 1 - data 04/05/26 (lun) - TURNO 1 (06:00-14:00)
+lotto: L26124-L1-T1 - prodotto AF-SN-0450 - op. R. Meggiolaro
+-------------------------------------------------------------
+06:05  Fe ok   NFe ok   inox ok   espuls ok   allarme ok   RM   DB
+07:00  Fe ok   NFe ok   inox ok   espuls ok   allarme ok   RM   --
+08:10  Fe ok   NFe ok   inox ok   espuls ok   all. ok      RM   --
+09:00  Fe ok   NFe ok   inox ok   esp ok      all ok       RM   --
+10:00  Fe ok   NFe ok   inox ok   esp ok      all ok       RM   DB
+11:05  Fe ok   NFe ok   inox ok   esp ok      all ok       RM   --
+12:00  Fe ok   NFe ok   inox ok   esp ok      all ok       RM   --
+13:00  Fe ok   NFe ok   inox ok   esp ok      all ok       RM   --
+13:55  fine prod. turno - Fe ok NFe ok inox ok - RM
+nota a margine: 2^ firma solo 2 su 8!! sollecitare capoturno (EM)
+
+FOGLIO 1 retro - 04/05/26 - TURNO 2 (14:00-22:00)
+lotto: L26124-L1-T2 - op. S. Visentin
+-------------------------------------------------------------
+14:05  Fe ok   NFe ok   inox ok   espuls ok   all ok   SV   IP
+15:00  Fe ok   NFe ok   inox ok   esp ok      all ok   SV   --
+16:00  Fe ok   NFe ok   inox ok   esp ok      all ok   SV   --
+17:10  Fe ok   NFe ok   inox ok   esp ok      all ok   SV   IP
+18:00  Fe ok   NFe ok   inox ok   esp ok      all ok   SV   --
+19:00  Fe ok   NFe ok   inox ok   esp ok      all ok   SV   --
+20:05  Fe ok   NFe ok   inox ok   esp ok      all ok   SV   --
+21:00  Fe ok   NFe ok   inox ok   esp ok      all ok   SV   IP
+21:50  fine prod - tutto ok - SV
+
+FOGLIO 2 - 04/05/26 - TURNO 3 (22:00-06:00)
+lotto: L26124-L1-T3 - op. L. Ferrarin
+-------------------------------------------------------------
+22:10  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   --
+23:00  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   --
+00:00  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   --
+01:05  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   EC
+02:00  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   --
+03:00  linea ferma pulizie CIP - no prod - LF
+04:00  linea ferma
+05:10  riavvio - Fe ok NFe ok inox ok esp ok all ok   LF   --
+nota: dalle 03 alle 05 lavaggio, nn serve verifica x2 (??)
+
+=============================================================
+FOGLIO 3 - 05/05/26 (mar) - TURNO 1
+lotto: L26125-L1-T1 - op. R. Meggiolaro
+-------------------------------------------------------------
+06:00  Fe ok   NFe ok   inox ok   espuls ok   all ok   RM   DB
+07:05  Fe ok   NFe ok   inox ok   esp ok      all ok   RM   --
+08:00  Fe ok   NFe ok   inox ok   esp ok      all ok   RM   --
+09:15  Fe ok   NFe ok   inox ok   esp ok      all ok   RM   --   (ritardo x cambio bobina)
+10:00  Fe ok   NFe ok   inox ok   esp ok      all ok   RM   --
+11:00  Fe ok   NFe ok   inox ok   esp ok      all ok   RM   --
+12:05  Fe ok   NFe ok   inox ok   esp ok      all ok   RM   DB
+13:00  Fe ok   NFe ok   inox ok   esp ok      all ok   RM   --
+
+05/05/26 - TURNO 2 - lotto L26125-L1-T2 - op. S. Visentin
+-------------------------------------------------------------
+14:00  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   IP
+15:05  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   --
+16:00  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   --
+17:00  Fe ok   NFe ok   inox nn passato al 1° colpo?? rifatto -> ok   esp ok   all ok   SV   IP
+       nota: tassello AISI messo storto, riprovato x2 ok, macchina ok
+18:00  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   --
+19:10  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   --
+20:00  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   --
+21:00  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   --
+
+05/05/26 - TURNO 3 - lotto L26125-L1-T3 - op. L. Ferrarin
+-------------------------------------------------------------
+22:00  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   --
+23:05  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   --
+00:00  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   --
+01:00  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   --
+02:10  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   EC
+03:00  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   --
+04:00  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   --
+05:00  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   --
+
+=============================================================
+FOGLIO 4 - 06/05/26 (mer) - TURNO 1
+lotto: L26126-L1-T1 - op. R. Meggiolaro
+-------------------------------------------------------------
+06:05  Fe ok   NFe ok   inox ok   esp ok   all ok   RM   --
+07:00  Fe ok   NFe ok   inox ok   esp ok   all ok   RM   --
+08:00  Fe ok   NFe ok   inox ok   esp ok   all ok   RM   --
+09:00  Fe ok   NFe ok   inox ok   esp ok   all ok   RM   --
+10:05  Fe ok   NFe ok   inox ok   esp ok   allarme acustico basso??   RM   DB
+       nota: suona ma poco, forse altoparlante. deto a Ivano ke passa
+11:00  Fe ok   NFe ok   inox ok   esp ok   all ok (sistemato volume)   RM   --
+12:00  Fe ok   NFe ok   inox ok   esp ok   all ok   RM   --
+13:05  Fe ok   NFe ok   inox ok   esp ok   all ok   RM   --
+
+06/05/26 - TURNO 2 - lotto L26126-L1-T2 - op. S. Visentin
+-------------------------------------------------------------
+14:00  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   --
+15:00  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   --
+16:05  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   --
+17:00  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   --
+18:00  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   IP
+19:00  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   --
+20:10  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   --
+21:00  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   --
+nota a margine (EM 07/05): ancora 2^ firme mancanti. la NC scade, NON si puo andare avanti cosi
+
+06/05/26 - TURNO 3 - lotto L26126-L1-T3 - op. L. Ferrarin
+-------------------------------------------------------------
+22:05  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   --
+23:00  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   --
+00:00  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   --
+01:00  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   --
+02:00  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   --
+03:05  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   --
+04:00  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   EC
+05:00  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   --
+
+=============================================================
+FOGLIO 5 - 07/05/26 (gio) - TURNO 1
+lotto: L26127-L1-T1 - op. R. Meggiolaro
+-------------------------------------------------------------
+06:00  Fe ok   NFe ok   inox ok   esp ok   all ok   RM   DB
+07:00  Fe ok   NFe ok   inox ok   esp ok   all ok   RM   --
+08:05  Fe ok   NFe ok   inox ok   esp ok   all ok   RM   --
+09:00  Fe ok   NFe ok   inox ok   esp ok   all ok   RM   --
+10:00  Fe ok   NFe ok   inox ok   esp ok   all ok   RM   --
+11:10  Fe ok   NFe ok   inox ok   esp ok   all ok   RM   --
+12:00  Fe ok   NFe ok   inox ok   esp ok   all ok   RM   --
+13:00  Fe ok   NFe ok   inox ok   esp ok   all ok   RM   DB
+
+07/05/26 - TURNO 2 - lotto L26127-L1-T2 - op. S. Visentin
+-------------------------------------------------------------
+14:05  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   --
+15:00  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   --
+16:00  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   --
+17:05  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   --
+18:00  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   IP
+19:00  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   --
+20:00  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   --
+21:05  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   --
+
+07/05/26 - TURNO 3 - lotto L26127-L1-T3 - op. L. Ferrarin
+-------------------------------------------------------------
+22:00  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   --
+23:00  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   --
+00:05  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   --
+01:00  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   --
+02:00  linea ferma - cambio formato AF-SN-0455 promo - LF
+03:30  riavvio - Fe ok NFe ok inox ok esp ok all ok   LF   EC
+04:00  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   --
+05:00  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   --
+
+=============================================================
+FOGLIO 6 - 08/05/26 (ven) - TURNO 1
+lotto: L26128-L1-T1 - op. R. Meggiolaro
+-------------------------------------------------------------
+06:05  Fe ok   NFe ok   inox ok   esp ok   all ok   RM   --
+07:00  Fe ok   NFe ok   inox ok   esp ok   all ok   RM   --
+08:00  Fe ok   NFe ok   inox ok   esp ok   all ok   RM   DB
+09:05  Fe ok   NFe ok   inox ok   esp ok   all ok   RM   --
+10:00  Fe ok   NFe ok   inox ok   esp ok   all ok   RM   --
+11:00  Fe ok   NFe ok   inox ok   esp ok   all ok   RM   --
+12:00  Fe ok   NFe ok   inox ok   esp ok   all ok   RM   --
+13:05  Fe ok   NFe ok   inox ok   esp ok   all ok   RM   --
+nota a matita: confezionatrice perde da la valvola azoto, sibila. avisato Dal Maso (??)
+
+08/05/26 - TURNO 2 - lotto L26128-L1-T2 - op. S. Visentin
+-------------------------------------------------------------
+14:00  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   IP
+15:05  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   --
+16:00  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   --
+17:00  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   --
+18:05  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   --
+19:00  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   --
+20:00  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   IP
+21:00  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   --
+
+08/05/26 - TURNO 3 - lotto L26128-L1-T3 - op. L. Ferrarin
+-------------------------------------------------------------
+22:05  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   --
+23:00  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   --
+00:00  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   --
+01:05  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   --
+02:00  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   --
+03:00  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   --
+04:05  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   --
+05:00  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   EC
+
+=============================================================
+FOGLIO 7 - 09/05/26 (sab) - TURNO 1
+lotto: L26129-L1-T1 - op. sostituto A. Baraldo (RM ferie)
+-------------------------------------------------------------
+06:10  Fe ok   NFe ok   inox ok   esp ok   all ok   AB   DB
+07:00  Fe ok   NFe ok   inox ok   esp ok   all ok   AB   --
+08:00  Fe ok   NFe ok   inox ok   esp ok   all ok   AB   --
+09:00  Fe ok   NFe ok   inox ok   esp ok   all ok   AB   --
+10:05  Fe ok   NFe ok   inox ok   esp ok   all ok   AB   --
+11:00  Fe ok   NFe ok   inox ok   esp ok   all ok   AB   --
+12:00  Fe ok   NFe ok   inox ok   esp ok   all ok   AB   --
+13:00  fine prod sabato ore 13 - Fe ok NFe ok inox ok - AB   --
+
+09/05/26 - TURNO 2 - NO PRODUZIONE (sab pomeriggio) - sanificazione
+09/05/26 - TURNO 3 - NO PRODUZIONE
+
+=============================================================
+FOGLIO 8 - 10/05/26 (DOM - straordinario promo Tosano) - TURNO 1
+lotto: L26130-L1-T1 - op. A. Baraldo
+-------------------------------------------------------------
+06:15  Fe ok   NFe ok   inox ok   esp ok   all ok   AB   --
+07:00  Fe ok   NFe ok   inox ok   esp ok   all ok   AB   --
+08:05  Fe ok   NFe ok   inox ok   esp ok   all ok   AB   --
+09:00  Fe ok   NFe ok   inox ok   esp ok   all ok   AB   --
+10:00  Fe ok   NFe ok   inox ok   esp ok   all ok   AB   --
+11:05  Fe ok   NFe ok   inox ok   esp ok   all ok   AB   --
+12:00  Fe ok   NFe ok   inox ok   esp ok   all ok   AB   --
+13:00  Fe ok   NFe ok   inox ok   esp ok   all ok   AB   --
+nota: domenica, siamo in 3 su linea. capoturno nn c'e' fino alle 14, 2^ firma dopo (mai fatta??)
+
+FOGLIO 8 retro - 10/05/26 (DOM) - TURNO 2 (14:00-22:00)
+lotto: L26130-L1-T2 - prodotto AF-SN-0450 promo - op. S. Visentin
+-------------------------------------------------------------
+14:10  Fe ok   NFe ok   inox ok   espuls ok   all ok   SV   IP
+~~15:00 OK~~ vedi nota - macchina ferma
+       nota a margine: ferma dale 15 x guasto confezionatrice, vedi modulo fermo officina
+16:00  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   --
+17:00  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   --
+18:00  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   --
+19:05  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   --
+20:00  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   --
+21:00  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   IP
+21:55  fine turno - Fe ok NFe ok inox ok - SV
+NB trascrizione (S. Pozzato, 13/05): le righe 16:00-17:00-18:00 sono con la stessa penna e
+grafia identica alla riga 19:05, sembrano scritte tutte in una volta a fine serata. ma da
+MOD-PR-04 la PKM-450 risulta FERMA dalle 15:05 alle 18:45 - le verifiche di quelle ore su
+cosa sono state fatte?? il MD era in marcia o no? chiesto a IP, dice "le abbiamo fatte dopo".
+segnalato a dott.ssa Marchetti x valutazione (deviazione registrazioni CCP3 - vedi NC 1 audit feb)
+
+10/05/26 (DOM) - TURNO 3 - lotto L26130-L1-T3 - op. L. Ferrarin
+-------------------------------------------------------------
+22:10  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   --
+23:00  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   --
+00:00  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   --
+01:00  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   --
+02:05  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   --
+03:00  fine prod recupero promo - lavaggio - LF
+04:00  linea ferma
+05:00  linea ferma
+
+=============================================================
+FOGLIO 9 - 11/05/26 (lun) - TURNO 1
+lotto: L26131-L1-T1 - op. R. Meggiolaro
+-------------------------------------------------------------
+06:00  Fe ok   NFe ok   inox ok   esp ok   all ok   RM   DB
+07:05  Fe ok   NFe ok   inox ok   esp ok   all ok   RM   --
+08:00  Fe ok   NFe ok   inox ok   esp ok   all ok   RM   --
+09:00  Fe ok   NFe ok   inox ok   esp ok   all ok   RM   --
+10:05  Fe ok   NFe ok   inox ok   esp ok   all ok   RM   DB
+11:00  Fe ok   NFe ok   inox ok   esp ok   all ok   RM   --
+12:00  Fe ok   NFe ok   inox ok   esp ok   all ok   RM   --
+13:00  Fe ok   NFe ok   inox ok   esp ok   all ok   RM   --
+
+11/05/26 - TURNO 2 - lotto L26131-L1-T2 - op. S. Visentin
+-------------------------------------------------------------
+14:00  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   IP
+15:05  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   IP
+16:00  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   IP
+17:00  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   IP
+18:05  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   IP
+19:00  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   IP
+20:00  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   IP
+21:00  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   IP
+nota: da oggi Marchetti vuole TUTTE le 2^ firme, controllo a fine turno (giro di vite dopo domenica)
+
+11/05/26 - TURNO 3 - lotto L26131-L1-T3 - op. L. Ferrarin
+-------------------------------------------------------------
+22:00  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   EC
+23:05  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   EC
+00:00  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   EC
+01:00  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   --
+02:00  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   EC
+03:05  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   EC
+04:00  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   EC
+05:00  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   EC
+
+=============================================================
+FOGLIO 10 - 12/05/26 (mar) - TURNO 1
+lotto: L26132-L1-T1 - op. R. Meggiolaro
+-------------------------------------------------------------
+06:05  Fe ok   NFe ok   inox ok   esp ok   all ok   RM   DB
+07:00  Fe ok   NFe ok   inox ok   esp ok   all ok   RM   DB
+08:00  Fe ok   NFe ok   inox ok   esp ok   all ok   RM   DB
+09:05  Fe ok   NFe ok   inox ok   esp ok   all ok   RM   DB
+10:00  Fe ok   NFe ok   inox ok   esp ok   all ok   RM   --
+11:00  Fe ok   NFe ok   inox ok   esp ok   all ok   RM   DB
+12:05  Fe ok   NFe ok   inox ok   esp ok   all ok   RM   DB
+13:00  Fe ok   NFe ok   inox ok   esp ok   all ok   RM   DB
+
+12/05/26 - TURNO 2 - lotto L26132-L1-T2 - op. S. Visentin
+-------------------------------------------------------------
+14:00  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   IP
+15:00  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   IP
+16:05  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   IP
+17:00  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   IP
+18:00  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   IP
+19:05  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   IP
+20:00  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   IP
+21:00  Fe ok   NFe ok   inox ok   esp ok   all ok   SV   IP
+
+12/05/26 - TURNO 3 - lotto L26132-L1-T3 - op. L. Ferrarin
+-------------------------------------------------------------
+22:05  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   EC
+23:00  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   EC
+00:00  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   EC
+01:05  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   EC
+02:00  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   --
+03:00  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   EC
+04:00  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   EC
+05:05  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   EC
+
+appunto su post-it giallo attaccato al foglio 10 (grafia Marchetti):
+Sara - x favore scanneriz. tutti i fogli da 04/05 a 12/05 e mettili nella cartella
+evidenze NC. servono x risposta a Perbellini (Tosano) entro 48h. contare quante 2^
+firme mancano PRIMA dell'11/05 e quante dopo. e il foglio di domenica 10 NON si tocca,
+si trascrive cosi com'e', con la cancellatura. EM

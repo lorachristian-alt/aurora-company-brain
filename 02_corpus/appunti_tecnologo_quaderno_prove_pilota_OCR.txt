@@ -1,0 +1,250 @@
+scansione quaderno lab R&D  -  G. Meneghello  -  prove snack paprika
+pagg. 12-23   scanner ufficio qualita   qualita bassa
+
+            - 12 -
+
+QUADERNO PROVE  -  progetto AF-SN-047O  "snack paprika e semi"
+tirocinio UNIPD  -  tutor aziendale dott. Zanchetta
+rel. tesi prof. [illeggibile]
+
+.... continua da pag 11 (prove v9-v1O aprile) ....
+
+RIEPILOGO dove eravamo:
+v1O: troppo scura, paprika vecchia fornitore precedente, bruciava in cottura
+v11: colore 0k ma aw finale O,68 -> TROPPO ALTA (target <= O,6O)
+     Zanch. dice: o piu cottura o meno acqua in ricetta o umettanti
+     nota mia: rifare calcolo isoterma!!
+
+            - 13 -
+
+O5/O5/26  -  prova v11-bis (solo forno lab)
+
+obiettivo: abbassare aw sotto O,6O senza seccare troppo
+
+impasto base (1 kg farina basis):
+farina 0 W3OO (F0012)     1OOO g
+acqua                      48O g   <- era 52O in v11  (-4O)
+olio girasole a.o.          8O g
+lievito compresso           3O g
+sale                        18 g
+malto                        1O g
+paprika (campione vecchio)  18 g = 1,8% su farina
+                                   ^ NB su farina NON su impasto
+                                     rifare % come dice Zanch. = su impasto tot
+
+tot impasto teorico = 1636 g
+pesato reale dopo imp. = 1618 g   (perdita su vasca+ganci 18 g, 0k normale)
+
+cottura: forno lab statico 21O oC  ->  14 min  (v11 era 12)
+
+peso dopo cottura: 1244 g
+calo cottura = (1618-1244)/1618 = 23,1 %      v11 era 19,8%
+
+aw dopo raffredd. 3O min:  O,61   ancora sopra!!  ma vicino
+aw dopo equilibratura 24h: O,63   RISALITA  -> migrazione dal cuore
+     [illeggibile] misuratore aw tarato? chiedere a Sara sale saturo
+
+            - 14 -
+
+O6/O5/26  -  taratura aw-metro + ripetiz. misure
+
+verifica con soluz. satura NaCl:  lettura O,752  (teorico O,753)  0K
+quindi lo strumento e' 0k, e' il prodotto che risale
+
+misure v11-bis dopo 48h:
+centro pezzo:   O,64
+crosta:         O,58
+     delta O,O6 -> serve + tempo cottura a T piu bassa (asciugare cuore)
+     oppure pezzatura piu sottile: da 9 mm a 7 mm stesa
+
+nota bibliografia x tesi: labuza, cap. isoterme; norma ISO 21807 x aw
+#####  ##### [macchia caffe, si vede solo]  ...moisture sorption...
+
+            - 15 -
+
+O7/O5/26  -  BILANCIO DI MASSA  v11-bis  (x dossier + tesi)
+
+INPUT                     g          %
+farina                  1OOO      61,1
+acqua                    48O      29,3
+olio                      8O       4,9
+lievito                   3O       1,8
+sale                      18       1,1
+malto                     1O       O,6
+paprika                   18       1,1
+TOT                     1636      1OO,O     <- % su impasto adesso, 0k
+
+OUTPUT
+impasto in vasca:       1618 g   (98,9% - perdite lavoraz. 1,1%)
+dopo formatura:         1587 g   (sfridi ritagli 31 g -> RECUPERABILI in reimpasto?
+                                  chiedere Zanch. max % reimpasto ammessa)
+dopo cottura:           122O g   su 1587 infornati
+     calo cottura = 367/1587 = 23,1%
+resa forno->prodotto = 122O/1636 = 74,6%
+
+umidita finale (stufa 1O5 oC, 4h):  8,2 g/1OO g
+     v11 era 11,4  ->  coerente con calo aw, bene
+
+acqua evaporata teorica: 1587 x O,231 = 366,6 g  ~ 367  TORNA (ovvio, e' lo stesso dato
+     scritto in 2 modi, nn e' una verifica vera -> corretto da Zanch. a matita:
+     "questa NON e' una verifica indipendente, usa umidita in/out")
+
+rifatto come dice lui:
+H20 in impasto = 48O + (14,2% umid. farina x 1OOO) = 48O + 142 = 622 g
+H20 in prodotto = 8,2% x 122O = 1OO,O g
+H20 evaporata = 622 - 1OO = 522 g ???  nn torna con 367 !!
+     [illeggibile] dimenticato H20 legata consumata da lievito? no assurdo
+     ERRORE TROVATO: umid farina 14,2 e' su t.q. quindi la farina e' 1OOO t.q.
+     non 1OOO s.s.  ->  rifare tutto il bilancio su s.s.
+     (rifatto a pag 16, quadra con scarto 2,1% accettabile)
+
+            - 16 -
+
+bilancio su sostanza secca (v11-bis):
+
+s.s. in:
+farina  1OOO x O,858 =  858,O
+olio                     8O,O
+lievito 3O x O,3O   =     9,O
+sale                     18,O
+malto                     9,4
+paprika 18 x O,62?  =    11,2    <- aw paprika O,4 circa ma s.s. da scheda tecnica
+                                    VECCHIA, aggiornare quando arriva quella nuova
+tot s.s. in  =  985,6 g
+
+s.s. out = 122O x O,918 = 112O,O g  ????
+     NO nn puo essere > di in!!!  aspetta
+     122O g infornato era su 1587 nn su tutto -> riportare: 1587/1636 = O,97
+     s.s. in infornato = 985,6 x O,97 = 956,O
+     s.s. out = 112O ??? ancora > !!
+     ...
+     TROVATO (con Zanch.): umidita 8,2 e' g/1OOg quindi s.s. = 91,8% 0K il conto e giusto
+     e' il CALO PESO che era sbagliato: ho pesato teglia compresa!! -996 g teglia
+     peso vero prodotto = 1244-996 ... no la teglia l'avevo tolta [illeggibile]
+     RIPESARE TUTTO DOMANI A MENTE FRESCA
+~~~~~~~ [riga cancellata con frego]
+
+            - 17 -
+
+O8/O5/26  -  ripetizione pesate v11-bis (3a infornata)
+
+stavolta: tara teglia segnata PRIMA (996 g), doppia pesata, testimone Sara
+
+impasto infornato:  1592 g
+prodotto cotto:     1226 g
+calo cottura:       366 g  =  23,O %   confermato
+
+bilancio s.s.: in 959,1 / out 1125,5x... [illeggibile] ...
+scarto finale bilancio: +17,4%  NON QUADRA, out > in: rifare con tara teglia
+     (Zanch: sotto 3% 0k per lab, questo e' fuori scala)
+p (micro) -> simboli saltati dallo scanner in tutta la pag:
+     "granulometria paprika < 5OO pm"  = 5OO µm ovviamente
+     "aw +- O,O1"
+
+RESA FINALE v11-bis (media 3 infornate):
+resa = prodotto cotto / impasto tot = 74,8%  dev.st O,3
+proiezione industriale (forno tunnel FT-O1, dati Zanch. su 045O):
+     il tunnel cala meno del forno lab (~ -3 punti di calo)
+     resa attesa linea ~ 77-78%
+     -> x 1OO kg impasto = 77,5 kg prodotto = 775 confez. da 1OO g
+     costo paprika a confez (1,8%): ...vedi pag 19
+
+            - 18 -
+
+11/O5/26  -  PROVA v12  -  NUOVO CAMPIONE paprika affumicata La Dehesa LD-2O25-O918
+                          (armadio ingredienti prova, ripiano B)
+
+due tesi in parallelo:
+v12a: paprika 1,8% su impasto + semi girasole 6% + lino 3%
+v12b: paprika 2,2% su impasto + semi girasole 6% + lino 3%
+     SESAMO: previsto in ricetta finale MA vietato usarlo anche in lab?
+     no: Marchetti dice lab 0k, LINEA no. quindi:
+v12b-ses: come v12b + sesamo 2% (solo assaggio interno, ciotole dedicate, lavaggio
+     stoviglie separato, segnato su registro allergeni lab)
+
+impasti da 8OO g farina stavolta (campione paprika limitato, 2 kg totali)
+
+acqua: 47,5% (su farina)  come ottimizzato in v11-bis... NO aspetta in v11-bis era
+     48O/1OOO = 48%  vado di 48%   (O,5% nn cambia niente ma scriviamolo giusto)
+
+cottura 21O oC x 14 min  ->  poi prova anche 2OO oC x 17 min (tesi "cuore asciutto")
+
+RISULTATI (24h, media 2 pezzi):
+                  aw      colore(visivo)    assaggio panel interno (5 pers)
+v12a  21O/14     O,59     rosso mattone 0k    "buono, poco affumicato" x3
+v12b  21O/14     O,6O     +intenso 0k         "0k affumicato giusto" x4  <-- MIGLIORE
+v12b  2OO/17     O,57     leggerm. spenta     "secco" x2 "0k" x3
+v12b-ses         O,6O     0k                  "il sesamo si sente, buono" x5 !!!
+
+=> ricetta candidata: v12b (2,2%) cottura 21O/14, aw O,6O al limite ma dentro
+=> il sesamo migliora TANTO il giudizio -> spingere x averlo, ma vincoli PRPo1 linea 1
+     (lavaggio validato + sequenza prod.) -> decisione NON mia, passa da Marchetti/Fantin
+
+            - 19 -
+
+costi (grezzi, da rifare con Trentin, prezzi 1istino nn definitivi):
+paprika: ipotesi 13,2O e/kg (scaglione 1OO kg)
+     v12b: 2,2% x ... su 1OO g prodotto servono 1OO/O,775 = 129 g impasto
+     paprika x confez = 129 x O,O22 = 2,84 g = O,O375 e/conf  ~  3,7 cent
+     a 14,8O (scaglione 25kg) = 4,2 cent   [differenza piccola MA su 3OO.OOO pz/anno
+     = 15OO e, dirlo a Zanch. x trattativa]
+semi girasole+lino: ~2,1 cent/conf (prezzi magazzino attuali)
+sesamo (se passa): +O,9 cent
+#####################  [macchia]
+food cost SOLO ingredienti caratterizzanti ~ 6-7 cent/conf
+     (impasto base + film + energia: dati di Trentin, io nn li ho)
+
+            - 2O -
+
+12/O5/26  -  nota veloce
+
+oggi in stabilimento clima strano, riunioni continue, Zanch. chiamato su 2 volte
+la mia prova su MINI-tunnel pilota rimandata a data da destinarsi
+     (la linea 1 e' ferma a tratti x la storia della valvola, nn si puo entrare)
+mi porto avanti con:
+- isoterma di adsorbimento v12b: 6 punti sale saturo, T = 25 oC
+  LiCl O,11 / MgCl2 O,33 / K2CO3 O,43 / NaBr O,58 / NaCl O,75 / KCl O,84
+  campioni in essicc. sopra soluzioni, pesate a 24-48-72h -> tabella a pag 21
+- shelf life: ipotesi limite aw O,65 x croccantezza (rif. tesi + labuza)
+  con film MAP EVOH (WVTR da scheda Flexipack) stima conservativa 6 mesi
+  MA da validare con prova reale in cella 38 oC / 9O% UR accelerata
+     [illeggibile] ...chiedere spazio in camera climatica ad Analytica?...
+
+            - 21 -
+
+isoterma v12b  -  pesate 24h  (mg guadagno/perdita su ~2 g campione)
+
+sale        aw       m24h      m48h      m72h
+LiCl       O,11     -41,2     -44,O     -44,3
+MgCl2      O,33     -18,7     -19,9     -2O,1
+K2CO3      O,43      -8,2      -8,9      -9,O
+NaBr       O,58      +1,4      +1,6      +1,6      <- vicino a aw prodotto, 0k torna
+NaCl       O,75     +12,8     +14,1     +14,4
+KCl        O,84     +26,5     +29,8     +3O,6
+
+monostrato GAB: da calcolare (excel a casa, portare chiavetta)
+     stima grafica m0 ~ 4-5 g/1OOg s.s. [verificare]
+
+            - 22 -
+
+cose da fare / chiedere:
+[x] CoA nuovo campione -> arrivato? NO, pdf danneggiato, Scarpa deve rimandare
+[ ] % max reimpasto sfridi ammessa (Zanch.)
+[ ] scheda tecnica paprika REV NUOVA (s.s., granulometria, ASTA)
+[ ] prova mini-tunnel: NUOVA DATA quando linea libera
+[ ] dati WVTR film da F0044 x modello shelf life
+[ ] chiedere a Trentin costi impasto base (gentilmente!! e' sempre di corsa)
+[ ] x tesi: metodologia isoterme scrivere STASERA che mi dimentico
+[ ] domanda per Zanch: xche' target aw O,6O e nn O,65 se croccantezza regge fino O,65?
+    risposta sua (a voce): margine di sicurezza x disomogeneita' lotto + risalita
+    post-confez. vista in v11. sensato. metterlo in tesi come "safety margin"
+
+            - 23 -
+
+[pagina quasi bianca]
+
+promemoria: NN lasciare il quaderno in lab, Marchetti raccoglie i quaderni
+     x la storia della digitalizzazione (scansionano tutto)
+     ->  e infatti eccolo scansionato :)
+
+[fine scansione pag 23]

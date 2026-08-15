@@ -1,0 +1,350 @@
+=====================================================================
+PROMPT — ESPANSIONE DELL'ARCHIVIO GREZZO «sources» (CORPUS V2)
+⚠ USO RINVIATO: da incollare SOLO dopo la fine del ciclo end-to-end
+sul corpus v1 (vedi 06_operativo\scaletta_end_to_end.md).
+Percorsi aggiornati alla riorganizzazione del 15/08/2026.
+Progetto: Second Brain «aurora-cervello» — Aurora Food Group S.r.l.
+(SIMULAZIONE DICHIARATA — nessun soggetto reale)
+Da incollare in Claude Code. Leggi TUTTO il prompt prima di agire.
+=====================================================================
+
+RUOLO E MISSIONE
+Sei l'esecutore operativo del consulente IA incaricato di costruire il
+second brain Obsidian di Aurora Food Group S.r.l., PMI alimentare
+simulata di Cologna Veneta (VR). Siamo nella FASE 1: i reparti hanno
+riversato tutta la loro mole documentale in un unico hub grezzo
+(Desktop\sources) e ora quell'archivio va ESPANSO con nuovi documenti
+coerenti, come se altri armadi e cartelle di rete venissero svuotati
+nello stesso posto. La canonizzazione in markdown e la riorganizzazione
+nel vault verranno in una fase successiva e NON sono oggetto di questa
+sessione. Tutto il lavoro sarà pubblicato su GitHub come caso studio:
+esigo massima precisione e massimo dettaglio allineati alla realtà —
+ogni data, importo, norma, codice e nome deve reggere alla verifica
+computazionale e al controllo incrociato.
+
+Hai autorizzazione esplicita a usare i mezzi più potenti che hai:
+subagenti in parallelo eseguiti con Fable 5 (generazione per blocchi
+tematici, revisori indipendenti), script Python, suite di controlli
+rieseguibili. Usa AskUserQuestion in modo sistematico: a ogni gate
+previsto da questo prompt e a ogni scelta non già scritta qui o nel
+blueprint, come da «Regola d'ingaggio» del blueprint stesso.
+
+---------------------------------------------------------------------
+1. PERCORSI (Windows; se lavori in WSL premetti /mnt/c/ e adatta le \)
+---------------------------------------------------------------------
+ARCHIVIO GREZZO (unica destinazione dei nuovi file):
+  C:\Users\buulo\Desktop\sources
+  → 159 documenti + _QUESTO_ARCHIVIO_E_SIMULATO.txt (avvertenza, non
+    fa parte del corpus e non va mai contata né modificata)
+
+VAULT OBSIDIAN (solo lettura della struttura, NON scriverci):
+  C:\Users\buulo\Desktop\aurora-cervello
+  → 11 cartelle vuote: self, areas, projects, sources, concepts, docs,
+    entities, data, code, outputs, workspace
+  → immagine di riferimento della tassonomia (Claude Code legge le
+    immagini: aprila e guardala prima della mappatura):
+    C:\Users\buulo\Desktop\.eval_do_not_index\Aurora_Food_Group_SRL\06_operativo\tassonomia_vault.png
+
+CARTELLA DI SUPPORTO (fuori dal vault, mai da indicizzare):
+  C:\Users\buulo\Desktop\.eval_do_not_index\Aurora_Food_Group_SRL
+  → 01_metodo\metodo_01_generazione_archivio.md  (istruzioni di generazione)
+  → 01_metodo\canone_aurora.md  (canone: entità, filo rosso,
+                             contraddizioni volute, cosa non esiste)
+  → qui creerai la sottocartella di lavoro 06_operativo\corpus_v2\ (vedi §6)
+
+PERIMETRO DI LETTURA — VINCOLANTE:
+dalla cartella di supporto puoi aprire SOLO i due file di 01_metodo qui
+sopra. NON aprire mai: nulla dentro 03_valutazione\ (domande, risposte,
+eval set), né dentro 04_misurazioni\ o 02_corpus\ (copia del corpus),
+né il README di radice. Contengono il dataset di test e
+le sue risposte: un archivio generato da chi le ha viste è bruciato.
+Se ti imbatti in uno di quei file, fermati e segnalalo.
+
+---------------------------------------------------------------------
+2. STUDIO PRELIMINARE (obbligatorio, nessuna scrittura prima di questo)
+---------------------------------------------------------------------
+a) Leggi 01_metodo\metodo_01_generazione_archivio.md. Applichi SOLO: la «Regola d'ingaggio»
+   e le sezioni dal ##2 al ##8 (struttura dell'archivio, regole di
+   generazione, registro delle contraddizioni, realismo tecnico ##5 e
+   attrezzatura ##5-bis, ordine delle operazioni ##6, verifica ##7,
+   revisione ##8), più le Appendici A, B e C come modelli operativi
+   per subagenti e revisori. TRALASCI tutto ciò che riguarda le
+   domande e il test (##9, ##13, ##14 e la parte di misura del ##12):
+   in questa fase si fa solo generazione e revisione.
+b) Leggi 01_metodo\canone_aurora.md da cima a fondo. È l'unica fonte di verità:
+   anagrafica e codici canonici, prodotti ed EAN, formato lotti, CCP,
+   le persone con il loro registro linguistico, il filo rosso
+   (audit CSQA di febbraio → promo e straordinari → valvola PKM-450 →
+   deviazione CCP2 e guarnizione azzurra sul lotto L26130 →
+   reclamo REC-2026-011 → relazione 48 ore e blocco → ispezione ATS
+   del 09/06), i tre gruppi di contraddizioni volute e l'elenco
+   «COSA NON ESISTE NELL'ARCHIVIO».
+c) Ispeziona A FONDO tutti i 159 file esistenti in Desktop\sources:
+   aprili tutti con un lettore multi-formato (funzione text_of del
+   ##5-bis, ramo .eml compreso), estrai entità, codici, date,
+   convenzioni di nomenclatura, stile dei singoli autori. Costruisci
+   un indice interno file → contenuto → entità citate: ti serve sia
+   per la mappatura (§4) sia per non contraddire nulla in generazione.
+d) Ancoraggi di calendario e cronologia: l'anno di riferimento è il
+   2026 e l'01/01/2026 è giovedì; verifica ogni «giorno della
+   settimana + data» contro il calendario reale. Nessun nuovo file
+   deve avere data (interna o di filesystem) del giorno in cui stai
+   lavorando.
+
+---------------------------------------------------------------------
+3. VINCOLI NON NEGOZIABILI SUI NUOVI FILE
+---------------------------------------------------------------------
+- MAI markdown dentro sources: un file server non contiene markdown.
+  Formati ammessi e loro uso (proporzioni del ##2 del blueprint, da
+  mantenere sul totale generato):
+    .txt   verbali, mail interne, appunti, procedure, note, rumore
+    .csv   registri, inventari, listini, timbrature, log di reparto
+    .pdf   contratti, certificati, verbali di enti, fatture, bollette,
+           visure
+    .xlsx  budget, previsionali, KPI, tracciabilità, libro unico
+    .eml   mail vere con header completi; quota con allegati reali
+           in base64 (8 ogni ~160 file, Received = Date + 20-35 s)
+    .docx  procedure, istruzioni operative, lettere in bozza, job
+           description
+    .jpg   foto da telefono e scansioni da multifunzione (EXIF
+           coerente con dispositivo E cronologia)
+    .pptx  presentazioni commerciali, organigrammi, business case
+    .log   tracciati di datalogger e pannelli di controllo
+    .xml   fatture elettroniche a tracciato FatturaPA (FPR12, ordine
+           degli elementi da schema, niente elementi facoltativi
+           vuoti, quadrature al centesimo)
+    .p7m   buste di firma (contenitore PKCS#7 dichiarato nel canone)
+  Su ogni tranche di ~160 nuovi file riproduci in proporzione anche:
+  un terzo di rumore fuori dal filo rosso, [4] coppie di duplicati,
+  [6] testi in cp1252 con CRLF, [5] documenti in OCR degradato con
+  codici che restano validi una volta decodificati, [8] allegati
+  segnaposto, almeno [3] estensioni mendaci, nomi di file
+  realisticamente cattivi (##2).
+- Ogni file deve essere un file VERO e VALIDO del suo formato,
+  prodotto con l'attrezzatura del ##5-bis (reportlab, openpyxl,
+  python-docx, python-pptx, Pillow/piexif, email, ecc.).
+- Ogni codice supera il suo algoritmo (##5): P.IVA, CF, IBAN con CIN,
+  EAN/ITF, e i codici sotto OCR degradato devono decodificarsi in
+  codici validi. CAP coerenti col comune, riferimenti normativi
+  esistenti, in vigore alla data del documento e pertinenti.
+- Ogni dato che riguarda entità note (persone, clienti, fornitori,
+  macchine, prodotti, lotti, conti) DEVE venire dal canone, mai
+  inventato. Se ti serve un'entità nuova (fornitore, mese, cliente,
+  macchina, dipendente), PRIMA la aggiungi a 01_metodo\canone_aurora.md in una
+  sezione datata «FASE 1 — ESPANSIONE», POI la usi nei documenti.
+- Rispetta il registro linguistico assegnato a ogni persona (canone
+  §2): Bertoldi maiuscole senza punteggiatura, Fantin telegrafico,
+  Marchetti burocratese, Dal Maso veneto sotto pressione, ecc.
+- DIVIETO ASSOLUTO di materializzare ciò che il canone dichiara
+  inesistente («COSA NON ESISTE NELL'ARCHIVIO»): niente ISO 22000/9001
+  di Aurora, niente bilancio 2026, niente cedolini nominativi, niente
+  export ufficiale, niente sanzioni comminate, niente business plan
+  Aurora Vega, ecc. Quell'elenco protegge le domande-trappola del
+  test: violarlo distrugge la misura. Se un documento che vorresti
+  generare lo richiede, fermati e chiedi con AskUserQuestion.
+- Contraddizioni: le nuove divergenze VOLUTE vanno registrate in
+  01_metodo\canone_aurora.md (stessa forma delle esistenti: cosa diverge, in
+  quali file, quale valore prevale e perché) NEL MOMENTO in cui le
+  crei, mai dopo — ritmo di riferimento [25-30] ogni ~160 file. Le
+  contraddizioni già registrate non si toccano e non si «correggono».
+- Ogni documento porta le tracce di chi lo ha scritto: annotazioni,
+  correzioni, campi in bianco, una firma mancante (##3). Numeri non
+  tondi ma con i totali che restano la somma degli addendi.
+- RIDONDANZA VOLUTA (il «mappazone»): ogni fatto importante nuovo deve
+  comparire in almeno 2-3 documenti, in contesti e registri diversi —
+  il verbale lo racconta, il registro lo conta, la mail lo commenta.
+  È ciò che rende possibile il consolidamento «un fatto, un padrone»
+  della fase 2. Se le versioni divergono di proposito, la divergenza
+  va nel registro delle contraddizioni con il valore che prevale.
+- COLLEGABILITÀ: riusa gli identificativi canonici (lotti, matricole,
+  numeri di ordine/fattura/NC/protocollo, persone) perché i documenti
+  si aggancino tra loro: senza identificatori condivisi lo
+  hub-and-spoke della fase 2 non avrà raggi.
+- MAI file «pre-digeriti» a misura di cartella del vault: i fatti
+  restano immersi in contesti sporchi e misti; estrazione e pulizia
+  sono compito esclusivo della fase 2.
+- Ordine delle operazioni per ogni giro (##6): 1 contenuti →
+  2 metadati (PDF /Author /Producer /CreationDate, docProps Office,
+  EXIF, Message-ID coerenti con l'emittente) → 3 date del filesystem
+  (os.utime da tabella unica). Ogni correzione ai contenuti impone di
+  rifare 2 e 3. Massimo [3] file nello stesso minuto.
+- NON toccare i 159 file esistenti: non modificarli, non rinominarli,
+  non spostarli, non «correggerli» (le loro anomalie sono contenuto).
+  Non cancellare mai il rumore realistico. Non scrivere nulla nel
+  vault. Nessuna avvertenza di simulazione dentro i singoli file:
+  l'avvertenza sta già, una volta sola, nel file dedicato.
+
+---------------------------------------------------------------------
+4. STEP 1 — MAPPATURA A MATRICE + FABBISOGNO PER CARTELLA
+---------------------------------------------------------------------
+Prima di generare qualsiasi cosa, produci la diagnosi in due parti:
+mappatura a matrice dei 159 file e analisi del fabbisogno per
+cartella. Premessa di metodo, da tenere ferma: i file grezzi sono un
+mappazone — ogni documento contiene fatti che in fase 2 finiranno in
+cartelle DIVERSE come note atomiche (regola «un fatto, un padrone»,
+collegamenti hub-and-spoke con backlink e frontmatter). Qui quindi
+NON si assegna un file a una cartella: si misura quali cartelle ogni
+file ALIMENTA, e con quali fatti. La tassonomia è quella
+dell'immagine fornita dal titolare del progetto — salvata come
+06_operativo\tassonomia_vault.png nella cartella di supporto: APRILA e
+tienila come riferimento visivo. Etichette letterali dell'immagine:
+  self «chi e azienda» · areas «responsabilità continue» ·
+  projects «lavoro a tempo, con traguardo» · sources «la inbox
+  grezza» · concepts «idee, una per nota» · docs «procedure
+  intere» · entities «schede dei nomi propri» · data «i numeri» ·
+  code «script e automazioni» · outputs «deliverable finiti» ·
+  workspace «bozze e diario»
+In dettaglio, il criterio di smistamento per ciascuna cartella:
+  self       chi è l'azienda: identità, vision, assetto, fotografia
+             strategico-legale di oggi
+  areas      responsabilità continue: produzione&manutenzione, QA/QC,
+             logistica, commerciale&marketing, R&D, AFC, HR
+  projects   lavoro a termine con un traguardo: NPD, certificazioni
+             (BRC/IFS), tunnel/ampliamenti, ERP, cost saving
+  sources    la inbox grezza: ciò che resta materiale non distillato
+  concepts   glossario: definizioni che danno contesto (EDI, FEFO,
+             CCP, NC, MDD, sell-in/sell-out, sfrido, ARR, CapEx...)
+  docs       procedure intere: SOP, compliance, blueprint interni
+  entities   schede dei nomi propri: clienti, fornitori, persone,
+             enti, prodotti, macchine
+  data       i numeri: CSV/XLSX di financials, operations, quality,
+             sales
+  code       script e automazioni
+  outputs    deliverable finiti verso l'esterno
+  workspace  diario delle sessioni, bozze di lavoro
+PARTE A — MAPPATURA A MATRICE. Per ogni file: cartella primaria,
+cartelle secondarie alimentate, fatti ed entità chiave che contiene,
+una riga di motivazione, confidenza alta/media/bassa. Non spostare
+NULLA: è solo il piano. Se durante l'ispezione sospetti un ERRORE
+VERO in uno dei 159 esistenti (nessun documento lo giustifica e il
+canone non lo dichiara), NON correggerlo: classificalo A/B/C come da
+##8, verifica l'ipotesi alternativa che sia il tuo controllo a essere
+ingenuo, e portalo al gate con l'impatto stimato su baseline e
+dataset — decide l'utente. Registro completo in
+  ...\Aurora_Food_Group_SRL\06_operativo\corpus_v2\mappatura_canonizzazione_159.csv
+e in chat la tabella riepilogativa per cartella con DUE conteggi:
+destinazioni primarie e coperture totali (primarie + secondarie).
+
+PARTE B — FABBISOGNO PER CARTELLA (progettazione a ritroso dal vault).
+Per ciascuna delle 11 cartelle elenca le note attese — hub e atomiche —
+che il vault di una PMI come Aurora dovrà contenere a fine fase 2,
+ricavandole da canone e archivio (reparti; progetti: tunnel Criotech,
+ERP, rinnovo BRCGS, snack AF-SN-0470, Aurora Vega; entità; numeri).
+Per ogni nota attesa indica quali file esistenti già la sostengono e
+classifica la copertura: ok / parziale / assente. Le note scoperte
+diventano il BACKLOG DI GENERAZIONE: quali documenti grezzi servono a
+sostenerle, con priorità. Target realistici e sbilanciati come in una
+PMI vera: areas e data pesanti, self essenziale ma completa, projects
+media; per concepts, code e workspace non forzare documenti innaturali
+(un file server non contiene glossari) ma genera i SEMI grezzi da cui
+la fase 2 distillerà: slide di formazione, specifiche EDI, export di
+configurazione PLC, macro, trascrizioni di riunione. Registro in
+  ...\Aurora_Food_Group_SRL\06_operativo\corpus_v2\fabbisogno_cartelle.csv
+(cartella, nota_attesa, tipo hub/atomica, fonti_esistenti, copertura,
+documenti_da_generare, priorita).
+
+GATE 1 (AskUserQuestion). Presenta mappatura, fabbisogno e target per
+cartella; fatti approvare backlog e priorità, poi chiedi se procedere
+con la generazione dei nuovi file. Nello stesso gate solleva questo
+CONFLITTO NOTO e fallo decidere esplicitamente: l'archivio a 159 file
+ha già una baseline misurata e un dataset di domande congelato;
+espanderlo (i) rende false le domande sui metadati (conteggi, pesi),
+(ii) rischia di rendere rispondibili le domande-trappola se il canone
+non viene rispettato alla lettera, (iii) sposta il perimetro della
+misura «prima/dopo». Proponi le opzioni con i compromessi dichiarati,
+ad esempio: espandere proteggendo il canone e rifare la baseline
+sull'archivio espanso prima di canonizzare (consigliata); espandere e
+accettare il decadimento del vecchio dataset; espansione ridotta.
+Chiedi anche, qui, quale finestra temporale coprire coi nuovi file:
+addensare gennaio-giugno 2026 (più sicuro per il test) oppure
+proseguire la storia su giugno-agosto 2026 (più realismo: code del
+filo rosso — valutazione lotti L26132-134 mai fatta, prescrizioni ATS,
+chiusura estiva, rinnovo BRCGS, capannone Furlan, Aurora Vega, ERP —
+ma nuova cronologia da fissare nel canone prima di scrivere).
+
+---------------------------------------------------------------------
+5. STEP 2 — GENERAZIONE A LOTTI DI 30 CON REVISIONE E CONFERMA
+---------------------------------------------------------------------
+Volume: NESSUN tetto totale. Si procede a oltranza, un lotto di 30
+file alla volta, finché l'utente non dice stop. Per ogni lotto:
+a) PIANO — proponi con AskUserQuestion la composizione del lotto
+   pescando dal backlog del fabbisogno in ordine di priorità (il
+   rumore d'ufficio conta nel terzo fuori filo rosso) e un mix di
+   formati che mantiene le proporzioni del ##2 sul cumulato
+   (~10 txt, ~6 csv, ~5 pdf, ~3 xlsx, ~2 eml, ~2 docx e a rotazione
+   jpg/pptx/log/xml/p7m ogni lotto, indicativamente).
+b) GENERAZIONE — subagenti Fable 5 in parallelo, uno per blocco
+   tematico (prompt dell'Appendice A del blueprint): ognuno scrive
+   SOLO nella propria sottocartella di lavoro sotto 06_operativo\corpus_v2\work\,
+   nessuno tocca sources direttamente. Un solo generatore per file;
+   registro 06_operativo\corpus_v2\chi_genera_cosa.txt consultato prima di scrivere;
+   salvataggio di stato ogni [15] file.
+c) ASSEMBLAGGIO — sposti i file approvati in Desktop\sources, poi
+   metadati, poi date filesystem (##6).
+d) REVISIONE DEL LOTTO — prima di presentarlo: (i) controlli
+   automatici del ##7 come script rieseguibili (integrità di formato,
+   codici trovati via regex e validati anche sotto OCR, aritmetica e
+   totali, cronologia e giorni della settimana, riferimenti
+   incrociati con i 159 preesistenti, concordanza dei numeri o
+   registrazione della contraddizione, qualità del testo: niente
+   segnaposto, None/nan, sequenze markdown o marcatori di
+   lavorazione); (ii) revisore indipendente per blocco di formato
+   (briefing dell'Appendice B) che riceve canone e registro delle
+   contraddizioni e classifica i rilievi in A errore vero / B
+   contraddizione non registrata / C falso allarme. Correggi solo gli
+   A, propaga ogni correzione a tutti i file che citano il dato,
+   rifai metadati e date, riesegui i controlli.
+e) REPORT E GATE (AskUserQuestion) — presenta: elenco dei 30 file
+   (nome, formato, data documento, blocco tematico, filo rosso o
+   rumore), contraddizioni aggiunte al canone, esito dei controlli e
+   rilievi aperti con onestà (niente perfezione dichiarata e non
+   dimostrata), conteggio cumulato per formato e copertura per
+   cartella aggiornata (voci di backlog chiuse e restanti per soglia).
+   Poi chiedi conferma:
+   procedere coi prossimi 30 (proponi già il tema), correggere
+   qualcosa, cambiare mix, o fermarsi.
+f) STATO SU DISCO — a fine lotto aggiorna 06_operativo\corpus_v2\stato_fase1.txt:
+   cosa è fatto, cosa manca, difetti aperti, come riprendere. Se la
+   sessione si interrompe, alla riapertura si riparte da lì.
+
+ALLO STOP DELL'UTENTE (chiusura di fase):
+- riconta TUTTO da script (file per formato, MB, mail con allegati) e
+  proponi con AskUserQuestion l'aggiornamento dei conteggi
+  dell'avvertenza e degli altri file di supporto, senza mai scrivere
+  numeri a memoria;
+- proponi (senza eseguire) i passi successivi fuori scope: eventuale
+  allineamento della copia dell'archivio nel repo, nuova baseline
+  sull'archivio espanso, poi canonizzazione.
+
+---------------------------------------------------------------------
+6. TRACCIABILITÀ (per il caso studio su GitHub)
+---------------------------------------------------------------------
+Tutti gli artefatti operativi della fase vivono in
+  C:\Users\buulo\Desktop\.eval_do_not_index\Aurora_Food_Group_SRL\06_operativo\corpus_v2\
+    mappatura_canonizzazione_159.csv
+    fabbisogno_cartelle.csv
+    chi_genera_cosa.txt
+    stato_fase1.txt
+    registro_generazione.csv  (per ogni nuovo file: nome, formato,
+      blocco tematico, data documento, entità citate, filo rosso o
+      rumore, lotto n., esito revisione)
+    work\<agente>\...          (sottocartelle di lavoro dei subagenti)
+Niente di tutto questo entra mai in sources né nel vault.
+
+---------------------------------------------------------------------
+7. COSA NON FARE — riepilogo secco
+---------------------------------------------------------------------
+- niente markdown in sources; niente file nel vault
+- niente modifiche/spostamenti/rinomine ai 159 esistenti
+- niente aperture di 03_valutazione\ (domande, risposte, eval set),
+  di 04_misurazioni\ o di 02_corpus\; né del README di radice
+- niente entità inventate fuori canone; niente violazioni di «COSA
+  NON ESISTE»; niente correzioni alle contraddizioni registrate
+- niente file con la data di oggi; metadati mai dopo le date
+- niente rumore realistico cancellato, nessun lock file «ripulito»
+- niente lotti nuovi senza conferma esplicita dell'utente sul lotto
+  precedente
+
+Comincia dallo STUDIO PRELIMINARE (§2) e riporta a che punto sei man
+mano. Se qualcosa in questo prompt confligge col blueprint o col
+canone, fermati e chiedi con AskUserQuestion prima di procedere.

@@ -1,0 +1,16 @@
+# pesi dei modelli e indici locali (grandi, rigenerabili)
+04_misurazioni/_locale_non_su_github/
+
+# impostazioni locali degli strumenti
+.claude/
+04_misurazioni/.claude/
+.obsidian/workspace*
+
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# sistema
+.DS_Store
+Thumbs.db

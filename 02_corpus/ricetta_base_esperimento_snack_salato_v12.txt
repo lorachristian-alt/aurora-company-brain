@@ -1,0 +1,277 @@
+QUADERNO PROVE CUCINA PILOTA — R&D
+prodotto in sviluppo: AF-SN-0470  snack salato paprika e semi
+resp. prova: dott. A. Zanchetta   (supporto: G. Meneghello, tirocinante)
+segue da quaderno 2025/B pag. 41 (v1-v8, vedi archivio armadio R&D, chiave da Federica)
+
+NB: le v1-v8 sono da considerarsi SUPERATE. Qui solo v9 in avanti.
+base di calcolo: % su farina totale (baker's %), farina totale = tipo 0 W300 + semola
+batch pilota standard: 5 kg farina totale (NON 5 kg impasto!! Giulia attenzione, l'errore
+della v7 e' nato da qui)
+
+==========================================================================
+VERSIONE 9 — 26/02/2026 — SUPERATA (vedi note in fondo)
+==========================================================================
+
+Formulazione v9                       %su farina      g su batch 5 kg farina
+--------------------------------------------------------------------------
+Farina tipo 0 W300 (F0012 Molino Veneto)   85,0            4.250
+Semola rimacinata (F0012)                  15,0              750
+Acqua di rete (T 16 gradi)                 48,0            2.400
+Olio girasole alto oleico (F0018)          12,0              600
+Lievito compresso (F0029 Lievital)          1,5               75
+Sale fino                                   1,8               90
+Destrosio (F0025 Zuccherificio Padano)      1,0               50
+Paprika dolce affumicata (F0102 Italspezie) 2,4              120
+Estratto di malto (F0012)                   0,8               40
+--------------------------------------------------------------------------
+totale impasto teorico                    167,5            8.375 g
+
+calcolo a margine: 5.000 x 0,024 = 120 g paprika  ok
+                   5.000 x 0,48  = 2.400 acqua    ok
+
+Procedimento v9:
+1. setacciare farine (setaccio pilota 800 um, come CCP1 di linea)
+2. impastatrice pilota a spirale: farina + acqua + malto, 3 min vel.1
+3. autolisi 20 min coperto
+4. aggiunta lievito stemperato + destrosio, 4 min vel.1
+5. sale a filo, poi olio in 3 riprese, 6 min vel.2
+6. paprika in coda, 2 min vel.1  <-- ERRORE, vedi difetti
+7. T impasto fine impasto: 25,8 gradi C (target <=27)
+8. puntata 40 min a 26 gradi C coperto
+9. spezzatura, laminatoio pilota spessore 2,2 mm
+10. coppatura dischi diam. 60 mm
+11. lievitazione 30 min cella pilota 28 C / 75% UR
+12. cottura forno pilota statico 210 C, 11 min, valvola aperta ultimi 3 min
+
+Misure v9:
+pH impasto fine impasto: 5,72
+T cottura effettiva (sonda camera): 208-212 C
+umidita' prodotto finito: 5,1%   (stufa 105 C, doppia pesata)
+aw a 24h: 0,31 (Aqualab lab QC, grazie Sara)
+peso medio pezzo cotto: 8,4 g (n=20, dev.st 0,6  troppa??)
+resa cottura: 100 g impasto -> 76 g cotto (perdita 24%)
+
+Note sensoriali v9 (io + Giulia + Sara):
+- colore: BRUTTO. marrone sporco, la paprika brucia in cotura sopra 205 C,
+  perde tutto il rosso. confermato con prova a 215 C: ancora peggio, quasi nera
+- gusto: amaro in fondo, note di bruciato
+- struttura: troppo friabile, si rompe gia' a prenderlo dalla teglia
+- Giulia: "sa di posacenere" — brutale ma vera
+
+DIFETTI v9:
+[1] paprika brucia in cottura sopra 205 C — o si abbassa T o si sposta la paprika
+    fuori dall'impasto (in superficie post forno? in olio?)
+[2] troppo friabile — sospetto olio troppo alto (12%) + spessore 2,2 troppo basso
+[3] niente semi in questa versione, ma il brief commerciale li chiede ("paprika E semi")
+
+decisione: v10 con paprika sdoppiata e olio ridotto.
+~~provare paprika incapsulata?~~ no, costo assurdo, sentito F0102: +18 euro/kg. bocciata.
+
+==========================================================================
+VERSIONE 10 — 12/03/2026 — SUPERATA
+==========================================================================
+
+modifiche vs v9: olio 12->10%, paprika sdoppiata (1,2% impasto + 1,2% superficie
+veicolata in olio dopo cottura), T forno 210->195, ingresso mix semi 6%
+
+Formulazione v10                      %su farina      g su 5 kg farina
+--------------------------------------------------------------------------
+Farina tipo 0 W300 (F0012)                 85,0            4.250
+Semola rimacinata (F0012)                  15,0              750
+Acqua                                      47,0            2.350   (giu' di 1 punto, impasto v9 un filo molle)
+Olio girasole a.o. (F0018) in impasto      10,0              500
+Lievito compresso (F0029)                   1,5               75
+Sale                                        1,8               90
+Destrosio (F0025)                           1,0               50
+Paprika affumicata (F0102) IN IMPASTO       1,2               60
+Estratto di malto (F0012)                   0,8               40
+Mix semi (girasole+zucca) (F0098 Granomix)  6,0              300
+--------------------------------------------------------------------------
+finitura post-forno (su 100 g prodotto cotto):
+  olio girasole a.o.        3,0 g
+  paprika affumicata        1,2 g   ~~1,5~~ corretto: a 1,5 impasta le dita, unto rosso
+  sale fino                 0,4 g
+
+Procedimento: come v9 MA
+- semi tostati a parte 8 min a 160 C prima dell'inserimento (step 5-bis, con l'olio)
+- cottura 195 C x 13 min (piu' lunga per compensare T piu' bassa)
+- a uscita forno, entro 5 min: nebulizzazione olio+paprika+sale in bassina pilota
+
+Misure v10:
+T impasto fine impasto: 26,4 C
+pH impasto: 5,68
+umidita' PF: 6,8%   <-- ALTA. 13 min non bastano a 195. o allungo o alzo un filo
+aw 24h: 0,42  ?????  troppo alta, target <=0,35 per stare tranquilli in ATM
+  ricontrollata su seconda campionata: 0,39. cmq alta.
+resa: 100 -> 79 g
+peso pezzo: 8,9 g (dev.st 0,4  meglio)
+
+Sensoriale v10:
++ colore FINALMENTE rosso mattone, bello, la paprika in superficie non brucia
++ affumicato pulito, niente amaro
+- ancora friabile ai bordi (meno di v9 pero')
+- semi di zucca: buoni. girasole: ok. manca "croccante che si sente", Silvia (passata
+  in pilota il 13/03) chiede sesamo in superficie "come quello del competitor"
+  --> ATTENZIONE ALLERGENE: sesamo = allergene Reg. 1169/11 All. II.
+  Avvisata Marchetti stesso giorno: ok da qualita' MA va in PRPo1, etichetta,
+  e valutazione cross-contact su Linea 1 (AF-SN-0450 NON ha sesamo!)
+
+DIFETTI v10:
+[1] aw fuori target (0,39-0,42 vs <=0,35) — cottura da rivedere
+[2] friabilita' bordi — provare spessore 2,6 mm
+[3] manca sesamo (richiesta commerciale) — entra in v11 con pratica allergeni
+
+calcolo a margine (Giulia): se aw 0,42 e umidita' 6,8 -> isoterma? chiedere a
+Analytica Veneta (F0090) se ci fanno la curva. preventivo chiesto 14/03: 380 euro + iva
+~~forse la facciamo noi con soluzioni sature~~ no, tempo non ce n'e'
+
+==========================================================================
+VERSIONE 11 — 26/03/2026 — SUPERATA (quasi buona)
+==========================================================================
+
+modifiche vs v10: +sesamo superficie, spessore 2,2->2,6 mm, cottura 195 C x 15 min
+con valvola aperta dal min 10, acqua 47->46
+
+Formulazione v11                      %su farina      g su 5 kg
+--------------------------------------------------------------------------
+Farina 0 W300 (F0012)                      85,0            4.250
+Semola (F0012)                             15,0              750
+Acqua                                      46,0            2.300
+Olio girasole a.o. (F0018)                 10,0              500
+Lievito compresso (F0029)                   1,5               75
+Sale                                        1,8               90
+Destrosio (F0025)                           1,0               50
+Paprika (F0102) impasto                     1,2               60
+Malto (F0012)                               0,8               40
+Mix semi girasole+zucca (F0098)             6,0              300
+--------------------------------------------------------------------------
+superficie PRE-forno (su pezzo crudo, dopo doratura con acqua):
+  sesamo bianco (F0098)  ~8% peso pezzo crudo  --> pesato: 0,9 g/pezzo su 11,2 g  = 8,0% ok
+superficie POST-forno: olio 3,0 + paprika 1,2 + sale 0,4 (come v10)
+
+Misure v11:
+T impasto fine: 26,9 C  (al limite. acqua era a 18, troppo calda x marzo? usare 14)
+pH: 5,70
+puntata 40 min / lievitazione 30 min 28C-75%UR (invariata)
+umidita' PF: 5,9%
+aw 24h: 0,33   BUONO. rientrato.
+aw 72h: 0,34
+resa: 100 -> 77
+costo? vedi sotto v12, fatto li' il conto completo
+
+Sensoriale v11 (panel informale 6 persone, 27/03):
++ croccantezza nettamente meglio (spessore 2,6 + sesamo tostato in cottura)
++ colore ok, sesamo dorato bello
+- sesamo brucia leggermente sui bordi teglia (forno pilota disomogeneo, in
+  industriale su FT-01 dovrebbe essere piu' uniforme — DA VERIFICARE IN SCALE-UP)
+- Zanella: "buono ma il pezzo e' piccolo, a busta da 100 g quanti ne vanno? contali"
+  contati: 11-12 pezzi/100 g. ok.
+
+DIFETTI v11:
+[1] leggera bruciatura sesamo bordi (accettabile in pilota, flag per scale-up)
+[2] dev.st peso pezzo ancora 0,5 g — in industriale servira' rotativa, non coppatura
+[3] niente di sensoriale bloccante. QUESTA E' LA BASE.
+
+==========================================================================
+VERSIONE 12 — 16/04/2026 — VERSIONE CORRENTE (congelata il 07/05/2026)
+==========================================================================
+
+v12 = v11 con tre sole modifiche:
+(a) acqua a 14 C fissa (controllo T impasto)
+(b) sale 1,8 -> 1,6% impasto (il sale superficie compensa; nutrizionale meglio)
+(c) paprika superficie 1,2 -> 1,4 g/100g: colore piu' pieno, richiesto da Silvia
+    dopo il panel interno ~~del 08/04~~ del 22/04
+
+FORMULAZIONE v12 — CONGELATA — NON TOCCARE SENZA NUOVA VERSIONE
+--------------------------------------------------------------------------
+ingrediente (fornitore)               %su farina      g su 5 kg farina
+--------------------------------------------------------------------------
+Farina tipo 0 W300 (F0012)                 85,0            4.250
+Semola rimacinata (F0012)                  15,0              750
+Acqua (14 C)                               46,0            2.300
+Olio girasole alto oleico (F0018)          10,0              500
+Lievito compresso (F0029)                   1,5               75
+Sale fino                                   1,6               80
+Destrosio (F0025)                           1,0               50
+Paprika dolce affumicata (F0102)            1,2               60
+Estratto di malto (F0012)                   0,8               40
+Mix semi girasole+zucca (F0098)             6,0              300
+--------------------------------------------------------------------------
+totale impasto                            168,1            8.405 g
+superficie pre-forno: sesamo bianco (F0098) 8% su peso pezzo crudo
+superficie post-forno su 100 g PF: olio 3,0 g + paprika 1,4 g + sale 0,4 g
+
+PROCEDIMENTO v12 (pilota, definitivo):
+1.  setacciatura farine 800 um
+2.  spirale: farine + acqua 14 C + malto — 3 min vel.1
+3.  autolisi 20 min
+4.  lievito + destrosio — 4 min vel.1
+5.  sale a filo — 1 min vel.1
+6.  olio in 3 riprese — 6 min vel.2
+6b. semi girasole+zucca tostati (160 C x 8 min, raffreddati!) — 2 min vel.1
+7.  paprika — 2 min vel.1 — T FINE IMPASTO: target 25-26 C, mai oltre 27
+8.  puntata 40 min a 26 C
+9.  laminazione 2,6 mm — coppatura diam. 60
+10. doratura acqua + sesamo 8%
+11. lievitazione 30 min — 28 C / 75% UR
+12. cottura 195 C x 15 min, valvola aperta dal min 10
+13. raffreddamento 25 min su griglia
+14. finitura olio/paprika/sale in bassina
+15. confezionamento prove: busta PP/EVOH (film F0044 Flexipack) — in pilota
+    saldatrice da banco, per shelf life vera serve la PKM-450 con ATM 30/70
+    (prove shelf life gia' avviate su AF-SN-0450 come modello, vedi file QC)
+
+MISURE v12 (media 3 batch: 16/04, 23/04, 07/05):
+T impasto fine impasto: 25,6 / 25,9 / 25,4 C   ok ok ok
+pH impasto: 5,71 / 5,69 / 5,73
+umidita' PF: 5,7% (range 5,5-6,0)
+aw 24h: 0,31 / 0,32 / 0,31       target <=0,35: OK con margine
+aw 30gg (busta banco, no ATM): 0,36  <- migra. in ATM vera da verificare.
+peso pezzo cotto: 8,7 g medio, dev.st 0,4
+resa cottura: 100 g impasto -> 77,5 g PF (media)
+resa complessiva con finitura: 100 g impasto -> 81,1 g prodotto confezionabile
+  (la finitura AGGIUNGE peso: +4,8 g/100 su cotto — conto rifatto due volte, torna)
+
+COSTO FORMULA v12 (prezzi listino apr 2026, fonte ordini Trentin):
+                        euro/kg     g/kg impasto    incidenza
+farina 0                 0,62          505,6         0,313
+semola                   0,71           89,2         0,063
+acqua                    ~0             273,7         0
+olio girasole a.o.       2,10           59,5         0,125   <- +11% da F0018, era 1,89
+lievito                  3,05            8,9         0,027
+sale                     0,18            9,5         0,002
+destrosio                0,95            5,9         0,006
+paprika affumicata      12,80            7,1         0,091
+malto                    1,60            4,8         0,008
+mix semi                 3,40           35,7         0,121
+                                                    -------
+costo impasto/kg                                     0,756 euro/kg
+su PF (resa 81,1% con finitura):
+  0,756 / 0,811 = 0,932
++ finitura (olio 3% x 2,10 + paprika 1,4% x 12,80 + sesamo ~7% x 2,90 + sale)
+  = 0,063 + 0,179 + 0,203 + 0,001 = 0,446 euro/kg PF
+COSTO FORMULA TOTALE: ~1,38 euro/kg PF   (solo ingredienti, NO film, NO energia,
+NO manodopera — quelli li mette il controllo di gestione, io mi fermo qui)
+
+verifica ordine di grandezza: AF-SN-0450 sta a 0,94 euro/kg formula. lo 0470 costa
++47% ed e' quasi tutta paprika+sesamo. se F0102 conferma lo scaglione 100 kg a
+11,20 si scende a ~1,31. vedi mail fornitore.
+
+NOTE APERTE (al 07/05/2026):
+- scale-up su Linea 1: da pianificare DOPO che finiscono le prove cornetto su L2,
+  Zanella non mi da' la linea prima. e con la PKM-450 che fa i capricci con la
+  valvola azoto (segnalazione Dal Maso 08/05) non e' il momento di chiedere.
+- shelf life ufficiale 0470 in ATM: da avviare a formula congelata, protocollo
+  come 0450 (30% CO2 / 70% N2). Analytica Veneta (F0090) per micro.
+- pratica allergene sesamo: Marchetti dice etichetta "puo' contenere" NON basta,
+  serve valutazione cross-contact documentata. in corso.
+- Giulia: riportare sul suo quaderno i bilanci di massa delle 3 repliche v12
+  (le servono per la tesi, e a me serve il controllo incrociato della resa)
+- chiedere a Fantin slot prova FT-01: il sesamo sui bordi in pilota brucia,
+  su forno tunnel dovrebbe andare meglio ma finche' non lo vedo non lo scrivo
+
+~~v13: provare rosmarino?~~ NO. la formula e' congelata. le idee nuove su un
+quaderno nuovo, questa va in scale-up cosi' com'e'.
+
+prossima pag: prove confezionamento manuale per campionatura Tosano (Silvia ne
+vuole 40 buste per il 20/05, da fare in pilota, film neutro senza stampa

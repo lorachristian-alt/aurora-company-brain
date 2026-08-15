@@ -1,0 +1,284 @@
+appunti costi fissi / opex 2026 - agg. al 26/05/26 - lt
+(file mio, nn girare a nessuno, i numeri buoni li passo a Bellotto a fine giugno)
+
+riprendo il file dell anno scorso, tolgo quello che nn c'e' piu e aggiungo
+il leasing nuovo. ATTENZIONE: qui NON c'e' il tunnel Criotech, quello e' CapEx,
+sta nel file calcolo_CapEx_linea3, qui solo spese correnti.
+
+
+=== 1. LEASING E NOLEGGI ===============================
+
+LEASING FORNO FT-02 (linea 2, croissanteria)
+  societa: UniCredit Leasing S.p.A.  contratto n. UCL/2022/118374
+  decorrenza 01/03/2022, durata 72 mesi, riscatto 1%
+  canone: 3.850,00 €/mese + iva
+  scad. rata: giorno 05 del mese, RID su c/c UniCredit
+  residuo a fine 2026: 14 rate (fine feb 2028)
+
+LEASING MULETTO ELETTRICO (magazzino Faggionato)
+  Toyota Material Handling - contratto TMHIT-59921
+  canone 612,00 €/mese comprensivo manut. full service e batteria
+  durata 60 mesi da 09/2023
+  (chiedere a Faggionato se il secondo muletto a gpl lo teniamo ancora,
+   fermo da febbraio dietro la CF-02, paghiamo bollo? no il bollo no
+   ma l'assicurazione si, vedi sotto)
+
+LEASING CONFEZIONATRICE PKM-450 (Pakmatic, linea 1)
+  Sella Leasing  contr. n. 44/081152
+  canone 2.170,00 €/mese + iva
+  decorrenza 06/2021 durata 84 mesi -> fine 05/2028
+  nb: la manutenzione NON e' compresa, e' a parte con Pakmatic (F0077)
+  vedi sezione manutenzioni. dopo il fermo del 10/05 Fantin vuole
+  rivedere il contratto ricambi, sentire Pakmatic dopo l'estate
+
+NOLEGGIO OPERATIVO stampante/multifunzione uffici
+  Kyocera via BNP Paribas Rental - 189,00 €/mese, 2 macchine
+  (una e' in qualita da Marchetti, l'altra qui da noi)
+
+NOLEGGIO lavapavimenti industriale reparto conf.
+  Nilfisk  145 €/mese  (contratto in scadenza 09/26 - DISDIRE? sentire Zanella,
+  dice che quella nuova a batteria costa meno a comprarla)
+
+tot leasing+noleggi mensile:  3.850+612+2.170+189+145 = 6.966 €/mese
+TOT PROVVISORIO ANNUO leasing/noleggi:  83.592 €  (senza iva)
+
+
+=== 2. MANUTENZIONI ====================================
+
+CONTRATTO TECNOFORNI SERVICE (forni FT-01 e FT-02 + PT-104)
+  contratto full-risk n. TFS-2026-084, firmato Fantin 12/01/26
+  canone annuo 18.400,00 € + iva, fatturazione trimestrale (4.600/trim)
+  comprende: 4 visite programmate/anno, ricambi ordinari, pronto intervento 24h
+  ESCLUSO: nastri trasportatori e refrattari
+  tecnico di riferimento: Rossato Gianni (cell in rubrica)
+  ultima visita 14/04/26, prossima prevista settimana 29
+  (nb Rossato in aprile ha segnalato bruciatore FT-01 da revisionare,
+   preventivo extra 3.100 € - NON ancora ordinato, Fantin tentenna)
+
+PAKMATIC ITALIA (F0077) - PKM-450
+  niente contratto, interventi a chiamata + ricambi
+  speso 2025: 6.870 €
+  speso 2026 al 26/05: gia' 4.912 € !!! (di cui 1.680 intervento urgenza
+  del 10-11/05 valvola azoto + ricambio originale arrivato il 15/05)
+  se continua cosi a fine anno siamo sopra i 10.000, valutare contratto
+  di manutenzione programmata, Fantin dice che Pakmatic lo propone a
+  5.900 €/anno ma senza ricambi
+
+METAL DETECTOR MD-3200 e MD-1800 (Loma)
+  taratura + certificazione annuale: 1.240 € (no scusa sono 1.240 non 1.420,
+  avevo invertito, il preventivo dice 1.240+iva tutti e due)
+  fatta a gennaio, ok fino a gen 2027
+
+IMPIANTO CIP-01 - Chemifood fa la verifica dosatori 2 volte anno
+  compresa nel contratto detergenti? NO, e' fatturata a parte, 380 €/visita
+
+MANUTENZIONE CELLE CF-01 / CF-02 e TS-01
+  Frigotermica Scaligera s.n.c. (Legnago) - contratto 6.200 €/anno
+  comprende controllo gas fluorurati F-GAS e libretti
+  nb sul TS-01: il compressore vecchio "va tenuto in vita fino al collaudo
+  del tunnel nuovo" (parole di Fantin) - nel 2025 spesi 4.300 € extra
+  contratto solo di riparazioni sul TS-01. soldi buttati, prima arriva
+  il Criotech meglio e'
+
+manut. varie officina Dal Maso (materiale di consumo, ferramenta, Wurth ecc)
+  budget 2026: 14.000 €   speso al 26/05: 7.780 € (siamo lunghi)
+
+ascensore/montacarichi magazzino Palù: 980 €/anno (Schindler) + verifica
+  biennale ULSS/ARPAV 160 € (fatta 2025, prossima 2027)
+
+TOT PROVVISORIO MANUTENZIONI 2026 (stima): 18.400+10.000?+1.240+760+6.200+14.000+980
+  = ~51.600 €/anno   (il ? e' Pakmatic, dipende dal secondo semestre)
+
+
+=== 3. ASSICURAZIONI (rinnovi 31/12 salvo diversa nota) ===
+
+broker: Assiveneta Broker S.r.l. (VR) - referente sig. Todeschini
+
+RCT/RCO                    Generali      pol. n. 380415667   premio 11.850 €/anno
+  massimale RCT 5.000.000 - RCO 3.000.000
+INCENDIO/ALL RISKS fabbr.  Generali      pol. n. 380415668   premio 16.240 €/anno
+  valore fabbricato+macchinari assicurato 9.800.000
+  (dopo l'ordine del tunnel Criotech VA AGGIORNATA la partita macchinari,
+   segnalato a Todeschini il 19/05, aspetto appendice - ricordare!!)
+RC PRODOTTO + ritiro       AIG Europe    pol. n. IT-PL-244810  premio 9.700 €/anno
+  massimale 10.000.000, franchigia 15.000 per sinistro
+  sottolimite spese di ritiro 250.000
+  *** aperto sinistro n. 2026/POL/0917 il 15/05/26 per la storia del
+  frammento plastica lotto L26130 - NON toccare questa polizza fino a
+  chiusura sinistro, me lo ha detto Todeschini per telefono ***
+FLOTTA (3 furgoni + 2 auto) Allianz      premio 6.380 €/anno
+INFORTUNI dirigenti        Allianz       1.150 €/anno
+CYBER (nuova 2026, voluta da Silvia)  Chubb   3.900 €/anno  franchigia 10.000
+  (Bertoldi brontola che nn serve, Silvia ha insistito dopo il corso in Ascom)
+muletto gpl fermo: garanzia circolazione interna compresa in flotta? DA VERIFICARE
+  con Todeschini, se e' a parte disdire che tanto e' fermo
+
+TOT PROVVISORIO ASSICURAZIONI: 49.220 €/anno
+  (senza appendice macchinari nuova, arrivera' aumento su incendio, stimo +900/1.200)
+
+
+=== 4. CANONI SOFTWARE / IT ============================
+
+gestionale attuale (Zucchetti Ad Hoc Revolution)  licenze+manut: 7.400 €/anno
+  (finche' nn si decide sull'ERP nuovo - CSB o SAP B1, vedi preventivi
+   nel file apposta - qui NON metto niente, decidera' Bertoldi)
+paghe in outsourcing: sta dentro la parcella Bellotto, vedi consulenze
+Office 365 - 14 utenze business standard: 11,70 €/utenza/mese = 163,80 €/mese
+antivirus/firewall gestito (Systempoint VR): 290 €/mese
+backup cloud NAS: 68 €/mese
+sito web + hosting + mail: 1.100 €/anno (rinnovo aprile, PAGATO)
+pesa a ponte software: 350 €/anno
+datalogger PT-104 licenza sw supervisione: 590 €/anno
+  (quella che registra le temperature... dopo il casino di maggio
+   Marchetti vuole ANCHE il modulo firma elettronica dei report, quotato
+   1.450 € una tantum + 300/anno - in attesa che Fantin approvi)
+
+TOT PROVVISORIO SW/IT: 7.400 + 1.966 + 3.480 + 816 + 1.100 + 350 + 590 = 15.702 €/anno
+  (o 15.700 va bene uguale, arrotondo)
+
+
+=== 5. UTENZE ==========================================
+
+VENETA ENERGIA (F0081) - en. elettrica + gas, contratto indicizzato PUN/PSV
+
+blocco copiato dal gestionale, colonne saltate, sistemare:
+
+per.comp    doc.n      fornit          descriz            imponib   iva    tot
+gen-26   V26/00412  VENETA EN.  EE  POD IT001E9884.. 21.4  40,3  80;25.887,74
+feb-26   V26/00988  VENETA EN.  EE  stesso POD           19.882,11   4.374,06   24.256,17
+mar-26   V26/01544  VENETA EN.  EE                    22.104  ,55  4.863,00  26.967,55
+gen-26   V26/00413  VENETA EN.  GAS PDR 0088801244    9.  914,60  2.181,21   12.095,81
+feb-26   V26/00989  VENETA EN.  GAS                      8.771,03  1.929,63  10.700,66
+mar-26   V26/01545  VENETA EN.  GAS                      7.402,88  1.628,63   9.031,51
+apr-26   V26/02101  VENETA EN.  EE                       20.550,37  4.521,08  25.071,45
+apr-26   V26/02102  VENETA EN.  GAS                      5.912,40  1.300,73   7.213,13
+
+media EE gen-apr: ~21.000 €/mese imponibile -> stima anno 250.000/260.000
+media GAS: dipende stagione, stima anno 75.000/85.000
+  nb: il tunnel Criotech quando entra ALZA la bolletta elettrica ma
+  Criotech dichiara -38% di consumo specifico rispetto al TS-01 a piastre
+  (kWh/kg surgelato) - i conti veri nel file CapEx, io qui nn li rifaccio
+
+ACQUA acquedotto + pozzo: ~1.850 €/mese medio (il pozzo ha il canone
+  regionale derivazione, 412 €/anno, paga a marzo, PAGATO)
+depuratore consortile: canone + eccedenze COD: 2025 chiuso a 31.400 €
+  budget 2026: 34.000 € (Marchetti dice che con la linea 3 nuova i reflui
+  nn cambiano, e' surgelazione, nn lavaggio)
+telefonia fissa+mobile TIM business: 640 €/mese
+
+TOT PROVVISORIO UTENZE 2026 (stima): 250.000+80.000+22.200+34.000+7.680+412
+  = circa 394.000 €/anno   (grosso modo, l'energia comanda lei)
+
+
+=== 6. CERTIFICAZIONI E QUALITA' =======================
+
+CSQA CERTIFICAZIONI (Thiene) - BRCGS Issue 9 + IFS Food v8
+  audit combinato feb 2026: fattura CSQA n. 2026/1187 = 6.850 € + iva
+  (2 auditor x 2 gg: Franceschini + Menegazzo, + quota certificato)
+  spese viaggio auditor rifatturate: 214 €
+  mantenimento annuo marchi/royalties: 900 €
+ICEA - biologico linea 2 (sfogliatina bio Famila): 1.750 €/anno + visita
+  ispettiva 620 €
+analisi LABORATORIO ESTERNO Analytica Veneta (F0090, ACCREDIA 0987):
+  piano analisi annuale (tamponi conferma, shelf life, acque, etichette
+  nutrizionali): contratto quadro 2026 = 16.800 €
+  extra fuori piano al 26/05: 2.340 € (di cui 890 € SOLO per le analisi
+  urgenti sul frammento plastica di maggio + controanalisi lotto L26131,
+  girate a Marchetti x pratica sinistro AIG)
+tarature strumenti (termometri, bilance, pesa): SIT/LAT centro esterno 1.180 €/anno
+pest control (Rentokil): 3.360 €/anno, 12 visite + monitoraggio insetti volanti
+  (rinnovato uguale al 2025, ok)
+
+TOT PROVVISORIO CERT+QUALITA': 6.850+214+900+2.370+16.800+2.340+1.180+3.360
+  = 34.014 €  circa
+  hmm ricontrollare, mi pare tanto, cmq la voce grossa e' Analytica
+
+
+=== 7. CONSULENZE ======================================
+
+STUDIO BELLOTTO & ASSOCIATI (Lonigo) - dott. Andrea Bellotto
+  contabilita'+bilancio+fiscale: forfait 21.600 €/anno (1.800/mese)
+  paghe e contributi (50 dip): 9,80 €/cedolino x ~52 cedolini/mese = ~510 €/mese
+  extra 2026 gia' fatturati: pratica credito imposta 4.0 tunnel Criotech,
+  acconto 1.500 € (fatt. 188/2026 del 12/05) - il resto a consuntivo,
+  ha detto "dipende dalla perizia" (vedi sua nota, girata a Bertoldi)
+dott.ssa VICENTINI Chiara - Studio Alimentaria (VR) - consulenza HACCP
+  canone 780 €/mese (visita mensile + aggiornamento manuale + formazione)
+  extra maggio: 16 h supporto gestione reclamo/ritiro a 75 €/h = 1.200 €
+  (approvate da Fantin al volo, giustamente)
+p.i. BONATO Sergio - Studio Bonato & Partners (Arzignano) - RSPP esterno
+  incarico annuo 5.400 € + corsi sicurezza a listino
+  extra: pratica infortunio linea 3 (dito, 12 gg) compresa nel canone
+medico competente (dott. Salvalaio): 38 €/visita x ~55 visite/anno + forfait
+  1.100 € = ~3.200 €/anno
+consulente etichettatura/legale alimentare (avv. Faccin, a chiamata):
+  2025: 950 €. 2026 al 26/05: zero (sgrat sgrat)
+consulenza dogane/export: NN ATTIVA (se parte l'export Austria sentire
+  CCIAA prima di pagare consulenti)
+
+TOT PROVVISORIO CONSULENZE (senza extra futuri): 21.600+6.120+9.360+5.400+3.200
+  = 45.680 €/anno + gli extra che arrivano sempre
+
+
+=== 8. ALTRI COSTI FISSI ===============================
+
+VIGILANZA notturna+festivi (Civis Sicurezza VR): 890 €/mese, giro ispettivo
+  + teleallarme entrambe le sedi (via Industria + magazzino Palù)
+  (chiedere a Fantin se lo tengono ancora il passaggio del sabato
+   pomeriggio, coi turni di adesso c'e' sempre gente dentro fino alle 22)
+SMALTIMENTO RIFIUTI:
+  organico/scarti impasto (sottoprod. uso zootecnico, ritira az. agricola
+  Brazzale): a costo zero, anzi 40 €/ton a NOSTRO favore, media 6 ton/mese
+  plastica/film misti: Ecoveneta, 2 cassoni, ~740 €/mese
+  carta/cartone: compattatore, ritiro gratuito Rational Pack (F0095)? no,
+  gratuito NO, e' 90 €/ritiro x 2 ritiri mese = 180 €/mese
+  pericolosi officina (olio, stracci, neon): 1 ritiro/trimestre ~310 €
+  oli esausti friggitrice pilota R&D: ritiro gratuito consorzio
+  MUD+registri: lo fa Vicentini? no lo fa BONATO, dentro il canone. ok
+TARI comune Cologna Veneta 2 sedi: 8.940 €/anno (rate apr/lug/dic)
+canone pozzo gia' messo in utenze, nn doppiare
+spese bancarie+home banking+RIBA: ~180 €/mese medio + oneri su anticipo
+  fatture quando lo usiamo (a maggio usato ECCOME, vedi estratto conto,
+  interessi Q2 ancora da liquidare, li registro a luglio)
+mensa: no mensa, buoni pasto SOLO impiegati 12 pax: 6,50 €/gg buono, ~120 €/mese
+  a testa = ~1.440 €/mese totale (esenti fino a 8 € il buono elettronico)
+abbonamenti riviste tecniche + banca dati etichettatura x Marchetti: 1.640 €/anno
+quota Confindustria VR: 4.850 €/anno (Bertoldi vuole tenerla, ok)
+quota consorzio export? DISDETTA nel 2025, nn rinnovare
+
+TOT PROVVISORIO ALTRI: boh, sommo dopo, la vigilanza e i rifiuti pesano
+  10.680+8.880+2.160+1.240+8.940+2.160+17.280+1.640+4.850 = ~57.830 €/anno
+  (i buoni pasto forse nn vanno qui ma in costo personale, chiedere a Bellotto,
+   intanto li lascio qui cosi nn li perdo)
+
+
+=== RIEPILOGONE (DA NON USARE, numeri provvisori!!) ====
+
+leasing/noleggi        83.592
+manutenzioni           51.600 (stima, Pakmatic ballerina)
+assicurazioni          49.220 (+appendice macchinari in arrivo)
+software/IT            15.700
+utenze                394.000 (stima, energia indicizzata)
+cert+qualita'          34.014
+consulenze             45.680 (+extra)
+altri                  59.390
+
+somma mia:            733.196 €/anno
+il gestionale x le stesse voci dice 741.880 ma dentro ci ha anche
+i canoni demo dell'ERP in prova e un'assicurazione credito che NON
+abbiamo mai attivato (refuso di Federica? chiedere). la differenza
+e' 8.684, quando quadro le voci una x una la trovo.
+
+promemoria x me:
+- appendice Generali macchinari (Todeschini) - SOLLECITARE
+- decidere contratto Pakmatic entro settembre
+- buoni pasto: chiedere a Bellotto dove li vuole
+- nn dimenticare che a maggio la cassa era tirata x l'acconto Criotech
+  (87.000, il 30%) + Tosano che entra solo il 10/06: le rate di leasing
+  sono passate lo stesso ma l'anticipo fatture e' quasi al tetto,
+  se Fantin ordina anche il bruciatore FT-01 (3.100) aspettare almeno
+  meta' giugno a pagarlo
+- il festivo della vigilanza
+- fattura CSQA 2026/1187: PAGATA il 15/04, archiviare
+
+lt 26/05, riprendo dopo l'F24 di giugno

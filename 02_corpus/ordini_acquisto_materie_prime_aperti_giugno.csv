@@ -1,0 +1,73 @@
+ESTRAZIONE ORDINI ACQUISTO APERTI AL 01/06/2026 - gestionale + integrazioni a mano;;;;;;;;;;;;;
+NB estrazione lanciata 01/06 h 8.05 da N.F. - le righe CHIUSO restano dentro perche il filtro del gestionale non funziona come dovrebbe;;;;;;;;;;;;;
+N_ordine;Cod_forn;Fornitore;Articolo;Qta_ordinata;Qta_consegnata;Qta_residua;UM;Prezzo_unit_eur;Data_conferma;Data_consegna_prevista;Stato;Buyer;Note
+OA-26-0144;F0012;Molino Veneto S.p.A.;Farina tipo 0 W300 sacco 25 kg;24.000;12.000;12.000;KG;0,52;23/04/26;2026-06-09;PARZIALE;Faggionato N.;1a consegna DDT 48392 del 04/05 ok (1 sacco rotto segregato)
+OA-26-0144;F0012;Molino Veneto S.p.A.;Farina tipo 00 sacco 25 kg;6.000;0;6.000;KG;0,55;23/04/26;09/06/26;APERTO;Faggionato N.;
+OA-26-0171;F0012;Molino Veneto S.p.A.;Farina tipo 0 W300 sacco 25 kg;24.000;0;24.000;KG;0,53;26/05/26;23/06/26;APERTO;Faggionato N.;prezzo +1 cent da giugno - raccolta nuova
+OA-26-0171;F0012;Molino Veneto S.p.A.;Semola rimacinata sacco 25 kg;2.000;0;2.000;KG;0,62;26/05/26;23/06/26;APERTO;Faggionato N.;
+OA-26-0152;F0012;Molino Veneto S.p.A.;Farina tipo 0 BIO sacco 25 kg;3.000;3.000;0;KG;0,74;28/04/26;12/05/26;CHIUSO;Faggionato N.;chiuso - resta in estrazione (bug filtro)
+OA-26-0158;F0018;Oleificio Adriatico S.p.A.;Olio girasole alto oleico cisternetta;6.000;4.000;2.000;KG;1,86;30/04/26;28/05/26;SOLLECITATO;Faggionato N.;SOLLECITO 1 del 25/05 + SOLLECITO 2 del 29/05 - dicono ritardo nave grezzo
+OA-26-0176;F0018;Oleificio Adriatico S.p.A.;Olio girasole alto oleico cisternetta;8.000;0;8.000;KG;2,06;28/05/26;18/06/26;APERTO;Faggionato N.;NUOVO PREZZO +11%!! comunicato con lettera 15/05 - Fantin informato - valutare 2o fornitore
+OA-26-0176;F0018;Oleificio Adriatico S.p.A.;Olio EVO latta 5 L;500;0;500;KG;7,25;28/05/26;18/06/26;APERTO;Faggionato N.;anche EVO aumenta (+2%)
+OA-26-0148;F0021;Latteria Bassanese Soc. Coop.;Burro 82% placca 25 kg;8.000;8.000;0;KG;7,80;24/04/26;22/05/26;CHIUSO;Faggionato N.;
+OA-26-0169;F0021;Latteria Bassanese Soc. Coop.;Burro 82% placca 25 kg;10.000;2.000;8.000;KG;7,78;22/05/26;08/06/26;PARZIALE;Faggionato N.;prezzo promo contratto trim.3 - consegne settimanali 2000 kg
+OA-26-0169;F0021;Latteria Bassanese Soc. Coop.;Panna UHT 35% brik 10 L;300;0;300;LT;2,95;22/05/26;08/06/26;APERTO;Faggionato N.;
+OA-26-0141;F0025;Zuccherificio Padano S.r.l.;Zucchero semolato sacco 50 kg;12.000;12.000;0;KG;0,68;20/04/26;05/05/26;CHIUSO;Faggionato N.;
+OA-26-0173;F0025;Zuccherificio Padano S.r.l.;Zucchero semolato sacco 50 kg;12.000;0;12.000;KG;0,68;27/05/26;16/06/26;APERTO;Faggionato N.;
+OA-26-0173;F0025;Zuccherificio Padano S.r.l.;Destrosio monoidrato sacco 25 kg;1.000;0;1.000;KG;0,92;27/05/26;16/06/26;APERTO;Faggionato N.;
+OA-26-0173;F0025;Zuccherificio Padano S.r.l.;Zucchero a velo sacco 10 kg;300;0;300;KG;0,95;27/05/26;16/06/26;APERTO;Faggionato N.;
+OA-26-0166;F0029;Lievital S.r.l.;Lievito compresso panetto 500 g;600;400;200;KG;3,10;18/05/26;settimanale;PARZIALE;Faggionato N.;consegna ogni lunedi 200 kg - ordine quadro giugno
+OA-26-0166;F0029;Lievital S.r.l.;Lievito secco disidratato ct 20x500g;100;0;100;KG;6,20;18/05/26;15/06/26;APERTO;Faggionato N.;
+OA-26-0166;F0029;Lievital S.r.l.;Lievito madre essiccato sacco 10 kg;100;0;100;KG;5,60;18/05/26;15/06/26;APERTO;Faggionato N.;
+OA-26-0139;F0031;Euroglass Boccacci S.r.l.;Vasetto vetro 212 ml TO63;57.600;46.080;11.520;PZ;0,145;21/04/26;sett 20 POI sett 24;SOLLECITATO;Faggionato N.;SOLLECITO del 27/05 - 2 pedane a saldo mai arrivate - v. anche riserva film strappato DDT 99201
+OA-26-0139;F0031;Euroglass Boccacci S.r.l.;Capsula twist-off 63 mm oro;48.000;48.000;0;PZ;0,038;21/04/26;05/05/26;CHIUSO;Faggionato N.;
+OA-26-0165;F0044;Flexipack Nordest S.r.l.;Film MAP PP/EVOH bobina h450;30;24;6;BOB;168,00;15/05/26;05/06/26;PARZIALE;Faggionato N.;DoC MOCA rev. aggiornata richiesta da Marchetti insieme alla consegna
+OA-26-0165;F0044;Flexipack Nordest S.r.l.;Film MAP PP/EVOH bobina h320;12;12;0;BOB;131,00;15/05/26;06/05/26;CHIUSO;Faggionato N.;
+OA-26-0165;F0044;Flexipack Nordest S.r.l.;Vaschetta PP nera 100 g;150.000;120.000;30.000;PZ;0,058;15/05/26;10/06/26;PARZIALE;Faggionato N.;consumo promo piu alto del previsto
+OA-26-0165;F0044;Flexipack Nordest S.r.l.;Vaschetta PP 2 scomparti 2x90 g;40.000;0;40.000;PZ;0,072;15/05/26;10/06/26;APERTO;Faggionato N.;
+OA-26-0178;F0044;Flexipack Nordest S.r.l.;Film MAP bobina h450 NUOVA GRAFICA 0455;20;0;20;BOB;171,00;29/05/26;24/06/26;APERTO;Faggionato N.;impianto stampa nuovo pagato una tantum 380 eur (riga sotto)
+OA-26-0178;F0044;Flexipack Nordest S.r.l.;Impianto stampa grafica 0455 (una tantum);1;0;1;NR;380,00;29/05/26;24/06/26;APERTO;Faggionato N.;
+OA-26-0150;F0052;Chemifood Italia S.r.l.;Soda caustica 30% fusto 200 kg;800;800;0;KG;0,55;27/04/26;14/05/26;CHIUSO;Faggionato N.;
+OA-26-0174;F0052;Chemifood Italia S.r.l.;Soda caustica 30% fusto 200 kg;800;0;800;KG;0,56;27/05/26;12/06/26;APERTO;Faggionato N.;
+OA-26-0174;F0052;Chemifood Italia S.r.l.;Acido nitrico 58% fusto 200 kg;600;0;600;KG;0,73;27/05/26;12/06/26;APERTO;Faggionato N.;SDS aggiornate da consegnare a Bonato (RSPP)
+OA-26-0174;F0052;Chemifood Italia S.r.l.;Sanificante PAA tanica 25 kg;300;0;300;KG;2,10;27/05/26;12/06/26;APERTO;Faggionato N.;
+OA-26-0160;F0061;Nordgas S.p.A.;Azoto alimentare E941 ricarica serbatoio;3.500;3.500;0;M3;0,38;02/05/26;06/05/26;CHIUSO;Faggionato N.;bolla 06/05 ok - cert. analisi in QA
+OA-26-0160;F0061;Nordgas S.p.A.;CO2 alimentare E290 pacco bombole;96;96;0;KG;1,15;02/05/26;06/05/26;CHIUSO;Faggionato N.;
+OA-26-0179;F0061;Nordgas S.p.A.;Azoto alimentare E941 ricarica serbatoio;3.500;0;3.500;M3;0,38;30/05/26;10/06/26;APERTO;Faggionato N.;consumo alto x promo - livello 68% al 31/05
+OA-26-0121;F0070;Criotech Impianti S.r.l.;Tunnel surgelazione a spirale CR-SP180 - ACCONTO 30%;1;0;1;NR;87.000,00;18/03/26;pagamento 25/05;APERTO;Fantin M.;CAPEX - acconto pagato 26/05 con anticipo fatture (v. Trentin) - saldo a collaudo - consegna prevista settembre
+OA-26-0121;F0070;Criotech Impianti S.r.l.;Opere propedeutiche installazione (quadro+linee);1;0;1;NR;12.400,00;18/03/26;agosto;APERTO;Fantin M.;
+OA-26-0155;F0077;Pakmatic Italia S.r.l.;Guarnizione valvola iniezione azoto PKM-450 ORIGINALE;2;2;0;PZ;145,00;09/05/26;15/05/26;CHIUSO;Faggionato N.;URGENZA dopo guasto 10/05 - arrivate 15/05 montata 16/05 (Dal Maso) - MOD-PR-04
+OA-26-0155;F0077;Pakmatic Italia S.r.l.;Kit revisione gruppo saldatura PKM-450;1;0;1;KIT;1.240,00;09/05/26;19/06/26;APERTO;Faggionato N.;consigliato dal tecnico Pakmatic dopo il guasto
+OA-26-0175;F0077;Pakmatic Italia S.r.l.;Sensore fine bobina PKM-450;2;0;2;PZ;98,00;28/05/26;19/06/26;APERTO;Faggionato N.;
+OA-26-0146;F0090;Analytica Veneta S.r.l.;Piano analisi maggio (tamponi+shelf life);1;1;0;NR;1.850,00;24/04/26;31/05/26;CHIUSO;Marchetti E.;
+OA-26-0177;F0090;Analytica Veneta S.r.l.;Piano analisi giugno + extra su L26130/L26131;1;0;1;NR;2.640,00;29/05/26;30/06/26;APERTO;Marchetti E.;include analisi frammento plastica reclamo - identificazione materiale - URGENTE dice Marchetti
+OA-26-0143;F0095;Rational Pack S.r.l.;Cartone espositore 0450 Bonta di Casa;10.000;5.200;4.800;PZ;0,42;22/04/26;05/06/26;PARZIALE;Faggionato N.;
+OA-26-0143;F0095;Rational Pack S.r.l.;Cartone 0455 promo 3+1;8.000;7.800;200;PZ;0,46;22/04/26;12/05/26;PARZIALE;Faggionato N.;differenza 200 pz = resa stampa? chiarire con Rational
+OA-26-0143;F0095;Rational Pack S.r.l.;Interfalda cartone 800x1200;2.000;2.000;0;PZ;0,21;22/04/26;12/05/26;CHIUSO;Faggionato N.;
+OA-26-0168;F0095;Rational Pack S.r.l.;Cartone croissant AF-CR-0215 PL;12.000;0;12.000;PZ;0,39;21/05/26;11/06/26;APERTO;Faggionato N.;
+OA-26-0168;F0095;Rational Pack S.r.l.;Cartone neutro americano 60x40x40;5.000;0;5.000;PZ;0,35;21/05/26;11/06/26;APERTO;Faggionato N.;
+OA-26-0168;F0095;Rational Pack S.r.l.;Pallet a perdere 800x1200;200;0;200;PZ;4,20;21/05/26;11/06/26;APERTO;Faggionato N.;
+OA-26-0162;F0095;Rational Pack S.r.l.;Angolari cartone;2.000;2.000;0;PZ;0,09;12/05/26;20/05/26;CHIUSO;Faggionato N.;
+N_ordine;Cod_forn;Fornitore;Articolo;Qta_ordinata;Qta_consegnata;Qta_residua;UM;Prezzo_unit_eur;Data_conferma;Data_consegna_prevista;Stato;Buyer;Note
+OA-26-0157;vari;fornitore minore - Aromi e Spezie Srl VR;Aroma paprika affumicata sacco 5 kg;50;45;5;KG;7,20;30/04/26;15/05/26;PARZIALE;Zanchetta A.;x R&D 0470 v12 - residuo 5 kg arriva con prox giro
+OA-26-0157;vari;Aromi e Spezie Srl;Rosmarino secco sacco 1 kg;20;0;20;KG;12,50;30/04/26;giugno;APERTO;Zanchetta A.;
+OA-26-0161;vari;Semi & Cereali SpA - MN;Semi di girasole sacco 25 kg;1.000;1.000;0;KG;1,42;08/05/26;20/05/26;CHIUSO;Faggionato N.;
+OA-26-0161;vari;Semi & Cereali SpA - MN;Semi di zucca sacco 25 kg;500;0;500;KG;3,79;08/05/26;10/06/26;APERTO;Faggionato N.;prezzo sceso rispetto a lotto marzo (3,85)
+OA-26-0161;vari;Semi & Cereali SpA - MN;Semi di sesamo sacco 25 kg;250;0;250;KG;2,30;08/05/26;10/06/26;APERTO;Faggionato N.;ALLERGENE - consegna separata richiesta da Marchetti
+OA-26-0161;vari;Semi & Cereali SpA - MN;Semi di lino sacco 25 kg;250;0;250;KG;1,58;08/05/26;10/06/26;SOLLECITATO;Faggionato N.;SOLLECITO del 30/05 - serve x sostituire lotto SCADUTO in B-04-03
+OA-26-0163;vari;Dolciaria Ingredienti Srl - TV;Gocce cioccolato fondente sacco 10 kg;500;320;180;KG;5,40;12/05/26;08/06/26;PARZIALE;Faggionato N.;
+OA-26-0163;vari;Dolciaria Ingredienti Srl - TV;Granella nocciola sacco 5 kg;200;110;90;KG;9,80;12/05/26;08/06/26;PARZIALE;Faggionato N.;prezzo nocciola instabile - bloccato fino a luglio
+OA-26-0163;vari;Dolciaria Ingredienti Srl - TV;Confettura albicocca 55% secchiello 12 kg;600;432;168;KG;2,15;12/05/26;08/06/26;PARZIALE;Faggionato N.;
+OA-26-0164;vari;Ovonord Srl - PD;Uovo intero pastorizzato brik 10 kg;600;480;120;KG;2,60;14/05/26;settimanale;PARZIALE;Faggionato N.;ordine quadro - consegna mar e ven
+OA-26-0170;vari;Margarine Industriali SpA - MI;Margarina sfoglia placca 10 kg;3.000;2.000;1.000;KG;2,05;22/05/26;09/06/26;PARZIALE;Faggionato N.;
+OA-26-0172;vari;Etichettificio Veneto Srl;Etichetta 0455 promo rotoli;100.000;68.000;32.000;PZ;0,012;26/05/26;05/06/26;PARZIALE;Faggionato N.;
+OA-26-0172;vari;Etichettificio Veneto Srl;Etichetta logistica SSCC;50.000;0;50.000;PZ;0,006;26/05/26;15/06/26;APERTO;Faggionato N.;
+OA-26-0180;F0012;Molino Veneto S.p.A.;Mix multicereali sacco 20 kg;3.000;0;3.000;KG;0,90;01/06/26;18/06/26;APERTO;Faggionato N.;confermato stamattina a voce con uff. ordini - conferma scritta in arrivo
+OA-26-0181;F0044;Flexipack Nordest S.r.l.;Film neutro no-print bobina;10;0;10;BOB;98,00;01/06/26;25/06/26;APERTO;Faggionato N.;scorta emergenza sotto minimo
+OA-26-0159;F0081;Veneta Energia S.p.A.;Conguaglio gas metano aprile;1;1;0;NR;14.212,50;;;CHIUSO;Trentin L.;non e' un ODA vero - inserito x quadratura Trentin (lasciare)
+OA-26-0167;vari;Ecoveneta Ambiente Srl;Ritiro e smaltimento sottoprod. cat.3 giugno;1;0;1;NR;480,00;20/05/26;giugno;APERTO;Faggionato N.;include pallet NC cella CF-02 + lotti scaduti da inventario (burro/panna/lievito/semi lino + farcia)
+OA-26-0182;vari;Ecoveneta Ambiente Srl;Smaltimento eventuale resa lotti L26130-L26131;1;0;1;NR;da quotare;;;APERTO;Faggionato N.;SOSPESO - si muove solo dopo decisione ritiro (Marchetti/Bertoldi/Perbellini) - stima 8.400 conf
+;;;;;;;;;;;;;
+riepilogo stati (conta a mano N.F. 01/06): APERTO 34 - PARZIALE 14 - SOLLECITATO 3 - CHIUSO in estrazione 14;;;;;;;;;;;;;
+valore residuo da ricevere (esclusi CAPEX e chiusi): circa 68.500 eur - dato spannometrico non da gestionale;;;;;;;;;;;;;
+attenzione olio: tra vecchio ordine a 1,86 e nuovo a 2,06 ci sono 8000 kg a prezzo nuovo = +1.600 eur/mese circa se i consumi restano questi - detto a Trentin e Fantin il 29/05;;;;;;;;;;;;;

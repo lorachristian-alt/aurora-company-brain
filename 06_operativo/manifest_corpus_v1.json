@@ -1,0 +1,821 @@
+{
+ "progetto": "Aurora Food Group S.r.l. (simulazione) — second brain «aurora-cervello»",
+ "artefatto": "manifest_corpus_v1",
+ "versione_corpus": "v1 — CONGELATO",
+ "data_congelamento": "2026-08-15",
+ "baseline_riferita": "misure del 14/08/2026 (tabella risultati del README: grezzo agentico + grezzo RAG)",
+ "percorso_device": "C:\\Users\\buulo\\Desktop\\sources",
+ "generato_da": "Claude (Cowork), 15/08/2026 — SHA-256 calcolati sulle copie lette dal device",
+ "regola": "Il corpus v1 non si tocca fino alla fine del ciclo end-to-end. Qualunque modifica o aggiunta = corpus v2, con nuova baseline e nuovo manifest.",
+ "nota_mtime": "Gli mtime curati fanno parte del corpus ma non transitano nello staging remoto: estenderli e verificarli in Sessione 0 con lo script della SCALETTA (produce manifest_corpus_v1.1.json).",
+ "totali": {
+  "file_su_disco": 160,
+  "file_corpus": 159,
+  "avvertenza": "_QUESTO_ARCHIVIO_E_SIMULATO.txt (esclusa dal conteggio del corpus)",
+  "bytes_totali": 6476617,
+  "mb_totali": 6.18
+ },
+ "hash_globale_sha256": "4c36a13bb8a13b7d7766eeff59b0d3228352c8ca4af60eee4ab2f9a4582d0bb8",
+ "file": [
+  {
+   "nome": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "bytes": 91254,
+   "sha256": "7112dc78538c39960935cf5b3ef1e0689692cd1192fdfa05720e8000f5d0294c"
+  },
+  {
+   "nome": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "bytes": 90241,
+   "sha256": "ef48ff35e54ccc2a44fbb381025629a41575e1a3adb6ad3206affb9940eea7ff"
+  },
+  {
+   "nome": "CV_Tommaso_Refosco_2026.pdf",
+   "bytes": 93514,
+   "sha256": "2b4172d5ad2107747666c0bf459fd2a551e964fe1d85e818dfe36e271f0731a3"
+  },
+  {
+   "nome": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "bytes": 102324,
+   "sha256": "a1e45815549515c82441850f214eea221260580f35ba76df312b56949be85d63"
+  },
+  {
+   "nome": "Circolare_INPS_aliquote_contributive_2026.txt",
+   "bytes": 2163,
+   "sha256": "295d777690d7349cdb6093e5d8a6200d3a715fd2f00ee62050c71262cc27d854"
+  },
+  {
+   "nome": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "bytes": 132546,
+   "sha256": "6640714b608ace05816a0ec70edc56437942c0c61c360a370282983c0571cfd7"
+  },
+  {
+   "nome": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "bytes": 95118,
+   "sha256": "67018dab6901074e54e4a3c68fb351f78e534d4c1349d23e04868cfbf3a13613"
+  },
+  {
+   "nome": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "bytes": 117598,
+   "sha256": "1b1d06cfe5d757ec9789f269793d466ac9553857dd611b10c6b922d8e3fbca33"
+  },
+  {
+   "nome": "Convocazione_riunione_direzione_12_05.eml",
+   "bytes": 48927,
+   "sha256": "8fc2d3e942b4b4616a1d7b4871ab20fd760b24cba8a6fa7ffd65156f27149270"
+  },
+  {
+   "nome": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "bytes": 6009,
+   "sha256": "ee9036b3d43234cdba8892af07ebed0a321ec3f39001450ddb8b823511d81965"
+  },
+  {
+   "nome": "DDT_MOLINO_VENETO_Farina_0_N48392_OCR_SPORCO.txt",
+   "bytes": 6231,
+   "sha256": "dbde4b761e32a493fc9fe25ea59bb53db6236a2ded13652929f14d073a199296"
+  },
+  {
+   "nome": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "bytes": 111743,
+   "sha256": "b2dd01b5f0fdcbbc824cbdc6cffea89acd8549a06c92005e922ecfb1dbbd40c9"
+  },
+  {
+   "nome": "DoC_MOCA_Flexipack_film_PP_EVOH_2026.pdf",
+   "bytes": 103241,
+   "sha256": "e51dfe50033b7ac420c3b38b8301fe96e792c07b738525b3341e02fe1b825c1d"
+  },
+  {
+   "nome": "Fattura_TosanoCerea_2026_0188_copia_cortesia.pdf",
+   "bytes": 112897,
+   "sha256": "d82b785651c1764065b2329a83601096352b832157f776dc4d036b3b2a73a4b6"
+  },
+  {
+   "nome": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "bytes": 27167,
+   "sha256": "fbb0770b887ffce0fd78ec070b00ee2912887dca398825ac68b31bf2a98357bd"
+  },
+  {
+   "nome": "Fwd_Fwd_Fwd_ATTENZIONE_richiamo_prodotto_concorrente_RASFF.eml",
+   "bytes": 6687,
+   "sha256": "385bdf9fce64027343cccd665326acc168b20469edd5b85cc56289a099185357"
+  },
+  {
+   "nome": "Fwd_newsletter_confindustria_marzo.txt",
+   "bytes": 2238,
+   "sha256": "aeefc1a957463791a89cc5a019cc74c1c7c03373f5dc3452b28780a028f2e5a6"
+  },
+  {
+   "nome": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "bytes": 294495,
+   "sha256": "55deeb19c2057190543a80f83ae4d8b2bd182a47218de2bd676268fe9585e088"
+  },
+  {
+   "nome": "IMG-20260510-WA0007.jpg",
+   "bytes": 44150,
+   "sha256": "1b2a20ab85fdf12332c05b47d93a90e9cfc258cce707d97098a8a549aff4c702"
+  },
+  {
+   "nome": "IMG_20260514_152241_frammento_REC-2026-011.jpg",
+   "bytes": 48209,
+   "sha256": "8e4bfcb7e1fb35cd744a24c74a59f68afc4c69e8fff0501ab34ec7567686d07d"
+  },
+  {
+   "nome": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "bytes": 41123,
+   "sha256": "df467ddc69f0c9d45b568b872b0295119e80d1c27df490e48f42ab43693fe820"
+  },
+  {
+   "nome": "IT03984710230_00188.xml",
+   "bytes": 5214,
+   "sha256": "da5e358465fe24d9bb7354e4ccf6269e253d630bcafb840e7a7f4b3a990df1e2"
+  },
+  {
+   "nome": "IT03984710230_00215.xml",
+   "bytes": 5213,
+   "sha256": "248e859d31742c734cc5446dc044f0d4c65056b5e8862c8b068be1e01a12cb37"
+  },
+  {
+   "nome": "IT03984710230_00215.xml.p7m",
+   "bytes": 5657,
+   "sha256": "213c63d00a43012a1f79bf69700a165efc3377cbe52b956856dd950addd39b58"
+  },
+  {
+   "nome": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "bytes": 47691,
+   "sha256": "d24821e3ff45404f68fa244faf99ebe9990b8184829c9bf2d15a979c1e185d3d"
+  },
+  {
+   "nome": "Listino_MolinoVeneto_giu2026.pdf",
+   "bytes": 93762,
+   "sha256": "440e72479834ab0c62632c23645c16c6980e267b19ca80a83371f2a251763cde"
+  },
+  {
+   "nome": "MOD-QA-07_10-05-26_L1_T2_scansione.jpg",
+   "bytes": 221397,
+   "sha256": "003e2e12089209e8e6ffa978e78ada56fe1eb85bb758891294cfd02e2f0613e8"
+  },
+  {
+   "nome": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "bytes": 83698,
+   "sha256": "003138d6387021aa8b121daba834a4b4038fbacfc8f27c2965e09f329f63bb0e"
+  },
+  {
+   "nome": "Newsletter_Fiere_alimentari_2026_NON_LEGGERE.eml",
+   "bytes": 4592,
+   "sha256": "ce25f87211667d013f9a83ecd90e1c218dacb763d758d317ece7516fa44dcc8d"
+  },
+  {
+   "nome": "Nuova cartella di lavoro.xlsx",
+   "bytes": 5207,
+   "sha256": "ab207b767a735d910f4ce49b6f3b3eec172eecaddcf27328ae7d9ae8265e7f10"
+  },
+  {
+   "nome": "Ordine_Tosano_2026_PRM_118_119_120.pdf",
+   "bytes": 81495,
+   "sha256": "59ec7c1667087f267527b20a3adc1bde93c6542c36a849b344c0efe8952f0e2c"
+  },
+  {
+   "nome": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "bytes": 42517,
+   "sha256": "77324ae5c0d05ce0cd96137b3799466b6e0452be9875f3d2c38c0a9978a09a79"
+  },
+  {
+   "nome": "Prospetto_straordinari_gen-apr_2026.xlsx",
+   "bytes": 7137,
+   "sha256": "e757b2754b0db9eea344a60dcb787dab0983fdb025e95ebbbdc37a5e4c2c1562"
+  },
+  {
+   "nome": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "bytes": 7526,
+   "sha256": "8ff8bc61317b7943137543eaba2e6f80a86201069b38d2702dc96e51cc269b98"
+  },
+  {
+   "nome": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "bytes": 136227,
+   "sha256": "b7a11b11ac2343cea9d962109ef81de97011bf24f0f344d09274888840fa5183"
+  },
+  {
+   "nome": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "bytes": 132391,
+   "sha256": "94d921ab55b098cad1d445b5f410f6ec9434b012594c4e10bb95aa4cbca4b8a1"
+  },
+  {
+   "nome": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "bytes": 5924,
+   "sha256": "93f7bd8bf100f949308314fd5dccb5f522eceaa5be78711ad7ad88dd3562b44c"
+  },
+  {
+   "nome": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "bytes": 22088,
+   "sha256": "5eb400dab84556821f97b098a22df64fe92638d9eac948cf7537db32eba1327d"
+  },
+  {
+   "nome": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "bytes": 102619,
+   "sha256": "a9056365d816b63374e66aa0c86740bf953ef5aa38aee3f9d4d18a9f030836d2"
+  },
+  {
+   "nome": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "bytes": 16775,
+   "sha256": "a461f27b32acda1c0752432a161d5c74ffe600dbb2318f47a2fa98823f03c2e3"
+  },
+  {
+   "nome": "SKM_C224e26050408520.jpg",
+   "bytes": 178074,
+   "sha256": "ff958a57e4cbc1b4853fec06456f4d6890535f938cef8d51ea76c6fb07559b98"
+  },
+  {
+   "nome": "SKM_C224e26051412340.pdf",
+   "bytes": 141343,
+   "sha256": "f61626942f9dadfd1938f599227396b9b34ed93ec3afd5572104bffeec80be2f"
+  },
+  {
+   "nome": "Scansione_20260518_0003.pdf",
+   "bytes": 137175,
+   "sha256": "8299f15fd09fd4ad5cff5da6ed3457567298dabde823ec4988295c24ffc6c0a0"
+  },
+  {
+   "nome": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "bytes": 103930,
+   "sha256": "972952eb2cc4fe949dc01e93afe6ea194193c8071af14cd9dce8410b1fd42ad4"
+  },
+  {
+   "nome": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "bytes": 135298,
+   "sha256": "353f0804c4defdf9eca9373f6ca4d534bda2d9b10f6d011b8f46b6023784e0bb"
+  },
+  {
+   "nome": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "bytes": 1686,
+   "sha256": "01100429683026ba5d2dd652a19ad386370b412aaa05ea09241e6f558455a84a"
+  },
+  {
+   "nome": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "bytes": 30029,
+   "sha256": "00ee634b3a080194c653cc92fed32425991a21ad3386f34a32b839558d33b968"
+  },
+  {
+   "nome": "anagrafica_articoli_export_gestionale.xlsx",
+   "bytes": 13050,
+   "sha256": "fcf299775cebafc32760787bb87a871b23049137e9e2d58d8da58a667efe9684"
+  },
+  {
+   "nome": "analisi_acque_reflue_autocontrollo_2026.xlsx",
+   "bytes": 10223,
+   "sha256": "5f9fc446d778a094af577c944c34d37245161284f36690162ed98f690078e2ba"
+  },
+  {
+   "nome": "analisi_marginalita_per_referenza_2026.xlsx",
+   "bytes": 11719,
+   "sha256": "8e1b22a95f6b333311ed4838222186fd9f78ea809c7b10fef9074af11f1a2082"
+  },
+  {
+   "nome": "analisi_scostamenti_costo_materie_prime.xlsx",
+   "bytes": 11901,
+   "sha256": "b98e08667fb47b06ca3632b636784ea78ab353a01b313f36c3449269380d3a3f"
+  },
+  {
+   "nome": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "bytes": 30039,
+   "sha256": "ef7577e4c511440506b2b6cd0fae09adbe3ae55a80dac8c1576fee117e0f80d0"
+  },
+  {
+   "nome": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "bytes": 5940,
+   "sha256": "09a1a75111e53fbaba106b03bf90487e653f5354de05be9c522507ff269719aa"
+  },
+  {
+   "nome": "appunti_tecnologo_quaderno_prove_pilota_OCR.txt",
+   "bytes": 10338,
+   "sha256": "3b33acdff4f3ca70b81dc5247b093c4f3c1af46c1d26107214290fd155d4ac53"
+  },
+  {
+   "nome": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "bytes": 137153,
+   "sha256": "2391868e10ff4bb9e5050bc1b6bd04ac9143995f67ca6f9711424d05c6678736"
+  },
+  {
+   "nome": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "bytes": 91270,
+   "sha256": "18933cf28d60cd167b81c63e618d06dae8a694ab6ac015d7875fc1a137e02c93"
+  },
+  {
+   "nome": "bolla_ingresso_azoto_alimentare_Nordgas_OCR.txt",
+   "bytes": 7377,
+   "sha256": "5cebadf1bb6d0bba216ae1f196e52bbfeede61a0de793db7fe4287e41e1815e9"
+  },
+  {
+   "nome": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "bytes": 88447,
+   "sha256": "ea955724824617ddedb8b7fdbe535d62c702adc908a29a583a1124ff7d780e64"
+  },
+  {
+   "nome": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "bytes": 48363,
+   "sha256": "006f4f061f179f01eddc7f84aaf5973f6e3d8a55d89a5071307e25ec2a198462"
+  },
+  {
+   "nome": "brief_agenzia_packaging_restyling_snack.docx",
+   "bytes": 41022,
+   "sha256": "561c2d389c961de384fd353cc0aa2308305741c6dca11368e248aa17fd6af1be"
+  },
+  {
+   "nome": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "bytes": 14274,
+   "sha256": "88be04e0e424750c1234e0152cab6a2666329848af8c84fc5cc235ed00bf838d"
+  },
+  {
+   "nome": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "bytes": 6578,
+   "sha256": "2ec73e8f09532f7b3957eb547b53c9ce7f5a733eb22f942b064ac6575881099d"
+  },
+  {
+   "nome": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "bytes": 15724,
+   "sha256": "cb58631073b4dfe024db8f7634e23d3497baff53c8d029f5c5f319daa1a475c2"
+  },
+  {
+   "nome": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "bytes": 16996,
+   "sha256": "e0302fd5dcb1ae496d6bf8765d4bdcb97ca19ce32b66689433e8c990517ad663"
+  },
+  {
+   "nome": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "bytes": 141366,
+   "sha256": "1b94e6bf2b7d3a4e80ce9c7d1a7921312e865ed6d2a58f3ffb9422fc940ec22a"
+  },
+  {
+   "nome": "checklist_metal_detector_manuale_operaio.txt",
+   "bytes": 18362,
+   "sha256": "b2f2b7df4cfa3e461fca11a86a4352e6e7e14e965b9906eb52558c5a341e1a1c"
+  },
+  {
+   "nome": "comunicazione_chiusura_estiva_2026.txt",
+   "bytes": 1305,
+   "sha256": "ff5a5f9d0ae1ffb1b0f1744584309016fe524ecbee767088bf434c809318a19b"
+  },
+  {
+   "nome": "consumi_energetici_forni_kwh_maggio26.csv",
+   "bytes": 11754,
+   "sha256": "169526e9de2ae8fda7850e42a3885f40270fc74a9335461e5a35d463b3eed122"
+  },
+  {
+   "nome": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "bytes": 12107,
+   "sha256": "73dfb24a6065b2fdd505d53ee2aca82f7243cc6b30531b713ab64ee254c5dc74"
+  },
+  {
+   "nome": "contestazione_sindacale_straordinari_Tosano.txt",
+   "bytes": 11753,
+   "sha256": "f56667d35ce58077a1b6eb2badc80dd97d62c0d248d60de5b21a860f5001b4eb"
+  },
+  {
+   "nome": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "bytes": 108134,
+   "sha256": "dfc0e8521b073ee96b6fb50fb367885f5ca4aa31ffccc53dba4c2fb83d05a415"
+  },
+  {
+   "nome": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "bytes": 43716,
+   "sha256": "8a5db843c732a931bf73c198c554ef5e98918a99ea5f4b3b357af64b605ce16f"
+  },
+  {
+   "nome": "corso_inglese_aziendale_proposta.txt",
+   "bytes": 1655,
+   "sha256": "8515486e8dd936d38c9d426e2a0bcaf414528dbefe144f79dcbae7e492e1f03a"
+  },
+  {
+   "nome": "cruscotto_KPI_qualita_2026.xlsx",
+   "bytes": 11576,
+   "sha256": "b4a143752b2dcba0a1eac31c7614c207240cfac5fd5d849f2f12103780983586"
+  },
+  {
+   "nome": "doc 2 (1).pdf",
+   "bytes": 138862,
+   "sha256": "6a4b99df72f93b298ea9497e1d16ce7da23c0d61d75505096ac17b7f3fff4c6d"
+  },
+  {
+   "nome": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "bytes": 24191,
+   "sha256": "c7f11317b7ac69d3b1f5605fc12db2fcb301fa1c2be5b803d857c14df7dd2b0b"
+  },
+  {
+   "nome": "elenco_chiavi_e_accessi.txt",
+   "bytes": 1643,
+   "sha256": "f5314fbd903362e3c2b85448ac9930e6bed9be0036b7ee53b83943302d376ab6"
+  },
+  {
+   "nome": "elenco_interni_telefonici.txt",
+   "bytes": 1503,
+   "sha256": "e9b37682c91357aa8036198a7ecf18108a9f05560999a8763604f62d2614c8f1"
+  },
+  {
+   "nome": "email_HR_dimissioni_operai_linea2.txt",
+   "bytes": 11194,
+   "sha256": "a72332ca75eaec5e29d864d6753d32bacbf88083dbe5680547b9c181f841ac3c"
+  },
+  {
+   "nome": "estratto_conto_unicredit_maggio26.csv",
+   "bytes": 11712,
+   "sha256": "3177758048dea62727579049460fea1fbd837c27e7b72b0e752b4eb41f205ece"
+  },
+  {
+   "nome": "estratto_registro_carico_scarico_MOCA.xlsx",
+   "bytes": 16258,
+   "sha256": "3adbaa8d8c52cda6dc7a582f7fcd14fcba560685e1a375eda31fe1d43452a0b8"
+  },
+  {
+   "nome": "fattura_antivirus_licenze_2026.txt",
+   "bytes": 1728,
+   "sha256": "c0723f46a48194617e18d515d7c6207a1d9ad995116081d0b0efe5bbfefffcaa"
+  },
+  {
+   "nome": "formazione_allergeni_operatori_2026.pptx",
+   "bytes": 63155,
+   "sha256": "43150f64ffdbde0623501651c1607a00d873a3c9c973061ab54266f17431d915"
+  },
+  {
+   "nome": "img20260428_09241055.txt",
+   "bytes": 6263,
+   "sha256": "2843e09067a37efb71d873f1c280c8cf634e4f789cde31857d6b3a89c0e317d2"
+  },
+  {
+   "nome": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "bytes": 27454,
+   "sha256": "93e72ac56e160a24abccfa04daae0fa24e4d8e87ea137c091de6456906df76fd"
+  },
+  {
+   "nome": "iscritti_cena_aziendale_dicembre.csv",
+   "bytes": 995,
+   "sha256": "d71802e399fa4d5de2d8e1aa577d7fd8543938a5320532e4f836692c4c176404"
+  },
+  {
+   "nome": "job_description_responsabile_produzione.docx",
+   "bytes": 40805,
+   "sha256": "c1e4ef3d2c04673aed17862a6b6ef6a57c4b86ae11a5f63dfc1532e208d2a129"
+  },
+  {
+   "nome": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "bytes": 40219,
+   "sha256": "8d066894efb5c120bc3dff7b0e868c85c360a88750ab81126bc4d75e54867531"
+  },
+  {
+   "nome": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "bytes": 16944,
+   "sha256": "e8a4976b2cabe4c8e8e68b25a6716be5efc589552877bb4b557eacc863d174b4"
+  },
+  {
+   "nome": "lista_contatti_buyer_GDO_nordest.csv",
+   "bytes": 21275,
+   "sha256": "5ae2719b3fa09dd9c7015bad0999eeeb8a7d117d8263725eb04506bbfb10dc59"
+  },
+  {
+   "nome": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "bytes": 15767,
+   "sha256": "a377d8b280fbb17bf4e2f6b726e494fd15da2da397ace83bb239bd8d38db26f1"
+  },
+  {
+   "nome": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "bytes": 14983,
+   "sha256": "b14bef89302984831148c144b79fe4a5c442774cd2acf2266950a85dabca025f"
+  },
+  {
+   "nome": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "bytes": 135629,
+   "sha256": "6d579b455c7c9e33ff003be7a8418801945c5c59fc6dd64f231373abf1fa50b7"
+  },
+  {
+   "nome": "log_lavaggio_CIP_linea1_maggio.log",
+   "bytes": 109727,
+   "sha256": "c5f6f7b37ce3855d4d6c8f14954dcf50638f8a576203c7dcf00ddfbd1dba2117"
+  },
+  {
+   "nome": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "bytes": 146119,
+   "sha256": "504cb4f2b0ea49e7f0c2542a7c9c4a1e1b8ba67df21151a90c26bf8630f93109"
+  },
+  {
+   "nome": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "bytes": 18160,
+   "sha256": "46059258639c634d76c04f02a873d5d0dd54dff46a281f8b26084d828457b254"
+  },
+  {
+   "nome": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "bytes": 13118,
+   "sha256": "66cdb60575f2db3504fa59e4b0ee46c4dfdd8a61ffb34fc1099280f5dc1d1c80"
+  },
+  {
+   "nome": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "bytes": 11128,
+   "sha256": "98c5b40504c13647ed3edec5a9d869b47fe277ab91d948babb5527d2f44ccc3c"
+  },
+  {
+   "nome": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "bytes": 29504,
+   "sha256": "29a4387964dcb658e595f785be79665ab5da264d567649418137743b507069bc"
+  },
+  {
+   "nome": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "bytes": 97831,
+   "sha256": "93625ee1d46e753205bef3f228afda48579657862692ba4ef63f93b7ab92502d"
+  },
+  {
+   "nome": "manutenzione_fotocopiatrice_contratto_copie.csv",
+   "bytes": 925,
+   "sha256": "f91f143a4edf4fc51d78faaa31ff6d9897fd69d4c76e11ae0e7f64bfd3238bc8"
+  },
+  {
+   "nome": "menu_mensa_aprile_maggio.txt",
+   "bytes": 1949,
+   "sha256": "8b1f4b1b78b65ddc9c8e740aecd7baaf4575daebb2f5a777fd754bb4689c0a62"
+  },
+  {
+   "nome": "modulo richiesta ferie VUOTO da stampare.txt",
+   "bytes": 1941,
+   "sha256": "5c8d296895fc65de15c6990468e3e6d00bee0b1ce90d6ddc700e4ac9614a77eb"
+  },
+  {
+   "nome": "noleggio_distributori_automatici_contratto.txt",
+   "bytes": 2673,
+   "sha256": "7b6fa8e21dd12cba9c89aab51be0604937f7db3591fe493e0a62d589f3314bae"
+  },
+  {
+   "nome": "non_conformita_interne_registro_2026.csv",
+   "bytes": 35136,
+   "sha256": "a54fe45dd22920618daba965d0b03d44f3ffa3ee579de7f9936153293f3be3df"
+  },
+  {
+   "nome": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "bytes": 41418,
+   "sha256": "bb734cb140482a164189dadfb58fb90669568717a75b718af9163f19ef455361"
+  },
+  {
+   "nome": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "bytes": 8794,
+   "sha256": "e7c1a335bd57cb190c908cb03d71dce32badda49615265f96d9b854252f9318b"
+  },
+  {
+   "nome": "nota_spese_trasferte_Zampieri_aprile.csv",
+   "bytes": 1170,
+   "sha256": "828839149a995ca838bdd1c00a73619ecff230db17c1d1abc1d9053a3941b7f7"
+  },
+  {
+   "nome": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "bytes": 13186,
+   "sha256": "40fa40935b6f85618da4c8df6034ced7710fc2ad4c65d0f2c57e6ef7407c86ca"
+  },
+  {
+   "nome": "ordine cancelleria marzo.txt",
+   "bytes": 1086,
+   "sha256": "cfd7d73fac963870b2d276bda004296578d2a56fa7db9a03ed8445cdb6480c13"
+  },
+  {
+   "nome": "ordine_DPI_scarpe_antinfortunistiche.csv",
+   "bytes": 1148,
+   "sha256": "da7d69cc2ce2030c7200d0be46a786e3d3e5c53ff71040939141c6c84101d934"
+  },
+  {
+   "nome": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "bytes": 11590,
+   "sha256": "bcd44b575b57e5f19066650754fcba0cdf4a145d7deac9f8742e3659c82e04b5"
+  },
+  {
+   "nome": "organigramma_aziendale_aggiornato_marzo26.pptx",
+   "bytes": 51007,
+   "sha256": "fbd4e6431607cddb7fff9c31749b7e0ab7eaab0944c76fe4aacc5be0d71d0d9e"
+  },
+  {
+   "nome": "panel_test_assaggio_interno_cornetto_premium.csv",
+   "bytes": 8550,
+   "sha256": "88a194ce44c3df89dcd46fd1de36b45919c29b10cc2a547c41d78fa854464eaf"
+  },
+  {
+   "nome": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "bytes": 18745,
+   "sha256": "96de7252ba7eac530fd6fdd890bf2e8f3032b7a3d49e845e10dab80ddabf6c00"
+  },
+  {
+   "nome": "piano_produzione_settimanale_sett19_21.xlsx",
+   "bytes": 18735,
+   "sha256": "2e1f04f04b7e1e31214a412a4383d576cf6e36d1ce9454c0c92227699a8f45d4"
+  },
+  {
+   "nome": "piano_turni_apprendisti_tecnologi_food.txt",
+   "bytes": 7403,
+   "sha256": "7129fc4bfa4a38aa4c6948dd880c71a3d05e09837495feb0eecdab113c77a96a"
+  },
+  {
+   "nome": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "bytes": 38854,
+   "sha256": "76d35c997ec288124cae9b228abc8d7fe17d8c5c00f9c76d44d1bad14d51b6d2"
+  },
+  {
+   "nome": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "bytes": 10201,
+   "sha256": "8cd71ef61c3e93ee6718a69d3a6948bfab7013a5ce270101be23ff6d318ae298"
+  },
+  {
+   "nome": "prenotazioni_sala_riunioni_maggio.csv",
+   "bytes": 1185,
+   "sha256": "1615f20793417c5439c6037661cbfdbc6a0e85ef9c115c1516f4732ba5f9d833"
+  },
+  {
+   "nome": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "bytes": 52275,
+   "sha256": "da359521fb6c08154c335f839801beb979288cd4fb1fafa0d428edb07c6e9cf2"
+  },
+  {
+   "nome": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "bytes": 106242,
+   "sha256": "17a1856720b9d2bbfb58d42e258dd37cb88ff43cec86bcfee5ac467c2d03e525"
+  },
+  {
+   "nome": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "bytes": 12998,
+   "sha256": "ff1ba7e081bfd28d12f3f575489af476ec1848ed353d979d877408851676e63a"
+  },
+  {
+   "nome": "preventivo_tinteggiatura_uffici_NON_ACCETTATO.txt",
+   "bytes": 2167,
+   "sha256": "b68c31e30db290dad14ca58cd681f53973001db654d19441506bc648c1f33ffd"
+  },
+  {
+   "nome": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "bytes": 12033,
+   "sha256": "ce804243d93a1026ec007f2221190588f3a561e118de656784ef1a33ea6cc450"
+  },
+  {
+   "nome": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "bytes": 11886,
+   "sha256": "435221c20645a2fedfbabceb7685437fcda35e68643af31a79466deb6d50cf71"
+  },
+  {
+   "nome": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "bytes": 16288,
+   "sha256": "5f433570a5c0b3e20074ba67d4fca054d9249e144ac9e2075b2ced688680b0cd"
+  },
+  {
+   "nome": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "bytes": 9629,
+   "sha256": "a5bd34a1786e16a7760833c46d7b329eb778607ecea5d08b91016bcc3d2bdc17"
+  },
+  {
+   "nome": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "bytes": 95427,
+   "sha256": "5ea6ff83a08099db7c1e4e594bbfc5547cb9d4fb2779aac5e25276abc183be6e"
+  },
+  {
+   "nome": "registro_estintori_scadenze.csv",
+   "bytes": 1677,
+   "sha256": "885ef5d022b7b22d6106e80d34b28e7e0e40b40fbdf50db0167033b64edc367f"
+  },
+  {
+   "nome": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "bytes": 12014,
+   "sha256": "6841bdb78137e1ae18607a9692e69be86a84fa1caef6dd634bacb6dc577edce4"
+  },
+  {
+   "nome": "registro_tamponi_superfici_listeria_salmonella.csv",
+   "bytes": 22942,
+   "sha256": "8f1b4418a5bbc95dd1c56f7f363a8eae2491671547764e1fc175bdd03f9fcb89"
+  },
+  {
+   "nome": "reperibilita_gennaio_febbraio_2026.csv",
+   "bytes": 1005,
+   "sha256": "b0b0b9fec5c0dd5bd4b2cfce5d626602532d428e9cbf6a7bd30dc8d36ec4ea44"
+  },
+  {
+   "nome": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "bytes": 14360,
+   "sha256": "65738d202a67ebc02b8f4edde6db711ddde8362c7b2387c8c9cfb6c98b5cc8c0"
+  },
+  {
+   "nome": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "bytes": 11403,
+   "sha256": "8dd1625f88a54c10acef6619e35a4ab9b8c70624e1a601972dd29d0dd5728555"
+  },
+  {
+   "nome": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "bytes": 8017,
+   "sha256": "47052f54f02da4d03e59b3f213642f51e5954412206c96cca5d98fcd1f2c4a9f"
+  },
+  {
+   "nome": "ricetta_base_esperimento_snack_salato_v12.txt",
+   "bytes": 14763,
+   "sha256": "a202cb226397248fe4cfee1307f11de10ef3f0432d116fad8c7251af2eb9ffad"
+  },
+  {
+   "nome": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "bytes": 37364,
+   "sha256": "a9fd3860b306b0e78e0a6d0d1a5ca6a69322baab677fb383f7f48ac96e35f534"
+  },
+  {
+   "nome": "scadenzario_effetti_RIBA_giugno26.csv",
+   "bytes": 12890,
+   "sha256": "334fda01312d31494bb05a71082363e1df0b21e6465fd0a1f5c4ff83fb599b41"
+  },
+  {
+   "nome": "scheda_allergeni_matrice_cross_contamination.docx",
+   "bytes": 41071,
+   "sha256": "2916177446300eb2d9297da37af30fddddd1631c9bc5eb784f4c459b920bdb22"
+  },
+  {
+   "nome": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "bytes": 14835,
+   "sha256": "a8adfc4c39692da4a1a3d7de9d6e52ab0e988a700d81adc512feeefd56ea6887"
+  },
+  {
+   "nome": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "bytes": 19654,
+   "sha256": "9b65b938d4f5931a45d904ef6dd5bc3f5fe12097e2ac835715a327f8d9e1d6f4"
+  },
+  {
+   "nome": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "bytes": 8970,
+   "sha256": "1438bb120bc6a46588a5350f4bf73dda1cf0a85b89c8f1226b88761aa046d7f9"
+  },
+  {
+   "nome": "segnalazione_guasto_cancello_carraio.txt",
+   "bytes": 1119,
+   "sha256": "0fb9212aff8f41844673b928917eeb7b26d9b6e92336790b01c8d6b7f30896d6"
+  },
+  {
+   "nome": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "bytes": 12463,
+   "sha256": "f12cd1382ca8f852d3e6046248df7620a62694d4705ff2a37d62e4f9a504666e"
+  },
+  {
+   "nome": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "bytes": 11417,
+   "sha256": "9fbe75639dc677bb3f2e83a68d57388244d83374de5b7f3ffb8e05091e4ce42f"
+  },
+  {
+   "nome": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "bytes": 28393,
+   "sha256": "573fd4300d145f9019de177b8d7db6383c8e6711b821eae3fb3356cf21d53890"
+  },
+  {
+   "nome": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "bytes": 10680,
+   "sha256": "9dd03d7439694dc57e46d3e4dd0280ddb98773380c928f2e289df3c6cd81739d"
+  },
+  {
+   "nome": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "bytes": 25072,
+   "sha256": "52e4c6b8a36b43e3c8b90a084c62e8d0737ec512bc93ef128871ea9900e3d7a1"
+  },
+  {
+   "nome": "vendor_rating_fornitori_2026.xlsx",
+   "bytes": 11282,
+   "sha256": "6f7b78c7fdb9fbd316906e64ef84e485184ef537b9655a7ba68dfdb0f812fb0d"
+  },
+  {
+   "nome": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "bytes": 40152,
+   "sha256": "e46d53399a1ef75b7c358775cedc59ca157e3ae551755f1df4765ad49638c462"
+  },
+  {
+   "nome": "verbale_assemblea_condominio_capannone.txt",
+   "bytes": 2582,
+   "sha256": "d354629684be1144a444397120402db6375b19e569362c4452d8bde66081b9f0"
+  },
+  {
+   "nome": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "bytes": 13312,
+   "sha256": "059ec7133d3def1383c2cf646c6788f38289e88b4c7de4a649504a8d3c871b71"
+  },
+  {
+   "nome": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "bytes": 9850,
+   "sha256": "3947d7556ac9a62b1571742e0b74e151c04ccb74907d276042e026e1b9e236c3"
+  },
+  {
+   "nome": "verbale_riesame_direzione_SGQ_2026.txt",
+   "bytes": 15383,
+   "sha256": "43387228018a6f383191bb8518a28893b4b2387ca8fab85f8fa47bc26ab3c394"
+  },
+  {
+   "nome": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "bytes": 11487,
+   "sha256": "37e46388f7c74bb67c5216a17b79900f864e34430ba670aef26cab9d6ca2b8b1"
+  },
+  {
+   "nome": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "bytes": 103359,
+   "sha256": "2e147911a92899fba985fa47874b4b638d2ed9896f5903b51e6477300a562a70"
+  },
+  {
+   "nome": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "bytes": 92405,
+   "sha256": "075af54b62f907807fae73002bcc976f43c32161d9c29ec5cae3520683034658"
+  },
+  {
+   "nome": "volantino_convenzione_palestra.txt",
+   "bytes": 1044,
+   "sha256": "30de265559c50625842d931dbfd35466be5cc02c00bffa46476f14f2d7a6e899"
+  },
+  {
+   "nome": "~$ttera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "bytes": 162,
+   "sha256": "0116edbaba185ec3d3592a98001f8e0292355211c6600db5d88123515acd8242"
+  }
+ ]
+}
