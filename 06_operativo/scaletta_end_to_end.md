@@ -69,6 +69,17 @@
 
 ## Sessione 1 — Il manuale di canonizzazione · Terminale: radice del repository
 
+- [x] **FATTA il 16/08/2026 — manuale approvato al gate.** Nati
+      `01_metodo/metodo_03_canonizzazione.md` (10 sezioni: spareggio con albero a 12
+      passi e 27 esempi limite da file veri, metabolismo delle note, frontmatter con
+      vocabolari chiusi, 6 template con esempi compilati, naming e link, «un fatto un
+      padrone» con i valori derivati, entity resolution, suite QA, derivati, processo a
+      lotti, 40 divieti) e l'allegato `01_metodo/alias_entita.md`. Revisione indipendente
+      eseguita prima del gate: corretti due numeri falsi negli esempi, la definizione
+      doppia di orfano, la QA di provenance insoddisfacibile e un bug nello snippet di
+      verifica della copia. Divergenza di categoria B trovata e registrata nel canone
+      (sezione datata 16/08). **Nessuna nota scritta: il vault non è stato toccato.**
+
 Nasce `01_metodo/metodo_03_canonizzazione.md`, il terzo documento di metodo: regole di
 spareggio fra le 11 cartelle del vault; frontmatter come verità macchina (type, area,
 fonti, stato risolto/aperto, aliases, date); template dei 6 tipi di nota (atomica ≈
@@ -85,8 +96,10 @@ aperta»; le fonti non si correggono MAI); entity resolution con tabella alias;
 la suite QA delle note (provenance: ogni fatto ha riscontro nella fonte citata —
 si riusa la tecnica di verifica delle 282 risposte; link integrity: zero link
 rotti e zero orfani, cioè ogni nota raggiungibile dall'`_index` della sua cartella,
-direttamente o via hub; validazione frontmatter; copertura); artefatti derivati (llms.txt rigenerato dal frontmatter,
-showcase, skill journal — il minimo di wikilink è un avviso, non un errore bloccante);
+direttamente o via hub; validazione frontmatter; copertura); artefatti derivati (llms.txt rigenerato dal frontmatter
+— unico derivato che vive DENTRO il vault; showcase in `06_operativo/showcase/`, FUORI
+dal vault, perché le 11 cartelle restano 11 e il perimetro della misura non si tocca;
+skill journal — il minimo di wikilink è un avviso, non un errore bloccante);
 decisione logistica: i grezzi si COPIANO in `aurora-cervello\sources`, l'originale
 congelato resta fuori.
 
@@ -131,8 +144,8 @@ Input: mappatura a matrice dei 159 (quali cartelle alimenta ogni file, con quali
 fatti) usata come piano di lavoro. Lotti per area tematica; ogni lotto: note → suite
 QA → revisore indipendente → correzioni propagate → QA di nuovo. Pass finale: entity
 resolution su tutto il vault, hub-and-spoke completo, `_index` di ogni cartella
-aggiornato, zero note orfane, zero fatti del canone senza padrone, llms.txt e
-showcase rigenerati. Fine di ogni sessione: zip
+aggiornato, zero note orfane, zero fatti del canone senza padrone, llms.txt (nel vault) e
+showcase (in `06_operativo/showcase/`) rigenerati. Fine di ogni sessione: zip
 di backup del vault + commit + stato.
 
 ---

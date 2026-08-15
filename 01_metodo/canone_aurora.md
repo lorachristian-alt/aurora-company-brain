@@ -252,3 +252,16 @@ apposta**, e chi risponde citando una sola fonte sbaglia.
 | Revisore legale | La visura dice Peruffo Maria Grazia, n. 148223, nomina 28/04/2025; il bilancio dice Maurizio Peruzzi, n. 118442, nomina 14/05/2024 | Nomi quasi omografi ma persone diverse: prevale l'iscrizione al Registro Imprese |
 | Organico e turni della Linea 2 | Il piano di produzione presuppone 21 persone su tre turni; libro unico e timbrature ne registrano 10 su due turni; il verbale RSU dice «10 a fronte delle 12 previste» | Il libro unico. Il terzo turno di Linea 2 esiste solo nel piano |
 | Operatori del pastorizzatore | Il log cita RANZATO_F e CESTARO_L, che non hanno badge nel file timbrature ne' matricola nel libro unico (ma compaiono nell'ordine DPI) | L'export delle timbrature e' parziale senza dichiararlo |
+
+
+## Aggiunte del 16/08/2026 — contraddizioni emerse in Sessione 1
+
+Registrate applicando la procedura di **categoria B** di `metodo_03_canonizzazione.md`
+§9.5: divergenza reale del corpus, non elencata nei tre gruppi precedenti, trovata
+mentre si scriveva il manuale di canonizzazione. **I grezzi non sono stati toccati.**
+Come le altre: sono nell'archivio, vanno trovate e dichiarate, non corrette.
+
+| Cosa diverge | Dove | Valore da preferire |
+|---|---|---|
+| **Data della riunione di direzione** | `Convocazione_riunione_direzione_12_05.eml` (inviata ven 08/05/2026 16:20) convoca per **martedi 12/05/2026 ore 9:30**, con un ordine del giorno di sei punti in cui il reclamo non compare; il file `trascrizione_riunione_direzione_12_05_2026.txt` porta 12_05 nel nome ma dichiara in prima riga «riunione direzione **13 05 2026**», cita il file audio `REC_20260513_1732.m4a` (13/05, ore 17:32) e si apre sul reclamo arrivato «ieri sera alle 18 e 23» | **Il contenuto della trascrizione: 13/05.** Tre segnali interni concordi (prima riga, nome del file audio, «ieri sera»). La convocazione documenta la riunione **convocata**, non quella **tenuta**, e il nome del file segue la convocazione. ⚠️ L'archivio **non dice** se la riunione del 12/05 sia stata rinviata o se se ne siano tenute due: quella parte resta una questione aperta |
+| **Data di apertura del reclamo REC-2026-011** | `MOD-QA-31_reclamo_REC-2026-011.pdf` dichiara «Data apertura **12/05/2026**»; la mail di Marchetti del **13/05 08:41** annuncia «Ho aperto il reclamo n. REC-2026-011» e la trascrizione del 13/05 dice «alle 9 e 22 ho aperto la pratica» | **Da riconciliare.** La scheda data l'apertura al giorno del reclamo, la responsabile qualita' la colloca il mattino dopo. Coerente con la prassi di compilare i moduli con la data dell'evento anziche' della registrazione, ma l'archivio non lo dichiara |

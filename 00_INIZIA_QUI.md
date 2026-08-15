@@ -87,7 +87,8 @@ originale di lavoro** (`Desktop\sources`) vivono FUORI dal repository. `02_corpu
 
 **Fatto:** corpus v1 congelato con manifest SHA-256; baseline A (agentico: 70,6%
 corrette, 0 allucinazioni) e B (RAG semplice: 44,7%) misurate il 14/08 sul grezzo;
-repository riorganizzato in questa struttura.
+repository riorganizzato in questa struttura; git attivo con remote PRIVATO
+`github.com/lorachristian-alt/aurora-company-brain` (pubblico solo in Sessione 7).
 
 **Deciso** (dettagli e motivi nel decision log): l'espansione dell'archivio slitta a
 corpus v2; prima si chiude il ciclo end-to-end sui 159; Chroma resta il metro della
