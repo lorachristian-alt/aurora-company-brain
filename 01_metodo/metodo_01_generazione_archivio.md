@@ -555,6 +555,10 @@ a memoria: conteggi per formato, peso, numero di domande, quante mail hanno alle
 - Generare il dataset su un archivio che poi cambia.
 - Scrivere i tre file del dataset separatamente.
 - Dichiarare nel README numeri non ricontati.
+- Versionare un corpus congelato senza `.gitattributes` con `* -text`: la conversione
+  dei fine-riga (core.autocrlf) riscrive i file di testo al checkout, li scollega dal
+  manifest SHA-256 e scongela il corpus in silenzio al primo clone. Scoperto e
+  corretto il 15/08/2026, prima del commit iniziale.
 
 ---
 

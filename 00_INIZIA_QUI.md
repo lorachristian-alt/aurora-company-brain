@@ -30,6 +30,16 @@ La frase da ricordare: **l'archivio non è il prodotto — è lo strumento di mi
 - **Il terminale (Claude Code) è le mani**: ogni sessione si apre in una cartella
   precisa e incolla un prompt preciso. La cartella in cui apri il terminale È il
   perimetro: da lì il modello vede solo ciò che deve vedere.
+- **Antigravity è la plancia**: l'IDE si apre sulla cartella giusta per la sessione
+  (il repository per metodo e misure; il vault per la canonizzazione). Claude Code
+  gira nel terminale integrato, e il perimetro lo decide la cartella del TERMINALE
+  (`cd` prima di `claude`), non quella dell'IDE. L'agente nativo dell'IDE resta
+  spettatore: può leggere, non scrive mai su repo o vault — le mani sono solo le
+  sessioni Claude Code col loro prompt.
+- Igiene dell'editor: formattazione automatica al salvataggio DISATTIVATA nel
+  workspace (`editor.formatOnSave`, `files.trimTrailingWhitespace`,
+  `files.insertFinalNewline` a false) e mai salvare dall'editor i file di
+  `02_corpus/` o dei verbali di misura: un trim di spazi rompe gli hash del manifest.
 - Ogni sessione chiude con tre gesti: stato aggiornato, voce nel
   `06_operativo/decision_log.md`, commit git.
 

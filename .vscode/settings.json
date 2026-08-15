@@ -1,0 +1,20 @@
+{
+  // Igiene dell'editor — protezione del corpus congelato e dei verbali di misura
+  // (vedi 00_INIZIA_QUI.md, sezione «Come si lavora»). Non rimuovere.
+  "editor.formatOnSave": false,
+  "files.trimTrailingWhitespace": false,
+  "files.insertFinalNewline": false,
+  "files.trimFinalNewlines": false,
+  "files.autoSave": "off",
+
+  // Fuori da watcher e ricerca dell'IDE: pesi/indici locali e risposte del test.
+  // (03_valutazione si apre solo nelle sessioni autorizzate, non per sbaglio
+  // da una ricerca globale o da un trova-e-sostituisci.)
+  "files.watcherExclude": {
+    "**/04_misurazioni/_locale_non_su_github/**": true
+  },
+  "search.exclude": {
+    "04_misurazioni/_locale_non_su_github/**": true,
+    "03_valutazione/**": true
+  }
+}

@@ -39,3 +39,12 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   orfani e non contano nel minimo di wikilink · elimina strutturalmente le note
   orfane e dà all'AI un percorso completo verso qualsiasi documento; regola
   vincolante per metodo_03 (Sessione 1).
+- **2026-08-15** · `.gitattributes` in radice con `* -text`: git non converte i line
+  ending su nessun file · `core.autocrlf=true` avrebbe riscritto LF→CRLF al checkout,
+  cambiando i byte dei grezzi in `02_corpus/` e mandando fuori sincrono gli SHA-256 del
+  manifest. Il corpus è congelato byte per byte, non riga per riga.
+- **2026-08-15** · Postazione di lavoro: Antigravity (IDE) come plancia, con Claude
+  Code nel terminale integrato; la chat Cowork resta il cervello · l'agente nativo
+  dell'IDE non scrive mai su repo o vault (spettatore); il perimetro resta la
+  cartella del terminale; format-on-save disattivato per proteggere corpus e
+  verbali di misura dagli auto-ritocchi dell'editor.

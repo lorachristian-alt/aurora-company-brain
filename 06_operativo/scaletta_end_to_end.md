@@ -37,8 +37,11 @@
       SHA-256 dei 160 file; conferma indipendente dei conteggi del README.
 - [x] Decision log avviato (`06_operativo/decision_log.md`).
 - [x] `.gitignore` pronto in radice.
-- [ ] **Estensione mtime + verifica hash in locale** → `manifest_corpus_v1.1.json`.
-      Eseguire in `06_operativo\`:
+- [x] **Estensione mtime + verifica hash in locale** (15/08) → `manifest_corpus_v1.1.json`:
+      160/160 file riverificati contro gli SHA-256 del v1, zero divergenze, mtime
+      aggiunti. Script: `06_operativo/estendi_manifest_mtime.py` (riporta tutti gli
+      scarti e non scrive nulla se anche uno solo non torna). Eseguire in
+      `06_operativo\`:
 
       ```python
       import hashlib, json, os
@@ -53,8 +56,11 @@
                 ensure_ascii=False, indent=1)
       print("OK: 160 file verificati, mtime aggiunti")
       ```
-- [ ] **git init** nella radice del repository + primo commit
-      («riorganizzazione + congelamento corpus v1») + tag `corpus-v1-baseline`.
+- [x] **git init** nella radice del repository + primo commit
+      («riorganizzazione + congelamento corpus v1») + tag `corpus-v1-baseline`
+      (15/08, `12c3023`, 193 file, branch `main`). Aggiunto `.gitattributes` con
+      `* -text`: senza, `core.autocrlf=true` avrebbe riscritto i line ending dei
+      grezzi al checkout, invalidando gli hash del manifest.
 - [x] **Perimetro della misura «dopo»** — FISSATO il 15/08: addendum dedicato in
       `01_metodo/metodo_02_misurazione.md` (si misura l'intero vault esclusa
       `.obsidian\`, grezzi copiati compresi; indice B nuovo; stesse 282 domande).

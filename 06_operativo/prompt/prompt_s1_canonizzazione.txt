@@ -1,0 +1,174 @@
+=====================================================================
+PROMPT — SESSIONE 1 · IL MANUALE DI CANONIZZAZIONE (metodo_03)
+Progetto: Aurora Food Group S.r.l. (SIMULAZIONE) — corpus v1 congelato
+Terminale: Claude Code aperto nella RADICE del repository
+(C:\Users\buulo\Desktop\.eval_do_not_index\Aurora_Food_Group_SRL).
+Leggi TUTTO il prompt prima di agire.
+=====================================================================
+
+RUOLO E OBIETTIVO DI SESSIONE
+Sei l'architetto del sistema di note del second brain di Aurora Food
+Group. In questa sessione scrivi UN SOLO deliverable:
+  01_metodo\metodo_03_canonizzazione.md
+il manuale che governerà la trasformazione dei 159 documenti grezzi in
+note atomiche collegate dentro il vault Obsidian. OGGI NON SI
+CANONIZZA: nessuna nota, nessun file nel vault, nessuna modifica al
+corpus. Solo il manuale, i suoi eventuali allegati in 01_metodo\, e la
+chiusura di sessione (stato, log, commit). Esigo massima precisione:
+ogni regola del manuale deve essere applicabile meccanicamente da una
+sessione futura che non ha il contesto di oggi.
+
+---------------------------------------------------------------------
+1. STUDIO PRELIMINARE (obbligatorio, in quest'ordine)
+---------------------------------------------------------------------
+a) 00_INIZIA_QUI.md — la mappa del progetto e le 6 regole d'oro.
+b) 06_operativo\scaletta_end_to_end.md — la sezione «Sessione 1» è la
+   TUA SPECIFICA: ogni punto elencato lì deve avere una sezione nel
+   manuale. Se un punto ti sembra sbagliato, si discute al gate, non
+   si omette in silenzio.
+c) 01_metodo\metodo_01_generazione_archivio.md — com'è fatto
+   l'archivio e la gerarchia dei documenti (sorgente → derivati).
+d) 01_metodo\metodo_02_misurazione.md — SOLO il box iniziale e i due
+   addendum (Configurazione C e Perimetro della misura «dopo»): il
+   vault che il tuo manuale produrrà è l'oggetto di quella misura.
+e) 01_metodo\metodo_04_rag_produzione.md — la tabella della config C:
+   nel vault 1 nota = 1 chunk e il frontmatter diventa payload
+   filtrabile. Il tuo schema di frontmatter deve servire anche a quello.
+f) 01_metodo\canone_aurora.md — INTERO: anagrafica, persone, filo
+   rosso, i tre gruppi di contraddizioni volute, «cosa non esiste».
+g) 06_operativo\tassonomia_vault.png (guardala) e la struttura reale
+   del vault in C:\Users\buulo\Desktop\aurora-cervello (11 cartelle).
+h) CAMPIONA il corpus: apri 10-15 file rappresentativi di 02_corpus\
+   (almeno: un log di datalogger, un csv sporco, una .eml, il manuale
+   HACCP, la trascrizione della riunione del 12/05, il mass balance
+   L26130, un listino, la visura) per calibrare template ed esempi su
+   casi veri. In sola lettura: non modificarli.
+
+PERIMETRO — VINCOLANTE. Non aprire MAI nulla dentro 03_valutazione\
+(domande, risposte, eval set): vale per ogni sessione, inclusa questa.
+Non serve e non va aperta 04_misurazioni\. In scrittura puoi toccare
+SOLO: 01_metodo\metodo_03_canonizzazione.md (+ allegati in 01_metodo\),
+01_metodo\LEGGIMI.md, 06_operativo\ (scaletta, decision_log, stato).
+Niente nel vault, niente in 02_corpus\, niente in 05_rag_produzione\.
+
+---------------------------------------------------------------------
+2. COSA DEVE CONTENERE metodo_03_canonizzazione.md
+---------------------------------------------------------------------
+Apri il documento con il box standard dei documenti di metodo
+(Cos'è · Quando si usa · Cosa non toccare) e la riga di gerarchia:
+«Derivato dalla specifica della scaletta e dai metodi 01/02/04: una
+regola si cambia nel sorgente e si propaga, mai il contrario».
+
+1. REGOLE DI SPAREGGIO fra le 11 cartelle del vault: un albero
+   decisionale applicabile meccanicamente, più ALMENO 15 esempi limite
+   presi da file veri del corpus (docs vs areas vs concepts; outputs
+   vs projects; entities vs self; data vs areas; workspace vs tutto).
+   Principio: il frontmatter è la verità macchina, la cartella è la
+   vetrina — lo spareggio decide la cartella, i metadati garantiscono
+   che una nota «mal riposta» resti comunque trovabile.
+2. SCHEMA DEL FRONTMATTER (unico, validabile): title; summary (UNA
+   frase); type (atomica | hub | entita | conflitto | concetto |
+   index | sessione | daily); area; tags (il primo è la cartella; i
+   canali commerciali sono TAG, mai cartelle); fonti (nomi ESATTI dei
+   file del corpus); stato (risolto | aperto); aliases; data_fatto;
+   data_nota; related su UNA riga con wikilink separati da virgola.
+   Date sempre YYYY-MM-DD. Definisci quali campi sono obbligatori per
+   ciascun type.
+3. I 6 TEMPLATE, pronti all'uso e CIASCUNO con un esempio compilato su
+   un caso vero del canone:
+   - nota atomica (≤300 parole: è anche il chunk del RAG),
+   - nota hub (la mappa di un tema: il lotto L26130, Tosano, i CCP),
+   - scheda entità (persona, cliente, fornitore, macchina, prodotto),
+   - nota conflitto / «questione aperta»,
+   - nota concetto (una definizione per nota: FEFO, CCP, listing fee),
+   - nota _index di cartella: OGNI cartella del vault ha il suo
+     _index (type: index, summary propria) che elenca hub e note
+     della cartella. Nessuna nota deve essere irraggiungibile lungo
+     il percorso llms.txt → _index → hub → nota. Gli _index sono
+     esentati dalla regola degli orfani e NON contano nel minimo di
+     wikilink delle altre note.
+4. NAMING E LINK: convenzione unica per i nomi file (minuscole, con
+   prefisso di dominio: self-, area-, progetto-, entita-, concetto-,
+   lotto-, kpi-...), nomi unici in tutto il vault; wikilink solo verso
+   note esistenti; direzione spoke→hub (i backlink fanno il resto);
+   link ai file grezzi copiati nel vault («Detect all file extensions»
+   ON in Obsidian). Minimo wikilink per nota: AVVISO in QA, non
+   errore bloccante.
+5. «UN FATTO, UN PADRONE» OPERATIVO. La canonizzazione è un
+   consolidamento per FATTO, non uno spezzatino per file: dieci
+   documenti che citano lo stesso lotto alimentano UNA nota padrona
+   che li cita tutti. Contraddizione con vincitore (dal canone) → la
+   nota padrona dichiara il valore canonico, linka TUTTE le fonti
+   divergenti come evidenza, stato: risolto. Conflitto aperto → nota
+   «questione aperta» con le versioni a confronto, stato: aperto.
+   Le fonti NON si correggono MAI. E tre guardrail non negoziabili:
+   - il canone GUIDA la mano ma NON compare: mai citato come fonte
+     (le fonti sono SOLO file del corpus), mai copiato nel vault;
+   - ogni fatto scritto in una nota deve avere riscontro testuale nei
+     file del corpus citati in `fonti` (lo verificherà la provenance);
+   - una nota che «corregge» una contraddizione registrata è un
+     ERRORE, non una miglioria.
+6. ENTITY RESOLUTION: tabella alias come sezione o allegato del
+   manuale — varianti OCR che decodificano a codici validi, i
+   quasi-omografi Peruffo/Peruzzi che sono DUE persone, E-214/AL-217
+   da trattare come questione aperta. Gli alias vivono nel frontmatter
+   della nota padrona dell'entità.
+7. SUITE QA DELLE NOTE — la SPECIFICA degli script (l'implementazione
+   avverrà in Sessione 2 sul pilota): provenance (ogni fatto →
+   riscontro nella fonte citata; si riusa la tecnica con cui sono
+   state verificate le 282 risposte); link integrity (zero wikilink
+   rotti; zero orfani, dove orfano = nota NON raggiungibile
+   dall'_index della sua cartella, direttamente o via hub; grafo a
+   componente unica); validazione frontmatter (schema per type);
+   copertura (ogni file grezzo citato da ≥1 nota; ogni fatto chiave
+   del canone ha una nota padrona). La QA riporta, non corregge:
+   le correzioni passano dal processo, con propagazione.
+8. ARTEFATTI DERIVATI (specifica breve, implementazione in S2/S4):
+   llms.txt alla radice del vault, rigenerato SOLO dal frontmatter con
+   uno script (mai a mano); _showcase\showcase.md come fotografia
+   derivata del grafo; skill «journal» in workspace\ (buongiorno /
+   chiudi sessione / fine giornata, note di diario sempre agganciate
+   alle entità con wikilink). Regola comune: un derivato si rigenera,
+   non si modifica.
+9. LOGISTICA E PROCESSO A LOTTI (per le Sessioni 2 e 4-5): i 159
+   grezzi si COPIANO in aurora-cervello\sources con un metodo che
+   preserva gli mtime, e la copia si verifica contro
+   06_operativo\manifest_corpus_v1.1.json; Desktop\sources resta
+   l'originale intoccabile. Ordine di costruzione hub-first: prima
+   _index e hub, poi le note di dettaglio. Ogni lotto: note → suite QA
+   → revisore indipendente con canone alla mano (classificazione
+   A errore vero / B contraddizione non registrata / C falso allarme)
+   → correzioni propagate → QA di nuovo → stato su disco → commit.
+   Il vault non contiene mai canone, valutazione o documenti di metodo.
+10. COSA NON FARE — lista secca finale (raccogli i divieti di tutte le
+    sezioni, più: mai note con la data di oggi come data_fatto, mai
+    markdown dentro sources\, mai fatti senza fonte).
+
+---------------------------------------------------------------------
+3. METODO DI LAVORO DELLA SESSIONE
+---------------------------------------------------------------------
+- USA AskUserQuestion a ogni bivio di design non già deciso qui o
+  nella scaletta (esempi: convenzione esatta dei nomi file; lingua dei
+  tag; formato del campo fonti; soglia parole delle atomiche se vuoi
+  proporre diversa da 300). Due-quattro opzioni per volta, compromessi
+  dichiarati, la consigliata per prima. Poche domande per giro.
+- Scrivi il manuale per un doppio lettore: una sessione AI che deve
+  applicarlo meccanicamente e un umano non tecnico che deve capirlo.
+  Frasi corte, esempi veri, zero gergo non definito.
+- PRIMA del gate: fai rileggere il manuale a un subagente revisore
+  indipendente con la specifica della scaletta e i metodi 01/02/04
+  alla mano. Deve rispondere: ogni punto della specifica è coperto?
+  ci sono conflitti con gli altri metodi? le regole sono applicabili
+  meccanicamente? Correggi ciò che segnala e dichiara cosa resta aperto.
+- GATE FINALE (AskUserQuestion): presenta all'utente una sintesi del
+  manuale sezione per sezione (non tutto il testo: le decisioni) e
+  chiedi l'approvazione. Solo dopo l'ok:
+  a) aggiorna 01_metodo\LEGGIMI.md (metodo_03 non è più «da scrivere»),
+  b) spunta la Sessione 1 nella scaletta con una riga di esito,
+  c) aggiungi al decision_log le decisioni di design prese oggi
+     (una riga ciascuna, datata, con motivo),
+  d) commit git: «Sessione 1 — metodo_03 canonizzazione (manuale
+     approvato)» e mostra git log --oneline.
+- NON iniziare la Sessione 2: niente pilota, niente note. Se avanzi
+  tempo, fermati comunque: il confine di sessione è parte del metodo.
+=====================================================================
