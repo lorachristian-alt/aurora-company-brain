@@ -21,8 +21,9 @@
 4. **Ogni fase ha la sua suite di controlli rieseguibili.** Generazione ✓ (89
    controlli), misura ✓ (protocollo congelato), canonizzazione ← nasce in Sessione 1,
    produzione ← specifica di determinismo in metodo_04.
-5. **Stato su disco, decision log, git.** Ogni sessione lascia: stato aggiornato,
-   decisione datata, un commit. La storia del repo È la prova del metodo.
+5. **Stato su disco, decision log, git.** Ogni sessione lascia QUATTRO gesti: stato
+   aggiornato, decisione datata, un commit e un `git push` — il lavoro non resta mai
+   su un solo disco a fine sessione. La storia del repo È la prova del metodo.
 6. **Perimetri fisici anti-contaminazione.** Chi genera, canonizza o risponde non apre
    mai `03_valutazione/`; chi valuta non è chi ha risposto; i blocchi di domande li
    prepara uno script.
@@ -146,7 +147,7 @@ QA → revisore indipendente → correzioni propagate → QA di nuovo. Pass fina
 resolution su tutto il vault, hub-and-spoke completo, `_index` di ogni cartella
 aggiornato, zero note orfane, zero fatti del canone senza padrone, llms.txt (nel vault) e
 showcase (in `06_operativo/showcase/`) rigenerati. Fine di ogni sessione: zip
-di backup del vault + commit + stato.
+di backup del vault + commit + push + stato.
 
 ---
 

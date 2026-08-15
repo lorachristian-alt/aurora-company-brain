@@ -12,4 +12,4 @@
 Modello di lavoro: la chat Cowork è il cervello (decisioni, piani, revisioni);
 il terminale è le mani (ogni sessione si apre in una cartella precisa e incolla un
 prompt preciso). Ogni sessione chiude con: stato aggiornato qui, voce nel decision log,
-commit git.
+commit git e `git push`.

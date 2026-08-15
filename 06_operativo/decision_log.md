@@ -109,3 +109,7 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   lotto («giorno giuliano 130 del 2026») nell'hub `lotto-l26130` dovrà passare la
   provenance · se nessun grezzo spiega la regola di composizione del codice, va
   riformulata come inferenza dichiarata. Lo verifica il pilota.
+- **2026-08-15** · Il rituale di chiusura di ogni sessione diventa di QUATTRO gesti:
+  stato, decision log, commit, `git push` · la Sessione 1 ha committato senza pushare
+  e il lavoro è rimasto su un solo disco; il push entra nel principio 5 della scaletta
+  (sorgente) ed è propagato a metodo_03 §9.5, 00_INIZIA_QUI e LEGGIMI operativo.

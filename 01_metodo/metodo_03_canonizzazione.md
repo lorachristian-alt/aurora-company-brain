@@ -1840,11 +1840,12 @@ note → suite QA → revisore indipendente → correzioni propagate → suite Q
    presa durante il lotto, datata, con il motivo. Anche i falsi allarmi di categoria C
    (passo 3 qui sopra): sono la memoria che impedisce di risegnalare la stessa trappola al
    lotto dopo.
-8. **Commit**, più zip di backup del vault a fine sessione.
+8. **Commit e `git push`**, più zip di backup del vault a fine sessione. Un commit
+   solo locale non chiude niente: il remote va allineato prima di alzarsi.
 
 I passi 6, 7 e 8 non sono burocrazia di chiusura: sono il principio 5 della scaletta e la
-regola d'oro 6 — «ogni sessione lascia stato aggiornato, decisione datata, un commit».
-Un lotto senza i tre gesti non è chiuso.
+regola d'oro 6 — «ogni sessione lascia stato aggiornato, decisione datata, un commit e un
+push». Un lotto senza i quattro gesti non è chiuso.
 
 ### 9.6 Cosa il vault non contiene mai
 
