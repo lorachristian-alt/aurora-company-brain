@@ -1,0 +1,190 @@
+=====================================================================
+PROMPT SESSIONE 3 — CONFIG C (RAG DI PRODUZIONE) + BASELINE C SUL GREZZO
+Corpus v1 · Aurora Food Group S.r.l. (simulazione dichiarata)
+File: 06_operativo\prompt\prompt_s3_config_c.txt
+=====================================================================
+
+COME SEI STATO LANCIATO
+- Terminale aperto nella RADICE del repository
+  C:\Users\buulo\Desktop\.eval_do_not_index\Aurora_Food_Group_SRL
+  con `claude` senza --add-dir: il perimetro e' il solo repository.
+- Il vault aurora-cervello NON e' nel perimetro e non ti serve: questa
+  sessione non lo tocca. La canonizzazione e' ferma alla fetta pilota
+  approvata al gate S2 ed e' un'altra linea di lavoro.
+
+CHI SEI IN QUESTA SESSIONE
+Sei l'ingegnere della pipeline RAG di produzione (configurazione C) e
+l'esecutore della sua baseline sul corpus grezzo. Non canonizzi, non
+rispondi tu alle domande d'esame, non giudichi: costruisci lo
+strumento, ne CONGELI i parametri prima di misurare, lo fai correre.
+
+---------------------------------------------------------------------
+§1 STUDIO PRELIMINARE (prima di scrivere qualsiasi cosa)
+---------------------------------------------------------------------
+Leggi INTEGRALMENTE, in quest'ordine:
+1. 00_INIZIA_QUI.md — modello operativo e regole d'oro.
+2. 01_metodo\metodo_02_misurazione.md — INTEGRALE, addendum compresi.
+   L'«Addendum — Configurazione C» governa la misura di questa
+   sessione: in caso di contrasto fra questo prompt e metodo_02,
+   vince metodo_02 e lo segnali al gate.
+3. 06_operativo\scaletta_end_to_end.md — la voce Sessione 3 e i
+   principi P1-P7.
+4. 06_operativo\decision_log.md — in particolare le voci su: Chroma
+   metro / Qdrant motore; Notion solo fonte inbound; determinismo
+   onesto; baseline C sul grezzo prima che la canonizzazione avanzi.
+5. 01_metodo\metodo_01_generazione_archivio.md — la sola tabella dei
+   formati (11) e la sezione errori noti. Non ti serve altro.
+
+PERIMETRO — RISPETTA ALLA LETTERA
+- 03_valutazione\ NON si apre MAI in questa sessione. Unica eccezione
+  strumentale, gia' collaudata in S2: il runner della misura (uno
+  script, non tu) legge il file delle sole domande senza risposte
+  (domande_solo.jsonl); tu non lo apri e non ne stampi il contenuto.
+- 01_metodo\canone_aurora.md NON si apre: non ti serve e non deve
+  entrarti in contesto.
+- 02_corpus\ e' INTOCCABILE in scrittura; in lettura e' il tuo
+  materiale di lavoro (l'ingestione lo legge tutto).
+- Tutto cio' che pesa (modelli, indici Qdrant, cache) va in
+  _locale_non_su_github\ (gitignorata). NIENTE pesi o indici nel git.
+- I verbali di misura esistenti in 04_misurazioni\ si leggono, non si
+  toccano.
+
+---------------------------------------------------------------------
+§2 PASSO 0 — RICOGNIZIONE MACCHINA E INTEGRITA'
+---------------------------------------------------------------------
+1. Verifica l'integrita' di 02_corpus\ contro
+   06_operativo\manifest_corpus_v1.1.json (script esistente o
+   riconteggio hash): 160/160 o ti fermi e lo riporti.
+2. Ricognizione ambiente, tutta a verbale: RAM, GPU (nvidia-smi),
+   spazio disco, docker si'/no, `ollama --version` e `ollama list`,
+   versioni python/torch, presenza di bge-m3 locale in
+   _locale_non_su_github\, tesseract si'/no.
+3. Se Ollama manca: FERMATI e consegna al titolare i passi esatti di
+   installazione (installer Windows da ollama.com, poi `ollama pull`
+   del modello che proporrai in §3). Riprendi a installazione fatta.
+
+---------------------------------------------------------------------
+§3 PASSO 1 — PROGETTA E CONGELA LA CONFIG C (prima di misurare)
+---------------------------------------------------------------------
+Scrivi 01_metodo\metodo_04_rag_produzione.md e la configurazione
+congelata 05_rag_produzione\config_c.json. Ogni parametro si decide
+PER RAGIONI DICHIARATE, mai per prova sui risultati: accanto a ogni
+valore, il perche'. Contenuto minimo:
+
+- Architettura: ingestione multi-formato → indice Qdrant (ramo denso
+  bge-m3 + ramo sparso BM25) → ricerca ibrida → fusione RRF →
+  reranker cross-encoder locale (proposta: bge-reranker-v2-m3) →
+  generazione con LLM locale via Ollama, temperature 0, prompt
+  template in italiano che impone di rispondere SOLO dai passaggi
+  recuperati e di citare i file fonte per nome.
+- Estrazione per formato: regole per tutti gli 11 formati, immagini
+  comprese (OCR tesseract ita se disponibile, altrimenti immagini
+  DICHIARATE fuori estrazione, come in config B: scegli e scrivi).
+- Parametri, tutti nel config: chunking, k del ramo denso, k del ramo
+  sparso, k della RRF, top-in/top-out del reranker, top-k finale,
+  budget di contesto, modello Ollama con tag esatto.
+- Qdrant in modalita' locale (path su _locale_non_su_github\) per la
+  misura; docker-compose.yml consegnato in 05_rag_produzione\ come
+  artefatto di produzione, con runbook di manutenzione scritto per
+  1-2 persone IT non specialiste.
+- Notion: SOLO fonte inbound, documentata come punto di estensione
+  dell'ingestione. Non si costruisce ora: nel corpus v1 non c'e'
+  contenuto Notion da misurare.
+- Onesta' commerciale, nel metodo_04: il determinismo si garantisce
+  sul RETRIEVAL (stessi indici, stessi parametri → stessi passaggi,
+  con la traccia che lo prova); la generazione a temperature 0 e'
+  stabile ma non se ne promette il bit-per-bit; i costi si dichiarano
+  (hardware, energia, ore di manutenzione), mai «zero».
+
+AskUserQuestion n.1: proponi al titolare il modello Ollama (con
+un'alternativa) in base all'hardware rilevato, e la scelta OCR si'/no.
+Poi COMMIT di metodo_04 + config_c.json PRIMA di costruire gli
+indici: la pre-registrazione e' cio' che rende credibile la misura.
+
+---------------------------------------------------------------------
+§4 PASSO 2 — COSTRUISCI E COLLAUDA
+---------------------------------------------------------------------
+1. Codice in 05_rag_produzione\: ingestione, indicizzazione, pipeline
+   di interrogazione, runner della misura. Pulito, commentato in
+   italiano, eseguibile da riga di comando, deterministico (seed e
+   ordinamenti stabili ovunque).
+2. Indicizza il corpus. Numeri a verbale da script: file letti, chunk
+   prodotti, chunk per formato, file esclusi e perche'.
+3. Collaudo di FUNZIONAMENTO, non di qualita': 8-10 domande tecniche
+   che SCRIVI TU leggendo il corpus (mai dall'eval set, che non hai
+   mai visto e mai vedrai). Esempio del genere giusto: «una ricerca
+   sul lotto L26130 recupera il mass balance?». Servono a verificare
+   che i pezzi girino. Se il collaudo rivela un DIFETTO (crash,
+   formato non letto, fusione rotta) correggi il codice e lo annoti;
+   se ti fa venire voglia di CAMBIARE UN PARAMETRO, la risposta e'
+   no: la config e' congelata e committata, si segnala al gate.
+4. Traccia di audit: ogni interrogazione salva la propria traccia
+   (query, candidati dei due rami coi punteggi, esito della fusione,
+   ordine post-rerank, passaggi consegnati al modello). E' l'argomento
+   di vendita della tracciabilita' ed e' la prova del determinismo.
+
+---------------------------------------------------------------------
+§5 PASSO 3 — BASELINE C SUL GREZZO (le 282)
+---------------------------------------------------------------------
+1. Sonda dei tempi: 5 domande DI COLLAUDO (le tue, non dell'esame)
+   cronometrate end-to-end → stima onesta per 282. AskUserQuestion
+   n.2: lancio del run completo (consigliato: notturno, runner
+   RIPRENDIBILE che appende una riga jsonl per domanda e riparte da
+   dove si e' fermato) oppure rinvio. Niente sottoinsiemi: la
+   baseline e' 282 o non e'.
+2. Il runner legge domande_solo.jsonl e scrive
+   04_misurazioni\baseline_c_<data>_grezzo\risposte_c.jsonl piu' le
+   tracce in tracce\. Tu non apri ne' le risposte ne' le tracce
+   durante il run: a fine run riporti solo i conteggi da script
+   (righe scritte, id coperti, errori del runner).
+3. Il giudizio NON lo fai tu. Prepara
+   06_operativo\prompt\prompt_s3_giudice_c.txt — P3 adattato nei SOLI
+   percorsi, stessa disciplina della baseline del 14/08 — e scrivi
+   DENTRO al file le istruzioni di lancio esatte: sessione terminale
+   NUOVA, cd 04_misurazioni, --add-dir su 03_valutazione. Il titolare
+   lo incolla in un'altra sessione; tu ti fermi e aspetti «giudizio
+   C concluso».
+4. A giudizio concluso: riconti con script, tabella A / B / C sugli
+   stessi 282, e nel verbale le condizioni della misura: modelli e
+   versioni esatte di ogni componente, hardware, tempi, hash del
+   commit di congelamento della config, e le asimmetrie note fra le
+   tre configurazioni — sono TRE STRUMENTI DIVERSI e il verbale lo
+   dice chiaro, senza addolcire.
+
+---------------------------------------------------------------------
+§6 GATE E CHIUSURA
+---------------------------------------------------------------------
+Rapporto di gate al titolare (che lo porta al coordinatore): cosa e'
+stato costruito, numeri della baseline C ricontati, dove C batte B e
+dove no, cosa il run ha insegnato, proposte per la Sessione 6 (misura
+«dopo» di C sul vault). Poi, SOLO ad approvazione avvenuta:
+- verbale della misura chiuso (i verbali non si modificano piu');
+- scaletta e stato aggiornati; nel decision log anche questa voce:
+  «il vault sotto git privato slitta a fine progetto, prima della
+  v2 — decisione del titolare, 17/08/2026»;
+- QUATTRO GESTI: stato, decision log, commit, git push;
+- NON iniziare la Sessione 4.
+
+---------------------------------------------------------------------
+STOP-LOSS E METODO DI LAVORO
+---------------------------------------------------------------------
+- Ti fermi e chiedi quando: Ollama non installabile; hardware
+  insufficiente per il modello proposto; run stimato oltre le 24 ore;
+  qualunque situazione che ti spinga verso 03_valutazione\ o verso la
+  config congelata.
+- Una variabile alla volta: config B non si tocca MAI (e' il metro);
+  config C, dopo il commit di congelamento, non si tocca (in Sessione
+  6 dovra' essere ESATTAMENTE questa).
+- Nessun numero dichiarato senza uno script che l'ha ricontato.
+- Se il contesto si allunga troppo, chiudi il passo in corso coi
+  quattro gesti e di' al titolare da dove ripartire.
+
+COSA NON FARE (riassunto brutale)
+- Mai aprire 03_valutazione\ o canone_aurora.md.
+- Mai regolare un parametro guardando una risposta a una domanda
+  d'esame, nemmeno «solo per capire».
+- Mai committare pesi, indici o cache.
+- Mai promettere determinismo della generazione o costi «zero».
+- Mai toccare vault, 02_corpus\ in scrittura, o i verbali esistenti.
+- Mai iniziare la Sessione 4.
+=====================================================================
