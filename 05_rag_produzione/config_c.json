@@ -1,0 +1,164 @@
+{
+ "meta": {
+  "artefatto": "config_c",
+  "versione": "1.0",
+  "configurazione": "C — RAG Advanced ibrido di produzione",
+  "progetto": "Aurora Food Group S.r.l. (simulazione dichiarata)",
+  "data_congelamento": "2026-08-17",
+  "governato_da": "01_metodo/metodo_04_rag_produzione.md",
+  "protocollo_di_misura": "01_metodo/metodo_02_misurazione.md, addendum Configurazione C",
+  "regola": "Dopo il commit di congelamento nessun valore di questo file si tocca. In Sessione 6 la misura «dopo» deve girare su QUESTO file, byte per byte, con la sola cartella del corpus cambiata da riga di comando.",
+  "livello_generatore": "misurato — 3B su hardware minimo (8 GB RAM, CPU 4 core, nessuna GPU). Il livello di RIFERIMENTO di produzione (classe 8B su 16-32 GB) e' descritto in metodo_04 §6 e NON e' stato misurato: i numeri di C sono un pavimento, non un tetto.",
+  "impronta": "l'hash di congelamento si calcola su tutte le chiavi tranne `meta` e `misura` con `python pipeline/impronta.py`"
+ },
+
+ "esecuzione": {
+  "device": "cpu",
+  "thread_cpu": 4,
+  "batch_embedding": 8,
+  "_perche": "4 thread = i core fisici della macchina di misura. Fissati nel config perche' il batch e il numero di thread cambiano l'ordine delle somme in virgola mobile: lasciarli liberi renderebbe l'indice non riproducibile bit per bit."
+ },
+
+ "estrazione": {
+  "funzione": "text_of di metodo_01 §5-bis, identica alla configurazione B",
+  "_perche": "sui dieci formati non-immagine B e C leggono gli stessi byte nello stesso modo: cosi' la differenza B/C misura l'architettura di recupero e non l'estrattore.",
+  "formati_testuali": ["txt", "csv", "log", "xml", "md", "p7m"],
+  "formati_immagine": ["jpg", "jpeg", "png", "tif", "tiff"],
+  "formati_gestiti": ["txt", "csv", "log", "xml", "p7m", "pdf", "docx", "xlsx", "pptx", "eml", "jpg"],
+  "pdf": {
+   "estrattore": "pypdf, extract_text per pagina",
+   "ocr_di_riserva": false,
+   "_perche": "sonda del 17/08/2026 su tutti i 27 PDF del corpus: nessuno scende sotto i 200 caratteri alfanumerici estratti. Non ci sono scansioni cieche fra i PDF, quindi un ramo OCR per i PDF sarebbe codice non esercitato."
+  },
+  "ocr": {
+   "attivo": true,
+   "strumento": "tesseract",
+   "lingua": "ita",
+   "parametri": "--oem 3 --psm 3",
+   "eseguibile": "C:\\Program Files\\Tesseract-OCR\\tesseract.exe",
+   "_perche_eseguibile": "l'installer UB Mannheim non ha aggiunto tesseract al PATH, e affidarsi al PATH renderebbe l'estrazione dipendente da come e' aperto il terminale. Il percorso assoluto e' anche una dichiarazione: si sa quale binario ha prodotto quel testo. Se il file non esiste (altra macchina, altro sistema) il codice ricade sul PATH; `AURORA_TESSERACT` ha comunque la precedenza.",
+   "_perche_attivo": "e' l'undicesimo formato e l'unica differenza di estrazione fra B e C. Una pipeline che non legge una non conformita' scansionata non e' vendibile a un'azienda alimentare; metodo_02 registra che la cecita' di B sui 4 .jpg gonfia il delta A-B. L'asimmetria B/C che ne nasce e' dichiarata nel verbale, con l'elenco dei file interessati.",
+   "soglia_testo_utile": {
+    "min_caratteri_alfanumerici": 200,
+    "min_confidenza_media": 60,
+    "_perche": "separa la SCANSIONE DI DOCUMENTO dalla FOTOGRAFIA. Un modulo A4 scansionato produce migliaia di caratteri sopra 70 di confidenza; la foto di un frammento produce qualche decina di token a confidenza 30-40, cioe' rumore. Sotto soglia il file entra nell'indice con la sola scheda di metadati: chunk-spazzatura nel top-k costano due volte, occupano un posto e portano il generatore fuori strada."
+   },
+   "cache": {
+    "attiva": true,
+    "chiave": "sha256 del file grezzo",
+    "percorso": "05_rag_produzione/_locale_non_su_github/cache_estrazione",
+    "_perche": "la Sessione 6 RIUSA questa cache. Lo stesso file non si ri-estrae mai con una versione diversa di tesseract: un aggiornamento dello strumento fra agosto e ottobre cambierebbe il corpus in silenzio, e i due lati del confronto misurerebbero testi diversi."
+   }
+  },
+  "scheda_per_file_senza_testo": {
+   "attiva": true,
+   "_perche": "nessun file del corpus resta invisibile all'indice. Un file senza testo utile sparirebbe del tutto e una domanda sull'inventario dell'archivio non avrebbe modo di raggiungerlo. La scheda dichiara nome, formato e perche' non c'e' testo, e non afferma nulla sul contenuto."
+  },
+  "deduplica_chunk": {
+   "attiva": false,
+   "_perche": "metodo_04 §2 prevedeva il dedup con hash: NON si applica a questo corpus. I duplicati sono contenuto (metodo_01 §11, regola d'oro 1: le anomalie dell'archivio sono contenuto), e fonderli cancellerebbe dall'indice proprio le prove che le domande di tipo `metadato` cercano. Il payload porta comunque `testo_sha256`, cosi' chi vuole deduplica al momento della risposta e non dentro l'indice."
+  }
+ },
+
+ "chunking": {
+  "caratteri": 1200,
+  "overlap": 200,
+  "taglio": "confine di riga",
+  "_perche": "identico alla configurazione B. L'archivio e' pieno di tabelle e registri: spezzare a meta' riga distrugge il record. Un chunk puo' superare i 1.200 caratteri se una singola riga e' piu' lunga di cosi'.",
+  "vault_sessione_6": "1 nota atomica = 1 chunk; i grezzi copiati in sources/ seguono questi stessi valori"
+ },
+
+ "embedding_denso": {
+  "modello": "BAAI/bge-m3",
+  "percorso_locale": "04_misurazioni/_locale_non_su_github/modelli/bge-m3",
+  "dimensioni": 1024,
+  "max_seq_length": 1024,
+  "normalizzazione": true,
+  "_perche": "e' LA STESSA COPIA CONGELATA su disco che usa la configurazione B, non un altro scaricamento dello stesso nome. Stesso modello e stesso troncamento significa che il ramo denso di C e quello di B sono lo stesso strumento, e la differenza fra le due misure resta l'architettura."
+ },
+
+ "ricerca_sparsa": {
+  "algoritmo": "BM25 (variante Lucene, IDF sempre positivo)",
+  "k1": 1.2,
+  "b": 0.75,
+  "implementazione": "pipeline/bm25.py, pesi esportati come vettori sparsi Qdrant",
+  "tokenizzazione": "composto intero + parti alfanumeriche; nessuno stemming, nessuna stoplist",
+  "_perche_tokenizzazione": "e' il dettaglio critico di metodo_04 §2: il tokenizzatore sparso non deve spezzare i codici. `MOD-QA-31` produce ['mod-qa-31','mod','qa','31'], cosi' il documento si trova sia a chi cita il codice per esteso sia a chi ne cita un pezzo. Lo stemming italiano massacrerebbe i codici; le parole vuote le spegne gia' l'IDF.",
+  "_perche_a_mano": "nessuna libreria pronta dava insieme il tokenizzatore custom e l'export dei pesi come vettore sparso. Con i pesi BM25 nel vettore del documento e 1.0 per termine nel vettore della domanda, il prodotto scalare di Qdrant RESTITUISCE il punteggio BM25: la ricerca lessicale gira dentro l'indice, e la configurazione C ha davvero una collezione sola."
+ },
+
+ "indice": {
+  "motore": "Qdrant self-hosted",
+  "modalita_misura": "locale su file (qdrant-client embedded), percorso in _locale_non_su_github",
+  "modalita_produzione": "container, docker-compose.yml in 05_rag_produzione",
+  "collezione": "aurora_corpus_v1",
+  "vettore_denso": "denso",
+  "vettore_sparso": "sparso",
+  "distanza_densa": "cosine",
+  "telemetria": false,
+  "_perche": "Chroma resta il metro (config B, congelata), Qdrant e' il motore (config C). La modalita' locale e quella a container usano lo stesso client e la stessa collezione: la misura gira su file per non chiedere Docker a una macchina da 8 GB, la produzione gira in container.",
+  "payload": ["file", "percorso_relativo", "sha256_file", "formato", "origine", "idx", "n_chunk_file", "caratteri", "testo_sha256", "codici", "date", "testo"],
+  "_perche_payload": "solo metadati ricavati DAL CORPUS. Il canone e la tabella alias non entrano: iniettare nell'indice fatti che il corpus grezzo non contiene misurerebbe un archivio gia' in parte organizzato, cioe' esattamente cio' che la Sessione 6 deve misurare dopo. Nel vault i campi `tipo` e `area` arriveranno dal frontmatter delle note."
+ },
+
+ "recupero": {
+  "k_denso": 20,
+  "k_sparso": 20,
+  "k_rrf": 60,
+  "fusione": "RRF calcolata in Python, non lato Qdrant",
+  "_perche_rrf": "la RRF non ha pesi da tarare, e un peso fra denso e sparso andrebbe deciso guardando i risultati — che in questa sessione e' vietato. Parita' rotta sul `cid`: due esecuzioni danno lo stesso ordine sempre.",
+  "_perche_in_python": "servono le due classifiche separate coi loro punteggi dentro la traccia di audit. La traccia e' l'argomento di vendita; la riga di codice in meno non lo e'."
+ },
+
+ "reranker": {
+  "modello": "BAAI/bge-reranker-v2-m3",
+  "percorso_locale": "05_rag_produzione/_locale_non_su_github/modelli/bge-reranker-v2-m3",
+  "top_in": 24,
+  "top_out": 4,
+  "max_length": 512,
+  "batch": 4,
+  "_perche_batch": "misurato, non scelto per abitudine: su 24 coppie batch 2 = 40,8 s, batch 4 = 38,5 s, batch 8 = 40,7 s, batch 16 = 47,2 s. Su CPU i batch grandi pagano il riempimento fino al passaggio piu' lungo del gruppo, e il vantaggio si rovescia.",
+  "_perche_max_length": "un chunk da 1.200 caratteri di italiano sta sotto i 512 token, quindi il troncamento non morde quasi mai; alzarlo costerebbe tempo su tutte le 24 coppie di ogni domanda per i pochi chunk lunghi.",
+  "_perche_modello": "sostituisce il `bge-reranker-large` scritto in metodo_04 §3, che e' addestrato su inglese e cinese: su documenti italiani e' lo strumento sbagliato. La v2-m3 e' multilingue e appartiene alla stessa famiglia dell'embedding bge-m3, quindi le due fasi guardano il testo con lo stesso vocabolario.",
+  "_perche_top_in": "24, misurato su questa macchina PRIMA del congelamento e non stimato. Sonda del 17/08/2026 su chunk veri del corpus (i7-1065G7, 4 thread, batch 4): top-in 16 = 27,1 s a domanda (2,13 h sulle 282) · 20 = 33,0 s (2,58 h) · 24 = 36,2-38,5 s (2,83-3,02 h) · 32 = 51,1 s (4,00 h). A 32 si riordinerebbe quasi tutta l'unione dei due rami (k denso 20 + k sparso 20, unione tipica 30-35) e la RRF smetterebbe di filtrare, pagando 1,2 ore in piu'; a 24 la RRF resta un filtro vero e il reranker sceglie 4 su 24, cioe' un rapporto sano. Il 24 e' il fondo dell'intervallo concordato col titolare.",
+  "_perche_top_out": "4 passaggi contro gli 8 della configurazione B, di proposito. Il reranker esiste per far valere 4 passaggi piu' di 8 non filtrati: e' l'ipotesi che la misura mette alla prova. In piu' il generatore e' un 3B, che su contesti lunghi si distrae, e il prefill di 8 passaggi raddoppierebbe il tempo del run."
+ },
+
+ "generazione": {
+  "motore": "Ollama",
+  "endpoint": "http://localhost:11434/api/generate",
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "_perche_modello": "scelto sull'hardware reale: 8 GB di RAM totali e nessuna GPU. Un 7-8B con embedder e reranker in gioco supera il margine di sicurezza della RAM e rischia lo stop-loss delle 24 ore; Llama 3.2 dichiara ufficialmente l'italiano fra le lingue supportate. Il livello del generatore e' l'UNICO parametro dichiarato hardware-dipendente: tutto il resto della pipeline e' identico fra il livello misurato e quello di riferimento.",
+  "temperature": 0,
+  "seed": 20260817,
+  "top_k": 1,
+  "top_p": 1.0,
+  "repeat_penalty": 1.0,
+  "_perche_repeat_penalty": "il valore di serie di Ollama e' 1.1 e penalizza le ripetizioni: qui le ripetizioni sono codici di lotto e numeri che vanno ripetuti identici. Disattivarla e' una scelta di fedelta', non di stile.",
+  "num_ctx": 6144,
+  "num_predict": 512,
+  "_perche_num_ctx": "allineato al budget di contesto, non lasciato al valore di serie (2048), che troncherebbe i passaggi in silenzio. 6144 e' il compromesso: 8.000 caratteri di passaggi piu' il template e la risposta stanno abbondantemente dentro, e la cache KV di un 3B a 6144 token costa ~0,7 GB — su una macchina da 8 GB, 8192 sarebbero 0,9 GB pagati per margine che non serve. La sonda dei tempi verifica il conteggio reale dei token del prompt: se si avvicinasse al tetto, il valore andrebbe rivisto PRIMA del run e non durante.",
+  "keep_alive": "2h",
+  "_perche_keep_alive": "senza, Ollama scarica il modello dopo 5 minuti di inattivita' e ogni domanda ne paga il ricaricamento da disco. Su 282 domande sono ore buttate.",
+  "budget_contesto_caratteri": 8000,
+  "_perche_budget": "il tetto morde solo se i passaggi sono anomali: quattro chunk da 1.200 caratteri fanno 4.800. Serve ai file di log, dove una riga lunga puo' sforare il chunk. Si taglia in coda e mai a meta' di un passaggio scelto, e i cid tagliati finiscono nella traccia.",
+  "timeout_s": 900,
+  "template": "Sei l'assistente documentale di Aurora Food Group S.r.l. Rispondi alla domanda usando ESCLUSIVAMENTE i passaggi riportati qui sotto.\n\nRegole, senza eccezioni:\n- Se i passaggi non contengono il dato, scrivi che non e' ricavabile dai documenti forniti. Non integrare con conoscenza tua.\n- Se i passaggi si contraddicono, riporta il conflitto invece di sceglierne uno.\n- Cita solo i file dei passaggi che hai effettivamente usato.\n- Non calcolare a memoria: se serve un conto, fallo sui numeri che leggi nei passaggi.\n- Rispondi in italiano, asciutto: al massimo cinque frasi.\n\nPASSAGGI\n{passaggi}\n\nDOMANDA\n{domanda}\n\nRispondi esattamente con questo formato:\n<la risposta>\nFONTI: <nomi dei file usati, separati da virgola>\nCONFIDENZA: alta | media | bassa",
+  "_perche_template": "le regole sono quelle del prompt P2.1 della misura B (metodo_02), tradotte per un modello locale che risponde a una domanda sola. Se le regole cambiassero, C smetterebbe di essere confrontabile con B."
+ },
+
+ "tracce": {
+  "attive": true,
+  "contenuto": ["domanda", "candidati densi coi punteggi", "candidati sparsi coi punteggi", "esito della fusione RRF coi ranghi dei due rami", "ordine post-rerank coi voti", "passaggi consegnati al modello", "testo grezzo della generazione", "tempi per fase"],
+  "_perche": "e' la prova del determinismo del recupero e il documento che si apre davanti all'auditor. In produzione la stessa struttura diventa il registro `registro/AAAA-MM.jsonl` di metodo_04 §2."
+ },
+
+ "misura": {
+  "nome": "baseline C sul corpus grezzo",
+  "cartella": "baseline_c_2026-08-17_grezzo",
+  "file_risposte": "misuraC_risposte.jsonl",
+  "domande": "03_valutazione/domande_solo.jsonl",
+  "corpus": "02_corpus (160 file, manifest_corpus_v1.1.json)",
+  "_nota": "il nome del file di risposte segue metodo_02, addendum C, che ha la precedenza sul prompt di sessione (che diceva `risposte_c.jsonl`). Questa chiave e la chiave `cartella` sono le uniche che la Sessione 6 cambiera': sono escluse dall'impronta di congelamento."
+ }
+}

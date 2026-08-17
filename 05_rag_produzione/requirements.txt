@@ -1,0 +1,34 @@
+# Configurazione C — versioni PINNATE alla data di congelamento (17/08/2026).
+#
+# Non sono le versioni «piu' recenti»: sono quelle con cui la baseline C e' stata
+# misurata. Aggiornarle e' una manutenzione trimestrale che si fa PRIMA su macchina di
+# prova e che va scritta nel decision log (metodo_04 §7): fra la misura «prima» e quella
+# «dopo» non si tocca niente, o i due numeri non si parlano piu'.
+#
+# Python di riferimento: 3.14.7 su Windows 11.
+# Fuori da questo file, perche' non sono pacchetti Python:
+#   - Ollama                (installer Windows) + modello llama3.2:3b-instruct-q4_K_M
+#   - Tesseract OCR         (build UB Mannheim) + pacchetto lingua `ita`
+#   - Docker Desktop        solo per il deployment a container, non per la misura
+
+torch==2.13.0
+transformers==5.15.0
+tokenizers==0.22.2
+safetensors==0.8.0
+sentence-transformers==5.7.0
+numpy==2.4.6
+scipy==1.18.0
+scikit-learn==1.9.0
+tqdm==4.70.0
+
+qdrant-client==1.19.0
+grpcio==1.83.0
+portalocker==3.2.0
+
+# estrazione multi-formato: gli stessi pacchetti della `text_of` di metodo_01 §5-bis
+pypdf==6.15.0
+python-docx==1.2.0
+openpyxl==3.1.5
+python-pptx==1.0.2
+pillow==12.3.0
+pytesseract==0.3.13

@@ -1,0 +1,107 @@
+=====================================================================
+PROMPT S3 — BASELINE C · IL GIUDICE (P3, adattato nei SOLI percorsi)
+Corpus v1 · Aurora Food Group S.r.l. (simulazione dichiarata)
+File: 06_operativo\prompt\prompt_s3_giudice_c.txt
+=====================================================================
+
+COME SI LANCIA — leggere prima di incollare il prompt
+---------------------------------------------------------------------
+Sessione terminale NUOVA e DIVERSA da quella che ha costruito la
+pipeline e prodotto le risposte: chi valuta non è chi ha risposto,
+altrimenti si giudica da solo e si dà ragione. È la stessa regola con
+cui sono state valutate le misure A e B il 14/08/2026.
+
+Il giudice ha diritto di vedere le risposte attese — è la sua funzione
+— quindi il suo perimetro è quello del P3 della baseline: la cartella
+delle misure più il dataset di valutazione.
+
+  cd C:\Users\buulo\Desktop\.eval_do_not_index\Aurora_Food_Group_SRL\04_misurazioni
+  claude --add-dir "C:\Users\buulo\Desktop\.eval_do_not_index\Aurora_Food_Group_SRL\03_valutazione"
+
+⚠️ Il giudice NON apre `02_corpus\`, NON apre il vault `aurora-cervello`
+e NON legge il canone: giudica le risposte ricevute contro le risposte
+attese, non ricostruisce i fatti per conto proprio.
+
+⚠️ Il giudice NON apre `04_misurazioni\baseline_c_2026-08-17_grezzo\tracce\`.
+Le tracce contengono i passaggi che il sistema aveva sotto gli occhi:
+servono all'audit, non al giudizio. Si giudica la risposta, non
+l'occasione che il sistema ha avuto di darla giusta.
+
+Sono 282 voci: DIECI giri da 30, tutti in append sullo stesso file.
+Il modello del giudice è `claude-opus-5`, fast mode OFF — lo stesso
+della valutazione del 14/08. Se cambia, va annotato: il confronto ne
+risente.
+
+---------------------------------------------------------------------
+IL PROMPT DA INCOLLARE
+---------------------------------------------------------------------
+
+Valuti risposte date da un sistema documentale. Non devi rispondere alle
+domande: devi giudicare le risposte ricevute.
+
+Per ogni voce ti do: `id`, domanda, risposta attesa, criterio di
+valutazione, fonti corrette, risposta ricevuta, fonti citate.
+
+Assegna esattamente un esito:
+- `corretta` — soddisfa il criterio
+- `parziale` — dato giusto ma incompleto, o manca la contraddizione che
+  andava segnalata
+- `sbagliata` — dato errato, ma ricavato da un documento reale
+- `allucinata` — dato inventato, **oppure** fonte citata che non
+  contiene quel dato
+
+Restituisci una riga JSON per voce con: `id`, `misura` (scrivi `C`),
+`esito`, `fonti_corrette` (true/false), `motivazione` (una riga).
+
+Non essere generoso: se la risposta non contiene ciò che il criterio
+richiede, non è corretta anche se è ben scritta.
+
+**Salvataggio.** Scrivi in
+`04_misurazioni\baseline_c_2026-08-17_grezzo\valutazione_c.jsonl`,
+**in coda al file se esiste già**. A fine blocco dimmi quante righe
+contiene e quante per ciascun esito.
+
+**Prima di cominciare, chiedimi con `AskUserQuestion` quale blocco
+elaborare** — contando le righe già presenti in `valutazione_c.jsonl` e
+proponendomi il successivo come opzione consigliata.
+
+Poi prendi quelle 30 voci: domanda, risposta attesa, criterio e fonti
+stanno in `03_valutazione\eval_set.jsonl`; risposta ricevuta e fonti
+citate stanno in
+`04_misurazioni\baseline_c_2026-08-17_grezzo\misuraC_risposte.jsonl`,
+accoppiate per `id`.
+
+---------------------------------------------------------------------
+DUE AVVERTENZE SUL MATERIALE CHE STAI GIUDICANDO — leggile, valgono
+per il giudizio
+---------------------------------------------------------------------
+1. Le risposte della misura C **non sono state scritte da un modello di
+   frontiera**: le ha scritte un LLM locale di classe 3B, a temperatura
+   0, su hardware minimo. Ti aspetterai risposte più brevi e più
+   sgrammaticate di quelle di A e B. **Questo non cambia il criterio**:
+   una risposta scritta male che contiene il dato giusto è `corretta`,
+   una risposta scritta bene che non lo contiene non lo è. Giudica il
+   contenuto, non la prosa.
+
+2. Il campo `fonti` contiene i nomi **come il modello li ha scritti**,
+   compresi eventuali nomi di file che non esistono o che non erano fra
+   i passaggi che aveva davanti. **Non sono stati ripuliti apposta**: in
+   A e in B tu vedi le fonti come il modello le ha scritte, e ripulire
+   quelle di C le darebbe meno allucinazioni per costruzione. Quindi
+   applica il criterio di P3 alla lettera: una fonte citata che non
+   contiene quel dato è `allucinata`, esattamente come nelle altre due
+   misure. Il campo `confidenza` è dichiarato dal modello locale e vale
+   poco: non farlo pesare sul giudizio.
+
+---------------------------------------------------------------------
+NOTE PER CHI COORDINA — non incollare
+---------------------------------------------------------------------
+- Al termine dei dieci giri, di' al titolare «giudizio C concluso».
+  La sessione che ha costruito la pipeline riprende da lì: riconta i
+  numeri con uno script e scrive il verbale.
+- Il conteggio finale NON si scrive qui e non si scrive a mano: lo
+  riconta uno script. Regola d'oro 5.
+- Se qualche `id` manca in `misuraC_risposte.jsonl`, elencalo invece di
+  saltarlo in silenzio: un buco nel file di risposte è un errore del
+  runner e va a verbale.
+=====================================================================

@@ -1,0 +1,60 @@
+# Aurora Food Group — indice Qdrant di produzione (configurazione C)
+#
+# Questo file NON serve alla baseline C: la misura gira su Qdrant in modalita' locale
+# (su file), perche' chiedere Docker a una macchina da 8 GB mentre indicizza 2.000 chunk
+# e' un modo di misurare la RAM invece del recupero. Il container e' l'artefatto di
+# PRODUZIONE: e' cosi' che l'indice vive sul server dell'azienda.
+#
+# Il client Python e la collezione sono gli stessi nei due casi: cambia una riga di
+# config (`indice.modalita`) e la stessa pipeline parla col container invece che col file.
+#
+# Avvio:      docker compose up -d
+# Stato:      docker compose ps
+# Spegni:     docker compose down          (i dati restano nel volume)
+# Log:        docker compose logs -f qdrant
+
+services:
+  qdrant:
+    image: qdrant/qdrant:v1.15.1          # versione PINNATA: si aggiorna a trimestre,
+                                          # prima su macchina di prova (metodo_04 §7)
+    container_name: aurora-qdrant
+    restart: unless-stopped
+
+    ports:
+      # 127.0.0.1 e non 0.0.0.0: il servizio NON si espone fuori dalla macchina.
+      # Per aprirlo alla LAN aziendale si mette l'IP interno del server, mai lo 0.0.0.0,
+      # e mai una porta verso internet.
+      - "127.0.0.1:6333:6333"             # API REST e pannello web
+      - "127.0.0.1:6334:6334"             # API gRPC (quella che usa il client Python)
+
+    environment:
+      # Telemetria spenta: e' un requisito del pitch GDPR, non una preferenza.
+      # Dal container non esce niente verso l'esterno.
+      QDRANT__TELEMETRY_DISABLED: "true"
+      QDRANT__SERVICE__ENABLE_CORS: "false"
+      QDRANT__LOG_LEVEL: "INFO"
+      # Chiave d'accesso: si mette in un file .env accanto a questo (mai qui dentro,
+      # mai su git). Senza, chiunque raggiunga la porta legge tutto l'archivio.
+      QDRANT__SERVICE__API_KEY: "${QDRANT_API_KEY}"
+
+    volumes:
+      - qdrant_dati:/qdrant/storage       # i vettori
+      - qdrant_snapshot:/qdrant/snapshots # i backup (vedi runbook, cadenza settimanale)
+
+    healthcheck:
+      test: ["CMD", "sh", "-c", "exec 3<>/dev/tcp/127.0.0.1/6333 && echo ok"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s
+
+    deploy:
+      resources:
+        limits:
+          memory: 4G                      # un tetto esplicito: se l'indice cresce oltre,
+                                          # deve fallire in modo visibile e non mangiarsi
+                                          # la RAM del resto del server
+
+volumes:
+  qdrant_dati:
+  qdrant_snapshot:
