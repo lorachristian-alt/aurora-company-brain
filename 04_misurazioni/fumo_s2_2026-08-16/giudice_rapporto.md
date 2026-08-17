@@ -118,3 +118,69 @@ La riserva ha però prodotto una regola di vault, applicata a tutte le note in c
 **se una nota stabilisce una regola decisionale, il `summary` la enuncia** — perché è il
 `summary` che il retrieval mostra per primo, e una regola che vive solo nel corpo non arriva
 a chi legge la risposta.
+---
+
+## Testo discorsivo della sessione del giudice — trascrizione dall'incollaggio in chat
+
+*Aggiunto in sede di chiusura dal coordinatore (17/08/2026). Fonte: il messaggio di
+chiusura della sessione del giudice, incollato dal titolare nella chat di coordinamento.
+Le lacune segnate con […] sono perdite di copia del terminale, non omissioni del giudice.
+Le tabelle dei conteggi, identiche a quelle ricontate sopra da `conta_fumo.py`, non sono
+duplicate. La voce su Q019 va letta insieme alla correzione d'interpretazione nel commento
+del coordinatore qui sopra.*
+
+> **File scritto.** `04_misurazioni\fumo_s2_2026-08-16\fumo_valutazione.jsonl` — il file
+> non esisteva, è stato creato. 30 righe totali, tutte con misura `"S2fumo"`.
+> [tabella degli esiti: 28 corrette · 2 parziali · 0 sbagliate · 0 allucinate]
+>
+> Le due parziali sono Q076 (dà 68,9 e 68,6 ma non i 27 min di permanenza sotto soglia
+> richiesti dal criterio) e Q239 (dà 24 min e mezzo, i 27 min del footer e i 29 min della
+> NC, ma non segnala anomalia sonda, campioni non validi e checksum fallito, che il
+> criterio indica come bonus decisivo).
+>
+> **Confronto con la baseline A.** Tutti e 30 gli id sono presenti nella misura A di
+> `baseline_2026-08-14_grezzo\valutazione.jsonl`: nessuna esclusione dal confronto.
+> [tabella del conteggio per esito sugli stessi 30 id — identica ai conteggi sopra]
+>
+> **Id migliorati (5).**
+> — Q074, parziale → corretta: «In A mancava il materiale dichia[…]nza marca né datasheet;
+>   la fumo lo riporta insieme al "detectabile: no credo".»
+> — Q132, sbagliata → corretta: «In A il mass balance .xlsx non era leggibile e concludeva
+>   che i numeri non quadravano; la fumo legge il foglio "A valle", somma
+>   4.260+980+2.380+0 […] 0, distinguendo il L26131 dal L26130.»
+> — Q138, parziale → corretta: «In A mancavano i 27 min dichiara[…] la fumo li cita
+>   accanto ai 24 min 30 s contati sulle righe e ai 29 min della NC-2026-088.»
+> — Q199, parziale → corretta: «In A mancava la dimensione oltre i 7 mm, che è il criterio
+>   della valutazione del rischio; la fumo la collega esplicitamente al rischio di
+>   les[…]»
+> — Q238, parziale → corretta: «In A mancava il confronto con i […] TT_02; la fumo
+>   distingue i due canali invece di sceglierne uno.»
+>
+> **Id peggiorati.** «Nessuno. Nessun esito della fumo è inferiore a quello dell[…] I due
+> parziali della fumo (Q076, Q239) erano parziali anche in A: invariati, non peggiorati.»
+>
+> **Fonti corrette.** «30/30 contro 27/30. Le tre che in A erano sbagliate — Q001, Q132,
+> Q199 — nella fumo citano la fonte attesa.»
+>
+> **Note di lettura, senza giudizio di valore.**
+> — «Trenta domande su duecentottantadue. Su un campione di q[…] fra due o tre esiti non
+>   ha significato statistico: uno scarto di 5 esiti su 30 non è distinguibile dal rumore
+>   di campionamento, e questi numeri non autorizzano una stima della differenza
+>   sull'intero set. Servono a dire che il design della fetta non ha rott[…]ntificare un
+>   guadagno.»
+> — «La fetta è selezionata sul lotto L26130, cioè sul nucleo che la canonizzazione ha
+>   lavorato: non è un campione casuale delle 282, e non è rappresentativa delle aree non
+>   canonizzate.»
+> — «Un fatto da segnalare a chi coordina, non un esito: in Q019 il rispondente cita fra
+>   le fonti `docs/doc-ccp2-limite-critico.md`, cioè un documento del canone e non un
+>   documento dell'archivio. Ho contato la[…]accanto compare il manuale_HACCP che è la
+>   fonte attesa, ma […] non ho potuto verificare quel file — è fuori dal perimetro del
+>   giudice. Se in Sessione 6 il canone diventerà una fonte citabile a pieno titolo, va
+>   deciso prima come si conta nella metrica fonti_corrette, a[…] baseline smette di
+>   essere omogeneo.»
+> — «Q237 è corretta ma con una riserva registrata in motivazione: la risposta fa
+>   prevalere il datalogger nella conclusione ("non conforme") e ci[…]entrambi i valori
+>   68,9 e 74,5, però dichiara il conflitto e, […] non da risolvere» invece di enunciare
+>   che il dato strumentale prevale e che la registrazione cartacea non è veritiera.
+>   Sull'id più importante del set, vale la pena guardarla a occhio prima di
+>   industrializzare.»
