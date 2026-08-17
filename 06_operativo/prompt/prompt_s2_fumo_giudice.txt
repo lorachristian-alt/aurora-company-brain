@@ -1,0 +1,87 @@
+=====================================================================
+PROMPT S2 — MINI-MISURA DI FUMO · IL GIUDICE (P3 adattato)
+Sessione 2, fetta pilota L26130. Numeri NON ufficiali.
+=====================================================================
+
+COME SI LANCIA — leggere prima di incollare il prompt
+---------------------------------------------------------------------
+Sessione NUOVA e DIVERSA da quella che ha risposto: chi valuta non è chi
+ha risposto, altrimenti si giudica da solo e si dà ragione. È la stessa
+regola con cui è stata valutata la baseline del 14/08.
+
+Il giudice ha diritto di vedere le risposte attese — è la sua funzione —
+quindi il suo perimetro è quello del P3 della baseline: la cartella
+della misura più il dataset di valutazione.
+
+  cd C:\Users\buulo\Desktop\.eval_do_not_index\Aurora_Food_Group_SRL\04_misurazioni
+  claude --add-dir "C:\Users\buulo\Desktop\.eval_do_not_index\Aurora_Food_Group_SRL\03_valutazione"
+
+⚠️ Il giudice NON deve aprire il vault `aurora-cervello` e NON deve
+leggere il canone: giudica le risposte ricevute contro le risposte
+attese, non ricostruisce i fatti per conto proprio.
+
+---------------------------------------------------------------------
+IL PROMPT DA INCOLLARE
+---------------------------------------------------------------------
+
+Valuti risposte date da un sistema documentale. Non devi rispondere alle
+domande: devi giudicare le risposte ricevute.
+
+Per ogni voce ti do: `id`, domanda, risposta attesa, criterio di
+valutazione, fonti corrette, risposta ricevuta, fonti citate.
+
+Assegna esattamente un esito:
+- `corretta` — soddisfa il criterio
+- `parziale` — dato giusto ma incompleto, o manca la contraddizione che
+  andava segnalata
+- `sbagliata` — dato errato, ma ricavato da un documento reale
+- `allucinata` — dato inventato, **oppure** fonte citata che non
+  contiene quel dato
+
+Restituisci una riga JSON per voce con: `id`, `misura` (scrivi `S2fumo`),
+`esito`, `fonti_corrette` (true/false), `motivazione` (una riga).
+
+Non essere generoso: se la risposta non contiene ciò che il criterio
+richiede, non è corretta anche se è ben scritta.
+
+**Salvataggio.** Scrivi in
+`04_misurazioni\fumo_s2_2026-08-16\fumo_valutazione.jsonl`, **in coda al
+file se esiste già**. A fine blocco dimmi quante righe contiene e quante
+per ciascun esito.
+
+Le voci da valutare sono 30, un blocco solo. Gli id sono quelli presenti
+in `04_misurazioni\fumo_s2_2026-08-16\fumo_risposte.jsonl`. Domanda,
+risposta attesa, criterio e fonti stanno in
+`03_valutazione\eval_set.jsonl`; risposta ricevuta e fonti citate stanno
+nel file delle risposte, accoppiate per `id`.
+
+**IN CODA, IL CONFRONTO CON LA BASELINE — è la parte che dà senso alla
+misura.** Per gli STESSI id, leggi l'esito che la baseline A aveva
+ottenuto, in
+`04_misurazioni\baseline_2026-08-14_grezzo\valutazione.jsonl`
+(le righe della misura A). Poi produci una tabella di confronto:
+
+  1. il conteggio per esito sulla fumo (corrette / parziali / sbagliate
+     / allucinate) e quello della baseline A **sugli stessi 30 id**;
+  2. l'elenco degli id **migliorati** (esito peggiore in A, migliore
+     nella fumo), con una riga di spiegazione ciascuno;
+  3. l'elenco degli id **peggiorati**, con una riga ciascuno — questi
+     sono i più importanti: un peggioramento indica che la
+     canonizzazione ha nascosto o deformato qualcosa che nel grezzo si
+     trovava;
+  4. il conteggio delle fonti corrette nei due casi.
+
+⚠️ Non arrotondare e non commentare l'esito complessivo con giudizi di
+valore: riporta i numeri. Sono trenta domande su duecentottantadue, e su
+un campione così piccolo la differenza fra due o tre esiti non significa
+nulla. Dichiaralo esplicitamente in coda al report.
+
+---------------------------------------------------------------------
+NOTE PER CHI COORDINA — non incollare
+---------------------------------------------------------------------
+- Questi numeri NON vanno nel README e non sostituiscono la misura
+  «dopo» della Sessione 6: servono a capire se il design della
+  canonizzazione regge su una fetta, prima di industrializzarlo.
+- Se la baseline A non contiene alcuni di questi id, dillo e escludili
+  dal confronto invece di trattarli come peggiorati.
+=====================================================================

@@ -1,0 +1,216 @@
+=====================================================================
+PROMPT — SESSIONE 2 · FETTA PILOTA VERTICALE (caso L26130)
+Progetto: Aurora Food Group S.r.l. (SIMULAZIONE) — corpus v1 congelato
+Terminale: Claude Code nella RADICE del repository, con il vault come
+cartella aggiuntiva (lancio consigliato:
+  claude --add-dir "C:\Users\buulo\Desktop\aurora-cervello").
+Leggi TUTTO il prompt prima di agire.
+=====================================================================
+
+RUOLO E OBIETTIVO DI SESSIONE
+Sei l'esecutore del pilota: la prova end-to-end del design di
+metodo_03 su una fetta vera, PRIMA di industrializzare. Quattro
+consegne, in quest'ordine: (1) la copia verificata dei 160 grezzi nel
+vault; (2) la suite QA implementata e collaudata, col generatore di
+llms.txt; (3) la fetta del caso L26130 canonizzata — 20-30 note — con
+QA verde e revisione indipendente; (4) la mini-misura di fumo e il
+gate finale, con gli emendamenti a metodo_03 che il pilota avrà reso
+necessari. NON si industrializza: le Sessioni 4-5 vengono dopo, e la
+Sessione 3 (pipeline RAG) non è tua.
+
+---------------------------------------------------------------------
+1. STUDIO PRELIMINARE (obbligatorio, in quest'ordine)
+---------------------------------------------------------------------
+a) 01_metodo\metodo_03_canonizzazione.md — INTEGRALE. È il tuo manuale
+   operativo: ogni decisione di canonizzazione è già scritta lì. Se
+   qualcosa in QUESTO prompt confligge con metodo_03, vince metodo_03
+   e me lo segnali al gate.
+b) 01_metodo\tassonomia_vault.md e 01_metodo\alias_entita.md.
+c) 01_metodo\canone_aurora.md — sei una sessione che canonizza: il
+   canone ti guida e non compare MAI (metodo_03 §5.5: mai in fonti,
+   mai copiato, mai citato).
+d) 01_metodo\metodo_01_generazione_archivio.md — SOLO §5-bis (la
+   text_of, da riusare identica) e §8 (l'ipotesi alternativa prima di
+   correggere).
+e) 01_metodo\metodo_02_misurazione.md — solo box iniziale e addendum
+   sul perimetro della misura «dopo».
+f) 06_operativo\scaletta_end_to_end.md (Sessione 2) e
+   06_operativo\decision_log.md — in particolare le voci del 15/08:
+   il watch-item sull'hub del lotto, il prompt di giudizio da
+   congelare, il rituale di chiusura a QUATTRO gesti.
+
+PERIMETRO — VINCOLANTE.
+- MAI aprire 03_valutazione\. Due sole eccezioni STRUMENTALI, definite
+  al §6: uno script che scrivi tu legge eval_set.jsonl e stampa SOLO
+  gli id; il giudice della misura di fumo (che non sei tu) legge ciò
+  che il suo ruolo richiede.
+- Non toccare: Desktop\sources, 02_corpus\, metodo_01/02/04,
+  tassonomia_vault.md, i verbali in 04_misurazioni\baseline_*.
+- canone_aurora.md: sola lettura; UNICHE scritture ammesse le aggiunte
+  datate di categoria B decise dal revisore (§9.5).
+- Scrivi in: aurora-cervello\ (grezzi copiati + note), 06_operativo\qa\,
+  06_operativo\prompt\ (i due prompt della fumo), 04_misurazioni\
+  (solo la cartella nuova della fumo), stato e decision log; metodo_03
+  SOLO al gate, con la mia approvazione.
+
+---------------------------------------------------------------------
+2. PASSO 1 — COPIA DEI GREZZI E VERIFICA (metodo_03 §9.1-9.2)
+---------------------------------------------------------------------
+- robocopy da Desktop\sources a aurora-cervello\sources, coi parametri
+  esatti di §9.1. Ricorda: exit code < 8 è SUCCESSO.
+- Script di verifica di §9.2 contro manifest_corpus_v1.1.json: zero
+  scarti, zero estranei, zero sottocartelle, o ci si ferma lì.
+- Solo dopo: crea sources\_index-sources.md (l'unico markdown ammesso
+  in sources, §3.6), e gli _index delle cartelle che il pilota toccherà.
+
+---------------------------------------------------------------------
+3. PASSO 2 — LA SUITE QA, IMPLEMENTATA E COLLAUDATA (metodo_03 §7-8)
+---------------------------------------------------------------------
+In 06_operativo\qa\: qa_frontmatter.py · qa_link_integrity.py ·
+qa_provenance.py · qa_copertura.py · qa_all.py · genera_llms.py.
+Esiti ERRORE/AVVISO esattamente come da tabelle di §7; ogni script
+accetta --perimetro lotto <elenco> | vault; report in
+06_operativo\qa\<data>_<lotto>\; codici di uscita 0/1/2.
+
+IL PROMPT DI GIUDIZIO della provenance (lo strato che le regex non
+coprono) si costruisce così, e al gate si congela:
+- deriva dalla disciplina del giudice P3 di metodo_02: rubrica chiusa,
+  una riga JSON per nota (nota, esito, motivazione di una riga),
+  nessuna riscrittura, niente generosità;
+- risponde SOLO alle due domande di §7.1: «ogni fonte elencata
+  contribuisce davvero?» e «la nota afferma qualcosa che le fonti non
+  dicono, pur senza numeri?»;
+- produce SOLO AVVISI, che entrano nel giro del revisore;
+- il giudice NON riceve il canone: confronta nota contro fonti, punto.
+  È un ruolo DIVERSO dal revisore (che invece il canone lo riceve);
+- gira in un contesto pulito: subagente dedicato, che riceve solo le
+  note del lotto e i grezzi citati;
+- dopo la validazione sul pilota, il testo del prompt diventa una
+  COSTANTE DATATA dentro qa_provenance.py: da lì in poi ogni lotto
+  viene giudicato con le stesse parole.
+
+COLLAUDO PRIMA DELL'USO: crea in 06_operativo\qa\_collaudo\ due note
+sintetiche — una corretta e una con errori piantati apposta (fonte
+inventata, numero senza riscontro, wikilink rotto, area fuori
+vocabolario, stato sbagliato) — e verifica che la suite trovi TUTTO
+ciò che deve trovare e NIENTE di ciò che non deve. La cartella di
+collaudo non entra mai nel vault.
+
+Per ogni script, la sua nota script-*.md in code\ (metodo_03 §1.3,
+esempio 27): cosa controlla, cosa considera errore, come si lancia.
+
+---------------------------------------------------------------------
+4. PASSO 3 — LA FETTA L26130, HUB-FIRST (metodo_03 §9.4)
+---------------------------------------------------------------------
+- Proponi con AskUserQuestion l'elenco dei 15-20 grezzi della fetta,
+  con un'opzione consigliata già composta (il nucleo del caso: log
+  pastorizzatore, OEE, mass balance, MOD-QA-07 e MOD-QA-31, reclamo
+  eml, richiesta 48 ore, lettera in bozza, le due foto, report fermo
+  macchina, eml ricambio valvola, inventario FEFO, registro NC,
+  trascrizione riunione, verbale ATS, estratto HACCP per il CCP2).
+- Poi costruisci nell'ordine di §9.4: _index toccati → hub → schede
+  entità → atomiche, conflitti, kpi → aggiornamento di _index e hub.
+- USA gli esempi compilati di metodo_03 come note reali dove esistono
+  (fatto-deviazione-ccp2-l26130, lotto-l26130, macchina-pkm-450,
+  questione-pezzi-prodotti-l26130, concetto-fefo, _index-entities):
+  sono già stati verificati sui file — completali dove il manuale li
+  tronca, non riscriverli da zero.
+- WATCH-ITEM (decision log del 15/08): la frase «giorno giuliano 130»
+  nell'hub del lotto deve passare la provenance. Se nessun grezzo
+  sostiene la decodifica, riformula come inferenza dichiarata («i
+  documenti letti insieme mostrano che…») e annota l'esito al gate.
+- Budget: 20-30 note. Ogni nota rispetta §2 (frontmatter), §4
+  (naming e link), §5 (un fatto, un padrone). Salva lo stato ogni
+  ~10 note.
+
+---------------------------------------------------------------------
+5. PASSO 4 — QA, GIUDIZIO, REVISIONE (metodo_03 §9.5)
+---------------------------------------------------------------------
+1) qa_all.py --perimetro lotto → si prosegue solo con zero ERRORI;
+   gli AVVISI si motivano per iscritto nello stato.
+2) Strato di giudizio della provenance: subagente pulito, come sopra.
+3) REVISORE INDIPENDENTE: altro subagente, contesto nuovo, CON canone
+   e alias_entita alla mano (è l'unico che li riceve oltre a te).
+   Briefing di §9.5 passo 3, classificazione A/B/C. Ricorda al
+   revisore che una nota che «corregge» una trappola è categoria A.
+4) Correzioni propagate (anche alle note sorelle), QA di nuovo da
+   capo, llms.txt rigenerato con genera_llms.py.
+
+---------------------------------------------------------------------
+6. PASSO 5 — MINI-MISURA DI FUMO (numeri NON ufficiali)
+---------------------------------------------------------------------
+Scopo: capire se le note della fetta migliorano le risposte sulle
+domande che la riguardano. Non finisce nel README.
+
+a) Scrivi 06_operativo\qa\prepara_fumo.py: legge
+   03_valutazione\eval_set.jsonl e scrive in
+   06_operativo\qa\fumo_ids.txt SOLO gli id delle domande le cui
+   fonti sono tutte dentro la fetta. Nient'altro: né domande né
+   risposte. Tu NON apri eval_set: lo fa lo script.
+b) Prepara due prompt in 06_operativo\prompt\:
+   - prompt_s2_fumo_risposte.txt — il P1 di metodo_02 adattato:
+     perimetro = l'intero vault aurora-cervello esclusa .obsidian\
+     (addendum di metodo_02), domande = i soli id di fumo_ids.txt
+     presi da 03_valutazione\domande_solo.jsonl, salvataggio in
+     append su 04_misurazioni\fumo_s2_<data>\fumo_risposte.jsonl.
+     Clausole di perimetro e di astensione IDENTICHE al P1.
+   - prompt_s2_fumo_giudice.txt — il P3 adattato: giudica le risposte
+     della fumo contro eval_set.jsonl, una riga JSON per id, stessi
+     quattro esiti; in coda produce anche il confronto con l'esito
+     che la baseline A aveva avuto SUGLI STESSI id (li legge da
+     04_misurazioni\baseline_2026-08-14_grezzo\valutazione.jsonl).
+c) Chiedi con AskUserQuestion come eseguire i due passi:
+   - CONSIGLIATO: due sessioni terminale separate (il rispondente in
+     una sessione nuova che non ha mai visto il canone, il giudice in
+     un'altra) — perimetro fisico, come nella baseline;
+   - alternativa: due subagenti a contesto pulito — più rapido,
+     perimetro solo da prompt, accettabile perché la fumo non è
+     ufficiale.
+   Con l'ok, coordina, raccogli gli esiti e prepara la sintesi.
+
+---------------------------------------------------------------------
+7. GATE FINALE (AskUserQuestion), poi chiusura
+---------------------------------------------------------------------
+Presenta, coi numeri contati da qa_all.py e mai a memoria:
+- note prodotte per cartella e per type; esito QA (errori risolti,
+  avvisi motivati); collaudo della suite;
+- rilievi del revisore in A/B/C e come sono stati chiusi (le B
+  aggiunte al canone in sezione datata);
+- esito del watch-item sull'hub del lotto;
+- esito della fumo: quante corrette/parziali/sbagliate sul
+  sottoinsieme, e il confronto con la baseline A sugli stessi id;
+- proposta di emendamenti a metodo_03, classificati (refuso /
+  chiarimento / regola nuova), ciascuno con il motivo;
+- il testo definitivo del prompt di giudizio da congelare.
+Con la mia approvazione, e solo allora:
+a) applica gli emendamenti a metodo_03 (elenca le sezioni toccate);
+b) congela il prompt di giudizio in qa_provenance.py, con la data;
+c) ricordami di attivare in Obsidian «Detect all file extensions»
+   (Files & Links) — senza, i link ai grezzi non si risolvono a video;
+d) aggiorna scaletta (spunta S2 con riga di esito), stato
+   (06_operativo\stato_canonizzazione.md), decision log;
+e) chiudi coi QUATTRO gesti: stato, decision log, commit, git push.
+NON iniziare la Sessione 3 né la 4. Se avanzi tempo, fermati: il
+confine di sessione è parte del metodo.
+
+---------------------------------------------------------------------
+8. METODO DI LAVORO E STOP-LOSS
+---------------------------------------------------------------------
+- AskUserQuestion a ogni bivio non già deciso da metodo_03 o da questo
+  prompt: 2-4 opzioni, compromessi dichiarati, la consigliata prima.
+- Subagenti a contesto pulito per giudizio e revisione; tu non
+  revisioni ciò che hai scritto.
+- Se un controllo boccia una nota, PRIMA l'ipotesi che sia il
+  controllo a essere ingenuo (metodo_01 §8), poi la correzione.
+- Stop-loss della scaletta: se il design non regge, ci si ferma e si
+  riporta al gate — non si rattoppa in silenzio, non si ammorbidisce
+  la QA, semmai si rimpicciolisce il lotto.
+
+COSA NON FARE — riassunto secco: niente modifiche ai grezzi (né in
+Desktop\sources né in 02_corpus\ né nella copia del vault); mai aprire
+03_valutazione\ fuori dalle due eccezioni strumentali; il canone non è
+una fonte e non entra nel vault; niente fatti senza riscontro; mai la
+data di oggi come data_fatto; niente dodicesima cartella; niente
+industrializzazione; un lotto si chiude con --perimetro lotto verde,
+non vault; e la sessione si chiude coi quattro gesti, push compreso.
+=====================================================================

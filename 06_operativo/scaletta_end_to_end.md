@@ -112,6 +112,17 @@ documento prima di toccare una sola nota.
 
 ## Sessione 2 — Fetta pilota verticale · Terminale: radice del repository
 
+- [x] **FATTA il 16-17/08/2026 — design validato al gate.** 22 grezzi del caso L26130 →
+      **63 note** (46 di contenuto, 11 `_index`, 6 note-strumento), con 11 questioni aperte.
+      Suite QA implementata e **collaudata** (5 difetti piantati su 5 trovati, 0 falsi
+      positivi), QA di lotto **verde**, copertura 22/22. Strato di giudizio della provenance
+      su tutte le 46 note candidate (42 pulite); revisione indipendente col canone: 13 A ·
+      5 B · 10 C, tutte chiuse, le 5 B registrate nel canone in sezione datata. Mini-misura
+      di fumo su 30 domande, **numeri non ufficiali**: 28/30 corrette contro 23/30 della
+      baseline A sugli stessi id, fonti 30/30 contro 27/30, **zero peggioramenti**.
+      **19 emendamenti a metodo_03** approvati e applicati; prompt di giudizio congelato in
+      `qa_provenance.py`. Rapporto di gate: `06_operativo/rapporto_gate_s2.md`.
+
 15-20 file del caso L26130 (NC, reclamo REC-2026-011, log pastorizzatore, mass
 balance, MOD-QA, lettere al cliente, audit, ispezione) → 20-30 note nel vault, con
 hub, almeno una nota conflitto e una questione aperta. Suite QA completa + revisore

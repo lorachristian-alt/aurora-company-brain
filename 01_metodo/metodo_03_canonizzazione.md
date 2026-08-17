@@ -312,7 +312,7 @@ related: "[[lotto-l26130]], [[doc-ccp2-limite-critico]], [[macchina-pt-104]], [[
 | Campo | Tipo | Regola |
 |---|---|---|
 | `title` | stringa fra virgolette | Il titolo leggibile, con accenti e maiuscole. **Non** è il nome del file. Deve essere comprensibile da solo, fuori dal vault: è ciò che il RAG mostra accanto al passaggio. |
-| `summary` | stringa fra virgolette | **Una frase sola**, ≤ 250 caratteri, che risponde già alla domanda a cui la nota risponde. Niente «questa nota descrive…»: si scrive il fatto. |
+| `summary` | stringa fra virgolette | **Una frase sola**, ≤ 250 caratteri, che risponde già alla domanda a cui la nota risponde. Niente «questa nota descrive…»: si scrive il fatto. ⚠️ **Se la nota stabilisce una regola decisionale — quale fonte prevale su quale, e a che titolo — il `summary` la enuncia** (E18). È il `summary` che il retrieval mostra per primo: una regola che vive solo nel corpo non arriva a chi legge la risposta. |
 | `type` | uno di 8 valori | `atomica` · `hub` · `entita` · `conflitto` · `concetto` · `index` · `sessione` · `daily`. Nessun altro valore è ammesso. |
 | `area` | uno di 10 valori | Vocabolario **chiuso**, §2.2. |
 | `tags` | lista | **Il primo tag è sempre il nome esatto della cartella** (in inglese: `areas`, `entities`, …). Dal secondo in poi in italiano, minuscoli, senza accenti, con trattini. **I canali commerciali sono TAG, mai cartelle** — vedi sotto. |
@@ -321,7 +321,7 @@ related: "[[lotto-l26130]], [[doc-ccp2-limite-critico]], [[macchina-pt-104]], [[
 | `aliases` | lista | Le varianti con cui il soggetto compare nei grezzi. Vedi §6. Lista vuota `[]` se non ce ne sono. |
 | `data_fatto` | `YYYY-MM-DD` | Quando è successo il fatto **secondo le fonti**. Mai la data di oggi, mai una data dedotta. |
 | `data_nota` | `YYYY-MM-DD` | Quando la nota è stata scritta. È l'unica data che può coincidere con oggi. |
-| `related` | stringa fra virgolette, **una riga** | Wikilink separati da virgola. Le virgolette sono obbligatorie: senza, `[[x]]` è YAML non valido. |
+| `related` | stringa fra virgolette, **una riga** | Wikilink separati da virgola. Le virgolette sono obbligatorie: senza, `[[x]]` è YAML non valido. ⚠️ **Il primo hub elencato in `related` è l'hub PROPRIO della nota** (E11): è quello su cui si verifica la reciprocità di §7.2, e quello che deve elencarla nel corpo. Gli altri wikilink di `related` sono rimandi laterali e non creano alcun obbligo di reciprocità. |
 | `verifica` | `visiva` | **Solo** quando fra le `fonti` c'è un `.jpg`: dichiara che il riscontro è stato fatto a occhio, perché l'estrattore di testo è cieco sulle immagini (§2.3). Assente in tutti gli altri casi. |
 
 ⚠️ **Tre trappole YAML che costano un pomeriggio se si scoprono tardi.**
@@ -460,9 +460,9 @@ sostituisce l'altro.
 
 | Formato del grezzo | Forma del locator | Esempio |
 |---|---|---|
-| `.log` | `righe <ts_inizio>→<ts_fine>, campo <NOME>` oppure `riga <ts>` | `righe 14:20:07→14:44:37, campo T_CUORE` |
+| `.log` | `righe <ts_inizio>→<ts_fine>, campo <NOME>` · `riga <ts>` · `§piè di pagina` o `§intestazione` per le righe di riepilogo che **non hanno timestamp** (E19) | `righe 14:20:07→14:44:37, campo T_CUORE` · `§piè di pagina` |
 | `.csv` | `riga <n>` oppure `riga <chiave>, colonna <NOME>` | `riga 145, colonna Pz_prodotti` |
-| `.xlsx` | `foglio «<Nome>», riga <n>` oppure `foglio «<Nome>»!<cella>` | `foglio «A valle», righe 6-9` |
+| `.xlsx` | `foglio «<Nome>», riga <n>` · `foglio «<Nome>», righe <n>-<m>` · `foglio «<Nome>»!<cella>` | `foglio «A valle», righe 6-9` |
 | `.pdf` | `pag. <n>, §<sezione>` | `pag. 1, §4 «Misurazione del frammento»` |
 | `.eml` | `corpo, punto <n>` oppure `header <Nome>` | `corpo, punto 3)` |
 | `.txt` (trascrizioni) | `[hh:mm:ss], <PARLANTE_n>` | `[00:03:02], PARLANTE_3` |
@@ -471,8 +471,15 @@ sostituisce l'altro.
 | `.p7m` | `busta, contenuto <nome>.xml, elemento <Percorso/Elemento>` | `busta, contenuto IT03984710230_00215.xml, elemento CedentePrestatore/DatiAnagrafici` |
 | `.jpg` | `verifica visiva` — vedi sotto | `verifica visiva, riferimento metrico in foto` |
 
+**Il locator è il PREFISSO della riga, non la riga intera** (E5). Dopo di esso è ammesso —
+ed è desiderabile — il testo che dice cosa si trova in quel punto: la grammatica si verifica
+sull'aggancio iniziale, non su tutta la riga.
+
 Dopo il locator si può aggiungere una citazione fra virgolette basse: deve esistere
-**testualmente** nel file (§7.1).
+**testualmente** nel file (§7.1). ⚠️ Sono verificate come citazioni solo le sequenze di
+**almeno cinque parole** (E6): sotto quella soglia le virgolette basse marcano un nome di
+foglio, un titolo di sezione o un'etichetta di colonna — che in italiano si scrivono così, e
+che questo manuale stesso scrive così nei propri esempi.
 
 ⚠️ **Le due FatturaPA e la busta firmata hanno una forma propria, e serve.** Un `.xml` a
 tracciato non ha pagine né righe stabili: l'unico riferimento che regge è il **percorso
@@ -504,13 +511,33 @@ non compare da nessuna parte (§5.5).
 | `type` | ● | ● | ● | ● | ● | ● | ● | ● |
 | `area` | ● | ● | ● | ● | ○ | — | ○ | — |
 | `tags` | ● | ● | ● | ● | ● | ● | ● | ● |
-| `fonti` | ● non vuoto | ● non vuoto | ● non vuoto | ● **≥ 2 file diversi** | ● non vuoto | — | ○ | ○ |
+| `fonti` | ● non vuoto ¹ | ● non vuoto | ● non vuoto | ● **≥ 2 file diversi** | ● non vuoto | — | ○ | ○ |
 | `stato` | ● | ● (`attivo`\|`chiuso` se in `projects\`) | ● | ● = `aperto` | ● | — | — | — |
 | `aliases` | ○ | ○ | ● (anche `[]`) | ○ | ○ | — | — | — |
 | `data_fatto` | ● se il fatto ha una data | ○ | ○ | ○ | — | — | — | — |
 | `data_nota` | ● | ● | ● | ● | ● | ● | ● | ● |
 | `related` | ○ | ● | ○ | ● | ○ | — | ○ | ○ |
 | `verifica` | ● se c'è un `.jpg` in `fonti` | ● idem | ● idem | ● idem | ● idem | — | — | — |
+
+¹ **facoltativo per la nota-strumento** — `code\script-*.md` — vedi il riquadro qui sotto.
+
+⚠️ **L'unica esenzione da `fonti`: la NOTA-STRUMENTO** (E1, gate del 16/08/2026). Una nota
+di `code\` il cui nome comincia per **`script-`** documenta un attrezzo del progetto — uno
+script della suite QA, un generatore di derivati — che **non discende da nessun grezzo del
+corpus**. Non esiste una fonte legittima da citare: l'unico documento che la descrive è un
+documento di metodo, e citarlo è vietato (§2.3, divieti 7-8). Per queste note `fonti` e il
+blocco `## Fonti` sono **facoltativi**, e in loro assenza il corpo deve indicare **il
+percorso del sorgente nel repository**, che è ciò che rende la nota verificabile.
+
+**L'esenzione vale per la nota-strumento, non per la cartella.** Una nota di `code\` che
+documenta un'**automazione aziendale** — l'OCR dei documenti di trasporto, l'integrazione fra
+gestionale e ordini elettronici, la pipeline di ricerca — parla di un fatto di Aurora, ha
+grezzi che la attestano e **resta a schema pieno**, `fonti` comprese. Il discrimine è il
+prefisso, non la cartella.
+
+⚠️ **Le note esenti da `fonti` restano fuori dallo strato di giudizio della provenance**
+(§7.1): non avendo fonti, non c'è nulla contro cui giudicarle. **Si rivedono a occhio a ogni
+gate**, ed è l'unico controllo che le riguarda oltre allo schema.
 
 Le cinque righe che fanno il lavoro pesante:
 
@@ -616,9 +643,12 @@ related: "[[lotto-l26130]], [[doc-ccp2-limite-critico]], [[macchina-pt-104]], [[
 
 Domenica 10 maggio 2026, sul turno 2 della Linea 1, il datalogger del pastorizzatore
 PT-104 registra la temperatura al cuore sotto il limite critico di 72,0 °C in modo
-continuo **dalle 14:20:07 alle 14:44:37** — 50 letture consecutive a intervalli di
-30 secondi. Il valore minimo è **68,9 °C**, con flag `ALARM` sul tracciato. Il lotto in
-lavorazione è `L26130-L1-T2`. Alle 14:49:37 il processo è rientrato: 74,4 °C.
+continuo **dalle 14:20:07 alle 14:44:37** — **50 letture consecutive** (contate sul
+tracciato: una ogni 30 secondi nella finestra indicata). Il valore minimo è **68,9 °C**,
+alle 14:21:07. La prima lettura fuori limite, alle 14:20:07, porta il flag `WARN` a
+69,0 °C; dalle 14:20:37 il flag diventa `ALARM` e resta tale fino alla fine della finestra,
+per **49 letture**. Il lotto in lavorazione è `L26130-L1-T2`. Il rientro sopra il limite
+avviene alle **14:45:07** con 72,3 °C, e il flag torna `OK` alle **14:47:07** con 74,8 °C.
 
 Dalle 15:01 circa la temperatura torna a scendere e **non risale più**: 70,9 °C alle
 15:06, 69,1 alle 15:18, 64,3 alle 15:43, 61,4 alle 16:08. È il raffreddamento a linea
@@ -641,8 +671,8 @@ cartaceo dello stesso turno riporta invece «74,5 conforme»: il confronto sta i
 ## Fonti
 
 - [[log_temperature_pastorizzatore_linea1_10_05_26.log]] — righe 14:20:07→14:44:37,
-  campo `T_CUORE`; minimo `68.9` alle 14:21:07 con flag `ALARM`; rientro a `74.4` alle
-  14:49:37; riga 16:10:07 con `-999.9` e flag `FAULT`.
+  campo `T_CUORE`; minimo `68.9` alle 14:21:07 con flag `ALARM`; rientro a `72.3` alle
+  14:45:07 e a `74.8` con flag `OK` alle 14:47:07; riga 16:10:07 con `-999.9` e flag `FAULT`.
 - [[trascrizione_riunione_direzione_12_05_2026.txt]] — `[00:03:02]`, `PARLANTE_3`
   (Marchetti, identificata in `alias_entita.md` §A.2): «dalle 14 e 18 alle 14 e 47 la
   temperatura e scesa sotto i 72 gradi il minimo registrato e 68 virgola 9».
@@ -1028,7 +1058,7 @@ Il criterio ha già prodotto una non conformità: vedi
   fondo alla coda.
 
 ## Fonti
-- [[inventario_magazzino_scadenze_FEFO_maggio.csv]] — intestazione riga 1 «logica FEFO»; colonna `gg_alla_scadenza`; riga `A-01-01 / FAR-0-W300 / MV26-0402/B`, nota «usare per prima - FEFO».
+- [[inventario_magazzino_scadenze_FEFO_maggio.csv]] — riga 1, colonna `intestazione`: la logica FEFO dichiarata in testa al file; riga 4, colonna `gg_alla_scadenza`, con la nota «usare per prima - FEFO» sul lotto `MV26-0402/B`.
 - [[non_conformita_interne_registro_2026.csv]] — riga `NC-2026-002` del 08/01/2026, «Rotazione FEFO non rispettata su farina tipo 00, bancale con scadenza piu vicina dietro».
 ```
 
@@ -1230,6 +1260,31 @@ si parte dal fatto e si raccolgono i documenti che lo attestano.
 corretta alla stessa domanda userebbe l'una **al posto** dell'altra? Se sì, è un fatto
 solo e serve una padrona. Se le userebbe **insieme**, sono due fatti e due note.
 
+### 5.1-bis La riconciliazione incrociata dei numeri — obbligatoria dentro il lotto
+
+**Quando due grezzi dello stesso lotto riportano la stessa grandezza, i due valori si
+confrontano, e l'esito del confronto si scrive** (E2). Vale anche — anzi, soprattutto —
+quando i due numeri finiscono in **note diverse**: è lì che la divergenza diventa invisibile,
+perché ciascuna nota è corretta rispetto alla propria fonte e nessuno guarda le due insieme.
+
+Il confronto ha tre esiti possibili, tutti da scrivere:
+
+- **coincidono** → si dichiara in una riga nella nota padrona, e vale come conferma;
+- **divergono e l'archivio dà un vincitore** → nota padrona `risolto` (§5.2);
+- **divergono e l'archivio non lo dà** → questione aperta (§5.3).
+
+⚠️ **Non basta che ogni nota sia corretta rispetto alla propria fonte.** Il pilota della
+Sessione 2 ha mancato due divergenze con entrambe le gambe dentro la fetta — 348 contro 330
+pezzi scartati al riavvio, e una non conformità che scriveva «conferma origine interna»
+mentre il rapporto di laboratorio che citava dichiarava di non poter attribuire l'origine.
+Nessuna delle note coinvolte conteneva un errore: mancava il confronto.
+
+**Come si esegue, in pratica.** Alla chiusura di un lotto si elencano le grandezze che
+compaiono in più di una fonte — pezzi prodotti, scarti, durate, date, quantità, codici — e
+per ciascuna si verifica cosa dicono tutte le fonti del lotto che la nominano. È il
+controllo che `qa_copertura.py` prepara con l'elenco delle note per tema, e che il revisore
+indipendente esegue col canone alla mano.
+
 ### 5.2 Contraddizione con vincitore → nota padrona, `stato: risolto`
 
 Quando l'archivio, letto per intero, indica quale fonte prevale:
@@ -1276,7 +1331,11 @@ nessuna fonte.
 
 1. Nel corpo compare **la formula con i suoi addendi**, non solo il risultato:
    «5.100 + 1.440 + 1.180 + 220 = **7.940**, contro gli 8.940 dichiarati: scarto di
-   **1.000** pezzi».
+   **1.000** pezzi». ⚠️ **Vale anche per i valori CONTATI, non solo per quelli sommati**
+   (E7): un conteggio è un valore derivato quanto una somma, e si dichiara con il criterio
+   fra parentesi — «**50 letture** *(contate sul tracciato: una ogni 30 secondi dalle
+   14:20:07 alle 14:44:37)*». Senza la dichiarazione, il numero è un fatto senza fonte,
+   perché nel file non compare da nessuna parte.
 2. **Ogni addendo** ha il suo riscontro nelle fonti citate, con locator.
 3. Il corpo dice esplicitamente che il totale è calcolato e che il foglio non lo
    contiene.
@@ -1423,7 +1482,7 @@ Perciò ogni script accetta `--perimetro lotto <elenco-file>` oppure `--perimetr
 
 | Modalità | Quando | Cosa cambia |
 |---|---|---|
-| `--perimetro lotto` | a ogni lotto, §9.5 passo 2 | copertura, aree popolate e componente unica si valutano **solo sui file e sulle note del lotto**; gli altri controlli sono identici |
+| `--perimetro lotto` | a ogni lotto, §9.5 passo 2 | copertura, aree popolate e componente unica si valutano **solo sui file e sulle note del lotto**; gli altri controlli sono identici. ⚠️ **Anche la copertura degli `_index` e la componente unica si valutano sulle sole cartelle che il lotto tocca** (E13): pretenderle su tutte e undici fa fallire ogni lotto per un difetto che è soltanto l'incompletezza del vault, e la reazione naturale sarebbe ammorbidire la QA |
 | `--perimetro vault` | al pass finale delle Sessioni 4-5, e prima di ogni misura | tutti i controlli, su tutto |
 
 Un lotto non si chiude con `--perimetro vault` verde: si chiude con `--perimetro lotto`
@@ -1494,6 +1553,14 @@ sconti: sono i casi che il corpus impone e che una regola ingenua non prevede.
    ma anche una nota che cita «Marchetti» fallisce contro una trascrizione che scrive
    `PARLANTE_3`, e una che cita «Alì» fallisce contro un foglio che ha perso l'accento.
    Si applica `alias_entita.md` prima di ogni confronto.
+
+   ⚠️ **La normalizzazione comprende altre tre operazioni, e senza di esse boccia note
+   corrette** (E8): togliere il **quoting delle mail** — il `>` a inizio riga, che spezza a
+   metà le citazioni delle `.eml` inoltrate, ed è la forma in cui vive metà della
+   corrispondenza di questo corpus; generare le **varianti di data a due e a quattro cifre
+   d'anno**, perché il corpus usa tre formati e una nota che scrive `10/05/2026` va
+   confrontata con un foglio che scrive `10/05/26`; rimuovere l'**enfasi markdown** dalla
+   nota, che nel grezzo non c'è.
 2. **Valori derivati: si verificano gli addendi, non il risultato** (§5.4). Un totale
    calcolato è corretto se ogni addendo ha riscontro e la formula è scritta nel corpo.
    Un totale senza addendi resta un ERRORE.
@@ -1508,6 +1575,19 @@ sconti: sono i casi che il corpus impone e che una regola ingenua non prevede.
 5. **Coerenza interna disattivata su `type: conflitto`.** Quelle note contengono valori
    divergenti per costruzione: è il loro scopo. Tutti gli altri controlli restano attivi.
 
+   ⚠️ **Il controllo di coerenza interna si esegue dopo aver rimosso gli orari** (E14).
+   Altrimenti «dalle 14:20:07 alle 14:44:37» viene letto come l'etichetta «dalle 14» con due
+   valori diversi, e il controllo boccia proprio le note che descrivono bene una finestra
+   temporale — cioè quelle che contano.
+
+6. **Le note-strumento restano fuori da questo controllo.** Non avendo `fonti` (§2.4, E1),
+   non c'è nulla contro cui verificarle: si rivedono a occhio a ogni gate.
+
+⚠️ **Il pacchetto per lo strato di giudizio usa un delimitatore che non può comparire dentro
+un grezzo** (E10). Con un marcatore comune come `NOTA:` il conteggio delle note inviate si
+falsa, perché quella stringa compare anche nel testo dei documenti allegati come fonte — è
+successo con il manuale HACCP.
+
 ### 7.2 `qa_link_integrity.py` — zero rotti, zero orfani, un grafo solo
 
 | Controllo | Regola | Esito |
@@ -1518,8 +1598,8 @@ sconti: sono i casi che il corpus impone e che una regola ingenua non prevede.
 | Copertura di prossimità | nota raggiungibile, ma non entro **due salti** dall'`_index` della **propria** cartella | AVVISO |
 | Componente unica | il grafo delle note, considerato **non orientato**, ha **una sola** componente connessa | ERRORE |
 | Copertura degli `_index` | ognuna delle **11** cartelle del vault ha il suo `_index-<cartella>.md` | ERRORE |
-| Minimo wikilink | ≥ 2 link uscenti verso altre note, esclusi quelli verso `sources\` e i link ricevuti dagli `_index` | **AVVISO** |
-| Reciprocità hub/spoke | ogni nota che dichiara un hub in `related` è elencata nel corpo di quell'hub | AVVISO |
+| Minimo wikilink | ≥ 2 link uscenti verso altre note, esclusi quelli verso `sources\` e i link ricevuti dagli `_index`. **Contano anche i wikilink di `related`** (E12): è lì che vive il rimando spoke → hub, e contare il solo corpo segnalerebbe come poco collegata una nota che dichiara cinque relazioni | **AVVISO** |
+| Reciprocità hub/spoke | la nota è elencata nel corpo del **primo hub** citato in `related`, che è il suo hub proprio (§2.1, E11). Gli altri hub citati sono rimandi laterali e non creano obbligo; le note `type: hub` sono escluse dal controllo, perché un hub che rimanda a un hub vicino non è uno spoke | AVVISO |
 | **Eredi di un progetto chiuso** | ogni nota-progetto con `stato: chiuso` linka almeno una nota in `outputs\`, `areas\` o `code\` (§1.4) | **AVVISO** |
 | Testimone dichiarato | la nota erede porta la riga «nato da `[[progetto-…]]`» verso il progetto che la ha generata | AVVISO |
 
@@ -1809,6 +1889,15 @@ Il motivo è meccanico: i wikilink devono puntare a note esistenti (§4.2). Cost
 prima le foglie significa scrivere link rotti e ripassare a chiuderli — che è
 esattamente il modo in cui nascono gli orfani.
 
+**Il budget di un lotto si misura sulle NOTE DI CONTENUTO** (E17): sono escluse dal conteggio
+gli `_index` — che sono apparato di navigazione e nascono per cartella toccata, non per fatto
+— e le note-strumento di `code\`, che documentano attrezzi del progetto e non fatti
+dell'azienda. **Il budget si fissa lotto per lotto nel prompt di quel lotto**, non una volta
+per tutte qui: dipende da quanti fatti portano i grezzi scelti, che è cosa diversa dal loro
+numero. Il pilota della Sessione 2 ha prodotto **41 note di contenuto su 22 grezzi** — poco
+meno di due note per documento — ed è il primo dato disponibile per dimensionare i lotti
+successivi.
+
 ### 9.5 Il ciclo di un lotto, senza scorciatoie
 
 ```
@@ -1833,7 +1922,11 @@ note → suite QA → revisore indipendente → correzioni propagate → suite Q
    senza registro hanno già segnalato 82 problemi, in buona parte trappole (metodo_01 §4).
 4. **Correzioni propagate.** Una correzione non si applica solo dove il revisore l'ha
    vista: si cerca lo stesso errore in tutte le note del lotto e nei lotti precedenti.
-5. **Suite QA di nuovo**, da capo.
+5. **Suite QA di nuovo**, da capo — **e con essa lo strato di giudizio su ogni nota nuova o
+   modificata dalle correzioni** (E9). Senza questa riga le note nate dalla revisione
+   escono dal lotto senza aver mai visto il giudizio: nel pilota della Sessione 2 sono state
+   otto, cioè un quinto delle note di contenuto, ed è un buco che si apre proprio sulle note
+   scritte di fretta a fine sessione.
 6. **Stato su disco** (`06_operativo\stato_canonizzazione.md`): lotto chiuso, note
    prodotte, esito QA, avvisi motivati, cosa resta.
 7. **Voce nel decision log** (`06_operativo\decision_log.md`): ogni scelta di design
@@ -1885,6 +1978,15 @@ significherebbe misurare un archivio che contiene già tutte le risposte.
     calcolata: l'estrattore la legge `None`.
 12. Non far passare un'inferenza per un dato della fonte. L'attribuzione di una battuta
     a un nome, in una trascrizione con «parlanti non verificati», è un'inferenza.
+12-bis. **Non dichiarare un'ASSENZA senza averla cercata su tutto `sources\`.** Scrivere
+    «nessun grezzo dice X» è affermare un fatto, e va verificato come un fatto: con una
+    ricerca sull'intera cartella, non sui documenti dove ci si aspettava di trovarlo.
+    L'assenza verificata si **data e si riferisce al manifest** — «verificata su tutto
+    `sources\`, manifest v1.1, 16/08/2026» — così quando arriverà il corpus v2 si saprà che
+    va rifatta, invece di marcire in silenzio dentro una nota che sembra ancora vera.
+    ⚠️ Il pilota della Sessione 2 ha scritto che nessun grezzo conteneva la regola di
+    composizione del codice di lotto: il manuale HACCP la dichiara in due punti, ed era
+    dentro la fetta.
 
 **Sulle date e sui metadati**
 13. **Mai la data di oggi come `data_fatto`.** Se non si sa quando, il campo si omette.

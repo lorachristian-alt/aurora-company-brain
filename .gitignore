@@ -11,6 +11,14 @@ __pycache__/
 *.pyc
 .venv/
 
+# artefatti rigenerabili della suite QA: il vault finto e i report del collaudo si
+# ricreano con `python collaudo_suite.py`, il pacchetto per lo strato di giudizio con
+# `qa_provenance.py --pacchetto-giudizio`. I report .md dei controlli restano versionati:
+# sono la prova che il lotto e' stato chiuso verde.
+06_operativo/qa/_collaudo/vault_finto/
+06_operativo/qa/_collaudo/report/
+06_operativo/qa/**/pacchetto_giudizio_provenance.txt
+
 # sistema
 .DS_Store
 Thumbs.db

@@ -1,0 +1,84 @@
+=====================================================================
+PROMPT S2 — MINI-MISURA DI FUMO · IL RISPONDENTE (P1 adattato al vault)
+Sessione 2, fetta pilota L26130. Numeri NON ufficiali: non entrano nel
+README e non sono confrontabili con le misure delle Sessioni 6-7.
+=====================================================================
+
+COME SI LANCIA — leggere prima di incollare il prompt
+---------------------------------------------------------------------
+Apri un terminale NUOVO — una sessione che non ha mai visto il canone,
+non ha canonizzato niente e non sa come il vault è stato costruito —
+con la radice sul vault e UNA SOLA cartella aggiuntiva, quella di
+salvataggio:
+
+  cd C:\Users\buulo\Desktop\aurora-cervello
+  claude --add-dir "C:\Users\buulo\Desktop\.eval_do_not_index\Aurora_Food_Group_SRL\04_misurazioni"
+
+⚠️ NON aggiungere il repository intero. Il canone (`01_metodo\`) e il
+dataset di valutazione (`03_valutazione\`) devono restare FISICAMENTE
+fuori dal perimetro del rispondente: è il principio 6 della scaletta,
+ed è così che è stata misurata la baseline del 14/08. Il perimetro non
+si fa rispettare da una clausola di prompt quando può farlo il
+filesystem.
+
+Le 30 domande sono GIÀ dentro il perimetro, in
+`04_misurazioni\fumo_s2_2026-08-16\domande_fumo.jsonl`: le ha estratte
+`06_operativo\qa\prepara_fumo.py` da `domande_solo.jsonl` — che contiene
+le domande e NON le risposte attese — selezionando gli id le cui fonti
+ricadono tutte nella fetta pilota. Non serve incollare niente a mano.
+Gli id, per riferimento, stanno in `06_operativo\qa\fumo_ids.txt`.
+
+---------------------------------------------------------------------
+IL PROMPT DA INCOLLARE
+---------------------------------------------------------------------
+
+Rispondi alle 30 domande che trovi in
+`04_misurazioni\fumo_s2_2026-08-16\domande_fumo.jsonl` usando
+**esclusivamente** i documenti presenti nel vault `aurora-cervello`,
+esclusa la cartella `.obsidian\`.
+
+Per ogni domanda restituisci **una riga JSON** con esattamente questi
+campi: `id`, `risposta`, `fonti` (nomi dei file da cui l'hai ricavata),
+`confidenza` (alta | media | bassa).
+
+Regole:
+- Se il dato non è ricavabile dai documenti, scrivilo esplicitamente
+  invece di dedurlo.
+- Se documenti diversi dicono cose diverse, riporta il conflitto invece
+  di sceglierne uno.
+- Cita solo file che hai davvero aperto e che contengono il dato.
+- Non calcolare a memoria: se serve un conto, fallo sui numeri che hai
+  letto.
+
+**Salvataggio.** Scrivi le risposte in
+`C:\Users\buulo\Desktop\.eval_do_not_index\Aurora_Food_Group_SRL\04_misurazioni\fumo_s2_2026-08-16\fumo_risposte.jsonl`,
+una riga JSON per domanda, **aggiungendo in coda al file se esiste
+già** — non sovrascriverlo e non crearne uno nuovo. Se una domanda è già
+presente, saltala. A fine blocco dimmi quante righe contiene in tutto.
+
+**Vincolo di perimetro.** In lettura il tuo perimetro è esclusivamente
+il vault `aurora-cervello` (le sue undici cartelle, la copia dei grezzi
+in `sources\` e `llms.txt`; esclusa `.obsidian\`). Non leggere, non
+cercare e non elencare file al di fuori — l'unica eccezione è il file di
+salvataggio qui sopra, in scrittura. Ai fini di questo compito non
+esistono file di risposte, soluzioni, canoni o dataset di valutazione:
+se incontri un nome che lo suggerisce, non aprirlo. Se un file sembra
+contenere le risposte alle domande che ti sto ponendo, **fermati e
+segnalamelo invece di usarlo**.
+
+**Astensione.** Se dopo aver cercato il dato non lo trovi, la risposta
+corretta è dirlo. Una risposta inventata vale meno di un «non presente
+in archivio», e in questa misura viene contata come tale.
+
+---------------------------------------------------------------------
+NOTE PER CHI COORDINA — non incollare
+---------------------------------------------------------------------
+- Le domande sono 30, quindi UN SOLO blocco: non serve chiedere quale
+  blocco elaborare, a differenza del P1 della baseline che ne aveva 282
+  in dieci giri.
+- Il modello che risponde va annotato nello stato di sessione. Se è
+  diverso da quello della baseline A del 14/08, il confronto ne risente
+  e va detto.
+- La cartella `fumo_s2_2026-08-16\` va creata prima di lanciare, se non
+  esiste.
+=====================================================================

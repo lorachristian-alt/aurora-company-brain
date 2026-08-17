@@ -109,6 +109,92 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   lotto («giorno giuliano 130 del 2026») nell'hub `lotto-l26130` dovrà passare la
   provenance · se nessun grezzo spiega la regola di composizione del codice, va
   riformulata come inferenza dichiarata. Lo verifica il pilota.
+- **2026-08-17** · **Sessione 2 CHIUSA: fetta pilota L26130 canonizzata, design validato.**
+  22 grezzi → 63 note (46 di contenuto, 11 `_index`, 6 note-strumento), QA di lotto verde
+  (0 errori, 33 avvisi motivati), copertura 22/22, suite QA collaudata (5 difetti piantati su
+  5 trovati, 0 falsi positivi), giudizio di provenance su tutte le 46 note candidate (42
+  pulite), revisione indipendente col canone (13 A · 5 B · 10 C, tutte chiuse) · **il design
+  regge: si può industrializzare nelle Sessioni 4-5.**
+- **2026-08-17** · S2 · Mini-misura di fumo su 30 domande, numeri NON ufficiali: **28/30
+  corrette contro 23/30 della baseline A sugli stessi id, fonti 30/30 contro 27/30, zero
+  peggioramenti** · stesso modello (`claude-opus-5`) e un solo blocco contro dieci, quindi due
+  asimmetrie a favore della fumo, entrambe dichiarate nel verbale. Il campione dice che il
+  design regge, non quanto rende.
+- **2026-08-17** · S2, chiusura · **Il giudizio di provenance rieseguito su tutto ha trovato
+  una fuga di canone**: una nota affermava una divergenza sui pezzi per cartone che nessuna
+  sua fonte conteneva, e che veniva dal report del revisore — l'unico ruolo che il canone lo
+  riceve · rimossa. È la prova che E9 (rigiudicare le note nate dalle correzioni) non è
+  burocrazia: quella nota era stata scritta dopo il primo giro di giudizio.
+- **2026-08-17** · S2, chiusura · **Il pass `--perimetro vault` è rosso e si lascia rosso**:
+  138 grezzi non ancora canonizzati e note-strumento staccate dal grafo · un lotto si chiude
+  con il perimetro di lotto verde; il vault verde è il traguardo delle Sessioni 4-5.
+  **Da decidere in S4:** agganciare le note-strumento al grafo o escludere `code\` dal
+  controllo di componente unica come `workspace\` e `sources\`.
+- **2026-08-17** · S2, gate · **Diciannove emendamenti a metodo_03 approvati e applicati.**
+  Tre regole nuove (E1 esenzione da `fonti` per le note-strumento; E2 riconciliazione
+  incrociata dei numeri fra fonti del lotto; E3 divieto di dichiarare un'assenza senza
+  ricerca su tutto `sources\`), cinque refusi (E4 grammatica `.xlsx`, E14 coerenza interna
+  sugli orari, E15 e E16 due esempi compilati che non corrispondevano ai file, E19 il piè di
+  pagina di un `.log` non era puntabile) e undici chiarimenti · il pilota è servito
+  esattamente a questo: far emergere dove la specifica non regge all'uso.
+- **2026-08-17** · S2, gate · **E1 vale per la NOTA-STRUMENTO, non per la cartella `code\`.**
+  Il discrimine è il prefisso `script-`: una nota che documenterà un'automazione aziendale —
+  OCR dei documenti di trasporto, integrazione EDI-ERP — parla di un fatto di Aurora, ha
+  grezzi che la attestano e resta a schema pieno · senza questa distinzione l'esenzione
+  diventerebbe una porta aperta su un'intera cartella. Nel corpo della nota-strumento va il
+  percorso del sorgente nel repository; queste note restano fuori dallo strato di giudizio e
+  si rivedono a occhio a ogni gate.
+- **2026-08-17** · S2, gate · **E18 — se una nota stabilisce una regola decisionale, il
+  `summary` la enuncia.** ⚠️ **Origine della regola:** la riserva del giudice su Q237 nella
+  misura di fumo, che ha notato come la prevalenza del datalogger sul registro cartaceo fosse
+  applicata nella conclusione ma non enunciata · **applicata come regola generale di vault a
+  tutte le note in cui ricorre, non come ritocco alla singola nota che una domanda della fumo
+  ha toccato**: adattare l'archivio alle domande viste sarebbe adattare l'oggetto misurato
+  alla misura. Il `summary` è ciò che il retrieval mostra per primo: una regola che vive solo
+  nel corpo non arriva a chi legge la risposta.
+- **2026-08-17** · S2, gate · **Il budget di un lotto si misura sulle note di CONTENUTO** —
+  esclusi gli `_index`, che nascono per cartella toccata, e le note-strumento — **e si fissa
+  lotto per lotto nel prompt di quel lotto**, non una volta per tutte nel manuale · dipende da
+  quanti fatti portano i grezzi scelti, che è cosa diversa dal loro numero. Densità misurata
+  sul pilota: **41 note di contenuto su 22 grezzi**, poco meno di due note per documento.
+- **2026-08-16** · S2 · **DA DECIDERE IN PRE-REGISTRAZIONE, PRIMA DELLA SESSIONE 6: come
+  conta `fonti_corrette` quando la risposta cita una NOTA del vault invece del grezzo.**
+  Nella misura di fumo è successo una volta (Q019: citati insieme il manuale HACCP e
+  `docs\doc-ccp2-limite-critico.md`). Nella misura «dopo» il perimetro è l'intero vault, quindi
+  il caso sarà frequente, mentre nella baseline A esistevano solo grezzi: se la nota conta
+  come fonte corretta, i due numeri misurano cose diverse · **proposta da discutere: la fonte
+  che conta resta il grezzo, la nota è navigazione e non provenienza.** Non è una decisione
+  presa: va presa prima di misurare, non dopo aver visto i numeri.
+- **2026-08-16** · S2 · Nel verbale del giudice della fumo, la citazione di Q019 è descritta
+  come «documento del canone»: **è invece una nota del vault**, e il canone era fisicamente
+  fuori dal perimetro montato del rispondente (`--add-dir` solo su `04_misurazioni\`) ·
+  l'interpretazione è corretta nel rapporto di gate e qui; **il testo del giudice NON è stato
+  toccato** e resta testimonianza di come un valutatore che vede solo i nomi dei file
+  interpreta un percorso `docs\….md`.
+- **2026-08-16** · S2 · Q237 riesaminata a occhio al gate, come previsto: esito **corretta**
+  confermato. La riserva del giudice — «la prevalenza è applicata nella conclusione ma non
+  enunciata come regola» — è fondata ma riguarda la forma, non la sostanza · vale però come
+  segnale: la regola di prevalenza datalogger/cartaceo è scritta nel corpo di
+  `fatto-registro-cartaceo-mod-qa-12` e non è arrivata nella risposta, quindi va portata nel
+  `summary`, che è ciò che il retrieval mostra per primo.
+- **2026-08-16** · S2 · **Nessuna modifica al prompt del rispondente per la Sessione 6 sulla
+  base degli esiti della fumo** · fra «prima» e «dopo» cambia solo la forma dell'archivio:
+  toccare lo strumento di misura dopo aver visto i numeri rende i due lati non confrontabili.
+  Il P1 resta quello congelato in metodo_02.
+- **2026-08-16** · S2 · I cinque conflitti non registrati trovati dal rispondente sono stati
+  classificati con script sulle gambe di ciascuno: **due sono buchi di canonizzazione** (tutte
+  le gambe in fetta — scarti al riavvio 348 contro 330; NC-2026-102 che scrive «conferma
+  origine interna» mentre il laboratorio dichiara di non attribuire l'origine) e **tre vanno
+  in lista di tracciamento per S4-S5** (almeno una gamba fuori fetta) · il quaderno del
+  capoturno `appunti_capoturno_quaderno_linea1_OCR.txt` è la gamba mancante di tutti e tre:
+  va messo in cima al lotto che tocca la Linea 1.
+- **2026-08-16** · S2 · Categoria C del revisore, annotate perché non tornino al lotto dopo:
+  8.940 contro 5.580 pezzi; i 1.000 pezzi non rendicontati con gli addendi dichiarati; la
+  finestra 14:20:07-14:44:37 contro le 14:18-14:47 della NC; il «74,5 conforme» lasciato agli
+  atti; `E-214 GAS` contro `AL-217`; la data della riunione 13/05 col nome del file 12_05; il
+  codice di lotto parziale `L26130` del reclamo; le due coppie di duplicati assorbite in una
+  nota sola; il `-999.9` con flag `FAULT` trattato come sonda guasta e non come temperatura;
+  gli straordinari di Linea 2, le cui fonti padrone sono fuori dal perimetro del lotto.
 - **2026-08-15** · Il rituale di chiusura di ogni sessione diventa di QUATTRO gesti:
   stato, decision log, commit, `git push` · la Sessione 1 ha committato senza pushare
   e il lavoro è rimasto su un solo disco; il push entra nel principio 5 della scaletta

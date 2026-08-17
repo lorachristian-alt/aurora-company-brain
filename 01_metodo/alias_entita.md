@@ -95,7 +95,7 @@ Le sostituzioni note dello scanner sono `0`↔`O`, `l`↔`1`, `S`↔`5`.
 
 | Nota padrona | Alias attestati | Dove |
 |---|---|---|
-| `macchina-pkm-450` | `PKM-450` · `PKM450` · `PKM 450` · «confezionatrice flow-pack MAP» · «confezionatrice MAP» · «la confezionatrice» | MOD-PR-04, manuale, trascrizione |
+| `macchina-pkm-450` | `PKM-450` · `PKM450` · `PKM 450` · **`PKM450-1808-0342`** (matricola) · «confezionatrice flow-pack MAP» · «confezionatrice MAP» · «la confezionatrice» | MOD-PR-04, manuale, trascrizione, corrispondenza ricambi |
 | `macchina-pt-104` | `PT-104` · `PT104` · **`PT 1O4`** (OCR) · «il pastorizzatore» · «il trattamento termico» | log datalogger, quaderno OCR, manuale HACCP |
 | `macchina-md-3200` | `MD-3200` · `MD3200` · **`MD 32OO`** (OCR) · «il metal detector» | quaderno OCR, MOD-QA-07, trascrizione |
 | `macchina-ts-01` | `TS-01` · «il tunnel» (quando è il tunnel esistente, non quello Criotech) | contratto manutenzione frigo, registro NC, trascrizione |
@@ -172,6 +172,9 @@ che il dato è illeggibile nella fonte, e se serve apre una questione aperta.
 | Operatori `RANZATO_F` e `CESTARO_L`, presenti nel log del pastorizzatore ma senza badge nelle timbrature né matricola nel libro unico (compaiono però nell'ordine DPI) | `log_temperature_pastorizzatore_linea1_10_05_26.log` · `log_timbrature_fabbrica_maggio_settimana2.csv` · `libro_unico_lavoro_estratto_maggio2026.xlsx` · `ordine_DPI_scarpe_antinfortunistiche.csv` | Si crea la scheda entità con ciò che i grezzi dicono e una questione aperta sull'export parziale delle timbrature. **Non si inventa una matricola, e non si conclude che le persone non esistono** |
 | Lotto del reclamo dichiarato come `L26130`, senza linea e turno | `MOD-QA-31_reclamo_REC-2026-011.pdf` (lotto dichiarato `L26130`) · mass balance e log (`L26130-L1-T2`) | La nota riporta la forma parziale come dichiarata e spiega in una riga come le altre fonti la completano. Entrambe le forme in `aliases`. **Non si riscrive il codice del reclamo** |
 | Data della riunione di direzione: il nome del file dice `12_05_2026`, la prima riga della trascrizione dice «13 05 2026» | `trascrizione_riunione_direzione_12_05_2026.txt` · `Convocazione_riunione_direzione_12_05.eml` | Il contenuto batte il nome del file: `data_fatto: 2026-05-13`. Il nome del file **resta quello che è** in `fonti` |
+| Codice del kit valvola azoto originale della PKM-450: `PK45-VN2-08` contro `PKV-088-N2` (gruppo) e `PKV-088-KIT` (kit) | `report_fermo_macchina_confezionatrice_MAP.txt` (codice interno) · `R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml` (codice del costruttore) | `questione-codice-ricambio-valvola-pkm-450` in `areas\` (`area: manutenzione`), `stato: aperto`. **Non si uniscono**: nessun documento mette i due codici uno accanto all'altro |
+| Materiale della guarnizione provvisoria della PKM-450: «silicone» · «gomma» · polimero fluorurato (PTFE/FKM) | trascrizione 13/05 · risposta scritta allegata al MOD-PR-04 · `Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf` | `questione-materiale-guarnizione-pkm-450` in `areas\`. ⚠️ Le fonti **non parlano dello stesso oggetto**: le prime due della guarnizione montata, la terza del frammento del reclamo |
+| Lotto farina `MV26-0429/A`: TMC 29/12/2026 · 04/11/2026 · 30/10/2026; consegna sfusa in autocisterna (DDT 1187/26) contro sacchi da 25 kg (DDT 48392) | `certificato_analisi_lotto_farina_MV26_0429A.pdf` · `tracciabilita_lotti_massbalance_L26130.xlsx` · `inventario_magazzino_scadenze_FEFO_maggio.csv` | `questione-tmc-farina-mv26-0429a` e `questione-consegna-farina-mv26-0429a`, entrambe in `areas\` (`area: logistica`). **Non si sceglie**: il criterio non è dichiarato da nessuna delle fonti interne |
 
 ---
 
@@ -182,3 +185,4 @@ Ogni sessione che canonizza aggiunge qui una riga quando estende la tabella.
 | Data | Sessione | Cosa è stato aggiunto |
 |---|---|---|
 | 2026-08-15 | S1 — manuale di canonizzazione | Prima stesura: classi A, B e C compilate sui file campionati del corpus v1 |
+| 2026-08-16 | S2 — fetta pilota L26130 | Classe A: matricola `PKM450-1808-0342` sulla PKM-450. Classe C: quattro divergenze nuove trovate dal revisore indipendente — codice del kit valvola, materiale della guarnizione provvisoria, TMC e modo di consegna del lotto farina MV26-0429/A. Tutte con la loro nota-questione nel vault e la riga corrispondente nel canone |
