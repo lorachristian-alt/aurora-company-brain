@@ -1,0 +1,680 @@
+{
+ "domanda": "Che numeri abbiamo sui crediti verso clienti a bilancio, e c'è una svalutazione?",
+ "candidati_densi": [
+  {
+   "cid": 123,
+   "punteggio": 0.633531849790467,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 120,
+   "punteggio": 0.5455330035788546,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 528,
+   "punteggio": 0.5431335404228399,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1527,
+   "punteggio": 0.5388509199023417,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1546,
+   "punteggio": 0.5371783589909298,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 152,
+   "punteggio": 0.5362372863263342,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 174,
+   "punteggio": 0.535070777864655,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 170,
+   "punteggio": 0.5350411137293041,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 166,
+   "punteggio": 0.5293842987321612,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1379,
+   "punteggio": 0.529223631305934,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 119,
+   "punteggio": 0.5252982605674417,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1542,
+   "punteggio": 0.5239519133791406,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1378,
+   "punteggio": 0.52207775281666,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1623,
+   "punteggio": 0.5211120626857039,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1198,
+   "punteggio": 0.5207232041493322,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 429,
+   "punteggio": 0.5192912527507465,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 273,
+   "punteggio": 0.5191516116619067,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1629,
+   "punteggio": 0.5187623532151496,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 496,
+   "punteggio": 0.5187261497319497,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1782,
+   "punteggio": 0.5184758934446048,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 123,
+   "punteggio": 31.3631591796875,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 117,
+   "punteggio": 29.6395263671875,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 118,
+   "punteggio": 29.4310302734375,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 125,
+   "punteggio": 20.900503158569336,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1707,
+   "punteggio": 20.083086013793945,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1812,
+   "punteggio": 19.982166290283203,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 511,
+   "punteggio": 19.73488426208496,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1835,
+   "punteggio": 19.48851776123047,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1113,
+   "punteggio": 18.895591735839844,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1109,
+   "punteggio": 18.42121696472168,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1111,
+   "punteggio": 18.139787673950195,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1115,
+   "punteggio": 17.960634231567383,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 122,
+   "punteggio": 17.888023376464844,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 0,
+   "punteggio": 17.85968589782715,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 436,
+   "punteggio": 17.48933219909668,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1830,
+   "punteggio": 17.41675567626953,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 575,
+   "punteggio": 16.128902435302734,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1318,
+   "punteggio": 16.042631149291992,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1527,
+   "punteggio": 15.733654975891113,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 124,
+   "punteggio": 15.690329551696777,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 123,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.03278688524590164,
+   "rango_denso": 1,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1527,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.028283227848101264,
+   "rango_denso": 4,
+   "rango_sparso": 19
+  },
+  {
+   "cid": 117,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 120,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 118,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 528,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 125,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1546,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1707,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 152,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1812,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 174,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 511,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 170,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1835,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 166,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1113,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1109,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1379,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 119,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1111,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1115,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1542,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 122,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 123,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "rerank": 0.6591651439666748
+  },
+  {
+   "cid": 118,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "rerank": 0.40039968490600586
+  },
+  {
+   "cid": 117,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "rerank": 0.26559075713157654
+  },
+  {
+   "cid": 122,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "rerank": 0.04276971518993378
+  },
+  {
+   "cid": 120,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "rerank": 0.020004073157906532
+  },
+  {
+   "cid": 119,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "rerank": 0.008722657337784767
+  },
+  {
+   "cid": 166,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "rerank": 0.004083356820046902
+  },
+  {
+   "cid": 1527,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.002476614434272051
+  },
+  {
+   "cid": 125,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "rerank": 0.001460883766412735
+  },
+  {
+   "cid": 152,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "rerank": 0.0011340528726577759
+  },
+  {
+   "cid": 1109,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.0009185812086798251
+  },
+  {
+   "cid": 1379,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "rerank": 0.0007079985225573182
+  },
+  {
+   "cid": 170,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "rerank": 0.0006047298666089773
+  },
+  {
+   "cid": 1546,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "rerank": 0.0005820389487780631
+  },
+  {
+   "cid": 1835,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.000489975733216852
+  },
+  {
+   "cid": 1542,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "rerank": 0.00040047705988399684
+  },
+  {
+   "cid": 1113,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.00033890706254169345
+  },
+  {
+   "cid": 174,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "rerank": 0.00030885147862136364
+  },
+  {
+   "cid": 1111,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.00029671002994291484
+  },
+  {
+   "cid": 1115,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.00011193430691491812
+  },
+  {
+   "cid": 528,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "rerank": 0.00010951599688269198
+  },
+  {
+   "cid": 1812,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 9.365288860863075e-05
+  },
+  {
+   "cid": 511,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 2.898097227443941e-05
+  },
+  {
+   "cid": 1707,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 1.8216194803244434e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 123,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "origine": "nativa",
+   "rerank": 0.6591651439666748,
+   "testo": "del mercato.\nCrediti: iscritti secondo il presumibile valore di realizzo, previa svalutazione del\nfondo rischi su crediti pari a Euro 42.886.\nDebiti: iscritti al valore nominale.\nTrattamento di fine rapporto: accantonato in conformita' all'art. 2120 c.c. e ai\ncontratti collettivi vigenti, e corrisponde al debito maturato verso i dipendenti alla\ndata di chiusura dell'esercizio, al netto delle quote destinate ai fondi di previdenza\ncomplementare.\nMOVIMENTI DELLE IMMOBILIZZAZIONI\nImmateriali\nMateriali\nFinanziarie\nValore iniziale (netto)\n374.660\n3.343.340\n110.680\nAcquisizioni dell'esercizio\n357.000\n371.100\n2.118\nAmmortamenti dell'esercizio\n(318.774)\n(228.216)\n0\nValore finale (netto)\n412.886\n3.486.224\n112.798\nCREDITI E DEBITI - DISTINZIONE PER SCADENZA\nEntro 12 mesi\nOltre 12 mesi\nTotale\nCrediti verso clienti\n2.884.336\n0\n2.884.336\nCrediti tributari\n268.442\n0\n268.442\nCrediti verso altri\n100.046\n12.000\n112.046\nDebiti verso banche\n658.000\n1.184.226\n1.842.226\nDebiti verso fornitori\n3.005.231\n0\n3.005.231\nORGANO DI CONTROLLO\nIn conseguenza del superamento, per due esercizi consecutivi, dei limiti di cui\nall'art. 2477, comma 2, lettera c) del codice civile, l'assemblea dei soci del"
+  },
+  {
+   "cid": 118,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "origine": "nativa",
+   "rerank": 0.40039968490600586,
+   "testo": "C)\nATTIVO CIRCOLANTE\nC.I\nRimanenze\n1.284.662\n1.198.220\nC.II.1\nCrediti verso clienti\n2.884.336\n2.671.450\nC.II.5-bis\nCrediti tributari\n268.442\n250.216\nC.II.5-quater\nCrediti verso altri\n112.046\n103.162\nTotale crediti (C.II)\n3.264.824\n3.024.828\nC.IV\nDisponibilita' liquide\n48.226\n232.452\nTotale attivo circolante (C)\n4.597.712\n4.455.500\nD)\nRatei e risconti attivi\n32.118\n27.892\nTOTALE ATTIVO\n8.641.738\n8.312.072\nDi cui esigibili oltre l'esercizio successivo: crediti verso clienti Euro 0; crediti\nverso altri Euro 12.000 (depositi cauzionali).\n\nAURORA FOOD GROUP S.R.L. - Via dell'Industria 27, 37044 Cologna Veneta (VR) - P.IVA 03984710230\nBilancio al 31/12/2025 - forma abbreviata art. 2435-bis c.c. - pag. 2 - Reg. Imprese VR n. 03984710230\npag. 2\nSTATO PATRIMONIALE - PASSIVO\nVoce\nDescrizione\n31/12/2025\n31/12/2024\nA)\nPATRIMONIO NETTO\nA.I\nCapitale\n500.000\n500.000\nA.IV\nRiserva legale\n100.000\n100.000\nA.VI\nAltre riserve - riserva\nstraordinaria\n1.734.226\n1.461.350\nA.IX\nUtile dell'esercizio\n508.941\n272.876\nTotale patrimonio netto (A)\n2.843.167\n2.334.226\nB)\nFondi per rischi e oneri\n88.446\n76.000\nC)\nTrattamento di fine rapporto\n412.884\n384.000\nD)\nDEBITI\nD.4\nDebiti verso banche\n1.842.226\n1.746.000"
+  },
+  {
+   "cid": 117,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "origine": "nativa",
+   "rerank": 0.26559075713157654,
+   "testo": "AURORA FOOD GROUP S.R.L. - Via dell'Industria 27, 37044 Cologna Veneta (VR) - P.IVA 03984710230\nBilancio al 31/12/2025 - forma abbreviata art. 2435-bis c.c. - pag. 1 - Reg. Imprese VR n. 03984710230\npag. 1\nBilancio di esercizio al 31/12/2025 - deposito CCIAA\nAURORA FOOD GROUP S.R.L.\nSede in VIA DELL'INDUSTRIA 27 - 37044 COLOGNA VENETA (VR)\nCapitale sociale Euro 500.000,00 i.v.\nRegistro Imprese di Verona n. 03984710230 - R.E.A. VR-389241\nCodice fiscale e Partita IVA 03984710230\n                    BILANCIO DI ESERCIZIO AL 31/12/2025\n                  redatto in forma ordinaria ex art. 2435-bis c.c.\n                            (importi in unita' di Euro)\nSTATO PATRIMONIALE - ATTIVO\nVoce\nDescrizione\n31/12/2025\n31/12/2024\nA)\nCrediti verso soci per\nversamenti ancora dovuti\n0\n0\nB)\nIMMOBILIZZAZIONI\nB.I\nImmobilizzazioni immateriali\n412.886\n374.660\nB.II\nImmobilizzazioni materiali\n3.486.224\n3.343.340\nB.III\nImmobilizzazioni finanziarie\n112.798\n110.680\nTotale immobilizzazioni (B)\n4.011.908\n3.828.680\nC)\nATTIVO CIRCOLANTE\nC.I\nRimanenze\n1.284.662\n1.198.220\nC.II.1\nCrediti verso clienti\n2.884.336\n2.671.450\nC.II.5-bis\nCrediti tributari\n268.442\n250.216\nC.II.5-quater\nCrediti verso altri\n112.046"
+  },
+  {
+   "cid": 122,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "origine": "nativa",
+   "rerank": 0.04276971518993378,
+   "testo": "norma di legge. I criteri di valutazione non sono stati modificati rispetto\nall'esercizio precedente.\nCRITERI DI VALUTAZIONE\nImmobilizzazioni immateriali: iscritte al costo di acquisto comprensivo degli oneri\naccessori e ammortizzate sistematicamente in cinque esercizi. Le spese di manutenzione\nstraordinaria su beni di terzi sono ammortizzate nel minore periodo tra la residua\npossibilita' di utilizzazione e la durata del contratto.\nImmobilizzazioni materiali: iscritte al costo di acquisto, rettificato dai rispettivi\nfondi di ammortamento calcolati con le seguenti aliquote: fabbricati industriali 3%,\nimpianti e macchinari 10%, attrezzature 15%, mobili e macchine d'ufficio 12%,\nautomezzi 20%. Per i beni entrati in funzione nell'esercizio le aliquote sono ridotte\nalla meta'.\nRimanenze: valutate al minore tra il costo di acquisto, determinato con il metodo del\ncosto medio ponderato, e il valore di presumibile realizzo desumibile dall'andamento\ndel mercato.\nCrediti: iscritti secondo il presumibile valore di realizzo, previa svalutazione del\nfondo rischi su crediti pari a Euro 42.886.\nDebiti: iscritti al valore nominale."
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4708,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.19,
+  "rerank": 43.41
+ },
+ "id": "Q041",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:21:22",
+ "secondi": 43.63,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 82.23,
+  "token_prompt": 2144,
+  "token_risposta": 145,
+  "testo_grezzo": "La svalutazione dei crediti verso clienti è stata effettuata, ma non è stata specificata la quantità di svalutazione.\n\nLa quantità dei crediti verso clienti a bilancio è di Euro 2.884.336.\n\nLa svalutazione dei crediti verso clienti è stata effettuata previa svalutazione del fondo rischi su crediti pari a Euro 42.886.\n\nFONTI: bilancio_esercizio_2025_deposito_CCIAA.pdf, bilancio_esercizio_2025_deposito_CCIAA.pdf, bilancio_esercizio_2025_deposito_CCIAA.pdf",
+  "fonti_citate": [
+   "bilancio_esercizio_2025_deposito_CCIAA.pdf"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

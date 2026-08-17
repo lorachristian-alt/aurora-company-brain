@@ -1,0 +1,682 @@
+{
+ "domanda": "Qual e' il limite critico del CCP2 sul pastorizzatore PT-104?",
+ "candidati_densi": [
+  {
+   "cid": 1134,
+   "punteggio": 0.6963659658562781,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1606,
+   "punteggio": 0.6147862350217338,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1605,
+   "punteggio": 0.6073157222867273,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1133,
+   "punteggio": 0.5682880105830869,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1137,
+   "punteggio": 0.5682326191660301,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1131,
+   "punteggio": 0.566331674073544,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1883,
+   "punteggio": 0.5603797793488312,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1075,
+   "punteggio": 0.5563331550424478,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 141,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1776,
+   "punteggio": 0.5326275006818961,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1872,
+   "punteggio": 0.5273784375964796,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1127,
+   "punteggio": 0.5092685729889372,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1642,
+   "punteggio": 0.5077085163469044,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1613,
+   "punteggio": 0.4978342347374759,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1179,
+   "punteggio": 0.4970545185688834,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1132,
+   "punteggio": 0.49690431015212455,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 536,
+   "punteggio": 0.49355329952791016,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1744,
+   "punteggio": 0.49233160376726115,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 609,
+   "punteggio": 0.4921452141024538,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1200,
+   "punteggio": 0.49172467911378326,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 22,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1655,
+   "punteggio": 0.49128980336273487,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 3,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1134,
+   "punteggio": 35.77385330200195,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1605,
+   "punteggio": 30.641040802001953,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1776,
+   "punteggio": 29.962182998657227,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1133,
+   "punteggio": 29.036457061767578,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 112,
+   "punteggio": 25.122222900390625,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1606,
+   "punteggio": 24.21723747253418,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1642,
+   "punteggio": 22.96991539001465,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 402,
+   "punteggio": 21.886207580566406,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 536,
+   "punteggio": 21.840906143188477,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1135,
+   "punteggio": 21.054298400878906,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1654,
+   "punteggio": 20.955230712890625,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1200,
+   "punteggio": 20.889022827148438,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 22,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1365,
+   "punteggio": 19.74441146850586,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 223,
+   "punteggio": 19.72592544555664,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1843,
+   "punteggio": 18.203079223632812,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1841,
+   "punteggio": 17.98072052001953,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1883,
+   "punteggio": 17.898862838745117,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1856,
+   "punteggio": 17.892580032348633,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1602,
+   "punteggio": 17.84449577331543,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1145,
+   "punteggio": 17.785552978515625,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 27,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1134,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.03278688524590164,
+   "rango_denso": 1,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1605,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.03200204813108039,
+   "rango_denso": 3,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1606,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.03128054740957967,
+   "rango_denso": 2,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1133,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.03125,
+   "rango_denso": 4,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.03036576949620428,
+   "rango_denso": 9,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1642,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.028814262023217248,
+   "rango_denso": 12,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1883,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.027912386121341344,
+   "rango_denso": 7,
+   "rango_sparso": 17
+  },
+  {
+   "cid": 536,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.027650648360030512,
+   "rango_denso": 16,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1200,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 22,
+   "origine": "nativa",
+   "rrf": 0.026547116736990152,
+   "rango_denso": 19,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 112,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1137,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1131,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 402,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1075,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 141,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1135,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 17,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1872,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1127,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1654,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1365,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1613,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 223,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 1179,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1132,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": 15,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1843,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": null,
+   "rango_sparso": 15
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1134,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.997221827507019
+  },
+  {
+   "cid": 1606,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.9964175224304199
+  },
+  {
+   "cid": 1605,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.995361864566803
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.9774642586708069
+  },
+  {
+   "cid": 1133,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.9724355340003967
+  },
+  {
+   "cid": 1075,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.9152388572692871
+  },
+  {
+   "cid": 1200,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.8945651054382324
+  },
+  {
+   "cid": 1127,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.807144045829773
+  },
+  {
+   "cid": 1131,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.70848149061203
+  },
+  {
+   "cid": 1654,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "rerank": 0.4390515685081482
+  },
+  {
+   "cid": 1135,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.43040716648101807
+  },
+  {
+   "cid": 402,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "rerank": 0.34696993231773376
+  },
+  {
+   "cid": 1883,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "rerank": 0.3165576457977295
+  },
+  {
+   "cid": 1365,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.31011414527893066
+  },
+  {
+   "cid": 1642,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "rerank": 0.2999805510044098
+  },
+  {
+   "cid": 112,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "rerank": 0.28123557567596436
+  },
+  {
+   "cid": 536,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "rerank": 0.22128751873970032
+  },
+  {
+   "cid": 1843,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "rerank": 0.1554199606180191
+  },
+  {
+   "cid": 1613,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.1266355961561203
+  },
+  {
+   "cid": 1132,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.09746255725622177
+  },
+  {
+   "cid": 223,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "rerank": 0.08104776591062546
+  },
+  {
+   "cid": 1137,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.06843515485525131
+  },
+  {
+   "cid": 1179,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.004223496187478304
+  },
+  {
+   "cid": 1872,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "rerank": 0.002706545637920499
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1134,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "origine": "nativa",
+   "rerank": 0.997221827507019,
+   "testo": "rapporto taratura gaussmetro\n----------------------------------------------------------------------------\nCCP2 - TRATTAMENTO TERMICO PT-104 (LINEA 1)\nFase: 09 - Pastorizzazione tunnel termico PT-104\nPericolo: B - sopravvivenza di patogeni (L. monocytogenes, S. aureus) su prodotto RTE\nLimite critico: temperatura al cuore del prodotto ≥ 72,0 °C mantenuta per ≥ 2 min;\n  set point di esercizio 74,0-76,0 °C\nMonitoraggio: registrazione in continuo T camera e T cuore (sonda a spillone su\n  prodotto campione) tramite datalogger PT-104; lettura e trascrizione manuale su\n  modulo MOD-QA-12 (registro CCP2 temperature)\nFrequenza: registrazione datalogger in continuo; trascrizione manuale su MOD-QA-12\n  ogni 60 minuti; verifica in seconda firma del capoturno entro fine turno\nResponsabile: operatore di linea addetto al PT-104; capoturno per la seconda firma;\n  QA per il riesame\nAzione correttiva: BLOCCO DEL LOTTO e segregazione di tutto il prodotto transitato\n  dall'ultimo controllo conforme; RIPROCESSO del prodotto ove tecnologicamente\n  possibile, altrimenti declassamento/distruzione; verifica taratura sonde;\n  registrazione della deviazione e notifica immediata a RSGQ (Marchetti E.)"
+  },
+  {
+   "cid": 1606,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "origine": "nativa",
+   "rerank": 0.9964175224304199,
+   "testo": "MD-3200, surgelazione) + PRPo allergeni. VERIFICATO.\n- CCP2: limite critico ≥ 72,0 °C per ≥ 2 min, set point 74,0-76,0 °C; tracciati\n  datalogger PT-104 disponibili e conservati; MOD-QA-12 compilato ogni 60 min.\n  Campione verificato: 12-16/01/2026, 03-06/02/2026. VEDI NC n. 1.\n- CCP3: verifica tasselli Fe 2,0 / Non-Fe 2,5 / AISI 316 3,0 mm ogni 60 min su\n  MOD-QA-07 rev.5; certificati tasselli in corso di validità; verifica annuale\n  costruttore eseguita 11/2025. VEDI NC n. 1 (seconda firma) e OSSERVAZIONE n. 2.\n- CCP4: registrazioni T cuore ogni 2 h conformi nel campione (gen-feb 2026);\n  monitoraggio continuo CF-02 con allarme funzionante (test eseguito in audit).\n- Test rintracciabilità: conforme (99,4%, 2 h 50 min).\n- Sanificazione: IO-05, schede CIP-01, prodotti Chemifood; verifiche ATP a\n  campione conformi; piano tamponi con lab. Analytica Veneta (ACCREDIA 0987).\n- Reclami 2025: n. 41 totali, di cui 4 per corpo estraneo (chiusi). Trend\n  presentato in riesame direzione.\n\n----------------------------------------------------------------------------\n4. ELENCO NON CONFORMITA' / NON-CONFORMITY LIST\n----------------------------------------------------------------------------"
+  },
+  {
+   "cid": 1605,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "origine": "nativa",
+   "rerank": 0.995361864566803,
+   "testo": "ing. Marco Fantin         Direttore di Stabilimento\n  dott.ssa Elena Marchetti  RSGQ - Team Leader HACCP\n  Sara Pozzato              Assistente Qualità / QC\n  Denis Zanella             Responsabile Produzione\n  Ionut Popescu             Capoturno Linea 1\n  Adel Ben Salah            Capoturno Linea 2\n  Roberto Guerra            Capoturno Linea 3\n  Ivano Dal Maso            Capo officina / Manutenzione\n  Nicola Faggionato         Resp. Magazzino e Spedizioni\n  Federica Sartori          HR\n  dott.ssa Chiara Vicentini consulente HACCP esterna (solo riunioni e doc.)\n  n. 6 operatori di linea (turno 1) intervistati sul campo\n\n----------------------------------------------------------------------------\n3. EVIDENZE RACCOLTE (ESTRATTO) / OBJECTIVE EVIDENCE (EXTRACT)\n----------------------------------------------------------------------------\n- Manuale HACCP rev.4 del 15/01/2024; analisi pericoli con matrice PxG; albero\n  decisioni Codex applicato; 4 CCP definiti (setacciatura/magnete, PT-104,\n  MD-3200, surgelazione) + PRPo allergeni. VERIFICATO.\n- CCP2: limite critico ≥ 72,0 °C per ≥ 2 min, set point 74,0-76,0 °C; tracciati"
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.9774642586708069,
+   "testo": "[00:02:46] PARLANTE_1: se ce l'ha ancora\n[00:02:48] PARLANTE_2: se manca un pezzo dalla guarnizione vecchia o da quella nuova che ha tagliato lui a misura allora\n[00:02:53] PARLANTE_3: scusate ma c'e anche l'altra cosa del lotto 130 e va detta adesso\n[00:02:58] PARLANTE_1: quale altra cosa\n[00:03:02] PARLANTE_3: sara ha scaricato ieri i dati del datalogger del PT-104 per la verifica settimanale e sul turno 2 del 10 maggio dalle 14 e 18 alle 14 e 47 la temperatura e scesa sotto i 72 gradi il minimo registrato e 68 virgola 9\n[00:03:18] PARLANTE_1: e il ccp2\n[00:03:20] PARLANTE_3: e il CCP2 si il limite critico e 72 gradi al cuore per almeno due minuti e per quasi mezz'ora eravamo sotto\n[00:03:27] PARLANTE_2: e sul cartaceo cosa c'e scritto\n[00:03:30] PARLANTE_3: eh appunto sul MOD-QA-12 l'operatore ha scritto 74 e 5 conforme\n[00:03:36] PARLANTE_1: come 74 e 5 se la macchina dice 68\n[00:03:39] PARLANTE_3: ha copiato il set point secondo me non ha guardato il display oppure ha compilato a fine turno tutto insieme come fanno sempre\n[00:03:46] PARLANTE_2: che e esattamente la non conformita uno dell'audit la seconda firma di verifica che non"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4671,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.18,
+  "rerank": 48.31
+ },
+ "id": "Q019",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:04:44",
+ "secondi": 48.53,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 89.28,
+  "token_prompt": 1879,
+  "token_risposta": 101,
+  "testo_grezzo": "Il limite critico del CCP2 sul pastorizzatore PT-104 è ≥ 72,0 °C mantenuto per ≥ 2 min.\n\nFONTI: manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt, Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt, trascrizione_riunione_direzione_12_05_2026.txt\n\nCONFIDENZA: alta",
+  "fonti_citate": [
+   "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "trascrizione_riunione_direzione_12_05_2026.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "alta"
+ }
+}

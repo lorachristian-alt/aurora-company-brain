@@ -1,0 +1,682 @@
+{
+ "domanda": "Quanto ci e' costato il ritardo di Pakmatic sul ricambio della valvola?",
+ "candidati_densi": [
+  {
+   "cid": 1530,
+   "punteggio": 0.623447599169058,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1534,
+   "punteggio": 0.6032944432853671,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1258,
+   "punteggio": 0.599324258736639,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1436,
+   "punteggio": 0.5939473031862202,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1531,
+   "punteggio": 0.5924780183268241,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1533,
+   "punteggio": 0.5847126134215878,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 85,
+   "punteggio": 0.582486099536513,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1439,
+   "punteggio": 0.5807984140960242,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1157,
+   "punteggio": 0.5805303147952007,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1778,
+   "punteggio": 0.5738570361303489,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1655,
+   "punteggio": 0.5732591077693946,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1156,
+   "punteggio": 0.5673691285661344,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1200,
+   "punteggio": 0.5661276840672375,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 22,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1155,
+   "punteggio": 0.5622771368406024,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1516,
+   "punteggio": 0.5610235218415239,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1527,
+   "punteggio": 0.5521142392057696,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1440,
+   "punteggio": 0.5445920775277551,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1885,
+   "punteggio": 0.5434865332044816,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1665,
+   "punteggio": 0.5430733165228077,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1532,
+   "punteggio": 0.5401940160951043,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 3,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1158,
+   "punteggio": 21.653444290161133,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1799,
+   "punteggio": 21.330638885498047,
+   "file": "vendor_rating_fornitori_2026.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1117,
+   "punteggio": 19.871061325073242,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1530,
+   "punteggio": 19.777463912963867,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1436,
+   "punteggio": 18.60602569580078,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1438,
+   "punteggio": 18.533554077148438,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1439,
+   "punteggio": 18.364036560058594,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1531,
+   "punteggio": 18.245813369750977,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1440,
+   "punteggio": 18.174516677856445,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1200,
+   "punteggio": 17.84598731994629,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 22,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1778,
+   "punteggio": 17.54254722595215,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1116,
+   "punteggio": 17.042081832885742,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1437,
+   "punteggio": 16.828046798706055,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1532,
+   "punteggio": 16.235048294067383,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1516,
+   "punteggio": 15.431122779846191,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1800,
+   "punteggio": 15.286948204040527,
+   "file": "vendor_rating_fornitori_2026.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1366,
+   "punteggio": 15.240854263305664,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1154,
+   "punteggio": 15.140880584716797,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1714,
+   "punteggio": 14.883414268493652,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 85,
+   "punteggio": 14.774077415466309,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 5,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1530,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.032018442622950824,
+   "rango_denso": 1,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1436,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.031009615384615385,
+   "rango_denso": 4,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1531,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.030090497737556562,
+   "rango_denso": 5,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1439,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.029631255487269532,
+   "rango_denso": 8,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1778,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.028370221327967807,
+   "rango_denso": 10,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1200,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 22,
+   "origine": "nativa",
+   "rrf": 0.027984344422700584,
+   "rango_denso": 13,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1440,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.027479766610201392,
+   "rango_denso": 17,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 85,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.027425373134328357,
+   "rango_denso": 7,
+   "rango_sparso": 20
+  },
+  {
+   "cid": 1516,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.02666666666666667,
+   "rango_denso": 15,
+   "rango_sparso": 15
+  },
+  {
+   "cid": 1532,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.026013513513513515,
+   "rango_denso": 20,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 1158,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1534,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1799,
+   "file": "vendor_rating_fornitori_2026.xlsx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1117,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1258,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1438,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1533,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1157,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1655,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1116,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1156,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1437,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1155,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1527,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.013157894736842105,
+   "rango_denso": 16,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1799,
+   "file": "vendor_rating_fornitori_2026.xlsx",
+   "rerank": 0.860343873500824
+  },
+  {
+   "cid": 1531,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.7349940538406372
+  },
+  {
+   "cid": 1516,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.699299693107605
+  },
+  {
+   "cid": 1440,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "rerank": 0.553739607334137
+  },
+  {
+   "cid": 1530,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.548538088798523
+  },
+  {
+   "cid": 1534,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.5467050671577454
+  },
+  {
+   "cid": 1200,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.5411497354507446
+  },
+  {
+   "cid": 1436,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "rerank": 0.5307333469390869
+  },
+  {
+   "cid": 1258,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "rerank": 0.4608322083950043
+  },
+  {
+   "cid": 1439,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "rerank": 0.4348369240760803
+  },
+  {
+   "cid": 1655,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "rerank": 0.3800305426120758
+  },
+  {
+   "cid": 1157,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "rerank": 0.3197764754295349
+  },
+  {
+   "cid": 1437,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "rerank": 0.2543897330760956
+  },
+  {
+   "cid": 1533,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.23564358055591583
+  },
+  {
+   "cid": 1155,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "rerank": 0.22538596391677856
+  },
+  {
+   "cid": 1156,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "rerank": 0.20256145298480988
+  },
+  {
+   "cid": 1778,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.19912253320217133
+  },
+  {
+   "cid": 1158,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "rerank": 0.15695981681346893
+  },
+  {
+   "cid": 85,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "rerank": 0.15468795597553253
+  },
+  {
+   "cid": 1438,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "rerank": 0.15187501907348633
+  },
+  {
+   "cid": 1527,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.11753106862306595
+  },
+  {
+   "cid": 1532,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.048629097640514374
+  },
+  {
+   "cid": 1117,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.019791170954704285
+  },
+  {
+   "cid": 1116,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.0009236654732376337
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1799,
+   "file": "vendor_rating_fornitori_2026.xlsx",
+   "origine": "nativa",
+   "rerank": 0.860343873500824,
+   "testo": "F0029 Lievital Srl lieviti 64 72 84 58 66 22/01/2026\nF0031 Euroglass Boccacci Srl imballi vetro 86 68 72 82 74\nF0044 Flexipack Nordest Srl imballi flessibili MOCA 91 84 70 97 90 05/02/2026\nF0052 Chemifood Italia Srl detergenti CIP 88 92 66 95 86\nF0061 Nordgas SpA gas alimentari 94 90 74 92 80\nF0077 Pakmatic Italia Srl ricambi confezionatrici 82 48 60 78 54\nF0090 Analytica Veneta Srl laboratorio esterno 96 88 58 98 92 18/12/2025\nF0095 Rational Pack Srl cartone 84 80 86 76 78\n\n(E.M.) Pakmatic è in classe C sulla puntualità e ci è costato un fermo di 3h40. Va aperta la NC fornitore.\n(E.M.) Lievital: 2 lotti fuori specifica in 4 mesi + documentazione incompleta. Audit da fare entro giugno.\nNon conformità fornitore 2025-2026\n\n\n\nN. Data Fornitore Lotto Descrizione Qtà Azione Costo € Stato\n1 08/09/2025 Lievital Srl LV25-2210 attività fermentativa sotto specifica 40 kg reso e sostituzione 620 chiusa\n2 14/11/2025 Oleificio Adriatico SpA OA-2511-042 consegna con 6 gg di ritardo - richiamo scritto 0 chiusa\n3 22/01/2026 Lievital Srl LV26-0104 CoA mancante alla consegna 180 kg accettato con riserva 0 chiusa"
+  },
+  {
+   "cid": 1531,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "origine": "nativa",
+   "rerank": 0.7349940538406372,
+   "testo": "anomalo zona gruppo iniezione N2 della PKM-450. Perdita stimata piccola\nma continua, flussimetro azoto segnava consumo +15% a parita' di ricetta\ngas. Consumo bombole Nordgas su del 15-20% gia' da fine aprile, adesso\nsi spiega.\n\n\"la valvola la sibilava come na bissa. go streto el premistopa mezo\ngiro, la se ga calmà ma mi go dito subito: questa nn la riva a fine\nmese.\"\n\nAperto rapportino segnalazione n. 2026/081 (08/05). Chiamata Pakmatic\nItalia S.r.l. (Bologna, forn. F0077) ore 11:15: kit valvola iniezione\ncompleto cod. PK45-VN2-08 NON disponibile a magazzino, in produzione,\nconsegna confermata per 15/05. Costo preventivato 1.240,00 € + iva +\ntrasferta tecnico se serve.\n\nRiunione veloce con Zanella e Fantin (08/05 ore 14): decisione di\nANDARE AVANTI fino all'arrivo del ricambio, vista la promo Tosano\nsett. 19-21 e la domenica gia' programmata. Monitoraggio a vista ogni\nturno. Verbale non fatto, decisione a voce.\n\n\"mi gavevo dito de fermarse sabo e cambiar almeno la guarnizion, ma\nsabo gnente ricambio e domenega se prodoto. capi mia, se va vanti.\"\n\n2. IL GUASTO - domenica 10/05\n\n15:05 - chiamata dal capoturno: allarme AL-217 \"N2 pressure low\" su"
+  },
+  {
+   "cid": 1516,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "origine": "nativa",
+   "rerank": 0.699299693107605,
+   "testo": "=== 2. MANUTENZIONI ====================================\n\nCONTRATTO TECNOFORNI SERVICE (forni FT-01 e FT-02 + PT-104)\n  contratto full-risk n. TFS-2026-084, firmato Fantin 12/01/26\n  canone annuo 18.400,00 € + iva, fatturazione trimestrale (4.600/trim)\n  comprende: 4 visite programmate/anno, ricambi ordinari, pronto intervento 24h\n  ESCLUSO: nastri trasportatori e refrattari\n  tecnico di riferimento: Rossato Gianni (cell in rubrica)\n  ultima visita 14/04/26, prossima prevista settimana 29\n  (nb Rossato in aprile ha segnalato bruciatore FT-01 da revisionare,\n   preventivo extra 3.100 € - NON ancora ordinato, Fantin tentenna)\n\nPAKMATIC ITALIA (F0077) - PKM-450\n  niente contratto, interventi a chiamata + ricambi\n  speso 2025: 6.870 €\n  speso 2026 al 26/05: gia' 4.912 € !!! (di cui 1.680 intervento urgenza\n  del 10-11/05 valvola azoto + ricambio originale arrivato il 15/05)\n  se continua cosi a fine anno siamo sopra i 10.000, valutare contratto\n  di manutenzione programmata, Fantin dice che Pakmatic lo propone a\n  5.900 €/anno ma senza ricambi\n\nMETAL DETECTOR MD-3200 e MD-1800 (Loma)\n  taratura + certificazione annuale: 1.240 € (no scusa sono 1.240 non 1.420,"
+  },
+  {
+   "cid": 1440,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "origine": "nativa",
+   "rerank": 0.553739607334137,
+   "testo": ">>>> relativa a confezionatrice flow-pack MAP mod. PKM-450 matricola\n>>>> PKM450-1808-0342, Vi confermiamo che il codice richiesto PKV-088-N2\n>>>> (gruppo valvola iniezione azoto) non e' disponibile a stock.\n>>>> Data di consegna prevista: 15/05/2026.\n>>>> Restiamo a disposizione.\n>>>> Ufficio Ricambi Pakmatic Italia S.r.l.\n>>>>\n>>>>\n>>>>> -----Messaggio originale-----\n>>>>> Da: Ivano Dal Maso <i.dalmaso@aurorafoodgroup.it>\n>>>>> Inviato: venerdi 8 maggio 2026 08:47\n>>>>> A: ricambi@pakmatic.it\n>>>>> Oggetto: ricambio valvola iniezione azoto PKM-450 - URGENTE\n>>>>>\n>>>>>> bongiorno\n>>>>>> la valvola de iniezion azoto de la PKM-450 (matr. PKM450-1808-0342,\n>>>>>> ano 2018) la perde. se vede la brina su la testata e el manometro\n>>>>>> nol sta fermo. me serve el gruppo completo co le guarnizion.\n>>>>>> URGENTE, machina in produzion tuti i giorni.\n>>>>>> mandeme prezo e quando la riva.\n>>>>>> Dal Maso Ivano - manutenzion Aurora Food Group - Cologna Veneta VR\n>>>>>> tel 0442 854122 int 212"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4446,
+ "tempi": {
+  "denso": 0.01,
+  "sparso": 0.18,
+  "rerank": 46.06
+ },
+ "id": "Q225",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:45:51",
+ "secondi": 46.25,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 67.93,
+  "token_prompt": 1972,
+  "token_risposta": 86,
+  "testo_grezzo": "Il ritardo di Pakmatic sul ricambio della valvola è costato 1.240,00 € + iva + trasferta tecnico se serve.\n\nFONTI: R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml, report_fermo_macchina_confezionatrice_MAP.txt, report_costi_fissi_OpEx_manutenzioni.txt",
+  "fonti_citate": [
+   "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "report_fermo_macchina_confezionatrice_MAP.txt",
+   "report_costi_fissi_OpEx_manutenzioni.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

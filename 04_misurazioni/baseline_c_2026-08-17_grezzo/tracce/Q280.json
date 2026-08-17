@@ -1,0 +1,681 @@
+{
+ "domanda": "Qual e' il documento piu' vecchio dell'archivio?",
+ "candidati_densi": [
+  {
+   "cid": 0,
+   "punteggio": 0.41232334510111235,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1797,
+   "punteggio": 0.41050786194331795,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 24,
+   "origine": "nativa"
+  },
+  {
+   "cid": 545,
+   "punteggio": 0.4067318555235838,
+   "file": "IMG_20260514_152241_frammento_REC-2026-011.jpg",
+   "idx": 0,
+   "origine": "scheda"
+  },
+  {
+   "cid": 1901,
+   "punteggio": 0.40457648037111704,
+   "file": "~$ttera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 0,
+   "origine": "scheda"
+  },
+  {
+   "cid": 537,
+   "punteggio": 0.3938590007604095,
+   "file": "IMG-20260510-WA0007.jpg",
+   "idx": 0,
+   "origine": "scheda"
+  },
+  {
+   "cid": 96,
+   "punteggio": 0.3925230714916076,
+   "file": "appunti_tecnologo_quaderno_prove_pilota_OCR.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1701,
+   "punteggio": 0.3905924133613955,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1019,
+   "punteggio": 0.3881690783155686,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 85,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1476,
+   "punteggio": 0.38682550621585476,
+   "file": "registro_estintori_scadenze.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1145,
+   "punteggio": 0.3857300218906213,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 27,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1032,
+   "punteggio": 0.38327364719820695,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 98,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1051,
+   "punteggio": 0.38238634158323914,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 117,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1819,
+   "punteggio": 0.38158752133593044,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1501,
+   "punteggio": 0.38155467055906156,
+   "file": "registro_tamponi_superfici_listeria_salmonella.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 569,
+   "punteggio": 0.3809505062382821,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 23,
+   "origine": "nativa"
+  },
+  {
+   "cid": 991,
+   "punteggio": 0.3807212313251425,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 57,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1020,
+   "punteggio": 0.3806806455044678,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 86,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1490,
+   "punteggio": 0.3805388598671148,
+   "file": "registro_tamponi_superfici_listeria_salmonella.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1638,
+   "punteggio": 0.38011266991595943,
+   "file": "Scansione_20260518_0003.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1455,
+   "punteggio": 0.38011266991595943,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1901,
+   "punteggio": 13.288701057434082,
+   "file": "~$ttera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 0,
+   "origine": "scheda"
+  },
+  {
+   "cid": 537,
+   "punteggio": 13.1583890914917,
+   "file": "IMG-20260510-WA0007.jpg",
+   "idx": 0,
+   "origine": "scheda"
+  },
+  {
+   "cid": 545,
+   "punteggio": 13.03065299987793,
+   "file": "IMG_20260514_152241_frammento_REC-2026-011.jpg",
+   "idx": 0,
+   "origine": "scheda"
+  },
+  {
+   "cid": 1243,
+   "punteggio": 12.707846641540527,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 611,
+   "punteggio": 12.369638442993164,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1887,
+   "punteggio": 11.404744148254395,
+   "file": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 87,
+   "punteggio": 11.14136028289795,
+   "file": "appunti_tecnologo_quaderno_prove_pilota_OCR.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 283,
+   "punteggio": 11.100845336914062,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1869,
+   "punteggio": 10.96638298034668,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1695,
+   "punteggio": 10.487689971923828,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1145,
+   "punteggio": 9.878782272338867,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 27,
+   "origine": "nativa"
+  },
+  {
+   "cid": 647,
+   "punteggio": 9.841490745544434,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1861,
+   "punteggio": 9.674281120300293,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1242,
+   "punteggio": 9.38922119140625,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 576,
+   "punteggio": 9.357796669006348,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 255,
+   "punteggio": 9.248971939086914,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 86,
+   "punteggio": 9.14047622680664,
+   "file": "appunti_tecnologo_quaderno_prove_pilota_OCR.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 385,
+   "punteggio": 9.121895790100098,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 473,
+   "punteggio": 9.116130828857422,
+   "file": "Fattura_TosanoCerea_2026_0188_copia_cortesia.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1703,
+   "punteggio": 8.84519100189209,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1901,
+   "file": "~$ttera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 0,
+   "origine": "scheda",
+   "rrf": 0.032018442622950824,
+   "rango_denso": 4,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 545,
+   "file": "IMG_20260514_152241_frammento_REC-2026-011.jpg",
+   "idx": 0,
+   "origine": "scheda",
+   "rrf": 0.031746031746031744,
+   "rango_denso": 3,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 537,
+   "file": "IMG-20260510-WA0007.jpg",
+   "idx": 0,
+   "origine": "scheda",
+   "rrf": 0.0315136476426799,
+   "rango_denso": 5,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1145,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 27,
+   "origine": "nativa",
+   "rrf": 0.028370221327967807,
+   "rango_denso": 10,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 0,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1797,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 24,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1243,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 611,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 96,
+   "file": "appunti_tecnologo_quaderno_prove_pilota_OCR.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1887,
+   "file": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 87,
+   "file": "appunti_tecnologo_quaderno_prove_pilota_OCR.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1701,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 283,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1019,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 85,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1476,
+   "file": "registro_estintori_scadenze.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1869,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1695,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1032,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 98,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 647,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1051,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 117,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1819,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1861,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1242,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 1501,
+   "file": "registro_tamponi_superfici_listeria_salmonella.csv",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 0,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "rerank": 0.043118175119161606
+  },
+  {
+   "cid": 283,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.0335720032453537
+  },
+  {
+   "cid": 1145,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.00891722273081541
+  },
+  {
+   "cid": 1243,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.008897206746041775
+  },
+  {
+   "cid": 1887,
+   "file": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "rerank": 0.0027253092266619205
+  },
+  {
+   "cid": 1695,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "rerank": 0.002465374767780304
+  },
+  {
+   "cid": 537,
+   "file": "IMG-20260510-WA0007.jpg",
+   "rerank": 0.0022096794564276934
+  },
+  {
+   "cid": 1476,
+   "file": "registro_estintori_scadenze.csv",
+   "rerank": 0.0019610761664807796
+  },
+  {
+   "cid": 545,
+   "file": "IMG_20260514_152241_frammento_REC-2026-011.jpg",
+   "rerank": 0.0015422418946400285
+  },
+  {
+   "cid": 1861,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.0014387024566531181
+  },
+  {
+   "cid": 1901,
+   "file": "~$ttera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.0012588318204507232
+  },
+  {
+   "cid": 647,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "rerank": 0.0002739984483923763
+  },
+  {
+   "cid": 611,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.0002673650160431862
+  },
+  {
+   "cid": 1501,
+   "file": "registro_tamponi_superfici_listeria_salmonella.csv",
+   "rerank": 0.0001713506644591689
+  },
+  {
+   "cid": 1701,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "rerank": 0.00013286038301885128
+  },
+  {
+   "cid": 1797,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.00011334144073771313
+  },
+  {
+   "cid": 1242,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.00011332576104905456
+  },
+  {
+   "cid": 96,
+   "file": "appunti_tecnologo_quaderno_prove_pilota_OCR.txt",
+   "rerank": 0.00010058308544103056
+  },
+  {
+   "cid": 1819,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "rerank": 3.5034074244322255e-05
+  },
+  {
+   "cid": 1019,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 2.482634226907976e-05
+  },
+  {
+   "cid": 87,
+   "file": "appunti_tecnologo_quaderno_prove_pilota_OCR.txt",
+   "rerank": 2.226772630820051e-05
+  },
+  {
+   "cid": 1032,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 2.0857925846939906e-05
+  },
+  {
+   "cid": 1051,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 2.085456253553275e-05
+  },
+  {
+   "cid": 1869,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "rerank": 1.7792121070669964e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 0,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "origine": "nativa",
+   "rerank": 0.043118175119161606,
+   "testo": "QUESTO ARCHIVIO E' UNA SIMULAZIONE\n===================================\n\nI documenti contenuti in questa cartella sono INTERAMENTE INVENTATI.\n\nAurora Food Group S.r.l. non esiste e non e' mai esistita. Persone, fornitori, clienti,\nprodotti, lotti, importi, non conformita', reclami, ispezioni e contestazioni sono\ninvenzioni create per una simulazione dimostrativa.\n\nAlcuni documenti sono redatti in forma di atti provenienti da organizzazioni realmente\nesistenti - rapporti di audit, verbali ispettivi, estratti conto, fatture, certificati.\nTUTTI i numeri di certificato, protocollo, pratica, conto e matricola in essi contenuti\nsono inventati, cosi' come tutte le persone indicate come dipendenti, funzionari,\nauditor o ispettori di quelle organizzazioni: nessuna di esse esiste, e nessuna di\nquelle organizzazioni ha redatto, firmato o ricevuto alcuno di questi documenti.\n\nCodici fiscali, partite IVA, IBAN e codici a barre sono costruiti per superare i\nrispettivi algoritmi di controllo; numeri di telefono, indirizzi e prefissi sono\nverosimili ma inesistenti - con l'eccezione dei numeri di pubblica\nutilita' e dei centri antiveleni citati nelle schede di sicurezza, che sono"
+  },
+  {
+   "cid": 283,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "origine": "nativa",
+   "rerank": 0.0335720032453537,
+   "testo": ">>>> - segnalazione nel vendor rating fornitori, parametro \"puntualita'\"\n>>>>\n>>>> Vi ricordo che il vs. attuale punteggio complessivo e' 87/100 e che sotto\n>>>> quota 80 scatta la revisione della qualifica con possibile DECLASSAMENTO\n>>>> a fornitore condizionato. Sarebbe un peccato, visti i volumi che\n>>>> movimentiamo insieme e la promo in partenza.\n>>>>\n>>>> Attendiamo vs. osservazioni entro 5 gg lavorativi.\n>>>>\n>>>> Luca Vantini\n>>>> Responsabile Ricevimento Merci - CE.DI. Cerea\n>>>> Tosano Cerea S.p.A. - Via Palazzina 5 - Cerea (VR)\n>>>>\n>>>>> ---- messaggio piu' vecchio, stessa giornata ----\n>>>>> Da: ricevimento.cerea@tosano.it\n>>>>> Inviato: giovedì 7 maggio 2026 12:14\n>>>>> A: logistica@aurorafoodgroup.it\n>>>>> Oggetto: mezzo non presentato slot 11:30 baia 14 - URGENTE\n>>>>>\n>>>>> Il vs mezzo prenotato slot 11:30 baia 14 NON si e' presentato.\n>>>>> Chiamato numero emergenza trasporti in anagrafica (348 66 12 044):\n>>>>> NON RISPONDE.\n>>>>> Se il mezzo non arriva entro le 14:00 lo slot decade e lo scarico\n>>>>> sara' A NOSTRA DISCREZIONE a fine coda.\n>>>>> Ricevimento Merci CE.DI. Cerea - int. 4402\n>>>>>"
+  },
+  {
+   "cid": 1145,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "origine": "nativa",
+   "rerank": 0.00891722273081541,
+   "testo": "12.2 Il riesame annuale 2026 del sistema HACCP si integra con il riesame della\ndirezione SGQ del 12/03/2026 (verbale VRD-2026-01).\n12.3 Ogni revisione del Manuale è approvata da Direzione; la matrice delle revisioni\nè riportata in ultima pagina. Rev. 4 del 15/01/2024: adeguamento a BRCGS Issue 9 e\nIFS v8, inserimento PT-104 come CCP2 in sostituzione del precedente CP cottura,\naggiornamento zoning tamponi.\n\n13. DOCUMENTAZIONE E CONSERVAZIONE\n\n13.1 Le registrazioni relative ai CCP sono conservate per 24 mesi oltre il TMC del\nprodotto cui si riferiscono. I moduli in uso: MOD-QA-07 rev.5, MOD-QA-12, MOD-QA-19,\nMOD-PR-04, MOD-MAG-02, MOD-HR-11, MOD-QA-31. La modulistica è gestita secondo\nPRO-QA-01 (tenuta sotto controllo dei documenti); l'uso di moduli in revisione\nsuperata costituisce non conformità interna.\n13.2 Archivio: cartaceo presso ufficio QA (armadi 1-4); elettronico su server aziendale\n\\\\AURORA-SRV01\\Qualita (backup notturno). E' in valutazione la digitalizzazione\ndell'archivio storico (input della Direzione, vedi verbale riesame 12/03/2026).\n\nALLEGATI (richiamati nel testo)\nAll. 1 - Elenco documenti di origine esterna\nAll. 2 - Elenco PRP e procedure richiamate"
+  },
+  {
+   "cid": 1243,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "origine": "nativa",
+   "rerank": 0.008897206746041775,
+   "testo": "e norme collegate, il quale sostituisce il documento cartaceo e la firma\nautografa.\n\n--- FINE TESTO DELL'ATTO ---\n\n________________________________________\n\nDa: Federica Sartori <f.sartori@aurorafoodgroup.it>\nA: Elena Marchetti <e.marchetti@aurorafoodgroup.it>; Marco Fantin <m.fantin@aurorafoodgroup.it>\nCc: Giancarlo Bertoldi <g.bertoldi@aurorafoodgroup.it>\nInviato: lunedì 25 maggio 2026 12:10\nOggetto: I: POSTA CERTIFICATA: Prot. n. 0058214/2026 - Preavviso di ispezione programmata\n\nElena, Marco,\nè arrivata QUESTA sulla PEC. Ispezione ULSS il 9 GIUGNO. Tra due settimane!!\nVe la giro subito, io non so nemmeno da dove si comincia con la lista che chiedono,\nsono 14 punti. Il punto 7 (analisi acqua) mi sa che è quello messo peggio, l'ultima\nanalisi che trovo in archivio è del 2023?? Ditemi voi.\nGiancarlo in cc come da sue istruzioni.\nFede\n\nFederica Sartori - HR & Segreteria\nAurora Food Group S.r.l. - Via dell'Industria 27, 37044 Cologna Veneta (VR)\nLe informazioni contenute nella presente comunicazione sono riservate ai sensi del\nReg. UE 2016/679. Se avete ricevuto questo messaggio per errore siete pregati di\ndistruggerlo e darne comunicazione al mittente."
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4665,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.2,
+  "rerank": 62.61
+ },
+ "id": "Q280",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T18:32:02",
+ "secondi": 62.84,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 45.85,
+  "token_prompt": 1883,
+  "token_risposta": 50,
+  "testo_grezzo": "Il documento più vecchio dell'archivio non è disponibile dai documenti forniti.\n\nFONTI: _QUESTO_ARCHIVIO_E_SIMULATO.txt, notifica_ATS_ispezione_programmata_igiene.txt",
+  "fonti_citate": [
+   "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "notifica_ATS_ispezione_programmata_igiene.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

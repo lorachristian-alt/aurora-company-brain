@@ -1,0 +1,681 @@
+{
+ "domanda": "C'e' qualche quadro elettrico non conforme in stabilimento?",
+ "candidati_densi": [
+  {
+   "cid": 1883,
+   "punteggio": 0.5870049413223151,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1411,
+   "punteggio": 0.5789934424249839,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1438,
+   "punteggio": 0.5722530148816574,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 614,
+   "punteggio": 0.5721082623921379,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1180,
+   "punteggio": 0.5694222467588415,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 350,
+   "punteggio": 0.5694181462869616,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1879,
+   "punteggio": 0.5648992041580827,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1841,
+   "punteggio": 0.5642567280953188,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 343,
+   "punteggio": 0.5558931660784316,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1206,
+   "punteggio": 0.5552689015592783,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 28,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1437,
+   "punteggio": 0.5550399155011937,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 185,
+   "punteggio": 0.5539458518506888,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1884,
+   "punteggio": 0.552281600969731,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 527,
+   "punteggio": 0.5515395368544953,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1201,
+   "punteggio": 0.5507155715479211,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 23,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1608,
+   "punteggio": 0.5498575403359571,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 617,
+   "punteggio": 0.549026568596452,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1457,
+   "punteggio": 0.5476835403252674,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1245,
+   "punteggio": 0.5440807770754577,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 616,
+   "punteggio": 0.5437686140412856,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 5,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 525,
+   "punteggio": 14.855551719665527,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1347,
+   "punteggio": 14.188626289367676,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 413,
+   "punteggio": 13.172348976135254,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 412,
+   "punteggio": 12.564043998718262,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1879,
+   "punteggio": 12.455705642700195,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 606,
+   "punteggio": 11.928410530090332,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 422,
+   "punteggio": 11.851383209228516,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 23,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1149,
+   "punteggio": 11.680106163024902,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 424,
+   "punteggio": 11.562580108642578,
+   "file": "elenco_chiavi_e_accessi.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 335,
+   "punteggio": 11.46753978729248,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 169,
+   "punteggio": 11.166340827941895,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1156,
+   "punteggio": 11.10075855255127,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1279,
+   "punteggio": 11.020756721496582,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 2,
+   "punteggio": 10.963525772094727,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1813,
+   "punteggio": 10.776171684265137,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1346,
+   "punteggio": 10.752918243408203,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1290,
+   "punteggio": 10.70138168334961,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1289,
+   "punteggio": 10.632319450378418,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 402,
+   "punteggio": 10.483508110046387,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 644,
+   "punteggio": 10.433636665344238,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 16,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1879,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.030309988518943745,
+   "rango_denso": 7,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 525,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1883,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1347,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1411,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 413,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1438,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 412,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 614,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1180,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 350,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 606,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 422,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 23,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1149,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1841,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 343,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 424,
+   "file": "elenco_chiavi_e_accessi.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 335,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1206,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 28,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 169,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1437,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 185,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1156,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1279,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 525,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "rerank": 0.4198886752128601
+  },
+  {
+   "cid": 1879,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "rerank": 0.20712575316429138
+  },
+  {
+   "cid": 343,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "rerank": 0.11820723861455917
+  },
+  {
+   "cid": 1883,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "rerank": 0.04224731773138046
+  },
+  {
+   "cid": 1347,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "rerank": 0.03501608967781067
+  },
+  {
+   "cid": 1149,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "rerank": 0.015241791494190693
+  },
+  {
+   "cid": 413,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "rerank": 0.012994429096579552
+  },
+  {
+   "cid": 1206,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.011598870158195496
+  },
+  {
+   "cid": 1279,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "rerank": 0.01110048871487379
+  },
+  {
+   "cid": 169,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "rerank": 0.009980191476643085
+  },
+  {
+   "cid": 350,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "rerank": 0.009835065342485905
+  },
+  {
+   "cid": 424,
+   "file": "elenco_chiavi_e_accessi.txt",
+   "rerank": 0.009605777449905872
+  },
+  {
+   "cid": 606,
+   "file": "job_description_responsabile_produzione.docx",
+   "rerank": 0.008274277672171593
+  },
+  {
+   "cid": 412,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "rerank": 0.008264172822237015
+  },
+  {
+   "cid": 185,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "rerank": 0.007920559495687485
+  },
+  {
+   "cid": 422,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "rerank": 0.007017537951469421
+  },
+  {
+   "cid": 1156,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "rerank": 0.005340798292309046
+  },
+  {
+   "cid": 1841,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "rerank": 0.004128392785787582
+  },
+  {
+   "cid": 1180,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.003537244163453579
+  },
+  {
+   "cid": 1437,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "rerank": 0.0034696615766733885
+  },
+  {
+   "cid": 1438,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "rerank": 0.002274620346724987
+  },
+  {
+   "cid": 614,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.0017913371557369828
+  },
+  {
+   "cid": 1411,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.0012445813044905663
+  },
+  {
+   "cid": 335,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "rerank": 3.34318756358698e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 525,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "origine": "nativa",
+   "rerank": 0.4198886752128601,
+   "testo": "2. INGOMBRO: la spirale e' 8,4 x 6,2 m, altezza 4,9 m. In sala Linea 3 ci sta MA va spostato il quadro elettrico generale della sala e demolito il soppalchetto ricambi (quello dove Ivano tiene la roba, che tanto per l'audit va comunque svuotato). Ho fatto verificare l'altezza sottotrave: 5,35 m, ok con margine risicato per il canale di estrazione. Criotech chiede il rilievo definitivo prima della conferma d'ordine.\n\n3. TECNICA: resa dichiarata 1.800 kg/h sul cornetto da 45 g con cuore a -18C in 35-38 min, contro i 240 min limite del nostro CCP4 col TS-01 attuale che ormai li tiene a fatica. Ammoniaca/glicole, niente freon, consumo dichiarato -22% rispetto al TS-01. Per me tecnicamente non c'e' partita.\n\nResta il punto pagamenti che non e' roba mia: 30% all'ordine, 60% alla consegna, 10% al collaudo. Luisa in copia per i conti.\n\nIo firmerei. Dimmi tu.\nMF\n\nIng. Marco Fantin\nDirettore di Stabilimento\nAurora Food Group S.r.l. - Via dell'Industria 27, 37044 Cologna Veneta (VR)\nTel. 0442 85 41 22 int. 210 - m.fantin@aurorafoodgroup.it\n\n\n-----Messaggio originale-----\nDa: Davide Camurri <d.camurri@criotechimpianti.it>\nInviato: martedi 21 aprile 2026 18:40"
+  },
+  {
+   "cid": 1879,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "origine": "nativa",
+   "rerank": 0.20712575316429138,
+   "testo": "(capo officina / manutenzione), assistito da Bissoli Mirco (manutentore)\nRSPP: p.i. Bonato Sergio - Studio Bonato & Partners, Arzignano (VI)\nLuogo dell'installazione: stabilimento produttivo di Via dell'Industria 27, Cologna Veneta\n(VR), con annesso magazzino prodotto finito surgelato di Via Palu' 3/A (alimentazione\nderivata, verificato contestualmente).\nDenuncia impianto: DPR 462/01, trasmissione INAIL/ASL tramite CIVA, pratica n. 1178/2019.\nFornitura: cabina di trasformazione MT/BT propria, 20 kV / 400 V, trasformatore in resina\n630 kVA (verifica cabina ex DM 4/02/2011 - non oggetto del presente verbale).\nPotenza disponibile: 630 kVA - Sistema di distribuzione: TN-S\nSuperficie stabilimento: circa 8.900 m2 coperti.\nPeriodicita' applicabile: BIENNALE, trattandosi di ambiente a maggior rischio in caso di\nincendio (attivita' soggetta al controllo dei VV.F., pratica Comando VV.F. Verona n. 28714)\nai sensi dell'art. 4 c. 1 lett. a) e c. 2 del D.P.R. 462/01.\nVerifica precedente: verbale VT-2024-0788 del 18/04/2024 (esito favorevole).\n2. Documentazione esaminata\n- Dichiarazione di conformita' impianto elettrico ex D.M. 37/08, ditta Elettromec Impianti"
+  },
+  {
+   "cid": 343,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "origine": "nativa",
+   "rerank": 0.11820723861455917,
+   "testo": "113B - UNI EN 3-7\n8\nquadri elettrici,\ncabina MT, sala\ncompressori\nsemestrale\nEstintori carrellati\npolvere 30 kg\nA B1 C\n2\ndeposito esterno, area\ngruppo elettrogeno\nsemestrale\nRete idranti UNI 45\nUNI 10779 - liv. 2\n12\nanello interno reparti\ne magazzini\nsemestrale\nAttacco autopompa UNI\n70\nUNI 10779\n1\nfronte strada Via\ndell'Industria\nsemestrale\nRiserva idrica 36 m3 +\ngruppo\npressurizzazione\nUNI EN 12845\n1\nvano tecnico esterno\nsemestrale\nImpianto rivelazione\nautomatica fumi\nUNI 9795\ncentrale + 74\nrivelatori\nmagazzini,\nconfezionamento,\ncabina, CT\nsemestrale\nPulsanti allarme\nmanuale\nUNI 9795\n16\nvie di esodo\nsemestrale\nEvacuatori di fumo e\ncalore (EFC)\nUNI 9494-1\n6\ncopertura reparto\nforni e magazzino PF\nannuale\nIlluminazione di\nsicurezza\nUNI EN 1838 - 5 lux\nvie esodo\n92 plafoniere SE\ntutto lo stabilimento\nsemestrale\nPorte tagliafuoco REI\n120\nUNI EN 16034\n9\ncompartimentazioni\nsemestrale\nSegnaletica di\nsicurezza\nD.Lgs. 81/08 Tit. V\n--\ntutto lo stabilimento\nannuale\nRegistro dei controlli antincendio ex art. 4 D.M. 1/09/2021 istituito e custodito presso la\nportineria; addetti antincendio designati n. 12, formati con corso di livello 3 (ex rischio"
+  },
+  {
+   "cid": 1883,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "origine": "nativa",
+   "rerank": 0.04224731773138046,
+   "testo": "11\n22,8\nCONFORME\nQ-L1\nlinea 1 -\npastorizzatore\nPT-104\n30\nA\n26\n12\n24,1\nCONFORME\nQ-L1\nmetal detector\nMD-3200 +\nnastri\n30\nA\n22\n10\n21,6\nCONFORME\nQ-L1\nconfezionatrice\nPKM-450\n30\nB\n31\n14\n25,3\nCONFORME\nQ-L2\nimpastatrice\nIMP-300\n30\nA\n25\n11\n23,4\nCONFORME\nQ-L2\ncella lievitazione\n+ sfogliatrice\n30\nA\n27\n12\n24,8\nCONFORME\nQ-L2\nforno FT-02\nausiliari\n30\nA\n23\n10\n22,1\nCONFORME\nQ-L3\ntunnel TS-01\n30\nB\n29\n13\n24,9\nCONFORME\nQ-L3\nmetal detector\nMD-1800\n30\nA\n24\n11\n23,0\nCONFORME\nQ-FRIGO\ncentrale\nfrigorifera\nCF-01/CF-02\n300\nA selett.\n148\n39\n241\nCONFORME\nQ-CIP\nimpianto\nlavaggio CIP-01\n30\nA\n28\n12\n25,0\nCONFORME\nQ-UFF\nprese uffici\npiano primo\n30\nAC\n26\n12\n23,7\nCONFORME\nQ-MAG\nmagazzino Via\nPalu' 3/A\n30\nA\n25\n11\n23,2\nCONFORME\nQ-OFF\nofficina\nmanutenzione\n30\nA\n342\n--\n--\nNON\nCONFORME\n(vedi\nprescrizione P1)\n5.3 Continuita' dei conduttori di protezione ed equipotenziali (prova a 200 mA):\nvalori misurati compresi tra 0,04 e 0,38 ohm su n. 28 punti campionati (masse di macchine\nFT-01, FT-02, PT-104, IMP-300, PKM-450, TS-01, CIP-01, silos, serbatoio criogenico, scaffali\n\nVERIFICA NORD S.r.l. - Organismo Abilitato D.P.R. 462/01 - abilitazione MIMIT D.D. 21/12/2023"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4618,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.18,
+  "rerank": 49.99
+ },
+ "id": "Q081",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:55:55",
+ "secondi": 50.19,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 70.22,
+  "token_prompt": 2196,
+  "token_risposta": 54,
+  "testo_grezzo": "Non e' possibile rispondere alla domanda in base ai dati forniti.\n\nFONTI: verifica_periodica_impianto_terra_DPR462.pdf, CPI_certificato_prevenzione_incendi_VVF.pdf\n\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "verifica_periodica_impianto_terra_DPR462.pdf",
+   "CPI_certificato_prevenzione_incendi_VVF.pdf"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

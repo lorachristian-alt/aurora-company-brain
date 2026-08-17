@@ -1,0 +1,683 @@
+{
+ "domanda": "Che rapporto c'è fra l'acconto del tunnel e il fatto che Tosano ci paga a 90 giorni?",
+ "candidati_densi": [
+  {
+   "cid": 1782,
+   "punteggio": 0.6599500595736807,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1110,
+   "punteggio": 0.6478275949448223,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1629,
+   "punteggio": 0.5979948144820166,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 173,
+   "punteggio": 0.5883296371168627,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 528,
+   "punteggio": 0.5788846920257792,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 332,
+   "punteggio": 0.5685178582472437,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1781,
+   "punteggio": 0.5545580272645978,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1460,
+   "punteggio": 0.5535406121753006,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1379,
+   "punteggio": 0.5532175110024022,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1363,
+   "punteggio": 0.5395740857856248,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1374,
+   "punteggio": 0.5388367761470496,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 275,
+   "punteggio": 0.5383525361163737,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1860,
+   "punteggio": 0.5343960629544564,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 654,
+   "punteggio": 0.529617917091963,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 673,
+   "punteggio": 0.5290536746163896,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 277,
+   "punteggio": 0.5284951083552617,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 276,
+   "punteggio": 0.5262649324730501,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 663,
+   "punteggio": 0.5260048029247978,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 273,
+   "punteggio": 0.521176800584474,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 174,
+   "punteggio": 0.5154985114409928,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 5,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1110,
+   "punteggio": 39.76334762573242,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 528,
+   "punteggio": 32.929771423339844,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 431,
+   "punteggio": 26.37480354309082,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1374,
+   "punteggio": 25.644533157348633,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1379,
+   "punteggio": 25.13458824157715,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1782,
+   "punteggio": 24.609588623046875,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1808,
+   "punteggio": 23.19977569580078,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1781,
+   "punteggio": 22.714881896972656,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 430,
+   "punteggio": 22.480905532836914,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 618,
+   "punteggio": 22.456829071044922,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1707,
+   "punteggio": 22.16940689086914,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 621,
+   "punteggio": 21.906265258789062,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 620,
+   "punteggio": 20.670814514160156,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1114,
+   "punteggio": 20.469188690185547,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1108,
+   "punteggio": 20.12032699584961,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1829,
+   "punteggio": 19.995689392089844,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1220,
+   "punteggio": 19.57822036743164,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1828,
+   "punteggio": 19.562158584594727,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1113,
+   "punteggio": 19.552900314331055,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1111,
+   "punteggio": 19.474674224853516,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.03252247488101534,
+   "rango_denso": 2,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.031544957774465976,
+   "rango_denso": 1,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 528,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.0315136476426799,
+   "rango_denso": 5,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1379,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.029877369007803793,
+   "rango_denso": 9,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1374,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.029709507042253523,
+   "rango_denso": 11,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.029631255487269532,
+   "rango_denso": 7,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1629,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 173,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 332,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1808,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1460,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 618,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1363,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1707,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 275,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 621,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 620,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1860,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 654,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1114,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 673,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": 15,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1108,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": null,
+   "rango_sparso": 15
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.9356178045272827
+  },
+  {
+   "cid": 1860,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.7178115844726562
+  },
+  {
+   "cid": 1374,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "rerank": 0.713000476360321
+  },
+  {
+   "cid": 1379,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "rerank": 0.5874949097633362
+  },
+  {
+   "cid": 528,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "rerank": 0.5750119090080261
+  },
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.48962631821632385
+  },
+  {
+   "cid": 1808,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.37459632754325867
+  },
+  {
+   "cid": 1629,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "rerank": 0.14522241055965424
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.10470087081193924
+  },
+  {
+   "cid": 332,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "rerank": 0.10442643612623215
+  },
+  {
+   "cid": 1460,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.046607837080955505
+  },
+  {
+   "cid": 173,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "rerank": 0.04521626979112625
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.03157390281558037
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.01524116937071085
+  },
+  {
+   "cid": 654,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "rerank": 0.00837082602083683
+  },
+  {
+   "cid": 673,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "rerank": 0.007849365472793579
+  },
+  {
+   "cid": 275,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.006824607960879803
+  },
+  {
+   "cid": 620,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.0056707169860601425
+  },
+  {
+   "cid": 1363,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.0022189579904079437
+  },
+  {
+   "cid": 618,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.0004262657603248954
+  },
+  {
+   "cid": 1707,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.0004076059558428824
+  },
+  {
+   "cid": 621,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.0002989991335198283
+  },
+  {
+   "cid": 1114,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 2.8017835575155914e-05
+  },
+  {
+   "cid": 1108,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 2.40659064729698e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "origine": "nativa",
+   "rerank": 0.9356178045272827,
+   "testo": "qualche referenza di Tosano siamo all osso, va bene, lo so, ma il fatturato fa massa\ncritica e la massa critica fa potere contrattuale, l ho sempre detto\n\nla Trentin dice anche che il conto è in tensione per via dell acconto del tunnel, i\nfamosi 87mila di Criotech, e che Tosano ci paga a 90 giorni e l incasso grosso di marzo\nentra solo il 10 giugno, lo so, lo so tutto, ma la tensione di cassa è normale per chi\ncresce, io nel 96 ho fatto tre mesi senza stipendio per pagare il forno nuovo e vostra\nmadre non mi ha mai detto niente santa donna, adesso appena il conto scende sotto una\ncerta soglia sembra che caschi il mondo, abbiamo 250mila di fido e 400 di anticipo\nfatture, le banche i soldi te li danno quando dimostri che sai dove vai, e noi sappiamo\ndove andiamo, o meglio IO so dove vado e voglio che lo sappiate anche voi\n\nTERZO PUNTO questa storia della plastica\n\nquesta storia della plastica mi ha fatto passare la notte in bianco, non ve l ho detto\nma mercoledi non ho dormito, alle tre ero in cucina a guardare il muro, perche non è\nla signora di Bussolengo il problema, una signora arrabbiata la gestisci, le mandi due"
+  },
+  {
+   "cid": 1860,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.7178115844726562,
+   "testo": "2 standard certificati, 1 linea bio ICEA e crescente richiesta\n           documentale dei clienti GDO;\n        c) manutenzione: 2 addetti interni (Dal Maso, Bissoli) piu' terzisti; il\n           parco macchine Linea 1 (PKM-450 in particolare) mostra usura crescente\n           e il magazzino ricambi critici non e' presidiato.\n        L'AD si riserva di valutare un inserimento in Qualita' nel secondo\n        semestre, subordinato all'andamento di cassa (v. punto 9.1).\n\n9. DECISIONI DELLA DIREZIONE\n\n   9.1  Investimento tunnel di surgelazione a spirale Criotech CR-SP180 (fornitore\n        F0070) in sostituzione del TS-01: CONFERMATO. Ordine gia' emesso; acconto\n        30% pari a 87.000 euro in scadenza a maggio 2026. La rag. Trentin segnala\n        la concomitanza con incassi Tosano a 90 gg (RIBA) e l'utilizzo previsto\n        della linea anticipo fatture UniCredit. La Direzione approva la copertura\n        finanziaria proposta e incarica lo Studio Bellotto di istruire la pratica\n        del credito d'imposta beni strumentali con perizia di interconnessione.\n\n   9.2  Sistema informativo: prosegue la valutazione comparativa ERP CSB-System vs"
+  },
+  {
+   "cid": 1374,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "origine": "nativa",
+   "rerank": 0.713000476360321,
+   "testo": "Settimana Saldo iniziale Incassi Uscite Saldo finale Fido residuo Utilizzo anticipo Allarme\nW22 (attuale) 41820.6 0 0 212000\nW23\nW24\nW25\nW26\nW27\nW28\nW29\nW30\nW31\nW32\nW33\nW34\n\n(L.T.) se il Criotech va pagato in W24 e il Tosano slitta di una settimana, in W25 siamo fuori fido.\n(L.T.) chiesto a UniCredit ampliamento anticipo a 500.000. Risposta attesa entro il 20/06.\n(G.B. a penna sul foglio stampato) 'chiedere a Rossi se anticipa il pagamento in cambio di 1 punto'\nIpotesi alla base del previsionale\n\n\n1. Tosano paga a 90 gg d.f.f.m. - storicamente slitta di 4-7 giorni oltre la scadenza teorica\n2. Sconto merce 2% dedotto in fattura, contributo promo liquidato a fine anno (non in cassa qui)\n3. Rossetto: prudenzialmente al 50% per la contestazione sul richiamo\n4. Criotech: acconto 30% + saldo 60% alla consegna prevista fine luglio + 10% al collaudo (settembre)\n5. Non è considerato il credito d'imposta 4.0 (compensabile solo dopo l'interconnessione - vedi nota Bellotto)\n6. Non è considerato il costo del ritiro dei lotti L26130/L26131 stimato in 31.500 € (decisione sospesa)\n7. Agosto: 3 settimane di chiusura, incassi storicamente in ritardo di 10 gg"
+  },
+  {
+   "cid": 1379,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "origine": "nativa",
+   "rerank": 0.5874949097633362,
+   "testo": "W23\nW24\nW25\nW26\nW27\nW28\nW29\nW30\nW31\nW32\nW33\nW34\n\n(L.T.) il saldo Criotech di settembre e la 14esima di luglio cadono a tre settimane di distanza: in W31 siamo fuori fido.\n(L.T.) chiesto a UniCredit ampliamento anticipo a 500.000. Risposta attesa entro il 20/06.\n(G.B. a penna sul foglio stampato) 'chiedere a Rossi se anticipa il pagamento in cambio di 1 punto'\nIpotesi alla base del previsionale\n\n\n1. Tosano paga a 90 gg d.f.f.m. - storicamente slitta di 4-7 giorni oltre la scadenza teorica\n2. Sconto merce 2% dedotto in fattura, contributo promo liquidato a fine anno (non in cassa qui)\n3. Rossetto: prudenzialmente al 50% per la contestazione sul richiamo\n4. Criotech: acconto 30% + saldo 60% alla consegna prevista fine luglio + 10% al collaudo (settembre)\n5. Non è considerato il credito d'imposta 4.0 (compensabile solo dopo l'interconnessione - vedi nota Bellotto)\n6. Non è considerato il costo del ritiro dei lotti L26130/L26131 stimato in 31.500 € (decisione sospesa)\n7. Agosto: 3 settimane di chiusura, incassi storicamente in ritardo di 10 gg\n8. Non sono considerati eventuali oneri per la contestazione sindacale sugli straordinari"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4591,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.17,
+  "rerank": 43.65
+ },
+ "id": "Q201",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:28:04",
+ "secondi": 43.84,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 89.48,
+  "token_prompt": 1870,
+  "token_risposta": 140,
+  "testo_grezzo": "Il rapporto fra l'acconto del tunnel e il fatto che Tosano ci paga a 90 giorni non è chiaro. La Trentin segnala che l'acconto del tunnel (87.000 euro) e l'incasso Tosano (che entra solo il 10 giugno) cadono a 90 giorni di distanza, ma non si specifica se ciò sia un fattore che influisce sulla scadenza del pagamento o se sia solo una coincidenza.\n\nFONTI: mail_titolare_Aurora_vie_aziendale_5anni.txt, previsionale_cassa_giugno_agosto2026.xlsx",
+  "fonti_citate": [
+   "mail_titolare_Aurora_vie_aziendale_5anni.txt",
+   "previsionale_cassa_giugno_agosto2026.xlsx"
+  ],
+  "fonti_fuori_contesto": [
+   "mail_titolare_Aurora_vie_aziendale_5anni.txt"
+  ],
+  "confidenza": "bassa"
+ }
+}

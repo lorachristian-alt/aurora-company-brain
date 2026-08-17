@@ -1,0 +1,681 @@
+{
+ "domanda": "Sulla Linea 1 chi ha l'HACCP scaduto e ha comunque lavorato la domenica del 10 maggio?",
+ "candidati_densi": [
+  {
+   "cid": 1266,
+   "punteggio": 0.5302808515518693,
+   "file": "organigramma_aziendale_aggiornato_marzo26.pptx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 82,
+   "punteggio": 0.5271036469343879,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1301,
+   "punteggio": 0.5270015538644737,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1479,
+   "punteggio": 0.5187999405857564,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1776,
+   "punteggio": 0.5114890126751691,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1605,
+   "punteggio": 0.5073331297800576,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1077,
+   "punteggio": 0.5002656376240784,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1091,
+   "punteggio": 0.4995010621626745,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 386,
+   "punteggio": 0.4989819602056967,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1481,
+   "punteggio": 0.4953714591661196,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1484,
+   "punteggio": 0.4948004201253226,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1082,
+   "punteggio": 0.4936055608258003,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1083,
+   "punteggio": 0.4923917241961365,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1482,
+   "punteggio": 0.4917948990782535,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1480,
+   "punteggio": 0.49073975134212755,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1819,
+   "punteggio": 0.4906422467897325,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1859,
+   "punteggio": 0.4842594288099429,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 389,
+   "punteggio": 0.4839327673615035,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 434,
+   "punteggio": 0.48380421689160025,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1789,
+   "punteggio": 0.47933103140533573,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 16,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1093,
+   "punteggio": 30.16721534729004,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 431,
+   "punteggio": 27.31816864013672,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1314,
+   "punteggio": 23.32272720336914,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 435,
+   "punteggio": 21.101482391357422,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 434,
+   "punteggio": 21.00545310974121,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1478,
+   "punteggio": 18.753812789916992,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 168,
+   "punteggio": 18.344270706176758,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1832,
+   "punteggio": 18.209808349609375,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 286,
+   "punteggio": 18.20939826965332,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 289,
+   "punteggio": 17.916080474853516,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1308,
+   "punteggio": 17.8272705078125,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1808,
+   "punteggio": 17.621849060058594,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 437,
+   "punteggio": 17.513784408569336,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 430,
+   "punteggio": 17.401212692260742,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1479,
+   "punteggio": 17.290111541748047,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1781,
+   "punteggio": 17.25446319580078,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 601,
+   "punteggio": 17.102222442626953,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1774,
+   "punteggio": 17.100936889648438,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 256,
+   "punteggio": 16.55039405822754,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1831,
+   "punteggio": 16.29751205444336,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1479,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.028958333333333336,
+   "rango_denso": 4,
+   "rango_sparso": 15
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.02804284323271665,
+   "rango_denso": 19,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1093,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 17,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1266,
+   "file": "organigramma_aziendale_aggiornato_marzo26.pptx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 82,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1301,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1314,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 435,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1478,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1605,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 168,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1077,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1091,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1832,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 286,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 386,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 289,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1481,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1308,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1484,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1082,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1808,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1478,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "rerank": 0.6930639147758484
+  },
+  {
+   "cid": 1479,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "rerank": 0.6867532134056091
+  },
+  {
+   "cid": 1093,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.5652642250061035
+  },
+  {
+   "cid": 82,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "rerank": 0.3975386917591095
+  },
+  {
+   "cid": 1091,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.3943440020084381
+  },
+  {
+   "cid": 1308,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "rerank": 0.2976245880126953
+  },
+  {
+   "cid": 1481,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "rerank": 0.214965358376503
+  },
+  {
+   "cid": 1605,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.2064715325832367
+  },
+  {
+   "cid": 435,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.18590521812438965
+  },
+  {
+   "cid": 1301,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "rerank": 0.16308052837848663
+  },
+  {
+   "cid": 1082,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.08787646144628525
+  },
+  {
+   "cid": 289,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.059908825904130936
+  },
+  {
+   "cid": 286,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.05298994109034538
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.05211835354566574
+  },
+  {
+   "cid": 1266,
+   "file": "organigramma_aziendale_aggiornato_marzo26.pptx",
+   "rerank": 0.0496504120528698
+  },
+  {
+   "cid": 1484,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "rerank": 0.04531717672944069
+  },
+  {
+   "cid": 1314,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "rerank": 0.025116359815001488
+  },
+  {
+   "cid": 386,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "rerank": 0.021894138306379318
+  },
+  {
+   "cid": 1077,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.02029780112206936
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.010093426331877708
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.00631840480491519
+  },
+  {
+   "cid": 168,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "rerank": 0.0030125826597213745
+  },
+  {
+   "cid": 1832,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.0001251454814337194
+  },
+  {
+   "cid": 1808,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.00011851574527099729
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1478,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "origine": "nativa",
+   "rerank": 0.6930639147758484,
+   "testo": "SCADENZARIO FORMAZIONE OBBLIGATORIA - AURORA FOOD GROUP SRL;;;;;;;\nestrazione del 18/05/2026 da file formazione_master.xlsx foglio 2 - f.sartori;;;;;;;\nATTENZIONE: le scadenze HACCP seguono la procedura interna (3 anni) non un obbligo di legge regionale - v. nota Vicentini 2024;;;;;;;\nDipendente;Mansione;Corso;Data corso;Scadenza;Stato;Ente formatore;Note\nPopescu Ionut;Capoturno Linea 1;HACCP avanzato;12/06/2024;12/06/2027;VALIDO;Studio Alimentaria (Vicentini);\nPopescu Ionut;Capoturno Linea 1;Sicurezza specifica rischio alto 12h;03/02/2022;03/02/2027;VALIDO;Bonato & Partners;agg. 6h da fare entro scad.\nPopescu Ionut;Capoturno Linea 1;Preposto 8h;15/09/2023;15/09/2025;SCADUTO;Bonato & Partners;AGG. BIENNALE NON FATTO - urgente\nRossin Davide;Operaio Linea 1;HACCP base;20/04/2023;20/04/2026;SCADUTO;Studio Alimentaria (Vicentini);inserire nella sessione di giugno\nRossin Davide;Operaio Linea 1;Sicurezza specifica rischio alto 12h;10/05/2023;10/05/2028;VALIDO;Bonato & Partners;\nPerin Luca;Operaio Linea 1;HACCP base;20/04/2023;20/04/2026;SCADUTO;Studio Alimentaria (Vicentini);sessione giugno"
+  },
+  {
+   "cid": 1479,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "origine": "nativa",
+   "rerank": 0.6867532134056091,
+   "testo": "Perin Luca;Operaio Linea 1;HACCP base;20/04/2023;20/04/2026;SCADUTO;Studio Alimentaria (Vicentini);sessione giugno\nPerin Luca;Operaio Linea 1;Sicurezza specifica rischio alto 12h;10/05/2023;10/05/2028;VALIDO;Bonato & Partners;\nOsei Samuel;Operaio Linea 1;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);\nOsei Samuel;Operaio Linea 1;Sicurezza specifica rischio alto 12h;11/01/2024;11/01/2029;VALIDO;Bonato & Partners;\nVasilescu Andrei;Operaio Linea 1;HACCP base;2023-04-20;2026-04-20;SCADUTO;Studio Alimentaria (Vicentini);\nVasilescu Andrei;Operaio Linea 1;Allergeni (PRPo1);09/10/2025;09/10/2027;VALIDO;interno (Marchetti);\nBogoni Marta;Operaia Linea 1;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);\nBogoni Marta;Operaia Linea 1;Sicurezza specifica rischio alto 12h;11/01/2024;11/01/2029;VALIDO;Bonato & Partners;\nFurlan Alessandro;Operaio Linea 1;HACCP base;20/04/2023;20/04/2026;SCADUTO;Studio Alimentaria (Vicentini);\nEl Amrani Hassan;Operaio Linea 1;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);\nEl Amrani Hassan;Operaio Linea 1;Allergeni (PRPo1);09/10/2025;09/10/2027;VALIDO;interno (Marchetti);"
+  },
+  {
+   "cid": 1093,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "origine": "nativa",
+   "rerank": 0.5652642250061035,
+   "testo": "0603;PREDA RADU;10/05/2026;dom;MAGAZZ.;T2;14:00;22:00;8,00;;FEST 65%;\n0701;DAL MASO IVANO;10/05/2026;dom;MANUT.;T1;15:05;18:50;;3,75;FEST 65%;chiamata emergenza - valvola azoto\n;;;;;;;;;;;\nTOTALE ORE ORDINARIE SETTIMANA;;;;;;;;1768,00;;;\nTOTALE ORE STRAORDINARIE;;;;;;;;;44,50;;\ndi cui festive (domenica 10/05);;;;;;;;;10,82;FEST 65%;\n;;;;;;;;;;;\n(Sartori) la società ha chiesto la domenica 10/05 ha lavorato la Linea 2 al completo piu' i supporti.;;;;;;;;;;;\n(Sartori) Dal Maso e' entrato in emergenza, ore a parte.;;;;;;;;;;;\n(Sartori) chi ha fatto il sabato NON ha fatto la domenica: il riposo va garantito.;;;;;;;;;;;"
+  },
+  {
+   "cid": 82,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "origine": "nativa",
+   "rerank": 0.3975386917591095,
+   "testo": "forse tassello mese male  segnato su mod cmq\n0450: 6.15O pz\nfirma IP\n\n                pag 43\n\nVENERDI 8/5   turno 2   L26128-L1-T2\n\nore 14  personale 4 0k\nIVANO C0NFERMA valvola azoto PKM perde\n     fato vedere anche a fantin\n     ric. originale pakmatic ordinato  ariva ven 15/5\n     fantin dice andiamo avanti cosi  monitorare\n     io segno qua x sicureza\ngas MAP: contr0llo residuo O2 su confez:  O,8%  0k (lim 2%)\n     pero consumo azoto alto  x la perdita\nCCP2 0k   74,3 / 74,6 / 74,4\n0450: 6.42O pz  rec0rd settimana\n0455: 9OO pz\nnota: bidone scarti vicino linea da spostare  deto a denis\nfine 22\nfirma IP\n\nSABATO 9/5  riposo (lavora squadra di roberto? no linea 1 ferma)\n     sol0 CIP profondo  fato da squadra pulizie\n     IO O5 seguita  verbale lavaggio in bacheca\n\n                pag 44\n\nDOMENICA 10/5   turno 2   L26l3O-L1-T2\n\nore 14 presa consegne  linea gia calda da T1\npersonale: io + marius + luca + il nuovo (dimitri?)\n     il nuovo mai visto prima  formazione fata da me 1O min\n     nn ha ancora fato corso haccp!!! dirlo a marchetti\nore 14.2O circa  PT1O4 ballava\n     display dava 71 e qualcosa poi 69\n     temp bassa forno chiamato ivano    <- richiamato si"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4074,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.16,
+  "rerank": 49.1
+ },
+ "id": "Q169",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:03:26",
+ "secondi": 49.28,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 64.98,
+  "token_prompt": 2009,
+  "token_risposta": 88,
+  "testo_grezzo": "Non e' possibile determinare chi ha lavorato la domenica del 10 maggio sulla Linea 1, poiché non e' presente alcun dato sulla presenza dei dipendenti in quel giorno.\n\nFONTI: log_timbrature_fabbrica_maggio_settimana2.csv, appunti_capoturno_quaderno_linea1_OCR.txt\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "appunti_capoturno_quaderno_linea1_OCR.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

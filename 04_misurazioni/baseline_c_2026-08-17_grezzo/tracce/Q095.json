@@ -1,0 +1,680 @@
+{
+ "domanda": "Quali contatti nella lista buyer sono duplicati o hanno dati sbagliati?",
+ "candidati_densi": [
+  {
+   "cid": 1114,
+   "punteggio": 0.5195207436602087,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 647,
+   "punteggio": 0.518489876646409,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1458,
+   "punteggio": 0.5153311667729795,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1113,
+   "punteggio": 0.5142589035467091,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1717,
+   "punteggio": 0.513710857951545,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 434,
+   "punteggio": 0.511505634448076,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 643,
+   "punteggio": 0.504999462350289,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 632,
+   "punteggio": 0.5044330771297734,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1854,
+   "punteggio": 0.503976261080178,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1333,
+   "punteggio": 0.5037718075298558,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1786,
+   "punteggio": 0.5005910882683378,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1022,
+   "punteggio": 0.49968752035315767,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 88,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1243,
+   "punteggio": 0.49799452112105447,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 640,
+   "punteggio": 0.49762350859136617,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1024,
+   "punteggio": 0.4976169992463688,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 90,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1026,
+   "punteggio": 0.4968347204611926,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 92,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1368,
+   "punteggio": 0.4967332363619818,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1548,
+   "punteggio": 0.4967250604529638,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1029,
+   "punteggio": 0.4950427330556636,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 95,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1833,
+   "punteggio": 0.49438888731353997,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 5,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1705,
+   "punteggio": 18.816709518432617,
+   "file": "segnalazione_guasto_cancello_carraio.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 27,
+   "punteggio": 15.04042911529541,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 25,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1173,
+   "punteggio": 14.93467903137207,
+   "file": "Newsletter_Fiere_alimentari_2026_NON_LEGGERE.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 321,
+   "punteggio": 13.75568675994873,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 434,
+   "punteggio": 13.505546569824219,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1243,
+   "punteggio": 12.40864372253418,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 433,
+   "punteggio": 12.094622611999512,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1357,
+   "punteggio": 11.121216773986816,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1588,
+   "punteggio": 11.056497573852539,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "idx": 24,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1786,
+   "punteggio": 10.633607864379883,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1793,
+   "punteggio": 10.625556945800781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 631,
+   "punteggio": 10.620341300964355,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1706,
+   "punteggio": 10.525894165039062,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 579,
+   "punteggio": 10.080052375793457,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1797,
+   "punteggio": 10.051870346069336,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 24,
+   "origine": "nativa"
+  },
+  {
+   "cid": 632,
+   "punteggio": 9.917254447937012,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1222,
+   "punteggio": 9.690498352050781,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 432,
+   "punteggio": 9.579794883728027,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1709,
+   "punteggio": 9.497511863708496,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 274,
+   "punteggio": 9.481084823608398,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 1,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.030536130536130537,
+   "rango_denso": 6,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1243,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.028850145288501453,
+   "rango_denso": 13,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1786,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.028370221327967807,
+   "rango_denso": 11,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 632,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.02786377708978328,
+   "rango_denso": 8,
+   "rango_sparso": 16
+  },
+  {
+   "cid": 1114,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1705,
+   "file": "segnalazione_guasto_cancello_carraio.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 27,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 25,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 647,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1173,
+   "file": "Newsletter_Fiere_alimentari_2026_NON_LEGGERE.eml",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1458,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 321,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1113,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1717,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 433,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 643,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1357,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1588,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "idx": 24,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1854,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1333,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1793,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 20,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 631,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1022,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 88,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1706,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 579,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 631,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "rerank": 0.10579777508974075
+  },
+  {
+   "cid": 632,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "rerank": 0.06353791803121567
+  },
+  {
+   "cid": 643,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "rerank": 0.03679138422012329
+  },
+  {
+   "cid": 1243,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.0005467148148454726
+  },
+  {
+   "cid": 1588,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "rerank": 0.0004977593198418617
+  },
+  {
+   "cid": 1022,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.0003784452273976058
+  },
+  {
+   "cid": 1173,
+   "file": "Newsletter_Fiere_alimentari_2026_NON_LEGGERE.eml",
+   "rerank": 0.00036174626438878477
+  },
+  {
+   "cid": 1717,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.00032647125772200525
+  },
+  {
+   "cid": 1786,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.00023699109442532063
+  },
+  {
+   "cid": 1458,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.00019540342327672988
+  },
+  {
+   "cid": 27,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.0001626290613785386
+  },
+  {
+   "cid": 1114,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.00015121141041163355
+  },
+  {
+   "cid": 1706,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.00013774640683550388
+  },
+  {
+   "cid": 647,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "rerank": 7.903773075668141e-05
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 7.208118768176064e-05
+  },
+  {
+   "cid": 1854,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 6.082308027544059e-05
+  },
+  {
+   "cid": 1793,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 5.1261609769426286e-05
+  },
+  {
+   "cid": 1113,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 4.302955494495109e-05
+  },
+  {
+   "cid": 1357,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 3.887868660967797e-05
+  },
+  {
+   "cid": 1333,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "rerank": 3.227619163226336e-05
+  },
+  {
+   "cid": 321,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 2.0990062694181688e-05
+  },
+  {
+   "cid": 433,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 1.9181436073267832e-05
+  },
+  {
+   "cid": 579,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 1.6820518794702366e-05
+  },
+  {
+   "cid": 1705,
+   "file": "segnalazione_guasto_cancello_carraio.txt",
+   "rerank": 1.641185190237593e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 631,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "origine": "nativa",
+   "rerank": 0.10579777508974075,
+   "testo": "Alì;Alì S.p.A.;Padova;PD;Giorgio Peraro;Resp. logistica CE.DI.;349 552 1180;g.peraro@alisupermercati.it;14-mar-26;tel;;vuole consegne solo mar e gio dalle 6 alle 10, finestra rigida\nRossetto;Rossetto Trade S.p.A.;San Giovanni Lupatoto;VR;Cristina Malesani;Buyer freschi;045 92 33 410;c.malesani@rossettotrade.it;30/04/2026;incontro;campionatura focaccina formato famiglia;chiede focaccina 4x90g formato famiglia, sentire R&D Zanchetta se fattibile con film attuale, margini da verificare\nRossetto;Rossetto Trade S.p.A.;San Giovanni Lupatoto;VR;Emanuele Dal Corso;Direttore acquisti;045 9233 400;e.dalcorso@rossettotrade.it;11/03/2026;presentazione gamma;richiamare a giugno;decide lui i contratti annuali, rimanda tutto a settembre, persona di poche parole\nRossetto;Rossetto Trade;S.G. Lupatoto;VR;Malesani C.;buyer;0459233410;c.malesani@rossettotrade.it;18/05/26;;;probabile doppione riga sopra, lasciato x storico contatti"
+  },
+  {
+   "cid": 632,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "origine": "nativa",
+   "rerank": 0.06353791803121567,
+   "testo": "Rossetto;Rossetto Trade;S.G. Lupatoto;VR;Malesani C.;buyer;0459233410;c.malesani@rossettotrade.it;18/05/26;;;probabile doppione riga sopra, lasciato x storico contatti\nFamila;Unicomm S.r.l.;Dueville;VI;dott. Alberto Segato;Category forno e prima colazione;0444 36 07 22;a.segato@unicomm.it;24/04/2026;incontro Dueville;offerta sfogliatina bio 2027;sfogliatina bio AF-CR-0220 va bene, vuole anche referenza integrale, sentire R&D, tempi lunghi loro rispondono a comitato\nFamila;Unicomm S.r.l.;Dueville;VI;Paola Munaretto;Assistente acquisti;0444 360 725;p.munaretto@unicomm.it;06/05/2026;mail;;precisa, risponde in giornata, passare da lei per gli appuntamenti con Segato\nFamila;Unicomm S.r.l.;Dueville;VI;Damiano Frigo;QA fornitori gruppo;0444-360740;d.frigo@unicomm.it;2026-02-19;audit seconda parte;chiusura rilievi entro maggio;audit del 19/2 ok con 2 osservazioni minori su gestione pallet, risposta inviata da Marchetti 15/3\nFamila;Unicomm Srl;Dueville (VI);VI;Segato A.;buyer colazione;3406627712;alberto.segato@unicom.it;15/01/26;fiera Marca BO;;biglietto da fiera, email con refuso? unicom senza doppia m, verificare"
+  },
+  {
+   "cid": 643,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "origine": "nativa",
+   "rerank": 0.03679138422012329,
+   "testo": "Iperlando;Lando S.r.l.;Villanova;PD;Sereno Businarolo;Direttore vendite;049 972 24 50;s.businarolo@lando.it;;;;nome trovato sul sito, mai contattato direttamente\nGrossista;NordBreak S.r.l.;Trento;TN;Anita Comper;Amministrazione;0461 82 44 62;amministrazione@nordbreak.it;15/04/2026;;;chiede fattura con split payment? no sono privati, refuso di Trentin, ignorare\nTosano;Tosano Cerea S.p.A.;Cerea;VR;Perbellini Anna;QA fornitori;3467781023;a.perbellini@tosanocerea.it;20/05/2026;call tesa;inviare piano azioni correttive;duplicato con cellulare, dopo la risposta del 16/5 chiede il piano CAPA completo e l'esito analisi sul frammento, scadenza data da lei 27/5, Marchetti in copia sempre\nDespar;Aspiag Service S.r.l.;Udine;UD;Denis Croatto;Buyer regionale FVG;0432 634 220;d.croatto@aspiag.it;;;;segnalato da Bertoncello x estensione FVG se parte la PL, non muoversi prima dell'esito PD\nAlì;Alì S.p.A.;Padova;PD;Squarcina M.;assistente cat.;049 8604215;m.squarcina@alisupermercati.it;2026-05-19;mail;;conferma inserimento focaccina in 12 pdv da settembre, ordine quadro in arrivo, bene"
+  },
+  {
+   "cid": 1243,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "origine": "nativa",
+   "rerank": 0.0005467148148454726,
+   "testo": "e norme collegate, il quale sostituisce il documento cartaceo e la firma\nautografa.\n\n--- FINE TESTO DELL'ATTO ---\n\n________________________________________\n\nDa: Federica Sartori <f.sartori@aurorafoodgroup.it>\nA: Elena Marchetti <e.marchetti@aurorafoodgroup.it>; Marco Fantin <m.fantin@aurorafoodgroup.it>\nCc: Giancarlo Bertoldi <g.bertoldi@aurorafoodgroup.it>\nInviato: lunedì 25 maggio 2026 12:10\nOggetto: I: POSTA CERTIFICATA: Prot. n. 0058214/2026 - Preavviso di ispezione programmata\n\nElena, Marco,\nè arrivata QUESTA sulla PEC. Ispezione ULSS il 9 GIUGNO. Tra due settimane!!\nVe la giro subito, io non so nemmeno da dove si comincia con la lista che chiedono,\nsono 14 punti. Il punto 7 (analisi acqua) mi sa che è quello messo peggio, l'ultima\nanalisi che trovo in archivio è del 2023?? Ditemi voi.\nGiancarlo in cc come da sue istruzioni.\nFede\n\nFederica Sartori - HR & Segreteria\nAurora Food Group S.r.l. - Via dell'Industria 27, 37044 Cologna Veneta (VR)\nLe informazioni contenute nella presente comunicazione sono riservate ai sensi del\nReg. UE 2016/679. Se avete ricevuto questo messaggio per errore siete pregati di\ndistruggerlo e darne comunicazione al mittente."
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4302,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.19,
+  "rerank": 45.85
+ },
+ "id": "Q095",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:06:30",
+ "secondi": 46.05,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 61.81,
+  "token_prompt": 1889,
+  "token_risposta": 70,
+  "testo_grezzo": "La lista buyer contiene duplicati o dati sbagliati.\n\nFONTI: lista_contatti_buyer_GDO_nordest.csv, lista_contatti_buyer_GDO_nordest.csv, lista_contatti_buyer_GDO_nordest.csv, lista_contatti_buyer_GDO_nordest.csv\n\nCONFIDENZA: alta",
+  "fonti_citate": [
+   "lista_contatti_buyer_GDO_nordest.csv"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "alta"
+ }
+}

@@ -10,6 +10,12 @@
 > del corpus, da riga di comando.
 > **Data di congelamento** · 17/08/2026. Impronta del config e hash del commit nel
 > verbale della baseline C.
+> ⚠️ **Cosa si può ancora scrivere dopo il congelamento, e cosa no.** Questo documento
+> è prosa e si può correggere e completare: un'avvertenza aggiunta qui non cambia una
+> sola operazione. **`config_c.json` no**: ogni byte di quel file entra nell'impronta, e
+> un ritocco anche solo di commento farebbe divergere l'indice già costruito dal config
+> che dice di averlo prodotto. Se serve cambiare un parametro, è una configurazione
+> NUOVA, con una nuova data e un nuovo indice — non una correzione.
 
 ---
 
@@ -224,14 +230,23 @@ raggiungibile da nessuna domanda, nemmeno da quella che chiede cosa contiene l'a
    a metà di un confronto.
 7. Ogni interrogazione lascia una traccia. Nessuna risposta senza fonti.
 
-**Il runner della misura gira a DUE PASSATE, ed è una conseguenza dell'hardware.**
-Passata 1: recupero, fusione e rerank per tutte le domande, tracce su disco. Passata 2:
-sola generazione, con embedder e reranker scaricati dalla memoria e solo Ollama
-residente. Su 8 GB i tre modelli non convivono — 2,3 + 2,3 + 2,0 GB più Qdrant e Python
-— e una macchina che pagina moltiplica i tempi. **Il risultato per domanda è identico a
-quello di una pipeline che gira tutta d'un fiato: cambia l'ordine in cui si pagano i
-passi, non cosa viene calcolato.** Entrambe le passate sono riprendibili riga per riga,
-con `fsync` a ogni scrittura: un'interruzione costa al massimo la domanda in corso.
+**Il runner della misura gira a PASSATE SEPARATE, ed è una conseguenza dell'hardware.**
+Su 8 GB i tre modelli non convivono — 2,3 GB l'embedder, 2,3 GB il reranker, 2,0 GB il
+modello di Ollama, più Qdrant e Python — e una macchina che pagina moltiplica i tempi.
+
+| Fase | Cosa gira | Cosa c'è in memoria |
+|---|---|---|
+| 1a | vettori densi delle domande, uno per volta, salvati su disco | solo `bge-m3` |
+| 1b | ricerca densa e sparsa, RRF, rerank, tracce | solo il reranker |
+| 2 | generazione | solo Ollama |
+
+**Il risultato per domanda è identico a quello di una pipeline che gira tutta d'un
+fiato: cambia l'ordine in cui si pagano i passi, non cosa viene calcolato.** Ogni
+domanda è codificata da sola, in un batch di uno: il batch non è un parametro libero in
+quel punto, perché cambierebbe il riempimento e con esso l'ultima cifra del vettore.
+
+Tutte le fasi sono riprendibili riga per riga, con `fsync` a ogni scrittura: un
+interruzione costa al massimo la domanda in corso.
 
 ---
 
@@ -368,6 +383,27 @@ paragone **tre strumenti diversi**, non tre versioni dello stesso: A è un agent
 i file, B è un RAG a embedding senza rerank su Chroma, C è una pipeline ibrida con
 reranker su Qdrant e un generatore locale piccolo. Le asimmetrie note si elencano nel
 verbale, senza addolcirle.
+
+**Sulla ricerca densa: la misura è esatta, la produzione è approssimata.** Qdrant in
+modalità locale (quella della baseline C) fa una ricerca **esatta**: confronta la query
+con tutti i vettori. Il container di produzione usa **HNSW**, che è approssimato per
+costruzione — è il prezzo che si paga per rispondere su milioni di documenti invece che
+su duemila. Le conseguenze, dette per intero:
+
+- il numero di C è misurato **senza** l'errore di approssimazione dell'indice: da questo
+  lato specifico è un tetto, non un pavimento, ed è l'unico parametro in cui la misura è
+  più favorevole della produzione;
+- su un corpus di questa taglia la differenza è trascurabile (HNSW con i parametri di
+  serie recupera quasi sempre gli stessi vicini), ma **trascurabile non è zero** e non si
+  dichiara zero;
+- il determinismo del recupero in produzione vale **a indice fermo**: stesso indice,
+  stessa query, stessi risultati. Ricostruire l'indice da capo può cambiare il grafo HNSW
+  e quindi, in casi limite, l'ordine dei vicini. Per questo il manifest dell'indice porta
+  la data di costruzione: una risposta si riproduce contro l'indice che l'ha prodotta.
+
+Chi vuole la ricerca esatta anche in produzione può disattivare l'indicizzazione HNSW
+sulla collezione: su un archivio da qualche migliaio di documenti costa poco ed elimina
+la questione. È una scelta del cliente, e va fatta prima di indicizzare.
 
 **Sulle fonti citate, una regola che costa a C e si tiene lo stesso.** Il runner scrive
 nel file di risposte **tutti** i nomi che il modello ha citato, compresi quelli che non

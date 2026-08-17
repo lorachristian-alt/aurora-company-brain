@@ -1,0 +1,681 @@
+{
+ "domanda": "Aurora ha gia' comprato il terreno a Minerbe?",
+ "candidati_densi": [
+  {
+   "cid": 1108,
+   "punteggio": 0.6304217621751819,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1107,
+   "punteggio": 0.5463094018271462,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 333,
+   "punteggio": 0.5139990866557943,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1342,
+   "punteggio": 0.5015508907544317,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1804,
+   "punteggio": 0.49132023654303764,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 607,
+   "punteggio": 0.4668232101666853,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1355,
+   "punteggio": 0.45092265887096955,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1116,
+   "punteggio": 0.4487770740455581,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 151,
+   "punteggio": 0.44798541788878915,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1243,
+   "punteggio": 0.4403575861539363,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 310,
+   "punteggio": 0.4397149098722905,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 257,
+   "punteggio": 0.4355528570882314,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 153,
+   "punteggio": 0.4315689771168534,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 297,
+   "punteggio": 0.4308489923734376,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 2,
+   "punteggio": 0.42996374790315783,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1460,
+   "punteggio": 0.4297968654548749,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 248,
+   "punteggio": 0.42958573309262715,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 107,
+   "punteggio": 0.4293532501094458,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 115,
+   "punteggio": 0.4258164666091596,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1444,
+   "punteggio": 0.42560265705064226,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 3,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1108,
+   "punteggio": 21.23020362854004,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1107,
+   "punteggio": 15.970385551452637,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1707,
+   "punteggio": 14.575963020324707,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 607,
+   "punteggio": 14.55660629272461,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 334,
+   "punteggio": 14.258098602294922,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1115,
+   "punteggio": 14.010557174682617,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1220,
+   "punteggio": 13.160199165344238,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 151,
+   "punteggio": 12.287943840026855,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 145,
+   "punteggio": 11.753679275512695,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1812,
+   "punteggio": 11.606030464172363,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1444,
+   "punteggio": 10.751422882080078,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1342,
+   "punteggio": 10.576590538024902,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1837,
+   "punteggio": 10.444129943847656,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 333,
+   "punteggio": 10.3052978515625,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1425,
+   "punteggio": 9.905858993530273,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1706,
+   "punteggio": 9.861642837524414,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 256,
+   "punteggio": 9.78211498260498,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1832,
+   "punteggio": 9.778130531311035,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1308,
+   "punteggio": 9.763557434082031,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 531,
+   "punteggio": 9.370991706848145,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 1,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1108,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.03278688524590164,
+   "rango_denso": 1,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1107,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.03225806451612903,
+   "rango_denso": 2,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 607,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.030776515151515152,
+   "rango_denso": 6,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1342,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.029513888888888888,
+   "rango_denso": 4,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 333,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.029386529386529386,
+   "rango_denso": 3,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 151,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.02919863597612958,
+   "rango_denso": 9,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1444,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.02658450704225352,
+   "rango_denso": 20,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1707,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 334,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1804,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1115,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1220,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1355,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1116,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 145,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1243,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1812,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 310,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 257,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 153,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1837,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 297,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  },
+  {
+   "cid": 2,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": 15,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1425,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": null,
+   "rango_sparso": 15
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1108,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.9089527726173401
+  },
+  {
+   "cid": 1107,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.8883358836174011
+  },
+  {
+   "cid": 1342,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "rerank": 0.31641972064971924
+  },
+  {
+   "cid": 151,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "rerank": 0.17566539347171783
+  },
+  {
+   "cid": 333,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "rerank": 0.1450539082288742
+  },
+  {
+   "cid": 607,
+   "file": "job_description_responsabile_produzione.docx",
+   "rerank": 0.10558834671974182
+  },
+  {
+   "cid": 1220,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "rerank": 0.09537060558795929
+  },
+  {
+   "cid": 1115,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.050358787178993225
+  },
+  {
+   "cid": 2,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.018772371113300323
+  },
+  {
+   "cid": 334,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "rerank": 0.018146559596061707
+  },
+  {
+   "cid": 1116,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.011700274422764778
+  },
+  {
+   "cid": 1444,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "rerank": 0.00800402369350195
+  },
+  {
+   "cid": 1812,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.007058452349156141
+  },
+  {
+   "cid": 1804,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.006746925879269838
+  },
+  {
+   "cid": 310,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "rerank": 0.0061878240667283535
+  },
+  {
+   "cid": 297,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "rerank": 0.004876484163105488
+  },
+  {
+   "cid": 1243,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.0034357700496912003
+  },
+  {
+   "cid": 1837,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.002524356823414564
+  },
+  {
+   "cid": 1355,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "rerank": 0.0013643540441989899
+  },
+  {
+   "cid": 153,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "rerank": 0.0013017066521570086
+  },
+  {
+   "cid": 1425,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "rerank": 0.0012891183141618967
+  },
+  {
+   "cid": 257,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "rerank": 0.0010967226698994637
+  },
+  {
+   "cid": 1707,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.00023730540124233812
+  },
+  {
+   "cid": 145,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "rerank": 1.72946929524187e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1108,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "origine": "nativa",
+   "rerank": 0.9089527726173401,
+   "testo": "il progetto Aurora Vega a Minerbe va avanti, l ho deciso, il terreno l ho visto tre volte\ne la terza volta ci sono andato da solo senza dire niente a nessuno e ho camminato tutto\nil perimetro a piedi, sono 42mila metri quadri o 38mila adesso non ricordo, comunque tanta\nroba, e la zona è servita bene c è la variante della statale a due chilometri e Minerbe\nè comune che ha voglia di far lavorare la gente non come altri che non nomino\n\ne poi c è la questione del capannone qui a Cologna, quello dei Furlan confinante col\nnostro sul lato del magazzino, mi ha detto il geometra Sandri che i Furlan vendono, il\nvecchio è morto a febbraio e i figli sono a Milano e non gliene importa niente, quello\nè un capannone che DOBBIAMO prendere, sono 3800 metri o 4200 non ricordo di preciso,\nperche se lo prende qualcun altro ci troviamo un vicino che magari fa verniciatura o\npeggio e con l ATS che ci arriva in casa a giugno vi immaginate, e invece se lo\nprendiamo noi ci spostiamo dentro tutto il magazzino imballi e liberiamo la zona dietro\nla linea 3 che è un incubo da sempre, Fantin lo sa quante volte ne abbiamo parlato"
+  },
+  {
+   "cid": 1107,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "origine": "nativa",
+   "rerank": 0.8883358836174011,
+   "testo": "Da: Giancarlo Bertoldi <g.bertoldi@aurorafoodgroup.it>\nA: Silvia Bertoldi <s.bertoldi@aurorafoodgroup.it>; Marco Fantin <m.fantin@aurorafoodgroup.it>\nCc:\nInviato: domenica 17 maggio 2026 23:47\nOggetto: dove voglio portare l azienda nei prossimi 5 anni LEGGETE TUTTO\n\nCari Silvia e Marco\n\nvi scrivo adesso che è tardi perche di giorno non c è mai il tempo di pensare, il telefono\nsuona sempre, c è sempre uno che vuole qualcosa, e invece certe cose vanno pensate col buio\ne col silenzio come facevo una volta quando ero da solo nel garage di via Marconi nel 1994\ne impastavo alle quattro di mattina con la Fiorini usata che mi aveva venduto quel mattacchione\ndi Squarzon buonanima, allora si che si pensava, adesso tutti parlano di riunioni e di\nmeeting e di call ma nessuno PENSA piu\n\nallora vi dico come la vedo io e poi ne parliamo, ma ne parliamo tra noi, non voglio\nconsulenti in mezzo, su questo torno dopo\n\nPRIMO PUNTO il nuovo stabilimento\n\nil progetto Aurora Vega a Minerbe va avanti, l ho deciso, il terreno l ho visto tre volte\ne la terza volta ci sono andato da solo senza dire niente a nessuno e ho camminato tutto"
+  },
+  {
+   "cid": 1342,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "origine": "nativa",
+   "rerank": 0.31641972064971924,
+   "testo": "<immagine: pannelli fotovoltaici>\n(senza titolo)\n\nPERCHE' SCEGLIERE AURORA\n• Flessibilità vera da azienda familiare, decisioni in 24 ore\n• Filiera corta e tracciata\n• Certificazioni ai massimi livelli (BRCGS AA, IFS Higher Level)\n• Un unico interlocutore commerciale dedicato per insegna\n• Capacità di sviluppo private label completa, dalla ricetta allo scaffale\n-\n[Note relatore: chiudere qui se il tempo stringe, le slide 19-20 solo se chiedono]\n(senza titolo)\n\nPROGETTI 2026-2027\n• Nuovo tunnel di surgelazione a spirale Criotech CR-SP180: +40% capacità LINEA 3\n• Valutazione nuovo sito produttivo \"Aurora Vega\" a Minerbe (VR)\n• Digitalizzazione archivio qualita' e documentale\n• Nuova referenza snack paprika e semi in test consumer\n• Estensione gamma bio linea 2\n<immagine: rendering tunnel spirale>\n(senza titolo)\n\nCONTATTI\nAurora Food Group S.r.l.\nVia dell'Industria 27 - 37044 Cologna Veneta (VR)\nTel. 0442 85 41 22 - info@aurorafoodgroup.it\nwww.aurorafoodgroup.it - PEC: aurorafoodgroup@pec.it\nP.IVA 03984710230\nDirezione Commerciale: Silvia Bertoldi\nAgente Nord-Est: Paolo Zampieri\nGRAZIE PER L'ATTENZIONE"
+  },
+  {
+   "cid": 151,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "origine": "nativa",
+   "rerank": 0.17566539347171783,
+   "testo": "insegne nelle stesse settimane\nNota relatore: il punto reclamo lo dice SOLO Silvia e SOLO se chiedono. Non aprire.\n(senza titolo)\n\nRICHIESTA DI DELIBERA\nSi chiede al CdA di deliberare:\n1. approvazione business case referenza AF-SN-0470\n2. CAPEX fino a 74.000 euro come da slide 8\n3. budget lancio/listing fino a 15.000 euro\n4. mandato alla Direzione Commerciale per la trattativa di referenziazione\n5. mandato a R&D/Qualita' per finalizzazione ricetta e qualifica fornitori\nvotazione richiesta entro la seduta per rispettare la finestra di settembre\n(senza titolo)\n\nGRAZIE PER L'ATTENZZIONE\ndomande?\ncontatti: s.bertoldi@aurorafoodgroup.it - a.zanchetta@aurorafoodgroup.it\n(senza titolo)\n\nBACKUP - CAPACITA' PRODUTTIVA LINEA 1\n• capacita' teorica L1: 1.450 kg/turno prodotto finito\n• saturazione media 2026 (gen-apr): 71% su 2 turni\n• con 0470 a regime anno 2: 78% -> ok MA i picchi promo del cliente principale\ngia' oggi portano sabati lavorativi\n• scenario \"Aurora Vega\" (nuovo stabilimento Minerbe): raddoppio capacita' forno,\norizzonte 2028 - dossier separato del Presidente, NON in delibera oggi\n<grafico: saturazione mensile - dati dal file Excel di Trentin>\n(senza titolo)"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4536,
+ "tempi": {
+  "denso": 0.01,
+  "sparso": 0.17,
+  "rerank": 37.62
+ },
+ "id": "Q251",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T18:05:34",
+ "secondi": 37.81,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 46.3,
+  "token_prompt": 1821,
+  "token_risposta": 69,
+  "testo_grezzo": "Non e' ricavabile dai documenti forniti se non che Aurora Food Group S.r.l. ha comprato il terreno a Minerbe.\n\nFONTI: mail_titolare_Aurora_visione_aziendale_5anni.txt, presentazione_commerciale_Aurora_GDO_2026.pptx",
+  "fonti_citate": [
+   "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "presentazione_commerciale_Aurora_GDO_2026.pptx"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

@@ -1,0 +1,685 @@
+{
+ "domanda": "Quanto e' larga davvero la corsia B in cella e quanto dice il DVR?",
+ "candidati_densi": [
+  {
+   "cid": 1228,
+   "punteggio": 0.5270662874451416,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 922,
+   "punteggio": 0.505360672603301,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 100,
+   "origine": "nativa"
+  },
+  {
+   "cid": 924,
+   "punteggio": 0.504031076008115,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 102,
+   "origine": "nativa"
+  },
+  {
+   "cid": 920,
+   "punteggio": 0.5032023105949213,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 98,
+   "origine": "nativa"
+  },
+  {
+   "cid": 868,
+   "punteggio": 0.5009317279949143,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 46,
+   "origine": "nativa"
+  },
+  {
+   "cid": 894,
+   "punteggio": 0.49149314306915,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 72,
+   "origine": "nativa"
+  },
+  {
+   "cid": 907,
+   "punteggio": 0.49022804515017815,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 85,
+   "origine": "nativa"
+  },
+  {
+   "cid": 855,
+   "punteggio": 0.4879393243269552,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 33,
+   "origine": "nativa"
+  },
+  {
+   "cid": 867,
+   "punteggio": 0.48694357103016706,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 45,
+   "origine": "nativa"
+  },
+  {
+   "cid": 932,
+   "punteggio": 0.4829523466529912,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 110,
+   "origine": "nativa"
+  },
+  {
+   "cid": 880,
+   "punteggio": 0.4827058916823978,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 58,
+   "origine": "nativa"
+  },
+  {
+   "cid": 829,
+   "punteggio": 0.4826988018461932,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 879,
+   "punteggio": 0.4824721192832433,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 57,
+   "origine": "nativa"
+  },
+  {
+   "cid": 919,
+   "punteggio": 0.48245916250069715,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 97,
+   "origine": "nativa"
+  },
+  {
+   "cid": 865,
+   "punteggio": 0.4818054926877304,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 43,
+   "origine": "nativa"
+  },
+  {
+   "cid": 923,
+   "punteggio": 0.4806822725669306,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 101,
+   "origine": "nativa"
+  },
+  {
+   "cid": 881,
+   "punteggio": 0.4804652949870089,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 59,
+   "origine": "nativa"
+  },
+  {
+   "cid": 861,
+   "punteggio": 0.4802253472776839,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 39,
+   "origine": "nativa"
+  },
+  {
+   "cid": 921,
+   "punteggio": 0.48012076962526845,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 99,
+   "origine": "nativa"
+  },
+  {
+   "cid": 876,
+   "punteggio": 0.4788391917591652,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 54,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1228,
+   "punteggio": 31.26803970336914,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1226,
+   "punteggio": 19.55402183532715,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1368,
+   "punteggio": 19.475637435913086,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1225,
+   "punteggio": 18.87526512145996,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1835,
+   "punteggio": 18.808738708496094,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1229,
+   "punteggio": 17.937641143798828,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1231,
+   "punteggio": 17.81311798095703,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1230,
+   "punteggio": 16.066089630126953,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 312,
+   "punteggio": 15.20269775390625,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1831,
+   "punteggio": 14.357425689697266,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1224,
+   "punteggio": 14.01388168334961,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1366,
+   "punteggio": 13.678153038024902,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1796,
+   "punteggio": 13.46507740020752,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 23,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1872,
+   "punteggio": 13.262146949768066,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 574,
+   "punteggio": 13.217041015625,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 160,
+   "punteggio": 13.017759323120117,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 4,
+   "punteggio": 11.925700187683105,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1842,
+   "punteggio": 11.455782890319824,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1345,
+   "punteggio": 11.430316925048828,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1454,
+   "punteggio": 11.21854019165039,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1228,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.03278688524590164,
+   "rango_denso": 1,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 922,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 100,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1226,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 924,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 102,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1368,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 920,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 98,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1225,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 868,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 46,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1835,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 894,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 72,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1229,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 907,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 85,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1231,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 855,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 33,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1230,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 312,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 867,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 45,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 932,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 110,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1831,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 880,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 58,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1224,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 829,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 879,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 57,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1228,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.8584896326065063
+  },
+  {
+   "cid": 1226,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.02060074172914028
+  },
+  {
+   "cid": 1225,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.009867865592241287
+  },
+  {
+   "cid": 1224,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.004517630208283663
+  },
+  {
+   "cid": 1231,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.003635376924648881
+  },
+  {
+   "cid": 1229,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.0028783809393644333
+  },
+  {
+   "cid": 1230,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.002668311819434166
+  },
+  {
+   "cid": 922,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.001092422055080533
+  },
+  {
+   "cid": 829,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.0009867101907730103
+  },
+  {
+   "cid": 907,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.0007840026519261301
+  },
+  {
+   "cid": 855,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.0007605931023135781
+  },
+  {
+   "cid": 924,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.0005573207163251936
+  },
+  {
+   "cid": 894,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.0005543496226891875
+  },
+  {
+   "cid": 868,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.0005329316481947899
+  },
+  {
+   "cid": 312,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.0005309696425683796
+  },
+  {
+   "cid": 920,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.0005296149756759405
+  },
+  {
+   "cid": 867,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.0004567565629258752
+  },
+  {
+   "cid": 879,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.0003542432968970388
+  },
+  {
+   "cid": 880,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.00030671703279949725
+  },
+  {
+   "cid": 932,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.00026687068748287857
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 3.767889575101435e-05
+  },
+  {
+   "cid": 1368,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 3.5746335925068706e-05
+  },
+  {
+   "cid": 1835,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 2.626958848850336e-05
+  },
+  {
+   "cid": 1831,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 2.0182476873742417e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1228,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "origine": "nativa",
+   "rerank": 0.8584896326065063,
+   "testo": "Rilasciato primo certificato medico INAIL.\n     Il medico di PS: dott.ssa [firma illeggibile]\n\n--------------------------------------------------------------------------\n\n4) NOTA DEL RSPP (pervenuta via PEC il 05/05/2026, prot. int. SPP-2026-011)\n\nOggetto: infortunio del 28/04/2026 - cella CF-02 - prime valutazioni e\nrichiesta aggiornamento DVR\n\nSpett.le Aurora Food Group S.r.l.\nc.a. datore di lavoro sig. G. Bertoldi\nc.a. dirigente delegato ing. M. Fantin\n\nA seguito del sopralluogo effettuato in data 04/05/2026 presso la cella\nCF-02 alla presenza del sig. Guerra e del sig. Faggionato, si osserva\nquanto segue:\n\na) la movimentazione dei carrelli portateglie in cella avviene in spazi\n   di manovra ridotti, aggravati nel periodo attuale dal sovrastoccaggio;\n   la larghezza utile della corsia B rilevata in sopralluogo (98 cm con\n   cella carica) risulta inferiore a quella considerata nel DVR vigente\n   (140 cm, rilevazione 2023, cella in condizioni ordinarie);\nb) i carrelli in uso sono privi di impugnature dedicate; la presa sul\n   montante espone le mani a cesoiamento/schiacciamento contro strutture\n   fisse;"
+  },
+  {
+   "cid": 1226,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "origine": "nativa",
+   "rerank": 0.02060074172914028,
+   "testo": "dentro la cella CF-02 per fare posto ai bancali in arrivo dal tunnel.\nIl pavimento vicino alla porta aveva della brina, come sempre quando la\nporta resta aperta per i carichi. Il carrello davanti a me si e' fermato\ncontro qualcosa, io ho spinto quello dietro per non fare coda e mi sono\ntrovato con la mano sinistra tra il montante del carrello e il montante\ndella scaffalatura. Ho sentito subito male al dito. Avevo i guanti\ntermici, quelli spessi, non i guanti antischiacciamento, perche' in\ncella usiamo quelli per il freddo. Ho chiamato Petru che era con me e\nsono uscito dalla cella.\"\n\nOsservazioni del capoturno (Guerra): la manovra descritta e' abituale.\nI carrelli portateglie non hanno maniglioni di presa esterni, la presa\nnaturale e' sul montante. Lo spazio di corsia tra scaffalatura B e zona\ndeposito carrelli si riduce quando la cella e' piena, come nel periodo\nattuale (scorte promo Tosano + fermo parziale tunnel TS-01 che fa\naccumulare prodotto in attesa).\n\n--------------------------------------------------------------------------\n\n3) TRASCRIZIONE CERTIFICATO DI PRONTO SOCCORSO (originale agli atti)\n\n     AZIENDA ULSS 9 SCALIGERA - OSPEDALE \"G. FRACASTORO\" SAN BONIFACIO"
+  },
+  {
+   "cid": 1225,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "origine": "nativa",
+   "rerank": 0.009867865592241287,
+   "testo": "- Luogo dell'evento: cella surgelati CF-02 (-18 gradi C), zona corsia\n  scaffalatura B\n- Natura e sede della lesione: trauma da schiacciamento, dito indice\n  mano sinistra\n- Prognosi da primo certificato: giorni 12 (dodici) salvo complicazioni\n- Numero caso INAIL assegnato: [riportato sulla ricevuta telematica,\n  ricevuta salvata in \\\\SRV-AURORA\\HR\\infortuni\\2026\\corradin\\]\n- Testimoni: Ilie Petru (operaio Linea 3), presente in cella al momento\n  del fatto\n- Abbandono del lavoro: ore 09:55 - accompagnato al Pronto Soccorso\n  dell'Ospedale G. Fracastoro di San Bonifacio (VR) dal collega\n  Sbalchiero D. con auto propria (ambulanza non necessaria)\n\nRegistro infortuni: annotazione n. 02/2026.\n(il n. 01/2026 e' la contusione lieve di Ba M. del 13/02, 0 gg, medicazione)\n\n--------------------------------------------------------------------------\n\n2) DINAMICA DICHIARATA DAL LAVORATORE (raccolta da F. Sartori il 29/04,\n   presente R. Guerra, sottoscritta dal lavoratore)\n\nIl lavoratore dichiara: \"Stavo spostando i carrelli portateglie vuoti\ndentro la cella CF-02 per fare posto ai bancali in arrivo dal tunnel.\nIl pavimento vicino alla porta aveva della brina, come sempre quando la"
+  },
+  {
+   "cid": 1224,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "origine": "nativa",
+   "rerank": 0.004517630208283663,
+   "testo": "FASCICOLO INFORTUNIO - CORRADIN E. - 28/04/2026\nraccolta documenti ad uso interno (HR + RSPP) - agg. 12/05/2026 - f.s.\ncontiene: estremi denuncia INAIL, dinamica, trascrizione certificato PS,\nnota RSPP, corrispondenza interna, appunti capoturno\n==========================================================================\n\n1) ESTREMI DENUNCIA/COMUNICAZIONE DI INFORTUNIO (INAIL)\n\nDenuncia trasmessa telematicamente tramite portale INAIL in data 30/04/2026\n(entro i 2 giorni dalla ricezione del certificato medico, come da art. 53\nDPR 1124/1965).\n\n- Datore di lavoro: AURORA FOOD GROUP S.R.L. - P.IVA 03984710230\n- PAT INAIL: 90817346/22 - voce di tariffa 1462\n- Sede lavori: Via dell'Industria 27, 37044 Cologna Veneta (VR)\n- Lavoratore infortunato: CORRADIN EMANUELE, operaio addetto Linea 3\n  (reparto surgelati), contratto a tempo indeterminato, CCNL Industria\n  Alimentare, anzianita' aziendale 4 anni\n- Data e ora dell'evento: 28/04/2026, ore 09:40 circa\n- Luogo dell'evento: cella surgelati CF-02 (-18 gradi C), zona corsia\n  scaffalatura B\n- Natura e sede della lesione: trauma da schiacciamento, dito indice\n  mano sinistra"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4630,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.19,
+  "rerank": 56.13
+ },
+ "id": "Q056",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:33:00",
+ "secondi": 56.34,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 61.87,
+  "token_prompt": 1836,
+  "token_risposta": 167,
+  "testo_grezzo": "La lesione del lavoratore Corradin Emanuele è stata causata da un trauma da schiacciamento, dito indice mano sinistra, mentre stava spostando i carrelli portateglie vuoti dentro la cella CF-02 per fare posto ai bancali in arrivo dal tunnel.\n\nFONTI: nota_infortunio_INAIL_operaio_linea3.txt, nota_infortunio_INAIL_operaio_linea3.txt, TRASCRIZIONE CERTIFICATO DI PRONTO SOCCORSO (originale agli atti), nota_infortunio_INAIL_operaio_linea3.txt, ESTREMI DENUNCIA/COMUNICAZIONE DI INFORTUNIO (INAIL)\n\nCONFIDENZA: alta",
+  "fonti_citate": [
+   "nota_infortunio_INAIL_operaio_linea3.txt",
+   "TRASCRIZIONE CERTIFICATO DI PRONTO SOCCORSO (originale agli atti)",
+   "ESTREMI DENUNCIA/COMUNICAZIONE DI INFORTUNIO (INAIL)"
+  ],
+  "fonti_fuori_contesto": [
+   "TRASCRIZIONE CERTIFICATO DI PRONTO SOCCORSO (originale agli atti)",
+   "ESTREMI DENUNCIA/COMUNICAZIONE DI INFORTUNIO (INAIL)"
+  ],
+  "confidenza": "alta"
+ }
+}

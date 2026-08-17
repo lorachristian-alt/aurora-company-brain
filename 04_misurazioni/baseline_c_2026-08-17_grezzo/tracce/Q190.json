@@ -1,0 +1,681 @@
+{
+ "domanda": "Dopo il montaggio del ricambio originale la situazione igienica sulla confezionatrice e' rientrata?",
+ "candidati_densi": [
+  {
+   "cid": 614,
+   "punteggio": 0.5694894978888438,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1438,
+   "punteggio": 0.5592669236740565,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1533,
+   "punteggio": 0.5393064209198309,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1295,
+   "punteggio": 0.5387608957646614,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1686,
+   "punteggio": 0.5376953513003876,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1505,
+   "punteggio": 0.5343452394290542,
+   "file": "registro_tamponi_superfici_listeria_salmonella.csv",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1714,
+   "punteggio": 0.5334384900194793,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1609,
+   "punteggio": 0.5317612295156372,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 613,
+   "punteggio": 0.53128076660897,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1206,
+   "punteggio": 0.5299171125203428,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 28,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1412,
+   "punteggio": 0.5287595415235611,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 511,
+   "punteggio": 0.5266893991816344,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1536,
+   "punteggio": 0.5254561068538052,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1535,
+   "punteggio": 0.5247606876416999,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 393,
+   "punteggio": 0.524194146262825,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1506,
+   "punteggio": 0.5211771840019684,
+   "file": "registro_tamponi_superfici_listeria_salmonella.csv",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1508,
+   "punteggio": 0.5187406391566131,
+   "file": "registro_tamponi_superfici_listeria_salmonella.csv",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1534,
+   "punteggio": 0.5164623149333686,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1411,
+   "punteggio": 0.5158445962917826,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1294,
+   "punteggio": 0.515232814378773,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 15,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 435,
+   "punteggio": 24.21760368347168,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1438,
+   "punteggio": 22.046430587768555,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 614,
+   "punteggio": 20.28121566772461,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1437,
+   "punteggio": 19.318767547607422,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 617,
+   "punteggio": 18.074960708618164,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1439,
+   "punteggio": 17.232025146484375,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 431,
+   "punteggio": 16.256359100341797,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1440,
+   "punteggio": 16.165691375732422,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1475,
+   "punteggio": 16.05400276184082,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1387,
+   "punteggio": 16.01923179626465,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 436,
+   "punteggio": 15.90295124053955,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1462,
+   "punteggio": 15.06222152709961,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1168,
+   "punteggio": 15.02248764038086,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 248,
+   "punteggio": 14.695840835571289,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 260,
+   "punteggio": 14.613556861877441,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1216,
+   "punteggio": 14.587121963500977,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1436,
+   "punteggio": 14.54233455657959,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1158,
+   "punteggio": 14.493083000183105,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 223,
+   "punteggio": 14.249442100524902,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 613,
+   "punteggio": 14.230208396911621,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 2,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 614,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.032266458495966696,
+   "rango_denso": 1,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1438,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.03225806451612903,
+   "rango_denso": 2,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 613,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.026992753623188405,
+   "rango_denso": 9,
+   "rango_sparso": 20
+  },
+  {
+   "cid": 435,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1533,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1295,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1437,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 617,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1686,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1439,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1505,
+   "file": "registro_tamponi_superfici_listeria_salmonella.csv",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1714,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1440,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1609,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1475,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1206,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 28,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1387,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 436,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1412,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 511,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1462,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1168,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1536,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 614,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.26783496141433716
+  },
+  {
+   "cid": 1438,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "rerank": 0.07485516369342804
+  },
+  {
+   "cid": 617,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.05563892796635628
+  },
+  {
+   "cid": 1439,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "rerank": 0.03187864273786545
+  },
+  {
+   "cid": 1440,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "rerank": 0.024454660713672638
+  },
+  {
+   "cid": 1387,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "rerank": 0.02429763413965702
+  },
+  {
+   "cid": 1206,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.020150139927864075
+  },
+  {
+   "cid": 1168,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "rerank": 0.013251073658466339
+  },
+  {
+   "cid": 613,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.009690101258456707
+  },
+  {
+   "cid": 1295,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "rerank": 0.005060182884335518
+  },
+  {
+   "cid": 1437,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "rerank": 0.004914256278425455
+  },
+  {
+   "cid": 1505,
+   "file": "registro_tamponi_superfici_listeria_salmonella.csv",
+   "rerank": 0.004274717997759581
+  },
+  {
+   "cid": 1533,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.003976393956691027
+  },
+  {
+   "cid": 435,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.003730986500158906
+  },
+  {
+   "cid": 1462,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.0018795361975207925
+  },
+  {
+   "cid": 1714,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.001433506258763373
+  },
+  {
+   "cid": 1536,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.00111780920997262
+  },
+  {
+   "cid": 1412,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.0009138711029663682
+  },
+  {
+   "cid": 1475,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "rerank": 0.0007666945457458496
+  },
+  {
+   "cid": 1609,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.0006577849853783846
+  },
+  {
+   "cid": 511,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 0.0002250154357170686
+  },
+  {
+   "cid": 1686,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "rerank": 0.000175680557731539
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.00011054475180571899
+  },
+  {
+   "cid": 436,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 6.433905218727887e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 614,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "origine": "nativa",
+   "rerank": 0.26783496141433716,
+   "testo": "In data 10/05/2026, durante il turno di produzione interessato, la nostra linea di confezionamento ha subito un fermo tecnico di alcune ore per un intervento manutentivo su un componente della confezionatrice, eseguito in emergenza con un ricambio non originale regolarmente registrato secondo le nostre procedure interne. La produzione è ripresa dopo le verifiche di rito.\n\n[Bertoldi G. - TROPPO MORBIDA ANCORA. ma anche troppo precisa. perche gli diciamo del fermo?? loro hanno chiesto del reclamo non della nostra manutenzione. meno scriviamo meglio è, la perbellini queste righe le gira al buyer e rossi ce le ributta sul tavolo al rinnovo listino col -4,5%. levate tutto il paragrafo]\n[Bertoldi S. - papà il paragrafo non si può levare del tutto: se poi si arriva al ritiro e salta fuori che il fermo non l'avevamo menzionato, la fiducia la perdiamo doppia. Lo tengo in una riga, generico. Mediazione.]\n\n2. Azioni immediate adottate\n\nAlla ricezione della segnalazione abbiamo immediatamente:\n\n1. aperto il fascicolo di reclamo REC-2026-011 su modulo MOD-QA-31, con classificazione in classe di massima priorità;"
+  },
+  {
+   "cid": 1438,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "origine": "nativa",
+   "rerank": 0.07485516369342804,
+   "testo": "> 2) il montaggio di componenti non originali fa decadere la garanzia sul\n>    gruppo iniezione e la ns. responsabilita' sulla conformita' della\n>    macchina.\n> Serve quindi una Vs. conferma scritta con assunzione di responsabilita'.\n>\n> Fino all'arrivo del ricambio il ns. servizio tecnico consiglia di NON\n> operare la macchina se la perdita dovesse aumentare: una pressione azoto\n> instabile compromette il residuo di O2 in confezione e sollecita la\n> guarnizione della testata. Se volete un ns. tecnico in linea (interv. a\n> pagamento, dispon. mercoledi 13) fatecelo sapere.\n>\n> Cordiali saluti\n> Stefano Gualandi\n> Ufficio Ricambi - Pakmatic Italia S.r.l.\n> Via dell'Artigiano 44 - 40138 Bologna (BO)\n> Tel. 051 60 27 431 - ricambi@pakmatic.it - www.pakmatic.it\n> P.IVA 03422810378\n> Informativa privacy ai sensi del Reg. UE 2016/679: le informazioni\n> contenute nella presente e-mail sono riservate. This message is intended\n> solely for the addressee and may contain confidential information.\n> cid:image001.png@01DC8F11.2A3B5D60\n>\n>\n> -----Messaggio originale-----\n> Da: Ivano Dal Maso <i.dalmaso@aurorafoodgroup.it>\n> Inviato: venerdi 8 maggio 2026 14:31\n> A: ricambi@pakmatic.it"
+  },
+  {
+   "cid": 617,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "origine": "nativa",
+   "rerank": 0.05563892796635628,
+   "testo": "Le registrazioni manuali del CCP2 relative al lotto presentano una discrepanza rispetto ai dati del datalogger, attualmente oggetto di approfondimento interno.\n\n[Marchetti E. - lo so che va tolto da QUESTA lettera, e infatti lo tolgo. Ma l'approfondimento interno sul MOD-QA-12 del 10/05 va avanti lo stesso e il suo esito andrà nel fascicolo: la discrepanza carta/datalogger c'è, è la NC 1 dell'audit che si è materializzata, e alla verifica CSQA la troveranno. Non mettiamola sotto il tappeto internamente, per cortesia.]\n[avv. Faccioli - concordo con la dott.ssa Marchetti sul piano interno. Sul piano esterno: la questione CCP2 non ha nesso dimostrato con il corpo estraneo segnalato e non deve comparire in questa sede.]\n\n4. Misure correttive e preventive\n\nFermi restando gli esiti dell'accertamento analitico, in via prudenziale abbiamo già disposto:\n\n1. la sostituzione del componente interessato dall'intervento del 10/05 con ricambio originale del costruttore, ricevuto in data 15/05/2026, e la verifica integrale delle guarnizioni della confezionatrice;"
+  },
+  {
+   "cid": 1439,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "origine": "nativa",
+   "rerank": 0.03187864273786545,
+   "testo": "> cid:image001.png@01DC8F11.2A3B5D60\n>\n>\n> -----Messaggio originale-----\n> Da: Ivano Dal Maso <i.dalmaso@aurorafoodgroup.it>\n> Inviato: venerdi 8 maggio 2026 14:31\n> A: ricambi@pakmatic.it\n> Cc: Marco Fantin <m.fantin@aurorafoodgroup.it>\n> Oggetto: R: ricambio valvola iniezione azoto PKM-450 - URGENTE\n>\n>> el 15 novemo. GO LA VALVOLA CHE PERDE ADESO, no el 15.\n>> stamatina in partenza linea gera za bagnada de brina la testata,\n>> ogni tanto la pression la bala e sifola. semo pieni de ordini\n>> promo fin a fine mese, se me se ferma la flow pack son roinado.\n>> no ghe ne un dai vostri concesionari? anca usada revisionada,\n>> basta che la riva lunedi.\n>> Dal Maso - oficina Aurora - 0442 854122 int 212\n>>\n>>\n>>> -----Messaggio originale-----\n>>> Da: Ricambi Pakmatic Italia <ricambi@pakmatic.it>\n>>> Inviato: venerdi 8 maggio 2026 11:02\n>>> A: i.dalmaso@aurorafoodgroup.it\n>>> Oggetto: R: ricambio valvola iniezione azoto PKM-450 - URGENTE\n>>>\n>>>> Gentile cliente,\n>>>> in riscontro alla Vs. richiesta odierna (ticket n. TK-2026-0651)\n>>>> relativa a confezionatrice flow-pack MAP mod. PKM-450 matricola\n>>>> PKM450-1808-0342, Vi confermiamo che il codice richiesto PKV-088-N2"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4551,
+ "tempi": {
+  "denso": 0.01,
+  "sparso": 0.16,
+  "rerank": 41.46
+ },
+ "id": "Q190",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:19:33",
+ "secondi": 41.64,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 54.81,
+  "token_prompt": 1831,
+  "token_risposta": 72,
+  "testo_grezzo": "La situazione igienica sulla confezionatrice non è stata rientrata dopo il montaggio del ricambio originale.\n\nFONTI: lettera_risposta_Tosano_reclamo_BOZZA_v3.docx, R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+  "fonti_citate": [
+   "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

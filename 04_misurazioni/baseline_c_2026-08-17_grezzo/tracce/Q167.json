@@ -1,0 +1,681 @@
+{
+ "domanda": "Il pagamento delle RIBA Molino Veneto di fine maggio torna con la fattura elettronica ricevuta?",
+ "candidati_densi": [
+  {
+   "cid": 247,
+   "punteggio": 0.5738812482857991,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1444,
+   "punteggio": 0.5684716033831778,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 309,
+   "punteggio": 0.5519746423731429,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 17,
+   "punteggio": 0.551818431434963,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 302,
+   "punteggio": 0.5515000362279698,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 449,
+   "punteggio": 0.5486321919703463,
+   "file": "estratto_conto_unicredit_maggio26.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 443,
+   "punteggio": 0.5482937926454223,
+   "file": "estratto_conto_unicredit_maggio26.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 301,
+   "punteggio": 0.5467186100040261,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 142,
+   "punteggio": 0.546007438505379,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1378,
+   "punteggio": 0.5447290261086926,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1373,
+   "punteggio": 0.5443756034313862,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 141,
+   "punteggio": 0.5419056339210022,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 143,
+   "punteggio": 0.5372690674611063,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 306,
+   "punteggio": 0.5329491284777357,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 441,
+   "punteggio": 0.5316852695383631,
+   "file": "estratto_conto_unicredit_maggio26.csv",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 479,
+   "punteggio": 0.5313440172676611,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 166,
+   "punteggio": 0.5287882444098155,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 501,
+   "punteggio": 0.5274135274223066,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 22,
+   "origine": "nativa"
+  },
+  {
+   "cid": 669,
+   "punteggio": 0.527283898387404,
+   "file": "Listino_MolinoVeneto_giu2026.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1377,
+   "punteggio": 0.5255340492373549,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 17,
+   "punteggio": 29.834903717041016,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 668,
+   "punteggio": 24.80135726928711,
+   "file": "Listino_MolinoVeneto_giu2026.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1378,
+   "punteggio": 20.885526657104492,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 449,
+   "punteggio": 19.4995174407959,
+   "file": "estratto_conto_unicredit_maggio26.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1373,
+   "punteggio": 19.341684341430664,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 443,
+   "punteggio": 18.981525421142578,
+   "file": "estratto_conto_unicredit_maggio26.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 442,
+   "punteggio": 18.934877395629883,
+   "file": "estratto_conto_unicredit_maggio26.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 273,
+   "punteggio": 18.360763549804688,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1443,
+   "punteggio": 17.941810607910156,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 504,
+   "punteggio": 16.928945541381836,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 25,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1377,
+   "punteggio": 16.914060592651367,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1444,
+   "punteggio": 16.81507682800293,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1848,
+   "punteggio": 16.754812240600586,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1837,
+   "punteggio": 16.698278427124023,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1782,
+   "punteggio": 16.600719451904297,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 502,
+   "punteggio": 16.45338249206543,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 23,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1211,
+   "punteggio": 16.176738739013672,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 245,
+   "punteggio": 16.16495132446289,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1233,
+   "punteggio": 16.116853713989258,
+   "file": "nota_spese_trasferte_Zampieri_aprile.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 253,
+   "punteggio": 15.988472938537598,
+   "file": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 17,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.032018442622950824,
+   "rango_denso": 4,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 449,
+   "file": "estratto_conto_unicredit_maggio26.csv",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.030776515151515152,
+   "rango_denso": 6,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1378,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.030158730158730156,
+   "rango_denso": 10,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 443,
+   "file": "estratto_conto_unicredit_maggio26.csv",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.03007688828584351,
+   "rango_denso": 7,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1444,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.030017921146953404,
+   "rango_denso": 2,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1373,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.02946912242686891,
+   "rango_denso": 11,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1377,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.02658450704225352,
+   "rango_denso": 20,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 247,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 668,
+   "file": "Listino_MolinoVeneto_giu2026.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 309,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 302,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 442,
+   "file": "estratto_conto_unicredit_maggio26.csv",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 273,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 301,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 142,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1443,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 504,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 25,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 141,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 143,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1848,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 306,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1837,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 441,
+   "file": "estratto_conto_unicredit_maggio26.csv",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": 15,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": null,
+   "rango_sparso": 15
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 442,
+   "file": "estratto_conto_unicredit_maggio26.csv",
+   "rerank": 0.545950710773468
+  },
+  {
+   "cid": 443,
+   "file": "estratto_conto_unicredit_maggio26.csv",
+   "rerank": 0.5288835763931274
+  },
+  {
+   "cid": 668,
+   "file": "Listino_MolinoVeneto_giu2026.pdf",
+   "rerank": 0.5174060463905334
+  },
+  {
+   "cid": 449,
+   "file": "estratto_conto_unicredit_maggio26.csv",
+   "rerank": 0.4872451722621918
+  },
+  {
+   "cid": 17,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.4217911660671234
+  },
+  {
+   "cid": 441,
+   "file": "estratto_conto_unicredit_maggio26.csv",
+   "rerank": 0.17289212346076965
+  },
+  {
+   "cid": 1377,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "rerank": 0.1464759260416031
+  },
+  {
+   "cid": 1373,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "rerank": 0.1274384707212448
+  },
+  {
+   "cid": 1378,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "rerank": 0.10527099668979645
+  },
+  {
+   "cid": 1444,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "rerank": 0.06375636905431747
+  },
+  {
+   "cid": 247,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "rerank": 0.04035273194313049
+  },
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.037673842161893845
+  },
+  {
+   "cid": 302,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "rerank": 0.03716327250003815
+  },
+  {
+   "cid": 1837,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.025120459496974945
+  },
+  {
+   "cid": 309,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "rerank": 0.019764108583331108
+  },
+  {
+   "cid": 301,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "rerank": 0.012592855840921402
+  },
+  {
+   "cid": 1443,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "rerank": 0.011417116969823837
+  },
+  {
+   "cid": 306,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "rerank": 0.008956432342529297
+  },
+  {
+   "cid": 1848,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "rerank": 0.0037410424556583166
+  },
+  {
+   "cid": 504,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "rerank": 0.0036721983924508095
+  },
+  {
+   "cid": 141,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "rerank": 0.002084539271891117
+  },
+  {
+   "cid": 142,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "rerank": 0.0012347573647275567
+  },
+  {
+   "cid": 143,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "rerank": 0.0010884482180699706
+  },
+  {
+   "cid": 273,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.0002170132502214983
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 442,
+   "file": "estratto_conto_unicredit_maggio26.csv",
+   "origine": "nativa",
+   "rerank": 0.545950710773468,
+   "testo": "08/05/26;08/05/26;ADDEBITO RATA LEASING UNICREDIT LEASING FORNO FT-02 CONTR.LS884213;6.450,00;;-20.405,35\n08/05/26;08/05/26;ADDEBITO RATA LEASING CONFEZIONATRICE PKM-450 CONTR.LS901077;3.980,00;;-24.385,35\n08/05/26;08/05/26;PAGAMENTO POS 07/05 TRATTORIA DA BEPI PRANZO FORNITORE;N/D;;N/D\n08/05/26;08/05/26;BONIFICO A TECNOFORNI SERVICE SRL FT 112/26 CANONE MANUTENZ. TRIM. FORNI;2.950,00;;-27.335,35\n08/05/26;08/05/26;PAGOPA COMUNE COLOGNA VENETA TARI 2026 ACCONTO;4.120,00;;-31.455,35\n08/05/26;08/05/26;SEPA DD FASTWEB SPA FIBRA UFFICI;190,00;;-31.645,35\n08/05/26;08/05/26;;controllare con contabilita fido, qui nn torna con l'e/c anticipi - risentire Unicredit (L.Trentin);;-31.645,35\nData contabile;Data valuta;Descrizione operazione;Dare €;Avere €;Saldo progressivo €\n11/05/26;11/05/26;BON. SEPA DA TOSANO CEREA SPA CRO 20260510I1234500 FATT 2026/188-189-190 DI FEBBRAIO SALDO 90GG;;186.420,00;154.774,65\n11/05/26;11/05/26;BON. SEPA DA TOSANO CEREA SPA CRO 20260510I1234501 FATT 2026/195 DEL 27/02/26 SALDO 90GG;;41.008,30;195.782,95\n11/05/26;10/05/26;PAG. RIBA SCAD. 10/05 BENEF. MOLINO VENETO SPA;19.380,00;;176.402,95"
+  },
+  {
+   "cid": 443,
+   "file": "estratto_conto_unicredit_maggio26.csv",
+   "origine": "nativa",
+   "rerank": 0.5288835763931274,
+   "testo": "11/05/26;10/05/26;PAG. RIBA SCAD. 10/05 BENEF. MOLINO VENETO SPA;19.380,00;;176.402,95\n11/05/26;10/05/26;PAG. RIBA SCAD. 10/05 BENEF. MOLINO VENETO SPA;19.380,00;;157.022,95\n11/05/26;10/05/26;PAG. RIBA SCAD. 10/05 BENEF. OLEIFICIO ADRIATICO SPA;18.224,60;;138.798,35\n11/05/26;10/05/26;PAG. RIBA SCAD. 10/05 BENEF. PAKMATIC ITALIA SRL;4.418,00;;134.380,35\n11/05/26;11/05/26;COMMISSIONI € RIBA PASSIVE N.4 EFFETTI;6,00;;134.374,35\n11/05/26;11/05/26;BONIFICO A ICEA ISTITUTO CERT. ETICA AMBIENTALE RINNOVO IT BIO 006;980,00;;133.394,35\n11/05/26;11/05/26;PAGAMENTO POS 09/05 Q8 LEGNAGO;110,00;;133.284,35\n12/05/26;12/05/26;SEPA DD VENETA ENERGIA SPA MAND.VE2026-00449 GAS METANO APRILE;11.876,90;;121.407,45\n12/05/26;12/05/26;BONIFICO A FLEXIPACK NORDEST SRL ACCONTO 30 PC ORD.884 FILM PP/EVOH;12.000,00;;109.407,45\n12/05/26;12/05/26;BONIFICO A STUDIO BELLOTTO E ASSOCIATI PARCELLA 44/26;3.660,00;;105.747,45\n12/05/26;12/05/26;SEPA DD ZUCCHETTI SPA CANONE PAGHE WEB + RILEV. PRESENZE;312,00;;105.435,45\n12/05/26;12/05/26;PAGAMENTO POS 11/05 Q8 COLOGNA V.;105,00;;105.330,45\n13/05/26;13/05/26;BONIFICO A CSQA CERTIFICAZIONI SRL FT 2201/26 AUDIT BRCGS + IFS FEBBRAIO;5.490,00;;99.840,45"
+  },
+  {
+   "cid": 668,
+   "file": "Listino_MolinoVeneto_giu2026.pdf",
+   "origine": "nativa",
+   "rerank": 0.5174060463905334,
+   "testo": "frumento tenero\nEUR/q.le\n51,40\n55,90\n+8,8%\nBase di calcolo\nMese\nQuotazione frumento tenero panificabile\n(EUR/t)\nFonte\nfebbraio 2026\n281,00\nBorsa Merci Bologna, listino settimanale\nmarzo 2026\n294,50\nBorsa Merci Bologna, listino settimanale\naprile 2026\n308,25\nBorsa Merci Bologna, listino settimanale\nmedia trimestre Qt: 294,58\nriferimento contrattuale Q0: 262,50\nApplicando la formula di revisione dell'art. 5 - Pt = P0 x [0,72 x (Qt/Q0) + 0,28] - con\nQt pari a 294,58 EUR/t e Q0 pari a 262,50 EUR/t, la variazione dell'indice risulta del\n+12,22%, superiore alla franchigia del 3% prevista dall'art. 3.3, e produce sui\ncorrispettivi un incremento del +8,8% ponderato. Per le referenze a maggior contenuto di\nfrumento tenero panificabile superiore l'incremento risulta del +9,8%.\nCondizioni invariate\n- Resa: franco destino, scarico a cura del destinatario\n- Pagamento: RIBA 60 giorni data fattura fine mese\n- Lotto minimo di consegna: 8 bancali (8.000 kg)\n- Preavviso ordine: 3 giorni lavorativi\n- Certificato di analisi allegato a ogni lotto, come da capitolato\nRestiamo a disposizione per ogni chiarimento.\nDirezione Commerciale - Molino Veneto S.p.A.\n_______________________________"
+  },
+  {
+   "cid": 449,
+   "file": "estratto_conto_unicredit_maggio26.csv",
+   "origine": "nativa",
+   "rerank": 0.4872451722621918,
+   "testo": "28/05/26;28/05/26;VERSAMENTO ASSEGNO N.0044821 SU PIAZZA;;2.350,00;29.721,26\n28/05/26;28/05/26;PAGAMENTO POS 27/05 AUTOGRILL MONSELICE;38,50;;29.682,76\n28/05/26;28/05/26;BON. SEPA DA GASTRONOMIA AL PONTE SNC REINCASSO INSOLUTO FT 2026/168;;2.412,00;32.094,76\n29/05/26;29/05/26;ADDEBITO RATA MUTUO CHIROGRAFARIO N.552981;12.500,00;;19.594,76\n29/05/26;29/05/26;SEPA DD ACQUE VERONESI SCARL CONSUMI I TRIM. 2026;1.742,18;;17.852,58\n29/05/26;29/05/26;BONIFICO A ANALYTICA VENETA SRL FT 912/26 TAMPONI SUPERFICI + LISTERIA;1.760,00;;16.092,58\n29/05/26;29/05/26;BON. SEPA DA VALGROSS SPA FATT 2026/221;;3.940,00;20.032,58\n29/05/26;29/05/26;PAGAMENTO POS 28/05 Q8 LEGNAGO;95,00;;19.937,58\n29/05/26;29/05/26;PAGAMENTO POS 28/05 OFFICE STORE VERONA CANCELLERIA;97,60;;19.839,98\n31/05/26;31/05/26;PAG. RIBA SCAD. 31/05 BENEF. MOLINO VENETO SPA;14.942,00;;4.897,98\n31/05/26;31/05/26;PAG. RIBA SCAD. 31/05 BENEF. MOLINO VENETO SPA;14.942,15;;-10.044,17\n31/05/26;31/05/26;PAG. RIBA SCAD. 31/05 BENEF. LATTERIA BASSANESE SOC.COOP.;18.212,60;;-28.256,77\n31/05/26;31/05/26;PAG. RIBA SCAD. 31/05 BENEF. FLEXIPACK NORDEST SRL;16.440,00;;-44.696,77"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4617,
+ "tempi": {
+  "denso": 0.01,
+  "sparso": 0.19,
+  "rerank": 50.53
+ },
+ "id": "Q167",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:01:41",
+ "secondi": 50.74,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 84.93,
+  "token_prompt": 2514,
+  "token_risposta": 82,
+  "testo_grezzo": "Il pagamento delle RIBA Molino Veneto di fine maggio non è stato effettuato.\n\nFONTI: estratto_conto_unicredit_maggio26.csv, estratto_conto_unicredit_maggio26.csv, estratto_conto_unicredit_maggio26.csv, Listino_MolinoVeneto_giu2026.pdf\n\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "estratto_conto_unicredit_maggio26.csv",
+   "Listino_MolinoVeneto_giu2026.pdf"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

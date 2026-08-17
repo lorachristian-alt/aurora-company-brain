@@ -1,0 +1,681 @@
+{
+ "domanda": "Che differenza fa la nostra procedura tra ritiro e richiamo?",
+ "candidati_densi": [
+  {
+   "cid": 1397,
+   "punteggio": 0.6086503198321487,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 21,
+   "punteggio": 0.5919047597634206,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1404,
+   "punteggio": 0.5730686524206589,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 512,
+   "punteggio": 0.5613418343202697,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1403,
+   "punteggio": 0.5591667084051231,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1326,
+   "punteggio": 0.5541053787508077,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1783,
+   "punteggio": 0.551203184302943,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 318,
+   "punteggio": 0.5499958939801364,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 20,
+   "punteggio": 0.5453947268325839,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1407,
+   "punteggio": 0.5432031334314044,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1796,
+   "punteggio": 0.5312821639381926,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 23,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1383,
+   "punteggio": 0.5311687755248281,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1402,
+   "punteggio": 0.5183383683625917,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1781,
+   "punteggio": 0.5170749281032504,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1332,
+   "punteggio": 0.5134238569494287,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1327,
+   "punteggio": 0.5112812180743969,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1406,
+   "punteggio": 0.5104831423281251,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1405,
+   "punteggio": 0.5100613873790399,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1400,
+   "punteggio": 0.5069308599439637,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1142,
+   "punteggio": 0.5063077752321463,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 24,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1796,
+   "punteggio": 19.488733291625977,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 23,
+   "origine": "nativa"
+  },
+  {
+   "cid": 20,
+   "punteggio": 18.4967098236084,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 21,
+   "punteggio": 18.323789596557617,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 605,
+   "punteggio": 18.09829330444336,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1781,
+   "punteggio": 16.315202713012695,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 620,
+   "punteggio": 15.885786056518555,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1142,
+   "punteggio": 15.878375053405762,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 24,
+   "origine": "nativa"
+  },
+  {
+   "cid": 618,
+   "punteggio": 15.751016616821289,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1396,
+   "punteggio": 15.512744903564453,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1239,
+   "punteggio": 15.382293701171875,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1410,
+   "punteggio": 15.28792667388916,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1780,
+   "punteggio": 15.046586990356445,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 619,
+   "punteggio": 14.884882926940918,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1405,
+   "punteggio": 14.540840148925781,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 25,
+   "punteggio": 14.48108959197998,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 23,
+   "origine": "nativa"
+  },
+  {
+   "cid": 614,
+   "punteggio": 14.47339916229248,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1404,
+   "punteggio": 14.414475440979004,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 612,
+   "punteggio": 14.328145980834961,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1226,
+   "punteggio": 14.130770683288574,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1221,
+   "punteggio": 13.94296646118164,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 10,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 21,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.03200204813108039,
+   "rango_denso": 2,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 20,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 18,
+   "origine": "nativa",
+   "rrf": 0.030621785881252923,
+   "rango_denso": 9,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1796,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 23,
+   "origine": "nativa",
+   "rrf": 0.03047794966520434,
+   "rango_denso": 11,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.0288981288981289,
+   "rango_denso": 14,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1404,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.02886002886002886,
+   "rango_denso": 3,
+   "rango_sparso": 17
+  },
+  {
+   "cid": 1142,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 24,
+   "origine": "nativa",
+   "rrf": 0.027425373134328357,
+   "rango_denso": 20,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1405,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.026334026334026334,
+   "rango_denso": 18,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 1397,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 512,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 605,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1403,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 620,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1326,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1783,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 318,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 618,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1396,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1239,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1407,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1410,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1383,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1780,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 619,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1402,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1397,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.5217409133911133
+  },
+  {
+   "cid": 20,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.3883728086948395
+  },
+  {
+   "cid": 21,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.36831745505332947
+  },
+  {
+   "cid": 1326,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "rerank": 0.2617739737033844
+  },
+  {
+   "cid": 1142,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.1283251792192459
+  },
+  {
+   "cid": 1396,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.11380162090063095
+  },
+  {
+   "cid": 1404,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.07232698798179626
+  },
+  {
+   "cid": 1239,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.06897808611392975
+  },
+  {
+   "cid": 1405,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.040906284004449844
+  },
+  {
+   "cid": 1796,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0288957841694355
+  },
+  {
+   "cid": 1383,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "rerank": 0.027069339528679848
+  },
+  {
+   "cid": 1783,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.026690062135457993
+  },
+  {
+   "cid": 1402,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.024494405835866928
+  },
+  {
+   "cid": 1410,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.014950105920433998
+  },
+  {
+   "cid": 618,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.012888639234006405
+  },
+  {
+   "cid": 512,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 0.008852729573845863
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.006417926866561174
+  },
+  {
+   "cid": 619,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.00565741304308176
+  },
+  {
+   "cid": 1403,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.0047369240783154964
+  },
+  {
+   "cid": 1780,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0039013526402413845
+  },
+  {
+   "cid": 1407,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.002608035458251834
+  },
+  {
+   "cid": 620,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.0008467730367556214
+  },
+  {
+   "cid": 318,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.0005690256366506219
+  },
+  {
+   "cid": 605,
+   "file": "job_description_responsabile_produzione.docx",
+   "rerank": 4.258358239894733e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1397,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "origine": "nativa",
+   "rerank": 0.5217409133911133,
+   "testo": "dal magazzino di Via Palù 3/A, a marchio proprio, a marchio del cliente\n(\"Bontà di Casa\" e altri) e biologici (ICEA IT BIO 006).\n\n3. DEFINIZIONI\n3.1 RITIRO (withdrawal): rimozione del prodotto dalla catena di distribuzione\n    quando il prodotto NON è ancora nella disponibilità del consumatore finale\n    o comunque quando non è necessario allertare il consumatore (prodotto a\n    CE.DI., a deposito cliente, a scaffale ma non venduto).\n3.2 RICHIAMO (recall): rimozione del prodotto quando questo è già nella\n    disponibilità del consumatore finale, con necessità di informare il\n    consumatore stesso (avviso a scaffale, comunicati, sito web, canali del\n    Ministero della Salute).\n3.3 BLOCCO: sospensione cautelativa della movimentazione di lotti presso i\n    magazzini aziendali, registrata su MOD-MAG-02.\n3.4 CRISI: qualunque evento che possa comportare rischio per la salute del\n    consumatore, danno reputazionale grave o interruzione delle forniture ai\n    clienti strategici.\n\n4. CLASSIFICAZIONE DELLA GRAVITA'\nLa valutazione è effettuata dal RSGQ con il supporto del team di crisi.\n\nCLASSE 1 - Rischio sanitario grave e immediato (patogeni in prodotto RTE,"
+  },
+  {
+   "cid": 20,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "origine": "nativa",
+   "rerank": 0.3883728086948395,
+   "testo": "balance) entro 4 ore dalla richiesta, dal lotto di prodotto finito alle materie\n     prime e viceversa.\n11.5 Il Fornitore mantiene attiva idonea copertura assicurativa RC prodotti con massimale\n     non inferiore a Euro 5.000.000,00 per sinistro, ivi inclusa l'estensione per costi\n     di ritiro, e ne fornisce evidenza annuale al Distributore.\n11.6 Campioni di ogni lotto consegnato sono conservati dal Fornitore fino a scadenza del\n     TMC maggiorata di 30 giorni.\n\nArt. 12 — GESTIONE DEI RECLAMI, RITIRO E RICHIAMO\n12.1 Il Distributore inoltra al Fornitore i reclami dei consumatori e dei punti vendita\n     relativi alle Referenze. Il Fornitore fornisce riscontro scritto documentato entro\n     48 (quarantotto) ore dal ricevimento, con indicazione del lotto coinvolto, delle\n     verifiche eseguite e delle azioni correttive intraprese, secondo la propria\n     procedura di gestione reclami.\n12.2 In presenza di rischio, anche solo potenziale, per la sicurezza del consumatore, il\n     Fornitore attiva senza indugio la propria procedura di ritiro/richiamo, dandone\n     immediata comunicazione al Distributore e, ove dovuto, alla competente autorita'"
+  },
+  {
+   "cid": 21,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "origine": "nativa",
+   "rerank": 0.36831745505332947,
+   "testo": "Fornitore attiva senza indugio la propria procedura di ritiro/richiamo, dandone\n     immediata comunicazione al Distributore e, ove dovuto, alla competente autorita'\n     sanitaria ai sensi degli artt. 19 e 20 Reg. CE 178/2002.\n12.3 Tutti i costi diretti e documentati del ritiro e/o richiamo imputabile al Fornitore\n     — ivi compresi trasporti di ritorno, smaltimento, ricollocazione a scaffale,\n     comunicazione al consumatore ove imposta dall'autorita' — sono a carico del\n     Fornitore. Per la gestione operativa del reso dal CE.DI. e dai punti vendita fara'\n     fede la conta effettuata in contraddittorio.\n12.4 Il Distributore ha facolta' di sospendere gli ordini della referenza interessata\n     sino alla chiusura documentata dell'azione correttiva, senza che cio' costituisca\n     inadempimento ai fini dell'art. 5.\n12.5 Resta salvo il diritto del Distributore al risarcimento del danno ulteriore,\n     compreso il danno all'immagine del marchio \"Bonta' di Casa\" nei limiti di quanto\n     documentato.\n\nArt. 13 — PROPRIETA' DEL MARCHIO E DEI SEGNI DISTINTIVI\n13.1 Il marchio \"Bonta' di Casa\", i relativi loghi, la veste grafica degli imballi e ogni"
+  },
+  {
+   "cid": 1326,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "origine": "nativa",
+   "rerank": 0.2617739737033844,
+   "testo": "applicabile, ivi compresa la presenza di c0rpi estranei\n- Ritir0: rim0zi0ne del pr0d0tt0 dalla catena distributiva prima della vendita al\n  c0nsumat0re finale\n- Richiam0: rim0zi0ne del pr0d0tt0 gia in p0ssess0 del c0nsumat0re finale, anche\n  mediante avvisi al pubblic0\n- Sinistr0: la richiesta di risarciment0 pervenuta per la prima v0lta nel peri0d0\n  di assicurazi0ne (regime claims made)\n\nGARANZlE ACCESS0RlE 0PERANTl (c0me da m0dul0)\nG.A. 1 - spese di difesa: nel limite del quart0 del massimale (art. 1917 c.c.)\nG.A. 2 - danni da c0ntaminazi0ne accidentale: c0mpresi i danni cagi0nati dal\n    pr0d0tt0 c0ntaminat0 da agenti chimici, fisici 0 bi0l0gici purche derivanti\n    da fatt0 accidentale e n0n d0l0s0\nG.A. 3 - spese di ritir0 e richiam0: la S0cieta rimb0rsa, nei limiti del sublimite\n    di Sezi0ne D, le spese rag10nev0lmente s0stenute dall Assicurat0 per:\n    a) c0municazi0ni alla clientela e avvisi al pubblic0\n    b) trasp0rt0 e magazzinaggi0 del pr0d0tt0 ritirat0\n    c) smaltiment0 e distruzi0ne\n    d) cern1ta e ricondizi0nament0 0ve ec0n0micamente sensat0\n    e) c0st0 di sostituzi0ne del pr0d0tt0 ritirat0 al s0l0 val0re industriale"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4645,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.18,
+  "rerank": 40.4
+ },
+ "id": "Q022",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:07:13",
+ "secondi": 40.61,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 88.03,
+  "token_prompt": 1892,
+  "token_risposta": 130,
+  "testo_grezzo": "La nostra procedura di ritiro e richiamo è la stessa, poiché entrambi comportano la rimozione del prodotto dalla catena di distribuzione per garantire la sicurezza del consumatore. La differenza risiede solo nel momento in cui il prodotto è già in possesso del consumatore finale, in cui caso dobbiamo attivare la procedura di richiamo.\n\nFONTI: accordo_quadro_private_label_Tosano_2026_firmato.txt, procedura_ritiro_prodotto_CRISI_GDO.txt\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "procedura_ritiro_prodotto_CRISI_GDO.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

@@ -1,0 +1,683 @@
+{
+ "domanda": "Qual era la soglia per superare il test di fine corso e c'e' stato qualcuno che non l'ha passato?",
+ "candidati_densi": [
+  {
+   "cid": 1823,
+   "punteggio": 0.5246387199189348,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1824,
+   "punteggio": 0.49553395739718464,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1308,
+   "punteggio": 0.46843226109206176,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1085,
+   "punteggio": 0.45835698661381336,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 922,
+   "punteggio": 0.4551395178962748,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 100,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1077,
+   "punteggio": 0.45395089179289017,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1276,
+   "punteggio": 0.44941097649687256,
+   "file": "panel_test_assaggio_interno_cornetto_premium.csv",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1088,
+   "punteggio": 0.4448399272198624,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 910,
+   "punteggio": 0.44426339641432677,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 88,
+   "origine": "nativa"
+  },
+  {
+   "cid": 866,
+   "punteggio": 0.44134705162532406,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 44,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1825,
+   "punteggio": 0.44094592936411914,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1082,
+   "punteggio": 0.44093415419094995,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 918,
+   "punteggio": 0.43985203778354487,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 96,
+   "origine": "nativa"
+  },
+  {
+   "cid": 925,
+   "punteggio": 0.4397510814837847,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 103,
+   "origine": "nativa"
+  },
+  {
+   "cid": 719,
+   "punteggio": 0.4385444488628085,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 33,
+   "origine": "nativa"
+  },
+  {
+   "cid": 217,
+   "punteggio": 0.4381817950808622,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 858,
+   "punteggio": 0.4376253225088301,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 36,
+   "origine": "nativa"
+  },
+  {
+   "cid": 889,
+   "punteggio": 0.4368806706639941,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 67,
+   "origine": "nativa"
+  },
+  {
+   "cid": 83,
+   "punteggio": 0.43665397011195745,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 399,
+   "punteggio": 0.43613587041090923,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 0,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 510,
+   "punteggio": 27.8582763671875,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1548,
+   "punteggio": 27.644855499267578,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 611,
+   "punteggio": 26.792200088500977,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1775,
+   "punteggio": 24.239219665527344,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1812,
+   "punteggio": 23.79396629333496,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 275,
+   "punteggio": 23.006628036499023,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1111,
+   "punteggio": 22.205345153808594,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1112,
+   "punteggio": 21.42445945739746,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1459,
+   "punteggio": 21.372676849365234,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1444,
+   "punteggio": 21.123485565185547,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 514,
+   "punteggio": 21.025554656982422,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1110,
+   "punteggio": 20.88131332397461,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1797,
+   "punteggio": 20.777372360229492,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 24,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1460,
+   "punteggio": 20.615737915039062,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1781,
+   "punteggio": 20.550508499145508,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 472,
+   "punteggio": 20.43149185180664,
+   "file": "fattura_antivirus_licenze_2026.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1113,
+   "punteggio": 20.088111877441406,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 325,
+   "punteggio": 20.055864334106445,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 124,
+   "punteggio": 19.875131607055664,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1776,
+   "punteggio": 19.76692008972168,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 510,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1823,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1548,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1824,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 611,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1308,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1085,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1775,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 922,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 100,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1812,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 275,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1077,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1111,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1276,
+   "file": "panel_test_assaggio_interno_cornetto_premium.csv",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1088,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1112,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 910,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 88,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1459,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 866,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 44,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1444,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 514,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1825,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1082,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 514,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 0.5166836380958557
+  },
+  {
+   "cid": 1823,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "rerank": 0.4006982743740082
+  },
+  {
+   "cid": 1824,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "rerank": 0.017109902575612068
+  },
+  {
+   "cid": 1276,
+   "file": "panel_test_assaggio_interno_cornetto_premium.csv",
+   "rerank": 0.0034902950283139944
+  },
+  {
+   "cid": 1825,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "rerank": 0.0022220672108232975
+  },
+  {
+   "cid": 1085,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.0016238171374425292
+  },
+  {
+   "cid": 1077,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.0009039919241331518
+  },
+  {
+   "cid": 866,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.0007751664379611611
+  },
+  {
+   "cid": 1088,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.0006458249408751726
+  },
+  {
+   "cid": 910,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.0006168325198814273
+  },
+  {
+   "cid": 1082,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.0005560910212807357
+  },
+  {
+   "cid": 922,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.0004611161712091416
+  },
+  {
+   "cid": 1308,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "rerank": 0.0003808294713962823
+  },
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.00010288977500749752
+  },
+  {
+   "cid": 1459,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 6.93437978043221e-05
+  },
+  {
+   "cid": 1548,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "rerank": 6.454023969126865e-05
+  },
+  {
+   "cid": 1111,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 4.3617579649435356e-05
+  },
+  {
+   "cid": 1112,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 3.3774918847484514e-05
+  },
+  {
+   "cid": 510,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 3.163639485137537e-05
+  },
+  {
+   "cid": 275,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 2.317483267688658e-05
+  },
+  {
+   "cid": 1444,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "rerank": 2.2703248760080896e-05
+  },
+  {
+   "cid": 611,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 2.1475543690030463e-05
+  },
+  {
+   "cid": 1775,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 1.8177253878093325e-05
+  },
+  {
+   "cid": 1812,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 1.7846312402980402e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 514,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "origine": "nativa",
+   "rerank": 0.5166836380958557,
+   "testo": "TEST FINALE — 8 domande (rispondi vero o falso)\n\n• 1. Un'allergia grave può partire anche da tracce invisibili di allergene. V / F\n• 2. Il latte è presente solo sulla Linea 3. V / F\n• 3. Il rework può entrare in una ricetta diversa se gli ingredienti \"sono simili\". V / F\n• 4. La pulizia con aria compressa è un buon modo per togliere la farina dalla linea. V / F\n• 5. Un contenitore di rework senza etichetta non si usa. V / F\n• 6. La sequenza di produzione la può cambiare l'operatore se è in ritardo. V / F\n• 7. Al cambio bobina devo controllare che il film sia quello del prodotto in linea. V / F\n• 8. Se mi accorgo di un errore a metà turno posso aspettare la pausa per dirlo. V / F\nRisposte: 1 V, 2 F (il latte è soprattutto Linea 2: burro e panna), 3 F, 4 F, 5 V, 6 F, 7 V, 8 F (si dice SUBITO). Soglia di superamento: 6 su 8. Chi non passa rifà il modulo con me la settimana dopo, in forma orale se c'è di mezzo la lingua: l'obiettivo è che abbia capito, non che sappia leggere in fretta. Esiti sul MOD-HR-11.\nGrazie\n\n• Domande?\n• Qualità: interno 214 (Marchetti) — 215 (Pozzato)\n• Il piano allergeni completo (PRPo1) è disponibile in Qualità per chi lo vuole vedere"
+  },
+  {
+   "cid": 1823,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "origine": "nativa",
+   "rerank": 0.4006982743740082,
+   "testo": "22  MEGGIOLARO Stefano      08.00     17.00    [firma autografa]\n\n Presenti giornata 2: 20/22          Docente: [firma autografa] S. Bonato\n                                     Codocente: [firma autografa] M. Refosco\n\nTEST DI VERIFICA FINALE - 15/04/2026 h 16.15\nQuestionario: 30 domande risposta multipla. Soglia di superamento: 21/30 (70%).\n\n n.  Partecipante            Punteggio   Esito\n --  ---------------------   ---------   -----------------------------\n  1  POPESCU Ionut           27/30       SUPERATO\n  2  BEN SALAH Adel          28/30       SUPERATO\n  3  GUERRA Roberto          25/30       SUPERATO\n  4  BISSOLI Mirco           23/30       SUPERATO\n  5  RIGON Damiano           26/30       SUPERATO\n  6  MUNTEANU Vasile         24/30       SUPERATO\n  7  OSEI Kwame              22/30       SUPERATO\n  8  PERUZZI Loris           29/30       SUPERATO\n  9  SINANI Arben            -           NON SOSTENUTO (assente g.2)\n 10  BOGDAN Elena            -           NON SOSTENUTO (assente g.2)\n 11  EL AMRANI Youssef       21/30       SUPERATO (vedi nota lingua)\n 12  COSTA Fernanda          26/30       SUPERATO\n 13  TREVISAN Matteo         25/30       SUPERATO"
+  },
+  {
+   "cid": 1824,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "origine": "nativa",
+   "rerank": 0.017109902575612068,
+   "testo": "11  EL AMRANI Youssef       21/30       SUPERATO (vedi nota lingua)\n 12  COSTA Fernanda          26/30       SUPERATO\n 13  TREVISAN Matteo         25/30       SUPERATO\n 14  STOICA Ana-Maria        27/30       SUPERATO\n 15  ZERBATO Gianluca        24/30       SUPERATO\n 16  DIALLO Mamadou          17/30       NON SUPERATO - test orale integrativo\n                                         svolto in data 15/04 h 17.15 con esito\n                                         POSITIVO (vedi nota lingua)\n 17  POZZATO Sara            30/30       SUPERATO\n 18  BERTON Luca             23/30       SUPERATO\n 19  HASSAN Omar             22/30       SUPERATO\n 20  PADOVAN Cristina        28/30       SUPERATO\n 21  KAUR Jaspreet           24/30       SUPERATO\n 22  MEGGIOLARO Stefano      26/30       SUPERATO\n\nVERBALE DEL DOCENTE\n\nIl sottoscritto p.i. Sergio Bonato, in qualita' di docente qualificato, dichiara\nche il corso si e' svolto regolarmente nelle date e negli orari sopra indicati,\nper complessive 16 ore (4 di formazione generale + 12 di formazione specifica\nrischio alto), con metodologia frontale, esercitazioni e discussione di casi"
+  },
+  {
+   "cid": 1276,
+   "file": "panel_test_assaggio_interno_cornetto_premium.csv",
+   "origine": "nativa",
+   "rerank": 0.0034902950283139944,
+   "testo": "3,22-apr-26,Zanella Denis,451,8,7,7,8,7,7,6,1,451,\n3,22-apr-26,Zanella Denis,129,7,7,7,7,7,7,6,1,451,\n3,22-apr-26,Zanella Denis,863,7,6,7,7,6,6,6,2,451,un filo meno croccante, normale\n3,22-apr-26,Sartori Federica,451,8,8,8,8,8,8,7,1,451,il migliore mai assaggiato qui dentro\n3,22-apr-26,Sartori Federica,129,7,7,7,8,7,7,7,1,451,\n3,22-apr-26,Sartori Federica,863,7,7,7,7,7,7,7,2,451,\n3,22-apr-26,Faggionato Nicola,451,7,8,7,8,8,7,6,1,451,\n3,22-apr-26,Faggionato Nicola,129,7,7,7,7,7,7,6,1,451,\n3,22-apr-26,Faggionato Nicola,863,7,7,6,7,6,7,6,2,451,\n3,22-apr-26,Trentin Luisa,451,8,8,7,8,7,8,6,1,451,(promosso)\n3,22-apr-26,Trentin Luisa,129,7,7,7,7,7,7,6,1,451,\n3,22-apr-26,Trentin Luisa,863,7,7,7,7,6,7,6,1,451,\n3,22-apr-26,Popescu Ionut,451,8,8,7,8,8,8,6,1,451,\n3,22-apr-26,Popescu Ionut,129,7,7,7,7,7,7,6,1,451,\n3,22-apr-26,Popescu Ionut,863,7,7,7,7,6,6,6,2,451,\n3,22-apr-26,Ben Salah Adel,451,8,8,8,8,7,8,6,1,451,fatta dal turno 1 da soli, sono contento\n3,22-apr-26,Ben Salah Adel,129,7,7,7,8,7,7,6,1,451,\n3,22-apr-26,Ben Salah Adel,863,7,7,7,7,6,7,6,2,451,\n3,22-apr-26,Meneghello Giulia,451,8,8,7,8,7,8,6,1,451,vol. spec. 7,1 coerente col punteggio"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4626,
+ "tempi": {
+  "denso": 0.19,
+  "sparso": 0.48,
+  "rerank": 73.18
+ },
+ "id": "Q064",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:39:57",
+ "secondi": 73.86,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 77.46,
+  "token_prompt": 2216,
+  "token_risposta": 104,
+  "testo_grezzo": "La soglia per superare il test di fine corso era di 21/30 (70%) e non è stato superata solo il turno 9 (Sinani Arben) e il turno 10 (Bogdan Elena), che non hanno partecipato al test a causa di assenza.\n\nFONTI: verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt, test di verifica finale - 15/04/2026 h 16.15",
+  "fonti_citate": [
+   "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "test di verifica finale - 15/04/2026 h 16.15"
+  ],
+  "fonti_fuori_contesto": [
+   "test di verifica finale - 15/04/2026 h 16.15"
+  ],
+  "confidenza": "bassa"
+ }
+}

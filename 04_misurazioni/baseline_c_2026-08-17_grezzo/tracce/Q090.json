@@ -1,0 +1,682 @@
+{
+ "domanda": "Quante persone hanno timbrato domenica 10 maggio e di che reparti?",
+ "candidati_densi": [
+  {
+   "cid": 189,
+   "punteggio": 0.43594268452037194,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1301,
+   "punteggio": 0.4264872194428073,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1083,
+   "punteggio": 0.42175169008117286,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 242,
+   "punteggio": 0.42149599004181276,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 82,
+   "punteggio": 0.42135868934890386,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1085,
+   "punteggio": 0.41968828376389516,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1091,
+   "punteggio": 0.41790987135393376,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1032,
+   "punteggio": 0.41498632291585663,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 98,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1087,
+   "punteggio": 0.4123365988160393,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1062,
+   "punteggio": 0.4111582972929192,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 128,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1082,
+   "punteggio": 0.41076459700114076,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1793,
+   "punteggio": 0.41031771691237556,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1064,
+   "punteggio": 0.4072419759961545,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 130,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1033,
+   "punteggio": 0.4063384471772999,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 99,
+   "origine": "nativa"
+  },
+  {
+   "cid": 81,
+   "punteggio": 0.40617274193369657,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1056,
+   "punteggio": 0.40496828996706513,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 122,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1066,
+   "punteggio": 0.40492913285730225,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 132,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1820,
+   "punteggio": 0.40468723769784043,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1029,
+   "punteggio": 0.4041193034242191,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 95,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1058,
+   "punteggio": 0.40356482840984487,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 124,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 434,
+   "punteggio": 22.545312881469727,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 435,
+   "punteggio": 21.74603271484375,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 432,
+   "punteggio": 19.201839447021484,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 242,
+   "punteggio": 18.75545310974121,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 431,
+   "punteggio": 17.55281639099121,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 428,
+   "punteggio": 14.975379943847656,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 433,
+   "punteggio": 14.123140335083008,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 286,
+   "punteggio": 13.411134719848633,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1785,
+   "punteggio": 12.72093677520752,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 277,
+   "punteggio": 12.17223834991455,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 256,
+   "punteggio": 11.96198844909668,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 287,
+   "punteggio": 11.820780754089355,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1107,
+   "punteggio": 11.737990379333496,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 430,
+   "punteggio": 11.606355667114258,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1109,
+   "punteggio": 11.525933265686035,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1108,
+   "punteggio": 11.517312049865723,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1423,
+   "punteggio": 11.207399368286133,
+   "file": "Prospetto_straordinari_gen-apr_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1097,
+   "punteggio": 11.035829544067383,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1788,
+   "punteggio": 11.02117919921875,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1319,
+   "punteggio": 10.616531372070312,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 3,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 242,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "idx": 18,
+   "origine": "nativa",
+   "rrf": 0.03125,
+   "rango_denso": 4,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 189,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 435,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1301,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 432,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1083,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 82,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 428,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1085,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 433,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1091,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 286,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1032,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 98,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1087,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1785,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 277,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1062,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 128,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 256,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1082,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 287,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1793,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 20,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1064,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 130,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.12531372904777527
+  },
+  {
+   "cid": 1087,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.03228018060326576
+  },
+  {
+   "cid": 1301,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "rerank": 0.02142772451043129
+  },
+  {
+   "cid": 286,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.017778441309928894
+  },
+  {
+   "cid": 189,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "rerank": 0.015423639677464962
+  },
+  {
+   "cid": 242,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "rerank": 0.009838348254561424
+  },
+  {
+   "cid": 432,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.004247231874614954
+  },
+  {
+   "cid": 1091,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.003516950411722064
+  },
+  {
+   "cid": 435,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.002750321291387081
+  },
+  {
+   "cid": 433,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.0016051777638494968
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.0014898726949468255
+  },
+  {
+   "cid": 1083,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.0004973971517756581
+  },
+  {
+   "cid": 82,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "rerank": 0.0004889157717116177
+  },
+  {
+   "cid": 1085,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.0003729692834895104
+  },
+  {
+   "cid": 428,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.0003607504186220467
+  },
+  {
+   "cid": 1082,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.0003042879397980869
+  },
+  {
+   "cid": 1785,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.00022123384405858815
+  },
+  {
+   "cid": 256,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "rerank": 0.00020990849588997662
+  },
+  {
+   "cid": 1064,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.00018641816859599203
+  },
+  {
+   "cid": 1062,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.00016582423995714635
+  },
+  {
+   "cid": 1032,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.00011177079431945458
+  },
+  {
+   "cid": 277,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 9.368504106532782e-05
+  },
+  {
+   "cid": 287,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 6.37401535641402e-05
+  },
+  {
+   "cid": 1793,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 5.416050407802686e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "origine": "nativa",
+   "rerank": 0.12531372904777527,
+   "testo": ">> Meno di quanto abbiamo già bruciato in sostituzioni, e almeno\n>> smettiamo di formare gente per i concorrenti.\n>>\n>> Aggiungo un dato che non fa piacere: Umana ci ha detto ieri che\n>> per profili food con domenicali \"il mercato in zona è fermo\",\n>> hanno 2 CV in banca dati e uno dei due non ha la patente.\n>> L'ultima ricerca (sostituzione Peruzzi) è durata 7 settimane.\n>>\n>> Federica\n>>\n>> Federica Sartori\n>> Risorse Umane e Segreteria Generale\n>> AURORA FOOD GROUP S.r.l.\n>> Via dell'Industria 27 - 37044 Cologna Veneta (VR)\n>>\n>> Le informazioni contenute nella presente comunicazione sono\n>> riservate ai sensi del Reg. UE 2016/679 (GDPR).\n>>\n>>> -----Messaggio originale-----\n>>> Da: Zanella Denis <d.zanella@aurorafoodgroup.it>\n>>> Inviato: martedì 12 maggio 2026 14:12\n>>> A: Sartori Federica; Fantin Marco\n>>> Oggetto: R: Fwd: dimissioni Hoxha - situazione Linea 2 URGENTE\n>>>\n>>> Scusate ma io devo dire una cosa e la dico chiara.\n>>>\n>>> Domenica 10 la Linea 2 ha girato con 5 persone. CINQUE. Adel ha\n>>> fatto anche il lavoro di banco oltre al suo, Ciobanu è arrivato\n>>> in ritardo pure di domenica (21 minuti, l'ho segnato), e nel"
+  },
+  {
+   "cid": 1087,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "origine": "nativa",
+   "rerank": 0.03228018060326576,
+   "testo": "0502;PERETTO CHIARA;07/05/2026;gio;CONFEZ.;T1;05:54;14:00;8,00;;;\n0503;BA MAMADOU;07/05/2026;gio;CONFEZ.;T2;13:56;22:00;8,00;;;\n0504;FRIGO LUCIA;07/05/2026;gio;CONFEZ.;T2;13:56;22:00;8,00;;;\n0505;VISENTIN STEFANO;07/05/2026;gio;CONFEZ.;T2;13:56;22:30;8,00;0,50;STR 30%;\n0601;FAGGIONATO NICOLA;07/05/2026;gio;MAGAZZ.;T1;06:04;14:15;8,00;0,25;STR 30%;ingresso oltre tolleranza\n0602;SEGATO ALBERTO;07/05/2026;gio;MAGAZZ.;T1;06:01;14:00;8,00;;;\n0603;PREDA RADU;07/05/2026;gio;MAGAZZ.;T2;13:56;22:40;8,00;0,67;STR 30%;\n0604;MATTIELLO GIANLUCA;07/05/2026;gio;MAGAZZ.;T1;05:59;14:00;8,00;;;\n0701;DAL MASO IVANO;07/05/2026;gio;MANUT.;T1;05:59;14:45;8,00;0,75;STR 30%;\n0702;BISSOLI MIRCO;07/05/2026;gio;MANUT.;T3;;;;;;FERIE\nBadge;Cognome Nome;Data;Giorno;Reparto;Turno;Timbratura IN;Timbratura OUT;Ore ord.;Ore straord.;Maggiorazione %;Note\n0201;POPESCU IONUT;08/05/2026;ven;LINEA 1;T2;14:00;22:00;8,00;;;\n0202;ROSSIN DAVIDE;08/05/2026;ven;LINEA 1;T1;05:59;14:00;8,00;;;\n0203;PERIN LUCA;08/05/2026;ven;LINEA 1;T1;05:54;14:00;8,00;;;\n0204;OSEI SAMUEL;08/05/2026;ven;LINEA 1;T2;13:54;22:00;8,00;;;\n0205;VASILESCU ANDREI;08/05/2026;ven;LINEA 1;T2;13:58;22:00;8,00;;;ingresso oltre tolleranza"
+  },
+  {
+   "cid": 1301,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "origine": "nativa",
+   "rerank": 0.02142772451043129,
+   "testo": "sab 09/05 Linea 1 T2 AF-SN-0450 ORD-T1110 5780 1250 5 5\nsab 09/05 Linea 2 T1 AF-CR-0215 ORD-T1229 7860 780 7 7\nsab 09/05 Linea 2 T2 AF-CR-0215 ORD-T1301 4340 780 7 7\nsab 09/05 Linea 2 T3 AF-CR-0215 ORD-T1352 5280 780 7 7\nsab 09/05 Linea 3 T1 AF-CR-0212 ORD-T1165 7340 640 4 4\ndom 10/05 Linea 2 T1 AF-CR-0215 ORD-T1462 7760 780 7 6 3a domenica consecutiva - RSU ha protestato\ndom 10/05 Linea 2 T2 AF-CR-0215 ORD-T1151 4400 780 7 4 3a domenica consecutiva - RSU ha protestato\n\ntotale pz settimana\nore macchina totali\n\n(D.Z. a penna) il 10/05 turno 2 linea 1 SALTATO dalle 15 - confezionatrice ferma. Recupero lunedì.\nPiano di produzione Sett 20 - promo Sottocosto Primavera Tosano\nD. Zanella - stampato il venerdì precedente, modificato a mano durante la settimana\n\n\nGiorno Linea Turno Cod. art. Ordine cliente Pz da produrre Tempo ciclo (pz/h) Ore macchina Saturazione % Operai necessari Operai disponibili Scoperto Note\nlun 11/05 Linea 1 T1 AF-SN-0450 ORD-T1477 6620 1250 5 5 recupero produzione persa per fermo PKM-450 del 10/05\nlun 11/05 Linea 1 T2 AF-SN-0450 ORD-T1161 9040 1250 5 5 recupero produzione persa per fermo PKM-450 del 10/05"
+  },
+  {
+   "cid": 286,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "origine": "nativa",
+   "rerank": 0.017778441309928894,
+   "testo": "in relazione agli ordini promozionali del cliente Tosano Cerea S.p.A.\n   (iniziativa promozionale \"Sottocosto Primavera\", settimane 19-21);\n2. Lavoro domenicale sulla Linea 2 (croissanteria): domeniche 3, 10 e\n   17 maggio 2026;\n3. Monte ore straordinario individuale: posizioni in prossimita' e/o\n   superamento dei limiti contrattuali e di legge;\n4. Turnover del personale di Linea 2 e organici;\n5. Varie ed eventuali.\n\nPREMESSA\n\nIl presente incontro e' stato richiesto dalla RSU con comunicazione scritta\ndel 13/05/2026 (prot. int. HR-2026-0087), assistita dalla FLAI-CGIL\nterritoriale, ai sensi delle vigenti disposizioni del CCNL Industria\nAlimentare in materia di relazioni sindacali e di informativa alle RSU\nsull'organizzazione del lavoro.\n\nPUNTO 1 - LAVORO STRAORDINARIO PERIODO APRILE-MAGGIO 2026\n\nIl sig. Campagnolo (FLAI-CGIL) prende la parola ed espone quanto segue.\nRileva che nel periodo dal 20/04/2026 al 17/05/2026 il reparto Linea 2 ha\noperato con ricorso sistematico e non occasionale al lavoro straordinario,\ncon prestazioni giornaliere che, sommando ordinario e straordinario, hanno\nraggiunto e in taluni casi superato le 10 ore. Richiama l'art. 4 del D.Lgs."
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4647,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.16,
+  "rerank": 56.45
+ },
+ "id": "Q090",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:02:27",
+ "secondi": 56.62,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 74.75,
+  "token_prompt": 2284,
+  "token_risposta": 69,
+  "testo_grezzo": "Non e' possibile determinare il numero di persone che hanno timbrato domenica 10 maggio.\n\nFONTI: email_HR_dimissioni_operai_linea2.txt, log_timbrature_fabbrica_maggio_settimana2.csv, contestazione_sindacale_straordinari_Tosano.txt",
+  "fonti_citate": [
+   "email_HR_dimissioni_operai_linea2.txt",
+   "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "contestazione_sindacale_straordinari_Tosano.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

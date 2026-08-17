@@ -1,0 +1,684 @@
+{
+ "domanda": "Qual e' stato l'utile d'esercizio 2026 di Aurora Food Group?",
+ "candidati_densi": [
+  {
+   "cid": 1445,
+   "punteggio": 0.6223543215764165,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 119,
+   "punteggio": 0.6051767508439688,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 121,
+   "punteggio": 0.599699411473513,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1804,
+   "punteggio": 0.5995427819493019,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 117,
+   "punteggio": 0.5803859963778315,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1444,
+   "punteggio": 0.5757518225551503,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 118,
+   "punteggio": 0.5756761484702301,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1316,
+   "punteggio": 0.5736594576829515,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 439,
+   "punteggio": 0.5728128438620651,
+   "file": "estratto_conto_unicredit_maggio26.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1850,
+   "punteggio": 0.5710773489308181,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1441,
+   "punteggio": 0.5659782484391767,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 385,
+   "punteggio": 0.5642809286589854,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 622,
+   "punteggio": 0.5598120584917005,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 165,
+   "punteggio": 0.5583893524163712,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1547,
+   "punteggio": 0.5502048864961593,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1264,
+   "punteggio": 0.5437740392967325,
+   "file": "organigramma_aziendale_aggiornato_marzo26.pptx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1342,
+   "punteggio": 0.5426079574570986,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 478,
+   "punteggio": 0.5385855580046852,
+   "file": "Fattura_TosanoCerea_2026_0188_copia_cortesia.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1243,
+   "punteggio": 0.5362099383427592,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1895,
+   "punteggio": 0.5310018359722867,
+   "file": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 121,
+   "punteggio": 24.8225040435791,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 118,
+   "punteggio": 23.113948822021484,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 125,
+   "punteggio": 20.82688331604004,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 117,
+   "punteggio": 19.612518310546875,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 124,
+   "punteggio": 19.51743507385254,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1100,
+   "punteggio": 17.861127853393555,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 611,
+   "punteggio": 17.751121520996094,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1814,
+   "punteggio": 17.747121810913086,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1887,
+   "punteggio": 16.709850311279297,
+   "file": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1405,
+   "punteggio": 16.054752349853516,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1406,
+   "punteggio": 15.964860916137695,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 297,
+   "punteggio": 15.881133079528809,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1228,
+   "punteggio": 15.867920875549316,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1474,
+   "punteggio": 15.663932800292969,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 119,
+   "punteggio": 15.504425048828125,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 115,
+   "punteggio": 15.40268611907959,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1075,
+   "punteggio": 15.366849899291992,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 141,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1472,
+   "punteggio": 15.176993370056152,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1463,
+   "punteggio": 15.126136779785156,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1703,
+   "punteggio": 15.012669563293457,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 121,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.032266458495966696,
+   "rango_denso": 3,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 118,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.031054405392392875,
+   "rango_denso": 7,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 117,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.031009615384615385,
+   "rango_denso": 5,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 119,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.02946236559139785,
+   "rango_denso": 2,
+   "rango_sparso": 15
+  },
+  {
+   "cid": 1445,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 125,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1804,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 124,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1100,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1444,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 611,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1316,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1814,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 439,
+   "file": "estratto_conto_unicredit_maggio26.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1887,
+   "file": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1405,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1850,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1406,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1441,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 297,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 385,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 622,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1228,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 165,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 121,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "rerank": 0.984562337398529
+  },
+  {
+   "cid": 118,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "rerank": 0.9798664450645447
+  },
+  {
+   "cid": 1804,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.9728999733924866
+  },
+  {
+   "cid": 439,
+   "file": "estratto_conto_unicredit_maggio26.csv",
+   "rerank": 0.9713808298110962
+  },
+  {
+   "cid": 119,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "rerank": 0.9590831398963928
+  },
+  {
+   "cid": 385,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "rerank": 0.9363534450531006
+  },
+  {
+   "cid": 117,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "rerank": 0.9335665702819824
+  },
+  {
+   "cid": 165,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "rerank": 0.9288869500160217
+  },
+  {
+   "cid": 297,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "rerank": 0.8529718518257141
+  },
+  {
+   "cid": 1445,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "rerank": 0.8517181873321533
+  },
+  {
+   "cid": 124,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "rerank": 0.8450289964675903
+  },
+  {
+   "cid": 1850,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.792339026927948
+  },
+  {
+   "cid": 1316,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "rerank": 0.7011571526527405
+  },
+  {
+   "cid": 1887,
+   "file": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "rerank": 0.6864570379257202
+  },
+  {
+   "cid": 1100,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "rerank": 0.6850871443748474
+  },
+  {
+   "cid": 125,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "rerank": 0.6466432213783264
+  },
+  {
+   "cid": 1444,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "rerank": 0.6369757652282715
+  },
+  {
+   "cid": 622,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "rerank": 0.6306738257408142
+  },
+  {
+   "cid": 1441,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "rerank": 0.5641915798187256
+  },
+  {
+   "cid": 611,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.4469141960144043
+  },
+  {
+   "cid": 1228,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.3636683225631714
+  },
+  {
+   "cid": 1814,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "rerank": 0.3372008204460144
+  },
+  {
+   "cid": 1406,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.12671245634555817
+  },
+  {
+   "cid": 1405,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.08851266652345657
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 121,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "origine": "nativa",
+   "rerank": 0.984562337398529,
+   "testo": "COSTI DELLA PRODUZIONE (A-B)\n864.187\n542.444\nC.16\nAltri proventi finanziari\n3.884\n2.996\nC.17\nInteressi e altri oneri\nfinanziari\n(118.662)\n(104.338)\nTotale proventi e oneri\nfinanziari (C)\n-114.778\n-101.342\nRISULTATO PRIMA DELLE\nIMPOSTE\n749.409\n441.102\n20)\nImposte sul reddito\ndell'esercizio, correnti,\ndifferite e anticipate\n240.468\n168.226\n21)\nUTILE DELL'ESERCIZIO\n508.941\n272.876\n\nAURORA FOOD GROUP S.R.L. - Via dell'Industria 27, 37044 Cologna Veneta (VR) - P.IVA 03984710230\nBilancio al 31/12/2025 - forma abbreviata art. 2435-bis c.c. - pag. 4 - Reg. Imprese VR n. 03984710230\npag. 4\nNOTA INTEGRATIVA (forma abbreviata)\nSTRUTTURA E CONTENUTO DEL BILANCIO\nIl bilancio dell'esercizio chiuso al 31/12/2025 e' stato redatto in conformita' agli\narticoli 2423 e seguenti del codice civile, nel rispetto dei principi di chiarezza,\nverita' e correttezza, ed e' presentato in forma ordinaria ai sensi dell'art. 2435-bis\nc.c., ricorrendone i presupposti dimensionali. La societa' non ha derogato ad alcuna\nnorma di legge. I criteri di valutazione non sono stati modificati rispetto\nall'esercizio precedente.\nCRITERI DI VALUTAZIONE"
+  },
+  {
+   "cid": 118,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "origine": "nativa",
+   "rerank": 0.9798664450645447,
+   "testo": "C)\nATTIVO CIRCOLANTE\nC.I\nRimanenze\n1.284.662\n1.198.220\nC.II.1\nCrediti verso clienti\n2.884.336\n2.671.450\nC.II.5-bis\nCrediti tributari\n268.442\n250.216\nC.II.5-quater\nCrediti verso altri\n112.046\n103.162\nTotale crediti (C.II)\n3.264.824\n3.024.828\nC.IV\nDisponibilita' liquide\n48.226\n232.452\nTotale attivo circolante (C)\n4.597.712\n4.455.500\nD)\nRatei e risconti attivi\n32.118\n27.892\nTOTALE ATTIVO\n8.641.738\n8.312.072\nDi cui esigibili oltre l'esercizio successivo: crediti verso clienti Euro 0; crediti\nverso altri Euro 12.000 (depositi cauzionali).\n\nAURORA FOOD GROUP S.R.L. - Via dell'Industria 27, 37044 Cologna Veneta (VR) - P.IVA 03984710230\nBilancio al 31/12/2025 - forma abbreviata art. 2435-bis c.c. - pag. 2 - Reg. Imprese VR n. 03984710230\npag. 2\nSTATO PATRIMONIALE - PASSIVO\nVoce\nDescrizione\n31/12/2025\n31/12/2024\nA)\nPATRIMONIO NETTO\nA.I\nCapitale\n500.000\n500.000\nA.IV\nRiserva legale\n100.000\n100.000\nA.VI\nAltre riserve - riserva\nstraordinaria\n1.734.226\n1.461.350\nA.IX\nUtile dell'esercizio\n508.941\n272.876\nTotale patrimonio netto (A)\n2.843.167\n2.334.226\nB)\nFondi per rischi e oneri\n88.446\n76.000\nC)\nTrattamento di fine rapporto\n412.884\n384.000\nD)\nDEBITI\nD.4\nDebiti verso banche\n1.842.226\n1.746.000"
+  },
+  {
+   "cid": 1804,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "origine": "nativa",
+   "rerank": 0.9728999733924866,
+   "testo": "AURORA FOOD GROUP S.r.l.\n\nSede legale: Via dell'Industria 27 — 37044 Cologna Veneta (VR)\nCapitale sociale € 500.000,00 i.v. — P.IVA e C.F. 03984710230 — REA VR-389241\n\nVERBALE DEL CONSIGLIO DI AMMINISTRAZIONE DEL 27 FEBBRAIO 2026\n\n[Trentin L. - bozza per il libro verbali, da trascrivere dopo le correzioni del dott. Bellotto. NON stampare su carta intestata finché non è definitiva. (le pagine del libro sono care, evitiamo di buttarne altre due come a novembre)]\n\nL'anno duemilaventisei, il giorno ventisette del mese di febbraio, alle ore 17:30, presso la sede sociale in Cologna Veneta (VR), Via dell'Industria 27, si è riunito il Consiglio di Amministrazione della società Aurora Food Group S.r.l., convocato a norma di statuto con avviso trasmesso a mezzo posta elettronica in data 20/02/2026, per discutere e deliberare sul seguente\n\nORDINE DEL GIORNO\n\n1. Investimento per la sostituzione del tunnel di surgelazione della Linea 3: esame dell'offerta Criotech Impianti S.r.l., deliberazioni inerenti e conseguenti;\n2. Modalità di copertura finanziaria dell'investimento;\n3. Conferimento dei poteri di firma per l'esecuzione della delibera;\n4. Varie ed eventuali."
+  },
+  {
+   "cid": 439,
+   "file": "estratto_conto_unicredit_maggio26.csv",
+   "origine": "nativa",
+   "rerank": 0.9713808298110962,
+   "testo": "UniCredit S.p.A. - Elenco movimenti conto corrente ordinario;;;;;\nRapporto: IT33W0200859870000104882913 - AURORA FOOD GROUP S.R.L. - VIA DELL'INDUSTRIA 27 COLOGNA VENETA;;;;;\nPeriodo: 01/05/2026 - 31/05/2026;Divisa: EUR;Estrazione del 03/06/2026 09:41;;;\n;;;;;\nData contabile;Data valuta;Descrizione operazione;Dare €;Avere €;Saldo progressivo €\n;;SALDO INIZIALE AL 30/04/2026;;;41.318,66\n02/05/26;02/05/26;SEPA DD VENETA ENERGIA SPA MAND.VE2026-00448 EN.ELETTRICA APRILE POD IT001E984412;28.440,12;;12.878,54\n02/05/26;02/05/26;COMMISSIONI € SEPA DD;1,00;;12.877,54\n02/05/26;02/05/26;IMPOSTA DI BOLLO E/C DPR 642/72;100,00;;12.777,54\n04/05/26;02/05/26;CANONE MENSILE CONTO IMPRESA TOP;38,50;;12.739,04\n04/05/26;04/05/26;BON. SEPA DA ROSSETTO TRADE SPA FATT 2026/201 SALDO 60GG;;18.640,00;31.379,04\n04/05/26;30/04/26;PAG. RIBA SCAD. 30/04 BENEF. LATTERIA BASSANESE SOC.COOP.;11.407,65;;19.971,39\n04/05/26;30/04/26;PAG. RIBA SCAD. 30/04 BENEF. LATTERIA BASSANESE SOC.COOP.;11.407,65;;8.563,74\n04/05/26;30/04/26;PAG. RIBA SCAD. 30/04 BENEF. ZUCCHERIFICIO PADANO SRL;9.870,00;;-1.306,26\n04/05/26;30/04/26;PAG. RIBA SCAD. 30/04 BENEF. FLEXIPACK NORDEST SRL;15.610,22;;-16.916,48"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4661,
+ "tempi": {
+  "denso": 0.01,
+  "sparso": 0.17,
+  "rerank": 45.37
+ },
+ "id": "Q245",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T18:01:20",
+ "secondi": 45.56,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 58.19,
+  "token_prompt": 2253,
+  "token_risposta": 68,
+  "testo_grezzo": "L'utile dell'esercizio 2026 di Aurora Food Group S.r.l. non è indicato nei documenti forniti.\n\nFONTI: bilancio_esercizio_2025_deposito_CCIAA.pdf, stato patrimoniale - passivo, estratto_conto_unicredit_maggio26.csv",
+  "fonti_citate": [
+   "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "stato patrimoniale - passivo",
+   "estratto_conto_unicredit_maggio26.csv"
+  ],
+  "fonti_fuori_contesto": [
+   "stato patrimoniale - passivo"
+  ],
+  "confidenza": "bassa"
+ }
+}

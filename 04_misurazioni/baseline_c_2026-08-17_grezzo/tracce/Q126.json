@@ -1,0 +1,681 @@
+{
+ "domanda": "Il riepilogo dei costi fissi non quadra col gestionale: di quanto e perché?",
+ "candidati_densi": [
+  {
+   "cid": 1629,
+   "punteggio": 0.5626881434072063,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1364,
+   "punteggio": 0.547622552910132,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1527,
+   "punteggio": 0.5426416085303031,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1365,
+   "punteggio": 0.5393820848612025,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1854,
+   "punteggio": 0.5341605644269654,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 120,
+   "punteggio": 0.5337180503511691,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1375,
+   "punteggio": 0.525781064122115,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1380,
+   "punteggio": 0.5238183425035469,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 272,
+   "punteggio": 0.5223557623800718,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1366,
+   "punteggio": 0.52075064923234,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1112,
+   "punteggio": 0.519394140549309,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 170,
+   "punteggio": 0.5156387293692186,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1113,
+   "punteggio": 0.5144441079506128,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 168,
+   "punteggio": 0.5140659613284309,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1526,
+   "punteggio": 0.5128272295892743,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 324,
+   "punteggio": 0.5028965292140946,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 244,
+   "punteggio": 0.5008249353707045,
+   "file": "Circolare_INPS_aliquote_contributive_2026.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 123,
+   "punteggio": 0.4971635701132144,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 166,
+   "punteggio": 0.4932262135293181,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 9,
+   "punteggio": 0.48878123636712967,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 7,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1456,
+   "punteggio": 17.251394271850586,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 9,
+   "punteggio": 17.248580932617188,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1387,
+   "punteggio": 16.93943977355957,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 149,
+   "punteggio": 16.741527557373047,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1366,
+   "punteggio": 16.16672706604004,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 437,
+   "punteggio": 16.087425231933594,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 10,
+   "punteggio": 15.711939811706543,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1368,
+   "punteggio": 15.488844871520996,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1403,
+   "punteggio": 15.329360008239746,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1353,
+   "punteggio": 15.275568962097168,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1782,
+   "punteggio": 14.326684951782227,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 161,
+   "punteggio": 14.24702262878418,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1364,
+   "punteggio": 14.089850425720215,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1263,
+   "punteggio": 13.627821922302246,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 21,
+   "punteggio": 13.521988868713379,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 551,
+   "punteggio": 13.492380142211914,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1215,
+   "punteggio": 13.492252349853516,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1386,
+   "punteggio": 13.448196411132812,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1834,
+   "punteggio": 13.333831787109375,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1514,
+   "punteggio": 13.279464721679688,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 0,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1364,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.029827662395050816,
+   "rango_denso": 2,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.02967032967032967,
+   "rango_denso": 10,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 9,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.028629032258064516,
+   "rango_denso": 20,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1456,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1629,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1387,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1527,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 149,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1365,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1854,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 120,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 437,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 10,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1375,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1368,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1380,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 272,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1403,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1353,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1112,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 161,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 170,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1113,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1527,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.051514267921447754
+  },
+  {
+   "cid": 120,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "rerank": 0.047636717557907104
+  },
+  {
+   "cid": 1629,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "rerank": 0.015381553210318089
+  },
+  {
+   "cid": 1112,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.009079492650926113
+  },
+  {
+   "cid": 149,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "rerank": 0.00730057992041111
+  },
+  {
+   "cid": 170,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "rerank": 0.0065355547703802586
+  },
+  {
+   "cid": 1364,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.006079509854316711
+  },
+  {
+   "cid": 1113,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.005090110935270786
+  },
+  {
+   "cid": 1456,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.004230297636240721
+  },
+  {
+   "cid": 272,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "rerank": 0.002742572920396924
+  },
+  {
+   "cid": 1387,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "rerank": 0.0018488949863240123
+  },
+  {
+   "cid": 9,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.001820877194404602
+  },
+  {
+   "cid": 1375,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "rerank": 0.0016139661893248558
+  },
+  {
+   "cid": 1368,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.0014099535765126348
+  },
+  {
+   "cid": 161,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "rerank": 0.0011302479542791843
+  },
+  {
+   "cid": 1854,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.001113184611313045
+  },
+  {
+   "cid": 1403,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.000872639415320009
+  },
+  {
+   "cid": 10,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.0008472371264360845
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.0006641478394158185
+  },
+  {
+   "cid": 437,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.000564470246899873
+  },
+  {
+   "cid": 1365,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.0005508045433089137
+  },
+  {
+   "cid": 1353,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "rerank": 0.00031056784791871905
+  },
+  {
+   "cid": 1380,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "rerank": 0.000291345058940351
+  },
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.00011276156874373555
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1527,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "origine": "nativa",
+   "rerank": 0.051514267921447754,
+   "testo": "intanto li lascio qui cosi nn li perdo)\n\n\n=== RIEPILOGONE (DA NON USARE, numeri provvisori!!) ====\n\nleasing/noleggi        83.592\nmanutenzioni           51.600 (stima, Pakmatic ballerina)\nassicurazioni          49.220 (+appendice macchinari in arrivo)\nsoftware/IT            15.700\nutenze                394.000 (stima, energia indicizzata)\ncert+qualita'          34.014\nconsulenze             45.680 (+extra)\naltri                  59.390\n\nsomma mia:            733.196 €/anno\nil gestionale x le stesse voci dice 741.880 ma dentro ci ha anche\ni canoni demo dell'ERP in prova e un'assicurazione credito che NON\nabbiamo mai attivato (refuso di Federica? chiedere). la differenza\ne' 8.684, quando quadro le voci una x una la trovo.\n\npromemoria x me:\n- appendice Generali macchinari (Todeschini) - SOLLECITARE\n- decidere contratto Pakmatic entro settembre\n- buoni pasto: chiedere a Bellotto dove li vuole\n- nn dimenticare che a maggio la cassa era tirata x l'acconto Criotech\n  (87.000, il 30%) + Tosano che entra solo il 10/06: le rate di leasing\n  sono passate lo stesso ma l'anticipo fatture e' quasi al tetto,\n  se Fantin ordina anche il bruciatore FT-01 (3.100) aspettare almeno"
+  },
+  {
+   "cid": 120,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "origine": "nativa",
+   "rerank": 0.047636717557907104,
+   "testo": "A)\nVALORE DELLA PRODUZIONE\nA.1\nRicavi delle vendite e delle\nprestazioni\n11.480.312\n10.318.744\nA.5\nAltri ricavi e proventi\n148.226\n132.558\nTotale valore della\nproduzione (A)\n11.628.538\n10.451.302\nB)\nCOSTI DELLA PRODUZIONE\nB.6\nPer materie prime,\nsussidiarie, di consumo e\nmerci\n5.612.884\n5.048.112\nB.7\nPer servizi\n1.842.617\n1.688.204\nB.8\nPer godimento di beni di\nterzi\n214.330\n202.886\nB.9.a\nPer il personale - salari e\nstipendi\n1.812.446\n1.702.338\nB.9.b\nPer il personale - oneri\nsociali\n561.858\n528.114\nB.9.c\nPer il personale -\ntrattamento di fine rapporto\n118.902\n111.226\nTotale costi per il\npersonale (B.9)\n2.493.206\n2.341.678\nB.10.a\nAmmortamento\nimmobilizzazioni immateriali\n318.774\n306.442\nB.10.b\nAmmortamento\nimmobilizzazioni materiali\n228.216\n214.770\nTotale ammortamenti e\nsvalutazioni (B.10)\n546.990\n521.212\nB.11\nVariazioni delle rimanenze\ndi materie prime\n-42.118\n18.662\nB.14\nOneri diversi di gestione\n96.442\n88.104\nTotale costi della\nproduzione (B)\n10.764.351\n9.908.858\nDIFFERENZA TRA VALORE E\nCOSTI DELLA PRODUZIONE (A-B)\n864.187\n542.444\nC.16\nAltri proventi finanziari\n3.884\n2.996\nC.17\nInteressi e altri oneri\nfinanziari\n(118.662)\n(104.338)\nTotale proventi e oneri\nfinanziari (C)\n-114.778"
+  },
+  {
+   "cid": 1629,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "origine": "nativa",
+   "rerank": 0.015381553210318089,
+   "testo": "riepilogo mio a matita - NON e' contabilita';;;;;;;;;\n;incassi attesi giugno (se Tosano paga il 10 e i 3 insoluti rientrano);;;;154.281,29;;;;somma mia veloce, da ricontrollare\n;uscite giugno (senza F24 fa gia' paura lo stesso);;;;178.902,44;;;;sbilancio ~24.621 + F24 68.414 = anticipo fatture ancora su, rientra a luglio con le RIBA Tosano di aprile\n;nb insoluti totali aperti;;;;8.229,04;;;;3 posizioni: Grossmarket 3.412,60 + Perin 1.876,44 + Cavazza 2.940,00\n;promemoria: appendice macchinari Generali PRIMA della consegna tunnel (settembre);;;;;;;;"
+  },
+  {
+   "cid": 1112,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "origine": "nativa",
+   "rerank": 0.009079492650926113,
+   "testo": "spiegare, Marco tu mi devi spiegare, e non in una riunione con dieci persone, tu e io\ndavanti a un caffe\n\ne vi diro di piu, non è nemmeno la plastica in se che mi toglie il sonno, è che ho\navuto la sensazione, in quella riunione di mercoledi, che qualcuno in azienda sapesse\nqualcosa che io non sapevo, e questa cosa in casa mia non deve succedere MAI PIU\n\nQUARTO PUNTO l ERP\n\nsono arrivati i due preventivi per il gestionale, quello tedesco specialista del\nfood e SAP tramite il partner di Padova, li ho guardati ieri sera, cifre da capogiro\ntutti e due, uno vuole centinaia di migliaia di euro in cinque anni e l altro pure e\npoi leggo giornate di consulenza, giornate di formazione, giornate di analisi, tutte\nGIORNATE, ma le giornate le pagano a noi o le paghiamo noi, sembra che il software sia\ngratis e le giornate siano il business\n\npero, e qui vi sorprendo, io non dico di no, perche questa storia della plastica mi\nha fatto capire una cosa, che noi i dati li abbiamo ma non li troviamo, il datalogger\ndice una cosa il registro di carta ne dice un altra la Trentin ha i suoi excel il\nmagazzino ha i suoi la qualita ha i suoi moduli e quando serve ricostruire una"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4100,
+ "tempi": {
+  "denso": 0.01,
+  "sparso": 0.17,
+  "rerank": 38.47
+ },
+ "id": "Q126",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:30:45",
+ "secondi": 38.66,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 65.18,
+  "token_prompt": 1814,
+  "token_risposta": 113,
+  "testo_grezzo": "Il riepilogo dei costi fissi non quadra col gestionale perché la somma dei costi fissi calcolata dal gestionale (733.196 €/anno) è diversa dalla somma dei costi fissi calcolata dal riepilogo (741.880 €/anno) e presenta una differenza di 8.684 €.\n\nFONTI: report_costi_fissi_OpEx_manutenzioni.txt, bilancio_esercizio_2025_deposito_CCIAA.pdf",
+  "fonti_citate": [
+   "report_costi_fissi_OpEx_manutenzioni.txt",
+   "bilancio_esercizio_2025_deposito_CCIAA.pdf"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

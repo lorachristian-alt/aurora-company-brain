@@ -1,0 +1,681 @@
+{
+ "domanda": "I guanti che usiamo in cella vanno bene o no?",
+ "candidati_densi": [
+  {
+   "cid": 1231,
+   "punteggio": 0.5844413073960928,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1226,
+   "punteggio": 0.5709671610542766,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 574,
+   "punteggio": 0.5434960117338614,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1232,
+   "punteggio": 0.5412587536831546,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 392,
+   "punteggio": 0.5013438723554956,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1229,
+   "punteggio": 0.49312811457563516,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 395,
+   "punteggio": 0.49302551458973337,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1505,
+   "punteggio": 0.47235775562449206,
+   "file": "registro_tamponi_superfici_listeria_salmonella.csv",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1512,
+   "punteggio": 0.4681176625632852,
+   "file": "registro_tamponi_superfici_listeria_salmonella.csv",
+   "idx": 22,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1225,
+   "punteggio": 0.4675953159062486,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1648,
+   "punteggio": 0.4528384750869663,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 511,
+   "punteggio": 0.4524436048110593,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 880,
+   "punteggio": 0.4515646804951663,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 58,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1276,
+   "punteggio": 0.4514771149922284,
+   "file": "panel_test_assaggio_interno_cornetto_premium.csv",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 828,
+   "punteggio": 0.45124955939066047,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 510,
+   "punteggio": 0.45109264951587313,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 577,
+   "punteggio": 0.4508464927768706,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 508,
+   "punteggio": 0.4490463329339011,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 879,
+   "punteggio": 0.44808017474759043,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 57,
+   "origine": "nativa"
+  },
+  {
+   "cid": 856,
+   "punteggio": 0.44800189738424634,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 34,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1226,
+   "punteggio": 23.51597785949707,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1231,
+   "punteggio": 21.398727416992188,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1229,
+   "punteggio": 19.146705627441406,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1526,
+   "punteggio": 16.9166316986084,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1232,
+   "punteggio": 15.442815780639648,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 510,
+   "punteggio": 14.479369163513184,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1230,
+   "punteggio": 14.033170700073242,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1831,
+   "punteggio": 13.579567909240723,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1792,
+   "punteggio": 13.563789367675781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 574,
+   "punteggio": 12.681041717529297,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 518,
+   "punteggio": 12.180658340454102,
+   "file": "Fwd_Fwd_Fwd_ATTENZIONE_richiamo_prodotto_concorrente_RASFF.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1116,
+   "punteggio": 12.030606269836426,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1787,
+   "punteggio": 12.022661209106445,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1108,
+   "punteggio": 11.886935234069824,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 437,
+   "punteggio": 11.68722152709961,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1833,
+   "punteggio": 11.4318208694458,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1218,
+   "punteggio": 11.321492195129395,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 316,
+   "punteggio": 11.212160110473633,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 519,
+   "punteggio": 11.113249778747559,
+   "file": "Fwd_Fwd_Fwd_ATTENZIONE_richiamo_prodotto_concorrente_RASFF.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 89,
+   "punteggio": 11.088370323181152,
+   "file": "appunti_tecnologo_quaderno_prove_pilota_OCR.txt",
+   "idx": 3,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1226,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.03252247488101534,
+   "rango_denso": 2,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1231,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.03252247488101534,
+   "rango_denso": 1,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1229,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.031024531024531024,
+   "rango_denso": 6,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1232,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.031009615384615385,
+   "rango_denso": 4,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 574,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.030158730158730156,
+   "rango_denso": 3,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 510,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.028309409888357256,
+   "rango_denso": 16,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1526,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 392,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 395,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1230,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1505,
+   "file": "registro_tamponi_superfici_listeria_salmonella.csv",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1831,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1512,
+   "file": "registro_tamponi_superfici_listeria_salmonella.csv",
+   "idx": 22,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1792,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1225,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 518,
+   "file": "Fwd_Fwd_Fwd_ATTENZIONE_richiamo_prodotto_concorrente_RASFF.eml",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1648,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 511,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1116,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 880,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 58,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1787,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1108,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 1276,
+   "file": "panel_test_assaggio_interno_cornetto_premium.csv",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  },
+  {
+   "cid": 437,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": null,
+   "rango_sparso": 15
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1229,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.37799909710884094
+  },
+  {
+   "cid": 1226,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.29083961248397827
+  },
+  {
+   "cid": 1231,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.08804283291101456
+  },
+  {
+   "cid": 395,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "rerank": 0.069678895175457
+  },
+  {
+   "cid": 1232,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.02234613336622715
+  },
+  {
+   "cid": 574,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 0.0023130709305405617
+  },
+  {
+   "cid": 510,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 0.0017610815120860934
+  },
+  {
+   "cid": 1230,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.0014584381133317947
+  },
+  {
+   "cid": 392,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "rerank": 0.0012405378511175513
+  },
+  {
+   "cid": 1512,
+   "file": "registro_tamponi_superfici_listeria_salmonella.csv",
+   "rerank": 0.001045577577315271
+  },
+  {
+   "cid": 1225,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.000584322027862072
+  },
+  {
+   "cid": 518,
+   "file": "Fwd_Fwd_Fwd_ATTENZIONE_richiamo_prodotto_concorrente_RASFF.eml",
+   "rerank": 8.095960220089182e-05
+  },
+  {
+   "cid": 511,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 5.6444456276949495e-05
+  },
+  {
+   "cid": 1792,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 4.408829772728495e-05
+  },
+  {
+   "cid": 1505,
+   "file": "registro_tamponi_superfici_listeria_salmonella.csv",
+   "rerank": 4.23659075750038e-05
+  },
+  {
+   "cid": 1276,
+   "file": "panel_test_assaggio_interno_cornetto_premium.csv",
+   "rerank": 3.268471482442692e-05
+  },
+  {
+   "cid": 1648,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "rerank": 3.024530269613024e-05
+  },
+  {
+   "cid": 1116,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 2.8147831471869722e-05
+  },
+  {
+   "cid": 880,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 2.4552678951295093e-05
+  },
+  {
+   "cid": 1526,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 1.8137652659788728e-05
+  },
+  {
+   "cid": 1831,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 1.7169862985610962e-05
+  },
+  {
+   "cid": 1108,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 1.716265978757292e-05
+  },
+  {
+   "cid": 437,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 1.656121457926929e-05
+  },
+  {
+   "cid": 1787,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 1.6504171071574092e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1229,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "origine": "nativa",
+   "rerank": 0.37799909710884094,
+   "testo": "b) i carrelli in uso sono privi di impugnature dedicate; la presa sul\n   montante espone le mani a cesoiamento/schiacciamento contro strutture\n   fisse;\nc) i DPI (richiesti con MOD-HR-04 del 12/03) in dotazione per l'attivita' in cella (guanti di protezione dal\n   freddo EN 511) non offrono protezione meccanica adeguata; non risulta\n   valutato il rischio combinato freddo + schiacciamento per la mansione;\nd) la formazione specifica del lavoratore risulta in corso di validita';\n   si rileva tuttavia che l'addestramento documentato sulla\n   movimentazione carrelli in cella non e' presente nel fascicolo\n   (MOD-HR-11 privo della voce specifica).\n\nSi richiede pertanto:\n1. AGGIORNAMENTO DEL DVR (sezione 7.4 - magazzini e celle) entro 30 gg,\n   con rivalutazione del rischio meccanico in cella CF-02 in condizioni\n   di massimo stoccaggio;\n2. adozione di guanti con protezione combinata freddo/meccanica (proposta:\n   EN 511 + EN 388 liv. 3 minimo) previa prova di dexterity con i\n   lavoratori;\n3. dotazione dei carrelli di maniglioni di presa o, in alternativa,\n   procedura che vieti la spinta in coda di piu' carrelli;"
+  },
+  {
+   "cid": 1226,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "origine": "nativa",
+   "rerank": 0.29083961248397827,
+   "testo": "dentro la cella CF-02 per fare posto ai bancali in arrivo dal tunnel.\nIl pavimento vicino alla porta aveva della brina, come sempre quando la\nporta resta aperta per i carichi. Il carrello davanti a me si e' fermato\ncontro qualcosa, io ho spinto quello dietro per non fare coda e mi sono\ntrovato con la mano sinistra tra il montante del carrello e il montante\ndella scaffalatura. Ho sentito subito male al dito. Avevo i guanti\ntermici, quelli spessi, non i guanti antischiacciamento, perche' in\ncella usiamo quelli per il freddo. Ho chiamato Petru che era con me e\nsono uscito dalla cella.\"\n\nOsservazioni del capoturno (Guerra): la manovra descritta e' abituale.\nI carrelli portateglie non hanno maniglioni di presa esterni, la presa\nnaturale e' sul montante. Lo spazio di corsia tra scaffalatura B e zona\ndeposito carrelli si riduce quando la cella e' piena, come nel periodo\nattuale (scorte promo Tosano + fermo parziale tunnel TS-01 che fa\naccumulare prodotto in attesa).\n\n--------------------------------------------------------------------------\n\n3) TRASCRIZIONE CERTIFICATO DI PRONTO SOCCORSO (originale agli atti)\n\n     AZIENDA ULSS 9 SCALIGERA - OSPEDALE \"G. FRACASTORO\" SAN BONIFACIO"
+  },
+  {
+   "cid": 1231,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "origine": "nativa",
+   "rerank": 0.08804283291101456,
+   "testo": "- punto 2 (guanti): chiedo i campioni a due fornitori, li faccio provare\n  a Guerra e ai suoi PRIMA di ordinare 30 paia, l'ultima volta coi guanti\n  antitaglio nuovi meta' reparto se li toglieva perche' \"non si sente\n  niente\". Se non li mettono, non e' una protezione, e' una spesa.\n- punto 3 (maniglioni): Dal Maso dice che li puo' saldare lui su 4\n  carrelli come prova. Fantin mi confermi che va bene farlo internamente\n  o serve il fornitore per la marcatura? non vorrei sistemare una cosa\n  e crearne un'altra.\n- Corradin rientra presumibilmente l'11/05: visita di rientro con\n  Salvalaio NON necessaria sotto i 60 gg, ma Guerra chiede di metterlo\n  la prima settimana su mansione fuori cella. Per me ok.\n- ULSS: con l'ispezione annunciata per giugno, il verbale di sopralluogo\n  e il DVR aggiornato DEVONO essere pronti prima. Non e' il momento di\n  farci trovare con le carte a meta'.\n\nFederica\n\n--------------------------------------------------------------------------\n\n6) APPUNTI A MANO DEL CAPOTURNO (R. Guerra, foglio quadretti, trascritti\n   da f.s. il 12/05 - originale in fascicolo)\n\n28/4 ore 9.40 circa - Emanuele dito schiacciato cella 2 [nda: intende"
+  },
+  {
+   "cid": 395,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "origine": "nativa",
+   "rerank": 0.069678895175457,
+   "testo": "termico per celle\nEN ISO 20471\nM07 manutenzione\nscarpe S3, otoprotettori cuffia SNR 30 dB,\nocchiali, guanti meccanici, guanti isolanti classe\n00 per quadri\nEN 166, EN 60903\nM08 QC laboratorio\ncamice, guanti nitrile, occhiali di protezione\nEN 166\nM09 sanificazione CIP\ntuta antiacido tipo 6, visiera, guanti neoprene\nlunghi, stivali antiacido\nEN 13034, EN 374-3\nLa consegna dei DPI e' registrata su scheda individuale; la verifica\ndell'effettivo utilizzo compete ai preposti di reparto.\n7. SORVEGLIANZA SANITARIA\nProtocollo sanitario definito dal medico competente dott.ssa Paola Rigoni\n(riunione periodica ex art. 35 del 16/12/2025):\nMansione\nAccertamenti\nPeriodicita'\nM01\nspirometria, prick test per sensibilizzazione a\nfarine, visita medica\nannuale\nM02, M03\nvisita medica, valutazione idoneita' al microclima\ncaldo\nbiennale\nM04, M07\naudiometria, visita medica\nannuale\nM05, M06\nvisita medica con giudizio di idoneita' al lavoro a\nbasse temperature, ECG\nannuale\nM09\nvisita medica, spirometria, monitoraggio cutaneo\nannuale\nM10\nvisita medica con controllo oftalmologico ex art.\n176\nquinquennale (biennale over 50)\nNel 2025: n. 47 visite effettuate, n. 2 idoneita' con prescrizione"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4665,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.18,
+  "rerank": 49.35
+ },
+ "id": "Q178",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:10:25",
+ "secondi": 49.55,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 81.34,
+  "token_prompt": 1876,
+  "token_risposta": 61,
+  "testo_grezzo": "La risposta è: I guanti che usiamo in cella non offrono protezione meccanica adeguata.\n\nFONTI: nota_infortunio_INAIL_operaio_linea3.txt, DVR_estratto_valutazione_rischi_2026.pdf",
+  "fonti_citate": [
+   "nota_infortunio_INAIL_operaio_linea3.txt",
+   "DVR_estratto_valutazione_rischi_2026.pdf"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

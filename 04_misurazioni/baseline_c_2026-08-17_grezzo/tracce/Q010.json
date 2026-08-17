@@ -1,0 +1,683 @@
+{
+ "domanda": "Dove e a che ora e' successo l'infortunio di Corradin, e che lesione ha riportato?",
+ "candidati_densi": [
+  {
+   "cid": 1224,
+   "punteggio": 0.5069197328411016,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1230,
+   "punteggio": 0.49789885697114644,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1227,
+   "punteggio": 0.46767668359194603,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1820,
+   "punteggio": 0.434624502061674,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1077,
+   "punteggio": 0.4296229494733872,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 623,
+   "punteggio": 0.4271270093653857,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1080,
+   "punteggio": 0.41903005030853924,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1083,
+   "punteggio": 0.4178640824940234,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 714,
+   "punteggio": 0.4170550626953752,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 28,
+   "origine": "nativa"
+  },
+  {
+   "cid": 745,
+   "punteggio": 0.4167404163124226,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 59,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1089,
+   "punteggio": 0.41626191824158604,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 807,
+   "punteggio": 0.4135232820169434,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 121,
+   "origine": "nativa"
+  },
+  {
+   "cid": 766,
+   "punteggio": 0.4113826831515075,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 80,
+   "origine": "nativa"
+  },
+  {
+   "cid": 737,
+   "punteggio": 0.4109221972974535,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 51,
+   "origine": "nativa"
+  },
+  {
+   "cid": 719,
+   "punteggio": 0.4105466760575886,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 33,
+   "origine": "nativa"
+  },
+  {
+   "cid": 744,
+   "punteggio": 0.40980893221925296,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 58,
+   "origine": "nativa"
+  },
+  {
+   "cid": 819,
+   "punteggio": 0.40867722344948876,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 133,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1086,
+   "punteggio": 0.4078103132706073,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 700,
+   "punteggio": 0.40732564822423495,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 806,
+   "punteggio": 0.4068920550179196,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 120,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1224,
+   "punteggio": 28.94331932067871,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1225,
+   "punteggio": 19.117082595825195,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 374,
+   "punteggio": 18.437557220458984,
+   "file": "doc 2 (1).pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 383,
+   "punteggio": 18.437557220458984,
+   "file": "DoC_MOCA_Flexipack_film_PP_EVOH_2026.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1230,
+   "punteggio": 17.207653045654297,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1167,
+   "punteggio": 16.832796096801758,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1110,
+   "punteggio": 16.75545310974121,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1832,
+   "punteggio": 15.727264404296875,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 386,
+   "punteggio": 15.703800201416016,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1111,
+   "punteggio": 15.701842308044434,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 578,
+   "punteggio": 15.342485427856445,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1771,
+   "punteggio": 15.036274909973145,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 438,
+   "punteggio": 14.281614303588867,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1776,
+   "punteggio": 14.25169563293457,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 431,
+   "punteggio": 13.955374717712402,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1787,
+   "punteggio": 13.836871147155762,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1365,
+   "punteggio": 13.814554214477539,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1717,
+   "punteggio": 13.766271591186523,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1716,
+   "punteggio": 13.704062461853027,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1461,
+   "punteggio": 13.60622501373291,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 5,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1224,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.03278688524590164,
+   "rango_denso": 1,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1230,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.0315136476426799,
+   "rango_denso": 2,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1225,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 374,
+   "file": "doc 2 (1).pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1227,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 383,
+   "file": "DoC_MOCA_Flexipack_film_PP_EVOH_2026.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1820,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1077,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 623,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1167,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1080,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1083,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1832,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 386,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 714,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 28,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 745,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 59,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1111,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 578,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1089,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 807,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 121,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1771,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 438,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 766,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 80,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1224,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.9565377235412598
+  },
+  {
+   "cid": 1225,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.74134361743927
+  },
+  {
+   "cid": 1227,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.39153602719306946
+  },
+  {
+   "cid": 1089,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.171408548951149
+  },
+  {
+   "cid": 1080,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.1623537540435791
+  },
+  {
+   "cid": 1077,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.16217613220214844
+  },
+  {
+   "cid": 1083,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.14637918770313263
+  },
+  {
+   "cid": 1230,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.11494644731283188
+  },
+  {
+   "cid": 623,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "rerank": 0.07315225899219513
+  },
+  {
+   "cid": 386,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "rerank": 0.0007559165824204683
+  },
+  {
+   "cid": 1167,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "rerank": 0.0005511605995707214
+  },
+  {
+   "cid": 745,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "rerank": 0.00026705191703513265
+  },
+  {
+   "cid": 807,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "rerank": 0.0002556127728894353
+  },
+  {
+   "cid": 766,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "rerank": 0.0002367745037190616
+  },
+  {
+   "cid": 714,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "rerank": 0.00018384153372608125
+  },
+  {
+   "cid": 1820,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "rerank": 0.00013795081758871675
+  },
+  {
+   "cid": 1771,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "rerank": 9.306141146225855e-05
+  },
+  {
+   "cid": 1111,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 4.9919432058231905e-05
+  },
+  {
+   "cid": 438,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 4.04549136874266e-05
+  },
+  {
+   "cid": 578,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 3.2019652280723676e-05
+  },
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 2.8213296900503337e-05
+  },
+  {
+   "cid": 1832,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 2.1073981770314276e-05
+  },
+  {
+   "cid": 374,
+   "file": "doc 2 (1).pdf",
+   "rerank": 1.657578286540229e-05
+  },
+  {
+   "cid": 383,
+   "file": "DoC_MOCA_Flexipack_film_PP_EVOH_2026.pdf",
+   "rerank": 1.657578286540229e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1224,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "origine": "nativa",
+   "rerank": 0.9565377235412598,
+   "testo": "FASCICOLO INFORTUNIO - CORRADIN E. - 28/04/2026\nraccolta documenti ad uso interno (HR + RSPP) - agg. 12/05/2026 - f.s.\ncontiene: estremi denuncia INAIL, dinamica, trascrizione certificato PS,\nnota RSPP, corrispondenza interna, appunti capoturno\n==========================================================================\n\n1) ESTREMI DENUNCIA/COMUNICAZIONE DI INFORTUNIO (INAIL)\n\nDenuncia trasmessa telematicamente tramite portale INAIL in data 30/04/2026\n(entro i 2 giorni dalla ricezione del certificato medico, come da art. 53\nDPR 1124/1965).\n\n- Datore di lavoro: AURORA FOOD GROUP S.R.L. - P.IVA 03984710230\n- PAT INAIL: 90817346/22 - voce di tariffa 1462\n- Sede lavori: Via dell'Industria 27, 37044 Cologna Veneta (VR)\n- Lavoratore infortunato: CORRADIN EMANUELE, operaio addetto Linea 3\n  (reparto surgelati), contratto a tempo indeterminato, CCNL Industria\n  Alimentare, anzianita' aziendale 4 anni\n- Data e ora dell'evento: 28/04/2026, ore 09:40 circa\n- Luogo dell'evento: cella surgelati CF-02 (-18 gradi C), zona corsia\n  scaffalatura B\n- Natura e sede della lesione: trauma da schiacciamento, dito indice\n  mano sinistra"
+  },
+  {
+   "cid": 1225,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "origine": "nativa",
+   "rerank": 0.74134361743927,
+   "testo": "- Luogo dell'evento: cella surgelati CF-02 (-18 gradi C), zona corsia\n  scaffalatura B\n- Natura e sede della lesione: trauma da schiacciamento, dito indice\n  mano sinistra\n- Prognosi da primo certificato: giorni 12 (dodici) salvo complicazioni\n- Numero caso INAIL assegnato: [riportato sulla ricevuta telematica,\n  ricevuta salvata in \\\\SRV-AURORA\\HR\\infortuni\\2026\\corradin\\]\n- Testimoni: Ilie Petru (operaio Linea 3), presente in cella al momento\n  del fatto\n- Abbandono del lavoro: ore 09:55 - accompagnato al Pronto Soccorso\n  dell'Ospedale G. Fracastoro di San Bonifacio (VR) dal collega\n  Sbalchiero D. con auto propria (ambulanza non necessaria)\n\nRegistro infortuni: annotazione n. 02/2026.\n(il n. 01/2026 e' la contusione lieve di Ba M. del 13/02, 0 gg, medicazione)\n\n--------------------------------------------------------------------------\n\n2) DINAMICA DICHIARATA DAL LAVORATORE (raccolta da F. Sartori il 29/04,\n   presente R. Guerra, sottoscritta dal lavoratore)\n\nIl lavoratore dichiara: \"Stavo spostando i carrelli portateglie vuoti\ndentro la cella CF-02 per fare posto ai bancali in arrivo dal tunnel.\nIl pavimento vicino alla porta aveva della brina, come sempre quando la"
+  },
+  {
+   "cid": 1227,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "origine": "nativa",
+   "rerank": 0.39153602719306946,
+   "testo": "3) TRASCRIZIONE CERTIFICATO DI PRONTO SOCCORSO (originale agli atti)\n\n     AZIENDA ULSS 9 SCALIGERA - OSPEDALE \"G. FRACASTORO\" SAN BONIFACIO\n     PRONTO SOCCORSO - VERBALE N. 2026/PS/18874\n     Accesso: 28/04/2026 ore 10:22 - Dimissione: ore 13:05\n     Triage: VERDE\n     Paziente: CORRADIN EMANUELE, [dati anagrafici omessi nella copia\n     interna ad uso HR]\n     Motivo accesso: trauma mano sx sul lavoro\n     Obiettivita': tumefazione e dolorabilita' F2 secondo dito mano sx,\n     ecchimosi ungueale, motilita' conservata ma dolorosa, sensibilita'\n     conservata, non ferite aperte\n     Rx mano sx: non evidenti lesioni ossee acute. Referto radiologico\n     definitivo a seguire.\n     Diagnosi: TRAUMA CONTUSIVO-DISTORSIVO CON SCHIACCIAMENTO II DITO\n     MANO SINISTRA. FRATTURA NON EVIDENTE.\n     Prestazioni: medicazione, ghiaccio, immobilizzazione con syndattilia\n     II-III dito, terapia antalgica al bisogno (paracetamolo 1000 mg max\n     x3/die), controllo curante.\n     Prognosi: giorni 12 s.c. ai fini INAIL.\n     Rilasciato primo certificato medico INAIL.\n     Il medico di PS: dott.ssa [firma illeggibile]\n\n--------------------------------------------------------------------------"
+  },
+  {
+   "cid": 1089,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "origine": "nativa",
+   "rerank": 0.171408548951149,
+   "testo": "0308;SOW IBRAHIM;08/05/2026;ven;LINEA 2;T2;13:54;22:45;8,00;0,75;STR 30%;\n0309;GECCHELE NICOLO;08/05/2026;ven;LINEA 2;T1;06:02;14:00;8,00;;;\n0310;LUPU VASILE;08/05/2026;ven;LINEA 2;T2;14:08;22:15;8,00;0,25;STR 30%;ingresso oltre tolleranza\n0401;GUERRA ROBERTO;08/05/2026;ven;LINEA 3;T1;05:58;15:00;8,00;1,00;STR 30%;\n0402;CORRADIN EMANUELE;08/05/2026;ven;LINEA 3;T1;;;;;;ASSENTE - infortunio 28/04 (pratica INAIL)\n0403;ILIE PETRU;08/05/2026;ven;LINEA 3;T1;05:54;14:15;8,00;0,25;STR 30%;\n0404;MIOTTO SARA;08/05/2026;ven;LINEA 3;T2;14:04;22:30;8,00;0,50;STR 30%;ingresso oltre tolleranza\n0405;BOUZID KARIM;08/05/2026;ven;LINEA 3;T2;14:01;22:00;8,00;;;\n0406;TADIELLO FEDERICO;08/05/2026;ven;LINEA 3;T1;05:54;14:00;8,00;;;\n0407;MELNYK OLEG;08/05/2026;ven;LINEA 3;T2;13:56;22:00;8,00;;;\n0408;SBALCHIERO DAMIANO;08/05/2026;ven;LINEA 3;T3;21:58;06:30;8,00;0,50;NOTT 55%;\n0501;MAROBIN ANNA;08/05/2026;ven;CONFEZ.;T1;05:58;14:00;8,00;;;\n0502;PERETTO CHIARA;08/05/2026;ven;CONFEZ.;T1;05:59;14:00;8,00;;;\n0503;BA MAMADOU;08/05/2026;ven;CONFEZ.;T2;13:58;22:00;8,00;;;\n0504;FRIGO LUCIA;08/05/2026;ven;CONFEZ.;T2;14:00;22:00;8,00;;;\n0505;VISENTIN STEFANO;08/05/2026;ven;CONFEZ.;T2;13:54;22:45;8,00;0,75;STR 30%;"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4711,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.18,
+  "rerank": 58.28
+ },
+ "id": "Q010",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T14:55:54",
+ "secondi": 58.48,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 82.05,
+  "token_prompt": 2226,
+  "token_risposta": 96,
+  "testo_grezzo": "L'infortunio di Corradin è successo nella cella surgelati CF-02 (-18 gradi C), zona corsia scaffalatura B, alle ore 09:40 circa.\n\nFONTI: nota_infortunio_INAIL_operaio_linea3.txt, 3) TRASCRIZIONE CERTIFICATO DI PRONTO SOCCORSO (originale agli atti)\n\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "nota_infortunio_INAIL_operaio_linea3.txt",
+   "3) TRASCRIZIONE CERTIFICATO DI PRONTO SOCCORSO (originale agli atti)"
+  ],
+  "fonti_fuori_contesto": [
+   "3) TRASCRIZIONE CERTIFICATO DI PRONTO SOCCORSO (originale agli atti)"
+  ],
+  "confidenza": "bassa"
+ }
+}

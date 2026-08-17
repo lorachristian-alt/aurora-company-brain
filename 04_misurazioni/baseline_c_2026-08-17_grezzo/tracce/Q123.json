@@ -1,0 +1,681 @@
+{
+ "domanda": "Il conto di Fantin sull'investimento e quello di Trentin non tornano: di quanto?",
+ "candidati_densi": [
+  {
+   "cid": 1109,
+   "punteggio": 0.514944151416471,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1110,
+   "punteggio": 0.5067956547767942,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1113,
+   "punteggio": 0.5006195154219628,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1877,
+   "punteggio": 0.500521062407646,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 170,
+   "punteggio": 0.49727869742121783,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 173,
+   "punteggio": 0.4965579595610582,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1365,
+   "punteggio": 0.4945241428399834,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1545,
+   "punteggio": 0.494000924572511,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1207,
+   "punteggio": 0.4867501742141285,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 29,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1831,
+   "punteggio": 0.47794650999757554,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1791,
+   "punteggio": 0.46963408301345194,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1794,
+   "punteggio": 0.46948322409385024,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 21,
+   "origine": "nativa"
+  },
+  {
+   "cid": 572,
+   "punteggio": 0.465949863917164,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 26,
+   "origine": "nativa"
+  },
+  {
+   "cid": 332,
+   "punteggio": 0.4623103790193942,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1516,
+   "punteggio": 0.46120841937351564,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1220,
+   "punteggio": 0.4609748289091797,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1528,
+   "punteggio": 0.45894707642949695,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1112,
+   "punteggio": 0.4557760447595188,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 244,
+   "punteggio": 0.45556786241091796,
+   "file": "Circolare_INPS_aliquote_contributive_2026.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 171,
+   "punteggio": 0.454960511769417,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 2,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1806,
+   "punteggio": 27.038806915283203,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1220,
+   "punteggio": 21.632654190063477,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1782,
+   "punteggio": 17.413728713989258,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 168,
+   "punteggio": 16.591148376464844,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1781,
+   "punteggio": 16.318845748901367,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 173,
+   "punteggio": 15.851005554199219,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1244,
+   "punteggio": 15.401749610900879,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 429,
+   "punteggio": 15.39189624786377,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 332,
+   "punteggio": 15.08401870727539,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1805,
+   "punteggio": 14.972676277160645,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1548,
+   "punteggio": 14.693136215209961,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1812,
+   "punteggio": 14.540191650390625,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 528,
+   "punteggio": 14.422462463378906,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1808,
+   "punteggio": 14.246271133422852,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1116,
+   "punteggio": 13.936124801635742,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1173,
+   "punteggio": 13.929576873779297,
+   "file": "Newsletter_Fiere_alimentari_2026_NON_LEGGERE.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1804,
+   "punteggio": 13.685464859008789,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1831,
+   "punteggio": 13.650520324707031,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 642,
+   "punteggio": 13.58478832244873,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 335,
+   "punteggio": 13.4854736328125,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 4,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 173,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.030303030303030304,
+   "rango_denso": 6,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1220,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.02928692699490662,
+   "rango_denso": 16,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 332,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.028006267136701922,
+   "rango_denso": 14,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1831,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.027106227106227107,
+   "rango_denso": 10,
+   "rango_sparso": 18
+  },
+  {
+   "cid": 1109,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1806,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1113,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 168,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1877,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 170,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1244,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1365,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 429,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1545,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1207,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 29,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1805,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1548,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1791,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 18,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1794,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 21,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1812,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 528,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 170,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "rerank": 0.31311002373695374
+  },
+  {
+   "cid": 332,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "rerank": 0.14132270216941833
+  },
+  {
+   "cid": 1806,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.11630483716726303
+  },
+  {
+   "cid": 1207,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.0753164291381836
+  },
+  {
+   "cid": 528,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "rerank": 0.06759261339902878
+  },
+  {
+   "cid": 173,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "rerank": 0.0589117556810379
+  },
+  {
+   "cid": 1109,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.058242522180080414
+  },
+  {
+   "cid": 1113,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.032034117728471756
+  },
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.029560361057519913
+  },
+  {
+   "cid": 1877,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "rerank": 0.02835344336926937
+  },
+  {
+   "cid": 1545,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "rerank": 0.027371322736144066
+  },
+  {
+   "cid": 1831,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.01575106754899025
+  },
+  {
+   "cid": 1220,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "rerank": 0.012720084749162197
+  },
+  {
+   "cid": 1244,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.01204672921448946
+  },
+  {
+   "cid": 168,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "rerank": 0.006189877167344093
+  },
+  {
+   "cid": 1794,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.004936432000249624
+  },
+  {
+   "cid": 1548,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "rerank": 0.0032492312602698803
+  },
+  {
+   "cid": 1365,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.002838831627741456
+  },
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0023358070757240057
+  },
+  {
+   "cid": 1791,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.002099335193634033
+  },
+  {
+   "cid": 429,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.001482752151787281
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0011067020241171122
+  },
+  {
+   "cid": 1805,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.0005942397401668131
+  },
+  {
+   "cid": 1812,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.0002545558090787381
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 170,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "origine": "nativa",
+   "rerank": 0.31311002373695374,
+   "testo": "Modifica supervisione/scada + interconnessione 4.0;Systempoint + Criotech;7.400,00;NECESSARIA per credito imposta, vedi nota Bellotto;\nCollaudo e avviamento (5 gg);Criotech;compreso in fornitura;;\nFormazione operatori (Guerra + 4 turnisti);Criotech;1.900,00;2 giornate, registrare su MOD-HR-11;\nSmontaggio e smaltimento TS-01;Frigotermica Scaligera;4.600,00;recupero gas + rottamazione, DOPO collaudo nuovo;\nSubtotale;;=SOMMA(C8:C17);;\nSubtotale (a mano);;382.700,00;;\nImprevisti 8%;;30.616,00;=C19*0,08;\nTOTALE INVESTIMENTO;;413.316,00;;\n;;;;;\nTOTALE da riepilogo Fantin (sua mail 28/04);;411.416,00;NON TORNA con il mio: lui gli imprevisti li calcola senza lo smaltimento TS-01 e senza formazione. differenza 1.900,00... no, 2.100? ricontrollare insieme;\n;;;;;\nSEZIONE B - SCADENZARIO PAGAMENTI FORNITURA CRIOTECH;;;;;\ncondizioni: 30% all'ordine / 60% alla consegna / 10% al collaudo positivo;;;;;\nsu imponibile macchina 290.000,00 (trasporto e formazione fatturati a parte);;;;;\nMilestone;Data prevista;%;Importo;IVA 22%;Totale\nAcconto ordine;15/05/2026;30%;87.000,00;19.140,00;106.140,00\nConsegna in stabilimento;2026-09-10;60%;174.000,00;38.280,00;212.280,00"
+  },
+  {
+   "cid": 332,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "origine": "nativa",
+   "rerank": 0.14132270216941833,
+   "testo": "(durata prevista: fino alle 12:30 circa, seguira' verbale a cura dell'ing. Fantin)\n\ncon il seguente ordine del giorno:\n\n  1. Andamento promo Tosano \"Sottocosto Primavera\" (sett. 19-21): consegne\n     effettuate, criticita' produzione, ultima consegna del 13/05 (Bertoldi S. / Zanella)\n  2. Straordinari Linea 2 e turni domenicali: cinque operai sopra le 200\n     h/anno al 30/04, tetto contrattuale 250 - come rispondiamo\n     (Sartori / Fantin) - vedi prospetto allegato\n  3. Investimento tunnel di surgelazione Criotech CR-SP180: stato preventivo\n     rev.2, acconto 30% in scadenza a maggio, copertura finanziaria\n     (Fantin / Trentin)\n  4. Richiesta Tosano listino 2026/2027: -4,5% + listing fee 12.000 euro per\n     inserimento continuativo AF-SN-0455 - impatto sui margini, in\n     particolare AF-CR-0215 (Bertoldi S. / Trentin)\n  5. Follow-up audit CSQA di febbraio: stato chiusura NC, preparazione audit\n     di rinnovo (Marchetti)\n  6. Varie ed eventuali: selezione ERP (CSB-System vs SAP Business One),\n     aggiornamento progetto \"Aurora Vega\" Minerbe, sostituzione uscente\n     Linea 2\n\nVi chiedo cortesemente di CONFERMARE LA PRESENZA entro lunedi 11 alle 12:00,"
+  },
+  {
+   "cid": 1806,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "origine": "nativa",
+   "rerank": 0.11630483716726303,
+   "testo": "che partecipano alla riunione, su invito del Presidente e senza diritto di voto, l'ing. Marco Fantin, Direttore di Stabilimento, la rag. Luisa Trentin, responsabile amministrativa, e il dott. Andrea Bellotto dello Studio Bellotto & Associati, consulente della società;\nche il Consiglio è pertanto validamente costituito e atto a deliberare sugli argomenti all'ordine del giorno.\n\nPUNTO 1 — RELAZIONE SULL'INVESTIMENTO E DISCUSSIONE\n\nIl Presidente, nella sua qualità di Amministratore Delegato, illustra al Consiglio le ragioni dell'investimento, cedendo la parola per gli aspetti tecnici all'ing. Fantin, il quale espone quanto segue.\n\nL'attuale tunnel di surgelazione a piastre TS-01, installato nel 2008 e acquistato usato nel 2014, presenta uno stato di obsolescenza non più compatibile con i volumi e con gli standard richiesti:\n\ncapacità oraria insufficiente nei picchi degli ordini di croissanteria surgelata, con la Linea 3 che costituisce il collo di bottiglia dello stabilimento;\ncrescente difficoltà di reperimento dei ricambi, con due fermi non pianificati nel corso del 2025 per complessive 41 ore;"
+  },
+  {
+   "cid": 1207,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "origine": "nativa",
+   "rerank": 0.0753164291381836,
+   "testo": "NC-2026-106;26/05/2026;interna;Linea 1;Verifica efficacia doppia firma: su 21 registrazioni MOD-QA-12 settimana 21, 19 con seconda firma, 2 senza;L26146-L1-T1;media;assimilazione prassi ancora parziale;prosegue monitoraggio 8 settimane, richiamo individuale;Marchetti E.;;IN CORSO;\nNC-2026-107;27/05/2026;interna;Direzione;Preavviso ispezione ATS/ULSS 9 del 09/06 su requisiti strutturali Reg. CE 852/2004 All. II: sopralluogo interno evidenzia 4 punti critici (pavimento zona forni, zanzariere, spogliatoio L3, intonaco cella CF-01);;alta;manutenzione strutturale rinviata per priorita di cassa;piano interventi urgenti pre-ispezione, preventivi entro 30/05;Fantin M.;;APERTA;8.500,00\nNC-2026-108;28/05/2026;interna;Amministrazione;Costo evento L26130: prima stima complessiva (blocco+ispezioni+FTIR+eventuale ritiro) oltre 40.000, riserva a bilancio da definire;;alta;v. NC-2026-092;quantificazione con Trentin, informativa a Bellotto per trattamento contabile;Trentin L.;;APERTA;40.000,00"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4441,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.17,
+  "rerank": 42.94
+ },
+ "id": "Q123",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:28:41",
+ "secondi": 43.13,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 48.57,
+  "token_prompt": 1900,
+  "token_risposta": 59,
+  "testo_grezzo": "La differenza tra i conti di Fantin e Trentin è di 1.900,00 euro.\n\nFONTI: calcolo_CapEx_linea3_bakery_nuova.csv, Convocazione_riunione_direzione_12_05.eml",
+  "fonti_citate": [
+   "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "Convocazione_riunione_direzione_12_05.eml"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

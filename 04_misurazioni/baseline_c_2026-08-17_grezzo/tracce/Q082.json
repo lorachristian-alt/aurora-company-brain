@@ -1,0 +1,680 @@
+{
+ "domanda": "Che succede se sforiamo la finestra di scarico al centro di distribuzione del cliente?",
+ "candidati_densi": [
+  {
+   "cid": 273,
+   "punteggio": 0.5773042716228308,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 278,
+   "punteggio": 0.5726632542001766,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 282,
+   "punteggio": 0.5601108248443664,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 275,
+   "punteggio": 0.5288314560548404,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1611,
+   "punteggio": 0.524448596188853,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 274,
+   "punteggio": 0.5229301793820362,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 349,
+   "punteggio": 0.5159567420442583,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 277,
+   "punteggio": 0.5117305893099595,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 150,
+   "punteggio": 0.5092579495433389,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1177,
+   "punteggio": 0.5087608827810168,
+   "file": "noleggio_distributori_automatici_contratto.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 26,
+   "punteggio": 0.5049255474907509,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 24,
+   "origine": "nativa"
+  },
+  {
+   "cid": 13,
+   "punteggio": 0.5013606766591723,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 358,
+   "punteggio": 0.4960671337103056,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 8,
+   "punteggio": 0.4947249248631469,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 15,
+   "punteggio": 0.4925639593231764,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1668,
+   "punteggio": 0.49081226529903443,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 511,
+   "punteggio": 0.4872299728817663,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1183,
+   "punteggio": 0.4835961193725336,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 12,
+   "punteggio": 0.4835559044547043,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1586,
+   "punteggio": 0.4822128645968565,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "idx": 22,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 274,
+   "punteggio": 20.071697235107422,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 282,
+   "punteggio": 17.367326736450195,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 163,
+   "punteggio": 17.146547317504883,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 275,
+   "punteggio": 16.570009231567383,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 273,
+   "punteggio": 16.552776336669922,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 278,
+   "punteggio": 16.2552547454834,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 281,
+   "punteggio": 15.952570915222168,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1248,
+   "punteggio": 15.850911140441895,
+   "file": "ordine cancelleria marzo.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 150,
+   "punteggio": 15.754562377929688,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1808,
+   "punteggio": 15.516121864318848,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1402,
+   "punteggio": 14.924522399902344,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1119,
+   "punteggio": 14.92111587524414,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 151,
+   "punteggio": 14.880245208740234,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 12,
+   "punteggio": 14.810399055480957,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1397,
+   "punteggio": 14.586305618286133,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 291,
+   "punteggio": 14.504414558410645,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 277,
+   "punteggio": 14.42761516571045,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 15,
+   "punteggio": 14.383338928222656,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 248,
+   "punteggio": 14.242623329162598,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1784,
+   "punteggio": 13.435105323791504,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 11,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 282,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.03200204813108039,
+   "rango_denso": 3,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 273,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.03177805800756621,
+   "rango_denso": 1,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 274,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.031544957774465976,
+   "rango_denso": 6,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 278,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.03128054740957967,
+   "rango_denso": 2,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 275,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.03125,
+   "rango_denso": 4,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 150,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.028985507246376812,
+   "rango_denso": 9,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 277,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.027692895339954164,
+   "rango_denso": 8,
+   "rango_sparso": 17
+  },
+  {
+   "cid": 12,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.026171741361614778,
+   "rango_denso": 19,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 15,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.026153846153846153,
+   "rango_denso": 15,
+   "rango_sparso": 18
+  },
+  {
+   "cid": 163,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1611,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 281,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 349,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1248,
+   "file": "ordine cancelleria marzo.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1177,
+   "file": "noleggio_distributori_automatici_contratto.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1808,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 26,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 24,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1402,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 13,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1119,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 151,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 358,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 8,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1397,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": null,
+   "rango_sparso": 15
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 273,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.08485504239797592
+  },
+  {
+   "cid": 282,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.022295314818620682
+  },
+  {
+   "cid": 278,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.020394155755639076
+  },
+  {
+   "cid": 275,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.01875082589685917
+  },
+  {
+   "cid": 274,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.017972907051444054
+  },
+  {
+   "cid": 15,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.014695187099277973
+  },
+  {
+   "cid": 277,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.011317563243210316
+  },
+  {
+   "cid": 12,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.008825634606182575
+  },
+  {
+   "cid": 1177,
+   "file": "noleggio_distributori_automatici_contratto.txt",
+   "rerank": 0.0031931251287460327
+  },
+  {
+   "cid": 281,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.0012422872241586447
+  },
+  {
+   "cid": 1248,
+   "file": "ordine cancelleria marzo.txt",
+   "rerank": 0.0006916802376508713
+  },
+  {
+   "cid": 13,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.0005890299798920751
+  },
+  {
+   "cid": 358,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "rerank": 0.000547584961168468
+  },
+  {
+   "cid": 1397,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.00047352019464597106
+  },
+  {
+   "cid": 150,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "rerank": 0.00043638324132189155
+  },
+  {
+   "cid": 1611,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.0003850976354442537
+  },
+  {
+   "cid": 163,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "rerank": 0.00022694598010275513
+  },
+  {
+   "cid": 349,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "rerank": 0.00015064264880493283
+  },
+  {
+   "cid": 1402,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.00013822100299876183
+  },
+  {
+   "cid": 1119,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.0001267937186639756
+  },
+  {
+   "cid": 151,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "rerank": 9.766872972249985e-05
+  },
+  {
+   "cid": 26,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 8.375202014576644e-05
+  },
+  {
+   "cid": 8,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 4.373228512122296e-05
+  },
+  {
+   "cid": 1808,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 4.032837750855833e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 273,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "origine": "nativa",
+   "rerank": 0.08485504239797592,
+   "testo": "Da: Vantini Luca <l.vantini@tosano.it>\nA: Nicola Faggionato <n.faggionato@aurorafoodgroup.it>; Silvia Bertoldi <s.bertoldi@aurorafoodgroup.it>\nCc: Perbellini Anna <a.perbellini@tosano.it>; ricevimento.cerea@tosano.it\nInviato: lunedì 11 maggio 2026 08:52\nOggetto: R: R: R: CONTESTAZIONE FORMALE - mancato rispetto finestra di scarico 07/05 - vs. fornitore cod. 60118\n\nBuongiorno,\nprendo atto della disponibilità della dott.ssa Bertoldi e la ringrazio per il tono,\nche non era quello delle mail precedenti del vs. ufficio logistica.\n\nConfermo quanto concordato telefonicamente:\n1) la penale di 250,00 euro viene ridotta a 150,00 euro in nota di accredito\n   sulla prima fattura utile, COME DA CONTRATTO quadro art. 11.3;\n2) il punteggio vendor rating per il mese di maggio resta penalizzato (non\n   posso toccarlo io, lo calcola il sistema in automatico);\n3) alla prossima consegna fuori finestra SENZA preavviso di almeno 2 ore il\n   camion torna indietro. Non ho altre soluzioni, ho 42 baie e 180 mezzi al giorno.\n\nResto in attesa del nominativo del vs. referente trasporti da inserire nella\nrubrica emergenze del CE.DI. (quello attuale non risponde mai dopo le 17).\n\nCordiali saluti\n\nLuca Vantini"
+  },
+  {
+   "cid": 282,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "origine": "nativa",
+   "rerank": 0.022295314818620682,
+   "testo": ">>>\n>>>> -----Messaggio originale-----\n>>>> Da: Vantini Luca <l.vantini@tosano.it>\n>>>> Inviato: giovedì 7 maggio 2026 17:56\n>>>> A: n.faggionato@aurorafoodgroup.it; logistica@aurorafoodgroup.it\n>>>> Cc: Perbellini Anna; Rossi Mario <m.rossi@tosano.it>\n>>>> Oggetto: CONTESTAZIONE FORMALE - mancato rispetto finestra di scarico\n>>>> 07/05 - vs. fornitore cod. 60118\n>>>>\n>>>> Spett.le Aurora Food Group,\n>>>>\n>>>> con la presente CONTESTIAMO FORMALMENTE la consegna odierna:\n>>>>\n>>>> - ordine ns. rif. 26/44810 - vs. DDT 2026/0891\n>>>> - finestra di scarico prenotata su portale: 07/05/2026 h 11:30-12:30, baia 14\n>>>> - arrivo effettivo del mezzo: h 15:34 (QUATTRO ORE DOPO)\n>>>> - nessun preavviso ricevuto ne' da voi ne' dal vs. vettore\n>>>> - scarico effettuato h 16:40-17:15 a fine turno, con personale in\n>>>>   straordinario\n>>>>\n>>>> Come da condizioni generali di fornitura Gruppo Tosano (doc. sottoscritto\n>>>> in sede di qualifica fornitore, art. 11) applicheremo:\n>>>> - penale per mancato rispetto slot: euro 250,00\n>>>> - segnalazione nel vendor rating fornitori, parametro \"puntualita'\"\n>>>>\n>>>> Vi ricordo che il vs. attuale punteggio complessivo e' 87/100 e che sotto"
+  },
+  {
+   "cid": 278,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "origine": "nativa",
+   "rerank": 0.020394155755639076,
+   "testo": "> - segnalazione nel vendor rating (parametro puntualita' consegne);\n> - alla terza segnalazione nell'anno solare scatta la revisione della\n>   qualifica fornitore, come sapete.\n>\n> E aggiungo: il pallet 8 aveva l'angolare schiacciato e il film rifatto a\n> mano. L'abbiamo accettato con riserva, foto agli atti. Se l'AQ (in copia)\n> trova cartoni danneggiati dentro, segue seconda contestazione.\n>\n> Distinti saluti\n>\n> Luca Vantini\n> Responsabile Ricevimento Merci - CE.DI. Cerea\n> Tosano Cerea S.p.A.\n>\n>> -----Messaggio originale-----\n>> Da: Nicola Faggionato <n.faggionato@aurorafoodgroup.it>\n>> Inviato: venerdì 8 maggio 2026 11:22\n>> A: Vantini Luca <l.vantini@tosano.it>\n>> Cc: Perbellini Anna <a.perbellini@tosano.it>; Silvia Bertoldi\n>> Oggetto: R: CONTESTAZIONE FORMALE - mancato rispetto finestra di scarico 07/05\n>>\n>> Gentile sig. Vantini,\n>>\n>> in riferimento alla vs. contestazione di ieri sera, alleghiamo:\n>>\n>> 1. dichiarazione del vettore Trasporti Frigo Veneto S.r.l. (che giro sotto\n>>    integralmente) con copia del verbale di controllo Polstrada;\n>> 2. tracciato del termoregistratore del semirimorchio XA 88712 dalle 05:50"
+  },
+  {
+   "cid": 275,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "origine": "nativa",
+   "rerank": 0.01875082589685917,
+   "testo": "Oggetto: R: R: CONTESTAZIONE FORMALE - mancato rispetto finestra di scarico 07/05 - vs. fornitore cod. 60118\n\nGentile sig. Vantini,\nintervengo personalmente perché il rapporto con il Gruppo Tosano per noi viene\nprima di qualsiasi discussione su una penale.\n\nIl ritardo di giovedì c'è stato, ed è oggettivo: non lo contestiamo. Il nostro\nresponsabile logistica le ha girato la documentazione del vettore (fermo per\ncontrollo Polstrada con verifica del cronotachigrafo, verbale alla mano) non\nper \"cercare scuse\" ma per mostrarle che non c'è stata leggerezza da parte\nnostra: il mezzo era partito in orario e la catena del freddo, come vede dal\ntracciato del termoregistratore allegato alla mail del sig. Faggionato, non si\nè mai interrotta (prodotto sempre tra -19,8 e -18,2 gradi).\n\nDetto questo, capisco perfettamente il problema che un fuori finestra crea a\nun CE.DI. delle vostre dimensioni, e non intendo scaricarlo sul vettore.\n\nLe propongo:\n- accettiamo l'addebito nella misura che il contratto quadro prevede per il\n  primo evento (art. 11.3), non i 250 euro indicati nella contestazione;\n- da lunedì il nostro magazzino vi comunicherà la partenza di OGNI mezzo"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4698,
+ "tempi": {
+  "denso": 0.03,
+  "sparso": 0.2,
+  "rerank": 39.72
+ },
+ "id": "Q082",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:56:35",
+ "secondi": 39.95,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 56.39,
+  "token_prompt": 1916,
+  "token_risposta": 101,
+  "testo_grezzo": "Non e' ricavabile dai documenti forniti se succede qualcosa se sforiamo la finestra di scarico al centro di distribuzione del cliente.\n\nFONTI: contestazione_logistica_Tosano_ritardo_Cerea.txt, contestazione_logistica_Tosano_ritardo_Cerea.txt, contestazione_logistica_Tosano_ritardo_Cerea.txt, contestazione_logistica_Tosano_ritardo_Cerea.txt\n\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "contestazione_logistica_Tosano_ritardo_Cerea.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

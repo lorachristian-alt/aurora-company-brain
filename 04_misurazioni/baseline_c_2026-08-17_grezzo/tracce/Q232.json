@@ -1,0 +1,681 @@
+{
+ "domanda": "In quante settimane Criotech consegna il tunnel?",
+ "candidati_densi": [
+  {
+   "cid": 1807,
+   "punteggio": 0.6246509277907348,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 527,
+   "punteggio": 0.6234333559291009,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1350,
+   "punteggio": 0.6147455173556051,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 524,
+   "punteggio": 0.5900385656850022,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1810,
+   "punteggio": 0.5826585785664009,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1813,
+   "punteggio": 0.5794735017775892,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 398,
+   "punteggio": 0.5765505002232325,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1349,
+   "punteggio": 0.5747795270856916,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 174,
+   "punteggio": 0.5693629531365684,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1782,
+   "punteggio": 0.5596417250012793,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1351,
+   "punteggio": 0.5536362461855098,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1781,
+   "punteggio": 0.5506857173934276,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1347,
+   "punteggio": 0.5341058837087583,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1344,
+   "punteggio": 0.5278970609133121,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 169,
+   "punteggio": 0.52586909027758,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1352,
+   "punteggio": 0.5247352543056214,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 528,
+   "punteggio": 0.5236747262698604,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1374,
+   "punteggio": 0.5071999041056134,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1379,
+   "punteggio": 0.5012493999904524,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1860,
+   "punteggio": 0.5001224351296103,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 10,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 527,
+   "punteggio": 17.777366638183594,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 524,
+   "punteggio": 17.504697799682617,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1349,
+   "punteggio": 16.297657012939453,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1379,
+   "punteggio": 15.149808883666992,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1807,
+   "punteggio": 14.736761093139648,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1352,
+   "punteggio": 13.982172012329102,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1374,
+   "punteggio": 13.839431762695312,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1350,
+   "punteggio": 13.839126586914062,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 171,
+   "punteggio": 13.129061698913574,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 332,
+   "punteggio": 11.651643753051758,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 242,
+   "punteggio": 11.45166015625,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 170,
+   "punteggio": 11.280269622802734,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 169,
+   "punteggio": 10.610835075378418,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1810,
+   "punteggio": 10.579619407653809,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1813,
+   "punteggio": 10.374879837036133,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 174,
+   "punteggio": 10.133328437805176,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1344,
+   "punteggio": 10.016241073608398,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1257,
+   "punteggio": 9.958824157714844,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 175,
+   "punteggio": 9.904312133789062,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1211,
+   "punteggio": 9.841815948486328,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 0,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 527,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.03252247488101534,
+   "rango_denso": 2,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1807,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.03177805800756621,
+   "rango_denso": 1,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 524,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.031754032258064516,
+   "rango_denso": 4,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1349,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.03057889822595705,
+   "rango_denso": 8,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1350,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.03057889822595705,
+   "rango_denso": 3,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1810,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.0288981288981289,
+   "rango_denso": 5,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 1813,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.028484848484848488,
+   "rango_denso": 6,
+   "rango_sparso": 15
+  },
+  {
+   "cid": 1352,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.028309409888357256,
+   "rango_denso": 16,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1379,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.028283227848101264,
+   "rango_denso": 19,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1374,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.027745885954841176,
+   "rango_denso": 18,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 174,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.027650648360030512,
+   "rango_denso": 9,
+   "rango_sparso": 16
+  },
+  {
+   "cid": 169,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.027031963470319637,
+   "rango_denso": 15,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1344,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.026500526500526502,
+   "rango_denso": 14,
+   "rango_sparso": 17
+  },
+  {
+   "cid": 398,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 171,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 332,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 242,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "idx": 18,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1351,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 170,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1347,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 528,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.012987012987012988,
+   "rango_denso": 17,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1257,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.01282051282051282,
+   "rango_denso": null,
+   "rango_sparso": 18
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 524,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "rerank": 0.9946697354316711
+  },
+  {
+   "cid": 1349,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "rerank": 0.9762582182884216
+  },
+  {
+   "cid": 527,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "rerank": 0.9649299383163452
+  },
+  {
+   "cid": 1350,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "rerank": 0.9492953419685364
+  },
+  {
+   "cid": 1807,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.9038373231887817
+  },
+  {
+   "cid": 1379,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "rerank": 0.6191107630729675
+  },
+  {
+   "cid": 1352,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "rerank": 0.5987889170646667
+  },
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.5822646021842957
+  },
+  {
+   "cid": 1374,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "rerank": 0.5051349997520447
+  },
+  {
+   "cid": 171,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "rerank": 0.4935294985771179
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.3485068678855896
+  },
+  {
+   "cid": 1351,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "rerank": 0.3023776113986969
+  },
+  {
+   "cid": 332,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "rerank": 0.2816483676433563
+  },
+  {
+   "cid": 1813,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.18626978993415833
+  },
+  {
+   "cid": 1257,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "rerank": 0.12312935292720795
+  },
+  {
+   "cid": 1810,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.10877283662557602
+  },
+  {
+   "cid": 170,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "rerank": 0.07618669420480728
+  },
+  {
+   "cid": 528,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "rerank": 0.07567748427391052
+  },
+  {
+   "cid": 398,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "rerank": 0.06932467222213745
+  },
+  {
+   "cid": 1344,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "rerank": 0.0499177984893322
+  },
+  {
+   "cid": 174,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "rerank": 0.045801106840372086
+  },
+  {
+   "cid": 169,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "rerank": 0.04541720077395439
+  },
+  {
+   "cid": 1347,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "rerank": 0.025671280920505524
+  },
+  {
+   "cid": 242,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "rerank": 1.6655010767863132e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 524,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "origine": "nativa",
+   "rerank": 0.9946697354316711,
+   "testo": "From: Marco Fantin <m.fantin@aurorafoodgroup.it>\nTo: Giancarlo Bertoldi <g.bertoldi@aurorafoodgroup.it>\nCc: Luisa Trentin <l.trentin@aurorafoodgroup.it>, Ivano Dal Maso <i.dalmaso@aurorafoodgroup.it>\nSubject: I: Preventivo n. OF-2026-0455 rev.2 - tunnel di surgelazione a spirale CR-SP180 - Aurora Food Group\nDate: Thu, 23 Apr 2026 08:15:09 +0200\nMessage-ID: <AM0PR07MB8611233FAC00@aurorafoodgroup.it>\nGiancarlo,\n\nti giro la rev.2 del preventivo Criotech per il tunnel a spirale, arrivata ieri sera. Rispetto alla rev.1 hanno recepito quasi tutto. I miei commenti, in breve:\n\n1. TEMPI: consegna 14 settimane dall'ordine + 2 di montaggio e collaudo. Se firmiamo entro fine aprile con acconto, montaggio in agosto durante la fermata: e' l'UNICA finestra buona dell'anno. Se slittiamo a giugno, il montaggio va a novembre e vuol dire smontare il TS-01 con la Linea 3 in piena campagna surgelati: da evitare in ogni modo."
+  },
+  {
+   "cid": 1349,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "origine": "nativa",
+   "rerank": 0.9762582182884216,
+   "testo": "- allacciamenti idrici, di scarico e di aria compressa (richiesta: 6 bar, 850 Nl/min);\n- linea di adduzione acqua glicolata per sbrinamento ove non presente;\n- ponteggi, piattaforme aeree e mezzi di sollevamento oltre a quelli ns. standard di cantiere;\n- smontaggio, bonifica e smaltimento del tunnel esistente TS-01 (quotabile a parte su richiesta);\n- pratiche autorizzative, prevenzione incendi e denunce impianto frigorifero ove dovute\n  (D.M. 01/12/2004 n. 329, PED); pratica F-gas non pertinente (refrigerante naturale NH3);\n- IVA e ogni altro onere fiscale.\n5. CONDIZIONI DI PAGAMENTO\n30% all'ordine (87.000,00 EUR + IVA) — bonifico a 30 gg d.f.;\n60% alla comunicazione di merce pronta per la consegna, prima della spedizione;\n10% al collaudo finale SAT con esito positivo, e comunque entro 60 gg dalla consegna.\nCoordinate bancarie: Criotech Impianti S.r.l. — BPER Banca, fil. Reggio Emilia,\nIBAN IT41V0538712800000002845114. Riserva di proprietà ex art. 1523 c.c. fino a saldo.\n6. TEMPI DI CONSEGNA\n16 settimane dalla data di ricevimento dell'ordine con relativo acconto e dall'approvazione\ndei disegni di layout definitivi. Montaggio e avviamento: 3 settimane dalla consegna, salvo"
+  },
+  {
+   "cid": 527,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "origine": "nativa",
+   "rerank": 0.9649299383163452,
+   "testo": ">   sistema qualita' - ci avete chiesto conferma per il CCP: si', il datalogger\n>   e' conforme e certificabile)\n> - smontaggio, bonifica e smaltimento del Vs. attuale tunnel a piastre TS-01\n>   ESCLUSI dalla presente, quotabili a parte su richiesta\n>\n> Importo complessivo: Euro 290.000,00 + IVA franco Vs. stabilimento,\n> montaggio e collaudo inclusi (rev.1: 304.500 - abbiamo rivisto come da accordi).\n> Pagamento: 30% all'ordine (Euro 87.000,00), 60% alla consegna, 10% al collaudo\n> positivo. Consegna: 14 settimane data ordine + 2 settimane montaggio/collaudo.\n> Validita' offerta: 60 giorni dalla data della presente (oltre tale termine dovremo adeguare i\n> prezzi dei componenti frigoriferi, +3,5% gia' comunicato dai ns. fornitori).\n>\n> Restiamo a disposizione per un ulteriore sopralluogo di rilievo definitivo.\n> Cordiali saluti\n>\n> ing. Davide Camurri\n> Area Manager Nord-Est\n> Criotech Impianti S.r.l. - Via Che Guevara 118, 42123 Reggio Emilia\n> Tel. 0522 92 71 05 - Mob. 335 71 88 402 - d.camurri@criotechimpianti.it\n> P.IVA 02655890354 - www.criotechimpianti.it\n> Le informazioni contenute in questa comunicazione sono riservate ai sensi"
+  },
+  {
+   "cid": 1350,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "origine": "nativa",
+   "rerank": 0.9492953419685364,
+   "testo": "16 settimane dalla data di ricevimento dell'ordine con relativo acconto e dall'approvazione\ndei disegni di layout definitivi. Montaggio e avviamento: 3 settimane dalla consegna, salvo\ndisponibilità dell'area libera da vincoli e delle predisposizioni a Vs. carico. Fermata della\nVs. Linea 3 stimata per il collegamento: 5 giorni lavorativi, pianificabile con il Vs.\nresponsabile di produzione (sig. Zanella).\n7. COLLAUDO\nFAT (Factory Acceptance Test) presso ns. officina di Reggio Emilia, alla presenza di Vs.\npersonale (2 persone, spese di viaggio a Vs. carico), su protocollo condiviso: prove a vuoto,\nverifiche dimensionali e funzionali del quadro. SAT (Site Acceptance Test) presso il Vs.\nstabilimento: prova di resa in condizioni reali su 3 turni consecutivi con prodotto di\nriferimento, verifica del raggiungimento di -18 °C al cuore nel tempo contrattuale e del\nconsumo specifico dichiarato (tolleranza +5%). Il verbale SAT sottoscritto dalle parti\ncostituisce accettazione dell'impianto.\n\nCriotech Impianti S.r.l. — Via della Meccanica 12, 42124 Reggio Emilia — P.IVA 02618440354\nOfferta OF-2026-0117 rev. 2 del 20/03/2026 — pag. 4 — documento riservato\npag. 4\n8. GARANZIA"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4439,
+ "tempi": {
+  "denso": 0.01,
+  "sparso": 0.17,
+  "rerank": 42.97
+ },
+ "id": "Q232",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:51:08",
+ "secondi": 43.16,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 45.56,
+  "token_prompt": 1822,
+  "token_risposta": 53,
+  "testo_grezzo": "La risposta è: 14 settimane\n\nFONTI: Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml, preventivo_Criotech_tunnel_CR-SP180_rev2.pdf\n\nCONFIDENZA: alta",
+  "fonti_citate": [
+   "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "alta"
+ }
+}

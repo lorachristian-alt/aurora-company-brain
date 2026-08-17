@@ -1,0 +1,687 @@
+{
+ "domanda": "Ogni quanto dobbiamo analizzare lo scarico in fognatura e ogni quanto le emissioni in atmosfera?",
+ "candidati_densi": [
+  {
+   "cid": 111,
+   "punteggio": 0.5437017238307527,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 110,
+   "punteggio": 0.539413623227567,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 112,
+   "punteggio": 0.5346060727926267,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1739,
+   "punteggio": 0.526890936002412,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 113,
+   "punteggio": 0.5268882777205818,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 315,
+   "punteggio": 0.5146064689960488,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 109,
+   "punteggio": 0.5137396578534269,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1523,
+   "punteggio": 0.5101960890937991,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 42,
+   "punteggio": 0.5083085894731864,
+   "file": "analisi_acque_reflue_autocontrollo_2026.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1742,
+   "punteggio": 0.5081669659086028,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 114,
+   "punteggio": 0.5077758317373937,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 108,
+   "punteggio": 0.5059425984569257,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 905,
+   "punteggio": 0.5049410555189543,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 83,
+   "origine": "nativa"
+  },
+  {
+   "cid": 825,
+   "punteggio": 0.5026879167812551,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1682,
+   "punteggio": 0.5014475449959184,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1143,
+   "punteggio": 0.4994819235654343,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 25,
+   "origine": "nativa"
+  },
+  {
+   "cid": 39,
+   "punteggio": 0.49943649714784655,
+   "file": "analisi_acque_reflue_autocontrollo_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1743,
+   "punteggio": 0.4979293540741433,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 314,
+   "punteggio": 0.496974709499073,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 929,
+   "punteggio": 0.49673533997881336,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 107,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 108,
+   "punteggio": 33.59259796142578,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 111,
+   "punteggio": 19.644622802734375,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 112,
+   "punteggio": 19.298383712768555,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 110,
+   "punteggio": 19.045190811157227,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 113,
+   "punteggio": 16.067245483398438,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 109,
+   "punteggio": 15.484784126281738,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 579,
+   "punteggio": 14.977452278137207,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1682,
+   "punteggio": 14.520113945007324,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 100,
+   "punteggio": 14.430974006652832,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 114,
+   "punteggio": 14.199387550354004,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 107,
+   "punteggio": 13.449492454528809,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1109,
+   "punteggio": 13.096656799316406,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 273,
+   "punteggio": 12.980859756469727,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1333,
+   "punteggio": 12.693943977355957,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 298,
+   "punteggio": 12.611470222473145,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 275,
+   "punteggio": 12.587130546569824,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 260,
+   "punteggio": 12.550468444824219,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1781,
+   "punteggio": 12.315505027770996,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 431,
+   "punteggio": 12.220232963562012,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 329,
+   "punteggio": 12.219649314880371,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 18,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 111,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.03252247488101534,
+   "rango_denso": 1,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 110,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.031754032258064516,
+   "rango_denso": 2,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 112,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.031746031746031744,
+   "rango_denso": 3,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 113,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.03076923076923077,
+   "rango_denso": 5,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 108,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.03028233151183971,
+   "rango_denso": 12,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 109,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.03007688828584351,
+   "rango_denso": 7,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 114,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.028370221327967807,
+   "rango_denso": 11,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1682,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.02803921568627451,
+   "rango_denso": 15,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1739,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 315,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 579,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1523,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 42,
+   "file": "analisi_acque_reflue_autocontrollo_2026.xlsx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 100,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1742,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 107,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1109,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 273,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 905,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 83,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 825,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1333,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 298,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": null,
+   "rango_sparso": 15
+  },
+  {
+   "cid": 275,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013157894736842105,
+   "rango_denso": null,
+   "rango_sparso": 16
+  },
+  {
+   "cid": 1143,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 25,
+   "origine": "nativa",
+   "rrf": 0.013157894736842105,
+   "rango_denso": 16,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 111,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "rerank": 0.40462374687194824
+  },
+  {
+   "cid": 108,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "rerank": 0.08837507665157318
+  },
+  {
+   "cid": 110,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "rerank": 0.06003374233841896
+  },
+  {
+   "cid": 113,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "rerank": 0.01850583590567112
+  },
+  {
+   "cid": 112,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "rerank": 0.015358265489339828
+  },
+  {
+   "cid": 109,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "rerank": 0.0072611658833920956
+  },
+  {
+   "cid": 1682,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "rerank": 0.00574467983096838
+  },
+  {
+   "cid": 107,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "rerank": 0.00566615117713809
+  },
+  {
+   "cid": 1742,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "rerank": 0.004106398206204176
+  },
+  {
+   "cid": 114,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "rerank": 0.0032000853680074215
+  },
+  {
+   "cid": 825,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.002926361747086048
+  },
+  {
+   "cid": 905,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.002681232988834381
+  },
+  {
+   "cid": 1739,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "rerank": 0.0017961286939680576
+  },
+  {
+   "cid": 579,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 0.0011718252208083868
+  },
+  {
+   "cid": 275,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.0007051746943034232
+  },
+  {
+   "cid": 100,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "rerank": 0.0006522070616483688
+  },
+  {
+   "cid": 42,
+   "file": "analisi_acque_reflue_autocontrollo_2026.xlsx",
+   "rerank": 0.000642141792923212
+  },
+  {
+   "cid": 1143,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.0005106637254357338
+  },
+  {
+   "cid": 315,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.0004496029287111014
+  },
+  {
+   "cid": 273,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.0004133168840780854
+  },
+  {
+   "cid": 1523,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.000335739110596478
+  },
+  {
+   "cid": 298,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "rerank": 0.00013546471018344164
+  },
+  {
+   "cid": 1109,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 2.616565143398475e-05
+  },
+  {
+   "cid": 1333,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "rerank": 2.057356687146239e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 111,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "origine": "nativa",
+   "rerank": 0.40462374687194824,
+   "testo": "mg/l\n<= 10\nTensioattivi totali\nmg/l\n<= 4\nCloro attivo libero\nmg/l\n<= 0,3\nA.5 Prescrizioni per lo scarico:\n1. E' vietato lo scarico di acque di condensa dei circuiti frigoriferi e di sostanze di cui\n   sia vietata l'immissione in fognatura dal regolamento del gestore.\n2. AUTOCONTROLLI: campionamento e analisi dello scarico S1 con frequenza TRIMESTRALE, su\n   campione medio composito di 3 ore, per i parametri di cui alla tabella A.4, a cura di\n   laboratorio accreditato UNI CEI EN ISO/IEC 17025. I rapporti di prova vanno conservati\n   per almeno 5 anni e trasmessi al gestore entro 30 gg dal prelievo.\n3. Installare e mantenere efficiente il misuratore di portata allo scarico con totalizzatore\n   (lettura annotata mensilmente su apposito registro).\n4. Comunicare preventivamente al gestore e alla Provincia ogni modifica quali-quantitativa\n   dello scarico; in caso di superamento dei limiti, darne comunicazione entro 48 ore con\n   indicazione delle azioni correttive intraprese.\n5. Il degrassatore e il disoleatore devono essere sottoposti a pulizia con frequenza almeno\n   semestrale, con smaltimento dei residui come rifiuto ai sensi della Parte IV del D.Lgs."
+  },
+  {
+   "cid": 108,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "origine": "nativa",
+   "rerank": 0.08837507665157318,
+   "testo": "parere favorevole del gestore del servizio idrico integrato Acque Veronesi S.c.a r.l. prot.\nn. 2019/1204 del 30/01/2019 per lo scarico in pubblica fognatura; ACQUISITO il parere ARPAV\nDipartimento di Verona prot. n. 11208 del 12/02/2019 per le emissioni in atmosfera;\nDETERMINA\ndi adottare l'Autorizzazione Unica Ambientale alla ditta AURORA FOOD GROUP S.R.L. (P.IVA\n03984710230), con sede legale e insediamento produttivo in Via dell'Industria 27, 37044\nCologna Veneta (VR), per l'attivita' di produzione di prodotti da forno farciti, snack\nsalati confezionati in atmosfera protettiva e croissanteria surgelata.\nL'AUA sostituisce i seguenti titoli abilitativi:\nTitolo\nRiferimento normativo\nNote\na) Autorizzazione allo scarico di\nacque reflue industriali in pubblica\nfognatura\nart. 124 D.Lgs. 152/2006\nscarico S1\nb) Autorizzazione alle emissioni in\natmosfera\nart. 269 D.Lgs. 152/2006\npunti E1, E2, E3, E4\nc) Documentazione previsionale di\nimpatto acustico\nart. 8 c. 4 L. 447/1995\ncomunicazione\nDURATA: 15 (quindici) anni dalla data di rilascio. SCADENZA: 12/03/2034.\nLa domanda di rinnovo va presentata almeno 6 mesi prima della scadenza (art. 5 DPR 59/2013)."
+  },
+  {
+   "cid": 110,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "origine": "nativa",
+   "rerank": 0.06003374233841896,
+   "testo": "Acque Veronesi S.c.a r.l., recapito depuratore intercomunale di Cologna Veneta).\nA.3 Pozzetto di campionamento. Pozzetto di ispezione e prelievo ubicato in corrispondenza\ndello scarico S1, immediatamente a monte della pubblica fognatura, mantenuto accessibile in\nogni momento agli organi di controllo (planimetria all. 3 al fascicolo).\nA.4 Limiti di emissione allo scarico S1. Devono essere rispettati i valori limite della\nTabella 3, Allegato 5 alla Parte Terza del D.Lgs. 152/2006, colonna \"scarico in rete\nfognaria\", per i parametri di seguito richiamati, salvo limiti piu' restrittivi del\nregolamento del gestore:\nParametro\nUM\nValore limite\npH\nunita' pH\n5,5 - 9,5\nSolidi sospesi totali\nmg/l\n<= 200\nBOD5\nmg/l O2\n<= 250\nCOD\nmg/l O2\n<= 500\nAzoto ammoniacale (come NH4)\nmg/l\n<= 30\nAzoto nitroso (come N)\nmg/l\n<= 0,6\nAzoto nitrico (come N)\nmg/l\n<= 30\nFosforo totale (come P)\nmg/l\n<= 10\nGrassi e olii animali/vegetali\nmg/l\n<= 40\nIdrocarburi totali\nmg/l\n<= 10\nTensioattivi totali\nmg/l\n<= 4\nCloro attivo libero\nmg/l\n<= 0,3\nA.5 Prescrizioni per lo scarico:\n1. E' vietato lo scarico di acque di condensa dei circuiti frigoriferi e di sostanze di cui"
+  },
+  {
+   "cid": 113,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "origine": "nativa",
+   "rerank": 0.01850583590567112,
+   "testo": "trasporto\npneumatico farina\n- silos e\nsetacciatura\n9,0\n4.200\n16\nfiltro a maniche\nFM-01\nB.2 Valori limite di emissione:\nPunto\nParametro\nValore limite mg/Nm3\nRiferimento O2\nE1\nPolveri totali\n10\n3% O2\nE1\nCOT (carbonio organico\ntotale)\n50\n3% O2\nE1\nNOx (come NO2)\n350\n3% O2\nE2\nPolveri totali\n10\n3% O2\nE2\nCOT\n50\n3% O2\nE2\nNOx (come NO2)\n350\n3% O2\nE3\nNOx (come NO2)\n350\n3% O2\nE4\nPolveri totali\n10\n--\nB.3 Prescrizioni per le emissioni:\n1. AUTOCONTROLLI: misura alle emissioni E1, E2 ed E4 con frequenza ANNUALE (metodi UNI EN\n   13284-1 per le polveri, UNI EN 12619 per il COT, UNI EN 14792 per NOx), in condizioni di\n   marcia rappresentative del massimo carico. Trasmissione degli esiti alla Provincia e ad\n   ARPAV entro 60 gg dal campionamento.\n2. Tenere il registro degli autocontrolli e delle manutenzioni dei sistemi di abbattimento\n   (All. VI parte V D.Lgs. 152/2006), con annotazione delle sostituzioni delle maniche\n   filtranti del filtro FM-01 e delle letture del misuratore di pressione differenziale\n   (deltaP di esercizio 60-180 mm H2O).\n3. I condotti di scarico devono essere dotati di prese di misura conformi alla UNI EN\n   15259, accessibili in sicurezza."
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4638,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.17,
+  "rerank": 47.08
+ },
+ "id": "Q059",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:35:15",
+ "secondi": 47.27,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 62.69,
+  "token_prompt": 2029,
+  "token_risposta": 69,
+  "testo_grezzo": "Lo scarico in fognatura deve essere analizzato ogni trimestre, mentre le emissioni in atmosfera devono essere misurate annualmente.\n\nFONTI: AUA_autorizzazione_unica_ambientale_scarichi.pdf, A.4, B.3, Punto 1\nCONFIDENZA: alta",
+  "fonti_citate": [
+   "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "A.4",
+   "B.3",
+   "Punto 1"
+  ],
+  "fonti_fuori_contesto": [
+   "A.4",
+   "B.3",
+   "Punto 1"
+  ],
+  "confidenza": "alta"
+ }
+}

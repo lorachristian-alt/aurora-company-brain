@@ -1,0 +1,683 @@
+{
+ "domanda": "Quali volumi minimi ci garantisce Tosano nel contratto?",
+ "candidati_densi": [
+  {
+   "cid": 663,
+   "punteggio": 0.5648980697099668,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1416,
+   "punteggio": 0.5552095613332704,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1417,
+   "punteggio": 0.553036785521255,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 682,
+   "punteggio": 0.548873442354278,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 671,
+   "punteggio": 0.5478243158990825,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 685,
+   "punteggio": 0.5466266881101813,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 654,
+   "punteggio": 0.544339460918547,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 652,
+   "punteggio": 0.5440362837224632,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1834,
+   "punteggio": 0.5440046550276753,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 673,
+   "punteggio": 0.5429141664370846,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 8,
+   "punteggio": 0.5420258901053381,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1421,
+   "punteggio": 0.5403631020880852,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 332,
+   "punteggio": 0.5377002807691639,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 662,
+   "punteggio": 0.5375053802497209,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 4,
+   "punteggio": 0.5361990194792563,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1413,
+   "punteggio": 0.535448549868458,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 681,
+   "punteggio": 0.5347275229558497,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 664,
+   "punteggio": 0.529859914438406,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1415,
+   "punteggio": 0.5278040512644664,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1422,
+   "punteggio": 0.5277840212904286,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 9,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 8,
+   "punteggio": 21.42917823791504,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 31,
+   "punteggio": 12.863499641418457,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 29,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1830,
+   "punteggio": 12.786528587341309,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 248,
+   "punteggio": 11.995676040649414,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 306,
+   "punteggio": 11.130695343017578,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1734,
+   "punteggio": 10.942255973815918,
+   "file": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 430,
+   "punteggio": 10.785721778869629,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 435,
+   "punteggio": 9.685564041137695,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1417,
+   "punteggio": 9.485796928405762,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 307,
+   "punteggio": 9.462671279907227,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 283,
+   "punteggio": 9.457221984863281,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1834,
+   "punteggio": 9.313450813293457,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 299,
+   "punteggio": 9.310522079467773,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1109,
+   "punteggio": 9.168536186218262,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 641,
+   "punteggio": 9.000789642333984,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1527,
+   "punteggio": 8.849739074707031,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 277,
+   "punteggio": 8.751371383666992,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1423,
+   "punteggio": 8.730021476745605,
+   "file": "Prospetto_straordinari_gen-apr_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1859,
+   "punteggio": 8.66312313079834,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1812,
+   "punteggio": 8.487006187438965,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 8,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 8,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.03047794966520434,
+   "rango_denso": 11,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1417,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.03036576949620428,
+   "rango_denso": 3,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1834,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.028381642512077296,
+   "rango_denso": 9,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 663,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 31,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 29,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1416,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1830,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 248,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 682,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 306,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 671,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 685,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1734,
+   "file": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 654,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 435,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 652,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 307,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 673,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 283,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1421,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 299,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 332,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 662,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 31,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.4999505877494812
+  },
+  {
+   "cid": 8,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.38877663016319275
+  },
+  {
+   "cid": 673,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "rerank": 0.2550358474254608
+  },
+  {
+   "cid": 654,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "rerank": 0.16564346849918365
+  },
+  {
+   "cid": 299,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "rerank": 0.1543227732181549
+  },
+  {
+   "cid": 1417,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "rerank": 0.07236871868371964
+  },
+  {
+   "cid": 248,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "rerank": 0.05723923072218895
+  },
+  {
+   "cid": 1416,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "rerank": 0.05162239447236061
+  },
+  {
+   "cid": 1834,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.04610680788755417
+  },
+  {
+   "cid": 685,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "rerank": 0.03314529359340668
+  },
+  {
+   "cid": 671,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "rerank": 0.028809064999222755
+  },
+  {
+   "cid": 332,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "rerank": 0.025162041187286377
+  },
+  {
+   "cid": 663,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "rerank": 0.02477375417947769
+  },
+  {
+   "cid": 652,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "rerank": 0.021910887211561203
+  },
+  {
+   "cid": 283,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.018757345154881477
+  },
+  {
+   "cid": 682,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "rerank": 0.015935378149151802
+  },
+  {
+   "cid": 1830,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.01440766453742981
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.014024617150425911
+  },
+  {
+   "cid": 662,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "rerank": 0.011841364204883575
+  },
+  {
+   "cid": 1421,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "rerank": 0.011221871711313725
+  },
+  {
+   "cid": 1734,
+   "file": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "rerank": 0.009937066584825516
+  },
+  {
+   "cid": 307,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "rerank": 0.005150530952960253
+  },
+  {
+   "cid": 435,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.001819734345190227
+  },
+  {
+   "cid": 306,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "rerank": 0.0014779726043343544
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 31,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "origine": "nativa",
+   "rerank": 0.4999505877494812,
+   "testo": "promozionale); Art. 9.3 (sconto merce); Art. 12.3 (costi di ritiro e richiamo); Art. 12.4\n(facolta' di sospensione degli ordini); Art. 13.3 (proprieta' degli impianti stampa);\nArt. 14 (esclusiva territoriale); Art. 15 (riservatezza ultrattiva); Art. 16.1 (recesso);\nArt. 16.2 (clausola risolutiva espressa); Art. 17.2 (esclusione dello sciopero dalla\nforza maggiore); Art. 19.2 (foro esclusivo di Verona).\n\nper AURORA FOOD GROUP S.r.l.\nL'Amministratore Delegato\nGiancarlo Bertoldi\n\n(firmato: G. Bertoldi)\n\nIl Distributore dichiara altresi' di approvare specificamente, ai medesimi fini, le\nclausole di cui agli artt. 5.1 (volumi minimi garantiti), 5.3 (conguaglio), 8.5\n(massimale delle penali), 8.7 (esclusioni di penale), 16.5 (ritiro scorte e rimborso\nimballo).\n\nper TOSANO CEREA S.p.A.\nIl Procuratore Speciale\ndott. Stefano Boninsegna\n\n(firma illeggibile)\n\n[TIMBRO]\n\n                                                                          Pag. 14 di 14\n\n--- nota a margine manoscritta, trascritta: \"originale + copia. All. B aggiornato a rev.3\ndel listino gen 26, la rev.2 NON vale piu' — L.T.\" ---"
+  },
+  {
+   "cid": 8,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "origine": "nativa",
+   "rerank": 0.38877663016319275,
+   "testo": "almeno sei mesi rispetto alla scadenza originaria o prorogata.\n4.3 In caso di cessazione, per qualunque causa, il Distributore avra' facolta' di ordinare,\n    e il Fornitore obbligo di evadere alle condizioni del presente Accordo, i volumi\n    necessari alla copertura dei punti vendita per un periodo massimo di 90 giorni\n    successivi alla data di cessazione (\"periodo di coda\").\n\nArt. 5 — VOLUMI MINIMI GARANTITI E TOLLERANZA\n5.1 Il Distributore garantisce al Fornitore, per ciascun Anno Contrattuale, il ritiro dei\n    seguenti volumi minimi:\n    - AF-SN-0450: n. 480.000 pezzi/anno;\n    - AF-CR-0215: n. 260.000 pezzi/anno.\n5.2 Sui volumi di cui al punto 5.1 e' ammessa una forchetta di tolleranza pari a +/- 15%\n    (quindici per cento) su base annua, senza che cio' comporti variazione delle condizioni\n    economiche ne' diritto ad alcun indennizzo.\n5.3 Qualora il ritirato annuo risulti inferiore al volume minimo ridotto della tolleranza\n    di cui al punto 5.2 per cause non imputabili al Fornitore, quest'ultimo avra' diritto a\n    un conguaglio pari al 50% del margine di contribuzione documentato sui volumi mancanti,"
+  },
+  {
+   "cid": 673,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "origine": "nativa",
+   "rerank": 0.2550358474254608,
+   "testo": "Tosano Cerea S.p.A.;Tosano;AF-SN-0450;sim -4,5% multicereali;8034123450123;12;1,25;20;15,0;0,85;2,0;0,04;0,71;0,14;16,5%;01/06/2026;31/12/2027;ipotesi - regge\nTosano Cerea S.p.A.;Tosano;AF-CR-0215;sim -4,5% cornetto PL;8034123452158;10;2,45;20;10,2;1,76;1,5;;1,78;-0,02;-1,1%;01/06/2026;31/12/2027;MARGINE NEGATIVO - non sostenibile (e costo ind. e' ancora quello di gennaio, col burro attuale e' peggio)\nTosano Cerea S.p.A.;Tosano;AF-SN-0455;sim -4,5% promo 3+1;8034123454558;8;3,75;20;8,3;2,76;;0,08;2,84;-0,08;-2,9%;01/06/2026;31/12/2027;negativo anche questo, rientra solo con volumi+contributo\nTosano Cerea S.p.A.;Tosano;AF-FC-0330;sim -4,5% focaccina;8034123453308;10;1,60;20;12,1;1,13;2,0;0,03;0,94;0,19;16,8%;01/06/2026;31/12/2027;regge ma poco\nTosano Cerea S.p.A.;Tosano;AF-CR-0212;sim -4,5% cornetto Aurora;8034123452127;8;3,10;20;12,2;2,18;1,5;;1,92;0,26;11,9%;01/06/2026;31/12/2027;regge\n;;;;;;;;;;;;;;;;;\nTOTALE TOSANO (fatturato budget 2026);;;;;;;;;3.184.000;;;;;;;;somma fatta a mano da L.T. - da riverificare\nAlì S.p.A.;Alìper;AF-SN-0450;Snack salato rustico multicereali 100g ATM;8034123450123;12;1,25;20;5;0,95;1,5;0,03;0,71;0,24;25,3%;01/01/2026;31/03/2026;"
+  },
+  {
+   "cid": 654,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "origine": "nativa",
+   "rerank": 0.16564346849918365,
+   "testo": "Tosano Cerea S.p.A.;Tosano;AF-SN-0450;sim -4,5% multicereali;8034123450123;12;1,2100;20;15,0;0,8228;2,0;0,0387;0,6873;0,1355;16,5%;01/06/2026;31/12/2027;ipotesi - regge\nTosano Cerea S.p.A.;Tosano;AF-CR-0215;sim -4,5% cornetto PL;8034123452158;10;2,3716;20;10,2;1,7037;1,5;;1,7230;-0,0194;-1,1%;01/06/2026;31/12/2027;MARGINE NEGATIVO - non sostenibile (e costo ind. e' ancora quello di gennaio, col burro attuale e' peggio)\nTosano Cerea S.p.A.;Tosano;AF-SN-0455;sim -4,5% promo 3+1;8034123454558;8;3,6300;20;8,3;2,6717;;0,0774;2,7491;-0,0774;-2,9%;01/06/2026;31/12/2027;negativo anche questo, rientra solo con volumi+contributo\nTosano Cerea S.p.A.;Tosano;AF-FC-0330;sim -4,5% focaccina;8034123453308;10;1,5488;20;12,1;1,0938;2,0;0,0290;0,9099;0,1839;16,8%;01/06/2026;31/12/2027;regge ma poco\nTosano Cerea S.p.A.;Tosano;AF-CR-0212;sim -4,5% cornetto Aurora;8034123452127;8;3,0008;20;12,2;2,1102;1,5;;1,8586;0,2517;11,9%;01/06/2026;31/12/2027;regge\n;;;;;;;;;;;;;;;;;\nTOTALE TOSANO (fatturato budget 2026);;;;;;;;;3.184.000;;;;;;;;somma fatta a mano da L.T. - da riverificare"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4484,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.18,
+  "rerank": 55.46
+ },
+ "id": "Q047",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:26:03",
+ "secondi": 55.66,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 75.15,
+  "token_prompt": 2281,
+  "token_risposta": 81,
+  "testo_grezzo": "I volumi minimi garantiti da Tosano sono di 480.000 pezzi per l'AF-SN-0450 e di 260.000 pezzi per l'AF-CR-0215.\n\nFONTI: accordo_quadro_private_label_Tosano_2026_firmato.txt, Art. 5.1\nCONFIDENZA: alta",
+  "fonti_citate": [
+   "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "Art. 5.1"
+  ],
+  "fonti_fuori_contesto": [
+   "Art. 5.1"
+  ],
+  "confidenza": "alta"
+ }
+}

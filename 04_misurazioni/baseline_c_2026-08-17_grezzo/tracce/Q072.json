@@ -1,0 +1,683 @@
+{
+ "domanda": "Quando abbiamo fatto l'ultima simulazione di richiamo e com'e' andata?",
+ "candidati_densi": [
+  {
+   "cid": 1407,
+   "punteggio": 0.587209587052685,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1791,
+   "punteggio": 0.520909403367525,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 84,
+   "punteggio": 0.5092337191120948,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1856,
+   "punteggio": 0.5001349126849024,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 618,
+   "punteggio": 0.4995905128371728,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 922,
+   "punteggio": 0.49729327745870333,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 100,
+   "origine": "nativa"
+  },
+  {
+   "cid": 82,
+   "punteggio": 0.4955751260386337,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1796,
+   "punteggio": 0.4876568359489612,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 23,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1246,
+   "punteggio": 0.48561563706458577,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 829,
+   "punteggio": 0.48457165896080323,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1851,
+   "punteggio": 0.4841328565787749,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 921,
+   "punteggio": 0.481973126218641,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 99,
+   "origine": "nativa"
+  },
+  {
+   "cid": 865,
+   "punteggio": 0.47933434450346923,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 43,
+   "origine": "nativa"
+  },
+  {
+   "cid": 81,
+   "punteggio": 0.47905421765502415,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 881,
+   "punteggio": 0.4785542742145443,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 59,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1400,
+   "punteggio": 0.47829838463785873,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1245,
+   "punteggio": 0.4768141486093462,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 862,
+   "punteggio": 0.47643249119425746,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 40,
+   "origine": "nativa"
+  },
+  {
+   "cid": 917,
+   "punteggio": 0.4759262041933168,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 95,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1481,
+   "punteggio": 0.4753740317407883,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 3,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1407,
+   "punteggio": 18.77413558959961,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1246,
+   "punteggio": 16.10961151123047,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1110,
+   "punteggio": 15.915807723999023,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 434,
+   "punteggio": 15.614818572998047,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1790,
+   "punteggio": 15.495579719543457,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 430,
+   "punteggio": 15.372780799865723,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 436,
+   "punteggio": 15.01783561706543,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1112,
+   "punteggio": 14.44074821472168,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1368,
+   "punteggio": 13.099295616149902,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1115,
+   "punteggio": 12.089803695678711,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1792,
+   "punteggio": 11.974769592285156,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1397,
+   "punteggio": 11.956442832946777,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 621,
+   "punteggio": 11.954598426818848,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1833,
+   "punteggio": 11.819271087646484,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 397,
+   "punteggio": 11.771016120910645,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1113,
+   "punteggio": 11.693866729736328,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 531,
+   "punteggio": 11.666890144348145,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 611,
+   "punteggio": 11.546582221984863,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 601,
+   "punteggio": 11.40466594696045,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 0,
+   "punteggio": 11.363011360168457,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "idx": 0,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1407,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.03278688524590164,
+   "rango_denso": 1,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1246,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.030621785881252923,
+   "rango_denso": 9,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1791,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 18,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 84,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1856,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 618,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1790,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 17,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 922,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 100,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 82,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 436,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1112,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1796,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 23,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1368,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 829,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1115,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1792,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1851,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 921,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 99,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1397,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 621,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 865,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 43,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1407,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.5058848857879639
+  },
+  {
+   "cid": 1790,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.004690959583967924
+  },
+  {
+   "cid": 1368,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.004221019800752401
+  },
+  {
+   "cid": 922,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.003340854775160551
+  },
+  {
+   "cid": 1246,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.002271887380629778
+  },
+  {
+   "cid": 1791,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0014558640541508794
+  },
+  {
+   "cid": 618,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.0011052575428038836
+  },
+  {
+   "cid": 1796,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0010960960062220693
+  },
+  {
+   "cid": 921,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.0010934466263279319
+  },
+  {
+   "cid": 1397,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.0010514400200918317
+  },
+  {
+   "cid": 1856,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.0009671517764218152
+  },
+  {
+   "cid": 829,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.000715538568329066
+  },
+  {
+   "cid": 865,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.0006293439655564725
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.00033077431726269424
+  },
+  {
+   "cid": 82,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "rerank": 0.0002559122513048351
+  },
+  {
+   "cid": 1112,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.0002371038863202557
+  },
+  {
+   "cid": 621,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.00017772936553228647
+  },
+  {
+   "cid": 84,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "rerank": 8.925268775783479e-05
+  },
+  {
+   "cid": 436,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 8.883949340088293e-05
+  },
+  {
+   "cid": 1792,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 8.008143777260557e-05
+  },
+  {
+   "cid": 1851,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 7.752664532745257e-05
+  },
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 4.0143928345059976e-05
+  },
+  {
+   "cid": 1115,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 3.8235491956584156e-05
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 3.368900070199743e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1407,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "origine": "nativa",
+   "rerank": 0.5058848857879639,
+   "testo": "Dossier di crisi: raccoglie valutazioni, mail, notifiche, DDT resi, esiti\nanalitici, verbale di riesame. Conservazione: 5 anni.\nRegistro delle esercitazioni (mock recall).\n\n10. SIMULAZIONE ANNUALE DI RICHIAMO (MOCK RECALL)\n10.1 Almeno una volta l'anno, senza preavviso agli operativi, RSGQ avvia una\nsimulazione completa su un lotto reale spedito, comprensiva di: ricostruzione\na monte (fino ai lotti di materia prima e bobina film) e a valle (clienti,\nDDT, quantità), mass balance, prova di contatto dei membri del team di crisi,\ncompilazione bozze di comunicazione SENZA INVIO.\n10.2 Criteri di accettazione: ricostruzione >= 99% entro 4 h; reperibilità\nteam >= 80% al primo tentativo di chiamata.\n10.3 Ultima esercitazione eseguita: 07/11/2025, lotto sfida AF-CR-0212\nL25311-L3-T1. Esito: ricostruzione 99,6% in 2 h 20 min; mass balance chiuso\n(scostamento 0,4% = campioni QC non registrati a sistema, azione correttiva\nsulla registrazione campioni chiusa il 28/11/2025); reperibilità 8/9 (avv.\nStorti non raggiunto al primo giro, raggiunto al secondo). ESITO: CONFORME.\nVerbale in dossier esercitazioni.\n10.4 L'esito del mock recall è dato di ingresso del riesame della direzione."
+  },
+  {
+   "cid": 1790,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.004690959583967924,
+   "testo": "[00:15:06] PARLANTE_3: due fermo tecnico linea 1 domattina primo turno smontaggio valvola azoto verifica guarnizione fotografie responsabile fantin con dal maso\n[00:15:15] PARLANTE_3: tre richiamo alla signora grigolon lo faccio io con sara oggi entro le 18 richiesta del frammento per analisi\n[00:15:22] PARLANTE_3: quattro frammento e campione guarnizione ad analytica veneta per caratterizzazione polimero\n[00:15:28] PARLANTE_3: cinque comunicazione a tosano alla dottoressa perbellini la prepariamo domani mattina io e silvia e la firma l'ingegner fantin\n[00:15:35] PARLANTE_2: perche io scusa\n[00:15:37] PARLANTE_3: perche i verbali tecnici li firmi sempre tu marco\n[00:15:40] PARLANTE_2: [risate] va bene va bene\n[00:15:43] PARLANTE_3: sei valutazione ritiro cautelativo decisione entro giovedi quando abbiamo l'esito almeno preliminare da analytica costo stimato trentunmilacinquecento come da foglio della rag trentin\n[00:15:53] PARLANTE_3: sette verifica copertura assicurativa garanzia ritiro richiamo responsabile trentin"
+  },
+  {
+   "cid": 1368,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "origine": "nativa",
+   "rerank": 0.004221019800752401,
+   "testo": "e facciamo da referenza visitabile. Businaro: \"margini di manovra sui\n  servizi, non sulle licenze SAP\"\n- il cugino di Denis lavora in un'azienda che ha messo B1 nel 2023: sentire\n  com'e' andata DAVVERO (Denis dice \"bestemmiano ancora\" ma vuol dire tutto\n  e niente)\n- che fine fa il ns. vecchio gestionale contabile? Innovaway dice che i dati\n  storici \"si possono tenere in sola lettura\". CSB non ha risposto.\n- demo: CSB propone visita referenza CN il 4/06. IMPOSSIBILE, c'e' la\n  pre-verifica Vicentini. chiedere date dopo il 10/06.\n- entrambe le offerte NON includono: lettori barcode aggiuntivi, stampanti\n  etichette nuove (le ns. Zebra 2019 sono compatibili? chiesto, attesa\n  risposta), eventuale cablaggio di rete zona linea 3 (li' il wifi non\n  prende, chiedere a Ivano quanto costa tirare il cavo)\n- 16/05 pomeriggio: chiamata di un terzo fornitore (gestionale italiano,\n  non ricordo il nome, quello della fiera di Parma) che \"vorrebbe farci\n  un'offerta\". per ora parcheggiato, due sono gia' troppi"
+  },
+  {
+   "cid": 922,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "origine": "nativa",
+   "rerank": 0.003340854775160551,
+   "testo": "2026-05-28 00:19:24;CIP01;NOTE_SYS;WRN=COND_PROBE VERIFICA MANUALE RICHIESTA;;WARN;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-28 22:43:20;CIP01;CYCLE_START;P2_LINEA1;;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-28 22:43:24;CIP01;TANK_LEVEL_SODA;84;%;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-28 22:43:28;CIP01;FASE_START;PRERISCIACQUO;;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-28 22:48:28;CIP01;COND;3.7;mS/cm;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-28 22:48:31;CIP01;TT_CIP;21.8;C;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-28 22:48:33;CIP01;FT_CIP;9.6;m3/h;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-28 22:48:36;CIP01;FASE_START;SODA_2PC;;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-28 22:48:37;CIP01;FASE_END;PRERISCIACQUO DUR=300s;;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-28 22:53:36;CIP01;COND;78.2;mS/cm;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-28 22:53:39;CIP01;TT_CIP;75.9;C;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-28 22:58:36;CIP01;COND;72.3;mS/cm;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-28 22:58:39;CIP01;TT_CIP;75.7;C;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-28 23:03:36;CIP01;COND;75.1;mS/cm;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4394,
+ "tempi": {
+  "denso": 0.04,
+  "sparso": 0.3,
+  "rerank": 65.1
+ },
+ "id": "Q072",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:48:12",
+ "secondi": 65.45,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 74.09,
+  "token_prompt": 2143,
+  "token_risposta": 98,
+  "testo_grezzo": "L'ultima simulazione di richiamo è stata eseguita il 07/11/2025, con un esito di 99,6% in 2 ore e 20 minuti, e una reperibilità del 80% al primo tentativo di chiamata.\n\nFONTI: procedura_ritiro_prodotto_CRISI_GDO.txt, registro delle esercitazioni (mock recall)\nCONFIDENZA: alta",
+  "fonti_citate": [
+   "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "registro delle esercitazioni (mock recall)"
+  ],
+  "fonti_fuori_contesto": [
+   "registro delle esercitazioni (mock recall)"
+  ],
+  "confidenza": "alta"
+ }
+}

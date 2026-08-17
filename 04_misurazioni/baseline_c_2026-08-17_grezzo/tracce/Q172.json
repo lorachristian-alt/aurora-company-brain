@@ -1,0 +1,684 @@
+{
+ "domanda": "Chi e' in squadra di emergenza con la formazione in scadenza o gia' scaduta?",
+ "candidati_densi": [
+  {
+   "cid": 1399,
+   "punteggio": 0.5232938783676188,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1820,
+   "punteggio": 0.48781859568124225,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 434,
+   "punteggio": 0.4745937338491066,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1488,
+   "punteggio": 0.47099873515452906,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1398,
+   "punteggio": 0.47070527489156494,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1400,
+   "punteggio": 0.46384668088827885,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1123,
+   "punteggio": 0.45469560167251444,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1426,
+   "punteggio": 0.44845107929010886,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1267,
+   "punteggio": 0.4470233385203111,
+   "file": "organigramma_aziendale_aggiornato_marzo26.pptx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1484,
+   "punteggio": 0.4446583144009528,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1822,
+   "punteggio": 0.444078078105831,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 84,
+   "punteggio": 0.44220143171535337,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1080,
+   "punteggio": 0.4408594804868864,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1086,
+   "punteggio": 0.44084105829333553,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1315,
+   "punteggio": 0.4396894053701865,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1481,
+   "punteggio": 0.43908804918829636,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 432,
+   "punteggio": 0.43672483248908195,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 292,
+   "punteggio": 0.43574775036634755,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1460,
+   "punteggio": 0.43467972260711885,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1432,
+   "punteggio": 0.43445217738475944,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 3,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 82,
+   "punteggio": 18.447736740112305,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 203,
+   "punteggio": 16.872289657592773,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1441,
+   "punteggio": 16.640443801879883,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 610,
+   "punteggio": 16.584516525268555,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 513,
+   "punteggio": 16.520090103149414,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1785,
+   "punteggio": 15.84730339050293,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1321,
+   "punteggio": 15.692122459411621,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1430,
+   "punteggio": 15.682406425476074,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1093,
+   "punteggio": 15.650409698486328,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1459,
+   "punteggio": 14.739358901977539,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 250,
+   "punteggio": 14.624390602111816,
+   "file": "comunicazione_chiusura_estiva_2026.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1483,
+   "punteggio": 14.578661918640137,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 350,
+   "punteggio": 14.54512882232666,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1484,
+   "punteggio": 14.47199535369873,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1154,
+   "punteggio": 14.354756355285645,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 317,
+   "punteggio": 14.341134071350098,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1876,
+   "punteggio": 14.301650047302246,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1707,
+   "punteggio": 14.288613319396973,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1831,
+   "punteggio": 14.207014083862305,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1610,
+   "punteggio": 14.153538703918457,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 10,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1484,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.027799227799227798,
+   "rango_denso": 10,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 82,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1399,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 203,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1820,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1441,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 610,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1488,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 513,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1398,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1400,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1785,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1123,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1321,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1426,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1430,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1093,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 17,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1267,
+   "file": "organigramma_aziendale_aggiornato_marzo26.pptx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1459,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 250,
+   "file": "comunicazione_chiusura_estiva_2026.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1822,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 84,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1483,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1483,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "rerank": 0.452547550201416
+  },
+  {
+   "cid": 1484,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "rerank": 0.4388149678707123
+  },
+  {
+   "cid": 1267,
+   "file": "organigramma_aziendale_aggiornato_marzo26.pptx",
+   "rerank": 0.046476010233163834
+  },
+  {
+   "cid": 1399,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.03520353138446808
+  },
+  {
+   "cid": 1488,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "rerank": 0.012098174542188644
+  },
+  {
+   "cid": 610,
+   "file": "job_description_responsabile_produzione.docx",
+   "rerank": 0.007880665361881256
+  },
+  {
+   "cid": 1093,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.005274116527289152
+  },
+  {
+   "cid": 1820,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "rerank": 0.003303492907434702
+  },
+  {
+   "cid": 1400,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.003258939366787672
+  },
+  {
+   "cid": 1398,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.003101593814790249
+  },
+  {
+   "cid": 82,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "rerank": 0.0028893996495753527
+  },
+  {
+   "cid": 1785,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0024359109811484814
+  },
+  {
+   "cid": 513,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 0.002357813762500882
+  },
+  {
+   "cid": 1430,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "rerank": 0.0023412236478179693
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.00224416796118021
+  },
+  {
+   "cid": 1459,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.0021687804255634546
+  },
+  {
+   "cid": 1822,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "rerank": 0.0016870518447831273
+  },
+  {
+   "cid": 1321,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "rerank": 0.0014562585856765509
+  },
+  {
+   "cid": 1123,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.0010094224708154798
+  },
+  {
+   "cid": 203,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "rerank": 0.000666910142172128
+  },
+  {
+   "cid": 1426,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "rerank": 0.000515582098159939
+  },
+  {
+   "cid": 1441,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "rerank": 0.0005125140305608511
+  },
+  {
+   "cid": 84,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "rerank": 0.00010631506302161142
+  },
+  {
+   "cid": 250,
+   "file": "comunicazione_chiusura_estiva_2026.txt",
+   "rerank": 4.566585994325578e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1483,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "origine": "nativa",
+   "rerank": 0.452547550201416,
+   "testo": "Corradin Emanuele;Operaio Linea 3;Sicurezza specifica rischio alto 12h;11/01/2024;11/01/2029;VALIDO;Bonato & Partners;addestramento carrelli cella DA REGISTRARE (nota RSPP 05/05)\nIlie Petru;Operaio Linea 3;HACCP base;20/04/2023;20/04/2026;SCADUTO;Studio Alimentaria (Vicentini);\nMiotto Sara;Operaia Linea 3;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);\nMiotto Sara;Operaia Linea 3;Sicurezza specifica rischio alto 12h;11/01/2024;11/01/2029;VALIDO;Bonato & Partners;\nBouzid Karim;Operaio Linea 3;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);\nTadiello Federico;Operaio Linea 3;HACCP base;20/04/2023;20/04/2026;SCADUTO;Studio Alimentaria (Vicentini);\nMelnyk Oleg;Operaio Linea 3;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);\nMelnyk Oleg;Operaio Linea 3;Carrello elevatore 12h;18/11/2021;18/11/2026;IN SCADENZA;CFP Veneto Sicuro;\nSbalchiero Damiano;Operaio Linea 3 notte;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);\nSbalchiero Damiano;Operaio Linea 3 notte;Antincendio livello 2 (rischio medio) 8h;30/06/2021;30/06/2026;IN SCADENZA;Bonato & Partners;squadra emergenza - PRIORITA'"
+  },
+  {
+   "cid": 1484,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "origine": "nativa",
+   "rerank": 0.4388149678707123,
+   "testo": "Sbalchiero Damiano;Operaio Linea 3 notte;Antincendio livello 2 (rischio medio) 8h;30/06/2021;30/06/2026;IN SCADENZA;Bonato & Partners;squadra emergenza - PRIORITA'\nMarobin Anna;Operaia confezionamento;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);\nMarobin Anna;Operaia confezionamento;Primo soccorso gruppo B 12h;14/03/2024;14/03/2027;VALIDO;Croce Verde Verona;\nPeretto Chiara;Operaia confezionamento;HACCP base;20/04/2023;20/04/2026;SCADUTO;Studio Alimentaria (Vicentini);\nBa Mamadou;Operaio confezionamento;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);\nFrigo Lucia;Operaia confezionamento;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);\nVisentin Stefano;Operaio confezionamento;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);\nVisentin Stefano;Operaio confezionamento;Sicurezza specifica rischio alto 12h;11/01/2024;11/01/2029;VALIDO;Bonato & Partners;\nFaggionato Nicola;Resp. magazzino e spedizioni;HACCP base;12/06/2024;12/06/2027;VALIDO;Studio Alimentaria (Vicentini);\nFaggionato Nicola;Resp. magazzino e spedizioni;Carrello elevatore 12h;03/03/2023;03/03/2028;VALIDO;CFP Veneto Sicuro;"
+  },
+  {
+   "cid": 1267,
+   "file": "organigramma_aziendale_aggiornato_marzo26.pptx",
+   "origine": "nativa",
+   "rerank": 0.046476010233163834,
+   "testo": "Arzignano (VI) - incarico rinnovato 01/2026\n• Medico competente: dott. Guido Salvalaio\n• RLS: Paolo Bertacco (eletto 11/2024)\n• Preposti: Zanella, Popescu, Ben Salah, Guerra, Faggionato, Dal Maso\n(senza titolo)\n\nSquadre di emergenza\nAddetti primo soccorso:\n• Guerra Roberto (Linea 3)\n• Marobin Anna (confezionamento)\n• Trentin Luisa (uffici)\n• Refosco Sonia (Linea 2)\n• da nominare (turno notte) <- SCOPERTO, urgente\nAddetti antincendio:\n• Bissoli Mirco (turno notte)\n• Faggionato Nicola (magazzino)\n• Sbalchiero Damiano (Linea 3)\n• Dal Maso Ivano (officina)\n• da nominare (uffici piano primo)\n\nvisita ULSS.\nla casella \"da nominare\" primo soccorso notte e' li' da settembre. Bonato l'ha segnalata due volte. Decidere PRIMA della\n(senza titolo)\n\nAmministrazione e HR\n• Amministrazione e contabilita': rag. Luisa Trentin\n• fatturazione attiva/passiva, RIBA, rapporti con UniCredit\n• rapporti con Studio Bellotto & Associati (Lonigo) - dott. A. Bellotto\n• Risorse Umane e segreteria: Federica Sartori (part-time 30h)\n• presenze, paghe (con studio esterno), formazione, selezione\n• centralino/ricevimento: ruota su uffici\n(senza titolo)\n\nRicerca e Sviluppo"
+  },
+  {
+   "cid": 1399,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "origine": "nativa",
+   "rerank": 0.03520353138446808,
+   "testo": "5. TEAM DI CRISI - COMPOSIZIONE E REPERIBILITA'\nIl team di crisi è convocato dal RSGQ o dal Direttore di Stabilimento con\nqualsiasi mezzo (telefono, WhatsApp gruppo \"AURORA CRISI\"). Reperibilità\n24/7 per i ruoli contrassegnati (*).\n\nRuolo                        Titolare                    Telefono\nCoordinatore crisi (*)       ing. Marco Fantin           348 22 41 507\nRSGQ - valutazione rischio(*)dott.ssa Elena Marchetti    347 90 118 62\nQA operativo / segreteria    Sara Pozzato                345 61 30 274\nDirezione / portavoce        Giancarlo Bertoldi (AD)     335 74 402 18\nCommerciale GDO              Silvia Bertoldi             340 55 87 931\nRintracciabilità/magazzino(*)Nicola Faggionato           349 41 76 083\nProduzione                   Denis Zanella               346 88 20 415\nConsulente HACCP             dott.ssa Chiara Vicentini   049 87 655 40 (studio)\nLegale (esterno)             avv. Storti - Verona        045 80 31 226 (ufficio)\nSostituti: per Fantin -> Zanella; per Marchetti -> Pozzato; per Faggionato ->\naddetto spedizioni turno.\nL'elenco è verificato ad ogni revisione e in occasione del mock recall annuale."
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4661,
+ "tempi": {
+  "denso": 0.01,
+  "sparso": 0.2,
+  "rerank": 42.07
+ },
+ "id": "Q172",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:05:41",
+ "secondi": 42.28,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 86.73,
+  "token_prompt": 2102,
+  "token_risposta": 83,
+  "testo_grezzo": "La risposta è: Sbalchiero Damiano, operaio Linea 3 notte, con la formazione in scadenza Antincendio livello 2 (rischio medio) 8h.\n\nFONTI: file: registro_presenze_corsi_HACCP_scaduti.csv, file: organigramma_aziendale_aggiornato_marzo26.pptx",
+  "fonti_citate": [
+   "file: registro_presenze_corsi_HACCP_scaduti.csv",
+   "file: organigramma_aziendale_aggiornato_marzo26.pptx"
+  ],
+  "fonti_fuori_contesto": [
+   "file: registro_presenze_corsi_HACCP_scaduti.csv",
+   "file: organigramma_aziendale_aggiornato_marzo26.pptx"
+  ],
+  "confidenza": "bassa"
+ }
+}

@@ -1,0 +1,681 @@
+{
+ "domanda": "Come e' andato il test di rintracciabilita' fatto durante l'audit?",
+ "candidati_densi": [
+  {
+   "cid": 1603,
+   "punteggio": 0.5348622841835697,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1852,
+   "punteggio": 0.5346717756012288,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1604,
+   "punteggio": 0.5304338871963394,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1856,
+   "punteggio": 0.5142161080013662,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1861,
+   "punteggio": 0.5096965499416551,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1777,
+   "punteggio": 0.5084166865575009,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1243,
+   "punteggio": 0.5037807678593813,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1246,
+   "punteggio": 0.5033737489522696,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 253,
+   "punteggio": 0.5030669689265417,
+   "file": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 615,
+   "punteggio": 0.49925933131164624,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1458,
+   "punteggio": 0.49597184182022774,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 616,
+   "punteggio": 0.49531728840293265,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1462,
+   "punteggio": 0.49483002462726555,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1245,
+   "punteggio": 0.4931428592870354,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1244,
+   "punteggio": 0.4925853121137451,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1769,
+   "punteggio": 0.49249560628233074,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 425,
+   "punteggio": 0.4918563050745809,
+   "file": "elenco_chiavi_e_accessi.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 19,
+   "punteggio": 0.4910384639247795,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1537,
+   "punteggio": 0.49077261792990745,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 281,
+   "punteggio": 0.4900934444439301,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 8,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 19,
+   "punteggio": 17.14381980895996,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1461,
+   "punteggio": 16.72858428955078,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1107,
+   "punteggio": 15.160980224609375,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 578,
+   "punteggio": 14.573712348937988,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1143,
+   "punteggio": 14.10368537902832,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 25,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1108,
+   "punteggio": 14.048293113708496,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 618,
+   "punteggio": 13.97724437713623,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1205,
+   "punteggio": 13.976455688476562,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 27,
+   "origine": "nativa"
+  },
+  {
+   "cid": 573,
+   "punteggio": 13.089970588684082,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 203,
+   "punteggio": 13.05605697631836,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1707,
+   "punteggio": 12.71109390258789,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1430,
+   "punteggio": 12.702610969543457,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 319,
+   "punteggio": 12.557848930358887,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 202,
+   "punteggio": 12.52841567993164,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1615,
+   "punteggio": 12.437410354614258,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1805,
+   "punteggio": 12.326729774475098,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1144,
+   "punteggio": 12.270427703857422,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 26,
+   "origine": "nativa"
+  },
+  {
+   "cid": 250,
+   "punteggio": 12.0159273147583,
+   "file": "comunicazione_chiusura_estiva_2026.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1784,
+   "punteggio": 11.956663131713867,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1847,
+   "punteggio": 11.649184226989746,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 9,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 19,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 17,
+   "origine": "nativa",
+   "rrf": 0.02921395544346364,
+   "rango_denso": 18,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1603,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1461,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1852,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1107,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1604,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 578,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1856,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1143,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 25,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1861,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1108,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1777,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 618,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1243,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1205,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 27,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1246,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 253,
+   "file": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 573,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 203,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 615,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1458,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1707,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 616,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1430,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1603,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.11848471313714981
+  },
+  {
+   "cid": 203,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "rerank": 0.09236511588096619
+  },
+  {
+   "cid": 19,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.04816247895359993
+  },
+  {
+   "cid": 1461,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.012073317542672157
+  },
+  {
+   "cid": 1856,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.00424210075289011
+  },
+  {
+   "cid": 1604,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.003812787588685751
+  },
+  {
+   "cid": 1777,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0038057465571910143
+  },
+  {
+   "cid": 1143,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.003108767792582512
+  },
+  {
+   "cid": 1852,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.0027182125486433506
+  },
+  {
+   "cid": 1205,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.0026318016462028027
+  },
+  {
+   "cid": 1430,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "rerank": 0.0023728511296212673
+  },
+  {
+   "cid": 618,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.0020083426497876644
+  },
+  {
+   "cid": 253,
+   "file": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "rerank": 0.001240856247022748
+  },
+  {
+   "cid": 615,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.0009362342534586787
+  },
+  {
+   "cid": 616,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.0005252037080936134
+  },
+  {
+   "cid": 1243,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.0003783380670938641
+  },
+  {
+   "cid": 1861,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.0002779609931167215
+  },
+  {
+   "cid": 1458,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.0001545804989291355
+  },
+  {
+   "cid": 1246,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.0001324218901572749
+  },
+  {
+   "cid": 1707,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 2.419848897261545e-05
+  },
+  {
+   "cid": 1108,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 1.706564762571361e-05
+  },
+  {
+   "cid": 573,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 1.70563071151264e-05
+  },
+  {
+   "cid": 1107,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 1.678131229709834e-05
+  },
+  {
+   "cid": 578,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 1.671158679528162e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1603,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "origine": "nativa",
+   "rerank": 0.11848471313714981,
+   "testo": "16:45-17:30  Taratura e manutenzione: piano tarature, officina, intervista\n             Dal Maso I. Ispezione officina e carrelli attrezzi.\n17:30-18:00  Riepilogo di fine giornata con RSGQ.\n\nGIORNO 2 - 18/02/2026\n08:30-10:00  Ispezione Linea 2 (croissanteria): impasto, sfogliatura, cella\n             lievitazione, forno FT-02. Intervista capoturno Ben Salah A.\n             Gestione allergeni: verifica cambio produzione, check-list, matrice.\n10:00-11:00  Ispezione Linea 3 e area surgelazione: tunnel TS-01, MD-1800,\n             cella CF-02 (-18 °C). Intervista Guerra R. Sopralluogo magazzino\n             esterno Via Palù 3/A (a campione, 45 min, con Faggionato N.).\n11:00-12:30  Test di rintracciabilità: lotto sfida AF-CR-0215 lotto L26028-L2-T1\n             (28/01/2026) -> mass balance 99,4% in 2 h 50 min. ESITO: CONFORME.\n             Ricostruzione a monte fino ai lotti farina Molino Veneto (F0012) e\n             burro Latteria Bassanese (F0021). Verifica DoC film MOCA Flexipack\n             (F0044) ex Reg. 1935/2004.\n12:30-13:15  Pausa\n13:15-14:30  Food defense / food fraud: piano TACCP/VACCP, vulnerability\n             assessment materie prime, accessi sito. Intervista Fantin M."
+  },
+  {
+   "cid": 203,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "origine": "nativa",
+   "rerank": 0.09236511588096619,
+   "testo": "deve garantire la rintracciabilita' a monte (lotti di granulo, film neutro,\n    inchiostri, adesivi) e a valle (bobine consegnate ad Aurora) e produrre le\n    evidenze entro 4 ore lavorative dalla richiesta in caso di emergenza/ritiro.\n7.7 Il fornitore opera secondo GMP Reg. 2023/2006 con sistema qualita' documentato:\n    controllo processo, gestione set-off inchiostri, controllo materiali non\n    conformi, formazione del personale.\n\n8. REQUISITI IGIENICI DEL SITO PRODUTTIVO DEL FORNITORE\n\n8.1 Certificazione BRCGS Packaging Materials (min. grade B) o FSSC 22000 in corso\n    di validita'. Copia certificato allegata alla qualifica annuale fornitore.\n8.2 Ambienti di produzione e stoccaggio separati, pest control documentato,\n    gestione vetro e plastica dura, indumenti dedicati, divieto gioielli.\n8.3 Aurora si riserva audit di seconda parte con preavviso di 5 gg lavorativi\n    (auditor: RSGQ o consulente incaricato - dott.ssa C. Vicentini, Studio\n    Alimentaria). Mancata disponibilita' all'audit = sospensione qualifica.\n8.4 Trasporto: mezzi puliti, chiusi, senza odori estranei, no promiscuita' con\n    merci chimiche. Vettori abituali accettati: Logistica Zorzi S.a.s. o vettore"
+  },
+  {
+   "cid": 19,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "origine": "nativa",
+   "rerank": 0.04816247895359993,
+   "testo": "11.2 Il Fornitore si impegna a mantenere per tutta la durata dell'Accordo le\n     certificazioni BRCGS Food Safety e IFS Food di cui alla premessa c), comunicando\n     entro 5 giorni lavorativi ogni sospensione, ritiro, downgrade o mancato rinnovo,\n     nonche' l'esito di ogni audit di certificazione con evidenza delle non conformita'\n     rilevate e dei relativi piani di azione.\n11.3 Il Distributore, direttamente o a mezzo dell'Assicurazione Qualita' fornitori\n     (dott.ssa Anna Perbellini) ovvero di terzi incaricati, avra' facolta' di eseguire\n     audit di seconda parte presso lo stabilimento del Fornitore, con preavviso minimo di\n     5 giorni lavorativi, e senza preavviso in caso di allerta, reclamo grave o non\n     conformita' critica. Il Fornitore garantisce l'accesso ai locali, alle registrazioni\n     del sistema HACCP e alle registrazioni di rintracciabilita'.\n11.4 Il Fornitore garantisce l'esecuzione di un esercizio di rintracciabilita' (mass\n     balance) entro 4 ore dalla richiesta, dal lotto di prodotto finito alle materie\n     prime e viceversa.\n11.5 Il Fornitore mantiene attiva idonea copertura assicurativa RC prodotti con massimale"
+  },
+  {
+   "cid": 1461,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "origine": "nativa",
+   "rerank": 0.012073317542672157,
+   "testo": ">>>> Da: Elena Marchetti <e.marchetti@aurorafoodgroup.it>\n>>>> Inviato: martedi 12 maggio 2026 14:33\n>>>> A: Marco Fantin; Denis Zanella\n>>>> Cc: Giancarlo Bertoldi; Sara Pozzato\n>>>> Oggetto: URGENTE - reclamo corpo estraneo lotto L26130\n>>>> Priorita': Alta\n>>>>\n>>>> Buongiorno,\n>>>> e' arrivato alle 13:05 dal form \"contatti\" del sito un reclamo che\n>>>> classifico come GRAVE ai sensi della procedura reclami:\n>>>>\n>>>> Segnalante: sig.ra Milena Grigolon, Bussolengo (VR), tel. lasciato nel form\n>>>> Prodotto: Snack salato rustico multicereali 100 g - AF-SN-0450\n>>>> (private label Tosano \"Bonta' di Casa\"), EAN 8034123450123\n>>>> Lotto stampato: L26130 (dalla foto si legge L26130-L1-T2)\n>>>> Acquisto: punto vendita Tosano di Bussolengo, scontrino conservato\n>>>> Difetto lamentato: FRAMMENTO DI PLASTICA DURA DI COLORE AZZURRO\n>>>> trovato all'interno del prodotto durante il consumo. Nessuna lesione,\n>>>> ma la signora e' comprensibilmente alterata.\n>>>>\n>>>> La signora ha allegato una foto (vedi allegato). Apro il MOD-QA-31 e\n>>>> avvio la rintracciabilita' del lotto. Il lotto L26130-L1-T2 e' del\n>>>> 10/05/2026, Linea 1, turno 2 - lo stesso turno del fermo macchina"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4742,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.2,
+  "rerank": 55.81
+ },
+ "id": "Q071",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:47:06",
+ "secondi": 56.03,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 66.48,
+  "token_prompt": 1924,
+  "token_risposta": 116,
+  "testo_grezzo": "Il test di rintracciabilità fatto durante l'audit è stato eseguito e ha avuto un esito positivo, poiché il lotto L26130-L1-T2 ha mostrato una mass balance del 99,4% in 2 ore e 50 minuti.\n\nFONTI: Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt, RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml\n\nCONFIDENZA: alta",
+  "fonti_citate": [
+   "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "alta"
+ }
+}

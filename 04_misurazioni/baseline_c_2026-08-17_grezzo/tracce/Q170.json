@@ -1,0 +1,681 @@
+{
+ "domanda": "C'e' qualcuno in magazzino che guida il muletto senza abilitazione valida?",
+ "candidati_densi": [
+  {
+   "cid": 1485,
+   "punteggio": 0.5031064604773309,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1228,
+   "punteggio": 0.47907040880170165,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1077,
+   "punteggio": 0.4749874674312845,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1084,
+   "punteggio": 0.46972334398260984,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1662,
+   "punteggio": 0.46769273709475234,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1229,
+   "punteggio": 0.4659084838959693,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1088,
+   "punteggio": 0.46346526397354587,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1612,
+   "punteggio": 0.461160645908991,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1226,
+   "punteggio": 0.46018526750299776,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1186,
+   "punteggio": 0.4593776082782156,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1082,
+   "punteggio": 0.45844188469009606,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1083,
+   "punteggio": 0.4584325142503697,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 85,
+   "punteggio": 0.457861710125146,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 386,
+   "punteggio": 0.4577670836899311,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1661,
+   "punteggio": 0.4568053039453026,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1477,
+   "punteggio": 0.45568998556208173,
+   "file": "registro_estintori_scadenze.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1080,
+   "punteggio": 0.4545797679535699,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1079,
+   "punteggio": 0.4544652634088509,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 128,
+   "punteggio": 0.45353091421538194,
+   "file": "bolla_ingresso_azoto_alimentare_Nordgas_OCR.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1245,
+   "punteggio": 0.45126672594103046,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 11,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 504,
+   "punteggio": 18.259843826293945,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 25,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1113,
+   "punteggio": 16.541114807128906,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1514,
+   "punteggio": 15.586440086364746,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1112,
+   "punteggio": 14.6962890625,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 337,
+   "punteggio": 14.226574897766113,
+   "file": "corso_inglese_aziendale_proposta.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 204,
+   "punteggio": 14.144123077392578,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1108,
+   "punteggio": 13.81460952758789,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 281,
+   "punteggio": 13.679662704467773,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1095,
+   "punteggio": 13.220678329467773,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1884,
+   "punteggio": 13.116026878356934,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1519,
+   "punteggio": 13.04517936706543,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1340,
+   "punteggio": 12.893068313598633,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 510,
+   "punteggio": 12.562379837036133,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1609,
+   "punteggio": 12.148317337036133,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1111,
+   "punteggio": 12.08324146270752,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1236,
+   "punteggio": 11.876382827758789,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1335,
+   "punteggio": 11.86063289642334,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1319,
+   "punteggio": 11.66616439819336,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1173,
+   "punteggio": 11.662782669067383,
+   "file": "Newsletter_Fiere_alimentari_2026_NON_LEGGERE.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 157,
+   "punteggio": 11.549473762512207,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 4,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 504,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 25,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1485,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1113,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1228,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1077,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1514,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1084,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1112,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 337,
+   "file": "corso_inglese_aziendale_proposta.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1662,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 204,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1229,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1088,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1108,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 281,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1612,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1095,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1226,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1186,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1884,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1082,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1519,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1083,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1340,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1485,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "rerank": 0.10246343165636063
+  },
+  {
+   "cid": 1514,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.005360124632716179
+  },
+  {
+   "cid": 1112,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.003002636833116412
+  },
+  {
+   "cid": 1884,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "rerank": 0.002268161391839385
+  },
+  {
+   "cid": 204,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "rerank": 0.0018731252057477832
+  },
+  {
+   "cid": 1229,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.0015931680100038648
+  },
+  {
+   "cid": 1084,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.0012105809291824698
+  },
+  {
+   "cid": 1519,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.0011208384530618787
+  },
+  {
+   "cid": 1662,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "rerank": 0.0010985181434080005
+  },
+  {
+   "cid": 1113,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.0010845641372725368
+  },
+  {
+   "cid": 1108,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.0005647960933856666
+  },
+  {
+   "cid": 1095,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "rerank": 0.0002887415757868439
+  },
+  {
+   "cid": 504,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "rerank": 0.0002696271985769272
+  },
+  {
+   "cid": 1083,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.00025082254433073103
+  },
+  {
+   "cid": 281,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.00024260634381789714
+  },
+  {
+   "cid": 1077,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.0002174486144213006
+  },
+  {
+   "cid": 1088,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.00019860056636389345
+  },
+  {
+   "cid": 1228,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.0001977421488845721
+  },
+  {
+   "cid": 1340,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "rerank": 0.00015613443974871188
+  },
+  {
+   "cid": 1082,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.0001436668389942497
+  },
+  {
+   "cid": 1612,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.0001351117534795776
+  },
+  {
+   "cid": 1186,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 3.680595546029508e-05
+  },
+  {
+   "cid": 337,
+   "file": "corso_inglese_aziendale_proposta.txt",
+   "rerank": 3.224804095225409e-05
+  },
+  {
+   "cid": 1226,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 1.7643027604208328e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1485,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "origine": "nativa",
+   "rerank": 0.10246343165636063,
+   "testo": "Faggionato Nicola;Resp. magazzino e spedizioni;Carrello elevatore 12h;03/03/2023;03/03/2028;VALIDO;CFP Veneto Sicuro;\nFaggionato Nicola;Resp. magazzino e spedizioni;Antincendio livello 2 8h;30/06/2021;30/06/2026;IN SCADENZA;Bonato & Partners;\nFaggionato Nicola;Resp. magazzino e spedizioni;Preposto 8h;22/03/2024;22/03/2026;SCADUTO;Bonato & Partners;\nSegato Alberto;Magazziniere;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);\nSegato Alberto;Magazziniere;Carrello elevatore 12h;03/03/2023;03/03/2028;VALIDO;CFP Veneto Sicuro;\nPreda Radu;Magazziniere;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);\nPreda Radu;Magazziniere;Carrello elevatore 12h;10/04/2021;10/04/2026;SCADUTO;CFP Veneto Sicuro;NON ABILITATO ALLA GUIDA fino a rinnovo - avvisato Faggionato 05/05\nMattiello Gianluca;Magazziniere;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);\nMattiello Gianluca;Magazziniere;Carrello elevatore 12h;03/03/2023;03/03/2028;VALIDO;CFP Veneto Sicuro;\nDal Maso Ivano;Capo officina;Sicurezza specifica rischio alto 12h;03/02/2022;03/02/2027;VALIDO;Bonato & Partners;"
+  },
+  {
+   "cid": 1514,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "origine": "nativa",
+   "rerank": 0.005360124632716179,
+   "testo": "appunti costi fissi / opex 2026 - agg. al 26/05/26 - lt\n(file mio, nn girare a nessuno, i numeri buoni li passo a Bellotto a fine giugno)\n\nriprendo il file dell anno scorso, tolgo quello che nn c'e' piu e aggiungo\nil leasing nuovo. ATTENZIONE: qui NON c'e' il tunnel Criotech, quello e' CapEx,\nsta nel file calcolo_CapEx_linea3, qui solo spese correnti.\n\n\n=== 1. LEASING E NOLEGGI ===============================\n\nLEASING FORNO FT-02 (linea 2, croissanteria)\n  societa: UniCredit Leasing S.p.A.  contratto n. UCL/2022/118374\n  decorrenza 01/03/2022, durata 72 mesi, riscatto 1%\n  canone: 3.850,00 €/mese + iva\n  scad. rata: giorno 05 del mese, RID su c/c UniCredit\n  residuo a fine 2026: 14 rate (fine feb 2028)\n\nLEASING MULETTO ELETTRICO (magazzino Faggionato)\n  Toyota Material Handling - contratto TMHIT-59921\n  canone 612,00 €/mese comprensivo manut. full service e batteria\n  durata 60 mesi da 09/2023\n  (chiedere a Faggionato se il secondo muletto a gpl lo teniamo ancora,\n   fermo da febbraio dietro la CF-02, paghiamo bollo? no il bollo no\n   ma l'assicurazione si, vedi sotto)\n\nLEASING CONFEZIONATRICE PKM-450 (Pakmatic, linea 1)\n  Sella Leasing  contr. n. 44/081152"
+  },
+  {
+   "cid": 1112,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "origine": "nativa",
+   "rerank": 0.003002636833116412,
+   "testo": "spiegare, Marco tu mi devi spiegare, e non in una riunione con dieci persone, tu e io\ndavanti a un caffe\n\ne vi diro di piu, non è nemmeno la plastica in se che mi toglie il sonno, è che ho\navuto la sensazione, in quella riunione di mercoledi, che qualcuno in azienda sapesse\nqualcosa che io non sapevo, e questa cosa in casa mia non deve succedere MAI PIU\n\nQUARTO PUNTO l ERP\n\nsono arrivati i due preventivi per il gestionale, quello tedesco specialista del\nfood e SAP tramite il partner di Padova, li ho guardati ieri sera, cifre da capogiro\ntutti e due, uno vuole centinaia di migliaia di euro in cinque anni e l altro pure e\npoi leggo giornate di consulenza, giornate di formazione, giornate di analisi, tutte\nGIORNATE, ma le giornate le pagano a noi o le paghiamo noi, sembra che il software sia\ngratis e le giornate siano il business\n\npero, e qui vi sorprendo, io non dico di no, perche questa storia della plastica mi\nha fatto capire una cosa, che noi i dati li abbiamo ma non li troviamo, il datalogger\ndice una cosa il registro di carta ne dice un altra la Trentin ha i suoi excel il\nmagazzino ha i suoi la qualita ha i suoi moduli e quando serve ricostruire una"
+  },
+  {
+   "cid": 1884,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "origine": "nativa",
+   "rerank": 0.002268161391839385,
+   "testo": "FT-01, FT-02, PT-104, IMP-300, PKM-450, TS-01, CIP-01, silos, serbatoio criogenico, scaffali\n\nVERIFICA NORD S.r.l. - Organismo Abilitato D.P.R. 462/01 - abilitazione MIMIT D.D. 21/12/2023\nVerbale VT-2026-0912 del 23/04/2026 - pag. 4 - riproduzione consentita solo integrale\npag. 4\nmetallici magazzino, tubazioni). Tutti i valori risultano idonei.\n5.4 Verifica SPD: scaricatori di sovratensione tipo 1+2 in QGBT e tipo 2 nei quadri di\nreparto: indicatori di stato regolari, nessuna cartuccia esaurita.\n5.5 Verifica coordinamento (sistema TN): per i circuiti verificati risulta soddisfatta la\ncondizione Zs x Ia <= Uo ai sensi della Norma CEI 64-8, cap. 41.\n6. Esito della verifica\nESITO: FAVOREVOLE CON PRESCRIZIONI.\nL'impianto di messa a terra risulta idoneo all'esercizio, subordinatamente all'ottemperanza\ndelle prescrizioni che seguono entro i termini indicati.\n7. Prescrizioni\nN.\nPrescrizione\nTermine\nP1\nSostituire il dispositivo differenziale del quadro\nQ-OFF (officina): tempo di intervento a 1xIdn\npari a 342 ms, superiore al limite di 300 ms;\ntrasmettere all'Organismo evidenza fotografica\ndella sostituzione\n15 giorni\nP2\nRipristinare il morsetto del dispersore D3"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4646,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.17,
+  "rerank": 52.26
+ },
+ "id": "Q170",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:04:19",
+ "secondi": 52.45,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 73.06,
+  "token_prompt": 2036,
+  "token_risposta": 102,
+  "testo_grezzo": "Non e' possibile determinare la risposta alla domanda \"C'e' qualcuno in magazzino che guida il muletto senza abilitazione valida?\" senza informazioni aggiuntive sulle abilitazioni dei magazzinieri e sulle condizioni di guida del muletto.\n\nFONTI: registro_presenze_corsi_HACCP_scaduti.csv, verifica_periodica_impianto_terra_DPR462.pdf\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "registro_presenze_corsi_HACCP_scaduti.csv",
+   "verifica_periodica_impianto_terra_DPR462.pdf"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

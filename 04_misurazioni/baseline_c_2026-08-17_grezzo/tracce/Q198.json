@@ -1,0 +1,681 @@
+{
+ "domanda": "Chi sono le persone che rischiano di sforare il tetto annuo degli straordinari, e chi e' il piu' esposto?",
+ "candidati_densi": [
+  {
+   "cid": 1423,
+   "punteggio": 0.5248012620381817,
+   "file": "Prospetto_straordinari_gen-apr_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 290,
+   "punteggio": 0.5035608188771323,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 287,
+   "punteggio": 0.4760112147155101,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 429,
+   "punteggio": 0.47575548556605823,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1082,
+   "punteggio": 0.47000295537071435,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1088,
+   "punteggio": 0.46266420840457967,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 386,
+   "punteggio": 0.4570818329388003,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1324,
+   "punteggio": 0.4539285336099561,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1331,
+   "punteggio": 0.4533548671942408,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1079,
+   "punteggio": 0.4528671227272835,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1085,
+   "punteggio": 0.44820810118481585,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 288,
+   "punteggio": 0.4473998670631971,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 152,
+   "punteggio": 0.44526793387881214,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 625,
+   "punteggio": 0.44494214464448173,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1083,
+   "punteggio": 0.4446726400935651,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 243,
+   "punteggio": 0.4415827810234506,
+   "file": "Circolare_INPS_aliquote_contributive_2026.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1077,
+   "punteggio": 0.4407286571758544,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 99,
+   "punteggio": 0.43581691555367286,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1380,
+   "punteggio": 0.4348742699937364,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 102,
+   "punteggio": 0.43098070591982807,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1423,
+   "punteggio": 24.881071090698242,
+   "file": "Prospetto_straordinari_gen-apr_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1785,
+   "punteggio": 19.83849334716797,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1112,
+   "punteggio": 19.82591438293457,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 604,
+   "punteggio": 19.528223037719727,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 102,
+   "punteggio": 18.52259063720703,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1314,
+   "punteggio": 17.80811882019043,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 326,
+   "punteggio": 17.65973663330078,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1780,
+   "punteggio": 17.500595092773438,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 324,
+   "punteggio": 16.883434295654297,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1527,
+   "punteggio": 16.81941795349121,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 508,
+   "punteggio": 16.440237045288086,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 250,
+   "punteggio": 16.269556045532227,
+   "file": "comunicazione_chiusura_estiva_2026.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1111,
+   "punteggio": 16.17740249633789,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1366,
+   "punteggio": 15.944023132324219,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 243,
+   "punteggio": 15.941137313842773,
+   "file": "Circolare_INPS_aliquote_contributive_2026.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1115,
+   "punteggio": 15.93400764465332,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 256,
+   "punteggio": 15.732518196105957,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 0,
+   "punteggio": 15.730283737182617,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 332,
+   "punteggio": 15.597915649414062,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 255,
+   "punteggio": 15.505905151367188,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 0,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1423,
+   "file": "Prospetto_straordinari_gen-apr_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.03278688524590164,
+   "rango_denso": 1,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 102,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.027884615384615386,
+   "rango_denso": 20,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 243,
+   "file": "Circolare_INPS_aliquote_contributive_2026.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.02649122807017544,
+   "rango_denso": 16,
+   "rango_sparso": 15
+  },
+  {
+   "cid": 290,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1785,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 287,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1112,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 429,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 604,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1082,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1088,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1314,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 326,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 386,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1324,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1780,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 324,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1331,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1079,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1527,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 508,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1085,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 250,
+   "file": "comunicazione_chiusura_estiva_2026.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 288,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1423,
+   "file": "Prospetto_straordinari_gen-apr_2026.xlsx",
+   "rerank": 0.12631337344646454
+  },
+  {
+   "cid": 290,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.009633952751755714
+  },
+  {
+   "cid": 287,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.0018478963756933808
+  },
+  {
+   "cid": 386,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "rerank": 0.0011010272428393364
+  },
+  {
+   "cid": 1079,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.0010665211593732238
+  },
+  {
+   "cid": 1085,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.0008359381463378668
+  },
+  {
+   "cid": 1088,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.0005930385668762028
+  },
+  {
+   "cid": 1082,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.0004739747382700443
+  },
+  {
+   "cid": 326,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.00033473173971287906
+  },
+  {
+   "cid": 288,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.0002324112138012424
+  },
+  {
+   "cid": 1324,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "rerank": 0.00018079625442624092
+  },
+  {
+   "cid": 1314,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "rerank": 0.00015047812485136092
+  },
+  {
+   "cid": 1527,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.00011297466699033976
+  },
+  {
+   "cid": 102,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "rerank": 0.00011033159535145387
+  },
+  {
+   "cid": 1331,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "rerank": 9.676745685283095e-05
+  },
+  {
+   "cid": 429,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 7.100355287548155e-05
+  },
+  {
+   "cid": 324,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 5.966487151454203e-05
+  },
+  {
+   "cid": 243,
+   "file": "Circolare_INPS_aliquote_contributive_2026.txt",
+   "rerank": 5.485395377036184e-05
+  },
+  {
+   "cid": 1785,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 4.903515582554974e-05
+  },
+  {
+   "cid": 1112,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 2.5670418835943565e-05
+  },
+  {
+   "cid": 250,
+   "file": "comunicazione_chiusura_estiva_2026.txt",
+   "rerank": 2.113246409862768e-05
+  },
+  {
+   "cid": 604,
+   "file": "job_description_responsabile_produzione.docx",
+   "rerank": 1.854580477811396e-05
+  },
+  {
+   "cid": 508,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 1.703351881587878e-05
+  },
+  {
+   "cid": 1780,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 1.627308301976882e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1423,
+   "file": "Prospetto_straordinari_gen-apr_2026.xlsx",
+   "origine": "nativa",
+   "rerank": 0.12631337344646454,
+   "testo": "Prospetto ore di straordinario - gennaio/aprile 2026\nelaborazione F. Sartori per la riunione di direzione del 12/05/2026\nfonte: progressivi individuali del libro unico (foglio Straordinari)\n\nREPARTO GENNAIO FEBBRAIO MARZO APRILE TOTALE NOTE\nLINEA 1 123 136 183 223 665\nLINEA 2 332 367 493 600 1792 la linea della promo\nLINEA 3 96 107 143 175 521\nCONFEZ. 44 49 66 81 240\nMAGAZZ. 24 27 36 45 132\nMANUT. 18 20 26 32 96\n\nTOTALE 637 706 947 1156 3446\n\n(Sartori) la Linea 2 pesa da sola piu' di tutti gli altri reparti messi insieme.\n(Sartori) al 30/04 ci sono 5 persone sopra le 200 ore annue. Il tetto contrattuale e' 250.\n(Sartori) il conteggio del sindacato non coincide col nostro: Fantin si e' riservato la verifica.\nMATRICOLA COGNOME REPARTO ORE ANNUE AL 30/04 RESIDUO SU 250\n310 LUPU VASILE LINEA 2 213 37\n302 HOXHA FATJON LINEA 2 212 38\n308 SOW IBRAHIM LINEA 2 211 39\n305 CIOBANU MARIUS LINEA 2 208 42\n306 BERTACCO PAOLO LINEA 2 206 44\n\n(Sartori) Bertacco e' anche RLS: se la RSU solleva la questione, parte da lui.\n(Sartori) la RSU sostiene siano sei: da riscontrare, due dei quali non risultano dai nostri conteggi."
+  },
+  {
+   "cid": 290,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "origine": "nativa",
+   "rerank": 0.009633952751755714,
+   "testo": "di Linea 2 e' pari a 10 unita' a fronte delle 12 previste dal\ndimensionamento interno per i volumi promozionali.\n\nPUNTO 3 - MONTE ORE STRAORDINARIO INDIVIDUALE\n\nIl sig. Campagnolo consegna alla Direzione un prospetto (Allegato 1 al\npresente verbale) elaborato sulla base dei cedolini dei lavoratori\ninteressati, dal quale risulta che alla data del 17/05/2026 i seguenti sei\nlavoratori del reparto Linea 2 presentano un monte ore straordinario annuo\nche, in proiezione sull'esercizio, comporterebbe il superamento del limite\ndi 250 ore annue di cui all'art. 5, comma 3, del D.Lgs. 66/2003, avendo\ngia' superato la soglia oltre la quale il CCNL applicato richiede il\nconfronto con le rappresentanze:\n\n     Lavoratore               Reparto    Ore straord. al 17/05\n     -----------------------------------------------------------\n     Ben Salah Adel           Linea 2            96,5\n     Mansouri Youssef         Linea 2            91,0\n     Lupu Vasile              Linea 2            89,5\n     Sow Ibrahim              Linea 2            84,0\n     Refosco Sonia            Linea 2            78,5\n     Hoxha Fatjon             Linea 2            74,0"
+  },
+  {
+   "cid": 287,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "origine": "nativa",
+   "rerank": 0.0018478963756933808,
+   "testo": "con prestazioni giornaliere che, sommando ordinario e straordinario, hanno\nraggiunto e in taluni casi superato le 10 ore. Richiama l'art. 4 del D.Lgs.\n8 aprile 2003 n. 66 in materia di durata massima dell'orario di lavoro,\ncon particolare riferimento alla durata media massima settimanale di 48 ore\ncomprensive dello straordinario, calcolata sul periodo di riferimento, e\nl'art. 5 del medesimo decreto quanto ai limiti del lavoro straordinario.\nOsserva che il carattere \"sistematico\" dello straordinario contrasta con la\nnatura di strumento eccezionale che l'istituto riveste secondo il CCNL\napplicato.\n\nIl sig. Bertacco (RSU) riferisce che i lavoratori della Linea 2 hanno\nprestato straordinario pressoche' quotidiano nelle ultime quattro settimane,\ncon punte di 2,5 ore giornaliere, e che le comunicazioni di prolungamento\nturno sono avvenute in piu' occasioni il giorno stesso, a turno gia'\niniziato, rendendo impossibile ogni conciliazione con la vita familiare.\n\nL'ing. Fantin, per la Direzione, riconosce che il periodo ha comportato un\nricorso allo straordinario superiore all'ordinario andamento e ne indica la\ncausa negli ordini promozionali del cliente Tosano Cerea S.p.A., pervenuti"
+  },
+  {
+   "cid": 386,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "origine": "nativa",
+   "rerank": 0.0011010272428393364,
+   "testo": "sulla Linea 2, nei periodi di punta commerciale, e' previsto lavoro\ndomenicale.\nPersonale occupato alla data della revisione: n. 50 dipendenti\n(42 addetti alla produzione e turnisti, 8 impiegati/uffici), oltre a\ntirocinanti e personale di ditte esterne in appalto (manutenzioni\nspecialistiche, trasporti, pulizie straordinarie), gestiti mediante\nDUVRI ove applicabile ex art. 26 D.Lgs. 81/2008.\nLa presente revisione 4 recepisce: l'infortunio occorso in data\n28/04/2026 su Linea 3 (schiacciamento dito durante movimentazione teglie,\nprognosi 12 giorni, denuncia INAIL trasmessa nei termini), l'incremento\ndel lavoro straordinario e domenicale su Linea 2 rilevato nel primo\ntrimestre 2026, e il previsto cantiere di sostituzione del tunnel di\nsurgelazione TS-01 con tunnel a spirale Criotech CR-SP180 (secondo\nsemestre 2026).\n1. METODOLOGIA DI VALUTAZIONE\nLa stima del rischio e' condotta secondo la relazione:\nR = P x D\ndove P = probabilita' di accadimento (scala 1-4) e D = magnitudo del\ndanno (scala 1-4).\nValore\nProbabilita' P\nDanno D\n1\nimprobabile\nlieve - infortunio con inabilita' rapidamente\nreversibile\n2\npoco probabile\nmedio - inabilita' reversibile\n3\nprobabile"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4632,
+ "tempi": {
+  "denso": 0.01,
+  "sparso": 0.18,
+  "rerank": 55.07
+ },
+ "id": "Q198",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:25:59",
+ "secondi": 55.26,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 66.53,
+  "token_prompt": 1910,
+  "token_risposta": 122,
+  "testo_grezzo": "Le persone che rischiano di sforare il tetto annuo degli straordinari sono quelli con un monte ore straordinario annuo che, in proiezione sull'esercizio, comporterebbe il superamento del limite di 250 ore annue.\n\nIl lavoratore più esposto è Ben Salah Adel, con un monte ore straordinario annuo di 96,5 ore.\n\nFONTI: contestazione_sindacale_straordinari_Tosano.txt, DVR_estratto_valutazione_rischi_2026.pdf",
+  "fonti_citate": [
+   "contestazione_sindacale_straordinari_Tosano.txt",
+   "DVR_estratto_valutazione_rischi_2026.pdf"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

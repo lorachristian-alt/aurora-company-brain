@@ -1,0 +1,680 @@
+{
+ "domanda": "Quanti hanno l'HACCP base scaduto e in che reparto stanno?",
+ "candidati_densi": [
+  {
+   "cid": 1605,
+   "punteggio": 0.5440455350278519,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1859,
+   "punteggio": 0.5279829877681916,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1198,
+   "punteggio": 0.5147571512402754,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1489,
+   "punteggio": 0.5056880151460973,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1122,
+   "punteggio": 0.5038634584079887,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1266,
+   "punteggio": 0.49796148676353186,
+   "file": "organigramma_aziendale_aggiornato_marzo26.pptx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1433,
+   "punteggio": 0.49195533523076096,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1482,
+   "punteggio": 0.4862421497823156,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1484,
+   "punteggio": 0.4861504074702014,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1388,
+   "punteggio": 0.47969678644155095,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 610,
+   "punteggio": 0.4791067965452056,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1246,
+   "punteggio": 0.4790551317107183,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1488,
+   "punteggio": 0.47560335841253654,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1854,
+   "punteggio": 0.4755727820591957,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1478,
+   "punteggio": 0.4748601258195158,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 618,
+   "punteggio": 0.47315134142781334,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1429,
+   "punteggio": 0.4730421788000628,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 82,
+   "punteggio": 0.4725120840977016,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 603,
+   "punteggio": 0.4721146935341035,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1123,
+   "punteggio": 0.4707333669668531,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 5,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1483,
+   "punteggio": 18.341093063354492,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1479,
+   "punteggio": 18.111778259277344,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1485,
+   "punteggio": 17.719675064086914,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1484,
+   "punteggio": 17.69068145751953,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1480,
+   "punteggio": 17.4330997467041,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1486,
+   "punteggio": 17.272743225097656,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1478,
+   "punteggio": 16.7007999420166,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 505,
+   "punteggio": 16.475605010986328,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 435,
+   "punteggio": 16.393314361572266,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1481,
+   "punteggio": 16.173648834228516,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1482,
+   "punteggio": 16.06354331970215,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 616,
+   "punteggio": 15.519549369812012,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1488,
+   "punteggio": 15.231025695800781,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 578,
+   "punteggio": 14.297554969787598,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 436,
+   "punteggio": 13.827542304992676,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 286,
+   "punteggio": 13.391340255737305,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1433,
+   "punteggio": 13.35773754119873,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1859,
+   "punteggio": 13.086878776550293,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1122,
+   "punteggio": 13.019436836242676,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1557,
+   "punteggio": 12.671531677246094,
+   "file": "ricetta_base_esperimento_snack_salato_v12.txt",
+   "idx": 8,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1484,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.030117753623188408,
+   "rango_denso": 9,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1859,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.028949545078577336,
+   "rango_denso": 2,
+   "rango_sparso": 18
+  },
+  {
+   "cid": 1482,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.028790389395194696,
+   "rango_denso": 8,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1478,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.028258706467661692,
+   "rango_denso": 15,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1122,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.02804284323271665,
+   "rango_denso": 5,
+   "rango_sparso": 19
+  },
+  {
+   "cid": 1433,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.027912386121341344,
+   "rango_denso": 7,
+   "rango_sparso": 17
+  },
+  {
+   "cid": 1488,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.0273972602739726,
+   "rango_denso": 13,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1483,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1605,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1479,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1198,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 20,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1485,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1489,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1480,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1266,
+   "file": "organigramma_aziendale_aggiornato_marzo26.pptx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1486,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 505,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 435,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1388,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1481,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 610,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 616,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1246,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 578,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1489,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "rerank": 0.29897651076316833
+  },
+  {
+   "cid": 1483,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "rerank": 0.2823871970176697
+  },
+  {
+   "cid": 1480,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "rerank": 0.21514096856117249
+  },
+  {
+   "cid": 1479,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "rerank": 0.21070049703121185
+  },
+  {
+   "cid": 1484,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "rerank": 0.19463972747325897
+  },
+  {
+   "cid": 1481,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "rerank": 0.1606946438550949
+  },
+  {
+   "cid": 1482,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "rerank": 0.15530698001384735
+  },
+  {
+   "cid": 1485,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "rerank": 0.14252969622612
+  },
+  {
+   "cid": 1478,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "rerank": 0.141030415892601
+  },
+  {
+   "cid": 1859,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.09380246698856354
+  },
+  {
+   "cid": 1486,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "rerank": 0.0901527926325798
+  },
+  {
+   "cid": 1488,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "rerank": 0.05680559575557709
+  },
+  {
+   "cid": 1433,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "rerank": 0.02927127294242382
+  },
+  {
+   "cid": 1266,
+   "file": "organigramma_aziendale_aggiornato_marzo26.pptx",
+   "rerank": 0.01572788693010807
+  },
+  {
+   "cid": 1198,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.015602539293467999
+  },
+  {
+   "cid": 1605,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.010656893253326416
+  },
+  {
+   "cid": 610,
+   "file": "job_description_responsabile_produzione.docx",
+   "rerank": 0.008643552660942078
+  },
+  {
+   "cid": 1122,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.005278756842017174
+  },
+  {
+   "cid": 1246,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.005134805105626583
+  },
+  {
+   "cid": 1388,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "rerank": 0.004024085123091936
+  },
+  {
+   "cid": 616,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.0026118075475096703
+  },
+  {
+   "cid": 578,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 0.0006445506005547941
+  },
+  {
+   "cid": 435,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 8.51526201586239e-05
+  },
+  {
+   "cid": 505,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 3.6444391298573464e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1489,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "origine": "nativa",
+   "rerank": 0.29897651076316833,
+   "testo": "Bonomo Elisa;Customer service;Sicurezza generale + specifica basso 8h;12/09/2023;12/09/2028;VALIDO;Bonato & Partners;\nBonomo Elisa;Customer service;HACCP base;12/06/2024;12/06/2027;VALIDO;Studio Alimentaria (Vicentini);\nMeneghello Giulia;Tirocinante R&D;HACCP base;;;N/D;Studio Alimentaria (Vicentini);DA FARE prima ingresso 15/06 - sessione giugno\nPeruzzi Erika;Operaia Linea 2;HACCP base;05/05/2024;05/05/2027;VALIDO;Studio Alimentaria (Vicentini);CESSATA 19/04 - riga da eliminare\nTOTALE SCADUTI: 17;;;;;;;conteggio a mano, verificare\nTOTALE IN SCADENZA (entro 90 gg): 5;;;;;;;\nsessione recupero HACCP prenotata: 09/06/2026 mattina, aula mensa, docente Vicentini - max 20 posti;;;;;;;\nsessione preposti + agg.: da confermare con Bonato, proposta 09/06 pomeriggio;;;;;;;"
+  },
+  {
+   "cid": 1483,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "origine": "nativa",
+   "rerank": 0.2823871970176697,
+   "testo": "Corradin Emanuele;Operaio Linea 3;Sicurezza specifica rischio alto 12h;11/01/2024;11/01/2029;VALIDO;Bonato & Partners;addestramento carrelli cella DA REGISTRARE (nota RSPP 05/05)\nIlie Petru;Operaio Linea 3;HACCP base;20/04/2023;20/04/2026;SCADUTO;Studio Alimentaria (Vicentini);\nMiotto Sara;Operaia Linea 3;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);\nMiotto Sara;Operaia Linea 3;Sicurezza specifica rischio alto 12h;11/01/2024;11/01/2029;VALIDO;Bonato & Partners;\nBouzid Karim;Operaio Linea 3;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);\nTadiello Federico;Operaio Linea 3;HACCP base;20/04/2023;20/04/2026;SCADUTO;Studio Alimentaria (Vicentini);\nMelnyk Oleg;Operaio Linea 3;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);\nMelnyk Oleg;Operaio Linea 3;Carrello elevatore 12h;18/11/2021;18/11/2026;IN SCADENZA;CFP Veneto Sicuro;\nSbalchiero Damiano;Operaio Linea 3 notte;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);\nSbalchiero Damiano;Operaio Linea 3 notte;Antincendio livello 2 (rischio medio) 8h;30/06/2021;30/06/2026;IN SCADENZA;Bonato & Partners;squadra emergenza - PRIORITA'"
+  },
+  {
+   "cid": 1480,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "origine": "nativa",
+   "rerank": 0.21514096856117249,
+   "testo": "El Amrani Hassan;Operaio Linea 1;Allergeni (PRPo1);09/10/2025;09/10/2027;VALIDO;interno (Marchetti);\nPeloso Giorgio;Operaio Linea 1 notte;HACCP base;20/04/2023;20/04/2026;SCADUTO;Studio Alimentaria (Vicentini);assente sessione gen - RECUPERO\nPeloso Giorgio;Operaio Linea 1 notte;Sicurezza specifica rischio alto 12h;10/05/2023;10/05/2028;VALIDO;Bonato & Partners;\nMunteanu Cristian;Operaio Linea 1 notte;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);\nBen Salah Adel;Capoturno Linea 2;HACCP avanzato;12/06/2024;12/06/2027;VALIDO;Studio Alimentaria (Vicentini);\nBen Salah Adel;Capoturno Linea 2;Preposto 8h;22/03/2024;22/03/2026;SCADUTO;Bonato & Partners;agg. biennale - prenotato 09/06?\nBen Salah Adel;Capoturno Linea 2;Allergeni (PRPo1);09/10/2025;09/10/2027;VALIDO;interno (Marchetti);\nHoxha Fatjon;Operaio Linea 2;HACCP base;05/05/2024;05/05/2027;VALIDO;Studio Alimentaria (Vicentini);DIMISSIONARIO 31/05 - non pianificare\nMansouri Youssef;Operaio Linea 2;HACCP base;05/05/2024;05/05/2027;VALIDO;Studio Alimentaria (Vicentini);\nMansouri Youssef;Operaio Linea 2;Sicurezza specifica rischio alto 12h;07/07/2021;07/07/2026;IN SCADENZA;Bonato & Partners;agg. entro luglio!"
+  },
+  {
+   "cid": 1479,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "origine": "nativa",
+   "rerank": 0.21070049703121185,
+   "testo": "Perin Luca;Operaio Linea 1;HACCP base;20/04/2023;20/04/2026;SCADUTO;Studio Alimentaria (Vicentini);sessione giugno\nPerin Luca;Operaio Linea 1;Sicurezza specifica rischio alto 12h;10/05/2023;10/05/2028;VALIDO;Bonato & Partners;\nOsei Samuel;Operaio Linea 1;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);\nOsei Samuel;Operaio Linea 1;Sicurezza specifica rischio alto 12h;11/01/2024;11/01/2029;VALIDO;Bonato & Partners;\nVasilescu Andrei;Operaio Linea 1;HACCP base;2023-04-20;2026-04-20;SCADUTO;Studio Alimentaria (Vicentini);\nVasilescu Andrei;Operaio Linea 1;Allergeni (PRPo1);09/10/2025;09/10/2027;VALIDO;interno (Marchetti);\nBogoni Marta;Operaia Linea 1;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);\nBogoni Marta;Operaia Linea 1;Sicurezza specifica rischio alto 12h;11/01/2024;11/01/2029;VALIDO;Bonato & Partners;\nFurlan Alessandro;Operaio Linea 1;HACCP base;20/04/2023;20/04/2026;SCADUTO;Studio Alimentaria (Vicentini);\nEl Amrani Hassan;Operaio Linea 1;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);\nEl Amrani Hassan;Operaio Linea 1;Allergeni (PRPo1);09/10/2025;09/10/2027;VALIDO;interno (Marchetti);"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4321,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.17,
+  "rerank": 43.29
+ },
+ "id": "Q097",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:07:58",
+ "secondi": 43.48,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 75.55,
+  "token_prompt": 2159,
+  "token_risposta": 113,
+  "testo_grezzo": "Non e' possibile determinare la risposta alla domanda con i dati forniti, poiché non sono presenti informazioni specifiche sul reparto in cui lavorano gli impiegati con l'HACCP base scaduto.\n\nFONTI: registro_presenze_corsi_HACCP_scaduti.csv, registro_presenze_corsi_HACCP_scaduti.csv, registro_presenze_corsi_HACCP_scaduti.csv, registro_presenze_corsi_HACCP_scaduti.csv\n\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "registro_presenze_corsi_HACCP_scaduti.csv"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

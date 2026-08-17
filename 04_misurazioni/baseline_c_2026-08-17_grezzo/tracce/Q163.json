@@ -1,0 +1,683 @@
+{
+ "domanda": "Rossi minaccia di delistare la focaccina: quanto ci perdiamo e ha ragione sui numeri?",
+ "candidati_densi": [
+  {
+   "cid": 1832,
+   "punteggio": 0.580129068224427,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1833,
+   "punteggio": 0.5253605462431323,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1829,
+   "punteggio": 0.5225086331266081,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1831,
+   "punteggio": 0.4796626714754414,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1421,
+   "punteggio": 0.459126577660134,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 429,
+   "punteggio": 0.4570564075359608,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1794,
+   "punteggio": 0.45434432719031925,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 21,
+   "origine": "nativa"
+  },
+  {
+   "cid": 531,
+   "punteggio": 0.45071837516994906,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 53,
+   "punteggio": 0.4399580140385536,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 678,
+   "punteggio": 0.43899568312561843,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1779,
+   "punteggio": 0.4384137050515556,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1834,
+   "punteggio": 0.4383017975454344,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 65,
+   "punteggio": 0.43775123466337684,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1780,
+   "punteggio": 0.4373186097931212,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 56,
+   "punteggio": 0.437184513942926,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 70,
+   "punteggio": 0.43481130507872856,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 553,
+   "punteggio": 0.4342336771226527,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 72,
+   "punteggio": 0.43423297876358036,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "idx": 22,
+   "origine": "nativa"
+  },
+  {
+   "cid": 989,
+   "punteggio": 0.4334081388958151,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 55,
+   "origine": "nativa"
+  },
+  {
+   "cid": 998,
+   "punteggio": 0.4330714051528614,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 64,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1832,
+   "punteggio": 29.00267219543457,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1833,
+   "punteggio": 26.017135620117188,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1831,
+   "punteggio": 25.026790618896484,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1835,
+   "punteggio": 22.981704711914062,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1829,
+   "punteggio": 21.718616485595703,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1828,
+   "punteggio": 20.26580238342285,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 436,
+   "punteggio": 17.96509552001953,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 531,
+   "punteggio": 17.10224723815918,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 614,
+   "punteggio": 17.03863525390625,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1830,
+   "punteggio": 16.79339027404785,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1792,
+   "punteggio": 15.98051643371582,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1366,
+   "punteggio": 15.745752334594727,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1113,
+   "punteggio": 15.584166526794434,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1875,
+   "punteggio": 15.364630699157715,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 434,
+   "punteggio": 14.979607582092285,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1778,
+   "punteggio": 14.903580665588379,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 628,
+   "punteggio": 14.892651557922363,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1368,
+   "punteggio": 14.80710220336914,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1707,
+   "punteggio": 14.674710273742676,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1244,
+   "punteggio": 14.557718276977539,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 10,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1832,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.03278688524590164,
+   "rango_denso": 1,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1833,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.03225806451612903,
+   "rango_denso": 2,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1831,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.03149801587301587,
+   "rango_denso": 4,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1829,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.03125763125763126,
+   "rango_denso": 3,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 531,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.029411764705882353,
+   "rango_denso": 8,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1835,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1421,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 429,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1828,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 436,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1794,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 21,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 53,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 614,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 678,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1830,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1779,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1792,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1834,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 65,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1113,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1780,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1875,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 56,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": 15,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1832,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.9742698669433594
+  },
+  {
+   "cid": 1833,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.9113925099372864
+  },
+  {
+   "cid": 1831,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.7844496369361877
+  },
+  {
+   "cid": 1829,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.4329892098903656
+  },
+  {
+   "cid": 1834,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.0742807537317276
+  },
+  {
+   "cid": 1421,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "rerank": 0.06965324282646179
+  },
+  {
+   "cid": 1828,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.036863505840301514
+  },
+  {
+   "cid": 1830,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.03628194332122803
+  },
+  {
+   "cid": 1794,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.03296099603176117
+  },
+  {
+   "cid": 1779,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.014537915587425232
+  },
+  {
+   "cid": 1835,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.014005141332745552
+  },
+  {
+   "cid": 678,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "rerank": 0.006838130299001932
+  },
+  {
+   "cid": 614,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.005091473460197449
+  },
+  {
+   "cid": 1875,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "rerank": 0.003351926803588867
+  },
+  {
+   "cid": 531,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "rerank": 0.0019226731965318322
+  },
+  {
+   "cid": 1792,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0015528809744864702
+  },
+  {
+   "cid": 1780,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.001516197808086872
+  },
+  {
+   "cid": 429,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.0013637513620778918
+  },
+  {
+   "cid": 436,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.0007526685949414968
+  },
+  {
+   "cid": 53,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "rerank": 0.0001920785434776917
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.00017631657829042524
+  },
+  {
+   "cid": 56,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "rerank": 0.00013236419181339443
+  },
+  {
+   "cid": 65,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "rerank": 0.000117155046609696
+  },
+  {
+   "cid": 1113,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 5.2804785809712484e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1832,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "origine": "nativa",
+   "rerank": 0.9742698669433594,
+   "testo": "una cosa alla volta\n[] risposta scritta entro 15/5 — chi la firma? silvia o direttamente Giancarlo?\n\nnota mia: Rossi stavolta nn recitava. l'anno scorso su questi toni poi ha chiuso a\nmeta'. stavolta ha la tabella. secondo me il -4,5 diventa -3 se gli diamo il listing\nsenza fare storie. ma sul cornetto cosi' NN SI PUO', gia' adesso ci guadagnamo\nniente.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDa: Paolo Zampieri <p.zampieri.agente@gmail.com>\nA: Silvia Bertoldi <s.bertoldi@aurorafoodgroup.it>\nInviato: martedi' 5 maggio 2026 19:47\nOggetto: incontro Tosano stamattina - URGENTE risposta entro 15/5\n\nCiao Silvia,\n\nuscito ora ora dal giro, ti scrivo dal telefono scusa la forma. Ti riassumo Cerea di\nstamattina, poi ci sentiamo a voce domani che e' meglio.\n\nRossi chiede:\n- meno 4,5% su tutto il listino, da giugno\n- 12.000 euro di listing per il 3+1 (lo 0455), in cambio apre tutti i pdv\n- risposta SCRITTA entro il 15\n- ci rivediamo il 19 alle 9.30\n\nPoi ha minacciato (sorridendo, ma ha minacciato) di delistare la focaccina a settembre\ne ha detto che la direzione gli chiede un secondo fornitore sulla PL. Ha fatto vedere"
+  },
+  {
+   "cid": 1833,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "origine": "nativa",
+   "rerank": 0.9113925099372864,
+   "testo": "Poi ha minacciato (sorridendo, ma ha minacciato) di delistare la focaccina a settembre\ne ha detto che la direzione gli chiede un secondo fornitore sulla PL. Ha fatto vedere\nuna tabella con un concorrente che sul cornetto starebbe 12 punti sotto di noi, un\npugliese mi pare, Panem qualcosa, sto verificando.\n\nTestuale: \"con questi numeri non ci sto dentro\".\n\nNota positiva: sul multicereali non ha chiesto niente, dice che gira bene, e la promo\ne' andata fortissimo (+180% dice lui). Il problema vero e' il cornetto 0215, e li'\nSilvia te lo dico chiaro, gia' oggi il margine e' un fazzoletto, con il -4,5 secondo\nme andiamo sotto. Ma i conti li deve fare la Trentin con i costi veri, non io col\nlistino di gennaio.\n\nSul contributo promo al posto dello sconto secco non ha detto no. Secondo me e' li'\nche si tratta.\n\nAllego foto degli appunti (3 pagine). vedi allegato\n<foto_appunti_1.jpg> <foto_appunti_2.jpg> <cid:image001.png@01DC7E12.4A88B2F0>\n\nChiamami domani mattina dopo le 9 che prima sono in macchina verso Rossetto.\n\nPaolo\n\nPaolo Zampieri\nAgente di commercio - canale GDO Nord Est\ncell. 348 06 71 2XX\nInviato dal mio iPhone\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+  },
+  {
+   "cid": 1831,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "origine": "nativa",
+   "rerank": 0.7844496369361877,
+   "testo": "varie:\n- Perbellini (QA) nn c'entrava nulla ma e' passata a salutare, chiesto come va la\n  pratica dei fornitori, rinnovo questionario qualita' entro fine mese → GIRARE A\n  MARCHETTI\n- a banchina casino, 40 min di coda x uscire dal piazzale, camion ovunque x la promo\n- Rossi a fine incontro, sulla porta: \"Paolo, io con voi lavoro bene, ma i numeri\n  sono numeri. portami una cosa seria il 19\"\n\nDA FARE PRIMA DEL 19/5:\n[] conto margine con -4,5 su TUTTE le referenze, ma sopratutto 0215 → chiedere a\n   Trentin i costi industriali AGGIORNATI (quelli del listino sono di gennaio!!)\n[] capire quanto vale davvero il 3+1 (chiedere sell out promo a Rossi? li passa?)\n[] controproposta: -4,5 secco NO. ipotesi: -2 sul listino + resto in contributo\n   promo condizionato ai volumi? sentire silvia\n[] verificare chi e' il pugliese. Panem... chiedere in giro (Faggionato conosce\n   un autista che carica anche x loro mi pare)\n[] focaccina: o promo a settembre o si perde. parlarne DOPO aver chiuso il resto,\n   una cosa alla volta\n[] risposta scritta entro 15/5 — chi la firma? silvia o direttamente Giancarlo?\n\nnota mia: Rossi stavolta nn recitava. l'anno scorso su questi toni poi ha chiuso a"
+  },
+  {
+   "cid": 1829,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "origine": "nativa",
+   "rerank": 0.4329892098903656,
+   "testo": "1) -4,5% su TUTTO il listino 2026/2027, da subito, gia' dagli ordini di giugno\n2) listing fee 12.000 € per mettere dentro il formato promo 3+1 (AF-SN-0455) su tutta\n   la rete, dice \"quaranta punti vendita, te li apro tutti, ma l'ingresso si paga\"\n3) vuole risposta scritta entro il 15/5 !!!! dieci giorni\n4) prossimo incontro gia' fissato: 19/5 ore 9.30 sempre a Cerea\n\nminacce (dette col sorriso ma dette):\n- la focaccina AF-FC-0330 \"gira poco, se nn mi date una mano sul prezzo a settembre\n  la delisto e ci metto altro\" → DELISTING FOCACCINA, da prendere sul serio? rotaz.\n  effettivam. bassa, i dati sell out che ci passano lo dicono anche loro\n- \"e comunque la direzione mi chiede un secondo fornitore sulla private label, non\n  posso stare con un fornitore solo sul forno, capiscimi\" → vogliono affiancarci\n  qcn. chiesto se e' una minaccia o una policy, dice \"e' prudenza\"\n- sul multicereali (0450) invece nn ha toccato il prezzo, dice che va bene, \"quello\n  gira\", quindi il problema vero e' il CORNETTO 0215\n\ncose dette da me:\n- che il burro e' su del 20 e passa % e il girasole +11 (Oleificio Adriatico, ho"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4652,
+ "tempi": {
+  "denso": 0.01,
+  "sparso": 0.18,
+  "rerank": 47.96
+ },
+ "id": "Q163",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:58:44",
+ "secondi": 48.15,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 67.75,
+  "token_prompt": 1940,
+  "token_risposta": 89,
+  "testo_grezzo": "Rossi minaccia di delistare la focaccina, ma non fornisce dati specifici su quanto ci perdiamo. Non è possibile calcolare la perdita senza conoscere i costi industriali aggiornati di Trentin.\n\nFONTI: verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt, Paolo Zampieri\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "Paolo Zampieri"
+  ],
+  "fonti_fuori_contesto": [
+   "Paolo Zampieri"
+  ],
+  "confidenza": "bassa"
+ }
+}

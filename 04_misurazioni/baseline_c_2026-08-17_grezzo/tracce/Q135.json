@@ -1,0 +1,681 @@
+{
+ "domanda": "Il riepilogo di giugno in fondo allo scadenzario è coerente?",
+ "candidati_densi": [
+  {
+   "cid": 166,
+   "punteggio": 0.5243694849012904,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1629,
+   "punteggio": 0.5045065342097262,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1686,
+   "punteggio": 0.5026314525154054,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1856,
+   "punteggio": 0.4989430966827142,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1607,
+   "punteggio": 0.49151618974988165,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 293,
+   "punteggio": 0.4888750969983109,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 251,
+   "punteggio": 0.4876642085678426,
+   "file": "comunicazione_chiusura_estiva_2026.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1854,
+   "punteggio": 0.4869209340513201,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1322,
+   "punteggio": 0.48679114579955934,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 608,
+   "punteggio": 0.48522579770474694,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1827,
+   "punteggio": 0.4849786977498924,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1368,
+   "punteggio": 0.482322780254861,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1375,
+   "punteggio": 0.4805192612242025,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1617,
+   "punteggio": 0.48043736412858706,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 348,
+   "punteggio": 0.4796338276613314,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 922,
+   "punteggio": 0.4793735190191569,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 100,
+   "origine": "nativa"
+  },
+  {
+   "cid": 613,
+   "punteggio": 0.4774614279043772,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1411,
+   "punteggio": 0.4772781322409648,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1863,
+   "punteggio": 0.47509932658680676,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 405,
+   "punteggio": 0.4738462484274263,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 6,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 579,
+   "punteggio": 14.849508285522461,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1189,
+   "punteggio": 12.737655639648438,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1387,
+   "punteggio": 12.706899642944336,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 292,
+   "punteggio": 12.456647872924805,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 293,
+   "punteggio": 12.401801109313965,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1629,
+   "punteggio": 12.28475570678711,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1386,
+   "punteggio": 12.201835632324219,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1857,
+   "punteggio": 11.887214660644531,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 513,
+   "punteggio": 11.598520278930664,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1812,
+   "punteggio": 11.584417343139648,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 322,
+   "punteggio": 11.553409576416016,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 143,
+   "punteggio": 11.481282234191895,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 323,
+   "punteggio": 11.467309951782227,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1802,
+   "punteggio": 11.44980525970459,
+   "file": "verbale_assemblea_condominio_capannone.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 170,
+   "punteggio": 11.255537986755371,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1246,
+   "punteggio": 10.88737678527832,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1613,
+   "punteggio": 10.656085968017578,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1110,
+   "punteggio": 10.395444869995117,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1108,
+   "punteggio": 10.365139961242676,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1221,
+   "punteggio": 10.364951133728027,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 10,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1629,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.03128054740957967,
+   "rango_denso": 2,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 293,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.030536130536130537,
+   "rango_denso": 6,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 166,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 579,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1189,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1387,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1686,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 292,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1856,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1607,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 251,
+   "file": "comunicazione_chiusura_estiva_2026.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1386,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1854,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1857,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 513,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1322,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 608,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1812,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 322,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1827,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 143,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1368,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 323,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1375,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1629,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "rerank": 0.05597538873553276
+  },
+  {
+   "cid": 143,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "rerank": 0.015301569364964962
+  },
+  {
+   "cid": 166,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "rerank": 0.010285407304763794
+  },
+  {
+   "cid": 1189,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.006489668507128954
+  },
+  {
+   "cid": 292,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.0054532610811293125
+  },
+  {
+   "cid": 513,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 0.0053311912342906
+  },
+  {
+   "cid": 1857,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.004833165090531111
+  },
+  {
+   "cid": 293,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.0044009084813296795
+  },
+  {
+   "cid": 579,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 0.004286705516278744
+  },
+  {
+   "cid": 608,
+   "file": "job_description_responsabile_produzione.docx",
+   "rerank": 0.0013601875398308039
+  },
+  {
+   "cid": 251,
+   "file": "comunicazione_chiusura_estiva_2026.txt",
+   "rerank": 0.0006854714592918754
+  },
+  {
+   "cid": 1812,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.00039822940016165376
+  },
+  {
+   "cid": 1322,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "rerank": 0.0003895936533808708
+  },
+  {
+   "cid": 1375,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "rerank": 0.00038128337473608553
+  },
+  {
+   "cid": 1387,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "rerank": 0.00031569533166475594
+  },
+  {
+   "cid": 1607,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.00023901820532046258
+  },
+  {
+   "cid": 1856,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.00020017965289298445
+  },
+  {
+   "cid": 1368,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.0001905486424220726
+  },
+  {
+   "cid": 1686,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "rerank": 0.00017429370200261474
+  },
+  {
+   "cid": 1827,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "rerank": 0.00014952625497244298
+  },
+  {
+   "cid": 1854,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.00014259656018111855
+  },
+  {
+   "cid": 322,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.0001240623532794416
+  },
+  {
+   "cid": 1386,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "rerank": 7.190523319877684e-05
+  },
+  {
+   "cid": 323,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 3.718592779478058e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1629,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "origine": "nativa",
+   "rerank": 0.05597538873553276,
+   "testo": "riepilogo mio a matita - NON e' contabilita';;;;;;;;;\n;incassi attesi giugno (se Tosano paga il 10 e i 3 insoluti rientrano);;;;154.281,29;;;;somma mia veloce, da ricontrollare\n;uscite giugno (senza F24 fa gia' paura lo stesso);;;;178.902,44;;;;sbilancio ~24.621 + F24 68.414 = anticipo fatture ancora su, rientra a luglio con le RIBA Tosano di aprile\n;nb insoluti totali aperti;;;;8.229,04;;;;3 posizioni: Grossmarket 3.412,60 + Perin 1.876,44 + Cavazza 2.940,00\n;promemoria: appendice macchinari Generali PRIMA della consegna tunnel (settembre);;;;;;;;"
+  },
+  {
+   "cid": 143,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "origine": "nativa",
+   "rerank": 0.015301569364964962,
+   "testo": "distributore, TICA in emissione, tempi stimati 60 gg lavorativi.\nPROSSIMA FATTURA: emissione prevista 08/07/2026 (consumi giugno 2026).\nAutolettura: non prevista per utenze MT telegestite.\nInformativa privacy Reg. UE 2016/679 su www.venetaenergia.it/privacy.\nForo competente: Padova. Condizioni Generali di Fornitura rev. 2025/2.\n-------------------------------------------------------------------------------\nRIEPILOGO SINTETICO PER LA CONTABILITA'\nFattura 2026/00458821 - 08/06/2026 - AURORA FOOD GROUP SRL - 00274415\nImponibile 30.949,18 + IVA 10% 3.094,92 = TOTALE 34.044,10 EUR - SDD 30/06/2026\n(registrata da Trentin L. il 09/06 - ctr budget energia mag: +9,4% su apr,\nvedi nota x Fantin: incidenza kWh/kg 0,412 - cella CF-02 e turni dom L2)\n-------------------------------------------------------------------------------"
+  },
+  {
+   "cid": 166,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "origine": "nativa",
+   "rerank": 0.010285407304763794,
+   "testo": "maggio Linea 1 189528 0.7384 3715.87 5100\nmaggio Linea 2 111987 1.1803 3955.31 3800\nmaggio Linea 3 62072 1.6477 3220.21 7400\n--- da qui in poi BUDGET, sopra CONSUNTIVO ---\n\ngiugno Linea 1 184600 0.7387 2267.99 5100\ngiugno Linea 2 104363 1.1906 3795.16 3800\ngiugno Linea 3 57987 1.643 4156.08 7400\nluglio Linea 1 155087 0.7439 3744.27 5100\nluglio Linea 2 87617 1.1847 3186.82 3800\nluglio Linea 3 47609 1.6383 2258.3 7400\nagosto Linea 1 144193 0.7463 2842.15 5100\nagosto Linea 2 78931 1.1825 2443.96 3800\nagosto Linea 3 44030 1.6427 2693.2 7400\nsettembre Linea 1 179745 0.7417 2446.97 5100\nsettembre Linea 2 102425 1.1861 1986.61 3800\nsettembre Linea 3 57961 1.6441 3252.51 7400\nottobre Linea 1 178849 0.7469 3768.4 5100\nottobre Linea 2 106427 1.1944 2273.07 3800\nottobre Linea 3 60118 1.6403 4039.99 7400\nnovembre Linea 1 187500 0.7441 2126.81 5100\nnovembre Linea 2 107237 1.1871 2645.07 3800\nnovembre Linea 3 59176 1.6371 2781.29 7400\ndicembre Linea 1 196450 0.7388 4194.98 5100\ndicembre Linea 2 112032 1.1929 1823.63 3800\ndicembre Linea 3 63000 1.6504 2647.19 7400\nTOTALE 2026\nConsuntivo gennaio - maggio 2026 (da contabilità analitica)"
+  },
+  {
+   "cid": 1189,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "origine": "nativa",
+   "rerank": 0.006489668507128954,
+   "testo": "NC-2026-043;09/03/2026;interna;Linea 1;Focaccina AF-FC-0330 con colore fondo disomogeneo turno 1, 6 teglie declassate;AF-FC-0330 L26068-L1-T1;bassa;zona forno FT-01 con resistenza degradata;segnalato a manutenzione, taratura profilo cottura;Popescu I.;13/03/2026;CHIUSA;270,00\nNC-2026-044;10/03/2026;interna;Qualità;Esercitazione annuale di rintracciabilita: completata in 3 h 50 min, entro il limite di 4 h della PRO-QA-14 ma vicino alla soglia;AF-SN-0450 L26068-L1-T2;media;estrazione dati spedizioni manuale da piu fogli Excel;azione: valutare modulo tracciabilita ERP (v. progetto CSB/SAP);Marchetti E.;;IN CORSO;\nNC-2026-045;11/03/2026;interna;Linea 3;Interruzione elettrica 18 min, TS-01 in ripartenza lenta, monitoraggio T cuore straordinario;L26070-L3-T2;media;microinterruzione rete Veneta Energia;verifica gruppo continuita solo su datalogger, ok;Guerra R.;13/03/2026;CHIUSA;390,00\nNC-2026-046;12/03/2026;interna;Amministrazione;Scadenzario RIBA: insoluto tecnico su incasso grossista Ho.Re.Ca., ripresentato;;bassa;coordinate variate non comunicate;anagrafica aggiornata;Trentin L.;19/03/2026;CHIUSA;25,00"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 3634,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.19,
+  "rerank": 35.42
+ },
+ "id": "Q135",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:37:38",
+ "secondi": 35.63,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 52.87,
+  "token_prompt": 1845,
+  "token_risposta": 46,
+  "testo_grezzo": "La risposta è: no\nFONTI: scadenzario_effetti_RIBA_giugno26.csv, budget_2026_vs_consuntivo_per_linea.xlsx\nCONFIDENZA: alta",
+  "fonti_citate": [
+   "scadenzario_effetti_RIBA_giugno26.csv",
+   "budget_2026_vs_consuntivo_per_linea.xlsx"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "alta"
+ }
+}

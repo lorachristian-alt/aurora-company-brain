@@ -1,0 +1,681 @@
+{
+ "domanda": "Quanti lavaggi CIP abbiamo fatto a maggio sulla Linea 1 e quanti sono andati storti?",
+ "candidati_densi": [
+  {
+   "cid": 575,
+   "punteggio": 0.546816760804,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 82,
+   "punteggio": 0.542784214137104,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 573,
+   "punteggio": 0.5386732372147895,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 842,
+   "punteggio": 0.52145975167375,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 825,
+   "punteggio": 0.519334292694954,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 905,
+   "punteggio": 0.518945764355299,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 83,
+   "origine": "nativa"
+  },
+  {
+   "cid": 929,
+   "punteggio": 0.5181571636964675,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 107,
+   "origine": "nativa"
+  },
+  {
+   "cid": 873,
+   "punteggio": 0.5169768479584178,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 51,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1645,
+   "punteggio": 0.5162779047228492,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 877,
+   "punteggio": 0.5157217063390791,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 55,
+   "origine": "nativa"
+  },
+  {
+   "cid": 881,
+   "punteggio": 0.5153185504980302,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 59,
+   "origine": "nativa"
+  },
+  {
+   "cid": 829,
+   "punteggio": 0.5151011415332439,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 849,
+   "punteggio": 0.5117370333502158,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 27,
+   "origine": "nativa"
+  },
+  {
+   "cid": 892,
+   "punteggio": 0.5097136931308981,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 70,
+   "origine": "nativa"
+  },
+  {
+   "cid": 933,
+   "punteggio": 0.5082202868214288,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 111,
+   "origine": "nativa"
+  },
+  {
+   "cid": 865,
+   "punteggio": 0.5078536552163416,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 43,
+   "origine": "nativa"
+  },
+  {
+   "cid": 850,
+   "punteggio": 0.5075277721028417,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 28,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1644,
+   "punteggio": 0.5070888795185323,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 841,
+   "punteggio": 0.5063133205688538,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1659,
+   "punteggio": 0.5059558222581688,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 7,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 431,
+   "punteggio": 19.4754581451416,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 433,
+   "punteggio": 16.724586486816406,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 434,
+   "punteggio": 16.649681091308594,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 289,
+   "punteggio": 16.633411407470703,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 430,
+   "punteggio": 16.5367488861084,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 435,
+   "punteggio": 15.4525785446167,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1246,
+   "punteggio": 15.37453556060791,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1443,
+   "punteggio": 15.228829383850098,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1789,
+   "punteggio": 15.209024429321289,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 436,
+   "punteggio": 14.299017906188965,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 109,
+   "punteggio": 13.767206192016602,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1774,
+   "punteggio": 13.596384048461914,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1311,
+   "punteggio": 13.432113647460938,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 272,
+   "punteggio": 13.400525093078613,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 510,
+   "punteggio": 13.383316040039062,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 531,
+   "punteggio": 13.351249694824219,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1707,
+   "punteggio": 13.228531837463379,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 618,
+   "punteggio": 13.217517852783203,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 261,
+   "punteggio": 13.037782669067383,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1557,
+   "punteggio": 12.863846778869629,
+   "file": "ricetta_base_esperimento_snack_salato_v12.txt",
+   "idx": 8,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 575,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 82,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 433,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 573,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 289,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 842,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 20,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 825,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 435,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 905,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 83,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 929,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 107,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1246,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 873,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 51,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1443,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1645,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1789,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 436,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 877,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 55,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 109,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 881,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 59,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 829,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1774,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 573,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 0.1350090652704239
+  },
+  {
+   "cid": 829,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.10084186494350433
+  },
+  {
+   "cid": 877,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.09971248358488083
+  },
+  {
+   "cid": 1645,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "rerank": 0.0984015092253685
+  },
+  {
+   "cid": 881,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.0959743857383728
+  },
+  {
+   "cid": 929,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.09255389124155045
+  },
+  {
+   "cid": 842,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.08853894472122192
+  },
+  {
+   "cid": 825,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.07462990283966064
+  },
+  {
+   "cid": 905,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.07141619175672531
+  },
+  {
+   "cid": 82,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "rerank": 0.06596041470766068
+  },
+  {
+   "cid": 873,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.06065157800912857
+  },
+  {
+   "cid": 575,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 0.05537162348628044
+  },
+  {
+   "cid": 1789,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.022089751437306404
+  },
+  {
+   "cid": 1774,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.013083714991807938
+  },
+  {
+   "cid": 109,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "rerank": 0.01039799489080906
+  },
+  {
+   "cid": 435,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.008231542073190212
+  },
+  {
+   "cid": 1246,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.00544004375115037
+  },
+  {
+   "cid": 433,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.0022204690612852573
+  },
+  {
+   "cid": 436,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.0016048782272264361
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.0014010611921548843
+  },
+  {
+   "cid": 289,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.0013236349914222956
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.0012550510000437498
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.000666359905153513
+  },
+  {
+   "cid": 1443,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "rerank": 6.139012111816555e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 573,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "origine": "nativa",
+   "rerank": 0.1350090652704239,
+   "testo": "AURORA FOOD GROUP S.r.l. — ISTRUZIONE OPERATIVA IO-05\n\nLAVAGGIO CIP IMPIANTO CIP-01 — LINEE E SERBATOI\n\n\nQUESTA ISTRUZIONE È PER GLI OPERATORI AUTORIZZATI AL CIP. SE NON HAI FATTO LA FORMAZIONE (MOD-HR-11) NON PUOI AVVIARE UN LAVAGGIO. CHIEDI AL CAPOTURNO.\n\n[Marchetti E. - rev.4: aggiunta la tabella programmi per linea e il paragrafo 9 sul ciclo interrotto, dopo il fermo del 03/12/2025. Distribuita in bacheca linee 1-2-3 e in sala CIP.]\n\n1. A COSA SERVE\n\nIl CIP (Cleaning In Place) lava le tubazioni, i serbatoi e le parti a contatto con il prodotto SENZA smontarle. Si usano prodotti chimici FORTI. Se sbagli concentrazione o temperatura, il lavaggio non pulisce oppure rovina l'impianto. Se sbagli il risciacquo, la chimica finisce nel prodotto.\n\nIL RISCIACQUO FINALE NON SI SALTA MAI. MAI.\n\n2. DPI OBBLIGATORI\n\nPrima di toccare taniche, pompe dosatrici o attacchi CIP devi indossare:\n\nocchiali a mascherina (NON bastano gli occhiali normali)\nvisiera durante il travaso manuale delle taniche\nguanti in neoprene lunghi al gomito\ngrembiule antiacido\nstivali in gomma"
+  },
+  {
+   "cid": 829,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "origine": "nativa",
+   "rerank": 0.10084186494350433,
+   "testo": "2026-05-03 22:58:46;CIP01;FASE_END;SANIF_PAA DUR=600s;;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-03 23:03:45;CIP01;COND;0.8;mS/cm;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-03 23:03:48;CIP01;TT_CIP;16.7;C;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-03 23:08:45;CIP01;COND;0.4;mS/cm;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-03 23:08:48;CIP01;TT_CIP;16.8;C;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-03 23:08:50;CIP01;FT_CIP;9.8;m3/h;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-03 23:08:54;CIP01;FASE_END;RISCIACQUO_FIN DUR=600s;;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-03 23:09:05;CIP01;CYCLE_END;ESITO=PASS;;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-04 23:28:37;CIP01;CYCLE_START;P2_LINEA1;;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-04 23:28:41;CIP01;TANK_LEVEL_SODA;66;%;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-04 23:28:45;CIP01;FASE_START;PRERISCIACQUO;;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-04 23:33:45;CIP01;COND;2.8;mS/cm;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-04 23:33:48;CIP01;TT_CIP;22.9;C;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-04 23:33:50;CIP01;FT_CIP;9.6;m3/h;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M"
+  },
+  {
+   "cid": 877,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "origine": "nativa",
+   "rerank": 0.09971248358488083,
+   "testo": "2026-05-15 23:46:09;CIP01;FT_CIP;9.3;m3/h;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-15 23:46:12;CIP01;FASE_START;RISCIACQUO_FIN;;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-15 23:46:13;CIP01;FASE_END;SANIF_PAA DUR=600s;;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-15 23:51:12;CIP01;COND;0.6;mS/cm;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-15 23:51:15;CIP01;TT_CIP;17.0;C;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-15 23:56:12;CIP01;COND;0.6;mS/cm;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-15 23:56:15;CIP01;TT_CIP;18.9;C;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-15 23:56:17;CIP01;FT_CIP;9.7;m3/h;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-15 23:56:21;CIP01;FASE_END;RISCIACQUO_FIN DUR=600s;;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-15 23:56:32;CIP01;CYCLE_END;ESITO=PASS;;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-16 22:36:16;CIP01;CYCLE_START;P2_LINEA1;;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-16 22:36:20;CIP01;TANK_LEVEL_SODA;61;%;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-16 22:36:24;CIP01;FASE_START;PRERISCIACQUO;;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-16 22:41:24;CIP01;COND;4.4;mS/cm;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M"
+  },
+  {
+   "cid": 1645,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "origine": "nativa",
+   "rerank": 0.0984015092253685,
+   "testo": "linea (es. focaccina -> multicereali).\n5.3 Lavaggio di tipo L3 (completo CIP secondo IO-05): soda caustica, risciacquo,\n    acido, risciacquo, sanificante PAA, con registrazione concentrazioni e\n    conducibilita' di risciacquo. Obbligatorio: dopo sesamo; prima del bio; dopo\n    referenze con crema nocciola; a fine settimana produttiva.\n5.4 Il capoturno registra tipo di lavaggio, ora inizio/fine e firma. La seconda\n    firma di verifica e' del QC (Pozzato) o del RSGQ.\n\n1. VALIDAZIONE DELLA PULIZIA E MONITORAGGIO\n\n6.1 Validazione iniziale (eseguita 2024, riverificata 2025, da ripetere dopo\n    l'installazione del tunnel CR-SP180): tre cicli consecutivi di lavaggio L3 con\n    esito conforme su tutti i punti di campionamento critici.\n6.2 Test rapidi proteina specifica a tampone (lateral flow):\nproteina LATTE: prima di ogni partenza bio su Linea 2 e dopo ogni L3\n      post-croissanteria; limite: non rilevato.\nproteina UOVO: dopo L3 su attrezzature promiscue croissanteria;\nSESAMO: dopo ogni lavorazione prototipo AF-SN-0470 (saletta e, se coinvolta,\n      Linea 1); limite: non rilevato.\n6.3 Tamponi superfici generali secondo MOD-QA-19 (piano campionamento a zone);"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4541,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.18,
+  "rerank": 51.38
+ },
+ "id": "Q106",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:15:23",
+ "secondi": 51.58,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 79.24,
+  "token_prompt": 2520,
+  "token_risposta": 106,
+  "testo_grezzo": "Non e' possibile rispondere alla domanda con le informazioni fornite.\n\nNon e' possibile determinare il numero di lavaggi CIP effettuati a maggio sulla Linea 1.\n\nNon e' possibile determinare il numero di lavaggi CIP che sono andati storti.\n\nFONTI: log_lavaggio_CIP_linea1_maggio.log, log_lavaggio_CIP_linea1_maggio.log, scheda_allergeni_matrice_cross_contamination.docx",
+  "fonti_citate": [
+   "log_lavaggio_CIP_linea1_maggio.log",
+   "scheda_allergeni_matrice_cross_contamination.docx"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

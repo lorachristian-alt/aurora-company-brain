@@ -1,0 +1,680 @@
+{
+ "domanda": "Quanti chili di rifiuti pericolosi abbiamo prodotto e dove sono andati?",
+ "candidati_densi": [
+  {
+   "cid": 1473,
+   "punteggio": 0.48768640950781583,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1111,
+   "punteggio": 0.46109637427766004,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1465,
+   "punteggio": 0.45533380844943283,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1471,
+   "punteggio": 0.44365890438404837,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1054,
+   "punteggio": 0.4360195799192764,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 120,
+   "origine": "nativa"
+  },
+  {
+   "cid": 619,
+   "punteggio": 0.43534266748984707,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1526,
+   "punteggio": 0.4348414863518713,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1475,
+   "punteggio": 0.43133867155458305,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 905,
+   "punteggio": 0.42926174939341444,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 83,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1003,
+   "punteggio": 0.4280268810726606,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 69,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1683,
+   "punteggio": 0.4280204753549743,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1398,
+   "punteggio": 0.427894268014595,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1023,
+   "punteggio": 0.42740536299398796,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 89,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1469,
+   "punteggio": 0.426900339942878,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 993,
+   "punteggio": 0.4256619489112753,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 59,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1760,
+   "punteggio": 0.42502656488040136,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "idx": 21,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1129,
+   "punteggio": 0.42377301933774314,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1108,
+   "punteggio": 0.42366041050287456,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1074,
+   "punteggio": 0.4234718882162084,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 140,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1682,
+   "punteggio": 0.42232283442108814,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 15,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1470,
+   "punteggio": 17.344436645507812,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1471,
+   "punteggio": 16.787355422973633,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1463,
+   "punteggio": 15.711405754089355,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 579,
+   "punteggio": 14.959710121154785,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 433,
+   "punteggio": 14.80655288696289,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 430,
+   "punteggio": 14.275633811950684,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 519,
+   "punteggio": 13.921407699584961,
+   "file": "Fwd_Fwd_Fwd_ATTENZIONE_richiamo_prodotto_concorrente_RASFF.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1110,
+   "punteggio": 12.285536766052246,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1525,
+   "punteggio": 12.237515449523926,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1527,
+   "punteggio": 12.178936004638672,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 300,
+   "punteggio": 11.914965629577637,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 431,
+   "punteggio": 11.707843780517578,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1246,
+   "punteggio": 11.377848625183105,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1099,
+   "punteggio": 11.2357759475708,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1312,
+   "punteggio": 10.975586891174316,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1406,
+   "punteggio": 10.772330284118652,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1711,
+   "punteggio": 10.764713287353516,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 319,
+   "punteggio": 10.501690864562988,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1311,
+   "punteggio": 10.397333145141602,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1777,
+   "punteggio": 10.237801551818848,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 4,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1471,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.031754032258064516,
+   "rango_denso": 4,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1470,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1473,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1111,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1463,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1465,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 579,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 433,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1054,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 120,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 619,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 519,
+   "file": "Fwd_Fwd_Fwd_ATTENZIONE_richiamo_prodotto_concorrente_RASFF.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1526,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1475,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 905,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 83,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1525,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1003,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 69,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1527,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 300,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1683,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1398,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1023,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 89,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1471,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "rerank": 0.014028113335371017
+  },
+  {
+   "cid": 1465,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "rerank": 0.0027696166653186083
+  },
+  {
+   "cid": 1473,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "rerank": 0.002235097112134099
+  },
+  {
+   "cid": 1475,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "rerank": 0.0019416182767599821
+  },
+  {
+   "cid": 1470,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "rerank": 0.0017895135097205639
+  },
+  {
+   "cid": 1525,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.0013897523749619722
+  },
+  {
+   "cid": 1463,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "rerank": 0.0007558318902738392
+  },
+  {
+   "cid": 905,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.0006087172660045326
+  },
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.00042042709537781775
+  },
+  {
+   "cid": 1526,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.0003475238336250186
+  },
+  {
+   "cid": 1111,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.00023455364862456918
+  },
+  {
+   "cid": 579,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 0.00014407647540792823
+  },
+  {
+   "cid": 1054,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.00011839624494314194
+  },
+  {
+   "cid": 1023,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 9.35517527977936e-05
+  },
+  {
+   "cid": 619,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 8.917747618397698e-05
+  },
+  {
+   "cid": 1003,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 7.465775706805289e-05
+  },
+  {
+   "cid": 519,
+   "file": "Fwd_Fwd_Fwd_ATTENZIONE_richiamo_prodotto_concorrente_RASFF.eml",
+   "rerank": 4.5206139475340024e-05
+  },
+  {
+   "cid": 1683,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "rerank": 4.168863233644515e-05
+  },
+  {
+   "cid": 433,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 3.126112278550863e-05
+  },
+  {
+   "cid": 1398,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 2.158368624805007e-05
+  },
+  {
+   "cid": 1527,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 1.853067078627646e-05
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 1.82897911145119e-05
+  },
+  {
+   "cid": 300,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "rerank": 1.7499187379144132e-05
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 1.6832569599500857e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1471,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "origine": "nativa",
+   "rerank": 0.014028113335371017,
+   "testo": "pericolosi) e cat. 5 cl. F (rifiuti speciali pericolosi), valida fino al 14/11/2028.\nDestinatario recupero (EER 020304, 150101, 150102, 150110*, 200121*): C.R.V. RECUPERI S.R.L. -\nVia Bassa 41, 37050 Belfiore (VR) - impianto autorizzato con Det. Provincia di Verona n.\n2214/2022 del 30/05/2022 - operazioni R13/R3. Lo scarto EER 020304 e' avviato a R13 con\nsuccessivo recupero R3 (compostaggio/digestione anaerobica presso impianto terzo).\nDestinatario oli minerali (EER 130205*): RIGENERA LUBRIFICANTI S.R.L. - concessionaria CONOU -\nVia dell'Artigianato 9, 46100 Mantova - aut. n. 887/2021 Provincia di Mantova - R13.\nDestinatario smaltimento (mov. 46): ECOSERVIZI PADANA S.P.A. - Strada Statale 434 km 12, 45021\nBadia Polesine (RO) - AIA Regione Veneto n. 44/2019 - operazione D15.\n\nAURORA FOOD GROUP S.R.L. - Unita' locale Via dell'Industria 27 - Cologna Veneta (VR) - Registro rifiuti art. 190 D.Lgs\nEstratto registro C/S rifiuti 2026 - stampa del 06/07/2026 - pag. 5\npag. 5\nTRASCRIZIONE FORMULARIO DI IDENTIFICAZIONE RIFIUTO - FIR n. VFR 0087844/26\nFormulario di identificazione ex art. 193 D.Lgs. 152/2006 - D.M. 59/2023"
+  },
+  {
+   "cid": 1465,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "origine": "nativa",
+   "rerank": 0.0027696166653186083,
+   "testo": "S\n150102\nImballaggi\nin plastica\nSolido non\npolverulent\no\n420\nR13\nFIR n. VFR\n0084988/26\n7\n29/01/2026\nC\n020304\nScarti inut\nilizzabili\nal consumo o\nalla trasfo\nrmazione\nSolido non\npolverulent\no\n2.110\n--\n--\n8\n30/01/2026\nS\n020304\nScarti inut\nilizzabili\nal consumo o\nalla trasfo\nrmazione\nSolido non\npolverulent\no\n2.110\nR13\nFIR n. VFR\n0085230/26\n\nAURORA FOOD GROUP S.R.L. - Unita' locale Via dell'Industria 27 - Cologna Veneta (VR) - Registro rifiuti art. 190 D.Lgs\nEstratto registro C/S rifiuti 2026 - stampa del 06/07/2026 - pag. 2\npag. 2\nN.prog\nData\nTipo\nEER\nDescrizione\nrifiuto\nStato\nfisico\nQuantita'\nkg\nDest.\nRif. FIR\n9\n10/02/2026\nC\n150110*\nImballaggi\ncontenenti\nresidui di\nsostanze\npericolose\n(taniche\ndetergenti\nCIP - soda\ncaustica,\nacido\nnitrico,\nPAA - forn.\nChemifood\nItalia\nS.r.l.)\nSolido non\npolverulent\no\n185\n--\n--\n10\n12/02/2026\nC\n150101\nImballaggi\nin carta e\ncartone\nSolido non\npolverulent\no\n1.030\n--\n--\n11\n12/02/2026\nC\n150102\nImballaggi\nin plastica\nSolido non\npolverulent\no\n390\n--\n--\n12\n17/02/2026\nS\n150101\nImballaggi\nin carta e\ncartone\nSolido non\npolverulent\no\n1.030\nR13\nFIR n. VFR\n0085711/26\n13\n17/02/2026\nS\n150102\nImballaggi\nin plastica\nSolido non\npolverulent\no\n390\nR13\nFIR n. VFR"
+  },
+  {
+   "cid": 1473,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "origine": "nativa",
+   "rerank": 0.002235097112134099,
+   "testo": "Quantita': kg 2.940 - peso verificato a destino: SI\nNumero colli: 3 cassoni - Rinfusa: SI\nAnnotazioni: scarto di produzione prodotti da forno; contiene prodotto declassato\nlotti L26130-L1-T2 e L26131 trattenuti in verifica qualita' (quota parte non commestibile,\nimballo rimosso).\n5) PERCORSO: Cologna Veneta (VR) - SP18 - Belfiore (VR). Trasporto sottoposto a normativa ADR: NO\nPartenza dal luogo di produzione: data 14/05/2026 ora 09:40\nFirma del produttore: E. Marchetti          Firma del trasportatore: [FIRMA]\n6) ACCETTAZIONE DEL DESTINATARIO: rifiuto accettato per intero - kg 2.940\nData arrivo: 14/05/2026 ora 11:05 - Firma del destinatario: [FIRMA E TIMBRO]\nTRASCRIZIONE FORMULARIO DI IDENTIFICAZIONE RIFIUTO - FIR n. VFR 0086413/26\nFormulario di identificazione ex art. 193 D.Lgs. 152/2006 - D.M. 59/2023\nNumero: VFR 0086413/26                      Data di emissione: 16/03/2026\n1) PRODUTTORE/DETENTORE\nAURORA FOOD GROUP S.R.L. - Via dell'Industria 27 - 37044 Cologna Veneta (VR)\nC.F. 03984710230 - iscr. RENTRI OP-VR-2025-018342\n2) TRASPORTATORE\nECOVENETA AMBIENTE S.R.L. - Via Levada 18 - 37045 Legnago (VR) - P.IVA 03412870234\nAlbo Gestori Ambientali n. VE/012684 - cat. 5 cl. F"
+  },
+  {
+   "cid": 1475,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "origine": "nativa",
+   "rerank": 0.0019416182767599821,
+   "testo": "AURORA FOOD GROUP S.R.L. - Unita' locale Via dell'Industria 27 - Cologna Veneta (VR) - Registro rifiuti art. 190 D.Lgs\nEstratto registro C/S rifiuti 2026 - stampa del 06/07/2026 - pag. 6\npag. 6\n6) ACCETTAZIONE DEL DESTINATARIO: rifiuto accettato per intero - kg 118 (peso a destino)\nData arrivo: 17/03/2026 ora 08:50 - Firma del destinatario: [FIRMA E TIMBRO]\nNota del destinatario: differenza di peso entro tolleranza pesa.\nAnnotazioni generali al registro: la quarta copia dei FIR risulta rientrata entro i termini per\ntutti i movimenti sopra elencati, ad eccezione del FIR n. VFR 0087601/26 (quarta copia rientrata\nil 12/06/2026, entro i 90 gg previsti in caso di mancato rientro).\nVerifica trimestrale della tenuta del registro effettuata da E. Marchetti in data 06/07/2026."
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4286,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.23,
+  "rerank": 48.92
+ },
+ "id": "Q102",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:12:00",
+ "secondi": 49.17,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 74.97,
+  "token_prompt": 2072,
+  "token_risposta": 131,
+  "testo_grezzo": "Non e' possibile determinare la quantita' di rifiuti pericolosi prodotti e destinati, poiché i dati relativi ai movimenti di rifiuti pericolosi non sono stati forniti in modo chiaro e completo.\n\nFONTI: registro_carico_scarico_rifiuti_estratto_2026.pdf, registro_carico_scarico_rifiuti_estratto_2026.pdf, registro_carico_scarico_rifiuti_estratto_2026.pdf, registro_carico_scarico_rifiuti_estratto_2026.pdf\n\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "registro_carico_scarico_rifiuti_estratto_2026.pdf"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

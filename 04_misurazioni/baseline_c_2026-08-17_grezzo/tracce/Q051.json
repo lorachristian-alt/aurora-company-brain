@@ -1,0 +1,681 @@
+{
+ "domanda": "Quanto ci costa il contratto di manutenzione dei forni?",
+ "candidati_densi": [
+  {
+   "cid": 1516,
+   "punteggio": 0.7003660122889763,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 324,
+   "punteggio": 0.6042089843868947,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1176,
+   "punteggio": 0.5943778390214494,
+   "file": "noleggio_distributori_automatici_contratto.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1517,
+   "punteggio": 0.5848838356578039,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1653,
+   "punteggio": 0.5818243953882327,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1515,
+   "punteggio": 0.5781370367777614,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 261,
+   "punteggio": 0.573013244442563,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 272,
+   "punteggio": 0.5663938769367388,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 43,
+   "punteggio": 0.5650879773182267,
+   "file": "analisi_marginalita_per_referenza_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1526,
+   "punteggio": 0.5641582989879357,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1652,
+   "punteggio": 0.5602730114999227,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1525,
+   "punteggio": 0.553759875354288,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1527,
+   "punteggio": 0.5528649038983384,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 271,
+   "punteggio": 0.5493588952956615,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 266,
+   "punteggio": 0.5435430853585761,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1514,
+   "punteggio": 0.5429659112078877,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1363,
+   "punteggio": 0.5410314884843487,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1348,
+   "punteggio": 0.5386419735854635,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1353,
+   "punteggio": 0.5368726441328553,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 265,
+   "punteggio": 0.5360101564793223,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 4,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1366,
+   "punteggio": 19.533601760864258,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1515,
+   "punteggio": 19.28579330444336,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 618,
+   "punteggio": 17.26388168334961,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1410,
+   "punteggio": 17.014915466308594,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1781,
+   "punteggio": 15.514677047729492,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 394,
+   "punteggio": 15.40013599395752,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1516,
+   "punteggio": 14.824045181274414,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1793,
+   "punteggio": 14.001832008361816,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1782,
+   "punteggio": 13.235946655273438,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 328,
+   "punteggio": 13.093363761901855,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1792,
+   "punteggio": 13.054603576660156,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1352,
+   "punteggio": 12.657999992370605,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 194,
+   "punteggio": 12.62511920928955,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 312,
+   "punteggio": 12.501899719238281,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 313,
+   "punteggio": 12.463829040527344,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1869,
+   "punteggio": 11.788912773132324,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 307,
+   "punteggio": 11.732081413269043,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1368,
+   "punteggio": 11.692961692810059,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 512,
+   "punteggio": 11.572367668151855,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1117,
+   "punteggio": 11.525053977966309,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 10,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1516,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.03131881575727918,
+   "rango_denso": 1,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1515,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.03128054740957967,
+   "rango_denso": 6,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 324,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 618,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1176,
+   "file": "noleggio_distributori_automatici_contratto.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1410,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1517,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1653,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 394,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 261,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 272,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1793,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 20,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 43,
+   "file": "analisi_marginalita_per_referenza_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 328,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 17,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1526,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1652,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1792,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1352,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1525,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 194,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1527,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1516,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.9520572423934937
+  },
+  {
+   "cid": 1515,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.6778048872947693
+  },
+  {
+   "cid": 1653,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "rerank": 0.06631506234407425
+  },
+  {
+   "cid": 1517,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.045500483363866806
+  },
+  {
+   "cid": 1176,
+   "file": "noleggio_distributori_automatici_contratto.txt",
+   "rerank": 0.027130410075187683
+  },
+  {
+   "cid": 261,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "rerank": 0.018787141889333725
+  },
+  {
+   "cid": 1527,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.01726239174604416
+  },
+  {
+   "cid": 1652,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "rerank": 0.01519564725458622
+  },
+  {
+   "cid": 272,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "rerank": 0.010168668814003468
+  },
+  {
+   "cid": 1526,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.009721941314637661
+  },
+  {
+   "cid": 1792,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.004128047730773687
+  },
+  {
+   "cid": 43,
+   "file": "analisi_marginalita_per_referenza_2026.xlsx",
+   "rerank": 0.0038295481353998184
+  },
+  {
+   "cid": 328,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.0033518471755087376
+  },
+  {
+   "cid": 1793,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.002647046698257327
+  },
+  {
+   "cid": 1525,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.0023617043625563383
+  },
+  {
+   "cid": 1352,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "rerank": 0.0021631133276969194
+  },
+  {
+   "cid": 394,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "rerank": 0.0016394945560023189
+  },
+  {
+   "cid": 324,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.0015279679792001843
+  },
+  {
+   "cid": 618,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.0004204846336506307
+  },
+  {
+   "cid": 1410,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.0004186158475931734
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.0003168713301420212
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.00024618004681542516
+  },
+  {
+   "cid": 194,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "rerank": 7.112445018719882e-05
+  },
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 4.408741369843483e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1516,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "origine": "nativa",
+   "rerank": 0.9520572423934937,
+   "testo": "=== 2. MANUTENZIONI ====================================\n\nCONTRATTO TECNOFORNI SERVICE (forni FT-01 e FT-02 + PT-104)\n  contratto full-risk n. TFS-2026-084, firmato Fantin 12/01/26\n  canone annuo 18.400,00 € + iva, fatturazione trimestrale (4.600/trim)\n  comprende: 4 visite programmate/anno, ricambi ordinari, pronto intervento 24h\n  ESCLUSO: nastri trasportatori e refrattari\n  tecnico di riferimento: Rossato Gianni (cell in rubrica)\n  ultima visita 14/04/26, prossima prevista settimana 29\n  (nb Rossato in aprile ha segnalato bruciatore FT-01 da revisionare,\n   preventivo extra 3.100 € - NON ancora ordinato, Fantin tentenna)\n\nPAKMATIC ITALIA (F0077) - PKM-450\n  niente contratto, interventi a chiamata + ricambi\n  speso 2025: 6.870 €\n  speso 2026 al 26/05: gia' 4.912 € !!! (di cui 1.680 intervento urgenza\n  del 10-11/05 valvola azoto + ricambio originale arrivato il 15/05)\n  se continua cosi a fine anno siamo sopra i 10.000, valutare contratto\n  di manutenzione programmata, Fantin dice che Pakmatic lo propone a\n  5.900 €/anno ma senza ricambi\n\nMETAL DETECTOR MD-3200 e MD-1800 (Loma)\n  taratura + certificazione annuale: 1.240 € (no scusa sono 1.240 non 1.420,"
+  },
+  {
+   "cid": 1515,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "origine": "nativa",
+   "rerank": 0.6778048872947693,
+   "testo": "fermo da febbraio dietro la CF-02, paghiamo bollo? no il bollo no\n   ma l'assicurazione si, vedi sotto)\n\nLEASING CONFEZIONATRICE PKM-450 (Pakmatic, linea 1)\n  Sella Leasing  contr. n. 44/081152\n  canone 2.170,00 €/mese + iva\n  decorrenza 06/2021 durata 84 mesi -> fine 05/2028\n  nb: la manutenzione NON e' compresa, e' a parte con Pakmatic (F0077)\n  vedi sezione manutenzioni. dopo il fermo del 10/05 Fantin vuole\n  rivedere il contratto ricambi, sentire Pakmatic dopo l'estate\n\nNOLEGGIO OPERATIVO stampante/multifunzione uffici\n  Kyocera via BNP Paribas Rental - 189,00 €/mese, 2 macchine\n  (una e' in qualita da Marchetti, l'altra qui da noi)\n\nNOLEGGIO lavapavimenti industriale reparto conf.\n  Nilfisk  145 €/mese  (contratto in scadenza 09/26 - DISDIRE? sentire Zanella,\n  dice che quella nuova a batteria costa meno a comprarla)\n\ntot leasing+noleggi mensile:  3.850+612+2.170+189+145 = 6.966 €/mese\nTOT PROVVISORIO ANNUO leasing/noleggi:  83.592 €  (senza iva)\n\n\n=== 2. MANUTENZIONI ====================================\n\nCONTRATTO TECNOFORNI SERVICE (forni FT-01 e FT-02 + PT-104)\n  contratto full-risk n. TFS-2026-084, firmato Fantin 12/01/26"
+  },
+  {
+   "cid": 1653,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "origine": "nativa",
+   "rerank": 0.06631506234407425,
+   "testo": "FT-01;Refrattario camera - ispezione visiva;;ispezione;12 mesi;18/08/25;2026-08-18;TecnoForni Service (Rossato);2;350,00;OK;;\nFT-01;Motoriduttore nastro - cambio olio;OLIO-SEW-VG220;cambio olio;4000 h;2025-12-09;30-giu-26;interno (Dal Maso);1,5;85,50;OK;OdL-25-0533;\nFT-01;Quadro elettrico - termografia e serraggi;;verifica;12 mesi;03-nov-25;03/11/26;Elettromec Snc;3;390,00;OK;;\nFT-01;Fotocellule fine forno;OMR-E3Z;pulizia;1 mese;30/04/26;2026-05-30;interno (Bissoli);N/D;;OK;;\nFT-02;Bruciatore Weishaupt G5 - pulizia e taratura;WSH-G5-KIT;pulizia/taratura;6 mesi;2026-01-22;22-lug-26;TecnoForni Service (Rossato);4;680,00;OK;OdL-26-0071;\nFT-02;Catena trasporto nastro;FT2-CAT-71;lubrificazione;500 h;02-mag-26;28/05/26;interno (Bissoli);1,5;;OK;OdL-26-0172;\nFT-02;Guarnizioni porte camera cottura;FT2-GRN-P1;sostituzione;12 mesi;07/10/25;2026-10-07;TecnoForni Service (Rossato);5;880,00;OK;;\nFT-02;Termocoppie zone 1-3;TC-K-3X;taratura ACCREDIA;12 mesi;2025-09-15;15-set-26;Analytica Veneta (F0090);2,5;380,00;OK;OdL-25-0412;"
+  },
+  {
+   "cid": 1517,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "origine": "nativa",
+   "rerank": 0.045500483363866806,
+   "testo": "5.900 €/anno ma senza ricambi\n\nMETAL DETECTOR MD-3200 e MD-1800 (Loma)\n  taratura + certificazione annuale: 1.240 € (no scusa sono 1.240 non 1.420,\n  avevo invertito, il preventivo dice 1.240+iva tutti e due)\n  fatta a gennaio, ok fino a gen 2027\n\nIMPIANTO CIP-01 - Chemifood fa la verifica dosatori 2 volte anno\n  compresa nel contratto detergenti? NO, e' fatturata a parte, 380 €/visita\n\nMANUTENZIONE CELLE CF-01 / CF-02 e TS-01\n  Frigotermica Scaligera s.n.c. (Legnago) - contratto 6.200 €/anno\n  comprende controllo gas fluorurati F-GAS e libretti\n  nb sul TS-01: il compressore vecchio \"va tenuto in vita fino al collaudo\n  del tunnel nuovo\" (parole di Fantin) - nel 2025 spesi 4.300 € extra\n  contratto solo di riparazioni sul TS-01. soldi buttati, prima arriva\n  il Criotech meglio e'\n\nmanut. varie officina Dal Maso (materiale di consumo, ferramenta, Wurth ecc)\n  budget 2026: 14.000 €   speso al 26/05: 7.780 € (siamo lunghi)\n\nascensore/montacarichi magazzino Palù: 980 €/anno (Schindler) + verifica\n  biennale ULSS/ARPAV 160 € (fatta 2025, prossima 2027)\n\nTOT PROVVISORIO MANUTENZIONI 2026 (stima): 18.400+10.000?+1.240+760+6.200+14.000+980"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4500,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.17,
+  "rerank": 48.37
+ },
+ "id": "Q051",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:29:01",
+ "secondi": 48.56,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 72.24,
+  "token_prompt": 2138,
+  "token_risposta": 101,
+  "testo_grezzo": "Il contratto di manutenzione dei forni non è specificato con precisione nei documenti forniti. Non è possibile determinare il costo del contratto di manutenzione dei forni senza ulteriori informazioni.\n\nFONTI: report_costi_fissi_OpEx_manutenzioni.txt, scheda_manutenzione_ordinaria_forni_industrial.csv, report_costi_fissi_OpEx_manutenzioni.txt\n\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "report_costi_fissi_OpEx_manutenzioni.txt",
+   "scheda_manutenzione_ordinaria_forni_industrial.csv"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

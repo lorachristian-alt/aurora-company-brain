@@ -1,0 +1,684 @@
+{
+ "domanda": "Come si arriva ai 413.316 euro del quadro economico del tunnel?",
+ "candidati_densi": [
+  {
+   "cid": 173,
+   "punteggio": 0.583985415084491,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 125,
+   "punteggio": 0.5682219321052366,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1629,
+   "punteggio": 0.5567331980269006,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 174,
+   "punteggio": 0.5447737334039322,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1781,
+   "punteggio": 0.5425271171323811,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1782,
+   "punteggio": 0.5386295096950713,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 169,
+   "punteggio": 0.5186840201061444,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 528,
+   "punteggio": 0.5032728555883216,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1521,
+   "punteggio": 0.49987163426684017,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 527,
+   "punteggio": 0.49037781685426934,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1810,
+   "punteggio": 0.48847191698005343,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1862,
+   "punteggio": 0.48342509489972685,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1807,
+   "punteggio": 0.47871095200219915,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1336,
+   "punteggio": 0.4689674771118246,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 148,
+   "punteggio": 0.4680654227911653,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 166,
+   "punteggio": 0.4644568411088483,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1806,
+   "punteggio": 0.462331042886179,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 524,
+   "punteggio": 0.45644320020961315,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1221,
+   "punteggio": 0.45489739291465925,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1860,
+   "punteggio": 0.4539714310000233,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 10,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 173,
+   "punteggio": 31.836767196655273,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 170,
+   "punteggio": 18.265518188476562,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 169,
+   "punteggio": 15.843785285949707,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 527,
+   "punteggio": 15.14804744720459,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 142,
+   "punteggio": 14.669097900390625,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 125,
+   "punteggio": 14.38868522644043,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1813,
+   "punteggio": 13.859065055847168,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 412,
+   "punteggio": 13.3335542678833,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 312,
+   "punteggio": 13.308341979980469,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1226,
+   "punteggio": 13.294828414916992,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1700,
+   "punteggio": 12.938482284545898,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1212,
+   "punteggio": 12.790018081665039,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 275,
+   "punteggio": 12.778307914733887,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 148,
+   "punteggio": 12.77531623840332,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 174,
+   "punteggio": 12.759889602661133,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 112,
+   "punteggio": 12.75967025756836,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 206,
+   "punteggio": 12.478668212890625,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1241,
+   "punteggio": 12.354689598083496,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 146,
+   "punteggio": 12.156999588012695,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 49,
+   "punteggio": 12.102471351623535,
+   "file": "analisi_scostamenti_costo_materie_prime.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 173,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.03278688524590164,
+   "rango_denso": 1,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 125,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.03128054740957967,
+   "rango_denso": 2,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 169,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.030798389007344232,
+   "rango_denso": 7,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 527,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.029910714285714284,
+   "rango_denso": 10,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 174,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.028958333333333336,
+   "rango_denso": 4,
+   "rango_sparso": 15
+  },
+  {
+   "cid": 148,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.02684684684684685,
+   "rango_denso": 15,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 170,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1629,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 142,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1813,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 412,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 528,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 312,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1521,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1226,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1700,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1810,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1212,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1862,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 275,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1807,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1336,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 173,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "rerank": 0.12454872578382492
+  },
+  {
+   "cid": 174,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "rerank": 0.06365403532981873
+  },
+  {
+   "cid": 169,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "rerank": 0.057967644184827805
+  },
+  {
+   "cid": 125,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "rerank": 0.017843473702669144
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.017722805961966515
+  },
+  {
+   "cid": 1629,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "rerank": 0.016784710809588432
+  },
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.011562889441847801
+  },
+  {
+   "cid": 1813,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.007630050648003817
+  },
+  {
+   "cid": 148,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "rerank": 0.007436590269207954
+  },
+  {
+   "cid": 1521,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.007430894300341606
+  },
+  {
+   "cid": 1810,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.0065011861734092236
+  },
+  {
+   "cid": 528,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "rerank": 0.003901649033650756
+  },
+  {
+   "cid": 1807,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.0035486980341374874
+  },
+  {
+   "cid": 170,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "rerank": 0.0030078785493969917
+  },
+  {
+   "cid": 527,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "rerank": 0.0026271622627973557
+  },
+  {
+   "cid": 1862,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.0021882588043808937
+  },
+  {
+   "cid": 1336,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "rerank": 0.0014417533529922366
+  },
+  {
+   "cid": 1226,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.0010045039234682918
+  },
+  {
+   "cid": 142,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "rerank": 0.0008829419384710491
+  },
+  {
+   "cid": 312,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.000581391912419349
+  },
+  {
+   "cid": 412,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "rerank": 0.0005145809845998883
+  },
+  {
+   "cid": 1212,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "rerank": 0.00037807648186571896
+  },
+  {
+   "cid": 1700,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "rerank": 0.00010786981147248298
+  },
+  {
+   "cid": 275,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.0001062902229023166
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 173,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "origine": "nativa",
+   "rerank": 0.12454872578382492,
+   "testo": "Valore recupero scarto (a mano);;;12.420,00;;\nRISPARMIO TOTALE ANNUO;;;30.322,00;;\n;;;;;\nSEZIONE E - AMMORTAMENTO E PAYBACK;;;;;\nValore ammortizzabile;413.316,00;;coerente col TOTALE sez. A (il mio, non quello di Fantin);;\nAliquota ammortamento;#RIF!;;era collegata al foglio di Bellotto, rotto il link;;\nAliquota usata nei conti;12,5%;;8 anni, da confermare con Bellotto in sede di bilancio;;\nQuota ammortamento annua;51.664,50;;=B62*B64;;\n;;;;;\nPayback SEMPLICE senza credito imposta;;;;;\nInvestimento;413.316,00;;;;\nBeneficio annuo (risparmi sez. D);30.322,00;;;;\nPayback anni;13,63;;=B68/B69 LUNGHISSIMO ma il tunnel NON si compra per il risparmio;;\n;;;;;\nil TS-01 e' a fine vita: fermata non programmata = linea 3 ferma;;;;;\ncapacita' +250 kg/h serve per la PL Tosano 2027 (AF-CR-0215) se si firma il rinnovo;;;;;\n;;;;;\nSEZIONE F - IPOTESI CREDITO D'IMPOSTA BENI STRUMENTALI 4.0;;;;;\nATTENZIONE: ipotesi di lavoro mia, la parola FINALE e' dello Studio Bellotto (v. sua nota);;;;;\nRequisito;Stato;Note;;;\nBene allegato A L.232/2016;da confermare;tunnel con PLC, sensori, supervisione: Bellotto dice riconducibile;;;"
+  },
+  {
+   "cid": 174,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "origine": "nativa",
+   "rerank": 0.06365403532981873,
+   "testo": "Requisito;Stato;Note;;;\nBene allegato A L.232/2016;da confermare;tunnel con PLC, sensori, supervisione: Bellotto dice riconducibile;;;\nInterconnessione al gestionale;DA FARE;modulo Systempoint 7.400 gia' in quadro economico;;;\nPerizia tecnica asseverata;DA INCARICARE;obbligatoria sopra 300.000, nominativo lo propone Bellotto;;;\nDicitura in fattura;RICHIESTA a Criotech il 13/05;verificare su fattura acconto FA-2026-0552!!;;;\nCosto agevolabile ipotizzato;395.016,00;escluse opere murarie 18.300 (edili NON agevolabili) - ma dentro imprevisti pro quota? CHIEDERE;;;\nAliquota ipotizzata;20%;ALIQUOTA DA CONFERMARE con Bellotto, normativa 2026 cambiata;;;\nCredito ipotizzato;79.003,20;=B82*B83;;;\nFruizione;3 quote annuali in F24;dal periodo di interconnessione;;;\nQuota annua ipotizzata;26.334,40;;;;\nPayback CON credito (grezzo);;;;;\nInvestimento netto credito;334.312,80;;;;\nPayback anni;11,03;sempre lungo, vedi sopra: e' una sostituzione obbligata, non un progetto di risparmio;;;\n;;;;;\nSEZIONE G - PROMEMORIA;;;;;\n1;conferma d'ordine Criotech firmata Bertoldi 08/05/26 - copia in archivio cartaceo;;;;"
+  },
+  {
+   "cid": 169,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "origine": "nativa",
+   "rerank": 0.057967644184827805,
+   "testo": "INVESTIMENTO LINEA 3 - TUNNEL SURGELAZIONE A SPIRALE;;;;;\nAurora Food Group S.r.l. - elaborazione L. Trentin con dati ing. Fantin;;;;;\nversione 7 (!!) del 04/05/2026 - QUELLA BUONA e' questa;;;;;\n;;;;;\nSEZIONE A - QUADRO ECONOMICO INVESTIMENTO;;;;;\nrif. offerta Criotech Impianti S.r.l. (F0070) n. OF-2026-0311 rev.3 del 12/03/26;;;;;\nVoce;Fornitore;Importo (EUR, iva escl.);Note;;\nTunnel surgelazione a spirale CR-SP180;Criotech Impianti (F0070);290.000,00;capacita' 1.800 kg/h su cornetto 45g, resa dichiarata;\nTrasporto eccezionale RE -> Cologna Veneta;Criotech (subapp. Autotrasp. Bregolin);6.500,00;2 colli fuori sagoma, scorta tecnica;\nScarico e posizionamento (autogru);Criotech;compreso;verificare in conferma d'ordine!!;\nOpere murarie e basamento;Edilcologna S.r.l.;18.300,00;preventivo del 21/04, taglio pavimento + ripristino;\nImpianto frigo a glicole + collegamento centrale;Frigotermica Scaligera;41.200,00;incl. pompe e coibentazioni linee;\nQuadro elettrico bordo macchina + cablaggi;Elettromontaggi Berica;12.800,00;cavo da cabina, 160 kW impegnati;\nModifica supervisione/scada + interconnessione 4.0;Systempoint + Criotech;7.400,00;NECESSARIA per credito imposta, vedi nota Bellotto;"
+  },
+  {
+   "cid": 125,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "origine": "nativa",
+   "rerank": 0.017843473702669144,
+   "testo": "corrisposto compensi a sindaci ne' anticipazioni o crediti agli amministratori.\nFATTI DI RILIEVO AVVENUTI DOPO LA CHIUSURA DELL'ESERCIZIO\nIn data 08/05/2026 la societa' ha sottoscritto l'ordine di acquisto di un tunnel di\nsurgelazione a spirale per un corrispettivo di Euro 290.000 oltre IVA, la cui consegna\ne' prevista nel mese di settembre 2026. L'investimento sara' interamente rilevato\nnell'esercizio 2026. Nel medesimo esercizio si e' aperta una interlocuzione con le\nrappresentanze sindacali in materia di prestazioni di lavoro straordinario; alla data\ndi redazione del presente bilancio non sussistono passivita' probabili quantificabili,\ne non si e' pertanto proceduto ad alcun accantonamento.\nPROPOSTA DI DESTINAZIONE DELL'UTILE\nSignori Soci, il bilancio che sottoponiamo alla Vostra approvazione evidenzia un utile\nd'esercizio di Euro 508.941. Considerato che la riserva legale ha gia' raggiunto il\nquinto del capitale sociale ai sensi dell'art. 2430 c.c., Vi proponiamo di destinare\nl'intero importo di Euro 508.941 a riserva straordinaria.\nCologna Veneta, 12 maggio 2026\nIl Presidente del Consiglio di Amministrazione\n_______________________________\nGiancarlo Bertoldi"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4605,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.18,
+  "rerank": 43.06
+ },
+ "id": "Q122",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:27:58",
+ "secondi": 43.26,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 77.28,
+  "token_prompt": 1973,
+  "token_risposta": 164,
+  "testo_grezzo": "Il valore del quadro economico del tunnel è di 413.316 euro, che corrisponde all'investimento totale del tunnel surgelazione a spirale, compresi i costi di trasporto eccezionale, scarico e posizionamento, opere murarie e basamento, impianto frigo a glicole, quadro elettrico bordo macchina e modifica supervisione/scada.\n\nFONTI: file: calcolo_CapEx_linea3_bakery_nuova.csv, file: INVESTIMENTO LINEA 3 - TUNNEL SURGELAZIONE A SPIRALE, file: calcolo_CapEx_linea3_bakery_nuova.csv\n\nCONFIDENZA: alta",
+  "fonti_citate": [
+   "file: calcolo_CapEx_linea3_bakery_nuova.csv",
+   "file: INVESTIMENTO LINEA 3 - TUNNEL SURGELAZIONE A SPIRALE"
+  ],
+  "fonti_fuori_contesto": [
+   "file: calcolo_CapEx_linea3_bakery_nuova.csv",
+   "file: INVESTIMENTO LINEA 3 - TUNNEL SURGELAZIONE A SPIRALE"
+  ],
+  "confidenza": "alta"
+ }
+}

@@ -1,0 +1,681 @@
+{
+ "domanda": "Con che ritmo se ne sono andati gli operai della Linea 2?",
+ "candidati_densi": [
+  {
+   "cid": 386,
+   "punteggio": 0.5222661422014638,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 626,
+   "punteggio": 0.5211115907717169,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1788,
+   "punteggio": 0.5135239939643499,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 627,
+   "punteggio": 0.5064792450913502,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 287,
+   "punteggio": 0.5062212763155878,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 290,
+   "punteggio": 0.49159304607081816,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 432,
+   "punteggio": 0.488941945016167,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1789,
+   "punteggio": 0.4862501131330317,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 431,
+   "punteggio": 0.47949105503633876,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1015,
+   "punteggio": 0.47810937902822837,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 81,
+   "origine": "nativa"
+  },
+  {
+   "cid": 825,
+   "punteggio": 0.4742688106063235,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 435,
+   "punteggio": 0.4689197431557243,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 289,
+   "punteggio": 0.4667658930375661,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 897,
+   "punteggio": 0.4663792747290173,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 75,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1044,
+   "punteggio": 0.46563318375059914,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 110,
+   "origine": "nativa"
+  },
+  {
+   "cid": 873,
+   "punteggio": 0.4654786772240693,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 51,
+   "origine": "nativa"
+  },
+  {
+   "cid": 910,
+   "punteggio": 0.4654710925829384,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 88,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1041,
+   "punteggio": 0.4650599871162385,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 107,
+   "origine": "nativa"
+  },
+  {
+   "cid": 861,
+   "punteggio": 0.46491831754284546,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 39,
+   "origine": "nativa"
+  },
+  {
+   "cid": 434,
+   "punteggio": 0.46473071025205376,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 433,
+   "punteggio": 24.433881759643555,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1789,
+   "punteggio": 21.189218521118164,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1426,
+   "punteggio": 20.430673599243164,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 430,
+   "punteggio": 19.7645320892334,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1114,
+   "punteggio": 17.42985725402832,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1314,
+   "punteggio": 17.3674373626709,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1108,
+   "punteggio": 16.771596908569336,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1115,
+   "punteggio": 16.37727165222168,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1714,
+   "punteggio": 16.054597854614258,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 435,
+   "punteggio": 15.613544464111328,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1321,
+   "punteggio": 15.350480079650879,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 514,
+   "punteggio": 15.209854125976562,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 321,
+   "punteggio": 15.180299758911133,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 575,
+   "punteggio": 14.970433235168457,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1788,
+   "punteggio": 14.820714950561523,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 574,
+   "punteggio": 14.792847633361816,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1366,
+   "punteggio": 14.407332420349121,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 287,
+   "punteggio": 14.280269622802734,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 513,
+   "punteggio": 14.271995544433594,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1862,
+   "punteggio": 14.251362800598145,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 12,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1789,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.030834914611005692,
+   "rango_denso": 8,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1788,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.029206349206349208,
+   "rango_denso": 3,
+   "rango_sparso": 15
+  },
+  {
+   "cid": 287,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.028205128205128206,
+   "rango_denso": 5,
+   "rango_sparso": 18
+  },
+  {
+   "cid": 435,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.02817460317460317,
+   "rango_denso": 12,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 386,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 433,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 626,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1426,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 627,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1114,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 290,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1314,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 432,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1108,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1115,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1714,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1015,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 81,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 825,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1321,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 514,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 289,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 321,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 626,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "rerank": 0.5788168907165527
+  },
+  {
+   "cid": 432,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.19892361760139465
+  },
+  {
+   "cid": 287,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.19280165433883667
+  },
+  {
+   "cid": 433,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.1866448074579239
+  },
+  {
+   "cid": 290,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.14132696390151978
+  },
+  {
+   "cid": 435,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.12504276633262634
+  },
+  {
+   "cid": 1789,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.11409103125333786
+  },
+  {
+   "cid": 289,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.06347908824682236
+  },
+  {
+   "cid": 627,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "rerank": 0.0504443496465683
+  },
+  {
+   "cid": 1788,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.049896933138370514
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.04989215359091759
+  },
+  {
+   "cid": 386,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "rerank": 0.04175332933664322
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.01981138065457344
+  },
+  {
+   "cid": 1314,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "rerank": 0.018411504104733467
+  },
+  {
+   "cid": 1426,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "rerank": 0.0066828252747654915
+  },
+  {
+   "cid": 1015,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.0045384750701487064
+  },
+  {
+   "cid": 825,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.003828509710729122
+  },
+  {
+   "cid": 514,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 0.0017818722408264875
+  },
+  {
+   "cid": 1114,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.00023088307352736592
+  },
+  {
+   "cid": 1108,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.00017950657638721168
+  },
+  {
+   "cid": 1115,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.00010687288886401802
+  },
+  {
+   "cid": 1714,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 3.343971911817789e-05
+  },
+  {
+   "cid": 1321,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "rerank": 2.1709154680138454e-05
+  },
+  {
+   "cid": 321,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 1.668596269155387e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 626,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "origine": "nativa",
+   "rerank": 0.5788168907165527,
+   "testo": "0205 VASILESCU ANDREI LINEA 1 20\n0206 BOGONI MARTA LINEA 1 54\n0207 FURLAN ALESSANDRO LINEA 1 62\n0208 EL AMRANI HASSAN LINEA 1 82\n0209 PELOSO GIORGIO LINEA 1 76\n0210 MUNTEANU CRISTIAN LINEA 1 84\n0301 BEN SALAH ADEL LINEA 2 207\n0302 HOXHA FATJON LINEA 2 220\n0303 MANSOURI YOUSSEF LINEA 2 148\n0304 DAL BEN ELISA LINEA 2 125\n0305 CIOBANU MARIUS LINEA 2 224\n0306 BERTACCO PAOLO LINEA 2 225\n0307 REFOSCO SONIA LINEA 2 144\n0308 SOW IBRAHIM LINEA 2 214\n0309 GECCHELE NICOLO LINEA 2 136\n0310 LUPU VASILE LINEA 2 219\n0401 GUERRA ROBERTO LINEA 3 41\n0402 CORRADIN EMANUELE LINEA 3 83\n0403 ILIE PETRU LINEA 3 80\n0404 MIOTTO SARA LINEA 3 29\n0405 BOUZID KARIM LINEA 3 95\n0406 TADIELLO FEDERICO LINEA 3 75\n0407 MELNYK OLEG LINEA 3 77\n0408 SBALCHIERO DAMIANO LINEA 3 93\n0501 MAROBIN ANNA CONFEZ. 27\n0502 PERETTO CHIARA CONFEZ. 45\n0503 BA MAMADOU CONFEZ. 79\n0504 FRIGO LUCIA CONFEZ. 60\n0505 VISENTIN STEFANO CONFEZ. 12\n0601 FAGGIONATO NICOLA MAGAZZ. 35\n0602 SEGATO ALBERTO MAGAZZ. 54\n0603 PREDA RADU MAGAZZ. 47\n0604 MATTIELLO GIANLUCA MAGAZZ. 14\n0701 DAL MASO IVANO MANUT. 47\n0702 BISSOLI MIRCO MANUT. 24\n\n(Sartori) sei operai di Linea 2 sono oltre le 200 ore: e' il punto sollevato dalla RSU il 20/05."
+  },
+  {
+   "cid": 432,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "origine": "nativa",
+   "rerank": 0.19892361760139465,
+   "testo": "> per la resa più bassa dei nuovi, che Denis stima in un altro\n> 8-10% nei primi due mesi.\n>\n> Domenica scorsa la linea ha girato con 5 persone dove ne servono 6.\n> Con la promo Tosano ancora in corso non me lo posso permettere una\n> seconda volta.\n>\n> Decidi tu, ma decidi.\n>\n> M.\n>\n> ing. Marco Fantin\n> Direttore di Stabilimento\n> AURORA FOOD GROUP S.r.l.\n> Tel. 0442 85 41 22 int. 210 - Mob. 348 22 41 7XX\n>\n>> -----Messaggio originale-----\n>> Da: Sartori Federica <f.sartori@aurorafoodgroup.it>\n>> Inviato: mercoledì 13 maggio 2026 17:30\n>> A: Fantin Marco; Zanella Denis\n>> Oggetto: R: Fwd: dimissioni Hoxha - situazione Linea 2 URGENTE\n>>\n>> Marco, Denis,\n>>\n>> ho messo insieme i numeri come richiesto. Ve li anticipo qui, il\n>> dettaglio è nel file allegato (Analisi_turnover_linea2_v3.xlsx).\n>>\n>> DIMISSIONI LINEA 2 - ultimi 5 mesi:\n>>\n>>   1. Stoica Alin       - lettera 09/01/2026 - ultimo giorno 31/01\n>>   2. Diallo Moussa     - lettera 20/02/2026 - ultimo giorno 08/03\n>>   3. Peruzzi Erika     - lettera 03/04/2026 - ultimo giorno 19/04\n>>   4. Hoxha Fatjon      - lettera 08/05/2026 - ultimo giorno 31/05\n>>\n>> Tutti e quattro, nel colloquio di uscita o nella lettera, hanno"
+  },
+  {
+   "cid": 287,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "origine": "nativa",
+   "rerank": 0.19280165433883667,
+   "testo": "con prestazioni giornaliere che, sommando ordinario e straordinario, hanno\nraggiunto e in taluni casi superato le 10 ore. Richiama l'art. 4 del D.Lgs.\n8 aprile 2003 n. 66 in materia di durata massima dell'orario di lavoro,\ncon particolare riferimento alla durata media massima settimanale di 48 ore\ncomprensive dello straordinario, calcolata sul periodo di riferimento, e\nl'art. 5 del medesimo decreto quanto ai limiti del lavoro straordinario.\nOsserva che il carattere \"sistematico\" dello straordinario contrasta con la\nnatura di strumento eccezionale che l'istituto riveste secondo il CCNL\napplicato.\n\nIl sig. Bertacco (RSU) riferisce che i lavoratori della Linea 2 hanno\nprestato straordinario pressoche' quotidiano nelle ultime quattro settimane,\ncon punte di 2,5 ore giornaliere, e che le comunicazioni di prolungamento\nturno sono avvenute in piu' occasioni il giorno stesso, a turno gia'\niniziato, rendendo impossibile ogni conciliazione con la vita familiare.\n\nL'ing. Fantin, per la Direzione, riconosce che il periodo ha comportato un\nricorso allo straordinario superiore all'ordinario andamento e ne indica la\ncausa negli ordini promozionali del cliente Tosano Cerea S.p.A., pervenuti"
+  },
+  {
+   "cid": 433,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "origine": "nativa",
+   "rerank": 0.1866448074579239,
+   "testo": ">>   4. Hoxha Fatjon      - lettera 08/05/2026 - ultimo giorno 31/05\n>>\n>> Tutti e quattro, nel colloquio di uscita o nella lettera, hanno\n>> indicato lo stesso motivo: i turni domenicali. Peruzzi testuale:\n>> \"non ho più una vita, mia figlia la vedo il martedì\". Stoica e\n>> Diallo sono andati entrambi in aziende metalmeccaniche della zona,\n>> stesso livello, NESSUN turno festivo.\n>>\n>> COSTO DI SOSTITUZIONE (per singola uscita, stima prudente):\n>>   - ricerca e selezione (agenzia)            1.100 EUR\n>>   - somministrazione primi 3 mesi (delta)    1.650 EUR\n>>   - formazione obbligatoria + HACCP + DPI      450 EUR\n>>   - affiancamento (ore capoturno + calo resa) 1.600 EUR\n>>   TOTALE ~ 4.800 EUR a persona\n>>   x 4 uscite = 19.200 EUR da gennaio ad oggi.\n>>\n>> PROPOSTA (da validare con il titolare):\n>> premio presenza di 120 EUR lordi/mese per gli operai di Linea 2\n>> che garantiscono la disponibilità domenicale a rotazione.\n>> Costo pieno: 120 x 10 persone x 12 mesi = 14.400 EUR/anno.\n>> Meno di quanto abbiamo già bruciato in sostituzioni, e almeno\n>> smettiamo di formare gente per i concorrenti.\n>>\n>> Aggiungo un dato che non fa piacere: Umana ci ha detto ieri che"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4754,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.16,
+  "rerank": 45.32
+ },
+ "id": "Q146",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:45:56",
+ "secondi": 45.49,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 62.97,
+  "token_prompt": 2114,
+  "token_risposta": 59,
+  "testo_grezzo": "Gli operai della Linea 2 sono andati via con un ritmo di 4 uscite in 5 mesi.\n\nFONTI: email_HR_dimissioni_operai_linea2.txt, contestazione_sindacale_straordinari_Tosano.txt",
+  "fonti_citate": [
+   "email_HR_dimissioni_operai_linea2.txt",
+   "contestazione_sindacale_straordinari_Tosano.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

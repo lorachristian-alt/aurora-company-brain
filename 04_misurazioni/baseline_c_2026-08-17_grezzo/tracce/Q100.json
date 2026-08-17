@@ -1,0 +1,678 @@
+{
+ "domanda": "Quante entrate fuori tolleranza ci sono state in quella settimana e chi le ha fatte piu' volte?",
+ "candidati_densi": [
+  {
+   "cid": 1088,
+   "punteggio": 0.5399740536747926,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1079,
+   "punteggio": 0.5372744309627377,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1077,
+   "punteggio": 0.5303176103017371,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1082,
+   "punteggio": 0.49669412705026916,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1083,
+   "punteggio": 0.49512339300149977,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1111,
+   "punteggio": 0.49141863388502105,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1092,
+   "punteggio": 0.48981856140034796,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1084,
+   "punteggio": 0.48903247980802217,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1081,
+   "punteggio": 0.48008293635510957,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1085,
+   "punteggio": 0.4787131009038482,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1080,
+   "punteggio": 0.4740237213213609,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1087,
+   "punteggio": 0.4715015965198779,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1207,
+   "punteggio": 0.4691321786305938,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 29,
+   "origine": "nativa"
+  },
+  {
+   "cid": 273,
+   "punteggio": 0.4665458447222726,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 288,
+   "punteggio": 0.4651641778336,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1091,
+   "punteggio": 0.4573731281003882,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1789,
+   "punteggio": 0.4550434743087316,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1709,
+   "punteggio": 0.45419126261994935,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 435,
+   "punteggio": 0.45262857032834475,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1089,
+   "punteggio": 0.4519293288986182,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 13,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1109,
+   "punteggio": 30.857624053955078,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1108,
+   "punteggio": 26.453018188476562,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1308,
+   "punteggio": 25.783323287963867,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1828,
+   "punteggio": 25.376121520996094,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1314,
+   "punteggio": 21.340730667114258,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1868,
+   "punteggio": 20.731952667236328,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1245,
+   "punteggio": 20.346118927001953,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1112,
+   "punteggio": 19.608352661132812,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 237,
+   "punteggio": 19.224254608154297,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1365,
+   "punteggio": 19.117765426635742,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1093,
+   "punteggio": 19.04786491394043,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1366,
+   "punteggio": 18.95030975341797,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1786,
+   "punteggio": 18.665498733520508,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1869,
+   "punteggio": 17.97307014465332,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 289,
+   "punteggio": 17.9162654876709,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1111,
+   "punteggio": 17.64934730529785,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 160,
+   "punteggio": 17.64557647705078,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1785,
+   "punteggio": 17.42331314086914,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 348,
+   "punteggio": 16.74266242980957,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1113,
+   "punteggio": 16.721412658691406,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1111,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.028309409888357256,
+   "rango_denso": 6,
+   "rango_sparso": 16
+  },
+  {
+   "cid": 1088,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1109,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1079,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1108,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1077,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1308,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1082,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1828,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1083,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1314,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1868,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1092,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1245,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1084,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1112,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 237,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1081,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1085,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1365,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1080,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1093,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 17,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1087,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1085,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.09526830166578293
+  },
+  {
+   "cid": 1079,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.09046509116888046
+  },
+  {
+   "cid": 1084,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.0867164358496666
+  },
+  {
+   "cid": 1088,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.0862198993563652
+  },
+  {
+   "cid": 1083,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.08174596726894379
+  },
+  {
+   "cid": 1082,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.07334794849157333
+  },
+  {
+   "cid": 1092,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.07213211804628372
+  },
+  {
+   "cid": 1077,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.06574787944555283
+  },
+  {
+   "cid": 1081,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.06451702862977982
+  },
+  {
+   "cid": 1080,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.05913316458463669
+  },
+  {
+   "cid": 1087,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.033551789820194244
+  },
+  {
+   "cid": 1868,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "rerank": 0.006855065934360027
+  },
+  {
+   "cid": 1093,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.00426314864307642
+  },
+  {
+   "cid": 1111,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.0016667696181684732
+  },
+  {
+   "cid": 237,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "rerank": 0.0007553959148935974
+  },
+  {
+   "cid": 1314,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "rerank": 0.000723290431778878
+  },
+  {
+   "cid": 1245,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.00026735023129731417
+  },
+  {
+   "cid": 1365,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.00012613651051651686
+  },
+  {
+   "cid": 1828,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 8.52453158586286e-05
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 4.1953408072004095e-05
+  },
+  {
+   "cid": 1308,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "rerank": 2.538277840358205e-05
+  },
+  {
+   "cid": 1112,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 2.2373411411535926e-05
+  },
+  {
+   "cid": 1108,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 2.0240397134330124e-05
+  },
+  {
+   "cid": 1109,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 2.006870272452943e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1085,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "origine": "nativa",
+   "rerank": 0.09526830166578293,
+   "testo": "0203;PERIN LUCA;07/05/2026;gio;LINEA 1;T1;05:56;14:15;8,00;0,25;STR 30%;\n0204;OSEI SAMUEL;07/05/2026;gio;LINEA 1;T2;13:56;23:00;8,00;1,00;STR 30%;\n0205;VASILESCU ANDREI;07/05/2026;gio;LINEA 1;T2;13:56;22:00;8,00;;;\n0206;BOGONI MARTA;07/05/2026;gio;LINEA 1;T1;05:54;14:20;8,00;0,33;STR 30%;\n0207;FURLAN ALESSANDRO;07/05/2026;gio;LINEA 1;T2;14:00;22:00;8,00;;;\n0208;EL AMRANI HASSAN;07/05/2026;gio;LINEA 1;T1;05:59;14:00;8,00;;;\n0209;PELOSO GIORGIO;07/05/2026;gio;LINEA 1;T3;21:54;06:00;8,00;;NOTT 55%;\n0210;MUNTEANU CRISTIAN;07/05/2026;gio;LINEA 1;T3;22:00;06:20;8,00;0,33;NOTT 55%;\n0301;BEN SALAH ADEL;07/05/2026;gio;LINEA 2;T1;06:00;14:00;8,00;;;\n0302;HOXHA FATJON;07/05/2026;gio;LINEA 2;T1;06:00;14:00;8,00;;;\n0303;MANSOURI YOUSSEF;07/05/2026;gio;LINEA 2;T2;13:54;22:00;8,00;;;\n0304;DAL BEN ELISA;07/05/2026;gio;LINEA 2;T1;05:57;14:00;8,00;;;\n0305;CIOBANU MARIUS;07/05/2026;gio;LINEA 2;T2;13:58;22:00;8,00;;;\n0306;BERTACCO PAOLO;07/05/2026;gio;LINEA 2;T1;06:03;14:45;8,00;0,75;STR 30%;ingresso oltre tolleranza\n0307;REFOSCO SONIA;07/05/2026;gio;LINEA 2;T2;13:59;22:00;8,00;;;\n0308;SOW IBRAHIM;07/05/2026;gio;LINEA 2;T2;14:02;22:30;8,00;0,50;STR 30%;"
+  },
+  {
+   "cid": 1079,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "origine": "nativa",
+   "rerank": 0.09046509116888046,
+   "testo": "0701;DAL MASO IVANO;04/05/2026;lun;MANUT.;T1;05:57;14:00;8,00;;;\n0702;BISSOLI MIRCO;04/05/2026;lun;MANUT.;T3;21:56;06:00;8,00;;NOTT 55%;\n0201;POPESCU IONUT;05/05/2026;mar;LINEA 1;T2;13:56;22:00;8,00;;;\n0202;ROSSIN DAVIDE;05/05/2026;mar;LINEA 1;T1;06:04;14:00;8,00;;;ingresso oltre tolleranza\n0203;PERIN LUCA;05/05/2026;mar;LINEA 1;T1;06:00;14:00;8,00;;;\n0204;OSEI SAMUEL;05/05/2026;mar;LINEA 1;T2;14:00;22:00;8,00;;;\n0205;VASILESCU ANDREI;05/05/2026;mar;LINEA 1;T2;13:58;22:00;8,00;;;\n0206;BOGONI MARTA;05/05/2026;mar;LINEA 1;T1;05:56;14:15;8,00;0,25;STR 30%;\n0207;FURLAN ALESSANDRO;05/05/2026;mar;LINEA 1;T2;13:56;22:00;8,00;;;\n0208;EL AMRANI HASSAN;05/05/2026;mar;LINEA 1;T1;05:58;14:00;8,00;;;\n0209;PELOSO GIORGIO;05/05/2026;mar;LINEA 1;T3;21:54;06:00;8,00;;NOTT 55%;\n0210;MUNTEANU CRISTIAN;05/05/2026;mar;LINEA 1;T3;21:54;06:20;8,00;0,33;NOTT 55%;\n0301;BEN SALAH ADEL;05/05/2026;mar;LINEA 2;T1;05:59;14:00;8,00;;;\n0302;HOXHA FATJON;05/05/2026;mar;LINEA 2;T1;05:57;14:00;8,00;;;\n0303;MANSOURI YOUSSEF;05/05/2026;mar;LINEA 2;T2;13:58;;8,00;;;OUT MANCANTE - forzatura responsabile (verifica a posteriori)\n0304;DAL BEN ELISA;05/05/2026;mar;LINEA 2;T1;05:56;14:00;8,00;;;"
+  },
+  {
+   "cid": 1084,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "origine": "nativa",
+   "rerank": 0.0867164358496666,
+   "testo": "0408;SBALCHIERO DAMIANO;06/05/2026;mer;LINEA 3;T3;21:58;06:00;8,00;;NOTT 55%;\n0501;MAROBIN ANNA;06/05/2026;mer;CONFEZ.;T1;05:59;14:00;8,00;;;\n0502;PERETTO CHIARA;06/05/2026;mer;CONFEZ.;T1;05:54;;8,00;;;OUT MANCANTE - forzatura responsabile (verifica a posteriori)\n0503;BA MAMADOU;06/05/2026;mer;CONFEZ.;T2;14:05;22:00;8,00;;;ingresso oltre tolleranza\n0504;FRIGO LUCIA;06/05/2026;mer;CONFEZ.;T2;13:58;22:00;8,00;;;\n0505;VISENTIN STEFANO;06/05/2026;mer;CONFEZ.;T2;13:56;22:00;8,00;;;\n0601;FAGGIONATO NICOLA;06/05/2026;mer;MAGAZZ.;T1;05:58;14:00;8,00;;;\n0602;SEGATO ALBERTO;06/05/2026;mer;MAGAZZ.;T1;06:00;14:40;8,00;0,67;STR 30%;\n0603;PREDA RADU;06/05/2026;mer;MAGAZZ.;T2;13:58;22:00;8,00;;;ingresso oltre tolleranza\n0604;MATTIELLO GIANLUCA;06/05/2026;mer;MAGAZZ.;T1;05:57;14:00;8,00;;;\n0701;DAL MASO IVANO;06/05/2026;mer;MANUT.;T1;06:00;14:00;8,00;;;\n0702;BISSOLI MIRCO;06/05/2026;mer;MANUT.;T3;;;;;;FERIE\n0201;POPESCU IONUT;07/05/2026;gio;LINEA 1;T2;13:58;22:00;8,00;;;\n0202;ROSSIN DAVIDE;07/05/2026;gio;LINEA 1;T1;05:54;14:45;8,00;0,75;STR 30%;\n0203;PERIN LUCA;07/05/2026;gio;LINEA 1;T1;05:56;14:15;8,00;0,25;STR 30%;\n0204;OSEI SAMUEL;07/05/2026;gio;LINEA 1;T2;13:56;23:00;8,00;1,00;STR 30%;"
+  },
+  {
+   "cid": 1088,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "origine": "nativa",
+   "rerank": 0.0862198993563652,
+   "testo": "0204;OSEI SAMUEL;08/05/2026;ven;LINEA 1;T2;13:54;22:00;8,00;;;\n0205;VASILESCU ANDREI;08/05/2026;ven;LINEA 1;T2;13:58;22:00;8,00;;;ingresso oltre tolleranza\n0206;BOGONI MARTA;08/05/2026;ven;LINEA 1;T1;06:00;14:00;8,00;;;\n0207;FURLAN ALESSANDRO;08/05/2026;ven;LINEA 1;T2;13:57;22:00;8,00;;;\n0208;EL AMRANI HASSAN;08/05/2026;ven;LINEA 1;T1;06:00;14:40;8,00;0,67;STR 30%;\n0209;PELOSO GIORGIO;08/05/2026;ven;LINEA 1;T3;21:58;06:00;8,00;;NOTT 55%;\n0210;MUNTEANU CRISTIAN;08/05/2026;ven;LINEA 1;T3;21:59;06:00;8,00;;NOTT 55%;\n0301;BEN SALAH ADEL;08/05/2026;ven;LINEA 2;T1;05:58;14:00;8,00;;;\n0302;HOXHA FATJON;08/05/2026;ven;LINEA 2;T1;06:05;;8,00;;STR 30%;OUT MANCANTE - forzatura responsabile (verifica a posteriori)\n0303;MANSOURI YOUSSEF;08/05/2026;ven;LINEA 2;T2;13:57;22:00;8,00;;;\n0304;DAL BEN ELISA;08/05/2026;ven;LINEA 2;T1;05:56;14:00;8,00;;;\n0305;CIOBANU MARIUS;08/05/2026;ven;LINEA 2;T2;13:59;22:00;8,00;;;\n0306;BERTACCO PAOLO;08/05/2026;ven;LINEA 2;T1;05:54;14:20;8,00;0,33;STR 30%;\n0307;REFOSCO SONIA;08/05/2026;ven;LINEA 2;T2;13:56;22:00;8,00;;;\n0308;SOW IBRAHIM;08/05/2026;ven;LINEA 2;T2;13:54;22:45;8,00;0,75;STR 30%;\n0309;GECCHELE NICOLO;08/05/2026;ven;LINEA 2;T1;06:02;14:00;8,00;;;"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4706,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.19,
+  "rerank": 56.58
+ },
+ "id": "Q100",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:10:27",
+ "secondi": 56.79,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 114.14,
+  "token_prompt": 3105,
+  "token_risposta": 113,
+  "testo_grezzo": "Non e' possibile calcolare la risposta alla domanda senza avere informazioni aggiuntive. Tuttavia, posso fornire una risposta basata sui dati disponibili.\n\nNon e' possibile calcolare la quantità di entrate fuori tolleranza e chi le ha fatte più volte senza avere informazioni aggiuntive. Tuttavia, posso fornire una risposta basata sui dati disponibili.\n\nNon e' possibile calcolare la risposta alla domanda senza avere informazioni aggiuntive.",
+  "fonti_citate": [],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

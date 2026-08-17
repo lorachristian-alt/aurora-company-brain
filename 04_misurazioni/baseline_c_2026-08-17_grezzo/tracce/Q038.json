@@ -1,0 +1,681 @@
+{
+ "domanda": "Qual e' il massimale contributivo di quest'anno e il minimale giornaliero?",
+ "candidati_densi": [
+  {
+   "cid": 243,
+   "punteggio": 0.6602178229410399,
+   "file": "Circolare_INPS_aliquote_contributive_2026.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 15,
+   "punteggio": 0.5350441307669451,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 673,
+   "punteggio": 0.4946104802274399,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 166,
+   "punteggio": 0.48952718529474704,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 102,
+   "punteggio": 0.4882696059982367,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 655,
+   "punteggio": 0.4878438762366652,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 654,
+   "punteggio": 0.48555667180880674,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1324,
+   "punteggio": 0.48473173480772913,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 548,
+   "punteggio": 0.47916050399448323,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1620,
+   "punteggio": 0.47466719346145947,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 48,
+   "punteggio": 0.47450097280784675,
+   "file": "analisi_scostamenti_costo_materie_prime.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1623,
+   "punteggio": 0.47040825399404473,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1372,
+   "punteggio": 0.46957227762800846,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1526,
+   "punteggio": 0.46776373934930354,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1619,
+   "punteggio": 0.46760040263703395,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 660,
+   "punteggio": 0.46712038057018324,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1625,
+   "punteggio": 0.4663128373903415,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1325,
+   "punteggio": 0.4662451392154431,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 248,
+   "punteggio": 0.4661102775938457,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 244,
+   "punteggio": 0.46491722294607823,
+   "file": "Circolare_INPS_aliquote_contributive_2026.txt",
+   "idx": 1,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 243,
+   "punteggio": 28.71691131591797,
+   "file": "Circolare_INPS_aliquote_contributive_2026.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 244,
+   "punteggio": 17.409133911132812,
+   "file": "Circolare_INPS_aliquote_contributive_2026.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1109,
+   "punteggio": 15.633551597595215,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 8,
+   "punteggio": 14.504976272583008,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1518,
+   "punteggio": 14.448054313659668,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1309,
+   "punteggio": 13.918160438537598,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 510,
+   "punteggio": 13.418553352355957,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 618,
+   "punteggio": 13.247535705566406,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 9,
+   "punteggio": 13.207813262939453,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 15,
+   "punteggio": 13.176982879638672,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 14,
+   "punteggio": 11.902759552001953,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 308,
+   "punteggio": 11.583451271057129,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1608,
+   "punteggio": 10.971991539001465,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 611,
+   "punteggio": 10.919051170349121,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1324,
+   "punteggio": 10.736679077148438,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 319,
+   "punteggio": 10.726983070373535,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 625,
+   "punteggio": 9.864847183227539,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 19,
+   "punteggio": 9.129424095153809,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 20,
+   "punteggio": 9.062370300292969,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1353,
+   "punteggio": 8.754358291625977,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 9,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 243,
+   "file": "Circolare_INPS_aliquote_contributive_2026.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.03278688524590164,
+   "rango_denso": 1,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 15,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.0304147465437788,
+   "rango_denso": 2,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 244,
+   "file": "Circolare_INPS_aliquote_contributive_2026.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.028629032258064516,
+   "rango_denso": 20,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1324,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.02803921568627451,
+   "rango_denso": 8,
+   "rango_sparso": 15
+  },
+  {
+   "cid": 673,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1109,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 8,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 166,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 102,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1518,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 655,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1309,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 510,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 654,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 618,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 9,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 548,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1620,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 14,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 48,
+   "file": "analisi_scostamenti_costo_materie_prime.xlsx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 308,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1623,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1372,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1608,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 243,
+   "file": "Circolare_INPS_aliquote_contributive_2026.txt",
+   "rerank": 0.9740228056907654
+  },
+  {
+   "cid": 244,
+   "file": "Circolare_INPS_aliquote_contributive_2026.txt",
+   "rerank": 0.20816920697689056
+  },
+  {
+   "cid": 14,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.009269445203244686
+  },
+  {
+   "cid": 1324,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "rerank": 0.008658569306135178
+  },
+  {
+   "cid": 15,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.008584819734096527
+  },
+  {
+   "cid": 166,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "rerank": 0.0037913888227194548
+  },
+  {
+   "cid": 673,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "rerank": 0.003141781548038125
+  },
+  {
+   "cid": 654,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "rerank": 0.003078772220760584
+  },
+  {
+   "cid": 1309,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "rerank": 0.0029295063577592373
+  },
+  {
+   "cid": 8,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.002585506532341242
+  },
+  {
+   "cid": 9,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.001583574921824038
+  },
+  {
+   "cid": 102,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "rerank": 0.0010992964962497354
+  },
+  {
+   "cid": 655,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "rerank": 0.0010399306192994118
+  },
+  {
+   "cid": 1372,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "rerank": 0.0008195872651413083
+  },
+  {
+   "cid": 1518,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.000707831874024123
+  },
+  {
+   "cid": 308,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "rerank": 0.000608552189078182
+  },
+  {
+   "cid": 1109,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.0005654640262946486
+  },
+  {
+   "cid": 1623,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "rerank": 0.00044774331036023796
+  },
+  {
+   "cid": 548,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "rerank": 0.0003344210854265839
+  },
+  {
+   "cid": 1620,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "rerank": 0.00032964194542728364
+  },
+  {
+   "cid": 618,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.00010587901488179341
+  },
+  {
+   "cid": 1608,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.00010297399421688169
+  },
+  {
+   "cid": 48,
+   "file": "analisi_scostamenti_costo_materie_prime.xlsx",
+   "rerank": 5.093362051411532e-05
+  },
+  {
+   "cid": 510,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 3.9686889067525044e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 243,
+   "file": "Circolare_INPS_aliquote_contributive_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.9740228056907654,
+   "testo": "ISTITUTO NAZIONALE PREVIDENZA SOCIALE\nDirezione Centrale Entrate\n\nCircolare n. 18 del 03/02/2026\n\nOGGETTO: Aliquote contributive per l'anno 2026. Massimale annuo della base contributiva e\n         pensionabile. Minimale di retribuzione giornaliera. Aziende del settore industria.\n\n1. PREMESSA\nCon la presente circolare si comunicano i valori aggiornati per l'anno 2026 relativi al\nminimale di retribuzione giornaliera, al massimale annuo della base contributiva e\npensionabile, nonche' le aliquote contributive applicabili.\n\n2. MINIMALE DI RETRIBUZIONE GIORNALIERA\nIl minimale di retribuzione giornaliera per l'anno 2026 e' fissato in euro 55,84.\n\n3. MASSIMALE ANNUO\nIl massimale annuo della base contributiva e pensionabile di cui all'art. 2, comma 18, della\nlegge 8 agosto 1995, n. 335, e' pari per l'anno 2026 a euro 121.750,00.\n\n4. ALIQUOTE - AZIENDE INDUSTRIALI CON PIU' DI 15 DIPENDENTI\n   IVS                                        33,00%  (di cui 9,19% a carico del lavoratore)\n   CIGS                                        0,90%  (di cui 0,30% a carico del lavoratore)\n   Fondo garanzia TFR                          0,20%\n   CIG ordinaria (fino a 50 dipendenti)        1,70%"
+  },
+  {
+   "cid": 244,
+   "file": "Circolare_INPS_aliquote_contributive_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.20816920697689056,
+   "testo": "CIGS                                        0,90%  (di cui 0,30% a carico del lavoratore)\n   Fondo garanzia TFR                          0,20%\n   CIG ordinaria (fino a 50 dipendenti)        1,70%\n   Malattia                                    2,22%\n   Maternita'                                  0,46%\n   Disoccupazione (NASpI)                      1,61%\n   Contributo integrativo                      0,30%\n\n5. RIVALUTAZIONE TFR\nIl coefficiente di rivalutazione del TFR e' comunicato mensilmente sul sito istituzionale.\n\n6. ISTRUZIONI OPERATIVE\nLe aziende esporranno i dati nel flusso UniEmens secondo le consuete modalita'. Eventuali\nconguagli relativi ai periodi pregressi potranno essere effettuati entro il terzo mese\nsuccessivo a quello di pubblicazione della presente.\n\n                                                          Il Direttore Generale\n\n---------------- inoltrata da Studio Bellotto & Associati il 05/02/2026 ----------------\nBuongiorno rag. Trentin,\nle giro la circolare per gli adempimenti di gennaio. Nulla di stravolgente rispetto al 2025,\ncambiano solo minimale e massimale. Le elaborazioni le facciamo noi come sempre.\nCordiali saluti\nA. Bellotto"
+  },
+  {
+   "cid": 14,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "origine": "nativa",
+   "rerank": 0.009269445203244686,
+   "testo": "mensile.\n8.3 Penale per ritardo di consegna. In caso di consegna effettuata oltre la data e la\n    finestra oraria confermate, il Distributore applichera' una penale pari allo 0,5%\n    (zero virgola cinque per cento) del valore imponibile dell'ordine per ogni giorno\n    lavorativo di ritardo, sino a un massimo dell'8% (otto per cento) del valore\n    dell'ordine medesimo. Superato il quinto giorno lavorativo di ritardo, l'ordine si\n    intendera' annullato ed equiparato a mancata consegna.\n8.4 Penale per mancata consegna. In caso di mancata consegna totale o parziale di un\n    ordine confermato, il Distributore applichera' una penale pari al 10% (dieci per\n    cento) del valore imponibile della merce non consegnata, salvo il risarcimento del\n    maggior danno documentato, ivi compreso il costo di approvvigionamento sostitutivo\n    presso terzi (\"cover\") per la differenza di prezzo eventualmente sostenuta.\n8.5 Massimale complessivo. L'ammontare complessivo delle penali di cui ai punti 8.2, 8.3\n    e 8.4 non potra' eccedere, per ciascun Anno Contrattuale, il 3% (tre per cento) del\n    fatturato imponibile sviluppato dal Fornitore verso il Distributore nel medesimo"
+  },
+  {
+   "cid": 1324,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "origine": "nativa",
+   "rerank": 0.008658569306135178,
+   "testo": "Scadenza:   0re 24.OO del 3O/O6/2O26\nFrazi0nament0: annuale - senza tacit0 rinn0v0\n[TIMBRO ILLEGGIBILE]\n\nFATTURAT0 DlCHlARAT0 (base di c0nteggi0 del premi0)\nfatturat0 annu0 previst0: eur0 12.5OO.OOO\ndi cui vers0 paesi UE: eur0 68O.OOO - vers0 USA/Canada: eur0 O (escluso, v. art. 24)\nregolazi0ne premi0 a c0nsuntiv0 entr0 6O gg dalla scadenza (art. 8 C0ndizi0ni Generali)\n\nQUADR0 MASSlMALl - FRANCHlGlE - SC0PERTl\n\nSEZl0NE A - R.C.T. (resp0nsabilita civile vers0 terzi)\nmassimale per sinistr0 eur0 3.OOO.OOO | per pers0na 3.OOO.OOO | per c0se 5OO.OOO\nfranchigia per sinistr0 danni a c0se: eur0 5OO\n\nSEZl0NE B - R.C.0. (prestat0ri di lav0r0)\nmassimale per sinistr0 eur0 3.OOO.OOO | per prestat0re eur0 1.5OO.OOO\n\nSEZl0NE C - R.C. PR0D0TTl (garanzia principale)\nmassimale per sinistr0 eur0 5.OOO.OOO\nmassimale aggregat0 annu0 eur0 5.OOO.OOO\nfranchigia fr0ntale per sinistr0: eur0 2.5OO\nsc0pert0 per danni da c0ntaminazi0ne accidentale del pr0d0tt0 (v. G.A. 2): 1O%\n    c0n il minim0 di eur0 5.OOO\nretr0attivita: 3O/O6/2O22 (claims made, v. art. 19)\np0stuma: 24 mesi per cessazi0ne attivita\n\nSEZl0NE D - GARANZlA ACCESS0RlA SPESE Dl RlTlR0 E RlCHlAM0 (G.A. 3)"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4692,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.17,
+  "rerank": 53.6
+ },
+ "id": "Q038",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:19:12",
+ "secondi": 53.79,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 65.55,
+  "token_prompt": 1993,
+  "token_risposta": 88,
+  "testo_grezzo": "Il massimale contributivo per l'anno 2026 è pari a euro 121.750,00, mentre il minimale di retribuzione giornaliera è fissato in euro 55,84.\n\nFONTI: Circolare_INPS_aliquote_contributive_2026.txt, accordo_quadro_private_label_Tosano_2026_firmato.txt\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "Circolare_INPS_aliquote_contributive_2026.txt",
+   "accordo_quadro_private_label_Tosano_2026_firmato.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

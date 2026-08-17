@@ -1,0 +1,678 @@
+{
+ "domanda": "Quanto ci è costata in tutto la storia del reclamo, guardando i soldi già usciti o impegnati?",
+ "candidati_densi": [
+  {
+   "cid": 1781,
+   "punteggio": 0.5724088330968664,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1779,
+   "punteggio": 0.5367081410574606,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1794,
+   "punteggio": 0.5302560654598524,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 21,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1792,
+   "punteggio": 0.5177629461229576,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1111,
+   "punteggio": 0.5169362826426659,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 472,
+   "punteggio": 0.511375919088134,
+   "file": "fattura_antivirus_licenze_2026.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 120,
+   "punteggio": 0.5100052752600688,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1527,
+   "punteggio": 0.5000221909077459,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1199,
+   "punteggio": 0.4928424749325726,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 21,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1877,
+   "punteggio": 0.4923590208743547,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1263,
+   "punteggio": 0.4922383981826876,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 84,
+   "punteggio": 0.4875351889907489,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 531,
+   "punteggio": 0.486453827693887,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 20,
+   "punteggio": 0.4852481045352569,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1542,
+   "punteggio": 0.4813256898548442,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1782,
+   "punteggio": 0.48092684918384376,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1629,
+   "punteggio": 0.4808544903936068,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1526,
+   "punteggio": 0.48039918117312724,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1110,
+   "punteggio": 0.479934960709156,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 433,
+   "punteggio": 0.4781813312786889,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 5,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1110,
+   "punteggio": 30.011316299438477,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1794,
+   "punteggio": 22.76913070678711,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 21,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1108,
+   "punteggio": 22.227489471435547,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1109,
+   "punteggio": 21.80063819885254,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1116,
+   "punteggio": 20.995208740234375,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 528,
+   "punteggio": 20.669677734375,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 434,
+   "punteggio": 20.43646240234375,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1366,
+   "punteggio": 19.811267852783203,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1117,
+   "punteggio": 19.27033805847168,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 316,
+   "punteggio": 18.272520065307617,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 438,
+   "punteggio": 18.10641098022461,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1835,
+   "punteggio": 18.02606201171875,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 618,
+   "punteggio": 17.82707405090332,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1714,
+   "punteggio": 17.71724510192871,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 433,
+   "punteggio": 17.605073928833008,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1710,
+   "punteggio": 17.382455825805664,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 515,
+   "punteggio": 17.317354202270508,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 313,
+   "punteggio": 17.165016174316406,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 614,
+   "punteggio": 17.156272888183594,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 506,
+   "punteggio": 16.658655166625977,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 1,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1794,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 21,
+   "origine": "nativa",
+   "rrf": 0.03200204813108039,
+   "rango_denso": 3,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.029051670471052088,
+   "rango_denso": 19,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 433,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.025833333333333333,
+   "rango_denso": 20,
+   "rango_sparso": 15
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1779,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1108,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1109,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1792,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1111,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1116,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 472,
+   "file": "fattura_antivirus_licenze_2026.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 528,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 120,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1527,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1117,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1199,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 21,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 316,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1877,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 438,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1263,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 84,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1835,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1794,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.019014935940504074
+  },
+  {
+   "cid": 433,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.003187865950167179
+  },
+  {
+   "cid": 1779,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0024559805169701576
+  },
+  {
+   "cid": 528,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "rerank": 0.001916544628329575
+  },
+  {
+   "cid": 1792,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0017526994924992323
+  },
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.0007893427391536534
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0003876181726809591
+  },
+  {
+   "cid": 120,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "rerank": 0.00032714923145249486
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.00032325461506843567
+  },
+  {
+   "cid": 1877,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "rerank": 0.00024368526646867394
+  },
+  {
+   "cid": 1199,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.00023687070643063635
+  },
+  {
+   "cid": 1116,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.00019668029563035816
+  },
+  {
+   "cid": 1111,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.00018689069838728756
+  },
+  {
+   "cid": 472,
+   "file": "fattura_antivirus_licenze_2026.txt",
+   "rerank": 0.00015639653429389
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 9.780443360796198e-05
+  },
+  {
+   "cid": 1527,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 7.992168684722856e-05
+  },
+  {
+   "cid": 1109,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 3.865612961817533e-05
+  },
+  {
+   "cid": 1117,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 3.531763286446221e-05
+  },
+  {
+   "cid": 1263,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "rerank": 2.8913256755913608e-05
+  },
+  {
+   "cid": 438,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 2.7595970095717348e-05
+  },
+  {
+   "cid": 1108,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 2.555415267124772e-05
+  },
+  {
+   "cid": 316,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 2.3885439077275805e-05
+  },
+  {
+   "cid": 1835,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 2.3538113964605145e-05
+  },
+  {
+   "cid": 84,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "rerank": 1.810269350244198e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1794,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.019014935940504074,
+   "testo": "[00:18:41] PARLANTE_1: e ripartito si vede la lucetta si ok\n[00:18:44] PARLANTE_4: allora rossi il punto e che il rinnovo listino 2026 2027 lui e partito da meno quattro e mezzo su tutto\n[00:18:51] PARLANTE_1: su tutto tutto\n[00:18:53] PARLANTE_4: su tutto e sul cornetto private label lo 0215 noi col meno quattro e mezzo andiamo sotto zero di margine industriale sotto zero papa non basso sotto\n[00:19:02] PARLANTE_1: coi numeri di chi della trentin o i tuoi\n[00:19:05] PARLANTE_4: della trentin e anche i miei stavolta dicono la stessa cosa piu o meno\n[00:19:09] PARLANTE_1: piu o meno [risate]\n[00:19:11] PARLANTE_4: e poi c'e la listing fee di dodicimila per lo 0455 e adesso con sta storia del reclamo io la trattativa la congelerei finche\n[00:19:18] PARLANTE_1: no congelarla no silvia se la congeli lui capisce che abbiamo un problema piuttosto la rallenti chiedi i dati dei volumi promo di\n[00:19:26] PARLANTE_4: [incomprensibile]\n[00:19:28] PARLANTE_1: esatto cosi prendiamo due settimane e intanto si chiude la storia del lotto e poi c'e il discorso vega se partiamo con minerbe la capacita raddoppia e allora il listino lo trattiamo da un'altra posizione ma questo rossi non lo deve"
+  },
+  {
+   "cid": 433,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "origine": "nativa",
+   "rerank": 0.003187865950167179,
+   "testo": ">>   4. Hoxha Fatjon      - lettera 08/05/2026 - ultimo giorno 31/05\n>>\n>> Tutti e quattro, nel colloquio di uscita o nella lettera, hanno\n>> indicato lo stesso motivo: i turni domenicali. Peruzzi testuale:\n>> \"non ho più una vita, mia figlia la vedo il martedì\". Stoica e\n>> Diallo sono andati entrambi in aziende metalmeccaniche della zona,\n>> stesso livello, NESSUN turno festivo.\n>>\n>> COSTO DI SOSTITUZIONE (per singola uscita, stima prudente):\n>>   - ricerca e selezione (agenzia)            1.100 EUR\n>>   - somministrazione primi 3 mesi (delta)    1.650 EUR\n>>   - formazione obbligatoria + HACCP + DPI      450 EUR\n>>   - affiancamento (ore capoturno + calo resa) 1.600 EUR\n>>   TOTALE ~ 4.800 EUR a persona\n>>   x 4 uscite = 19.200 EUR da gennaio ad oggi.\n>>\n>> PROPOSTA (da validare con il titolare):\n>> premio presenza di 120 EUR lordi/mese per gli operai di Linea 2\n>> che garantiscono la disponibilità domenicale a rotazione.\n>> Costo pieno: 120 x 10 persone x 12 mesi = 14.400 EUR/anno.\n>> Meno di quanto abbiamo già bruciato in sostituzioni, e almeno\n>> smettiamo di formare gente per i concorrenti.\n>>\n>> Aggiungo un dato che non fa piacere: Umana ci ha detto ieri che"
+  },
+  {
+   "cid": 1779,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.0024559805169701576,
+   "testo": "[00:05:40] PARLANTE_4: cinquemilacento a scaffale col marchio bonta di casa\n[00:05:44] PARLANTE_6: in parte bonta di casa in parte ali si\n[00:05:47] PARLANTE_4: quindi se si arriva al ritiro lo facciamo sul private label di tosano fantastico proprio adesso che rossi mi sta chiedendo il meno quattro e mezzo sul listino\n[00:05:56] PARLANTE_1: una cosa alla volta silvia\n[00:05:58] PARLANTE_4: no giancarlo non e una cosa alla volta e la stessa cosa se gli diamo il fianco su un reclamo corpo estraneo quello il meno quattro e mezzo me lo chiede col sorriso e ci aggiunge pure la listing fee\n[00:06:08] PARLANTE_2: quant'era la listing fee\n[00:06:10] PARLANTE_4: dodicimila per mettere dentro lo 0455 il formato promo\n[00:06:14] PARLANTE_1: ok ok dopo torniamo su tosano adesso i lotti chi e d'accordo per il blocco di tutti e due\n[00:06:20] PARLANTE_2: d'accordo\n[00:06:21] PARLANTE_3: d'accordo ovviamente\n[00:06:22] PARLANTE_6: d'accordo\n[00:06:23] PARLANTE_4: d'accordo pero decidiamo anche cosa diciamo a tosano perche non possiamo bloccare e stare zitti la perbellini le cose le viene a sapere"
+  },
+  {
+   "cid": 528,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "origine": "nativa",
+   "rerank": 0.001916544628329575,
+   "testo": "> Tel. 0522 92 71 05 - Mob. 335 71 88 402 - d.camurri@criotechimpianti.it\n> P.IVA 02655890354 - www.criotechimpianti.it\n> Le informazioni contenute in questa comunicazione sono riservate ai sensi\n> del Reg. UE 679/2016. This communication may contain confidential information.\n\n\n-----Messaggio originale-----\nDa: Giancarlo Bertoldi <g.bertoldi@aurorafoodgroup.it>\nInviato: mercoledi 22 aprile 2026 23:19\nA: Marco Fantin <m.fantin@aurorafoodgroup.it>\nCc: Luisa Trentin <l.trentin@aurorafoodgroup.it>\nOggetto: R: I: Preventivo n. OF-2026-0455 rev.2 - tunnel di surgelazione a spirale CR-SP180 - Aurora Food Group\n\n> marco ho letto adesso tutto bello tutto giusto ma la domanda e' una sola\n> 290 mila euro sono tanti soldi e l'anno scorso la rev che ci aveva fatto\n> vedere il Camurri a cibus mi ricordo 260 o sbaglio, cosa e' cambiato che\n> adesso costa trentamila in piu, e l'87mila di acconto quando esattamente\n> lo devo tirare fuori perche' maggio e' il mese che tosano non paga fino\n> al 10 giugno e la luisa mi dice che siamo gia dentro con l'anticipo\n> fatture, chiedigli se l'acconto si puo fare 20% o pagarlo a 60 giorni\n> e chiedigli anche lo sconto se firmiamo subito che quello li a cibus"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4675,
+ "tempi": {
+  "denso": 0.01,
+  "sparso": 0.17,
+  "rerank": 38.83
+ },
+ "id": "Q204",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:30:06",
+ "secondi": 39.01,
+ "generazione": {
+  "modello": "",
+  "secondi": 57.72,
+  "token_prompt": null,
+  "token_risposta": null,
+  "testo_grezzo": "",
+  "fonti_citate": [],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

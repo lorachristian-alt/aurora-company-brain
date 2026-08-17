@@ -1,0 +1,680 @@
+{
+ "domanda": "Quanto ci sono costate finora le non conformita' classificate come critiche nel 2026?",
+ "candidati_densi": [
+  {
+   "cid": 1854,
+   "punteggio": 0.6114674812211567,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 348,
+   "punteggio": 0.5527696734302763,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1322,
+   "punteggio": 0.5394919063786775,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1862,
+   "punteggio": 0.5367279184849515,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1207,
+   "punteggio": 0.5342449509304525,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 29,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1853,
+   "punteggio": 0.5143061557147994,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1517,
+   "punteggio": 0.510072152031571,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1524,
+   "punteggio": 0.5056474413941654,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1178,
+   "punteggio": 0.5030474613914071,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1280,
+   "punteggio": 0.502724713034552,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1802,
+   "punteggio": 0.4987962986086697,
+   "file": "verbale_assemblea_condominio_capannone.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1210,
+   "punteggio": 0.4977425198742421,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 32,
+   "origine": "nativa"
+  },
+  {
+   "cid": 654,
+   "punteggio": 0.4930778537228936,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1523,
+   "punteggio": 0.49274440984089996,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1522,
+   "punteggio": 0.49197171636457604,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1206,
+   "punteggio": 0.491418983755487,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 28,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1324,
+   "punteggio": 0.48954897494630556,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 350,
+   "punteggio": 0.48929379878613327,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1606,
+   "punteggio": 0.4884452413803465,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 445,
+   "punteggio": 0.48565357508124885,
+   "file": "estratto_conto_unicredit_maggio26.csv",
+   "idx": 6,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1607,
+   "punteggio": 18.567649841308594,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1365,
+   "punteggio": 16.813936233520508,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 517,
+   "punteggio": 16.132247924804688,
+   "file": "Fwd_Fwd_Fwd_ATTENZIONE_richiamo_prodotto_concorrente_RASFF.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1410,
+   "punteggio": 15.516802787780762,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1454,
+   "punteggio": 15.280831336975098,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1637,
+   "punteggio": 15.280831336975098,
+   "file": "Scansione_20260518_0003.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1835,
+   "punteggio": 15.2545166015625,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 434,
+   "punteggio": 15.207635879516602,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1114,
+   "punteggio": 15.201844215393066,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 430,
+   "punteggio": 14.994632720947266,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 0,
+   "punteggio": 14.672772407531738,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1111,
+   "punteggio": 14.502358436584473,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1117,
+   "punteggio": 14.326927185058594,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1392,
+   "punteggio": 14.010294914245605,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1711,
+   "punteggio": 13.852169036865234,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 114,
+   "punteggio": 13.812013626098633,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 505,
+   "punteggio": 13.54092788696289,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 534,
+   "punteggio": 13.480216026306152,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1368,
+   "punteggio": 13.458366394042969,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 433,
+   "punteggio": 13.392691612243652,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 5,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1607,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1854,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 348,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1365,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 517,
+   "file": "Fwd_Fwd_Fwd_ATTENZIONE_richiamo_prodotto_concorrente_RASFF.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1322,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1410,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1862,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1207,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 29,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1454,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1637,
+   "file": "Scansione_20260518_0003.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1853,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1517,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1835,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1524,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1114,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1178,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1280,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 0,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1802,
+   "file": "verbale_assemblea_condominio_capannone.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1111,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1210,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 32,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1854,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.8523648381233215
+  },
+  {
+   "cid": 1853,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.733402669429779
+  },
+  {
+   "cid": 1322,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "rerank": 0.5833618640899658
+  },
+  {
+   "cid": 1607,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.47263598442077637
+  },
+  {
+   "cid": 348,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "rerank": 0.4024658203125
+  },
+  {
+   "cid": 1207,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.2526669502258301
+  },
+  {
+   "cid": 1178,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.17366547882556915
+  },
+  {
+   "cid": 1862,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.078581802546978
+  },
+  {
+   "cid": 1524,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.01846339739859104
+  },
+  {
+   "cid": 1210,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.016339154914021492
+  },
+  {
+   "cid": 1111,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.011830617673695087
+  },
+  {
+   "cid": 1280,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "rerank": 0.00975852832198143
+  },
+  {
+   "cid": 1517,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.00854443572461605
+  },
+  {
+   "cid": 0,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "rerank": 0.0037198986392468214
+  },
+  {
+   "cid": 1802,
+   "file": "verbale_assemblea_condominio_capannone.txt",
+   "rerank": 0.0024867344181984663
+  },
+  {
+   "cid": 517,
+   "file": "Fwd_Fwd_Fwd_ATTENZIONE_richiamo_prodotto_concorrente_RASFF.eml",
+   "rerank": 0.0016535838367417455
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.0007514885510317981
+  },
+  {
+   "cid": 1637,
+   "file": "Scansione_20260518_0003.pdf",
+   "rerank": 0.00031380937434732914
+  },
+  {
+   "cid": 1454,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "rerank": 0.0003138090542051941
+  },
+  {
+   "cid": 1365,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.00028654903871938586
+  },
+  {
+   "cid": 1410,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.00015297518984880298
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.00011516814993228763
+  },
+  {
+   "cid": 1114,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 5.799451537313871e-05
+  },
+  {
+   "cid": 1835,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 4.888052717433311e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1854,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.8523648381233215,
+   "testo": "numero verde, Famila etichetta bio, piu' 2 minori). Andamento in linea.\n\n   4.3  Non conformita' interne: anno 2025 n. 214 (di cui 9 gravi); gennaio-febbraio\n        2026 n. 37 registrate a MOD-QA-31. Le NC aperte da oltre 60 giorni alla data\n        odierna sono n. 6: la Direzione ne chiede la revisione puntuale entro il\n        30/04 (resp. RSGQ).\n\n   4.4  Costo della non qualita' 2025: 68.400 euro stimati (sfridi da NC, resi,\n        declassamenti). Dato parziale: mancano i costi di 31 NC prive di stima.\n        La Direzione richiama i responsabili di reparto alla compilazione del campo\n        costo entro 5 giorni dalla chiusura della NC.\n\n5. DATI DI INGRESSO - INDICATORI KPI QUALITA'\n\n   5.1  Tabella indicatori (consuntivo 2025 vs obiettivo):\n\n        Indicatore                              Obiettivo    Consuntivo   Esito\n        ------------------------------------------------------------------------\n        Reclami / mio pezzi                     < 1,0        0,89         OK\n        Resa prima scelta Linea 1               > 97,0%      97,4%        OK\n        Resa prima scelta Linea 2               > 96,5%      95,8%        NO"
+  },
+  {
+   "cid": 1853,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.733402669429779,
+   "testo": "MOD-QA-12 revisionato e le foto dell'armadio ricambi in officina.\n        La Direzione RICHIAMA la RSGQ al rispetto tassativo della scadenza.\n        [annotazione a margine: evidenze poi trasmesse a CSQA in data 02/04/2026,\n        oltre il termine - v. NC-2026-049 e NC-2026-061]\n\n   3.4  Audit interni 2025: eseguiti 9 su 10 pianificati (90%). L'audit su gestione\n        vetro/plastica dura e' slittato a gennaio 2026, eseguito il 28/01/2026.\n\n   3.5  Audit clienti: audit igienico Tosano (dott.ssa Perbellini) del 06/11/2025,\n        esito positivo con 3 osservazioni, tutte chiuse.\n\n4. DATI DI INGRESSO - RECLAMI E NON CONFORMITA'\n\n   4.1  Reclami cliente/consumatore anno 2025: n. 41 totali, pari a 0,89 reclami\n        per milione di pezzi venduti (obiettivo: < 1,0 - RAGGIUNTO).\n        Ripartizione 2025:  corpo estraneo 4 - confezionamento 17 - organolettici\n        12 - etichettatura 5 - altro 3. Nessun reclamo con esito sanitario.\n\n   4.2  Reclami gennaio-febbraio 2026: n. 5 (Ali' saldature film, consumatore\n        numero verde, Famila etichetta bio, piu' 2 minori). Andamento in linea.\n\n   4.3  Non conformita' interne: anno 2025 n. 214 (di cui 9 gravi); gennaio-febbraio"
+  },
+  {
+   "cid": 1322,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "origine": "nativa",
+   "rerank": 0.5833618640899658,
+   "testo": "Cologna Veneta, 12 gennaio 2026\n\n\n[Sartori F. - firmata dal titolare il 15/01, l'originale è nel raccoglitore DOC-QA in qualità. Ho appeso le copie nelle bacheche il 16/01. Quella della Linea 3 qualcuno l'ha staccata per appenderci i turni: riappesa il 20/01, tenere d'occhio.]\n\nObiettivo\nIndicatore\nValore 2025\nTarget 2026\nResponsabile\nMantenimento certificazioni\nesito audit BRCGS e IFS\nAA / Higher Level 97,32%\nconferma grade e livello\nRSGQ\nReclami cliente e consumatore\nreclami per milione di confezioni\n9,4\n< 8,0\nRSGQ\nReclami critici (classe 1)\nnumero assoluto\n1\n0\nRSGQ\nNon conformità audit interni\nNC maggiori\n2\n0\nRSGQ\nChiusura azioni correttive\n% chiuse entro scadenza\n78%\n≥ 95%\ntutte le funzioni\nRegistrazioni CCP verificate in seconda firma\n% conformità a campione\nnon misurato\n100%\nResp. Produzione\nFormazione sicurezza alimentare\nore/addetto/anno\n4,2\n≥ 6\nHR + RSGQ\nCultura sicurezza alimentare\npartecipazione questionario anonimo\n61%\n≥ 80%\nDirezione\nEfficienza risorsa idrica CIP\nm3 acqua/ton prodotto\n3,9\n≤ 3,6\nManutenzione\nRuolo\nNome\nFirma\nIl Legale Rappresentante — Amministratore Delegato\nGiancarlo Bertoldi\n_______________________"
+  },
+  {
+   "cid": 1607,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "origine": "nativa",
+   "rerank": 0.47263598442077637,
+   "testo": "4. ELENCO NON CONFORMITA' / NON-CONFORMITY LIST\n----------------------------------------------------------------------------\nTutte le NC sotto riportate sono classificate MINORI (minor).\nTermine di chiusura / Deadline: piano d'azione + evidenze entro 28 gg dalla\nriunione di chiusura, ossia entro il 18/03/2026.\nPer ciascuna NC è richiesta: correzione, analisi della causa radice (root cause\nanalysis), azione correttiva, evidenza oggettiva.\n\n===========================================================================\nNC n. 1 (MINORE)\nStandard/clausola: BRCGS Issue 9 cl. 2.10.2 - IFS Food v8 cl. 2.3.9.2\nRequisito: le registrazioni dei controlli ai CCP devono essere verificate da\n  persona autorizzata diversa dall'esecutore, con firma di verifica.\nEvidenza oggettiva: le registrazioni manuali del monitoraggio CCP2 (MOD-QA-12)\n  e CCP3 (MOD-QA-07 rev.5) del periodo 12-16/01/2026 (Linea 1, turni 1 e 2)\n  risultano prive della verifica in seconda firma del capoturno entro fine\n  turno in 11 moduli su 20 esaminati. La verifica QA settimanale risulta\n  invece eseguita. Intervistato il capoturno, la prassi della seconda firma\n  non risulta sistematica."
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4642,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.19,
+  "rerank": 41.01
+ },
+ "id": "Q137",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:39:07",
+ "secondi": 41.22,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 38.34,
+  "token_prompt": 1927,
+  "token_risposta": 48,
+  "testo_grezzo": "Non e' possibile calcolare le coste delle non conformita' classificate come critiche nel 2026.\n\nFONTI: Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+  "fonti_citate": [
+   "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

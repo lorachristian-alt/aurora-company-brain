@@ -1,0 +1,683 @@
+{
+ "domanda": "Chi ci sta ancora rimanendo indietro coi pagamenti e da quanto?",
+ "candidati_densi": [
+  {
+   "cid": 1782,
+   "punteggio": 0.5302470291991166,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1379,
+   "punteggio": 0.5243032362247477,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1781,
+   "punteggio": 0.5146586576866401,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1374,
+   "punteggio": 0.5060790557623002,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1528,
+   "punteggio": 0.5024551413654791,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 430,
+   "punteggio": 0.49713011208999713,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1547,
+   "punteggio": 0.49292820270882975,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1110,
+   "punteggio": 0.4926190320508983,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1366,
+   "punteggio": 0.49219875170763727,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1795,
+   "punteggio": 0.4914239976236777,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 22,
+   "origine": "nativa"
+  },
+  {
+   "cid": 435,
+   "punteggio": 0.4897896614086375,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 434,
+   "punteggio": 0.48879742227341905,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 431,
+   "punteggio": 0.4865912791044174,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1114,
+   "punteggio": 0.4804692064000533,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1791,
+   "punteggio": 0.47998306461831686,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 275,
+   "punteggio": 0.47914448527050946,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 273,
+   "punteggio": 0.4786204681088937,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1808,
+   "punteggio": 0.4751484695440532,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1802,
+   "punteggio": 0.471919047421145,
+   "file": "verbale_assemblea_condominio_capannone.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1548,
+   "punteggio": 0.4719082392939437,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1792,
+   "punteggio": 17.077096939086914,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1366,
+   "punteggio": 15.873217582702637,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1782,
+   "punteggio": 15.692288398742676,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1794,
+   "punteggio": 15.515901565551758,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 21,
+   "origine": "nativa"
+  },
+  {
+   "cid": 525,
+   "punteggio": 15.050032615661621,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 505,
+   "punteggio": 14.829268455505371,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1783,
+   "punteggio": 14.791563034057617,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1778,
+   "punteggio": 14.214864730834961,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 506,
+   "punteggio": 13.9530668258667,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 277,
+   "punteggio": 13.612552642822266,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1781,
+   "punteggio": 13.008198738098145,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 621,
+   "punteggio": 12.537704467773438,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 273,
+   "punteggio": 12.502957344055176,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1779,
+   "punteggio": 12.359109878540039,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1308,
+   "punteggio": 12.352960586547852,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1868,
+   "punteggio": 12.263176918029785,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1424,
+   "punteggio": 11.657735824584961,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1867,
+   "punteggio": 11.643624305725098,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1832,
+   "punteggio": 11.23865032196045,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1831,
+   "punteggio": 11.134429931640625,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.032266458495966696,
+   "rango_denso": 1,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.030621785881252923,
+   "rango_denso": 9,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.029957522915269395,
+   "rango_denso": 3,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 273,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.02668564312399929,
+   "rango_denso": 17,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1792,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1379,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1374,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1794,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 21,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 525,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1528,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 505,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1547,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1783,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1778,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 506,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 277,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1795,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 22,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 435,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 621,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1114,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 525,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "rerank": 0.007375601213425398
+  },
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.004086744040250778
+  },
+  {
+   "cid": 277,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.003742722561582923
+  },
+  {
+   "cid": 1374,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "rerank": 0.0025097401812672615
+  },
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.00202211388386786
+  },
+  {
+   "cid": 1379,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "rerank": 0.0019269492477178574
+  },
+  {
+   "cid": 1783,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0011235623387619853
+  },
+  {
+   "cid": 1528,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.0009267842979170382
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.0005812160088680685
+  },
+  {
+   "cid": 273,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.0005599758587777615
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.0005216974532231688
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.0005170432268641889
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.00038570346077904105
+  },
+  {
+   "cid": 1795,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.00038275305996648967
+  },
+  {
+   "cid": 1114,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.00031302051502279937
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.00029666617047041655
+  },
+  {
+   "cid": 435,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.00028696132358163595
+  },
+  {
+   "cid": 1547,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "rerank": 0.00028300913982093334
+  },
+  {
+   "cid": 621,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.00024809830938465893
+  },
+  {
+   "cid": 1792,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.00018406621529720724
+  },
+  {
+   "cid": 1794,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.00010396419384051114
+  },
+  {
+   "cid": 1778,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 9.790875628823414e-05
+  },
+  {
+   "cid": 505,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 1.9416329450905323e-05
+  },
+  {
+   "cid": 506,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 1.6510610294062644e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 525,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "origine": "nativa",
+   "rerank": 0.007375601213425398,
+   "testo": "2. INGOMBRO: la spirale e' 8,4 x 6,2 m, altezza 4,9 m. In sala Linea 3 ci sta MA va spostato il quadro elettrico generale della sala e demolito il soppalchetto ricambi (quello dove Ivano tiene la roba, che tanto per l'audit va comunque svuotato). Ho fatto verificare l'altezza sottotrave: 5,35 m, ok con margine risicato per il canale di estrazione. Criotech chiede il rilievo definitivo prima della conferma d'ordine.\n\n3. TECNICA: resa dichiarata 1.800 kg/h sul cornetto da 45 g con cuore a -18C in 35-38 min, contro i 240 min limite del nostro CCP4 col TS-01 attuale che ormai li tiene a fatica. Ammoniaca/glicole, niente freon, consumo dichiarato -22% rispetto al TS-01. Per me tecnicamente non c'e' partita.\n\nResta il punto pagamenti che non e' roba mia: 30% all'ordine, 60% alla consegna, 10% al collaudo. Luisa in copia per i conti.\n\nIo firmerei. Dimmi tu.\nMF\n\nIng. Marco Fantin\nDirettore di Stabilimento\nAurora Food Group S.r.l. - Via dell'Industria 27, 37044 Cologna Veneta (VR)\nTel. 0442 85 41 22 int. 210 - m.fantin@aurorafoodgroup.it\n\n\n-----Messaggio originale-----\nDa: Davide Camurri <d.camurri@criotechimpianti.it>\nInviato: martedi 21 aprile 2026 18:40"
+  },
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.004086744040250778,
+   "testo": "[00:07:58] PARLANTE_5: allora l'acconto sul tunnel a spirale e il trenta per cento di duecentonovantamila quindi ottantasettemila euro e crio tec li vuole entro fine maggio se no slitta la consegna\n[00:08:08] PARLANTE_1: non puo slittare la consegna il TS-01 e un rottame se ci molla in campagna natalizia siamo\n[00:08:14] PARLANTE_5: lo so infatti non sto dicendo di non pagare sto dicendo che l'incasso grosso di tosano quello delle fatture di marzo con la riba a novanta giorni entra il 10 giugno e fino ad allora il conto e in tensione\n[00:08:26] PARLANTE_1: quanto in tensione\n[00:08:28] PARLANTE_5: se paghiamo gli ottantasettemila e ci mettiamo anche il ritiro andiamo oltre l'affidamento di conto che e duecentocinquantamila quindi bisogna usare l'anticipo fatture ho gia sentito la filiale di unicredit qua a cologna il plafond anticipo e quattrocentomila e ne stiamo usando\n[00:08:42] PARLANTE_5: [incomprensibile] duecentoventi mi pare devo verificare\n[00:08:46] PARLANTE_1: quindi ci sta dentro\n[00:08:48] PARLANTE_5: ci sta dentro stretto se non arriva altro se tosano per dire si mette a contestare le fatture dei lotti ritirati o a compensare col ritiro allora no"
+  },
+  {
+   "cid": 277,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "origine": "nativa",
+   "rerank": 0.003742722561582923,
+   "testo": "comunicazione.\n\n> -----Messaggio originale-----\n> Da: Vantini Luca <l.vantini@tosano.it>\n> Inviato: venerdì 8 maggio 2026 14:07\n> A: Nicola Faggionato <n.faggionato@aurorafoodgroup.it>\n> Cc: Perbellini Anna <a.perbellini@tosano.it>; s.bertoldi@aurorafoodgroup.it\n> Oggetto: R: CONTESTAZIONE FORMALE - mancato rispetto finestra di scarico 07/05\n>\n> Sig. Faggionato,\n>\n> il verbale della Polstrada riguarda il VOSTRO vettore, non il CE.DI. Tosano.\n> Io giovedì alle 11:30 avevo la baia 14 VUOTA e prenotata a nome vostro, con\n> due persone ferme ad aspettare un camion che e' arrivato alle 15:34.\n>\n> IL PROBLEMA NON E' IL PERCHE' DEL RITARDO. E' CHE NESSUNO HA AVVISATO.\n> La prima telefonata l'abbiamo fatta NOI alle 12:10, e il vs. numero di\n> emergenza trasporti non rispondeva. Il vs. autista non aveva il numero del\n> CE.DI. Il vettore ci ha risposto alle 13 dicendo \"sta arrivando\" (falso,\n> era ancora fermo a Nogarole).\n>\n> Quindi confermo integralmente:\n> - addebito penale 250,00 euro come da condizioni generali di fornitura;\n> - segnalazione nel vendor rating (parametro puntualita' consegne);\n> - alla terza segnalazione nell'anno solare scatta la revisione della"
+  },
+  {
+   "cid": 1374,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "origine": "nativa",
+   "rerank": 0.0025097401812672615,
+   "testo": "Settimana Saldo iniziale Incassi Uscite Saldo finale Fido residuo Utilizzo anticipo Allarme\nW22 (attuale) 41820.6 0 0 212000\nW23\nW24\nW25\nW26\nW27\nW28\nW29\nW30\nW31\nW32\nW33\nW34\n\n(L.T.) se il Criotech va pagato in W24 e il Tosano slitta di una settimana, in W25 siamo fuori fido.\n(L.T.) chiesto a UniCredit ampliamento anticipo a 500.000. Risposta attesa entro il 20/06.\n(G.B. a penna sul foglio stampato) 'chiedere a Rossi se anticipa il pagamento in cambio di 1 punto'\nIpotesi alla base del previsionale\n\n\n1. Tosano paga a 90 gg d.f.f.m. - storicamente slitta di 4-7 giorni oltre la scadenza teorica\n2. Sconto merce 2% dedotto in fattura, contributo promo liquidato a fine anno (non in cassa qui)\n3. Rossetto: prudenzialmente al 50% per la contestazione sul richiamo\n4. Criotech: acconto 30% + saldo 60% alla consegna prevista fine luglio + 10% al collaudo (settembre)\n5. Non è considerato il credito d'imposta 4.0 (compensabile solo dopo l'interconnessione - vedi nota Bellotto)\n6. Non è considerato il costo del ritiro dei lotti L26130/L26131 stimato in 31.500 € (decisione sospesa)\n7. Agosto: 3 settimane di chiusura, incassi storicamente in ritardo di 10 gg"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4676,
+ "tempi": {
+  "denso": 0.09,
+  "sparso": 0.25,
+  "rerank": 48.19
+ },
+ "id": "Q157",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:54:09",
+ "secondi": 48.53,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 67.61,
+  "token_prompt": 1996,
+  "token_risposta": 125,
+  "testo_grezzo": "Non e' possibile determinare il saldo dei pagamenti rimanenti senza conoscere il saldo iniziale e il saldo finale dei pagamenti. Non e' possibile determinare il saldo iniziale e il saldo finale dei pagamenti dai documenti forniti.\n\nFONTI: Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml, trascrizione_riunione_direzione_12_05_2026.txt, contestazione_logistica_Tosano_ritardo_Cerea.txt, previsionale cassa giugno-agosto DEF (2).xlsx",
+  "fonti_citate": [
+   "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "trascrizione_riunione_direzione_12_05_2026.txt",
+   "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "previsionale cassa giugno-agosto DEF (2).xlsx"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

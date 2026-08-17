@@ -1,0 +1,681 @@
+{
+ "domanda": "Gli allarmi della cella surgelati di aprile potevano essere previsti guardando il piano di manutenzione?",
+ "candidati_densi": [
+  {
+   "cid": 1842,
+   "punteggio": 0.5199713977295194,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 618,
+   "punteggio": 0.5109963662232715,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 392,
+   "punteggio": 0.50555309602295,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1208,
+   "punteggio": 0.502169541887336,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 30,
+   "origine": "nativa"
+  },
+  {
+   "cid": 524,
+   "punteggio": 0.49963909452745675,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1245,
+   "punteggio": 0.4980956751630176,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1196,
+   "punteggio": 0.4965418496492162,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 403,
+   "punteggio": 0.4917993847293868,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 315,
+   "punteggio": 0.49100680149132075,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1860,
+   "punteggio": 0.49037014033166126,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1198,
+   "punteggio": 0.48710775769582504,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1791,
+   "punteggio": 0.48693019370255297,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 313,
+   "punteggio": 0.4869162414201366,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 317,
+   "punteggio": 0.4868455015661147,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1137,
+   "punteggio": 0.486587319154291,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 125,
+   "punteggio": 0.48528829849491106,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1210,
+   "punteggio": 0.4849491219321914,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 32,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1430,
+   "punteggio": 0.4837351118390739,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 314,
+   "punteggio": 0.4833996332804661,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1225,
+   "punteggio": 0.48260815184238776,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 1,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 312,
+   "punteggio": 20.05707359313965,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 315,
+   "punteggio": 20.026123046875,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 314,
+   "punteggio": 19.46975326538086,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 250,
+   "punteggio": 19.208221435546875,
+   "file": "comunicazione_chiusura_estiva_2026.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 323,
+   "punteggio": 18.774173736572266,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1608,
+   "punteggio": 17.996427536010742,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 602,
+   "punteggio": 17.674047470092773,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 576,
+   "punteggio": 15.985572814941406,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 601,
+   "punteggio": 15.20707893371582,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1430,
+   "punteggio": 14.926546096801758,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1130,
+   "punteggio": 14.693574905395508,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1859,
+   "punteggio": 14.31684684753418,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1176,
+   "punteggio": 14.031231880187988,
+   "file": "noleggio_distributori_automatici_contratto.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1858,
+   "punteggio": 13.848362922668457,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1161,
+   "punteggio": 13.809993743896484,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 392,
+   "punteggio": 13.786887168884277,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1225,
+   "punteggio": 13.587499618530273,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 577,
+   "punteggio": 13.503437042236328,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 168,
+   "punteggio": 13.42025375366211,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 146,
+   "punteggio": 13.240097045898438,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 2,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 315,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.030621785881252923,
+   "rango_denso": 9,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 392,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.029030910609857977,
+   "rango_denso": 3,
+   "rango_sparso": 16
+  },
+  {
+   "cid": 314,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.028531243721117136,
+   "rango_denso": 19,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1430,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.027106227106227107,
+   "rango_denso": 18,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1225,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.02548701298701299,
+   "rango_denso": 20,
+   "rango_sparso": 17
+  },
+  {
+   "cid": 312,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1842,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 618,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 250,
+   "file": "comunicazione_chiusura_estiva_2026.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1208,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 30,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 323,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 524,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1245,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1608,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 602,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1196,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 18,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 403,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 576,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 601,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1860,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1130,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1198,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 20,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1791,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 18,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1859,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 314,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.133697047829628
+  },
+  {
+   "cid": 312,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.08197817206382751
+  },
+  {
+   "cid": 315,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.045011166483163834
+  },
+  {
+   "cid": 1225,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.03237577900290489
+  },
+  {
+   "cid": 1130,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.026645665988326073
+  },
+  {
+   "cid": 403,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "rerank": 0.01740415021777153
+  },
+  {
+   "cid": 1842,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "rerank": 0.012986157089471817
+  },
+  {
+   "cid": 1208,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.011144354939460754
+  },
+  {
+   "cid": 392,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "rerank": 0.009190358221530914
+  },
+  {
+   "cid": 524,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "rerank": 0.007714156061410904
+  },
+  {
+   "cid": 1430,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "rerank": 0.004078980535268784
+  },
+  {
+   "cid": 618,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.0028889847453683615
+  },
+  {
+   "cid": 601,
+   "file": "job_description_responsabile_produzione.docx",
+   "rerank": 0.002784001175314188
+  },
+  {
+   "cid": 1608,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.0025067185051739216
+  },
+  {
+   "cid": 323,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.0022533326409757137
+  },
+  {
+   "cid": 576,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 0.0012849363265559077
+  },
+  {
+   "cid": 1860,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.0012497754069045186
+  },
+  {
+   "cid": 250,
+   "file": "comunicazione_chiusura_estiva_2026.txt",
+   "rerank": 0.0011835158802568913
+  },
+  {
+   "cid": 1859,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.001031907624565065
+  },
+  {
+   "cid": 1196,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.0007502971566282213
+  },
+  {
+   "cid": 1198,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.00035434257006272674
+  },
+  {
+   "cid": 1791,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0003411466896068305
+  },
+  {
+   "cid": 602,
+   "file": "job_description_responsabile_produzione.docx",
+   "rerank": 0.0003231917507946491
+  },
+  {
+   "cid": 1245,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.00019889902614522725
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 314,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "origine": "nativa",
+   "rerank": 0.133697047829628,
+   "testo": "[Commento: Dal Maso I. - e il banco prova in officina chi lo guarda? ah già\n    non ha gas dentro, ok niente]\n\nART. 2 - IMPIANTI OGGETTO DEL SERVIZIO E CARICHE DI REFRIGERANTE\n2.1 TS-01 - tunnel di surgelazione a piastre, Linea 3\n    refrigerante R404A - carica nominale kg 48,0\n    GWP 3.922 - tonnellate di CO2 equivalente: 188,3 t CO2eq\n2.2 CF-02 - cella surgelati -18 °C, stabilimento\n    refrigerante R449A - carica nominale kg 22,0\n    GWP 1.397 - tonnellate di CO2 equivalente: 30,7 t CO2eq\n2.3 CF-01 - cella refrigerata +4 °C, stabilimento\n    refrigerante R134a - carica nominale kg 12,0\n    GWP 1.430 - tonnellate di CO2 equivalente: 17,2 t CO2eq\n2.4 Le cariche indicate sono quelle risultanti dai registri di apparecchiatura alla\n    data di stipula. Ogni variazione di carica (recuperi, rabbocchi) è annotata dal\n    Manutentore sul registro di cui all'art. 6.\n\nART. 3 - INTERVENTI PROGRAMMATI E FREQUENZE\n3.1 Il Manutentore esegue gli interventi programmati secondo il seguente piano:\n    a) TS-01: visita di manutenzione preventiva TRIMESTRALE (4 visite/anno),\n       comprensiva di controllo perdite semestrale ex art. 4 Reg. 517/2014"
+  },
+  {
+   "cid": 312,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "origine": "nativa",
+   "rerank": 0.08197817206382751,
+   "testo": "Cologna Veneta (VR) e dispone, tra gli altri, dei seguenti impianti frigoriferi:\ntunnel di surgelazione a piastre TS-01 (Linea 3);\ncella frigorifera CF-01 a temperatura positiva (+4 °C);\ncella frigorifera CF-02 a temperatura negativa (-18 °C), presso lo\n     stabilimento principale;\n   - cella surgelati del magazzino di Via Palù 3/A;\n   [Commento: Fantin M. - il Palù lo teniamo fuori, ha ancora la garanzia\n   dell'installatore fino a novembre 2026. Rientra col rinnovo]\nb) il Manutentore è impresa certificata ai sensi del Regolamento (UE) n. 517/2014\n   e del D.P.R. 146/2018 per l'installazione, manutenzione e riparazione di\n   apparecchiature fisse di refrigerazione contenenti gas fluorurati a effetto serra;\nc) la Committente intende affidare al Manutentore il servizio di manutenzione\n   programmata e di pronto intervento sugli impianti di cui alla premessa a);\nd) è previsto nel corso del 2026 l'avvio del cantiere di sostituzione del tunnel\n   TS-01 con nuovo tunnel a spirale (fornitore Criotech Impianti S.r.l.), come da\n   ordine CapEx della Committente.\n\nTutto ciò premesso, si conviene e si stipula quanto segue.\n\nART. 1 - OGGETTO"
+  },
+  {
+   "cid": 315,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "origine": "nativa",
+   "rerank": 0.045011166483163834,
+   "testo": "a) TS-01: visita di manutenzione preventiva TRIMESTRALE (4 visite/anno),\n       comprensiva di controllo perdite semestrale ex art. 4 Reg. 517/2014\n       (apparecchiatura ≥ 50 t CO2eq e < 500 t CO2eq: controllo ogni 6 mesi,\n       ridotto a 12 mesi in presenza di sistema di rilevamento perdite conforme);\n    b) CF-02: visita SEMESTRALE (2 visite/anno), controllo perdite ANNUALE\n       (apparecchiatura ≥ 5 t CO2eq e < 50 t CO2eq: controllo ogni 12 mesi);\n    c) CF-01: visita SEMESTRALE (2 visite/anno), controllo perdite ANNUALE\n       (apparecchiatura ≥ 5 t CO2eq e < 50 t CO2eq);\n    d) verifica funzionale del sistema di allarme temperatura delle celle CF-01 e\n       CF-02 in occasione di ogni visita, con prova di intervento della sirena e\n       della teleassistenza.\n       [Commento: Marchetti E. - coordinare con gli allarmi registrati dal\n       centralino, ad aprile la sonda CF-02 ha dato numeri strani, vedere log]\n3.2 Le visite programmate sono eseguite in giorni feriali, previo preavviso di\n    almeno 5 giorni lavorativi, in fasce orarie concordate con il Responsabile\n    Produzione o con il Capo officina della Committente, in modo da non"
+  },
+  {
+   "cid": 1225,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "origine": "nativa",
+   "rerank": 0.03237577900290489,
+   "testo": "- Luogo dell'evento: cella surgelati CF-02 (-18 gradi C), zona corsia\n  scaffalatura B\n- Natura e sede della lesione: trauma da schiacciamento, dito indice\n  mano sinistra\n- Prognosi da primo certificato: giorni 12 (dodici) salvo complicazioni\n- Numero caso INAIL assegnato: [riportato sulla ricevuta telematica,\n  ricevuta salvata in \\\\SRV-AURORA\\HR\\infortuni\\2026\\corradin\\]\n- Testimoni: Ilie Petru (operaio Linea 3), presente in cella al momento\n  del fatto\n- Abbandono del lavoro: ore 09:55 - accompagnato al Pronto Soccorso\n  dell'Ospedale G. Fracastoro di San Bonifacio (VR) dal collega\n  Sbalchiero D. con auto propria (ambulanza non necessaria)\n\nRegistro infortuni: annotazione n. 02/2026.\n(il n. 01/2026 e' la contusione lieve di Ba M. del 13/02, 0 gg, medicazione)\n\n--------------------------------------------------------------------------\n\n2) DINAMICA DICHIARATA DAL LAVORATORE (raccolta da F. Sartori il 29/04,\n   presente R. Guerra, sottoscritta dal lavoratore)\n\nIl lavoratore dichiara: \"Stavo spostando i carrelli portateglie vuoti\ndentro la cella CF-02 per fare posto ai bancali in arrivo dal tunnel.\nIl pavimento vicino alla porta aveva della brina, come sempre quando la"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4648,
+ "tempi": {
+  "denso": 0.01,
+  "sparso": 0.18,
+  "rerank": 45.24
+ },
+ "id": "Q211",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:35:09",
+ "secondi": 45.43,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 54.07,
+  "token_prompt": 1879,
+  "token_risposta": 63,
+  "testo_grezzo": "Gli allarmi della cella surgelati di aprile potevano essere previsti guardando il piano di manutenzione.\n\nFONTI: contratto_manutenzione_impianto_frigo_TS01.docx, nota_infortunio_INAIL_operaio_linea3.txt",
+  "fonti_citate": [
+   "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "nota_infortunio_INAIL_operaio_linea3.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

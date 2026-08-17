@@ -1,0 +1,681 @@
+{
+ "domanda": "Il punto 7 della lista documentale chiesta dall'ULSS riguarda l'acqua: eravamo in regola?",
+ "candidati_densi": [
+  {
+   "cid": 1243,
+   "punteggio": 0.591976913940252,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1244,
+   "punteggio": 0.5300399119909311,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1843,
+   "punteggio": 0.5272914805227505,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1322,
+   "punteggio": 0.5209062561141733,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1239,
+   "punteggio": 0.5101989878578498,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1840,
+   "punteggio": 0.5070807434047905,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1290,
+   "punteggio": 0.503634327233838,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1246,
+   "punteggio": 0.503515408587556,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1663,
+   "punteggio": 0.5026934125216871,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1238,
+   "punteggio": 0.5025389184491832,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 341,
+   "punteggio": 0.50241532606747,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1681,
+   "punteggio": 0.5012156560974398,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1279,
+   "punteggio": 0.5011647033471747,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1842,
+   "punteggio": 0.4978320825749194,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 203,
+   "punteggio": 0.4973306302709613,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1281,
+   "punteggio": 0.4963976280029174,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1293,
+   "punteggio": 0.49276443743301485,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1245,
+   "punteggio": 0.4926187553854551,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 109,
+   "punteggio": 0.49146762452981996,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 403,
+   "punteggio": 0.49066895985214126,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 4,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1243,
+   "punteggio": 21.37868881225586,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 219,
+   "punteggio": 18.611724853515625,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1842,
+   "punteggio": 17.823963165283203,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1845,
+   "punteggio": 15.847696304321289,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 618,
+   "punteggio": 15.3189115524292,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 153,
+   "punteggio": 14.60718059539795,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 508,
+   "punteggio": 14.577658653259277,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1860,
+   "punteggio": 14.342939376831055,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 608,
+   "punteggio": 14.317811965942383,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1298,
+   "punteggio": 13.988238334655762,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1840,
+   "punteggio": 13.786980628967285,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1793,
+   "punteggio": 13.737092018127441,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 161,
+   "punteggio": 13.609373092651367,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 578,
+   "punteggio": 13.57514762878418,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 517,
+   "punteggio": 13.447676658630371,
+   "file": "Fwd_Fwd_Fwd_ATTENZIONE_richiamo_prodotto_concorrente_RASFF.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1,
+   "punteggio": 13.190855979919434,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 340,
+   "punteggio": 13.019203186035156,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1844,
+   "punteggio": 12.913662910461426,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 86,
+   "punteggio": 12.91022777557373,
+   "file": "appunti_tecnologo_quaderno_prove_pilota_OCR.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 112,
+   "punteggio": 12.836374282836914,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1243,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.03278688524590164,
+   "rango_denso": 1,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1842,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.029386529386529386,
+   "rango_denso": 14,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1840,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.029236022193768675,
+   "rango_denso": 6,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 219,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1244,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1843,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1322,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1845,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 618,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1239,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 153,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 508,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1290,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1246,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1860,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 608,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1663,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1238,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1298,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 341,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1681,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1793,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 20,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 161,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1279,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1243,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.8278466463088989
+  },
+  {
+   "cid": 1842,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "rerank": 0.1584903746843338
+  },
+  {
+   "cid": 1239,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.05897326394915581
+  },
+  {
+   "cid": 1298,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "rerank": 0.05598488822579384
+  },
+  {
+   "cid": 1840,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "rerank": 0.03867689147591591
+  },
+  {
+   "cid": 608,
+   "file": "job_description_responsabile_produzione.docx",
+   "rerank": 0.01612122729420662
+  },
+  {
+   "cid": 1845,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "rerank": 0.00947666261345148
+  },
+  {
+   "cid": 1246,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.008046059869229794
+  },
+  {
+   "cid": 1681,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "rerank": 0.00557502219453454
+  },
+  {
+   "cid": 1244,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.004966475535184145
+  },
+  {
+   "cid": 1843,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "rerank": 0.004421359859406948
+  },
+  {
+   "cid": 1290,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "rerank": 0.0020035107154399157
+  },
+  {
+   "cid": 1322,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "rerank": 0.0014077371452003717
+  },
+  {
+   "cid": 1238,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.0007219345425255597
+  },
+  {
+   "cid": 1279,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "rerank": 0.0005566414911299944
+  },
+  {
+   "cid": 618,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.0005526806344278157
+  },
+  {
+   "cid": 1663,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "rerank": 0.00041011054418049753
+  },
+  {
+   "cid": 341,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "rerank": 0.00025162831298075616
+  },
+  {
+   "cid": 1860,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.00018247983825858682
+  },
+  {
+   "cid": 219,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "rerank": 0.00016516777395736426
+  },
+  {
+   "cid": 1793,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.00014635646948590875
+  },
+  {
+   "cid": 161,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "rerank": 6.432205555029213e-05
+  },
+  {
+   "cid": 508,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 3.731494871317409e-05
+  },
+  {
+   "cid": 153,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "rerank": 1.75662189576542e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1243,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "origine": "nativa",
+   "rerank": 0.8278466463088989,
+   "testo": "e norme collegate, il quale sostituisce il documento cartaceo e la firma\nautografa.\n\n--- FINE TESTO DELL'ATTO ---\n\n________________________________________\n\nDa: Federica Sartori <f.sartori@aurorafoodgroup.it>\nA: Elena Marchetti <e.marchetti@aurorafoodgroup.it>; Marco Fantin <m.fantin@aurorafoodgroup.it>\nCc: Giancarlo Bertoldi <g.bertoldi@aurorafoodgroup.it>\nInviato: lunedì 25 maggio 2026 12:10\nOggetto: I: POSTA CERTIFICATA: Prot. n. 0058214/2026 - Preavviso di ispezione programmata\n\nElena, Marco,\nè arrivata QUESTA sulla PEC. Ispezione ULSS il 9 GIUGNO. Tra due settimane!!\nVe la giro subito, io non so nemmeno da dove si comincia con la lista che chiedono,\nsono 14 punti. Il punto 7 (analisi acqua) mi sa che è quello messo peggio, l'ultima\nanalisi che trovo in archivio è del 2023?? Ditemi voi.\nGiancarlo in cc come da sue istruzioni.\nFede\n\nFederica Sartori - HR & Segreteria\nAurora Food Group S.r.l. - Via dell'Industria 27, 37044 Cologna Veneta (VR)\nLe informazioni contenute nella presente comunicazione sono riservate ai sensi del\nReg. UE 2016/679. Se avete ricevuto questo messaggio per errore siete pregati di\ndistruggerlo e darne comunicazione al mittente."
+  },
+  {
+   "cid": 1842,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "origine": "nativa",
+   "rerank": 0.1584903746843338,
+   "testo": "1.6 LINEA 3 - SURGELAZIONE E CELLA CF-02 (-18 gradi C)\n    - tunnel TS-01: apparecchiatura datata; l'impresa dichiara la\n      sostituzione programmata con tunnel a spirale entro il 2026\n      (contratto con Criotech Impianti S.r.l. esibito in copia)\n    - cella CF-01 (+4 gradi C) anticella: si rileva FORMAZIONE DI\n      CONDENSA E MUFFA PUNTIFORME sul soffitto in prossimita' della\n      porta, con guarnizione della porta lacerata nel tratto\n      inferiore e brinamento anomalo (All. II Cap. II punto 1\n      lett. b e c)\n    - termoregistratore CF-02: funzionante, ultima verifica taratura\n      12/02/2026\n\nAZIENDA ULSS 9 SCALIGERA - Dipartimento di Prevenzione - Servizio Igiene Alimenti e Nutrizione (SIAN)\nVerbale n. 2026/SIAN/00214 - redatto in triplice copia - pag. 3\npag. 3\n1.7 DEPOSITO PRODOTTO FINITO - VIA PALU' 3/A\n    Non ispezionato in data odierna; l'unita' locale sara' oggetto\n    di separato controllo.\n1.8 SERVIZI IGIENICI E SPOGLIATOI\n    - CONFORMI; acqua calda e fredda, ventilazione adeguata\n1.9 GESTIONE RIFIUTI E SOTTOPRODOTTI\n    - contenitori identificati, area dedicata esterna: CONFORME\n2. DOCUMENTAZIONE VISIONATA"
+  },
+  {
+   "cid": 1239,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "origine": "nativa",
+   "rerank": 0.05897326394915581,
+   "testo": "detergenti e sanificanti impiegati);\n  6.  piano e registrazioni del monitoraggio infestanti, comprensivo di planimetria\n      delle postazioni e rapporti della ditta incaricata;\n  7.  documentazione attestante la potabilità dell'acqua utilizzata nel processo\n      (analisi ai sensi del D.Lgs. 18/2023, ultimo biennio);\n  8.  procedure di rintracciabilità ai sensi del Reg. CE 178/2002 e registrazioni\n      di carico/scarico lotti; esiti dell'ultimo esercizio di rintracciabilità;\n  9.  procedura di gestione dei reclami e di ritiro/richiamo dal mercato, con\n      relative registrazioni dell'ultimo anno;\n  10. attestati di formazione del personale in materia di igiene alimentare e\n      registro delle attività formative interne;\n  11. giudizi di idoneità sanitaria ove applicabili e procedura di gestione degli\n      stati morbosi del personale (Cap. VIII All. II);\n  12. contratti e registrazioni di manutenzione delle attrezzature rilevanti ai\n      fini della sicurezza alimentare (impianti termici, metal detector,\n      confezionatrici, impianti frigoriferi) e relative tarature/verifiche;\n  13. dichiarazioni di conformità dei materiali e oggetti destinati al contatto"
+  },
+  {
+   "cid": 1298,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "origine": "nativa",
+   "rerank": 0.05598488822579384,
+   "testo": "RDP-26-0245;19/05/26;Produttore di ghiaccio (sala confezionamento);Enterococchi intestinali;UNI EN ISO 7899-2;0;UFC/100 ml;0;Conforme;Analytica Veneta S.r.l. - ACCREDIA 0987\nRDP-26-0258;09/06/2026;Rete ingresso stabilimento (contatore);Cloro residuo libero;APAT CNR IRSA 4080;0,16;mg/l;0,2 (valore indicativo);Conforme;controllo interno mensile - eseguito in mattinata, stessa giornata dell'ispezione ULSS 9 (nulla rilevato sul punto)\nRDP-26-0258;09/06/2026;Uscita addolcitore (acqua di processo);Cloro residuo libero;APAT CNR IRSA 4080;0,10;mg/l;0,2 (valore indicativo);Conforme;controllo interno mensile\nRDP-26-0258;09/06/2026;Produttore di ghiaccio (sala confezionamento);Cloro residuo libero;APAT CNR IRSA 4080;0,09;mg/l;0,2 (valore indicativo);Conforme;"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4256,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.18,
+  "rerank": 46.54
+ },
+ "id": "Q229",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:48:45",
+ "secondi": 46.74,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 50.79,
+  "token_prompt": 1820,
+  "token_risposta": 96,
+  "testo_grezzo": "Il punto 7 della lista documentale chiesta dall'ULSS riguarda l'acqua: non è possibile determinare se eravamo in regola senza i dati specifici dell'analisi ai sensi del D.Lgs. 18/2023.\n\nFONTI: notifica_ATS_ispezione_programmata_igiene.txt, piano_autocontrollo_acqua_potabile_analisi.csv\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "notifica_ATS_ispezione_programmata_igiene.txt",
+   "piano_autocontrollo_acqua_potabile_analisi.csv"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

@@ -1,0 +1,682 @@
+{
+ "domanda": "Come siamo messi col conto a fine maggio?",
+ "candidati_densi": [
+  {
+   "cid": 166,
+   "punteggio": 0.5822522370640519,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1831,
+   "punteggio": 0.5274028931276535,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1034,
+   "punteggio": 0.5263798014444303,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 100,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1051,
+   "punteggio": 0.5248122489847015,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 117,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1032,
+   "punteggio": 0.5246746993439257,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 98,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1039,
+   "punteggio": 0.5181711989080864,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 105,
+   "origine": "nativa"
+  },
+  {
+   "cid": 917,
+   "punteggio": 0.5168319898851611,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 95,
+   "origine": "nativa"
+  },
+  {
+   "cid": 938,
+   "punteggio": 0.5158568290940562,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1033,
+   "punteggio": 0.5157166578646571,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 99,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1045,
+   "punteggio": 0.5150140194482373,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 111,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1035,
+   "punteggio": 0.5143718586604347,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 101,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1019,
+   "punteggio": 0.5136241807180967,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 85,
+   "origine": "nativa"
+  },
+  {
+   "cid": 934,
+   "punteggio": 0.5134360180788056,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1037,
+   "punteggio": 0.513365786097013,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 103,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1010,
+   "punteggio": 0.5133569085280021,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 76,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1031,
+   "punteggio": 0.5130649340043323,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 97,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1042,
+   "punteggio": 0.5129299151540152,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 108,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1776,
+   "punteggio": 0.5127393056267242,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1052,
+   "punteggio": 0.5123956321061903,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 118,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1020,
+   "punteggio": 0.5109406366161617,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 86,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 431,
+   "punteggio": 26.774066925048828,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1782,
+   "punteggio": 19.025371551513672,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 523,
+   "punteggio": 16.04233169555664,
+   "file": "Fwd_newsletter_confindustria_marzo.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 284,
+   "punteggio": 14.552183151245117,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1781,
+   "punteggio": 13.846502304077148,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1785,
+   "punteggio": 12.009116172790527,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 510,
+   "punteggio": 11.62743854522705,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 531,
+   "punteggio": 11.577716827392578,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1107,
+   "punteggio": 11.47236442565918,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 152,
+   "punteggio": 11.395915031433105,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1378,
+   "punteggio": 11.091126441955566,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1831,
+   "punteggio": 10.955179214477539,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1788,
+   "punteggio": 10.702862739562988,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1110,
+   "punteggio": 10.277217864990234,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 666,
+   "punteggio": 10.176072120666504,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 256,
+   "punteggio": 10.114629745483398,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 642,
+   "punteggio": 10.111187934875488,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 608,
+   "punteggio": 10.09686279296875,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1830,
+   "punteggio": 9.9511079788208,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 685,
+   "punteggio": 9.923236846923828,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 15,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1831,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.030017921146953404,
+   "rango_denso": 2,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 166,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 523,
+   "file": "Fwd_newsletter_confindustria_marzo.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1034,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 100,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 284,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1051,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 117,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1032,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 98,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1039,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 105,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1785,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 510,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 917,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 95,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 531,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 938,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1033,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 99,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1107,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 152,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1045,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 111,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1035,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 101,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1378,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1019,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 85,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 934,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.49758774042129517
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.29676905274391174
+  },
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.25986385345458984
+  },
+  {
+   "cid": 523,
+   "file": "Fwd_newsletter_confindustria_marzo.txt",
+   "rerank": 0.027390561997890472
+  },
+  {
+   "cid": 1785,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.015532342717051506
+  },
+  {
+   "cid": 166,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "rerank": 0.013416346162557602
+  },
+  {
+   "cid": 531,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "rerank": 0.005731928627938032
+  },
+  {
+   "cid": 284,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.003191040363162756
+  },
+  {
+   "cid": 1378,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "rerank": 0.002650453941896558
+  },
+  {
+   "cid": 152,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "rerank": 0.0025556557811796665
+  },
+  {
+   "cid": 917,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.0024437960237264633
+  },
+  {
+   "cid": 1831,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.001795919961296022
+  },
+  {
+   "cid": 1034,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.00029966377769596875
+  },
+  {
+   "cid": 938,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.00029530603205785155
+  },
+  {
+   "cid": 934,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.00027192430570721626
+  },
+  {
+   "cid": 1032,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.0002212089457316324
+  },
+  {
+   "cid": 1019,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.0002207092329626903
+  },
+  {
+   "cid": 1035,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.00020084268180653453
+  },
+  {
+   "cid": 1051,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.00016983531531877816
+  },
+  {
+   "cid": 1107,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.000156158406753093
+  },
+  {
+   "cid": 1033,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.0001462755462853238
+  },
+  {
+   "cid": 1045,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.00013505174138117582
+  },
+  {
+   "cid": 1039,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 8.16626416053623e-05
+  },
+  {
+   "cid": 510,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 7.159241795307025e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "origine": "nativa",
+   "rerank": 0.49758774042129517,
+   "testo": "il listino perche non possiamo essere noi a pagare due volte una promozione\nche gia ci paga niente, comunque per le assunzioni ok procedete con l agenzia\nma in somministrazione mi raccomando niente indeterminato adesso che dobbiamo\npagare l acconto del tunnel a fine mese lo sapete meglio di me come siamo\nmessi col conto\ngb\n\nInviato dal mio iPhone\n\n> -----Messaggio originale-----\n> Da: Fantin Marco <m.fantin@aurorafoodgroup.it>\n> Inviato: mercoledì 13 maggio 2026 18:05\n> A: Bertoldi Giancarlo\n> Cc: Sartori Federica; Zanella Denis\n> Oggetto: R: Fwd: dimissioni Hoxha - situazione Linea 2 URGENTE\n>\n> Giancarlo,\n>\n> leggi la catena sotto, serve una decisione tua entro venerdì.\n>\n> Sintesi: quarta dimissione in cinque mesi sulla Linea 2, sempre lo\n> stesso motivo, i turni della domenica. Federica ha fatto i conti,\n> sono sotto. Per me la proposta del premio presenza sta in piedi:\n> 14.400 euro l'anno contro i 19.200 che abbiamo GIA' speso di\n> sostituzioni da gennaio. E i 19.200 non includono i pezzi persi\n> per la resa più bassa dei nuovi, che Denis stima in un altro\n> 8-10% nei primi due mesi.\n>\n> Domenica scorsa la linea ha girato con 5 persone dove ne servono 6."
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.29676905274391174,
+   "testo": "[00:07:10] PARLANTE_3: e se invece e nostra e aspettiamo e nel frattempo un bambino si rompe un dente chi va a firmare marco tu o io\n[00:07:16] PARLANTE_2: [incomprensibile]\n[00:07:18] PARLANTE_1: [rumore di sedia] calmi\n[00:07:21] PARLANTE_4: la via di mezzo c'e si chiama ritiro cautelativo lo vestiamo da eccesso di prudenza verso il cliente non da ammissione\n[00:07:28] PARLANTE_1: quanto ci costa\n[00:07:30] PARLANTE_6: nicola ha fatto un conto veloce tra logistica smaltimento riaccrediti e il lavoro nostro siamo sull'ordine dei trentamila trentacinquemila\n[00:07:38] PARLANTE_5: trentunmilacinquecento per la precisione e l'ho messo su un foglio che vi giro dopo (con dentro anche il trasporto di ritorno che nicola si era dimenticato)\n[00:07:46] PARLANTE_1: trentunmila e cinque proprio nel mese che dobbiamo dare l'acconto a crio tec\n[00:07:51] PARLANTE_5: eh appunto volevo arrivarci io giancarlo posso dire due cose sulla cassa\n[00:07:55] PARLANTE_1: di pure luisa tanto ormai\n[00:07:58] PARLANTE_5: allora l'acconto sul tunnel a spirale e il trenta per cento di duecentonovantamila quindi ottantasettemila euro e crio tec li vuole entro fine maggio se no slitta la consegna"
+  },
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.25986385345458984,
+   "testo": "[00:07:58] PARLANTE_5: allora l'acconto sul tunnel a spirale e il trenta per cento di duecentonovantamila quindi ottantasettemila euro e crio tec li vuole entro fine maggio se no slitta la consegna\n[00:08:08] PARLANTE_1: non puo slittare la consegna il TS-01 e un rottame se ci molla in campagna natalizia siamo\n[00:08:14] PARLANTE_5: lo so infatti non sto dicendo di non pagare sto dicendo che l'incasso grosso di tosano quello delle fatture di marzo con la riba a novanta giorni entra il 10 giugno e fino ad allora il conto e in tensione\n[00:08:26] PARLANTE_1: quanto in tensione\n[00:08:28] PARLANTE_5: se paghiamo gli ottantasettemila e ci mettiamo anche il ritiro andiamo oltre l'affidamento di conto che e duecentocinquantamila quindi bisogna usare l'anticipo fatture ho gia sentito la filiale di unicredit qua a cologna il plafond anticipo e quattrocentomila e ne stiamo usando\n[00:08:42] PARLANTE_5: [incomprensibile] duecentoventi mi pare devo verificare\n[00:08:46] PARLANTE_1: quindi ci sta dentro\n[00:08:48] PARLANTE_5: ci sta dentro stretto se non arriva altro se tosano per dire si mette a contestare le fatture dei lotti ritirati o a compensare col ritiro allora no"
+  },
+  {
+   "cid": 523,
+   "file": "Fwd_newsletter_confindustria_marzo.txt",
+   "origine": "nativa",
+   "rerank": 0.027390561997890472,
+   "testo": "e conduttori di impianti.\n\n>> ENERGIA: CONSORZIO ACQUISTI\nAperte le adesioni per il gruppo d'acquisto energia elettrica 2027. Termine 15 aprile.\n\n>> AGENDA\n12/03 - Assemblea di categoria Alimentare, ore 17.00, sede\n19/03 - Webinar Transizione 5.0\n26/03 - Incontro con l'Agenzia delle Entrate su fatturazione e controlli\n09/04 - Corso \"La gestione dei reclami cliente\" (8 ore, quota associati 180 EUR)\n\n>> IN BREVE\n- Prorogato al 30/06 il termine per l'adeguamento dei registri\n- Nuove disposizioni sulla revisione periodica dei carrelli elevatori\n- Rinnovato l'accordo con l'ente bilaterale per la sanita' integrativa\n\nPer non ricevere piu' questa comunicazione, rispondere con oggetto CANCELLAMI.\n\n--------------------------------------------------------------------\nFwd: Federica Sartori -> Elena Marchetti, 06/03/2026 09:12\nElena, guarda il corso del 9 aprile sui reclami, magari ti interessa. 180 euro.\nFammi sapere entro fine mese che poi mi dimentico.\n\nFwd: Elena Marchetti, 06/03/2026 18:40\nVisto grazie. Segnamelo che ci vado, ma vediamo come siamo messi con l'audit di rinnovo.\nPiuttosto guarda quello sulla formazione finanziata, che il nostro piano formativo e'\nfermo da due anni."
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4733,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.18,
+  "rerank": 60.48
+ },
+ "id": "Q005",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T14:51:41",
+ "secondi": 60.68,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 56.78,
+  "token_prompt": 1954,
+  "token_risposta": 66,
+  "testo_grezzo": "Non e' possibile determinare come siamo messi col conto a fine maggio.\n\nFONTI: email_HR_dimissioni_operai_linea2.txt, trascrizione_riunione_direzione_12_05_2026.txt, Fwd_newsletter_confindustria_marzo.txt",
+  "fonti_citate": [
+   "email_HR_dimissioni_operai_linea2.txt",
+   "trascrizione_riunione_direzione_12_05_2026.txt",
+   "Fwd_newsletter_confindustria_marzo.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

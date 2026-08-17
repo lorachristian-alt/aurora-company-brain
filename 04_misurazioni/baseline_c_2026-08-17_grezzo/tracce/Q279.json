@@ -1,0 +1,681 @@
+{
+ "domanda": "C'e' un documento firmato digitalmente in archivio?",
+ "candidati_densi": [
+  {
+   "cid": 1147,
+   "punteggio": 0.5567711730466284,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 29,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1827,
+   "punteggio": 0.5392382399452635,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 96,
+   "punteggio": 0.5229915828577831,
+   "file": "appunti_tecnologo_quaderno_prove_pilota_OCR.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1243,
+   "punteggio": 0.5050867077319929,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 0,
+   "punteggio": 0.500673860052604,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 483,
+   "punteggio": 0.5000908376089805,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 479,
+   "punteggio": 0.4858349735009045,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 599,
+   "punteggio": 0.4850229205253258,
+   "file": "IT03984710230_00215.xml.p7m",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 242,
+   "punteggio": 0.4839281179040989,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 545,
+   "punteggio": 0.481964586850957,
+   "file": "IMG_20260514_152241_frammento_REC-2026-011.jpg",
+   "idx": 0,
+   "origine": "scheda"
+  },
+  {
+   "cid": 208,
+   "punteggio": 0.47910988618120753,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1222,
+   "punteggio": 0.47891731776545826,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 608,
+   "punteggio": 0.4782893168140861,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 537,
+   "punteggio": 0.4747766201342383,
+   "file": "IMG-20260510-WA0007.jpg",
+   "idx": 0,
+   "origine": "scheda"
+  },
+  {
+   "cid": 1242,
+   "punteggio": 0.4718062367995467,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1389,
+   "punteggio": 0.47060627997847565,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 126,
+   "punteggio": 0.46900625592924394,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1355,
+   "punteggio": 0.46838031137940167,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 207,
+   "punteggio": 0.46744379317130136,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1901,
+   "punteggio": 0.46649150790219807,
+   "file": "~$ttera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 0,
+   "origine": "scheda"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1242,
+   "punteggio": 20.905017852783203,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1638,
+   "punteggio": 18.988983154296875,
+   "file": "Scansione_20260518_0003.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1455,
+   "punteggio": 18.988983154296875,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1147,
+   "punteggio": 15.853931427001953,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 29,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1548,
+   "punteggio": 14.639056205749512,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1614,
+   "punteggio": 14.050094604492188,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1222,
+   "punteggio": 13.717085838317871,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1146,
+   "punteggio": 13.340131759643555,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 28,
+   "origine": "nativa"
+  },
+  {
+   "cid": 345,
+   "punteggio": 13.318769454956055,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1234,
+   "punteggio": 12.968975067138672,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1901,
+   "punteggio": 11.790922164916992,
+   "file": "~$ttera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 0,
+   "origine": "scheda"
+  },
+  {
+   "cid": 537,
+   "punteggio": 11.66974925994873,
+   "file": "IMG-20260510-WA0007.jpg",
+   "idx": 0,
+   "origine": "scheda"
+  },
+  {
+   "cid": 0,
+   "punteggio": 11.607049942016602,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 545,
+   "punteggio": 11.551040649414062,
+   "file": "IMG_20260514_152241_frammento_REC-2026-011.jpg",
+   "idx": 0,
+   "origine": "scheda"
+  },
+  {
+   "cid": 1877,
+   "punteggio": 11.5039644241333,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1887,
+   "punteggio": 10.507403373718262,
+   "file": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1695,
+   "punteggio": 10.306694984436035,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1861,
+   "punteggio": 10.077651977539062,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 358,
+   "punteggio": 9.987060546875,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1243,
+   "punteggio": 9.852109909057617,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 9,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1147,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 29,
+   "origine": "nativa",
+   "rrf": 0.032018442622950824,
+   "rango_denso": 1,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1242,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.029726775956284153,
+   "rango_denso": 15,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 0,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.029083245521601686,
+   "rango_denso": 5,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1222,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.028814262023217248,
+   "rango_denso": 12,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1243,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.028125,
+   "rango_denso": 4,
+   "rango_sparso": 20
+  },
+  {
+   "cid": 545,
+   "file": "IMG_20260514_152241_frammento_REC-2026-011.jpg",
+   "idx": 0,
+   "origine": "scheda",
+   "rrf": 0.027799227799227798,
+   "rango_denso": 10,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 537,
+   "file": "IMG-20260510-WA0007.jpg",
+   "idx": 0,
+   "origine": "scheda",
+   "rrf": 0.027402402402402402,
+   "rango_denso": 14,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1901,
+   "file": "~$ttera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 0,
+   "origine": "scheda",
+   "rrf": 0.02658450704225352,
+   "rango_denso": 20,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1638,
+   "file": "Scansione_20260518_0003.pdf",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1827,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 96,
+   "file": "appunti_tecnologo_quaderno_prove_pilota_OCR.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1455,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1548,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 483,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1614,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 479,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 599,
+   "file": "IT03984710230_00215.xml.p7m",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1146,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 28,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 242,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "idx": 18,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 345,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1234,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 208,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 608,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1877,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": null,
+   "rango_sparso": 15
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1455,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "rerank": 0.59842449426651
+  },
+  {
+   "cid": 1638,
+   "file": "Scansione_20260518_0003.pdf",
+   "rerank": 0.59842449426651
+  },
+  {
+   "cid": 1242,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.37752217054367065
+  },
+  {
+   "cid": 1146,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.07377927005290985
+  },
+  {
+   "cid": 1243,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.07284750044345856
+  },
+  {
+   "cid": 1234,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.06628638505935669
+  },
+  {
+   "cid": 0,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "rerank": 0.03946378827095032
+  },
+  {
+   "cid": 345,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "rerank": 0.02298498898744583
+  },
+  {
+   "cid": 1147,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.021385516971349716
+  },
+  {
+   "cid": 1614,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.019358288496732712
+  },
+  {
+   "cid": 1548,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "rerank": 0.013658865354955196
+  },
+  {
+   "cid": 1901,
+   "file": "~$ttera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.007841466926038265
+  },
+  {
+   "cid": 208,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "rerank": 0.007652957458049059
+  },
+  {
+   "cid": 545,
+   "file": "IMG_20260514_152241_frammento_REC-2026-011.jpg",
+   "rerank": 0.004901157226413488
+  },
+  {
+   "cid": 599,
+   "file": "IT03984710230_00215.xml.p7m",
+   "rerank": 0.004230048507452011
+  },
+  {
+   "cid": 537,
+   "file": "IMG-20260510-WA0007.jpg",
+   "rerank": 0.0031909600365906954
+  },
+  {
+   "cid": 1222,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "rerank": 0.003020322183147073
+  },
+  {
+   "cid": 1877,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "rerank": 0.002357877790927887
+  },
+  {
+   "cid": 96,
+   "file": "appunti_tecnologo_quaderno_prove_pilota_OCR.txt",
+   "rerank": 0.001978818094357848
+  },
+  {
+   "cid": 479,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "rerank": 0.001818192540667951
+  },
+  {
+   "cid": 608,
+   "file": "job_description_responsabile_produzione.docx",
+   "rerank": 0.00090751115931198
+  },
+  {
+   "cid": 1827,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "rerank": 0.0006551847327500582
+  },
+  {
+   "cid": 242,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "rerank": 0.00028819346334785223
+  },
+  {
+   "cid": 483,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "rerank": 0.00021114481205586344
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1455,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "origine": "nativa",
+   "rerank": 0.59842449426651,
+   "testo": "sarà conservato per 12 mesi in quanto correlato a reclamo, salvo diversa disposizione\n   scritta del cliente.\n7. Eventuali reclami sul presente rapporto devono pervenire entro 30 giorni dalla emissione\n   secondo la procedura PG-08 disponibile su richiesta.\nDocumento firmato digitalmente ai sensi del D.Lgs. 82/2005 e s.m.i.\nDirettore tecnico — Analytica Veneta S.r.l.\n_______________________________\ndott. Marco Bellini\nVerona, 22/05/2026\nFine del rapporto di prova n. 2026/04187 — Le pagine del presente rapporto sono 4."
+  },
+  {
+   "cid": 1638,
+   "file": "Scansione_20260518_0003.pdf",
+   "origine": "nativa",
+   "rerank": 0.59842449426651,
+   "testo": "sarà conservato per 12 mesi in quanto correlato a reclamo, salvo diversa disposizione\n   scritta del cliente.\n7. Eventuali reclami sul presente rapporto devono pervenire entro 30 giorni dalla emissione\n   secondo la procedura PG-08 disponibile su richiesta.\nDocumento firmato digitalmente ai sensi del D.Lgs. 82/2005 e s.m.i.\nDirettore tecnico — Analytica Veneta S.r.l.\n_______________________________\ndott. Marco Bellini\nVerona, 22/05/2026\nFine del rapporto di prova n. 2026/04187 — Le pagine del presente rapporto sono 4."
+  },
+  {
+   "cid": 1242,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "origine": "nativa",
+   "rerank": 0.37752217054367065,
+   "testo": "RESPONSABILE DEL PROCEDIMENTO\n\nResponsabile del procedimento ai sensi della L. 241/1990: dott.ssa Paola\nSegattini, Dirigente Medico SIAN - tel. 0442 63 24 71, e-mail\npaola.segattini@aulss9.veneto.it. Orario per informazioni: lun-ven 09:00-13:00.\n\n                         INFORMATIVA PRIVACY\n\nAi sensi degli artt. 13 e 14 del Reg. (UE) 2016/679 (GDPR), si informa che i dati\npersonali acquisiti nell'ambito del procedimento saranno trattati esclusivamente\nper le finalità istituzionali connesse all'attività di controllo ufficiale, in\nadempimento di obblighi di legge. Titolare del trattamento è l'Azienda ULSS 9\nScaligera. L'informativa estesa è disponibile sul sito istituzionale\nwww.aulss9.veneto.it nella sezione \"Privacy\".\n\n                                        IL DIRETTORE DELL'U.O.\n                                        dott. Stefano Bighelli\n\n            [FIRMATO DIGITALMENTE ai sensi del D.Lgs. 82/2005]\n\nDocumento informatico firmato digitalmente ai sensi del D.Lgs. 82/2005 e s.m.i.\ne norme collegate, il quale sostituisce il documento cartaceo e la firma\nautografa.\n\n--- FINE TESTO DELL'ATTO ---\n\n________________________________________"
+  },
+  {
+   "cid": 1146,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "origine": "nativa",
+   "rerank": 0.07377927005290985,
+   "testo": "ALLEGATI (richiamati nel testo)\nAll. 1 - Elenco documenti di origine esterna\nAll. 2 - Elenco PRP e procedure richiamate\nAll. 3 - Verbali del Team HACCP\nAll. 5 - Schede tecniche di prodotto (archivio R&D)\nAll. 6 - Diagrammi di flusso grafici per linea\nAll. 7 - Qualifica vettori e trasporti\nAll. 8 - Tabella completa analisi dei pericoli\nAll. 10 - Dossier MOCA\nAll. 12 - Matrice allergeni e validazione pulizie\n\nManuale HACCP rev.5 - pag. 78 di 78 - Doc. non controllato se stampato\n\nMATRICE DELLE REVISIONI\nRev. 0 - 06/2019 - prima emissione (consulente: Studio Alimentaria)\nRev. 1 - 03/2021 - inserimento Linea 3 surgelati, CCP4\nRev. 2 - 09/2022 - adeguamento BRCGS Issue 9 (transizione)\nRev. 3 - 02/2023 - nuova confezionatrice PKM-450, aggiornamento fase 13\nRev. 4 - 15/01/2024\nRev. 5 - 08/04/2026 - recepimento esiti audit CSQA 17-18/02/2026 (note 2 e 5), aggiornamento PRPo1 allergene sesamo su AF-SN-0470, recepimento riesame direzione 12/03/2026 - approvata E. Marchetti / M. Fantin\n\nFirme (originale firmato in archivio QA, copia scansionata)\nRedatto: E. Marchetti ______________\nVerificato: C. Vicentini ______________\nApprovato: M. Fantin ______________"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 3364,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.17,
+  "rerank": 44.29
+ },
+ "id": "Q279",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T18:31:00",
+ "secondi": 44.47,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 36.29,
+  "token_prompt": 1440,
+  "token_risposta": 67,
+  "testo_grezzo": "Non e' possibile determinare se esiste un documento firmato digitalmente in archivio.\n\nFONTI: notifica_ATS_ispezione_programmata_igiene.txt, manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "notifica_ATS_ispezione_programmata_igiene.txt",
+   "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

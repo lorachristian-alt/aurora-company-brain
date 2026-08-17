@@ -1,0 +1,683 @@
+{
+ "domanda": "Quando sono arrivate a CSQA le evidenze di chiusura delle non conformita'?",
+ "candidati_densi": [
+  {
+   "cid": 219,
+   "punteggio": 0.6419770174138621,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1852,
+   "punteggio": 0.6407984474619055,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 252,
+   "punteggio": 0.6295997232732494,
+   "file": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1616,
+   "punteggio": 0.6063352802234163,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 216,
+   "punteggio": 0.5931867141486757,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1431,
+   "punteggio": 0.5915445016414297,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1853,
+   "punteggio": 0.5910924650243436,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1429,
+   "punteggio": 0.5909525652402228,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1615,
+   "punteggio": 0.5878446016432354,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1185,
+   "punteggio": 0.5821833428341396,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 254,
+   "punteggio": 0.5749457424912333,
+   "file": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1205,
+   "punteggio": 0.5630216199426983,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 27,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1433,
+   "punteggio": 0.5627219362697535,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1432,
+   "punteggio": 0.5563921320004642,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1537,
+   "punteggio": 0.5533855062662406,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1389,
+   "punteggio": 0.5523511465588903,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1851,
+   "punteggio": 0.5467676060942701,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1614,
+   "punteggio": 0.5452612184612937,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1434,
+   "punteggio": 0.5424890671024256,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1607,
+   "punteggio": 0.5407822028758633,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 7,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 252,
+   "punteggio": 29.74486541748047,
+   "file": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1429,
+   "punteggio": 25.21198844909668,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1389,
+   "punteggio": 25.211034774780273,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1614,
+   "punteggio": 24.147003173828125,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1852,
+   "punteggio": 23.98292350769043,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 219,
+   "punteggio": 23.768310546875,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1615,
+   "punteggio": 22.418787002563477,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1433,
+   "punteggio": 22.02648162841797,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 304,
+   "punteggio": 21.463651657104492,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1607,
+   "punteggio": 20.900009155273438,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1432,
+   "punteggio": 20.104320526123047,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1777,
+   "punteggio": 19.309494018554688,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1853,
+   "punteggio": 17.848861694335938,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1193,
+   "punteggio": 16.23413848876953,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1190,
+   "punteggio": 16.140399932861328,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1431,
+   "punteggio": 15.535462379455566,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 345,
+   "punteggio": 15.41102123260498,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 254,
+   "punteggio": 15.305672645568848,
+   "file": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1434,
+   "punteggio": 15.296481132507324,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1854,
+   "punteggio": 15.109463691711426,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 4,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 252,
+   "file": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.032266458495966696,
+   "rango_denso": 3,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 219,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.031544957774465976,
+   "rango_denso": 1,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1852,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.0315136476426799,
+   "rango_denso": 2,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1429,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.030834914611005692,
+   "rango_denso": 8,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1615,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.029418126757516764,
+   "rango_denso": 9,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1389,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.029030910609857977,
+   "rango_denso": 16,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1853,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.02862400327131466,
+   "rango_denso": 7,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1614,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.02844551282051282,
+   "rango_denso": 18,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1433,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.028404512489927477,
+   "rango_denso": 13,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1431,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.028309409888357256,
+   "rango_denso": 6,
+   "rango_sparso": 16
+  },
+  {
+   "cid": 1432,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.027598020555767037,
+   "rango_denso": 14,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 254,
+   "file": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.02690501986276634,
+   "rango_denso": 11,
+   "rango_sparso": 18
+  },
+  {
+   "cid": 1607,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.026785714285714288,
+   "rango_denso": 20,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1434,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.02531645569620253,
+   "rango_denso": 19,
+   "rango_sparso": 19
+  },
+  {
+   "cid": 1616,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 216,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 304,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1185,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1205,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 27,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1777,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1193,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 1190,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": null,
+   "rango_sparso": 15
+  },
+  {
+   "cid": 1537,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": 15,
+   "rango_sparso": null
+  },
+  {
+   "cid": 345,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.012987012987012988,
+   "rango_denso": null,
+   "rango_sparso": 17
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1429,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "rerank": 0.9881561994552612
+  },
+  {
+   "cid": 252,
+   "file": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "rerank": 0.9878547787666321
+  },
+  {
+   "cid": 1852,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.9857116341590881
+  },
+  {
+   "cid": 219,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "rerank": 0.9751978516578674
+  },
+  {
+   "cid": 1389,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "rerank": 0.9687054753303528
+  },
+  {
+   "cid": 1853,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.9537752866744995
+  },
+  {
+   "cid": 1777,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.9089735746383667
+  },
+  {
+   "cid": 1433,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "rerank": 0.8921679258346558
+  },
+  {
+   "cid": 1537,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.8676292896270752
+  },
+  {
+   "cid": 1614,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.849704921245575
+  },
+  {
+   "cid": 1615,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.8410764336585999
+  },
+  {
+   "cid": 1190,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.8193771839141846
+  },
+  {
+   "cid": 1432,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "rerank": 0.7309895753860474
+  },
+  {
+   "cid": 1607,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.688856840133667
+  },
+  {
+   "cid": 1185,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.6878744959831238
+  },
+  {
+   "cid": 1193,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.6863405704498291
+  },
+  {
+   "cid": 254,
+   "file": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "rerank": 0.3138538599014282
+  },
+  {
+   "cid": 1616,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.3051249086856842
+  },
+  {
+   "cid": 1431,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "rerank": 0.2455519288778305
+  },
+  {
+   "cid": 1434,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "rerank": 0.2226000726222992
+  },
+  {
+   "cid": 216,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "rerank": 0.2044774889945984
+  },
+  {
+   "cid": 1205,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.17784245312213898
+  },
+  {
+   "cid": 304,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "rerank": 0.05107289180159569
+  },
+  {
+   "cid": 345,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "rerank": 0.0009715923224575818
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1429,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "origine": "nativa",
+   "rerank": 0.9881561994552612,
+   "testo": "From: Segreteria Certificazione Food - CSQA <food@csqa.it>\nTo: Elena Marchetti <e.marchetti@aurorafoodgroup.it>\nCc: Nadia Franceschini <n.franceschini@csqa.it>, Marco Fantin <m.fantin@aurorafoodgroup.it>\nSubject: R: R: R: Scadenza certificato BRCGS Food Safety n. BRC/IT/24/00871 - pianificazione audit di rinnovo e chiusura NC audit 17-18/02/2026\nDate: Tue, 07 Apr 2026 10:26:31 +0200\nMessage-ID: <1775550391.244ce.c55ecfc2@csqa.it>\nGentile dott.ssa Marchetti,\n\nconfermiamo la ricezione in data 02/04/2026 del Vs. piano di azioni correttive e delle relative evidenze oggettive a chiusura delle non conformita' minori rilevate in sede di audit del 17-18/02/2026:\n\n- NC 1 (BRCGS Issue 9, clausola 3.11.3 / IFS Food v8, req. 5.1.2): registrazioni manuali dei monitoraggi CCP2 e CCP3 prive di verifica in seconda firma entro fine turno;\n- NC 2 (BRCGS Issue 9, clausola 4.7.5): ricambi e attrezzature di manutenzione custoditi in area produttiva senza controllo di integrita'."
+  },
+  {
+   "cid": 252,
+   "file": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "origine": "nativa",
+   "rerank": 0.9878547787666321,
+   "testo": "CSQA Certificazioni S.r.l. - Via S. Gaetano 74, 36016 Thiene (VI) - Organismo accreditato\nPratica CSQA/2026/AF-0871 - pag. 1 - documento trasmesso a mezzo PEC\npag. 1\nConferma incarico - audit di rinnovo BRCGS e IFS 2026\nSpett.le\nAURORA FOOD GROUP S.R.L.\nVia dell'Industria 27 - 37044 Cologna Veneta (VR)\nalla c.a. dott.ssa Elena Marchetti - RSGQ\nOggetto: conferma incarico e programmazione audit di rinnovo - schemi BRCGS Food Issue 9\n         e IFS Food v8 - anno 2026\n1. Esito della pratica precedente\nSi conferma l'avvenuta ricezione delle evidenze di chiusura relative alle non conformita'\nminori rilevate nell'audit del 17-18 febbraio 2026, trasmesse in data 02/04/2026.\nLe evidenze sono state esaminate dal gruppo di audit e ritenute complessivamente\nsufficienti, con la seguente riserva:\n- NC 1 (verifica in seconda firma delle registrazioni dei CCP): l'evidenza documentale\n  prodotta attesta la modifica della procedura, ma non la sua applicazione continuativa.\n  L'efficacia dell'azione correttiva sara' oggetto di verifica prioritaria nel prossimo\n  audit, con esame delle registrazioni degli ultimi tre mesi."
+  },
+  {
+   "cid": 1852,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.9857116341590881,
+   "testo": "3. DATI DI INGRESSO - ESITI AUDIT\n\n   3.1  Audit di certificazione CSQA Certificazioni S.r.l. (Thiene VI), 17-18/02/2026,\n        combinato BRCGS Food Safety Issue 9 + IFS Food v8.\n        Auditor lead dott.ssa N. Franceschini, co-auditor p.i. F. Menegazzo.\n        Esito: conferma grade AA BRCGS (cert. BRC/IT/24/00871) e IFS Higher Level\n        97,32% (cert. IFS/IT/25/03390).\n\n   3.2  Non conformita' rilevate: n. 2 minori.\n        NC 1 - registrazioni manuali CCP2/CCP3 senza verifica in seconda firma entro\n               fine turno (rif. BRCGS 9 cl. 2.10.2 / IFS 2.3.9.2). Registrata a sistema\n               come NC-2026-028.\n        NC 2 - ricambi e attrezzi di manutenzione custoditi in area produttiva senza\n               controllo integrita' (BRCGS cl. 4.7.5). Registrata come NC-2026-029.\n\n   3.3  Termine per l'invio delle evidenze di chiusura: 28 giorni dalla notifica,\n        ovvero 17/03/2026. Alla data odierna la raccolta evidenze NON risulta\n        completata: mancano le firme di presa visione dei capiturno sul modulo\n        MOD-QA-12 revisionato e le foto dell'armadio ricambi in officina.\n        La Direzione RICHIAMA la RSGQ al rispetto tassativo della scadenza."
+  },
+  {
+   "cid": 219,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "origine": "nativa",
+   "rerank": 0.9751978516578674,
+   "testo": "L'esclusione è riportata, ai sensi del protocollo BRCGS, anche sul rapporto di audit n.\nAU-2026-0233 disponibile sulla piattaforma BRCGS Directory.\n\nCSQA Certificazioni S.r.l. — Via S. Gaetano 74, 36016 Thiene (VI) — Organismo accreditato ACCREDIA\nCertificato BRC/IT/24/00871 — Ed. 3 del 10/04/2026 — pag. 3 — Il presente certificato è di proprietà di CSQA Certificazioni S.r.l.\npag. 3\nESITO DELL'AUDIT\nNel corso dell'audit del 17-18/02/2026 sono state rilevate n. 2 (due) non conformità di grado\nminore e nessuna non conformità di grado maggiore o critico. Le azioni correttive proposte\ndall'Organizzazione sono state esaminate e giudicate adeguate dal Comitato di Certificazione;\nla chiusura documentale delle non conformità è stata verificata sulla base delle evidenze\noggettive trasmesse dall'Organizzazione.\nN.\nClausola\nGrado\nStato\n1\n2.10.2\nMinore\nChiusa su evidenza documentale\n2\n4.7.5\nMinore\nChiusa su evidenza documentale\nIl mantenimento della certificazione è subordinato all'esito favorevole degli audit di\nsorveglianza e di rinnovo condotti secondo il programma indicato in prima pagina, nonché al\nrispetto del Regolamento Generale di Certificazione CSQA doc. REG-01 rev. 21."
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4470,
+ "tempi": {
+  "denso": 0.1,
+  "sparso": 0.43,
+  "rerank": 54.18
+ },
+ "id": "Q070",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:46:10",
+ "secondi": 54.72,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 68.64,
+  "token_prompt": 1869,
+  "token_risposta": 140,
+  "testo_grezzo": "La scadenza del certificato BRCGS è stata confermata per il 2026, ma non è stata specificata la data esatta di arrivo delle evidenze di chiusura delle non conformità minori rilevate nell'audit del 17-18/02/2026.\n\nFONTI: R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml, Conferma_incarico_audit_rinnovo_2026.pdf, verbale_riesame_direzione_SGQ_2026.txt, Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+  "fonti_citate": [
+   "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "verbale_riesame_direzione_SGQ_2026.txt",
+   "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

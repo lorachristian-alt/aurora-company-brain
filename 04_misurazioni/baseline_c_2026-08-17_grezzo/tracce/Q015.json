@@ -1,0 +1,680 @@
+{
+ "domanda": "Chi tiene il registro rifiuti e con che numero siamo iscritti al RENTRI?",
+ "candidati_densi": [
+  {
+   "cid": 1476,
+   "punteggio": 0.5309679716165463,
+   "file": "registro_estintori_scadenze.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1475,
+   "punteggio": 0.5120817338588184,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1526,
+   "punteggio": 0.5064221859996826,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1471,
+   "punteggio": 0.501888791391146,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1472,
+   "punteggio": 0.49931594695510506,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1474,
+   "punteggio": 0.4988595801466097,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1463,
+   "punteggio": 0.49217658308137086,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 320,
+   "punteggio": 0.48952921831403373,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1113,
+   "punteggio": 0.4786189061508752,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1238,
+   "punteggio": 0.4727603863057861,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1473,
+   "punteggio": 0.4672421626120162,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 344,
+   "punteggio": 0.4651742552596067,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 523,
+   "punteggio": 0.4606057098331449,
+   "file": "Fwd_newsletter_confindustria_marzo.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1239,
+   "punteggio": 0.4596138279211792,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1865,
+   "punteggio": 0.4592336465960509,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1170,
+   "punteggio": 0.45788451111455497,
+   "file": "modulo richiesta ferie VUOTO da stampare.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 647,
+   "punteggio": 0.45626752661139475,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 274,
+   "punteggio": 0.45625284006038136,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 615,
+   "punteggio": 0.45587717801974587,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1398,
+   "punteggio": 0.4544969405830258,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 2,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1463,
+   "punteggio": 21.410606384277344,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1366,
+   "punteggio": 16.15633773803711,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1475,
+   "punteggio": 16.027099609375,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1335,
+   "punteggio": 15.842412948608398,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1891,
+   "punteggio": 15.804451942443848,
+   "file": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1775,
+   "punteggio": 15.57872486114502,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 122,
+   "punteggio": 15.52698040008545,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 579,
+   "punteggio": 15.38961410522461,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1471,
+   "punteggio": 15.357852935791016,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1474,
+   "punteggio": 15.350504875183105,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1467,
+   "punteggio": 14.932893753051758,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 525,
+   "punteggio": 14.88698673248291,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1785,
+   "punteggio": 14.438279151916504,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1406,
+   "punteggio": 14.301780700683594,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1216,
+   "punteggio": 14.268877029418945,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1781,
+   "punteggio": 14.148880958557129,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1109,
+   "punteggio": 13.837971687316895,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1110,
+   "punteggio": 13.803900718688965,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 322,
+   "punteggio": 13.788235664367676,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1472,
+   "punteggio": 13.667436599731445,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 9,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1475,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.03200204813108039,
+   "rango_denso": 2,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1463,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.03131881575727918,
+   "rango_denso": 7,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1471,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.030117753623188408,
+   "rango_denso": 4,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1474,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.029437229437229435,
+   "rango_denso": 6,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1472,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.027884615384615386,
+   "rango_denso": 5,
+   "rango_sparso": 20
+  },
+  {
+   "cid": 1476,
+   "file": "registro_estintori_scadenze.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1526,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1335,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1891,
+   "file": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1775,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 122,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 320,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 579,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1113,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1238,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1467,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1473,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 344,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 525,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 523,
+   "file": "Fwd_newsletter_confindustria_marzo.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1785,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1239,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1406,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1463,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "rerank": 0.3487943410873413
+  },
+  {
+   "cid": 1473,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "rerank": 0.10171473026275635
+  },
+  {
+   "cid": 1472,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "rerank": 0.027091162279248238
+  },
+  {
+   "cid": 1471,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "rerank": 0.011750790290534496
+  },
+  {
+   "cid": 1475,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "rerank": 0.00880949292331934
+  },
+  {
+   "cid": 1474,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "rerank": 0.008753767237067223
+  },
+  {
+   "cid": 1467,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "rerank": 0.0069175041280686855
+  },
+  {
+   "cid": 1526,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.0021478033158928156
+  },
+  {
+   "cid": 1476,
+   "file": "registro_estintori_scadenze.csv",
+   "rerank": 0.00030489859636873007
+  },
+  {
+   "cid": 579,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 0.00029114235076121986
+  },
+  {
+   "cid": 1239,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.00021030295465607196
+  },
+  {
+   "cid": 1113,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.0001883985969470814
+  },
+  {
+   "cid": 344,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "rerank": 0.00017898700025398284
+  },
+  {
+   "cid": 1238,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.00012082521425327286
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.00011563009320525452
+  },
+  {
+   "cid": 1406,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.00010429256508359686
+  },
+  {
+   "cid": 122,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "rerank": 9.279246296500787e-05
+  },
+  {
+   "cid": 320,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 9.162591595668346e-05
+  },
+  {
+   "cid": 523,
+   "file": "Fwd_newsletter_confindustria_marzo.txt",
+   "rerank": 9.119496826315299e-05
+  },
+  {
+   "cid": 1891,
+   "file": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "rerank": 7.108193676685914e-05
+  },
+  {
+   "cid": 1785,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 6.745843711541966e-05
+  },
+  {
+   "cid": 525,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "rerank": 2.4314056645380333e-05
+  },
+  {
+   "cid": 1335,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "rerank": 2.0575487724272534e-05
+  },
+  {
+   "cid": 1775,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 1.9234357750974596e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1463,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "origine": "nativa",
+   "rerank": 0.3487943410873413,
+   "testo": "AURORA FOOD GROUP S.R.L. - Unita' locale Via dell'Industria 27 - Cologna Veneta (VR) - Registro rifiuti art. 190 D.Lgs\nEstratto registro C/S rifiuti 2026 - stampa del 06/07/2026 - pag. 1\npag. 1\nRegistro cronologico di carico e scarico rifiuti - estratto 01/01/2026 -\n30/06/2026\nREGISTRO CRONOLOGICO DI CARICO E SCARICO DEI RIFIUTI\nai sensi dell'art. 190 del D.Lgs. 3 aprile 2006, n. 152 e del D.M. 4 aprile 2023, n. 59\nDitta: AURORA FOOD GROUP S.R.L.\nSede legale e unita' locale: Via dell'Industria 27 - 37044 Cologna Veneta (VR)\nC.F./P.IVA: 03984710230 - REA VR-389241\nAttivita': produzione di prodotti da forno e croissanteria surgelata (ATECO 10.71.10)\nIscrizione RENTRI: n. OP-VR-2025-018342 - categoria: produttori iniziali\nRegistro tenuto in formato digitale tramite gestionale ambientale - stampa di riscontro\nResponsabile della tenuta del registro: dott.ssa Elena Marchetti (RSGQ)\nReferente operativo deposito temporaneo: Nicola Faggionato (Magazzino e Spedizioni)\nDeposito temporaneo: area esterna coperta lato sud (isola ecologica), cassoni scarrabili\ndedicati per EER 020304, 150101, 150102; armadio metallico REI per pericolosi (150110*,"
+  },
+  {
+   "cid": 1473,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "origine": "nativa",
+   "rerank": 0.10171473026275635,
+   "testo": "Quantita': kg 2.940 - peso verificato a destino: SI\nNumero colli: 3 cassoni - Rinfusa: SI\nAnnotazioni: scarto di produzione prodotti da forno; contiene prodotto declassato\nlotti L26130-L1-T2 e L26131 trattenuti in verifica qualita' (quota parte non commestibile,\nimballo rimosso).\n5) PERCORSO: Cologna Veneta (VR) - SP18 - Belfiore (VR). Trasporto sottoposto a normativa ADR: NO\nPartenza dal luogo di produzione: data 14/05/2026 ora 09:40\nFirma del produttore: E. Marchetti          Firma del trasportatore: [FIRMA]\n6) ACCETTAZIONE DEL DESTINATARIO: rifiuto accettato per intero - kg 2.940\nData arrivo: 14/05/2026 ora 11:05 - Firma del destinatario: [FIRMA E TIMBRO]\nTRASCRIZIONE FORMULARIO DI IDENTIFICAZIONE RIFIUTO - FIR n. VFR 0086413/26\nFormulario di identificazione ex art. 193 D.Lgs. 152/2006 - D.M. 59/2023\nNumero: VFR 0086413/26                      Data di emissione: 16/03/2026\n1) PRODUTTORE/DETENTORE\nAURORA FOOD GROUP S.R.L. - Via dell'Industria 27 - 37044 Cologna Veneta (VR)\nC.F. 03984710230 - iscr. RENTRI OP-VR-2025-018342\n2) TRASPORTATORE\nECOVENETA AMBIENTE S.R.L. - Via Levada 18 - 37045 Legnago (VR) - P.IVA 03412870234\nAlbo Gestori Ambientali n. VE/012684 - cat. 5 cl. F"
+  },
+  {
+   "cid": 1472,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "origine": "nativa",
+   "rerank": 0.027091162279248238,
+   "testo": "pag. 5\nTRASCRIZIONE FORMULARIO DI IDENTIFICAZIONE RIFIUTO - FIR n. VFR 0087844/26\nFormulario di identificazione ex art. 193 D.Lgs. 152/2006 - D.M. 59/2023\nNumero: VFR 0087844/26                      Data di emissione: 14/05/2026\n1) PRODUTTORE/DETENTORE\nAURORA FOOD GROUP S.R.L. - Via dell'Industria 27 - 37044 Cologna Veneta (VR)\nC.F. 03984710230 - iscr. RENTRI OP-VR-2025-018342\nUnita' locale di partenza: Via dell'Industria 27 - Cologna Veneta (VR)\n2) TRASPORTATORE\nECOVENETA AMBIENTE S.R.L. - Via Levada 18 - 37045 Legnago (VR) - P.IVA 03412870234\nAlbo Gestori Ambientali n. VE/012684 - cat. 4 cl. E\nConducente: Stefanel M. - Targa automezzo: GH 447 TR - Rimorchio: --\n3) DESTINATARIO\nC.R.V. RECUPERI S.R.L. - Via Bassa 41 - 37050 Belfiore (VR)\nDet. Provincia di Verona n. 2214/2022 del 30/05/2022 - operazione richiesta: R13\n4) CARATTERISTICHE DEL RIFIUTO\nEER: 020304 - Scarti inutilizzabili al consumo o alla trasformazione\nStato fisico: solido non polverulento - Caratteristiche di pericolo (HP): nessuna\nQuantita': kg 2.940 - peso verificato a destino: SI\nNumero colli: 3 cassoni - Rinfusa: SI\nAnnotazioni: scarto di produzione prodotti da forno; contiene prodotto declassato"
+  },
+  {
+   "cid": 1471,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "origine": "nativa",
+   "rerank": 0.011750790290534496,
+   "testo": "pericolosi) e cat. 5 cl. F (rifiuti speciali pericolosi), valida fino al 14/11/2028.\nDestinatario recupero (EER 020304, 150101, 150102, 150110*, 200121*): C.R.V. RECUPERI S.R.L. -\nVia Bassa 41, 37050 Belfiore (VR) - impianto autorizzato con Det. Provincia di Verona n.\n2214/2022 del 30/05/2022 - operazioni R13/R3. Lo scarto EER 020304 e' avviato a R13 con\nsuccessivo recupero R3 (compostaggio/digestione anaerobica presso impianto terzo).\nDestinatario oli minerali (EER 130205*): RIGENERA LUBRIFICANTI S.R.L. - concessionaria CONOU -\nVia dell'Artigianato 9, 46100 Mantova - aut. n. 887/2021 Provincia di Mantova - R13.\nDestinatario smaltimento (mov. 46): ECOSERVIZI PADANA S.P.A. - Strada Statale 434 km 12, 45021\nBadia Polesine (RO) - AIA Regione Veneto n. 44/2019 - operazione D15.\n\nAURORA FOOD GROUP S.R.L. - Unita' locale Via dell'Industria 27 - Cologna Veneta (VR) - Registro rifiuti art. 190 D.Lgs\nEstratto registro C/S rifiuti 2026 - stampa del 06/07/2026 - pag. 5\npag. 5\nTRASCRIZIONE FORMULARIO DI IDENTIFICAZIONE RIFIUTO - FIR n. VFR 0087844/26\nFormulario di identificazione ex art. 193 D.Lgs. 152/2006 - D.M. 59/2023"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4649,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.19,
+  "rerank": 48.17
+ },
+ "id": "Q015",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:01:50",
+ "secondi": 48.38,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 85.42,
+  "token_prompt": 2124,
+  "token_risposta": 118,
+  "testo_grezzo": "La domanda è stata risolta con la seguente risposta:\n\nAURORA FOOD GROUP S.R.L. è l'ente che tiene il registro rifiuti e siamo iscritti al RENTRI con il numero OP-VR-2025-018342.\n\nFONTI: registro_carico_scarico_rifiuti_estratto_2026.pdf, registro_carico_scarico_rifiuti_estratto_2026.pdf, registro_carico_scarico_rifiuti_estratto_2026.pdf\n\nCONFIDENZA: alta",
+  "fonti_citate": [
+   "registro_carico_scarico_rifiuti_estratto_2026.pdf"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "alta"
+ }
+}

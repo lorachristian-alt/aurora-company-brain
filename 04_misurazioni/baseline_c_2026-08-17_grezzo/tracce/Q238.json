@@ -1,0 +1,681 @@
+{
+ "domanda": "Qual e' stata la temperatura minima registrata sul PT-104 il 10/05/2026?",
+ "candidati_densi": [
+  {
+   "cid": 1776,
+   "punteggio": 0.6520784367384327,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 934,
+   "punteggio": 0.5945877912193656,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1040,
+   "punteggio": 0.588718306474032,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 106,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1050,
+   "punteggio": 0.5865989822819861,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 116,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1034,
+   "punteggio": 0.585360687584124,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 100,
+   "origine": "nativa"
+  },
+  {
+   "cid": 954,
+   "punteggio": 0.5844988188731813,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1073,
+   "punteggio": 0.5832501768784961,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 139,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1074,
+   "punteggio": 0.5825752910041271,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 140,
+   "origine": "nativa"
+  },
+  {
+   "cid": 938,
+   "punteggio": 0.5806213524453196,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1031,
+   "punteggio": 0.5795281646012971,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 97,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1014,
+   "punteggio": 0.5766352874687098,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 80,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1035,
+   "punteggio": 0.5765678279756159,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 101,
+   "origine": "nativa"
+  },
+  {
+   "cid": 948,
+   "punteggio": 0.5744565549629803,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 969,
+   "punteggio": 0.5735236182116452,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 35,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1075,
+   "punteggio": 0.5732405675014935,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 141,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1047,
+   "punteggio": 0.5717111234541972,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 113,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1051,
+   "punteggio": 0.5715984357799759,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 117,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1070,
+   "punteggio": 0.5706869718473697,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 136,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1010,
+   "punteggio": 0.5704153160571472,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 76,
+   "origine": "nativa"
+  },
+  {
+   "cid": 402,
+   "punteggio": 0.5702251791903781,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 3,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1200,
+   "punteggio": 26.219409942626953,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 22,
+   "origine": "nativa"
+  },
+  {
+   "cid": 402,
+   "punteggio": 24.814376831054688,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1134,
+   "punteggio": 24.47294807434082,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1075,
+   "punteggio": 22.593841552734375,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 141,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1776,
+   "punteggio": 21.472179412841797,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1713,
+   "punteggio": 20.045503616333008,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1201,
+   "punteggio": 19.981395721435547,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 23,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1643,
+   "punteggio": 19.824867248535156,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 415,
+   "punteggio": 19.800764083862305,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1711,
+   "punteggio": 18.997610092163086,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1530,
+   "punteggio": 18.77102279663086,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1654,
+   "punteggio": 18.595108032226562,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1507,
+   "punteggio": 17.96053695678711,
+   "file": "registro_tamponi_superfici_listeria_salmonella.csv",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1642,
+   "punteggio": 17.525257110595703,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1714,
+   "punteggio": 17.460294723510742,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1655,
+   "punteggio": 17.32102394104004,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1410,
+   "punteggio": 17.309986114501953,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1457,
+   "punteggio": 17.00145721435547,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1127,
+   "punteggio": 16.981124877929688,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 222,
+   "punteggio": 16.834482192993164,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.03177805800756621,
+   "rango_denso": 1,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1075,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 141,
+   "origine": "nativa",
+   "rrf": 0.028958333333333336,
+   "rango_denso": 15,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 402,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.028629032258064516,
+   "rango_denso": 20,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1200,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 22,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 934,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1040,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 106,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1134,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1050,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 116,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1034,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 100,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 954,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 20,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1713,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1073,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 139,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1201,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 23,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1074,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 140,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1643,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 415,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 938,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1031,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 97,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1711,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1014,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 80,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1530,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1035,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 101,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1654,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 948,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1075,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.9985973238945007
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.9904081225395203
+  },
+  {
+   "cid": 1200,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.9804049134254456
+  },
+  {
+   "cid": 1031,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.9543590545654297
+  },
+  {
+   "cid": 1034,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.9488236904144287
+  },
+  {
+   "cid": 938,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.9409567713737488
+  },
+  {
+   "cid": 948,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.9381392002105713
+  },
+  {
+   "cid": 1074,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.9239449501037598
+  },
+  {
+   "cid": 1040,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.9132937788963318
+  },
+  {
+   "cid": 1073,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.9066075682640076
+  },
+  {
+   "cid": 1035,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.904280424118042
+  },
+  {
+   "cid": 1050,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.9023632407188416
+  },
+  {
+   "cid": 954,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.8991410136222839
+  },
+  {
+   "cid": 1014,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.8923763632774353
+  },
+  {
+   "cid": 402,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "rerank": 0.8460296988487244
+  },
+  {
+   "cid": 934,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.7894310355186462
+  },
+  {
+   "cid": 1134,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.5975027084350586
+  },
+  {
+   "cid": 1654,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "rerank": 0.556728720664978
+  },
+  {
+   "cid": 415,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "rerank": 0.19091826677322388
+  },
+  {
+   "cid": 1201,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.15480278432369232
+  },
+  {
+   "cid": 1530,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.05342336744070053
+  },
+  {
+   "cid": 1643,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "rerank": 0.014014823362231255
+  },
+  {
+   "cid": 1713,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.003541231155395508
+  },
+  {
+   "cid": 1711,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.0005016271024942398
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1075,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "origine": "nativa",
+   "rerank": 0.9985973238945007,
+   "testo": "2026-05-10 23:12:09;PT104;EVT;PROD_END;TOT_SHIFT=SEE_EXPORT;OK;LOT=L26130-L1-T3;OP=CESTARO_L\n=====================================================================\nEXPORT GIORNALIERO - TermoLog SCADA v2.3.1 build 4402\nImpianto: PASTORIZZATORE PT104 - LINEA 1\nData rif.: 10/05/2026  -  UnitÃ  di misura: Â°C ; m3/h ; m/min\nCampioni acquisiti: 12390  -  Campioni validi: 12293\nSonda T_CUORE: anomalia rilevata (vedi codice guasto) - validitÃ  parziale\nAllarmi attivi nel periodo: ALM_LOW_TEMP(1) DEV_CCP2(1) MACHINE_STOP(1) SENSOR_FAULT(1) RTC_BATT_LOW(1)\nDurata esercizio: 13h 01m  -  Durata fermo: 3h 40m  -  Motivo fermo: INTERLOCK_DOWNSTREAM=PKM450\nTemperatura minima registrata TT_02: 68.6 C alle 14:30:37\nPermanenza sotto soglia 72.0 Â°C: 27 min ca. - verificare registro CCP2 (MOD-QA-12)\nOperatori turno: RANZATO_F / POPESCU_I / CESTARO_L - Resp. produzione: ZANELLA_D\nFile generato automaticamente - non modificare - proprietÃ  Aurora Food Group S.r.l.\nPercorso archivio: \\\\SRV-AFG01\\produzione\\datalogger\\PT104\\2026\\05\\\nChecksum: 8f3aï¿½ï¿½41bc â€“ verifica integritÃ  fallita\n====================================================================="
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.9904081225395203,
+   "testo": "[00:02:46] PARLANTE_1: se ce l'ha ancora\n[00:02:48] PARLANTE_2: se manca un pezzo dalla guarnizione vecchia o da quella nuova che ha tagliato lui a misura allora\n[00:02:53] PARLANTE_3: scusate ma c'e anche l'altra cosa del lotto 130 e va detta adesso\n[00:02:58] PARLANTE_1: quale altra cosa\n[00:03:02] PARLANTE_3: sara ha scaricato ieri i dati del datalogger del PT-104 per la verifica settimanale e sul turno 2 del 10 maggio dalle 14 e 18 alle 14 e 47 la temperatura e scesa sotto i 72 gradi il minimo registrato e 68 virgola 9\n[00:03:18] PARLANTE_1: e il ccp2\n[00:03:20] PARLANTE_3: e il CCP2 si il limite critico e 72 gradi al cuore per almeno due minuti e per quasi mezz'ora eravamo sotto\n[00:03:27] PARLANTE_2: e sul cartaceo cosa c'e scritto\n[00:03:30] PARLANTE_3: eh appunto sul MOD-QA-12 l'operatore ha scritto 74 e 5 conforme\n[00:03:36] PARLANTE_1: come 74 e 5 se la macchina dice 68\n[00:03:39] PARLANTE_3: ha copiato il set point secondo me non ha guardato il display oppure ha compilato a fine turno tutto insieme come fanno sempre\n[00:03:46] PARLANTE_2: che e esattamente la non conformita uno dell'audit la seconda firma di verifica che non"
+  },
+  {
+   "cid": 1200,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "origine": "nativa",
+   "rerank": 0.9804049134254456,
+   "testo": "NC-2026-086;08/05/2026;interna;Manutenzione;Segnalazione Dal Maso: valvola iniezione azoto PKM-450 trafila, ricambio originale Pakmatic in arrivo 15/05, si decide di proseguire la produzione con monitoraggio;;alta;usura valvola oltre vita utile;ordine ricambio urgente F0077, controllo O2 residuo ogni ora fino a sostituzione;Dal Maso I.;;APERTA;1.100,00\nNC-2026-087;08/05/2026;interna;Linea 2;Turno domenicale 10/05 confermato per promo settimana 20 nonostante organico corto;;media;ordini straordinari Tosano settimane 19-21;v. NC-2026-076;Zanella D.;;APERTA;\nNC-2026-088;10/05/2026;interna;Linea 1;DEVIAZIONE CCP2: PT-104 sotto 72,0 gradi dalle 14:18 alle 14:47 (minimo 68,9) da datalogger, turno 2. Sul cartaceo MOD-QA-12 risulta \"74,5 conforme\": discrepanza carta/datalogger in accertamento;AF-SN-0450 L26130-L1-T2;critica;in accertamento: calo vapore PT-104 + registrazione cartacea non veritiera, seconda firma assente;lotto L26130-L1-T2 BLOCCATO, riesame datalogger, colloquio con operatore turno 2, v. NC-2026-092;Marchetti E.;;APERTA;N/D"
+  },
+  {
+   "cid": 1031,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "origine": "nativa",
+   "rerank": 0.9543590545654297,
+   "testo": "2026-05-10 17:21:07;PT104;T_CUORE;58.3;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 17:22:07;PT104;TT_03;59.5;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 17:08:21;PT104;SYS;RTC_BATT_LOW;;WARN;;\n2026-05-10 17:09:13;PT104;T_CUORE;58.2;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 17:11:13;PT104;TT_01;60.5;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 17:11:43;PT104;T_CUORE;57.6;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 17:14:13;PT104;T_CUORE;58.1;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 17:31:07;PT104;SYS;TIME_SYNC;SRV=10.0.2.1;OK;;\n2026-05-10 17:33:07;PT104;T_CUORE;58.0;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 17:34:37;PT104;TT_01;60.7;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 17:35:37;PT104;T_CUORE;58.2;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 17:38:07;PT104;TT_02;61.0;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 17:38:07;PT104;T_CUORE;58.1;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 17:40:37;PT104;T_CUORE;58.1;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 17:41:37;PT104;TT_03;59.3;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 17:43:07;PT104;T_CUORE;58.8;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4486,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.2,
+  "rerank": 59.56
+ },
+ "id": "Q238",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:55:55",
+ "secondi": 59.78,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 61.41,
+  "token_prompt": 2286,
+  "token_risposta": 74,
+  "testo_grezzo": "La temperatura minima registrata sul PT-104 il 10/05/2026 è stata di 68,6 C alle 14:30:37.\n\nFONTI: log_temperature_pastorizzatore_linea1_10_05_26.log, trascrizione_riunione_direzione_12_05_2026.txt",
+  "fonti_citate": [
+   "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "trascrizione_riunione_direzione_12_05_2026.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

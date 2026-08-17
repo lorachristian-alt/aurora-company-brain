@@ -1,0 +1,681 @@
+{
+ "domanda": "Tommaso Refosco e' stato assunto?",
+ "candidati_densi": [
+  {
+   "cid": 1424,
+   "punteggio": 0.58597127766871,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 352,
+   "punteggio": 0.5523410896052534,
+   "file": "CV_Tommaso_Refosco_2026.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1427,
+   "punteggio": 0.5365291966475108,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1428,
+   "punteggio": 0.4737911351410574,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1426,
+   "punteggio": 0.4347849373358925,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1425,
+   "punteggio": 0.4262931773218858,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 291,
+   "punteggio": 0.38454506244662046,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1308,
+   "punteggio": 0.3833986722106138,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1789,
+   "punteggio": 0.38019988372488056,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1793,
+   "punteggio": 0.37656849376806945,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1086,
+   "punteggio": 0.37410257100785815,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 430,
+   "punteggio": 0.37198685180624325,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1858,
+   "punteggio": 0.37116146739028466,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1788,
+   "punteggio": 0.36977238094070153,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 260,
+   "punteggio": 0.36974652485147735,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1265,
+   "punteggio": 0.3693533786533447,
+   "file": "organigramma_aziendale_aggiornato_marzo26.pptx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1481,
+   "punteggio": 0.36605076181650764,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 186,
+   "punteggio": 0.36459452657612734,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1805,
+   "punteggio": 0.36289670778830013,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 850,
+   "punteggio": 0.3624916345391398,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 28,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1427,
+   "punteggio": 18.026655197143555,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 352,
+   "punteggio": 17.878997802734375,
+   "file": "CV_Tommaso_Refosco_2026.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1428,
+   "punteggio": 16.77735137939453,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1424,
+   "punteggio": 11.866928100585938,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1426,
+   "punteggio": 11.772439956665039,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1425,
+   "punteggio": 11.59170913696289,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1321,
+   "punteggio": 9.28951644897461,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1814,
+   "punteggio": 8.908340454101562,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1308,
+   "punteggio": 7.3670549392700195,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1267,
+   "punteggio": 6.266418933868408,
+   "file": "organigramma_aziendale_aggiornato_marzo26.pptx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1481,
+   "punteggio": 6.246140003204346,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 291,
+   "punteggio": 5.950061798095703,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1815,
+   "punteggio": 5.915028095245361,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 290,
+   "punteggio": 5.787980079650879,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 396,
+   "punteggio": 5.438717842102051,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1812,
+   "punteggio": 5.42218017578125,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1610,
+   "punteggio": 5.223094940185547,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1823,
+   "punteggio": 5.187527179718018,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1611,
+   "punteggio": 5.179470062255859,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 626,
+   "punteggio": 5.158658981323242,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 4,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1427,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.032266458495966696,
+   "rango_denso": 3,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 352,
+   "file": "CV_Tommaso_Refosco_2026.pdf",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.03225806451612903,
+   "rango_denso": 2,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1424,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.032018442622950824,
+   "rango_denso": 1,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1428,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.03149801587301587,
+   "rango_denso": 4,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1426,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.03076923076923077,
+   "rango_denso": 5,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1425,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.030303030303030304,
+   "rango_denso": 6,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1308,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.02919863597612958,
+   "rango_denso": 8,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 291,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.028814262023217248,
+   "rango_denso": 7,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1481,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.027071520029266508,
+   "rango_denso": 17,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1321,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1814,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1789,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1267,
+   "file": "organigramma_aziendale_aggiornato_marzo26.pptx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1793,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 20,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1086,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1815,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1858,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 290,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 1788,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  },
+  {
+   "cid": 260,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": 15,
+   "rango_sparso": null
+  },
+  {
+   "cid": 396,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": null,
+   "rango_sparso": 15
+  },
+  {
+   "cid": 1265,
+   "file": "organigramma_aziendale_aggiornato_marzo26.pptx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013157894736842105,
+   "rango_denso": 16,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1812,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.013157894736842105,
+   "rango_denso": null,
+   "rango_sparso": 16
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1427,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "rerank": 0.6729079484939575
+  },
+  {
+   "cid": 352,
+   "file": "CV_Tommaso_Refosco_2026.pdf",
+   "rerank": 0.5331931114196777
+  },
+  {
+   "cid": 1424,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "rerank": 0.48579663038253784
+  },
+  {
+   "cid": 1426,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "rerank": 0.4177052676677704
+  },
+  {
+   "cid": 1428,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "rerank": 0.2771509885787964
+  },
+  {
+   "cid": 1425,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "rerank": 0.19159208238124847
+  },
+  {
+   "cid": 1086,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.01785684935748577
+  },
+  {
+   "cid": 1267,
+   "file": "organigramma_aziendale_aggiornato_marzo26.pptx",
+   "rerank": 0.013103555887937546
+  },
+  {
+   "cid": 1481,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "rerank": 0.010695191100239754
+  },
+  {
+   "cid": 291,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.008712496608495712
+  },
+  {
+   "cid": 290,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.0072338455356657505
+  },
+  {
+   "cid": 1814,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "rerank": 0.0030325788538903
+  },
+  {
+   "cid": 1815,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "rerank": 0.0025274590589106083
+  },
+  {
+   "cid": 1308,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "rerank": 0.0005481335101649165
+  },
+  {
+   "cid": 1265,
+   "file": "organigramma_aziendale_aggiornato_marzo26.pptx",
+   "rerank": 0.0003495063865557313
+  },
+  {
+   "cid": 1793,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0002722163626458496
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.0002586951304692775
+  },
+  {
+   "cid": 1788,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.00020969787146896124
+  },
+  {
+   "cid": 1812,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.00018093611288350075
+  },
+  {
+   "cid": 1789,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.00011932655615964904
+  },
+  {
+   "cid": 260,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "rerank": 0.00011509010073496029
+  },
+  {
+   "cid": 1858,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 5.940609844401479e-05
+  },
+  {
+   "cid": 396,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "rerank": 3.030079278687481e-05
+  },
+  {
+   "cid": 1321,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "rerank": 2.7339943699189462e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1427,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "origine": "nativa",
+   "rerank": 0.6729079484939575,
+   "testo": ">>\n>> dott. Alberto Zanchetta - R&D\n>> Aurora Food Group S.r.l.\n>\n>\n> -----Messaggio originale-----\n> Da: Federica Sartori <f.sartori@aurorafoodgroup.it>\n> Inviato: lunedi 27 aprile 2026 09:20\n> A: Denis Zanella; Alberto Zanchetta\n> Cc: Marco Fantin\n> Oggetto: I: Candidatura spontanea - dott. Tommaso Refosco - tecnologo alimentare\n>\n>> Buongiorno, vi inoltro una candidatura spontanea arrivata su info@\n>> mercoledi scorso. Profilo: tecnologo alimentare neolaureato, zona\n>> Legnago quindi comodo per i turni. CV in allegato. Vale un colloquio?\n>> Fede\n>>\n>>\n>> -----Messaggio originale-----\n>> Da: Tommaso Refosco <t.refosco.job@gmail.com>\n>> Inviato: mercoledi 22 aprile 2026 21:58\n>> A: info@aurorafoodgroup.it\n>> Oggetto: Candidatura spontanea - tecnologo alimentare\n>>\n>>> Spett.le Aurora Food Group S.r.l.,\n>>> mi chiamo Tommaso Refosco, ho 25 anni e mi sono laureato a marzo in\n>>> Scienze e Tecnologie Alimentari (LM-70) presso l'Universita' di Padova\n>>> con votazione 110/110, con una tesi sperimentale sull'ottimizzazione\n>>> delle miscele gas in ATM per prodotti da forno farciti.\n>>> Conosco la Vs. realta' per averla incontrata a una presentazione"
+  },
+  {
+   "cid": 352,
+   "file": "CV_Tommaso_Refosco_2026.pdf",
+   "origine": "nativa",
+   "rerank": 0.5331931114196777,
+   "testo": "Curriculum vitae - Tommaso Refosco - aggiornato ad aprile 2026\nAutorizzo il trattamento dei dati personali ai sensi del Reg. UE 2016/679 - pag. 1\npag. 1\nCurriculum vitae - Tommaso Refosco\nTOMMASO REFOSCO\nVia Trieste 22 - 37045 Legnago (VR)\nnato a Legnago (VR) il 12/02/2001\nIstruzione\n2024 - 2026   Laurea magistrale in Scienze e Tecnologie Alimentari (classe LM-70)\n              Universita' degli Studi di Padova - votazione 110/110\n              conseguita a marzo 2026\n2021 - 2024   Laurea triennale in Tecnologie Alimentari\n              Universita' degli Studi di Padova - votazione 104/110\n              Tesi: \"Effetto della composizione dell'atmosfera protettiva sulla shelf life\n              di prodotti da forno farciti\"\n2016 - 2021   Diploma di istituto tecnico agrario, indirizzo produzioni e trasformazioni\n              I.T.A. \"A. Trentin\", Lonigo (VI) - votazione 88/100\nEsperienze\nset 2025 - feb 2026   Tirocinio curricolare di 6 mesi - reparto qualita'\n                  Ortofresco Veneto S.p.A. (IV gamma) - Zevio (VR)\n                  Laboratorio qualita': analisi chimico-fisiche e microbiologiche su"
+  },
+  {
+   "cid": 1424,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "origine": "nativa",
+   "rerank": 0.48579663038253784,
+   "testo": "From: Federica Sartori <f.sartori@aurorafoodgroup.it>\nTo: Denis Zanella <d.zanella@aurorafoodgroup.it>, Alberto Zanchetta <a.zanchetta@aurorafoodgroup.it>\nCc: Marco Fantin <m.fantin@aurorafoodgroup.it>\nSubject: R: I: Candidatura spontanea - dott. Tommaso Refosco - tecnologo alimentare\nDate: Tue, 28 Apr 2026 18:44:16 +0200\nMessage-ID: <AM0PR07MBBF6CD610F4CE@aurorafoodgroup.it>\nRagazzi mettiamoci d'accordo pero', perche' io ho il candidato in sospeso da una settimana e non so cosa rispondergli :)\n\nDenis dice \"serve uno in linea 2, non un laureato\", Alberto dice \"tienilo da parte che con lo sviluppo del paprika mi servirebbe una mano\". Sono due esigenze VERE tutte e due ma sono due posti diversi:\n\n- per la Linea 2 il posto c'e' adesso (sostituzione dimissioni, la terza da gennaio...) ma e' un posto da operatore turnista, domeniche comprese: un neolaureato magistrale col 110 li' o non ci viene o ci sta tre mesi e scappa come gli altri, e abbiamo buttato la formazione\n- per l'R&D il posto NON c'e' a budget, c'e' gia' la tirocinante (Giulia, che peraltro finisce a luglio) e per aprire una posizione serve l'ok del titolare"
+  },
+  {
+   "cid": 1426,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "origine": "nativa",
+   "rerank": 0.4177052676677704,
+   "testo": "> Federica a me serve uno in linea 2, non un laureato. mi serve gente che\n> tiene il ritmo della sfogliatrice e che il sabato sera non mi manda il\n> certificato. con le tre domeniche della promo ho la squadra a pezzi.\n> se vuoi fare un annuncio fallo per OPERATORE DI LINEA, quello si.\n> Denis\n>\n> Inviato dal mio iPhone\n>\n>\n> -----Messaggio originale-----\n> Da: Alberto Zanchetta <a.zanchetta@aurorafoodgroup.it>\n> Inviato: lunedi 27 aprile 2026 16:12\n> A: Federica Sartori; Denis Zanella\n> Oggetto: R: I: Candidatura spontanea - dott. Tommaso Refosco - tecnologo alimentare\n>\n>> Io invece il cv l'ho letto: tesi sulle atmosfere protettive nei\n>> prodotti da forno, tirocinio in un'azienda di IV gamma, sa usare il\n>> pacchetto di analisi sensoriale. Con lo 0470 alla revisione 12 e la\n>> shelf life del paprika ancora da chiudere con Analytica, una mano cosi\n>> non la butterei via. Il tema e' il budget, lo so. Federica tienilo\n>> caldo una settimana che ne parlo col titolare.\n>> A.Z.\n>>\n>> dott. Alberto Zanchetta - R&D\n>> Aurora Food Group S.r.l.\n>\n>\n> -----Messaggio originale-----\n> Da: Federica Sartori <f.sartori@aurorafoodgroup.it>\n> Inviato: lunedi 27 aprile 2026 09:20"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4599,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.32,
+  "rerank": 49.93
+ },
+ "id": "Q261",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T18:14:53",
+ "secondi": 50.27,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 44.96,
+  "token_prompt": 1860,
+  "token_risposta": 50,
+  "testo_grezzo": "No, non è stato assunto.\n\nFONTI: R_candidatura_spontanea_tecnologo_alimentare.eml, CV_Tommaso_Refosco_2026.pdf\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "CV_Tommaso_Refosco_2026.pdf"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

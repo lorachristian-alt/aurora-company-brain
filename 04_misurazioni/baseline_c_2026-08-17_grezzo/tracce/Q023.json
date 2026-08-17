@@ -1,0 +1,681 @@
+{
+ "domanda": "Entro quanto dobbiamo rispondere a una richiesta scritta dell'ufficio qualita' di un cliente?",
+ "candidati_densi": [
+  {
+   "cid": 1394,
+   "punteggio": 0.6355818491123185,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1404,
+   "punteggio": 0.6285495690666956,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1384,
+   "punteggio": 0.6269003189721338,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1703,
+   "punteggio": 0.6058262847978128,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1395,
+   "punteggio": 0.6035651415853467,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 254,
+   "punteggio": 0.6035515489245497,
+   "file": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 621,
+   "punteggio": 0.6030700077208324,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1322,
+   "punteggio": 0.6000914598971079,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1390,
+   "punteggio": 0.5994759612549816,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1383,
+   "punteggio": 0.5987170322285218,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1455,
+   "punteggio": 0.5977978735820525,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1638,
+   "punteggio": 0.5977978735820525,
+   "file": "Scansione_20260518_0003.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 20,
+   "punteggio": 0.5962944505533784,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 533,
+   "punteggio": 0.5957007903130018,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 304,
+   "punteggio": 0.5908610630292591,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1350,
+   "punteggio": 0.5896172194396342,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 11,
+   "punteggio": 0.5879741589421574,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 306,
+   "punteggio": 0.5870285149233737,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1402,
+   "punteggio": 0.5847039574949546,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1101,
+   "punteggio": 0.5810013195988961,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 7,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1455,
+   "punteggio": 20.696815490722656,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1638,
+   "punteggio": 20.696815490722656,
+   "file": "Scansione_20260518_0003.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1831,
+   "punteggio": 20.561546325683594,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1694,
+   "punteggio": 19.263355255126953,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 259,
+   "punteggio": 19.087825775146484,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1781,
+   "punteggio": 18.820768356323242,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 325,
+   "punteggio": 17.760265350341797,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1637,
+   "punteggio": 17.606731414794922,
+   "file": "Scansione_20260518_0003.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1454,
+   "punteggio": 17.606731414794922,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 532,
+   "punteggio": 17.51971435546875,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1695,
+   "punteggio": 17.458101272583008,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1339,
+   "punteggio": 17.19202995300293,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1707,
+   "punteggio": 16.873197555541992,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 533,
+   "punteggio": 16.73208236694336,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1438,
+   "punteggio": 16.697269439697266,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1404,
+   "punteggio": 16.32612419128418,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1389,
+   "punteggio": 16.280864715576172,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1784,
+   "punteggio": 16.108606338500977,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1648,
+   "punteggio": 15.752193450927734,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1708,
+   "punteggio": 15.740418434143066,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 2,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1455,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.03047794966520434,
+   "rango_denso": 11,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1638,
+   "file": "Scansione_20260518_0003.pdf",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.030017921146953404,
+   "rango_denso": 12,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1404,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.02928692699490662,
+   "rango_denso": 2,
+   "rango_sparso": 16
+  },
+  {
+   "cid": 533,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.02702702702702703,
+   "rango_denso": 14,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 1394,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1384,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1831,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1694,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1703,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 259,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1395,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 254,
+   "file": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 325,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 621,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1322,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1637,
+   "file": "Scansione_20260518_0003.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1390,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1454,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 532,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1383,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1695,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1339,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 20,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 18,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1404,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.6161924004554749
+  },
+  {
+   "cid": 1390,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "rerank": 0.38748112320899963
+  },
+  {
+   "cid": 1394,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "rerank": 0.1825772076845169
+  },
+  {
+   "cid": 1395,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "rerank": 0.11425492912530899
+  },
+  {
+   "cid": 1694,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "rerank": 0.060584671795368195
+  },
+  {
+   "cid": 1384,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "rerank": 0.06027277931571007
+  },
+  {
+   "cid": 1339,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "rerank": 0.055273301899433136
+  },
+  {
+   "cid": 1831,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.04077896475791931
+  },
+  {
+   "cid": 1695,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "rerank": 0.02481665089726448
+  },
+  {
+   "cid": 1455,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "rerank": 0.0227468553930521
+  },
+  {
+   "cid": 1638,
+   "file": "Scansione_20260518_0003.pdf",
+   "rerank": 0.0227468553930521
+  },
+  {
+   "cid": 532,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "rerank": 0.01972215250134468
+  },
+  {
+   "cid": 20,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.00867521483451128
+  },
+  {
+   "cid": 533,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "rerank": 0.00854426994919777
+  },
+  {
+   "cid": 1703,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "rerank": 0.006149779539555311
+  },
+  {
+   "cid": 1383,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "rerank": 0.005229975562542677
+  },
+  {
+   "cid": 621,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.004182124976068735
+  },
+  {
+   "cid": 1454,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "rerank": 0.003591393819078803
+  },
+  {
+   "cid": 1637,
+   "file": "Scansione_20260518_0003.pdf",
+   "rerank": 0.003591393819078803
+  },
+  {
+   "cid": 1322,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "rerank": 0.0025202587712556124
+  },
+  {
+   "cid": 254,
+   "file": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "rerank": 0.0011545643210411072
+  },
+  {
+   "cid": 259,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "rerank": 0.0011268561938777566
+  },
+  {
+   "cid": 325,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.0008504202123731375
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0001976603380171582
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1404,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "origine": "nativa",
+   "rerank": 0.6161924004554749,
+   "testo": "Valutazione preliminare               entro 2 h dalla segnalazione\nConvocazione team di crisi            immediata per Classe 1-2\nBlocco lotti e mass balance           entro 4 h dalla convocazione\nNotifica ASL/ATS (ULSS 9) art. 19     entro 24 h dalla conferma\nComunicazione clienti GDO             entro 24 h, comunque prima della notifica\n                                      ai media se richiamo\nRisposta a richieste QA cliente       entro 48 h (capitolato Tosano)\nRiesame post-crisi                    entro 15 gg\n\n8. MODELLI DI COMUNICAZIONE (bozze pronte all'uso)\n\n8.1 BOZZA COMUNICAZIONE AL CLIENTE (All. 2 - da personalizzare)\n-----------------------------------------------------------------\nSpett.le [Cliente], c.a. Ufficio Assicurazione Qualità\nOggetto: [RITIRO CAUTELATIVO / RICHIAMO] prodotto [descrizione] -\nlotto/i [XXXX] - TMC [XXXX]\n\nCon la presente Vi informiamo che, a seguito di [descrizione sintetica\ndell'evento], questa azienda ha disposto in via [cautelativa/obbligatoria]\nil [ritiro/richiamo] del prodotto:\n- Denominazione: [___] - Codice articolo: [___] - EAN: [___]\n- Lotto/i: [___] - TMC: [___] - Formato: [___]"
+  },
+  {
+   "cid": 1390,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "origine": "nativa",
+   "rerank": 0.38748112320899963,
+   "testo": "8. COMUNICAZIONE AL CLIENTE\n\n8.1 Clienti GDO e private label\n\nLa risposta scritta ai clienti GDO (Tosano Cerea S.p.A., Alì S.p.A., Rossetto Trade S.p.A., Famila Nordest) è predisposta dal RSGQ per i contenuti tecnici e firmata dalla Direzione Commerciale. Deve contenere: ricostruzione dei fatti, esito delle verifiche, causa individuata o ipotesi in corso di verifica, azioni correttive con date, eventuali proposte di gestione della merce.\n\nPer i clienti con portale fornitori o con richieste di riscontro a termine (es. Assicurazione Qualità Tosano: riscontro entro 48 h), i termini contrattuali del cliente prevalgono su quelli del par. 6.3 se più stringenti.\n\n8.2 Consumatori finali\n\nLa risposta al consumatore è cortese, non ammette responsabilità prima della chiusura dell'indagine, ringrazia per la segnalazione e informa dell'avvio delle verifiche. Eventuali omaggi o rimborsi sono decisi dalla Direzione Commerciale. Ogni comunicazione al consumatore su reclami di classe 1 è preventivamente condivisa con la direzione."
+  },
+  {
+   "cid": 1394,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "origine": "nativa",
+   "rerank": 0.1825772076845169,
+   "testo": "30 giorni lavorativi\n4\nSegnalazione\nOsservazione non classificabile come reclamo\npreferenze di gusto, richieste informazioni\n5 giorni lavorativi\nRegistrazione semplice\nFase\nClasse 1\nClasse 2\nClasse 3\nProtocollo e apertura MOD-QA-31\n4 h\n8 h\n24 h\nPrima risposta al reclamante\n4 h\n24 h\n3 gg lav.\nVerifica registrazioni lotto\n12 h\n48 h\n5 gg lav.\nAnalisi causa radice completata\n5 gg\n10 gg\n20 gg\nChiusura e risposta definitiva\ncome da PRO-QA-11\n15 gg lav.\n30 gg lav.\nVerifica di efficacia AC\nentro 60 gg\nentro 90 gg\nse applicabile\nIndicatore\nFormula\nObiettivo 2026\nFrequenza riesame\nReclami totali per milione di confezioni vendute\nn. reclami x 1.000.000 / confezioni vendute\n< 8,0\nmensile\nReclami classe 1\nconteggio assoluto\n0\nmensile\nTempo medio di chiusura classe 2\nmedia gg lavorativi\n≤ 12 gg\ntrimestrale\nReclami per corpo estraneo\nconteggio assoluto\n≤ 3/anno\nmensile\nRecidive su stessa causa radice\nconteggio assoluto\n0\ntrimestrale\nRegistrazione\nModulo\nResponsabile\nConservazione\nLuogo\nReclamo e indagine\nMOD-QA-31\nRSGQ\nshelf life + 3 anni, min. 5 anni\nufficio qualità, raccoglitore annuale\nCampione reso\netichetta REC + sez. B MOD-QA-31\nAss. Qualità\n12 mesi da chiusura"
+  },
+  {
+   "cid": 1395,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "origine": "nativa",
+   "rerank": 0.11425492912530899,
+   "testo": "Luogo\nReclamo e indagine\nMOD-QA-31\nRSGQ\nshelf life + 3 anni, min. 5 anni\nufficio qualità, raccoglitore annuale\nCampione reso\netichetta REC + sez. B MOD-QA-31\nAss. Qualità\n12 mesi da chiusura\nlaboratorio QC, area segregata\nRapporti di prova esterni\nrapporto Analytica Veneta\nRSGQ\n5 anni\nfascicolo reclamo\nCorrispondenza cliente\nPEC / e-mail\nDir. Commerciale\n5 anni\nserver, cartella COMM/reclami\nAzioni correttive\nregistro PRO-QA-05\nRSGQ\n5 anni\nufficio qualità\nRev.\nData\nDescrizione modifica\nRedatto\nApprovato\n0\n10/06/2019\nPrima emissione\nE. Marchetti\nG. Bertoldi\n1\n22/09/2023\nAdeguamento a BRCGS Issue 9 e IFS v8; nuova classificazione a 4 classi\nE. Marchetti\nM. Fantin\n2\n14/03/2026\nRecepimento NC 1 audit CSQA 02/2026 (par. 7.4); precisazioni su campione reso e comunicazione al consumatore\nE. Marchetti\nM. Fantin"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4152,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.2,
+  "rerank": 36.26
+ },
+ "id": "Q023",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:07:49",
+ "secondi": 36.48,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 60.37,
+  "token_prompt": 1761,
+  "token_risposta": 72,
+  "testo_grezzo": "Entro 4 ore dalla segnalazione di un richiamo, dobbiamo rispondere a una richiesta scritta dell'ufficio qualità di un cliente.\n\nFONTI: procedura_ritiro_prodotto_CRISI_GDO.txt, PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+  "fonti_citate": [
+   "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "PRO-QA-08_gestione_reclami_cliente_rev2.docx"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

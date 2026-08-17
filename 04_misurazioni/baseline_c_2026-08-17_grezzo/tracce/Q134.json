@@ -1,0 +1,678 @@
+{
+ "domanda": "Il conto del credito d'imposta nel file CapEx torna?",
+ "candidati_densi": [
+  {
+   "cid": 1219,
+   "punteggio": 0.5585026834637591,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 496,
+   "punteggio": 0.5312431021233572,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 488,
+   "punteggio": 0.5277614890924951,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1861,
+   "punteggio": 0.4997998891127123,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 599,
+   "punteggio": 0.4983637994932379,
+   "file": "IT03984710230_00215.xml.p7m",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 492,
+   "punteggio": 0.4953785761570983,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1514,
+   "punteggio": 0.4869017487917647,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 504,
+   "punteggio": 0.4866990275281551,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 25,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1872,
+   "punteggio": 0.485637547588583,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 483,
+   "punteggio": 0.4853104787935433,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 529,
+   "punteggio": 0.48507117531608296,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1856,
+   "punteggio": 0.48345722073019853,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1198,
+   "punteggio": 0.4821549378952536,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1217,
+   "punteggio": 0.4808122345359952,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 15,
+   "punteggio": 0.4729242113358574,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1444,
+   "punteggio": 0.47161517336907266,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 528,
+   "punteggio": 0.46962958334246935,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1547,
+   "punteggio": 0.4687852751194951,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 479,
+   "punteggio": 0.46857821213788237,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1023,
+   "punteggio": 0.4684542316457697,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 89,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1514,
+   "punteggio": 17.13982391357422,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 522,
+   "punteggio": 16.8490047454834,
+   "file": "Fwd_newsletter_confindustria_marzo.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1219,
+   "punteggio": 16.417051315307617,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1809,
+   "punteggio": 16.39622688293457,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1860,
+   "punteggio": 15.875968933105469,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 173,
+   "punteggio": 15.566091537475586,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1212,
+   "punteggio": 15.485013961791992,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 148,
+   "punteggio": 15.194525718688965,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 147,
+   "punteggio": 14.773943901062012,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 170,
+   "punteggio": 14.19140625,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1379,
+   "punteggio": 13.539006233215332,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1374,
+   "punteggio": 13.463244438171387,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1220,
+   "punteggio": 13.354546546936035,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1861,
+   "punteggio": 13.1771240234375,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1211,
+   "punteggio": 12.967643737792969,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 312,
+   "punteggio": 12.897815704345703,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1524,
+   "punteggio": 12.876731872558594,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 151,
+   "punteggio": 12.814737319946289,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 492,
+   "punteggio": 12.438948631286621,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1863,
+   "punteggio": 12.427297592163086,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 13,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1219,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.032266458495966696,
+   "rango_denso": 1,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1514,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.03131881575727918,
+   "rango_denso": 7,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1861,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.029138513513513514,
+   "rango_denso": 4,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 492,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.027809742999616416,
+   "rango_denso": 6,
+   "rango_sparso": 19
+  },
+  {
+   "cid": 496,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 17,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 522,
+   "file": "Fwd_newsletter_confindustria_marzo.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 488,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1809,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 599,
+   "file": "IT03984710230_00215.xml.p7m",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1860,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 173,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1212,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 148,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 504,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 25,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 147,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1872,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 170,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 483,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 529,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1379,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1374,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1856,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1198,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 20,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1220,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1514,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.04242042452096939
+  },
+  {
+   "cid": 148,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "rerank": 0.009684423916041851
+  },
+  {
+   "cid": 1198,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.008853687904775143
+  },
+  {
+   "cid": 1872,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "rerank": 0.004303966648876667
+  },
+  {
+   "cid": 147,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "rerank": 0.004015496000647545
+  },
+  {
+   "cid": 170,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "rerank": 0.0027119466103613377
+  },
+  {
+   "cid": 1374,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "rerank": 0.0018298946088179946
+  },
+  {
+   "cid": 1219,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "rerank": 0.0016912217251956463
+  },
+  {
+   "cid": 173,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "rerank": 0.0016352798556908965
+  },
+  {
+   "cid": 1212,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "rerank": 0.0015582414343953133
+  },
+  {
+   "cid": 1809,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.0014374972088262439
+  },
+  {
+   "cid": 599,
+   "file": "IT03984710230_00215.xml.p7m",
+   "rerank": 0.0009092500549741089
+  },
+  {
+   "cid": 1379,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "rerank": 0.0007784597692079842
+  },
+  {
+   "cid": 496,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "rerank": 0.0007303408347070217
+  },
+  {
+   "cid": 1861,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.0006513352855108678
+  },
+  {
+   "cid": 492,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "rerank": 0.0005166064947843552
+  },
+  {
+   "cid": 1860,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.00043478963198140264
+  },
+  {
+   "cid": 488,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "rerank": 0.0003218161582481116
+  },
+  {
+   "cid": 1220,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "rerank": 0.00021989653760101646
+  },
+  {
+   "cid": 504,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "rerank": 0.00012861075811088085
+  },
+  {
+   "cid": 522,
+   "file": "Fwd_newsletter_confindustria_marzo.txt",
+   "rerank": 0.00012698248610831797
+  },
+  {
+   "cid": 483,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "rerank": 8.223937038565055e-05
+  },
+  {
+   "cid": 529,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "rerank": 6.539381865877658e-05
+  },
+  {
+   "cid": 1856,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 2.1592002667603083e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1514,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "origine": "nativa",
+   "rerank": 0.04242042452096939,
+   "testo": "appunti costi fissi / opex 2026 - agg. al 26/05/26 - lt\n(file mio, nn girare a nessuno, i numeri buoni li passo a Bellotto a fine giugno)\n\nriprendo il file dell anno scorso, tolgo quello che nn c'e' piu e aggiungo\nil leasing nuovo. ATTENZIONE: qui NON c'e' il tunnel Criotech, quello e' CapEx,\nsta nel file calcolo_CapEx_linea3, qui solo spese correnti.\n\n\n=== 1. LEASING E NOLEGGI ===============================\n\nLEASING FORNO FT-02 (linea 2, croissanteria)\n  societa: UniCredit Leasing S.p.A.  contratto n. UCL/2022/118374\n  decorrenza 01/03/2022, durata 72 mesi, riscatto 1%\n  canone: 3.850,00 €/mese + iva\n  scad. rata: giorno 05 del mese, RID su c/c UniCredit\n  residuo a fine 2026: 14 rate (fine feb 2028)\n\nLEASING MULETTO ELETTRICO (magazzino Faggionato)\n  Toyota Material Handling - contratto TMHIT-59921\n  canone 612,00 €/mese comprensivo manut. full service e batteria\n  durata 60 mesi da 09/2023\n  (chiedere a Faggionato se il secondo muletto a gpl lo teniamo ancora,\n   fermo da febbraio dietro la CF-02, paghiamo bollo? no il bollo no\n   ma l'assicurazione si, vedi sotto)\n\nLEASING CONFEZIONATRICE PKM-450 (Pakmatic, linea 1)\n  Sella Leasing  contr. n. 44/081152"
+  },
+  {
+   "cid": 148,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "origine": "nativa",
+   "rerank": 0.009684423916041851,
+   "testo": "• + listing fee eventuali nuovi inserimenti GDO: 12.000 (richiesta gia' pervenuta\ndal cliente principale per ALTRA referenza - prudenzialmente prevedere analoga\nrichiesta anche su 0470)\nNota relatore: NON confondere con il CapEx tunnel Criotech (linea 3, delibera 2025,\ngia' in corso) - se il CdA li somma viene fuori un discorso cassa che a giugno e'\nmeglio non aprire. Tenerli SEPARATI.\n(senza titolo)\n\nCONTO ECONOMICO DI PRODOTTO (euro/pz, scenario marchio Aurora)\nricavo netto cessione:            1,05\ningredienti:                      0,26\n(di cui caratterizzanti 0,07)\nfilm + confezionamento:           0,09\nenergia + utilities:              0,08\nmanodopera diretta:               0,14\nammortamenti dedicati:            0,04\nlogistica:                        0,07\ncosto pieno industriale:          0,68\nmargine industriale:              0,37 = 35%\n• ATTENZIONE: tabella da rifare con i costi aggiornati (vedi nota slide 6: 28-32%\na seconda dello scenario paprika/energia). Il 35% qui viene dal primo giro di\nmarzo di Zanchetta. tre numeri diversi in tre file = figuraccia col CdA, ALLINEARE.\n(senza titolo)\n\nBREAK-EVEN"
+  },
+  {
+   "cid": 1198,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "origine": "nativa",
+   "rerank": 0.008853687904775143,
+   "testo": "NC-2026-079;28/04/2026;interna;Linea 1;Test tenuta MAP a campione: 1 confezione su 30 con perdita lenta, lotto ricontrollato al 10%;AF-SN-0450 L26117-L1-T2;media;pressione barra saldante irregolare (v. NC-2026-073);intervento su gruppo saldante anticipato;Zanella D.;05/05/2026;CHIUSA;410,00\nNC-2026-080;29/04/2026;interna;Amministrazione;Tensione di cassa: acconto Criotech 30% (87.000) in scadenza maggio con incasso Tosano marzo atteso 10/06, attivato anticipo fatture;;alta;sfasamento incassi RIBA 90 gg vs uscite CapEx;v. Trentin/Bertoldi, utilizzo linea anticipo fatture UniCredit;Trentin L.;;APERTA;N/D\nNC-2026-081;30/04/2026;interna;Linea 2;Registro formazione: 5 attestati HACCP in scadenza aprile non rinnovati;;media;calendario corsi slittato per turni promo;sessione recupero pianificata 21/05 (v. MOD-HR-11);Sartori F.;;APERTA;750,00\nNC-2026-082;04/05/2026;interna;Linea 1;Controllo O2 residuo confezioni: 2,4% su target 2,0% a inizio turno, ritarato in 20 min;AF-SN-0450 L26124-L1-T1;bassa;deriva flussimetro azoto;ritaratura, annotazione su registro macchina;Popescu I.;04/05/2026;CHIUSA;60,00\nTOTALE COSTI GEN-APR (parziale, v. foglio riepilogo);;;;;;;;;;;;24.815,00"
+  },
+  {
+   "cid": 1872,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "origine": "nativa",
+   "rerank": 0.004303966648876667,
+   "testo": "peso pezzo crudo n=50: media 45,8 g — dev.st 1,6 — max 49,1 min 42,4\n  DENTRO tolleranza ma la coda alta preoccupa, 4 pezzi sopra 48\n\nlievitazione: 28 C / 80% UR, ridotta a 135 min (proposta A2) — sviluppo omogeneo\n  sub-batch B in cella 40 min dopo A, differenza visiva minima. D4 funziona.\ncottura FT-02 175 C 16 min: ok\nsurgelazione TS-01: -18 C cuore in 220 min. carico maggiore di prova 1. limite 240\n  si avvicina. quando arriva il Criotech CR-SP180 questo problema sparisce, ma\n  il CapEx e' slittato (acconto a maggio, dice Trentin). per ora: non caricare\n  TS-01 con piu' di 2 carrelli/ora. Guerra avvisato.\n\nvolume specifico: 6,9 ml/g (-7% vs pilota)   in recupero\nsfogliatura al taglio: strati leggibili, base ancora un po' fusa\nSCARTO PROVA 2: 8,5%\n\nDECISIONI PROVA 2:\nD5. lievitazione industriale CONFERMATA a 135 min 28C/80%UR\nD6. peso: tarare avvolgitrice su velo 3,1 (non 3,2) e rialzare se serve\nAZIONI:\nA4. officina: gioco rullo di testa sfogliatrice — verifica entro prova 3\nA5. Zanchetta: curva T impasto nei 2 sub-batch con datalogger (per il dossier)\n\n##########################################################################"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4630,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.17,
+  "rerank": 43.02
+ },
+ "id": "Q134",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:37:02",
+ "secondi": 43.21,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 55.48,
+  "token_prompt": 2045,
+  "token_risposta": 27,
+  "testo_grezzo": "La domanda non contiene il dato richiesto.\n\nFONTI: \nnon_conformita_interne_registro_2026.csv",
+  "fonti_citate": [],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

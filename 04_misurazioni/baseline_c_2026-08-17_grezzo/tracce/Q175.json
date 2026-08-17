@@ -1,0 +1,681 @@
+{
+ "domanda": "Le domeniche lavorate a maggio sono state due o tre?",
+ "candidati_densi": [
+  {
+   "cid": 289,
+   "punteggio": 0.567125107423006,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 622,
+   "punteggio": 0.5408277406379618,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1789,
+   "punteggio": 0.514834314213833,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 288,
+   "punteggio": 0.5109200627126285,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1785,
+   "punteggio": 0.5046570873839951,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1304,
+   "punteggio": 0.5033334270549212,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 437,
+   "punteggio": 0.5022437489605399,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1301,
+   "punteggio": 0.4933763945725486,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 436,
+   "punteggio": 0.489546086210681,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 286,
+   "punteggio": 0.4856070378875137,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 625,
+   "punteggio": 0.4789436940254195,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1306,
+   "punteggio": 0.47418807261910023,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 82,
+   "punteggio": 0.4699983756523607,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1093,
+   "punteggio": 0.4696132021362715,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 435,
+   "punteggio": 0.4686245504690501,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 166,
+   "punteggio": 0.465179128266553,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 627,
+   "punteggio": 0.4623324229807566,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 189,
+   "punteggio": 0.4602616438380932,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 386,
+   "punteggio": 0.45593840668584856,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 188,
+   "punteggio": 0.45588308095573554,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 12,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 289,
+   "punteggio": 30.22932243347168,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1424,
+   "punteggio": 19.443145751953125,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1789,
+   "punteggio": 18.729032516479492,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 627,
+   "punteggio": 18.247238159179688,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 288,
+   "punteggio": 17.826316833496094,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 625,
+   "punteggio": 16.95307731628418,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 435,
+   "punteggio": 16.865907669067383,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 219,
+   "punteggio": 16.773130416870117,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 430,
+   "punteggio": 16.398128509521484,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1308,
+   "punteggio": 15.20563793182373,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1116,
+   "punteggio": 14.985977172851562,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1109,
+   "punteggio": 14.624211311340332,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1711,
+   "punteggio": 14.61746597290039,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1117,
+   "punteggio": 14.41186237335205,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1836,
+   "punteggio": 14.405167579650879,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 252,
+   "punteggio": 14.358868598937988,
+   "file": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1108,
+   "punteggio": 14.10051441192627,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 294,
+   "punteggio": 14.058347702026367,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1177,
+   "punteggio": 14.003471374511719,
+   "file": "noleggio_distributori_automatici_contratto.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 531,
+   "punteggio": 13.466935157775879,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 1,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 289,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.03278688524590164,
+   "rango_denso": 1,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1789,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.031746031746031744,
+   "rango_denso": 3,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 288,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.031009615384615385,
+   "rango_denso": 4,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 625,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.029236022193768675,
+   "rango_denso": 11,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 627,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.028612012987012988,
+   "rango_denso": 17,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 435,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.028258706467661692,
+   "rango_denso": 15,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 622,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1424,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1785,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1304,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 437,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 219,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1301,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 436,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 286,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1308,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1116,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1109,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1306,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 82,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1711,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1093,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 17,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1117,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 289,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.8849364519119263
+  },
+  {
+   "cid": 625,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "rerank": 0.6771146655082703
+  },
+  {
+   "cid": 288,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.4344246983528137
+  },
+  {
+   "cid": 286,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.24278749525547028
+  },
+  {
+   "cid": 627,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "rerank": 0.24211357533931732
+  },
+  {
+   "cid": 437,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.1936943382024765
+  },
+  {
+   "cid": 1789,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.14578910171985626
+  },
+  {
+   "cid": 435,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.09445567429065704
+  },
+  {
+   "cid": 436,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.0344272255897522
+  },
+  {
+   "cid": 1301,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "rerank": 0.03056284412741661
+  },
+  {
+   "cid": 1306,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "rerank": 0.023210996761918068
+  },
+  {
+   "cid": 622,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "rerank": 0.021803906187415123
+  },
+  {
+   "cid": 1093,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.020184021443128586
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.01894829235970974
+  },
+  {
+   "cid": 1304,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "rerank": 0.01873893290758133
+  },
+  {
+   "cid": 1424,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "rerank": 0.0047762151807546616
+  },
+  {
+   "cid": 1785,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.001871058833785355
+  },
+  {
+   "cid": 1308,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "rerank": 0.0005419416120275855
+  },
+  {
+   "cid": 1711,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.00037314905785024166
+  },
+  {
+   "cid": 82,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "rerank": 0.000245065544731915
+  },
+  {
+   "cid": 1117,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.00019455213623587042
+  },
+  {
+   "cid": 1116,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.00015206317766569555
+  },
+  {
+   "cid": 1109,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.0001419888430973515
+  },
+  {
+   "cid": 219,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "rerank": 5.63295507163275e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 289,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "origine": "nativa",
+   "rerank": 0.8849364519119263,
+   "testo": "di tre domeniche configura un aggravio non conforme allo spirito delle\nprevisioni contrattuali sul riposo settimanale, di cui richiama la\ndisciplina anche ai sensi dell'art. 9 del D.Lgs. 66/2003.\n\nLa sig.ra Miotto (RSU) aggiunge che la circostanza e' direttamente collegata\nal punto 4 dell'ordine del giorno, richiamando le quattro dimissioni\nintervenute sulla Linea 2 da gennaio 2026, tutte motivate - per quanto a\nconoscenza dei lavoratori - dalla gravosita' dei turni domenicali.\n\nLa Direzione, per voce dell'ing. Fantin, conferma che le domeniche 3, 10 e\n17 maggio sono state lavorate dalla Linea 2 su base di disponibilita'\nraccolta dai capiturno, con maggiorazione festiva regolarmente corrisposta\ne riposo compensativo fruito nella settimana successiva. Riconosce tuttavia\nche la raccolta delle disponibilita' e' avvenuta, di fatto, in un contesto\ndi organico ridotto che ha limitato l'effettiva volontarieta' della\nprestazione. La sig.ra Sartori conferma che alla data odierna l'organico\ndi Linea 2 e' pari a 10 unita' a fronte delle 12 previste dal\ndimensionamento interno per i volumi promozionali.\n\nPUNTO 3 - MONTE ORE STRAORDINARIO INDIVIDUALE"
+  },
+  {
+   "cid": 625,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "origine": "nativa",
+   "rerank": 0.6771146655082703,
+   "testo": "0702 BISSOLI MIRCO Manutentore notte MANUT. 4 11.82 144 0 12 8 16 ferie 2 gg\nTOTALI\nRiepilogo per reparto - maggio 2026\n\nReparto N. addetti Ore ordinarie Str. diurno Str. notturno Str. festivo Retrib. lorda Costo contributivo azienda Costo totale\nLINEA 1\nLINEA 2\nLINEA 3\nCONFEZ.\nMAGAZZ.\nMANUT.\nTOTALE\n\nmaggiorazioni applicate: straordinario diurno +30%, notturno +55%, festivo +65% (CCNL Industria Alimentare)\ndomeniche lavorate a maggio: 10/05 e 17/05 (promo settimane 19-21); la terza, 24/05, era programmata e poi sospesa\n(Trentin) le ore festive del 10/05 comprendono la chiamata di emergenza di Dal Maso e il turno di Bissoli\nStraordinario per dipendente - progressivo annuo e limite di legge\nlimite contrattuale 250 ore annue (art. 5 CCNL) - segnalati in rosso i superamenti\n\nMatricola Cognome e nome Reparto Str. gen-apr Str. maggio Progressivo Residuo su 250 Stato\n0201 POPESCU IONUT LINEA 1 55\n0202 ROSSIN DAVIDE LINEA 1 91\n0203 PERIN LUCA LINEA 1 48\n0204 OSEI SAMUEL LINEA 1 93\n0205 VASILESCU ANDREI LINEA 1 20\n0206 BOGONI MARTA LINEA 1 54\n0207 FURLAN ALESSANDRO LINEA 1 62\n0208 EL AMRANI HASSAN LINEA 1 82\n0209 PELOSO GIORGIO LINEA 1 76\n0210 MUNTEANU CRISTIAN LINEA 1 84"
+  },
+  {
+   "cid": 288,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "origine": "nativa",
+   "rerank": 0.4344246983528137,
+   "testo": "ricorso allo straordinario superiore all'ordinario andamento e ne indica la\ncausa negli ordini promozionali del cliente Tosano Cerea S.p.A., pervenuti\ncon preavviso di sole due settimane rispetto alle consegne e con volumi\nsuperiori del 40% circa rispetto al baseline sulle referenze interessate\n(in particolare AF-CR-0215 e AF-SN-0455). Precisa che il preavviso limitato\nnon dipende dall'azienda ma dalle tempistiche del volantino della catena.\nDichiara che la programmazione delle consegne si esaurira' con la settimana\n21 e che dalla settimana 22 e' previsto il rientro nell'orario ordinario.\n\nPUNTO 2 - LAVORO DOMENICALE LINEA 2\n\nIl sig. Campagnolo contesta l'effettuazione di tre domeniche lavorative\nconsecutive (3, 10 e 17 maggio 2026) da parte del personale di Linea 2,\nrilevando che, ancorche' il lavoro domenicale con riposo compensativo sia\nprevisto e retribuito con la maggiorazione contrattuale, la consecutivita'\ndi tre domeniche configura un aggravio non conforme allo spirito delle\nprevisioni contrattuali sul riposo settimanale, di cui richiama la\ndisciplina anche ai sensi dell'art. 9 del D.Lgs. 66/2003."
+  },
+  {
+   "cid": 286,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "origine": "nativa",
+   "rerank": 0.24278749525547028,
+   "testo": "in relazione agli ordini promozionali del cliente Tosano Cerea S.p.A.\n   (iniziativa promozionale \"Sottocosto Primavera\", settimane 19-21);\n2. Lavoro domenicale sulla Linea 2 (croissanteria): domeniche 3, 10 e\n   17 maggio 2026;\n3. Monte ore straordinario individuale: posizioni in prossimita' e/o\n   superamento dei limiti contrattuali e di legge;\n4. Turnover del personale di Linea 2 e organici;\n5. Varie ed eventuali.\n\nPREMESSA\n\nIl presente incontro e' stato richiesto dalla RSU con comunicazione scritta\ndel 13/05/2026 (prot. int. HR-2026-0087), assistita dalla FLAI-CGIL\nterritoriale, ai sensi delle vigenti disposizioni del CCNL Industria\nAlimentare in materia di relazioni sindacali e di informativa alle RSU\nsull'organizzazione del lavoro.\n\nPUNTO 1 - LAVORO STRAORDINARIO PERIODO APRILE-MAGGIO 2026\n\nIl sig. Campagnolo (FLAI-CGIL) prende la parola ed espone quanto segue.\nRileva che nel periodo dal 20/04/2026 al 17/05/2026 il reparto Linea 2 ha\noperato con ricorso sistematico e non occasionale al lavoro straordinario,\ncon prestazioni giornaliere che, sommando ordinario e straordinario, hanno\nraggiunto e in taluni casi superato le 10 ore. Richiama l'art. 4 del D.Lgs."
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4637,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.19,
+  "rerank": 45.14
+ },
+ "id": "Q175",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:08:00",
+ "secondi": 45.34,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 76.53,
+  "token_prompt": 1914,
+  "token_risposta": 47,
+  "testo_grezzo": "Le domeniche lavorate a maggio sono state due.\n\nFONTI: contestazione_sindacale_straordinari_Tosano.txt, libro_unico_lavoro_estratto_maggio2026.xlsx",
+  "fonti_citate": [
+   "contestazione_sindacale_straordinari_Tosano.txt",
+   "libro_unico_lavoro_estratto_maggio2026.xlsx"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

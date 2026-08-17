@@ -1,0 +1,681 @@
+{
+ "domanda": "L'infortunio di Corradin ha una causa che c'entra con il progetto del nuovo tunnel?",
+ "candidati_densi": [
+  {
+   "cid": 1460,
+   "punteggio": 0.4889934225100022,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1810,
+   "punteggio": 0.4649684541394846,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1230,
+   "punteggio": 0.4617611288194935,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 125,
+   "punteggio": 0.4611131888440306,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 398,
+   "punteggio": 0.4603989169048823,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1806,
+   "punteggio": 0.45298211022558044,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 386,
+   "punteggio": 0.44609930615516125,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 524,
+   "punteggio": 0.44317155157633215,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1227,
+   "punteggio": 0.44298837705977373,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1860,
+   "punteggio": 0.4402521973995832,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1807,
+   "punteggio": 0.4366419569287345,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 174,
+   "punteggio": 0.43649234971163114,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 396,
+   "punteggio": 0.4319316125655358,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1862,
+   "punteggio": 0.42354817955476187,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1342,
+   "punteggio": 0.4213520643700329,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 526,
+   "punteggio": 0.4191355047060462,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 169,
+   "punteggio": 0.41739021638469365,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1793,
+   "punteggio": 0.4167727717333323,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1777,
+   "punteggio": 0.4160794328892236,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1459,
+   "punteggio": 0.41436674605408325,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 3,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 607,
+   "punteggio": 26.06700325012207,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1110,
+   "punteggio": 25.417179107666016,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1714,
+   "punteggio": 23.99028968811035,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1220,
+   "punteggio": 23.909791946411133,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 328,
+   "punteggio": 21.1302433013916,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 125,
+   "punteggio": 19.39157485961914,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1107,
+   "punteggio": 19.312284469604492,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1614,
+   "punteggio": 18.920289993286133,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1215,
+   "punteggio": 18.920055389404297,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 312,
+   "punteggio": 18.777315139770508,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 155,
+   "punteggio": 18.70027732849121,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1224,
+   "punteggio": 18.490461349487305,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 291,
+   "punteggio": 18.43737030029297,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 327,
+   "punteggio": 18.424531936645508,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1230,
+   "punteggio": 18.262046813964844,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1108,
+   "punteggio": 18.210962295532227,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 431,
+   "punteggio": 18.145233154296875,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1221,
+   "punteggio": 17.899551391601562,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1113,
+   "punteggio": 17.822349548339844,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1321,
+   "punteggio": 17.796890258789062,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 5,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 125,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.030776515151515152,
+   "rango_denso": 4,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1230,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.029206349206349208,
+   "rango_denso": 3,
+   "rango_sparso": 15
+  },
+  {
+   "cid": 607,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1460,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1810,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1714,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1220,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 328,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 17,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 398,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1806,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 386,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1107,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 524,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1614,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1215,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1227,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 312,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1860,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 155,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1807,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 174,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1224,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 291,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1224,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.5022231936454773
+  },
+  {
+   "cid": 1227,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.13052359223365784
+  },
+  {
+   "cid": 1230,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.12563835084438324
+  },
+  {
+   "cid": 1220,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "rerank": 0.03204958885908127
+  },
+  {
+   "cid": 607,
+   "file": "job_description_responsabile_produzione.docx",
+   "rerank": 0.01305056270211935
+  },
+  {
+   "cid": 398,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "rerank": 0.010943291708827019
+  },
+  {
+   "cid": 1460,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.010517874732613564
+  },
+  {
+   "cid": 312,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.008319797925651073
+  },
+  {
+   "cid": 386,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "rerank": 0.007056177128106356
+  },
+  {
+   "cid": 1806,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.006801956333220005
+  },
+  {
+   "cid": 1614,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.006258987355977297
+  },
+  {
+   "cid": 125,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "rerank": 0.00487448088824749
+  },
+  {
+   "cid": 174,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "rerank": 0.004012222867459059
+  },
+  {
+   "cid": 1810,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.003448944306001067
+  },
+  {
+   "cid": 328,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.0029938449151813984
+  },
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.0021608788520097733
+  },
+  {
+   "cid": 1807,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.0019813559483736753
+  },
+  {
+   "cid": 524,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "rerank": 0.00165190186817199
+  },
+  {
+   "cid": 1860,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.0007430065306834877
+  },
+  {
+   "cid": 1215,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "rerank": 0.0006453016540035605
+  },
+  {
+   "cid": 155,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "rerank": 0.00016741584113333374
+  },
+  {
+   "cid": 1107,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 9.555504948366433e-05
+  },
+  {
+   "cid": 1714,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 2.7708809284376912e-05
+  },
+  {
+   "cid": 291,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 2.2500853447127156e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1224,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "origine": "nativa",
+   "rerank": 0.5022231936454773,
+   "testo": "FASCICOLO INFORTUNIO - CORRADIN E. - 28/04/2026\nraccolta documenti ad uso interno (HR + RSPP) - agg. 12/05/2026 - f.s.\ncontiene: estremi denuncia INAIL, dinamica, trascrizione certificato PS,\nnota RSPP, corrispondenza interna, appunti capoturno\n==========================================================================\n\n1) ESTREMI DENUNCIA/COMUNICAZIONE DI INFORTUNIO (INAIL)\n\nDenuncia trasmessa telematicamente tramite portale INAIL in data 30/04/2026\n(entro i 2 giorni dalla ricezione del certificato medico, come da art. 53\nDPR 1124/1965).\n\n- Datore di lavoro: AURORA FOOD GROUP S.R.L. - P.IVA 03984710230\n- PAT INAIL: 90817346/22 - voce di tariffa 1462\n- Sede lavori: Via dell'Industria 27, 37044 Cologna Veneta (VR)\n- Lavoratore infortunato: CORRADIN EMANUELE, operaio addetto Linea 3\n  (reparto surgelati), contratto a tempo indeterminato, CCNL Industria\n  Alimentare, anzianita' aziendale 4 anni\n- Data e ora dell'evento: 28/04/2026, ore 09:40 circa\n- Luogo dell'evento: cella surgelati CF-02 (-18 gradi C), zona corsia\n  scaffalatura B\n- Natura e sede della lesione: trauma da schiacciamento, dito indice\n  mano sinistra"
+  },
+  {
+   "cid": 1227,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "origine": "nativa",
+   "rerank": 0.13052359223365784,
+   "testo": "3) TRASCRIZIONE CERTIFICATO DI PRONTO SOCCORSO (originale agli atti)\n\n     AZIENDA ULSS 9 SCALIGERA - OSPEDALE \"G. FRACASTORO\" SAN BONIFACIO\n     PRONTO SOCCORSO - VERBALE N. 2026/PS/18874\n     Accesso: 28/04/2026 ore 10:22 - Dimissione: ore 13:05\n     Triage: VERDE\n     Paziente: CORRADIN EMANUELE, [dati anagrafici omessi nella copia\n     interna ad uso HR]\n     Motivo accesso: trauma mano sx sul lavoro\n     Obiettivita': tumefazione e dolorabilita' F2 secondo dito mano sx,\n     ecchimosi ungueale, motilita' conservata ma dolorosa, sensibilita'\n     conservata, non ferite aperte\n     Rx mano sx: non evidenti lesioni ossee acute. Referto radiologico\n     definitivo a seguire.\n     Diagnosi: TRAUMA CONTUSIVO-DISTORSIVO CON SCHIACCIAMENTO II DITO\n     MANO SINISTRA. FRATTURA NON EVIDENTE.\n     Prestazioni: medicazione, ghiaccio, immobilizzazione con syndattilia\n     II-III dito, terapia antalgica al bisogno (paracetamolo 1000 mg max\n     x3/die), controllo curante.\n     Prognosi: giorni 12 s.c. ai fini INAIL.\n     Rilasciato primo certificato medico INAIL.\n     Il medico di PS: dott.ssa [firma illeggibile]\n\n--------------------------------------------------------------------------"
+  },
+  {
+   "cid": 1230,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "origine": "nativa",
+   "rerank": 0.12563835084438324,
+   "testo": "lavoratori;\n3. dotazione dei carrelli di maniglioni di presa o, in alternativa,\n   procedura che vieti la spinta in coda di piu' carrelli;\n4. ripristino della segnaletica orizzontale di corsia in CF-02 (usurata);\n5. inserimento dell'addestramento specifico a registro per tutti gli\n   addetti Linea 3 e magazzino.\n\nSi rammenta che l'evento, pur di modesta entita', presenta i caratteri\ndel near-miss rispetto a scenari di maggiore gravita' (mano trascinata\ncon carrello in movimento) e si raccomanda di trattarlo come tale nel\nriesame annuale.\n\nDistinti saluti,\np.i. Sergio Bonato - RSPP\nStudio Bonato & Partners - Arzignano (VI)\n\n--------------------------------------------------------------------------\n\n5) MAIL INTERNA\n\nDa: Sartori Federica\nA: Fantin Marco; Guerra Roberto\nCc: Zanella Denis\nInviato: mercoledì 6 maggio 2026 09:15\nOggetto: infortunio Corradin - nota RSPP e cose da fare\n\nBuongiorno,\nvi giro in stampa la nota di Bonato arrivata ieri via PEC (5 punti,\nscadenza DVR 30 gg quindi entro il 04/06). Mie note:\n\n- punto 2 (guanti): chiedo i campioni a due fornitori, li faccio provare\n  a Guerra e ai suoi PRIMA di ordinare 30 paia, l'ultima volta coi guanti"
+  },
+  {
+   "cid": 1220,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "origine": "nativa",
+   "rerank": 0.03204958885908127,
+   "testo": "oneroso o di delocalizzazione all'estero del bene entro il 31 dicembre del\nsecondo anno successivo a quello di entrata in funzione ovvero di\ninterconnessione, il credito e' corrispondentemente ridotto e va riversato. Se\nne tenga conto in ogni futura ipotesi di riorganizzazione, anche con\nriferimento al progetto di nuovo stabilimento di cui si e' fatto cenno\n(\"Aurora Vega\" - Minerbe), che potrebbe comportare trasferimento di cespiti.\n\n5.4 Sotto il profilo finanziario, segnaliamo alla rag. Trentin che la prima\nquota del credito NON sara' utilizzabile prima dell'anno successivo a quello di\ninterconnessione ove questa avvenga a ridosso di fine esercizio: nella\npianificazione di cassa gia' in tensione per l'acconto (v. Vs. utilizzo della\nlinea anticipo fatture) NON va dato per disponibile alcun beneficio prima delle\nverifiche di cui sopra.\n\n1. TRANSIZIONE 5.0 - CENNI\n\n6.1 Ove l'investimento, unitamente ad eventuali interventi correlati, consegua\nuna riduzione certificata dei consumi energetici del processo interessato nelle\nmisure minime di legge (il nuovo tunnel a spirale sostituisce il TS-01 a\npiastre, dichiaratamente energivoro: la fattispecie merita approfondimento),"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4681,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.2,
+  "rerank": 38.77
+ },
+ "id": "Q227",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:47:18",
+ "secondi": 38.98,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 61.06,
+  "token_prompt": 1856,
+  "token_risposta": 73,
+  "testo_grezzo": "Non e' possibile determinare la causa dell'infortunio di Corradin. Non sono presenti informazioni che collegano l'infortunio al progetto del nuovo tunnel.\n\nFONTI: nota_infortunio_INAIL_operaio_linea3.txt, nota_commercialista_credito_imposta_beni_strumentali.docx",
+  "fonti_citate": [
+   "nota_infortunio_INAIL_operaio_linea3.txt",
+   "nota_commercialista_credito_imposta_beni_strumentali.docx"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

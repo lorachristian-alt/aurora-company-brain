@@ -1,0 +1,681 @@
+{
+ "domanda": "Quanti corsi di formazione risultano scaduti in azienda?",
+ "candidati_densi": [
+  {
+   "cid": 1825,
+   "punteggio": 0.5681540297271918,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1826,
+   "punteggio": 0.5399084067471001,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1478,
+   "punteggio": 0.5383684548891952,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1858,
+   "punteggio": 0.5319178602034395,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 523,
+   "punteggio": 0.5172890274870563,
+   "file": "Fwd_newsletter_confindustria_marzo.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 522,
+   "punteggio": 0.5164573761784576,
+   "file": "Fwd_newsletter_confindustria_marzo.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1859,
+   "punteggio": 0.5145885072951373,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 336,
+   "punteggio": 0.5135790471125705,
+   "file": "corso_inglese_aziendale_proposta.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1433,
+   "punteggio": 0.508063896094699,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 434,
+   "punteggio": 0.503884295923331,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1310,
+   "punteggio": 0.5015740315990838,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1814,
+   "punteggio": 0.4989428892997087,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1315,
+   "punteggio": 0.49562683477714936,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1815,
+   "punteggio": 0.4939188919299402,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1429,
+   "punteggio": 0.48932731611379077,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 109,
+   "punteggio": 0.4873649859985576,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1432,
+   "punteggio": 0.48593865538785186,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1824,
+   "punteggio": 0.484237742680774,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 292,
+   "punteggio": 0.4830470031817125,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1430,
+   "punteggio": 0.48042671630195166,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 1,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 336,
+   "punteggio": 20.854625701904297,
+   "file": "corso_inglese_aziendale_proposta.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1900,
+   "punteggio": 11.56365966796875,
+   "file": "volantino_convenzione_palestra.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1198,
+   "punteggio": 11.069111824035645,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 522,
+   "punteggio": 11.06613540649414,
+   "file": "Fwd_newsletter_confindustria_marzo.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1825,
+   "punteggio": 10.838656425476074,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1524,
+   "punteggio": 10.517748832702637,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1842,
+   "punteggio": 9.604840278625488,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1112,
+   "punteggio": 9.27967357635498,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1099,
+   "punteggio": 8.972441673278809,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1557,
+   "punteggio": 8.8308744430542,
+   "file": "ricetta_base_esperimento_snack_salato_v12.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 83,
+   "punteggio": 8.474506378173828,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1489,
+   "punteggio": 8.313591003417969,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 616,
+   "punteggio": 7.923943996429443,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1607,
+   "punteggio": 7.838857173919678,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1428,
+   "punteggio": 7.627536773681641,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1311,
+   "punteggio": 7.596759796142578,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1851,
+   "punteggio": 7.591791152954102,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1205,
+   "punteggio": 7.515615940093994,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 27,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1362,
+   "punteggio": 7.5052080154418945,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 479,
+   "punteggio": 7.375598907470703,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 0,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1825,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.03177805800756621,
+   "rango_denso": 1,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 336,
+   "file": "corso_inglese_aziendale_proposta.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.031099324975891997,
+   "rango_denso": 8,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 522,
+   "file": "Fwd_newsletter_confindustria_marzo.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.030776515151515152,
+   "rango_denso": 6,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1826,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1900,
+   "file": "volantino_convenzione_palestra.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1198,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 20,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1478,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1858,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 523,
+   "file": "Fwd_newsletter_confindustria_marzo.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1524,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1842,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1859,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1112,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1099,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1433,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1557,
+   "file": "ricetta_base_esperimento_snack_salato_v12.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 83,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1310,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1489,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1814,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 616,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1315,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1607,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1478,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "rerank": 0.061333589255809784
+  },
+  {
+   "cid": 1826,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "rerank": 0.024053720757365227
+  },
+  {
+   "cid": 1198,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.023542270064353943
+  },
+  {
+   "cid": 523,
+   "file": "Fwd_newsletter_confindustria_marzo.txt",
+   "rerank": 0.020609622821211815
+  },
+  {
+   "cid": 336,
+   "file": "corso_inglese_aziendale_proposta.txt",
+   "rerank": 0.01048068143427372
+  },
+  {
+   "cid": 1489,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "rerank": 0.010334929451346397
+  },
+  {
+   "cid": 1859,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.008129098452627659
+  },
+  {
+   "cid": 1825,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "rerank": 0.005328820087015629
+  },
+  {
+   "cid": 522,
+   "file": "Fwd_newsletter_confindustria_marzo.txt",
+   "rerank": 0.002573142061010003
+  },
+  {
+   "cid": 1310,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "rerank": 0.0019335468532517552
+  },
+  {
+   "cid": 1524,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.0015481794252991676
+  },
+  {
+   "cid": 1112,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.0011760690249502659
+  },
+  {
+   "cid": 1814,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "rerank": 0.0010448856046423316
+  },
+  {
+   "cid": 1315,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "rerank": 0.0009571973350830376
+  },
+  {
+   "cid": 1433,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "rerank": 0.0008558084955438972
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.0007864048820920289
+  },
+  {
+   "cid": 1858,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.00039572943933308125
+  },
+  {
+   "cid": 1607,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.00038326383219100535
+  },
+  {
+   "cid": 1842,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "rerank": 0.00015280126535799354
+  },
+  {
+   "cid": 1900,
+   "file": "volantino_convenzione_palestra.txt",
+   "rerank": 5.5091531976358965e-05
+  },
+  {
+   "cid": 616,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 2.0026813217555173e-05
+  },
+  {
+   "cid": 1099,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "rerank": 1.7701271644909866e-05
+  },
+  {
+   "cid": 1557,
+   "file": "ricetta_base_esperimento_snack_salato_v12.txt",
+   "rerank": 1.6924481315072626e-05
+  },
+  {
+   "cid": 83,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "rerank": 1.6833277186378837e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1478,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "origine": "nativa",
+   "rerank": 0.061333589255809784,
+   "testo": "SCADENZARIO FORMAZIONE OBBLIGATORIA - AURORA FOOD GROUP SRL;;;;;;;\nestrazione del 18/05/2026 da file formazione_master.xlsx foglio 2 - f.sartori;;;;;;;\nATTENZIONE: le scadenze HACCP seguono la procedura interna (3 anni) non un obbligo di legge regionale - v. nota Vicentini 2024;;;;;;;\nDipendente;Mansione;Corso;Data corso;Scadenza;Stato;Ente formatore;Note\nPopescu Ionut;Capoturno Linea 1;HACCP avanzato;12/06/2024;12/06/2027;VALIDO;Studio Alimentaria (Vicentini);\nPopescu Ionut;Capoturno Linea 1;Sicurezza specifica rischio alto 12h;03/02/2022;03/02/2027;VALIDO;Bonato & Partners;agg. 6h da fare entro scad.\nPopescu Ionut;Capoturno Linea 1;Preposto 8h;15/09/2023;15/09/2025;SCADUTO;Bonato & Partners;AGG. BIENNALE NON FATTO - urgente\nRossin Davide;Operaio Linea 1;HACCP base;20/04/2023;20/04/2026;SCADUTO;Studio Alimentaria (Vicentini);inserire nella sessione di giugno\nRossin Davide;Operaio Linea 1;Sicurezza specifica rischio alto 12h;10/05/2023;10/05/2028;VALIDO;Bonato & Partners;\nPerin Luca;Operaio Linea 1;HACCP base;20/04/2023;20/04/2026;SCADUTO;Studio Alimentaria (Vicentini);sessione giugno"
+  },
+  {
+   "cid": 1826,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "origine": "nativa",
+   "rerank": 0.024053720757365227,
+   "testo": "e' stata integrata con colloquio orale. E' stata chiesta dai lavoratori la\n   traduzione della dispensa (francese/arabo): si raccomanda per le prossime\n   edizioni materiale multilingua o mediazione linguistica. HR ha preso in carico.\n - si raccomanda di calendarizzare l'aggiornamento quinquennale (6 h) per i 9\n   lavoratori formati nel 2021 (elenco a parte, vedi scadenzario MOD-HR-11).\n\nATTESTATI\n\nVerranno emessi n. 20 attestati di frequenza con verifica dell'apprendimento,\nnumerazione da SBP-FORM-2026-0341 a SBP-FORM-2026-0360, a firma congiunta ente\nformatore e datore di lavoro. Per SINANI e BOGDAN l'attestato sara' emesso a\ncompletamento del percorso di recupero.\nRegistrazione su scadenzario formazione MOD-HR-11 a cura di F. Sartori.\nCopia del presente verbale: fascicolo formazione HR, copia a RSPP, copia a RLS.\n\nCologna Veneta, 15/04/2026\n\nIl docente / RSPP esterno            Il datore di lavoro\np.i. Sergio Bonato                   Giancarlo Bertoldi\n[firma autografa]                    [firma autografa]\n\nIl RLS (per presa visione)           HR\n[firma autografa]  P. Bertacco         [firma autografa]  F. Sartori"
+  },
+  {
+   "cid": 1198,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "origine": "nativa",
+   "rerank": 0.023542270064353943,
+   "testo": "NC-2026-079;28/04/2026;interna;Linea 1;Test tenuta MAP a campione: 1 confezione su 30 con perdita lenta, lotto ricontrollato al 10%;AF-SN-0450 L26117-L1-T2;media;pressione barra saldante irregolare (v. NC-2026-073);intervento su gruppo saldante anticipato;Zanella D.;05/05/2026;CHIUSA;410,00\nNC-2026-080;29/04/2026;interna;Amministrazione;Tensione di cassa: acconto Criotech 30% (87.000) in scadenza maggio con incasso Tosano marzo atteso 10/06, attivato anticipo fatture;;alta;sfasamento incassi RIBA 90 gg vs uscite CapEx;v. Trentin/Bertoldi, utilizzo linea anticipo fatture UniCredit;Trentin L.;;APERTA;N/D\nNC-2026-081;30/04/2026;interna;Linea 2;Registro formazione: 5 attestati HACCP in scadenza aprile non rinnovati;;media;calendario corsi slittato per turni promo;sessione recupero pianificata 21/05 (v. MOD-HR-11);Sartori F.;;APERTA;750,00\nNC-2026-082;04/05/2026;interna;Linea 1;Controllo O2 residuo confezioni: 2,4% su target 2,0% a inizio turno, ritarato in 20 min;AF-SN-0450 L26124-L1-T1;bassa;deriva flussimetro azoto;ritaratura, annotazione su registro macchina;Popescu I.;04/05/2026;CHIUSA;60,00\nTOTALE COSTI GEN-APR (parziale, v. foglio riepilogo);;;;;;;;;;;;24.815,00"
+  },
+  {
+   "cid": 523,
+   "file": "Fwd_newsletter_confindustria_marzo.txt",
+   "origine": "nativa",
+   "rerank": 0.020609622821211815,
+   "testo": "e conduttori di impianti.\n\n>> ENERGIA: CONSORZIO ACQUISTI\nAperte le adesioni per il gruppo d'acquisto energia elettrica 2027. Termine 15 aprile.\n\n>> AGENDA\n12/03 - Assemblea di categoria Alimentare, ore 17.00, sede\n19/03 - Webinar Transizione 5.0\n26/03 - Incontro con l'Agenzia delle Entrate su fatturazione e controlli\n09/04 - Corso \"La gestione dei reclami cliente\" (8 ore, quota associati 180 EUR)\n\n>> IN BREVE\n- Prorogato al 30/06 il termine per l'adeguamento dei registri\n- Nuove disposizioni sulla revisione periodica dei carrelli elevatori\n- Rinnovato l'accordo con l'ente bilaterale per la sanita' integrativa\n\nPer non ricevere piu' questa comunicazione, rispondere con oggetto CANCELLAMI.\n\n--------------------------------------------------------------------\nFwd: Federica Sartori -> Elena Marchetti, 06/03/2026 09:12\nElena, guarda il corso del 9 aprile sui reclami, magari ti interessa. 180 euro.\nFammi sapere entro fine mese che poi mi dimentico.\n\nFwd: Elena Marchetti, 06/03/2026 18:40\nVisto grazie. Segnamelo che ci vado, ma vediamo come siamo messi con l'audit di rinnovo.\nPiuttosto guarda quello sulla formazione finanziata, che il nostro piano formativo e'\nfermo da due anni."
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4608,
+ "tempi": {
+  "denso": 0.01,
+  "sparso": 0.16,
+  "rerank": 40.32
+ },
+ "id": "Q089",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:01:30",
+ "secondi": 40.49,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 61.35,
+  "token_prompt": 2008,
+  "token_risposta": 56,
+  "testo_grezzo": "Non e' possibile determinare il numero di corsi di formazione scaduti in azienda.\n\nFONTI: registro_presenze_corsi_HACCP_scaduti.csv, verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+  "fonti_citate": [
+   "registro_presenze_corsi_HACCP_scaduti.csv",
+   "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

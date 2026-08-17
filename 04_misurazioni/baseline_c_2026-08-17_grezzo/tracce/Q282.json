@@ -1,0 +1,683 @@
+{
+ "domanda": "Quali file dell'archivio non sono in UTF-8 e con quali separatori sono scritti i CSV?",
+ "candidati_densi": [
+  {
+   "cid": 545,
+   "punteggio": 0.5199797548122029,
+   "file": "IMG_20260514_152241_frammento_REC-2026-011.jpg",
+   "idx": 0,
+   "origine": "scheda"
+  },
+  {
+   "cid": 537,
+   "punteggio": 0.47939967294093466,
+   "file": "IMG-20260510-WA0007.jpg",
+   "idx": 0,
+   "origine": "scheda"
+  },
+  {
+   "cid": 1500,
+   "punteggio": 0.45986851413627544,
+   "file": "registro_tamponi_superfici_listeria_salmonella.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1685,
+   "punteggio": 0.45123782759292874,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1506,
+   "punteggio": 0.4470212673015094,
+   "file": "registro_tamponi_superfici_listeria_salmonella.csv",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1701,
+   "punteggio": 0.44381316972983853,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 498,
+   "punteggio": 0.4415853145645676,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1501,
+   "punteggio": 0.4394921849193205,
+   "file": "registro_tamponi_superfici_listeria_salmonella.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 479,
+   "punteggio": 0.4371267922568255,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 0,
+   "punteggio": 0.4364440182980577,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 184,
+   "punteggio": 0.4360080748694788,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1901,
+   "punteggio": 0.43479227596038944,
+   "file": "~$ttera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 0,
+   "origine": "scheda"
+  },
+  {
+   "cid": 484,
+   "punteggio": 0.431442340765008,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 594,
+   "punteggio": 0.43122889753844823,
+   "file": "IT03984710230_00215.xml.p7m",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1512,
+   "punteggio": 0.4289454023634852,
+   "file": "registro_tamponi_superfici_listeria_salmonella.csv",
+   "idx": 22,
+   "origine": "nativa"
+  },
+  {
+   "cid": 181,
+   "punteggio": 0.42729446943750427,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1502,
+   "punteggio": 0.42491141728047255,
+   "file": "registro_tamponi_superfici_listeria_salmonella.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 905,
+   "punteggio": 0.4248973329978845,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 83,
+   "origine": "nativa"
+  },
+  {
+   "cid": 177,
+   "punteggio": 0.42442839900007673,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1507,
+   "punteggio": 0.4243830845332812,
+   "file": "registro_tamponi_superfici_listeria_salmonella.csv",
+   "idx": 17,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 492,
+   "punteggio": 21.063663482666016,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 479,
+   "punteggio": 20.90045928955078,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 493,
+   "punteggio": 19.430774688720703,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 498,
+   "punteggio": 19.254222869873047,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 484,
+   "punteggio": 19.091571807861328,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 488,
+   "punteggio": 18.980710983276367,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 503,
+   "punteggio": 18.201274871826172,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 24,
+   "origine": "nativa"
+  },
+  {
+   "cid": 545,
+   "punteggio": 16.133085250854492,
+   "file": "IMG_20260514_152241_frammento_REC-2026-011.jpg",
+   "idx": 0,
+   "origine": "scheda"
+  },
+  {
+   "cid": 27,
+   "punteggio": 15.84164047241211,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 25,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1812,
+   "punteggio": 15.794946670532227,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1901,
+   "punteggio": 15.589991569519043,
+   "file": "~$ttera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 0,
+   "origine": "scheda"
+  },
+  {
+   "cid": 0,
+   "punteggio": 15.561068534851074,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1243,
+   "punteggio": 15.199180603027344,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 537,
+   "punteggio": 15.006752014160156,
+   "file": "IMG-20260510-WA0007.jpg",
+   "idx": 0,
+   "origine": "scheda"
+  },
+  {
+   "cid": 1145,
+   "punteggio": 14.948811531066895,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 27,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1309,
+   "punteggio": 14.783247947692871,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1366,
+   "punteggio": 14.685063362121582,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 594,
+   "punteggio": 14.6513090133667,
+   "file": "IT03984710230_00215.xml.p7m",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 497,
+   "punteggio": 14.267864227294922,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 579,
+   "punteggio": 14.110685348510742,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 6,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 545,
+   "file": "IMG_20260514_152241_frammento_REC-2026-011.jpg",
+   "idx": 0,
+   "origine": "scheda",
+   "rrf": 0.031099324975891997,
+   "rango_denso": 1,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 479,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.030621785881252923,
+   "rango_denso": 9,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 498,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.03055037313432836,
+   "rango_denso": 7,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 537,
+   "file": "IMG-20260510-WA0007.jpg",
+   "idx": 0,
+   "origine": "scheda",
+   "rrf": 0.02964254577157803,
+   "rango_denso": 2,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 484,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.029083245521601686,
+   "rango_denso": 13,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 0,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.02817460317460317,
+   "rango_denso": 10,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1901,
+   "file": "~$ttera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 0,
+   "origine": "scheda",
+   "rrf": 0.02797339593114241,
+   "rango_denso": 12,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 594,
+   "file": "IT03984710230_00215.xml.p7m",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.026334026334026334,
+   "rango_denso": 14,
+   "rango_sparso": 18
+  },
+  {
+   "cid": 492,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 493,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1500,
+   "file": "registro_tamponi_superfici_listeria_salmonella.csv",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1685,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 18,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1506,
+   "file": "registro_tamponi_superfici_listeria_salmonella.csv",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 488,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1701,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 503,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 24,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1501,
+   "file": "registro_tamponi_superfici_listeria_salmonella.csv",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 27,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 25,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1812,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 184,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1243,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1145,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 27,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": null,
+   "rango_sparso": 15
+  },
+  {
+   "cid": 1512,
+   "file": "registro_tamponi_superfici_listeria_salmonella.csv",
+   "idx": 22,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": 15,
+   "rango_sparso": null
+  },
+  {
+   "cid": 181,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.013157894736842105,
+   "rango_denso": 16,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 492,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "rerank": 0.017081841826438904
+  },
+  {
+   "cid": 479,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "rerank": 0.014573035761713982
+  },
+  {
+   "cid": 498,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "rerank": 0.012305358424782753
+  },
+  {
+   "cid": 484,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "rerank": 0.009879556484520435
+  },
+  {
+   "cid": 493,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "rerank": 0.008295238018035889
+  },
+  {
+   "cid": 503,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "rerank": 0.008027881383895874
+  },
+  {
+   "cid": 488,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "rerank": 0.004212654661387205
+  },
+  {
+   "cid": 594,
+   "file": "IT03984710230_00215.xml.p7m",
+   "rerank": 0.0018265245016664267
+  },
+  {
+   "cid": 0,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "rerank": 0.00149639043956995
+  },
+  {
+   "cid": 1901,
+   "file": "~$ttera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.0011504534631967545
+  },
+  {
+   "cid": 537,
+   "file": "IMG-20260510-WA0007.jpg",
+   "rerank": 0.0011152527295053005
+  },
+  {
+   "cid": 1145,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.0009911941597238183
+  },
+  {
+   "cid": 545,
+   "file": "IMG_20260514_152241_frammento_REC-2026-011.jpg",
+   "rerank": 0.0008760380442254245
+  },
+  {
+   "cid": 1243,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.00024567145737819374
+  },
+  {
+   "cid": 184,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "rerank": 0.00017681879398878664
+  },
+  {
+   "cid": 1501,
+   "file": "registro_tamponi_superfici_listeria_salmonella.csv",
+   "rerank": 9.916247654473409e-05
+  },
+  {
+   "cid": 181,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "rerank": 6.77077186992392e-05
+  },
+  {
+   "cid": 27,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 3.451255906838924e-05
+  },
+  {
+   "cid": 1506,
+   "file": "registro_tamponi_superfici_listeria_salmonella.csv",
+   "rerank": 3.292578912805766e-05
+  },
+  {
+   "cid": 1512,
+   "file": "registro_tamponi_superfici_listeria_salmonella.csv",
+   "rerank": 2.7153950213687494e-05
+  },
+  {
+   "cid": 1701,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "rerank": 2.665292049641721e-05
+  },
+  {
+   "cid": 1500,
+   "file": "registro_tamponi_superfici_listeria_salmonella.csv",
+   "rerank": 2.5844548872555606e-05
+  },
+  {
+   "cid": 1685,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "rerank": 1.9157414499204606e-05
+  },
+  {
+   "cid": 1812,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 1.8945716874441132e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 492,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "origine": "nativa",
+   "rerank": 0.017081841826438904,
+   "testo": "</DatiBeniServizi>\n   <DatiRiepilogo><AliquotaIVA>22.00</AliquotaIVA><ImponibileImporto>25590.53</ImponibileImporto><Imposta>5629.92</Imposta><EsigibilitaIVA>I</EsigibilitaIVA></DatiRiepilogo>\n   <DatiPagamento><CondizioniPagamento>TP01</CondizioniPagamento>\n      <DettaglioPagamento><ModalitaPagamento>MP12</ModalitaPagamento><DataScadenzaPagamento>2026-04-30</DataScadenzaPagamento><ImportoPagamento>15610.22</ImportoPagamento></DettaglioPagamento>\n      <DettaglioPagamento><ModalitaPagamento>MP12</ModalitaPagamento><DataScadenzaPagamento>2026-04-30</DataScadenzaPagamento><ImportoPagamento>15610.23</ImportoPagamento></DettaglioPagamento>\n   </DatiPagamento>\n</FatturaElettronicaBody>\n</p:FatturaElettronica>\n<IdSdi>7689443102</IdSdi>\n\n=========================================================================\nFILE: IT01887650172_zZ41b.xml   ricevuta il 08/03/2026   IdSdi 7698120440\n=========================================================================\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
+  },
+  {
+   "cid": 479,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "origine": "nativa",
+   "rerank": 0.014573035761713982,
+   "testo": "EXPORT PORTALE FATTURE E CORRISPETTIVI - FATTURE RICEVUTE - TRIMESTRE 2 2026\nutente: LTRENTIN - scaricato il 03/06/2026 11:22 - n. 9 documenti selezionati\nATTENZIONE alcuni file risultano gia' contabilizzati in Zucchetti, altri NO (vedi mail a Bellotto del 28/05)\n\n=========================================================================\nFILE: IT00298440231_1F0a3.xml   ricevuta il 02/05/2026   IdSdi 7714002951\n=========================================================================\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<p:FatturaElettronica versione=\"FPR12\" xmlns:p=\"http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2\">\n<FatturaElettronicaHeader>\n  <DatiTrasmissione>\n      <IdTrasmittente><IdPaese>IT</IdPaese><IdCodice>00298440231</IdCodice></IdTrasmittente>\n      <ProgressivoInvio>00877</ProgressivoInvio>\n      <FormatoTrasmissione>FPR12</FormatoTrasmissione>\n      <CodiceDestinatario>M5UXCR1</CodiceDestinatario>\n  </DatiTrasmissione>\n <CedentePrestatore>\n   <DatiAnagrafici>\n     <IdFiscaleIVA><IdPaese>IT</IdPaese><IdCodice>00298440231</IdCodice></IdFiscaleIVA>\n     <Anagrafica><Denominazione>MOLINO VENETO S.P.A.</Denominazione></Anagrafica>"
+  },
+  {
+   "cid": 498,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "origine": "nativa",
+   "rerank": 0.012305358424782753,
+   "testo": "<IdSdi>7712889034</IdSdi>\n\n=========================================================================\nFILE: IT03556120230_1qqL0.xml   ricevuta il 02/05/2026   IdSdi 7714112087\n=========================================================================\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<p:FatturaElettronica versione=\"FPR12\">\n<FatturaElettronicaHeader>\n      <DatiTrasmissione><IdTrasmittente><IdPaese>IT</IdPaese><IdCodice>03556120230</IdCodice></IdTrasmittente><ProgressivoInvio>301</ProgressivoInvio><FormatoTrasmissione>FPR12</FormatoTrasmissione><CodiceDestinatario>M5UXCR1</CodiceDestinatario></DatiTrasmissione>\n      <CedentePrestatore><DatiAnagrafici><IdFiscaleIVA><IdPaese>IT</IdPaese><IdCodice>03556120230</IdCodice></IdFiscaleIVA><Anagrafica><Denominazione>TRASPORTI FRIGO VENETO S.R.L.</Denominazione></Anagrafica><RegimeFiscale>RF01</RegimeFiscale></DatiAnagrafici><Sede><Indirizzo>VIA CAMPAGNOLA 9</Indirizzo><CAP>37054</CAP><Comune>NOGARA</Comune><Provincia>VR</Provincia><Nazione>IT</Nazione></Sede></CedentePrestatore>"
+  },
+  {
+   "cid": 484,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "origine": "nativa",
+   "rerank": 0.009879556484520435,
+   "testo": "FILE: IT03412550281_88wQ1.xml   ricevuta il 26/04/2026   IdSdi 7711985520\n=========================================================================\n<?xml version=\"1.0\" encoding=\"UTF-8\"?><p:FatturaElettronica versione=\"FPR12\"><FatturaElettronicaHeader><DatiTrasmissione><IdTrasmittente><IdPaese>IT</IdPaese><IdCodice>03412550281</IdCodice></IdTrasmittente><ProgressivoInvio>EE118</ProgressivoInvio><FormatoTrasmissione>FPR12</FormatoTrasmissione><CodiceDestinatario>M5UXCR1</CodiceDestinatario></DatiTrasmissione><CedentePrestatore><DatiAnagrafici><IdFiscaleIVA><IdPaese>IT</IdPaese><IdCodice>03412550281</IdCodice></IdFiscaleIVA><Anagrafica><Denominazione>VENETA ENERGIA S.P.A. - SocietÃ  con unico socio</Denominazione></Anagrafica><RegimeFiscale>RF01</RegimeFiscale></DatiAnagrafici><Sede><Indirizzo>CORSO STATI UNITI 14/B</Indirizzo><CAP>35127</CAP><Comune>PADOVA</Comune><Provincia>PD</Provincia><Nazione>IT</Nazione></Sede></CedentePrestatore><CessionarioCommittente><DatiAnagrafici><IdFiscaleIVA><IdPaese>IT</IdPaese><IdCodice>03984710230</IdCodice></IdFiscaleIVA><Anagrafica><Denominazione>AURORA FOOD GROUP SRL</Denominazione></Anagrafica></DatiAnagrafici><Sede><Indirizzo>VIA DELL INDUSTRIA 27</Indirizzo><CAP>37044</CAP><Comune>COLOGNA VENETA</Comune><Provincia>VR</Provincia><Nazione>IT</Nazione></Sede></CessionarioCommittente></FatturaElettronicaHeader><FatturaElettronicaBody><DatiGenerali><DatiGeneraliDocumento><TipoDocumento>TD01</TipoDocumento><Divisa>EUR</Divisa><Data>2026-04-24</Data><Numero>2026-EE-1188041</Numero><ImportoTotaleDocumento>28440.12</ImportoTotaleDocumento><Causale>FORNITURA ENERGIA ELETTRICA MARZO 2026 POD IT001E984412 - VIA DELL'INDUSTRIA 27 COLOGNA VENETA (VR) - ITALIA - POTENZA DISP. 630 KW - mercato libero, offerta AZIENDA FIX 24</Causale></DatiGeneraliDocumento></DatiGenerali><DatiBeniServizi>"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 5051,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.28,
+  "rerank": 61.68
+ },
+ "id": "Q282",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T18:33:55",
+ "secondi": 61.97,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 52.33,
+  "token_prompt": 2101,
+  "token_risposta": 50,
+  "testo_grezzo": "<la risposta>\nFONTI: Fatture_Elettroniche_SDI_Inbound_Q2.txt, IT03412550281_88wQ1.xml\nCONFIDEZZA: bassa\n</la risposta>",
+  "fonti_citate": [
+   "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "IT03412550281_88wQ1.xml"
+  ],
+  "fonti_fuori_contesto": [
+   "IT03412550281_88wQ1.xml"
+  ],
+  "confidenza": "bassa"
+ }
+}

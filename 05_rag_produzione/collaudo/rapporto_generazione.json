@@ -1,0 +1,172 @@
+{
+ "quando": "2026-08-17T18:55:32",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "fase": "solo generazione (condizioni della passata 2)",
+ "domande": 10,
+ "secondi_medi": 56.34,
+ "secondi_min": 13.38,
+ "secondi_max": 107.02,
+ "stima_282_ore": 4.41,
+ "token_prompt_max": 2897,
+ "num_ctx": 6144,
+ "risposte_vuote": 0,
+ "risposte_senza_fonti": 0,
+ "risposte_con_fonti_fuori_contesto": 2,
+ "esiti": [
+  {
+   "n": 1,
+   "che_prova": "ramo sparso su codice di lotto",
+   "secondi_generazione": 15.76,
+   "token_prompt": 2390,
+   "token_risposta": 58,
+   "fonti_citate": [
+    "tracciabilita_lotti_massbalance_L26130.xlsx",
+    "procedura_ritiro_prodotto_CRISI_GDO.txt"
+   ],
+   "fonti_fuori_contesto": [],
+   "confidenza": "bassa",
+   "risposta_vuota": false,
+   "caratteri_risposta": 104
+  },
+  {
+   "n": 2,
+   "che_prova": "ramo denso, nessun codice nella domanda",
+   "secondi_generazione": 13.38,
+   "token_prompt": 1849,
+   "token_risposta": 64,
+   "fonti_citate": [
+    "MOD-QA-31_reclamo_REC-2026-011.pdf",
+    "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx"
+   ],
+   "fonti_fuori_contesto": [],
+   "confidenza": "bassa",
+   "risposta_vuota": false,
+   "caratteri_risposta": 107
+  },
+  {
+   "n": 3,
+   "che_prova": "formato .log, dato numerico in serie",
+   "secondi_generazione": 27.71,
+   "token_prompt": 2897,
+   "token_risposta": 117,
+   "fonti_citate": [
+    "log_temperature_pastorizzatore_linea1_10_05_26.log"
+   ],
+   "fonti_fuori_contesto": [],
+   "confidenza": "bassa",
+   "risposta_vuota": false,
+   "caratteri_risposta": 116
+  },
+  {
+   "n": 4,
+   "che_prova": "codice con trattino non spezzato dal tokenizzatore",
+   "secondi_generazione": 76.66,
+   "token_prompt": 2087,
+   "token_risposta": 144,
+   "fonti_citate": [
+    "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+    "SKM_C224e26051412340.pdf"
+   ],
+   "fonti_fuori_contesto": [],
+   "confidenza": "bassa",
+   "risposta_vuota": false,
+   "caratteri_risposta": 377
+  },
+  {
+   "n": 5,
+   "che_prova": "codice prodotto con due trattini",
+   "secondi_generazione": 107.02,
+   "token_prompt": 2514,
+   "token_risposta": 170,
+   "fonti_citate": [
+    "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+    "test_shelf_life_accelerata_confezione_MAP_snack.csv"
+   ],
+   "fonti_fuori_contesto": [],
+   "confidenza": "alta",
+   "risposta_vuota": false,
+   "caratteri_risposta": 393
+  },
+  {
+   "n": 6,
+   "che_prova": "formato .eml e catena di risposte",
+   "secondi_generazione": 66.15,
+   "token_prompt": 1890,
+   "token_risposta": 135,
+   "fonti_citate": [
+    "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+    "Conferma_incarico_audit_rinnovo_2026.pdf"
+   ],
+   "fonti_fuori_contesto": [],
+   "confidenza": "bassa",
+   "risposta_vuota": false,
+   "caratteri_risposta": 208
+  },
+  {
+   "n": 7,
+   "che_prova": "formato .docx",
+   "secondi_generazione": 66.82,
+   "token_prompt": 2049,
+   "token_risposta": 101,
+   "fonti_citate": [
+    "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+    "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+    "file: scheda_allergeni_matrice_cross_contamination.docx"
+   ],
+   "fonti_fuori_contesto": [
+    "file: scheda_allergeni_matrice_cross_contamination.docx"
+   ],
+   "confidenza": "alta",
+   "risposta_vuota": false,
+   "caratteri_risposta": 144
+  },
+  {
+   "n": 8,
+   "che_prova": "formato .jpg passato dall'OCR",
+   "secondi_generazione": 60.95,
+   "token_prompt": 1807,
+   "token_risposta": 108,
+   "fonti_citate": [
+    "MOD-QA-07_10-05-26_L1_T2_scansione.jpg",
+    "Verbale_ispezione_ATS_09_06_2026.pdf"
+   ],
+   "fonti_fuori_contesto": [],
+   "confidenza": "bassa",
+   "risposta_vuota": false,
+   "caratteri_risposta": 187
+  },
+  {
+   "n": 9,
+   "che_prova": "formato .xml di fattura elettronica, partita IVA nel nome",
+   "secondi_generazione": 58.85,
+   "token_prompt": 1859,
+   "token_risposta": 87,
+   "fonti_citate": [
+    "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+    "IT02244780371_visual.txt"
+   ],
+   "fonti_fuori_contesto": [
+    "IT02244780371_visual.txt"
+   ],
+   "confidenza": "bassa",
+   "risposta_vuota": false,
+   "caratteri_risposta": 148
+  },
+  {
+   "n": 10,
+   "che_prova": "formato .xlsx con piu' fogli, domanda di aggregazione",
+   "secondi_generazione": 70.13,
+   "token_prompt": 2157,
+   "token_risposta": 100,
+   "fonti_citate": [
+    "analisi_marginalita_per_referenza_2026.xlsx",
+    "email_HR_dimissioni_operai_linea2.txt",
+    "contestazione_sindacale_straordinari_Tosano.txt"
+   ],
+   "fonti_fuori_contesto": [],
+   "confidenza": "bassa",
+   "risposta_vuota": false,
+   "caratteri_risposta": 145
+  }
+ ]
+}

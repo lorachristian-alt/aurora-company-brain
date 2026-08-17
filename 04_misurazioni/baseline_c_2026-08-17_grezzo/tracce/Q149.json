@@ -1,0 +1,681 @@
+{
+ "domanda": "Quanti giorni ci sono fra la data della fattura 215 e la sua scadenza, e torna con le condizioni contrattuali?",
+ "candidati_densi": [
+  {
+   "cid": 1442,
+   "punteggio": 0.6170062458929981,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 254,
+   "punteggio": 0.6107087745676449,
+   "file": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 17,
+   "punteggio": 0.5943671850879495,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 307,
+   "punteggio": 0.5898719969404096,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1444,
+   "punteggio": 0.5830715109300281,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 143,
+   "punteggio": 0.5757099046174893,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1350,
+   "punteggio": 0.5720576356784323,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 25,
+   "punteggio": 0.5684468064035615,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 23,
+   "origine": "nativa"
+  },
+  {
+   "cid": 7,
+   "punteggio": 0.5671230696871696,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1528,
+   "punteggio": 0.5670915228681005,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 318,
+   "punteggio": 0.5617490269087544,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 273,
+   "punteggio": 0.5604612394697388,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 24,
+   "punteggio": 0.560440533035159,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 22,
+   "origine": "nativa"
+  },
+  {
+   "cid": 327,
+   "punteggio": 0.5558978705887809,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 207,
+   "punteggio": 0.5539369050070863,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 326,
+   "punteggio": 0.5492227375255072,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 502,
+   "punteggio": 0.5485474994056256,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 23,
+   "origine": "nativa"
+  },
+  {
+   "cid": 142,
+   "punteggio": 0.5474436650998021,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 365,
+   "punteggio": 0.5441243971197398,
+   "file": "DDT_MOLINO_VENETO_Farina_0_N48392_OCR_SPORCO.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 308,
+   "punteggio": 0.5427353132848922,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 11,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1441,
+   "punteggio": 26.667465209960938,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1442,
+   "punteggio": 26.10433006286621,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 254,
+   "punteggio": 25.140514373779297,
+   "file": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 253,
+   "punteggio": 24.85950469970703,
+   "file": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 17,
+   "punteggio": 22.236949920654297,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1711,
+   "punteggio": 21.53467559814453,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1099,
+   "punteggio": 21.521875381469727,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1705,
+   "punteggio": 21.006834030151367,
+   "file": "segnalazione_guasto_cancello_carraio.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 383,
+   "punteggio": 20.30718231201172,
+   "file": "DoC_MOCA_Flexipack_film_PP_EVOH_2026.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 374,
+   "punteggio": 20.30718231201172,
+   "file": "doc 2 (1).pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 345,
+   "punteggio": 19.91520118713379,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 24,
+   "punteggio": 19.843032836914062,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 22,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1444,
+   "punteggio": 19.559465408325195,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1218,
+   "punteggio": 19.242076873779297,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 515,
+   "punteggio": 18.990581512451172,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 668,
+   "punteggio": 18.92324447631836,
+   "file": "Listino_MolinoVeneto_giu2026.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 104,
+   "punteggio": 18.728151321411133,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 252,
+   "punteggio": 18.48560905456543,
+   "file": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 289,
+   "punteggio": 18.299087524414062,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1410,
+   "punteggio": 17.978761672973633,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 14,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1442,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.03252247488101534,
+   "rango_denso": 1,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 254,
+   "file": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.03200204813108039,
+   "rango_denso": 2,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 17,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.03125763125763126,
+   "rango_denso": 3,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1444,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.029083245521601686,
+   "rango_denso": 5,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 24,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 22,
+   "origine": "nativa",
+   "rrf": 0.02758751902587519,
+   "rango_denso": 13,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1441,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 253,
+   "file": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 307,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 143,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1711,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1099,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1350,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 25,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 23,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1705,
+   "file": "segnalazione_guasto_cancello_carraio.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 7,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 383,
+   "file": "DoC_MOCA_Flexipack_film_PP_EVOH_2026.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 374,
+   "file": "doc 2 (1).pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1528,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 318,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 345,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 273,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 327,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1218,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 207,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": 15,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1442,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "rerank": 0.041505973786115646
+  },
+  {
+   "cid": 254,
+   "file": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "rerank": 0.037474602460861206
+  },
+  {
+   "cid": 253,
+   "file": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "rerank": 0.016956401988863945
+  },
+  {
+   "cid": 17,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.014936220832169056
+  },
+  {
+   "cid": 1441,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "rerank": 0.014810656197369099
+  },
+  {
+   "cid": 327,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.010555129498243332
+  },
+  {
+   "cid": 1444,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "rerank": 0.008771020919084549
+  },
+  {
+   "cid": 307,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "rerank": 0.008714633993804455
+  },
+  {
+   "cid": 143,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "rerank": 0.007193290628492832
+  },
+  {
+   "cid": 7,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.003777523059397936
+  },
+  {
+   "cid": 1350,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "rerank": 0.0024911146610975266
+  },
+  {
+   "cid": 24,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.002464443910866976
+  },
+  {
+   "cid": 1528,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.001552441855892539
+  },
+  {
+   "cid": 273,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.000621299259364605
+  },
+  {
+   "cid": 25,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.00037281287950463593
+  },
+  {
+   "cid": 374,
+   "file": "doc 2 (1).pdf",
+   "rerank": 0.0003276186471339315
+  },
+  {
+   "cid": 383,
+   "file": "DoC_MOCA_Flexipack_film_PP_EVOH_2026.pdf",
+   "rerank": 0.0003276186471339315
+  },
+  {
+   "cid": 207,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "rerank": 0.00029254527180455625
+  },
+  {
+   "cid": 1218,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "rerank": 0.00025226175785064697
+  },
+  {
+   "cid": 318,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.00023558868269901723
+  },
+  {
+   "cid": 1705,
+   "file": "segnalazione_guasto_cancello_carraio.txt",
+   "rerank": 0.0001696216786513105
+  },
+  {
+   "cid": 1711,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.0001356508582830429
+  },
+  {
+   "cid": 345,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "rerank": 8.592007361585274e-05
+  },
+  {
+   "cid": 1099,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "rerank": 5.058988244854845e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1442,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "origine": "nativa",
+   "rerank": 0.041505973786115646,
+   "testo": "- Fattura n. 2026/01102 del 31/03/2026 - importo Euro 9.215,50 + IVA - scadenza 31/05/2026 - in scadenza\n\nVi ricordiamo che le condizioni di fornitura in essere prevedono, decorsi 30 giorni dalla scadenza, l'applicazione degli interessi moratori ex D.Lgs. 231/2002 e la sospensione delle consegne programmate, ivi inclusa quella prevista per il 05/06/2026.\n\nIn assenza di riscontro con contabile di bonifico entro e non oltre il 29/05/2026, saremo costretti, ns. malgrado, a trasmettere la pratica al ns. ufficio legale e a rivedere l'affidamento concesso, anche alla luce dell'adeguamento listini gia' comunicatoVi (+11% dal 01/03/2026), che rende non piu' sostenibile l'attuale esposizione.\n\nAlleghiamo estratto conto aggiornato al 25/05/2026.\n\nDistinti saluti\n\nUfficio Amministrazione Clienti\nOLEIFICIO ADRIATICO S.p.A.\nVia delle Industrie 84 - 48122 Ravenna (RA)\nTel. 0544 61 22 40 - amministrazione@oleificioadriatico.it - PEC oleificioadriatico@legalmail.it\nP.IVA 00812340396 - Cap. Soc. 2.000.000 i.v."
+  },
+  {
+   "cid": 254,
+   "file": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "origine": "nativa",
+   "rerank": 0.037474602460861206,
+   "testo": "secondo le condizioni generali gia' sottoscritte, a 60 giorni data fattura.\n4. Documentazione preliminare\nSi richiede la trasmissione, almeno 20 giorni prima della data concordata, di: manuale\nHACCP aggiornato, planimetrie con flussi di processo e personale, elenco aggiornato dei\nprodotti certificati, esiti degli audit interni dell'anno, riesame della direzione,\nregistro reclami e non conformita', esiti del piano di monitoraggio ambientale.\nSi prega di restituire la presente controfirmata, con l'indicazione della data prescelta,\nentro il 20/04/2026.\nLead Auditor - CSQA Certificazioni S.r.l.\n_______________________________\ndott.ssa Nadia Franceschini\n\nCSQA Certificazioni S.r.l. - Via S. Gaetano 74, 36016 Thiene (VI) - Organismo accreditato\nPratica CSQA/2026/AF-0871 - pag. 2 - documento trasmesso a mezzo PEC\npag. 2"
+  },
+  {
+   "cid": 253,
+   "file": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "origine": "nativa",
+   "rerank": 0.016956401988863945,
+   "testo": "L'efficacia dell'azione correttiva sara' oggetto di verifica prioritaria nel prossimo\n  audit, con esame delle registrazioni degli ultimi tre mesi.\nSi rammenta che la trasmissione e' avvenuta oltre il termine di 28 giorni previsto dal\nregolamento di schema. Un ulteriore ritardo comportera' l'apertura di una non conformita'\nsul processo di gestione delle azioni correttive.\n2. Programmazione dell'audit di rinnovo\nVoce\nDato\nSchema\nBRCGS Food Safety Issue 9 (announced) + IFS Food v8\nFinestra di audit\ndal 01/06/2026 al 31/07/2026\nDate proposte\n23-24 giugno 2026 (prima opzione) / 7-8 luglio 2026 (seconda opzione)\nDurata\n2 giornate uomo + 0,5 giornate di preparazione\nGruppo di audit\ndott.ssa Nadia Franceschini (lead) - p.i. Fabrizio Menegazzo\nScadenza certificato in corso\n09/04/2027\n3. Corrispettivo\nIl corrispettivo per l'audit di rinnovo, comprensivo di diritti di certificazione e spese\ndi trasferta forfettizzate, ammonta a euro 4.850,00 oltre IVA. Il pagamento e' regolato\nsecondo le condizioni generali gia' sottoscritte, a 60 giorni data fattura.\n4. Documentazione preliminare\nSi richiede la trasmissione, almeno 20 giorni prima della data concordata, di: manuale"
+  },
+  {
+   "cid": 17,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "origine": "nativa",
+   "rerank": 0.014936220832169056,
+   "testo": "9.4 Le attivita' promozionali straordinarie (extra volantino, isole espositive, sottocosto)\n    saranno oggetto di accordi separati sottoscritti di volta in volta, con indicazione di\n    referenze, periodo, sell-in stimato e contribuzione a carico del Fornitore.\n9.5 Nessun ulteriore contributo, premio o sconto potra' essere richiesto al Fornitore se\n    non espressamente pattuito per iscritto.\n\nArt. 10 — CONDIZIONI DI PAGAMENTO\n10.1 Il pagamento dei corrispettivi avverra' mediante RIBA a 90 (novanta) giorni data\n     fattura fine mese (\"RIBA 90 gg d.f.f.m.\"), sul conto corrente intrattenuto dal\n     Fornitore presso UniCredit S.p.A. — filiale di Cologna Veneta (VR), IBAN\n     IT33W0200859870000104882913, salva diversa comunicazione scritta.\n10.2 La fatturazione e' elettronica via SdI (codice destinatario del Fornitore: M5UXCR1\n     per le fatture passive; per le fatture attive il codice comunicato dal Distributore).\n10.3 Eventuali contestazioni sulle fatture dovranno essere sollevate entro 30 giorni dal\n     ricevimento; la contestazione parziale non legittima la sospensione del pagamento\n     della parte non contestata."
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4144,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.18,
+  "rerank": 38.31
+ },
+ "id": "Q149",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:47:47",
+ "secondi": 38.51,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 64.6,
+  "token_prompt": 1716,
+  "token_risposta": 179,
+  "testo_grezzo": "La scadenza della fattura 215 è il 31/05/2026, quindi ci sono 30 giorni fra la data della fattura (31/03/2026) e la sua scadenza (31/05/2026).\n\nLe condizioni contrattuali sono le seguenti:\n\n* Il pagamento della fattura deve avvenire entro 30 giorni dalla scadenza.\n* Se non si effettua il pagamento entro il termine, si applicano gli interessi moratori ex D.Lgs. 231/2002.\n* La fatturazione è elettronica via SdI.\n\nFONTI: R_sollecito_pagamento_fattura_scaduta_Oleificio.eml, accordo_quadro_private_label_Tosano_2026_firmato.txt\nCONFIDENZA: alta",
+  "fonti_citate": [
+   "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "accordo_quadro_private_label_Tosano_2026_firmato.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "alta"
+ }
+}

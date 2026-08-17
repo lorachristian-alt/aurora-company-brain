@@ -1,0 +1,686 @@
+{
+ "domanda": "Con che pesi valutiamo i fornitori?",
+ "candidati_densi": [
+  {
+   "cid": 1798,
+   "punteggio": 0.6839733815733695,
+   "file": "vendor_rating_fornitori_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 283,
+   "punteggio": 0.5361482809896883,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 9,
+   "punteggio": 0.5345754595949086,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1546,
+   "punteggio": 0.5223165235424796,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 203,
+   "punteggio": 0.5216278261856491,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1857,
+   "punteggio": 0.5121989994315891,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 13,
+   "punteggio": 0.5117250472081358,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 273,
+   "punteggio": 0.5114177858626592,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 122,
+   "punteggio": 0.5090245922434431,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1811,
+   "punteggio": 0.5085050022736487,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 19,
+   "punteggio": 0.5071984001046428,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1096,
+   "punteggio": 0.5062385389393348,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 16,
+   "punteggio": 0.5047350947487114,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 301,
+   "punteggio": 0.5042838186586742,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 149,
+   "punteggio": 0.5023096396704123,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 18,
+   "punteggio": 0.49985701613887645,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 10,
+   "punteggio": 0.49763873023441385,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1835,
+   "punteggio": 0.49684272000619795,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 348,
+   "punteggio": 0.49558460518689107,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 278,
+   "punteggio": 0.494948558858525,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 5,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1798,
+   "punteggio": 15.15874195098877,
+   "file": "vendor_rating_fornitori_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1900,
+   "punteggio": 11.20210075378418,
+   "file": "volantino_convenzione_palestra.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1612,
+   "punteggio": 10.574674606323242,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1231,
+   "punteggio": 9.069478988647461,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1837,
+   "punteggio": 9.024497985839844,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1828,
+   "punteggio": 8.926138877868652,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1230,
+   "punteggio": 8.835317611694336,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 283,
+   "punteggio": 8.801947593688965,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 4,
+   "punteggio": 8.578274726867676,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 0,
+   "punteggio": 8.548456192016602,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 507,
+   "punteggio": 8.516807556152344,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1537,
+   "punteggio": 8.261246681213379,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1318,
+   "punteggio": 8.238059997558594,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1831,
+   "punteggio": 8.217000007629395,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 298,
+   "punteggio": 8.151091575622559,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1381,
+   "punteggio": 8.098249435424805,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 357,
+   "punteggio": 8.035165786743164,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 541,
+   "punteggio": 8.022494316101074,
+   "file": "img20260428_09241055.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 639,
+   "punteggio": 7.97696590423584,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 611,
+   "punteggio": 7.909521102905273,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 0,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1798,
+   "file": "vendor_rating_fornitori_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.03278688524590164,
+   "rango_denso": 1,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 283,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.030834914611005692,
+   "rango_denso": 2,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1900,
+   "file": "volantino_convenzione_palestra.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 9,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1612,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1231,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1546,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 203,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1837,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1828,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1857,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 13,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1230,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 273,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 4,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 122,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 0,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1811,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 19,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 17,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 507,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1096,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1537,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 16,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1318,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1798,
+   "file": "vendor_rating_fornitori_2026.xlsx",
+   "rerank": 0.8166049718856812
+  },
+  {
+   "cid": 1857,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.06160376965999603
+  },
+  {
+   "cid": 1318,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "rerank": 0.007070999126881361
+  },
+  {
+   "cid": 283,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.006820497568696737
+  },
+  {
+   "cid": 13,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.004021158441901207
+  },
+  {
+   "cid": 1612,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.004017991479486227
+  },
+  {
+   "cid": 1837,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.0027348422445356846
+  },
+  {
+   "cid": 203,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "rerank": 0.0026635779067873955
+  },
+  {
+   "cid": 19,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.0024633328430354595
+  },
+  {
+   "cid": 122,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "rerank": 0.002448825165629387
+  },
+  {
+   "cid": 0,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "rerank": 0.0022480450570583344
+  },
+  {
+   "cid": 507,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 0.0021504221949726343
+  },
+  {
+   "cid": 1537,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.0016328583005815744
+  },
+  {
+   "cid": 1231,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.0015693808672949672
+  },
+  {
+   "cid": 1828,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.0014544366858899593
+  },
+  {
+   "cid": 273,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.0010457828175276518
+  },
+  {
+   "cid": 4,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.0009950692765414715
+  },
+  {
+   "cid": 1230,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.0005363914533518255
+  },
+  {
+   "cid": 9,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.00044899494969286025
+  },
+  {
+   "cid": 16,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.0004037859325762838
+  },
+  {
+   "cid": 1811,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.0002861133252736181
+  },
+  {
+   "cid": 1546,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "rerank": 0.00016894117288757116
+  },
+  {
+   "cid": 1096,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "rerank": 0.00013051068526692688
+  },
+  {
+   "cid": 1900,
+   "file": "volantino_convenzione_palestra.txt",
+   "rerank": 3.1891173421172425e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1798,
+   "file": "vendor_rating_fornitori_2026.xlsx",
+   "origine": "nativa",
+   "rerank": 0.8166049718856812,
+   "testo": "Vendor rating fornitori - criteri e pesi\napprovato nel riesame della direzione del 12/03/2026\n\n\nCriterio Peso % Scala Fonte del dato Note\nQualità (conformità forniture) 35 0-100 NC fornitore / n. consegne peso alzato dopo l'audit\nPuntualità consegne 25 0-100 OTIF da gestionale calcolato a mano, il gestionale non lo fa\nCompetitività prezzo 15 0-100 confronto con 2 offerte non sempre disponibile\nDocumentazione (CoA, DoC, certificazioni) 15 0-100 check QA all'accettazione requisito BRCGS cl. 3.5\nReattività / assistenza 10 0-100 valutazione soggettiva acquisti\nTOTALE PESI\nValutazione fornitori 2026 - punteggio ponderato\n\n\n\nCod. Fornitore Categoria Qualità Puntualità Prezzo Documenti Reattività Punteggio Classe Azione Ultimo audit\nF0012 Molino Veneto SpA farine 92 88 74 96 85 20/09/2025\nF0018 Oleificio Adriatico SpA oli e grassi 88 74 52 90 70 14/11/2025\nF0021 Latteria Bassanese Soc. Coop. burro e panna 95 91 80 94 88 03/10/2025\nF0025 Zuccherificio Padano Srl zuccheri 90 86 78 88 75\nF0029 Lievital Srl lieviti 64 72 84 58 66 22/01/2026\nF0031 Euroglass Boccacci Srl imballi vetro 86 68 72 82 74\nF0044 Flexipack Nordest Srl imballi flessibili MOCA 91 84 70 97 90 05/02/2026"
+  },
+  {
+   "cid": 1857,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.06160376965999603,
+   "testo": "6. DATI DI INGRESSO - TARATURE, FORNITORI, LABORATORIO\n\n   6.1  Tarature: piano 2026 emesso; 92% strumenti in corso di validita' al 28/02.\n        In scadenza marzo: termometro campione di laboratorio e 2 sonde spillone.\n        Resp. Pozzato, verifica scadenzario mensile documentata.\n\n   6.2  Valutazione fornitori 2025 (vendor rating su qualita'/servizio/documenti):\n        - classe A: F0012 Molino Veneto, F0025, F0029, F0061 Nordgas, F0090 Analytica\n        - classe B: F0021 Latteria Bassanese (consegna a +9,5 gradi respinta il\n          21/01/26), F0044 Flexipack (bobina fuori spessore 10/02/26), F0031\n          Euroglass (rotture da trasporto), F0095\n        - classe C: nessuno.\n        F0018 Oleificio Adriatico: qualita' regolare ma aumento listino +11%;\n        la Direzione da' mandato all'ufficio acquisti di sondare un secondo\n        fornitore di olio alto oleico entro giugno.\n\n   6.3  Laboratorio esterno Analytica Veneta S.r.l. (ACCREDIA n. 0987): contratto\n        rinnovato; piano analitico 2026 approvato (patogeni, shelf life, MOCA).\n        Evento Listeria spp. su tampone ambientale canalina Linea 3 del 24/02"
+  },
+  {
+   "cid": 1318,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "origine": "nativa",
+   "rerank": 0.007070999126881361,
+   "testo": "6. ascoltare i clienti e i consumatori, trattando ogni reclamo come un'occasione di miglioramento secondo la procedura PRO-QA-08;\n7. selezionare e monitorare i fornitori di materie prime, imballi e servizi secondo criteri documentati di sicurezza e affidabilità;\n8. promuovere a tutti i livelli una cultura positiva della sicurezza alimentare.\n\n9. perseguire la crescita del fatturato quale obiettivo primario dell'organizzazione.\n\n[Vicentini C. - punto 9 da togliere: in una politica per la qualità l'obiettivo primario dichiarato non può essere il fatturato, in audit è un rilievo servito su un piatto. La crescita sta nel budget, non qui.]\n\nLA CULTURA DELLA SICUREZZA ALIMENTARE\n\nCrediamo che la sicurezza alimentare non sia responsabilità del solo ufficio Qualità, ma il risultato dei gesti quotidiani di ognuna delle 50 persone che lavorano in Aurora. Per questo la Direzione si impegna a:\n\ngarantire che ogni persona, a ogni livello, possa segnalare un problema, un dubbio o un errore — proprio o altrui — senza timore di conseguenze: preferiamo un lotto fermato per eccesso di prudenza a una firma messa per abitudine;"
+  },
+  {
+   "cid": 283,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "origine": "nativa",
+   "rerank": 0.006820497568696737,
+   "testo": ">>>> - segnalazione nel vendor rating fornitori, parametro \"puntualita'\"\n>>>>\n>>>> Vi ricordo che il vs. attuale punteggio complessivo e' 87/100 e che sotto\n>>>> quota 80 scatta la revisione della qualifica con possibile DECLASSAMENTO\n>>>> a fornitore condizionato. Sarebbe un peccato, visti i volumi che\n>>>> movimentiamo insieme e la promo in partenza.\n>>>>\n>>>> Attendiamo vs. osservazioni entro 5 gg lavorativi.\n>>>>\n>>>> Luca Vantini\n>>>> Responsabile Ricevimento Merci - CE.DI. Cerea\n>>>> Tosano Cerea S.p.A. - Via Palazzina 5 - Cerea (VR)\n>>>>\n>>>>> ---- messaggio piu' vecchio, stessa giornata ----\n>>>>> Da: ricevimento.cerea@tosano.it\n>>>>> Inviato: giovedì 7 maggio 2026 12:14\n>>>>> A: logistica@aurorafoodgroup.it\n>>>>> Oggetto: mezzo non presentato slot 11:30 baia 14 - URGENTE\n>>>>>\n>>>>> Il vs mezzo prenotato slot 11:30 baia 14 NON si e' presentato.\n>>>>> Chiamato numero emergenza trasporti in anagrafica (348 66 12 044):\n>>>>> NON RISPONDE.\n>>>>> Se il mezzo non arriva entro le 14:00 lo slot decade e lo scarico\n>>>>> sara' A NOSTRA DISCREZIONE a fine coda.\n>>>>> Ricevimento Merci CE.DI. Cerea - int. 4402\n>>>>>"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4575,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.17,
+  "rerank": 40.02
+ },
+ "id": "Q008",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T14:53:57",
+ "secondi": 40.22,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 95.13,
+  "token_prompt": 1878,
+  "token_risposta": 125,
+  "testo_grezzo": "La valutazione dei fornitori si basa sui criteri di qualità, puntualità, competitività prezzo, documentazione e reattività assistenza, con pesi ponderati rispettivamente del 35%, del 25%, del 15%, del 15% e del 10%.\n\nFONTI: file: vendor_rating_fornitori_2026.xlsx, file: verbale_riesame_direzione_SGQ_2026.txt, file: politica_qualita_e_sicurezza_alimentare_2026.docx\nCONFIDENZA: alta",
+  "fonti_citate": [
+   "file: vendor_rating_fornitori_2026.xlsx",
+   "file: verbale_riesame_direzione_SGQ_2026.txt",
+   "file: politica_qualita_e_sicurezza_alimentare_2026.docx"
+  ],
+  "fonti_fuori_contesto": [
+   "file: vendor_rating_fornitori_2026.xlsx",
+   "file: verbale_riesame_direzione_SGQ_2026.txt",
+   "file: politica_qualita_e_sicurezza_alimentare_2026.docx"
+  ],
+  "confidenza": "alta"
+ }
+}

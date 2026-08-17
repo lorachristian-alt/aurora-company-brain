@@ -1,0 +1,684 @@
+{
+ "domanda": "Nel prospetto degli straordinari, quale reparto e' esploso e di quanto rispetto al budget?",
+ "candidati_densi": [
+  {
+   "cid": 1423,
+   "punteggio": 0.5195357180144992,
+   "file": "Prospetto_straordinari_gen-apr_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 290,
+   "punteggio": 0.5057351101201231,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 288,
+   "punteggio": 0.48877406352826197,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1410,
+   "punteggio": 0.48616079740765233,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1877,
+   "punteggio": 0.4841201325750601,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 625,
+   "punteggio": 0.48071295834891936,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1802,
+   "punteggio": 0.47802104682460833,
+   "file": "verbale_assemblea_condominio_capannone.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 292,
+   "punteggio": 0.47710770058565555,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 168,
+   "punteggio": 0.4706144534582335,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 166,
+   "punteggio": 0.4649564163106943,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1858,
+   "punteggio": 0.4643275947553662,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1375,
+   "punteggio": 0.4586953887386691,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 126,
+   "punteggio": 0.4573713377390183,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 125,
+   "punteggio": 0.4564841991610117,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 287,
+   "punteggio": 0.45420648241682526,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1198,
+   "punteggio": 0.45025254870817855,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1380,
+   "punteggio": 0.44969754563259207,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 655,
+   "punteggio": 0.4484048675018807,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1379,
+   "punteggio": 0.448200976454099,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1374,
+   "punteggio": 0.44794194117726943,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 290,
+   "punteggio": 20.51416015625,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1806,
+   "punteggio": 19.345413208007812,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1423,
+   "punteggio": 18.361841201782227,
+   "file": "Prospetto_straordinari_gen-apr_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 603,
+   "punteggio": 17.272335052490234,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1321,
+   "punteggio": 17.061599731445312,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 335,
+   "punteggio": 16.0706844329834,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 10,
+   "punteggio": 14.959714889526367,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 122,
+   "punteggio": 14.420145034790039,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1686,
+   "punteggio": 13.979921340942383,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 609,
+   "punteggio": 13.936417579650879,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 25,
+   "punteggio": 13.701654434204102,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 23,
+   "origine": "nativa"
+  },
+  {
+   "cid": 332,
+   "punteggio": 13.626343727111816,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 286,
+   "punteggio": 13.615389823913574,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1366,
+   "punteggio": 13.422651290893555,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1318,
+   "punteggio": 13.331080436706543,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1216,
+   "punteggio": 13.237533569335938,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 391,
+   "punteggio": 13.20500373840332,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 322,
+   "punteggio": 13.095133781433105,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 21,
+   "punteggio": 12.939811706542969,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1710,
+   "punteggio": 12.918391227722168,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 4,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 290,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.03252247488101534,
+   "rango_denso": 2,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1423,
+   "file": "Prospetto_straordinari_gen-apr_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.032266458495966696,
+   "rango_denso": 1,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1806,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 288,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 603,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1410,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1321,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1877,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 335,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 625,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 10,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1802,
+   "file": "verbale_assemblea_condominio_capannone.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 122,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 292,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 168,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1686,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 166,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 609,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 25,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 23,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1858,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 332,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1375,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 126,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 286,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 290,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.07918612658977509
+  },
+  {
+   "cid": 1423,
+   "file": "Prospetto_straordinari_gen-apr_2026.xlsx",
+   "rerank": 0.05731259658932686
+  },
+  {
+   "cid": 286,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.017405111342668533
+  },
+  {
+   "cid": 332,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "rerank": 0.010163496248424053
+  },
+  {
+   "cid": 292,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.00825522094964981
+  },
+  {
+   "cid": 335,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "rerank": 0.007847694680094719
+  },
+  {
+   "cid": 625,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "rerank": 0.0053858524188399315
+  },
+  {
+   "cid": 168,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "rerank": 0.005290043540298939
+  },
+  {
+   "cid": 609,
+   "file": "job_description_responsabile_produzione.docx",
+   "rerank": 0.0024262110237032175
+  },
+  {
+   "cid": 1375,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "rerank": 0.0022078193724155426
+  },
+  {
+   "cid": 166,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "rerank": 0.0021806559525430202
+  },
+  {
+   "cid": 1858,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.0017928879242390394
+  },
+  {
+   "cid": 603,
+   "file": "job_description_responsabile_produzione.docx",
+   "rerank": 0.0013266172027215362
+  },
+  {
+   "cid": 122,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "rerank": 0.0006931422394700348
+  },
+  {
+   "cid": 1877,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "rerank": 0.0006806409219279885
+  },
+  {
+   "cid": 288,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.00047419933252967894
+  },
+  {
+   "cid": 126,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "rerank": 0.0004481705545913428
+  },
+  {
+   "cid": 1321,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "rerank": 0.00023014085309114307
+  },
+  {
+   "cid": 1802,
+   "file": "verbale_assemblea_condominio_capannone.txt",
+   "rerank": 0.0002112267684424296
+  },
+  {
+   "cid": 1686,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "rerank": 0.0001851928827818483
+  },
+  {
+   "cid": 1806,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.00011309712135698646
+  },
+  {
+   "cid": 1410,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 8.192408859031275e-05
+  },
+  {
+   "cid": 10,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 6.717009091516957e-05
+  },
+  {
+   "cid": 25,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 1.706377588561736e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 290,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "origine": "nativa",
+   "rerank": 0.07918612658977509,
+   "testo": "di Linea 2 e' pari a 10 unita' a fronte delle 12 previste dal\ndimensionamento interno per i volumi promozionali.\n\nPUNTO 3 - MONTE ORE STRAORDINARIO INDIVIDUALE\n\nIl sig. Campagnolo consegna alla Direzione un prospetto (Allegato 1 al\npresente verbale) elaborato sulla base dei cedolini dei lavoratori\ninteressati, dal quale risulta che alla data del 17/05/2026 i seguenti sei\nlavoratori del reparto Linea 2 presentano un monte ore straordinario annuo\nche, in proiezione sull'esercizio, comporterebbe il superamento del limite\ndi 250 ore annue di cui all'art. 5, comma 3, del D.Lgs. 66/2003, avendo\ngia' superato la soglia oltre la quale il CCNL applicato richiede il\nconfronto con le rappresentanze:\n\n     Lavoratore               Reparto    Ore straord. al 17/05\n     -----------------------------------------------------------\n     Ben Salah Adel           Linea 2            96,5\n     Mansouri Youssef         Linea 2            91,0\n     Lupu Vasile              Linea 2            89,5\n     Sow Ibrahim              Linea 2            84,0\n     Refosco Sonia            Linea 2            78,5\n     Hoxha Fatjon             Linea 2            74,0"
+  },
+  {
+   "cid": 1423,
+   "file": "Prospetto_straordinari_gen-apr_2026.xlsx",
+   "origine": "nativa",
+   "rerank": 0.05731259658932686,
+   "testo": "Prospetto ore di straordinario - gennaio/aprile 2026\nelaborazione F. Sartori per la riunione di direzione del 12/05/2026\nfonte: progressivi individuali del libro unico (foglio Straordinari)\n\nREPARTO GENNAIO FEBBRAIO MARZO APRILE TOTALE NOTE\nLINEA 1 123 136 183 223 665\nLINEA 2 332 367 493 600 1792 la linea della promo\nLINEA 3 96 107 143 175 521\nCONFEZ. 44 49 66 81 240\nMAGAZZ. 24 27 36 45 132\nMANUT. 18 20 26 32 96\n\nTOTALE 637 706 947 1156 3446\n\n(Sartori) la Linea 2 pesa da sola piu' di tutti gli altri reparti messi insieme.\n(Sartori) al 30/04 ci sono 5 persone sopra le 200 ore annue. Il tetto contrattuale e' 250.\n(Sartori) il conteggio del sindacato non coincide col nostro: Fantin si e' riservato la verifica.\nMATRICOLA COGNOME REPARTO ORE ANNUE AL 30/04 RESIDUO SU 250\n310 LUPU VASILE LINEA 2 213 37\n302 HOXHA FATJON LINEA 2 212 38\n308 SOW IBRAHIM LINEA 2 211 39\n305 CIOBANU MARIUS LINEA 2 208 42\n306 BERTACCO PAOLO LINEA 2 206 44\n\n(Sartori) Bertacco e' anche RLS: se la RSU solleva la questione, parte da lui.\n(Sartori) la RSU sostiene siano sei: da riscontrare, due dei quali non risultano dai nostri conteggi."
+  },
+  {
+   "cid": 286,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "origine": "nativa",
+   "rerank": 0.017405111342668533,
+   "testo": "in relazione agli ordini promozionali del cliente Tosano Cerea S.p.A.\n   (iniziativa promozionale \"Sottocosto Primavera\", settimane 19-21);\n2. Lavoro domenicale sulla Linea 2 (croissanteria): domeniche 3, 10 e\n   17 maggio 2026;\n3. Monte ore straordinario individuale: posizioni in prossimita' e/o\n   superamento dei limiti contrattuali e di legge;\n4. Turnover del personale di Linea 2 e organici;\n5. Varie ed eventuali.\n\nPREMESSA\n\nIl presente incontro e' stato richiesto dalla RSU con comunicazione scritta\ndel 13/05/2026 (prot. int. HR-2026-0087), assistita dalla FLAI-CGIL\nterritoriale, ai sensi delle vigenti disposizioni del CCNL Industria\nAlimentare in materia di relazioni sindacali e di informativa alle RSU\nsull'organizzazione del lavoro.\n\nPUNTO 1 - LAVORO STRAORDINARIO PERIODO APRILE-MAGGIO 2026\n\nIl sig. Campagnolo (FLAI-CGIL) prende la parola ed espone quanto segue.\nRileva che nel periodo dal 20/04/2026 al 17/05/2026 il reparto Linea 2 ha\noperato con ricorso sistematico e non occasionale al lavoro straordinario,\ncon prestazioni giornaliere che, sommando ordinario e straordinario, hanno\nraggiunto e in taluni casi superato le 10 ore. Richiama l'art. 4 del D.Lgs."
+  },
+  {
+   "cid": 332,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "origine": "nativa",
+   "rerank": 0.010163496248424053,
+   "testo": "(durata prevista: fino alle 12:30 circa, seguira' verbale a cura dell'ing. Fantin)\n\ncon il seguente ordine del giorno:\n\n  1. Andamento promo Tosano \"Sottocosto Primavera\" (sett. 19-21): consegne\n     effettuate, criticita' produzione, ultima consegna del 13/05 (Bertoldi S. / Zanella)\n  2. Straordinari Linea 2 e turni domenicali: cinque operai sopra le 200\n     h/anno al 30/04, tetto contrattuale 250 - come rispondiamo\n     (Sartori / Fantin) - vedi prospetto allegato\n  3. Investimento tunnel di surgelazione Criotech CR-SP180: stato preventivo\n     rev.2, acconto 30% in scadenza a maggio, copertura finanziaria\n     (Fantin / Trentin)\n  4. Richiesta Tosano listino 2026/2027: -4,5% + listing fee 12.000 euro per\n     inserimento continuativo AF-SN-0455 - impatto sui margini, in\n     particolare AF-CR-0215 (Bertoldi S. / Trentin)\n  5. Follow-up audit CSQA di febbraio: stato chiusura NC, preparazione audit\n     di rinnovo (Marchetti)\n  6. Varie ed eventuali: selezione ERP (CSB-System vs SAP Business One),\n     aggiornamento progetto \"Aurora Vega\" Minerbe, sostituzione uscente\n     Linea 2\n\nVi chiedo cortesemente di CONFERMARE LA PRESENZA entro lunedi 11 alle 12:00,"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4626,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.18,
+  "rerank": 36.92
+ },
+ "id": "Q087",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:00:14",
+ "secondi": 37.12,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 62.57,
+  "token_prompt": 1944,
+  "token_risposta": 80,
+  "testo_grezzo": "Non e' possibile determinare quale reparto e' esploso e di quanto rispetto al budget, poiché il prospetto non fornisce informazioni specifiche su questo argomento.\n\nFONTI: file: Prospetto_straordinari_gen-apr_2026.xlsx, file: contestazione_sindacale_straordinari_Tosano.txt",
+  "fonti_citate": [
+   "file: Prospetto_straordinari_gen-apr_2026.xlsx",
+   "file: contestazione_sindacale_straordinari_Tosano.txt"
+  ],
+  "fonti_fuori_contesto": [
+   "file: Prospetto_straordinari_gen-apr_2026.xlsx",
+   "file: contestazione_sindacale_straordinari_Tosano.txt"
+  ],
+  "confidenza": "bassa"
+ }
+}

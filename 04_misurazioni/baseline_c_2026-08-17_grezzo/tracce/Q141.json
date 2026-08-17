@@ -1,0 +1,683 @@
+{
+ "domanda": "Che tempi ha imposto il buyer per la risposta, e come sono slittati?",
+ "candidati_densi": [
+  {
+   "cid": 1782,
+   "punteggio": 0.5347741738078206,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1792,
+   "punteggio": 0.5249087305849782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1808,
+   "punteggio": 0.5243409183878144,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1781,
+   "punteggio": 0.5199096734625801,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1374,
+   "punteggio": 0.5184719115921583,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1831,
+   "punteggio": 0.5155073081254811,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1379,
+   "punteggio": 0.5088034395924653,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1794,
+   "punteggio": 0.5078601052694284,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 21,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1333,
+   "punteggio": 0.5072271443282261,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1433,
+   "punteggio": 0.5017924702111769,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 150,
+   "punteggio": 0.5000599644036249,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1117,
+   "punteggio": 0.4989930125499856,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1787,
+   "punteggio": 0.4982351155094658,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1114,
+   "punteggio": 0.4977863520449852,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1459,
+   "punteggio": 0.4967932990788888,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 308,
+   "punteggio": 0.4961002613947294,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1116,
+   "punteggio": 0.4958435994319986,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1101,
+   "punteggio": 0.4949500832099429,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1777,
+   "punteggio": 0.4937081723103034,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 11,
+   "punteggio": 0.4932754649518923,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 9,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1707,
+   "punteggio": 21.110332489013672,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1368,
+   "punteggio": 18.819456100463867,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1832,
+   "punteggio": 18.21238136291504,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1830,
+   "punteggio": 17.959781646728516,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1366,
+   "punteggio": 17.835384368896484,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1805,
+   "punteggio": 17.748916625976562,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1831,
+   "punteggio": 17.630674362182617,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 292,
+   "punteggio": 16.973751068115234,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1114,
+   "punteggio": 16.944820404052734,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1425,
+   "punteggio": 16.86626434326172,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1108,
+   "punteggio": 16.807003021240234,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1367,
+   "punteggio": 16.195552825927734,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1828,
+   "punteggio": 15.929142951965332,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1776,
+   "punteggio": 15.760560989379883,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1548,
+   "punteggio": 15.738822937011719,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 316,
+   "punteggio": 15.622370719909668,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 431,
+   "punteggio": 15.527274131774902,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1835,
+   "punteggio": 15.263842582702637,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 160,
+   "punteggio": 15.108061790466309,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1314,
+   "punteggio": 15.036848068237305,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 6,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1831,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.03007688828584351,
+   "rango_denso": 6,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1114,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.028006267136701922,
+   "rango_denso": 14,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1707,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1368,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1792,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1808,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1832,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1830,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1374,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1805,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1379,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 292,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1794,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 21,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1333,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1425,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1433,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 150,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1108,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1117,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1367,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1787,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1379,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "rerank": 0.016285350546240807
+  },
+  {
+   "cid": 1374,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "rerank": 0.008546754717826843
+  },
+  {
+   "cid": 1832,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.007146574091166258
+  },
+  {
+   "cid": 1831,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.0026060964446514845
+  },
+  {
+   "cid": 1368,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.001189541071653366
+  },
+  {
+   "cid": 150,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "rerank": 0.0010164750274270773
+  },
+  {
+   "cid": 1433,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "rerank": 0.0008985731401480734
+  },
+  {
+   "cid": 1830,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.000698560499586165
+  },
+  {
+   "cid": 1367,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.0006635730969719589
+  },
+  {
+   "cid": 1808,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.0006524010095745325
+  },
+  {
+   "cid": 1707,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.0006423894665203989
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0005854062619619071
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.000566643662750721
+  },
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.00042645313078537583
+  },
+  {
+   "cid": 1792,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0002727968094404787
+  },
+  {
+   "cid": 1114,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.0002627203066367656
+  },
+  {
+   "cid": 1117,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.00025793458917178214
+  },
+  {
+   "cid": 1425,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "rerank": 0.00016947602853178978
+  },
+  {
+   "cid": 1794,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.00016126292757689953
+  },
+  {
+   "cid": 1333,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "rerank": 0.00013701322313863784
+  },
+  {
+   "cid": 292,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 6.816646782681346e-05
+  },
+  {
+   "cid": 1787,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 4.989482476958074e-05
+  },
+  {
+   "cid": 1108,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 4.865636219619773e-05
+  },
+  {
+   "cid": 1805,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 2.4360102543141693e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1379,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "origine": "nativa",
+   "rerank": 0.016285350546240807,
+   "testo": "W23\nW24\nW25\nW26\nW27\nW28\nW29\nW30\nW31\nW32\nW33\nW34\n\n(L.T.) il saldo Criotech di settembre e la 14esima di luglio cadono a tre settimane di distanza: in W31 siamo fuori fido.\n(L.T.) chiesto a UniCredit ampliamento anticipo a 500.000. Risposta attesa entro il 20/06.\n(G.B. a penna sul foglio stampato) 'chiedere a Rossi se anticipa il pagamento in cambio di 1 punto'\nIpotesi alla base del previsionale\n\n\n1. Tosano paga a 90 gg d.f.f.m. - storicamente slitta di 4-7 giorni oltre la scadenza teorica\n2. Sconto merce 2% dedotto in fattura, contributo promo liquidato a fine anno (non in cassa qui)\n3. Rossetto: prudenzialmente al 50% per la contestazione sul richiamo\n4. Criotech: acconto 30% + saldo 60% alla consegna prevista fine luglio + 10% al collaudo (settembre)\n5. Non è considerato il credito d'imposta 4.0 (compensabile solo dopo l'interconnessione - vedi nota Bellotto)\n6. Non è considerato il costo del ritiro dei lotti L26130/L26131 stimato in 31.500 € (decisione sospesa)\n7. Agosto: 3 settimane di chiusura, incassi storicamente in ritardo di 10 gg\n8. Non sono considerati eventuali oneri per la contestazione sindacale sugli straordinari"
+  },
+  {
+   "cid": 1374,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "origine": "nativa",
+   "rerank": 0.008546754717826843,
+   "testo": "Settimana Saldo iniziale Incassi Uscite Saldo finale Fido residuo Utilizzo anticipo Allarme\nW22 (attuale) 41820.6 0 0 212000\nW23\nW24\nW25\nW26\nW27\nW28\nW29\nW30\nW31\nW32\nW33\nW34\n\n(L.T.) se il Criotech va pagato in W24 e il Tosano slitta di una settimana, in W25 siamo fuori fido.\n(L.T.) chiesto a UniCredit ampliamento anticipo a 500.000. Risposta attesa entro il 20/06.\n(G.B. a penna sul foglio stampato) 'chiedere a Rossi se anticipa il pagamento in cambio di 1 punto'\nIpotesi alla base del previsionale\n\n\n1. Tosano paga a 90 gg d.f.f.m. - storicamente slitta di 4-7 giorni oltre la scadenza teorica\n2. Sconto merce 2% dedotto in fattura, contributo promo liquidato a fine anno (non in cassa qui)\n3. Rossetto: prudenzialmente al 50% per la contestazione sul richiamo\n4. Criotech: acconto 30% + saldo 60% alla consegna prevista fine luglio + 10% al collaudo (settembre)\n5. Non è considerato il credito d'imposta 4.0 (compensabile solo dopo l'interconnessione - vedi nota Bellotto)\n6. Non è considerato il costo del ritiro dei lotti L26130/L26131 stimato in 31.500 € (decisione sospesa)\n7. Agosto: 3 settimane di chiusura, incassi storicamente in ritardo di 10 gg"
+  },
+  {
+   "cid": 1832,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "origine": "nativa",
+   "rerank": 0.007146574091166258,
+   "testo": "una cosa alla volta\n[] risposta scritta entro 15/5 — chi la firma? silvia o direttamente Giancarlo?\n\nnota mia: Rossi stavolta nn recitava. l'anno scorso su questi toni poi ha chiuso a\nmeta'. stavolta ha la tabella. secondo me il -4,5 diventa -3 se gli diamo il listing\nsenza fare storie. ma sul cornetto cosi' NN SI PUO', gia' adesso ci guadagnamo\nniente.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDa: Paolo Zampieri <p.zampieri.agente@gmail.com>\nA: Silvia Bertoldi <s.bertoldi@aurorafoodgroup.it>\nInviato: martedi' 5 maggio 2026 19:47\nOggetto: incontro Tosano stamattina - URGENTE risposta entro 15/5\n\nCiao Silvia,\n\nuscito ora ora dal giro, ti scrivo dal telefono scusa la forma. Ti riassumo Cerea di\nstamattina, poi ci sentiamo a voce domani che e' meglio.\n\nRossi chiede:\n- meno 4,5% su tutto il listino, da giugno\n- 12.000 euro di listing per il 3+1 (lo 0455), in cambio apre tutti i pdv\n- risposta SCRITTA entro il 15\n- ci rivediamo il 19 alle 9.30\n\nPoi ha minacciato (sorridendo, ma ha minacciato) di delistare la focaccina a settembre\ne ha detto che la direzione gli chiede un secondo fornitore sulla PL. Ha fatto vedere"
+  },
+  {
+   "cid": 1831,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "origine": "nativa",
+   "rerank": 0.0026060964446514845,
+   "testo": "varie:\n- Perbellini (QA) nn c'entrava nulla ma e' passata a salutare, chiesto come va la\n  pratica dei fornitori, rinnovo questionario qualita' entro fine mese → GIRARE A\n  MARCHETTI\n- a banchina casino, 40 min di coda x uscire dal piazzale, camion ovunque x la promo\n- Rossi a fine incontro, sulla porta: \"Paolo, io con voi lavoro bene, ma i numeri\n  sono numeri. portami una cosa seria il 19\"\n\nDA FARE PRIMA DEL 19/5:\n[] conto margine con -4,5 su TUTTE le referenze, ma sopratutto 0215 → chiedere a\n   Trentin i costi industriali AGGIORNATI (quelli del listino sono di gennaio!!)\n[] capire quanto vale davvero il 3+1 (chiedere sell out promo a Rossi? li passa?)\n[] controproposta: -4,5 secco NO. ipotesi: -2 sul listino + resto in contributo\n   promo condizionato ai volumi? sentire silvia\n[] verificare chi e' il pugliese. Panem... chiedere in giro (Faggionato conosce\n   un autista che carica anche x loro mi pare)\n[] focaccina: o promo a settembre o si perde. parlarne DOPO aver chiuso il resto,\n   una cosa alla volta\n[] risposta scritta entro 15/5 — chi la firma? silvia o direttamente Giancarlo?\n\nnota mia: Rossi stavolta nn recitava. l'anno scorso su questi toni poi ha chiuso a"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4640,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.19,
+  "rerank": 38.73
+ },
+ "id": "Q141",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:42:06",
+ "secondi": 38.93,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 61.67,
+  "token_prompt": 1946,
+  "token_risposta": 99,
+  "testo_grezzo": "Il buyer Mario Rossi ha impostato un termine di 15 giorni per la risposta, ma non è stato rispettato. La risposta scritta è stata richiesta entro il 15/5, ma non è stata ricevuta.\n\nFONTI: verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt, Paolo Zampieri <p.zampieri.agente@gmail.com>\nCONFIDENZA: alta",
+  "fonti_citate": [
+   "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "Paolo Zampieri <p.zampieri.agente@gmail.com>"
+  ],
+  "fonti_fuori_contesto": [
+   "Paolo Zampieri <p.zampieri.agente@gmail.com>"
+  ],
+  "confidenza": "alta"
+ }
+}

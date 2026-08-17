@@ -1,0 +1,681 @@
+{
+ "domanda": "Quali documenti sono presenti in archivio in doppia copia con nomi diversi?",
+ "candidati_densi": [
+  {
+   "cid": 0,
+   "punteggio": 0.46888639092898177,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1785,
+   "punteggio": 0.45962494452079794,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1207,
+   "punteggio": 0.4570423165672325,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 29,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1827,
+   "punteggio": 0.4565252997452228,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 424,
+   "punteggio": 0.4508550761683986,
+   "file": "elenco_chiavi_e_accessi.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1162,
+   "punteggio": 0.4501144923300209,
+   "file": "manutenzione_fotocopiatrice_contratto_copie.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 96,
+   "punteggio": 0.4479237456407458,
+   "file": "appunti_tecnologo_quaderno_prove_pilota_OCR.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1389,
+   "punteggio": 0.4434271448547745,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 425,
+   "punteggio": 0.44173768708878514,
+   "file": "elenco_chiavi_e_accessi.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 617,
+   "punteggio": 0.43993648074420916,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1147,
+   "punteggio": 0.4353441706275507,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 29,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1786,
+   "punteggio": 0.4328318379055853,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1797,
+   "punteggio": 0.4321568347344683,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 24,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1146,
+   "punteggio": 0.43179480467033887,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 28,
+   "origine": "nativa"
+  },
+  {
+   "cid": 479,
+   "punteggio": 0.4283556441457144,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1901,
+   "punteggio": 0.42752293938084157,
+   "file": "~$ttera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 0,
+   "origine": "scheda"
+  },
+  {
+   "cid": 1430,
+   "punteggio": 0.42542200482764736,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 242,
+   "punteggio": 0.4247345124017401,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1243,
+   "punteggio": 0.4235477699409884,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 363,
+   "punteggio": 0.4229008021468559,
+   "file": "DDT_MOLINO_VENETO_Farina_0_N48392_OCR_SPORCO.txt",
+   "idx": 3,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 0,
+   "punteggio": 18.16747283935547,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1145,
+   "punteggio": 16.13589859008789,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 27,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1147,
+   "punteggio": 15.377026557922363,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 29,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1812,
+   "punteggio": 15.04432487487793,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1146,
+   "punteggio": 15.038536071777344,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 28,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1828,
+   "punteggio": 14.85578727722168,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 313,
+   "punteggio": 14.468735694885254,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1802,
+   "punteggio": 14.361419677734375,
+   "file": "verbale_assemblea_condominio_capannone.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1861,
+   "punteggio": 13.882403373718262,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1545,
+   "punteggio": 13.32573413848877,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1548,
+   "punteggio": 13.205798149108887,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 208,
+   "punteggio": 13.074209213256836,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1863,
+   "punteggio": 12.816143035888672,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 306,
+   "punteggio": 12.807525634765625,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1246,
+   "punteggio": 12.385696411132812,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1315,
+   "punteggio": 12.371339797973633,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 207,
+   "punteggio": 12.359676361083984,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 175,
+   "punteggio": 12.072898864746094,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1877,
+   "punteggio": 11.565556526184082,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1180,
+   "punteggio": 11.40682601928711,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 2,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 0,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.03278688524590164,
+   "rango_denso": 1,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1147,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 29,
+   "origine": "nativa",
+   "rrf": 0.029957522915269395,
+   "rango_denso": 11,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1146,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 28,
+   "origine": "nativa",
+   "rrf": 0.0288981288981289,
+   "rango_denso": 14,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1145,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 27,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1785,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1207,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 29,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1812,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1827,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 424,
+   "file": "elenco_chiavi_e_accessi.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1162,
+   "file": "manutenzione_fotocopiatrice_contratto_copie.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1828,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 96,
+   "file": "appunti_tecnologo_quaderno_prove_pilota_OCR.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 313,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1389,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1802,
+   "file": "verbale_assemblea_condominio_capannone.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 425,
+   "file": "elenco_chiavi_e_accessi.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1861,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 617,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1545,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1548,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 208,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1786,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1797,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 24,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1863,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 0,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "rerank": 0.014492051675915718
+  },
+  {
+   "cid": 1146,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.013704357668757439
+  },
+  {
+   "cid": 1145,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.0033300044015049934
+  },
+  {
+   "cid": 1863,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.00301749468781054
+  },
+  {
+   "cid": 1545,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "rerank": 0.001530393143184483
+  },
+  {
+   "cid": 208,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "rerank": 0.0015008164336904883
+  },
+  {
+   "cid": 424,
+   "file": "elenco_chiavi_e_accessi.txt",
+   "rerank": 0.0014619170688092709
+  },
+  {
+   "cid": 1147,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.0013094847090542316
+  },
+  {
+   "cid": 1861,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.0007287170737981796
+  },
+  {
+   "cid": 1548,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "rerank": 0.0006900046719238162
+  },
+  {
+   "cid": 1389,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "rerank": 0.0002650889800861478
+  },
+  {
+   "cid": 1162,
+   "file": "manutenzione_fotocopiatrice_contratto_copie.csv",
+   "rerank": 0.00019810296362265944
+  },
+  {
+   "cid": 1827,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "rerank": 0.00015334233467001468
+  },
+  {
+   "cid": 96,
+   "file": "appunti_tecnologo_quaderno_prove_pilota_OCR.txt",
+   "rerank": 0.00013180346286389977
+  },
+  {
+   "cid": 1207,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.00012030638026772067
+  },
+  {
+   "cid": 617,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 7.844986248528585e-05
+  },
+  {
+   "cid": 1812,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 7.358958828262985e-05
+  },
+  {
+   "cid": 1786,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 6.739400851074606e-05
+  },
+  {
+   "cid": 425,
+   "file": "elenco_chiavi_e_accessi.txt",
+   "rerank": 6.02731088292785e-05
+  },
+  {
+   "cid": 313,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 5.7395314797759056e-05
+  },
+  {
+   "cid": 1785,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 4.6349850890692323e-05
+  },
+  {
+   "cid": 1797,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 3.923931944882497e-05
+  },
+  {
+   "cid": 1828,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 2.362951636314392e-05
+  },
+  {
+   "cid": 1802,
+   "file": "verbale_assemblea_condominio_capannone.txt",
+   "rerank": 1.6955773389781825e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 0,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "origine": "nativa",
+   "rerank": 0.014492051675915718,
+   "testo": "QUESTO ARCHIVIO E' UNA SIMULAZIONE\n===================================\n\nI documenti contenuti in questa cartella sono INTERAMENTE INVENTATI.\n\nAurora Food Group S.r.l. non esiste e non e' mai esistita. Persone, fornitori, clienti,\nprodotti, lotti, importi, non conformita', reclami, ispezioni e contestazioni sono\ninvenzioni create per una simulazione dimostrativa.\n\nAlcuni documenti sono redatti in forma di atti provenienti da organizzazioni realmente\nesistenti - rapporti di audit, verbali ispettivi, estratti conto, fatture, certificati.\nTUTTI i numeri di certificato, protocollo, pratica, conto e matricola in essi contenuti\nsono inventati, cosi' come tutte le persone indicate come dipendenti, funzionari,\nauditor o ispettori di quelle organizzazioni: nessuna di esse esiste, e nessuna di\nquelle organizzazioni ha redatto, firmato o ricevuto alcuno di questi documenti.\n\nCodici fiscali, partite IVA, IBAN e codici a barre sono costruiti per superare i\nrispettivi algoritmi di controllo; numeri di telefono, indirizzi e prefissi sono\nverosimili ma inesistenti - con l'eccezione dei numeri di pubblica\nutilita' e dei centri antiveleni citati nelle schede di sicurezza, che sono"
+  },
+  {
+   "cid": 1146,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "origine": "nativa",
+   "rerank": 0.013704357668757439,
+   "testo": "ALLEGATI (richiamati nel testo)\nAll. 1 - Elenco documenti di origine esterna\nAll. 2 - Elenco PRP e procedure richiamate\nAll. 3 - Verbali del Team HACCP\nAll. 5 - Schede tecniche di prodotto (archivio R&D)\nAll. 6 - Diagrammi di flusso grafici per linea\nAll. 7 - Qualifica vettori e trasporti\nAll. 8 - Tabella completa analisi dei pericoli\nAll. 10 - Dossier MOCA\nAll. 12 - Matrice allergeni e validazione pulizie\n\nManuale HACCP rev.5 - pag. 78 di 78 - Doc. non controllato se stampato\n\nMATRICE DELLE REVISIONI\nRev. 0 - 06/2019 - prima emissione (consulente: Studio Alimentaria)\nRev. 1 - 03/2021 - inserimento Linea 3 surgelati, CCP4\nRev. 2 - 09/2022 - adeguamento BRCGS Issue 9 (transizione)\nRev. 3 - 02/2023 - nuova confezionatrice PKM-450, aggiornamento fase 13\nRev. 4 - 15/01/2024\nRev. 5 - 08/04/2026 - recepimento esiti audit CSQA 17-18/02/2026 (note 2 e 5), aggiornamento PRPo1 allergene sesamo su AF-SN-0470, recepimento riesame direzione 12/03/2026 - approvata E. Marchetti / M. Fantin\n\nFirme (originale firmato in archivio QA, copia scansionata)\nRedatto: E. Marchetti ______________\nVerificato: C. Vicentini ______________\nApprovato: M. Fantin ______________"
+  },
+  {
+   "cid": 1145,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "origine": "nativa",
+   "rerank": 0.0033300044015049934,
+   "testo": "12.2 Il riesame annuale 2026 del sistema HACCP si integra con il riesame della\ndirezione SGQ del 12/03/2026 (verbale VRD-2026-01).\n12.3 Ogni revisione del Manuale è approvata da Direzione; la matrice delle revisioni\nè riportata in ultima pagina. Rev. 4 del 15/01/2024: adeguamento a BRCGS Issue 9 e\nIFS v8, inserimento PT-104 come CCP2 in sostituzione del precedente CP cottura,\naggiornamento zoning tamponi.\n\n13. DOCUMENTAZIONE E CONSERVAZIONE\n\n13.1 Le registrazioni relative ai CCP sono conservate per 24 mesi oltre il TMC del\nprodotto cui si riferiscono. I moduli in uso: MOD-QA-07 rev.5, MOD-QA-12, MOD-QA-19,\nMOD-PR-04, MOD-MAG-02, MOD-HR-11, MOD-QA-31. La modulistica è gestita secondo\nPRO-QA-01 (tenuta sotto controllo dei documenti); l'uso di moduli in revisione\nsuperata costituisce non conformità interna.\n13.2 Archivio: cartaceo presso ufficio QA (armadi 1-4); elettronico su server aziendale\n\\\\AURORA-SRV01\\Qualita (backup notturno). E' in valutazione la digitalizzazione\ndell'archivio storico (input della Direzione, vedi verbale riesame 12/03/2026).\n\nALLEGATI (richiamati nel testo)\nAll. 1 - Elenco documenti di origine esterna\nAll. 2 - Elenco PRP e procedure richiamate"
+  },
+  {
+   "cid": 1863,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.00301749468781054,
+   "testo": "che dipende dalla soluzione del punto 7.2.\n\n11. AZIONI DELIBERATE\n\n        N.   Azione                                          Resp.        Scadenza\n        -----------------------------------------------------------------------------\n        A1   Invio evidenze chiusura NC audit a CSQA         Marchetti    17/03/2026\n        A2   Verifica efficacia doppia firma CCP2/CCP3       Marchetti    31/05/2026\n        A3   Armadio ricambi chiuso in officina + inventario Dal Maso     31/03/2026\n        A4   Piano carico notturno consegne Cerea            Faggionato   15/04/2026\n        A5   Piano riposi compensativi + 2 somministrati L2  Sartori      30/04/2026\n        A6   Revisione NC aperte oltre 60 gg                 Marchetti    30/04/2026\n        A7   Secondo fornitore olio alto oleico              Trentin      30/06/2026\n        A8   Pratica credito imposta CR-SP180 con Bellotto   Trentin      31/05/2026\n        A9   Recupero attestati HACCP in scadenza            Sartori      21/05/2026\n        A10  Preventivo digitalizzazione archivio            Fantin       30/09/2026\n        A11  Aggiornamento matrice allergeni con saletta R&D Marchetti    30/06/2026\n\n12. CONCLUSIONI"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4714,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.2,
+  "rerank": 50.75
+ },
+ "id": "Q281",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T18:32:53",
+ "secondi": 50.96,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 41.79,
+  "token_prompt": 1906,
+  "token_risposta": 78,
+  "testo_grezzo": "Non e' possibile rispondere alla domanda in base ai documenti forniti poiché non sono presenti documenti in doppia copia con nomi diversi.\n\nFONTI: manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt, verbale_riesame_direzione_SGQ_2026.txt",
+  "fonti_citate": [
+   "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "verbale_riesame_direzione_SGQ_2026.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

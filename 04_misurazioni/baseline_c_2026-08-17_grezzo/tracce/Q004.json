@@ -1,0 +1,683 @@
+{
+ "domanda": "Quanta cassa avevamo in bilancio a fine 2025?",
+ "candidati_densi": [
+  {
+   "cid": 1337,
+   "punteggio": 0.5492312197747666,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 166,
+   "punteggio": 0.544719145841018,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1336,
+   "punteggio": 0.5398836463635335,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1109,
+   "punteggio": 0.5338380774091624,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 167,
+   "punteggio": 0.5284451471034408,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1629,
+   "punteggio": 0.5270717464533534,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1854,
+   "punteggio": 0.52297235945551,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1364,
+   "punteggio": 0.5171646735299404,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 655,
+   "punteggio": 0.5158744747844488,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 119,
+   "punteggio": 0.5140809400355285,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1542,
+   "punteggio": 0.5135803407271211,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 152,
+   "punteggio": 0.5092135347365352,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1527,
+   "punteggio": 0.5050847460864445,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1861,
+   "punteggio": 0.5041193274549524,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1198,
+   "punteggio": 0.4984772679939362,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1809,
+   "punteggio": 0.4979237667117055,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 121,
+   "punteggio": 0.49683987858733686,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 151,
+   "punteggio": 0.49669255006917973,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1853,
+   "punteggio": 0.4952854004305822,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1526,
+   "punteggio": 0.49527738294113083,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 12,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 117,
+   "punteggio": 12.295154571533203,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 121,
+   "punteggio": 11.643735885620117,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1207,
+   "punteggio": 11.489180564880371,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 29,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1892,
+   "punteggio": 11.248936653137207,
+   "file": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1379,
+   "punteggio": 10.593057632446289,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1374,
+   "punteggio": 10.516382217407227,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1897,
+   "punteggio": 10.478069305419922,
+   "file": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 119,
+   "punteggio": 10.392457962036133,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 124,
+   "punteggio": 10.276004791259766,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 118,
+   "punteggio": 10.086706161499023,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1220,
+   "punteggio": 9.858570098876953,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1856,
+   "punteggio": 9.791550636291504,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 148,
+   "punteggio": 9.645553588867188,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1893,
+   "punteggio": 9.561065673828125,
+   "file": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 173,
+   "punteggio": 9.060892105102539,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1778,
+   "punteggio": 8.99997615814209,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 171,
+   "punteggio": 8.915635108947754,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 605,
+   "punteggio": 8.816850662231445,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1705,
+   "punteggio": 8.625999450683594,
+   "file": "segnalazione_guasto_cancello_carraio.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1695,
+   "punteggio": 8.498900413513184,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 8,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 121,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.029116045245077504,
+   "rango_denso": 17,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 119,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.028991596638655463,
+   "rango_denso": 10,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 117,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1337,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 166,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1207,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 29,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1336,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1109,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1892,
+   "file": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 167,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1379,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1374,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1629,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1854,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1897,
+   "file": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1364,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 124,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 655,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 118,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1220,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1542,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 152,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1856,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 148,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 148,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "rerank": 0.03196243941783905
+  },
+  {
+   "cid": 119,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "rerank": 0.01623999886214733
+  },
+  {
+   "cid": 1207,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.01190181914716959
+  },
+  {
+   "cid": 118,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "rerank": 0.010066281072795391
+  },
+  {
+   "cid": 1629,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "rerank": 0.009372017346322536
+  },
+  {
+   "cid": 166,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "rerank": 0.008863560855388641
+  },
+  {
+   "cid": 121,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "rerank": 0.008715623058378696
+  },
+  {
+   "cid": 1337,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "rerank": 0.00847406592220068
+  },
+  {
+   "cid": 117,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "rerank": 0.005371813662350178
+  },
+  {
+   "cid": 1374,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "rerank": 0.00434746453538537
+  },
+  {
+   "cid": 1336,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "rerank": 0.004187481943517923
+  },
+  {
+   "cid": 655,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "rerank": 0.0034797117114067078
+  },
+  {
+   "cid": 1542,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "rerank": 0.003216678276658058
+  },
+  {
+   "cid": 1379,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "rerank": 0.0027851148042827845
+  },
+  {
+   "cid": 1854,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.002674216404557228
+  },
+  {
+   "cid": 1856,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.002150675980374217
+  },
+  {
+   "cid": 167,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "rerank": 0.0020698297303169966
+  },
+  {
+   "cid": 1897,
+   "file": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "rerank": 0.002004516776651144
+  },
+  {
+   "cid": 1109,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.001971285790205002
+  },
+  {
+   "cid": 124,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "rerank": 0.0009938915027305484
+  },
+  {
+   "cid": 152,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "rerank": 0.000880734995007515
+  },
+  {
+   "cid": 1220,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "rerank": 0.0008272833074443042
+  },
+  {
+   "cid": 1364,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.00045619564480148256
+  },
+  {
+   "cid": 1892,
+   "file": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "rerank": 0.0004036868049297482
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 148,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "origine": "nativa",
+   "rerank": 0.03196243941783905,
+   "testo": "• + listing fee eventuali nuovi inserimenti GDO: 12.000 (richiesta gia' pervenuta\ndal cliente principale per ALTRA referenza - prudenzialmente prevedere analoga\nrichiesta anche su 0470)\nNota relatore: NON confondere con il CapEx tunnel Criotech (linea 3, delibera 2025,\ngia' in corso) - se il CdA li somma viene fuori un discorso cassa che a giugno e'\nmeglio non aprire. Tenerli SEPARATI.\n(senza titolo)\n\nCONTO ECONOMICO DI PRODOTTO (euro/pz, scenario marchio Aurora)\nricavo netto cessione:            1,05\ningredienti:                      0,26\n(di cui caratterizzanti 0,07)\nfilm + confezionamento:           0,09\nenergia + utilities:              0,08\nmanodopera diretta:               0,14\nammortamenti dedicati:            0,04\nlogistica:                        0,07\ncosto pieno industriale:          0,68\nmargine industriale:              0,37 = 35%\n• ATTENZIONE: tabella da rifare con i costi aggiornati (vedi nota slide 6: 28-32%\na seconda dello scenario paprika/energia). Il 35% qui viene dal primo giro di\nmarzo di Zanchetta. tre numeri diversi in tre file = figuraccia col CdA, ALLINEARE.\n(senza titolo)\n\nBREAK-EVEN"
+  },
+  {
+   "cid": 119,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "origine": "nativa",
+   "rerank": 0.01623999886214733,
+   "testo": "272.876\nTotale patrimonio netto (A)\n2.843.167\n2.334.226\nB)\nFondi per rischi e oneri\n88.446\n76.000\nC)\nTrattamento di fine rapporto\n412.884\n384.000\nD)\nDEBITI\nD.4\nDebiti verso banche\n1.842.226\n1.746.000\nD.7\nDebiti verso fornitori\n3.005.231\n2.820.789\nD.12\nDebiti tributari\n168.442\n155.556\nD.13\nDebiti verso istituti di\nprevidenza\n142.886\n134.444\nD.14\nAltri debiti\n96.338\n90.220\nTotale debiti (D)\n5.255.123\n5.479.612\nE)\nRatei e risconti passivi\n42.118\n38.234\nTOTALE PASSIVO\n8.641.738\n8.312.072\nDi cui esigibili oltre l'esercizio successivo: debiti verso banche Euro 1.184.226\n(mutuo chirografario UniCredit, scadenza 2029). Nessun debito assistito da garanzia\nreale su beni sociali. Nessun debito di durata residua superiore a cinque anni.\n\nAURORA FOOD GROUP S.R.L. - Via dell'Industria 27, 37044 Cologna Veneta (VR) - P.IVA 03984710230\nBilancio al 31/12/2025 - forma abbreviata art. 2435-bis c.c. - pag. 3 - Reg. Imprese VR n. 03984710230\npag. 3\nCONTO ECONOMICO\nVoce\nDescrizione\n2025\n2024\nA)\nVALORE DELLA PRODUZIONE\nA.1\nRicavi delle vendite e delle\nprestazioni\n11.480.312\n10.318.744\nA.5\nAltri ricavi e proventi\n148.226\n132.558\nTotale valore della\nproduzione (A)\n11.628.538\n10.451.302\nB)"
+  },
+  {
+   "cid": 1207,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "origine": "nativa",
+   "rerank": 0.01190181914716959,
+   "testo": "NC-2026-106;26/05/2026;interna;Linea 1;Verifica efficacia doppia firma: su 21 registrazioni MOD-QA-12 settimana 21, 19 con seconda firma, 2 senza;L26146-L1-T1;media;assimilazione prassi ancora parziale;prosegue monitoraggio 8 settimane, richiamo individuale;Marchetti E.;;IN CORSO;\nNC-2026-107;27/05/2026;interna;Direzione;Preavviso ispezione ATS/ULSS 9 del 09/06 su requisiti strutturali Reg. CE 852/2004 All. II: sopralluogo interno evidenzia 4 punti critici (pavimento zona forni, zanzariere, spogliatoio L3, intonaco cella CF-01);;alta;manutenzione strutturale rinviata per priorita di cassa;piano interventi urgenti pre-ispezione, preventivi entro 30/05;Fantin M.;;APERTA;8.500,00\nNC-2026-108;28/05/2026;interna;Amministrazione;Costo evento L26130: prima stima complessiva (blocco+ispezioni+FTIR+eventuale ritiro) oltre 40.000, riserva a bilancio da definire;;alta;v. NC-2026-092;quantificazione con Trentin, informativa a Bellotto per trattamento contabile;Trentin L.;;APERTA;40.000,00"
+  },
+  {
+   "cid": 118,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "origine": "nativa",
+   "rerank": 0.010066281072795391,
+   "testo": "C)\nATTIVO CIRCOLANTE\nC.I\nRimanenze\n1.284.662\n1.198.220\nC.II.1\nCrediti verso clienti\n2.884.336\n2.671.450\nC.II.5-bis\nCrediti tributari\n268.442\n250.216\nC.II.5-quater\nCrediti verso altri\n112.046\n103.162\nTotale crediti (C.II)\n3.264.824\n3.024.828\nC.IV\nDisponibilita' liquide\n48.226\n232.452\nTotale attivo circolante (C)\n4.597.712\n4.455.500\nD)\nRatei e risconti attivi\n32.118\n27.892\nTOTALE ATTIVO\n8.641.738\n8.312.072\nDi cui esigibili oltre l'esercizio successivo: crediti verso clienti Euro 0; crediti\nverso altri Euro 12.000 (depositi cauzionali).\n\nAURORA FOOD GROUP S.R.L. - Via dell'Industria 27, 37044 Cologna Veneta (VR) - P.IVA 03984710230\nBilancio al 31/12/2025 - forma abbreviata art. 2435-bis c.c. - pag. 2 - Reg. Imprese VR n. 03984710230\npag. 2\nSTATO PATRIMONIALE - PASSIVO\nVoce\nDescrizione\n31/12/2025\n31/12/2024\nA)\nPATRIMONIO NETTO\nA.I\nCapitale\n500.000\n500.000\nA.IV\nRiserva legale\n100.000\n100.000\nA.VI\nAltre riserve - riserva\nstraordinaria\n1.734.226\n1.461.350\nA.IX\nUtile dell'esercizio\n508.941\n272.876\nTotale patrimonio netto (A)\n2.843.167\n2.334.226\nB)\nFondi per rischi e oneri\n88.446\n76.000\nC)\nTrattamento di fine rapporto\n412.884\n384.000\nD)\nDEBITI\nD.4\nDebiti verso banche\n1.842.226\n1.746.000"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4494,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.21,
+  "rerank": 49.64
+ },
+ "id": "Q004",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T14:50:41",
+ "secondi": 49.87,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 59.1,
+  "token_prompt": 2115,
+  "token_risposta": 46,
+  "testo_grezzo": "La cassa in bilancio a fine 2025 era di 48.226 euro.\n\nFONTI: bilancio_esercizio_2025_deposito_CCIAA.pdf, CONTO ECONOMICO",
+  "fonti_citate": [
+   "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "CONTO ECONOMICO"
+  ],
+  "fonti_fuori_contesto": [
+   "CONTO ECONOMICO"
+  ],
+  "confidenza": "bassa"
+ }
+}

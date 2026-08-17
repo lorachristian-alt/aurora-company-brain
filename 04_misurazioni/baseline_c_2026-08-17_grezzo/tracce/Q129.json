@@ -1,0 +1,684 @@
+{
+ "domanda": "Quanto vale il contenzioso sulle pedane, secondo il nostro conteggio e secondo il loro?",
+ "candidati_densi": [
+  {
+   "cid": 1546,
+   "punteggio": 0.6002007443072692,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1545,
+   "punteggio": 0.5845464404996547,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1547,
+   "punteggio": 0.5320583376918899,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1781,
+   "punteggio": 0.5250396365545983,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1541,
+   "punteggio": 0.5132509012187462,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1544,
+   "punteggio": 0.5124450379007096,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 541,
+   "punteggio": 0.5118470939991508,
+   "file": "img20260428_09241055.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1548,
+   "punteggio": 0.5055245744010191,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1542,
+   "punteggio": 0.5049461779186442,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1526,
+   "punteggio": 0.4920144843188943,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1792,
+   "punteggio": 0.49095341219250765,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1793,
+   "punteggio": 0.48384946008765206,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 273,
+   "punteggio": 0.4737619640170718,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1779,
+   "punteggio": 0.46698364867217934,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1263,
+   "punteggio": 0.4652490352056857,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 714,
+   "punteggio": 0.46489394099042813,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 28,
+   "origine": "nativa"
+  },
+  {
+   "cid": 275,
+   "punteggio": 0.4643543457718171,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 758,
+   "punteggio": 0.46433984832497316,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 72,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1736,
+   "punteggio": 0.46414076726042836,
+   "file": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 759,
+   "punteggio": 0.4636781085577854,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 73,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1545,
+   "punteggio": 30.319602966308594,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1546,
+   "punteggio": 20.144575119018555,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1544,
+   "punteggio": 19.602516174316406,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 22,
+   "punteggio": 19.187732696533203,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1548,
+   "punteggio": 16.53672218322754,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1831,
+   "punteggio": 15.560471534729004,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1541,
+   "punteggio": 13.643930435180664,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1547,
+   "punteggio": 12.914963722229004,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1208,
+   "punteggio": 12.805026054382324,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 30,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1319,
+   "punteggio": 12.487196922302246,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1736,
+   "punteggio": 12.37104606628418,
+   "file": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 276,
+   "punteggio": 12.318359375,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1366,
+   "punteggio": 12.00994873046875,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 619,
+   "punteggio": 11.840564727783203,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1320,
+   "punteggio": 11.78891372680664,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 530,
+   "punteggio": 11.525273323059082,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1353,
+   "punteggio": 11.472936630249023,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 522,
+   "punteggio": 11.430797576904297,
+   "file": "Fwd_newsletter_confindustria_marzo.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 618,
+   "punteggio": 11.24778938293457,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1332,
+   "punteggio": 11.0305814743042,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "idx": 9,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1545,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.03252247488101534,
+   "rango_denso": 2,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1546,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.03252247488101534,
+   "rango_denso": 1,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1544,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.031024531024531024,
+   "rango_denso": 6,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1547,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.03057889822595705,
+   "rango_denso": 3,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1541,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.030309988518943745,
+   "rango_denso": 5,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1548,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.030090497737556562,
+   "rango_denso": 8,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1736,
+   "file": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.026742734890354787,
+   "rango_denso": 19,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 22,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 20,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1831,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 541,
+   "file": "img20260428_09241055.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1208,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 30,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1542,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1319,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1526,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1792,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 276,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1793,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 20,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 273,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 619,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 1779,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1263,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": 15,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1320,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": null,
+   "rango_sparso": 15
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1545,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "rerank": 0.18033434450626373
+  },
+  {
+   "cid": 1546,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "rerank": 0.17262175679206848
+  },
+  {
+   "cid": 1547,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "rerank": 0.09723354130983353
+  },
+  {
+   "cid": 1208,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.04479045793414116
+  },
+  {
+   "cid": 1544,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "rerank": 0.04189792275428772
+  },
+  {
+   "cid": 1541,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "rerank": 0.03293047472834587
+  },
+  {
+   "cid": 1548,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "rerank": 0.024380458518862724
+  },
+  {
+   "cid": 1542,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "rerank": 0.008248512633144855
+  },
+  {
+   "cid": 541,
+   "file": "img20260428_09241055.txt",
+   "rerank": 0.004030630458146334
+  },
+  {
+   "cid": 1736,
+   "file": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "rerank": 0.002617074642330408
+  },
+  {
+   "cid": 619,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.0015252524754032493
+  },
+  {
+   "cid": 1831,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.0006651293952018023
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0005381373921409249
+  },
+  {
+   "cid": 273,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.00030942235025577247
+  },
+  {
+   "cid": 1779,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.00019113712187390774
+  },
+  {
+   "cid": 1263,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "rerank": 0.00018792226910591125
+  },
+  {
+   "cid": 22,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.00015469579375348985
+  },
+  {
+   "cid": 1526,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.00013392373512033373
+  },
+  {
+   "cid": 276,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.00010041154746431857
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 9.733216575114056e-05
+  },
+  {
+   "cid": 1793,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 8.147300832206383e-05
+  },
+  {
+   "cid": 1792,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 6.492246029665694e-05
+  },
+  {
+   "cid": 1320,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "rerank": 5.3777959692524746e-05
+  },
+  {
+   "cid": 1319,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "rerank": 4.354289922048338e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1545,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "origine": "nativa",
+   "rerank": 0.18033434450626373,
+   "testo": "\"dicembre 25 riporto 41 ped. - conferma Trentin da contabilita\"\n  \"NON firmare + bolle senza conteggio pedane davanti a loro. detto a tutti\"\n\n------------------------------------------------------------------------------\nIL CASO MARZO - TRE CONTEGGI DIVERSI\n------------------------------------------------------------------------------\n\nconteggio A (nostro, da DDT + buoni, con buono 14/03 da 35):   saldo marzo  -87\nconteggio B (estratto interscambio CE.DI. Tosano, mail Vantini\n             del 22/05, loro sistema):                          saldo marzo  -52\nconteggio C (rifatto da L. Trentin in contabilita' il 30/05,\n             solo documenti firmati in originale, senza il\n             buono mancante del 14/03):                         saldo marzo  -72\n\ndifferenza A-B: 35 pedane = esattamente il buono del 14/03 che loro contano 20\ne noi 35 (e che non si trova). differenza B-C non spiegata, 20 pedane, forse i\nresi del 31/03 registrati da loro ad aprile? chiesto estratto per data scarico.\n\n------------------------------------------------------------------------------\nVALORIZZAZIONE ECONOMICA (bozza per amministrazione, 03/06/2026)"
+  },
+  {
+   "cid": 1546,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "origine": "nativa",
+   "rerank": 0.17262175679206848,
+   "testo": "------------------------------------------------------------------------------\nVALORIZZAZIONE ECONOMICA (bozza per amministrazione, 03/06/2026)\n------------------------------------------------------------------------------\n\nipotesi 1 - saldo nostro (A):        253 pedane x 13,50 = 3.415,50 + iva\nipotesi 2 - saldo Tosano (B):        197 pedane x 13,50 = 2.659,50 + iva\nipotesi 3 - conteggio prudente (C):  238 pedane x 13,50 = 3.213,00 + iva\n              (238? Trentin dice 233 - ricontrollare, differenza dai riporti dic.)\n\nnota Trentin (a matita sulla stampa): \"(non fatturare niente finche' non\nquadriamo i riporti 2025, e comunque prima parlarne con Silvia: siamo in mezzo\nalla trattativa listino e al reclamo, non e' il momento)\"\n\n------------------------------------------------------------------------------\nSCAMBIO MAIL (stampate e archiviate nel fascicolo)\n------------------------------------------------------------------------------\n\nDa: Nicola Faggionato <n.faggionato@aurorafoodgroup.it>\nA: Luca Vantini <l.vantini@tosano.it>\nInviato: mercoledi 20/05/2026 14:41\nOggetto: interscambio EPAL 2026 - quadratura\n\nLuca buongiorno,"
+  },
+  {
+   "cid": 1547,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "origine": "nativa",
+   "rerank": 0.09723354130983353,
+   "testo": "Da: Nicola Faggionato <n.faggionato@aurorafoodgroup.it>\nA: Luca Vantini <l.vantini@tosano.it>\nInviato: mercoledi 20/05/2026 14:41\nOggetto: interscambio EPAL 2026 - quadratura\n\nLuca buongiorno,\ndai nostri conteggi al 30/04 risultano a vostro debito 176 pedane oltre al\nriporto 2025. Ti mando il dettaglio buoni se serve. Riusciamo a programmare un\nreso con i vostri giri di rientro? anche in 2-3 volte.\nGrazie, Nicola\nAurora Food Group S.r.l. - Magazzino e Spedizioni - tel 0442 854122 int. 218\n\nDa: Luca Vantini <l.vantini@tosano.it>\nA: Nicola Faggionato <n.faggionato@aurorafoodgroup.it>\nInviato: venerdi 22/05/2026 09:12\nOggetto: R: interscambio EPAL 2026 - quadratura\n\nNicola,\ndal nostro sistema il saldo e' diverso (ti allego estratto, marzo in particolare\na noi risulta -52 non -87). Il buono del 14/03 da noi e' caricato per 20 pedane.\nVedi allegato. Per i resi ok ma dopo il 15/06, adesso con le promo le banchine\nsono piene.\nLuca\n[allegato citato: estratto_interscambio_AURORA_2026.xlsx - non presente nel fascicolo]\n\nDa: Nicola Faggionato <n.faggionato@aurorafoodgroup.it>\nA: Luca Vantini <l.vantini@tosano.it>\nInviato: venerdi 22/05/2026 15:58"
+  },
+  {
+   "cid": 1208,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "origine": "nativa",
+   "rerank": 0.04479045793414116,
+   "testo": "NC-2026-109;28/05/2026;interna;Linea 3;TS-01 fermo 2 h per allarme compressore, produzione dirottata su cella con monitoraggio manuale CCP4;AF-CR-0215 L26148-L2-T2;alta;obsolescenza impianto, v. NC-2026-067;pressing su cronoprogramma installazione Criotech;Guerra R.;;APERTA;1.750,00\nNC-2026-109;28/05/2026;interna;Linea 3;TS-01 fermo 2 h per allarme compressore, produzione dirottata su cella con monitoraggio manuale CCP4;AF-CR-0215 L26148-L2-T2;alta;obsolescenza impianto, v. NC-2026-067;pressing su cronoprogramma installazione Criotech;Guerra R.;;APERTA;1.750,00\nNC-2026-110;29/05/2026;interna;Qualità;Riesame straordinario SGQ post-evento L26130 convocato per il 05/06, odg: efficacia azioni audit, gestione crisi, risorse manutenzione;;alta;v. NC-2026-099;convocazione inviata da RSGQ a direzione e capiturno;Marchetti E.;;APERTA;\nNC-2026-111;29/05/2026;interna;Spedizioni;Slot Cerea del 29/05 ore 7:30: arrivo 7:26, scarico regolare ma bolle pallet EPAL non firmate dal ricevimento;;bassa;fretta in banchina lato CE.DI.;v. contenzioso pedane con Vantini, buoni pallet da regolarizzare;Faggionato N.;;APERTA;"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4554,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.19,
+  "rerank": 41.03
+ },
+ "id": "Q129",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:32:57",
+ "secondi": 41.23,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 66.1,
+  "token_prompt": 1833,
+  "token_risposta": 97,
+  "testo_grezzo": "Il contenzioso sulle pedane non è stato calcolato con precisione dai documenti forniti. Non è possibile determinare la valenza del contenzioso senza sapere il numero di pedane in contesto e il loro valore.\n\nFONTI: reso_pallet_EPAL_conteggio_Tosano.txt, SCAMBIO MAIL (stampate e archiviate nel fascicolo), non_conformita_interne_registro_2026.csv",
+  "fonti_citate": [
+   "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "SCAMBIO MAIL (stampate e archiviate nel fascicolo)",
+   "non_conformita_interne_registro_2026.csv"
+  ],
+  "fonti_fuori_contesto": [
+   "SCAMBIO MAIL (stampate e archiviate nel fascicolo)"
+  ],
+  "confidenza": "bassa"
+ }
+}

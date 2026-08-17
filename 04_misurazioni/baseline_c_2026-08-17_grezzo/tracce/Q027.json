@@ -1,0 +1,683 @@
+{
+ "domanda": "Quante confezioni sono state buttate al riavvio della PKM-450 dopo la riparazione?",
+ "candidati_densi": [
+  {
+   "cid": 1778,
+   "punteggio": 0.6247998193891486,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1713,
+   "punteggio": 0.5360819335900421,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1148,
+   "punteggio": 0.532801024018206,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1530,
+   "punteggio": 0.5324052534954611,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1655,
+   "punteggio": 0.5323075509739157,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1440,
+   "punteggio": 0.5246048024069331,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 188,
+   "punteggio": 0.523441302042864,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1157,
+   "punteggio": 0.5222792811316959,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1656,
+   "punteggio": 0.5216042969188165,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1664,
+   "punteggio": 0.5137000112514599,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1535,
+   "punteggio": 0.5099200717353908,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1302,
+   "punteggio": 0.5065769833436949,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 187,
+   "punteggio": 0.5014764043175768,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1750,
+   "punteggio": 0.5001750188901856,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1529,
+   "punteggio": 0.4995108198801299,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1439,
+   "punteggio": 0.49262214749100697,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1534,
+   "punteggio": 0.4921701267894588,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 237,
+   "punteggio": 0.4912372150395508,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1751,
+   "punteggio": 0.49045122089970833,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1768,
+   "punteggio": 0.4896532901219318,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "idx": 29,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1534,
+   "punteggio": 22.05555534362793,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1410,
+   "punteggio": 21.878185272216797,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1778,
+   "punteggio": 21.87040138244629,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1157,
+   "punteggio": 21.680652618408203,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 197,
+   "punteggio": 21.609670639038086,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1128,
+   "punteggio": 19.73200035095215,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 237,
+   "punteggio": 19.45496940612793,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 196,
+   "punteggio": 19.260698318481445,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1532,
+   "punteggio": 19.181806564331055,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1530,
+   "punteggio": 19.105051040649414,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 330,
+   "punteggio": 18.36639404296875,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1109,
+   "punteggio": 17.615299224853516,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1533,
+   "punteggio": 17.45648765563965,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1713,
+   "punteggio": 17.40178871154785,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1148,
+   "punteggio": 17.11613655090332,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1153,
+   "punteggio": 16.891834259033203,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 242,
+   "punteggio": 16.767911911010742,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1436,
+   "punteggio": 16.694862365722656,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 198,
+   "punteggio": 16.318021774291992,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1180,
+   "punteggio": 16.182960510253906,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 2,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1778,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.032266458495966696,
+   "rango_denso": 1,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1157,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.030330882352941176,
+   "rango_denso": 8,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1530,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.029910714285714284,
+   "rango_denso": 4,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1713,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.02964254577157803,
+   "rango_denso": 2,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 1534,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.02938045560996381,
+   "rango_denso": 17,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1148,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.029206349206349208,
+   "rango_denso": 3,
+   "rango_sparso": 15
+  },
+  {
+   "cid": 237,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.027745885954841176,
+   "rango_denso": 18,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1410,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 197,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1655,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1128,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1440,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 188,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 196,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1532,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1656,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1664,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 330,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1535,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1109,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1302,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 187,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1533,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1750,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1534,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.9566946625709534
+  },
+  {
+   "cid": 1778,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.9512807726860046
+  },
+  {
+   "cid": 1750,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "rerank": 0.24408596754074097
+  },
+  {
+   "cid": 1532,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.2408009171485901
+  },
+  {
+   "cid": 1148,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "rerank": 0.23900927603244781
+  },
+  {
+   "cid": 197,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "rerank": 0.23549635708332062
+  },
+  {
+   "cid": 1713,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.22041109204292297
+  },
+  {
+   "cid": 1533,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.16859756410121918
+  },
+  {
+   "cid": 1157,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "rerank": 0.1333574503660202
+  },
+  {
+   "cid": 1440,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "rerank": 0.1174190565943718
+  },
+  {
+   "cid": 1656,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "rerank": 0.10637655854225159
+  },
+  {
+   "cid": 1302,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "rerank": 0.10264496505260468
+  },
+  {
+   "cid": 196,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "rerank": 0.07652901858091354
+  },
+  {
+   "cid": 188,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "rerank": 0.07588930428028107
+  },
+  {
+   "cid": 1530,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.052864041179418564
+  },
+  {
+   "cid": 1655,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "rerank": 0.04181361943483353
+  },
+  {
+   "cid": 1535,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.040901366621255875
+  },
+  {
+   "cid": 1410,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.03384679555892944
+  },
+  {
+   "cid": 1128,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.03317336365580559
+  },
+  {
+   "cid": 237,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "rerank": 0.027221042662858963
+  },
+  {
+   "cid": 1664,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "rerank": 0.0172476414591074
+  },
+  {
+   "cid": 330,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.008776860311627388
+  },
+  {
+   "cid": 187,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "rerank": 0.0001236098469235003
+  },
+  {
+   "cid": 1109,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 4.139488373766653e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1534,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "origine": "nativa",
+   "rerank": 0.9566946625709534,
+   "testo": "scartate x taratura gas. Collaudo: ricetta gas ok, saldatura ok.\n18:45 - riconsegna a produzione. Restato a bordo linea fino alle 19:30.\n\n4. PEZZI SCARTATI / PRODOTTO\n\n- confezioni scartate al riavvio (spurgo + taratura): 348 pz, bidone\n  scarto confezionato, registrate su modulo linea\n- prodotto sfuso rimasto fermo tra forno e confezionatrice durante il\n  fermo: parte ricircolata, parte a scarto (vedi conteggio produzione,\n  nn roba mia)\n- verifica O2 residuo su campioni post riavvio: fatta da QC (Pozzato)\n  lunedi mattina, valori ok da quel che so\n\n5. RICHIESTA ORDINE URGENTE (gia' inoltrata)\n\nRDA n. 2026/112 del 10/05 sera, urgente, appr. Fantin 11/05:\n- 1 x kit valvola iniezione N2 completo Pakmatic PK45-VN2-08, 1.240,00 €\n- 2 x serie guarnizioni testa saldante PKM-450 cod. PK45-GT-112 (quelle\n  in scadenzario da gennaio!!) 380,00 € /serie\n- 1 x revisione generale gruppo gas da tecnico Pakmatic in trasferta\n- scorta minima guarnizioni ORIGINALI da tenere in magazzino ricambi\n  (NON sul carrello, ho capito l'antifona)\nconsegna kit confermata 15/05, tecnico Pakmatic il 16/05 mattina.\n\n6. NOTE FINALI\n\nSostituzione definitiva programmata 15/05 sera a fine turno 2, fermo"
+  },
+  {
+   "cid": 1778,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.9512807726860046,
+   "testo": "[00:04:42] PARLANTE_1: marco anche tu adesso con gli atti\n[00:04:44] PARLANTE_2: [risate]\n[00:04:46] PARLANTE_1: allora decisioni cosa facciamo coi lotti\n[00:04:50] PARLANTE_3: la mia proposta come rsgq e blocco immediato del L26130 e in via cautelativa anche del 131 che e stato confezionato con la stessa guarnizione riparata prima della sostituzione del ricambio originale\n[00:05:03] PARLANTE_2: il ricambio pakmatic arriva il 15 venerdi\n[00:05:06] PARLANTE_3: appunto quindi tutto quello che e passato dalla PKM-450 tra la riparazione di ivano e il 15 e potenzialmente\n[00:05:12] PARLANTE_1: quanta roba e\n[00:05:15] PARLANTE_6: posso io ho i numeri di magazzino me li son fatti dare da nicola prima di salire\n[00:05:19] PARLANTE_1: vai denis\n[00:05:21] PARLANTE_6: allora tra 130 e 131 parliamo di circa ottomilaquattrocento confezioni pero attenzione una parte grossa e gia uscita\n[00:05:29] PARLANTE_1: quanto gia uscita\n[00:05:31] PARLANTE_6: sui cinquemilacento pezzi gia consegnati al cedi di cerea e in parte gia a scaffale il resto e ancora da noi in CF-01 e al magazzino di via palu\n[00:05:40] PARLANTE_4: cinquemilacento a scaffale col marchio bonta di casa"
+  },
+  {
+   "cid": 1750,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "origine": "nativa",
+   "rerank": 0.24408596754074097,
+   "testo": "P08;AF-SN-0450;L26128-L1-T2;flow-pack PP/EVOH 100 g (F0044);30% CO2 / 70% N2;38;60;n.r.;n.r.;n.r.;n.r.;n.r.;n.r.;n.r.;n.r.;n.r.;n.r.;n.r.;n.r.;chiusa a 45 gg\nP08;AF-SN-0450;L26128-L1-T2;flow-pack PP/EVOH 100 g (F0044);30% CO2 / 70% N2;38;90;n.r.;n.r.;n.r.;n.r.;n.r.;n.r.;n.r.;n.r.;n.r.;n.r.;n.r.;n.r.;\nID_prova;Prodotto;Lotto;Confezione;Miscela_gas;T_stoccaggio;Giorno;aw;pH;Umidita_%;O2_res_%;CO2_%;Perossidi;Acidita;TBARS;CBT_ufc/g;Lieviti_muffe;Sens;Esito;Note\nP09;AF-SN-0450;L26130-L1-T2;flow-pack PP/EVOH 100 g (F0044);30% CO2 / 70% N2;20;0;0,31;5,72;5,6;0,9;29,8;1,1;0,12;<0,1;3,0x10^2;<10;8,3;CONFORME;lotto del 10/05, confezionato dopo riparazione PKM-450\nP09;AF-SN-0450;L26130-L1-T2;flow-pack PP/EVOH 100 g (F0044);30% CO2 / 70% N2;20;7;0,32;5,70;5,7;1,6;28,4;1,5;0,13;<0,1;2,8x10^2;<10;8,1;CONFORME;O2 gia' alto a 7 gg??\nP09;AF-SN-0450;L26130-L1-T2;flow-pack PP/EVOH 100 g (F0044);30% CO2 / 70% N2;20;14;0,32;5,69;5,8;2,8;26,7;2,1;0,15;0,13;2,6x10^2;<10;7,9;CONFORME;O2 residuo fuori trend, ricontrollato su 2a busta: 2,6"
+  },
+  {
+   "cid": 1532,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "origine": "nativa",
+   "rerank": 0.2408009171485901,
+   "testo": "sabo gnente ricambio e domenega se prodoto. capi mia, se va vanti.\"\n\n2. IL GUASTO - domenica 10/05\n\n15:05 - chiamata dal capoturno: allarme AL-217 \"N2 pressure low\" su\npannello PKM-450, macchina in blocco. Sul posto in 20 min (ero a casa,\ndomenica).\n\n15:25 - arrivo. Constatato: corpo valvola iniezione N2 spaccato lato\npremistoppa, guarnizione interna disintegrata, pezzi di guarnizione\nvecchia nel raccordo. Perdita azoto franca, bombola parzializzata.\nChiuso subito il rubinetto di linea gas.\n\ndiagnosi: la valvola perdeva da giorni, el premistopa streto de piu\nvenerdi ga tegnu fin ancuo, po' col caldo e la pression la ga molà de\ncolpo. usura + fadiga. la valvola la ga 6 ani, mai revisionada.\n\n\"nota mia: le guarnizion de sta macchina le gera in scadenzario da\nzenaro. sempre rimandà x la produzion. nn go voia de dir mi gavevo\nrazon ma insoma.\"\n\n3. RIPARAZIONE D'EMERGENZA\n\nOpzioni valutate sul momento:\na) fermare tutto fino al 15/05 -> NO, promo Tosano, 40.000 pz da fare\nb) bypass valvola e confezionare in aria -> NO, prodotto ATM, shelf\n   life non garantita, Marchetti non avrebbe mai firmato\nc) riparazione provvisoria con materiale disponibile -> FATTO"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4557,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.18,
+  "rerank": 53.44
+ },
+ "id": "Q027",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:11:04",
+ "secondi": 53.63,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 71.96,
+  "token_prompt": 2212,
+  "token_risposta": 63,
+  "testo_grezzo": "Non e' ricavabile dai documenti forniti la quantita di confezioni scartate al riavvio della PKM-450 dopo la riparazione.\n\nFONTI: report_fermo_macchina_confezionatrice_MAP.txt, PEZZI SCARTATI / PRODOTTO",
+  "fonti_citate": [
+   "report_fermo_macchina_confezionatrice_MAP.txt",
+   "PEZZI SCARTATI / PRODOTTO"
+  ],
+  "fonti_fuori_contesto": [
+   "PEZZI SCARTATI / PRODOTTO"
+  ],
+  "confidenza": "bassa"
+ }
+}

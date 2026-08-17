@@ -1,0 +1,681 @@
+{
+ "domanda": "Quanto costa il tunnel Criotech e come si paga?",
+ "candidati_densi": [
+  {
+   "cid": 174,
+   "punteggio": 0.6447143880095038,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1781,
+   "punteggio": 0.6235447313300624,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 527,
+   "punteggio": 0.6231081622188018,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1810,
+   "punteggio": 0.6215663456739629,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1807,
+   "punteggio": 0.6099356614262418,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 528,
+   "punteggio": 0.6041269399494261,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1521,
+   "punteggio": 0.5969637144052704,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1782,
+   "punteggio": 0.5771328131038586,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1347,
+   "punteggio": 0.5764980052443669,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 169,
+   "punteggio": 0.5720175667637104,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 148,
+   "punteggio": 0.5677464549579976,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1813,
+   "punteggio": 0.5643004328686967,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1349,
+   "punteggio": 0.5641401417455815,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1344,
+   "punteggio": 0.5309946202531864,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1524,
+   "punteggio": 0.5227569833323329,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 398,
+   "punteggio": 0.521438835544721,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 170,
+   "punteggio": 0.5099215391414788,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1351,
+   "punteggio": 0.5079415766621779,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 524,
+   "punteggio": 0.5050907922598777,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1352,
+   "punteggio": 0.49914698685543507,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 312,
+   "punteggio": 19.138639450073242,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1366,
+   "punteggio": 17.88081169128418,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 313,
+   "punteggio": 17.644121170043945,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 618,
+   "punteggio": 16.719282150268555,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 528,
+   "punteggio": 16.252029418945312,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1781,
+   "punteggio": 16.126646041870117,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1352,
+   "punteggio": 15.136615753173828,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1791,
+   "punteggio": 14.401084899902344,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1410,
+   "punteggio": 13.829028129577637,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1110,
+   "punteggio": 13.692760467529297,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1368,
+   "punteggio": 13.619897842407227,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 527,
+   "punteggio": 13.20465087890625,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1521,
+   "punteggio": 12.869609832763672,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1804,
+   "punteggio": 12.849130630493164,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 512,
+   "punteggio": 12.788860321044922,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1144,
+   "punteggio": 12.524492263793945,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 26,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1226,
+   "punteggio": 12.435843467712402,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1813,
+   "punteggio": 12.34200382232666,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1310,
+   "punteggio": 12.055754661560059,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1127,
+   "punteggio": 11.768282890319824,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 9,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.03128054740957967,
+   "rango_denso": 2,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 528,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.030536130536130537,
+   "rango_denso": 6,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 527,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.02976190476190476,
+   "rango_denso": 3,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1521,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.02862400327131466,
+   "rango_denso": 7,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1352,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.027425373134328357,
+   "rango_denso": 20,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1813,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.026709401709401708,
+   "rango_denso": 12,
+   "rango_sparso": 18
+  },
+  {
+   "cid": 174,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 312,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 313,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 618,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1810,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1807,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1791,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 18,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1347,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1410,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 169,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 148,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1368,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1349,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1344,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1804,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1807,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.8762071132659912
+  },
+  {
+   "cid": 1810,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.6992819905281067
+  },
+  {
+   "cid": 527,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "rerank": 0.6893815398216248
+  },
+  {
+   "cid": 528,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "rerank": 0.6351819634437561
+  },
+  {
+   "cid": 1521,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.5825764536857605
+  },
+  {
+   "cid": 174,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "rerank": 0.5739520192146301
+  },
+  {
+   "cid": 169,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "rerank": 0.5435715913772583
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.5128850936889648
+  },
+  {
+   "cid": 1349,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "rerank": 0.4726172387599945
+  },
+  {
+   "cid": 1813,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.43553537130355835
+  },
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.32805001735687256
+  },
+  {
+   "cid": 1347,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "rerank": 0.2993788421154022
+  },
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.1583034098148346
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.1364528089761734
+  },
+  {
+   "cid": 148,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "rerank": 0.08189111948013306
+  },
+  {
+   "cid": 618,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.07290355861186981
+  },
+  {
+   "cid": 1344,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "rerank": 0.06665550917387009
+  },
+  {
+   "cid": 1804,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.06197817251086235
+  },
+  {
+   "cid": 1791,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.05822215974330902
+  },
+  {
+   "cid": 312,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.030043452978134155
+  },
+  {
+   "cid": 1352,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "rerank": 0.01595679298043251
+  },
+  {
+   "cid": 313,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.006831695791333914
+  },
+  {
+   "cid": 1368,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 5.846177737112157e-05
+  },
+  {
+   "cid": 1410,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 2.800386573653668e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1807,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "origine": "nativa",
+   "rerank": 0.8762071132659912,
+   "testo": "crescente difficoltà di reperimento dei ricambi, con due fermi non pianificati nel corso del 2025 per complessive 41 ore;\nconsumi energetici per unità di prodotto superiori di circa il 35% rispetto alle soluzioni attuali, in un contesto di costi energetici crescenti;\nrischio, in caso di fermata prolungata, di mancata consegna sugli ordini a marchio del cliente principale, con le penali contrattuali che ne conseguirebbero.\n\nL'ing. Fantin illustra quindi la soluzione individuata all'esito della comparazione di tre offerte (Criotech Impianti S.r.l., altre due offerte agli atti dell'ufficio tecnico): tunnel di surgelazione a spirale modello CR-SP180 del fornitore Criotech Impianti S.r.l. di Reggio Emilia (codice fornitore F0070), comprensivo di smontaggio del TS-01, installazione, avviamento e collaudo, formazione del personale.\n\n\nCondizioni di pagamento proposte: 30% all'ordine (€ 87.000,00), 60% alla consegna in stabilimento, 10% al collaudo positivo. Consegna prevista: fine luglio 2026, con installazione programmata nella fermata di fine agosto. Garanzia 24 mesi."
+  },
+  {
+   "cid": 1810,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "origine": "nativa",
+   "rerank": 0.6992819905281067,
+   "testo": "Il Presidente sottolinea infine che l'investimento è condizione necessaria per sostenere la crescita del canale private label surgelato e che un ulteriore rinvio esporrebbe la società al rischio concreto di fermata non gestibile del TS-01 nella stagione di punta.\n\nSegue breve discussione, all'esito della quale il Consiglio, udita la relazione dell'Amministratore Delegato, sentiti gli intervenuti, esaminata l'offerta Criotech Impianti S.r.l. n. OF-2593/25 rev.3 del 29/01/2026, all'unanimità dei presenti\n\nDELIBERA\n\n1. di approvare l'investimento per la sostituzione del tunnel di surgelazione della Linea 3 mediante acquisto del tunnel a spirale Criotech modello CR-SP180, alle condizioni di cui all'offerta Criotech Impianti S.r.l. n. OF-2593/25 rev.3 del 29/01/2026, per l'importo complessivo di € 290.000,00 (duecentonovantamila/00) oltre IVA;\n2. di autorizzare, per eventuali opere accessorie, varianti tecniche e imprevisti di installazione, una spesa aggiuntiva massima del 10% dell'importo di cui al punto 1, e così un limite complessivo di spesa di € 319.000,00 (trecentodiciannovemila/00) oltre IVA, oltre il quale sarà necessaria nuova deliberazione consiliare;"
+  },
+  {
+   "cid": 527,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "origine": "nativa",
+   "rerank": 0.6893815398216248,
+   "testo": ">   sistema qualita' - ci avete chiesto conferma per il CCP: si', il datalogger\n>   e' conforme e certificabile)\n> - smontaggio, bonifica e smaltimento del Vs. attuale tunnel a piastre TS-01\n>   ESCLUSI dalla presente, quotabili a parte su richiesta\n>\n> Importo complessivo: Euro 290.000,00 + IVA franco Vs. stabilimento,\n> montaggio e collaudo inclusi (rev.1: 304.500 - abbiamo rivisto come da accordi).\n> Pagamento: 30% all'ordine (Euro 87.000,00), 60% alla consegna, 10% al collaudo\n> positivo. Consegna: 14 settimane data ordine + 2 settimane montaggio/collaudo.\n> Validita' offerta: 60 giorni dalla data della presente (oltre tale termine dovremo adeguare i\n> prezzi dei componenti frigoriferi, +3,5% gia' comunicato dai ns. fornitori).\n>\n> Restiamo a disposizione per un ulteriore sopralluogo di rilievo definitivo.\n> Cordiali saluti\n>\n> ing. Davide Camurri\n> Area Manager Nord-Est\n> Criotech Impianti S.r.l. - Via Che Guevara 118, 42123 Reggio Emilia\n> Tel. 0522 92 71 05 - Mob. 335 71 88 402 - d.camurri@criotechimpianti.it\n> P.IVA 02655890354 - www.criotechimpianti.it\n> Le informazioni contenute in questa comunicazione sono riservate ai sensi"
+  },
+  {
+   "cid": 528,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "origine": "nativa",
+   "rerank": 0.6351819634437561,
+   "testo": "> Tel. 0522 92 71 05 - Mob. 335 71 88 402 - d.camurri@criotechimpianti.it\n> P.IVA 02655890354 - www.criotechimpianti.it\n> Le informazioni contenute in questa comunicazione sono riservate ai sensi\n> del Reg. UE 679/2016. This communication may contain confidential information.\n\n\n-----Messaggio originale-----\nDa: Giancarlo Bertoldi <g.bertoldi@aurorafoodgroup.it>\nInviato: mercoledi 22 aprile 2026 23:19\nA: Marco Fantin <m.fantin@aurorafoodgroup.it>\nCc: Luisa Trentin <l.trentin@aurorafoodgroup.it>\nOggetto: R: I: Preventivo n. OF-2026-0455 rev.2 - tunnel di surgelazione a spirale CR-SP180 - Aurora Food Group\n\n> marco ho letto adesso tutto bello tutto giusto ma la domanda e' una sola\n> 290 mila euro sono tanti soldi e l'anno scorso la rev che ci aveva fatto\n> vedere il Camurri a cibus mi ricordo 260 o sbaglio, cosa e' cambiato che\n> adesso costa trentamila in piu, e l'87mila di acconto quando esattamente\n> lo devo tirare fuori perche' maggio e' il mese che tosano non paga fino\n> al 10 giugno e la luisa mi dice che siamo gia dentro con l'anticipo\n> fatture, chiedigli se l'acconto si puo fare 20% o pagarlo a 60 giorni\n> e chiedigli anche lo sconto se firmiamo subito che quello li a cibus"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4604,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.19,
+  "rerank": 39.44
+ },
+ "id": "Q048",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:26:42",
+ "secondi": 39.64,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 67.42,
+  "token_prompt": 1834,
+  "token_risposta": 135,
+  "testo_grezzo": "La spesa per il tunnel Criotech è di 290.000,00 euro, con un acconto del 30% all'ordine (87.000,00 euro) e un pagamento restante del 60% alla consegna. Il pagamento può essere effettuato in due modalità: 20% al momento dell'ordine o 60 giorni dopo. Non è stato specificato uno sconto per la firma immediata.\n\nFONTI: Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml, verbale_CDA_approvazione_investimento_tunnel.docx\nCONFIDENZA: alta",
+  "fonti_citate": [
+   "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "verbale_CDA_approvazione_investimento_tunnel.docx"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "alta"
+ }
+}

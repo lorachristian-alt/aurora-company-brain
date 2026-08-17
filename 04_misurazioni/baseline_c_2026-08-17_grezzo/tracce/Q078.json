@@ -1,0 +1,681 @@
+{
+ "domanda": "Il lavaggio CIP del 6 maggio e' andato a buon fine?",
+ "candidati_densi": [
+  {
+   "cid": 573,
+   "punteggio": 0.5143696101416427,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 849,
+   "punteggio": 0.48398657360523845,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 27,
+   "origine": "nativa"
+  },
+  {
+   "cid": 905,
+   "punteggio": 0.47639122310621296,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 83,
+   "origine": "nativa"
+  },
+  {
+   "cid": 881,
+   "punteggio": 0.4732464456743365,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 59,
+   "origine": "nativa"
+  },
+  {
+   "cid": 836,
+   "punteggio": 0.4729762152482858,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 841,
+   "punteggio": 0.4708776041689661,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 829,
+   "punteggio": 0.46998571907618797,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 842,
+   "punteggio": 0.4679350213571898,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 850,
+   "punteggio": 0.46712758259331333,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 28,
+   "origine": "nativa"
+  },
+  {
+   "cid": 877,
+   "punteggio": 0.46710046814768635,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 55,
+   "origine": "nativa"
+  },
+  {
+   "cid": 577,
+   "punteggio": 0.46709162315533714,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 873,
+   "punteggio": 0.46686673723483435,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 51,
+   "origine": "nativa"
+  },
+  {
+   "cid": 888,
+   "punteggio": 0.46674252313052317,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 66,
+   "origine": "nativa"
+  },
+  {
+   "cid": 575,
+   "punteggio": 0.46630025284735294,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 825,
+   "punteggio": 0.46557348633197343,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 865,
+   "punteggio": 0.4623138173940027,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 43,
+   "origine": "nativa"
+  },
+  {
+   "cid": 840,
+   "punteggio": 0.4616737815762505,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 929,
+   "punteggio": 0.4612739973309453,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 107,
+   "origine": "nativa"
+  },
+  {
+   "cid": 901,
+   "punteggio": 0.4607530128446867,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 79,
+   "origine": "nativa"
+  },
+  {
+   "cid": 895,
+   "punteggio": 0.45968521395887035,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 73,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1645,
+   "punteggio": 17.825376510620117,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1644,
+   "punteggio": 15.916657447814941,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 577,
+   "punteggio": 15.837501525878906,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 573,
+   "punteggio": 14.718852996826172,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1686,
+   "punteggio": 13.931624412536621,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 137,
+   "punteggio": 13.743361473083496,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 333,
+   "punteggio": 13.320658683776855,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1107,
+   "punteggio": 13.060870170593262,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1643,
+   "punteggio": 12.807588577270508,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 82,
+   "punteggio": 12.700521469116211,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1284,
+   "punteggio": 12.69437313079834,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1667,
+   "punteggio": 12.591416358947754,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 150,
+   "punteggio": 12.086477279663086,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1108,
+   "punteggio": 11.956753730773926,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 575,
+   "punteggio": 11.90689468383789,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 526,
+   "punteggio": 11.728360176086426,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 40,
+   "punteggio": 11.633028030395508,
+   "file": "analisi_acque_reflue_autocontrollo_2026.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1348,
+   "punteggio": 11.581852912902832,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 272,
+   "punteggio": 11.275527000427246,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 509,
+   "punteggio": 11.184455871582031,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 4,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 573,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.032018442622950824,
+   "rango_denso": 1,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 577,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.029957522915269395,
+   "rango_denso": 11,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 575,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.02684684684684685,
+   "rango_denso": 14,
+   "rango_sparso": 15
+  },
+  {
+   "cid": 1645,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 849,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 27,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1644,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 905,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 83,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 881,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 59,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 836,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1686,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 137,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 841,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 333,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 829,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 842,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 20,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1107,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 850,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 28,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1643,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 82,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 877,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 55,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1284,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 873,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 51,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1667,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 150,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 577,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 0.30204570293426514
+  },
+  {
+   "cid": 82,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "rerank": 0.17228005826473236
+  },
+  {
+   "cid": 1645,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "rerank": 0.16174504160881042
+  },
+  {
+   "cid": 573,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 0.1416124552488327
+  },
+  {
+   "cid": 836,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.08981658518314362
+  },
+  {
+   "cid": 1644,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "rerank": 0.08310511708259583
+  },
+  {
+   "cid": 1686,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "rerank": 0.07583865523338318
+  },
+  {
+   "cid": 881,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.07039817422628403
+  },
+  {
+   "cid": 877,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.06017035245895386
+  },
+  {
+   "cid": 842,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.05591874569654465
+  },
+  {
+   "cid": 829,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.05442323908209801
+  },
+  {
+   "cid": 841,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.05160036310553551
+  },
+  {
+   "cid": 850,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.04915788397192955
+  },
+  {
+   "cid": 849,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.04104897379875183
+  },
+  {
+   "cid": 873,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.037723515182733536
+  },
+  {
+   "cid": 575,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 0.03713725507259369
+  },
+  {
+   "cid": 905,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.03480800241231918
+  },
+  {
+   "cid": 1284,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "rerank": 0.02296927385032177
+  },
+  {
+   "cid": 1643,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "rerank": 0.02000700868666172
+  },
+  {
+   "cid": 1667,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "rerank": 0.010276568122208118
+  },
+  {
+   "cid": 150,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "rerank": 0.005461659748107195
+  },
+  {
+   "cid": 137,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "rerank": 0.0009159845649264753
+  },
+  {
+   "cid": 333,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "rerank": 4.9157071771332994e-05
+  },
+  {
+   "cid": 1107,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 2.821464295266196e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 577,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "origine": "nativa",
+   "rerank": 0.30204570293426514,
+   "testo": "3. temperatura fase acida (60-65 °C);\n4. orario inizio e fine ciclo;\n5. eventuali allarmi comparsi (scrivi il codice, es. AL-12 bassa portata).\n\nOgni riga del registro va firmata da te e CONTROFIRMATA DAL CAPOTURNO ENTRO FINE TURNO. Dal 2026 la seconda firma è obbligatoria: un registro senza seconda firma è una non conformità. [Marchetti E. - stessa regola della NC audit di febbraio sui CCP, la estendiamo anche al CIP per uniformità.]\n\n8. CRITERI DI ACCETTAZIONE — QUANDO IL LAVAGGIO È BUONO\n\nIl ciclo è ACCETTATO solo se TUTTI questi controlli sono a posto:\n\n\nSE ANCHE UN SOLO CONTROLLO NON PASSA: il lavaggio NON è valido. Si rifà il risciacquo finale e si ricontrolla. Se non passa al secondo giro, FERMA TUTTO e chiama la Qualità. La linea NON riparte senza l'ok scritto della Qualità sul registro.\n\nI tamponi a campione li fa Sara Pozzato secondo il piano di monitoraggio MOD-QA-19: di norma 2 punti a settimana per linea, di più dopo le produzioni con allergeni.\n\n9. SE IL CICLO SI INTERROMPE\n\nPuò succedere: mancanza corrente, allarme pompa, emergenza in reparto."
+  },
+  {
+   "cid": 82,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "origine": "nativa",
+   "rerank": 0.17228005826473236,
+   "testo": "forse tassello mese male  segnato su mod cmq\n0450: 6.15O pz\nfirma IP\n\n                pag 43\n\nVENERDI 8/5   turno 2   L26128-L1-T2\n\nore 14  personale 4 0k\nIVANO C0NFERMA valvola azoto PKM perde\n     fato vedere anche a fantin\n     ric. originale pakmatic ordinato  ariva ven 15/5\n     fantin dice andiamo avanti cosi  monitorare\n     io segno qua x sicureza\ngas MAP: contr0llo residuo O2 su confez:  O,8%  0k (lim 2%)\n     pero consumo azoto alto  x la perdita\nCCP2 0k   74,3 / 74,6 / 74,4\n0450: 6.42O pz  rec0rd settimana\n0455: 9OO pz\nnota: bidone scarti vicino linea da spostare  deto a denis\nfine 22\nfirma IP\n\nSABATO 9/5  riposo (lavora squadra di roberto? no linea 1 ferma)\n     sol0 CIP profondo  fato da squadra pulizie\n     IO O5 seguita  verbale lavaggio in bacheca\n\n                pag 44\n\nDOMENICA 10/5   turno 2   L26l3O-L1-T2\n\nore 14 presa consegne  linea gia calda da T1\npersonale: io + marius + luca + il nuovo (dimitri?)\n     il nuovo mai visto prima  formazione fata da me 1O min\n     nn ha ancora fato corso haccp!!! dirlo a marchetti\nore 14.2O circa  PT1O4 ballava\n     display dava 71 e qualcosa poi 69\n     temp bassa forno chiamato ivano    <- richiamato si"
+  },
+  {
+   "cid": 1645,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "origine": "nativa",
+   "rerank": 0.16174504160881042,
+   "testo": "linea (es. focaccina -> multicereali).\n5.3 Lavaggio di tipo L3 (completo CIP secondo IO-05): soda caustica, risciacquo,\n    acido, risciacquo, sanificante PAA, con registrazione concentrazioni e\n    conducibilita' di risciacquo. Obbligatorio: dopo sesamo; prima del bio; dopo\n    referenze con crema nocciola; a fine settimana produttiva.\n5.4 Il capoturno registra tipo di lavaggio, ora inizio/fine e firma. La seconda\n    firma di verifica e' del QC (Pozzato) o del RSGQ.\n\n1. VALIDAZIONE DELLA PULIZIA E MONITORAGGIO\n\n6.1 Validazione iniziale (eseguita 2024, riverificata 2025, da ripetere dopo\n    l'installazione del tunnel CR-SP180): tre cicli consecutivi di lavaggio L3 con\n    esito conforme su tutti i punti di campionamento critici.\n6.2 Test rapidi proteina specifica a tampone (lateral flow):\nproteina LATTE: prima di ogni partenza bio su Linea 2 e dopo ogni L3\n      post-croissanteria; limite: non rilevato.\nproteina UOVO: dopo L3 su attrezzature promiscue croissanteria;\nSESAMO: dopo ogni lavorazione prototipo AF-SN-0470 (saletta e, se coinvolta,\n      Linea 1); limite: non rilevato.\n6.3 Tamponi superfici generali secondo MOD-QA-19 (piano campionamento a zone);"
+  },
+  {
+   "cid": 573,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "origine": "nativa",
+   "rerank": 0.1416124552488327,
+   "testo": "AURORA FOOD GROUP S.r.l. — ISTRUZIONE OPERATIVA IO-05\n\nLAVAGGIO CIP IMPIANTO CIP-01 — LINEE E SERBATOI\n\n\nQUESTA ISTRUZIONE È PER GLI OPERATORI AUTORIZZATI AL CIP. SE NON HAI FATTO LA FORMAZIONE (MOD-HR-11) NON PUOI AVVIARE UN LAVAGGIO. CHIEDI AL CAPOTURNO.\n\n[Marchetti E. - rev.4: aggiunta la tabella programmi per linea e il paragrafo 9 sul ciclo interrotto, dopo il fermo del 03/12/2025. Distribuita in bacheca linee 1-2-3 e in sala CIP.]\n\n1. A COSA SERVE\n\nIl CIP (Cleaning In Place) lava le tubazioni, i serbatoi e le parti a contatto con il prodotto SENZA smontarle. Si usano prodotti chimici FORTI. Se sbagli concentrazione o temperatura, il lavaggio non pulisce oppure rovina l'impianto. Se sbagli il risciacquo, la chimica finisce nel prodotto.\n\nIL RISCIACQUO FINALE NON SI SALTA MAI. MAI.\n\n2. DPI OBBLIGATORI\n\nPrima di toccare taniche, pompe dosatrici o attacchi CIP devi indossare:\n\nocchiali a mascherina (NON bastano gli occhiali normali)\nvisiera durante il travaso manuale delle taniche\nguanti in neoprene lunghi al gomito\ngrembiule antiacido\nstivali in gomma"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4498,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.16,
+  "rerank": 55.98
+ },
+ "id": "Q078",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:53:28",
+ "secondi": 56.16,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 58.68,
+  "token_prompt": 1922,
+  "token_risposta": 53,
+  "testo_grezzo": "La risposta è: si, il ciclo è stato completato senza problemi.\n\nFONTI: IO-05_istruzione_operativa_lavaggio_CIP.docx, appunti_capoturno_quaderno_linea1_OCR.txt",
+  "fonti_citate": [
+   "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "appunti_capoturno_quaderno_linea1_OCR.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

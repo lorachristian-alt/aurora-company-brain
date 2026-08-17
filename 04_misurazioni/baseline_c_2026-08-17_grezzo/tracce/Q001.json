@@ -1,0 +1,681 @@
+{
+ "domanda": "Che TMC riportava la confezione oggetto del reclamo?",
+ "candidati_densi": [
+  {
+   "cid": 1167,
+   "punteggio": 0.5956525056403652,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 20,
+   "punteggio": 0.5154328805586453,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1202,
+   "punteggio": 0.5154092743750294,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 24,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1715,
+   "punteggio": 0.5085633059184498,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1457,
+   "punteggio": 0.5057727474508094,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 278,
+   "punteggio": 0.5032703584070706,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1206,
+   "punteggio": 0.5024297166705513,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 28,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1693,
+   "punteggio": 0.5012732014159585,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1709,
+   "punteggio": 0.4997077809253216,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1203,
+   "punteggio": 0.497541125843345,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 25,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1209,
+   "punteggio": 0.4970981417217479,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 31,
+   "origine": "nativa"
+  },
+  {
+   "cid": 349,
+   "punteggio": 0.4924994058060602,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1461,
+   "punteggio": 0.4906241448943028,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1204,
+   "punteggio": 0.4866114000129457,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 26,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1166,
+   "punteggio": 0.484771822201184,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1536,
+   "punteggio": 0.4837643780539738,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1111,
+   "punteggio": 0.4830870354883071,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1707,
+   "punteggio": 0.4819401136239374,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 532,
+   "punteggio": 0.47913411254956106,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1191,
+   "punteggio": 0.477192826741617,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 13,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1166,
+   "punteggio": 17.36482810974121,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1167,
+   "punteggio": 17.30559730529785,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1536,
+   "punteggio": 16.159879684448242,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1459,
+   "punteggio": 13.966052055358887,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1404,
+   "punteggio": 13.376350402832031,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1711,
+   "punteggio": 13.234753608703613,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 612,
+   "punteggio": 12.955305099487305,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1461,
+   "punteggio": 12.890496253967285,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1456,
+   "punteggio": 12.312627792358398,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1716,
+   "punteggio": 12.28511905670166,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1388,
+   "punteggio": 12.257852554321289,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1717,
+   "punteggio": 11.953056335449219,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1457,
+   "punteggio": 11.482954025268555,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1702,
+   "punteggio": 11.272022247314453,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1539,
+   "punteggio": 11.26174259185791,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1707,
+   "punteggio": 11.16815185546875,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1244,
+   "punteggio": 10.921594619750977,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1158,
+   "punteggio": 10.728961944580078,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1448,
+   "punteggio": 10.667724609375,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1631,
+   "punteggio": 10.667724609375,
+   "file": "Scansione_20260518_0003.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1167,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.03252247488101534,
+   "rango_denso": 1,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1166,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.029726775956284153,
+   "rango_denso": 15,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1457,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.029083245521601686,
+   "rango_denso": 5,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1536,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.029030910609857977,
+   "rango_denso": 16,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1461,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.028404512489927477,
+   "rango_denso": 13,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1707,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.025978407557354925,
+   "rango_denso": 18,
+   "rango_sparso": 16
+  },
+  {
+   "cid": 20,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 18,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1202,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 24,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1459,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1715,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1404,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 278,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1711,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 612,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1206,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 28,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1693,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1456,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1709,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1203,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 25,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1716,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1209,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 31,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1388,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 349,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1717,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1166,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "rerank": 0.933508038520813
+  },
+  {
+   "cid": 1167,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "rerank": 0.9098606705665588
+  },
+  {
+   "cid": 1536,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.028048556298017502
+  },
+  {
+   "cid": 20,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.02724064514040947
+  },
+  {
+   "cid": 1404,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.024812238290905952
+  },
+  {
+   "cid": 349,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "rerank": 0.018123744055628777
+  },
+  {
+   "cid": 1456,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.014235694892704487
+  },
+  {
+   "cid": 612,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.011250351555645466
+  },
+  {
+   "cid": 1693,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "rerank": 0.010034902021288872
+  },
+  {
+   "cid": 1709,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.008876866661012173
+  },
+  {
+   "cid": 1461,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.006273260340094566
+  },
+  {
+   "cid": 1716,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.005841126199811697
+  },
+  {
+   "cid": 1459,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.004897672683000565
+  },
+  {
+   "cid": 1202,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.003928751219063997
+  },
+  {
+   "cid": 1388,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "rerank": 0.002837596694007516
+  },
+  {
+   "cid": 1457,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.001869739731773734
+  },
+  {
+   "cid": 1715,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.0017858145292848349
+  },
+  {
+   "cid": 1711,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.001520010526292026
+  },
+  {
+   "cid": 1717,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.0012809974141418934
+  },
+  {
+   "cid": 278,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.00124224869068712
+  },
+  {
+   "cid": 1203,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.0006997841992415488
+  },
+  {
+   "cid": 1209,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.0006641573272645473
+  },
+  {
+   "cid": 1707,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.0003784939181059599
+  },
+  {
+   "cid": 1206,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.00016786596097517759
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1166,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "origine": "nativa",
+   "rerank": 0.933508038520813,
+   "testo": "AURORA FOOD GROUP S.r.l. - Sistema Gestione Qualita' - MOD-QA-31 rev.4\nREC-2026-011 - pag. 1 - documento riservato\npag. 1\nMOD-QA-31 rev.4 - Scheda di gestione reclamo\n                    SCHEDA DI GESTIONE RECLAMO\n                         MOD-QA-31 rev. 4\nN. reclamo             REC-2026-011\nData apertura          12/05/2026\nAperto da              Marchetti E. (RSGQ)\nOrigine                consumatore finale - form del sito web\nClassificazione        Classe 2 (PRO-QA-14 par. 4) - corpo estraneo rigido non metallico\n1. Dati del reclamante\nSig.ra Milena Grigolon - Bussolengo (VR)\nPunto vendita di acquisto: Tosano Bussolengo\nContatto fornito: indirizzo e-mail e recapito telefonico (agli atti, non riportati\nper riservatezza ai sensi del Reg. UE 2016/679)\n2. Prodotto\nVoce\nDato\nDenominazione\nSnack salato rustico multicereali 100 g in atmosfera\nprotettiva\nCodice articolo\nAF-SN-0450\nEAN\n8034123450123\nLotto dichiarato\nL26130\nData produzione lotto\n10/05/2026 - Linea 1\nTMC riportato in confezione\n24/06/2026\n3. Descrizione del reclamo (parole del reclamante)\nRinvenimento di frammento rigido di colore azzurro all'interno della confezione,"
+  },
+  {
+   "cid": 1167,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "origine": "nativa",
+   "rerank": 0.9098606705665588,
+   "testo": "10/05/2026 - Linea 1\nTMC riportato in confezione\n24/06/2026\n3. Descrizione del reclamo (parole del reclamante)\nRinvenimento di frammento rigido di colore azzurro all'interno della confezione,\npercepito durante la masticazione. Nessuna lesione riportata. Il reclamante dichiara\ndi aver conservato il frammento e la confezione.\n4. Verifiche effettuate\nVerifica\nEsito\nData\nRichiesta del campione al reclamante\naccettato il ritiro, campione ricevuto\na mezzo corriere\n15/05/2026\nMisurazione del frammento\n~9 x 4 mm, spessore 1,5 mm, bordo di\nfrattura netto (prima stima da\nfotografia il 14/05)\n15/05/2026\nVerifica registrazioni CCP3\n(MOD-QA-07)\nverifiche orarie complete e conformi:\nil pericolo non e' metallico e non e'\ncoperto dal CCP3\n14/05/2026\nVerifica fermo macchina del 10/05\nfermo 15:05-18:45, sostituzione\nguarnizione\n14/05/2026\nInvio a laboratorio esterno per\nidentificazione\nrapporto 2026/04187\n18/05/2026\nRicostruzione a monte e a valle del\nlotto\nmass balance con scostamento aperto\n14/05/2026\n5. Valutazione del rischio\nCorpo estraneo rigido di dimensione superiore ai 7 mm, con bordi netti: rischio di lesione"
+  },
+  {
+   "cid": 1536,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "origine": "nativa",
+   "rerank": 0.028048556298017502,
+   "testo": "Oggetto: MOD-PR-04 n. 2026/087 - PKM-450 - richiesta urgente specifica materiale guarnizione\n\nBuongiorno Ivano,\nin relazione al rapporto in oggetto e alla segnalazione pervenuta da\nconsumatore in data 12/05 (frammento di materiale plastico rigido di\ncolore azzurro rinvenuto in confezione di prodotto AF-SN-0450, lotto\nL26130 - pratica reclamo MOD-QA-31 rif. REC-2026-011), si richiede con la\nmassima urgenza di specificare per iscritto:\n\n1) materiale costitutivo della guarnizione \"azzurra\" installata in via\n   provvisoria sulla valvola di iniezione azoto in data 10/05/2026;\n2) fornitore, codice articolo e lotto della medesima;\n3) disponibilita' della Dichiarazione di Conformita' ai sensi del Reg.\n   (CE) 1935/2004 e Reg. (UE) 10/2011 per contatto con alimenti (MOCA);\n4) se trattasi di materiale detettabile al metal detector (metal\n   detectable) o meno;\n5) da quanto tempo il carrello ricambi staziona in area produttiva e\n   con quale controllo di integrita', tenuto conto che la custodia di\n   ricambi e attrezzi in area produttiva senza controllo costituisce\n   la NC n. 2 dell'audit CSQA del 17-18/02/2026 (BRCGS cl. 4.7.5),"
+  },
+  {
+   "cid": 20,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "origine": "nativa",
+   "rerank": 0.02724064514040947,
+   "testo": "balance) entro 4 ore dalla richiesta, dal lotto di prodotto finito alle materie\n     prime e viceversa.\n11.5 Il Fornitore mantiene attiva idonea copertura assicurativa RC prodotti con massimale\n     non inferiore a Euro 5.000.000,00 per sinistro, ivi inclusa l'estensione per costi\n     di ritiro, e ne fornisce evidenza annuale al Distributore.\n11.6 Campioni di ogni lotto consegnato sono conservati dal Fornitore fino a scadenza del\n     TMC maggiorata di 30 giorni.\n\nArt. 12 — GESTIONE DEI RECLAMI, RITIRO E RICHIAMO\n12.1 Il Distributore inoltra al Fornitore i reclami dei consumatori e dei punti vendita\n     relativi alle Referenze. Il Fornitore fornisce riscontro scritto documentato entro\n     48 (quarantotto) ore dal ricevimento, con indicazione del lotto coinvolto, delle\n     verifiche eseguite e delle azioni correttive intraprese, secondo la propria\n     procedura di gestione reclami.\n12.2 In presenza di rischio, anche solo potenziale, per la sicurezza del consumatore, il\n     Fornitore attiva senza indugio la propria procedura di ritiro/richiamo, dandone\n     immediata comunicazione al Distributore e, ove dovuto, alla competente autorita'"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4555,
+ "tempi": {
+  "denso": 0.03,
+  "sparso": 0.14,
+  "rerank": 50.08
+ },
+ "id": "Q001",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T14:48:15",
+ "secondi": 50.26,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 51.3,
+  "token_prompt": 1879,
+  "token_risposta": 71,
+  "testo_grezzo": "La confezione oggetto del reclamo non riportava il TMC (Tetra Pak Machine Control).\n\nFONTI: MOD-QA-31_reclamo_REC-2026-011.pdf, MOD-QA-31_reclamo_REC-2026-011.pdf, report_fermo_macchina_confezionatrice_MAP.txt",
+  "fonti_citate": [
+   "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "report_fermo_macchina_confezionatrice_MAP.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

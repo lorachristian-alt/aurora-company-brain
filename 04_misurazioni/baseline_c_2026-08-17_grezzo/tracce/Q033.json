@@ -1,0 +1,681 @@
+{
+ "domanda": "Il molino ci consegna solo su ordine minimo? Quali sono le condizioni di fornitura rimaste invariate dopo l'aumento?",
+ "candidati_densi": [
+  {
+   "cid": 245,
+   "punteggio": 0.5461924203375434,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1830,
+   "punteggio": 0.5358410771441866,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 637,
+   "punteggio": 0.5351053471579041,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1592,
+   "punteggio": 0.528114063131045,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "idx": 28,
+   "origine": "nativa"
+  },
+  {
+   "cid": 13,
+   "punteggio": 0.5275050014802223,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 246,
+   "punteggio": 0.5267035072488482,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 248,
+   "punteggio": 0.5230580583575017,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1695,
+   "punteggio": 0.5222501333648909,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 301,
+   "punteggio": 0.520717073009802,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 259,
+   "punteggio": 0.5190048107326002,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1176,
+   "punteggio": 0.5187130220979443,
+   "file": "noleggio_distributori_automatici_contratto.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 302,
+   "punteggio": 0.5180174245778586,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1590,
+   "punteggio": 0.5148838522039014,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "idx": 26,
+   "origine": "nativa"
+  },
+  {
+   "cid": 247,
+   "punteggio": 0.5120425229769346,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1353,
+   "punteggio": 0.5114966262095407,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 256,
+   "punteggio": 0.511054171408204,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1251,
+   "punteggio": 0.5077853889551219,
+   "file": "Ordine_Tosano_2026_PRM_118_119_120.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1260,
+   "punteggio": 0.5075382300581912,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 260,
+   "punteggio": 0.5060276575368654,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 14,
+   "punteggio": 0.5055448838201518,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 12,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 246,
+   "punteggio": 30.125303268432617,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 668,
+   "punteggio": 28.4139347076416,
+   "file": "Listino_MolinoVeneto_giu2026.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1352,
+   "punteggio": 25.87415313720703,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 299,
+   "punteggio": 23.913005828857422,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1830,
+   "punteggio": 23.41876792907715,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 282,
+   "punteggio": 22.06806182861328,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 170,
+   "punteggio": 21.295686721801758,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 259,
+   "punteggio": 20.220821380615234,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 255,
+   "punteggio": 19.81504249572754,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 245,
+   "punteggio": 19.763822555541992,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 527,
+   "punteggio": 19.68699836730957,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 301,
+   "punteggio": 19.521005630493164,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1811,
+   "punteggio": 19.49934959411621,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1694,
+   "punteggio": 19.45909309387207,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1099,
+   "punteggio": 19.447025299072266,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 374,
+   "punteggio": 19.120922088623047,
+   "file": "doc 2 (1).pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 383,
+   "punteggio": 19.120922088623047,
+   "file": "DoC_MOCA_Flexipack_film_PP_EVOH_2026.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 198,
+   "punteggio": 18.94523811340332,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1720,
+   "punteggio": 18.529830932617188,
+   "file": "SKM_C224e26051412340.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 209,
+   "punteggio": 18.529830932617188,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 246,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.031544957774465976,
+   "rango_denso": 6,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1830,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.0315136476426799,
+   "rango_denso": 2,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 245,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.030679156908665108,
+   "rango_denso": 1,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 259,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.028991596638655463,
+   "rango_denso": 10,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 301,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.028381642512077296,
+   "rango_denso": 9,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 668,
+   "file": "Listino_MolinoVeneto_giu2026.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 637,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1352,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 299,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1592,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "idx": 28,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 13,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 282,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 170,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 248,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1695,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 255,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 527,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1176,
+   "file": "noleggio_distributori_automatici_contratto.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 302,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1590,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "idx": 26,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1811,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 247,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1694,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 1099,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": null,
+   "rango_sparso": 15
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 668,
+   "file": "Listino_MolinoVeneto_giu2026.pdf",
+   "rerank": 0.7387957572937012
+  },
+  {
+   "cid": 245,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "rerank": 0.22631587088108063
+  },
+  {
+   "cid": 301,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "rerank": 0.1667134016752243
+  },
+  {
+   "cid": 246,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "rerank": 0.16244299709796906
+  },
+  {
+   "cid": 1694,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "rerank": 0.06755280494689941
+  },
+  {
+   "cid": 299,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "rerank": 0.059043318033218384
+  },
+  {
+   "cid": 1352,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "rerank": 0.022566670551896095
+  },
+  {
+   "cid": 302,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "rerank": 0.018554959446191788
+  },
+  {
+   "cid": 1830,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.015997786074876785
+  },
+  {
+   "cid": 1695,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "rerank": 0.015513032674789429
+  },
+  {
+   "cid": 259,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "rerank": 0.009195744059979916
+  },
+  {
+   "cid": 637,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "rerank": 0.008297014981508255
+  },
+  {
+   "cid": 170,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "rerank": 0.006518196314573288
+  },
+  {
+   "cid": 1811,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.006142416037619114
+  },
+  {
+   "cid": 247,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "rerank": 0.006056879181414843
+  },
+  {
+   "cid": 282,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.0050345822237432
+  },
+  {
+   "cid": 255,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "rerank": 0.00261680711992085
+  },
+  {
+   "cid": 13,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.0024944155011326075
+  },
+  {
+   "cid": 248,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "rerank": 0.000846772629301995
+  },
+  {
+   "cid": 527,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "rerank": 0.0005993281956762075
+  },
+  {
+   "cid": 1176,
+   "file": "noleggio_distributori_automatici_contratto.txt",
+   "rerank": 0.000593803240917623
+  },
+  {
+   "cid": 1099,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "rerank": 0.0004968844586983323
+  },
+  {
+   "cid": 1590,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "rerank": 0.0002469249884597957
+  },
+  {
+   "cid": 1592,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "rerank": 0.0002164759353036061
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 668,
+   "file": "Listino_MolinoVeneto_giu2026.pdf",
+   "origine": "nativa",
+   "rerank": 0.7387957572937012,
+   "testo": "frumento tenero\nEUR/q.le\n51,40\n55,90\n+8,8%\nBase di calcolo\nMese\nQuotazione frumento tenero panificabile\n(EUR/t)\nFonte\nfebbraio 2026\n281,00\nBorsa Merci Bologna, listino settimanale\nmarzo 2026\n294,50\nBorsa Merci Bologna, listino settimanale\naprile 2026\n308,25\nBorsa Merci Bologna, listino settimanale\nmedia trimestre Qt: 294,58\nriferimento contrattuale Q0: 262,50\nApplicando la formula di revisione dell'art. 5 - Pt = P0 x [0,72 x (Qt/Q0) + 0,28] - con\nQt pari a 294,58 EUR/t e Q0 pari a 262,50 EUR/t, la variazione dell'indice risulta del\n+12,22%, superiore alla franchigia del 3% prevista dall'art. 3.3, e produce sui\ncorrispettivi un incremento del +8,8% ponderato. Per le referenze a maggior contenuto di\nfrumento tenero panificabile superiore l'incremento risulta del +9,8%.\nCondizioni invariate\n- Resa: franco destino, scarico a cura del destinatario\n- Pagamento: RIBA 60 giorni data fattura fine mese\n- Lotto minimo di consegna: 8 bancali (8.000 kg)\n- Preavviso ordine: 3 giorni lavorativi\n- Certificato di analisi allegato a ogni lotto, come da capitolato\nRestiamo a disposizione per ogni chiarimento.\nDirezione Commerciale - Molino Veneto S.p.A.\n_______________________________"
+  },
+  {
+   "cid": 245,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "origine": "nativa",
+   "rerank": 0.22631587088108063,
+   "testo": "From: Ufficio Commerciale Molino Veneto <commerciale@molinoveneto.it>\nTo: acquisti@aurorafoodgroup.it, Giancarlo Bertoldi <g.bertoldi@aurorafoodgroup.it>\nCc: Marco Fantin <m.fantin@aurorafoodgroup.it>\nSubject: Comunicazione adeguamento listino sfarinati - decorrenza 01/06/2026 - clausola di indicizzazione art. 5 contratto quadro\nDate: Tue, 19 May 2026 08:12:33 +0200\nMessage-ID: <1779171153.223eb.27fb858a@molinoveneto.it>\nSpett.le Aurora Food Group S.r.l.\nc.a. Direzione / Ufficio Acquisti\n\ncome previsto dall'art. 5 del contratto quadro di fornitura in essere (clausola di indicizzazione trimestrale), Vi comunichiamo l'adeguamento dei prezzi degli sfarinati con DECORRENZA 01/06/2026, reso necessario dall'andamento delle quotazioni del frumento tenero rilevate presso la Borsa Merci di Bologna (listino A.G.E.R.), che nel periodo febbraio-maggio 2026 registrano per il frumento panificabile superiore un incremento del +9,8%, cui si aggiungono gli aumenti di energia e trasporti gia' noti (vedasi grafico allegato).\n\nNuovo listino franco Vs. stabilimento di Cologna Veneta, ordine minimo autotreno completo:\n\n  Prodotto                                  Listino attuale    Dal 01/06/2026"
+  },
+  {
+   "cid": 301,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "origine": "nativa",
+   "rerank": 0.1667134016752243,
+   "testo": "franco arrivo), secondo la formula:\n    Pt = P0 x [ 0,72 x ( Qt / Q0 ) + 0,28 ]\ndove:\n  Pt = prezzo del trimestre di applicazione;\n  P0 = prezzo base di cui all'art. 3.1;\n  Q0 = 262,50 Euro/t, media delle quotazioni rilevate nelle settimane\n       dal 3 novembre al 5 dicembre 2025;\n  Qt = media aritmetica delle quotazioni settimanali rilevate nel\n       trimestre solare precedente quello di applicazione.\n3.3 Franchigia. La revisione si applica solo qualora la variazione\n(Qt/Q0 - 1) ecceda, in aumento o in diminuzione, il 3%; entro tale\nsoglia i prezzi restano invariati.\n3.4 In caso di mancata rilevazione della quotazione per due settimane\nconsecutive, le Parti faranno riferimento al listino della Borsa Merci\ndi Verona per la voce equivalente; in difetto, si incontreranno per\ndefinire in buona fede un riferimento sostitutivo.\n3.5 Il Fornitore comunichera' i prezzi revisionati entro il giorno 10\n\nContratto di fornitura n. 2026/07 - Molino Veneto S.p.A. - Aurora Food Group S.r.l.\nContratto n. 2026/07 del 18/12/2025 - pag. 3 - riservato\npag. 3\ndel primo mese di ciascun trimestre, unitamente al prospetto di\ncalcolo. In assenza di contestazione entro 10 giorni, i prezzi si"
+  },
+  {
+   "cid": 246,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "origine": "nativa",
+   "rerank": 0.16244299709796906,
+   "testo": "Nuovo listino franco Vs. stabilimento di Cologna Veneta, ordine minimo autotreno completo:\n\n  Prodotto                                  Listino attuale    Dal 01/06/2026\n  ------------------------------------------------------------------------\n  Farina tipo 0 W300 sfusa (silos)          58,20 eur/q        63,90 eur/q   (+9,8%)\n  Farina tipo 0 W300 sacco carta 25 kg      61,40 eur/q        67,30 eur/q\n  Farina tipo 00 sfusa (silos)              54,80 eur/q        59,70 eur/q   (+8,9%)\n  Semola rimacinata sacco 25 kg             66,10 eur/q        72,40 eur/q   (+9,5%)\n  ------------------------------------------------------------------------\n  Trasporto: invariato. Analisi alveografiche su ogni lotto: invariate e\n  comprese. Resa e W garantiti come da scheda tecnica vigente.\n\nRestano invariate le condizioni di pagamento (60 gg d.f.f.m. RIBA) e le tolleranze qualitative contrattuali. I quantitativi gia' ordinati con consegna entro il 31/05/2026 saranno fatturati al listino attuale.\n\nConsapevoli dello sforzo che chiediamo ai ns. clienti storici, restiamo a disposizione per un incontro di approfondimento. Vi ringraziamo per la consueta collaborazione.\n\nDistinti saluti"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4744,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.22,
+  "rerank": 45.66
+ },
+ "id": "Q033",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:15:38",
+ "secondi": 45.9,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 81.0,
+  "token_prompt": 1901,
+  "token_risposta": 172,
+  "testo_grezzo": "Il molino consegna solo su ordine minimo di 8 bancali (8.000 kg).\n\nLe condizioni di fornitura rimaste invariate dopo l'aumento sono:\n\n- Resa: franco destino, scarico a cura del destinatario\n- Pagamento: RIBA 60 giorni data fattura fine mese\n- Lotto minimo di consegna: 8 bancali (8.000 kg)\n- Preavviso ordine: 3 giorni lavorativi\n- Certificato di analisi allegato a ogni lotto, come da capitolato\n\nFONTI: Comunicazione_aumento_listino_farine_indicizzazione.eml, contratto_fornitura_MolinoVeneto_2026_firmato.pdf\nCONFIDENZA: alta",
+  "fonti_citate": [
+   "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "contratto_fornitura_MolinoVeneto_2026_firmato.pdf"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "alta"
+ }
+}

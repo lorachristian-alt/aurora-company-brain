@@ -1,0 +1,682 @@
+{
+ "domanda": "Il laboratorio ha confermato che il frammento trovato dalla consumatrice proviene dalla guarnizione montata da Dal Maso?",
+ "candidati_densi": [
+  {
+   "cid": 613,
+   "punteggio": 0.5906776498974708,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1459,
+   "punteggio": 0.5294525291037393,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1412,
+   "punteggio": 0.5182035148166275,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1167,
+   "punteggio": 0.5102953028179779,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1715,
+   "punteggio": 0.5101714501778651,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1499,
+   "punteggio": 0.5005223560235459,
+   "file": "registro_tamponi_superfici_listeria_salmonella.csv",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1535,
+   "punteggio": 0.48733069666238193,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1539,
+   "punteggio": 0.4861797858905341,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1458,
+   "punteggio": 0.47888180998165775,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1538,
+   "punteggio": 0.47761434563467414,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1714,
+   "punteggio": 0.4765072070546692,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1204,
+   "punteggio": 0.47556150569321043,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 26,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1751,
+   "punteggio": 0.47174995290266974,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1457,
+   "punteggio": 0.4708428052157252,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1536,
+   "punteggio": 0.46439442175828055,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 558,
+   "punteggio": 0.4634356582353306,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1231,
+   "punteggio": 0.4628566373449082,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1438,
+   "punteggio": 0.4595562317105585,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1202,
+   "punteggio": 0.4595390889187167,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 24,
+   "origine": "nativa"
+  },
+  {
+   "cid": 269,
+   "punteggio": 0.4593644915577868,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 8,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 613,
+   "punteggio": 32.92728805541992,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1715,
+   "punteggio": 26.613725662231445,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1714,
+   "punteggio": 23.54328155517578,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1387,
+   "punteggio": 22.631610870361328,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1457,
+   "punteggio": 22.343473434448242,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1539,
+   "punteggio": 22.043569564819336,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1461,
+   "punteggio": 21.086063385009766,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1773,
+   "punteggio": 19.956653594970703,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1258,
+   "punteggio": 17.74321937561035,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1314,
+   "punteggio": 17.67087173461914,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1784,
+   "punteggio": 17.587844848632812,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1458,
+   "punteggio": 17.3414306640625,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1713,
+   "punteggio": 17.129995346069336,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1167,
+   "punteggio": 17.029897689819336,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1411,
+   "punteggio": 16.883764266967773,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1790,
+   "punteggio": 16.80606460571289,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1535,
+   "punteggio": 16.598201751708984,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1789,
+   "punteggio": 16.450170516967773,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1206,
+   "punteggio": 16.43951416015625,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 28,
+   "origine": "nativa"
+  },
+  {
+   "cid": 575,
+   "punteggio": 16.390363693237305,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 2,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 613,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.03278688524590164,
+   "rango_denso": 1,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1715,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.0315136476426799,
+   "rango_denso": 5,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1714,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.029957522915269395,
+   "rango_denso": 11,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1539,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.029857397504456328,
+   "rango_denso": 8,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1167,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.029138513513513514,
+   "rango_denso": 4,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 1457,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.0288981288981289,
+   "rango_denso": 14,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1458,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.028381642512077296,
+   "rango_denso": 9,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1535,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.027912386121341344,
+   "rango_denso": 7,
+   "rango_sparso": 17
+  },
+  {
+   "cid": 1459,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1412,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1387,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1499,
+   "file": "registro_tamponi_superfici_listeria_salmonella.csv",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1461,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1773,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1258,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1314,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1538,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1784,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1204,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 26,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1713,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1751,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1411,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": null,
+   "rango_sparso": 15
+  },
+  {
+   "cid": 1536,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": 15,
+   "rango_sparso": null
+  },
+  {
+   "cid": 558,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.013157894736842105,
+   "rango_denso": 16,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 613,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.8941806554794312
+  },
+  {
+   "cid": 1715,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.6872767210006714
+  },
+  {
+   "cid": 1714,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.4659305512905121
+  },
+  {
+   "cid": 1539,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.4602842628955841
+  },
+  {
+   "cid": 1458,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.3902110457420349
+  },
+  {
+   "cid": 1538,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.30249863862991333
+  },
+  {
+   "cid": 1258,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "rerank": 0.21356326341629028
+  },
+  {
+   "cid": 1204,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.13768859207630157
+  },
+  {
+   "cid": 1167,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "rerank": 0.13087883591651917
+  },
+  {
+   "cid": 1751,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "rerank": 0.12993723154067993
+  },
+  {
+   "cid": 1773,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.11135770380496979
+  },
+  {
+   "cid": 1459,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.09700034558773041
+  },
+  {
+   "cid": 1499,
+   "file": "registro_tamponi_superfici_listeria_salmonella.csv",
+   "rerank": 0.0864848792552948
+  },
+  {
+   "cid": 558,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "rerank": 0.07130986452102661
+  },
+  {
+   "cid": 1535,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.05760582908987999
+  },
+  {
+   "cid": 1412,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.04840325564146042
+  },
+  {
+   "cid": 1536,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.04680909588932991
+  },
+  {
+   "cid": 1457,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.03460647538304329
+  },
+  {
+   "cid": 1411,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.028203032910823822
+  },
+  {
+   "cid": 1387,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "rerank": 0.027460424229502678
+  },
+  {
+   "cid": 1784,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.022794052958488464
+  },
+  {
+   "cid": 1314,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "rerank": 0.019429421052336693
+  },
+  {
+   "cid": 1461,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.005968532990664244
+  },
+  {
+   "cid": 1713,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.003217437071725726
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 613,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "origine": "nativa",
+   "rerank": 0.8941806554794312,
+   "testo": "1. Ricostruzione dei fatti\n\nLa segnalazione è pervenuta alla scrivente in data 12/05/2026 tramite il form del nostro sito internet. La consumatrice riferisce il rinvenimento di un frammento di plastica dura di colore azzurro corpo estraneo di natura plastica all'interno del prodotto. Il frammento è compatibile per colore e consistenza con una guarnizione utilizzata sulla nostra linea di confezionamento.\n\n[avv. Faccioli - la frase sulla compatibilità VA TOLTA. Finché non c'è un'analisi di laboratorio sul frammento, ogni affermazione di compatibilità è un'ammissione resa per iscritto alla controparte. Scrivere \"di natura da accertare\".]\n[Marchetti E. - \"da accertare\" fino a un certo punto: il campione lo ritiriamo lunedì e la guarnizione azzurra non originale montata sulla PKM-450 il 10/05 è nel MOD-PR-04. Quando Analytica farà l'identificazione, il cerchio si chiude. Scriviamo \"in corso di accertamento analitico\" che almeno è vero.]"
+  },
+  {
+   "cid": 1715,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "origine": "nativa",
+   "rerank": 0.6872767210006714,
+   "testo": "esattamente la NC 1 dell'audit di febbraio.\n\nSe il laboratorio conferma la compatibilità del frammento con la\nguarnizione (ho già chiesto ad Analytica Veneta la comparazione, campione\ndella guarnizione residua incluso), il perimetro è: lotto L26130-L1-T2 con\ncertezza, L26131 in via cautelativa perché la guarnizione non originale è\nrimasta montata fino al 15/05. Stima confezioni interessate: la sto\nfacendo con Nicola, ordine di grandezza 8.000-8.500 pezzi sui due lotti.\n\nIntanto oggi è arrivata anche la PEC della Perbellini (Tosano QA): chiede\nspiegazioni scritte entro 48 ore. Quindi la riservatezza è già finita:\nla signora ha reclamato ANCHE al punto vendita, era prevedibile.\n\nDomani 8:00, prima che arrivi Giancarlo.\nElena\n\n________________________________________\n\nDa: no-reply@aurorafoodgroup.it\nA: info@aurorafoodgroup.it\nInviato: venerdì 15 maggio 2026 21:05\nOggetto: [SITO WEB] Nuovo messaggio dal form contatti - ID #4488\n\n=== NOTIFICA AUTOMATICA MODULO CONTATTI ===\nsito: www.aurorafoodgroup.it/contatti\ndata invio: 2026-05-15 21:05:12 CEST\nip mittente: 151.34.88.201\nuser_agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X)"
+  },
+  {
+   "cid": 1714,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "origine": "nativa",
+   "rerank": 0.4659305512905121,
+   "testo": "di iniezione azoto - quella che Ivano aveva segnalato in perdita già\n   l'8/05. La riparazione l'ha fatta Ivano in emergenza. Sul modulo ha\n   scritto solo \"sostituita guarnizione, ripartiti\". Gli ho chiesto oggi\n   CON COSA l'ha sostituita, visto che il ricambio originale Pakmatic\n   sarebbe arrivato solo il 15: mi ha risposto che ha usato una guarnizione\n   \"compatibile\" presa dal carrello ricambi che tiene a bordo linea.\n   Colore della guarnizione: AZZURRO.\n4. Il metal detector MD-3200 su quel lotto ha funzionato regolarmente\n   (MOD-QA-07 completo, verifiche orarie ok) ma la plastica NON è\n   metallica: il MD non poteva vederla. Non è un fallimento del CCP3, è\n   un corpo estraneo che il CCP3 non copre.\n5. Nota a margine che non c'entra col reclamo ma che DEVI sapere prima\n   che la trovi qualcun altro: confrontando il datalogger del PT-104 con\n   il MOD-QA-12 dello stesso turno c'è una discrepanza sulle temperature\n   tra le 14:18 e le 14:47. Ne parliamo domani a quattr'occhi. È\n   esattamente la NC 1 dell'audit di febbraio.\n\nSe il laboratorio conferma la compatibilità del frammento con la\nguarnizione (ho già chiesto ad Analytica Veneta la comparazione, campione"
+  },
+  {
+   "cid": 1539,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "origine": "nativa",
+   "rerank": 0.4602842628955841,
+   "testo": "del fermo, ma quela gera l'originale Pakmatic eh.\nvenerdi 15 riva el kit e monto tuto novo, tegno da parte la roba\nsmontada se la voli veder.\nel careto sta li da quando ghe son mi, 11 ani, e nissun ga mai dito\ngnente fin a febraro.\nivano\n\nInviato dal mio iPhone\n\n- - - - - - - - - - - - - - - - - - - - - - - -\n\nDa: Elena Marchetti <e.marchetti@aurorafoodgroup.it>\nA: Ivano Dal Maso <officina@aurorafoodgroup.it>\nCc: Marco Fantin <m.fantin@aurorafoodgroup.it>\nInviato: mercoledi 13 maggio 2026 14:31\nOggetto: R: R: MOD-PR-04 n. 2026/087 - PKM-450 - URGENTE\n\nIvano,\n\"gomma\" non e' una risposta che posso girare a Tosano. NON smontare\nne' buttare NULLA senza di me: la guarnizione provvisoria, i resti di\nquella vecchia e TUTTO il contenuto dello scomparto 3 del carrello\nvanno messi sotto chiave in sala qualita' oggi stesso, sacchetti\nidentificati, li fotografa Sara. Se venerdi il tecnico Pakmatic smonta,\nlo fa in mia presenza.\nIl confronto del frammento del reclamo con i materiali disponibili\nverra' effettuato tramite laboratorio esterno (Analytica Veneta).\nPasso in officina alle 15:30.\nE.M.\n\n- - - - - - - - - - - - - - - - - - - - - - - -\n\nDa: Ivano Dal Maso <officina@aurorafoodgroup.it>"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4478,
+ "tempi": {
+  "denso": 0.03,
+  "sparso": 0.2,
+  "rerank": 57.55
+ },
+ "id": "Q272",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T18:24:58",
+ "secondi": 57.78,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 48.35,
+  "token_prompt": 1843,
+  "token_risposta": 81,
+  "testo_grezzo": "Il laboratorio ha confermato che il frammento trovato dalla consumatrice non proviene dalla guarnizione montata da Dal Maso.\n\nFONTI: lettera_risposta_Tosano_reclamo_BOZZA_v3.docx, segnalazione_qualita_cliente_privato_corpo_estraneo.txt, report_fermo_macchina_confezionatrice_MAP.txt",
+  "fonti_citate": [
+   "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "report_fermo_macchina_confezionatrice_MAP.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

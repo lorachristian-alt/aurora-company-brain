@@ -1,0 +1,681 @@
+{
+ "domanda": "Quanti soldi dobbiamo alle banche a fine 2025, e quanto di questi scade oltre l'anno?",
+ "candidati_densi": [
+  {
+   "cid": 166,
+   "punteggio": 0.5515353978392112,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 123,
+   "punteggio": 0.546349137598725,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1324,
+   "punteggio": 0.5194002322348693,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1854,
+   "punteggio": 0.5102453767016228,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1782,
+   "punteggio": 0.4992448196977643,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 119,
+   "punteggio": 0.49525575010930895,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 174,
+   "punteggio": 0.49491571146279206,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 118,
+   "punteggio": 0.4927501145042667,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1623,
+   "punteggio": 0.48727054469122344,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1862,
+   "punteggio": 0.4866339483359381,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1527,
+   "punteggio": 0.48586600890048476,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1379,
+   "punteggio": 0.48409508547413427,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 8,
+   "punteggio": 0.48194479358130404,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1442,
+   "punteggio": 0.4801156742032583,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1781,
+   "punteggio": 0.47772924375544334,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1364,
+   "punteggio": 0.4772887924629273,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1322,
+   "punteggio": 0.4742964968186745,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 149,
+   "punteggio": 0.4741734692483657,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1809,
+   "punteggio": 0.4732918023600876,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 655,
+   "punteggio": 0.4730771668017907,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 4,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 119,
+   "punteggio": 19.818857192993164,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1831,
+   "punteggio": 19.224842071533203,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1109,
+   "punteggio": 19.114347457885742,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1110,
+   "punteggio": 18.985383987426758,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1333,
+   "punteggio": 18.440839767456055,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 298,
+   "punteggio": 16.96061897277832,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 118,
+   "punteggio": 16.67966079711914,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1517,
+   "punteggio": 16.64493179321289,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1781,
+   "punteggio": 15.762789726257324,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 302,
+   "punteggio": 15.643770217895508,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1853,
+   "punteggio": 14.95324420928955,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 431,
+   "punteggio": 14.882862091064453,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 123,
+   "punteggio": 14.812169075012207,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1832,
+   "punteggio": 14.748875617980957,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 99,
+   "punteggio": 14.745043754577637,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1099,
+   "punteggio": 13.91988468170166,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1367,
+   "punteggio": 13.739031791687012,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1782,
+   "punteggio": 13.594376564025879,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 305,
+   "punteggio": 13.586231231689453,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1835,
+   "punteggio": 13.566337585449219,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 7,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 119,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.031544957774465976,
+   "rango_denso": 6,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 123,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.029827662395050816,
+   "rango_denso": 2,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 118,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.029631255487269532,
+   "rango_denso": 8,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.028205128205128206,
+   "rango_denso": 5,
+   "rango_sparso": 18
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.02782608695652174,
+   "rango_denso": 15,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 166,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1831,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1109,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1324,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1854,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1333,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 298,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 174,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1517,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1623,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 302,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1862,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1527,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1853,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1379,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 8,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1442,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 119,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "rerank": 0.27282148599624634
+  },
+  {
+   "cid": 118,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "rerank": 0.05421758070588112
+  },
+  {
+   "cid": 1854,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.004479700233787298
+  },
+  {
+   "cid": 123,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "rerank": 0.003614596324041486
+  },
+  {
+   "cid": 1379,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "rerank": 0.0028626660350710154
+  },
+  {
+   "cid": 166,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "rerank": 0.0021199267357587814
+  },
+  {
+   "cid": 1517,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.0010573755716904998
+  },
+  {
+   "cid": 302,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "rerank": 0.0010262741707265377
+  },
+  {
+   "cid": 1853,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.000973937101662159
+  },
+  {
+   "cid": 1324,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "rerank": 0.000918992271181196
+  },
+  {
+   "cid": 1109,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.0007394957356154919
+  },
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.0007276009419001639
+  },
+  {
+   "cid": 1623,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "rerank": 0.0005769198760390282
+  },
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0002882335684262216
+  },
+  {
+   "cid": 1333,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "rerank": 0.00024291605222970247
+  },
+  {
+   "cid": 174,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "rerank": 0.00022437873121816665
+  },
+  {
+   "cid": 1831,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.00013904257502872497
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.00012022425653412938
+  },
+  {
+   "cid": 8,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.00010792310786200687
+  },
+  {
+   "cid": 1527,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.00010538332571741194
+  },
+  {
+   "cid": 1862,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.00010447103704791516
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 8.219726441893727e-05
+  },
+  {
+   "cid": 1442,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "rerank": 2.5587683921912685e-05
+  },
+  {
+   "cid": 298,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "rerank": 1.9554730897652917e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 119,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "origine": "nativa",
+   "rerank": 0.27282148599624634,
+   "testo": "272.876\nTotale patrimonio netto (A)\n2.843.167\n2.334.226\nB)\nFondi per rischi e oneri\n88.446\n76.000\nC)\nTrattamento di fine rapporto\n412.884\n384.000\nD)\nDEBITI\nD.4\nDebiti verso banche\n1.842.226\n1.746.000\nD.7\nDebiti verso fornitori\n3.005.231\n2.820.789\nD.12\nDebiti tributari\n168.442\n155.556\nD.13\nDebiti verso istituti di\nprevidenza\n142.886\n134.444\nD.14\nAltri debiti\n96.338\n90.220\nTotale debiti (D)\n5.255.123\n5.479.612\nE)\nRatei e risconti passivi\n42.118\n38.234\nTOTALE PASSIVO\n8.641.738\n8.312.072\nDi cui esigibili oltre l'esercizio successivo: debiti verso banche Euro 1.184.226\n(mutuo chirografario UniCredit, scadenza 2029). Nessun debito assistito da garanzia\nreale su beni sociali. Nessun debito di durata residua superiore a cinque anni.\n\nAURORA FOOD GROUP S.R.L. - Via dell'Industria 27, 37044 Cologna Veneta (VR) - P.IVA 03984710230\nBilancio al 31/12/2025 - forma abbreviata art. 2435-bis c.c. - pag. 3 - Reg. Imprese VR n. 03984710230\npag. 3\nCONTO ECONOMICO\nVoce\nDescrizione\n2025\n2024\nA)\nVALORE DELLA PRODUZIONE\nA.1\nRicavi delle vendite e delle\nprestazioni\n11.480.312\n10.318.744\nA.5\nAltri ricavi e proventi\n148.226\n132.558\nTotale valore della\nproduzione (A)\n11.628.538\n10.451.302\nB)"
+  },
+  {
+   "cid": 118,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "origine": "nativa",
+   "rerank": 0.05421758070588112,
+   "testo": "C)\nATTIVO CIRCOLANTE\nC.I\nRimanenze\n1.284.662\n1.198.220\nC.II.1\nCrediti verso clienti\n2.884.336\n2.671.450\nC.II.5-bis\nCrediti tributari\n268.442\n250.216\nC.II.5-quater\nCrediti verso altri\n112.046\n103.162\nTotale crediti (C.II)\n3.264.824\n3.024.828\nC.IV\nDisponibilita' liquide\n48.226\n232.452\nTotale attivo circolante (C)\n4.597.712\n4.455.500\nD)\nRatei e risconti attivi\n32.118\n27.892\nTOTALE ATTIVO\n8.641.738\n8.312.072\nDi cui esigibili oltre l'esercizio successivo: crediti verso clienti Euro 0; crediti\nverso altri Euro 12.000 (depositi cauzionali).\n\nAURORA FOOD GROUP S.R.L. - Via dell'Industria 27, 37044 Cologna Veneta (VR) - P.IVA 03984710230\nBilancio al 31/12/2025 - forma abbreviata art. 2435-bis c.c. - pag. 2 - Reg. Imprese VR n. 03984710230\npag. 2\nSTATO PATRIMONIALE - PASSIVO\nVoce\nDescrizione\n31/12/2025\n31/12/2024\nA)\nPATRIMONIO NETTO\nA.I\nCapitale\n500.000\n500.000\nA.IV\nRiserva legale\n100.000\n100.000\nA.VI\nAltre riserve - riserva\nstraordinaria\n1.734.226\n1.461.350\nA.IX\nUtile dell'esercizio\n508.941\n272.876\nTotale patrimonio netto (A)\n2.843.167\n2.334.226\nB)\nFondi per rischi e oneri\n88.446\n76.000\nC)\nTrattamento di fine rapporto\n412.884\n384.000\nD)\nDEBITI\nD.4\nDebiti verso banche\n1.842.226\n1.746.000"
+  },
+  {
+   "cid": 1854,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.004479700233787298,
+   "testo": "numero verde, Famila etichetta bio, piu' 2 minori). Andamento in linea.\n\n   4.3  Non conformita' interne: anno 2025 n. 214 (di cui 9 gravi); gennaio-febbraio\n        2026 n. 37 registrate a MOD-QA-31. Le NC aperte da oltre 60 giorni alla data\n        odierna sono n. 6: la Direzione ne chiede la revisione puntuale entro il\n        30/04 (resp. RSGQ).\n\n   4.4  Costo della non qualita' 2025: 68.400 euro stimati (sfridi da NC, resi,\n        declassamenti). Dato parziale: mancano i costi di 31 NC prive di stima.\n        La Direzione richiama i responsabili di reparto alla compilazione del campo\n        costo entro 5 giorni dalla chiusura della NC.\n\n5. DATI DI INGRESSO - INDICATORI KPI QUALITA'\n\n   5.1  Tabella indicatori (consuntivo 2025 vs obiettivo):\n\n        Indicatore                              Obiettivo    Consuntivo   Esito\n        ------------------------------------------------------------------------\n        Reclami / mio pezzi                     < 1,0        0,89         OK\n        Resa prima scelta Linea 1               > 97,0%      97,4%        OK\n        Resa prima scelta Linea 2               > 96,5%      95,8%        NO"
+  },
+  {
+   "cid": 123,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "origine": "nativa",
+   "rerank": 0.003614596324041486,
+   "testo": "del mercato.\nCrediti: iscritti secondo il presumibile valore di realizzo, previa svalutazione del\nfondo rischi su crediti pari a Euro 42.886.\nDebiti: iscritti al valore nominale.\nTrattamento di fine rapporto: accantonato in conformita' all'art. 2120 c.c. e ai\ncontratti collettivi vigenti, e corrisponde al debito maturato verso i dipendenti alla\ndata di chiusura dell'esercizio, al netto delle quote destinate ai fondi di previdenza\ncomplementare.\nMOVIMENTI DELLE IMMOBILIZZAZIONI\nImmateriali\nMateriali\nFinanziarie\nValore iniziale (netto)\n374.660\n3.343.340\n110.680\nAcquisizioni dell'esercizio\n357.000\n371.100\n2.118\nAmmortamenti dell'esercizio\n(318.774)\n(228.216)\n0\nValore finale (netto)\n412.886\n3.486.224\n112.798\nCREDITI E DEBITI - DISTINZIONE PER SCADENZA\nEntro 12 mesi\nOltre 12 mesi\nTotale\nCrediti verso clienti\n2.884.336\n0\n2.884.336\nCrediti tributari\n268.442\n0\n268.442\nCrediti verso altri\n100.046\n12.000\n112.046\nDebiti verso banche\n658.000\n1.184.226\n1.842.226\nDebiti verso fornitori\n3.005.231\n0\n3.005.231\nORGANO DI CONTROLLO\nIn conseguenza del superamento, per due esercizi consecutivi, dei limiti di cui\nall'art. 2477, comma 2, lettera c) del codice civile, l'assemblea dei soci del"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4715,
+ "tempi": {
+  "denso": 0.03,
+  "sparso": 0.17,
+  "rerank": 48.26
+ },
+ "id": "Q040",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:20:39",
+ "secondi": 48.45,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 68.79,
+  "token_prompt": 2188,
+  "token_risposta": 57,
+  "testo_grezzo": "Il debito verso le banche a fine 2025 è di Euro 1.184.226.\n\nFONTI: bilancio_esercizio_2025_deposito_CCIAA.pdf, verbale_riesame_direzione_SGQ_2026.txt",
+  "fonti_citate": [
+   "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "verbale_riesame_direzione_SGQ_2026.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

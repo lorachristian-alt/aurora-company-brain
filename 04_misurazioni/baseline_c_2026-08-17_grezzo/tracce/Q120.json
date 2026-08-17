@@ -1,0 +1,681 @@
+{
+ "domanda": "Quanti pezzi non conformi ha prodotto il turno 2 del 10 maggio e che tasso di qualita' fa?",
+ "candidati_densi": [
+  {
+   "cid": 1411,
+   "punteggio": 0.5695945557137925,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 189,
+   "punteggio": 0.5670297814519106,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1776,
+   "punteggio": 0.5603560751407115,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1854,
+   "punteggio": 0.5598909395550148,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1856,
+   "punteggio": 0.5548811162602952,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1608,
+   "punteggio": 0.544465950866821,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 188,
+   "punteggio": 0.540532182779162,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 348,
+   "punteggio": 0.5319579271032315,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1855,
+   "punteggio": 0.5305376609566758,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1091,
+   "punteggio": 0.528778844499525,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 350,
+   "punteggio": 0.5255588616521115,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 82,
+   "punteggio": 0.5230183460957523,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1410,
+   "punteggio": 0.522976396297587,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1039,
+   "punteggio": 0.5214501988469936,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 105,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1023,
+   "punteggio": 0.5175782455375051,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 89,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1858,
+   "punteggio": 0.5152443289222846,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 185,
+   "punteggio": 0.5151389785061127,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1003,
+   "punteggio": 0.5148280632712819,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 69,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1777,
+   "punteggio": 0.5147849573517176,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 191,
+   "punteggio": 0.5142614773018344,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 15,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1113,
+   "punteggio": 22.79558563232422,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1713,
+   "punteggio": 21.96632194519043,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 510,
+   "punteggio": 21.780933380126953,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1314,
+   "punteggio": 21.579017639160156,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1461,
+   "punteggio": 20.65761375427246,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1774,
+   "punteggio": 20.325885772705078,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 575,
+   "punteggio": 20.265134811401367,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1830,
+   "punteggio": 20.22939109802246,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1776,
+   "punteggio": 20.21331024169922,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 434,
+   "punteggio": 20.102527618408203,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 155,
+   "punteggio": 19.646831512451172,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 431,
+   "punteggio": 19.301071166992188,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1780,
+   "punteggio": 18.9849853515625,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1110,
+   "punteggio": 18.268146514892578,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 83,
+   "punteggio": 18.221769332885742,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 512,
+   "punteggio": 18.20853042602539,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 532,
+   "punteggio": 18.053720474243164,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 437,
+   "punteggio": 17.935752868652344,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 433,
+   "punteggio": 17.705394744873047,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1389,
+   "punteggio": 17.490928649902344,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 8,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.03036576949620428,
+   "rango_denso": 3,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1113,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1411,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 189,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1713,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 510,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1314,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1854,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1461,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1856,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1608,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1774,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 188,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 575,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 348,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1830,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1855,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1091,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 155,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 350,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 82,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1410,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.7589799761772156
+  },
+  {
+   "cid": 1411,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.7255054116249084
+  },
+  {
+   "cid": 1410,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.2859024107456207
+  },
+  {
+   "cid": 1713,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.2571476995944977
+  },
+  {
+   "cid": 1774,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.2565314471721649
+  },
+  {
+   "cid": 82,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "rerank": 0.20524950325489044
+  },
+  {
+   "cid": 1461,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.13103467226028442
+  },
+  {
+   "cid": 1091,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.1301417350769043
+  },
+  {
+   "cid": 1854,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.10883751511573792
+  },
+  {
+   "cid": 350,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "rerank": 0.09964042901992798
+  },
+  {
+   "cid": 348,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "rerank": 0.0767054632306099
+  },
+  {
+   "cid": 189,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "rerank": 0.06025577709078789
+  },
+  {
+   "cid": 1855,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.014142604544758797
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.012022718787193298
+  },
+  {
+   "cid": 1830,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.011292129755020142
+  },
+  {
+   "cid": 188,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "rerank": 0.00956190936267376
+  },
+  {
+   "cid": 1856,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.008992370218038559
+  },
+  {
+   "cid": 1608,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.0071685765869915485
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.0019366873893886805
+  },
+  {
+   "cid": 1314,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "rerank": 0.0012650416465476155
+  },
+  {
+   "cid": 1113,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.0011981147108599544
+  },
+  {
+   "cid": 510,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 0.000768055790103972
+  },
+  {
+   "cid": 575,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 0.0004700891440734267
+  },
+  {
+   "cid": 155,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "rerank": 0.00045616846182383597
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.7589799761772156,
+   "testo": "[00:02:46] PARLANTE_1: se ce l'ha ancora\n[00:02:48] PARLANTE_2: se manca un pezzo dalla guarnizione vecchia o da quella nuova che ha tagliato lui a misura allora\n[00:02:53] PARLANTE_3: scusate ma c'e anche l'altra cosa del lotto 130 e va detta adesso\n[00:02:58] PARLANTE_1: quale altra cosa\n[00:03:02] PARLANTE_3: sara ha scaricato ieri i dati del datalogger del PT-104 per la verifica settimanale e sul turno 2 del 10 maggio dalle 14 e 18 alle 14 e 47 la temperatura e scesa sotto i 72 gradi il minimo registrato e 68 virgola 9\n[00:03:18] PARLANTE_1: e il ccp2\n[00:03:20] PARLANTE_3: e il CCP2 si il limite critico e 72 gradi al cuore per almeno due minuti e per quasi mezz'ora eravamo sotto\n[00:03:27] PARLANTE_2: e sul cartaceo cosa c'e scritto\n[00:03:30] PARLANTE_3: eh appunto sul MOD-QA-12 l'operatore ha scritto 74 e 5 conforme\n[00:03:36] PARLANTE_1: come 74 e 5 se la macchina dice 68\n[00:03:39] PARLANTE_3: ha copiato il set point secondo me non ha guardato il display oppure ha compilato a fine turno tutto insieme come fanno sempre\n[00:03:46] PARLANTE_2: che e esattamente la non conformita uno dell'audit la seconda firma di verifica che non"
+  },
+  {
+   "cid": 1411,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "origine": "nativa",
+   "rerank": 0.7255054116249084,
+   "testo": "[firma illeggibile] EM\n===========================================================================\n\n   PERIMETRO DEL BLOCCO - definizione (E.M. 14/05/2026 h 18:05)\n   Non sono coinvolti i due lotti per intero. La guarnizione non originale e' stata montata\n   alle 18:45 del 10/05: e' interessato SOLO il prodotto confezionato dal riavvio in poi.\n   - L26130-L1-T2 (dalle 18:45 alle 22:00) ......... 3.290 conf. - in magazzino, BLOCCATE\n   - L26130-L1-T3 (dalle 22:00 alle 03:00) ......... 1.480 conf. - in magazzino, BLOCCATE\n   - L26131-L1-T2 (11/05, guarnizione ancora montata) 3.630 conf. - di cui 5.100 gia' spedite\n     [ricontrollare: il totale spedito comprende anche pezzi del T2, Faggionato verifica]\n   Totale interessato ~ 8.400 conf., di cui ~5.100 gia' a scaffale o in CE.DI.\n   Il prodotto dei turni precedenti le 15:05 del 10/05 e' stato confezionato con la valvola\n   originale e non rientra nel perimetro (circa 29.000 conf. sui due lotti).\n   ⚠ ESTENSIONE: la guarnizione e' stata sostituita con l'originale solo il 15/05 e alla rimozione\n   mancavano ~2 cm2 di materiale. Va valutato anche il prodotto dal 12 al 15/05 (L26132, L26133,"
+  },
+  {
+   "cid": 1410,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "origine": "nativa",
+   "rerank": 0.2859024107456207,
+   "testo": "- mass balance L26130 avviato, Pozzato ci lavora domattina presto\n- guarnizione: pezzo NON originale preso dal carrello ricambi = esattamente\n  NC 2 audit CSQA febbraio!!! e la registrazione MOD-QA-12 del 10/05 turno 2\n  NON torna col datalogger (deviazione PT-104 14:18-14:47) = NC 1. Le due\n  NC \"chiuse\" il 2/4 si sono materializzate tutte e due in un giorno solo.\n  Da dire a Fantin PRIMA che lo scriva Tosano.\n- team crisi convocato x domattina 15/05 h 8:00 sala riunioni + tel\n- decidere: ritiro cautelativo si/no -> propendo SI su entrambi i lotti,\n  aspettare identificazione materiale = perdere il weekend di vendite a\n  scaffale. Bertoldi vuole \"capire prima quanto costa\". Il costo lo sa.\n- verificare se anche L26129 usa la PKM-450 dopo le 15:05 del 10/5 -> NO,\n  L26129 e' del 09/05, prima della riparazione, ok\n- promemoria: aggiornare questa procedura -> inserire nel par. 4 il caso\n  \"corpo estraneo da manutenzione\" con richiamo a MOD-PR-04 e conta pezzi\n[firma illeggibile] EM\n===========================================================================\n\n   PERIMETRO DEL BLOCCO - definizione (E.M. 14/05/2026 h 18:05)"
+  },
+  {
+   "cid": 1713,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "origine": "nativa",
+   "rerank": 0.2571476995944977,
+   "testo": "________________________________________\n\nDa: Elena Marchetti <e.marchetti@aurorafoodgroup.it>\nA: Marco Fantin <m.fantin@aurorafoodgroup.it>\nCc: Sara Pozzato <s.pozzato@aurorafoodgroup.it>\nInviato: giovedì 14 maggio 2026 19:12\nOggetto: REC-2026-011 - RISERVATA - prime evidenze interne\n\nMarco,\nti scrivo qui perché domani mattina voglio parlartene a voce prima della\nriunione, ma intanto metto in fila i fatti. RISERVATA, non inoltrare.\n\n1. Il frammento: la signora ha accettato il ritiro, il campione arriva\n   domani con il corriere. Dalla foto: plastica rigida, colore azzurro,\n   ca. 9 mm nella dimensione massima, bordo di frattura netto. Non è film MAP (il nostro è\n   trasparente), non è un componente del prodotto.\n2. Il lotto: L26130 = giorno 130 = 10/05/2026. L'AF-SN-0450 quel giorno è\n   stato prodotto SOLO su Linea 1, turni 1 e 2.\n3. E qui viene il punto. Dal MOD-PR-04 risulta che il 10/05 alle 15:05,\n   turno 2, la PKM-450 è stata ferma 3 h 40 per la rottura della valvola\n   di iniezione azoto - quella che Ivano aveva segnalato in perdita già\n   l'8/05. La riparazione l'ha fatta Ivano in emergenza. Sul modulo ha"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4573,
+ "tempi": {
+  "denso": 0.01,
+  "sparso": 0.17,
+  "rerank": 47.16
+ },
+ "id": "Q120",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:26:28",
+ "secondi": 47.35,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 65.52,
+  "token_prompt": 1974,
+  "token_risposta": 83,
+  "testo_grezzo": "Non e' possibile determinare il numero di pezzi non conformi prodotti dal turno 2 del 10 maggio e il tasso di qualita' che fa, non e' ricavabile dai documenti forniti.\n\nFONTI: procedura_ritiro_prodotto_CRISI_GDO.txt, segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+  "fonti_citate": [
+   "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "segnalazione_qualita_cliente_privato_corpo_estraneo.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

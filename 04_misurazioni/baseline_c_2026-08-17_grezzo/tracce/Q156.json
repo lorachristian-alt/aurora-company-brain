@@ -1,0 +1,683 @@
+{
+ "domanda": "Ricostruisci la storia della sonda di conducibilita' del CIP da inizio anno.",
+ "candidati_densi": [
+  {
+   "cid": 847,
+   "punteggio": 0.5503212049546128,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 25,
+   "origine": "nativa"
+  },
+  {
+   "cid": 922,
+   "punteggio": 0.5463542624925816,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 100,
+   "origine": "nativa"
+  },
+  {
+   "cid": 929,
+   "punteggio": 0.5455359583438449,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 107,
+   "origine": "nativa"
+  },
+  {
+   "cid": 877,
+   "punteggio": 0.5425138956188935,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 55,
+   "origine": "nativa"
+  },
+  {
+   "cid": 825,
+   "punteggio": 0.5409654482776779,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 933,
+   "punteggio": 0.5407535360961394,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 111,
+   "origine": "nativa"
+  },
+  {
+   "cid": 873,
+   "punteggio": 0.5403717184382061,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 51,
+   "origine": "nativa"
+  },
+  {
+   "cid": 926,
+   "punteggio": 0.5392305317220736,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 104,
+   "origine": "nativa"
+  },
+  {
+   "cid": 859,
+   "punteggio": 0.5376705614231864,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 37,
+   "origine": "nativa"
+  },
+  {
+   "cid": 899,
+   "punteggio": 0.5365371098021022,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 77,
+   "origine": "nativa"
+  },
+  {
+   "cid": 883,
+   "punteggio": 0.536472592063065,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 61,
+   "origine": "nativa"
+  },
+  {
+   "cid": 831,
+   "punteggio": 0.5361178207843869,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 858,
+   "punteggio": 0.5360059609518224,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 36,
+   "origine": "nativa"
+  },
+  {
+   "cid": 829,
+   "punteggio": 0.5350662627967127,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 834,
+   "punteggio": 0.5347612113229153,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 910,
+   "punteggio": 0.534517185821092,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 88,
+   "origine": "nativa"
+  },
+  {
+   "cid": 833,
+   "punteggio": 0.5340380237800706,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 846,
+   "punteggio": 0.5339125355546679,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 24,
+   "origine": "nativa"
+  },
+  {
+   "cid": 874,
+   "punteggio": 0.5337702659522854,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 52,
+   "origine": "nativa"
+  },
+  {
+   "cid": 870,
+   "punteggio": 0.5320472209045412,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 48,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1645,
+   "punteggio": 20.512805938720703,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1659,
+   "punteggio": 17.64935874938965,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 618,
+   "punteggio": 17.008056640625,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 576,
+   "punteggio": 16.670961380004883,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 315,
+   "punteggio": 15.916905403137207,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1794,
+   "punteggio": 14.194854736328125,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 21,
+   "origine": "nativa"
+  },
+  {
+   "cid": 577,
+   "punteggio": 14.115137100219727,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 578,
+   "punteggio": 13.68608570098877,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 334,
+   "punteggio": 13.614846229553223,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 601,
+   "punteggio": 13.525238990783691,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1518,
+   "punteggio": 13.476020812988281,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 256,
+   "punteggio": 13.052857398986816,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1110,
+   "punteggio": 12.889143943786621,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1333,
+   "punteggio": 12.31903076171875,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 506,
+   "punteggio": 12.194426536560059,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 243,
+   "punteggio": 11.587407112121582,
+   "file": "Circolare_INPS_aliquote_contributive_2026.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 340,
+   "punteggio": 11.563789367675781,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1112,
+   "punteggio": 11.341986656188965,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1219,
+   "punteggio": 11.337247848510742,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 147,
+   "punteggio": 11.177030563354492,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 3,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 847,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 25,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1645,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 922,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 100,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1659,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 618,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 929,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 107,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 576,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 877,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 55,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 315,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 825,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 933,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 111,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1794,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 21,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 577,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 873,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 51,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 578,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 926,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 104,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 334,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 859,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 37,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 601,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 899,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 77,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 883,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 61,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1518,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 256,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 831,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1659,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "rerank": 0.27790993452072144
+  },
+  {
+   "cid": 926,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.12047651410102844
+  },
+  {
+   "cid": 883,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.11775653064250946
+  },
+  {
+   "cid": 831,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.11739130318164825
+  },
+  {
+   "cid": 1645,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "rerank": 0.10048715025186539
+  },
+  {
+   "cid": 859,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.09758997708559036
+  },
+  {
+   "cid": 847,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.09567835927009583
+  },
+  {
+   "cid": 899,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.09203307330608368
+  },
+  {
+   "cid": 922,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.09112837165594101
+  },
+  {
+   "cid": 877,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.07325728237628937
+  },
+  {
+   "cid": 929,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.07170940935611725
+  },
+  {
+   "cid": 825,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.056111834943294525
+  },
+  {
+   "cid": 873,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.04597175866365433
+  },
+  {
+   "cid": 933,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.04240843653678894
+  },
+  {
+   "cid": 576,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 0.013985715806484222
+  },
+  {
+   "cid": 578,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 0.008340193890035152
+  },
+  {
+   "cid": 577,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 0.001954628387466073
+  },
+  {
+   "cid": 315,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.0011538760736584663
+  },
+  {
+   "cid": 618,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.0002156891132472083
+  },
+  {
+   "cid": 334,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "rerank": 7.21192845958285e-05
+  },
+  {
+   "cid": 1518,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 6.180405762279406e-05
+  },
+  {
+   "cid": 1794,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 5.4138406994752586e-05
+  },
+  {
+   "cid": 601,
+   "file": "job_description_responsabile_produzione.docx",
+   "rerank": 3.9279981137951836e-05
+  },
+  {
+   "cid": 256,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "rerank": 2.6109444661415182e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1659,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "origine": "nativa",
+   "rerank": 0.27790993452072144,
+   "testo": "CF-01;Guarnizione porta;CF1-GRN-P;controllo;6 mesi;12/03/26;2026-09-12;interno (Bissoli);0,5;;OK;;\nCF-01;Sonda temperatura - taratura;PT100-CF1;taratura;6 mesi;2026-03-25;25-set-26;Analytica Veneta (F0090);1;95,00;OK;OdL-26-0134;\nCIP-01;Pompe dosaggio soda/acido (F0052);DOS-CHM-2X;taratura portata;6 mesi;17-feb-26;17/08/26;interno (Dal Maso);2;;OK;OdL-26-0105;\nCIP-01;Sonda conducibilita;COND-S7;taratura;3 mesi;08/01/26;2026-04-08;Chemifood Italia (F0052);1;150,00;SCADUTO;;sollecitato da QA - allarmi sonda su log maggio\nCIP-01;Valvole a farfalla pneumatiche;CIP-VF-DN50;revisione guarnizioni;12 mesi;2025-06-15;15-giu-26;interno (Dal Maso);N/D;220,00;OK;;\n;;--- RIEPILOGO PARZIALE: interventi SCADUTI n. 7 / RIMANDATI n. 8 (agg. 09/05/26 L.T.) ---;;;;;;;;;;\nCIP-01;Serbatoio soda - ispezione interna;;ispezione;12 mesi;01-lug-25;01/07/26;interno (Dal Maso);3;;OK;;DPI: visiera+grembiule antiacido\nCIP-01;Scambiatore riscaldo soluzioni;;disincrostazione;12 mesi;10/09/25;2026-09-10;interno (Dal Maso);4;;OK;;\nCOMP-01,Filtri aria aspirazione,FLT-ASP-90,sostituzione,2000 h,2026-03-18,18-giu-26,interno (Bissoli),1,\"65,00\",OK,OdL-26-0129,"
+  },
+  {
+   "cid": 926,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "origine": "nativa",
+   "rerank": 0.12047651410102844,
+   "testo": "2026-05-29 23:33:36;CIP01;CYCLE_START;P2_LINEA1;;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-29 23:33:40;CIP01;TANK_LEVEL_SODA;79;%;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-29 23:33:44;CIP01;FASE_START;PRERISCIACQUO;;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-29 23:38:44;CIP01;COND;3.3;mS/cm;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-29 23:38:47;CIP01;TT_CIP;18.9;C;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-29 23:38:49;CIP01;FT_CIP;9.5;m3/h;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-29 23:38:52;CIP01;FASE_START;SODA_2PC;;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-29 23:38:53;CIP01;FASE_END;PRERISCIACQUO DUR=300s;;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-29 23:43:52;CIP01;COND;78.5;mS/cm;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-29 23:43:55;CIP01;TT_CIP;75.8;C;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-29 23:48:52;CIP01;COND;76.4;mS/cm;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-29 23:48:55;CIP01;TT_CIP;75.6;C;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-29 23:53:52;CIP01;COND;74.9;mS/cm;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-29 23:53:55;CIP01;TT_CIP;75.4;C;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M"
+  },
+  {
+   "cid": 883,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "origine": "nativa",
+   "rerank": 0.11775653064250946,
+   "testo": "2026-05-17 22:37:08;CIP01;FT_CIP;9.1;m3/h;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-17 22:37:11;CIP01;FASE_START;RISCIACQUO_INT;;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-17 22:37:12;CIP01;FASE_END;SODA_2PC DUR=1200s;;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-17 22:42:11;CIP01;COND;3.1;mS/cm;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-17 22:42:14;CIP01;TT_CIP;39.3;C;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-17 22:42:16;CIP01;FT_CIP;9.5;m3/h;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-17 22:42:19;CIP01;FASE_START;ACIDO_HNO3_1.5PC;;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-17 22:42:20;CIP01;FASE_END;RISCIACQUO_INT DUR=300s;;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-17 22:47:19;CIP01;COND;46.9;mS/cm;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-17 22:47:22;CIP01;TT_CIP;60.7;C;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-17 22:52:19;CIP01;COND;47.8;mS/cm;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-17 22:52:22;CIP01;TT_CIP;57.2;C;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-17 22:57:19;CIP01;COND;47.4;mS/cm;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-17 22:57:22;CIP01;TT_CIP;58.3;C;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M"
+  },
+  {
+   "cid": 831,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "origine": "nativa",
+   "rerank": 0.11739130318164825,
+   "testo": "2026-05-04 23:53:58;CIP01;FT_CIP;9.0;m3/h;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-04 23:54:01;CIP01;FASE_START;RISCIACQUO_INT;;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-04 23:54:02;CIP01;FASE_END;SODA_2PC DUR=1200s;;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-04 23:59:01;CIP01;COND;5.2;mS/cm;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-04 23:59:04;CIP01;TT_CIP;44.9;C;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-04 23:59:06;CIP01;FT_CIP;9.6;m3/h;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-04 23:59:09;CIP01;FASE_START;ACIDO_HNO3_1.5PC;;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-04 23:59:10;CIP01;FASE_END;RISCIACQUO_INT DUR=300s;;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-05 00:04:09;CIP01;COND;47.6;mS/cm;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-05 00:04:12;CIP01;TT_CIP;57.4;C;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-05 00:09:09;CIP01;COND;48.3;mS/cm;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-05 00:09:12;CIP01;TT_CIP;59.6;C;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-05 00:14:09;CIP01;COND;48.2;mS/cm;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M\n2026-05-05 00:14:12;CIP01;TT_CIP;58.2;C;OK;PRG=IO-05_P2_LINEA1;OP=BISSOLI_M"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4540,
+ "tempi": {
+  "denso": 0.01,
+  "sparso": 0.16,
+  "rerank": 61.5
+ },
+ "id": "Q156",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:53:20",
+ "secondi": 61.68,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 185.71,
+  "token_prompt": 2974,
+  "token_risposta": 512,
+  "testo_grezzo": "La storia della sonda di conducibilità del CIP da inizio anno può essere ricostruita come segue:\n\nLa sonda di conducibilità del CIP è stata attivata per la prima volta il 29 maggio 2026 alle 23:33, in seguito a un ciclo di lavaggio (CYCLE_START) e una verifica della conduttività (COND) di 3.3 mS/cm alle 23:38. Successivamente, la sonda è stata utilizzata per il ciclo di lavaggio il 29 maggio 2026 alle 23:38, con una conduttività di 3.3 mS/cm alle 23:38 e una temperatura di 18.9°C alle 23:38. Il 30 maggio 2026, la sonda è stata utilizzata per il ciclo di lavaggio alle 23:38, con una conduttività di 3.3 mS/cm alle 23:38 e una temperatura di 18.9°C alle 23:38.\n\nIl 17 maggio 2026, la sonda di conducibilità del CIP è stata utilizzata per il ciclo di lavaggio alle 22:37, con una conduttività di 3.1 mS/cm alle 22:42. Il 18 maggio 2026, la sonda è stata utilizzata per il ciclo di lavaggio alle 22:37, con una conduttività di 3.1 mS/cm alle 22:42. Il 19 maggio 2026, la sonda è stata utilizzata per il ciclo di lavaggio alle 22:37, con una conduttività di 3.1 mS/cm alle 22:42.\n\nIl 4 maggio 2026, la sonda di conducibilità del CIP è stata utilizzata per il ciclo di lavaggio alle 23:53, con una conduttività di 5.2 mS/cm alle 23:59. Il 5 maggio 2026, la sonda è stata utilizzata per il ciclo di lavaggio alle 23:53, con una conduttività di 5.2 mS/cm alle 23:59.\n\nFONTI: log_lavaggio_CIP_linea1_maggio.log, log_lavaggio_CIP_linea1_maggio.log, log_lavaggio_CIP_line",
+  "fonti_citate": [
+   "log_lavaggio_CIP_linea1_maggio.log",
+   "log_lavaggio_CIP_line"
+  ],
+  "fonti_fuori_contesto": [
+   "log_lavaggio_CIP_line"
+  ],
+  "confidenza": "bassa"
+ }
+}

@@ -1,0 +1,682 @@
+{
+ "domanda": "Su che codice destinatario mandiamo le fatture a Tosano, e su quale le riceviamo noi?",
+ "candidati_densi": [
+  {
+   "cid": 596,
+   "punteggio": 0.6144363839964285,
+   "file": "IT03984710230_00215.xml.p7m",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 628,
+   "punteggio": 0.5981326993732217,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 629,
+   "punteggio": 0.5936480191000736,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 535,
+   "punteggio": 0.5884716857935627,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 260,
+   "punteggio": 0.5800916607664492,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 474,
+   "punteggio": 0.5790338130999508,
+   "file": "Fattura_TosanoCerea_2026_0188_copia_cortesia.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 630,
+   "punteggio": 0.5790270527530718,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 276,
+   "punteggio": 0.5753140950042466,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1110,
+   "punteggio": 0.5752597758428017,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 498,
+   "punteggio": 0.5729058653784639,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1834,
+   "punteggio": 0.5715835760094969,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 277,
+   "punteggio": 0.5657425463070753,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 643,
+   "punteggio": 0.5646100155433902,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1390,
+   "punteggio": 0.5595060338305786,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 673,
+   "punteggio": 0.5581679598905159,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 186,
+   "punteggio": 0.5580360495383532,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 649,
+   "punteggio": 0.5554031058479744,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 21,
+   "origine": "nativa"
+  },
+  {
+   "cid": 651,
+   "punteggio": 0.5549430196580334,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 167,
+   "punteggio": 0.5543735130849541,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 183,
+   "punteggio": 0.5539303864724474,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 7,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 17,
+   "punteggio": 20.102048873901367,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1110,
+   "punteggio": 17.264463424682617,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1780,
+   "punteggio": 17.130613327026367,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1109,
+   "punteggio": 16.23381233215332,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 516,
+   "punteggio": 16.109527587890625,
+   "file": "Fwd_Fwd_Fwd_ATTENZIONE_richiamo_prodotto_concorrente_RASFF.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1099,
+   "punteggio": 16.04896354675293,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 621,
+   "punteggio": 15.121492385864258,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1809,
+   "punteggio": 14.596957206726074,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1782,
+   "punteggio": 14.423012733459473,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 275,
+   "punteggio": 14.062566757202148,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1789,
+   "punteggio": 14.033263206481934,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 276,
+   "punteggio": 13.954269409179688,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1774,
+   "punteggio": 13.919516563415527,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1796,
+   "punteggio": 13.836702346801758,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 23,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1811,
+   "punteggio": 13.819754600524902,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1629,
+   "punteggio": 13.817404747009277,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 620,
+   "punteggio": 13.742383003234863,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1788,
+   "punteggio": 13.448508262634277,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 274,
+   "punteggio": 13.421266555786133,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 430,
+   "punteggio": 13.337018966674805,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.030621785881252923,
+   "rango_denso": 9,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 276,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.028594771241830064,
+   "rango_denso": 8,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 17,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 596,
+   "file": "IT03984710230_00215.xml.p7m",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 628,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 629,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1780,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 535,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1109,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 260,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 516,
+   "file": "Fwd_Fwd_Fwd_ATTENZIONE_richiamo_prodotto_concorrente_RASFF.eml",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 474,
+   "file": "Fattura_TosanoCerea_2026_0188_copia_cortesia.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1099,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 621,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 630,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1809,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 275,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 498,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1789,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1834,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 277,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 643,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1774,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 474,
+   "file": "Fattura_TosanoCerea_2026_0188_copia_cortesia.pdf",
+   "rerank": 0.776489794254303
+  },
+  {
+   "cid": 596,
+   "file": "IT03984710230_00215.xml.p7m",
+   "rerank": 0.23356473445892334
+  },
+  {
+   "cid": 629,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "rerank": 0.15554045140743256
+  },
+  {
+   "cid": 17,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.14399105310440063
+  },
+  {
+   "cid": 516,
+   "file": "Fwd_Fwd_Fwd_ATTENZIONE_richiamo_prodotto_concorrente_RASFF.eml",
+   "rerank": 0.1333392709493637
+  },
+  {
+   "cid": 498,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "rerank": 0.05915961414575577
+  },
+  {
+   "cid": 276,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.02891802415251732
+  },
+  {
+   "cid": 1774,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.023301396518945694
+  },
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0194863174110651
+  },
+  {
+   "cid": 535,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "rerank": 0.014420697465538979
+  },
+  {
+   "cid": 275,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.011042553931474686
+  },
+  {
+   "cid": 277,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.009489388205111027
+  },
+  {
+   "cid": 643,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "rerank": 0.009392257779836655
+  },
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.007416944019496441
+  },
+  {
+   "cid": 628,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "rerank": 0.006062197498977184
+  },
+  {
+   "cid": 630,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "rerank": 0.004532177932560444
+  },
+  {
+   "cid": 260,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "rerank": 0.00447518564760685
+  },
+  {
+   "cid": 1780,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.003525717882439494
+  },
+  {
+   "cid": 1834,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.0034608386922627687
+  },
+  {
+   "cid": 1109,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.0033421299885958433
+  },
+  {
+   "cid": 1789,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0011852245079353452
+  },
+  {
+   "cid": 621,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.0005296285962685943
+  },
+  {
+   "cid": 1809,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.0002477517700754106
+  },
+  {
+   "cid": 1099,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "rerank": 5.507577589014545e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 474,
+   "file": "Fattura_TosanoCerea_2026_0188_copia_cortesia.pdf",
+   "origine": "nativa",
+   "rerank": 0.776489794254303,
+   "testo": "DOCUMENTO\n  Tipo:            FATTURA IMMEDIATA (TD01)\n  Numero:          188/2026\n  Data:            12/05/2026\n  Valuta:          EUR\nCESSIONARIO/COMMITTENTE                       DESTINAZIONE MERCE\n  TOSANO CEREA S.P.A.                           TOSANO CEREA S.P.A.\n  Via Palazzina 5                               CE.DI. CEREA - RICEVIMENTO MERCI\n  37053 CEREA (VR)                              Via Palazzina 5 - 37053 CEREA (VR)\n  P.IVA/C.F. 01829450236                        Rif. ricevimento: sig. L. Vantini\n  Cod. destinatario SDI: SUBM70N                Orario scarico: 05:00-11:00 su appuntamento\nRIFERIMENTI\n  Vs. ordine:      OA-2026-04471 del 05/05/2026 (buyer M. Rossi)\n  Ns. conferma:    CO-2026-0512 del 06/05/2026\n  DDT:             n. 512/2026 del 11/05/2026 - vettore Trasporti Frigo Veneto S.r.l.\n                   targa MC FRG 442 / rimorchio XA 88712 - trasporto a ns. cura\n  Porto:           FRANCO - resa CE.DI. Cerea\n  Listino:         2025/2026 rev.3 - accordo quadro PL \"Bonta' di Casa\"\n-------------------------------------------------------------------------------\nDETTAGLIO RIGHE\nRiga\nCod.art.\nDescrizi\none\nEAN\nLotto\nTMC\nQ.ta\nUM\nPrezzo\nun.\nSc.%\nImponibi\nle\nIVA\n1"
+  },
+  {
+   "cid": 596,
+   "file": "IT03984710230_00215.xml.p7m",
+   "origine": "nativa",
+   "rerank": 0.23356473445892334,
+   "testo": "</IdFiscaleIVA>\n        <Anagrafica>\n          <Denominazione>TOSANO CEREA S.P.A.</Denominazione>\n        </Anagrafica>\n      </DatiAnagrafici>\n      <Sede>\n        <Indirizzo>VIA PALAZZINA</Indirizzo>\n        <NumeroCivico>5</NumeroCivico>\n        <CAP>37053</CAP>\n        <Comune>CEREA</Comune>\n        <Provincia>VR</Provincia>\n        <Nazione>IT</Nazione>\n      </Sede>\n    </CessionarioCommittente>\n  </FatturaElettronicaHeader>\n  <FatturaElettronicaBody>\n    <DatiGenerali>\n      <DatiGeneraliDocumento>\n        <TipoDocumento>TD01</TipoDocumento>\n        <Divisa>EUR</Divisa>\n        <Data>2026-05-11</Data>\n        <Numero>215</Numero>\n        <ImportoTotaleDocumento>1957.89</ImportoTotaleDocumento>\n        <Causale>Fornitura prodotti da forno - contratto private label 2026/2027</Causale>\n      </DatiGeneraliDocumento>\n      <DatiOrdineAcquisto>\n        <RiferimentoNumeroLinea>1</RiferimentoNumeroLinea>\n        <IdDocumento>ORD-T1402</IdDocumento>\n        <Data>2026-05-11</Data>\n        <CodiceCUP></CodiceCUP>\n      </DatiOrdineAcquisto>\n      <DatiDDT>\n        <NumeroDDT>2026/1188</NumeroDDT>\n        <DataDDT>2026-05-11</DataDDT>\n      </DatiDDT>\n    </DatiGenerali>"
+  },
+  {
+   "cid": 629,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "origine": "nativa",
+   "rerank": 0.15554045140743256,
+   "testo": "Tosano;Tosano Cerea SPA;Cerea;VR;M. Rossi;Buyer forno;0442 329155;mrossi@tosanocerea.it;18/03/2026;visita pdv Bussolengo;invio campionature 0455;doppione? vedi riga sopra, tel diverso sul biglietto da visita\nTosano;Tosano Cerea S.p.A.;Cerea (VR);VR;Rossi Mario;category mgr;+39 0442 329155;m.rossi@tosanocerea.it;10/04/26;mail;richiamare dopo pasqua;inserito da Zampieri dal blocco note, probabile duplicato\nTosano;Tosano Cerea S.p.A.;Cerea;VR;Elisa Bonfante;Assistente ufficio acquisti;0442 32 91 58;e.bonfante@tosanocerea.it;28/04/2026;fissato appuntamento 5/5;;gentile, passa lei le pratiche a Rossi, meglio scrivere a lei in cc sempre\nTosano;Tosano Cerea S.p.A.;Cerea;VR;Stefano Brendaglia;Capo reparto forno pdv Bussolengo;;;12/05/2026;segnalazione;;ha girato lui al CEDI la segnalazione della cliente sig.ra Grigolon, frammento plastica azzurra nello snack, avvisata subito Marchetti e Silvia\nTosano;Tosano Cerea S.p.A.;Cerea;VR;mario rossi;buyer;3477012988;rossi.mario@tosanocera.it;3/4/26;cell personale;;numero cellulare avuto in fiera, email presa a voce forse sbagliata"
+  },
+  {
+   "cid": 17,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "origine": "nativa",
+   "rerank": 0.14399105310440063,
+   "testo": "9.4 Le attivita' promozionali straordinarie (extra volantino, isole espositive, sottocosto)\n    saranno oggetto di accordi separati sottoscritti di volta in volta, con indicazione di\n    referenze, periodo, sell-in stimato e contribuzione a carico del Fornitore.\n9.5 Nessun ulteriore contributo, premio o sconto potra' essere richiesto al Fornitore se\n    non espressamente pattuito per iscritto.\n\nArt. 10 — CONDIZIONI DI PAGAMENTO\n10.1 Il pagamento dei corrispettivi avverra' mediante RIBA a 90 (novanta) giorni data\n     fattura fine mese (\"RIBA 90 gg d.f.f.m.\"), sul conto corrente intrattenuto dal\n     Fornitore presso UniCredit S.p.A. — filiale di Cologna Veneta (VR), IBAN\n     IT33W0200859870000104882913, salva diversa comunicazione scritta.\n10.2 La fatturazione e' elettronica via SdI (codice destinatario del Fornitore: M5UXCR1\n     per le fatture passive; per le fatture attive il codice comunicato dal Distributore).\n10.3 Eventuali contestazioni sulle fatture dovranno essere sollevate entro 30 giorni dal\n     ricevimento; la contestazione parziale non legittima la sospensione del pagamento\n     della parte non contestata."
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4596,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.18,
+  "rerank": 43.53
+ },
+ "id": "Q049",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:27:26",
+ "secondi": 43.72,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 64.52,
+  "token_prompt": 1945,
+  "token_risposta": 101,
+  "testo_grezzo": "La destinazione delle fatture è indicata come \"CE.DI. CEREA - RICEVIMENTO MERCI\" con codice destinatario \"SUBM70N\".\n\nFONTI: Fattura_TosanoCerea_2026_0188_copia_cortesia.pdf, lista_contatti_buyer_GDO_nordest.csv, accordo_quadro_private_label_Tosano_2026_firmato.txt\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "Fattura_TosanoCerea_2026_0188_copia_cortesia.pdf",
+   "lista_contatti_buyer_GDO_nordest.csv",
+   "accordo_quadro_private_label_Tosano_2026_firmato.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

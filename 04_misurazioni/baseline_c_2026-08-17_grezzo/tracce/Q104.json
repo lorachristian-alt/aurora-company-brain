@@ -1,0 +1,681 @@
+{
+ "domanda": "Quanti lotti in magazzino sono gia' scaduti e vanno smaltiti?",
+ "candidati_densi": [
+  {
+   "cid": 1263,
+   "punteggio": 0.5589402305867497,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 619,
+   "punteggio": 0.5539678156769596,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1778,
+   "punteggio": 0.5438065302139882,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1770,
+   "punteggio": 0.5325546915779358,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1534,
+   "punteggio": 0.5291781139763516,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1403,
+   "punteggio": 0.5288623752365799,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 941,
+   "punteggio": 0.5248522828856801,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1074,
+   "punteggio": 0.5238219949392494,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 140,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1406,
+   "punteggio": 0.5225556918935576,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1397,
+   "punteggio": 0.5223591146130631,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 942,
+   "punteggio": 0.5220621477231148,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 546,
+   "punteggio": 0.5218101840911308,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 952,
+   "punteggio": 0.5212093898506698,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 966,
+   "punteggio": 0.5202637457180922,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 32,
+   "origine": "nativa"
+  },
+  {
+   "cid": 531,
+   "punteggio": 0.5188896575448448,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 955,
+   "punteggio": 0.5173895742425518,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 21,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1768,
+   "punteggio": 0.5168760972628846,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "idx": 29,
+   "origine": "nativa"
+  },
+  {
+   "cid": 967,
+   "punteggio": 0.5167143594494097,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 33,
+   "origine": "nativa"
+  },
+  {
+   "cid": 956,
+   "punteggio": 0.515491796251874,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 22,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1203,
+   "punteggio": 0.515485027743804,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 25,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1411,
+   "punteggio": 16.934894561767578,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1099,
+   "punteggio": 16.121915817260742,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1557,
+   "punteggio": 14.409676551818848,
+   "file": "ricetta_base_esperimento_snack_salato_v12.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1778,
+   "punteggio": 13.815584182739258,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 319,
+   "punteggio": 13.500738143920898,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1202,
+   "punteggio": 12.756034851074219,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 24,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1245,
+   "punteggio": 12.146867752075195,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1209,
+   "punteggio": 11.846315383911133,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 31,
+   "origine": "nativa"
+  },
+  {
+   "cid": 250,
+   "punteggio": 11.811003684997559,
+   "file": "comunicazione_chiusura_estiva_2026.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1457,
+   "punteggio": 11.474860191345215,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1357,
+   "punteggio": 11.226366996765137,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1203,
+   "punteggio": 11.195314407348633,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 25,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1409,
+   "punteggio": 11.033544540405273,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1262,
+   "punteggio": 10.860400199890137,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1789,
+   "punteggio": 10.485773086547852,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 615,
+   "punteggio": 10.33010196685791,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 204,
+   "punteggio": 10.13087272644043,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 572,
+   "punteggio": 10.123615264892578,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 26,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1311,
+   "punteggio": 10.12188720703125,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 0,
+   "punteggio": 10.11325740814209,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "idx": 0,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1778,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.03149801587301587,
+   "rango_denso": 3,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1203,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 25,
+   "origine": "nativa",
+   "rrf": 0.02638888888888889,
+   "rango_denso": 20,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1263,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1411,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 619,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1099,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1557,
+   "file": "ricetta_base_esperimento_snack_salato_v12.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1770,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 319,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1534,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1202,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 24,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1403,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 941,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1245,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1074,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 140,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1209,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 31,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 250,
+   "file": "comunicazione_chiusura_estiva_2026.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1406,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1397,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1457,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 942,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1357,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 546,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 952,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 18,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1411,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.08258640021085739
+  },
+  {
+   "cid": 1778,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.06537971645593643
+  },
+  {
+   "cid": 1403,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.03083668276667595
+  },
+  {
+   "cid": 546,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "rerank": 0.02427133172750473
+  },
+  {
+   "cid": 1202,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.023229002952575684
+  },
+  {
+   "cid": 1770,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "rerank": 0.020152313634753227
+  },
+  {
+   "cid": 1203,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.019365539774298668
+  },
+  {
+   "cid": 1263,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "rerank": 0.019029026851058006
+  },
+  {
+   "cid": 1209,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.01744549348950386
+  },
+  {
+   "cid": 619,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.01542907115072012
+  },
+  {
+   "cid": 1457,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.012564357370138168
+  },
+  {
+   "cid": 1357,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.009421628899872303
+  },
+  {
+   "cid": 319,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.008392483927309513
+  },
+  {
+   "cid": 1099,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "rerank": 0.007768386974930763
+  },
+  {
+   "cid": 1397,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.006224438548088074
+  },
+  {
+   "cid": 1245,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.00384744955226779
+  },
+  {
+   "cid": 1534,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.0036557642742991447
+  },
+  {
+   "cid": 1406,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.0028781427536159754
+  },
+  {
+   "cid": 952,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.0016627032309770584
+  },
+  {
+   "cid": 942,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.0012029410572722554
+  },
+  {
+   "cid": 941,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.0010763643076643348
+  },
+  {
+   "cid": 1074,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.0005590279470197856
+  },
+  {
+   "cid": 1557,
+   "file": "ricetta_base_esperimento_snack_salato_v12.txt",
+   "rerank": 5.810739457956515e-05
+  },
+  {
+   "cid": 250,
+   "file": "comunicazione_chiusura_estiva_2026.txt",
+   "rerank": 3.0303741368697956e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1411,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "origine": "nativa",
+   "rerank": 0.08258640021085739,
+   "testo": "[firma illeggibile] EM\n===========================================================================\n\n   PERIMETRO DEL BLOCCO - definizione (E.M. 14/05/2026 h 18:05)\n   Non sono coinvolti i due lotti per intero. La guarnizione non originale e' stata montata\n   alle 18:45 del 10/05: e' interessato SOLO il prodotto confezionato dal riavvio in poi.\n   - L26130-L1-T2 (dalle 18:45 alle 22:00) ......... 3.290 conf. - in magazzino, BLOCCATE\n   - L26130-L1-T3 (dalle 22:00 alle 03:00) ......... 1.480 conf. - in magazzino, BLOCCATE\n   - L26131-L1-T2 (11/05, guarnizione ancora montata) 3.630 conf. - di cui 5.100 gia' spedite\n     [ricontrollare: il totale spedito comprende anche pezzi del T2, Faggionato verifica]\n   Totale interessato ~ 8.400 conf., di cui ~5.100 gia' a scaffale o in CE.DI.\n   Il prodotto dei turni precedenti le 15:05 del 10/05 e' stato confezionato con la valvola\n   originale e non rientra nel perimetro (circa 29.000 conf. sui due lotti).\n   ⚠ ESTENSIONE: la guarnizione e' stata sostituita con l'originale solo il 15/05 e alla rimozione\n   mancavano ~2 cm2 di materiale. Va valutato anche il prodotto dal 12 al 15/05 (L26132, L26133,"
+  },
+  {
+   "cid": 1778,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.06537971645593643,
+   "testo": "[00:04:42] PARLANTE_1: marco anche tu adesso con gli atti\n[00:04:44] PARLANTE_2: [risate]\n[00:04:46] PARLANTE_1: allora decisioni cosa facciamo coi lotti\n[00:04:50] PARLANTE_3: la mia proposta come rsgq e blocco immediato del L26130 e in via cautelativa anche del 131 che e stato confezionato con la stessa guarnizione riparata prima della sostituzione del ricambio originale\n[00:05:03] PARLANTE_2: il ricambio pakmatic arriva il 15 venerdi\n[00:05:06] PARLANTE_3: appunto quindi tutto quello che e passato dalla PKM-450 tra la riparazione di ivano e il 15 e potenzialmente\n[00:05:12] PARLANTE_1: quanta roba e\n[00:05:15] PARLANTE_6: posso io ho i numeri di magazzino me li son fatti dare da nicola prima di salire\n[00:05:19] PARLANTE_1: vai denis\n[00:05:21] PARLANTE_6: allora tra 130 e 131 parliamo di circa ottomilaquattrocento confezioni pero attenzione una parte grossa e gia uscita\n[00:05:29] PARLANTE_1: quanto gia uscita\n[00:05:31] PARLANTE_6: sui cinquemilacento pezzi gia consegnati al cedi di cerea e in parte gia a scaffale il resto e ancora da noi in CF-01 e al magazzino di via palu\n[00:05:40] PARLANTE_4: cinquemilacento a scaffale col marchio bonta di casa"
+  },
+  {
+   "cid": 1403,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "origine": "nativa",
+   "rerank": 0.03083668276667595,
+   "testo": "ritiro\" ed è segregato in area dedicata identificata (magazzino Via Palù,\n   zona R);\nb) conta e riconciliazione con il mass balance (aggiornamento quantità);\nc) destino deciso da RSGQ con verbale: distruzione tramite ditta autorizzata\n   (con formulario), declassamento ad alimento zootecnico ove ammissibile,\n   riutilizzo escluso per prodotti Classe 1;\nd) conservazione campioni per eventuale contenzioso/analisi (min. 10 pz per\n   lotto, cella dedicata);\ne) tutte le evidenze confluiscono nel dossier di crisi.\n\nFASE 5 - CHIUSURA E RIESAME\nEntro 15 giorni dalla chiusura operativa: riunione di riesame del team di\ncrisi con: causa radice (metodo 5 perché / Ishikawa), azioni correttive con\nresponsabili e scadenze, valutazione dei tempi effettivi vs quelli di\nprocedura, aggiornamento dell'analisi dei pericoli se pertinente, relazione\nalla Direzione. Costi della crisi quantificati da Amministrazione (Trentin L.)\ne registrati.\n\n7. TEMPISTICHE RIEPILOGATIVE (vincolanti)\nValutazione preliminare               entro 2 h dalla segnalazione\nConvocazione team di crisi            immediata per Classe 1-2\nBlocco lotti e mass balance           entro 4 h dalla convocazione"
+  },
+  {
+   "cid": 546,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "origine": "nativa",
+   "rerank": 0.02427133172750473,
+   "testo": "INVENTARIO FISICO MAGAZZINI AL 31/05/2026 - logica FEFO - estratto gestionale + conta manuale;;;;;;;;;;;;\ncompilato: Faggionato N. + Trentin L. (valorizzazione);ultimo agg. 01/06/26 h 7.40;;;;;;;;;;;\nUbicazione;Cod_Art;Descrizione;Lotto;Data_arrivo;Scadenza/TMC;Giacenza;UM;Valore_unit_€;Valore_tot_€;Stato;gg_alla_scadenza;Note\nA-01-01;FAR-0-W300;Farina tipo 0 W300 sacco 25 kg;MV26-0402/B;2026-04-14;20/10/26;1.250;KG;0,52;650,00;OK;142;usare per prima - FEFO\nA-01-02;FAR-0-W300;Farina tipo 0 W300 sacco 25 kg;MV26-0429/A;04/05/26;30/10/26;3.975;KG;0,52;2.067,00;OK;152;1 sacco segregato (lacerato) v. riga sotto\nA-01-02;FAR-0-W300;Farina tipo 0 W300 sacco 25 kg - SEGREGATO;MV26-0430/A;04/05/26;01/11/26;25;KG;0,52;13,00;SEGREGATO;154;sacco rotto DDT 48392 - verificare con Marchetti prima di usare\nA-01-03;FAR-0-W300;Farina tipo 0 W300 sacco 25 kg;MV26-0429/B;04/05/26;30/10/26;2.000;KG;0,52;1.040,00;OK;152;\nA-01-04;FAR-0-W300;Farina tipo 0 W300 sacco 25 kg;MV26-0430/A;04/05/26;01/11/26;3.900;KG;0,52;2.028,00;OK;154;\nA-01-05;FAR-0-W300;Farina tipo 0 W300 sacco 25 kg;MV26-0431/A;04/05/26;02/11/26;2.000;KG;0,52;1.040,00;OK;155;"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4630,
+ "tempi": {
+  "denso": 0.09,
+  "sparso": 0.24,
+  "rerank": 53.6
+ },
+ "id": "Q104",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:13:47",
+ "secondi": 53.93,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 65.81,
+  "token_prompt": 2116,
+  "token_risposta": 65,
+  "testo_grezzo": "La risposta è: 1 lotto in magazzino è gia' scaduto e va smaltito.\n\nFONTI: procedura_ritiro_prodotto_CRISI_GDO.txt, inventario_magazzino_scadenze_FEFO_maggio.csv\n\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "inventario_magazzino_scadenze_FEFO_maggio.csv"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

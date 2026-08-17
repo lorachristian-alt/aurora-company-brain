@@ -1,0 +1,684 @@
+{
+ "domanda": "Qual e' la causa radice che genera piu' non conformita' e quale quella che costa di piu'?",
+ "candidati_densi": [
+  {
+   "cid": 1854,
+   "punteggio": 0.5255495600018572,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 350,
+   "punteggio": 0.5204327436365966,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 308,
+   "punteggio": 0.460932025740838,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1365,
+   "punteggio": 0.44293013234397616,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1366,
+   "punteggio": 0.43586709084844616,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1386,
+   "punteggio": 0.4352440751608862,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1737,
+   "punteggio": 0.43098411283652294,
+   "file": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 272,
+   "punteggio": 0.43028621911059495,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1112,
+   "punteggio": 0.42981038199484856,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 722,
+   "punteggio": 0.42702657081658313,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 36,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1387,
+   "punteggio": 0.4252413057093696,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 738,
+   "punteggio": 0.4241707888418582,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 52,
+   "origine": "nativa"
+  },
+  {
+   "cid": 806,
+   "punteggio": 0.42317591571003105,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 120,
+   "origine": "nativa"
+  },
+  {
+   "cid": 709,
+   "punteggio": 0.42297402315871857,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 23,
+   "origine": "nativa"
+  },
+  {
+   "cid": 817,
+   "punteggio": 0.4224929389555501,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 131,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1393,
+   "punteggio": 0.42240173310458373,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 802,
+   "punteggio": 0.42187575458372956,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 116,
+   "origine": "nativa"
+  },
+  {
+   "cid": 758,
+   "punteggio": 0.42172961362595435,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 72,
+   "origine": "nativa"
+  },
+  {
+   "cid": 808,
+   "punteggio": 0.4216838245847261,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 122,
+   "origine": "nativa"
+  },
+  {
+   "cid": 713,
+   "punteggio": 0.4214482214755264,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 27,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1366,
+   "punteggio": 19.94045066833496,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1387,
+   "punteggio": 18.834217071533203,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1607,
+   "punteggio": 18.70886993408203,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1776,
+   "punteggio": 18.627281188964844,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1178,
+   "punteggio": 18.31269073486328,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1385,
+   "punteggio": 18.159879684448242,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1391,
+   "punteggio": 17.334230422973633,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1786,
+   "punteggio": 17.313289642333984,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1112,
+   "punteggio": 17.005943298339844,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 620,
+   "punteggio": 16.878124237060547,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1386,
+   "punteggio": 16.85639762878418,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1365,
+   "punteggio": 16.13587760925293,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1792,
+   "punteggio": 16.04615020751953,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 350,
+   "punteggio": 15.753704071044922,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1111,
+   "punteggio": 15.689346313476562,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 308,
+   "punteggio": 15.678295135498047,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1113,
+   "punteggio": 15.613832473754883,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1869,
+   "punteggio": 15.484596252441406,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1394,
+   "punteggio": 15.332496643066406,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1142,
+   "punteggio": 15.214658737182617,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 24,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.03177805800756621,
+   "rango_denso": 5,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1387,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.03021353930031804,
+   "rango_denso": 11,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 350,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.02964254577157803,
+   "rango_denso": 2,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 1365,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.029513888888888888,
+   "rango_denso": 4,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1386,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.029236022193768675,
+   "rango_denso": 6,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 308,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.029030910609857977,
+   "rango_denso": 3,
+   "rango_sparso": 16
+  },
+  {
+   "cid": 1112,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.028985507246376812,
+   "rango_denso": 9,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1854,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1607,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1178,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1385,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1391,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1737,
+   "file": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 272,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1786,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 620,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 722,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 36,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 738,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 52,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 806,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 120,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1792,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 709,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 23,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  },
+  {
+   "cid": 817,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 131,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": 15,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1111,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": null,
+   "rango_sparso": 15
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 350,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "rerank": 0.23908720910549164
+  },
+  {
+   "cid": 1607,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.14985163509845734
+  },
+  {
+   "cid": 1178,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.12550203502178192
+  },
+  {
+   "cid": 1385,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "rerank": 0.06815716624259949
+  },
+  {
+   "cid": 1387,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "rerank": 0.049407146871089935
+  },
+  {
+   "cid": 1854,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.046173546463251114
+  },
+  {
+   "cid": 1386,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "rerank": 0.027321312576532364
+  },
+  {
+   "cid": 308,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "rerank": 0.017093079164624214
+  },
+  {
+   "cid": 1111,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.01571187749505043
+  },
+  {
+   "cid": 1391,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "rerank": 0.015622984617948532
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.014356584288179874
+  },
+  {
+   "cid": 1737,
+   "file": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "rerank": 0.0020075265783816576
+  },
+  {
+   "cid": 709,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "rerank": 0.0002863341069314629
+  },
+  {
+   "cid": 722,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "rerank": 0.00024193347780965269
+  },
+  {
+   "cid": 817,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "rerank": 0.00023739274183753878
+  },
+  {
+   "cid": 806,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "rerank": 0.0002258308813907206
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.00021717965137213469
+  },
+  {
+   "cid": 738,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "rerank": 0.00019762659212574363
+  },
+  {
+   "cid": 272,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "rerank": 0.00015508171054534614
+  },
+  {
+   "cid": 620,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.00014360903878696263
+  },
+  {
+   "cid": 1365,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 4.474550223676488e-05
+  },
+  {
+   "cid": 1786,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 2.409057015029248e-05
+  },
+  {
+   "cid": 1792,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 2.362113445997238e-05
+  },
+  {
+   "cid": 1112,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 1.8848941181204282e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 350,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "origine": "nativa",
+   "rerank": 0.23908720910549164,
+   "testo": "10 19/05/2026 cliente GDO Alì SpA AF-SN-0450 L26130-L1-T2 blocco cautelativo merce in CE.DI. maggiore 1440 aperto\nNon conformità 2026 per causa radice - analisi di Pareto\n\n\n\nCausa radice N. NC % % cumulata Costo € Azione in corso\nRegistrazioni incomplete o non verificate 14 4200 seconda firma di fine turno - NON ancora applicata\nManutenzione rimandata / ricambi non originali 11 21400 ordine ricambi urgenti PKM-450\nErrore umano di linea 9 3100 rifare formazione (rimandata per carichi produttivi)\nMateria prima non conforme 7 5800 vendor rating e audit fornitore Lievital\nPulizia insufficiente / CIP abortito 6 2900 revisione IO-05 e turni di lavaggio\nTaratura strumenti scaduta 4 1200 contratto con ente esterno da rinnovare\nAltro / non determinata 5 900\nTOTALE\n\nle prime due cause sono esattamente le due NC minori dell'audit CSQA di febbraio\nAndamento tamponi ambientali per zona - % conformità\n\n\n\nZona Punto gen feb mar apr mag Media Note\nZona 1 Nastro uscita forno FT-01 100 100 100 97 94\nZona 1 Ganasce saldanti PKM-450 100 97 100 92 83\nZona 1 Scivolo metal detector MD-3200 100 100 97 95 89\nZona 2 Carrelli di trasferimento 97 94 97 92 88\nZona 2 Guarnizioni cella CF-02 100 100 94 89 86"
+  },
+  {
+   "cid": 1607,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "origine": "nativa",
+   "rerank": 0.14985163509845734,
+   "testo": "4. ELENCO NON CONFORMITA' / NON-CONFORMITY LIST\n----------------------------------------------------------------------------\nTutte le NC sotto riportate sono classificate MINORI (minor).\nTermine di chiusura / Deadline: piano d'azione + evidenze entro 28 gg dalla\nriunione di chiusura, ossia entro il 18/03/2026.\nPer ciascuna NC è richiesta: correzione, analisi della causa radice (root cause\nanalysis), azione correttiva, evidenza oggettiva.\n\n===========================================================================\nNC n. 1 (MINORE)\nStandard/clausola: BRCGS Issue 9 cl. 2.10.2 - IFS Food v8 cl. 2.3.9.2\nRequisito: le registrazioni dei controlli ai CCP devono essere verificate da\n  persona autorizzata diversa dall'esecutore, con firma di verifica.\nEvidenza oggettiva: le registrazioni manuali del monitoraggio CCP2 (MOD-QA-12)\n  e CCP3 (MOD-QA-07 rev.5) del periodo 12-16/01/2026 (Linea 1, turni 1 e 2)\n  risultano prive della verifica in seconda firma del capoturno entro fine\n  turno in 11 moduli su 20 esaminati. La verifica QA settimanale risulta\n  invece eseguita. Intervistato il capoturno, la prassi della seconda firma\n  non risulta sistematica."
+  },
+  {
+   "cid": 1178,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "origine": "nativa",
+   "rerank": 0.12550203502178192,
+   "testo": "REGISTRO NON CONFORMITA' INTERNE - AURORA FOOD GROUP S.R.L. - ANNO 2026 - MOD-QA-18 rev.3 - agg. Pozzato S.\nN_NC;Data;Origine;Reparto;Descrizione;Prodotto_Lotto;Gravità;Causa_radice;Azione_correttiva;Responsabile;Data_chiusura;Stato;Costo_stimato_€\nNC-2026-001;07/01/2026;interna;Linea 1;Sottopeso rilevato su selezionatrice, 14 pezzi sotto tolleranza su AF-SN-0450;AF-SN-0450 L26007-L1-T1;bassa;dosatore starato dopo fermo natalizio;ritaratura dosatore, ricontrollo 100% inizio turno;Popescu I.;08/01/2026;CHIUSA;120,00\nNC-2026-002;08/01/2026;interna;Magazzino;Rotazione FEFO non rispettata su farina tipo 00, bancale con scadenza piu vicina dietro;F0012 farina 00;bassa;mappatura ubicazioni non aggiornata;riubicazione bancali, richiamo verbale addetto;Faggionato N.;12/01/2026;CHIUSA;\nNC-2026-003;09/01/2026;fornitore;Ricevimento merci;DDT Molino Veneto non riporta n. lotto farina W300, merce accettata con riserva;F0012;media;errore compilazione fornitore;richiesta DDT integrativo, sollecito a fornitore;Faggionato N.;15/01/2026;CHIUSA;N/D"
+  },
+  {
+   "cid": 1385,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "origine": "nativa",
+   "rerank": 0.06815716624259949,
+   "testo": "Il RSGQ, con il supporto dell'Assistente Qualità:\n\n1. verifica la rintracciabilità del lotto su MOD-MAG-02 (quantità prodotta, quantità spedita, giacenza residua, clienti destinatari);\n2. estrae e riesamina le registrazioni di produzione e di controllo del lotto: MOD-QA-12 (CCP2), MOD-QA-07 rev.5 (CCP3), MOD-PR-04 (fermi macchina), registrazioni CIP;\n3. blocca cautelativamente l'eventuale giacenza del lotto a magazzino, con cartellino giallo NON CONFORME;\n4. preleva e riesamina i campioni di riserva del lotto (campioteca, conservazione a temperatura di esercizio per shelf life + 1 mese);\n5. per la classe 1, informa la direzione e convoca il team HACCP per la valutazione di attivazione della PRO-QA-11.\n\n6.3 Tempistiche di sintesi\n\n\n7. INDAGINE E RICERCA DELLA CAUSA RADICE\n\n7.1 Metodo\n\nPer i reclami di classe 1 e 2 la ricerca della causa radice è obbligatoria e documentata nella sezione C del MOD-QA-31. Il metodo di riferimento è la combinazione di:"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4359,
+ "tempi": {
+  "denso": 0.01,
+  "sparso": 0.17,
+  "rerank": 46.77
+ },
+ "id": "Q114",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:21:49",
+ "secondi": 46.96,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 62.76,
+  "token_prompt": 1850,
+  "token_risposta": 102,
+  "testo_grezzo": "Non e' possibile determinare la causa radice della non conformita' NC-2026-001 senza ulteriori informazioni. Non e' ricavabile dai documenti forniti.\n\nFONTI: file: cruscotto_KPI_qualita_2026.xlsx, Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt, PRO-QA-08_gestione_reclami_cliente_rev2.docx\n\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "file: cruscotto_KPI_qualita_2026.xlsx",
+   "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "PRO-QA-08_gestione_reclami_cliente_rev2.docx"
+  ],
+  "fonti_fuori_contesto": [
+   "file: cruscotto_KPI_qualita_2026.xlsx"
+  ],
+  "confidenza": "bassa"
+ }
+}

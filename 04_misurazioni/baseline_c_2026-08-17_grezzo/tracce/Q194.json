@@ -1,0 +1,682 @@
+{
+ "domanda": "La verifica semestrale degli estintori era prevista per il 12 maggio: e' stata fatta in tempo? Chi se n'e' occupato e cosa stava succedendo in azienda in quei giorni?",
+ "candidati_densi": [
+  {
+   "cid": 1476,
+   "punteggio": 0.5457358249299455,
+   "file": "registro_estintori_scadenze.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1886,
+   "punteggio": 0.5423531026013311,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1246,
+   "punteggio": 0.5383577636739734,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1885,
+   "punteggio": 0.5376156448267191,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 82,
+   "punteggio": 0.5281743932398545,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1412,
+   "punteggio": 0.5249724042423043,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 347,
+   "punteggio": 0.5212586072778455,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1245,
+   "punteggio": 0.5201530020693448,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 617,
+   "punteggio": 0.5193954923832698,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1608,
+   "punteggio": 0.518972378662171,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 188,
+   "punteggio": 0.5148912137655252,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 189,
+   "punteggio": 0.5129903513185368,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1776,
+   "punteggio": 0.5110826019504956,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1664,
+   "punteggio": 0.5085670257217452,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 342,
+   "punteggio": 0.5072493445221287,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 614,
+   "punteggio": 0.5067235534736372,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 343,
+   "punteggio": 0.5067101430970458,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 292,
+   "punteggio": 0.5034167499445676,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1535,
+   "punteggio": 0.5025160187199578,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1864,
+   "punteggio": 0.5001080242886122,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 14,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1460,
+   "punteggio": 25.58333396911621,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1459,
+   "punteggio": 25.54482078552246,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 342,
+   "punteggio": 24.253093719482422,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1808,
+   "punteggio": 23.27383041381836,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1779,
+   "punteggio": 22.81157684326172,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 250,
+   "punteggio": 22.700780868530273,
+   "file": "comunicazione_chiusura_estiva_2026.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1825,
+   "punteggio": 22.159465789794922,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1885,
+   "punteggio": 22.076047897338867,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 343,
+   "punteggio": 22.02133560180664,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1847,
+   "punteggio": 21.827232360839844,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1795,
+   "punteggio": 21.492969512939453,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 22,
+   "origine": "nativa"
+  },
+  {
+   "cid": 346,
+   "punteggio": 21.426380157470703,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1138,
+   "punteggio": 21.20187759399414,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1707,
+   "punteggio": 21.189598083496094,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1776,
+   "punteggio": 21.014997482299805,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1709,
+   "punteggio": 20.959903717041016,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1785,
+   "punteggio": 20.5601863861084,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1780,
+   "punteggio": 20.406051635742188,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1835,
+   "punteggio": 20.4058837890625,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1366,
+   "punteggio": 20.243959426879883,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1885,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.030330882352941176,
+   "rango_denso": 4,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 342,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.029206349206349208,
+   "rango_denso": 15,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 343,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.027479766610201392,
+   "rango_denso": 17,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.027031963470319637,
+   "rango_denso": 13,
+   "rango_sparso": 15
+  },
+  {
+   "cid": 1460,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1476,
+   "file": "registro_estintori_scadenze.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1459,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1886,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1246,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1808,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 82,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1779,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 250,
+   "file": "comunicazione_chiusura_estiva_2026.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1412,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 347,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1825,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1245,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 617,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1608,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1847,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 188,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1795,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 22,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 189,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 346,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 346,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "rerank": 0.11239262670278549
+  },
+  {
+   "cid": 1476,
+   "file": "registro_estintori_scadenze.csv",
+   "rerank": 0.08114103972911835
+  },
+  {
+   "cid": 342,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "rerank": 0.03428829461336136
+  },
+  {
+   "cid": 1460,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.03397490829229355
+  },
+  {
+   "cid": 1885,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "rerank": 0.017143897712230682
+  },
+  {
+   "cid": 1412,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.012354123406112194
+  },
+  {
+   "cid": 343,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "rerank": 0.00881892442703247
+  },
+  {
+   "cid": 1459,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.006245548836886883
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.006060419604182243
+  },
+  {
+   "cid": 1825,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "rerank": 0.005712433252483606
+  },
+  {
+   "cid": 347,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "rerank": 0.003445802489295602
+  },
+  {
+   "cid": 189,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "rerank": 0.0018439183477312326
+  },
+  {
+   "cid": 1886,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "rerank": 0.0017874754266813397
+  },
+  {
+   "cid": 617,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.0015682538505643606
+  },
+  {
+   "cid": 1246,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.001409134129062295
+  },
+  {
+   "cid": 188,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "rerank": 0.0013425389770418406
+  },
+  {
+   "cid": 1245,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.001126734889112413
+  },
+  {
+   "cid": 1808,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.0009165197261609137
+  },
+  {
+   "cid": 1608,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.000571677926927805
+  },
+  {
+   "cid": 1847,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "rerank": 0.0003283951082266867
+  },
+  {
+   "cid": 1795,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.00013568474969360977
+  },
+  {
+   "cid": 250,
+   "file": "comunicazione_chiusura_estiva_2026.txt",
+   "rerank": 0.00010858624591492116
+  },
+  {
+   "cid": 82,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "rerank": 9.818719263421372e-05
+  },
+  {
+   "cid": 1779,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 3.980313704232685e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 346,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "origine": "nativa",
+   "rerank": 0.11239262670278549,
+   "testo": "(scadenza 14/09/2026), che dalla data di presentazione della SCIA (14/09/2021) ad oggi non\nsono intervenute modifiche che comportino aggravio delle preesistenti condizioni di sicurezza\nantincendio, fatte salve le seguenti variazioni non rilevanti gia' valutate dal professionista\nantincendio incaricato:\n- sostituzione di corpi illuminanti con apparecchi LED nel reparto confezionamento (04/2026);\n- installazione programmata del tunnel di surgelazione a spirale Criotech CR-SP180 in\n  sostituzione del tunnel a piastre TS-01 (fluido frigorigeno non infiammabile; pratica di\n  valutazione ex art. 4 c. 6 in corso di predisposizione a cura dell'ing. Dal Cero, che ne\n  ha preliminarmente escluso l'aggravio ai fini dell'attivita' 74).\nSi allega: contratto di manutenzione presidi antincendio con ditta Antincendi Scaligeri S.n.c.\n(Verona), n. AS-2024-118, comprensivo di controlli semestrali estintori, idranti, EFC e\nilluminazione di sicurezza; ultimo verbale di controllo semestrale del 12/03/2026 con esito\nregolare (n. 2 estintori sostituiti per revisione, plafoniera SE n. 41 sostituita).\nCologna Veneta, 04/06/2026\nDirettore di Stabilimento - Aurora Food Group S.r.l."
+  },
+  {
+   "cid": 1476,
+   "file": "registro_estintori_scadenze.csv",
+   "origine": "nativa",
+   "rerank": 0.08114103972911835,
+   "testo": "REGISTRO ANTINCENDIO - ESTINTORI E IDRANTI;;;;;;\nditta manutentrice: Antincendio Scaligera srl - Legnago (VR);;;;;;\n;;;;;;\nn.;tipo;capacità;ubicazione;ultima revisione;prossima scadenza;esito\n1;polvere ABC;6 kg;portineria;12/11/2025;12/05/2026;OK\n2;polvere ABC;6 kg;uffici piano 1 - corridoio;12/11/2025;12/05/2026;OK\n3;CO2;5 kg;quadro elettrico generale;12/11/2025;12/05/2026;OK\n4;polvere ABC;6 kg;spogliatoi;12/11/2025;12/05/2026;OK\n5;polvere ABC;9 kg;magazzino MP - lato nord;12/11/2025;12/05/2026;OK\n6;polvere ABC;9 kg;magazzino MP - lato sud;12/11/2025;12/05/2026;OK\n7;CO2;5 kg;quadro linea 1;12/11/2025;12/05/2026;OK\n8;polvere ABC;6 kg;linea 1 - uscita forno;12/11/2025;12/05/2026;manometro cambià\n9;polvere ABC;6 kg;linea 2;12/11/2025;12/05/2026;OK\n10;CO2;5 kg;quadro linea 2;12/11/2025;12/05/2026;OK\n11;polvere ABC;9 kg;linea 3 / cella;12/11/2025;12/05/2026;OK\n12;CO2;5 kg;sala compressori;12/11/2025;12/05/2026;OK\n13;polvere ABC;6 kg;officina;12/11/2025;12/05/2026;giu de pressione, ricaricà\n14;polvere ABC;6 kg;mensa;12/11/2025;12/05/2026;OK\n15;polvere ABC;9 kg;magazzino PF;12/11/2025;12/05/2026;OK\n16;CO2;5 kg;locale CED;12/11/2025;12/05/2026;OK"
+  },
+  {
+   "cid": 342,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "origine": "nativa",
+   "rerank": 0.03428829461336136,
+   "testo": "Validita': anni 5 dalla data di presentazione della SCIA.\nSCADENZA ATTESTAZIONE DI RINNOVO PERIODICO: 14/09/2026.\nIl rinnovo periodico di conformita' antincendio andra' richiesto ex art. 5 DPR 151/2011 con\ndichiarazione di assenza di variazioni delle condizioni di sicurezza antincendio e\nasseverazione di un professionista antincendio circa l'efficienza dei dispositivi, dei sistemi\ne degli impianti finalizzati alla protezione attiva, con esclusione delle attrezzature mobili\ndi estinzione (per le quali resta l'obbligo di sorveglianza e controllo periodico ex D.M.\n1/09/2021).\n\nMINISTERO DELL'INTERNO - COMANDO VIGILI DEL FUOCO DI VERONA - Pratica n. 28714\nPratica VV.F. 28714 - Aurora Food Group S.r.l. - Cologna Veneta (VR) - pag. 3\npag. 3\n4. PRESIDI ANTINCENDIO CENSITI (allegato al verbale)\nPresidio\nTipo/Norma\nQuantita'\nUbicazione\nControllo\nEstintori portatili\npolvere 6 kg\n34A 233B C - UNI EN\n3-7\n38\nreparti produzione,\nmagazzini, uffici\nsemestrale D.M.\n1/09/2021\nEstintori portatili\nCO2 5 kg\n113B - UNI EN 3-7\n8\nquadri elettrici,\ncabina MT, sala\ncompressori\nsemestrale\nEstintori carrellati\npolvere 30 kg\nA B1 C\n2\ndeposito esterno, area\ngruppo elettrogeno\nsemestrale\nRete idranti UNI 45"
+  },
+  {
+   "cid": 1460,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "origine": "nativa",
+   "rerank": 0.03397490829229355,
+   "testo": ">> di un anno e il tunnel nuovo lo paghiamo con cosa\n>> e la macchina dell azoto non era gia rotta la settimana scorsa?? qualcuno\n>> mi aveva detto che era tutto a posto MARCO\n>>\n>> G.\n>>\n>>\n>>> -----Messaggio originale-----\n>>> Da: Marco Fantin <m.fantin@aurorafoodgroup.it>\n>>> Inviato: martedi 12 maggio 2026 17:55\n>>> A: Elena Marchetti\n>>> Cc: Giancarlo Bertoldi; Ivano Dal Maso; Denis Zanella\n>>> Oggetto: R: URGENTE - reclamo corpo estraneo lotto L26130\n>>>\n>>> Elena,\n>>> visto. Tre cose, in ordine:\n>>> 1. lotto bloccato subito, anche il 131 per prudenza\n>>> 2. Ivano mi dici SUBITO cosa hai montato sulla PKM-450 il 10/05\n>>> 3. la signora va richiamata domani mattina, decidiamo alle 8 chi lo fa\n>>> Riunione domattina ore 8:00 in sala. Non scriviamo niente a Tosano\n>>> finche' non sappiamo cos'e' il pezzo.\n>>> MF\n>>>\n>>> Ing. Marco Fantin - Direttore di Stabilimento\n>>> Aurora Food Group S.r.l. - Cologna Veneta (VR)\n>>>\n>>>\n>>>> -----Messaggio originale-----\n>>>> Da: Elena Marchetti <e.marchetti@aurorafoodgroup.it>\n>>>> Inviato: martedi 12 maggio 2026 14:33\n>>>> A: Marco Fantin; Denis Zanella\n>>>> Cc: Giancarlo Bertoldi; Sara Pozzato"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4677,
+ "tempi": {
+  "denso": 0.01,
+  "sparso": 0.19,
+  "rerank": 48.8
+ },
+ "id": "Q194",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:22:34",
+ "secondi": 49.01,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 84.87,
+  "token_prompt": 2169,
+  "token_risposta": 160,
+  "testo_grezzo": "Non e' possibile determinare se la verifica semestrale degli estintori sia stata fatta in tempo, poiché non e' presente alcun dato sulla data di esecuzione della verifica.\n\nNon e' possibile determinare chi se ne e' occupato, poiché non e' presente alcun dato sulla persona responsabile della verifica semestrale.\n\nNon e' possibile determinare cosa stava succedendo in azienda in quei giorni, poiché non e' presente alcun dato sulla situazione aziendale.\n\nFONTI: CPI_certificato_prevenzione_incendi_VVF.pdf, registro_estintori_scadenze.csv, RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+  "fonti_citate": [
+   "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "registro_estintori_scadenze.csv",
+   "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

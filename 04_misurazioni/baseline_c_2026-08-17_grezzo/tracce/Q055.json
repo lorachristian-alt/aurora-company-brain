@@ -1,0 +1,685 @@
+{
+ "domanda": "Quante richieste ha fatto l'RSPP dopo il sopralluogo in cella e entro quando va aggiornato il DVR?",
+ "candidati_densi": [
+  {
+   "cid": 1229,
+   "punteggio": 0.5151410315163178,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1228,
+   "punteggio": 0.5111669590412948,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1826,
+   "punteggio": 0.49762898156580326,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 395,
+   "punteggio": 0.49378840678045854,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1230,
+   "punteggio": 0.48825582732959877,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1249,
+   "punteggio": 0.48280682494434757,
+   "file": "ordine_DPI_scarpe_antinfortunistiche.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 84,
+   "punteggio": 0.4810903614383275,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 922,
+   "punteggio": 0.4772651608609754,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 100,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1208,
+   "punteggio": 0.4767069517552441,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 30,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1407,
+   "punteggio": 0.47442821307857175,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1246,
+   "punteggio": 0.4736323677385079,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1207,
+   "punteggio": 0.4697305014469146,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 29,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1384,
+   "punteggio": 0.4693265062895686,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1606,
+   "punteggio": 0.4646328513970399,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1394,
+   "punteggio": 0.4645553762291562,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 342,
+   "punteggio": 0.46429225968740745,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1483,
+   "punteggio": 0.4623827686632269,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1144,
+   "punteggio": 0.4615508170733781,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 26,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1322,
+   "punteggio": 0.46152607580977484,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1400,
+   "punteggio": 0.46130277598650726,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 4,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1228,
+   "punteggio": 28.769914627075195,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1231,
+   "punteggio": 27.678001403808594,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1232,
+   "punteggio": 20.995464324951172,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1110,
+   "punteggio": 20.318614959716797,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 398,
+   "punteggio": 20.004545211791992,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 436,
+   "punteggio": 19.92662239074707,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1784,
+   "punteggio": 19.67078971862793,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 103,
+   "punteggio": 19.153121948242188,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 510,
+   "punteggio": 18.869028091430664,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 242,
+   "punteggio": 18.6335391998291,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1230,
+   "punteggio": 18.224666595458984,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1108,
+   "punteggio": 17.811302185058594,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1846,
+   "punteggio": 17.754491806030273,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1781,
+   "punteggio": 17.59781265258789,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1245,
+   "punteggio": 17.154884338378906,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1229,
+   "punteggio": 17.04430389404297,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1367,
+   "punteggio": 16.962438583374023,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 600,
+   "punteggio": 16.941997528076172,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1093,
+   "punteggio": 16.871826171875,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1707,
+   "punteggio": 16.769929885864258,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 1,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1228,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.03252247488101534,
+   "rango_denso": 2,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1229,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.029551337359792925,
+   "rango_denso": 1,
+   "rango_sparso": 16
+  },
+  {
+   "cid": 1230,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.02946912242686891,
+   "rango_denso": 5,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1231,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1232,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1826,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 395,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 398,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 436,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1249,
+   "file": "ordine_DPI_scarpe_antinfortunistiche.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 84,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1784,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 103,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 922,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 100,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 510,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1208,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 30,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 242,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "idx": 18,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1407,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1246,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1108,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1207,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 29,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1384,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1846,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1228,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.8715827465057373
+  },
+  {
+   "cid": 1229,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.7151812314987183
+  },
+  {
+   "cid": 1230,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.5664570927619934
+  },
+  {
+   "cid": 1231,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.18809889256954193
+  },
+  {
+   "cid": 398,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "rerank": 0.15391089022159576
+  },
+  {
+   "cid": 1826,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "rerank": 0.033300623297691345
+  },
+  {
+   "cid": 1207,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.013873599469661713
+  },
+  {
+   "cid": 1232,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.004639854654669762
+  },
+  {
+   "cid": 103,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "rerank": 0.002798943081870675
+  },
+  {
+   "cid": 1249,
+   "file": "ordine_DPI_scarpe_antinfortunistiche.csv",
+   "rerank": 0.0021490780636668205
+  },
+  {
+   "cid": 1208,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.0013149011647328734
+  },
+  {
+   "cid": 510,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 0.0010365117341279984
+  },
+  {
+   "cid": 395,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "rerank": 0.0005773778539150953
+  },
+  {
+   "cid": 1246,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.000471387553261593
+  },
+  {
+   "cid": 242,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "rerank": 0.0004558650543913245
+  },
+  {
+   "cid": 922,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.000415481481468305
+  },
+  {
+   "cid": 84,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "rerank": 0.0003718764637596905
+  },
+  {
+   "cid": 1846,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "rerank": 0.00036230706609785557
+  },
+  {
+   "cid": 1407,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.0003100052126683295
+  },
+  {
+   "cid": 1784,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0001735939586069435
+  },
+  {
+   "cid": 1384,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "rerank": 0.00010508910054340959
+  },
+  {
+   "cid": 436,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 9.739771485328674e-05
+  },
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 2.2640871975454502e-05
+  },
+  {
+   "cid": 1108,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 2.1285210095811635e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1228,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "origine": "nativa",
+   "rerank": 0.8715827465057373,
+   "testo": "Rilasciato primo certificato medico INAIL.\n     Il medico di PS: dott.ssa [firma illeggibile]\n\n--------------------------------------------------------------------------\n\n4) NOTA DEL RSPP (pervenuta via PEC il 05/05/2026, prot. int. SPP-2026-011)\n\nOggetto: infortunio del 28/04/2026 - cella CF-02 - prime valutazioni e\nrichiesta aggiornamento DVR\n\nSpett.le Aurora Food Group S.r.l.\nc.a. datore di lavoro sig. G. Bertoldi\nc.a. dirigente delegato ing. M. Fantin\n\nA seguito del sopralluogo effettuato in data 04/05/2026 presso la cella\nCF-02 alla presenza del sig. Guerra e del sig. Faggionato, si osserva\nquanto segue:\n\na) la movimentazione dei carrelli portateglie in cella avviene in spazi\n   di manovra ridotti, aggravati nel periodo attuale dal sovrastoccaggio;\n   la larghezza utile della corsia B rilevata in sopralluogo (98 cm con\n   cella carica) risulta inferiore a quella considerata nel DVR vigente\n   (140 cm, rilevazione 2023, cella in condizioni ordinarie);\nb) i carrelli in uso sono privi di impugnature dedicate; la presa sul\n   montante espone le mani a cesoiamento/schiacciamento contro strutture\n   fisse;"
+  },
+  {
+   "cid": 1229,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "origine": "nativa",
+   "rerank": 0.7151812314987183,
+   "testo": "b) i carrelli in uso sono privi di impugnature dedicate; la presa sul\n   montante espone le mani a cesoiamento/schiacciamento contro strutture\n   fisse;\nc) i DPI (richiesti con MOD-HR-04 del 12/03) in dotazione per l'attivita' in cella (guanti di protezione dal\n   freddo EN 511) non offrono protezione meccanica adeguata; non risulta\n   valutato il rischio combinato freddo + schiacciamento per la mansione;\nd) la formazione specifica del lavoratore risulta in corso di validita';\n   si rileva tuttavia che l'addestramento documentato sulla\n   movimentazione carrelli in cella non e' presente nel fascicolo\n   (MOD-HR-11 privo della voce specifica).\n\nSi richiede pertanto:\n1. AGGIORNAMENTO DEL DVR (sezione 7.4 - magazzini e celle) entro 30 gg,\n   con rivalutazione del rischio meccanico in cella CF-02 in condizioni\n   di massimo stoccaggio;\n2. adozione di guanti con protezione combinata freddo/meccanica (proposta:\n   EN 511 + EN 388 liv. 3 minimo) previa prova di dexterity con i\n   lavoratori;\n3. dotazione dei carrelli di maniglioni di presa o, in alternativa,\n   procedura che vieti la spinta in coda di piu' carrelli;"
+  },
+  {
+   "cid": 1230,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "origine": "nativa",
+   "rerank": 0.5664570927619934,
+   "testo": "lavoratori;\n3. dotazione dei carrelli di maniglioni di presa o, in alternativa,\n   procedura che vieti la spinta in coda di piu' carrelli;\n4. ripristino della segnaletica orizzontale di corsia in CF-02 (usurata);\n5. inserimento dell'addestramento specifico a registro per tutti gli\n   addetti Linea 3 e magazzino.\n\nSi rammenta che l'evento, pur di modesta entita', presenta i caratteri\ndel near-miss rispetto a scenari di maggiore gravita' (mano trascinata\ncon carrello in movimento) e si raccomanda di trattarlo come tale nel\nriesame annuale.\n\nDistinti saluti,\np.i. Sergio Bonato - RSPP\nStudio Bonato & Partners - Arzignano (VI)\n\n--------------------------------------------------------------------------\n\n5) MAIL INTERNA\n\nDa: Sartori Federica\nA: Fantin Marco; Guerra Roberto\nCc: Zanella Denis\nInviato: mercoledì 6 maggio 2026 09:15\nOggetto: infortunio Corradin - nota RSPP e cose da fare\n\nBuongiorno,\nvi giro in stampa la nota di Bonato arrivata ieri via PEC (5 punti,\nscadenza DVR 30 gg quindi entro il 04/06). Mie note:\n\n- punto 2 (guanti): chiedo i campioni a due fornitori, li faccio provare\n  a Guerra e ai suoi PRIMA di ordinare 30 paia, l'ultima volta coi guanti"
+  },
+  {
+   "cid": 1231,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "origine": "nativa",
+   "rerank": 0.18809889256954193,
+   "testo": "- punto 2 (guanti): chiedo i campioni a due fornitori, li faccio provare\n  a Guerra e ai suoi PRIMA di ordinare 30 paia, l'ultima volta coi guanti\n  antitaglio nuovi meta' reparto se li toglieva perche' \"non si sente\n  niente\". Se non li mettono, non e' una protezione, e' una spesa.\n- punto 3 (maniglioni): Dal Maso dice che li puo' saldare lui su 4\n  carrelli come prova. Fantin mi confermi che va bene farlo internamente\n  o serve il fornitore per la marcatura? non vorrei sistemare una cosa\n  e crearne un'altra.\n- Corradin rientra presumibilmente l'11/05: visita di rientro con\n  Salvalaio NON necessaria sotto i 60 gg, ma Guerra chiede di metterlo\n  la prima settimana su mansione fuori cella. Per me ok.\n- ULSS: con l'ispezione annunciata per giugno, il verbale di sopralluogo\n  e il DVR aggiornato DEVONO essere pronti prima. Non e' il momento di\n  farci trovare con le carte a meta'.\n\nFederica\n\n--------------------------------------------------------------------------\n\n6) APPUNTI A MANO DEL CAPOTURNO (R. Guerra, foglio quadretti, trascritti\n   da f.s. il 12/05 - originale in fascicolo)\n\n28/4 ore 9.40 circa - Emanuele dito schiacciato cella 2 [nda: intende"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4588,
+ "tempi": {
+  "denso": 0.01,
+  "sparso": 0.18,
+  "rerank": 46.96
+ },
+ "id": "Q055",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:32:04",
+ "secondi": 47.15,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 60.31,
+  "token_prompt": 1829,
+  "token_risposta": 91,
+  "testo_grezzo": "La RSPP ha fatto 5 richieste dopo il sopralluogo in cella e deve essere aggiornata entro 30 giorni dalla data di ricezione della nota.\n\nFONTI: nota_infortunio_INAIL_operaio_linea3.txt, NOTA DEL RSPP (pervenuta via PEC il 05/05/2026, prot. int. SPP-2026-011)",
+  "fonti_citate": [
+   "nota_infortunio_INAIL_operaio_linea3.txt",
+   "NOTA DEL RSPP (pervenuta via PEC il 05/05/2026",
+   "prot. int. SPP-2026-011)"
+  ],
+  "fonti_fuori_contesto": [
+   "NOTA DEL RSPP (pervenuta via PEC il 05/05/2026",
+   "prot. int. SPP-2026-011)"
+  ],
+  "confidenza": "bassa"
+ }
+}

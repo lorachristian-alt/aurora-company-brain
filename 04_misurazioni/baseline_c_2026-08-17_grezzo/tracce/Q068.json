@@ -1,0 +1,682 @@
+{
+ "domanda": "Che cosa contestava esattamente la non conformita' sul carrello dei ricambi?",
+ "candidati_densi": [
+  {
+   "cid": 1609,
+   "punteggio": 0.574293624256907,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1775,
+   "punteggio": 0.5658230686601705,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1410,
+   "punteggio": 0.5300744800980688,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 617,
+   "punteggio": 0.5297758481896978,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1536,
+   "punteggio": 0.5289879999032727,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 350,
+   "punteggio": 0.5286801407789887,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1457,
+   "punteggio": 0.5257045570594084,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 613,
+   "punteggio": 0.5248826186753628,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1608,
+   "punteggio": 0.5190096003244296,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1206,
+   "punteggio": 0.5093522346862291,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 28,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1777,
+   "punteggio": 0.5076147331067247,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1535,
+   "punteggio": 0.5034084131199387,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1714,
+   "punteggio": 0.5012132448618819,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1411,
+   "punteggio": 0.5010257249830187,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 614,
+   "punteggio": 0.4985667499066202,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 275,
+   "punteggio": 0.4982027423575071,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1787,
+   "punteggio": 0.49418552715184083,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 278,
+   "punteggio": 0.49356695408100315,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1853,
+   "punteggio": 0.4921863791991249,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1778,
+   "punteggio": 0.4900363293833208,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 5,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1714,
+   "punteggio": 26.121742248535156,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1776,
+   "punteggio": 23.071176528930664,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 618,
+   "punteggio": 21.871496200561523,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1775,
+   "punteggio": 21.06430435180664,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1780,
+   "punteggio": 18.47855567932129,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1410,
+   "punteggio": 18.06597900390625,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1365,
+   "punteggio": 18.046798706054688,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1777,
+   "punteggio": 16.995746612548828,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1536,
+   "punteggio": 16.61347007751465,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1609,
+   "punteggio": 16.256301879882812,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1852,
+   "punteggio": 16.053146362304688,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 508,
+   "punteggio": 15.386938095092773,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1409,
+   "punteggio": 15.361688613891602,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1117,
+   "punteggio": 15.348960876464844,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1438,
+   "punteggio": 15.291838645935059,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1608,
+   "punteggio": 14.98572826385498,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1457,
+   "punteggio": 14.841208457946777,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1109,
+   "punteggio": 14.56743335723877,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 528,
+   "punteggio": 14.370709419250488,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 509,
+   "punteggio": 14.209748268127441,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 4,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1775,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.031754032258064516,
+   "rango_denso": 2,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1410,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.031024531024531024,
+   "rango_denso": 3,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1609,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.030679156908665108,
+   "rango_denso": 1,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1714,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.03009207275993712,
+   "rango_denso": 13,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1536,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.029877369007803793,
+   "rango_denso": 5,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1777,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.028790389395194696,
+   "rango_denso": 11,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1457,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.027912386121341344,
+   "rango_denso": 7,
+   "rango_sparso": 17
+  },
+  {
+   "cid": 1608,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.027650648360030512,
+   "rango_denso": 9,
+   "rango_sparso": 16
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 618,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 617,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1780,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 350,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1365,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 613,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1206,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 28,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1852,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 508,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1535,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1409,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1117,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 1411,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  },
+  {
+   "cid": 614,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": 15,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1438,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": null,
+   "rango_sparso": 15
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1775,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.5204313397407532
+  },
+  {
+   "cid": 1536,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.37430572509765625
+  },
+  {
+   "cid": 1609,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.23629291355609894
+  },
+  {
+   "cid": 1777,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.19263115525245667
+  },
+  {
+   "cid": 1608,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.1738349348306656
+  },
+  {
+   "cid": 1409,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.16780583560466766
+  },
+  {
+   "cid": 1410,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.15997788310050964
+  },
+  {
+   "cid": 350,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "rerank": 0.13567902147769928
+  },
+  {
+   "cid": 1714,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.12255726009607315
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.11183959245681763
+  },
+  {
+   "cid": 1852,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.10363175719976425
+  },
+  {
+   "cid": 1438,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "rerank": 0.056334469467401505
+  },
+  {
+   "cid": 618,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.03810737282037735
+  },
+  {
+   "cid": 1457,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.024949127808213234
+  },
+  {
+   "cid": 614,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.012548666447401047
+  },
+  {
+   "cid": 1206,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.012071861885488033
+  },
+  {
+   "cid": 1535,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.007966048084199429
+  },
+  {
+   "cid": 617,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.005476458463817835
+  },
+  {
+   "cid": 508,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 0.0033196595031768084
+  },
+  {
+   "cid": 613,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.0010398022131994367
+  },
+  {
+   "cid": 1411,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.0010228134924545884
+  },
+  {
+   "cid": 1780,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0002366449625696987
+  },
+  {
+   "cid": 1365,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 9.95155205600895e-05
+  },
+  {
+   "cid": 1117,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 9.847542969509959e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1775,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.5204313397407532,
+   "testo": "[00:01:52] PARLANTE_1: e quindi\n[00:01:54] PARLANTE_2: e quindi ivano ha fatto una riparazione d'emergenza per non tenere ferma la linea tutta la sera ha preso una guarnizione dal carrello dei ricambi quello che tiene a bordo linea\n[00:02:04] PARLANTE_3: il carrello a bordo linea che era la non conformita numero due dell'audit di febbraio lo dico per il verbale\n[00:02:11] PARLANTE_2: si elena lo so grazie\n[00:02:13] PARLANTE_3: no perche l'ho scritto nel piano di azione che andava tolto e non e stato\n[00:02:17] PARLANTE_2: elena adesso non e il momento di\n[00:02:19] PARLANTE_1: basta basta uno alla volta e la guarnizione di che colore era\n[00:02:24] PARLANTE_2: devo chiedere a ivano ma quelle non originali che tiene lui sono azzurre mi pare son quelle in silicone azzur\n[00:02:31] PARLANTE_1: [incomprensibile] porca miseria\n[00:02:34] PARLANTE_4: quindi stiamo dicendo che e nostra la plastica\n[00:02:37] PARLANTE_2: non lo stiamo dicendo silvia stiamo dicendo che e possibile va verificato ho gia mandato a chiamare ivano per farmi dare il pezzo smontato se ce l'ha ancora\n[00:02:46] PARLANTE_1: se ce l'ha ancora"
+  },
+  {
+   "cid": 1536,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "origine": "nativa",
+   "rerank": 0.37430572509765625,
+   "testo": "Oggetto: MOD-PR-04 n. 2026/087 - PKM-450 - richiesta urgente specifica materiale guarnizione\n\nBuongiorno Ivano,\nin relazione al rapporto in oggetto e alla segnalazione pervenuta da\nconsumatore in data 12/05 (frammento di materiale plastico rigido di\ncolore azzurro rinvenuto in confezione di prodotto AF-SN-0450, lotto\nL26130 - pratica reclamo MOD-QA-31 rif. REC-2026-011), si richiede con la\nmassima urgenza di specificare per iscritto:\n\n1) materiale costitutivo della guarnizione \"azzurra\" installata in via\n   provvisoria sulla valvola di iniezione azoto in data 10/05/2026;\n2) fornitore, codice articolo e lotto della medesima;\n3) disponibilita' della Dichiarazione di Conformita' ai sensi del Reg.\n   (CE) 1935/2004 e Reg. (UE) 10/2011 per contatto con alimenti (MOCA);\n4) se trattasi di materiale detettabile al metal detector (metal\n   detectable) o meno;\n5) da quanto tempo il carrello ricambi staziona in area produttiva e\n   con quale controllo di integrita', tenuto conto che la custodia di\n   ricambi e attrezzi in area produttiva senza controllo costituisce\n   la NC n. 2 dell'audit CSQA del 17-18/02/2026 (BRCGS cl. 4.7.5),"
+  },
+  {
+   "cid": 1609,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "origine": "nativa",
+   "rerank": 0.23629291355609894,
+   "testo": "ricambi (guarnizioni, o-ring, raccordi, min. viteria) e attrezzi manuali,\n  senza inventario, senza controllo di integrità e senza segregazione rispetto\n  all'area di produzione aperta. Il capo officina conferma che il carrello\n  staziona in area produttiva \"per rapidità di intervento\".\nRoot cause richiesta: SI\nAzione correttiva proposta dall'azienda (in sede di audit): rimozione del\n  carrello dall'area produttiva, gestione ricambi da magazzino officina con\n  prelievo per singolo intervento e conta attrezzi su MOD-PR-04.\nTermine: 18/03/2026        Stato al rilascio del rapporto: APERTA\n===========================================================================\nOSSERVAZIONE n. 1 (MINORE)\nStandard/clausola: IFS Food v8 cl. 4.18.1 - BRCGS 9 cl. 3.9.2\nRequisito: identificazione dei semilavorati in tutte le fasi.\nEvidenza oggettiva: in cella CF-01 n. 3 carrelli di farcitura semilavorata\n  (crema base per AF-SN-0450) identificati con solo appunto manoscritto\n  \"ven\" senza lotto, data di produzione né scadenza interna. La procedura\n  interna prevede etichetta semilavorato completa.\nRoot cause richiesta: SI\nAzione correttiva proposta: rietichettatura immediata (eseguita in audit),"
+  },
+  {
+   "cid": 1777,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.19263115525245667,
+   "testo": "[00:03:46] PARLANTE_2: che e esattamente la non conformita uno dell'audit la seconda firma di verifica che non\n[00:03:51] PARLANTE_3: che non e mai partita si le evidenze le ho mandate a csqa il 2 aprile lo so che era in ritardo marco me l'hai gia detto tre volte\n[00:03:58] PARLANTE_1: [sospiro] quindi ricapitolando abbiamo un lotto con deviazione del ccp2 non gestita un fermo macchina con guarnizione non originale e un reclamo per plastica azzurra tutto sullo stesso lotto\n[00:04:12] PARLANTE_2: si\n[00:04:12] PARLANTE_3: si\n[00:04:14] PARLANTE_4: [incomprensibile] madonna\n[00:04:16] PARLANTE_1: e il metal detector niente ovvio\n[00:04:19] PARLANTE_3: il MD-3200 la plastica non la vede giancarlo non e metallo il metal detector fa il metallo ferroso non ferroso e acciaio i tasselli sono passati tutti le verifiche orarie sono a posto sul MOD-QA-07\n[00:04:31] PARLANTE_1: si si lo so era per dire che non abbiamo una rete di sicurezza li\n[00:04:35] PARLANTE_2: il raggi x era nel piano investimenti del 2025 e l'abbiamo tagliato per fare spazio al tunnel lo dico cosi resta agli atti\n[00:04:42] PARLANTE_1: marco anche tu adesso con gli atti\n[00:04:44] PARLANTE_2: [risate]"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4634,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.27,
+  "rerank": 65.92
+ },
+ "id": "Q068",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:44:06",
+ "secondi": 66.21,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 71.08,
+  "token_prompt": 1944,
+  "token_risposta": 114,
+  "testo_grezzo": "La non conformità contestata esattamente era la presenza di una guarnizione non originale sul carrello dei ricambi, specificamente una guarnizione azzurra che non corrispondeva alle specifiche del prodotto.\n\nFONTI: trascrizione_riunione_direzione_12_05_2026.txt, report_fermo_macchina_confezionatrice_MAP.txt, Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt\nCONFIDENZA: alta",
+  "fonti_citate": [
+   "trascrizione_riunione_direzione_12_05_2026.txt",
+   "report_fermo_macchina_confezionatrice_MAP.txt",
+   "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "alta"
+ }
+}

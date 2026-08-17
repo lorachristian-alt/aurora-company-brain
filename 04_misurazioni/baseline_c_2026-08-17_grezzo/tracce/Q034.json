@@ -1,0 +1,681 @@
+{
+ "domanda": "Quali documenti dobbiamo allegare a ogni consegna per il cliente?",
+ "candidati_densi": [
+  {
+   "cid": 1146,
+   "punteggio": 0.6001467998684291,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 28,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1238,
+   "punteggio": 0.5996954744648555,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 208,
+   "punteggio": 0.5949629283461012,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 207,
+   "punteggio": 0.5868254663882431,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1240,
+   "punteggio": 0.5840421592396409,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1217,
+   "punteggio": 0.5835456979437287,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 203,
+   "punteggio": 0.5807149936119662,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 669,
+   "punteggio": 0.5771703039972849,
+   "file": "Listino_MolinoVeneto_giu2026.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 306,
+   "punteggio": 0.5757593021075137,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 254,
+   "punteggio": 0.575047198718577,
+   "file": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1239,
+   "punteggio": 0.5741542021434832,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1712,
+   "punteggio": 0.568057126163464,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 194,
+   "punteggio": 0.5619082790666133,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 200,
+   "punteggio": 0.56089723705919,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1843,
+   "punteggio": 0.5590421486231635,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 304,
+   "punteggio": 0.558779507608771,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1354,
+   "punteggio": 0.5561407127236002,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 591,
+   "punteggio": 0.5560255571534634,
+   "file": "IT03984710230_00215.xml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 586,
+   "punteggio": 0.5558479313464889,
+   "file": "IT03984710230_00188.xml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 12,
+   "punteggio": 0.5550799231743953,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 10,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1694,
+   "punteggio": 15.013216018676758,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1251,
+   "punteggio": 14.567390441894531,
+   "file": "Ordine_Tosano_2026_PRM_118_119_120.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1781,
+   "punteggio": 14.463089942932129,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1811,
+   "punteggio": 14.251548767089844,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 207,
+   "punteggio": 13.825146675109863,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 306,
+   "punteggio": 13.518198013305664,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 26,
+   "punteggio": 13.286327362060547,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 24,
+   "origine": "nativa"
+  },
+  {
+   "cid": 12,
+   "punteggio": 13.096755981445312,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1340,
+   "punteggio": 12.6307373046875,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 259,
+   "punteggio": 12.429361343383789,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 111,
+   "punteggio": 12.401938438415527,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1695,
+   "punteggio": 12.396881103515625,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1119,
+   "punteggio": 12.146474838256836,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 14,
+   "punteggio": 12.11790943145752,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1177,
+   "punteggio": 11.449698448181152,
+   "file": "noleggio_distributori_automatici_contratto.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1145,
+   "punteggio": 11.39538860321045,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 27,
+   "origine": "nativa"
+  },
+  {
+   "cid": 27,
+   "punteggio": 11.335890769958496,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 25,
+   "origine": "nativa"
+  },
+  {
+   "cid": 7,
+   "punteggio": 11.258695602416992,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 206,
+   "punteggio": 11.111748695373535,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 13,
+   "punteggio": 10.810125350952148,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 11,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 207,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.031009615384615385,
+   "rango_denso": 4,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 306,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.02964426877470356,
+   "rango_denso": 9,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 12,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.027205882352941177,
+   "rango_denso": 20,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1146,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 28,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1694,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1238,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1251,
+   "file": "Ordine_Tosano_2026_PRM_118_119_120.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 208,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1811,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1240,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1217,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 26,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 24,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 203,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 669,
+   "file": "Listino_MolinoVeneto_giu2026.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1340,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 254,
+   "file": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 259,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 111,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1239,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1695,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1712,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 194,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1119,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1251,
+   "file": "Ordine_Tosano_2026_PRM_118_119_120.pdf",
+   "rerank": 0.6286596655845642
+  },
+  {
+   "cid": 1694,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "rerank": 0.15932691097259521
+  },
+  {
+   "cid": 669,
+   "file": "Listino_MolinoVeneto_giu2026.pdf",
+   "rerank": 0.15926659107208252
+  },
+  {
+   "cid": 1695,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "rerank": 0.07913710922002792
+  },
+  {
+   "cid": 12,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.07334593683481216
+  },
+  {
+   "cid": 1217,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "rerank": 0.03984597325325012
+  },
+  {
+   "cid": 306,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "rerank": 0.016932588070631027
+  },
+  {
+   "cid": 207,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "rerank": 0.016828086227178574
+  },
+  {
+   "cid": 1146,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.011090203188359737
+  },
+  {
+   "cid": 194,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "rerank": 0.005538265220820904
+  },
+  {
+   "cid": 1238,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.0046936762519180775
+  },
+  {
+   "cid": 1239,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.004587365780025721
+  },
+  {
+   "cid": 203,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "rerank": 0.004104072228074074
+  },
+  {
+   "cid": 1240,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.0038666315376758575
+  },
+  {
+   "cid": 254,
+   "file": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "rerank": 0.003618782153353095
+  },
+  {
+   "cid": 259,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "rerank": 0.0022155630867928267
+  },
+  {
+   "cid": 1712,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.0018009105697274208
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0017430915031582117
+  },
+  {
+   "cid": 1811,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.0013395068235695362
+  },
+  {
+   "cid": 1119,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.0012366297887638211
+  },
+  {
+   "cid": 208,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "rerank": 0.0011555490782484412
+  },
+  {
+   "cid": 1340,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "rerank": 0.000853183853905648
+  },
+  {
+   "cid": 26,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.00035834949812851846
+  },
+  {
+   "cid": 111,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "rerank": 3.700822708196938e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1251,
+   "file": "Ordine_Tosano_2026_PRM_118_119_120.pdf",
+   "origine": "nativa",
+   "rerank": 0.6286596655845642,
+   "testo": "promo 3+1\n06/05/2026\n14.400\n2,89\n119/2\n77210\nAF-CR-0215\nCornetto\nPremium PL 8x45\ng surgelato\n06/05/2026\n6.240\n1,84\n120/1\n88419\nAF-SN-0455\nSnack salato\nrustico formato\npromo 3+1\n13/05/2026\n9.600\n2,89\n120/2\n77210\nAF-CR-0215\nCornetto\nPremium PL 8x45\ng surgelato\n13/05/2026\n4.160\n1,84\n120/3\n79055\nAF-FC-0330\nFocaccina olio\nEVO 2x90 g ATM\n13/05/2026\n2.400\n0,92\nCondizioni\nLe consegne devono pervenire al CE.DI. di Cerea nella finestra di scarico prenotata\ntramite il portale fornitori, con almeno 72 ore di preavviso. Il mancato rispetto della\nfinestra comporta il riaddebito dei costi di fermo macchina come da accordo quadro.\nI quantitativi indicati sono vincolanti. Eventuali consegne parziali devono essere\nautorizzate per iscritto dall'ufficio acquisti.\nSi richiama l'art. 8 dell'accordo quadro in materia di penali per mancata o ritardata\nconsegna, con particolare riferimento al comma 3.\nDocumenti richiesti a corredo di ogni consegna: DDT, certificato di conformita' di lotto,\nregistrazione delle temperature per i prodotti surgelati.\nOrdine trasmesso via EDI (ORDERS D96A) e per conoscenza a mezzo posta elettronica."
+  },
+  {
+   "cid": 1694,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "origine": "nativa",
+   "rerank": 0.15932691097259521,
+   "testo": "elenco ingredienti (farina di grano tenero tipo 0), evidenziazione\nallergene GRANO, condizioni di conservazione, dichiarazione nutrizionale.\n\n14. LIMITAZIONI D'USO\nProdotto non destinato al consumo diretto senza cottura. Non idoneo a\ndiete prive di glutine. Il cliente Ã¨ responsabile della corretta gestione\ndel prodotto dopo la consegna e della validazione del proprio processo.\n\n15. EMISSIONE E APPROVAZIONE\nRedatto da: Ufficio QualitÃ  - dott.ssa M. Scapin\nApprovato da: Direzione Tecnica - dott. F. Longhi\nData: 02/12/2025\nDocumento generato elettronicamente, valido senza firma autografa.\nTimbro/firma per accettazione del cliente: ____________________\n(da restituire controfirmata a qualita@molinoveneto.it - la mancata\nrestituzione entro 30 gg vale come accettazione tacita della specifica)\n\n[per Aurora Food Group S.r.l.: accettata con riserva di verifica\nalveogramma su ogni lotto sfuso - vedi accordo di fornitura 2025 -\nannotazione Ufficio QualitÃ  Aurora: CoA con W, P/L e FN OBBLIGATORIO\nper ogni consegna, non \"su richiesta\" - Marchetti 09/01/26]\n\nPag. 6 di 6\n\nSTORICO REVISIONI\nrev. 11  02/12/2025  aggiornamento limiti Reg. 2023/915 (ergot);"
+  },
+  {
+   "cid": 669,
+   "file": "Listino_MolinoVeneto_giu2026.pdf",
+   "origine": "nativa",
+   "rerank": 0.15926659107208252,
+   "testo": "- Certificato di analisi allegato a ogni lotto, come da capitolato\nRestiamo a disposizione per ogni chiarimento.\nDirezione Commerciale - Molino Veneto S.p.A.\n_______________________________\ndott. Emanuele Brazzale"
+  },
+  {
+   "cid": 1695,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "origine": "nativa",
+   "rerank": 0.07913710922002792,
+   "testo": "per ogni consegna, non \"su richiesta\" - Marchetti 09/01/26]\n\nPag. 6 di 6\n\nSTORICO REVISIONI\nrev. 11  02/12/2025  aggiornamento limiti Reg. 2023/915 (ergot);\n  inserimento par. radioattivitÃ ; aggiornata matrice allergeni\n  (assessment 2025: aggiunte voci senape e lupini da semi estranei)\nrev. 10  15/01/2024  adeguamento FSSC 22000 v6; W da 290+/-20 a 300+/-20\n  su richiesta cliente industriale; nuovo formato lotto\nrev. 9  03/2022  aggiornamento valori nutrizionali (nuova campagna\n  analitica); inserito amido danneggiato\nrev. 8  06/2020  inserita dichiarazione filiera OGM-free; DoC MOCA\n  richiamata a dossier\nrev. 7 e precedenti: disponibili in archivio Ufficio QualitÃ  Molino\nVeneto su richiesta scritta\n\n--- fine documento - export PDF: ST-F0-W300_rev11.pdf - convertito il\n03/12/2025 con PDFtoText v4.02 - alcune tabelle potrebbero non mantenere\nl'allineamento originale ---"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 3376,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.15,
+  "rerank": 37.11
+ },
+ "id": "Q034",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:16:15",
+ "secondi": 37.28,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 56.66,
+  "token_prompt": 1522,
+  "token_risposta": 90,
+  "testo_grezzo": "Dobbiamo allegare i seguenti documenti a ogni consegna:\n\n* DDT\n* Certificato di conformità di lotto\n* Registrazione delle temperature per i prodotti surgelati\n\nFONTI: Ordine_Tosano_2026_PRM_118_119_120.pdf, scheda_tecnica_farina_tipo_0_MolinoVeneto.txt\n\nCONFIDENZA: alta",
+  "fonti_citate": [
+   "Ordine_Tosano_2026_PRM_118_119_120.pdf",
+   "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "alta"
+ }
+}

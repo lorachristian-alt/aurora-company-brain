@@ -1,0 +1,688 @@
+{
+ "domanda": "Se dobbiamo far partire un camion per Cerea di domenica, quanto ci costa e con chi?",
+ "candidati_densi": [
+  {
+   "cid": 276,
+   "punteggio": 0.5967867991056985,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1735,
+   "punteggio": 0.5813745312099738,
+   "file": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 433,
+   "punteggio": 0.5444496028983434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1734,
+   "punteggio": 0.5408738273495359,
+   "file": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1367,
+   "punteggio": 0.5339182969358813,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1731,
+   "punteggio": 0.5301298474744714,
+   "file": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1732,
+   "punteggio": 0.5237925430617197,
+   "file": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1733,
+   "punteggio": 0.5227208896979347,
+   "file": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 531,
+   "punteggio": 0.5222311738934065,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 12,
+   "punteggio": 0.5194849802009843,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 259,
+   "punteggio": 0.5104795045662158,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 628,
+   "punteggio": 0.5093129410066064,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1729,
+   "punteggio": 0.5075517951904331,
+   "file": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1730,
+   "punteggio": 0.5031915384345773,
+   "file": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 283,
+   "punteggio": 0.5012663879005665,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1422,
+   "punteggio": 0.5010102986176141,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 274,
+   "punteggio": 0.49553002791077183,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 9,
+   "punteggio": 0.4922258770915208,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 284,
+   "punteggio": 0.4914265736324872,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1541,
+   "punteggio": 0.49065998356747337,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 0,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1366,
+   "punteggio": 34.88972091674805,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1781,
+   "punteggio": 30.969375610351562,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 512,
+   "punteggio": 24.305721282958984,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1108,
+   "punteggio": 24.253198623657227,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1792,
+   "punteggio": 23.528078079223633,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 506,
+   "punteggio": 22.026023864746094,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 514,
+   "punteggio": 21.932666778564453,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 431,
+   "punteggio": 21.112947463989258,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 434,
+   "punteggio": 20.09083366394043,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1831,
+   "punteggio": 20.051681518554688,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 248,
+   "punteggio": 19.713329315185547,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1310,
+   "punteggio": 19.445938110351562,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1367,
+   "punteggio": 19.362186431884766,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 337,
+   "punteggio": 19.152912139892578,
+   "file": "corso_inglese_aziendale_proposta.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 618,
+   "punteggio": 18.853580474853516,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1410,
+   "punteggio": 18.77987289428711,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1782,
+   "punteggio": 18.721940994262695,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1832,
+   "punteggio": 18.647476196289062,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1780,
+   "punteggio": 18.150287628173828,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1109,
+   "punteggio": 17.93360137939453,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1367,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.029083245521601686,
+   "rango_denso": 5,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 276,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1735,
+   "file": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 433,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 512,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1108,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1734,
+   "file": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1792,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 506,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1731,
+   "file": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 514,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1732,
+   "file": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1733,
+   "file": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 531,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 12,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1831,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 248,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 259,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 628,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1310,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1735,
+   "file": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "rerank": 0.08877874165773392
+  },
+  {
+   "cid": 1734,
+   "file": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "rerank": 0.07606720179319382
+  },
+  {
+   "cid": 276,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.02426544390618801
+  },
+  {
+   "cid": 531,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "rerank": 0.02211732603609562
+  },
+  {
+   "cid": 1732,
+   "file": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "rerank": 0.021144812926650047
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.0042395456694066525
+  },
+  {
+   "cid": 1731,
+   "file": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "rerank": 0.004232837352901697
+  },
+  {
+   "cid": 1733,
+   "file": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "rerank": 0.0029715567361563444
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0025323154404759407
+  },
+  {
+   "cid": 433,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.0011823181994259357
+  },
+  {
+   "cid": 12,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.0010335437254980206
+  },
+  {
+   "cid": 1367,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.0009065596968866885
+  },
+  {
+   "cid": 628,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "rerank": 0.0006606769165955484
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.00046491625835187733
+  },
+  {
+   "cid": 259,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "rerank": 0.0004122793907299638
+  },
+  {
+   "cid": 1831,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.00024495666730217636
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 6.947889050934464e-05
+  },
+  {
+   "cid": 1792,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 6.84389888192527e-05
+  },
+  {
+   "cid": 1310,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "rerank": 3.340918192407116e-05
+  },
+  {
+   "cid": 506,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 2.913821481342893e-05
+  },
+  {
+   "cid": 248,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "rerank": 2.2806738343206234e-05
+  },
+  {
+   "cid": 1108,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 2.1922191081102937e-05
+  },
+  {
+   "cid": 512,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 1.7734626453602687e-05
+  },
+  {
+   "cid": 514,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 1.6339514331775717e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1735,
+   "file": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "origine": "nativa",
+   "rerank": 0.08877874165773392,
+   "testo": "FrigoExpress Nordest;Cerea DOMENICA;37053;motrice frigo -18;;253,50;9% fisso;35,00 eur;45,00;incluso;100,00;sempre;195+30%\nCargo Frigo Emilia;Cerea DOMENICA;37053;motrice frigo -18;;non disponibile;;;;;;;non lavora la domenica\n;;;;;;;;;;;;\nCONFRONTO RAPIDO CEREA -18 A VIAGGIO (fatto da N.F. 20/03): TFV 310 bilico / Zorzi 179 motrice / FrigoExpress 195 motrice / CFE 169 motrice MA spot;;;;;;;;;;;;\n;;;;;;;;;;;;\nrighe sotto = residuo rev.1 gennaio, da tabella vecchia con colonne in ordine diverso - NON ricopiate su rev.2, tenute perche non si sa mai;;;;;;;;;;;;\nVettore;Tratta;Mezzo;eur_plt;eur_viaggio;note;;;;;;;\nTrasporti Frigo Veneto;Cerea;motrice -18;17,20;172,00;listino 2025 prorogato a gen-feb;;;;;;;\nTrasporti Frigo Veneto;Padova;motrice +4;15,60;156,00;;;;;;;;\nLogistica Zorzi;Cerea;motrice -18;16,50;165,00;prezzo di favore vecchio - Zorzi e' del paese;;;;;;;\nLogistica Zorzi;giro HoReCa;furgone +4;;78,00;;;;;;;;\nFrigoExpress Nordest;Cerea;motrice -18;18,90;189,00;;;;;;;;\nFrigoExpress Nordest;Milano;bilico -18;17,50;510,00;;;;;;;;\nAutotrasporti Bregolin;Cerea;centinato;11,90;119,00;ambiente;;;;;;;\n;;;;;;;;;;;;"
+  },
+  {
+   "cid": 1734,
+   "file": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "origine": "nativa",
+   "rerank": 0.07606720179319382,
+   "testo": "Cargo Frigo Emilia;Cologna Veneta-Reggio Emilia (Criotech);42124;motrice centinata;;280,00;come sopra;20,00 eur;38,00;n/d;n/d;30/09/26;x eventuali ritiri ricambi tunnel\n;;;;;;;;;;;;\nNOTE GASOLIO: indicizzazione MISE = adeguamento mensile su variazione prezzo medio gasolio autotrazione (fonte MISE/MASE) rispetto a baseline contratto. TFV baseline dic 2025. Zorzi tutto incluso. FrigoExpress 9% FISSO sempre (occhio: a gasolio basso ci perdiamo).;;;;;;;;;;;;\nVettore;Tratta;CAP_destino;Tipo_mezzo;Tariffa_pallet_eur;Tariffa_viaggio_eur;Suppl_gasolio;Sponda_idraulica;Attesa_oltre_60min_eur_h;Notturno_festivo;Penale_mancata_consegna;Validita;Note\nTARIFFE FESTIVI/DOMENICA (x promo Tosano sett 19-21 - richieste apposta);;;;;;;;;;;;\nTrasporti Frigo Veneto;Cerea DOMENICA;37053;motrice frigo -18;;231,25;indicizz. MISE;inclusa;35,00;incluso nel prezzo;80,00;solo sett 19-21;185+25% - confermato da Scapin x mail\nLogistica Zorzi;Cerea DOMENICA;37053;motrice frigo -18;;215,00;incluso;inclusa;25,00;incluso;60,00;solo sett 19-21;disponibile solo domenica mattina\nFrigoExpress Nordest;Cerea DOMENICA;37053;motrice frigo -18;;253,50;9% fisso;35,00 eur;45,00;incluso;100,00;sempre;195+30%"
+  },
+  {
+   "cid": 276,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "origine": "nativa",
+   "rerank": 0.02426544390618801,
+   "testo": "primo evento (art. 11.3), non i 250 euro indicati nella contestazione;\n- da lunedì il nostro magazzino vi comunicherà la partenza di OGNI mezzo\n  diretto a Cerea con messaggio alle 6:30, così da darvi modo di ripianificare\n  la baia in caso di imprevisti;\n- le lascio il mio cellulare diretto: per qualsiasi criticità sulle nostre\n  consegne può chiamare me.\n\nIl Gruppo Tosano è il nostro primo cliente e vorrei che questo episodio\nrestasse quello che è: un episodio.\n\nLa chiamo lunedì mattina per chiudere.\n\nUn cordiale saluto\nSilvia Bertoldi\nDirezione Commerciale\nAURORA FOOD GROUP S.r.l.\nVia dell'Industria 27 - 37044 Cologna Veneta (VR)\ntel. 0442 85 41 22 - mob. 348 22 41 907\nwww.aurorafoodgroup.it\n\nAi sensi del Reg. UE 2016/679 (GDPR) si precisa che le informazioni contenute\nin questo messaggio sono riservate e ad uso esclusivo del destinatario.\nQualora il messaggio Le fosse pervenuto per errore, La preghiamo di\neliminarlo senza copiarlo e di non inoltrarlo a terzi, dandocene gentilmente\ncomunicazione.\n\n> -----Messaggio originale-----\n> Da: Vantini Luca <l.vantini@tosano.it>\n> Inviato: venerdì 8 maggio 2026 14:07\n> A: Nicola Faggionato <n.faggionato@aurorafoodgroup.it>"
+  },
+  {
+   "cid": 531,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "origine": "nativa",
+   "rerank": 0.02211732603609562,
+   "testo": "Attenzione a due cose:\n- le 48 ore scadono SABATO 16 alle 10:37, non \"lunedi in giornata\". Con questa qui le sfumature non esistono.\n- chiede esplicitamente una valutazione sul ritiro. Vuol dire che se non gliela diamo noi la fanno loro, e se decide Tosano il ritiro ce lo comunicano, non ce lo chiedono. Papa' dice di preparare comunque il conto: parliamo di due lotti, circa 8.400 confezioni di cui 5.100 gia' a scaffale, la stima che mi ha fatto Nicola con i costi di logistica inversa e' sui 31.500 euro.\n\nElena, la relazione la impostiamo insieme ma la firma tecnica e' tua. Io NON mando niente a Cerea senza che l'abbiamo riletta in tre. Mario Rossi per ora non si e' fatto sentire, ma se questa cosa arriva sul tavolo del buyer in mezzo alla trattativa sul listino siamo finiti.\n\nElena: ok per le 14, sala 1' piano. Marco, ci sei anche tu.\nS.\n\nSilvia Bertoldi\nDirezione Commerciale\nAurora Food Group S.r.l. - Via dell'Industria 27, 37044 Cologna Veneta (VR)\nMob. 348 44 12 706 - s.bertoldi@aurorafoodgroup.it\n\n\n-----Messaggio originale-----\nDa: Anna Perbellini <a.perbellini@tosanocerea.it>\nInviato: giovedi 14 maggio 2026 10:37\nA: Silvia Bertoldi <s.bertoldi@aurorafoodgroup.it>"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4679,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.25,
+  "rerank": 46.39
+ },
+ "id": "Q184",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:14:59",
+ "secondi": 46.66,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 64.92,
+  "token_prompt": 2029,
+  "token_risposta": 47,
+  "testo_grezzo": "Il costo per far partire un camion per Cerea di domenica è di 35,00 eur.\n\nFONTI: [1], [2], [3], [4]\n\nCONFIDENZA: alta",
+  "fonti_citate": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "fonti_fuori_contesto": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "confidenza": "alta"
+ }
+}

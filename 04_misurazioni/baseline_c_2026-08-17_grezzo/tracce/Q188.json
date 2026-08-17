@@ -1,0 +1,681 @@
+{
+ "domanda": "C'e' qualche materia prima usata sul lotto L26130 che era vicina alla scadenza?",
+ "candidati_densi": [
+  {
+   "cid": 1769,
+   "punteggio": 0.6326270896618892,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1770,
+   "punteggio": 0.5942420013586095,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1768,
+   "punteggio": 0.5866646395058708,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "idx": 29,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1462,
+   "punteggio": 0.580625465730639,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 968,
+   "punteggio": 0.5792798149959922,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 34,
+   "origine": "nativa"
+  },
+  {
+   "cid": 966,
+   "punteggio": 0.5760444471859594,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 32,
+   "origine": "nativa"
+  },
+  {
+   "cid": 955,
+   "punteggio": 0.575356592575611,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 21,
+   "origine": "nativa"
+  },
+  {
+   "cid": 967,
+   "punteggio": 0.5734184597756802,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 33,
+   "origine": "nativa"
+  },
+  {
+   "cid": 952,
+   "punteggio": 0.572217130736424,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 944,
+   "punteggio": 0.5694033504316652,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 942,
+   "punteggio": 0.5688025221290522,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1202,
+   "punteggio": 0.56867868847771,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 24,
+   "origine": "nativa"
+  },
+  {
+   "cid": 963,
+   "punteggio": 0.567265068368952,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 29,
+   "origine": "nativa"
+  },
+  {
+   "cid": 941,
+   "punteggio": 0.5670862327634865,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 935,
+   "punteggio": 0.5669843249462809,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 956,
+   "punteggio": 0.5667436275345913,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 22,
+   "origine": "nativa"
+  },
+  {
+   "cid": 937,
+   "punteggio": 0.5644089879389349,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 936,
+   "punteggio": 0.5626942719879224,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 960,
+   "punteggio": 0.5618556369990342,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 26,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1074,
+   "punteggio": 0.5606896553682836,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 140,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1769,
+   "punteggio": 19.504207611083984,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1876,
+   "punteggio": 16.916580200195312,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1650,
+   "punteggio": 16.24476432800293,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 275,
+   "punteggio": 16.239215850830078,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 508,
+   "punteggio": 15.426151275634766,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1099,
+   "punteggio": 15.027957916259766,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 7,
+   "punteggio": 14.862812042236328,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1459,
+   "punteggio": 14.829934120178223,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 619,
+   "punteggio": 14.461400985717773,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1711,
+   "punteggio": 14.445453643798828,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1777,
+   "punteggio": 14.170153617858887,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1178,
+   "punteggio": 14.136423110961914,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 279,
+   "punteggio": 13.94591999053955,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1869,
+   "punteggio": 13.768516540527344,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1710,
+   "punteggio": 13.56815242767334,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1705,
+   "punteggio": 13.412557601928711,
+   "file": "segnalazione_guasto_cancello_carraio.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 576,
+   "punteggio": 13.34151840209961,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 214,
+   "punteggio": 13.297178268432617,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1725,
+   "punteggio": 13.297178268432617,
+   "file": "SKM_C224e26051412340.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1460,
+   "punteggio": 13.167170524597168,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 4,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1769,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.03278688524590164,
+   "rango_denso": 1,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1770,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1876,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1650,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1768,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "idx": 29,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 275,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1462,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 508,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 968,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 34,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 966,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 32,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1099,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 7,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 955,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 21,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 967,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 33,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1459,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 619,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 952,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 18,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 944,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1711,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 942,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1777,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1178,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1202,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 24,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 279,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1769,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "rerank": 0.9939683675765991
+  },
+  {
+   "cid": 1768,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "rerank": 0.7995184659957886
+  },
+  {
+   "cid": 1770,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "rerank": 0.7396090030670166
+  },
+  {
+   "cid": 1202,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.6388503909111023
+  },
+  {
+   "cid": 1711,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.3596583902835846
+  },
+  {
+   "cid": 1459,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.28804370760917664
+  },
+  {
+   "cid": 952,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.277545690536499
+  },
+  {
+   "cid": 968,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.2755848169326782
+  },
+  {
+   "cid": 619,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.24863126873970032
+  },
+  {
+   "cid": 967,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.24247996509075165
+  },
+  {
+   "cid": 966,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.23395085334777832
+  },
+  {
+   "cid": 942,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.23353683948516846
+  },
+  {
+   "cid": 1462,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.21958106756210327
+  },
+  {
+   "cid": 955,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.2092677801847458
+  },
+  {
+   "cid": 944,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.19997158646583557
+  },
+  {
+   "cid": 1178,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.11359822005033493
+  },
+  {
+   "cid": 1650,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "rerank": 0.03104114904999733
+  },
+  {
+   "cid": 1876,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "rerank": 0.02801542729139328
+  },
+  {
+   "cid": 7,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.02288801595568657
+  },
+  {
+   "cid": 1099,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "rerank": 0.0060238903388381
+  },
+  {
+   "cid": 1777,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0025396901182830334
+  },
+  {
+   "cid": 508,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 0.00033352128230035305
+  },
+  {
+   "cid": 279,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.00024508353089913726
+  },
+  {
+   "cid": 275,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.00018299593648407608
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1769,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "origine": "nativa",
+   "rerank": 0.9939683675765991,
+   "testo": "TRACCIABILITÀ LOTTO L26130-L1-T2 - ricostruzione a monte\ncompilato in emergenza il 14/05/2026 da S. Pozzato su richiesta di E. Marchetti - DA VERIFICARE\n\n\nMateria prima Fornitore Lotto fornitore DDT ingresso Data ingresso Qtà impiegata UM TMC Certificato Note\nFarina tipo 0 W300 Molino Veneto SpA MV26-0429/A 48392 04/05/2026 840 kg 04/11/2026 CoA agli atti\nFarina tipo 0 W300 Molino Veneto SpA MV26-0431/B 48392 04/05/2026 210 kg 06/11/2026 CoA agli atti coda bancale precedente\nOlio girasole alto oleico Oleificio Adriatico SpA OA-2604-118 5521 28/04/2026 96 kg 28/10/2026 CoA agli atti\nSemi misti tostati Chemifood/terzi SM-26-0088 3312 22/04/2026 38 kg 22/02/2027\nLievito compresso Lievital Srl LV26-1180 9922 07/05/2026 21 kg 21/05/2026 consumato quasi a scadenza\nSale marino fino - SL-25-4410 - 12/03/2026 14.5 kg 12/03/2028\nFilm MAP PP/EVOH FLEXBAR 65 AZ Flexipack Nordest Srl FX26-0338 7741 30/04/2026 62 kg - DoC DC-2026-041 bobine n. 4 - usata anche su L26131\nVaschetta PP 100 g Flexipack Nordest Srl FX26-0290 7741 30/04/2026 8600 pz - DoC DC-2026-041\nAzoto alimentare E941 Nordgas SpA NG-26-0506 BN-4471 06/05/2026 42 m3 - CoA gas serbatoio S2\n\nimpasto totale teorico"
+  },
+  {
+   "cid": 1768,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "origine": "nativa",
+   "rerank": 0.7995184659957886,
+   "testo": "P21;AF-SN-0450;L26131-L1-T2;flow-pack PP/EVOH 100 g (F0044);30% CO2 / 70% N2;30;90;N/D;N/D;N/D;N/D;N/D;N/D;N/D;N/D;N/D;N/D;N/D;in corso;\nnota generale (Zanchetta 02/07): i dati del lotto L26130 NON vanno usati per fissare la shelf life di etichetta - il lotto ha microperdite di saldatura riconducibili alla riparazione d'urgenza della PKM-450 del 10/05 (guarnizione non originale) - la shelf life si fissa su L26124 + L26128 replica B + L26131 - proposta: TMC 6 mesi a T ambiente, da confermare con 90 gg reali\nP09;AF-SN-0450;L26130-L1-T2;flow-pack PP/EVOH 100 g (F0044);30% CO2 / 70% N2;20;30;0,34;5,64;6,0;6,1;21,8;4,1;0,21;0,24;2,0x10^2;1,0x10^1;7,1;CONFORME;riga reinserita da export precedente, verificare doppioni\nP13;AF-SN-0450;L26124-L1-T1;flow-pack PP/EVOH 100 g (F0044);30% CO2 / 70% N2;30;30;0,34;5,61;6,1;1,4;27,4;7,0;0,28;0,33;1,8x10^2;1,0x10^1;6,3;CONFORME;"
+  },
+  {
+   "cid": 1770,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "origine": "nativa",
+   "rerank": 0.7396090030670166,
+   "testo": "Azoto alimentare E941 Nordgas SpA NG-26-0506 BN-4471 06/05/2026 42 m3 - CoA gas serbatoio S2\n\nimpasto totale teorico\n\n(S.P.) il lotto lievito LV26-1180 scadeva il 21/05, verificare se è stato usato anche il 11/05\nDestinazione del prodotto finito - lotti L26130 e L26131\n\n\n\nLotto Cod. art. Pz prodotti DDT uscita Data Cliente Destinazione Pz spediti Stato Rintracciato\nL26130-L1-T2 AF-SN-0450 8940 2026/1188 11/05/2026 Tosano Cerea SpA CE.DI. Cerea (VR) 5100 A SCAFFALE parziale\nL26130-L1-T2 AF-SN-0450 2026/1191 11/05/2026 Alì SpA CE.DI. Padova 1440 BLOCCATO C/O CLIENTE sì\nL26130-L1-T2 AF-SN-0450 giacenza magazzino Aurora 1180 BLOCCATO QA sì\nL26130-L1-T2 AF-SN-0450 scarti di linea / campioni 220 DISTRUTTO sì\nL26131-L1-T2 AF-SN-0450 7620 2026/1204 12/05/2026 Tosano Cerea SpA CE.DI. Cerea (VR) 4260 A SCAFFALE parziale\nL26131-L1-T2 AF-SN-0450 2026/1206 12/05/2026 Rossetto Trade SpA CE.DI. Villafranca 980 RICHIAMATO sì\nL26131-L1-T2 AF-SN-0450 giacenza magazzino Aurora 2380 BLOCCATO QA sì\nBilancio di massa - verifica di quadratura (requisito BRCGS cl. 3.9.2)\n\n\n\nLotto Pz prodotti Pz spediti Pz in giacenza Pz distrutti Totale rendicontato Differenza Quadratura % Esito"
+  },
+  {
+   "cid": 1202,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "origine": "nativa",
+   "rerank": 0.6388503909111023,
+   "testo": "NC-2026-091;12/05/2026;reclamo;Qualità;RECLAMO da form sito web: sig.ra M.G. (Bussolengo VR) segnala frammento di plastica dura azzurra in snack AF-SN-0450 lotto L26130 acquistato presso Tosano Bussolengo. Aperta gestione MOD-QA-31, richiesto campione e foto;AF-SN-0450 L26130-L1-T2;critica;presunta origine: guarnizione azzurra non originale PKM-450 (v. NC-2026-089), materiale non metallico non rilevabile da MD-3200;raccolta campione, blocco lotti L26130 e L26131, informativa a Tosano QA (Perbellini), valutazione ritiro cautelativo;Marchetti E.;;APERTA;N/D\nNC-2026-092;12/05/2026;interna;Qualità;Blocco cautelativo lotti L26130 e L26131 tutte le referenze Linea 1 coinvolte, circa 8.400 confezioni di cui 5.100 gia a scaffale;AF-SN-0450 L26130 / L26131;critica;v. NC-2026-088 NC-2026-089 NC-2026-091;segregazione magazzino, conteggio giacenze, procedura ritiro CRISI GDO in pre-allerta, stima costo ritiro 31.500;Fantin M.;;APERTA;31.500,00"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4169,
+ "tempi": {
+  "denso": 0.01,
+  "sparso": 0.2,
+  "rerank": 50.24
+ },
+ "id": "Q188",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:18:07",
+ "secondi": 50.45,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 111.57,
+  "token_prompt": 2144,
+  "token_risposta": 161,
+  "testo_grezzo": "Sì, ci sono materie prime usate sul lotto L26130 che erano vicine alla scadenza.\n\nIl lievito compresso LV26-1180 scadeva il 21/05, ma è stato consumato quasi a scadenza il 21/05. Il film MAP PP/EVOH FLEXBAR 65 AZ Flexipack Nordest Srl FX26-0338 scadeva il 30/11/2026, ma è stato usato anche su L26131.\n\nFONTI: tracciabilita_lotti_massbalance_L26130.xlsx, test_shelf_life_accelerata_confezione_MAP_snack.csv, tracciabilita_lotti_massbalance_L26130.xlsx\nCONFIDENZA: alta",
+  "fonti_citate": [
+   "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "test_shelf_life_accelerata_confezione_MAP_snack.csv"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "alta"
+ }
+}

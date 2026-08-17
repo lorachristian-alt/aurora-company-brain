@@ -1,0 +1,681 @@
+{
+ "domanda": "Il commercialista dice che serve la perizia per il credito d'imposta?",
+ "candidati_densi": [
+  {
+   "cid": 1217,
+   "punteggio": 0.5946011825271256,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1218,
+   "punteggio": 0.5239149578383808,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1216,
+   "punteggio": 0.5197023756231578,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1524,
+   "punteggio": 0.5156215356071414,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1099,
+   "punteggio": 0.4954416547061973,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1365,
+   "punteggio": 0.49457331504367097,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1781,
+   "punteggio": 0.49453129032327575,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1112,
+   "punteggio": 0.49378312476935016,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1809,
+   "punteggio": 0.49178273527465066,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1618,
+   "punteggio": 0.4917116888052582,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1426,
+   "punteggio": 0.49153025760213315,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1792,
+   "punteggio": 0.4871449233197936,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1795,
+   "punteggio": 0.4867655755894663,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 22,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1113,
+   "punteggio": 0.48134692992635464,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 528,
+   "punteggio": 0.4809795415821065,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1219,
+   "punteggio": 0.48037973480664603,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1796,
+   "punteggio": 0.4793576993772806,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 23,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1568,
+   "punteggio": 0.4763719548050678,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1114,
+   "punteggio": 0.4758507887977218,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 922,
+   "punteggio": 0.47580615582615315,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 100,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 173,
+   "punteggio": 25.732275009155273,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1366,
+   "punteggio": 22.73541831970215,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1861,
+   "punteggio": 21.136066436767578,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1860,
+   "punteggio": 20.024696350097656,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1424,
+   "punteggio": 19.07399559020996,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 174,
+   "punteggio": 18.9998779296875,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1365,
+   "punteggio": 18.65152359008789,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1809,
+   "punteggio": 18.59423065185547,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1219,
+   "punteggio": 17.91570472717285,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1212,
+   "punteggio": 17.079030990600586,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1524,
+   "punteggio": 16.99601173400879,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1218,
+   "punteggio": 16.624555587768555,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 522,
+   "punteggio": 16.438013076782227,
+   "file": "Fwd_newsletter_confindustria_marzo.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1113,
+   "punteggio": 15.44349193572998,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1379,
+   "punteggio": 15.38614273071289,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1112,
+   "punteggio": 15.254914283752441,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1425,
+   "punteggio": 15.238746643066406,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1786,
+   "punteggio": 14.925357818603516,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1562,
+   "punteggio": 14.90363883972168,
+   "file": "ricetta_base_esperimento_snack_salato_v12.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1374,
+   "punteggio": 14.624017715454102,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1365,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.03007688828584351,
+   "rango_denso": 6,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1218,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.030017921146953404,
+   "rango_denso": 2,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1524,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.029709507042253523,
+   "rango_denso": 4,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1809,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.02919863597612958,
+   "rango_denso": 9,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1112,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.02786377708978328,
+   "rango_denso": 8,
+   "rango_sparso": 16
+  },
+  {
+   "cid": 1219,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.027650648360030512,
+   "rango_denso": 16,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1113,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.02702702702702703,
+   "rango_denso": 14,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 173,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1217,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1216,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1861,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1860,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1099,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1424,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 174,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1212,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1618,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1426,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1792,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 522,
+   "file": "Fwd_newsletter_confindustria_marzo.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1795,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 22,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 528,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": 15,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1524,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.03470674529671669
+  },
+  {
+   "cid": 1860,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.011579709127545357
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.010672108270227909
+  },
+  {
+   "cid": 1113,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.0040979222394526005
+  },
+  {
+   "cid": 1365,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.003460041480138898
+  },
+  {
+   "cid": 1861,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.003443988738581538
+  },
+  {
+   "cid": 173,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "rerank": 0.0021825844887644053
+  },
+  {
+   "cid": 1219,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "rerank": 0.0013022461207583547
+  },
+  {
+   "cid": 1212,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "rerank": 0.0012606586096808314
+  },
+  {
+   "cid": 1217,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "rerank": 0.0011775862658396363
+  },
+  {
+   "cid": 1218,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "rerank": 0.0011765945237129927
+  },
+  {
+   "cid": 174,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "rerank": 0.0010797997238114476
+  },
+  {
+   "cid": 1809,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.0010502382647246122
+  },
+  {
+   "cid": 1216,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "rerank": 0.0009638760820962489
+  },
+  {
+   "cid": 522,
+   "file": "Fwd_newsletter_confindustria_marzo.txt",
+   "rerank": 0.0004784411285072565
+  },
+  {
+   "cid": 1099,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "rerank": 0.0003733737685251981
+  },
+  {
+   "cid": 1618,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "rerank": 0.00030365181737579405
+  },
+  {
+   "cid": 1795,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.00019373746181372553
+  },
+  {
+   "cid": 1426,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "rerank": 0.00011625097977230325
+  },
+  {
+   "cid": 1112,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.00011581459693843499
+  },
+  {
+   "cid": 1792,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.00010587032011244446
+  },
+  {
+   "cid": 528,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "rerank": 0.00010066503455163911
+  },
+  {
+   "cid": 1424,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "rerank": 9.043065074365586e-05
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 8.436143980361521e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1524,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "origine": "nativa",
+   "rerank": 0.03470674529671669,
+   "testo": "extra 2026 gia' fatturati: pratica credito imposta 4.0 tunnel Criotech,\n  acconto 1.500 € (fatt. 188/2026 del 12/05) - il resto a consuntivo,\n  ha detto \"dipende dalla perizia\" (vedi sua nota, girata a Bertoldi)\ndott.ssa VICENTINI Chiara - Studio Alimentaria (VR) - consulenza HACCP\n  canone 780 €/mese (visita mensile + aggiornamento manuale + formazione)\n  extra maggio: 16 h supporto gestione reclamo/ritiro a 75 €/h = 1.200 €\n  (approvate da Fantin al volo, giustamente)\np.i. BONATO Sergio - Studio Bonato & Partners (Arzignano) - RSPP esterno\n  incarico annuo 5.400 € + corsi sicurezza a listino\n  extra: pratica infortunio linea 3 (dito, 12 gg) compresa nel canone\nmedico competente (dott. Salvalaio): 38 €/visita x ~55 visite/anno + forfait\n  1.100 € = ~3.200 €/anno\nconsulente etichettatura/legale alimentare (avv. Faccin, a chiamata):\n  2025: 950 €. 2026 al 26/05: zero (sgrat sgrat)\nconsulenza dogane/export: NN ATTIVA (se parte l'export Austria sentire\n  CCIAA prima di pagare consulenti)\n\nTOT PROVVISORIO CONSULENZE (senza extra futuri): 21.600+6.120+9.360+5.400+3.200\n  = 45.680 €/anno + gli extra che arrivano sempre\n\n\n=== 8. ALTRI COSTI FISSI ==============================="
+  },
+  {
+   "cid": 1860,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.011579709127545357,
+   "testo": "2 standard certificati, 1 linea bio ICEA e crescente richiesta\n           documentale dei clienti GDO;\n        c) manutenzione: 2 addetti interni (Dal Maso, Bissoli) piu' terzisti; il\n           parco macchine Linea 1 (PKM-450 in particolare) mostra usura crescente\n           e il magazzino ricambi critici non e' presidiato.\n        L'AD si riserva di valutare un inserimento in Qualita' nel secondo\n        semestre, subordinato all'andamento di cassa (v. punto 9.1).\n\n9. DECISIONI DELLA DIREZIONE\n\n   9.1  Investimento tunnel di surgelazione a spirale Criotech CR-SP180 (fornitore\n        F0070) in sostituzione del TS-01: CONFERMATO. Ordine gia' emesso; acconto\n        30% pari a 87.000 euro in scadenza a maggio 2026. La rag. Trentin segnala\n        la concomitanza con incassi Tosano a 90 gg (RIBA) e l'utilizzo previsto\n        della linea anticipo fatture UniCredit. La Direzione approva la copertura\n        finanziaria proposta e incarica lo Studio Bellotto di istruire la pratica\n        del credito d'imposta beni strumentali con perizia di interconnessione.\n\n   9.2  Sistema informativo: prosegue la valutazione comparativa ERP CSB-System vs"
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "origine": "nativa",
+   "rerank": 0.010672108270227909,
+   "testo": "SAP e' piu' vicino al nostro commercialista. Decidere COSA ci serve prima\n   di decidere QUALE compriamo.\n3) Migrazione dati: tutti e due la stimano senza aver visto i ns. dati.\n   8-12 giornate per migrare 30 anni di excel della Trentin e' fantascienza,\n   quando apriranno i file capiranno. Prevedo raddoppio della voce.\n4) La cosa che non ho detto a nessuno dei due: prima dell'ERP ci serve\n   mettere ordine nei DOCUMENTI e nei processi. Se digitalizziamo il caos\n   otteniamo caos digitale, pagato 400.000 euro.\n5) Tempi: gennaio 2027 col trasloco magazzino eventuale + ispezione chiusa +\n   Criotech in montaggio a settembre = follia. Se ne parla per un go-live\n   a meta' 2027, con calma.\n\nMF\n\n=================================================================\nDomanda del titolare (riportata da Federica, mail del 17/05):\n=================================================================\n\n\"il bertoldi ha letto la comparativa e chiede: MA IN SOLDONI quanto mi costa\nal mese tutto compreso uno e quanto l altro, un numero solo per ciascuno,\ne chi dei due viene qui quando si blocca tutto alle 5 di mattina che stiamo\ncaricando i camion per il cedi. queste due cose. il resto dice che sono"
+  },
+  {
+   "cid": 1113,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "origine": "nativa",
+   "rerank": 0.0040979222394526005,
+   "testo": "dice una cosa il registro di carta ne dice un altra la Trentin ha i suoi excel il\nmagazzino ha i suoi la qualita ha i suoi moduli e quando serve ricostruire una\ngiornata di produzione ci vogliono tre persone e due giorni, questo nel 2026 non è\naccettabile, quindi il gestionale si fa, non so ancora quale e non so quando ma si fa,\ne prima ancora del gestionale voglio che qualcuno metta in ordine i DOCUMENTI perche\nabbiamo trent anni di carta e di file sparsi in dieci posti\n\nFantin fammi avere il tuo parere sui due preventivi ma un parere vero, tre righe\ntue, non il riassunto delle brochure\n\nQUINTO PUNTO il commerciale\n\nSilvia questa la devi leggere senza arrabbiarti, tu il commerciale lo tieni in piedi\nda sola e lo fai bene, Tosano si fida di te piu che di me ormai, ma proprio per questo\nlo vedi anche tu che sei satura, sei dietro alle promo, ai listini, alla Perbellini,\nal nuovo prodotto con Zanchetta, e intanto Alì è fermo, Rossetto è fermo, i grossisti\nli sentiamo quando chiamano loro, e dell estero non parliamo nemmeno, per fare 25\nmilioni ci vuole una rete e la rete non la puoi tessere da sola\n\nquindi io penso a un direttore commerciale da fuori, uno bravo, uno che viene dal"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4735,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.16,
+  "rerank": 42.62
+ },
+ "id": "Q053",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:30:25",
+ "secondi": 42.8,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 58.51,
+  "token_prompt": 1834,
+  "token_risposta": 89,
+  "testo_grezzo": "Il commercialista non ha specificato se serve la perizia per il credito d'imposta, ma menziona che la rag. Trentin ha detto \"dipende dalla perizia\" (vedi sua nota, girata a Bertoldi).\n\nFONTI: mail_titolare_Aurora_visione_aziendale_5anni.txt, report_costi_fissi_OpEx_manutenzioni.txt",
+  "fonti_citate": [
+   "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "report_costi_fissi_OpEx_manutenzioni.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

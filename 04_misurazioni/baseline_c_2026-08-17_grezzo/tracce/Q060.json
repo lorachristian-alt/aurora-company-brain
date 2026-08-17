@@ -1,0 +1,681 @@
+{
+ "domanda": "Chi autorizza gli straordinari del personale di linea e fino a che limite?",
+ "candidati_densi": [
+  {
+   "cid": 287,
+   "punteggio": 0.6011357939953037,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 286,
+   "punteggio": 0.5835133178529014,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 290,
+   "punteggio": 0.5783061348497793,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1423,
+   "punteggio": 0.5757174145746462,
+   "file": "Prospetto_straordinari_gen-apr_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 603,
+   "punteggio": 0.57349397985796,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 288,
+   "punteggio": 0.5546053093981829,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 293,
+   "punteggio": 0.548444938517668,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 609,
+   "punteggio": 0.5464722410643743,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1858,
+   "punteggio": 0.5383024473279494,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1788,
+   "punteggio": 0.5378530503012141,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 291,
+   "punteggio": 0.5325072416139331,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 289,
+   "punteggio": 0.5289834291926165,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 292,
+   "punteggio": 0.5144497981857832,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 625,
+   "punteggio": 0.5111726552390986,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 26,
+   "punteggio": 0.5099849455534005,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 24,
+   "origine": "nativa"
+  },
+  {
+   "cid": 294,
+   "punteggio": 0.5065068162742768,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1114,
+   "punteggio": 0.5001391898154344,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 602,
+   "punteggio": 0.49769615249654825,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 386,
+   "punteggio": 0.49465079943209156,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 27,
+   "punteggio": 0.4927991159742653,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 25,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 603,
+   "punteggio": 34.02632141113281,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1858,
+   "punteggio": 21.021915435791016,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 601,
+   "punteggio": 20.372684478759766,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 250,
+   "punteggio": 19.609315872192383,
+   "file": "comunicazione_chiusura_estiva_2026.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 335,
+   "punteggio": 18.320354461669922,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 313,
+   "punteggio": 17.594541549682617,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 609,
+   "punteggio": 16.9190673828125,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 515,
+   "punteggio": 16.768875122070312,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 600,
+   "punteggio": 16.66819190979004,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 513,
+   "punteggio": 16.615276336669922,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 514,
+   "punteggio": 16.28835678100586,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 291,
+   "punteggio": 15.764839172363281,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1612,
+   "punteggio": 15.655555725097656,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1314,
+   "punteggio": 15.608163833618164,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 608,
+   "punteggio": 14.942954063415527,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1810,
+   "punteggio": 14.480039596557617,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 512,
+   "punteggio": 14.450517654418945,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1094,
+   "punteggio": 14.389287948608398,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 332,
+   "punteggio": 14.20394515991211,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1176,
+   "punteggio": 14.190526008605957,
+   "file": "noleggio_distributori_automatici_contratto.txt",
+   "idx": 1,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 603,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.03177805800756621,
+   "rango_denso": 5,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1858,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.030621785881252923,
+   "rango_denso": 9,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 609,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.029631255487269532,
+   "rango_denso": 8,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 291,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.02797339593114241,
+   "rango_denso": 11,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 287,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 286,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 290,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 601,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 250,
+   "file": "comunicazione_chiusura_estiva_2026.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1423,
+   "file": "Prospetto_straordinari_gen-apr_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 335,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 288,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 313,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 293,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 515,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 600,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 513,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1788,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 514,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 289,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 292,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1612,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 625,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1314,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 603,
+   "file": "job_description_responsabile_produzione.docx",
+   "rerank": 0.9271597862243652
+  },
+  {
+   "cid": 287,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.5509645342826843
+  },
+  {
+   "cid": 286,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.3808768689632416
+  },
+  {
+   "cid": 609,
+   "file": "job_description_responsabile_produzione.docx",
+   "rerank": 0.3771408498287201
+  },
+  {
+   "cid": 290,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.22478079795837402
+  },
+  {
+   "cid": 291,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.1936059594154358
+  },
+  {
+   "cid": 1858,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.040387582033872604
+  },
+  {
+   "cid": 293,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.03790010139346123
+  },
+  {
+   "cid": 625,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "rerank": 0.034431617707014084
+  },
+  {
+   "cid": 292,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.028871871531009674
+  },
+  {
+   "cid": 288,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.026535438373684883
+  },
+  {
+   "cid": 1788,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.018169496208429337
+  },
+  {
+   "cid": 1423,
+   "file": "Prospetto_straordinari_gen-apr_2026.xlsx",
+   "rerank": 0.014329674653708935
+  },
+  {
+   "cid": 289,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.013980522751808167
+  },
+  {
+   "cid": 513,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 0.0012831245549023151
+  },
+  {
+   "cid": 335,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "rerank": 0.00123929837718606
+  },
+  {
+   "cid": 1314,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "rerank": 0.001224277075380087
+  },
+  {
+   "cid": 601,
+   "file": "job_description_responsabile_produzione.docx",
+   "rerank": 0.0012108312221243978
+  },
+  {
+   "cid": 1612,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.0011180557776242495
+  },
+  {
+   "cid": 600,
+   "file": "job_description_responsabile_produzione.docx",
+   "rerank": 0.0005827208515256643
+  },
+  {
+   "cid": 250,
+   "file": "comunicazione_chiusura_estiva_2026.txt",
+   "rerank": 0.0005011219764128327
+  },
+  {
+   "cid": 313,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.0003256319905631244
+  },
+  {
+   "cid": 515,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 0.0002010582247748971
+  },
+  {
+   "cid": 514,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 6.746171857230365e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 603,
+   "file": "job_description_responsabile_produzione.docx",
+   "origine": "nativa",
+   "rerank": 0.9271597862243652,
+   "testo": "7. Proporre e attuare interventi di miglioramento di efficienza (riduzione scarti, resa, OEE).\n8. Gestire ferie, permessi e straordinari del personale di produzione nel rispetto del CCNL e dei tetti di legge, in coordinamento con HR. Autorizzare gli straordinari senza limite quando gli ordini lo richiedono. [Sartori F. - tolto: dopo la contestazione RSU di maggio sulle 250 ore, gli straordinari oltre soglia li autorizza SOLO il Direttore di Stabilimento sentita HR. Lo metto anche nella tabella deleghe.]\n9. Assicurare l'addestramento operativo del personale di linea e la registrazione su MOD-HR-11.\n10. Partecipare al team HACCP in qualità di membro permanente.\n\n4. KPI ASSEGNATI\n\n\n[Fantin M. - il 100% sulle seconde firme non è negoziabile, è la NC 1 di CSQA. Sugli scarti l'1,8% è ambizioso con la PKM-450 in queste condizioni, rivediamo a settembre dopo la sostituzione valvola e la manutenzione straordinaria.]\n\n5. DELEGHE E LIMITI\n\n\n6. REQUISITI\n\nDiploma di perito agrario/agroalimentare o laurea in Scienze e Tecnologie Alimentari o equivalenti"
+  },
+  {
+   "cid": 287,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "origine": "nativa",
+   "rerank": 0.5509645342826843,
+   "testo": "con prestazioni giornaliere che, sommando ordinario e straordinario, hanno\nraggiunto e in taluni casi superato le 10 ore. Richiama l'art. 4 del D.Lgs.\n8 aprile 2003 n. 66 in materia di durata massima dell'orario di lavoro,\ncon particolare riferimento alla durata media massima settimanale di 48 ore\ncomprensive dello straordinario, calcolata sul periodo di riferimento, e\nl'art. 5 del medesimo decreto quanto ai limiti del lavoro straordinario.\nOsserva che il carattere \"sistematico\" dello straordinario contrasta con la\nnatura di strumento eccezionale che l'istituto riveste secondo il CCNL\napplicato.\n\nIl sig. Bertacco (RSU) riferisce che i lavoratori della Linea 2 hanno\nprestato straordinario pressoche' quotidiano nelle ultime quattro settimane,\ncon punte di 2,5 ore giornaliere, e che le comunicazioni di prolungamento\nturno sono avvenute in piu' occasioni il giorno stesso, a turno gia'\niniziato, rendendo impossibile ogni conciliazione con la vita familiare.\n\nL'ing. Fantin, per la Direzione, riconosce che il periodo ha comportato un\nricorso allo straordinario superiore all'ordinario andamento e ne indica la\ncausa negli ordini promozionali del cliente Tosano Cerea S.p.A., pervenuti"
+  },
+  {
+   "cid": 286,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "origine": "nativa",
+   "rerank": 0.3808768689632416,
+   "testo": "in relazione agli ordini promozionali del cliente Tosano Cerea S.p.A.\n   (iniziativa promozionale \"Sottocosto Primavera\", settimane 19-21);\n2. Lavoro domenicale sulla Linea 2 (croissanteria): domeniche 3, 10 e\n   17 maggio 2026;\n3. Monte ore straordinario individuale: posizioni in prossimita' e/o\n   superamento dei limiti contrattuali e di legge;\n4. Turnover del personale di Linea 2 e organici;\n5. Varie ed eventuali.\n\nPREMESSA\n\nIl presente incontro e' stato richiesto dalla RSU con comunicazione scritta\ndel 13/05/2026 (prot. int. HR-2026-0087), assistita dalla FLAI-CGIL\nterritoriale, ai sensi delle vigenti disposizioni del CCNL Industria\nAlimentare in materia di relazioni sindacali e di informativa alle RSU\nsull'organizzazione del lavoro.\n\nPUNTO 1 - LAVORO STRAORDINARIO PERIODO APRILE-MAGGIO 2026\n\nIl sig. Campagnolo (FLAI-CGIL) prende la parola ed espone quanto segue.\nRileva che nel periodo dal 20/04/2026 al 17/05/2026 il reparto Linea 2 ha\noperato con ricorso sistematico e non occasionale al lavoro straordinario,\ncon prestazioni giornaliere che, sommando ordinario e straordinario, hanno\nraggiunto e in taluni casi superato le 10 ore. Richiama l'art. 4 del D.Lgs."
+  },
+  {
+   "cid": 609,
+   "file": "job_description_responsabile_produzione.docx",
+   "origine": "nativa",
+   "rerank": 0.3771408498287201,
+   "testo": "mensile\nRegistrazioni CCP complete e in seconda firma\n% registrazioni conformi a campione\n100%\nmensile\nAmbito\nDelega\nLimite\nOltre il limite decide\nAcquisti urgenti materiali di consumo\nsì\n500 € per singolo ordine\nDirettore di Stabilimento\nFermo e riavvio linea\nsì\nfermi ≤ 4 ore senza impatto su CCP\nDirettore di Stabilimento\nStraordinario personale di linea\nsì\nentro tetti CCNL e budget mensile\nDirettore di Stabilimento sentita HR\nBlocco prodotto sospetto\nsì (obbligo, non facoltà)\nnessun limite\nsblocco: solo Qualità\nModifica parametri di processo\nno\n—\nQualità + Direttore di Stabilimento\nAssunzioni e provvedimenti disciplinari\nno\n—\nHR e Direzione\nCompetenza\nLivello richiesto\nNote\nProcessi di panificazione e sfogliatura industriale\navanzato\nlinee 1 e 2\nConfezionamento ATM/MAP\navanzato\nPKM-450, gestione gas E941/E290\nSurgelazione e catena del freddo\nintermedio\ndiventerà avanzato con il nuovo tunnel a spirale\nLettura dati di processo e datalogger\nintermedio\n\nGestione del personale di turno\navanzato\n3 nazionalità prevalenti in reparto, italiano non madrelingua per parte degli addetti\nProblem solving strutturato (5 perché, Ishikawa)\nintermedio\nformazione interna prevista\nCorso\nRiferimento"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4626,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.17,
+  "rerank": 37.57
+ },
+ "id": "Q060",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:35:53",
+ "secondi": 37.76,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 56.21,
+  "token_prompt": 1801,
+  "token_risposta": 68,
+  "testo_grezzo": "La risposta è: Il Direttore di Stabilimento autorizza gli straordinari del personale di linea fino a tetti CCNL e budget mensile, sentita HR.\n\nFONTI: job_description_responsabile_produzione.docx, contestazione_sindacale_straordinari_Tosano.txt",
+  "fonti_citate": [
+   "job_description_responsabile_produzione.docx",
+   "contestazione_sindacale_straordinari_Tosano.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

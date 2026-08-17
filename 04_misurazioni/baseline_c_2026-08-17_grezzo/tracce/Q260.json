@@ -1,0 +1,685 @@
+{
+ "domanda": "Cosa e' stato deciso nell'incontro con il buyer Rossi del 19 maggio a Cerea?",
+ "candidati_densi": [
+  {
+   "cid": 1831,
+   "punteggio": 0.43899350585777824,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 259,
+   "punteggio": 0.4305383972571669,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1421,
+   "punteggio": 0.4304361955193616,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 534,
+   "punteggio": 0.4292904054693582,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 531,
+   "punteggio": 0.4275016501545119,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1832,
+   "punteggio": 0.42623895649926713,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 334,
+   "punteggio": 0.4221129250057547,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 276,
+   "punteggio": 0.41565896565599547,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 649,
+   "punteggio": 0.4139278378995529,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 21,
+   "origine": "nativa"
+  },
+  {
+   "cid": 29,
+   "punteggio": 0.4131553959814495,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 27,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1828,
+   "punteggio": 0.4109675224543917,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 11,
+   "punteggio": 0.4083226505156978,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 283,
+   "punteggio": 0.40759113226777466,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 260,
+   "punteggio": 0.4059159753335282,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 274,
+   "punteggio": 0.391337694853721,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 295,
+   "punteggio": 0.39069666129741304,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1793,
+   "punteggio": 0.3873830437241972,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 9,
+   "punteggio": 0.3863203430999408,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1368,
+   "punteggio": 0.385501456452751,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1812,
+   "punteggio": 0.38446201687155435,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 8,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1832,
+   "punteggio": 24.459304809570312,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1831,
+   "punteggio": 23.96380615234375,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 630,
+   "punteggio": 22.63127326965332,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 531,
+   "punteggio": 22.031070709228516,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1828,
+   "punteggio": 21.954504013061523,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 286,
+   "punteggio": 21.669204711914062,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1421,
+   "punteggio": 21.093442916870117,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 628,
+   "punteggio": 19.274396896362305,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 629,
+   "punteggio": 19.24016761779785,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 284,
+   "punteggio": 18.624557495117188,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 430,
+   "punteggio": 18.565954208374023,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 334,
+   "punteggio": 18.525304794311523,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 436,
+   "punteggio": 17.98465347290039,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 435,
+   "punteggio": 17.8989315032959,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 646,
+   "punteggio": 17.865615844726562,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 632,
+   "punteggio": 17.6123104095459,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 649,
+   "punteggio": 17.47522735595703,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 21,
+   "origine": "nativa"
+  },
+  {
+   "cid": 638,
+   "punteggio": 17.262073516845703,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1794,
+   "punteggio": 16.840829849243164,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 21,
+   "origine": "nativa"
+  },
+  {
+   "cid": 278,
+   "punteggio": 16.801191329956055,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 5,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1831,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.03252247488101534,
+   "rango_denso": 1,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1832,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.031544957774465976,
+   "rango_denso": 6,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 531,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.031009615384615385,
+   "rango_denso": 5,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1421,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.030798389007344232,
+   "rango_denso": 3,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1828,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.02946912242686891,
+   "rango_denso": 11,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 334,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.028814262023217248,
+   "rango_denso": 7,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 649,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 21,
+   "origine": "nativa",
+   "rrf": 0.027479766610201392,
+   "rango_denso": 9,
+   "rango_sparso": 17
+  },
+  {
+   "cid": 259,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 630,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 534,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 286,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 276,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 628,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 629,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 29,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 27,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 284,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 11,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 283,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 436,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 260,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  },
+  {
+   "cid": 435,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 274,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": 15,
+   "rango_sparso": null
+  },
+  {
+   "cid": 646,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 18,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": null,
+   "rango_sparso": 15
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1832,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.767134428024292
+  },
+  {
+   "cid": 1828,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.4691101014614105
+  },
+  {
+   "cid": 1421,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "rerank": 0.3797903060913086
+  },
+  {
+   "cid": 284,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.3768278956413269
+  },
+  {
+   "cid": 646,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "rerank": 0.3607114851474762
+  },
+  {
+   "cid": 649,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "rerank": 0.2893902659416199
+  },
+  {
+   "cid": 630,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "rerank": 0.26509085297584534
+  },
+  {
+   "cid": 629,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "rerank": 0.242695614695549
+  },
+  {
+   "cid": 531,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "rerank": 0.2339165359735489
+  },
+  {
+   "cid": 1831,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.20836810767650604
+  },
+  {
+   "cid": 628,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "rerank": 0.18151134252548218
+  },
+  {
+   "cid": 334,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "rerank": 0.10775202512741089
+  },
+  {
+   "cid": 286,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.08597543835639954
+  },
+  {
+   "cid": 259,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "rerank": 0.02126556634902954
+  },
+  {
+   "cid": 534,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "rerank": 0.013205219991505146
+  },
+  {
+   "cid": 260,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "rerank": 0.013203342445194721
+  },
+  {
+   "cid": 283,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.005645103752613068
+  },
+  {
+   "cid": 29,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.0039905342273414135
+  },
+  {
+   "cid": 276,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.002952232491225004
+  },
+  {
+   "cid": 11,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.0021429923363029957
+  },
+  {
+   "cid": 274,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.0016772912349551916
+  },
+  {
+   "cid": 435,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.0009104060009121895
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.0006610031705349684
+  },
+  {
+   "cid": 436,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.0006510913372039795
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1832,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "origine": "nativa",
+   "rerank": 0.767134428024292,
+   "testo": "una cosa alla volta\n[] risposta scritta entro 15/5 — chi la firma? silvia o direttamente Giancarlo?\n\nnota mia: Rossi stavolta nn recitava. l'anno scorso su questi toni poi ha chiuso a\nmeta'. stavolta ha la tabella. secondo me il -4,5 diventa -3 se gli diamo il listing\nsenza fare storie. ma sul cornetto cosi' NN SI PUO', gia' adesso ci guadagnamo\nniente.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDa: Paolo Zampieri <p.zampieri.agente@gmail.com>\nA: Silvia Bertoldi <s.bertoldi@aurorafoodgroup.it>\nInviato: martedi' 5 maggio 2026 19:47\nOggetto: incontro Tosano stamattina - URGENTE risposta entro 15/5\n\nCiao Silvia,\n\nuscito ora ora dal giro, ti scrivo dal telefono scusa la forma. Ti riassumo Cerea di\nstamattina, poi ci sentiamo a voce domani che e' meglio.\n\nRossi chiede:\n- meno 4,5% su tutto il listino, da giugno\n- 12.000 euro di listing per il 3+1 (lo 0455), in cambio apre tutti i pdv\n- risposta SCRITTA entro il 15\n- ci rivediamo il 19 alle 9.30\n\nPoi ha minacciato (sorridendo, ma ha minacciato) di delistare la focaccina a settembre\ne ha detto che la direzione gli chiede un secondo fornitore sulla PL. Ha fatto vedere"
+  },
+  {
+   "cid": 1828,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "origine": "nativa",
+   "rerank": 0.4691101014614105,
+   "testo": "appunti incontro Tosano 5/5 — blocco Zampieri (ricopiati la sera in macchina, parcheggio CEDI)\n\n5/5/26 ore 10.20 (convocati x le 10, fatto anticamera 20 min, al solito)\nCE.DI. Cerea, saletta 2 primo piano, quella senza finestre\npresenti: M. Rossi (buyer fresco e forno), io, x 10 min anche una del controllo gestione\n(nome nn capito, Federca? Federica?) poi uscita\n\nRossi subito dritto al punto, nemmeno il caffe'\n\"avete visto i numeri del vostro comparto? io li vedo tutti i giorni\"\n\n- apre il pc, gira lo schermo, tabella con i ns prezzi e altri 2 fornitori (nomi coperti\n  con la mano, ma uno l'ho intravisto, inizia per P... Panem qualcosa? pugliesi)\n- dice che sul cornetto PL siamo \"fuori mercato di brutto\"\n- testuale: \"con questi numeri non ci sto dentro\"\n- testuale: \"il tuo cornetto me lo fanno a 12 punti in meno, e non e' uno che passa\n  di li', e' gente strutturata\"\n  → secondo me bluffa ma nn del tutto, la tabella l'aveva vera\n\nRICHIESTE (queste le ha dette chiare, me le sono fatte ripetere):\n1) -4,5% su TUTTO il listino 2026/2027, da subito, gia' dagli ordini di giugno\n2) listing fee 12.000 € per mettere dentro il formato promo 3+1 (AF-SN-0455) su tutta"
+  },
+  {
+   "cid": 1421,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "origine": "nativa",
+   "rerank": 0.3797903060913086,
+   "testo": "Horeca Forniture VR Srl;grossista Ho.Re.Ca.;Sfogliatina bio ai cereali;AF-CR-0220;N/D;N/D;1,95;420,00;21.840,00;26,0;\nCatering Veneto Snc;Ho.Re.Ca.;Focaccina olio EVO 2x90g;AF-FC-0330;N/D;N/D;1,30;260,00;13.520,00;18,0;cliente piccolo, RIBA insolute 2 volte su 6 - v. scadenzario\n;;;;;;;;;;\n;;;;;;;;;;\nSCENARIO \"IPOTESI -4,5% RICHIESTA BUYER ROSSI\" (mail M.Rossi 05/05/26) + LISTING FEE 12.000 UNA TANTUM SU AF-SN-0455;;;;;;;;;;\nTosano Cerea SpA;Tosano;Cornetto Premium PL 8x45g surg - SCENARIO;AF-CR-0215;15;;1,57;1.194,77;#RIF!;-0,2;SOTTO ZERO col nuovo prezzo. NON firmare cosi. Parlare con Giancarlo PRIMA dell'incontro del 15/06\nTosano Cerea SpA;Tosano;Snack rustico 100g PL - SCENARIO;AF-SN-0450;15;;0,75;810,00;42.120,00;18,1;tiene ma per poco, e senza recupero costo energia\nTosano Cerea SpA;Tosano;Cornetto marchio Aurora - SCENARIO;AF-CR-0212;12;;1,92;414,72;21.565,44;24,0;marchio proprio fuori trattativa, Rossi non lo tocca\nTosano Cerea SpA;Tosano;listing fee inserimento AF-SN-0455;AF-SN-0455;;;;;-12.000,00;;una tantum, la vogliono a giugno"
+  },
+  {
+   "cid": 284,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "origine": "nativa",
+   "rerank": 0.3768278956413269,
+   "testo": ">>>>> NON RISPONDE.\n>>>>> Se il mezzo non arriva entro le 14:00 lo slot decade e lo scarico\n>>>>> sara' A NOSTRA DISCREZIONE a fine coda.\n>>>>> Ricevimento Merci CE.DI. Cerea - int. 4402\n>>>>>\n>>>>> (messaggio generato dal portale fornitori - non rispondere a questa mail)\n\n---------------------------------------------------------------------------\nnota a margine stampata e archiviata nel raccoglitore CONTESTAZIONI 2026,\ntrascritta dal cartaceo:\n\n  \" NAC ricevuta 18/05 - 150 eur come da accordo, ok Trentin x registrazione.\n    numero emergenza trasporti aggiornato su portale Tosano il 12/05:\n    ora c'e' il mio cellulare + quello di Zorzi come backup.\n    avviso partenza h 6.30 ATTIVO da lun 11/05 - lo manda il turno notte\n    (Bissoli) via whatsapp al 4402, funziona.\n    NB il vendor rating maggio e' uscito 84/100 - dirlo a Silvia PRIMA\n    dell'incontro col buyer x il listino!!  - N.F. \""
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4281,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.31,
+  "rerank": 51.71
+ },
+ "id": "Q260",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T18:14:03",
+ "secondi": 52.05,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 53.86,
+  "token_prompt": 1898,
+  "token_risposta": 112,
+  "testo_grezzo": "Non e' possibile determinare cosa e' stato deciso nell'incontro con il buyer Rossi del 19 maggio a Cerea, poiche non e' presente alcun documento che contenga le informazioni relative a questo incontro.\n\nFONTI: verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt, Paolo Zampieri <p.zampieri.agente@gmail.com>, Silvia Bertoldi <s.bertoldi@aurorafoodgroup.it>\n\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "Paolo Zampieri <p.zampieri.agente@gmail.com>",
+   "Silvia Bertoldi <s.bertoldi@aurorafoodgroup.it>"
+  ],
+  "fonti_fuori_contesto": [
+   "Paolo Zampieri <p.zampieri.agente@gmail.com>",
+   "Silvia Bertoldi <s.bertoldi@aurorafoodgroup.it>"
+  ],
+  "confidenza": "bassa"
+ }
+}

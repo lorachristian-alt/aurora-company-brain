@@ -1,0 +1,681 @@
+{
+ "domanda": "Qual e' la temperatura piu' bassa che il pastorizzatore ha registrato il 10 maggio?",
+ "candidati_densi": [
+  {
+   "cid": 1776,
+   "punteggio": 0.5277410859720577,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1075,
+   "punteggio": 0.527144437190785,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 141,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1883,
+   "punteggio": 0.4860348102789504,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 419,
+   "punteggio": 0.4811368247476885,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1034,
+   "punteggio": 0.46776058802064713,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 100,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1134,
+   "punteggio": 0.46621735718459445,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 421,
+   "punteggio": 0.4553072935693596,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 22,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1031,
+   "punteggio": 0.4514190950972327,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 97,
+   "origine": "nativa"
+  },
+  {
+   "cid": 264,
+   "punteggio": 0.4504393335348,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 949,
+   "punteggio": 0.44745783881561374,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1035,
+   "punteggio": 0.4453525131755376,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 101,
+   "origine": "nativa"
+  },
+  {
+   "cid": 399,
+   "punteggio": 0.445036362640838,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1051,
+   "punteggio": 0.4432266153268284,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 117,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1057,
+   "punteggio": 0.44219981564052535,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 123,
+   "origine": "nativa"
+  },
+  {
+   "cid": 938,
+   "punteggio": 0.4419130960883857,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 410,
+   "punteggio": 0.441442555000314,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1032,
+   "punteggio": 0.43874204316614285,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 98,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1039,
+   "punteggio": 0.4376921256071239,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 105,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1033,
+   "punteggio": 0.43745117286362023,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 99,
+   "origine": "nativa"
+  },
+  {
+   "cid": 422,
+   "punteggio": 0.4370622820226756,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 23,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1776,
+   "punteggio": 22.28969955444336,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1365,
+   "punteggio": 20.25789451599121,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 611,
+   "punteggio": 19.26201057434082,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1444,
+   "punteggio": 18.846927642822266,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1215,
+   "punteggio": 17.163990020751953,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 431,
+   "punteggio": 16.33887481689453,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1112,
+   "punteggio": 15.743786811828613,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1788,
+   "punteggio": 15.349506378173828,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1785,
+   "punteggio": 14.807101249694824,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1314,
+   "punteggio": 14.700839042663574,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1554,
+   "punteggio": 14.576872825622559,
+   "file": "ricetta_base_esperimento_snack_salato_v12.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 510,
+   "punteggio": 14.571581840515137,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1214,
+   "punteggio": 14.54892635345459,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1249,
+   "punteggio": 14.538480758666992,
+   "file": "ordine_DPI_scarpe_antinfortunistiche.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 614,
+   "punteggio": 14.507095336914062,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1210,
+   "punteggio": 14.46033000946045,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 32,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1774,
+   "punteggio": 14.433053016662598,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 512,
+   "punteggio": 14.355060577392578,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 432,
+   "punteggio": 14.257229804992676,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 287,
+   "punteggio": 14.209704399108887,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 2,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.03278688524590164,
+   "rango_denso": 1,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1075,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 141,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1365,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 611,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1883,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 419,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 20,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1444,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1034,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 100,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1215,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1134,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 421,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 22,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1112,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1031,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 97,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1788,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 264,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1785,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 949,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1314,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1035,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 101,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1554,
+   "file": "ricetta_base_esperimento_snack_salato_v12.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 399,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 510,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1051,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 117,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1075,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.8142901659011841
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.6583787798881531
+  },
+  {
+   "cid": 1365,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.19483506679534912
+  },
+  {
+   "cid": 419,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "rerank": 0.024914918467402458
+  },
+  {
+   "cid": 1134,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.02487725019454956
+  },
+  {
+   "cid": 1031,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.02078660950064659
+  },
+  {
+   "cid": 1034,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.013326507993042469
+  },
+  {
+   "cid": 949,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.01200809795409441
+  },
+  {
+   "cid": 1051,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.010511311702430248
+  },
+  {
+   "cid": 1035,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.010190187953412533
+  },
+  {
+   "cid": 264,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "rerank": 0.005528685171157122
+  },
+  {
+   "cid": 1554,
+   "file": "ricetta_base_esperimento_snack_salato_v12.txt",
+   "rerank": 0.004258079454302788
+  },
+  {
+   "cid": 1883,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "rerank": 0.003403885057196021
+  },
+  {
+   "cid": 421,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "rerank": 0.0007598935626447201
+  },
+  {
+   "cid": 399,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "rerank": 0.00042564229806885123
+  },
+  {
+   "cid": 1215,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "rerank": 0.00016730300558265299
+  },
+  {
+   "cid": 1444,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "rerank": 4.160491153015755e-05
+  },
+  {
+   "cid": 1788,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 2.4423094146186486e-05
+  },
+  {
+   "cid": 611,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 2.4014760128920898e-05
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 2.225176285719499e-05
+  },
+  {
+   "cid": 1785,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 1.925461765495129e-05
+  },
+  {
+   "cid": 510,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 1.8424028894514777e-05
+  },
+  {
+   "cid": 1314,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "rerank": 1.7651424059295096e-05
+  },
+  {
+   "cid": 1112,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 1.6573569155298173e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1075,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "origine": "nativa",
+   "rerank": 0.8142901659011841,
+   "testo": "2026-05-10 23:12:09;PT104;EVT;PROD_END;TOT_SHIFT=SEE_EXPORT;OK;LOT=L26130-L1-T3;OP=CESTARO_L\n=====================================================================\nEXPORT GIORNALIERO - TermoLog SCADA v2.3.1 build 4402\nImpianto: PASTORIZZATORE PT104 - LINEA 1\nData rif.: 10/05/2026  -  UnitÃ  di misura: Â°C ; m3/h ; m/min\nCampioni acquisiti: 12390  -  Campioni validi: 12293\nSonda T_CUORE: anomalia rilevata (vedi codice guasto) - validitÃ  parziale\nAllarmi attivi nel periodo: ALM_LOW_TEMP(1) DEV_CCP2(1) MACHINE_STOP(1) SENSOR_FAULT(1) RTC_BATT_LOW(1)\nDurata esercizio: 13h 01m  -  Durata fermo: 3h 40m  -  Motivo fermo: INTERLOCK_DOWNSTREAM=PKM450\nTemperatura minima registrata TT_02: 68.6 C alle 14:30:37\nPermanenza sotto soglia 72.0 Â°C: 27 min ca. - verificare registro CCP2 (MOD-QA-12)\nOperatori turno: RANZATO_F / POPESCU_I / CESTARO_L - Resp. produzione: ZANELLA_D\nFile generato automaticamente - non modificare - proprietÃ  Aurora Food Group S.r.l.\nPercorso archivio: \\\\SRV-AFG01\\produzione\\datalogger\\PT104\\2026\\05\\\nChecksum: 8f3aï¿½ï¿½41bc â€“ verifica integritÃ  fallita\n====================================================================="
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.6583787798881531,
+   "testo": "[00:02:46] PARLANTE_1: se ce l'ha ancora\n[00:02:48] PARLANTE_2: se manca un pezzo dalla guarnizione vecchia o da quella nuova che ha tagliato lui a misura allora\n[00:02:53] PARLANTE_3: scusate ma c'e anche l'altra cosa del lotto 130 e va detta adesso\n[00:02:58] PARLANTE_1: quale altra cosa\n[00:03:02] PARLANTE_3: sara ha scaricato ieri i dati del datalogger del PT-104 per la verifica settimanale e sul turno 2 del 10 maggio dalle 14 e 18 alle 14 e 47 la temperatura e scesa sotto i 72 gradi il minimo registrato e 68 virgola 9\n[00:03:18] PARLANTE_1: e il ccp2\n[00:03:20] PARLANTE_3: e il CCP2 si il limite critico e 72 gradi al cuore per almeno due minuti e per quasi mezz'ora eravamo sotto\n[00:03:27] PARLANTE_2: e sul cartaceo cosa c'e scritto\n[00:03:30] PARLANTE_3: eh appunto sul MOD-QA-12 l'operatore ha scritto 74 e 5 conforme\n[00:03:36] PARLANTE_1: come 74 e 5 se la macchina dice 68\n[00:03:39] PARLANTE_3: ha copiato il set point secondo me non ha guardato il display oppure ha compilato a fine turno tutto insieme come fanno sempre\n[00:03:46] PARLANTE_2: che e esattamente la non conformita uno dell'audit la seconda firma di verifica che non"
+  },
+  {
+   "cid": 1365,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "origine": "nativa",
+   "rerank": 0.19483506679534912,
+   "testo": "(nota mia: Excel non e' gratis, e' solo gia' pagato. non e' la stessa cosa)\n\n=================================================================\nNOTE CRITICHE - M. Fantin - 18/05, sera\n=================================================================\n\nHo letto tutto due volte. Tre righe come chiede Giancarlo non bastano, ne\nservono dieci.\n\n1) NESSUNO DEI DUE PARLA CON LE BILANCE. Ne' con le bilance di ricetta ne'\n   con i metal detector ne' col datalogger del PT-104. CSB dice \"MES base\"\n   ma a domanda diretta Ferraresi mi ha risposto \"l'integrazione con il\n   pastorizzatore va analizzata\" = non ce l'hanno pronta. Innovaway\n   nemmeno l'ha capita la domanda. Il nostro problema del 10/05 era ESATTAMENTE\n   questo: la macchina registrava 68,9 e sulla carta c'era scritto 74,5.\n   Un ERP dove i dati di processo li ricopia un uomo NON risolve niente,\n   sposta l'errore da un modulo di carta a una maschera video.\n2) CSB e' piu' vicino al nostro mestiere, si vede dalle domande che fanno.\n   SAP e' piu' vicino al nostro commercialista. Decidere COSA ci serve prima\n   di decidere QUALE compriamo.\n3) Migrazione dati: tutti e due la stimano senza aver visto i ns. dati."
+  },
+  {
+   "cid": 419,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "origine": "nativa",
+   "rerank": 0.024914918467402458,
+   "testo": "Termometro a sonda Testo 106;TS-024;Ricevimento - terzo turno;-50/+275 °C;03/02/2026;03/02/2027;taratura interna (Pozzato S.) vs TS-005;INT-2026-021;Conforme;±0,5 °C;IN USO;\nDatalogger USB Testo 174T;DL-009;Scorta a magazzino QC;-30/+70 °C;14/01/2026;14/01/2027;MetroLab Taratura S.r.l. (Padova) LAT 214;ML-2026-00491;Conforme;±0,5 °C;SCORTA;nuovo, mai messo in campo\nDatalogger USB Testo 174T;DL-010;Scorta a magazzino QC;-30/+70 °C;14/01/2026;14/01/2027;MetroLab Taratura S.r.l. (Padova) LAT 214;ML-2026-00492;Conforme;±0,5 °C;SCORTA;\nSonda Pt100 pastorizzatore - riserva fredda;DL-011;Officina - armadio ricambi PT-104;Pt100 -100/+250 °C;28/11/2025;28/11/2026;CalService Italia S.r.l. (Modena) LAT 087;CS-25-7745;Conforme;±0,2 °C;SCORTA;sonda di ricambio già tarata, da montare in caso di guasto canale 1\npHmetro portatile - riserva;PH-003;Laboratorio QC - cassetto;0-14 pH;;;;;;;FUORI SERVIZIO;elettrodo secco, da rigenerare o buttare"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4417,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.18,
+  "rerank": 55.57
+ },
+ "id": "Q076",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:51:33",
+ "secondi": 55.78,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 60.14,
+  "token_prompt": 1955,
+  "token_risposta": 64,
+  "testo_grezzo": "La temperatura più bassa registrata dal pastorizzatore il 10 maggio è di 68,6°C.\n\nFONTI: log_temperature_pastorizzatore_linea1_10_05_26.log, trascrizione_riunione_direzione_12_05_2026.txt",
+  "fonti_citate": [
+   "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "trascrizione_riunione_direzione_12_05_2026.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

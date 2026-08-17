@@ -1,0 +1,683 @@
+{
+ "domanda": "Sulla deviazione di temperatura del 10 maggio abbiamo fatto quello che prevede il piano HACCP?",
+ "candidati_densi": [
+  {
+   "cid": 1843,
+   "punteggio": 0.6091500120600666,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1605,
+   "punteggio": 0.5792456422151293,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1856,
+   "punteggio": 0.5615315824419597,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1776,
+   "punteggio": 0.561393215364407,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1138,
+   "punteggio": 0.5611623928787113,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1141,
+   "punteggio": 0.5584712656905171,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 23,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1859,
+   "punteggio": 0.5580713423883257,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1144,
+   "punteggio": 0.552435873568573,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 26,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1478,
+   "punteggio": 0.5406099282569103,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1602,
+   "punteggio": 0.5380779369676163,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 617,
+   "punteggio": 0.5364677043829639,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 618,
+   "punteggio": 0.5358400663146063,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 393,
+   "punteggio": 0.53464613259531,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1458,
+   "punteggio": 0.5311080049284205,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 615,
+   "punteggio": 0.5308471433252223,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1123,
+   "punteggio": 0.5296809274474188,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1700,
+   "punteggio": 0.524940236742641,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 603,
+   "punteggio": 0.5241480301174538,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1142,
+   "punteggio": 0.521405018729705,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 24,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1237,
+   "punteggio": 0.5195186158334781,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 3,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 430,
+   "punteggio": 21.393299102783203,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 435,
+   "punteggio": 20.802026748657227,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 531,
+   "punteggio": 20.680313110351562,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 431,
+   "punteggio": 19.900346755981445,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1777,
+   "punteggio": 19.39360809326172,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1785,
+   "punteggio": 18.911130905151367,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1364,
+   "punteggio": 18.65751838684082,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1784,
+   "punteggio": 18.55589485168457,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1443,
+   "punteggio": 18.39757537841797,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 601,
+   "punteggio": 18.347492218017578,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1707,
+   "punteggio": 18.006969451904297,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 510,
+   "punteggio": 17.963390350341797,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1388,
+   "punteggio": 17.69719886779785,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 618,
+   "punteggio": 17.582197189331055,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1114,
+   "punteggio": 17.260103225708008,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 273,
+   "punteggio": 17.186616897583008,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1112,
+   "punteggio": 17.181066513061523,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 436,
+   "punteggio": 17.09178924560547,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1856,
+   "punteggio": 17.089147567749023,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 523,
+   "punteggio": 16.973363876342773,
+   "file": "Fwd_newsletter_confindustria_marzo.txt",
+   "idx": 1,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1856,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.028531243721117136,
+   "rango_denso": 3,
+   "rango_sparso": 19
+  },
+  {
+   "cid": 618,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.027402402402402402,
+   "rango_denso": 12,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1843,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 435,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1605,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 531,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1138,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 20,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1777,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1141,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 23,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1785,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1364,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1859,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1144,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 26,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1784,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1443,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1478,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 601,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1602,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 617,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1707,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 510,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1843,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "rerank": 0.14017698168754578
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.12133605778217316
+  },
+  {
+   "cid": 617,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.08878124505281448
+  },
+  {
+   "cid": 1144,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.031773220747709274
+  },
+  {
+   "cid": 1141,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.02588493935763836
+  },
+  {
+   "cid": 1478,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "rerank": 0.0218348391354084
+  },
+  {
+   "cid": 1138,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.019278137013316154
+  },
+  {
+   "cid": 1605,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.017190681770443916
+  },
+  {
+   "cid": 1602,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.0146798612549901
+  },
+  {
+   "cid": 618,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.006754541303962469
+  },
+  {
+   "cid": 1859,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.004658615682274103
+  },
+  {
+   "cid": 1856,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.004391794558614492
+  },
+  {
+   "cid": 1364,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.0011024409905076027
+  },
+  {
+   "cid": 1777,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0010400301543995738
+  },
+  {
+   "cid": 510,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 0.0006064351182430983
+  },
+  {
+   "cid": 601,
+   "file": "job_description_responsabile_produzione.docx",
+   "rerank": 0.0005509208422154188
+  },
+  {
+   "cid": 1443,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "rerank": 0.00048605521442368627
+  },
+  {
+   "cid": 1785,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.00023131781199481338
+  },
+  {
+   "cid": 435,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.00014006521087139845
+  },
+  {
+   "cid": 1784,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.00011585546599235386
+  },
+  {
+   "cid": 531,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "rerank": 5.379724461818114e-05
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 3.894351175404154e-05
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 2.2482363419840112e-05
+  },
+  {
+   "cid": 1707,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 2.2061933123040944e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1843,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "origine": "nativa",
+   "rerank": 0.14017698168754578,
+   "testo": "- CONFORMI; acqua calda e fredda, ventilazione adeguata\n1.9 GESTIONE RIFIUTI E SOTTOPRODOTTI\n    - contenitori identificati, area dedicata esterna: CONFORME\n2. DOCUMENTAZIONE VISIONATA\n  - Manuale di autocontrollo HACCP rev. 5 del 08/04/2026, a firma\n    dott.ssa E. Marchetti (Team Leader HACCP)\n  - Piano HACCP: CCP1 setacciatura/magnete, CCP2 trattamento termico\n    PT-104, CCP3 metal detection MD-3200, CCP4 surgelazione\n  - Modulo MOD-QA-07 rev. 5 (verifica metal detector, frequenza\n    60 minuti): campionato periodo 01/05-31/05/2026\n  - Modulo MOD-QA-12 (registro temperature CCP2): campionato periodo\n    01/05-31/05/2026\n  - Registro formazione del personale MOD-HR-11: ultima sessione\n    igiene alimenti 20/02/2026\n  - Certificati BRCGS Food Safety Issue 9 (grade AA, cert. n.\n    BRC/IT/24/00871) e IFS Food v8 (Higher Level, cert. n.\n    IFS/IT/25/03390), ente CSQA Certificazioni S.r.l.\n  - Contratto di manutenzione e derattizzazione; ultime schede di\n    monitoraggio\n  - Rapporti di prova laboratorio Analytica Veneta S.r.l. (ACCREDIA\n    n. 0987): tamponi superfici MOD-QA-19, aprile-maggio 2026\nSi prende atto che e' in corso una gestione di reclamo consumatore"
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.12133605778217316,
+   "testo": "[00:02:46] PARLANTE_1: se ce l'ha ancora\n[00:02:48] PARLANTE_2: se manca un pezzo dalla guarnizione vecchia o da quella nuova che ha tagliato lui a misura allora\n[00:02:53] PARLANTE_3: scusate ma c'e anche l'altra cosa del lotto 130 e va detta adesso\n[00:02:58] PARLANTE_1: quale altra cosa\n[00:03:02] PARLANTE_3: sara ha scaricato ieri i dati del datalogger del PT-104 per la verifica settimanale e sul turno 2 del 10 maggio dalle 14 e 18 alle 14 e 47 la temperatura e scesa sotto i 72 gradi il minimo registrato e 68 virgola 9\n[00:03:18] PARLANTE_1: e il ccp2\n[00:03:20] PARLANTE_3: e il CCP2 si il limite critico e 72 gradi al cuore per almeno due minuti e per quasi mezz'ora eravamo sotto\n[00:03:27] PARLANTE_2: e sul cartaceo cosa c'e scritto\n[00:03:30] PARLANTE_3: eh appunto sul MOD-QA-12 l'operatore ha scritto 74 e 5 conforme\n[00:03:36] PARLANTE_1: come 74 e 5 se la macchina dice 68\n[00:03:39] PARLANTE_3: ha copiato il set point secondo me non ha guardato il display oppure ha compilato a fine turno tutto insieme come fanno sempre\n[00:03:46] PARLANTE_2: che e esattamente la non conformita uno dell'audit la seconda firma di verifica che non"
+  },
+  {
+   "cid": 617,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "origine": "nativa",
+   "rerank": 0.08878124505281448,
+   "testo": "Le registrazioni manuali del CCP2 relative al lotto presentano una discrepanza rispetto ai dati del datalogger, attualmente oggetto di approfondimento interno.\n\n[Marchetti E. - lo so che va tolto da QUESTA lettera, e infatti lo tolgo. Ma l'approfondimento interno sul MOD-QA-12 del 10/05 va avanti lo stesso e il suo esito andrà nel fascicolo: la discrepanza carta/datalogger c'è, è la NC 1 dell'audit che si è materializzata, e alla verifica CSQA la troveranno. Non mettiamola sotto il tappeto internamente, per cortesia.]\n[avv. Faccioli - concordo con la dott.ssa Marchetti sul piano interno. Sul piano esterno: la questione CCP2 non ha nesso dimostrato con il corpo estraneo segnalato e non deve comparire in questa sede.]\n\n4. Misure correttive e preventive\n\nFermi restando gli esiti dell'accertamento analitico, in via prudenziale abbiamo già disposto:\n\n1. la sostituzione del componente interessato dall'intervento del 10/05 con ricambio originale del costruttore, ricevuto in data 15/05/2026, e la verifica integrale delle guarnizioni della confezionatrice;"
+  },
+  {
+   "cid": 1144,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "origine": "nativa",
+   "rerank": 0.031773220747709274,
+   "testo": "11.3 Validazione\nLe misure di controllo ai CCP sono state validate come segue: CCP2 mediante studio di\npenetrazione termica su prodotto farcito peggiore caso (AF-SN-0450 con farcitura fredda,\nrapporto Studio Alimentaria SA-VAL-21/09 del 2021, rivalidazione prevista 2024 - NOTA:\nrivalidazione eseguita? vedi verbale team 03/2024); CCP3 mediante test di sensibilità\nin condizioni dinamiche con prodotto; CCP4 mediante mappatura tunnel TS-01 (2019 - da\nripetere su CR-SP180 al collaudo, azione a carico Fantin M. / Criotech).\n\nManuale HACCP rev.5 - pag. 58 di 78 - Doc. non controllato se stampato\n\n12. RIESAME DEL SISTEMA\n\n12.1 Il piano HACCP è riesaminato dal Team con frequenza annuale e comunque al\nverificarsi di: modifiche di layout, nuovi impianti (es. sostituzione TS-01 con\nCR-SP180 - riesame straordinario pianificato al collaudo), nuove referenze (AF-SN-0470\ncon introduzione SESAMO - riesame obbligatorio pre-lancio), esiti sfavorevoli di audit\no di analisi, reclami per pericolo sanitario, allerta RASFF su ingredienti in uso.\n12.2 Il riesame annuale 2026 del sistema HACCP si integra con il riesame della\ndirezione SGQ del 12/03/2026 (verbale VRD-2026-01)."
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4566,
+ "tempi": {
+  "denso": 0.01,
+  "sparso": 0.17,
+  "rerank": 39.42
+ },
+ "id": "Q207",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:32:13",
+ "secondi": 39.61,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 60.7,
+  "token_prompt": 1918,
+  "token_risposta": 129,
+  "testo_grezzo": "La deviazione di temperatura del 10 maggio non è stata segnalata in modo chiaro e conciso, quindi non è possibile determinare se si è seguito il piano HACCP.\n\nFONTI: lettera_risposta_Tosano_reclamo_BOZZA_v3.docx, trascrizione_riunione_direzione_12_05_2026.txt, manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt, Verbale_ispezione_ATS_09_06_2026.pdf\n\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "trascrizione_riunione_direzione_12_05_2026.txt",
+   "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "Verbale_ispezione_ATS_09_06_2026.pdf"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

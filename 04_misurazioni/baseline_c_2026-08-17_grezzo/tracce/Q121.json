@@ -1,0 +1,682 @@
+{
+ "domanda": "Sommando i tre blocchi definiti dalla qualita', quante confezioni fanno in tutto?",
+ "candidati_densi": [
+  {
+   "cid": 1128,
+   "punteggio": 0.48075788720793156,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1542,
+   "punteggio": 0.4776926595659941,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 619,
+   "punteggio": 0.4705765730925281,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1741,
+   "punteggio": 0.46998955467184655,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 491,
+   "punteggio": 0.4694915214343084,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 177,
+   "punteggio": 0.4670759537582761,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1701,
+   "punteggio": 0.46664105639760184,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1871,
+   "punteggio": 0.4634701127874579,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 455,
+   "punteggio": 0.4633967616369311,
+   "file": "estratto_registro_carico_scarico_MOCA.xlsx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 559,
+   "punteggio": 0.4631587417821202,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1197,
+   "punteggio": 0.46315226359392936,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1854,
+   "punteggio": 0.4618516088704109,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1745,
+   "punteggio": 0.4617720885642787,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 161,
+   "punteggio": 0.4609740333793188,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 48,
+   "punteggio": 0.4603754364794226,
+   "file": "analisi_scostamenti_costo_materie_prime.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 549,
+   "punteggio": 0.46034402788222195,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1411,
+   "punteggio": 0.4600101155460267,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 176,
+   "punteggio": 0.459204933843533,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1740,
+   "punteggio": 0.45911009445228357,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1307,
+   "punteggio": 0.4589788403242233,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 8,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1108,
+   "punteggio": 16.73650550842285,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 531,
+   "punteggio": 15.354289054870605,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 601,
+   "punteggio": 15.036705017089844,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1789,
+   "punteggio": 14.764474868774414,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1365,
+   "punteggio": 14.537701606750488,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 430,
+   "punteggio": 12.683710098266602,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 256,
+   "punteggio": 12.644789695739746,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1828,
+   "punteggio": 12.405458450317383,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1778,
+   "punteggio": 12.224482536315918,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1109,
+   "punteggio": 12.21644115447998,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1776,
+   "punteggio": 12.200909614562988,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 286,
+   "punteggio": 11.991064071655273,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 242,
+   "punteggio": 11.765653610229492,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1110,
+   "punteggio": 10.575300216674805,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1113,
+   "punteggio": 10.561517715454102,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1555,
+   "punteggio": 10.178360939025879,
+   "file": "ricetta_base_esperimento_snack_salato_v12.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 162,
+   "punteggio": 10.015776634216309,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1428,
+   "punteggio": 9.991488456726074,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 348,
+   "punteggio": 9.91367244720459,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1854,
+   "punteggio": 9.788217544555664,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 4,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1854,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.02638888888888889,
+   "rango_denso": 12,
+   "rango_sparso": 20
+  },
+  {
+   "cid": 1108,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1128,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 531,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1542,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 601,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 619,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1741,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1789,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 491,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1365,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 177,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 256,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1701,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1828,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1871,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 455,
+   "file": "estratto_registro_carico_scarico_MOCA.xlsx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1778,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 559,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1109,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1197,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 286,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1778,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.08500421792268753
+  },
+  {
+   "cid": 531,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "rerank": 0.02632053941488266
+  },
+  {
+   "cid": 619,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.019564742222428322
+  },
+  {
+   "cid": 177,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "rerank": 0.0064207459799945354
+  },
+  {
+   "cid": 1828,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.0037950773257762194
+  },
+  {
+   "cid": 491,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "rerank": 0.0037247969303280115
+  },
+  {
+   "cid": 1701,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "rerank": 0.003409930504858494
+  },
+  {
+   "cid": 559,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "rerank": 0.0033748974092304707
+  },
+  {
+   "cid": 1854,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.003093292471021414
+  },
+  {
+   "cid": 1197,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.0025237880181521177
+  },
+  {
+   "cid": 1542,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "rerank": 0.002207915997132659
+  },
+  {
+   "cid": 1789,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0018810145556926727
+  },
+  {
+   "cid": 256,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "rerank": 0.001330619677901268
+  },
+  {
+   "cid": 601,
+   "file": "job_description_responsabile_produzione.docx",
+   "rerank": 0.0012382010463625193
+  },
+  {
+   "cid": 455,
+   "file": "estratto_registro_carico_scarico_MOCA.xlsx",
+   "rerank": 0.0009205386159010231
+  },
+  {
+   "cid": 1109,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.0008459750097244978
+  },
+  {
+   "cid": 1128,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.0008168821223080158
+  },
+  {
+   "cid": 1741,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "rerank": 0.0007366762729361653
+  },
+  {
+   "cid": 1365,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.0006902664317749441
+  },
+  {
+   "cid": 286,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.0005189990624785423
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.00046297305379994214
+  },
+  {
+   "cid": 1871,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "rerank": 0.0003755382786039263
+  },
+  {
+   "cid": 1108,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 6.548155943164602e-05
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 2.1319543520803563e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1778,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.08500421792268753,
+   "testo": "[00:04:42] PARLANTE_1: marco anche tu adesso con gli atti\n[00:04:44] PARLANTE_2: [risate]\n[00:04:46] PARLANTE_1: allora decisioni cosa facciamo coi lotti\n[00:04:50] PARLANTE_3: la mia proposta come rsgq e blocco immediato del L26130 e in via cautelativa anche del 131 che e stato confezionato con la stessa guarnizione riparata prima della sostituzione del ricambio originale\n[00:05:03] PARLANTE_2: il ricambio pakmatic arriva il 15 venerdi\n[00:05:06] PARLANTE_3: appunto quindi tutto quello che e passato dalla PKM-450 tra la riparazione di ivano e il 15 e potenzialmente\n[00:05:12] PARLANTE_1: quanta roba e\n[00:05:15] PARLANTE_6: posso io ho i numeri di magazzino me li son fatti dare da nicola prima di salire\n[00:05:19] PARLANTE_1: vai denis\n[00:05:21] PARLANTE_6: allora tra 130 e 131 parliamo di circa ottomilaquattrocento confezioni pero attenzione una parte grossa e gia uscita\n[00:05:29] PARLANTE_1: quanto gia uscita\n[00:05:31] PARLANTE_6: sui cinquemilacento pezzi gia consegnati al cedi di cerea e in parte gia a scaffale il resto e ancora da noi in CF-01 e al magazzino di via palu\n[00:05:40] PARLANTE_4: cinquemilacento a scaffale col marchio bonta di casa"
+  },
+  {
+   "cid": 531,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "origine": "nativa",
+   "rerank": 0.02632053941488266,
+   "testo": "Attenzione a due cose:\n- le 48 ore scadono SABATO 16 alle 10:37, non \"lunedi in giornata\". Con questa qui le sfumature non esistono.\n- chiede esplicitamente una valutazione sul ritiro. Vuol dire che se non gliela diamo noi la fanno loro, e se decide Tosano il ritiro ce lo comunicano, non ce lo chiedono. Papa' dice di preparare comunque il conto: parliamo di due lotti, circa 8.400 confezioni di cui 5.100 gia' a scaffale, la stima che mi ha fatto Nicola con i costi di logistica inversa e' sui 31.500 euro.\n\nElena, la relazione la impostiamo insieme ma la firma tecnica e' tua. Io NON mando niente a Cerea senza che l'abbiamo riletta in tre. Mario Rossi per ora non si e' fatto sentire, ma se questa cosa arriva sul tavolo del buyer in mezzo alla trattativa sul listino siamo finiti.\n\nElena: ok per le 14, sala 1' piano. Marco, ci sei anche tu.\nS.\n\nSilvia Bertoldi\nDirezione Commerciale\nAurora Food Group S.r.l. - Via dell'Industria 27, 37044 Cologna Veneta (VR)\nMob. 348 44 12 706 - s.bertoldi@aurorafoodgroup.it\n\n\n-----Messaggio originale-----\nDa: Anna Perbellini <a.perbellini@tosanocerea.it>\nInviato: giovedi 14 maggio 2026 10:37\nA: Silvia Bertoldi <s.bertoldi@aurorafoodgroup.it>"
+  },
+  {
+   "cid": 619,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "origine": "nativa",
+   "rerank": 0.019564742222428322,
+   "testo": "5. Disponibilità al ritiro cautelativo\n\nIn uno spirito di massima collaborazione e trasparenza, Vi confermiamo la nostra piena disponibilità, ove lo riteneste opportuno all'esito di un confronto congiunto, a procedere al ritiro cautelativo delle referenze del lotto L26130-L1-T2 ed eventualmente del lotto L26131 presenti presso il Vostro CE.DI. e i punti vendita, con oneri logistici a nostro carico e nota di credito per la merce resa.\n\nStimiamo che i quantitativi interessati ammontino a circa 8.400 confezioni complessive, di cui circa 5.100 già presso i punti vendita.\n\n[avv. Faccioli - i quantitativi non si anticipano: si condividono al tavolo, dopo che Tosano avrà comunicato le proprie giacenze effettive. Anticiparli significa fissare la base di calcolo di un'eventuale richiesta di indennizzo.]\n[Bertoldi S. - e comunque i numeri di Faggionato e quelli di Trentin non coincidono ancora (8.400 vs 8.150 sul gestionale), prima di scrivere QUALSIASI numero a Tosano voglio la riconciliazione fatta. Nicola mi deve il conteggio per lotto entro stasera.]"
+  },
+  {
+   "cid": 177,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "origine": "nativa",
+   "rerank": 0.0064207459799945354,
+   "testo": "03/04/26;L2;T1;9600;7562;7392;28,4;170;86,7;90,9;97,8;77,0;64;attesa impasto;\n03/04/26;L2;T2;9600;7302;7179;25,1;123;100,0;76,1;98,3;74,8;0;;\n04/04/26;L1;T1;14400;11325;10941;49,9;384;92,7;84,8;96,6;76,0;35;elettricista;\n04/04/26;L1;T2;14400;11150;10931;31,3;219;97,9;79,1;98,0;75,9;10;cambio bobina film;\n04/04/26;L2;T1;9600;7516;7277;33,8;239;96,9;80,8;96,8;75,8;15;mancanza personale;\n04/04/26;L2;T2;9600;7260;7216;18,2;44;81,2;93,1;99,4;75,2;90;inceppo film x3;\nTOT SETT 14;;;;146.965;;;3266;;;;;;;(subtotale da tab. pivot, non cancellare - L.T.)\n06/04/26;L1;T1;14400;9997;9700;41,2;297;90,6;76,6;97,0;67,4;45;microfermate / inceppo film;\n06/04/26;L1;T2;14400;12688;12499;32,2;189;90,6;97,2;98,5;86,8;45;microfermate / inceppo film;\n06/04/26;L2;T1;9600;7262;7175;16,7;87;81,2;93,1;98,8;74,7;90;cambio bobina film;\n06/04/26;L2;T2;9600;7570;7469;16,2;101;93,5;84,3;98,7;77,8;31;attesa impasto;\n07/04/26;L1;T1;14400;11669;11247;55,2;422;88,8;91,3;96,4;78,1;54;guasto minore;\n07/04/26;L1;T2;14400;10374;10173;24,8;201;97,9;73,6;98,1;70,6;10;microfermate / inceppo film;\n07/04/26;L2;T1;9600;8259;7953;41,9;306;87,5;98,3;96,3;82,8;60;microfermate / inceppo film;"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4577,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.17,
+  "rerank": 46.79
+ },
+ "id": "Q121",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:27:15",
+ "secondi": 46.98,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 75.42,
+  "token_prompt": 2204,
+  "token_risposta": 87,
+  "testo_grezzo": "La somma delle confezioni dei tre blocchi definiti dalla qualità è di 8.400.\n\nFONTI: calcolo_sfrido_efficienza_OEE_linea_bakery.csv, lettera_risposta_Tosano_reclamo_BOZZA_v3.docx, I_Fwd_Richiesta_relazione_48_ore_Tosano.eml\nCONFIDENZA: alta",
+  "fonti_citate": [
+   "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "alta"
+ }
+}

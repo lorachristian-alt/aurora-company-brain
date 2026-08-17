@@ -1,0 +1,679 @@
+{
+ "domanda": "Che cosa ha stabilito il laboratorio esterno sul frammento rigido trovato dal cliente?",
+ "candidati_densi": [
+  {
+   "cid": 1167,
+   "punteggio": 0.6376966723460149,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 613,
+   "punteggio": 0.626381348128411,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 616,
+   "punteggio": 0.5406980036604612,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1784,
+   "punteggio": 0.5123071422469061,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1168,
+   "punteggio": 0.5092967929492991,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1712,
+   "punteggio": 0.509129878047836,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 532,
+   "punteggio": 0.5065224204785007,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 615,
+   "punteggio": 0.5040882970858148,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 349,
+   "punteggio": 0.5024985574806444,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1457,
+   "punteggio": 0.5004846587045979,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 617,
+   "punteggio": 0.5004769011236521,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1459,
+   "punteggio": 0.4998534245482788,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1456,
+   "punteggio": 0.49921687810076965,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1453,
+   "punteggio": 0.49652014882748513,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1636,
+   "punteggio": 0.49652014882748513,
+   "file": "Scansione_20260518_0003.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1715,
+   "punteggio": 0.4959970256613758,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1714,
+   "punteggio": 0.4956729836323228,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1412,
+   "punteggio": 0.4939972438364254,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1460,
+   "punteggio": 0.4919180771702789,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1204,
+   "punteggio": 0.49043175684746965,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 26,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1167,
+   "punteggio": 24.002656936645508,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1714,
+   "punteggio": 23.870140075683594,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1168,
+   "punteggio": 21.96587562561035,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1784,
+   "punteggio": 19.2501163482666,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 437,
+   "punteggio": 18.331422805786133,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1780,
+   "punteggio": 17.515827178955078,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1776,
+   "punteggio": 17.386350631713867,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 436,
+   "punteggio": 17.09589958190918,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1459,
+   "punteggio": 17.03606414794922,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1461,
+   "punteggio": 16.901134490966797,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1458,
+   "punteggio": 16.85026741027832,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1832,
+   "punteggio": 16.684152603149414,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1457,
+   "punteggio": 16.662996292114258,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1539,
+   "punteggio": 16.344541549682617,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 613,
+   "punteggio": 15.763301849365234,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1713,
+   "punteggio": 15.569602966308594,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1523,
+   "punteggio": 15.49791431427002,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1388,
+   "punteggio": 15.404496192932129,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1837,
+   "punteggio": 15.373870849609375,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1796,
+   "punteggio": 15.299485206604004,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 23,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1167,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.03278688524590164,
+   "rango_denso": 1,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1168,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.03125763125763126,
+   "rango_denso": 5,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1784,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.03125,
+   "rango_denso": 4,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 613,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.02946236559139785,
+   "rango_denso": 2,
+   "rango_sparso": 15
+  },
+  {
+   "cid": 1714,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.029116045245077504,
+   "rango_denso": 17,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1459,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.028381642512077296,
+   "rango_denso": 12,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1457,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.027984344422700584,
+   "rango_denso": 10,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 616,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 437,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1712,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1780,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 532,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 436,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 615,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 349,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1461,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 617,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1458,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1832,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1456,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1453,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1539,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 1636,
+   "file": "Scansione_20260518_0003.pdf",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": 15,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1167,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "rerank": 0.7377876043319702
+  },
+  {
+   "cid": 1168,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "rerank": 0.45041918754577637
+  },
+  {
+   "cid": 1539,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.1771758496761322
+  },
+  {
+   "cid": 613,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.14868023991584778
+  },
+  {
+   "cid": 532,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "rerank": 0.10169307142496109
+  },
+  {
+   "cid": 349,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "rerank": 0.09688212722539902
+  },
+  {
+   "cid": 1457,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.06443504244089127
+  },
+  {
+   "cid": 1784,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.06375224143266678
+  },
+  {
+   "cid": 1712,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.036492105573415756
+  },
+  {
+   "cid": 1714,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.026881491765379906
+  },
+  {
+   "cid": 1458,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.012122031301259995
+  },
+  {
+   "cid": 1453,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "rerank": 0.011874290183186531
+  },
+  {
+   "cid": 1636,
+   "file": "Scansione_20260518_0003.pdf",
+   "rerank": 0.011874290183186531
+  },
+  {
+   "cid": 1461,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.009483961388468742
+  },
+  {
+   "cid": 615,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.006935872137546539
+  },
+  {
+   "cid": 1456,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.005291913170367479
+  },
+  {
+   "cid": 1780,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0017919359961524606
+  },
+  {
+   "cid": 617,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.001722240005619824
+  },
+  {
+   "cid": 1459,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.0013503683730959892
+  },
+  {
+   "cid": 616,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.0005640491144731641
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 8.707714732736349e-05
+  },
+  {
+   "cid": 437,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 2.3644077373319305e-05
+  },
+  {
+   "cid": 1832,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 1.699266431387514e-05
+  },
+  {
+   "cid": 436,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 1.685001188889146e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1167,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "origine": "nativa",
+   "rerank": 0.7377876043319702,
+   "testo": "10/05/2026 - Linea 1\nTMC riportato in confezione\n24/06/2026\n3. Descrizione del reclamo (parole del reclamante)\nRinvenimento di frammento rigido di colore azzurro all'interno della confezione,\npercepito durante la masticazione. Nessuna lesione riportata. Il reclamante dichiara\ndi aver conservato il frammento e la confezione.\n4. Verifiche effettuate\nVerifica\nEsito\nData\nRichiesta del campione al reclamante\naccettato il ritiro, campione ricevuto\na mezzo corriere\n15/05/2026\nMisurazione del frammento\n~9 x 4 mm, spessore 1,5 mm, bordo di\nfrattura netto (prima stima da\nfotografia il 14/05)\n15/05/2026\nVerifica registrazioni CCP3\n(MOD-QA-07)\nverifiche orarie complete e conformi:\nil pericolo non e' metallico e non e'\ncoperto dal CCP3\n14/05/2026\nVerifica fermo macchina del 10/05\nfermo 15:05-18:45, sostituzione\nguarnizione\n14/05/2026\nInvio a laboratorio esterno per\nidentificazione\nrapporto 2026/04187\n18/05/2026\nRicostruzione a monte e a valle del\nlotto\nmass balance con scostamento aperto\n14/05/2026\n5. Valutazione del rischio\nCorpo estraneo rigido di dimensione superiore ai 7 mm, con bordi netti: rischio di lesione"
+  },
+  {
+   "cid": 1168,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "origine": "nativa",
+   "rerank": 0.45041918754577637,
+   "testo": "lotto\nmass balance con scostamento aperto\n14/05/2026\n5. Valutazione del rischio\nCorpo estraneo rigido di dimensione superiore ai 7 mm, con bordi netti: rischio di lesione\nal cavo orale non escludibile. Classificazione di gravita': Classe 2 ai sensi del par. 4\ndella PRO-QA-14 - ritiro dal circuito distributivo, non richiamo al consumatore. La\nclassificazione sara' riesaminata alla luce dell'esito del laboratorio: qualora il frammento\nrisultasse tagliente si passera' alla Classe 1, con notifica all'autorita' sanitaria entro\n24 ore ai sensi dell'art. 19 Reg. CE 178/2002.\n\nAURORA FOOD GROUP S.r.l. - Sistema Gestione Qualita' - MOD-QA-31 rev.4\nREC-2026-011 - pag. 2 - documento riservato\npag. 2\n6. Azioni immediate\n- Blocco cautelativo dei lotti L26130-L1-T2, L26130-L1-T3 e L26131-L1-T2 (12/05/2026)\n- Comunicazione al cliente GDO e alle altre insegne servite (14/05/2026)\n- Sospensione dell'utilizzo del ricambio non originale sulla PKM-450 (15/05/2026)\n7. Stato\nAPERTO. Chiusura subordinata all'esito del laboratorio e alla decisione sul ritiro.\nResponsabile Qualita' - RSGQ\n_______________________________\ndott.ssa Elena Marchetti"
+  },
+  {
+   "cid": 1539,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "origine": "nativa",
+   "rerank": 0.1771758496761322,
+   "testo": "del fermo, ma quela gera l'originale Pakmatic eh.\nvenerdi 15 riva el kit e monto tuto novo, tegno da parte la roba\nsmontada se la voli veder.\nel careto sta li da quando ghe son mi, 11 ani, e nissun ga mai dito\ngnente fin a febraro.\nivano\n\nInviato dal mio iPhone\n\n- - - - - - - - - - - - - - - - - - - - - - - -\n\nDa: Elena Marchetti <e.marchetti@aurorafoodgroup.it>\nA: Ivano Dal Maso <officina@aurorafoodgroup.it>\nCc: Marco Fantin <m.fantin@aurorafoodgroup.it>\nInviato: mercoledi 13 maggio 2026 14:31\nOggetto: R: R: MOD-PR-04 n. 2026/087 - PKM-450 - URGENTE\n\nIvano,\n\"gomma\" non e' una risposta che posso girare a Tosano. NON smontare\nne' buttare NULLA senza di me: la guarnizione provvisoria, i resti di\nquella vecchia e TUTTO il contenuto dello scomparto 3 del carrello\nvanno messi sotto chiave in sala qualita' oggi stesso, sacchetti\nidentificati, li fotografa Sara. Se venerdi il tecnico Pakmatic smonta,\nlo fa in mia presenza.\nIl confronto del frammento del reclamo con i materiali disponibili\nverra' effettuato tramite laboratorio esterno (Analytica Veneta).\nPasso in officina alle 15:30.\nE.M.\n\n- - - - - - - - - - - - - - - - - - - - - - - -\n\nDa: Ivano Dal Maso <officina@aurorafoodgroup.it>"
+  },
+  {
+   "cid": 613,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "origine": "nativa",
+   "rerank": 0.14868023991584778,
+   "testo": "1. Ricostruzione dei fatti\n\nLa segnalazione è pervenuta alla scrivente in data 12/05/2026 tramite il form del nostro sito internet. La consumatrice riferisce il rinvenimento di un frammento di plastica dura di colore azzurro corpo estraneo di natura plastica all'interno del prodotto. Il frammento è compatibile per colore e consistenza con una guarnizione utilizzata sulla nostra linea di confezionamento.\n\n[avv. Faccioli - la frase sulla compatibilità VA TOLTA. Finché non c'è un'analisi di laboratorio sul frammento, ogni affermazione di compatibilità è un'ammissione resa per iscritto alla controparte. Scrivere \"di natura da accertare\".]\n[Marchetti E. - \"da accertare\" fino a un certo punto: il campione lo ritiriamo lunedì e la guarnizione azzurra non originale montata sulla PKM-450 il 10/05 è nel MOD-PR-04. Quando Analytica farà l'identificazione, il cerchio si chiude. Scriviamo \"in corso di accertamento analitico\" che almeno è vero.]"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4396,
+ "tempi": {
+  "denso": 3.52,
+  "sparso": 0.52,
+  "rerank": 57.5
+ },
+ "generazione": {
+  "testo": "Il laboratorio esterno non ha stabilito ancora la classificazione del frammento rigido trovato dal cliente.\n\nFONTI: MOD-QA-31_reclamo_REC-2026-011.pdf, lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+  "secondi": 13.38,
+  "token_prompt": 1849,
+  "token_risposta": 64,
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "fonti_citate": [
+   "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ },
+ "collaudo": 2,
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8"
+}

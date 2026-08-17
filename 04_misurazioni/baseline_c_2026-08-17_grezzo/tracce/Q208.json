@@ -1,0 +1,678 @@
+{
+ "domanda": "La farina usata per il lotto L26130 aveva il certificato di analisi, e rispettava la nostra scheda tecnica?",
+ "candidati_densi": [
+  {
+   "cid": 1769,
+   "punteggio": 0.6529247645266969,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1725,
+   "punteggio": 0.5793694075625198,
+   "file": "SKM_C224e26051412340.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 214,
+   "punteggio": 0.5793693689374129,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1195,
+   "punteggio": 0.5775942394434288,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1603,
+   "punteggio": 0.5752928366464685,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1689,
+   "punteggio": 0.5746096791899383,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1720,
+   "punteggio": 0.5705352889643627,
+   "file": "SKM_C224e26051412340.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 209,
+   "punteggio": 0.5705352864980217,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1462,
+   "punteggio": 0.5677664180066821,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1473,
+   "punteggio": 0.567317307950825,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1875,
+   "punteggio": 0.5656639747092541,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 547,
+   "punteggio": 0.5652576856802345,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1178,
+   "punteggio": 0.5629925767084556,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1697,
+   "punteggio": 0.5621451117517821,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 516,
+   "punteggio": 0.5617548644101409,
+   "file": "Fwd_Fwd_Fwd_ATTENZIONE_richiamo_prodotto_concorrente_RASFF.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1774,
+   "punteggio": 0.5604903337574679,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 176,
+   "punteggio": 0.5597164338970745,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1094,
+   "punteggio": 0.5595595107823704,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1713,
+   "punteggio": 0.557555240708107,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1645,
+   "punteggio": 0.5559183306220786,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 6,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 246,
+   "punteggio": 24.848407745361328,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1097,
+   "punteggio": 21.734275817871094,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1720,
+   "punteggio": 20.59573745727539,
+   "file": "SKM_C224e26051412340.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 209,
+   "punteggio": 20.59573745727539,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1687,
+   "punteggio": 20.359220504760742,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1711,
+   "punteggio": 19.51766586303711,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1769,
+   "punteggio": 19.42268180847168,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1099,
+   "punteggio": 18.369361877441406,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 619,
+   "punteggio": 17.696256637573242,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 163,
+   "punteggio": 17.454416275024414,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 612,
+   "punteggio": 17.084266662597656,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 304,
+   "punteggio": 16.95616340637207,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1130,
+   "punteggio": 16.795387268066406,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 532,
+   "punteggio": 16.686737060546875,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1460,
+   "punteggio": 16.650882720947266,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 616,
+   "punteggio": 16.55997657775879,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1129,
+   "punteggio": 16.318180084228516,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 298,
+   "punteggio": 16.29806137084961,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 303,
+   "punteggio": 16.201290130615234,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1107,
+   "punteggio": 16.07838249206543,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 0,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1769,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.03131881575727918,
+   "rango_denso": 1,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1720,
+   "file": "SKM_C224e26051412340.pdf",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.030798389007344232,
+   "rango_denso": 7,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 209,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.030330882352941176,
+   "rango_denso": 8,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 246,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1097,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1725,
+   "file": "SKM_C224e26051412340.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 214,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1195,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 17,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1603,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1687,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1689,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1711,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1099,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 619,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1462,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 163,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1473,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 612,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1875,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 304,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 547,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1130,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1178,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 532,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1769,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "rerank": 0.7576426863670349
+  },
+  {
+   "cid": 1711,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.6673211455345154
+  },
+  {
+   "cid": 1473,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "rerank": 0.4654083251953125
+  },
+  {
+   "cid": 612,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.431478351354599
+  },
+  {
+   "cid": 532,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "rerank": 0.42394018173217773
+  },
+  {
+   "cid": 1195,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.3027400076389313
+  },
+  {
+   "cid": 209,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "rerank": 0.16534008085727692
+  },
+  {
+   "cid": 1720,
+   "file": "SKM_C224e26051412340.pdf",
+   "rerank": 0.16534008085727692
+  },
+  {
+   "cid": 1178,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.14900384843349457
+  },
+  {
+   "cid": 619,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.12983115017414093
+  },
+  {
+   "cid": 547,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "rerank": 0.0957440659403801
+  },
+  {
+   "cid": 1689,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "rerank": 0.09221331775188446
+  },
+  {
+   "cid": 1462,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.08889387547969818
+  },
+  {
+   "cid": 1130,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.06470292806625366
+  },
+  {
+   "cid": 246,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "rerank": 0.06390271335840225
+  },
+  {
+   "cid": 1687,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "rerank": 0.043952830135822296
+  },
+  {
+   "cid": 1603,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.02255254052579403
+  },
+  {
+   "cid": 214,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "rerank": 0.019902806729078293
+  },
+  {
+   "cid": 1725,
+   "file": "SKM_C224e26051412340.pdf",
+   "rerank": 0.019902806729078293
+  },
+  {
+   "cid": 1099,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "rerank": 0.01925516501069069
+  },
+  {
+   "cid": 304,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "rerank": 0.007658203132450581
+  },
+  {
+   "cid": 1097,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "rerank": 0.006030071526765823
+  },
+  {
+   "cid": 1875,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "rerank": 0.0022011464461684227
+  },
+  {
+   "cid": 163,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "rerank": 0.0018499733414500952
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1769,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "origine": "nativa",
+   "rerank": 0.7576426863670349,
+   "testo": "TRACCIABILITÀ LOTTO L26130-L1-T2 - ricostruzione a monte\ncompilato in emergenza il 14/05/2026 da S. Pozzato su richiesta di E. Marchetti - DA VERIFICARE\n\n\nMateria prima Fornitore Lotto fornitore DDT ingresso Data ingresso Qtà impiegata UM TMC Certificato Note\nFarina tipo 0 W300 Molino Veneto SpA MV26-0429/A 48392 04/05/2026 840 kg 04/11/2026 CoA agli atti\nFarina tipo 0 W300 Molino Veneto SpA MV26-0431/B 48392 04/05/2026 210 kg 06/11/2026 CoA agli atti coda bancale precedente\nOlio girasole alto oleico Oleificio Adriatico SpA OA-2604-118 5521 28/04/2026 96 kg 28/10/2026 CoA agli atti\nSemi misti tostati Chemifood/terzi SM-26-0088 3312 22/04/2026 38 kg 22/02/2027\nLievito compresso Lievital Srl LV26-1180 9922 07/05/2026 21 kg 21/05/2026 consumato quasi a scadenza\nSale marino fino - SL-25-4410 - 12/03/2026 14.5 kg 12/03/2028\nFilm MAP PP/EVOH FLEXBAR 65 AZ Flexipack Nordest Srl FX26-0338 7741 30/04/2026 62 kg - DoC DC-2026-041 bobine n. 4 - usata anche su L26131\nVaschetta PP 100 g Flexipack Nordest Srl FX26-0290 7741 30/04/2026 8600 pz - DoC DC-2026-041\nAzoto alimentare E941 Nordgas SpA NG-26-0506 BN-4471 06/05/2026 42 m3 - CoA gas serbatoio S2\n\nimpasto totale teorico"
+  },
+  {
+   "cid": 1711,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "origine": "nativa",
+   "rerank": 0.6673211455345154,
+   "testo": "riservato ai sensi del Reg. UE 2016/679 (GDPR).\n\n________________________________________\n\nDa: Elena Marchetti <e.marchetti@aurorafoodgroup.it>\nA: milena.grigolon@########.it\nInviato: mercoledì 13 maggio 2026 15:47\nOggetto: Aurora Food Group - riscontro alla Sua segnalazione del 12/05/2026 (rif. REC-2026-011)\n\nGentile Sig.ra Grigolon,\n\nabbiamo ricevuto la Sua segnalazione del 12 maggio u.s. relativa al prodotto\n\"Snack salato rustico multicereali 100 g\", lotto L26130, e desideriamo\ninnanzitutto scusarci per l'accaduto e per il comprensibile spavento, tanto\npiù trattandosi della merenda di una bambina. La ringraziamo per la\ntempestività e la precisione della segnalazione, incluse le fotografie.\n\nLa informiamo che la Sua segnalazione è stata immediatamente registrata nel\nnostro sistema di gestione qualità (rif. pratica REC-2026-011) e che sono\nstate avviate le verifiche interne sul lotto indicato, come previsto dalle\nprocedure del nostro sistema di autocontrollo certificato.\n\nPer poter completare le analisi ci è indispensabile ricevere il frammento\nda Lei rinvenuto, unitamente, se possibile, alla confezione originale."
+  },
+  {
+   "cid": 1473,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "origine": "nativa",
+   "rerank": 0.4654083251953125,
+   "testo": "Quantita': kg 2.940 - peso verificato a destino: SI\nNumero colli: 3 cassoni - Rinfusa: SI\nAnnotazioni: scarto di produzione prodotti da forno; contiene prodotto declassato\nlotti L26130-L1-T2 e L26131 trattenuti in verifica qualita' (quota parte non commestibile,\nimballo rimosso).\n5) PERCORSO: Cologna Veneta (VR) - SP18 - Belfiore (VR). Trasporto sottoposto a normativa ADR: NO\nPartenza dal luogo di produzione: data 14/05/2026 ora 09:40\nFirma del produttore: E. Marchetti          Firma del trasportatore: [FIRMA]\n6) ACCETTAZIONE DEL DESTINATARIO: rifiuto accettato per intero - kg 2.940\nData arrivo: 14/05/2026 ora 11:05 - Firma del destinatario: [FIRMA E TIMBRO]\nTRASCRIZIONE FORMULARIO DI IDENTIFICAZIONE RIFIUTO - FIR n. VFR 0086413/26\nFormulario di identificazione ex art. 193 D.Lgs. 152/2006 - D.M. 59/2023\nNumero: VFR 0086413/26                      Data di emissione: 16/03/2026\n1) PRODUTTORE/DETENTORE\nAURORA FOOD GROUP S.R.L. - Via dell'Industria 27 - 37044 Cologna Veneta (VR)\nC.F. 03984710230 - iscr. RENTRI OP-VR-2025-018342\n2) TRASPORTATORE\nECOVENETA AMBIENTE S.R.L. - Via Levada 18 - 37045 Legnago (VR) - P.IVA 03412870234\nAlbo Gestori Ambientali n. VE/012684 - cat. 5 cl. F"
+  },
+  {
+   "cid": 612,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "origine": "nativa",
+   "rerank": 0.431478351354599,
+   "testo": "Oggetto: Vs. richiesta di chiarimenti del 14/05/2026 — segnalazione consumatore su prodotto \"Bontà di Casa\" snack rustico multicereali 100 g (ns. rif. AF-SN-0450, lotto L26130-L1-T2) — ns. fascicolo REC-2026-011\n\nGentile dott.ssa Perbellini,\n\nfacendo seguito alla Vostra comunicazione del 14 maggio u.s., con la presente forniamo il riscontro richiesto in merito alla segnalazione pervenuta da una consumatrice relativamente a una confezione di snack rustico multicereali 100 g a marchio \"Bontà di Casa\", lotto L26130-L1-T2, acquistata presso il punto vendita di Bussolengo.\n\nDesideriamo anzitutto assicurarVi che la segnalazione è stata presa in carico con la massima serietà e tempestività, secondo la nostra procedura certificata di gestione dei reclami (sistema BRCGS Food Safety Issue 9, grade AA, e IFS Food v8 Higher Level).\n\n1. Ricostruzione dei fatti"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4361,
+ "tempi": {
+  "denso": 0.01,
+  "sparso": 0.19,
+  "rerank": 47.54
+ },
+ "id": "Q208",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:33:01",
+ "secondi": 47.74,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 106.8,
+  "token_prompt": 1927,
+  "token_risposta": 512,
+  "testo_grezzo": "La risposta non è possibile calcolare a memoria i dati presenti nei file forniti. Non sono presenti informazioni sulla quantità di farina usata per il lotto L26130. Non sono presenti informazioni sulla quantità di farina usata per il lotto L26130. Non sono presenti informazioni sulla quantità di farina usata per il lotto L26130. Non sono presenti informazioni sulla quantità di farina usata per il lotto L26130. Non sono presenti informazioni sulla quantità di farina usata per il lotto L26130. Non sono presenti informazioni sulla quantità di farina usata per il lotto L26130. Non sono presenti informazioni sulla quantità di farina usata per il lotto L26130. Non sono presenti informazioni sulla quantità di farina usata per il lotto L26130. Non sono presenti informazioni sulla quantità di farina usata per il lotto L26130. Non sono presenti informazioni sulla quantità di farina usata per il lotto L26130. Non sono presenti informazioni sulla quantità di farina usata per il lotto L26130. Non sono presenti informazioni sulla quantità di farina usata per il lotto L26130. Non sono presenti informazioni sulla quantità di farina usata per il lotto L26130. Non sono presenti informazioni sulla quantità di farina usata per il lotto L26130. Non sono presenti informazioni sulla quantità di farina usata per il lotto L26130. Non sono presenti informazioni sulla quantità di farina usata per il lotto L26130. Non sono presenti informazioni sulla quantità di farina usata per il lotto L26130. Non sono presenti informazioni sulla quantità di farina usata per il lotto L26130. Non sono presenti informazioni sulla quantità di farina usata per il lotto L26130. Non sono presenti informazioni sulla quantità di farina usata per il lotto L26130. Non sono presenti informazioni sulla quantità di farina usata per il lotto L26130. Non sono presenti informazioni sulla quantità di farina usata per il lotto L26130. Non sono presenti informazioni sulla quant",
+  "fonti_citate": [],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

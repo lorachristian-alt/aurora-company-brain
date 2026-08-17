@@ -1,0 +1,679 @@
+{
+ "domanda": "Che cosa dice il certificato di analisi del lotto di farina MV26-0429A?",
+ "candidati_densi": [
+  {
+   "cid": 209,
+   "punteggio": 0.6491222192126056,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1720,
+   "punteggio": 0.6491222095874141,
+   "file": "SKM_C224e26051412340.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1725,
+   "punteggio": 0.6450298883416302,
+   "file": "SKM_C224e26051412340.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 214,
+   "punteggio": 0.6450298169885829,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 212,
+   "punteggio": 0.6105698973059295,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1723,
+   "punteggio": 0.6105698357507918,
+   "file": "SKM_C224e26051412340.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1697,
+   "punteggio": 0.5805453270652661,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1490,
+   "punteggio": 0.5768346239411921,
+   "file": "registro_tamponi_superfici_listeria_salmonella.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1178,
+   "punteggio": 0.5766208140625908,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1689,
+   "punteggio": 0.5729602715541824,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1726,
+   "punteggio": 0.5679214755058433,
+   "file": "SKM_C224e26051412340.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 215,
+   "punteggio": 0.5679214755058433,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1694,
+   "punteggio": 0.566014135361408,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1769,
+   "punteggio": 0.5649160249649106,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 211,
+   "punteggio": 0.5612028474701188,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1722,
+   "punteggio": 0.5612025978193549,
+   "file": "SKM_C224e26051412340.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 217,
+   "punteggio": 0.5601159870566338,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1692,
+   "punteggio": 0.5567250070223482,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1501,
+   "punteggio": 0.5554889121927667,
+   "file": "registro_tamponi_superfici_listeria_salmonella.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1494,
+   "punteggio": 0.5550104448178732,
+   "file": "registro_tamponi_superfici_listeria_salmonella.csv",
+   "idx": 4,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1720,
+   "punteggio": 47.64930725097656,
+   "file": "SKM_C224e26051412340.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 209,
+   "punteggio": 47.64930725097656,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 214,
+   "punteggio": 37.80665588378906,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1725,
+   "punteggio": 37.80665588378906,
+   "file": "SKM_C224e26051412340.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 211,
+   "punteggio": 37.501312255859375,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1722,
+   "punteggio": 37.501312255859375,
+   "file": "SKM_C224e26051412340.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1723,
+   "punteggio": 25.5030517578125,
+   "file": "SKM_C224e26051412340.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 212,
+   "punteggio": 25.5030517578125,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1112,
+   "punteggio": 19.770212173461914,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1719,
+   "punteggio": 17.926294326782227,
+   "file": "SKM_C224e26050408520.jpg",
+   "idx": 0,
+   "origine": "ocr"
+  },
+  {
+   "cid": 1769,
+   "punteggio": 17.802152633666992,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1097,
+   "punteggio": 16.896833419799805,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1776,
+   "punteggio": 16.68513298034668,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 546,
+   "punteggio": 16.470537185668945,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1711,
+   "punteggio": 16.360057830810547,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 303,
+   "punteggio": 15.599498748779297,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1366,
+   "punteggio": 14.938507080078125,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 246,
+   "punteggio": 14.831766128540039,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1522,
+   "punteggio": 14.447246551513672,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1707,
+   "punteggio": 14.442463874816895,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 1,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 209,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.03252247488101534,
+   "rango_denso": 1,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1720,
+   "file": "SKM_C224e26051412340.pdf",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.03252247488101534,
+   "rango_denso": 2,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 214,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.03149801587301587,
+   "rango_denso": 4,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1725,
+   "file": "SKM_C224e26051412340.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.03149801587301587,
+   "rango_denso": 3,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 212,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.030090497737556562,
+   "rango_denso": 5,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1723,
+   "file": "SKM_C224e26051412340.pdf",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.03007688828584351,
+   "rango_denso": 6,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 211,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.02871794871794872,
+   "rango_denso": 15,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1722,
+   "file": "SKM_C224e26051412340.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.028309409888357256,
+   "rango_denso": 16,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1769,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.027598020555767037,
+   "rango_denso": 14,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1697,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1490,
+   "file": "registro_tamponi_superfici_listeria_salmonella.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1112,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1178,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1689,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1719,
+   "file": "SKM_C224e26050408520.jpg",
+   "idx": 0,
+   "origine": "ocr",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1726,
+   "file": "SKM_C224e26051412340.pdf",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 215,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1097,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1694,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 546,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 1711,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": null,
+   "rango_sparso": 15
+  },
+  {
+   "cid": 303,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013157894736842105,
+   "rango_denso": null,
+   "rango_sparso": 16
+  },
+  {
+   "cid": 217,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.012987012987012988,
+   "rango_denso": 17,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 214,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "rerank": 0.9887762665748596
+  },
+  {
+   "cid": 1725,
+   "file": "SKM_C224e26051412340.pdf",
+   "rerank": 0.9887762665748596
+  },
+  {
+   "cid": 209,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "rerank": 0.960513174533844
+  },
+  {
+   "cid": 1720,
+   "file": "SKM_C224e26051412340.pdf",
+   "rerank": 0.960513174533844
+  },
+  {
+   "cid": 212,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "rerank": 0.8793039321899414
+  },
+  {
+   "cid": 1723,
+   "file": "SKM_C224e26051412340.pdf",
+   "rerank": 0.8793039321899414
+  },
+  {
+   "cid": 1769,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "rerank": 0.8346128463745117
+  },
+  {
+   "cid": 211,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "rerank": 0.8016400337219238
+  },
+  {
+   "cid": 1722,
+   "file": "SKM_C224e26051412340.pdf",
+   "rerank": 0.8016400337219238
+  },
+  {
+   "cid": 1719,
+   "file": "SKM_C224e26050408520.jpg",
+   "rerank": 0.44933345913887024
+  },
+  {
+   "cid": 546,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "rerank": 0.3360985219478607
+  },
+  {
+   "cid": 215,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "rerank": 0.2632335126399994
+  },
+  {
+   "cid": 1726,
+   "file": "SKM_C224e26051412340.pdf",
+   "rerank": 0.2632335126399994
+  },
+  {
+   "cid": 1689,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "rerank": 0.10380907356739044
+  },
+  {
+   "cid": 1694,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "rerank": 0.02834036946296692
+  },
+  {
+   "cid": 1178,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.02604835480451584
+  },
+  {
+   "cid": 303,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "rerank": 0.015906069427728653
+  },
+  {
+   "cid": 1697,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "rerank": 0.00815039873123169
+  },
+  {
+   "cid": 1490,
+   "file": "registro_tamponi_superfici_listeria_salmonella.csv",
+   "rerank": 0.003717536572366953
+  },
+  {
+   "cid": 217,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "rerank": 0.0021820757538080215
+  },
+  {
+   "cid": 1711,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.0018675730098038912
+  },
+  {
+   "cid": 1097,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "rerank": 0.0016200753161683679
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.000336758530465886
+  },
+  {
+   "cid": 1112,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.00030833747587166727
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 214,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "origine": "nativa",
+   "rerank": 0.9887762665748596,
+   "testo": "Cereali contenenti glutine (frumento)\nSI\n-\nSoia\nNO\nNO\nLatte e derivati\nNO\nNO\n\nMOLINO VENETO S.p.A. - Via Molini 18 - 37063 Isola della Scala (VR) - Laboratorio Controllo Qualita'\nCoA 2026/0429A - lotto MV26-0429A - pag. 4 - il presente certificato si riferisce esclusivamente al lotto indicato\npag. 4\nAllergene\nPresente come ingrediente\nCross-contact possibile nel sito\nUova\nNO\nNO\nFrutta a guscio\nNO\nNO\nSesamo\nNO\nNO\nSenape\nNO\nNO\nLupini\nNO\nNO\nNello stabilimento di macinazione di Isola della Scala si lavorano\nesclusivamente grano tenero e grano duro.\n9. DICHIARAZIONE DI CONFORMITA'\nSi dichiara che il lotto MV26-0429A e' conforme al capitolato\nCAP-F0012-01 rev. 3 del 10/11/2025 sottoscritto con il cliente, alla\nlegislazione italiana sulle farine (D.P.R. 187/2001) e alla normativa\nUE applicabile in materia di contaminanti e residui. Il prodotto e'\nidoneo al consumo umano previa cottura ed e' stato movimentato\nesclusivamente con mezzi dedicati al trasporto di alimenti (cisterna\ncon certificato di lavaggio n. LAV-2026-0783 del 05/05/2026).\nI risultati si riferiscono esclusivamente al lotto sopra identificato.\nIl presente certificato non puo' essere riprodotto parzialmente senza"
+  },
+  {
+   "cid": 1725,
+   "file": "SKM_C224e26051412340.pdf",
+   "origine": "nativa",
+   "rerank": 0.9887762665748596,
+   "testo": "Cereali contenenti glutine (frumento)\nSI\n-\nSoia\nNO\nNO\nLatte e derivati\nNO\nNO\n\nMOLINO VENETO S.p.A. - Via Molini 18 - 37063 Isola della Scala (VR) - Laboratorio Controllo Qualita'\nCoA 2026/0429A - lotto MV26-0429A - pag. 4 - il presente certificato si riferisce esclusivamente al lotto indicato\npag. 4\nAllergene\nPresente come ingrediente\nCross-contact possibile nel sito\nUova\nNO\nNO\nFrutta a guscio\nNO\nNO\nSesamo\nNO\nNO\nSenape\nNO\nNO\nLupini\nNO\nNO\nNello stabilimento di macinazione di Isola della Scala si lavorano\nesclusivamente grano tenero e grano duro.\n9. DICHIARAZIONE DI CONFORMITA'\nSi dichiara che il lotto MV26-0429A e' conforme al capitolato\nCAP-F0012-01 rev. 3 del 10/11/2025 sottoscritto con il cliente, alla\nlegislazione italiana sulle farine (D.P.R. 187/2001) e alla normativa\nUE applicabile in materia di contaminanti e residui. Il prodotto e'\nidoneo al consumo umano previa cottura ed e' stato movimentato\nesclusivamente con mezzi dedicati al trasporto di alimenti (cisterna\ncon certificato di lavaggio n. LAV-2026-0783 del 05/05/2026).\nI risultati si riferiscono esclusivamente al lotto sopra identificato.\nIl presente certificato non puo' essere riprodotto parzialmente senza"
+  },
+  {
+   "cid": 209,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "origine": "nativa",
+   "rerank": 0.960513174533844,
+   "testo": "MOLINO VENETO S.p.A. - Via Molini 18 - 37063 Isola della Scala (VR) - Laboratorio Controllo Qualita'\nCoA 2026/0429A - lotto MV26-0429A - pag. 1 - il presente certificato si riferisce esclusivamente al lotto indicato\npag. 1\nCertificato di analisi n. CoA 2026/0429A - Farina tipo 0 W300 - Lotto MV26-0429A\nMOLINO VENETO S.p.A.\nVia Molini 18 - 37063 Isola della Scala (VR)\nP.IVA 00298440231 - Tel. 045 663 0912 - qualita@molinoveneto.it\nLaboratorio interno di Controllo Qualita'\nCERTIFICATO DI ANALISI / CERTIFICATE OF ANALYSIS\nn. CoA 2026/0429A - emesso il 04/05/2026\n1. IDENTIFICAZIONE DEL LOTTO\nCampo\nValore\nProdotto\nFarina di grano tenero tipo 0 - \"W300 Panificabile Superiore\"\nCodice articolo fornitore\nFV-0300\nLotto\nMV26-0429A\nData di macinazione\n29/04/2026\nTermine minimo di conservazione\n29/12/2026 (8 mesi in sacco/silo, luogo fresco e asciutto)\nCliente\nAurora Food Group S.r.l. - Via dell'Industria 27 - 37044 Cologna Veneta\n(VR)\nRiferimento contratto\ncontratto di fornitura n. 2026/07 del 18/12/2025 - capitolato\nCAP-F0012-01 rev. 3\nConsegna\nsfusa in autocisterna - DDT n. 1187/26 del 05/05/2026\nQuantita'\n28.400 kg\nOrigine grano\nmiscela grano tenero nazionale e UE (Francia, Ungheria)"
+  },
+  {
+   "cid": 1720,
+   "file": "SKM_C224e26051412340.pdf",
+   "origine": "nativa",
+   "rerank": 0.960513174533844,
+   "testo": "MOLINO VENETO S.p.A. - Via Molini 18 - 37063 Isola della Scala (VR) - Laboratorio Controllo Qualita'\nCoA 2026/0429A - lotto MV26-0429A - pag. 1 - il presente certificato si riferisce esclusivamente al lotto indicato\npag. 1\nCertificato di analisi n. CoA 2026/0429A - Farina tipo 0 W300 - Lotto MV26-0429A\nMOLINO VENETO S.p.A.\nVia Molini 18 - 37063 Isola della Scala (VR)\nP.IVA 00298440231 - Tel. 045 663 0912 - qualita@molinoveneto.it\nLaboratorio interno di Controllo Qualita'\nCERTIFICATO DI ANALISI / CERTIFICATE OF ANALYSIS\nn. CoA 2026/0429A - emesso il 04/05/2026\n1. IDENTIFICAZIONE DEL LOTTO\nCampo\nValore\nProdotto\nFarina di grano tenero tipo 0 - \"W300 Panificabile Superiore\"\nCodice articolo fornitore\nFV-0300\nLotto\nMV26-0429A\nData di macinazione\n29/04/2026\nTermine minimo di conservazione\n29/12/2026 (8 mesi in sacco/silo, luogo fresco e asciutto)\nCliente\nAurora Food Group S.r.l. - Via dell'Industria 27 - 37044 Cologna Veneta\n(VR)\nRiferimento contratto\ncontratto di fornitura n. 2026/07 del 18/12/2025 - capitolato\nCAP-F0012-01 rev. 3\nConsegna\nsfusa in autocisterna - DDT n. 1187/26 del 05/05/2026\nQuantita'\n28.400 kg\nOrigine grano\nmiscela grano tenero nazionale e UE (Francia, Ungheria)"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4758,
+ "tempi": {
+  "denso": 2.35,
+  "sparso": 0.25,
+  "rerank": 65.18
+ },
+ "collaudo": 4,
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "generazione": {
+  "testo": "Il certificato di analisi del lotto di farina MV26-0429A non contiene informazioni sulla presenza di glutine, poiché il lotto è indicato come \"Farina di grano tenero tipo 0 - W300 Panificabile Superiore\" e non come \"Farina di grano tenero tipo 0 - W300 Panificabile Superiore con glutine\".\n\nNon e' possibile determinare se il lotto di farina MV26-0429A contiene glutine o meno.\n\nFONTI: certificato_analisi_lotto_farina_MV26_0429A.pdf, SKM_C224e26051412340.pdf",
+  "secondi": 76.66,
+  "token_prompt": 2087,
+  "token_risposta": 144,
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "fonti_citate": [
+   "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "SKM_C224e26051412340.pdf"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

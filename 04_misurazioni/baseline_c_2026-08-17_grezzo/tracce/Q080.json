@@ -1,0 +1,681 @@
+{
+ "domanda": "Che protezioni individuali servono per fare un lavaggio CIP?",
+ "candidati_densi": [
+  {
+   "cid": 573,
+   "punteggio": 0.6393452996193911,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1668,
+   "punteggio": 0.6123932285660009,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 574,
+   "punteggio": 0.5912068655739846,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1676,
+   "punteggio": 0.58655558407553,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 577,
+   "punteggio": 0.5519148436566625,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 575,
+   "punteggio": 0.5430273562914658,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 579,
+   "punteggio": 0.5398281994372517,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 580,
+   "punteggio": 0.5308235505646501,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 582,
+   "punteggio": 0.5260327480990266,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1285,
+   "punteggio": 0.5226353757060509,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1293,
+   "punteggio": 0.5224879545135345,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1645,
+   "punteggio": 0.5223473034190911,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1297,
+   "punteggio": 0.522123025624232,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1284,
+   "punteggio": 0.5194606479961834,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 393,
+   "punteggio": 0.518788468772863,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 859,
+   "punteggio": 0.5129722589682661,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 37,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1348,
+   "punteggio": 0.512489203671169,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1674,
+   "punteggio": 0.5123743193848326,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1670,
+   "punteggio": 0.50716567448302,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 578,
+   "punteggio": 0.5045302323793619,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 5,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1563,
+   "punteggio": 15.498003959655762,
+   "file": "ricetta_base_esperimento_snack_salato_v12.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1816,
+   "punteggio": 14.43665885925293,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1788,
+   "punteggio": 14.315655708312988,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 573,
+   "punteggio": 13.724200248718262,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 579,
+   "punteggio": 13.705254554748535,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 574,
+   "punteggio": 13.408530235290527,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 509,
+   "punteggio": 12.12879753112793,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1796,
+   "punteggio": 12.003061294555664,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 23,
+   "origine": "nativa"
+  },
+  {
+   "cid": 577,
+   "punteggio": 11.92245864868164,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1115,
+   "punteggio": 11.731175422668457,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 431,
+   "punteggio": 11.402107238769531,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1644,
+   "punteggio": 11.401939392089844,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 505,
+   "punteggio": 11.32925796508789,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1777,
+   "punteggio": 10.976963996887207,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1114,
+   "punteggio": 10.94533634185791,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1113,
+   "punteggio": 10.919548988342285,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 605,
+   "punteggio": 10.910259246826172,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1707,
+   "punteggio": 10.908056259155273,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 256,
+   "punteggio": 10.888375282287598,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1426,
+   "punteggio": 10.775394439697266,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 2,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 573,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.032018442622950824,
+   "rango_denso": 1,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 574,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.031024531024531024,
+   "rango_denso": 3,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 579,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.030309988518943745,
+   "rango_denso": 7,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 577,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.029877369007803793,
+   "rango_denso": 5,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1563,
+   "file": "ricetta_base_esperimento_snack_salato_v12.txt",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1668,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1816,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1788,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1676,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 575,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 509,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 580,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1796,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 23,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 582,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1115,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1285,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1293,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1644,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1645,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 505,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1297,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 18,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1284,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1777,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 573,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 0.7845020890235901
+  },
+  {
+   "cid": 1676,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "rerank": 0.5649538636207581
+  },
+  {
+   "cid": 574,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 0.5245641469955444
+  },
+  {
+   "cid": 1816,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "rerank": 0.08637290447950363
+  },
+  {
+   "cid": 575,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 0.042406946420669556
+  },
+  {
+   "cid": 579,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 0.042140472680330276
+  },
+  {
+   "cid": 1645,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "rerank": 0.038494501262903214
+  },
+  {
+   "cid": 1644,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "rerank": 0.02691585198044777
+  },
+  {
+   "cid": 1668,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "rerank": 0.022867649793624878
+  },
+  {
+   "cid": 1284,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "rerank": 0.021734189242124557
+  },
+  {
+   "cid": 577,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 0.017447305843234062
+  },
+  {
+   "cid": 1285,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "rerank": 0.008728518150746822
+  },
+  {
+   "cid": 1293,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "rerank": 0.008436759002506733
+  },
+  {
+   "cid": 1297,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "rerank": 0.007803569547832012
+  },
+  {
+   "cid": 582,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 0.004021824803203344
+  },
+  {
+   "cid": 580,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 0.003693188074976206
+  },
+  {
+   "cid": 509,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 0.0005333932931534946
+  },
+  {
+   "cid": 1563,
+   "file": "ricetta_base_esperimento_snack_salato_v12.txt",
+   "rerank": 0.00011770238052122295
+  },
+  {
+   "cid": 1796,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.00010083085362566635
+  },
+  {
+   "cid": 505,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 1.8050975995720364e-05
+  },
+  {
+   "cid": 1788,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 1.7275866412092e-05
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 1.6985828551696613e-05
+  },
+  {
+   "cid": 1777,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 1.644818803470116e-05
+  },
+  {
+   "cid": 1115,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 1.6257572497124784e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 573,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "origine": "nativa",
+   "rerank": 0.7845020890235901,
+   "testo": "AURORA FOOD GROUP S.r.l. — ISTRUZIONE OPERATIVA IO-05\n\nLAVAGGIO CIP IMPIANTO CIP-01 — LINEE E SERBATOI\n\n\nQUESTA ISTRUZIONE È PER GLI OPERATORI AUTORIZZATI AL CIP. SE NON HAI FATTO LA FORMAZIONE (MOD-HR-11) NON PUOI AVVIARE UN LAVAGGIO. CHIEDI AL CAPOTURNO.\n\n[Marchetti E. - rev.4: aggiunta la tabella programmi per linea e il paragrafo 9 sul ciclo interrotto, dopo il fermo del 03/12/2025. Distribuita in bacheca linee 1-2-3 e in sala CIP.]\n\n1. A COSA SERVE\n\nIl CIP (Cleaning In Place) lava le tubazioni, i serbatoi e le parti a contatto con il prodotto SENZA smontarle. Si usano prodotti chimici FORTI. Se sbagli concentrazione o temperatura, il lavaggio non pulisce oppure rovina l'impianto. Se sbagli il risciacquo, la chimica finisce nel prodotto.\n\nIL RISCIACQUO FINALE NON SI SALTA MAI. MAI.\n\n2. DPI OBBLIGATORI\n\nPrima di toccare taniche, pompe dosatrici o attacchi CIP devi indossare:\n\nocchiali a mascherina (NON bastano gli occhiali normali)\nvisiera durante il travaso manuale delle taniche\nguanti in neoprene lunghi al gomito\ngrembiule antiacido\nstivali in gomma"
+  },
+  {
+   "cid": 1676,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "origine": "nativa",
+   "rerank": 0.5649538636207581,
+   "testo": "Conservare nei contenitori originali (HDPE) ben chiusi, in luogo fresco,\n    asciutto e ventilato, al riparo dalla luce solare, T di stoccaggio\n    +5 / +35 gradi C. Pavimento resistente agli acidi con bacino di conteni-\n    mento. STOCCARE SEPARATO da: alcali, ipocloriti e prodotti clorati,\n    solventi organici, metalli in polvere, sostanze combustibili.\n    Quantitativo max consigliato per deposito di reparto: verificare CPI /\n    valutazione rischio aziendale.\n7.3 Usi finali particolari\n    Lavaggio CIP: rispettare concentrazioni d uso (tipicam. l - 3 % v/v),\n    temperature (5O-7O gradi C) e risciacquo finale con acqua potabile fino a\n    neutralita' verificata (v. istruzione operativa del cliente).\n\n________________________________________________________________________________\n\nSEZIONE 8: controllo dell esposizione/protezione individuale\n\n8.1 Parametri di controllo\n    acido nitrico  CAS 7697-37-2\n       VLE (UE, dir. 2O17/164): STEL 2,6 mg/m3 - 1 ppm\n       ACGIH: TLV-TWA 2 ppm - TLV-STEL 4 ppm\n    acido fosforico CAS 7664-38-2\n       TLV-TWA l mg/m3 ; TLV-STEL 3 mg/m3 (ACGIH)\n    DNEL acido nitrico (lavoratori, inal., acuto/locale): 2,6 mg/m3"
+  },
+  {
+   "cid": 574,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "origine": "nativa",
+   "rerank": 0.5245641469955444,
+   "testo": "occhiali a mascherina (NON bastano gli occhiali normali)\nvisiera durante il travaso manuale delle taniche\nguanti in neoprene lunghi al gomito\ngrembiule antiacido\nstivali in gomma\n\n- mascherina FFP2 [Bonato S. - la FFP2 non protegge dai vapori di acido nitrico. Ho tolto la riga: se serve protezione respiratoria si usa la semimaschera con filtro B-P2 che è nell'armadio DPI della sala CIP. Vedi DVR par. 6.3.]\n\nSE UN DPI È ROTTO O MANCA: NON INIZIARE. Avvisa il capoturno. I DPI di scorta sono nell'armadio grigio in sala CIP.\n\n3. I PRODOTTI CHIMICI (fornitore Chemifood Italia S.r.l. — cod. F0052)\n\n\nLE SCHEDE DI SICUREZZA (SDS) SONO NEL RACCOGLITORE ROSSO IN SALA CIP E SUL SERVER. LEGGILE ALMENO UNA VOLTA. In caso di contatto con occhi o pelle: lavare subito con acqua per 15 minuti alla doccia/lavaocchi di sala CIP e avvisare il capoturno. SEMPRE, anche se ti sembra niente.\n\nSE SENTI ODORE FORTE E PUNGENTE IN SALA CIP: ESCI, CHIUDI LA PORTA, AVVISA IL CAPOTURNO. Non fare l'eroe.\n\n[Dal Maso I. - lavaocchi controllato da me ogni primo lunedì del mese, registro attaccato di fianco. Se la vaschetta è sporca ditelo che la cambio.]\n\n4. PRIMA DI INIZIARE — CONTROLLI"
+  },
+  {
+   "cid": 1816,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "origine": "nativa",
+   "rerank": 0.08637290447950363,
+   "testo": "14.00-15.00  rischio meccanico: macchine e attrezzature di linea (IMP-300,\n              sfogliatrice, FT-01/FT-02, PKM-450, MD-3200), ripari e interblocchi,\n              divieto di rimozione protezioni, procedure LOTO di reparto\n 15.00-15.15  pausa\n 15.15-16.15  rischio elettrico, cadute, scivolamenti (pavimenti bagnati aree\n              lavaggio CIP-01), movimentazione mezzi interni e carrelli (muletti\n              magazzino, transpallet), viabilita' interna\n 16.15-17.00  ambienti a temperatura controllata: lavoro in cella frigorifera\n              CF-01/CF-02 (-18), microclima, DPI termici, uomo morto/allarme\n\nPROGRAMMA - GIORNATA 2 (15/04/2026) - FORMAZIONE SPECIFICA (parte 2)\n\n 08.00-09.00  movimentazione manuale dei carichi, sovraccarico biomeccanico,\n              movimenti ripetitivi su linee di confezionamento\n 09.00-10.00  rischio rumore (fonometria 2025: reparto forni 82,4 dB(A)) e\n              vibrazioni; DPI otoprotettori\n 10.00-10.15  pausa\n 10.15-11.15  rischio chimico: detergenti e sanificanti CIP (soda caustica,\n              acido nitrico, PAA - fornitore Chemifood), lettura SDS,\n              etichettatura CLP, DPI specifici, docce/lavaocchi"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4593,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.19,
+  "rerank": 47.67
+ },
+ "id": "Q080",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:55:05",
+ "secondi": 47.87,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 66.33,
+  "token_prompt": 1956,
+  "token_risposta": 108,
+  "testo_grezzo": "La risposta è: devono essere indossati guanti in neoprene lunghi al gomito, grembiule antiacido, stivali in gomma e visiera durante il travaso manuale delle taniche.\n\nFONTI: IO-05_istruzione_operativa_lavaggio_CIP.docx, scheda_sicurezza_detergente_acido_lavaggio_CIP.txt, IO-05_istruzione_operativa_lavaggio_CIP.docx",
+  "fonti_citate": [
+   "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

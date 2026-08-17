@@ -1,0 +1,679 @@
+{
+ "domanda": "Che cosa riporta il modulo MOD-QA-07 compilato il 10-05-26 sulla linea 1 turno 2?",
+ "candidati_densi": [
+  {
+   "cid": 1184,
+   "punteggio": 0.5943288271163449,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 224,
+   "punteggio": 0.5931149984348715,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1185,
+   "punteggio": 0.5851942870951738,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1608,
+   "punteggio": 0.5851521006814722,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 82,
+   "punteggio": 0.5851275644776017,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1615,
+   "punteggio": 0.5785963328045256,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1300,
+   "punteggio": 0.5762453984653052,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1709,
+   "punteggio": 0.5698020946904618,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1165,
+   "punteggio": 0.5695254222404338,
+   "file": "MOD-QA-07_10-05-26_L1_T2_scansione.jpg",
+   "idx": 0,
+   "origine": "ocr"
+  },
+  {
+   "cid": 1776,
+   "punteggio": 0.5690204286086411,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1303,
+   "punteggio": 0.5674655118885954,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1195,
+   "punteggio": 0.5645418396469687,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1200,
+   "punteggio": 0.5612728534885232,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 22,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1207,
+   "punteggio": 0.5586330682250952,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 29,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1302,
+   "punteggio": 0.5561716647112787,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 81,
+   "punteggio": 0.5559083803459888,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 461,
+   "punteggio": 0.5558069617801769,
+   "file": "estratto_registro_carico_scarico_MOCA.xlsx",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1862,
+   "punteggio": 0.5556417154740982,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 85,
+   "punteggio": 0.5550146242041032,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1306,
+   "punteggio": 0.554931338914665,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 7,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1714,
+   "punteggio": 30.663211822509766,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1774,
+   "punteggio": 27.20687484741211,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 536,
+   "punteggio": 25.329195022583008,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1136,
+   "punteggio": 25.06092643737793,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1776,
+   "punteggio": 24.53702163696289,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1457,
+   "punteggio": 24.439163208007812,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1843,
+   "punteggio": 23.022462844848633,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 224,
+   "punteggio": 22.59462547302246,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1710,
+   "punteggio": 22.40458869934082,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 615,
+   "punteggio": 22.26139259338379,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1165,
+   "punteggio": 22.12519645690918,
+   "file": "MOD-QA-07_10-05-26_L1_T2_scansione.jpg",
+   "idx": 0,
+   "origine": "ocr"
+  },
+  {
+   "cid": 1607,
+   "punteggio": 21.967529296875,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1245,
+   "punteggio": 21.79747772216797,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1185,
+   "punteggio": 20.86228370666504,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1578,
+   "punteggio": 20.56806755065918,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1709,
+   "punteggio": 20.524738311767578,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1606,
+   "punteggio": 20.489639282226562,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1602,
+   "punteggio": 20.176170349121094,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1126,
+   "punteggio": 19.993452072143555,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1791,
+   "punteggio": 19.87839698791504,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 18,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 224,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.030834914611005692,
+   "rango_denso": 2,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.02967032967032967,
+   "rango_denso": 10,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1185,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.029386529386529386,
+   "rango_denso": 3,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 1165,
+   "file": "MOD-QA-07_10-05-26_L1_T2_scansione.jpg",
+   "idx": 0,
+   "origine": "ocr",
+   "rrf": 0.028577260665441927,
+   "rango_denso": 9,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1709,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.02786377708978328,
+   "rango_denso": 8,
+   "rango_sparso": 16
+  },
+  {
+   "cid": 1184,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1714,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1774,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 536,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1136,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 18,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1608,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 82,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1457,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1615,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1300,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1843,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1710,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 615,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1303,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1195,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 17,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1607,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1200,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 22,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1245,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1207,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 29,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1607,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.7380321621894836
+  },
+  {
+   "cid": 1843,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "rerank": 0.7179417610168457
+  },
+  {
+   "cid": 1165,
+   "file": "MOD-QA-07_10-05-26_L1_T2_scansione.jpg",
+   "rerank": 0.7074801325798035
+  },
+  {
+   "cid": 1714,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.5670315027236938
+  },
+  {
+   "cid": 224,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "rerank": 0.563414454460144
+  },
+  {
+   "cid": 1200,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.5360714793205261
+  },
+  {
+   "cid": 1136,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.499896377325058
+  },
+  {
+   "cid": 1774,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.4529854953289032
+  },
+  {
+   "cid": 1245,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.40470707416534424
+  },
+  {
+   "cid": 1608,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.3466894328594208
+  },
+  {
+   "cid": 1195,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.3398190140724182
+  },
+  {
+   "cid": 1709,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.31040316820144653
+  },
+  {
+   "cid": 1710,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.2532045543193817
+  },
+  {
+   "cid": 615,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.25220787525177
+  },
+  {
+   "cid": 1185,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.23065528273582458
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.21973101794719696
+  },
+  {
+   "cid": 1457,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.20066116750240326
+  },
+  {
+   "cid": 1184,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.20054078102111816
+  },
+  {
+   "cid": 1615,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.14191937446594238
+  },
+  {
+   "cid": 82,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "rerank": 0.13869155943393707
+  },
+  {
+   "cid": 536,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "rerank": 0.12150833755731583
+  },
+  {
+   "cid": 1207,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.07713112235069275
+  },
+  {
+   "cid": 1300,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "rerank": 0.029952136799693108
+  },
+  {
+   "cid": 1303,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "rerank": 0.019474977627396584
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1607,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "origine": "nativa",
+   "rerank": 0.7380321621894836,
+   "testo": "4. ELENCO NON CONFORMITA' / NON-CONFORMITY LIST\n----------------------------------------------------------------------------\nTutte le NC sotto riportate sono classificate MINORI (minor).\nTermine di chiusura / Deadline: piano d'azione + evidenze entro 28 gg dalla\nriunione di chiusura, ossia entro il 18/03/2026.\nPer ciascuna NC è richiesta: correzione, analisi della causa radice (root cause\nanalysis), azione correttiva, evidenza oggettiva.\n\n===========================================================================\nNC n. 1 (MINORE)\nStandard/clausola: BRCGS Issue 9 cl. 2.10.2 - IFS Food v8 cl. 2.3.9.2\nRequisito: le registrazioni dei controlli ai CCP devono essere verificate da\n  persona autorizzata diversa dall'esecutore, con firma di verifica.\nEvidenza oggettiva: le registrazioni manuali del monitoraggio CCP2 (MOD-QA-12)\n  e CCP3 (MOD-QA-07 rev.5) del periodo 12-16/01/2026 (Linea 1, turni 1 e 2)\n  risultano prive della verifica in seconda firma del capoturno entro fine\n  turno in 11 moduli su 20 esaminati. La verifica QA settimanale risulta\n  invece eseguita. Intervistato il capoturno, la prassi della seconda firma\n  non risulta sistematica."
+  },
+  {
+   "cid": 1843,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "origine": "nativa",
+   "rerank": 0.7179417610168457,
+   "testo": "- CONFORMI; acqua calda e fredda, ventilazione adeguata\n1.9 GESTIONE RIFIUTI E SOTTOPRODOTTI\n    - contenitori identificati, area dedicata esterna: CONFORME\n2. DOCUMENTAZIONE VISIONATA\n  - Manuale di autocontrollo HACCP rev. 5 del 08/04/2026, a firma\n    dott.ssa E. Marchetti (Team Leader HACCP)\n  - Piano HACCP: CCP1 setacciatura/magnete, CCP2 trattamento termico\n    PT-104, CCP3 metal detection MD-3200, CCP4 surgelazione\n  - Modulo MOD-QA-07 rev. 5 (verifica metal detector, frequenza\n    60 minuti): campionato periodo 01/05-31/05/2026\n  - Modulo MOD-QA-12 (registro temperature CCP2): campionato periodo\n    01/05-31/05/2026\n  - Registro formazione del personale MOD-HR-11: ultima sessione\n    igiene alimenti 20/02/2026\n  - Certificati BRCGS Food Safety Issue 9 (grade AA, cert. n.\n    BRC/IT/24/00871) e IFS Food v8 (Higher Level, cert. n.\n    IFS/IT/25/03390), ente CSQA Certificazioni S.r.l.\n  - Contratto di manutenzione e derattizzazione; ultime schede di\n    monitoraggio\n  - Rapporti di prova laboratorio Analytica Veneta S.r.l. (ACCREDIA\n    n. 0987): tamponi superfici MOD-QA-19, aprile-maggio 2026\nSi prende atto che e' in corso una gestione di reclamo consumatore"
+  },
+  {
+   "cid": 1165,
+   "file": "MOD-QA-07_10-05-26_L1_T2_scansione.jpg",
+   "origine": "ocr",
+   "rerank": 0.7074801325798035,
+   "testo": "AURORA FOOD GROUP S.r.l. - Cologna Veneta (VR) MOD-QA-07 rev.5 VERIFICA ORARIA METAL DETECTOR MD-3200 CCP3 - tasselli Fe 2,0 / NFe 2,5 / AISI316 3,0 mm Data: 10/05/2026 Linea: 1 Turno: 2 Lotto: L26130-L1-T2 T 5] ORA Fe 2,0 NFe 2,5 AISI 3,0 ESPULS. SIGLA OP. 2a FIRMA | 14:05 OK OL OK ST IP dl (E mi | 15:00 - ii o - macchina ferma 17:00 ] | Al | 19:50 OK loy2 OK SI rTApvio 10:45 cambio guarnia, 10:55 OK (014 OK SI iti MF I | DT | | 24:00 Ok ok OK SI I? 22:00 OK ok ok SI I? dl L 2Il JR mr 7 = 2 1 | [ L L LO i Verifica di fine turno (capoturno): note: dalle 15 alle 10.45 linea ferma per rottura valvola azoto. verifiche non eseguite. IP"
+  },
+  {
+   "cid": 1714,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "origine": "nativa",
+   "rerank": 0.5670315027236938,
+   "testo": "di iniezione azoto - quella che Ivano aveva segnalato in perdita già\n   l'8/05. La riparazione l'ha fatta Ivano in emergenza. Sul modulo ha\n   scritto solo \"sostituita guarnizione, ripartiti\". Gli ho chiesto oggi\n   CON COSA l'ha sostituita, visto che il ricambio originale Pakmatic\n   sarebbe arrivato solo il 15: mi ha risposto che ha usato una guarnizione\n   \"compatibile\" presa dal carrello ricambi che tiene a bordo linea.\n   Colore della guarnizione: AZZURRO.\n4. Il metal detector MD-3200 su quel lotto ha funzionato regolarmente\n   (MOD-QA-07 completo, verifiche orarie ok) ma la plastica NON è\n   metallica: il MD non poteva vederla. Non è un fallimento del CCP3, è\n   un corpo estraneo che il CCP3 non copre.\n5. Nota a margine che non c'entra col reclamo ma che DEVI sapere prima\n   che la trovi qualcun altro: confrontando il datalogger del PT-104 con\n   il MOD-QA-12 dello stesso turno c'è una discrepanza sulle temperature\n   tra le 14:18 e le 14:47. Ne parliamo domani a quattr'occhi. È\n   esattamente la NC 1 dell'audit di febbraio.\n\nSe il laboratorio conferma la compatibilità del frammento con la\nguarnizione (ho già chiesto ad Analytica Veneta la comparazione, campione"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4164,
+ "tempi": {
+  "denso": 0.97,
+  "sparso": 0.25,
+  "rerank": 56.14
+ },
+ "collaudo": 8,
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "generazione": {
+  "testo": "Il modulo MOD-QA-07 compilato il 10-05-26 sulla linea 1 turno 2 riporta che il metal detector MD-3200 ha funzionato regolarmente, ma la plastica NON è metallica: il MD non poteva vederla.\n\nFONTI: MOD-QA-07_10-05-26_L1_T2_scansione.jpg, Verbale_ispezione_ATS_09_06_2026.pdf\n\nCONFIDENZA: bassa",
+  "secondi": 60.95,
+  "token_prompt": 1807,
+  "token_risposta": 108,
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "fonti_citate": [
+   "MOD-QA-07_10-05-26_L1_T2_scansione.jpg",
+   "Verbale_ispezione_ATS_09_06_2026.pdf"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

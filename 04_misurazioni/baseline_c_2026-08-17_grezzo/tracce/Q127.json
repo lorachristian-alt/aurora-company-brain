@@ -1,0 +1,682 @@
+{
+ "domanda": "Quanto vale l'IVA sulla bolletta della luce di marzo e come si arriva al totale?",
+ "candidati_densi": [
+  {
+   "cid": 487,
+   "punteggio": 0.5791672304152726,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 137,
+   "punteggio": 0.5787333801236334,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 503,
+   "punteggio": 0.5729831972543444,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 24,
+   "origine": "nativa"
+  },
+  {
+   "cid": 141,
+   "punteggio": 0.5512705607468161,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 472,
+   "punteggio": 0.54616631552563,
+   "file": "fattura_antivirus_licenze_2026.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 486,
+   "punteggio": 0.5458484863807269,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 140,
+   "punteggio": 0.5402797189675903,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 494,
+   "punteggio": 0.529035305130671,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 476,
+   "punteggio": 0.5254388262760171,
+   "file": "Fattura_TosanoCerea_2026_0188_copia_cortesia.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 496,
+   "punteggio": 0.5232753520263708,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 139,
+   "punteggio": 0.5224088851642246,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 480,
+   "punteggio": 0.517980627412058,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 492,
+   "punteggio": 0.512253753296296,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1520,
+   "punteggio": 0.5096710059042091,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 149,
+   "punteggio": 0.5081571083050415,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 485,
+   "punteggio": 0.5073041034728714,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 595,
+   "punteggio": 0.5066934639223698,
+   "file": "IT03984710230_00215.xml.p7m",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 502,
+   "punteggio": 0.5038434284786644,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 23,
+   "origine": "nativa"
+  },
+  {
+   "cid": 166,
+   "punteggio": 0.503746999941502,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 501,
+   "punteggio": 0.5029187179562068,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 22,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1364,
+   "punteggio": 23.896514892578125,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1212,
+   "punteggio": 20.302644729614258,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1831,
+   "punteggio": 18.745792388916016,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1352,
+   "punteggio": 18.3244571685791,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1213,
+   "punteggio": 17.830591201782227,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1168,
+   "punteggio": 17.544584274291992,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 256,
+   "punteggio": 17.388999938964844,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 667,
+   "punteggio": 16.913768768310547,
+   "file": "Listino_MolinoVeneto_giu2026.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1443,
+   "punteggio": 16.83850860595703,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1782,
+   "punteggio": 16.620685577392578,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1248,
+   "punteggio": 16.351415634155273,
+   "file": "ordine cancelleria marzo.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1353,
+   "punteggio": 16.2106990814209,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1437,
+   "punteggio": 15.910161018371582,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1316,
+   "punteggio": 15.648111343383789,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1710,
+   "punteggio": 15.515968322753906,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 273,
+   "punteggio": 15.495452880859375,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1778,
+   "punteggio": 15.453425407409668,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1536,
+   "punteggio": 15.37219524383545,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 9,
+   "punteggio": 15.269421577453613,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1442,
+   "punteggio": 15.223828315734863,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 1,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 487,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1364,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 137,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1212,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 503,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 24,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1831,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 141,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1352,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 472,
+   "file": "fattura_antivirus_licenze_2026.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1213,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 486,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1168,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 140,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 256,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 494,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 667,
+   "file": "Listino_MolinoVeneto_giu2026.pdf",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 476,
+   "file": "Fattura_TosanoCerea_2026_0188_copia_cortesia.pdf",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1443,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 496,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 17,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 139,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1248,
+   "file": "ordine cancelleria marzo.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 480,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1353,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 486,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "rerank": 0.027853189036250114
+  },
+  {
+   "cid": 1248,
+   "file": "ordine cancelleria marzo.txt",
+   "rerank": 0.027080317959189415
+  },
+  {
+   "cid": 487,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "rerank": 0.014585628174245358
+  },
+  {
+   "cid": 137,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "rerank": 0.014445794746279716
+  },
+  {
+   "cid": 139,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "rerank": 0.011285796761512756
+  },
+  {
+   "cid": 472,
+   "file": "fattura_antivirus_licenze_2026.txt",
+   "rerank": 0.007891708053648472
+  },
+  {
+   "cid": 1364,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.0068925973027944565
+  },
+  {
+   "cid": 494,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "rerank": 0.005482203792780638
+  },
+  {
+   "cid": 496,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "rerank": 0.0046410770155489445
+  },
+  {
+   "cid": 503,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "rerank": 0.0033613417763262987
+  },
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0032344041392207146
+  },
+  {
+   "cid": 141,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "rerank": 0.0030389302410185337
+  },
+  {
+   "cid": 480,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "rerank": 0.0021752312313765287
+  },
+  {
+   "cid": 140,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "rerank": 0.00204638228751719
+  },
+  {
+   "cid": 476,
+   "file": "Fattura_TosanoCerea_2026_0188_copia_cortesia.pdf",
+   "rerank": 0.0019850328098982573
+  },
+  {
+   "cid": 1443,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "rerank": 0.0010393427219241858
+  },
+  {
+   "cid": 1212,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "rerank": 0.00024482220760546625
+  },
+  {
+   "cid": 1831,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.00023061443062033504
+  },
+  {
+   "cid": 1352,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "rerank": 9.893719834508374e-05
+  },
+  {
+   "cid": 1353,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "rerank": 9.052125096786767e-05
+  },
+  {
+   "cid": 256,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "rerank": 4.953333700541407e-05
+  },
+  {
+   "cid": 1213,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "rerank": 3.8879981730133295e-05
+  },
+  {
+   "cid": 667,
+   "file": "Listino_MolinoVeneto_giu2026.pdf",
+   "rerank": 3.8465495890704915e-05
+  },
+  {
+   "cid": 1168,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "rerank": 1.7913289411808364e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 486,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "origine": "nativa",
+   "rerank": 0.027853189036250114,
+   "testo": "<DettaglioLinee><NumeroLinea>4</NumeroLinea><Descrizione>PERDITE DI RETE</Descrizione><PrezzoTotale>1023.40</PrezzoTotale><AliquotaIVA>10.00</AliquotaIVA></DettaglioLinee>\n<DettaglioLinee><NumeroLinea>5</NumeroLinea><Descrizione>TRASPORTO E GESTIONE DEL CONTATORE - QUOTA VARIABILE + QUOTA FISSA</Descrizione><PrezzoTotale>1844.12</PrezzoTotale><AliquotaIVA>10.00</AliquotaIVA></DettaglioLinee>\n<DettaglioLinee><NumeroLinea>6</NumeroLinea><Descrizione>ONERI DI SISTEMA - COMPONENTE ASOS</Descrizione><PrezzoTotale>2980.55</PrezzoTotale><AliquotaIVA>10.00</AliquotaIVA></DettaglioLinee>\n<DettaglioLinee><NumeroLinea>7</NumeroLinea><Descrizione>ONERI DI SISTEMA - COMPONENTE ARIM</Descrizione><PrezzoTotale>512.30</PrezzoTotale><AliquotaIVA>10.00</AliquotaIVA></DettaglioLinee>\n<DettaglioLinee><NumeroLinea>8</NumeroLinea><Descrizione>ACCISA ENERGIA ELETTRICA USI INDUSTRIALI D.LGS 504/95</Descrizione><PrezzoTotale>1581.06</PrezzoTotale><AliquotaIVA>10.00</AliquotaIVA></DettaglioLinee>\n<DettaglioLinee><NumeroLinea>9</NumeroLinea><Descrizione>CORRISPETTIVO POTENZA IMPEGNATA</Descrizione><PrezzoTotale>588.00</PrezzoTotale><AliquotaIVA>10.00</AliquotaIVA></DettaglioLinee>"
+  },
+  {
+   "cid": 1248,
+   "file": "ordine cancelleria marzo.txt",
+   "origine": "nativa",
+   "rerank": 0.027080317959189415,
+   "testo": "Da: Federica Sartori\nA: ordini@vicenzaufficio.it\nOggetto: ordine cancelleria marzo\n\nBuongiorno,\nvi allego l'ordine di questo mese. Come sempre consegna in portineria entro le 12, dopo non c'e' nessuno.\n\n- risme A4 80gr        n. 20 (fotocopiatrice uffici)\n- risme A3             n. 4\n- toner per la Konica bizhub C224e - nero      n. 3\n- toner colore (ciano, magenta, giallo)        n. 1 per colore\n- raccoglitori 8 cm dorso blu                  n. 12\n- buste a sacco 23x33                          n. 100\n- penne a sfera blu (quelle che non perdono)   n. 50\n- evidenziatori gialli                         n. 20\n- post-it 76x76                                n. 15 blocchetti\n- nastro adesivo trasparente                   n. 6\n- graffette                                    n. 2 scatole\n- toner per la stampante del magazzino (Brother HL-L5100) n. 2\n\nIl totale dell'ultima volta era 412 euro + iva, se sforiamo di molto ditemelo prima.\nFattura intestata come sempre, pagamento a 30 gg fine mese.\n\nGrazie\nFederica Sartori\nSegreteria - Aurora Food Group S.r.l.\ntel. 0442 854122 int. 201"
+  },
+  {
+   "cid": 487,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "origine": "nativa",
+   "rerank": 0.014585628174245358,
+   "testo": "<DettaglioLinee><NumeroLinea>9</NumeroLinea><Descrizione>CORRISPETTIVO POTENZA IMPEGNATA</Descrizione><PrezzoTotale>588.00</PrezzoTotale><AliquotaIVA>10.00</AliquotaIVA></DettaglioLinee>\n</DatiBeniServizi><DatiRiepilogo><AliquotaIVA>10.00</AliquotaIVA><ImponibileImporto>25854.65</ImponibileImporto><Imposta>2585.47</Imposta><EsigibilitaIVA>I</EsigibilitaIVA><RiferimentoNormativo>IVA 10% ex n.103 Tab.A parte III DPR 633/72 - energia per uso di imprese estrattive agricole e manifatturiere</RiferimentoNormativo></DatiRiepilogo><DatiPagamento><CondizioniPagamento>TP02</CondizioniPagamento><DettaglioPagamento><ModalitaPagamento>MP19</ModalitaPagamento><DataScadenzaPagamento>2026-05-02</DataScadenzaPagamento><ImportoPagamento>28440.12</ImportoPagamento></DettaglioPagamento></DatiPagamento></FatturaElettronicaBody></p:FatturaElettronica>\n<IdSdi>7711985520</IdSdi>\n\n=========================================================================\nFILE: IT02987410244_0Prt6.xml   ricevuta il 02/02/2026   IdSdi 7689443102\n(NB Luisa: questa era gia' in contabilita' a febbraio, ricompare nell'export Q2 non so perchÃ¨)\n========================================================================="
+  },
+  {
+   "cid": 137,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "origine": "nativa",
+   "rerank": 0.014445794746279716,
+   "testo": "Spesa per la materia energia                                  22.507,70\nSpesa per il trasporto dell'energia e gestione contatore       3.006,78\nSpesa per oneri di sistema                                     3.203,70\nImposte (accisa erariale)                                      2.231,00\nIMPONIBILE                                                    30.949,18\nIVA 10% (uso industriale - n.103 Tab.A/III DPR 633/72,\n   dich. utilizzo prot. VE-2024-0117 agli atti)                 3.094,92\n-------------------------------------------------------------------------------\nTOTALE DA PAGARE                                              34.044,10\n-------------------------------------------------------------------------------\nSCADENZA: 30/06/2026 - ADDEBITO DIRETTO SDD SU IBAN IT33W02008598700001048***13\nIn caso di mancato buon fine SDD: bonifico su IBAN IT91Q0103012150000063412877\nintestato a Veneta Energia S.p.A. - causale: 2026/00458821 - POD IT001E63488210\n1. LETTURE E CONSUMI (dati di misura: e-distribuzione - lettura EFFETTIVA)\nMatricola misuratore: T85E442109 - K (rapporto TA/TV): 40,0\nTrattamento orario: fasce F1/F2/F3 ex Del. AEEG 181/06\nFascia\nLettura 30/04/2026\nLettura 31/05/2026"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4636,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.17,
+  "rerank": 46.59
+ },
+ "id": "Q127",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:31:32",
+ "secondi": 46.78,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 60.32,
+  "token_prompt": 1888,
+  "token_risposta": 67,
+  "testo_grezzo": "Il totale dell'ultima volta era 412 euro + iva, se sforiamo di molto ditemelo prima.\n\nFONTI: ordine cancelleria marzo.txt, Fatture_Elettroniche_SDI_Inbound_Q2.txt, bolletta_VenetaEnergia_maggio2026.pdf",
+  "fonti_citate": [
+   "ordine cancelleria marzo.txt",
+   "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "bolletta_VenetaEnergia_maggio2026.pdf"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

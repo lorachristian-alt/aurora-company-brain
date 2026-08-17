@@ -1,0 +1,683 @@
+{
+ "domanda": "Perche' a marzo abbiamo sforato i grassi allo scarico e cosa c'entra la produzione?",
+ "candidati_densi": [
+  {
+   "cid": 1110,
+   "punteggio": 0.5184361082654294,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1109,
+   "punteggio": 0.5091728502885975,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 41,
+   "punteggio": 0.5045414324351185,
+   "file": "analisi_acque_reflue_autocontrollo_2026.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1713,
+   "punteggio": 0.4885366769032202,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 248,
+   "punteggio": 0.4829253863080624,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1789,
+   "punteggio": 0.4783277138042016,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1111,
+   "punteggio": 0.47401550384563884,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1534,
+   "punteggio": 0.47373092779911385,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 40,
+   "punteggio": 0.4707919485217473,
+   "file": "analisi_acque_reflue_autocontrollo_2026.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1253,
+   "punteggio": 0.46827970231919336,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 150,
+   "punteggio": 0.4678814814416303,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1460,
+   "punteggio": 0.4672884454117092,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 275,
+   "punteggio": 0.46649642546146847,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 83,
+   "punteggio": 0.46572226347029894,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1378,
+   "punteggio": 0.4641289924926538,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 273,
+   "punteggio": 0.46363735057073474,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1871,
+   "punteggio": 0.46322036263837824,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1870,
+   "punteggio": 0.4628395555729825,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1320,
+   "punteggio": 0.4623174809898817,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 189,
+   "punteggio": 0.4615325093096809,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 13,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1110,
+   "punteggio": 21.16549301147461,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1115,
+   "punteggio": 19.395505905151367,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 110,
+   "punteggio": 19.288724899291992,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1113,
+   "punteggio": 18.820152282714844,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1444,
+   "punteggio": 18.764202117919922,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1780,
+   "punteggio": 18.729707717895508,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 430,
+   "punteggio": 18.715938568115234,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1112,
+   "punteggio": 18.638349533081055,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1424,
+   "punteggio": 18.04258918762207,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 108,
+   "punteggio": 17.360445022583008,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 12,
+   "punteggio": 17.156291961669922,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 42,
+   "punteggio": 16.467212677001953,
+   "file": "analisi_acque_reflue_autocontrollo_2026.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 41,
+   "punteggio": 16.175439834594727,
+   "file": "analisi_acque_reflue_autocontrollo_2026.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1693,
+   "punteggio": 16.14811134338379,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1428,
+   "punteggio": 15.985312461853027,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1114,
+   "punteggio": 15.812374114990234,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 302,
+   "punteggio": 15.070183753967285,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 277,
+   "punteggio": 14.957472801208496,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1707,
+   "punteggio": 14.891060829162598,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1244,
+   "punteggio": 14.801278114318848,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 10,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.03278688524590164,
+   "rango_denso": 1,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 41,
+   "file": "analisi_acque_reflue_autocontrollo_2026.xlsx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.029571646010002173,
+   "rango_denso": 3,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1109,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1115,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 110,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1113,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1713,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 248,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1444,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1780,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1789,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1111,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1112,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1534,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 40,
+   "file": "analisi_acque_reflue_autocontrollo_2026.xlsx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1424,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 108,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1253,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 12,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 150,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 42,
+   "file": "analisi_acque_reflue_autocontrollo_2026.xlsx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1460,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 275,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 40,
+   "file": "analisi_acque_reflue_autocontrollo_2026.xlsx",
+   "rerank": 0.019365206360816956
+  },
+  {
+   "cid": 42,
+   "file": "analisi_acque_reflue_autocontrollo_2026.xlsx",
+   "rerank": 0.014143135398626328
+  },
+  {
+   "cid": 1444,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "rerank": 0.005600505508482456
+  },
+  {
+   "cid": 41,
+   "file": "analisi_acque_reflue_autocontrollo_2026.xlsx",
+   "rerank": 0.0035978786181658506
+  },
+  {
+   "cid": 110,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "rerank": 0.0017731273546814919
+  },
+  {
+   "cid": 108,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "rerank": 0.0009941637981683016
+  },
+  {
+   "cid": 275,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.0009006435866467655
+  },
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.0008103487198241055
+  },
+  {
+   "cid": 1115,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.00048072138451971114
+  },
+  {
+   "cid": 1113,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.00035468715941533446
+  },
+  {
+   "cid": 1112,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.00020690484961960465
+  },
+  {
+   "cid": 1534,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.00020006459089927375
+  },
+  {
+   "cid": 1460,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.00017653629765845835
+  },
+  {
+   "cid": 1780,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.00017012073658406734
+  },
+  {
+   "cid": 12,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.00016633923223707825
+  },
+  {
+   "cid": 1109,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.0001519540383014828
+  },
+  {
+   "cid": 248,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "rerank": 8.302680362248793e-05
+  },
+  {
+   "cid": 1111,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 6.865063915029168e-05
+  },
+  {
+   "cid": 150,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "rerank": 6.384021980920807e-05
+  },
+  {
+   "cid": 1424,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "rerank": 5.4076124797575176e-05
+  },
+  {
+   "cid": 1713,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 3.862090306938626e-05
+  },
+  {
+   "cid": 1253,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "rerank": 3.2119751267600805e-05
+  },
+  {
+   "cid": 1789,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 1.867297942226287e-05
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 1.7358110198983923e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 40,
+   "file": "analisi_acque_reflue_autocontrollo_2026.xlsx",
+   "origine": "nativa",
+   "rerank": 0.019365206360816956,
+   "testo": "Idrocarburi totali mg/l 10 <1 1.8 <1 <1 conforme\nTensioattivi totali mg/l 4 1.2 2.6 1.4 1.1 conforme\nCloro attivo libero mg/l 0,3 <0,05 <0,05 <0,05 <0,05 conforme\nPortata giornaliera scarico m3/g -- 38 52 41 36\n\nSUPERAMENTO GRASSI E OLII ANIMALI/VEGETALI - RdP 2026/03188 del 19/03/2026: valore 58 mg/l contro limite 40 mg/l.\nAzione intrapresa (rif. comunicazione al gestore Acque Veronesi prot. uscita AFG/2026/114 del 20/03/2026, entro le 48 h):\n1) pulizia straordinaria degrassatore statico e disoleatore eseguita il 21/03/2026 da ditta Ecoveneta Ambiente (spurgo kg 2.600, avviato come rifiuto)\n2) revisione dosaggi sanificazione CIP-01 con Chemifood Italia: eccesso di sanificante PAA e trascinamento grassi da lavaggio teglie Linea 2 (campagna domenicale ordini Tosano, volumi lavaggio raddoppiati)\n3) ricampionamento del 02/04/2026 (RdP 2026/03840): grassi 31 mg/l - RIENTRATO\n4) inserita pulizia degrassatore con frequenza TRIMESTRALE (prima semestrale) nello scadenzario adempimenti\nprossimo prelievo trimestrale previsto: settembre 2026 (vedi scadenzario)\n\nmedia grassi 2026\nSTORICO AUTOCONTROLLI 2025 - SCARICO S1"
+  },
+  {
+   "cid": 42,
+   "file": "analisi_acque_reflue_autocontrollo_2026.xlsx",
+   "origine": "nativa",
+   "rerank": 0.014143135398626328,
+   "testo": "Fosforo totale (come P) mg/l 10\nGrassi e olii animali/vegetali mg/l 40\nIdrocarburi totali mg/l 10\nTensioattivi totali mg/l 4\nCloro attivo libero mg/l 0,3\nfrequenza autocontrollo trimestrale\nconservazione RdP 5 anni\ntrasmissione al gestore entro 30 gg dal prelievo\nappunti SP\nchiamare Analytica x preventivo shelf life snack paprika (Zanchetta) - NON c'entra con le acque ma nn perdere il nr: 045 8204461\nil pozzetto S1 dopo la pioggia del 28/03 era mezzo pieno di fango, detto a Faggionato\nricordarsi lettura totalizzatore fine mese"
+  },
+  {
+   "cid": 1444,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "origine": "nativa",
+   "rerank": 0.005600505508482456,
+   "testo": "> una concentrazione di incassi a 90 giorni che entrano tutti tra il 10 e il\n> 15 giugno (il grosso e' RIBA di marzo), piu' un investimento importante in\n> corso sullo stabilimento che ci ha impegnato la liquidita' di maggio piu'\n> del previsto. Stiamo utilizzando l'anticipo fatture con il nostro istituto\n> (UniCredit, filiale di Cologna Veneta) proprio per far fronte a queste\n> partite.\n>\n> Vi confermo che la fattura 2026/00847 verra' saldata con bonifico ENTRO\n> VENERDI 22/05 (ho gia' predisposto la distinta, manca solo la firma del\n> titolare che rientra giovedi). Vi mando io la contabile appena parte.\n> Vi chiedo solo la cortesia di non sospendere la consegna del 05/06 perche'\n> la produzione ne ha assolutamente bisogno (abbiamo le promozioni in corso\n> con il ns. cliente principale).\n>\n> Scusandoci ancora per il disguido, ringrazio per la comprensione\n> (e vi confermo che la 2026/01102 la paghiamo regolare alla scadenza)\n>\n> rag. Luisa Trentin\n> Amministrazione e Contabilita'\n> Aurora Food Group S.r.l.\n> Via dell'Industria 27 - 37044 Cologna Veneta (VR)\n> Tel. 0442 85 41 22 int. 203 - l.trentin@aurorafoodgroup.it\n> P.IVA/C.F. 03984710230 - SDI M5UXCR1\n>\n>"
+  },
+  {
+   "cid": 41,
+   "file": "analisi_acque_reflue_autocontrollo_2026.xlsx",
+   "origine": "nativa",
+   "rerank": 0.0035978786181658506,
+   "testo": "prossimo prelievo trimestrale previsto: settembre 2026 (vedi scadenzario)\n\nmedia grassi 2026\nSTORICO AUTOCONTROLLI 2025 - SCARICO S1\ndata prelievo RdP Analytica Veneta pH SST mg/l BOD5 mg/l COD mg/l N-NH4 mg/l P tot mg/l Grassi/olii mg/l Tensioattivi mg/l esito\n16/01/2025 2025/00388 7.5 76 96 204 5.1 2 16 1 conforme\n10/04/2025 2025/03412 7.3 91 122 251 6.6 2.6 24 1.3 conforme\n17/07/2025 2025/06710 7.1 102 138 276 7.4 3 28 1.6 conforme\n09/10/2025 2025/09344 7.4 88 114 238 5.9 2.4 21 1.2 conforme\n15-01-26 2026/00412 7.4 84 118 246 6.2 2.4 22 1.2 conforme\nmedia SST 2025\nmedia grassi 2025 #DIV/0!\nLIMITI ALLO SCARICO S1 - Tabella 3 Allegato 5 Parte III D.Lgs. 152/2006 - colonna rete fognaria\nrecepiti in AUA Det. 987/2019 sez. A.4 - salvo limiti piu' restrittivi regolamento Acque Veronesi\nParametro UM Limite\npH unita' pH 5,5 - 9,5\nSolidi sospesi totali mg/l 200\nBOD5 mg/l O2 250\nCOD mg/l O2 500\nAzoto ammoniacale (come NH4) mg/l 30\nAzoto nitroso (come N) mg/l 0,6\nAzoto nitrico (come N) mg/l 30\nFosforo totale (come P) mg/l 10\nGrassi e olii animali/vegetali mg/l 40\nIdrocarburi totali mg/l 10\nTensioattivi totali mg/l 4\nCloro attivo libero mg/l 0,3\nfrequenza autocontrollo trimestrale"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4024,
+ "tempi": {
+  "denso": 0.01,
+  "sparso": 0.16,
+  "rerank": 43.03
+ },
+ "id": "Q179",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:11:09",
+ "secondi": 43.21,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 95.65,
+  "token_prompt": 1917,
+  "token_risposta": 141,
+  "testo_grezzo": "La produzione di grassi e oli animali/vegetali supera il limite di 40 mg/l a marzo 2026, ma il prelievo successivo, quello di maggio, mostra un valore di 31 mg/l, rientrato nel limite. La produzione non è direttamente collegata al prelievo, ma la pulizia degrassatore e la revisione dosaggi sanificazione CIP-01 sono state eseguite per correggere il problema.\n\nFONTI: file: analisi_acque_reflue_autocontrollo_2026.xlsx, R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+  "fonti_citate": [
+   "file: analisi_acque_reflue_autocontrollo_2026.xlsx",
+   "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml"
+  ],
+  "fonti_fuori_contesto": [
+   "file: analisi_acque_reflue_autocontrollo_2026.xlsx"
+  ],
+  "confidenza": "bassa"
+ }
+}

@@ -1,0 +1,686 @@
+{
+ "domanda": "Il 5 maggio sono arrivati 46.080 vasetti di vetro: a quale prodotto servono?",
+ "candidati_densi": [
+  {
+   "cid": 358,
+   "punteggio": 0.5259669551217323,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 355,
+   "punteggio": 0.5105839390792448,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 539,
+   "punteggio": 0.5097114828226685,
+   "file": "img20260428_09241055.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 538,
+   "punteggio": 0.5030053949120555,
+   "file": "img20260428_09241055.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 354,
+   "punteggio": 0.4986779812552771,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 542,
+   "punteggio": 0.49777669396869556,
+   "file": "img20260428_09241055.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1255,
+   "punteggio": 0.496624256340857,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1591,
+   "punteggio": 0.49580867733682954,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "idx": 27,
+   "origine": "nativa"
+  },
+  {
+   "cid": 460,
+   "punteggio": 0.4868789491381402,
+   "file": "estratto_registro_carico_scarico_MOCA.xlsx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 543,
+   "punteggio": 0.4613601567550355,
+   "file": "img20260428_09241055.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 458,
+   "punteggio": 0.461175749072991,
+   "file": "estratto_registro_carico_scarico_MOCA.xlsx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1853,
+   "punteggio": 0.46011671301301926,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1565,
+   "punteggio": 0.45857544634404124,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 554,
+   "punteggio": 0.45823168986907387,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 359,
+   "punteggio": 0.457860972336941,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1574,
+   "punteggio": 0.45655507720554456,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1592,
+   "punteggio": 0.4553926318608638,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "idx": 28,
+   "origine": "nativa"
+  },
+  {
+   "cid": 491,
+   "punteggio": 0.4540592484742204,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 200,
+   "punteggio": 0.4501683976404852,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 452,
+   "punteggio": 0.4498830753659081,
+   "file": "estratto_registro_carico_scarico_MOCA.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 539,
+   "punteggio": 23.869945526123047,
+   "file": "img20260428_09241055.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 355,
+   "punteggio": 23.724416732788086,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1255,
+   "punteggio": 18.99095344543457,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1827,
+   "punteggio": 16.604713439941406,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 357,
+   "punteggio": 14.520048141479492,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 541,
+   "punteggio": 14.453386306762695,
+   "file": "img20260428_09241055.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 358,
+   "punteggio": 14.074827194213867,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1096,
+   "punteggio": 13.781059265136719,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1702,
+   "punteggio": 13.771466255187988,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1776,
+   "punteggio": 13.714055061340332,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1186,
+   "punteggio": 13.566563606262207,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 542,
+   "punteggio": 13.464934349060059,
+   "file": "img20260428_09241055.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1686,
+   "punteggio": 13.463899612426758,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1365,
+   "punteggio": 13.1788330078125,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 431,
+   "punteggio": 13.042329788208008,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1243,
+   "punteggio": 12.901947975158691,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1112,
+   "punteggio": 12.38145637512207,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 356,
+   "punteggio": 12.126885414123535,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1774,
+   "punteggio": 11.726960182189941,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 167,
+   "punteggio": 11.277962684631348,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 539,
+   "file": "img20260428_09241055.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.032266458495966696,
+   "rango_denso": 3,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 355,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.03225806451612903,
+   "rango_denso": 2,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 358,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.03131881575727918,
+   "rango_denso": 1,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1255,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.030798389007344232,
+   "rango_denso": 7,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 542,
+   "file": "img20260428_09241055.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.02904040404040404,
+   "rango_denso": 6,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 538,
+   "file": "img20260428_09241055.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1827,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 354,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 357,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 541,
+   "file": "img20260428_09241055.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1096,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1591,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "idx": 27,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 460,
+   "file": "estratto_registro_carico_scarico_MOCA.xlsx",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1702,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 543,
+   "file": "img20260428_09241055.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 458,
+   "file": "estratto_registro_carico_scarico_MOCA.xlsx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1186,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1853,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1565,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1686,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 554,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1365,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 359,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": 15,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1255,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "rerank": 0.4784347116947174
+  },
+  {
+   "cid": 355,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "rerank": 0.3155924081802368
+  },
+  {
+   "cid": 539,
+   "file": "img20260428_09241055.txt",
+   "rerank": 0.2377660870552063
+  },
+  {
+   "cid": 554,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "rerank": 0.07629607617855072
+  },
+  {
+   "cid": 543,
+   "file": "img20260428_09241055.txt",
+   "rerank": 0.07030166685581207
+  },
+  {
+   "cid": 359,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "rerank": 0.06443219631910324
+  },
+  {
+   "cid": 542,
+   "file": "img20260428_09241055.txt",
+   "rerank": 0.043919723480939865
+  },
+  {
+   "cid": 358,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "rerank": 0.03433980420231819
+  },
+  {
+   "cid": 538,
+   "file": "img20260428_09241055.txt",
+   "rerank": 0.00940118357539177
+  },
+  {
+   "cid": 354,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "rerank": 0.00826500914990902
+  },
+  {
+   "cid": 458,
+   "file": "estratto_registro_carico_scarico_MOCA.xlsx",
+   "rerank": 0.006253805477172136
+  },
+  {
+   "cid": 357,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "rerank": 0.0036134386900812387
+  },
+  {
+   "cid": 1186,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.002969521563500166
+  },
+  {
+   "cid": 1096,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "rerank": 0.002873395336791873
+  },
+  {
+   "cid": 460,
+   "file": "estratto_registro_carico_scarico_MOCA.xlsx",
+   "rerank": 0.002495566615834832
+  },
+  {
+   "cid": 1853,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.0009098045993596315
+  },
+  {
+   "cid": 541,
+   "file": "img20260428_09241055.txt",
+   "rerank": 0.0006755843060091138
+  },
+  {
+   "cid": 1827,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "rerank": 0.0006333526689559221
+  },
+  {
+   "cid": 1591,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "rerank": 0.0005245858337730169
+  },
+  {
+   "cid": 1565,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "rerank": 0.00017630751244723797
+  },
+  {
+   "cid": 1686,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "rerank": 0.00011891195754287764
+  },
+  {
+   "cid": 1702,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "rerank": 4.630849798559211e-05
+  },
+  {
+   "cid": 1365,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 2.9321770853130147e-05
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 2.014058190979995e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1255,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "origine": "nativa",
+   "rerank": 0.4784347116947174,
+   "testo": "OA-26-0166;F0029;Lievital S.r.l.;Lievito secco disidratato ct 20x500g;100;0;100;KG;6,20;18/05/26;15/06/26;APERTO;Faggionato N.;\nOA-26-0166;F0029;Lievital S.r.l.;Lievito madre essiccato sacco 10 kg;100;0;100;KG;5,60;18/05/26;15/06/26;APERTO;Faggionato N.;\nOA-26-0139;F0031;Euroglass Boccacci S.r.l.;Vasetto vetro 212 ml TO63;57.600;46.080;11.520;PZ;0,145;21/04/26;sett 20 POI sett 24;SOLLECITATO;Faggionato N.;SOLLECITO del 27/05 - 2 pedane a saldo mai arrivate - v. anche riserva film strappato DDT 99201\nOA-26-0139;F0031;Euroglass Boccacci S.r.l.;Capsula twist-off 63 mm oro;48.000;48.000;0;PZ;0,038;21/04/26;05/05/26;CHIUSO;Faggionato N.;\nOA-26-0165;F0044;Flexipack Nordest S.r.l.;Film MAP PP/EVOH bobina h450;30;24;6;BOB;168,00;15/05/26;05/06/26;PARZIALE;Faggionato N.;DoC MOCA rev. aggiornata richiesta da Marchetti insieme alla consegna\nOA-26-0165;F0044;Flexipack Nordest S.r.l.;Film MAP PP/EVOH bobina h320;12;12;0;BOB;131,00;15/05/26;06/05/26;CHIUSO;Faggionato N.;\nOA-26-0165;F0044;Flexipack Nordest S.r.l.;Vaschetta PP nera 100 g;150.000;120.000;30.000;PZ;0,058;15/05/26;10/06/26;PARZIALE;Faggionato N.;consumo promo piu alto del previsto"
+  },
+  {
+   "cid": 355,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "origine": "nativa",
+   "rerank": 0.3155924081802368,
+   "testo": "Trasporto a mezzo: VETTORE\nVettore: CTL Centro Trasporti Logistici S.c.a r.l. - Prato\n   Sub-vettore ultimo miglio: Logistica Zorzi S.a.s. - Cologna Veneta (VR)\nInizio trasporto: 05/05/2026 ore 06:40\n\nRiga  Cod.Art.       Descrizione                                  UM      Q.ta\n----  ------------   -----------------------------------------   ---   --------\n001   VG-212-STD     VASETTO VETRO CILINDRICO 212 ml\n                        bocca twist-off 63 mm - vetro bianco sodico-calcico\n                            pz    46.080\n         Pedana 1/8    lotto vetreria EGB-26-1147    pz 5.760\n         Pedana 2/8    lotto vetreria EGB-26-1147    pz 5.760\n         Pedana 3/8    lotto vetreria EGB-26-1147    pz 5.760\n         Pedana 4/8    lotto vetreria EGB-26-1152    pz 5.760\n         Pedana 5/8    lotto vetreria EGB-26-1152    pz 5.760\n         Pedana 6/8    lotto vetreria EGB-26-1152    pz 5.760\n         Pedana 7/8    lotto vetreria EGB-26-1153    pz 5.760\n         Pedana 8/8    lotto vetreria EGB-26-1153    pz 5.760\n\nEUROGLASS BOCCACCI S.r.l. - Via delle Fornaci 118 - 50053 Empoli (FI)\nDDT 99201/26 del 05/05/2026 - documento emesso da sistema EGB-Gest v.4.2"
+  },
+  {
+   "cid": 539,
+   "file": "img20260428_09241055.txt",
+   "origine": "nativa",
+   "rerank": 0.2377660870552063,
+   "testo": "Ns. conferma: 26/CO/2214 del 21/04/2026\nCausale trasporto: VENDITA             Porto: FRANCO\nTrasporto a mezzo: VETTORE\nVettore: CTL Centro Trasporti Logistici S.c.a r.l. - Prato\n   Sub-vettore ultimo miglio: Logistica Zorzi S.a.s. - Cologna Veneta (VR)\nInizio trasporto: 05/05/2026 ore 06:40\n\nRiga  Cod.Art.       Descrizione                                  UM      Q.ta\n----  ------------   -----------------------------------------   ---   --------\n001   VG-212-STD     VASETTO VETRO CILINDRICO 212 ml\n                        bocca twist-off 63 mm - vetro bianco sodico-calcico\n                            pz    46.080\n         Pedana 1/8    lotto vetreria EGB-26-1147    pz 5.760\n         Pedana 2/8    lotto vetreria EGB-26-1147    pz 5.760\n         Pedana 3/8    lotto vetreria EGB-26-1147    pz 5.760\n         Pedana 4/8    lotto vetreria EGB-26-1152    pz 5.760\n         Pedana 5/8    lotto vetreria EGB-26-1152    pz 5.760\n         Pedana 6/8    lotto vetreria EGB-26-1152    pz 5.760\n         Pedana 7/8    lotto vetreria EGB-26-1153    pz 5.760\n         Pedana 8/8    lotto vetreria EGB-26-1153    pz 5.760\n\nEUROGLASS BOCCACCI S.r.l. - Via delle Fornaci 118 - 50053 Empoli (FI)"
+  },
+  {
+   "cid": 554,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "origine": "nativa",
+   "rerank": 0.07629607617855072,
+   "testo": "E-04-01;VG-212-STD;Vasetto vetro 212 ml TO63;EGB-26-1153;05/05/26;N/D;11.520;PZ;0,145;1.670,40;OK;;ped 7 con riserva\nE-05-01;CP-TO63-AU;Capsula twist-off 63 mm oro;CAP-63-0455;05/05/26;05/05/29;48.000;PZ;0,038;1.824,00;OK;1069;tenere lontano da umidita\nE-05-02;CP-TO63-AU;Capsula twist-off 63 mm oro;CAP-63-0301;2025-09-22;22/09/28;6.400;PZ;0,036;230,40;OK;844;resto vecchio ordine\nE-06-01;EPAL;Pallet EPAL interscambio;;;;218;PZ;9,50;2.071,00;OK;;conteggio fisico 31/05 - v. contenzioso buoni Tosano\nE-06-02;PAL-PERD;Pallet a perdere 800x1200;;;;95;PZ;4,20;399,00;OK;;\nC-02-02;VAS-PP-100;Vaschetta PP nera 100 g;FX26-0801;12/05/26;N/D;120.000;PZ;0,058;6.960,00;OK;;riga doppia? gia contata sopra - NON sommare\nCHEM-01;DET-SODA;Soda caustica 30% fusto 200 kg;CH26-S-118;14/04/26;14/04/28;400;KG;0,55;220,00;OK;683;CIP-01 - SDS in bacheca\nCHEM-01;DET-NITR;Acido nitrico 58% fusto 200 kg;CH26-N-097;14/04/26;14/04/28;380;KG;0,72;273,60;OK;683;CIP-01\nCHEM-02;SANIF-PAA;Sanificante PAA tanica 25 kg;CH26-P-201;06/05/26;06/11/26;150;KG;2,10;315,00;OK;159;\nCHEM-02;DET-MANI;Detergente sanificante mani tanica 5 L;CH26-M-155;06/05/26;06/05/27;60;LT;3,30;198,00;OK;340;"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4665,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.18,
+  "rerank": 45.81
+ },
+ "id": "Q220",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:41:53",
+ "secondi": 46.01,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 75.77,
+  "token_prompt": 2382,
+  "token_risposta": 99,
+  "testo_grezzo": "Il 5 maggio sono arrivati 46.080 vasetti di vetro, che servono a 11.520 pedane di vasetto vetro 212 ml TO63.\n\nFONTI: file: ordini_acquisto_materie_prime_aperti_giugno.csv, file: DDT_Euroglass_Boccacci_Vetro_N99201.txt, file: img20260428_09241055.txt\nCONFIDENZA: alta",
+  "fonti_citate": [
+   "file: ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "file: DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "file: img20260428_09241055.txt"
+  ],
+  "fonti_fuori_contesto": [
+   "file: ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "file: DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "file: img20260428_09241055.txt"
+  ],
+  "confidenza": "alta"
+ }
+}

@@ -1,0 +1,683 @@
+{
+ "domanda": "Con quale protocollo e in che data l'ULSS ha preavvisato l'ispezione del 9 giugno?",
+ "candidati_densi": [
+  {
+   "cid": 1234,
+   "punteggio": 0.6271689679175042,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1838,
+   "punteggio": 0.591433690253204,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1246,
+   "punteggio": 0.561208318032641,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1243,
+   "punteggio": 0.5569144339604326,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1847,
+   "punteggio": 0.5316794680504058,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1848,
+   "punteggio": 0.5212560461743263,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1244,
+   "punteggio": 0.5200536790781034,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1236,
+   "punteggio": 0.5030586916204056,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1242,
+   "punteggio": 0.4894906179926236,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 397,
+   "punteggio": 0.4754688466572969,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1840,
+   "punteggio": 0.4751949970680418,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1245,
+   "punteggio": 0.47484002460978325,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1845,
+   "punteggio": 0.4744781400897524,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1207,
+   "punteggio": 0.467943167294061,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 29,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1842,
+   "punteggio": 0.46381796875771775,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1664,
+   "punteggio": 0.4628579462485489,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1611,
+   "punteggio": 0.4534664982354064,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1235,
+   "punteggio": 0.4527421620762456,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1663,
+   "punteggio": 0.44715287369894985,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1600,
+   "punteggio": 0.44315773017245785,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 0,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1243,
+   "punteggio": 26.815738677978516,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1234,
+   "punteggio": 22.010602951049805,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1838,
+   "punteggio": 21.307252883911133,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1792,
+   "punteggio": 21.126110076904297,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1231,
+   "punteggio": 20.817989349365234,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1215,
+   "punteggio": 20.019969940185547,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1366,
+   "punteggio": 19.30032730102539,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1246,
+   "punteggio": 18.74869155883789,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 608,
+   "punteggio": 18.431901931762695,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1805,
+   "punteggio": 18.04075050354004,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1430,
+   "punteggio": 17.60842514038086,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1242,
+   "punteggio": 16.75666618347168,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1170,
+   "punteggio": 16.741249084472656,
+   "file": "modulo richiesta ferie VUOTO da stampare.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 621,
+   "punteggio": 16.586339950561523,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1244,
+   "punteggio": 16.427566528320312,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1365,
+   "punteggio": 16.18737030029297,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1207,
+   "punteggio": 16.091144561767578,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 29,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1444,
+   "punteggio": 15.916305541992188,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1776,
+   "punteggio": 15.609187126159668,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 250,
+   "punteggio": 15.429919242858887,
+   "file": "comunicazione_chiusura_estiva_2026.txt",
+   "idx": 0,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1234,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.03252247488101534,
+   "rango_denso": 1,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1243,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.032018442622950824,
+   "rango_denso": 4,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1838,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.03200204813108039,
+   "rango_denso": 2,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1246,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.03057889822595705,
+   "rango_denso": 3,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1242,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.028381642512077296,
+   "rango_denso": 9,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1244,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.028258706467661692,
+   "rango_denso": 7,
+   "rango_sparso": 15
+  },
+  {
+   "cid": 1207,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 29,
+   "origine": "nativa",
+   "rrf": 0.026500526500526502,
+   "rango_denso": 14,
+   "rango_sparso": 17
+  },
+  {
+   "cid": 1792,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1231,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1847,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1215,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1848,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1236,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 608,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 397,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1805,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1430,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1840,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1245,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1170,
+   "file": "modulo richiesta ferie VUOTO da stampare.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1845,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 621,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 1842,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": 15,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1838,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "rerank": 0.9533361792564392
+  },
+  {
+   "cid": 1243,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.9422741532325745
+  },
+  {
+   "cid": 1234,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.9337685704231262
+  },
+  {
+   "cid": 1207,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.8965252041816711
+  },
+  {
+   "cid": 1246,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.6624489426612854
+  },
+  {
+   "cid": 1244,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.5865821242332458
+  },
+  {
+   "cid": 1236,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.5657734274864197
+  },
+  {
+   "cid": 1231,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.2057095766067505
+  },
+  {
+   "cid": 608,
+   "file": "job_description_responsabile_produzione.docx",
+   "rerank": 0.17388133704662323
+  },
+  {
+   "cid": 1848,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "rerank": 0.09260618686676025
+  },
+  {
+   "cid": 1242,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.07206615060567856
+  },
+  {
+   "cid": 1792,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.05233486369252205
+  },
+  {
+   "cid": 1245,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.03694135323166847
+  },
+  {
+   "cid": 1847,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "rerank": 0.021509511396288872
+  },
+  {
+   "cid": 1842,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "rerank": 0.02002972923219204
+  },
+  {
+   "cid": 1840,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "rerank": 0.012907623313367367
+  },
+  {
+   "cid": 1170,
+   "file": "modulo richiesta ferie VUOTO da stampare.txt",
+   "rerank": 0.012553115375339985
+  },
+  {
+   "cid": 1845,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "rerank": 0.009896203875541687
+  },
+  {
+   "cid": 1430,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "rerank": 0.004759430885314941
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.001433784025721252
+  },
+  {
+   "cid": 621,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.0006876764819025993
+  },
+  {
+   "cid": 397,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "rerank": 0.00014414903125725687
+  },
+  {
+   "cid": 1215,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "rerank": 0.00011659225128823891
+  },
+  {
+   "cid": 1805,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 4.394273128127679e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1838,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "origine": "nativa",
+   "rerank": 0.9533361792564392,
+   "testo": "AZIENDA ULSS 9 SCALIGERA - Dipartimento di Prevenzione - Servizio Igiene Alimenti e Nutrizione (SIAN)\nVerbale n. 2026/SIAN/00214 - redatto in triplice copia - pag. 1\npag. 1\nVerbale di ispezione n. 2026/SIAN/00214 del 09/06/2026\n           AZIENDA ULSS 9 SCALIGERA - DIPARTIMENTO DI PREVENZIONE\n           SERVIZIO IGIENE DEGLI ALIMENTI E DELLA NUTRIZIONE (SIAN)\n                  Distretto 3 - Pianura Veronese - Legnago\n                  VERBALE DI ISPEZIONE E SOPRALLUOGO\n             ai sensi del Reg. (UE) 2017/625 e del Reg. (CE)\n             852/2004 - controllo ufficiale programmato\nVerbale n.        2026/SIAN/00214\nData              09/06/2026\nOra di inizio     09:15          Ora di fine     13:40\nPreavviso         nota prot. n. 0045821 del 27/05/2026, trasmessa a\n                  mezzo PEC (aurorafoodgroup@pec.it) - ispezione\n                  programmata su requisiti strutturali ex Reg. CE\n                  852/2004 All. II, gia' agli atti dell'impresa\nOSA / Impresa     AURORA FOOD GROUP S.R.L.\nSede/stabilimento Via dell'Industria 27 - 37044 Cologna Veneta (VR)\nP.IVA             03984710230\nRegistrazione     n. 037/2019/SIAN - ULSS 9 Scaligera"
+  },
+  {
+   "cid": 1243,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "origine": "nativa",
+   "rerank": 0.9422741532325745,
+   "testo": "e norme collegate, il quale sostituisce il documento cartaceo e la firma\nautografa.\n\n--- FINE TESTO DELL'ATTO ---\n\n________________________________________\n\nDa: Federica Sartori <f.sartori@aurorafoodgroup.it>\nA: Elena Marchetti <e.marchetti@aurorafoodgroup.it>; Marco Fantin <m.fantin@aurorafoodgroup.it>\nCc: Giancarlo Bertoldi <g.bertoldi@aurorafoodgroup.it>\nInviato: lunedì 25 maggio 2026 12:10\nOggetto: I: POSTA CERTIFICATA: Prot. n. 0058214/2026 - Preavviso di ispezione programmata\n\nElena, Marco,\nè arrivata QUESTA sulla PEC. Ispezione ULSS il 9 GIUGNO. Tra due settimane!!\nVe la giro subito, io non so nemmeno da dove si comincia con la lista che chiedono,\nsono 14 punti. Il punto 7 (analisi acqua) mi sa che è quello messo peggio, l'ultima\nanalisi che trovo in archivio è del 2023?? Ditemi voi.\nGiancarlo in cc come da sue istruzioni.\nFede\n\nFederica Sartori - HR & Segreteria\nAurora Food Group S.r.l. - Via dell'Industria 27, 37044 Cologna Veneta (VR)\nLe informazioni contenute nella presente comunicazione sono riservate ai sensi del\nReg. UE 2016/679. Se avete ricevuto questo messaggio per errore siete pregati di\ndistruggerlo e darne comunicazione al mittente."
+  },
+  {
+   "cid": 1234,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "origine": "nativa",
+   "rerank": 0.9337685704231262,
+   "testo": "Da: protocollo.dip@pec.aulss9.veneto.it\nA: aurorafoodgroup@pec.it\nInviato: lunedì 25 maggio 2026 11:34\nOggetto: POSTA CERTIFICATA: Prot. n. 0058214/2026 - Preavviso di ispezione programmata - Reg. CE 852/2004\n\nAllegati: Prot_0058214_2026_preavviso_ispezione.pdf.p7m (firmato digitalmente)\n\nMessaggio di posta certificata. Il giorno 25/05/2026 alle ore 11:34:07 (+0200) il\nmessaggio con oggetto \"Prot. n. 0058214/2026 - Preavviso di ispezione programmata\"\nè stato inviato dal mittente protocollo.dip@pec.aulss9.veneto.it e indirizzato a\naurorafoodgroup@pec.it. L'allegato daticert.xml contiene informazioni di servizio\nsulla trasmissione.\n\n--- TESTO DELL'ATTO ALLEGATO ---\n\n\n                    AZIENDA ULSS 9 SCALIGERA\n                    Sede legale: Via Valverde 42 - 37122 Verona\n                    DIPARTIMENTO DI PREVENZIONE\n                    Servizio Igiene degli Alimenti e della Nutrizione (SIAN)\n                    U.O. Igiene Alimenti - Distretto Pianura Veronese\n                    Via C. Battisti 1 - 37045 Legnago (VR)\n                    pec: protocollo.dip@pec.aulss9.veneto.it\n\nProt. n. 0058214/2026\nClass. 2.11.4\nLegnago, lì 25/05/2026"
+  },
+  {
+   "cid": 1207,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "origine": "nativa",
+   "rerank": 0.8965252041816711,
+   "testo": "NC-2026-106;26/05/2026;interna;Linea 1;Verifica efficacia doppia firma: su 21 registrazioni MOD-QA-12 settimana 21, 19 con seconda firma, 2 senza;L26146-L1-T1;media;assimilazione prassi ancora parziale;prosegue monitoraggio 8 settimane, richiamo individuale;Marchetti E.;;IN CORSO;\nNC-2026-107;27/05/2026;interna;Direzione;Preavviso ispezione ATS/ULSS 9 del 09/06 su requisiti strutturali Reg. CE 852/2004 All. II: sopralluogo interno evidenzia 4 punti critici (pavimento zona forni, zanzariere, spogliatoio L3, intonaco cella CF-01);;alta;manutenzione strutturale rinviata per priorita di cassa;piano interventi urgenti pre-ispezione, preventivi entro 30/05;Fantin M.;;APERTA;8.500,00\nNC-2026-108;28/05/2026;interna;Amministrazione;Costo evento L26130: prima stima complessiva (blocco+ispezioni+FTIR+eventuale ritiro) oltre 40.000, riserva a bilancio da definire;;alta;v. NC-2026-092;quantificazione con Trentin, informativa a Bellotto per trattamento contabile;Trentin L.;;APERTA;40.000,00"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4484,
+ "tempi": {
+  "denso": 0.01,
+  "sparso": 0.19,
+  "rerank": 43.87
+ },
+ "id": "Q236",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:53:56",
+ "secondi": 44.07,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 53.49,
+  "token_prompt": 1927,
+  "token_risposta": 102,
+  "testo_grezzo": "La data dell'ispezione del 9 giugno è stata comunicata con il protocollo n. 0058214/2026, inviato il 25 maggio 2026.\n\nFONTI: notifica_ATS_ispezione_programmata_igiene.txt, notifica_ATS_ispezione_programmata_igiene.txt, Prot_0058214_2026_preavviso_ispezione.pdf.p7m\n\nCONFIDENZA: alta",
+  "fonti_citate": [
+   "notifica_ATS_ispezione_programmata_igiene.txt",
+   "Prot_0058214_2026_preavviso_ispezione.pdf.p7m"
+  ],
+  "fonti_fuori_contesto": [
+   "Prot_0058214_2026_preavviso_ispezione.pdf.p7m"
+  ],
+  "confidenza": "alta"
+ }
+}

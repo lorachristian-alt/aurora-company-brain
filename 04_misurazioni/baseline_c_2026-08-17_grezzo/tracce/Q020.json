@@ -1,0 +1,686 @@
+{
+ "domanda": "Ogni quanto va verificato il metal detector della Linea 1 e con quali tasselli?",
+ "candidati_densi": [
+  {
+   "cid": 224,
+   "punteggio": 0.666797927089511,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1135,
+   "punteggio": 0.6423709395092878,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1165,
+   "punteggio": 0.6313569780478241,
+   "file": "MOD-QA-07_10-05-26_L1_T2_scansione.jpg",
+   "idx": 0,
+   "origine": "ocr"
+  },
+  {
+   "cid": 407,
+   "punteggio": 0.5990325742480244,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1341,
+   "punteggio": 0.5813802191082627,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1136,
+   "punteggio": 0.576362564040032,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1661,
+   "punteggio": 0.5686336329260724,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 922,
+   "punteggio": 0.5678209298764012,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 100,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1883,
+   "punteggio": 0.5669608347090824,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 315,
+   "punteggio": 0.5656229340761448,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 406,
+   "punteggio": 0.5645581527723944,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1517,
+   "punteggio": 0.5636879383175175,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1659,
+   "punteggio": 0.5523330761142047,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1652,
+   "punteggio": 0.5522591590503474,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 921,
+   "punteggio": 0.5518931504060782,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 99,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1653,
+   "punteggio": 0.5518628998012096,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1300,
+   "punteggio": 0.5511438227686747,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 616,
+   "punteggio": 0.5508409081276588,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1611,
+   "punteggio": 0.5447845462473893,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1885,
+   "punteggio": 0.5428540904843383,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1135,
+   "punteggio": 26.766826629638672,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1341,
+   "punteggio": 26.762678146362305,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1136,
+   "punteggio": 25.619014739990234,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 406,
+   "punteggio": 23.564260482788086,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 616,
+   "punteggio": 21.969280242919922,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1841,
+   "punteggio": 20.25200653076172,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1606,
+   "punteggio": 20.123708724975586,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1536,
+   "punteggio": 20.09562110900879,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1777,
+   "punteggio": 20.003873825073242,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 407,
+   "punteggio": 19.486364364624023,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 224,
+   "punteggio": 18.767742156982422,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1710,
+   "punteggio": 18.28309440612793,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1165,
+   "punteggio": 18.114116668701172,
+   "file": "MOD-QA-07_10-05-26_L1_T2_scansione.jpg",
+   "idx": 0,
+   "origine": "ocr"
+  },
+  {
+   "cid": 509,
+   "punteggio": 17.45723533630371,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1709,
+   "punteggio": 17.412616729736328,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1131,
+   "punteggio": 17.291019439697266,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1365,
+   "punteggio": 16.26276397705078,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1714,
+   "punteggio": 15.730134010314941,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 615,
+   "punteggio": 15.490068435668945,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1111,
+   "punteggio": 15.122679710388184,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1135,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 17,
+   "origine": "nativa",
+   "rrf": 0.03252247488101534,
+   "rango_denso": 2,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1341,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.0315136476426799,
+   "rango_denso": 5,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1136,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 18,
+   "origine": "nativa",
+   "rrf": 0.031024531024531024,
+   "rango_denso": 6,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 224,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.03047794966520434,
+   "rango_denso": 1,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 407,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.029910714285714284,
+   "rango_denso": 4,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 406,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.029709507042253523,
+   "rango_denso": 11,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1165,
+   "file": "MOD-QA-07_10-05-26_L1_T2_scansione.jpg",
+   "idx": 0,
+   "origine": "ocr",
+   "rrf": 0.029571646010002173,
+   "rango_denso": 3,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 616,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.028205128205128206,
+   "rango_denso": 18,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1841,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1606,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1661,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 922,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 100,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1536,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1777,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1883,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 315,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1517,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1710,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1659,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 509,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 1652,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  },
+  {
+   "cid": 921,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 99,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": 15,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1709,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": null,
+   "rango_sparso": 15
+  },
+  {
+   "cid": 1131,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.013157894736842105,
+   "rango_denso": null,
+   "rango_sparso": 16
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1341,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "rerank": 0.9903842210769653
+  },
+  {
+   "cid": 1135,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.9590287208557129
+  },
+  {
+   "cid": 224,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "rerank": 0.9574062824249268
+  },
+  {
+   "cid": 406,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "rerank": 0.9267054200172424
+  },
+  {
+   "cid": 407,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "rerank": 0.6664468050003052
+  },
+  {
+   "cid": 616,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.5741034746170044
+  },
+  {
+   "cid": 1136,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.44988659024238586
+  },
+  {
+   "cid": 1165,
+   "file": "MOD-QA-07_10-05-26_L1_T2_scansione.jpg",
+   "rerank": 0.4366719126701355
+  },
+  {
+   "cid": 1841,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "rerank": 0.27191299200057983
+  },
+  {
+   "cid": 1709,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.20675352215766907
+  },
+  {
+   "cid": 1606,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.16068707406520844
+  },
+  {
+   "cid": 1883,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "rerank": 0.1561453938484192
+  },
+  {
+   "cid": 1777,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.10328454524278641
+  },
+  {
+   "cid": 922,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.043123193085193634
+  },
+  {
+   "cid": 921,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.01957833394408226
+  },
+  {
+   "cid": 1710,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.018727382645010948
+  },
+  {
+   "cid": 1131,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.017472125589847565
+  },
+  {
+   "cid": 509,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 0.008898910135030746
+  },
+  {
+   "cid": 1517,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.008613129146397114
+  },
+  {
+   "cid": 1536,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.005930754356086254
+  },
+  {
+   "cid": 315,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.002095681382343173
+  },
+  {
+   "cid": 1661,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "rerank": 0.0013977268245071173
+  },
+  {
+   "cid": 1659,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "rerank": 0.0006089676753617823
+  },
+  {
+   "cid": 1652,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "rerank": 0.00021810643374919891
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1341,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "origine": "nativa",
+   "rerank": 0.9903842210769653,
+   "testo": "[Note relatore: se chiedono del picco promo dire che il capacity planning e' stato rivisto, non entrare nel dettaglio delle domeniche]\n(senza titolo)\n\nQUALITA' OPERATIVA, OGNI GIORNO\n• Metal detector su LINEA 1 (MD-3200) e LINEA 3 (MD-1800), verifica ogni 60 minuti con tasselli certificati\n• Trattamento termico monitorato in continuo con datalogger\n• Tamponi ambientali con laboratorio esterno Analytica Veneta (ACCREDIA n. 0987)\n• Gestione allergeni: glutine, latte, uova, soia, frutta a guscio, sesamo (in cross-contamination su Linea 1)\n• Audit clienti benvenuti: oltre 6 audit di seconda parte ospitati nel 2025\n(senza titolo)\n\nSOSTENIBILITA'\n• Film MAP con spessore ridotto -12% dal 2024 (fornitore Flexipack Nordest)\n• Energia: 40% da fotovoltaico in copertura entro il 2027\n• Recupero calore dai forni FT-01/FT-02 per il riscaldamento acqua sanitaria\n• Farine da filiera veneta a corto raggio (Molino Veneto, Isola della Scala)\n• Progetto riduzione sprechi: ricollocazione eccedenze a enti caritativi locali\n<immagine: pannelli fotovoltaici>\n(senza titolo)\n\nPERCHE' SCEGLIERE AURORA\n• Flessibilità vera da azienda familiare, decisioni in 24 ore\n• Filiera corta e tracciata"
+  },
+  {
+   "cid": 1135,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "origine": "nativa",
+   "rerank": 0.9590287208557129,
+   "testo": "possibile, altrimenti declassamento/distruzione; verifica taratura sonde;\n  registrazione della deviazione e notifica immediata a RSGQ (Marchetti E.)\nVerifica: confronto settimanale QA tra tracciato datalogger e MOD-QA-12; taratura\n  sonde semestrale (centro LAT); challenge test/validazione trattamento ogni 3 anni\n  o a modifica di prodotto/processo\nRegistrazione: MOD-QA-12; tracciati datalogger PT-104 (archivio elettronico, 24 mesi);\n  rapporti di taratura\n----------------------------------------------------------------------------\nCCP3 - METAL DETECTOR MD-3200 (LINEA 1)\nFase: 12 - Rilevazione metalli\nPericolo: F - frammenti metallici Fe / Non-Fe / acciaio inox\nLimite critico: rilevazione ed espulsione dei tasselli di prova certificati:\n  Fe diametro 2,0 mm; Non-Fe diametro 2,5 mm; AISI 316 diametro 3,0 mm\nMonitoraggio: passaggio dei tre tasselli certificati in condizioni di produzione\n  (tassello su confezione, posizioni testa/centro/coda) con verifica espulsione\nFrequenza: ogni 60 minuti, nonché a inizio turno, fine turno, cambio prodotto e\n  dopo ogni intervento sull'apparecchio\nResponsabile: operatore di linea; capoturno per la seconda firma entro fine turno;"
+  },
+  {
+   "cid": 224,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "origine": "nativa",
+   "rerank": 0.9574062824249268,
+   "testo": "MOD-QA-07 rev.5 - VERIFICA FUNZIONALE METAL DETECTOR MD-3200 (LINEA 1)\ntrascrizione dai moduli cartacei originali compilati a penna - archivio QA raccoglitore 2026/05\ntrascritto da: Sara Pozzato (QC) - dove nn si legge ho messo ??\ntasselli certificati kit TL-114: Fe diam. 2,0 mm / Non-Fe diam. 2,5 mm / AISI 316 diam. 3,0 mm\nfrequenza verifica: ogni 60 min (CCP3) + avvio e fine produzione\nesito = tassello rilevato + espulsione confezione + allarme acustico\nfirma operatore + SECONDA FIRMA capoturno entro fine turno (rif. NC audit CSQA feb. 2026!!)\n\n=============================================================\nFOGLIO 1 - data 04/05/26 (lun) - TURNO 1 (06:00-14:00)\nlotto: L26124-L1-T1 - prodotto AF-SN-0450 - op. R. Meggiolaro\n-------------------------------------------------------------\n06:05  Fe ok   NFe ok   inox ok   espuls ok   allarme ok   RM   DB\n07:00  Fe ok   NFe ok   inox ok   espuls ok   allarme ok   RM   --\n08:10  Fe ok   NFe ok   inox ok   espuls ok   all. ok      RM   --\n09:00  Fe ok   NFe ok   inox ok   esp ok      all ok       RM   --\n10:00  Fe ok   NFe ok   inox ok   esp ok      all ok       RM   DB\n11:05  Fe ok   NFe ok   inox ok   esp ok      all ok       RM   --"
+  },
+  {
+   "cid": 406,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "origine": "nativa",
+   "rerank": 0.9267054200172424,
+   "testo": "pHmetro portatile Hanna HI-99161;PH-002;Linea 1 - controllo impasti;0-12 pH;05/02/2026;05/08/2026;taratura interna (Pozzato S.) con buffer certificati;INT-2026-023;Conforme;±0,05 pH;IN USO;elettrodo a penetrazione per impasti\nAw-metro Rotronic HygroPalm;AW-001;Laboratorio QC;0,03-1,00 aw;17/12/2025;17/12/2026;CalService Italia S.r.l. (Modena) LAT 087;CS-25-8102;Conforme;±0,008 aw;IN USO;verifica con sali saturi ogni 3 mesi (registro a parte)\nMetal detector Loma IQ4;MD-3200;Linea 1 - post confezionamento;Fe 2,0 / NonFe 2,5 / AISI316 3,0 mm;04/03/2026;04/09/2026;Loma Systems Italia - verifica funzionale + certificazione tasselli;LM-26-1174;Conforme;n.a.;IN USO;CCP3 - verifica interna ogni 60 min su MOD-QA-07 rev.5 con tasselli certificati\nKit tasselli test MD-3200 (Fe 2,0);TT-001;Linea 1 - a bordo MD-3200;Fe ⌀ 2,0 mm;04/03/2026;04/03/2027;certificato costruttore Loma;LM-26-1174-A;Conforme;n.a.;IN USO;\nKit tasselli test MD-3200 (NonFe 2,5);TT-002;Linea 1 - a bordo MD-3200;NonFe ⌀ 2,5 mm;04/03/2026;04/03/2027;certificato costruttore Loma;LM-26-1174-B;Conforme;n.a.;IN USO;"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4642,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.19,
+  "rerank": 53.96
+ },
+ "id": "Q020",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:05:39",
+ "secondi": 54.17,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 96.21,
+  "token_prompt": 1998,
+  "token_risposta": 118,
+  "testo_grezzo": "Il metal detector della Linea 1 deve essere verificato ogni 60 minuti con i tasselli certificati Fe diametro 2,0 mm, Non-Fe diametro 2,5 mm e AISI 316 diametro 3,0 mm.\n\nFONTI: file: checklist_metal_detector_manuale_operaio.txt, file: elenco_attrezzature_taratura_strumenti_2026.csv, file: presentazione_commerciale_Aurora_GDO_2026.pptx\nCONFIDENZA: alta",
+  "fonti_citate": [
+   "file: checklist_metal_detector_manuale_operaio.txt",
+   "file: elenco_attrezzature_taratura_strumenti_2026.csv",
+   "file: presentazione_commerciale_Aurora_GDO_2026.pptx"
+  ],
+  "fonti_fuori_contesto": [
+   "file: checklist_metal_detector_manuale_operaio.txt",
+   "file: elenco_attrezzature_taratura_strumenti_2026.csv",
+   "file: presentazione_commerciale_Aurora_GDO_2026.pptx"
+  ],
+  "confidenza": "alta"
+ }
+}

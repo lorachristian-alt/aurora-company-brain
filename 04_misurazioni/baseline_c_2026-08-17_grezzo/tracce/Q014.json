@@ -1,0 +1,683 @@
+{
+ "domanda": "Come e' andata la verifica dell'impianto di terra e quanto e' venuta la resistenza?",
+ "candidati_densi": [
+  {
+   "cid": 1882,
+   "punteggio": 0.6053178732325212,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1881,
+   "punteggio": 0.5780093789294414,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1880,
+   "punteggio": 0.5109221343691304,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 922,
+   "punteggio": 0.5083547806901185,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 100,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1532,
+   "punteggio": 0.4887516219329187,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 905,
+   "punteggio": 0.4789878524486486,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 83,
+   "origine": "nativa"
+  },
+  {
+   "cid": 188,
+   "punteggio": 0.4789013830855495,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1870,
+   "punteggio": 0.4780505539795724,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 873,
+   "punteggio": 0.47762441596586325,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 51,
+   "origine": "nativa"
+  },
+  {
+   "cid": 888,
+   "punteggio": 0.476950319020792,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 66,
+   "origine": "nativa"
+  },
+  {
+   "cid": 876,
+   "punteggio": 0.4750135320600336,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 54,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1603,
+   "punteggio": 0.4747881500239139,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 859,
+   "punteggio": 0.4746779812215909,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 37,
+   "origine": "nativa"
+  },
+  {
+   "cid": 824,
+   "punteggio": 0.47423560213762295,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 921,
+   "punteggio": 0.4741019471326652,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 99,
+   "origine": "nativa"
+  },
+  {
+   "cid": 756,
+   "punteggio": 0.4733384143140533,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 70,
+   "origine": "nativa"
+  },
+  {
+   "cid": 83,
+   "punteggio": 0.47287275259504213,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 845,
+   "punteggio": 0.4722821618334909,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 23,
+   "origine": "nativa"
+  },
+  {
+   "cid": 828,
+   "punteggio": 0.47208564134717634,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 892,
+   "punteggio": 0.47208191589946324,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 70,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1880,
+   "punteggio": 21.359418869018555,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1878,
+   "punteggio": 20.671852111816406,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1881,
+   "punteggio": 20.330204010009766,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 313,
+   "punteggio": 19.56481170654297,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1368,
+   "punteggio": 16.418495178222656,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1352,
+   "punteggio": 16.341793060302734,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1884,
+   "punteggio": 16.0357666015625,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1353,
+   "punteggio": 15.907395362854004,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 340,
+   "punteggio": 15.450709342956543,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 279,
+   "punteggio": 15.013086318969727,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 530,
+   "punteggio": 14.361138343811035,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1835,
+   "punteggio": 14.08780574798584,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1882,
+   "punteggio": 13.765061378479004,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 154,
+   "punteggio": 13.704297065734863,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1879,
+   "punteggio": 13.256864547729492,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1212,
+   "punteggio": 11.756114959716797,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1350,
+   "punteggio": 11.625176429748535,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1369,
+   "punteggio": 11.597941398620605,
+   "file": "preventivo_tinteggiatura_uffici_NON_ACCETTATO.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 312,
+   "punteggio": 11.584938049316406,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 329,
+   "punteggio": 11.51362419128418,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 18,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1880,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.032266458495966696,
+   "rango_denso": 3,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1881,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.03200204813108039,
+   "rango_denso": 2,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1882,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.03009207275993712,
+   "rango_denso": 1,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1878,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 313,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 922,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 100,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1368,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1532,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 905,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 83,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1352,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 188,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1884,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1353,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1870,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 340,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 873,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 51,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 279,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 888,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 66,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 530,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 876,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 54,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1603,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1835,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 859,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 37,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 154,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1880,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "rerank": 0.35214877128601074
+  },
+  {
+   "cid": 1881,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "rerank": 0.34585079550743103
+  },
+  {
+   "cid": 1882,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "rerank": 0.2990526258945465
+  },
+  {
+   "cid": 1878,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "rerank": 0.1149158626794815
+  },
+  {
+   "cid": 1884,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "rerank": 0.04996854066848755
+  },
+  {
+   "cid": 922,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.002102736383676529
+  },
+  {
+   "cid": 340,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "rerank": 0.001983075402677059
+  },
+  {
+   "cid": 313,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.00047851455747149885
+  },
+  {
+   "cid": 888,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.000455153378425166
+  },
+  {
+   "cid": 1603,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.00042902029235847294
+  },
+  {
+   "cid": 1353,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "rerank": 0.00034872855758294463
+  },
+  {
+   "cid": 859,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.0003310885513201356
+  },
+  {
+   "cid": 1352,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "rerank": 0.00024076887348201126
+  },
+  {
+   "cid": 905,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.00023535516811534762
+  },
+  {
+   "cid": 876,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.00023050099844112992
+  },
+  {
+   "cid": 279,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.00019176964997313917
+  },
+  {
+   "cid": 873,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.00017014797776937485
+  },
+  {
+   "cid": 188,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "rerank": 0.00016899756155908108
+  },
+  {
+   "cid": 1368,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.00011359029304003343
+  },
+  {
+   "cid": 154,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "rerank": 6.650277646258473e-05
+  },
+  {
+   "cid": 1870,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "rerank": 3.409715282032266e-05
+  },
+  {
+   "cid": 1532,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 3.383827061043121e-05
+  },
+  {
+   "cid": 530,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "rerank": 2.99762195936637e-05
+  },
+  {
+   "cid": 1835,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 2.006734393944498e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1880,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "origine": "nativa",
+   "rerank": 0.35214877128601074,
+   "testo": "Verifica precedente: verbale VT-2024-0788 del 18/04/2024 (esito favorevole).\n2. Documentazione esaminata\n- Dichiarazione di conformita' impianto elettrico ex D.M. 37/08, ditta Elettromec Impianti\n  S.n.c. (Cologna Veneta), del 12/07/2019, con allegati progetto e schemi unifilari;\n- DiCo ampliamento reparto confezionamento (nuova linea PKM-450) del 03/02/2022;\n- Relazione di valutazione del rischio da fulminazione ex CEI EN 62305-2, ing. Businaro L.,\n  rev. 1 del 2019: la struttura risulta AUTOPROTETTA (rischio R1 = 0,62 x 10^-5 < RT);\n  non e' pertanto installato LPS esterno; la presente verifica riguarda le misure di\n  protezione interne (equipotenzialita' ed SPD);\n- Registro delle manutenzioni elettriche interne (estratto 2024-2026);\n- Verbale precedente VT-2024-0788.\n3. Descrizione dell'impianto di terra\nDispersore: anello perimetrale in corda di rame nuda 35 mm2 interrata, integrato da n. 6\npicchetti a croce in acciaio zincato da 1,5 m in pozzetti ispezionabili (D1...D6); collettore\nprincipale di terra in cabina; conduttori di protezione e equipotenziali principali in\ncavo N07V-K giallo/verde di sezione 16-50 mm2; collegamenti equipotenziali supplementari su"
+  },
+  {
+   "cid": 1881,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "origine": "nativa",
+   "rerank": 0.34585079550743103,
+   "testo": "principale di terra in cabina; conduttori di protezione e equipotenziali principali in\ncavo N07V-K giallo/verde di sezione 16-50 mm2; collegamenti equipotenziali supplementari su\ntubazioni idriche, condotte gas metano (a valle del giunto isolante), canaline, serbatoio\n\nVERIFICA NORD S.r.l. - Organismo Abilitato D.P.R. 462/01 - abilitazione MIMIT D.D. 21/12/2023\nVerbale VT-2026-0912 del 23/04/2026 - pag. 2 - riproduzione consentita solo integrale\npag. 2\nazoto/CO2 esterno (Nordgas), silos farina e strutture metalliche dei reparti.\n4. Strumentazione utilizzata\nStrumento\nMarca/modello\nMatricola\nCert. taratura LAT\nScadenza\nVerificatore multifunzione\nHT Instruments Combi G3\n22081744\nLAT 292/2025-1188\n11/2026\nPinza misura resistenza di\nterra\nFluke 1630-2 FC\n54329901\nLAT 292/2025-1189\n11/2026\nTelurometro a 4 terminali\nChauvin Arnoux C.A 6472\n00318842\nLAT 105/2024-0771\n09/2026\n\nVERIFICA NORD S.r.l. - Organismo Abilitato D.P.R. 462/01 - abilitazione MIMIT D.D. 21/12/2023\nVerbale VT-2026-0912 del 23/04/2026 - pag. 3 - riproduzione consentita solo integrale\npag. 3\n5. Misure e prove eseguite\n5.1 Resistenza di terra complessiva (metodo volt-amperometrico, sonde a distanza):"
+  },
+  {
+   "cid": 1882,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "origine": "nativa",
+   "rerank": 0.2990526258945465,
+   "testo": "pag. 3\n5. Misure e prove eseguite\n5.1 Resistenza di terra complessiva (metodo volt-amperometrico, sonde a distanza):\nRE = 1,84 ohm (valore precedente 2024: 1,71 ohm).\nMisure selettive sui singoli dispersori (pinza + telurometro):\nDispersore\nUbicazione pozzetto\nResistenza (ohm)\nStato collegamento\nNote\nD1\nangolo NE - lato cabina MT\n8,2\nbuono\n--\nD2\nlato est - reparto forni\n9,7\nbuono\n--\nD3\nangolo SE - officina\n14,6\nmorsetto ossidato\nserrare e proteggere con\ngrasso conduttivo\nD4\nlato sud - magazzino PF\n10,1\nbuono\n--\nD5\nangolo SO - cella CF-02\n11,3\nbuono\npozzetto parzialmente\nallagato\nD6\nlato ovest - silos farina\n9,0\nbuono\n--\n5.2 Prova dei dispositivi differenziali (strumento HT Combi G3, prova a 1 x Idn e 5 x Idn):\nQuadro\nCircuito\nprotetto\nIdn (mA)\nTipo\nt interv. 1xIdn\n(ms)\nt interv. 5xIdn\n(ms)\nI di sgancio\n(mA)\nEsito\nQGBT\ngenerale servizi\nuffici\n300\nA selett.\n142\n38\n246\nCONFORME\nQGBT\ngenerale FM\nreparti\n300\nA selett.\n156\n41\n252\nCONFORME\nQ-L1\nlinea 1 - forno\nFT-01 ausiliari\n30\nA\n24\n11\n22,8\nCONFORME\nQ-L1\nlinea 1 -\npastorizzatore\nPT-104\n30\nA\n26\n12\n24,1\nCONFORME\nQ-L1\nmetal detector\nMD-3200 +\nnastri\n30\nA\n22\n10\n21,6\nCONFORME\nQ-L1\nconfezionatrice\nPKM-450\n30\nB\n31\n14\n25,3\nCONFORME\nQ-L2"
+  },
+  {
+   "cid": 1878,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "origine": "nativa",
+   "rerank": 0.1149158626794815,
+   "testo": "VERIFICA NORD S.r.l. - Organismo Abilitato D.P.R. 462/01 - abilitazione MIMIT D.D. 21/12/2023\nVerbale VT-2026-0912 del 23/04/2026 - pag. 1 - riproduzione consentita solo integrale\npag. 1\nVerbale di verifica periodica impianto di messa a terra - D.P.R. 462/01 - n. VT-2026-0912\nVERIFICA NORD S.r.l.\nOrganismo Abilitato alle verifiche periodiche e straordinarie ai sensi del D.P.R. 22/10/2001\nn. 462 - abilitazione Ministero delle Imprese e del Made in Italy, D.D. del 21/12/2023\nSede: Via del Lavoro 44 - 36100 Vicenza - P.IVA 04218760249 - tel. 0444 96 12 40\nPEC: verificanord@legalmail.it\nVERBALE DI VERIFICA PERIODICA n. VT-2026-0912\nImpianto di messa a terra di impianti alimentati con tensione fino a 1000 V\n(art. 4 e 6 D.P.R. 462/01)\n1. Dati del datore di lavoro e dell'installazione\nRagione sociale: AURORA FOOD GROUP S.R.L.\nSede legale: Via dell'Industria 27 - 37044 Cologna Veneta (VR)\nP.IVA: 03984710230 - REA: VR-389241\nDatore di lavoro: Bertoldi Giancarlo - Delegato presente alla verifica: Dal Maso Ivano\n(capo officina / manutenzione), assistito da Bissoli Mirco (manutentore)\nRSPP: p.i. Bonato Sergio - Studio Bonato & Partners, Arzignano (VI)"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4706,
+ "tempi": {
+  "denso": 0.17,
+  "sparso": 0.29,
+  "rerank": 56.9
+ },
+ "id": "Q014",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:01:02",
+ "secondi": 57.36,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 80.09,
+  "token_prompt": 2167,
+  "token_risposta": 107,
+  "testo_grezzo": "La resistenza di terra complessiva è stata misurata con un valore di 1,84 ohm, che è leggermente aumentato rispetto al valore precedente del 2024 (1,71 ohm).\n\nFONTI: verifica_periodica_impianto_terra_DPR462.pdf, pag. 3, verifica_periodica_impianto_terra_DPR462.pdf, pag. 3, verifica_periodica_impianto_terra_DPR462.pdf\n\nCONFIDENZA: alta",
+  "fonti_citate": [
+   "verifica_periodica_impianto_terra_DPR462.pdf",
+   "pag. 3"
+  ],
+  "fonti_fuori_contesto": [
+   "pag. 3"
+  ],
+  "confidenza": "alta"
+ }
+}

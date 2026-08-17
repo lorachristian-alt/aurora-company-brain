@@ -1,0 +1,680 @@
+{
+ "domanda": "Chi coordina il team di crisi e a che numero si reperisce fuori orario?",
+ "candidati_densi": [
+  {
+   "cid": 1399,
+   "punteggio": 0.732860535749092,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1400,
+   "punteggio": 0.536054523037911,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1404,
+   "punteggio": 0.52895937052589,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 426,
+   "punteggio": 0.5235723752521976,
+   "file": "elenco_interni_telefonici.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1114,
+   "punteggio": 0.5235620216525263,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1398,
+   "punteggio": 0.5134185473317374,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1123,
+   "punteggio": 0.508137923082222,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 317,
+   "punteggio": 0.5068543798842162,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1401,
+   "punteggio": 0.5047122443549273,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 292,
+   "punteggio": 0.5035260232887868,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1605,
+   "punteggio": 0.5007235144199111,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1269,
+   "punteggio": 0.4988246626849757,
+   "file": "organigramma_aziendale_aggiornato_marzo26.pptx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1122,
+   "punteggio": 0.4983794403127196,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 624,
+   "punteggio": 0.4976762395449588,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1304,
+   "punteggio": 0.4942184214253836,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1488,
+   "punteggio": 0.48913694871188335,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1788,
+   "punteggio": 0.48697771921751415,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 603,
+   "punteggio": 0.4866920769363099,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1391,
+   "punteggio": 0.4862021885193477,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 427,
+   "punteggio": 0.48513588660187784,
+   "file": "elenco_interni_telefonici.txt",
+   "idx": 1,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1400,
+   "punteggio": 25.5350399017334,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1780,
+   "punteggio": 19.635231018066406,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1398,
+   "punteggio": 19.303834915161133,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1123,
+   "punteggio": 19.104894638061523,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1406,
+   "punteggio": 17.54657554626465,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1410,
+   "punteggio": 17.40073013305664,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1397,
+   "punteggio": 17.185388565063477,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1403,
+   "punteggio": 16.97937774658203,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 600,
+   "punteggio": 16.882726669311523,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1399,
+   "punteggio": 16.86421012878418,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1404,
+   "punteggio": 16.851985931396484,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 275,
+   "punteggio": 16.765472412109375,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1366,
+   "punteggio": 16.736896514892578,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1407,
+   "punteggio": 15.728816986083984,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1712,
+   "punteggio": 15.618474960327148,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1388,
+   "punteggio": 15.11928653717041,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1401,
+   "punteggio": 15.108135223388672,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 583,
+   "punteggio": 14.988019943237305,
+   "file": "iscritti_cena_aziendale_dicembre.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 317,
+   "punteggio": 14.712594032287598,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1548,
+   "punteggio": 14.705211639404297,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1400,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.03252247488101534,
+   "rango_denso": 2,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1398,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.031024531024531024,
+   "rango_denso": 6,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1399,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.030679156908665108,
+   "rango_denso": 1,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1123,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.03055037313432836,
+   "rango_denso": 7,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1404,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.029957522915269395,
+   "rango_denso": 3,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1401,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.027479766610201392,
+   "rango_denso": 9,
+   "rango_sparso": 17
+  },
+  {
+   "cid": 317,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.027364110201042444,
+   "rango_denso": 8,
+   "rango_sparso": 19
+  },
+  {
+   "cid": 1780,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 426,
+   "file": "elenco_interni_telefonici.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1114,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1406,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1410,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1397,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1403,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 600,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 292,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1605,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 275,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1269,
+   "file": "organigramma_aziendale_aggiornato_marzo26.pptx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1122,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 624,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1407,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 1304,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": 15,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1399,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.9832300543785095
+  },
+  {
+   "cid": 1400,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.4694903790950775
+  },
+  {
+   "cid": 1398,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.1608661264181137
+  },
+  {
+   "cid": 1407,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.0591815710067749
+  },
+  {
+   "cid": 1397,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.0318678580224514
+  },
+  {
+   "cid": 1403,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.016550157219171524
+  },
+  {
+   "cid": 1404,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.008724233135581017
+  },
+  {
+   "cid": 1123,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.008601479232311249
+  },
+  {
+   "cid": 1401,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.006216400768607855
+  },
+  {
+   "cid": 1410,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.005271658301353455
+  },
+  {
+   "cid": 1269,
+   "file": "organigramma_aziendale_aggiornato_marzo26.pptx",
+   "rerank": 0.002646217355504632
+  },
+  {
+   "cid": 1122,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.0014831353910267353
+  },
+  {
+   "cid": 600,
+   "file": "job_description_responsabile_produzione.docx",
+   "rerank": 0.0012616844614967704
+  },
+  {
+   "cid": 317,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.001236876123584807
+  },
+  {
+   "cid": 426,
+   "file": "elenco_interni_telefonici.txt",
+   "rerank": 0.001153640798293054
+  },
+  {
+   "cid": 1605,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.0010846654186025262
+  },
+  {
+   "cid": 1406,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.0008149046334438026
+  },
+  {
+   "cid": 1114,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.000653591298032552
+  },
+  {
+   "cid": 275,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.0005174918915145099
+  },
+  {
+   "cid": 1780,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.00035391212441027164
+  },
+  {
+   "cid": 292,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.00016533842426724732
+  },
+  {
+   "cid": 1304,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "rerank": 0.00012963441258762032
+  },
+  {
+   "cid": 624,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "rerank": 0.00011897353397216648
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 9.377021342515945e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1399,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "origine": "nativa",
+   "rerank": 0.9832300543785095,
+   "testo": "5. TEAM DI CRISI - COMPOSIZIONE E REPERIBILITA'\nIl team di crisi è convocato dal RSGQ o dal Direttore di Stabilimento con\nqualsiasi mezzo (telefono, WhatsApp gruppo \"AURORA CRISI\"). Reperibilità\n24/7 per i ruoli contrassegnati (*).\n\nRuolo                        Titolare                    Telefono\nCoordinatore crisi (*)       ing. Marco Fantin           348 22 41 507\nRSGQ - valutazione rischio(*)dott.ssa Elena Marchetti    347 90 118 62\nQA operativo / segreteria    Sara Pozzato                345 61 30 274\nDirezione / portavoce        Giancarlo Bertoldi (AD)     335 74 402 18\nCommerciale GDO              Silvia Bertoldi             340 55 87 931\nRintracciabilità/magazzino(*)Nicola Faggionato           349 41 76 083\nProduzione                   Denis Zanella               346 88 20 415\nConsulente HACCP             dott.ssa Chiara Vicentini   049 87 655 40 (studio)\nLegale (esterno)             avv. Storti - Verona        045 80 31 226 (ufficio)\nSostituti: per Fantin -> Zanella; per Marchetti -> Pozzato; per Faggionato ->\naddetto spedizioni turno.\nL'elenco è verificato ad ogni revisione e in occasione del mock recall annuale."
+  },
+  {
+   "cid": 1400,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "origine": "nativa",
+   "rerank": 0.4694903790950775,
+   "testo": "Sostituti: per Fantin -> Zanella; per Marchetti -> Pozzato; per Faggionato ->\naddetto spedizioni turno.\nL'elenco è verificato ad ogni revisione e in occasione del mock recall annuale.\n\n6. FLUSSO OPERATIVO (descrizione sequenziale, vedi diagramma All. 1)\n\nFASE 0 - SEGNALAZIONE (T0)\nQualsiasi segnalazione potenzialmente rilevante (reclamo consumatore, reclamo\ncliente GDO, esito analitico non conforme, deviazione CCP scoperta a\nposteriori, allerta RASFF su materia prima, comunicazione fornitore) è\ninoltrata SENZA FILTRO a RSGQ. Fuori orario: ai numeri di reperibilità.\nRegistrazione immediata su MOD-QA-31.\n\nFASE 1 - VALUTAZIONE PRELIMINARE (entro 2 ORE da T0)\nIl RSGQ, sentiti i membri del team pertinenti, effettua la valutazione\npreliminare: identificazione prodotto e lotti coinvolti, natura del pericolo,\nclassificazione di gravità (par. 4), prima stima delle quantità. Esito\nverbalizzato anche in forma sintetica (mail al team di crisi).\nSe CLASSE 1 o 2: convocazione del team di crisi e passaggio a FASE 2.\nSe CLASSE 3: gestione ordinaria reclami (PRO-QA-13).\n\nFASE 2 - BLOCCO E RICOSTRUZIONE (entro 4 ORE dalla convocazione)"
+  },
+  {
+   "cid": 1398,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "origine": "nativa",
+   "rerank": 0.1608661264181137,
+   "testo": "4. CLASSIFICAZIONE DELLA GRAVITA'\nLa valutazione è effettuata dal RSGQ con il supporto del team di crisi.\n\nCLASSE 1 - Rischio sanitario grave e immediato (patogeni in prodotto RTE,\n  allergene non dichiarato, corpo estraneo tagliente/perforante, contaminante\n  chimico oltre i limiti di legge). Azione: RICHIAMO + notifica Autorità\n  competente ex art. 19 Reg. 178/2002 entro 24 h + eventuale comunicato al\n  consumatore.\nCLASSE 2 - Rischio sanitario potenziale o non immediato (corpo estraneo non\n  tagliente, deviazione di processo con rischio da valutare, difetto di\n  confezionamento che compromette la conservabilità). Azione: RITIRO, notifica\n  all'Autorità se il prodotto può essere non sicuro, comunicazione ai clienti.\nCLASSE 3 - Difetto di qualità senza rischio sanitario (difetti organolettici,\n  peso, etichettatura non ingannevole). Azione: gestione commerciale, nessuna\n  notifica, eventuale ritiro volontario concordato.\nLa classificazione è registrata su MOD-QA-31 con il razionale della decisione.\n\n5. TEAM DI CRISI - COMPOSIZIONE E REPERIBILITA'\nIl team di crisi è convocato dal RSGQ o dal Direttore di Stabilimento con"
+  },
+  {
+   "cid": 1407,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "origine": "nativa",
+   "rerank": 0.0591815710067749,
+   "testo": "Dossier di crisi: raccoglie valutazioni, mail, notifiche, DDT resi, esiti\nanalitici, verbale di riesame. Conservazione: 5 anni.\nRegistro delle esercitazioni (mock recall).\n\n10. SIMULAZIONE ANNUALE DI RICHIAMO (MOCK RECALL)\n10.1 Almeno una volta l'anno, senza preavviso agli operativi, RSGQ avvia una\nsimulazione completa su un lotto reale spedito, comprensiva di: ricostruzione\na monte (fino ai lotti di materia prima e bobina film) e a valle (clienti,\nDDT, quantità), mass balance, prova di contatto dei membri del team di crisi,\ncompilazione bozze di comunicazione SENZA INVIO.\n10.2 Criteri di accettazione: ricostruzione >= 99% entro 4 h; reperibilità\nteam >= 80% al primo tentativo di chiamata.\n10.3 Ultima esercitazione eseguita: 07/11/2025, lotto sfida AF-CR-0212\nL25311-L3-T1. Esito: ricostruzione 99,6% in 2 h 20 min; mass balance chiuso\n(scostamento 0,4% = campioni QC non registrati a sistema, azione correttiva\nsulla registrazione campioni chiusa il 28/11/2025); reperibilità 8/9 (avv.\nStorti non raggiunto al primo giro, raggiunto al secondo). ESITO: CONFORME.\nVerbale in dossier esercitazioni.\n10.4 L'esito del mock recall è dato di ingresso del riesame della direzione."
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4595,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.17,
+  "rerank": 40.88
+ },
+ "id": "Q024",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:08:30",
+ "secondi": 41.07,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 67.91,
+  "token_prompt": 1862,
+  "token_risposta": 110,
+  "testo_grezzo": "Il team di crisi è convocato dal RSGQ o dal Direttore di Stabilimento con qualsiasi mezzo (telefono, WhatsApp gruppo \"AURORA CRISI\"). La coordinatrice del team di crisi è ing. Marco Fantin, al numero di telefono 348 22 41 507.\n\nFONTI: procedura_ritiro_prodotto_CRISI_GDO.txt, procedura_ritiro_prodotto_CRISI_GDO.txt\nCONFIDENZA: alta",
+  "fonti_citate": [
+   "procedura_ritiro_prodotto_CRISI_GDO.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "alta"
+ }
+}

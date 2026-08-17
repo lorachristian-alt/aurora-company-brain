@@ -1,0 +1,681 @@
+{
+ "domanda": "Nella cartella di lavoro rimasta aperta sul desktop cosa c'era scritto?",
+ "candidati_densi": [
+  {
+   "cid": 1797,
+   "punteggio": 0.474045077904762,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 24,
+   "origine": "nativa"
+  },
+  {
+   "cid": 366,
+   "punteggio": 0.46864254105990066,
+   "file": "DDT_MOLINO_VENETO_Farina_0_N48392_OCR_SPORCO.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1795,
+   "punteggio": 0.45856162579546644,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 22,
+   "origine": "nativa"
+  },
+  {
+   "cid": 436,
+   "punteggio": 0.4496827986846247,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1245,
+   "punteggio": 0.4486845383755261,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1901,
+   "punteggio": 0.4436607143813274,
+   "file": "~$ttera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 0,
+   "origine": "scheda"
+  },
+  {
+   "cid": 0,
+   "punteggio": 0.4419818777785938,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1785,
+   "punteggio": 0.4365499161263944,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1113,
+   "punteggio": 0.4336040361746515,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 96,
+   "punteggio": 0.4328367570939111,
+   "file": "appunti_tecnologo_quaderno_prove_pilota_OCR.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1718,
+   "punteggio": 0.43166156447392917,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1314,
+   "punteggio": 0.4296638496097307,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1539,
+   "punteggio": 0.42859490874540873,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1705,
+   "punteggio": 0.42774408486982274,
+   "file": "segnalazione_guasto_cancello_carraio.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1190,
+   "punteggio": 0.42770069696100615,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1114,
+   "punteggio": 0.4262737107413769,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1226,
+   "punteggio": 0.4246245737533313,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 132,
+   "punteggio": 0.42414194801582505,
+   "file": "bolla_ingresso_azoto_alimentare_Nordgas_OCR.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1827,
+   "punteggio": 0.4240037354534801,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 85,
+   "punteggio": 0.4220349382288643,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 5,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1209,
+   "punteggio": 17.435102462768555,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 31,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1365,
+   "punteggio": 16.118566513061523,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1776,
+   "punteggio": 15.886537551879883,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1785,
+   "punteggio": 15.569666862487793,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1117,
+   "punteggio": 14.969179153442383,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 576,
+   "punteggio": 14.228537559509277,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 430,
+   "punteggio": 14.075713157653809,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1779,
+   "punteggio": 13.579931259155273,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1611,
+   "punteggio": 13.166853904724121,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1831,
+   "punteggio": 13.157236099243164,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 578,
+   "punteggio": 13.104246139526367,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 275,
+   "punteggio": 13.095528602600098,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1227,
+   "punteggio": 12.403063774108887,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 242,
+   "punteggio": 12.344813346862793,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1714,
+   "punteggio": 12.313690185546875,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 434,
+   "punteggio": 12.236621856689453,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1266,
+   "punteggio": 11.993446350097656,
+   "file": "organigramma_aziendale_aggiornato_marzo26.pptx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 601,
+   "punteggio": 11.786771774291992,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1809,
+   "punteggio": 11.65510368347168,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1095,
+   "punteggio": 11.578009605407715,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 1,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1785,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.030330882352941176,
+   "rango_denso": 8,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1209,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 31,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1797,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 24,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 366,
+   "file": "DDT_MOLINO_VENETO_Farina_0_N48392_OCR_SPORCO.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1365,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1795,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 22,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 436,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1117,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1245,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 576,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1901,
+   "file": "~$ttera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 0,
+   "origine": "scheda",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 0,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1779,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1113,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1611,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 96,
+   "file": "appunti_tecnologo_quaderno_prove_pilota_OCR.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1831,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 578,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1718,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 275,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1314,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1227,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1365,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.017543664202094078
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.01322941854596138
+  },
+  {
+   "cid": 0,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "rerank": 0.004961011465638876
+  },
+  {
+   "cid": 366,
+   "file": "DDT_MOLINO_VENETO_Farina_0_N48392_OCR_SPORCO.txt",
+   "rerank": 0.0028907752130180597
+  },
+  {
+   "cid": 1785,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0006779646500945091
+  },
+  {
+   "cid": 436,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.0004680038255173713
+  },
+  {
+   "cid": 1209,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.00039370296872220933
+  },
+  {
+   "cid": 1314,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "rerank": 0.0002931399503722787
+  },
+  {
+   "cid": 1797,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.00026550987968221307
+  },
+  {
+   "cid": 1831,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.00019418761075939983
+  },
+  {
+   "cid": 1718,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.000151940286741592
+  },
+  {
+   "cid": 1795,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.00013270137424115092
+  },
+  {
+   "cid": 1117,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.00012667360715568066
+  },
+  {
+   "cid": 96,
+   "file": "appunti_tecnologo_quaderno_prove_pilota_OCR.txt",
+   "rerank": 0.0001162978878710419
+  },
+  {
+   "cid": 1227,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 6.207387195900083e-05
+  },
+  {
+   "cid": 275,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 5.0064551032846794e-05
+  },
+  {
+   "cid": 1245,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 4.997682844987139e-05
+  },
+  {
+   "cid": 1113,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 4.417802483658306e-05
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 4.162471668678336e-05
+  },
+  {
+   "cid": 1901,
+   "file": "~$ttera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 3.048227881663479e-05
+  },
+  {
+   "cid": 576,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 2.5267070668633096e-05
+  },
+  {
+   "cid": 1611,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 2.3804894226486795e-05
+  },
+  {
+   "cid": 578,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 2.1867694158572704e-05
+  },
+  {
+   "cid": 1779,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 2.1471634681802243e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1365,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "origine": "nativa",
+   "rerank": 0.017543664202094078,
+   "testo": "(nota mia: Excel non e' gratis, e' solo gia' pagato. non e' la stessa cosa)\n\n=================================================================\nNOTE CRITICHE - M. Fantin - 18/05, sera\n=================================================================\n\nHo letto tutto due volte. Tre righe come chiede Giancarlo non bastano, ne\nservono dieci.\n\n1) NESSUNO DEI DUE PARLA CON LE BILANCE. Ne' con le bilance di ricetta ne'\n   con i metal detector ne' col datalogger del PT-104. CSB dice \"MES base\"\n   ma a domanda diretta Ferraresi mi ha risposto \"l'integrazione con il\n   pastorizzatore va analizzata\" = non ce l'hanno pronta. Innovaway\n   nemmeno l'ha capita la domanda. Il nostro problema del 10/05 era ESATTAMENTE\n   questo: la macchina registrava 68,9 e sulla carta c'era scritto 74,5.\n   Un ERP dove i dati di processo li ricopia un uomo NON risolve niente,\n   sposta l'errore da un modulo di carta a una maschera video.\n2) CSB e' piu' vicino al nostro mestiere, si vede dalle domande che fanno.\n   SAP e' piu' vicino al nostro commercialista. Decidere COSA ci serve prima\n   di decidere QUALE compriamo.\n3) Migrazione dati: tutti e due la stimano senza aver visto i ns. dati."
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.01322941854596138,
+   "testo": "[00:02:46] PARLANTE_1: se ce l'ha ancora\n[00:02:48] PARLANTE_2: se manca un pezzo dalla guarnizione vecchia o da quella nuova che ha tagliato lui a misura allora\n[00:02:53] PARLANTE_3: scusate ma c'e anche l'altra cosa del lotto 130 e va detta adesso\n[00:02:58] PARLANTE_1: quale altra cosa\n[00:03:02] PARLANTE_3: sara ha scaricato ieri i dati del datalogger del PT-104 per la verifica settimanale e sul turno 2 del 10 maggio dalle 14 e 18 alle 14 e 47 la temperatura e scesa sotto i 72 gradi il minimo registrato e 68 virgola 9\n[00:03:18] PARLANTE_1: e il ccp2\n[00:03:20] PARLANTE_3: e il CCP2 si il limite critico e 72 gradi al cuore per almeno due minuti e per quasi mezz'ora eravamo sotto\n[00:03:27] PARLANTE_2: e sul cartaceo cosa c'e scritto\n[00:03:30] PARLANTE_3: eh appunto sul MOD-QA-12 l'operatore ha scritto 74 e 5 conforme\n[00:03:36] PARLANTE_1: come 74 e 5 se la macchina dice 68\n[00:03:39] PARLANTE_3: ha copiato il set point secondo me non ha guardato il display oppure ha compilato a fine turno tutto insieme come fanno sempre\n[00:03:46] PARLANTE_2: che e esattamente la non conformita uno dell'audit la seconda firma di verifica che non"
+  },
+  {
+   "cid": 0,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "origine": "nativa",
+   "rerank": 0.004961011465638876,
+   "testo": "QUESTO ARCHIVIO E' UNA SIMULAZIONE\n===================================\n\nI documenti contenuti in questa cartella sono INTERAMENTE INVENTATI.\n\nAurora Food Group S.r.l. non esiste e non e' mai esistita. Persone, fornitori, clienti,\nprodotti, lotti, importi, non conformita', reclami, ispezioni e contestazioni sono\ninvenzioni create per una simulazione dimostrativa.\n\nAlcuni documenti sono redatti in forma di atti provenienti da organizzazioni realmente\nesistenti - rapporti di audit, verbali ispettivi, estratti conto, fatture, certificati.\nTUTTI i numeri di certificato, protocollo, pratica, conto e matricola in essi contenuti\nsono inventati, cosi' come tutte le persone indicate come dipendenti, funzionari,\nauditor o ispettori di quelle organizzazioni: nessuna di esse esiste, e nessuna di\nquelle organizzazioni ha redatto, firmato o ricevuto alcuno di questi documenti.\n\nCodici fiscali, partite IVA, IBAN e codici a barre sono costruiti per superare i\nrispettivi algoritmi di controllo; numeri di telefono, indirizzi e prefissi sono\nverosimili ma inesistenti - con l'eccezione dei numeri di pubblica\nutilita' e dei centri antiveleni citati nelle schede di sicurezza, che sono"
+  },
+  {
+   "cid": 366,
+   "file": "DDT_MOLINO_VENETO_Farina_0_N48392_OCR_SPORCO.txt",
+   "origine": "nativa",
+   "rerank": 0.0028907752130180597,
+   "testo": "annotazi0ne  a  penna  in  caIce ,  trascritta :\n   \" c0pia  x  quaIita'  -  aIIegare  a  M0D-MAG-OZ\n     I0tti  caricati  a  gestionaIe  OS/OS  h 8.lS   ubicaz.  A-Ol / A-OZ\n     iI  sacc0  r0tt0  I0  vede  Marchetti  \"                 N F\n~~~~~ fine scansione ~~~~~"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 3774,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.18,
+  "rerank": 38.35
+ },
+ "id": "Q039",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:19:50",
+ "secondi": 38.55,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 47.99,
+  "token_prompt": 1599,
+  "token_risposta": 70,
+  "testo_grezzo": "Non e' possibile determinare cosa c'era scritto nella cartella di lavoro rimasta aperta sul desktop.\n\nFONTI: _QUESTO_ARCHIVIO_E_SIMULATO.txt, DDT_MOLINO_VENETO_Farina_0_N48392_OCR_SPORCO.txt\nCONFIDENZA: alta",
+  "fonti_citate": [
+   "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "DDT_MOLINO_VENETO_Farina_0_N48392_OCR_SPORCO.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "alta"
+ }
+}

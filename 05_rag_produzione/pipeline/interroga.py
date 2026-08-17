@@ -70,9 +70,15 @@ class Recupero:
 
     # ---------------------------------------------------------------- rami
 
-    def _ramo_denso(self, domanda, k):
-        v = self.embedder().encode([domanda], normalize_embeddings=True,
-                                   convert_to_numpy=True)[0].tolist()
+    def vettore_domanda(self, domanda):
+        """Un vettore per volta, batch di 1. Il batch NON e' un parametro libero qui:
+        cambiarlo cambia il riempimento e quindi l'ultima cifra del vettore. Uno per
+        volta e' l'unica scelta che da' lo stesso numero comunque si esegua il run."""
+        return self.embedder().encode([domanda], normalize_embeddings=True,
+                                      convert_to_numpy=True)[0].tolist()
+
+    def _ramo_denso(self, domanda, k, vettore=None):
+        v = vettore if vettore is not None else self.vettore_domanda(domanda)
         r = self.client.query_points(self.collezione, query=v,
                                      using=self.cfg["indice"]["vettore_denso"],
                                      limit=k, with_payload=True).points
@@ -119,11 +125,15 @@ class Recupero:
 
     # ---------------------------------------------------------------- interrogazione
 
-    def recupera(self, domanda):
-        """Restituisce la traccia completa di un'interrogazione, generazione esclusa."""
+    def recupera(self, domanda, vettore=None):
+        """Restituisce la traccia completa di un'interrogazione, generazione esclusa.
+
+        `vettore` permette di passare l'embedding gia' calcolato: e' cosi' che il runner
+        evita di tenere embedder e reranker in memoria nello stesso momento.
+        """
         c = self.cfg["recupero"]
         t0 = time.time()
-        denso = self._ramo_denso(domanda, c["k_denso"])
+        denso = self._ramo_denso(domanda, c["k_denso"], vettore)
         t_denso = time.time() - t0
 
         t0 = time.time()
@@ -174,6 +184,14 @@ class Recupero:
 
     def chiudi(self):
         self.client.close()
+
+    def libera_modelli(self):
+        """Lascia andare embedder e reranker. Su una macchina da 8 GB non e' igiene: e'
+        la differenza fra un run di tre ore e uno che pagina."""
+        import gc
+        self._emb = None
+        self._rer = None
+        gc.collect()
 
 
 # ==================================================================== il prompt
@@ -289,10 +307,11 @@ def main():
         python pipeline\\interroga.py "una ricerca sul lotto L26130 recupera il mass balance?"
     """
     sys.stdout.reconfigure(line_buffering=True)
-    if len(sys.argv) < 2:
-        sys.exit('uso: python pipeline\\interroga.py "la domanda"')
-    domanda = sys.argv[1]
     solo_recupero = "--solo-recupero" in sys.argv
+    liberi = [a for a in sys.argv[1:] if not a.startswith("--")]
+    if not liberi:
+        sys.exit('uso: python pipeline\\interroga.py "la domanda" [--solo-recupero]')
+    domanda = liberi[0]
 
     cfg = comune.carica_config()
     rec = Recupero(cfg)

@@ -1,0 +1,682 @@
+{
+ "domanda": "Dalla fiera di Cibus, quali contatti valgono davvero e quali hanno un blocco che dobbiamo risolvere prima?",
+ "candidati_densi": [
+  {
+   "cid": 1368,
+   "punteggio": 0.5090183301162272,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1668,
+   "punteggio": 0.4788388087940984,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1172,
+   "punteggio": 0.46726374247378427,
+   "file": "Newsletter_Fiere_alimentari_2026_NON_LEGGERE.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1831,
+   "punteggio": 0.466815813819144,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 435,
+   "punteggio": 0.462076572302582,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1114,
+   "punteggio": 0.4540957541252718,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1171,
+   "punteggio": 0.4526398946724006,
+   "file": "Newsletter_Fiere_alimentari_2026_NON_LEGGERE.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 642,
+   "punteggio": 0.4523638394750014,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 512,
+   "punteggio": 0.4523451396438156,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1173,
+   "punteggio": 0.4495674796117717,
+   "file": "Newsletter_Fiere_alimentari_2026_NON_LEGGERE.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 337,
+   "punteggio": 0.44780110739191814,
+   "file": "corso_inglese_aziendale_proposta.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 513,
+   "punteggio": 0.44707219703803125,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1598,
+   "punteggio": 0.4456487952955987,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "idx": 34,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1424,
+   "punteggio": 0.44412455779543325,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1788,
+   "punteggio": 0.44408855281734,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1367,
+   "punteggio": 0.442397105965144,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 603,
+   "punteggio": 0.4412613327586105,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 636,
+   "punteggio": 0.43997982170902905,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1828,
+   "punteggio": 0.4399759022201366,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 865,
+   "punteggio": 0.4388201081765576,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 43,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1368,
+   "punteggio": 19.083621978759766,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1789,
+   "punteggio": 18.284040451049805,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1333,
+   "punteggio": 17.74748420715332,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 605,
+   "punteggio": 17.4744873046875,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 316,
+   "punteggio": 17.413728713989258,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1457,
+   "punteggio": 16.4857120513916,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1173,
+   "punteggio": 16.19122886657715,
+   "file": "Newsletter_Fiere_alimentari_2026_NON_LEGGERE.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1780,
+   "punteggio": 16.073719024658203,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1796,
+   "punteggio": 15.782171249389648,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 23,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1327,
+   "punteggio": 15.138349533081055,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1404,
+   "punteggio": 15.107172966003418,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1461,
+   "punteggio": 14.42300796508789,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 636,
+   "punteggio": 14.17294692993164,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 632,
+   "punteggio": 13.98902416229248,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1812,
+   "punteggio": 13.949281692504883,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1778,
+   "punteggio": 13.894296646118164,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1401,
+   "punteggio": 13.825230598449707,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1365,
+   "punteggio": 13.790878295898438,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1109,
+   "punteggio": 13.576374053955078,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1108,
+   "punteggio": 13.570664405822754,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1368,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.03278688524590164,
+   "rango_denso": 1,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1173,
+   "file": "Newsletter_Fiere_alimentari_2026_NON_LEGGERE.eml",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.029211087420042643,
+   "rango_denso": 10,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 636,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.02651914295749912,
+   "rango_denso": 18,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1668,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1789,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1172,
+   "file": "Newsletter_Fiere_alimentari_2026_NON_LEGGERE.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1333,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 605,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1831,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 316,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 435,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1114,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1457,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1171,
+   "file": "Newsletter_Fiere_alimentari_2026_NON_LEGGERE.eml",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 642,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1780,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 512,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1796,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 23,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1327,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 337,
+   "file": "corso_inglese_aziendale_proposta.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1404,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 513,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1461,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1598,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "idx": 34,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 636,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "rerank": 0.10336250066757202
+  },
+  {
+   "cid": 1172,
+   "file": "Newsletter_Fiere_alimentari_2026_NON_LEGGERE.eml",
+   "rerank": 0.007971574552357197
+  },
+  {
+   "cid": 1171,
+   "file": "Newsletter_Fiere_alimentari_2026_NON_LEGGERE.eml",
+   "rerank": 0.005252212751656771
+  },
+  {
+   "cid": 1789,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.003207447938621044
+  },
+  {
+   "cid": 1173,
+   "file": "Newsletter_Fiere_alimentari_2026_NON_LEGGERE.eml",
+   "rerank": 0.0015528921503573656
+  },
+  {
+   "cid": 1457,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.0008658250444568694
+  },
+  {
+   "cid": 605,
+   "file": "job_description_responsabile_produzione.docx",
+   "rerank": 0.0006363349384628236
+  },
+  {
+   "cid": 1333,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "rerank": 0.00042671157279983163
+  },
+  {
+   "cid": 1368,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.00041267770575359464
+  },
+  {
+   "cid": 337,
+   "file": "corso_inglese_aziendale_proposta.txt",
+   "rerank": 0.0004008817486464977
+  },
+  {
+   "cid": 1404,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.0003073557454627007
+  },
+  {
+   "cid": 642,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "rerank": 0.00024172986741177738
+  },
+  {
+   "cid": 1780,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0002178013528464362
+  },
+  {
+   "cid": 1831,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.00019995130423922092
+  },
+  {
+   "cid": 1114,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.00016541538934689015
+  },
+  {
+   "cid": 1796,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 9.13316835067235e-05
+  },
+  {
+   "cid": 513,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 7.204415305750445e-05
+  },
+  {
+   "cid": 512,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 6.842417496955022e-05
+  },
+  {
+   "cid": 435,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 5.849245280842297e-05
+  },
+  {
+   "cid": 1327,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "rerank": 5.311923086992465e-05
+  },
+  {
+   "cid": 1598,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "rerank": 5.103577859699726e-05
+  },
+  {
+   "cid": 1461,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 3.833958908217028e-05
+  },
+  {
+   "cid": 316,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 2.5612634999561124e-05
+  },
+  {
+   "cid": 1668,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "rerank": 2.0561699784593657e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 636,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "origine": "nativa",
+   "rerank": 0.10336250066757202,
+   "testo": "Prix;Prix Quality S.p.A.;Galliera Veneta;PD;Deborah Zonta;Assistente acquisti;049 9416 290;d.zonta@prixquality.it;27/03/2026;;;\nEmisfero;Unicomm S.r.l. - div. Iper;Vicenza;VI;dott. Massimo Gasparoni;Category iper food;0444 653 811;m.gasparoni@unicomm.it;30/04/2026;call;campionatura formato promo 3+1;interessato al 3+1 dopo i numeri del volantino Tosano, NON dirgli i numeri di Tosano che sono riservati, usare dato generico +180%\nEmisfero;Unicomm S.r.l.;Vicenza;VI;Katia Bedin;Assistente category iper;0444 6538 15;k.bedin@unicomm.it;30/04/2026;mail ok;;\nIperlando;Lando S.r.l.;Villanova;PD;Roberta Michielotto;Buyer freschi;049 972 24 60;r.michielotto@lando.it;07/05/2026;tel;mandare listino base;primo contatto freddo da elenco fiera, cortese, chiede referenze e certificazioni, mandato company profile\nIperlando;Lando S.r.l.;Villanova PD;PD;Michielotto R.;buyer;0499722460;roberta.michielotto@landi.it;07/05/26;;;email scritta male sul blocco? landi/lando verificare prima di scrivere"
+  },
+  {
+   "cid": 1172,
+   "file": "Newsletter_Fiere_alimentari_2026_NON_LEGGERE.eml",
+   "origine": "nativa",
+   "rerank": 0.007971574552357197,
+   "testo": ">> CIBUS FORUM - Parma, 2-3 settembre 2026\n   Ultimi 12 stand nel padiglione Bakery & Snacks! Preallestito da 16 mq a\n   partire da 3.900 euro + IVA. Include: 2 pass espositore, wifi, inserimento\n   nel catalogo buyer.\n\n>> SIAL PARIS - Parigi, 17-21 ottobre 2026\n   Collettiva italiana \"Italian Bakery Excellence\": SCONTO 15% per adesioni\n   entro il 31/05! I buyer di 127 paesi ti aspettano. Traduttore incluso nei\n   pacchetti PREMIUM.\n\n>> GULFOOD MANUFACTURING - Dubai, 3-5 novembre 2026\n   Il mercato mediorientale cerca prodotti da forno surgelati: la tua\n   occasione per l'export! Contributi ICE fino al 50% (verifica requisiti).\n\n>> ANUGA HORIZON - Colonia, marzo 2027\n   Early bird aperto: blocca il prezzo 2026!\n\n*** OFFERTA LAMPO: prenota entro 7 GIORNI e ricevi GRATIS il servizio\n\"Matchmaking B2B\" (valore 890 euro): 10 incontri profilati con buyer GDO\ne Ho.Re.Ca. selezionati sul tuo profilo aziendale! ***\n\nMa non e' tutto! Rispondendo a questa email con \"INFO\" riceverai senza\nimpegno la nostra guida esclusiva \"Vendere alla GDO europea nel 2026:\n7 errori da evitare\" scritta dai nostri esperti di internazionalizzazione."
+  },
+  {
+   "cid": 1171,
+   "file": "Newsletter_Fiere_alimentari_2026_NON_LEGGERE.eml",
+   "origine": "nativa",
+   "rerank": 0.005252212751656771,
+   "testo": "From: Food Expo Network <newsletter@foodexponetwork-mail.com>\nTo: info@aurorafoodgroup.it\nSubject: Ultimi stand disponibili! FIERE ALIMENTARI 2026: non restare fuori dal business del Food & Beverage\nDate: Wed, 20 May 2026 04:17:55 +0200\nMessage-ID: <1779243475.2fa5b.87e87e35@foodexponetwork-mail.com>\nSe non visualizzi correttamente questa email clicca qui: http://track.foodexponetwork-mail.com/v/9921/aXVmb29kZ3JvdXA/view\n[Immagine non visualizzata: header_fiere2026.jpg - Abilita il download delle immagini]\n[pixel di tracciamento: http://track.foodexponetwork-mail.com/o/9921/aXVmb29kZ3JvdXA.gif]\n\n*** FIERE ALIMENTARI 2026 - IL TUO BUSINESS MERITA UN PALCOSCENICO INTERNAZIONALE ***\n\nGentile Azienda,\n\nil settore Food & Beverage sta vivendo una crescita SENZA PRECEDENTI: +14% di export nel 2025, buyer internazionali alla ricerca di eccellenze italiane come la TUA. Non lasciare che i tuoi concorrenti si prendano i TUOI clienti!\n\nFOOD EXPO NETWORK ti offre l'opportunita' di essere protagonista nei principali appuntamenti fieristici del 2026:\n\n>> CIBUS FORUM - Parma, 2-3 settembre 2026\n   Ultimi 12 stand nel padiglione Bakery & Snacks! Preallestito da 16 mq a"
+  },
+  {
+   "cid": 1789,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.003207447938621044,
+   "testo": "[00:14:15] PARLANTE_2: lo so\n[00:14:17] PARLANTE_4: le tre domeniche di fila per la promo sottocosto era aprile maggio settimane 19 20 21 gli ordini li ha voluti tosano mica noi\n[00:14:24] PARLANTE_6: si ma le ore le fanno i miei mica tosano silvia e infatti me ne sono andati via quattro in cinque mesi dalla linea 2 tutti col motivo dei turni della domenica\n[00:14:32] PARLANTE_1: questo e un problema vero ma non di stasera federica sta gia preparando una proposta coi riposi compensativi la vediamo lunedi con la rsu\n[00:14:40] PARLANTE_6: va bene pero mettiamola in calendario davvero perche l'ultima volta\n[00:14:43] PARLANTE_1: e in calendario denis\n[00:14:46] PARLANTE_3: posso ricapitolare le azioni per il verbale che sara poi lo devo passare a federica\n[00:14:50] PARLANTE_1: vai\n[00:14:52] PARLANTE_3: uno blocco immediato lotti L26130 e L26131 tutte le referenze passate dalla PKM-450 etichettatura non conforme e segregazione in CF-01 e a via palu registrazione su MOD-MAG-02 responsabile faggionato entro stasera\n[00:15:06] PARLANTE_3: due fermo tecnico linea 1 domattina primo turno smontaggio valvola azoto verifica guarnizione fotografie responsabile fantin con dal maso"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4484,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.18,
+  "rerank": 43.99
+ },
+ "id": "Q096",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:07:14",
+ "secondi": 44.18,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 66.98,
+  "token_prompt": 1914,
+  "token_risposta": 109,
+  "testo_grezzo": "Non sono in grado di fornire informazioni specifiche su contatti e blochi dei partecipanti alla fiera di Cibus, poiché non sono presenti dati specifici su questo argomento nei documenti forniti.\n\nFONTI: trascrizione_riunione_direzione_12_05_2026.txt, Newsletter_Fiere_alimentari_2026_NON_LEGGERE.eml, lista_contatti_buyer_GDO_nordest.csv\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "trascrizione_riunione_direzione_12_05_2026.txt",
+   "Newsletter_Fiere_alimentari_2026_NON_LEGGERE.eml",
+   "lista_contatti_buyer_GDO_nordest.csv"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

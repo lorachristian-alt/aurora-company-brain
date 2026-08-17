@@ -1,0 +1,683 @@
+{
+ "domanda": "Quante non conformita' sono uscite dalle analisi dell'acqua potabile e su quali punti?",
+ "candidati_densi": [
+  {
+   "cid": 1293,
+   "punteggio": 0.5565324162431058,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1743,
+   "punteggio": 0.5418896540472565,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1290,
+   "punteggio": 0.5395930735982305,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1755,
+   "punteggio": 0.5378055878467308,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1322,
+   "punteggio": 0.5367886192281667,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1294,
+   "punteggio": 0.5366722150052656,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1284,
+   "punteggio": 0.5362221758663884,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1281,
+   "punteggio": 0.5361658329226014,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1297,
+   "punteggio": 0.5324725043525972,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1606,
+   "punteggio": 0.5303579169585393,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1742,
+   "punteggio": 0.5300758138668998,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1681,
+   "punteggio": 0.5294724090157055,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1282,
+   "punteggio": 0.5273124249865642,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1295,
+   "punteggio": 0.5272193368234785,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1748,
+   "punteggio": 0.52547561983824,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1279,
+   "punteggio": 0.5248366843685044,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1291,
+   "punteggio": 0.5247113855209415,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1633,
+   "punteggio": 0.5243595624657967,
+   "file": "Scansione_20260518_0003.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1450,
+   "punteggio": 0.5243595624657967,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1285,
+   "punteggio": 0.5234971930109737,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 6,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1243,
+   "punteggio": 19.183977127075195,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 242,
+   "punteggio": 16.7030029296875,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 27,
+   "punteggio": 16.452987670898438,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 25,
+   "origine": "nativa"
+  },
+  {
+   "cid": 304,
+   "punteggio": 16.250591278076172,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 428,
+   "punteggio": 14.727940559387207,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1143,
+   "punteggio": 14.413193702697754,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 25,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1812,
+   "punteggio": 13.985361099243164,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1607,
+   "punteggio": 13.962170600891113,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1676,
+   "punteggio": 13.632987022399902,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 582,
+   "punteggio": 13.35364055633545,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 114,
+   "punteggio": 13.343408584594727,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1389,
+   "punteggio": 13.291070938110352,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 429,
+   "punteggio": 13.173678398132324,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1108,
+   "punteggio": 12.940235137939453,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1109,
+   "punteggio": 12.840409278869629,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1700,
+   "punteggio": 12.800296783447266,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 581,
+   "punteggio": 12.625934600830078,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 9,
+   "punteggio": 12.586216926574707,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 200,
+   "punteggio": 12.502487182617188,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 111,
+   "punteggio": 12.404038429260254,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1243,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1293,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 242,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "idx": 18,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1743,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 27,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 25,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1290,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 304,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1755,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 428,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1322,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1143,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 25,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1294,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1284,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1812,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1281,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1607,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1297,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 18,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1676,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 582,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1606,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 114,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1742,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1389,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1681,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1606,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.47137242555618286
+  },
+  {
+   "cid": 1293,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "rerank": 0.08364560455083847
+  },
+  {
+   "cid": 1755,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "rerank": 0.08036024868488312
+  },
+  {
+   "cid": 1243,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.0672076866030693
+  },
+  {
+   "cid": 1743,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "rerank": 0.05845046043395996
+  },
+  {
+   "cid": 304,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "rerank": 0.05111975595355034
+  },
+  {
+   "cid": 1290,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "rerank": 0.037479519844055176
+  },
+  {
+   "cid": 1294,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "rerank": 0.03391076996922493
+  },
+  {
+   "cid": 1322,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "rerank": 0.02443564124405384
+  },
+  {
+   "cid": 1389,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "rerank": 0.022197844460606575
+  },
+  {
+   "cid": 1607,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.01778888702392578
+  },
+  {
+   "cid": 1281,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "rerank": 0.017499011009931564
+  },
+  {
+   "cid": 1143,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.017158815637230873
+  },
+  {
+   "cid": 1284,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "rerank": 0.015096502378582954
+  },
+  {
+   "cid": 1297,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "rerank": 0.011875503696501255
+  },
+  {
+   "cid": 1742,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "rerank": 0.0104066152125597
+  },
+  {
+   "cid": 582,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 0.004832552745938301
+  },
+  {
+   "cid": 1676,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "rerank": 0.004162732046097517
+  },
+  {
+   "cid": 1681,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "rerank": 0.003734905505552888
+  },
+  {
+   "cid": 114,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "rerank": 0.0007318711723200977
+  },
+  {
+   "cid": 1812,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 8.255256398115307e-05
+  },
+  {
+   "cid": 428,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 6.549742101924494e-05
+  },
+  {
+   "cid": 242,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "rerank": 6.380430568242446e-05
+  },
+  {
+   "cid": 27,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 6.316043436527252e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1606,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "origine": "nativa",
+   "rerank": 0.47137242555618286,
+   "testo": "MD-3200, surgelazione) + PRPo allergeni. VERIFICATO.\n- CCP2: limite critico ≥ 72,0 °C per ≥ 2 min, set point 74,0-76,0 °C; tracciati\n  datalogger PT-104 disponibili e conservati; MOD-QA-12 compilato ogni 60 min.\n  Campione verificato: 12-16/01/2026, 03-06/02/2026. VEDI NC n. 1.\n- CCP3: verifica tasselli Fe 2,0 / Non-Fe 2,5 / AISI 316 3,0 mm ogni 60 min su\n  MOD-QA-07 rev.5; certificati tasselli in corso di validità; verifica annuale\n  costruttore eseguita 11/2025. VEDI NC n. 1 (seconda firma) e OSSERVAZIONE n. 2.\n- CCP4: registrazioni T cuore ogni 2 h conformi nel campione (gen-feb 2026);\n  monitoraggio continuo CF-02 con allarme funzionante (test eseguito in audit).\n- Test rintracciabilità: conforme (99,4%, 2 h 50 min).\n- Sanificazione: IO-05, schede CIP-01, prodotti Chemifood; verifiche ATP a\n  campione conformi; piano tamponi con lab. Analytica Veneta (ACCREDIA 0987).\n- Reclami 2025: n. 41 totali, di cui 4 per corpo estraneo (chiusi). Trend\n  presentato in riesame direzione.\n\n----------------------------------------------------------------------------\n4. ELENCO NON CONFORMITA' / NON-CONFORMITY LIST\n----------------------------------------------------------------------------"
+  },
+  {
+   "cid": 1293,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "origine": "nativa",
+   "rerank": 0.08364560455083847,
+   "testo": "RDP-26-0204;16/04/2026;Acqua lavaggio impianti (utenza CIP-01);CBT a 22 °C;UNI EN ISO 6222;21;UFC/ml;senza variazioni anomale;Conforme;Analytica Veneta S.r.l. - ACCREDIA 0987\nRDP-26-0204;16/04/2026;Acqua lavaggio impianti (utenza CIP-01);Torbidità;UNI EN ISO 7027-1;0,4;NTU;accettabile (≤ 1 indicativo);Conforme;Analytica Veneta S.r.l. - ACCREDIA 0987\nRDP-26-0205;16/04/2026;Produttore di ghiaccio (sala confezionamento);E. coli;UNI EN ISO 9308-1;0;UFC/100 ml;0;Conforme;Analytica Veneta S.r.l. - ACCREDIA 0987\nRDP-26-0205;16/04/2026;Produttore di ghiaccio (sala confezionamento);Enterococchi intestinali;UNI EN ISO 7899-2;0;UFC/100 ml;0;Conforme;Analytica Veneta S.r.l. - ACCREDIA 0987\nRDP-26-0205;16/04/2026;Produttore di ghiaccio (sala confezionamento);Coliformi a 37 °C;UNI EN ISO 9308-1;4;UFC/100 ml;0;NON CONFORME;Analytica Veneta S.r.l. - ACCREDIA 0987 - comunicato via PEC a RSGQ il 21/04, aperta NC-ACQ-26-01\nRDP-26-0205;16/04/2026;Produttore di ghiaccio (sala confezionamento);CBT a 22 °C;UNI EN ISO 6222;180;UFC/ml;senza variazioni anomale;NON CONFORME;variazione anomala vs serie storica (41 a gennaio) - probabile biofilm su serpentina e filtro carboni esaurito"
+  },
+  {
+   "cid": 1755,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "origine": "nativa",
+   "rerank": 0.08036024868488312,
+   "testo": "P12;AF-SN-0450;L26130-L1-T2;flow-pack PP/EVOH 100 g (F0044);30% CO2 / 70% N2;38;14;0,34;5,59;6,2;4,1;24,6;9,2;0,26;0,41;2,2x10^2;<10;5,7;CONFORME;\nP12;AF-SN-0450;L26130-L1-T2;flow-pack PP/EVOH 100 g (F0044);30% CO2 / 70% N2;38;21;0,36;5,53;6,4;6,4;21,5;15,8;0,37;0,70;1,8x10^2;2,0x10^1;4,1;NON CONFORME;\nP12;AF-SN-0450;L26130-L1-T2;flow-pack PP/EVOH 100 g (F0044);30% CO2 / 70% N2;38;30;0,37;5,47;6,7;9,0;18,0;25,4;0,52;1,08;1,5x10^2;5,0x10^1;2,8;NON CONFORME;peggiore di tutte le prove, O2 + T alta insieme\nP12;AF-SN-0450;L26130-L1-T2;flow-pack PP/EVOH 100 g (F0044);30% CO2 / 70% N2;38;45;0,39;5,40;7,1;12,1;13,9;38,7;0,71;1,63;1,2x10^2;1,1x10^2;1,8;NON CONFORME;\nP12;AF-SN-0450;L26130-L1-T2;flow-pack PP/EVOH 100 g (F0044);30% CO2 / 70% N2;38;60;n.r.;n.r.;n.r.;n.r.;n.r.;n.r.;n.r.;n.r.;n.r.;n.r.;n.r.;n.r.;chiusa a 45 gg\nP12;AF-SN-0450;L26130-L1-T2;flow-pack PP/EVOH 100 g (F0044);30% CO2 / 70% N2;38;90;n.r.;n.r.;n.r.;n.r.;n.r.;n.r.;n.r.;n.r.;n.r.;n.r.;n.r.;n.r.;\nP13;AF-SN-0450;L26124-L1-T1;flow-pack PP/EVOH 100 g (F0044);30% CO2 / 70% N2;30;0;0,31;5,71;5,6;0,8;30,1;1,2;0,12;<0,1;3,0x10^2;<10;8,3;CONFORME;replica B"
+  },
+  {
+   "cid": 1243,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "origine": "nativa",
+   "rerank": 0.0672076866030693,
+   "testo": "e norme collegate, il quale sostituisce il documento cartaceo e la firma\nautografa.\n\n--- FINE TESTO DELL'ATTO ---\n\n________________________________________\n\nDa: Federica Sartori <f.sartori@aurorafoodgroup.it>\nA: Elena Marchetti <e.marchetti@aurorafoodgroup.it>; Marco Fantin <m.fantin@aurorafoodgroup.it>\nCc: Giancarlo Bertoldi <g.bertoldi@aurorafoodgroup.it>\nInviato: lunedì 25 maggio 2026 12:10\nOggetto: I: POSTA CERTIFICATA: Prot. n. 0058214/2026 - Preavviso di ispezione programmata\n\nElena, Marco,\nè arrivata QUESTA sulla PEC. Ispezione ULSS il 9 GIUGNO. Tra due settimane!!\nVe la giro subito, io non so nemmeno da dove si comincia con la lista che chiedono,\nsono 14 punti. Il punto 7 (analisi acqua) mi sa che è quello messo peggio, l'ultima\nanalisi che trovo in archivio è del 2023?? Ditemi voi.\nGiancarlo in cc come da sue istruzioni.\nFede\n\nFederica Sartori - HR & Segreteria\nAurora Food Group S.r.l. - Via dell'Industria 27, 37044 Cologna Veneta (VR)\nLe informazioni contenute nella presente comunicazione sono riservate ai sensi del\nReg. UE 2016/679. Se avete ricevuto questo messaggio per errore siete pregati di\ndistruggerlo e darne comunicazione al mittente."
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4661,
+ "tempi": {
+  "denso": 0.01,
+  "sparso": 0.19,
+  "rerank": 51.7
+ },
+ "id": "Q099",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:09:30",
+ "secondi": 51.9,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 72.56,
+  "token_prompt": 2360,
+  "token_risposta": 52,
+  "testo_grezzo": "La risposta è: 1 non conformità\n\nFONTI: file: piano_autocontrollo_acqua_potabile_analisi.csv, notifica_ATS_ispezione_programmata_igiene.txt\n\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "file: piano_autocontrollo_acqua_potabile_analisi.csv",
+   "notifica_ATS_ispezione_programmata_igiene.txt"
+  ],
+  "fonti_fuori_contesto": [
+   "file: piano_autocontrollo_acqua_potabile_analisi.csv"
+  ],
+  "confidenza": "bassa"
+ }
+}

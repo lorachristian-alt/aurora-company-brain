@@ -1,0 +1,681 @@
+{
+ "domanda": "Quanto DON c'era nella farina del lotto MV26-0429A?",
+ "candidati_densi": [
+  {
+   "cid": 209,
+   "punteggio": 0.5834031600580527,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1720,
+   "punteggio": 0.5834030708467565,
+   "file": "SKM_C224e26051412340.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1252,
+   "punteggio": 0.5831691599180677,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1769,
+   "punteggio": 0.5824251520692474,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 481,
+   "punteggio": 0.5777523952977297,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1261,
+   "punteggio": 0.5706507443744968,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 547,
+   "punteggio": 0.559638269834941,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1178,
+   "punteggio": 0.5581161091289835,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 550,
+   "punteggio": 0.5479531590300618,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1262,
+   "punteggio": 0.5477083894542072,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1253,
+   "punteggio": 0.5461899412479382,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1719,
+   "punteggio": 0.5393798398028062,
+   "file": "SKM_C224e26050408520.jpg",
+   "idx": 0,
+   "origine": "ocr"
+  },
+  {
+   "cid": 546,
+   "punteggio": 0.5377588428576825,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 48,
+   "punteggio": 0.5376314739885353,
+   "file": "analisi_scostamenti_costo_materie_prime.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 214,
+   "punteggio": 0.5374813345371104,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1725,
+   "punteggio": 0.5374813332745352,
+   "file": "SKM_C224e26051412340.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 74,
+   "punteggio": 0.5359337443449621,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "idx": 24,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1689,
+   "punteggio": 0.5339790040251653,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1723,
+   "punteggio": 0.5278723848235676,
+   "file": "SKM_C224e26051412340.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 212,
+   "punteggio": 0.5278723028547223,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1720,
+   "punteggio": 36.136226654052734,
+   "file": "SKM_C224e26051412340.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 209,
+   "punteggio": 36.136226654052734,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 211,
+   "punteggio": 34.09449005126953,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1722,
+   "punteggio": 34.09449005126953,
+   "file": "SKM_C224e26051412340.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 214,
+   "punteggio": 28.58502769470215,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1725,
+   "punteggio": 28.58502769470215,
+   "file": "SKM_C224e26051412340.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1723,
+   "punteggio": 22.11322784423828,
+   "file": "SKM_C224e26051412340.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 212,
+   "punteggio": 22.11322784423828,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1719,
+   "punteggio": 16.89082145690918,
+   "file": "SKM_C224e26050408520.jpg",
+   "idx": 0,
+   "origine": "ocr"
+  },
+  {
+   "cid": 546,
+   "punteggio": 15.979363441467285,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1867,
+   "punteggio": 14.971197128295898,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1129,
+   "punteggio": 14.739007949829102,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 547,
+   "punteggio": 14.239455223083496,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1769,
+   "punteggio": 13.506595611572266,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1130,
+   "punteggio": 13.482012748718262,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 558,
+   "punteggio": 12.130640983581543,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 273,
+   "punteggio": 12.117448806762695,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1133,
+   "punteggio": 11.97576904296875,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1637,
+   "punteggio": 11.673360824584961,
+   "file": "Scansione_20260518_0003.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1454,
+   "punteggio": 11.673360824584961,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 209,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.03252247488101534,
+   "rango_denso": 1,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1720,
+   "file": "SKM_C224e26051412340.pdf",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.03252247488101534,
+   "rango_denso": 2,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1769,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.029138513513513514,
+   "rango_denso": 4,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 214,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.02871794871794872,
+   "rango_denso": 15,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 547,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.02862400327131466,
+   "rango_denso": 7,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1719,
+   "file": "SKM_C224e26050408520.jpg",
+   "idx": 0,
+   "origine": "ocr",
+   "rrf": 0.028381642512077296,
+   "rango_denso": 12,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1725,
+   "file": "SKM_C224e26051412340.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.028309409888357256,
+   "rango_denso": 16,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 546,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.027984344422700584,
+   "rango_denso": 13,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1723,
+   "file": "SKM_C224e26051412340.pdf",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.027583600982429624,
+   "rango_denso": 19,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 212,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.027205882352941177,
+   "rango_denso": 20,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 211,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1252,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1722,
+   "file": "SKM_C224e26051412340.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 481,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1261,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1178,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 550,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1262,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1253,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1867,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1129,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 48,
+   "file": "analisi_scostamenti_costo_materie_prime.xlsx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1130,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": null,
+   "rango_sparso": 15
+  },
+  {
+   "cid": 558,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.013157894736842105,
+   "rango_denso": null,
+   "rango_sparso": 16
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 211,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "rerank": 0.7016084790229797
+  },
+  {
+   "cid": 1722,
+   "file": "SKM_C224e26051412340.pdf",
+   "rerank": 0.7016074657440186
+  },
+  {
+   "cid": 546,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "rerank": 0.6676156520843506
+  },
+  {
+   "cid": 1129,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.6663767695426941
+  },
+  {
+   "cid": 1719,
+   "file": "SKM_C224e26050408520.jpg",
+   "rerank": 0.5307053327560425
+  },
+  {
+   "cid": 209,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "rerank": 0.44827282428741455
+  },
+  {
+   "cid": 1720,
+   "file": "SKM_C224e26051412340.pdf",
+   "rerank": 0.44827282428741455
+  },
+  {
+   "cid": 547,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "rerank": 0.4326971471309662
+  },
+  {
+   "cid": 214,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "rerank": 0.42850029468536377
+  },
+  {
+   "cid": 1725,
+   "file": "SKM_C224e26051412340.pdf",
+   "rerank": 0.42850029468536377
+  },
+  {
+   "cid": 1769,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "rerank": 0.4179554283618927
+  },
+  {
+   "cid": 1130,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.32276612520217896
+  },
+  {
+   "cid": 558,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "rerank": 0.18215100467205048
+  },
+  {
+   "cid": 212,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "rerank": 0.16186878085136414
+  },
+  {
+   "cid": 1723,
+   "file": "SKM_C224e26051412340.pdf",
+   "rerank": 0.16186878085136414
+  },
+  {
+   "cid": 481,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "rerank": 0.05393465608358383
+  },
+  {
+   "cid": 1252,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "rerank": 0.04115372896194458
+  },
+  {
+   "cid": 1178,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.02188919670879841
+  },
+  {
+   "cid": 1867,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "rerank": 0.014118802733719349
+  },
+  {
+   "cid": 1253,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "rerank": 0.010594144463539124
+  },
+  {
+   "cid": 550,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "rerank": 0.006985039915889502
+  },
+  {
+   "cid": 48,
+   "file": "analisi_scostamenti_costo_materie_prime.xlsx",
+   "rerank": 0.006919456645846367
+  },
+  {
+   "cid": 1261,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "rerank": 0.005910309497267008
+  },
+  {
+   "cid": 1262,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "rerank": 0.003986762370914221
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 211,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "origine": "nativa",
+   "rerank": 0.7016084790229797,
+   "testo": "rammollimento\nISO 5530-1\n48\nUB\nmax 70\nCONFORME\nGranulometria -\nresiduo su setaccio 200\num\nICC 207\n1,8\n%\nmax 3\nCONFORME\n3. MICOTOSSINE\nParametro\nMetodo\nLOQ\nRisultato\nUM\nLimite Reg. (UE)\n2023/915\nEsito\nDeossinivalenolo\n(DON)\nHPLC-MS/MS -\nMI-LAB-21 rev. 4\n100\n218\nug/kg\n750\nCONFORME\n\nMOLINO VENETO S.p.A. - Via Molini 18 - 37063 Isola della Scala (VR) - Laboratorio Controllo Qualita'\nCoA 2026/0429A - lotto MV26-0429A - pag. 2 - il presente certificato si riferisce esclusivamente al lotto indicato\npag. 2\nParametro\nMetodo\nLOQ\nRisultato\nUM\nLimite Reg. (UE)\n2023/915\nEsito\nOcratossina A\n(OTA)\nHPLC-FLD -\nMI-LAB-22 rev. 3\n0,5\n< LOQ\nug/kg\n3,0\nCONFORME\nZearalenone (ZEA)\nHPLC-MS/MS -\nMI-LAB-21 rev. 4\n20\n< LOQ\nug/kg\n75\nCONFORME\nAflatossine\nB1+B2+G1+G2\nHPLC-FLD -\nMI-LAB-23 rev. 2\n0,5\n< LOQ\nug/kg\n4,0 (somma)\nCONFORME\nLe analisi micotossine sono eseguite su campione composito del lotto\ndi macinazione secondo piano di campionamento interno conforme al\nReg. (CE) 401/2006.\n\nMOLINO VENETO S.p.A. - Via Molini 18 - 37063 Isola della Scala (VR) - Laboratorio Controllo Qualita'\nCoA 2026/0429A - lotto MV26-0429A - pag. 3 - il presente certificato si riferisce esclusivamente al lotto indicato\npag. 3"
+  },
+  {
+   "cid": 1722,
+   "file": "SKM_C224e26051412340.pdf",
+   "origine": "nativa",
+   "rerank": 0.7016074657440186,
+   "testo": "rammollimento\nISO 5530-1\n48\nUB\nmax 70\nCONFORME\nGranulometria -\nresiduo su setaccio 200\num\nICC 207\n1,8\n%\nmax 3\nCONFORME\n3. MICOTOSSINE\nParametro\nMetodo\nLOQ\nRisultato\nUM\nLimite Reg. (UE)\n2023/915\nEsito\nDeossinivalenolo\n(DON)\nHPLC-MS/MS -\nMI-LAB-21 rev. 4\n100\n218\nug/kg\n750\nCONFORME\n\nMOLINO VENETO S.p.A. - Via Molini 18 - 37063 Isola della Scala (VR) - Laboratorio Controllo Qualita'\nCoA 2026/0429A - lotto MV26-0429A - pag. 2 - il presente certificato si riferisce esclusivamente al lotto indicato\npag. 2\nParametro\nMetodo\nLOQ\nRisultato\nUM\nLimite Reg. (UE)\n2023/915\nEsito\nOcratossina A\n(OTA)\nHPLC-FLD -\nMI-LAB-22 rev. 3\n0,5\n< LOQ\nug/kg\n3,0\nCONFORME\nZearalenone (ZEA)\nHPLC-MS/MS -\nMI-LAB-21 rev. 4\n20\n< LOQ\nug/kg\n75\nCONFORME\nAflatossine\nB1+B2+G1+G2\nHPLC-FLD -\nMI-LAB-23 rev. 2\n0,5\n< LOQ\nug/kg\n4,0 (somma)\nCONFORME\nLe analisi micotossine sono eseguite su campione composito del lotto\ndi macinazione secondo piano di campionamento interno conforme al\nReg. (CE) 401/2006.\n\nMOLINO VENETO S.p.A. - Via Molini 18 - 37063 Isola della Scala (VR) - Laboratorio Controllo Qualita'\nCoA 2026/0429A - lotto MV26-0429A - pag. 3 - il presente certificato si riferisce esclusivamente al lotto indicato\npag. 3"
+  },
+  {
+   "cid": 546,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "origine": "nativa",
+   "rerank": 0.6676156520843506,
+   "testo": "INVENTARIO FISICO MAGAZZINI AL 31/05/2026 - logica FEFO - estratto gestionale + conta manuale;;;;;;;;;;;;\ncompilato: Faggionato N. + Trentin L. (valorizzazione);ultimo agg. 01/06/26 h 7.40;;;;;;;;;;;\nUbicazione;Cod_Art;Descrizione;Lotto;Data_arrivo;Scadenza/TMC;Giacenza;UM;Valore_unit_€;Valore_tot_€;Stato;gg_alla_scadenza;Note\nA-01-01;FAR-0-W300;Farina tipo 0 W300 sacco 25 kg;MV26-0402/B;2026-04-14;20/10/26;1.250;KG;0,52;650,00;OK;142;usare per prima - FEFO\nA-01-02;FAR-0-W300;Farina tipo 0 W300 sacco 25 kg;MV26-0429/A;04/05/26;30/10/26;3.975;KG;0,52;2.067,00;OK;152;1 sacco segregato (lacerato) v. riga sotto\nA-01-02;FAR-0-W300;Farina tipo 0 W300 sacco 25 kg - SEGREGATO;MV26-0430/A;04/05/26;01/11/26;25;KG;0,52;13,00;SEGREGATO;154;sacco rotto DDT 48392 - verificare con Marchetti prima di usare\nA-01-03;FAR-0-W300;Farina tipo 0 W300 sacco 25 kg;MV26-0429/B;04/05/26;30/10/26;2.000;KG;0,52;1.040,00;OK;152;\nA-01-04;FAR-0-W300;Farina tipo 0 W300 sacco 25 kg;MV26-0430/A;04/05/26;01/11/26;3.900;KG;0,52;2.028,00;OK;154;\nA-01-05;FAR-0-W300;Farina tipo 0 W300 sacco 25 kg;MV26-0431/A;04/05/26;02/11/26;2.000;KG;0,52;1.040,00;OK;155;"
+  },
+  {
+   "cid": 1129,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "origine": "nativa",
+   "rerank": 0.6663767695426941,
+   "testo": "revisione superata sono state ritirate, ad eccezione\n\nManuale HACCP rev.5 - pag. 14 di 78 - Doc. non controllato se stampato\n\n7. ANALISI DEI PERICOLI (Principio 1)\n\n7.1 Metodologia\nPer ciascuna fase del diagramma di flusso il Team ha identificato i pericoli Biologici\n(B), Chimici (C, inclusi allergeni ove pertinente come categoria a sé - A) e Fisici (F),\nvalutandone la significatività mediante stima di Probabilità (P) x Gravità (G), ciascuna\nsu scala 1-4:\nP: 1 = remota; 2 = occasionale; 3 = probabile; 4 = frequente\nG: 1 = trascurabile; 2 = moderata; 3 = grave; 4 = critica (pericolo di vita)\n\nMatrice di rischio R = P x G:\nR ≤ 3: pericolo non significativo, gestito da PRP;\n4 ≤ R ≤ 6: pericolo significativo, gestito da PRP rafforzato o PRPo;\nR ≥ 8: pericolo significativo, da sottoporre all'albero delle decisioni per\nl'individuazione di eventuale CCP.\n\n7.2 Estratto della tabella di analisi dei pericoli (tabella completa in All. 8)\n\nFase | Pericolo | Tipo | P | G | R | Misura di controllo\n01 Ricevimento | micotossine (DON, OTA) in farina | C | 2 | 3 | 6 | qualifica fornitore F0012 Molino Veneto, CoA per lotto, piano analisi"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4648,
+ "tempi": {
+  "denso": 0.04,
+  "sparso": 0.37,
+  "rerank": 56.93
+ },
+ "id": "Q031",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:14:13",
+ "secondi": 57.34,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 77.42,
+  "token_prompt": 2359,
+  "token_risposta": 62,
+  "testo_grezzo": "Non e' ricavabile dai documenti forniti la quantita di DON nella farina del lotto MV26-0429A.\n\nFONTI: certificato_analisi_lotto_farina_MV26_0429A.pdf, SKM_C224e26051412340.pdf",
+  "fonti_citate": [
+   "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "SKM_C224e26051412340.pdf"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

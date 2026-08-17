@@ -1,0 +1,678 @@
+{
+ "domanda": "Quali sono le aliquote contributive che ci applica l'INPS quest'anno?",
+ "candidati_densi": [
+  {
+   "cid": 243,
+   "punteggio": 0.5838590361251392,
+   "file": "Circolare_INPS_aliquote_contributive_2026.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 102,
+   "punteggio": 0.5038820723345306,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 244,
+   "punteggio": 0.5030288849298584,
+   "file": "Circolare_INPS_aliquote_contributive_2026.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 487,
+   "punteggio": 0.49234011620623797,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1519,
+   "punteggio": 0.4880096923996655,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1085,
+   "punteggio": 0.48523657030051004,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1623,
+   "punteggio": 0.48163146846277693,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 673,
+   "punteggio": 0.4770593916055389,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 503,
+   "punteggio": 0.47684584633075056,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 24,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1766,
+   "punteggio": 0.47617289925074047,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "idx": 27,
+   "origine": "nativa"
+  },
+  {
+   "cid": 496,
+   "punteggio": 0.4759785007374425,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 43,
+   "punteggio": 0.4750494580929144,
+   "file": "analisi_marginalita_per_referenza_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1620,
+   "punteggio": 0.4749056539518047,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1767,
+   "punteggio": 0.4728327531482188,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "idx": 28,
+   "origine": "nativa"
+  },
+  {
+   "cid": 912,
+   "punteggio": 0.4711911371344111,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 90,
+   "origine": "nativa"
+  },
+  {
+   "cid": 149,
+   "punteggio": 0.4707432595943425,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1212,
+   "punteggio": 0.46872951625742876,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 860,
+   "punteggio": 0.4687137609229003,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 38,
+   "origine": "nativa"
+  },
+  {
+   "cid": 916,
+   "punteggio": 0.4686259800557505,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 94,
+   "origine": "nativa"
+  },
+  {
+   "cid": 34,
+   "punteggio": 0.4676127525881284,
+   "file": "anagrafica_articoli_export_gestionale.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 243,
+   "punteggio": 28.9143009185791,
+   "file": "Circolare_INPS_aliquote_contributive_2026.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1109,
+   "punteggio": 24.079906463623047,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1119,
+   "punteggio": 18.365610122680664,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 505,
+   "punteggio": 16.15523338317871,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 510,
+   "punteggio": 16.13058853149414,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 9,
+   "punteggio": 15.95734691619873,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 618,
+   "punteggio": 15.829859733581543,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 122,
+   "punteggio": 15.180866241455078,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 528,
+   "punteggio": 14.825898170471191,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1527,
+   "punteggio": 14.74624252319336,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1812,
+   "punteggio": 14.462470054626465,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1835,
+   "punteggio": 14.343732833862305,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 431,
+   "punteggio": 14.085655212402344,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1213,
+   "punteggio": 13.779727935791016,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 27,
+   "punteggio": 13.444263458251953,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 25,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1108,
+   "punteggio": 13.069790840148926,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 8,
+   "punteggio": 12.645703315734863,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1142,
+   "punteggio": 12.611739158630371,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 24,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1423,
+   "punteggio": 12.496871948242188,
+   "file": "Prospetto_straordinari_gen-apr_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 534,
+   "punteggio": 12.315364837646484,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 4,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 243,
+   "file": "Circolare_INPS_aliquote_contributive_2026.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.03278688524590164,
+   "rango_denso": 1,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 102,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1109,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 244,
+   "file": "Circolare_INPS_aliquote_contributive_2026.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1119,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 487,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 505,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 510,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1519,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 9,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1085,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 618,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1623,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 122,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 673,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 503,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 24,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 528,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1527,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1766,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "idx": 27,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 496,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 17,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1812,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 43,
+   "file": "analisi_marginalita_per_referenza_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1835,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 243,
+   "file": "Circolare_INPS_aliquote_contributive_2026.txt",
+   "rerank": 0.4659281075000763
+  },
+  {
+   "cid": 122,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "rerank": 0.016394149512052536
+  },
+  {
+   "cid": 244,
+   "file": "Circolare_INPS_aliquote_contributive_2026.txt",
+   "rerank": 0.016020072624087334
+  },
+  {
+   "cid": 503,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "rerank": 0.005030535161495209
+  },
+  {
+   "cid": 496,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "rerank": 0.004391295835375786
+  },
+  {
+   "cid": 102,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "rerank": 0.0025829793885350227
+  },
+  {
+   "cid": 487,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "rerank": 0.002453318564221263
+  },
+  {
+   "cid": 1085,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.0018345830030739307
+  },
+  {
+   "cid": 9,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.001208125613629818
+  },
+  {
+   "cid": 1623,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "rerank": 0.0009297351934947073
+  },
+  {
+   "cid": 673,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "rerank": 0.0005656459834426641
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.00027331849560141563
+  },
+  {
+   "cid": 1527,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.000224760064156726
+  },
+  {
+   "cid": 1109,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.00019628855807241052
+  },
+  {
+   "cid": 528,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "rerank": 0.0001879805204225704
+  },
+  {
+   "cid": 618,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 8.440698002232239e-05
+  },
+  {
+   "cid": 43,
+   "file": "analisi_marginalita_per_referenza_2026.xlsx",
+   "rerank": 7.391817780444399e-05
+  },
+  {
+   "cid": 1519,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 6.345310976030305e-05
+  },
+  {
+   "cid": 1835,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 5.046210208092816e-05
+  },
+  {
+   "cid": 1812,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 4.695641837315634e-05
+  },
+  {
+   "cid": 1766,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "rerank": 2.540081914048642e-05
+  },
+  {
+   "cid": 505,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 1.950267869688105e-05
+  },
+  {
+   "cid": 510,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 1.8855251255445182e-05
+  },
+  {
+   "cid": 1119,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 1.8076334526995197e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 243,
+   "file": "Circolare_INPS_aliquote_contributive_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.4659281075000763,
+   "testo": "ISTITUTO NAZIONALE PREVIDENZA SOCIALE\nDirezione Centrale Entrate\n\nCircolare n. 18 del 03/02/2026\n\nOGGETTO: Aliquote contributive per l'anno 2026. Massimale annuo della base contributiva e\n         pensionabile. Minimale di retribuzione giornaliera. Aziende del settore industria.\n\n1. PREMESSA\nCon la presente circolare si comunicano i valori aggiornati per l'anno 2026 relativi al\nminimale di retribuzione giornaliera, al massimale annuo della base contributiva e\npensionabile, nonche' le aliquote contributive applicabili.\n\n2. MINIMALE DI RETRIBUZIONE GIORNALIERA\nIl minimale di retribuzione giornaliera per l'anno 2026 e' fissato in euro 55,84.\n\n3. MASSIMALE ANNUO\nIl massimale annuo della base contributiva e pensionabile di cui all'art. 2, comma 18, della\nlegge 8 agosto 1995, n. 335, e' pari per l'anno 2026 a euro 121.750,00.\n\n4. ALIQUOTE - AZIENDE INDUSTRIALI CON PIU' DI 15 DIPENDENTI\n   IVS                                        33,00%  (di cui 9,19% a carico del lavoratore)\n   CIGS                                        0,90%  (di cui 0,30% a carico del lavoratore)\n   Fondo garanzia TFR                          0,20%\n   CIG ordinaria (fino a 50 dipendenti)        1,70%"
+  },
+  {
+   "cid": 122,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "origine": "nativa",
+   "rerank": 0.016394149512052536,
+   "testo": "norma di legge. I criteri di valutazione non sono stati modificati rispetto\nall'esercizio precedente.\nCRITERI DI VALUTAZIONE\nImmobilizzazioni immateriali: iscritte al costo di acquisto comprensivo degli oneri\naccessori e ammortizzate sistematicamente in cinque esercizi. Le spese di manutenzione\nstraordinaria su beni di terzi sono ammortizzate nel minore periodo tra la residua\npossibilita' di utilizzazione e la durata del contratto.\nImmobilizzazioni materiali: iscritte al costo di acquisto, rettificato dai rispettivi\nfondi di ammortamento calcolati con le seguenti aliquote: fabbricati industriali 3%,\nimpianti e macchinari 10%, attrezzature 15%, mobili e macchine d'ufficio 12%,\nautomezzi 20%. Per i beni entrati in funzione nell'esercizio le aliquote sono ridotte\nalla meta'.\nRimanenze: valutate al minore tra il costo di acquisto, determinato con il metodo del\ncosto medio ponderato, e il valore di presumibile realizzo desumibile dall'andamento\ndel mercato.\nCrediti: iscritti secondo il presumibile valore di realizzo, previa svalutazione del\nfondo rischi su crediti pari a Euro 42.886.\nDebiti: iscritti al valore nominale."
+  },
+  {
+   "cid": 244,
+   "file": "Circolare_INPS_aliquote_contributive_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.016020072624087334,
+   "testo": "CIGS                                        0,90%  (di cui 0,30% a carico del lavoratore)\n   Fondo garanzia TFR                          0,20%\n   CIG ordinaria (fino a 50 dipendenti)        1,70%\n   Malattia                                    2,22%\n   Maternita'                                  0,46%\n   Disoccupazione (NASpI)                      1,61%\n   Contributo integrativo                      0,30%\n\n5. RIVALUTAZIONE TFR\nIl coefficiente di rivalutazione del TFR e' comunicato mensilmente sul sito istituzionale.\n\n6. ISTRUZIONI OPERATIVE\nLe aziende esporranno i dati nel flusso UniEmens secondo le consuete modalita'. Eventuali\nconguagli relativi ai periodi pregressi potranno essere effettuati entro il terzo mese\nsuccessivo a quello di pubblicazione della presente.\n\n                                                          Il Direttore Generale\n\n---------------- inoltrata da Studio Bellotto & Associati il 05/02/2026 ----------------\nBuongiorno rag. Trentin,\nle giro la circolare per gli adempimenti di gennaio. Nulla di stravolgente rispetto al 2025,\ncambiano solo minimale e massimale. Le elaborazioni le facciamo noi come sempre.\nCordiali saluti\nA. Bellotto"
+  },
+  {
+   "cid": 503,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "origine": "nativa",
+   "rerank": 0.005030535161495209,
+   "testo": "Linea Descrizione Qta UM Prezzo Totale IVA 1 AUDIT COMBINATO BRCGS ISSUE 9 + IFS FOOD V8 - 2 GG UOMO X 2 AUDITOR - QUOTA SCHEMA E ROYALTIES INCLUSE 1,00 CORPO 4.100,00 4.100,00 22% 2 SPESE VIAGGIO E TRASFERTA FORFAIT 1,00 CORPO 400,00 400,00 22%\nRiepilogo: Aliquota 22% Imponibile 4.500,00 Imposta 990,00\nTOTALE DOCUMENTO 5.490,00\nPagamento: MP05 bonifico 60gg df - scadenza 29-04-2026\n[pag. 1/1]\n\n=========================================================================\nFILE: NS_IT01455870483_00042.xml   NOTIFICA DI SCARTO   ricevuta il 19/05/2026\n=========================================================================\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ns3:RicevutaScarto xmlns:ns3=\"http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/messaggi/v1.0\">\n   <IdentificativoSdI>7716220981</IdentificativoSdI>\n   <NomeFile>IT01455870483_00042.xml</NomeFile>\n   <DataOraRicezione>2026-05-19T16:44:02.000+02:00</DataOraRicezione>\n   <ListaErrori>\n      <Errore>\n         <Codice>00301</Codice>\n         <Descrizione>00301 - Partita IVA cedente non valida : verifica anagrafica IdFiscaleIVA/IdCodice 01455870483 [EUROGLASS BOCCACCI S.R.L. - EMPOLI FI]</Descrizione>\n      </Errore>"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4678,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.16,
+  "rerank": 49.13
+ },
+ "id": "Q084",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:58:03",
+ "secondi": 49.31,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 58.05,
+  "token_prompt": 1830,
+  "token_risposta": 75,
+  "testo_grezzo": "Non e' possibile determinare le aliquote contributive applicabili per l'azienda, poiché il documento di scarto (file: NS_IT01455870483_00042.xml) contiene un errore di partita IVA cedente non valida, che impedisce di determinare la corretta aliquota contributiva.",
+  "fonti_citate": [],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

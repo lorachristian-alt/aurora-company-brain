@@ -1,0 +1,683 @@
+{
+ "domanda": "Possiamo ancora recuperare il prodotto sfuso a bordo linea sulla Linea 1?",
+ "candidati_densi": [
+  {
+   "cid": 1647,
+   "punteggio": 0.5603618206364669,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1202,
+   "punteggio": 0.5486692799622555,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 24,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1167,
+   "punteggio": 0.5472780509038879,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1302,
+   "punteggio": 0.5388921569245123,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 510,
+   "punteggio": 0.5386921506660022,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1462,
+   "punteggio": 0.5344209304881726,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 507,
+   "punteggio": 0.5324556381173082,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 563,
+   "punteggio": 0.5224590264520729,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 276,
+   "punteggio": 0.5222055222089262,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 511,
+   "punteggio": 0.5194597107230573,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1717,
+   "punteggio": 0.5189498372417738,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 514,
+   "punteggio": 0.5182048907873046,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1712,
+   "punteggio": 0.5167779237267303,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1577,
+   "punteggio": 0.5156167762134278,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1405,
+   "punteggio": 0.5149465365400906,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1187,
+   "punteggio": 0.5115997292488975,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 246,
+   "punteggio": 0.5111785843887353,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1301,
+   "punteggio": 0.5107942840929562,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1300,
+   "punteggio": 0.5090224947341904,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 389,
+   "punteggio": 0.5085638395404914,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1647,
+   "punteggio": 21.240814208984375,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1710,
+   "punteggio": 18.666183471679688,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1534,
+   "punteggio": 18.32069969177246,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 511,
+   "punteggio": 17.34439468383789,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1775,
+   "punteggio": 14.964859962463379,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1825,
+   "punteggio": 14.350190162658691,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1709,
+   "punteggio": 14.326942443847656,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 618,
+   "punteggio": 14.11439037322998,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1201,
+   "punteggio": 13.903849601745605,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 23,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1437,
+   "punteggio": 13.649113655090332,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 508,
+   "punteggio": 13.157875061035156,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 431,
+   "punteggio": 12.870222091674805,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 509,
+   "punteggio": 12.813288688659668,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1693,
+   "punteggio": 12.778241157531738,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1868,
+   "punteggio": 12.762253761291504,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1533,
+   "punteggio": 12.734622955322266,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1687,
+   "punteggio": 12.729207992553711,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 435,
+   "punteggio": 12.586198806762695,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1649,
+   "punteggio": 12.442181587219238,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 407,
+   "punteggio": 12.419377326965332,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 8,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1647,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.03278688524590164,
+   "rango_denso": 1,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 511,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.029910714285714284,
+   "rango_denso": 10,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1202,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 24,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1710,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1167,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1534,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1302,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 510,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1775,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1462,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1825,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 507,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1709,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 563,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 17,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 618,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 276,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1201,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 23,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1437,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 508,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1717,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 514,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 509,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1712,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1647,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "rerank": 0.9670798182487488
+  },
+  {
+   "cid": 1709,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.3990393280982971
+  },
+  {
+   "cid": 1534,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.3544841408729553
+  },
+  {
+   "cid": 1302,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "rerank": 0.17023321986198425
+  },
+  {
+   "cid": 1201,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.10189732909202576
+  },
+  {
+   "cid": 1775,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.07131164520978928
+  },
+  {
+   "cid": 511,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 0.058466892689466476
+  },
+  {
+   "cid": 1167,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "rerank": 0.050197891891002655
+  },
+  {
+   "cid": 507,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 0.049730334430933
+  },
+  {
+   "cid": 508,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 0.03568106144666672
+  },
+  {
+   "cid": 563,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "rerank": 0.03545846790075302
+  },
+  {
+   "cid": 618,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.027515217661857605
+  },
+  {
+   "cid": 1462,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.021979566663503647
+  },
+  {
+   "cid": 1202,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.021704772487282753
+  },
+  {
+   "cid": 510,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 0.011358864605426788
+  },
+  {
+   "cid": 514,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 0.006541538517922163
+  },
+  {
+   "cid": 1825,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "rerank": 0.004637204110622406
+  },
+  {
+   "cid": 509,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 0.004544372670352459
+  },
+  {
+   "cid": 1712,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.0020786714740097523
+  },
+  {
+   "cid": 1710,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.0016713747754693031
+  },
+  {
+   "cid": 1717,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.0014669751981273293
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.0011895224452018738
+  },
+  {
+   "cid": 276,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.00024068211496341974
+  },
+  {
+   "cid": 1437,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "rerank": 4.812388579011895e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1647,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "origine": "nativa",
+   "rerank": 0.9670798182487488,
+   "testo": "origine sul MOD-MAG-02.\n7.3 VIETATO il rework: da referenze contenenti sesamo verso qualunque altra\n    referenza; da convenzionale verso bio; da croissanteria (uovo, latte, soia)\n    verso Linea 1; di prodotto proveniente da lotti bloccati o oggetto di NC.\n7.4 Il rework di AF-SN-0450/0455 e' ammesso solo entro il turno di produzione e\n    solo per prodotto mai uscito dalla linea. E' tollerato il recupero a inizio\n    turno successivo se conservato coperto a bordo linea\n    [Commento: Vicentini C. - il rework su AF-SN-0450 va vietato: dopo l'evento del\n    lotto L26130 (frammento plastica azzurra, MD non in grado di rilevare materiale\n    non metallico) il recupero di prodotto sfuso a bordo linea e' un punto cieco.\n    Da portare in riesame straordinario del 05/06, intanto sospendere in via\n    cautelativa.]\n7.5 In attesa delle decisioni del riesame straordinario, il rework su Linea 1 e'\n    SOSPESO con disposizione verbale del DS del 26/05/2026.\n\n1. ETICHETTATURA PRECAUZIONALE (PAL)\n\n8.1 La dicitura \"Puo' contenere: ...\" si applica SOLO agli allergeni classificati\n    PC nella matrice del par. 3, a seguito di valutazione del rischio documentata."
+  },
+  {
+   "cid": 1709,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "origine": "nativa",
+   "rerank": 0.3990393280982971,
+   "testo": "> [messaggio]:\n> Buonasera scrivo perche sono MOLTO arrabbiata e anche spaventata. Oggi\n> pomeriggio mia figlia di 7 anni stava mangiando la merenda [...]\n\n________________________________________\n\nDa: Elena Marchetti <e.marchetti@aurorafoodgroup.it>\nA: Federica Sartori <f.sartori@aurorafoodgroup.it>; Silvia Bertoldi <s.bertoldi@aurorafoodgroup.it>\nCc: Marco Fantin <m.fantin@aurorafoodgroup.it>; Sara Pozzato <s.pozzato@aurorafoodgroup.it>\nInviato: mercoledì 13 maggio 2026 09:22\nOggetto: R: I: [SITO WEB] Nuovo messaggio dal form contatti - ID #4471 - APERTURA RECLAMO\n\nBuongiorno a tutti,\npresa in carico. Apro reclamo su MOD-QA-31, n. progressivo REC-2026-011,\nclassificazione: corpo estraneo - segnalazione consumatore - prodotto\nAF-SN-0450, lotto dichiarato L26130 (suffisso linea/turno non leggibile\ndal consumatore, DA VERIFICARE: quel giorno per l'AF-SN-0450 la produzione\nera solo su Linea 1, quindi con ogni probabilità L26130-L1-T2 o -T3 (il T1 ha confezionato con la valvola originale)).\n\nAzioni immediate:\n1. Sara: recuperare i controcampioni del lotto L26130 (entrambi i turni) e\n   ispezionarli; recuperare MOD-QA-07 (metal detector) e MOD-QA-12 del"
+  },
+  {
+   "cid": 1534,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "origine": "nativa",
+   "rerank": 0.3544841408729553,
+   "testo": "scartate x taratura gas. Collaudo: ricetta gas ok, saldatura ok.\n18:45 - riconsegna a produzione. Restato a bordo linea fino alle 19:30.\n\n4. PEZZI SCARTATI / PRODOTTO\n\n- confezioni scartate al riavvio (spurgo + taratura): 348 pz, bidone\n  scarto confezionato, registrate su modulo linea\n- prodotto sfuso rimasto fermo tra forno e confezionatrice durante il\n  fermo: parte ricircolata, parte a scarto (vedi conteggio produzione,\n  nn roba mia)\n- verifica O2 residuo su campioni post riavvio: fatta da QC (Pozzato)\n  lunedi mattina, valori ok da quel che so\n\n5. RICHIESTA ORDINE URGENTE (gia' inoltrata)\n\nRDA n. 2026/112 del 10/05 sera, urgente, appr. Fantin 11/05:\n- 1 x kit valvola iniezione N2 completo Pakmatic PK45-VN2-08, 1.240,00 €\n- 2 x serie guarnizioni testa saldante PKM-450 cod. PK45-GT-112 (quelle\n  in scadenzario da gennaio!!) 380,00 € /serie\n- 1 x revisione generale gruppo gas da tecnico Pakmatic in trasferta\n- scorta minima guarnizioni ORIGINALI da tenere in magazzino ricambi\n  (NON sul carrello, ho capito l'antifona)\nconsegna kit confermata 15/05, tecnico Pakmatic il 16/05 mattina.\n\n6. NOTE FINALI\n\nSostituzione definitiva programmata 15/05 sera a fine turno 2, fermo"
+  },
+  {
+   "cid": 1302,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "origine": "nativa",
+   "rerank": 0.17023321986198425,
+   "testo": "lun 11/05 Linea 1 T2 AF-SN-0450 ORD-T1161 9040 1250 5 5 recupero produzione persa per fermo PKM-450 del 10/05\nlun 11/05 Linea 2 T1 AF-CR-0215 ORD-T1273 6360 780 7 7 recupero produzione persa per fermo PKM-450 del 10/05\nlun 11/05 Linea 2 T2 AF-CR-0215 ORD-T1165 6660 780 7 7 recupero produzione persa per fermo PKM-450 del 10/05\nlun 11/05 Linea 2 T3 AF-CR-0215 ORD-T1409 6020 780 7 7 recupero produzione persa per fermo PKM-450 del 10/05\nlun 11/05 Linea 3 T1 AF-CR-0212 ORD-T1169 5180 640 4 4 recupero produzione persa per fermo PKM-450 del 10/05\nmar 12/05 Linea 1 T1 AF-SN-0450 ORD-T1146 8100 1250 5 5\nmar 12/05 Linea 1 T2 AF-SN-0450 ORD-T1122 5540 1250 5 5\nmar 12/05 Linea 2 T1 AF-CR-0215 ORD-T1124 7800 780 7 7\nmar 12/05 Linea 2 T2 AF-CR-0215 ORD-T1355 7080 780 7 7\nmar 12/05 Linea 2 T3 AF-CR-0215 ORD-T1193 5400 780 7 7\nmar 12/05 Linea 3 T1 AF-CR-0212 ORD-T1374 5260 640 4 4\nmer 13/05 Linea 1 T1 AF-SN-0450 ORD-T1213 6620 1250 5 5\nmer 13/05 Linea 1 T2 AF-SN-0450 ORD-T1278 3560 1250 5 5\nmer 13/05 Linea 2 T1 AF-CR-0215 ORD-T1120 8220 780 7 7\nmer 13/05 Linea 2 T2 AF-CR-0215 ORD-T1308 6720 780 7 7\nmer 13/05 Linea 2 T3 AF-CR-0215 ORD-T1236 4180 780 7 7"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4673,
+ "tempi": {
+  "denso": 0.01,
+  "sparso": 0.17,
+  "rerank": 44.76
+ },
+ "id": "Q192",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:21:03",
+ "secondi": 44.94,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 109.51,
+  "token_prompt": 2150,
+  "token_risposta": 200,
+  "testo_grezzo": "Non e' possibile determinare se il rework su AF-SN-0450 e' ammesso o sospeso, poiché i passaggi 7.3 e 7.5 si contraddicono.\n\nLa dicitura \"Puo' contenere: ...\" si applica SOLO agli allergeni classificati PC nella matrice del par. 3, a seguito di valutazione del rischio documentata.\n\nNon e' possibile determinare se il prodotto sfuso a bordo linea sulla Linea 1 puo' essere recuperato, poiché il passaggio 7.4 non fornisce informazioni sufficienti.\n\nFONTI: scheda_allergeni_matrice_cross_contamination.docx, segnalazione_qualita_cliente_privato_corpo_estraneo.txt, report_fermo_macchina_confezionatrice_MAP.txt, piano_produzione_settimanale_sett19_21.xlsx",
+  "fonti_citate": [
+   "scheda_allergeni_matrice_cross_contamination.docx",
+   "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "report_fermo_macchina_confezionatrice_MAP.txt",
+   "piano_produzione_settimanale_sett19_21.xlsx"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

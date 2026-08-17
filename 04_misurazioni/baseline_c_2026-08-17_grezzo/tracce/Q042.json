@@ -1,0 +1,681 @@
+{
+ "domanda": "Chi è il nostro revisore e quanto ci costa?",
+ "candidati_densi": [
+  {
+   "cid": 124,
+   "punteggio": 0.5421583667614929,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1781,
+   "punteggio": 0.5338823476914055,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 324,
+   "punteggio": 0.5275136055936367,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1523,
+   "punteggio": 0.526580955239473,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1526,
+   "punteggio": 0.5235931625652093,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1525,
+   "punteggio": 0.5171552569451121,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1893,
+   "punteggio": 0.5165269240417564,
+   "file": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1524,
+   "punteggio": 0.5095007085507076,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1522,
+   "punteggio": 0.5090569662018237,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1792,
+   "punteggio": 0.5032872615953394,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1114,
+   "punteggio": 0.5025132290835979,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1366,
+   "punteggio": 0.5024829558823213,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1364,
+   "punteggio": 0.5002192796321427,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1520,
+   "punteggio": 0.4970341827582554,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1517,
+   "punteggio": 0.4968828044128947,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1332,
+   "punteggio": 0.4941734494896901,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1365,
+   "punteggio": 0.49249195751660363,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 663,
+   "punteggio": 0.48767377435884673,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1877,
+   "punteggio": 0.48375316856780953,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 528,
+   "punteggio": 0.48236899396334826,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 4,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1366,
+   "punteggio": 25.49034881591797,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1781,
+   "punteggio": 21.635990142822266,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 512,
+   "punteggio": 19.112911224365234,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 618,
+   "punteggio": 18.632648468017578,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1792,
+   "punteggio": 17.34307098388672,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 506,
+   "punteggio": 16.54404067993164,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1108,
+   "punteggio": 16.2405948638916,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1588,
+   "punteggio": 15.645586967468262,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "idx": 24,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1711,
+   "punteggio": 14.932554244995117,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1410,
+   "punteggio": 14.372429847717285,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 515,
+   "punteggio": 14.116201400756836,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 508,
+   "punteggio": 13.894397735595703,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1117,
+   "punteggio": 13.503887176513672,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1110,
+   "punteggio": 13.388824462890625,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 434,
+   "punteggio": 13.107256889343262,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1712,
+   "punteggio": 12.849620819091797,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 275,
+   "punteggio": 12.256543159484863,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1365,
+   "punteggio": 12.14750862121582,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1893,
+   "punteggio": 12.105161666870117,
+   "file": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1116,
+   "punteggio": 11.959915161132812,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 9,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.03225806451612903,
+   "rango_denso": 2,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.03028233151183971,
+   "rango_denso": 12,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1792,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.02967032967032967,
+   "rango_denso": 10,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1893,
+   "file": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.027583600982429624,
+   "rango_denso": 7,
+   "rango_sparso": 19
+  },
+  {
+   "cid": 1365,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.025807525807525808,
+   "rango_denso": 17,
+   "rango_sparso": 18
+  },
+  {
+   "cid": 124,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 324,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 512,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 618,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1523,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1526,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 506,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1525,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1108,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1524,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1588,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "idx": 24,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1522,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1711,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1410,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 515,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1114,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 508,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1117,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1364,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 124,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "rerank": 0.019424425438046455
+  },
+  {
+   "cid": 1893,
+   "file": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "rerank": 0.0048622325994074345
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0029239514842629433
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.001609883620403707
+  },
+  {
+   "cid": 1524,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.0009468136122450233
+  },
+  {
+   "cid": 1364,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.0008017313084565103
+  },
+  {
+   "cid": 1792,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0004194711218588054
+  },
+  {
+   "cid": 324,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.0003892762470059097
+  },
+  {
+   "cid": 1525,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.0003358034591656178
+  },
+  {
+   "cid": 1365,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.0003252857131883502
+  },
+  {
+   "cid": 1114,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.00025543689844198525
+  },
+  {
+   "cid": 1588,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "rerank": 0.00024266605032607913
+  },
+  {
+   "cid": 1522,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.0002301970380358398
+  },
+  {
+   "cid": 618,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.0001619579124962911
+  },
+  {
+   "cid": 1523,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.00014501232362817973
+  },
+  {
+   "cid": 1410,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.0001332451938651502
+  },
+  {
+   "cid": 1711,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.00011645579797914252
+  },
+  {
+   "cid": 1526,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 7.75457956478931e-05
+  },
+  {
+   "cid": 512,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 5.6783399486448616e-05
+  },
+  {
+   "cid": 1117,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 3.640493378043175e-05
+  },
+  {
+   "cid": 1108,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 3.2347001251764596e-05
+  },
+  {
+   "cid": 515,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 2.955337185994722e-05
+  },
+  {
+   "cid": 508,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 2.5219309463864192e-05
+  },
+  {
+   "cid": 506,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 1.6922689610510133e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 124,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "origine": "nativa",
+   "rerank": 0.019424425438046455,
+   "testo": "0\n3.005.231\nORGANO DI CONTROLLO\nIn conseguenza del superamento, per due esercizi consecutivi, dei limiti di cui\nall'art. 2477, comma 2, lettera c) del codice civile, l'assemblea dei soci del\n14/05/2024 ha nominato il Revisore Legale unico nella persona del dott. Maurizio\nPeruzzi, iscritto al Registro dei Revisori Legali al n. 118442. Il compenso annuo\ndeliberato ammonta a Euro 9.500 oltre oneri di legge. La relazione del revisore e'\ndepositata unitamente al presente bilancio.\nDIPENDENTI\nIl numero medio dei dipendenti nel corso dell'esercizio, ripartito per categoria, e'\nstato il seguente: dirigenti 0; quadri 2; impiegati 10; operai 36. Numero medio\n\nAURORA FOOD GROUP S.R.L. - Via dell'Industria 27, 37044 Cologna Veneta (VR) - P.IVA 03984710230\nBilancio al 31/12/2025 - forma abbreviata art. 2435-bis c.c. - pag. 5 - Reg. Imprese VR n. 03984710230\npag. 5\ncomplessivo 48 (esercizio precedente 45).\nCOMPENSI AGLI AMMINISTRATORI\nI compensi spettanti agli amministratori ammontano a Euro 96.000. La societa' non ha\ncorrisposto compensi a sindaci ne' anticipazioni o crediti agli amministratori.\nFATTI DI RILIEVO AVVENUTI DOPO LA CHIUSURA DELL'ESERCIZIO"
+  },
+  {
+   "cid": 1893,
+   "file": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "origine": "nativa",
+   "rerank": 0.0048622325994074345,
+   "testo": "fronte ai terzi ed in giudizio; tutti i\n                                   poteri di ordinaria e straordinaria\n                                   amministrazione, con esclusione di\n                                   acquisto e vendita di immobili e\n                                   prestazione di garanzie oltre Euro\n                                   1.000.000,00, riservati al C.d.A.\nPoteri del Consigliere Delegato    ordinaria amministrazione limitatamente\n                                   all'area commerciale e vendite, con\n                                   firma singola sino ad Euro 150.000,00\n                                   per singolo atto\nOrgano di controllo                REVISORE LEGALE (nominato ex art. 2477\n                                   c.c. con verbale del 28/04/2025)\nCarica\nNominativo\nIscrizione\nDurata\nRevisore legale\nPERUFFO MARIA GRAZIA nata a\nVicenza (VI) il 08/11/1971\nRegistro revisori legali n.\n148223 D.M. 07/06/1999\nfino approvazione bilancio\n31/12/2027\n5. TITOLARI DI ALTRE CARICHE O QUALIFICHE\nCarica\nNominativo\nEstremi atto\nProcuratore speciale\nFANTIN MARCO nato a Este (PD) il\n30/05/1975"
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.0029239514842629433,
+   "testo": "[00:07:10] PARLANTE_3: e se invece e nostra e aspettiamo e nel frattempo un bambino si rompe un dente chi va a firmare marco tu o io\n[00:07:16] PARLANTE_2: [incomprensibile]\n[00:07:18] PARLANTE_1: [rumore di sedia] calmi\n[00:07:21] PARLANTE_4: la via di mezzo c'e si chiama ritiro cautelativo lo vestiamo da eccesso di prudenza verso il cliente non da ammissione\n[00:07:28] PARLANTE_1: quanto ci costa\n[00:07:30] PARLANTE_6: nicola ha fatto un conto veloce tra logistica smaltimento riaccrediti e il lavoro nostro siamo sull'ordine dei trentamila trentacinquemila\n[00:07:38] PARLANTE_5: trentunmilacinquecento per la precisione e l'ho messo su un foglio che vi giro dopo (con dentro anche il trasporto di ritorno che nicola si era dimenticato)\n[00:07:46] PARLANTE_1: trentunmila e cinque proprio nel mese che dobbiamo dare l'acconto a crio tec\n[00:07:51] PARLANTE_5: eh appunto volevo arrivarci io giancarlo posso dire due cose sulla cassa\n[00:07:55] PARLANTE_1: di pure luisa tanto ormai\n[00:07:58] PARLANTE_5: allora l'acconto sul tunnel a spirale e il trenta per cento di duecentonovantamila quindi ottantasettemila euro e crio tec li vuole entro fine maggio se no slitta la consegna"
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "origine": "nativa",
+   "rerank": 0.001609883620403707,
+   "testo": "SAP e' piu' vicino al nostro commercialista. Decidere COSA ci serve prima\n   di decidere QUALE compriamo.\n3) Migrazione dati: tutti e due la stimano senza aver visto i ns. dati.\n   8-12 giornate per migrare 30 anni di excel della Trentin e' fantascienza,\n   quando apriranno i file capiranno. Prevedo raddoppio della voce.\n4) La cosa che non ho detto a nessuno dei due: prima dell'ERP ci serve\n   mettere ordine nei DOCUMENTI e nei processi. Se digitalizziamo il caos\n   otteniamo caos digitale, pagato 400.000 euro.\n5) Tempi: gennaio 2027 col trasloco magazzino eventuale + ispezione chiusa +\n   Criotech in montaggio a settembre = follia. Se ne parla per un go-live\n   a meta' 2027, con calma.\n\nMF\n\n=================================================================\nDomanda del titolare (riportata da Federica, mail del 17/05):\n=================================================================\n\n\"il bertoldi ha letto la comparativa e chiede: MA IN SOLDONI quanto mi costa\nal mese tutto compreso uno e quanto l altro, un numero solo per ciascuno,\ne chi dei due viene qui quando si blocca tutto alle 5 di mattina che stiamo\ncaricando i camion per il cedi. queste due cose. il resto dice che sono"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4671,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.19,
+  "rerank": 41.81
+ },
+ "id": "Q042",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:22:04",
+ "secondi": 42.02,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 58.04,
+  "token_prompt": 1828,
+  "token_risposta": 69,
+  "testo_grezzo": "Il nostro revisore legale è il dott. Maurizio Peruzzi, con un compenso annuo di Euro 9.500 oltre oneri di legge.\n\nFONTI: bilancio_esercizio_2025_deposito_CCIAA.pdf, visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+  "fonti_citate": [
+   "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "visura_camerale_ordinaria_AuroraFoodGroup.pdf"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

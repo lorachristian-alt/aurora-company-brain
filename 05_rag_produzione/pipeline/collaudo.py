@@ -20,7 +20,15 @@ veder tornare da quella ricerca. Un `atteso` mancato si scrive nel rapporto e ba
 
 Uso:
     python pipeline\\collaudo.py --solo-recupero     # non serve Ollama
-    python pipeline\\collaudo.py                     # catena intera
+    python pipeline\\collaudo.py --solo-generazione  # rilegge le tracce e genera
+    python pipeline\\collaudo.py                     # catena intera, in un colpo
+
+⚠️ Sui TEMPI, e non e' un dettaglio. `--solo-recupero` e `--solo-generazione` misurano
+le stesse condizioni delle passate del runner: un solo protagonista in memoria. La
+catena intera in un colpo tiene invece embedder, reranker e Ollama vivi insieme, e su 8
+GB di RAM i suoi tempi dicono quanto pagina la macchina, non quanto costa la pipeline.
+Per il verbale valgono i due tempi separati; quello intero serve solo a dimostrare che
+la catena gira dall'inizio alla fine.
 """
 
 import argparse
@@ -69,9 +77,77 @@ DOMANDE = [
 ]
 
 
+def solo_generazione(cfg, uscita, impronta):
+    """Rilegge le tracce del recupero e genera: in memoria c'e' solo Ollama, cioe' le
+    stesse condizioni della passata 2 del runner. E' da qui che esce la stima onesta
+    dei tempi della generazione."""
+    gen = Generatore(cfg)
+    ok, info = gen.disponibile()
+    if not ok:
+        sys.exit("Ollama: %s" % (info,))
+    print("Ollama: %s disponibile" % cfg["generazione"]["modello"])
+
+    esiti = []
+    for d in DOMANDE:
+        f = uscita / "tracce" / ("collaudo_%02d.json" % d["n"])
+        if not f.exists():
+            sys.exit("manca %s: lancia prima --solo-recupero" % f.name)
+        tr = json.loads(f.read_text(encoding="utf-8"))
+        pas = tr["passaggi_consegnati"]
+        out = gen.genera(costruisci_prompt(d["domanda"], pas, cfg))
+        risposta, fonti, conf, fuori = estrai_campi(out["testo"], pas)
+        tr["generazione"] = dict(out, fonti_citate=fonti, fonti_fuori_contesto=fuori,
+                                 confidenza=conf)
+        tr["config_c"] = impronta
+        f.write_text(json.dumps(tr, ensure_ascii=False, indent=1), encoding="utf-8")
+        esiti.append({"n": d["n"], "che_prova": d["che_prova"],
+                      "secondi_generazione": out["secondi"],
+                      "token_prompt": out["token_prompt"],
+                      "token_risposta": out["token_risposta"],
+                      "fonti_citate": fonti, "fonti_fuori_contesto": fuori,
+                      "confidenza": conf, "risposta_vuota": not bool(risposta),
+                      "caratteri_risposta": len(risposta)})
+        print("[%2d] %-46s  %6.1fs  %5s token prompt  %4s uscita  fonti %d%s"
+              % (d["n"], d["che_prova"], out["secondi"], out["token_prompt"],
+                 out["token_risposta"], len(fonti),
+                 "  ⚠ FUORI CONTESTO" if fuori else ""))
+
+    t = [e["secondi_generazione"] for e in esiti]
+    tp = [e["token_prompt"] for e in esiti if e["token_prompt"]]
+    rapporto = {
+        "quando": datetime.now().isoformat(timespec="seconds"),
+        "config_c": impronta,
+        "fase": "solo generazione (condizioni della passata 2)",
+        "domande": len(esiti),
+        "secondi_medi": round(sum(t) / len(t), 2),
+        "secondi_min": round(min(t), 2), "secondi_max": round(max(t), 2),
+        "stima_282_ore": round(sum(t) / len(t) * 282 / 3600, 2),
+        "token_prompt_max": max(tp) if tp else None,
+        "num_ctx": cfg["generazione"]["num_ctx"],
+        "risposte_vuote": sum(1 for e in esiti if e["risposta_vuota"]),
+        "risposte_senza_fonti": sum(1 for e in esiti if not e["fonti_citate"]),
+        "risposte_con_fonti_fuori_contesto": sum(1 for e in esiti
+                                                 if e["fonti_fuori_contesto"]),
+        "esiti": esiti,
+    }
+    (uscita / "rapporto_generazione.json").write_text(
+        json.dumps(rapporto, ensure_ascii=False, indent=1), encoding="utf-8")
+    print("\n--- sonda della generazione (solo Ollama in memoria) ---")
+    print("medio %.1fs (min %.1f max %.1f)  ->  282 domande = %.2f h"
+          % (rapporto["secondi_medi"], rapporto["secondi_min"],
+             rapporto["secondi_max"], rapporto["stima_282_ore"]))
+    print("token del prompt piu' lungo: %s su num_ctx %d"
+          % (rapporto["token_prompt_max"], rapporto["num_ctx"]))
+    print("risposte vuote %d · senza fonti %d · con fonti fuori contesto %d"
+          % (rapporto["risposte_vuote"], rapporto["risposte_senza_fonti"],
+             rapporto["risposte_con_fonti_fuori_contesto"]))
+    print("scritto %s" % (uscita / "rapporto_generazione.json"))
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--solo-recupero", action="store_true")
+    ap.add_argument("--solo-generazione", action="store_true")
     ap.add_argument("--uscita", default=None)
     a = ap.parse_args()
     sys.stdout.reconfigure(line_buffering=True)
@@ -83,6 +159,9 @@ def main():
 
     uscita = Path(a.uscita or (comune.BASE / "collaudo"))
     (uscita / "tracce").mkdir(parents=True, exist_ok=True)
+
+    if a.solo_generazione:
+        return solo_generazione(cfg, uscita, impronta)
 
     gen = None
     if not a.solo_recupero:

@@ -1,0 +1,681 @@
+{
+ "domanda": "Quanti estintori e quanti idranti risultano censiti nel certificato antincendio?",
+ "candidati_densi": [
+  {
+   "cid": 341,
+   "punteggio": 0.608987238977166,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1476,
+   "punteggio": 0.5700223511830923,
+   "file": "registro_estintori_scadenze.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 343,
+   "punteggio": 0.5445766828132229,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 342,
+   "punteggio": 0.5373489925704026,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 344,
+   "punteggio": 0.5205158363220921,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 347,
+   "punteggio": 0.5107956470800713,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1239,
+   "punteggio": 0.5025900782971131,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 320,
+   "punteggio": 0.47519389691339237,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1880,
+   "punteggio": 0.4678549320975137,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 340,
+   "punteggio": 0.46719148553150064,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 131,
+   "punteggio": 0.4654343281263198,
+   "file": "bolla_ingresso_azoto_alimentare_Nordgas_OCR.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1843,
+   "punteggio": 0.46349444763363407,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1673,
+   "punteggio": 0.4587181432853948,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1280,
+   "punteggio": 0.4584194394648099,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1517,
+   "punteggio": 0.4562155500389323,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 346,
+   "punteggio": 0.4534176159016749,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1207,
+   "punteggio": 0.4502108335128846,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 29,
+   "origine": "nativa"
+  },
+  {
+   "cid": 40,
+   "punteggio": 0.4484592215410973,
+   "file": "analisi_acque_reflue_autocontrollo_2026.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1802,
+   "punteggio": 0.44405305255920746,
+   "file": "verbale_assemblea_condominio_capannone.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1522,
+   "punteggio": 0.4436427398390217,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 8,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 342,
+   "punteggio": 30.746662139892578,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 346,
+   "punteggio": 24.873374938964844,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 341,
+   "punteggio": 20.987211227416992,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 343,
+   "punteggio": 19.88785171508789,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1662,
+   "punteggio": 19.22104263305664,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1476,
+   "punteggio": 16.82871437072754,
+   "file": "registro_estintori_scadenze.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 347,
+   "punteggio": 15.347416877746582,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 340,
+   "punteggio": 14.34219741821289,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 616,
+   "punteggio": 9.380093574523926,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1851,
+   "punteggio": 9.180376052856445,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 338,
+   "punteggio": 8.90723705291748,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1547,
+   "punteggio": 8.578042030334473,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 214,
+   "punteggio": 8.387210845947266,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1725,
+   "punteggio": 8.387210845947266,
+   "file": "SKM_C224e26051412340.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1649,
+   "punteggio": 8.225357055664062,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1139,
+   "punteggio": 8.11059856414795,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 21,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1099,
+   "punteggio": 7.966166973114014,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1557,
+   "punteggio": 7.831625938415527,
+   "file": "ricetta_base_esperimento_snack_salato_v12.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 219,
+   "punteggio": 7.674980163574219,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 344,
+   "punteggio": 7.614316940307617,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 341,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.032266458495966696,
+   "rango_denso": 1,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 342,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.032018442622950824,
+   "rango_denso": 4,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 343,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.03149801587301587,
+   "rango_denso": 3,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1476,
+   "file": "registro_estintori_scadenze.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.03128054740957967,
+   "rango_denso": 2,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 347,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.03007688828584351,
+   "rango_denso": 6,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 346,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.02928692699490662,
+   "rango_denso": 16,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 340,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.028991596638655463,
+   "rango_denso": 10,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 344,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.027884615384615386,
+   "rango_denso": 5,
+   "rango_sparso": 20
+  },
+  {
+   "cid": 1662,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1239,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 320,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 616,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1880,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1851,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 131,
+   "file": "bolla_ingresso_azoto_alimentare_Nordgas_OCR.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 338,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1547,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1843,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 214,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1673,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1280,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1725,
+   "file": "SKM_C224e26051412340.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 1517,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": 15,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1649,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": null,
+   "rango_sparso": 15
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 342,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "rerank": 0.665878176689148
+  },
+  {
+   "cid": 1476,
+   "file": "registro_estintori_scadenze.csv",
+   "rerank": 0.5883023738861084
+  },
+  {
+   "cid": 341,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "rerank": 0.4598853290081024
+  },
+  {
+   "cid": 346,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "rerank": 0.3233887851238251
+  },
+  {
+   "cid": 343,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "rerank": 0.25249218940734863
+  },
+  {
+   "cid": 1662,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "rerank": 0.1570713371038437
+  },
+  {
+   "cid": 347,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "rerank": 0.053340233862400055
+  },
+  {
+   "cid": 340,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "rerank": 0.0476948581635952
+  },
+  {
+   "cid": 1673,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "rerank": 0.017951374873518944
+  },
+  {
+   "cid": 344,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "rerank": 0.008801606483757496
+  },
+  {
+   "cid": 338,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "rerank": 0.004432142712175846
+  },
+  {
+   "cid": 131,
+   "file": "bolla_ingresso_azoto_alimentare_Nordgas_OCR.txt",
+   "rerank": 0.001642741379328072
+  },
+  {
+   "cid": 616,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.0008959297556430101
+  },
+  {
+   "cid": 320,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.0007605912978760898
+  },
+  {
+   "cid": 1649,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "rerank": 0.0004909270792268217
+  },
+  {
+   "cid": 1880,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "rerank": 0.0003564460785128176
+  },
+  {
+   "cid": 1843,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "rerank": 0.00029641680885106325
+  },
+  {
+   "cid": 1239,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.000284674228169024
+  },
+  {
+   "cid": 214,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "rerank": 0.0001564939448144287
+  },
+  {
+   "cid": 1725,
+   "file": "SKM_C224e26051412340.pdf",
+   "rerank": 0.0001564939448144287
+  },
+  {
+   "cid": 1851,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.0001299382420256734
+  },
+  {
+   "cid": 1280,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "rerank": 0.0001038490590872243
+  },
+  {
+   "cid": 1517,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 6.546382792294025e-05
+  },
+  {
+   "cid": 1547,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "rerank": 4.9515580030856654e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 342,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "origine": "nativa",
+   "rerank": 0.665878176689148,
+   "testo": "Validita': anni 5 dalla data di presentazione della SCIA.\nSCADENZA ATTESTAZIONE DI RINNOVO PERIODICO: 14/09/2026.\nIl rinnovo periodico di conformita' antincendio andra' richiesto ex art. 5 DPR 151/2011 con\ndichiarazione di assenza di variazioni delle condizioni di sicurezza antincendio e\nasseverazione di un professionista antincendio circa l'efficienza dei dispositivi, dei sistemi\ne degli impianti finalizzati alla protezione attiva, con esclusione delle attrezzature mobili\ndi estinzione (per le quali resta l'obbligo di sorveglianza e controllo periodico ex D.M.\n1/09/2021).\n\nMINISTERO DELL'INTERNO - COMANDO VIGILI DEL FUOCO DI VERONA - Pratica n. 28714\nPratica VV.F. 28714 - Aurora Food Group S.r.l. - Cologna Veneta (VR) - pag. 3\npag. 3\n4. PRESIDI ANTINCENDIO CENSITI (allegato al verbale)\nPresidio\nTipo/Norma\nQuantita'\nUbicazione\nControllo\nEstintori portatili\npolvere 6 kg\n34A 233B C - UNI EN\n3-7\n38\nreparti produzione,\nmagazzini, uffici\nsemestrale D.M.\n1/09/2021\nEstintori portatili\nCO2 5 kg\n113B - UNI EN 3-7\n8\nquadri elettrici,\ncabina MT, sala\ncompressori\nsemestrale\nEstintori carrellati\npolvere 30 kg\nA B1 C\n2\ndeposito esterno, area\ngruppo elettrogeno\nsemestrale\nRete idranti UNI 45"
+  },
+  {
+   "cid": 1476,
+   "file": "registro_estintori_scadenze.csv",
+   "origine": "nativa",
+   "rerank": 0.5883023738861084,
+   "testo": "REGISTRO ANTINCENDIO - ESTINTORI E IDRANTI;;;;;;\nditta manutentrice: Antincendio Scaligera srl - Legnago (VR);;;;;;\n;;;;;;\nn.;tipo;capacità;ubicazione;ultima revisione;prossima scadenza;esito\n1;polvere ABC;6 kg;portineria;12/11/2025;12/05/2026;OK\n2;polvere ABC;6 kg;uffici piano 1 - corridoio;12/11/2025;12/05/2026;OK\n3;CO2;5 kg;quadro elettrico generale;12/11/2025;12/05/2026;OK\n4;polvere ABC;6 kg;spogliatoi;12/11/2025;12/05/2026;OK\n5;polvere ABC;9 kg;magazzino MP - lato nord;12/11/2025;12/05/2026;OK\n6;polvere ABC;9 kg;magazzino MP - lato sud;12/11/2025;12/05/2026;OK\n7;CO2;5 kg;quadro linea 1;12/11/2025;12/05/2026;OK\n8;polvere ABC;6 kg;linea 1 - uscita forno;12/11/2025;12/05/2026;manometro cambià\n9;polvere ABC;6 kg;linea 2;12/11/2025;12/05/2026;OK\n10;CO2;5 kg;quadro linea 2;12/11/2025;12/05/2026;OK\n11;polvere ABC;9 kg;linea 3 / cella;12/11/2025;12/05/2026;OK\n12;CO2;5 kg;sala compressori;12/11/2025;12/05/2026;OK\n13;polvere ABC;6 kg;officina;12/11/2025;12/05/2026;giu de pressione, ricaricà\n14;polvere ABC;6 kg;mensa;12/11/2025;12/05/2026;OK\n15;polvere ABC;9 kg;magazzino PF;12/11/2025;12/05/2026;OK\n16;CO2;5 kg;locale CED;12/11/2025;12/05/2026;OK"
+  },
+  {
+   "cid": 341,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "origine": "nativa",
+   "rerank": 0.4598853290081024,
+   "testo": "- dichiarazioni di corretta installazione e funzionamento degli impianti rilevanti ai fini\n  della sicurezza antincendio (mod. DICH.IMP.): rete idranti, impianto di rivelazione fumi,\n  impianto elettrico di sicurezza, evacuatori di fumo e calore;\n- certificato di collaudo rete idranti a firma ing. Dal Cero (portata 120 l/min per idrante\n  UNI 45, pressione residua 2,4 bar con 3 idranti in erogazione, alimentazione da riserva\n  idrica 36 m3 con gruppo di pressurizzazione UNI EN 12845).\n3. VERBALE DI VISITA TECNICA\nIn data 28/09/2021 i sottoscritti funzionari incaricati, D.C.S. ing. Federico Ambrosini e\nC.R. geom. Paolo Segala, hanno effettuato sopralluogo presso l'attivita' in oggetto ai sensi\ndell'art. 4 c. 2 del DPR 151/2011, riscontrando la conformita' dello stato dei luoghi alla\ndocumentazione agli atti e la sussistenza dei requisiti di sicurezza antincendio.\nESITO: FAVOREVOLE.\nSi rilascia contestualmente, per l'attivita' n. 74.3.C, copia del presente verbale valevole\nquale CERTIFICATO DI PREVENZIONE INCENDI ai sensi dell'art. 16 c. 9 del D.Lgs. 139/2006.\nValidita': anni 5 dalla data di presentazione della SCIA.\nSCADENZA ATTESTAZIONE DI RINNOVO PERIODICO: 14/09/2026."
+  },
+  {
+   "cid": 346,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "origine": "nativa",
+   "rerank": 0.3233887851238251,
+   "testo": "(scadenza 14/09/2026), che dalla data di presentazione della SCIA (14/09/2021) ad oggi non\nsono intervenute modifiche che comportino aggravio delle preesistenti condizioni di sicurezza\nantincendio, fatte salve le seguenti variazioni non rilevanti gia' valutate dal professionista\nantincendio incaricato:\n- sostituzione di corpi illuminanti con apparecchi LED nel reparto confezionamento (04/2026);\n- installazione programmata del tunnel di surgelazione a spirale Criotech CR-SP180 in\n  sostituzione del tunnel a piastre TS-01 (fluido frigorigeno non infiammabile; pratica di\n  valutazione ex art. 4 c. 6 in corso di predisposizione a cura dell'ing. Dal Cero, che ne\n  ha preliminarmente escluso l'aggravio ai fini dell'attivita' 74).\nSi allega: contratto di manutenzione presidi antincendio con ditta Antincendi Scaligeri S.n.c.\n(Verona), n. AS-2024-118, comprensivo di controlli semestrali estintori, idranti, EFC e\nilluminazione di sicurezza; ultimo verbale di controllo semestrale del 12/03/2026 con esito\nregolare (n. 2 estintori sostituiti per revisione, plafoniera SE n. 41 sostituita).\nCologna Veneta, 04/06/2026\nDirettore di Stabilimento - Aurora Food Group S.r.l."
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4712,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.16,
+  "rerank": 44.11
+ },
+ "id": "Q058",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:34:28",
+ "secondi": 44.3,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 69.8,
+  "token_prompt": 2171,
+  "token_risposta": 78,
+  "testo_grezzo": "Non e' possibile determinare la quantita' di estintori e idranti censiti nel certificato antincendio, poiche' i dati sono elencati in modo non numerico.\n\nFONTI: CPI_certificato_prevenzione_incendi_VVF.pdf, registro_estintori_scadenze.csv\n\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "registro_estintori_scadenze.csv"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

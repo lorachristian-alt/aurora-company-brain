@@ -1,0 +1,681 @@
+{
+ "domanda": "A quando risale l'ultima analisi di potabilita' dell'acqua?",
+ "candidati_densi": [
+  {
+   "cid": 1281,
+   "punteggio": 0.5084996061869453,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1282,
+   "punteggio": 0.5010554881946674,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1291,
+   "punteggio": 0.5009289143461566,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1284,
+   "punteggio": 0.4824665680507791,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 109,
+   "punteggio": 0.481253970618776,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 905,
+   "punteggio": 0.479430575273997,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 83,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1297,
+   "punteggio": 0.4788548542077393,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1295,
+   "punteggio": 0.47864854794965256,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1285,
+   "punteggio": 0.47639267192957474,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1739,
+   "punteggio": 0.47369588449490346,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1633,
+   "punteggio": 0.4735644051880141,
+   "file": "Scansione_20260518_0003.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1450,
+   "punteggio": 0.4735644051880141,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 883,
+   "punteggio": 0.4732648441351211,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 61,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1290,
+   "punteggio": 0.47326422797110873,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 420,
+   "punteggio": 0.4722236569004558,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 21,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1634,
+   "punteggio": 0.4699801794865798,
+   "file": "Scansione_20260518_0003.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1451,
+   "punteggio": 0.4699801794865798,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 896,
+   "punteggio": 0.46982870661147746,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 74,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1283,
+   "punteggio": 0.4692763322391015,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 844,
+   "punteggio": 0.46888381447844485,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 22,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1243,
+   "punteggio": 17.308422088623047,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 428,
+   "punteggio": 14.20176887512207,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1244,
+   "punteggio": 13.962984085083008,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 510,
+   "punteggio": 11.943578720092773,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1143,
+   "punteggio": 11.480146408081055,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 25,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1239,
+   "punteggio": 11.079954147338867,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1842,
+   "punteggio": 11.008645057678223,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 613,
+   "punteggio": 10.654661178588867,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1843,
+   "punteggio": 10.48514461517334,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1139,
+   "punteggio": 10.256839752197266,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 21,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1112,
+   "punteggio": 9.958548545837402,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1366,
+   "punteggio": 9.85586166381836,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1522,
+   "punteggio": 9.786213874816895,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1248,
+   "punteggio": 9.598072052001953,
+   "file": "ordine cancelleria marzo.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1388,
+   "punteggio": 9.591752052307129,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 611,
+   "punteggio": 9.578493118286133,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1230,
+   "punteggio": 9.505146980285645,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1790,
+   "punteggio": 9.470378875732422,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 353,
+   "punteggio": 9.415407180786133,
+   "file": "CV_Tommaso_Refosco_2026.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 581,
+   "punteggio": 9.386367797851562,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 8,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1243,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1281,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 428,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1282,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1244,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1291,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 510,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1284,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 109,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1143,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 25,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 905,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 83,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1239,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1297,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 18,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1842,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 613,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1295,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1285,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1843,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1139,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 21,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1739,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1112,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1633,
+   "file": "Scansione_20260518_0003.pdf",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1450,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1244,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.9433277249336243
+  },
+  {
+   "cid": 1243,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.26090922951698303
+  },
+  {
+   "cid": 1239,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.20228460431098938
+  },
+  {
+   "cid": 1139,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.034773655235767365
+  },
+  {
+   "cid": 1143,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.01345825009047985
+  },
+  {
+   "cid": 1295,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "rerank": 0.01192568801343441
+  },
+  {
+   "cid": 1284,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "rerank": 0.011744478717446327
+  },
+  {
+   "cid": 1285,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "rerank": 0.008745367638766766
+  },
+  {
+   "cid": 1281,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "rerank": 0.00684400787577033
+  },
+  {
+   "cid": 1282,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "rerank": 0.006785607896745205
+  },
+  {
+   "cid": 1842,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "rerank": 0.005779668223112822
+  },
+  {
+   "cid": 905,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.005331115331500769
+  },
+  {
+   "cid": 1291,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "rerank": 0.005087255034595728
+  },
+  {
+   "cid": 1450,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "rerank": 0.00444555701687932
+  },
+  {
+   "cid": 1633,
+   "file": "Scansione_20260518_0003.pdf",
+   "rerank": 0.00444555701687932
+  },
+  {
+   "cid": 1297,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "rerank": 0.0039594219997525215
+  },
+  {
+   "cid": 1843,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "rerank": 0.0033049201592803
+  },
+  {
+   "cid": 109,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "rerank": 0.002922625746577978
+  },
+  {
+   "cid": 1739,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "rerank": 0.0019094542367383838
+  },
+  {
+   "cid": 613,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.00011599884601309896
+  },
+  {
+   "cid": 510,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 4.027000250061974e-05
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 2.7099005819763988e-05
+  },
+  {
+   "cid": 1112,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 2.6023906684713438e-05
+  },
+  {
+   "cid": 428,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 2.233563645859249e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1244,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "origine": "nativa",
+   "rerank": 0.9433277249336243,
+   "testo": "Reg. UE 2016/679. Se avete ricevuto questo messaggio per errore siete pregati di\ndistruggerlo e darne comunicazione al mittente.\n\n________________________________________\n\nDa: Elena Marchetti <e.marchetti@aurorafoodgroup.it>\nA: Federica Sartori <f.sartori@aurorafoodgroup.it>; Marco Fantin <m.fantin@aurorafoodgroup.it>\nCc: Sara Pozzato <s.pozzato@aurorafoodgroup.it>\nInviato: lunedì 25 maggio 2026 14:38\nOggetto: R: I: POSTA CERTIFICATA: Prot. n. 0058214/2026 - Preavviso di ispezione programmata\n\nBuongiorno,\ncon la settimana che abbiamo alle spalle ci mancava solo questa. Comunque niente\npanico, è un controllo programmato, non un'ispezione su segnalazione (SE lo fosse\nce l'avrebbero scritto diversamente, e NON pensiamo nemmeno al collegamento col\nreclamo, che non c'entra, i tempi non tornano).\n\nButto giù a caldo le cose da sistemare PRIMA del 9/6, poi domani faccio il piano\nvero con le responsabilità:\n\n- analisi acqua: Federica ha ragione, ultima potabilità completa 11/2023. Chiamo\n  DOMANI Analytica Veneta e faccio fare campionamento entro questa settimana. Se\n  il rapporto arriva dopo il 9 mostriamo almeno il verbale di prelievo"
+  },
+  {
+   "cid": 1243,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "origine": "nativa",
+   "rerank": 0.26090922951698303,
+   "testo": "e norme collegate, il quale sostituisce il documento cartaceo e la firma\nautografa.\n\n--- FINE TESTO DELL'ATTO ---\n\n________________________________________\n\nDa: Federica Sartori <f.sartori@aurorafoodgroup.it>\nA: Elena Marchetti <e.marchetti@aurorafoodgroup.it>; Marco Fantin <m.fantin@aurorafoodgroup.it>\nCc: Giancarlo Bertoldi <g.bertoldi@aurorafoodgroup.it>\nInviato: lunedì 25 maggio 2026 12:10\nOggetto: I: POSTA CERTIFICATA: Prot. n. 0058214/2026 - Preavviso di ispezione programmata\n\nElena, Marco,\nè arrivata QUESTA sulla PEC. Ispezione ULSS il 9 GIUGNO. Tra due settimane!!\nVe la giro subito, io non so nemmeno da dove si comincia con la lista che chiedono,\nsono 14 punti. Il punto 7 (analisi acqua) mi sa che è quello messo peggio, l'ultima\nanalisi che trovo in archivio è del 2023?? Ditemi voi.\nGiancarlo in cc come da sue istruzioni.\nFede\n\nFederica Sartori - HR & Segreteria\nAurora Food Group S.r.l. - Via dell'Industria 27, 37044 Cologna Veneta (VR)\nLe informazioni contenute nella presente comunicazione sono riservate ai sensi del\nReg. UE 2016/679. Se avete ricevuto questo messaggio per errore siete pregati di\ndistruggerlo e darne comunicazione al mittente."
+  },
+  {
+   "cid": 1239,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "origine": "nativa",
+   "rerank": 0.20228460431098938,
+   "testo": "detergenti e sanificanti impiegati);\n  6.  piano e registrazioni del monitoraggio infestanti, comprensivo di planimetria\n      delle postazioni e rapporti della ditta incaricata;\n  7.  documentazione attestante la potabilità dell'acqua utilizzata nel processo\n      (analisi ai sensi del D.Lgs. 18/2023, ultimo biennio);\n  8.  procedure di rintracciabilità ai sensi del Reg. CE 178/2002 e registrazioni\n      di carico/scarico lotti; esiti dell'ultimo esercizio di rintracciabilità;\n  9.  procedura di gestione dei reclami e di ritiro/richiamo dal mercato, con\n      relative registrazioni dell'ultimo anno;\n  10. attestati di formazione del personale in materia di igiene alimentare e\n      registro delle attività formative interne;\n  11. giudizi di idoneità sanitaria ove applicabili e procedura di gestione degli\n      stati morbosi del personale (Cap. VIII All. II);\n  12. contratti e registrazioni di manutenzione delle attrezzature rilevanti ai\n      fini della sicurezza alimentare (impianti termici, metal detector,\n      confezionatrici, impianti frigoriferi) e relative tarature/verifiche;\n  13. dichiarazioni di conformità dei materiali e oggetti destinati al contatto"
+  },
+  {
+   "cid": 1139,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "origine": "nativa",
+   "rerank": 0.034773655235767365,
+   "testo": "Dal Maso I.; lubrificanti food grade H1; divieto di deposito di ricambi e\n       attrezzi in area produttiva al di fuori degli interventi - vedi nota (5))\nPRP-04 Igiene e formazione del personale (MOD-HR-11 registro formazione; visite\n       mediche; regole di accesso, indumenti, lavaggio mani)\nPRP-05 Qualifica e monitoraggio fornitori (vendor rating annuale; fornitori critici:\n       F0012, F0021, F0044, F0090)\nPRP-06 Gestione dell'acqua (acquedotto + analisi potabilità semestrali)\nPRP-07 Gestione rifiuti e sottoprodotti (ex Reg. 1069/2009 ove applicabile)\nPRP-08 Controllo corpi estranei: vetro e plastica dura (registro vetri/plexiglas,\n       ispezioni mensili; politica no-vetro in produzione; coltelli censiti)\nPRP-09 Rintracciabilità (PRO-QA-08: identificazione lotto L26<ggg>-<linea>-<turno>,\n       mass balance, esercitazione annuale - vedi PRO-QA-14 per il ritiro)\nPRP-10 Catena del freddo e trasporti (qualifica vettori, controllo T pianale)\nPRP-11 Food defense e sicurezza sito (BRCGS 9 sez. 4.2; TACCP a cura team dedicato)\nPRP-12 Gestione MOCA (DoC fornitori F0044 Flexipack, F0031 Euroglass; test migrazione)"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4625,
+ "tempi": {
+  "denso": 0.01,
+  "sparso": 0.19,
+  "rerank": 49.37
+ },
+ "id": "Q243",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:59:54",
+ "secondi": 49.58,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 47.43,
+  "token_prompt": 1852,
+  "token_risposta": 71,
+  "testo_grezzo": "Non e' possibile determinare la data dell'ultima analisi di potabilita' dell'acqua.\n\nFONTI: notifica_ATS_ispezione_programmata_igiene.txt, manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "notifica_ATS_ispezione_programmata_igiene.txt",
+   "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

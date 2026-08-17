@@ -1,0 +1,681 @@
+{
+ "domanda": "Quando e' stato eseguito il ritiro dei lotti L26130 e L26131?",
+ "candidati_densi": [
+  {
+   "cid": 1769,
+   "punteggio": 0.5546951607842281,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 619,
+   "punteggio": 0.5365523499308114,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 937,
+   "punteggio": 0.5306051607537248,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 936,
+   "punteggio": 0.5276307349276241,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 968,
+   "punteggio": 0.5247908969805966,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 34,
+   "origine": "nativa"
+  },
+  {
+   "cid": 952,
+   "punteggio": 0.5234896044484334,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1462,
+   "punteggio": 0.5231981898647471,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 944,
+   "punteggio": 0.5227919067853186,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 935,
+   "punteggio": 0.5223913751991471,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1071,
+   "punteggio": 0.521672049301233,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 137,
+   "origine": "nativa"
+  },
+  {
+   "cid": 941,
+   "punteggio": 0.5207198607632741,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 955,
+   "punteggio": 0.5202848819122023,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 21,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1203,
+   "punteggio": 0.5195587649684883,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 25,
+   "origine": "nativa"
+  },
+  {
+   "cid": 966,
+   "punteggio": 0.5193424806534129,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 32,
+   "origine": "nativa"
+  },
+  {
+   "cid": 942,
+   "punteggio": 0.5152224268367159,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1072,
+   "punteggio": 0.5135341984459605,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 138,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1410,
+   "punteggio": 0.5134880478692646,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 957,
+   "punteggio": 0.5129210802515427,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 23,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1001,
+   "punteggio": 0.512918855662466,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 67,
+   "origine": "nativa"
+  },
+  {
+   "cid": 963,
+   "punteggio": 0.5111762313654645,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 29,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 534,
+   "punteggio": 23.343982696533203,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1168,
+   "punteggio": 22.24447250366211,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 615,
+   "punteggio": 21.549419403076172,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1375,
+   "punteggio": 21.123374938964844,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1202,
+   "punteggio": 21.020004272460938,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 24,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1411,
+   "punteggio": 19.582197189331055,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1770,
+   "punteggio": 19.003944396972656,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1409,
+   "punteggio": 17.752973556518555,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1537,
+   "punteggio": 17.69692039489746,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1457,
+   "punteggio": 17.4483642578125,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1263,
+   "punteggio": 17.427648544311523,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1379,
+   "punteggio": 17.067781448364258,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1374,
+   "punteggio": 16.942190170288086,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 647,
+   "punteggio": 16.607646942138672,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1844,
+   "punteggio": 16.296241760253906,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1405,
+   "punteggio": 15.758674621582031,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1397,
+   "punteggio": 15.666657447814941,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1771,
+   "punteggio": 15.58204174041748,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1203,
+   "punteggio": 15.56686019897461,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 25,
+   "origine": "nativa"
+  },
+  {
+   "cid": 74,
+   "punteggio": 15.225225448608398,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "idx": 24,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1203,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 25,
+   "origine": "nativa",
+   "rrf": 0.026356857985087564,
+   "rango_denso": 13,
+   "rango_sparso": 19
+  },
+  {
+   "cid": 534,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1769,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 619,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1168,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 615,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 937,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 936,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1375,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 968,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 34,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1202,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 24,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 952,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 18,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1411,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1462,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1770,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 944,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1409,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 935,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1537,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1071,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 137,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1457,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 941,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1263,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 955,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 21,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1202,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.9157673120498657
+  },
+  {
+   "cid": 1537,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.911445677280426
+  },
+  {
+   "cid": 1411,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.8462207317352295
+  },
+  {
+   "cid": 1409,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.8456259965896606
+  },
+  {
+   "cid": 534,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "rerank": 0.8378045558929443
+  },
+  {
+   "cid": 1168,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "rerank": 0.8309404253959656
+  },
+  {
+   "cid": 615,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.8268400430679321
+  },
+  {
+   "cid": 1203,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.7667165994644165
+  },
+  {
+   "cid": 1770,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "rerank": 0.739780843257904
+  },
+  {
+   "cid": 1462,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.6621413826942444
+  },
+  {
+   "cid": 619,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.5931909084320068
+  },
+  {
+   "cid": 1375,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "rerank": 0.5239818096160889
+  },
+  {
+   "cid": 1769,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "rerank": 0.5158106684684753
+  },
+  {
+   "cid": 1263,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "rerank": 0.4063585698604584
+  },
+  {
+   "cid": 936,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.28165915608406067
+  },
+  {
+   "cid": 937,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.26801764965057373
+  },
+  {
+   "cid": 952,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.26377472281455994
+  },
+  {
+   "cid": 941,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.25850367546081543
+  },
+  {
+   "cid": 935,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.2530127465724945
+  },
+  {
+   "cid": 968,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.23662379384040833
+  },
+  {
+   "cid": 955,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.23092186450958252
+  },
+  {
+   "cid": 944,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.2272031158208847
+  },
+  {
+   "cid": 1457,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.2076844424009323
+  },
+  {
+   "cid": 1071,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.20537295937538147
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1202,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "origine": "nativa",
+   "rerank": 0.9157673120498657,
+   "testo": "NC-2026-091;12/05/2026;reclamo;Qualità;RECLAMO da form sito web: sig.ra M.G. (Bussolengo VR) segnala frammento di plastica dura azzurra in snack AF-SN-0450 lotto L26130 acquistato presso Tosano Bussolengo. Aperta gestione MOD-QA-31, richiesto campione e foto;AF-SN-0450 L26130-L1-T2;critica;presunta origine: guarnizione azzurra non originale PKM-450 (v. NC-2026-089), materiale non metallico non rilevabile da MD-3200;raccolta campione, blocco lotti L26130 e L26131, informativa a Tosano QA (Perbellini), valutazione ritiro cautelativo;Marchetti E.;;APERTA;N/D\nNC-2026-092;12/05/2026;interna;Qualità;Blocco cautelativo lotti L26130 e L26131 tutte le referenze Linea 1 coinvolte, circa 8.400 confezioni di cui 5.100 gia a scaffale;AF-SN-0450 L26130 / L26131;critica;v. NC-2026-088 NC-2026-089 NC-2026-091;segregazione magazzino, conteggio giacenze, procedura ritiro CRISI GDO in pre-allerta, stima costo ritiro 31.500;Fantin M.;;APERTA;31.500,00"
+  },
+  {
+   "cid": 1537,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "origine": "nativa",
+   "rerank": 0.911445677280426,
+   "testo": "ricambi e attrezzi in area produttiva senza controllo costituisce\n   la NC n. 2 dell'audit CSQA del 17-18/02/2026 (BRCGS cl. 4.7.5),\n   formalmente chiusa con evidenze trasmesse in data 02/04/2026.\n\nSi rammenta che il cliente Tosano (dott.ssa Perbellini, QA fornitori)\nha richiesto riscontro scritto entro 48 ore e che e' in corso la\nvalutazione di ritiro cautelativo dei lotti L26130 e L26131.\nSi resta in attesa di riscontro entro OGGI.\nCordiali saluti\n\ndott.ssa Elena Marchetti\nResponsabile Sistema Gestione Qualita' - Team Leader HACCP\nAurora Food Group S.r.l. - Via dell'Industria 27, 37044 Cologna Veneta (VR)\nTel. 0442 854122 int. 214 - www.aurorafoodgroup.it\nLe informazioni contenute nella presente comunicazione e i relativi\nallegati sono riservate ai destinatari. Ai sensi del Reg. UE 679/2016\n(GDPR) e' vietata la diffusione a terzi. Se avete ricevuto questa mail\nper errore siete pregati di eliminarla.\n\n- - - - - - - - - - - - - - - - - - - - - - - -\n\nDa: Ivano Dal Maso <officina@aurorafoodgroup.it>\nA: Elena Marchetti <e.marchetti@aurorafoodgroup.it>\nInviato: mercoledi 13 maggio 2026 13:47"
+  },
+  {
+   "cid": 1411,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "origine": "nativa",
+   "rerank": 0.8462207317352295,
+   "testo": "[firma illeggibile] EM\n===========================================================================\n\n   PERIMETRO DEL BLOCCO - definizione (E.M. 14/05/2026 h 18:05)\n   Non sono coinvolti i due lotti per intero. La guarnizione non originale e' stata montata\n   alle 18:45 del 10/05: e' interessato SOLO il prodotto confezionato dal riavvio in poi.\n   - L26130-L1-T2 (dalle 18:45 alle 22:00) ......... 3.290 conf. - in magazzino, BLOCCATE\n   - L26130-L1-T3 (dalle 22:00 alle 03:00) ......... 1.480 conf. - in magazzino, BLOCCATE\n   - L26131-L1-T2 (11/05, guarnizione ancora montata) 3.630 conf. - di cui 5.100 gia' spedite\n     [ricontrollare: il totale spedito comprende anche pezzi del T2, Faggionato verifica]\n   Totale interessato ~ 8.400 conf., di cui ~5.100 gia' a scaffale o in CE.DI.\n   Il prodotto dei turni precedenti le 15:05 del 10/05 e' stato confezionato con la valvola\n   originale e non rientra nel perimetro (circa 29.000 conf. sui due lotti).\n   ⚠ ESTENSIONE: la guarnizione e' stata sostituita con l'originale solo il 15/05 e alla rimozione\n   mancavano ~2 cm2 di materiale. Va valutato anche il prodotto dal 12 al 15/05 (L26132, L26133,"
+  },
+  {
+   "cid": 1409,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "origine": "nativa",
+   "rerank": 0.8456259965896606,
+   "testo": "plastica dura azzurra in AF-SN-0450 lotto L26130 acquistato Tosano\n  Bussolengo. Foto ricevuta. Reperto richiesto, arriva con corriere.\n- 14/05 h 10:15 mail Perbellini (Tosano QA): chiede spiegazioni SCRITTE\n  entro 48h -> scadenza sab 16/05 h 10!! prepara bozza stasera\n- valutazione: plastica dura ~9x4 mm non tagliente?? da vedere il pezzo\n  vero. Classe 2 per ora (ritiro, non richiamo) MA se tagliente -> Classe 1\n  e notifica ULSS. Sentita Vicentini tel h 15.\n- correlazione probabile: intervento PKM-450 del 10/05 (guarnizione non\n  originale azzurra - MOD-PR-04 di Dal Maso dice solo \"sostituita\n  guarnizione\") + MD-3200 NON rileva plastica, ovvio\n- lotti coinvolti: L26130 e L26131 (turni successivi stessa guarnizione)\n  tot ~ 8.400 conf. di cui ~ 5.100 GIA' A SCAFFALE, resto CE.DI. Cerea +\n  ns. magazzino (bloccato il 13/05 MOD-MAG-02, Faggionato ok h 19:30)\n- costo stimato ritiro: 31.500 € (merce + logistica reso + distruzione +\n  nota credito) - stima con Trentin, NON comunicare al cliente\n- mass balance L26130 avviato, Pozzato ci lavora domattina presto\n- guarnizione: pezzo NON originale preso dal carrello ricambi = esattamente"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4354,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.16,
+  "rerank": 53.76
+ },
+ "id": "Q273",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T18:25:52",
+ "secondi": 53.95,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 48.61,
+  "token_prompt": 1928,
+  "token_risposta": 65,
+  "testo_grezzo": "Il ritiro dei lotti L26130 e L26131 è stato avviato, ma non è stato eseguito ancora.\n\nFONTI: report_fermo_macchina_confezionatrice_MAP.txt, procedura_ritiro_prodotto_CRISI_GDO.txt\nCONFIDENZA: alta",
+  "fonti_citate": [
+   "report_fermo_macchina_confezionatrice_MAP.txt",
+   "procedura_ritiro_prodotto_CRISI_GDO.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "alta"
+ }
+}

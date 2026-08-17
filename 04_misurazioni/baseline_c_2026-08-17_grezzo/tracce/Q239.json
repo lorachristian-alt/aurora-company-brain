@@ -1,0 +1,683 @@
+{
+ "domanda": "Per quanto tempo il pastorizzatore e' rimasto sotto il limite critico il 10 maggio?",
+ "candidati_densi": [
+  {
+   "cid": 1883,
+   "punteggio": 0.4897632386219757,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1075,
+   "punteggio": 0.4886792217692422,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 141,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1134,
+   "punteggio": 0.4819194323651287,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 854,
+   "punteggio": 0.4766294781244228,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 32,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1776,
+   "punteggio": 0.47105085500108856,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 910,
+   "punteggio": 0.4701145402663036,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 88,
+   "origine": "nativa"
+  },
+  {
+   "cid": 905,
+   "punteggio": 0.4699218601393309,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 83,
+   "origine": "nativa"
+  },
+  {
+   "cid": 881,
+   "punteggio": 0.46593644079674096,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 59,
+   "origine": "nativa"
+  },
+  {
+   "cid": 925,
+   "punteggio": 0.4646549821695523,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 103,
+   "origine": "nativa"
+  },
+  {
+   "cid": 858,
+   "punteggio": 0.46412479376398547,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 36,
+   "origine": "nativa"
+  },
+  {
+   "cid": 871,
+   "punteggio": 0.45976899809195093,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 49,
+   "origine": "nativa"
+  },
+  {
+   "cid": 931,
+   "punteggio": 0.4597507447592914,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 109,
+   "origine": "nativa"
+  },
+  {
+   "cid": 877,
+   "punteggio": 0.45912316772746886,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 55,
+   "origine": "nativa"
+  },
+  {
+   "cid": 913,
+   "punteggio": 0.45874029784910425,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 91,
+   "origine": "nativa"
+  },
+  {
+   "cid": 897,
+   "punteggio": 0.45872568049749174,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 75,
+   "origine": "nativa"
+  },
+  {
+   "cid": 888,
+   "punteggio": 0.4583796143192849,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 66,
+   "origine": "nativa"
+  },
+  {
+   "cid": 873,
+   "punteggio": 0.4577958271917346,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 51,
+   "origine": "nativa"
+  },
+  {
+   "cid": 829,
+   "punteggio": 0.45765385583801493,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 849,
+   "punteggio": 0.4571879929629778,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 27,
+   "origine": "nativa"
+  },
+  {
+   "cid": 582,
+   "punteggio": 0.4570335072508644,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 9,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1776,
+   "punteggio": 19.18927001953125,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1137,
+   "punteggio": 16.890676498413086,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1122,
+   "punteggio": 16.062780380249023,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1132,
+   "punteggio": 16.057641983032227,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1133,
+   "punteggio": 15.681039810180664,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1364,
+   "punteggio": 15.128705978393555,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1454,
+   "punteggio": 14.825056076049805,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1637,
+   "punteggio": 14.825056076049805,
+   "file": "Scansione_20260518_0003.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 281,
+   "punteggio": 14.08639907836914,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1141,
+   "punteggio": 13.798839569091797,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 23,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1834,
+   "punteggio": 13.510790824890137,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1117,
+   "punteggio": 13.477288246154785,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1134,
+   "punteggio": 13.122335433959961,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1219,
+   "punteggio": 13.11681079864502,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 99,
+   "punteggio": 13.04673957824707,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 625,
+   "punteggio": 12.930665016174316,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 348,
+   "punteggio": 12.662335395812988,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 112,
+   "punteggio": 12.61296558380127,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1536,
+   "punteggio": 12.232565879821777,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1393,
+   "punteggio": 11.862730979919434,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 12,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.03177805800756621,
+   "rango_denso": 5,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1134,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.029571646010002173,
+   "rango_denso": 3,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1883,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1075,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 141,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1137,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1122,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 854,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 32,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1132,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1133,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 910,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 88,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1364,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 905,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 83,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1454,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 881,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 59,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1637,
+   "file": "Scansione_20260518_0003.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 281,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 925,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 103,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 858,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 36,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1141,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 23,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 871,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 49,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1834,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 931,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 109,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1117,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 877,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 55,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1075,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.7953670024871826
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.5673523545265198
+  },
+  {
+   "cid": 1134,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.05915120244026184
+  },
+  {
+   "cid": 1883,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "rerank": 0.013676895759999752
+  },
+  {
+   "cid": 854,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.008085805922746658
+  },
+  {
+   "cid": 905,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.006339084357023239
+  },
+  {
+   "cid": 931,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.005358505994081497
+  },
+  {
+   "cid": 858,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.004930696915835142
+  },
+  {
+   "cid": 877,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.004579716827720404
+  },
+  {
+   "cid": 910,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.004315015859901905
+  },
+  {
+   "cid": 1141,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.00421298248693347
+  },
+  {
+   "cid": 925,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.004113383591175079
+  },
+  {
+   "cid": 881,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.0038303504697978497
+  },
+  {
+   "cid": 1137,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.003773740492761135
+  },
+  {
+   "cid": 871,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.0031211937312036753
+  },
+  {
+   "cid": 1133,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.002525852294638753
+  },
+  {
+   "cid": 1132,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.0014400621876120567
+  },
+  {
+   "cid": 1122,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.00048001986579038203
+  },
+  {
+   "cid": 281,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.0004542501119431108
+  },
+  {
+   "cid": 1364,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.00033811992034316063
+  },
+  {
+   "cid": 1834,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.0003134272701572627
+  },
+  {
+   "cid": 1454,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "rerank": 0.00010897004540311173
+  },
+  {
+   "cid": 1637,
+   "file": "Scansione_20260518_0003.pdf",
+   "rerank": 0.00010897004540311173
+  },
+  {
+   "cid": 1117,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 3.844642560579814e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1075,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "origine": "nativa",
+   "rerank": 0.7953670024871826,
+   "testo": "2026-05-10 23:12:09;PT104;EVT;PROD_END;TOT_SHIFT=SEE_EXPORT;OK;LOT=L26130-L1-T3;OP=CESTARO_L\n=====================================================================\nEXPORT GIORNALIERO - TermoLog SCADA v2.3.1 build 4402\nImpianto: PASTORIZZATORE PT104 - LINEA 1\nData rif.: 10/05/2026  -  UnitÃ  di misura: Â°C ; m3/h ; m/min\nCampioni acquisiti: 12390  -  Campioni validi: 12293\nSonda T_CUORE: anomalia rilevata (vedi codice guasto) - validitÃ  parziale\nAllarmi attivi nel periodo: ALM_LOW_TEMP(1) DEV_CCP2(1) MACHINE_STOP(1) SENSOR_FAULT(1) RTC_BATT_LOW(1)\nDurata esercizio: 13h 01m  -  Durata fermo: 3h 40m  -  Motivo fermo: INTERLOCK_DOWNSTREAM=PKM450\nTemperatura minima registrata TT_02: 68.6 C alle 14:30:37\nPermanenza sotto soglia 72.0 Â°C: 27 min ca. - verificare registro CCP2 (MOD-QA-12)\nOperatori turno: RANZATO_F / POPESCU_I / CESTARO_L - Resp. produzione: ZANELLA_D\nFile generato automaticamente - non modificare - proprietÃ  Aurora Food Group S.r.l.\nPercorso archivio: \\\\SRV-AFG01\\produzione\\datalogger\\PT104\\2026\\05\\\nChecksum: 8f3aï¿½ï¿½41bc â€“ verifica integritÃ  fallita\n====================================================================="
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.5673523545265198,
+   "testo": "[00:02:46] PARLANTE_1: se ce l'ha ancora\n[00:02:48] PARLANTE_2: se manca un pezzo dalla guarnizione vecchia o da quella nuova che ha tagliato lui a misura allora\n[00:02:53] PARLANTE_3: scusate ma c'e anche l'altra cosa del lotto 130 e va detta adesso\n[00:02:58] PARLANTE_1: quale altra cosa\n[00:03:02] PARLANTE_3: sara ha scaricato ieri i dati del datalogger del PT-104 per la verifica settimanale e sul turno 2 del 10 maggio dalle 14 e 18 alle 14 e 47 la temperatura e scesa sotto i 72 gradi il minimo registrato e 68 virgola 9\n[00:03:18] PARLANTE_1: e il ccp2\n[00:03:20] PARLANTE_3: e il CCP2 si il limite critico e 72 gradi al cuore per almeno due minuti e per quasi mezz'ora eravamo sotto\n[00:03:27] PARLANTE_2: e sul cartaceo cosa c'e scritto\n[00:03:30] PARLANTE_3: eh appunto sul MOD-QA-12 l'operatore ha scritto 74 e 5 conforme\n[00:03:36] PARLANTE_1: come 74 e 5 se la macchina dice 68\n[00:03:39] PARLANTE_3: ha copiato il set point secondo me non ha guardato il display oppure ha compilato a fine turno tutto insieme come fanno sempre\n[00:03:46] PARLANTE_2: che e esattamente la non conformita uno dell'audit la seconda firma di verifica che non"
+  },
+  {
+   "cid": 1134,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "origine": "nativa",
+   "rerank": 0.05915120244026184,
+   "testo": "rapporto taratura gaussmetro\n----------------------------------------------------------------------------\nCCP2 - TRATTAMENTO TERMICO PT-104 (LINEA 1)\nFase: 09 - Pastorizzazione tunnel termico PT-104\nPericolo: B - sopravvivenza di patogeni (L. monocytogenes, S. aureus) su prodotto RTE\nLimite critico: temperatura al cuore del prodotto ≥ 72,0 °C mantenuta per ≥ 2 min;\n  set point di esercizio 74,0-76,0 °C\nMonitoraggio: registrazione in continuo T camera e T cuore (sonda a spillone su\n  prodotto campione) tramite datalogger PT-104; lettura e trascrizione manuale su\n  modulo MOD-QA-12 (registro CCP2 temperature)\nFrequenza: registrazione datalogger in continuo; trascrizione manuale su MOD-QA-12\n  ogni 60 minuti; verifica in seconda firma del capoturno entro fine turno\nResponsabile: operatore di linea addetto al PT-104; capoturno per la seconda firma;\n  QA per il riesame\nAzione correttiva: BLOCCO DEL LOTTO e segregazione di tutto il prodotto transitato\n  dall'ultimo controllo conforme; RIPROCESSO del prodotto ove tecnologicamente\n  possibile, altrimenti declassamento/distruzione; verifica taratura sonde;\n  registrazione della deviazione e notifica immediata a RSGQ (Marchetti E.)"
+  },
+  {
+   "cid": 1883,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "origine": "nativa",
+   "rerank": 0.013676895759999752,
+   "testo": "11\n22,8\nCONFORME\nQ-L1\nlinea 1 -\npastorizzatore\nPT-104\n30\nA\n26\n12\n24,1\nCONFORME\nQ-L1\nmetal detector\nMD-3200 +\nnastri\n30\nA\n22\n10\n21,6\nCONFORME\nQ-L1\nconfezionatrice\nPKM-450\n30\nB\n31\n14\n25,3\nCONFORME\nQ-L2\nimpastatrice\nIMP-300\n30\nA\n25\n11\n23,4\nCONFORME\nQ-L2\ncella lievitazione\n+ sfogliatrice\n30\nA\n27\n12\n24,8\nCONFORME\nQ-L2\nforno FT-02\nausiliari\n30\nA\n23\n10\n22,1\nCONFORME\nQ-L3\ntunnel TS-01\n30\nB\n29\n13\n24,9\nCONFORME\nQ-L3\nmetal detector\nMD-1800\n30\nA\n24\n11\n23,0\nCONFORME\nQ-FRIGO\ncentrale\nfrigorifera\nCF-01/CF-02\n300\nA selett.\n148\n39\n241\nCONFORME\nQ-CIP\nimpianto\nlavaggio CIP-01\n30\nA\n28\n12\n25,0\nCONFORME\nQ-UFF\nprese uffici\npiano primo\n30\nAC\n26\n12\n23,7\nCONFORME\nQ-MAG\nmagazzino Via\nPalu' 3/A\n30\nA\n25\n11\n23,2\nCONFORME\nQ-OFF\nofficina\nmanutenzione\n30\nA\n342\n--\n--\nNON\nCONFORME\n(vedi\nprescrizione P1)\n5.3 Continuita' dei conduttori di protezione ed equipotenziali (prova a 200 mA):\nvalori misurati compresi tra 0,04 e 0,38 ohm su n. 28 punti campionati (masse di macchine\nFT-01, FT-02, PT-104, IMP-300, PKM-450, TS-01, CIP-01, silos, serbatoio criogenico, scaffali\n\nVERIFICA NORD S.r.l. - Organismo Abilitato D.P.R. 462/01 - abilitazione MIMIT D.D. 21/12/2023"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4633,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.19,
+  "rerank": 59.22
+ },
+ "id": "Q239",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:56:54",
+ "secondi": 59.43,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 42.32,
+  "token_prompt": 2115,
+  "token_risposta": 118,
+  "testo_grezzo": "Il pastorizzatore PT-104 è rimasto sotto il limite critico di 72°C per quasi mezz'ora, specificamente dalle 14:00 alle 14:47 del 10 maggio.\n\nFONTI: log_temperature_pastorizzatore_linea1_10_05_26.log, trascrizione_riunione_direzione_12_05_2026.txt, manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt, verifica_periodica_impianto_terra_DPR462.pdf",
+  "fonti_citate": [
+   "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "trascrizione_riunione_direzione_12_05_2026.txt",
+   "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "verifica_periodica_impianto_terra_DPR462.pdf"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

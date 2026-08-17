@@ -1,0 +1,681 @@
+{
+ "domanda": "Che dimensioni e che peso aveva il frammento mandato al laboratorio?",
+ "candidati_densi": [
+  {
+   "cid": 1167,
+   "punteggio": 0.5465761756209071,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1635,
+   "punteggio": 0.5123253037574859,
+   "file": "Scansione_20260518_0003.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1452,
+   "punteggio": 0.5123253037574859,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1869,
+   "punteggio": 0.5022194614408073,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 613,
+   "punteggio": 0.4928477781147675,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 181,
+   "punteggio": 0.4889328223693815,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1712,
+   "punteggio": 0.48262209425876695,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 179,
+   "punteggio": 0.4822417842256143,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 924,
+   "punteggio": 0.4793165865438642,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 102,
+   "origine": "nativa"
+  },
+  {
+   "cid": 872,
+   "punteggio": 0.4778290615594532,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 50,
+   "origine": "nativa"
+  },
+  {
+   "cid": 80,
+   "punteggio": 0.47761998505740527,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 876,
+   "punteggio": 0.47660434633708104,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 54,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1631,
+   "punteggio": 0.4763953011874547,
+   "file": "Scansione_20260518_0003.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1448,
+   "punteggio": 0.4763951887277117,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 824,
+   "punteggio": 0.4753124653154915,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1744,
+   "punteggio": 0.4745225681023139,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1741,
+   "punteggio": 0.4724079704011058,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 868,
+   "punteggio": 0.47133436267348683,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 46,
+   "origine": "nativa"
+  },
+  {
+   "cid": 178,
+   "punteggio": 0.4693409193111149,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 928,
+   "punteggio": 0.46742176359463505,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 106,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1774,
+   "punteggio": 20.24306869506836,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1631,
+   "punteggio": 18.660390853881836,
+   "file": "Scansione_20260518_0003.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1448,
+   "punteggio": 18.660390853881836,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1714,
+   "punteggio": 17.04395866394043,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1796,
+   "punteggio": 16.054279327392578,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 23,
+   "origine": "nativa"
+  },
+  {
+   "cid": 613,
+   "punteggio": 14.110581398010254,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1452,
+   "punteggio": 14.04984188079834,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1635,
+   "punteggio": 14.04984188079834,
+   "file": "Scansione_20260518_0003.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1857,
+   "punteggio": 13.688228607177734,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1713,
+   "punteggio": 13.477237701416016,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1784,
+   "punteggio": 13.217679023742676,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1167,
+   "punteggio": 13.157278060913086,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1712,
+   "punteggio": 12.524166107177734,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1812,
+   "punteggio": 12.459147453308105,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1232,
+   "punteggio": 12.338913917541504,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1168,
+   "punteggio": 12.180129051208496,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1811,
+   "punteggio": 12.112395286560059,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1715,
+   "punteggio": 11.948356628417969,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1873,
+   "punteggio": 11.865009307861328,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1226,
+   "punteggio": 11.362065315246582,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 2,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1635,
+   "file": "Scansione_20260518_0003.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.030834914611005692,
+   "rango_denso": 2,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1452,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.030798389007344232,
+   "rango_denso": 3,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 613,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.030536130536130537,
+   "rango_denso": 5,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1167,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.03028233151183971,
+   "rango_denso": 1,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1631,
+   "file": "Scansione_20260518_0003.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.029827662395050816,
+   "rango_denso": 13,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1448,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.029386529386529386,
+   "rango_denso": 14,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1712,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.02862400327131466,
+   "rango_denso": 7,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1774,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1714,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1869,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1796,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 23,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 181,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 179,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 924,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 102,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1857,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 872,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 50,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1713,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 80,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1784,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 876,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 54,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1812,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 824,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": 15,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1232,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": null,
+   "rango_sparso": 15
+  },
+  {
+   "cid": 1168,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013157894736842105,
+   "rango_denso": null,
+   "rango_sparso": 16
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1452,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "rerank": 0.5523831248283386
+  },
+  {
+   "cid": 1635,
+   "file": "Scansione_20260518_0003.pdf",
+   "rerank": 0.5523831248283386
+  },
+  {
+   "cid": 1167,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "rerank": 0.34405285120010376
+  },
+  {
+   "cid": 1448,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "rerank": 0.21336880326271057
+  },
+  {
+   "cid": 1631,
+   "file": "Scansione_20260518_0003.pdf",
+   "rerank": 0.21336880326271057
+  },
+  {
+   "cid": 1168,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "rerank": 0.10674337297677994
+  },
+  {
+   "cid": 1774,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.046601302921772
+  },
+  {
+   "cid": 613,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.03497826308012009
+  },
+  {
+   "cid": 1713,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.031174058094620705
+  },
+  {
+   "cid": 1784,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.009792467579245567
+  },
+  {
+   "cid": 1712,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.006323346868157387
+  },
+  {
+   "cid": 1714,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.00574021739885211
+  },
+  {
+   "cid": 1869,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "rerank": 0.0028689748141914606
+  },
+  {
+   "cid": 876,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.0010147595312446356
+  },
+  {
+   "cid": 924,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.0009721752721816301
+  },
+  {
+   "cid": 824,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.0007579026278108358
+  },
+  {
+   "cid": 1796,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0006121437181718647
+  },
+  {
+   "cid": 872,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.0005827322602272034
+  },
+  {
+   "cid": 181,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "rerank": 0.0003017502895090729
+  },
+  {
+   "cid": 179,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "rerank": 0.0002755711320787668
+  },
+  {
+   "cid": 1857,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.00022247637389227748
+  },
+  {
+   "cid": 80,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "rerank": 4.869902113568969e-05
+  },
+  {
+   "cid": 1232,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 4.505211109062657e-05
+  },
+  {
+   "cid": 1812,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 1.972084464796353e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1452,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "origine": "nativa",
+   "rerank": 0.5523831248283386,
+   "testo": "4.1 Esame macroscopico e stereomicroscopico (MI-CE-001 rev. 3)\nFrammento di materiale polimerico di colore azzurro, aspetto gommoso-elastico, superficie\nliscia con una faccia debolmente striata, bordi netti da lacerazione. Dimensioni misurate:\n9,2 x 4,1 x 1,8 mm. Massa: 0,081 g. Il frammento non presenta carbonizzazioni né tracce di\ncottura superficiale. Non magnetico. Prova di densità: galleggiamento negativo in acqua\n(densità stimata > 1,1 g/cm³).\n4.2 Spettroscopia FT-IR in riflettanza totale attenuata (ATR) (MI-CE-004 rev. 5)\nStrumento: spettrofotometro FT-IR con accessorio ATR a cristallo di diamante, intervallo\n4000-400 cm⁻¹, risoluzione 4 cm⁻¹, 32 scansioni. Lo spettro acquisito sulla superficie e sulla\nsezione del frammento mostra bande di assorbimento intense e caratteristiche nella regione\n1250-1100 cm⁻¹ attribuibili allo stiramento dei legami C-F, con assenza delle bande tipiche\ndei legami C-H alifatici di polimeri poliolefinici. Il confronto con le librerie spettrali in\ndotazione (indice di correlazione 0,912) e con spettri di riferimento interni indica:\nmateriale polimerico fluorurato — spettro compatibile con politetrafluoroetilene (PTFE)"
+  },
+  {
+   "cid": 1635,
+   "file": "Scansione_20260518_0003.pdf",
+   "origine": "nativa",
+   "rerank": 0.5523831248283386,
+   "testo": "4.1 Esame macroscopico e stereomicroscopico (MI-CE-001 rev. 3)\nFrammento di materiale polimerico di colore azzurro, aspetto gommoso-elastico, superficie\nliscia con una faccia debolmente striata, bordi netti da lacerazione. Dimensioni misurate:\n9,2 x 4,1 x 1,8 mm. Massa: 0,081 g. Il frammento non presenta carbonizzazioni né tracce di\ncottura superficiale. Non magnetico. Prova di densità: galleggiamento negativo in acqua\n(densità stimata > 1,1 g/cm³).\n4.2 Spettroscopia FT-IR in riflettanza totale attenuata (ATR) (MI-CE-004 rev. 5)\nStrumento: spettrofotometro FT-IR con accessorio ATR a cristallo di diamante, intervallo\n4000-400 cm⁻¹, risoluzione 4 cm⁻¹, 32 scansioni. Lo spettro acquisito sulla superficie e sulla\nsezione del frammento mostra bande di assorbimento intense e caratteristiche nella regione\n1250-1100 cm⁻¹ attribuibili allo stiramento dei legami C-F, con assenza delle bande tipiche\ndei legami C-H alifatici di polimeri poliolefinici. Il confronto con le librerie spettrali in\ndotazione (indice di correlazione 0,912) e con spettri di riferimento interni indica:\nmateriale polimerico fluorurato — spettro compatibile con politetrafluoroetilene (PTFE)"
+  },
+  {
+   "cid": 1167,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "origine": "nativa",
+   "rerank": 0.34405285120010376,
+   "testo": "10/05/2026 - Linea 1\nTMC riportato in confezione\n24/06/2026\n3. Descrizione del reclamo (parole del reclamante)\nRinvenimento di frammento rigido di colore azzurro all'interno della confezione,\npercepito durante la masticazione. Nessuna lesione riportata. Il reclamante dichiara\ndi aver conservato il frammento e la confezione.\n4. Verifiche effettuate\nVerifica\nEsito\nData\nRichiesta del campione al reclamante\naccettato il ritiro, campione ricevuto\na mezzo corriere\n15/05/2026\nMisurazione del frammento\n~9 x 4 mm, spessore 1,5 mm, bordo di\nfrattura netto (prima stima da\nfotografia il 14/05)\n15/05/2026\nVerifica registrazioni CCP3\n(MOD-QA-07)\nverifiche orarie complete e conformi:\nil pericolo non e' metallico e non e'\ncoperto dal CCP3\n14/05/2026\nVerifica fermo macchina del 10/05\nfermo 15:05-18:45, sostituzione\nguarnizione\n14/05/2026\nInvio a laboratorio esterno per\nidentificazione\nrapporto 2026/04187\n18/05/2026\nRicostruzione a monte e a valle del\nlotto\nmass balance con scostamento aperto\n14/05/2026\n5. Valutazione del rischio\nCorpo estraneo rigido di dimensione superiore ai 7 mm, con bordi netti: rischio di lesione"
+  },
+  {
+   "cid": 1448,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "origine": "nativa",
+   "rerank": 0.21336880326271057,
+   "testo": "14/05/2026\nData di accettazione campioni\n14/05/2026 ore 16:40\nData inizio prove\n14/05/2026\nData fine prove\n21/05/2026\nData di emissione\n22/05/2026\n1. IDENTIFICAZIONE DEI CAMPIONI\nCampione A — accettazione n. 2026/04187/A\nDescrizione dichiarata: snack salato rustico multicereali 100 g in atmosfera protettiva,\ncodice articolo AF-SN-0450, lotto L26130-L1-T2, TMC 24/06/2026. Confezione integra in\nflow-pack, prelevata dal magazzino prodotto finito (controcampione di lotto).\nConfezioni ricevute: n. 4, integre. Peso netto dichiarato: 100 g cad.\nCampione B — accettazione n. 2026/04187/B\nDescrizione dichiarata: frammento di materiale estraneo di colore azzurro, dimensioni\nindicative 9 x 4 x 2 mm, rinvenuto dal consumatore all'interno di una confezione di prodotto\ncodice AF-SN-0450, lotto L26130, e riconsegnato al cliente unitamente alla confezione aperta.\nIl frammento è pervenuto in busta di sicurezza sigillata siglata dal cliente (sigillo n. 0642).\nCondizioni di trasporto e conservazione: contenitore isotermico, T all'accettazione +6,8 °C\n(campione A); il campione B è pervenuto a temperatura ambiente. Conservazione presso il"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4590,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.16,
+  "rerank": 47.93
+ },
+ "id": "Q029",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:12:34",
+ "secondi": 48.11,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 69.19,
+  "token_prompt": 1945,
+  "token_risposta": 81,
+  "testo_grezzo": "Il frammento di materiale polimerico di colore azzurro aveva dimensioni misurate: 9,2 x 4,1 x 1,8 mm. Massa: 0,081 g.\n\nFONTI: Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf, Scansione_20260518_0003.pdf",
+  "fonti_citate": [
+   "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "Scansione_20260518_0003.pdf"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

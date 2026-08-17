@@ -1,0 +1,682 @@
+{
+ "domanda": "Quando ci esce il saldo del tunnel, secondo i vari documenti?",
+ "candidati_densi": [
+  {
+   "cid": 1782,
+   "punteggio": 0.59347001014734,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1629,
+   "punteggio": 0.5925883378752925,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 125,
+   "punteggio": 0.5749268845579424,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 173,
+   "punteggio": 0.5610151138610103,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1781,
+   "punteggio": 0.5507617532648446,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1862,
+   "punteggio": 0.535908653772534,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 174,
+   "punteggio": 0.5309458463507968,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 524,
+   "punteggio": 0.5068140313383941,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1813,
+   "punteggio": 0.5029254868197652,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1807,
+   "punteggio": 0.49385516440083466,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 528,
+   "punteggio": 0.4926227925724619,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 398,
+   "punteggio": 0.48837570235899397,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1627,
+   "punteggio": 0.4846859825733202,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1213,
+   "punteggio": 0.48405868483684555,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 527,
+   "punteggio": 0.48379708573216956,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1460,
+   "punteggio": 0.4830084321221845,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 166,
+   "punteggio": 0.47943827740931777,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1221,
+   "punteggio": 0.47750697575487344,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1220,
+   "punteggio": 0.4765273891939896,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 327,
+   "punteggio": 0.47582509420645236,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 16,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1366,
+   "punteggio": 19.01457405090332,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1113,
+   "punteggio": 18.872209548950195,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1545,
+   "punteggio": 16.38225746154785,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 607,
+   "punteggio": 15.9025297164917,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1099,
+   "punteggio": 14.3594388961792,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1226,
+   "punteggio": 14.315214157104492,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1110,
+   "punteggio": 13.98396110534668,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1837,
+   "punteggio": 13.539734840393066,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1811,
+   "punteggio": 13.474608421325684,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 528,
+   "punteggio": 13.131455421447754,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1145,
+   "punteggio": 12.925000190734863,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 27,
+   "origine": "nativa"
+  },
+  {
+   "cid": 255,
+   "punteggio": 12.80086612701416,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1310,
+   "punteggio": 12.669364929199219,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 430,
+   "punteggio": 12.607460975646973,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1240,
+   "punteggio": 12.452616691589355,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1263,
+   "punteggio": 12.296249389648438,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 577,
+   "punteggio": 11.903644561767578,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1232,
+   "punteggio": 11.660517692565918,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1832,
+   "punteggio": 11.604649543762207,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1225,
+   "punteggio": 11.505697250366211,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 1,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 528,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.028370221327967807,
+   "rango_denso": 11,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1113,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1629,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 125,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1545,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 173,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 607,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1099,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1226,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1862,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 174,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 524,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1837,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1811,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1813,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1807,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1145,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 27,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 255,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 398,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1310,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.08659786731004715
+  },
+  {
+   "cid": 125,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "rerank": 0.08265460282564163
+  },
+  {
+   "cid": 1629,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "rerank": 0.030885236337780952
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.025249259546399117
+  },
+  {
+   "cid": 524,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "rerank": 0.02066979743540287
+  },
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.02066282369196415
+  },
+  {
+   "cid": 398,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "rerank": 0.01399257592856884
+  },
+  {
+   "cid": 174,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "rerank": 0.011545653454959393
+  },
+  {
+   "cid": 173,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "rerank": 0.00892331451177597
+  },
+  {
+   "cid": 528,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "rerank": 0.008307937532663345
+  },
+  {
+   "cid": 1862,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.006905548274517059
+  },
+  {
+   "cid": 1226,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.0050757392309606075
+  },
+  {
+   "cid": 1545,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "rerank": 0.004763713106513023
+  },
+  {
+   "cid": 1813,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.004700687248259783
+  },
+  {
+   "cid": 1807,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.003874025074765086
+  },
+  {
+   "cid": 607,
+   "file": "job_description_responsabile_produzione.docx",
+   "rerank": 0.00288298144005239
+  },
+  {
+   "cid": 1837,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.0006788361351937056
+  },
+  {
+   "cid": 1811,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.000655370531603694
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.0002535720996093005
+  },
+  {
+   "cid": 1145,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.00019028972019441426
+  },
+  {
+   "cid": 1113,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.00010803699115058407
+  },
+  {
+   "cid": 1099,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "rerank": 5.798135316581465e-05
+  },
+  {
+   "cid": 255,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "rerank": 4.4807587983086705e-05
+  },
+  {
+   "cid": 1310,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "rerank": 4.3122025090269744e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "origine": "nativa",
+   "rerank": 0.08659786731004715,
+   "testo": "qualche referenza di Tosano siamo all osso, va bene, lo so, ma il fatturato fa massa\ncritica e la massa critica fa potere contrattuale, l ho sempre detto\n\nla Trentin dice anche che il conto è in tensione per via dell acconto del tunnel, i\nfamosi 87mila di Criotech, e che Tosano ci paga a 90 giorni e l incasso grosso di marzo\nentra solo il 10 giugno, lo so, lo so tutto, ma la tensione di cassa è normale per chi\ncresce, io nel 96 ho fatto tre mesi senza stipendio per pagare il forno nuovo e vostra\nmadre non mi ha mai detto niente santa donna, adesso appena il conto scende sotto una\ncerta soglia sembra che caschi il mondo, abbiamo 250mila di fido e 400 di anticipo\nfatture, le banche i soldi te li danno quando dimostri che sai dove vai, e noi sappiamo\ndove andiamo, o meglio IO so dove vado e voglio che lo sappiate anche voi\n\nTERZO PUNTO questa storia della plastica\n\nquesta storia della plastica mi ha fatto passare la notte in bianco, non ve l ho detto\nma mercoledi non ho dormito, alle tre ero in cucina a guardare il muro, perche non è\nla signora di Bussolengo il problema, una signora arrabbiata la gestisci, le mandi due"
+  },
+  {
+   "cid": 125,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "origine": "nativa",
+   "rerank": 0.08265460282564163,
+   "testo": "corrisposto compensi a sindaci ne' anticipazioni o crediti agli amministratori.\nFATTI DI RILIEVO AVVENUTI DOPO LA CHIUSURA DELL'ESERCIZIO\nIn data 08/05/2026 la societa' ha sottoscritto l'ordine di acquisto di un tunnel di\nsurgelazione a spirale per un corrispettivo di Euro 290.000 oltre IVA, la cui consegna\ne' prevista nel mese di settembre 2026. L'investimento sara' interamente rilevato\nnell'esercizio 2026. Nel medesimo esercizio si e' aperta una interlocuzione con le\nrappresentanze sindacali in materia di prestazioni di lavoro straordinario; alla data\ndi redazione del presente bilancio non sussistono passivita' probabili quantificabili,\ne non si e' pertanto proceduto ad alcun accantonamento.\nPROPOSTA DI DESTINAZIONE DELL'UTILE\nSignori Soci, il bilancio che sottoponiamo alla Vostra approvazione evidenzia un utile\nd'esercizio di Euro 508.941. Considerato che la riserva legale ha gia' raggiunto il\nquinto del capitale sociale ai sensi dell'art. 2430 c.c., Vi proponiamo di destinare\nl'intero importo di Euro 508.941 a riserva straordinaria.\nCologna Veneta, 12 maggio 2026\nIl Presidente del Consiglio di Amministrazione\n_______________________________\nGiancarlo Bertoldi"
+  },
+  {
+   "cid": 1629,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "origine": "nativa",
+   "rerank": 0.030885236337780952,
+   "testo": "riepilogo mio a matita - NON e' contabilita';;;;;;;;;\n;incassi attesi giugno (se Tosano paga il 10 e i 3 insoluti rientrano);;;;154.281,29;;;;somma mia veloce, da ricontrollare\n;uscite giugno (senza F24 fa gia' paura lo stesso);;;;178.902,44;;;;sbilancio ~24.621 + F24 68.414 = anticipo fatture ancora su, rientra a luglio con le RIBA Tosano di aprile\n;nb insoluti totali aperti;;;;8.229,04;;;;3 posizioni: Grossmarket 3.412,60 + Perin 1.876,44 + Cavazza 2.940,00\n;promemoria: appendice macchinari Generali PRIMA della consegna tunnel (settembre);;;;;;;;"
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.025249259546399117,
+   "testo": "[00:07:10] PARLANTE_3: e se invece e nostra e aspettiamo e nel frattempo un bambino si rompe un dente chi va a firmare marco tu o io\n[00:07:16] PARLANTE_2: [incomprensibile]\n[00:07:18] PARLANTE_1: [rumore di sedia] calmi\n[00:07:21] PARLANTE_4: la via di mezzo c'e si chiama ritiro cautelativo lo vestiamo da eccesso di prudenza verso il cliente non da ammissione\n[00:07:28] PARLANTE_1: quanto ci costa\n[00:07:30] PARLANTE_6: nicola ha fatto un conto veloce tra logistica smaltimento riaccrediti e il lavoro nostro siamo sull'ordine dei trentamila trentacinquemila\n[00:07:38] PARLANTE_5: trentunmilacinquecento per la precisione e l'ho messo su un foglio che vi giro dopo (con dentro anche il trasporto di ritorno che nicola si era dimenticato)\n[00:07:46] PARLANTE_1: trentunmila e cinque proprio nel mese che dobbiamo dare l'acconto a crio tec\n[00:07:51] PARLANTE_5: eh appunto volevo arrivarci io giancarlo posso dire due cose sulla cassa\n[00:07:55] PARLANTE_1: di pure luisa tanto ormai\n[00:07:58] PARLANTE_5: allora l'acconto sul tunnel a spirale e il trenta per cento di duecentonovantamila quindi ottantasettemila euro e crio tec li vuole entro fine maggio se no slitta la consegna"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4054,
+ "tempi": {
+  "denso": 0.01,
+  "sparso": 0.17,
+  "rerank": 41.34
+ },
+ "id": "Q150",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:48:29",
+ "secondi": 41.52,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 55.49,
+  "token_prompt": 1725,
+  "token_risposta": 106,
+  "testo_grezzo": "Il saldo del tunnel non è specificato con precisione nei documenti forniti. Non è possibile determinare la data esatta di uscita del saldo del tunnel, poiché i documenti non forniscono informazioni su questo argomento.\n\nFONTI: mail_titolare_Aurora_visione_aziendale_5anni.txt, bilancio_esercizio_2025_deposito_CCIAA.pdf, scadenzario_effetti_RIBA_giugno26.csv",
+  "fonti_citate": [
+   "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "scadenzario_effetti_RIBA_giugno26.csv"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

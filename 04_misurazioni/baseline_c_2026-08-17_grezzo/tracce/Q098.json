@@ -1,0 +1,681 @@
+{
+ "domanda": "Quanti corsi risultano in scadenza e quali sono?",
+ "candidati_densi": [
+  {
+   "cid": 1315,
+   "punteggio": 0.5353921370533823,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 523,
+   "punteggio": 0.5206674318841714,
+   "file": "Fwd_newsletter_confindustria_marzo.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1478,
+   "punteggio": 0.5189648048737885,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1433,
+   "punteggio": 0.5123591667772751,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1824,
+   "punteggio": 0.5114740137819325,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1825,
+   "punteggio": 0.5046115683790662,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1851,
+   "punteggio": 0.5031358203512826,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 307,
+   "punteggio": 0.5018709981519694,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1854,
+   "punteggio": 0.5015724106049282,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1431,
+   "punteggio": 0.5009573088593371,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1614,
+   "punteggio": 0.48895751413405636,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1858,
+   "punteggio": 0.48779497333992955,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1859,
+   "punteggio": 0.4873209629017846,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 434,
+   "punteggio": 0.4864837181052348,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1434,
+   "punteggio": 0.48623412995365045,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1489,
+   "punteggio": 0.48571054250483414,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1310,
+   "punteggio": 0.4824817709585414,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1826,
+   "punteggio": 0.48103304007378067,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 109,
+   "punteggio": 0.47997506514354144,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 829,
+   "punteggio": 0.4785765493244142,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 7,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1423,
+   "punteggio": 14.159708976745605,
+   "file": "Prospetto_straordinari_gen-apr_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 336,
+   "punteggio": 13.320709228515625,
+   "file": "corso_inglese_aziendale_proposta.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1900,
+   "punteggio": 11.573331832885742,
+   "file": "volantino_convenzione_palestra.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1198,
+   "punteggio": 11.328498840332031,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1099,
+   "punteggio": 11.276138305664062,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1119,
+   "punteggio": 11.07284927368164,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1812,
+   "punteggio": 10.56037425994873,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 27,
+   "punteggio": 10.254669189453125,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 25,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1607,
+   "punteggio": 10.147757530212402,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1311,
+   "punteggio": 9.967171669006348,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 342,
+   "punteggio": 9.77481746673584,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1547,
+   "punteggio": 9.494196891784668,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1557,
+   "punteggio": 9.084010124206543,
+   "file": "ricetta_base_esperimento_snack_salato_v12.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1588,
+   "punteggio": 8.797566413879395,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "idx": 24,
+   "origine": "nativa"
+  },
+  {
+   "cid": 109,
+   "punteggio": 8.73395824432373,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1321,
+   "punteggio": 8.337698936462402,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 83,
+   "punteggio": 8.205512046813965,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 479,
+   "punteggio": 8.106463432312012,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1707,
+   "punteggio": 8.037270545959473,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1320,
+   "punteggio": 7.998623847961426,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 4,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 109,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.0259915611814346,
+   "rango_denso": 19,
+   "rango_sparso": 15
+  },
+  {
+   "cid": 1315,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1423,
+   "file": "Prospetto_straordinari_gen-apr_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 336,
+   "file": "corso_inglese_aziendale_proposta.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 523,
+   "file": "Fwd_newsletter_confindustria_marzo.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1478,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1900,
+   "file": "volantino_convenzione_palestra.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1198,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 20,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1433,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1099,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1824,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1119,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1825,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1812,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1851,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 27,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 25,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 307,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1607,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1854,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1311,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1431,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 342,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1614,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1547,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1198,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.04443684592843056
+  },
+  {
+   "cid": 523,
+   "file": "Fwd_newsletter_confindustria_marzo.txt",
+   "rerank": 0.013358579017221928
+  },
+  {
+   "cid": 1478,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "rerank": 0.012084060348570347
+  },
+  {
+   "cid": 1315,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "rerank": 0.002463839016854763
+  },
+  {
+   "cid": 336,
+   "file": "corso_inglese_aziendale_proposta.txt",
+   "rerank": 0.0023480344098061323
+  },
+  {
+   "cid": 1607,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.001904174336232245
+  },
+  {
+   "cid": 1433,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "rerank": 0.0013562312815338373
+  },
+  {
+   "cid": 1547,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "rerank": 0.001137903076596558
+  },
+  {
+   "cid": 1851,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.0011009459849447012
+  },
+  {
+   "cid": 109,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "rerank": 0.0007739014108665287
+  },
+  {
+   "cid": 1431,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "rerank": 0.0006919960724189878
+  },
+  {
+   "cid": 1423,
+   "file": "Prospetto_straordinari_gen-apr_2026.xlsx",
+   "rerank": 0.0005853028269484639
+  },
+  {
+   "cid": 342,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "rerank": 0.00037245461135171354
+  },
+  {
+   "cid": 1854,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.0003551464469637722
+  },
+  {
+   "cid": 1900,
+   "file": "volantino_convenzione_palestra.txt",
+   "rerank": 0.0002838782384060323
+  },
+  {
+   "cid": 1614,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.00023939109814818949
+  },
+  {
+   "cid": 307,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "rerank": 0.00021910041687078774
+  },
+  {
+   "cid": 1824,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "rerank": 0.0001786761567927897
+  },
+  {
+   "cid": 1311,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "rerank": 0.00016200533718802035
+  },
+  {
+   "cid": 1825,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "rerank": 0.00013711504288949072
+  },
+  {
+   "cid": 27,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 9.74569920799695e-05
+  },
+  {
+   "cid": 1812,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 7.794123666826636e-05
+  },
+  {
+   "cid": 1099,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "rerank": 2.6485262424102984e-05
+  },
+  {
+   "cid": 1119,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 1.732139935484156e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1198,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "origine": "nativa",
+   "rerank": 0.04443684592843056,
+   "testo": "NC-2026-079;28/04/2026;interna;Linea 1;Test tenuta MAP a campione: 1 confezione su 30 con perdita lenta, lotto ricontrollato al 10%;AF-SN-0450 L26117-L1-T2;media;pressione barra saldante irregolare (v. NC-2026-073);intervento su gruppo saldante anticipato;Zanella D.;05/05/2026;CHIUSA;410,00\nNC-2026-080;29/04/2026;interna;Amministrazione;Tensione di cassa: acconto Criotech 30% (87.000) in scadenza maggio con incasso Tosano marzo atteso 10/06, attivato anticipo fatture;;alta;sfasamento incassi RIBA 90 gg vs uscite CapEx;v. Trentin/Bertoldi, utilizzo linea anticipo fatture UniCredit;Trentin L.;;APERTA;N/D\nNC-2026-081;30/04/2026;interna;Linea 2;Registro formazione: 5 attestati HACCP in scadenza aprile non rinnovati;;media;calendario corsi slittato per turni promo;sessione recupero pianificata 21/05 (v. MOD-HR-11);Sartori F.;;APERTA;750,00\nNC-2026-082;04/05/2026;interna;Linea 1;Controllo O2 residuo confezioni: 2,4% su target 2,0% a inizio turno, ritarato in 20 min;AF-SN-0450 L26124-L1-T1;bassa;deriva flussimetro azoto;ritaratura, annotazione su registro macchina;Popescu I.;04/05/2026;CHIUSA;60,00\nTOTALE COSTI GEN-APR (parziale, v. foglio riepilogo);;;;;;;;;;;;24.815,00"
+  },
+  {
+   "cid": 523,
+   "file": "Fwd_newsletter_confindustria_marzo.txt",
+   "origine": "nativa",
+   "rerank": 0.013358579017221928,
+   "testo": "e conduttori di impianti.\n\n>> ENERGIA: CONSORZIO ACQUISTI\nAperte le adesioni per il gruppo d'acquisto energia elettrica 2027. Termine 15 aprile.\n\n>> AGENDA\n12/03 - Assemblea di categoria Alimentare, ore 17.00, sede\n19/03 - Webinar Transizione 5.0\n26/03 - Incontro con l'Agenzia delle Entrate su fatturazione e controlli\n09/04 - Corso \"La gestione dei reclami cliente\" (8 ore, quota associati 180 EUR)\n\n>> IN BREVE\n- Prorogato al 30/06 il termine per l'adeguamento dei registri\n- Nuove disposizioni sulla revisione periodica dei carrelli elevatori\n- Rinnovato l'accordo con l'ente bilaterale per la sanita' integrativa\n\nPer non ricevere piu' questa comunicazione, rispondere con oggetto CANCELLAMI.\n\n--------------------------------------------------------------------\nFwd: Federica Sartori -> Elena Marchetti, 06/03/2026 09:12\nElena, guarda il corso del 9 aprile sui reclami, magari ti interessa. 180 euro.\nFammi sapere entro fine mese che poi mi dimentico.\n\nFwd: Elena Marchetti, 06/03/2026 18:40\nVisto grazie. Segnamelo che ci vado, ma vediamo come siamo messi con l'audit di rinnovo.\nPiuttosto guarda quello sulla formazione finanziata, che il nostro piano formativo e'\nfermo da due anni."
+  },
+  {
+   "cid": 1478,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "origine": "nativa",
+   "rerank": 0.012084060348570347,
+   "testo": "SCADENZARIO FORMAZIONE OBBLIGATORIA - AURORA FOOD GROUP SRL;;;;;;;\nestrazione del 18/05/2026 da file formazione_master.xlsx foglio 2 - f.sartori;;;;;;;\nATTENZIONE: le scadenze HACCP seguono la procedura interna (3 anni) non un obbligo di legge regionale - v. nota Vicentini 2024;;;;;;;\nDipendente;Mansione;Corso;Data corso;Scadenza;Stato;Ente formatore;Note\nPopescu Ionut;Capoturno Linea 1;HACCP avanzato;12/06/2024;12/06/2027;VALIDO;Studio Alimentaria (Vicentini);\nPopescu Ionut;Capoturno Linea 1;Sicurezza specifica rischio alto 12h;03/02/2022;03/02/2027;VALIDO;Bonato & Partners;agg. 6h da fare entro scad.\nPopescu Ionut;Capoturno Linea 1;Preposto 8h;15/09/2023;15/09/2025;SCADUTO;Bonato & Partners;AGG. BIENNALE NON FATTO - urgente\nRossin Davide;Operaio Linea 1;HACCP base;20/04/2023;20/04/2026;SCADUTO;Studio Alimentaria (Vicentini);inserire nella sessione di giugno\nRossin Davide;Operaio Linea 1;Sicurezza specifica rischio alto 12h;10/05/2023;10/05/2028;VALIDO;Bonato & Partners;\nPerin Luca;Operaio Linea 1;HACCP base;20/04/2023;20/04/2026;SCADUTO;Studio Alimentaria (Vicentini);sessione giugno"
+  },
+  {
+   "cid": 1315,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "origine": "nativa",
+   "rerank": 0.002463839016854763,
+   "testo": "male. un motivo in piu' per sistemare la faccenda Linea 2 PRIMA di settembre,\nnon vorrei formare tre ragazzi per vederli scappare al primo turno festivo\n\npromemoria per me: la convenzione UNIPD di Meneghello scade il 12/12/2026,\nse la tesi va lunga serve proroga -> il modulo lo manda l'ufficio stage\ndi Agripolis, chiederlo per tempo\n\n(riprendere da qui lunedi, portare questa stampa alla riunione ma NON\nlasciarla in giro che ci sono i nomi)"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 3917,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.18,
+  "rerank": 40.22
+ },
+ "id": "Q098",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:08:38",
+ "secondi": 40.42,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 56.39,
+  "token_prompt": 1776,
+  "token_risposta": 75,
+  "testo_grezzo": "La domanda \"Quanti corsi risultano in scadenza e quali sono?\" non contiene informazioni specifiche su corsi in scadenza. Non e' possibile determinare la risposta senza ulteriori dati.\n\nFONTI: registro_presenze_corsi_HACCP_scaduti.csv, piano_turni_apprendisti_tecnologi_food.txt",
+  "fonti_citate": [
+   "registro_presenze_corsi_HACCP_scaduti.csv",
+   "piano_turni_apprendisti_tecnologi_food.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

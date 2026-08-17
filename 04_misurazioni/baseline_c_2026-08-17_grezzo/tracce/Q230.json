@@ -1,0 +1,681 @@
+{
+ "domanda": "Il film MAP usato sul lotto L26130 e' stato verificato? Con quale esito?",
+ "candidati_densi": [
+  {
+   "cid": 1769,
+   "punteggio": 0.5910864571791823,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 466,
+   "punteggio": 0.551100620263791,
+   "file": "estratto_registro_carico_scarico_MOCA.xlsx",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1074,
+   "punteggio": 0.5495920755711061,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 140,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1071,
+   "punteggio": 0.547212807339889,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 137,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1206,
+   "punteggio": 0.5442126408876328,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 28,
+   "origine": "nativa"
+  },
+  {
+   "cid": 937,
+   "punteggio": 0.5434381540821054,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1072,
+   "punteggio": 0.5422757596547547,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 138,
+   "origine": "nativa"
+  },
+  {
+   "cid": 942,
+   "punteggio": 0.5414031271432387,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 968,
+   "punteggio": 0.53867848354869,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 34,
+   "origine": "nativa"
+  },
+  {
+   "cid": 966,
+   "punteggio": 0.5382860146018206,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 32,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1067,
+   "punteggio": 0.5378640610423073,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 133,
+   "origine": "nativa"
+  },
+  {
+   "cid": 936,
+   "punteggio": 0.5366683136491961,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 955,
+   "punteggio": 0.5362184861211617,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 21,
+   "origine": "nativa"
+  },
+  {
+   "cid": 941,
+   "punteggio": 0.5357061400715732,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 944,
+   "punteggio": 0.5338366299748794,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 952,
+   "punteggio": 0.5335120013249524,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1073,
+   "punteggio": 0.530657344675535,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 139,
+   "origine": "nativa"
+  },
+  {
+   "cid": 980,
+   "punteggio": 0.5299845171993856,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 46,
+   "origine": "nativa"
+  },
+  {
+   "cid": 962,
+   "punteggio": 0.5294184529992518,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 28,
+   "origine": "nativa"
+  },
+  {
+   "cid": 935,
+   "punteggio": 0.529238801538261,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 1,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1713,
+   "punteggio": 20.092561721801758,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1770,
+   "punteggio": 19.77951431274414,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1168,
+   "punteggio": 18.254606246948242,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1806,
+   "punteggio": 17.362136840820312,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1206,
+   "punteggio": 15.960613250732422,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 28,
+   "origine": "nativa"
+  },
+  {
+   "cid": 192,
+   "punteggio": 15.874067306518555,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 551,
+   "punteggio": 15.668667793273926,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 415,
+   "punteggio": 15.501601219177246,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1809,
+   "punteggio": 15.419942855834961,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1126,
+   "punteggio": 15.287446975708008,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 619,
+   "punteggio": 14.900571823120117,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 159,
+   "punteggio": 14.769447326660156,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1771,
+   "punteggio": 14.368581771850586,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1099,
+   "punteggio": 14.346015930175781,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1191,
+   "punteggio": 14.322199821472168,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1341,
+   "punteggio": 14.221837997436523,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1702,
+   "punteggio": 13.690885543823242,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 628,
+   "punteggio": 13.395519256591797,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1536,
+   "punteggio": 13.33506965637207,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 617,
+   "punteggio": 13.282843589782715,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 6,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1206,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 28,
+   "origine": "nativa",
+   "rrf": 0.03076923076923077,
+   "rango_denso": 5,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1713,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1769,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 466,
+   "file": "estratto_registro_carico_scarico_MOCA.xlsx",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1770,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1074,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 140,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1168,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1071,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 137,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1806,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 192,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 937,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 551,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1072,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 138,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 415,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 942,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 968,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 34,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1809,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 966,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 32,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1126,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 619,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1067,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 133,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 159,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 936,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 955,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 21,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1206,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.9017465114593506
+  },
+  {
+   "cid": 1769,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "rerank": 0.8152942061424255
+  },
+  {
+   "cid": 1713,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.7668113112449646
+  },
+  {
+   "cid": 1770,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "rerank": 0.5405783653259277
+  },
+  {
+   "cid": 1168,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "rerank": 0.5223605632781982
+  },
+  {
+   "cid": 551,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "rerank": 0.26470324397087097
+  },
+  {
+   "cid": 936,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.24766530096530914
+  },
+  {
+   "cid": 1067,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.234223872423172
+  },
+  {
+   "cid": 1072,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.2269119918346405
+  },
+  {
+   "cid": 942,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.22659887373447418
+  },
+  {
+   "cid": 1074,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.21667557954788208
+  },
+  {
+   "cid": 955,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.213423952460289
+  },
+  {
+   "cid": 937,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.20590272545814514
+  },
+  {
+   "cid": 1071,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.19038188457489014
+  },
+  {
+   "cid": 966,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.17241191864013672
+  },
+  {
+   "cid": 968,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.17084844410419464
+  },
+  {
+   "cid": 619,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.1279638409614563
+  },
+  {
+   "cid": 466,
+   "file": "estratto_registro_carico_scarico_MOCA.xlsx",
+   "rerank": 0.12372931838035583
+  },
+  {
+   "cid": 415,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "rerank": 0.11597167700529099
+  },
+  {
+   "cid": 159,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "rerank": 0.07795945554971695
+  },
+  {
+   "cid": 192,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "rerank": 0.006146836560219526
+  },
+  {
+   "cid": 1809,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.00042842686525546014
+  },
+  {
+   "cid": 1126,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.00036434235516935587
+  },
+  {
+   "cid": 1806,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 1.9212704501114786e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1206,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "origine": "nativa",
+   "rerank": 0.9017465114593506,
+   "testo": "NC-2026-102;20/05/2026;interna;Laboratorio;Esito FTIR Analytica Veneta: frammento compatibile con elastomero guarnizione non originale, incompatibile con film MAP e con MOCA di linea;AF-SN-0450 L26130;critica;conferma origine interna (v. NC-2026-089);trasmissione esito a Tosano QA, aggiornamento relazione, decisione ritiro attesa da direzione;Marchetti E.;;APERTA;\nNC-2026-103;21/05/2026;interna;HR;Sessione recupero formazione HACCP erogata, 2 assenti su 9 per turni;;bassa;v. NC-2026-081;sessione integrativa 04/06;Sartori F.;;IN CORSO;\nNC-2026-104;22/05/2026;interna;Magazzino;Conteggio finale giacenze bloccate: 3.290 confezioni in stabilimento, 5.100 stimate a scaffale, riconciliazione con venduto Tosano in corso;AF-SN-0450 L26130 / L26131;alta;v. NC-2026-092;riconciliazione con dati sell-in Tosano, report a direzione;Faggionato N.;;APERTA;\nNC-2026-105;25/05/2026;fornitore;Qualità;Contestazione a Pakmatic: ricambio originale ordinato 08/05 consegnato 15/05 oltre termine urgenza concordato;F0077;media;disponibilita ricambio a magazzino fornitore;richiesta scorta ricambi critici in conto deposito;Dal Maso I.;;APERTA;"
+  },
+  {
+   "cid": 1769,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "origine": "nativa",
+   "rerank": 0.8152942061424255,
+   "testo": "TRACCIABILITÀ LOTTO L26130-L1-T2 - ricostruzione a monte\ncompilato in emergenza il 14/05/2026 da S. Pozzato su richiesta di E. Marchetti - DA VERIFICARE\n\n\nMateria prima Fornitore Lotto fornitore DDT ingresso Data ingresso Qtà impiegata UM TMC Certificato Note\nFarina tipo 0 W300 Molino Veneto SpA MV26-0429/A 48392 04/05/2026 840 kg 04/11/2026 CoA agli atti\nFarina tipo 0 W300 Molino Veneto SpA MV26-0431/B 48392 04/05/2026 210 kg 06/11/2026 CoA agli atti coda bancale precedente\nOlio girasole alto oleico Oleificio Adriatico SpA OA-2604-118 5521 28/04/2026 96 kg 28/10/2026 CoA agli atti\nSemi misti tostati Chemifood/terzi SM-26-0088 3312 22/04/2026 38 kg 22/02/2027\nLievito compresso Lievital Srl LV26-1180 9922 07/05/2026 21 kg 21/05/2026 consumato quasi a scadenza\nSale marino fino - SL-25-4410 - 12/03/2026 14.5 kg 12/03/2028\nFilm MAP PP/EVOH FLEXBAR 65 AZ Flexipack Nordest Srl FX26-0338 7741 30/04/2026 62 kg - DoC DC-2026-041 bobine n. 4 - usata anche su L26131\nVaschetta PP 100 g Flexipack Nordest Srl FX26-0290 7741 30/04/2026 8600 pz - DoC DC-2026-041\nAzoto alimentare E941 Nordgas SpA NG-26-0506 BN-4471 06/05/2026 42 m3 - CoA gas serbatoio S2\n\nimpasto totale teorico"
+  },
+  {
+   "cid": 1713,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "origine": "nativa",
+   "rerank": 0.7668113112449646,
+   "testo": "________________________________________\n\nDa: Elena Marchetti <e.marchetti@aurorafoodgroup.it>\nA: Marco Fantin <m.fantin@aurorafoodgroup.it>\nCc: Sara Pozzato <s.pozzato@aurorafoodgroup.it>\nInviato: giovedì 14 maggio 2026 19:12\nOggetto: REC-2026-011 - RISERVATA - prime evidenze interne\n\nMarco,\nti scrivo qui perché domani mattina voglio parlartene a voce prima della\nriunione, ma intanto metto in fila i fatti. RISERVATA, non inoltrare.\n\n1. Il frammento: la signora ha accettato il ritiro, il campione arriva\n   domani con il corriere. Dalla foto: plastica rigida, colore azzurro,\n   ca. 9 mm nella dimensione massima, bordo di frattura netto. Non è film MAP (il nostro è\n   trasparente), non è un componente del prodotto.\n2. Il lotto: L26130 = giorno 130 = 10/05/2026. L'AF-SN-0450 quel giorno è\n   stato prodotto SOLO su Linea 1, turni 1 e 2.\n3. E qui viene il punto. Dal MOD-PR-04 risulta che il 10/05 alle 15:05,\n   turno 2, la PKM-450 è stata ferma 3 h 40 per la rottura della valvola\n   di iniezione azoto - quella che Ivano aveva segnalato in perdita già\n   l'8/05. La riparazione l'ha fatta Ivano in emergenza. Sul modulo ha"
+  },
+  {
+   "cid": 1770,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "origine": "nativa",
+   "rerank": 0.5405783653259277,
+   "testo": "Azoto alimentare E941 Nordgas SpA NG-26-0506 BN-4471 06/05/2026 42 m3 - CoA gas serbatoio S2\n\nimpasto totale teorico\n\n(S.P.) il lotto lievito LV26-1180 scadeva il 21/05, verificare se è stato usato anche il 11/05\nDestinazione del prodotto finito - lotti L26130 e L26131\n\n\n\nLotto Cod. art. Pz prodotti DDT uscita Data Cliente Destinazione Pz spediti Stato Rintracciato\nL26130-L1-T2 AF-SN-0450 8940 2026/1188 11/05/2026 Tosano Cerea SpA CE.DI. Cerea (VR) 5100 A SCAFFALE parziale\nL26130-L1-T2 AF-SN-0450 2026/1191 11/05/2026 Alì SpA CE.DI. Padova 1440 BLOCCATO C/O CLIENTE sì\nL26130-L1-T2 AF-SN-0450 giacenza magazzino Aurora 1180 BLOCCATO QA sì\nL26130-L1-T2 AF-SN-0450 scarti di linea / campioni 220 DISTRUTTO sì\nL26131-L1-T2 AF-SN-0450 7620 2026/1204 12/05/2026 Tosano Cerea SpA CE.DI. Cerea (VR) 4260 A SCAFFALE parziale\nL26131-L1-T2 AF-SN-0450 2026/1206 12/05/2026 Rossetto Trade SpA CE.DI. Villafranca 980 RICHIAMATO sì\nL26131-L1-T2 AF-SN-0450 giacenza magazzino Aurora 2380 BLOCCATO QA sì\nBilancio di massa - verifica di quadratura (requisito BRCGS cl. 3.9.2)\n\n\n\nLotto Pz prodotti Pz spediti Pz in giacenza Pz distrutti Totale rendicontato Differenza Quadratura % Esito"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4615,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.18,
+  "rerank": 54.84
+ },
+ "id": "Q230",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:49:40",
+ "secondi": 55.04,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 46.16,
+  "token_prompt": 2156,
+  "token_risposta": 50,
+  "testo_grezzo": "Il film MAP usato sul lotto L26130 non è stato verificato.\n\nFONTI: tracciabilita_lotti_massbalance_L26130.xlsx, segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+  "fonti_citate": [
+   "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "segnalazione_qualita_cliente_privato_corpo_estraneo.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

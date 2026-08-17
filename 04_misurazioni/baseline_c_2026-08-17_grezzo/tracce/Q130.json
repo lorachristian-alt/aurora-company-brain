@@ -1,0 +1,683 @@
+{
+ "domanda": "Quanto abbiamo risparmiato sulla penale del CE.DI. e quanto pesa il ritardo dell'olio?",
+ "candidati_densi": [
+  {
+   "cid": 273,
+   "punteggio": 0.5206290948503309,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 277,
+   "punteggio": 0.5039359945142126,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 275,
+   "punteggio": 0.48988743809193497,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 619,
+   "punteggio": 0.4890200771922554,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 14,
+   "punteggio": 0.4784924324113518,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1781,
+   "punteggio": 0.47691626573978085,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1375,
+   "punteggio": 0.4739207711977605,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1380,
+   "punteggio": 0.4707913153014114,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1378,
+   "punteggio": 0.4694987732503379,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1526,
+   "punteggio": 0.46729444936704234,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1802,
+   "punteggio": 0.463731710767565,
+   "file": "verbale_assemblea_condominio_capannone.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 206,
+   "punteggio": 0.46291301082151637,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 446,
+   "punteggio": 0.46291274664744175,
+   "file": "estratto_conto_unicredit_maggio26.csv",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1828,
+   "punteggio": 0.4614593974660291,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1263,
+   "punteggio": 0.460475066904008,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1373,
+   "punteggio": 0.4594445478665077,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 326,
+   "punteggio": 0.4554254609476611,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1546,
+   "punteggio": 0.4528505386728209,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 81,
+   "punteggio": 0.45220876373362784,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 168,
+   "punteggio": 0.4518518446414886,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 277,
+   "punteggio": 26.549306869506836,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 273,
+   "punteggio": 22.704713821411133,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 14,
+   "punteggio": 21.956750869750977,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 30,
+   "punteggio": 21.8616943359375,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 28,
+   "origine": "nativa"
+  },
+  {
+   "cid": 275,
+   "punteggio": 20.694360733032227,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1353,
+   "punteggio": 20.665550231933594,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1352,
+   "punteggio": 20.629335403442383,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1710,
+   "punteggio": 19.998586654663086,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1835,
+   "punteggio": 19.197246551513672,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 21,
+   "punteggio": 19.139415740966797,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 434,
+   "punteggio": 18.099470138549805,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1188,
+   "punteggio": 17.898115158081055,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 9,
+   "punteggio": 17.84491539001465,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1443,
+   "punteggio": 17.59134864807129,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 13,
+   "punteggio": 17.411670684814453,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 12,
+   "punteggio": 17.355592727661133,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 206,
+   "punteggio": 17.049442291259766,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 326,
+   "punteggio": 16.904804229736328,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 325,
+   "punteggio": 16.60959243774414,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1340,
+   "punteggio": 16.262487411499023,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 5,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 273,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.03252247488101534,
+   "rango_denso": 1,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 277,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.03252247488101534,
+   "rango_denso": 2,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 14,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.03125763125763126,
+   "rango_denso": 5,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 275,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.03125763125763126,
+   "rango_denso": 3,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 206,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.026875901875901876,
+   "rango_denso": 12,
+   "rango_sparso": 17
+  },
+  {
+   "cid": 326,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.025807525807525808,
+   "rango_denso": 17,
+   "rango_sparso": 18
+  },
+  {
+   "cid": 30,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 28,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 619,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1353,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1352,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1375,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1380,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1710,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1378,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1835,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 21,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1526,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1802,
+   "file": "verbale_assemblea_condominio_capannone.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1188,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 9,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 446,
+   "file": "estratto_conto_unicredit_maggio26.csv",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1443,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 277,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.3256811201572418
+  },
+  {
+   "cid": 273,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.19071198999881744
+  },
+  {
+   "cid": 275,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.12020392715930939
+  },
+  {
+   "cid": 1188,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.03132956102490425
+  },
+  {
+   "cid": 14,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.030939776450395584
+  },
+  {
+   "cid": 619,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.013788722455501556
+  },
+  {
+   "cid": 1443,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "rerank": 0.007532565388828516
+  },
+  {
+   "cid": 206,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "rerank": 0.006957924924790859
+  },
+  {
+   "cid": 1710,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.0036783290561288595
+  },
+  {
+   "cid": 1353,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "rerank": 0.0036387015134096146
+  },
+  {
+   "cid": 1352,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "rerank": 0.0032768549863249063
+  },
+  {
+   "cid": 21,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.0029773840215057135
+  },
+  {
+   "cid": 9,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.002109488006681204
+  },
+  {
+   "cid": 326,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.0014837175840511918
+  },
+  {
+   "cid": 30,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.0011030156165361404
+  },
+  {
+   "cid": 1375,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "rerank": 0.0008665348286740482
+  },
+  {
+   "cid": 1380,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "rerank": 0.0007584134582430124
+  },
+  {
+   "cid": 1378,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "rerank": 0.0003895058180205524
+  },
+  {
+   "cid": 1835,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.00017272548575419933
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.00015128149243537337
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 8.611759403720498e-05
+  },
+  {
+   "cid": 446,
+   "file": "estratto_conto_unicredit_maggio26.csv",
+   "rerank": 7.971336162881926e-05
+  },
+  {
+   "cid": 1526,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 3.324106728541665e-05
+  },
+  {
+   "cid": 1802,
+   "file": "verbale_assemblea_condominio_capannone.txt",
+   "rerank": 2.2138501662993804e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 277,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "origine": "nativa",
+   "rerank": 0.3256811201572418,
+   "testo": "comunicazione.\n\n> -----Messaggio originale-----\n> Da: Vantini Luca <l.vantini@tosano.it>\n> Inviato: venerdì 8 maggio 2026 14:07\n> A: Nicola Faggionato <n.faggionato@aurorafoodgroup.it>\n> Cc: Perbellini Anna <a.perbellini@tosano.it>; s.bertoldi@aurorafoodgroup.it\n> Oggetto: R: CONTESTAZIONE FORMALE - mancato rispetto finestra di scarico 07/05\n>\n> Sig. Faggionato,\n>\n> il verbale della Polstrada riguarda il VOSTRO vettore, non il CE.DI. Tosano.\n> Io giovedì alle 11:30 avevo la baia 14 VUOTA e prenotata a nome vostro, con\n> due persone ferme ad aspettare un camion che e' arrivato alle 15:34.\n>\n> IL PROBLEMA NON E' IL PERCHE' DEL RITARDO. E' CHE NESSUNO HA AVVISATO.\n> La prima telefonata l'abbiamo fatta NOI alle 12:10, e il vs. numero di\n> emergenza trasporti non rispondeva. Il vs. autista non aveva il numero del\n> CE.DI. Il vettore ci ha risposto alle 13 dicendo \"sta arrivando\" (falso,\n> era ancora fermo a Nogarole).\n>\n> Quindi confermo integralmente:\n> - addebito penale 250,00 euro come da condizioni generali di fornitura;\n> - segnalazione nel vendor rating (parametro puntualita' consegne);\n> - alla terza segnalazione nell'anno solare scatta la revisione della"
+  },
+  {
+   "cid": 273,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "origine": "nativa",
+   "rerank": 0.19071198999881744,
+   "testo": "Da: Vantini Luca <l.vantini@tosano.it>\nA: Nicola Faggionato <n.faggionato@aurorafoodgroup.it>; Silvia Bertoldi <s.bertoldi@aurorafoodgroup.it>\nCc: Perbellini Anna <a.perbellini@tosano.it>; ricevimento.cerea@tosano.it\nInviato: lunedì 11 maggio 2026 08:52\nOggetto: R: R: R: CONTESTAZIONE FORMALE - mancato rispetto finestra di scarico 07/05 - vs. fornitore cod. 60118\n\nBuongiorno,\nprendo atto della disponibilità della dott.ssa Bertoldi e la ringrazio per il tono,\nche non era quello delle mail precedenti del vs. ufficio logistica.\n\nConfermo quanto concordato telefonicamente:\n1) la penale di 250,00 euro viene ridotta a 150,00 euro in nota di accredito\n   sulla prima fattura utile, COME DA CONTRATTO quadro art. 11.3;\n2) il punteggio vendor rating per il mese di maggio resta penalizzato (non\n   posso toccarlo io, lo calcola il sistema in automatico);\n3) alla prossima consegna fuori finestra SENZA preavviso di almeno 2 ore il\n   camion torna indietro. Non ho altre soluzioni, ho 42 baie e 180 mezzi al giorno.\n\nResto in attesa del nominativo del vs. referente trasporti da inserire nella\nrubrica emergenze del CE.DI. (quello attuale non risponde mai dopo le 17).\n\nCordiali saluti\n\nLuca Vantini"
+  },
+  {
+   "cid": 275,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "origine": "nativa",
+   "rerank": 0.12020392715930939,
+   "testo": "Oggetto: R: R: CONTESTAZIONE FORMALE - mancato rispetto finestra di scarico 07/05 - vs. fornitore cod. 60118\n\nGentile sig. Vantini,\nintervengo personalmente perché il rapporto con il Gruppo Tosano per noi viene\nprima di qualsiasi discussione su una penale.\n\nIl ritardo di giovedì c'è stato, ed è oggettivo: non lo contestiamo. Il nostro\nresponsabile logistica le ha girato la documentazione del vettore (fermo per\ncontrollo Polstrada con verifica del cronotachigrafo, verbale alla mano) non\nper \"cercare scuse\" ma per mostrarle che non c'è stata leggerezza da parte\nnostra: il mezzo era partito in orario e la catena del freddo, come vede dal\ntracciato del termoregistratore allegato alla mail del sig. Faggionato, non si\nè mai interrotta (prodotto sempre tra -19,8 e -18,2 gradi).\n\nDetto questo, capisco perfettamente il problema che un fuori finestra crea a\nun CE.DI. delle vostre dimensioni, e non intendo scaricarlo sul vettore.\n\nLe propongo:\n- accettiamo l'addebito nella misura che il contratto quadro prevede per il\n  primo evento (art. 11.3), non i 250 euro indicati nella contestazione;\n- da lunedì il nostro magazzino vi comunicherà la partenza di OGNI mezzo"
+  },
+  {
+   "cid": 1188,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "origine": "nativa",
+   "rerank": 0.03132956102490425,
+   "testo": "NC-2026-039;03/03/2026;interna;CIP;IO-05 non seguita in fase risciacquo finale, conducibilita fuori soglia al primo test;;media;operatore nuovo turno notte;affiancamento, ripetizione lavaggio;Dal Maso I.;04/03/2026;CHIUSA;160,00\nNC-2026-040;2026-03-04;fornitore;Ricevimento merci;Lievito Lievital consegnato con shelf life residua 40% sotto accordo 60%;F0029;bassa;errore picking fornitore;accettazione in deroga con consumo prioritario;Pozzato S.;04/03/2026;CHIUSA;0\nNC-2026-041;05/03/2026;interna;Linea 2;Ordine straordinario Tosano promo: cambio formato non pianificato, 40 min fermo per attrezzaggio;AF-CR-0215;bassa;pianificazione ordini promo tardiva;riunione settimanale produzione-commerciale;Zanella D.;12/03/2026;CHIUSA;480,00\nNC-2026-042;06/03/2026;interna;Spedizioni;Ritardo consegna CE.DI. Tosano Cerea: slot ore 7:30 mancato, camion arrivato 10:52, carico respinto e riprenotato;AF-CR-0215 L26061-L2-T2;alta;vettore Trasporti Frigo Veneto partito in ritardo + coda tangenziale;contestazione a vettore, v. pratica logistica, penale Tosano in valutazione;Faggionato N.;;APERTA;1.750,00"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4637,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.17,
+  "rerank": 43.47
+ },
+ "id": "Q130",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:33:40",
+ "secondi": 43.66,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 60.89,
+  "token_prompt": 1944,
+  "token_risposta": 61,
+  "testo_grezzo": "Il ritardo dell'olio pesa 1.750,00 euro.\n\nFONTI: contestazione_logistica_Tosano_ritardo_Cerea.txt, NC-2026-042;06/03/2026;interna;Spedizioni\n\nCONFIDENZA: alta",
+  "fonti_citate": [
+   "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "NC-2026-042;06/03/2026;interna;Spedizioni"
+  ],
+  "fonti_fuori_contesto": [
+   "NC-2026-042;06/03/2026;interna;Spedizioni"
+  ],
+  "confidenza": "alta"
+ }
+}

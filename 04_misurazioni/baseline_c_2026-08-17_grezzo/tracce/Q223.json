@@ -1,0 +1,683 @@
+{
+ "domanda": "Se accettassimo il -4,5% chiesto dal buyer, cosa succede al cornetto AF-CR-0215?",
+ "candidati_densi": [
+  {
+   "cid": 1421,
+   "punteggio": 0.6263403322377222,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1829,
+   "punteggio": 0.6228744603693964,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 680,
+   "punteggio": 0.6169291918855124,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1828,
+   "punteggio": 0.614760106153372,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1251,
+   "punteggio": 0.6138623681630349,
+   "file": "Ordine_Tosano_2026_PRM_118_119_120.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 557,
+   "punteggio": 0.613522156476693,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 525,
+   "punteggio": 0.6099657361265813,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1833,
+   "punteggio": 0.605913296615769,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 258,
+   "punteggio": 0.603734265123967,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1837,
+   "punteggio": 0.5982585503025019,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 45,
+   "punteggio": 0.5973542280830384,
+   "file": "analisi_marginalita_per_referenza_2026.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1832,
+   "punteggio": 0.5958111424152673,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 566,
+   "punteggio": 0.5955444763124702,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 662,
+   "punteggio": 0.5953297152804207,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 673,
+   "punteggio": 0.5940983397958659,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 36,
+   "punteggio": 0.5927353480883399,
+   "file": "anagrafica_articoli_export_gestionale.xlsx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1866,
+   "punteggio": 0.5913923134109846,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 654,
+   "punteggio": 0.5904577693877653,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 564,
+   "punteggio": 0.5881456642883298,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 37,
+   "punteggio": 0.5823531625744864,
+   "file": "anagrafica_articoli_export_gestionale.xlsx",
+   "idx": 5,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 666,
+   "punteggio": 27.808021545410156,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1339,
+   "punteggio": 25.290756225585938,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1416,
+   "punteggio": 24.806093215942383,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1571,
+   "punteggio": 24.72150993347168,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1415,
+   "punteggio": 24.263668060302734,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 68,
+   "punteggio": 23.383922576904297,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 63,
+   "punteggio": 23.356700897216797,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 60,
+   "punteggio": 23.1946964263916,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 54,
+   "punteggio": 23.156280517578125,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 57,
+   "punteggio": 23.146154403686523,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 567,
+   "punteggio": 23.10480499267578,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 21,
+   "origine": "nativa"
+  },
+  {
+   "cid": 566,
+   "punteggio": 23.096576690673828,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 78,
+   "punteggio": 23.00237464904785,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "idx": 28,
+   "origine": "nativa"
+  },
+  {
+   "cid": 73,
+   "punteggio": 23.00237464904785,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "idx": 23,
+   "origine": "nativa"
+  },
+  {
+   "cid": 652,
+   "punteggio": 22.765478134155273,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 565,
+   "punteggio": 22.75613021850586,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 684,
+   "punteggio": 22.683717727661133,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1418,
+   "punteggio": 22.611663818359375,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 44,
+   "punteggio": 22.479642868041992,
+   "file": "analisi_marginalita_per_referenza_2026.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1866,
+   "punteggio": 22.398719787597656,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 0,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 566,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 20,
+   "origine": "nativa",
+   "rrf": 0.02758751902587519,
+   "rango_denso": 13,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1866,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.02548701298701299,
+   "rango_denso": 17,
+   "rango_sparso": 20
+  },
+  {
+   "cid": 666,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1421,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1339,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1829,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 680,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1416,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1571,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1828,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1251,
+   "file": "Ordine_Tosano_2026_PRM_118_119_120.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1415,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 68,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "idx": 18,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 557,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 63,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 525,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 60,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1833,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 54,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 258,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 57,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1837,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 45,
+   "file": "analisi_marginalita_per_referenza_2026.xlsx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 567,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 21,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 666,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "rerank": 0.9122743606567383
+  },
+  {
+   "cid": 1421,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "rerank": 0.8632521033287048
+  },
+  {
+   "cid": 1833,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.755276083946228
+  },
+  {
+   "cid": 1829,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.7373746037483215
+  },
+  {
+   "cid": 1837,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.675786018371582
+  },
+  {
+   "cid": 45,
+   "file": "analisi_marginalita_per_referenza_2026.xlsx",
+   "rerank": 0.6251057982444763
+  },
+  {
+   "cid": 680,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "rerank": 0.5786997079849243
+  },
+  {
+   "cid": 1828,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.43308866024017334
+  },
+  {
+   "cid": 1415,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "rerank": 0.41988903284072876
+  },
+  {
+   "cid": 1339,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "rerank": 0.36069416999816895
+  },
+  {
+   "cid": 1416,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "rerank": 0.34299105405807495
+  },
+  {
+   "cid": 54,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "rerank": 0.29639291763305664
+  },
+  {
+   "cid": 63,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "rerank": 0.28809651732444763
+  },
+  {
+   "cid": 1571,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "rerank": 0.274843692779541
+  },
+  {
+   "cid": 68,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "rerank": 0.27462825179100037
+  },
+  {
+   "cid": 57,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "rerank": 0.2744886577129364
+  },
+  {
+   "cid": 1866,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "rerank": 0.2680143713951111
+  },
+  {
+   "cid": 567,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "rerank": 0.2599810063838959
+  },
+  {
+   "cid": 566,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "rerank": 0.24405963718891144
+  },
+  {
+   "cid": 557,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "rerank": 0.2259988933801651
+  },
+  {
+   "cid": 60,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "rerank": 0.21061833202838898
+  },
+  {
+   "cid": 258,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "rerank": 0.1814705729484558
+  },
+  {
+   "cid": 1251,
+   "file": "Ordine_Tosano_2026_PRM_118_119_120.pdf",
+   "rerank": 0.07714841514825821
+  },
+  {
+   "cid": 525,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "rerank": 0.006761570461094379
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 666,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "origine": "nativa",
+   "rerank": 0.9122743606567383,
+   "testo": ";;;;;;;;;;;;;;;;;\n### appunti liberi in coda (Zampieri/Trentin);;;;;;;;;;;;;;;;;\nnota;;AF-CR-0215;il costo 1,7230 e' di GENNAIO. burro +20% da allora (Latteria Bassanese) e girasole +11% (lettera Oleificio Adriatico) ? costo vero stimato 1,8005-1,8295. col -4,5% chiesto dal buyer si va sotto di 10-13 cent A PEZZO;;;;;;;;;;;;;;L.T. 06/05/26\nnota;;AF-SN-0455;se listing 12.000 su 24 mesi e 65.000 pz/anno = 0,0923 €/pz di costo in piu' i primi 2 anni. col margine a 0,0484 NON rientra. serve o piu' prezzo o piu' volume;;;;;;;;;;;;;;L.T. 06/05/26 (conto veloce, da rifare bene)\nnota;;AF-FC-0330;proposta promo settembre inserita sopra. se Tosano delista comunque, capacita' linea 1 libera ? spingere su Alì?;;;;;;;;;;;;;;P.Z.\nnota;;tutte;ricordarsi SFA in fase di budget: Tosano 2% Alì 1,5% Famila 2% - il file budget di Luisa li ha gia' dentro, NON contarli due volte;;;;;;;;;;;;;;"
+  },
+  {
+   "cid": 1421,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "origine": "nativa",
+   "rerank": 0.8632521033287048,
+   "testo": "Horeca Forniture VR Srl;grossista Ho.Re.Ca.;Sfogliatina bio ai cereali;AF-CR-0220;N/D;N/D;1,95;420,00;21.840,00;26,0;\nCatering Veneto Snc;Ho.Re.Ca.;Focaccina olio EVO 2x90g;AF-FC-0330;N/D;N/D;1,30;260,00;13.520,00;18,0;cliente piccolo, RIBA insolute 2 volte su 6 - v. scadenzario\n;;;;;;;;;;\n;;;;;;;;;;\nSCENARIO \"IPOTESI -4,5% RICHIESTA BUYER ROSSI\" (mail M.Rossi 05/05/26) + LISTING FEE 12.000 UNA TANTUM SU AF-SN-0455;;;;;;;;;;\nTosano Cerea SpA;Tosano;Cornetto Premium PL 8x45g surg - SCENARIO;AF-CR-0215;15;;1,57;1.194,77;#RIF!;-0,2;SOTTO ZERO col nuovo prezzo. NON firmare cosi. Parlare con Giancarlo PRIMA dell'incontro del 15/06\nTosano Cerea SpA;Tosano;Snack rustico 100g PL - SCENARIO;AF-SN-0450;15;;0,75;810,00;42.120,00;18,1;tiene ma per poco, e senza recupero costo energia\nTosano Cerea SpA;Tosano;Cornetto marchio Aurora - SCENARIO;AF-CR-0212;12;;1,92;414,72;21.565,44;24,0;marchio proprio fuori trattativa, Rossi non lo tocca\nTosano Cerea SpA;Tosano;listing fee inserimento AF-SN-0455;AF-SN-0455;;;;;-12.000,00;;una tantum, la vogliono a giugno"
+  },
+  {
+   "cid": 1833,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "origine": "nativa",
+   "rerank": 0.755276083946228,
+   "testo": "Poi ha minacciato (sorridendo, ma ha minacciato) di delistare la focaccina a settembre\ne ha detto che la direzione gli chiede un secondo fornitore sulla PL. Ha fatto vedere\nuna tabella con un concorrente che sul cornetto starebbe 12 punti sotto di noi, un\npugliese mi pare, Panem qualcosa, sto verificando.\n\nTestuale: \"con questi numeri non ci sto dentro\".\n\nNota positiva: sul multicereali non ha chiesto niente, dice che gira bene, e la promo\ne' andata fortissimo (+180% dice lui). Il problema vero e' il cornetto 0215, e li'\nSilvia te lo dico chiaro, gia' oggi il margine e' un fazzoletto, con il -4,5 secondo\nme andiamo sotto. Ma i conti li deve fare la Trentin con i costi veri, non io col\nlistino di gennaio.\n\nSul contributo promo al posto dello sconto secco non ha detto no. Secondo me e' li'\nche si tratta.\n\nAllego foto degli appunti (3 pagine). vedi allegato\n<foto_appunti_1.jpg> <foto_appunti_2.jpg> <cid:image001.png@01DC7E12.4A88B2F0>\n\nChiamami domani mattina dopo le 9 che prima sono in macchina verso Rossetto.\n\nPaolo\n\nPaolo Zampieri\nAgente di commercio - canale GDO Nord Est\ncell. 348 06 71 2XX\nInviato dal mio iPhone\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+  },
+  {
+   "cid": 1829,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "origine": "nativa",
+   "rerank": 0.7373746037483215,
+   "testo": "1) -4,5% su TUTTO il listino 2026/2027, da subito, gia' dagli ordini di giugno\n2) listing fee 12.000 € per mettere dentro il formato promo 3+1 (AF-SN-0455) su tutta\n   la rete, dice \"quaranta punti vendita, te li apro tutti, ma l'ingresso si paga\"\n3) vuole risposta scritta entro il 15/5 !!!! dieci giorni\n4) prossimo incontro gia' fissato: 19/5 ore 9.30 sempre a Cerea\n\nminacce (dette col sorriso ma dette):\n- la focaccina AF-FC-0330 \"gira poco, se nn mi date una mano sul prezzo a settembre\n  la delisto e ci metto altro\" → DELISTING FOCACCINA, da prendere sul serio? rotaz.\n  effettivam. bassa, i dati sell out che ci passano lo dicono anche loro\n- \"e comunque la direzione mi chiede un secondo fornitore sulla private label, non\n  posso stare con un fornitore solo sul forno, capiscimi\" → vogliono affiancarci\n  qcn. chiesto se e' una minaccia o una policy, dice \"e' prudenza\"\n- sul multicereali (0450) invece nn ha toccato il prezzo, dice che va bene, \"quello\n  gira\", quindi il problema vero e' il CORNETTO 0215\n\ncose dette da me:\n- che il burro e' su del 20 e passa % e il girasole +11 (Oleificio Adriatico, ho"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4251,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.2,
+  "rerank": 53.55
+ },
+ "id": "Q223",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:44:15",
+ "secondi": 53.77,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 60.44,
+  "token_prompt": 1944,
+  "token_risposta": 143,
+  "testo_grezzo": "Il cornetto AF-CR-0215 sarebbe soggetto a un prezzo ridotto del 4,5% rispetto al listino di gennaio, ma il problema è che il margine di profitto è già un fazzoletto e il -4,5% potrebbe portare a una perdita. Il buyer ha anche minacciato di delistare la focaccina AF-FC-0330 se non si raggiunge un accordo sul prezzo.\n\nFONTI: verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt, nota;;AF-CR-0215\n\nCONFIDENZA: alta",
+  "fonti_citate": [
+   "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "nota;;AF-CR-0215"
+  ],
+  "fonti_fuori_contesto": [
+   "nota;;AF-CR-0215"
+  ],
+  "confidenza": "alta"
+ }
+}

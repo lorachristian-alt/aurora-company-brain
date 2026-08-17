@@ -1,0 +1,681 @@
+{
+ "domanda": "I tempi delle fasi registrati dal CIP corrispondono a quelli dell'istruzione operativa?",
+ "candidati_densi": [
+  {
+   "cid": 881,
+   "punteggio": 0.5253928220261932,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 59,
+   "origine": "nativa"
+  },
+  {
+   "cid": 933,
+   "punteggio": 0.5235470922537084,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 111,
+   "origine": "nativa"
+  },
+  {
+   "cid": 836,
+   "punteggio": 0.5223974089278444,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 829,
+   "punteggio": 0.5215728497530518,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 842,
+   "punteggio": 0.5137283421777532,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 849,
+   "punteggio": 0.5130828381272883,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 27,
+   "origine": "nativa"
+  },
+  {
+   "cid": 929,
+   "punteggio": 0.5124376107972509,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 107,
+   "origine": "nativa"
+  },
+  {
+   "cid": 880,
+   "punteggio": 0.5113179176575579,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 58,
+   "origine": "nativa"
+  },
+  {
+   "cid": 865,
+   "punteggio": 0.5100559501494097,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 43,
+   "origine": "nativa"
+  },
+  {
+   "cid": 825,
+   "punteggio": 0.5087244532820483,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 877,
+   "punteggio": 0.5083594257673427,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 55,
+   "origine": "nativa"
+  },
+  {
+   "cid": 901,
+   "punteggio": 0.5080832020457897,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 79,
+   "origine": "nativa"
+  },
+  {
+   "cid": 895,
+   "punteggio": 0.5080215798068085,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 73,
+   "origine": "nativa"
+  },
+  {
+   "cid": 856,
+   "punteggio": 0.50690321836665,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 34,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1816,
+   "punteggio": 0.5064184379184977,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 873,
+   "punteggio": 0.5062263051785642,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 51,
+   "origine": "nativa"
+  },
+  {
+   "cid": 393,
+   "punteggio": 0.5058091160759726,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 920,
+   "punteggio": 0.5049212240224642,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 98,
+   "origine": "nativa"
+  },
+  {
+   "cid": 853,
+   "punteggio": 0.5044682750355116,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 31,
+   "origine": "nativa"
+  },
+  {
+   "cid": 859,
+   "punteggio": 0.5039705077164867,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 37,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1403,
+   "punteggio": 24.1392822265625,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 573,
+   "punteggio": 22.5833683013916,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 393,
+   "punteggio": 21.795778274536133,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 575,
+   "punteggio": 18.804853439331055,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1138,
+   "punteggio": 18.644502639770508,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1,
+   "punteggio": 17.907346725463867,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 292,
+   "punteggio": 16.885549545288086,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1676,
+   "punteggio": 16.865331649780273,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 397,
+   "punteggio": 16.257104873657227,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1390,
+   "punteggio": 15.426179885864258,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 313,
+   "punteggio": 15.238083839416504,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 9,
+   "punteggio": 14.809088706970215,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1153,
+   "punteggio": 14.587038040161133,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 316,
+   "punteggio": 13.541556358337402,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1811,
+   "punteggio": 12.834196090698242,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 21,
+   "punteggio": 12.322720527648926,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1349,
+   "punteggio": 11.986832618713379,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 576,
+   "punteggio": 11.83151626586914,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1114,
+   "punteggio": 11.467560768127441,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 601,
+   "punteggio": 11.225902557373047,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 1,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 393,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.02886002886002886,
+   "rango_denso": 17,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 881,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 59,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1403,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 573,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 933,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 111,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 836,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 575,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 829,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 842,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 20,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1138,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 20,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 849,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 27,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 292,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 929,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 107,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 880,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 58,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1676,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 397,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 865,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 43,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 825,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1390,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 313,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 877,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 55,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 9,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 901,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 79,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 393,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "rerank": 0.2275250405073166
+  },
+  {
+   "cid": 1138,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.13712212443351746
+  },
+  {
+   "cid": 1676,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "rerank": 0.048126108944416046
+  },
+  {
+   "cid": 573,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 0.041623711585998535
+  },
+  {
+   "cid": 865,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.03361421823501587
+  },
+  {
+   "cid": 880,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.02945392206311226
+  },
+  {
+   "cid": 933,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.02759561315178871
+  },
+  {
+   "cid": 829,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.025589920580387115
+  },
+  {
+   "cid": 881,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.025203051045536995
+  },
+  {
+   "cid": 842,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.02513042278587818
+  },
+  {
+   "cid": 877,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.022705532610416412
+  },
+  {
+   "cid": 901,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.022016970440745354
+  },
+  {
+   "cid": 929,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.020691564306616783
+  },
+  {
+   "cid": 825,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.020556820556521416
+  },
+  {
+   "cid": 836,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.01920374482870102
+  },
+  {
+   "cid": 849,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.01643677055835724
+  },
+  {
+   "cid": 397,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "rerank": 0.012081362307071686
+  },
+  {
+   "cid": 575,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 0.011196861974895
+  },
+  {
+   "cid": 1403,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.007770574651658535
+  },
+  {
+   "cid": 1,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "rerank": 0.0003463417524471879
+  },
+  {
+   "cid": 292,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 9.946808131644502e-05
+  },
+  {
+   "cid": 9,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 2.684182982193306e-05
+  },
+  {
+   "cid": 313,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 2.5790408471948467e-05
+  },
+  {
+   "cid": 1390,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "rerank": 1.9868768504238687e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 393,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "origine": "nativa",
+   "rerank": 0.2275250405073166,
+   "testo": "con pausa di recupero termico di 10 minuti in zona temperata; dotazione di\n  abbigliamento termico completo; maniglia di apertura interna antighiaccio.\n- Stoccaggio dei prodotti chimici CIP in bacini di contenimento separati\n  per acidi e alcali; docce e lavaocchi di emergenza al reparto CIP-01;\n  schede di sicurezza (SDS) disponibili al punto d'uso; istruzione\n  operativa IO-05.\n- Pavimentazione antisdrucciolo in fase di ripristino progressivo per\n  reparto (vedi programma di miglioramento, punto 8).\n- Segregazione delle attrezzature e dei ricambi di manutenzione in officina:\n  misura in corso di consolidamento a seguito del rilievo dell'audit di\n  certificazione del 17-18/02/2026 (custodia in area produttiva senza\n  controllo di integrita'). Il carrello ricambi a bordo linea deve essere\n  riportato in officina al termine di ogni intervento.\n\nAurora Food Group S.r.l. - Via dell'Industria 27 - 37044 Cologna Veneta (VR) - DVR Rev. 4/2026\nDVR - Estratto - Rev. 4 del 20/01/2026 - agg. 05/05/2026 - pag. 5 - Studio Bonato & Partners, Arzignano (VI)\npag. 5\n- Manutenzione programmata degli impianti secondo i manuali d'uso dei\n  costruttori; registrazione dei fermi su MOD-PR-04."
+  },
+  {
+   "cid": 1138,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "origine": "nativa",
+   "rerank": 0.13712212443351746,
+   "testo": "QA su tempo/temperatura di esposizione\nVerifica: riesame settimanale registrazioni; taratura sonde semestrale; mappatura\n  termica cella CF-02 annuale\nRegistrazione: registro surgelazione L3; tracciato continuo CF-02; MOD-MAG-02 per\n  eventuali movimentazioni di segregazione\n============================================================================\n\nManuale HACCP rev.5 - pag. 31 di 78 - Doc. non controllato se stampato\n\n9. PROGRAMMI DI PREREQUISITI (PRP) E PRP OPERATIVI\n\n9.1 Elenco dei PRP attivi (procedure richiamate, non duplicate qui - vedi All. 2):\nPRP-01 Pulizia e sanificazione (CIP-01, istruzione operativa IO-05; detergenti\n       Chemifood Italia F0052: soda caustica, acido nitrico, sanificante PAA;\n       schede di sicurezza in archivio SDS)\nPRP-02 Disinfestazione e monitoraggio infestanti (ditta esterna, 24 postazioni esca +\n       6 lampade UV, report mensile)\nPRP-03 Manutenzione preventiva impianti e taratura strumenti (piano annuale a cura\n       Dal Maso I.; lubrificanti food grade H1; divieto di deposito di ricambi e\n       attrezzi in area produttiva al di fuori degli interventi - vedi nota (5))"
+  },
+  {
+   "cid": 1676,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "origine": "nativa",
+   "rerank": 0.048126108944416046,
+   "testo": "Conservare nei contenitori originali (HDPE) ben chiusi, in luogo fresco,\n    asciutto e ventilato, al riparo dalla luce solare, T di stoccaggio\n    +5 / +35 gradi C. Pavimento resistente agli acidi con bacino di conteni-\n    mento. STOCCARE SEPARATO da: alcali, ipocloriti e prodotti clorati,\n    solventi organici, metalli in polvere, sostanze combustibili.\n    Quantitativo max consigliato per deposito di reparto: verificare CPI /\n    valutazione rischio aziendale.\n7.3 Usi finali particolari\n    Lavaggio CIP: rispettare concentrazioni d uso (tipicam. l - 3 % v/v),\n    temperature (5O-7O gradi C) e risciacquo finale con acqua potabile fino a\n    neutralita' verificata (v. istruzione operativa del cliente).\n\n________________________________________________________________________________\n\nSEZIONE 8: controllo dell esposizione/protezione individuale\n\n8.1 Parametri di controllo\n    acido nitrico  CAS 7697-37-2\n       VLE (UE, dir. 2O17/164): STEL 2,6 mg/m3 - 1 ppm\n       ACGIH: TLV-TWA 2 ppm - TLV-STEL 4 ppm\n    acido fosforico CAS 7664-38-2\n       TLV-TWA l mg/m3 ; TLV-STEL 3 mg/m3 (ACGIH)\n    DNEL acido nitrico (lavoratori, inal., acuto/locale): 2,6 mg/m3"
+  },
+  {
+   "cid": 573,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "origine": "nativa",
+   "rerank": 0.041623711585998535,
+   "testo": "AURORA FOOD GROUP S.r.l. — ISTRUZIONE OPERATIVA IO-05\n\nLAVAGGIO CIP IMPIANTO CIP-01 — LINEE E SERBATOI\n\n\nQUESTA ISTRUZIONE È PER GLI OPERATORI AUTORIZZATI AL CIP. SE NON HAI FATTO LA FORMAZIONE (MOD-HR-11) NON PUOI AVVIARE UN LAVAGGIO. CHIEDI AL CAPOTURNO.\n\n[Marchetti E. - rev.4: aggiunta la tabella programmi per linea e il paragrafo 9 sul ciclo interrotto, dopo il fermo del 03/12/2025. Distribuita in bacheca linee 1-2-3 e in sala CIP.]\n\n1. A COSA SERVE\n\nIl CIP (Cleaning In Place) lava le tubazioni, i serbatoi e le parti a contatto con il prodotto SENZA smontarle. Si usano prodotti chimici FORTI. Se sbagli concentrazione o temperatura, il lavaggio non pulisce oppure rovina l'impianto. Se sbagli il risciacquo, la chimica finisce nel prodotto.\n\nIL RISCIACQUO FINALE NON SI SALTA MAI. MAI.\n\n2. DPI OBBLIGATORI\n\nPrima di toccare taniche, pompe dosatrici o attacchi CIP devi indossare:\n\nocchiali a mascherina (NON bastano gli occhiali normali)\nvisiera durante il travaso manuale delle taniche\nguanti in neoprene lunghi al gomito\ngrembiule antiacido\nstivali in gomma"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4558,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.17,
+  "rerank": 50.77
+ },
+ "id": "Q212",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:36:00",
+ "secondi": 50.95,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 56.8,
+  "token_prompt": 1863,
+  "token_risposta": 69,
+  "testo_grezzo": "La risposta è: no, i tempi delle fasi registrate dal CIP non corrispondono a quelli dell'istruzione operativa.\n\nFONTI: IO-05_istruzione_operativa_lavaggio_CIP.docx, DVR_estratto_valutazione_rischi_2026.pdf",
+  "fonti_citate": [
+   "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "DVR_estratto_valutazione_rischi_2026.pdf"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

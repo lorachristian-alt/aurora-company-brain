@@ -1,0 +1,683 @@
+{
+ "domanda": "Chi ha visto l'infortunio e chi ha portato l'operaio al pronto soccorso?",
+ "candidati_densi": [
+  {
+   "cid": 1225,
+   "punteggio": 0.5161961294563009,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1227,
+   "punteggio": 0.5013529289034684,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1820,
+   "punteggio": 0.47894344336309336,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1086,
+   "punteggio": 0.4754496537090921,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 623,
+   "punteggio": 0.46870383139282396,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 386,
+   "punteggio": 0.4641594306848003,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1080,
+   "punteggio": 0.45735118006205827,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1788,
+   "punteggio": 0.4469019137095354,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1224,
+   "punteggio": 0.4440814666160037,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1089,
+   "punteggio": 0.4439623217359503,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1083,
+   "punteggio": 0.4432666739569272,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1077,
+   "punteggio": 0.4411334278697631,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1230,
+   "punteggio": 0.4400847230905896,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1228,
+   "punteggio": 0.4379978214090936,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1822,
+   "punteggio": 0.43294282974235193,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1459,
+   "punteggio": 0.4304866694515224,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1790,
+   "punteggio": 0.43040004830091655,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1671,
+   "punteggio": 0.4293085112051713,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 84,
+   "punteggio": 0.4291583360258462,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 82,
+   "punteggio": 0.42861053968815765,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 2,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1225,
+   "punteggio": 18.89019775390625,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1314,
+   "punteggio": 17.232656478881836,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1227,
+   "punteggio": 17.171520233154297,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1366,
+   "punteggio": 15.860320091247559,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1224,
+   "punteggio": 14.457792282104492,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1484,
+   "punteggio": 14.069356918334961,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1482,
+   "punteggio": 13.845638275146484,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1481,
+   "punteggio": 13.531904220581055,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 623,
+   "punteggio": 13.354774475097656,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1226,
+   "punteggio": 13.339258193969727,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1334,
+   "punteggio": 13.042908668518066,
+   "file": "prenotazioni_sala_riunioni_maggio.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1365,
+   "punteggio": 13.038430213928223,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1193,
+   "punteggio": 12.63382339477539,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1267,
+   "punteggio": 12.208165168762207,
+   "file": "organigramma_aziendale_aggiornato_marzo26.pptx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 513,
+   "punteggio": 12.127921104431152,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1164,
+   "punteggio": 11.909384727478027,
+   "file": "menu_mensa_aprile_maggio.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1232,
+   "punteggio": 11.781281471252441,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1093,
+   "punteggio": 11.735177993774414,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 312,
+   "punteggio": 11.725667953491211,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1460,
+   "punteggio": 11.448180198669434,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 4,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1225,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.03278688524590164,
+   "rango_denso": 1,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1227,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.03200204813108039,
+   "rango_denso": 2,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 623,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.029877369007803793,
+   "rango_denso": 5,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1224,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.029877369007803793,
+   "rango_denso": 9,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1314,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1820,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1086,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 386,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1484,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1080,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1482,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1481,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1788,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1089,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1226,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1083,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1334,
+   "file": "prenotazioni_sala_riunioni_maggio.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1077,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1365,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1193,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1230,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1228,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1267,
+   "file": "organigramma_aziendale_aggiornato_marzo26.pptx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1225,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.5194637179374695
+  },
+  {
+   "cid": 1224,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.04835724085569382
+  },
+  {
+   "cid": 1228,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.016637103632092476
+  },
+  {
+   "cid": 1193,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.007783106528222561
+  },
+  {
+   "cid": 1227,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.007768331561237574
+  },
+  {
+   "cid": 1230,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.006390240043401718
+  },
+  {
+   "cid": 1226,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.0036667105741798878
+  },
+  {
+   "cid": 1083,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.0035628543701022863
+  },
+  {
+   "cid": 1077,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.003254161449149251
+  },
+  {
+   "cid": 1086,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.002719699405133724
+  },
+  {
+   "cid": 1089,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.0024491571821272373
+  },
+  {
+   "cid": 1482,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "rerank": 0.002389788394793868
+  },
+  {
+   "cid": 386,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "rerank": 0.0019334843382239342
+  },
+  {
+   "cid": 623,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "rerank": 0.0018001770367845893
+  },
+  {
+   "cid": 1481,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "rerank": 0.0013159159570932388
+  },
+  {
+   "cid": 1080,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.0012004279997199774
+  },
+  {
+   "cid": 1314,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "rerank": 0.0008734758594073355
+  },
+  {
+   "cid": 1788,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0007757834973745048
+  },
+  {
+   "cid": 1484,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "rerank": 0.0005098536494188011
+  },
+  {
+   "cid": 1267,
+   "file": "organigramma_aziendale_aggiornato_marzo26.pptx",
+   "rerank": 0.0003864810278173536
+  },
+  {
+   "cid": 1820,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "rerank": 0.00012203208461869508
+  },
+  {
+   "cid": 1334,
+   "file": "prenotazioni_sala_riunioni_maggio.csv",
+   "rerank": 6.998213211772963e-05
+  },
+  {
+   "cid": 1365,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 5.542578219319694e-05
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 3.9916714740684256e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1225,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "origine": "nativa",
+   "rerank": 0.5194637179374695,
+   "testo": "- Luogo dell'evento: cella surgelati CF-02 (-18 gradi C), zona corsia\n  scaffalatura B\n- Natura e sede della lesione: trauma da schiacciamento, dito indice\n  mano sinistra\n- Prognosi da primo certificato: giorni 12 (dodici) salvo complicazioni\n- Numero caso INAIL assegnato: [riportato sulla ricevuta telematica,\n  ricevuta salvata in \\\\SRV-AURORA\\HR\\infortuni\\2026\\corradin\\]\n- Testimoni: Ilie Petru (operaio Linea 3), presente in cella al momento\n  del fatto\n- Abbandono del lavoro: ore 09:55 - accompagnato al Pronto Soccorso\n  dell'Ospedale G. Fracastoro di San Bonifacio (VR) dal collega\n  Sbalchiero D. con auto propria (ambulanza non necessaria)\n\nRegistro infortuni: annotazione n. 02/2026.\n(il n. 01/2026 e' la contusione lieve di Ba M. del 13/02, 0 gg, medicazione)\n\n--------------------------------------------------------------------------\n\n2) DINAMICA DICHIARATA DAL LAVORATORE (raccolta da F. Sartori il 29/04,\n   presente R. Guerra, sottoscritta dal lavoratore)\n\nIl lavoratore dichiara: \"Stavo spostando i carrelli portateglie vuoti\ndentro la cella CF-02 per fare posto ai bancali in arrivo dal tunnel.\nIl pavimento vicino alla porta aveva della brina, come sempre quando la"
+  },
+  {
+   "cid": 1224,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "origine": "nativa",
+   "rerank": 0.04835724085569382,
+   "testo": "FASCICOLO INFORTUNIO - CORRADIN E. - 28/04/2026\nraccolta documenti ad uso interno (HR + RSPP) - agg. 12/05/2026 - f.s.\ncontiene: estremi denuncia INAIL, dinamica, trascrizione certificato PS,\nnota RSPP, corrispondenza interna, appunti capoturno\n==========================================================================\n\n1) ESTREMI DENUNCIA/COMUNICAZIONE DI INFORTUNIO (INAIL)\n\nDenuncia trasmessa telematicamente tramite portale INAIL in data 30/04/2026\n(entro i 2 giorni dalla ricezione del certificato medico, come da art. 53\nDPR 1124/1965).\n\n- Datore di lavoro: AURORA FOOD GROUP S.R.L. - P.IVA 03984710230\n- PAT INAIL: 90817346/22 - voce di tariffa 1462\n- Sede lavori: Via dell'Industria 27, 37044 Cologna Veneta (VR)\n- Lavoratore infortunato: CORRADIN EMANUELE, operaio addetto Linea 3\n  (reparto surgelati), contratto a tempo indeterminato, CCNL Industria\n  Alimentare, anzianita' aziendale 4 anni\n- Data e ora dell'evento: 28/04/2026, ore 09:40 circa\n- Luogo dell'evento: cella surgelati CF-02 (-18 gradi C), zona corsia\n  scaffalatura B\n- Natura e sede della lesione: trauma da schiacciamento, dito indice\n  mano sinistra"
+  },
+  {
+   "cid": 1228,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "origine": "nativa",
+   "rerank": 0.016637103632092476,
+   "testo": "Rilasciato primo certificato medico INAIL.\n     Il medico di PS: dott.ssa [firma illeggibile]\n\n--------------------------------------------------------------------------\n\n4) NOTA DEL RSPP (pervenuta via PEC il 05/05/2026, prot. int. SPP-2026-011)\n\nOggetto: infortunio del 28/04/2026 - cella CF-02 - prime valutazioni e\nrichiesta aggiornamento DVR\n\nSpett.le Aurora Food Group S.r.l.\nc.a. datore di lavoro sig. G. Bertoldi\nc.a. dirigente delegato ing. M. Fantin\n\nA seguito del sopralluogo effettuato in data 04/05/2026 presso la cella\nCF-02 alla presenza del sig. Guerra e del sig. Faggionato, si osserva\nquanto segue:\n\na) la movimentazione dei carrelli portateglie in cella avviene in spazi\n   di manovra ridotti, aggravati nel periodo attuale dal sovrastoccaggio;\n   la larghezza utile della corsia B rilevata in sopralluogo (98 cm con\n   cella carica) risulta inferiore a quella considerata nel DVR vigente\n   (140 cm, rilevazione 2023, cella in condizioni ordinarie);\nb) i carrelli in uso sono privi di impugnature dedicate; la presa sul\n   montante espone le mani a cesoiamento/schiacciamento contro strutture\n   fisse;"
+  },
+  {
+   "cid": 1193,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "origine": "nativa",
+   "rerank": 0.007783106528222561,
+   "testo": "NC-2026-059;31/03/2026;interna;Laboratorio;Taratura termometro campione scaduta il 15/03, rilevata al riordino strumenti;;media;scadenzario tarature non consultato;taratura eseguita presso centro LAT, alert scadenzario;Pozzato S.;08/04/2026;CHIUSA;185,00\nNC-2026-060;01/04/2026;interna;Linea 3;Infortunio lieve: schiacciamento dito operaio durante movimentazione stampi, 12 gg prognosi, denuncia INAIL;;alta;presa non corretta, stampi senza maniglia;v. pratica RSPP Bonato, valutazione ausili di presa, riunione sicurezza;Fantin M.;;IN CORSO;3.200,00\nNC-2026-061;02/04/2026;interna;Qualità;Invio a CSQA evidenze chiusura NC audit con 16 gg di ritardo sulla scadenza;;media;v. NC-2026-049;accettate da CSQA con nota, richiamo a pianificazione scadenze enti;Marchetti E.;09/04/2026;CHIUSA;\nNC-2026-062;03/04/2026;fornitore;Ricevimento merci;Bombole CO2 Nordgas: 1 bombola con cappellotto mancante, respinta;F0061;media;controllo pre-consegna fornitore carente;sostituzione bombola, nota a Nordgas;Faggionato N.;07/04/2026;CHIUSA;0"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4467,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.19,
+  "rerank": 58.4
+ },
+ "id": "Q011",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T14:56:53",
+ "secondi": 58.61,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 66.18,
+  "token_prompt": 1869,
+  "token_risposta": 90,
+  "testo_grezzo": "Il lavoratore che ha portato l'operaio al pronto soccorso è stato il collega Sbalchiero D., accompagnato dall'auto propria.\n\nFONTI: nota_infortunio_INAIL_operaio_linea3.txt, nota_infortunio_INAIL_operaio_linea3.txt, Abbandono del lavoro: ore 09:55 - accompagnato al Pronto Soccorso",
+  "fonti_citate": [
+   "nota_infortunio_INAIL_operaio_linea3.txt",
+   "Abbandono del lavoro: ore 09:55 - accompagnato al Pronto Soccorso"
+  ],
+  "fonti_fuori_contesto": [
+   "Abbandono del lavoro: ore 09:55 - accompagnato al Pronto Soccorso"
+  ],
+  "confidenza": "bassa"
+ }
+}

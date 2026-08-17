@@ -1,0 +1,681 @@
+{
+ "domanda": "Quanti dipendenti ci sono nell'estratto del libro unico e come sono divisi per reparto?",
+ "candidati_densi": [
+  {
+   "cid": 622,
+   "punteggio": 0.5444273900787506,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1423,
+   "punteggio": 0.5179160702382746,
+   "file": "Prospetto_straordinari_gen-apr_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 124,
+   "punteggio": 0.5015378642503686,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 292,
+   "punteggio": 0.4988783563775887,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 290,
+   "punteggio": 0.4764378506285438,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1858,
+   "punteggio": 0.4759545398351938,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 120,
+   "punteggio": 0.4726757801587812,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 600,
+   "punteggio": 0.45252973673560576,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1819,
+   "punteggio": 0.4506505000279226,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 244,
+   "punteggio": 0.446475734882316,
+   "file": "Circolare_INPS_aliquote_contributive_2026.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 439,
+   "punteggio": 0.44439124571875555,
+   "file": "estratto_conto_unicredit_maggio26.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 343,
+   "punteggio": 0.44382409956862334,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1488,
+   "punteggio": 0.43853125810939225,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 610,
+   "punteggio": 0.4361946247454582,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1113,
+   "punteggio": 0.43452344838523466,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 431,
+   "punteggio": 0.43415209217364337,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1526,
+   "punteggio": 0.43030199052536244,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1264,
+   "punteggio": 0.42858487056815087,
+   "file": "organigramma_aziendale_aggiornato_marzo26.pptx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 166,
+   "punteggio": 0.4265730249958756,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 603,
+   "punteggio": 0.42502718327436995,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 3,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1423,
+   "punteggio": 24.697908401489258,
+   "file": "Prospetto_straordinari_gen-apr_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 517,
+   "punteggio": 19.19944953918457,
+   "file": "Fwd_Fwd_Fwd_ATTENZIONE_richiamo_prodotto_concorrente_RASFF.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 622,
+   "punteggio": 18.461612701416016,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1099,
+   "punteggio": 17.541391372680664,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1804,
+   "punteggio": 17.41282844543457,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 292,
+   "punteggio": 15.928291320800781,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 124,
+   "punteggio": 15.86970329284668,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 24,
+   "punteggio": 15.445540428161621,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 22,
+   "origine": "nativa"
+  },
+  {
+   "cid": 0,
+   "punteggio": 15.302507400512695,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1098,
+   "punteggio": 14.635851860046387,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 616,
+   "punteggio": 13.795188903808594,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1424,
+   "punteggio": 13.767914772033691,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 102,
+   "punteggio": 13.719816207885742,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1712,
+   "punteggio": 13.680967330932617,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1637,
+   "punteggio": 13.640640258789062,
+   "file": "Scansione_20260518_0003.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1454,
+   "punteggio": 13.640640258789062,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1108,
+   "punteggio": 13.517937660217285,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 385,
+   "punteggio": 13.361218452453613,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1352,
+   "punteggio": 13.258026123046875,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1114,
+   "punteggio": 12.894275665283203,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1423,
+   "file": "Prospetto_straordinari_gen-apr_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.03252247488101534,
+   "rango_denso": 2,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 622,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.032266458495966696,
+   "rango_denso": 1,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 124,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.030798389007344232,
+   "rango_denso": 3,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 292,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.030776515151515152,
+   "rango_denso": 4,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 517,
+   "file": "Fwd_Fwd_Fwd_ATTENZIONE_richiamo_prodotto_concorrente_RASFF.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1099,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 290,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1804,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1858,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 120,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 24,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 22,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 600,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 0,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1819,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 244,
+   "file": "Circolare_INPS_aliquote_contributive_2026.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1098,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 439,
+   "file": "estratto_conto_unicredit_maggio26.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 616,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 343,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1424,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 102,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1488,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 610,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1712,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1423,
+   "file": "Prospetto_straordinari_gen-apr_2026.xlsx",
+   "rerank": 0.057627465575933456
+  },
+  {
+   "cid": 622,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "rerank": 0.022503985092043877
+  },
+  {
+   "cid": 124,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "rerank": 0.010014946572482586
+  },
+  {
+   "cid": 120,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "rerank": 0.009388282895088196
+  },
+  {
+   "cid": 292,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.007014059461653233
+  },
+  {
+   "cid": 290,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.0025049366522580385
+  },
+  {
+   "cid": 102,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "rerank": 0.0024772414471954107
+  },
+  {
+   "cid": 610,
+   "file": "job_description_responsabile_produzione.docx",
+   "rerank": 0.0023839331697672606
+  },
+  {
+   "cid": 0,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "rerank": 0.0021286557894200087
+  },
+  {
+   "cid": 244,
+   "file": "Circolare_INPS_aliquote_contributive_2026.txt",
+   "rerank": 0.0019612591713666916
+  },
+  {
+   "cid": 439,
+   "file": "estratto_conto_unicredit_maggio26.csv",
+   "rerank": 0.0016216171206906438
+  },
+  {
+   "cid": 1488,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "rerank": 0.001484918873757124
+  },
+  {
+   "cid": 600,
+   "file": "job_description_responsabile_produzione.docx",
+   "rerank": 0.0009002265869639814
+  },
+  {
+   "cid": 1819,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "rerank": 0.0008162098238244653
+  },
+  {
+   "cid": 1858,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.0007212317432276905
+  },
+  {
+   "cid": 343,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "rerank": 0.0007074724417179823
+  },
+  {
+   "cid": 1098,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "rerank": 0.0002613288233987987
+  },
+  {
+   "cid": 24,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.0001455157034797594
+  },
+  {
+   "cid": 1804,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.00012092238466721028
+  },
+  {
+   "cid": 1424,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "rerank": 0.00011226867354707792
+  },
+  {
+   "cid": 517,
+   "file": "Fwd_Fwd_Fwd_ATTENZIONE_richiamo_prodotto_concorrente_RASFF.eml",
+   "rerank": 4.459147385205142e-05
+  },
+  {
+   "cid": 616,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 2.672902883205097e-05
+  },
+  {
+   "cid": 1712,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 1.8403447029413655e-05
+  },
+  {
+   "cid": 1099,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "rerank": 1.786761640687473e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1423,
+   "file": "Prospetto_straordinari_gen-apr_2026.xlsx",
+   "origine": "nativa",
+   "rerank": 0.057627465575933456,
+   "testo": "Prospetto ore di straordinario - gennaio/aprile 2026\nelaborazione F. Sartori per la riunione di direzione del 12/05/2026\nfonte: progressivi individuali del libro unico (foglio Straordinari)\n\nREPARTO GENNAIO FEBBRAIO MARZO APRILE TOTALE NOTE\nLINEA 1 123 136 183 223 665\nLINEA 2 332 367 493 600 1792 la linea della promo\nLINEA 3 96 107 143 175 521\nCONFEZ. 44 49 66 81 240\nMAGAZZ. 24 27 36 45 132\nMANUT. 18 20 26 32 96\n\nTOTALE 637 706 947 1156 3446\n\n(Sartori) la Linea 2 pesa da sola piu' di tutti gli altri reparti messi insieme.\n(Sartori) al 30/04 ci sono 5 persone sopra le 200 ore annue. Il tetto contrattuale e' 250.\n(Sartori) il conteggio del sindacato non coincide col nostro: Fantin si e' riservato la verifica.\nMATRICOLA COGNOME REPARTO ORE ANNUE AL 30/04 RESIDUO SU 250\n310 LUPU VASILE LINEA 2 213 37\n302 HOXHA FATJON LINEA 2 212 38\n308 SOW IBRAHIM LINEA 2 211 39\n305 CIOBANU MARIUS LINEA 2 208 42\n306 BERTACCO PAOLO LINEA 2 206 44\n\n(Sartori) Bertacco e' anche RLS: se la RSU solleva la questione, parte da lui.\n(Sartori) la RSU sostiene siano sei: da riscontrare, due dei quali non risultano dai nostri conteggi."
+  },
+  {
+   "cid": 622,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "origine": "nativa",
+   "rerank": 0.022503985092043877,
+   "testo": "LIBRO UNICO DEL LAVORO - estratto cedolini maggio 2026\nAurora Food Group S.r.l. - elaborazione Studio Bellotto & Associati - maggio 2026: 20 giornate lavorabili (il 1° maggio, venerdì, è festivo) = 160 ore ordinarie\n\nMatricola Cognome e nome Mansione Reparto Liv. Paga oraria Ore ord. Ore str. diurno Ore str. nott. Ore str. fest. Ore assenza Retrib. lorda Contr. 9,19% Imponibile IRPEF IRPEF netta Netto in busta Note\n0201 POPESCU IONUT Capoturno Linea 1 LINEA 1 4 11.82 160 2 0 8 0\n0202 ROSSIN DAVIDE Operaio Linea 1 LINEA 1 5 10.64 160 6 0 0 0\n0203 PERIN LUCA Operaio Linea 1 LINEA 1 5 10.64 160 6 0 0 0\n0204 OSEI SAMUEL Operaio Linea 1 LINEA 1 6 10.11 160 8 0 0 0\n0205 VASILESCU ANDREI Operaio Linea 1 LINEA 1 5 10.64 160 12 0 8 0\n0206 BOGONI MARTA Operaia Linea 1 LINEA 1 6 10.11 160 8 0 0 0\n0207 FURLAN ALESSANDRO Operaio Linea 1 LINEA 1 5 10.64 160 0 0 8 0\n0208 EL AMRANI HASSAN Operaio Linea 1 LINEA 1 6 10.11 160 10 0 12 0\n0209 PELOSO GIORGIO Operaio Linea 1 notte LINEA 1 5 10.64 160 0 0 0 0\n0210 MUNTEANU CRISTIAN Operaio Linea 1 notte LINEA 1 6 10.11 160 12 0 0 0\n0301 BEN SALAH ADEL Capoturno Linea 2 LINEA 2 4 11.82 160 0 0 16 0"
+  },
+  {
+   "cid": 124,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "origine": "nativa",
+   "rerank": 0.010014946572482586,
+   "testo": "0\n3.005.231\nORGANO DI CONTROLLO\nIn conseguenza del superamento, per due esercizi consecutivi, dei limiti di cui\nall'art. 2477, comma 2, lettera c) del codice civile, l'assemblea dei soci del\n14/05/2024 ha nominato il Revisore Legale unico nella persona del dott. Maurizio\nPeruzzi, iscritto al Registro dei Revisori Legali al n. 118442. Il compenso annuo\ndeliberato ammonta a Euro 9.500 oltre oneri di legge. La relazione del revisore e'\ndepositata unitamente al presente bilancio.\nDIPENDENTI\nIl numero medio dei dipendenti nel corso dell'esercizio, ripartito per categoria, e'\nstato il seguente: dirigenti 0; quadri 2; impiegati 10; operai 36. Numero medio\n\nAURORA FOOD GROUP S.R.L. - Via dell'Industria 27, 37044 Cologna Veneta (VR) - P.IVA 03984710230\nBilancio al 31/12/2025 - forma abbreviata art. 2435-bis c.c. - pag. 5 - Reg. Imprese VR n. 03984710230\npag. 5\ncomplessivo 48 (esercizio precedente 45).\nCOMPENSI AGLI AMMINISTRATORI\nI compensi spettanti agli amministratori ammontano a Euro 96.000. La societa' non ha\ncorrisposto compensi a sindaci ne' anticipazioni o crediti agli amministratori.\nFATTI DI RILIEVO AVVENUTI DOPO LA CHIUSURA DELL'ESERCIZIO"
+  },
+  {
+   "cid": 120,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "origine": "nativa",
+   "rerank": 0.009388282895088196,
+   "testo": "A)\nVALORE DELLA PRODUZIONE\nA.1\nRicavi delle vendite e delle\nprestazioni\n11.480.312\n10.318.744\nA.5\nAltri ricavi e proventi\n148.226\n132.558\nTotale valore della\nproduzione (A)\n11.628.538\n10.451.302\nB)\nCOSTI DELLA PRODUZIONE\nB.6\nPer materie prime,\nsussidiarie, di consumo e\nmerci\n5.612.884\n5.048.112\nB.7\nPer servizi\n1.842.617\n1.688.204\nB.8\nPer godimento di beni di\nterzi\n214.330\n202.886\nB.9.a\nPer il personale - salari e\nstipendi\n1.812.446\n1.702.338\nB.9.b\nPer il personale - oneri\nsociali\n561.858\n528.114\nB.9.c\nPer il personale -\ntrattamento di fine rapporto\n118.902\n111.226\nTotale costi per il\npersonale (B.9)\n2.493.206\n2.341.678\nB.10.a\nAmmortamento\nimmobilizzazioni immateriali\n318.774\n306.442\nB.10.b\nAmmortamento\nimmobilizzazioni materiali\n228.216\n214.770\nTotale ammortamenti e\nsvalutazioni (B.10)\n546.990\n521.212\nB.11\nVariazioni delle rimanenze\ndi materie prime\n-42.118\n18.662\nB.14\nOneri diversi di gestione\n96.442\n88.104\nTotale costi della\nproduzione (B)\n10.764.351\n9.908.858\nDIFFERENZA TRA VALORE E\nCOSTI DELLA PRODUZIONE (A-B)\n864.187\n542.444\nC.16\nAltri proventi finanziari\n3.884\n2.996\nC.17\nInteressi e altri oneri\nfinanziari\n(118.662)\n(104.338)\nTotale proventi e oneri\nfinanziari (C)\n-114.778"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4615,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.18,
+  "rerank": 43.94
+ },
+ "id": "Q101",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:11:11",
+ "secondi": 44.14,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 76.26,
+  "token_prompt": 2273,
+  "token_risposta": 72,
+  "testo_grezzo": "Il numero di dipendenti nell'estratto del libro unico è di 48, ma non è possibile determinare la divisione per reparto con i dati forniti.\n\nFONTI: libro_unico_lavoro_estratto_maggio2026.xlsx, bilancio_esercizio_2025_deposito_CCIAA.pdf",
+  "fonti_citate": [
+   "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "bilancio_esercizio_2025_deposito_CCIAA.pdf"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

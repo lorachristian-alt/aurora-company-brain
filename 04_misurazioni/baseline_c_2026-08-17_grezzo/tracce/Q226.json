@@ -1,0 +1,681 @@
+{
+ "domanda": "L'audit CSQA aveva rilevato due termometri con taratura scaduta: risultano regolarizzati nel piano tarature?",
+ "candidati_densi": [
+  {
+   "cid": 1610,
+   "punteggio": 0.62118401993852,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1193,
+   "punteggio": 0.6133192897573162,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 219,
+   "punteggio": 0.5849465549361863,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 399,
+   "punteggio": 0.5799187076536514,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1857,
+   "punteggio": 0.5757148770098228,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1185,
+   "punteggio": 0.5721006153294804,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 252,
+   "punteggio": 0.5689631695467201,
+   "file": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 617,
+   "punteggio": 0.5656009517281795,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1852,
+   "punteggio": 0.5647078712809189,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 411,
+   "punteggio": 0.5617723226418325,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 403,
+   "punteggio": 0.559037588042004,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1856,
+   "punteggio": 0.5589732129033107,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1429,
+   "punteggio": 0.5537385432867798,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1853,
+   "punteggio": 0.5536908324660945,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1205,
+   "punteggio": 0.550498332302856,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 27,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1517,
+   "punteggio": 0.5499366343498991,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1614,
+   "punteggio": 0.548894771670859,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1431,
+   "punteggio": 0.548274045451827,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1615,
+   "punteggio": 0.5405866864296731,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 410,
+   "punteggio": 0.5405505077527619,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 11,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1610,
+   "punteggio": 33.42870330810547,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1851,
+   "punteggio": 27.330541610717773,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1193,
+   "punteggio": 26.19429588317871,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 350,
+   "punteggio": 21.754169464111328,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1873,
+   "punteggio": 20.311214447021484,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1435,
+   "punteggio": 19.583988189697266,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1856,
+   "punteggio": 19.223159790039062,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 219,
+   "punteggio": 17.241846084594727,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1615,
+   "punteggio": 16.62211799621582,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1523,
+   "punteggio": 16.506946563720703,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1143,
+   "punteggio": 16.125900268554688,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 25,
+   "origine": "nativa"
+  },
+  {
+   "cid": 617,
+   "punteggio": 16.0754451751709,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 254,
+   "punteggio": 15.964309692382812,
+   "file": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 252,
+   "punteggio": 15.482522010803223,
+   "file": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1205,
+   "punteggio": 15.196187973022461,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 27,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1410,
+   "punteggio": 14.386651039123535,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1603,
+   "punteggio": 14.309297561645508,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1602,
+   "punteggio": 14.282350540161133,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1389,
+   "punteggio": 14.275920867919922,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1646,
+   "punteggio": 14.056767463684082,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 7,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1610,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.03278688524590164,
+   "rango_denso": 1,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1193,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.03200204813108039,
+   "rango_denso": 2,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 219,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.03057889822595705,
+   "rango_denso": 3,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1856,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.028814262023217248,
+   "rango_denso": 12,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 617,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.028594771241830064,
+   "rango_denso": 8,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 252,
+   "file": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.028438886647841874,
+   "rango_denso": 7,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 1615,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.02715098147128967,
+   "rango_denso": 19,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1205,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 27,
+   "origine": "nativa",
+   "rrf": 0.02666666666666667,
+   "rango_denso": 15,
+   "rango_sparso": 15
+  },
+  {
+   "cid": 1851,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 350,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 399,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1857,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1873,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1185,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1435,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1852,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 411,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1523,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 403,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1143,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 25,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 254,
+   "file": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1429,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1853,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1410,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.013157894736842105,
+   "rango_denso": null,
+   "rango_sparso": 16
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1610,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.9019008874893188
+  },
+  {
+   "cid": 1193,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.8237871527671814
+  },
+  {
+   "cid": 1857,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.40614476799964905
+  },
+  {
+   "cid": 350,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "rerank": 0.3712383210659027
+  },
+  {
+   "cid": 1851,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.32075735926628113
+  },
+  {
+   "cid": 219,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "rerank": 0.3074224591255188
+  },
+  {
+   "cid": 1852,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.20429934561252594
+  },
+  {
+   "cid": 1429,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "rerank": 0.18308700621128082
+  },
+  {
+   "cid": 399,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "rerank": 0.14101117849349976
+  },
+  {
+   "cid": 1615,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.12151364237070084
+  },
+  {
+   "cid": 1185,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.11896851658821106
+  },
+  {
+   "cid": 403,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "rerank": 0.1079426184296608
+  },
+  {
+   "cid": 1205,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.0953412801027298
+  },
+  {
+   "cid": 252,
+   "file": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "rerank": 0.07938064634799957
+  },
+  {
+   "cid": 411,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "rerank": 0.051876697689294815
+  },
+  {
+   "cid": 1873,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "rerank": 0.0507952980697155
+  },
+  {
+   "cid": 1856,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.04799754545092583
+  },
+  {
+   "cid": 1853,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.038911983370780945
+  },
+  {
+   "cid": 254,
+   "file": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "rerank": 0.036517247557640076
+  },
+  {
+   "cid": 617,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.033422041684389114
+  },
+  {
+   "cid": 1143,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.023828662931919098
+  },
+  {
+   "cid": 1435,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "rerank": 0.014713370241224766
+  },
+  {
+   "cid": 1523,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.011011810041964054
+  },
+  {
+   "cid": 1410,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.00691242516040802
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1610,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "origine": "nativa",
+   "rerank": 0.9019008874893188,
+   "testo": "interna prevede etichetta semilavorato completa.\nRoot cause richiesta: SI\nAzione correttiva proposta: rietichettatura immediata (eseguita in audit),\n  etichette prestampate a bordo linea, formazione operatori.\nTermine: 18/03/2026        Stato: APERTA (correzione immediata eseguita)\n===========================================================================\nOSSERVAZIONE n. 2 (MINORE)\nStandard/clausola: BRCGS Issue 9 cl. 6.4.2\nRequisito: gli strumenti di misura utilizzati per il monitoraggio dei CCP\n  devono essere tarati con riferibilità a campioni riconosciuti.\nEvidenza oggettiva: n. 2 termometri a penetrazione in uso al QC (matricole\n  TP-08 e TP-11, utilizzati per verifiche T cuore L3) con taratura scaduta\n  il 30/11/2025; il piano prevede taratura semestrale. Il termometro TP-08\n  risulta comunque conforme alla verifica interna con termometro campione.\nRoot cause richiesta: SI\nAzione correttiva proposta: invio immediato a centro LAT, revisione dello\n  scadenzario tarature con alert automatico.\nTermine: 18/03/2026        Stato: APERTA\n===========================================================================\nOSSERVAZIONE n. 3 (MINORE)"
+  },
+  {
+   "cid": 1193,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "origine": "nativa",
+   "rerank": 0.8237871527671814,
+   "testo": "NC-2026-059;31/03/2026;interna;Laboratorio;Taratura termometro campione scaduta il 15/03, rilevata al riordino strumenti;;media;scadenzario tarature non consultato;taratura eseguita presso centro LAT, alert scadenzario;Pozzato S.;08/04/2026;CHIUSA;185,00\nNC-2026-060;01/04/2026;interna;Linea 3;Infortunio lieve: schiacciamento dito operaio durante movimentazione stampi, 12 gg prognosi, denuncia INAIL;;alta;presa non corretta, stampi senza maniglia;v. pratica RSPP Bonato, valutazione ausili di presa, riunione sicurezza;Fantin M.;;IN CORSO;3.200,00\nNC-2026-061;02/04/2026;interna;Qualità;Invio a CSQA evidenze chiusura NC audit con 16 gg di ritardo sulla scadenza;;media;v. NC-2026-049;accettate da CSQA con nota, richiamo a pianificazione scadenze enti;Marchetti E.;09/04/2026;CHIUSA;\nNC-2026-062;03/04/2026;fornitore;Ricevimento merci;Bombole CO2 Nordgas: 1 bombola con cappellotto mancante, respinta;F0061;media;controllo pre-consegna fornitore carente;sostituzione bombola, nota a Nordgas;Faggionato N.;07/04/2026;CHIUSA;0"
+  },
+  {
+   "cid": 1857,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.40614476799964905,
+   "testo": "6. DATI DI INGRESSO - TARATURE, FORNITORI, LABORATORIO\n\n   6.1  Tarature: piano 2026 emesso; 92% strumenti in corso di validita' al 28/02.\n        In scadenza marzo: termometro campione di laboratorio e 2 sonde spillone.\n        Resp. Pozzato, verifica scadenzario mensile documentata.\n\n   6.2  Valutazione fornitori 2025 (vendor rating su qualita'/servizio/documenti):\n        - classe A: F0012 Molino Veneto, F0025, F0029, F0061 Nordgas, F0090 Analytica\n        - classe B: F0021 Latteria Bassanese (consegna a +9,5 gradi respinta il\n          21/01/26), F0044 Flexipack (bobina fuori spessore 10/02/26), F0031\n          Euroglass (rotture da trasporto), F0095\n        - classe C: nessuno.\n        F0018 Oleificio Adriatico: qualita' regolare ma aumento listino +11%;\n        la Direzione da' mandato all'ufficio acquisti di sondare un secondo\n        fornitore di olio alto oleico entro giugno.\n\n   6.3  Laboratorio esterno Analytica Veneta S.r.l. (ACCREDIA n. 0987): contratto\n        rinnovato; piano analitico 2026 approvato (patogeni, shelf life, MOCA).\n        Evento Listeria spp. su tampone ambientale canalina Linea 3 del 24/02"
+  },
+  {
+   "cid": 350,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "origine": "nativa",
+   "rerank": 0.3712383210659027,
+   "testo": "10 19/05/2026 cliente GDO Alì SpA AF-SN-0450 L26130-L1-T2 blocco cautelativo merce in CE.DI. maggiore 1440 aperto\nNon conformità 2026 per causa radice - analisi di Pareto\n\n\n\nCausa radice N. NC % % cumulata Costo € Azione in corso\nRegistrazioni incomplete o non verificate 14 4200 seconda firma di fine turno - NON ancora applicata\nManutenzione rimandata / ricambi non originali 11 21400 ordine ricambi urgenti PKM-450\nErrore umano di linea 9 3100 rifare formazione (rimandata per carichi produttivi)\nMateria prima non conforme 7 5800 vendor rating e audit fornitore Lievital\nPulizia insufficiente / CIP abortito 6 2900 revisione IO-05 e turni di lavaggio\nTaratura strumenti scaduta 4 1200 contratto con ente esterno da rinnovare\nAltro / non determinata 5 900\nTOTALE\n\nle prime due cause sono esattamente le due NC minori dell'audit CSQA di febbraio\nAndamento tamponi ambientali per zona - % conformità\n\n\n\nZona Punto gen feb mar apr mag Media Note\nZona 1 Nastro uscita forno FT-01 100 100 100 97 94\nZona 1 Ganasce saldanti PKM-450 100 97 100 92 83\nZona 1 Scivolo metal detector MD-3200 100 100 97 95 89\nZona 2 Carrelli di trasferimento 97 94 97 92 88\nZona 2 Guarnizioni cella CF-02 100 100 94 89 86"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4517,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.18,
+  "rerank": 47.53
+ },
+ "id": "Q226",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:46:39",
+ "secondi": 47.73,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 58.54,
+  "token_prompt": 1902,
+  "token_risposta": 77,
+  "testo_grezzo": "La risposta è: No, non è possibile confermare se i termometri con taratura scaduta siano regolarizzati nel piano tarature.\n\nFONTI: Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt, cruscotto_KPI_qualita_2026.xlsx\n\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "cruscotto_KPI_qualita_2026.xlsx"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

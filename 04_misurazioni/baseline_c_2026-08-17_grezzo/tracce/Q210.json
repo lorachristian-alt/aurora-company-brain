@@ -1,0 +1,682 @@
+{
+ "domanda": "Il carrello ricambi a bordo linea era gia' stato contestato prima del 10 maggio?",
+ "candidati_densi": [
+  {
+   "cid": 1775,
+   "punteggio": 0.5768773960289693,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1608,
+   "punteggio": 0.5686113621442177,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1245,
+   "punteggio": 0.5622857488864558,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1301,
+   "punteggio": 0.5582765037148898,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1535,
+   "punteggio": 0.558273762120099,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1410,
+   "punteggio": 0.5515244851993171,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1609,
+   "punteggio": 0.5462418167340821,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 618,
+   "punteggio": 0.5424689252007201,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 614,
+   "punteggio": 0.5418695766319318,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1411,
+   "punteggio": 0.5326216561541196,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1167,
+   "punteggio": 0.5305921428538306,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1776,
+   "punteggio": 0.5274231188477092,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1539,
+   "punteggio": 0.5239549713097966,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 85,
+   "punteggio": 0.5237013211881623,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1457,
+   "punteggio": 0.5232458054358977,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1205,
+   "punteggio": 0.5198043758617172,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 27,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1778,
+   "punteggio": 0.5171282821151457,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1789,
+   "punteggio": 0.5148057895330524,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1793,
+   "punteggio": 0.5138911254102134,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1430,
+   "punteggio": 0.511034300937108,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 1,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1775,
+   "punteggio": 29.649669647216797,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1201,
+   "punteggio": 25.480783462524414,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 23,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1608,
+   "punteggio": 23.581666946411133,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1457,
+   "punteggio": 21.57908821105957,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1534,
+   "punteggio": 21.48017120361328,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1841,
+   "punteggio": 21.463491439819336,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1529,
+   "punteggio": 20.909515380859375,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 618,
+   "punteggio": 20.534406661987305,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1714,
+   "punteggio": 20.126073837280273,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 393,
+   "punteggio": 19.541296005249023,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1185,
+   "punteggio": 18.96216583251953,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1530,
+   "punteggio": 18.665058135986328,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1533,
+   "punteggio": 18.604440689086914,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1713,
+   "punteggio": 18.487716674804688,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1432,
+   "punteggio": 17.666780471801758,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1847,
+   "punteggio": 17.325214385986328,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 625,
+   "punteggio": 17.157209396362305,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1609,
+   "punteggio": 17.122371673583984,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1140,
+   "punteggio": 17.04754066467285,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 22,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1245,
+   "punteggio": 16.886560440063477,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 11,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1775,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.03278688524590164,
+   "rango_denso": 1,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1608,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.03200204813108039,
+   "rango_denso": 2,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 618,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.029411764705882353,
+   "rango_denso": 8,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1457,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.028958333333333336,
+   "rango_denso": 15,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1245,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.028373015873015873,
+   "rango_denso": 3,
+   "rango_sparso": 20
+  },
+  {
+   "cid": 1609,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.027745885954841176,
+   "rango_denso": 7,
+   "rango_sparso": 18
+  },
+  {
+   "cid": 1201,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 23,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1301,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1534,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1535,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1410,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1841,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1529,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 614,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1714,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 393,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1411,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1167,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1185,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1530,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1533,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1539,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 85,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1201,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.6011670231819153
+  },
+  {
+   "cid": 1608,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.4380432963371277
+  },
+  {
+   "cid": 1775,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.4155961871147156
+  },
+  {
+   "cid": 1534,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.31550002098083496
+  },
+  {
+   "cid": 1841,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "rerank": 0.23930960893630981
+  },
+  {
+   "cid": 1457,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.20604322850704193
+  },
+  {
+   "cid": 1529,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.17043055593967438
+  },
+  {
+   "cid": 614,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.16209454834461212
+  },
+  {
+   "cid": 1714,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.1589629054069519
+  },
+  {
+   "cid": 1410,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.15739668905735016
+  },
+  {
+   "cid": 393,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "rerank": 0.1349085420370102
+  },
+  {
+   "cid": 618,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.13369254767894745
+  },
+  {
+   "cid": 1185,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.1301763504743576
+  },
+  {
+   "cid": 1245,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.12211376428604126
+  },
+  {
+   "cid": 1411,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.09722329676151276
+  },
+  {
+   "cid": 1530,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.09551797062158585
+  },
+  {
+   "cid": 1533,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.08995287865400314
+  },
+  {
+   "cid": 1301,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "rerank": 0.0703091025352478
+  },
+  {
+   "cid": 1609,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.05375657603144646
+  },
+  {
+   "cid": 1539,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.013215668499469757
+  },
+  {
+   "cid": 1167,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "rerank": 0.010110663250088692
+  },
+  {
+   "cid": 1535,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.009469660930335522
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.004938025493174791
+  },
+  {
+   "cid": 85,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "rerank": 0.003866583574563265
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1201,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "origine": "nativa",
+   "rerank": 0.6011670231819153,
+   "testo": "NC-2026-089;10/05/2026;interna;Linea 1;Rottura valvola azoto PKM-450 ore 15:05, fermo macchina 3 h 40 min. Riparazione d'emergenza con guarnizione non originale (azzurra) prelevata dal carrello ricambi a bordo linea. Su MOD-PR-04 annotato solo \"sostituita guarnizione, ripartiti\";AF-SN-0450 L26130-L1-T2;critica;mancata sostituzione preventiva valvola (v. NC-2026-086), ricambio non originale, carrello ricambi ancora in area produttiva nonostante chiusura NC audit;sostituzione con ricambio originale al 15/05, verifica integrita guarnizione provvisoria, richiamo procedura MOD-PR-04;Dal Maso I.;;APERTA;4.900,00\nNC-2026-090;11/05/2026;interna;Qualità;Verifica straordinaria lotto L26130: riprocesso non effettuato, prodotto gia confezionato e in parte spedito prima dell'analisi datalogger;AF-SN-0450 L26130-L1-T2;critica;lettura datalogger PT-104 solo a fine settimana, non a fine turno;lettura datalogger giornaliera obbligatoria, blocco spedizioni residuo lotto;Marchetti E.;;APERTA;"
+  },
+  {
+   "cid": 1608,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "origine": "nativa",
+   "rerank": 0.4380432963371277,
+   "testo": "turno in 11 moduli su 20 esaminati. La verifica QA settimanale risulta\n  invece eseguita. Intervistato il capoturno, la prassi della seconda firma\n  non risulta sistematica.\nRoot cause richiesta: SI - da trasmettere con il piano d'azione.\nAzione correttiva proposta dall'azienda (in sede di audit): richiamo formativo\n  dei capiturno, modifica del MOD con campo firma evidenziato, controllo\n  giornaliero QA per 3 mesi.\nTermine: 18/03/2026        Stato al rilascio del rapporto: APERTA\n===========================================================================\nNC n. 2 (MINORE)\nStandard/clausola: BRCGS Issue 9 cl. 4.7.5\nRequisito: attrezzature e ricambi utilizzati per la manutenzione devono essere\n  gestiti in modo da prevenire la contaminazione del prodotto; gli interventi\n  devono concludersi con verifica di integrità e rimozione di materiali.\nEvidenza oggettiva: presso la Linea 1, a bordo linea (lato confezionatrice\n  PKM-450), è custodito stabilmente un carrello di manutenzione contenente\n  ricambi (guarnizioni, o-ring, raccordi, min. viteria) e attrezzi manuali,\n  senza inventario, senza controllo di integrità e senza segregazione rispetto"
+  },
+  {
+   "cid": 1775,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.4155961871147156,
+   "testo": "[00:01:52] PARLANTE_1: e quindi\n[00:01:54] PARLANTE_2: e quindi ivano ha fatto una riparazione d'emergenza per non tenere ferma la linea tutta la sera ha preso una guarnizione dal carrello dei ricambi quello che tiene a bordo linea\n[00:02:04] PARLANTE_3: il carrello a bordo linea che era la non conformita numero due dell'audit di febbraio lo dico per il verbale\n[00:02:11] PARLANTE_2: si elena lo so grazie\n[00:02:13] PARLANTE_3: no perche l'ho scritto nel piano di azione che andava tolto e non e stato\n[00:02:17] PARLANTE_2: elena adesso non e il momento di\n[00:02:19] PARLANTE_1: basta basta uno alla volta e la guarnizione di che colore era\n[00:02:24] PARLANTE_2: devo chiedere a ivano ma quelle non originali che tiene lui sono azzurre mi pare son quelle in silicone azzur\n[00:02:31] PARLANTE_1: [incomprensibile] porca miseria\n[00:02:34] PARLANTE_4: quindi stiamo dicendo che e nostra la plastica\n[00:02:37] PARLANTE_2: non lo stiamo dicendo silvia stiamo dicendo che e possibile va verificato ho gia mandato a chiamare ivano per farmi dare il pezzo smontato se ce l'ha ancora\n[00:02:46] PARLANTE_1: se ce l'ha ancora"
+  },
+  {
+   "cid": 1534,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "origine": "nativa",
+   "rerank": 0.31550002098083496,
+   "testo": "scartate x taratura gas. Collaudo: ricetta gas ok, saldatura ok.\n18:45 - riconsegna a produzione. Restato a bordo linea fino alle 19:30.\n\n4. PEZZI SCARTATI / PRODOTTO\n\n- confezioni scartate al riavvio (spurgo + taratura): 348 pz, bidone\n  scarto confezionato, registrate su modulo linea\n- prodotto sfuso rimasto fermo tra forno e confezionatrice durante il\n  fermo: parte ricircolata, parte a scarto (vedi conteggio produzione,\n  nn roba mia)\n- verifica O2 residuo su campioni post riavvio: fatta da QC (Pozzato)\n  lunedi mattina, valori ok da quel che so\n\n5. RICHIESTA ORDINE URGENTE (gia' inoltrata)\n\nRDA n. 2026/112 del 10/05 sera, urgente, appr. Fantin 11/05:\n- 1 x kit valvola iniezione N2 completo Pakmatic PK45-VN2-08, 1.240,00 €\n- 2 x serie guarnizioni testa saldante PKM-450 cod. PK45-GT-112 (quelle\n  in scadenzario da gennaio!!) 380,00 € /serie\n- 1 x revisione generale gruppo gas da tecnico Pakmatic in trasferta\n- scorta minima guarnizioni ORIGINALI da tenere in magazzino ricambi\n  (NON sul carrello, ho capito l'antifona)\nconsegna kit confermata 15/05, tecnico Pakmatic il 16/05 mattina.\n\n6. NOTE FINALI\n\nSostituzione definitiva programmata 15/05 sera a fine turno 2, fermo"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4457,
+ "tempi": {
+  "denso": 0.01,
+  "sparso": 0.19,
+  "rerank": 41.27
+ },
+ "id": "Q210",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:34:24",
+ "secondi": 41.47,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 53.34,
+  "token_prompt": 1876,
+  "token_risposta": 68,
+  "testo_grezzo": "Il carrello ricambi a bordo linea era già stato contestato prima del 10 maggio.\n\nFONTI: non_conformita_interne_registro_2026.csv, trascrizione_riunione_direzione_12_05_2026.txt, report_fermo_macchina_confezionatrice_MAP.txt",
+  "fonti_citate": [
+   "non_conformita_interne_registro_2026.csv",
+   "trascrizione_riunione_direzione_12_05_2026.txt",
+   "report_fermo_macchina_confezionatrice_MAP.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

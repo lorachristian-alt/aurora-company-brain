@@ -1,0 +1,680 @@
+{
+ "domanda": "Quanto ci costano al mese tutti i leasing e i noleggi messi insieme?",
+ "candidati_densi": [
+  {
+   "cid": 1527,
+   "punteggio": 0.5851400460944896,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1514,
+   "punteggio": 0.5737673790452031,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1526,
+   "punteggio": 0.5647292470147486,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 685,
+   "punteggio": 0.5584380306975472,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1367,
+   "punteggio": 0.5523433402408234,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1520,
+   "punteggio": 0.5460868532732921,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1525,
+   "punteggio": 0.5253762137822344,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 666,
+   "punteggio": 0.5167737202748074,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1515,
+   "punteggio": 0.5108165356154144,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1517,
+   "punteggio": 0.506528057952145,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1363,
+   "punteggio": 0.5056456180096485,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 44,
+   "punteggio": 0.5031552204776724,
+   "file": "analisi_marginalita_per_referenza_2026.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1358,
+   "punteggio": 0.4999581015561353,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1626,
+   "punteggio": 0.49821571975855145,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1364,
+   "punteggio": 0.49698801515787255,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 122,
+   "punteggio": 0.4968398762820747,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1522,
+   "punteggio": 0.4944403237508231,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 148,
+   "punteggio": 0.49353204661831895,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 486,
+   "punteggio": 0.4933660455974871,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 485,
+   "punteggio": 0.4929787045975481,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 6,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1514,
+   "punteggio": 23.979806900024414,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1515,
+   "punteggio": 23.23659324645996,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1366,
+   "punteggio": 20.867427825927734,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1527,
+   "punteggio": 20.617752075195312,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1423,
+   "punteggio": 20.219711303710938,
+   "file": "Prospetto_straordinari_gen-apr_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1526,
+   "punteggio": 18.153017044067383,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1310,
+   "punteggio": 18.146753311157227,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 433,
+   "punteggio": 16.203115463256836,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 523,
+   "punteggio": 15.071222305297852,
+   "file": "Fwd_newsletter_confindustria_marzo.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 431,
+   "punteggio": 14.923885345458984,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1792,
+   "punteggio": 13.782449722290039,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1116,
+   "punteggio": 13.472942352294922,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1314,
+   "punteggio": 13.26098918914795,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 430,
+   "punteggio": 13.058426856994629,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 256,
+   "punteggio": 12.690476417541504,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 21,
+   "punteggio": 12.495052337646484,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1835,
+   "punteggio": 12.482708930969238,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1245,
+   "punteggio": 12.398072242736816,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 621,
+   "punteggio": 12.054021835327148,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1109,
+   "punteggio": 11.746166229248047,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1514,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.03252247488101534,
+   "rango_denso": 2,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1527,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.032018442622950824,
+   "rango_denso": 1,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1526,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.031024531024531024,
+   "rango_denso": 3,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1515,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.030621785881252923,
+   "rango_denso": 9,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 685,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1367,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1423,
+   "file": "Prospetto_straordinari_gen-apr_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1520,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1310,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1525,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 433,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 666,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 523,
+   "file": "Fwd_newsletter_confindustria_marzo.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1517,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1363,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1792,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 44,
+   "file": "analisi_marginalita_per_referenza_2026.xlsx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1116,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1314,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1358,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 1626,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1515,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.5985814332962036
+  },
+  {
+   "cid": 1514,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.5103694200515747
+  },
+  {
+   "cid": 1526,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.2700597643852234
+  },
+  {
+   "cid": 1527,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.10552667081356049
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.0034828828647732735
+  },
+  {
+   "cid": 685,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "rerank": 0.00250190868973732
+  },
+  {
+   "cid": 1520,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.0018015365349128842
+  },
+  {
+   "cid": 1367,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.0015934554394334555
+  },
+  {
+   "cid": 1525,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.0013868877431377769
+  },
+  {
+   "cid": 1626,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "rerank": 0.0007136671338230371
+  },
+  {
+   "cid": 666,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "rerank": 0.0007034611189737916
+  },
+  {
+   "cid": 1363,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.0004925850662402809
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.000271805067313835
+  },
+  {
+   "cid": 1792,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.00019988040730822831
+  },
+  {
+   "cid": 1116,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.00017021760868374258
+  },
+  {
+   "cid": 1358,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.00016980827786028385
+  },
+  {
+   "cid": 433,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.00014735868899151683
+  },
+  {
+   "cid": 1423,
+   "file": "Prospetto_straordinari_gen-apr_2026.xlsx",
+   "rerank": 7.482004002667964e-05
+  },
+  {
+   "cid": 523,
+   "file": "Fwd_newsletter_confindustria_marzo.txt",
+   "rerank": 6.177807517815381e-05
+  },
+  {
+   "cid": 1314,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "rerank": 4.34725297964178e-05
+  },
+  {
+   "cid": 1517,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 3.938455483876169e-05
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 3.7428137147799134e-05
+  },
+  {
+   "cid": 44,
+   "file": "analisi_marginalita_per_referenza_2026.xlsx",
+   "rerank": 3.54800395143684e-05
+  },
+  {
+   "cid": 1310,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "rerank": 3.136922896374017e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1515,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "origine": "nativa",
+   "rerank": 0.5985814332962036,
+   "testo": "fermo da febbraio dietro la CF-02, paghiamo bollo? no il bollo no\n   ma l'assicurazione si, vedi sotto)\n\nLEASING CONFEZIONATRICE PKM-450 (Pakmatic, linea 1)\n  Sella Leasing  contr. n. 44/081152\n  canone 2.170,00 €/mese + iva\n  decorrenza 06/2021 durata 84 mesi -> fine 05/2028\n  nb: la manutenzione NON e' compresa, e' a parte con Pakmatic (F0077)\n  vedi sezione manutenzioni. dopo il fermo del 10/05 Fantin vuole\n  rivedere il contratto ricambi, sentire Pakmatic dopo l'estate\n\nNOLEGGIO OPERATIVO stampante/multifunzione uffici\n  Kyocera via BNP Paribas Rental - 189,00 €/mese, 2 macchine\n  (una e' in qualita da Marchetti, l'altra qui da noi)\n\nNOLEGGIO lavapavimenti industriale reparto conf.\n  Nilfisk  145 €/mese  (contratto in scadenza 09/26 - DISDIRE? sentire Zanella,\n  dice che quella nuova a batteria costa meno a comprarla)\n\ntot leasing+noleggi mensile:  3.850+612+2.170+189+145 = 6.966 €/mese\nTOT PROVVISORIO ANNUO leasing/noleggi:  83.592 €  (senza iva)\n\n\n=== 2. MANUTENZIONI ====================================\n\nCONTRATTO TECNOFORNI SERVICE (forni FT-01 e FT-02 + PT-104)\n  contratto full-risk n. TFS-2026-084, firmato Fantin 12/01/26"
+  },
+  {
+   "cid": 1514,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "origine": "nativa",
+   "rerank": 0.5103694200515747,
+   "testo": "appunti costi fissi / opex 2026 - agg. al 26/05/26 - lt\n(file mio, nn girare a nessuno, i numeri buoni li passo a Bellotto a fine giugno)\n\nriprendo il file dell anno scorso, tolgo quello che nn c'e' piu e aggiungo\nil leasing nuovo. ATTENZIONE: qui NON c'e' il tunnel Criotech, quello e' CapEx,\nsta nel file calcolo_CapEx_linea3, qui solo spese correnti.\n\n\n=== 1. LEASING E NOLEGGI ===============================\n\nLEASING FORNO FT-02 (linea 2, croissanteria)\n  societa: UniCredit Leasing S.p.A.  contratto n. UCL/2022/118374\n  decorrenza 01/03/2022, durata 72 mesi, riscatto 1%\n  canone: 3.850,00 €/mese + iva\n  scad. rata: giorno 05 del mese, RID su c/c UniCredit\n  residuo a fine 2026: 14 rate (fine feb 2028)\n\nLEASING MULETTO ELETTRICO (magazzino Faggionato)\n  Toyota Material Handling - contratto TMHIT-59921\n  canone 612,00 €/mese comprensivo manut. full service e batteria\n  durata 60 mesi da 09/2023\n  (chiedere a Faggionato se il secondo muletto a gpl lo teniamo ancora,\n   fermo da febbraio dietro la CF-02, paghiamo bollo? no il bollo no\n   ma l'assicurazione si, vedi sotto)\n\nLEASING CONFEZIONATRICE PKM-450 (Pakmatic, linea 1)\n  Sella Leasing  contr. n. 44/081152"
+  },
+  {
+   "cid": 1526,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "origine": "nativa",
+   "rerank": 0.2700597643852234,
+   "testo": "MUD+registri: lo fa Vicentini? no lo fa BONATO, dentro il canone. ok\nTARI comune Cologna Veneta 2 sedi: 8.940 €/anno (rate apr/lug/dic)\ncanone pozzo gia' messo in utenze, nn doppiare\nspese bancarie+home banking+RIBA: ~180 €/mese medio + oneri su anticipo\n  fatture quando lo usiamo (a maggio usato ECCOME, vedi estratto conto,\n  interessi Q2 ancora da liquidare, li registro a luglio)\nmensa: no mensa, buoni pasto SOLO impiegati 12 pax: 6,50 €/gg buono, ~120 €/mese\n  a testa = ~1.440 €/mese totale (esenti fino a 8 € il buono elettronico)\nabbonamenti riviste tecniche + banca dati etichettatura x Marchetti: 1.640 €/anno\nquota Confindustria VR: 4.850 €/anno (Bertoldi vuole tenerla, ok)\nquota consorzio export? DISDETTA nel 2025, nn rinnovare\n\nTOT PROVVISORIO ALTRI: boh, sommo dopo, la vigilanza e i rifiuti pesano\n  10.680+8.880+2.160+1.240+8.940+2.160+17.280+1.640+4.850 = ~57.830 €/anno\n  (i buoni pasto forse nn vanno qui ma in costo personale, chiedere a Bellotto,\n   intanto li lascio qui cosi nn li perdo)\n\n\n=== RIEPILOGONE (DA NON USARE, numeri provvisori!!) ====\n\nleasing/noleggi        83.592\nmanutenzioni           51.600 (stima, Pakmatic ballerina)"
+  },
+  {
+   "cid": 1527,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "origine": "nativa",
+   "rerank": 0.10552667081356049,
+   "testo": "intanto li lascio qui cosi nn li perdo)\n\n\n=== RIEPILOGONE (DA NON USARE, numeri provvisori!!) ====\n\nleasing/noleggi        83.592\nmanutenzioni           51.600 (stima, Pakmatic ballerina)\nassicurazioni          49.220 (+appendice macchinari in arrivo)\nsoftware/IT            15.700\nutenze                394.000 (stima, energia indicizzata)\ncert+qualita'          34.014\nconsulenze             45.680 (+extra)\naltri                  59.390\n\nsomma mia:            733.196 €/anno\nil gestionale x le stesse voci dice 741.880 ma dentro ci ha anche\ni canoni demo dell'ERP in prova e un'assicurazione credito che NON\nabbiamo mai attivato (refuso di Federica? chiedere). la differenza\ne' 8.684, quando quadro le voci una x una la trovo.\n\npromemoria x me:\n- appendice Generali macchinari (Todeschini) - SOLLECITARE\n- decidere contratto Pakmatic entro settembre\n- buoni pasto: chiedere a Bellotto dove li vuole\n- nn dimenticare che a maggio la cassa era tirata x l'acconto Criotech\n  (87.000, il 30%) + Tosano che entra solo il 10/06: le rate di leasing\n  sono passate lo stesso ma l'anticipo fatture e' quasi al tetto,\n  se Fantin ordina anche il bruciatore FT-01 (3.100) aspettare almeno"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4665,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.17,
+  "rerank": 44.31
+ },
+ "id": "Q117",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:24:12",
+ "secondi": 44.49,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 66.3,
+  "token_prompt": 2046,
+  "token_risposta": 66,
+  "testo_grezzo": "La somma dei leasing e dei noleggi è di 6.966 €/mese.\n\nFONTI: report_costi_fissi_OpEx_manutenzioni.txt, report_costi_fissi_OpEx_manutenzioni.txt, report_costi_fissi_OpEx_manutenzioni.txt",
+  "fonti_citate": [
+   "report_costi_fissi_OpEx_manutenzioni.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

@@ -1,0 +1,683 @@
+{
+ "domanda": "Quali non conformità fornitore sono ancora aperte?",
+ "candidati_densi": [
+  {
+   "cid": 304,
+   "punteggio": 0.5682400863134162,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1857,
+   "punteggio": 0.5521686528315242,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1854,
+   "punteggio": 0.5469267769731326,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 278,
+   "punteggio": 0.5441713102346873,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 18,
+   "punteggio": 0.53678648816696,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 308,
+   "punteggio": 0.5325145953252718,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 19,
+   "punteggio": 0.5320313698010728,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 282,
+   "punteggio": 0.5317656875566477,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 15,
+   "punteggio": 0.5293152643250378,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1607,
+   "punteggio": 0.5292122648686493,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 273,
+   "punteggio": 0.5290890946915117,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 306,
+   "punteggio": 0.5286175353762599,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 350,
+   "punteggio": 0.5282864638957718,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1613,
+   "punteggio": 0.5263666584236495,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1853,
+   "punteggio": 0.5249958730305775,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1411,
+   "punteggio": 0.5239046667075784,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1322,
+   "punteggio": 0.5222357442092398,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 203,
+   "punteggio": 0.5204924442964052,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1800,
+   "punteggio": 0.5174346903399688,
+   "file": "vendor_rating_fornitori_2026.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 25,
+   "punteggio": 0.515883071949925,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 23,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 350,
+   "punteggio": 15.148094177246094,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1812,
+   "punteggio": 12.900910377502441,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 27,
+   "punteggio": 12.900910377502441,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 25,
+   "origine": "nativa"
+  },
+  {
+   "cid": 159,
+   "punteggio": 11.538500785827637,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1099,
+   "punteggio": 11.110895156860352,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 219,
+   "punteggio": 11.085373878479004,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1435,
+   "punteggio": 11.06136417388916,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1368,
+   "punteggio": 10.960970878601074,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1613,
+   "punteggio": 10.258197784423828,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1119,
+   "punteggio": 9.711400985717773,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1854,
+   "punteggio": 9.665878295898438,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 26,
+   "punteggio": 9.506370544433594,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 24,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1313,
+   "punteggio": 9.470096588134766,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1454,
+   "punteggio": 9.341926574707031,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1637,
+   "punteggio": 9.341926574707031,
+   "file": "Scansione_20260518_0003.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 15,
+   "punteggio": 9.33124828338623,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1389,
+   "punteggio": 9.202068328857422,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1562,
+   "punteggio": 9.100522994995117,
+   "file": "ricetta_base_esperimento_snack_salato_v12.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1423,
+   "punteggio": 9.022172927856445,
+   "file": "Prospetto_straordinari_gen-apr_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1799,
+   "punteggio": 8.976468086242676,
+   "file": "vendor_rating_fornitori_2026.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 350,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.03009207275993712,
+   "rango_denso": 13,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1854,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.029957522915269395,
+   "rango_denso": 3,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1613,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.028006267136701922,
+   "rango_denso": 14,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 15,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.027650648360030512,
+   "rango_denso": 9,
+   "rango_sparso": 16
+  },
+  {
+   "cid": 304,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1812,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1857,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 27,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 25,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 159,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 278,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 18,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1099,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 219,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 308,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 19,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 17,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1435,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 282,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1368,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1119,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1607,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 273,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 26,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 24,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 306,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1313,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1613,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.8017431497573853
+  },
+  {
+   "cid": 1854,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.6102496385574341
+  },
+  {
+   "cid": 350,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "rerank": 0.5029952526092529
+  },
+  {
+   "cid": 304,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "rerank": 0.24573872983455658
+  },
+  {
+   "cid": 19,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.1941058337688446
+  },
+  {
+   "cid": 1099,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "rerank": 0.1492100954055786
+  },
+  {
+   "cid": 1607,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.1412569284439087
+  },
+  {
+   "cid": 1435,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "rerank": 0.08998079597949982
+  },
+  {
+   "cid": 219,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "rerank": 0.048565711826086044
+  },
+  {
+   "cid": 306,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "rerank": 0.0347805880010128
+  },
+  {
+   "cid": 308,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "rerank": 0.02496495470404625
+  },
+  {
+   "cid": 159,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "rerank": 0.012273870408535004
+  },
+  {
+   "cid": 282,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.011910060420632362
+  },
+  {
+   "cid": 1857,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.010968387126922607
+  },
+  {
+   "cid": 278,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.009458556771278381
+  },
+  {
+   "cid": 18,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.007542071398347616
+  },
+  {
+   "cid": 15,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.006409172434359789
+  },
+  {
+   "cid": 273,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.005697059445083141
+  },
+  {
+   "cid": 1368,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.003740312298759818
+  },
+  {
+   "cid": 26,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.0011315778829157352
+  },
+  {
+   "cid": 27,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.0009938797447830439
+  },
+  {
+   "cid": 1313,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "rerank": 0.0007943749078549445
+  },
+  {
+   "cid": 1119,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.00014871278835926205
+  },
+  {
+   "cid": 1812,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 8.471065666526556e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1613,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "origine": "nativa",
+   "rerank": 0.8017431497573853,
+   "testo": "primario (F0044 Flexipack Nordest, F0031 Euroglass Boccacci) e il\n  laboratorio esterno (F0090). Inoltre per gli imballi primari la\n  rintracciabilità del lotto film in produzione è registrata solo a livello\n  di giorno e non di bobina.\nRoot cause richiesta: SI\nAzione correttiva proposta: estensione vendor rating a tutti i fornitori\n  critici; registrazione n. bobina film su dossier di lotto.\nTermine: 18/03/2026        Stato: APERTA\n===========================================================================\n\nRiepilogo: n. 2 NC minori e 5 osservazioni, n. 0 NC maggiori, n. 0 NC critiche.\nBRCGS: grade AA confermato (announced). IFS: 97,32% - Higher Level.\n\n----------------------------------------------------------------------------\n5. OSSERVAZIONI (non conformità non attribuite / opportunità di miglioramento)\n----------------------------------------------------------------------------\nOSS-1  La rivalidazione dello studio di penetrazione termica CCP2 (prevista\n       2024 da piano interno) non risulta ancora formalizzata; la validazione\n       2021 resta tecnicamente applicabile non essendo intervenute modifiche\n       di prodotto/processo. Si raccomanda la formalizzazione."
+  },
+  {
+   "cid": 1854,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.6102496385574341,
+   "testo": "numero verde, Famila etichetta bio, piu' 2 minori). Andamento in linea.\n\n   4.3  Non conformita' interne: anno 2025 n. 214 (di cui 9 gravi); gennaio-febbraio\n        2026 n. 37 registrate a MOD-QA-31. Le NC aperte da oltre 60 giorni alla data\n        odierna sono n. 6: la Direzione ne chiede la revisione puntuale entro il\n        30/04 (resp. RSGQ).\n\n   4.4  Costo della non qualita' 2025: 68.400 euro stimati (sfridi da NC, resi,\n        declassamenti). Dato parziale: mancano i costi di 31 NC prive di stima.\n        La Direzione richiama i responsabili di reparto alla compilazione del campo\n        costo entro 5 giorni dalla chiusura della NC.\n\n5. DATI DI INGRESSO - INDICATORI KPI QUALITA'\n\n   5.1  Tabella indicatori (consuntivo 2025 vs obiettivo):\n\n        Indicatore                              Obiettivo    Consuntivo   Esito\n        ------------------------------------------------------------------------\n        Reclami / mio pezzi                     < 1,0        0,89         OK\n        Resa prima scelta Linea 1               > 97,0%      97,4%        OK\n        Resa prima scelta Linea 2               > 96,5%      95,8%        NO"
+  },
+  {
+   "cid": 350,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "origine": "nativa",
+   "rerank": 0.5029952526092529,
+   "testo": "10 19/05/2026 cliente GDO Alì SpA AF-SN-0450 L26130-L1-T2 blocco cautelativo merce in CE.DI. maggiore 1440 aperto\nNon conformità 2026 per causa radice - analisi di Pareto\n\n\n\nCausa radice N. NC % % cumulata Costo € Azione in corso\nRegistrazioni incomplete o non verificate 14 4200 seconda firma di fine turno - NON ancora applicata\nManutenzione rimandata / ricambi non originali 11 21400 ordine ricambi urgenti PKM-450\nErrore umano di linea 9 3100 rifare formazione (rimandata per carichi produttivi)\nMateria prima non conforme 7 5800 vendor rating e audit fornitore Lievital\nPulizia insufficiente / CIP abortito 6 2900 revisione IO-05 e turni di lavaggio\nTaratura strumenti scaduta 4 1200 contratto con ente esterno da rinnovare\nAltro / non determinata 5 900\nTOTALE\n\nle prime due cause sono esattamente le due NC minori dell'audit CSQA di febbraio\nAndamento tamponi ambientali per zona - % conformità\n\n\n\nZona Punto gen feb mar apr mag Media Note\nZona 1 Nastro uscita forno FT-01 100 100 100 97 94\nZona 1 Ganasce saldanti PKM-450 100 97 100 92 83\nZona 1 Scivolo metal detector MD-3200 100 100 97 95 89\nZona 2 Carrelli di trasferimento 97 94 97 92 88\nZona 2 Guarnizioni cella CF-02 100 100 94 89 86"
+  },
+  {
+   "cid": 304,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "origine": "nativa",
+   "rerank": 0.24573872983455658,
+   "testo": "all'Allegato A; (ii) il CoA sia mancante o non riferibile al lotto;\n(iii) la cisterna risulti priva di certificato di lavaggio; (iv) vi\nsia evidenza di infestazione, odori anomali o corpi estranei.\n5.3 Il campione di riserva, sigillato e controfirmato, e' conservato\ndall'Acquirente per 60 giorni ai fini di eventuale analisi di\nrevisione presso laboratorio terzo, il cui esito sara' vincolante per\nle Parti; le spese seguono la soccombenza.\nART. 6 - GESTIONE DELLE NON CONFORMITA'\n6.1 Le non conformita' rilevate dopo l'accettazione sono notificate al\nFornitore entro 5 giorni lavorativi dalla scoperta, mediante rapporto\ndi non conformita' con evidenze fotografiche e analitiche.\n6.2 Il Fornitore comunica entro 3 giorni lavorativi la propria\nposizione e le azioni proposte (sostituzione, nota di credito, ritiro\ndel lotto). La merce non conforme resta a disposizione del Fornitore\nper 15 giorni.\n6.3 Qualora una non conformita' su parametri di sicurezza alimentare\n(micotossine oltre i limiti del Reg. (UE) 2023/915, residui\nfitosanitari oltre i limiti del Reg. (CE) 396/2005, corpi estranei)\ninteressi materia prima gia' trasformata, il Fornitore terra' indenne"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4700,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.15,
+  "rerank": 36.13
+ },
+ "id": "Q088",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:00:50",
+ "secondi": 36.3,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 75.01,
+  "token_prompt": 1807,
+  "token_risposta": 211,
+  "testo_grezzo": "Non sono disponibili informazioni specifiche sulle non conformità fornitore ancora aperte. Il file \"cruscotto_KPI_qualita_2026.xlsx\" elenca le non conformità rilevate, ma non fornisce informazioni sulle aperture delle stesse. Non sono presenti dati specifici su questo argomento nei file \"Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt\", \"verbale_riesame_direzione_SGQ_2026.txt\" e \"contratto_fornitura_MolinoVeneto_2026_firmato.pdf\".\n\nFONTI: cruscotto_KPI_qualita_2026.xlsx, Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt, verbale_riesame_direzione_SGQ_2026.txt, contratto_fornitura_MolinoVeneto_2026_firmato.pdf\n\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "cruscotto_KPI_qualita_2026.xlsx",
+   "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "verbale_riesame_direzione_SGQ_2026.txt",
+   "contratto_fornitura_MolinoVeneto_2026_firmato.pdf"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

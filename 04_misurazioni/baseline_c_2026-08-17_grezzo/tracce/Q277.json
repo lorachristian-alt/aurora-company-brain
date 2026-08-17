@@ -1,0 +1,683 @@
+{
+ "domanda": "Come e' composto l'archivio per formato di file?",
+ "candidati_densi": [
+  {
+   "cid": 545,
+   "punteggio": 0.5357506186046282,
+   "file": "IMG_20260514_152241_frammento_REC-2026-011.jpg",
+   "idx": 0,
+   "origine": "scheda"
+  },
+  {
+   "cid": 537,
+   "punteggio": 0.5248520788725256,
+   "file": "IMG-20260510-WA0007.jpg",
+   "idx": 0,
+   "origine": "scheda"
+  },
+  {
+   "cid": 1901,
+   "punteggio": 0.4955439911730426,
+   "file": "~$ttera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 0,
+   "origine": "scheda"
+  },
+  {
+   "cid": 1701,
+   "punteggio": 0.45617679620680807,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 181,
+   "punteggio": 0.45477567816665454,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1051,
+   "punteggio": 0.4443475024787268,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 117,
+   "origine": "nativa"
+  },
+  {
+   "cid": 179,
+   "punteggio": 0.4442382414110041,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1739,
+   "punteggio": 0.4438295294206651,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 178,
+   "punteggio": 0.44359912918720346,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 479,
+   "punteggio": 0.44329447253887233,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 184,
+   "punteggio": 0.44167017531399894,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 88,
+   "punteggio": 0.4412695806162824,
+   "file": "appunti_tecnologo_quaderno_prove_pilota_OCR.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 177,
+   "punteggio": 0.4390215949253394,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 182,
+   "punteggio": 0.43805667701822265,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 895,
+   "punteggio": 0.43724740157969444,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 73,
+   "origine": "nativa"
+  },
+  {
+   "cid": 190,
+   "punteggio": 0.4370915751016992,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 183,
+   "punteggio": 0.43651610690715903,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 905,
+   "punteggio": 0.4364144955348633,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 83,
+   "origine": "nativa"
+  },
+  {
+   "cid": 483,
+   "punteggio": 0.43561422736712785,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1126,
+   "punteggio": 0.43535885010190123,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 8,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1901,
+   "punteggio": 20.349613189697266,
+   "file": "~$ttera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 0,
+   "origine": "scheda"
+  },
+  {
+   "cid": 537,
+   "punteggio": 19.9626407623291,
+   "file": "IMG-20260510-WA0007.jpg",
+   "idx": 0,
+   "origine": "scheda"
+  },
+  {
+   "cid": 545,
+   "punteggio": 19.797691345214844,
+   "file": "IMG_20260514_152241_frammento_REC-2026-011.jpg",
+   "idx": 0,
+   "origine": "scheda"
+  },
+  {
+   "cid": 1122,
+   "punteggio": 14.309600830078125,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 347,
+   "punteggio": 13.606340408325195,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1861,
+   "punteggio": 13.477667808532715,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 10,
+   "punteggio": 13.472858428955078,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 0,
+   "punteggio": 13.086983680725098,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1695,
+   "punteggio": 12.546772003173828,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1356,
+   "punteggio": 12.275737762451172,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1145,
+   "punteggio": 11.752448081970215,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 27,
+   "origine": "nativa"
+  },
+  {
+   "cid": 428,
+   "punteggio": 11.399492263793945,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 256,
+   "punteggio": 11.074353218078613,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1243,
+   "punteggio": 11.041485786437988,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 208,
+   "punteggio": 11.023799896240234,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1114,
+   "punteggio": 10.897905349731445,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 279,
+   "punteggio": 10.577680587768555,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 151,
+   "punteggio": 10.536470413208008,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 158,
+   "punteggio": 10.521285057067871,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 154,
+   "punteggio": 10.442456245422363,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 1,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 545,
+   "file": "IMG_20260514_152241_frammento_REC-2026-011.jpg",
+   "idx": 0,
+   "origine": "scheda",
+   "rrf": 0.032266458495966696,
+   "rango_denso": 1,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1901,
+   "file": "~$ttera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 0,
+   "origine": "scheda",
+   "rrf": 0.032266458495966696,
+   "rango_denso": 3,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 537,
+   "file": "IMG-20260510-WA0007.jpg",
+   "idx": 0,
+   "origine": "scheda",
+   "rrf": 0.03225806451612903,
+   "rango_denso": 2,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1122,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1701,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 181,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 347,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1051,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 117,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1861,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 10,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 179,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 0,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1739,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 178,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1695,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 479,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1356,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 184,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1145,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 27,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 88,
+   "file": "appunti_tecnologo_quaderno_prove_pilota_OCR.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 428,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 177,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 256,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 182,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 537,
+   "file": "IMG-20260510-WA0007.jpg",
+   "rerank": 0.022768573835492134
+  },
+  {
+   "cid": 1901,
+   "file": "~$ttera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.02143998257815838
+  },
+  {
+   "cid": 545,
+   "file": "IMG_20260514_152241_frammento_REC-2026-011.jpg",
+   "rerank": 0.015390878543257713
+  },
+  {
+   "cid": 0,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "rerank": 0.0037642153911292553
+  },
+  {
+   "cid": 1145,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.003478087019175291
+  },
+  {
+   "cid": 479,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "rerank": 0.001747539616189897
+  },
+  {
+   "cid": 1861,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.00161823071539402
+  },
+  {
+   "cid": 1695,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "rerank": 0.0004724919272121042
+  },
+  {
+   "cid": 1356,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.0002667775843292475
+  },
+  {
+   "cid": 178,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "rerank": 0.00015887629706412554
+  },
+  {
+   "cid": 428,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.00011259609163971618
+  },
+  {
+   "cid": 347,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "rerank": 0.00011021792306564748
+  },
+  {
+   "cid": 184,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "rerank": 0.00010319556895410642
+  },
+  {
+   "cid": 182,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "rerank": 7.635348447365686e-05
+  },
+  {
+   "cid": 10,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 4.608496601576917e-05
+  },
+  {
+   "cid": 1739,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "rerank": 4.120559970033355e-05
+  },
+  {
+   "cid": 177,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "rerank": 3.102542905253358e-05
+  },
+  {
+   "cid": 181,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "rerank": 2.473568747518584e-05
+  },
+  {
+   "cid": 179,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "rerank": 2.05271971935872e-05
+  },
+  {
+   "cid": 256,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "rerank": 1.8916307453764603e-05
+  },
+  {
+   "cid": 1701,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "rerank": 1.8367838492849842e-05
+  },
+  {
+   "cid": 1122,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 1.816495023376774e-05
+  },
+  {
+   "cid": 1051,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 1.7920072423294187e-05
+  },
+  {
+   "cid": 88,
+   "file": "appunti_tecnologo_quaderno_prove_pilota_OCR.txt",
+   "rerank": 1.6917720131459646e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 537,
+   "file": "IMG-20260510-WA0007.jpg",
+   "origine": "scheda",
+   "rerank": 0.022768573835492134,
+   "testo": "[scheda documento] File: IMG-20260510-WA0007.jpg — formato jpg. Nessun contenuto testuale disponibile per questo file (OCR sotto soglia: 11 parole, confidenza media 67.4, 48 caratteri alfanumerici). Il file esiste nell'archivio; il suo contenuto non e' leggibile dalla pipeline."
+  },
+  {
+   "cid": 1901,
+   "file": "~$ttera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "origine": "scheda",
+   "rerank": 0.02143998257815838,
+   "testo": "[scheda documento] File: ~$ttera_risposta_Tosano_reclamo_BOZZA_v3.docx — formato docx. Nessun contenuto testuale disponibile per questo file (file non apribile dall'estrattore (PackageNotFoundError)). Il file esiste nell'archivio; il suo contenuto non e' leggibile dalla pipeline."
+  },
+  {
+   "cid": 545,
+   "file": "IMG_20260514_152241_frammento_REC-2026-011.jpg",
+   "origine": "scheda",
+   "rerank": 0.015390878543257713,
+   "testo": "[scheda documento] File: IMG_20260514_152241_frammento_REC-2026-011.jpg — formato jpg. Nessun contenuto testuale disponibile per questo file (OCR sotto soglia: 8 parole, confidenza media 93.0, 42 caratteri alfanumerici). Il file esiste nell'archivio; il suo contenuto non e' leggibile dalla pipeline."
+  },
+  {
+   "cid": 0,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "origine": "nativa",
+   "rerank": 0.0037642153911292553,
+   "testo": "QUESTO ARCHIVIO E' UNA SIMULAZIONE\n===================================\n\nI documenti contenuti in questa cartella sono INTERAMENTE INVENTATI.\n\nAurora Food Group S.r.l. non esiste e non e' mai esistita. Persone, fornitori, clienti,\nprodotti, lotti, importi, non conformita', reclami, ispezioni e contestazioni sono\ninvenzioni create per una simulazione dimostrativa.\n\nAlcuni documenti sono redatti in forma di atti provenienti da organizzazioni realmente\nesistenti - rapporti di audit, verbali ispettivi, estratti conto, fatture, certificati.\nTUTTI i numeri di certificato, protocollo, pratica, conto e matricola in essi contenuti\nsono inventati, cosi' come tutte le persone indicate come dipendenti, funzionari,\nauditor o ispettori di quelle organizzazioni: nessuna di esse esiste, e nessuna di\nquelle organizzazioni ha redatto, firmato o ricevuto alcuno di questi documenti.\n\nCodici fiscali, partite IVA, IBAN e codici a barre sono costruiti per superare i\nrispettivi algoritmi di controllo; numeri di telefono, indirizzi e prefissi sono\nverosimili ma inesistenti - con l'eccezione dei numeri di pubblica\nutilita' e dei centri antiveleni citati nelle schede di sicurezza, che sono"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 2038,
+ "tempi": {
+  "denso": 0.03,
+  "sparso": 0.28,
+  "rerank": 58.15
+ },
+ "id": "Q277",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T18:29:32",
+ "secondi": 58.46,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 27.69,
+  "token_prompt": 951,
+  "token_risposta": 109,
+  "testo_grezzo": "Non e' possibile determinare la composizione dell'archivio per formato di file a causa della mancanza di informazioni leggibili sui file forniti.\n\nFONTI: IMG-20260510-WA0007.jpg, ~$ttera_risposta_Tosano_reclamo_BOZZA_v3.docx, IMG_20260514_152241_frammento_REC-2026-011.jpg, _QUESTO_ARCHIVIO_E_SIMULATO.txt\nCONFIDENZA: alta",
+  "fonti_citate": [
+   "IMG-20260510-WA0007.jpg",
+   "~$ttera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "IMG_20260514_152241_frammento_REC-2026-011.jpg",
+   "_QUESTO_ARCHIVIO_E_SIMULATO.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "alta"
+ }
+}

@@ -1,0 +1,683 @@
+{
+ "domanda": "Quanti reclami abbiamo a registro nel 2026 e quanti sono ancora aperti?",
+ "candidati_densi": [
+  {
+   "cid": 1853,
+   "punteggio": 0.557808990085392,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1322,
+   "punteggio": 0.5561431291461345,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 348,
+   "punteggio": 0.5530459870375527,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1862,
+   "punteggio": 0.5106637397544151,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1854,
+   "punteggio": 0.5097101172426961,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1207,
+   "punteggio": 0.49332430399514415,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 29,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1794,
+   "punteggio": 0.491936600218939,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 21,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1394,
+   "punteggio": 0.48943127027254507,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1861,
+   "punteggio": 0.48324938166896675,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 523,
+   "punteggio": 0.47793584601755706,
+   "file": "Fwd_newsletter_confindustria_marzo.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1793,
+   "punteggio": 0.47530980233346504,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 615,
+   "punteggio": 0.4744900443616516,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1778,
+   "punteggio": 0.4737169195374929,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1802,
+   "punteggio": 0.47178932209251373,
+   "file": "verbale_assemblea_condominio_capannone.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1858,
+   "punteggio": 0.4714844924923548,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1109,
+   "punteggio": 0.47127366227862083,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1209,
+   "punteggio": 0.46989153262667316,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 31,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1173,
+   "punteggio": 0.4697668055618335,
+   "file": "Newsletter_Fiere_alimentari_2026_NON_LEGGERE.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 20,
+   "punteggio": 0.4680507247942,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1210,
+   "punteggio": 0.46784941026534194,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 32,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1113,
+   "punteggio": 15.152251243591309,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 348,
+   "punteggio": 14.406292915344238,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1114,
+   "punteggio": 14.255422592163086,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1629,
+   "punteggio": 14.116084098815918,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1812,
+   "punteggio": 13.748915672302246,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 505,
+   "punteggio": 13.583106994628906,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1557,
+   "punteggio": 12.608786582946777,
+   "file": "ricetta_base_esperimento_snack_salato_v12.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 510,
+   "punteggio": 12.49351692199707,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1686,
+   "punteggio": 12.439678192138672,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 83,
+   "punteggio": 12.347410202026367,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1777,
+   "punteggio": 12.293190956115723,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1321,
+   "punteggio": 11.999889373779297,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 277,
+   "punteggio": 11.895492553710938,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1115,
+   "punteggio": 11.48647403717041,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1239,
+   "punteggio": 11.41789436340332,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1774,
+   "punteggio": 11.3883638381958,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 430,
+   "punteggio": 11.372978210449219,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1792,
+   "punteggio": 11.352119445800781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1383,
+   "punteggio": 11.308749198913574,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1382,
+   "punteggio": 11.259011268615723,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 1,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 348,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.03200204813108039,
+   "rango_denso": 3,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1113,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1853,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1322,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1114,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1629,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1862,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1812,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1854,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 505,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1207,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 29,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1557,
+   "file": "ricetta_base_esperimento_snack_salato_v12.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1794,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 21,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 510,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1394,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1686,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1861,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 83,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 523,
+   "file": "Fwd_newsletter_confindustria_marzo.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1777,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1793,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 20,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 615,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1321,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 277,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 348,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "rerank": 0.9303867816925049
+  },
+  {
+   "cid": 1854,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.8219677805900574
+  },
+  {
+   "cid": 1853,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.789892315864563
+  },
+  {
+   "cid": 1322,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "rerank": 0.5763106346130371
+  },
+  {
+   "cid": 615,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.3394022583961487
+  },
+  {
+   "cid": 1862,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.2922240197658539
+  },
+  {
+   "cid": 1394,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "rerank": 0.23300451040267944
+  },
+  {
+   "cid": 1207,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.15842193365097046
+  },
+  {
+   "cid": 523,
+   "file": "Fwd_newsletter_confindustria_marzo.txt",
+   "rerank": 0.09854716807603836
+  },
+  {
+   "cid": 1113,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.029974857345223427
+  },
+  {
+   "cid": 1794,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.018781183287501335
+  },
+  {
+   "cid": 1861,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.01144446898251772
+  },
+  {
+   "cid": 277,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.006671177688986063
+  },
+  {
+   "cid": 510,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 0.005659972783178091
+  },
+  {
+   "cid": 1321,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "rerank": 0.00489693833515048
+  },
+  {
+   "cid": 505,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 0.004137844778597355
+  },
+  {
+   "cid": 1793,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.004078616388142109
+  },
+  {
+   "cid": 1629,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "rerank": 0.003746242728084326
+  },
+  {
+   "cid": 1777,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.001977951033040881
+  },
+  {
+   "cid": 1812,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.0008745843661017716
+  },
+  {
+   "cid": 1114,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.00028578509227372706
+  },
+  {
+   "cid": 1686,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "rerank": 6.614417361561209e-05
+  },
+  {
+   "cid": 1557,
+   "file": "ricetta_base_esperimento_snack_salato_v12.txt",
+   "rerank": 5.078094909549691e-05
+  },
+  {
+   "cid": 83,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "rerank": 1.7004806068143807e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 348,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "origine": "nativa",
+   "rerank": 0.9303867816925049,
+   "testo": "Cruscotto indicatori qualità 2026 - riesame direzione\nE. Marchetti - dati gennaio/maggio - target definiti nel riesame del 12/03/2026\n\n\nIndicatore Target gen feb mar apr mag Media Trend Stato\nReclami cliente per milione di pz (ppm) 8 4.2 6.1 5.4 7.8 19.6\nLotti bloccati / lotti prodotti % 1.5 0.8 1.1 0.9 1.4 4.8\nTamponi ambientali conformi % 95 97.2 96.1 95.8 92.4 88.9\nDeviazioni CCP registrate (n.) 0 0 1 0 1 3\nNC interne aperte a fine mese (n.) 5 6 8 11 14 19\nTempo medio chiusura NC (gg) 20 18 24 31 38 44\nCosto della non qualità (€) 1600 980 1420 1180 2240 18600\nOre formazione erogate 40 32 18 44 12 6\nFornitori in classe A % 70 72 72 68 64 64\nAudit interni eseguiti / piano % 100 100 100 66 50 33\n\nmaggio è fuori scala su quasi tutto: è il mese del reclamo corpo estraneo\nle ore di formazione sono crollate perché la produzione non libera le persone (segnalato 3 volte)\nRegistro reclami cliente e consumatore 2026\n\n\n\nN. Data Origine Cliente / consumatore Prodotto Lotto Tipologia Gravità Pz coinvolti Stato Chiuso il gg aperto\n1 14/01/2026 cliente GDO Tosano Cerea SpA AF-CR-0215 L26008-L2-T1 peso pezzo sotto tolleranza minore 480 chiuso 28/01/2026"
+  },
+  {
+   "cid": 1854,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.8219677805900574,
+   "testo": "numero verde, Famila etichetta bio, piu' 2 minori). Andamento in linea.\n\n   4.3  Non conformita' interne: anno 2025 n. 214 (di cui 9 gravi); gennaio-febbraio\n        2026 n. 37 registrate a MOD-QA-31. Le NC aperte da oltre 60 giorni alla data\n        odierna sono n. 6: la Direzione ne chiede la revisione puntuale entro il\n        30/04 (resp. RSGQ).\n\n   4.4  Costo della non qualita' 2025: 68.400 euro stimati (sfridi da NC, resi,\n        declassamenti). Dato parziale: mancano i costi di 31 NC prive di stima.\n        La Direzione richiama i responsabili di reparto alla compilazione del campo\n        costo entro 5 giorni dalla chiusura della NC.\n\n5. DATI DI INGRESSO - INDICATORI KPI QUALITA'\n\n   5.1  Tabella indicatori (consuntivo 2025 vs obiettivo):\n\n        Indicatore                              Obiettivo    Consuntivo   Esito\n        ------------------------------------------------------------------------\n        Reclami / mio pezzi                     < 1,0        0,89         OK\n        Resa prima scelta Linea 1               > 97,0%      97,4%        OK\n        Resa prima scelta Linea 2               > 96,5%      95,8%        NO"
+  },
+  {
+   "cid": 1853,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.789892315864563,
+   "testo": "MOD-QA-12 revisionato e le foto dell'armadio ricambi in officina.\n        La Direzione RICHIAMA la RSGQ al rispetto tassativo della scadenza.\n        [annotazione a margine: evidenze poi trasmesse a CSQA in data 02/04/2026,\n        oltre il termine - v. NC-2026-049 e NC-2026-061]\n\n   3.4  Audit interni 2025: eseguiti 9 su 10 pianificati (90%). L'audit su gestione\n        vetro/plastica dura e' slittato a gennaio 2026, eseguito il 28/01/2026.\n\n   3.5  Audit clienti: audit igienico Tosano (dott.ssa Perbellini) del 06/11/2025,\n        esito positivo con 3 osservazioni, tutte chiuse.\n\n4. DATI DI INGRESSO - RECLAMI E NON CONFORMITA'\n\n   4.1  Reclami cliente/consumatore anno 2025: n. 41 totali, pari a 0,89 reclami\n        per milione di pezzi venduti (obiettivo: < 1,0 - RAGGIUNTO).\n        Ripartizione 2025:  corpo estraneo 4 - confezionamento 17 - organolettici\n        12 - etichettatura 5 - altro 3. Nessun reclamo con esito sanitario.\n\n   4.2  Reclami gennaio-febbraio 2026: n. 5 (Ali' saldature film, consumatore\n        numero verde, Famila etichetta bio, piu' 2 minori). Andamento in linea.\n\n   4.3  Non conformita' interne: anno 2025 n. 214 (di cui 9 gravi); gennaio-febbraio"
+  },
+  {
+   "cid": 1322,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "origine": "nativa",
+   "rerank": 0.5763106346130371,
+   "testo": "Cologna Veneta, 12 gennaio 2026\n\n\n[Sartori F. - firmata dal titolare il 15/01, l'originale è nel raccoglitore DOC-QA in qualità. Ho appeso le copie nelle bacheche il 16/01. Quella della Linea 3 qualcuno l'ha staccata per appenderci i turni: riappesa il 20/01, tenere d'occhio.]\n\nObiettivo\nIndicatore\nValore 2025\nTarget 2026\nResponsabile\nMantenimento certificazioni\nesito audit BRCGS e IFS\nAA / Higher Level 97,32%\nconferma grade e livello\nRSGQ\nReclami cliente e consumatore\nreclami per milione di confezioni\n9,4\n< 8,0\nRSGQ\nReclami critici (classe 1)\nnumero assoluto\n1\n0\nRSGQ\nNon conformità audit interni\nNC maggiori\n2\n0\nRSGQ\nChiusura azioni correttive\n% chiuse entro scadenza\n78%\n≥ 95%\ntutte le funzioni\nRegistrazioni CCP verificate in seconda firma\n% conformità a campione\nnon misurato\n100%\nResp. Produzione\nFormazione sicurezza alimentare\nore/addetto/anno\n4,2\n≥ 6\nHR + RSGQ\nCultura sicurezza alimentare\npartecipazione questionario anonimo\n61%\n≥ 80%\nDirezione\nEfficienza risorsa idrica CIP\nm3 acqua/ton prodotto\n3,9\n≤ 3,6\nManutenzione\nRuolo\nNome\nFirma\nIl Legale Rappresentante — Amministratore Delegato\nGiancarlo Bertoldi\n_______________________"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4642,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.18,
+  "rerank": 38.4
+ },
+ "id": "Q107",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:16:01",
+ "secondi": 38.59,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 65.97,
+  "token_prompt": 2038,
+  "token_risposta": 69,
+  "testo_grezzo": "Non e' possibile determinare la quantita di reclami aperti nel 2026, poiche non sono presenti dati specifici su questo argomento nei documenti forniti.\n\nFONTI: verbale_riesame_direzione_SGQ_2026.txt, Registro reclami cliente e consumatore 2026",
+  "fonti_citate": [
+   "verbale_riesame_direzione_SGQ_2026.txt",
+   "Registro reclami cliente e consumatore 2026"
+  ],
+  "fonti_fuori_contesto": [
+   "Registro reclami cliente e consumatore 2026"
+  ],
+  "confidenza": "bassa"
+ }
+}

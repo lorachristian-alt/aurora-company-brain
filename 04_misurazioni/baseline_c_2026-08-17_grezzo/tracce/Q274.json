@@ -1,0 +1,683 @@
+{
+ "domanda": "Quanto e' costato effettivamente il ritiro del prodotto?",
+ "candidati_densi": [
+  {
+   "cid": 531,
+   "punteggio": 0.5969405717625298,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1781,
+   "punteggio": 0.576804173870398,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1397,
+   "punteggio": 0.5650412687074705,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 120,
+   "punteggio": 0.5615124961808238,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1327,
+   "punteggio": 0.5485057958815487,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 21,
+   "punteggio": 0.5481077730484047,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1202,
+   "punteggio": 0.5458305597138486,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 24,
+   "origine": "nativa"
+  },
+  {
+   "cid": 486,
+   "punteggio": 0.5278896411538139,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1111,
+   "punteggio": 0.5272347361669294,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1779,
+   "punteggio": 0.5265113806667913,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1876,
+   "punteggio": 0.5246455330773139,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 20,
+   "punteggio": 0.5183945888690134,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1854,
+   "punteggio": 0.5176963281083999,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 75,
+   "punteggio": 0.517174708212579,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "idx": 25,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1199,
+   "punteggio": 0.5164430211477629,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 21,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1562,
+   "punteggio": 0.5135102915296241,
+   "file": "ricetta_base_esperimento_snack_salato_v12.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 161,
+   "punteggio": 0.5127133929085818,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1780,
+   "punteggio": 0.5079578385531616,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1877,
+   "punteggio": 0.5074349018194442,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1557,
+   "punteggio": 0.5061697242350782,
+   "file": "ricetta_base_esperimento_snack_salato_v12.txt",
+   "idx": 8,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 22,
+   "punteggio": 14.210582733154297,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 21,
+   "punteggio": 12.816400527954102,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 20,
+   "punteggio": 11.732056617736816,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1397,
+   "punteggio": 11.636241912841797,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1405,
+   "punteggio": 11.443737983703613,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1215,
+   "punteggio": 11.438556671142578,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1398,
+   "punteggio": 11.394804954528809,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 104,
+   "punteggio": 11.388830184936523,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1410,
+   "punteggio": 11.29224681854248,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1456,
+   "punteggio": 11.29206657409668,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1710,
+   "punteggio": 11.218280792236328,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 310,
+   "punteggio": 10.897086143493652,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 533,
+   "punteggio": 10.890734672546387,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1402,
+   "punteggio": 10.886543273925781,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1404,
+   "punteggio": 10.843681335449219,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1782,
+   "punteggio": 10.613245964050293,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1383,
+   "punteggio": 10.581894874572754,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 300,
+   "punteggio": 10.569538116455078,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1396,
+   "punteggio": 10.438098907470703,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 25,
+   "punteggio": 10.292658805847168,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 23,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1397,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.03149801587301587,
+   "rango_denso": 3,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 21,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.03128054740957967,
+   "rango_denso": 6,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 20,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 18,
+   "origine": "nativa",
+   "rrf": 0.02976190476190476,
+   "rango_denso": 12,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 22,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 20,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 531,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 120,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1327,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1405,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1215,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1202,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 24,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1398,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 104,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 486,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1111,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1410,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1456,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1779,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1710,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1876,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 310,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 533,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1854,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 75,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "idx": 25,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1202,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.17569668591022491
+  },
+  {
+   "cid": 1111,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.11157726496458054
+  },
+  {
+   "cid": 20,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.09750980138778687
+  },
+  {
+   "cid": 75,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "rerank": 0.029266998171806335
+  },
+  {
+   "cid": 21,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.025052981451153755
+  },
+  {
+   "cid": 531,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "rerank": 0.02131637930870056
+  },
+  {
+   "cid": 120,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "rerank": 0.014138641767203808
+  },
+  {
+   "cid": 1327,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "rerank": 0.014018005691468716
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.011160404421389103
+  },
+  {
+   "cid": 533,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "rerank": 0.010948418639600277
+  },
+  {
+   "cid": 1876,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "rerank": 0.010538225993514061
+  },
+  {
+   "cid": 1405,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.007466030307114124
+  },
+  {
+   "cid": 1397,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.006428032647818327
+  },
+  {
+   "cid": 1779,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.004152353852987289
+  },
+  {
+   "cid": 1456,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.003306483617052436
+  },
+  {
+   "cid": 486,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "rerank": 0.002627137117087841
+  },
+  {
+   "cid": 1398,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.0023363325744867325
+  },
+  {
+   "cid": 1410,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.002108846791088581
+  },
+  {
+   "cid": 310,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "rerank": 0.0013444973155856133
+  },
+  {
+   "cid": 1710,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.001206029555760324
+  },
+  {
+   "cid": 1854,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.0009460560977458954
+  },
+  {
+   "cid": 22,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.0007053101435303688
+  },
+  {
+   "cid": 104,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "rerank": 0.00019494730804581195
+  },
+  {
+   "cid": 1215,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "rerank": 2.9283095500431955e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1202,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "origine": "nativa",
+   "rerank": 0.17569668591022491,
+   "testo": "NC-2026-091;12/05/2026;reclamo;Qualità;RECLAMO da form sito web: sig.ra M.G. (Bussolengo VR) segnala frammento di plastica dura azzurra in snack AF-SN-0450 lotto L26130 acquistato presso Tosano Bussolengo. Aperta gestione MOD-QA-31, richiesto campione e foto;AF-SN-0450 L26130-L1-T2;critica;presunta origine: guarnizione azzurra non originale PKM-450 (v. NC-2026-089), materiale non metallico non rilevabile da MD-3200;raccolta campione, blocco lotti L26130 e L26131, informativa a Tosano QA (Perbellini), valutazione ritiro cautelativo;Marchetti E.;;APERTA;N/D\nNC-2026-092;12/05/2026;interna;Qualità;Blocco cautelativo lotti L26130 e L26131 tutte le referenze Linea 1 coinvolte, circa 8.400 confezioni di cui 5.100 gia a scaffale;AF-SN-0450 L26130 / L26131;critica;v. NC-2026-088 NC-2026-089 NC-2026-091;segregazione magazzino, conteggio giacenze, procedura ritiro CRISI GDO in pre-allerta, stima costo ritiro 31.500;Fantin M.;;APERTA;31.500,00"
+  },
+  {
+   "cid": 1111,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "origine": "nativa",
+   "rerank": 0.11157726496458054,
+   "testo": "ma mercoledi non ho dormito, alle tre ero in cucina a guardare il muro, perche non è\nla signora di Bussolengo il problema, una signora arrabbiata la gestisci, le mandi due\ncartoni di prodotto e una lettera fatta bene e finisce li, il problema è che in\ntrentadue anni non era MAI successo, mai un corpo estraneo arrivato a un cliente, mai,\ne adesso in una settimana due segnalazioni sullo stesso lotto, e la Perbellini di\nTosano che scrive raccomandate come se fossimo dei delinquenti, e la Marchetti che mi\nparla di ritiro cautelativo e mi butta li un numero, 31mila e cinquecento euro, come\nse fosse il costo di un pranzo\n\ne io mi chiedo COME è potuto succedere, abbiamo il metal detector, abbiamo le\ncertificazioni col grado massimo, la Franceschini a febbraio ci ha fatto i complimenti,\nva bene due non conformita minori ma i complimenti ce li ha fatti, e allora come è\npossibile che un pezzo di plastica azzurra finisca dentro uno snack, qualcuno mi deve\nspiegare, Marco tu mi devi spiegare, e non in una riunione con dieci persone, tu e io\ndavanti a un caffe\n\ne vi diro di piu, non è nemmeno la plastica in se che mi toglie il sonno, è che ho"
+  },
+  {
+   "cid": 20,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "origine": "nativa",
+   "rerank": 0.09750980138778687,
+   "testo": "balance) entro 4 ore dalla richiesta, dal lotto di prodotto finito alle materie\n     prime e viceversa.\n11.5 Il Fornitore mantiene attiva idonea copertura assicurativa RC prodotti con massimale\n     non inferiore a Euro 5.000.000,00 per sinistro, ivi inclusa l'estensione per costi\n     di ritiro, e ne fornisce evidenza annuale al Distributore.\n11.6 Campioni di ogni lotto consegnato sono conservati dal Fornitore fino a scadenza del\n     TMC maggiorata di 30 giorni.\n\nArt. 12 — GESTIONE DEI RECLAMI, RITIRO E RICHIAMO\n12.1 Il Distributore inoltra al Fornitore i reclami dei consumatori e dei punti vendita\n     relativi alle Referenze. Il Fornitore fornisce riscontro scritto documentato entro\n     48 (quarantotto) ore dal ricevimento, con indicazione del lotto coinvolto, delle\n     verifiche eseguite e delle azioni correttive intraprese, secondo la propria\n     procedura di gestione reclami.\n12.2 In presenza di rischio, anche solo potenziale, per la sicurezza del consumatore, il\n     Fornitore attiva senza indugio la propria procedura di ritiro/richiamo, dandone\n     immediata comunicazione al Distributore e, ove dovuto, alla competente autorita'"
+  },
+  {
+   "cid": 75,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "origine": "nativa",
+   "rerank": 0.029266998171806335,
+   "testo": "21;2026;Tosano;T009;Villafranca VR;AF-SN-0450;88412;SNACK RUSTICO MULTICEREALI 100G BONTA DI CASA;0;0,00;0,99;0;0;SI - SOTTOCOSTO PRIMAVERA;prodotto rimosso da scaffale il 20/05\n21;2026;Tosano;T011;Legnago;AF-SN-0450;88412;SNACK RUSTICO MULTICEREALI 100G BONTA DI CASA;18;17,82;0,99;0;0;SI - SOTTOCOSTO PRIMAVERA;ritiro cautelativo\n21;2026;Tosano;T014;Affi;AF-SN-0450;88412;SNACK RUSTICO MULTICEREALI 100G BONTA DI CASA;7;6,93;0,99;0;;SI - SOTTOCOSTO PRIMAVERA;\n21;2026;Tosano;T016;Lugagnano di Sona;AF-SN-0450;88412;SNACK RUSTICO MULTICEREALI 100G BONTA DI CASA;12;11,88;0,99;0;0;SI - SOTTOCOSTO PRIMAVERA;ritiro cautelativo\n21;2026;Tosano;T018;San Bonifacio;AF-SN-0450;88412;SNACK RUSTICO MULTICEREALI 100G BONTA DI CASA;0;0,00;0,99;0;0;SI - SOTTOCOSTO PRIMAVERA;rimosso 20/05, vedi comunicazione Perbellini\n21;2026;Tosano;T021;Vicenza Est;AF-SN-0450;88412;SNACK RUSTICO MULTICEREALI 100G BONTA DI CASA;26;25,74;0,99;0;0;SI - SOTTOCOSTO PRIMAVERA;\n21;2026;Tosano;T024;Arzignano;AF-SN-0450;88412;SNACK RUSTICO MULTICEREALI 100G BONTA DI CASA;6;5,94;0,99;0;0;SI - SOTTOCOSTO PRIMAVERA;ritiro cautelativo"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4353,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.2,
+  "rerank": 50.87
+ },
+ "id": "Q274",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T18:26:43",
+ "secondi": 51.09,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 43.17,
+  "token_prompt": 1983,
+  "token_risposta": 66,
+  "testo_grezzo": "Il costo effettivo del ritiro del prodotto non è indicato nei documenti forniti.\n\nFONTI: mail_titolare_Aurora_vie_aziendale_5anni.txt, accordo_quadro_private_label_Tosano_2026_firmato.txt\n\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "mail_titolare_Aurora_vie_aziendale_5anni.txt",
+   "accordo_quadro_private_label_Tosano_2026_firmato.txt"
+  ],
+  "fonti_fuori_contesto": [
+   "mail_titolare_Aurora_vie_aziendale_5anni.txt"
+  ],
+  "confidenza": "bassa"
+ }
+}

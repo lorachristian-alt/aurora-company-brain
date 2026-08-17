@@ -1,0 +1,684 @@
+{
+ "domanda": "Quanto vale l'export di Aurora e verso quali paesi?",
+ "candidati_densi": [
+  {
+   "cid": 1445,
+   "punteggio": 0.4916929548180583,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1571,
+   "punteggio": 0.4837428147201864,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 531,
+   "punteggio": 0.48323982092731954,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 494,
+   "punteggio": 0.4820660314049239,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1342,
+   "punteggio": 0.4775408124297391,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 499,
+   "punteggio": 0.4766201181188917,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1108,
+   "punteggio": 0.4760281975122357,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 119,
+   "punteggio": 0.47119605424601824,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1335,
+   "punteggio": 0.46823907776154106,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 429,
+   "punteggio": 0.46732588282262416,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 121,
+   "punteggio": 0.4670312880096673,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1547,
+   "punteggio": 0.4669940994113577,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 202,
+   "punteggio": 0.464882096460423,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 153,
+   "punteggio": 0.46103679908973977,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 79,
+   "punteggio": 0.45928134114926616,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "idx": 29,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1318,
+   "punteggio": 0.45804258296752354,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1116,
+   "punteggio": 0.4580017124008654,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 155,
+   "punteggio": 0.4545193507789183,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1316,
+   "punteggio": 0.4527376958497744,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1890,
+   "punteggio": 0.45219851696993474,
+   "file": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 99,
+   "punteggio": 14.275178909301758,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1172,
+   "punteggio": 14.058220863342285,
+   "file": "Newsletter_Fiere_alimentari_2026_NON_LEGGERE.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1710,
+   "punteggio": 13.36440658569336,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 117,
+   "punteggio": 11.846692085266113,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1599,
+   "punteggio": 11.718087196350098,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "idx": 35,
+   "origine": "nativa"
+  },
+  {
+   "cid": 119,
+   "punteggio": 11.62955093383789,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 97,
+   "punteggio": 11.608668327331543,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1694,
+   "punteggio": 11.47789478302002,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1831,
+   "punteggio": 11.408857345581055,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 118,
+   "punteggio": 11.343828201293945,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1642,
+   "punteggio": 11.258642196655273,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1781,
+   "punteggio": 11.18554973602295,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1427,
+   "punteggio": 11.18544864654541,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1353,
+   "punteggio": 11.182821273803711,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 342,
+   "punteggio": 11.150049209594727,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1364,
+   "punteggio": 10.830038070678711,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 31,
+   "punteggio": 10.770588874816895,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 29,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1381,
+   "punteggio": 10.645252227783203,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 310,
+   "punteggio": 10.624037742614746,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 123,
+   "punteggio": 10.1168212890625,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 119,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.029857397504456328,
+   "rango_denso": 8,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 99,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1445,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1172,
+   "file": "Newsletter_Fiere_alimentari_2026_NON_LEGGERE.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1571,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 531,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1710,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 117,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 494,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1342,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1599,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "idx": 35,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 499,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 20,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 97,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1108,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1694,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1335,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1831,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 118,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 429,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 121,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1642,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1547,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 202,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1335,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "rerank": 0.09424425661563873
+  },
+  {
+   "cid": 494,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "rerank": 0.07491498440504074
+  },
+  {
+   "cid": 119,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "rerank": 0.07088560611009598
+  },
+  {
+   "cid": 499,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "rerank": 0.06468527019023895
+  },
+  {
+   "cid": 118,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "rerank": 0.0346510112285614
+  },
+  {
+   "cid": 121,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "rerank": 0.03187766298651695
+  },
+  {
+   "cid": 117,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "rerank": 0.02848880924284458
+  },
+  {
+   "cid": 1571,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "rerank": 0.028389645740389824
+  },
+  {
+   "cid": 1342,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "rerank": 0.02535814419388771
+  },
+  {
+   "cid": 531,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "rerank": 0.016725338995456696
+  },
+  {
+   "cid": 1547,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "rerank": 0.006623394787311554
+  },
+  {
+   "cid": 1599,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "rerank": 0.005980559624731541
+  },
+  {
+   "cid": 1445,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "rerank": 0.005071178078651428
+  },
+  {
+   "cid": 1710,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.004701744765043259
+  },
+  {
+   "cid": 429,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.004089778289198875
+  },
+  {
+   "cid": 97,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "rerank": 0.003972132224589586
+  },
+  {
+   "cid": 1694,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "rerank": 0.0034489838872104883
+  },
+  {
+   "cid": 202,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "rerank": 0.001321551506407559
+  },
+  {
+   "cid": 1172,
+   "file": "Newsletter_Fiere_alimentari_2026_NON_LEGGERE.eml",
+   "rerank": 0.0009026160696521401
+  },
+  {
+   "cid": 1108,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.0005919965915381908
+  },
+  {
+   "cid": 1831,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.00014807548723183572
+  },
+  {
+   "cid": 99,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "rerank": 2.0978255633963272e-05
+  },
+  {
+   "cid": 1642,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "rerank": 2.0231829694239423e-05
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 1.886417157948017e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1335,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "origine": "nativa",
+   "rerank": 0.09424425661563873,
+   "testo": "(senza titolo)\n\nAURORA FOOD GROUP S.r.l.\nProdotti da forno farciti e snack salati in ATM - Croissanteria surgelata - Private Label GDO\n<immagine: foto stabilimento Cologna Veneta dall'alto>\nPresentazione commerciale canale GDO - edizione 2026\nDirezione Commerciale - Silvia Bertoldi\n[Note relatore: aprire con la storia di famiglia, NON partire dai numeri. Giancarlo vuole che si citi sempre il papà fornaio.]\n(senza titolo)\n\nCHI SIAMO\n• Azienda familiare, seconda generazione\n• Sede e stabilimento: Via dell'Industria 27, Cologna Veneta (VR)\n• 50 dipendenti (38 produzione, 12 uffici)\n• 3 linee produttive: ATM/MAP, croissanteria surgelata, surgelati\n• Cliente tipo: GDO e private label Nord-Est\n• Secondo magazzino prodotto finito surgelato in Via Palù 3/A\n<immagine: famiglia Bertoldi davanti al forno storico>\n(senza titolo)\n\nLA NOSTRA STORIA\n1994 - Giancarlo Bertoldi rileva il forno di famiglia e fonda Aurora\n2001 - primo capannone in zona industriale, Via dell'Industria\n2008 - entrata nel canale GDO con le focaccine in ATM\n2014 - LINEA 2 croissanteria, prima cella di lievitazione industriale\n2019 - registrazione sanitaria n. 037/2019/SIAN - ULSS 9 Scaligera"
+  },
+  {
+   "cid": 494,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "origine": "nativa",
+   "rerank": 0.07491498440504074,
+   "testo": "<CessionarioCommittente><DatiAnagrafici><IdFiscaleIVA><IdPaese>IT</IdPaese><IdCodice>03984710230</IdCodice></IdFiscaleIVA><Anagrafica><Denominazione>AURORA FOOD GROUP S.R.L.</Denominazione></Anagrafica></DatiAnagrafici><Sede><Indirizzo>VIA DELL'INDUSTRIA 27</Indirizzo><CAP>37044</CAP><Comune>COLOGNA VENETA</Comune><Provincia>VR</Provincia><Nazione>IT</Nazione></Sede></CessionarioCommittente></FatturaElettronicaHeader>\n<FatturaElettronicaBody><DatiGenerali><DatiGeneraliDocumento><TipoDocumento>TD01</TipoDocumento><Divisa>EUR</Divisa><Data>2026-03-05</Data><Numero>REC-2026-01161</Numero><ImportoTotaleDocumento>6238.49</ImportoTotaleDocumento><Causale>PRODOTTI DETERGENZA CIP FEBBRAIO - trasporto in ADR - SDS rev. aggiornate scaricabili area riservata - rif. IO-05 cliente</Causale></DatiGeneraliDocumento></DatiGenerali>\n<DatiBeniServizi>\n<DettaglioLinee><NumeroLinea>1</NumeroLinea><Descrizione>SODA CAUSTICA SOL. 30% CIP ALCALINO - CISTERNETTA IBC 1000 L - UN1824</Descrizione><Quantita>2.000</Quantita><UnitaMisura>PZ</UnitaMisura><PrezzoUnitario>1240.00000</PrezzoUnitario><PrezzoTotale>2480.00</PrezzoTotale><AliquotaIVA>22.00</AliquotaIVA></DettaglioLinee>"
+  },
+  {
+   "cid": 119,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "origine": "nativa",
+   "rerank": 0.07088560611009598,
+   "testo": "272.876\nTotale patrimonio netto (A)\n2.843.167\n2.334.226\nB)\nFondi per rischi e oneri\n88.446\n76.000\nC)\nTrattamento di fine rapporto\n412.884\n384.000\nD)\nDEBITI\nD.4\nDebiti verso banche\n1.842.226\n1.746.000\nD.7\nDebiti verso fornitori\n3.005.231\n2.820.789\nD.12\nDebiti tributari\n168.442\n155.556\nD.13\nDebiti verso istituti di\nprevidenza\n142.886\n134.444\nD.14\nAltri debiti\n96.338\n90.220\nTotale debiti (D)\n5.255.123\n5.479.612\nE)\nRatei e risconti passivi\n42.118\n38.234\nTOTALE PASSIVO\n8.641.738\n8.312.072\nDi cui esigibili oltre l'esercizio successivo: debiti verso banche Euro 1.184.226\n(mutuo chirografario UniCredit, scadenza 2029). Nessun debito assistito da garanzia\nreale su beni sociali. Nessun debito di durata residua superiore a cinque anni.\n\nAURORA FOOD GROUP S.R.L. - Via dell'Industria 27, 37044 Cologna Veneta (VR) - P.IVA 03984710230\nBilancio al 31/12/2025 - forma abbreviata art. 2435-bis c.c. - pag. 3 - Reg. Imprese VR n. 03984710230\npag. 3\nCONTO ECONOMICO\nVoce\nDescrizione\n2025\n2024\nA)\nVALORE DELLA PRODUZIONE\nA.1\nRicavi delle vendite e delle\nprestazioni\n11.480.312\n10.318.744\nA.5\nAltri ricavi e proventi\n148.226\n132.558\nTotale valore della\nproduzione (A)\n11.628.538\n10.451.302\nB)"
+  },
+  {
+   "cid": 499,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "origine": "nativa",
+   "rerank": 0.06468527019023895,
+   "testo": "<CessionarioCommittente><DatiAnagrafici><IdFiscaleIVA><IdPaese>IT</IdPaese><IdCodice>03984710230</IdCodice></IdFiscaleIVA><Anagrafica><Denominazione>AURORA FOOD GROUP S.R.L.</Denominazione></Anagrafica></DatiAnagrafici><Sede><Indirizzo>VIA DELL'INDUSTRIA 27</Indirizzo><CAP>37044</CAP><Comune>COLOGNA VENETA</Comune><Provincia>VR</Provincia><Nazione>IT</Nazione></Sede></CessionarioCommittente>\n</FatturaElettronicaHeader>\n<FatturaElettronicaBody>\n      <DatiGenerali><DatiGeneraliDocumento><TipoDocumento>TD01</TipoDocumento><Divisa>EUR</Divisa><Data>2026-04-30</Data><Numero>301/26</Numero><ImportoTotaleDocumento>4880.00</ImportoTotaleDocumento><Causale>TRASPORTI REFRIGERATI APRILE 2026 MOTRICE MC FRG 442 + SEMIRIMORCHIO XA 88712 - TRATTE COLOGNA VENETA / CE.DI. TOSANO CEREA E PIATTAFORME GDO NORD EST - temperatura documentata ATP</Causale></DatiGeneraliDocumento></DatiGenerali>\n      <DatiBeniServizi>"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4430,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.18,
+  "rerank": 61.37
+ },
+ "id": "Q275",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T18:27:45",
+ "secondi": 61.57,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 52.99,
+  "token_prompt": 1992,
+  "token_risposta": 84,
+  "testo_grezzo": "Non e' possibile determinare il valore dell'export di Aurora Food Group S.r.l. non essendo presenti dati specifici su questo argomento nei documenti forniti.\n\nFONTI: file: bilancio_esercizio_2025_deposito_CCIAA.pdf, file: Fatture_Elettroniche_SDI_Inbound_Q2.txt\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "file: bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "file: Fatture_Elettroniche_SDI_Inbound_Q2.txt"
+  ],
+  "fonti_fuori_contesto": [
+   "file: bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "file: Fatture_Elettroniche_SDI_Inbound_Q2.txt"
+  ],
+  "confidenza": "bassa"
+ }
+}

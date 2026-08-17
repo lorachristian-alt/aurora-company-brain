@@ -1,0 +1,684 @@
+{
+ "domanda": "Quale gestionale ERP ha scelto Aurora, CSB-System o SAP Business One?",
+ "candidati_densi": [
+  {
+   "cid": 1356,
+   "punteggio": 0.5903040088908862,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1360,
+   "punteggio": 0.522688121443402,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1364,
+   "punteggio": 0.5207766182435171,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1367,
+   "punteggio": 0.4964415589733758,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 494,
+   "punteggio": 0.48159913328938303,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1366,
+   "punteggio": 0.47333220722503355,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1342,
+   "punteggio": 0.47147057862376,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1812,
+   "punteggio": 0.47140934320168365,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1107,
+   "punteggio": 0.46323163266493556,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1861,
+   "punteggio": 0.4604470679601029,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1215,
+   "punteggio": 0.4588779622257593,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1850,
+   "punteggio": 0.4525249812004135,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 622,
+   "punteggio": 0.4518778921166384,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1860,
+   "punteggio": 0.44551720716102794,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1362,
+   "punteggio": 0.4432717965714178,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1614,
+   "punteggio": 0.44273584951537237,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 638,
+   "punteggio": 0.4400037928452606,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1432,
+   "punteggio": 0.4395737858209166,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1363,
+   "punteggio": 0.4385377718152754,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1368,
+   "punteggio": 0.433988245182267,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 12,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1215,
+   "punteggio": 48.173160552978516,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1812,
+   "punteggio": 47.0512580871582,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 332,
+   "punteggio": 40.705238342285156,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1861,
+   "punteggio": 39.23120880126953,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1356,
+   "punteggio": 32.1541748046875,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1362,
+   "punteggio": 31.18144416809082,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1519,
+   "punteggio": 30.842756271362305,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1365,
+   "punteggio": 25.338489532470703,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1360,
+   "punteggio": 25.06491470336914,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1112,
+   "punteggio": 24.51229476928711,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1860,
+   "punteggio": 22.94525909423828,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1359,
+   "punteggio": 22.691564559936523,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1368,
+   "punteggio": 22.460506439208984,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1367,
+   "punteggio": 18.9100399017334,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1366,
+   "punteggio": 17.473403930664062,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1189,
+   "punteggio": 15.108431816101074,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1113,
+   "punteggio": 13.602209091186523,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1527,
+   "punteggio": 12.106021881103516,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1805,
+   "punteggio": 10.833710670471191,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1520,
+   "punteggio": 10.808478355407715,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 6,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1356,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.03177805800756621,
+   "rango_denso": 1,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1812,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.030834914611005692,
+   "rango_denso": 8,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1360,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.030621785881252923,
+   "rango_denso": 2,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1215,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.03047794966520434,
+   "rango_denso": 11,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1861,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.029910714285714284,
+   "rango_denso": 10,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1367,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.029138513513513514,
+   "rango_denso": 4,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 1362,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.028484848484848488,
+   "rango_denso": 15,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.028484848484848488,
+   "rango_denso": 6,
+   "rango_sparso": 15
+  },
+  {
+   "cid": 1860,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.027598020555767037,
+   "rango_denso": 14,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1368,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.0261986301369863,
+   "rango_denso": 20,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 332,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1364,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 494,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1342,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1519,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1365,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1107,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1112,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1359,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1850,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 622,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1189,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.013157894736842105,
+   "rango_denso": null,
+   "rango_sparso": 16
+  },
+  {
+   "cid": 1614,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.013157894736842105,
+   "rango_denso": 16,
+   "rango_sparso": null
+  },
+  {
+   "cid": 638,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.012987012987012988,
+   "rango_denso": 17,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 332,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "rerank": 0.9349818825721741
+  },
+  {
+   "cid": 1356,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.8755505681037903
+  },
+  {
+   "cid": 1812,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.7959865927696228
+  },
+  {
+   "cid": 1215,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "rerank": 0.7165740728378296
+  },
+  {
+   "cid": 1861,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.44888123869895935
+  },
+  {
+   "cid": 1519,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.21975018084049225
+  },
+  {
+   "cid": 1365,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.20577093958854675
+  },
+  {
+   "cid": 1860,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.07395439594984055
+  },
+  {
+   "cid": 1367,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.06758207827806473
+  },
+  {
+   "cid": 1362,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.06335841864347458
+  },
+  {
+   "cid": 1112,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.02896067127585411
+  },
+  {
+   "cid": 1360,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.02626931108534336
+  },
+  {
+   "cid": 1364,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.021068135276436806
+  },
+  {
+   "cid": 1359,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.012351726181805134
+  },
+  {
+   "cid": 1368,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.008875876665115356
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.008030403405427933
+  },
+  {
+   "cid": 1189,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.006500668823719025
+  },
+  {
+   "cid": 1342,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "rerank": 0.002001723740249872
+  },
+  {
+   "cid": 494,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "rerank": 0.0010968580609187484
+  },
+  {
+   "cid": 638,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "rerank": 0.0003342323761899024
+  },
+  {
+   "cid": 1850,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.00017400378419551998
+  },
+  {
+   "cid": 622,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "rerank": 0.00014379346976056695
+  },
+  {
+   "cid": 1614,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 9.556543955113739e-05
+  },
+  {
+   "cid": 1107,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 8.547095058020204e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 332,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "origine": "nativa",
+   "rerank": 0.9349818825721741,
+   "testo": "(durata prevista: fino alle 12:30 circa, seguira' verbale a cura dell'ing. Fantin)\n\ncon il seguente ordine del giorno:\n\n  1. Andamento promo Tosano \"Sottocosto Primavera\" (sett. 19-21): consegne\n     effettuate, criticita' produzione, ultima consegna del 13/05 (Bertoldi S. / Zanella)\n  2. Straordinari Linea 2 e turni domenicali: cinque operai sopra le 200\n     h/anno al 30/04, tetto contrattuale 250 - come rispondiamo\n     (Sartori / Fantin) - vedi prospetto allegato\n  3. Investimento tunnel di surgelazione Criotech CR-SP180: stato preventivo\n     rev.2, acconto 30% in scadenza a maggio, copertura finanziaria\n     (Fantin / Trentin)\n  4. Richiesta Tosano listino 2026/2027: -4,5% + listing fee 12.000 euro per\n     inserimento continuativo AF-SN-0455 - impatto sui margini, in\n     particolare AF-CR-0215 (Bertoldi S. / Trentin)\n  5. Follow-up audit CSQA di febbraio: stato chiusura NC, preparazione audit\n     di rinnovo (Marchetti)\n  6. Varie ed eventuali: selezione ERP (CSB-System vs SAP Business One),\n     aggiornamento progetto \"Aurora Vega\" Minerbe, sostituzione uscente\n     Linea 2\n\nVi chiedo cortesemente di CONFERMARE LA PRESENZA entro lunedi 11 alle 12:00,"
+  },
+  {
+   "cid": 1356,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "origine": "nativa",
+   "rerank": 0.8755505681037903,
+   "testo": "COMPARATIVA GESTIONALI - bozza di lavoro (Trentin/Fantin) - agg. 26/05/26\nfile: confronto_ERP_v3_DEFINITIVO_ok2.txt\nNON GIRARE FUORI. contiene condizioni riservate delle due offerte.\n\nincollo qui sotto i pezzi delle due offerte + le mie note. scusate il formato,\nviene da due pdf diversi e da una mail. (L.T.)\n\n=================================================================\nOFFERTA A - CSB-System S.r.l. - offerta n. OF-2026-0412 del 28/04/2026\nrif. commerciale: dott. Massimo Ferraresi - sede italiana Verona\n=================================================================\n\nSpett.le Aurora Food Group S.r.l., facendo seguito al sopralluogo del 15/04 u.s.\npresso il Vostro stabilimento di Cologna Veneta e alle esigenze emerse nel corso\ndell'incontro con l'ing. Fantin e la rag. Trentin, siamo lieti di sottoporVi la\nnostra migliore offerta per la soluzione CSB-System ERP, soluzione verticale\nspecificamente sviluppata per l'industria alimentare, in uso presso oltre 1.200\naziende del settore food a livello internazionale.\n\nMODULI OFFERTI (configurazione \"Food Bakery & Frozen\"):\n- Gestione produzione e ricette (distinte base, versioning ricette, rese)"
+  },
+  {
+   "cid": 1812,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "origine": "nativa",
+   "rerank": 0.7959865927696228,
+   "testo": "2. di dare mandato alla responsabile amministrativa di iscrivere l'impegno nel piano investimenti 2026 e di riferire al Consiglio, con cadenza trimestrale, sullo stato di avanzamento e sull'assorbimento di cassa dell'investimento.\n\nPUNTO 4 — VARIE ED EVENTUALI\n\nIl Presidente informa il Consiglio, senza che sul punto venga assunta alcuna deliberazione:\n\nche sono in corso di raccolta preventivi per l'adozione di un sistema gestionale ERP (offerte pervenute: CSB-System, SAP Business One), sui quali riferirà in una prossima riunione;\nche proseguono le valutazioni preliminari, allo stato meramente esplorative, su una possibile espansione della capacità produttiva in area Minerbe (VR); il Presidente invita i presenti alla massima riservatezza sul punto, non essendo stata ancora informata la struttura [Sartori F. - Giancarlo mi ha detto di togliere proprio tutta la frase sulla riservatezza: \"se scriviamo che è riservato e il verbale gira, abbiamo scritto sul verbale che c'è un segreto\". Però la menzione di Minerbe la vuole tenere per data certa. Tolgo solo l'inciso.]"
+  },
+  {
+   "cid": 1215,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "origine": "nativa",
+   "rerank": 0.7165740728378296,
+   "testo": "2.2 Dalla conferma d'ordine risulta che il CR-SP180 e' dotato di PLC con\nsupervisione, sensoristica di temperatura a piu' punti, registrazione in\ncontinuo dei parametri di processo e predisposizione alla telediagnosi da parte\ndel costruttore: elementi che depongono favorevolmente. Sara' tuttavia\nindispensabile che il requisito dell'INTERCONNESSIONE (scambio bidirezionale di\ndati con il sistema gestionale aziendale mediante protocollo documentato) sia\nEFFETTIVO e DOCUMENTATO, non meramente potenziale.\n\n2.3 Al riguardo non possiamo non rilevare che codesta Societa' ha in corso la\nvalutazione comparativa di due sistemi gestionali (CSB-System / SAP Business\nOne): l'interconnessione potra' essere attestata solo verso un sistema\neffettivamente in esercizio. Qualora il nuovo ERP non fosse operativo alla\ndata di entrata in funzione del tunnel, l'interconnessione potrebbe avvenire in\nun primo momento verso l'attuale gestionale, purche' lo scambio bidirezionale\nsia reale e tracciato.\n[Commento: Bellotto A. - verificare la data di interconnessione: se slitta\nall'anno successivo rispetto all'entrata in funzione, la quota \"4.0\" decorre"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4553,
+ "tempi": {
+  "denso": 0.18,
+  "sparso": 0.35,
+  "rerank": 55.97
+ },
+ "id": "Q253",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T18:07:25",
+ "secondi": 56.51,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 47.62,
+  "token_prompt": 1729,
+  "token_risposta": 99,
+  "testo_grezzo": "Non e' possibile determinare quale gestionale ERP ha scelto Aurora Food Group S.r.l., poiché i passaggi forniti non contengono informazioni dirette sulla scelta. Non e' possibile determinare la confidenza senza ulteriori informazioni.\n\nFONTI: file: confronto_ERP_v3_DEFINITIVO_ok2.txt, file: preventivo_software_ERP_CSB_System_vs_SAP.txt\nCONFIDENZA: alta",
+  "fonti_citate": [
+   "file: confronto_ERP_v3_DEFINITIVO_ok2.txt",
+   "file: preventivo_software_ERP_CSB_System_vs_SAP.txt"
+  ],
+  "fonti_fuori_contesto": [
+   "file: confronto_ERP_v3_DEFINITIVO_ok2.txt",
+   "file: preventivo_software_ERP_CSB_System_vs_SAP.txt"
+  ],
+  "confidenza": "alta"
+ }
+}

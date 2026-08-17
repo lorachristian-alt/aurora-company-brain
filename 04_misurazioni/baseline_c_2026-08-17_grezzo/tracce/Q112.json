@@ -1,0 +1,682 @@
+{
+ "domanda": "Quali manutenzioni programmate risultano rimandate?",
+ "candidati_densi": [
+  {
+   "cid": 1853,
+   "punteggio": 0.5472163886117904,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1802,
+   "punteggio": 0.5369320741220602,
+   "file": "verbale_assemblea_condominio_capannone.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1655,
+   "punteggio": 0.5286879380928048,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1665,
+   "punteggio": 0.5278403686398863,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1430,
+   "punteggio": 0.5209633722415508,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1433,
+   "punteggio": 0.5181761263647384,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 396,
+   "punteggio": 0.5172534955811983,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 188,
+   "punteggio": 0.5165092635918505,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1777,
+   "punteggio": 0.5139784614341538,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1793,
+   "punteggio": 0.511505854102874,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1807,
+   "punteggio": 0.5078959843552455,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1535,
+   "punteggio": 0.507715231049114,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1664,
+   "punteggio": 0.5071501775369621,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 618,
+   "punteggio": 0.5061715084180839,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1368,
+   "punteggio": 0.5061673343889321,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1527,
+   "punteggio": 0.504762222482468,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 614,
+   "punteggio": 0.49721438907300486,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1659,
+   "punteggio": 0.4972081914545949,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1516,
+   "punteggio": 0.49394796399680496,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1207,
+   "punteggio": 0.49394028059520434,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 29,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1516,
+   "punteggio": 11.769482612609863,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1423,
+   "punteggio": 11.040392875671387,
+   "file": "Prospetto_straordinari_gen-apr_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1515,
+   "punteggio": 7.256501197814941,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1435,
+   "punteggio": 7.081573963165283,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 250,
+   "punteggio": 7.026861190795898,
+   "file": "comunicazione_chiusura_estiva_2026.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1442,
+   "punteggio": 6.7587761878967285,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 315,
+   "punteggio": 6.6571831703186035,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 479,
+   "punteggio": 6.520778179168701,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1812,
+   "punteggio": 6.0623979568481445,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 27,
+   "punteggio": 6.0623979568481445,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 25,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1327,
+   "punteggio": 6.015422821044922,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 616,
+   "punteggio": 5.924781799316406,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1607,
+   "punteggio": 5.901826858520508,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1851,
+   "punteggio": 5.901826858520508,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 26,
+   "punteggio": 5.878767013549805,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 24,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1311,
+   "punteggio": 5.845212936401367,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1205,
+   "punteggio": 5.7896728515625,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 27,
+   "origine": "nativa"
+  },
+  {
+   "cid": 111,
+   "punteggio": 5.769542217254639,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1119,
+   "punteggio": 5.73756217956543,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 342,
+   "punteggio": 5.695468902587891,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1516,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.029051670471052088,
+   "rango_denso": 19,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1853,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1423,
+   "file": "Prospetto_straordinari_gen-apr_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1802,
+   "file": "verbale_assemblea_condominio_capannone.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1515,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1655,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1435,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1665,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 250,
+   "file": "comunicazione_chiusura_estiva_2026.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1430,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1433,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1442,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 315,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 396,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 188,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 479,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1777,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1812,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 27,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 25,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1793,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 20,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1327,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1807,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 616,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1535,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1516,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.08323827385902405
+  },
+  {
+   "cid": 315,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.0480232872068882
+  },
+  {
+   "cid": 1430,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "rerank": 0.020614363253116608
+  },
+  {
+   "cid": 1665,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "rerank": 0.01935523748397827
+  },
+  {
+   "cid": 250,
+   "file": "comunicazione_chiusura_estiva_2026.txt",
+   "rerank": 0.012363005429506302
+  },
+  {
+   "cid": 1535,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.010437503457069397
+  },
+  {
+   "cid": 1515,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.009727437980473042
+  },
+  {
+   "cid": 1442,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "rerank": 0.005909029394388199
+  },
+  {
+   "cid": 1655,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "rerank": 0.003022204851731658
+  },
+  {
+   "cid": 396,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "rerank": 0.002181457122787833
+  },
+  {
+   "cid": 1435,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "rerank": 0.0018408509204164147
+  },
+  {
+   "cid": 1433,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "rerank": 0.0014876221539452672
+  },
+  {
+   "cid": 188,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "rerank": 0.0014211606467142701
+  },
+  {
+   "cid": 1802,
+   "file": "verbale_assemblea_condominio_capannone.txt",
+   "rerank": 0.0014209543587639928
+  },
+  {
+   "cid": 1807,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.0009323086123913527
+  },
+  {
+   "cid": 616,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.0009046368068084121
+  },
+  {
+   "cid": 1423,
+   "file": "Prospetto_straordinari_gen-apr_2026.xlsx",
+   "rerank": 0.0007050527492538095
+  },
+  {
+   "cid": 1327,
+   "file": "polizza_RC_prodotto_rinnovo_2026_OCR.txt",
+   "rerank": 0.0006613563746213913
+  },
+  {
+   "cid": 1853,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.0006408618646673858
+  },
+  {
+   "cid": 479,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "rerank": 0.00046243186807259917
+  },
+  {
+   "cid": 1777,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0002958360710181296
+  },
+  {
+   "cid": 1793,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.00028630736051127315
+  },
+  {
+   "cid": 1812,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.0002668607921805233
+  },
+  {
+   "cid": 27,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.00019357219571247697
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1516,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "origine": "nativa",
+   "rerank": 0.08323827385902405,
+   "testo": "=== 2. MANUTENZIONI ====================================\n\nCONTRATTO TECNOFORNI SERVICE (forni FT-01 e FT-02 + PT-104)\n  contratto full-risk n. TFS-2026-084, firmato Fantin 12/01/26\n  canone annuo 18.400,00 € + iva, fatturazione trimestrale (4.600/trim)\n  comprende: 4 visite programmate/anno, ricambi ordinari, pronto intervento 24h\n  ESCLUSO: nastri trasportatori e refrattari\n  tecnico di riferimento: Rossato Gianni (cell in rubrica)\n  ultima visita 14/04/26, prossima prevista settimana 29\n  (nb Rossato in aprile ha segnalato bruciatore FT-01 da revisionare,\n   preventivo extra 3.100 € - NON ancora ordinato, Fantin tentenna)\n\nPAKMATIC ITALIA (F0077) - PKM-450\n  niente contratto, interventi a chiamata + ricambi\n  speso 2025: 6.870 €\n  speso 2026 al 26/05: gia' 4.912 € !!! (di cui 1.680 intervento urgenza\n  del 10-11/05 valvola azoto + ricambio originale arrivato il 15/05)\n  se continua cosi a fine anno siamo sopra i 10.000, valutare contratto\n  di manutenzione programmata, Fantin dice che Pakmatic lo propone a\n  5.900 €/anno ma senza ricambi\n\nMETAL DETECTOR MD-3200 e MD-1800 (Loma)\n  taratura + certificazione annuale: 1.240 € (no scusa sono 1.240 non 1.420,"
+  },
+  {
+   "cid": 315,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "origine": "nativa",
+   "rerank": 0.0480232872068882,
+   "testo": "a) TS-01: visita di manutenzione preventiva TRIMESTRALE (4 visite/anno),\n       comprensiva di controllo perdite semestrale ex art. 4 Reg. 517/2014\n       (apparecchiatura ≥ 50 t CO2eq e < 500 t CO2eq: controllo ogni 6 mesi,\n       ridotto a 12 mesi in presenza di sistema di rilevamento perdite conforme);\n    b) CF-02: visita SEMESTRALE (2 visite/anno), controllo perdite ANNUALE\n       (apparecchiatura ≥ 5 t CO2eq e < 50 t CO2eq: controllo ogni 12 mesi);\n    c) CF-01: visita SEMESTRALE (2 visite/anno), controllo perdite ANNUALE\n       (apparecchiatura ≥ 5 t CO2eq e < 50 t CO2eq);\n    d) verifica funzionale del sistema di allarme temperatura delle celle CF-01 e\n       CF-02 in occasione di ogni visita, con prova di intervento della sirena e\n       della teleassistenza.\n       [Commento: Marchetti E. - coordinare con gli allarmi registrati dal\n       centralino, ad aprile la sonda CF-02 ha dato numeri strani, vedere log]\n3.2 Le visite programmate sono eseguite in giorni feriali, previo preavviso di\n    almeno 5 giorni lavorativi, in fasce orarie concordate con il Responsabile\n    Produzione o con il Capo officina della Committente, in modo da non"
+  },
+  {
+   "cid": 1430,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "origine": "nativa",
+   "rerank": 0.020614363253116608,
+   "testo": "- NC 2 (BRCGS Issue 9, clausola 4.7.5): ricambi e attrezzature di manutenzione custoditi in area produttiva senza controllo di integrita'.\n\nDobbiamo tuttavia rilevare che la trasmissione e' avvenuta OLTRE il termine di 28 giorni previsto dal protocollo BRCGS (scadenza: 18/03/2026), nonostante il ns. sollecito del 20/03 e la proroga informalmente accordata dalla dott.ssa Franceschini al 27/03.\n\nIl lead auditor, esaminata la documentazione, la ritiene ACCETTABILE CON RISERVA:\n\n- per la NC 1, l'evidenza trasmessa (revisione del modulo MOD-QA-12 con campo \"verifica di seconda firma\" e registro formazione MOD-HR-11 del 30/03) e' formalmente adeguata; l'EFFICACIA dell'azione correttiva sara' pero' oggetto di verifica puntuale in campo durante l'audit di rinnovo, con campionamento esteso delle registrazioni CCP2/CCP3 del periodo aprile-giugno;\n- per la NC 2, la sola emissione della disposizione interna non e' sufficiente: dovra' essere evidente la rimozione fisica dei materiali di manutenzione dalle aree di produzione (o la loro custodia in armadi/carrelli chiusi e inventariati). Anche questo punto sara' verificato in campo."
+  },
+  {
+   "cid": 1665,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "origine": "nativa",
+   "rerank": 0.01935523748397827,
+   "testo": "CF-02;Sbrinamento programmato;;pulizia programmata;1 mese;24/04/26;2026-05-24;interno (Bissoli);1;;OK;;\nCF-02;Sbrinamento programmato;;pulizia programmata;1 mese;2026-05-08;07-giu-26;interno (Bissoli);1;;OK;;\nIMP-300;Pulizia approfondita vasca;;pulizia programmata;1 mese;17-apr-26;17/05/26;interno (Bissoli);N/D;;OK;;\nIMP-300;Pulizia approfondita vasca;;pulizia programmata;1 mese;04/05/26;2026-06-03;interno (Bissoli);1;;OK;;\nCOMP-01;Scarico condensa serbatoio;;pulizia programmata;1 mese;2026-04-22;22-mag-26;interno (Bissoli);1;;OK;;\nCOMP-01;Scarico condensa serbatoio;;pulizia programmata;1 mese;02-mag-26;01/06/26;interno (Bissoli);1;;OK;;\nCOMP-02;Scarico condensa serbatoio;;pulizia programmata;1 mese;14/04/26;2026-05-14;interno (Bissoli);1;;OK;;\nCOMP-02;Scarico condensa serbatoio;;pulizia programmata;1 mese;2026-05-06;05-giu-26;interno (Bissoli);1;;OK;;\nPKM-450;Guarnizioni valvola iniezione azoto;PKM-4471-EPDM (orig. Pakmatic);sostituzione;6 mesi;12/07/25;2026-01-12;Pakmatic Italia (F0077);3;410,00;SCADUTO;OdL-26-0019;manca ricambio - ordine F0077 del 08/05 sollecitato, arrivo previsto 15/05"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4577,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.15,
+  "rerank": 46.42
+ },
+ "id": "Q112",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:20:06",
+ "secondi": 46.59,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 61.86,
+  "token_prompt": 1977,
+  "token_risposta": 76,
+  "testo_grezzo": "La risposta è: Non sono disponibili informazioni sulla manutenzione programmate rimandata.\n\nFONTI: report_costi_fissi_OpEx_manutenzioni.txt, contratto_manutenzione_impianto_frigo_TS01.docx, scheda_manutenzione_ordinaria_forni_industrial.csv\n\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "report_costi_fissi_OpEx_manutenzioni.txt",
+   "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "scheda_manutenzione_ordinaria_forni_industrial.csv"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

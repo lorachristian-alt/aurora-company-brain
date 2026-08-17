@@ -1,0 +1,681 @@
+{
+ "domanda": "Chi ha condotto i lavaggi CIP di maggio?",
+ "candidati_densi": [
+  {
+   "cid": 573,
+   "punteggio": 0.5421450224225985,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 575,
+   "punteggio": 0.4564750038489329,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1668,
+   "punteggio": 0.4422438061221806,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 577,
+   "punteggio": 0.43076977142859996,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 582,
+   "punteggio": 0.4249532870056886,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 905,
+   "punteggio": 0.4198922663411767,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 83,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1645,
+   "punteggio": 0.4169690777079128,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 580,
+   "punteggio": 0.41556960591180575,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1297,
+   "punteggio": 0.41509064559613135,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 825,
+   "punteggio": 0.40709172655130044,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 849,
+   "punteggio": 0.4061097454508192,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 27,
+   "origine": "nativa"
+  },
+  {
+   "cid": 393,
+   "punteggio": 0.40610062062836705,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 929,
+   "punteggio": 0.405124833231192,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 107,
+   "origine": "nativa"
+  },
+  {
+   "cid": 873,
+   "punteggio": 0.4027785338803223,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 51,
+   "origine": "nativa"
+  },
+  {
+   "cid": 847,
+   "punteggio": 0.4023320683959021,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 25,
+   "origine": "nativa"
+  },
+  {
+   "cid": 877,
+   "punteggio": 0.40196052980950114,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 55,
+   "origine": "nativa"
+  },
+  {
+   "cid": 579,
+   "punteggio": 0.4012627680562819,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 842,
+   "punteggio": 0.40058444389419146,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1284,
+   "punteggio": 0.3999457620750161,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 895,
+   "punteggio": 0.399078673508804,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 73,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1832,
+   "punteggio": 13.13888168334961,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 261,
+   "punteggio": 12.483327865600586,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 272,
+   "punteggio": 12.465676307678223,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1459,
+   "punteggio": 12.27571964263916,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 271,
+   "punteggio": 11.99828052520752,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1093,
+   "punteggio": 11.386653900146484,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 152,
+   "punteggio": 11.358028411865234,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 512,
+   "punteggio": 11.264644622802734,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 250,
+   "punteggio": 11.022409439086914,
+   "file": "comunicazione_chiusura_estiva_2026.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 513,
+   "punteggio": 10.95078182220459,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 262,
+   "punteggio": 10.681018829345703,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 251,
+   "punteggio": 10.56201457977295,
+   "file": "comunicazione_chiusura_estiva_2026.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 316,
+   "punteggio": 10.371129989624023,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1831,
+   "punteggio": 10.368795394897461,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 109,
+   "punteggio": 10.170366287231445,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1164,
+   "punteggio": 10.055365562438965,
+   "file": "menu_mensa_aprile_maggio.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 217,
+   "punteggio": 10.020312309265137,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 264,
+   "punteggio": 9.871929168701172,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1367,
+   "punteggio": 9.868517875671387,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1110,
+   "punteggio": 9.841216087341309,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 573,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1832,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 261,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 575,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 272,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1668,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 577,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1459,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 271,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 582,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 905,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 83,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1093,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 17,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 152,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1645,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 512,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 580,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 250,
+   "file": "comunicazione_chiusura_estiva_2026.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1297,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 18,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 513,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 825,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 262,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 849,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 27,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 251,
+   "file": "comunicazione_chiusura_estiva_2026.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 393,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 261,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "rerank": 0.18814381957054138
+  },
+  {
+   "cid": 577,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 0.03485150635242462
+  },
+  {
+   "cid": 262,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "rerank": 0.03477111831307411
+  },
+  {
+   "cid": 271,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "rerank": 0.022225556895136833
+  },
+  {
+   "cid": 573,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 0.021763784810900688
+  },
+  {
+   "cid": 1297,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "rerank": 0.018263183534145355
+  },
+  {
+   "cid": 272,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "rerank": 0.016176387667655945
+  },
+  {
+   "cid": 1645,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "rerank": 0.014671490527689457
+  },
+  {
+   "cid": 393,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "rerank": 0.012834788300096989
+  },
+  {
+   "cid": 905,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.0050562117248773575
+  },
+  {
+   "cid": 575,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 0.004999873694032431
+  },
+  {
+   "cid": 825,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.0037477484438568354
+  },
+  {
+   "cid": 849,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.00348557997494936
+  },
+  {
+   "cid": 1668,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "rerank": 0.0013586811255663633
+  },
+  {
+   "cid": 582,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 0.0012883419403806329
+  },
+  {
+   "cid": 580,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 0.0009198582265526056
+  },
+  {
+   "cid": 1459,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.0002506504242774099
+  },
+  {
+   "cid": 1093,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.00017871364252641797
+  },
+  {
+   "cid": 152,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "rerank": 3.822131111519411e-05
+  },
+  {
+   "cid": 513,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 3.4742526622721925e-05
+  },
+  {
+   "cid": 1832,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 2.4264763851533644e-05
+  },
+  {
+   "cid": 512,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 2.035083707596641e-05
+  },
+  {
+   "cid": 250,
+   "file": "comunicazione_chiusura_estiva_2026.txt",
+   "rerank": 1.956092455657199e-05
+  },
+  {
+   "cid": 251,
+   "file": "comunicazione_chiusura_estiva_2026.txt",
+   "rerank": 1.8291500964551233e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 261,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "origine": "nativa",
+   "rerank": 0.18814381957054138,
+   "testo": "LETTURE CONTATORI DI REPARTO - MAGGIO 2026 - fornitore: Veneta Energia S.p.A. (F0081) - a cura L.Trentin;;;;;;;;;\nData;Centro_costo;kWh_F1;kWh_F2;kWh_F3;kWh_tot;m3_metano;Costo_unit_EUR;Costo_tot_EUR;Note\n01/05/26;FORNI FT-01/FT-02;89;64;41;194;178;0,182;35,37;\n01/05/26;CELLA FRIGO CF-01;102;73;47;222;;0,182;40,39;\n01/05/26;CELLA SURGELATI CF-02;203;145;93;441;;0,182;80,19;\n01/05/26;COMPRESSORI ARIA;33;24;15;73;;0,182;13,20;\n2026-05-01;CIP-01 / LAVAGGI;10;7;5;22;;0,182;4,00;\n01/05/26;UFFICI/SERVIZI;8;6;4;18;;0,182;3,28;\n02/05/26;FORNI FT-01/FT-02;684;490;312;1.486;929;0,182;270,50;\n02/05/26;CELLA FRIGO CF-01;101;73;46;220;;0,182;40,11;\n02/05/26;CELLA SURGELATI CF-02;191;137;87;415;;0,182;75,52;\n02/05/26;COMPRESSORI ARIA;146;105;67;318;;0,182;57,83;\n02/05/26;CIP-01 / LAVAGGI;69;49;31;149;;0,182;27,15;\n02/05/26;UFFICI/SERVIZI;57;41;26;124;;0,182;22,58;\n03/05/26;FORNI FT-01/FT-02;689;494;315;1.498;1012;0,182;272,65;\n2026-05-03;CELLA FRIGO CF-01;103;74;47;224;;0,182;40,82;\n03/05/26;CELLA SURGELATI CF-02;178;128;81;388;;0,182;70,58;\n03/05/26;COMPRESSORI ARIA;168;120;76;364;;0,182;66,30;\n03/05/26;CIP-01 / LAVAGGI;73;53;33;159;;0,182;29,00;"
+  },
+  {
+   "cid": 577,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "origine": "nativa",
+   "rerank": 0.03485150635242462,
+   "testo": "3. temperatura fase acida (60-65 °C);\n4. orario inizio e fine ciclo;\n5. eventuali allarmi comparsi (scrivi il codice, es. AL-12 bassa portata).\n\nOgni riga del registro va firmata da te e CONTROFIRMATA DAL CAPOTURNO ENTRO FINE TURNO. Dal 2026 la seconda firma è obbligatoria: un registro senza seconda firma è una non conformità. [Marchetti E. - stessa regola della NC audit di febbraio sui CCP, la estendiamo anche al CIP per uniformità.]\n\n8. CRITERI DI ACCETTAZIONE — QUANDO IL LAVAGGIO È BUONO\n\nIl ciclo è ACCETTATO solo se TUTTI questi controlli sono a posto:\n\n\nSE ANCHE UN SOLO CONTROLLO NON PASSA: il lavaggio NON è valido. Si rifà il risciacquo finale e si ricontrolla. Se non passa al secondo giro, FERMA TUTTO e chiama la Qualità. La linea NON riparte senza l'ok scritto della Qualità sul registro.\n\nI tamponi a campione li fa Sara Pozzato secondo il piano di monitoraggio MOD-QA-19: di norma 2 punti a settimana per linea, di più dopo le produzioni con allergeni.\n\n9. SE IL CICLO SI INTERROMPE\n\nPuò succedere: mancanza corrente, allarme pompa, emergenza in reparto."
+  },
+  {
+   "cid": 262,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "origine": "nativa",
+   "rerank": 0.03477111831307411,
+   "testo": "03/05/26;CELLA SURGELATI CF-02;178;128;81;388;;0,182;70,58;\n03/05/26;COMPRESSORI ARIA;168;120;76;364;;0,182;66,30;\n03/05/26;CIP-01 / LAVAGGI;73;53;33;159;;0,182;29,00;\n03/05/26;UFFICI/SERVIZI;51;36;23;110;;0,182;20,11;\n04/05/26;FORNI FT-01/FT-02;696;500;318;1.513;953;0,182;275,52;\n04/05/26;CELLA FRIGO CF-01;100;72;46;217;;0,182;39,54;\n04/05/26;CELLA SURGELATI CF-02;195;140;89;424;;0,182;77,11;\n04/05/26;COMPRESSORI ARIA;144;104;66;314;;0,182;57,10;\n2026-05-04;CIP-01 / LAVAGGI;66;47;30;144;;0,182;26,15;\n04/05/26;UFFICI/SERVIZI;55;40;25;120;;0,182;21,84;\n05/05/26;FORNI FT-01/FT-02;639;458;292;1.388;1051;0,182;252,76;\n05/05/26;CELLA FRIGO CF-01;91;66;42;199;;0,182;36,16;\n05/05/26;CELLA SURGELATI CF-02;182;131;83;396;;0,182;72,14;\n05/05/26;COMPRESSORI ARIA;167;120;76;362;;0,182;65,92;\n05/05/26;CIP-01 / LAVAGGI;65;47;30;142;;0,182;25,78;\n05/05/26;UFFICI/SERVIZI;53;38;24;116;;0,182;21,06;\n06/05/26;FORNI FT-01/FT-02;649;465;296;1.410;1007;0,182;256,69;\n2026-05-06;CELLA FRIGO CF-01;97;69;44;210;;0,182;38,26;\n06/05/26;CELLA SURGELATI CF-02;205;147;94;445;;0,182;81,08;\n06/05/26;COMPRESSORI ARIA;162;116;74;353;;0,182;64,25;\n06/05/26;CIP-01 / LAVAGGI;65;47;30;142;;0,182;25,83;"
+  },
+  {
+   "cid": 271,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "origine": "nativa",
+   "rerank": 0.022225556895136833,
+   "testo": "28/05/26;UFFICI/SERVIZI;58;42;26;126;;0,182;22,93;\n29/05/26;FORNI FT-01/FT-02;628;450;287;1.365;974;0,182;248,44;\n29/05/26;CELLA FRIGO CF-01;102;73;47;222;;0,182;40,34;\n29/05/26;CELLA SURGELATI CF-02;241;173;110;523;;0,182;95,16;\n29/05/26;COMPRESSORI ARIA;146;105;67;318;;0,182;57,93;\n29/05/26;CIP-01 / LAVAGGI;69;49;31;149;;0,182;27,12;\n29/05/26;UFFICI/SERVIZI;58;42;26;126;;0,182;22,92;\n30/05/26;FORNI FT-01/FT-02;707;507;323;1.537;1017;0,182;279,83;\n2026-05-30;CELLA FRIGO CF-01;90;65;41;196;;0,182;35,70;\n30/05/26;CELLA SURGELATI CF-02;231;166;106;502;;0,182;91,44;\n30/05/26;COMPRESSORI ARIA;155;111;71;337;;0,182;61,38;\n30/05/26;CIP-01 / LAVAGGI;69;49;31;150;;0,182;27,24;\n30/05/26;UFFICI/SERVIZI;54;38;24;117;;0,182;21,21;\n31/05/26;FORNI FT-01/FT-02;124;89;57;270;182;0,182;49,09;\n31/05/26;CELLA FRIGO CF-01;103;74;47;224;;0,182;40,81;\n31/05/26;CELLA SURGELATI CF-02;235;168;107;510;;0,182;92,79;\n31/05/26;COMPRESSORI ARIA;20;14;9;43;;0,182;7,78;\n2026-05-31;CIP-01 / LAVAGGI;15;11;7;32;;0,182;5,87;\n31/05/26;UFFICI/SERVIZI;11;8;5;25;;0,182;4,54;\n;;;;;;;;;\nCONFRONTO MAGGIO 2025 (da fatture Veneta Energia F0081);;;;;;;;;\nCentro_costo;kWh_mag25;kWh_mag26;delta_%;;;;;;"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4580,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.15,
+  "rerank": 48.85
+ },
+ "id": "Q108",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:16:50",
+ "secondi": 49.02,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 83.45,
+  "token_prompt": 2616,
+  "token_risposta": 66,
+  "testo_grezzo": "Non e' possibile determinare chi ha condotto i lavaggi CIP di maggio 2026.\n\nFONTI: consumi_energetici_forni_kwh_maggio26.csv, IO-05_istruzione_operativa_lavaggio_CIP.docx\n\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "consumi_energetici_forni_kwh_maggio26.csv",
+   "IO-05_istruzione_operativa_lavaggio_CIP.docx"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

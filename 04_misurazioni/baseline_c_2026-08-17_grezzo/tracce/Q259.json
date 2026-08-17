@@ -1,0 +1,681 @@
+{
+ "domanda": "UniCredit ha concesso l'ampliamento dell'anticipo fatture a 500.000 euro?",
+ "candidati_densi": [
+  {
+   "cid": 1809,
+   "punteggio": 0.6539431548705801,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1782,
+   "punteggio": 0.5841799672575771,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1374,
+   "punteggio": 0.5527355385184225,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1218,
+   "punteggio": 0.5523434512576741,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1379,
+   "punteggio": 0.5507577618418562,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1791,
+   "punteggio": 0.5505800921295632,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1623,
+   "punteggio": 0.5503643237100457,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1444,
+   "punteggio": 0.5485748698091355,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1378,
+   "punteggio": 0.5467455014197995,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 17,
+   "punteggio": 0.5433125579582408,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 442,
+   "punteggio": 0.5408656446333051,
+   "file": "estratto_conto_unicredit_maggio26.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1373,
+   "punteggio": 0.5397897174082014,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 529,
+   "punteggio": 0.5349790634873028,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1618,
+   "punteggio": 0.5325190975792737,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 335,
+   "punteggio": 0.5316859112152517,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1622,
+   "punteggio": 0.5290904297763102,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1619,
+   "punteggio": 0.528894374391985,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1808,
+   "punteggio": 0.5285295127226527,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1617,
+   "punteggio": 0.5256957204338295,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1627,
+   "punteggio": 0.5255171524308068,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 10,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1889,
+   "punteggio": 31.009727478027344,
+   "file": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1374,
+   "punteggio": 30.38083839416504,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1379,
+   "punteggio": 29.215295791625977,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 118,
+   "punteggio": 23.42908477783203,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 473,
+   "punteggio": 23.34147071838379,
+   "file": "Fattura_TosanoCerea_2026_0188_copia_cortesia.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1898,
+   "punteggio": 22.78557777404785,
+   "file": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1809,
+   "punteggio": 21.776418685913086,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1860,
+   "punteggio": 21.401662826538086,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1782,
+   "punteggio": 20.925025939941406,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 308,
+   "punteggio": 20.88955307006836,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 297,
+   "punteggio": 20.395082473754883,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1378,
+   "punteggio": 20.00872039794922,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1444,
+   "punteggio": 19.680496215820312,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 326,
+   "punteggio": 19.567012786865234,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 100,
+   "punteggio": 19.468177795410156,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1894,
+   "punteggio": 19.13137435913086,
+   "file": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1442,
+   "punteggio": 19.096731185913086,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 2,
+   "punteggio": 19.043241500854492,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1198,
+   "punteggio": 18.685789108276367,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1373,
+   "punteggio": 18.54509925842285,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1374,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.03200204813108039,
+   "rango_denso": 3,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1809,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.03131881575727918,
+   "rango_denso": 1,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1379,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.03125763125763126,
+   "rango_denso": 5,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.030621785881252923,
+   "rango_denso": 2,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1444,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.028404512489927477,
+   "rango_denso": 8,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1378,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.028381642512077296,
+   "rango_denso": 9,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1373,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.02638888888888889,
+   "rango_denso": 12,
+   "rango_sparso": 20
+  },
+  {
+   "cid": 1889,
+   "file": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 118,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1218,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 473,
+   "file": "Fattura_TosanoCerea_2026_0188_copia_cortesia.pdf",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1791,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 18,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1898,
+   "file": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1623,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1860,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 17,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 308,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 297,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 442,
+   "file": "estratto_conto_unicredit_maggio26.csv",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 529,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 326,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 1618,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  },
+  {
+   "cid": 100,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": null,
+   "rango_sparso": 15
+  },
+  {
+   "cid": 335,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": 15,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1374,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "rerank": 0.9594278931617737
+  },
+  {
+   "cid": 1379,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "rerank": 0.9446156024932861
+  },
+  {
+   "cid": 1378,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "rerank": 0.4347900450229645
+  },
+  {
+   "cid": 1373,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "rerank": 0.3567119538784027
+  },
+  {
+   "cid": 1809,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.3306925296783447
+  },
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.12955714762210846
+  },
+  {
+   "cid": 1444,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "rerank": 0.12586674094200134
+  },
+  {
+   "cid": 442,
+   "file": "estratto_conto_unicredit_maggio26.csv",
+   "rerank": 0.05459631234407425
+  },
+  {
+   "cid": 1860,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.05423789843916893
+  },
+  {
+   "cid": 1618,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "rerank": 0.024823656305670738
+  },
+  {
+   "cid": 17,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.02046615071594715
+  },
+  {
+   "cid": 1623,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "rerank": 0.018665213137865067
+  },
+  {
+   "cid": 1791,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.011285573244094849
+  },
+  {
+   "cid": 335,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "rerank": 0.009569196961820126
+  },
+  {
+   "cid": 326,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.007500344421714544
+  },
+  {
+   "cid": 529,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "rerank": 0.006926524918526411
+  },
+  {
+   "cid": 1218,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "rerank": 0.004197623115032911
+  },
+  {
+   "cid": 118,
+   "file": "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+   "rerank": 0.0021504713222384453
+  },
+  {
+   "cid": 473,
+   "file": "Fattura_TosanoCerea_2026_0188_copia_cortesia.pdf",
+   "rerank": 0.000503197661601007
+  },
+  {
+   "cid": 100,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "rerank": 0.0003957172157242894
+  },
+  {
+   "cid": 308,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "rerank": 0.000256513652857393
+  },
+  {
+   "cid": 1889,
+   "file": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "rerank": 0.0002499073452781886
+  },
+  {
+   "cid": 1898,
+   "file": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "rerank": 0.0001298489369219169
+  },
+  {
+   "cid": 297,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "rerank": 2.8555388780659996e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1374,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "origine": "nativa",
+   "rerank": 0.9594278931617737,
+   "testo": "Settimana Saldo iniziale Incassi Uscite Saldo finale Fido residuo Utilizzo anticipo Allarme\nW22 (attuale) 41820.6 0 0 212000\nW23\nW24\nW25\nW26\nW27\nW28\nW29\nW30\nW31\nW32\nW33\nW34\n\n(L.T.) se il Criotech va pagato in W24 e il Tosano slitta di una settimana, in W25 siamo fuori fido.\n(L.T.) chiesto a UniCredit ampliamento anticipo a 500.000. Risposta attesa entro il 20/06.\n(G.B. a penna sul foglio stampato) 'chiedere a Rossi se anticipa il pagamento in cambio di 1 punto'\nIpotesi alla base del previsionale\n\n\n1. Tosano paga a 90 gg d.f.f.m. - storicamente slitta di 4-7 giorni oltre la scadenza teorica\n2. Sconto merce 2% dedotto in fattura, contributo promo liquidato a fine anno (non in cassa qui)\n3. Rossetto: prudenzialmente al 50% per la contestazione sul richiamo\n4. Criotech: acconto 30% + saldo 60% alla consegna prevista fine luglio + 10% al collaudo (settembre)\n5. Non è considerato il credito d'imposta 4.0 (compensabile solo dopo l'interconnessione - vedi nota Bellotto)\n6. Non è considerato il costo del ritiro dei lotti L26130/L26131 stimato in 31.500 € (decisione sospesa)\n7. Agosto: 3 settimane di chiusura, incassi storicamente in ritardo di 10 gg"
+  },
+  {
+   "cid": 1379,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "origine": "nativa",
+   "rerank": 0.9446156024932861,
+   "testo": "W23\nW24\nW25\nW26\nW27\nW28\nW29\nW30\nW31\nW32\nW33\nW34\n\n(L.T.) il saldo Criotech di settembre e la 14esima di luglio cadono a tre settimane di distanza: in W31 siamo fuori fido.\n(L.T.) chiesto a UniCredit ampliamento anticipo a 500.000. Risposta attesa entro il 20/06.\n(G.B. a penna sul foglio stampato) 'chiedere a Rossi se anticipa il pagamento in cambio di 1 punto'\nIpotesi alla base del previsionale\n\n\n1. Tosano paga a 90 gg d.f.f.m. - storicamente slitta di 4-7 giorni oltre la scadenza teorica\n2. Sconto merce 2% dedotto in fattura, contributo promo liquidato a fine anno (non in cassa qui)\n3. Rossetto: prudenzialmente al 50% per la contestazione sul richiamo\n4. Criotech: acconto 30% + saldo 60% alla consegna prevista fine luglio + 10% al collaudo (settembre)\n5. Non è considerato il credito d'imposta 4.0 (compensabile solo dopo l'interconnessione - vedi nota Bellotto)\n6. Non è considerato il costo del ritiro dei lotti L26130/L26131 stimato in 31.500 € (decisione sospesa)\n7. Agosto: 3 settimane di chiusura, incassi storicamente in ritardo di 10 gg\n8. Non sono considerati eventuali oneri per la contestazione sindacale sugli straordinari"
+  },
+  {
+   "cid": 1378,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "origine": "nativa",
+   "rerank": 0.4347900450229645,
+   "testo": "W25 Oleificio Adriatico SpA RIBA olio (prezzo +11%) 20/06/2026 19880.5 sì hanno già sollecitato una volta\nW26 Leasing UniCredit Rata forno FT-02 28/06/2026 4180 no\nW26 CSQA Certificazioni Srl Saldo audit febbraio 30/06/2026 6100 sì fattura ferma da marzo, hanno scritto due volte\nW27 Erario F24 16/07/2026 34110 no\nW28 Molino Veneto SpA RIBA farine maggio 09/07/2026 39440.2 no\nW29 Analytica Veneta Srl Analisi urgenti reclamo 15/07/2026 4820 sì fuori budget - costo non qualità\nW31 Dipendenti Stipendi luglio + 14esima 31/07/2026 186200 no\nW32 Veneta Energia SpA Utenze luglio 06/08/2026 18900 no\nW34 Assicurazioni Rinnovo RC prodotto 20/08/2026 9420 no scadenza 30/06 prorogata\nTOTALE USCITE\nSaldo di conto corrente progressivo - UniCredit filiale Cologna Veneta\naffidamento c/c 250.000 € - anticipo fatture 400.000 € (utilizzato 212.000 al 31/05)\n\n\nSettimana Saldo iniziale Incassi Uscite Saldo finale Fido residuo Utilizzo anticipo Allarme\nW22 (attuale) -47227.85 0 0 212000\nW23\nW24\nW25\nW26\nW27\nW28\nW29\nW30\nW31\nW32\nW33\nW34\n\n(L.T.) il saldo Criotech di settembre e la 14esima di luglio cadono a tre settimane di distanza: in W31 siamo fuori fido."
+  },
+  {
+   "cid": 1373,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "origine": "nativa",
+   "rerank": 0.3567119538784027,
+   "testo": "W25 Oleificio Adriatico SpA RIBA olio (prezzo +11%) 20/06/2026 19880.5 sì hanno già sollecitato una volta\nW26 Leasing UniCredit Rata forno FT-02 28/06/2026 4180 no\nW26 CSQA Certificazioni Srl Saldo audit febbraio 30/06/2026 6100 sì fattura ferma da marzo, hanno scritto due volte\nW27 Dipendenti Stipendi giugno 10/07/2026 112800 no\nW27 Erario F24 16/07/2026 34110 no\nW28 Molino Veneto SpA RIBA farine maggio 09/07/2026 39440.2 no\nW29 Analytica Veneta Srl Analisi urgenti reclamo 15/07/2026 4820 sì fuori budget - costo non qualità\nW30 Criotech Impianti Srl SALDO 60% alla consegna 24/07/2026 174000 no QUESTO È IL PROBLEMA\nW31 Dipendenti Stipendi luglio + 14esima 31/07/2026 186200 no\nW32 Veneta Energia SpA Utenze luglio 06/08/2026 18900 no\nW34 Assicurazioni Rinnovo RC prodotto 20/08/2026 9420 no scadenza 30/06 prorogata\nTOTALE USCITE\nSaldo di conto corrente progressivo - UniCredit filiale Cologna Veneta\naffidamento c/c 250.000 € - anticipo fatture 400.000 € (utilizzato 212.000 al 31/05)\n\n\nSettimana Saldo iniziale Incassi Uscite Saldo finale Fido residuo Utilizzo anticipo Allarme\nW22 (attuale) 41820.6 0 0 212000\nW23\nW24\nW25\nW26\nW27\nW28\nW29\nW30\nW31\nW32\nW33\nW34"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4619,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.3,
+  "rerank": 57.57
+ },
+ "id": "Q259",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T18:13:11",
+ "secondi": 57.89,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 60.67,
+  "token_prompt": 2091,
+  "token_risposta": 105,
+  "testo_grezzo": "Non è possibile determinare con certezza se UniCredit ha concesso l'ampliamento dell'anticipo fatture a 500.000 euro, poiché la risposta non è presente nei documenti forniti.\n\nFONTI: previsionale_cassa_giugno_agosto2026.xlsx, previsionale_cassa_giugno_agosto2026.xlsx, previsionale cassa giugno-agosto DEF (2).xlsx\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "previsionale_cassa_giugno_agosto2026.xlsx",
+   "previsionale cassa giugno-agosto DEF (2).xlsx"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

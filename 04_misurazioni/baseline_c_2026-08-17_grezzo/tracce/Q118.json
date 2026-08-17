@@ -1,0 +1,680 @@
+{
+ "domanda": "Ci conviene di piu' il premio presenza o continuare a sostituire chi se ne va?",
+ "candidati_densi": [
+  {
+   "cid": 430,
+   "punteggio": 0.592759605193173,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 431,
+   "punteggio": 0.570970676282879,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 292,
+   "punteggio": 0.4992066210209526,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 601,
+   "punteggio": 0.4847215826196454,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 428,
+   "punteggio": 0.4845880574790097,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1269,
+   "punteggio": 0.48164997784831853,
+   "file": "organigramma_aziendale_aggiornato_marzo26.pptx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 432,
+   "punteggio": 0.47887952308303683,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1831,
+   "punteggio": 0.47810833289899923,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 433,
+   "punteggio": 0.4730864865239117,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 437,
+   "punteggio": 0.47122452029828377,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1738,
+   "punteggio": 0.4705334903434694,
+   "file": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 435,
+   "punteggio": 0.46421827647775343,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 293,
+   "punteggio": 0.461982124176445,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 434,
+   "punteggio": 0.46016755576762847,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1488,
+   "punteggio": 0.45427354265218955,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 605,
+   "punteggio": 0.4512910082641226,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1400,
+   "punteggio": 0.4447339220950656,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1802,
+   "punteggio": 0.44400532264115977,
+   "file": "verbale_assemblea_condominio_capannone.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1426,
+   "punteggio": 0.44274132635179264,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1548,
+   "punteggio": 0.4425836132425718,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1314,
+   "punteggio": 29.37228775024414,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 430,
+   "punteggio": 23.256988525390625,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1366,
+   "punteggio": 21.391693115234375,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1162,
+   "punteggio": 21.099834442138672,
+   "file": "manutenzione_fotocopiatrice_contratto_copie.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 437,
+   "punteggio": 20.78148651123047,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1108,
+   "punteggio": 20.560794830322266,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1221,
+   "punteggio": 20.33951759338379,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1792,
+   "punteggio": 19.566665649414062,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1876,
+   "punteggio": 19.5151424407959,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1365,
+   "punteggio": 19.369077682495117,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1785,
+   "punteggio": 18.42220687866211,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 431,
+   "punteggio": 18.2314395904541,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1158,
+   "punteggio": 17.97555923461914,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1781,
+   "punteggio": 17.87960433959961,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 433,
+   "punteggio": 17.760284423828125,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1114,
+   "punteggio": 17.708898544311523,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1315,
+   "punteggio": 17.674158096313477,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1107,
+   "punteggio": 17.31753921508789,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 666,
+   "punteggio": 17.259485244750977,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 104,
+   "punteggio": 17.127952575683594,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.03252247488101534,
+   "rango_denso": 1,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.030017921146953404,
+   "rango_denso": 2,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 437,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.02967032967032967,
+   "rango_denso": 10,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 433,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.02782608695652174,
+   "rango_denso": 9,
+   "rango_sparso": 15
+  },
+  {
+   "cid": 1314,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 292,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 601,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1162,
+   "file": "manutenzione_fotocopiatrice_contratto_copie.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 428,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1108,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1269,
+   "file": "organigramma_aziendale_aggiornato_marzo26.pptx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 432,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1221,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1792,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1831,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1876,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1365,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1738,
+   "file": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1785,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 435,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 293,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1158,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.14060282707214355
+  },
+  {
+   "cid": 428,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.06086377799510956
+  },
+  {
+   "cid": 433,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.0550990030169487
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.04337010160088539
+  },
+  {
+   "cid": 437,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.04292703792452812
+  },
+  {
+   "cid": 1314,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "rerank": 0.030606107786297798
+  },
+  {
+   "cid": 435,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.0017896471545100212
+  },
+  {
+   "cid": 292,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.0015336718643084168
+  },
+  {
+   "cid": 432,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.0008731575799174607
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.00026468312717042863
+  },
+  {
+   "cid": 601,
+   "file": "job_description_responsabile_produzione.docx",
+   "rerank": 0.000259966473095119
+  },
+  {
+   "cid": 293,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.00020386114192660898
+  },
+  {
+   "cid": 1831,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.00018134459969587624
+  },
+  {
+   "cid": 1221,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "rerank": 0.00011369182902853936
+  },
+  {
+   "cid": 1162,
+   "file": "manutenzione_fotocopiatrice_contratto_copie.csv",
+   "rerank": 0.00010366937931394204
+  },
+  {
+   "cid": 1269,
+   "file": "organigramma_aziendale_aggiornato_marzo26.pptx",
+   "rerank": 9.537352889310569e-05
+  },
+  {
+   "cid": 1876,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "rerank": 9.456373663851991e-05
+  },
+  {
+   "cid": 1785,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 6.388284964486957e-05
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 6.22445295448415e-05
+  },
+  {
+   "cid": 1738,
+   "file": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "rerank": 4.507592166191898e-05
+  },
+  {
+   "cid": 1792,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 2.8663727789535187e-05
+  },
+  {
+   "cid": 1365,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 2.764931195997633e-05
+  },
+  {
+   "cid": 1108,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 1.739992330840323e-05
+  },
+  {
+   "cid": 1158,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "rerank": 1.714541758701671e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "origine": "nativa",
+   "rerank": 0.14060282707214355,
+   "testo": "il listino perche non possiamo essere noi a pagare due volte una promozione\nche gia ci paga niente, comunque per le assunzioni ok procedete con l agenzia\nma in somministrazione mi raccomando niente indeterminato adesso che dobbiamo\npagare l acconto del tunnel a fine mese lo sapete meglio di me come siamo\nmessi col conto\ngb\n\nInviato dal mio iPhone\n\n> -----Messaggio originale-----\n> Da: Fantin Marco <m.fantin@aurorafoodgroup.it>\n> Inviato: mercoledì 13 maggio 2026 18:05\n> A: Bertoldi Giancarlo\n> Cc: Sartori Federica; Zanella Denis\n> Oggetto: R: Fwd: dimissioni Hoxha - situazione Linea 2 URGENTE\n>\n> Giancarlo,\n>\n> leggi la catena sotto, serve una decisione tua entro venerdì.\n>\n> Sintesi: quarta dimissione in cinque mesi sulla Linea 2, sempre lo\n> stesso motivo, i turni della domenica. Federica ha fatto i conti,\n> sono sotto. Per me la proposta del premio presenza sta in piedi:\n> 14.400 euro l'anno contro i 19.200 che abbiamo GIA' speso di\n> sostituzioni da gennaio. E i 19.200 non includono i pezzi persi\n> per la resa più bassa dei nuovi, che Denis stima in un altro\n> 8-10% nei primi due mesi.\n>\n> Domenica scorsa la linea ha girato con 5 persone dove ne servono 6."
+  },
+  {
+   "cid": 428,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "origine": "nativa",
+   "rerank": 0.06086377799510956,
+   "testo": "Da: Sartori Federica <f.sartori@aurorafoodgroup.it>\nA: Fantin Marco <m.fantin@aurorafoodgroup.it>\nCc: Zanella Denis <d.zanella@aurorafoodgroup.it>\nInviato: giovedì 14 maggio 2026 12:41\nOggetto: R: R: R: Fwd: dimissioni Hoxha - situazione Linea 2 URGENTE\n\nMarco,\n\npreso atto. Allora procedo così:\n\n1) oggi pomeriggio chiamo Umana e riapro la ricerca per 2 profili operaio\n   confezionamento/croissanteria, disponibilità turni e DOMENICALI (glielo\n   scrivo subito nell'annuncio così almeno non perdiamo tempo ai colloqui,\n   l'ultima volta 4 candidati su 6 si sono ritirati quando hanno sentito\n   la parola domenica);\n2) il premio presenza lo tolgo dal tavolo come da indicazione del titolare,\n   ma lo lascio scritto nel file così resta traccia che l'avevamo proposto\n   PRIMA della quarta dimissione, non dopo;\n3) colloquio di uscita con Hoxha fissato per il 28/05 ore 15:00, se volete\n   esserci ditemelo. Secondo me no, con me parla più liberamente.\n\nVi riallego il file con i conti aggiornati (Analisi_turnover_linea2_v3.xlsx),\nho aggiunto il foglio con la proiezione a dicembre. Se perdiamo anche Mansouri\no Lupu, e da quello che dice Adel il rischio c'è, arriviamo a 6 uscite"
+  },
+  {
+   "cid": 433,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "origine": "nativa",
+   "rerank": 0.0550990030169487,
+   "testo": ">>   4. Hoxha Fatjon      - lettera 08/05/2026 - ultimo giorno 31/05\n>>\n>> Tutti e quattro, nel colloquio di uscita o nella lettera, hanno\n>> indicato lo stesso motivo: i turni domenicali. Peruzzi testuale:\n>> \"non ho più una vita, mia figlia la vedo il martedì\". Stoica e\n>> Diallo sono andati entrambi in aziende metalmeccaniche della zona,\n>> stesso livello, NESSUN turno festivo.\n>>\n>> COSTO DI SOSTITUZIONE (per singola uscita, stima prudente):\n>>   - ricerca e selezione (agenzia)            1.100 EUR\n>>   - somministrazione primi 3 mesi (delta)    1.650 EUR\n>>   - formazione obbligatoria + HACCP + DPI      450 EUR\n>>   - affiancamento (ore capoturno + calo resa) 1.600 EUR\n>>   TOTALE ~ 4.800 EUR a persona\n>>   x 4 uscite = 19.200 EUR da gennaio ad oggi.\n>>\n>> PROPOSTA (da validare con il titolare):\n>> premio presenza di 120 EUR lordi/mese per gli operai di Linea 2\n>> che garantiscono la disponibilità domenicale a rotazione.\n>> Costo pieno: 120 x 10 persone x 12 mesi = 14.400 EUR/anno.\n>> Meno di quanto abbiamo già bruciato in sostituzioni, e almeno\n>> smettiamo di formare gente per i concorrenti.\n>>\n>> Aggiungo un dato che non fa piacere: Umana ci ha detto ieri che"
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "origine": "nativa",
+   "rerank": 0.04337010160088539,
+   "testo": "Inviato: mercoledì 13 maggio 2026 23:52\nA: Fantin Marco; Sartori Federica\nCc: Zanella Denis\nOggetto: R: R: Fwd: dimissioni Hoxha - situazione Linea 2 URGENTE\n\nmarco federica ho letto tutto adesso che sono tornato a casa dalla cena con\nquelli della banca e vi dico come la penso io questa cosa del premio presenza\nnon mi convince per niente perche se io pago uno per venire al lavoro la\ndomenica quando il turno domenicale e gia nel suo contratto che gli abbiamo\nfatto firmare allora domani mi chiedono il premio anche quelli del turno di\nnotte e poi quelli del sabato e poi dove andiamo a finire ditemi voi dove\nandiamo a finire IO NON PAGO LA GENTE PER FARE QUELLO CHE E GIA IL SUO LAVORO\nQUELLO SI CHIAMA STIPENDIO e lo stipendio glielo diamo gia puntuale il 27 di\nogni mese cosa che non tutti fanno nella zona ve lo dico io che conosco i\ntitolari, piuttosto se il problema sono le domeniche allora il problema e il\ntosano e le sue promozioni e allora ne parlo io con rossi quando lo vedo per\nil listino perche non possiamo essere noi a pagare due volte una promozione\nche gia ci paga niente, comunque per le assunzioni ok procedete con l agenzia"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4693,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.2,
+  "rerank": 38.67
+ },
+ "id": "Q118",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:24:50",
+ "secondi": 38.88,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 78.52,
+  "token_prompt": 1910,
+  "token_risposta": 146,
+  "testo_grezzo": "La risposta non è chiara a causa di contraddizioni tra i passaggi.\n\nNon è possibile calcolare il costo di sostituzione o il premio presenza senza i dati specifici sulle sostituzioni effettuate e sulle promozioni offerte.\n\nNon è possibile determinare se il premio presenza o la sostituzione conviene di più senza considerare tutti i fattori e le conseguenze.\n\nFONTI: email_HR_dimissioni_operai_linea2.txt, email_HR_dimissioni_operai_linea2.txt, email_HR_dimissioni_operai_linea2.txt, email_HR_dimissioni_operai_linea2.txt",
+  "fonti_citate": [
+   "email_HR_dimissioni_operai_linea2.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

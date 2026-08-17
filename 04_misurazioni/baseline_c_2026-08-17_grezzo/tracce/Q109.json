@@ -1,0 +1,683 @@
+{
+ "domanda": "Quanti tamponi ambientali sono risultati fuori limite quest'anno?",
+ "candidati_densi": [
+  {
+   "cid": 1858,
+   "punteggio": 0.5209363930715323,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 81,
+   "punteggio": 0.5204831955437752,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1854,
+   "punteggio": 0.5186385106833317,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1606,
+   "punteggio": 0.4974045591288599,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1179,
+   "punteggio": 0.4882015655664239,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 738,
+   "punteggio": 0.4875719896016866,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 52,
+   "origine": "nativa"
+  },
+  {
+   "cid": 348,
+   "punteggio": 0.48466100051692385,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 40,
+   "punteggio": 0.48329050685093167,
+   "file": "analisi_acque_reflue_autocontrollo_2026.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1766,
+   "punteggio": 0.48117163156856174,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "idx": 27,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1074,
+   "punteggio": 0.4801118113326491,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 140,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1187,
+   "punteggio": 0.47737431253162693,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1634,
+   "punteggio": 0.47679296466535565,
+   "file": "Scansione_20260518_0003.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1451,
+   "punteggio": 0.47679296466535565,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 39,
+   "punteggio": 0.47656074023195055,
+   "file": "analisi_acque_reflue_autocontrollo_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 113,
+   "punteggio": 0.4764964930353103,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1195,
+   "punteggio": 0.47581433705402465,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 713,
+   "punteggio": 0.4753060285625867,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 27,
+   "origine": "nativa"
+  },
+  {
+   "cid": 922,
+   "punteggio": 0.4749289441618521,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 100,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1767,
+   "punteggio": 0.47487903729932834,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "idx": 28,
+   "origine": "nativa"
+  },
+  {
+   "cid": 807,
+   "punteggio": 0.47436853528205114,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 121,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1143,
+   "punteggio": 15.706430435180664,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 25,
+   "origine": "nativa"
+  },
+  {
+   "cid": 348,
+   "punteggio": 14.520479202270508,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1109,
+   "punteggio": 14.367257118225098,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1428,
+   "punteggio": 13.526141166687012,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1523,
+   "punteggio": 12.830937385559082,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1637,
+   "punteggio": 12.125327110290527,
+   "file": "Scansione_20260518_0003.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1454,
+   "punteggio": 12.125327110290527,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 9,
+   "punteggio": 11.963521957397461,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 350,
+   "punteggio": 11.895980834960938,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1389,
+   "punteggio": 11.532734870910645,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 8,
+   "punteggio": 10.935449600219727,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1341,
+   "punteggio": 10.588113784790039,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1632,
+   "punteggio": 10.554309844970703,
+   "file": "Scansione_20260518_0003.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1449,
+   "punteggio": 10.554309844970703,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1855,
+   "punteggio": 10.467158317565918,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 510,
+   "punteggio": 10.238357543945312,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 618,
+   "punteggio": 9.739864349365234,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1159,
+   "punteggio": 9.634405136108398,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 607,
+   "punteggio": 9.527438163757324,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1490,
+   "punteggio": 9.443188667297363,
+   "file": "registro_tamponi_superfici_listeria_salmonella.csv",
+   "idx": 0,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 348,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.031054405392392875,
+   "rango_denso": 7,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1143,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 25,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1858,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 81,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1109,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1854,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1428,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1606,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1179,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1523,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 738,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 52,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1637,
+   "file": "Scansione_20260518_0003.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1454,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 9,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 40,
+   "file": "analisi_acque_reflue_autocontrollo_2026.xlsx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 350,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1766,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "idx": 27,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1074,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 140,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1389,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 8,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1187,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1341,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1634,
+   "file": "Scansione_20260518_0003.pdf",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1451,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 348,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "rerank": 0.15863679349422455
+  },
+  {
+   "cid": 350,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "rerank": 0.0578383132815361
+  },
+  {
+   "cid": 1858,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.052099619060754776
+  },
+  {
+   "cid": 1179,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.030796295031905174
+  },
+  {
+   "cid": 1606,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.03028138354420662
+  },
+  {
+   "cid": 738,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "rerank": 0.02413018047809601
+  },
+  {
+   "cid": 1143,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.012286287732422352
+  },
+  {
+   "cid": 1341,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "rerank": 0.008829021826386452
+  },
+  {
+   "cid": 81,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "rerank": 0.0039438665844500065
+  },
+  {
+   "cid": 1523,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.002593784127384424
+  },
+  {
+   "cid": 40,
+   "file": "analisi_acque_reflue_autocontrollo_2026.xlsx",
+   "rerank": 0.0017499335808679461
+  },
+  {
+   "cid": 1428,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "rerank": 0.0017111003398895264
+  },
+  {
+   "cid": 1389,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "rerank": 0.0012395863886922598
+  },
+  {
+   "cid": 1766,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "rerank": 0.0005462413537316024
+  },
+  {
+   "cid": 1637,
+   "file": "Scansione_20260518_0003.pdf",
+   "rerank": 0.000517945911269635
+  },
+  {
+   "cid": 1454,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "rerank": 0.0005179454456083477
+  },
+  {
+   "cid": 1187,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.00042270609992556274
+  },
+  {
+   "cid": 1451,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "rerank": 0.0004107165732420981
+  },
+  {
+   "cid": 1634,
+   "file": "Scansione_20260518_0003.pdf",
+   "rerank": 0.0004107165732420981
+  },
+  {
+   "cid": 1854,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.0002584860485512763
+  },
+  {
+   "cid": 1074,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 7.523458043579012e-05
+  },
+  {
+   "cid": 8,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 7.293253293028101e-05
+  },
+  {
+   "cid": 1109,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 2.0863813915639184e-05
+  },
+  {
+   "cid": 9,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 2.04027983272681e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 348,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "origine": "nativa",
+   "rerank": 0.15863679349422455,
+   "testo": "Cruscotto indicatori qualità 2026 - riesame direzione\nE. Marchetti - dati gennaio/maggio - target definiti nel riesame del 12/03/2026\n\n\nIndicatore Target gen feb mar apr mag Media Trend Stato\nReclami cliente per milione di pz (ppm) 8 4.2 6.1 5.4 7.8 19.6\nLotti bloccati / lotti prodotti % 1.5 0.8 1.1 0.9 1.4 4.8\nTamponi ambientali conformi % 95 97.2 96.1 95.8 92.4 88.9\nDeviazioni CCP registrate (n.) 0 0 1 0 1 3\nNC interne aperte a fine mese (n.) 5 6 8 11 14 19\nTempo medio chiusura NC (gg) 20 18 24 31 38 44\nCosto della non qualità (€) 1600 980 1420 1180 2240 18600\nOre formazione erogate 40 32 18 44 12 6\nFornitori in classe A % 70 72 72 68 64 64\nAudit interni eseguiti / piano % 100 100 100 66 50 33\n\nmaggio è fuori scala su quasi tutto: è il mese del reclamo corpo estraneo\nle ore di formazione sono crollate perché la produzione non libera le persone (segnalato 3 volte)\nRegistro reclami cliente e consumatore 2026\n\n\n\nN. Data Origine Cliente / consumatore Prodotto Lotto Tipologia Gravità Pz coinvolti Stato Chiuso il gg aperto\n1 14/01/2026 cliente GDO Tosano Cerea SpA AF-CR-0215 L26008-L2-T1 peso pezzo sotto tolleranza minore 480 chiuso 28/01/2026"
+  },
+  {
+   "cid": 350,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "origine": "nativa",
+   "rerank": 0.0578383132815361,
+   "testo": "10 19/05/2026 cliente GDO Alì SpA AF-SN-0450 L26130-L1-T2 blocco cautelativo merce in CE.DI. maggiore 1440 aperto\nNon conformità 2026 per causa radice - analisi di Pareto\n\n\n\nCausa radice N. NC % % cumulata Costo € Azione in corso\nRegistrazioni incomplete o non verificate 14 4200 seconda firma di fine turno - NON ancora applicata\nManutenzione rimandata / ricambi non originali 11 21400 ordine ricambi urgenti PKM-450\nErrore umano di linea 9 3100 rifare formazione (rimandata per carichi produttivi)\nMateria prima non conforme 7 5800 vendor rating e audit fornitore Lievital\nPulizia insufficiente / CIP abortito 6 2900 revisione IO-05 e turni di lavaggio\nTaratura strumenti scaduta 4 1200 contratto con ente esterno da rinnovare\nAltro / non determinata 5 900\nTOTALE\n\nle prime due cause sono esattamente le due NC minori dell'audit CSQA di febbraio\nAndamento tamponi ambientali per zona - % conformità\n\n\n\nZona Punto gen feb mar apr mag Media Note\nZona 1 Nastro uscita forno FT-01 100 100 100 97 94\nZona 1 Ganasce saldanti PKM-450 100 97 100 92 83\nZona 1 Scivolo metal detector MD-3200 100 100 97 95 89\nZona 2 Carrelli di trasferimento 97 94 97 92 88\nZona 2 Guarnizioni cella CF-02 100 100 94 89 86"
+  },
+  {
+   "cid": 1858,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.052099619060754776,
+   "testo": "rinnovato; piano analitico 2026 approvato (patogeni, shelf life, MOCA).\n        Evento Listeria spp. su tampone ambientale canalina Linea 3 del 24/02\n        (NC-2026-034): sanificazione straordinaria e ritampone negativo a 48 h;\n        frequenza MOD-QA-19 raddoppiata in zona 2 per 3 mesi.\n\n7. DATI DI INGRESSO - RISORSE UMANE E FORMAZIONE\n\n   7.1  Organico al 28/02/2026: 50 unita' (38 produzione, 12 uffici).\n        Turnover Linea 2: n. 2 dimissioni tra gennaio e febbraio 2026, tutte\n        con motivazione dichiarata legata ai turni domenicali per gli ordini Tosano.\n        [nota successiva a verbale: quarta dimissione registrata il 26/03 -\n        NC-2026-056]\n\n   7.2  Straordinari: proiezione superamento del limite di 250 h/anno per 6 addetti\n        di Linea 2 se confermate le domeniche promozionali di aprile-maggio\n        (\"Sottocosto Primavera\", settimane 19-21). E' pervenuta contestazione RSU.\n        La Direzione incarica HR e il Responsabile Produzione di predisporre un\n        piano riposi compensativi e di valutare 2 inserimenti in somministrazione.\n        L'AD chiede tuttavia che gli ordini Tosano \"non si tocchino\"."
+  },
+  {
+   "cid": 1179,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "origine": "nativa",
+   "rerank": 0.030796295031905174,
+   "testo": "NC-2026-004;12/01/2026;interna;Linea 2;Cella lievitazione fuori range UR% per 40 min, croissant turno 1 con sviluppo irregolare;AF-CR-0212 L26012-L2-T1;media;sonda umidità sporca;pulizia sonda, inserita in piano tarature;Ben Salah A.;14/01/2026;CHIUSA;850,00\nNC-2026-005;2026-01-13;interna;Laboratorio;Tampone superficie impastatrice IMP-300 oltre limite CBT, ripetuto dopo sanificazione;;media;sanificazione weekend incompleta;rilavaggio secondo IO-05, tampone di verifica MOD-QA-19;Pozzato S.;16/01/2026;CHIUSA;90,00\nNC-2026-006;14/01/2026;interna;Linea 3;Tunnel TS-01 tempo di abbattimento 265 min, oltre limite CCP4 240 min su carico parziale;AF-CR-0215 L26014-L2-T2;alta;piastre TS-01 con brina, resa frigorifera degradata;sbrinamento straordinario, lotto trattenuto e ricontrollato T cuore;Guerra R.;16/01/2026;CHIUSA;1.450,00\nNC-2026-007;15-gen-26;interna;Manutenzione;Perdita olio idraulico sfogliatrice Linea 2, gocciolamento su pavimento non su prodotto;;media;guarnizione pistone usurata;sostituzione guarnizione, verifica assenza contaminazione;Dal Maso I.;15/01/2026;CHIUSA;310,00"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4594,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.21,
+  "rerank": 49.96
+ },
+ "id": "Q109",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:17:40",
+ "secondi": 50.19,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 46.91,
+  "token_prompt": 2031,
+  "token_risposta": 40,
+  "testo_grezzo": "<19>\nFONTI: cruscotto_KPI_qualita_2026.xlsx, Andamento tamponi ambientali per zona - % conformità\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "cruscotto_KPI_qualita_2026.xlsx",
+   "Andamento tamponi ambientali per zona - % conformità"
+  ],
+  "fonti_fuori_contesto": [
+   "Andamento tamponi ambientali per zona - % conformità"
+  ],
+  "confidenza": "bassa"
+ }
+}

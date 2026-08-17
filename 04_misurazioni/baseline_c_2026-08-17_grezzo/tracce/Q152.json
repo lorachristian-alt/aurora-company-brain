@@ -1,0 +1,682 @@
+{
+ "domanda": "Ricostruiscimi la giornata del pastorizzatore di domenica 10 maggio dal datalogger.",
+ "candidati_densi": [
+  {
+   "cid": 1458,
+   "punteggio": 0.512538470875952,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1075,
+   "punteggio": 0.5056229073518345,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 141,
+   "origine": "nativa"
+  },
+  {
+   "cid": 189,
+   "punteggio": 0.5041251336249745,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1776,
+   "punteggio": 0.49622151773048717,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1883,
+   "punteggio": 0.49219274129209,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 179,
+   "punteggio": 0.48927192541843745,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 191,
+   "punteggio": 0.487263472190038,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 82,
+   "punteggio": 0.4832716786542913,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 934,
+   "punteggio": 0.48124009369827214,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 854,
+   "punteggio": 0.47562237039685684,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 32,
+   "origine": "nativa"
+  },
+  {
+   "cid": 935,
+   "punteggio": 0.4747075110935909,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 937,
+   "punteggio": 0.4745508549067029,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1010,
+   "punteggio": 0.474233507649939,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 76,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1462,
+   "punteggio": 0.47403817454373504,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1052,
+   "punteggio": 0.47339994734050295,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 118,
+   "origine": "nativa"
+  },
+  {
+   "cid": 936,
+   "punteggio": 0.47333642446544394,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 617,
+   "punteggio": 0.47328086837847927,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1039,
+   "punteggio": 0.47324813583274083,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 105,
+   "origine": "nativa"
+  },
+  {
+   "cid": 949,
+   "punteggio": 0.4727237981313569,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 941,
+   "punteggio": 0.472657266380309,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 7,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1365,
+   "punteggio": 14.864459037780762,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 431,
+   "punteggio": 14.7643404006958,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1093,
+   "punteggio": 13.782256126403809,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 434,
+   "punteggio": 13.159923553466797,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1364,
+   "punteggio": 13.00536060333252,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1602,
+   "punteggio": 12.245840072631836,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1531,
+   "punteggio": 12.187682151794434,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 419,
+   "punteggio": 11.840325355529785,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 428,
+   "punteggio": 11.785456657409668,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 318,
+   "punteggio": 11.674975395202637,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 531,
+   "punteggio": 11.581378936767578,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1075,
+   "punteggio": 11.569123268127441,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 141,
+   "origine": "nativa"
+  },
+  {
+   "cid": 293,
+   "punteggio": 11.45429801940918,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1200,
+   "punteggio": 11.41949462890625,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 22,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1422,
+   "punteggio": 11.393646240234375,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 617,
+   "punteggio": 11.347485542297363,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1458,
+   "punteggio": 11.31430435180664,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1436,
+   "punteggio": 11.110492706298828,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1642,
+   "punteggio": 11.03889274597168,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1532,
+   "punteggio": 11.031902313232422,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 3,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1075,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 141,
+   "origine": "nativa",
+   "rrf": 0.030017921146953404,
+   "rango_denso": 2,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1458,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.02938045560996381,
+   "rango_denso": 1,
+   "rango_sparso": 17
+  },
+  {
+   "cid": 617,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.026144907723855092,
+   "rango_denso": 17,
+   "rango_sparso": 16
+  },
+  {
+   "cid": 1365,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 189,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1093,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 17,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1364,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1883,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 179,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1602,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 191,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1531,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 82,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 419,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 20,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 428,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 934,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 318,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 854,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 32,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 531,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 935,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 937,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1075,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.2895466983318329
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.109834223985672
+  },
+  {
+   "cid": 1093,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.07452952116727829
+  },
+  {
+   "cid": 1364,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.07429539412260056
+  },
+  {
+   "cid": 1365,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.047650404274463654
+  },
+  {
+   "cid": 189,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "rerank": 0.04367934539914131
+  },
+  {
+   "cid": 1458,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.037532977759838104
+  },
+  {
+   "cid": 617,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.018480472266674042
+  },
+  {
+   "cid": 419,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "rerank": 0.008927536197006702
+  },
+  {
+   "cid": 82,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "rerank": 0.008454700000584126
+  },
+  {
+   "cid": 1531,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.005430403631180525
+  },
+  {
+   "cid": 191,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "rerank": 0.005139998625963926
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.0039966413751244545
+  },
+  {
+   "cid": 1602,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.0029760596808046103
+  },
+  {
+   "cid": 937,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.0018793107010424137
+  },
+  {
+   "cid": 934,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.0017266563372686505
+  },
+  {
+   "cid": 935,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.0014832972083240747
+  },
+  {
+   "cid": 179,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "rerank": 0.001442752662114799
+  },
+  {
+   "cid": 854,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.00106428109575063
+  },
+  {
+   "cid": 1883,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "rerank": 0.0010109387803822756
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.00023838618653826416
+  },
+  {
+   "cid": 531,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "rerank": 0.00011412902676966041
+  },
+  {
+   "cid": 428,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 8.439105295110494e-05
+  },
+  {
+   "cid": 318,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 5.075378794572316e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1075,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "origine": "nativa",
+   "rerank": 0.2895466983318329,
+   "testo": "2026-05-10 23:12:09;PT104;EVT;PROD_END;TOT_SHIFT=SEE_EXPORT;OK;LOT=L26130-L1-T3;OP=CESTARO_L\n=====================================================================\nEXPORT GIORNALIERO - TermoLog SCADA v2.3.1 build 4402\nImpianto: PASTORIZZATORE PT104 - LINEA 1\nData rif.: 10/05/2026  -  UnitÃ  di misura: Â°C ; m3/h ; m/min\nCampioni acquisiti: 12390  -  Campioni validi: 12293\nSonda T_CUORE: anomalia rilevata (vedi codice guasto) - validitÃ  parziale\nAllarmi attivi nel periodo: ALM_LOW_TEMP(1) DEV_CCP2(1) MACHINE_STOP(1) SENSOR_FAULT(1) RTC_BATT_LOW(1)\nDurata esercizio: 13h 01m  -  Durata fermo: 3h 40m  -  Motivo fermo: INTERLOCK_DOWNSTREAM=PKM450\nTemperatura minima registrata TT_02: 68.6 C alle 14:30:37\nPermanenza sotto soglia 72.0 Â°C: 27 min ca. - verificare registro CCP2 (MOD-QA-12)\nOperatori turno: RANZATO_F / POPESCU_I / CESTARO_L - Resp. produzione: ZANELLA_D\nFile generato automaticamente - non modificare - proprietÃ  Aurora Food Group S.r.l.\nPercorso archivio: \\\\SRV-AFG01\\produzione\\datalogger\\PT104\\2026\\05\\\nChecksum: 8f3aï¿½ï¿½41bc â€“ verifica integritÃ  fallita\n====================================================================="
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.109834223985672,
+   "testo": "[00:02:46] PARLANTE_1: se ce l'ha ancora\n[00:02:48] PARLANTE_2: se manca un pezzo dalla guarnizione vecchia o da quella nuova che ha tagliato lui a misura allora\n[00:02:53] PARLANTE_3: scusate ma c'e anche l'altra cosa del lotto 130 e va detta adesso\n[00:02:58] PARLANTE_1: quale altra cosa\n[00:03:02] PARLANTE_3: sara ha scaricato ieri i dati del datalogger del PT-104 per la verifica settimanale e sul turno 2 del 10 maggio dalle 14 e 18 alle 14 e 47 la temperatura e scesa sotto i 72 gradi il minimo registrato e 68 virgola 9\n[00:03:18] PARLANTE_1: e il ccp2\n[00:03:20] PARLANTE_3: e il CCP2 si il limite critico e 72 gradi al cuore per almeno due minuti e per quasi mezz'ora eravamo sotto\n[00:03:27] PARLANTE_2: e sul cartaceo cosa c'e scritto\n[00:03:30] PARLANTE_3: eh appunto sul MOD-QA-12 l'operatore ha scritto 74 e 5 conforme\n[00:03:36] PARLANTE_1: come 74 e 5 se la macchina dice 68\n[00:03:39] PARLANTE_3: ha copiato il set point secondo me non ha guardato il display oppure ha compilato a fine turno tutto insieme come fanno sempre\n[00:03:46] PARLANTE_2: che e esattamente la non conformita uno dell'audit la seconda firma di verifica che non"
+  },
+  {
+   "cid": 1093,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "origine": "nativa",
+   "rerank": 0.07452952116727829,
+   "testo": "0603;PREDA RADU;10/05/2026;dom;MAGAZZ.;T2;14:00;22:00;8,00;;FEST 65%;\n0701;DAL MASO IVANO;10/05/2026;dom;MANUT.;T1;15:05;18:50;;3,75;FEST 65%;chiamata emergenza - valvola azoto\n;;;;;;;;;;;\nTOTALE ORE ORDINARIE SETTIMANA;;;;;;;;1768,00;;;\nTOTALE ORE STRAORDINARIE;;;;;;;;;44,50;;\ndi cui festive (domenica 10/05);;;;;;;;;10,82;FEST 65%;\n;;;;;;;;;;;\n(Sartori) la società ha chiesto la domenica 10/05 ha lavorato la Linea 2 al completo piu' i supporti.;;;;;;;;;;;\n(Sartori) Dal Maso e' entrato in emergenza, ore a parte.;;;;;;;;;;;\n(Sartori) chi ha fatto il sabato NON ha fatto la domenica: il riposo va garantito.;;;;;;;;;;;"
+  },
+  {
+   "cid": 1364,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "origine": "nativa",
+   "rerank": 0.07429539412260056,
+   "testo": "piu' iva. piu' i costi interni ns. personale (non quantificati)\n\nCSB cloud:\n  168.000+24.500+115.000 + 14.400x5 + 33.600x4 = 513.900 ?? (mi viene diverso\n  da quello detto al telefono da Ferraresi, lui diceva \"sotto i 500\", riverificare)\n\nSAP B1 cloud:\n  109.440 + (64.008 x 5) = 429.480,00 EUR + iva\n  MA i canoni salgono se aggiungiamo utenti (nuovo stabilimento = altri utenti)\n  e a fine dei 5 anni NON abbiamo licenze di proprieta', si continua a pagare\n\nipotesi \"restiamo su Excel\" (per confronto, richiesta del titolare):\n  costo software: zero (Office gia' pagato)\n  costo vero: 2 persone x mezza giornata/sett. per riconciliare dati = stima\n  ~25.000 EUR/anno di tempo perso, MA non e' un dato difendibile, e' una stima mia\n  + il costo di quello che NON vediamo: la settimana del 10/05 per ricostruire\n  un lotto ci abbiamo messo in tre due giorni e mezzo. quanto vale? boh\n  + rischio errori (v. registro carta vs datalogger, senza commento)\n  totale 5 anni: sulla carta 125.000, in realta' non lo sa nessuno\n  (nota mia: Excel non e' gratis, e' solo gia' pagato. non e' la stessa cosa)\n\n================================================================="
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4090,
+ "tempi": {
+  "denso": 0.01,
+  "sparso": 0.16,
+  "rerank": 54.65
+ },
+ "id": "Q152",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:50:03",
+ "secondi": 54.83,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 51.59,
+  "token_prompt": 1830,
+  "token_risposta": 204,
+  "testo_grezzo": "La giornata del pastorizzatore di domenica 10 maggio è stata la seguente:\n\n- La temperatura minima registrata TT_02 è stata di 68,6°C alle 14:30:37.\n- La permanenza sotto soglia 72,0°C è stata di 27 minuti circa.\n- L'allarme ALM_LOW_TEMP(1) è stato attivato.\n- L'allarme DEV_CCP2(1) è stato attivato.\n- L'allarme MACHINE_STOP(1) è stato attivato.\n- L'allarme SENSOR_FAULT(1) è stato attivato.\n- L'allarme RTC_BATT_LOW(1) è stato attivato.\n\nFONTI: log_temperature_pastorizzatore_linea1_10_05_26.log, trascrizione_riunione_direzione_12_05_2026.txt, log_timbrature_fabbrica_maggio_settimana2.csv",
+  "fonti_citate": [
+   "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "trascrizione_riunione_direzione_12_05_2026.txt",
+   "log_timbrature_fabbrica_maggio_settimana2.csv"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

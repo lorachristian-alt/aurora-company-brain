@@ -1,0 +1,680 @@
+{
+ "domanda": "Qual e' l'esito della relazione annuale del medico competente?",
+ "candidati_densi": [
+  {
+   "cid": 395,
+   "punteggio": 0.49696229910449496,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1279,
+   "punteggio": 0.4841496185326855,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 396,
+   "punteggio": 0.4781018366027383,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1241,
+   "punteggio": 0.4678926671509866,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1450,
+   "punteggio": 0.46124143645336535,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1633,
+   "punteggio": 0.46124143645336535,
+   "file": "Scansione_20260518_0003.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1398,
+   "punteggio": 0.4586865775426546,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1455,
+   "punteggio": 0.45771954089971,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1638,
+   "punteggio": 0.45771954089971,
+   "file": "Scansione_20260518_0003.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 610,
+   "punteggio": 0.457302071317999,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1704,
+   "punteggio": 0.45489641375624496,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1859,
+   "punteggio": 0.44901423903519566,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1616,
+   "punteggio": 0.44869052083672306,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1843,
+   "punteggio": 0.4477290727355079,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1523,
+   "punteggio": 0.44671440502296644,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1454,
+   "punteggio": 0.44613234838975424,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1637,
+   "punteggio": 0.44613234838975424,
+   "file": "Scansione_20260518_0003.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1322,
+   "punteggio": 0.4460615997943536,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1123,
+   "punteggio": 0.44487215628349075,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1863,
+   "punteggio": 0.44432086320273545,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 13,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 387,
+   "punteggio": 18.015958786010742,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 397,
+   "punteggio": 17.652549743652344,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 395,
+   "punteggio": 17.46659278869629,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1241,
+   "punteggio": 15.777658462524414,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 398,
+   "punteggio": 15.647496223449707,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 388,
+   "punteggio": 14.869037628173828,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 427,
+   "punteggio": 14.333895683288574,
+   "file": "elenco_interni_telefonici.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1810,
+   "punteggio": 13.836173057556152,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1267,
+   "punteggio": 13.802108764648438,
+   "file": "organigramma_aziendale_aggiornato_marzo26.pptx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1142,
+   "punteggio": 13.616104125976562,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 24,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1266,
+   "punteggio": 13.367423057556152,
+   "file": "organigramma_aziendale_aggiornato_marzo26.pptx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1407,
+   "punteggio": 13.329962730407715,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 20,
+   "punteggio": 12.088815689086914,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1771,
+   "punteggio": 11.894545555114746,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1228,
+   "punteggio": 11.836734771728516,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 328,
+   "punteggio": 11.664776802062988,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1400,
+   "punteggio": 11.587027549743652,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1203,
+   "punteggio": 11.452916145324707,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 25,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1268,
+   "punteggio": 11.19882869720459,
+   "file": "organigramma_aziendale_aggiornato_marzo26.pptx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1143,
+   "punteggio": 11.163860321044922,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 25,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 395,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.032266458495966696,
+   "rango_denso": 1,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1241,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.03125,
+   "rango_denso": 4,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 387,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 397,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1279,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 396,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 398,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1450,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 388,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1633,
+   "file": "Scansione_20260518_0003.pdf",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 427,
+   "file": "elenco_interni_telefonici.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1398,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1455,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1810,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1267,
+   "file": "organigramma_aziendale_aggiornato_marzo26.pptx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1638,
+   "file": "Scansione_20260518_0003.pdf",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 610,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1142,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 24,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1266,
+   "file": "organigramma_aziendale_aggiornato_marzo26.pptx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1704,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1407,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1859,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 20,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 18,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1616,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 395,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "rerank": 0.36309775710105896
+  },
+  {
+   "cid": 387,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "rerank": 0.09133706986904144
+  },
+  {
+   "cid": 388,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "rerank": 0.0605694018304348
+  },
+  {
+   "cid": 398,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "rerank": 0.050981856882572174
+  },
+  {
+   "cid": 397,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "rerank": 0.046434227377176285
+  },
+  {
+   "cid": 1267,
+   "file": "organigramma_aziendale_aggiornato_marzo26.pptx",
+   "rerank": 0.02418604865670204
+  },
+  {
+   "cid": 1266,
+   "file": "organigramma_aziendale_aggiornato_marzo26.pptx",
+   "rerank": 0.013539534993469715
+  },
+  {
+   "cid": 1279,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "rerank": 0.0062211984768509865
+  },
+  {
+   "cid": 396,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "rerank": 0.0046447878703475
+  },
+  {
+   "cid": 1407,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.0038570871111005545
+  },
+  {
+   "cid": 1450,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "rerank": 0.0022831528913229704
+  },
+  {
+   "cid": 1633,
+   "file": "Scansione_20260518_0003.pdf",
+   "rerank": 0.0022831528913229704
+  },
+  {
+   "cid": 1616,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.0013969297287985682
+  },
+  {
+   "cid": 1455,
+   "file": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "rerank": 0.0011704943608492613
+  },
+  {
+   "cid": 1638,
+   "file": "Scansione_20260518_0003.pdf",
+   "rerank": 0.0011704943608492613
+  },
+  {
+   "cid": 20,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.0008960432605817914
+  },
+  {
+   "cid": 1142,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.0008832924067974091
+  },
+  {
+   "cid": 1241,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.0008668135269545019
+  },
+  {
+   "cid": 610,
+   "file": "job_description_responsabile_produzione.docx",
+   "rerank": 0.0006362072890624404
+  },
+  {
+   "cid": 1398,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.0005924456636421382
+  },
+  {
+   "cid": 1859,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.0003970880061388016
+  },
+  {
+   "cid": 1704,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "rerank": 0.00032763302442617714
+  },
+  {
+   "cid": 427,
+   "file": "elenco_interni_telefonici.txt",
+   "rerank": 0.0002893420751206577
+  },
+  {
+   "cid": 1810,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.0002124505554093048
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 395,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "origine": "nativa",
+   "rerank": 0.36309775710105896,
+   "testo": "termico per celle\nEN ISO 20471\nM07 manutenzione\nscarpe S3, otoprotettori cuffia SNR 30 dB,\nocchiali, guanti meccanici, guanti isolanti classe\n00 per quadri\nEN 166, EN 60903\nM08 QC laboratorio\ncamice, guanti nitrile, occhiali di protezione\nEN 166\nM09 sanificazione CIP\ntuta antiacido tipo 6, visiera, guanti neoprene\nlunghi, stivali antiacido\nEN 13034, EN 374-3\nLa consegna dei DPI e' registrata su scheda individuale; la verifica\ndell'effettivo utilizzo compete ai preposti di reparto.\n7. SORVEGLIANZA SANITARIA\nProtocollo sanitario definito dal medico competente dott.ssa Paola Rigoni\n(riunione periodica ex art. 35 del 16/12/2025):\nMansione\nAccertamenti\nPeriodicita'\nM01\nspirometria, prick test per sensibilizzazione a\nfarine, visita medica\nannuale\nM02, M03\nvisita medica, valutazione idoneita' al microclima\ncaldo\nbiennale\nM04, M07\naudiometria, visita medica\nannuale\nM05, M06\nvisita medica con giudizio di idoneita' al lavoro a\nbasse temperature, ECG\nannuale\nM09\nvisita medica, spirometria, monitoraggio cutaneo\nannuale\nM10\nvisita medica con controllo oftalmologico ex art.\n176\nquinquennale (biennale over 50)\nNel 2025: n. 47 visite effettuate, n. 2 idoneita' con prescrizione"
+  },
+  {
+   "cid": 387,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "origine": "nativa",
+   "rerank": 0.09133706986904144,
+   "testo": "danno (scala 1-4).\nValore\nProbabilita' P\nDanno D\n1\nimprobabile\nlieve - infortunio con inabilita' rapidamente\nreversibile\n2\npoco probabile\nmedio - inabilita' reversibile\n3\nprobabile\ngrave - effetti irreversibili o invalidita' parziale\n4\naltamente probabile\ngravissimo - invalidita' totale o esiti letali\nMatrice di rischio e priorita' di intervento:\nR = P x D\nClasse di rischio\nAzione richiesta\n1 - 2\nBASSO\nmantenimento misure, monitoraggio periodico\n3 - 4\nMODERATO\nprogrammare interventi di miglioramento nel\nmedio termine\n6 - 9\nMEDIO\ninterventi da programmare con urgenza definita\n12 - 16\nALTO\nazioni correttive immediate indilazionabili\n\nAurora Food Group S.r.l. - Via dell'Industria 27 - 37044 Cologna Veneta (VR) - DVR Rev. 4/2026\nDVR - Estratto - Rev. 4 del 20/01/2026 - agg. 05/05/2026 - pag. 2 - Studio Bonato & Partners, Arzignano (VI)\npag. 2\n2. ORGANIGRAMMA DELLA SICUREZZA\nRuolo\nNominativo\nNote\nDatore di lavoro\nGiancarlo Bertoldi\nPresidente C.d.A. e A.D.\nDirigente delegato (art. 16)\ning. Marco Fantin\nDirettore di Stabilimento\nRSPP (esterno)\np.i. Sergio Bonato\nStudio Bonato & Partners - Arzignano (VI)\nMedico competente\ndott.ssa Paola Rigoni\nmedicina del lavoro - convenzione annuale"
+  },
+  {
+   "cid": 388,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "origine": "nativa",
+   "rerank": 0.0605694018304348,
+   "testo": "Direttore di Stabilimento\nRSPP (esterno)\np.i. Sergio Bonato\nStudio Bonato & Partners - Arzignano (VI)\nMedico competente\ndott.ssa Paola Rigoni\nmedicina del lavoro - convenzione annuale\nRLS\nPaolo Bertacco\naddetto confezionamento - eletto 11/03/2024\nPreposto Linea 1\nIonut Popescu\ncapoturno\nPreposto Linea 2\nAdel Ben Salah\ncapoturno\nPreposto Linea 3\nRoberto Guerra\ncapoturno\nPreposto manutenzione\nIvano Dal Maso\ncapo officina\nPreposto magazzino\nNicola Faggionato\nresp. magazzino e spedizioni\nAddetti primo soccorso\nS. Pozzato, D. Zanella, N. Faggionato, M. Bissoli\nformazione D.M. 388/2003 gruppo B\nAddetti antincendio\nI. Dal Maso, R. Guerra, A. Ben Salah, F. Sartori\nrischio medio - D.M. 02/09/2021\n3. ELENCO DELLE MANSIONI\nCod.\nMansione\nReparto\nN. addetti\nM01\naddetto impasto e dosaggio\ningredienti\nLinea 1 - Linea 2\n8\nM02\naddetto conduzione forni FT-01 /\nFT-02 e PT-104\nLinea 1 - Linea 2\n6\nM03\naddetto sfogliatura e formatura\ncroissanteria\nLinea 2\n7\nM04\naddetto confezionamento MAP\n(PKM-450) e controllo peso\nLinea 1\n6\nM05\naddetto linea surgelati e tunnel\nTS-01\nLinea 3\n5\nM06\nmagazziniere / carrellista (celle\nCF-01, CF-02)\nmagazzino\n4\nM07\nmanutentore meccanico/elettrico\nofficina\n2\nM08"
+  },
+  {
+   "cid": 398,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "origine": "nativa",
+   "rerank": 0.050981856882572174,
+   "testo": "sicurezza, di infortuni significativi o quando i risultati della\nsorveglianza sanitaria ne evidenzino la necessita'. La messa in servizio\ndel tunnel Criotech CR-SP180 comportera' aggiornamento delle sezioni 4,\n5 e 6 prima dell'avvio.\nData certa attribuita mediante sottoscrizione congiunta ai sensi\ndell'art. 28 c. 2 D.Lgs. 81/2008.\nCologna Veneta (VR), 20 gennaio 2026\nDatore di lavoro\n_______________________________\nGiancarlo Bertoldi\nRSPP - Studio Bonato & Partners\n_______________________________\np.i. Sergio Bonato\nMedico competente\n_______________________________\ndott.ssa Paola Rigoni\n\nAurora Food Group S.r.l. - Via dell'Industria 27 - 37044 Cologna Veneta (VR) - DVR Rev. 4/2026\nDVR - Estratto - Rev. 4 del 20/01/2026 - agg. 05/05/2026 - pag. 8 - Studio Bonato & Partners, Arzignano (VI)\npag. 8\nRLS\n_______________________________\nPaolo Bertacco"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4416,
+ "tempi": {
+  "denso": 0.01,
+  "sparso": 0.16,
+  "rerank": 44.19
+ },
+ "id": "Q271",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T18:24:00",
+ "secondi": 44.37,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 53.69,
+  "token_prompt": 1971,
+  "token_risposta": 88,
+  "testo_grezzo": "L'esito della relazione annuale del medico competente non e' ricavabile dai documenti forniti.\n\nFONTI: DVR_estratto_valutazione_rischi_2026.pdf, DVR_estratto_valutazione_rischi_2026.pdf, DVR_estratto_valutazione_rischi_2026.pdf, DVR_estratto_valutazione_rischi_2026.pdf",
+  "fonti_citate": [
+   "DVR_estratto_valutazione_rischi_2026.pdf"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

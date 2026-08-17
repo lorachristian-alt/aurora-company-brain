@@ -89,6 +89,48 @@ def appendi(percorso, riga):
 
 # ------------------------------------------------------------------ passata 1
 
+def vettorizza_domande(cfg, domande, percorso):
+    """Fase 1a: i vettori densi delle domande, UNO PER VOLTA, prima di tutto il resto.
+
+    Serve a non tenere bge-m3 (2,3 GB) e il reranker (2,3 GB) vivi nello stesso momento:
+    su 8 GB di RAM significherebbe paginare per tutte e 282 le domande. Qui si carica
+    solo l'embedder, si scrive su disco, e poi lo si lascia andare.
+
+    E' riprendibile e non cambia un solo numero: ogni domanda e' codificata da sola,
+    esattamente come farebbe la catena in linea.
+    """
+    fatti = {}
+    if percorso.exists():
+        with open(percorso, encoding="utf-8") as f:
+            for r in f:
+                r = r.strip()
+                if r:
+                    try:
+                        v = json.loads(r)
+                        fatti[v["id"]] = v["vettore"]
+                    except Exception:                              # noqa: BLE001
+                        pass
+    restanti = [(i, d) for i, d in domande if i not in fatti]
+    if not restanti:
+        print("fase 1a: i %d vettori delle domande sono gia' su disco" % len(fatti))
+        return fatti
+
+    print("fase 1a: %d vettori da calcolare su %d" % (len(restanti), len(domande)))
+    rec = Recupero(cfg)
+    try:
+        t0 = time.time()
+        for n, (qid, testo) in enumerate(restanti, 1):
+            v = rec.vettore_domanda(testo)
+            fatti[qid] = v
+            appendi(percorso, {"id": qid, "vettore": v})
+            if n % 50 == 0 or n == len(restanti):
+                print("  %3d/%d  (%.0fs)" % (n, len(restanti), time.time() - t0))
+    finally:
+        rec.chiudi()
+        rec.libera_modelli()
+    return fatti
+
+
 def passata_retrieval(cfg, cartella, limite=None, sonda=False):
     contesti = cartella / "contesti_c.jsonl"
     tracce = cartella / "tracce"
@@ -102,6 +144,14 @@ def passata_retrieval(cfg, cartella, limite=None, sonda=False):
     if not restanti:
         return {"fatte": 0, "totali": len(tutte)}
 
+    vettori = vettorizza_domande(cfg, restanti, comune.LOCALE / "vettori_domande.jsonl")
+    mancanti = [i for i, _ in restanti if i not in vettori]
+    if mancanti:
+        # Senza questo controllo la catena ricadrebbe sul calcolo al volo, e bge-m3
+        # tornerebbe in memoria accanto al reranker: 4,6 GB su una macchina da 8.
+        sys.exit("mancano %d vettori di domanda (%s...): rilancia la stessa passata, la "
+                 "fase 1a riprende da sola." % (len(mancanti), ", ".join(mancanti[:5])))
+
     rec = Recupero(cfg)
     impronta = cfg.get("_impronta")
     tempi = []
@@ -109,7 +159,7 @@ def passata_retrieval(cfg, cartella, limite=None, sonda=False):
     try:
         for n, (qid, testo) in enumerate(restanti, 1):
             t0 = time.time()
-            tr = rec.recupera(testo)
+            tr = rec.recupera(testo, vettore=vettori.get(qid))
             dt = time.time() - t0
             tempi.append(dt)
             tr.update(id=qid, config_c=impronta, quando=datetime.now().isoformat(timespec="seconds"),

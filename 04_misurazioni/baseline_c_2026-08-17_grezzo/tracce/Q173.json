@@ -1,0 +1,681 @@
+{
+ "domanda": "L'operaio dimissionario della Linea 2: quando ha dato le dimissioni, quando esce e come figura negli altri documenti?",
+ "candidati_densi": [
+  {
+   "cid": 437,
+   "punteggio": 0.5468279011358719,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 289,
+   "punteggio": 0.514484325841623,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1858,
+   "punteggio": 0.5144506500452063,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 431,
+   "punteggio": 0.5143346382794584,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 432,
+   "punteggio": 0.5080631101755357,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1788,
+   "punteggio": 0.4889336836159377,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 434,
+   "punteggio": 0.48305415281221914,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 428,
+   "punteggio": 0.48266650833384384,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1789,
+   "punteggio": 0.4820480459065754,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 626,
+   "punteggio": 0.4699373815665202,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 430,
+   "punteggio": 0.4693010338811311,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 435,
+   "punteggio": 0.46545071466030796,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 290,
+   "punteggio": 0.46190833968306566,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1819,
+   "punteggio": 0.45862881628157204,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1481,
+   "punteggio": 0.45829316962907063,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1245,
+   "punteggio": 0.456695662931028,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 433,
+   "punteggio": 0.4564322214619722,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1424,
+   "punteggio": 0.4546810541949085,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 286,
+   "punteggio": 0.45173944292739177,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 386,
+   "punteggio": 0.45058731363056426,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 428,
+   "punteggio": 22.02865982055664,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 436,
+   "punteggio": 21.57309913635254,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 434,
+   "punteggio": 20.429738998413086,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 430,
+   "punteggio": 20.29557991027832,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1480,
+   "punteggio": 19.765684127807617,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 256,
+   "punteggio": 19.55503273010254,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 601,
+   "punteggio": 19.024791717529297,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 431,
+   "punteggio": 18.74667739868164,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 291,
+   "punteggio": 18.555761337280273,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1224,
+   "punteggio": 18.311662673950195,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 510,
+   "punteggio": 17.546998977661133,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 0,
+   "punteggio": 17.2016544342041,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1837,
+   "punteggio": 17.197551727294922,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 435,
+   "punteggio": 17.10085105895996,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1225,
+   "punteggio": 17.001697540283203,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 289,
+   "punteggio": 16.94231414794922,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1366,
+   "punteggio": 16.888708114624023,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 287,
+   "punteggio": 16.746944427490234,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1337,
+   "punteggio": 16.492090225219727,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1424,
+   "punteggio": 16.243545532226562,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 0,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 428,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.031099324975891997,
+   "rango_denso": 8,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.030798389007344232,
+   "rango_denso": 7,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.030330882352941176,
+   "rango_denso": 4,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.029709507042253523,
+   "rango_denso": 11,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 289,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.02928692699490662,
+   "rango_denso": 2,
+   "rango_sparso": 16
+  },
+  {
+   "cid": 435,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.027402402402402402,
+   "rango_denso": 12,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 1424,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.02532051282051282,
+   "rango_denso": 18,
+   "rango_sparso": 20
+  },
+  {
+   "cid": 437,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 436,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1858,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 432,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1480,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 256,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1788,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 601,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 291,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1789,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 626,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1224,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 510,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 0,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 290,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1837,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1819,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 432,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.8880030512809753
+  },
+  {
+   "cid": 436,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.7779222726821899
+  },
+  {
+   "cid": 437,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.7651898264884949
+  },
+  {
+   "cid": 1858,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.5260727405548096
+  },
+  {
+   "cid": 428,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.4958604574203491
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.4858188033103943
+  },
+  {
+   "cid": 289,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.4162197709083557
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.39573028683662415
+  },
+  {
+   "cid": 1480,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "rerank": 0.31419163942337036
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.21629546582698822
+  },
+  {
+   "cid": 435,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.18078450858592987
+  },
+  {
+   "cid": 626,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "rerank": 0.1568908840417862
+  },
+  {
+   "cid": 291,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.14489856362342834
+  },
+  {
+   "cid": 1424,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "rerank": 0.13768894970417023
+  },
+  {
+   "cid": 290,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.09216822683811188
+  },
+  {
+   "cid": 1819,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "rerank": 0.04821399971842766
+  },
+  {
+   "cid": 1788,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.013692786917090416
+  },
+  {
+   "cid": 1789,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0056597525253891945
+  },
+  {
+   "cid": 256,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "rerank": 0.0052306922152638435
+  },
+  {
+   "cid": 601,
+   "file": "job_description_responsabile_produzione.docx",
+   "rerank": 0.004637014586478472
+  },
+  {
+   "cid": 1224,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.001785835949704051
+  },
+  {
+   "cid": 0,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "rerank": 0.0006667693378403783
+  },
+  {
+   "cid": 1837,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.00011021950194844976
+  },
+  {
+   "cid": 510,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 6.923847104189917e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 432,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "origine": "nativa",
+   "rerank": 0.8880030512809753,
+   "testo": "> per la resa più bassa dei nuovi, che Denis stima in un altro\n> 8-10% nei primi due mesi.\n>\n> Domenica scorsa la linea ha girato con 5 persone dove ne servono 6.\n> Con la promo Tosano ancora in corso non me lo posso permettere una\n> seconda volta.\n>\n> Decidi tu, ma decidi.\n>\n> M.\n>\n> ing. Marco Fantin\n> Direttore di Stabilimento\n> AURORA FOOD GROUP S.r.l.\n> Tel. 0442 85 41 22 int. 210 - Mob. 348 22 41 7XX\n>\n>> -----Messaggio originale-----\n>> Da: Sartori Federica <f.sartori@aurorafoodgroup.it>\n>> Inviato: mercoledì 13 maggio 2026 17:30\n>> A: Fantin Marco; Zanella Denis\n>> Oggetto: R: Fwd: dimissioni Hoxha - situazione Linea 2 URGENTE\n>>\n>> Marco, Denis,\n>>\n>> ho messo insieme i numeri come richiesto. Ve li anticipo qui, il\n>> dettaglio è nel file allegato (Analisi_turnover_linea2_v3.xlsx).\n>>\n>> DIMISSIONI LINEA 2 - ultimi 5 mesi:\n>>\n>>   1. Stoica Alin       - lettera 09/01/2026 - ultimo giorno 31/01\n>>   2. Diallo Moussa     - lettera 20/02/2026 - ultimo giorno 08/03\n>>   3. Peruzzi Erika     - lettera 03/04/2026 - ultimo giorno 19/04\n>>   4. Hoxha Fatjon      - lettera 08/05/2026 - ultimo giorno 31/05\n>>\n>> Tutti e quattro, nel colloquio di uscita o nella lettera, hanno"
+  },
+  {
+   "cid": 436,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "origine": "nativa",
+   "rerank": 0.7779222726821899,
+   "testo": ">>>> Youssef e Vasile stanno parlando con una ditta di Lonigo.\n>>>> Non hanno ancora deciso niente, ma il discorso è sempre quello,\n>>>> le domeniche. Vasile mi ha detto testuale \"Adel io ti rispetto\n>>>> ma mia moglie lavora il sabato, se faccio anche le domeniche\n>>>> quando la vedo\". Non so cosa rispondergli. Anche perché ha\n>>>> ragione.\n>>>>\n>>>> Ieri eravamo in 5. Abbiamo fatto i numeri lo stesso, ma i\n>>>> ragazzi erano stanchi e io non posso chiedere sempre.\n>>>>\n>>>> Se l'azienda ha in mente qualcosa, questo è il momento di\n>>>> dirlo. Dopo è tardi.\n>>>>\n>>>> Adel\n>>>>\n>>>> Inviato dal mio iPhone\n>>>>\n>>>>> -----Messaggio originale-----\n>>>>> Da: Sartori Federica <f.sartori@aurorafoodgroup.it>\n>>>>> Inviato: venerdì 8 maggio 2026 16:20\n>>>>> A: Fantin Marco; Zanella Denis\n>>>>> Cc: Ben Salah Adel\n>>>>> Oggetto: dimissioni Hoxha - situazione Linea 2\n>>>>>\n>>>>> Buonasera a tutti,\n>>>>>\n>>>>> stamattina Fatjon Hoxha mi ha consegnato la lettera di\n>>>>> dimissioni. Ultimo giorno di lavoro il 31/05, rispetta il\n>>>>> preavviso. Motivo dichiarato: turni domenicali, ha trovato\n>>>>> posto in una carpenteria a Montagnana, orario centrale.\n>>>>>"
+  },
+  {
+   "cid": 437,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "origine": "nativa",
+   "rerank": 0.7651898264884949,
+   "testo": ">>>>> dimissioni. Ultimo giorno di lavoro il 31/05, rispetta il\n>>>>> preavviso. Motivo dichiarato: turni domenicali, ha trovato\n>>>>> posto in una carpenteria a Montagnana, orario centrale.\n>>>>>\n>>>>> E' la QUARTA dimissione sulla Linea 2 da gennaio. Non è più\n>>>>> un caso, è una tendenza, e ha un nome preciso.\n>>>>>\n>>>>> Mi dispiace particolarmente per Fatjon: 6 anni in azienda,\n>>>>> zero contestazioni, uno che il sabato veniva senza discutere.\n>>>>> Nel salutarmi mi ha detto \"signora Federica, io qui stavo\n>>>>> bene, ma tre domeniche in un mese no\".\n>>>>>\n>>>>> Propongo una riunione lunedì o martedì per decidere:\n>>>>> 1) come copriamo il turno dal 01/06;\n>>>>> 2) se apriamo subito la ricerca con Umana;\n>>>>> 3) cosa facciamo di STRUTTURALE sulle domeniche, perché\n>>>>>    continuare a sostituire non è una strategia, è\n>>>>>    un'emorragia con il cerotto.\n>>>>>\n>>>>> Preparo per la riunione un'analisi dei costi di turnover.\n>>>>>\n>>>>> Buon weekend (si fa per dire, domenica si lavora),\n>>>>> Federica\n>>>>>\n>>>>> Federica Sartori\n>>>>> Risorse Umane e Segreteria Generale\n>>>>> AURORA FOOD GROUP S.r.l.\n>>>>> Via dell'Industria 27 - 37044 Cologna Veneta (VR)"
+  },
+  {
+   "cid": 1858,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.5260727405548096,
+   "testo": "rinnovato; piano analitico 2026 approvato (patogeni, shelf life, MOCA).\n        Evento Listeria spp. su tampone ambientale canalina Linea 3 del 24/02\n        (NC-2026-034): sanificazione straordinaria e ritampone negativo a 48 h;\n        frequenza MOD-QA-19 raddoppiata in zona 2 per 3 mesi.\n\n7. DATI DI INGRESSO - RISORSE UMANE E FORMAZIONE\n\n   7.1  Organico al 28/02/2026: 50 unita' (38 produzione, 12 uffici).\n        Turnover Linea 2: n. 2 dimissioni tra gennaio e febbraio 2026, tutte\n        con motivazione dichiarata legata ai turni domenicali per gli ordini Tosano.\n        [nota successiva a verbale: quarta dimissione registrata il 26/03 -\n        NC-2026-056]\n\n   7.2  Straordinari: proiezione superamento del limite di 250 h/anno per 6 addetti\n        di Linea 2 se confermate le domeniche promozionali di aprile-maggio\n        (\"Sottocosto Primavera\", settimane 19-21). E' pervenuta contestazione RSU.\n        La Direzione incarica HR e il Responsabile Produzione di predisporre un\n        piano riposi compensativi e di valutare 2 inserimenti in somministrazione.\n        L'AD chiede tuttavia che gli ordini Tosano \"non si tocchino\"."
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4686,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.17,
+  "rerank": 43.71
+ },
+ "id": "Q173",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:06:25",
+ "secondi": 43.9,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 77.83,
+  "token_prompt": 1957,
+  "token_risposta": 46,
+  "testo_grezzo": "La risposta non è ricavabile dai documenti forniti.\n\nFONTI: email_HR_dimissioni_operai_linea2.txt, verbale_riesame_direzione_SGQ_2026.txt",
+  "fonti_citate": [
+   "email_HR_dimissioni_operai_linea2.txt",
+   "verbale_riesame_direzione_SGQ_2026.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

@@ -1,0 +1,683 @@
+{
+ "domanda": "Quanti chili di scarto alimentare abbiamo prodotto nel primo semestre?",
+ "candidati_densi": [
+  {
+   "cid": 655,
+   "punteggio": 0.5159569277857161,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1473,
+   "punteggio": 0.5030850295720137,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 248,
+   "punteggio": 0.49769229697825573,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 48,
+   "punteggio": 0.49146864892606845,
+   "file": "analisi_scostamenti_costo_materie_prime.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 548,
+   "punteggio": 0.4911681620063645,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1096,
+   "punteggio": 0.4882924723234497,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 47,
+   "punteggio": 0.4868282917508147,
+   "file": "analisi_scostamenti_costo_materie_prime.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1413,
+   "punteggio": 0.4831408656236397,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1337,
+   "punteggio": 0.4827988493717704,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 661,
+   "punteggio": 0.47585941240347773,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1261,
+   "punteggio": 0.47527353740046546,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 32,
+   "punteggio": 0.4716189072588029,
+   "file": "anagrafica_articoli_export_gestionale.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 549,
+   "punteggio": 0.4710881022419283,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1109,
+   "punteggio": 0.47081412449747884,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1252,
+   "punteggio": 0.47021654388153,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1739,
+   "punteggio": 0.46720857495725476,
+   "file": "test_shelf_life_accelerata_confezione_MAP_snack.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 660,
+   "punteggio": 0.4664894066624669,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1202,
+   "punteggio": 0.46586960063814603,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 24,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1210,
+   "punteggio": 0.4646250243725822,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 32,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1547,
+   "punteggio": 0.46418986600442297,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 6,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 519,
+   "punteggio": 13.718701362609863,
+   "file": "Fwd_Fwd_Fwd_ATTENZIONE_richiamo_prodotto_concorrente_RASFF.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 386,
+   "punteggio": 12.655193328857422,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 327,
+   "punteggio": 12.438108444213867,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1876,
+   "punteggio": 12.32646656036377,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 156,
+   "punteggio": 11.435419082641602,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1099,
+   "punteggio": 11.302701950073242,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1100,
+   "punteggio": 11.271924018859863,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 621,
+   "punteggio": 11.118931770324707,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1682,
+   "punteggio": 11.087175369262695,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1890,
+   "punteggio": 10.857765197753906,
+   "file": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1322,
+   "punteggio": 9.783219337463379,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1711,
+   "punteggio": 9.739656448364258,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 172,
+   "punteggio": 9.604825019836426,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 248,
+   "punteggio": 9.48608684539795,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1136,
+   "punteggio": 9.427383422851562,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1335,
+   "punteggio": 9.395812034606934,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1534,
+   "punteggio": 9.376105308532715,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 25,
+   "punteggio": 9.214412689208984,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 23,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1860,
+   "punteggio": 9.18425464630127,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 510,
+   "punteggio": 9.11262035369873,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 5,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 248,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.029386529386529386,
+   "rango_denso": 3,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 519,
+   "file": "Fwd_Fwd_Fwd_ATTENZIONE_richiamo_prodotto_concorrente_RASFF.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 655,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 386,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1473,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 327,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 48,
+   "file": "analisi_scostamenti_costo_materie_prime.xlsx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1876,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 156,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 548,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1096,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1099,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 47,
+   "file": "analisi_scostamenti_costo_materie_prime.xlsx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1100,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 621,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1413,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1337,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1682,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 661,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1890,
+   "file": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1261,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1322,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 32,
+   "file": "anagrafica_articoli_export_gestionale.xlsx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1711,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1473,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "rerank": 0.015583858825266361
+  },
+  {
+   "cid": 47,
+   "file": "analisi_scostamenti_costo_materie_prime.xlsx",
+   "rerank": 0.007249923888593912
+  },
+  {
+   "cid": 1096,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "rerank": 0.003984545823186636
+  },
+  {
+   "cid": 655,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "rerank": 0.0017350881826132536
+  },
+  {
+   "cid": 1322,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "rerank": 0.0009264060063287616
+  },
+  {
+   "cid": 48,
+   "file": "analisi_scostamenti_costo_materie_prime.xlsx",
+   "rerank": 0.0007461537607014179
+  },
+  {
+   "cid": 32,
+   "file": "anagrafica_articoli_export_gestionale.xlsx",
+   "rerank": 0.0007004209910519421
+  },
+  {
+   "cid": 1337,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "rerank": 0.0006154208676889539
+  },
+  {
+   "cid": 548,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "rerank": 0.000597373815253377
+  },
+  {
+   "cid": 1413,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "rerank": 0.00045788276474922895
+  },
+  {
+   "cid": 1261,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "rerank": 0.00044323827023617923
+  },
+  {
+   "cid": 1099,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "rerank": 0.00039119229768402874
+  },
+  {
+   "cid": 661,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "rerank": 0.0003768217866308987
+  },
+  {
+   "cid": 1876,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "rerank": 0.00036426904262043536
+  },
+  {
+   "cid": 1682,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "rerank": 0.0002416695060674101
+  },
+  {
+   "cid": 1890,
+   "file": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "rerank": 0.00023663639149162918
+  },
+  {
+   "cid": 1100,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "rerank": 0.00022964416712056845
+  },
+  {
+   "cid": 519,
+   "file": "Fwd_Fwd_Fwd_ATTENZIONE_richiamo_prodotto_concorrente_RASFF.eml",
+   "rerank": 0.00017497225780971348
+  },
+  {
+   "cid": 248,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "rerank": 0.00016174587653949857
+  },
+  {
+   "cid": 156,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "rerank": 0.00010289409692632034
+  },
+  {
+   "cid": 386,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "rerank": 5.618753857561387e-05
+  },
+  {
+   "cid": 1711,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 5.467075607157312e-05
+  },
+  {
+   "cid": 621,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 5.225929635344073e-05
+  },
+  {
+   "cid": 327,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 2.970935747725889e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1473,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "origine": "nativa",
+   "rerank": 0.015583858825266361,
+   "testo": "Quantita': kg 2.940 - peso verificato a destino: SI\nNumero colli: 3 cassoni - Rinfusa: SI\nAnnotazioni: scarto di produzione prodotti da forno; contiene prodotto declassato\nlotti L26130-L1-T2 e L26131 trattenuti in verifica qualita' (quota parte non commestibile,\nimballo rimosso).\n5) PERCORSO: Cologna Veneta (VR) - SP18 - Belfiore (VR). Trasporto sottoposto a normativa ADR: NO\nPartenza dal luogo di produzione: data 14/05/2026 ora 09:40\nFirma del produttore: E. Marchetti          Firma del trasportatore: [FIRMA]\n6) ACCETTAZIONE DEL DESTINATARIO: rifiuto accettato per intero - kg 2.940\nData arrivo: 14/05/2026 ora 11:05 - Firma del destinatario: [FIRMA E TIMBRO]\nTRASCRIZIONE FORMULARIO DI IDENTIFICAZIONE RIFIUTO - FIR n. VFR 0086413/26\nFormulario di identificazione ex art. 193 D.Lgs. 152/2006 - D.M. 59/2023\nNumero: VFR 0086413/26                      Data di emissione: 16/03/2026\n1) PRODUTTORE/DETENTORE\nAURORA FOOD GROUP S.R.L. - Via dell'Industria 27 - 37044 Cologna Veneta (VR)\nC.F. 03984710230 - iscr. RENTRI OP-VR-2025-018342\n2) TRASPORTATORE\nECOVENETA AMBIENTE S.R.L. - Via Levada 18 - 37045 Legnago (VR) - P.IVA 03412870234\nAlbo Gestori Ambientali n. VE/012684 - cat. 5 cl. F"
+  },
+  {
+   "cid": 47,
+   "file": "analisi_scostamenti_costo_materie_prime.xlsx",
+   "origine": "nativa",
+   "rerank": 0.007249923888593912,
+   "testo": "Sale marino kg 0.3087 0.3154 0.3136 0.3152 0.3151 0.309 0.3113 0.3072 0.314 0.3151 0.3152 0.3113\nFilm MAP PP/EVOH kg 4.2492 4.2193 4.2376 4.1862 4.2329 4.2058 4.261 4.2625 4.2403 4.1884 4.1975 4.194\nVaschette PP 1000 pz 39.1165 38.5859 39.0693 38.4632 39.071 38.3242 38.404 39.0794 39.1421 38.8503 38.7309 38.2871\nCartone ondulato pz 0.2844 0.2842 0.2832 0.2846 0.2848 0.2847 0.2831 0.2822 0.2855 0.2892 0.2891 0.2856\nAzoto alimentare m3 1.1932 1.169 1.1738 1.1749 1.1726 1.1917 1.173 1.1833 1.1732 1.1797 1.183 1.1973\nPrezzi medi di acquisto 2026 - €/UM\nfonte: fatture passive - estrazione L. Trentin\n\n\nMateria prima UM gennaio febbraio marzo aprile maggio Media\nFarina tipo 0 W300 kg 0.412 0.4165 0.4211 0.4256 0.4301\nFarina tipo 00 kg 0.398 0.4024 0.4068 0.4111 0.4155\nOlio girasole alto oleico kg 1.279 1.2794 1.4432 1.4261 1.4397\nBurro 82% kg 5.9253 6.014 6.0246 6.0914 5.976\nZucchero kg 0.8307 0.8358 0.8378 0.8412 0.832\nLievito compresso kg 1.5468 1.5655 1.5996 1.5989 1.6051\nSemi misti tostati kg 3.4916 3.5417 3.5489 3.5351 3.4963\nSale marino kg 0.3111 0.3124 0.3136 0.3159 0.3119\nFilm MAP PP/EVOH kg 4.2706 4.3097 4.2495 4.3249 4.3376"
+  },
+  {
+   "cid": 1096,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "origine": "nativa",
+   "rerank": 0.003984545823186636,
+   "testo": "Riparliamone sui volumi veri: se la referenza parte, parliamo di 200-300 kg/mese a regime.\n\nE il MOQ di 250 kg per il primo ordine è un problema: per l'industrializzazione me ne\nservono 60-80 kg, non 250. Trovami una soluzione o parto col campione e basta.\n\nTempi di consegna confermati 15 gg lavorativi da ordine?\n\nAlberto\n\ndott. Alberto Zanchetta\nR&D - Tecnologo Alimentare\nAURORA FOOD GROUP S.r.l.\nVia dell'Industria 27 - 37044 Cologna Veneta (VR)\nTel. 0442 854122 int. 222\nwww.aurorafoodgroup.it\n[cid:image001.png@01DC8A2F.4B117D30]\nLe informazioni contenute in questa e-mail sono riservate e destinate esclusivamente al\ndestinatario. Ai sensi del Reg. UE 2016/679 (GDPR) qualora abbiate ricevuto questo\nmessaggio per errore siete pregati di darne notizia al mittente e di distruggerlo.\nP Rispetta l'ambiente: stampa questa mail solo se necessario.\n\n-----Messaggio originale-----\nDa: Davide Scarpa <d.scarpa@mediterraneaspezie.it>\nInviato: martedì 5 maggio 2026 11:19\nA: Alberto Zanchetta <a.zanchetta@aurorafoodgroup.it>\nOggetto: R: R: paprika dolce affumicata - specifiche e CoA - progetto snack\n\nBuongiorno dott. Zanchetta,"
+  },
+  {
+   "cid": 655,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "origine": "nativa",
+   "rerank": 0.0017350881826132536,
+   "testo": ";;;;;;;;;;;;;;;;;\nTOTALE TOSANO (fatturato budget 2026);;;;;;;;;3.184.000;;;;;;;;somma fatta a mano da L.T. - da riverificare\nAlì S.p.A.;Alìper;AF-SN-0450;Snack salato rustico multicereali 100g ATM;8034123450123;12;1,2100;20;5;0,9196;1,5;0,0290;0,6873;0,2323;25,3%;01/01/2026;31/03/2026;\nAlì S.p.A.;Alìper;AF-SN-0450;Snack salato rustico multicereali 100g ATM;8034123450123;12;1,2100;20;5;0,9196;1,5;0,0290;0,6873;0,2323;25,3%;01/04/2026;30/06/2026;\nAlì S.p.A.;Alìper;AF-SN-0450;Snack salato rustico multicereali 100g ATM;8034123450123;12;1,2100;20;5;0,9196;1,5;0,0290;0,6873;0,2323;25,3%;01-lug-26;30-set-26;\nAlì S.p.A.;Alìper;AF-SN-0450;Snack salato rustico multicereali 100g ATM;8034123450123;12;1,2100;20;5;0,9196;1,5;0,0290;0,6873;0,2323;25,3%;01-ott-26;31-dic-26;\nAlì S.p.A.;Alìper;AF-CR-0212;Cornetto Premium burro 6x50g surg.;8034123452127;8;3,0008;20;5;2,2748;1,5;;1,8586;0,4162;18,3%;01/01/2026;30/06/2026;\nAlì S.p.A.;Alìper;AF-CR-0212;Cornetto Premium burro 6x50g surg.;8034123452127;8;3,0008;20;5;2,2748;1,5;;1,8586;0,4162;18,3%;01/07/2026;31/12/2026;"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4528,
+ "tempi": {
+  "denso": 0.01,
+  "sparso": 0.17,
+  "rerank": 54.73
+ },
+ "id": "Q131",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:34:35",
+ "secondi": 54.92,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 86.14,
+  "token_prompt": 2409,
+  "token_risposta": 130,
+  "testo_grezzo": "Non e' possibile determinare il numero di chili di scarto alimentare prodotto nel primo semestre.\n\nNon sono presenti dati specifici sul numero di chili di scarto alimentare prodotto nel primo semestre.\n\nNon sono presenti dati specifici sul numero di chili di scarto alimentare prodotto nel primo semestre.\n\nNon sono presenti dati specifici sul numero di chili di scarto alimentare prodotto nel primo semestre.\n\nFONTI: file: registro_carico_scarico_rifiuti_estratto_2026.pdf, listino prezzi GDO v2 VECCHIO non usare.csv",
+  "fonti_citate": [
+   "file: registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "listino prezzi GDO v2 VECCHIO non usare.csv"
+  ],
+  "fonti_fuori_contesto": [
+   "file: registro_carico_scarico_rifiuti_estratto_2026.pdf"
+  ],
+  "confidenza": "bassa"
+ }
+}

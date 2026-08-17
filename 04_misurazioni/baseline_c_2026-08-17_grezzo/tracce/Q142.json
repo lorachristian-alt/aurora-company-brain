@@ -1,0 +1,678 @@
+{
+ "domanda": "Da quando vale il prezzo del multicereali che stiamo applicando adesso a Tosano?",
+ "candidati_densi": [
+  {
+   "cid": 673,
+   "punteggio": 0.6728039429889957,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 654,
+   "punteggio": 0.6582238007727175,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 651,
+   "punteggio": 0.6571927079670372,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1418,
+   "punteggio": 0.6454564770948612,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 652,
+   "punteggio": 0.6453211264966644,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 662,
+   "punteggio": 0.6437480734586611,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 671,
+   "punteggio": 0.6411549531570885,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 670,
+   "punteggio": 0.6402681390071447,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 65,
+   "punteggio": 0.631906206245219,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1417,
+   "punteggio": 0.6270054513479684,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 661,
+   "punteggio": 0.6260550336535633,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1415,
+   "punteggio": 0.6259851774533964,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1414,
+   "punteggio": 0.622910112390233,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 681,
+   "punteggio": 0.61981431231884,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 71,
+   "punteggio": 0.6175465878333052,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "idx": 21,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1774,
+   "punteggio": 0.6162695616572031,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 76,
+   "punteggio": 0.612592926861725,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "idx": 26,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1834,
+   "punteggio": 0.6097090326129135,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 53,
+   "punteggio": 0.608390190753024,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 70,
+   "punteggio": 0.6062703258874331,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "idx": 20,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 512,
+   "punteggio": 21.44216537475586,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1366,
+   "punteggio": 18.555814743041992,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 430,
+   "punteggio": 18.36250114440918,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 528,
+   "punteggio": 18.355384826660156,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1775,
+   "punteggio": 17.668588638305664,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1707,
+   "punteggio": 17.41741180419922,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 435,
+   "punteggio": 16.844661712646484,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1110,
+   "punteggio": 16.831937789916992,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1830,
+   "punteggio": 16.57436752319336,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1115,
+   "punteggio": 16.32324981689453,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1107,
+   "punteggio": 16.195571899414062,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1367,
+   "punteggio": 16.085229873657227,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 256,
+   "punteggio": 15.620362281799316,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1459,
+   "punteggio": 15.30891227722168,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 670,
+   "punteggio": 15.24405574798584,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1113,
+   "punteggio": 15.158677101135254,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 651,
+   "punteggio": 15.06403923034668,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1829,
+   "punteggio": 14.94005298614502,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 635,
+   "punteggio": 14.762324333190918,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1548,
+   "punteggio": 14.526155471801758,
+   "file": "reso_pallet_EPAL_conteggio_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 651,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.02886002886002886,
+   "rango_denso": 3,
+   "rango_sparso": 17
+  },
+  {
+   "cid": 670,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.02803921568627451,
+   "rango_denso": 8,
+   "rango_sparso": 15
+  },
+  {
+   "cid": 512,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 673,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 654,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 528,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1418,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 652,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1775,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 662,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1707,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 435,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 671,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 65,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1830,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1115,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1417,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 661,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1107,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1367,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1415,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 670,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "rerank": 0.6727079153060913
+  },
+  {
+   "cid": 651,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "rerank": 0.536599338054657
+  },
+  {
+   "cid": 1417,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "rerank": 0.5050143599510193
+  },
+  {
+   "cid": 662,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "rerank": 0.492430180311203
+  },
+  {
+   "cid": 65,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "rerank": 0.45790234208106995
+  },
+  {
+   "cid": 652,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "rerank": 0.4396735727787018
+  },
+  {
+   "cid": 671,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "rerank": 0.4211384952068329
+  },
+  {
+   "cid": 1418,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "rerank": 0.38881999254226685
+  },
+  {
+   "cid": 1415,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "rerank": 0.3316527307033539
+  },
+  {
+   "cid": 661,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "rerank": 0.13405711948871613
+  },
+  {
+   "cid": 673,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "rerank": 0.11890068650245667
+  },
+  {
+   "cid": 1707,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.09959863871335983
+  },
+  {
+   "cid": 654,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "rerank": 0.08769277483224869
+  },
+  {
+   "cid": 528,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "rerank": 0.012849720194935799
+  },
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.00303839985281229
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.0014718292513862252
+  },
+  {
+   "cid": 1830,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.00028746077441610396
+  },
+  {
+   "cid": 1367,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 8.834157779347152e-05
+  },
+  {
+   "cid": 435,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 6.652181036770344e-05
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 4.472020737011917e-05
+  },
+  {
+   "cid": 1115,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 3.2689888030290604e-05
+  },
+  {
+   "cid": 512,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 3.231875962228514e-05
+  },
+  {
+   "cid": 1107,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 2.8291244234424084e-05
+  },
+  {
+   "cid": 1775,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 1.7981255950871855e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 670,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "origine": "nativa",
+   "rerank": 0.6727079153060913,
+   "testo": "LISTINO CANALE GDO+FRESCO — rev.3 del 12/01/2026 (agg. L.Trentin — NON girare ai clienti, versione interna con costi);;;;;;;;;;;;;;;;;\nCliente;Insegna;Cod_Art;Descrizione;EAN;Pz_cartone;Prezzo_lordo;Sconto_1;Sconto_2;Prezzo_netto;SFA_%;Contributo_promo_€;Costo_industriale;Margine_€;Margine_%;Validità_dal;Validità_al;Note\nTosano Cerea S.p.A.;Tosano;AF-SN-0450;Snack salato rustico multicereali 100g ATM;8034123450123;12;1,25;20;11;0,89;2,0;0,04;0,71;0,18;20,2%;01/01/2026;31/03/2026;PL Bontà di Casa - contratto quadro\nTosano Cerea S.p.A.;Tosano;AF-SN-0450;Snack salato rustico multicereali 100g ATM;8034123450123;12;1,25;20;11;0,89;2,0;0,04;0,71;0,18;20,2%;01/04/2026;30/06/2026;prezzo bloccato fino a fine promo\nTosano Cerea S.p.A.;Tosano;AF-SN-0450;Snack salato rustico multicereali 100g ATM;8034123450123;12;1,25;20;11;0,89;2,0;0,04;0,71;0,18;20,2%;2026-07-01;2026-09-30;\nTosano Cerea S.p.A.;Tosano;AF-SN-0450;Snack salato rustico multicereali 100g ATM;8034123450123;12;1,25;20;11;0,89;2,0;0,04;0,71;0,18;20,2%;01/10/26;31/12/26;"
+  },
+  {
+   "cid": 651,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "origine": "nativa",
+   "rerank": 0.536599338054657,
+   "testo": "ATTENZIONE: revisione 2 - SUPERATA dal 01/03/2026 - tenuta solo per storico (S.B.);;;;;;;;;;;;;;;;;\nLISTINO CANALE GDO+FRESCO — rev.3 del 12/01/2026 (agg. L.Trentin — NON girare ai clienti, versione interna con costi);;;;;;;;;;;;;;;;;\nCliente;Insegna;Cod_Art;Descrizione;EAN;Pz_cartone;Prezzo_lordo;Sconto_1;Sconto_2;Prezzo_netto;SFA_%;Contributo_promo_€;Costo_industriale;Margine_€;Margine_%;Validità_dal;Validità_al;Note\nTosano Cerea S.p.A.;Tosano;AF-SN-0450;Snack salato rustico multicereali 100g ATM;8034123450123;12;1,25;20;11;0,89;2,0;0,04;0,71;0,18;20,2%;01/01/2026;31/03/2026;PL Bontà di Casa - contratto quadro\nTosano Cerea S.p.A.;Tosano;AF-SN-0450;Snack salato rustico multicereali 100g ATM;8034123450123;12;1,2100;20;11;0,8615;2,0;0,0387;0,6873;0,1742;20,2%;01/04/2026;30/06/2026;prezzo bloccato fino a fine promo\nTosano Cerea S.p.A.;Tosano;AF-SN-0450;Snack salato rustico multicereali 100g ATM;8034123450123;12;1,2100;20;11;0,8615;2,0;0,0387;0,6873;0,1742;20,2%;2026-07-01;2026-09-30;\nTosano Cerea S.p.A.;Tosano;AF-SN-0450;Snack salato rustico multicereali 100g ATM;8034123450123;12;1,2100;20;11;0,8615;2,0;0,0387;0,6873;0,1742;20,2%;01/10/26;31/12/26;"
+  },
+  {
+   "cid": 1417,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "origine": "nativa",
+   "rerank": 0.5050143599510193,
+   "testo": "Tosano Cerea SpA;Tosano;Cornetto Premium PL 8x45g surg;AF-CR-0215;1;35;1,64;57,40;2.984,80;6,8;pdv Rovigo\nSUBTOTALE TOSANO AF-CR-0215;;;;15;;;1.248,04;64.898,08;6,8;linea 2 lavora la domenica per questi volumi, costo str. NON in margine std\nTosano Cerea SpA;Tosano;Cornetto Premium burro 6x50g marchio Aurora;AF-CR-0212;12;18;1,92;414,72;21.565,44;24,0;solo pdv grandi\nTosano Cerea SpA;Tosano;Focaccina olio EVO 2x90g ATM;AF-FC-0330;15;26;1,15;448,50;23.322,00;19,2;\nTosano Cerea SpA;Tosano;Snack rustico promo 3+1;AF-SN-0455;19;40;2,05;1.558,00;#DIV/0!;11,0;SOLO settimane promo 19-21, non annualizzare! chiesta listing fee 12.000 da Rossi\n;;;;;;;;;;\nAPERTURE TOSANO 2026 (da inserire a regime da settembre - dati stimati Zampieri, NON nel subtotale sopra);;;;;;;;;;\nTosano Cerea SpA;Tosano;Snack rustico multicereali 100g PL;AF-SN-0450;1;50;0,79;39,50;2.054,00;21,5;pdv Peschiera - apertura giugno\nTosano Cerea SpA;Tosano;Snack rustico multicereali 100g PL;AF-SN-0450;1;45;0,79;35,55;1.848,60;21,5;pdv Curtatone\nTosano Cerea SpA;Tosano;Snack rustico multicereali 100g PL;AF-SN-0450;1;42;0,79;33,18;1.725,36;21,5;pdv Castiglione d/Stiviere"
+  },
+  {
+   "cid": 662,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "origine": "nativa",
+   "rerank": 0.492430180311203,
+   "testo": "Tosano Cerea S.p.A.;Tosano;AF-SN-0450;Snack salato rustico multicereali 100g ATM;8034123450123;12;1,1616;20;10;0,8325;2,0;0,0387;0,6582;0,1742;20,9%;01/07/2025;31/12/2025;PREZZO REV.2 - NON USARE\nTosano Cerea S.p.A.;Tosano;AF-CR-0215;Cornetto Premium PL Tosano 8x45g surg.;8034123452158;10;2,3038;20;6;1,7327;1,5;;1,5875;0,1452;8,4%;01/07/2025;31/12/2025;PREZZO REV.2 - NON USARE (nota: qui il margine era ancora decente)\nTosano Cerea S.p.A.;Tosano;AF-FC-0330;Focaccina olio EVO 2x90g ATM;8034123453308;10;1,5004;20;8;1,1035;2,0;0,0290;0,8712;0,2323;21,1%;01/07/2025;31/12/2025;PREZZO REV.2 - NON USARE\nAlì S.p.A.;Alìper;AF-SN-0450;Snack salato rustico multicereali 100g ATM;8034123450123;12;1,1616;20;5;0,8809;1,5;0,0290;0,6582;0,2226;25,3%;01/07/2025;31/12/2025;rev.2\nFamila Nordest;Famila;AF-CR-0220;Sfogliatina bio ai cereali;8034123452202;10;2,0812;20;2;1,6359;2,0;;1,2197;0,4162;25,4%;01/07/2025;31/12/2025;rev.2\nRossetto Trade S.p.A.;Rossetto;AF-CR-0212;Cornetto Premium burro 6x50g;8034123452127;8;2,9040;20;7;2,1586;1,5;;1,7908;0,3678;17,0%;01/07/2025;31/12/2025;rev.2\n;;;;;;;;;;;;;;;;;\n### condizioni quadro (promemoria commerciale, non toccare);;;;;;;;;;;;;;;;;"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4510,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.18,
+  "rerank": 55.26
+ },
+ "id": "Q142",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:43:01",
+ "secondi": 55.47,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 75.23,
+  "token_prompt": 2544,
+  "token_risposta": 49,
+  "testo_grezzo": "La domanda non contiene i dati necessari per rispondere alla domanda. Non e' ricavabile dai documenti forniti la data di inizio del prezzo del multicereali applicato adesso a Tosano.",
+  "fonti_citate": [],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

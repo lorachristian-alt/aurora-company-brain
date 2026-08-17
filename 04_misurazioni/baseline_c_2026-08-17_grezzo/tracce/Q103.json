@@ -1,0 +1,682 @@
+{
+ "domanda": "Quanti strumenti sono fuori taratura e dove sono?",
+ "candidati_densi": [
+  {
+   "cid": 399,
+   "punteggio": 0.510599349165215,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1135,
+   "punteggio": 0.4922511431754529,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1610,
+   "punteggio": 0.4882901217218012,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1857,
+   "punteggio": 0.4821578220721714,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 738,
+   "punteggio": 0.47151373732683566,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 52,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1534,
+   "punteggio": 0.4685405639808293,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1611,
+   "punteggio": 0.46757445431031774,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 719,
+   "punteggio": 0.46688441803885794,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 33,
+   "origine": "nativa"
+  },
+  {
+   "cid": 411,
+   "punteggio": 0.46553459196163904,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 420,
+   "punteggio": 0.4624570651887708,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 21,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1162,
+   "punteggio": 0.4614638977488955,
+   "file": "manutenzione_fotocopiatrice_contratto_copie.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1652,
+   "punteggio": 0.4597680563694957,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 745,
+   "punteggio": 0.4533170527661384,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 59,
+   "origine": "nativa"
+  },
+  {
+   "cid": 762,
+   "punteggio": 0.4513842009210372,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 76,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1134,
+   "punteggio": 0.4508745303823602,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 802,
+   "punteggio": 0.4496451786992935,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 116,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1654,
+   "punteggio": 0.4487799301362586,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 808,
+   "punteggio": 0.4478362636708097,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 122,
+   "origine": "nativa"
+  },
+  {
+   "cid": 811,
+   "punteggio": 0.4472386469284919,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 125,
+   "origine": "nativa"
+  },
+  {
+   "cid": 729,
+   "punteggio": 0.4466425381556398,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 43,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1138,
+   "punteggio": 15.85825252532959,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 417,
+   "punteggio": 12.612714767456055,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1610,
+   "punteggio": 11.856210708618164,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 350,
+   "punteggio": 11.711833000183105,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1193,
+   "punteggio": 11.282305717468262,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1246,
+   "punteggio": 11.280116081237793,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 418,
+   "punteggio": 10.859786033630371,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1666,
+   "punteggio": 10.774105072021484,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1099,
+   "punteggio": 10.269540786743164,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1223,
+   "punteggio": 10.235921859741211,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1857,
+   "punteggio": 10.156295776367188,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 604,
+   "punteggio": 10.142704963684082,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1523,
+   "punteggio": 9.841241836547852,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 430,
+   "punteggio": 9.776944160461426,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1114,
+   "punteggio": 9.301008224487305,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 420,
+   "punteggio": 9.27099895477295,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 21,
+   "origine": "nativa"
+  },
+  {
+   "cid": 419,
+   "punteggio": 9.145777702331543,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 405,
+   "punteggio": 8.84395694732666,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 300,
+   "punteggio": 8.579654693603516,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1137,
+   "punteggio": 8.513437271118164,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 19,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1610,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.031746031746031744,
+   "rango_denso": 3,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1857,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.029709507042253523,
+   "rango_denso": 4,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 420,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 21,
+   "origine": "nativa",
+   "rrf": 0.027443609022556388,
+   "rango_denso": 10,
+   "rango_sparso": 16
+  },
+  {
+   "cid": 399,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1138,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 20,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 417,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 18,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1135,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 17,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 350,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 738,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 52,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1193,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1246,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1534,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 418,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1611,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 719,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 33,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1666,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 411,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1099,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1223,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1162,
+   "file": "manutenzione_fotocopiatrice_contratto_copie.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 604,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1652,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 745,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 59,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1523,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1857,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.23481868207454681
+  },
+  {
+   "cid": 420,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "rerank": 0.11213509738445282
+  },
+  {
+   "cid": 1138,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.06701301783323288
+  },
+  {
+   "cid": 350,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "rerank": 0.04331327974796295
+  },
+  {
+   "cid": 1523,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.036008987575769424
+  },
+  {
+   "cid": 1610,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.03539322689175606
+  },
+  {
+   "cid": 417,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "rerank": 0.023075714707374573
+  },
+  {
+   "cid": 418,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "rerank": 0.019362349063158035
+  },
+  {
+   "cid": 399,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "rerank": 0.01563037931919098
+  },
+  {
+   "cid": 1193,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.015172908082604408
+  },
+  {
+   "cid": 411,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "rerank": 0.005516539327800274
+  },
+  {
+   "cid": 1135,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.0041972566395998
+  },
+  {
+   "cid": 1246,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.0035280121956020594
+  },
+  {
+   "cid": 1652,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "rerank": 0.003135843202471733
+  },
+  {
+   "cid": 1534,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.0027632901910692453
+  },
+  {
+   "cid": 1611,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.0018882567528635263
+  },
+  {
+   "cid": 1666,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "rerank": 0.0009351242915727198
+  },
+  {
+   "cid": 745,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "rerank": 0.00016424432396888733
+  },
+  {
+   "cid": 719,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "rerank": 0.00016417042934335768
+  },
+  {
+   "cid": 738,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "rerank": 0.00013906550884712487
+  },
+  {
+   "cid": 1223,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "rerank": 9.593403956387192e-05
+  },
+  {
+   "cid": 1162,
+   "file": "manutenzione_fotocopiatrice_contratto_copie.csv",
+   "rerank": 2.977987242047675e-05
+  },
+  {
+   "cid": 1099,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "rerank": 2.1369249225244857e-05
+  },
+  {
+   "cid": 604,
+   "file": "job_description_responsabile_produzione.docx",
+   "rerank": 1.6990088624879718e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1857,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.23481868207454681,
+   "testo": "6. DATI DI INGRESSO - TARATURE, FORNITORI, LABORATORIO\n\n   6.1  Tarature: piano 2026 emesso; 92% strumenti in corso di validita' al 28/02.\n        In scadenza marzo: termometro campione di laboratorio e 2 sonde spillone.\n        Resp. Pozzato, verifica scadenzario mensile documentata.\n\n   6.2  Valutazione fornitori 2025 (vendor rating su qualita'/servizio/documenti):\n        - classe A: F0012 Molino Veneto, F0025, F0029, F0061 Nordgas, F0090 Analytica\n        - classe B: F0021 Latteria Bassanese (consegna a +9,5 gradi respinta il\n          21/01/26), F0044 Flexipack (bobina fuori spessore 10/02/26), F0031\n          Euroglass (rotture da trasporto), F0095\n        - classe C: nessuno.\n        F0018 Oleificio Adriatico: qualita' regolare ma aumento listino +11%;\n        la Direzione da' mandato all'ufficio acquisti di sondare un secondo\n        fornitore di olio alto oleico entro giugno.\n\n   6.3  Laboratorio esterno Analytica Veneta S.r.l. (ACCREDIA n. 0987): contratto\n        rinnovato; piano analitico 2026 approvato (patogeni, shelf life, MOCA).\n        Evento Listeria spp. su tampone ambientale canalina Linea 3 del 24/02"
+  },
+  {
+   "cid": 420,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "origine": "nativa",
+   "rerank": 0.11213509738445282,
+   "testo": "pHmetro portatile - riserva;PH-003;Laboratorio QC - cassetto;0-14 pH;;;;;;;FUORI SERVIZIO;elettrodo secco, da rigenerare o buttare\nAw-metro portatile vecchio;AW-002;R&D - armadio;0,10-0,95 aw;14/06/2024;;CalService Italia S.r.l. (Modena);CS-24-3319;;±0,015 aw;FUORI SERVIZIO;ritirato dall'uso il 20/06/2025, non più tarato. Zanchetta lo voleva tenere per le prove v12 - NO, in R&D si usa AW-001\nKit sali saturi verifica aw;AW-K01;Laboratorio QC;aw 0,328 / 0,753 / 0,973;01/02/2026;01/02/2027;soluzioni certificate Rotronic;ROT-26-118;Conforme;±0,003 aw;IN USO;\nSpessimetro cartone;SP-003;Magazzino - accettazione imballi Rational Pack;0-20 mm div. 0,01 mm;18/03/2026;18/03/2027;CalService Italia S.r.l. (Modena) LAT 087;CS-26-1502;Conforme;±0,02 mm;IN USO;\nTermocamera FLIR;TC-001;Manutenzione;-20/+400 °C;;;;;;;IN USO;strumento di diagnostica quadri elettrici, non usato per prodotto - esente da taratura periodica secondo Dal Maso, confermare con Marchetti\nSonda umidità farina al silo;UM-001;Silos farina Molino Veneto;5-20 %;16/12/2025;16/12/2026;taratura interna vs metodo stufa laboratorio;INT-2025-144;Conforme;±0,3%;IN USO;confronto trimestrale con essiccatore lab"
+  },
+  {
+   "cid": 1138,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "origine": "nativa",
+   "rerank": 0.06701301783323288,
+   "testo": "QA su tempo/temperatura di esposizione\nVerifica: riesame settimanale registrazioni; taratura sonde semestrale; mappatura\n  termica cella CF-02 annuale\nRegistrazione: registro surgelazione L3; tracciato continuo CF-02; MOD-MAG-02 per\n  eventuali movimentazioni di segregazione\n============================================================================\n\nManuale HACCP rev.5 - pag. 31 di 78 - Doc. non controllato se stampato\n\n9. PROGRAMMI DI PREREQUISITI (PRP) E PRP OPERATIVI\n\n9.1 Elenco dei PRP attivi (procedure richiamate, non duplicate qui - vedi All. 2):\nPRP-01 Pulizia e sanificazione (CIP-01, istruzione operativa IO-05; detergenti\n       Chemifood Italia F0052: soda caustica, acido nitrico, sanificante PAA;\n       schede di sicurezza in archivio SDS)\nPRP-02 Disinfestazione e monitoraggio infestanti (ditta esterna, 24 postazioni esca +\n       6 lampade UV, report mensile)\nPRP-03 Manutenzione preventiva impianti e taratura strumenti (piano annuale a cura\n       Dal Maso I.; lubrificanti food grade H1; divieto di deposito di ricambi e\n       attrezzi in area produttiva al di fuori degli interventi - vedi nota (5))"
+  },
+  {
+   "cid": 350,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "origine": "nativa",
+   "rerank": 0.04331327974796295,
+   "testo": "10 19/05/2026 cliente GDO Alì SpA AF-SN-0450 L26130-L1-T2 blocco cautelativo merce in CE.DI. maggiore 1440 aperto\nNon conformità 2026 per causa radice - analisi di Pareto\n\n\n\nCausa radice N. NC % % cumulata Costo € Azione in corso\nRegistrazioni incomplete o non verificate 14 4200 seconda firma di fine turno - NON ancora applicata\nManutenzione rimandata / ricambi non originali 11 21400 ordine ricambi urgenti PKM-450\nErrore umano di linea 9 3100 rifare formazione (rimandata per carichi produttivi)\nMateria prima non conforme 7 5800 vendor rating e audit fornitore Lievital\nPulizia insufficiente / CIP abortito 6 2900 revisione IO-05 e turni di lavaggio\nTaratura strumenti scaduta 4 1200 contratto con ente esterno da rinnovare\nAltro / non determinata 5 900\nTOTALE\n\nle prime due cause sono esattamente le due NC minori dell'audit CSQA di febbraio\nAndamento tamponi ambientali per zona - % conformità\n\n\n\nZona Punto gen feb mar apr mag Media Note\nZona 1 Nastro uscita forno FT-01 100 100 100 97 94\nZona 1 Ganasce saldanti PKM-450 100 97 100 92 83\nZona 1 Scivolo metal detector MD-3200 100 100 97 95 89\nZona 2 Carrelli di trasferimento 97 94 97 92 88\nZona 2 Guarnizioni cella CF-02 100 100 94 89 86"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4635,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.18,
+  "rerank": 53.1
+ },
+ "id": "Q103",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:12:53",
+ "secondi": 53.31,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 64.42,
+  "token_prompt": 1961,
+  "token_risposta": 82,
+  "testo_grezzo": "Non sono riuscito a trovare informazioni sulla quantità di strumenti fuori taratura e il loro ubicazione.\n\nFONTI: verbale_riesame_direzione_SGQ_2026.txt, elenco_attrezzature_taratura_strumenti_2026.csv, cruscotto_KPI_qualita_2026.xlsx\n\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "verbale_riesame_direzione_SGQ_2026.txt",
+   "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "cruscotto_KPI_qualita_2026.xlsx"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

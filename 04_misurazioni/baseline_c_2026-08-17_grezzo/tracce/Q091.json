@@ -1,0 +1,683 @@
+{
+ "domanda": "Quante timbrature sono state forzate perche' mancava l'uscita?",
+ "candidati_densi": [
+  {
+   "cid": 1247,
+   "punteggio": 0.5115025284969288,
+   "file": "Nuova cartella di lavoro.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1870,
+   "punteggio": 0.4677968186857917,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 719,
+   "punteggio": 0.4614685951867986,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 33,
+   "origine": "nativa"
+  },
+  {
+   "cid": 84,
+   "punteggio": 0.45986921208367376,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 722,
+   "punteggio": 0.45119357968304424,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 36,
+   "origine": "nativa"
+  },
+  {
+   "cid": 744,
+   "punteggio": 0.4487612697273837,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 58,
+   "origine": "nativa"
+  },
+  {
+   "cid": 714,
+   "punteggio": 0.4483424289851079,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 28,
+   "origine": "nativa"
+  },
+  {
+   "cid": 745,
+   "punteggio": 0.44796356933330034,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 59,
+   "origine": "nativa"
+  },
+  {
+   "cid": 738,
+   "punteggio": 0.44775578101380614,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 52,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1820,
+   "punteggio": 0.4475434276248266,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 737,
+   "punteggio": 0.446000114518168,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 51,
+   "origine": "nativa"
+  },
+  {
+   "cid": 715,
+   "punteggio": 0.4448179028170023,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 29,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1412,
+   "punteggio": 0.44472630915817846,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 189,
+   "punteggio": 0.44389432941705853,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 805,
+   "punteggio": 0.44262215896045687,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 119,
+   "origine": "nativa"
+  },
+  {
+   "cid": 703,
+   "punteggio": 0.4420014025973362,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 806,
+   "punteggio": 0.4416843155419315,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 120,
+   "origine": "nativa"
+  },
+  {
+   "cid": 700,
+   "punteggio": 0.43964418289128193,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 81,
+   "punteggio": 0.43940477259949495,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 811,
+   "punteggio": 0.43930617667630656,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 125,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1109,
+   "punteggio": 16.47939682006836,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1108,
+   "punteggio": 15.223292350769043,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1247,
+   "punteggio": 11.655135154724121,
+   "file": "Nuova cartella di lavoro.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 219,
+   "punteggio": 11.37733268737793,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 242,
+   "punteggio": 10.358174324035645,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 252,
+   "punteggio": 9.191079139709473,
+   "file": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1707,
+   "punteggio": 9.031023025512695,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1098,
+   "punteggio": 8.94740104675293,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1708,
+   "punteggio": 8.931487083435059,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 289,
+   "punteggio": 8.922762870788574,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1,
+   "punteggio": 8.909870147705078,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 259,
+   "punteggio": 8.900989532470703,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1143,
+   "punteggio": 8.874664306640625,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 25,
+   "origine": "nativa"
+  },
+  {
+   "cid": 430,
+   "punteggio": 8.847799301147461,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1711,
+   "punteggio": 8.78817367553711,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1099,
+   "punteggio": 8.638154983520508,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 505,
+   "punteggio": 8.590117454528809,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1129,
+   "punteggio": 8.573111534118652,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 237,
+   "punteggio": 8.546074867248535,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1244,
+   "punteggio": 8.272644996643066,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 10,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1247,
+   "file": "Nuova cartella di lavoro.xlsx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.032266458495966696,
+   "rango_denso": 1,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1109,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1108,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1870,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 719,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 33,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 84,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 219,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 242,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "idx": 18,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 722,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 36,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 252,
+   "file": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 744,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 58,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 714,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 28,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1707,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 745,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 59,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1098,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 738,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 52,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1708,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 289,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1820,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 737,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 51,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 259,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 715,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 29,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1143,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 25,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1247,
+   "file": "Nuova cartella di lavoro.xlsx",
+   "rerank": 0.005752626806497574
+  },
+  {
+   "cid": 259,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "rerank": 0.0010870803380385041
+  },
+  {
+   "cid": 242,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "rerank": 0.0005036424845457077
+  },
+  {
+   "cid": 1820,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "rerank": 0.00028125321841798723
+  },
+  {
+   "cid": 714,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "rerank": 0.00026396565954200923
+  },
+  {
+   "cid": 738,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "rerank": 0.00026281250757165253
+  },
+  {
+   "cid": 715,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "rerank": 0.0002551199868321419
+  },
+  {
+   "cid": 737,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "rerank": 0.0002532681683078408
+  },
+  {
+   "cid": 745,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "rerank": 0.00023828688426874578
+  },
+  {
+   "cid": 744,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "rerank": 0.00021769339218735695
+  },
+  {
+   "cid": 1870,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "rerank": 0.000170521205291152
+  },
+  {
+   "cid": 1108,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.0001645945740165189
+  },
+  {
+   "cid": 722,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "rerank": 0.0001583809353178367
+  },
+  {
+   "cid": 719,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "rerank": 0.0001458061160519719
+  },
+  {
+   "cid": 84,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "rerank": 5.548146509681828e-05
+  },
+  {
+   "cid": 289,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 5.407076241681352e-05
+  },
+  {
+   "cid": 1109,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 2.9833539883838966e-05
+  },
+  {
+   "cid": 1707,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 2.966156716865953e-05
+  },
+  {
+   "cid": 1098,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "rerank": 2.6041705496027134e-05
+  },
+  {
+   "cid": 1,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "rerank": 2.1020749045419507e-05
+  },
+  {
+   "cid": 1708,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 1.9431185137364082e-05
+  },
+  {
+   "cid": 252,
+   "file": "Conferma_incarico_audit_rinnovo_2026.pdf",
+   "rerank": 1.9224637071602046e-05
+  },
+  {
+   "cid": 219,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "rerank": 1.8364316929364577e-05
+  },
+  {
+   "cid": 1143,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 1.6882760974112898e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1247,
+   "file": "Nuova cartella di lavoro.xlsx",
+   "origine": "nativa",
+   "rerank": 0.005752626806497574,
+   "testo": "prova estrazione ore\n\nchiedere a Federica il file giusto delle timbrature\n\n\n38\n42"
+  },
+  {
+   "cid": 259,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "origine": "nativa",
+   "rerank": 0.0010870803380385041,
+   "testo": ">\n>\n> -----Messaggio originale-----\n> Da: Mario Rossi <m.rossi@tosanocerea.it>\n> Inviato: venerdi 10 aprile 2026 12:18\n> A: Silvia Bertoldi <s.bertoldi@aurorafoodgroup.it>\n> Oggetto: Ordine straordinario promo \"Sottocosto Primavera\" settimane 19-20-21 - conferma richiesta entro 15/04\n>\n>> Ciao Silvia,\n>> come anticipato al telefono vi mando l'ordine per il volantino\n>> \"Sottocosto Primavera\" (uscita nazionale, settimane 19-20-21).\n>> Trovate tutto nei tre ordini allegati (118-119-120), ti riassumo i\n>> punti che NON sono trattabili:\n>> - consegne al CE.DI. di Cerea SOLO il mercoledi mattina della settimana\n>>   precedente l'uscita, slot 6:00-10:00, prenotazione obbligatoria\n>> - shelf life residua minimo 75% alla consegna\n>> - il 3+1 deve avere il collarino promo gia' applicato, non lo mettiamo noi\n>> - penali come da accordo quadro art. 8, che vi chiedo di richiamare\n>>   espressamente nella conferma\n>> Mi serve conferma scritta entro il 15/04 senno' il category chiude il\n>> volantino con un altro fornitore e non voglio.\n>> Poi con calma dobbiamo vederci per il discorso listino 2026/2027 e\n>> l'inserimento continuativo del 3+1, ti chiamo io.\n>> Mario\n>>"
+  },
+  {
+   "cid": 242,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "origine": "nativa",
+   "rerank": 0.0005036424845457077,
+   "testo": "04:00  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   EC\n05:05  Fe ok   NFe ok   inox ok   esp ok   all ok   LF   EC\n\nappunto su post-it giallo attaccato al foglio 10 (grafia Marchetti):\nSara - x favore scanneriz. tutti i fogli da 04/05 a 12/05 e mettili nella cartella\nevidenze NC. servono x risposta a Perbellini (Tosano) entro 48h. contare quante 2^\nfirme mancano PRIMA dell'11/05 e quante dopo. e il foglio di domenica 10 NON si tocca,\nsi trascrive cosi com'e', con la cancellatura. EM"
+  },
+  {
+   "cid": 1820,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "origine": "nativa",
+   "rerank": 0.00028125321841798723,
+   "testo": "5  RIGON Damiano           07.59     17.00    [firma autografa]\n  6  MUNTEANU Vasile         08.00     17.00    [firma autografa]\n  7  OSEI Kwame              08.04     17.00    [firma autografa]\n  8  PERUZZI Loris           07.57     17.00    [firma autografa]\n  9  SINANI Arben            08.00     17.00    [firma autografa]\n 10  BOGDAN Elena            08.01     16.30    [firma autografa]   (uscita anticipata autorizzata - visita medica, da recuperare 30 min)\n 11  EL AMRANI Youssef       08.06     17.00    [firma autografa]\n 12  COSTA Fernanda          07.56     17.00    [firma autografa]\n 13  TREVISAN Matteo         08.00     17.00    [firma autografa]\n 14  STOICA Ana-Maria        08.00     17.00    [firma autografa]\n 15  ZERBATO Gianluca        08.12     17.00    [firma autografa]\n 16  DIALLO Mamadou          08.00     17.00    [firma autografa]\n 17  POZZATO Sara            07.52     17.00    [firma autografa]\n 18  BERTON Luca             08.03     17.00    [firma autografa]\n 19  HASSAN Omar             08.00     17.00    [firma autografa]\n 20  PADOVAN Cristina        07.58     17.00    [firma autografa]\n 21  KAUR Jaspreet           08.00     17.00    [firma autografa]"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 2936,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.21,
+  "rerank": 54.09
+ },
+ "id": "Q091",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:03:21",
+ "secondi": 54.31,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 51.25,
+  "token_prompt": 1428,
+  "token_risposta": 111,
+  "testo_grezzo": "Non e' possibile determinare il numero di timbrature forzate a causa della mancanza di uscita, poiché i passaggi forniti non contengono informazioni su questo argomento.\n\nFONTI: Nuova cartella di lavoro.xlsx, Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml, checklist_metal_detector_manuale_operaio.txt, verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+  "fonti_citate": [
+   "Nuova cartella di lavoro.xlsx",
+   "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "checklist_metal_detector_manuale_operaio.txt",
+   "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

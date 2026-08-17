@@ -1,0 +1,684 @@
+{
+ "domanda": "Quanto risparmiamo all'anno col tunnel nuovo rispetto al TS-01?",
+ "candidati_densi": [
+  {
+   "cid": 173,
+   "punteggio": 0.641867226895414,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1782,
+   "punteggio": 0.6273521946695584,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1810,
+   "punteggio": 0.5946651043615925,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1807,
+   "punteggio": 0.591178385184669,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1221,
+   "punteggio": 0.582310005570631,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 325,
+   "punteggio": 0.581370142709206,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 527,
+   "punteggio": 0.5799253411814096,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1521,
+   "punteggio": 0.5695972924580311,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 327,
+   "punteggio": 0.5578376244287008,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 314,
+   "punteggio": 0.5547294692735595,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 528,
+   "punteggio": 0.5535907567236611,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 313,
+   "punteggio": 0.5521875639650894,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 808,
+   "punteggio": 0.5497680824947062,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 122,
+   "origine": "nativa"
+  },
+  {
+   "cid": 809,
+   "punteggio": 0.5454260846901717,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 123,
+   "origine": "nativa"
+  },
+  {
+   "cid": 746,
+   "punteggio": 0.5435482467150458,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 60,
+   "origine": "nativa"
+  },
+  {
+   "cid": 813,
+   "punteggio": 0.5415046620304247,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 127,
+   "origine": "nativa"
+  },
+  {
+   "cid": 716,
+   "punteggio": 0.5393234697262026,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 30,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1781,
+   "punteggio": 0.5377096626574119,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 767,
+   "punteggio": 0.5375422503749374,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 81,
+   "origine": "nativa"
+  },
+  {
+   "cid": 762,
+   "punteggio": 0.5372863002641078,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 76,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 312,
+   "punteggio": 27.997520446777344,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1517,
+   "punteggio": 24.799556732177734,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 327,
+   "punteggio": 23.844240188598633,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1220,
+   "punteggio": 23.830984115600586,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 325,
+   "punteggio": 22.643556594848633,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 525,
+   "punteggio": 21.484466552734375,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1806,
+   "punteggio": 20.326034545898438,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1807,
+   "punteggio": 20.21925163269043,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 524,
+   "punteggio": 19.60799217224121,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 172,
+   "punteggio": 19.158586502075195,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 314,
+   "punteggio": 19.14656639099121,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1521,
+   "punteggio": 18.948070526123047,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 313,
+   "punteggio": 18.55868148803711,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1215,
+   "punteggio": 18.36215591430664,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1336,
+   "punteggio": 18.212257385253906,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1810,
+   "punteggio": 17.91128158569336,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1782,
+   "punteggio": 17.62771987915039,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 170,
+   "punteggio": 17.421754837036133,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 173,
+   "punteggio": 17.35306739807129,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1841,
+   "punteggio": 16.386871337890625,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 325,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.030536130536130537,
+   "rango_denso": 6,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 327,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.03036576949620428,
+   "rango_denso": 9,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1807,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.030330882352941176,
+   "rango_denso": 4,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.029116045245077504,
+   "rango_denso": 2,
+   "rango_sparso": 17
+  },
+  {
+   "cid": 173,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.029051670471052088,
+   "rango_denso": 1,
+   "rango_sparso": 19
+  },
+  {
+   "cid": 1810,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.029030910609857977,
+   "rango_denso": 3,
+   "rango_sparso": 16
+  },
+  {
+   "cid": 1521,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.028594771241830064,
+   "rango_denso": 8,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 314,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.028370221327967807,
+   "rango_denso": 10,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 313,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.02758751902587519,
+   "rango_denso": 12,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 312,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1517,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1220,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1221,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 525,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 527,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1806,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 524,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 172,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 528,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 808,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 122,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 809,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 123,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1215,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 746,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 60,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": 15,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1336,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": null,
+   "rango_sparso": 15
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 173,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "rerank": 0.9036842584609985
+  },
+  {
+   "cid": 172,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "rerank": 0.5305349826812744
+  },
+  {
+   "cid": 1807,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.3715429902076721
+  },
+  {
+   "cid": 1521,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.31593000888824463
+  },
+  {
+   "cid": 1517,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.24940024316310883
+  },
+  {
+   "cid": 312,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.2388407289981842
+  },
+  {
+   "cid": 1336,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "rerank": 0.23020000755786896
+  },
+  {
+   "cid": 1221,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "rerank": 0.19095531105995178
+  },
+  {
+   "cid": 1806,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.16964423656463623
+  },
+  {
+   "cid": 1220,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "rerank": 0.16427087783813477
+  },
+  {
+   "cid": 1810,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.13064086437225342
+  },
+  {
+   "cid": 527,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "rerank": 0.12440221011638641
+  },
+  {
+   "cid": 524,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "rerank": 0.11095654964447021
+  },
+  {
+   "cid": 808,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "rerank": 0.09842255711555481
+  },
+  {
+   "cid": 746,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "rerank": 0.0880231037735939
+  },
+  {
+   "cid": 327,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.08777163922786713
+  },
+  {
+   "cid": 314,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.08452198654413223
+  },
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0764542818069458
+  },
+  {
+   "cid": 313,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.07499125599861145
+  },
+  {
+   "cid": 525,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "rerank": 0.07162895798683167
+  },
+  {
+   "cid": 809,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "rerank": 0.06864472478628159
+  },
+  {
+   "cid": 325,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.04761720821261406
+  },
+  {
+   "cid": 528,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "rerank": 0.002260165521875024
+  },
+  {
+   "cid": 1215,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "rerank": 0.0008294765721075237
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 173,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "origine": "nativa",
+   "rerank": 0.9036842584609985,
+   "testo": "Valore recupero scarto (a mano);;;12.420,00;;\nRISPARMIO TOTALE ANNUO;;;30.322,00;;\n;;;;;\nSEZIONE E - AMMORTAMENTO E PAYBACK;;;;;\nValore ammortizzabile;413.316,00;;coerente col TOTALE sez. A (il mio, non quello di Fantin);;\nAliquota ammortamento;#RIF!;;era collegata al foglio di Bellotto, rotto il link;;\nAliquota usata nei conti;12,5%;;8 anni, da confermare con Bellotto in sede di bilancio;;\nQuota ammortamento annua;51.664,50;;=B62*B64;;\n;;;;;\nPayback SEMPLICE senza credito imposta;;;;;\nInvestimento;413.316,00;;;;\nBeneficio annuo (risparmi sez. D);30.322,00;;;;\nPayback anni;13,63;;=B68/B69 LUNGHISSIMO ma il tunnel NON si compra per il risparmio;;\n;;;;;\nil TS-01 e' a fine vita: fermata non programmata = linea 3 ferma;;;;;\ncapacita' +250 kg/h serve per la PL Tosano 2027 (AF-CR-0215) se si firma il rinnovo;;;;;\n;;;;;\nSEZIONE F - IPOTESI CREDITO D'IMPOSTA BENI STRUMENTALI 4.0;;;;;\nATTENZIONE: ipotesi di lavoro mia, la parola FINALE e' dello Studio Bellotto (v. sua nota);;;;;\nRequisito;Stato;Note;;;\nBene allegato A L.232/2016;da confermare;tunnel con PLC, sensori, supervisione: Bellotto dice riconducibile;;;"
+  },
+  {
+   "cid": 172,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "origine": "nativa",
+   "rerank": 0.5305349826812744,
+   "testo": "Assistenza;Reggio Emilia, 24h;Germania via importatore;;;\nPredisposizione 4.0;si, nativa;opzionale +9.800;;;\nValutazione Fantin;SCELTA;scartata;verbale riunione 10/03 firmato Fantin;;\nmotivo: col consumo e i tempi consegna il delta prezzo rientra in 2,1 anni;;;;;\n;;;;;\nSEZIONE D - RISPARMIO ENERGETICO ATTESO vs TS-01;;;;;\nParametro;TS-01 (attuale);CR-SP180;Delta;;\nConsumo specifico kWh/kg surgelato;0,148;0,092;-38%;dato targa Criotech, da verificare a collaudo;\nProduzione surgelati prevista 2027 (kg);;1.150.000;;da budget Silvia canale PL;\nkWh/anno;170.200;105.800;-64.400;;\nCosto medio EE EUR/kWh;0,205;0,205;;media contratto Veneta Energia gen-apr 26;\nCosto energia annuo EUR;34.891,00;21.689,00;-13.202,00;;\nManutenzione annua stimata;6.500,00;1.800,00;-4.700,00;TS-01: media riparazioni extra 24-25 (dati miei opex);\nScarto prodotto per surgelazione lenta (stima Guerra);1,8%;0,6%;;valore scarto ~0,9 EUR/kg... conto sotto;\nValore recupero scarto EUR/anno;;;=((0,018-0,006)*1150000*0,9);cella rimasta formula, excel non la calcolava;\nValore recupero scarto (a mano);;;12.420,00;;\nRISPARMIO TOTALE ANNUO;;;30.322,00;;\n;;;;;\nSEZIONE E - AMMORTAMENTO E PAYBACK;;;;;"
+  },
+  {
+   "cid": 1807,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "origine": "nativa",
+   "rerank": 0.3715429902076721,
+   "testo": "crescente difficoltà di reperimento dei ricambi, con due fermi non pianificati nel corso del 2025 per complessive 41 ore;\nconsumi energetici per unità di prodotto superiori di circa il 35% rispetto alle soluzioni attuali, in un contesto di costi energetici crescenti;\nrischio, in caso di fermata prolungata, di mancata consegna sugli ordini a marchio del cliente principale, con le penali contrattuali che ne conseguirebbero.\n\nL'ing. Fantin illustra quindi la soluzione individuata all'esito della comparazione di tre offerte (Criotech Impianti S.r.l., altre due offerte agli atti dell'ufficio tecnico): tunnel di surgelazione a spirale modello CR-SP180 del fornitore Criotech Impianti S.r.l. di Reggio Emilia (codice fornitore F0070), comprensivo di smontaggio del TS-01, installazione, avviamento e collaudo, formazione del personale.\n\n\nCondizioni di pagamento proposte: 30% all'ordine (€ 87.000,00), 60% alla consegna in stabilimento, 10% al collaudo positivo. Consegna prevista: fine luglio 2026, con installazione programmata nella fermata di fine agosto. Garanzia 24 mesi."
+  },
+  {
+   "cid": 1521,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "origine": "nativa",
+   "rerank": 0.31593000888824463,
+   "testo": "feb-26   V26/00988  VENETA EN.  EE  stesso POD           19.882,11   4.374,06   24.256,17\nmar-26   V26/01544  VENETA EN.  EE                    22.104  ,55  4.863,00  26.967,55\ngen-26   V26/00413  VENETA EN.  GAS PDR 0088801244    9.  914,60  2.181,21   12.095,81\nfeb-26   V26/00989  VENETA EN.  GAS                      8.771,03  1.929,63  10.700,66\nmar-26   V26/01545  VENETA EN.  GAS                      7.402,88  1.628,63   9.031,51\napr-26   V26/02101  VENETA EN.  EE                       20.550,37  4.521,08  25.071,45\napr-26   V26/02102  VENETA EN.  GAS                      5.912,40  1.300,73   7.213,13\n\nmedia EE gen-apr: ~21.000 €/mese imponibile -> stima anno 250.000/260.000\nmedia GAS: dipende stagione, stima anno 75.000/85.000\n  nb: il tunnel Criotech quando entra ALZA la bolletta elettrica ma\n  Criotech dichiara -38% di consumo specifico rispetto al TS-01 a piastre\n  (kWh/kg surgelato) - i conti veri nel file CapEx, io qui nn li rifaccio\n\nACQUA acquedotto + pozzo: ~1.850 €/mese medio (il pozzo ha il canone\n  regionale derivazione, 412 €/anno, paga a marzo, PAGATO)\ndepuratore consortile: canone + eccedenze COD: 2025 chiuso a 31.400 €"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4525,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.15,
+  "rerank": 46.78
+ },
+ "id": "Q124",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:29:28",
+ "secondi": 46.95,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 53.75,
+  "token_prompt": 2004,
+  "token_risposta": 76,
+  "testo_grezzo": "Il risparmio totale annuo col tunnel nuovo rispetto al TS-01 è di 30.322,00 €.\n\nFONTI: file: calcolo_CapEx_linea3_bakery_nuova.csv, verbale_CDA_approvazione_investimento_tunnel.docx, report_costi_fissi_OpEx_manutenzioni.txt",
+  "fonti_citate": [
+   "file: calcolo_CapEx_linea3_bakery_nuova.csv",
+   "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "report_costi_fissi_OpEx_manutenzioni.txt"
+  ],
+  "fonti_fuori_contesto": [
+   "file: calcolo_CapEx_linea3_bakery_nuova.csv"
+  ],
+  "confidenza": "bassa"
+ }
+}

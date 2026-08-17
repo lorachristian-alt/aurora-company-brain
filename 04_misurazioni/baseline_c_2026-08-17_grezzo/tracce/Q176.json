@@ -1,0 +1,682 @@
+{
+ "domanda": "Il fermo della confezionatrice del 10 maggio dove ha lasciato traccia nei documenti di reparto?",
+ "candidati_densi": [
+  {
+   "cid": 1462,
+   "punteggio": 0.5094525227694338,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 614,
+   "punteggio": 0.5052980592452595,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 84,
+   "punteggio": 0.4874020014524292,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1091,
+   "punteggio": 0.4828119599560152,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1458,
+   "punteggio": 0.48222679921435435,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1713,
+   "punteggio": 0.47960657081173275,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 188,
+   "punteggio": 0.47341623008558187,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1301,
+   "punteggio": 0.47214890457562225,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1167,
+   "punteggio": 0.47186531072515336,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 434,
+   "punteggio": 0.4648869530710211,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 435,
+   "punteggio": 0.4631717922770417,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 82,
+   "punteggio": 0.46127013926584215,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1198,
+   "punteggio": 0.4597638084337378,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 615,
+   "punteggio": 0.4596696234589833,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 189,
+   "punteggio": 0.4591306832486505,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1111,
+   "punteggio": 0.4588617258839379,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1086,
+   "punteggio": 0.4577563461666505,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 185,
+   "punteggio": 0.4573186963239511,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 242,
+   "punteggio": 0.45574490809609786,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1457,
+   "punteggio": 0.4549676147979895,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 1,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1461,
+   "punteggio": 21.524150848388672,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1116,
+   "punteggio": 20.716005325317383,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1117,
+   "punteggio": 19.761014938354492,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 614,
+   "punteggio": 19.682451248168945,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 431,
+   "punteggio": 19.243776321411133,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 435,
+   "punteggio": 18.69953155517578,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 607,
+   "punteggio": 18.382495880126953,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1774,
+   "punteggio": 18.251224517822266,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1529,
+   "punteggio": 18.244321823120117,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1366,
+   "punteggio": 17.92559242248535,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1462,
+   "punteggio": 17.17436408996582,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 277,
+   "punteggio": 16.675752639770508,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1110,
+   "punteggio": 16.377498626708984,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1113,
+   "punteggio": 16.022472381591797,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 325,
+   "punteggio": 15.961272239685059,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 292,
+   "punteggio": 15.610450744628906,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1515,
+   "punteggio": 15.48542594909668,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1406,
+   "punteggio": 15.438061714172363,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 432,
+   "punteggio": 15.337074279785156,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1301,
+   "punteggio": 15.249975204467773,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 614,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.031754032258064516,
+   "rango_denso": 2,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1462,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.03047794966520434,
+   "rango_denso": 1,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 435,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.029236022193768675,
+   "rango_denso": 11,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1301,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.027205882352941177,
+   "rango_denso": 8,
+   "rango_sparso": 20
+  },
+  {
+   "cid": 1461,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1116,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 84,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1117,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1091,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1458,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1713,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 188,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 607,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1774,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1167,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1529,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 82,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 277,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1198,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 20,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 615,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 614,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.7625266313552856
+  },
+  {
+   "cid": 1301,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "rerank": 0.4518582224845886
+  },
+  {
+   "cid": 1774,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.45113828778266907
+  },
+  {
+   "cid": 1462,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.375978022813797
+  },
+  {
+   "cid": 1091,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.35732266306877136
+  },
+  {
+   "cid": 1529,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.3186716139316559
+  },
+  {
+   "cid": 1167,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "rerank": 0.24770709872245789
+  },
+  {
+   "cid": 188,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "rerank": 0.15670830011367798
+  },
+  {
+   "cid": 1461,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.06989377737045288
+  },
+  {
+   "cid": 1713,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.0564325712621212
+  },
+  {
+   "cid": 435,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.03751417249441147
+  },
+  {
+   "cid": 1458,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.0215228833258152
+  },
+  {
+   "cid": 84,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "rerank": 0.01382299605756998
+  },
+  {
+   "cid": 1116,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.004488601814955473
+  },
+  {
+   "cid": 277,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.004338919650763273
+  },
+  {
+   "cid": 1117,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.004251178354024887
+  },
+  {
+   "cid": 1198,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.0014078638050705194
+  },
+  {
+   "cid": 615,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.000932126073166728
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.0007721588481217623
+  },
+  {
+   "cid": 607,
+   "file": "job_description_responsabile_produzione.docx",
+   "rerank": 0.0005010687164030969
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.00014832051238045096
+  },
+  {
+   "cid": 82,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "rerank": 0.0001432224380550906
+  },
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 9.250877337763086e-05
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 6.959606980672106e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 614,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "origine": "nativa",
+   "rerank": 0.7625266313552856,
+   "testo": "In data 10/05/2026, durante il turno di produzione interessato, la nostra linea di confezionamento ha subito un fermo tecnico di alcune ore per un intervento manutentivo su un componente della confezionatrice, eseguito in emergenza con un ricambio non originale regolarmente registrato secondo le nostre procedure interne. La produzione è ripresa dopo le verifiche di rito.\n\n[Bertoldi G. - TROPPO MORBIDA ANCORA. ma anche troppo precisa. perche gli diciamo del fermo?? loro hanno chiesto del reclamo non della nostra manutenzione. meno scriviamo meglio è, la perbellini queste righe le gira al buyer e rossi ce le ributta sul tavolo al rinnovo listino col -4,5%. levate tutto il paragrafo]\n[Bertoldi S. - papà il paragrafo non si può levare del tutto: se poi si arriva al ritiro e salta fuori che il fermo non l'avevamo menzionato, la fiducia la perdiamo doppia. Lo tengo in una riga, generico. Mediazione.]\n\n2. Azioni immediate adottate\n\nAlla ricezione della segnalazione abbiamo immediatamente:\n\n1. aperto il fascicolo di reclamo REC-2026-011 su modulo MOD-QA-31, con classificazione in classe di massima priorità;"
+  },
+  {
+   "cid": 1301,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "origine": "nativa",
+   "rerank": 0.4518582224845886,
+   "testo": "sab 09/05 Linea 1 T2 AF-SN-0450 ORD-T1110 5780 1250 5 5\nsab 09/05 Linea 2 T1 AF-CR-0215 ORD-T1229 7860 780 7 7\nsab 09/05 Linea 2 T2 AF-CR-0215 ORD-T1301 4340 780 7 7\nsab 09/05 Linea 2 T3 AF-CR-0215 ORD-T1352 5280 780 7 7\nsab 09/05 Linea 3 T1 AF-CR-0212 ORD-T1165 7340 640 4 4\ndom 10/05 Linea 2 T1 AF-CR-0215 ORD-T1462 7760 780 7 6 3a domenica consecutiva - RSU ha protestato\ndom 10/05 Linea 2 T2 AF-CR-0215 ORD-T1151 4400 780 7 4 3a domenica consecutiva - RSU ha protestato\n\ntotale pz settimana\nore macchina totali\n\n(D.Z. a penna) il 10/05 turno 2 linea 1 SALTATO dalle 15 - confezionatrice ferma. Recupero lunedì.\nPiano di produzione Sett 20 - promo Sottocosto Primavera Tosano\nD. Zanella - stampato il venerdì precedente, modificato a mano durante la settimana\n\n\nGiorno Linea Turno Cod. art. Ordine cliente Pz da produrre Tempo ciclo (pz/h) Ore macchina Saturazione % Operai necessari Operai disponibili Scoperto Note\nlun 11/05 Linea 1 T1 AF-SN-0450 ORD-T1477 6620 1250 5 5 recupero produzione persa per fermo PKM-450 del 10/05\nlun 11/05 Linea 1 T2 AF-SN-0450 ORD-T1161 9040 1250 5 5 recupero produzione persa per fermo PKM-450 del 10/05"
+  },
+  {
+   "cid": 1774,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.45113828778266907,
+   "testo": "[00:00:52] PARLANTE_3: il prodotto e il rustico multicereali 100 grammi il codice e AF-SN-0450 acquistato al tosano di bussolengo federica me l'ha girato stamattina e alle 9 e 22 ho aperto la pratica\n[00:01:01] PARLANTE_1: quale lotto\n[00:01:03] PARLANTE_3: il lotto che riporta e L26130 quindi giorno 130 che sarebbe il 10 maggio linea 1 turno\n[00:01:10] PARLANTE_2: turno 2 il pomeriggio\n[00:01:12] PARLANTE_3: turno 2 esatto ho aperto il MOD-QA-31 la gestione reclami e protocollato tutto\n[00:01:18] PARLANTE_1: plastica azzurra\n[00:01:20] PARLANTE_3: azzurra si la signora ha mandato anche due foto dal telefono si vede un frammento di circa un centimetro forse un centimetro e mezzo\n[00:01:29] PARLANTE_1: [incomprensibile]\n[00:01:32] PARLANTE_2: aspetta aspetta perche azzurro a me azzurro dice qualcosa\n[00:01:36] PARLANTE_4: in che senso ti dice qualcosa marco\n[00:01:39] PARLANTE_2: nel senso che il 10 pomeriggio sulla linea 1 abbiamo avuto il fermo della confezionatrice la PKM-450 la valvola dell'azoto che gia perdeva da giorni ivano l'aveva segnalata l'8\n[00:01:52] PARLANTE_1: e quindi"
+  },
+  {
+   "cid": 1462,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "origine": "nativa",
+   "rerank": 0.375978022813797,
+   "testo": ">>>> avvio la rintracciabilita' del lotto. Il lotto L26130-L1-T2 e' del\n>>>> 10/05/2026, Linea 1, turno 2 - lo stesso turno del fermo macchina\n>>>> della confezionatrice, per quello che puo' valere.\n>>>> Resto in attesa di istruzioni sulla gestione del contatto.\n>>>>\n>>>> Cordialmente\n>>>> dott.ssa Elena Marchetti - RSGQ\n>>>> Aurora Food Group S.r.l.\n>>>> cid:image001.png@01DC9A2B.4F1E7C40"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 3747,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.18,
+  "rerank": 45.32
+ },
+ "id": "Q176",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:08:46",
+ "secondi": 45.52,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 84.34,
+  "token_prompt": 1762,
+  "token_risposta": 93,
+  "testo_grezzo": "Non e' possibile determinare dove ha lasciato traccia il fermo della confezionatrice del 10 maggio.\n\nFONTI: lettera_risposta_Tosano_reclamo_BOZZA_v3.docx, trascrizione_riunione_direzione_12_05_2026.txt, RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+  "fonti_citate": [
+   "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "trascrizione_riunione_direzione_12_05_2026.txt",
+   "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

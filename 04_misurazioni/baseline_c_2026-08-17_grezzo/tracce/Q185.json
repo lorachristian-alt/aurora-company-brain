@@ -1,0 +1,681 @@
+{
+ "domanda": "Perche' il metal detector non ha fermato il frammento trovato dalla consumatrice?",
+ "candidati_densi": [
+  {
+   "cid": 1111,
+   "punteggio": 0.5731934524092996,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1167,
+   "punteggio": 0.5492366322601985,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 613,
+   "punteggio": 0.5468022105320114,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1457,
+   "punteggio": 0.5332605832992425,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1777,
+   "punteggio": 0.5295528115786192,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 616,
+   "punteggio": 0.5198377049414528,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1787,
+   "punteggio": 0.5153926999425482,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1714,
+   "punteggio": 0.514402413776026,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1716,
+   "punteggio": 0.4982649917028218,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1795,
+   "punteggio": 0.4971036434712366,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 22,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1707,
+   "punteggio": 0.4872480961372907,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1412,
+   "punteggio": 0.4855090287967962,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1709,
+   "punteggio": 0.48497564643826224,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1539,
+   "punteggio": 0.48321967906573826,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1165,
+   "punteggio": 0.4825481282347572,
+   "file": "MOD-QA-07_10-05-26_L1_T2_scansione.jpg",
+   "idx": 0,
+   "origine": "ocr"
+  },
+  {
+   "cid": 1780,
+   "punteggio": 0.4815108103625135,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1712,
+   "punteggio": 0.4811729471320957,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1715,
+   "punteggio": 0.4809936522946727,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1796,
+   "punteggio": 0.47959000591852297,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 23,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1713,
+   "punteggio": 0.4789654803876459,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 7,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1226,
+   "punteggio": 21.567228317260742,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1773,
+   "punteggio": 21.39733123779297,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1714,
+   "punteggio": 19.762197494506836,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1457,
+   "punteggio": 19.098180770874023,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1111,
+   "punteggio": 18.47096824645996,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 509,
+   "punteggio": 18.198631286621094,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 615,
+   "punteggio": 18.12415885925293,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1709,
+   "punteggio": 16.905067443847656,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1461,
+   "punteggio": 16.4991512298584,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 613,
+   "punteggio": 16.065717697143555,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1341,
+   "punteggio": 15.212038040161133,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1796,
+   "punteggio": 15.022550582885742,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 23,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1710,
+   "punteggio": 14.977914810180664,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1365,
+   "punteggio": 14.826192855834961,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1536,
+   "punteggio": 14.749913215637207,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1777,
+   "punteggio": 13.926624298095703,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1780,
+   "punteggio": 13.866155624389648,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1713,
+   "punteggio": 13.66031265258789,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1516,
+   "punteggio": 12.937698364257812,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 436,
+   "punteggio": 12.729544639587402,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 8,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1111,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.03177805800756621,
+   "rango_denso": 1,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1457,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.03125,
+   "rango_denso": 4,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1714,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.03057889822595705,
+   "rango_denso": 8,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 613,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.030158730158730156,
+   "rango_denso": 3,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1777,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.02854251012145749,
+   "rango_denso": 5,
+   "rango_sparso": 16
+  },
+  {
+   "cid": 1709,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.028404512489927477,
+   "rango_denso": 13,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1796,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 23,
+   "origine": "nativa",
+   "rrf": 0.026547116736990152,
+   "rango_denso": 19,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1780,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.026144907723855092,
+   "rango_denso": 16,
+   "rango_sparso": 17
+  },
+  {
+   "cid": 1713,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.02532051282051282,
+   "rango_denso": 20,
+   "rango_sparso": 18
+  },
+  {
+   "cid": 1226,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1167,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1773,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 509,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 616,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 615,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1787,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1461,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1716,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1795,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 22,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1341,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1707,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1412,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1710,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1365,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 613,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.5595540404319763
+  },
+  {
+   "cid": 1773,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.20457692444324493
+  },
+  {
+   "cid": 615,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.1508157104253769
+  },
+  {
+   "cid": 1457,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.140488862991333
+  },
+  {
+   "cid": 1167,
+   "file": "MOD-QA-31_reclamo_REC-2026-011.pdf",
+   "rerank": 0.08675779402256012
+  },
+  {
+   "cid": 1111,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.059743475168943405
+  },
+  {
+   "cid": 1714,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.04822791740298271
+  },
+  {
+   "cid": 1710,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.047580502927303314
+  },
+  {
+   "cid": 1713,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.04296201840043068
+  },
+  {
+   "cid": 1780,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.036781635135412216
+  },
+  {
+   "cid": 1777,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0314706489443779
+  },
+  {
+   "cid": 1709,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.023053551092743874
+  },
+  {
+   "cid": 1461,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.01746237836778164
+  },
+  {
+   "cid": 616,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.013241101056337357
+  },
+  {
+   "cid": 509,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 0.0027639581821858883
+  },
+  {
+   "cid": 1365,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.002196399262174964
+  },
+  {
+   "cid": 1795,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0018840356497094035
+  },
+  {
+   "cid": 1341,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "rerank": 0.0017443200340494514
+  },
+  {
+   "cid": 1796,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0013469643890857697
+  },
+  {
+   "cid": 1412,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.0009970559040084481
+  },
+  {
+   "cid": 1716,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.00044143106788396835
+  },
+  {
+   "cid": 1707,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.0003013678942807019
+  },
+  {
+   "cid": 1787,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0001719308493193239
+  },
+  {
+   "cid": 1226,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 6.122735067037866e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 613,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "origine": "nativa",
+   "rerank": 0.5595540404319763,
+   "testo": "1. Ricostruzione dei fatti\n\nLa segnalazione è pervenuta alla scrivente in data 12/05/2026 tramite il form del nostro sito internet. La consumatrice riferisce il rinvenimento di un frammento di plastica dura di colore azzurro corpo estraneo di natura plastica all'interno del prodotto. Il frammento è compatibile per colore e consistenza con una guarnizione utilizzata sulla nostra linea di confezionamento.\n\n[avv. Faccioli - la frase sulla compatibilità VA TOLTA. Finché non c'è un'analisi di laboratorio sul frammento, ogni affermazione di compatibilità è un'ammissione resa per iscritto alla controparte. Scrivere \"di natura da accertare\".]\n[Marchetti E. - \"da accertare\" fino a un certo punto: il campione lo ritiriamo lunedì e la guarnizione azzurra non originale montata sulla PKM-450 il 10/05 è nel MOD-PR-04. Quando Analytica farà l'identificazione, il cerchio si chiude. Scriviamo \"in corso di accertamento analitico\" che almeno è vero.]"
+  },
+  {
+   "cid": 1773,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.20457692444324493,
+   "testo": "trascrizione automatica - riunione direzione 13 05 2026 sala riunioni primo piano\nfile audio: REC_20260513_1732.m4a\ndurata 00:21:56\nnota: trascrizione generata automaticamente, parlanti non verificati\n\n[00:00:03] PARLANTE_1: ok siamo tutti registro perche poi federica deve fare il verbale\n[00:00:08] PARLANTE_2: si ma spegni quando parliamo di\n[00:00:10] PARLANTE_1: no registro tutto basta\n[00:00:14] PARLANTE_3: [rumore di sedia]\n[00:00:17] PARLANTE_1: allora il punto e uno solo oggi il reclamo poi se avanza tempo la cassa e il tunnel di crio tec\n[00:00:24] PARLANTE_2: e gli straordinari giancarlo c'e anche la lettera della rsu\n[00:00:27] PARLANTE_1: si si anche quella dopo\n[00:00:31] PARLANTE_3: allora se posso riassumo io la situazione del reclamo\n[00:00:34] PARLANTE_1: vai elena\n[00:00:37] PARLANTE_3: ieri sera alle 18 e 23 e arrivato dal form del sito un reclamo di una consumatrice una signora grigolon di bussolengo che dichiara di aver trovato un frammento di plastica dura di colore azzurro all'interno di uno snack"
+  },
+  {
+   "cid": 615,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "origine": "nativa",
+   "rerank": 0.1508157104253769,
+   "testo": "Alla ricezione della segnalazione abbiamo immediatamente:\n\n1. aperto il fascicolo di reclamo REC-2026-011 su modulo MOD-QA-31, con classificazione in classe di massima priorità;\n2. bloccato in via cautelativa le giacenze residue dei lotti L26130-L1-T2 e L26131 presso il nostro magazzino;\n3. avviato il riesame completo delle registrazioni di produzione e di controllo dei lotti interessati (controlli metal detector su modulo MOD-QA-07 rev.5, registrazioni di processo, registri di sanificazione);\n4. richiesto alla consumatrice la messa a disposizione del campione, il cui ritiro è programmato nei prossimi giorni, ai fini dell'identificazione analitica del corpo estraneo presso laboratorio terzo accreditato (Analytica Veneta S.r.l., ACCREDIA n. 0987);\n5. informato la direzione aziendale e il team HACCP.\n\n3. Esiti delle verifiche ad oggi disponibili"
+  },
+  {
+   "cid": 1457,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "origine": "nativa",
+   "rerank": 0.140488862991333,
+   "testo": "2) Ho aperto il reclamo n. REC-2026-011 su MOD-QA-31 (la scheda e' in compilazione agli atti, come la foto caricata dal form dalla signora). Il frammento e' plastica rigida di colore azzurro, dimensione stimata dalla foto 7-9 mm. NON metallica: il metal detector MD-3200 non puo' rilevarla, quindi il CCP3 NON e' in causa, e' tutto a monte.\n\n3) Blocco cautelativo: ho messo in stato BLOCCATO a magazzino i lotti L26130-L1-T2 e L26131-L1-T2 di AF-SN-0450. Nicola e' avvisato, movimentazioni solo con mia firma su MOD-MAG-02.\n\n4) Ivano: \"guarnision del carel\" non e' una risposta che posso mettere in una relazione per Tosano. Mi servono OGGI: marca/tipo della guarnizione montata il 10/05 sulla PKM-450, colore, materiale, se ne manca un pezzo, e dove era custodito il ricambio. Ti ricordo che la custodia dei ricambi in area produttiva era gia' oggetto di rilievo in sede di audit CSQA di febbraio.\n\n5) Sara: recupera il tracciato del datalogger PT-104 del 10/05 turno 2 e il MOD-QA-12 dello stesso turno. Voglio vederli affiancati prima di scrivere qualsiasi cosa all'esterno."
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 3911,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.19,
+  "rerank": 40.47
+ },
+ "id": "Q185",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:15:39",
+ "secondi": 40.67,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 59.32,
+  "token_prompt": 1626,
+  "token_risposta": 110,
+  "testo_grezzo": "Il metal detector non ha fermato il frammento trovato dalla consumatrice perché il frammento è plastica rigida di colore azzurro e non metallica, quindi il CCP3 (Controllo della Contaminazione Plastica) non è in causa.\n\nFONTI: RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml, lettera_risposta_Tosano_reclamo_BOZZA_v3.docx\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

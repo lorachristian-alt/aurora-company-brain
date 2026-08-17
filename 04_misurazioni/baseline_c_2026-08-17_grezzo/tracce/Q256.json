@@ -1,0 +1,684 @@
+{
+ "domanda": "Qual e' la ricetta completa del Cornetto Premium AF-CR-0212?",
+ "candidati_densi": [
+  {
+   "cid": 1866,
+   "punteggio": 0.6877366168278194,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1339,
+   "punteggio": 0.6876702495592227,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 223,
+   "punteggio": 0.6767670449937135,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 565,
+   "punteggio": 0.6530214978724238,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 36,
+   "punteggio": 0.6529865042717187,
+   "file": "anagrafica_articoli_export_gestionale.xlsx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 557,
+   "punteggio": 0.6522942344794169,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 564,
+   "punteggio": 0.6502728605013951,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 566,
+   "punteggio": 0.6392382014681207,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 676,
+   "punteggio": 0.6318444824075384,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 659,
+   "punteggio": 0.629076662863217,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 556,
+   "punteggio": 0.6250231707351417,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 679,
+   "punteggio": 0.6194757552284764,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1125,
+   "punteggio": 0.615472906368097,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1251,
+   "punteggio": 0.6151632643822688,
+   "file": "Ordine_Tosano_2026_PRM_118_119_120.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1417,
+   "punteggio": 0.6148236715606126,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 680,
+   "punteggio": 0.6141560579673858,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 258,
+   "punteggio": 0.6099758029222658,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 563,
+   "punteggio": 0.6082442235410768,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 54,
+   "punteggio": 0.6020167562710743,
+   "file": "analisi_sell_out_Tosano_marzo_aprile2026.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1416,
+   "punteggio": 0.5904818550982525,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 3,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1866,
+   "punteggio": 31.973270416259766,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 564,
+   "punteggio": 29.875951766967773,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1125,
+   "punteggio": 28.33625030517578,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 223,
+   "punteggio": 26.66606903076172,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 563,
+   "punteggio": 25.99471092224121,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1339,
+   "punteggio": 24.77267074584961,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1583,
+   "punteggio": 24.687179565429688,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1338,
+   "punteggio": 24.27318572998047,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 565,
+   "punteggio": 24.16575050354004,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1641,
+   "punteggio": 24.10225486755371,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 679,
+   "punteggio": 24.008914947509766,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1420,
+   "punteggio": 23.989749908447266,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1569,
+   "punteggio": 23.859106063842773,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1573,
+   "punteggio": 23.382333755493164,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 222,
+   "punteggio": 23.287864685058594,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1578,
+   "punteggio": 23.24843406677246,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 43,
+   "punteggio": 22.883434295654297,
+   "file": "analisi_marginalita_per_referenza_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1565,
+   "punteggio": 22.84367561340332,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 658,
+   "punteggio": 22.80299949645996,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 677,
+   "punteggio": 22.795320510864258,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 7,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1866,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.03278688524590164,
+   "rango_denso": 1,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 223,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.03149801587301587,
+   "rango_denso": 3,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1339,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.03128054740957967,
+   "rango_denso": 2,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 564,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 18,
+   "origine": "nativa",
+   "rrf": 0.031054405392392875,
+   "rango_denso": 7,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 565,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.030117753623188408,
+   "rango_denso": 4,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1125,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.029571646010002173,
+   "rango_denso": 13,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 563,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 17,
+   "origine": "nativa",
+   "rrf": 0.028205128205128206,
+   "rango_denso": 18,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 679,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.02797339593114241,
+   "rango_denso": 12,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 36,
+   "file": "anagrafica_articoli_export_gestionale.xlsx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 557,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1583,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 566,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 20,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1338,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 676,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 659,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1641,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 556,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1420,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1569,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1251,
+   "file": "Ordine_Tosano_2026_PRM_118_119_120.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1573,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 222,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": null,
+   "rango_sparso": 15
+  },
+  {
+   "cid": 1417,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": 15,
+   "rango_sparso": null
+  },
+  {
+   "cid": 680,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.013157894736842105,
+   "rango_denso": 16,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1866,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "rerank": 0.8899134397506714
+  },
+  {
+   "cid": 1125,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.5483213067054749
+  },
+  {
+   "cid": 1569,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "rerank": 0.4799301028251648
+  },
+  {
+   "cid": 1338,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "rerank": 0.45806941390037537
+  },
+  {
+   "cid": 676,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "rerank": 0.44796496629714966
+  },
+  {
+   "cid": 1641,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "rerank": 0.43557044863700867
+  },
+  {
+   "cid": 565,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "rerank": 0.39001888036727905
+  },
+  {
+   "cid": 1339,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "rerank": 0.3879814147949219
+  },
+  {
+   "cid": 564,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "rerank": 0.35774505138397217
+  },
+  {
+   "cid": 556,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "rerank": 0.35710275173187256
+  },
+  {
+   "cid": 223,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "rerank": 0.3431871831417084
+  },
+  {
+   "cid": 679,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "rerank": 0.3389834463596344
+  },
+  {
+   "cid": 222,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "rerank": 0.329038143157959
+  },
+  {
+   "cid": 563,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "rerank": 0.326494425535202
+  },
+  {
+   "cid": 680,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "rerank": 0.32587793469429016
+  },
+  {
+   "cid": 1420,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "rerank": 0.3148462474346161
+  },
+  {
+   "cid": 557,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "rerank": 0.3055044114589691
+  },
+  {
+   "cid": 1583,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "rerank": 0.30336645245552063
+  },
+  {
+   "cid": 1417,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "rerank": 0.2909802198410034
+  },
+  {
+   "cid": 1573,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "rerank": 0.25348636507987976
+  },
+  {
+   "cid": 659,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "rerank": 0.23554079234600067
+  },
+  {
+   "cid": 566,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "rerank": 0.20807379484176636
+  },
+  {
+   "cid": 36,
+   "file": "anagrafica_articoli_export_gestionale.xlsx",
+   "rerank": 0.13270597159862518
+  },
+  {
+   "cid": 1251,
+   "file": "Ordine_Tosano_2026_PRM_118_119_120.pdf",
+   "rerank": 0.04928220063447952
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1866,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "origine": "nativa",
+   "rerank": 0.8899134397506714,
+   "testo": "VERBALI PROVE DI SCALE-UP — CORNETTO PREMIUM\nrif. prodotti: AF-CR-0212 (Cornetto Premium burro 6x50 g surgelato, marchio Aurora)\n               AF-CR-0215 (Cornetto Premium PL Tosano 8x45 g surgelato, \"Bonta' di Casa\")\nobiettivo: trasferire la ricetta pilota (planetaria 5 kg) su impastatrice\nindustriale IMP-300 (300 kg) — Linea 2 — mantenendo qualita' sfoglia e peso pezzo\ntarget peso pezzo crudo AF-CR-0215: 45 g +/- 2 g (capitolato Tosano)\ntarget peso pezzo crudo AF-CR-0212: 50 g +/- 2 g\nredige: dott. A. Zanchetta (R&D) — verbali approvati da ing. M. Fantin\n\nfile unico, aggiornato dopo ogni prova. le decisioni stanno in fondo a ogni verbale.\n\n##########################################################################\nPROVA 1 — giovedi' 05/03/2026 — Linea 2 — ore 06:00-13:30\n##########################################################################\n\nPresenti: Zanchetta (R&D), Meneghello (R&D tirocinante), Zanella (resp. produzione),\nBen Salah (capoturno L2), Dal Maso (officina, solo avviamento), Pozzato (QC, campioni)\n\nBatch: 180 kg farina — impasto teorico ~306 kg\nFarina 0 W300 lotto F0012/26-081 (alveogramma W=305 P/L=0,55, conforme)"
+  },
+  {
+   "cid": 1125,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "origine": "nativa",
+   "rerank": 0.5483213067054749,
+   "testo": "AF-SN-0455 formato promo 3+1; AF-FC-0330 Focaccina olio EVO 2x90 g.\nCaratteristiche: prodotto da forno cotto, farcito/condito, confezionato in flow-pack in\natmosfera protettiva (miscela N2/CO2 - E941/E290, fornitore Nordgas S.p.A.), aw 0,30-0,40 (prodotto); farcitura in massa aw 0,90-0,94,\npH 5,4-5,9, shelf life 45 gg a T ambiente ≤ 25 °C. Consumo diretto senza ulteriore\ntrattamento (ready to eat).\nDestinazione: consumatore generico via GDO. Non destinato specificatamente a lattanti o\nsoggetti allergici (per allergeni vedi par. 9 e All. 12 - matrice allergeni).\n\nFamiglia B - Croissanteria surgelata (Linea 2)\nReferenze rappresentative: AF-CR-0212 Cornetto Premium burro 6x50 g; AF-CR-0215 Cornetto\nPremium PL 8x45 g; AF-CR-0220 Sfogliatina bio ai cereali (cert. ICEA IT BIO 006).\nProdotto crudo lievitato o semicotto, surgelato, TMC 12 mesi a -18 °C. Destinato a\ncottura completa da parte del consumatore o del punto vendita (not ready to eat).\n\nFamiglia C - Prodotti da forno surgelati (Linea 3)\nProdotti cotti surgelati, TMC 12 mesi a -18 °C, cella CF-02.\n\n5.2 Il dettaglio composizionale di ciascuna referenza è riportato nelle schede tecniche"
+  },
+  {
+   "cid": 1569,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "origine": "nativa",
+   "rerank": 0.4799301028251648,
+   "testo": "06/05/2026;09:45;Luca;Benetti;Benetti Food Service;IT;Padova;Commerciale;l.benetti@benettifood.it;049 8712245;Ho.Re.Ca;AF-CR-0212;cornetto per hotel;1-2 pallet/mese;IT;Media;20/05/2026;Paolo Zampieri;già cliente di Alì per altre referenze, ci conosce di nome\n06/05/2026;10:00;Sophie;Lefebvre;Boulangeries Réunies;FR;Paris;Resp. sourcing;s.lefebvre@boulangeries-reunies.fr;+33 1 42 68 90 11;GDO;AF-CR-0220;sfogliatina bio;4 pallet/mese;FR/EN;Alta;15/05/2026;Silvia Bertoldi;solo bio, chiede cert ICEA e % ingredienti bio. Mercato francese bio in ripresa dice lei\n06/05/2026;10:30;PETER;VAN DIJK;Bakkerij van Dijk;NL;Utrecht;Sales director;p.vandijk@vandijk.nl;+31 302914456;GDO;AF-CR-0212;cornetto premium burro;6 pallet mese;EN;Alta;15/05/2026;Paolo Zampieri;passato allo stand di pomeriggio, molto interessato, vuole campioni. Mi pare nuovo contatto, azienda olandese\n06/05/2026;10:50;Fatima;Al-Zahra;Emirates Fine Foods LLC;AE;Abu Dhabi;Procurement;f.alzahra@emiratesfinefoods.ae;+971 2 4456712;Distributore;AF-CR-0212;croissant surgelato;;EN;Media;22/05/2026;Silvia Bertoldi;ask for halal certification. Anche shelf life e scheda tecnica in inglese"
+  },
+  {
+   "cid": 1338,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "origine": "nativa",
+   "rerank": 0.45806941390037537,
+   "testo": "(senza titolo)\n\nCAPACITA' PRODUTTIVA\n• LINEA 1 (snack ATM): fino a 4.200 pz/h\n• LINEA 2 (croissanteria surgelata): 18.000 pz/turno\n• LINEA 3 (surgelazione): 950 kg/h in continuo\n• Lavoro su 2 turni, terzo turno attivabile in alta stagione\n• Flessibilità su lotti minimi:  da 15.000 pz per la private label\n• Shelf life snack ATM: 60 gg - croissanteria surgelata: 12 mesi\n[Note relatore: NON promettere il 3° turno fisso, verificare con Fantin e Zanella prima]\n(senza titolo)\n\nLE NOSTRE REFERENZE - SNACK E FORNO ATM\n• AF-SN-0450 - Snack salato rustico multicereali 100 g - EAN 8034123450123\n• AF-SN-0455 - Snack rustico 100 g formato promo 3+1 - EAN 8034123454558\n• AF-FC-0330 - Focaccina olio EVO 2x90 g - EAN 8034123453308\n• Novità in svilupo: snack paprika e semi (AF-SN-0470, lancio previsto autunno 2026)\n<immagine: still life referenze su tagliere>\n(senza titolo)\n\nLE NOSTRE REFERENZE - CROISSANTERIA SURGELATA\n• AF-CR-0212 - Cornetto Premium burro 6x50 g - EAN 8034123452127 - marchio Aurora\n• AF-CR-0215 - Cornetto Premium PL 8x45 g - EAN 8034123452158\n• AF-CR-0220 - Sfogliatina bio ai cereali - EAN 8034123452202 - linea bio ICEA"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4594,
+ "tempi": {
+  "denso": 0.04,
+  "sparso": 0.18,
+  "rerank": 69.35
+ },
+ "id": "Q256",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T18:10:22",
+ "secondi": 69.58,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 56.18,
+  "token_prompt": 2063,
+  "token_risposta": 90,
+  "testo_grezzo": "Non e' possibile determinare la ricetta completa del Cornetto Premium AF-CR-0212 dai documenti forniti.\n\nFONTI: verbali_scale_up_industriale_cornetto_premium.txt, manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt, presentazione_commerciale_Aurora_GDO_2026.pptx\n\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "verbali_scale_up_industriale_cornetto_premium.txt",
+   "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "presentazione_commerciale_Aurora_GDO_2026.pptx"
+  ],
+  "fonti_fuori_contesto": [
+   "verbali_scale_up_industriale_cornetto_premium.txt"
+  ],
+  "confidenza": "bassa"
+ }
+}

@@ -1,0 +1,681 @@
+{
+ "domanda": "Quanto costera' il nuovo stabilimento 'Aurora Vega'?",
+ "candidati_densi": [
+  {
+   "cid": 1108,
+   "punteggio": 0.5674120843478397,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1109,
+   "punteggio": 0.5294477230595607,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1107,
+   "punteggio": 0.5204490071067733,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 151,
+   "punteggio": 0.5158081322300941,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1264,
+   "punteggio": 0.5135198909230141,
+   "file": "organigramma_aziendale_aggiornato_marzo26.pptx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1342,
+   "punteggio": 0.5088619404197874,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1804,
+   "punteggio": 0.5060415210505222,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 333,
+   "punteggio": 0.5053034724315276,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 169,
+   "punteggio": 0.5018765171891689,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 148,
+   "punteggio": 0.49716442075757183,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 98,
+   "punteggio": 0.4902056407103226,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 607,
+   "punteggio": 0.4891163418934367,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1096,
+   "punteggio": 0.4840721219264503,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1336,
+   "punteggio": 0.48345834269544496,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1421,
+   "punteggio": 0.48312001319855546,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 165,
+   "punteggio": 0.48260870141185164,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1730,
+   "punteggio": 0.47901580354745454,
+   "file": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1802,
+   "punteggio": 0.47836060402379277,
+   "file": "verbale_assemblea_condominio_capannone.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 147,
+   "punteggio": 0.4783250307579207,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 143,
+   "punteggio": 0.4777077656524597,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 607,
+   "punteggio": 18.290668487548828,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1220,
+   "punteggio": 16.613426208496094,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1107,
+   "punteggio": 14.775246620178223,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1342,
+   "punteggio": 14.5498628616333,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 151,
+   "punteggio": 14.541420936584473,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 312,
+   "punteggio": 11.296845436096191,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 248,
+   "punteggio": 11.118558883666992,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1738,
+   "punteggio": 10.909625053405762,
+   "file": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1364,
+   "punteggio": 10.580789566040039,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1460,
+   "punteggio": 9.895416259765625,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 329,
+   "punteggio": 9.848708152770996,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 155,
+   "punteggio": 9.770679473876953,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 333,
+   "punteggio": 9.493310928344727,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1806,
+   "punteggio": 9.285921096801758,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 609,
+   "punteggio": 9.219409942626953,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 245,
+   "punteggio": 9.210229873657227,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1336,
+   "punteggio": 9.056737899780273,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 295,
+   "punteggio": 8.876775741577148,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1108,
+   "punteggio": 8.834715843200684,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 332,
+   "punteggio": 8.654141426086426,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 1,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1107,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.031746031746031744,
+   "rango_denso": 3,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 151,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.031009615384615385,
+   "rango_denso": 4,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1342,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.030776515151515152,
+   "rango_denso": 6,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 607,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.03028233151183971,
+   "rango_denso": 12,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1108,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.029051670471052088,
+   "rango_denso": 1,
+   "rango_sparso": 19
+  },
+  {
+   "cid": 333,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.028404512489927477,
+   "rango_denso": 8,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1336,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.026500526500526502,
+   "rango_denso": 14,
+   "rango_sparso": 17
+  },
+  {
+   "cid": 1109,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1220,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1264,
+   "file": "organigramma_aziendale_aggiornato_marzo26.pptx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 312,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 248,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1804,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1738,
+   "file": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 169,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1364,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 148,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1460,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 98,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 329,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 18,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 155,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1096,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1806,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 609,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": null,
+   "rango_sparso": 15
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 151,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "rerank": 0.5318654179573059
+  },
+  {
+   "cid": 1336,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "rerank": 0.24141313135623932
+  },
+  {
+   "cid": 1107,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.13719575107097626
+  },
+  {
+   "cid": 1108,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.13134320080280304
+  },
+  {
+   "cid": 1220,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "rerank": 0.09933425486087799
+  },
+  {
+   "cid": 607,
+   "file": "job_description_responsabile_produzione.docx",
+   "rerank": 0.08991268277168274
+  },
+  {
+   "cid": 248,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "rerank": 0.0497448593378067
+  },
+  {
+   "cid": 1342,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "rerank": 0.04722549393773079
+  },
+  {
+   "cid": 1264,
+   "file": "organigramma_aziendale_aggiornato_marzo26.pptx",
+   "rerank": 0.03722485154867172
+  },
+  {
+   "cid": 1364,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.012609444558620453
+  },
+  {
+   "cid": 1738,
+   "file": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "rerank": 0.012204142287373543
+  },
+  {
+   "cid": 1109,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.007523676380515099
+  },
+  {
+   "cid": 148,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "rerank": 0.006553902756422758
+  },
+  {
+   "cid": 333,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "rerank": 0.006140882149338722
+  },
+  {
+   "cid": 155,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "rerank": 0.003994551952928305
+  },
+  {
+   "cid": 169,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "rerank": 0.00381478201597929
+  },
+  {
+   "cid": 1460,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.003325356636196375
+  },
+  {
+   "cid": 1804,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.0033022400457412004
+  },
+  {
+   "cid": 1806,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.0029387399554252625
+  },
+  {
+   "cid": 329,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.0015950591769069433
+  },
+  {
+   "cid": 98,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "rerank": 0.0012402477441355586
+  },
+  {
+   "cid": 1096,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "rerank": 0.0009629893465898931
+  },
+  {
+   "cid": 609,
+   "file": "job_description_responsabile_produzione.docx",
+   "rerank": 0.00022385582269635051
+  },
+  {
+   "cid": 312,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.00012030935613438487
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 151,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "origine": "nativa",
+   "rerank": 0.5318654179573059,
+   "testo": "insegne nelle stesse settimane\nNota relatore: il punto reclamo lo dice SOLO Silvia e SOLO se chiedono. Non aprire.\n(senza titolo)\n\nRICHIESTA DI DELIBERA\nSi chiede al CdA di deliberare:\n1. approvazione business case referenza AF-SN-0470\n2. CAPEX fino a 74.000 euro come da slide 8\n3. budget lancio/listing fino a 15.000 euro\n4. mandato alla Direzione Commerciale per la trattativa di referenziazione\n5. mandato a R&D/Qualita' per finalizzazione ricetta e qualifica fornitori\nvotazione richiesta entro la seduta per rispettare la finestra di settembre\n(senza titolo)\n\nGRAZIE PER L'ATTENZZIONE\ndomande?\ncontatti: s.bertoldi@aurorafoodgroup.it - a.zanchetta@aurorafoodgroup.it\n(senza titolo)\n\nBACKUP - CAPACITA' PRODUTTIVA LINEA 1\n• capacita' teorica L1: 1.450 kg/turno prodotto finito\n• saturazione media 2026 (gen-apr): 71% su 2 turni\n• con 0470 a regime anno 2: 78% -> ok MA i picchi promo del cliente principale\ngia' oggi portano sabati lavorativi\n• scenario \"Aurora Vega\" (nuovo stabilimento Minerbe): raddoppio capacita' forno,\norizzonte 2028 - dossier separato del Presidente, NON in delibera oggi\n<grafico: saturazione mensile - dati dal file Excel di Trentin>\n(senza titolo)"
+  },
+  {
+   "cid": 1336,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "origine": "nativa",
+   "rerank": 0.24141313135623932,
+   "testo": "2008 - entrata nel canale GDO con le focaccine in ATM\n2014 - LINEA 2 croissanteria, prima cella di lievitazione industriale\n2019 - registrazione sanitaria n. 037/2019/SIAN - ULSS 9 Scaligera\n2021 - certificazione BRCGS e IFS al primo audit\n2024 - Silvia Bertoldi assume la Direzione Commerciale\n2026 - progetto nuovo tunnel di surgelazione a spirale\n[Note relatore: qui di solito Giancarlo si commuove, lasciarlo parlare]\n(senza titolo)\n\nI NUMERI DI AURORA\n• Fatturato 2025: 11.480.000 €\n• Budget 2026: 13.200.000 €\n• 50 dipendenti\n• 3 linee produttive\n• oltre 40 referenze attive\n• 6 clienti GDO diretti + grossisti Ho.Re.Ca.\n<grafico: fatturato 2021-2025>\n(senza titolo)\n\nLO STABILIMENTO\n• 6.500 mq coperti su area di 11.000 mq\n• LINEA 1: impasto - forno tunnel FT-01 - tunnel termico PT-104 - metal detector MD-3200 - confezionatrice MAP PKM-450 (flow-pack in atmosfera protettiva)\n• LINEA 2: croissanteria, impastatrice IMP-300 da 300 kg, sfogliatrice, cella lievitazione, forno FT-02\n• LINEA 3: surgelati, tunnel TS-01 e cella CF-02 a -18°C\n• Impianto CIP-01 di lavaggio automatico\n• Laboratorio QC interno + laboratorio esterno accreditato ACCREDIA\n<immagine: layout stabilimento>"
+  },
+  {
+   "cid": 1107,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "origine": "nativa",
+   "rerank": 0.13719575107097626,
+   "testo": "Da: Giancarlo Bertoldi <g.bertoldi@aurorafoodgroup.it>\nA: Silvia Bertoldi <s.bertoldi@aurorafoodgroup.it>; Marco Fantin <m.fantin@aurorafoodgroup.it>\nCc:\nInviato: domenica 17 maggio 2026 23:47\nOggetto: dove voglio portare l azienda nei prossimi 5 anni LEGGETE TUTTO\n\nCari Silvia e Marco\n\nvi scrivo adesso che è tardi perche di giorno non c è mai il tempo di pensare, il telefono\nsuona sempre, c è sempre uno che vuole qualcosa, e invece certe cose vanno pensate col buio\ne col silenzio come facevo una volta quando ero da solo nel garage di via Marconi nel 1994\ne impastavo alle quattro di mattina con la Fiorini usata che mi aveva venduto quel mattacchione\ndi Squarzon buonanima, allora si che si pensava, adesso tutti parlano di riunioni e di\nmeeting e di call ma nessuno PENSA piu\n\nallora vi dico come la vedo io e poi ne parliamo, ma ne parliamo tra noi, non voglio\nconsulenti in mezzo, su questo torno dopo\n\nPRIMO PUNTO il nuovo stabilimento\n\nil progetto Aurora Vega a Minerbe va avanti, l ho deciso, il terreno l ho visto tre volte\ne la terza volta ci sono andato da solo senza dire niente a nessuno e ho camminato tutto"
+  },
+  {
+   "cid": 1108,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "origine": "nativa",
+   "rerank": 0.13134320080280304,
+   "testo": "il progetto Aurora Vega a Minerbe va avanti, l ho deciso, il terreno l ho visto tre volte\ne la terza volta ci sono andato da solo senza dire niente a nessuno e ho camminato tutto\nil perimetro a piedi, sono 42mila metri quadri o 38mila adesso non ricordo, comunque tanta\nroba, e la zona è servita bene c è la variante della statale a due chilometri e Minerbe\nè comune che ha voglia di far lavorare la gente non come altri che non nomino\n\ne poi c è la questione del capannone qui a Cologna, quello dei Furlan confinante col\nnostro sul lato del magazzino, mi ha detto il geometra Sandri che i Furlan vendono, il\nvecchio è morto a febbraio e i figli sono a Milano e non gliene importa niente, quello\nè un capannone che DOBBIAMO prendere, sono 3800 metri o 4200 non ricordo di preciso,\nperche se lo prende qualcun altro ci troviamo un vicino che magari fa verniciatura o\npeggio e con l ATS che ci arriva in casa a giugno vi immaginate, e invece se lo\nprendiamo noi ci spostiamo dentro tutto il magazzino imballi e liberiamo la zona dietro\nla linea 3 che è un incubo da sempre, Fantin lo sa quante volte ne abbiamo parlato"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4607,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.17,
+  "rerank": 38.73
+ },
+ "id": "Q250",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T18:04:56",
+ "secondi": 38.92,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 48.63,
+  "token_prompt": 1869,
+  "token_risposta": 79,
+  "testo_grezzo": "Non e' possibile determinare il costo del nuovo stabilimento \"Aurora Vega\" con i dati forniti. Il costo del progetto non e' menzionato nei documenti forniti.\n\nFONTI: mail_titolare_Aurora_visione_aziendale_5anni.txt, presentazione_commerciale_Aurora_GDO_2026.pptx",
+  "fonti_citate": [
+   "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "presentazione_commerciale_Aurora_GDO_2026.pptx"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

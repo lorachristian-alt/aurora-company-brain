@@ -1,0 +1,682 @@
+{
+ "domanda": "Quanto abbiamo di insoluti aperti in tutto?",
+ "candidati_densi": [
+  {
+   "cid": 1629,
+   "punteggio": 0.48936092749228344,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1032,
+   "punteggio": 0.4815307286602638,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 98,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1019,
+   "punteggio": 0.4782818360496217,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 85,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1051,
+   "punteggio": 0.4752517781078583,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 117,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1033,
+   "punteggio": 0.47509655631503467,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 99,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1037,
+   "punteggio": 0.473621276017636,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 103,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1042,
+   "punteggio": 0.47295567767173763,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 108,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1020,
+   "punteggio": 0.47205997321986587,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 86,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1048,
+   "punteggio": 0.4711622935703038,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 114,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1038,
+   "punteggio": 0.47109560425031044,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 104,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1046,
+   "punteggio": 0.47016351006762946,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 112,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1001,
+   "punteggio": 0.46997393583632174,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 67,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1018,
+   "punteggio": 0.4699450011613694,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 84,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1002,
+   "punteggio": 0.4698128859629993,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 68,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1052,
+   "punteggio": 0.46945471952642864,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 118,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1045,
+   "punteggio": 0.46924802100781376,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 111,
+   "origine": "nativa"
+  },
+  {
+   "cid": 988,
+   "punteggio": 0.46919769603157424,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 54,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1005,
+   "punteggio": 0.4690168988222231,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 71,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1049,
+   "punteggio": 0.4686017347372665,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 115,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1043,
+   "punteggio": 0.46853478429723877,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 109,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1629,
+   "punteggio": 20.00661849975586,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1116,
+   "punteggio": 12.572517395019531,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1835,
+   "punteggio": 12.363592147827148,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1366,
+   "punteggio": 11.509684562683105,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 614,
+   "punteggio": 10.737053871154785,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1364,
+   "punteggio": 10.669669151306152,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1443,
+   "punteggio": 10.545577049255371,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1777,
+   "punteggio": 10.055044174194336,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 434,
+   "punteggio": 9.92133903503418,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 433,
+   "punteggio": 9.692975044250488,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1794,
+   "punteggio": 9.664266586303711,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 21,
+   "origine": "nativa"
+  },
+  {
+   "cid": 4,
+   "punteggio": 9.636042594909668,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1792,
+   "punteggio": 9.630030632019043,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1108,
+   "punteggio": 9.600496292114258,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1368,
+   "punteggio": 9.557504653930664,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 313,
+   "punteggio": 9.44117259979248,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1785,
+   "punteggio": 9.288466453552246,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 298,
+   "punteggio": 9.109455108642578,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1110,
+   "punteggio": 9.056488990783691,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1778,
+   "punteggio": 8.72677230834961,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 5,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1629,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.03278688524590164,
+   "rango_denso": 1,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1032,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 98,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1116,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1019,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 85,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1835,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1051,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 117,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 614,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1033,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 99,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1037,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 103,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1364,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1042,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 108,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1443,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1020,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 86,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1777,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1048,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 114,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 433,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1038,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 104,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1046,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 112,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1794,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 21,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 4,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1001,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 67,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1018,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 84,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1629,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "rerank": 0.430416077375412
+  },
+  {
+   "cid": 1835,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.004114180337637663
+  },
+  {
+   "cid": 1794,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.001256221323274076
+  },
+  {
+   "cid": 1019,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.0009766913717612624
+  },
+  {
+   "cid": 1032,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.0008746976382099092
+  },
+  {
+   "cid": 614,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.0008529140031896532
+  },
+  {
+   "cid": 1020,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.0007305231993086636
+  },
+  {
+   "cid": 1048,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.0007016590097919106
+  },
+  {
+   "cid": 1443,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "rerank": 0.0006968582747504115
+  },
+  {
+   "cid": 1038,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.0006756657385267317
+  },
+  {
+   "cid": 433,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.0005735135637223721
+  },
+  {
+   "cid": 1042,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.0005637889844365418
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.0005410912563093007
+  },
+  {
+   "cid": 1037,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.0005007435684092343
+  },
+  {
+   "cid": 1018,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.0004937663907185197
+  },
+  {
+   "cid": 1046,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.00046509801177307963
+  },
+  {
+   "cid": 1364,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.00041121096001006663
+  },
+  {
+   "cid": 1051,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.0004094136820640415
+  },
+  {
+   "cid": 1001,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.0003946222714148462
+  },
+  {
+   "cid": 1033,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.0003549911198206246
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.0003390583151485771
+  },
+  {
+   "cid": 1116,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.0003353510983288288
+  },
+  {
+   "cid": 1777,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.00019814226834569126
+  },
+  {
+   "cid": 4,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 7.682287105126306e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1629,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "origine": "nativa",
+   "rerank": 0.430416077375412,
+   "testo": "riepilogo mio a matita - NON e' contabilita';;;;;;;;;\n;incassi attesi giugno (se Tosano paga il 10 e i 3 insoluti rientrano);;;;154.281,29;;;;somma mia veloce, da ricontrollare\n;uscite giugno (senza F24 fa gia' paura lo stesso);;;;178.902,44;;;;sbilancio ~24.621 + F24 68.414 = anticipo fatture ancora su, rientra a luglio con le RIBA Tosano di aprile\n;nb insoluti totali aperti;;;;8.229,04;;;;3 posizioni: Grossmarket 3.412,60 + Perin 1.876,44 + Cavazza 2.940,00\n;promemoria: appendice macchinari Generali PRIMA della consegna tunnel (settembre);;;;;;;;"
+  },
+  {
+   "cid": 1835,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "origine": "nativa",
+   "rerank": 0.004114180337637663,
+   "testo": "2. quanto pesa il listing da 12.000 se lo spalmiamo su 24 mesi sui volumi del 3+1\n   (Paolo dice 60-70mila pezzi/anno, prendilo con le pinze)\n3. una riga sul cash: se accettiamo, l'effetto parte dagli ordini di giugno che\n   incassiamo a settembre/ottobre con le RIBA a 90. Dimmi se regge, visto tutto il\n   resto che abbiamo in ballo questo mese, ci siamo capite.\n\nPaolo: tu intanto NON anticipare nulla a Rossi, ne' cifre ne' aperture. La risposta\nscritta la preparo io e la firma papa'. E verifica sto pugliese, voglio sapere se\nesiste davvero o se e' la solita tabella fatta ad arte.\n\nUna cosa la dico subito a entrambi: il -4,5 secco sul cornetto NON e' sostenibile,\npiuttosto ragioniamo su sconto ridotto + contributo promo a target, come dice Paolo.\nMa prima voglio i numeri di Luisa.\n\nGrazie,\nSilvia\n\nSilvia Bertoldi\nDirezione Commerciale\nAURORA FOOD GROUP S.r.l.\nVia dell'Industria 27 - 37044 Cologna Veneta (VR)\ntel. 0442 85 41 22 - www.aurorafoodgroup.it\nLe informazioni contenute nella presente comunicazione e i relativi allegati possono\nessere riservate e sono, comunque, destinate esclusivamente alle persone o alla"
+  },
+  {
+   "cid": 1794,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.001256221323274076,
+   "testo": "[00:18:41] PARLANTE_1: e ripartito si vede la lucetta si ok\n[00:18:44] PARLANTE_4: allora rossi il punto e che il rinnovo listino 2026 2027 lui e partito da meno quattro e mezzo su tutto\n[00:18:51] PARLANTE_1: su tutto tutto\n[00:18:53] PARLANTE_4: su tutto e sul cornetto private label lo 0215 noi col meno quattro e mezzo andiamo sotto zero di margine industriale sotto zero papa non basso sotto\n[00:19:02] PARLANTE_1: coi numeri di chi della trentin o i tuoi\n[00:19:05] PARLANTE_4: della trentin e anche i miei stavolta dicono la stessa cosa piu o meno\n[00:19:09] PARLANTE_1: piu o meno [risate]\n[00:19:11] PARLANTE_4: e poi c'e la listing fee di dodicimila per lo 0455 e adesso con sta storia del reclamo io la trattativa la congelerei finche\n[00:19:18] PARLANTE_1: no congelarla no silvia se la congeli lui capisce che abbiamo un problema piuttosto la rallenti chiedi i dati dei volumi promo di\n[00:19:26] PARLANTE_4: [incomprensibile]\n[00:19:28] PARLANTE_1: esatto cosi prendiamo due settimane e intanto si chiude la storia del lotto e poi c'e il discorso vega se partiamo con minerbe la capacita raddoppia e allora il listino lo trattiamo da un'altra posizione ma questo rossi non lo deve"
+  },
+  {
+   "cid": 1019,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "origine": "nativa",
+   "rerank": 0.0009766913717612624,
+   "testo": "2026-05-10 15:17:07;PT104;TT_01;71.2;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 15:18:37;PT104;T_CUORE;69.1;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 15:20:37;PT104;TT_02;70.8;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 15:21:07;PT104;T_CUORE;68.6;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 15:23:37;PT104;T_CUORE;67.8;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 15:24:07;PT104;TT_03;68.5;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 15:26:07;PT104;T_CUORE;66.5;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 15:27:37;PT104;FT_01;0.0;m3/h;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 15:28:37;PT104;T_CUORE;65.9;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 15:31:07;PT104;FT_01;0.0;m3/h;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 15:31:07;PT104;T_CUORE;66.3;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 15:33:37;PT104;T_CUORE;65.7;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 15:34:37;PT104;SPEED;0.0;m/min;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 15:36:07;PT104;T_CUORE;65.5;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 15:38:37;PT104;TT_01;67.2;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 15:38:37;PT104;T_CUORE;64.7;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4054,
+ "tempi": {
+  "denso": 0.01,
+  "sparso": 0.17,
+  "rerank": 53.9
+ },
+ "id": "Q115",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:22:43",
+ "secondi": 54.08,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 68.33,
+  "token_prompt": 2059,
+  "token_risposta": 91,
+  "testo_grezzo": "Non e' possibile determinare la quantita di insoluti aperti in tutto con i dati forniti.\n\nFONTI: scadenzario_effetti_RIBA_giugno26.csv, verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt, trascrizione_riunione_direzione_12_05_2026.txt\n\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "scadenzario_effetti_RIBA_giugno26.csv",
+   "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "trascrizione_riunione_direzione_12_05_2026.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

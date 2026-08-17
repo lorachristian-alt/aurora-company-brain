@@ -1,0 +1,682 @@
+{
+ "domanda": "Qual e' il limite critico della surgelazione e a che temperatura scatta l'allarme della cella CF-02?",
+ "candidati_densi": [
+  {
+   "cid": 1137,
+   "punteggio": 0.7568293158048551,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1606,
+   "punteggio": 0.6567492771286376,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1842,
+   "punteggio": 0.6149971044799437,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 262,
+   "punteggio": 0.6142218341706226,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 267,
+   "punteggio": 0.6127798203159774,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 263,
+   "punteggio": 0.603988499850955,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1605,
+   "punteggio": 0.602454833412339,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 264,
+   "punteggio": 0.6021575645962949,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 392,
+   "punteggio": 0.6013110450656718,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 268,
+   "punteggio": 0.596889784135045,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1134,
+   "punteggio": 0.5834630096010314,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 317,
+   "punteggio": 0.5818438696138848,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 266,
+   "punteggio": 0.5787217279509633,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 269,
+   "punteggio": 0.5761551809501867,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 265,
+   "punteggio": 0.570083437383152,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1876,
+   "punteggio": 0.5632555759612726,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1658,
+   "punteggio": 0.5618791015125478,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 769,
+   "punteggio": 0.5512108774696374,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 83,
+   "origine": "nativa"
+  },
+  {
+   "cid": 271,
+   "punteggio": 0.5500321547538891,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1136,
+   "punteggio": 0.5498226664806768,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 18,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1137,
+   "punteggio": 48.622406005859375,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 312,
+   "punteggio": 28.898887634277344,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1606,
+   "punteggio": 26.86658477783203,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 315,
+   "punteggio": 26.435583114624023,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1842,
+   "punteggio": 25.738662719726562,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1138,
+   "punteggio": 24.036048889160156,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1126,
+   "punteggio": 23.02411651611328,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 413,
+   "punteggio": 22.978601455688477,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1658,
+   "punteggio": 22.957338333129883,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1228,
+   "punteggio": 21.55474090576172,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 317,
+   "punteggio": 21.354785919189453,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1226,
+   "punteggio": 20.807031631469727,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1345,
+   "punteggio": 20.556873321533203,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 223,
+   "punteggio": 20.527320861816406,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1159,
+   "punteggio": 20.437423706054688,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1225,
+   "punteggio": 20.35529327392578,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1776,
+   "punteggio": 20.355085372924805,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1229,
+   "punteggio": 20.34993553161621,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1841,
+   "punteggio": 20.03325653076172,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 264,
+   "punteggio": 19.876182556152344,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 3,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1137,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.03278688524590164,
+   "rango_denso": 1,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1606,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.03200204813108039,
+   "rango_denso": 2,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1842,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.03125763125763126,
+   "rango_denso": 3,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 317,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.02797339593114241,
+   "rango_denso": 12,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1658,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.027479766610201392,
+   "rango_denso": 17,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 264,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.027205882352941177,
+   "rango_denso": 8,
+   "rango_sparso": 20
+  },
+  {
+   "cid": 312,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 262,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 315,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 267,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 263,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1138,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 20,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1126,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1605,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 413,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 392,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 268,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1228,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1134,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1226,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 266,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1345,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 223,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 269,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1137,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.997542142868042
+  },
+  {
+   "cid": 1606,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.9723550081253052
+  },
+  {
+   "cid": 392,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "rerank": 0.8516215085983276
+  },
+  {
+   "cid": 1842,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "rerank": 0.8174933791160583
+  },
+  {
+   "cid": 223,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "rerank": 0.804210364818573
+  },
+  {
+   "cid": 312,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.7993323802947998
+  },
+  {
+   "cid": 1126,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.7658725380897522
+  },
+  {
+   "cid": 413,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "rerank": 0.7205575108528137
+  },
+  {
+   "cid": 262,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "rerank": 0.6943918466567993
+  },
+  {
+   "cid": 264,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "rerank": 0.6830136179924011
+  },
+  {
+   "cid": 267,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "rerank": 0.660288393497467
+  },
+  {
+   "cid": 268,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "rerank": 0.655565619468689
+  },
+  {
+   "cid": 263,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "rerank": 0.652801513671875
+  },
+  {
+   "cid": 1605,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.6438570618629456
+  },
+  {
+   "cid": 269,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "rerank": 0.5590027570724487
+  },
+  {
+   "cid": 1658,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "rerank": 0.36352384090423584
+  },
+  {
+   "cid": 266,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "rerank": 0.2863832116127014
+  },
+  {
+   "cid": 317,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.2420842945575714
+  },
+  {
+   "cid": 315,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.22361959517002106
+  },
+  {
+   "cid": 1138,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.1965663880109787
+  },
+  {
+   "cid": 1228,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.09900150448083878
+  },
+  {
+   "cid": 1345,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "rerank": 0.09509705752134323
+  },
+  {
+   "cid": 1226,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.04034145176410675
+  },
+  {
+   "cid": 1134,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.00943351723253727
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1137,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "origine": "nativa",
+   "rerank": 0.997542142868042,
+   "testo": "CCP4 - SURGELAZIONE (LINEA 3)\nFase: 11 - Surgelazione tunnel TS-01 (in sostituzione: Criotech CR-SP180)\nPericolo: B - sviluppo microbico per abbattimento termico insufficiente/lento\nLimite critico: temperatura al cuore del prodotto ≤ -18 °C entro 240 min dall'ingresso\n  in tunnel; cella di stoccaggio CF-02 ≤ -18 °C\nMonitoraggio: rilevazione T al cuore su campione a fine tunnel (sonda a penetrazione);\n  registrazione in continuo T cella CF-02 (sistema di monitoraggio con allarme)\nFrequenza: T cuore: ogni 2 ore per referenza in produzione; CF-02: continuo con\n  soglia allarme -16 °C e notifica a Faggionato N. e Guerra R.\nResponsabile: capoturno Linea 3 (Guerra R.); magazzino per CF-02; QA per riesame\nAzione correttiva: prodotto che non raggiunge -18 °C entro 240 min: prolungamento\n  permanenza e nuova verifica; se non risolutivo, blocco lotto e valutazione QA\n  (declassamento a catena del fresco ove ammissibile, altrimenti distruzione);\n  per CF-02 fuori limite: trasferimento prodotto, chiamata frigorista, valutazione\n  QA su tempo/temperatura di esposizione\nVerifica: riesame settimanale registrazioni; taratura sonde semestrale; mappatura\n  termica cella CF-02 annuale"
+  },
+  {
+   "cid": 1606,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "origine": "nativa",
+   "rerank": 0.9723550081253052,
+   "testo": "MD-3200, surgelazione) + PRPo allergeni. VERIFICATO.\n- CCP2: limite critico ≥ 72,0 °C per ≥ 2 min, set point 74,0-76,0 °C; tracciati\n  datalogger PT-104 disponibili e conservati; MOD-QA-12 compilato ogni 60 min.\n  Campione verificato: 12-16/01/2026, 03-06/02/2026. VEDI NC n. 1.\n- CCP3: verifica tasselli Fe 2,0 / Non-Fe 2,5 / AISI 316 3,0 mm ogni 60 min su\n  MOD-QA-07 rev.5; certificati tasselli in corso di validità; verifica annuale\n  costruttore eseguita 11/2025. VEDI NC n. 1 (seconda firma) e OSSERVAZIONE n. 2.\n- CCP4: registrazioni T cuore ogni 2 h conformi nel campione (gen-feb 2026);\n  monitoraggio continuo CF-02 con allarme funzionante (test eseguito in audit).\n- Test rintracciabilità: conforme (99,4%, 2 h 50 min).\n- Sanificazione: IO-05, schede CIP-01, prodotti Chemifood; verifiche ATP a\n  campione conformi; piano tamponi con lab. Analytica Veneta (ACCREDIA 0987).\n- Reclami 2025: n. 41 totali, di cui 4 per corpo estraneo (chiusi). Trend\n  presentato in riesame direzione.\n\n----------------------------------------------------------------------------\n4. ELENCO NON CONFORMITA' / NON-CONFORMITY LIST\n----------------------------------------------------------------------------"
+  },
+  {
+   "cid": 392,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "origine": "nativa",
+   "rerank": 0.8516215085983276,
+   "testo": "del 14/11/2025 (rapporto n. 2025/FON/112, Analytica Veneta S.r.l.); i valori\ndi vibrazioni da banca dati CNR-INAIL integrata con misure sul campo.\n5. MISURE DI PREVENZIONE E PROTEZIONE IN ESSERE\n- Ausili meccanici per la movimentazione (alzasacchi su impasto Linea 1,\n  transpallet elettrici in magazzino); formazione specifica sulla\n  movimentazione manuale dei carichi registrata su MOD-HR-11.\n- Aspirazione localizzata sulle stazioni di dosaggio farina; pulizia a\n  umido, divieto di soffiaggio con aria compressa per la rimozione delle\n  polveri.\n- Protezioni fisse e mobili interbloccate sulla confezionatrice PKM-450;\n  procedura di blocco/messa fuori servizio (lockout) per gli interventi di\n  manutenzione; divieto di rimozione ripari con macchina in marcia.\n- Rilevatore di ossigeno ambientale con allarme ottico-acustico nel locale\n  gas (soglia 19,5 percento O2); cartellonistica \"atmosfera sotto-ossigenata\";\n  divieto di accesso singolo al locale bombole.\n- Permanenza massima continuativa in cella CF-02 (-18 gradi C): 50 minuti,\n  con pausa di recupero termico di 10 minuti in zona temperata; dotazione di\n  abbigliamento termico completo; maniglia di apertura interna antighiaccio."
+  },
+  {
+   "cid": 1842,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "origine": "nativa",
+   "rerank": 0.8174933791160583,
+   "testo": "1.6 LINEA 3 - SURGELAZIONE E CELLA CF-02 (-18 gradi C)\n    - tunnel TS-01: apparecchiatura datata; l'impresa dichiara la\n      sostituzione programmata con tunnel a spirale entro il 2026\n      (contratto con Criotech Impianti S.r.l. esibito in copia)\n    - cella CF-01 (+4 gradi C) anticella: si rileva FORMAZIONE DI\n      CONDENSA E MUFFA PUNTIFORME sul soffitto in prossimita' della\n      porta, con guarnizione della porta lacerata nel tratto\n      inferiore e brinamento anomalo (All. II Cap. II punto 1\n      lett. b e c)\n    - termoregistratore CF-02: funzionante, ultima verifica taratura\n      12/02/2026\n\nAZIENDA ULSS 9 SCALIGERA - Dipartimento di Prevenzione - Servizio Igiene Alimenti e Nutrizione (SIAN)\nVerbale n. 2026/SIAN/00214 - redatto in triplice copia - pag. 3\npag. 3\n1.7 DEPOSITO PRODOTTO FINITO - VIA PALU' 3/A\n    Non ispezionato in data odierna; l'unita' locale sara' oggetto\n    di separato controllo.\n1.8 SERVIZI IGIENICI E SPOGLIATOI\n    - CONFORMI; acqua calda e fredda, ventilazione adeguata\n1.9 GESTIONE RIFIUTI E SOTTOPRODOTTI\n    - contenitori identificati, area dedicata esterna: CONFORME\n2. DOCUMENTAZIONE VISIONATA"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4724,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.19,
+  "rerank": 53.16
+ },
+ "id": "Q021",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:06:32",
+ "secondi": 53.37,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 90.0,
+  "token_prompt": 1957,
+  "token_risposta": 102,
+  "testo_grezzo": "Il limite critico della surgelazione è -18 °C e scatta l'allarme della cella CF-02 quando la temperatura al cuore del prodotto supera questa soglia.\n\nFONTI: manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt, DVR_estratto_valutazione_rischi_2026.pdf, Verbale_ispezione_ATS_09_06_2026.pdf\n\nCONFIDENZA: alta",
+  "fonti_citate": [
+   "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "DVR_estratto_valutazione_rischi_2026.pdf",
+   "Verbale_ispezione_ATS_09_06_2026.pdf"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "alta"
+ }
+}

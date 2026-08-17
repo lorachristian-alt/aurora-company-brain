@@ -1,0 +1,682 @@
+{
+ "domanda": "Quali allergeni sono soggetti a rischio di cross contamination secondo la matrice aziendale?",
+ "candidati_densi": [
+  {
+   "cid": 1639,
+   "punteggio": 0.6323726371094799,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1691,
+   "punteggio": 0.619998288135214,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1140,
+   "punteggio": 0.5963367288957023,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 22,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1651,
+   "punteggio": 0.5857643222377324,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1640,
+   "punteggio": 0.5720104084749283,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 518,
+   "punteggio": 0.5407137096434351,
+   "file": "Fwd_Fwd_Fwd_ATTENZIONE_richiamo_prodotto_concorrente_RASFF.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1648,
+   "punteggio": 0.5395044572819275,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1690,
+   "punteggio": 0.5337635310512235,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 158,
+   "punteggio": 0.5311748459511607,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1724,
+   "punteggio": 0.525455277313616,
+   "file": "SKM_C224e26051412340.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 213,
+   "punteggio": 0.5254550798164868,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 505,
+   "punteggio": 0.5192234675684179,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1612,
+   "punteggio": 0.5153260225283972,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1105,
+   "punteggio": 0.5108460889111716,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1606,
+   "punteggio": 0.5093320255263897,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 377,
+   "punteggio": 0.498707795847178,
+   "file": "DoC_MOCA_Flexipack_film_PP_EVOH_2026.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 368,
+   "punteggio": 0.498707795847178,
+   "file": "doc 2 (1).pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 389,
+   "punteggio": 0.49356438431824945,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 517,
+   "punteggio": 0.49289598535289736,
+   "file": "Fwd_Fwd_Fwd_ATTENZIONE_richiamo_prodotto_concorrente_RASFF.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 370,
+   "punteggio": 0.4924555053149801,
+   "file": "doc 2 (1).pdf",
+   "idx": 3,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1639,
+   "punteggio": 27.71491050720215,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1651,
+   "punteggio": 27.630861282348633,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1140,
+   "punteggio": 26.401195526123047,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 22,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1640,
+   "punteggio": 26.392181396484375,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1691,
+   "punteggio": 22.068506240844727,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1185,
+   "punteggio": 21.06499671936035,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1690,
+   "punteggio": 19.65814781188965,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1648,
+   "punteggio": 17.654216766357422,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1129,
+   "punteggio": 17.003625869750977,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1815,
+   "punteggio": 16.462081909179688,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1145,
+   "punteggio": 16.440616607666016,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 27,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1341,
+   "punteggio": 16.399620056152344,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1310,
+   "punteggio": 16.218460083007812,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1125,
+   "punteggio": 16.010713577270508,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1119,
+   "punteggio": 15.26656723022461,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 300,
+   "punteggio": 14.992382049560547,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1697,
+   "punteggio": 14.854798316955566,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1649,
+   "punteggio": 14.752718925476074,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1647,
+   "punteggio": 14.576067924499512,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 159,
+   "punteggio": 14.510581970214844,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 6,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1639,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.03278688524590164,
+   "rango_denso": 1,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1651,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.031754032258064516,
+   "rango_denso": 4,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1140,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 22,
+   "origine": "nativa",
+   "rrf": 0.031746031746031744,
+   "rango_denso": 3,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1691,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.0315136476426799,
+   "rango_denso": 2,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1640,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.031009615384615385,
+   "rango_denso": 5,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1648,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.029631255487269532,
+   "rango_denso": 7,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1690,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.029631255487269532,
+   "rango_denso": 8,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 518,
+   "file": "Fwd_Fwd_Fwd_ATTENZIONE_richiamo_prodotto_concorrente_RASFF.eml",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1185,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 158,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1129,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1724,
+   "file": "SKM_C224e26051412340.pdf",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1815,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 213,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1145,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 27,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 505,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1341,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1310,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1612,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1105,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1125,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 1119,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": null,
+   "rango_sparso": 15
+  },
+  {
+   "cid": 1606,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013333333333333334,
+   "rango_denso": 15,
+   "rango_sparso": null
+  },
+  {
+   "cid": 300,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.013157894736842105,
+   "rango_denso": null,
+   "rango_sparso": 16
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1691,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "rerank": 0.9450950622558594
+  },
+  {
+   "cid": 1640,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "rerank": 0.8376992344856262
+  },
+  {
+   "cid": 1140,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.8187680840492249
+  },
+  {
+   "cid": 1690,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "rerank": 0.5935582518577576
+  },
+  {
+   "cid": 1639,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "rerank": 0.5776997208595276
+  },
+  {
+   "cid": 1651,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "rerank": 0.2995530366897583
+  },
+  {
+   "cid": 1341,
+   "file": "presentazione_commerciale_Aurora_GDO_2026.pptx",
+   "rerank": 0.21357353031635284
+  },
+  {
+   "cid": 1185,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.15864452719688416
+  },
+  {
+   "cid": 1648,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "rerank": 0.15766501426696777
+  },
+  {
+   "cid": 1129,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.06404480338096619
+  },
+  {
+   "cid": 1612,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.039446551352739334
+  },
+  {
+   "cid": 213,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "rerank": 0.016279904171824455
+  },
+  {
+   "cid": 1724,
+   "file": "SKM_C224e26051412340.pdf",
+   "rerank": 0.016279904171824455
+  },
+  {
+   "cid": 158,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "rerank": 0.015400232747197151
+  },
+  {
+   "cid": 1105,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "rerank": 0.010846320539712906
+  },
+  {
+   "cid": 1125,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.01061073038727045
+  },
+  {
+   "cid": 1310,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "rerank": 0.010177431628108025
+  },
+  {
+   "cid": 1606,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.008300204761326313
+  },
+  {
+   "cid": 505,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 0.004186197649687529
+  },
+  {
+   "cid": 1145,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.0017894188640639186
+  },
+  {
+   "cid": 518,
+   "file": "Fwd_Fwd_Fwd_ATTENZIONE_richiamo_prodotto_concorrente_RASFF.eml",
+   "rerank": 0.0014191009104251862
+  },
+  {
+   "cid": 1815,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "rerank": 0.0010992869501933455
+  },
+  {
+   "cid": 1119,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.0002382444217801094
+  },
+  {
+   "cid": 300,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "rerank": 3.633036612882279e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1691,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "origine": "nativa",
+   "rerank": 0.9450950622558594,
+   "testo": "Dichiarazione a matrice - stabilimento di Isola della Scala\n\nAllergene  Presente nel prodotto  Cross-contamination possibile in stabilimento\n1. Cereali contenenti glutine (GRANO)  SI - ingrediente  -\n2. Crostacei e derivati  NO  NO\n3. Uova e derivati  NO  NO\n4. Pesce e derivati  NO  NO\n5. Arachidi e derivati  NO  NO\n6. Soia e derivati  NO  SI (farina di soia in linea confezionamento\n   miscele - linee separate, flussi validati: rischio residuo trascurabile,\n   non etichettato)\n7. Latte e derivati (incluso lattosio)  NO  NO\n8. Frutta a guscio  NO  NO\n9. Sedano e derivati  NO  NO\n10. Senape e derivati  NO  SI (possibile presenza in grano da rotazioni\n    colturali - piano monitoraggio semi estranei, < 10 mg/kg)\n11. Semi di sesamo e derivati  NO  NO\n12. Anidride solforosa e solfiti > 10 mg/kg  NO  NO\n13. Lupini e derivati  NO  SI (semi estranei da campo - pulitura ottica,\n    rischio residuo trascurabile)\n14. Molluschi e derivati  NO  NO\n\nNota: l'unico allergene etichettato Ã¨ il GRANO (glutine). Le voci 6, 10 e\n13 derivano dall'assessment 2025 (doc. ALL-ASS-25 disponibile su richiesta)\ne non comportano etichettatura precauzionale.\n\n7. OGM"
+  },
+  {
+   "cid": 1640,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "origine": "nativa",
+   "rerank": 0.8376992344856262,
+   "testo": "PC  = PUO' CONTENERE (cross contamination non eliminabile: etichettatura precauzionale, v. par. 8)\n   A   = ASSENTE (non in ricetta e non presente nel flusso della linea, nessuna dicitura)\n\nI 14 allergeni All. II Reg. (UE) 1169/2011 sono numerati come segue:\n 1 Cereali contenenti glutine        8 Frutta a guscio\n 2 Crostacei                         9 Sedano\n 3 Uova                             10 Senape\n 4 Pesce                            11 Semi di sesamo\n 5 Arachidi                         12 Anidride solforosa e solfiti (>10 mg/kg)\n 6 Soia                             13 Lupini\n 7 Latte                            14 Molluschi\n\n1. MATRICE ALLERGENI PER REFERENZA\n\n[Pozzato S. - la tabella si e' rovinata con l'ultimo salvataggio, i valori sono giusti ma le colonne non sono piu' allineate]\n\nCodice; Descrizione; 1 glutine; 2 crostacei; 3 uova; 4 pesce; 5 arachidi; 6 soia; 7 latte; 8 frutta guscio; 9 sedano; 10 senape; 11 sesamo; 12 solfiti; 13 lupini; 14 molluschi\nAF-SN-0450; Snack salato rustico multicereali 100 g ATM; C; A; A; A; A; PC; PC; A; A; A; PC; A; A; A\nAF-SN-0455; Snack salato rustico 100 g promo 3+1; C; A; A; A; A; PC; PC; A; A; A; PC; A; A; A"
+  },
+  {
+   "cid": 1140,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "origine": "nativa",
+   "rerank": 0.8187680840492249,
+   "testo": "PRP-11 Food defense e sicurezza sito (BRCGS 9 sez. 4.2; TACCP a cura team dedicato)\nPRP-12 Gestione MOCA (DoC fornitori F0044 Flexipack, F0031 Euroglass; test migrazione)\n\n(5) nota rafforzata a seguito audit CSQA 17-18/02/2026, NC minore BRCGS cl. 4.7.5\n(ricambi e attrezzi custoditi in area produttiva senza controllo integrità): il\ncarrello ricambi di linea è stato rimosso; ogni intervento in produzione richiede\nil modulo MOD-PR-04 con conta attrezzi in ingresso e in uscita.\n\n9.2 PRPo1 - Gestione allergeni\nAllergeni presenti in stabilimento: GLUTINE (cereali), LATTE (burro, panna - F0021\nLatteria Bassanese), UOVA, SOIA, FRUTTA A GUSCIO; SESAMO in fase di introduzione con\nla referenza in sviluppo AF-SN-0470 (v12, R&D Zanchetta A. / Meneghello G.).\nMisure: matrice allergeni per referenza (All. 12, doc. \"scheda allergeni matrice\ncross contamination\"); sequenze di produzione dal meno allergenico al più allergenico;\nlavaggio validato tra referenze incompatibili con test proteina specifica (latte,\nuovo, soia) a cura QC (Pozzato S., 1 validazione/trimestre per linea); gestione rework\nvincolata alla matrice; etichettatura precauzionale deliberata dal Team HACCP, non"
+  },
+  {
+   "cid": 1690,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "origine": "nativa",
+   "rerank": 0.5935582518577576,
+   "testo": "Salmonella spp.  assente in 25 g  ISO 6579-1\nBacillus cereus  max 100 UFC/g  ISO 7932\n\n5. CONTAMINANTI\nConformi ai Reg. (UE) 2023/915 e s.m.i. e Reg. (CE) 396/2005:\n\nContaminante  Limite  Note\nDON (deossinivalenolo)  max 750 Âµg/kg  Reg. 2023/915 (farine)\n  valore tipico di fornitura: < 300 Âµg/kg - CoA per lotto su richiesta\nOcratossina A  max 3,0 Âµg/kg\nAflatossine B1  max 2,0 Âµg/kg  somma B1+B2+G1+G2 max 4,0 Âµg/kg\nZearalenone  max 75 Âµg/kg\nCadmio  max 0,10 mg/kg  Piombo max 0,20 mg/kg\nResidui fitosanitari  conformi Reg. (CE) 396/2005 - monitoraggio\nmultiresiduale semestrale su piano interno (glifosate, clorpirifos:\nnon rilevabili, LOQ 0,01 mg/kg)\nCorpi estranei: assenza di infestanti vivi; filth-test conforme DM\napplicabile; frammenti metallici: passaggio su magneti e setacci di\nsicurezza rete 500 Âµm a valle macinazione\nAlcaloidi dell'ergot: max 50 Âµg/kg (Reg. 2023/915 punto 1.8, valore in vigore dal 01/07/2024)\n\n6. ALLERGENI (Reg. UE 1169/2011 - All. II)\nDichiarazione a matrice - stabilimento di Isola della Scala\n\nAllergene  Presente nel prodotto  Cross-contamination possibile in stabilimento\n1. Cereali contenenti glutine (GRANO)  SI - ingrediente  -"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4676,
+ "tempi": {
+  "denso": 0.66,
+  "sparso": 0.4,
+  "rerank": 54.86
+ },
+ "collaudo": 7,
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "generazione": {
+  "testo": "La risposta è: L'unico allergene soggetto a rischio di cross contamination secondo la matrice aziendale è il GRANO (cereali contenenti glutine).\n\nFONTI: scheda_tecnica_farina_tipo_0_MolinoVeneto.txt, manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt, file: scheda_allergeni_matrice_cross_contamination.docx\n\nCONFIDENZA: alta",
+  "secondi": 66.82,
+  "token_prompt": 2049,
+  "token_risposta": 101,
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "fonti_citate": [
+   "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "file: scheda_allergeni_matrice_cross_contamination.docx"
+  ],
+  "fonti_fuori_contesto": [
+   "file: scheda_allergeni_matrice_cross_contamination.docx"
+  ],
+  "confidenza": "alta"
+ }
+}

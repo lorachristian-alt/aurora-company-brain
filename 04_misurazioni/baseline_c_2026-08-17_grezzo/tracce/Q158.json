@@ -1,0 +1,681 @@
+{
+ "domanda": "Che corsi ci hanno proposto e quanto costavano?",
+ "candidati_densi": [
+  {
+   "cid": 433,
+   "punteggio": 0.5305389835603833,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1781,
+   "punteggio": 0.5189410130378987,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1524,
+   "punteggio": 0.5073737311626343,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 336,
+   "punteggio": 0.4981360481683044,
+   "file": "corso_inglese_aziendale_proposta.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1825,
+   "punteggio": 0.49124177602812846,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1828,
+   "punteggio": 0.48403948947120495,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1358,
+   "punteggio": 0.48110766715848474,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1830,
+   "punteggio": 0.4764877385789326,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1363,
+   "punteggio": 0.4758509652985046,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1824,
+   "punteggio": 0.47470237074261384,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1112,
+   "punteggio": 0.4740953162045421,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1900,
+   "punteggio": 0.47257871408024116,
+   "file": "volantino_convenzione_palestra.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 161,
+   "punteggio": 0.47162466780601964,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1367,
+   "punteggio": 0.47133102507267344,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1525,
+   "punteggio": 0.47078870119232763,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 666,
+   "punteggio": 0.4687449352456134,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 528,
+   "punteggio": 0.46631736080144653,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1829,
+   "punteggio": 0.46564347972798514,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 523,
+   "punteggio": 0.4606173100016538,
+   "file": "Fwd_newsletter_confindustria_marzo.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1364,
+   "punteggio": 0.4605895331542639,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 8,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 433,
+   "punteggio": 15.024397850036621,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 434,
+   "punteggio": 14.928375244140625,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 287,
+   "punteggio": 13.706442832946777,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 428,
+   "punteggio": 13.4025297164917,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1366,
+   "punteggio": 13.191754341125488,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1114,
+   "punteggio": 13.140724182128906,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1830,
+   "punteggio": 12.80869197845459,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1900,
+   "punteggio": 12.420173645019531,
+   "file": "volantino_convenzione_palestra.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 505,
+   "punteggio": 12.130072593688965,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1782,
+   "punteggio": 12.051803588867188,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 435,
+   "punteggio": 11.664484977722168,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1705,
+   "punteggio": 11.576903343200684,
+   "file": "segnalazione_guasto_cancello_carraio.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 286,
+   "punteggio": 11.491815567016602,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 4,
+   "punteggio": 11.33605670928955,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1117,
+   "punteggio": 10.51953125,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1365,
+   "punteggio": 10.5042085647583,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 154,
+   "punteggio": 10.445040702819824,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1792,
+   "punteggio": 10.383559226989746,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1835,
+   "punteggio": 10.294584274291992,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1781,
+   "punteggio": 10.243678092956543,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 433,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.03278688524590164,
+   "rango_denso": 1,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1830,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.029631255487269532,
+   "rango_denso": 8,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.028629032258064516,
+   "rango_denso": 2,
+   "rango_sparso": 20
+  },
+  {
+   "cid": 1900,
+   "file": "volantino_convenzione_palestra.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.028594771241830064,
+   "rango_denso": 12,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 287,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1524,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 336,
+   "file": "corso_inglese_aziendale_proposta.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 428,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1825,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1114,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1828,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1358,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 505,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1363,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1824,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 435,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1112,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1705,
+   "file": "segnalazione_guasto_cancello_carraio.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 161,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 286,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 4,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 336,
+   "file": "corso_inglese_aziendale_proposta.txt",
+   "rerank": 0.0413808710873127
+  },
+  {
+   "cid": 433,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.007695796433836222
+  },
+  {
+   "cid": 1524,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.005287747830152512
+  },
+  {
+   "cid": 1900,
+   "file": "volantino_convenzione_palestra.txt",
+   "rerank": 0.001869663130491972
+  },
+  {
+   "cid": 4,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.0003540660545695573
+  },
+  {
+   "cid": 1112,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.0003162755456287414
+  },
+  {
+   "cid": 161,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "rerank": 0.0002348324633203447
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.00022625416750088334
+  },
+  {
+   "cid": 1114,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.00011032044858438894
+  },
+  {
+   "cid": 505,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 0.00010915099119301885
+  },
+  {
+   "cid": 428,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.0001065940159605816
+  },
+  {
+   "cid": 1363,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.00010061282227979973
+  },
+  {
+   "cid": 1824,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "rerank": 9.347889863420278e-05
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 7.984954572748393e-05
+  },
+  {
+   "cid": 1825,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "rerank": 6.131827103672549e-05
+  },
+  {
+   "cid": 1830,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 4.541531961876899e-05
+  },
+  {
+   "cid": 1358,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 3.107295196969062e-05
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 2.7525715267984197e-05
+  },
+  {
+   "cid": 435,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 2.26519514399115e-05
+  },
+  {
+   "cid": 1828,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 2.0747444068547338e-05
+  },
+  {
+   "cid": 286,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 1.688184420345351e-05
+  },
+  {
+   "cid": 287,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 1.6461619452456944e-05
+  },
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 1.6308442354784347e-05
+  },
+  {
+   "cid": 1705,
+   "file": "segnalazione_guasto_cancello_carraio.txt",
+   "rerank": 1.62893866217928e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 336,
+   "file": "corso_inglese_aziendale_proposta.txt",
+   "origine": "nativa",
+   "rerank": 0.0413808710873127,
+   "testo": "Da: info@britishpointvr.it\nA: info@aurorafoodgroup.it\nOggetto: Corsi di inglese aziendali - proposta formativa 2026/2027\n\nGentile Cliente,\n\nBritish Point Verona propone alla Vostra spettabile azienda un percorso di formazione\nlinguistica pensato per le realta' produttive del territorio.\n\nPERCHE' L'INGLESE IN AZIENDA\nIn un mercato sempre piu' internazionale, la padronanza della lingua inglese rappresenta\nun fattore competitivo determinante. I nostri corsi sono progettati per fornire competenze\nimmediatamente spendibili nel contesto lavorativo.\n\nPROPOSTA\n- Corso \"Business English\" livello A2/B1, 40 ore\n- Gruppi da 4 a 8 partecipanti\n- Lezioni in azienda, 2 ore settimanali in orario da concordare\n- Docente madrelingua qualificato CELTA\n- Materiale didattico incluso\n- Test di ingresso e attestato finale\n\nQUOTA\nEUR 2.400,00 + IVA a gruppo (40 ore) - EUR 60,00/ora\nPossibilita' di finanziamento tramite Fondimpresa o Fondirigenti: il nostro ufficio\npuo' assistervi gratuitamente nella predisposizione del piano formativo.\n\nRestiamo a disposizione per un incontro conoscitivo senza impegno.\n\nCordiali saluti\nUfficio Commerciale\nBRITISH POINT VERONA\ntel. 045 8000000"
+  },
+  {
+   "cid": 433,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "origine": "nativa",
+   "rerank": 0.007695796433836222,
+   "testo": ">>   4. Hoxha Fatjon      - lettera 08/05/2026 - ultimo giorno 31/05\n>>\n>> Tutti e quattro, nel colloquio di uscita o nella lettera, hanno\n>> indicato lo stesso motivo: i turni domenicali. Peruzzi testuale:\n>> \"non ho più una vita, mia figlia la vedo il martedì\". Stoica e\n>> Diallo sono andati entrambi in aziende metalmeccaniche della zona,\n>> stesso livello, NESSUN turno festivo.\n>>\n>> COSTO DI SOSTITUZIONE (per singola uscita, stima prudente):\n>>   - ricerca e selezione (agenzia)            1.100 EUR\n>>   - somministrazione primi 3 mesi (delta)    1.650 EUR\n>>   - formazione obbligatoria + HACCP + DPI      450 EUR\n>>   - affiancamento (ore capoturno + calo resa) 1.600 EUR\n>>   TOTALE ~ 4.800 EUR a persona\n>>   x 4 uscite = 19.200 EUR da gennaio ad oggi.\n>>\n>> PROPOSTA (da validare con il titolare):\n>> premio presenza di 120 EUR lordi/mese per gli operai di Linea 2\n>> che garantiscono la disponibilità domenicale a rotazione.\n>> Costo pieno: 120 x 10 persone x 12 mesi = 14.400 EUR/anno.\n>> Meno di quanto abbiamo già bruciato in sostituzioni, e almeno\n>> smettiamo di formare gente per i concorrenti.\n>>\n>> Aggiungo un dato che non fa piacere: Umana ci ha detto ieri che"
+  },
+  {
+   "cid": 1524,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "origine": "nativa",
+   "rerank": 0.005287747830152512,
+   "testo": "extra 2026 gia' fatturati: pratica credito imposta 4.0 tunnel Criotech,\n  acconto 1.500 € (fatt. 188/2026 del 12/05) - il resto a consuntivo,\n  ha detto \"dipende dalla perizia\" (vedi sua nota, girata a Bertoldi)\ndott.ssa VICENTINI Chiara - Studio Alimentaria (VR) - consulenza HACCP\n  canone 780 €/mese (visita mensile + aggiornamento manuale + formazione)\n  extra maggio: 16 h supporto gestione reclamo/ritiro a 75 €/h = 1.200 €\n  (approvate da Fantin al volo, giustamente)\np.i. BONATO Sergio - Studio Bonato & Partners (Arzignano) - RSPP esterno\n  incarico annuo 5.400 € + corsi sicurezza a listino\n  extra: pratica infortunio linea 3 (dito, 12 gg) compresa nel canone\nmedico competente (dott. Salvalaio): 38 €/visita x ~55 visite/anno + forfait\n  1.100 € = ~3.200 €/anno\nconsulente etichettatura/legale alimentare (avv. Faccin, a chiamata):\n  2025: 950 €. 2026 al 26/05: zero (sgrat sgrat)\nconsulenza dogane/export: NN ATTIVA (se parte l'export Austria sentire\n  CCIAA prima di pagare consulenti)\n\nTOT PROVVISORIO CONSULENZE (senza extra futuri): 21.600+6.120+9.360+5.400+3.200\n  = 45.680 €/anno + gli extra che arrivano sempre\n\n\n=== 8. ALTRI COSTI FISSI ==============================="
+  },
+  {
+   "cid": 1900,
+   "file": "volantino_convenzione_palestra.txt",
+   "origine": "nativa",
+   "rerank": 0.001869663130491972,
+   "testo": "***  CONVENZIONE AZIENDALE  ***\n\n                       FITNESS CLUB COLOGNA\n                  Via Circonvallazione 88 - Cologna Veneta\n\nSiamo lieti di comunicare che e' stata attivata una convenzione riservata ai dipendenti\ndi Aurora Food Group S.r.l. e ai loro familiari conviventi.\n\n     ABBONAMENTO ANNUALE SALA PESI + CORSI     EUR 380,00  (anziche' 480,00)\n     ABBONAMENTO SEMESTRALE                    EUR 230,00  (anziche' 290,00)\n     ABBONAMENTO MENSILE                       EUR  45,00  (anziche'  55,00)\n     INGRESSO SINGOLO                          EUR   7,00\n\n     - ingresso libero in tutti gli orari di apertura\n     - corsi inclusi: functional, pilates, spinning, total body\n     - prima visita medica sportiva convenzionata\n     - possibilita' di rateizzazione senza interessi\n\nPer usufruire della convenzione e' sufficiente presentarsi in reception con il\nbadge aziendale o una busta paga recente.\n\nOrari: lun-ven 07.00-22.00 / sab 09.00-19.00 / dom 09.00-13.00\n\n                        Vi aspettiamo!"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4566,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.2,
+  "rerank": 39.76
+ },
+ "id": "Q158",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:54:49",
+ "secondi": 39.98,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 68.98,
+  "token_prompt": 1853,
+  "token_risposta": 167,
+  "testo_grezzo": "La proposta di British Point Verona prevede un corso di inglese aziendale con 40 ore di lezioni, suddivise in 2 ore settimanali in orario da concordare, con un costo di EUR 2.400,00 + IVA a gruppo (40 ore) - EUR 60,00/ora.\n\nIl costo totale per un corso è di EUR 2.400,00 + (40 ore x EUR 60,00/ora) = EUR 2.400,00 + EUR 2.400,00 = EUR 4.800,00.\n\nFONTI: corso_inglese_aziendale_proposta.txt, email_HR_dimissioni_operai_linea2.txt\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "corso_inglese_aziendale_proposta.txt",
+   "email_HR_dimissioni_operai_linea2.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

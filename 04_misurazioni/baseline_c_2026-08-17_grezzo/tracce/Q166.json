@@ -1,0 +1,681 @@
+{
+ "domanda": "Che fine ha fatto la fattura dei vasetti Euroglass?",
+ "candidati_densi": [
+  {
+   "cid": 504,
+   "punteggio": 0.5909606165518895,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 25,
+   "origine": "nativa"
+  },
+  {
+   "cid": 358,
+   "punteggio": 0.5207593665864039,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 542,
+   "punteggio": 0.5084413247933453,
+   "file": "img20260428_09241055.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 538,
+   "punteggio": 0.49522341757692057,
+   "file": "img20260428_09241055.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 356,
+   "punteggio": 0.49337573248087585,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 354,
+   "punteggio": 0.48830390406544466,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1186,
+   "punteggio": 0.4868331381669593,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 460,
+   "punteggio": 0.48673417263823276,
+   "file": "estratto_registro_carico_scarico_MOCA.xlsx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 543,
+   "punteggio": 0.46608889402926756,
+   "file": "img20260428_09241055.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 359,
+   "punteggio": 0.4632231545613444,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 452,
+   "punteggio": 0.4620839489815475,
+   "file": "estratto_registro_carico_scarico_MOCA.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 539,
+   "punteggio": 0.4574627054785912,
+   "file": "img20260428_09241055.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1255,
+   "punteggio": 0.45400106490185155,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 458,
+   "punteggio": 0.4439042545249657,
+   "file": "estratto_registro_carico_scarico_MOCA.xlsx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 540,
+   "punteggio": 0.44089223421037155,
+   "file": "img20260428_09241055.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 554,
+   "punteggio": 0.4373267518197137,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 553,
+   "punteggio": 0.43730595113756715,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 357,
+   "punteggio": 0.4370498860334744,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1613,
+   "punteggio": 0.4370288984073306,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1799,
+   "punteggio": 0.43636741366131643,
+   "file": "vendor_rating_fornitori_2026.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 504,
+   "punteggio": 27.50303077697754,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 25,
+   "origine": "nativa"
+  },
+  {
+   "cid": 431,
+   "punteggio": 16.277982711791992,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1805,
+   "punteggio": 15.112244606018066,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 324,
+   "punteggio": 14.765158653259277,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1781,
+   "punteggio": 14.52826976776123,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1775,
+   "punteggio": 14.201883316040039,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1707,
+   "punteggio": 14.199372291564941,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 357,
+   "punteggio": 14.189505577087402,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 289,
+   "punteggio": 14.07382869720459,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 434,
+   "punteggio": 14.058353424072266,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1111,
+   "punteggio": 13.799930572509766,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1240,
+   "punteggio": 13.502890586853027,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1797,
+   "punteggio": 13.275274276733398,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 24,
+   "origine": "nativa"
+  },
+  {
+   "cid": 542,
+   "punteggio": 13.259458541870117,
+   "file": "img20260428_09241055.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1784,
+   "punteggio": 13.115241050720215,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 359,
+   "punteggio": 13.075506210327148,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 510,
+   "punteggio": 12.970205307006836,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1110,
+   "punteggio": 12.919111251831055,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1114,
+   "punteggio": 12.836715698242188,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1833,
+   "punteggio": 12.678889274597168,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 5,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 504,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 25,
+   "origine": "nativa",
+   "rrf": 0.03278688524590164,
+   "rango_denso": 1,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 542,
+   "file": "img20260428_09241055.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.029386529386529386,
+   "rango_denso": 3,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 357,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.027526395173453996,
+   "rango_denso": 18,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 359,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.027443609022556388,
+   "rango_denso": 10,
+   "rango_sparso": 16
+  },
+  {
+   "cid": 358,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1805,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 324,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 538,
+   "file": "img20260428_09241055.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 356,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 354,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1775,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1186,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1707,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 460,
+   "file": "estratto_registro_carico_scarico_MOCA.xlsx",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 289,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 543,
+   "file": "img20260428_09241055.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 452,
+   "file": "estratto_registro_carico_scarico_MOCA.xlsx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1111,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 539,
+   "file": "img20260428_09241055.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1240,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1255,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 504,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "rerank": 0.8412630558013916
+  },
+  {
+   "cid": 356,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "rerank": 0.058061979711055756
+  },
+  {
+   "cid": 543,
+   "file": "img20260428_09241055.txt",
+   "rerank": 0.05440361425280571
+  },
+  {
+   "cid": 357,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "rerank": 0.04856846481561661
+  },
+  {
+   "cid": 1255,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "rerank": 0.04611418396234512
+  },
+  {
+   "cid": 1186,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.04113694652915001
+  },
+  {
+   "cid": 358,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "rerank": 0.03946097195148468
+  },
+  {
+   "cid": 359,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "rerank": 0.03502456843852997
+  },
+  {
+   "cid": 542,
+   "file": "img20260428_09241055.txt",
+   "rerank": 0.03226163610816002
+  },
+  {
+   "cid": 539,
+   "file": "img20260428_09241055.txt",
+   "rerank": 0.014496548101305962
+  },
+  {
+   "cid": 452,
+   "file": "estratto_registro_carico_scarico_MOCA.xlsx",
+   "rerank": 0.013702296651899815
+  },
+  {
+   "cid": 354,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "rerank": 0.012969800271093845
+  },
+  {
+   "cid": 538,
+   "file": "img20260428_09241055.txt",
+   "rerank": 0.012257752008736134
+  },
+  {
+   "cid": 460,
+   "file": "estratto_registro_carico_scarico_MOCA.xlsx",
+   "rerank": 0.01168876700103283
+  },
+  {
+   "cid": 1111,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.0003173408331349492
+  },
+  {
+   "cid": 324,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.0002324174129171297
+  },
+  {
+   "cid": 1775,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 6.442365702241659e-05
+  },
+  {
+   "cid": 1240,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 3.0467896067420952e-05
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 2.6163432266912423e-05
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 2.5842033210210502e-05
+  },
+  {
+   "cid": 1805,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 2.1406209270935506e-05
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 1.6956322724581696e-05
+  },
+  {
+   "cid": 1707,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 1.6763591702328995e-05
+  },
+  {
+   "cid": 289,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 1.6398835214204155e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 504,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "origine": "nativa",
+   "rerank": 0.8412630558013916,
+   "testo": "<Descrizione>00301 - Partita IVA cedente non valida : verifica anagrafica IdFiscaleIVA/IdCodice 01455870483 [EUROGLASS BOCCACCI S.R.L. - EMPOLI FI]</Descrizione>\n      </Errore>\n   </ListaErrori>\n   <MessageId>184490221</MessageId>\n</ns3:RicevutaScarto>\ngirata a Euroglass il 20/05 via PEC, dicono che hanno cambiato P.IVA con la fusione e il gestionale mandava ancora la vecchia. Rimandano la fattura vasetti a giugno. AVVISARE MAGAZZINO che la bolla resta senza fattura (L.T.)\n\nfine export - 9 documenti - portale Fatture e Corrispettivi Agenzia delle Entrate"
+  },
+  {
+   "cid": 356,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "origine": "nativa",
+   "rerank": 0.058061979711055756,
+   "testo": "EUROGLASS BOCCACCI S.r.l. - Via delle Fornaci 118 - 50053 Empoli (FI)\nDDT 99201/26 del 05/05/2026 - documento emesso da sistema EGB-Gest v.4.2\n                                                              Pag. 1 di 3\n\nEUROGLASS BOCCACCI S.r.l.\nContenitori in vetro per l'industria alimentare\nVia delle Fornaci 118 - 50053 EMPOLI (FI)\n\nDDT n.  99201/26            Data:  05/05/2026            Pag. 2 di 3\n\nRiga  Cod.Art.       Descrizione                                  UM      Q.ta\n----  ------------   -----------------------------------------   ---   --------\n002   CP-TO63-AU     CAPSULA TWIST-OFF diam. 63 mm\n                        banda stagnata - vernice interna BPA-NI\n                        colore ORO - bottone di sicurezza\n                                                                  pz    48.000\n         Pedana 9/10    lotto capsulificio CAP-63-0455   pz 24.000\n         Pedana 10/10   lotto capsulificio CAP-63-0455   pz 24.000\n              (scatole da 1.000 pz - 24 scatole/pedana)\n\n003   DIV-CART       DIVISORE IN CARTONE ONDULATO 800x1200         pz       64\n                        a corredo pedane vasetti - non fatturabile"
+  },
+  {
+   "cid": 543,
+   "file": "img20260428_09241055.txt",
+   "origine": "nativa",
+   "rerank": 0.05440361425280571,
+   "testo": "con documentazione fotografica (rif. ns. cond. gen. vendita art. 9)\n\nAnnotazioni del vettore:\n  arrivo ore 11:20 - attesa min. 15 - scarico banchina 2\n\nFirma conducente: ____________________\n\nFirma del destinatario per ricevuta e controllo colli:\n   (firmato) Faggionato\n\n--------------------------------------------------------------------\nNOTE DI RICEVIMENTO (a mano, in calce alla copia archiviata)\n\n  ricev. 05/05 h 11.55 - controllate 10 pedane\n  2 pedane con film strappato (ped. 4/8 e 7/8), vasetti a vista\n  sporchi di polvere sul cappuccio -> ACCETTATE CON RISERVA - N.F.\n  foto fatte col telefono, girate a Pozzato x valutazione QA\n  vasetti riga 001 -> ubicaz. MAG-EST scaff. E-03 e E-04\n  capsule riga 002 -> E-05 (tenere lontano da umido!!)\n  riserva scritta anche sul CMR del vettore, copia in raccoglitore\n  DDT ingresso - registrato su MOD-MAG-02 il 05/05\n  NB x acquisti: mancano ancora 2 pedane vasetti a saldo ordine\n  OA-26-0139 (previste sett. 20) - sollecitare se non arrivano\n\nEUROGLASS BOCCACCI S.r.l. - Via delle Fornaci 118 - 50053 Empoli (FI)\nDDT 99201/26 del 05/05/2026 - documento emesso da sistema EGB-Gest v.4.2"
+  },
+  {
+   "cid": 357,
+   "file": "DDT_Euroglass_Boccacci_Vetro_N99201.txt",
+   "origine": "nativa",
+   "rerank": 0.04856846481561661,
+   "testo": "003   DIV-CART       DIVISORE IN CARTONE ONDULATO 800x1200         pz       64\n                        a corredo pedane vasetti - non fatturabile\n\nTotale colli/pedane:   10        di cui EPAL a rendere:  10\nPeso netto kg:   9.845,60\nPeso lordo kg:  10.412,00\nAspetto esteriore dei beni: pedane filmate con cappuccio\n\nDICHIARAZIONE DI CONFORMITA' MOCA\nSi dichiara che i materiali di cui alle righe 001 e 002 sono conformi\nal Reg. (CE) 1935/2004, al Reg. (CE) 2023/2006 (GMP) e, per il vetro,\nal D.M. 21/03/1973 e s.m.i.; per la capsula, al Reg. (UE) 10/2011 per\nle parti in materia plastica (guarnizione) - idonei al contatto con\nalimenti acquosi, acidi e grassi, pastorizzabili fino a 100 gradi C.\nDichiarazione di conformita' analitica dettagliata: doc. DoC-EGB-26-031\nrev.1 del 12/01/2026, gia' trasmessa al vs. uff. Qualita'\n(dott.ssa Marchetti) e disponibile su portale fornitori.\nTracciabilita' garantita per lotto ai sensi Reg. CE 178/2002 art. 18.\n\nEUROGLASS BOCCACCI S.r.l. - Via delle Fornaci 118 - 50053 Empoli (FI)\nDDT 99201/26 del 05/05/2026 - documento emesso da sistema EGB-Gest v.4.2\n                                                              Pag. 2 di 3"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4027,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.19,
+  "rerank": 43.57
+ },
+ "id": "Q166",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:00:50",
+ "secondi": 43.79,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 51.33,
+  "token_prompt": 1691,
+  "token_risposta": 75,
+  "testo_grezzo": "La fattura dei vasetti Euroglass non è stata inviata al destinatario.\n\nFONTI: Fatture_Elettroniche_SDI_Inbound_Q2.txt, DDT_Euroglass_Boccacci_Vetro_N99201.txt, DDT_Euroglass_Boccacci_Vetro_N99201.txt\n\nCONFIDENZA: alta",
+  "fonti_citate": [
+   "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "DDT_Euroglass_Boccacci_Vetro_N99201.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "alta"
+ }
+}

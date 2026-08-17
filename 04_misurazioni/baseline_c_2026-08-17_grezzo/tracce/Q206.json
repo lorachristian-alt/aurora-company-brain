@@ -1,0 +1,683 @@
+{
+ "domanda": "Quanto pesa l'energia sul totale dei costi fissi, e cosa succede quando entra il tunnel?",
+ "candidati_densi": [
+  {
+   "cid": 174,
+   "punteggio": 0.5480325923567803,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 148,
+   "punteggio": 0.5284474747737393,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 173,
+   "punteggio": 0.5278014451693289,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 485,
+   "punteggio": 0.523951771840379,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1782,
+   "punteggio": 0.5222680035773574,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1807,
+   "punteggio": 0.5110561701541116,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1110,
+   "punteggio": 0.5062866418031112,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 140,
+   "punteggio": 0.49850645893232515,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1781,
+   "punteggio": 0.4983617762533571,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1221,
+   "punteggio": 0.49814182716966465,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1521,
+   "punteggio": 0.4914135653500443,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1220,
+   "punteggio": 0.4911121156731208,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 486,
+   "punteggio": 0.49043689123985706,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1629,
+   "punteggio": 0.48775023340034884,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 528,
+   "punteggio": 0.48623945504599997,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 137,
+   "punteggio": 0.48368764211497167,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 169,
+   "punteggio": 0.4815090810202461,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1514,
+   "punteggio": 0.48016738198462505,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 139,
+   "punteggio": 0.47165801831598975,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 527,
+   "punteggio": 0.46560862336074543,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 3,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1366,
+   "punteggio": 22.080289840698242,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 165,
+   "punteggio": 21.595027923583984,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1834,
+   "punteggio": 20.768417358398438,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1831,
+   "punteggio": 20.37318229675293,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1835,
+   "punteggio": 20.15440559387207,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1837,
+   "punteggio": 19.920488357543945,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1813,
+   "punteggio": 19.914880752563477,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1782,
+   "punteggio": 19.71734619140625,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 10,
+   "punteggio": 18.69878387451172,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1364,
+   "punteggio": 18.336530685424805,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 506,
+   "punteggio": 18.04299545288086,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 44,
+   "punteggio": 17.215822219848633,
+   "file": "analisi_marginalita_per_referenza_2026.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1353,
+   "punteggio": 17.131826400756836,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 328,
+   "punteggio": 16.706310272216797,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1527,
+   "punteggio": 16.606313705444336,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1117,
+   "punteggio": 16.288406372070312,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1514,
+   "punteggio": 16.173490524291992,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 149,
+   "punteggio": 15.852625846862793,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1110,
+   "punteggio": 15.750677108764648,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1095,
+   "punteggio": 15.26294994354248,
+   "file": "mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt",
+   "idx": 1,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.030090497737556562,
+   "rango_denso": 5,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.027583600982429624,
+   "rango_denso": 7,
+   "rango_sparso": 19
+  },
+  {
+   "cid": 1514,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.025807525807525808,
+   "rango_denso": 18,
+   "rango_sparso": 17
+  },
+  {
+   "cid": 174,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 148,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 165,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 173,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1834,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 485,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1831,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1835,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1807,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1837,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1813,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 140,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 10,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1221,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1364,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 506,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1521,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 44,
+   "file": "analisi_marginalita_per_referenza_2026.xlsx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1220,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1521,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.09950737655162811
+  },
+  {
+   "cid": 165,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "rerank": 0.05438622087240219
+  },
+  {
+   "cid": 1807,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.01776389218866825
+  },
+  {
+   "cid": 148,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "rerank": 0.016054008156061172
+  },
+  {
+   "cid": 1220,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "rerank": 0.011808895505964756
+  },
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.010040128603577614
+  },
+  {
+   "cid": 1514,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.006516965106129646
+  },
+  {
+   "cid": 1221,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "rerank": 0.005007874686270952
+  },
+  {
+   "cid": 173,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "rerank": 0.002969462191686034
+  },
+  {
+   "cid": 485,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "rerank": 0.0022959678899496794
+  },
+  {
+   "cid": 174,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "rerank": 0.0021339382510632277
+  },
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.001437715021893382
+  },
+  {
+   "cid": 1813,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.0010071524884551764
+  },
+  {
+   "cid": 1781,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0007723630405962467
+  },
+  {
+   "cid": 10,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.0006974076968617737
+  },
+  {
+   "cid": 140,
+   "file": "bolletta_VenetaEnergia_maggio2026.pdf",
+   "rerank": 0.0005124268936924636
+  },
+  {
+   "cid": 44,
+   "file": "analisi_marginalita_per_referenza_2026.xlsx",
+   "rerank": 0.00038033531745895743
+  },
+  {
+   "cid": 1834,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.00010012872371589765
+  },
+  {
+   "cid": 1364,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 7.874547009123489e-05
+  },
+  {
+   "cid": 1837,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 6.756827497156337e-05
+  },
+  {
+   "cid": 1831,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 5.423798211268149e-05
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 5.279803735902533e-05
+  },
+  {
+   "cid": 1835,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 2.020429565163795e-05
+  },
+  {
+   "cid": 506,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 1.6598150978097692e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1521,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "origine": "nativa",
+   "rerank": 0.09950737655162811,
+   "testo": "feb-26   V26/00988  VENETA EN.  EE  stesso POD           19.882,11   4.374,06   24.256,17\nmar-26   V26/01544  VENETA EN.  EE                    22.104  ,55  4.863,00  26.967,55\ngen-26   V26/00413  VENETA EN.  GAS PDR 0088801244    9.  914,60  2.181,21   12.095,81\nfeb-26   V26/00989  VENETA EN.  GAS                      8.771,03  1.929,63  10.700,66\nmar-26   V26/01545  VENETA EN.  GAS                      7.402,88  1.628,63   9.031,51\napr-26   V26/02101  VENETA EN.  EE                       20.550,37  4.521,08  25.071,45\napr-26   V26/02102  VENETA EN.  GAS                      5.912,40  1.300,73   7.213,13\n\nmedia EE gen-apr: ~21.000 €/mese imponibile -> stima anno 250.000/260.000\nmedia GAS: dipende stagione, stima anno 75.000/85.000\n  nb: il tunnel Criotech quando entra ALZA la bolletta elettrica ma\n  Criotech dichiara -38% di consumo specifico rispetto al TS-01 a piastre\n  (kWh/kg surgelato) - i conti veri nel file CapEx, io qui nn li rifaccio\n\nACQUA acquedotto + pozzo: ~1.850 €/mese medio (il pozzo ha il canone\n  regionale derivazione, 412 €/anno, paga a marzo, PAGATO)\ndepuratore consortile: canone + eccedenze COD: 2025 chiuso a 31.400 €"
+  },
+  {
+   "cid": 165,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "origine": "nativa",
+   "rerank": 0.05438622087240219,
+   "testo": "AURORA FOOD GROUP SRL - Budget economico 2026 per linea\nelaborazione L. Trentin - ultima modifica 03/06/2026 - NON DIFFONDERE\n\n\nMese Linea Volumi (pz) Prezzo medio Ricavi Materie prime Manodopera Energia Manutenz. Ammort. Costi totali MdC MdC % note Trentin:\ngennaio Linea 1 170823 0.742 4029.07 5100 energia gen-mag da bolletta, giu-dic stimata +6% (Veneta Energia ha già avvisato)\ngennaio Linea 2 101812 1.1942 2627.93 3800 manutenzione maggio comprende la riparazione PKM-450 (fattura Pakmatic non ancora arrivata)\ngennaio Linea 3 54533 1.6507 2044.69 7400 ATTENZIONE: linea 3 con ammortamento vecchio tunnel, da rifare quando entra il Criotech\nfebbraio Linea 1 173599 0.7451 3260.72 5100\nfebbraio Linea 2 99782 1.1893 3554.58 3800\nfebbraio Linea 3 56490 1.6332 3332.6 7400\nmarzo Linea 1 179677 0.7406 3873.81 5100\nmarzo Linea 2 104393 1.1807 3234.68 3800\nmarzo Linea 3 58529 1.633 2496.55 7400\naprile Linea 1 186694 0.7429 2073.85 5100\naprile Linea 2 106471 1.1866 3686.26 3800\naprile Linea 3 60138 1.6498 1965.9 7400\nmaggio Linea 1 189528 0.7384 3715.87 5100\nmaggio Linea 2 111987 1.1803 3955.31 3800\nmaggio Linea 3 62072 1.6477 3220.21 7400\n--- da qui in poi BUDGET, sopra CONSUNTIVO ---"
+  },
+  {
+   "cid": 1807,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "origine": "nativa",
+   "rerank": 0.01776389218866825,
+   "testo": "crescente difficoltà di reperimento dei ricambi, con due fermi non pianificati nel corso del 2025 per complessive 41 ore;\nconsumi energetici per unità di prodotto superiori di circa il 35% rispetto alle soluzioni attuali, in un contesto di costi energetici crescenti;\nrischio, in caso di fermata prolungata, di mancata consegna sugli ordini a marchio del cliente principale, con le penali contrattuali che ne conseguirebbero.\n\nL'ing. Fantin illustra quindi la soluzione individuata all'esito della comparazione di tre offerte (Criotech Impianti S.r.l., altre due offerte agli atti dell'ufficio tecnico): tunnel di surgelazione a spirale modello CR-SP180 del fornitore Criotech Impianti S.r.l. di Reggio Emilia (codice fornitore F0070), comprensivo di smontaggio del TS-01, installazione, avviamento e collaudo, formazione del personale.\n\n\nCondizioni di pagamento proposte: 30% all'ordine (€ 87.000,00), 60% alla consegna in stabilimento, 10% al collaudo positivo. Consegna prevista: fine luglio 2026, con installazione programmata nella fermata di fine agosto. Garanzia 24 mesi."
+  },
+  {
+   "cid": 148,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "origine": "nativa",
+   "rerank": 0.016054008156061172,
+   "testo": "• + listing fee eventuali nuovi inserimenti GDO: 12.000 (richiesta gia' pervenuta\ndal cliente principale per ALTRA referenza - prudenzialmente prevedere analoga\nrichiesta anche su 0470)\nNota relatore: NON confondere con il CapEx tunnel Criotech (linea 3, delibera 2025,\ngia' in corso) - se il CdA li somma viene fuori un discorso cassa che a giugno e'\nmeglio non aprire. Tenerli SEPARATI.\n(senza titolo)\n\nCONTO ECONOMICO DI PRODOTTO (euro/pz, scenario marchio Aurora)\nricavo netto cessione:            1,05\ningredienti:                      0,26\n(di cui caratterizzanti 0,07)\nfilm + confezionamento:           0,09\nenergia + utilities:              0,08\nmanodopera diretta:               0,14\nammortamenti dedicati:            0,04\nlogistica:                        0,07\ncosto pieno industriale:          0,68\nmargine industriale:              0,37 = 35%\n• ATTENZIONE: tabella da rifare con i costi aggiornati (vedi nota slide 6: 28-32%\na seconda dello scenario paprika/energia). Il 35% qui viene dal primo giro di\nmarzo di Zanchetta. tre numeri diversi in tre file = figuraccia col CdA, ALLINEARE.\n(senza titolo)\n\nBREAK-EVEN"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4552,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.18,
+  "rerank": 43.0
+ },
+ "id": "Q206",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:31:33",
+ "secondi": 43.19,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 77.92,
+  "token_prompt": 2048,
+  "token_risposta": 104,
+  "testo_grezzo": "La domanda non contiene informazioni sufficienti per calcolare l'energia sul totale dei costi fissi. Non sono presenti dati specifici su energia, costi fissi o tunnel.\n\nFONTI: report_costi_fissi_OpEx_manutenzioni.txt, budget_2026_vs_consuntivo_per_linea.xlsx, verbale_CDA_approvazione_investimento_tunnel.docx, bozza_presentazione_nuova_linea_snack_CDA.pptx",
+  "fonti_citate": [
+   "report_costi_fissi_OpEx_manutenzioni.txt",
+   "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "bozza_presentazione_nuova_linea_snack_CDA.pptx"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

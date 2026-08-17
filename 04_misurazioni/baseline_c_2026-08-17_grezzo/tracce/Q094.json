@@ -1,0 +1,681 @@
+{
+ "domanda": "Nella settimana della promo abbiamo bucato lo scaffale da qualche parte?",
+ "candidati_densi": [
+  {
+   "cid": 1209,
+   "punteggio": 0.5300713032822746,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 31,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1789,
+   "punteggio": 0.5245044422450129,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 155,
+   "punteggio": 0.524276435224844,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 435,
+   "punteggio": 0.5240391786183278,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1718,
+   "punteggio": 0.522237721511017,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1245,
+   "punteggio": 0.5216172251550021,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1833,
+   "punteggio": 0.5204045208298173,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1197,
+   "punteggio": 0.5179686833473428,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1194,
+   "punteggio": 0.510037797408459,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1828,
+   "punteggio": 0.5049843449287867,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 434,
+   "punteggio": 0.5013779918426893,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 255,
+   "punteggio": 0.4954802344627216,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1114,
+   "punteggio": 0.4941972854152742,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 431,
+   "punteggio": 0.48966913809353835,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 85,
+   "punteggio": 0.4888191997351636,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1187,
+   "punteggio": 0.48765627932118955,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1717,
+   "punteggio": 0.4855787315633409,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1788,
+   "punteggio": 0.48252640653443823,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1314,
+   "punteggio": 0.4794765544074673,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1831,
+   "punteggio": 0.47742705939088853,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1830,
+   "punteggio": 25.80597496032715,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1109,
+   "punteggio": 18.06112289428711,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1835,
+   "punteggio": 16.141942977905273,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 259,
+   "punteggio": 16.0693302154541,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1110,
+   "punteggio": 15.948705673217773,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 160,
+   "punteggio": 15.655424118041992,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 519,
+   "punteggio": 15.109101295471191,
+   "file": "Fwd_Fwd_Fwd_ATTENZIONE_richiamo_prodotto_concorrente_RASFF.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 155,
+   "punteggio": 14.662848472595215,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 146,
+   "punteggio": 14.605116844177246,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1424,
+   "punteggio": 14.238984107971191,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 161,
+   "punteggio": 14.044573783874512,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 145,
+   "punteggio": 13.590437889099121,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1779,
+   "punteggio": 13.558609008789062,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 154,
+   "punteggio": 13.536860466003418,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1718,
+   "punteggio": 13.368496894836426,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1426,
+   "punteggio": 13.254886627197266,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1116,
+   "punteggio": 13.235885620117188,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1794,
+   "punteggio": 13.078837394714355,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 21,
+   "origine": "nativa"
+  },
+  {
+   "cid": 433,
+   "punteggio": 12.846988677978516,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1397,
+   "punteggio": 12.742557525634766,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 1,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 155,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.03057889822595705,
+   "rango_denso": 3,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1718,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.02871794871794872,
+   "rango_denso": 5,
+   "rango_sparso": 15
+  },
+  {
+   "cid": 1209,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 31,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1830,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1109,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1789,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1835,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 259,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 435,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 160,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1245,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 519,
+   "file": "Fwd_Fwd_Fwd_ATTENZIONE_richiamo_prodotto_concorrente_RASFF.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1833,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1197,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 146,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1194,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1424,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1828,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 161,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 145,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 255,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1114,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1830,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.16768896579742432
+  },
+  {
+   "cid": 1197,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.00959084089845419
+  },
+  {
+   "cid": 1833,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.009573847986757755
+  },
+  {
+   "cid": 1718,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.008787303231656551
+  },
+  {
+   "cid": 435,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.007017794065177441
+  },
+  {
+   "cid": 259,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "rerank": 0.006416214630007744
+  },
+  {
+   "cid": 1209,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.006271884310990572
+  },
+  {
+   "cid": 145,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "rerank": 0.004923449829220772
+  },
+  {
+   "cid": 255,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "rerank": 0.004790079314261675
+  },
+  {
+   "cid": 155,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "rerank": 0.004458827897906303
+  },
+  {
+   "cid": 146,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "rerank": 0.004447311162948608
+  },
+  {
+   "cid": 1789,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.003543857019394636
+  },
+  {
+   "cid": 161,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "rerank": 0.003277571639046073
+  },
+  {
+   "cid": 160,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "rerank": 0.0027370527386665344
+  },
+  {
+   "cid": 1109,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.0024304005783051252
+  },
+  {
+   "cid": 1828,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.0016549872234463692
+  },
+  {
+   "cid": 1194,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.0014087388990446925
+  },
+  {
+   "cid": 1424,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "rerank": 0.0011515257647261024
+  },
+  {
+   "cid": 1835,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.0005770490970462561
+  },
+  {
+   "cid": 1114,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.00042043632129207253
+  },
+  {
+   "cid": 1245,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "rerank": 0.0002456297806929797
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.00023999328550416976
+  },
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 9.322946425527334e-05
+  },
+  {
+   "cid": 519,
+   "file": "Fwd_Fwd_Fwd_ATTENZIONE_richiamo_prodotto_concorrente_RASFF.eml",
+   "rerank": 5.6382323236903176e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1830,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "origine": "nativa",
+   "rerank": 0.16768896579742432,
+   "testo": "gira\", quindi il problema vero e' il CORNETTO 0215\n\ncose dette da me:\n- che il burro e' su del 20 e passa % e il girasole +11 (Oleificio Adriatico, ho\n  citato la lettera di aumento) → risposta: \"i tuoi costi non sono un mio problema,\n  io ho un prezzo a scaffale da tenere\"\n- che abbiamo l'OTIF a 99 virgola qualcosa, mai bucato una consegna → \"e ci\n  mancherebbe, e' il minimo, sta nel contratto\" (vero)\n- chiesto se il -4,5 e' trattabile a fronte volumi → \"portami una proposta, ma il\n  totale deve fare quel numero li'\"\n- proposto di spostare parte dello sconto su contributo promo → nn ha detto no.\n  appunto x silvia: QUI forse c'e' lo spazio\n\nnumeri buttati giu' da lui a voce (da verificare!!):\n- promo sottocosto primavera: dice +180% di pezzi sul 0450 nelle settimane del\n  volantino, contentissimo di questo\n- dice che il 3+1 a regime vale \"60-70mila pezzi anno\" ← se vero il listing in 2\n  anni rientra? FARE IL CONTO\n- rotazione focaccina: 0,8 pz/pdv/giorno (bassa. vero.)\n\nvarie:\n- Perbellini (QA) nn c'entrava nulla ma e' passata a salutare, chiesto come va la\n  pratica dei fornitori, rinnovo questionario qualita' entro fine mese → GIRARE A\n  MARCHETTI"
+  },
+  {
+   "cid": 1197,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "origine": "nativa",
+   "rerank": 0.00959084089845419,
+   "testo": "NC-2026-075;22/04/2026;reclamo;Qualità;Segnalazione Anna Perbellini (Tosano QA): 2 pallet con etichetta logistica SSCC non scansionabile al CE.DI.;AF-SN-0450 L26110-L1-T2;media;stampante etichette pallet con nastro esaurito a meta stampa;ristampa e ricontrollo scansione 100% prima del carico;Faggionato N.;29/04/2026;CHIUSA;220,00\nNC-2026-076;23/04/2026;interna;Linea 2;Ordine promo settimana 19: pianificate 3 domeniche consecutive, capienza straordinari esaurita per 4 operai;;alta;volumi promo oltre capacita Linea 2;v. NC-2026-048, richiesta a Fantin di rivedere accettazione volumi;Zanella D.;;APERTA;\nNC-2026-077;24/04/2026;interna;Linea 3;Cartoni AF-CR-0215 con punto di colla debole, 1 cartone aperto in movimentazione;AF-CR-0215 L26113-L2-T1;bassa;colla fredda sotto temperatura di esercizio;preriscaldo colla, controllo primo cartone;Guerra R.;27/04/2026;CHIUSA;85,00\nNC-2026-078;27/04/2026;interna;Magazzino;FEFO non rispettato su film MAP: bobine nuove usate prima delle vecchie;F0044;bassa;bancali sovrapposti in area MOCA;riorganizzazione area, etichetta data ingresso in evidenza;Faggionato N.;30/04/2026;CHIUSA;"
+  },
+  {
+   "cid": 1833,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "origine": "nativa",
+   "rerank": 0.009573847986757755,
+   "testo": "Poi ha minacciato (sorridendo, ma ha minacciato) di delistare la focaccina a settembre\ne ha detto che la direzione gli chiede un secondo fornitore sulla PL. Ha fatto vedere\nuna tabella con un concorrente che sul cornetto starebbe 12 punti sotto di noi, un\npugliese mi pare, Panem qualcosa, sto verificando.\n\nTestuale: \"con questi numeri non ci sto dentro\".\n\nNota positiva: sul multicereali non ha chiesto niente, dice che gira bene, e la promo\ne' andata fortissimo (+180% dice lui). Il problema vero e' il cornetto 0215, e li'\nSilvia te lo dico chiaro, gia' oggi il margine e' un fazzoletto, con il -4,5 secondo\nme andiamo sotto. Ma i conti li deve fare la Trentin con i costi veri, non io col\nlistino di gennaio.\n\nSul contributo promo al posto dello sconto secco non ha detto no. Secondo me e' li'\nche si tratta.\n\nAllego foto degli appunti (3 pagine). vedi allegato\n<foto_appunti_1.jpg> <foto_appunti_2.jpg> <cid:image001.png@01DC7E12.4A88B2F0>\n\nChiamami domani mattina dopo le 9 che prima sono in macchina verso Rossetto.\n\nPaolo\n\nPaolo Zampieri\nAgente di commercio - canale GDO Nord Est\ncell. 348 06 71 2XX\nInviato dal mio iPhone\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+  },
+  {
+   "cid": 1718,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "origine": "nativa",
+   "rerank": 0.008787303231656551,
+   "testo": "formalmente in riunione lunedì mattina con i numeri (giacenze, uscito,\na scaffale, costi). Marco avvisa tu Giancarlo nel weekend, meglio che lo\nsappia da te che da una PEC lunedì.\nBuonanotte, si fa per dire.\nE.M.\n\nInviato dal mio iPhone\n\n> [messaggio]:\n> Salve, segnalo che in una confezione dei vostri snack multicereali\n> comprata al supermercato (promo 3+1) ho trovato un pezzetto di plastica\n> rigida di colore celeste/azzurro [...]"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 3930,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.16,
+  "rerank": 40.91
+ },
+ "id": "Q094",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:05:44",
+ "secondi": 41.09,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 51.87,
+  "token_prompt": 1707,
+  "token_risposta": 63,
+  "testo_grezzo": "<La settimana della promo non ha bucato lo scaffale>\nFONTI: verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt, segnalazione_qualita_cliente_privato_corpo_estraneo.txt\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "segnalazione_qualita_cliente_privato_corpo_estraneo.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

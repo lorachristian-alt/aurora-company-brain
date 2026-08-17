@@ -1,0 +1,688 @@
+{
+ "domanda": "Con il -4,5% chiesto dal buyer, quale referenza va sotto il costo industriale?",
+ "candidati_densi": [
+  {
+   "cid": 628,
+   "punteggio": 0.5352241591022835,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1834,
+   "punteggio": 0.5198759547103029,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 45,
+   "punteggio": 0.5146071106557728,
+   "file": "analisi_marginalita_per_referenza_2026.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 43,
+   "punteggio": 0.511504357398751,
+   "file": "analisi_marginalita_per_referenza_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 44,
+   "punteggio": 0.5114172686094798,
+   "file": "analisi_marginalita_per_referenza_2026.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1828,
+   "punteggio": 0.5060035072802135,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1199,
+   "punteggio": 0.5043371650407815,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 21,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1854,
+   "punteggio": 0.5035215208041424,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1779,
+   "punteggio": 0.5019052942043845,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 148,
+   "punteggio": 0.49942143026996866,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 16,
+   "punteggio": 0.4990085905795942,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 572,
+   "punteggio": 0.49813712512333175,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 26,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1794,
+   "punteggio": 0.4949392751720094,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 21,
+   "origine": "nativa"
+  },
+  {
+   "cid": 9,
+   "punteggio": 0.49351547775885896,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 649,
+   "punteggio": 0.4888800959515597,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 21,
+   "origine": "nativa"
+  },
+  {
+   "cid": 648,
+   "punteggio": 0.4888260729456807,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 642,
+   "punteggio": 0.4857496939112901,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1829,
+   "punteggio": 0.48227554564935693,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 91,
+   "punteggio": 0.48216582172471434,
+   "file": "appunti_tecnologo_quaderno_prove_pilota_OCR.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 151,
+   "punteggio": 0.481257933686255,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 7,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 666,
+   "punteggio": 25.223339080810547,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 44,
+   "punteggio": 22.918550491333008,
+   "file": "analisi_marginalita_per_referenza_2026.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 684,
+   "punteggio": 20.763071060180664,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 148,
+   "punteggio": 18.916568756103516,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 11,
+   "punteggio": 18.457962036132812,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 43,
+   "punteggio": 18.365999221801758,
+   "file": "analisi_marginalita_per_referenza_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 155,
+   "punteggio": 16.103445053100586,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1557,
+   "punteggio": 15.943373680114746,
+   "file": "ricetta_base_esperimento_snack_salato_v12.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 628,
+   "punteggio": 15.792267799377441,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 45,
+   "punteggio": 15.702621459960938,
+   "file": "analisi_marginalita_per_referenza_2026.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 652,
+   "punteggio": 15.067910194396973,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1833,
+   "punteggio": 14.729168891906738,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1216,
+   "punteggio": 14.480509757995605,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1831,
+   "punteggio": 14.170024871826172,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 671,
+   "punteggio": 13.979009628295898,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 91,
+   "punteggio": 13.949884414672852,
+   "file": "appunti_tecnologo_quaderno_prove_pilota_OCR.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1374,
+   "punteggio": 13.91948127746582,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1834,
+   "punteggio": 13.919445037841797,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 632,
+   "punteggio": 13.53674030303955,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1776,
+   "punteggio": 13.192370414733887,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 44,
+   "file": "analisi_marginalita_per_referenza_2026.xlsx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.0315136476426799,
+   "rango_denso": 5,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 628,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.030886196246139225,
+   "rango_denso": 1,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 43,
+   "file": "analisi_marginalita_per_referenza_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.030776515151515152,
+   "rango_denso": 4,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 45,
+   "file": "analisi_marginalita_per_referenza_2026.xlsx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.030158730158730156,
+   "rango_denso": 3,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 148,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.029910714285714284,
+   "rango_denso": 10,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1834,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.028949545078577336,
+   "rango_denso": 2,
+   "rango_sparso": 18
+  },
+  {
+   "cid": 91,
+   "file": "appunti_tecnologo_quaderno_prove_pilota_OCR.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.02581612258494337,
+   "rango_denso": 19,
+   "rango_sparso": 16
+  },
+  {
+   "cid": 666,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 684,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 11,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1828,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 155,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1199,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 21,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1557,
+   "file": "ricetta_base_esperimento_snack_salato_v12.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1854,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1779,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 16,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 652,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 572,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 26,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1833,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1216,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1794,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 21,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 9,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1831,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 44,
+   "file": "analisi_marginalita_per_referenza_2026.xlsx",
+   "rerank": 0.972209095954895
+  },
+  {
+   "cid": 1834,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.9453436732292175
+  },
+  {
+   "cid": 684,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "rerank": 0.8742541670799255
+  },
+  {
+   "cid": 666,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "rerank": 0.8362394571304321
+  },
+  {
+   "cid": 1831,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.7147727012634277
+  },
+  {
+   "cid": 45,
+   "file": "analisi_marginalita_per_referenza_2026.xlsx",
+   "rerank": 0.49202829599380493
+  },
+  {
+   "cid": 1199,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.4643595516681671
+  },
+  {
+   "cid": 628,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "rerank": 0.2768080532550812
+  },
+  {
+   "cid": 652,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "rerank": 0.20908643305301666
+  },
+  {
+   "cid": 1828,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.1819479614496231
+  },
+  {
+   "cid": 1833,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.1781422346830368
+  },
+  {
+   "cid": 148,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "rerank": 0.12968844175338745
+  },
+  {
+   "cid": 572,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "rerank": 0.05488564446568489
+  },
+  {
+   "cid": 43,
+   "file": "analisi_marginalita_per_referenza_2026.xlsx",
+   "rerank": 0.0542752780020237
+  },
+  {
+   "cid": 1794,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0233879666775465
+  },
+  {
+   "cid": 11,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.018054718151688576
+  },
+  {
+   "cid": 155,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "rerank": 0.008898884989321232
+  },
+  {
+   "cid": 1557,
+   "file": "ricetta_base_esperimento_snack_salato_v12.txt",
+   "rerank": 0.008154104463756084
+  },
+  {
+   "cid": 91,
+   "file": "appunti_tecnologo_quaderno_prove_pilota_OCR.txt",
+   "rerank": 0.007590099237859249
+  },
+  {
+   "cid": 1216,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "rerank": 0.001832921989262104
+  },
+  {
+   "cid": 9,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.0014465206768363714
+  },
+  {
+   "cid": 16,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.0014280077302828431
+  },
+  {
+   "cid": 1854,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.0006141876801848412
+  },
+  {
+   "cid": 1779,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 6.272054451983422e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 44,
+   "file": "analisi_marginalita_per_referenza_2026.xlsx",
+   "origine": "nativa",
+   "rerank": 0.972209095954895,
+   "testo": "energia: allocata a pz con driver ore-forno, vedi foglio consumi (che però non torna con la bolletta)\nMarginalità per referenza e cliente - situazione a maggio 2026\n\n\n\nCod. art. Cliente Prezzo netto Costo ind. Margine € Margine % Volumi anno Margine totale Classe\nAF-SN-0450 Tosano Cerea SpA 0.89 1240000\nAF-SN-0450 Alì SpA 0.95 318000\nAF-SN-0455 Tosano Cerea SpA 2.89 410000\nAF-CR-0212 Famila Nordest 1.98 196000\nAF-CR-0215 Tosano Cerea SpA 1.84 742000\nAF-FC-0330 Rossetto Trade SpA 0.548 264000\nAF-FC-0330 Alì SpA 0.561 151000\nAF-CR-0220 Famila Nordest 1.289 88000\nAF-CR-0212 Ho.Re.Ca. grossisti 2.145 64000\nTOTALE\n\nil cliente Tosano pesa il del margine totale\nSimulazione richiesta buyer Tosano del 05/05/2026: -4,5% listino + listing fee 12.000 €\nrichiesta da S. Bertoldi il 06/05 - da portare in riunione commerciale\n\n\nCod. art. Prezzo attuale Prezzo -4,5% Costo ind. Margine post € Margine post % Volumi Margine tot post Delta vs oggi Esito\nAF-SN-0450 0.89 1240000\nAF-SN-0455 2.89 410000\nAF-CR-0215 1.84 742000\n\nlisting fee una tantum richiesta -12000\nimpatto complessivo sul margine annuo\n\nNOTA (S.B.): su AF-CR-0215 andiamo sotto il costo industriale. Non è trattabile così."
+  },
+  {
+   "cid": 1834,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "origine": "nativa",
+   "rerank": 0.9453436732292175,
+   "testo": "Paolo\n\nPaolo Zampieri\nAgente di commercio - canale GDO Nord Est\ncell. 348 06 71 2XX\nInviato dal mio iPhone\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nDa: Silvia Bertoldi <s.bertoldi@aurorafoodgroup.it>\nA: Luisa Trentin <amministrazione@aurorafoodgroup.it>\nCc: Paolo Zampieri <p.zampieri.agente@gmail.com>\nInviato: mercoledi' 6 maggio 2026 08:31\nOggetto: R: incontro Tosano stamattina - URGENTE risposta entro 15/5\n\nLuisa buongiorno,\n\nleggi sotto la mail di Paolo. Tosano chiede -4,5% sul listino e 12.000 di listing fee\nper il formato promo. Devo rispondere per iscritto entro il 15 e rivederli il 19.\n\nMi serve DA TE, entro lunedi' 11:\n\n1. margine industriale attuale e con -4,5% su TUTTE le referenze Tosano (0450, 0215,\n   0455, e mettici anche la focaccina 0330 che e' a rischio delisting), con i costi\n   industriali AGGIORNATI a oggi, non quelli di gennaio che stanno nel listino rev.3.\n   Sul burro e sul girasole i costi sono cambiati, lo sai meglio di me.\n2. quanto pesa il listing da 12.000 se lo spalmiamo su 24 mesi sui volumi del 3+1\n   (Paolo dice 60-70mila pezzi/anno, prendilo con le pinze)"
+  },
+  {
+   "cid": 684,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "origine": "nativa",
+   "rerank": 0.8742541670799255,
+   "testo": "Alì S.p.A.;Alìper;AF-SN-0450;quota promo aprile;8034123450123;12;1,25;20;9;0,91;;0,04;0,71;0,20;22,0%;13/04/2026;26/04/2026;chiusa\nAlì S.p.A.;Alìper;AF-SN-0450;quota promo aprile;8034123450123;12;1,25;20;9;0,91;;0,04;0,71;0,20;22,0%;13/04/2026;26/04/2026;riga doppia? verificare\nRossetto Trade S.p.A.;Rossetto;AF-SN-0450;quota promo giugno;8034123450123;12;1,25;18;9;0,93;;0,03;0,71;0,22;23,7%;01/06/2026;14/06/2026;da confermare\nFamila Nordest;Famila;AF-CR-0212;quota promo maggio;8034123452127;8;3,10;20;11;2,21;;0,05;1,92;0,29;13,1%;11/05/2026;24/05/2026;\nF.lli Girardello S.r.l.;Ho.Re.Ca.;AF-CR-0212;sconto extra fiera;8034123452127;8;3,10;15;9;2,40;;;1,92;0,48;20,0%;18/05/2026;31/05/2026;fiera Ho.Re.Ca. PD\n;;;;;;;;;;;;;;;;;\n### appunti liberi in coda (Zampieri/Trentin);;;;;;;;;;;;;;;;;\nnota;;AF-CR-0215;il costo 1,78 e' di GENNAIO. burro +20% da allora (Latteria Bassanese) e girasole +11% (lettera Oleificio Adriatico) → costo vero stimato 1,86-1,89. col -4,5% chiesto dal buyer si va sotto di 10-13 cent A PEZZO;;;;;;;;;;;;;;L.T. 06/05/26"
+  },
+  {
+   "cid": 666,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "origine": "nativa",
+   "rerank": 0.8362394571304321,
+   "testo": ";;;;;;;;;;;;;;;;;\n### appunti liberi in coda (Zampieri/Trentin);;;;;;;;;;;;;;;;;\nnota;;AF-CR-0215;il costo 1,7230 e' di GENNAIO. burro +20% da allora (Latteria Bassanese) e girasole +11% (lettera Oleificio Adriatico) ? costo vero stimato 1,8005-1,8295. col -4,5% chiesto dal buyer si va sotto di 10-13 cent A PEZZO;;;;;;;;;;;;;;L.T. 06/05/26\nnota;;AF-SN-0455;se listing 12.000 su 24 mesi e 65.000 pz/anno = 0,0923 €/pz di costo in piu' i primi 2 anni. col margine a 0,0484 NON rientra. serve o piu' prezzo o piu' volume;;;;;;;;;;;;;;L.T. 06/05/26 (conto veloce, da rifare bene)\nnota;;AF-FC-0330;proposta promo settembre inserita sopra. se Tosano delista comunque, capacita' linea 1 libera ? spingere su Alì?;;;;;;;;;;;;;;P.Z.\nnota;;tutte;ricordarsi SFA in fase di budget: Tosano 2% Alì 1,5% Famila 2% - il file budget di Luisa li ha gia' dentro, NON contarli due volte;;;;;;;;;;;;;;"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4242,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.19,
+  "rerank": 44.15
+ },
+ "id": "Q160",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:56:21",
+ "secondi": 44.36,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 43.53,
+  "token_prompt": 2053,
+  "token_risposta": 102,
+  "testo_grezzo": "La referenza AF-CR-0215 va sotto il costo industriale.\n\nFONTI: file: analisi_marginalita_per_referenza_2026.xlsx, file: verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt, file: listino_prezzi_canale_GDO_fresco_v3.csv, file: listino_prezzi GDO v2 VECCHIO non usare.csv\n\nCONFIDENZA: alta",
+  "fonti_citate": [
+   "file: analisi_marginalita_per_referenza_2026.xlsx",
+   "file: verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "file: listino_prezzi_canale_GDO_fresco_v3.csv",
+   "file: listino_prezzi GDO v2 VECCHIO non usare.csv"
+  ],
+  "fonti_fuori_contesto": [
+   "file: analisi_marginalita_per_referenza_2026.xlsx",
+   "file: verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "file: listino_prezzi_canale_GDO_fresco_v3.csv",
+   "file: listino_prezzi GDO v2 VECCHIO non usare.csv"
+  ],
+  "confidenza": "alta"
+ }
+}

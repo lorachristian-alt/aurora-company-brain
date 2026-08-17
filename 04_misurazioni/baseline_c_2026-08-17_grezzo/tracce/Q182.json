@@ -1,0 +1,681 @@
+{
+ "domanda": "Il sacco di farina rotto arrivato col DDT del Molino che fine ha fatto?",
+ "candidati_densi": [
+  {
+   "cid": 302,
+   "punteggio": 0.46823210907620494,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1769,
+   "punteggio": 0.4570865508723319,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1178,
+   "punteggio": 0.4468592455203747,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1252,
+   "punteggio": 0.43396466736702644,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1716,
+   "punteggio": 0.43261546117347405,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1405,
+   "punteggio": 0.4311164152690876,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1692,
+   "punteggio": 0.4290487591578442,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1571,
+   "punteggio": 0.4280326481831814,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1774,
+   "punteggio": 0.4254297141611182,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1111,
+   "punteggio": 0.4253105227470465,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1115,
+   "punteggio": 0.42405322802567924,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 481,
+   "punteggio": 0.42248261764709955,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1717,
+   "punteggio": 0.4193014807455021,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1694,
+   "punteggio": 0.4164214265900452,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 305,
+   "punteggio": 0.41507009896239916,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1707,
+   "punteggio": 0.41303514324211593,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 80,
+   "punteggio": 0.41223200422196093,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1261,
+   "punteggio": 0.41072316972263423,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 520,
+   "punteggio": 0.40456459238088693,
+   "file": "Fwd_Fwd_Fwd_ATTENZIONE_richiamo_prodotto_concorrente_RASFF.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 519,
+   "punteggio": 0.40069802761775963,
+   "file": "Fwd_Fwd_Fwd_ATTENZIONE_richiamo_prodotto_concorrente_RASFF.eml",
+   "idx": 3,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1252,
+   "punteggio": 28.68678092956543,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 546,
+   "punteggio": 21.907283782958984,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1111,
+   "punteggio": 21.180225372314453,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 209,
+   "punteggio": 20.73826026916504,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1720,
+   "punteggio": 20.73826026916504,
+   "file": "SKM_C224e26051412340.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1714,
+   "punteggio": 20.10207176208496,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1687,
+   "punteggio": 19.266508102416992,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 431,
+   "punteggio": 19.1677303314209,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 434,
+   "punteggio": 18.782054901123047,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1693,
+   "punteggio": 17.834726333618164,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 510,
+   "punteggio": 17.740997314453125,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1737,
+   "punteggio": 17.65445327758789,
+   "file": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1784,
+   "punteggio": 17.49346923828125,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 435,
+   "punteggio": 17.069398880004883,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 511,
+   "punteggio": 17.03611946105957,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1833,
+   "punteggio": 17.003881454467773,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1705,
+   "punteggio": 15.412714958190918,
+   "file": "segnalazione_guasto_cancello_carraio.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 173,
+   "punteggio": 15.398824691772461,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 248,
+   "punteggio": 15.166955947875977,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 277,
+   "punteggio": 14.95504093170166,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 4,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1252,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.032018442622950824,
+   "rango_denso": 4,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1111,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.030158730158730156,
+   "rango_denso": 10,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 302,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 546,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1769,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1178,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 209,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1716,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1720,
+   "file": "SKM_C224e26051412340.pdf",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1405,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1714,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1687,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1692,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1571,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1774,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1693,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 510,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1115,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 481,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1737,
+   "file": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1717,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1784,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1252,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "rerank": 0.53705894947052
+  },
+  {
+   "cid": 546,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "rerank": 0.1501765251159668
+  },
+  {
+   "cid": 1178,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.14586028456687927
+  },
+  {
+   "cid": 1687,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "rerank": 0.10220245271921158
+  },
+  {
+   "cid": 209,
+   "file": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "rerank": 0.0630127564072609
+  },
+  {
+   "cid": 1720,
+   "file": "SKM_C224e26051412340.pdf",
+   "rerank": 0.0630127564072609
+  },
+  {
+   "cid": 1693,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "rerank": 0.029265010729432106
+  },
+  {
+   "cid": 481,
+   "file": "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+   "rerank": 0.029193120077252388
+  },
+  {
+   "cid": 1769,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "rerank": 0.02283627726137638
+  },
+  {
+   "cid": 1405,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.019265051931142807
+  },
+  {
+   "cid": 1737,
+   "file": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "rerank": 0.005773331504315138
+  },
+  {
+   "cid": 302,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "rerank": 0.0019408171065151691
+  },
+  {
+   "cid": 1111,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.0008390856673941016
+  },
+  {
+   "cid": 1692,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "rerank": 0.00061914196703583
+  },
+  {
+   "cid": 1571,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "rerank": 0.00044190220069140196
+  },
+  {
+   "cid": 1716,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.0003603448567446321
+  },
+  {
+   "cid": 1774,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.00014481072139460593
+  },
+  {
+   "cid": 1717,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.0001248577464139089
+  },
+  {
+   "cid": 1115,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.00011688545055221766
+  },
+  {
+   "cid": 1714,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 9.133011917583644e-05
+  },
+  {
+   "cid": 1784,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 6.135711009847e-05
+  },
+  {
+   "cid": 510,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 5.8833866205532104e-05
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 3.702887624967843e-05
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 3.63032850145828e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1252,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "origine": "nativa",
+   "rerank": 0.53705894947052,
+   "testo": "ESTRAZIONE ORDINI ACQUISTO APERTI AL 01/06/2026 - gestionale + integrazioni a mano;;;;;;;;;;;;;\nNB estrazione lanciata 01/06 h 8.05 da N.F. - le righe CHIUSO restano dentro perche il filtro del gestionale non funziona come dovrebbe;;;;;;;;;;;;;\nN_ordine;Cod_forn;Fornitore;Articolo;Qta_ordinata;Qta_consegnata;Qta_residua;UM;Prezzo_unit_eur;Data_conferma;Data_consegna_prevista;Stato;Buyer;Note\nOA-26-0144;F0012;Molino Veneto S.p.A.;Farina tipo 0 W300 sacco 25 kg;24.000;12.000;12.000;KG;0,52;23/04/26;2026-06-09;PARZIALE;Faggionato N.;1a consegna DDT 48392 del 04/05 ok (1 sacco rotto segregato)\nOA-26-0144;F0012;Molino Veneto S.p.A.;Farina tipo 00 sacco 25 kg;6.000;0;6.000;KG;0,55;23/04/26;09/06/26;APERTO;Faggionato N.;\nOA-26-0171;F0012;Molino Veneto S.p.A.;Farina tipo 0 W300 sacco 25 kg;24.000;0;24.000;KG;0,53;26/05/26;23/06/26;APERTO;Faggionato N.;prezzo +1 cent da giugno - raccolta nuova\nOA-26-0171;F0012;Molino Veneto S.p.A.;Semola rimacinata sacco 25 kg;2.000;0;2.000;KG;0,62;26/05/26;23/06/26;APERTO;Faggionato N.;\nOA-26-0152;F0012;Molino Veneto S.p.A.;Farina tipo 0 BIO sacco 25 kg;3.000;3.000;0;KG;0,74;28/04/26;12/05/26;CHIUSO;Faggionato N.;chiuso - resta in estrazione (bug filtro)"
+  },
+  {
+   "cid": 546,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "origine": "nativa",
+   "rerank": 0.1501765251159668,
+   "testo": "INVENTARIO FISICO MAGAZZINI AL 31/05/2026 - logica FEFO - estratto gestionale + conta manuale;;;;;;;;;;;;\ncompilato: Faggionato N. + Trentin L. (valorizzazione);ultimo agg. 01/06/26 h 7.40;;;;;;;;;;;\nUbicazione;Cod_Art;Descrizione;Lotto;Data_arrivo;Scadenza/TMC;Giacenza;UM;Valore_unit_€;Valore_tot_€;Stato;gg_alla_scadenza;Note\nA-01-01;FAR-0-W300;Farina tipo 0 W300 sacco 25 kg;MV26-0402/B;2026-04-14;20/10/26;1.250;KG;0,52;650,00;OK;142;usare per prima - FEFO\nA-01-02;FAR-0-W300;Farina tipo 0 W300 sacco 25 kg;MV26-0429/A;04/05/26;30/10/26;3.975;KG;0,52;2.067,00;OK;152;1 sacco segregato (lacerato) v. riga sotto\nA-01-02;FAR-0-W300;Farina tipo 0 W300 sacco 25 kg - SEGREGATO;MV26-0430/A;04/05/26;01/11/26;25;KG;0,52;13,00;SEGREGATO;154;sacco rotto DDT 48392 - verificare con Marchetti prima di usare\nA-01-03;FAR-0-W300;Farina tipo 0 W300 sacco 25 kg;MV26-0429/B;04/05/26;30/10/26;2.000;KG;0,52;1.040,00;OK;152;\nA-01-04;FAR-0-W300;Farina tipo 0 W300 sacco 25 kg;MV26-0430/A;04/05/26;01/11/26;3.900;KG;0,52;2.028,00;OK;154;\nA-01-05;FAR-0-W300;Farina tipo 0 W300 sacco 25 kg;MV26-0431/A;04/05/26;02/11/26;2.000;KG;0,52;1.040,00;OK;155;"
+  },
+  {
+   "cid": 1178,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "origine": "nativa",
+   "rerank": 0.14586028456687927,
+   "testo": "REGISTRO NON CONFORMITA' INTERNE - AURORA FOOD GROUP S.R.L. - ANNO 2026 - MOD-QA-18 rev.3 - agg. Pozzato S.\nN_NC;Data;Origine;Reparto;Descrizione;Prodotto_Lotto;Gravità;Causa_radice;Azione_correttiva;Responsabile;Data_chiusura;Stato;Costo_stimato_€\nNC-2026-001;07/01/2026;interna;Linea 1;Sottopeso rilevato su selezionatrice, 14 pezzi sotto tolleranza su AF-SN-0450;AF-SN-0450 L26007-L1-T1;bassa;dosatore starato dopo fermo natalizio;ritaratura dosatore, ricontrollo 100% inizio turno;Popescu I.;08/01/2026;CHIUSA;120,00\nNC-2026-002;08/01/2026;interna;Magazzino;Rotazione FEFO non rispettata su farina tipo 00, bancale con scadenza piu vicina dietro;F0012 farina 00;bassa;mappatura ubicazioni non aggiornata;riubicazione bancali, richiamo verbale addetto;Faggionato N.;12/01/2026;CHIUSA;\nNC-2026-003;09/01/2026;fornitore;Ricevimento merci;DDT Molino Veneto non riporta n. lotto farina W300, merce accettata con riserva;F0012;media;errore compilazione fornitore;richiesta DDT integrativo, sollecito a fornitore;Faggionato N.;15/01/2026;CHIUSA;N/D"
+  },
+  {
+   "cid": 1687,
+   "file": "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "origine": "nativa",
+   "rerank": 0.10220245271921158,
+   "testo": "MOLINO VENETO S.p.A.\nVia Molini 18 - 37063 Isola della Scala (VR) - Italia\nTel. +39 045 730 12 44 - qualita@molinoveneto.it - www.molinoveneto.it\nP.IVA 00298440231 - Stab. di produzione: Isola della Scala (VR)\nRiconoscimento CE / registrazione: IT 05 213 VR\nSistema qualitÃ  certificato ISO 9001:2015 - FSSC 22000 v6\n\nSCHEDA TECNICA DI PRODOTTO / PRODUCT SPECIFICATION\n\nST-F0-W300  rev. 11 del 02/12/2025\n(sostituisce rev. 10 del 15/01/2024)\n\nPag. 1 di 6\n\n1. IDENTIFICAZIONE DEL PRODOTTO\nDenominazione di vendita: FARINA DI GRANO TENERO TIPO \"0\"\nDenominazione commerciale: MANITOBA ORO - W300 PANIFICABILE SUPERIORE\nCodice articolo interno: F0-W300-25\nCodice cliente (Aurora Food Group S.r.l. - fornitore F0012): FAR-0-W300\nFormati: sacco carta 25 kg su pallet 800x1200 (40 sacchi = 1000 kg) - sfuso\nin autocisterna dedicata\nLotto: stampato su sacco / DDT per sfuso, formato AAMMGG-silo\n\n2. DESCRIZIONE\nProdotto ottenuto dalla macinazione e abburattamento di grano tenero\n(Triticum aestivum L.) sano, leale e mercantile, previa pulitura e\ncondizionamento. Miscela di grani nazionali ed esteri (UE e extra UE)\nselezionati per l'attitudine alla panificazione e ai processi industriali"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4559,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.19,
+  "rerank": 51.04
+ },
+ "id": "Q182",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:13:29",
+ "secondi": 51.26,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 108.43,
+  "token_prompt": 2306,
+  "token_risposta": 112,
+  "testo_grezzo": "Il sacco di farina rotto arrivato col DDT del Molino Veneto ha fatto parte di una consegna aperta al 01/06/2026, specificatamente per la farina tipo 0 W300 sacco 25 kg, con un prezzo unitario di 0,52 €.\n\nFONTI: scheda_tecnica_farina_tipo_0_MolinoVeneto.txt, ordini_acquisto_materie_prime_aperti_giugno.csv\n\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+   "ordini_acquisto_materie_prime_aperti_giugno.csv"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

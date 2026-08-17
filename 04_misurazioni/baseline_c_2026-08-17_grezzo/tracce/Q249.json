@@ -1,0 +1,681 @@
+{
+ "domanda": "Qual e' la data di assunzione di Ionut Popescu?",
+ "candidati_densi": [
+  {
+   "cid": 905,
+   "punteggio": 0.48095072644656994,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 83,
+   "origine": "nativa"
+  },
+  {
+   "cid": 895,
+   "punteggio": 0.47622072132616156,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 73,
+   "origine": "nativa"
+  },
+  {
+   "cid": 840,
+   "punteggio": 0.4685561402566338,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 872,
+   "punteggio": 0.4682982831703323,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 50,
+   "origine": "nativa"
+  },
+  {
+   "cid": 841,
+   "punteggio": 0.4640115118738603,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 903,
+   "punteggio": 0.4626573262902024,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 81,
+   "origine": "nativa"
+  },
+  {
+   "cid": 904,
+   "punteggio": 0.461029293533194,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 82,
+   "origine": "nativa"
+  },
+  {
+   "cid": 870,
+   "punteggio": 0.45855937972985666,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 48,
+   "origine": "nativa"
+  },
+  {
+   "cid": 873,
+   "punteggio": 0.45855020076660624,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 51,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1017,
+   "punteggio": 0.4537610522894145,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 83,
+   "origine": "nativa"
+  },
+  {
+   "cid": 838,
+   "punteggio": 0.4531894162691803,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 985,
+   "punteggio": 0.4498074330557785,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 51,
+   "origine": "nativa"
+  },
+  {
+   "cid": 896,
+   "punteggio": 0.449753209932826,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 74,
+   "origine": "nativa"
+  },
+  {
+   "cid": 980,
+   "punteggio": 0.4492101348707521,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 46,
+   "origine": "nativa"
+  },
+  {
+   "cid": 842,
+   "punteggio": 0.4478010240072233,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1018,
+   "punteggio": 0.4474793285937569,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 84,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1037,
+   "punteggio": 0.4472484044140953,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 103,
+   "origine": "nativa"
+  },
+  {
+   "cid": 839,
+   "punteggio": 0.4465428159644248,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1053,
+   "punteggio": 0.44631168721667197,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 119,
+   "origine": "nativa"
+  },
+  {
+   "cid": 894,
+   "punteggio": 0.4462358622384351,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 72,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1478,
+   "punteggio": 15.261116027832031,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1886,
+   "punteggio": 14.070721626281738,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1310,
+   "punteggio": 13.254243850708008,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1274,
+   "punteggio": 12.873969078063965,
+   "file": "panel_test_assaggio_interno_cornetto_premium.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1890,
+   "punteggio": 12.703147888183594,
+   "file": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1891,
+   "punteggio": 12.298138618469238,
+   "file": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1817,
+   "punteggio": 12.172101020812988,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1271,
+   "punteggio": 11.43581485748291,
+   "file": "panel_test_assaggio_interno_cornetto_premium.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 611,
+   "punteggio": 11.417137145996094,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1649,
+   "punteggio": 10.70812702178955,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 625,
+   "punteggio": 10.532700538635254,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 620,
+   "punteggio": 10.31177043914795,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 583,
+   "punteggio": 10.250642776489258,
+   "file": "iscritti_cena_aziendale_dicembre.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1265,
+   "punteggio": 9.968496322631836,
+   "file": "organigramma_aziendale_aggiornato_marzo26.pptx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1605,
+   "punteggio": 9.919809341430664,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1314,
+   "punteggio": 9.86819839477539,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1438,
+   "punteggio": 9.776787757873535,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1276,
+   "punteggio": 9.595464706420898,
+   "file": "panel_test_assaggio_interno_cornetto_premium.csv",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1648,
+   "punteggio": 9.395195960998535,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 388,
+   "punteggio": 8.817329406738281,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 905,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 83,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1478,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 895,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 73,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1886,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 840,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 18,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1310,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 872,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 50,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1274,
+   "file": "panel_test_assaggio_interno_cornetto_premium.csv",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 841,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1890,
+   "file": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 903,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 81,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1891,
+   "file": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 904,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 82,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1817,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 870,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 48,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1271,
+   "file": "panel_test_assaggio_interno_cornetto_premium.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 611,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 873,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 51,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1017,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 83,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1649,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 625,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 838,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 620,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 985,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 51,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1817,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "rerank": 0.41564446687698364
+  },
+  {
+   "cid": 1478,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "rerank": 0.3411519229412079
+  },
+  {
+   "cid": 1310,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "rerank": 0.2646474242210388
+  },
+  {
+   "cid": 1886,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "rerank": 0.1561463624238968
+  },
+  {
+   "cid": 1271,
+   "file": "panel_test_assaggio_interno_cornetto_premium.csv",
+   "rerank": 0.06678246706724167
+  },
+  {
+   "cid": 1274,
+   "file": "panel_test_assaggio_interno_cornetto_premium.csv",
+   "rerank": 0.04999992251396179
+  },
+  {
+   "cid": 625,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "rerank": 0.013545235618948936
+  },
+  {
+   "cid": 1649,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "rerank": 0.009924037382006645
+  },
+  {
+   "cid": 840,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.005038231145590544
+  },
+  {
+   "cid": 903,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.004788277205079794
+  },
+  {
+   "cid": 872,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.004346298519521952
+  },
+  {
+   "cid": 838,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.004025375470519066
+  },
+  {
+   "cid": 841,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.003620290197432041
+  },
+  {
+   "cid": 904,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.00361411040648818
+  },
+  {
+   "cid": 895,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.0027849371545016766
+  },
+  {
+   "cid": 870,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.002495849272236228
+  },
+  {
+   "cid": 873,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.002290814882144332
+  },
+  {
+   "cid": 905,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.0018725699046626687
+  },
+  {
+   "cid": 985,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.0014329295372590423
+  },
+  {
+   "cid": 1017,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.0008625074406154454
+  },
+  {
+   "cid": 1890,
+   "file": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "rerank": 1.766253808455076e-05
+  },
+  {
+   "cid": 620,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 1.7103382560890168e-05
+  },
+  {
+   "cid": 1891,
+   "file": "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+   "rerank": 1.695198989182245e-05
+  },
+  {
+   "cid": 611,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 1.65210531122284e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1817,
+   "file": "verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt",
+   "origine": "nativa",
+   "rerank": 0.41564446687698364,
+   "testo": "acido nitrico, PAA - fornitore Chemifood), lettura SDS,\n              etichettatura CLP, DPI specifici, docce/lavaocchi\n 11.15-12.00  atmosfere: azoto e CO2 (impianto MAP PKM-450, serbatoio esterno\n              Nordgas), rischio anossia in locali confinati, rilevatori O2\n 12.00-13.00  pausa pranzo\n 13.00-14.00  rischio incendio ed emergenze: piano di emergenza ed evacuazione,\n              punti di raccolta, squadra antincendio, prova di evacuazione\n 14.00-15.00  segnaletica, DPI (obblighi d'uso e manutenzione), igiene e\n              sorveglianza sanitaria (protocollo MC), gestione quasi-infortuni\n 15.00-15.15  pausa\n 15.15-16.15  ripasso, domande, casi pratici di reparto\n 16.15-17.00  TEST DI VERIFICA FINALE (questionario 30 domande a risposta\n              multipla) e correzione in aula\n\nELENCO PARTECIPANTI (n. 22 convocati - convocazione HR del 03/04/2026)\n\n n.  Cognome Nome            Mansione                        Data nascita\n --  ---------------------   -----------------------------   ------------\n  1  POPESCU Ionut           capoturno Linea 1               14/03/1985\n  2  BEN SALAH Adel          capoturno Linea 2               02/11/1988"
+  },
+  {
+   "cid": 1478,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "origine": "nativa",
+   "rerank": 0.3411519229412079,
+   "testo": "SCADENZARIO FORMAZIONE OBBLIGATORIA - AURORA FOOD GROUP SRL;;;;;;;\nestrazione del 18/05/2026 da file formazione_master.xlsx foglio 2 - f.sartori;;;;;;;\nATTENZIONE: le scadenze HACCP seguono la procedura interna (3 anni) non un obbligo di legge regionale - v. nota Vicentini 2024;;;;;;;\nDipendente;Mansione;Corso;Data corso;Scadenza;Stato;Ente formatore;Note\nPopescu Ionut;Capoturno Linea 1;HACCP avanzato;12/06/2024;12/06/2027;VALIDO;Studio Alimentaria (Vicentini);\nPopescu Ionut;Capoturno Linea 1;Sicurezza specifica rischio alto 12h;03/02/2022;03/02/2027;VALIDO;Bonato & Partners;agg. 6h da fare entro scad.\nPopescu Ionut;Capoturno Linea 1;Preposto 8h;15/09/2023;15/09/2025;SCADUTO;Bonato & Partners;AGG. BIENNALE NON FATTO - urgente\nRossin Davide;Operaio Linea 1;HACCP base;20/04/2023;20/04/2026;SCADUTO;Studio Alimentaria (Vicentini);inserire nella sessione di giugno\nRossin Davide;Operaio Linea 1;Sicurezza specifica rischio alto 12h;10/05/2023;10/05/2028;VALIDO;Bonato & Partners;\nPerin Luca;Operaio Linea 1;HACCP base;20/04/2023;20/04/2026;SCADUTO;Studio Alimentaria (Vicentini);sessione giugno"
+  },
+  {
+   "cid": 1310,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "origine": "nativa",
+   "rerank": 0.2646474242210388,
+   "testo": "- visita medica preassuntiva: prenotare con dott. Salvalaio PRIMA del 20/08\n    (ad agosto lo studio chiude 2 settimane, non ridursi all'ultimo come\n    con gli stagionali dell'anno scorso)\n\n  data assunzione proposta: 01/09/2026 tutti e tre insieme\n  (Fantin voleva scaglionarli, Zanella li vuole insieme per fare un'unica\n  formazione sicurezza. ha ragione Zanella, costa meno)\n  Meneghello prosegue dal 15/06/2026 col secondo periodo, convenzione UNIPD firmata,\n  600 ore, rimborso spese no ma buoni pasto si\n\n\nPIANO FORMATIVO OBBLIGATORIO (settimana 1, tutti insieme):\n\n  - formazione generale sicurezza 4h + specifica rischio alto 12h (Bonato)\n  - HACCP/igiene alimentare - la fa Marchetti internamente, MOD-HR-11 da\n    compilare e far firmare SUBITO non dopo tre mesi come al solito\n  - allergeni (PRPo1) - sempre Marchetti, mezza giornata\n  - DPI: consegna con modulo firmato, taglie -> chiederle PRIMA via mail\n  - visita stabilimento con Fantin (lui ci tiene, fissare quando c'e')\n\n\nTUTOR (art. 42... o 44? il tutor aziendale deve avere inquadramento pari o\nsuperiore, verificare):\n\n  Rigon     -> tutor Zanella (produzione) + appoggio Popescu su Linea 1"
+  },
+  {
+   "cid": 1886,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "origine": "nativa",
+   "rerank": 0.1561463624238968,
+   "testo": "dagli obblighi di manutenzione e controllo ex art. 86 D.Lgs. 81/08.\nVerifica eseguita in data 23/04/2026, ore 08:30 - 13:15, alla presenza del sig. Dal Maso\nIvano e, per le prove nei reparti in produzione, del capoturno sig. Popescu Ionut (Linea 1).\nTecnico verificatore - Verifica Nord S.r.l.\n_______________________________\nper. ind. Davide Roncolato\nDirettore Tecnico - Verifica Nord S.r.l.\n_______________________________\ning. Paola Meggiorin\nVerbale emesso in duplice originale, di cui uno consegnato al datore di lavoro in data\n23/04/2026 e uno agli atti dell'Organismo. Fattura a parte (rif. contratto VN-C-2024-221)."
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4055,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.14,
+  "rerank": 55.7
+ },
+ "id": "Q249",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T18:04:17",
+ "secondi": 55.86,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 46.51,
+  "token_prompt": 1765,
+  "token_risposta": 58,
+  "testo_grezzo": "La data di assunzione di Ionut Popescu non è indicata nei documenti forniti.\n\nFONTI: registro_presenze_corsi_HACCP_scaduti.csv, piano_turni_apprendisti_tecnologi_food.txt\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "registro_presenze_corsi_HACCP_scaduti.csv",
+   "piano_turni_apprendisti_tecnologi_food.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

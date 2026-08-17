@@ -1,0 +1,678 @@
+{
+ "domanda": "Quali temperature ha registrato il pastorizzatore della linea 1 il 10 maggio 2026?",
+ "candidati_densi": [
+  {
+   "cid": 1883,
+   "punteggio": 0.5613667921626864,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1075,
+   "punteggio": 0.5568301591730851,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 141,
+   "origine": "nativa"
+  },
+  {
+   "cid": 399,
+   "punteggio": 0.5456182915248043,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 938,
+   "punteggio": 0.5395650300833617,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 954,
+   "punteggio": 0.5385578687449071,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1050,
+   "punteggio": 0.5354200395950981,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 116,
+   "origine": "nativa"
+  },
+  {
+   "cid": 905,
+   "punteggio": 0.5353687124524028,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 83,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1034,
+   "punteggio": 0.5342606545119073,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 100,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1040,
+   "punteggio": 0.5327238830925072,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 106,
+   "origine": "nativa"
+  },
+  {
+   "cid": 969,
+   "punteggio": 0.532583743975325,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 35,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1051,
+   "punteggio": 0.5300348570006937,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 117,
+   "origine": "nativa"
+  },
+  {
+   "cid": 871,
+   "punteggio": 0.5298872394957717,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 49,
+   "origine": "nativa"
+  },
+  {
+   "cid": 872,
+   "punteggio": 0.5280145393624778,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 50,
+   "origine": "nativa"
+  },
+  {
+   "cid": 949,
+   "punteggio": 0.5277689508812995,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 939,
+   "punteggio": 0.5276672504542641,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 849,
+   "punteggio": 0.5261688362427852,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 27,
+   "origine": "nativa"
+  },
+  {
+   "cid": 875,
+   "punteggio": 0.5244974684495005,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 53,
+   "origine": "nativa"
+  },
+  {
+   "cid": 892,
+   "punteggio": 0.5233972488398053,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 70,
+   "origine": "nativa"
+  },
+  {
+   "cid": 861,
+   "punteggio": 0.5225370861005378,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 39,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1283,
+   "punteggio": 0.522406470393648,
+   "file": "piano_autocontrollo_acqua_potabile_analisi.csv",
+   "idx": 4,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 614,
+   "punteggio": 15.256074905395508,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1714,
+   "punteggio": 14.706107139587402,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1713,
+   "punteggio": 14.193721771240234,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 510,
+   "punteggio": 13.985260963439941,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1776,
+   "punteggio": 13.977129936218262,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1774,
+   "punteggio": 13.003878593444824,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 435,
+   "punteggio": 12.927453994750977,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1812,
+   "punteggio": 12.456493377685547,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1423,
+   "punteggio": 12.34753704071045,
+   "file": "Prospetto_straordinari_gen-apr_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 431,
+   "punteggio": 12.311196327209473,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 286,
+   "punteggio": 12.22288703918457,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1461,
+   "punteggio": 12.115378379821777,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1240,
+   "punteggio": 11.935381889343262,
+   "file": "notifica_ATS_ispezione_programmata_igiene.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1210,
+   "punteggio": 11.76394271850586,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 32,
+   "origine": "nativa"
+  },
+  {
+   "cid": 434,
+   "punteggio": 11.639970779418945,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 165,
+   "punteggio": 11.55370807647705,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 512,
+   "punteggio": 11.492626190185547,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1365,
+   "punteggio": 11.462662696838379,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 277,
+   "punteggio": 11.310185432434082,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 289,
+   "punteggio": 11.202975273132324,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 4,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 614,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1883,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1075,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 141,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1714,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 399,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1713,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 510,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 938,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 954,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 20,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1050,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 116,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1774,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 435,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 905,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 83,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1034,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 100,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1812,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1040,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 106,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1423,
+   "file": "Prospetto_straordinari_gen-apr_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 969,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 35,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 286,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1051,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 117,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 871,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 49,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1461,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1075,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.9964381456375122
+  },
+  {
+   "cid": 938,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.7265132665634155
+  },
+  {
+   "cid": 1051,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.6757799386978149
+  },
+  {
+   "cid": 1034,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.6051667332649231
+  },
+  {
+   "cid": 969,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.5774968266487122
+  },
+  {
+   "cid": 1050,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.5403056740760803
+  },
+  {
+   "cid": 1040,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.4738195836544037
+  },
+  {
+   "cid": 954,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.4184529781341553
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.3605602979660034
+  },
+  {
+   "cid": 871,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.3051193654537201
+  },
+  {
+   "cid": 399,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "rerank": 0.25896087288856506
+  },
+  {
+   "cid": 905,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.19147785007953644
+  },
+  {
+   "cid": 614,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.07342679053544998
+  },
+  {
+   "cid": 1713,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.031030802056193352
+  },
+  {
+   "cid": 1883,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "rerank": 0.028665225952863693
+  },
+  {
+   "cid": 1461,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.02618243172764778
+  },
+  {
+   "cid": 1774,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.01973281055688858
+  },
+  {
+   "cid": 1714,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.005701626650989056
+  },
+  {
+   "cid": 286,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.004375100135803223
+  },
+  {
+   "cid": 510,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 0.0037689320743083954
+  },
+  {
+   "cid": 1423,
+   "file": "Prospetto_straordinari_gen-apr_2026.xlsx",
+   "rerank": 0.0022189589217305183
+  },
+  {
+   "cid": 435,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.002091760979965329
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.0006922539905644953
+  },
+  {
+   "cid": 1812,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 7.240490958793089e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1075,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "origine": "nativa",
+   "rerank": 0.9964381456375122,
+   "testo": "2026-05-10 23:12:09;PT104;EVT;PROD_END;TOT_SHIFT=SEE_EXPORT;OK;LOT=L26130-L1-T3;OP=CESTARO_L\n=====================================================================\nEXPORT GIORNALIERO - TermoLog SCADA v2.3.1 build 4402\nImpianto: PASTORIZZATORE PT104 - LINEA 1\nData rif.: 10/05/2026  -  UnitÃ  di misura: Â°C ; m3/h ; m/min\nCampioni acquisiti: 12390  -  Campioni validi: 12293\nSonda T_CUORE: anomalia rilevata (vedi codice guasto) - validitÃ  parziale\nAllarmi attivi nel periodo: ALM_LOW_TEMP(1) DEV_CCP2(1) MACHINE_STOP(1) SENSOR_FAULT(1) RTC_BATT_LOW(1)\nDurata esercizio: 13h 01m  -  Durata fermo: 3h 40m  -  Motivo fermo: INTERLOCK_DOWNSTREAM=PKM450\nTemperatura minima registrata TT_02: 68.6 C alle 14:30:37\nPermanenza sotto soglia 72.0 Â°C: 27 min ca. - verificare registro CCP2 (MOD-QA-12)\nOperatori turno: RANZATO_F / POPESCU_I / CESTARO_L - Resp. produzione: ZANELLA_D\nFile generato automaticamente - non modificare - proprietÃ  Aurora Food Group S.r.l.\nPercorso archivio: \\\\SRV-AFG01\\produzione\\datalogger\\PT104\\2026\\05\\\nChecksum: 8f3aï¿½ï¿½41bc â€“ verifica integritÃ  fallita\n====================================================================="
+  },
+  {
+   "cid": 938,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "origine": "nativa",
+   "rerank": 0.7265132665634155,
+   "testo": "2026-05-10 06:09:37;PT104;TT_01;32.4;C;OK;LOT=L26130-L1-T1;OP=RANZATO_F\n2026-05-10 06:09:37;PT104;SPEED;0.0;m/min;OK;LOT=L26130-L1-T1;OP=RANZATO_F\n2026-05-10 06:09:37;PT104;T_CUORE;30.2;C;OK;LOT=L26130-L1-T1;OP=RANZATO_F\n2026-05-10 06:12:07;PT104;T_CUORE;33.1;C;OK;LOT=L26130-L1-T1;OP=RANZATO_F\n2026-05-10 06:13:07;PT104;MODE;HEATING;;OK;LOT=L26130-L1-T1;OP=RANZATO_F\n2026-05-10 06:14:37;PT104;T_CUORE;36.0;C;OK;LOT=L26130-L1-T1;OP=RANZATO_F\n2026-05-10 06:17:07;PT104;TT_01;41.5;C;OK;LOT=L26130-L1-T1;OP=RANZATO_F\n2026-05-10 06:17:07;PT104;T_CUORE;38.3;C;OK;LOT=L26130-L1-T1;OP=RANZATO_F\n2026-05-10 06:19:37;PT104;T_CUORE;42.1;C;OK;LOT=L26130-L1-T1;OP=RANZATO_F\n2026-05-10 06:20:37;PT104;TT_02;45.6;C;OK;LOT=L26130-L1-T1;OP=RANZATO_F\n2026-05-10 06:22:07;PT104;T_CUORE;46.2;C;OK;LOT=L26130-L1-T1;OP=RANZATO_F\n2026-05-10 06:24:07;PT104;TT_03;49.0;C;OK;LOT=L26130-L1-T1;OP=RANZATO_F\n2026-05-10 06:24:37;PT104;T_CUORE;48.7;C;OK;LOT=L26130-L1-T1;OP=RANZATO_F\n2026-05-10 06:27:07;PT104;T_CUORE;51.4;C;OK;LOT=L26130-L1-T1;OP=RANZATO_F\n2026-05-10 06:27:37;PT104;FT_01;13.5;m3/h;OK;LOT=L26130-L1-T1;OP=RANZATO_F\n2026-05-10 06:29:37;PT104;T_CUORE;55.1;C;OK;LOT=L26130-L1-T1;OP=RANZATO_F"
+  },
+  {
+   "cid": 1051,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "origine": "nativa",
+   "rerank": 0.6757799386978149,
+   "testo": "2026-05-10 18:58:07;PT104;T_CUORE;65.2;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 18:58:07;PT104;MODE;HEATING;;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 18:58:37;PT104;TT_01;68.2;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 18:58:37;PT104;TT_02;68.2;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 18:58:37;PT104;TT_03;66.8;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 18:58:37;PT104;FT_01;13.1;m3/h;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 18:58:37;PT104;SPEED;4.1;m/min;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 18:58:37;PT104;T_CUORE;65.5;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 18:59:07;PT104;TT_01;68.6;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 18:59:07;PT104;TT_02;68.5;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 18:59:07;PT104;TT_03;66.9;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 18:59:07;PT104;FT_01;13.6;m3/h;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 18:59:07;PT104;SPEED;4.2;m/min;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 18:59:07;PT104;T_CUORE;66.2;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 18:59:37;PT104;TT_01;68.9;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 18:59:37;PT104;TT_02;68.8;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I"
+  },
+  {
+   "cid": 1034,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "origine": "nativa",
+   "rerank": 0.6051667332649231,
+   "testo": "2026-05-10 18:23:07;PT104;T_CUORE;57.9;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 18:24:37;PT104;TT_02;59.9;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 18:25:37;PT104;T_CUORE;57.8;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 18:28:07;PT104;TT_03;58.4;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 18:28:07;PT104;T_CUORE;57.8;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 18:30:37;PT104;T_CUORE;57.1;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 18:31:37;PT104;TT_03;58.7;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 18:33:07;PT104;T_CUORE;57.3;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 18:35:07;PT104;FT_01;0.0;m3/h;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 18:35:37;PT104;T_CUORE;57.2;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 18:38:07;PT104;T_CUORE;57.6;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 18:38:37;PT104;SPEED;0.0;m/min;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 18:40:07;PT104;TT_01;59.3;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 18:40:07;PT104;TT_02;60.7;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 18:40:07;PT104;TT_03;58.7;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 18:40:07;PT104;FT_01;0.0;m3/h;OK;LOT=L26130-L1-T2;OP=POPESCU_I"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4670,
+ "tempi": {
+  "denso": 3.19,
+  "sparso": 0.39,
+  "rerank": 70.16
+ },
+ "generazione": {
+  "testo": "La temperatura minima registrata dal pastorizzatore della linea 1 il 10 maggio 2026 è stata di 68.6°C alle 14:30:37.\n\nFONTI: log_temperature_pastorizzatore_linea1_10_05_26.log, log_temperature_pastorizzatore_linea1_10_05_26.log, log_temperature_pastorizzatore_linea1_10_05_26.log, log_temperature_pastorizzatore_linea1_10_05_26.log\n\nCONFIDENZA: bassa",
+  "secondi": 27.71,
+  "token_prompt": 2897,
+  "token_risposta": 117,
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "fonti_citate": [
+   "log_temperature_pastorizzatore_linea1_10_05_26.log"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ },
+ "collaudo": 3,
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8"
+}

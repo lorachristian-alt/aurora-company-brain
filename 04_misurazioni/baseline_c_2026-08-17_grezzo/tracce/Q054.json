@@ -1,0 +1,684 @@
+{
+ "domanda": "Qual e' il PAT INAIL dello stabilimento e con che numero e' annotato l'infortunio sul registro?",
+ "candidati_densi": [
+  {
+   "cid": 1224,
+   "punteggio": 0.6033099796108033,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1225,
+   "punteggio": 0.5742040054473606,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1089,
+   "punteggio": 0.5547991703372535,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1228,
+   "punteggio": 0.5435831898515047,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1083,
+   "punteggio": 0.5416773548642289,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1193,
+   "punteggio": 0.5368502278314483,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1086,
+   "punteggio": 0.5352237547554738,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 386,
+   "punteggio": 0.5341528619348641,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1077,
+   "punteggio": 0.5275858343925917,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1227,
+   "punteggio": 0.5258039541909986,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 100,
+   "punteggio": 0.5238061297464878,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 82,
+   "punteggio": 0.5143580733392898,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 189,
+   "punteggio": 0.5032360688409503,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 101,
+   "punteggio": 0.5028863882398992,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 392,
+   "punteggio": 0.49877593505998846,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 185,
+   "punteggio": 0.49809754893589686,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1080,
+   "punteggio": 0.49781220498003154,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 397,
+   "punteggio": 0.495226179333199,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 188,
+   "punteggio": 0.49091286996416933,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 103,
+   "punteggio": 0.48967633443980585,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1224,
+   "punteggio": 23.82509994506836,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1806,
+   "punteggio": 17.706010818481445,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 347,
+   "punteggio": 17.548540115356445,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 311,
+   "punteggio": 17.24556541442871,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1406,
+   "punteggio": 16.948152542114258,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1228,
+   "punteggio": 16.833284378051758,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 287,
+   "punteggio": 16.802827835083008,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 386,
+   "punteggio": 16.60613250732422,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 505,
+   "punteggio": 16.439250946044922,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1830,
+   "punteggio": 16.319957733154297,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 99,
+   "punteggio": 15.653380393981934,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1225,
+   "punteggio": 15.423008918762207,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 345,
+   "punteggio": 15.277806282043457,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1230,
+   "punteggio": 15.165426254272461,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1837,
+   "punteggio": 15.100393295288086,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 323,
+   "punteggio": 15.021467208862305,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 601,
+   "punteggio": 14.917989730834961,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 575,
+   "punteggio": 14.893310546875,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1833,
+   "punteggio": 14.77008056640625,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1714,
+   "punteggio": 14.585030555725098,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 8,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1224,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.03278688524590164,
+   "rango_denso": 1,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1228,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.030776515151515152,
+   "rango_denso": 4,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1225,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.030017921146953404,
+   "rango_denso": 2,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 386,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.029411764705882353,
+   "rango_denso": 8,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1806,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 347,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1089,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 311,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1083,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1406,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1193,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 287,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1086,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 505,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1077,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1227,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1830,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 99,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 100,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 82,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 189,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 345,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 101,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1230,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1224,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.587843120098114
+  },
+  {
+   "cid": 1225,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.4050913155078888
+  },
+  {
+   "cid": 1083,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.1668209433555603
+  },
+  {
+   "cid": 1228,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.10113685578107834
+  },
+  {
+   "cid": 1086,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.09692244231700897
+  },
+  {
+   "cid": 1077,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.08770710229873657
+  },
+  {
+   "cid": 1089,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.0876767560839653
+  },
+  {
+   "cid": 386,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "rerank": 0.05869414657354355
+  },
+  {
+   "cid": 1227,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.03003714606165886
+  },
+  {
+   "cid": 1193,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.02976383827626705
+  },
+  {
+   "cid": 99,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "rerank": 0.01554879266768694
+  },
+  {
+   "cid": 345,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "rerank": 0.01250974740833044
+  },
+  {
+   "cid": 100,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "rerank": 0.009606316685676575
+  },
+  {
+   "cid": 101,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "rerank": 0.009184125810861588
+  },
+  {
+   "cid": 1230,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.0068581728264689445
+  },
+  {
+   "cid": 347,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "rerank": 0.0036480005364865065
+  },
+  {
+   "cid": 1406,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.002951344009488821
+  },
+  {
+   "cid": 1806,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.0021975466515868902
+  },
+  {
+   "cid": 505,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 0.002119695767760277
+  },
+  {
+   "cid": 311,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.002003787085413933
+  },
+  {
+   "cid": 189,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "rerank": 0.0009914288530126214
+  },
+  {
+   "cid": 287,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 9.803581633605063e-05
+  },
+  {
+   "cid": 82,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "rerank": 8.969259215518832e-05
+  },
+  {
+   "cid": 1830,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 3.04908007819904e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1224,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "origine": "nativa",
+   "rerank": 0.587843120098114,
+   "testo": "FASCICOLO INFORTUNIO - CORRADIN E. - 28/04/2026\nraccolta documenti ad uso interno (HR + RSPP) - agg. 12/05/2026 - f.s.\ncontiene: estremi denuncia INAIL, dinamica, trascrizione certificato PS,\nnota RSPP, corrispondenza interna, appunti capoturno\n==========================================================================\n\n1) ESTREMI DENUNCIA/COMUNICAZIONE DI INFORTUNIO (INAIL)\n\nDenuncia trasmessa telematicamente tramite portale INAIL in data 30/04/2026\n(entro i 2 giorni dalla ricezione del certificato medico, come da art. 53\nDPR 1124/1965).\n\n- Datore di lavoro: AURORA FOOD GROUP S.R.L. - P.IVA 03984710230\n- PAT INAIL: 90817346/22 - voce di tariffa 1462\n- Sede lavori: Via dell'Industria 27, 37044 Cologna Veneta (VR)\n- Lavoratore infortunato: CORRADIN EMANUELE, operaio addetto Linea 3\n  (reparto surgelati), contratto a tempo indeterminato, CCNL Industria\n  Alimentare, anzianita' aziendale 4 anni\n- Data e ora dell'evento: 28/04/2026, ore 09:40 circa\n- Luogo dell'evento: cella surgelati CF-02 (-18 gradi C), zona corsia\n  scaffalatura B\n- Natura e sede della lesione: trauma da schiacciamento, dito indice\n  mano sinistra"
+  },
+  {
+   "cid": 1225,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "origine": "nativa",
+   "rerank": 0.4050913155078888,
+   "testo": "- Luogo dell'evento: cella surgelati CF-02 (-18 gradi C), zona corsia\n  scaffalatura B\n- Natura e sede della lesione: trauma da schiacciamento, dito indice\n  mano sinistra\n- Prognosi da primo certificato: giorni 12 (dodici) salvo complicazioni\n- Numero caso INAIL assegnato: [riportato sulla ricevuta telematica,\n  ricevuta salvata in \\\\SRV-AURORA\\HR\\infortuni\\2026\\corradin\\]\n- Testimoni: Ilie Petru (operaio Linea 3), presente in cella al momento\n  del fatto\n- Abbandono del lavoro: ore 09:55 - accompagnato al Pronto Soccorso\n  dell'Ospedale G. Fracastoro di San Bonifacio (VR) dal collega\n  Sbalchiero D. con auto propria (ambulanza non necessaria)\n\nRegistro infortuni: annotazione n. 02/2026.\n(il n. 01/2026 e' la contusione lieve di Ba M. del 13/02, 0 gg, medicazione)\n\n--------------------------------------------------------------------------\n\n2) DINAMICA DICHIARATA DAL LAVORATORE (raccolta da F. Sartori il 29/04,\n   presente R. Guerra, sottoscritta dal lavoratore)\n\nIl lavoratore dichiara: \"Stavo spostando i carrelli portateglie vuoti\ndentro la cella CF-02 per fare posto ai bancali in arrivo dal tunnel.\nIl pavimento vicino alla porta aveva della brina, come sempre quando la"
+  },
+  {
+   "cid": 1083,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "origine": "nativa",
+   "rerank": 0.1668209433555603,
+   "testo": "0305;CIOBANU MARIUS;06/05/2026;mer;LINEA 2;T2;14:05;22:00;8,00;;;ingresso oltre tolleranza\n0306;BERTACCO PAOLO;06/05/2026;mer;LINEA 2;T1;05:59;14:00;8,00;;;\n0307;REFOSCO SONIA;06/05/2026;mer;LINEA 2;T2;14:00;22:00;8,00;;;\n0308;SOW IBRAHIM;06/05/2026;mer;LINEA 2;T2;14:01;22:00;8,00;;;\n0309;GECCHELE NICOLO;06/05/2026;mer;LINEA 2;T1;05:59;14:00;8,00;;;\n0310;LUPU VASILE;06/05/2026;mer;LINEA 2;T2;13:54;22:00;8,00;;;\n0401;GUERRA ROBERTO;06/05/2026;mer;LINEA 3;T1;06:01;14:00;8,00;;;\n0402;CORRADIN EMANUELE;06/05/2026;mer;LINEA 3;T1;;;;;;ASSENTE - infortunio 28/04 (pratica INAIL)\n0403;ILIE PETRU;06/05/2026;mer;LINEA 3;T1;05:59;14:00;8,00;;;\n0404;MIOTTO SARA;06/05/2026;mer;LINEA 3;T2;14:06;22:40;8,00;0,67;STR 30%;ingresso oltre tolleranza\n0405;BOUZID KARIM;06/05/2026;mer;LINEA 3;T2;13:58;22:40;8,00;0,67;STR 30%;\n0406;TADIELLO FEDERICO;06/05/2026;mer;LINEA 3;T1;06:00;14:00;8,00;;;\n0407;MELNYK OLEG;06/05/2026;mer;LINEA 3;T2;14:05;22:20;8,00;0,33;STR 30%;ingresso oltre tolleranza\n0408;SBALCHIERO DAMIANO;06/05/2026;mer;LINEA 3;T3;21:58;06:00;8,00;;NOTT 55%;\n0501;MAROBIN ANNA;06/05/2026;mer;CONFEZ.;T1;05:59;14:00;8,00;;;"
+  },
+  {
+   "cid": 1228,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "origine": "nativa",
+   "rerank": 0.10113685578107834,
+   "testo": "Rilasciato primo certificato medico INAIL.\n     Il medico di PS: dott.ssa [firma illeggibile]\n\n--------------------------------------------------------------------------\n\n4) NOTA DEL RSPP (pervenuta via PEC il 05/05/2026, prot. int. SPP-2026-011)\n\nOggetto: infortunio del 28/04/2026 - cella CF-02 - prime valutazioni e\nrichiesta aggiornamento DVR\n\nSpett.le Aurora Food Group S.r.l.\nc.a. datore di lavoro sig. G. Bertoldi\nc.a. dirigente delegato ing. M. Fantin\n\nA seguito del sopralluogo effettuato in data 04/05/2026 presso la cella\nCF-02 alla presenza del sig. Guerra e del sig. Faggionato, si osserva\nquanto segue:\n\na) la movimentazione dei carrelli portateglie in cella avviene in spazi\n   di manovra ridotti, aggravati nel periodo attuale dal sovrastoccaggio;\n   la larghezza utile della corsia B rilevata in sopralluogo (98 cm con\n   cella carica) risulta inferiore a quella considerata nel DVR vigente\n   (140 cm, rilevazione 2023, cella in condizioni ordinarie);\nb) i carrelli in uso sono privi di impugnature dedicate; la presa sul\n   montante espone le mani a cesoiamento/schiacciamento contro strutture\n   fisse;"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4562,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.18,
+  "rerank": 51.29
+ },
+ "id": "Q054",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:31:17",
+ "secondi": 51.48,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 65.72,
+  "token_prompt": 2132,
+  "token_risposta": 60,
+  "testo_grezzo": "Il PAT INAIL dello stabilimento è 90817346/22.\n\nFONTI: file: nota_infortunio_INAIL_operaio_linea3.txt, file: log_timbrature_fabbrica_maggio_settimana2.csv\n\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "file: nota_infortunio_INAIL_operaio_linea3.txt",
+   "file: log_timbrature_fabbrica_maggio_settimana2.csv"
+  ],
+  "fonti_fuori_contesto": [
+   "file: nota_infortunio_INAIL_operaio_linea3.txt",
+   "file: log_timbrature_fabbrica_maggio_settimana2.csv"
+  ],
+  "confidenza": "bassa"
+ }
+}

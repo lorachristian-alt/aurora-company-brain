@@ -1,0 +1,678 @@
+{
+ "domanda": "Come paga Tosano e che sconti gli riconosciamo da contratto?",
+ "candidati_densi": [
+  {
+   "cid": 1834,
+   "punteggio": 0.6160753889098199,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 663,
+   "punteggio": 0.6023554611949222,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1828,
+   "punteggio": 0.5933850071607093,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 673,
+   "punteggio": 0.5877269499376279,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 654,
+   "punteggio": 0.5866184502415479,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1110,
+   "punteggio": 0.5825069227038934,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 685,
+   "punteggio": 0.5819813681446264,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1422,
+   "punteggio": 0.5815050847259138,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1779,
+   "punteggio": 0.5779540382007284,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 652,
+   "punteggio": 0.5747991351397588,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 476,
+   "punteggio": 0.5731559903815431,
+   "file": "Fattura_TosanoCerea_2026_0188_copia_cortesia.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 628,
+   "punteggio": 0.5729549087459486,
+   "file": "lista_contatti_buyer_GDO_nordest.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 671,
+   "punteggio": 0.5715206822572547,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 666,
+   "punteggio": 0.57095011262371,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 665,
+   "punteggio": 0.5702200268183195,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1417,
+   "punteggio": 0.5701419697870725,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 664,
+   "punteggio": 0.5674318215151747,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 681,
+   "punteggio": 0.5634570795129301,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 682,
+   "punteggio": 0.56058766672974,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1421,
+   "punteggio": 0.5591712838103248,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 8,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 430,
+   "punteggio": 19.32117462158203,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1314,
+   "punteggio": 13.30328369140625,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 275,
+   "punteggio": 12.983786582946777,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 273,
+   "punteggio": 12.958503723144531,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1114,
+   "punteggio": 12.742761611938477,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 245,
+   "punteggio": 12.689422607421875,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 309,
+   "punteggio": 12.476786613464355,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 328,
+   "punteggio": 12.146699905395508,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 431,
+   "punteggio": 11.935444831848145,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1900,
+   "punteggio": 11.716483116149902,
+   "file": "volantino_convenzione_palestra.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1115,
+   "punteggio": 11.692147254943848,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 4,
+   "punteggio": 11.67874526977539,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 528,
+   "punteggio": 11.652819633483887,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1309,
+   "punteggio": 11.63572883605957,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1629,
+   "punteggio": 11.405621528625488,
+   "file": "scadenzario_effetti_RIBA_giugno26.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1110,
+   "punteggio": 11.369084358215332,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1522,
+   "punteggio": 11.341720581054688,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 616,
+   "punteggio": 11.262321472167969,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1830,
+   "punteggio": 11.195117950439453,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 682,
+   "punteggio": 11.168791770935059,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 12,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.028309409888357256,
+   "rango_denso": 6,
+   "rango_sparso": 16
+  },
+  {
+   "cid": 682,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.025158227848101268,
+   "rango_denso": 19,
+   "rango_sparso": 20
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1834,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 663,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1314,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 275,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1828,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 273,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 673,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 654,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1114,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 245,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 309,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 685,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 328,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 17,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1422,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1779,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 652,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1900,
+   "file": "volantino_convenzione_palestra.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 476,
+   "file": "Fattura_TosanoCerea_2026_0188_copia_cortesia.pdf",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1115,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 4,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 663,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "rerank": 0.4951796233654022
+  },
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.34798964858055115
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.3229246139526367
+  },
+  {
+   "cid": 682,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "rerank": 0.18913504481315613
+  },
+  {
+   "cid": 476,
+   "file": "Fattura_TosanoCerea_2026_0188_copia_cortesia.pdf",
+   "rerank": 0.15561069548130035
+  },
+  {
+   "cid": 1422,
+   "file": "proiezione_ARR_contratti_GDO_2026_2027.csv",
+   "rerank": 0.08173267543315887
+  },
+  {
+   "cid": 673,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "rerank": 0.06486315280199051
+  },
+  {
+   "cid": 654,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "rerank": 0.05903084576129913
+  },
+  {
+   "cid": 1834,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.05272930860519409
+  },
+  {
+   "cid": 652,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "rerank": 0.04738687351346016
+  },
+  {
+   "cid": 685,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "rerank": 0.02701571024954319
+  },
+  {
+   "cid": 275,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.017809025943279266
+  },
+  {
+   "cid": 1779,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.014851302839815617
+  },
+  {
+   "cid": 4,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.013363595120608807
+  },
+  {
+   "cid": 1828,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.010474620386958122
+  },
+  {
+   "cid": 273,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.007030458189547062
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.0007111784652806818
+  },
+  {
+   "cid": 328,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.00045250909170135856
+  },
+  {
+   "cid": 1314,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "rerank": 0.0002638275036588311
+  },
+  {
+   "cid": 1114,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.00020232785027474165
+  },
+  {
+   "cid": 309,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "rerank": 0.00015492991951759905
+  },
+  {
+   "cid": 1115,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.00010741734877228737
+  },
+  {
+   "cid": 245,
+   "file": "Comunicazione_aumento_listino_farine_indicizzazione.eml",
+   "rerank": 0.00010357610881328583
+  },
+  {
+   "cid": 1900,
+   "file": "volantino_convenzione_palestra.txt",
+   "rerank": 2.8121805371483788e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 663,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "origine": "nativa",
+   "rerank": 0.4951796233654022,
+   "testo": ";;;;;;;;;;;;;;;;;\n### condizioni quadro (promemoria commerciale, non toccare);;;;;;;;;;;;;;;;;\nTosano Cerea S.p.A.;Tosano;-;pagamento RIBA 90 gg dffm + sconto merce 2% in fattura + contributo promo 4% annuo;;;;;;;;;;;;;;da accordo quadro 18/12/2025\nAlì S.p.A.;Alìper;-;pagamento RIBA 60 gg dffm;;;;;;;;;;;;;;\nRossetto Trade S.p.A.;Rossetto;-;RIBA 60 gg;;;;;;;;;;;;;;\nFamila Nordest;Famila;-;BB 60 gg dffm;;;;;;;;;;;;;;\nF.lli Girardello S.r.l.;Ho.Re.Ca.;-;RB 30/60;;;;;;;;;;;;;;\nCa.Di.Al. S.n.c.;Ho.Re.Ca.;-;RB 60;;;;;;;;;;;;;;affidamento interno max 15.000\n;;;;;;;;;;;;;;;;;\n### listino a scaffale consigliato (raccolto da Zampieri nei giri pdv - INDICATIVO);;;;;;;;;;;;;;;;;\nTosano Cerea S.p.A.;Tosano;AF-SN-0450;prezzo scaffale rilevato;8034123450123;;;;;1,4423;;;;;;apr-26;;rilevato pdv Bussolengo 18/04\nTosano Cerea S.p.A.;Tosano;AF-SN-0450;prezzo scaffale PROMO sottocosto;8034123450123;;;;;0,9583;;;;;;mag-26;;volantino sett.19-21\nTosano Cerea S.p.A.;Tosano;AF-CR-0215;prezzo scaffale rilevato;8034123452158;;;;;2,8943;;;;;;apr-26;;\nTosano Cerea S.p.A.;Tosano;AF-FC-0330;prezzo scaffale rilevato;8034123453308;;;;;1,8295;;;;;;apr-26;;gira poco a sto prezzo"
+  },
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "origine": "nativa",
+   "rerank": 0.34798964858055115,
+   "testo": "qualche referenza di Tosano siamo all osso, va bene, lo so, ma il fatturato fa massa\ncritica e la massa critica fa potere contrattuale, l ho sempre detto\n\nla Trentin dice anche che il conto è in tensione per via dell acconto del tunnel, i\nfamosi 87mila di Criotech, e che Tosano ci paga a 90 giorni e l incasso grosso di marzo\nentra solo il 10 giugno, lo so, lo so tutto, ma la tensione di cassa è normale per chi\ncresce, io nel 96 ho fatto tre mesi senza stipendio per pagare il forno nuovo e vostra\nmadre non mi ha mai detto niente santa donna, adesso appena il conto scende sotto una\ncerta soglia sembra che caschi il mondo, abbiamo 250mila di fido e 400 di anticipo\nfatture, le banche i soldi te li danno quando dimostri che sai dove vai, e noi sappiamo\ndove andiamo, o meglio IO so dove vado e voglio che lo sappiate anche voi\n\nTERZO PUNTO questa storia della plastica\n\nquesta storia della plastica mi ha fatto passare la notte in bianco, non ve l ho detto\nma mercoledi non ho dormito, alle tre ero in cucina a guardare il muro, perche non è\nla signora di Bussolengo il problema, una signora arrabbiata la gestisci, le mandi due"
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "origine": "nativa",
+   "rerank": 0.3229246139526367,
+   "testo": "Inviato: mercoledì 13 maggio 2026 23:52\nA: Fantin Marco; Sartori Federica\nCc: Zanella Denis\nOggetto: R: R: Fwd: dimissioni Hoxha - situazione Linea 2 URGENTE\n\nmarco federica ho letto tutto adesso che sono tornato a casa dalla cena con\nquelli della banca e vi dico come la penso io questa cosa del premio presenza\nnon mi convince per niente perche se io pago uno per venire al lavoro la\ndomenica quando il turno domenicale e gia nel suo contratto che gli abbiamo\nfatto firmare allora domani mi chiedono il premio anche quelli del turno di\nnotte e poi quelli del sabato e poi dove andiamo a finire ditemi voi dove\nandiamo a finire IO NON PAGO LA GENTE PER FARE QUELLO CHE E GIA IL SUO LAVORO\nQUELLO SI CHIAMA STIPENDIO e lo stipendio glielo diamo gia puntuale il 27 di\nogni mese cosa che non tutti fanno nella zona ve lo dico io che conosco i\ntitolari, piuttosto se il problema sono le domeniche allora il problema e il\ntosano e le sue promozioni e allora ne parlo io con rossi quando lo vedo per\nil listino perche non possiamo essere noi a pagare due volte una promozione\nche gia ci paga niente, comunque per le assunzioni ok procedete con l agenzia"
+  },
+  {
+   "cid": 682,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "origine": "nativa",
+   "rerank": 0.18913504481315613,
+   "testo": "F.lli Girardello S.r.l.;Ho.Re.Ca.;-;RB 30/60;;;;;;;;;;;;;;\nCa.Di.Al. S.n.c.;Ho.Re.Ca.;-;RB 60;;;;;;;;;;;;;;affidamento interno max 15.000\n;;;;;;;;;;;;;;;;;\n### listino a scaffale consigliato (raccolto da Zampieri nei giri pdv - INDICATIVO);;;;;;;;;;;;;;;;;\nTosano Cerea S.p.A.;Tosano;AF-SN-0450;prezzo scaffale rilevato;8034123450123;;;;;1,49;;;;;;apr-26;;rilevato pdv Bussolengo 18/04\nTosano Cerea S.p.A.;Tosano;AF-SN-0450;prezzo scaffale PROMO sottocosto;8034123450123;;;;;0,99;;;;;;mag-26;;volantino sett.19-21\nTosano Cerea S.p.A.;Tosano;AF-CR-0215;prezzo scaffale rilevato;8034123452158;;;;;2,99;;;;;;apr-26;;\nTosano Cerea S.p.A.;Tosano;AF-FC-0330;prezzo scaffale rilevato;8034123453308;;;;;1,89;;;;;;apr-26;;gira poco a sto prezzo\nAlì S.p.A.;Alìper;AF-SN-0450;prezzo scaffale rilevato;8034123450123;;;;;1,55;;;;;;apr-26;;\nAlì S.p.A.;Alìper;AF-CR-0212;prezzo scaffale rilevato;8034123452127;;;;;3,49;;;;;;mar-26;;\nFamila Nordest;Famila;AF-CR-0220;prezzo scaffale rilevato;8034123452202;;;;;2,79;;;;;;apr-26;;\n;;;;;;;;;;;;;;;;;\n### dettaglio sconti promo concordati 2026 (integrazione righe sopra);;;;;;;;;;;;;;;;;"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4560,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.15,
+  "rerank": 49.74
+ },
+ "id": "Q046",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:25:07",
+ "secondi": 49.91,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 68.77,
+  "token_prompt": 1964,
+  "token_risposta": 121,
+  "testo_grezzo": "Tosano paga con riba 90 giorni e sconto merce 2% in fattura, oltre contributo promo 4% annuo. Gli sconti riconosciuti da contratto sono il sconto merce 2% e il contributo promo 4% annuo. FONTI: mail_titolare_Aurora_vie..._5anni.txt, listino_prezzi_canale_GDO_fresco_v3.csv, listino_prezzi GDO v2 VECCHIO non usare.csv CONFIDENZA: alta",
+  "fonti_citate": [],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

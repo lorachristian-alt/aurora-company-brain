@@ -1,0 +1,681 @@
+{
+ "domanda": "I due lotti bloccati dalla qualita': con che film sono stati confezionati e chi lo ha fornito?",
+ "candidati_densi": [
+  {
+   "cid": 534,
+   "punteggio": 0.46399908512577914,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1411,
+   "punteggio": 0.46373641904478796,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 206,
+   "punteggio": 0.4539844118856199,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 466,
+   "punteggio": 0.44934538414862985,
+   "file": "estratto_registro_carico_scarico_MOCA.xlsx",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1713,
+   "punteggio": 0.4426667519477667,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1197,
+   "punteggio": 0.43755383113664237,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1111,
+   "punteggio": 0.436902761398684,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 383,
+   "punteggio": 0.4338776299112037,
+   "file": "DoC_MOCA_Flexipack_film_PP_EVOH_2026.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 374,
+   "punteggio": 0.4338776299112037,
+   "file": "doc 2 (1).pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1870,
+   "punteggio": 0.43116339346187316,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 163,
+   "punteggio": 0.43070114572647633,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1202,
+   "punteggio": 0.4272232431445907,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 24,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1800,
+   "punteggio": 0.42579003676587596,
+   "file": "vendor_rating_fornitori_2026.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1613,
+   "punteggio": 0.42446942434506096,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 189,
+   "punteggio": 0.42428033614813204,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1203,
+   "punteggio": 0.41854113081723276,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 25,
+   "origine": "nativa"
+  },
+  {
+   "cid": 185,
+   "punteggio": 0.4185127816838068,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 187,
+   "punteggio": 0.4163625625373208,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1778,
+   "punteggio": 0.41623294187918747,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 84,
+   "punteggio": 0.4156134033677714,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 4,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1367,
+   "punteggio": 23.03302574157715,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1789,
+   "punteggio": 22.75006675720215,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 512,
+   "punteggio": 21.79964828491211,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1459,
+   "punteggio": 21.348819732666016,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 534,
+   "punteggio": 21.120397567749023,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 160,
+   "punteggio": 21.02836036682129,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1792,
+   "punteggio": 20.913423538208008,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1113,
+   "punteggio": 20.898122787475586,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1366,
+   "punteggio": 20.73639678955078,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1108,
+   "punteggio": 20.141860961914062,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1112,
+   "punteggio": 20.091007232666016,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 514,
+   "punteggio": 19.783607482910156,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 431,
+   "punteggio": 19.614011764526367,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1110,
+   "punteggio": 19.53239631652832,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1831,
+   "punteggio": 19.48482322692871,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1222,
+   "punteggio": 19.399381637573242,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 374,
+   "punteggio": 19.342437744140625,
+   "file": "doc 2 (1).pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 383,
+   "punteggio": 19.342437744140625,
+   "file": "DoC_MOCA_Flexipack_film_PP_EVOH_2026.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 430,
+   "punteggio": 19.140220642089844,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 531,
+   "punteggio": 19.009275436401367,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 1,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 534,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.03177805800756621,
+   "rango_denso": 1,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 383,
+   "file": "DoC_MOCA_Flexipack_film_PP_EVOH_2026.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.027526395173453996,
+   "rango_denso": 8,
+   "rango_sparso": 18
+  },
+  {
+   "cid": 374,
+   "file": "doc 2 (1).pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.027479766610201392,
+   "rango_denso": 9,
+   "rango_sparso": 17
+  },
+  {
+   "cid": 1367,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1411,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1789,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 206,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 512,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 466,
+   "file": "estratto_registro_carico_scarico_MOCA.xlsx",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1459,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1713,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 160,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1197,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1111,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1792,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1113,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1108,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1870,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 163,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1112,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 514,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1202,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 24,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1411,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.2968076765537262
+  },
+  {
+   "cid": 534,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "rerank": 0.03308788686990738
+  },
+  {
+   "cid": 1202,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.012784318998456001
+  },
+  {
+   "cid": 1713,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.005566745530813932
+  },
+  {
+   "cid": 206,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "rerank": 0.004950796719640493
+  },
+  {
+   "cid": 466,
+   "file": "estratto_registro_carico_scarico_MOCA.xlsx",
+   "rerank": 0.0029161768034100533
+  },
+  {
+   "cid": 374,
+   "file": "doc 2 (1).pdf",
+   "rerank": 0.0018759345402941108
+  },
+  {
+   "cid": 383,
+   "file": "DoC_MOCA_Flexipack_film_PP_EVOH_2026.pdf",
+   "rerank": 0.0018759345402941108
+  },
+  {
+   "cid": 163,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "rerank": 0.0018638807814568281
+  },
+  {
+   "cid": 1789,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0009163551731035113
+  },
+  {
+   "cid": 160,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "rerank": 0.0008607214549556375
+  },
+  {
+   "cid": 512,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 0.0006410512141883373
+  },
+  {
+   "cid": 514,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 0.00046809978084638715
+  },
+  {
+   "cid": 1197,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.00040029006777331233
+  },
+  {
+   "cid": 1111,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.00029235761030577123
+  },
+  {
+   "cid": 1112,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.00028548770933412015
+  },
+  {
+   "cid": 1459,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.00019101669022347778
+  },
+  {
+   "cid": 1113,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.00018067131168209016
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 8.173977403203025e-05
+  },
+  {
+   "cid": 1792,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 1.909650927700568e-05
+  },
+  {
+   "cid": 1367,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 1.81191699084593e-05
+  },
+  {
+   "cid": 1870,
+   "file": "verbale_scale_up_industriale_cornetto_premium.txt",
+   "rerank": 1.806575346563477e-05
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 1.6855750800459646e-05
+  },
+  {
+   "cid": 1108,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 1.63469958351925e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1411,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "origine": "nativa",
+   "rerank": 0.2968076765537262,
+   "testo": "[firma illeggibile] EM\n===========================================================================\n\n   PERIMETRO DEL BLOCCO - definizione (E.M. 14/05/2026 h 18:05)\n   Non sono coinvolti i due lotti per intero. La guarnizione non originale e' stata montata\n   alle 18:45 del 10/05: e' interessato SOLO il prodotto confezionato dal riavvio in poi.\n   - L26130-L1-T2 (dalle 18:45 alle 22:00) ......... 3.290 conf. - in magazzino, BLOCCATE\n   - L26130-L1-T3 (dalle 22:00 alle 03:00) ......... 1.480 conf. - in magazzino, BLOCCATE\n   - L26131-L1-T2 (11/05, guarnizione ancora montata) 3.630 conf. - di cui 5.100 gia' spedite\n     [ricontrollare: il totale spedito comprende anche pezzi del T2, Faggionato verifica]\n   Totale interessato ~ 8.400 conf., di cui ~5.100 gia' a scaffale o in CE.DI.\n   Il prodotto dei turni precedenti le 15:05 del 10/05 e' stato confezionato con la valvola\n   originale e non rientra nel perimetro (circa 29.000 conf. sui due lotti).\n   ⚠ ESTENSIONE: la guarnizione e' stata sostituita con l'originale solo il 15/05 e alla rimozione\n   mancavano ~2 cm2 di materiale. Va valutato anche il prodotto dal 12 al 15/05 (L26132, L26133,"
+  },
+  {
+   "cid": 534,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "origine": "nativa",
+   "rerank": 0.03308788686990738,
+   "testo": ">    al ritiro e/o richiamo dei lotti interessati ai sensi degli artt. 19 del\n>    Reg. (CE) 178/2002, con indicazione dei lotti e dei quantitativi consegnati\n>    presso il ns. CE.DI. di Cerea e dei punti vendita.\n>\n> Vi informiamo altresi' che, in via cautelativa, i quantitativi del lotto\n> L26130 e del lotto L26131 ancora giacenti presso il ns. CE.DI. sono stati\n> posti in stato di blocco e non saranno movimentati fino a definizione della\n> pratica. Ci riserviamo ogni azione a tutela del marchio \"Bonta' di Casa\" e\n> dei ns. consumatori, ivi compreso l'addebito dei costi diretti e indiretti\n> conseguenti all'evento, come previsto dall'art. 12.3 del citato Accordo.\n>\n> La relazione dovra' pervenire a mezzo PEC e in copia alla scrivente entro le\n> ore 10:37 del 16/05/2026. In difetto, ci vedremo costretti ad attivare le\n> procedure di cui all'art. 16 (clausola risolutiva espressa).\n>\n> Distinti saluti\n>\n> dott.ssa Anna Perbellini\n> Assicurazione Qualita' Fornitori\n> Tosano Cerea S.p.A. - CE.DI. Via Palazzina 5 - 37053 Cerea (VR)\n> Tel. 0442 32 09 11 - a.perbellini@tosanocerea.it\n>\n> Le informazioni trasmesse sono destinate esclusivamente alla persona o alla"
+  },
+  {
+   "cid": 1202,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "origine": "nativa",
+   "rerank": 0.012784318998456001,
+   "testo": "NC-2026-091;12/05/2026;reclamo;Qualità;RECLAMO da form sito web: sig.ra M.G. (Bussolengo VR) segnala frammento di plastica dura azzurra in snack AF-SN-0450 lotto L26130 acquistato presso Tosano Bussolengo. Aperta gestione MOD-QA-31, richiesto campione e foto;AF-SN-0450 L26130-L1-T2;critica;presunta origine: guarnizione azzurra non originale PKM-450 (v. NC-2026-089), materiale non metallico non rilevabile da MD-3200;raccolta campione, blocco lotti L26130 e L26131, informativa a Tosano QA (Perbellini), valutazione ritiro cautelativo;Marchetti E.;;APERTA;N/D\nNC-2026-092;12/05/2026;interna;Qualità;Blocco cautelativo lotti L26130 e L26131 tutte le referenze Linea 1 coinvolte, circa 8.400 confezioni di cui 5.100 gia a scaffale;AF-SN-0450 L26130 / L26131;critica;v. NC-2026-088 NC-2026-089 NC-2026-091;segregazione magazzino, conteggio giacenze, procedura ritiro CRISI GDO in pre-allerta, stima costo ritiro 31.500;Fantin M.;;APERTA;31.500,00"
+  },
+  {
+   "cid": 1713,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "origine": "nativa",
+   "rerank": 0.005566745530813932,
+   "testo": "________________________________________\n\nDa: Elena Marchetti <e.marchetti@aurorafoodgroup.it>\nA: Marco Fantin <m.fantin@aurorafoodgroup.it>\nCc: Sara Pozzato <s.pozzato@aurorafoodgroup.it>\nInviato: giovedì 14 maggio 2026 19:12\nOggetto: REC-2026-011 - RISERVATA - prime evidenze interne\n\nMarco,\nti scrivo qui perché domani mattina voglio parlartene a voce prima della\nriunione, ma intanto metto in fila i fatti. RISERVATA, non inoltrare.\n\n1. Il frammento: la signora ha accettato il ritiro, il campione arriva\n   domani con il corriere. Dalla foto: plastica rigida, colore azzurro,\n   ca. 9 mm nella dimensione massima, bordo di frattura netto. Non è film MAP (il nostro è\n   trasparente), non è un componente del prodotto.\n2. Il lotto: L26130 = giorno 130 = 10/05/2026. L'AF-SN-0450 quel giorno è\n   stato prodotto SOLO su Linea 1, turni 1 e 2.\n3. E qui viene il punto. Dal MOD-PR-04 risulta che il 10/05 alle 15:05,\n   turno 2, la PKM-450 è stata ferma 3 h 40 per la rottura della valvola\n   di iniezione azoto - quella che Ivano aveva segnalato in perdita già\n   l'8/05. La riparazione l'ha fatta Ivano in emergenza. Sul modulo ha"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4405,
+ "tempi": {
+  "denso": 0.01,
+  "sparso": 0.17,
+  "rerank": 43.65
+ },
+ "id": "Q181",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:12:38",
+ "secondi": 43.83,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 83.2,
+  "token_prompt": 1936,
+  "token_risposta": 88,
+  "testo_grezzo": "Il prodotto dei turni precedenti le 15:05 del 10/05/2026 e' stato confezionato con la valvola originale e non rientra nel perimetro.\n\nFONTI: procedura_ritiro_prodotto_CRISI_GDO.txt, I_Fwd_Richiesta_relazione_48_ore_Tosano.eml\nCONFIDENZA: alta",
+  "fonti_citate": [
+   "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "alta"
+ }
+}

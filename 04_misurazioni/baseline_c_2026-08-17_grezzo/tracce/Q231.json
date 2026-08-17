@@ -1,0 +1,681 @@
+{
+ "domanda": "Quante persone risultano sopra le 200 ore di straordinario al 30 aprile, e quante ne conta il sindacato?",
+ "candidati_densi": [
+  {
+   "cid": 1423,
+   "punteggio": 0.6423245817965683,
+   "file": "Prospetto_straordinari_gen-apr_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 290,
+   "punteggio": 0.6002283806307727,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 287,
+   "punteggio": 0.5789642238503303,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1858,
+   "punteggio": 0.5643871432784291,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 286,
+   "punteggio": 0.5492823944743482,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 294,
+   "punteggio": 0.5319588322396213,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 386,
+   "punteggio": 0.5269638755832,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 626,
+   "punteggio": 0.5208339789362277,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 292,
+   "punteggio": 0.520198757677548,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 288,
+   "punteggio": 0.5187607703614463,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 627,
+   "punteggio": 0.5100996272673692,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 295,
+   "punteggio": 0.5087007253569944,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 293,
+   "punteggio": 0.5037861774243393,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1080,
+   "punteggio": 0.4987550644166854,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 289,
+   "punteggio": 0.49794240202857376,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1488,
+   "punteggio": 0.4956368663994285,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1086,
+   "punteggio": 0.493975634457956,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1077,
+   "punteggio": 0.4937052838199097,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1088,
+   "punteggio": 0.4929649756785264,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 625,
+   "punteggio": 0.48947966393801734,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1423,
+   "punteggio": 44.20479965209961,
+   "file": "Prospetto_straordinari_gen-apr_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 287,
+   "punteggio": 24.074344635009766,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 627,
+   "punteggio": 22.333715438842773,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 286,
+   "punteggio": 20.764455795288086,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1788,
+   "punteggio": 20.4051513671875,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 26,
+   "punteggio": 19.36516571044922,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 24,
+   "origine": "nativa"
+  },
+  {
+   "cid": 282,
+   "punteggio": 17.687334060668945,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 291,
+   "punteggio": 17.507680892944336,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 290,
+   "punteggio": 17.071090698242188,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 285,
+   "punteggio": 16.826156616210938,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1205,
+   "punteggio": 16.66541290283203,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 27,
+   "origine": "nativa"
+  },
+  {
+   "cid": 317,
+   "punteggio": 16.663909912109375,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 103,
+   "punteggio": 16.218578338623047,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 431,
+   "punteggio": 16.12895393371582,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 260,
+   "punteggio": 16.104536056518555,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 523,
+   "punteggio": 15.823834419250488,
+   "file": "Fwd_newsletter_confindustria_marzo.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 522,
+   "punteggio": 15.403964042663574,
+   "file": "Fwd_newsletter_confindustria_marzo.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 281,
+   "punteggio": 15.350752830505371,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 625,
+   "punteggio": 15.189270973205566,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 435,
+   "punteggio": 15.085526466369629,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 7,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1423,
+   "file": "Prospetto_straordinari_gen-apr_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.03278688524590164,
+   "rango_denso": 1,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 287,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.03200204813108039,
+   "rango_denso": 3,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 286,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.031009615384615385,
+   "rango_denso": 5,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 290,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.030621785881252923,
+   "rango_denso": 2,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 627,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.029957522915269395,
+   "rango_denso": 11,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 625,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.025158227848101268,
+   "rango_denso": 20,
+   "rango_sparso": 19
+  },
+  {
+   "cid": 1858,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1788,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 26,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 24,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 294,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 282,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 386,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 291,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 626,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 292,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 285,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 288,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1205,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 27,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 295,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 317,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 103,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 293,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  },
+  {
+   "cid": 1080,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1423,
+   "file": "Prospetto_straordinari_gen-apr_2026.xlsx",
+   "rerank": 0.9987938404083252
+  },
+  {
+   "cid": 627,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "rerank": 0.3106786608695984
+  },
+  {
+   "cid": 626,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "rerank": 0.28843820095062256
+  },
+  {
+   "cid": 287,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.05424979329109192
+  },
+  {
+   "cid": 1788,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.04704664647579193
+  },
+  {
+   "cid": 290,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.026796577498316765
+  },
+  {
+   "cid": 286,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.018643198534846306
+  },
+  {
+   "cid": 292,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.01431927178055048
+  },
+  {
+   "cid": 291,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.010691165924072266
+  },
+  {
+   "cid": 293,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.006964639760553837
+  },
+  {
+   "cid": 1858,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.006805216893553734
+  },
+  {
+   "cid": 625,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "rerank": 0.005376649089157581
+  },
+  {
+   "cid": 294,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.003937215078622103
+  },
+  {
+   "cid": 386,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "rerank": 0.003245627274736762
+  },
+  {
+   "cid": 285,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.0031074793078005314
+  },
+  {
+   "cid": 295,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.0024536559358239174
+  },
+  {
+   "cid": 288,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.001938662608154118
+  },
+  {
+   "cid": 1080,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.00066453154431656
+  },
+  {
+   "cid": 282,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.0005061213742010295
+  },
+  {
+   "cid": 26,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.0004105368861928582
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.00024249374109786004
+  },
+  {
+   "cid": 1205,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.00023148901527747512
+  },
+  {
+   "cid": 317,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.00013693016080651432
+  },
+  {
+   "cid": 103,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "rerank": 3.5457142075756565e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1423,
+   "file": "Prospetto_straordinari_gen-apr_2026.xlsx",
+   "origine": "nativa",
+   "rerank": 0.9987938404083252,
+   "testo": "Prospetto ore di straordinario - gennaio/aprile 2026\nelaborazione F. Sartori per la riunione di direzione del 12/05/2026\nfonte: progressivi individuali del libro unico (foglio Straordinari)\n\nREPARTO GENNAIO FEBBRAIO MARZO APRILE TOTALE NOTE\nLINEA 1 123 136 183 223 665\nLINEA 2 332 367 493 600 1792 la linea della promo\nLINEA 3 96 107 143 175 521\nCONFEZ. 44 49 66 81 240\nMAGAZZ. 24 27 36 45 132\nMANUT. 18 20 26 32 96\n\nTOTALE 637 706 947 1156 3446\n\n(Sartori) la Linea 2 pesa da sola piu' di tutti gli altri reparti messi insieme.\n(Sartori) al 30/04 ci sono 5 persone sopra le 200 ore annue. Il tetto contrattuale e' 250.\n(Sartori) il conteggio del sindacato non coincide col nostro: Fantin si e' riservato la verifica.\nMATRICOLA COGNOME REPARTO ORE ANNUE AL 30/04 RESIDUO SU 250\n310 LUPU VASILE LINEA 2 213 37\n302 HOXHA FATJON LINEA 2 212 38\n308 SOW IBRAHIM LINEA 2 211 39\n305 CIOBANU MARIUS LINEA 2 208 42\n306 BERTACCO PAOLO LINEA 2 206 44\n\n(Sartori) Bertacco e' anche RLS: se la RSU solleva la questione, parte da lui.\n(Sartori) la RSU sostiene siano sei: da riscontrare, due dei quali non risultano dai nostri conteggi."
+  },
+  {
+   "cid": 627,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "origine": "nativa",
+   "rerank": 0.3106786608695984,
+   "testo": "0604 MATTIELLO GIANLUCA MAGAZZ. 14\n0701 DAL MASO IVANO MANUT. 47\n0702 BISSOLI MIRCO MANUT. 24\n\n(Sartori) sei operai di Linea 2 sono oltre le 200 ore: e' il punto sollevato dalla RSU il 20/05.\nCosto del lavoro - maggio 2026\n\n\nRetribuzione lorda del mese\nContributi a carico azienda (28,5%)\nAccantonamento TFR (7,41%)\nINAIL (tasso medio 2,8%)\nCOSTO AZIENDA DEL MESE\n\nCosto medio per addetto\nIncidenza sul fatturato mensile (budget 1.100.000)\nCosto del solo straordinario\n\n(Trentin) il costo del mese e' sopra la media per via delle due domeniche. A giugno rientra."
+  },
+  {
+   "cid": 626,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "origine": "nativa",
+   "rerank": 0.28843820095062256,
+   "testo": "0205 VASILESCU ANDREI LINEA 1 20\n0206 BOGONI MARTA LINEA 1 54\n0207 FURLAN ALESSANDRO LINEA 1 62\n0208 EL AMRANI HASSAN LINEA 1 82\n0209 PELOSO GIORGIO LINEA 1 76\n0210 MUNTEANU CRISTIAN LINEA 1 84\n0301 BEN SALAH ADEL LINEA 2 207\n0302 HOXHA FATJON LINEA 2 220\n0303 MANSOURI YOUSSEF LINEA 2 148\n0304 DAL BEN ELISA LINEA 2 125\n0305 CIOBANU MARIUS LINEA 2 224\n0306 BERTACCO PAOLO LINEA 2 225\n0307 REFOSCO SONIA LINEA 2 144\n0308 SOW IBRAHIM LINEA 2 214\n0309 GECCHELE NICOLO LINEA 2 136\n0310 LUPU VASILE LINEA 2 219\n0401 GUERRA ROBERTO LINEA 3 41\n0402 CORRADIN EMANUELE LINEA 3 83\n0403 ILIE PETRU LINEA 3 80\n0404 MIOTTO SARA LINEA 3 29\n0405 BOUZID KARIM LINEA 3 95\n0406 TADIELLO FEDERICO LINEA 3 75\n0407 MELNYK OLEG LINEA 3 77\n0408 SBALCHIERO DAMIANO LINEA 3 93\n0501 MAROBIN ANNA CONFEZ. 27\n0502 PERETTO CHIARA CONFEZ. 45\n0503 BA MAMADOU CONFEZ. 79\n0504 FRIGO LUCIA CONFEZ. 60\n0505 VISENTIN STEFANO CONFEZ. 12\n0601 FAGGIONATO NICOLA MAGAZZ. 35\n0602 SEGATO ALBERTO MAGAZZ. 54\n0603 PREDA RADU MAGAZZ. 47\n0604 MATTIELLO GIANLUCA MAGAZZ. 14\n0701 DAL MASO IVANO MANUT. 47\n0702 BISSOLI MIRCO MANUT. 24\n\n(Sartori) sei operai di Linea 2 sono oltre le 200 ore: e' il punto sollevato dalla RSU il 20/05."
+  },
+  {
+   "cid": 287,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "origine": "nativa",
+   "rerank": 0.05424979329109192,
+   "testo": "con prestazioni giornaliere che, sommando ordinario e straordinario, hanno\nraggiunto e in taluni casi superato le 10 ore. Richiama l'art. 4 del D.Lgs.\n8 aprile 2003 n. 66 in materia di durata massima dell'orario di lavoro,\ncon particolare riferimento alla durata media massima settimanale di 48 ore\ncomprensive dello straordinario, calcolata sul periodo di riferimento, e\nl'art. 5 del medesimo decreto quanto ai limiti del lavoro straordinario.\nOsserva che il carattere \"sistematico\" dello straordinario contrasta con la\nnatura di strumento eccezionale che l'istituto riveste secondo il CCNL\napplicato.\n\nIl sig. Bertacco (RSU) riferisce che i lavoratori della Linea 2 hanno\nprestato straordinario pressoche' quotidiano nelle ultime quattro settimane,\ncon punte di 2,5 ore giornaliere, e che le comunicazioni di prolungamento\nturno sono avvenute in piu' occasioni il giorno stesso, a turno gia'\niniziato, rendendo impossibile ogni conciliazione con la vita familiare.\n\nL'ing. Fantin, per la Direzione, riconosce che il periodo ha comportato un\nricorso allo straordinario superiore all'ordinario andamento e ne indica la\ncausa negli ordini promozionali del cliente Tosano Cerea S.p.A., pervenuti"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4059,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.18,
+  "rerank": 43.93
+ },
+ "id": "Q231",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:50:24",
+ "secondi": 44.14,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 39.73,
+  "token_prompt": 1937,
+  "token_risposta": 43,
+  "testo_grezzo": "La risposta è: 5 persone\n\nFONTI: libro_unico_lavoro_estratto_maggio2026.xlsx, contestazione_sindacale_straordinari_Tosano.txt",
+  "fonti_citate": [
+   "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "contestazione_sindacale_straordinari_Tosano.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

@@ -1,0 +1,681 @@
+{
+ "domanda": "A che ora si e' tenuta la riunione di direzione del 12 maggio?",
+ "candidati_densi": [
+  {
+   "cid": 334,
+   "punteggio": 0.6020576162932195,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 331,
+   "punteggio": 0.5898154155150152,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 333,
+   "punteggio": 0.524840104073244,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1864,
+   "punteggio": 0.48226266224557324,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1604,
+   "punteggio": 0.47921681386932313,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1432,
+   "punteggio": 0.472776619625758,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1850,
+   "punteggio": 0.4709403687304362,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1535,
+   "punteggio": 0.4668423669225137,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 862,
+   "punteggio": 0.4662423500807105,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 40,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1301,
+   "punteggio": 0.463618661895993,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1304,
+   "punteggio": 0.46152735321787564,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1487,
+   "punteggio": 0.4611996855897561,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 237,
+   "punteggio": 0.460433441063006,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 295,
+   "punteggio": 0.45872021572049987,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 85,
+   "punteggio": 0.4580779548164447,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1410,
+   "punteggio": 0.45782106810495654,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 865,
+   "punteggio": 0.4567210903484563,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 43,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1334,
+   "punteggio": 0.45621930368895824,
+   "file": "prenotazioni_sala_riunioni_maggio.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1488,
+   "punteggio": 0.45444279511951535,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 235,
+   "punteggio": 0.4541169013810964,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "idx": 11,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 334,
+   "punteggio": 24.343107223510742,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 335,
+   "punteggio": 23.211950302124023,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1832,
+   "punteggio": 20.67802619934082,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 531,
+   "punteggio": 20.249935150146484,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 331,
+   "punteggio": 18.86293601989746,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 333,
+   "punteggio": 18.75882339477539,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1535,
+   "punteggio": 18.453344345092773,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1145,
+   "punteggio": 18.34705924987793,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 27,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1316,
+   "punteggio": 18.27689552307129,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 295,
+   "punteggio": 18.10695457458496,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1813,
+   "punteggio": 16.98087501525879,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1776,
+   "punteggio": 16.75785255432129,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 292,
+   "punteggio": 16.71366310119629,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1773,
+   "punteggio": 16.60260009765625,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1334,
+   "punteggio": 16.253032684326172,
+   "file": "prenotazioni_sala_riunioni_maggio.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 206,
+   "punteggio": 16.14151382446289,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1475,
+   "punteggio": 16.104726791381836,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 276,
+   "punteggio": 15.98541259765625,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 289,
+   "punteggio": 15.92567253112793,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1858,
+   "punteggio": 15.890477180480957,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 334,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.03278688524590164,
+   "rango_denso": 1,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 331,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.0315136476426799,
+   "rango_denso": 2,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 333,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.031024531024531024,
+   "rango_denso": 3,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1535,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.029631255487269532,
+   "rango_denso": 8,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 295,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.027799227799227798,
+   "rango_denso": 14,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1334,
+   "file": "prenotazioni_sala_riunioni_maggio.csv",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.026153846153846153,
+   "rango_denso": 18,
+   "rango_sparso": 15
+  },
+  {
+   "cid": 335,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1832,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 531,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1864,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1604,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1432,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1850,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1145,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 27,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 862,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 40,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1316,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1301,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1304,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1813,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1487,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 237,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 292,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1773,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 331,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "rerank": 0.9785689115524292
+  },
+  {
+   "cid": 334,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "rerank": 0.9700008630752563
+  },
+  {
+   "cid": 333,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "rerank": 0.9009974598884583
+  },
+  {
+   "cid": 1334,
+   "file": "prenotazioni_sala_riunioni_maggio.csv",
+   "rerank": 0.5903914570808411
+  },
+  {
+   "cid": 335,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "rerank": 0.17289069294929504
+  },
+  {
+   "cid": 1813,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.08400404453277588
+  },
+  {
+   "cid": 1604,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.07178724557161331
+  },
+  {
+   "cid": 295,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.04414062201976776
+  },
+  {
+   "cid": 1773,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.03472188487648964
+  },
+  {
+   "cid": 292,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.033174362033605576
+  },
+  {
+   "cid": 1850,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.02376401610672474
+  },
+  {
+   "cid": 1832,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "rerank": 0.012785348109900951
+  },
+  {
+   "cid": 862,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.009025907143950462
+  },
+  {
+   "cid": 1487,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "rerank": 0.008357466198503971
+  },
+  {
+   "cid": 531,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "rerank": 0.005965093616396189
+  },
+  {
+   "cid": 1864,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.005675354041159153
+  },
+  {
+   "cid": 237,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "rerank": 0.0032642222940921783
+  },
+  {
+   "cid": 1535,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.0032246846240013838
+  },
+  {
+   "cid": 1145,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.0022747828625142574
+  },
+  {
+   "cid": 1304,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "rerank": 0.001499817008152604
+  },
+  {
+   "cid": 1316,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "rerank": 0.001483350177295506
+  },
+  {
+   "cid": 1301,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "rerank": 0.0014726732624694705
+  },
+  {
+   "cid": 1432,
+   "file": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "rerank": 0.0011404353426769376
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0006865747272968292
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 331,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "origine": "nativa",
+   "rerank": 0.9785689115524292,
+   "testo": "From: Federica Sartori <f.sartori@aurorafoodgroup.it>\nTo: Giancarlo Bertoldi <g.bertoldi@aurorafoodgroup.it>, Silvia Bertoldi <s.bertoldi@aurorafoodgroup.it>, Marco Fantin <m.fantin@aurorafoodgroup.it>, Elena Marchetti <e.marchetti@aurorafoodgroup.it>, Denis Zanella <d.zanella@aurorafoodgroup.it>, Luisa Trentin <l.trentin@aurorafoodgroup.it>, Nicola Faggionato <n.faggionato@aurorafoodgroup.it>, Alberto Zanchetta <a.zanchetta@aurorafoodgroup.it>, Paolo Zampieri <p.zampieri@aurorafoodgroup.it>\nSubject: Convocazione riunione di direzione - martedi 12/05/2026 ore 9:30 - sala riunioni 1' piano\nDate: Fri, 08 May 2026 16:20:41 +0200\nMessage-ID: <AM0PR07MB96B9CB4AF2AD@aurorafoodgroup.it>\nBuongiorno a tutti,\n\nricircolo l'ordine del giorno con le prime risposte in coda (Zampieri assente,\nTrentin presente fino alle 12). Su indicazione del sig. Bertoldi e' convocata\nla riunione di direzione per\n\n  MARTEDI 12 MAGGIO 2026, ORE 9:30 - SALA RIUNIONI 1' PIANO\n  (durata prevista: fino alle 12:30 circa, seguira' verbale a cura dell'ing. Fantin)\n\ncon il seguente ordine del giorno:\n\n  1. Andamento promo Tosano \"Sottocosto Primavera\" (sett. 19-21): consegne"
+  },
+  {
+   "cid": 334,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "origine": "nativa",
+   "rerank": 0.9700008630752563,
+   "testo": "Oggetto: R: Convocazione riunione di direzione - martedi 12/05/2026 ore 9:30\n\n> Ciao Federica\n> non posso, sono a Cerea. martedi mattina ho l'incontro fissato al cedi\n> col Vantini per la storia delle prenotazioni slot + passo dal Rossi se\n> mi riceve che devo tastare il terreno sul listino. per il punto 4 al\n> limite chiamatemi che mi metto in viva voce dalla macchina.\n> se serve il quadro ordini aggiornato ce l'ha gia la Silvia\n> Paolo\n> Inviato dal mio iPhone\n>\n>\n> -----Messaggio originale-----\n> Da: Federica Sartori <f.sartori@aurorafoodgroup.it>\n> Inviato: venerdi 8 maggio 2026 12:36\n> Oggetto: Convocazione riunione di direzione - martedi 12/05/2026 ore 9:30 - sala riunioni 1' piano\n>\n>> [vedi sopra - convocazione con OdG]\n\n\n-----Messaggio originale-----\nDa: Luisa Trentin <l.trentin@aurorafoodgroup.it>\nInviato: venerdi 8 maggio 2026 15:47\nA: Federica Sartori <f.sartori@aurorafoodgroup.it>\nOggetto: R: Convocazione riunione di direzione - martedi 12/05/2026 ore 9:30\n\n> Confermo la presenza (fino alle 12 pero', poi ho lo Studio Bellotto al\n> telefono per l'F24 di maggio).\n> Una preghiera: si puo' mettere il punto 3 all'inizio? Se si decide"
+  },
+  {
+   "cid": 333,
+   "file": "Convocazione_riunione_direzione_12_05.eml",
+   "origine": "nativa",
+   "rerank": 0.9009974598884583,
+   "testo": "aggiornamento progetto \"Aurora Vega\" Minerbe, sostituzione uscente\n     Linea 2\n\nVi chiedo cortesemente di CONFERMARE LA PRESENZA entro lunedi 11 alle 12:00,\nrispondendo a questa mail. Chi non puo' partecipare indichi un delegato.\nCaffe' e brioches ci sono (le nostre, ovviamente :))\n\nGrazie e buon lavoro,\nFederica\n\nFederica Sartori\nHR & Segreteria di Direzione\nAurora Food Group S.r.l.\nVia dell'Industria 27 - 37044 Cologna Veneta (VR)\nTel. 0442 85 41 22 int. 201 - f.sartori@aurorafoodgroup.it\nP.IVA 03984710230 - www.aurorafoodgroup.it\nIl presente messaggio e' indirizzato esclusivamente ai destinatari indicati.\nAi sensi del Reg. UE 2016/679 (GDPR) si invita a non diffonderne il contenuto.\nThis message is intended only for the named recipients. If you have received\nit in error please delete it and notify the sender.\n\n\n-----Messaggio originale-----\nDa: Paolo Zampieri <p.zampieri@aurorafoodgroup.it>\nInviato: venerdi 8 maggio 2026 13:02\nA: Federica Sartori <f.sartori@aurorafoodgroup.it>\nOggetto: R: Convocazione riunione di direzione - martedi 12/05/2026 ore 9:30\n\n> Ciao Federica\n> non posso, sono a Cerea. martedi mattina ho l'incontro fissato al cedi"
+  },
+  {
+   "cid": 1334,
+   "file": "prenotazioni_sala_riunioni_maggio.csv",
+   "origine": "nativa",
+   "rerank": 0.5903914570808411,
+   "testo": "PRENOTAZIONE SALA RIUNIONI (piano 1);;;;\ncompilare sul foglio appeso alla porta, questo e' solo il riepilogo che tiene Federica;;;;\n;;;;\ndata;dalle;alle;chi;motivo\n04/05/2026;09:00;10:30;Bertoldi S.;preparazione visita cliente\n05/05/2026;14:00;16:00;Zampieri P.;call cliente\n06/05/2026;08:30;09:30;Marchetti E.;riunione qualita' settimanale\n07/05/2026;11:00;12:00;Fantin M.;colloquio candidato\n11/05/2026;15:00;17:00;Trentin L.;commercialista\n12/05/2026;09:30;12:30;Bertoldi G.;riunione direzione - NON DISTURBARE\n13/05/2026;08:30;09:30;Marchetti E.;riunione qualita'\n13/05/2026;17:30;19:00;Bertoldi G.;riunione urgente reclamo\n14/05/2026;10:00;11:00;Sartori F.;colloquio\n14/05/2026;15:00;16:30;Bertoldi S.;;\n18/05/2026;09:00;11:00;Zanchetta A.;panel test (spostato in cucina pilota)\n19/05/2026;14:30;16:00;Fantin M.;fornitore\n20/05/2026;14:30;18:00;Sartori F.;incontro RSU + FLAI-CGIL\n20/05/2026;08:30;09:30;Marchetti E.;riunione qualita'\n26/05/2026;09:00;10:00;Bertoldi S.;;\n28/05/2026;14:00;15:00;Trentin L.;banca\n;;;;\nNOTA: il proiettore non funziona dal 6 maggio, e' stato portato in assistenza.;;;;\nPer le presentazioni usare il monitor grande, il cavo HDMI e' nel cassetto.;;;;"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4658,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.18,
+  "rerank": 45.9
+ },
+ "id": "Q221",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:42:39",
+ "secondi": 46.1,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 56.02,
+  "token_prompt": 2090,
+  "token_risposta": 62,
+  "testo_grezzo": "La riunione di direzione si è tenuta alle ore 9:30 del martedì 12 maggio 2026.\n\nFONTI: Convocazione_riunione_direzione_12_05.eml, prenotazioni_sala_riunioni_maggio.csv",
+  "fonti_citate": [
+   "Convocazione_riunione_direzione_12_05.eml",
+   "prenotazioni_sala_riunioni_maggio.csv"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

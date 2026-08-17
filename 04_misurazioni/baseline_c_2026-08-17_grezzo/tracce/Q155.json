@@ -1,0 +1,681 @@
+{
+ "domanda": "Come sono peggiorati nel mese gli allarmi della cella surgelati?",
+ "candidati_densi": [
+  {
+   "cid": 1137,
+   "punteggio": 0.4702501423331455,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 19,
+   "origine": "nativa"
+  },
+  {
+   "cid": 267,
+   "punteggio": 0.4652325528092799,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 410,
+   "punteggio": 0.45714541808955445,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 317,
+   "punteggio": 0.45196017573442704,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 392,
+   "punteggio": 0.44793424684350985,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 922,
+   "punteggio": 0.4477443048393996,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 100,
+   "origine": "nativa"
+  },
+  {
+   "cid": 262,
+   "punteggio": 0.44729855262510654,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1842,
+   "punteggio": 0.4447560683046785,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1126,
+   "punteggio": 0.44435802277234243,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 263,
+   "punteggio": 0.441586073404562,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 994,
+   "punteggio": 0.44151126199605145,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 60,
+   "origine": "nativa"
+  },
+  {
+   "cid": 991,
+   "punteggio": 0.44147236060800776,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 57,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1196,
+   "punteggio": 0.4404645046643994,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 264,
+   "punteggio": 0.4401029938678218,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 172,
+   "punteggio": 0.44009464628449585,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 268,
+   "punteggio": 0.437266780099404,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 349,
+   "punteggio": 0.43579247299960894,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 738,
+   "punteggio": 0.4353473513481188,
+   "file": "log_allarmi_cella_frigo_surgelati_aprile.log",
+   "idx": 52,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1606,
+   "punteggio": 0.43521819013983265,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 901,
+   "punteggio": 0.4349042072202936,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 79,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 312,
+   "punteggio": 18.143844604492188,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1226,
+   "punteggio": 16.14792823791504,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 250,
+   "punteggio": 15.005419731140137,
+   "file": "comunicazione_chiusura_estiva_2026.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 430,
+   "punteggio": 14.719962120056152,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1114,
+   "punteggio": 14.220076560974121,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 202,
+   "punteggio": 14.082280158996582,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1225,
+   "punteggio": 13.752082824707031,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 244,
+   "punteggio": 13.686980247497559,
+   "file": "Circolare_INPS_aliquote_contributive_2026.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 315,
+   "punteggio": 13.407955169677734,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 314,
+   "punteggio": 13.214127540588379,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 11,
+   "punteggio": 13.198779106140137,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1224,
+   "punteggio": 13.030902862548828,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1115,
+   "punteggio": 12.736946105957031,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1228,
+   "punteggio": 12.676348686218262,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 574,
+   "punteggio": 12.552408218383789,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1126,
+   "punteggio": 12.544662475585938,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1367,
+   "punteggio": 12.44433307647705,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1392,
+   "punteggio": 12.346875190734863,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 433,
+   "punteggio": 12.15755844116211,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1321,
+   "punteggio": 12.13978099822998,
+   "file": "politica_qualita_e_sicurezza_alimentare_2026.docx",
+   "idx": 5,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1126,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.027650648360030512,
+   "rango_denso": 9,
+   "rango_sparso": 16
+  },
+  {
+   "cid": 312,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1137,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 19,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 267,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1226,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 250,
+   "file": "comunicazione_chiusura_estiva_2026.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 410,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 317,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 392,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1114,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 202,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 922,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 100,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 262,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1225,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 244,
+   "file": "Circolare_INPS_aliquote_contributive_2026.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1842,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 315,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 263,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 314,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 11,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 994,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 60,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 991,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 57,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1224,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 263,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "rerank": 0.08653281629085541
+  },
+  {
+   "cid": 262,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "rerank": 0.04892494156956673
+  },
+  {
+   "cid": 267,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "rerank": 0.04704827070236206
+  },
+  {
+   "cid": 410,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "rerank": 0.01612713560461998
+  },
+  {
+   "cid": 1225,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.015903092920780182
+  },
+  {
+   "cid": 1137,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.013788463547825813
+  },
+  {
+   "cid": 312,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.007877590134739876
+  },
+  {
+   "cid": 1224,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.0061793639324605465
+  },
+  {
+   "cid": 1126,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.0056723360903561115
+  },
+  {
+   "cid": 317,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.005595560185611248
+  },
+  {
+   "cid": 1842,
+   "file": "Verbale_ispezione_ATS_09_06_2026.pdf",
+   "rerank": 0.0038295553531497717
+  },
+  {
+   "cid": 392,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "rerank": 0.0025341033469885588
+  },
+  {
+   "cid": 315,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.0018023494631052017
+  },
+  {
+   "cid": 314,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.0015026009641587734
+  },
+  {
+   "cid": 994,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.0009094488923437893
+  },
+  {
+   "cid": 991,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.00090269953943789
+  },
+  {
+   "cid": 1226,
+   "file": "nota_infortunio_INAIL_operaio_linea3.txt",
+   "rerank": 0.00087455176981166
+  },
+  {
+   "cid": 922,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.0006883476162329316
+  },
+  {
+   "cid": 1114,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.00028233646298758686
+  },
+  {
+   "cid": 250,
+   "file": "comunicazione_chiusura_estiva_2026.txt",
+   "rerank": 0.00027721995138563216
+  },
+  {
+   "cid": 202,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "rerank": 0.00023766676895320415
+  },
+  {
+   "cid": 11,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 1.6919526387937367e-05
+  },
+  {
+   "cid": 244,
+   "file": "Circolare_INPS_aliquote_contributive_2026.txt",
+   "rerank": 1.6710662748664618e-05
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 1.6664893337292597e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 263,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "origine": "nativa",
+   "rerank": 0.08653281629085541,
+   "testo": "06/05/26;CELLA SURGELATI CF-02;205;147;94;445;;0,182;81,08;\n06/05/26;COMPRESSORI ARIA;162;116;74;353;;0,182;64,25;\n06/05/26;CIP-01 / LAVAGGI;65;47;30;142;;0,182;25,83;\n06/05/26;UFFICI/SERVIZI;52;37;24;112;;0,182;20,45;\n07/05/26;FORNI FT-01/FT-02;666;478;304;1.448;911;0,182;263,64;\n07/05/26;CELLA FRIGO CF-01;99;71;45;214;;0,182;38,97;\n07/05/26;CELLA SURGELATI CF-02;181;130;83;394;;0,182;71,74;\n07/05/26;COMPRESSORI ARIA;147;105;67;319;;0,182;58,12;\n2026-05-07;CIP-01 / LAVAGGI;70;50;32;152;;0,182;27,60;\n07/05/26;UFFICI/SERVIZI;53;38;24;115;;0,182;21,02;\n08/05/26;FORNI FT-01/FT-02;631;453;288;1.372;878;0,182;249,81;\n08/05/26;CELLA FRIGO CF-01;97;70;44;211;;0,182;38,33;\n08/05/26;CELLA SURGELATI CF-02;266;191;121;578;;0,182;105,29;assorbimento in salita da stanotte?\n08/05/26;COMPRESSORI ARIA;157;112;72;341;;0,182;62,02;\n08/05/26;CIP-01 / LAVAGGI;66;47;30;143;;0,182;26,04;\n08/05/26;UFFICI/SERVIZI;57;41;26;125;;0,182;22,72;\n09/05/26;FORNI FT-01/FT-02;694;498;317;1.509;1001;0,182;274,64;\n2026-05-09;CELLA FRIGO CF-01;90;64;41;195;;0,182;35,49;\n09/05/26;CELLA SURGELATI CF-02;274;197;125;596;;0,182;108,43;\n09/05/26;COMPRESSORI ARIA;163;117;75;355;;0,182;64,67;"
+  },
+  {
+   "cid": 262,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "origine": "nativa",
+   "rerank": 0.04892494156956673,
+   "testo": "03/05/26;CELLA SURGELATI CF-02;178;128;81;388;;0,182;70,58;\n03/05/26;COMPRESSORI ARIA;168;120;76;364;;0,182;66,30;\n03/05/26;CIP-01 / LAVAGGI;73;53;33;159;;0,182;29,00;\n03/05/26;UFFICI/SERVIZI;51;36;23;110;;0,182;20,11;\n04/05/26;FORNI FT-01/FT-02;696;500;318;1.513;953;0,182;275,52;\n04/05/26;CELLA FRIGO CF-01;100;72;46;217;;0,182;39,54;\n04/05/26;CELLA SURGELATI CF-02;195;140;89;424;;0,182;77,11;\n04/05/26;COMPRESSORI ARIA;144;104;66;314;;0,182;57,10;\n2026-05-04;CIP-01 / LAVAGGI;66;47;30;144;;0,182;26,15;\n04/05/26;UFFICI/SERVIZI;55;40;25;120;;0,182;21,84;\n05/05/26;FORNI FT-01/FT-02;639;458;292;1.388;1051;0,182;252,76;\n05/05/26;CELLA FRIGO CF-01;91;66;42;199;;0,182;36,16;\n05/05/26;CELLA SURGELATI CF-02;182;131;83;396;;0,182;72,14;\n05/05/26;COMPRESSORI ARIA;167;120;76;362;;0,182;65,92;\n05/05/26;CIP-01 / LAVAGGI;65;47;30;142;;0,182;25,78;\n05/05/26;UFFICI/SERVIZI;53;38;24;116;;0,182;21,06;\n06/05/26;FORNI FT-01/FT-02;649;465;296;1.410;1007;0,182;256,69;\n2026-05-06;CELLA FRIGO CF-01;97;69;44;210;;0,182;38,26;\n06/05/26;CELLA SURGELATI CF-02;205;147;94;445;;0,182;81,08;\n06/05/26;COMPRESSORI ARIA;162;116;74;353;;0,182;64,25;\n06/05/26;CIP-01 / LAVAGGI;65;47;30;142;;0,182;25,83;"
+  },
+  {
+   "cid": 267,
+   "file": "consumi_energetici_forni_kwh_maggio26.csv",
+   "origine": "nativa",
+   "rerank": 0.04704827070236206,
+   "testo": "17/05/26;CELLA FRIGO CF-01;93;67;43;203;;0,182;36,97;\n17/05/26;CELLA SURGELATI CF-02;263;189;120;571;;0,182;103,97;\n17/05/26;COMPRESSORI ARIA;144;103;66;313;;0,182;57,04;\n17/05/26;CIP-01 / LAVAGGI;73;53;34;160;;0,182;29,06;\n17/05/26;UFFICI/SERVIZI;51;37;24;112;;0,182;20,37;\n18/05/26;FORNI FT-01/FT-02;683;490;312;1.485;1053;0,182;270,34;\n2026-05-18;CELLA FRIGO CF-01;100;72;46;217;;0,182;39,50;\n18/05/26;CELLA SURGELATI CF-02;275;197;126;598;;0,182;108,81;\n18/05/26;COMPRESSORI ARIA;149;107;68;324;;0,182;58,94;\n18/05/26;CIP-01 / LAVAGGI;73;52;33;159;;0,182;28,92;\n18/05/26;UFFICI/SERVIZI;55;39;25;119;;0,182;21,75;\n19/05/26;FORNI FT-01/FT-02;621;446;284;1.350;973;0,182;245,86;\n19/05/26;CELLA FRIGO CF-01;101;72;46;219;;0,182;39,80;\n19/05/26;CELLA SURGELATI CF-02;287;206;131;625;;0,182;113,74;\n19/05/26;COMPRESSORI ARIA;167;120;76;364;;0,182;66,26;\n2026-05-19;CIP-01 / LAVAGGI;74;53;34;161;;0,182;29,38;\n19/05/26;UFFICI/SERVIZI;57;41;26;124;;0,182;22,66;\n20/05/26;FORNI FT-01/FT-02;688;494;314;1.495;927;0,182;272,23;\n20/05/26;CELLA FRIGO CF-01;92;66;42;200;;0,182;36,39;\n20/05/26;CELLA SURGELATI CF-02;276;198;126;601;;0,182;109,31;\n20/05/26;COMPRESSORI ARIA;167;120;76;362;;0,182;65,94;"
+  },
+  {
+   "cid": 410,
+   "file": "elenco_attrezzature_taratura_strumenti_2026.csv",
+   "origine": "nativa",
+   "rerank": 0.01612713560461998,
+   "testo": "Termoigrometro cella;TI-006;Magazzino Via Palù - cella surgelati;-40/+70 °C / 0-100 %UR;22/08/2025;22/02/2026;MetroLab Taratura S.r.l. (Padova) LAT 214;ML-2025-02981;Conforme;±0,5 °C / ±3 %UR;SCADUTO;certificato non trovato. Faggionato dice che era nella cartellina blu in portineria del Palù, la cartellina non c'è più\nSonda spillone cuore prodotto;TS-016;Linea 3 - verifica CCP4;-50/+150 °C;03/02/2026;03/02/2027;taratura interna (Pozzato S.) vs TS-005;INT-2026-018;Conforme;±0,5 °C;IN USO;verifica in punto ghiaccio e a -18 in CF-02\nSonda spillone cuore prodotto;TS-017;Linea 3 - riserva;-50/+150 °C;03/02/2026;03/02/2027;taratura interna (Pozzato S.) vs TS-005;INT-2026-019;Conforme;±0,5 °C;IN USO;\nTermometro a sonda Testo 926;TS-018;Linea 2 - controllo cottura;-50/+400 °C;12/01/2026;12/01/2027;MetroLab Taratura S.r.l. (Padova) LAT 214;ML-2026-00417;Conforme;±0,3 °C;IN USO;\nTermometro a sonda Testo 926;TS-019;Laboratorio QC - riserva;-50/+400 °C;12/01/2026;12/01/2027;MetroLab Taratura S.r.l. (Padova) LAT 214;ML-2026-00418;Conforme;±0,3 °C;IN USO;"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4596,
+ "tempi": {
+  "denso": 0.01,
+  "sparso": 0.16,
+  "rerank": 48.45
+ },
+ "id": "Q155",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:52:19",
+ "secondi": 48.62,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 113.16,
+  "token_prompt": 2788,
+  "token_risposta": 201,
+  "testo_grezzo": "Gli allarmi della cella surgelati sono peggiorati nel mese rispetto a quelli del mese precedente, in particolare per il termoigrometro e la sonda spillone cuore prodotto.\n\nIl termoigrometro ha avuto un aumento del 10% rispetto al mese precedente, con un aumento di 0,5°C nella temperatura massima consentita.\n\nLa sonda spillone cuore prodotto ha avuto un aumento del 15% rispetto al mese precedente, con un aumento di 0,5°C nella temperatura massima consentita.\n\nIl termometro a sonda Testo 926 non ha avuto alcun aumento rispetto al mese precedente.\n\nFONTI: consumi_energetici_forni_kwh_maggio26.csv, elenco_attrezzature_taratura_strumenti_2026.csv\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "consumi_energetici_forni_kwh_maggio26.csv",
+   "elenco_attrezzature_taratura_strumenti_2026.csv"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

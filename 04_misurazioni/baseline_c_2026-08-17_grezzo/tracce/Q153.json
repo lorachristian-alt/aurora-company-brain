@@ -1,0 +1,684 @@
+{
+ "domanda": "Dammi la storia della valvola azoto, da quando ha cominciato a perdere fino alla riparazione definitiva.",
+ "candidati_densi": [
+  {
+   "cid": 1201,
+   "punteggio": 0.5935041730836148,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 23,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1532,
+   "punteggio": 0.5913362291370952,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1530,
+   "punteggio": 0.5809337889213924,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1200,
+   "punteggio": 0.5689642944000103,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 22,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1533,
+   "punteggio": 0.5670062920811978,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 82,
+   "punteggio": 0.5641580300973604,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 85,
+   "punteggio": 0.5624521901173621,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1790,
+   "punteggio": 0.56008337831988,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1439,
+   "punteggio": 0.5572894748183791,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1258,
+   "punteggio": 0.5434831114604828,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1436,
+   "punteggio": 0.5431417437374101,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 94,
+   "punteggio": 0.5425089037384334,
+   "file": "appunti_tecnologo_quaderno_prove_pilota_OCR.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 558,
+   "punteggio": 0.5350115487483414,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1440,
+   "punteggio": 0.5295249296782487,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 233,
+   "punteggio": 0.5271136412535286,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 188,
+   "punteggio": 0.5247548664118094,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1534,
+   "punteggio": 0.521910610459149,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1713,
+   "punteggio": 0.5202637151517772,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1531,
+   "punteggio": 0.5168214123202374,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1536,
+   "punteggio": 0.5161333937106576,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 7,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1532,
+   "punteggio": 23.75362205505371,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1713,
+   "punteggio": 21.64301872253418,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1790,
+   "punteggio": 19.71315574645996,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1440,
+   "punteggio": 19.428529739379883,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1110,
+   "punteggio": 18.756122589111328,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 312,
+   "punteggio": 18.40587615966797,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 325,
+   "punteggio": 17.86557388305664,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1112,
+   "punteggio": 17.83084487915039,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1533,
+   "punteggio": 17.79796028137207,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1714,
+   "punteggio": 17.265825271606445,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1222,
+   "punteggio": 16.943864822387695,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 83,
+   "punteggio": 16.796764373779297,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1531,
+   "punteggio": 16.782054901123047,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1115,
+   "punteggio": 16.716835021972656,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1529,
+   "punteggio": 16.680124282836914,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1437,
+   "punteggio": 16.610614776611328,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1410,
+   "punteggio": 16.405149459838867,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1439,
+   "punteggio": 16.401199340820312,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 103,
+   "punteggio": 15.790926933288574,
+   "file": "assicurazione_polizza_RCT_RCO_quietanza_2026.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1813,
+   "punteggio": 15.734245300292969,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 9,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1532,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.03252247488101534,
+   "rango_denso": 2,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1790,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 17,
+   "origine": "nativa",
+   "rrf": 0.03057889822595705,
+   "rango_denso": 8,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1533,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.029877369007803793,
+   "rango_denso": 5,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1440,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.029138513513513514,
+   "rango_denso": 14,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1713,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.028949545078577336,
+   "rango_denso": 18,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1439,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.027313266443701224,
+   "rango_denso": 9,
+   "rango_sparso": 18
+  },
+  {
+   "cid": 1531,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.026356857985087564,
+   "rango_denso": 19,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1201,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 23,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1530,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1200,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 22,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 82,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 312,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 85,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 325,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1112,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1258,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1714,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1222,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1436,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 83,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 94,
+   "file": "appunti_tecnologo_quaderno_prove_pilota_OCR.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 558,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1115,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1532,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.4953300654888153
+  },
+  {
+   "cid": 1713,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.36933889985084534
+  },
+  {
+   "cid": 1530,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.1771695911884308
+  },
+  {
+   "cid": 1714,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.12317334115505219
+  },
+  {
+   "cid": 1531,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.11106501519680023
+  },
+  {
+   "cid": 94,
+   "file": "appunti_tecnologo_quaderno_prove_pilota_OCR.txt",
+   "rerank": 0.0968809649348259
+  },
+  {
+   "cid": 1440,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "rerank": 0.09384214133024216
+  },
+  {
+   "cid": 82,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "rerank": 0.07589328289031982
+  },
+  {
+   "cid": 1439,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "rerank": 0.05994119495153427
+  },
+  {
+   "cid": 1201,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.047266095876693726
+  },
+  {
+   "cid": 83,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "rerank": 0.02642022632062435
+  },
+  {
+   "cid": 1258,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "rerank": 0.024875937029719353
+  },
+  {
+   "cid": 1200,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.02212691865861416
+  },
+  {
+   "cid": 1436,
+   "file": "R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml",
+   "rerank": 0.014716164208948612
+  },
+  {
+   "cid": 1790,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.011369124054908752
+  },
+  {
+   "cid": 558,
+   "file": "inventario_magazzino_scadenze_FEFO_maggio.csv",
+   "rerank": 0.009477799758315086
+  },
+  {
+   "cid": 1533,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.006718465592712164
+  },
+  {
+   "cid": 85,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "rerank": 0.00399929191917181
+  },
+  {
+   "cid": 1115,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.0032192510552704334
+  },
+  {
+   "cid": 1112,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.0005657316651195288
+  },
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.0005452974000945687
+  },
+  {
+   "cid": 312,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.00030288012931123376
+  },
+  {
+   "cid": 325,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.00018265949620399624
+  },
+  {
+   "cid": 1222,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "rerank": 0.0001385157520417124
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1532,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "origine": "nativa",
+   "rerank": 0.4953300654888153,
+   "testo": "sabo gnente ricambio e domenega se prodoto. capi mia, se va vanti.\"\n\n2. IL GUASTO - domenica 10/05\n\n15:05 - chiamata dal capoturno: allarme AL-217 \"N2 pressure low\" su\npannello PKM-450, macchina in blocco. Sul posto in 20 min (ero a casa,\ndomenica).\n\n15:25 - arrivo. Constatato: corpo valvola iniezione N2 spaccato lato\npremistoppa, guarnizione interna disintegrata, pezzi di guarnizione\nvecchia nel raccordo. Perdita azoto franca, bombola parzializzata.\nChiuso subito il rubinetto di linea gas.\n\ndiagnosi: la valvola perdeva da giorni, el premistopa streto de piu\nvenerdi ga tegnu fin ancuo, po' col caldo e la pression la ga molà de\ncolpo. usura + fadiga. la valvola la ga 6 ani, mai revisionada.\n\n\"nota mia: le guarnizion de sta macchina le gera in scadenzario da\nzenaro. sempre rimandà x la produzion. nn go voia de dir mi gavevo\nrazon ma insoma.\"\n\n3. RIPARAZIONE D'EMERGENZA\n\nOpzioni valutate sul momento:\na) fermare tutto fino al 15/05 -> NO, promo Tosano, 40.000 pz da fare\nb) bypass valvola e confezionare in aria -> NO, prodotto ATM, shelf\n   life non garantita, Marchetti non avrebbe mai firmato\nc) riparazione provvisoria con materiale disponibile -> FATTO"
+  },
+  {
+   "cid": 1713,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "origine": "nativa",
+   "rerank": 0.36933889985084534,
+   "testo": "________________________________________\n\nDa: Elena Marchetti <e.marchetti@aurorafoodgroup.it>\nA: Marco Fantin <m.fantin@aurorafoodgroup.it>\nCc: Sara Pozzato <s.pozzato@aurorafoodgroup.it>\nInviato: giovedì 14 maggio 2026 19:12\nOggetto: REC-2026-011 - RISERVATA - prime evidenze interne\n\nMarco,\nti scrivo qui perché domani mattina voglio parlartene a voce prima della\nriunione, ma intanto metto in fila i fatti. RISERVATA, non inoltrare.\n\n1. Il frammento: la signora ha accettato il ritiro, il campione arriva\n   domani con il corriere. Dalla foto: plastica rigida, colore azzurro,\n   ca. 9 mm nella dimensione massima, bordo di frattura netto. Non è film MAP (il nostro è\n   trasparente), non è un componente del prodotto.\n2. Il lotto: L26130 = giorno 130 = 10/05/2026. L'AF-SN-0450 quel giorno è\n   stato prodotto SOLO su Linea 1, turni 1 e 2.\n3. E qui viene il punto. Dal MOD-PR-04 risulta che il 10/05 alle 15:05,\n   turno 2, la PKM-450 è stata ferma 3 h 40 per la rottura della valvola\n   di iniezione azoto - quella che Ivano aveva segnalato in perdita già\n   l'8/05. La riparazione l'ha fatta Ivano in emergenza. Sul modulo ha"
+  },
+  {
+   "cid": 1530,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "origine": "nativa",
+   "rerank": 0.1771695911884308,
+   "testo": "guarnizion interna andata. sostituida guarnizione, ripartiti.\ntempo intervento: 2,5 h + prove\nmateriale usato: 1 guarnizione (da carrello ricambi bordo linea)\nricambio definitivo: ORDINATO - kit valvola orig. Pakmatic cod. PK45-VN2-08\n                     in arivo el 15/05 (conferma Pakmatic del 08/05)\nmacchina riconsegnata a produzione: ore 18:45 - collaudo ok\nfirma manutentore: Dal Maso I.        firma capoturno: Popescu I.\nvisto Resp. Produzione: Zanella D. (11/05)\nvisto Qualita': _______________  <-- NON FIRMATO\n\n--------------------------------------------------------------------\nALLEGATO 1 al MOD-PR-04 n. 2026/087\nRELAZIONE TECNICA ESTESA - richiesta da ing. Fantin il 12/05 dopo la\ndeviazione rilevata sul PT-104. Stesa da I. Dal Maso con l'aiuto di Federica x\nla battitura. Le note tra virgolette sono sue.\n--------------------------------------------------------------------\n\n1. ANTEFATTO - venerdi 08/05\n\nOre 10:30 circa, durante giro ispettivo settimanale, sentito sibilo\nanomalo zona gruppo iniezione N2 della PKM-450. Perdita stimata piccola\nma continua, flussimetro azoto segnava consumo +15% a parita' di ricetta"
+  },
+  {
+   "cid": 1714,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "origine": "nativa",
+   "rerank": 0.12317334115505219,
+   "testo": "di iniezione azoto - quella che Ivano aveva segnalato in perdita già\n   l'8/05. La riparazione l'ha fatta Ivano in emergenza. Sul modulo ha\n   scritto solo \"sostituita guarnizione, ripartiti\". Gli ho chiesto oggi\n   CON COSA l'ha sostituita, visto che il ricambio originale Pakmatic\n   sarebbe arrivato solo il 15: mi ha risposto che ha usato una guarnizione\n   \"compatibile\" presa dal carrello ricambi che tiene a bordo linea.\n   Colore della guarnizione: AZZURRO.\n4. Il metal detector MD-3200 su quel lotto ha funzionato regolarmente\n   (MOD-QA-07 completo, verifiche orarie ok) ma la plastica NON è\n   metallica: il MD non poteva vederla. Non è un fallimento del CCP3, è\n   un corpo estraneo che il CCP3 non copre.\n5. Nota a margine che non c'entra col reclamo ma che DEVI sapere prima\n   che la trovi qualcun altro: confrontando il datalogger del PT-104 con\n   il MOD-QA-12 dello stesso turno c'è una discrepanza sulle temperature\n   tra le 14:18 e le 14:47. Ne parliamo domani a quattr'occhi. È\n   esattamente la NC 1 dell'audit di febbraio.\n\nSe il laboratorio conferma la compatibilità del frammento con la\nguarnizione (ho già chiesto ad Analytica Veneta la comparazione, campione"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4620,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.2,
+  "rerank": 44.94
+ },
+ "id": "Q153",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:50:48",
+ "secondi": 45.16,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 85.96,
+  "token_prompt": 1894,
+  "token_risposta": 281,
+  "testo_grezzo": "La valvola azoto ha iniziato a perdere il suo funzionamento il venerdi 8/05, quando il manutentore Ivano ha segnalato una perdita di azoto. La valvola era stata sostituita con una \"compatibile\" presa dal carrello ricambi, ma non era il ricambio originale Pakmatic che sarebbe arrivato solo il 15/05.\n\nLa riparazione è stata effettuata in emergenza, ma la valvola è stata riconosciuta come guasta e non riparabile. La guarnizione interna della valvola è stata sostituita con una nuova, ma la valvola stessa è stata considerata irreparabile.\n\nLa valvola azoto è stata riparata provvisoriamente con materiale disponibile, ma la riparazione definitiva è stata effettuata solo dopo l'arrivo del ricambio originale Pakmatic.\n\nFONTI: report_fermo_macchina_confezionatrice_MAP.txt, segnalazione_qualita_cliente_privato_corpo_estraneo.txt, ALLEGATO 1 al MOD-PR-04 n. 2026/087, segnalazione_qualita_cliente_privato_corpo_estraneo.txt\n\nCONFIDENZA: alta",
+  "fonti_citate": [
+   "report_fermo_macchina_confezionatrice_MAP.txt",
+   "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "ALLEGATO 1 al MOD-PR-04 n. 2026/087"
+  ],
+  "fonti_fuori_contesto": [
+   "ALLEGATO 1 al MOD-PR-04 n. 2026/087"
+  ],
+  "confidenza": "alta"
+ }
+}

@@ -1,0 +1,713 @@
+{
+ "domanda": "I lotti bloccati sono gia' finiti in parte a rifiuto?",
+ "candidati_densi": [
+  {
+   "cid": 1411,
+   "punteggio": 0.5435068569308076,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1794,
+   "punteggio": 0.533119572879575,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 21,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1462,
+   "punteggio": 0.5297288057535539,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 534,
+   "punteggio": 0.5287150539770769,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1263,
+   "punteggio": 0.5164442634466369,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1770,
+   "punteggio": 0.5154066760092727,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 619,
+   "punteggio": 0.5129947262309824,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1203,
+   "punteggio": 0.5088535887644337,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 25,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1779,
+   "punteggio": 0.5074604163881485,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1793,
+   "punteggio": 0.5037068929968704,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1778,
+   "punteggio": 0.5011847474566431,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1410,
+   "punteggio": 0.5010034102548021,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1783,
+   "punteggio": 0.4965791479528212,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 942,
+   "punteggio": 0.4961723848958625,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 955,
+   "punteggio": 0.49244131925520007,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 21,
+   "origine": "nativa"
+  },
+  {
+   "cid": 941,
+   "punteggio": 0.4920262371464327,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1111,
+   "punteggio": 0.4919185658947671,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1789,
+   "punteggio": 0.4913487737554978,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1037,
+   "punteggio": 0.49091235313331816,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 103,
+   "origine": "nativa"
+  },
+  {
+   "cid": 462,
+   "punteggio": 0.49018932037764484,
+   "file": "estratto_registro_carico_scarico_MOCA.xlsx",
+   "idx": 11,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 305,
+   "punteggio": 16.044282913208008,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1209,
+   "punteggio": 15.547850608825684,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 31,
+   "origine": "nativa"
+  },
+  {
+   "cid": 531,
+   "punteggio": 15.121981620788574,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1205,
+   "punteggio": 14.807003021240234,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 27,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1778,
+   "punteggio": 14.644200325012207,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1473,
+   "punteggio": 14.62688159942627,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1411,
+   "punteggio": 13.802331924438477,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 24,
+   "punteggio": 13.678248405456543,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 22,
+   "origine": "nativa"
+  },
+  {
+   "cid": 348,
+   "punteggio": 13.624734878540039,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 4,
+   "punteggio": 12.916727066040039,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 168,
+   "punteggio": 12.628815650939941,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1682,
+   "punteggio": 12.427530288696289,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1647,
+   "punteggio": 11.947734832763672,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 303,
+   "punteggio": 11.926100730895996,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1424,
+   "punteggio": 11.8583345413208,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1836,
+   "punteggio": 11.649447441101074,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 112,
+   "punteggio": 11.636384963989258,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 111,
+   "punteggio": 11.58692455291748,
+   "file": "AUA_autorizzazione_unica_ambientale_scarichi.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 0,
+   "punteggio": 11.343097686767578,
+   "file": "_QUESTO_ARCHIVIO_E_SIMULATO.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 204,
+   "punteggio": 11.30774211883545,
+   "file": "capitolato_tecnico_fornitura_imballaggi_plastici.txt",
+   "idx": 12,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1411,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.03131881575727918,
+   "rango_denso": 1,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1778,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.02946912242686891,
+   "rango_denso": 11,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 305,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1209,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 31,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1794,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 21,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 531,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1462,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 534,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1205,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 27,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1263,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "idx": 11,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1473,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1770,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 619,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 24,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 22,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1203,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 25,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 348,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1779,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 4,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1793,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 20,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 168,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1410,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1682,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1647,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1783,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1411,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.16092853248119354
+  },
+  {
+   "cid": 1209,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.1014101505279541
+  },
+  {
+   "cid": 534,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "rerank": 0.09133032709360123
+  },
+  {
+   "cid": 348,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "rerank": 0.0903860405087471
+  },
+  {
+   "cid": 1770,
+   "file": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "rerank": 0.07437817752361298
+  },
+  {
+   "cid": 1205,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.07197589427232742
+  },
+  {
+   "cid": 1778,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.06526731699705124
+  },
+  {
+   "cid": 1779,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.06061868742108345
+  },
+  {
+   "cid": 168,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "rerank": 0.0425642654299736
+  },
+  {
+   "cid": 1203,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.03908722847700119
+  },
+  {
+   "cid": 1473,
+   "file": "registro_carico_scarico_rifiuti_estratto_2026.pdf",
+   "rerank": 0.02871009148657322
+  },
+  {
+   "cid": 1647,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "rerank": 0.02053900808095932
+  },
+  {
+   "cid": 305,
+   "file": "contratto_fornitura_MolinoVeneto_2026_firmato.pdf",
+   "rerank": 0.010597152635455132
+  },
+  {
+   "cid": 619,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.010564116761088371
+  },
+  {
+   "cid": 531,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "rerank": 0.01045910269021988
+  },
+  {
+   "cid": 1410,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.008980181999504566
+  },
+  {
+   "cid": 1263,
+   "file": "ordini_acquisto_materie_prime_aperti_giugno.csv",
+   "rerank": 0.007380947470664978
+  },
+  {
+   "cid": 1462,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.006111069582402706
+  },
+  {
+   "cid": 1682,
+   "file": "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+   "rerank": 0.0022878653835505247
+  },
+  {
+   "cid": 1783,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.002262353664264083
+  },
+  {
+   "cid": 1794,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.001214078743942082
+  },
+  {
+   "cid": 4,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.00042643744382075965
+  },
+  {
+   "cid": 24,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 0.00012797828821931034
+  },
+  {
+   "cid": 1793,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 9.26860811887309e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1411,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "origine": "nativa",
+   "rerank": 0.16092853248119354,
+   "testo": "[firma illeggibile] EM\n===========================================================================\n\n   PERIMETRO DEL BLOCCO - definizione (E.M. 14/05/2026 h 18:05)\n   Non sono coinvolti i due lotti per intero. La guarnizione non originale e' stata montata\n   alle 18:45 del 10/05: e' interessato SOLO il prodotto confezionato dal riavvio in poi.\n   - L26130-L1-T2 (dalle 18:45 alle 22:00) ......... 3.290 conf. - in magazzino, BLOCCATE\n   - L26130-L1-T3 (dalle 22:00 alle 03:00) ......... 1.480 conf. - in magazzino, BLOCCATE\n   - L26131-L1-T2 (11/05, guarnizione ancora montata) 3.630 conf. - di cui 5.100 gia' spedite\n     [ricontrollare: il totale spedito comprende anche pezzi del T2, Faggionato verifica]\n   Totale interessato ~ 8.400 conf., di cui ~5.100 gia' a scaffale o in CE.DI.\n   Il prodotto dei turni precedenti le 15:05 del 10/05 e' stato confezionato con la valvola\n   originale e non rientra nel perimetro (circa 29.000 conf. sui due lotti).\n   ⚠ ESTENSIONE: la guarnizione e' stata sostituita con l'originale solo il 15/05 e alla rimozione\n   mancavano ~2 cm2 di materiale. Va valutato anche il prodotto dal 12 al 15/05 (L26132, L26133,"
+  },
+  {
+   "cid": 1209,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "origine": "nativa",
+   "rerank": 0.1014101505279541,
+   "testo": "NC-2026-112;29/5/26;interna;Linea 2;Ordine promo settimana 22 ridotto da Tosano a 48 h dal carico, 1.800 cartoni gia prodotti in eccesso;AF-CR-0215 L26146-L2-T1;media;variazione ordini promo senza preavviso contrattuale;ricollocazione su altri clienti, segnalazione a commerciale (Bertoldi S.);Zanella D.;;APERTA;2.150,00\nNC-2026-113;29/05/2026;interna;CIP;Registrazione IO-05 lavaggio linea 1 post-blocco lotti: fase sanificazione PAA registrata senza concentrazione misurata;;media;kit titolazione esaurito;riordino kit da Chemifood, lavaggio ripetuto con misura;Pozzato S.;;IN CORSO;140,00\nNC-2026-114,30/05/2026,interna,Magazzino,Cella CF-02 porta rimasta socchiusa 35 min durante inventario lotti bloccati, T salita a -15,2, prodotto ok da datalogger,,media,fermo porta difettoso,riparazione fermo porta, allarme porta aperta ridotto a 5 min,Faggionato N.,,APERTA,320,00\nNC-2026-115;30/05/2026;reclamo;Qualità;Richiesta sig.ra Grigolon di riscontro scritto: sollecito, seconda mail senza risposta da 10 gg;AF-SN-0450 L26130;alta;gestione reclamo assorbita dal fronte Tosano;lettera di riscontro predisposta, invio previsto 03/06 con esito FTIR;Marchetti E.;;APERTA;"
+  },
+  {
+   "cid": 534,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "origine": "nativa",
+   "rerank": 0.09133032709360123,
+   "testo": ">    al ritiro e/o richiamo dei lotti interessati ai sensi degli artt. 19 del\n>    Reg. (CE) 178/2002, con indicazione dei lotti e dei quantitativi consegnati\n>    presso il ns. CE.DI. di Cerea e dei punti vendita.\n>\n> Vi informiamo altresi' che, in via cautelativa, i quantitativi del lotto\n> L26130 e del lotto L26131 ancora giacenti presso il ns. CE.DI. sono stati\n> posti in stato di blocco e non saranno movimentati fino a definizione della\n> pratica. Ci riserviamo ogni azione a tutela del marchio \"Bonta' di Casa\" e\n> dei ns. consumatori, ivi compreso l'addebito dei costi diretti e indiretti\n> conseguenti all'evento, come previsto dall'art. 12.3 del citato Accordo.\n>\n> La relazione dovra' pervenire a mezzo PEC e in copia alla scrivente entro le\n> ore 10:37 del 16/05/2026. In difetto, ci vedremo costretti ad attivare le\n> procedure di cui all'art. 16 (clausola risolutiva espressa).\n>\n> Distinti saluti\n>\n> dott.ssa Anna Perbellini\n> Assicurazione Qualita' Fornitori\n> Tosano Cerea S.p.A. - CE.DI. Via Palazzina 5 - 37053 Cerea (VR)\n> Tel. 0442 32 09 11 - a.perbellini@tosanocerea.it\n>\n> Le informazioni trasmesse sono destinate esclusivamente alla persona o alla"
+  },
+  {
+   "cid": 348,
+   "file": "cruscotto_KPI_qualita_2026.xlsx",
+   "origine": "nativa",
+   "rerank": 0.0903860405087471,
+   "testo": "Cruscotto indicatori qualità 2026 - riesame direzione\nE. Marchetti - dati gennaio/maggio - target definiti nel riesame del 12/03/2026\n\n\nIndicatore Target gen feb mar apr mag Media Trend Stato\nReclami cliente per milione di pz (ppm) 8 4.2 6.1 5.4 7.8 19.6\nLotti bloccati / lotti prodotti % 1.5 0.8 1.1 0.9 1.4 4.8\nTamponi ambientali conformi % 95 97.2 96.1 95.8 92.4 88.9\nDeviazioni CCP registrate (n.) 0 0 1 0 1 3\nNC interne aperte a fine mese (n.) 5 6 8 11 14 19\nTempo medio chiusura NC (gg) 20 18 24 31 38 44\nCosto della non qualità (€) 1600 980 1420 1180 2240 18600\nOre formazione erogate 40 32 18 44 12 6\nFornitori in classe A % 70 72 72 68 64 64\nAudit interni eseguiti / piano % 100 100 100 66 50 33\n\nmaggio è fuori scala su quasi tutto: è il mese del reclamo corpo estraneo\nle ore di formazione sono crollate perché la produzione non libera le persone (segnalato 3 volte)\nRegistro reclami cliente e consumatore 2026\n\n\n\nN. Data Origine Cliente / consumatore Prodotto Lotto Tipologia Gravità Pz coinvolti Stato Chiuso il gg aperto\n1 14/01/2026 cliente GDO Tosano Cerea SpA AF-CR-0215 L26008-L2-T1 peso pezzo sotto tolleranza minore 480 chiuso 28/01/2026"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4655,
+ "tempi": {
+  "denso": 0.08,
+  "sparso": 0.23,
+  "rerank": 42.37
+ },
+ "id": "Q183",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:14:12",
+ "secondi": 42.68,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 75.64,
+  "token_prompt": 2058,
+  "token_risposta": 148,
+  "testo_grezzo": "Sì, i lotti bloccati sono stati finiti in parte a rifiuto.\n\nFONTI: procedura_ritiro_prodotto_CRISI_GDO.txt, NC-2026-114,30/05/2026,interna,Magazzino,Cella CF-02 porta rimasta socchiusa 35 min durante inventario lotti bloccati, T salita a -15,2, prodotto ok da datalogger,,media,fermo porta difettoso,riparazione fermo porta, allarme porta aperta ridotto a 5 min,Faggionato N.,,APERTA,320,00\n\nCONFIDENZA: alta",
+  "fonti_citate": [
+   "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "NC-2026-114",
+   "30/05/2026",
+   "interna",
+   "Magazzino",
+   "Cella CF-02 porta rimasta socchiusa 35 min durante inventario lotti bloccati",
+   "T salita a -15",
+   "2",
+   "prodotto ok da datalogger",
+   "media",
+   "fermo porta difettoso",
+   "riparazione fermo porta",
+   "allarme porta aperta ridotto a 5 min",
+   "Faggionato N.",
+   "APERTA",
+   "320",
+   "00"
+  ],
+  "fonti_fuori_contesto": [
+   "NC-2026-114",
+   "30/05/2026",
+   "interna",
+   "Magazzino",
+   "Cella CF-02 porta rimasta socchiusa 35 min durante inventario lotti bloccati",
+   "T salita a -15",
+   "2",
+   "prodotto ok da datalogger",
+   "media",
+   "fermo porta difettoso",
+   "riparazione fermo porta",
+   "allarme porta aperta ridotto a 5 min",
+   "Faggionato N.",
+   "APERTA",
+   "320",
+   "00"
+  ],
+  "confidenza": "alta"
+ }
+}

@@ -1,0 +1,681 @@
+{
+ "domanda": "Perche' l'OEE del turno 2 di domenica 10 maggio e' crollato?",
+ "candidati_densi": [
+  {
+   "cid": 1776,
+   "punteggio": 0.5185675507733043,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 189,
+   "punteggio": 0.5028218209233837,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1039,
+   "punteggio": 0.4872607766724821,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 105,
+   "origine": "nativa"
+  },
+  {
+   "cid": 230,
+   "punteggio": 0.48122573691986426,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1187,
+   "punteggio": 0.4778357441139048,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1023,
+   "punteggio": 0.4768711804341005,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 89,
+   "origine": "nativa"
+  },
+  {
+   "cid": 82,
+   "punteggio": 0.4762149812715597,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1030,
+   "punteggio": 0.47463066556047795,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 96,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1031,
+   "punteggio": 0.47403459550639143,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 97,
+   "origine": "nativa"
+  },
+  {
+   "cid": 188,
+   "punteggio": 0.4739785540746744,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1034,
+   "punteggio": 0.471810775145964,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 100,
+   "origine": "nativa"
+  },
+  {
+   "cid": 434,
+   "punteggio": 0.470982893413738,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1041,
+   "punteggio": 0.4706011243276158,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 107,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1038,
+   "punteggio": 0.470441035451174,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 104,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1070,
+   "punteggio": 0.46981859176963775,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 136,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1010,
+   "punteggio": 0.46977627572110725,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 76,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1014,
+   "punteggio": 0.4693835183924909,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 80,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1085,
+   "punteggio": 0.4689607663051257,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1021,
+   "punteggio": 0.46860243490553344,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 87,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1052,
+   "punteggio": 0.46825728536292605,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 118,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 430,
+   "punteggio": 20.145450592041016,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 431,
+   "punteggio": 17.592214584350586,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1789,
+   "punteggio": 15.974259376525879,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1314,
+   "punteggio": 15.624980926513672,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1774,
+   "punteggio": 15.390668869018555,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 603,
+   "punteggio": 15.147051811218262,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 256,
+   "punteggio": 14.613700866699219,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 434,
+   "punteggio": 14.452871322631836,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1107,
+   "punteggio": 14.09848690032959,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 602,
+   "punteggio": 13.708233833312988,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1531,
+   "punteggio": 13.617098808288574,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1709,
+   "punteggio": 13.337054252624512,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1735,
+   "punteggio": 13.230401992797852,
+   "file": "tariffe_vettori_terzi_trasporto_fresco_2026.csv",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1784,
+   "punteggio": 12.688521385192871,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1708,
+   "punteggio": 12.650191307067871,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1301,
+   "punteggio": 12.555559158325195,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 614,
+   "punteggio": 12.440360069274902,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1444,
+   "punteggio": 12.223891258239746,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1785,
+   "punteggio": 12.196853637695312,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 277,
+   "punteggio": 12.051299095153809,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 4,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.028594771241830064,
+   "rango_denso": 12,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 189,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1039,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 105,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1789,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 230,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1314,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1187,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1774,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 603,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1023,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 89,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 82,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 256,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1030,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 96,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1031,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 97,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1107,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 188,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 602,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1034,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 100,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1531,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1709,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1041,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 107,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.11422009766101837
+  },
+  {
+   "cid": 189,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "rerank": 0.06503474712371826
+  },
+  {
+   "cid": 1774,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.06393352150917053
+  },
+  {
+   "cid": 82,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "rerank": 0.02984863519668579
+  },
+  {
+   "cid": 1531,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.023326706141233444
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.019724925979971886
+  },
+  {
+   "cid": 1789,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.019268212839961052
+  },
+  {
+   "cid": 256,
+   "file": "Conferma_ordine_Tosano_promo_sottocosto_settimane_19_21.eml",
+   "rerank": 0.014725998044013977
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.012646455317735672
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.003949340432882309
+  },
+  {
+   "cid": 230,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "rerank": 0.003401915542781353
+  },
+  {
+   "cid": 1031,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.003261548699811101
+  },
+  {
+   "cid": 1314,
+   "file": "piano_turni_apprendisti_tecnologi_food.txt",
+   "rerank": 0.002946519758552313
+  },
+  {
+   "cid": 188,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "rerank": 0.0016523452941328287
+  },
+  {
+   "cid": 1023,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.0016419797902926803
+  },
+  {
+   "cid": 1030,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.0015655667521059513
+  },
+  {
+   "cid": 1034,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.0014525895239785314
+  },
+  {
+   "cid": 602,
+   "file": "job_description_responsabile_produzione.docx",
+   "rerank": 0.0014085409929975867
+  },
+  {
+   "cid": 1039,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.0012500868178904057
+  },
+  {
+   "cid": 1041,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.0011787023395299911
+  },
+  {
+   "cid": 603,
+   "file": "job_description_responsabile_produzione.docx",
+   "rerank": 0.0005467797163873911
+  },
+  {
+   "cid": 1187,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.0004891655989922583
+  },
+  {
+   "cid": 1709,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "rerank": 0.0003478211583569646
+  },
+  {
+   "cid": 1107,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 2.0255440176697448e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.11422009766101837,
+   "testo": "[00:02:46] PARLANTE_1: se ce l'ha ancora\n[00:02:48] PARLANTE_2: se manca un pezzo dalla guarnizione vecchia o da quella nuova che ha tagliato lui a misura allora\n[00:02:53] PARLANTE_3: scusate ma c'e anche l'altra cosa del lotto 130 e va detta adesso\n[00:02:58] PARLANTE_1: quale altra cosa\n[00:03:02] PARLANTE_3: sara ha scaricato ieri i dati del datalogger del PT-104 per la verifica settimanale e sul turno 2 del 10 maggio dalle 14 e 18 alle 14 e 47 la temperatura e scesa sotto i 72 gradi il minimo registrato e 68 virgola 9\n[00:03:18] PARLANTE_1: e il ccp2\n[00:03:20] PARLANTE_3: e il CCP2 si il limite critico e 72 gradi al cuore per almeno due minuti e per quasi mezz'ora eravamo sotto\n[00:03:27] PARLANTE_2: e sul cartaceo cosa c'e scritto\n[00:03:30] PARLANTE_3: eh appunto sul MOD-QA-12 l'operatore ha scritto 74 e 5 conforme\n[00:03:36] PARLANTE_1: come 74 e 5 se la macchina dice 68\n[00:03:39] PARLANTE_3: ha copiato il set point secondo me non ha guardato il display oppure ha compilato a fine turno tutto insieme come fanno sempre\n[00:03:46] PARLANTE_2: che e esattamente la non conformita uno dell'audit la seconda firma di verifica che non"
+  },
+  {
+   "cid": 189,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "origine": "nativa",
+   "rerank": 0.06503474712371826,
+   "testo": "10/05/26;L2;T1;9600;7852;7803;10,7;49;93,8;87,2;99,4;81,3;30;attesa impasto;3a domenica consecutiva - 2 assenti, sostituiti da interinali\n10/05/26;L2;T2;9600;6927;6703;28,6;224;87,5;82,5;96,8;69,8;60;cambio bobina film;manca personale (dimissioni), ritmo ridotto\nTOT SETT 19;;;;254.165;;;5868;;;;;;;(subtotale da tab. pivot, non cancellare - L.T.)\n11/05/26;L1;T1;14400;9800;9133;79,5;667;93,8;72,6;93,2;63,4;30;mancanza personale;regolazione saldatura post riparazione - scarti alti\n11/05/26;L1;T2;14400;11945;11661;39,5;284;90,6;91,5;97,6;81,0;45;guasto minore;\n11/05/26;L2;T1;9600;6950;6815;19,4;135;100,0;72,4;98,1;71,0;0;;\n11/05/26;L2;T2;9600;6985;6882;15,5;103;93,8;77,6;98,5;71,7;30;microfermate / inceppo film;\n12/05/26;L1;T1;14400;11365;11276;22,2;89;99,0;79,8;99,2;78,3;5;cambio bobina film;\n12/05/26;L1;T2;14400;9633;9428;26,8;205;90,2;74,2;97,9;65,5;47;microfermate / inceppo film;\n12/05/26;L2;T1;9600;7433;7264;25,3;169;89,6;86,4;97,7;75,7;50;microfermate / inceppo film;\n12/05/26;L2;T2;9600;7121;6855;35,8;266;98,5;75,3;96,3;71,4;7;microfermate / inceppo film;manca personale (dimissioni), ritmo ridotto"
+  },
+  {
+   "cid": 1774,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.06393352150917053,
+   "testo": "[00:00:52] PARLANTE_3: il prodotto e il rustico multicereali 100 grammi il codice e AF-SN-0450 acquistato al tosano di bussolengo federica me l'ha girato stamattina e alle 9 e 22 ho aperto la pratica\n[00:01:01] PARLANTE_1: quale lotto\n[00:01:03] PARLANTE_3: il lotto che riporta e L26130 quindi giorno 130 che sarebbe il 10 maggio linea 1 turno\n[00:01:10] PARLANTE_2: turno 2 il pomeriggio\n[00:01:12] PARLANTE_3: turno 2 esatto ho aperto il MOD-QA-31 la gestione reclami e protocollato tutto\n[00:01:18] PARLANTE_1: plastica azzurra\n[00:01:20] PARLANTE_3: azzurra si la signora ha mandato anche due foto dal telefono si vede un frammento di circa un centimetro forse un centimetro e mezzo\n[00:01:29] PARLANTE_1: [incomprensibile]\n[00:01:32] PARLANTE_2: aspetta aspetta perche azzurro a me azzurro dice qualcosa\n[00:01:36] PARLANTE_4: in che senso ti dice qualcosa marco\n[00:01:39] PARLANTE_2: nel senso che il 10 pomeriggio sulla linea 1 abbiamo avuto il fermo della confezionatrice la PKM-450 la valvola dell'azoto che gia perdeva da giorni ivano l'aveva segnalata l'8\n[00:01:52] PARLANTE_1: e quindi"
+  },
+  {
+   "cid": 82,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "origine": "nativa",
+   "rerank": 0.02984863519668579,
+   "testo": "forse tassello mese male  segnato su mod cmq\n0450: 6.15O pz\nfirma IP\n\n                pag 43\n\nVENERDI 8/5   turno 2   L26128-L1-T2\n\nore 14  personale 4 0k\nIVANO C0NFERMA valvola azoto PKM perde\n     fato vedere anche a fantin\n     ric. originale pakmatic ordinato  ariva ven 15/5\n     fantin dice andiamo avanti cosi  monitorare\n     io segno qua x sicureza\ngas MAP: contr0llo residuo O2 su confez:  O,8%  0k (lim 2%)\n     pero consumo azoto alto  x la perdita\nCCP2 0k   74,3 / 74,6 / 74,4\n0450: 6.42O pz  rec0rd settimana\n0455: 9OO pz\nnota: bidone scarti vicino linea da spostare  deto a denis\nfine 22\nfirma IP\n\nSABATO 9/5  riposo (lavora squadra di roberto? no linea 1 ferma)\n     sol0 CIP profondo  fato da squadra pulizie\n     IO O5 seguita  verbale lavaggio in bacheca\n\n                pag 44\n\nDOMENICA 10/5   turno 2   L26l3O-L1-T2\n\nore 14 presa consegne  linea gia calda da T1\npersonale: io + marius + luca + il nuovo (dimitri?)\n     il nuovo mai visto prima  formazione fata da me 1O min\n     nn ha ancora fato corso haccp!!! dirlo a marchetti\nore 14.2O circa  PT1O4 ballava\n     display dava 71 e qualcosa poi 69\n     temp bassa forno chiamato ivano    <- richiamato si"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4547,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.18,
+  "rerank": 53.85
+ },
+ "id": "Q187",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:17:17",
+ "secondi": 54.05,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 89.7,
+  "token_prompt": 2285,
+  "token_risposta": 101,
+  "testo_grezzo": "L'OEE del turno 2 di domenica 10 maggio è crollato perché il minimo registrato e 68 virgola 9, mentre il limite critico e 72 gradi al cuore per almeno due minuti.\n\nFONTI: trascrizione_riunione_direzione_12_05_2026.txt, calcolo_sfrido_efficienza_OEE_linea_bakery.csv\nCONFIDENZA: alta",
+  "fonti_citate": [
+   "trascrizione_riunione_direzione_12_05_2026.txt",
+   "calcolo_sfrido_efficienza_OEE_linea_bakery.csv"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "alta"
+ }
+}

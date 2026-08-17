@@ -1,0 +1,680 @@
+{
+ "domanda": "Quanto paghiamo di leasing al mese per il forno della linea 2?",
+ "candidati_densi": [
+  {
+   "cid": 1514,
+   "punteggio": 0.6201414967614401,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1515,
+   "punteggio": 0.5894027412215239,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 685,
+   "punteggio": 0.5791784510790876,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 431,
+   "punteggio": 0.5715335538677211,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 666,
+   "punteggio": 0.554047317441521,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 167,
+   "punteggio": 0.5511257680684596,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 627,
+   "punteggio": 0.5476942885036507,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1527,
+   "punteggio": 0.5409595996841674,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1526,
+   "punteggio": 0.5401060527688502,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 432,
+   "punteggio": 0.5378712603271179,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1373,
+   "punteggio": 0.5346953505060377,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 168,
+   "punteggio": 0.5335326808785881,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 433,
+   "punteggio": 0.532707707587561,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 171,
+   "punteggio": 0.5309063048667702,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1367,
+   "punteggio": 0.5273373203158099,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 11,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1834,
+   "punteggio": 0.5255316203900656,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1378,
+   "punteggio": 0.524434237444099,
+   "file": "previsionale_cassa_giugno_agosto2026.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 528,
+   "punteggio": 0.5241348639041166,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1362,
+   "punteggio": 0.5221113246361819,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 148,
+   "punteggio": 0.5215130411714404,
+   "file": "bozza_presentazione_nuova_linea_snack_CDA.pptx",
+   "idx": 4,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1514,
+   "punteggio": 28.08730125427246,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1515,
+   "punteggio": 23.02470588684082,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1366,
+   "punteggio": 16.342384338378906,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 273,
+   "punteggio": 14.568216323852539,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 433,
+   "punteggio": 14.34774398803711,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1599,
+   "punteggio": 13.511358261108398,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "idx": 35,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1782,
+   "punteggio": 13.196626663208008,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1806,
+   "punteggio": 13.076805114746094,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 9,
+   "punteggio": 13.023975372314453,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1702,
+   "punteggio": 13.011879920959473,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 25,
+   "punteggio": 12.989048957824707,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 23,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1164,
+   "punteggio": 12.872844696044922,
+   "file": "menu_mensa_aprile_maggio.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 289,
+   "punteggio": 12.772110939025879,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 295,
+   "punteggio": 12.662922859191895,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1212,
+   "punteggio": 12.615592002868652,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 312,
+   "punteggio": 12.101582527160645,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1536,
+   "punteggio": 12.088134765625,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1119,
+   "punteggio": 12.079935073852539,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 325,
+   "punteggio": 11.981919288635254,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 24,
+   "punteggio": 11.973224639892578,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 22,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1514,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.03278688524590164,
+   "rango_denso": 1,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1515,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.03225806451612903,
+   "rango_denso": 2,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 433,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.029083245521601686,
+   "rango_denso": 13,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 685,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 273,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 666,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 167,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1599,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "idx": 35,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 627,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1527,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1806,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 9,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": null,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1526,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 432,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1702,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 25,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 23,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1373,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 168,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1164,
+   "file": "menu_mensa_aprile_maggio.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 289,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 171,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": 14,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1514,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.9606860876083374
+  },
+  {
+   "cid": 1515,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.25279784202575684
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.04263840243220329
+  },
+  {
+   "cid": 433,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.0309133380651474
+  },
+  {
+   "cid": 1373,
+   "file": "previsionale cassa giugno-agosto DEF (2).xlsx",
+   "rerank": 0.02152067981660366
+  },
+  {
+   "cid": 1526,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.014520231634378433
+  },
+  {
+   "cid": 1527,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.011758117936551571
+  },
+  {
+   "cid": 432,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.006441046483814716
+  },
+  {
+   "cid": 167,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "rerank": 0.006070118863135576
+  },
+  {
+   "cid": 627,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "rerank": 0.005674907471984625
+  },
+  {
+   "cid": 685,
+   "file": "listino_prezzi_canale_GDO_fresco_v3.csv",
+   "rerank": 0.003146765986457467
+  },
+  {
+   "cid": 168,
+   "file": "budget_2026_vs_consuntivo_per_linea.xlsx",
+   "rerank": 0.0020735382568091154
+  },
+  {
+   "cid": 289,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.001309127314016223
+  },
+  {
+   "cid": 1599,
+   "file": "richiesta_campionatura_fiera_Cibus_2026.csv",
+   "rerank": 0.000909523805603385
+  },
+  {
+   "cid": 666,
+   "file": "listino prezzi GDO v2 VECCHIO non usare.csv",
+   "rerank": 0.0007871317211538553
+  },
+  {
+   "cid": 171,
+   "file": "calcolo_CapEx_linea3_bakery_nuova.csv",
+   "rerank": 0.0006163259386084974
+  },
+  {
+   "cid": 1806,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "rerank": 0.00027325988048687577
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.0002464315330144018
+  },
+  {
+   "cid": 273,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.0001715734979370609
+  },
+  {
+   "cid": 1164,
+   "file": "menu_mensa_aprile_maggio.txt",
+   "rerank": 7.2782117058523e-05
+  },
+  {
+   "cid": 1782,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 5.6898472394095734e-05
+  },
+  {
+   "cid": 9,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 4.001085108029656e-05
+  },
+  {
+   "cid": 1702,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "rerank": 1.776340104697738e-05
+  },
+  {
+   "cid": 25,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "rerank": 1.7210961232194677e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1514,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "origine": "nativa",
+   "rerank": 0.9606860876083374,
+   "testo": "appunti costi fissi / opex 2026 - agg. al 26/05/26 - lt\n(file mio, nn girare a nessuno, i numeri buoni li passo a Bellotto a fine giugno)\n\nriprendo il file dell anno scorso, tolgo quello che nn c'e' piu e aggiungo\nil leasing nuovo. ATTENZIONE: qui NON c'e' il tunnel Criotech, quello e' CapEx,\nsta nel file calcolo_CapEx_linea3, qui solo spese correnti.\n\n\n=== 1. LEASING E NOLEGGI ===============================\n\nLEASING FORNO FT-02 (linea 2, croissanteria)\n  societa: UniCredit Leasing S.p.A.  contratto n. UCL/2022/118374\n  decorrenza 01/03/2022, durata 72 mesi, riscatto 1%\n  canone: 3.850,00 €/mese + iva\n  scad. rata: giorno 05 del mese, RID su c/c UniCredit\n  residuo a fine 2026: 14 rate (fine feb 2028)\n\nLEASING MULETTO ELETTRICO (magazzino Faggionato)\n  Toyota Material Handling - contratto TMHIT-59921\n  canone 612,00 €/mese comprensivo manut. full service e batteria\n  durata 60 mesi da 09/2023\n  (chiedere a Faggionato se il secondo muletto a gpl lo teniamo ancora,\n   fermo da febbraio dietro la CF-02, paghiamo bollo? no il bollo no\n   ma l'assicurazione si, vedi sotto)\n\nLEASING CONFEZIONATRICE PKM-450 (Pakmatic, linea 1)\n  Sella Leasing  contr. n. 44/081152"
+  },
+  {
+   "cid": 1515,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "origine": "nativa",
+   "rerank": 0.25279784202575684,
+   "testo": "fermo da febbraio dietro la CF-02, paghiamo bollo? no il bollo no\n   ma l'assicurazione si, vedi sotto)\n\nLEASING CONFEZIONATRICE PKM-450 (Pakmatic, linea 1)\n  Sella Leasing  contr. n. 44/081152\n  canone 2.170,00 €/mese + iva\n  decorrenza 06/2021 durata 84 mesi -> fine 05/2028\n  nb: la manutenzione NON e' compresa, e' a parte con Pakmatic (F0077)\n  vedi sezione manutenzioni. dopo il fermo del 10/05 Fantin vuole\n  rivedere il contratto ricambi, sentire Pakmatic dopo l'estate\n\nNOLEGGIO OPERATIVO stampante/multifunzione uffici\n  Kyocera via BNP Paribas Rental - 189,00 €/mese, 2 macchine\n  (una e' in qualita da Marchetti, l'altra qui da noi)\n\nNOLEGGIO lavapavimenti industriale reparto conf.\n  Nilfisk  145 €/mese  (contratto in scadenza 09/26 - DISDIRE? sentire Zanella,\n  dice che quella nuova a batteria costa meno a comprarla)\n\ntot leasing+noleggi mensile:  3.850+612+2.170+189+145 = 6.966 €/mese\nTOT PROVVISORIO ANNUO leasing/noleggi:  83.592 €  (senza iva)\n\n\n=== 2. MANUTENZIONI ====================================\n\nCONTRATTO TECNOFORNI SERVICE (forni FT-01 e FT-02 + PT-104)\n  contratto full-risk n. TFS-2026-084, firmato Fantin 12/01/26"
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "origine": "nativa",
+   "rerank": 0.04263840243220329,
+   "testo": "il listino perche non possiamo essere noi a pagare due volte una promozione\nche gia ci paga niente, comunque per le assunzioni ok procedete con l agenzia\nma in somministrazione mi raccomando niente indeterminato adesso che dobbiamo\npagare l acconto del tunnel a fine mese lo sapete meglio di me come siamo\nmessi col conto\ngb\n\nInviato dal mio iPhone\n\n> -----Messaggio originale-----\n> Da: Fantin Marco <m.fantin@aurorafoodgroup.it>\n> Inviato: mercoledì 13 maggio 2026 18:05\n> A: Bertoldi Giancarlo\n> Cc: Sartori Federica; Zanella Denis\n> Oggetto: R: Fwd: dimissioni Hoxha - situazione Linea 2 URGENTE\n>\n> Giancarlo,\n>\n> leggi la catena sotto, serve una decisione tua entro venerdì.\n>\n> Sintesi: quarta dimissione in cinque mesi sulla Linea 2, sempre lo\n> stesso motivo, i turni della domenica. Federica ha fatto i conti,\n> sono sotto. Per me la proposta del premio presenza sta in piedi:\n> 14.400 euro l'anno contro i 19.200 che abbiamo GIA' speso di\n> sostituzioni da gennaio. E i 19.200 non includono i pezzi persi\n> per la resa più bassa dei nuovi, che Denis stima in un altro\n> 8-10% nei primi due mesi.\n>\n> Domenica scorsa la linea ha girato con 5 persone dove ne servono 6."
+  },
+  {
+   "cid": 433,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "origine": "nativa",
+   "rerank": 0.0309133380651474,
+   "testo": ">>   4. Hoxha Fatjon      - lettera 08/05/2026 - ultimo giorno 31/05\n>>\n>> Tutti e quattro, nel colloquio di uscita o nella lettera, hanno\n>> indicato lo stesso motivo: i turni domenicali. Peruzzi testuale:\n>> \"non ho più una vita, mia figlia la vedo il martedì\". Stoica e\n>> Diallo sono andati entrambi in aziende metalmeccaniche della zona,\n>> stesso livello, NESSUN turno festivo.\n>>\n>> COSTO DI SOSTITUZIONE (per singola uscita, stima prudente):\n>>   - ricerca e selezione (agenzia)            1.100 EUR\n>>   - somministrazione primi 3 mesi (delta)    1.650 EUR\n>>   - formazione obbligatoria + HACCP + DPI      450 EUR\n>>   - affiancamento (ore capoturno + calo resa) 1.600 EUR\n>>   TOTALE ~ 4.800 EUR a persona\n>>   x 4 uscite = 19.200 EUR da gennaio ad oggi.\n>>\n>> PROPOSTA (da validare con il titolare):\n>> premio presenza di 120 EUR lordi/mese per gli operai di Linea 2\n>> che garantiscono la disponibilità domenicale a rotazione.\n>> Costo pieno: 120 x 10 persone x 12 mesi = 14.400 EUR/anno.\n>> Meno di quanto abbiamo già bruciato in sostituzioni, e almeno\n>> smettiamo di formare gente per i concorrenti.\n>>\n>> Aggiungo un dato che non fa piacere: Umana ci ha detto ieri che"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4686,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.19,
+  "rerank": 42.55
+ },
+ "id": "Q007",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T14:53:17",
+ "secondi": 42.75,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 74.04,
+  "token_prompt": 2023,
+  "token_risposta": 78,
+  "testo_grezzo": "La società pagherebbe 3.850,00 €/mese + 612,00 €/mese = 4.462,00 €/mese per il leasing del forno della linea 2.\n\nFONTI: report_costi_fissi_OpEx_manutenzioni.txt, report_costi_fissi_OpEx_manutenzioni.txt",
+  "fonti_citate": [
+   "report_costi_fissi_OpEx_manutenzioni.txt"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

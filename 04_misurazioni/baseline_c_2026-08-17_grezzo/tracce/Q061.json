@@ -1,0 +1,683 @@
+{
+ "domanda": "Ogni quanto va rifatta la verifica dell'impianto di terra e quando tocca la prossima?",
+ "candidati_densi": [
+  {
+   "cid": 315,
+   "punteggio": 0.5842146772283425,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1608,
+   "punteggio": 0.5587191558020921,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1880,
+   "punteggio": 0.5567666708864408,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1884,
+   "punteggio": 0.5563124406273937,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 397,
+   "punteggio": 0.5529920050324993,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1143,
+   "punteggio": 0.5514704630772119,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 25,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1885,
+   "punteggio": 0.5513765761537277,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 320,
+   "punteggio": 0.5479996587279865,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1878,
+   "punteggio": 0.547462740449413,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1155,
+   "punteggio": 0.5464906967987041,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1654,
+   "punteggio": 0.5463271455170886,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1144,
+   "punteggio": 0.5433926725097444,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 26,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1185,
+   "punteggio": 0.5431297321866996,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 342,
+   "punteggio": 0.5429580285714158,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 922,
+   "punteggio": 0.5428312042953563,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 100,
+   "origine": "nativa"
+  },
+  {
+   "cid": 224,
+   "punteggio": 0.5425072266231777,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 341,
+   "punteggio": 0.5419918491134319,
+   "file": "CPI_certificato_prevenzione_incendi_VVF.pdf",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1652,
+   "punteggio": 0.5419043931655989,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 575,
+   "punteggio": 0.5417834856798522,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 577,
+   "punteggio": 0.5414700762423295,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 4,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1880,
+   "punteggio": 21.359418869018555,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1878,
+   "punteggio": 20.671852111816406,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1353,
+   "punteggio": 18.682870864868164,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1517,
+   "punteggio": 18.010007858276367,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 313,
+   "punteggio": 17.142915725708008,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1884,
+   "punteggio": 16.0357666015625,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1366,
+   "punteggio": 15.987805366516113,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1391,
+   "punteggio": 15.931639671325684,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 575,
+   "punteggio": 15.64281940460205,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 329,
+   "punteggio": 15.283822059631348,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 613,
+   "punteggio": 14.78961181640625,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1790,
+   "punteggio": 14.682476997375488,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 154,
+   "punteggio": 14.606491088867188,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 617,
+   "punteggio": 14.168654441833496,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 22,
+   "punteggio": 14.098995208740234,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 577,
+   "punteggio": 13.986468315124512,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1352,
+   "punteggio": 13.873251914978027,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 600,
+   "punteggio": 13.371912002563477,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 23,
+   "punteggio": 13.366929054260254,
+   "file": "accordo_quadro_private_label_Tosano_2026_firmato.txt",
+   "idx": 21,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1879,
+   "punteggio": 13.256864547729492,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 1,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1880,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.032266458495966696,
+   "rango_denso": 3,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1884,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.030776515151515152,
+   "rango_denso": 4,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1878,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.030621785881252923,
+   "rango_denso": 9,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 575,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.02715098147128967,
+   "rango_denso": 19,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 577,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.025657894736842105,
+   "rango_denso": 20,
+   "rango_sparso": 16
+  },
+  {
+   "cid": 315,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1608,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1353,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1517,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 313,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 397,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1143,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 25,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1885,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 320,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1391,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "idx": 10,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 329,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "idx": 18,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1155,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 613,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1654,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1144,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "idx": 26,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1790,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 17,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 154,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 1185,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1878,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "rerank": 0.17614568769931793
+  },
+  {
+   "cid": 1880,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "rerank": 0.16793161630630493
+  },
+  {
+   "cid": 1884,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "rerank": 0.05707777291536331
+  },
+  {
+   "cid": 1885,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "rerank": 0.0065244524739682674
+  },
+  {
+   "cid": 1517,
+   "file": "report_costi_fissi_OpEx_manutenzioni.txt",
+   "rerank": 0.0037125262897461653
+  },
+  {
+   "cid": 315,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.0021871074568480253
+  },
+  {
+   "cid": 313,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.0020754060242325068
+  },
+  {
+   "cid": 1144,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.0018046775367110968
+  },
+  {
+   "cid": 1353,
+   "file": "preventivo_Criotech_tunnel_CR-SP180_rev2.pdf",
+   "rerank": 0.0015975687419995666
+  },
+  {
+   "cid": 1790,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.001587798004038632
+  },
+  {
+   "cid": 575,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 0.0015062239253893495
+  },
+  {
+   "cid": 1143,
+   "file": "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+   "rerank": 0.0014969262992963195
+  },
+  {
+   "cid": 1608,
+   "file": "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+   "rerank": 0.0014724797802045941
+  },
+  {
+   "cid": 577,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 0.001209126552566886
+  },
+  {
+   "cid": 1155,
+   "file": "manuale_uso_manutenzione_PKM450_estratto.pdf",
+   "rerank": 0.0010021443013101816
+  },
+  {
+   "cid": 320,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.000876133213751018
+  },
+  {
+   "cid": 1185,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "rerank": 0.0008090093033388257
+  },
+  {
+   "cid": 1654,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "rerank": 0.0005083384457975626
+  },
+  {
+   "cid": 329,
+   "file": "contratto_manutenzione_impianto_frigo_TS01.docx",
+   "rerank": 0.00044775530113838613
+  },
+  {
+   "cid": 1391,
+   "file": "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+   "rerank": 0.0003905225021298975
+  },
+  {
+   "cid": 397,
+   "file": "DVR_estratto_valutazione_rischi_2026.pdf",
+   "rerank": 0.0003383359871804714
+  },
+  {
+   "cid": 154,
+   "file": "brief_agenzia_packaging_restyling_snack.docx",
+   "rerank": 0.00016425967623945326
+  },
+  {
+   "cid": 1366,
+   "file": "preventivo_software_ERP_CSB_System_vs_SAP.txt",
+   "rerank": 0.00011329129483783618
+  },
+  {
+   "cid": 613,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 3.167476461385377e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1878,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "origine": "nativa",
+   "rerank": 0.17614568769931793,
+   "testo": "VERIFICA NORD S.r.l. - Organismo Abilitato D.P.R. 462/01 - abilitazione MIMIT D.D. 21/12/2023\nVerbale VT-2026-0912 del 23/04/2026 - pag. 1 - riproduzione consentita solo integrale\npag. 1\nVerbale di verifica periodica impianto di messa a terra - D.P.R. 462/01 - n. VT-2026-0912\nVERIFICA NORD S.r.l.\nOrganismo Abilitato alle verifiche periodiche e straordinarie ai sensi del D.P.R. 22/10/2001\nn. 462 - abilitazione Ministero delle Imprese e del Made in Italy, D.D. del 21/12/2023\nSede: Via del Lavoro 44 - 36100 Vicenza - P.IVA 04218760249 - tel. 0444 96 12 40\nPEC: verificanord@legalmail.it\nVERBALE DI VERIFICA PERIODICA n. VT-2026-0912\nImpianto di messa a terra di impianti alimentati con tensione fino a 1000 V\n(art. 4 e 6 D.P.R. 462/01)\n1. Dati del datore di lavoro e dell'installazione\nRagione sociale: AURORA FOOD GROUP S.R.L.\nSede legale: Via dell'Industria 27 - 37044 Cologna Veneta (VR)\nP.IVA: 03984710230 - REA: VR-389241\nDatore di lavoro: Bertoldi Giancarlo - Delegato presente alla verifica: Dal Maso Ivano\n(capo officina / manutenzione), assistito da Bissoli Mirco (manutentore)\nRSPP: p.i. Bonato Sergio - Studio Bonato & Partners, Arzignano (VI)"
+  },
+  {
+   "cid": 1880,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "origine": "nativa",
+   "rerank": 0.16793161630630493,
+   "testo": "Verifica precedente: verbale VT-2024-0788 del 18/04/2024 (esito favorevole).\n2. Documentazione esaminata\n- Dichiarazione di conformita' impianto elettrico ex D.M. 37/08, ditta Elettromec Impianti\n  S.n.c. (Cologna Veneta), del 12/07/2019, con allegati progetto e schemi unifilari;\n- DiCo ampliamento reparto confezionamento (nuova linea PKM-450) del 03/02/2022;\n- Relazione di valutazione del rischio da fulminazione ex CEI EN 62305-2, ing. Businaro L.,\n  rev. 1 del 2019: la struttura risulta AUTOPROTETTA (rischio R1 = 0,62 x 10^-5 < RT);\n  non e' pertanto installato LPS esterno; la presente verifica riguarda le misure di\n  protezione interne (equipotenzialita' ed SPD);\n- Registro delle manutenzioni elettriche interne (estratto 2024-2026);\n- Verbale precedente VT-2024-0788.\n3. Descrizione dell'impianto di terra\nDispersore: anello perimetrale in corda di rame nuda 35 mm2 interrata, integrato da n. 6\npicchetti a croce in acciaio zincato da 1,5 m in pozzetti ispezionabili (D1...D6); collettore\nprincipale di terra in cabina; conduttori di protezione e equipotenziali principali in\ncavo N07V-K giallo/verde di sezione 16-50 mm2; collegamenti equipotenziali supplementari su"
+  },
+  {
+   "cid": 1884,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "origine": "nativa",
+   "rerank": 0.05707777291536331,
+   "testo": "FT-01, FT-02, PT-104, IMP-300, PKM-450, TS-01, CIP-01, silos, serbatoio criogenico, scaffali\n\nVERIFICA NORD S.r.l. - Organismo Abilitato D.P.R. 462/01 - abilitazione MIMIT D.D. 21/12/2023\nVerbale VT-2026-0912 del 23/04/2026 - pag. 4 - riproduzione consentita solo integrale\npag. 4\nmetallici magazzino, tubazioni). Tutti i valori risultano idonei.\n5.4 Verifica SPD: scaricatori di sovratensione tipo 1+2 in QGBT e tipo 2 nei quadri di\nreparto: indicatori di stato regolari, nessuna cartuccia esaurita.\n5.5 Verifica coordinamento (sistema TN): per i circuiti verificati risulta soddisfatta la\ncondizione Zs x Ia <= Uo ai sensi della Norma CEI 64-8, cap. 41.\n6. Esito della verifica\nESITO: FAVOREVOLE CON PRESCRIZIONI.\nL'impianto di messa a terra risulta idoneo all'esercizio, subordinatamente all'ottemperanza\ndelle prescrizioni che seguono entro i termini indicati.\n7. Prescrizioni\nN.\nPrescrizione\nTermine\nP1\nSostituire il dispositivo differenziale del quadro\nQ-OFF (officina): tempo di intervento a 1xIdn\npari a 342 ms, superiore al limite di 300 ms;\ntrasmettere all'Organismo evidenza fotografica\ndella sostituzione\n15 giorni\nP2\nRipristinare il morsetto del dispersore D3"
+  },
+  {
+   "cid": 1885,
+   "file": "verifica_periodica_impianto_terra_DPR462.pdf",
+   "origine": "nativa",
+   "rerank": 0.0065244524739682674,
+   "testo": "pari a 342 ms, superiore al limite di 300 ms;\ntrasmettere all'Organismo evidenza fotografica\ndella sostituzione\n15 giorni\nP2\nRipristinare il morsetto del dispersore D3\n(ossidazione): pulizia, serraggio e protezione\n30 giorni\nP3\nDrenare il pozzetto del dispersore D5 e\nverificarne la tenuta\n30 giorni\nP4\nAggiornare il registro delle manutenzioni con le\nprove interne semestrali dei differenziali (tasto\ntest), risultate non registrate da 10/2025\n30 giorni\nNota a verbale del delegato della ditta: il differenziale Q-OFF e' stato ordinato in data\nodierna (rif. richiesta di acquisto interna a Pakmatic esclusa - fornitore materiale\nelettrico locale); sostituzione prevista entro la settimana 18. Firmato: I. Dal Maso.\n8. Conclusioni\nProssima verifica periodica: entro il 23/04/2028 (periodicita' biennale).\nIl presente verbale deve essere conservato dal datore di lavoro ed esibito a richiesta degli\norgani di vigilanza (art. 6 c. 4 D.P.R. 462/01). La verifica non esime il datore di lavoro\ndagli obblighi di manutenzione e controllo ex art. 86 D.Lgs. 81/08.\nVerifica eseguita in data 23/04/2026, ore 08:30 - 13:15, alla presenza del sig. Dal Maso"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4654,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.2,
+  "rerank": 51.28
+ },
+ "id": "Q061",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T15:36:45",
+ "secondi": 51.5,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 64.15,
+  "token_prompt": 1995,
+  "token_risposta": 73,
+  "testo_grezzo": "La verifica dell'impianto di terra deve essere eseguita entro il 23/04/2028, in quanto è indicato come periodo di prossima verifica periodica.\n\nFONTI: verifica_periodica_impianto_terra_DPR462.pdf, verbale VT-2026-0912\n\nCONFIDENZA: alta",
+  "fonti_citate": [
+   "verifica_periodica_impianto_terra_DPR462.pdf",
+   "verbale VT-2026-0912"
+  ],
+  "fonti_fuori_contesto": [
+   "verbale VT-2026-0912"
+  ],
+  "confidenza": "alta"
+ }
+}

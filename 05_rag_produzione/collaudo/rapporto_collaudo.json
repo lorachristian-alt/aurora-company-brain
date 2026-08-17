@@ -1,0 +1,326 @@
+{
+ "quando": "2026-08-17T14:26:50",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "domande": 10,
+ "atteso_nei_passaggi": 8,
+ "atteso_almeno_nella_rrf": 9,
+ "con_atteso": 9,
+ "formati_toccati": [
+  "csv",
+  "docx",
+  "eml",
+  "jpg",
+  "log",
+  "pdf",
+  "txt",
+  "xlsx"
+ ],
+ "origini_toccate": [
+  "nativa",
+  "ocr"
+ ],
+ "secondi_recupero_medi": 67.82,
+ "esiti": [
+  {
+   "n": 1,
+   "che_prova": "ramo sparso su codice di lotto",
+   "domanda": "Quanti chili di prodotto finito riporta il mass balance del lotto L26130?",
+   "atteso": "tracciabilita_lotti_massbalance_L26130.xlsx",
+   "atteso_nei_passaggi": true,
+   "atteso_nella_rrf": true,
+   "candidati_densi": 20,
+   "candidati_sparsi": 20,
+   "candidati_fusi": 24,
+   "solo_denso": 12,
+   "solo_sparso": 12,
+   "in_entrambi": 0,
+   "file_consegnati": [
+    "tracciabilita_lotti_massbalance_L26130.xlsx",
+    "procedura_ritiro_prodotto_CRISI_GDO.txt",
+    "tracciabilita_lotti_massbalance_L26130.xlsx",
+    "log_temperature_pastorizzatore_linea1_10_05_26.log"
+   ],
+   "origini": [
+    "nativa"
+   ],
+   "caratteri_contesto": 4608,
+   "tempi_recupero": {
+    "denso": 28.99,
+    "sparso": 0.17,
+    "rerank": 77.55
+   },
+   "secondi_recupero": 106.73
+  },
+  {
+   "n": 2,
+   "che_prova": "ramo denso, nessun codice nella domanda",
+   "domanda": "Che cosa ha stabilito il laboratorio esterno sul frammento rigido trovato dal cliente?",
+   "atteso": "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+   "atteso_nei_passaggi": false,
+   "atteso_nella_rrf": true,
+   "candidati_densi": 20,
+   "candidati_sparsi": 20,
+   "candidati_fusi": 24,
+   "solo_denso": 9,
+   "solo_sparso": 8,
+   "in_entrambi": 7,
+   "file_consegnati": [
+    "MOD-QA-31_reclamo_REC-2026-011.pdf",
+    "MOD-QA-31_reclamo_REC-2026-011.pdf",
+    "report_fermo_macchina_confezionatrice_MAP.txt",
+    "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx"
+   ],
+   "origini": [
+    "nativa"
+   ],
+   "caratteri_contesto": 4396,
+   "tempi_recupero": {
+    "denso": 2.89,
+    "sparso": 0.36,
+    "rerank": 55.01
+   },
+   "secondi_recupero": 58.28
+  },
+  {
+   "n": 3,
+   "che_prova": "formato .log, dato numerico in serie",
+   "domanda": "Quali temperature ha registrato il pastorizzatore della linea 1 il 10 maggio 2026?",
+   "atteso": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "atteso_nei_passaggi": true,
+   "atteso_nella_rrf": true,
+   "candidati_densi": 20,
+   "candidati_sparsi": 20,
+   "candidati_fusi": 24,
+   "solo_denso": 12,
+   "solo_sparso": 12,
+   "in_entrambi": 0,
+   "file_consegnati": [
+    "log_temperature_pastorizzatore_linea1_10_05_26.log",
+    "log_temperature_pastorizzatore_linea1_10_05_26.log",
+    "log_temperature_pastorizzatore_linea1_10_05_26.log",
+    "log_temperature_pastorizzatore_linea1_10_05_26.log"
+   ],
+   "origini": [
+    "nativa"
+   ],
+   "caratteri_contesto": 4670,
+   "tempi_recupero": {
+    "denso": 1.57,
+    "sparso": 0.25,
+    "rerank": 70.12
+   },
+   "secondi_recupero": 71.95
+  },
+  {
+   "n": 4,
+   "che_prova": "codice con trattino non spezzato dal tokenizzatore",
+   "domanda": "Che cosa dice il certificato di analisi del lotto di farina MV26-0429A?",
+   "atteso": "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+   "atteso_nei_passaggi": true,
+   "atteso_nella_rrf": true,
+   "candidati_densi": 20,
+   "candidati_sparsi": 20,
+   "candidati_fusi": 24,
+   "solo_denso": 8,
+   "solo_sparso": 7,
+   "in_entrambi": 9,
+   "file_consegnati": [
+    "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+    "SKM_C224e26051412340.pdf",
+    "certificato_analisi_lotto_farina_MV26_0429A.pdf",
+    "SKM_C224e26051412340.pdf"
+   ],
+   "origini": [
+    "nativa"
+   ],
+   "caratteri_contesto": 4758,
+   "tempi_recupero": {
+    "denso": 2.35,
+    "sparso": 0.25,
+    "rerank": 65.18
+   },
+   "secondi_recupero": 67.78
+  },
+  {
+   "n": 5,
+   "che_prova": "codice prodotto con due trattini",
+   "domanda": "Quali sono le caratteristiche del prodotto AF-SN-0450 secondo la sua scheda tecnica?",
+   "atteso": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "atteso_nei_passaggi": true,
+   "atteso_nella_rrf": true,
+   "candidati_densi": 20,
+   "candidati_sparsi": 20,
+   "candidati_fusi": 24,
+   "solo_denso": 12,
+   "solo_sparso": 12,
+   "in_entrambi": 0,
+   "file_consegnati": [
+    "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+    "Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf",
+    "Scansione_20260518_0003.pdf",
+    "test_shelf_life_accelerata_confezione_MAP_snack.csv"
+   ],
+   "origini": [
+    "nativa"
+   ],
+   "caratteri_contesto": 4670,
+   "tempi_recupero": {
+    "denso": 2.38,
+    "sparso": 0.32,
+    "rerank": 69.66
+   },
+   "secondi_recupero": 72.37
+  },
+  {
+   "n": 6,
+   "che_prova": "formato .eml e catena di risposte",
+   "domanda": "Quando scade il certificato BRCGS e quando e' previsto l'audit di rinnovo?",
+   "atteso": "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+   "atteso_nei_passaggi": true,
+   "atteso_nella_rrf": true,
+   "candidati_densi": 20,
+   "candidati_sparsi": 20,
+   "candidati_fusi": 24,
+   "solo_denso": 5,
+   "solo_sparso": 5,
+   "in_entrambi": 14,
+   "file_consegnati": [
+    "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+    "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+    "R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml",
+    "Conferma_incarico_audit_rinnovo_2026.pdf"
+   ],
+   "origini": [
+    "nativa"
+   ],
+   "caratteri_contesto": 4492,
+   "tempi_recupero": {
+    "denso": 1.32,
+    "sparso": 0.23,
+    "rerank": 52.31
+   },
+   "secondi_recupero": 53.87
+  },
+  {
+   "n": 7,
+   "che_prova": "formato .docx",
+   "domanda": "Quali allergeni sono soggetti a rischio di cross contamination secondo la matrice aziendale?",
+   "atteso": "scheda_allergeni_matrice_cross_contamination.docx",
+   "atteso_nei_passaggi": true,
+   "atteso_nella_rrf": true,
+   "candidati_densi": 20,
+   "candidati_sparsi": 20,
+   "candidati_fusi": 24,
+   "solo_denso": 8,
+   "solo_sparso": 9,
+   "in_entrambi": 7,
+   "file_consegnati": [
+    "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt",
+    "scheda_allergeni_matrice_cross_contamination.docx",
+    "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+    "scheda_tecnica_farina_tipo_0_MolinoVeneto.txt"
+   ],
+   "origini": [
+    "nativa"
+   ],
+   "caratteri_contesto": 4676,
+   "tempi_recupero": {
+    "denso": 0.66,
+    "sparso": 0.4,
+    "rerank": 54.86
+   },
+   "secondi_recupero": 55.92
+  },
+  {
+   "n": 8,
+   "che_prova": "formato .jpg passato dall'OCR",
+   "domanda": "Che cosa riporta il modulo MOD-QA-07 compilato il 10-05-26 sulla linea 1 turno 2?",
+   "atteso": "MOD-QA-07_10-05-26_L1_T2_scansione.jpg",
+   "atteso_nei_passaggi": true,
+   "atteso_nella_rrf": true,
+   "candidati_densi": 20,
+   "candidati_sparsi": 20,
+   "candidati_fusi": 24,
+   "solo_denso": 9,
+   "solo_sparso": 10,
+   "in_entrambi": 5,
+   "file_consegnati": [
+    "Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt",
+    "Verbale_ispezione_ATS_09_06_2026.pdf",
+    "MOD-QA-07_10-05-26_L1_T2_scansione.jpg",
+    "segnalazione_qualita_cliente_privato_corpo_estraneo.txt"
+   ],
+   "origini": [
+    "nativa",
+    "ocr"
+   ],
+   "caratteri_contesto": 4164,
+   "tempi_recupero": {
+    "denso": 0.97,
+    "sparso": 0.25,
+    "rerank": 56.14
+   },
+   "secondi_recupero": 57.37
+  },
+  {
+   "n": 9,
+   "che_prova": "formato .xml di fattura elettronica, partita IVA nel nome",
+   "domanda": "Qual e' la partita IVA di Aurora Food Group e in quali fatture elettroniche compare?",
+   "atteso": null,
+   "atteso_nei_passaggi": null,
+   "atteso_nella_rrf": null,
+   "candidati_densi": 20,
+   "candidati_sparsi": 20,
+   "candidati_fusi": 24,
+   "solo_denso": 11,
+   "solo_sparso": 7,
+   "in_entrambi": 6,
+   "file_consegnati": [
+    "visura_camerale_ordinaria_AuroraFoodGroup.pdf",
+    "bilancio_esercizio_2025_deposito_CCIAA.pdf",
+    "Fatture_Elettroniche_SDI_Inbound_Q2.txt",
+    "Fatture_Elettroniche_SDI_Inbound_Q2.txt"
+   ],
+   "origini": [
+    "nativa"
+   ],
+   "caratteri_contesto": 4193,
+   "tempi_recupero": {
+    "denso": 0.94,
+    "sparso": 0.28,
+    "rerank": 62.37
+   },
+   "secondi_recupero": 63.59
+  },
+  {
+   "n": 10,
+   "che_prova": "formato .xlsx con piu' fogli, domanda di aggregazione",
+   "domanda": "Quali referenze hanno la marginalita' piu' bassa nell'analisi 2026?",
+   "atteso": "analisi_marginalita_per_referenza_2026.xlsx",
+   "atteso_nei_passaggi": true,
+   "atteso_nella_rrf": true,
+   "candidati_densi": 20,
+   "candidati_sparsi": 20,
+   "candidati_fusi": 24,
+   "solo_denso": 12,
+   "solo_sparso": 11,
+   "in_entrambi": 1,
+   "file_consegnati": [
+    "analisi_marginalita_per_referenza_2026.xlsx",
+    "email_HR_dimissioni_operai_linea2.txt",
+    "contestazione_sindacale_straordinari_Tosano.txt",
+    "scadenzario_effetti_RIBA_giugno26.csv"
+   ],
+   "origini": [
+    "nativa"
+   ],
+   "caratteri_contesto": 4733,
+   "tempi_recupero": {
+    "denso": 0.9,
+    "sparso": 0.34,
+    "rerank": 69.08
+   },
+   "secondi_recupero": 70.32
+  }
+ ]
+}

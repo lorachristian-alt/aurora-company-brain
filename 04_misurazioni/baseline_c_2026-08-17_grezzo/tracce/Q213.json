@@ -1,0 +1,681 @@
+{
+ "domanda": "Il programma di lavaggio girato ogni sera sulla Linea 1 e' quello giusto per il circuito?",
+ "candidati_densi": [
+  {
+   "cid": 575,
+   "punteggio": 0.5123784162495157,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1643,
+   "punteggio": 0.5035057467794354,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 573,
+   "punteggio": 0.49309565011584067,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1645,
+   "punteggio": 0.4892392705133685,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 870,
+   "punteggio": 0.48865082995118175,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 48,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1664,
+   "punteggio": 0.4880286437588458,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1644,
+   "punteggio": 0.48735308757673,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1789,
+   "punteggio": 0.48734801349022544,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 873,
+   "punteggio": 0.48508645196578903,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 51,
+   "origine": "nativa"
+  },
+  {
+   "cid": 582,
+   "punteggio": 0.4801690134569302,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 874,
+   "punteggio": 0.4784107221988033,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 52,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1480,
+   "punteggio": 0.47782010206190983,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 822,
+   "punteggio": 0.47728539079838805,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 926,
+   "punteggio": 0.47657223665165827,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 104,
+   "origine": "nativa"
+  },
+  {
+   "cid": 918,
+   "punteggio": 0.47610383108730425,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 96,
+   "origine": "nativa"
+  },
+  {
+   "cid": 850,
+   "punteggio": 0.4739823125889041,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 28,
+   "origine": "nativa"
+  },
+  {
+   "cid": 829,
+   "punteggio": 0.47387572983699483,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 889,
+   "punteggio": 0.4733936803156665,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 67,
+   "origine": "nativa"
+  },
+  {
+   "cid": 842,
+   "punteggio": 0.47332448526552356,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 20,
+   "origine": "nativa"
+  },
+  {
+   "cid": 511,
+   "punteggio": 0.47307950850468633,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 6,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 581,
+   "punteggio": 27.691112518310547,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 509,
+   "punteggio": 27.145544052124023,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 575,
+   "punteggio": 24.061227798461914,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 513,
+   "punteggio": 21.501462936401367,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 508,
+   "punteggio": 20.312118530273438,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 511,
+   "punteggio": 19.23259162902832,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 510,
+   "punteggio": 18.356847763061523,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 220,
+   "punteggio": 17.490867614746094,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1645,
+   "punteggio": 16.08365249633789,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 582,
+   "punteggio": 15.916451454162598,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1775,
+   "punteggio": 15.877342224121094,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 601,
+   "punteggio": 15.827927589416504,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1462,
+   "punteggio": 15.822565078735352,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 613,
+   "punteggio": 15.439440727233887,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 577,
+   "punteggio": 15.261029243469238,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1426,
+   "punteggio": 15.187312126159668,
+   "file": "R_candidatura_spontanea_tecnologo_alimentare.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1220,
+   "punteggio": 14.89953327178955,
+   "file": "nota_commercialista_credito_imposta_beni_strumentali.docx",
+   "idx": 9,
+   "origine": "nativa"
+  },
+  {
+   "cid": 431,
+   "punteggio": 14.729424476623535,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 92,
+   "punteggio": 14.728294372558594,
+   "file": "appunti_tecnologo_quaderno_prove_pilota_OCR.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 576,
+   "punteggio": 14.629090309143066,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 3,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 575,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.032266458495966696,
+   "rango_denso": 1,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1645,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.030117753623188408,
+   "rango_denso": 4,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 582,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 9,
+   "origine": "nativa",
+   "rrf": 0.02857142857142857,
+   "rango_denso": 10,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 511,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.027651515151515153,
+   "rango_denso": 20,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 581,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 509,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1643,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 573,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 513,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 508,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 870,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 48,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1664,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "idx": 12,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 510,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1644,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 220,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1789,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 16,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 873,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 51,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 874,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 52,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1775,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 601,
+   "file": "job_description_responsabile_produzione.docx",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1480,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 822,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1462,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": null,
+   "rango_sparso": 13
+  },
+  {
+   "cid": 613,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013513513513513514,
+   "rango_denso": null,
+   "rango_sparso": 14
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 581,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 0.192037895321846
+  },
+  {
+   "cid": 1643,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "rerank": 0.08663780242204666
+  },
+  {
+   "cid": 1645,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "rerank": 0.07628017663955688
+  },
+  {
+   "cid": 575,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 0.061953432857990265
+  },
+  {
+   "cid": 874,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.05431889742612839
+  },
+  {
+   "cid": 822,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.043588776141405106
+  },
+  {
+   "cid": 509,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 0.039205800741910934
+  },
+  {
+   "cid": 870,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.029791247099637985
+  },
+  {
+   "cid": 510,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 0.023998815566301346
+  },
+  {
+   "cid": 873,
+   "file": "log_lavaggio_CIP_linea1_maggio.log",
+   "rerank": 0.014514461159706116
+  },
+  {
+   "cid": 508,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 0.010475050657987595
+  },
+  {
+   "cid": 573,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 0.010415350086987019
+  },
+  {
+   "cid": 1644,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "rerank": 0.006785007659345865
+  },
+  {
+   "cid": 582,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "rerank": 0.004451533779501915
+  },
+  {
+   "cid": 511,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 0.003936695400625467
+  },
+  {
+   "cid": 513,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 0.0020259020384401083
+  },
+  {
+   "cid": 1789,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.001956717111170292
+  },
+  {
+   "cid": 1480,
+   "file": "registro_presenze_corsi_HACCP_scaduti.csv",
+   "rerank": 0.0015351313631981611
+  },
+  {
+   "cid": 1462,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.00039963689050637186
+  },
+  {
+   "cid": 601,
+   "file": "job_description_responsabile_produzione.docx",
+   "rerank": 0.00025504923542030156
+  },
+  {
+   "cid": 1775,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.0002510563062969595
+  },
+  {
+   "cid": 1664,
+   "file": "scheda_manutenzione_ordinaria_forni_industrial.csv",
+   "rerank": 0.00014632102102041245
+  },
+  {
+   "cid": 613,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 2.2523610823554918e-05
+  },
+  {
+   "cid": 220,
+   "file": "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+   "rerank": 1.826432708185166e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 581,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "origine": "nativa",
+   "rerank": 0.192037895321846,
+   "testo": "CHEMIFOOD SAN-P5\nSanificante acido peracetico (PAA)\nCORROSIVO e OSSIDANTE — odore pungente\ntanica sempre in piedi, tappo con sfiato\nFase\nProdotto\nConcentrazione\nTemperatura\nTempo\nPortata\n1. Prerisciacquo\nacqua di rete\n—\nambiente\n10 min\n15 m3/h\n2. Lavaggio alcalino\nCS-40 soda\n1,5 - 2,0 %\n75 - 80 °C\n30 min\n15 m3/h\n3. Risciacquo intermedio\nacqua di rete\n—\nambiente\n10 min\n15 m3/h\n4. Lavaggio acido\nAN-15 nitrico\n1,0 - 1,5 %\n60 - 65 °C\n20 min\n15 m3/h\n5. Risciacquo finale\nacqua potabile\n—\nambiente\n15 min\n15 m3/h\n6. Sanificazione (solo se richiesta dal programma)\nSAN-P5 PAA\n0,05 - 0,15 %\nambiente\n15 min\n15 m3/h\nProgramma\nLinea / circuito\nQuando\nFasi\nDurata totale\nP1\nLinea 1 — circuito impasto e dosaggio\nfine produzione giornaliera\n1-2-3-5\ncirca 65 min\nP2\nLinea 1 — circuito completo con acido\nvenerdì o cambio allergene\n1-2-3-4-5\ncirca 85 min\nP3\nLinea 2 — impastatrice IMP-300 e tubazioni creme\nfine produzione giornaliera\n1-2-3-5\ncirca 70 min\nP4\nLinea 2 — completo + sanificazione PAA\nprima delle produzioni bio e dopo manutenzioni\n1-2-3-4-5-6\ncirca 100 min\nP5\nSerbatoio sciroppo e circuito farciture\nogni cambio gusto con allergene\n1-2-3-5-6\ncirca 80 min\nP6\nSolo risciacquo"
+  },
+  {
+   "cid": 1643,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "origine": "nativa",
+   "rerank": 0.08663780242204666,
+   "testo": "lavaggio validato (par. 5) e ritest (par. 6).\n\n4.2 Linea 1 (impasto - FT-01 - PT-104 - MD-3200 - PKM-450):\n    sequenza tipo giornaliera:\n1. AF-FC-0330 focaccina (no uovo, no sesamo)\n2. AF-SN-0450 / AF-SN-0455 multicereali\n3. [solo su pianificazione dedicata] prove AF-SN-0470 con sesamo\n    Dopo qualsiasi lavorazione con sesamo: lavaggio completo di fine produzione\n    secondo IO-05 + ispezione visiva + tampone proteina specifica prima di\n    qualunque nuova partenza. VIETATO programmare sesamo a inizio giornata.\n\n4.3 Linea 2 (IMP-300 - sfogliatrice - cella lievitazione - FT-02):\n    sequenza tipo:\n1. AF-CR-0220 sfogliatina BIO (anche per vincolo ICEA: il bio parte sempre\n         a linea pulita, mai dopo convenzionale senza lavaggio validato)\n1. AF-CR-0212 / AF-CR-0215 croissant burro\n2. referenze con crema nocciola (fuori scheda)\n    In caso di urgenza ordini Tosano e' ammesso invertire 1 e 2 con doppio\n    risciacquo rapido.\n    [Commento: Vicentini C. - la deroga cancellata sopra NON e' mai stata validata,\n    l'ho tolta io: v. anche NC-2026-101 del 19/05, tampone latte positivo proprio\n    dopo un cambio abbreviato. Non deve rientrare nelle prossime revisioni.]"
+  },
+  {
+   "cid": 1645,
+   "file": "scheda_allergeni_matrice_cross_contamination.docx",
+   "origine": "nativa",
+   "rerank": 0.07628017663955688,
+   "testo": "linea (es. focaccina -> multicereali).\n5.3 Lavaggio di tipo L3 (completo CIP secondo IO-05): soda caustica, risciacquo,\n    acido, risciacquo, sanificante PAA, con registrazione concentrazioni e\n    conducibilita' di risciacquo. Obbligatorio: dopo sesamo; prima del bio; dopo\n    referenze con crema nocciola; a fine settimana produttiva.\n5.4 Il capoturno registra tipo di lavaggio, ora inizio/fine e firma. La seconda\n    firma di verifica e' del QC (Pozzato) o del RSGQ.\n\n1. VALIDAZIONE DELLA PULIZIA E MONITORAGGIO\n\n6.1 Validazione iniziale (eseguita 2024, riverificata 2025, da ripetere dopo\n    l'installazione del tunnel CR-SP180): tre cicli consecutivi di lavaggio L3 con\n    esito conforme su tutti i punti di campionamento critici.\n6.2 Test rapidi proteina specifica a tampone (lateral flow):\nproteina LATTE: prima di ogni partenza bio su Linea 2 e dopo ogni L3\n      post-croissanteria; limite: non rilevato.\nproteina UOVO: dopo L3 su attrezzature promiscue croissanteria;\nSESAMO: dopo ogni lavorazione prototipo AF-SN-0470 (saletta e, se coinvolta,\n      Linea 1); limite: non rilevato.\n6.3 Tamponi superfici generali secondo MOD-QA-19 (piano campionamento a zone);"
+  },
+  {
+   "cid": 575,
+   "file": "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "origine": "nativa",
+   "rerank": 0.061953432857990265,
+   "testo": "[Dal Maso I. - lavaocchi controllato da me ogni primo lunedì del mese, registro attaccato di fianco. Se la vaschetta è sporca ditelo che la cambio.]\n\n4. PRIMA DI INIZIARE — CONTROLLI\n\n1. Verifica che la linea sia FERMA e VUOTA di prodotto. Cartello giallo \"LAVAGGIO IN CORSO\" sul quadro linea.\n2. Verifica sul pannello CIP-01 il livello delle taniche: se una è sotto il 20% avvisa il capoturno PRIMA di partire.\n3. Verifica che gli attacchi a cravatta siano chiusi e le guarnizioni integre. GUARNIZIONE ROVINATA = CAMBIALA PRIMA, non dopo.\n4. Verifica che nessuno stia lavorando sulla linea (manutenzione, cambio formato). Se c'è il lucchetto rosso della manutenzione NON SI PARTE.\n5. Compila l'intestazione del registro CIP: data, linea, programma, tuo nome.\n\n5. SEQUENZA DELLE FASI — CICLO COMPLETO\n\nIl ciclo completo ha 5 fasi. Il pannello le fa in automatico, tu CONTROLLI che i numeri siano giusti.\n\n\nLa fase acida si fa 1 volta a settimana (di norma il venerdì) oppure quando lo dice il programma. La sanificazione con PAA si fa prima delle produzioni bio (linea 2, AF-CR-0220) e dopo ogni intervento di manutenzione sulle parti a contatto."
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4683,
+ "tempi": {
+  "denso": 0.01,
+  "sparso": 0.17,
+  "rerank": 47.64
+ },
+ "id": "Q213",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T17:36:48",
+ "secondi": 47.83,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 65.07,
+  "token_prompt": 2020,
+  "token_risposta": 67,
+  "testo_grezzo": "Il programma di lavaggio non è specificato per il circuito, ma solo per la linea e il tipo di lavaggio.\n\nFONTI: IO-05_istruzione_operativa_lavaggio_CIP.docx, scheda_allergeni_matrice_cross_contamination.docx\nCONFIDENZA: bassa",
+  "fonti_citate": [
+   "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+   "scheda_allergeni_matrice_cross_contamination.docx"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

@@ -1,0 +1,678 @@
+{
+ "domanda": "Quante ricerche di Listeria abbiamo fatto e quante sono venute positive?",
+ "candidati_densi": [
+  {
+   "cid": 1858,
+   "punteggio": 0.4838422430614798,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1700,
+   "punteggio": 0.44521699729935355,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1032,
+   "punteggio": 0.43805532846165635,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 98,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1068,
+   "punteggio": 0.43647941523581096,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 134,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1058,
+   "punteggio": 0.4349281835079771,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 124,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1111,
+   "punteggio": 0.43453470565560404,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1064,
+   "punteggio": 0.43437867476138514,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 130,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1066,
+   "punteggio": 0.43274722229341434,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 132,
+   "origine": "nativa"
+  },
+  {
+   "cid": 619,
+   "punteggio": 0.4305136023734775,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 998,
+   "punteggio": 0.43050838199410135,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 64,
+   "origine": "nativa"
+  },
+  {
+   "cid": 994,
+   "punteggio": 0.43034511878675713,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 60,
+   "origine": "nativa"
+  },
+  {
+   "cid": 995,
+   "punteggio": 0.42884393835906254,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 61,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1065,
+   "punteggio": 0.4288016315848333,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 131,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1072,
+   "punteggio": 0.42876870499757525,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 138,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1059,
+   "punteggio": 0.4285504227447521,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 125,
+   "origine": "nativa"
+  },
+  {
+   "cid": 942,
+   "punteggio": 0.4285443468686897,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1037,
+   "punteggio": 0.42854401081920723,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 103,
+   "origine": "nativa"
+  },
+  {
+   "cid": 991,
+   "punteggio": 0.42803872705972046,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 57,
+   "origine": "nativa"
+  },
+  {
+   "cid": 980,
+   "punteggio": 0.4276561070166205,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 46,
+   "origine": "nativa"
+  },
+  {
+   "cid": 989,
+   "punteggio": 0.42742841941326015,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 55,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 1108,
+   "punteggio": 15.829376220703125,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1109,
+   "punteggio": 14.353832244873047,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 430,
+   "punteggio": 12.21389389038086,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 242,
+   "punteggio": 12.173035621643066,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "idx": 18,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1114,
+   "punteggio": 12.105476379394531,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 434,
+   "punteggio": 12.079886436462402,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1112,
+   "punteggio": 11.616706848144531,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 431,
+   "punteggio": 11.12535285949707,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1111,
+   "punteggio": 10.914942741394043,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1110,
+   "punteggio": 10.748294830322266,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 531,
+   "punteggio": 10.506881713867188,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1777,
+   "punteggio": 10.237801551818848,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1707,
+   "punteggio": 10.202754020690918,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 436,
+   "punteggio": 9.864903450012207,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1443,
+   "punteggio": 9.358756065368652,
+   "file": "R_sollecito_pagamento_fattura_scaduta_Oleificio.eml",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1115,
+   "punteggio": 9.212911605834961,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1812,
+   "punteggio": 8.506368637084961,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 528,
+   "punteggio": 8.411067008972168,
+   "file": "Fwd_preventivo_tunnel_surgelazione_Criotech_rev2.eml",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1805,
+   "punteggio": 8.404974937438965,
+   "file": "verbale_CDA_approvazione_investimento_tunnel.docx",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1711,
+   "punteggio": 8.353235244750977,
+   "file": "segnalazione_qualita_cliente_privato_corpo_estraneo.txt",
+   "idx": 5,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 1111,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.02964426877470356,
+   "rango_denso": 6,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1108,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1858,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1109,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": null,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1700,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 1032,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 98,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 242,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "idx": 18,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1068,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 134,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1058,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 124,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1114,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 1064,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 130,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1112,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1066,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 132,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 619,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 998,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 64,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": 10,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 531,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "idx": 1,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 994,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 60,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 995,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 61,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1777,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1065,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "idx": 131,
+   "origine": "nativa",
+   "rrf": 0.0136986301369863,
+   "rango_denso": 13,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 1858,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.0020638187415897846
+  },
+  {
+   "cid": 1700,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "rerank": 0.001461633830331266
+  },
+  {
+   "cid": 1058,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.001028902712278068
+  },
+  {
+   "cid": 1068,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.0010049781994894147
+  },
+  {
+   "cid": 1065,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.0009518289007246494
+  },
+  {
+   "cid": 1064,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.0007912532310001552
+  },
+  {
+   "cid": 1066,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.0007014403818175197
+  },
+  {
+   "cid": 994,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.0006114015122875571
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.000450899766292423
+  },
+  {
+   "cid": 1032,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.0004433731082826853
+  },
+  {
+   "cid": 998,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.00038919533835723996
+  },
+  {
+   "cid": 995,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "rerank": 0.0002927447494585067
+  },
+  {
+   "cid": 242,
+   "file": "checklist_metal_detector_manuale_operaio.txt",
+   "rerank": 0.00015132954285945743
+  },
+  {
+   "cid": 1111,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 0.00010802895849337801
+  },
+  {
+   "cid": 1114,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 7.071138679748401e-05
+  },
+  {
+   "cid": 619,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 4.772927786689252e-05
+  },
+  {
+   "cid": 1777,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 3.2546769944019616e-05
+  },
+  {
+   "cid": 1112,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 2.8975500754313543e-05
+  },
+  {
+   "cid": 1108,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 1.9283394067315385e-05
+  },
+  {
+   "cid": 1109,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 1.8569235180621035e-05
+  },
+  {
+   "cid": 1110,
+   "file": "mail_titolare_Aurora_visione_aziendale_5anni.txt",
+   "rerank": 1.777158468030393e-05
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 1.719440842862241e-05
+  },
+  {
+   "cid": 531,
+   "file": "I_Fwd_Richiesta_relazione_48_ore_Tosano.eml",
+   "rerank": 1.7152155123767443e-05
+  },
+  {
+   "cid": 430,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 1.6400024833274074e-05
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 1858,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "origine": "nativa",
+   "rerank": 0.0020638187415897846,
+   "testo": "rinnovato; piano analitico 2026 approvato (patogeni, shelf life, MOCA).\n        Evento Listeria spp. su tampone ambientale canalina Linea 3 del 24/02\n        (NC-2026-034): sanificazione straordinaria e ritampone negativo a 48 h;\n        frequenza MOD-QA-19 raddoppiata in zona 2 per 3 mesi.\n\n7. DATI DI INGRESSO - RISORSE UMANE E FORMAZIONE\n\n   7.1  Organico al 28/02/2026: 50 unita' (38 produzione, 12 uffici).\n        Turnover Linea 2: n. 2 dimissioni tra gennaio e febbraio 2026, tutte\n        con motivazione dichiarata legata ai turni domenicali per gli ordini Tosano.\n        [nota successiva a verbale: quarta dimissione registrata il 26/03 -\n        NC-2026-056]\n\n   7.2  Straordinari: proiezione superamento del limite di 250 h/anno per 6 addetti\n        di Linea 2 se confermate le domeniche promozionali di aprile-maggio\n        (\"Sottocosto Primavera\", settimane 19-21). E' pervenuta contestazione RSU.\n        La Direzione incarica HR e il Responsabile Produzione di predisporre un\n        piano riposi compensativi e di valutare 2 inserimenti in somministrazione.\n        L'AD chiede tuttavia che gli ordini Tosano \"non si tocchino\"."
+  },
+  {
+   "cid": 1700,
+   "file": "Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf",
+   "origine": "nativa",
+   "rerank": 0.001461633830331266,
+   "testo": "Reg. CE 2073/2005\nListeria monocytogenes\nassente in 25 g (al rilascio)\nReg. CE 2073/2005 cat. 1.2\nPiano di verifica: analisi su laboratorio esterno accreditato (Analytica Veneta S.r.l.,\nACCREDIA n. 0987) con frequenza mensile per lotto rappresentativo; challenge test e shelf\nlife study agli atti (studio AV-SL-2024-118).\n5. PROCESSO E PUNTI CRITICI DI CONTROLLO\nImpasto → lievitazione → formatura → cottura in forno tunnel FT-01 → trattamento termico di\npastorizzazione superficiale in tunnel PT-104 (CCP2: temperatura al cuore ≥ 72,0 °C mantenuta\n≥ 2 min) → raffreddamento in spirale → controllo metal detector MD-3200 (CCP3: sensibilità\nFe \u0000 2,0 mm / Non-Fe \u0000 2,5 mm / acciaio inox AISI 316 \u0000 3,0 mm, verifica ogni 60 min) →\nconfezionamento flow-pack in atmosfera protettiva su PKM-450.\nA monte: setacciatura farina maglia 800 µm e magnete permanente 10.000 Gauss (CCP1).\nGestione allergeni secondo PRPo1. Piano HACCP redatto ai sensi del Reg. CE 852/2004 dal\nteam HACCP aziendale (team leader: dott.ssa E. Marchetti).\n\nAurora Food Group S.r.l. — Via dell'Industria 27, 37044 Cologna Veneta (VR) — doc. ST-0450 rev. 4 del 03/03/2026"
+  },
+  {
+   "cid": 1058,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "origine": "nativa",
+   "rerank": 0.001028902712278068,
+   "testo": "2026-05-10 19:55:37;PT104;T_CUORE;73.0;C;WARN;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 19:56:07;PT104;T_CUORE;73.0;C;WARN;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 19:56:37;PT104;T_CUORE;72.8;C;WARN;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 19:57:07;PT104;T_CUORE;72.6;C;WARN;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 19:57:37;PT104;T_CUORE;72.7;C;WARN;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 19:58:07;PT104;TT_02;74.0;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 19:58:37;PT104;T_CUORE;72.8;C;WARN;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 19:59:07;PT104;T_CUORE;72.9;C;WARN;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 20:01:07;PT104;T_CUORE;73.9;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 20:01:37;PT104;TT_02;74.3;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 20:03:37;PT104;T_CUORE;74.0;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 20:05:07;PT104;TT_03;73.6;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 20:06:07;PT104;T_CUORE;73.9;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 20:08:37;PT104;FT_01;12.0;m3/h;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 20:08:37;PT104;T_CUORE;74.1;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I\n2026-05-10 20:11:07;PT104;T_CUORE;74.2;C;OK;LOT=L26130-L1-T2;OP=POPESCU_I"
+  },
+  {
+   "cid": 1068,
+   "file": "log_temperature_pastorizzatore_linea1_10_05_26.log",
+   "origine": "nativa",
+   "rerank": 0.0010049781994894147,
+   "testo": "2026-05-10 22:22:07;PT104;T_CUORE;74.0;C;OK;LOT=L26130-L1-T3;OP=CESTARO_L\n2026-05-10 22:24:07;PT104;TT_02;75.6;C;OK;LOT=L26130-L1-T3;OP=CESTARO_L\n2026-05-10 22:24:37;PT104;T_CUORE;74.0;C;OK;LOT=L26130-L1-T3;OP=CESTARO_L\n2026-05-10 22:27:07;PT104;T_CUORE;73.6;C;OK;LOT=L26130-L1-T3;OP=CESTARO_L\n2026-05-10 22:27:37;PT104;TT_03;73.1;C;OK;LOT=L26130-L1-T3;OP=CESTARO_L\n2026-05-10 22:29:37;PT104;T_CUORE;73.0;C;OK;LOT=L26130-L1-T3;OP=CESTARO_L\n2026-05-10 22:31:07;PT104;TT_03;72.9;C;OK;LOT=L26130-L1-T3;OP=CESTARO_L\n2026-05-10 22:32:07;PT104;T_CUORE;73.3;C;OK;LOT=L26130-L1-T3;OP=CESTARO_L\n2026-05-10 22:34:07;PT104;T_CUORE;72.7;C;WARN;LOT=L26130-L1-T3;OP=CESTARO_L\n2026-05-10 22:34:37;PT104;FT_01;12.4;m3/h;OK;LOT=L26130-L1-T3;OP=CESTARO_L\n2026-05-10 22:35:07;PT104;T_CUORE;72.7;C;WARN;LOT=L26130-L1-T3;OP=CESTARO_L\n2026-05-10 22:35:37;PT104;T_CUORE;72.3;C;WARN;LOT=L26130-L1-T3;OP=CESTARO_L\n2026-05-10 22:36:07;PT104;T_CUORE;73.0;C;WARN;LOT=L26130-L1-T3;OP=CESTARO_L\n2026-05-10 22:36:37;PT104;T_CUORE;72.8;C;WARN;LOT=L26130-L1-T3;OP=CESTARO_L\n2026-05-10 22:37:07;PT104;T_CUORE;72.8;C;WARN;LOT=L26130-L1-T3;OP=CESTARO_L\n2026-05-10 22:37:37;PT104;T_CUORE;72.6;C;WARN;LOT=L26130-L1-T3;OP=CESTARO_L"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 4667,
+ "tempi": {
+  "denso": 0.02,
+  "sparso": 0.17,
+  "rerank": 49.13
+ },
+ "id": "Q110",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:18:30",
+ "secondi": 49.31,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 91.57,
+  "token_prompt": 2576,
+  "token_risposta": 101,
+  "testo_grezzo": "Non e' possibile determinare con precisione il numero di ricerche di Listeria positive, poiché i dati non sono stati forniti in modo chiaro e non sono presenti in nessun file.\n\nNon e' possibile determinare il numero di ricerche di Listeria positive, poiché i dati non sono stati forniti in modo chiaro e non sono presenti in nessun file.\n\nFONTI: \nNone\n\nCONFIDENZA: bassa",
+  "fonti_citate": [],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}

@@ -1,0 +1,682 @@
+{
+ "domanda": "Quanto vale la disponibilita' del turno 2 del 10 maggio, e torna con il fermo registrato?",
+ "candidati_densi": [
+  {
+   "cid": 84,
+   "punteggio": 0.6155498568093154,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1301,
+   "punteggio": 0.6062816671037823,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 189,
+   "punteggio": 0.5930615424634942,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 82,
+   "punteggio": 0.5841417242274116,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1534,
+   "punteggio": 0.5748299673000297,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 431,
+   "punteggio": 0.5702511294989818,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1302,
+   "punteggio": 0.5691445289620234,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1093,
+   "punteggio": 0.5668428261794962,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 17,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1304,
+   "punteggio": 0.5667983454577188,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 289,
+   "punteggio": 0.5665523162589696,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1788,
+   "punteggio": 0.5637732967233523,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 15,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1855,
+   "punteggio": 0.5624150728471837,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1462,
+   "punteggio": 0.5579161354116291,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 85,
+   "punteggio": 0.5560355467128544,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 433,
+   "punteggio": 0.5545616739092769,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 188,
+   "punteggio": 0.553435083399,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 12,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1776,
+   "punteggio": 0.5534074318511997,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 625,
+   "punteggio": 0.5510215345293885,
+   "file": "libro_unico_lavoro_estratto_maggio2026.xlsx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1789,
+   "punteggio": 0.5490250021872647,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 16,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1085,
+   "punteggio": 0.5488512142013096,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 9,
+   "origine": "nativa"
+  }
+ ],
+ "candidati_sparsi": [
+  {
+   "cid": 614,
+   "punteggio": 21.66033935546875,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 289,
+   "punteggio": 21.263565063476562,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 509,
+   "punteggio": 21.15087890625,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 4,
+   "origine": "nativa"
+  },
+  {
+   "cid": 512,
+   "punteggio": 20.572341918945312,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1410,
+   "punteggio": 19.979171752929688,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 14,
+   "origine": "nativa"
+  },
+  {
+   "cid": 273,
+   "punteggio": 17.918718338012695,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 0,
+   "origine": "nativa"
+  },
+  {
+   "cid": 434,
+   "punteggio": 17.896106719970703,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa"
+  },
+  {
+   "cid": 293,
+   "punteggio": 17.81857681274414,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 8,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1776,
+   "punteggio": 17.714588165283203,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1536,
+   "punteggio": 17.518529891967773,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1461,
+   "punteggio": 17.3730525970459,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 287,
+   "punteggio": 16.850788116455078,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 2,
+   "origine": "nativa"
+  },
+  {
+   "cid": 292,
+   "punteggio": 16.76272964477539,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 7,
+   "origine": "nativa"
+  },
+  {
+   "cid": 510,
+   "punteggio": 16.541257858276367,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 5,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1774,
+   "punteggio": 16.362775802612305,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1191,
+   "punteggio": 16.308330535888672,
+   "file": "non_conformita_interne_registro_2026.csv",
+   "idx": 13,
+   "origine": "nativa"
+  },
+  {
+   "cid": 295,
+   "punteggio": 16.009098052978516,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 10,
+   "origine": "nativa"
+  },
+  {
+   "cid": 286,
+   "punteggio": 15.991217613220215,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 1,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1831,
+   "punteggio": 15.94568157196045,
+   "file": "verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt",
+   "idx": 3,
+   "origine": "nativa"
+  },
+  {
+   "cid": 1462,
+   "punteggio": 15.939800262451172,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 6,
+   "origine": "nativa"
+  }
+ ],
+ "fusione_rrf": [
+  {
+   "cid": 289,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.0304147465437788,
+   "rango_denso": 10,
+   "rango_sparso": 2
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.027479766610201392,
+   "rango_denso": 17,
+   "rango_sparso": 9
+  },
+  {
+   "cid": 1462,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.0261986301369863,
+   "rango_denso": 13,
+   "rango_sparso": 20
+  },
+  {
+   "cid": 84,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": 1,
+   "rango_sparso": null
+  },
+  {
+   "cid": 614,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.01639344262295082,
+   "rango_denso": null,
+   "rango_sparso": 1
+  },
+  {
+   "cid": 1301,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.016129032258064516,
+   "rango_denso": 2,
+   "rango_sparso": null
+  },
+  {
+   "cid": 189,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "idx": 13,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": 3,
+   "rango_sparso": null
+  },
+  {
+   "cid": 509,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 4,
+   "origine": "nativa",
+   "rrf": 0.015873015873015872,
+   "rango_denso": null,
+   "rango_sparso": 3
+  },
+  {
+   "cid": 82,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": 4,
+   "rango_sparso": null
+  },
+  {
+   "cid": 512,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.015625,
+   "rango_denso": null,
+   "rango_sparso": 4
+  },
+  {
+   "cid": 1410,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "idx": 14,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": null,
+   "rango_sparso": 5
+  },
+  {
+   "cid": 1534,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.015384615384615385,
+   "rango_denso": 5,
+   "rango_sparso": null
+  },
+  {
+   "cid": 273,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "idx": 0,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": null,
+   "rango_sparso": 6
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.015151515151515152,
+   "rango_denso": 6,
+   "rango_sparso": null
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "idx": 6,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": null,
+   "rango_sparso": 7
+  },
+  {
+   "cid": 1302,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 3,
+   "origine": "nativa",
+   "rrf": 0.014925373134328358,
+   "rango_denso": 7,
+   "rango_sparso": null
+  },
+  {
+   "cid": 293,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 8,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": null,
+   "rango_sparso": 8
+  },
+  {
+   "cid": 1093,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "idx": 17,
+   "origine": "nativa",
+   "rrf": 0.014705882352941176,
+   "rango_denso": 8,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1304,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014492753623188406,
+   "rango_denso": 9,
+   "rango_sparso": null
+  },
+  {
+   "cid": 1536,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "idx": 7,
+   "origine": "nativa",
+   "rrf": 0.014285714285714285,
+   "rango_denso": null,
+   "rango_sparso": 10
+  },
+  {
+   "cid": 1461,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": null,
+   "rango_sparso": 11
+  },
+  {
+   "cid": 1788,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "idx": 15,
+   "origine": "nativa",
+   "rrf": 0.014084507042253521,
+   "rango_denso": 11,
+   "rango_sparso": null
+  },
+  {
+   "cid": 287,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "idx": 2,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": null,
+   "rango_sparso": 12
+  },
+  {
+   "cid": 1855,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "idx": 5,
+   "origine": "nativa",
+   "rrf": 0.013888888888888888,
+   "rango_denso": 12,
+   "rango_sparso": null
+  }
+ ],
+ "ordine_post_rerank": [
+  {
+   "cid": 614,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "rerank": 0.6973055601119995
+  },
+  {
+   "cid": 1301,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "rerank": 0.6912741661071777
+  },
+  {
+   "cid": 1462,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.5336719155311584
+  },
+  {
+   "cid": 1410,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "rerank": 0.4112812876701355
+  },
+  {
+   "cid": 1534,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.37541642785072327
+  },
+  {
+   "cid": 1302,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "rerank": 0.22214722633361816
+  },
+  {
+   "cid": 289,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.21984414756298065
+  },
+  {
+   "cid": 1776,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.21891073882579803
+  },
+  {
+   "cid": 1461,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "rerank": 0.14124800264835358
+  },
+  {
+   "cid": 1093,
+   "file": "log_timbrature_fabbrica_maggio_settimana2.csv",
+   "rerank": 0.14085173606872559
+  },
+  {
+   "cid": 84,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "rerank": 0.11161113530397415
+  },
+  {
+   "cid": 82,
+   "file": "appunti_capoturno_quaderno_linea1_OCR.txt",
+   "rerank": 0.09871924668550491
+  },
+  {
+   "cid": 189,
+   "file": "calcolo_sfrido_efficienza_OEE_linea_bakery.csv",
+   "rerank": 0.06754990667104721
+  },
+  {
+   "cid": 1788,
+   "file": "trascrizione_riunione_direzione_12_05_2026.txt",
+   "rerank": 0.022239815443754196
+  },
+  {
+   "cid": 1304,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "rerank": 0.01990552432835102
+  },
+  {
+   "cid": 293,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.016945578157901764
+  },
+  {
+   "cid": 509,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 0.012687782756984234
+  },
+  {
+   "cid": 434,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.008189653046429157
+  },
+  {
+   "cid": 1536,
+   "file": "report_fermo_macchina_confezionatrice_MAP.txt",
+   "rerank": 0.00616061594337225
+  },
+  {
+   "cid": 273,
+   "file": "contestazione_logistica_Tosano_ritardo_Cerea.txt",
+   "rerank": 0.005926089361310005
+  },
+  {
+   "cid": 287,
+   "file": "contestazione_sindacale_straordinari_Tosano.txt",
+   "rerank": 0.0043261731043457985
+  },
+  {
+   "cid": 431,
+   "file": "email_HR_dimissioni_operai_linea2.txt",
+   "rerank": 0.0039046749006956816
+  },
+  {
+   "cid": 1855,
+   "file": "verbale_riesame_direzione_SGQ_2026.txt",
+   "rerank": 0.0027002347633242607
+  },
+  {
+   "cid": 512,
+   "file": "formazione_allergeni_operatori_2026.pptx",
+   "rerank": 0.002078972291201353
+  }
+ ],
+ "passaggi_consegnati": [
+  {
+   "cid": 614,
+   "file": "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "origine": "nativa",
+   "rerank": 0.6973055601119995,
+   "testo": "In data 10/05/2026, durante il turno di produzione interessato, la nostra linea di confezionamento ha subito un fermo tecnico di alcune ore per un intervento manutentivo su un componente della confezionatrice, eseguito in emergenza con un ricambio non originale regolarmente registrato secondo le nostre procedure interne. La produzione è ripresa dopo le verifiche di rito.\n\n[Bertoldi G. - TROPPO MORBIDA ANCORA. ma anche troppo precisa. perche gli diciamo del fermo?? loro hanno chiesto del reclamo non della nostra manutenzione. meno scriviamo meglio è, la perbellini queste righe le gira al buyer e rossi ce le ributta sul tavolo al rinnovo listino col -4,5%. levate tutto il paragrafo]\n[Bertoldi S. - papà il paragrafo non si può levare del tutto: se poi si arriva al ritiro e salta fuori che il fermo non l'avevamo menzionato, la fiducia la perdiamo doppia. Lo tengo in una riga, generico. Mediazione.]\n\n2. Azioni immediate adottate\n\nAlla ricezione della segnalazione abbiamo immediatamente:\n\n1. aperto il fascicolo di reclamo REC-2026-011 su modulo MOD-QA-31, con classificazione in classe di massima priorità;"
+  },
+  {
+   "cid": 1301,
+   "file": "piano_produzione_settimanale_sett19_21.xlsx",
+   "origine": "nativa",
+   "rerank": 0.6912741661071777,
+   "testo": "sab 09/05 Linea 1 T2 AF-SN-0450 ORD-T1110 5780 1250 5 5\nsab 09/05 Linea 2 T1 AF-CR-0215 ORD-T1229 7860 780 7 7\nsab 09/05 Linea 2 T2 AF-CR-0215 ORD-T1301 4340 780 7 7\nsab 09/05 Linea 2 T3 AF-CR-0215 ORD-T1352 5280 780 7 7\nsab 09/05 Linea 3 T1 AF-CR-0212 ORD-T1165 7340 640 4 4\ndom 10/05 Linea 2 T1 AF-CR-0215 ORD-T1462 7760 780 7 6 3a domenica consecutiva - RSU ha protestato\ndom 10/05 Linea 2 T2 AF-CR-0215 ORD-T1151 4400 780 7 4 3a domenica consecutiva - RSU ha protestato\n\ntotale pz settimana\nore macchina totali\n\n(D.Z. a penna) il 10/05 turno 2 linea 1 SALTATO dalle 15 - confezionatrice ferma. Recupero lunedì.\nPiano di produzione Sett 20 - promo Sottocosto Primavera Tosano\nD. Zanella - stampato il venerdì precedente, modificato a mano durante la settimana\n\n\nGiorno Linea Turno Cod. art. Ordine cliente Pz da produrre Tempo ciclo (pz/h) Ore macchina Saturazione % Operai necessari Operai disponibili Scoperto Note\nlun 11/05 Linea 1 T1 AF-SN-0450 ORD-T1477 6620 1250 5 5 recupero produzione persa per fermo PKM-450 del 10/05\nlun 11/05 Linea 1 T2 AF-SN-0450 ORD-T1161 9040 1250 5 5 recupero produzione persa per fermo PKM-450 del 10/05"
+  },
+  {
+   "cid": 1462,
+   "file": "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+   "origine": "nativa",
+   "rerank": 0.5336719155311584,
+   "testo": ">>>> avvio la rintracciabilita' del lotto. Il lotto L26130-L1-T2 e' del\n>>>> 10/05/2026, Linea 1, turno 2 - lo stesso turno del fermo macchina\n>>>> della confezionatrice, per quello che puo' valere.\n>>>> Resto in attesa di istruzioni sulla gestione del contatto.\n>>>>\n>>>> Cordialmente\n>>>> dott.ssa Elena Marchetti - RSGQ\n>>>> Aurora Food Group S.r.l.\n>>>> cid:image001.png@01DC9A2B.4F1E7C40"
+  },
+  {
+   "cid": 1410,
+   "file": "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "origine": "nativa",
+   "rerank": 0.4112812876701355,
+   "testo": "- mass balance L26130 avviato, Pozzato ci lavora domattina presto\n- guarnizione: pezzo NON originale preso dal carrello ricambi = esattamente\n  NC 2 audit CSQA febbraio!!! e la registrazione MOD-QA-12 del 10/05 turno 2\n  NON torna col datalogger (deviazione PT-104 14:18-14:47) = NC 1. Le due\n  NC \"chiuse\" il 2/4 si sono materializzate tutte e due in un giorno solo.\n  Da dire a Fantin PRIMA che lo scriva Tosano.\n- team crisi convocato x domattina 15/05 h 8:00 sala riunioni + tel\n- decidere: ritiro cautelativo si/no -> propendo SI su entrambi i lotti,\n  aspettare identificazione materiale = perdere il weekend di vendite a\n  scaffale. Bertoldi vuole \"capire prima quanto costa\". Il costo lo sa.\n- verificare se anche L26129 usa la PKM-450 dopo le 15:05 del 10/5 -> NO,\n  L26129 e' del 09/05, prima della riparazione, ok\n- promemoria: aggiornare questa procedura -> inserire nel par. 4 il caso\n  \"corpo estraneo da manutenzione\" con richiamo a MOD-PR-04 e conta pezzi\n[firma illeggibile] EM\n===========================================================================\n\n   PERIMETRO DEL BLOCCO - definizione (E.M. 14/05/2026 h 18:05)"
+  }
+ ],
+ "scartati_per_budget": [],
+ "caratteri_contesto": 3782,
+ "tempi": {
+  "denso": 0.01,
+  "sparso": 0.19,
+  "rerank": 48.24
+ },
+ "id": "Q133",
+ "config_c": "afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8",
+ "quando": "2026-08-17T16:36:19",
+ "secondi": 48.44,
+ "generazione": {
+  "modello": "llama3.2:3b-instruct-q4_K_M",
+  "secondi": 61.24,
+  "token_prompt": 1700,
+  "token_risposta": 108,
+  "testo_grezzo": "Non e' possibile determinare il valore della disponibilita' del turno 2 del 10 maggio, poiché non sono presenti informazioni relative ai prezzi dei prodotti o alle quantita' di produzione.\n\nFONTI: lettera_risposta_Tosano_reclamo_BOZZA_v3.docx, procedura_ritiro_prodotto_CRISI_GDO.txt, RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml",
+  "fonti_citate": [
+   "lettera_risposta_Tosano_reclamo_BOZZA_v3.docx",
+   "procedura_ritiro_prodotto_CRISI_GDO.txt",
+   "RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml"
+  ],
+  "fonti_fuori_contesto": [],
+  "confidenza": "bassa"
+ }
+}
