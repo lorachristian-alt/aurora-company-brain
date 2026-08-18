@@ -348,3 +348,86 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   rinegozia.** Il lotto 1 gira da solo, ed e' anche il collaudo del rituale industriale: la
   sua chiusura registra nello stato durata, note prodotte contro budget, esiti di giudizio e
   revisione, contesto residuo. Da li' in poi il ritmo si decide all'apertura su quei dati.
+
+- **2026-08-18** · S4 lotto 1A, chiusura · **I tre conflitti tracciati dal gate S2 sono chiusi,
+  e nessuno dei tre si risolve: escono tutti come APERTI DICHIARATI** · il quaderno del
+  capoturno ha portato la gamba mancante di tutti e tre, e in nessun caso l'archivio da' un
+  vincitore. Verifiche CCP3 del 10/05, pezzi del turno e ora di arrivo dell'officina hanno ora
+  la loro nota-questione con tutte le gambe citate.
+- **2026-08-18** · S4 lotto 1A · **La scansione del MOD-QA-07 e la sua trascrizione non
+  raccontano lo stesso turno** · sull'originale le righe delle 16:00 e delle 17:00 sono barrate
+  e vuote, sulla trascrizione destinata alla cartella evidenze per il cliente risultano eseguite
+  e conformi, e i due documenti non concordano nemmeno sull'operatore. La trascrizione si mette
+  in dubbio da sola. **Trovato rileggendo a occhio l'immagine**, non da uno script: le fonti
+  `.jpg` restano il punto cieco dell'estrattore congelato, e il riscontro visivo va fatto ogni
+  volta che una nota le cita.
+- **2026-08-18** · S4 lotto 1A · **Lo strato di giudizio ha trovato 8 note su 46 che
+  affermavano oltre le fonti, tutte e otto fondate** · fra queste due gravi: il metal detector
+  dato «a valle del confezionamento» quando la scheda tecnica lo colloca prima, e una
+  dichiarazione di assenza falsa sul limite del 2 % di ossigeno residuo — **lo stesso errore che
+  il pilota aveva pagato al gate S2 con PRP-09**. Il 2 % e' scritto due volte nel registro delle
+  non conformita': la questione ne esce piu' forte, non piu' debole.
+- **2026-08-18** · S4 lotto 1A · **Il revisore col canone ha trovato una FUGA DI CANONE** ·
+  `doc-scheda-tecnica-af-sn-0450` scriveva «il canone del progetto registra che listino e
+  accordo quadro ne dichiarano 12», nominando il canone e portando nel vault un valore che
+  nessuna fonte citata contiene. Cancellata, insieme alla versione attenuata in
+  `prodotto-af-sn-0450`. **Seconda fuga di canone in due lotti**: non e' un incidente, e' il
+  modo tipico in cui chi canonizza sapendo troppo anticipa una divergenza che non ha ancora le
+  gambe. ⚠️ **Regola operativa che ne discende: finche' la seconda gamba non e' nel vault, di
+  una divergenza non si scrive nulla — nemmeno che esiste.**
+- **2026-08-18** · S4 lotto 1A · **Mancava la nota padrona di un fatto del filo rosso**: la
+  decisione dell'08/05 di proseguire con la valvola che perdeva, presa in riunione, motivata
+  con la promo e **senza verbale**. Viveva come capoverso dentro la nota del fermo del 10/05.
+  Ora ha la sua nota, con tre fonti · il test di §5.1 e' netto: a «chi ha deciso di andare
+  avanti, quando e perche'?» si risponde con quel fatto **al posto** del fermo, non insieme.
+- **2026-08-18** · S4 lotto 1A · **Categoria C, annotate perche' non tornino al lotto dopo**:
+  pezzi/cartone 10 contro 12 (una gamba fuori lotto); velocita' nominali 1.250 contro 1.800
+  ricavati; 8.940 contro 5.580 contro i 4.100 del quaderno, che pero' dichiara il proprio
+  perimetro e non e' una terza stima; domeniche di produzione con le altre gambe fuori lotto;
+  organico Linea 2 a 21 persone solo nel piano; separatore CSV incoerente, tre formati di data
+  nella stessa colonna, intestazione ripetuta e righe duplicate alla lettera; «riga reinserita
+  da export precedente» nel CSV shelf life; degradi OCR del quaderno mai ricostruiti; `E-214
+  GAS` contro `AL-217`; le sigle `DB` ed `EC` senza nome. ⚠️ E una undicesima: citare
+  `alias_entita.md` nel corpo di una nota **non e' metodo dentro il vault** — metodo_03 §3.1 fa
+  esattamente lo stesso nel proprio esempio compilato.
+- **2026-08-18** · S4 lotto 1A · **Zero rilievi di sovra-atomizzazione** su 18 note campionate
+  dai quattro documenti multi-fatto, contro le otto richieste · la guardia chiesta dal titolare
+  al gate della matrice ha dato esito negativo: le note nate dai documenti densi sono tutte
+  agganciabili a una domanda plausibile. La densita' di 5,7 note per grezzo e' dei documenti,
+  non del metodo.
+- **2026-08-18** · S4 lotto 1A · **I fine riga si preservano quando si riscrive un file con uno
+  script** · riscrivendo il canone e la matrice con Python su Windows i `
+` sono diventati
+  `
+`, e un file con 285 righe invariate e' comparso come interamente modificato. Il repo ha
+  `.gitattributes` con `* -text` proprio perche' i byte contano. **Verifica adottata:** dopo ogni
+  riscrittura da script, `diff` contro la copia precedente sulle righe preesistenti, e ripristino
+  dei file cambiati nei soli fine riga.
+
+- **2026-08-18** · S4 lotto 1A · **Il RI-GIUDIZIO ha trovato altre 8 note che affermavano
+  oltre le fonti, e tutte e otto avevano lo stesso difetto**: conoscenza vera dell'archivio
+  scritta in una nota che **non citava il documento che la porta** · registro NC, MOD-PR-04,
+  piano di produzione, trascrizione della riunione. Non e' invenzione, e' provenienza mancante
+  — ed e' indistinguibile, per la QA, da un fatto senza fonte. **Sedici rilievi in due giri
+  sulle stesse note**: E9 non e' burocrazia, e il primo giro da solo avrebbe lasciato passare
+  la meta' esatta dei difetti.
+- **2026-08-18** · S4 lotto 1A · **Il ri-giudizio ha ribaltato una nota-questione** · su aw e
+  umidita' dello snack la nota diceva che scheda tecnica e prove di stabilita' si
+  contraddicono, lasciando intendere che la scheda fosse la fonte dubbia. Il **rapporto di
+  prova del laboratorio accreditato** misura lo stesso lotto con metodo normato e dichiara
+  **conformi** i valori della scheda: le fonti che concordano sono due, e l'anomalia sta nel
+  **file delle prove di shelf life** — che e' la base della proposta di portare il TMC a sei
+  mesi. ⚠️ La riga corrispondente nella sezione datata del canone e' stata **corretta nello
+  stesso turno in cui era stata scritta**, prima di qualunque gate: non e' una riscrittura del
+  canone, e' il completamento di una voce che nasceva sbagliata. Fuori da questo caso la
+  regola resta: il canone si accresce e non si riscrive.
+- **2026-08-18** · S4 lotto 1A · **La lacuna di copertura si chiude nel lotto che la trova,
+  anche se il grezzo appartiene a un lotto gia' chiuso** · le prove chimico-fisiche del
+  rapporto di laboratorio non erano canonizzate dal pilota. Aspettare un lotto futuro
+  significherebbe non chiuderla mai: nessun lotto rivede i grezzi degli altri.
+- **2026-08-18** · S4 lotto 1A · **Un secondo ruolo aggiunto di fatto allo strato di
+  giudizio: la LACUNA DI COPERTURA** · il prompt congelato chiede due cose, e il giudice ne ha
+  segnalata una terza fuori verdetto — una fonte del pacchetto che misura la stessa grandezza
+  di una nota e che la nota non cita. E' stato il rilievo piu' utile del secondo giro.
+  **Candidato emendamento al prompt di giudizio**, da valutare al gate: il prompt e' congelato
+  e non si tocca a meta' lotto.

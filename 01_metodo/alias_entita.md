@@ -111,7 +111,9 @@ Le sostituzioni note dello scanner sono `0`↔`O`, `l`↔`1`, `S`↔`5`.
 | `prodotto-af-sn-0455` | `AF-SN-0455` · **`0455`** · `8034123454558` · «formato promo 3+1» | listino, trascrizione |
 | `prodotto-af-cr-0215` | `AF-CR-0215` · **`0215`** · `8034123452158` · «Cornetto Premium PL Tosano 8×45 g surg.» · «il cornetto private label» | listino, trascrizione, analisi marginalità |
 | `prodotto-af-fc-0330` | `AF-FC-0330` · `8034123453308` · «Focaccina olio EVO 2×90 g ATM» | listino, registro NC |
-| `lotto-l26130` | `L26130` (forma parziale del reclamo) · `L26130-L1-T2` · «lotto 130» · «il 130» | MOD-QA-31, mass balance, log, trascrizione |
+| `lotto-l26130` | `L26130` (forma parziale del reclamo) · `L26130-L1-T2` · **`L26l3O-L1-T2`** (OCR) · «lotto 130» · «il 130» | MOD-QA-31, mass balance, log, trascrizione, quaderno OCR |
+| `lotto-l26124` | `L26124` · `L26124-L1-T2` · **`L26l24-L1-T2`** (OCR) | quaderno OCR, MOD-QA-07 |
+| `lotto-l26128` | `L26128` · `L26128-L1-T2` | quaderno OCR, MOD-QA-07, prove di shelf life |
 | `lotto-l26131` | `L26131` · `L26131-L1-T2` · «il 131» | mass balance, trascrizione |
 | `lotto-mv26-0429a` | `MV26-0429/A` · `MV26_0429A` (nel nome del certificato di analisi) · `MV26-0429A` | certificato analisi, inventario FEFO, mass balance |
 | `lotto-mv26-0430a` | `MV26-0430/A` · `MV26-0430A` · «il sacco segregato» | inventario FEFO, DDT OCR |
@@ -142,6 +144,9 @@ Le sostituzioni note dello scanner sono `0`↔`O`, `l`↔`1`, `S`↔`5`.
 | `n0nfe` | `non fe` (non ferroso) | idem |
 | `inox 3,O` | `inox 3,0` | idem |
 | `pasa` | `passa` | idem |
+| `L26l24` · `L26l3O` | `L26124` · `L26130` (giorno giuliano: la `l` e' un `1`) | `appunti_capoturno_quaderno_linea1_OCR.txt` |
+| `4.1OO` · `6.O85` · `2OO` | `4.100` · `6.085` · `200` (cifre con `O` al posto di `0`) | idem |
+| `[pagina strappata a meta]` · `[macchia]` · `[macchia grande]` | porzione perduta: **non si ricostruisce** | idem |
 | `[???]` · `[illeggibile]` · `#####` | testo perduto: **non si ricostruisce** | file in OCR degradato |
 
 ⚠️ Un valore numerico coperto da `[???]` o `#####` **non si indovina**. La nota riporta
@@ -185,4 +190,5 @@ Ogni sessione che canonizza aggiunge qui una riga quando estende la tabella.
 | Data | Sessione | Cosa è stato aggiunto |
 |---|---|---|
 | 2026-08-15 | S1 — manuale di canonizzazione | Prima stesura: classi A, B e C compilate sui file campionati del corpus v1 |
+| 2026-08-18 | S4 lotto 1A — Linea 1: turno, CCP, confezionatrice | Classe A: i lotti `L26124` e `L26128` con le loro forme OCR, la forma `L26l3O-L1-T2` sul lotto L26130, e tre degradi generici del quaderno del capoturno (cifre con `O` al posto di `0`, la `l` al posto dell'`1` nel giorno giuliano, i marcatori di porzione perduta). Nessuna riga di classe B o C: le divergenze trovate in questo lotto hanno tutte una nota-questione |
 | 2026-08-16 | S2 — fetta pilota L26130 | Classe A: matricola `PKM450-1808-0342` sulla PKM-450. Classe C: quattro divergenze nuove trovate dal revisore indipendente — codice del kit valvola, materiale della guarnizione provvisoria, TMC e modo di consegna del lotto farina MV26-0429/A. Tutte con la loro nota-questione nel vault e la riga corrispondente nel canone |

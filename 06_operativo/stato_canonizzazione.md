@@ -3,7 +3,7 @@
 > **Cos'è** · Lo stato di oggi del vault: cosa è stato canonizzato, con quale esito, e
 > cosa resta. Solo stato, mai una regola: le regole stanno in
 > `01_metodo\metodo_03_canonizzazione.md`, le decisioni in `06_operativo\decision_log.md`.
-> **Aggiornato al** · 18/08/2026, gate della matrice dei lotti in apertura di Sessione 4.
+> **Aggiornato al** · 18/08/2026, chiusura del lotto 1A della Sessione 4.
 > Lo stato della pipeline RAG sta in `06_operativo\stato_rag_produzione.md`, non qui; il
 > piano dei lotti e la tabella di tracciamento delle questioni trasversali stanno in
 > `06_operativo\matrice_lotti_corpus_v1.md`, non qui.
@@ -14,14 +14,54 @@
 
 | | |
 |---|---|
-| Lotti chiusi | **1** — `l26130`, la fetta pilota |
+| Lotti chiusi | **2** — `l26130` (fetta pilota, S2) e **`1A`** (Linea 1: turno, CCP, confezionatrice) |
 | Grezzi copiati nel vault | 160/160, verificati contro `manifest_corpus_v1.1.json`: zero scarti, zero estranei, zero sottocartelle |
-| Grezzi canonizzati | **22** dei 160 |
-| Note prodotte | **63** (di cui 11 `_index` e 6 note-strumento) |
+| Grezzi canonizzati | **29** dei 160 |
+| Note prodotte | **105** (di cui 11 `_index` e 6 note-strumento): **88 di contenuto** |
 | Suite QA | implementata, collaudata e **verde** sul perimetro di lotto |
 | `llms.txt` | rigenerato dal frontmatter, allineato |
-| Matrice dei lotti | **approvata e congelata il 18/08**: 138 grezzi restanti in 10 lotti, ognuno in esattamente uno (`verifica_matrice_lotti.py`: 160/160, zero scoperti, zero doppi) |
-| **Prossimo lotto** | **Lotto 1 — Linea 1: conduzione, macchine e impianti**, 13 grezzi, budget 26-36 note di contenuto, col quaderno del capoturno in cima |
+| Matrice dei lotti | **approvata e congelata il 18/08**, poi il lotto 1 spezzato in 1A e 1B prima di scriverlo: **11 lotti**, 160/160 grezzi, zero scoperti, zero doppi |
+| **Prossimo lotto** | **Lotto 1B — Linea 1: impianti ausiliari, energia, celle, tarature**, 6 grezzi, budget 22-30 note di contenuto |
+
+## Il lotto 1A, chiuso il 18/08/2026
+
+**Perimetro:** 7 grezzi, elencati in `06_operativo\qa\lotti\lotto_01a_linea1_turno_ccp.txt`.
+Il quaderno del capoturno di Linea 1, la trascrizione del MOD-QA-07, il manuale della
+PKM-450, la scheda tecnica di AF-SN-0450, le prove di shelf life, il piano di produzione e
+la scheda di manutenzione.
+
+| | |
+|---|---|
+| Budget dichiarato | 34-42 note di contenuto |
+| Prodotte | **42** — dentro il budget, al suo estremo alto |
+| Note esistenti estese | 18 |
+| Densità | **6,0 note per grezzo**, contro 2,1 del pilota |
+| QA di lotto | **0 ERRORI, 32 AVVISI** |
+| Giudizio di provenance, 1º giro | 46 note · 38 pulite · 8 «afferma oltre» |
+| Revisione col canone | **10 A · 10 B · 11 C · 0 sovra-atomizzazione** su 18 note campionate |
+| Giudizio di provenance, 2º giro (E9) | 48 note · 40 pulite · 8 «afferma oltre» |
+| Rilievi accolti in tutto | **26**, tutti verificati sui grezzi prima di correggere |
+
+**I tre conflitti tracciati dal gate S2 sono chiusi**, tutti e tre come *aperti dichiarati*:
+l'archivio non dà un vincitore a nessuno. Il più grave è nuovo: la scansione del `MOD-QA-07`
+del 10/05 e la sua trascrizione destinata alla cartella evidenze per il cliente **non
+raccontano lo stesso turno**.
+
+⚠️ **Due difetti che il pilota aveva già pagato si sono ripresentati**: una fuga di canone e
+una dichiarazione di assenza falsa. Entrambi trovati dai passaggi di revisione, entrambi
+corretti. Il dettaglio sta in `06_operativoapporto_lotto_1a.md`.
+
+## Il perimetro vault, per la prima volta quasi verde
+
+| Controllo | Errori su tutto il vault |
+|---|---|
+| `qa_frontmatter` | **0** |
+| `qa_link_integrity` | **0** |
+| `qa_provenance` | **0** |
+| `qa_copertura` | 135 — **131 grezzi non ancora canonizzati e 4 aree senza hub** |
+
+Tutti gli errori residui del vault sono la sua **incompletezza**: nessuno è un difetto delle
+note che esistono.
 
 ## Densità del pilota — il dato per dimensionare i lotti di S4
 
