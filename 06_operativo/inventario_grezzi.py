@@ -98,7 +98,9 @@ def main():
 
     if args.conta:
         p = args.conta[1:] if args.conta.startswith("@") else args.conta
-        if not os.path.isabs(p):
+        # relativo alla cartella corrente, e in subordine a 06_operativo\qa\ —
+        # dove vivono fetta_l26130.txt e gli elenchi di lotto
+        if not os.path.isabs(p) and not os.path.isfile(p):
             p = os.path.join(Q.QA_DIR, p)
         elenco = leggi_elenco(p)
         mancanti = [n for n in elenco if n not in su_disco]

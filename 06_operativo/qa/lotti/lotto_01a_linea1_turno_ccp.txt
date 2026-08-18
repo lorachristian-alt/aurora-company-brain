@@ -1,19 +1,19 @@
-# Lotto 1 — Linea 1: conduzione, macchine e impianti
+# Lotto 1A — Linea 1: il turno, i CCP e la confezionatrice
 # LOTTO OBBLIGATO dal prompt S4-S5: il quaderno del capoturno sta in cima.
 # E' la gamba mancante dei tre conflitti in lista di tracciamento
 # (rapporto_gate_s2 §6.2), che in questo lotto vanno CHIUSI riaprendo
 # fatto-verifiche-ccp3-turno-l26130, questione-pezzi-prodotti-l26130 e
 # fatto-fermo-pkm-450-l26130.
+#
+# Nato dallo SPEZZAMENTO del lotto 1 il 18/08/2026: il conteggio dei fatti in
+# apertura ha proiettato ~62 note contro un budget di 26-36 (densita' 4,8 note
+# per grezzo contro 2,1 del pilota), e lo stop-loss della scaletta dice «lotto
+# piu' piccolo, mai QA piu' leggera». Gli impianti ausiliari, l'energia, le
+# tarature e la cella CF-02 sono passati al lotto 1B.
 appunti_capoturno_quaderno_linea1_OCR.txt
 checklist_metal_detector_manuale_operaio.txt
 manuale_uso_manutenzione_PKM450_estratto.pdf
 Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf
-piano_produzione_settimanale_sett19_21.xlsx
-consumi_energetici_forni_kwh_maggio26.csv
-scheda_manutenzione_ordinaria_forni_industrial.csv
-elenco_attrezzature_taratura_strumenti_2026.csv
-log_allarmi_cella_frigo_surgelati_aprile.log
-contratto_manutenzione_impianto_frigo_TS01.docx
-bolla_ingresso_azoto_alimentare_Nordgas_OCR.txt
 test_shelf_life_accelerata_confezione_MAP_snack.csv
-bolletta_VenetaEnergia_maggio2026.pdf
+piano_produzione_settimanale_sett19_21.xlsx
+scheda_manutenzione_ordinaria_forni_industrial.csv
