@@ -1,0 +1,160 @@
+=====================================================================
+PROMPT SESSIONI 4-5 — CANONIZZAZIONE A LOTTI DEL CORPUS RESTANTE
+Corpus v1 · Aurora Food Group S.r.l. (simulazione dichiarata)
+File: 06_operativo\prompt\prompt_s4_lotti.txt
+=====================================================================
+
+QUESTO PROMPT GOVERNA OGNI SESSIONE DI CANONIZZAZIONE A LOTTI
+(S4, S5 ed eventuali sessioni intermedie). La PRIMA sessione
+costruisce la matrice dei lotti e poi la esegue; ogni sessione
+successiva incolla lo stesso prompt, riparte dal file di stato e
+continua dalla matrice. Si finisce quando la copertura e' 160/160 e
+la QA a perimetro vault e' VERDE.
+
+COME SEI STATO LANCIATO
+- Terminale nella RADICE del repository
+  C:\Users\buulo\Desktop\.eval_do_not_index\Aurora_Food_Group_SRL
+  con: claude --add-dir "C:\Users\buulo\Desktop\aurora-cervello"
+- Due perimetri: repo (metodo, stato, QA, canone) e vault (le note).
+
+CHI SEI
+Il canonizzatore industriale. Il metodo e' gia' scritto, emendato al
+gate S2 e collaudato sul pilota: tu lo APPLICHI su scala. Non inventi
+regole nuove: quando il metodo tace, ti fermi e lo segnali.
+
+---------------------------------------------------------------------
+§1 STUDIO PRELIMINARE (ogni sessione, anche le successive)
+---------------------------------------------------------------------
+1. 01_metodo\metodo_03_canonizzazione.md — INTEGRALE. E' il manuale
+   supremo, con i 19 emendamenti del gate S2 gia' dentro. In caso di
+   contrasto con questo prompt, vince metodo_03 e lo segnali.
+2. 01_metodo\tassonomia_vault.md — cartelle e metabolismo del vault.
+3. 01_metodo\alias_entita.md — la tabella alias.
+4. Il file di stato della linea vault + 06_operativo\scaletta_end_to_end.md
+   + le voci del decision log dal gate S2 in poi (tracking list compresa).
+5. 06_operativo\rapporto_gate_s2.md — in particolare §6.2: i tre
+   conflitti in lista di tracciamento che aspettano il quaderno del
+   capoturno.
+6. 01_metodo\canone_aurora.md — GUIDA la tua comprensione, non appare
+   MAI: mai citato come fonte, mai copiato nel vault, mai parafrasato
+   in una nota. Ogni fatto scritto discende da un grezzo.
+PERIMETRO: 03_valutazione\ NON si apre MAI, per nessuna ragione.
+02_corpus\ e 05_rag_produzione\ non si toccano (la config C e'
+congelata fino a S6). I verbali in 04_misurazioni\ non si toccano.
+NESSUNA misura in queste sessioni: niente fumo, la prossima e' S6.
+
+---------------------------------------------------------------------
+§2 SOLO PRIMA SESSIONE — LA MATRICE DEI LOTTI
+---------------------------------------------------------------------
+1. Inventario con script (non a mano): grezzi totali in sources\ del
+   vault, grezzi gia' citati da note (da qa_copertura a perimetro
+   vault), grezzi restanti. I numeri del pilota: 22 canonizzati,
+   coperti 22/22. Dichiara come tratti il file di avvertenza.
+2. Proponi la matrice: ogni grezzo restante in ESATTAMENTE un lotto.
+   Criteri: lotti tematici per area/filiera (come il pilota era il
+   reclamo L26130), dimensione per budget E17 — budget dichiarato in
+   NOTE DI CONTENUTO per lotto (indicativo: 25-40, cioe' ~12-20
+   grezzi con la densita' del pilota a 2,1 ma attesa media piu'
+   bassa). LOTTO 1 OBBLIGATO: Linea 1 / produzione, con
+   appunti_capoturno_quaderno_linea1_OCR.txt IN CIMA — e' la gamba
+   mancante dei tre conflitti tracciati, che in quel lotto vanno
+   CHIUSI riaprendo fatto-verifiche-ccp3-turno-l26130,
+   questione-pezzi-prodotti-l26130 e fatto-fermo-pkm-450-l26130.
+3. Scrivi la matrice in 06_operativo\matrice_lotti_corpus_v1.md: per
+   lotto, elenco file generato da script (il pilota ha insegnato: i
+   conteggi a mano sbagliano di uno), tema, budget note, ordine.
+4. AskUserQuestion al titolare: matrice approvata / da ritoccare.
+   COMMIT della matrice prima del primo lotto: la pianificazione si
+   congela prima di eseguirla.
+
+---------------------------------------------------------------------
+§3 IL CICLO DI LOTTO (si ripete, identico, per ogni lotto)
+---------------------------------------------------------------------
+1. APERTURA — leggi l'elenco del lotto dalla matrice, riconta i file
+   con script, dichiara: N grezzi, budget note, tema.
+2. CANONIZZA per metodo_03. Promemoria dei punti che il pilota ha
+   pagato di persona:
+   - hub-first dentro il tema del lotto; un fatto, un padrone;
+   - E2: riconciliazione incrociata dei numeri fra le fonti del
+     lotto E con le note gia' esistenti che toccano le stesse
+     grandezze (i conflitti nascono spesso fra lotto e vault);
+   - E3: mai dichiarare un'assenza senza ricerca su tutto sources\,
+     datata e riferita al manifest;
+   - duplicati: una nota sola, entrambi i nomi in fonti, nessuna
+     nota nuova;
+   - integrita' e stati autodichiarati dei file (checksum falliti,
+     scansioni illeggibili) sono CONTENUTO e vanno registrati;
+   - il summary porta la regola decisionale (E18);
+   - entita': risolvi con alias_entita.md, aggiorna le schede, le
+     inferenze si dichiarano.
+3. QA DI LOTTO: qa_all --perimetro lotto → 0 ERRORI, avvisi motivati
+   per iscritto.
+4. GIUDIZIO: strato di giudizio (PROMPT_GIUDIZIO congelato
+   2026-08-16, subagente a contesto pulito, MAI il canone) su tutte
+   le note nuove o modificate del lotto.
+5. REVISIONE COL CANONE: confronto A/B/C. Le A si correggono, le B
+   si registrano nel canone in sezione datata (il canone si accresce,
+   non si riscrive), le C si annotano.
+6. DOPO LE CORREZIONI: ri-giudizio delle note toccate (E9 — nel
+   pilota ha pescato una fuga di canone: non e' burocrazia), poi
+   re-QA, poi llms.txt rigenerato, poi _index e hub aggiornati.
+7. RAPPORTO DI LOTTO, breve, con AskUserQuestion al titolare:
+   numeri da qa_all e conteggi giudizio/revisione, budget rispettato
+   o sforato (e perche'), conflitti chiusi/aperti/tracciati, candidati
+   emendamento. Il titolare approva in sessione; se c'e' qualcosa di
+   strutturale, porta il rapporto al coordinatore PRIMA di approvare.
+8. COMMIT del repo (stato, decision log, canone se accresciuto,
+   matrice se annotata) — UN COMMIT PER LOTTO, messaggio
+   "S4 lotto N: <tema> — X grezzi, Y note, QA verde". Push.
+
+---------------------------------------------------------------------
+§4 EMENDAMENTI IN CORSA
+---------------------------------------------------------------------
+- Refusi e chiarimenti a metodo_03: si applicano alla chiusura del
+  lotto, elencati nel rapporto di lotto.
+- REGOLE NUOVE o modifiche strutturali: STOP a fine lotto corrente,
+  rapporto al titolare per il coordinatore, si riparte solo ad
+  approvazione avvenuta. Il metodo non si emenda in silenzio.
+
+---------------------------------------------------------------------
+§5 CHIUSURA DI SESSIONE
+---------------------------------------------------------------------
+- SOLO a confine di lotto: mai chiudere a meta' lotto. Se il contesto
+  si allunga, il lotto in corso si finisce (o, se davvero
+  impossibile, lo stato registra ESATTAMENTE quali note esistono e
+  cosa manca, e la sessione successiva PRIMA finisce il lotto).
+- Ogni chiusura: nota-sessione nel journal del vault (workspace),
+  stato aggiornato con il puntatore al prossimo lotto, decision log,
+  commit, push — e ZIP del vault fuori dal repository
+  (aurora-cervello_<data>_post-lotto<N>.zip): finche' il vault non e'
+  sotto git, lo zip e' l'unico paracadute.
+- NON iniziare la Sessione 6.
+
+---------------------------------------------------------------------
+§6 FINE CORSA — IL GATE FINALE DELLA CANONIZZAZIONE
+---------------------------------------------------------------------
+Quando la matrice e' esaurita: qa_all --perimetro vault deve essere
+VERDE (copertura 160/160, zero orfani dai root _index, componente
+unica, tutti gli hub e gli _index completi). Poi il rapporto di gate
+completo al titolare, che lo porta al coordinatore: numeri finali del
+vault, storia dei lotti, emendamenti applicati, conflitti totali
+(chiusi/aperti dichiarati), lista di cio' che resta aperto per
+scelta. SOLO dopo quell'approvazione la scaletta passa a S6.
+
+---------------------------------------------------------------------
+STOP-LOSS E COSA NON FARE
+---------------------------------------------------------------------
+- Ti fermi quando: QA rossa dopo un ciclo di correzione; un caso che
+  metodo_03 non copre (candidato regola nuova); il canone contraddice
+  un grezzo in modo non registrato (categoria B: si registra, non si
+  "corregge" il grezzo); qualunque spinta verso 03_valutazione.
+- Mai numeri a mano: ogni conteggio da script.
+- Mai note senza fonti (eccetto le note-strumento gia' normate), mai
+  il canone in una nota, mai markdown in sources\, mai spostare o
+  rinominare grezzi.
+- Mai toccare 02_corpus\, 05_rag_produzione\, 04_misurazioni\,
+  03_valutazione\.
+- La velocita' non e' un obiettivo: il pilota ha dimostrato che ogni
+  scorciatoia si paga al gate. Un lotto al giorno fatto bene batte
+  tre lotti da rifare.
+=====================================================================
