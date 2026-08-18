@@ -1,15 +1,47 @@
 # Verbale — Baseline C sul corpus grezzo (RAG Advanced ibrido di produzione)
 
-> **Stato: APERTO.** Il giudizio delle 282 risposte non è ancora stato eseguito: si fa in
-> una sessione separata con `06_operativo/prompt/prompt_s3_giudice_c.txt`. Questo verbale
-> si chiude — e da quel momento non si modifica più — solo dopo il giudizio e
-> l'approvazione al gate.
-> **Cosa contiene già** · le condizioni della misura, la costruzione della pipeline, il
-> collaudo e l'esito del run, tutti ricontati da script.
-> **Cosa manca** · i quattro esiti per le 282 domande, la tabella A/B/C, la riga del README.
+> **Stato: CHIUSO** il 18/08/2026, a giudizio concluso. **Da questo momento non si
+> modifica più**: se emergesse un errore si scrive una nota separata e datata, non si
+> corregge il verbale.
+> **Cosa contiene** · condizioni della misura, costruzione della pipeline, collaudo,
+> esito del run, risultati del giudizio e diagnosi. Ogni numero è stato **ricontato da
+> script dai file jsonl**; nessuno è stato trascritto dal rapporto del giudice.
+> **Giudizio** · eseguito il 18/08/2026 in sessione separata, `claude-opus-5` fast mode
+> OFF — lo stesso modello e le stesse condizioni della valutazione A/B del 14/08/2026.
+> Rapporto discorsivo del giudice: `giudice_rapporto_c.md`, esito riga per riga in
+> `valutazione_c.jsonl`.
 
 ---
 
+## 0. Il risultato, e va letto con due numeri insieme
+
+> ## **14,5% corrette sulle 282 · 7,6% sulle 251 rispondibili**
+>
+> **Le due percentuali non si citano mai una senza l'altra.**
+
+| | corrette | su | |
+|---|---:|---:|---|
+| Tutte le domande | 41 | 282 | **14,5%** |
+| Solo le domande **rispondibili** | 19 | 251 | **7,6%** |
+| Solo le `non_rispondibile` | 22 | 31 | 71,0% |
+
+**Perché il solo dato complessivo è fuorviante — la spiegazione è del giudice e si
+riporta com'è.** Delle 41 risposte corrette, **22 vengono da domande la cui risposta
+giusta è «il dato non è in archivio»**, e il modello ci arriva
+
+> «**perché si astiene sempre**, non perché sappia distinguere ciò che c'è da ciò che
+> manca. È lo stesso comportamento che altrove produce decine di astensioni false.»
+
+Il 71,0% sulle `non_rispondibile` **non misura prudenza**: misura una costante. Lo stesso
+riflesso che fa passare le esche fa fallire le domande a cui una risposta esisteva —
+Q089, Q170, Q209 e decine di altre, dove il sistema si astiene **citando il file che
+contiene il dato**. Contare quelle 22 come merito e non contare le astensioni false come
+colpa sarebbe misurare due volte lo stesso comportamento, una volta in positivo.
+
+⚠️ **Chiunque riporti il 14,5% senza il 7,6% sta raccontando una capacità che il sistema
+non ha.** Vale per il README, per il rapporto di gate e per qualunque uso commerciale.
+
+---
 ## 1. Oggetto
 
 Misura della **configurazione C** — RAG Advanced ibrido, interamente locale — sulle stesse
@@ -20,7 +52,7 @@ Misura della **configurazione C** — RAG Advanced ibrido, interamente locale �
 (decisione del 15/08/2026, scaletta Sessione 3).
 
 ⚠️ **A, B e C sono tre strumenti diversi, non tre versioni dello stesso.** Le asimmetrie
-sono elencate al §8 e non vanno addolcite in nessuna lettura dei numeri.
+sono elencate al §14 e non vanno addolcite in nessuna lettura dei numeri.
 
 ---
 
@@ -309,6 +341,13 @@ e in B il giudice vede le fonti come il modello le ha scritte, e P3 classifica c
 avrebbe dato meno allucinazioni **per costruzione**, e i tre numeri avrebbero smesso di
 parlarsi. Il 27% è un dato scomodo per C e sta qui perché è vero.
 
+⚠️ **Come è finita.** Il giudice, che non ha ricevuto questo numero apposta (avrebbe
+saputo quante allucinazioni «doveva» trovare), ha classificato `allucinata` **25 risposte
+su 282**, non 76. Le due misure non coincidono e non devono: 76 conta le **citazioni fuori
+contesto**, cioè un difetto di formato; 25 conta le **affermazioni false**, cioè un
+difetto di contenuto. Molte delle 76 sono rumore in coda a una risposta per il resto
+onesta, e il giudice ha dichiarato di non farle degradare il campo (§9).
+
 **Sulla confidenza.** Il generatore da 3B non usa la scala: nessun `media` in 282
 risposte. Il campo esiste per compatibilità di formato con A e B e **non va fatto pesare
 sul giudizio**; l'istruzione è scritta nel prompt del giudice.
@@ -345,7 +384,353 @@ fatti vale zero.
 
 ---
 
-## 8. Le asimmetrie fra A, B e C — senza addolcirle
+## 8. Risultati del giudizio — A, B e C sugli stessi 282
+
+Tutti i numeri di questa sezione escono da `04_misurazioni/conta_esiti_abc.py` e
+`04_misurazioni/metriche_abc.py`, che rileggono i jsonl delle valutazioni. **Nessun
+numero è stato trascritto dal rapporto del giudice**; i due conteggi coincidono.
+
+### 8.1 I quattro esiti
+
+| Esito | A — agentico | B — RAG semplice | C — RAG produzione |
+|---|---:|---:|---:|
+| `corretta` | **199 (70,6%)** | **126 (44,7%)** | **41 (14,5%)** |
+| `parziale` | 50 (17,7%) | 77 (27,3%) | 75 (26,6%) |
+| `sbagliata` | 33 (11,7%) | 79 (28,0%) | 141 (50,0%) |
+| `allucinata` | 0 (0,0%) | 0 (0,0%) | 25 (8,9%) |
+| fonti corrette | 259 (91,8%) | 227 (80,5%) | 198 (70,2%) |
+| corrette **sulle 251 rispondibili** | 68,9% | 40,2% | **7,6%** |
+| corrette + parziali | 88,3% | 72,0% | 41,1% |
+
+**C è ultima su ogni riga, e di molto.** Non è un esito da addolcire: sulle domande a cui
+una risposta esisteva, C ne prende bene una su tredici, contro due su tre di A.
+
+### 8.2 Per tipo di domanda (corrette / parziali / sbagliate / allucinate)
+
+| Tipo | n | A | B | C | C — % corrette |
+|---|---:|---|---|---|---:|
+| `non_rispondibile` | 31 | 26/4/1/0 | 25/6/0/0 | 22/3/4/2 | 71,0% |
+| `lookup` | 86 | 71/9/6/0 | 53/15/18/0 | 15/30/31/10 | 17,4% |
+| `calcolo` | 24 | 19/3/2/0 | 9/9/6/0 | 2/7/13/2 | 8,3% |
+| `multi_hop` | 74 | 39/21/14/0 | 23/28/23/0 | 2/19/48/5 | 2,7% |
+| `aggregazione` | 28 | 19/4/5/0 | 3/4/21/0 | 0/1/25/2 | **0%** |
+| `temporale` | 18 | 15/3/0/0 | 5/9/4/0 | 0/4/11/3 | **0%** |
+| `contraddizione` | 14 | 7/4/3/0 | 8/3/3/0 | 0/11/3/0 | **0%** |
+| `metadato` | 7 | 3/2/2/0 | 0/3/4/0 | 0/0/6/1 | **0%** |
+
+**Quattro tipi su otto chiudono a zero per C.** Su `aggregazione` la caduta è totale e
+non è nuova — anche B fa 3 su 28 — ma C non prende nemmeno quelle.
+
+### 8.3 Le quattro metriche di P4
+
+| Metrica | A | B | C |
+|---|---:|---:|---:|
+| Tasso di allucinazione (su `non_rispondibile`) | 3,2% | 0,0% | **19,4%** |
+| Riconoscimento dei conflitti | 50,0% | 57,1% | **0,0%** |
+| Ricerca diretta (`lookup`) | 82,6% | 61,6% | 17,4% |
+| Attraversamento (`multi_hop`) | 52,7% | 31,1% | 2,7% |
+| Precisione delle fonti | 91,8% | 80,5% | 70,2% |
+
+⚠️ **Come è definito il tasso di allucinazione, e perché così.** P4 lo definisce come
+percentuale di esiti `allucinata` sulle sole `non_rispondibile`. Nella valutazione A/B
+del 14/08 **il campo `allucinata` non fu mai usato** — zero righe su 564 — e il giudice
+di allora ripiegò su `sbagliata`, dichiarandolo. Nella misura C il campo è usato davvero.
+Per non avere una colonna che confronta due definizioni diverse, qui si usa
+**`allucinata` + `sbagliata` su `non_rispondibile`**, che dove il campo `allucinata` è
+vuoto **coincide esattamente col ripiego del 14/08**: le righe A e B non cambiano di una
+cifra. Con la definizione alla lettera di P4, C farebbe 6,5% (2 allucinate su 31) — un
+numero più lusinghiero e meno confrontabile, e per questo non è quello in tabella.
+
+⚠️ **Un numero che sembra un merito e non lo è.** Il divario fra `lookup` e `multi_hop`
+è 29,9 punti in A, 30,5 in B e **14,7 in C**. Non significa che C attraversi meglio:
+significa che parte da 17,4% e non ha spazio per cadere. È effetto pavimento, e
+presentarlo come un vantaggio sarebbe disonesto.
+
+### 8.4 La riga per il README
+
+```
+| Baseline — grezzo, RAG Advanced (C) | 17/08/2026 | 19.4% | 0.0% | 17.4% | 2.7% | 70.2% |
+```
+
+---
+
+## 9. Come è stato compilato `fonti_corrette`, e perché non è confrontabile fra le tre misure
+
+La regola è del giudice ed è **citata alla lettera**, perché il campo sia ricalcolabile da
+chiunque:
+
+> **`true` se e solo se:**
+> 1. fra le fonti citate compare **almeno una delle fonti attese** dall'`eval_set`, **e**
+> 2. nessuna citazione punta a un **documento inesistente** (nome inventato, storpiato o troncato).
+>
+> **Non degradano il campo:**
+> - le fonti reali ma non pertinenti aggiunte in coda — rumore frequentissimo in C, presente in quasi tutte le risposte;
+> - i frammenti che non sono nomi di file ma **intestazioni di sezione, numeri di pagina o righe del documento giusto** (`"CONTO ECONOMICO"`, `"pag. 2"`, `"Art. 5.1"`): sono rumore di formattazione, non citazioni false.
+>
+> **Separazione dei due campi.** `esito` misura il contenuto, `fonti_corrette` misura la citazione. Sono tenuti distinti apposta, per non contare due volte lo stesso difetto: esistono risposte `corretta` con `fonti_corrette: false` (Q020, Q033, Q121) e risposte `allucinata` con `fonti_corrette: true` (Q016, Q045, Q101).
+
+E l'eccezione, anch'essa alla lettera:
+
+> **⚠️ Eccezione sulle `non_rispondibile`.** Per le 31 domande di tipo `non_rispondibile` **le fonti attese sono vuote**, quindi la regola sopra non si applica e **il campo non è confrontabile con quello degli altri blocchi**. Lì `fonti_corrette` è `false` solo dove una citazione viene usata per **sostenere un'affermazione errata** (Q248 con l'AUA, Q265 col report costi fissi, Q272 con la bozza di lettera).
+
+⚠️ **Conseguenza, e va detta prima che qualcuno metta i tre numeri in fila.** Il confronto
+`fonti_corrette` fra A, B e C **non è omogeneo**, per tre motivi cumulativi:
+
+1. la regola sopra è stata **dichiarata e applicata dal giudice di C**; i giudici di A e B
+   del 14/08 non hanno lasciato una regola scritta altrettanto esplicita, quindi non si sa
+   se abbiano trattato allo stesso modo il rumore in coda e i nomi storpiati;
+2. **il materiale è diverso**: in C il campo `fonti` contiene rumore massiccio — frammenti
+   di righe CSV, nomi di persone, numeri di pagina — che in A e B non esiste, perché lì
+   scriveva un modello di frontiera che rispettava il formato;
+3. sulle 31 `non_rispondibile` il campo misura una cosa diversa in tutte e tre le misure.
+
+**Quindi 91,8% / 80,5% / 70,2% si leggono come ordine di grandezza, non come misura fine.**
+Il numero di C che regge da solo, perché ricontato sullo stesso metro, è il **70,2%
+confrontato con l'esito**: vedi §10.
+
+---
+## 10. La diagnosi: il collo di bottiglia è il generatore, non il recupero
+
+**È il risultato più utile di tutta la misura, e nasce dal confronto di due numeri
+prodotti dallo stesso giudizio:**
+
+| | |
+|---|---:|
+| Risposte che citano il documento giusto (`fonti_corrette`) | **198 / 282 = 70,2%** |
+| Risposte corrette | **41 / 282 = 14,5%** |
+| **Scarto** | **55,7 punti** |
+
+**Nel 70% dei casi il sistema aveva il documento giusto in mano e ha sbagliato lo stesso.**
+E non «non ha trovato»: in decine di casi **la risposta nega un dato che sta nel file che
+la risposta stessa sta citando**. Le parole del giudice:
+
+> «Non è un problema di recupero: è che un LLM da 3B non estrae dal passaggio che ha in
+> mano, non conta righe, non somma, non incrocia.»
+
+I tre casi che lo mostrano meglio:
+
+| id | Cosa è successo |
+|---|---|
+| **Q089** | Dichiara «non determinabile» un conteggio che il registro scrive **in chiaro in fondo al file**: `TOTALE SCADUTI: 17`. |
+| **Q170** | Alla domanda se qualcuno guidi il muletto senza abilitazione risponde che non è determinabile, **citando il registro che riporta testualmente** «NON ABILITATO ALLA GUIDA fino a rinnovo» accanto a Preda Radu. |
+| **Q209** | Rifiuta di rispondere **perché il dato nel documento è espresso come «circa»**: ha trovato il passaggio, l'ha letto, e l'ha scartato per approssimazione. |
+
+Stesso schema in Q012 (scrive «non è possibile determinare la pratica» e mette
+«Pratica n. 28714» dentro il campo `fonti` della stessa riga), Q087, Q097, Q106, Q112,
+Q115. Sulle `aggregazione` è totale: 28 domande, zero corrette, e le quattro volte in cui
+ha provato a contare ha sbagliato di molto (Q099: 1 invece di 3 · Q104: 1 invece di 5 ·
+Q109: 19 invece di 8 · Q113: 4 invece di ~49, avendo contato gli *eventi* invece dei
+*campioni*).
+
+### 10.1 Il richiamo che rende leggibile questo numero: è un pavimento dichiarato
+
+**Il generatore misurato è un `llama3.2:3b` quantizzato a 4 bit, scelto perché la macchina
+ha 7,8 GB di RAM e nessuna GPU** — sotto la fascia minima che `metodo_04` §8 dichiara per
+sé stesso (16 GB). Questo era **scritto e committato prima di misurare**, non è una
+spiegazione trovata dopo aver visto i numeri: sta in `config_c.json`
+(`generazione._perche_modello`) e in `metodo_04` §4, nel commit di congelamento
+`d36d7ce` del 17/08/2026 alle 12:44 — **prima** che l'indice esistesse.
+
+La configurazione di **riferimento** — classe 8B su 16-32 GB, resto della pipeline
+identico — è documentata in `metodo_04` §4 e **non è mai stata misurata**. La regola resta
+in vigore: **non si racconta come se lo fosse.** Di essa si dice che è la configurazione
+consigliata, mai che rende di più, finché qualcuno non la conta.
+
+⚠️ **Conseguenza operativa, ed è l'unica azione che questi numeri autorizzano:**
+sostituire il generatore lasciando invariata la pipeline è l'unico intervento che può
+spostare il risultato. Il recupero, su questa misura, **non è il fattore limitante** — e
+il dato del §7 lo conferma dall'altro lato: il 22,6% dei passaggi consegnati veniva solo
+dal ramo BM25, cioè l'ibrido stava lavorando.
+
+### 10.2 Un difetto di recupero però esiste, ed è isolabile
+
+Quando il corpus contiene un **documento-padrone e un suo derivato** — mail di inoltro,
+copia di cortesia, contratto che cita il listino — il recupero pesca il derivato:
+
+- **Q033** — condizioni Molino corrette ma attribuite alla mail di aumento invece che al listino;
+- **Q052** — cita l'inoltro `.eml` e restituisce il claim commerciale «−22% rispetto al TS-01» al posto dei 0,072 kWh/kg del preventivo;
+- **Q049** — fattura di cortesia invece degli XML SDI, e infatti perde il codice destinatario in entrata;
+- **Q020**, **Q048**, **Q066**, **Q070** — stesso schema.
+
+È il difetto di recupero più chiaro emerso, ed è **materiale per la Sessione 6**: nel
+vault canonizzato il documento-padrone e il derivato diventano due note distinte con
+`fonti` esplicite, ed è esattamente il caso che la canonizzazione dovrebbe risolvere.
+⚠️ Nessuna correzione ora: vedi §13.
+
+---
+
+## 11. Il rischio dominante non sono le allucinazioni: sono le 75 `parziale`
+
+**È il punto che un'azienda alimentare deve leggere per primo.**
+
+Le 25 allucinazioni (8,9%) sono il difetto che tutti si aspettano da un sistema AI. Non
+sono il difetto peggiore di questa misura. **La forma dominante è il sì o il no giusto,
+nudo:**
+
+> «Sì, in parte a rifiuto» (Q183) · «Sì, era già stato contestato» (Q210) · «No, non aveva
+> la formazione HACCP» (Q191) · «Sì, c'è un problema con il lievito» (Q224) · «La lista
+> buyer contiene duplicati» (Q095)
+
+Sono risposte **vere e inutilizzabili**: nessuna data, nessun codice, nessun importo,
+nessun FIR, nessuna NC. Chi legge **non ha modo di distinguerle da un'ipotesi e non ha
+nulla da verificare**. Il giudice le qualifica come
+
+> «la modalità di fallimento più insidiosa della misura C, perché **si comporta come una
+> risposta**.»
+
+Il conto è questo: **75 risposte su 282 — più di una su quattro — sono vere e non
+verificabili.** Sono il triplo delle allucinazioni.
+
+### 11.1 E sulle contraddizioni il difetto diventa sistematico
+
+**14 domande di tipo `contraddizione`. Zero corrette. Undici `parziale`.**
+
+Il modello dà quasi sempre il valore giusto e **non si accorge mai che nell'archivio ne
+esiste un altro**:
+
+| id | Cosa dà | Cosa nasconde |
+|---|---|---|
+| **Q235** | «2» NC dell'audit, come dichiara l'intestazione | la sezione di chiusura dello **stesso file** parla di NC 1-7 |
+| **Q240 / Q234** | un numero d'offerta Criotech | ne circolano **tre** |
+| **Q236** | il protocollo giusto della PEC | il verbale ispettivo ne richiama un altro |
+| **Q238** | 68,6 | non distingue la sonda di camera da quella **al cuore**, l'unica rilevante per il CCP2 |
+| **Q241** | le dimensioni del tunnel dall'offerta | che con quell'altezza **l'impianto non passa sotto la trave**: un rischio di progetto da 290.000 € |
+
+⚠️ **Il giudizio del giudice su questo punto, e lo si sottoscrive:**
+
+> «Un sistema documentale che risponde così è **più pericoloso di uno che si astiene**:
+> consegna un numero verificabile e nasconde che il dato è contestato.»
+
+**Perché è il difetto peggiore proprio in un'azienda alimentare.** Il valore di questa
+pipeline, davanti a un auditor BRCGS o a un ispettore ATS, è consegnare un dato **con la
+catena delle fonti**. Una risposta che dà il numero giusto e tace che ne esiste un secondo
+in conflitto non è un'informazione incompleta: **è un'informazione che chiude un'indagine
+che andava aperta.** L'archivio contiene contraddizioni volute — è l'oggetto del test — e
+riconoscerle era metà del punto della misura. A ne riconosce metà (50,0%), B poco più
+(57,1%), **C nessuna**.
+
+Va detto che il metro qui è severo e coerente: le 11 `parziale` non sono errori, sono
+risposte vere a metà. Ma su questo tipo di domanda **metà non basta**, ed è lo stesso
+criterio con cui sono state giudicate A e B.
+
+---
+
+## 12. Le allucinazioni: poche, ma concentrate dove fanno danno
+
+25 su 282 (8,9%). Non è il difetto quantitativamente dominante, ma la distribuzione è
+sfavorevole: cadono su **sicurezza alimentare, igiene, adempimenti e denaro**.
+
+| id | Cosa afferma | Perché pesa |
+|---|---|---|
+| **Q078** | dà per riuscito un lavaggio CIP finito in `ESITO=ABORT` per conducibilità bassa in fase soda | evento di sicurezza alimentare dichiarato conforme |
+| **Q190** | «la situazione igienica non è rientrata» dopo il ricambio originale | i tamponi del 25/05 danno 24 e 2 UFC/cm², **conformi** |
+| **Q094** | nega cinque rotture di stock registrate | tocca l'OTIF, quindi le penali contrattuali |
+| **Q144** | «nessun corso è scaduto da più di un mese» | un preposto è scaduto dal 15/09/2025, un'addetta primo soccorso dall'08/02/2026 |
+| **Q272** | attribuisce al laboratorio una conferma sull'origine del frammento | il rapporto dichiara che l'attribuzione esula dalle sue competenze |
+| **Q116** | «290.000,00 + 304.500,00 = 594.500,00» | IVA al 105%; le due milestone successive sono invece copiate esatte |
+| **Q281** | «non esistono documenti in doppia copia» | l'archivio ne contiene **quattro coppie** |
+
+### 12.1 ⚠️ L'allucinazione persistente — il rischio-tipo per l'audit
+
+> **Q193 e Q265: una fattura Pakmatic da 4.912 €. Il numero non esiste in nessun
+> documento, ed è lo stesso in due punti diversi del giro.**
+
+**È l'unico difetto di questa misura che va segnalato come rischio-tipo e non come caso
+singolo**, e il motivo è la sua *forma*, non la sua gravità:
+
+- **è riproducibile** — non è un errore casuale che a un secondo tentativo sparisce: è una
+  costante del modello a temperatura 0 su quel contesto, e rifare l'interrogazione dà lo
+  stesso numero;
+- **è plausibile** — 4.912 € è un importo credibile per quella fornitura, e nulla nella
+  risposta segnala un'invenzione;
+- **è coerente con sé stesso** — due domande indipendenti, lo stesso importo. Un revisore
+  che incrociasse le due risposte troverebbe una **conferma**, e la coerenza fra fonti
+  diverse è esattamente il segnale che si usa per fidarsi di un dato.
+
+**Davanti a un auditor è lo scenario peggiore possibile**, peggiore di un errore
+grossolano: un errore evidente si scarta, un numero inventato coerente e ripetuto entra
+nel verbale. È il caso che giustifica da solo la regola commerciale di `metodo_04` §11 —
+**si vende la tracciabilità, non la correttezza**: ogni affermazione risale a un passaggio
+e a un file, e **chi firma verifica sul file**. La pipeline riduce il tempo di ricerca;
+non solleva nessuno dalla verifica.
+
+⚠️ Che la traccia di Q193 e Q265 esista e contenga i passaggi consegnati è ciò che rende
+questo difetto **diagnosticabile in trenta secondi** invece che invisibile: si apre la
+traccia e si vede che 4.912 non c'è. È l'argomento della tracciabilità, provato sul suo
+caso peggiore.
+
+### 12.2 Due errori di sostanza non allucinati, ma altrettanto gravi
+
+- **Q203** — alla domanda se l'investimento stia dentro a quanto approvato dal CdA
+  risponde «è stato approvato dal Consiglio di Amministrazione», lasciando intendere di
+  sì. Il tetto deliberato è 319.000 €, il quadro economico 413.316: **serve una nuova
+  delibera, e la risposta la nasconde.**
+- **Q248 / Q251** — costruzione sintattica difettosa: «Non è ricavabile dai documenti
+  forniti se non che Aurora ha la certificazione ISO 14001». Letta alla lettera, la frase
+  **afferma** ciò che il modello voleva negare — su una certificazione e su un fatto
+  patrimoniale.
+
+### 12.3 Dove il sistema tiene, e va registrato
+
+Sulle `non_rispondibile` **resiste alle esche**, che erano costruite bene: non spaccia il
+consuntivo gestionale per bilancio 2026 (Q245), non deduce il vincitore ERP dal confronto
+fra le due offerte (Q253), non attribuisce a nessuno il ruolo di referente privacy
+lasciato «da nominare» (Q254), non fornisce una ragione sociale per il concorrente
+pugliese di cui esiste solo un'iniziale (Q264), non scambia il codice operatore
+`IT BIO 006` per il certificato ICEA dell'azienda (Q267).
+
+⚠️ Con la riserva del §0: **è astensione costante, non discernimento.**
+
+---
+
+## 13. I guasti di formato sono DIFETTI NOTI DELLO STRUMENTO CONGELATO
+
+Registrati per l'audit. **Non hanno pesato sul giudizio**, che è sempre sul contenuto.
+
+### 13.1 Le tre anomalie preannunciate, tutte confermate
+
+| Difetto | Dove |
+|---|---|
+| Una risposta **vuota** | Q204 (costo complessivo del reclamo) |
+| Dodici risposte **senza fonti**, in diversi casi coi nomi dei file riversati nel corpo | Q046, Q084, Q100, Q110, Q134, Q140, Q142, Q197, Q204, Q208, Q217, Q244 |
+| Scala `confidenza` a due soli valori (`alta`/`bassa`, mai `media`) | tutte le 282 |
+
+### 13.2 Quattro difetti non preannunciati
+
+| Difetto | Dove |
+|---|---|
+| **Segnaposto letterale restituito come risposta** | Q205 (`<la risposta></la risposta>`) e Q282 (`<la risposta>CONFIDEZZA: bassa</la risposta>`, col campo storpiato) |
+| **Degenerazione in loop** | Q208 ripete 23 volte la stessa frase fino al troncamento; Q268 cinque volte; Q278 sei; Q148 e Q156 ripetono ciclicamente gli elementi di una lista |
+| **Campo `fonti` che esplode in frammenti** | Q183 contiene 18 voci che sono pezzi di una riga CSV di una NC estranea (`"T salita a -15"`, `"320"`, `"00"`); casi minori in Q003, Q184, Q092, Q162, Q163 (nomi di **persone** citati come fonti), Q263 |
+| **Nomi di file inesistenti o storpiati** | Q193 (`Fattura_Elettronica_SDI_Inbound_Q2.txt`, singolare), Q156 (`log_lavaggio_CIP_line`, troncato), Q205 e Q282 (XML inventati) |
+
+Più due **documenti-esca pescati dal retrieval**: Q096 cita
+`Newsletter_Fiere_alimentari_2026_NON_LEGGERE.eml`, Q253 cita
+`confronto_ERP_v3_DEFINITIVO_ok2.txt`.
+
+### 13.3 ⚠️ Nessuna correzione prima della Sessione 6, e non è pigrizia
+
+Ognuno di questi difetti sarebbe **facile da correggere**: un controllo sul segnaposto,
+un tetto alle ripetizioni, un filtro sul campo `fonti`, un `stop` sul template. **Non si
+tocca nulla.**
+
+Il motivo è il principio 2 della scaletta e la regola d'oro 2: **fra il «prima» e il
+«dopo» cambia una sola variabile, la forma dell'archivio.** Lo strumento resta identico —
+**i suoi bug compresi**. Un runner che nella misura «dopo» filtrasse le fonti esplose o
+troncasse i loop produrrebbe un delta che mescola due cause: l'archivio organizzato e lo
+strumento migliorato. Sarebbe impossibile dire quale dei due ha spostato il numero, e il
+lavoro di tutte le sessioni precedenti perderebbe valore.
+
+**Dove finiscono queste correzioni.** Sono **materiale per la configurazione di
+riferimento**, quella di classe 8B, e si applicano **dopo la Sessione 6** — quando il
+ciclo prima/dopo è chiuso e i numeri sono al sicuro. Vanno scritte ora, mentre sono
+fresche, e non applicate: questa sezione è la lista di lavoro di quel momento.
+
+⚠️ Vale identico per il difetto di recupero del §10.2 (padrone contro derivato): si
+osserva, si registra, **non si tocca il config**.
+
+---
+## 14. Le asimmetrie fra A, B e C — senza addolcirle
 
 **Sono tre strumenti diversi.** Chi legge la tabella dei risultati deve avere questo
 elenco sotto gli occhi.
@@ -368,12 +753,16 @@ elenco sotto gli occhi.
    specifico il numero di C è un tetto, non un pavimento**, ed è l'unico parametro in cui
    la misura è più favorevole della produzione.
 7. **Le fonti non ripulite.** Vedi §6: scelta che costa a C e che si tiene.
-8. **Il modello del giudice.** Se il giudice della misura C non fosse `claude-opus-5` con
-   fast mode off, come per A e B, il confronto ne risentirebbe e andrebbe annotato qui.
+8. **Il modello del giudice — verificato, e questa asimmetria NON c'e'.** Il giudizio di C
+   e' stato eseguito con `claude-opus-5`, fast mode off, in sessione separata, gli stessi
+   del 14/08. Su questo asse le tre misure sono confrontabili.
+9. **La regola di `fonti_corrette`.** Dichiarata ed esplicita per C, non altrettanto per
+   A e B: il confronto su quel campo e' un ordine di grandezza, non una misura fine.
+   Vedi §9.
 
 ---
 
-## 9. Scostamenti da `metodo_04` decisi in questa sessione
+## 15. Scostamenti da `metodo_04` decisi in questa sessione
 
 Tutti decisi **prima** del congelamento, con il motivo scritto accanto al valore nel
 config.
@@ -388,7 +777,7 @@ config.
 
 ---
 
-## 10. Contrasto fra il prompt di sessione e `metodo_02`, e come è stato risolto
+## 16. Contrasto fra il prompt di sessione e `metodo_02`, e come è stato risolto
 
 Il prompt della Sessione 3 indicava il file delle risposte come `risposte_c.jsonl`;
 l'**Addendum — Configurazione C** di `metodo_02` dice `misuraC_risposte.jsonl`. Vince
@@ -401,32 +790,83 @@ automatica il blocco da 30 non ha significato — non c'è una sessione da ricar
 con `fsync` a ogni riga e ripresa riga per riga, non a blocchi. Segnalato al gate.
 
 ---
+---
 
-## 11. Cosa manca per chiudere questo verbale
+## 17. Cosa questa misura ha insegnato, e cosa autorizza
 
-1. Giudizio delle 282 risposte, in sessione separata, con
-   `06_operativo/prompt/prompt_s3_giudice_c.txt` → `valutazione_c.jsonl`.
-2. Riconteggio con `04_misurazioni/conta_esiti_abc.py` e tabella A / B / C sugli stessi
-   282 id.
-3. Riga della configurazione C nella tabella dei risultati del `README.md`.
-4. Approvazione al gate. **Solo allora questo verbale si chiude e non si modifica più.**
+**Tre conclusioni che i numeri reggono:**
+
+1. **Il generatore è il collo di bottiglia, non il recupero.** 70,2% di fonti giuste
+   contro 14,5% di risposte giuste: 55,7 punti di scarto. L'unico intervento che può
+   spostare il risultato è sostituire il generatore lasciando la pipeline invariata.
+2. **La ricerca ibrida lavora, ed è misurato.** Il 22,6% dei passaggi consegnati veniva
+   solo dal ramo BM25: quasi un quarto di ciò che il generatore ha visto era invisibile
+   alla ricerca semantica. Il valore della fusione non è un'affermazione di letteratura.
+3. **Il difetto più pericoloso non è quello atteso.** Non le 25 allucinazioni, ma le 75
+   risposte vere e non verificabili e le 11 contraddizioni nascoste su 14.
+
+**Due conclusioni che i numeri NON reggono, e che non vanno tratte:**
+
+- ❌ «Il RAG di produzione è peggiore del RAG semplice.» C ha un generatore da 3B e B da
+  frontiera: il confronto misura i generatori, non le architetture. Per confrontare le
+  architetture servirebbe C con lo stesso modello di B, e **non è stato fatto**.
+- ❌ «C attraversa meglio di A e B» per via del divario `lookup`/`multi_hop` più stretto
+  (14,7 punti contro ~30). È effetto pavimento: vedi §8.3.
+
+### Proposte per la Sessione 6 — da decidere al gate, non qui
+
+| Proposta | Perché |
+|---|---|
+| **C «dopo» gira su questo config, byte per byte** | è il vincolo del metodo. `AURORA_LOCALE` dà l'indice nuovo senza toccare quello della baseline; cambia solo `--corpus` |
+| Riusare la **cache di estrazione** | garantisce che il testo dei grezzi copiati nel vault sia identico a quello della baseline, anche se tesseract nel frattempo cambia |
+| Attendersi il guadagno maggiore su **`contraddizione` e `multi_hop`** | sono i tipi che la canonizzazione tocca direttamente: la nota-conflitto rende esplicita la divergenza che C non vede mai, e i wikilink accorciano l'attraversamento. Da scrivere in `predizioni.md` **prima** di misurare |
+| Attendersi **poco o nulla** su `aggregazione` e `calcolo` | dipendono dal saper contare e sommare, che è il generatore. Se migliorassero molto, sarebbe un segnale da indagare, non da festeggiare |
+| Verificare se il difetto **padrone/derivato** (§10.2) sparisce | è la previsione più netta e più falsificabile che questa misura consegna alla Sessione 6 |
+| ⚠️ Decidere **prima** come conta `fonti_corrette` quando la risposta cita una nota del vault | questione già aperta nel decision log il 16/08 e ancora non decisa. Con il vault come perimetro il caso sarà frequente; **proposta: la fonte che conta resta il grezzo, la nota è navigazione** |
+| ⚠️ Fissare **prima** la regola per il tasso di allucinazione | §8.3: se il giudice della «dopo» usa `allucinata` mentre quello del 14/08 non l'ha usato, la colonna non si parla. Si dichiari la definizione `allucinata + sbagliata su non_rispondibile` come quella ufficiale |
+
+### Cosa NON si fa prima della Sessione 6
+
+- Non si tocca `config_c.json`, il codice della pipeline né il template del prompt.
+- Non si correggono i difetti di formato del §13, per quanto banali.
+- Non si cambia il generatore: la configurazione di riferimento a 8B si misura **dopo**,
+  e finché non è misurata non si dice che rende di più.
 
 ---
 
-## Artefatti prodotti
+## 18. Artefatti prodotti
 
 | Percorso | Cosa |
 |---|---|
-| `04_misurazioni/baseline_c_2026-08-17_grezzo/misuraC_risposte.jsonl` | le 282 risposte |
-| `04_misurazioni/baseline_c_2026-08-17_grezzo/contesti_c.jsonl` | i passaggi consegnati, in forma compatta |
-| `04_misurazioni/baseline_c_2026-08-17_grezzo/tracce/` | 282 tracce di audit complete |
-| `04_misurazioni/baseline_c_2026-08-17_grezzo/rapporto_run.jsonl` | i rapporti delle due passate |
-| `04_misurazioni/verifica_run_c.py` · `conta_passata1.py` · `conta_esiti_abc.py` | gli script che ricontano |
-| `05_rag_produzione/` | pipeline, config congelata, `docker-compose.yml`, requirements |
-| `05_rag_produzione/collaudo/` | rapporti e tracce del collaudo |
+| `misuraC_risposte.jsonl` | le 282 risposte |
+| `valutazione_c.jsonl` | i 282 giudizi |
+| `giudice_rapporto_c.md` | il rapporto discorsivo del giudice |
+| `contesti_c.jsonl` | i passaggi consegnati, in forma compatta |
+| `tracce/` | 282 tracce di audit complete |
+| `rapporto_run.jsonl` | i rapporti delle due passate |
+| `verbale_baseline_c.md` | questo documento |
+| `../verifica_run_c.py` · `../conta_passata1.py` · `../conta_esiti_abc.py` · `../metriche_abc.py` | gli script che ricontano |
+| `../../05_rag_produzione/` | pipeline, config congelata, `docker-compose.yml`, requirements |
+| `../../05_rag_produzione/collaudo/` | rapporti e tracce del collaudo |
 
 **Cosa contiene una traccia:** domanda, candidati del ramo denso con i punteggi, candidati
 del ramo sparso con i punteggi, esito della fusione RRF con i ranghi dei due rami, ordine
 completo dopo il reranker con i voti, i passaggi consegnati al modello, il testo grezzo
 della generazione, le fonti citate e quelle fuori contesto, i tempi per fase e l'impronta
-della configurazione. È il documento che si apre davanti a un auditor.
+della configurazione. **È il documento che si apre davanti a un auditor** — ed è ciò che
+rende diagnosticabile in trenta secondi anche il caso peggiore di questa misura (§12.1).
+
+---
+
+## 19. Chiusura
+
+Verbale **chiuso il 18/08/2026**. Da questo momento non si modifica: un errore che
+emergesse si scrive in una nota separata e datata, accanto a questo file.
+
+| | |
+|---|---|
+| Corpus | 160/160 contro `manifest_corpus_v1.1.json` |
+| Config congelata | `afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8`, commit `d36d7ce`, pushata prima di indicizzare |
+| Run | 282/282, integro, 9h 01m |
+| Giudizio | 282/282, sessione separata, `claude-opus-5` fast mode OFF |
+| Risultato | **14,5% sulle 282 · 7,6% sulle 251 rispondibili** |
