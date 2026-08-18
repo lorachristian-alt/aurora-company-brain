@@ -199,3 +199,99 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   stato, decision log, commit, `git push` · la Sessione 1 ha committato senza pushare
   e il lavoro è rimasto su un solo disco; il push entra nel principio 5 della scaletta
   (sorgente) ed è propagato a metodo_03 §9.5, 00_INIZIA_QUI e LEGGIMI operativo.
+- **2026-08-17** · Il **vault sotto git privato SLITTA a fine progetto, prima della v2** ·
+  decisione del titolare. Registrata qui perché non venga riaperta a ogni sessione: fino
+  ad allora il vault vive fuori dal versionamento, con il backup zip di fine sessione
+  previsto dalle Sessioni 4-5.
+- **2026-08-17** · S3 · **Configurazione C congelata e PUSHATA prima di costruire
+  l'indice** (`config_c.json`, impronta `afb5893936f27a8a6c0a276e34206a9d87b9052b21ba59f8f8f8e3817e61b0e8`,
+  commit `d36d7ce` delle 12:44) · la pre-registrazione vale solo se è verificabile da
+  fuori: l'impronta è dentro il manifest dell'indice e dentro ognuna delle 282 tracce.
+- **2026-08-17** · S3 · **La prosa si corregge, il config no** · durante la costruzione
+  dell'indice stavo aggiungendo a `config_c.json` un'avvertenza di solo commento: ogni
+  byte entra nell'impronta, e l'indice in costruzione avrebbe smesso di corrispondere al
+  config che dichiarava di averlo prodotto. Revocata (`git diff` a zero); l'avvertenza è
+  finita in `metodo_04`. **Il meccanismo di congelamento ha funzionato contro chi
+  l'aveva scritto**, che è l'unico collaudo che conta.
+- **2026-08-17** · S3 · Scostamenti da `metodo_04` decisi PRIMA del congelamento, con il
+  motivo accanto al valore: reranker `bge-reranker-large` → **`bge-reranker-v2-m3`** (il
+  large è inglese/cinese, e il reranker è il pezzo che deve far vincere C su B su un
+  archivio italiano); **dedup dei chunk disattivato** (i duplicati sono contenuto,
+  metodo_01 §11); **canone e tabella alias fuori dai metadati** (sarebbe un archivio già
+  in parte organizzato, cioè ciò che la S6 deve misurare dopo); **niente ramo OCR per i
+  PDF** (sonda su tutti e 27: nessuna scansione cieca, sarebbe codice non esercitato).
+- **2026-08-17** · S3 · **Il runner scrive TUTTE le fonti citate, anche quelle
+  inventate** · filtrarle era banale e disonesto: in A e B il giudice vede le fonti come
+  il modello le ha scritte, e ripulire quelle di C le avrebbe dato meno allucinazioni
+  **per costruzione**. Costa a C (76 risposte su 282 citano un file fuori contesto) e si
+  tiene.
+- **2026-08-17** · S3 · **Il generatore misurato è di classe 3B, dichiarato come
+  PAVIMENTO prima di misurare** · la macchina ha 7,8 GB di RAM e nessuna GPU, sotto la
+  fascia minima che `metodo_04` §8 dichiara per sé. La config di **riferimento** (8B su
+  16-32 GB) è documentata e **non è mai stata misurata**: non si racconta come se lo
+  fosse, finché qualcuno non la conta.
+- **2026-08-17** · S3 · **Il runner si lancia STACCATO dalla shell** (`Start-Process` con
+  output su file) · i processi agganciati al terminale muoiono col terminale. Provato sul
+  campo: la finestra si è chiusa a metà passata 2 e il processo ha finito da solo — un
+  solo avvio nel log, una sola riga di rapporto, fine meno durata = lancio a 21 secondi di
+  scarto. La riprendibilità con `fsync` era progettata contro un rischio teorico; il
+  rischio si è presentato in forma diversa e la difesa ha retto senza interventi.
+- **2026-08-18** · S3, gate · **Baseline C: 14,5% corrette sulle 282 e 7,6% sulle 251
+  rispondibili — i due numeri NON si citano mai separati** · delle 41 corrette, 22
+  vengono da domande la cui risposta giusta è «il dato non c'è», e il modello ci arriva
+  perché **si astiene sempre**, non perché sappia distinguere. Il solo dato complessivo
+  racconta una capacità che il sistema non ha. Regola estesa al README e a ogni materiale
+  commerciale (scaletta, Sessione 7).
+- **2026-08-18** · S3, gate · **La diagnosi: il collo di bottiglia è il generatore, non
+  il recupero** · 70,2% di fonti giuste contro 14,5% di risposte giuste, 55,7 punti di
+  scarto: nel 70% dei casi il sistema aveva il documento in mano e ha sbagliato lo stesso
+  (Q089, Q170, Q209 negano un dato che sta nel file che stanno citando). **Sostituire il
+  generatore lasciando la pipeline invariata è l'unico intervento che può spostare questi
+  numeri.**
+- **2026-08-18** · S3, gate · **Il rischio dominante non sono le allucinazioni: sono le
+  75 `parziale`** · vere e non verificabili, il triplo delle 25 allucinazioni. Sulle
+  `contraddizione` è sistematico — 14 domande, 11 parziali, **zero corrette**: dà il
+  valore giusto e non si accorge mai che nell'archivio ne esiste un altro. **Per
+  un'azienda alimentare è il difetto peggiore**: consegna un numero verificabile e chiude
+  un'indagine che andava aperta.
+- **2026-08-18** · S3, gate · **Rischio-tipo per l'audit: la fattura Pakmatic da 4.912 €
+  inventata IDENTICA in Q193 e Q265** · riproducibile a temperatura 0, plausibile, e
+  coerente con sé stessa: chi incrociasse le due risposte troverebbe una conferma. È lo
+  scenario peggiore davanti a un auditor, ed è anche la prova migliore dell'argomento che
+  si vende — si apre la traccia e in trenta secondi si vede che il numero non c'è. **Si
+  vende la tracciabilità, non la correttezza.**
+- **2026-08-18** · S3, gate · **I guasti di formato della config C sono DIFETTI NOTI
+  DELLO STRUMENTO CONGELATO e NON si correggono prima della Sessione 6** · risposta
+  vuota, segnaposto letterale, degenerazione in loop, campo `fonti` che esplode in
+  frammenti, difetto padrone/derivato del retrieval. Sarebbero tutti banali da sistemare:
+  **fra «prima» e «dopo» cambia solo la forma dell'archivio, i bug dello strumento
+  compresi**, e un runner migliorato produrrebbe un delta che mescola due cause. Le
+  correzioni sono materiale per la config di **riferimento**, dopo S6. La lista di lavoro
+  è il §13 del verbale.
+- **2026-08-18** · S3, gate · **Tasso di allucinazione: definizione ufficiale =
+  `allucinata` + `sbagliata` su `non_rispondibile`**, fissata in `metodo_02` (addendum
+  del 18/08) · il giudice del 14/08 non usò MAI il campo `allucinata` (zero righe su 564)
+  e ripiegò su `sbagliata`; quello di C l'ha usato. Con due definizioni la colonna non si
+  parla. La somma concilia i casi e **dove `allucinata` è vuoto coincide col ripiego: le
+  righe A e B non cambiano di una cifra** (A 1/31 = 3,2% · B 0/31 · C 6/31 = 19,4%).
+- **2026-08-18** · S3, gate · **`fonti_corrette` nella misura «dopo»: conta il GREZZO, la
+  nota è navigazione** · fissata in `metodo_02` (addendum del 18/08). Chiude la questione
+  aperta il 16/08 in Sessione 2 (Q019 della mini-misura di fumo). Nella baseline
+  esistevano solo grezzi: se la nota contasse come fonte, i due lati del confronto
+  misurerebbero cose diverse.
+- **2026-08-18** · S3, gate · **`predizioni.md` è OBBLIGATORIO e si committa PRIMA che la
+  misura «dopo» parta** · con dentro: `contraddizione` e `multi_hop` attesi in salita,
+  `aggregazione` e `calcolo` attesi piatti (**un balzo lì si indaga, non si festeggia**),
+  sparizione del difetto padrone/derivato, e il richiamo alle due definizioni sopra. Un
+  delta raccontato a posteriori non è una previsione, è una giustificazione.
+- **2026-08-18** · S3, gate · **Ordine dei lavori dopo il ciclo: prima la Sessione 6, poi
+  la config di riferimento 8B su hardware adeguato** · registrata come **lavoro
+  post-ciclo CANDIDATO, non come impegno**. Motivo: cambiare generatore *e* forma
+  dell'archivio insieme renderebbe illeggibile il delta di sei sessioni. Una variabile
+  alla volta.
+- **2026-08-18** · S3, chiusura · **Ogni comando di sistema toccato da un run si dichiara
+  al titolare, e si ripristina a fine run** · nato dall'episodio `powercfg`: sospensione e
+  ibernazione erano state disattivate per il run notturno e i valori originali non erano
+  stati annotati prima di cambiarli, quindi il ripristino è dovuto passare dal titolare.
+  Regola e checklist di ripristino scritte nel runbook di `metodo_04` §9. Chi cambia
+  l'impostazione spesso non è chi userà la macchina domani.

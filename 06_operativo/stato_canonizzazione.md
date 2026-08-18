@@ -4,6 +4,8 @@
 > cosa resta. Solo stato, mai una regola: le regole stanno in
 > `01_metodo\metodo_03_canonizzazione.md`, le decisioni in `06_operativo\decision_log.md`.
 > **Aggiornato al** · 17/08/2026, chiusura della Sessione 2 (fetta pilota) dopo il gate.
+> Riga «prossima sessione» allineata il 18/08 alla chiusura della Sessione 3; lo stato
+> della pipeline RAG sta in `06_operativo\stato_rag_produzione.md`, non qui.
 
 ---
 
@@ -17,7 +19,7 @@
 | Note prodotte | **63** (di cui 11 `_index` e 6 note-strumento) |
 | Suite QA | implementata, collaudata e **verde** sul perimetro di lotto |
 | `llms.txt` | rigenerato dal frontmatter, allineato |
-| **Prossima sessione** | **S3 — pipeline RAG di produzione e baseline C sul corpus grezzo** |
+| **Prossima sessione** | **S4 — canonizzazione integrale** (S3 chiusa il 18/08: baseline C misurata, gate approvato) |
 
 ## Densità del pilota — il dato per dimensionare i lotti di S4
 

@@ -84,23 +84,28 @@ originale di lavoro** (`Desktop\sources`) vivono FUORI dal repository. `02_corpu
 
 ---
 
-## Dove siamo adesso (15/08/2026)
+## Dove siamo adesso (18/08/2026)
 
-**Fatto:** corpus v1 congelato con manifest SHA-256; baseline A (agentico: 70,6%
-corrette, 0 allucinazioni) e B (RAG semplice: 44,7%) misurate il 14/08 sul grezzo;
-repository riorganizzato in questa struttura; git attivo con remote PRIVATO
-`github.com/lorachristian-alt/aurora-company-brain` (pubblico solo in Sessione 7).
+**Fatto:** corpus v1 congelato con manifest SHA-256; **tre baseline misurate sul grezzo** —
+A (agentico, 70,6% corrette), B (RAG semplice, 44,7%) il 14/08, e **C (RAG Advanced di
+produzione, 14,5% sulle 282 e 7,6% sulle 251 rispondibili)** il 17-18/08; manuale di
+canonizzazione approvato (S1) e fetta pilota L26130 canonizzata con design validato (S2);
+pipeline RAG di produzione costruita, congelata e documentata in `05_rag_produzione/`.
 
-**Deciso** (dettagli e motivi nel decision log): l'espansione dell'archivio slitta a
-corpus v2; prima si chiude il ciclo end-to-end sui 159; Chroma resta il metro della
-misura B, Qdrant sarà il motore della config C; Notion entra solo come fonte inbound;
-la baseline C si misura sul grezzo prima di canonizzare.
+⚠️ **La correttezza di C si cita SEMPRE con due numeri, 14,5% e 7,6%, mai uno solo:** le
+altre 22 corrette vengono da domande la cui risposta giusta è «il dato non c'è», e il
+sistema ci arriva perché si astiene sempre, non perché sappia distinguere.
 
-**Prossimo passo:** completare la Sessione 0 della scaletta (git, estensione mtime del
-manifest, verifica del perimetro della misura «dopo»), poi Sessione 1: il manuale di
-canonizzazione.
+**Deciso** (dettagli e motivi nel decision log): Chroma resta il metro (B), Qdrant è il
+motore (C); Notion solo come fonte in entrata; la config C è **intoccabile fino a fine
+Sessione 6**, difetti di formato compresi — fra «prima» e «dopo» cambia solo la forma
+dell'archivio, i bug dello strumento inclusi; `predizioni.md` va scritto e committato
+**prima** della misura «dopo»; il vault sotto git privato slitta a fine progetto.
 
----
+**La cosa più utile che la baseline C ha insegnato:** il collo di bottiglia è il
+**generatore**, non il recupero — 70,2% di fonti giuste contro 14,5% di risposte giuste.
+
+**Prossimo passo:** Sessioni 4-5, canonizzazione integrale dei 138 grezzi che restano.
 
 ## Le 6 regole d'oro
 

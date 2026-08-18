@@ -150,10 +150,25 @@ note atomiche collegate) cambia **una sola variabile**: la forma dell'archivio.
 |---|---|---|---|---|---|---|
 | Baseline — grezzo, agentico (A) | 14/08/2026 | 3.2% | 50.0% | 82.6% | 52.7% | 91.8% |
 | Baseline — grezzo, RAG semplice (B) | 14/08/2026 | 0.0% | 57.1% | 61.6% | 31.1% | 80.5% |
-| Baseline — grezzo, RAG Advanced (C) | *da misurare* | | | | | |
+| Baseline — grezzo, RAG Advanced (C) | 17/08/2026 | 19.4% | 0.0% | 17.4% | 2.7% | 70.2% |
 | Dopo l'organizzazione, A | | | | | | |
 | Dopo l'organizzazione, B | | | | | | |
 | Dopo l'organizzazione, C | | | | | | |
+
+**⚠️ La riga C non ha una colonna di correttezza, e quando la si cita a voce o a testo
+vanno SEMPRE due numeri insieme: 14,5% di risposte corrette sulle 282, e 7,6% sulle 251
+domande a cui una risposta esisteva.** Le altre 22 corrette vengono da domande la cui
+risposta giusta è «il dato non c'è», e il sistema ci arriva perché si astiene sempre, non
+perché sappia distinguere. Citare il 14,5% da solo racconta una capacità che il sistema
+non ha. Il verbale completo è in
+`04_misurazioni/baseline_c_2026-08-17_grezzo/verbale_baseline_c.md`.
+
+**Le tre configurazioni sono tre strumenti diversi, non tre versioni dello stesso.** In
+particolare A e B scrivono le risposte con un modello di frontiera, C con un LLM locale da
+3 miliardi di parametri su un portatile da 8 GB senza GPU: il confronto C/B misura i
+generatori, non le architetture. I numeri di C sono un **pavimento**, e la configurazione
+di riferimento (classe 8B) **non è mai stata misurata** — non la si racconta come se lo
+fosse.
 
 Zero allucinazioni su 564 valutazioni A+B: entrambe le configurazioni sanno dire «non
 c'è». Il divario vero è altrove — sulle domande che attraversano più documenti

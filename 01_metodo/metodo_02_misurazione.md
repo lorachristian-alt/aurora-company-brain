@@ -706,3 +706,59 @@ Scritto PRIMA che il vault esista, perché il perimetro non si improvvisa al mom
   `sources\` e restano 160.
 - `03_valutazione\` resta fisicamente fuori dal vault: il perimetro si fa rispettare
   da solo, come nella baseline.
+
+---
+
+## Addendum — Due definizioni fissate PRIMA della misura «dopo» (18/08/2026)
+
+Approvate al gate della Sessione 3. Si fissano **ora**, prima che la Sessione 6 esista,
+perché una definizione di metrica scelta dopo aver visto i numeri non è una definizione:
+è una scelta di risultato.
+
+### 1. `fonti_corrette` quando la risposta cita una NOTA del vault
+
+**La fonte che conta è il GREZZO. La nota è navigazione, non provenienza.**
+
+Nella misura «dopo» il perimetro è l'intero vault, che contiene sia le note sia la copia
+dei 160 grezzi in `sources\`. Una risposta può quindi citare `docs\doc-ccp2-limite-
+critico.md` invece del manuale HACCP da cui quel fatto viene. Il caso si è già presentato
+una volta nella mini-misura di fumo della Sessione 2 (Q019).
+
+Regola:
+
+- `fonti_corrette: true` richiede che sia citato **almeno un file grezzo** fra quelli
+  attesi dall'`eval_set`;
+- una nota citata **da sola** non soddisfa il requisito, per quanto la nota sia corretta e
+  ben scritta;
+- una nota citata **in aggiunta** al grezzo non degrada il campo: è rumore utile.
+
+**Perché.** Nella baseline esistevano solo grezzi. Se nella misura «dopo» la nota contasse
+come fonte, i due numeri misurerebbero cose diverse e il confronto prima/dopo — che è
+l'intero scopo del progetto — non si potrebbe fare. La nota è il percorso per arrivare al
+documento; il documento resta ciò che un auditor apre.
+
+### 2. Tasso di allucinazione
+
+**Definizione ufficiale: `allucinata` + `sbagliata` sulle sole domande di tipo
+`non_rispondibile`.**
+
+P4 lo definiva come sola percentuale di `allucinata`. Nella valutazione A/B del 14/08 il
+campo `allucinata` **non fu mai usato** — zero righe su 564 — e il giudice di allora
+ripiegò su `sbagliata`, dichiarandolo. Nella baseline C del 17/08 il campo è stato usato
+davvero. Con due definizioni diverse la colonna non si parla.
+
+La somma dei due esiti concilia i casi:
+
+| | A (14/08) | B (14/08) | C (17/08) |
+|---|---:|---:|---:|
+| `allucinata` su `non_rispondibile` | 0/31 | 0/31 | 2/31 |
+| `sbagliata` su `non_rispondibile` | 1/31 | 0/31 | 4/31 |
+| **somma — definizione ufficiale** | **1/31 = 3,2%** | **0/31 = 0,0%** | **6/31 = 19,4%** |
+
+⚠️ **Dove il campo `allucinata` è vuoto, la somma coincide esattamente col ripiego del
+14/08: le righe A e B della tabella dei risultati non cambiano di una cifra.** È il motivo
+per cui questa definizione è stata scelta e non un'altra.
+
+**Cosa misura, detto a parole:** su una domanda la cui risposta giusta è «il dato non è in
+archivio», quante volte il sistema ha invece affermato qualcosa. Non distingue l'invenzione
+dalla deduzione sbagliata, e va bene così: davanti a un auditor sono lo stesso danno.

@@ -329,7 +329,46 @@ Nessun passo qui sotto richiede di capire come funziona un embedding.
 5. OneDrive in pausa e aggiornamenti di Windows rimandati: un riavvio automatico a metà
    run costa la notte.
 6. Il runner scrive in append con `fsync`: se qualcosa va storto si riprende, non si
-   ricomincia.
+   ricomincia. **Lancialo staccato dalla shell** (su Windows `Start-Process` con l'output
+   rediretto su file): un processo agganciato al terminale muore con il terminale, e la
+   finestra si chiude più spesso di quanto si creda. Provato sul campo il 17/08/2026: la
+   shell è caduta a metà run e il processo staccato ha finito da solo.
+
+**A fine run, PRIMA di considerare chiuso il lavoro: rimetti a posto la macchina.**
+
+7. **Ripristina le impostazioni di sistema toccate per il run** — sospensione,
+   ibernazione, spegnimento dello schermo. Un portatile che non si sospende più consuma
+   batteria e si scalda per settimane, e nessuno collega la cosa al run di due mesi prima.
+   Il ripristino è parte del run, non un extra:
+
+   ```
+   powercfg /change standby-timeout-ac 30
+   powercfg /change hibernate-timeout-ac 180
+   powercfg /change monitor-timeout-ac 10
+   ```
+
+   ⚠️ **Annota i valori PRIMA di cambiarli** (`powercfg /query SCHEME_CURRENT SUB_SLEEP`),
+   altrimenti al ripristino si mettono valori inventati — che è esattamente ciò che è
+   successo il 17/08/2026, e per cui il ripristino è dovuto passare dal titolare.
+
+8. **Riattiva quello che avevi messo in pausa**: sincronizzazione dei file, aggiornamenti
+   di sistema, antivirus se sospeso.
+
+### ⚠️ La regola che nasce da qui: ogni comando di sistema si dichiara
+
+**Chi esegue il run dichiara al titolare OGNI comando che tocca la configurazione della
+macchina, non solo quelli che vanno storti.** Vale per `powercfg`, per le impostazioni di
+risparmio energia, per i servizi avviati o fermati, per le variabili d'ambiente
+persistenti, per le pause a sincronizzazione e aggiornamenti.
+
+Il motivo non è la buona educazione: è che **chi ha cambiato l'impostazione spesso non è
+chi userà la macchina domani**, e un effetto collaterale non dichiarato diventa un guasto
+misterioso. Un cambiamento dichiarato è un cambiamento che qualcuno può annullare; uno
+taciuto sopravvive a tutti.
+
+La forma è minima — una riga nel rapporto di fine run: *«ho cambiato X da A a B, per il
+motivo Y; ripristinato / da ripristinare»* — e vale anche quando il ripristino è già
+stato fatto.
 
 ---
 

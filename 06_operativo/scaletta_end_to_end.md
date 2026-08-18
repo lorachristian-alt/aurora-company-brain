@@ -137,6 +137,18 @@ metodo_03 e SOLO POI si industrializza.
 
 ## Sessione 3 — Pipeline RAG di produzione + baseline C · Terminale: `05_rag_produzione\`
 
+- [x] **FATTA il 17-18/08/2026 — gate approvato dal coordinatore.** Pipeline costruita e
+      congelata (`config_c.json`, impronta `afb58939…`, commit `d36d7ce` **pushato prima
+      di indicizzare**); corpus 160/160; 1.902 chunk di cui **1.897 `nativa`, esattamente
+      i 1.897 della config B**; indice Qdrant 1.902 punti; collaudo 8/9 attesi consegnati
+      e tutti gli 11 formati raggiungibili; run 282/282 in 9h 01m, verificato **INTEGRO**.
+      Giudizio in sessione separata: **14,5% corrette sulle 282 · 7,6% sulle 251
+      rispondibili** — i due numeri non si citano mai separati. Diagnosi: **il collo di
+      bottiglia è il generatore, non il recupero** (70,2% di fonti giuste contro 14,5% di
+      risposte giuste). Verbale chiuso in
+      `04_misurazioni/baseline_c_2026-08-17_grezzo/verbale_baseline_c.md`, rapporto di
+      gate in `06_operativo/rapporto_gate_s3.md`.
+
 Guida: `01_metodo/metodo_04_rag_produzione.md`, passi S3.1-S3.7 — ambiente (Qdrant,
 Ollama, modelli congelati con checksum), ingestione, indicizzazione del corpus v1
 verificato contro il manifest, catena ibrida (BM25+denso → RRF → reranker → Llama a
@@ -164,10 +176,26 @@ di backup del vault + commit + push + stato.
 
 ## Sessione 6 — Pre-registrazione e misura «dopo» · Terminale: cartelle di misura
 
-1. PRIMA di misurare: `predizioni.md` con le attese dichiarate (multi-hop e
-   aggregazioni in maggior crescita; allucinazione ferma o in calo; conflitti
-   riconosciuti in crescita; fonti più precise) — il delta si giudica contro le
-   attese, non raccontato a posteriori.
+1. **PRIMA di misurare, e non è un consiglio: `06_operativo/predizioni.md` si scrive e
+   si COMMITTA prima che la misura «dopo» parta.** Obbligo fissato al gate della
+   Sessione 3 (18/08/2026): un delta raccontato a posteriori non è una previsione, è una
+   giustificazione. Deve contenere, per iscritto e datato:
+
+   | Voce | Attesa dichiarata |
+   |---|---|
+   | `contraddizione` | **in salita** — è il tipo che la canonizzazione tocca più direttamente: la nota-conflitto rende esplicita la divergenza che C non vede mai (0 su 14 nella baseline) |
+   | `multi_hop` | **in salita** — i wikilink accorciano l'attraversamento |
+   | `aggregazione` | **piatta** — dipende dal saper contare, che è il generatore, non l'archivio |
+   | `calcolo` | **piatta** — stesso motivo |
+   | ⚠️ un balzo su `aggregazione` o `calcolo` | **si indaga, non si festeggia**: se l'archivio organizzato migliorasse ciò che dipende dal generatore, la spiegazione più probabile è che sia cambiato qualcos'altro |
+   | difetto **padrone/derivato** (§10.2 del verbale C) | **sparisce** — è la previsione più netta e falsificabile che la baseline C consegna: nel vault il documento-padrone e il derivato sono note distinte con `fonti` esplicite |
+   | allucinazione | ferma o in calo |
+   | fonti | più precise |
+
+   Più le **due definizioni già fissate** in `metodo_02` (addendum del 18/08), da
+   richiamare in `predizioni.md` perché nessuno le riapra a numeri visti:
+   **`fonti_corrette` conta il grezzo, la nota è navigazione**; **tasso di allucinazione
+   = `allucinata` + `sbagliata` su `non_rispondibile`**.
 2. Misure A, B e C col protocollo congelato, perimetro = vault; cartelle
    `04_misurazioni/dopo_<data>_vault_<config>/`.
 3. Valutazione in terza sessione; varianza: doppio giro su ~30 domande per il ±.
@@ -176,6 +204,15 @@ di backup del vault + commit + push + stato.
 ---
 
 ## Sessione 7 — Analisi, narrazione, pubblicazione · Terminale: radice
+
+⚠️ **Regola vincolante per il README v2 e per ogni materiale commerciale: dove si cita
+la correttezza della configurazione C vanno SEMPRE due numeri insieme — 14,5% sulle 282
+e 7,6% sulle 251 rispondibili — mai uno separato dall'altro.** Le altre 22 corrette
+vengono da domande la cui risposta giusta è «il dato non c'è», e il sistema ci arriva
+perché si astiene sempre, non perché sappia distinguere. La riga della tabella dei
+risultati **non ha una colonna di correttezza, e va bene così**: le quattro metriche di
+P4 non la contengono, e il doppio numero vive nel testo accanto alla tabella, dove c'è
+spazio per la spiegazione. Vale identico per le righe «dopo» della Sessione 6.
 
 Confronto per tipo di domanda e per configurazione, delta contro le predizioni, casi
 commentati. Demo pack per i clienti: 10 confronti prima/dopo leggibili da un titolare
