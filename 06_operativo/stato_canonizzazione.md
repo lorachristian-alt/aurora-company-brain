@@ -3,7 +3,7 @@
 > **Cos'è** · Lo stato di oggi del vault: cosa è stato canonizzato, con quale esito, e
 > cosa resta. Solo stato, mai una regola: le regole stanno in
 > `01_metodo\metodo_03_canonizzazione.md`, le decisioni in `06_operativo\decision_log.md`.
-> **Aggiornato al** · 18/08/2026, chiusura del lotto 1A della Sessione 4.
+> **Aggiornato al** · 19/08/2026, chiusura del lotto 1B della Sessione 4.
 > Lo stato della pipeline RAG sta in `06_operativo\stato_rag_produzione.md`, non qui; il
 > piano dei lotti e la tabella di tracciamento delle questioni trasversali stanno in
 > `06_operativo\matrice_lotti_corpus_v1.md`, non qui.
@@ -14,14 +14,53 @@
 
 | | |
 |---|---|
-| Lotti chiusi | **2** — `l26130` (fetta pilota, S2) e **`1A`** (Linea 1: turno, CCP, confezionatrice) |
+| Lotti chiusi | **3** — `l26130` (fetta pilota, S2), **`1A`** (Linea 1: turno, CCP, confezionatrice) e **`1B`** (freddo ed energia) |
 | Grezzi copiati nel vault | 160/160, verificati contro `manifest_corpus_v1.1.json`: zero scarti, zero estranei, zero sottocartelle |
-| Grezzi canonizzati | **29** dei 160 |
-| Note prodotte | **105** (di cui 11 `_index` e 6 note-strumento): **88 di contenuto** |
-| Suite QA | implementata, collaudata e **verde** sul perimetro di lotto |
+| Grezzi canonizzati | **33** dei 160 |
+| Note prodotte | **145** (di cui 11 `_index`, 6 note-strumento e 2 di diario): **126 di contenuto** |
+| Suite QA | **verde sul perimetro di lotto**; sul vault tre controlli su quattro sono a zero errori |
 | `llms.txt` | rigenerato dal frontmatter, allineato |
-| Matrice dei lotti | **approvata e congelata il 18/08**, poi il lotto 1 spezzato in 1A e 1B prima di scriverlo: **11 lotti**, 160/160 grezzi, zero scoperti, zero doppi |
-| **Prossimo lotto** | **Lotto 1B — Linea 1: impianti ausiliari, energia, celle, tarature**, 6 grezzi, budget 22-30 note di contenuto |
+| Matrice dei lotti | **approvata e congelata il 18/08**; il lotto 1 spezzato in 1A e 1B, poi 1B spezzato in 1B e 1C: **12 lotti**, 160/160 grezzi, zero scoperti, zero doppi |
+| **Prossimo lotto** | **Lotto 1C — Metrologia e gas tecnici**, 2 grezzi (elenco tarature e bolla azoto), budget 12-18 note di contenuto |
+
+⚠️ **Errata del 19/08/2026 sui numeri del lotto 1A.** Questo stato dichiarava «105 note, di
+cui 11 `_index` e 6 note-strumento: 88 di contenuto». `qa_all.py` a chiusura di 1A contava
+**106** note: il 105 escludeva `_index-sources` ma sottraeva ugualmente tutti e undici gli
+`_index`. Il numero corretto è **89 note di contenuto**. La correzione resta visibile, come
+prescrive la regola del gate 1A.
+
+## Il lotto 1B, chiuso il 19/08/2026
+
+**Perimetro:** 4 grezzi, elencati in `06_operativo\qa\lotti\lotto_01b_freddo_energia.txt`.
+Il log delle centraline frigorifere di aprile, il contratto di manutenzione degli impianti
+del freddo — una bozza mai firmata —, i contatori di reparto di maggio e la fattura
+dell'energia elettrica dello stesso mese.
+
+| | |
+|---|---|
+| Nato da | **spezzamento in apertura** del vecchio 1B da 6 grezzi: proiettava ~41 note contro un budget di 22-30 (+37 %), oltre la soglia di E21 |
+| Budget dichiarato | 22-30 note di contenuto |
+| Prodotte | **38** di contenuto, più 1 di diario — **sforato di 8**, e lo scostamento è tutto post-revisione |
+| Densità | **9,5 note per grezzo**, contro 6,0 di 1A e 2,1 del pilota |
+| QA di lotto | **0 ERRORI, 18 AVVISI**, famiglie disgiunte che sommano al totale |
+| Passaggi di controllo | **quattro giri di giudizio** più la revisione col canone: 31 rilievi distinti accolti, tutti fondati |
+| Aree nuove | **`amministrazione`**, quarto hub d'area: nasce qui e non nel lotto 6, perché è il lotto che porta una fattura passiva |
+| Versione del prompt di giudizio | **v2**, prima applicazione |
+
+**Cosa ha trovato.** Che la cella surgelati `CF-02` **è dentro il CCP4** — il manuale HACCP
+le prescrive limite critico −18 °C, soglia di allarme −16 e notifica nominale — e che quindi
+le sei risalite di aprile sono superamenti di un limite critico, non guasti d'impianto.
+E **tre azioni correttive registrate che il dato disponibile non conferma**: è una famiglia
+di divergenze nuova per il canone, e riguarda ciò che un auditor verifica per primo.
+
+**Sul lato energia:** i contatori di reparto misurano il 45,9 % del prelievo fatturato, il
+costo di un kWh ha tre valori diversi e nessuno coincide con quello usato nei conti interni,
+e le somme che «non tornano» nel file dei consumi sono arrotondamenti — verificato, non
+assunto.
+
+⚠️ **Il riconteggio ha corretto tre numeri del canone** (59/137/165 → 68/174/186): la
+conclusione qualitativa resta, il conteggio no. Il canone è stato accresciuto in sezione
+datata, non riscritto.
 
 ## Il lotto 1A, chiuso il 18/08/2026
 
@@ -51,16 +90,17 @@ raccontano lo stesso turno**.
 
 ⚠️ **Due difetti che il pilota aveva già pagato si sono ripresentati**: una fuga di canone e
 una dichiarazione di assenza falsa. Entrambi trovati dai passaggi di revisione, entrambi
-corretti. Il dettaglio sta in `06_operativoapporto_lotto_1a.md`.
+corretti. Il dettaglio sta in `06_operativo
+apporto_lotto_1a.md`.
 
-## Il perimetro vault, per la prima volta quasi verde
+## Il perimetro vault
 
 | Controllo | Errori su tutto il vault |
 |---|---|
 | `qa_frontmatter` | **0** |
 | `qa_link_integrity` | **0** |
 | `qa_provenance` | **0** |
-| `qa_copertura` | 135 — **131 grezzi non ancora canonizzati e 4 aree senza hub** |
+| `qa_copertura` | 130 — **127 grezzi non ancora canonizzati e 3 aree senza hub** |
 
 Tutti gli errori residui del vault sono la sua **incompletezza**: nessuno è un difetto delle
 note che esistono.
@@ -193,9 +233,10 @@ giudizio, e senza il secondo giro sarebbe rimasta.
 
 ## Cosa resta
 
-- **138 grezzi** non ancora canonizzati, che sono l'oggetto delle Sessioni 4-5.
-- Le **quattro aree** del vocabolario chiuso ancora senza hub: amministrazione, risorse
-  umane, sicurezza-ambiente, ricerca-sviluppo. Nasceranno con i lotti che le toccheranno.
+- **127 grezzi** non ancora canonizzati, che sono l'oggetto del resto delle Sessioni 4-5.
+- Le **tre aree** del vocabolario chiuso ancora senza hub: risorse umane, sicurezza-ambiente,
+  ricerca-sviluppo. Nasceranno con i lotti che le toccheranno; `amministrazione` è nata con
+  il lotto 1B.
 - La **nota di inventario dell'archivio** in `data\`, che dovrà tenere i conteggi per
   formato, i duplicati e i file privi di contenuto informativo: è la nota che soddisfa la
   copertura sui file muti, e senza di essa `_index-sources` non può dichiarare un numero.
@@ -204,6 +245,7 @@ giudizio, e senza il secondo giro sarebbe rimasta.
   entrerà il documento che li porta.
 - La **mappatura file × fatto** (`06_operativo\matrice_corpus_v1.csv`), che si compila lotto
   per lotto e si committa a ogni chiusura di lotto — non in blocco.
-- Le **16 questioni trasversali** del seme della tabella di tracciamento: vivono in
-  `matrice_lotti_corpus_v1.md`, e al gate finale sono la prova che nessun conflitto è stato
-  dimenticato.
+- Le **41 righe** della tabella di tracciamento, che vivono in `matrice_lotti_corpus_v1.md`
+  e al gate finale sono la prova che nessun conflitto è stato dimenticato. ⚠️ Due coppie del
+  seme iniziale — T21/T29 e T22/T30 — sono **duplicati**: la duplicazione è dichiarata sulle
+  righe, non risolta cancellandone una.

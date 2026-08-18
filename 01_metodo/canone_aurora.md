@@ -322,3 +322,54 @@ Non sono contraddizioni: sono verifiche che il canone regge, e vale la pena regi
   la `scheda_manutenzione_ordinaria_forni_industrial.csv`, righe 20-21, attesta che le sonde
   del PT-104 e la sonda a cuore erano in taratura valida al 10/05, con la seconda esplicitamente
   legata al modulo `MOD-QA-12`.
+
+
+## Aggiunte del 19/08/2026 — contraddizioni emerse in Sessione 4, lotto 1B (freddo ed energia)
+
+Registrate applicando la procedura di **categoria B** di `metodo_03_canonizzazione.md` §9.5:
+divergenze reali del corpus, non elencate nei gruppi precedenti, trovate dal revisore
+indipendente sui quattro grezzi del lotto 1B — log allarmi della cella surgelati, contratto
+di manutenzione frigo (bozza non firmata), contatori di reparto e fattura dell'energia.
+**I grezzi non sono stati toccati.** Ciascuna ha gia' la sua nota nel vault.
+
+⚠️ **Tre di queste righe hanno la stessa forma, ed e' una forma nuova per questo canone:
+un'AZIONE CORRETTIVA registrata che il dato disponibile non conferma.** Non sono divergenze
+fra due misure: sono divergenze fra cio' che un registro dichiara di aver fatto e cio' che una
+registrazione automatica mostra. Vale la pena isolarle come famiglia, perche' e' il tipo di
+divergenza che un sistema interrogato non trova mai citando una fonte sola.
+
+| Cosa diverge | Dove | Valore da preferire |
+|---|---|---|
+| **La non conformita' del 10/04 attribuisce al tunnel sbrinamenti che il log registra sulla cella** | `non_conformita_interne_registro_2026.csv` riga `NC-2026-067` del 10/04/2026 → «TS-01 allarme sbrinamento ricorrente, 3 eventi in settimana, capacita ridotta», gravita' alta, causa «obsolescenza impianto», costo stimato 2.600 EUR; `log_allarmi_cella_frigo_surgelati_aprile.log` → per il tunnel **nessun evento**, solo 429 letture e un riavvio, mentre i 192 sbrinamenti del mese sono tutti della cella `CF-02` e proprio in quei giorni raddoppiano | **Nessuno.** O il log non copre gli eventi del tunnel, pur registrandone le temperature ogni cinque minuti, o la non conformita' e' intestata all'impianto sbagliato. ⚠️ Se fosse il secondo caso, causa e azione — «manutenzione tampone, pianificazione installazione nuovo tunnel» — sono state decise sul pezzo sbagliato, e il pezzo giusto e' quello che a maggio consuma il 49,7 % in piu' |
+| **L'azione correttiva di gennaio sposta gli sbrinamenti in fascia notturna; ad aprile sono sulle ventiquattro ore** | `non_conformita_interne_registro_2026.csv` riga `NC-2026-017` del 30/01/2026, gravita' alta, **CHIUSA** il 03/02 → causa «sbrinamento evaporatore programmato in orario di carico», azione «spostato ciclo sbrinamento su fascia notturna»; il log di aprile → sbrinamenti alle 04, 10, 16 e 22 fino all'11/04, poi otto al giorno, poi dodici | **Nessuno.** Il log non copre febbraio e marzo, quindi non si sa se l'azione sia stata applicata e disfatta o mai applicata. ⚠️ Tocca l'**efficacia di un'azione correttiva chiusa**, che e' cio' che BRCGS e IFS chiedono di verificare: chiusa in quattro giorni, su una non conformita' di gravita' alta |
+| **L'azione correttiva del 30/05 «riduce» a cinque minuti un allarme che il 15/04 era gia' a cinque** | `non_conformita_interne_registro_2026.csv` riga `NC-2026-114` del 30/05/2026 → «riparazione fermo porta, allarme porta aperta ridotto a 5 min»; log del 15/04 → `ALARM DOOR_TIMEOUT LIM=00:05:00` | **Nessuno.** O l'azione descrive come nuovo un parametro esistente — e allora non cambia niente — o la soglia era stata allargata e riportata indietro senza che nessun documento lo registri, mentre la stessa centralina registra per iscritto gli altri cambi di parametro |
+| **Due incrementi diversi per lo stesso mese, dentro la stessa fattura** | `bolletta_VenetaEnergia_maggio2026.pdf` pag. 4, riepilogo per la contabilita' → «ctr budget energia mag: +9,4% su apr»; pag. 2, grafico dei dodici mesi → `apr26 169.302` e `mag26 178.480`, cioe' **+5,4 %** | **Nessuno, e il perimetro non e' dichiarato.** Il +9,4 % potrebbe essere in euro anziche' in kWh — il contratto e' indicizzato al PUN — ma la fattura non lo dice e le fatture di aprile non sono in archivio. E' il numero che va al direttore di stabilimento |
+| **Il terzo quasi-omografo Peruffo** | **Attilio Peruffo**, legale rappresentante di Frigotecnica Berica S.r.l. (`contratto_manutenzione_impianto_frigo_TS01.docx`), accanto alla coppia gia' registrata **Peruffo Maria Grazia** (visura) / **Peruzzi Maurizio** (bilancio) | **Sono tre persone diverse.** Non e' una divergenza fra valori: e' una trappola di entity resolution che il corpus contiene ora in tre esemplari. Registrato in `alias_entita.md` classe B |
+| **Chi ha sbrinato la cella il 24/04: l'officina interna o un tecnico esterno** | `scheda_manutenzione_ordinaria_forni_industrial.csv` riga 103 → sbrinamento programmato mensile di `CF-02` eseguito il `24/04/26` da «interno (Bissoli)», stato `OK`; `log_allarmi_cella_frigo_surgelati_aprile.log` → lo stesso giorno uno sbrinamento **manuale** comandato in sessione di assistenza da un operatore **esterno** (`OP=EXT`, `ID=FRIGOTEC-11`) | **Nessuno.** O sono due attivita' diverse nella stessa giornata — il ciclo programmato e uno straordinario — o i due documenti attribuiscono lo stesso intervento a due esecutori diversi. Nessuna delle due fonti lo dichiara, e il rapporto di lavoro di quella giornata non e' in archivio |
+| **Due date per la stessa procura, nello stesso rigo** | `contratto_manutenzione_impianto_frigo_TS01.docx`, intestazione delle parti → «giusta procura del **15/09/2024 03/11/2025**», due date affiancate senza congiunzione | **Nessuno.** E' un'incoerenza **intra-file**, prodotta dalle «revisioni NON accettate» che il documento dichiara in testa: stesso meccanismo dei due canoni dell'art. 9.1. Per il precedente del 18/08 si scrive come nota che la dichiara, non come questione aperta. Riguarda il potere di firma del direttore di stabilimento |
+
+### Una correzione ai numeri di questo canone, non alle sue conclusioni — 19/08/2026
+
+⚠️ **La sezione «Un caso che sembra un errore e non lo e': i consumi energetici» dichiara tre
+numeri che non reggono al riconteggio**, e il divieto 36 di `metodo_03` vale esplicitamente anche
+per i numeri scritti nei documenti di metodo. Il canone si accresce e non si riscrive: la sezione
+del 15/08 resta dov'e', e questa riga dice cosa e' cambiato.
+
+| Grandezza | Nel canone | Ricontata sul grezzo, due volte in modo indipendente |
+|---|---|---|
+| righe in cui la somma delle fasce non fa il totale | 59 | **68** su 186 |
+| righe in cui il costo non e' totale x tariffa | 137 | **174** su 186 |
+| righe entro 1,5 kWh dal consumo reale | «165 su 165» | **186 su 186** |
+
+**La conclusione qualitativa del canone resta intatta e confermata:** non sono errori di
+calcolo, sono arrotondamenti all'intero con il costo calcolato sul consumo reale. Cambia solo
+il conteggio. **Come nasce il numero vecchio:** le righe con data nel formato `gg/mm/aa` sono
+esattamente **165**, e le altre **21** sono in `aaaa-mm-gg` — l'analisi che ha prodotto «165 su
+165» leggeva un solo formato dei due che convivono in quella colonna.
+
+⚠️ Nella stessa famiglia, una precisazione alla riga «Integrita' del log cella» del secondo
+gruppo: dopo il riavvio del 21/04 e' la centralina del **tunnel** a ripartire con `RTC=NOSYNC`,
+mentre quella della **cella** riparta con `RTC=SYNC`. La conclusione — il log non e'
+utilizzabile come evidenza in audit — regge sugli altri due difetti (la durata gia' presente nel
+record di apertura e il file troncato), ma l'orologio non sincronizzato **non toglie data agli
+allarmi di temperatura della cella**.

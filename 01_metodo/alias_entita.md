@@ -90,6 +90,8 @@ Le sostituzioni note dello scanner sono `0`↔`O`, `l`↔`1`, `S`↔`5`.
 | `entita-analytica-veneta` | «Analytica Veneta» · «analytica» · «il laboratorio esterno» | rapporto di prova, trascrizione, vendor rating |
 | `entita-csqa` | `CSQA` · «l'ente di certificazione» | certificato BRCGS, rilievo audit, conferma incarico |
 | `entita-unicredit` | «UniCredit» · «unicredit» · «la filiale di Cologna» | estratto conto, trascrizione |
+| `entita-frigotecnica-berica` | «FRIGOTECNICA BERICA S.r.l.» · «Frigotecnica Berica» · P.IVA `02744810249` · certificato F-gas d'impresa `IT-FG-0044821` | contratto di manutenzione frigo (bozza rev. 3) |
+| `entita-veneta-energia` | «VENETA ENERGIA S.P.A.» · «Veneta Energia S.p.A.» · «Veneta Energia» · `F0081` (codice fornitore interno) · POD `IT001E63488210` | fattura energia elettrica, contatori di reparto |
 
 ### A.4 Macchine e impianti
 
@@ -98,10 +100,10 @@ Le sostituzioni note dello scanner sono `0`↔`O`, `l`↔`1`, `S`↔`5`.
 | `macchina-pkm-450` | `PKM-450` · `PKM450` · `PKM 450` · **`PKM450-1808-0342`** (matricola) · «confezionatrice flow-pack MAP» · «confezionatrice MAP» · «la confezionatrice» | MOD-PR-04, manuale, trascrizione, corrispondenza ricambi |
 | `macchina-pt-104` | `PT-104` · `PT104` · **`PT 1O4`** (OCR) · «il pastorizzatore» · «il trattamento termico» | log datalogger, quaderno OCR, manuale HACCP |
 | `macchina-md-3200` | `MD-3200` · `MD3200` · **`MD 32OO`** (OCR) · «il metal detector» | quaderno OCR, MOD-QA-07, trascrizione |
-| `macchina-ts-01` | `TS-01` · «il tunnel» (quando è il tunnel esistente, non quello Criotech) | contratto manutenzione frigo, registro NC, trascrizione |
+| `macchina-ts-01` | `TS-01` · **`TS01`** (log della centralina) · «tunnel di surgelazione a piastre» · «il tunnel» (quando è il tunnel esistente, non quello Criotech) | contratto manutenzione frigo, log allarmi, registro NC, trascrizione |
 | `macchina-cip-01` | `CIP01` · `CIP-01` · «l'impianto CIP» | log CIP, IO-05 |
 | `macchina-ft-01` · `macchina-ft-02` | `FT O1` (OCR) · `FT_01` (log) · «forno 1» · «il bruciatore del FT-02» | quaderno OCR, log pastorizzatore, trascrizione |
-| `macchina-cf-01` · `macchina-cf-02` | `CF-01` · `CF-02` · «la cella surgelati» | mass balance, log allarmi cella, trascrizione |
+| `macchina-cf-01` · `macchina-cf-02` | `CF-01` · `CF-02` · **`CF02`** (log della centralina) · «CELLA SURGELATI CF-02» e «CELLA FRIGO CF-01» (centri di costo nei contatori di reparto) · «la cella surgelati» · «cella refrigerata» | mass balance, log allarmi cella, contatori di reparto, contratto manutenzione frigo, trascrizione |
 
 ### A.5 Prodotti e lotti
 
@@ -166,6 +168,7 @@ che il dato è illeggibile nella fonte, e se serve apre una questione aperta.
 | **Bontà di Casa** — il marchio private label | **Tosano Cerea S.p.A.** — il titolare del marchio | Marchio ≠ azienda | Due note: `marchio-bonta-di-casa` ed `entita-tosano-cerea`, linkate |
 | **TS-01** — il tunnel di surgelazione esistente, «un rottame» | il **tunnel Criotech CR-SP180** — quello da acquistare, acconto 87.000 € | Uno è in servizio, l'altro è un investimento in corso | `macchina-ts-01` in `entities`, `progetto-tunnel-surgelazione` in `projects` |
 | **Marco Fantin** — direttore di stabilimento | **«fantini» / «Rossato di Tecnoforni»** — nella trascrizione automatica il parlante si autocorregge | La trascrizione è dichiaratamente non verificata | Non si crea un'entità «Fantini»: si riporta la correzione a verbale |
+| **Attilio Peruffo** — legale rappresentante di **Frigotecnica Berica S.r.l.**, Montecchio Maggiore (VI), firma i commenti di trattativa come «Peruffo A. (Frigotecnica)» (`contratto_manutenzione_impianto_frigo_TS01.docx`) | **Peruffo Maria Grazia** — revisore legale di Aurora, Registro n. 148223 (`visura_camerale_ordinaria_AuroraFoodGroup.pdf`) · e **Peruzzi Maurizio**, n. 118442 (`bilancio_esercizio_2025_deposito_CCIAA.pdf`) | Un fornitore esterno e un revisore legale: ruoli, documenti e numeri di iscrizione diversi. **Il cognome Peruffo compare ora su due persone diverse, e in archivio ci sono tre quasi-omografi** | Tre schede distinte. ⚠️ La riga «Da non confondere con» sulle schede dei revisori si scrive nel lotto che canonizza visura e bilancio: oggi quelle note non esistono, e un rimando non può nascere prima della nota |
 
 ---
 
@@ -183,6 +186,14 @@ che il dato è illeggibile nella fonte, e se serve apre una questione aperta.
 
 ---
 
+### Aggiunte di classe C dal lotto 1B — 19/08/2026
+
+| Divergenza | Fonti | Trattamento |
+|---|---|---|
+| Nome dell'impresa che manutiene gli impianti frigoriferi: **Frigotecnica Berica** contro **Frigotecnica Scaligera**, sugli stessi impianti | `contratto_manutenzione_impianto_frigo_TS01.docx` (intestazione delle parti, con P.IVA e certificato F-gas) · `scheda_manutenzione_ordinaria_forni_industrial.csv` (righe 42, 44, 47, 51, 53) | `questione-manutentore-frigo-berica-scaligera` in `areas\` (`area: manutenzione`), `stato: aperto`. **Non si uniscono**: la scheda entità sta sul nome che ha un identificativo verificabile. Il piano di manutenzione non porta partita IVA né codice fornitore |
+| Refrigerante del tunnel `TS-01`: **R404A** (48,0 kg, GWP 3.922) contro **R448A** | `contratto_manutenzione_impianto_frigo_TS01.docx` §art. 2.1 · `scheda_manutenzione_ordinaria_forni_industrial.csv` riga 44 | `questione-refrigerante-ts-01` in `areas\`, `stato: aperto`. Sono due miscele diverse: cambiano GWP, tonnellate equivalenti e frequenza del controllo perdite |
+| Sigla `FRIGOTEC-11` dell'operatore esterno in assistenza sulla centralina della cella | `log_allarmi_cella_frigo_surgelati_aprile.log`, righe 08:55:02 e 11:40:47 del 24/04 | **Non si scioglie.** La sigla richiama «Frigotecnica», ma nessun documento la lega a una ragione sociale, e la questione su chi sia il manutentore è aperta: la sigla **non entra** negli `aliases` di nessuna entità |
+
 ## Registro delle aggiunte
 
 Ogni sessione che canonizza aggiunge qui una riga quando estende la tabella.
@@ -191,4 +202,5 @@ Ogni sessione che canonizza aggiunge qui una riga quando estende la tabella.
 |---|---|---|
 | 2026-08-15 | S1 — manuale di canonizzazione | Prima stesura: classi A, B e C compilate sui file campionati del corpus v1 |
 | 2026-08-18 | S4 lotto 1A — Linea 1: turno, CCP, confezionatrice | Classe A: i lotti `L26124` e `L26128` con le loro forme OCR, la forma `L26l3O-L1-T2` sul lotto L26130, e tre degradi generici del quaderno del capoturno (cifre con `O` al posto di `0`, la `l` al posto dell'`1` nel giorno giuliano, i marcatori di porzione perduta). Nessuna riga di classe B o C: le divergenze trovate in questo lotto hanno tutte una nota-questione |
+| 2026-08-19 | S4 lotto 1B — freddo ed energia | Classe A: le forme `CF02` e `TS01` del log della centralina, i due centri di costo dei contatori di reparto, e due fornitori nuovi — Frigotecnica Berica (con P.IVA e certificato F-gas) e Veneta Energia (con codice fornitore e POD). Classe B: **il terzo quasi-omografo Peruffo**, Attilio Peruffo di Frigotecnica accanto ai due revisori legali. Classe C: tre divergenze nuove — nome del manutentore, refrigerante del tunnel, e la sigla `FRIGOTEC-11` che non si scioglie |
 | 2026-08-16 | S2 — fetta pilota L26130 | Classe A: matricola `PKM450-1808-0342` sulla PKM-450. Classe C: quattro divergenze nuove trovate dal revisore indipendente — codice del kit valvola, materiale della guarnizione provvisoria, TMC e modo di consegna del lotto farina MV26-0429/A. Tutte con la loro nota-questione nel vault e la riga corrispondente nel canone |

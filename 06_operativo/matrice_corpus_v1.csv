@@ -181,3 +181,55 @@ Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf;Metal detector della Linea 1, posto 
 checklist_metal_detector_manuale_operaio.txt;Metal detector della Linea 1, posto fra il raffreddamento e il confezionamento secondo la scheda tecnica del prodotto: è il CCP3 del piano HACCP, con soglie Fe 2,0 / non-Fe 2,5 / AISI 316 3,0 mm e verifica ogni 60 minuti su MOD-QA-07.;entities;macchina-md-3200;1a;fatta
 scheda_manutenzione_ordinaria_forni_industrial.csv;Metal detector della Linea 1, posto fra il raffreddamento e il confezionamento secondo la scheda tecnica del prodotto: è il CCP3 del piano HACCP, con soglie Fe 2,0 / non-Fe 2,5 / AISI 316 3,0 mm e verifica ogni 60 minuti su MOD-QA-07.;entities;macchina-md-3200;1a;fatta
 Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf;La referenza di snack in atmosfera protettiva prodotta sulla Linea 1 di Aurora, venduta anche a marchio del distributore, sulla quale è aperto il reclamo REC-2026-011.;entities;prodotto-af-sn-0450;1a;fatta
+log_allarmi_cella_frigo_surgelati_aprile.log;Sei allarmi di alta temperatura sulla cella CF-02 fra il 10 e il 26/04/2026, in escalation da -16,1 a -11,4 gradi, cinque su sei con presa in carico a NO;areas;fatto-allarmi-alta-temperatura-cf-02-aprile;1B;fatta
+log_allarmi_cella_frigo_surgelati_aprile.log;Il log dichiara da se' tre difetti di integrita': durata gia' nel record di apertura, file troncato a meta' riga, una centralina ripartita senza orologio sincronizzato;areas;fatto-integrita-log-allarmi-cf-02;1B;fatta
+log_allarmi_cella_frigo_surgelati_aprile.log;Porta della cella aperta 38 minuti il 15/04 con allarme a cinque minuti e presa in carico a NO; l'episodio si ripete il 30/05 e diventa NC-2026-114;areas;fatto-porta-cella-cf-02-aperta-38-minuti;1B;fatta
+log_allarmi_cella_frigo_surgelati_aprile.log;Sonda di prodotto della cella in avaria sedici ore fra il 18 e il 19/04, con valore -999,9 che non e' una temperatura;areas;fatto-sonda-prodotto-cf-02-in-avaria;1B;fatta
+log_allarmi_cella_frigo_surgelati_aprile.log;Mancanza di rete del 21/04, 31 minuti, e riavvio delle due centraline: quella del tunnel riparte senza orologio sincronizzato;areas;fatto-blackout-21-04-riavvio-centraline;1B;fatta
+log_allarmi_cella_frigo_surgelati_aprile.log;Intervento in assistenza del 24/04 di un tecnico esterno: due parametri cambiati e uno sbrinamento manuale, due giorni prima dell'allarme piu' lungo del mese;areas;fatto-assistenza-esterna-24-04-cf-02;1B;fatta
+log_allarmi_cella_frigo_surgelati_aprile.log;La cadenza degli sbrinamenti della cella passa da uno ogni sei ore a uno ogni due e torna indietro dopo il cambio di parametro: 192 sbrinamenti nel mese;data;kpi-sbrinamenti-cf-02-aprile;1B;fatta
+log_allarmi_cella_frigo_surgelati_aprile.log;Nessuna non conformita' aperta per quegli allarmi, mentre ad aprile il registro ne apre 22 su altro;areas;fatto-nessuna-nc-per-allarmi-cf-02;1B;fatta
+log_allarmi_cella_frigo_surgelati_aprile.log;Identita' della cella surgelati CF-02: set point, grandezze registrate, mappa di cio' che la riguarda;entities;macchina-cf-02;1B;fatta
+log_allarmi_cella_frigo_surgelati_aprile.log;Identita' del tunnel di surgelazione TS-01 e sue letture nel log;entities;macchina-ts-01;1B;fatta
+log_allarmi_cella_frigo_surgelati_aprile.log;Sigla dell'operatore esterno che entra in assistenza sulla centralina;entities;entita-frigotecnica-berica;1B;fatta
+contratto_manutenzione_impianto_frigo_TS01.docx;Il contratto e' una bozza rev.3 del 22/01/2026 mai firmata, con canone in due importi, una clausola da definire e la trattativa ferma dopo il 10/05;workspace;bozza-contratto-manutenzione-frigo;1B;fatta
+contratto_manutenzione_impianto_frigo_TS01.docx;Cariche di gas fluorurati dei tre impianti frigoriferi e periodicita' dei controlli perdite che ne discende;areas;fatto-cariche-f-gas-impianti-frigoriferi;1B;fatta
+contratto_manutenzione_impianto_frigo_TS01.docx;Ripartizione degli obblighi F-gas: registro di apparecchiatura e banca dati al manutentore, qualita' di operatore ad Aurora; due ricevute 2025 mancanti in audit IFS;areas;fatto-obblighi-registro-f-gas;1B;fatta
+contratto_manutenzione_impianto_frigo_TS01.docx;Il tunnel TS-01 e' a fine vita: cantiere di sostituzione previsto nel 2026 e manutenzioni rimandate percio';areas;fatto-ts-01-fine-vita-dismissione;1B;fatta
+contratto_manutenzione_impianto_frigo_TS01.docx;Il manutentore e' Frigotecnica Berica nel contratto e Frigotecnica Scaligera nel piano di manutenzione, sugli stessi impianti;areas;questione-manutentore-frigo-berica-scaligera;1B;fatta
+contratto_manutenzione_impianto_frigo_TS01.docx;Il refrigerante del tunnel e' R404A nel contratto e R448A nel piano di manutenzione;areas;questione-refrigerante-ts-01;1B;fatta
+contratto_manutenzione_impianto_frigo_TS01.docx;Identita' del manutentore frigorista: sede, P.IVA, certificato F-gas d'impresa, legale rappresentante;entities;entita-frigotecnica-berica;1B;fatta
+contratto_manutenzione_impianto_frigo_TS01.docx;Identita' della cella CF-02: temperatura, refrigerante, carica, frequenza delle visite;entities;macchina-cf-02;1B;fatta
+contratto_manutenzione_impianto_frigo_TS01.docx;Identita' del tunnel TS-01: tipo, linea, refrigerante, carica, GWP, destino;entities;macchina-ts-01;1B;fatta
+consumi_energetici_forni_kwh_maggio26.csv;Consumi elettrici di maggio 2026 per centro di costo, 186 righe di dato su sei centri, e scarto fra i totali sommati e la tabella di confronto in coda;data;kpi-consumi-energia-maggio-2026;1B;fatta
+consumi_energetici_forni_kwh_maggio26.csv;Le somme delle fasce non fanno il totale in 68 righe su 186 ma rientrano tutte entro 1,5 kWh dal consumo reale: arrotondamenti, non errori; piu' i limiti che il file dichiara;data;kpi-quadratura-consumi-energetici-maggio;1B;fatta
+consumi_energetici_forni_kwh_maggio26.csv;La cella CF-02 consuma il 49,7% in piu' di maggio 2025 e le quattro annotazioni del mese mostrano tre interventi che non la riportano a posto;areas;fatto-anomalia-consumo-cf-02-maggio;1B;fatta
+consumi_energetici_forni_kwh_maggio26.csv;Il 10/05 i forni consumano come un giorno pieno mentre la confezionatrice e' ferma: spreco annotato dall'amministrazione;areas;fatto-forni-in-temperatura-durante-fermo-10-05;1B;fatta
+consumi_energetici_forni_kwh_maggio26.csv;I contatori di reparto coprono il 45,9% del prelievo di stabilimento fatturato;areas;fatto-contatori-reparto-meta-stabilimento;1B;fatta
+consumi_energetici_forni_kwh_maggio26.csv;La tariffa interna 0,182 EUR/kWh non coincide con nessuno dei prezzi ricavabili dalla fattura;data;questione-costo-energia-elettrica;1B;fatta
+consumi_energetici_forni_kwh_maggio26.csv;Codice fornitore interno del venditore di energia;entities;entita-veneta-energia;1B;fatta
+bolletta_VenetaEnergia_maggio2026.pdf;Fattura dell'energia di maggio 2026: 178.480 kWh per fascia, imponibile, totale e scadenza;data;kpi-fattura-energia-maggio-2026;1B;fatta
+bolletta_VenetaEnergia_maggio2026.pdf;Il picco di potenza e' al 96,5% dell'impegnata e per il tunnel nuovo e' gia' stata chiesta una potenza di 630 kW;areas;fatto-potenza-impegnata-e-preventivo-tunnel;1B;fatta
+bolletta_VenetaEnergia_maggio2026.pdf;L'energia reattiva in F1 supera il 33% dell'attiva e la quota eccedente viene addebitata;areas;fatto-energia-reattiva-oltre-soglia;1B;fatta
+bolletta_VenetaEnergia_maggio2026.pdf;Il fornitore attesta che la fascia F3 di maggio comprende tre domeniche o festivi con attivita' produttiva;areas;fatto-tre-domeniche-produttive-in-fascia-f3;1B;fatta
+bolletta_VenetaEnergia_maggio2026.pdf;Il prelievo fatturato e' piu' del doppio di quanto misurano i contatori di reparto;areas;fatto-contatori-reparto-meta-stabilimento;1B;fatta
+bolletta_VenetaEnergia_maggio2026.pdf;Prezzo medio ponderato e imponibile per kWh, le due gambe del confronto col costo interno;data;questione-costo-energia-elettrica;1B;fatta
+bolletta_VenetaEnergia_maggio2026.pdf;Identita' del fornitore di energia: sede, P.IVA, POD, contratto indicizzato al PUN;entities;entita-veneta-energia;1B;fatta
+bolletta_VenetaEnergia_maggio2026.pdf;L'area che presidia costi, utenze e fatture passive nasce con l'energia;areas;area-amministrazione;1B;fatta
+bolletta_VenetaEnergia_maggio2026.pdf;Il picco di potenza di maggio e' al 96,5% della potenza impegnata;areas;fatto-potenza-impegnata-quasi-satura;1B;fatta
+bolletta_VenetaEnergia_maggio2026.pdf;Richiesta di preventivo per 630 kW del 22/04/2026, pratica presso il distributore;areas;fatto-preventivo-potenza-630-kw-tunnel;1B;fatta
+bolletta_VenetaEnergia_maggio2026.pdf;Due incrementi diversi per lo stesso mese dentro la stessa fattura: +9,4% in nota contabile, +5,4% dal grafico;data;kpi-incremento-energia-maggio-su-aprile;1B;fatta
+non_conformita_interne_registro_2026.csv;La NC del 10/04 attribuisce al tunnel sbrinamenti ricorrenti che il log registra sulla cella;areas;questione-nc-067-sbrinamenti-tunnel;1B;fatta
+log_allarmi_cella_frigo_surgelati_aprile.log;Per il tunnel il log di aprile non registra nessun evento di sbrinamento;areas;questione-nc-067-sbrinamenti-tunnel;1B;fatta
+non_conformita_interne_registro_2026.csv;L'azione correttiva del 30/05 dichiara di ridurre a cinque minuti un allarme gia' a cinque;areas;questione-limite-allarme-porta-cf-02;1B;fatta
+log_allarmi_cella_frigo_surgelati_aprile.log;Il 15/04 il timeout della porta era gia' LIM=00:05:00;areas;questione-limite-allarme-porta-cf-02;1B;fatta
+non_conformita_interne_registro_2026.csv;L'azione correttiva di gennaio sposta gli sbrinamenti in fascia notturna, chiusa in quattro giorni;areas;questione-sbrinamenti-fascia-notturna-cf-02;1B;fatta
+log_allarmi_cella_frigo_surgelati_aprile.log;Ad aprile gli sbrinamenti della cella sono distribuiti sulle ventiquattro ore;areas;questione-sbrinamenti-fascia-notturna-cf-02;1B;fatta
+manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt;Limite critico del CCP4: T al cuore <= -18 gradi entro 240 min e cella CF-02 <= -18, allarme a -16 con notifica nominale;docs;doc-ccp4-limite-critico;1B;fatta
+log_allarmi_cella_frigo_surgelati_aprile.log;Temperatura di uscita del prodotto dal tunnel in aprile: 180 letture con nastro attivo, tutte sotto -18 gradi;data;kpi-temperatura-uscita-tunnel-ts-01-aprile;1B;fatta
+consumi_energetici_forni_kwh_maggio26.csv;Metano dei forni di maggio: 27.536 m3 in 31 righe, unico vettore energetico non elettrico misurato;data;kpi-metano-forni-maggio-2026;1B;fatta
+contratto_manutenzione_impianto_frigo_TS01.docx;Identita' della cella refrigerata CF-01: R134a, 12 kg, 17,2 t CO2eq, visita semestrale;entities;macchina-cf-01;1B;fatta
+scheda_manutenzione_ordinaria_forni_industrial.csv;Voci di piano della cella CF-01: compressore, guarnizione porta, taratura sonda;entities;macchina-cf-01;1B;fatta
+consumi_energetici_forni_kwh_maggio26.csv;Consumo della cella CF-01 a maggio: 6.638 kWh, +22,3% sull'anno prima;entities;macchina-cf-01;1B;fatta
+non_conformita_interne_registro_2026.csv;La cella CF-01 e' fra i quattro punti critici del preavviso di ispezione ATS;entities;macchina-cf-01;1B;fatta
+contratto_manutenzione_impianto_frigo_TS01.docx;Doppia data della procura del direttore di stabilimento nell'intestazione delle parti;workspace;bozza-contratto-manutenzione-frigo;1B;fatta

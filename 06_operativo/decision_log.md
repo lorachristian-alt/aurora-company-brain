@@ -497,4 +497,82 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   fatto. Ora l'elenco di un lotto canonizzato porta `# CHIUSO <data>` in testa e il controllo lo
   salta, come per il pilota. **Il flag si aggiunge alla chiusura del lotto**, insieme agli altri
   gesti. Esito dopo il fix: 160 grezzi, 0 scoperti, 0 guasti, 13 elenchi.
+- **2026-08-19** · S4 lotto 1B, chiusura · **La cella surgelati e' dentro il CCP4, e nessuna nota
+  del lotto lo sapeva finche' non si e' fatta la riconciliazione con un grezzo di un altro
+  lotto** · il manuale HACCP — canonizzato nel pilota — prescrive per `CF-02` limite critico
+  −18 °C, soglia di allarme −16 °C e notifica a due responsabili nominati. Senza quella riga i
+  sei allarmi di aprile sarebbero rimasti «anomalie d'impianto»; con quella riga sono
+  **superamenti di un limite critico**. E' la prova che §5.1-bis va letto nella sua forma piu'
+  larga: la riconciliazione non e' solo fra i grezzi del lotto, ma **fra il lotto e cio' che il
+  vault gia' sa**.
+- **2026-08-19** · S4 lotto 1B, chiusura · **Una famiglia di divergenze nuova per il canone:
+  l'azione correttiva registrata che il dato non conferma** · tre casi nello stesso lotto, tutti
+  trovati incrociando un registro compilato a mano con una registrazione automatica: NC-2026-017
+  «spostato ciclo sbrinamento su fascia notturna» contro il log di aprile; NC-2026-114 «allarme
+  porta ridotto a 5 min» contro il `LIM=00:05:00` gia' in vigore; NC-2026-067 che intesta al
+  tunnel sbrinamenti che il log registra sulla cella. **Non sono divergenze fra due misure**: sono
+  divergenze fra cio' che un registro dichiara di aver fatto e cio' che uno strumento ha
+  registrato — ed e' il tipo di cosa che un sistema interrogato non trova mai citando una fonte
+  sola. Le tre righe sono nel canone in sezione datata.
+- **2026-08-19** · S4 lotto 1B, chiusura · **Il canone conteneva tre numeri vecchi, e le note
+  avevano ragione** · sulla quadratura dei consumi energetici il canone dichiarava 59 / 137 /
+  «165 su 165»; il riconteggio, fatto due volte in modo indipendente (script del lotto e
+  revisore), da' **68 / 174 / 186 su 186**. Il 165 e' il numero delle righe con data `gg/mm/aa`:
+  **l'analisi che ha prodotto quel numero saltava le 21 righe in formato ISO** dello stesso
+  campo. Il divieto 36 vale anche per i numeri scritti nei documenti di metodo: il canone e'
+  stato **accresciuto** con una riga datata che dichiara il riconteggio, e la vecchia sezione
+  resta dov'e'. La conclusione qualitativa — sono arrotondamenti, non errori — e' confermata.
+- **2026-08-19** · S4 lotto 1B, chiusura · **L'area `amministrazione` nasce nel lotto
+  dell'energia, non nel lotto 6** · la matrice la assegnava al lotto 6 (bilancio e cassa), ma
+  meta' dei grezzi di 1B sono governati dall'amministrazione — una fattura passiva, i contatori
+  per centro di costo, un controllo di budget. Vale il criterio dato dal titolare lo stesso
+  giorno: **l'area si assegna a chi governa i fatti oggi**, e **un hub non si apre vuoto per
+  archiviare, ma nasce coi suoi fatti**. Qui i fatti c'erano. Il lotto 6 la estendera'.
+- **2026-08-19** · S4 lotto 1B, chiusura · **Budget sforato di 8 note, e lo scostamento e' tutto
+  post-revisione** · 38 di contenuto contro un tetto di 30. Le 29 della prima stesura stavano
+  dentro; le nove in piu' vengono dai tre passaggi di controllo: una dal rilievo «due fatti in
+  una nota», tre dalla promozione a questione di divergenze di categoria B, una da
+  un'incoerenza intra-file, quattro dalle lacune di copertura trovate dal revisore. **Il revisore
+  ha campionato dodici note contro le otto richieste e ha dichiarato zero sovra-atomizzazione.**
+  Un budget rispettato tagliando fatti sarebbe stato peggio.
+- **2026-08-19** · S4 lotto 1B, chiusura · **La terza gamba di una questione si TRACCIA, non si
+  usa, se il suo grezzo appartiene a un lotto futuro** · il revisore ha segnalato che
+  `elenco_interni_telefonici.txt` scrive «Frigotecnica Berica», terza fonte sulla questione del
+  manutentore. Quel file e' del lotto 10, dove per metodo_03 §1.3 esempio 18 si spalma sulle
+  schede senza fare nota propria. Citarlo ora avrebbe messo in rosso la verifica di
+  disgiunzione della matrice e anticipato il lavoro di quel lotto: la gamba **resta in tabella di
+  tracciamento** (T18) con l'obbligo esplicito per il lotto 10. Stessa disciplina applicata al
+  terzo quasi-omografo Peruffo (T39): la riga «Da non confondere con» non puo' nascere prima
+  delle note dei due revisori legali.
+- **2026-08-19** · S4 lotto 1B, chiusura · **Errata sui numeri del lotto 1A** · lo stato
+  dichiarava «105 note, di cui 11 `_index` e 6 note-strumento: 88 di contenuto», ma `qa_all.py`
+  a chiusura di 1A contava **106** note. Il 105 escludeva `_index-sources` e sottraeva ugualmente
+  tutti e undici gli `_index`: il numero corretto e' **89 di contenuto**. Corretto nello stato con
+  l'errata visibile.
+- **2026-08-19** · S4 lotto 1B, chiusura · **Il controllo «summary contiene piu' di una frase» ha
+  un falso positivo sulle abbreviazioni, e NON e' stato corretto** · conta i punti fermi, quindi
+  sbaglia su ogni riassunto che contenga `S.r.l.`, `prot.`, `art.`, `n.` — in questo corpus,
+  ovunque. Due avvisi su sedici sono suoi. **Non l'ho toccato di mia iniziativa**: sarebbe un fix
+  che *toglie* avvisi, cioe' allenta un controllo, mentre la regola del gate 1A ammette solo fix
+  che *aggiungono* agganci. Portato al titolare come proposta, con la correzione in una riga.
+- **2026-08-19** · S4 lotto 1B, chiusura · **E9 ha girato QUATTRO volte, e il metodo non dice
+  quando smettere** · correggere riscrive, e riscrivere crea note nuove da giudicare: 1º giro 5
+  rilievi su 29 note, 2º 4 su 37, 3º 4 su 10, 4º **1** su 6. ⚠️ **Nessuno dei quattordici ha mai
+  riguardato un numero, una data o un codice** — quelli li prende lo strato deterministico:
+  tutti riguardavano **la prosa che lega i fatti**, la frase che spiega, l'esempio che illustra,
+  il ruolo attribuito a chi firma. E il rilievo del quarto giro era **nato da una correzione del
+  terzo**, quindi non era prevedibile fermandosi prima. **Criterio con cui mi sono fermato,
+  dichiarato nel rapporto:** l'ultimo giro ha prodotto un solo rilievo e la correzione applicata
+  e' **soppressiva** — toglie un'attribuzione senza aggiungere niente — quindi non genera
+  materiale nuovo da giudicare. Portato al coordinatore come **candidato chiarimento a §9.5
+  passo 5**: si rigiudica finche' un giro non torna pulito, oppure finche' le correzioni non
+  sono tutte soppressive, e il rapporto dichiara a quale giro ci si e' fermati e con quale dei
+  due criteri.
+- **2026-08-19** · S4 lotto 1B, chiusura · **Il terzo giro ha smontato un mio argomento, non solo
+  una mia frase** · `questione-nc-067-sbrinamenti-tunnel` sosteneva che le due macchine «stanno su
+  linee diverse» e che l'intestazione «Linea 3» della non conformita' pesasse a favore del tunnel.
+  Il giudice ha fatto notare che **il registro intesta alla Linea 3 anche `NC-2026-017`, che
+  riguarda la sonda della cella**: l'argomento non regge, e la nota ora lo dice. E' il tipo di
+  errore che nessuno strato deterministico puo' prendere, perche' non e' un dato sbagliato: e' un
+  ragionamento sbagliato su dati giusti.
 
