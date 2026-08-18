@@ -7,13 +7,13 @@
 | Controllo | Codice di uscita |
 |---|---|
 | `qa_frontmatter.py` | 2 |
-| `qa_link_integrity.py` | 2 |
+| `qa_link_integrity.py` | 0 |
 | `qa_provenance.py` | 2 |
 | `qa_copertura.py` | 0 |
 
 ## Riga di riepilogo per lo stato di sessione
 
-> suite QA · perimetro lotto · **0 ERRORI, 33 AVVISI** · esito **GIALLO**
+> suite QA · perimetro lotto · **0 ERRORI, 31 AVVISI** · esito **GIALLO**
 
 ---
 
@@ -50,7 +50,7 @@
 ## qa_frontmatter (perimetro: lotto, 59 note)
 
 - ERRORI: **0**
-- AVVISI: **11**
+- AVVISI: **9**
 
 ### Avvisi
 
@@ -63,8 +63,6 @@
 | `fatto-muffe-l26128-45-giorni.md` |  | frontmatter | corpo di 319 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-piano-produzione-sett19-21.md` |  | frontmatter | corpo di 331 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-repliche-shelf-life-l26130-divergenti.md` |  | frontmatter | corpo di 331 parole: fra 301 e 350, si motiva o si spezza |
-| `doc-limite-o2-residuo-af-sn-0450.md` |  | frontmatter | summary contiene piu' di una frase |
-| `doc-scheda-tecnica-af-sn-0450.md` |  | frontmatter | summary contiene piu' di una frase |
 | `kpi-manutenzioni-arretrate-2026.md` |  | frontmatter | corpo di 344 parole: fra 301 e 350, si motiva o si spezza |
 | `kpi-shelf-life-af-sn-0450.md` |  | frontmatter | corpo di 338 parole: fra 301 e 350, si motiva o si spezza |
 
@@ -72,19 +70,13 @@
 ## qa_link_integrity (perimetro: lotto, 106 note nel vault)
 
 - ERRORI: **0**
-- AVVISI: **1**
-
-### Avvisi
-
-| Nota | Riga | Controllo | Rilievo |
-|---|---|---|---|
-| `sessione-s4-lotto-1a.md` |  | link | dichiara l'hub [[macchina-linea-1]] come proprio in related, ma quell'hub non la elenca nel corpo |
+- AVVISI: **0**
 
 
 ## qa_provenance (perimetro: lotto, 59 note)
 
 - ERRORI: **0**
-- AVVISI: **21**
+- AVVISI: **22**
 
 ### Avvisi
 
@@ -107,6 +99,7 @@
 | `questione-verifiche-ccp3-10-05-tre-versioni.md` |  | provenance | ora senza riscontro in nessuna fonte citata: «18:50» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 | `questione-verifiche-ccp3-10-05-tre-versioni.md` |  | provenance | ora senza riscontro in nessuna fonte citata: «19:55» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 | `questione-verifiche-ccp3-10-05-tre-versioni.md` |  | provenance | fonte immagine 'MOD-QA-07_10-05-26_L1_T2_scansione.jpg': riscontro visivo, da chiudere a mano |
+| `doc-scheda-tecnica-af-sn-0450.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `concetto-atmosfera-protettiva.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `concetto-shelf-life.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `kpi-shelf-life-af-sn-0450.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |

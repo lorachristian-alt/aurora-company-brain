@@ -19,7 +19,7 @@
 | Note nel vault, prima → dopo | **63 → 105** (contate da `qa_all.py`) |
 | Note di contenuto nel vault, prima → dopo | **46 → 88** |
 | Densità del lotto | **6,0 note di contenuto per grezzo**, contro 2,1 del pilota |
-| QA di lotto | **0 ERRORI, 32 AVVISI** — verde, dopo due giri di giudizio e uno di revisione |
+| QA di lotto | **0 ERRORI, 31 AVVISI** — verde, dopo due giri di giudizio e uno di revisione |
 | Collaudo della suite, rieseguito | 5 difetti piantati su 5 trovati, 0 falsi positivi |
 
 ### Le 42 note nuove, per cartella
@@ -113,8 +113,9 @@ esattamente il guasto del 10/05 e non coincide né con `E-214 GAS` della foto n�
 
 ## 6. Gli avvisi della QA
 
-Trentadue, tutti motivati e nessuno da correggere: l'elenco per famiglia sta al §11, dopo i
-tre passaggi di revisione, perché è su quei numeri finali che vanno letti.
+Trentuno, tutti motivati: l'elenco per famiglia sta al §11, dopo i tre passaggi di
+revisione, perché è su quei numeri finali che vanno letti. ⚠️ La prima stesura del §11 ne
+dichiarava 32 con famiglie che sommavano 46: l'errata è dichiarata lì.
 
 ## 7. Il perimetro vault, che non era chiesto ma è cambiato
 
@@ -220,23 +221,43 @@ valutare al gate — il prompt non si tocca a metà lotto.
 
 ## 11. Gli avvisi residui, motivati
 
-**32 avvisi, nessuno da correggere**, in quattro famiglie:
+> **⚠️ ERRATA del 18/08/2026.** La prima stesura di questa sezione dichiarava **32 avvisi** e
+> ne descriveva quattro famiglie che sommavano **46**. La somma non quadrava, ed era un errore
+> di conteggio mio: avevo contato le righe su `qa_all.md`, che **ripete al proprio interno i
+> quattro report figli**, raddoppiando due famiglie. Il rilievo è del titolare. La sezione è
+> riscritta qui sotto con i numeri ricontati dai soli report figli, e **tre avvisi che erano
+> correggibili sono stati corretti** invece di essere motivati: il totale scende da 32 a 31.
+> L'errata resta visibile: la correzione di un numero dichiarato non si fa in silenzio.
 
-- **18 «`summary` e `title` si sovrappongono per meno del 20 %»** — sono le note il cui titolo
-  è una domanda e il cui riassunto è la risposta: le parole non si ripetono per costruzione, ed
-  è ciò che si vuole.
-- **18 di riscontro visivo** sulle due immagini del lotto — la scansione del `MOD-QA-07` e la
-  foto del pannello. **Entrambe sono state lette a occhio**, e la prima ha prodotto la scoperta
-  più importante del lotto. L'estrattore congelato è cieco sulle immagini per costruzione.
-- **8 note fra 301 e 350 parole** — «si motiva o si spezza». Si motivano: sono note che
-  portano una tabella di confronto o una citazione lunga, e spezzarle separerebbe il dato dal
-  suo contesto. Nessuna supera il tetto dei 350.
-- **2 «fonte che non aggancia nessuna affermazione»** su `questione-codice-ricambio-valvola-pkm-450`.
-  ⚠️ **È un falso positivo della suite, non un difetto della nota**: la riga 26 della scheda di
-  manutenzione sostiene il quarto codice `PKM-4471-EPDM`, che è il perno stesso della nota. Lo
-  ha rilevato il revisore, e si chiude a mano.
+**31 avvisi**, ricontati dai quattro report figli — `qa_frontmatter` 9 · `qa_link_integrity`
+0 · `qa_provenance` 22 · `qa_copertura` 0 — e **la somma delle famiglie quadra con il
+totale**:
 
----
+| Famiglia | Avvisi | Perché non si corregge |
+|---|---|---|
+| «`summary` e `title` si sovrappongono per meno del 20 %» | **10** | Sono le note il cui titolo è una domanda e il cui riassunto è la risposta: le parole non si ripetono per costruzione, ed è ciò che si vuole |
+| «corpo fra 301 e 350 parole: si motiva o si spezza» | **9** | Si motivano. Portano una tabella di confronto o una citazione lunga, e spezzarle separerebbe il dato dal suo contesto. Nessuna supera il tetto dei 350 |
+| Riscontro visivo sulle due immagini del lotto | **11** | 4 orari, 3 codici, 2 citazioni e 2 segnalazioni di fonte immagine, tutti sulla scansione del `MOD-QA-07` e sulla foto del pannello. **Entrambe lette a occhio**, e la prima ha prodotto la scoperta più importante del lotto. L'estrattore congelato è cieco sulle immagini per costruzione |
+| «fonte che non aggancia nessuna affermazione» | **1** | ⚠️ **Falso positivo della suite, non difetto della nota** — vedi sotto |
+| **totale** | **31** | |
+
+⚠️ **Un avviso può ricadere in una sola famiglia**: le righe qui sopra sono disgiunte, e
+questa è la differenza rispetto alla prima stesura.
+
+### La chiusura a mano dell'avviso residuo, registrata
+
+L'unico avviso non riconducibile a una famiglia motivabile è su
+`questione-codice-ricambio-valvola-pkm-450`: `qa_provenance` dichiara che la fonte
+`scheda_manutenzione_ordinaria_forni_industrial.csv` «non aggancia nessuna affermazione
+della nota: rumore nel payload».
+
+**È falso.** La riga 26 di quel file porta il codice `PKM-4471-EPDM (orig. Pakmatic)`, che è
+**il quarto codice e il perno stesso della nota**: senza quella fonte la nota non esisterebbe.
+Il rilievo è del revisore indipendente, e la chiusura a mano è registrata qui e nel decision
+log con la sua motivazione — **una chiusura a mano non è mai silenziosa**.
+
+Il difetto è dello strumento, non della nota, e si corregge come **fix di codice** in
+`qa_provenance.py`, non come emendamento al metodo.
 
 ## 12. Cosa chiedo al titolare
 
