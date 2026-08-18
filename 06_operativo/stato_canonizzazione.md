@@ -36,11 +36,13 @@ la scheda di manutenzione.
 | Prodotte | **42** — dentro il budget, al suo estremo alto |
 | Note esistenti estese | 18 |
 | Densità | **6,0 note per grezzo**, contro 2,1 del pilota |
-| QA di lotto | **0 ERRORI, 32 AVVISI** |
+| QA di lotto | **0 ERRORI, 30 AVVISI**, famiglie disgiunte che sommano al totale |
 | Giudizio di provenance, 1º giro | 46 note · 38 pulite · 8 «afferma oltre» |
 | Revisione col canone | **10 A · 10 B · 11 C · 0 sovra-atomizzazione** su 18 note campionate |
 | Giudizio di provenance, 2º giro (E9) | 48 note · 40 pulite · 8 «afferma oltre» |
 | Rilievi accolti in tutto | **26**, tutti verificati sui grezzi prima di correggere |
+| Emendamenti approvati al gate | **E21-E25** in `metodo_03`, più `PROMPT_GIUDIZIO` v2 e un fix della suite |
+| Versione del prompt di giudizio usata | **v1** — la v2 vale dal lotto 1B, mai retroattiva |
 
 **I tre conflitti tracciati dal gate S2 sono chiusi**, tutti e tre come *aperti dichiarati*:
 l'archivio non dà un vincitore a nessuno. Il più grave è nuovo: la scansione del `MOD-QA-07`
