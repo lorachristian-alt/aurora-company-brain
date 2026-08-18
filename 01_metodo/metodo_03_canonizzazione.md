@@ -1353,6 +1353,14 @@ nessuna fonte.
    fra parentesi — «**50 letture** *(contate sul tracciato: una ogni 30 secondi dalle
    14:20:07 alle 14:44:37)*». Senza la dichiarazione, il numero è un fatto senza fonte,
    perché nel file non compare da nessuna parte.
+
+   ⚠️ **Il marcatore va accanto al numero, non nel paragrafo che lo spiega** (E23). Lo strato
+   deterministico esenta un valore derivato solo se trova la parola `contat…`, `calcolat…`,
+   `derivat…`, `somma` o `differenza` **fra parentesi, entro sessanta caratteri dal numero**,
+   oppure una formula scritta nella forma `a + b = c`. **Divisioni, medie e percentuali non
+   sono riconosciute come formule** e vanno marcate: `14.400 ÷ 8 = 1.800 *(calcolato)*`. Una
+   spiegazione corretta ma lontana dal numero lascia il numero senza copertura, ed è il modo
+   più frequente in cui una nota giusta fallisce la QA.
 2. **Ogni addendo** ha il suo riscontro nelle fonti citate, con locator.
 3. Il corpo dice esplicitamente che il totale è calcolato e che il foglio non lo
    contiene.
@@ -1922,6 +1930,18 @@ Il motivo è meccanico: i wikilink devono puntare a note esistenti (§4.2). Cost
 prima le foglie significa scrivere link rotti e ripassare a chiuderli — che è
 esattamente il modo in cui nascono gli orfani.
 
+⚠️ **Il budget si controlla PRIMA di scrivere, non dopo** (E21). All'apertura di un lotto si
+leggono i grezzi, si elenca cosa merita una nota e si proietta il totale. **Se la proiezione
+supera il budget di oltre il 25 %, il lotto si spezza prima di scrivere una riga.** Lo
+stop-loss della scaletta dice «lotto più piccolo, mai QA più leggera»: questa regola lo rende
+eseguibile prima che il danno sia fatto, invece che a lavoro finito.
+
+Nasce da un caso pagato: il lotto 1 delle Sessioni 4-5 ha proiettato **~62 note contro un
+budget di 26-36** perché quattro dei suoi tredici documenti erano multi-fatto — un quaderno
+di nove giornate, una trascrizione di 195 verifiche orarie, una scheda di manutenzione di 112
+voci. **Un grezzo denso non è un grezzo grande: il numero dei file non dice niente sul numero
+dei fatti.**
+
 **Il budget di un lotto si misura sulle NOTE DI CONTENUTO** (E17): sono escluse dal conteggio
 gli `_index` — che sono apparato di navigazione e nascono per cartella toccata, non per fatto
 — e le note-strumento di `code\`, che documentano attrezzi del progetto e non fatti
@@ -1996,6 +2016,11 @@ significherebbe misurare un archivio che contiene già tutte le risposte.
    che non tornano.
 4. Non trattare `consumi_energetici_forni_kwh_maggio26.csv` come un file con errori di
    calcolo: è realismo, non un difetto.
+4-bis. **Non uniformare date e orari quando si riportano in una nota** (E24). Un file che
+   scrive `20/04/26`, `20-mar-26` e `2026-01-12` nella stessa colonna si cita **nella grafia
+   che usa**: uniformare è correggere il grezzo, e vale per le date come per i totali. Lo
+   stesso per gli orari in OCR degradato — «ore 15.5O circa» si riporta così, fra virgolette
+   basse, non tradotto in `15:50`.
 5. **Mai markdown dentro `sources\`**, con l'unica eccezione di `_index-sources.md`.
 
 **Sulle fonti e sui fatti**
@@ -2004,6 +2029,19 @@ significherebbe misurare un archivio che contiene già tutte le risposte.
 8. Non citare un documento di metodo, un file di `03_valutazione\` o un'altra nota come
    fonte: le fonti sono SOLO file del corpus.
 9. Non scrivere una nota per un fatto che sta nel canone ma non in nessun grezzo.
+9-bis. ⚠️ **Non anticipare una divergenza di cui una sola gamba è canonizzata** (E25). Finché
+   il secondo documento non è nel vault, di quella divergenza **non si scrive nulla in nessuna
+   nota**: né come fatto, né come anticipazione, né in forma attenuata («altre fonti non
+   ancora canonizzate dicono un numero diverso»). **La gamba futura vive solo nella tabella di
+   tracciamento**, che sta fuori dal vault, e la divergenza nasce nel lotto che porta dentro
+   la seconda fonte.
+
+   **È la causa radice delle due sole fughe di canone del progetto**, e il movente è identico
+   in entrambe: chi canonizza ha letto il canone, sa che la divergenza esiste, e non resiste a
+   segnalarla. Nel pilota della Sessione 2 una nota affermava una divergenza sui pezzi per
+   cartone che nessuna sua fonte conteneva; nel lotto 1A una nota scriveva «il canone del
+   progetto registra che listino e accordo quadro ne dichiarano 12», nominando il canone. Due
+   lotti, due volte, lo stesso movente: serve un divieto, non un richiamo alla prudenza.
 10. Non completare un codice parziale per inerzia, non inventare una matricola, non
     dedurre un dato mancante.
 11. Non scrivere un totale calcolato senza gli addendi e senza dire che è calcolato
@@ -2014,9 +2052,14 @@ significherebbe misurare un archivio che contiene già tutte le risposte.
 12-bis. **Non dichiarare un'ASSENZA senza averla cercata su tutto `sources\`.** Scrivere
     «nessun grezzo dice X» è affermare un fatto, e va verificato come un fatto: con una
     ricerca sull'intera cartella, non sui documenti dove ci si aspettava di trovarlo.
-    L'assenza verificata si **data e si riferisce al manifest** — «verificata su tutto
-    `sources\`, manifest v1.1, 16/08/2026» — così quando arriverà il corpus v2 si saprà che
-    va rifatta, invece di marcire in silenzio dentro una nota che sembra ancora vera.
+    L'assenza verificata si **data e si riferisce al manifest**, così quando arriverà il
+    corpus v2 si saprà che va rifatta, invece di marcire in silenzio dentro una nota che
+    sembra ancora vera. ⚠️ **La data non si riscrive nel corpo: si rimanda a `data_nota`**
+    (E22) — «verificata su tutto `sources\`, manifest v1.1, alla `data_nota` di questa nota».
+    Il motivo è che §7.1 segnala come errore ogni data del corpo che non compare nelle fonti,
+    e la data di verifica di un'assenza **non è un fatto dell'archivio: è un metadato della
+    nota**, che ha già il suo campo. Un fatto, un padrone, applicato alla data della nota
+    stessa.
     ⚠️ Il pilota della Sessione 2 ha scritto che nessun grezzo conteneva la regola di
     composizione del codice di lotto: il manuale HACCP la dichiara in due punti, ed era
     dentro la fetta.
