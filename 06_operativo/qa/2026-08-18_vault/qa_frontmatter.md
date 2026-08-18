@@ -1,7 +1,7 @@
 ## qa_frontmatter (perimetro: vault, 106 note)
 
 - ERRORI: **0**
-- AVVISI: **21**
+- AVVISI: **19**
 
 ### Avvisi
 
@@ -19,8 +19,6 @@
 | `fatto-riepilogo-datalogger-inaffidabile.md` |  | frontmatter | corpo di 314 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-risalita-termica-post-riavvio-l26130.md` |  | frontmatter | corpo di 326 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-verifiche-ccp3-turno-l26130.md` |  | frontmatter | corpo di 311 parole: fra 301 e 350, si motiva o si spezza |
-| `doc-limite-o2-residuo-af-sn-0450.md` |  | frontmatter | summary contiene piu' di una frase |
-| `doc-scheda-tecnica-af-sn-0450.md` |  | frontmatter | summary contiene piu' di una frase |
 | `kpi-manutenzioni-arretrate-2026.md` |  | frontmatter | corpo di 344 parole: fra 301 e 350, si motiva o si spezza |
 | `kpi-shelf-life-af-sn-0450.md` |  | frontmatter | corpo di 338 parole: fra 301 e 350, si motiva o si spezza |
 | `script-genera-llms-txt.md` |  | frontmatter | corpo di 303 parole: fra 301 e 350, si motiva o si spezza |

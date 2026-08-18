@@ -13,7 +13,7 @@
 
 ## Riga di riepilogo per lo stato di sessione
 
-> suite QA · perimetro lotto · **0 ERRORI, 31 AVVISI** · esito **GIALLO**
+> suite QA · perimetro lotto · **0 ERRORI, 30 AVVISI** · esito **GIALLO**
 
 ---
 
@@ -76,7 +76,7 @@
 ## qa_provenance (perimetro: lotto, 59 note)
 
 - ERRORI: **0**
-- AVVISI: **22**
+- AVVISI: **21**
 
 ### Avvisi
 
@@ -92,7 +92,6 @@
 | `questione-codice-allarme-pkm-450.md` |  | provenance | ora senza riscontro in nessuna fonte citata: «15:09:02» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 | `questione-codice-allarme-pkm-450.md` |  | provenance | fonte immagine 'IMG-20260510-WA0007.jpg': riscontro visivo, da chiudere a mano |
 | `questione-codice-allarme-pkm-450.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
-| `questione-codice-ricambio-valvola-pkm-450.md` |  | provenance | la fonte 'scheda_manutenzione_ordinaria_forni_industrial.csv' non aggancia nessuna affermazione della nota: rumore nel payload |
 | `questione-tassello-inox-non-passato.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `questione-verifiche-ccp3-10-05-tre-versioni.md` |  | provenance | citazione senza riscontro in nessuna fonte citata: «Verifica di fine turno (capoturno)» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 | `questione-verifiche-ccp3-10-05-tre-versioni.md` |  | provenance | citazione senza riscontro in nessuna fonte citata: «dalle 15 alle 18.45 linea ferma per rottura valvola azoto. verifiche n» — la nota cita un .jpg, riscontro visivo da chiudere a mano |

@@ -431,3 +431,42 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   di una nota e che la nota non cita. E' stato il rilievo piu' utile del secondo giro.
   **Candidato emendamento al prompt di giudizio**, da valutare al gate: il prompt e' congelato
   e non si tocca a meta' lotto.
+
+- **2026-08-18** · S4 lotto 1A, gate · **Cinque emendamenti approvati dal coordinatore e
+  applicati a metodo_03: E21-E25** · E21 il budget si controlla PRIMA di scrivere e oltre il
+  +25% il lotto si spezza; E22 la data di verifica di un'assenza rimanda a `data_nota` invece
+  di essere riscritta nel corpo; E23 il marcatore di un valore derivato va accanto al numero,
+  entro sessanta caratteri, e divisioni e medie non sono riconosciute come formule; E24 date e
+  orari si riportano nella grafia della fonte; **E25 non si anticipa una divergenza di cui una
+  sola gamba e' canonizzata**. Classificati nel registro del rapporto di lotto, §13.
+- **2026-08-18** · S4 lotto 1A, gate · **E25 e' il divieto che chiude la causa radice delle due
+  sole fughe di canone del progetto** · S2 e 1A hanno il movente identico: chi canonizza ha
+  letto il canone, sa che la divergenza esiste, e non resiste a segnalarla anche quando la
+  seconda gamba non e' ancora nel vault. **La gamba futura vive solo nella tabella di
+  tracciamento**, che sta fuori dal vault. Serviva un divieto, non un richiamo alla prudenza.
+- **2026-08-18** · S4 lotto 1A, gate · **`PROMPT_GIUDIZIO` passa alla v2, datata, e non e'
+  retroattiva** · terzo compito in coda ai due esistenti, che restano intatti alla lettera:
+  segnalare fuori verdetto una fonte del pacchetto che misura la stessa grandezza di una nota
+  e che la nota non cita. **Vale dal lotto 1B; il lotto 1A e' stato giudicato con la v1**, e
+  ogni rapporto di lotto dichiara la versione usata. ⚠️ **Il congelamento intoccabile riguarda
+  gli strumenti di MISURA** — P1, P3, config C — dove la confrontabilita' prima/dopo e' il
+  prodotto; **lo strato di giudizio e' una rete interna di QA ed evolve con versioni
+  dichiarate**, esattamente come metodo_03. Distinzione fissata dal coordinatore.
+- **2026-08-18** · S4 lotto 1A, gate · **Il falso positivo della suite sulla fonte non
+  agganciata e' un FIX DI CODICE, non un emendamento** · il conteggio degli agganci si basava
+  sulle sole affermazioni che una regex sa estrarre, e dichiarava «rumore nel payload» una
+  fonte che sorreggeva la nota con un codice di forma non prevista (`PKM-4471-EPDM`). Ora
+  contano anche i token che la nota marca come identificatori fra apici inversi: **puo' solo
+  aggiungere agganci, mai toglierne**. Collaudo rieseguito dopo il fix: 5 difetti piantati su
+  5 trovati, 0 falsi positivi.
+- **2026-08-18** · S4 lotto 1A, gate · **Le chiusure a mano degli avvisi si registrano SEMPRE
+  con motivazione scritta, mai in silenzio** · regola del titolare. Nel lotto 1A l'unico avviso
+  chiuso a mano e' poi diventato un fix di codice, ed entrambi i passaggi sono scritti nel
+  rapporto §11 e qui.
+- **2026-08-18** · S4 lotto 1A, gate · **Un numero dichiarato che si corregge lascia
+  un'errata datata e visibile** · la §11 del rapporto dichiarava 32 avvisi con famiglie che ne
+  sommavano 46: avevo contato le righe su `qa_all.md`, che ripete al proprio interno i quattro
+  report figli. Il rilievo e' del titolare. Ricontato dai figli, tre avvisi corretti invece che
+  motivati e uno chiuso dal fix: **totale finale 30, famiglie disgiunte che sommano al totale**.
+  L'errata resta nel rapporto: il rapporto di lotto non e' un verbale di misura, ma la
+  correzione deve restare leggibile.

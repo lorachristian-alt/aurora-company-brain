@@ -7,13 +7,13 @@
 | Controllo | Codice di uscita |
 |---|---|
 | `qa_frontmatter.py` | 2 |
-| `qa_link_integrity.py` | 2 |
+| `qa_link_integrity.py` | 0 |
 | `qa_provenance.py` | 2 |
 | `qa_copertura.py` | 1 |
 
 ## Riga di riepilogo per lo stato di sessione
 
-> suite QA · perimetro vault · **135 ERRORI, 64 AVVISI** · esito **ROSSO**
+> suite QA · perimetro vault · **135 ERRORI, 61 AVVISI** · esito **ROSSO**
 
 ---
 
@@ -50,7 +50,7 @@
 ## qa_frontmatter (perimetro: vault, 106 note)
 
 - ERRORI: **0**
-- AVVISI: **21**
+- AVVISI: **19**
 
 ### Avvisi
 
@@ -68,8 +68,6 @@
 | `fatto-riepilogo-datalogger-inaffidabile.md` |  | frontmatter | corpo di 314 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-risalita-termica-post-riavvio-l26130.md` |  | frontmatter | corpo di 326 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-verifiche-ccp3-turno-l26130.md` |  | frontmatter | corpo di 311 parole: fra 301 e 350, si motiva o si spezza |
-| `doc-limite-o2-residuo-af-sn-0450.md` |  | frontmatter | summary contiene piu' di una frase |
-| `doc-scheda-tecnica-af-sn-0450.md` |  | frontmatter | summary contiene piu' di una frase |
 | `kpi-manutenzioni-arretrate-2026.md` |  | frontmatter | corpo di 344 parole: fra 301 e 350, si motiva o si spezza |
 | `kpi-shelf-life-af-sn-0450.md` |  | frontmatter | corpo di 338 parole: fra 301 e 350, si motiva o si spezza |
 | `script-genera-llms-txt.md` |  | frontmatter | corpo di 303 parole: fra 301 e 350, si motiva o si spezza |
@@ -82,13 +80,7 @@
 ## qa_link_integrity (perimetro: vault, 106 note nel vault)
 
 - ERRORI: **0**
-- AVVISI: **1**
-
-### Avvisi
-
-| Nota | Riga | Controllo | Rilievo |
-|---|---|---|---|
-| `sessione-s4-lotto-1a.md` |  | link | dichiara l'hub [[macchina-linea-1]] come proprio in related, ma quell'hub non la elenca nel corpo |
+- AVVISI: **0**
 
 
 ## qa_provenance (perimetro: vault, 106 note)
@@ -124,7 +116,6 @@ verifiche n» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 | `questione-codice-allarme-pkm-450.md` |  | provenance | ora senza riscontro in nessuna fonte citata: «15:09:02» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 | `questione-codice-allarme-pkm-450.md` |  | provenance | fonte immagine 'IMG-20260510-WA0007.jpg': riscontro visivo, da chiudere a mano |
 | `questione-codice-allarme-pkm-450.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
-| `questione-codice-ricambio-valvola-pkm-450.md` |  | provenance | la fonte 'scheda_manutenzione_ordinaria_forni_industrial.csv' non aggancia nessuna affermazione della nota: rumore nel payload |
 | `questione-durata-deviazione-ccp2-l26130.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `questione-tassello-inox-non-passato.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `questione-verifiche-ccp3-10-05-tre-versioni.md` |  | provenance | citazione senza riscontro in nessuna fonte citata: «Verifica di fine turno (capoturno)» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
@@ -135,6 +126,7 @@ verifiche n» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 | `fatto-misura-frammento-rec-2026-011.md` |  | provenance | fonte immagine 'IMG_20260514_152241_frammento_REC-2026-011.jpg': riscontro visivo, da chiudere a mano |
 | `questione-misura-frammento-strumentale.md` |  | provenance | fonte immagine 'IMG_20260514_152241_frammento_REC-2026-011.jpg': riscontro visivo, da chiudere a mano |
 | `doc-ccp2-limite-critico.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
+| `doc-scheda-tecnica-af-sn-0450.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `entita-elena-marchetti.md` |  | provenance | la fonte 'MOD-QA-31_reclamo_REC-2026-011.pdf' non aggancia nessuna affermazione della nota: rumore nel payload |
 | `entita-ivano-dal-maso.md` |  | provenance | la fonte 'R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml' non aggancia nessuna affermazione della nota: rumore nel payload |
 | `concetto-atmosfera-protettiva.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |

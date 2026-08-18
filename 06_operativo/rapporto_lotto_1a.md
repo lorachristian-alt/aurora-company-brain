@@ -19,7 +19,7 @@
 | Note nel vault, prima → dopo | **63 → 105** (contate da `qa_all.py`) |
 | Note di contenuto nel vault, prima → dopo | **46 → 88** |
 | Densità del lotto | **6,0 note di contenuto per grezzo**, contro 2,1 del pilota |
-| QA di lotto | **0 ERRORI, 31 AVVISI** — verde, dopo due giri di giudizio e uno di revisione |
+| QA di lotto | **0 ERRORI, 30 AVVISI** — verde, dopo due giri di giudizio, uno di revisione e il fix della suite |
 | Collaudo della suite, rieseguito | 5 difetti piantati su 5 trovati, 0 falsi positivi |
 
 ### Le 42 note nuove, per cartella
@@ -113,9 +113,9 @@ esattamente il guasto del 10/05 e non coincide né con `E-214 GAS` della foto n�
 
 ## 6. Gli avvisi della QA
 
-Trentuno, tutti motivati: l'elenco per famiglia sta al §11, dopo i tre passaggi di
-revisione, perché è su quei numeri finali che vanno letti. ⚠️ La prima stesura del §11 ne
-dichiarava 32 con famiglie che sommavano 46: l'errata è dichiarata lì.
+Trenta, tutti motivati: l'elenco per famiglia sta al §11, dopo i tre passaggi di revisione,
+perché è su quei numeri finali che vanno letti. ⚠️ La prima stesura del §11 ne dichiarava 32
+con famiglie che sommavano 46: l'errata è dichiarata lì.
 
 ## 7. Il perimetro vault, che non era chiesto ma è cambiato
 
@@ -221,16 +221,17 @@ valutare al gate — il prompt non si tocca a metà lotto.
 
 ## 11. Gli avvisi residui, motivati
 
-> **⚠️ ERRATA del 18/08/2026.** La prima stesura di questa sezione dichiarava **32 avvisi** e
-> ne descriveva quattro famiglie che sommavano **46**. La somma non quadrava, ed era un errore
-> di conteggio mio: avevo contato le righe su `qa_all.md`, che **ripete al proprio interno i
-> quattro report figli**, raddoppiando due famiglie. Il rilievo è del titolare. La sezione è
-> riscritta qui sotto con i numeri ricontati dai soli report figli, e **tre avvisi che erano
-> correggibili sono stati corretti** invece di essere motivati: il totale scende da 32 a 31.
-> L'errata resta visibile: la correzione di un numero dichiarato non si fa in silenzio.
+> **⚠️ ERRATA del 18/08/2026.** La prima stesura dichiarava **32 avvisi** e ne descriveva
+> quattro famiglie che sommavano **46**. La somma non quadrava, ed era un errore di conteggio
+> mio: avevo contato le righe su `qa_all.md`, che **ripete al proprio interno i quattro report
+> figli**, raddoppiando due famiglie. Il rilievo è del titolare. Ricontando dai soli report
+> figli il totale era 32; **tre avvisi erano correggibili e sono stati corretti** invece che
+> motivati (due `summary` a più di una frase e una reciprocità hub/spoke), portandolo a 31; il
+> **fix della suite** deliberato dal coordinatore ha poi chiuso l'ultimo, portandolo a **30**.
+> L'errata resta scritta: la correzione di un numero dichiarato non si fa in silenzio.
 
-**31 avvisi**, ricontati dai quattro report figli — `qa_frontmatter` 9 · `qa_link_integrity`
-0 · `qa_provenance` 22 · `qa_copertura` 0 — e **la somma delle famiglie quadra con il
+**30 avvisi**, ricontati dai quattro report figli — `qa_frontmatter` 9 · `qa_link_integrity`
+0 · `qa_provenance` 21 · `qa_copertura` 0 — e **la somma delle famiglie quadra con il
 totale**:
 
 | Famiglia | Avvisi | Perché non si corregge |
@@ -238,26 +239,27 @@ totale**:
 | «`summary` e `title` si sovrappongono per meno del 20 %» | **10** | Sono le note il cui titolo è una domanda e il cui riassunto è la risposta: le parole non si ripetono per costruzione, ed è ciò che si vuole |
 | «corpo fra 301 e 350 parole: si motiva o si spezza» | **9** | Si motivano. Portano una tabella di confronto o una citazione lunga, e spezzarle separerebbe il dato dal suo contesto. Nessuna supera il tetto dei 350 |
 | Riscontro visivo sulle due immagini del lotto | **11** | 4 orari, 3 codici, 2 citazioni e 2 segnalazioni di fonte immagine, tutti sulla scansione del `MOD-QA-07` e sulla foto del pannello. **Entrambe lette a occhio**, e la prima ha prodotto la scoperta più importante del lotto. L'estrattore congelato è cieco sulle immagini per costruzione |
-| «fonte che non aggancia nessuna affermazione» | **1** | ⚠️ **Falso positivo della suite, non difetto della nota** — vedi sotto |
-| **totale** | **31** | |
+| **totale** | **30** | |
 
-⚠️ **Un avviso può ricadere in una sola famiglia**: le righe qui sopra sono disgiunte, e
-questa è la differenza rispetto alla prima stesura.
+⚠️ **Un avviso ricade in una sola famiglia**: le righe sono disgiunte, e questa è la
+differenza rispetto alla prima stesura.
 
-### La chiusura a mano dell'avviso residuo, registrata
+### L'avviso chiuso a mano, e perché è diventato un fix di codice
 
-L'unico avviso non riconducibile a una famiglia motivabile è su
-`questione-codice-ricambio-valvola-pkm-450`: `qa_provenance` dichiara che la fonte
-`scheda_manutenzione_ordinaria_forni_industrial.csv` «non aggancia nessuna affermazione
-della nota: rumore nel payload».
+`qa_provenance` dichiarava che su `questione-codice-ricambio-valvola-pkm-450` la fonte
+`scheda_manutenzione_ordinaria_forni_industrial.csv` «non aggancia nessuna affermazione della
+nota: rumore nel payload».
 
-**È falso.** La riga 26 di quel file porta il codice `PKM-4471-EPDM (orig. Pakmatic)`, che è
-**il quarto codice e il perno stesso della nota**: senza quella fonte la nota non esisterebbe.
-Il rilievo è del revisore indipendente, e la chiusura a mano è registrata qui e nel decision
-log con la sua motivazione — **una chiusura a mano non è mai silenziosa**.
+**Era falso**, e il rilievo è del revisore indipendente: la riga 26 di quel file porta il
+codice `PKM-4471-EPDM (orig. Pakmatic)`, che è **il quarto codice e il perno stesso della
+nota**. Il difetto era dello strumento: il conteggio degli agganci si basava sulle
+affermazioni che una regex sa estrarre, e quella famiglia di codici non era fra quelle.
 
-Il difetto è dello strumento, non della nota, e si corregge come **fix di codice** in
-`qa_provenance.py`, non come emendamento al metodo.
+Il coordinatore l'ha classificato come **fix di codice, non emendamento**. Corretto in
+`qa_provenance.py`: si contano come aggancio anche i token che la nota marca come
+identificatori scrivendoli fra apici inversi. ⚠️ Il fix **può solo aggiungere agganci, mai
+toglierne**: non trasforma nessun avviso in errore e non allenta nessun altro controllo.
+Collaudo rieseguito dopo il fix: **5 difetti piantati su 5 trovati, 0 falsi positivi**.
 
 ## 12. Cosa chiedo al titolare
 
@@ -269,3 +271,27 @@ Il difetto è dello strumento, non della nota, e si corregge come **fix di codic
    di revisione e sedici rilievi accolti, su sette grezzi. Il tetto di due lotti per sessione
    regge, ma il lotto 1B va aperto contando i fatti prima di scrivere, come la regola di
    apertura ora prescrive.
+
+---
+
+## 13. Registro degli emendamenti — gate del lotto 1A, 18/08/2026
+
+Classificati come al gate S2: **refuso** (il manuale dice una cosa sbagliata), **chiarimento**
+(dice una cosa ambigua), **regola nuova** (non dice nulla e serve). **Tutti approvati dal
+coordinatore e applicati.**
+
+| | Dove | Classe | Cosa dice, e da quale caso nasce |
+|---|---|---|---|
+| **E20** | §2.4 · §7.0 · §7.2 | **regola nuova** | **Le note-strumento del progetto sono fuori dal controllo di componente unica**, come già erano fuori da `fonti` (E1) e dallo strato di giudizio. L'esenzione è della **classe**, non della cartella `code\`: le note di contenuto restano dentro. La classe è definita **una volta sola** in §2.4 e in `qa_comune.e_nota_strumento`, e tutte e tre le esenzioni si riferiscono a quella. Aritmetica dell'esenzione: un `_index` partecipa solo se la sua cartella ha almeno una nota valutabile. Chiude la decisione lasciata aperta dal gate S2 |
+| **E21** | §9.4 | **regola nuova** | **Il budget si controlla PRIMA di scrivere.** All'apertura di un lotto si contano i fatti e si proietta il totale; oltre il **+25 %** sul budget il lotto si spezza prima di scrivere una riga. Nasce dal lotto 1, che avrebbe prodotto ~62 note contro un budget di 26-36: un grezzo denso non è un grezzo grande |
+| **E22** | §10.12-bis | **chiarimento** | **La data di verifica di un'assenza non si riscrive nel corpo: si rimanda a `data_nota`.** §10.12-bis chiede di datare l'assenza, §7.1 segnala come errore ogni data del corpo assente dalle fonti: le due regole si scontravano per costruzione. La data di una nota è un metadato della nota, e ha già il suo campo |
+| **E23** | §5.4 · §7.1 clausola 2 | **chiarimento** | **Il marcatore di un valore derivato va accanto al numero, non nel paragrafo che lo spiega**: entro sessanta caratteri, fra parentesi. **Divisioni, medie e percentuali non sono riconosciute come formule** e vanno marcate. È il modo più frequente in cui una nota giusta fallisce la QA |
+| **E24** | §10, divieto 4-bis | **chiarimento** | **Date e orari si riportano nella grafia della fonte.** Un file che scrive `20/04/26`, `20-mar-26` e `2026-01-12` nella stessa colonna si cita così: uniformare è correggere il grezzo. Vale anche per gli orari in OCR degradato |
+| **E25** | §10, divieto 9-bis | **regola nuova** | ⚠️ **Non anticipare una divergenza di cui una sola gamba è canonizzata.** Finché il secondo documento non è nel vault, di quella divergenza non si scrive nulla in nessuna nota — né come fatto, né in forma attenuata. **La gamba futura vive solo nella tabella di tracciamento.** È la causa radice delle **due sole fughe di canone del progetto**, S2 e 1A, che hanno il movente identico: chi canonizza ha letto il canone e non resiste a segnalare la divergenza |
+
+### Fuori dal registro di `metodo_03`, deliberati allo stesso gate
+
+| | Cosa | Regime |
+|---|---|---|
+| **`PROMPT_GIUDIZIO_V2`** | Lo strato di giudizio guadagna un **terzo compito**: segnalare, fuori dal verdetto, una fonte del pacchetto che misura la stessa grandezza di una nota e che la nota non cita — la lacuna di copertura vista dal lato della provenienza. Nasce dal ri-giudizio di questo lotto, dove è stato il rilievo più utile del giro | I due compiti esistenti restano **intatti alla lettera**, il terzo è in coda. Versione datata 18/08/2026, **vale dal lotto 1B, mai retroattiva**, e ogni rapporto di lotto dichiara la versione usata. ⚠️ **Il lotto 1A è stato giudicato con la v1.** Il congelamento intoccabile riguarda gli strumenti di **misura** — P1, P3, config C — dove la confrontabilità prima/dopo è il prodotto; lo strato di giudizio è una rete interna di QA ed evolve con versioni dichiarate, come `metodo_03` |
+| **Fix di `qa_provenance.py`** | Il conteggio degli agganci contava solo le affermazioni che una regex sa estrarre, e dichiarava «rumore nel payload» una fonte che sorreggeva la nota con un codice di forma non prevista. Ora contano anche i token che la nota marca come identificatori fra apici inversi | **Fix di codice, non emendamento.** Può solo aggiungere agganci, mai toglierne. Collaudo rieseguito: 5 difetti piantati su 5, 0 falsi positivi |
