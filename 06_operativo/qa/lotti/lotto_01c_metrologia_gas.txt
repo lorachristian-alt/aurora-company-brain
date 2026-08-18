@@ -1,0 +1,12 @@
+# Lotto 1C — Metrologia e gas tecnici: parco strumenti, tarature, azoto alimentare
+# Nato dallo stesso spezzamento del lotto 1B, 18/08/2026 (vedi 1B).
+#
+# Riconciliazioni che questo lotto deve chiudere o dichiarare:
+#   - T20: base metrologica dell'arbitrato datalogger contro registro
+#     cartaceo — l'elenco tarature attesta il datalogger DL-001 del PT-104;
+#   - T17: azoto — la bolla Nordgas registra scarico in serbatoio fisso, il
+#     quaderno del capoturno parla di «bombola nordgas cambiata alle 16»;
+#   - T25, T26 e T32: convalida dell'MD-3200, sigle dei tasselli del CCP3 e
+#     posizione del metal detector in linea, tutte riaperte dall'elenco.
+elenco_attrezzature_taratura_strumenti_2026.csv
+bolla_ingresso_azoto_alimentare_Nordgas_OCR.txt

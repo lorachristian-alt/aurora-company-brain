@@ -398,7 +398,8 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
 - **2026-08-18** · S4 lotto 1A · **I fine riga si preservano quando si riscrive un file con uno
   script** · riscrivendo il canone e la matrice con Python su Windows i `
 ` sono diventati
-  `
+  `
+
 `, e un file con 285 righe invariate e' comparso come interamente modificato. Il repo ha
   `.gitattributes` con `* -text` proprio perche' i byte contano. **Verifica adottata:** dopo ogni
   riscrittura da script, `diff` contro la copia precedente sulle righe preesistenti, e ripristino
@@ -470,3 +471,30 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   motivati e uno chiuso dal fix: **totale finale 30, famiglie disgiunte che sommano al totale**.
   L'errata resta nel rapporto: il rapporto di lotto non e' un verbale di misura, ma la
   correzione deve restare leggibile.
+- **2026-08-19** · S4, apertura del lotto 1B · **Il lotto 1B si spezza in 1B + 1C PRIMA di
+  scrivere, e i lotti passano da 11 a 12** · applicazione di E21, approvata due giorni prima
+  proprio su questo caso: il conteggio dei fatti in apertura ha proiettato **~41 note contro un
+  budget di 22-30**, cioe' **+37 %** e una densita' di **6,8 note per grezzo** contro le 6,0 di
+  1A. Decisione del titolare fra tre alternative. ⚠️ **Il criterio del taglio e' il suo, e vale
+  come regola di mestiere: si spezza lungo le cuciture, mai attraverso le riconciliazioni.**
+  La storia della cella `CF-02` resta intera in 1B — allarmi di aprile, arretrati di
+  manutenzione gia' canonizzati in 1A, +49,7 % di consumo a maggio, contratto mai firmato — e
+  1C prende parco strumenti, tarature e gas tecnici. Riassegnate in tabella di tracciamento:
+  T18, T22, T30 a 1B; T17, T20, T25, T26, T32 a 1C.
+- **2026-08-19** · S4, apertura del lotto 1B · **Gli obblighi F-gas restano in
+  `area: manutenzione`, con il tag della dimensione trasversale** · decisione del titolare, con
+  il motivo di fondo: **le note non traslocano** (metodo_03 §1.4), quindi l'assegnazione d'area
+  e' permanente e si fa sull'area che governa i fatti **oggi**, non su quella di un assetto
+  futuro. Un hub d'area non si apre vuoto per un'esigenza di archiviazione:
+  `area-sicurezza-ambiente` nasce nel lotto 8 con i suoi fatti, come da matrice, e allora
+  linkera' le note F-gas come **rimandi laterali** — il `related` principale resta l'hub di
+  manutenzione (E11). L'impegno e' tracciato come **T34**, perche' un rimando promesso e non
+  mantenuto e' esattamente cio' che la tabella esiste per impedire.
+- **2026-08-19** · S4, apertura del lotto 1B · **`verifica_matrice_lotti.py` riconosce i lotti
+  CHIUSI da un marcatore nell'elenco** · fix di codice, non emendamento. Il controllo 4 («nessun
+  lotto contiene un grezzo gia' citato da una nota») esentava la sola fetta pilota, quindi
+  diventava rosso a ogni lotto che si chiude: dopo 1A dichiarava 7 guasti che erano il lavoro
+  fatto. Ora l'elenco di un lotto canonizzato porta `# CHIUSO <data>` in testa e il controllo lo
+  salta, come per il pilota. **Il flag si aggiunge alla chiusura del lotto**, insieme agli altri
+  gesti. Esito dopo il fix: 160 grezzi, 0 scoperti, 0 guasti, 13 elenchi.
+

@@ -1,0 +1,22 @@
+# Lotto 1B — Freddo ed energia: cella CF-02, tunnel TS-01, consumi e fattura
+# Nato dal secondo SPEZZAMENTO del 18/08/2026: il lotto 1B della matrice
+# approvata proiettava ~41 note contro un budget di 22-30 (+37%), e la
+# regola E21 impone di spezzare PRIMA di scrivere.
+#
+# Il taglio segue le cuciture: la storia della cella surgelati CF-02 resta
+# intera in questo lotto — gli allarmi di aprile, le manutenzioni arretrate
+# gia' canonizzate in 1A, il +49,7% di consumo di maggio e il contratto di
+# manutenzione mai firmato sono lo stesso fatto visto da quattro documenti.
+#
+# Riconciliazioni che questo lotto deve chiudere o dichiarare:
+#   - T18: Frigotecnica BERICA (contratto) contro Frigotecnica SCALIGERA
+#     (scheda di manutenzione, gia' in vault) sugli stessi impianti;
+#   - T22 e T30: manutenzioni arretrate su CF-02 contro il log allarmi e i
+#     consumi di maggio;
+#   - T10: costo dell'energia, 0,182 EUR/kWh nei consumi contro i prezzi
+#     ricavabili dalla bolletta. La terza gamba (CapEx) e' del lotto 9 e
+#     NON si anticipa (E25).
+log_allarmi_cella_frigo_surgelati_aprile.log
+contratto_manutenzione_impianto_frigo_TS01.docx
+consumi_energetici_forni_kwh_maggio26.csv
+bolletta_VenetaEnergia_maggio2026.pdf

@@ -26,12 +26,23 @@ PILOTA = os.path.join(QUI, "qa", "fetta_l26130.txt")
 
 
 def leggi(percorso):
-    fuori = []
+    """Righe utili dell'elenco, piu' il flag CHIUSO.
+
+    Un elenco che porta `# CHIUSO` fra i commenti di testa e' un lotto gia'
+    canonizzato: i suoi grezzi sono citati dalle note **per costruzione**, e il
+    controllo 4 non si applica — esattamente come per la fetta pilota. Senza
+    questo flag la verifica diventa rossa a ogni lotto che si chiude, cioe'
+    proprio quando dovrebbe restare verde.
+    """
+    fuori, chiuso = [], False
     for riga in open(percorso, encoding="utf-8"):
         riga = riga.strip()
-        if riga and not riga.startswith("#"):
+        if riga.startswith("#"):
+            if riga.lstrip("# ").upper().startswith("CHIUSO"):
+                chiuso = True
+        elif riga:
             fuori.append(riga)
-    return fuori
+    return fuori, chiuso
 
 
 def main():
@@ -39,10 +50,12 @@ def main():
     su_disco = sorted(n for n in os.listdir(sources)
                       if os.path.isfile(os.path.join(sources, n)) and not n.lower().endswith(".md"))
 
-    elenchi = [("fetta_l26130 (pilota, S2)", leggi(PILOTA))]
+    voci_pilota, _ = leggi(PILOTA)
+    elenchi = [("fetta_l26130 (pilota, S2)", voci_pilota, True)]
     for n in sorted(os.listdir(DIR_LOTTI)):
         if n.lower().endswith(".txt"):
-            elenchi.append((n[:-4], leggi(os.path.join(DIR_LOTTI, n))))
+            voci, chiuso = leggi(os.path.join(DIR_LOTTI, n))
+            elenchi.append((n[:-4], voci, chiuso))
 
     citati = set()
     for nota in Q.tutte_le_note(Q.VAULT):
@@ -54,8 +67,8 @@ def main():
     proprietario = {}
     print("| Elenco | Grezzi |")
     print("|---|---|")
-    for nome, voci in elenchi:
-        print("| %s | %d |" % (nome, len(voci)))
+    for nome, voci, chiuso in elenchi:
+        print("| %s | %d |%s" % (nome, len(voci), " *(chiuso)*" if chiuso else ""))
         for v in voci:
             if v in proprietario:
                 guasti.append("DOPPIO      %s — in %s e in %s" % (v, proprietario[v], nome))
@@ -63,14 +76,14 @@ def main():
                 proprietario[v] = nome
             if v not in su_disco:
                 guasti.append("INESISTENTE %s — nominato da %s" % (v, nome))
-            if nome != "fetta_l26130 (pilota, S2)" and v in citati:
+            if not chiuso and v in citati:
                 guasti.append("GIA' COPERTO %s — in %s ma gia' citato da una nota" % (v, nome))
 
     scoperti = [n for n in su_disco if n not in proprietario]
     for n in scoperti:
         guasti.append("SCOPERTO    %s — in nessun elenco" % n)
 
-    totale = sum(len(v) for _, v in elenchi)
+    totale = sum(len(v) for _, v, _c in elenchi)
     print("| **totale righe** | **%d** |" % totale)
     print("")
     print("grezzi su disco ............ %d" % len(su_disco))

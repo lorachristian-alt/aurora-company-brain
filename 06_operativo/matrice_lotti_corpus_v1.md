@@ -1,7 +1,7 @@
 # Matrice dei lotti — canonizzazione del corpus v1
 
 > **Cos'è** · Il piano di lavoro delle Sessioni 4-5: come i **138 grezzi non ancora
-> canonizzati** si dividono in undici lotti tematici, in che ordine si eseguono, con quale
+> canonizzati** si dividono in dodici lotti tematici, in che ordine si eseguono, con quale
 > budget di note e con quali obblighi ciascuno.
 > **Quando si usa** · All'apertura di ogni lotto, per sapere cosa entra e cosa ci si
 > aspetta. E al gate finale, per dimostrare che i 160 sono stati coperti tutti.
@@ -52,14 +52,15 @@ nel **lotto 10**, che è il lotto che scrive quella nota.
 
 ---
 
-## Gli undici lotti, in ordine di esecuzione
+## I dodici lotti, in ordine di esecuzione
 
 Il numero del lotto **è** l'ordine di esecuzione.
 
 | # | Tema | Grezzi | Budget note di contenuto | Aree nuove che apre |
 |---|---|---|---|---|
 | 1A | Linea 1: il turno, i CCP e la confezionatrice | 7 | 34-42 | — |
-| 1B | Linea 1: impianti ausiliari, energia, celle, tarature | 6 | 22-30 | — |
+| 1B | Freddo ed energia: cella CF-02, tunnel TS-01, consumi e fattura | 4 | 22-30 | — |
+| 1C | Metrologia e gas tecnici: parco strumenti, tarature, azoto alimentare | 2 | 12-18 | — |
 | 2 | Igiene, sanificazione, autocontrollo, MOCA | 12 | 20-30 | — |
 | 3 | Sistema qualità, certificazioni, audit, crisi | 13 | 22-32 | — |
 | 4 | Filiera in entrata, fornitori, logistica | 14 | 26-36 | — |
@@ -69,7 +70,7 @@ Il numero del lotto **è** l'ordine di esecuzione.
 | 8 | Sicurezza sul lavoro, ambiente, assicurazioni | 11 | 16-24 | `sicurezza-ambiente` |
 | 9 | R&D, nuovi prodotti, investimenti, visione | 12 | 22-30 | `ricerca-sviluppo` |
 | 10 | Rumore di fondo e forma dell'archivio | 18 | 14-22 | — |
-| | **totale** | **138** | **234-334** | 4 hub d'area nuovi |
+| | **totale** | **138** | **246-352** | 4 hub d'area nuovi |
 
 **Il budget si misura sulle note di CONTENUTO** (E17): esclusi gli `_index`, che nascono
 per cartella toccata, e le note-strumento di `code\`. Le fasce qui sopra non sono una
@@ -120,10 +121,11 @@ se ne discute nel rapporto di lotto — non al gate finale, quando sarebbero cen
 - **Il lotto 1A è imposto dal prompt** e dal rapporto di gate S2 §6.2: porta dentro
   `appunti_capoturno_quaderno_linea1_OCR.txt`, che è la gamba mancante di tutti e tre i
   conflitti in lista di tracciamento. Va fatto per primo perché tre note del pilota
-  restano incomplete finché quel file non entra. **1B lo segue subito**: è lo stesso
-  terreno, e chiude tre riconciliazioni che 1A lascia aperte per mancanza della seconda
-  gamba (T17, T18, T20).
-- ⚠️ **Alla chiusura di 1A + 1B i budget dei lotti restanti si ricalibrano sui consuntivi.**
+  restano incomplete finché quel file non entra. **1B e 1C lo seguono subito**: sono lo
+  stesso terreno, e chiudono le riconciliazioni che 1A lascia aperte per mancanza della
+  seconda gamba — **T18, T22 e T30 in 1B** con il contratto di manutenzione e i consumi,
+  **T17, T20, T25, T26 e T32 in 1C** con l'elenco delle tarature e la bolla dell'azoto.
+- ⚠️ **Alla chiusura di 1A + 1B + 1C i budget dei lotti restanti si ricalibrano sui consuntivi.**
   Le stime da 2 a 6 sono state fatte con la densità del pilota; se anche solo uno dei due
   lotti conferma una densità sopra le 3 note per grezzo, le fasce dei lotti densi vanno
   rifatte prima di aprirli. La matrice segue le note.
@@ -181,20 +183,47 @@ Altro che questo lotto deve produrre o riconciliare:
   volte** con annotata «oscillazioni in regolazione». Vanno scritti, e vanno linkati ai fatti
   del 10/05 senza concludere un nesso che nessuna fonte afferma.
 
-### Lotto 1B — Linea 1: impianti ausiliari, energia, celle, tarature · **6 grezzi · 22-30 note**
+### Lotto 1B — Freddo ed energia: cella CF-02, tunnel TS-01, consumi e fattura · **4 grezzi · 22-30 note**
+
+⚠️ **Nato dal secondo spezzamento del 19/08/2026**: il vecchio 1B da 6 grezzi proiettava
+~41 note contro un budget di 22-30, e E21 impone di spezzare prima di scrivere. Il taglio
+segue le cuciture: **la storia della cella CF-02 resta intera**, perché gli allarmi di
+aprile, le manutenzioni arretrate già canonizzate in 1A, il +49,7 % di consumo di maggio e
+il contratto mai firmato sono lo stesso fatto visto da quattro documenti.
 
 - **i consumi energetici dei forni** non si trattano come un file con errori di calcolo:
   arrotondamenti, non difetti (metodo_03 §5.5 e divieto 4). Il costo dell'energia va
   confrontato con la bolletta VenetaEnergia dello stesso lotto; la terza gamba (0,205
-  €/kWh del CapEx) arriva nel lotto 9;
+  €/kWh del CapEx) arriva nel lotto 9 e **non si anticipa** (E25);
 - **il log allarmi della cella surgelati** dichiara la propria integrità compromessa
-  (`RTC=NOSYNC` dopo il blackout del 21/04, `DUR=` già presente nel record di apertura
-  dell'allarme, file troncato a metà riga): l'integrità autodichiarata è **contenuto** e va
-  registrata;
-- **la bolla Nordgas** e **il contratto Frigotecnica** portano le gambe mancanti di T17 e
-  T18, aperte nel lotto 1A;
+  (`DUR=` già presente nel record di apertura dell'allarme, `RTC=NOSYNC` su una delle due
+  centraline dopo il blackout del 21/04, file troncato a metà riga): l'integrità
+  autodichiarata è **contenuto** e va registrata;
+- **il contratto Frigotecnica** porta la gamba mancante di T18, aperta nel lotto 1A. ⚠️ È
+  una **bozza rev. 3 non firmata**, con clausole ancora in discussione: le sue clausole non
+  prescrivono nulla, e la nota che lo descrive vive in `workspace\` (metodo_03 §1.1
+  passo 2). I fatti che il contratto attesta — cariche di refrigerante, impianti coperti —
+  si scrivono dichiarando che la fonte è una bozza;
+- **le manutenzioni arretrate su CF-02** già canonizzate in 1A (T22, T30) trovano qui le
+  altre due gambe: gli allarmi di aprile e le annotazioni sui consumi di maggio;
+- **gli obblighi F-gas** stanno in `area: manutenzione` con il **tag trasversale** della
+  dimensione ambientale: le note non traslocano, quindi l'area si assegna a chi governa i
+  fatti oggi, non a un assetto futuro. L'hub `area-sicurezza-ambiente` nasce nel lotto 8
+  con i suoi fatti e linka queste note come rimandi laterali (T34).
+
+### Lotto 1C — Metrologia e gas tecnici: parco strumenti, tarature, azoto · **2 grezzi · 12-18 note**
+
 - **l'elenco tarature** attesta che il datalogger del PT-104 era in taratura valida il
   10/05: è la base metrologica dell'arbitrato datalogger contro registro cartaceo (T20).
+  Riapre anche **T25** (convalida dell'MD-3200), **T26** (sigle dei tasselli del CCP3) e
+  **T32** (posizione dell'MD-3200 in linea);
+- ⚠️ **121 righe di strumento non fanno 121 note.** Vale la guardia contro la
+  sovra-atomizzazione: il rapporto di lotto dichiara **il criterio con cui una riga diventa
+  una nota**, e il revisore riceve un campione da verificare. Una selezione deve restare
+  una selezione;
+- **la bolla Nordgas** porta la gamba mancante di T17: registra scarico di azoto **in
+  serbatoio fisso** SB-AUR-01 e bombole solo di CO2, mentre il quaderno dello stesso giorno
+  scrive «bombola nordgas cambiata alle 16».
 
 ### Lotto 2 — Igiene, sanificazione, autocontrollo, MOCA · **12 grezzi · 20-30 note**
 
@@ -374,30 +403,31 @@ tracciamento del gate S2 §6.2. Le questioni che nasceranno canonizzando si aggi
 | T7 | TMC del lotto farina MV26-0429/A: 29/12 · 04/11 · 30/10 | pilota S2 | **lotto 4** (contratto e scheda tecnica Molino Veneto) | tracciata |
 | T8 | Modo di consegna dello stesso lotto: sfuso in autocisterna contro sacchi da 25 kg | pilota S2 | **lotto 4** (i due DDT) | tracciata |
 | T9 | Pezzi per cartone di AF-SN-0450: 10 sulla scheda tecnica, 12 su listino e accordo quadro | **lotto 1A** — gamba acquisita: `ST-0450` rev. 4 dichiara 10 | **lotto 5** (listino v3, accordo quadro) | tracciata |
-| T10 | Costo dell'energia elettrica: 0,182 €/kWh nei consumi, ~0,126 e ~0,173 ricavabili dalla bolletta, 0,205 nel CapEx | **lotto 1B** | **lotto 9** (CapEx linea 3) — **tre gambe, non due** | tracciata |
+| T10 | Costo dell'energia elettrica: 0,182 €/kWh nei consumi, ~0,126 e ~0,173 ricavabili dalla bolletta, 0,205 nel CapEx | **lotto 1B** — le prime due gambe stanno **entrambe** nel lotto | **lotto 9** (CapEx linea 3) — **tre gambe, non due**; la terza **non si anticipa** (E25) | tracciata |
 | T11 | Costo della non qualità gen-mag: 24.420 · 29.600 · 39.500 · 135.793 | **lotto 3** (cruscotto) | **lotto 6** (budget) — il registro NC è già canonizzato | tracciata |
 | T12 | Domeniche lavorate a maggio: due, tre, o le tre della conferma d'ordine | **lotto 5** | **lotto 7** (libro unico, timbrature) | tracciata |
 | T13 | Costo ingredienti di AF-SN-0470: 0,26 €/pz nel business case contro 0,5478 della marginalità | **lotto 5** | **lotto 9** (business case) | tracciata |
 | T14 | Data di pagamento dell'acconto Criotech: 15/05 · 20/05 · 25-26/05 | **lotto 6** | **lotto 9** (preventivo e verbale di CdA) | tracciata |
 | T15 | Impianto assicurativo: la polizza in archivio è Novaria, il report OpEx parla di Generali e AIG | **lotto 6** | **lotto 8** (polizze) | tracciata |
 | T16 | Costi fissi OpEx contro i contratti minori (fotocopiatrice, antivirus, distributori) | **lotto 6** | **lotto 10** | tracciata |
-| T17 | Azoto: la bolla Nordgas del 06/05 registra scarico **in serbatoio fisso** SB-AUR-01 e bombole solo di CO2; il quaderno dello stesso giorno scrive «bombola nordgas cambiata alle 16 ma durata poco» | **lotto 1A** (gamba del quaderno) | **lotto 1B** (bolla Nordgas) | tracciata — ⚠️ in 1A **la gamba del quaderno non ha ancora una nota propria**: metodo_03 §2.4 vuole ≥ 2 file diversi per un `conflitto`, quindi la nota nasce in 1B citando entrambi i grezzi |
-| T18 | Frigotecnica **Berica** (contratto) contro Frigotecnica **Scaligera** (scheda manutenzione), sugli stessi impianti CF-02 e TS-01 | **lotto 1A** (gamba della scheda) | **lotto 1B** (contratto) — ⚠️ **prima di dichiararle due aziende si verifica che non sia la stessa entità con due nomi**; se resta indecidibile è classe C in `alias_entita.md` | tracciata — come T17, in 1A la gamba esiste ma non ha nota propria: serve la seconda fonte |
+| T17 | Azoto: la bolla Nordgas del 06/05 registra scarico **in serbatoio fisso** SB-AUR-01 e bombole solo di CO2; il quaderno dello stesso giorno scrive «bombola nordgas cambiata alle 16 ma durata poco» | **lotto 1A** (gamba del quaderno) | **lotto 1C** (bolla Nordgas) | tracciata — ⚠️ in 1A **la gamba del quaderno non ha ancora una nota propria**: metodo_03 §2.4 vuole ≥ 2 file diversi per un `conflitto`, quindi la nota nasce in 1B citando entrambi i grezzi |
+| T18 | Frigotecnica **Berica** (contratto) contro Frigotecnica **Scaligera** (scheda manutenzione), sugli stessi impianti CF-02 e TS-01 | **lotto 1A** (gamba della scheda) | **lotto 1B** (contratto, che è una **bozza non firmata**) — ⚠️ **prima di dichiararle due aziende si verifica che non sia la stessa entità con due nomi**; se resta indecidibile è classe C in `alias_entita.md` | tracciata — come T17, in 1A la gamba esiste ma non ha nota propria: serve la seconda fonte |
 | T19 | Linea 1 in produzione domenica 10/05 su tre turni, mentre il piano della settimana 19 non la prevede | **lotto 1A** — aperta: `questione-linea1-domenica-10-05-fuori-piano` | **lotti 5 e 7** — gamba della storia «domeniche della promo», vedi T12 | tracciata |
-| T20 | Base metrologica dell'arbitrato datalogger contro registro cartaceo | **lotto 1A** — **gamba trovata dove non era prevista**: la scheda di manutenzione attesta le tarature delle sonde del PT-104, nota `fatto-sonde-pt-104-in-taratura` | **lotto 1B** (elenco tarature, per il datalogger `DL-001`) | tracciata |
+| T20 | Base metrologica dell'arbitrato datalogger contro registro cartaceo | **lotto 1A** — **gamba trovata dove non era prevista**: la scheda di manutenzione attesta le tarature delle sonde del PT-104, nota `fatto-sonde-pt-104-in-taratura` | **lotto 1C** (elenco tarature, per il datalogger `DL-001`) | tracciata |
 | T21 | Sonda di conducibilità del CIP-01 con taratura scaduta dall'08/04/2026, «allarmi sonda su log maggio» | **lotto 1A** (scheda manutenzione) | **lotto 2** (log CIP e IO-05) | tracciata |
 | T22 | Manutenzioni arretrate su CF-02 (assorbimenti scaduti dal 30/04, resistenze di sbrinamento rimandate) | **lotto 1A** (scheda manutenzione) | **lotto 1B** (log allarmi CF-02 e consumi) | tracciata |
 | T23 | O2 residuo in confezione: la scheda tecnica prescrive **max 1,0 %**, il quaderno applica **«lim 2%»** | **lotto 1A** | — | **aperta dichiarata** — `questione-limite-o2-residuo`. In più la scheda **non dichiara a quale momento** della vita del prodotto valga il tetto: lacuna registrata in `doc-limite-o2-residuo-af-sn-0450` |
 | T24 | aw e umidità di AF-SN-0450: scheda tecnica e **rapporto di prova del laboratorio accreditato** concordano su aw ≈ 0,93 e umidità ≈ 32 g/100 g; le prove di shelf life danno 0,31 e 5,6 % | **lotto 1A** | — | **aperta dichiarata** — `questione-aw-umidita-af-sn-0450`. ⚠️ **Il primo impianto della nota era rovesciato**: sembrava che la scheda tecnica fosse la fonte dubbia. Il ri-giudizio ha segnalato l'esistenza del rapporto di prova, che misura lo stesso lotto con metodo normato e dichiara **conformi** i valori della scheda. L'anomalia sta nel file delle prove, che è la base della proposta di TMC a sei mesi |
-| T25 | Convalida annuale dell'`MD-3200`: la scheda di manutenzione la data al `06-feb-26` con scadenza `06/02/27`; l'elenco tarature dà altre date | **lotto 1A** | **lotto 1B** (elenco tarature) | tracciata |
-| T26 | Kit dei tasselli di prova del CCP3: `TL-114` sul MOD-QA-07, `TST-CERT-KIT` sulla scheda di manutenzione, e una terza sigla nell'elenco tarature | **lotto 1A** — confronto dichiarato in `macchina-md-3200`, senza aprire una questione con due sole gambe deboli | **lotto 1B** (elenco tarature) | tracciata |
+| T25 | Convalida annuale dell'`MD-3200`: la scheda di manutenzione la data al `06-feb-26` con scadenza `06/02/27`; l'elenco tarature dà altre date | **lotto 1A** | **lotto 1C** (elenco tarature) | tracciata |
+| T26 | Kit dei tasselli di prova del CCP3: `TL-114` sul MOD-QA-07, `TST-CERT-KIT` sulla scheda di manutenzione, e una terza sigla nell'elenco tarature | **lotto 1A** — confronto dichiarato in `macchina-md-3200`, senza aprire una questione con due sole gambe deboli | **lotto 1C** (elenco tarature) | tracciata |
 | T27 | Materiale della guarnizione **originale** della valvola azoto: PTFE (mail del costruttore), FKM (manuale della macchina), EPDM (piano di manutenzione) | **lotto 1A** — `questione-materiale-guarnizione-pkm-450` estesa | — | **aperta dichiarata**: due fonti su tre danno un fluoropolimero, la terza no, e nessun documento le mette a confronto |
 | T28 | Codice del ricambio della valvola azoto: le sigle salgono da due a **quattro**, e due vengono dal costruttore stesso | **lotto 1A** — `questione-codice-ricambio-valvola-pkm-450` estesa | — | **aperta dichiarata** |
 | T29 | Sonda di conducibilità del `CIP-01`, taratura scaduta dall'`2026-04-08`, «allarmi sonda su log maggio» | **lotto 1A** (scheda manutenzione) | **lotto 2** (log CIP e IO-05) | tracciata |
 | T30 | Assorbimenti del compressore `CF-02` scaduti dal `30/04/26` e resistenze di sbrinamento rimandate, con «assorbimento anomalo segnalato 08/05» | **lotto 1A** (scheda manutenzione) | **lotto 1B** (log allarmi CF-02 e consumi) | tracciata |
 | T31 | Proposta di R&D di portare il TMC a **sei mesi** contro i **45 giorni** della scheda tecnica in vigore | **lotto 1A** — registrata in `kpi-shelf-life-af-sn-0450` | **lotto 9** (R&D), se il corpus porta la revisione | tracciata — non è una contraddizione fra documenti: è una proposta contro una specifica in vigore |
-| T32 | Posizione dell'`MD-3200` in linea: la scheda tecnica lo colloca **fra il raffreddamento e il confezionamento**, l'elenco attrezzature lo dà «Linea 1 - post confezionamento» | **lotto 1A** — trovata dallo strato di giudizio, che ha visto la nota affermare il contrario della propria fonte | **lotto 1B** (elenco tarature) | tracciata — cambia cosa il metal detector può intercettare |
+| T32 | Posizione dell'`MD-3200` in linea: la scheda tecnica lo colloca **fra il raffreddamento e il confezionamento**, l'elenco attrezzature lo dà «Linea 1 - post confezionamento» | **lotto 1A** — trovata dallo strato di giudizio, che ha visto la nota affermare il contrario della propria fonte | **lotto 1C** (elenco tarature) | tracciata — cambia cosa il metal detector può intercettare |
 | T33 | Il rapporto di prova del laboratorio contiene **prove chimico-fisiche** sul lotto L26130 che nessuna nota del pilota aveva canonizzato: aw, pH, umidità, cloruri, con metodo e incertezza | **lotto 1A** — trovato dal ri-giudizio | il grezzo appartiene alla fetta pilota: la lacuna di copertura si chiude qui, non in un lotto futuro | **chiusa** — le prove sono ora citate da `questione-aw-umidita-af-sn-0450` |
+| T34 | Le note F-gas del contratto frigo nascono in `area: manutenzione`, perché è l'area che governa quei fatti oggi e **le note non traslocano** | **lotto 1B** — decisione del titolare del 19/08/2026 | **lotto 8**, alla nascita di `area-sicurezza-ambiente`: l'hub nuovo le **linka come rimandi laterali**, il `related` principale resta l'hub di manutenzione (E11) | tracciata — non è una divergenza dell'archivio: è un impegno di grafo che il lotto 8 deve onorare |
 
 ---
 
@@ -436,6 +466,7 @@ La matrice è un piano: si annota quando cambia, non si riscrive in silenzio.
 |---|---|---|
 | 2026-08-18 | 1 · 10 | `bolletta_VenetaEnergia_maggio2026.pdf` spostata dal lotto 10 al lotto 1: sta con `consumi_energetici_forni_kwh_maggio26.csv`, di cui è la gamba di riconciliazione sul costo dell'energia. Non è rumore |
 | 2026-08-18 | 7 · 10 | `Nuova cartella di lavoro.xlsx` spostata dal lotto 10 al lotto 7: ispezionata, **non è un file vuoto** — contiene un appunto sulle timbrature e una `SUM` mai calcolata. Il nome ingannava |
+| 2026-08-19 | **1B → 1B + 1C** | **Secondo spezzamento, e i lotti passano da 11 a 12.** Il conteggio dei fatti in apertura ha proiettato **~41 note contro un budget di 22-30** (+37 %): densità **6,8 note per grezzo**, sopra le 6,0 del lotto 1A. Il taglio segue le cuciture della storia, non il numero dei file: **1B** (4 grezzi, budget 22-30) tiene intera la vicenda della cella `CF-02` — allarmi di aprile, arretrati di manutenzione, +49,7 % di consumo, contratto non firmato — e **1C** (2 grezzi, budget 12-18) tiene il parco strumenti, le tarature e i gas tecnici. Riassegnazioni in tabella di tracciamento: **T18, T22, T30** a 1B; **T17, T20, T25, T26, T32** a 1C. Decisione del titolare, che ha aggiunto due obblighi: dichiarare nel rapporto **il criterio di aggancio** con cui 121 righe di strumento diventano una dozzina di note, e dare al revisore **un campione** di quelle note |
 | 2026-08-18 | **1 → 1A + 1B** | **Il lotto 1 è stato SPEZZATO in due, e i lotti passano da 10 a 11.** Il conteggio dei fatti in apertura ha proiettato **~62 note contro un budget di 26-36**: densità **4,8 note per grezzo** contro le 2,1 del pilota, perché quattro dei tredici documenti sono multi-fatto. Lo stop-loss della scaletta dice «lotto più piccolo, mai QA più leggera». **1A** (7 grezzi, budget 34-42) tiene il turno, i CCP e la confezionatrice, e chiude i tre conflitti tracciati; **1B** (6 grezzi, budget 22-30) tiene impianti ausiliari, energia, celle e tarature. Da questo caso nasce la **regola di apertura** scritta sopra |
 
 ---
@@ -456,13 +487,16 @@ divergono, vince l'elenco: e' lui che la QA esegue.
 - `piano_produzione_settimanale_sett19_21.xlsx`
 - `scheda_manutenzione_ordinaria_forni_industrial.csv`
 
-### `lotto_01b_impianti_energia.txt` — 6 grezzi
+### `lotto_01b_freddo_energia.txt` — 4 grezzi
 
-- `elenco_attrezzature_taratura_strumenti_2026.csv`
 - `log_allarmi_cella_frigo_surgelati_aprile.log`
 - `contratto_manutenzione_impianto_frigo_TS01.docx`
 - `consumi_energetici_forni_kwh_maggio26.csv`
 - `bolletta_VenetaEnergia_maggio2026.pdf`
+
+### `lotto_01c_metrologia_gas.txt` — 2 grezzi
+
+- `elenco_attrezzature_taratura_strumenti_2026.csv`
 - `bolla_ingresso_azoto_alimentare_Nordgas_OCR.txt`
 
 ### `lotto_02_igiene.txt` — 12 grezzi
