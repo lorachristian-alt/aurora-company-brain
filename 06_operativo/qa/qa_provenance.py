@@ -33,7 +33,12 @@ CONTROLLO = "provenance"
 # JSON per nota, nessuna riscrittura, niente generosita'.
 # Non si modifica per un lotto: si modifica per tutti, con una data nuova.
 # --------------------------------------------------------------------------
-PROMPT_GIUDIZIO_DATA = "2026-08-16"
+# La rete interna di QA evolve con versioni DICHIARATE, come metodo_03. Il congelamento
+# intoccabile riguarda gli strumenti di MISURA (P1, P3, config C), dove la confrontabilita'
+# prima/dopo e' il prodotto. Ogni rapporto di lotto dichiara la versione usata: il lotto 1A
+# e' stato giudicato con la v1, dal lotto 1B vale la v2. Mai retroattiva.
+PROMPT_GIUDIZIO_VERSIONE = "v2"
+PROMPT_GIUDIZIO_DATA = "2026-08-18"          # v1: 2026-08-16
 PROMPT_GIUDIZIO = """\
 Giudichi note di un archivio aziendale rispetto ai documenti che dichiarano come
 fonte. Non devi migliorare le note, non devi riscriverle e non devi rispondere
@@ -42,13 +47,19 @@ alle domande che pongono: devi giudicare se stanno in piedi sulle loro fonti.
 Per ogni nota ricevi: il nome, il corpo integrale, l'elenco delle fonti che
 dichiara e il testo estratto di ciascuna di quelle fonti.
 
-Rispondi SOLO a queste due domande, in quest'ordine:
+Rispondi SOLO a queste tre domande, in quest'ordine:
 1. Ogni fonte elencata contribuisce davvero alla nota? Una fonte che non sorregge
    nessuna affermazione e' rumore nel payload, e va segnalata.
 2. La nota afferma qualcosa che le fonti non dicono, pur senza numeri? Cerca le
    affermazioni qualitative: cause, intenzioni, conseguenze, attribuzioni di una
    frase a una persona, giudizi di conformita'. I numeri, le date e i codici NON
    sono affar tuo: li ha gia' verificati lo strato deterministico.
+
+3. Esiste, FRA LE FONTI CHE HAI RICEVUTO IN QUESTO PACCHETTO, un documento che
+   misura o afferma la stessa grandezza di cui la nota parla, e che la nota NON
+   cita? Non e' un difetto di provenienza: e' una lacuna di copertura. La segnali
+   FUORI dal verdetto, in coda alla risposta, dicendo quale nota e quale
+   documento, e NON cambi per questo l'esito della nota.
 
 Assegna a ogni nota esattamente un esito:
 - `pulita` — ogni fonte contribuisce e nessuna affermazione eccede le fonti
@@ -71,6 +82,9 @@ Regole che non puoi violare:
 - Non proponi correzioni e non riscrivi niente. Riporti, e basta.
 - Non ricevi il canone e non devi cercarlo: confronti la nota contro le sue
   fonti, punto. Il giudizio sulla copertura dei fatti spetta a un altro ruolo.
+- La terza domanda non ti autorizza a giudicare la copertura dell'archivio: ti
+  chiede solo di segnalare cio' che hai gia' sotto gli occhi dentro il pacchetto.
+  Se un documento non e' nel pacchetto, per te non esiste.
 """
 
 # ------------------------------------------------------------------ estrazione
@@ -266,6 +280,23 @@ def controlla(nota, rep, per_slug):
             else:
                 agganci[f] = agganci.get(f, 0) + 1
 
+    # --- fix del 18/08/2026: gli identificatori marcati a codice contano come aggancio ---
+    #
+    # Il conteggio degli agganci si basa sulle affermazioni che una regex sa estrarre —
+    # numeri, date, orari, codici di forma nota, citazioni. Una fonte puo' pero' sorreggere
+    # una nota con un identificatore che la regex NON conosce: `PKM-4471-EPDM`,
+    # `TST-CERT-KIT`, `PK-45.0771`. E' successo sul lotto 1A: la scheda di manutenzione
+    # risultava «rumore nel payload» sulla nota dei codici del ricambio, mentre la sua riga 26
+    # porta il quarto codice, che di quella nota e' il perno.
+    #
+    # Si contano quindi anche i token che la nota stessa marca come identificatori scrivendoli
+    # fra apici inversi. ⚠️ Questo puo' solo AGGIUNGERE agganci, mai toglierne: non trasforma
+    # nessun avviso in errore e non rende piu' permissivo nessun altro controllo.
+    for tok in set(re.findall(r"`([A-Za-z0-9][A-Za-z0-9._/-]{3,})`", corpo)):
+        for k in pezzi:
+            if Q.presente(tok, norm_pezzi[k], compatti[k]):
+                agganci[k] += 1
+
     # --- ogni fonte elencata contribuisce davvero -----------------------------------
     for f in nota.fonti:
         f = str(f)
@@ -367,7 +398,8 @@ def pacchetto_giudizio(note, dove):
     """Prepara cio' che il subagente pulito deve ricevere: SOLO le note del lotto
     e il testo dei grezzi che citano. Niente canone, niente documenti di metodo."""
     r = [PROMPT_GIUDIZIO, "\n" + "=" * 70,
-         "PROMPT congelato il %s — non modificarlo per questo lotto.\n" % PROMPT_GIUDIZIO_DATA,
+         "PROMPT %s del %s — non modificarlo per questo lotto.\\n"
+         % (PROMPT_GIUDIZIO_VERSIONE, PROMPT_GIUDIZIO_DATA),
          "=" * 70 + "\n"]
     usate = []
     for n in note:
