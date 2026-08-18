@@ -118,7 +118,24 @@ def main():
     # le porte di cartelle che il lotto non tocca, o le note-strumento di code\, fa
     # comparire tronconi staccati che non sono un difetto del lotto: sono la prova che il
     # vault non e' ancora completo, che a lotto aperto e' ovvia.
-    insieme = [n for n in note if n.cartella not in Q.ESCLUSE_QUALITA]
+    #
+    # ⚠️ E20 (18/08/2026): fuori anche le NOTE-STRUMENTO DEL PROGETTO — la classe definita
+    # una volta sola in `qa_comune.e_nota_strumento`, che porta gia' le esenzioni da `fonti`
+    # (E1) e dallo strato di giudizio. Documentano attrezzi del progetto, non fatti di
+    # Aurora: nessuna nota di contenuto ha ragione di citarle, e aggiungere quel link
+    # sarebbe tappezzeria (divieto 25). Restano soggette a schema, wikilink rotti e
+    # raggiungibilita' da `_index-code`. Le note di CONTENUTO di `code\` — le automazioni
+    # aziendali — restano dentro questo controllo: se sono staccate, e' un difetto vero.
+    insieme = [n for n in note
+               if n.cartella not in Q.ESCLUSE_QUALITA and not Q.e_nota_strumento(n)]
+    # ⚠️ Aritmetica dell'esenzione, non un'esenzione in piu': un `_index` la cui cartella
+    # non ha piu' nessuna nota valutabile — perche' e' vuota, o perche' contiene solo
+    # note-strumento — resta un vertice isolato per costruzione, e segnalerebbe come
+    # difetto del grafo il fatto che quella cartella e' vuota. Rientra da solo nel
+    # controllo appena la sua cartella riceve una nota valutabile.
+    con_contenuto = {n.cartella for n in insieme if n.type != "index"}
+    insieme = [n for n in insieme
+               if n.type != "index" or n.cartella in con_contenuto]
     if modo == "lotto":
         del_lotto = [n for n in note if any(f in file_lotto for f in n.fonti)]
         cartelle_toccate = {n.cartella for n in del_lotto}

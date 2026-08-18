@@ -3,9 +3,10 @@
 > **Cos'è** · Lo stato di oggi del vault: cosa è stato canonizzato, con quale esito, e
 > cosa resta. Solo stato, mai una regola: le regole stanno in
 > `01_metodo\metodo_03_canonizzazione.md`, le decisioni in `06_operativo\decision_log.md`.
-> **Aggiornato al** · 17/08/2026, chiusura della Sessione 2 (fetta pilota) dopo il gate.
-> Riga «prossima sessione» allineata il 18/08 alla chiusura della Sessione 3; lo stato
-> della pipeline RAG sta in `06_operativo\stato_rag_produzione.md`, non qui.
+> **Aggiornato al** · 18/08/2026, gate della matrice dei lotti in apertura di Sessione 4.
+> Lo stato della pipeline RAG sta in `06_operativo\stato_rag_produzione.md`, non qui; il
+> piano dei lotti e la tabella di tracciamento delle questioni trasversali stanno in
+> `06_operativo\matrice_lotti_corpus_v1.md`, non qui.
 
 ---
 
@@ -19,7 +20,8 @@
 | Note prodotte | **63** (di cui 11 `_index` e 6 note-strumento) |
 | Suite QA | implementata, collaudata e **verde** sul perimetro di lotto |
 | `llms.txt` | rigenerato dal frontmatter, allineato |
-| **Prossima sessione** | **S4 — canonizzazione integrale** (S3 chiusa il 18/08: baseline C misurata, gate approvato) |
+| Matrice dei lotti | **approvata e congelata il 18/08**: 138 grezzi restanti in 10 lotti, ognuno in esattamente uno (`verifica_matrice_lotti.py`: 160/160, zero scoperti, zero doppi) |
+| **Prossimo lotto** | **Lotto 1 — Linea 1: conduzione, macchine e impianti**, 13 grezzi, budget 26-36 note di contenuto, col quaderno del capoturno in cima |
 
 ## Densità del pilota — il dato per dimensionare i lotti di S4
 
@@ -83,11 +85,13 @@ Perimetro di lotto, ultimo passaggio dopo le correzioni del gate: **0 ERRORI, 33
 Copertura **22/22** grezzi, nessun documento muto.
 
 ⚠️ Il pass **`--perimetro vault` è rosso**, ed è corretto che lo sia: 138 grezzi non sono
-ancora citati da nessuna nota, e il grafo ha più componenti perché le note-strumento di
-`code\` non sono agganciate al resto. Il vault verde è il traguardo delle Sessioni 4-5, non
-di un lotto. **Da decidere in Sessione 4:** se agganciare le note-strumento al grafo in modo
-non artificioso, o se escludere `code\` dal controllo di componente unica come già avviene
-per `workspace\` e `sources\`.
+ancora citati da nessuna nota. **Il grafo invece non lo è più:** la questione delle
+note-strumento staccate, lasciata aperta dal gate S2, è stata chiusa il 18/08 con
+l'emendamento **E20** — l'esenzione dalla componente unica vale per la **classe
+nota-strumento del progetto**, non per la cartella `code\`, e un `_index` partecipa solo se
+la sua cartella ha almeno una nota valutabile. Effetto misurato:
+`qa_link_integrity --perimetro vault` è passato da 1 errore a **0 errori, 0 avvisi**.
+Il vault verde resta il traguardo delle Sessioni 4-5, non di un lotto.
 
 **Gli avvisi, motivati per iscritto come richiede §9.5 passo 2.** Sono di tre famiglie, e
 nessuna richiede una correzione:
@@ -156,5 +160,8 @@ giudizio, e senza il secondo giro sarebbe rimasta.
 - Due dati della **scheda prodotto** — pezzi per cartone e ITF-14 — che nella fetta non
   sono attestati da fonti leggibili con l'estrattore congelato: si scriveranno quando
   entrerà il documento che li porta.
-- La **matrice dei 159** (`06_operativo\matrice_corpus_v1.csv`), che si produce all'inizio
-  della Sessione 4.
+- La **mappatura file × fatto** (`06_operativo\matrice_corpus_v1.csv`), che si compila lotto
+  per lotto e si committa a ogni chiusura di lotto — non in blocco.
+- Le **16 questioni trasversali** del seme della tabella di tracciamento: vivono in
+  `matrice_lotti_corpus_v1.md`, e al gate finale sono la prova che nessun conflitto è stato
+  dimenticato.

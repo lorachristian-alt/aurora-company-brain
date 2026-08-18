@@ -36,25 +36,37 @@ CARTELLE = ["self", "areas", "projects", "docs", "entities", "concepts",
 # workspace\ e sources\ sono esclusi dai conteggi di qualita' (metodo_03 §7.0)
 ESCLUSE_QUALITA = {"workspace", "sources"}
 
-# metodo_03 §2.4, emendamento E1 approvato al gate del 16/08/2026.
+# metodo_03 §2.4 — LA NOTA-STRUMENTO DEL PROGETTO, definita una volta sola.
 #
-# `fonti` e' obbligatorio per ogni type tranne `index`, ma una NOTA-STRUMENTO documenta
-# un attrezzo del progetto — uno script della suite QA, un generatore — che non discende
-# da nessun grezzo del corpus: non esiste una fonte legittima da citare, e citare un
-# documento di metodo violerebbe §10.8.
+# Emendamento E1 (gate del 16/08/2026) esteso da E20 (gate della matrice, 18/08/2026):
+# questa e' l'UNICA definizione della classe, e tutte e tre le esenzioni si riferiscono a
+# lei. Se un giorno se ne aggiunge una quarta, si aggiunge qui e non altrove: due
+# definizioni della stessa classe divergono in un mese.
 #
-# ⚠️ L'esenzione vale per la NOTA-STRUMENTO, non per la cartella `code\` intera: una nota
-# che documenta un'automazione AZIENDALE (l'OCR dei DDT, l'integrazione EDI-ERP) parla di
-# un fatto di Aurora, ha grezzi che la attestano e resta a schema pieno. Il discrimine e'
-# il prefisso `script-` dentro `code\`.
+# Una nota-strumento documenta un ATTREZZO DEL PROGETTO — uno script della suite QA, un
+# generatore di derivati — che non discende da nessun grezzo del corpus e non afferma
+# nessun fatto di Aurora.
+#
+# ⚠️ La classe e' definita dal PREFISSO `script-` dentro `code\`, non dalla cartella: una
+# nota che documenta un'automazione AZIENDALE (l'OCR dei DDT, l'integrazione EDI-ERP)
+# parla di un fatto di Aurora, ha grezzi che la attestano, resta a schema pieno e resta
+# soggetta a tutti i controlli, componente unica compresa. Se una nota di contenuto di
+# `code\` e' staccata dal grafo, e' un difetto vero.
 CARTELLA_STRUMENTI = "code"
 PREFISSO_STRUMENTO = "script-"
 
 
 def e_nota_strumento(nota):
-    """Vero per le note che documentano un attrezzo del progetto (§2.4, E1).
-    Sono esenti da `fonti` e restano fuori dallo strato di giudizio: si rivedono a
-    occhio a ogni gate."""
+    """Vero per le note che documentano un attrezzo del progetto (§2.4, E1 + E20).
+
+    Le TRE esenzioni della classe, e nessun'altra:
+      1. `fonti` e il blocco `## Fonti` sono facoltativi (§2.4, E1);
+      2. restano fuori dallo strato di giudizio della provenance (§7.1 clausola 6);
+      3. restano fuori dal controllo di COMPONENTE UNICA (§7.2, E20).
+
+    Restano invece soggette, senza sconti, a: schema del frontmatter, wikilink rotti,
+    nomi ambigui, e raggiungibilita' da `_index-code` (non sono orfane per esenzione).
+    Si rivedono a occhio a ogni gate: e' l'unico controllo di merito che le riguarda."""
     return nota.cartella == CARTELLA_STRUMENTI and nota.slug.startswith(PREFISSO_STRUMENTO)
 
 TYPE_AMMESSI = {"atomica", "hub", "entita", "conflitto", "concetto",

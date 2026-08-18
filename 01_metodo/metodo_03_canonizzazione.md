@@ -521,23 +521,40 @@ non compare da nessuna parte (§5.5).
 
 ¹ **facoltativo per la nota-strumento** — `code\script-*.md` — vedi il riquadro qui sotto.
 
-⚠️ **L'unica esenzione da `fonti`: la NOTA-STRUMENTO** (E1, gate del 16/08/2026). Una nota
-di `code\` il cui nome comincia per **`script-`** documenta un attrezzo del progetto — uno
-script della suite QA, un generatore di derivati — che **non discende da nessun grezzo del
-corpus**. Non esiste una fonte legittima da citare: l'unico documento che la descrive è un
-documento di metodo, e citarlo è vietato (§2.3, divieti 7-8). Per queste note `fonti` e il
-blocco `## Fonti` sono **facoltativi**, e in loro assenza il corpo deve indicare **il
-percorso del sorgente nel repository**, che è ciò che rende la nota verificabile.
+#### La NOTA-STRUMENTO DEL PROGETTO — definita qui, una volta sola
 
-**L'esenzione vale per la nota-strumento, non per la cartella.** Una nota di `code\` che
+⚠️ **Questa è l'unica definizione della classe, e ogni esenzione che la riguarda si
+riferisce a questo riquadro** (E1, gate del 16/08/2026; esteso da E20, gate della matrice
+del 18/08/2026). Se un giorno se ne aggiunge una quarta, si aggiunge qui: due definizioni
+della stessa classe divergono in un mese, ed è esattamente il modo in cui un'esenzione
+ragionevole diventa una porta aperta.
+
+**Che cos'è.** Una nota di `code\` il cui nome comincia per **`script-`**, e che documenta
+un **attrezzo del progetto** — uno script della suite QA, un generatore di derivati — che
+**non discende da nessun grezzo del corpus** e non afferma nessun fatto di Aurora.
+
+**Le tre esenzioni, e nessun'altra:**
+
+| # | Esenzione | Dove |
+|---|---|---|
+| 1 | `fonti` e il blocco `## Fonti` sono **facoltativi**; in loro assenza il corpo indica **il percorso del sorgente nel repository**, che è ciò che rende la nota verificabile | §2.4 |
+| 2 | Resta **fuori dallo strato di giudizio** della provenance: non avendo fonti, non c'è nulla contro cui giudicarla | §7.1, clausola 6 |
+| 3 | Resta **fuori dal controllo di componente unica**: nessuna nota di contenuto ha ragione di citarla, e aggiungere quel link sarebbe tappezzeria (divieto 25) | §7.2 |
+
+**A cosa resta soggetta, senza sconti:** schema del frontmatter, wikilink rotti, nomi
+ambigui, e **raggiungibilità da `_index-code`** — non è orfana per esenzione, deve essere
+elencata dalla porta della sua cartella. **Si rivede a occhio a ogni gate**, ed è l'unico
+controllo di merito che la riguarda.
+
+**La classe è definita dal prefisso, non dalla cartella.** Una nota di `code\` che
 documenta un'**automazione aziendale** — l'OCR dei documenti di trasporto, l'integrazione fra
 gestionale e ordini elettronici, la pipeline di ricerca — parla di un fatto di Aurora, ha
-grezzi che la attestano e **resta a schema pieno**, `fonti` comprese. Il discrimine è il
-prefisso, non la cartella.
+grezzi che la attestano e **resta a schema pieno**, `fonti` comprese e componente unica
+compresa. Se una nota di contenuto di `code\` è staccata dal grafo, è un difetto vero.
 
-⚠️ **Le note esenti da `fonti` restano fuori dallo strato di giudizio della provenance**
-(§7.1): non avendo fonti, non c'è nulla contro cui giudicarle. **Si rivedono a occhio a ogni
-gate**, ed è l'unico controllo che le riguarda oltre allo schema.
+**In codice**, perché le tre esenzioni non possano divergere: la classe è la funzione
+`e_nota_strumento` di `06_operativo\qa\qa_comune.py`, e tutti e tre i controlli la
+chiamano. Non se ne riscrive il criterio da nessuna altra parte.
 
 Le cinque righe che fanno il lavoro pesante:
 
@@ -1494,14 +1511,19 @@ verde. È il pass finale che deve essere verde su tutto.
 dai conteggi di qualità del vault»**. Tradotto in controlli, perché «conteggi di
 qualità» da solo non è eseguibile:
 
-| Controllo | `workspace\` | `sources\` |
-|---|---|---|
-| Orfani e componente unica (§7.2) | escluso | escluso |
-| Minimo di wikilink (§4.4) | escluso | escluso |
-| Copertura e fatti chiave (§7.4) | escluso | è l'**oggetto** del controllo, non un partecipante |
-| Provenance (§7.1) | applicato **solo** se la nota ha `fonti` | non applicabile |
-| Frontmatter valido (§7.3) | **applicato**, senza sconti | applicato al solo `_index-sources.md` |
-| Wikilink rotti (§7.2) | **applicato**, senza sconti | applicato al solo `_index-sources.md` |
+| Controllo | `workspace\` | `sources\` | **note-strumento** (§2.4) |
+|---|---|---|---|
+| Orfani (§7.2) | escluso | escluso | **applicato**: devono essere elencate da `_index-code` |
+| Componente unica (§7.2) | escluso | escluso | **escluso** (E20) |
+| Minimo di wikilink (§4.4) | escluso | escluso | applicato |
+| Copertura e fatti chiave (§7.4) | escluso | è l'**oggetto** del controllo, non un partecipante | escluso: non citano grezzi |
+| Provenance (§7.1) | applicato **solo** se la nota ha `fonti` | non applicabile | escluso dallo strato di giudizio |
+| Frontmatter valido (§7.3) | **applicato**, senza sconti | applicato al solo `_index-sources.md` | **applicato**, tranne `fonti` |
+| Wikilink rotti (§7.2) | **applicato**, senza sconti | applicato al solo `_index-sources.md` | **applicato**, senza sconti |
+
+⚠️ **La colonna delle note-strumento riguarda la classe di §2.4, non la cartella `code\`.**
+Le note di contenuto di `code\` — le automazioni aziendali — stanno nella colonna di tutti
+gli altri: nessuna esenzione.
 
 Il criterio: una bozza o una nota di diario **non deve essere ben collegata** — è
 materiale vivo, e pretenderlo produrrebbe link inventati. Ma **deve essere ben formata**
@@ -1580,8 +1602,10 @@ sconti: sono i casi che il corpus impone e che una regola ingenua non prevede.
    valori diversi, e il controllo boccia proprio le note che descrivono bene una finestra
    temporale — cioè quelle che contano.
 
-6. **Le note-strumento restano fuori da questo controllo.** Non avendo `fonti` (§2.4, E1),
-   non c'è nulla contro cui verificarle: si rivedono a occhio a ogni gate.
+6. **Le note-strumento del progetto restano fuori dallo strato di giudizio.** Non avendo
+   `fonti` (§2.4), non c'è nulla contro cui verificarle: si rivedono a occhio a ogni gate.
+   È la seconda delle tre esenzioni della classe definita in §2.4, e il criterio si legge
+   solo lì.
 
 ⚠️ **Il pacchetto per lo strato di giudizio usa un delimitatore che non può comparire dentro
 un grezzo** (E10). Con un marcatore comune come `NOTA:` il conteggio delle note inviate si
@@ -1596,7 +1620,7 @@ successo con il manuale HACCP.
 | Nomi ambigui | due file con lo stesso nome in cartelle diverse | ERRORE |
 | **Orfani** (definizione unica, vedi sotto) | nota non raggiungibile da **nessuno** degli 11 `_index` | ERRORE |
 | Copertura di prossimità | nota raggiungibile, ma non entro **due salti** dall'`_index` della **propria** cartella | AVVISO |
-| Componente unica | il grafo delle note, considerato **non orientato**, ha **una sola** componente connessa | ERRORE |
+| Componente unica | il grafo delle note, considerato **non orientato**, ha **una sola** componente connessa. **Fuori dall'insieme valutato: `workspace\`, `sources\` e le note-strumento del progetto** (§2.4, E20) — le note di contenuto di `code\` restano dentro | ERRORE |
 | Copertura degli `_index` | ognuna delle **11** cartelle del vault ha il suo `_index-<cartella>.md` | ERRORE |
 | Minimo wikilink | ≥ 2 link uscenti verso altre note, esclusi quelli verso `sources\` e i link ricevuti dagli `_index`. **Contano anche i wikilink di `related`** (E12): è lì che vive il rimando spoke → hub, e contare il solo corpo segnalerebbe come poco collegata una nota che dichiara cinque relazioni | **AVVISO** |
 | Reciprocità hub/spoke | la nota è elencata nel corpo del **primo hub** citato in `related`, che è il suo hub proprio (§2.1, E11). Gli altri hub citati sono rimandi laterali e non creano obbligo; le note `type: hub` sono escluse dal controllo, perché un hub che rimanda a un hub vicino non è uno spoke | AVVISO |
@@ -1625,6 +1649,15 @@ strutturale.
 
 Gli `_index` sono **esentati** dalla regola degli orfani e dal minimo di wikilink.
 `_showcase\` non esiste più dentro il vault (§8.2): non serve escluderla da nulla.
+
+⚠️ **L'aritmetica dell'esenzione E20, che non è un'esenzione in più.** Escludere le
+note-strumento dalla componente unica lascia `_index-code` come vertice isolato: la sua
+cartella non ha più nessuna nota valutabile. Lo stesso capita a qualunque `_index` di una
+cartella ancora vuota — oggi `_index-outputs`. Segnalarli come «grafo spezzato»
+significherebbe chiamare difetto il fatto che una cartella è vuota. Quindi: **un `_index`
+partecipa alla componente unica solo se la sua cartella contiene almeno una nota
+valutabile**, e vi rientra da solo appena ne riceve una. Nessun'altra nota gode di questa
+clausola.
 
 ⚠️ **Il primo anello della catena va controllato anche lui.** La specifica della scaletta
 dice `llms.txt → _index → hub → nota`, e il BFS qui sopra parte dagli `_index`, cioè dal

@@ -295,3 +295,56 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   stati annotati prima di cambiarli, quindi il ripristino è dovuto passare dal titolare.
   Regola e checklist di ripristino scritte nel runbook di `metodo_04` §9. Chi cambia
   l'impostazione spesso non è chi userà la macchina domani.
+
+- **2026-08-18** · S4, gate della matrice · **Matrice dei lotti approvata e congelata prima
+  di eseguirla**: i 138 grezzi restanti in **dieci lotti tematici**, ognuno in esattamente
+  uno, verificato da `verifica_matrice_lotti.py` (160 su disco, 160 nella matrice, zero
+  scoperti, zero doppi) · la pianificazione si congela prima di eseguirla, come il config C
+  in S3. Il numero del lotto **e'** l'ordine di esecuzione; il lotto 1 e' imposto dal
+  prompt e dal gate S2 §6.2 (il quaderno del capoturno in cima), il lotto 10 e' ultimo
+  perche' `kpi-composizione-archivio` dichiara i conteggi del vault.
+- **2026-08-18** · S4, gate della matrice · **Due file spostati di lotto dopo averli
+  aperti, e il nome ingannava in entrambi i casi** · `Nuova cartella di lavoro.xlsx` non e'
+  un file vuoto (contiene «prova estrazione ore», un appunto sulle timbrature e una `SUM`
+  mai calcolata): dal lotto rumore al lotto persone. `bolletta_VenetaEnergia_maggio2026.pdf`
+  e' la gamba di riconciliazione del costo dell'energia: dal lotto rumore al lotto 1, con i
+  consumi dei forni. **Classificare un grezzo dal nome e' lo stesso errore di dichiarare
+  un'assenza senza cercarla** (E3).
+- **2026-08-18** · S4, gate della matrice · **E20 — le NOTE-STRUMENTO DEL PROGETTO sono
+  fuori dal controllo di componente unica**, come gia' erano fuori da `fonti` (E1) e dallo
+  strato di giudizio · chiude la decisione lasciata aperta dal gate S2. ⚠️ **Come per E1,
+  l'esenzione e' della CLASSE, non della cartella `code\`**: le note di contenuto —
+  automazioni aziendali, OCR dei DDT, EDI-ERP — restano dentro il controllo, e se sono
+  staccate dal grafo e' un difetto vero. La classe e' **definita una volta sola** in
+  metodo_03 §2.4 e in `qa_comune.e_nota_strumento`, e tutte e tre le esenzioni si
+  riferiscono a quella: due definizioni della stessa classe divergono in un mese.
+  **Scartato** agganciare le note-strumento al grafo: nessuna nota di Aurora ha ragione di
+  citare `script-qa-provenance`, e il link sarebbe tappezzeria (divieto 25). **Scartato**
+  rimandare al gate finale: le regole QA non si decidono sotto la pressione della chiusura.
+- **2026-08-18** · S4, gate della matrice · **Aritmetica di E20, non un'esenzione in piu':
+  un `_index` partecipa alla componente unica solo se la sua cartella ha almeno una nota
+  valutabile** · escludere le note-strumento lasciava `_index-code` come vertice isolato, e
+  lo stesso vale per `_index-outputs` finche' `outputs\` e' vuota. Segnalarli
+  significherebbe chiamare difetto il fatto che una cartella e' vuota. Rientrano da soli
+  appena la cartella riceve una nota. **Effetto misurato:** `qa_link_integrity --perimetro
+  vault` passa da 1 errore a **0 errori, 0 avvisi** sul vault del pilota.
+- **2026-08-18** · S4, gate della matrice · **Tabella di tracciamento VIVA delle questioni
+  trasversali**, obbligo del titolare · una questione che un lotto apre e un altro completa
+  e' il modo piu' facile di perdere un conflitto: nel lotto che la apre sembra lavoro
+  finito, in quello che dovrebbe chiuderla nessuno si ricorda che esiste. Vive in
+  `matrice_lotti_corpus_v1.md`, si aggiorna alla chiusura di ogni lotto prima del commit, e
+  **al gate finale «conflitti chiusi / aperti dichiarati» si prova con quella tabella, non a
+  memoria**. Una riga esce solo come `chiusa` o come `aperta dichiarata`; nessuna sparisce.
+  Seme iniziale: 16 righe, dalle tre del gate S2 alle divergenze che la matrice prevede.
+- **2026-08-18** · S4, gate della matrice · **Il CSV file × fatto di metodo_03 §9.3 si
+  compila lotto per lotto e si committa a ogni chiusura di lotto**, non in blocco
+  all'apertura di S4 · compilarlo per 138 grezzi significherebbe leggerli tutti prima di
+  canonizzarne uno, cioe' fare il lavoro due volte. Lo scostamento e' dichiarato nella
+  matrice; a fine corsa il file e' completo come la scaletta lo chiede.
+- **2026-08-18** · S4 · **Ritmo delle sessioni di canonizzazione: uno o al massimo DUE
+  lotti tematicamente contigui per sessione, mai tre, qualunque cosa dica il contesto** ·
+  decisione del titolare. Motivo: la revisione col canone si esegue solo a mente fresca, ed
+  e' il pezzo che al pilota ha trovato la fuga di canone. **Il tetto di due non si
+  rinegozia.** Il lotto 1 gira da solo, ed e' anche il collaudo del rituale industriale: la
+  sua chiusura registra nello stato durata, note prodotte contro budget, esiti di giudizio e
+  revisione, contesto residuo. Da li' in poi il ritmo si decide all'apertura su quei dati.
