@@ -125,6 +125,11 @@ NESSUNA misura in queste sessioni: niente fumo, la prossima e' S6.
   cosa manca, e la sessione successiva PRIMA finisce il lotto).
 - Ogni chiusura: nota-sessione nel journal del vault (workspace),
   stato aggiornato con il puntatore al prossimo lotto, decision log,
+  AGGIORNAMENTO DI 06_operativo\passaggio_di_consegne_coordinatore.md
+  (se il gate ha fissato un criterio nuovo, versionato uno strumento,
+  ratificato una prassi o pagato un errore nuovo: UNA RIGA datata
+  nella sezione indicata dalla sua §8; §3 «dove siamo» si riscrive
+  sempre, coi numeri da conta_stato.py, mai a mano),
   commit, push — e ZIP del vault fuori dal repository
   (aurora-cervello_<data>_post-lotto<N>.zip): finche' il vault non e'
   sotto git, lo zip e' l'unico paracadute.

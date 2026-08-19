@@ -172,3 +172,41 @@ Prima di approvare un gate, il coordinatore **legge il documento vero** (staging
 device e lettura integrale), non il riassunto: due errori sono stati trovati così.
 Al termine di ogni sessione operativa il coordinatore **verifica il push** da sé
 (`git log --oneline -N` e `git status -sb` sul device).
+
+---
+
+## 8. Come questo file resta vivo (obbligo, non consiglio)
+
+Un passaggio di consegne che invecchia è peggio di nessun passaggio di consegne: chi lo
+legge crede di sapere e sa cose vecchie. Perciò l'aggiornamento non è affidato alla buona
+volontà, ma al rituale di chiusura.
+
+**Chi aggiorna, e quando.**
+
+- **La sessione operativa**, come parte della chiusura, insieme a stato e decision log:
+  se il gate ha fissato un criterio nuovo, ha versionato uno strumento, ha ratificato una
+  prassi o ha pagato un errore nuovo, scrive **una riga** nella sezione giusta di questo
+  file, con la data. È un gesto del rituale, non un compito extra.
+- **Il coordinatore**, quando al gate enuncia un principio che prima non esisteva: lo
+  detta nel testo da incollare, così arriva qui nello stesso giro in cui nasce.
+
+**Dove va cosa.**
+
+| Cosa è successo | Sezione |
+|---|---|
+| un criterio di giudizio nuovo, o un precedente che chiarisce come si applica | §4 |
+| un errore commesso e la lezione che ne è uscita | §5 |
+| una cosa da tenere d'occhio, o una decisione rimandata a un gate futuro | §6 |
+| un cambio nel modo di lavorare fra chat, terminale e titolare | §1 o §7 |
+| un avanzamento (grezzi, note, misure, prossimo passo) | §3, riscritta, non accumulata |
+
+**Regole di scrittura.** Una riga per criterio, col caso che l'ha generato: un principio
+senza il suo precedente non si sa più applicare. §3 si **riscrive** a ogni chiusura
+(è una fotografia, non uno storico); §4, §5 e §6 si **accumulano**. I numeri qui dentro
+sono copiati dall'output di `conta_stato.py`, mai ricomposti a mano — questo file non fa
+eccezione alla regola d'oro 5.
+
+**Perché è importante.** Le decisioni vivono nel decision log, le regole in metodo_03, i
+numeri nei verbali. Solo la *giurisprudenza* — il modo di decidere — non ha altra casa che
+questa. Se smette di essere aggiornata, il progetto torna a dipendere da una singola
+conversazione: esattamente ciò che questo file esiste per impedire.
