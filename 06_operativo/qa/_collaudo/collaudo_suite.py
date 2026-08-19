@@ -28,9 +28,20 @@ si legge invece di presumerla.
        chi passava l'elenco esplicitamente se lo vedeva ignorare IN SILENZIO, con la QA
        verde e le note modificate fuori perimetro.
 
-  V3   V1 piu' --pacchetto-giudizio. Difetto proprio: IL TESTO AGGIORNATO (E33) — il
-       pacchetto deve riflettere il testo CORRENTE delle note. Il controllo esisteva
-       gia', ma passava dai figli: qui passa dal lanciatore.
+  V3   V1 piu' --pacchetto-giudizio. DUE difetti propri, e sono due perche' il pacchetto
+       puo' essere sbagliato in due modi indipendenti:
+         a) IL TESTO AGGIORNATO (E33) — il pacchetto deve riflettere il testo CORRENTE
+            delle note. Il controllo esisteva gia', ma passava dai figli: qui passa dal
+            lanciatore.
+         b) L'APPENDICE DELLE FONTI (§4.29, lotto R1) — il pacchetto deve PORTARE il
+            testo estratto dei grezzi citati, non solo le note. ⚠️ Lo strumento che
+            ritagliava il pacchetto in fette per i giudici SCARTAVA quell'appendice, e i
+            giudici si sono trovati a confrontare le note CON SE' STESSE: un giro di
+            giudizio annullato. E' la stessa classe che la manutenzione della mattina
+            aveva riparato sulla suite, ricomparsa il pomeriggio su un altro strumento —
+            e lo strumento di taglio sta su questa via. Il difetto si pianta TAGLIANDO
+            l'appendice come faceva quello strumento: se il collaudo non diventa rosso,
+            il controllo non e' un controllo.
 
   V4   qa_all --perimetro vault. E' la via del gate e di ogni misura, e fino al
        19/08/2026 non era mai stata collaudata affatto. Difetto proprio: UN CONTROLLO
@@ -105,6 +116,16 @@ LOG = "log_temperature_pastorizzatore_linea1_10_05_26.log"
 OEE = "calcolo_sfrido_efficienza_OEE_linea_bakery.csv"
 # grezzo FUORI dal perimetro del collaudo: la nota che lo cita entra solo per E32
 SCHEDA = "scheda_manutenzione_ordinaria_forni_industrial.csv"
+
+# --- V3b: l'appendice delle fonti dentro il pacchetto per il giudizio ---------
+# Il titolo con cui `qa_provenance.pacchetto_giudizio` apre l'appendice. Se cambia
+# li', questo collaudo deve rompersi: e' il suo mestiere.
+TITOLO_APPENDICE = "TESTO ESTRATTO DELLE FONTI CITATE"
+# Una stringa che vive SOLO nel grezzo, mai in una nota del vault finto. Senza di
+# essa il controllo verificherebbe il titolo dell'appendice e non il suo contenuto —
+# e un'appendice col titolo e senza testo e' esattamente il caso che manda al giudice
+# le note da confrontare con se' stesse.
+SENTINELLA_FONTE = "SENSOR_FAULT"
 
 INDEX_AREAS = """\
 ---
@@ -396,6 +417,53 @@ def collaudo_pacchetto_giudizio():
     return bool(prima) and (prima != dopo) and (marcatore in dopo)
 
 
+def porta_appendice_delle_fonti(pacchetto):
+    """Il controllo di V3b, in una funzione sola perche' lo usino tutti e due i casi.
+
+    Non basta che l'appendice ci sia: deve PORTARE TESTO. Un'appendice col solo titolo
+    lascia il giudice davanti alle sole note, che e' il guasto di §4.29.
+    """
+    if TITOLO_APPENDICE not in pacchetto:
+        return False
+    coda = pacchetto.split(TITOLO_APPENDICE, 1)[1]
+    return SENTINELLA_FONTE in coda
+
+
+def senza_appendice(pacchetto):
+    """Il DIFETTO PIANTATO: il pacchetto ritagliato come lo ritagliava lo strumento di
+    R1, cioe' tenendo le note e buttando via il testo dei grezzi."""
+    return pacchetto.split(TITOLO_APPENDICE, 1)[0]
+
+
+def collaudo_appendice_fonti():
+    """V3b / §4.29: il pacchetto porta il testo estratto delle fonti citate.
+
+    Tre esiti, e il terzo e' quello che rende gli altri due qualcosa di piu' di una
+    tautologia:
+      - la PREMESSA: la sentinella sta nel testo delle fonti e NON in nessuna nota del
+        vault finto. Se cadesse, il controllo passerebbe per il motivo sbagliato e
+        nessuno se ne accorgerebbe;
+      - il pacchetto vero PORTA l'appendice, col testo dentro;
+      - il pacchetto MUTILATO non la porta: e' il difetto piantato, ed e' la prova che
+        il controllo sa diventare rosso.
+    """
+    lancia_qa_all(["--perimetro", "lotto", "@" + EL_V1, "--lotto", "collaudo-v3b",
+                   "--pacchetto-giudizio"], "v3b")
+    p = os.path.join(REPORT, "v3b", "pacchetto_giudizio_provenance.txt")
+    pacchetto = io.open(p, encoding="utf-8").read() if os.path.isfile(p) else ""
+
+    note = []
+    for radice, _d, file in os.walk(VAULT):
+        for n in file:
+            if n.endswith(".md"):
+                note.append(io.open(os.path.join(radice, n), encoding="utf-8").read())
+    premessa = (SENTINELLA_FONTE in pacchetto) and not any(SENTINELLA_FONTE in t for t in note)
+
+    return (premessa,
+            porta_appendice_delle_fonti(pacchetto),
+            not porta_appendice_delle_fonti(senza_appendice(pacchetto)))
+
+
 # --------------------------------------------------------------- il verdetto
 
 def registra(esiti, via, etichetta, ok):
@@ -434,10 +502,15 @@ def main():
 
     # ---------------- V3: il pacchetto per il giudizio, dal lanciatore ------------
     print("\n" + "=" * 78)
-    print("V3 - qa_all ... --pacchetto-giudizio   difetto proprio: il TESTO AGGIORNATO (E33)")
+    print("V3 - qa_all ... --pacchetto-giudizio   due difetti propri:")
+    print("     a) il TESTO AGGIORNATO (E33)   b) l'APPENDICE DELLE FONTI (§4.29, R1)")
     print("=" * 78)
     registra(esiti, "V3", "il pacchetto del giudizio riflette il testo corrente",
              collaudo_pacchetto_giudizio())
+    premessa, porta, guardia = collaudo_appendice_fonti()
+    registra(esiti, "V3", "premessa: la sentinella e' nelle fonti e in nessuna nota", premessa)
+    registra(esiti, "V3", "il pacchetto PORTA l'appendice col testo delle fonti", porta)
+    registra(esiti, "V3", "difetto piantato: senza appendice il controllo diventa rosso", guardia)
 
     # ---------------- V4: il perimetro vault, mai collaudato prima d'oggi ---------
     print("\n" + "=" * 78)

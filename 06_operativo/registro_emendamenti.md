@@ -1,6 +1,6 @@
 # Registro degli emendamenti a `metodo_03`
 
-> **Cos'è** · L'indice genealogico dei 38 emendamenti al manuale di canonizzazione: chi li
+> **Cos'è** · L'indice genealogico dei 40 emendamenti al manuale di canonizzazione: chi li
 > ha approvati, quando, e dove vive oggi la regola. **È un indice, non una copia.**
 > **Cosa NON contiene** · Il testo delle regole. Quello vive in
 > `01_metodo\metodo_03_canonizzazione.md`, che ne resta l'unico padrone: qui c'è l'oggetto
@@ -26,7 +26,7 @@
 Sezioni e presenza dei marcatori sono verificate contro `metodo_03` da
 `06_operativo\verifica_emendamenti.py`, non a occhio.
 
-## I 38 emendamenti
+## I 40 emendamenti
 
 | # | Data | Dove nasce | Tipo | Oggetto, in una riga | Vive in | Marc. | Il perché |
 |---|---|---|---|---|---|---|---|
@@ -68,6 +68,8 @@ Sezioni e presenza dei marcatori sono verificate contro `metodo_03` da
 | **E36** | 19/08/2026 | ⚠️ **gate intermedio del lotto R1** | chiarimento | **corregge la forma di E29**: la nota cita la fonte che prescrive **ciò di cui parla**, non una fonte prescrittiva qualsiasi | §5.1-bis | sì | `rapporto_lotto_r1.md` §2 · decision log 19/08 — la forma generica lasciava fuori 26 note su 71, cioè quelle che avevano generato il lotto. ⚠️ **Il difetto era nella DETTATURA del coordinatore, non nell'esecuzione**: la sessione ha dichiarato lo scostamento invece di applicarlo in silenzio, ed è ciò che §4 del prompt dei lotti chiede — uno scostamento dichiarato è un dato, uno taciuto è un guasto |
 | **E37** | 19/08/2026 | gate intermedio del lotto R1 | regola nuova | la **riconciliazione verticale è un passo del ciclo di lotto**, non una promessa in tabella: chi porta una fonte prescrittiva riapre le note che quella fonte governa, e il rapporto dichiara quante ne ha riaperte e quante corrette | §9.5, passo 5-ter | sì | `rapporto_lotto_r1.md` §11 · decision log 19/08 — una riga di tracciamento ricorda ma non scatta da sola (§4.29). Le note riaperte non contano nella capacità; se superano le nuove, il lotto si spezza |
 | **E38** | 19/08/2026 | gate intermedio del lotto R1 | chiarimento | i **lotti di manutenzione non entrano nella serie della capacità** quando a dieci lotti chiusi si rivedrà la fascia 25-35 di E31 | §9.4 | sì | decision log 19/08 — mettere insieme due grandezze che misurano cose diverse è ciò che ha prodotto le 903 note del calcolo lineare |
+| **E39** | 19/08/2026 | gate del lotto R1 | regola nuova | **LA CAUTELA SI PROPAGA**: apposta una qualificazione a un'affermazione, la stessa qualificazione va portata su **tutte le altre occorrenze di quell'affermazione** dentro la nota. Estende E30, che resta com'è | §9.5, passo 2-bis | sì | `rapporto_lotto_r1.md` §9 · decision log 19/08 — il pattern con cui R1 si è chiuso al terzo giro (E26) **dopo che due giri di revisione mirata lo avevano mancato**: un difetto che sopravvive a due revisioni non è una disattenzione, è un punto cieco del metodo. ⚠️ **Il caso che la genera**: tre giudici indipendenti, a contesto pulito, su fette diverse, hanno descritto la stessa classe con tre parole diverse. ⚠️ **La forma conta più della regola** — il gesto parte dall'AFFERMAZIONE, non dalla superficie, e non è «rileggere di più»; l'elenco delle superfici resta **aperto**, perché chiuderlo ricreerebbe il difetto di E30 |
+| **E40** | 19/08/2026 | gate del lotto R1 | regola nuova | **LA PRESCRIZIONE SI LINKA, NON SI RICOPIA**: si linka la nota padrona della prescrizione, e se non esiste la si crea; il testo prescrittivo non si ricopia dentro la nota | §5.1-bis | sì | `rapporto_lotto_r1.md` §11 · decision log 19/08 — è **il rovescio di E29/E36** e la scoperta più preziosa di R1: agganciando le note alla prescrizione il lotto ha prodotto **17 doppie padrone**, e due prescrizioni erano ricopiate **senza avere alcun padrone**. Per un tratto il vault ha avuto più copie della stessa prescrizione di prima. ⚠️ **Senza E40, E37 è una macchina che produce duplicati**: chi riapre le note che una fonte governa ricopia per gesto naturale. Le due prescrizioni più duplicate — seconda firma e CCP4 — reggono le conclusioni più forti del vault: **se una copia diverge, diverge un'accusa** |
 
 ## Le anomalie di genealogia, dette per nome
 
@@ -83,7 +85,11 @@ Sezioni e presenza dei marcatori sono verificate contro `metodo_03` da
    INTERMEDIO**, specie nuova per questo registro: un gate che non approva un lotto ma lo
    **autorizza a finire**, perché il ciclo di giudizio non era ancora girato. La colonna «dove
    nasce» lo dice, perché fra un anno «gate del lotto R1» e «gate intermedio del lotto R1» non
-   sembrino la stessa occasione. ⚠️ E34 ed E35 arrivano per una via ancora
+   sembrino la stessa occasione. ⚠️ **Dal 19/08/2026 la distinzione non è più teorica: E39 ed
+   E40 nascono al GATE del lotto R1**, quello che ne ha approvato il merito, e stanno nella
+   stessa giornata di E36-E38 che nascevano al gate intermedio dello stesso lotto. Due
+   occasioni diverse, stesso lotto, stesso giorno: è precisamente il caso che questa nota era
+   stata scritta per rendere leggibile. ⚠️ E34 ed E35 arrivano per una via ancora
    diversa: sono stati **dettati nel prompt della sessione di manutenzione**, cioè
    nell'artefatto che istruisce la sessione (§4.27 del passaggio di consegne), e la sessione li
    ha applicati come primo adempimento — non li ha decisi. ⚠️ **E29-E33 invece sono del gate del lotto

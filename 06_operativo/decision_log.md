@@ -1040,3 +1040,79 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   storico regge ma non è dimostrata**, e il gate intermedio ha stabilito come si dimostra: **al
   primo lotto canonizzato sotto E29**, dichiarando il tasso di riapertura. Sarà il rapporto del
   primo lotto del tema 2 a portare quel numero.
+- **2026-08-19** · **GATE DEL LOTTO R1 — APPROVATO** · QA di lotto a **0 ERRORI** con 51 avvisi
+  motivati e perimetro dichiarato «0 grezzi, 85 note»: la modalità di E35 ha funzionato alla
+  prima prova su dati veri. Tre giri di giudizio con subagenti a contesto pulito, revisione col
+  canone su sessione diversa, ed **E26 rispettata alla lettera** — il terzo giro non si è
+  esaurito e il lotto si è chiuso **nominando il pattern**, non con un quarto giro. ⚠️ È la
+  prima volta che quella regola viene esercitata fino in fondo, e **ha prodotto la scoperta più
+  utile della giornata invece di un'ora in più**. Le tre divergenze di categoria B sono nel
+  canone in sezione datata, e **due riguardano il manuale HACCP**: il documento che prescrive,
+  due volte su tre, prescrive male o dichiara compiuto ciò che non lo è — e nessuna delle due
+  sarebbe emersa dalla riconciliazione orizzontale. `conta_stato.py` e `qa_all.py` **concordano
+  ora su 183**: la divergenza 172/173 è chiusa, ed è la prova che E34 funziona.
+- **2026-08-19** · gate del lotto R1 · **E39 — LA CAUTELA SI PROPAGA**, in `metodo_03` §9.5 passo
+  2-bis · la cautela che non si propagava diventa emendamento e non resta un paragrafo di
+  rapporto. Tre ragioni, e la terza decide: **(1)** il passo 2-bis aveva un **perimetro**
+  sbagliato, non una diligenza insufficiente — nominava `title` e `summary`, mentre il difetto
+  vive anche nelle celle di tabella e nelle glosse ai wikilink, e §4.25 dice che quando è il
+  perimetro di un controllo è un **guasto**, e si scrive subito; **(2)** un difetto che
+  sopravvive a **due** giri di revisione mirata non è una disattenzione, è un punto cieco del
+  metodo; **(3)** **simmetria col precedente** — E30 è nato esattamente così dal lotto 1C, e
+  lasciare nel documento che nessuno rilegge la versione **più larga** dello stesso difetto
+  sarebbe la malattia di E27. ⚠️ **La forma conta più della regola, e non è «rileggere di
+  più»**: il gesto parte dall'**affermazione**, non dalla superficie — apposta una
+  qualificazione, si cercano nella nota tutte le altre occorrenze di quella affermazione e ci si
+  porta la stessa qualificazione. L'elenco delle superfici resta **aperto**: chiuderlo
+  ricreerebbe il difetto di E30. E30 resta com'è, E39 lo cita (§4.26, i numeri sono permanenti).
+- **2026-08-19** · gate del lotto R1 · **E40 — LA PRESCRIZIONE SI LINKA, NON SI RICOPIA**, in
+  `metodo_03` §5.1-bis · ⚠️ **è la scoperta più preziosa di R1, e vale più del difetto che il
+  lotto riparava**. Agganciando le note alla prescrizione, R1 ha prodotto **diciassette doppie
+  padrone**, e **due prescrizioni erano ricopiate senza avere alcun padrone**: per un tratto il
+  vault ha avuto **più copie della stessa prescrizione di quante ne avesse prima**, cioè la
+  riparazione fabbricava il difetto opposto. ⚠️ **Senza E40, E37 diventa una macchina che
+  produce duplicati**: E37 dice che chi porta una fonte prescrittiva riapre le note che quella
+  fonte governa, e il gesto naturale di chi le riapre è **ricopiare**. Le due prescrizioni più
+  duplicate — la **seconda firma** e il **CCP4** — sono anche quelle su cui il vault regge le
+  conclusioni più forti: **se una copia diverge, diverge un'accusa.** Vale doppio sulle fonti
+  prescrittive dense, e `IO-05` nel lotto 2A è la prossima.
+- **2026-08-19** · gate del lotto R1 · **§4.29 ricomparsa lo stesso giorno, su un altro
+  strumento** · lo script che ritagliava il pacchetto in fette **scartava l'appendice col testo
+  estratto delle fonti**, e i giudici si sono trovati a confrontare le note **con sé stesse**. È
+  la stessa classe che la manutenzione della mattina aveva riparato sulla suite, ricomparsa il
+  pomeriggio. Due adempimenti, entrambi permanenti: **(a)** il collaudo della via **V3** si
+  estende — oltre al difetto di E33 (il pacchetto riflette il testo corrente) ne pianta uno
+  secondo, che il pacchetto **porti l'appendice delle fonti**; verificato per **iniezione del
+  guasto in `qa_provenance.pacchetto_giudizio`**, il collaudo diventa rosso e poi torna verde a
+  **20 su 20** su tutte e cinque le vie; **(b)** **§4.31** del passaggio di consegne.
+- **2026-08-19** · gate del lotto R1 · **§4.31 — un giudice che dichiara DEGRADATO il proprio
+  ingresso vale più di uno che emette** · entrambi i giudici del giro annullato se ne sono
+  accorti **da soli** e si sono rifiutati di pronunciarsi: è la ragione per cui quel giro è
+  costato **zero** invece di inquinare il lotto con verdetti costruiti sul nulla. ⚠️ La
+  conseguenza operativa, ed è il motivo per cui si scrive: chi costruisce uno strato di giudizio
+  gli lascia abbastanza contesto per **accorgersi** che l'ingresso è degradato, e il prompt gli
+  dice **esplicitamente** che dichiararlo è un esito legittimo. Un giudice che può solo emettere
+  un verdetto ne emetterebbe uno anche sul nulla.
+- **2026-08-19** · gate del lotto R1 · **Candidato PARCHEGGIATO, col criterio di decisione
+  scritto in anticipo** · lo script che segnalerebbe le superfici di sintesi rimaste assertive
+  quando il corpo porta una qualificazione **non si costruisce adesso**, e la ragione è **E28**:
+  un avviso euristico nuovo, su **una sola** osservazione, rischia di essere rumoroso — e una
+  regola che scatta sempre viene scavalcata per prassi, che è peggio di non averla. Si decide
+  **dopo due lotti chiusi sotto E39**, e il criterio si scrive **ora perché nessuno lo riapra a
+  numeri visti**: se in quei due lotti il pattern ricompare ancora al **terzo giro** di giudizio,
+  la rilettura non basta e serve la macchina; se non ricompare, E39 basta e il candidato si
+  chiude come **non necessario**. Riga in §6 del passaggio di consegne, vigilanze aperte.
+- **2026-08-19** · gate del lotto R1 · **L'ipotesi del debito storico diventa un ESPERIMENTO, ed
+  è il lotto 2A** · la voce precedente rimandava il tasso di riapertura «al primo lotto
+  canonizzato sotto E29»: **quel lotto è 2A**, e il gate ne ha fissato la forma. Il rapporto
+  dichiarerà **DUE TASSI DISTINTI, e non li mescola** — il **tasso di riapertura** (quante note
+  vecchie E37 ha riaperto, quante corrette: misura il **debito**) e il **tasso di difetto di
+  produzione** (sulle note **nate** in 2A, quante il giudizio trova scoperte rispetto alla fonte
+  che le prescrive: misura quanto il metodo, **con la regola in vigore**, produce il difetto
+  invece di ereditarlo). ⚠️ **È il secondo a decidere**: vicino a zero, il debito era storico e
+  la rete finale basterà; lontano da zero, **E29 in vigore NON basta e la regola va ripensata,
+  non ripetuta**. Va prodotto **da script, non stimato**.
+- **2026-08-19** · gate del lotto R1 · **2A gira DA SOLO** · il tetto di due lotti contigui per
+  sessione è **un massimo, non una quota** (§4.16). 2A porta **tre regole al primo impiego** —
+  E37, E39, E40 — più una **misura che decide una questione di progetto**: un lotto che porta un
+  esperimento non condivide la sessione con un altro lotto.

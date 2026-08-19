@@ -3,9 +3,10 @@
 > **Cos'è** · Lo stato di oggi del vault: cosa è stato canonizzato, con quale esito, e
 > cosa resta. Solo stato, mai una regola: le regole stanno in
 > `01_metodo\metodo_03_canonizzazione.md`, le decisioni in `06_operativo\decision_log.md`.
-> **Aggiornato al** · 19/08/2026, **chiusura del lotto R1** — la riconciliazione verticale,
-> primo lotto di manutenzione del progetto. Nella stessa giornata: la manutenzione degli
-> strumenti, E34 ed E35, il gate intermedio con E36-E38, e i numeri riportati da script.
+> **Aggiornato al** · 19/08/2026, **gate del lotto R1**, che lo ha **APPROVATO** e ha prodotto
+> **E39** ed **E40**. Nella stessa giornata, e sono occasioni diverse: la manutenzione degli
+> strumenti, E34 ed E35, il gate intermedio con E36-E38, la chiusura di R1 — la riconciliazione
+> verticale, primo lotto di manutenzione del progetto — e i numeri riportati da script.
 > Lo stato della pipeline RAG sta in `06_operativo\stato_rag_produzione.md`, non qui; il
 > piano dei lotti e la tabella di tracciamento delle questioni trasversali stanno in
 > `06_operativo\matrice_lotti_corpus_v1.md`, non qui.
@@ -16,13 +17,13 @@
 
 | | |
 |---|---|
-| Lotti chiusi | **4** — `l26130` (fetta pilota, S2), **`1A`** (Linea 1: turno, CCP, confezionatrice), **`1B`** (freddo ed energia) e **`1C`** (metrologia e gas tecnici) |
+| Lotti chiusi | **4 di canonizzazione** — `l26130` (fetta pilota, S2), **`1A`** (Linea 1: turno, CCP, confezionatrice), **`1B`** (freddo ed energia) e **`1C`** (metrologia e gas tecnici) — **più `R1`**, il primo **lotto di manutenzione** (E35), approvato al suo gate il 19/08/2026. ⚠️ **R1 vale un lotto nel ritmo ma NON entra nella serie della capacità** (E38): misura riparazioni, non produzione |
 | Grezzi copiati nel vault | 160/160, verificati contro `manifest_corpus_v1.1.json`: zero scarti, zero estranei, zero sottocartelle |
 | I conteggi del vault | nel blocco qui sotto, **incollato verbatim** da `conta_stato.py` |
 | Suite QA | **verde sul perimetro di lotto**; sul vault tre controlli su quattro sono a zero errori |
 | `llms.txt` | rigenerato dal frontmatter, allineato |
 | Matrice dei lotti | 160/160 grezzi, zero scoperti, zero doppi (`verifica_matrice_lotti.py` verde). ⚠️ **I budget dei lotti 2-10 sono SUPERATI** e il piano non è più a 12 lotti: vale **E31**, la capacità di 25-35 note per lotto, e i grezzi si decidono in apertura. **Stima: circa 28-30 lotti**, scritta anche nella scaletta perché cambia il calendario di S4-S5. Ridisegnato in dettaglio **solo il tema 2** (2A · 2B · 2C) |
-| **PROSSIMO ATTO** | **Il gate del lotto R1**: il rapporto `06_operativo\rapporto_lotto_r1.md` va al coordinatore. ⚠️ Il gate del 19/08 era **intermedio** — autorizzava il lotto a finire, non lo approvava. Il rapporto porta una domanda sola: se la regola sulla **cautela che non si propaga** (§9 del rapporto) vada scritta in `metodo_03`, o se basti il passo 2-bis com'è. Dopo l'approvazione: **il tema 2**, che sarà il primo lotto canonizzato sotto E29 e dichiarerà il tasso di riapertura — il numero che falsifica o conferma l'ipotesi del debito storico |
+| **PROSSIMO ATTO** | **Il lotto 2A — il lavaggio CIP.** Tre grezzi: il log del CIP di maggio, `IO-05` che ne prescrive il criterio, la scheda di sicurezza del detergente acido. ⚠️ **Gira DA SOLO**: porta tre regole al primo impiego (**E37**, **E39**, **E40**) più una misura che decide una questione di progetto, e il tetto dei due lotti contigui è un massimo, non una quota. È il **primo lotto in cui E37 scatta, e scatta all'apertura**, perché `IO-05` è la fonte prescrittiva del log. **Ed è un ESPERIMENTO**: primo lotto canonizzato sotto E29 ed E36, dichiara **due tassi distinti e non li mescola** — riapertura (misura il debito) e difetto di produzione (misura il metodo) |
 
 ⚠️ **Errata del 19/08/2026 sui numeri del lotto 1A.** Questo stato dichiarava «105 note, di
 cui 11 `_index` e 6 note-strumento: 88 di contenuto». `qa_all.py` a chiusura di 1A contava
@@ -97,7 +98,24 @@ fatto. È il pattern del lotto 1C esteso a **ogni** superficie di sintesi della 
 prescrittive** di cui **8 citabili** e **28 da tracciare**. E con lui tre script nuovi:
 `elenco_fonti_prescrittive.py`, `candidate_r1.py`, `conta_perimetro_lotto.py`.
 
-## Il lotto 1C, chiuso il 19/08/2026## Il lotto 1C, chiuso il 19/08/2026
+### Il gate di R1, 19/08/2026 — APPROVATO
+
+Il coordinatore ha letto il rapporto per intero e riverificato i numeri sul disco. Cosa il
+gate ha prodotto, e resta a verbale:
+
+| | |
+|---|---|
+| Verdetto | **APPROVATO** |
+| Emendamenti | **E39** — la cautela si propaga (§9.5 passo 2-bis) · **E40** — la prescrizione si linka, non si ricopia (§5.1-bis). Metodo a **40** |
+| Giurisprudenza | **§4.31** del passaggio di consegne: un giudice che dichiara degradato il proprio ingresso vale più di uno che emette |
+| Collaudo | la via **V3** acquista un secondo difetto piantato — il pacchetto deve **portare l'appendice** col testo delle fonti (§4.29). Verificato per iniezione: senza appendice il collaudo diventa rosso. `collaudo_suite.py` **verde, 20 su 20** su tutte e cinque le vie |
+| Candidato parcheggiato | lo script che segnala le superfici di sintesi rimaste assertive: **non si costruisce ora** (E28, una sola osservazione), si decide **dopo due lotti chiusi sotto E39**, col criterio già scritto in §6 del passaggio di consegne |
+
+⚠️ **La QA a perimetro vault è stata RIMISURATA dopo la chiusura** (17:45, dopo il rapporto
+delle 17:42) e resta a **128 ERRORI, tutti di incompletezza**: nessuna regressione, e il numero
+è **misurato, non asserito**.
+
+## Il lotto 1C, chiuso il 19/08/2026
 
 **Perimetro:** 2 grezzi, elencati in `06_operativo\qa\lotti\lotto_01c_metrologia_gas.txt`.
 L'elenco delle attrezzature con lo stato di taratura di 120 strumenti, e la bolla di ingresso

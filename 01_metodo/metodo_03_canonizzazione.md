@@ -1344,6 +1344,29 @@ il lotto.
 famiglia di affermazione — punto critico, taratura, frequenza, limite, responsabilità di
 processo — sulla fonte che *quella* famiglia la governa, e il criterio si scrive nel rapporto.
 
+⚠️ **E40 — LA PRESCRIZIONE SI LINKA, NON SI RICOPIA.** È il rovescio di E29 ed E36, e costa
+quanto il difetto che quelle riparano. Quando si aggancia una nota alla fonte che la
+prescrive: **si LINKA la nota padrona di quella prescrizione; se non esiste, la si CREA; non
+si ricopia il testo prescrittivo dentro la nota.** Nel corpo resta il minimo perché la nota
+regga da sola fuori contesto (§3.1), e il criterio per esteso vive **da una parte sola**.
+
+**Nasce dal caso più costoso del lotto R1, e la scoperta vale più del difetto che il lotto
+riparava.** Mentre agganciava le note alla prescrizione, R1 ha prodotto **diciassette doppie
+padrone**, e **due prescrizioni erano ricopiate senza avere alcun padrone**. Per un tratto il
+vault ha avuto **più copie della stessa prescrizione di quante ne avesse prima**: la
+riparazione fabbricava il difetto opposto — quello del divieto 19 e di §7.4.
+
+⚠️ **Senza E40, E37 diventa una macchina che produce duplicati.** E37 dice che chi porta una
+fonte prescrittiva riapre tutte le note che quella fonte governa, e **il gesto naturale di chi
+le riapre è ricopiare**: più note si riaprono, più copie nascono. Le due prescrizioni più
+duplicate in R1 — la **seconda firma** e il **CCP4** — sono anche quelle su cui il vault regge
+le conclusioni più forti: **se una copia diverge, diverge un'accusa.**
+
+⚠️ **Vale doppio sulle fonti prescrittive dense** — un manuale di autocontrollo, un'istruzione
+operativa con più criteri: sono quelle in cui la tentazione di ricopiare il criterio dentro
+ogni nota che lo tocca è massima, ed è esattamente lì che le diciassette copie sono nate.
+**Una padrona per prescrizione, le altre linkano.**
+
 ### 5.2 Contraddizione con vincitore → nota padrona, `stato: risolto`
 
 Quando l'archivio, letto per intero, indica quale fonte prevale:
@@ -2109,15 +2132,33 @@ note → suite QA → revisore indipendente → correzioni propagate → suite Q
    sono stati due su dodici al primo giro. Il comando che lo produce si lancia **per ultimo**,
    dopo la QA e dopo la rilettura del passo 2-bis.
 
-2-bis. **Rilettura contro le sole fonti**, prima di ogni giro di giudizio. Due passaggi, e
-   nascono da due pattern pagati:
+2-bis. **Rilettura contro le sole fonti**, prima di ogni giro di giudizio. Tre passaggi, e
+   nascono da tre pattern pagati:
    - **il «Perché conta»** — la frase scritta per far capire porta dentro ciò che chi scrive
      sa dall'archivio e le fonti della nota non contengono (*contesto importato*, lotto 1B);
    - ⚠️ **il `title` e il `summary`, letti come note a sé** (E30). L'intestazione si scrive per
      prima e si corregge per ultima: quando una correzione attenua il corpo, il summary resta
      com'era e **afferma quello che il corpo cautela**. Nel lotto 1C, al terzo giro, **sei
      rilievi su sette stavano ancora lì**, e in cinque casi il corpo era corretto. Si rilegge
-     **a ogni giro**, non una volta sola.
+     **a ogni giro**, non una volta sola;
+   - ⚠️ **LA CAUTELA SI PROPAGA** (E39). È la forma larga del difetto che E30 aveva chiuso su
+     due superfici, e **E30 resta com'è: E39 lo estende, non lo sostituisce.** Quando una
+     correzione appone una **qualificazione** a un'affermazione — «che cosa misuri il file non
+     lo dichiara», «è una bozza mai firmata», «è una lettura, non un dato» — quella
+     qualificazione resta dove è stata scritta, e le altre occorrenze della stessa
+     affermazione dentro la stessa nota restano assertive.
+
+     ⚠️ **Il gesto NON è «rileggere di più», ed è la ragione per cui questa regola non è un
+     richiamo alla diligenza.** Due giri di revisione mirata avevano già riletto quelle note.
+     Il gesto parte dall'**affermazione**, non dalla superficie: apposta una qualificazione,
+     **si cercano nella nota tutte le altre occorrenze di quell'affermazione e ci si porta la
+     stessa qualificazione.**
+
+     Le superfici dove si nasconde: `summary`, `title`, celle di tabella, glosse dopo un
+     wikilink, frasi di chiusura. ⚠️ **L'elenco è ESEMPLIFICATIVO e APERTO, e chiuderlo
+     ricreerebbe il difetto di E30** — che era chiuso su due superfici, ed è per questo che
+     il pattern gli è passato accanto. Una riga di tabella e una glossa di tre parole sono
+     affermazioni di fatto quanto il corpo.
 3. **Revisore indipendente, con il canone alla mano.** È una sessione diversa da quella
    che ha scritto le note. Classifica ogni rilievo:
 
