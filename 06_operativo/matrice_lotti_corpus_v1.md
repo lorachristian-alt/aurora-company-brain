@@ -217,10 +217,14 @@ il contratto mai firmato sono lo stesso fatto visto da quattro documenti.
   10/05: è la base metrologica dell'arbitrato datalogger contro registro cartaceo (T20).
   Riapre anche **T25** (convalida dell'MD-3200), **T26** (sigle dei tasselli del CCP3) e
   **T32** (posizione dell'MD-3200 in linea);
-- ⚠️ **121 righe di strumento non fanno 121 note.** Vale la guardia contro la
+- ⚠️ **Le righe di strumento non fanno altrettante note.** Vale la guardia contro la
   sovra-atomizzazione: il rapporto di lotto dichiara **il criterio con cui una riga diventa
   una nota**, e il revisore riceve un campione da verificare. Una selezione deve restare
   una selezione;
+  ⚠️ **Errata del 19/08/2026: le righe sono 120, non 121.** Il numero di questa matrice era
+  stato scritto a mano in fase di pianificazione; `conta_1c.py` ne conta **120 di strumento**,
+  più **due righe di intestazione** — la seconda a riga 64, con nomi di colonna diversi dalla
+  prima. Vale il numero dello script (regola d'oro 5);
 - **la bolla Nordgas** porta la gamba mancante di T17: registra scarico di azoto **in
   serbatoio fisso** SB-AUR-01 e bombole solo di CO2, mentre il quaderno dello stesso giorno
   scrive «bombola nordgas cambiata alle 16».
@@ -472,6 +476,7 @@ La matrice è un piano: si annota quando cambia, non si riscrive in silenzio.
 
 | Data | Lotto | Cosa è cambiato, e perché |
 |---|---|---|
+| 2026-08-19 | **1C** | **Errata: le righe dell'elenco tarature sono 120, non 121.** Il conteggio della matrice era a mano, quello di apertura del lotto è da script (`conta_1c.py`). Il file porta inoltre **due righe di intestazione**, la seconda a riga 64 con nomi di colonna diversi: non è un difetto da aggirare, è un fatto dell'archivio e ha una nota nel vault |
 | 2026-08-18 | 1 · 10 | `bolletta_VenetaEnergia_maggio2026.pdf` spostata dal lotto 10 al lotto 1: sta con `consumi_energetici_forni_kwh_maggio26.csv`, di cui è la gamba di riconciliazione sul costo dell'energia. Non è rumore |
 | 2026-08-18 | 7 · 10 | `Nuova cartella di lavoro.xlsx` spostata dal lotto 10 al lotto 7: ispezionata, **non è un file vuoto** — contiene un appunto sulle timbrature e una `SUM` mai calcolata. Il nome ingannava |
 | 2026-08-19 | **1B → 1B + 1C** | **Secondo spezzamento, e i lotti passano da 11 a 12.** Il conteggio dei fatti in apertura ha proiettato **~41 note contro un budget di 22-30** (+37 %): densità **6,8 note per grezzo**, sopra le 6,0 del lotto 1A. Il taglio segue le cuciture della storia, non il numero dei file: **1B** (4 grezzi, budget 22-30) tiene intera la vicenda della cella `CF-02` — allarmi di aprile, arretrati di manutenzione, +49,7 % di consumo, contratto non firmato — e **1C** (2 grezzi, budget 12-18) tiene il parco strumenti, le tarature e i gas tecnici. Riassegnazioni in tabella di tracciamento: **T18, T22, T30** a 1B; **T17, T20, T25, T26, T32** a 1C. Decisione del titolare, che ha aggiunto due obblighi: dichiarare nel rapporto **il criterio di aggancio** con cui 121 righe di strumento diventano una dozzina di note, e dare al revisore **un campione** di quelle note |

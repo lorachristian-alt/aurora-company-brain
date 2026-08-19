@@ -670,3 +670,38 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   il coordinatore non tocca il vault, non apre `03_valutazione\`, non scrive nel repository
   mentre una sessione gira, e **verifica il push da sé** invece di fidarsi del rapporto. La §7
   è stata sfoltita a puntatore: il protocollo ha un padrone solo.
+- **2026-08-19** · Coordinatore, apertura del lotto 1C · **E28 — la soglia di spezzamento di un
+  lotto diventa doppia, e il difetto era nella grandezza misurata** · E21 spezzava sullo
+  **scostamento percentuale** dal budget; il rischio che quella regola contiene è però il
+  **carico di revisione**, che si misura in **note assolute**. ⚠️ **Le stime della matrice sono
+  ferme alla densità del pilota (2,1 note per grezzo) contro il 9,5 misurato in 1B**: con quelle
+  stime E21 sarebbe scattata a ogni lotto, e **una regola che scatta sempre viene scavalcata per
+  prassi**. Nuova soglia: si spezza se la proiezione supera il budget di oltre il **25 % E** vale
+  più di **30 note di contenuto**; sotto le 30 lo scostamento si **dichiara nel rapporto** e si
+  procede; oltre le **40** si spezza sempre. **I tre numeri vengono dai consuntivi**, non da una
+  stima: pilota 46 note in una sessione che costruiva anche la suite, 1A 42, **1B 38 con quattro
+  giri di giudizio** — è 1B a fissare il tetto, perché sopra le quaranta il ciclo di revisione
+  comincia a rigenerare rilievi invece di esaurirli. **Effetto immediato: il lotto 1C non si
+  spezza** (23 note proiettate, +27,8 % sul budget alto), e lo scostamento va dichiarato nel
+  rapporto. Registrato come giurisprudenza §4.20 del passaggio di consegne, in forma generale:
+  **quando una soglia scatta sempre, il difetto è nella grandezza che misura.**
+- **2026-08-19** · S4 lotto 1C, apertura · **Il registro degli emendamenti ha trovato un difetto
+  invece di documentarlo: E3 era una regola nuova senza marcatore** · il coordinatore aveva
+  ordinato di **non** aggiungere marcatori posticci ai quattro emendamenti che ne erano privi
+  (E3, E4, E15, E16), sul principio che **un refuso corregge un testo sbagliato e non introduce
+  una regola da marcare**. ⚠️ **Il presupposto era vero per tre su quattro:** E4, E15 ed E16 sono
+  refusi, **E3 no** — è il divieto di dichiarare un'assenza senza averla cercata, cioè una regola
+  nuova, e §10.12-bis la portava senza sigla pur portando quella di **E22**, che di quel divieto
+  è solo il chiarimento sulla data. Applicare la ratio del coordinatore **nell'altro verso**
+  significa dargli il marcatore, non toglierlo agli altri: fatto. Il controllo è ora in
+  `verifica_emendamenti.py` come **implicazione in una direzione sola** — *ogni emendamento
+  senza marcatore dev'essere un refuso* — e **non** come bicondizionale: **E14 ed E19 sono refusi
+  e il marcatore ce l'hanno**, perché correggono un passaggio che senza spiegazione tornerebbe a
+  sembrare sbagliato. Il bicondizionale avrebbe segnalato come difetti due emendamenti corretti.
+- **2026-08-19** · S4 lotto 1C, apertura · **La matrice dichiarava 121 righe di strumento, lo
+  script ne conta 120** · errata datata nel registro della matrice, vale il numero dello script
+  (regola d'oro 5). ⚠️ Nello stesso conteggio è emerso che il file porta **due righe di
+  intestazione**, la seconda a riga 64 **con nomi di colonna diversi dalla prima**: non è un
+  difetto da aggirare in fase di parsing, è un **fatto dell'archivio** — il file nasce
+  appiccicando due elenchi con schemi diversi — e come tale ha una nota nel vault, esattamente
+  come il checksum fallito del datalogger e le revisioni non accettate del contratto frigo.

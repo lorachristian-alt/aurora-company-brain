@@ -13,6 +13,12 @@ Controlla:
      manuale; se e' `no`, non compare;
   4. ogni marcatore presente nel manuale ha la sua riga nel registro (nessun
      emendamento applicato e mai registrato);
+  4-bis. ogni emendamento SENZA marcatore e' di tipo `refuso`. Un refuso corregge un
+     testo sbagliato e non lascia cicatrice; una regola nuova o un chiarimento senza
+     marcatore sarebbe invece una regola che nessuno sa piu' da dove viene.
+     ⚠️ Il controllo vale in una direzione sola: un refuso PUO' avere il marcatore
+     (E14 ed E19 ce l'hanno) quando senza spiegazione il passaggio corretto tornerebbe
+     a sembrare sbagliato;
   5. per i marcatori presenti, la sezione dichiarata e' fra quelle in cui il
      marcatore compare davvero.
 
@@ -70,9 +76,9 @@ def righe_del_registro(testo):
             continue
         celle = [c.strip() for c in riga.strip().strip("|").split("|")]
         numero = int(m.group(1))
-        vive_in, marcatore = celle[5], celle[6].lower()
+        tipo, vive_in, marcatore = celle[3].lower(), celle[5], celle[6].lower()
         sezioni = re.findall(r'§(\d+(?:\.\d+)?)', vive_in)
-        fuori.append((numero, sezioni, marcatore, vive_in))
+        fuori.append((numero, sezioni, marcatore, vive_in, tipo))
     return fuori
 
 
@@ -92,7 +98,7 @@ def main():
         errori.append("numerazione non continua: attesi E1..E%d, trovati %s"
                       % (len(numeri), ", ".join("E%d" % n for n in sorted(numeri))))
 
-    for numero, sez, marcatore, vive_in in righe:
+    for numero, sez, marcatore, vive_in, tipo in righe:
         if not sez:
             errori.append("E%d: nessuna sezione riconosciuta in «%s»" % (numero, vive_in))
         for s in sez:
@@ -101,6 +107,9 @@ def main():
         presente = numero in marcatori
         if marcatore.startswith("s") and not presente:
             errori.append("E%d: il registro dichiara il marcatore, il manuale non lo porta" % numero)
+        if marcatore.startswith("n") and "refuso" not in tipo:
+            errori.append("E%d: senza marcatore ma di tipo «%s» - solo un refuso puo' non averlo"
+                          % (numero, tipo))
         if marcatore.startswith("n") and presente:
             errori.append("E%d: il registro dichiara «no», ma il manuale porta la sigla (in %s)"
                           % (numero, ", ".join("§" + x for x in sorted(marcatori[numero]))))
@@ -117,8 +126,8 @@ def main():
     print("Emendamenti nel registro: %d" % len(righe))
     print("Marcatori inline in metodo_03: %d (%s)"
           % (len(marcatori), ", ".join("E%d" % n for n in sorted(marcatori))))
-    senza = sorted(n for n, _, m, _ in righe if m.startswith("n"))
-    print("Applicati senza marcatore: %d (%s)"
+    senza = sorted(n for n, _, m, _, _ in righe if m.startswith("n"))
+    print("Applicati senza marcatore, tutti refusi: %d (%s)"
           % (len(senza), ", ".join("E%d" % n for n in senza) or "nessuno"))
 
     if errori:

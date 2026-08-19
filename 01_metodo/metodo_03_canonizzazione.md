@@ -1931,10 +1931,31 @@ prima le foglie significa scrivere link rotti e ripassare a chiuderli — che è
 esattamente il modo in cui nascono gli orfani.
 
 ⚠️ **Il budget si controlla PRIMA di scrivere, non dopo** (E21). All'apertura di un lotto si
-leggono i grezzi, si elenca cosa merita una nota e si proietta il totale. **Se la proiezione
-supera il budget di oltre il 25 %, il lotto si spezza prima di scrivere una riga.** Lo
-stop-loss della scaletta dice «lotto più piccolo, mai QA più leggera»: questa regola lo rende
-eseguibile prima che il danno sia fatto, invece che a lavoro finito.
+leggono i grezzi, si elenca cosa merita una nota e si proietta il totale. Lo stop-loss della
+scaletta dice «lotto più piccolo, mai QA più leggera»: questa regola lo rende eseguibile prima
+che il danno sia fatto, invece che a lavoro finito.
+
+**Quando la proiezione obbliga a spezzare, e quando invece basta dichiararla** (E28, che
+corregge la soglia di E21):
+
+| Proiezione | Cosa si fa |
+|---|---|
+| supera il budget di oltre il **25 %** **e** vale più di **30 note di contenuto** | il lotto **si spezza** prima di scrivere una riga |
+| supera il budget ma resta **sotto le 30 note** | lo scostamento si **dichiara nel rapporto** e si procede |
+| supera le **40 note di contenuto** | si spezza **sempre**, qualunque cosa dica il budget |
+
+⚠️ **Perché la soglia è doppia, e perché quella percentuale da sola non proteggeva niente.**
+E21 misurava uno **scostamento relativo da una stima**; il rischio che la regola esiste per
+contenere è il **carico di revisione**, che si misura in **note assolute**. Le stime della
+matrice sono ferme alla densità del pilota — **2,1 note per grezzo** — contro il **9,5**
+misurato in 1B: con quelle stime la soglia percentuale scatta a ogni lotto, e **una regola che
+scatta sempre smette di proteggere**, perché la si comincia a scavalcare per prassi.
+
+I tre numeri della tabella non sono scelti a mente: **il pilota ha portato a termine 46 note
+in una sessione che costruiva anche la suite QA; il lotto 1A ne ha fatte 42; il lotto 1B 38,
+e sono servite quattro giri di giudizio** (§9.5, E26). È 1B a fissare il tetto: sotto le
+quaranta il ciclo di revisione regge, sopra comincia a rigenerare rilievi invece di
+esaurirli.
 
 Nasce da un caso pagato: il lotto 1 delle Sessioni 4-5 ha proiettato **~62 note contro un
 budget di 26-36** perché quattro dei suoi tredici documenti erano multi-fatto — un quaderno
@@ -2083,7 +2104,7 @@ significherebbe misurare un archivio che contiene già tutte le risposte.
     calcolata: l'estrattore la legge `None`.
 12. Non far passare un'inferenza per un dato della fonte. L'attribuzione di una battuta
     a un nome, in una trascrizione con «parlanti non verificati», è un'inferenza.
-12-bis. **Non dichiarare un'ASSENZA senza averla cercata su tutto `sources\`.** Scrivere
+12-bis. **Non dichiarare un'ASSENZA senza averla cercata su tutto `sources\`** (E3). Scrivere
     «nessun grezzo dice X» è affermare un fatto, e va verificato come un fatto: con una
     ricerca sull'intera cartella, non sui documenti dove ci si aspettava di trovarlo.
     L'assenza verificata si **data e si riferisce al manifest**, così quando arriverà il

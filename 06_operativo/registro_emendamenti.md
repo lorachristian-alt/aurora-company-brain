@@ -1,6 +1,6 @@
 # Registro degli emendamenti a `metodo_03`
 
-> **Cos'è** · L'indice genealogico dei 27 emendamenti al manuale di canonizzazione: chi li
+> **Cos'è** · L'indice genealogico dei 28 emendamenti al manuale di canonizzazione: chi li
 > ha approvati, quando, e dove vive oggi la regola. **È un indice, non una copia.**
 > **Cosa NON contiene** · Il testo delle regole. Quello vive in
 > `01_metodo\metodo_03_canonizzazione.md`, che ne resta l'unico padrone: qui c'è l'oggetto
@@ -26,14 +26,14 @@
 Sezioni e presenza dei marcatori sono verificate contro `metodo_03` da
 `06_operativo\verifica_emendamenti.py`, non a occhio.
 
-## I 27 emendamenti
+## I 28 emendamenti
 
 | # | Data | Dove nasce | Tipo | Oggetto, in una riga | Vive in | Marc. | Il perché |
 |---|---|---|---|---|---|---|---|
 | **E1** | 17/08/2026 | gate S2 | regola nuova | `fonti` facoltativo per le note-strumento del progetto | §2.4 | sì | `rapporto_gate_s2.md` §9 · decision log 17/08 |
 | **E2** | 17/08/2026 | gate S2 | regola nuova | riconciliazione incrociata dei numeri fra le fonti del lotto | §5.1-bis | sì | `rapporto_gate_s2.md` §9 |
-| **E3** | 17/08/2026 | gate S2 | regola nuova | mai dichiarare un'assenza senza averla cercata su tutto `sources\` | §10, divieto 12-bis | no | `rapporto_gate_s2.md` §9 |
-| **E4** | 17/08/2026 | gate S2 | refuso | la grammatica `.xlsx` ammette `riga <n>` **e** `righe <n>-<m>` | §2.3 | no | `rapporto_gate_s2.md` §9 |
+| **E3** | 17/08/2026 | gate S2 | regola nuova | mai dichiarare un'assenza senza averla cercata su tutto `sources\` | §10, divieto 12-bis | sì | `rapporto_gate_s2.md` §9 |
+| **E4** | 17/08/2026 | gate S2 | refuso | la grammatica `.xlsx` ammette `riga <n>` **e** `righe <n>-<m>` | §2.3 | no (refuso) | `rapporto_gate_s2.md` §9 |
 | **E5** | 17/08/2026 | gate S2 | chiarimento | il locator è un prefisso della riga, non la riga intera | §2.3 | sì | `rapporto_gate_s2.md` §9 |
 | **E6** | 17/08/2026 | gate S2 | regola nuova | verifica testuale solo per le citazioni di almeno cinque parole | §2.3 · §7.1 | sì | `rapporto_gate_s2.md` §9 |
 | **E7** | 17/08/2026 | gate S2 | regola nuova | anche i valori **contati** si dichiarano, non solo quelli sommati | §5.4 · §7.1 | sì | `rapporto_gate_s2.md` §9 |
@@ -44,21 +44,22 @@ Sezioni e presenza dei marcatori sono verificate contro `metodo_03` da
 | **E12** | 17/08/2026 | gate S2 | chiarimento | il minimo di due wikilink conta anche quelli di `related` | §4.4 · §7.2 | sì | `rapporto_gate_s2.md` §9 |
 | **E13** | 17/08/2026 | gate S2 | chiarimento | in perimetro di lotto, copertura `_index` e componente unica solo sulle cartelle toccate | §7 | sì | `rapporto_gate_s2.md` §9 |
 | **E14** | 17/08/2026 | gate S2 | refuso | la coerenza interna si controlla dopo aver rimosso gli orari | §7.1 | sì | `rapporto_gate_s2.md` §9 |
-| **E15** | 17/08/2026 | gate S2 | refuso | l'esempio compilato di §3.1 non corrispondeva al file: 49 `ALARM`, non 50 | §3.1 | no | `rapporto_gate_s2.md` §9 |
-| **E16** | 17/08/2026 | gate S2 | refuso | il locator dell'esempio `concetto-fefo` era fuori dalla grammatica `.csv` | §3.5 | no | `rapporto_gate_s2.md` §9 |
+| **E15** | 17/08/2026 | gate S2 | refuso | l'esempio compilato di §3.1 non corrispondeva al file: 49 `ALARM`, non 50 | §3.1 | no (refuso) | `rapporto_gate_s2.md` §9 |
+| **E16** | 17/08/2026 | gate S2 | refuso | il locator dell'esempio `concetto-fefo` era fuori dalla grammatica `.csv` | §3.5 | no (refuso) | `rapporto_gate_s2.md` §9 |
 | **E17** | 17/08/2026 | gate S2 | chiarimento | il budget di un lotto si misura sulle **note di contenuto** | §9.4 | sì | `rapporto_gate_s2.md` §9 |
-| **E18** | 17/08/2026 | gate S2 · ⚠️ **fuori dalla tabella del rapporto** | regola nuova | se una nota stabilisce una regola decisionale, il `summary` la enuncia | §2.1 | sì | decision log 17/08 — origine: la riserva del giudice su Q237 |
-| **E19** | 17/08/2026 | gate S2 · ⚠️ **fuori dalla tabella del rapporto** | refuso | il piè di pagina di un `.log` non era puntabile: `§piè di pagina`, `§intestazione` | §2.3 | sì | decision log 17/08 |
+| **E18** | 17/08/2026 | gate S2 · ⚠️ nato **durante** il gate, a rapporto già scritto | regola nuova | se una nota stabilisce una regola decisionale, il `summary` la enuncia | §2.1 | sì | decision log 17/08 — origine: la riserva del giudice su Q237 |
+| **E19** | 17/08/2026 | gate S2 · ⚠️ nato **durante** il gate, a rapporto già scritto | refuso | il piè di pagina di un `.log` non era puntabile: `§piè di pagina`, `§intestazione` | §2.3 | sì | decision log 17/08 |
 | **E20** | 18/08/2026 | gate della matrice | regola nuova | le note-strumento fuori dalla componente unica; l'esenzione è della **classe** | §2.4 · §7.0 · §7.2 | sì | `rapporto_lotto_1a.md` §13 · decision log 18/08 |
-| **E21** | 18/08/2026 | gate del lotto 1A | regola nuova | il budget si controlla **prima** di scrivere; oltre il +25 % il lotto si spezza | §9.4 | sì | `rapporto_lotto_1a.md` §13 |
+| **E21** | 18/08/2026 | gate del lotto 1A | regola nuova | il budget si controlla **prima** di scrivere; la soglia di spezzamento è **corretta da E28** | §9.4 | sì | `rapporto_lotto_1a.md` §13 |
 | **E22** | 18/08/2026 | gate del lotto 1A | chiarimento | la data di verifica di un'assenza rimanda a `data_nota`, non si riscrive nel corpo | §10, divieto 12-bis | sì | `rapporto_lotto_1a.md` §13 |
 | **E23** | 18/08/2026 | gate del lotto 1A | chiarimento | il marcatore di un valore derivato va **accanto al numero**, entro sessanta caratteri | §5.4 · §7.1 | sì | `rapporto_lotto_1a.md` §13 |
 | **E24** | 18/08/2026 | gate del lotto 1A | chiarimento | date e orari si riportano nella grafia della fonte | §10, divieto 4-bis | sì | `rapporto_lotto_1a.md` §13 |
 | **E25** | 18/08/2026 | gate del lotto 1A | regola nuova | non si anticipa una divergenza di cui una sola gamba è canonizzata | §10, divieto 9-bis | sì | `rapporto_lotto_1a.md` §13 |
-| **E26** | 19/08/2026 | gate del lotto 1B · ⚠️ **nessuna tabella di registro in quel gate** | regola nuova | regola d'arresto del ri-giudizio: zero rilievi accolti, e comunque il terzo giro col pattern nominato | §9.5, passo 5 | sì | `rapporto_lotto_1b.md` appendice A |
+| **E26** | 19/08/2026 | gate del lotto 1B | regola nuova | regola d'arresto del ri-giudizio: zero rilievi accolti, e comunque il terzo giro col pattern nominato | §9.5, passo 5 | sì | `rapporto_lotto_1b.md` appendice A |
 | **E27** | 19/08/2026 | ⚠️ **FUORI da un gate — ordine diretto del coordinatore** | regola nuova | l'aggiornamento del passaggio di consegne è il **quinto gesto** del rituale di chiusura | §9.5, passo 8 | sì | decision log 19/08 · principio 5 della scaletta |
+| **E28** | 19/08/2026 | ⚠️ **FUORI da un gate — ordine diretto del coordinatore**, in apertura del lotto 1C | chiarimento | **corregge la soglia di E21**: si spezza se la proiezione supera il +25 % **e** le 30 note; sotto le 30 si dichiara e si procede; oltre le 40 si spezza sempre | §9.4 | sì | decision log 19/08 · rapporto del lotto 1C |
 
-## Le tre anomalie di genealogia, dette per nome
+## Le anomalie di genealogia, dette per nome
 
 1. **E18 ed E19 non sono nella tabella del rapporto S2** perché sono nati *durante* il
    gate, dopo che il rapporto era stato scritto: il decision log del 17/08 ne conta
@@ -67,10 +68,26 @@ Sezioni e presenza dei marcatori sono verificate contro `metodo_03` da
 2. **E26 non ha una riga di registro** da nessuna parte: il rapporto del lotto 1B lo cita
    nell'appendice A come obbligo già approvato, ma quel gate non ha prodotto una tabella
    di emendamenti come avevano fatto S2 e 1A.
-3. **E27 è nato fuori da un gate**, su ordine diretto del coordinatore del 19/08/2026, ed
-   è approvato a pieno titolo. La convenzione del progetto è **«gli emendamenti li approva
-   il coordinatore»**, non «solo ai gate»: sta scritto qui perché fra un anno un numero
-   senza gate accanto non sembri un numero senza padre.
+3. **E27 ed E28 sono nati fuori da un gate**, su ordine diretto del coordinatore del
+   19/08/2026, e sono approvati a pieno titolo. La convenzione del progetto è **«gli
+   emendamenti li approva il coordinatore»**, non «solo ai gate»: sta scritto qui perché fra
+   un anno un numero senza gate accanto non sembri un numero senza padre.
+4. **Tre emendamenti non hanno marcatore inline, e non è un disallineamento: sono i refusi**
+   (E4, E15, E16). Un refuso **corregge un testo sbagliato**, non introduce una regola da
+   ricordare, e il marcatore `(Enn)` serve a chi rilegge per capire *perché* una regola è
+   scritta così. La colonna «Marc.» li segna `no (refuso)`, e `verifica_emendamenti.py`
+   **pretende che ogni emendamento senza marcatore sia un refuso**: una **regola nuova** o un
+   **chiarimento** senza marcatore sarebbe invece un difetto vero.
+   ⚠️ Il controllo vale in **una direzione sola**, ed è deliberato: **E14 ed E19 sono refusi e
+   il marcatore ce l'hanno**, perché correggono un passaggio che senza spiegazione tornerebbe
+   a sembrare sbagliato. Pretendere che nessun refuso lo porti farebbe fallire il controllo su
+   due emendamenti corretti.
+5. **E3 era senza marcatore e non è un refuso: il marcatore gliel'ha dato questo controllo**
+   (19/08/2026). Nell'elenco iniziale sembrava il quarto dei refusi; è invece una **regola
+   nuova** — il divieto di dichiarare un'assenza senza averla cercata — e §10.12-bis la
+   portava senza sigla, pur portando quella di E22, che di quel divieto è solo il chiarimento
+   sulla data. Non è un marcatore posticcio: è la stessa ratio che esenta i refusi, applicata
+   nell'altro verso. **È il primo difetto che il registro ha trovato invece di documentare.**
 
 ## Regola di manutenzione
 

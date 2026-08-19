@@ -88,8 +88,8 @@ coerente.
 4. **Le note non traslocano mai.** L'area si assegna sull'area che governa i fatti OGGI,
    non su un assetto futuro. Un hub d'area non nasce vuoto per comodità di archiviazione.
 5. **Si spezza lungo le cuciture, mai attraverso le storie.** Un lotto si divide dove non
-   si rompe una riconciliazione (E21: fatti contati prima di scrivere, oltre +25% si
-   spezza).
+   si rompe una riconciliazione (E21: fatti contati prima di scrivere; la soglia è quella
+   di E28, vedi 20).
 6. **Il budget non comanda sul contenuto.** Un budget rispettato tagliando fatti è peggio
    di uno sforato e dichiarato.
 7. **Una divergenza con una sola gamba canonizzata non si scrive in nessuna nota** (E25):
@@ -134,6 +134,15 @@ coerente.
     ⚠️ Vale per i **registri**; i documenti-fotografia — la §3 di questo file, `STATO`, i
     conteggi — si **riscrivono**, ed è la ragione per cui le due specie non convivono nello
     stesso file.
+20. **Una soglia si mette sulla grandezza che il rischio consuma, non su una stima** (E28,
+    19/08/2026). E21 spezzava un lotto sullo **scostamento percentuale** da un budget
+    preventivato; ma ciò che il rischio consuma è il **carico di revisione**, e quello si
+    misura in **note assolute**. Con le stime della matrice ferme a 2,1 note per grezzo e la
+    densità misurata a 9,5, quella soglia sarebbe scattata a ogni lotto: **una regola che
+    scatta sempre viene scavalcata per prassi, e allora non protegge più niente.** Ora si
+    spezza sopra il +25 % **e** sopra le 30 note, sempre sopra le 40. ⚠️ Il criterio
+    generale, che vale oltre questo caso: **quando una soglia scatta sempre, il difetto è
+    nella grandezza che misura, non nel lavoro che segnala.**
 
 ---
 
