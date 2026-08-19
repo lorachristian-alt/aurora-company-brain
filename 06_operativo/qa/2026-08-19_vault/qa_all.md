@@ -6,14 +6,14 @@
 
 | Controllo | Codice di uscita |
 |---|---|
-| `qa_frontmatter.py` | 1 |
+| `qa_frontmatter.py` | 2 |
 | `qa_link_integrity.py` | 2 |
 | `qa_provenance.py` | 2 |
 | `qa_copertura.py` | 1 |
 
 ## Riga di riepilogo per lo stato di sessione
 
-> suite QA · perimetro vault · **131 ERRORI, 76 AVVISI** · esito **ROSSO**
+> suite QA · perimetro vault · **130 ERRORI, 77 AVVISI** · esito **ROSSO**
 
 ---
 
@@ -49,14 +49,8 @@
 ---
 ## qa_frontmatter (perimetro: vault, 145 note)
 
-- ERRORI: **1**
-- AVVISI: **27**
-
-### Errori
-
-| Nota | Riga | Controllo | Rilievo |
-|---|---|---|---|
-| `fatto-obblighi-registro-f-gas.md` |  | frontmatter | corpo di 359 parole: oltre il tetto di 350, la nota va divisa |
+- ERRORI: **0**
+- AVVISI: **28**
 
 ### Avvisi
 
@@ -74,6 +68,7 @@
 | `fatto-muffe-l26128-45-giorni.md` |  | frontmatter | corpo di 319 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-nc-102-origine-interna.md` |  | frontmatter | summary di 258 caratteri (tetto 250) |
 | `fatto-nc-102-origine-interna.md` |  | frontmatter | corpo di 324 parole: fra 301 e 350, si motiva o si spezza |
+| `fatto-obblighi-registro-f-gas.md` |  | frontmatter | corpo di 341 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-piano-produzione-sett19-21.md` |  | frontmatter | corpo di 331 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-repliche-shelf-life-l26130-divergenti.md` |  | frontmatter | corpo di 331 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-riepilogo-datalogger-inaffidabile.md` |  | frontmatter | corpo di 314 parole: fra 301 e 350, si motiva o si spezza |
