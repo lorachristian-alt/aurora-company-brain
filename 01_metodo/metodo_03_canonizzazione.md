@@ -1547,6 +1547,18 @@ nel lotto 1C due note estese hanno introdotto **una data senza fonte e una nota 
 parole**, e la QA di lotto non le ha viste — le ha prese la QA a perimetro vault, che non si
 lancia a ogni lotto. Un controllo che non copre ciò che il lotto ha toccato non è un controllo.
 
+⚠️ **Il perimetro di MANUTENZIONE: zero grezzi, N note** (E35). Un lotto di manutenzione
+(§9.4-bis) non canonizza grezzi nuovi: ripara note già scritte. Il suo elenco dei grezzi porta
+in testa `# MANUTENZIONE` e non ha righe utili, e **il perimetro vero è
+`qa\lotti\<lotto>_note.txt`**.
+
+**La suite accetta zero grezzi SOLO SE l'elenco delle note esiste e non è vuoto**, e il report
+lo dichiara in chiaro: «perimetro di manutenzione: 0 grezzi, N note». È una **GUARDIA**, e va
+scritta: **un perimetro vuoto per errore di battitura deve restare un errore**, altrimenti la
+via più rapida per una QA verde diventa cancellare l'elenco. ⚠️ **Non è una deroga che allenta
+un controllo: è una modalità dichiarata che lo ESTENDE** a un oggetto — la nota già scritta,
+senza grezzo nuovo che la citi — che prima non poteva essere controllato affatto.
+
 ### 7.0 Cosa resta fuori dai conteggi di qualità
 
 `tassonomia_vault.md` (riga `workspace`) dichiara `workspace\` e `sources\` **«esclusi
@@ -2026,6 +2038,32 @@ note e 36 lotti — un artefatto, prodotto moltiplicando una grandezza instabile
 poggia su **quattro osservazioni**, tre delle quali su lotti piccolissimi: è la miglior stima
 disponibile, non una costante del metodo.
 
+### 9.4-bis Il lotto di manutenzione (E35)
+
+Esiste una **seconda specie di lotto**: quella che **non canonizza grezzi nuovi ma ripara note
+già scritte**, quando un gate scopre un **difetto di classe** che le attraversa. Il primo è
+**R1**, la riconciliazione verticale, aperto dal gate del lotto 1C — undici note discutevano
+CCP e tarature senza il manuale HACCP, e in quattro casi il manuale conteneva esattamente ciò
+che la nota dichiarava mancante (E29). Il ciclo di §9.5 vale identico; quello che cambia è qui
+sotto.
+
+- **Perimetro di SOLE NOTE.** L'elenco dei grezzi è vuoto e porta in testa `# MANUTENZIONE`;
+  le note stanno in `qa\lotti\<lotto>_note.txt`, che è **il perimetro vero**. La guardia che
+  rende questa modalità un controllo e non un buco sta in **§7**: zero grezzi si accettano solo
+  con l'elenco delle note esistente e non vuoto, e il report lo dichiara in chiaro.
+- **L'elenco delle note lo genera uno SCRIPT, mai la memoria**, e **il criterio con cui lo
+  genera si scrive nel rapporto**. Un perimetro composto a memoria si restringe da sé, e si
+  restringe proprio sulle note che hanno più probabilità di essere sfuggite: sono le stesse che
+  sono sfuggite la prima volta.
+- **Niente capacità 25-35** (E31): un lotto di manutenzione **non punta a produrre note**, e
+  misurarlo col metro della produzione lo spingerebbe a scriverne per riempire la fascia. Se
+  una correzione fa emergere un fatto senza padrone la nota si scrive, e **sopra le 30 note
+  nuove valgono le soglie di E28** come per tutti.
+- **Il rapporto dichiara TRE numeri**: note **guardate**, note **corrette**, **tasso di
+  difetto**. È il terzo a decidere se il ripasso va rifatto a fine corsa o se la regola nuova in
+  vigore basta — e senza il denominatore non è un tasso, è un aneddoto.
+- **Vale come UN lotto** nel conteggio del ritmo.
+
 ### 9.5 Il ciclo di un lotto, senza scorciatoie
 
 ```
@@ -2091,6 +2129,20 @@ note → suite QA → revisore indipendente → correzioni propagate → suite Q
    1 rilievi accolti) prima che qualcuno si chiedesse che cosa li stesse rigenerando. Quel
    lotto è sanato ex post — il suo rapporto nomina il pattern — e da qui in poi il pattern si
    nomina al terzo giro, non al quarto.
+
+5-bis. **NOTA-SESSIONE nel journal** (`workspace\`), **e solo DOPO di essa il blocco dei
+   conteggi di `conta_stato.py`** (E34). Quel blocco è **l'ultimo numero che si produce prima
+   del commit**: è lui che si incolla nello stato (passo 6) e nel rapporto di lotto.
+
+   ⚠️ **Perché l'ordine conta, e non è pedanteria di rituale.** La nota di diario **è essa
+   stessa una nota del vault**: generato prima, il blocco **fotografa un vault che già non
+   esiste più**. Nasce da un caso pagato del lotto 1C — il blocco incollato nello stato e nel
+   rapporto dichiara **172 note** (workspace 5, sessione 2), mentre `qa_all.py` dello **stesso
+   giorno** ne conta **173** (workspace 6, sessione 3), e la differenza è esattamente la nota di
+   diario del lotto. Le note di contenuto restano **153** in entrambi, quindi nessuna decisione
+   è stata presa su un numero sbagliato; ma **uno strumento nato per finire le sviste di
+   conteggio, generato nel punto sbagliato del rituale, è peggio di nessuno strumento**, perché
+   dà l'autorità dello script a un numero vecchio.
 6. **Stato su disco** (`06_operativo\stato_canonizzazione.md`): lotto chiuso, note
    prodotte, esito QA, avvisi motivati, cosa resta.
 7. **Voce nel decision log** (`06_operativo\decision_log.md`): ogni scelta di design

@@ -1,6 +1,6 @@
 # Registro degli emendamenti a `metodo_03`
 
-> **Cos'è** · L'indice genealogico dei 33 emendamenti al manuale di canonizzazione: chi li
+> **Cos'è** · L'indice genealogico dei 35 emendamenti al manuale di canonizzazione: chi li
 > ha approvati, quando, e dove vive oggi la regola. **È un indice, non una copia.**
 > **Cosa NON contiene** · Il testo delle regole. Quello vive in
 > `01_metodo\metodo_03_canonizzazione.md`, che ne resta l'unico padrone: qui c'è l'oggetto
@@ -26,7 +26,7 @@
 Sezioni e presenza dei marcatori sono verificate contro `metodo_03` da
 `06_operativo\verifica_emendamenti.py`, non a occhio.
 
-## I 33 emendamenti
+## I 35 emendamenti
 
 | # | Data | Dove nasce | Tipo | Oggetto, in una riga | Vive in | Marc. | Il perché |
 |---|---|---|---|---|---|---|---|
@@ -63,6 +63,8 @@ Sezioni e presenza dei marcatori sono verificate contro `metodo_03` da
 | **E31** | 19/08/2026 | gate del lotto 1C | regola nuova | il budget di lotto è una **capacità** (25-35 note di contenuto), non una stima da densità; la fascia è **provvisoria**, da rivedere a dieci lotti chiusi | §9.4 | sì | `rapporto_lotto_1c.md` §9 — la densità varia del 147 %, le note per lotto del 50 % |
 | **E32** | 19/08/2026 | gate del lotto 1C | regola nuova | il perimetro di lotto comprende anche le note che il lotto ha **modificato**, dichiarate in `qa\lotti\<lotto>_note.txt` | §7 | sì | decision log 19/08 — due difetti passati indenni alla QA di lotto in 1C |
 | **E33** | 19/08/2026 | gate del lotto 1C | chiarimento | il pacchetto per lo strato di giudizio si genera **dopo** le correzioni pre-giudizio | §9.5, passo 2 | sì | decision log 19/08 — due rilievi su dodici, al primo giro di 1C, su testo che non esisteva più |
+| **E34** | 19/08/2026 | ⚠️ **FUORI da un gate — ordine diretto del coordinatore** | regola nuova | il ciclo di chiusura acquista la **nota-sessione** nel journal di `workspace\`, e il blocco dei conteggi di `conta_stato.py` si genera **dopo** di essa, ultimo numero prima del commit | §9.5, passo 5-bis | sì | decision log 19/08 · prompt della manutenzione R1 — il blocco del lotto 1C dichiara 172 note, `qa_all.py` dello stesso giorno 173: la differenza è la nota di diario, scritta dopo il conteggio |
+| **E35** | 19/08/2026 | ⚠️ **FUORI da un gate — ordine diretto del coordinatore** | regola nuova | esiste il **LOTTO DI MANUTENZIONE**: ripara note già scritte invece di canonizzare grezzi nuovi — perimetro di sole note con la guardia sullo zero grezzi, elenco generato da script, niente capacità 25-35, tre numeri nel rapporto | §7 · §9.4-bis | sì | decision log 19/08 · prompt della manutenzione R1 — il gate del lotto 1C apre R1, la riconciliazione verticale, che è il primo lotto di questa specie |
 
 ## Le anomalie di genealogia, dette per nome
 
@@ -73,8 +75,11 @@ Sezioni e presenza dei marcatori sono verificate contro `metodo_03` da
 2. **E26 non ha una riga di registro** da nessuna parte: il rapporto del lotto 1B lo cita
    nell'appendice A come obbligo già approvato, ma quel gate non ha prodotto una tabella
    di emendamenti come avevano fatto S2 e 1A.
-3. **E27 ed E28 sono nati fuori da un gate**, su ordine diretto del coordinatore del
-   19/08/2026, e sono approvati a pieno titolo. ⚠️ **E29-E33 invece sono del gate del lotto
+3. **E27, E28, E34 ed E35 sono nati fuori da un gate**, su ordine diretto del coordinatore
+   del 19/08/2026, e sono approvati a pieno titolo. ⚠️ E34 ed E35 arrivano per una via ancora
+   diversa: sono stati **dettati nel prompt della sessione di manutenzione**, cioè
+   nell'artefatto che istruisce la sessione (§4.27 del passaggio di consegne), e la sessione li
+   ha applicati come primo adempimento — non li ha decisi. ⚠️ **E29-E33 invece sono del gate del lotto
    1C**, lo stesso giorno: la vicinanza di data non li rende la stessa cosa, e la colonna
    «dove nasce» è l'unico posto in cui la differenza resta scritta. La convenzione del progetto è **«gli
    emendamenti li approva il coordinatore»**, non «solo ai gate»: sta scritto qui perché fra

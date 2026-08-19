@@ -425,9 +425,43 @@ def leggi_perimetro(args):
             if per_convenzione and os.path.isfile(per_convenzione):
                 args.note_toccate = per_convenzione
     if not voci:
-        print("--perimetro lotto richiede l'elenco dei grezzi del lotto")
-        sys.exit(1)
+        # E35 - PERIMETRO DI MANUTENZIONE: zero grezzi si accettano SOLO se l'elenco delle
+        # note esiste e non e' vuoto. E' una GUARDIA, non una deroga: un perimetro vuoto
+        # per errore di battitura deve restare un errore, altrimenti la via piu' rapida per
+        # una QA verde diventa cancellare l'elenco. La modalita' non allenta un controllo:
+        # lo ESTENDE alla nota gia' scritta, che nessun elenco di grezzi puo' raggiungere.
+        toccate = note_toccate(args)          # esce da se' se il file dichiarato non esiste
+        if not toccate:
+            print("--perimetro lotto richiede l'elenco dei grezzi del lotto.")
+            print("Per un LOTTO DI MANUTENZIONE (E35, metodo_03 §9.4-bis) l'elenco dei grezzi")
+            print("puo' essere vuoto con `# MANUTENZIONE` in testa, ma allora l'elenco delle")
+            print("note deve esistere e NON essere vuoto: `<lotto>_note.txt` accanto")
+            print("all'elenco, oppure passato con --note-toccate.")
+            sys.exit(1)
+        args.manutenzione = len(toccate)
+        print("perimetro di manutenzione: 0 grezzi, %d note (E35)" % args.manutenzione)
+        return "lotto", set()
     return "lotto", set(voci)
+
+
+def nome_lotto_da_perimetro(perimetro):
+    """FIX 4 - l'etichetta del lotto ricavata dall'elenco, quando --lotto non e' passato.
+
+    Il report del lotto 1C portava in intestazione «lotto l26130» perche' nel run finale
+    --lotto non era stato passato e aveva vinto il default: il documento che prova la QA di
+    un lotto portava il nome di un altro lotto, e al gate finale quei report sono la prova.
+    Aggiunge un'informazione corretta e non ne toglie nessuna: se --lotto e' passato, vince
+    lui; se il perimetro non e' un `@elenco.txt`, resta il default del chiamante.
+    """
+    if not perimetro or perimetro[0].lower() != "lotto":
+        return None
+    voci = perimetro[1:]
+    if len(voci) != 1 or not voci[0].startswith("@"):
+        return None
+    base = voci[0][1:].replace("\\", "/").rsplit("/", 1)[-1]
+    if base.lower().endswith(".txt"):
+        base = base[:-4]
+    return base or None
 
 
 def note_toccate(args):
