@@ -40,9 +40,11 @@ La frase da ricordare: **l'archivio non è il prodotto — è lo strumento di mi
   workspace (`editor.formatOnSave`, `files.trimTrailingWhitespace`,
   `files.insertFinalNewline` a false) e mai salvare dall'editor i file di
   `02_corpus/` o dei verbali di misura: un trim di spazi rompe gli hash del manifest.
-- Ogni sessione chiude con QUATTRO gesti: stato aggiornato, voce nel
-  `06_operativo/decision_log.md`, commit git e `git push` (il remote resta
-  allineato: un commit solo locale non protegge da niente).
+- Ogni sessione chiude con CINQUE gesti: stato aggiornato, voce nel
+  `06_operativo/decision_log.md`, `06_operativo/passaggio_di_consegne_coordinatore.md`
+  aggiornato (§8 di quel file: la §3 sempre, il resto se c'è giurisprudenza nuova),
+  commit git e `git push` (il remote resta allineato: un commit solo locale non
+  protegge da niente).
 
 Il piano delle sessioni, con l'ordine e gli stop-loss, sta in
 `06_operativo/scaletta_end_to_end.md`. **È il primo file da riaprire dopo una pausa.**
@@ -117,7 +119,8 @@ dell'archivio, i bug dello strumento inclusi; `predizioni.md` va scritto e commi
    sempre una sessione diversa da chi ha risposto.
 4. I prompt congelati si copiano alla lettera: si adattano solo i percorsi.
 5. Nessun numero dichiarato senza uno script che l'ha ricontato.
-6. Ogni sessione chiude con stato + decision log + commit + push.
+6. Ogni sessione chiude con stato + decision log + passaggio di consegne + commit +
+   push.
 
 ---
 

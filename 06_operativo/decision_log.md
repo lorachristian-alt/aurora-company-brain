@@ -605,4 +605,68 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   altrove — sette respinte su nove. Taratura suggerita al gate finale, **non applicata**: dare al
   giudice l'elenco delle note del lotto coi loro `summary`. La classificazione una per una sta
   nell'appendice B del rapporto di lotto, come chiesto dal coordinatore.
-
+- **2026-08-19** · Coordinatore · **Il rituale di chiusura passa da QUATTRO a CINQUE gesti:
+  l'aggiornamento del passaggio di consegne entra nella FONTE, non solo nel prompt dei lotti**
+  (E27) · l'obbligo esisteva già dal 19/08/2026, ma viveva in due soli posti: la §8 di
+  `passaggio_di_consegne_coordinatore.md` (che dice *come* si scrive) e il §5 di
+  `prompt/prompt_s4_lotti.txt`, cioè **un documento derivato e monouso**. ⚠️ **Un rituale scritto
+  solo in un derivato prima o poi diverge dal rituale vero**: basta una sessione lanciata con un
+  prompt diverso — S6, S7, o qualunque cosa non sia un lotto — e il gesto sparisce senza che
+  nessuno se ne accorga, perché nessuna fonte lo reclama. Ora il **quando** ha i suoi padroni:
+  **principio 5 della scaletta** (sorgente) e **`metodo_03` §9.5, nuovo passo 8** (E27), dove il
+  commit slitta a 9 e il diagramma del ciclo diventa `stato → decision log → passaggio di
+  consegne → commit`. La §8 del passaggio di consegne resta il padrone del **come**, e ora cita
+  i due sorgenti. **Condizionalità fissata nel testo**, perché il gesto non diventi teatro: la
+  §3 «dove siamo» si riscrive **sempre**, coi numeri incollati da `conta_stato.py`; §4, §5 e §6
+  prendono una riga datata **solo se** la sessione ha fissato un criterio nuovo, versionato uno
+  strumento, ratificato una prassi o pagato un errore nuovo. **Propagato alle tre copie derivate
+  nello stesso turno** — regola d'oro 6 in `00_INIZIA_QUI.md` (e il suo elenco di igiene),
+  `06_operativo/LEGGIMI.md`, §1 del passaggio di consegne: la voce del 15/08/2026 che istituì i
+  quattro gesti resta a registro come storia, e questa la sostituisce. ⚠️ **Non toccati
+  `prompt_s2_pilota.txt` e `prompt_s3_config_c.txt`**, che nominano ancora i quattro gesti: sono
+  il verbale di ciò che quelle sessioni hanno davvero eseguito, e riscriverli falsificherebbe la
+  storia del repo — se S2 o S3 si rieseguissero, il prompt si riallinea allora.
+- **2026-08-19** · Coordinatore · **E27 approvato, e il numero resta: gli emendamenti li approva
+  il COORDINATORE, non il gate** · avevo proposto di rinominarlo se la convenzione fosse stata
+  «solo ai gate». Non lo è: il gate è l'occasione tipica, non la condizione. ⚠️ **E27 è però il
+  primo emendamento nato FUORI da un gate**, su ordine diretto, e la cosa va detta o fra un anno
+  un numero senza gate accanto sembra un numero senza padre. Da qui il **registro degli
+  emendamenti** (`06_operativo/registro_emendamenti.md`): un **indice genealogico** dei 27 —
+  numero, data, occasione, tipo, oggetto in una riga, sezione di `metodo_03`, dove sta il perché.
+  **Non contiene il testo delle regole**, che resta di `metodo_03`: un registro che ricopia le
+  regole è la prossima divergenza. **Tre buchi che l'indice ha fatto emergere**, e nessuno era
+  noto: **E18 ed E19** non stanno nella tabella §9 del rapporto S2 (sono nati durante il gate,
+  a rapporto già scritto — il decision log ne conta «diciannove», la tabella diciassette);
+  **E26** non ha riga di registro da nessuna parte, perché il gate 1B non ha prodotto una tabella
+  di emendamenti come S2 e 1A; **quattro emendamenti sono applicati senza marcatore inline**
+  (E3, E4, E15, E16), e sono i refusi, che non lasciano cicatrice. Puntatori e marcatori sono
+  verificati da script (`verifica_emendamenti.py`), non a occhio: 27 righe, 23 marcatori, verde.
+- **2026-08-19** · Coordinatore · **Le due astensioni del turno diventano giurisprudenza: §4.18 e
+  §4.19 del passaggio di consegne** · non erano scelte di giornata, e registrarle come tali le
+  avrebbe fatte ridiscutere al primo caso simile. **(18) Un prompt già eseguito è un verbale, non
+  uno strumento vivo:** documenta ciò che quella sessione ha fatto e non si riallinea alle regole
+  venute dopo — si data. È la stessa regola del verbale di misura chiuso (§4.11) e della
+  testimonianza del giudice (§4.10), estesa ai prompt. **I prompt ancora in uso sono strumenti
+  vivi e si emendano**, ed è la riga che tiene separati `prompt_s2_pilota.txt` e
+  `prompt_s3_config_c.txt` — che restano ai quattro gesti — da `prompt_s4_lotti.txt`, che gira
+  ancora e porta i cinque. **(19) Una voce di decision log si sostituisce, non si cancella:** il
+  registro è cronologia, non fotografia. ⚠️ Il corollario che rende la regola utilizzabile: vale
+  per i **registri**, mentre i documenti-**fotografia** — la §3 del passaggio di consegne,
+  `STATO`, i conteggi — si riscrivono. È la ragione per cui le due specie non convivono nello
+  stesso file.
+- **2026-08-19** · Coordinatore · **Titolarità del rituale fissata nella §8 del passaggio di
+  consegne, e §7-bis «Protocollo di risposta del coordinatore»** · la §8 ora dice per iscritto
+  che **il QUANDO del quinto gesto è di P5 e di `metodo_03` §9.5 passo 8, il COME è suo**, e che
+  **il passaggio di consegne non è una terza fonte del rituale: è il manuale d'uso di sé stesso**.
+  Serviva perché un file che prescrive un obbligo tende a diventare, col tempo, la fonte di
+  quell'obbligo. La **§7-bis** raccoglie il protocollo del coordinatore, che finora viveva a metà
+  nella §7 e a metà nella pratica: si delibera **sul pacchetto completo dei pannelli**, si legge
+  **il documento vero sul disco** prima di approvare un gate (due errori del progetto trovati
+  così), si ricontrollano **i numeri che non tornano** (due volte, due errori veri); la risposta
+  ha tre parti ed è **un prompt esteso, non un ordine secco**, perché chi opera deve capire il
+  perché per decidere nei casi non previsti; **ogni istruzione è classificata una tantum o
+  permanente**, e se una cosa va ripetuta a ogni lotto si emenda **il prompt riutilizzabile**,
+  non la si ripete. ⚠️ Quest'ultima riga è la stessa malattia che E27 ha curato. Perimetro:
+  il coordinatore non tocca il vault, non apre `03_valutazione\`, non scrive nel repository
+  mentre una sessione gira, e **verifica il push da sé** invece di fidarsi del rapporto. La §7
+  è stata sfoltita a puntatore: il protocollo ha un padrone solo.

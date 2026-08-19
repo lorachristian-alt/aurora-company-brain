@@ -21,8 +21,9 @@
 - Il titolare (Christian) fa da ponte: incolla i prompt nel terminale e riporta in chat
   ciò che il terminale risponde. Il coordinatore risponde con **quale opzione scegliere**
   e con **il testo esatto da incollare** (di solito nel campo note, tasto `n`).
-- Ogni sessione operativa chiude con **quattro gesti**: stato, decision log, commit,
-  `git push`. Nei lotti si aggiunge lo **zip del vault** fuori dal repository.
+- Ogni sessione operativa chiude con **cinque gesti**: stato, decision log, **questo
+  file** (§8), commit, `git push`. Nei lotti si aggiunge lo **zip del vault** fuori dal
+  repository.
 
 ---
 
@@ -38,7 +39,8 @@ per decisione del titolare: ci andrà a fine progetto, prima del corpus v2).
 | 1 | `00_INIZIA_QUI.md` | mappa, modello operativo, regole d'oro, glossario |
 | 2 | `06_operativo/scaletta_end_to_end.md` | le sessioni S0-S7, i principi, gli stop-loss |
 | 3 | `06_operativo/decision_log.md` | ogni decisione, datata, col motivo |
-| 4 | `01_metodo/metodo_03_canonizzazione.md` | il manuale supremo della canonizzazione (E1-E26 inclusi) |
+| 4 | `01_metodo/metodo_03_canonizzazione.md` | il manuale supremo della canonizzazione (E1-E27 inclusi) |
+| 4-bis | `06_operativo/registro_emendamenti.md` | l'indice genealogico dei 27 emendamenti: chi li ha approvati, quando, dove vivono |
 | 5 | `06_operativo/matrice_lotti_corpus_v1.md` | il piano dei 12 lotti + registro modifiche + tabella di tracciamento |
 | 6 | gli stati: canonizzazione e RAG di produzione | dove siamo, due linee di lavoro, due file |
 | 7 | `06_operativo/rapporto_gate_s2.md`, `rapporto_gate_s3.md`, `rapporto_lotto_1a.md`, `rapporto_lotto_1b*` | la storia dei gate |
@@ -120,6 +122,18 @@ coerente.
 17. **Onestà commerciale**: si vende la TRACCIABILITÀ, non la correttezza. Il determinismo
     si garantisce sul retrieval; i costi si dichiarano, mai «zero»; i numeri di C si
     citano sempre doppi e sempre come pavimento (hardware minimo).
+18. **Un prompt già eseguito è un verbale, non uno strumento vivo**: documenta ciò che quella
+    sessione ha fatto, e **non si riallinea alle regole venute dopo** — si data. È la stessa
+    regola del verbale di misura chiuso (11) e della testimonianza del giudice (10), estesa
+    ai prompt. I prompt **ancora in uso** sono invece strumenti vivi e si emendano.
+    (19/08/2026, E27: `prompt_s2_pilota.txt` e `prompt_s3_config_c.txt` continuano a nominare
+    i quattro gesti e restano così; `prompt_s4_lotti.txt`, che gira ancora, porta i cinque.)
+19. **Una voce di decision log si sostituisce, non si cancella.** Il registro è cronologia,
+    non fotografia: la voce superata resta a verbale, e quella nuova la supera dicendolo.
+    (19/08/2026: la voce del 15/08 che istituì i quattro gesti è rimasta, superata da E27.)
+    ⚠️ Vale per i **registri**; i documenti-fotografia — la §3 di questo file, `STATO`, i
+    conteggi — si **riscrivono**, ed è la ragione per cui le due specie non convivono nello
+    stesso file.
 
 ---
 
@@ -128,7 +142,7 @@ coerente.
 | Errore | Lezione, ora scritta |
 |---|---|
 | `core.autocrlf` avrebbe riscritto i grezzi al checkout | `.gitattributes` con `* -text` prima del primo commit |
-| Sessione S1 committò senza pushare | il push è il quarto gesto, sempre |
+| Sessione S1 committò senza pushare | il push è l'**ultimo** gesto del rituale, sempre (quinto da E27) |
 | Conteggi a mano sbagliati (46 vs 32; 105 vs 89) | `conta_stato.py`, output incollato verbatim |
 | Nucleo del pilota contato 16 invece di 17 | gli elenchi si generano da script, mai a mano |
 | Due fughe di canone, stesso movente | E25 |
@@ -161,17 +175,55 @@ coerente.
 
 ## 7. Come si lavora in chat (formato delle risposte)
 
-Il terminale pone domande a pannelli. Il coordinatore risponde con:
+Il terminale pone domande **a pannelli**, e il coordinatore non risponde mai a voce: la
+risposta è **testo incollabile** nel campo note (tasto `n`), in un blocco di codice, perché
+il titolare fa da ponte e non deve metterci niente di suo.
 
-1. **quale opzione**, in una parola;
-2. **perché**, in poche righe, citando la regola o il precedente;
-3. **il testo esatto da incollare** nel campo note, in un blocco di codice, con dentro le
-   condizioni operative (adempimenti, registri da aggiornare, guardie).
+Che cosa quella risposta deve contenere, e che cosa il coordinatore fa **prima** di
+scriverla, sta nella **§7-bis**, che è il padrone del protocollo.
 
-Prima di approvare un gate, il coordinatore **legge il documento vero** (staging dal
-device e lettura integrale), non il riassunto: due errori sono stati trovati così.
-Al termine di ogni sessione operativa il coordinatore **verifica il push** da sé
-(`git log --oneline -N` e `git status -sb` sul device).
+---
+
+## 7-bis. Protocollo di risposta del coordinatore
+
+**Il coordinatore risponde sempre per intero, in un solo giro.** Una risposta a metà costa
+un giro di conversazione al titolare, che nel frattempo tiene fermo un terminale.
+
+**Prima di deliberare.**
+
+1. **Se il terminale ha posto più pannelli, si chiede di vederli TUTTI**, e ci si pronuncia
+   sul pacchetto completo: le decisioni di un pannello cambiano quelle degli altri, e
+   deliberare sul primo significa vincolarsi al buio sul terzo.
+2. **Prima di approvare un gate o una matrice si legge il documento vero sul disco,
+   integralmente** — non il riassunto che ne ha fatto la sessione. **Due errori del
+   progetto sono stati trovati così**, e nessuno dei due era visibile nel riassunto.
+3. **Quando i numeri riportati non tornano, si ricontrollano prima di approvare.** È
+   successo due volte, ed erano errori veri tutte e due: un numero che stona non è quasi
+   mai una svista di trascrizione.
+
+**La forma della risposta.**
+
+4. Tre parti, sempre: **quale opzione**; **perché**, citando la regola o il precedente che
+   la sostiene; **il testo esatto da incollare**.
+5. Quel testo è **un prompt esteso, non un ordine secco**: porta il verdetto, le ragioni,
+   gli adempimenti (registri da aggiornare, commit da fare, tabelle da allineare) e le
+   guardie da rispettare. ⚠️ **Chi opera deve capire PERCHÉ, non solo cosa**: è l'unico
+   modo perché sappia decidere nei casi che il prompt non prevede — e i casi non previsti
+   sono metà di ogni lotto.
+6. **Ogni istruzione è classificata: una tantum** (verdetti, propagazioni, correzioni)
+   **oppure permanente.** ⚠️ Se una cosa va ripetuta a ogni lotto, il prompt riutilizzabile
+   è incompleto: **si emenda LUI**, invece di ripeterla. È la stessa malattia che E27 ha
+   curato — un obbligo che vive solo nel testo incollato è un obbligo che sparisce alla
+   prima sessione lanciata con un prompt diverso.
+
+**Il perimetro del coordinatore.**
+
+7. **Non tocca mai il vault, non apre mai `03_valutazione\`, e non scrive nel repository
+   mentre una sessione di terminale sta girando.** Due mani sullo stesso file sono un
+   conflitto di merge nel caso migliore, e una regola persa nel caso peggiore.
+8. **A fine sessione verifica da sé l'allineamento col remote** (`git log --oneline -N`,
+   `git status -sb` sul device), invece di fidarsi del rapporto: il rapporto dice ciò che la
+   sessione **credeva** di aver fatto.
 
 ---
 
@@ -180,6 +232,14 @@ Al termine di ogni sessione operativa il coordinatore **verifica il push** da s�
 Un passaggio di consegne che invecchia è peggio di nessun passaggio di consegne: chi lo
 legge crede di sapere e sa cose vecchie. Perciò l'aggiornamento non è affidato alla buona
 volontà, ma al rituale di chiusura.
+
+⚠️ **Titolarità del gesto, fissata il 19/08/2026 perché non si riapra.** Il **QUANDO** è di
+**principio 5 della scaletta** e di **`metodo_03` §9.5, passo 8** (E27): sono loro a dire che il
+gesto esiste e a che punto della chiusura cade. Il **COME** — chi scrive, in quale sezione, con
+quale regola di scrittura — è di questa §8. **Questo file non è una terza fonte del rituale: è
+il manuale d'uso di sé stesso.** Prima di E27 il gesto viveva solo nel §5 del prompt dei lotti,
+cioè in un documento derivato e monouso: un rituale scritto in un solo posto derivato prima o
+poi diverge da quello vero.
 
 **Chi aggiorna, e quando.**
 

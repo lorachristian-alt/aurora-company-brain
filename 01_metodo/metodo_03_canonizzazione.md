@@ -1955,7 +1955,7 @@ successivi.
 
 ```
 note → suite QA → revisore indipendente → correzioni propagate → suite QA
-     → stato → decision log → commit
+     → stato → decision log → passaggio di consegne → commit
 ```
 
 1. **Note.** Un lotto è una fetta tematica: il caso L26130, l'area commerciale, la
@@ -2006,12 +2006,26 @@ note → suite QA → revisore indipendente → correzioni propagate → suite Q
    presa durante il lotto, datata, con il motivo. Anche i falsi allarmi di categoria C
    (passo 3 qui sopra): sono la memoria che impedisce di risegnalare la stessa trappola al
    lotto dopo.
-8. **Commit e `git push`**, più zip di backup del vault a fine sessione. Un commit
+8. **Passaggio di consegne aggiornato** (`06_operativo\passaggio_di_consegne_coordinatore.md`,
+   E27). È il gesto che tiene viva la *giurisprudenza*: le decisioni stanno nel decision log,
+   le regole qui dentro, i numeri nei verbali — il **modo di decidere ai gate** non ha altra
+   casa. La §8 di quel file dice dove va cosa; in sintesi:
+
+   | Cosa | Quando |
+   |---|---|
+   | §3 «dove siamo» — grezzi, note, misure, prossimo passo | **sempre**, e si **riscrive**: è una fotografia, non uno storico. I numeri si **incollano** dall'output di `conta_stato.py`, mai ricomposti a mano |
+   | §4 giurisprudenza, §5 errori pagati, §6 vigilanze aperte | **solo se** il lotto ha fissato un criterio nuovo, versionato uno strumento, ratificato una prassi o pagato un errore nuovo: **una riga datata**, col caso che l'ha generata |
+
+   ⚠️ **Non è un compito extra, ed è condizionale solo per §4-§6.** Un lotto che non
+   produce giurisprudenza nuova aggiorna comunque la §3. Un passaggio di consegne che
+   invecchia è peggio di nessun passaggio di consegne: chi lo legge **crede** di sapere, e
+   sa cose vecchie.
+9. **Commit e `git push`**, più zip di backup del vault a fine sessione. Un commit
    solo locale non chiude niente: il remote va allineato prima di alzarsi.
 
-I passi 6, 7 e 8 non sono burocrazia di chiusura: sono il principio 5 della scaletta e la
-regola d'oro 6 — «ogni sessione lascia stato aggiornato, decisione datata, un commit e un
-push». Un lotto senza i quattro gesti non è chiuso.
+I passi da 6 a 9 non sono burocrazia di chiusura: sono il principio 5 della scaletta e la
+regola d'oro 6 — «ogni sessione lascia stato aggiornato, decisione datata, passaggio di
+consegne aggiornato, un commit e un push». Un lotto senza i cinque gesti non è chiuso.
 
 ### 9.6 Cosa il vault non contiene mai
 

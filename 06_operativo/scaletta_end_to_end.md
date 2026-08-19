@@ -21,9 +21,19 @@
 4. **Ogni fase ha la sua suite di controlli rieseguibili.** Generazione ✓ (89
    controlli), misura ✓ (protocollo congelato), canonizzazione ← nasce in Sessione 1,
    produzione ← specifica di determinismo in metodo_04.
-5. **Stato su disco, decision log, git.** Ogni sessione lascia QUATTRO gesti: stato
-   aggiornato, decisione datata, un commit e un `git push` — il lavoro non resta mai
+5. **Stato su disco, decision log, passaggio di consegne, git.** Ogni sessione lascia
+   CINQUE gesti: stato aggiornato, decisione datata, **passaggio di consegne del
+   coordinatore aggiornato**, un commit e un `git push` — il lavoro non resta mai
    su un solo disco a fine sessione. La storia del repo È la prova del metodo.
+
+   ⚠️ **Il quinto gesto è nato tardi e per questo si scrive qui.**
+   `06_operativo\passaggio_di_consegne_coordinatore.md` è l'unica casa della
+   *giurisprudenza* — il modo in cui si decide ai gate — e un passaggio di consegne che
+   invecchia è peggio di nessun passaggio di consegne. La regola in vigore sta nella §8 di
+   quel file: **§3 «dove siamo» si riscrive sempre**, coi numeri incollati da
+   `conta_stato.py`; **§4, §5 e §6 prendono una riga datata** solo se la sessione ha fissato
+   un criterio nuovo, versionato uno strumento, ratificato una prassi o pagato un errore
+   nuovo. Il gesto operativo per i lotti sta in `metodo_03` §9.5, passo 8.
 6. **Perimetri fisici anti-contaminazione.** Chi genera, canonizza o risponde non apre
    mai `03_valutazione/`; chi valuta non è chi ha risposto; i blocchi di domande li
    prepara uno script.
