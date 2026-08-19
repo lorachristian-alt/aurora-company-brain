@@ -1,0 +1,240 @@
+=====================================================================
+PROMPT — GATE DEL LOTTO R1 (adempimenti) + APERTURA DEL LOTTO 2A
+Corpus v1 · Aurora Food Group S.r.l. (simulazione dichiarata)
+File: 06_operativo\prompt\prompt_gate_r1_lotto_2a.txt
+Scritto dal coordinatore il 19/08/2026, letto il rapporto R1 sul disco.
+=====================================================================
+
+COME SEI STATO LANCIATO
+- Terminale nella RADICE del repository
+  C:\Users\buulo\Desktop\.eval_do_not_index\Aurora_Food_Group_SRL
+  con: claude --add-dir "C:\Users\buulo\Desktop\aurora-cervello"
+
+---------------------------------------------------------------------
+PARTE 0 — I PROMPT: VERIFICA E COMMIT
+---------------------------------------------------------------------
+0.1 `prompt_s4_lotti.txt` E' STATO AGGIORNATO DAL COORDINATORE, da E35 a
+    E40. E' il controllo di scostamento in coda al prompt che ha fatto
+    il suo mestiere: cinque emendamenti nuovi, cinque righe da recepire.
+    Verifica che la copia di lavoro sia integra:
+      righe 464 · byte 26.809 · CRLF 464 · LF isolati 0 · BOM assente
+      sha256 963b97bf9bce6397565f95f1d6092f918f0973da6ab4ce93b71e378154666e6a
+    Se anche uno non torna, FERMATI e dillo.
+
+0.2 Questo file e' NON TRACCIATO. Committali entrambi e pusha PRIMA di
+    eseguire, come si e' fatto con la matrice e con la config C: un
+    piano si congela prima di eseguirlo. Messaggio:
+
+      prompt dei lotti a E40 e prompt del gate R1 + lotto 2A
+
+      Scritti dal coordinatore (§4.27). E39 ed E40 sono nella coda del
+      prompt dei lotti e non ancora in metodo_03: colmarlo e' il primo
+      adempimento.
+
+0.3 Rileggi `prompt_s4_lotti.txt` per intero: cinque punti del §3 sono
+    cambiati, e tre di quei cambiamenti scattano gia' nel lotto 2A.
+
+---------------------------------------------------------------------
+PARTE 1 — IL VERDETTO: R1 E' APPROVATO
+---------------------------------------------------------------------
+Il coordinatore ha letto `rapporto_lotto_r1.md` per intero e riverificato
+i numeri sul disco. Il lotto e' APPROVATO, e le ragioni si scrivono
+perche' valgano da precedente:
+
+- QA di lotto **0 ERRORI**, 51 avvisi motivati, perimetro dichiarato
+  «0 grezzi, 85 note» — la modalita' di E35 ha funzionato alla prima
+  prova su dati veri;
+- tre giri di giudizio con subagenti a contesto pulito, revisione col
+  canone su sessione diversa, **E26 rispettata alla lettera**: il terzo
+  giro non si e' esaurito e il lotto si e' chiuso NOMINANDO il pattern,
+  non con un quarto giro. E' la prima volta che quella regola viene
+  esercitata fino in fondo, e ha prodotto la scoperta piu' utile della
+  giornata invece di un'ora in piu';
+- le tre divergenze di categoria B sono nel canone in sezione datata, e
+  due riguardano il manuale HACCP: **il documento che prescrive, per due
+  volte su tre, prescrive male o dichiara compiuto cio' che non lo e'**.
+  Nessuna sarebbe emersa dalla riconciliazione orizzontale;
+- E36-E38 applicati con la riga nel registro nello stesso turno;
+- i conteggi vengono da script e **conta_stato.py e qa_all.py ora
+  concordano su 183**: la divergenza 172/173 e' chiusa, ed e' la prova
+  che E34 funziona;
+- la QA a perimetro vault e' stata RIMISURATA dopo la chiusura (17:45,
+  dopo il rapporto delle 17:42) e resta a 128 ERRORI, tutti
+  incompletezza: nessuna regressione, e il numero e' misurato, non
+  asserito. Questo e' il modo giusto di dichiararlo.
+
+---------------------------------------------------------------------
+PARTE 2 — LA DECISIONE CHE IL GATE DOVEVA PRENDERE: SI', SI SCRIVE
+---------------------------------------------------------------------
+La domanda del §12: la cautela che non si propaga diventa emendamento,
+o basta il passo 2-bis? **Diventa emendamento.** Tre ragioni, e la terza
+e' quella che decide:
+
+1. il passo 2-bis ha un PERIMETRO sbagliato, non una diligenza
+   insufficiente: nomina `title` e `summary`, e il difetto vive anche
+   nelle celle di tabella e nelle glosse ai wikilink. §4.25 — quando e'
+   il perimetro di un controllo, e' un guasto e si scrive subito;
+2. un difetto che sopravvive a DUE giri di revisione mirata non e' una
+   disattenzione: e' un punto cieco del metodo, ed e' la tua frase;
+3. **simmetria col precedente**: E30 e' nato esattamente cosi' dal lotto
+   1C. Se 1C ha avuto la sua regola e R1 — che trova la versione piu'
+   larga dello stesso difetto — avesse solo un paragrafo di rapporto, la
+   regola piu' utile resterebbe nel documento che nessuno rilegge. E'
+   la malattia di E27, e non si ripete.
+
+E39 — LA CAUTELA SI PROPAGA. §9.5 passo 2-bis, che si estende: E30 resta
+com'e' ed E39 lo cita (§4.26, i numeri sono permanenti).
+  ATTENZIONE — **La forma conta piu' della regola, e la forma NON e' «rileggere di
+  piu'».** Il gesto parte dall'AFFERMAZIONE, non dalla superficie:
+  quando apponi una qualificazione a un'affermazione — «che cosa misuri
+  il file non lo dichiara», «e' una bozza mai firmata», «e' una lettura,
+  non un dato» — cerchi nella nota tutte le altre occorrenze di quella
+  affermazione e ci porti la stessa qualificazione.
+  ATTENZIONE — L'elenco delle superfici — summary, title, celle di tabella, glosse
+  dopo un wikilink, frasi di chiusura — e' ESEMPLIFICATIVO E APERTO.
+  Chiuderlo ricreerebbe il difetto di E30, che era chiuso su due
+  superfici ed e' per questo che il pattern gli e' passato accanto.
+  Il caso che la genera va nella riga del registro: tre giudici
+  indipendenti, a contesto pulito, su fette diverse, hanno descritto la
+  stessa classe con tre parole diverse.
+
+E40 — LA PRESCRIZIONE SI LINKA, NON SI RICOPIA. Quando agganci una nota
+alla fonte che la prescrive, LINKA la nota padrona di quella
+prescrizione; se non esiste, CREALA; non ricopiare il testo prescrittivo
+dentro la nota.
+  ATTENZIONE — **E' la scoperta piu' preziosa di R1, e vale piu' del difetto che il
+  lotto riparava.** Mentre agganciava le note alla prescrizione, R1 ha
+  prodotto DICIASSETTE doppie padrone, e due prescrizioni erano
+  ricopiate senza avere alcun padrone. Per un tratto il vault ha avuto
+  piu' copie della stessa prescrizione di quante ne avesse prima: la
+  riparazione fabbricava il difetto opposto.
+  ATTENZIONE — **Senza E40, E37 diventa una macchina che produce duplicati**: E37
+  dice «chi porta una fonte prescrittiva riapre le note che quella fonte
+  governa», e il gesto naturale di chi le riapre e' ricopiare. Le due
+  prescrizioni piu' duplicate — la seconda firma e il CCP4 — sono anche
+  quelle su cui il vault regge le conclusioni piu' forti: **se una copia
+  diverge, diverge un'accusa.** Scrivilo nella riga del registro: e' la
+  ragione per cui la regola esiste.
+
+Entrambe con marcatore inline in metodo_03 e riga nel registro nello
+stesso turno. Occasione: «gate del lotto R1».
+
+---------------------------------------------------------------------
+PARTE 3 — LA CLASSE DI §4.29, RICOMPARSA LO STESSO GIORNO
+---------------------------------------------------------------------
+Lo script che ritagliava il pacchetto in fette scartava l'appendice con
+il testo estratto delle fonti, e i giudici si sono trovati a confrontare
+le note con se' stesse. E' la stessa classe che la manutenzione della
+mattina aveva riparato sulla suite, ricomparsa il pomeriggio su un altro
+strumento. Due adempimenti, ed entrambi permanenti:
+
+3.1 IL COLLAUDO DELLA VIA V3 SI ESTENDE. Oggi prova che il pacchetto
+    riflette il testo CORRENTE delle note (E33). Aggiungi un difetto
+    piantato che prova che il pacchetto PORTA L'APPENDICE DELLE FONTI:
+    se l'appendice manca, il collaudo deve diventare rosso. §4.29 lo
+    pretende — almeno un difetto piantato per ogni via realmente in uso,
+    e lo strumento di taglio e' su quella via.
+
+3.2 UNA RIGA DI GIURISPRUDENZA, §4.31, e la merita:
+    **UN GIUDICE CHE DICHIARA DEGRADATO IL PROPRIO INGRESSO INVECE DI
+    EMETTERE UN VERDETTO VALE PIU' DI UNO CHE EMETTE.** Entrambi i
+    giudici del giro annullato se ne sono accorti da soli e hanno
+    rifiutato di pronunciarsi. E' la ragione per cui quel giro e' costato
+    zero invece di inquinare il lotto con verdetti costruiti sul nulla.
+    ATTENZIONE — La conseguenza operativa, ed e' il motivo per cui si scrive: chi
+    costruisce uno strato di giudizio gli lascia abbastanza contesto per
+    ACCORGERSI che l'ingresso e' degradato, e il prompt gli dice
+    esplicitamente che dichiararlo e' un esito legittimo. Un giudice che
+    puo' solo emettere un verdetto ne emetterebbe uno anche sul nulla.
+
+---------------------------------------------------------------------
+PARTE 4 — UN CANDIDATO PARCHEGGIATO, COL SUO CRITERIO DI DECISIONE
+---------------------------------------------------------------------
+Si potrebbe scrivere uno script che segnali le superfici di sintesi
+rimaste assertive quando il corpo porta una qualificazione. **Non si
+costruisce adesso**, e la ragione e' E28: un avviso euristico nuovo, su
+UNA sola osservazione, rischia di essere rumoroso — e una regola che
+scatta sempre viene scavalcata per prassi, che e' peggio di non averla.
+
+Si decide **dopo due lotti chiusi sotto E39**, con questo criterio
+scritto in anticipo perche' nessuno lo riapra a numeri visti: se in
+quei due lotti il pattern «la cautela non si propaga» ricompare ancora
+al terzo giro di giudizio, la rilettura non basta e serve la macchina;
+se non ricompare, E39 basta e il candidato si chiude come non necessario.
+Riga in §6 del passaggio di consegne, vigilanze aperte.
+
+---------------------------------------------------------------------
+PARTE 5 — CHIUSURA DEL GATE
+---------------------------------------------------------------------
+Commit dedicato — «Gate del lotto R1: E39 ed E40, il collaudo del
+pacchetto, §4.31» — piu' i cinque gesti. Nel passaggio di consegne:
+§4.31, la riga di §6 della PARTE 4, e la §3 riscritta col prossimo atto
+che diventa il lotto 2A. Poi push.
+
+---------------------------------------------------------------------
+PARTE 6 — APERTURA DEL LOTTO 2A (lavaggio CIP)
+---------------------------------------------------------------------
+Ciclo di lotto di `prompt_s4_lotti.txt` §3, senza sconti. Tre grezzi
+dalla matrice: il log del lavaggio CIP di maggio, `IO-05` che prescrive
+il criterio, la scheda di sicurezza del detergente acido.
+
+6.1 ATTENZIONE — **2A E' IL PRIMO LOTTO IN CUI E37 SCATTA, e scatta all'apertura.**
+    `IO-05` E' una fonte prescrittiva, ed e' proprio la fonte del log
+    CIP: appena entra nel vault, tutte le note che parlano di lavaggio,
+    sanificazione, frequenze e conducibilita' vanno riaperte. Rilancia
+    `candidate_r1.py` ristretto a `IO-05` (e alla scheda di sicurezza,
+    se l'elenco delle fonti prescrittive la classifica tale), metti le
+    note che restituisce in `qa\lotti\lotto_02a_cip_note.txt`, e
+    dichiara nel rapporto «note riaperte per riconciliazione verticale:
+    N, corrette M». Le riaperte non contano nella capacita' 25-35.
+
+6.2 ATTENZIONE — **IL LOTTO 2A E' ANCHE UN ESPERIMENTO, ed e' la ragione per cui va
+    da solo.** E' il primo lotto canonizzato SOTTO E29 ed E36. Il 57,7 %
+    di R1 misura note scritte tutte prima che quelle regole
+    esistessero: e' l'ipotesi del debito storico, e finora e' solo
+    un'ipotesi. Il rapporto di 2A dichiara **DUE TASSI DISTINTI**, e non
+    li mescola:
+      - TASSO DI RIAPERTURA: quante note vecchie E37 ha riaperto e
+        quante ne sono state corrette. Misura il DEBITO;
+      - TASSO DI DIFETTO DI PRODUZIONE: sulle note NATE in 2A, quante il
+        giudizio trova scoperte rispetto alla fonte che le prescrive.
+        Misura quanto il metodo, con la regola in vigore, produce il
+        difetto invece di ereditarlo.
+    Se il secondo e' vicino a zero, il debito era storico e la rete
+    finale bastera'. Se non lo e', E29 in vigore NON basta e la regola
+    va ripensata, non ripetuta. **E' il numero che il gate di 2A dovra'
+    pesare, e va prodotto da script, non stimato.**
+
+6.3 RITMO: **2A gira da solo.** Il tetto di due lotti contigui e' un
+    massimo, non una quota, e questo lotto porta tre regole al primo
+    impiego (E37, E39, E40) piu' una misura che decide una questione di
+    progetto. Un lotto che porta un esperimento non condivide la
+    sessione con un altro lotto.
+
+6.4 Le guardie proprie di 2A, dalla matrice:
+    - **CIP contro IO-05 e' una contraddizione CON VINCITORE gia'
+      registrata nel canone**: nota padrona `stato: risolto`, IO-05
+      prevale, il log resta com'e'. NON si apre una questione, ed e'
+      l'esempio 17 del manuale;
+    - la sonda di conducibilita' del `CIP-01` ha la taratura scaduta
+      dall'08/04/2026 con «allarmi sonda su log maggio»: sono le righe
+      T21 e T29 della tabella di tracciamento, che 2A deve chiudere —
+      e sono duplicate fra loro, come dichiarato;
+    - E40 vale il doppio qui: `IO-05` e' una fonte prescrittiva densa, e
+      la tentazione di ricopiarne i criteri in ogni nota di lavaggio e'
+      esattamente quella che in R1 ha prodotto diciassette doppie
+      padrone. Una padrona per prescrizione, le altre linkano.
+
+---------------------------------------------------------------------
+GUARDIE GENERALI
+---------------------------------------------------------------------
+- 03_valutazione\ non si apre mai. 02_corpus\, 05_rag_produzione\ e
+  04_misurazioni\ non si toccano.
+- Il canone guida e non appare.
+- Ogni numero da script, output incollato: perimetro dalla tabella di
+  `conta_perimetro_lotto.py`, conteggi del vault da `conta_stato.py`
+  generato DOPO la nota-sessione (E34).
+- Se il contesto finisce, chiudi a confine di lotto o di giro di
+  giudizio completo, mai a meta'.
+- Se qualcosa qui contraddice metodo_03, vince metodo_03 e lo segnali.
+=====================================================================

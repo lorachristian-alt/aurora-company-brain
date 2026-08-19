@@ -41,7 +41,7 @@ l'occasione tipica, non la condizione.
 §1 STUDIO PRELIMINARE (ogni sessione, anche le successive)
 ---------------------------------------------------------------------
 1. 01_metodo\metodo_03_canonizzazione.md — INTEGRALE. E' il manuale
-   supremo, con i 35 emendamenti gia' dentro. In caso di contrasto con
+   supremo, con i 40 emendamenti gia' dentro. In caso di contrasto con
    questo prompt, vince metodo_03 e lo segnali.
 2. 06_operativo\registro_emendamenti.md — l'indice genealogico: serve
    a vedere in dieci secondi se questo prompt e' rimasto indietro.
@@ -84,6 +84,10 @@ cosa sola, ma decisiva:
   2 e' gia' ridisegnato in 2A / 2B / 2C.
 - Il piano vale circa 28-30 lotti, non 12. Se il conto che fai in
   apertura si discosta, e' un dato: si scrive nel rapporto.
+- La capacita' 25-35 e' PROVVISORIA e si rivede a dieci lotti chiusi.
+  Quando la si rivedra' si contano SOLO i lotti di canonizzazione: i
+  lotti di manutenzione non entrano nella serie (E38), perche' misurano
+  una grandezza diversa — riparazioni, non produzione.
 - Ogni volta che la matrice cambia si scrive una riga nel suo REGISTRO
   DELLE MODIFICHE, con la data e il perche'. Le stime vecchie restano
   BARRATE, non cancellate: il registro e' cronologia.
@@ -97,7 +101,20 @@ cosa sola, ma decisiva:
 
 1. APERTURA. Leggi l'elenco del lotto, riconta i file con script,
    CONTA I FATTI PRIMA DI SCRIVERE (E21) e proietta il totale delle
-   note. Poi applica la soglia doppia di E28:
+   note.
+
+   RICONCILIAZIONE VERTICALE ARRETRATA (E37), e si fa qui, non a fine
+   corsa: se il lotto porta nel vault una o piu' FONTI PRESCRITTIVE,
+   rilancia `candidate_r1.py` ristretto a quelle fonti. Le note che
+   restituisce entrano in `qa\lotti\<lotto>_note.txt` e quindi nel
+   perimetro di QA del lotto (E32), e il rapporto dichiara «note
+   riaperte per riconciliazione verticale: N, corrette M». Le riaperte
+   NON contano nella capacita' 25-35: sono riparazioni, non produzione.
+   Se le riaperte superano le note nuove che il lotto produce, il lotto
+   si dichiara e si spezza in uno di canonizzazione piu' uno di
+   manutenzione — stessa logica di E28, una soglia sulla grandezza che
+   il rischio consuma. Una riga di tracciamento e' una promessa; questo
+   passo e' un controllo. Poi applica la soglia doppia di E28:
 
    - proiezione oltre il +25% del budget E oltre le 30 note ......
      si SPEZZA prima di scrivere;
@@ -130,7 +147,21 @@ cosa sola, ma decisiva:
      si trova da sola. In 1C undici note discutevano CCP e tarature
      senza il manuale HACCP, e in QUATTRO casi il manuale conteneva
      esattamente cio' che la nota dichiarava mancante. Lo strumento e'
-     l'elenco delle fonti prescrittive del corpus, in 06_operativo\;
+     l'elenco delle fonti prescrittive del corpus, in 06_operativo\
+     (`fonti_prescrittive_corpus_v1.md`, 36 fonti);
+   - E36, la forma esatta di E29: la nota cita la fonte che prescrive
+     CIO' DI CUI PARLA, non una fonte prescrittiva qualsiasi. Il limite
+     critico di un CCP lo prescrive il manuale, non il registro degli
+     strumenti: una nota che cita il registro e parla del limite e'
+     ancora scoperta. La forma generica lasciava fuori 26 note su 71;
+   - E40, il rovescio, e costa quanto il difetto che ripara: quando
+     agganci una nota a una prescrizione, LINKA la nota padrona di
+     quella prescrizione; se non esiste, CREALA; non ricopiare il testo
+     prescrittivo dentro la nota. In R1 sono nate DICIASSETTE doppie
+     padrone mentre si riparava il difetto opposto, e due prescrizioni
+     erano ricopiate senza avere alcun padrone. Le due piu' duplicate
+     reggono le conclusioni piu' forti del vault: se una copia diverge,
+     diverge un'accusa;
    - ATTENZIONE, il limite della verticale: se la fonte prescrittiva
      appartiene a un lotto NON ancora canonizzato, non si cita e non
      si scrive nulla di cio' che prescrive. Citarla la farebbe
@@ -173,7 +204,20 @@ cosa sola, ma decisiva:
      non una volta sola: l'intestazione si scrive per prima e si
      corregge per ultima, quindi quando una correzione attenua il
      corpo il summary resta com'era e afferma quello che il corpo
-     cautela.
+     cautela;
+   - LA CAUTELA SI PROPAGA (E39), ed e' il pattern che ha chiuso R1 al
+     terzo giro dopo che due giri mirati lo avevano mancato. Il gesto
+     NON e' «rileggere di piu'»: parte dall'affermazione, non dalla
+     superficie. Quando apponi una qualificazione a un'affermazione —
+     «che cosa misuri il file non lo dichiara», «e' una bozza mai
+     firmata», «e' una lettura, non un dato» — CERCA NELLA NOTA TUTTE
+     LE ALTRE OCCORRENZE di quella affermazione e portaci la stessa
+     qualificazione. Le superfici dove si nasconde: `summary`, `title`,
+     celle di tabella, glosse dopo un wikilink, frasi di chiusura.
+     L'elenco e' esemplificativo e APERTO: chiuderlo ricreerebbe il
+     difetto di E30, che era chiuso su due superfici. Una riga di
+     tabella e una glossa di tre parole sono affermazioni di fatto
+     quanto il corpo.
 
 4. QA DI LOTTO. `python qa_all.py --perimetro lotto
    @lotti\<lotto>.txt --lotto <nome>` — zero ERRORI per andare avanti,
@@ -396,8 +440,8 @@ STOP-LOSS E COSA NON FARE
 ---------------------------------------------------------------------
 ALLINEAMENTO DI QUESTO PROMPT
 ---------------------------------------------------------------------
-Allineato al: 2026-08-19, dopo il gate del lotto 1C.
-Ultimo emendamento recepito: E35.
+Allineato al: 2026-08-19, dopo il gate del lotto R1.
+Ultimo emendamento recepito: E40.
 Scritto dal coordinatore: questo file e' l'istruzione DATA alla
 sessione, e una sessione non riscrive le proprie istruzioni.
 Recepiti rispetto alla versione precedente (ferma al gate S2, 19
@@ -407,9 +451,13 @@ d'arresto del ri-giudizio · E27 quinto gesto · E29 riconciliazione
 verticale · E30 title e summary a ogni giro · E31 budget a capacita' ·
 E32 perimetro esteso alle note modificate · E33 pacchetto dopo le
 correzioni · E34 conteggi dopo la nota-sessione · E35 lotto di
-manutenzione. E34 ed E35 nascono con questa versione: la prima
-sessione che la usa li applica a metodo_03 e al registro degli
-emendamenti PRIMA di aprire il lotto.
+manutenzione · E36 la fonte che prescrive CIO' DI CUI la nota parla ·
+E37 la riconciliazione verticale arretrata e' un passo dell'apertura ·
+E38 i lotti di manutenzione fuori dalla serie della capacita' · E39 la
+cautela si propaga a ogni superficie di sintesi · E40 la prescrizione
+si linka, non si ricopia. E39 ed E40 nascono col gate di R1: la prima
+sessione che usa questa versione li applica a metodo_03 e al registro
+PRIMA di aprire il lotto.
 CONTROLLO DI SCOSTAMENTO: confronta questa riga con l'ultima riga di
 `registro_emendamenti.md`. Se il registro e' piu' avanti, il prompt e'
 vecchio: dillo nel rapporto, non compensare a mano.
