@@ -3,7 +3,7 @@
 > **Cos'è** · Lo stato di oggi del vault: cosa è stato canonizzato, con quale esito, e
 > cosa resta. Solo stato, mai una regola: le regole stanno in
 > `01_metodo\metodo_03_canonizzazione.md`, le decisioni in `06_operativo\decision_log.md`.
-> **Aggiornato al** · 19/08/2026, chiusura del lotto 1B della Sessione 4.
+> **Aggiornato al** · 19/08/2026, chiusura del lotto 1C della Sessione 4.
 > Lo stato della pipeline RAG sta in `06_operativo\stato_rag_produzione.md`, non qui; il
 > piano dei lotti e la tabella di tracciamento delle questioni trasversali stanno in
 > `06_operativo\matrice_lotti_corpus_v1.md`, non qui.
@@ -14,13 +14,13 @@
 
 | | |
 |---|---|
-| Lotti chiusi | **3** — `l26130` (fetta pilota, S2), **`1A`** (Linea 1: turno, CCP, confezionatrice) e **`1B`** (freddo ed energia) |
+| Lotti chiusi | **4** — `l26130` (fetta pilota, S2), **`1A`** (Linea 1: turno, CCP, confezionatrice), **`1B`** (freddo ed energia) e **`1C`** (metrologia e gas tecnici) |
 | Grezzi copiati nel vault | 160/160, verificati contro `manifest_corpus_v1.1.json`: zero scarti, zero estranei, zero sottocartelle |
 | I conteggi del vault | nel blocco qui sotto, **incollato verbatim** da `conta_stato.py` |
 | Suite QA | **verde sul perimetro di lotto**; sul vault tre controlli su quattro sono a zero errori |
 | `llms.txt` | rigenerato dal frontmatter, allineato |
-| Matrice dei lotti | **approvata e congelata il 18/08**; il lotto 1 spezzato in 1A e 1B, poi 1B spezzato in 1B e 1C: **12 lotti**, 160/160 grezzi, zero scoperti, zero doppi |
-| **Prossimo lotto** | **Lotto 1C — Metrologia e gas tecnici**, 2 grezzi (elenco tarature e bolla azoto), budget 12-18 note di contenuto |
+| Matrice dei lotti | **12 lotti**, 160/160 grezzi, zero scoperti, zero doppi (`verifica_matrice_lotti.py` verde). ⚠️ **I budget dei lotti 2-10 sono da ricalibrare**: sono costruiti sulla densità del pilota, 2,1 note per grezzo, contro le 6,0 · 9,5 · 13,5 misurate dopo — vedi il rapporto del lotto 1C |
+| **Prossimo lotto** | **da decidere col titolare**: la ricalibrazione propone di spezzare i lotti 2-10 prima di aprirli, perché ai consuntivi veri ciascuno vale più del tetto di 40 note fissato da E28 |
 
 ⚠️ **Errata del 19/08/2026 sui numeri del lotto 1A.** Questo stato dichiarava «105 note, di
 cui 11 `_index` e 6 note-strumento: 88 di contenuto». `qa_all.py` a chiusura di 1A contava
@@ -35,23 +35,64 @@ prescrive la regola del gate 1A.
 
 | Grandezza | Valore |
 |---|---|
-| Note nel vault | **145** |
+| Note nel vault | **172** |
 | di cui `_index` | 11 |
 | di cui note-strumento del progetto | 6 |
 | di cui note di diario (`sessione`, `daily`) | 2 |
-| **di cui note di contenuto** | **126** |
-| Note per cartella | areas 71 · data 20 · entities 19 · projects 8 · docs 7 · code 7 · concepts 5 · workspace 5 · self 1 · outputs 1 · sources 1 |
-| Note per `type` | atomica 78 · conflitto 24 · entita 15 · index 11 · hub 11 · concetto 4 · sessione 2 |
-| Questioni aperte (`type: conflitto`) | 24 |
+| **di cui note di contenuto** | **153** |
+| Note per cartella | areas 93 · entities 22 · data 22 · projects 8 · docs 7 · code 7 · concepts 5 · workspace 5 · self 1 · outputs 1 · sources 1 |
+| Note per `type` | atomica 93 · conflitto 32 · entita 18 · hub 12 · index 11 · concetto 4 · sessione 2 |
+| Questioni aperte (`type: conflitto`) | 32 |
 | Grezzi in `sources\` | 160 |
-| Grezzi citati da almeno una nota | **33** |
-| Grezzi restanti | **127** |
+| Grezzi citati da almeno una nota | **35** |
+| Grezzi restanti | **125** |
 
 ⚠️ **Questo blocco non si riscrive a mano.** Nasce al gate del lotto 1B da due sviste di
 conteggio in due lotti — 46 contro 32 nel rapporto 1A, 105 e 88 in questo stato quando
 `qa_all.py` contava 106 e 89 — e nessuna delle due era un errore di canonizzazione: erano
 sottrazioni fatte a mano su numeri veri. Da qui in poi lo stato e i rapporti **incollano**,
 non ricompongono.
+
+## Il lotto 1C, chiuso il 19/08/2026
+
+**Perimetro:** 2 grezzi, elencati in `06_operativo\qa\lotti\lotto_01c_metrologia_gas.txt`.
+L'elenco delle attrezzature con lo stato di taratura di 120 strumenti, e la bolla di ingresso
+dei gas alimentari Nordgas del 06/05, in OCR degradato.
+
+| | |
+|---|---|
+| Budget dichiarato | 12-18 note di contenuto |
+| Prodotte | **27** di contenuto — **sforato di 9**, dichiarato in apertura e approvato |
+| Densità | **13,5 note per grezzo**, contro 9,5 di 1B, 6,0 di 1A e 2,1 del pilota |
+| Perché non si è spezzato | **E28**, approvato in apertura di questo lotto: si spezza sopra il +25 % **e** sopra le 30 note. 27 note stanno sotto il tetto, e i due grezzi sono una storia sola |
+| QA di lotto | **0 ERRORI, 9 AVVISI**, motivati nel rapporto |
+| Passaggi di controllo | rilettura dei «Perché conta» contro le sole fonti (antidoto 1B), **tre giri di giudizio** — 27 rilievi, tutti accolti — e revisione col canone |
+| Versione del prompt di giudizio | **v2** |
+| Righe dell'elenco | **120**, non 121 come diceva la matrice: errata registrata nel registro delle modifiche |
+
+**Cosa ha trovato.** Che **Aurora tiene due registri paralleli della stessa metrologia** — il
+piano di manutenzione e l'elenco delle attrezzature — e che dove si sovrappongono non
+concordano su date, periodicità e, sul pastorizzatore, nemmeno sull'esecutore. Il caso più
+grave è l'`MD-1800`: un registro lo dà `SCADUTO` dal 03/04/26, l'altro `Conforme` fino al
+19/08/2026. Sulla cella surgelati le registrazioni metrologiche sono **quattro, in tre
+documenti, con tre esecutori diversi**, e nessuna coincide con la data che il verbale
+dell'ispezione sanitaria attesta.
+
+**Sul lato gas:** l'azoto entra per due strade — serbatoio criogenico e rampa di bombole di
+scorta — e questo **chiude T17 come riconciliazione, non come divergenza**. La consegna del
+06/05 è identificata da tre codici di lotto e due numeri di bolla diversi, e il certificato di
+analisi che la bolla richiama **non è in archivio**.
+
+⚠️ **La riconciliazione col vault ha reso più dei due grezzi**: quattro delle nove divergenze
+nuove nascono dal confronto con documenti già canonizzati — inventario di magazzino, mass
+balance, piano di manutenzione, verbale ATS — e non dalla lettura dei due file del lotto.
+
+⚠️ **Il terzo giro di giudizio ha trovato un difetto che riguarda tutto il vault, non questo
+lotto:** undici note discutevano punti critici, tarature e frequenze **senza citare il manuale
+HACCP**, che è la fonte che le prescrive — e in quattro casi il manuale conteneva esattamente
+ciò che la nota dichiarava mancante. **Nel vault ci sono oggi 30 note che nominano un CCP e non
+citano il manuale**: la decisione se guardarle ora o al gate finale è del titolare, e sta nel
+rapporto del lotto 1C §11.
 
 ## Il lotto 1B, chiuso il 19/08/2026
 
@@ -125,7 +166,7 @@ apporto_lotto_1a.md`.
 | `qa_frontmatter` | **0** |
 | `qa_link_integrity` | **0** |
 | `qa_provenance` | **0** |
-| `qa_copertura` | 130 — **127 grezzi non ancora canonizzati e 3 aree senza hub** |
+| `qa_copertura` | 128 — **125 grezzi non ancora canonizzati e 3 aree senza hub** |
 
 Tutti gli errori residui del vault sono la sua **incompletezza**: nessuno è un difetto delle
 note che esistono.

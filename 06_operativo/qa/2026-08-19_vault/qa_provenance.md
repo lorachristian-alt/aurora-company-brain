@@ -1,7 +1,7 @@
-## qa_provenance (perimetro: vault, 145 note)
+## qa_provenance (perimetro: vault, 173 note)
 
 - ERRORI: **0**
-- AVVISI: **46**
+- AVVISI: **51**
 
 ### Avvisi
 
@@ -10,6 +10,7 @@
 | `area-logistica.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `fatto-cariche-f-gas-impianti-frigoriferi.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `fatto-contatori-reparto-meta-stabilimento.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
+| `fatto-due-elenchi-in-un-file-strumenti.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `fatto-giro-di-vite-seconde-firme-ccp3.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `fatto-integrita-log-allarmi-cf-02.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `fatto-prodotto-non-segregato-deviazione-ccp2.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
@@ -34,7 +35,11 @@ verifiche n» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 | `questione-codice-allarme-pkm-450.md` |  | provenance | ora senza riscontro in nessuna fonte citata: «15:09:02» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 | `questione-codice-allarme-pkm-450.md` |  | provenance | fonte immagine 'IMG-20260510-WA0007.jpg': riscontro visivo, da chiudere a mano |
 | `questione-codice-allarme-pkm-450.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
+| `questione-convalida-md-1800-scaduta-o-valida.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
+| `questione-due-registri-tarature-pt-104.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `questione-durata-deviazione-ccp2-l26130.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
+| `questione-posizione-md-3200-in-linea.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
+| `questione-sigla-kit-tasselli-ccp3.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `questione-tassello-inox-non-passato.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `questione-verifiche-ccp3-10-05-tre-versioni.md` |  | provenance | citazione senza riscontro in nessuna fonte citata: «Verifica di fine turno (capoturno)» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 | `questione-verifiche-ccp3-10-05-tre-versioni.md` |  | provenance | citazione senza riscontro in nessuna fonte citata: «dalle 15 alle 18.45 linea ferma per rottura valvola azoto. verifiche n» — la nota cita un .jpg, riscontro visivo da chiudere a mano |

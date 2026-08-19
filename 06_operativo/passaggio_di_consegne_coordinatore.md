@@ -60,10 +60,15 @@ crea regole: spiega come si sono applicate.
   numeri **non si citano mai separati**.
 - **Config C congelata** (`d36d7ce`, impronta `afb58939…`): intoccabile fino a fine S6,
   difetti di formato compresi.
-- **Canonizzazione**: pilota L26130 (22 grezzi) + lotti 1A (7) e 1B (4) = **33 grezzi su
-  160**, vault a **145 note**, 24 questioni aperte. QA a perimetro vault: frontmatter,
-  link e provenance a **zero errori**; la copertura è rossa solo per incompletezza.
-- **Prossimo**: lotto 1C (tarature + bolla azoto, 2 grezzi), poi i lotti 2-10.
+- **Canonizzazione**: pilota L26130 (22 grezzi) + lotti 1A (7), 1B (4) e 1C (2) = **35
+  grezzi su 160**, vault a **172 note** di cui **153 di contenuto**, **32 questioni
+  aperte** (numeri da `conta_stato.py`). QA a perimetro vault: frontmatter, link e
+  provenance a **zero errori**; la copertura è rossa solo per incompletezza — 125 grezzi
+  non ancora canonizzati e 3 aree senza hub.
+- **Prossimo**: ⚠️ **non un lotto, una decisione.** La ricalibrazione dei budget chiesta
+  alla chiusura di 1C dice che i lotti 2-10, ai consuntivi veri, valgono ciascuno più del
+  tetto di 40 note fissato da E28: vanno spezzati **prima** di aprirli, e il piano passa da
+  12 a circa 28-30 lotti. Il rapporto del lotto 1C §9 porta la proposta.
 - **Poi**: S6 (misura «dopo» sul vault, con `predizioni.md` pre-registrato) e S7
   (pubblicazione).
 
@@ -143,6 +148,28 @@ coerente.
     spezza sopra il +25 % **e** sopra le 30 note, sempre sopra le 40. ⚠️ Il criterio
     generale, che vale oltre questo caso: **quando una soglia scatta sempre, il difetto è
     nella grandezza che misura, non nel lavoro che segnala.**
+21. **Una divergenza apparente che l'archivio scioglie è un RISULTATO, non un pareggio**
+    (19/08/2026, lotto 1C). La tabella di tracciamento distingue tre esiti, non due:
+    *chiusa* — la gamba è arrivata e la nota lo dice; *aperta dichiarata* — l'archivio non
+    la chiude; e **riconciliata** — la contraddizione apparente sparisce perché una terza
+    fonte la spiega. Il caso: il quaderno dice «bombola nordgas cambiata», la bolla dello
+    stesso giorno consegna azoto sfuso, e l'inventario registra 18 bombole a scorta su una
+    rampa di emergenza. ⚠️ Chi scrive una riconciliazione **dichiara l'inferenza**: che la
+    bombola venisse da quella rampa nessuna fonte lo afferma.
+23. **La fonte che PRESCRIVE non si cerca da sola: va cercata** (19/08/2026, lotto 1C).
+    La riconciliazione incrociata funziona in orizzontale — si confrontano i documenti che
+    *registrano* la stessa grandezza — e manca la verticale: il documento che **prescrive**
+    come quella grandezza vada misurata. Nel lotto 1C **undici note** discutevano CCP,
+    tarature e frequenze senza citare il **manuale HACCP**, e in quattro casi quel manuale
+    conteneva esattamente ciò che la nota dichiarava mancante. ⚠️ **Regola operativa:** se una
+    nota tocca un punto critico, una taratura, una frequenza di verifica o una responsabilità
+    di processo, **il manuale HACCP si apre e si cita, o si dichiara perché non serve.**
+22. **Chi estende una nota vecchia la fa uscire dal perimetro che la controlla**
+    (19/08/2026, lotto 1C). La QA a perimetro di lotto guarda le note che citano i grezzi
+    **del lotto**: due note estese in 1C — una data senza fonte, una nota oltre le 350
+    parole — sono passate indenni e le ha prese solo la QA a perimetro vault, che non si
+    lancia a ogni lotto. **Candidato emendamento a §7**: il perimetro deve comprendere le
+    note *modificate*, non solo quelle che citano i grezzi.
 
 ---
 
@@ -159,12 +186,26 @@ coerente.
 | Otto note nate dalle correzioni mai ri-giudicate | E9, poi E26 |
 | `powercfg` cambiato per il run e non ripristinato | annotare i valori PRIMA, dichiarare ogni comando di sistema |
 | Finestra del terminale chiusa durante un run | i runner girano staccati e riprendibili riga per riga |
+| Pacchetto per il giudice generato PRIMA delle correzioni pre-giudizio | due rilievi su dodici su testo che non esisteva più: il pacchetto si genera **dopo** (1C) |
+| Architettura inventata su un registro che non la dichiara | «la catena di riferibilità si chiude su `TS-REF`»: il registro dice `TS-005`, e nessuna riga mette `TS-REF` a monte di nulla (1C) |
+| Undici note su CCP e tarature senza il manuale HACCP | la fonte che prescrive va cercata apposta: quattro di quelle note dichiaravano mancante ciò che il manuale contiene (1C) |
+| Il `summary` corretto per ultimo, quando il corpo era già stato attenuato | title e summary si rileggono come note a sé **a ogni giro** di giudizio, non una volta sola (1C) |
 
 ---
 
 ## 6. Vigilanze aperte (da tenere d'occhio al prossimo gate)
 
-- **Densità crescente**: 2,1 (pilota) → 6,0 (1A) → 9,5 (1B) note di contenuto per grezzo.
+- **Densità crescente**: 2,1 (pilota) → 6,0 (1A) → 9,5 (1B) → **13,5 (1C)** note di
+  contenuto per grezzo. ⚠️ **Alla chiusura di 1C la lettura è cambiata**: le note *per
+  lotto* sono molto più stabili (27-46, dispersione 50 %) della densità *per grezzo*
+  (2,1-13,5, dispersione 147 %). Non è il corpus che diventa più denso: è il lotto che si
+  è rimpicciolito. Proiettare con la densità dà 903 note e 36 lotti, ed è un artefatto.
+- **Il secondo sito non ha una nota padrona** (T40): il magazzino di Via Palù 3/A ha tre
+  strumenti su tre con taratura scaduta e un verbale che lo chiama unità locale separata,
+  ma nessun grezzo finora lo descrive. Da tenere d'occhio nei lotti 2 e 3.
+- **`MD-1800`, metal detector di Linea 3**: un registro lo dà con la convalida scaduta dal
+  03/04/26, l'altro conforme fino al 19/08/2026. È l'unica divergenza del lotto 1C con una
+  conseguenza operativa a calendario.
   Le stime della matrice per i lotti 2-10 sono sistematicamente basse: **ricalibrare**
   alla chiusura di 1C.
 - **Questioni aperte in crescita** (24): al gate finale ognuna deve essere «aperta

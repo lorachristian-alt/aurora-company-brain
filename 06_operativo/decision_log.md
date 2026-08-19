@@ -705,3 +705,70 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   difetto da aggirare in fase di parsing, è un **fatto dell'archivio** — il file nasce
   appiccicando due elenchi con schemi diversi — e come tale ha una nota nel vault, esattamente
   come il checksum fallito del datalogger e le revisioni non accettate del contratto frigo.
+- **2026-08-19** · S4 lotto 1C, chiusura · **Una divergenza apparente che l'archivio scioglie e'
+  un RISULTATO, e la tabella di tracciamento ora distingue tre esiti** · T17 sembrava una
+  contraddizione — il quaderno del capoturno scrive «bomb0la n0rdgas cambiata alle 16» e la bolla
+  dello stesso giorno consegna azoto **sfuso** in serbatoio e bombole di sola CO2 — e non lo era:
+  l'inventario di magazzino, gia' nel vault dal pilota, registra **18 bombole di azoto «scorta
+  rampa»** con nota «rampa emergenza PKM-450». Gli esiti possibili di una riga di tracciamento
+  diventano quindi tre: *chiusa*, *aperta dichiarata* e **riconciliata**. ⚠️ Chi scrive una
+  riconciliazione **dichiara l'inferenza**: che *quella* bombola venisse dalla rampa nessuna fonte
+  lo afferma.
+- **2026-08-19** · S4 lotto 1C, chiusura · **Il criterio di aggancio con cui 120 righe di strumento
+  diventano 27 note, dichiarato come il titolare ha chiesto** · quattro classi, e nessuna riga ha
+  una nota tutta sua: **(a)** lo strumento presidia un CCP o un impianto gia' canonizzato; **(b)**
+  la riga porta uno stato anomalo dichiarato dal registro stesso; **(c)** la riga contraddice un
+  documento gia' nel vault; **(d)** la riga dichiara una regola o un obbligo. Contate da script:
+  **43 matricole su 120** sono nominate, in 22 note; le altre 77 vivono nei conteggi dell'hub.
+  ⚠️ **Il campione al revisore non e' stato un campione: sono state tutte.** Il pacchetto del
+  giudizio contiene tutte le note del lotto, quindi le 13 nate dal CSV sono state giudicate una
+  per una, per tre giri, e nessuna e' stata segnalata come non agganciabile a una domanda.
+- **2026-08-19** · S4 lotto 1C, chiusura · **Il ciclo di ri-giudizio ha girato TRE volte e si e'
+  chiuso per E26, non per esaurimento: 27 rilievi, tutti accolti** · 12 al primo giro su 28 note,
+  8 al secondo su 29, 7 al terzo su 29. ⚠️ **Nessuno dei 27 riguardava un numero, una data o un
+  codice**: quelli li prende lo strato deterministico. **Il primo pattern lo ha nominato il giudice
+  al secondo giro: «il corpo cautela, l'intestazione afferma».** Sei rilievi su sette, al terzo
+  giro, stavano ancora nel `title` o nel `summary`, e in cinque casi il corpo della stessa nota
+  era corretto. La causa e' meccanica: **il summary si scrive per primo e si corregge per ultimo**,
+  quindi quando una correzione attenua il corpo l'intestazione resta com'era. Antidoto, dal lotto
+  2: rileggere `title` e `summary` come note a se' **a ogni giro**, non una volta sola.
+- **2026-08-19** · S4 lotto 1C, chiusura · **Il secondo pattern vale piu' del primo: LA FONTE
+  TRASVERSALE NON CITATA** · delle quattordici lacune di copertura del terzo giro, **undici
+  indicavano lo stesso documento**, il manuale HACCP. ⚠️ **In quattro casi conteneva esattamente
+  cio' che la nota dichiarava mancante**: che l'`MD-1800` e' «gestito come CCP assimilato al CCP3»;
+  che il pericolo «frammenti di plastica da organi macchina» **non e' rilevabile dal metal
+  detector**; che la verifica del CCP3 e' **annuale, del costruttore**; che esiste un `PRP-03`
+  «Manutenzione preventiva impianti e taratura strumenti». **Perche' e' successo:** chi canonizza
+  un grezzo che *registra* cerca gli altri documenti che *registrano* la stessa cosa, e non pensa
+  al documento che **prescrive** come quella cosa vada fatta. La riconciliazione incrociata ha
+  funzionato in orizzontale e ha mancato la verticale. **Antidoto:** quando una nota tocca un CCP,
+  una taratura, una frequenza di verifica o una responsabilita' di processo, il manuale HACCP si
+  apre e si cita — o si dichiara perche' non serve. ⚠️ **Nel vault ci sono 30 note che nominano un
+  CCP e non citano il manuale**: portato al titolare come decisione, perche' guardarle adesso costa
+  molto meno che al gate finale.
+- **2026-08-19** · S4 lotto 1C, chiusura · **Chi estende una nota vecchia la fa uscire dal
+  perimetro che la controlla** · estendendo `fatto-convalida-md-1800-scaduta` e
+  `fatto-cariche-f-gas-impianti-frigoriferi` ho introdotto **una data senza fonte e una nota oltre
+  le 350 parole**: la QA a perimetro di lotto **non li ha visti**, perche' quelle note non citano
+  i grezzi di 1C, e li ha presi solo la QA a perimetro vault, che non si lancia a ogni lotto.
+  **Candidato emendamento a metodo_03 §7**: il perimetro di lotto deve comprendere le note
+  **modificate** dal lotto, non solo quelle che citano i suoi grezzi. Secondo candidato, dello
+  stesso genere: **il pacchetto per lo strato di giudizio si genera DOPO le correzioni
+  pre-giudizio** — in questo lotto e' stato generato prima, e due rilievi su dodici del primo giro
+  riguardavano testo che non esisteva piu'.
+- **2026-08-19** · S4 lotto 1C, chiusura · **La ricalibrazione dei budget chiesta dal coordinatore
+  ha prodotto un risultato che NON si puo' consegnare, e il perche' e' il risultato utile** ·
+  proiettando la densita' misurata (8,2 note per grezzo dopo il pilota) sui 125 grezzi restanti si
+  ottengono **903 note e 36 lotti**, con ogni lotto restante sopra il tetto di 40 note. ⚠️ **E' un
+  artefatto, e i numeri lo dimostrano**: le note *per lotto* hanno dispersione del **50 %** (27-46),
+  la densita' *per grezzo* del **147 %** (2,1-13,5). I grezzi per lotto sono passati **da 22 a 2**
+  mentre le note restavano fra 46 e 27: **cio' che resta costante e' il lotto, non la densita'**.
+  Tre cause plausibili e nessuna misurabile oggi: i lotti chiusi contengono i grezzi piu' densi,
+  scelti per primi; il vault che sa di piu' produce piu' riconciliazioni (1C lo conferma: 4
+  divergenze su 9 nate da documenti vecchi); il **costo fisso di apparato** — hub, entita', index —
+  si spalma su meno grezzi quando il lotto e' piccolo (in 1C, 4 note su 27). **Proposta portata al
+  titolare:** budget a **capacita'** (25-35 note per lotto), grezzi decisi in apertura contando i
+  fatti, lotti 2-10 spezzati in pacchetti da 3-5 grezzi. Il piano passa da 12 a **28-30 lotti**, e
+  **cambia il calendario delle Sessioni 4-5**. ⚠️ **Cio' che non ho fatto:** riscrivere le fasce dei
+  lotti 2-10 coi numeri della proiezione. Una stima sbagliata sostituita da una peggiore non e' una
+  ricalibrazione.

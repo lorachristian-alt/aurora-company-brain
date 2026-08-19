@@ -373,3 +373,55 @@ mentre quella della **cella** riparta con `RTC=SYNC`. La conclusione — il log 
 utilizzabile come evidenza in audit — regge sugli altri due difetti (la durata gia' presente nel
 record di apertura e il file troncato), ma l'orologio non sincronizzato **non toglie data agli
 allarmi di temperatura della cella**.
+## Aggiunte del 19/08/2026 — contraddizioni emerse in Sessione 4, lotto 1C (metrologia e gas tecnici)
+
+Registrate applicando la procedura di **categoria B** di `metodo_03_canonizzazione.md` §9.5:
+divergenze reali del corpus, non elencate nei gruppi precedenti, trovate sui due grezzi del
+lotto 1C — l'elenco delle attrezzature con lo stato di taratura e la bolla di ingresso dei gas
+alimentari. **I grezzi non sono stati toccati.** Ciascuna ha gia' la sua nota nel vault.
+
+⚠️ **La famiglia nuova di questo lotto ha un nome: DUE REGISTRI PARALLELI DELLA STESSA
+GRANDEZZA, nessuno dei due dichiarato prevalente.** Non e' la stessa cosa delle divergenze fra
+due misure ne' delle azioni correttive non confermate dal dato (famiglia del lotto 1B): qui due
+sistemi di registrazione **censiscono gli stessi oggetti** — gli strumenti che misurano i punti
+critici — e non concordano su date, periodicita' ed esecutore. Riguarda cio' che un auditor
+verifica per primo quando vuole sapere se una registrazione vale.
+
+| Cosa diverge | Dove | Valore da preferire |
+|---|---|---|
+| **Metrologia del `PT-104`: due censimenti, due periodicita', due esecutori** | `scheda_manutenzione_ordinaria_forni_industrial.csv` righe 20-21 → «Sonde TT_01/TT_02/TT_03» tarate ogni **6 mesi** il `09/02/26` e «Sonda a cuore T_CUORE» ogni **3 mesi** il `2026-03-16`, esecutore **Analytica Veneta (F0090)**, note «rif. CCP2» e «rif. CCP2 - MOD-QA-12»; `elenco_attrezzature_taratura_strumenti_2026.csv` righe 17-20 → i **quattro canali** `DL-001`…`DL-004` del datalogger (canale 1 «cuore prodotto», canali 2 e 3 «camera»), tarati **28/11/2025** con scadenza a **12 mesi**, esecutore **CalService Italia LAT 087**, incertezza ±0,15 °C | **Nessuno.** ⚠️ Tocca la **base metrologica dell'arbitrato datalogger contro registro cartaceo**, che il canone dava per acquisita con la sola scheda di manutenzione (add. 18/08, «due prove di solidita'»). La prova regge — al 10/05 entrambi i registri danno tarature in corso di validita' — ma **i due documenti non descrivono la stessa cosa**, e nessuna fonte dichiara se le voci del piano e le matricole dell'elenco siano lo stesso strumento |
+| **Convalida dell'`MD-3200`: annuale o semestrale** | Piano di manutenzione riga 34 → «Convalida annuale Loma + certificato», `06-feb-26` → `06/02/27`, 850,00 €, `OdL-26-0090`; elenco attrezzature riga 39 → `04/03/2026` → `04/09/2026`, «verifica funzionale + certificazione tasselli», certificato `LM-26-1174` | **Nessuno.** Cambia il mese dell'intervento e la durata della copertura: dodici mesi contro sei |
+| **`MD-1800`: SCADUTO in un registro, Conforme nell'altro** | Piano di manutenzione riga 37 → convalida `03-apr-25` → `03/04/26`, stato **`SCADUTO`**, «sollecitato da QA (Marchetti) 2 volte», nessun ordine di lavoro; elenco attrezzature riga 43 → `19/02/2026` → `19/08/2026`, esito **`Conforme`**, stato `IN USO`, certificato `LM-26-0983` | **Nessuno, ed e' la piu' grave del lotto.** Non sono due date diverse per lo stesso intervento: sono **due stati opposti dello stesso punto critico di controllo**, uno dei quali dice che la copertura manca da oltre un anno ed e' stata sollecitata senza esito |
+| **Il kit dei tasselli del CCP3 passa da tre sigle a quattro** | `checklist_metal_detector_manuale_operaio.txt` → kit **`TL-114`**; piano di manutenzione riga 35 → **`TST-CERT-KIT`**; elenco attrezzature righe 40-42 → **tre matricole** `TT-001`/`TT-002`/`TT-003` con tre certificati `LM-26-1174-A/B/C`, piu' `TT-005` di scorta; `inventario_magazzino_scadenze_FEFO_maggio.csv` riga 104 → **`KIT-MD-05`**, 3 kit a giacenza | **Nessuno.** Quattro sistemi di codifica per la stessa funzione, e i conteggi non aiutano: il magazzino ha 3 kit, l'elenco tre matricole in linea piu' una di scorta, le altre due fonti parlano di un kit al singolare |
+| **Posizione dell'`MD-3200` in linea** | `Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf` pag. 2 §5 → **fra il raffreddamento in spirale e il confezionamento**; elenco attrezzature riga 39, colonna `Ubicazione` → **«Linea 1 - post confezionamento»** | **Nessuno.** Cambia l'oggetto del controllo: dopo il confezionamento ricadrebbe nel campo del metal detector anche cio' che entra **durante** il confezionamento — che e' esattamente il caso del frammento di maggio |
+| **La taratura attestata all'autorita' sanitaria non e' nel registro degli strumenti** | `Verbale_ispezione_ATS_09_06_2026.pdf` pag. 3 §1.6 → «termoregistratore CF-02: funzionante, ultima verifica taratura **12/02/2026**»; elenco attrezzature → sulla `CF-02` nessuno dei tre strumenti porta quella data (`TI-002` 09/01/2026, `DL-006` 14/01/2026, `TR-010` 11/11/2025) | **Nessuno.** ⚠️ **Specie nuova:** uno dei due termini e' un'**attestazione resa all'autorita' sanitaria** e verbalizzata in triplice copia, l'altro e' il registro interno che dovrebbe sostenerla |
+| **La ritaratura del flussimetro azoto del 04/05 non compare nel registro degli strumenti** | `non_conformita_interne_registro_2026.csv` riga `NC-2026-082` del 04/05/2026 → causa «deriva flussimetro azoto», azione «ritaratura, annotazione su registro macchina», **CHIUSA** lo stesso giorno; elenco attrezzature riga 93 → `CV-003` «Dosatore azoto PKM-450 - flussimetro», ultima taratura **16/12/2025** | **Nessuno.** E' la famiglia gia' isolata in 1B — **un'azione correttiva registrata che il dato disponibile non conferma** — applicata questa volta a uno strumento: se la ritaratura c'e' stata, il registro metrologico non la riporta |
+| **Tre codici e due numeri di bolla per la stessa consegna di azoto** | `bolla_ingresso_azoto_alimentare_Nordgas_OCR.txt` → lotto bulk `LOT-N-260502` su DDT `26/04512`; `tracciabilita_lotti_massbalance_L26130.xlsx` foglio «A monte» riga 14 → lotto `NG-26-0506` su DDT `BN-4471`; `inventario_magazzino_scadenze_FEFO_maggio.csv` riga 80 → `NG26-0644` | **Nessuno.** Il gas e' un additivo alimentare a contatto col prodotto: con tre codici scollegati la rintracciabilita' della partita passa per la data, non per il lotto |
+| **Quantita' e livello del serbatoio di azoto del 06/05** | Bolla → `2.350` m³ gas equivalenti pari a `2.940` kg, livello da `22 %` a **`87 %`** a fine scarico; inventario riga 80 → **2.310** m³ e nota di riga «bolla Nordgas 06/05 - **livello 68%**» | **Nessuno.** Sulle quantita' lo scarto e' di 40 m³ e puo' essere consumo, dato che l'inventario e' dichiarato al 31/05; sul livello l'inventario **attribuisce alla bolla un valore che la bolla non contiene** |
+
+### Due riconciliazioni, non due divergenze — 19/08/2026
+
+Come per la coppia registrata il 18/08, vale la pena scriverle: sono casi in cui l'archivio,
+letto per intero, **toglie** una contraddizione apparente invece di aggiungerne una.
+
+- **L'azoto arriva per due strade, e questo concilia bolla e quaderno.** Il quaderno del
+  capoturno del 6/5 annota «bomb0la n0rdgas cambiata alle 16», mentre la bolla dello stesso
+  giorno consegna azoto **sfuso** in serbatoio e bombole di sola CO2. L'inventario riga 101
+  registra **18 bombole di azoto «scorta rampa»** con nota «rampa emergenza PKM-450»: le
+  bombole esistono in giacenza e non devono essere arrivate quel giorno per poter essere
+  cambiate quel giorno. ⚠️ Che *quella* bombola venisse dalla rampa resta una lettura, non un
+  fatto dichiarato da una fonte.
+- **La non conformita' `NC-2026-084` coincide punto per punto col suo documento di origine.**
+  La bolla annota «(v. n0stra NC interna O84)» e il registro delle non conformita' porta la
+  `NC-2026-084` del 06/05/2026 con stessa data, stesso fornitore (`F0061`), stesso motivo
+  (certificato in copia sbiadita), stessa azione (originale richiesto via PEC, ricevuto
+  08/05), stesso responsabile e chiusura al 08/05. **E' il primo caso del corpus in cui una
+  riga del registro NC trova il proprio documento e i due non divergono.**
+
+### Un'assenza verificata, dal lotto 1C
+
+- Il **certificato di analisi `CA-26/0912` del 05/05/2026**, richiamato dalla bolla come
+  allegato e dichiarato consegnato «in copia cartacea», **non e' in archivio**: la ricerca su
+  tutti i 160 file del manifest v1.1 con l'estrattore congelato non ne trova traccia. Le
+  analisi dei due gas alimentari esistono quindi **solo come trascrizione dentro la bolla**,
+  e il laboratorio che le firma e' **interno al fornitore**.

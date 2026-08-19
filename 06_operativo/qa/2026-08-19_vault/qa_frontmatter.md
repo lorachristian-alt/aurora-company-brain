@@ -1,7 +1,7 @@
-## qa_frontmatter (perimetro: vault, 145 note)
+## qa_frontmatter (perimetro: vault, 173 note)
 
 - ERRORI: **0**
-- AVVISI: **28**
+- AVVISI: **33**
 
 ### Avvisi
 
@@ -11,8 +11,10 @@
 | `fatto-anomalia-consumo-cf-02-maggio.md` |  | frontmatter | corpo di 348 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-assistenza-esterna-24-04-cf-02.md` |  | frontmatter | corpo di 341 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-avvertenza-costruttore-guarnizioni-non-originali.md` |  | frontmatter | corpo di 315 parole: fra 301 e 350, si motiva o si spezza |
-| `fatto-cariche-f-gas-impianti-frigoriferi.md` |  | frontmatter | corpo di 327 parole: fra 301 e 350, si motiva o si spezza |
+| `fatto-cariche-f-gas-impianti-frigoriferi.md` |  | frontmatter | corpo di 346 parole: fra 301 e 350, si motiva o si spezza |
+| `fatto-convalida-md-1800-scaduta.md` |  | frontmatter | corpo di 320 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-decisione-proseguire-valvola-08-05.md` |  | frontmatter | corpo di 335 parole: fra 301 e 350, si motiva o si spezza |
+| `fatto-due-registri-paralleli-della-metrologia.md` |  | frontmatter | corpo di 335 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-fermo-pkm-450-l26130.md` |  | frontmatter | corpo di 330 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-guarnizione-pkm-450-manutenzione-scaduta.md` |  | frontmatter | corpo di 332 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-integrita-log-allarmi-cf-02.md` |  | frontmatter | corpo di 311 parole: fra 301 e 350, si motiva o si spezza |
@@ -24,6 +26,9 @@
 | `fatto-repliche-shelf-life-l26130-divergenti.md` |  | frontmatter | corpo di 331 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-riepilogo-datalogger-inaffidabile.md` |  | frontmatter | corpo di 314 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-risalita-termica-post-riavvio-l26130.md` |  | frontmatter | corpo di 326 parole: fra 301 e 350, si motiva o si spezza |
+| `fatto-sonde-pt-104-in-taratura.md` |  | frontmatter | corpo di 330 parole: fra 301 e 350, si motiva o si spezza |
+| `fatto-strumenti-cf-02-e-ccp4.md` |  | frontmatter | corpo di 333 parole: fra 301 e 350, si motiva o si spezza |
+| `fatto-strumenti-esclusi-da-taratura.md` |  | frontmatter | corpo di 348 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-verifiche-ccp3-turno-l26130.md` |  | frontmatter | corpo di 311 parole: fra 301 e 350, si motiva o si spezza |
 | `kpi-manutenzioni-arretrate-2026.md` |  | frontmatter | corpo di 344 parole: fra 301 e 350, si motiva o si spezza |
 | `kpi-quadratura-consumi-energetici-maggio.md` |  | frontmatter | corpo di 334 parole: fra 301 e 350, si motiva o si spezza |
