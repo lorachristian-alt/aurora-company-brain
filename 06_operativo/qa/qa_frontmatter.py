@@ -179,7 +179,7 @@ def controlla(nota, rep, oggi, nomi_manifest, aree_con_hub):
     s = str(fm.get("summary") or "")
     if len(s) > 250:
         rep.avviso(n, CONTROLLO, "summary di %d caratteri (tetto 250)" % len(s))
-    if len(re.findall(r"[.!?](?:\s|$)", s.rstrip())) > 1:
+    if Q.conta_frasi(s) > 1:
         rep.avviso(n, CONTROLLO, "summary contiene piu' di una frase")
 
     # --- budget di parole della nota atomica ------------------------------------

@@ -2,9 +2,10 @@
 """collaudo_suite — la suite QA trova tutto cio' che deve, e niente di cio' che non deve.
 
 Costruisce un vault finto con DUE note: una corretta, costruita su valori
-riscontrati nei grezzi veri, e una con cinque difetti piantati apposta. Poi lancia
-la suite e verifica che ciascun difetto sia stato trovato e che la nota corretta
-NON abbia prodotto errori.
+riscontrati nei grezzi veri, e una con SEI difetti piantati apposta. Poi lancia
+la suite e verifica che ciascun difetto sia stato trovato, che la nota corretta
+NON abbia prodotto errori, e che non abbia prodotto nemmeno gli avvisi elencati
+in VIETATI — la prova che un fix che allenta un controllo non ha aperto buchi.
 
 Un controllo che non e' stato collaudato non e' un controllo: e' una speranza.
 
@@ -71,7 +72,7 @@ Hub minimo, che serve solo a dare una radice alle due note del collaudo.
 BUONA = """\
 ---
 title: "Deviazione di temperatura del 10/05/2026 — nota di collaudo corretta"
-summary: "Il 10/05/2026 il datalogger del PT-104 registra 68,9 gradi al cuore alle 14:21:07 con flag di allarme, sul turno che il foglio OEE chiude a 36,5."
+summary: "Il 10/05/2026 il datalogger del PT-104 registra 68,9 gradi al cuore alle 14:21:07 con flag di allarme, sul turno che il foglio OEE chiude a 36,5 alla riga n. 145."
 type: atomica
 area: qualita
 tags: [areas, qualita, collaudo, ccp2]
@@ -111,11 +112,15 @@ Si aggancia a [[area-qualita]] e alla sua gemella difettosa
 #  2. numero senza riscontro   -> qa_provenance
 #  3. wikilink rotto           -> qa_link_integrity
 #  4. area fuori vocabolario   -> qa_frontmatter
+#  6. summary multi-frase     -> qa_frontmatter. Piantato al gate del lotto 1B, quando
+#     il conteggio delle frasi e' stato reso cieco ai punti di abbreviazione: questo
+#     riassunto ha DUE frasi vere e dentro le abbreviazioni dell'elenco chiuso, quindi
+#     dimostra che il fix non ha aperto un buco.
 #  5. stato sbagliato          -> qa_frontmatter (chiuso fuori da projects\)
 ROTTA = """\
 ---
 title: "Deviazione di temperatura del 10/05/2026 — nota di collaudo difettosa"
-summary: "La stessa deviazione della nota gemella, riscritta con cinque difetti piantati apposta per verificare che la suite li trovi tutti."
+summary: "La stessa deviazione della nota gemella, riscritta con sei difetti piantati apposta. Il riassunto ha due frasi vere e dentro le abbreviazioni n. e rev., cosi' il controllo deve segnalarlo lo stesso."
 type: atomica
 area: qualita-alimentare
 tags: [areas, qualita, collaudo]
@@ -147,7 +152,17 @@ ATTESI = [
     ("area fuori vocabolario", "qa_frontmatter",     r"qualita-alimentare.*vocabolario"),
     ("stato sbagliato",        "qa_frontmatter",     r"stato vuole risolto\|aperto"),
     ("wikilink rotto",         "qa_link_integrity",  r"wikilink rotto.*nota-che-non-esiste-mai"),
+    ("summary multi-frase",     "qa_frontmatter",     r"fatto-collaudo-rotto.*?piu' di una frase"),
     ("numero senza riscontro", "qa_provenance",      r"99999|99\.999"),
+]
+
+
+# Cio' che la suite NON deve dire sulla nota CORRETTA, avvisi compresi. Nasce col fix del
+# gate 1B: un fix che allenta un controllo si approva solo se il collaudo prova che non apre
+# buchi, e la prova sta in due pezzi — il difetto piantato qui sopra, e questo divieto sul
+# riassunto della nota buona, che porta un'abbreviazione ed e' una frase sola.
+VIETATI = [
+    ("summary multi-frase sulla nota corretta", r"piu' di una frase"),
 ]
 
 
@@ -219,11 +234,19 @@ def main():
             print("   " + r)
 
     print("\n" + "=" * 74)
+    print("COLLAUDO — cosa NON doveva dire, nemmeno come avviso")
+    print("=" * 74)
+    for etichetta, rx in VIETATI:
+        colpiti = [r for r in avvisi_buona if re.search(rx, r, re.I)]
+        print("%-42s %s" % (etichetta, "assente, bene" if not colpiti else "*** COMPARSO ***"))
+        falsi += colpiti
+
+    print("\n" + "=" * 74)
     if mancati or falsi:
         print("COLLAUDO FALLITO — difetti non trovati: %s | falsi positivi: %d"
               % (", ".join(mancati) or "nessuno", len(falsi)))
         return 1
-    print("COLLAUDO SUPERATO — 5 difetti su 5 trovati, 0 falsi positivi sulla nota corretta.")
+    print("COLLAUDO SUPERATO — 6 difetti su 6 trovati, 0 falsi positivi e 0 avvisi vietati\n          sulla nota corretta.")
     return 0
 
 

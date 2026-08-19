@@ -151,6 +151,42 @@ def testo_fonte(nome):
 
 # ------------------------------------------------------- normalizzazione
 
+# ---- conteggio delle frasi di un `summary` ---------------------------------------
+# ⚠️ FIX approvato dal coordinatore al gate del lotto 1B, con PERIMETRO CHIUSO.
+# Il controllo «summary contiene piu' di una frase» contava i punti fermi, e in questo
+# corpus sbagliava su ogni riassunto che contenesse una ragione sociale o un protocollo:
+# «Frigotecnica Berica S.r.l.», «prot. VE-2026-3391», «Registro revisori n. 148223».
+# Il fix ALLENTA un controllo, quindi non e' generico: vale solo per le abbreviazioni
+# elencate qui sotto, e l'elenco si allunga **solo per un caso attestato nel corpus**,
+# mai per prudenza. Il collaudo pianta un summary davvero multi-frase, con dentro queste
+# stesse abbreviazioni, per dimostrare che il buco non si e' aperto.
+ABBREVIAZIONI = frozenset((
+    "s.r.l.", "s.p.a.", "s.n.c.", "s.a.s.",
+    "prot.", "rev.", "n.", "nn.", "art.", "artt.", "pag.", "pagg.", "cod.", "cfr.",
+    "sig.", "sig.ra", "dott.", "dott.ssa", "ing.", "rag.", "p.i.", "geom.",
+    "es.", "ecc.", "min.", "max.", "ca.", "c.a.", "u.m.",
+))
+
+_RE_FINE_FRASE = re.compile(r"[.!?](?=\s|$)")
+
+
+def conta_frasi(s):
+    """Quante frasi contiene una stringa, saltando i punti di abbreviazione.
+
+    Un punto che chiude una sigla dell'elenco ABBREVIAZIONI non chiude la frase.
+    I punti interni di una sigla — la `S.` e la `r.` di `S.r.l.` — non sono mai
+    seguiti da spazio, quindi non entrano nemmeno nel conteggio.
+    """
+    s = (s or "").rstrip()
+    n = 0
+    for m in _RE_FINE_FRASE.finditer(s):
+        pezzi = s[:m.end()].split()
+        if s[m.start()] == "." and pezzi and pezzi[-1].lower() in ABBREVIAZIONI:
+            continue
+        n += 1
+    return n
+
+
 def senza_accenti(s):
     return "".join(c for c in unicodedata.normalize("NFD", s)
                    if unicodedata.category(c) != "Mn")
