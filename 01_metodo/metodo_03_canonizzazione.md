@@ -1980,6 +1980,26 @@ note → suite QA → revisore indipendente → correzioni propagate → suite Q
    escono dal lotto senza aver mai visto il giudizio: nel pilota della Sessione 2 sono state
    otto, cioè un quinto delle note di contenuto, ed è un buco che si apre proprio sulle note
    scritte di fretta a fine sessione.
+
+   ⚠️ **Quando il ciclo si ferma** (E26). Correggere riscrive, e riscrivere crea note nuove da
+   giudicare: senza una regola d'arresto il giro può ripetersi all'infinito. La regola, in tre
+   righe:
+
+   | Condizione | Cosa si fa |
+   |---|---|
+   | un giro torna con **zero rilievi accolti** | il ciclo si chiude, qualunque sia il numero del giro |
+   | si arriva al **terzo giro** | il ciclo si chiude **comunque** |
+   | il terzo giro produce **ancora rilievi accolti** | ⚠️ il lotto **non si chiude ripetendo il ciclo**: si chiude solo dopo che il rapporto di lotto ha **nominato il pattern** che li rigenera |
+
+   La terza riga è la sostanza della regola. Se al terzo giro i rilievi non si esauriscono, il
+   problema non sono più le singole note: **è una classe d'errore**, e ripetere il ciclo la
+   insegue invece di chiuderla. Nominare il pattern nel rapporto costa dieci righe e vale per
+   tutti i lotti successivi; un quarto giro costa un'ora e vale per quel lotto solo.
+
+   Nasce dal lotto 1B delle Sessioni 4-5, dove il ciclo ha girato **quattro** volte (5, 4, 4 e
+   1 rilievi accolti) prima che qualcuno si chiedesse che cosa li stesse rigenerando. Quel
+   lotto è sanato ex post — il suo rapporto nomina il pattern — e da qui in poi il pattern si
+   nomina al terzo giro, non al quarto.
 6. **Stato su disco** (`06_operativo\stato_canonizzazione.md`): lotto chiuso, note
    prodotte, esito QA, avvisi motivati, cosa resta.
 7. **Voce nel decision log** (`06_operativo\decision_log.md`): ogni scelta di design
