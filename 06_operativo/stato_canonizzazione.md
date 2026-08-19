@@ -38,13 +38,13 @@ prescrive la regola del gate 1A.
 
 | Grandezza | Valore |
 |---|---|
-| Note nel vault | **176** |
+| Note nel vault | **179** |
 | di cui `_index` | 11 |
-| di cui note-strumento del progetto | 6 |
+| di cui note-strumento del progetto | 9 |
 | di cui note di diario (`sessione`, `daily`) | 4 |
 | **di cui note di contenuto** | **155** |
-| Note per cartella | areas 94 · entities 22 · data 22 · projects 8 · docs 8 · code 7 · workspace 7 · concepts 5 · self 1 · outputs 1 · sources 1 |
-| Note per `type` | atomica 94 · conflitto 33 · entita 18 · hub 12 · index 11 · concetto 4 · sessione 4 |
+| Note per cartella | areas 94 · entities 22 · data 22 · code 10 · projects 8 · docs 8 · workspace 7 · concepts 5 · self 1 · outputs 1 · sources 1 |
+| Note per `type` | atomica 97 · conflitto 33 · entita 18 · hub 12 · index 11 · concetto 4 · sessione 4 |
 | Questioni aperte (`type: conflitto`) | 33 |
 | Grezzi in `sources\` | 160 |
 | Grezzi citati da almeno una nota | **35** |

@@ -1,7 +1,7 @@
-## qa_frontmatter (perimetro: lotto, 86 note)
+## qa_frontmatter (perimetro: lotto, 89 note)
 
 - ERRORI: **0**
-- AVVISI: **25**
+- AVVISI: **27**
 
 ### Avvisi
 
@@ -32,3 +32,5 @@
 | `kpi-mass-balance-l26130.md` |  | frontmatter | corpo di 330 parole: fra 301 e 350, si motiva o si spezza |
 | `kpi-quadratura-consumi-energetici-maggio.md` |  | frontmatter | corpo di 334 parole: fra 301 e 350, si motiva o si spezza |
 | `kpi-shelf-life-af-sn-0450.md` |  | frontmatter | corpo di 350 parole: fra 301 e 350, si motiva o si spezza |
+| `script-candidate-r1.md` |  | frontmatter | corpo di 338 parole: fra 301 e 350, si motiva o si spezza |
+| `script-fonti-prescrittive.md` |  | frontmatter | corpo di 340 parole: fra 301 e 350, si motiva o si spezza |

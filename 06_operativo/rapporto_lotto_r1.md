@@ -17,9 +17,9 @@
 | Grezzi canonizzati | **0** — è il punto: l'elenco dei grezzi porta `# MANUTENZIONE` e non ha righe utili |
 | Perimetro | **71 note**, generate da `06_operativo\candidate_r1.py` in `qa\lotti\r1_riconciliazione_verticale_note.txt` |
 | Capacità 25-35 | **non si applica** (E35): un lotto di manutenzione non punta a produrre note |
-| Note nuove prodotte | **2**, entrambe da un fatto senza padrone emerso correggendo — sotto le 30 di E28, nessuna soglia scattata |
+| Note nuove prodotte | **5**: due di contenuto, da un fatto senza padrone emerso correggendo, e **tre note-strumento** che documentano gli script nati oggi. Le note-strumento non contano nel budget (E17), le due di contenuto sono sotto le 30 di E28: nessuna soglia scattata |
 | Note toccate in più (E32) | **6**, dichiarate mentre le si toccava sotto la riga di separazione dell'elenco |
-| QA di lotto | **0 ERRORI, 45 AVVISI** — motivati al §5 |
+| QA di lotto | **0 ERRORI, 47 AVVISI** — motivati al §5 |
 | Giri di giudizio | ⚠️ **0 — da fare in una sessione diversa** |
 
 ---
@@ -143,15 +143,15 @@ esattamente dove la misura «dopo» andrà a interrogarlo.
 
 ## 5. Gli avvisi della QA, motivati
 
-**0 ERRORI, 45 AVVISI**, in cinque famiglie disgiunte che sommano al totale.
+**0 ERRORI, 47 AVVISI**, in cinque famiglie disgiunte che sommano al totale.
 
 | Famiglia | Quanti | Motivazione |
 |---|---|---|
-| Corpo fra 301 e 350 parole | **24** | ⚠️ **È l'avviso che questo lotto produce per costruzione**: aggiungere a una nota la fonte che la prescrive allunga il corpo, e sedici note del perimetro erano già sopra le 280 parole. Nessuna supera il tetto di 350, e in nessun caso la nota è stata spezzata, perché spezzarla separerebbe l'affermazione dalla prescrizione che la governa — cioè esattamente il difetto che il lotto ripara. È il **candidato emendamento 2** del §10 |
+| Corpo fra 301 e 350 parole | **26** | ⚠️ **È l'avviso che questo lotto produce per costruzione**: aggiungere a una nota la fonte che la prescrive allunga il corpo, e sedici note del perimetro erano già sopra le 280 parole. Nessuna supera il tetto di 350, e in nessun caso la nota è stata spezzata, perché spezzarla separerebbe l'affermazione dalla prescrizione che la governa — cioè esattamente il difetto che il lotto ripara. È il **candidato emendamento 2** del §10 |
 | `summary` e `title` si sovrappongono per meno del 20 % | **11** | Sono le note-questione, il cui titolo è una domanda e il cui summary è la risposta con i dati: per costruzione condividono poche parole |
-| Riscontro visivo o citazione non estraibile da fonte immagine | **5** | Note costruite su scansioni e fotografie, con `verifica: visiva`: l'estrattore di testo congelato restituisce stringa vuota per costruzione, e i valori sono stati letti a occhio |
+| Riscontro visivo su fonte immagine | **3** | Note costruite su scansioni e fotografie, con `verifica: visiva`: l'estrattore di testo congelato restituisce stringa vuota per costruzione, e i valori sono stati letti a occhio |
 | Preesistenti e **non toccati**, per la regola di perimetro | **4** | ⚠️ `fatto-nc-102-origine-interna` (summary di 258 caratteri), `fatto-blackout-21-04-riavvio-centraline` e `fatto-sonda-prodotto-cf-02-in-avaria` (lontane dall'`_index` della cartella), `macchina-pkm-450` (una fonte che sorregge poche affermazioni). **Non appartengono a R1** e non sono stati corretti: il lotto guarda le note su cui una fonte prescrittiva dice qualcosa, non è un ripasso generale. Si dichiarano qui, come la regola impone |
-| Ora senza riscontro in fonte citata | **1** | Un orario letto su una scansione, che l'estrattore congelato non restituisce |
+| Citazione o ora senza riscontro, su fonte immagine | **3** | Un orario letto su una scansione, che l'estrattore congelato non restituisce |
 
 ---
 
@@ -221,13 +221,13 @@ Generati **dopo** la nota-sessione nel journal, come E34 impone da oggi.
 
 | Grandezza | Valore |
 |---|---|
-| Note nel vault | **176** |
+| Note nel vault | **179** |
 | di cui `_index` | 11 |
-| di cui note-strumento del progetto | 6 |
+| di cui note-strumento del progetto | 9 |
 | di cui note di diario (`sessione`, `daily`) | 4 |
 | **di cui note di contenuto** | **155** |
-| Note per cartella | areas 94 · entities 22 · data 22 · projects 8 · docs 8 · code 7 · workspace 7 · concepts 5 · self 1 · outputs 1 · sources 1 |
-| Note per `type` | atomica 94 · conflitto 33 · entita 18 · hub 12 · index 11 · concetto 4 · sessione 4 |
+| Note per cartella | areas 94 · entities 22 · data 22 · code 10 · projects 8 · docs 8 · workspace 7 · concepts 5 · self 1 · outputs 1 · sources 1 |
+| Note per `type` | atomica 97 · conflitto 33 · entita 18 · hub 12 · index 11 · concetto 4 · sessione 4 |
 | Questioni aperte (`type: conflitto`) | 33 |
 | Grezzi in `sources\` | 160 |
 | Grezzi citati da almeno una nota | **35** |
@@ -235,7 +235,12 @@ Generati **dopo** la nota-sessione nel journal, come E34 impone da oggi.
 
 **I grezzi restano 125 e i citati 35**, ed è la firma di un lotto di manutenzione: nessun
 grezzo nuovo è entrato. Le note di contenuto passano da 153 a **155**, cioè le due nate da
-fatti senza padrone.
+fatti senza padrone; le note-strumento da 6 a **9**, perché `metodo_03` §7 vuole in `code\`
+la nota che documenta ogni script del progetto, e oggi ne sono nati tre.
+
+⚠️ **La QA a perimetro vault resta a 128 ERRORI, esattamente com'era prima di R1.** Sono
+tutti e 128 l'incompletezza del vault — 125 grezzi non ancora canonizzati e 3 aree senza hub
+— e il fatto che il numero non si sia mosso è la prova che il lotto non ha rotto nulla.
 
 ---
 

@@ -1,4 +1,4 @@
-## qa_copertura (perimetro: lotto, 86 note)
+## qa_copertura (perimetro: lotto, 89 note)
 
 - ERRORI: **0**
 - AVVISI: **0**
@@ -122,6 +122,9 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `questione-taratura-termoregistratore-cf-02.md` | conflitto | aperto | 4 |
 | `questione-tassello-inox-non-passato.md` | conflitto | aperto | 3 |
 | `questione-verifiche-ccp3-10-05-tre-versioni.md` | conflitto | aperto | 4 |
+| `script-candidate-r1.md` | atomica | risolto | 0 |
+| `script-conta-tracciamento.md` | atomica | risolto | 0 |
+| `script-fonti-prescrittive.md` | atomica | risolto | 0 |
 | `sessione-r1-riconciliazione-verticale.md` | sessione | — | 0 |
 
 ### Grezzi del perimetro e note che li citano

@@ -1,7 +1,7 @@
 # Suite QA delle note — report unico
 
 - Data: 2026-08-19
-- Perimetro: **lotto** (lotto `r1_riconciliazione_verticale`) — **perimetro di manutenzione: 0 grezzi, 77 note** (E35)
+- Perimetro: **lotto** (lotto `r1_riconciliazione_verticale`) — **perimetro di manutenzione: 0 grezzi, 81 note** (E35)
 - Vault: `C:\Users\buulo\Desktop\aurora-cervello`
 
 | Controllo | Codice di uscita |
@@ -13,7 +13,7 @@
 
 ## Riga di riepilogo per lo stato di sessione
 
-> suite QA · perimetro manutenzione (0 grezzi, 77 note) · **0 ERRORI, 45 AVVISI** · esito **GIALLO**
+> suite QA · perimetro manutenzione (0 grezzi, 81 note) · **0 ERRORI, 47 AVVISI** · esito **GIALLO**
 
 ---
 
@@ -29,16 +29,16 @@
 | `concepts\` | 5 |
 | `data\` | 22 |
 | `outputs\` | 1 |
-| `code\` | 7 |
+| `code\` | 10 |
 | `workspace\` | 7 |
 | `sources\` | 1 |
-| **totale** | **176** |
+| **totale** | **179** |
 
-*Escluse `workspace\` e `sources\` dai conteggi di qualità: **168** note.*
+*Escluse `workspace\` e `sources\` dai conteggi di qualità: **171** note.*
 
 | `type` | Note |
 |---|---|
-| `atomica` | 94 |
+| `atomica` | 97 |
 | `concetto` | 4 |
 | `conflitto` | 33 |
 | `entita` | 18 |
@@ -47,10 +47,10 @@
 | `sessione` | 4 |
 
 ---
-## qa_frontmatter (perimetro: lotto, 86 note)
+## qa_frontmatter (perimetro: lotto, 89 note)
 
 - ERRORI: **0**
-- AVVISI: **25**
+- AVVISI: **27**
 
 ### Avvisi
 
@@ -81,9 +81,11 @@
 | `kpi-mass-balance-l26130.md` |  | frontmatter | corpo di 330 parole: fra 301 e 350, si motiva o si spezza |
 | `kpi-quadratura-consumi-energetici-maggio.md` |  | frontmatter | corpo di 334 parole: fra 301 e 350, si motiva o si spezza |
 | `kpi-shelf-life-af-sn-0450.md` |  | frontmatter | corpo di 350 parole: fra 301 e 350, si motiva o si spezza |
+| `script-candidate-r1.md` |  | frontmatter | corpo di 338 parole: fra 301 e 350, si motiva o si spezza |
+| `script-fonti-prescrittive.md` |  | frontmatter | corpo di 340 parole: fra 301 e 350, si motiva o si spezza |
 
 
-## qa_link_integrity (perimetro: lotto, 176 note nel vault)
+## qa_link_integrity (perimetro: lotto, 179 note nel vault)
 
 - ERRORI: **0**
 - AVVISI: **2**
@@ -96,7 +98,7 @@
 | `fatto-sonda-prodotto-cf-02-in-avaria.md` |  | link | lontana dall'_index della propria cartella (3 salti): indizio di cattiva collocazione |
 
 
-## qa_provenance (perimetro: lotto, 86 note)
+## qa_provenance (perimetro: lotto, 89 note)
 
 - ERRORI: **0**
 - AVVISI: **18**
@@ -125,7 +127,7 @@
 | `questione-scarti-riavvio-l26130.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 
 
-## qa_copertura (perimetro: lotto, 86 note)
+## qa_copertura (perimetro: lotto, 89 note)
 
 - ERRORI: **0**
 - AVVISI: **0**
@@ -249,6 +251,9 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `questione-taratura-termoregistratore-cf-02.md` | conflitto | aperto | 4 |
 | `questione-tassello-inox-non-passato.md` | conflitto | aperto | 3 |
 | `questione-verifiche-ccp3-10-05-tre-versioni.md` | conflitto | aperto | 4 |
+| `script-candidate-r1.md` | atomica | risolto | 0 |
+| `script-conta-tracciamento.md` | atomica | risolto | 0 |
+| `script-fonti-prescrittive.md` | atomica | risolto | 0 |
 | `sessione-r1-riconciliazione-verticale.md` | sessione | — | 0 |
 
 ### Grezzi del perimetro e note che li citano
