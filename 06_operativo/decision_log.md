@@ -585,4 +585,24 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   diario, note di contenuto, questioni aperte, grezzi citati e restanti. **Da qui in poi stato e
   rapporti di lotto lo incollano verbatim**; se un numero non e' nel blocco, o lo produce un
   altro script, oppure non si dichiara.
+- **2026-08-19** · S4 lotto 1B, gate · **Il pattern che ha rigenerato i rilievi ha un nome: IL
+  CONTESTO IMPORTATO** · e' l'adempimento che E26 chiede quando il ciclo passa il terzo giro. La
+  classe: *una frase scritta per rendere la nota leggibile — non per affermare un fatto nuovo —
+  che porta dentro qualcosa che chi scrive sa dall'archivio ma che le fonti di quella nota non
+  contengono*. Quattordici rilievi su quattordici erano di questa classe: «il foglio OEE», «il
+  payback del tunnel», «il direttore di stabilimento», «il fornitore vede l'effetto», «in piena
+  settimana di promo». ⚠️ **Si annida nelle sezioni «Perche' conta»**, cioe' dove si scrive per
+  far capire, ed e' il prezzo di note che devono reggersi da sole come chunk del RAG. **Perche'
+  il ciclo lo rigenerava:** ogni correzione riscrive quella frase, e la riscrittura e' ancora una
+  frase di contesto — il difetto non stava nelle note, stava nel gesto di correggerle.
+  **Antidoto, dal lotto 1C in poi:** prima del primo giudizio, rileggere ogni «Perche' conta» con
+  davanti le sole fonti di quella nota.
+- **2026-08-19** · S4 lotto 1B, gate · **Il terzo compito del PROMPT_GIUDIZIO v2 e' segnale poco
+  piu' di una volta su due, e il rumore ha una forma sola** · 26 segnalazioni in quattro giri, 19
+  distinte: **10 accolte, 9 respinte**. ⚠️ Il segnale e' massimo dove la nota **nomina un
+  documento senza citarlo** (5 accolte su 5). Il rumore e' tutto della stessa specie: **il
+  giudice non conosce il grafo del vault**, quindi segnala come lacuna cio' che ha una padrona
+  altrove — sette respinte su nove. Taratura suggerita al gate finale, **non applicata**: dare al
+  giudice l'elenco delle note del lotto coi loro `summary`. La classificazione una per una sta
+  nell'appendice B del rapporto di lotto, come chiesto dal coordinatore.
 

@@ -6,14 +6,14 @@
 
 | Controllo | Codice di uscita |
 |---|---|
-| `qa_frontmatter.py` | 2 |
+| `qa_frontmatter.py` | 1 |
 | `qa_link_integrity.py` | 2 |
 | `qa_provenance.py` | 2 |
 | `qa_copertura.py` | 1 |
 
 ## Riga di riepilogo per lo stato di sessione
 
-> suite QA · perimetro vault · **130 ERRORI, 79 AVVISI** · esito **ROSSO**
+> suite QA · perimetro vault · **131 ERRORI, 76 AVVISI** · esito **ROSSO**
 
 ---
 
@@ -49,8 +49,14 @@
 ---
 ## qa_frontmatter (perimetro: vault, 145 note)
 
-- ERRORI: **0**
-- AVVISI: **30**
+- ERRORI: **1**
+- AVVISI: **27**
+
+### Errori
+
+| Nota | Riga | Controllo | Rilievo |
+|---|---|---|---|
+| `fatto-obblighi-registro-f-gas.md` |  | frontmatter | corpo di 359 parole: oltre il tetto di 350, la nota va divisa |
 
 ### Avvisi
 
@@ -68,14 +74,11 @@
 | `fatto-muffe-l26128-45-giorni.md` |  | frontmatter | corpo di 319 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-nc-102-origine-interna.md` |  | frontmatter | summary di 258 caratteri (tetto 250) |
 | `fatto-nc-102-origine-interna.md` |  | frontmatter | corpo di 324 parole: fra 301 e 350, si motiva o si spezza |
-| `fatto-obblighi-registro-f-gas.md` |  | frontmatter | corpo di 337 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-piano-produzione-sett19-21.md` |  | frontmatter | corpo di 331 parole: fra 301 e 350, si motiva o si spezza |
-| `fatto-preventivo-potenza-630-kw-tunnel.md` |  | frontmatter | summary contiene piu' di una frase |
 | `fatto-repliche-shelf-life-l26130-divergenti.md` |  | frontmatter | corpo di 331 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-riepilogo-datalogger-inaffidabile.md` |  | frontmatter | corpo di 314 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-risalita-termica-post-riavvio-l26130.md` |  | frontmatter | corpo di 326 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-verifiche-ccp3-turno-l26130.md` |  | frontmatter | corpo di 311 parole: fra 301 e 350, si motiva o si spezza |
-| `questione-manutentore-frigo-berica-scaligera.md` |  | frontmatter | summary contiene piu' di una frase |
 | `kpi-manutenzioni-arretrate-2026.md` |  | frontmatter | corpo di 344 parole: fra 301 e 350, si motiva o si spezza |
 | `kpi-quadratura-consumi-energetici-maggio.md` |  | frontmatter | corpo di 334 parole: fra 301 e 350, si motiva o si spezza |
 | `kpi-shelf-life-af-sn-0450.md` |  | frontmatter | corpo di 338 parole: fra 301 e 350, si motiva o si spezza |
@@ -377,7 +380,7 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `fatto-fermo-pkm-450-l26130.md` | atomica | risolto | 4 |
 | `fatto-guarnizione-pkm-450-manutenzione-scaduta.md` | atomica | risolto | 3 |
 | `fatto-manutenzioni-rimandate-per-promo.md` | atomica | aperto | 1 |
-| `fatto-obblighi-registro-f-gas.md` | atomica | aperto | 1 |
+| `fatto-obblighi-registro-f-gas.md` | atomica | aperto | 2 |
 | `fatto-potenza-impegnata-quasi-satura.md` | atomica | aperto | 1 |
 | `fatto-preventivo-potenza-630-kw-tunnel.md` | atomica | aperto | 1 |
 | `fatto-ricambi-fuori-area-produzione-manuale-pkm.md` | atomica | risolto | 2 |
@@ -624,7 +627,7 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `richiesta_campionatura_fiera_Cibus_2026.csv` | **nessuna** |
 | `scadenzario_effetti_RIBA_giugno26.csv` | **nessuna** |
 | `scheda_allergeni_matrice_cross_contamination.docx` | **nessuna** |
-| `scheda_manutenzione_ordinaria_forni_industrial.csv` | fatto-anomalia-consumo-cf-02-maggio, fatto-assistenza-esterna-24-04-cf-02, fatto-cariche-f-gas-impianti-frigoriferi, fatto-convalida-md-1800-scaduta, fatto-fermo-forno-ft-01-05-05, fatto-guarnizione-pkm-450-manutenzione-scaduta, fatto-manutenzioni-rimandate-per-promo, fatto-ricambi-fuori-area-produzione-manuale-pkm, fatto-riepilogo-manutenzione-non-quadra, fatto-sonde-pt-104-in-taratura, fatto-ts-01-fine-vita-dismissione, fatto-valvola-modulante-pt-104-revisione-rimandata, questione-codice-ricambio-valvola-pkm-450, questione-manutentore-frigo-berica-scaligera, questione-materiale-guarnizione-pkm-450, questione-nc-067-sbrinamenti-tunnel, questione-refrigerante-ts-01, entita-pakmatic, macchina-cf-01, macchina-ft-01, macchina-md-3200, macchina-ts-01, kpi-manutenzioni-arretrate-2026 |
+| `scheda_manutenzione_ordinaria_forni_industrial.csv` | fatto-anomalia-consumo-cf-02-maggio, fatto-assistenza-esterna-24-04-cf-02, fatto-cariche-f-gas-impianti-frigoriferi, fatto-convalida-md-1800-scaduta, fatto-fermo-forno-ft-01-05-05, fatto-guarnizione-pkm-450-manutenzione-scaduta, fatto-manutenzioni-rimandate-per-promo, fatto-obblighi-registro-f-gas, fatto-ricambi-fuori-area-produzione-manuale-pkm, fatto-riepilogo-manutenzione-non-quadra, fatto-sonde-pt-104-in-taratura, fatto-ts-01-fine-vita-dismissione, fatto-valvola-modulante-pt-104-revisione-rimandata, questione-codice-ricambio-valvola-pkm-450, questione-manutentore-frigo-berica-scaligera, questione-materiale-guarnizione-pkm-450, questione-nc-067-sbrinamenti-tunnel, questione-refrigerante-ts-01, entita-pakmatic, macchina-cf-01, macchina-ft-01, macchina-md-3200, macchina-ts-01, kpi-manutenzioni-arretrate-2026 |
 | `scheda_sicurezza_detergente_acido_lavaggio_CIP.txt` | **nessuna** |
 | `scheda_tecnica_farina_tipo_0_MolinoVeneto.txt` | **nessuna** |
 | `segnalazione_guasto_cancello_carraio.txt` | **nessuna** |

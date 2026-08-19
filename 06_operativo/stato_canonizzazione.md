@@ -68,6 +68,7 @@ dell'energia elettrica dello stesso mese.
 | Densità | **9,5 note per grezzo**, contro 6,0 di 1A e 2,1 del pilota |
 | QA di lotto | **0 ERRORI, 18 AVVISI**, famiglie disgiunte che sommano al totale |
 | Passaggi di controllo | **quattro giri di giudizio** più la revisione col canone: 31 rilievi distinti accolti, tutti fondati |
+| Calibrazione del ritmo | **1B = 4 giri di giudizio e 31 rilievi accolti su 4 grezzi.** Il pattern che ha richiesto i giri extra è il **contesto importato** — la frase scritta per far capire, che porta dentro un fatto che le fonti della nota non contengono. Antidoto per i lotti successivi: rileggere ogni «Perché conta» contro le sole fonti della nota **prima** del primo giudizio (rapporto 1B, appendice A) |
 | Aree nuove | **`amministrazione`**, quarto hub d'area: nasce qui e non nel lotto 6, perché è il lotto che porta una fattura passiva |
 | Versione del prompt di giudizio | **v2**, prima applicazione |
 

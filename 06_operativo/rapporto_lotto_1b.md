@@ -335,3 +335,111 @@ Otto, dal revisore. I quattro che vale la pena ricordare:
    cioè allenta un controllo, e la regola del gate 1A permette solo fix che *aggiungono*
    agganci. Se il coordinatore lo approva, la correzione è di una riga: non chiudere la frase
    su un punto preceduto da una sigla o da un'abbreviazione nota.
+
+---
+
+## Appendice A — 19/08/2026 · Il pattern che ha rigenerato i rilievi (E26)
+
+⚠️ **Obbligo della regola di arresto approvata a questo gate.** Il ciclo di ri-giudizio ha
+girato quattro volte, e E26 chiede che il rapporto **nomini la classe d'errore** che ha
+prodotto i giri extra, invece di limitarsi a ripetere il ciclo.
+
+**Il pattern è uno solo, e ha un nome: il contesto importato.**
+
+> Una frase scritta per rendere la nota **leggibile** — non per affermare un fatto nuovo —
+> che porta dentro qualcosa che chi scrive sa dall'archivio, ma che **le fonti di quella
+> nota non contengono**.
+
+I quattordici rilievi dei quattro giri sono tutti di questa classe, e nessuno ha mai
+riguardato un numero, una data o un codice:
+
+| Frase | Che cosa importava | Da dove veniva |
+|---|---|---|
+| «il foglio OEE l'efficienza» | un documento | un altro lotto |
+| «il payback del tunnel nuovo» | un'attività dell'azienda | nessun documento |
+| «prima che il fermo e il reclamo occupassero l'azienda» | due eventi | il pilota |
+| «il direttore di stabilimento» | un ruolo | la tabella alias |
+| «una NC aperta e firmata dal capo officina» | un ruolo | la tabella alias |
+| «il fornitore di energia vede l'effetto» | un'attribuzione | una nota interna letta male |
+| «le altre linee, gli ausiliari, l'illuminazione» | un elenco illustrativo | il buon senso |
+| «in piena settimana di promo» | una data | il canone |
+| «il tunnel sulla 3, la cella è di stabilimento» | un argomento | il contratto |
+
+**Dove si annida:** nelle sezioni «Perché conta» e nelle frasi di apertura — cioè
+esattamente dove si scrive *per far capire*. È il prezzo di note che devono reggersi da sole
+come chunk del RAG: per reggersi da sole devono spiegarsi, e spiegando si sconfina.
+
+**Perché il ciclo lo rigenerava:** ogni correzione **riscrive** la frase incriminata, e la
+riscrittura è di nuovo una frase di contesto. Il difetto non stava nelle note: stava nel
+gesto di correggerle.
+
+**L'antidoto, per i lotti successivi** — costa dieci minuti e va fatto **prima** del primo
+giudizio, non dopo il terzo: rileggere ogni «Perché conta» con davanti **solo** le fonti di
+quella nota, e per ogni frase chiedersi *«questa la potrei mostrare a chi ha in mano soltanto
+questi documenti?»*. Se la risposta è no, la frase o si àncora citando la fonte che la
+regge, o si toglie.
+
+---
+
+## Appendice B — 19/08/2026 · Le segnalazioni fuori verdetto del terzo compito (v2)
+
+⚠️ **Obbligo del coordinatore.** Il terzo compito del `PROMPT_GIUDIZIO` v2 — «esiste, fra le
+fonti del pacchetto, un documento che misura la stessa grandezza e che la nota non cita?» —
+è alla prima applicazione. Questa appendice classifica **una per una** le sue segnalazioni,
+perché al gate finale si decida se il compito resta, si tara o si toglie.
+
+**Il conto.** 26 segnalazioni emesse in quattro giri, di cui 7 ripetute da un giro al
+successivo: **19 distinte**. Classificate: **10 accolte con correzione, 9 respinte con
+motivo** — poco più di una su due è segnale.
+
+### Le 10 accolte
+
+| Nota | Documento segnalato | Che cosa è cambiato |
+|---|---|---|
+| `fatto-cariche-f-gas-impianti-frigoriferi` | piano di manutenzione | il piano è ora fonte: dichiara `R448A` sul tunnel, cioè la gamba della divergenza |
+| `fatto-assistenza-esterna-24-04-cf-02` | piano di manutenzione | ⚠️ **la segnalazione più preziosa dell'intero lotto**: il piano dà lo sbrinamento del 24/04 a «interno (Bissoli)», la centralina a un operatore esterno. Ne sono nate una divergenza di categoria B, la riga di canone e la riga T42 |
+| `fatto-assistenza-esterna-24-04-cf-02` | contratto | l'art. 8.1 impone un rapporto di lavoro per ogni intervento: è ciò che rende significativa l'assenza che la nota registra |
+| `kpi-consumi-energia-maggio-2026` | fattura | la nota confrontava un totale che non citava |
+| `kpi-metano-forni-maggio-2026` | fattura | la nota affermava il perimetro della fattura senza averla fra le fonti |
+| `kpi-temperatura-uscita-tunnel-ts-01-aprile` | registro NC | `NC-2026-006`: lo stesso tunnel aveva superato il limite del CCP4 a gennaio. Circoscrive un'affermazione che sembrava generale |
+| `fatto-anomalia-consumo-cf-02-maggio` | log allarmi | la nota richiamava il log nel testo senza citarlo |
+| `fatto-anomalia-consumo-cf-02-maggio` | fattura | il controllo di gestione imputa lo scostamento del mese alla stessa cella |
+| `questione-nc-067-sbrinamenti-tunnel` | piano di manutenzione | il piano registra due sbrinamenti del tunnel ad aprile: **rafforza la questione invece di chiuderla** |
+| `fatto-obblighi-registro-f-gas` | piano di manutenzione | «registro FGAS aggiornato» è l'unico riscontro in archivio sullo stato di quel registro |
+
+### Le 9 respinte, con il motivo
+
+| Nota | Documento segnalato | Perché no |
+|---|---|---|
+| `kpi-sbrinamenti-cf-02-aprile` | piano di manutenzione | **due grandezze diverse con lo stesso nome**: il piano registra sbrinamenti *di manutenzione* (pulizia programmata), il log i *cicli automatici* della centralina |
+| `fatto-allarmi-alta-temperatura-cf-02-aprile` | registro NC | il rapporto fra quegli allarmi e il registro ha già una padrona, `fatto-nessuna-nc-per-allarmi-cf-02`. Aggiungerlo qui creerebbe la doppia padrona che `qa_copertura` segnala |
+| `kpi-fattura-energia-maggio-2026` | contatori di reparto | il confronto fra le due misure ha una padrona propria, `fatto-contatori-reparto-meta-stabilimento` |
+| `fatto-forni-in-temperatura-durante-fermo-10-05` | registro NC | il fermo del 10/05 è padronanza del pilota, `fatto-fermo-pkm-450-l26130` |
+| `fatto-tre-domeniche-produttive-in-fascia-f3` | registro NC | la ricostruzione delle domeniche di maggio è una divergenza **tracciata (T12)** che appartiene ai lotti 5 e 7: questa nota possiede la sola gamba della fattura |
+| `entita-frigotecnica-berica` | piano di manutenzione | il piano usa **l'altro nome**: citarlo nella scheda di «Berica» significherebbe attribuirle righe intestate a «Scaligera», cioè decidere la questione aperta |
+| `macchina-cf-02` | piano di manutenzione | è un hub, e §7.1 clausola 4 lo verifica **contro le note che elenca**: le voci di manutenzione hanno già la loro padrona, linkata dall'hub |
+| `kpi-metano-forni-maggio-2026` | rapporto di fermo | la nota cita il fermo solo come rimando; il legame consumo/fermo ha la sua padrona |
+| `fatto-assistenza-esterna-24-04-cf-02` | manuale HACCP | la nota non afferma nulla sul limite critico: il CCP4 ha la sua nota padrona, `doc-ccp4-limite-critico` |
+
+### Che cosa dicono questi numeri sul terzo compito
+
+- **Il segnale è alto dove la nota nomina un documento senza citarlo** (cinque accolte su
+  cinque): è un difetto oggettivo, e il giudice lo vede meglio di chi ha scritto.
+- **Il rumore è tutto di una forma sola:** il giudice non conosce il grafo del vault, quindi
+  segnala come lacuna ciò che è **una padrona altrove**. Sette respinte su nove sono questo.
+- **Taratura suggerita, non applicata:** dare al giudice, dentro il pacchetto, l'elenco delle
+  note del lotto con il loro `summary`. Vedrebbe che una padrona esiste, e il rumore da
+  «padrona altrove» sparirebbe senza toccare il segnale. Da valutare al gate finale.
+
+---
+
+## Appendice C — 19/08/2026 · Conferma sulla sigla `FRIGOTEC-11`
+
+Come richiesto dal coordinatore, in una riga: **`FRIGOTEC-11` è declassata a inferenza
+dichiarata.** È fuori dagli `aliases` di `entita-frigotecnica-berica`, è registrata in
+`alias_entita.md` **classe C** fra i riferimenti che l'archivio non riconcilia, la nota che
+raccontava quell'intervento è stata rinominata da `fatto-intervento-frigotecnica-24-04-cf-02`
+a `fatto-assistenza-esterna-24-04-cf-02`, e il giro di link è chiuso: hub della cella,
+scheda del manutentore, `kpi-sbrinamenti`, nota degli allarmi e mappatura file × fatto
+puntano tutti al nome nuovo. La scheda entità dichiara per esteso che l'attribuzione sarebbe
+un'inferenza e la appende a `questione-manutentore-frigo-berica-scaligera`.

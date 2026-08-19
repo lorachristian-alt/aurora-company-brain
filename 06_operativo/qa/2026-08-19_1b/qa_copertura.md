@@ -34,7 +34,7 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `fatto-blackout-21-04-riavvio-centraline.md` | atomica | risolto | 1 |
 | `fatto-cariche-f-gas-impianti-frigoriferi.md` | atomica | aperto | 2 |
 | `fatto-energia-reattiva-oltre-soglia.md` | atomica | aperto | 1 |
-| `fatto-obblighi-registro-f-gas.md` | atomica | aperto | 1 |
+| `fatto-obblighi-registro-f-gas.md` | atomica | aperto | 2 |
 | `fatto-potenza-impegnata-quasi-satura.md` | atomica | aperto | 1 |
 | `fatto-preventivo-potenza-630-kw-tunnel.md` | atomica | aperto | 1 |
 | `fatto-sonda-prodotto-cf-02-in-avaria.md` | atomica | risolto | 1 |

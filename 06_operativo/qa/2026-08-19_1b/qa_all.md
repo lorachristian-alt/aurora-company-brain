@@ -61,7 +61,7 @@
 | `fatto-assistenza-esterna-24-04-cf-02.md` |  | frontmatter | corpo di 341 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-cariche-f-gas-impianti-frigoriferi.md` |  | frontmatter | corpo di 327 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-integrita-log-allarmi-cf-02.md` |  | frontmatter | corpo di 311 parole: fra 301 e 350, si motiva o si spezza |
-| `fatto-obblighi-registro-f-gas.md` |  | frontmatter | corpo di 337 parole: fra 301 e 350, si motiva o si spezza |
+| `fatto-obblighi-registro-f-gas.md` |  | frontmatter | corpo di 341 parole: fra 301 e 350, si motiva o si spezza |
 | `kpi-quadratura-consumi-energetici-maggio.md` |  | frontmatter | corpo di 334 parole: fra 301 e 350, si motiva o si spezza |
 | `kpi-temperatura-uscita-tunnel-ts-01-aprile.md` |  | frontmatter | corpo di 320 parole: fra 301 e 350, si motiva o si spezza |
 | `bozza-contratto-manutenzione-frigo.md` |  | frontmatter | corpo di 346 parole: fra 301 e 350, si motiva o si spezza |
@@ -132,7 +132,7 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `fatto-blackout-21-04-riavvio-centraline.md` | atomica | risolto | 1 |
 | `fatto-cariche-f-gas-impianti-frigoriferi.md` | atomica | aperto | 2 |
 | `fatto-energia-reattiva-oltre-soglia.md` | atomica | aperto | 1 |
-| `fatto-obblighi-registro-f-gas.md` | atomica | aperto | 1 |
+| `fatto-obblighi-registro-f-gas.md` | atomica | aperto | 2 |
 | `fatto-potenza-impegnata-quasi-satura.md` | atomica | aperto | 1 |
 | `fatto-preventivo-potenza-630-kw-tunnel.md` | atomica | aperto | 1 |
 | `fatto-sonda-prodotto-cf-02-in-avaria.md` | atomica | risolto | 1 |

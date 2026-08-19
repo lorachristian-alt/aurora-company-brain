@@ -215,7 +215,7 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `fatto-fermo-pkm-450-l26130.md` | atomica | risolto | 4 |
 | `fatto-guarnizione-pkm-450-manutenzione-scaduta.md` | atomica | risolto | 3 |
 | `fatto-manutenzioni-rimandate-per-promo.md` | atomica | aperto | 1 |
-| `fatto-obblighi-registro-f-gas.md` | atomica | aperto | 1 |
+| `fatto-obblighi-registro-f-gas.md` | atomica | aperto | 2 |
 | `fatto-potenza-impegnata-quasi-satura.md` | atomica | aperto | 1 |
 | `fatto-preventivo-potenza-630-kw-tunnel.md` | atomica | aperto | 1 |
 | `fatto-ricambi-fuori-area-produzione-manuale-pkm.md` | atomica | risolto | 2 |
@@ -462,7 +462,7 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `richiesta_campionatura_fiera_Cibus_2026.csv` | **nessuna** |
 | `scadenzario_effetti_RIBA_giugno26.csv` | **nessuna** |
 | `scheda_allergeni_matrice_cross_contamination.docx` | **nessuna** |
-| `scheda_manutenzione_ordinaria_forni_industrial.csv` | fatto-anomalia-consumo-cf-02-maggio, fatto-assistenza-esterna-24-04-cf-02, fatto-cariche-f-gas-impianti-frigoriferi, fatto-convalida-md-1800-scaduta, fatto-fermo-forno-ft-01-05-05, fatto-guarnizione-pkm-450-manutenzione-scaduta, fatto-manutenzioni-rimandate-per-promo, fatto-ricambi-fuori-area-produzione-manuale-pkm, fatto-riepilogo-manutenzione-non-quadra, fatto-sonde-pt-104-in-taratura, fatto-ts-01-fine-vita-dismissione, fatto-valvola-modulante-pt-104-revisione-rimandata, questione-codice-ricambio-valvola-pkm-450, questione-manutentore-frigo-berica-scaligera, questione-materiale-guarnizione-pkm-450, questione-nc-067-sbrinamenti-tunnel, questione-refrigerante-ts-01, entita-pakmatic, macchina-cf-01, macchina-ft-01, macchina-md-3200, macchina-ts-01, kpi-manutenzioni-arretrate-2026 |
+| `scheda_manutenzione_ordinaria_forni_industrial.csv` | fatto-anomalia-consumo-cf-02-maggio, fatto-assistenza-esterna-24-04-cf-02, fatto-cariche-f-gas-impianti-frigoriferi, fatto-convalida-md-1800-scaduta, fatto-fermo-forno-ft-01-05-05, fatto-guarnizione-pkm-450-manutenzione-scaduta, fatto-manutenzioni-rimandate-per-promo, fatto-obblighi-registro-f-gas, fatto-ricambi-fuori-area-produzione-manuale-pkm, fatto-riepilogo-manutenzione-non-quadra, fatto-sonde-pt-104-in-taratura, fatto-ts-01-fine-vita-dismissione, fatto-valvola-modulante-pt-104-revisione-rimandata, questione-codice-ricambio-valvola-pkm-450, questione-manutentore-frigo-berica-scaligera, questione-materiale-guarnizione-pkm-450, questione-nc-067-sbrinamenti-tunnel, questione-refrigerante-ts-01, entita-pakmatic, macchina-cf-01, macchina-ft-01, macchina-md-3200, macchina-ts-01, kpi-manutenzioni-arretrate-2026 |
 | `scheda_sicurezza_detergente_acido_lavaggio_CIP.txt` | **nessuna** |
 | `scheda_tecnica_farina_tipo_0_MolinoVeneto.txt` | **nessuna** |
 | `segnalazione_guasto_cancello_carraio.txt` | **nessuna** |
