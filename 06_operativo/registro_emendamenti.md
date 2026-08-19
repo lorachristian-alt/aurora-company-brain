@@ -1,6 +1,6 @@
 # Registro degli emendamenti a `metodo_03`
 
-> **Cos'è** · L'indice genealogico dei 35 emendamenti al manuale di canonizzazione: chi li
+> **Cos'è** · L'indice genealogico dei 38 emendamenti al manuale di canonizzazione: chi li
 > ha approvati, quando, e dove vive oggi la regola. **È un indice, non una copia.**
 > **Cosa NON contiene** · Il testo delle regole. Quello vive in
 > `01_metodo\metodo_03_canonizzazione.md`, che ne resta l'unico padrone: qui c'è l'oggetto
@@ -26,7 +26,7 @@
 Sezioni e presenza dei marcatori sono verificate contro `metodo_03` da
 `06_operativo\verifica_emendamenti.py`, non a occhio.
 
-## I 35 emendamenti
+## I 38 emendamenti
 
 | # | Data | Dove nasce | Tipo | Oggetto, in una riga | Vive in | Marc. | Il perché |
 |---|---|---|---|---|---|---|---|
@@ -65,6 +65,9 @@ Sezioni e presenza dei marcatori sono verificate contro `metodo_03` da
 | **E33** | 19/08/2026 | gate del lotto 1C | chiarimento | il pacchetto per lo strato di giudizio si genera **dopo** le correzioni pre-giudizio | §9.5, passo 2 | sì | decision log 19/08 — due rilievi su dodici, al primo giro di 1C, su testo che non esisteva più |
 | **E34** | 19/08/2026 | ⚠️ **FUORI da un gate — ordine diretto del coordinatore** | regola nuova | il ciclo di chiusura acquista la **nota-sessione** nel journal di `workspace\`, e il blocco dei conteggi di `conta_stato.py` si genera **dopo** di essa, ultimo numero prima del commit | §9.5, passo 5-bis | sì | decision log 19/08 · prompt della manutenzione R1 — il blocco del lotto 1C dichiara 172 note, `qa_all.py` dello stesso giorno 173: la differenza è la nota di diario, scritta dopo il conteggio |
 | **E35** | 19/08/2026 | ⚠️ **FUORI da un gate — ordine diretto del coordinatore** | regola nuova | esiste il **LOTTO DI MANUTENZIONE**: ripara note già scritte invece di canonizzare grezzi nuovi — perimetro di sole note con la guardia sullo zero grezzi, elenco generato da script, niente capacità 25-35, tre numeri nel rapporto | §7 · §9.4-bis | sì | decision log 19/08 · prompt della manutenzione R1 — il gate del lotto 1C apre R1, la riconciliazione verticale, che è il primo lotto di questa specie |
+| **E36** | 19/08/2026 | ⚠️ **gate intermedio del lotto R1** | chiarimento | **corregge la forma di E29**: la nota cita la fonte che prescrive **ciò di cui parla**, non una fonte prescrittiva qualsiasi | §5.1-bis | sì | `rapporto_lotto_r1.md` §2 · decision log 19/08 — la forma generica lasciava fuori 26 note su 71, cioè quelle che avevano generato il lotto. ⚠️ **Il difetto era nella DETTATURA del coordinatore, non nell'esecuzione**: la sessione ha dichiarato lo scostamento invece di applicarlo in silenzio, ed è ciò che §4 del prompt dei lotti chiede — uno scostamento dichiarato è un dato, uno taciuto è un guasto |
+| **E37** | 19/08/2026 | gate intermedio del lotto R1 | regola nuova | la **riconciliazione verticale è un passo del ciclo di lotto**, non una promessa in tabella: chi porta una fonte prescrittiva riapre le note che quella fonte governa, e il rapporto dichiara quante ne ha riaperte e quante corrette | §9.5, passo 5-ter | sì | `rapporto_lotto_r1.md` §11 · decision log 19/08 — una riga di tracciamento ricorda ma non scatta da sola (§4.29). Le note riaperte non contano nella capacità; se superano le nuove, il lotto si spezza |
+| **E38** | 19/08/2026 | gate intermedio del lotto R1 | chiarimento | i **lotti di manutenzione non entrano nella serie della capacità** quando a dieci lotti chiusi si rivedrà la fascia 25-35 di E31 | §9.4 | sì | decision log 19/08 — mettere insieme due grandezze che misurano cose diverse è ciò che ha prodotto le 903 note del calcolo lineare |
 
 ## Le anomalie di genealogia, dette per nome
 
@@ -76,7 +79,11 @@ Sezioni e presenza dei marcatori sono verificate contro `metodo_03` da
    nell'appendice A come obbligo già approvato, ma quel gate non ha prodotto una tabella
    di emendamenti come avevano fatto S2 e 1A.
 3. **E27, E28, E34 ed E35 sono nati fuori da un gate**, su ordine diretto del coordinatore
-   del 19/08/2026, e sono approvati a pieno titolo. ⚠️ E34 ed E35 arrivano per una via ancora
+   del 19/08/2026, e sono approvati a pieno titolo. ⚠️ **E36-E38 nascono invece a un GATE
+   INTERMEDIO**, specie nuova per questo registro: un gate che non approva un lotto ma lo
+   **autorizza a finire**, perché il ciclo di giudizio non era ancora girato. La colonna «dove
+   nasce» lo dice, perché fra un anno «gate del lotto R1» e «gate intermedio del lotto R1» non
+   sembrino la stessa occasione. ⚠️ E34 ed E35 arrivano per una via ancora
    diversa: sono stati **dettati nel prompt della sessione di manutenzione**, cioè
    nell'artefatto che istruisce la sessione (§4.27 del passaggio di consegne), e la sessione li
    ha applicati come primo adempimento — non li ha decisi. ⚠️ **E29-E33 invece sono del gate del lotto

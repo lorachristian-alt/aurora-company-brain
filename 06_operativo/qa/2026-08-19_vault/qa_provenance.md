@@ -1,7 +1,7 @@
-## qa_provenance (perimetro: vault, 179 note)
+## qa_provenance (perimetro: vault, 183 note)
 
 - ERRORI: **0**
-- AVVISI: **51**
+- AVVISI: **53**
 
 ### Avvisi
 
@@ -43,12 +43,14 @@ verifiche n» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 | `questione-tassello-inox-non-passato.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `questione-verifiche-ccp3-10-05-tre-versioni.md` |  | provenance | citazione senza riscontro in nessuna fonte citata: «Verifica di fine turno (capoturno)» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 | `questione-verifiche-ccp3-10-05-tre-versioni.md` |  | provenance | citazione senza riscontro in nessuna fonte citata: «dalle 15 alle 18.45 linea ferma per rottura valvola azoto. verifiche n» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
+| `questione-verifiche-ccp3-10-05-tre-versioni.md` |  | provenance | citazione senza riscontro in nessuna fonte citata: «prodoto nn confezionato si acumula meso su carelli in CF O1 / temp cel» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 | `questione-verifiche-ccp3-10-05-tre-versioni.md` |  | provenance | ora senza riscontro in nessuna fonte citata: «18:50» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 | `questione-verifiche-ccp3-10-05-tre-versioni.md` |  | provenance | ora senza riscontro in nessuna fonte citata: «19:55» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 | `questione-verifiche-ccp3-10-05-tre-versioni.md` |  | provenance | fonte immagine 'MOD-QA-07_10-05-26_L1_T2_scansione.jpg': riscontro visivo, da chiudere a mano |
 | `fatto-misura-frammento-rec-2026-011.md` |  | provenance | fonte immagine 'IMG_20260514_152241_frammento_REC-2026-011.jpg': riscontro visivo, da chiudere a mano |
 | `questione-misura-frammento-strumentale.md` |  | provenance | fonte immagine 'IMG_20260514_152241_frammento_REC-2026-011.jpg': riscontro visivo, da chiudere a mano |
 | `doc-ccp2-limite-critico.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
+| `doc-gestione-reclami-haccp.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `doc-scheda-tecnica-af-sn-0450.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `entita-elena-marchetti.md` |  | provenance | la fonte 'MOD-QA-31_reclamo_REC-2026-011.pdf' non aggancia nessuna affermazione della nota: rumore nel payload |
 | `entita-frigotecnica-berica.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |

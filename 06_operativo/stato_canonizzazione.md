@@ -3,10 +3,9 @@
 > **Cos'è** · Lo stato di oggi del vault: cosa è stato canonizzato, con quale esito, e
 > cosa resta. Solo stato, mai una regola: le regole stanno in
 > `01_metodo\metodo_03_canonizzazione.md`, le decisioni in `06_operativo\decision_log.md`.
-> **Aggiornato al** · 19/08/2026, **apertura e primo giro del lotto R1** — la riconciliazione
-> verticale, primo lotto di manutenzione del progetto. Nella stessa giornata: la sessione di
-> manutenzione degli strumenti, E34 ed E35 in `metodo_03`, i numeri riportati da script.
-> ⚠️ **R1 NON è chiuso**: mancano giudizio, revisione col canone e ri-giudizio.
+> **Aggiornato al** · 19/08/2026, **chiusura del lotto R1** — la riconciliazione verticale,
+> primo lotto di manutenzione del progetto. Nella stessa giornata: la manutenzione degli
+> strumenti, E34 ed E35, il gate intermedio con E36-E38, e i numeri riportati da script.
 > Lo stato della pipeline RAG sta in `06_operativo\stato_rag_produzione.md`, non qui; il
 > piano dei lotti e la tabella di tracciamento delle questioni trasversali stanno in
 > `06_operativo\matrice_lotti_corpus_v1.md`, non qui.
@@ -23,7 +22,7 @@
 | Suite QA | **verde sul perimetro di lotto**; sul vault tre controlli su quattro sono a zero errori |
 | `llms.txt` | rigenerato dal frontmatter, allineato |
 | Matrice dei lotti | 160/160 grezzi, zero scoperti, zero doppi (`verifica_matrice_lotti.py` verde). ⚠️ **I budget dei lotti 2-10 sono SUPERATI** e il piano non è più a 12 lotti: vale **E31**, la capacità di 25-35 note per lotto, e i grezzi si decidono in apertura. **Stima: circa 28-30 lotti**, scritta anche nella scaletta perché cambia il calendario di S4-S5. Ridisegnato in dettaglio **solo il tema 2** (2A · 2B · 2C) |
-| **PROSSIMO ATTO** | ⚠️ **FINIRE R1, prima di qualunque altra cosa.** Il lotto è aperto e il primo giro di correzioni è chiuso — 71 note guardate, 41 corrette, QA di lotto verde — ma **il lotto non è chiuso**: mancano lo strato di giudizio, la revisione col canone e il ri-giudizio, che `metodo_03` §9.5 affida a una **sessione diversa** da quella che ha scritto le correzioni. §5 del prompt dei lotti: la sessione successiva **prima** finisce il lotto. Solo dopo: il tema 2 |
+| **PROSSIMO ATTO** | **Il gate del lotto R1**: il rapporto `06_operativo\rapporto_lotto_r1.md` va al coordinatore. ⚠️ Il gate del 19/08 era **intermedio** — autorizzava il lotto a finire, non lo approvava. Il rapporto porta una domanda sola: se la regola sulla **cautela che non si propaga** (§9 del rapporto) vada scritta in `metodo_03`, o se basti il passo 2-bis com'è. Dopo l'approvazione: **il tema 2**, che sarà il primo lotto canonizzato sotto E29 e dichiarerà il tasso di riapertura — il numero che falsifica o conferma l'ipotesi del debito storico |
 
 ⚠️ **Errata del 19/08/2026 sui numeri del lotto 1A.** Questo stato dichiarava «105 note, di
 cui 11 `_index` e 6 note-strumento: 88 di contenuto». `qa_all.py` a chiusura di 1A contava
@@ -38,14 +37,14 @@ prescrive la regola del gate 1A.
 
 | Grandezza | Valore |
 |---|---|
-| Note nel vault | **179** |
+| Note nel vault | **183** |
 | di cui `_index` | 11 |
-| di cui note-strumento del progetto | 9 |
+| di cui note-strumento del progetto | 10 |
 | di cui note di diario (`sessione`, `daily`) | 4 |
-| **di cui note di contenuto** | **155** |
-| Note per cartella | areas 94 · entities 22 · data 22 · code 10 · projects 8 · docs 8 · workspace 7 · concepts 5 · self 1 · outputs 1 · sources 1 |
-| Note per `type` | atomica 97 · conflitto 33 · entita 18 · hub 12 · index 11 · concetto 4 · sessione 4 |
-| Questioni aperte (`type: conflitto`) | 33 |
+| **di cui note di contenuto** | **158** |
+| Note per cartella | areas 96 · entities 22 · data 22 · code 11 · docs 9 · projects 8 · workspace 7 · concepts 5 · self 1 · outputs 1 · sources 1 |
+| Note per `type` | atomica 100 · conflitto 34 · entita 18 · hub 12 · index 11 · concetto 4 · sessione 4 |
+| Questioni aperte (`type: conflitto`) | 34 |
 | Grezzi in `sources\` | 160 |
 | Grezzi citati da almeno una nota | **35** |
 | Grezzi restanti | **125** |
@@ -56,12 +55,12 @@ conteggio in due lotti — 46 contro 32 nel rapporto 1A, 105 e 88 in questo stat
 sottrazioni fatte a mano su numeri veri. Da qui in poi lo stato e i rapporti **incollano**,
 non ricompongono.
 
-## Il lotto R1 — APERTO il 19/08/2026, primo giro chiuso, lotto NON chiuso
+## Il lotto R1, chiuso il 19/08/2026 — riconciliazione verticale
 
-**Perimetro:** **0 grezzi, 71 note.** È il primo **lotto di manutenzione** del progetto (E35):
-non canonizza grezzi nuovi, ripara note già scritte. L'elenco dei grezzi
-`06_operativo\qa\lotti\r1_riconciliazione_verticale.txt` porta `# MANUTENZIONE` e non ha righe
-utili; il perimetro vero è l'elenco delle note accanto, **generato da
+**Perimetro:** **0 grezzi, 71 note candidate** più 14 toccate o nate in corso di lotto, per
+**85 note controllate**. È il primo **lotto di manutenzione** (E35): non canonizza grezzi
+nuovi, ripara note già scritte. L'elenco dei grezzi porta `# MANUTENZIONE` e nessuna riga
+utile; il perimetro vero è l'elenco delle note accanto, **generato da
 `06_operativo\candidate_r1.py`** e mai a memoria.
 
 | | |
@@ -70,40 +69,35 @@ utili; il perimetro vero è l'elenco delle note accanto, **generato da
 | Note corrette | **41** |
 | **Tasso di difetto** | **57,7 %** *(calcolato: 41 su 71)* |
 | di cui affermavano il falso | **7** — contro 34 semplicemente incomplete |
-| Note nuove | **2** — `doc-gestione-deviazioni-haccp` e `questione-periodicita-taratura-canali-datalogger-ccp2` |
-| Note toccate in più (E32) | **6**, dichiarate mentre le si toccava |
-| QA di lotto | **0 ERRORI, 45 AVVISI**, motivati nel rapporto §5 |
-| Giri di giudizio | ⚠️ **0 — da fare** |
-| Righe di tracciamento aperte | **10**, da T55 a T64 |
+| Note nuove | **10** — 5 di contenuto, 4 note-strumento, 1 di diario |
+| QA di lotto | **0 ERRORI, 51 AVVISI**, motivati nel rapporto §5 |
+| Giri di giudizio | **tre**: 24, 13 e 9 rilievi accolti |
+| Revisione col canone | **7 A · 3 B · 0 C**, più 17 doppie padrone |
+| Righe di tracciamento | **12 nuove**, da T55 a T66, più T24 estesa |
 
 **Cosa ha trovato.** Che più della metà delle note che parlano di un punto critico, di una
 taratura, di una frequenza, di un limite o di una responsabilità di processo **non aveva sotto
-mano il documento che quella cosa la prescrive**. Sette di quelle note non erano soltanto
-incomplete: **affermavano il falso** — la più grave legava il perimetro del prodotto da
-segregare alla *durata* della deviazione, mentre il manuale lo lega **all'ultimo controllo
-conforme**.
+mano il documento che quella cosa la prescrive**. Sette non erano solo incomplete:
+**affermavano il falso** — la più grave legava il perimetro del prodotto da segregare alla
+*durata* della deviazione, mentre il manuale lo lega **all'ultimo controllo conforme**.
+
+⚠️ **E ha trovato che il documento prescrittivo di vertice ha due difetti propri.** Il manuale
+HACCP **dichiara rimosso** il carrello dei ricambi un mese prima che una non conformità e una
+diffida lo trovino ancora in linea, e **non sa dire se la validazione del proprio CCP2 sia
+stata rifatta**. Più una terza divergenza che rimette in discussione un arbitrato già fatto:
+l'attività dell'acqua su due matrici. Tutte e tre sono nel canone, in sezione datata.
+
+⚠️ **Il lotto si è chiuso NOMINANDO UN PATTERN, non con un quarto giro** (E26). Il pattern è
+**«la cautela non si propaga»**: si dichiara come lettura ciò che era affermato come dato, e la
+dichiarazione resta dove è stata scritta — mentre la stessa affermazione, ripetuta nel
+riassunto, in una cella di tabella o in una glossa a un wikilink, mantiene la grammatica del
+fatto. È il pattern del lotto 1C esteso a **ogni** superficie di sintesi della nota.
 
 **Lo strumento di E29 è nato qui**: `06_operativo\fonti_prescrittive_corpus_v1.md`, **36 fonti
-prescrittive** del corpus di cui **8 citabili** oggi e **28 da tracciare**, perché i loro grezzi
-stanno in lotti non ancora canonizzati. Quelle 28 non si citano e non si usano: hanno una riga
-in matrice con l'obbligo esplicito per il lotto che le porterà.
+prescrittive** di cui **8 citabili** e **28 da tracciare**. E con lui tre script nuovi:
+`elenco_fonti_prescrittive.py`, `candidate_r1.py`, `conta_perimetro_lotto.py`.
 
-⚠️ **ESATTAMENTE COSA MANCA, perché la sessione dopo lo sappia senza cercarlo:**
-
-1. strato di giudizio con `PROMPT_GIUDIZIO` v2, subagente a contesto pulito, sulle note nuove e
-   modificate. **Il pacchetto è già generato dopo le correzioni** (E33), in
-   `06_operativo\qa\2026-08-19_r1_riconciliazione_verticale\pacchetto_giudizio_provenance.txt`;
-2. revisione col canone, **sessione diversa**, con un campione delle note nate dalle correzioni;
-3. ri-giudizio (E9) con la regola d'arresto di E26;
-4. re-QA, `llms.txt` rigenerato, `_index` e hub riverificati;
-5. `# CHIUSO <data>` in testa all'elenco del lotto — **oggi assente, ed è voluto**: il lotto non
-   è chiuso e `verifica_matrice_lotti.py` non deve credere il contrario;
-6. il rapporto `06_operativo\rapporto_lotto_r1.md` esiste già e va completato ai §9 e §11.
-
-Il rapporto porta la domanda per il coordinatore: **57,7 % di difetto basta a dire che il
-ripasso va rifatto a fine corsa, o E29 in vigore basta a impedire che si riformi?**
-
-## Il lotto 1C, chiuso il 19/08/2026
+## Il lotto 1C, chiuso il 19/08/2026## Il lotto 1C, chiuso il 19/08/2026
 
 **Perimetro:** 2 grezzi, elencati in `06_operativo\qa\lotti\lotto_01c_metrologia_gas.txt`.
 L'elenco delle attrezzature con lo stato di taratura di 120 strumenti, e la bolla di ingresso

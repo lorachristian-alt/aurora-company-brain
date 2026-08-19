@@ -1,4 +1,4 @@
-## qa_copertura (perimetro: lotto, 89 note)
+## qa_copertura (perimetro: lotto, 93 note)
 
 - ERRORI: **0**
 - AVVISI: **0**
@@ -89,6 +89,7 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 |---|---|---|---|
 | `area-qualita.md` | hub | aperto | 1 |
 | `doc-gestione-deviazioni-haccp.md` | atomica | risolto | 1 |
+| `doc-gestione-reclami-haccp.md` | atomica | risolto | 1 |
 | `doc-mod-qa-07.md` | atomica | risolto | 3 |
 | `doc-scheda-tecnica-af-sn-0450.md` | atomica | risolto | 1 |
 | `entita-calservice-italia.md` | entita | risolto | 1 |
@@ -113,7 +114,8 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `kpi-mass-balance-l26130.md` | atomica | aperto | 2 |
 | `kpi-parco-strumenti-taratura-2026.md` | hub | aperto | 2 |
 | `kpi-seconde-firme-ccp3-maggio.md` | atomica | risolto | 2 |
-| `kpi-shelf-life-af-sn-0450.md` | atomica | aperto | 2 |
+| `kpi-shelf-life-af-sn-0450.md` | atomica | aperto | 3 |
+| `questione-carrello-ricambi-dichiarato-rimosso.md` | conflitto | aperto | 4 |
 | `questione-data-apertura-rec-2026-011.md` | conflitto | aperto | 4 |
 | `questione-durata-deviazione-ccp2-l26130.md` | conflitto | aperto | 3 |
 | `questione-limite-allarme-porta-cf-02.md` | conflitto | aperto | 2 |
@@ -121,8 +123,10 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `questione-sigla-kit-tasselli-ccp3.md` | conflitto | aperto | 5 |
 | `questione-taratura-termoregistratore-cf-02.md` | conflitto | aperto | 4 |
 | `questione-tassello-inox-non-passato.md` | conflitto | aperto | 3 |
+| `questione-validazione-ccp2-mai-confermata.md` | atomica | aperto | 1 |
 | `questione-verifiche-ccp3-10-05-tre-versioni.md` | conflitto | aperto | 4 |
 | `script-candidate-r1.md` | atomica | risolto | 0 |
+| `script-conta-perimetro-lotto.md` | atomica | risolto | 0 |
 | `script-conta-tracciamento.md` | atomica | risolto | 0 |
 | `script-fonti-prescrittive.md` | atomica | risolto | 0 |
 | `sessione-r1-riconciliazione-verticale.md` | sessione | — | 0 |

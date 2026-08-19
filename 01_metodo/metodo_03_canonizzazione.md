@@ -1325,6 +1325,25 @@ del CCP3 è annuale e del costruttore, che esiste un `PRP-03` sulla taratura deg
 ⚠️ **Non era incompletezza: erano affermazioni false**, ed è la ragione per cui questa regola
 non aspetta il gate finale.
 
+⚠️ **E36 — LA FONTE DA CITARE È QUELLA CHE PRESCRIVE *CIÒ DI CUI LA NOTA PARLA*, non una
+fonte prescrittiva qualsiasi.** È la forma corretta di E29, e la differenza non è sottile: il
+limite critico di un punto critico lo prescrive il **manuale HACCP**, non il registro degli
+strumenti; la frequenza di una verifica la prescrive il manuale, non il modulo su cui la
+verifica si registra. Una nota che nomina un CCP e cita l'elenco delle attrezzature ha *una*
+fonte prescrittiva, ma **non quella giusta**, e la riconciliazione verticale su quella nota non
+è stata fatta.
+
+**Nasce da un caso pagato, e il caso è la dettatura stessa della regola.** Il criterio di
+apertura del lotto R1 diceva «e fra le sue fonti non c'è **nessuna** fonte prescrittiva».
+Applicato alla lettera lasciava **fuori dal perimetro 26 note su 71** — quelle che nominano un
+punto critico senza citare il manuale, ma che citano l'elenco delle attrezzature, la checklist
+del metal detector o il piano di manutenzione. Erano esattamente le note che avevano generato
+il lotto.
+
+⚠️ **Operativamente**: chi genera il perimetro di una riconciliazione verticale mappa ogni
+famiglia di affermazione — punto critico, taratura, frequenza, limite, responsabilità di
+processo — sulla fonte che *quella* famiglia la governa, e il criterio si scrive nel rapporto.
+
 ### 5.2 Contraddizione con vincitore → nota padrona, `stato: risolto`
 
 Quando l'archivio, letto per intero, indica quale fonte prevale:
@@ -2038,6 +2057,14 @@ note e 36 lotti — un artefatto, prodotto moltiplicando una grandezza instabile
 poggia su **quattro osservazioni**, tre delle quali su lotti piccolissimi: è la miglior stima
 disponibile, non una costante del metodo.
 
+⚠️ **E38 — I LOTTI DI MANUTENZIONE NON ENTRANO NELLA SERIE DELLA CAPACITÀ.** Quando a dieci
+lotti chiusi si rivedrà la fascia 25-35, **si contano solo i lotti di canonizzazione**. Un lotto
+di manutenzione non punta a produrre note e le sue poche note nuove nascono per caso, da fatti
+senza padrone emersi correggendo: metterlo nella stessa serie abbasserebbe la media di una
+grandezza che misura un'altra cosa. ⚠️ È lo stesso errore del calcolo lineare che ha prodotto
+903 note e 36 lotti — **moltiplicare o mediare grandezze che non misurano la stessa cosa** — e
+il progetto l'ha già pagato una volta.
+
 ### 9.4-bis Il lotto di manutenzione (E35)
 
 Esiste una **seconda specie di lotto**: quella che **non canonizza grezzi nuovi ma ripara note
@@ -2143,6 +2170,31 @@ note → suite QA → revisore indipendente → correzioni propagate → suite Q
    è stata presa su un numero sbagliato; ma **uno strumento nato per finire le sviste di
    conteggio, generato nel punto sbagliato del rituale, è peggio di nessuno strumento**, perché
    dà l'autorità dello script a un numero vecchio.
+5-ter. **RICONCILIAZIONE VERTICALE DELLE NOTE GIÀ SCRITTE, quando il lotto porta una fonte
+   prescrittiva** (E37). All'apertura di ogni lotto che introduce nel vault uno o più documenti
+   che **prescrivono**, lo script che genera i perimetri di manutenzione si rilancia
+   **ristretto a quelle fonti**: le note che restituisce entrano nell'elenco
+   `qa\lotti\<lotto>_note.txt` di quel lotto, e quindi nel suo perimetro di QA (E32). Il
+   rapporto dichiara **«note riaperte per riconciliazione verticale: N, corrette M»**.
+
+   ⚠️ **Perché è un passo del ciclo e non una riga in tabella.** Una riga di tracciamento è una
+   **promessa**: ricorda, ma non scatta da sola. Il lotto R1 ha aperto dieci righe per le 28
+   fonti prescrittive non ancora citabili, e nessuna di quelle righe impedisce a un lotto
+   futuro di canonizzare la sua fonte senza riguardare le note che quella fonte governa. È la
+   stessa ragione di §4.29 nel passaggio di consegne: **un controllo che non è nel percorso che
+   si esegue non è un controllo.**
+
+   ⚠️ **Due precisazioni, che evitano gli effetti collaterali:**
+   - le note **riaperte NON contano nella capacità 25-35** (E31): sono riparazioni, non
+     produzione, e contarle spingerebbe a produrre meno per stare nella fascia;
+   - se le note **riaperte superano le note nuove** che il lotto produce, il lotto **si dichiara
+     e si spezza** in un lotto di canonizzazione più uno di manutenzione. È la logica di E28: la
+     soglia si mette sulla grandezza che il rischio consuma, e qui il rischio è che la
+     riparazione si mangi la canonizzazione senza che nessuno se ne accorga.
+
+   La rete finale resta: **un secondo lotto di manutenzione a fine corsa**, dimensionato su
+   quello che le righe di tracciamento avranno lasciato aperto — non sull'intero vault.
+
 6. **Stato su disco** (`06_operativo\stato_canonizzazione.md`): lotto chiuso, note
    prodotte, esito QA, avvisi motivati, cosa resta.
 7. **Voce nel decision log** (`06_operativo\decision_log.md`): ogni scelta di design

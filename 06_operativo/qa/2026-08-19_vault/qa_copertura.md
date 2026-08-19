@@ -1,4 +1,4 @@
-## qa_copertura (perimetro: vault, 179 note)
+## qa_copertura (perimetro: vault, 183 note)
 
 - ERRORI: **128**
 - AVVISI: **0**
@@ -274,6 +274,7 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `doc-ccp2-limite-critico.md` | atomica | risolto | 1 |
 | `doc-ccp4-limite-critico.md` | atomica | risolto | 1 |
 | `doc-gestione-deviazioni-haccp.md` | atomica | risolto | 1 |
+| `doc-gestione-reclami-haccp.md` | atomica | risolto | 1 |
 | `doc-limite-o2-residuo-af-sn-0450.md` | atomica | risolto | 1 |
 | `doc-manuale-haccp.md` | atomica | risolto | 2 |
 | `doc-mod-qa-07.md` | atomica | risolto | 3 |
@@ -316,13 +317,14 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `kpi-mass-balance-l26130.md` | atomica | aperto | 2 |
 | `kpi-parco-strumenti-taratura-2026.md` | hub | aperto | 2 |
 | `kpi-seconde-firme-ccp3-maggio.md` | atomica | risolto | 2 |
-| `kpi-shelf-life-af-sn-0450.md` | atomica | aperto | 2 |
+| `kpi-shelf-life-af-sn-0450.md` | atomica | aperto | 3 |
 | `kpi-temperatura-uscita-tunnel-ts-01-aprile.md` | atomica | risolto | 3 |
 | `lotto-l26130.md` | hub | aperto | 2 |
 | `macchina-md-3200.md` | entita | risolto | 6 |
 | `macchina-pt-104.md` | entita | risolto | 2 |
 | `progetto-gestione-reclamo-rec-2026-011.md` | hub | attivo | 2 |
 | `questione-aw-umidita-af-sn-0450.md` | conflitto | aperto | 3 |
+| `questione-carrello-ricambi-dichiarato-rimosso.md` | conflitto | aperto | 4 |
 | `questione-convalida-md-1800-scaduta-o-valida.md` | conflitto | aperto | 3 |
 | `questione-convalida-md-3200-due-registri.md` | conflitto | aperto | 3 |
 | `questione-data-apertura-rec-2026-011.md` | conflitto | aperto | 4 |
@@ -336,8 +338,10 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `questione-sigla-kit-tasselli-ccp3.md` | conflitto | aperto | 5 |
 | `questione-taratura-termoregistratore-cf-02.md` | conflitto | aperto | 4 |
 | `questione-tassello-inox-non-passato.md` | conflitto | aperto | 3 |
+| `questione-validazione-ccp2-mai-confermata.md` | atomica | aperto | 1 |
 | `questione-verifiche-ccp3-10-05-tre-versioni.md` | conflitto | aperto | 4 |
 | `script-candidate-r1.md` | atomica | risolto | 0 |
+| `script-conta-perimetro-lotto.md` | atomica | risolto | 0 |
 | `script-conta-tracciamento.md` | atomica | risolto | 0 |
 | `script-fonti-prescrittive.md` | atomica | risolto | 0 |
 | `script-genera-llms-txt.md` | atomica | risolto | 0 |
@@ -397,8 +401,8 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `SKM_C224e26050408520.jpg` | **nessuna** |
 | `SKM_C224e26051412340.pdf` | lotto-mv26-0429a |
 | `Scansione_20260518_0003.pdf` | fatto-esito-laboratorio-frammento |
-| `Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf` | fatto-fornitura-gas-nordgas-06-05, fatto-verifica-metrologia-legale-bilance, questione-posizione-md-3200-in-linea, doc-limite-o2-residuo-af-sn-0450, doc-mod-qa-07, doc-scheda-tecnica-af-sn-0450, macchina-ft-01, macchina-linea-1, macchina-md-3200, prodotto-af-sn-0450, concetto-atmosfera-protettiva, concetto-ccp, concetto-shelf-life, questione-aw-umidita-af-sn-0450, questione-limite-o2-residuo |
-| `Verbale_ispezione_ATS_09_06_2026.pdf` | fatto-ispezione-ats-carrello-ricambi, fatto-strumenti-taratura-scaduta-in-uso, questione-posizione-md-3200-in-linea, questione-taratura-termoregistratore-cf-02, doc-manuale-haccp, entita-elena-marchetti |
+| `Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf` | fatto-fornitura-gas-nordgas-06-05, fatto-verifica-metrologia-legale-bilance, questione-posizione-md-3200-in-linea, doc-limite-o2-residuo-af-sn-0450, doc-mod-qa-07, doc-scheda-tecnica-af-sn-0450, macchina-ft-01, macchina-linea-1, macchina-md-3200, prodotto-af-sn-0450, concetto-atmosfera-protettiva, concetto-ccp, concetto-shelf-life, kpi-shelf-life-af-sn-0450, questione-aw-umidita-af-sn-0450, questione-limite-o2-residuo |
+| `Verbale_ispezione_ATS_09_06_2026.pdf` | fatto-ispezione-ats-carrello-ricambi, fatto-strumenti-taratura-scaduta-in-uso, questione-carrello-ricambi-dichiarato-rimosso, questione-posizione-md-3200-in-linea, questione-taratura-termoregistratore-cf-02, doc-manuale-haccp, entita-elena-marchetti |
 | `_QUESTO_ARCHIVIO_E_SIMULATO.txt` | **nessuna** |
 | `accordo_quadro_private_label_Tosano_2026_firmato.txt` | **nessuna** |
 | `anagrafica_articoli_export_gestionale.xlsx` | **nessuna** |
@@ -452,13 +456,13 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `log_timbrature_fabbrica_maggio_settimana2.csv` | **nessuna** |
 | `mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt` | **nessuna** |
 | `mail_titolare_Aurora_visione_aziendale_5anni.txt` | **nessuna** |
-| `manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt` | area-qualita, fatto-accettazione-con-riserva-gas-06-05, fatto-allarme-acustico-md-3200-basso, fatto-allarmi-alta-temperatura-cf-02-aprile, fatto-certificato-analisi-gas-alimentari, fatto-convalida-md-1800-scaduta, fatto-datalogger-dl-001-in-taratura, fatto-decisione-proseguire-valvola-08-05, fatto-deviazione-ccp2-l26130, fatto-due-registri-paralleli-della-metrologia, fatto-fermo-forno-ft-01-05-05, fatto-giro-di-vite-seconde-firme-ccp3, fatto-microperdite-saldatura-l26130, fatto-nessuna-nc-per-allarmi-cf-02, fatto-operatore-senza-formazione-haccp-l26130, fatto-operatori-ccp3-linea1-maggio, fatto-prodotto-non-segregato-deviazione-ccp2, fatto-registro-cartaceo-mod-qa-12, fatto-riepilogo-datalogger-inaffidabile, fatto-risalita-termica-post-riavvio-l26130, fatto-sonde-pt-104-in-taratura, fatto-strumenti-cf-02-e-ccp4, fatto-strumenti-esclusi-da-taratura, fatto-strumenti-taratura-scaduta-in-uso, fatto-tassello-aisi-clip-rotta, fatto-valvola-modulante-pt-104-revisione-rimandata, fatto-verifiche-ccp3-turno-l26130, questione-convalida-md-1800-scaduta-o-valida, questione-convalida-md-3200-due-registri, questione-due-registri-tarature-pt-104, questione-durata-deviazione-ccp2-l26130, questione-periodicita-taratura-canali-datalogger-ccp2, questione-posizione-md-3200-in-linea, questione-sigla-kit-tasselli-ccp3, questione-taratura-termoregistratore-cf-02, questione-tassello-inox-non-passato, questione-tmc-farina-mv26-0429a, questione-verifiche-ccp3-10-05-tre-versioni, fatto-blocco-cautelativo-lotti, fatto-misura-frammento-rec-2026-011, fatto-richiesta-relazione-48-ore, questione-data-apertura-rec-2026-011, doc-ccp2-limite-critico, doc-ccp4-limite-critico, doc-gestione-deviazioni-haccp, doc-manuale-haccp, doc-mod-qa-07, entita-elena-marchetti, entita-ionut-popescu, entita-ivano-dal-maso, entita-nordgas, lotto-l26130, lotto-mv26-0429a, macchina-cf-02, macchina-linea-1, macchina-md-3200, macchina-pkm-450, macchina-pt-104, macchina-ts-01, prodotto-af-sn-0450, concetto-ccp, kpi-mass-balance-l26130, kpi-parco-strumenti-taratura-2026, kpi-seconde-firme-ccp3-maggio, kpi-shelf-life-af-sn-0450, kpi-temperatura-uscita-tunnel-ts-01-aprile |
+| `manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt` | area-qualita, fatto-accettazione-con-riserva-gas-06-05, fatto-allarme-acustico-md-3200-basso, fatto-allarmi-alta-temperatura-cf-02-aprile, fatto-certificato-analisi-gas-alimentari, fatto-convalida-md-1800-scaduta, fatto-datalogger-dl-001-in-taratura, fatto-decisione-proseguire-valvola-08-05, fatto-deviazione-ccp2-l26130, fatto-due-registri-paralleli-della-metrologia, fatto-fermo-forno-ft-01-05-05, fatto-giro-di-vite-seconde-firme-ccp3, fatto-microperdite-saldatura-l26130, fatto-nessuna-nc-per-allarmi-cf-02, fatto-operatore-senza-formazione-haccp-l26130, fatto-operatori-ccp3-linea1-maggio, fatto-prodotto-non-segregato-deviazione-ccp2, fatto-registro-cartaceo-mod-qa-12, fatto-riepilogo-datalogger-inaffidabile, fatto-risalita-termica-post-riavvio-l26130, fatto-sonde-pt-104-in-taratura, fatto-strumenti-cf-02-e-ccp4, fatto-strumenti-esclusi-da-taratura, fatto-strumenti-taratura-scaduta-in-uso, fatto-tassello-aisi-clip-rotta, fatto-valvola-modulante-pt-104-revisione-rimandata, fatto-verifiche-ccp3-turno-l26130, questione-carrello-ricambi-dichiarato-rimosso, questione-convalida-md-1800-scaduta-o-valida, questione-convalida-md-3200-due-registri, questione-due-registri-tarature-pt-104, questione-durata-deviazione-ccp2-l26130, questione-periodicita-taratura-canali-datalogger-ccp2, questione-posizione-md-3200-in-linea, questione-sigla-kit-tasselli-ccp3, questione-taratura-termoregistratore-cf-02, questione-tassello-inox-non-passato, questione-tmc-farina-mv26-0429a, questione-validazione-ccp2-mai-confermata, questione-verifiche-ccp3-10-05-tre-versioni, fatto-blocco-cautelativo-lotti, fatto-misura-frammento-rec-2026-011, fatto-richiesta-relazione-48-ore, questione-data-apertura-rec-2026-011, doc-ccp2-limite-critico, doc-ccp4-limite-critico, doc-gestione-deviazioni-haccp, doc-gestione-reclami-haccp, doc-manuale-haccp, doc-mod-qa-07, entita-elena-marchetti, entita-ionut-popescu, entita-ivano-dal-maso, entita-nordgas, lotto-l26130, lotto-mv26-0429a, macchina-cf-02, macchina-linea-1, macchina-md-3200, macchina-pkm-450, macchina-pt-104, macchina-ts-01, prodotto-af-sn-0450, concetto-ccp, kpi-mass-balance-l26130, kpi-parco-strumenti-taratura-2026, kpi-seconde-firme-ccp3-maggio, kpi-shelf-life-af-sn-0450, kpi-temperatura-uscita-tunnel-ts-01-aprile |
 | `manuale_uso_manutenzione_PKM450_estratto.pdf` | fatto-avvertenza-costruttore-guarnizioni-non-originali, fatto-guarnizione-pkm-450-manutenzione-scaduta, fatto-ricambi-fuori-area-produzione-manuale-pkm, questione-codice-allarme-pkm-450, questione-codice-ricambio-valvola-pkm-450, questione-materiale-guarnizione-pkm-450, entita-pakmatic, concetto-atmosfera-protettiva |
 | `manutenzione_fotocopiatrice_contratto_copie.csv` | **nessuna** |
 | `menu_mensa_aprile_maggio.txt` | **nessuna** |
 | `modulo richiesta ferie VUOTO da stampare.txt` | **nessuna** |
 | `noleggio_distributori_automatici_contratto.txt` | **nessuna** |
-| `non_conformita_interne_registro_2026.csv` | fatto-accettazione-con-riserva-gas-06-05, fatto-decisione-proseguire-valvola-08-05, fatto-deviazione-ccp2-l26130, fatto-fermo-pkm-450-l26130, fatto-nc-102-origine-interna, fatto-nessuna-nc-per-allarmi-cf-02, fatto-porta-cella-cf-02-aperta-38-minuti, fatto-registro-cartaceo-mod-qa-12, fatto-riparazione-guarnizione-non-originale, fatto-strumenti-map-azoto-pkm-450, fatto-ts-01-fine-vita-dismissione, questione-durata-deviazione-ccp2-l26130, questione-limite-allarme-porta-cf-02, questione-nc-067-sbrinamenti-tunnel, questione-sbrinamenti-fascia-notturna-cf-02, entita-ivano-dal-maso, entita-nordgas, macchina-cf-01, concetto-fefo, kpi-temperatura-uscita-tunnel-ts-01-aprile, questione-limite-o2-residuo |
+| `non_conformita_interne_registro_2026.csv` | fatto-accettazione-con-riserva-gas-06-05, fatto-decisione-proseguire-valvola-08-05, fatto-deviazione-ccp2-l26130, fatto-fermo-pkm-450-l26130, fatto-nc-102-origine-interna, fatto-nessuna-nc-per-allarmi-cf-02, fatto-porta-cella-cf-02-aperta-38-minuti, fatto-registro-cartaceo-mod-qa-12, fatto-riparazione-guarnizione-non-originale, fatto-strumenti-map-azoto-pkm-450, fatto-ts-01-fine-vita-dismissione, questione-carrello-ricambi-dichiarato-rimosso, questione-durata-deviazione-ccp2-l26130, questione-limite-allarme-porta-cf-02, questione-nc-067-sbrinamenti-tunnel, questione-sbrinamenti-fascia-notturna-cf-02, entita-ivano-dal-maso, entita-nordgas, macchina-cf-01, concetto-fefo, kpi-temperatura-uscita-tunnel-ts-01-aprile, questione-limite-o2-residuo |
 | `nota_commercialista_credito_imposta_beni_strumentali.docx` | **nessuna** |
 | `nota_infortunio_INAIL_operaio_linea3.txt` | **nessuna** |
 | `nota_spese_trasferte_Zampieri_aprile.csv` | **nessuna** |
@@ -488,7 +492,7 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `registro_tamponi_superfici_listeria_salmonella.csv` | **nessuna** |
 | `reperibilita_gennaio_febbraio_2026.csv` | **nessuna** |
 | `report_costi_fissi_OpEx_manutenzioni.txt` | **nessuna** |
-| `report_fermo_macchina_confezionatrice_MAP.txt` | area-manutenzione, fatto-azoto-due-vie-serbatoio-e-rampa, fatto-decisione-proseguire-valvola-08-05, fatto-fermo-pkm-450-l26130, fatto-forni-in-temperatura-durante-fermo-10-05, fatto-guarnizione-pkm-450-manutenzione-scaduta, fatto-riparazione-guarnizione-non-originale, questione-arrivo-officina-fermo-pkm-450, questione-codice-allarme-pkm-450, questione-codice-ricambio-valvola-pkm-450, questione-materiale-guarnizione-pkm-450, entita-elena-marchetti, entita-ivano-dal-maso, macchina-pkm-450, kpi-oee-l26130-l1-t2, questione-scarti-riavvio-l26130 |
+| `report_fermo_macchina_confezionatrice_MAP.txt` | area-manutenzione, fatto-azoto-due-vie-serbatoio-e-rampa, fatto-decisione-proseguire-valvola-08-05, fatto-fermo-pkm-450-l26130, fatto-forni-in-temperatura-durante-fermo-10-05, fatto-guarnizione-pkm-450-manutenzione-scaduta, fatto-riparazione-guarnizione-non-originale, questione-arrivo-officina-fermo-pkm-450, questione-carrello-ricambi-dichiarato-rimosso, questione-codice-allarme-pkm-450, questione-codice-ricambio-valvola-pkm-450, questione-materiale-guarnizione-pkm-450, entita-elena-marchetti, entita-ivano-dal-maso, macchina-pkm-450, kpi-oee-l26130-l1-t2, questione-scarti-riavvio-l26130 |
 | `reso_pallet_EPAL_conteggio_Tosano.txt` | **nessuna** |
 | `ricetta_base_esperimento_snack_salato_v12.txt` | **nessuna** |
 | `richiesta_campionatura_fiera_Cibus_2026.csv` | **nessuna** |

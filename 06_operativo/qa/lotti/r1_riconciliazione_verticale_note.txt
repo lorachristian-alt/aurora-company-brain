@@ -76,13 +76,20 @@ fatto-misura-frammento-rec-2026-011
 fatto-richiesta-relazione-48-ore
 questione-data-apertura-rec-2026-011
 # --- da qui in giu': note toccate in corso di lotto (E32) ---
-doc-gestione-deviazioni-haccp
+# Preesistenti, che il lotto ha modificato senza citarne i grezzi.
 _index-docs
-questione-periodicita-taratura-canali-datalogger-ccp2
-area-qualita
-sessione-r1-riconciliazione-verticale
 _index-workspace
+_index-code
+area-qualita
+# --- da qui in giu': note NATE in questo lotto ---
+# Si dichiarano QUANDO SI CREANO, non si deducono a fine lotto.
+doc-gestione-deviazioni-haccp
+doc-gestione-reclami-haccp
+questione-carrello-ricambi-dichiarato-rimosso
+questione-validazione-ccp2-mai-confermata
+questione-periodicita-taratura-canali-datalogger-ccp2
 script-fonti-prescrittive
 script-candidate-r1
 script-conta-tracciamento
-_index-code
+script-conta-perimetro-lotto
+sessione-r1-riconciliazione-verticale

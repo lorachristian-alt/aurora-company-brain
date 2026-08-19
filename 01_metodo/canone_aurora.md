@@ -425,3 +425,26 @@ letto per intero, **toglie** una contraddizione apparente invece di aggiungerne 
   tutti i 160 file del manifest v1.1 con l'estrattore congelato non ne trova traccia. Le
   analisi dei due gas alimentari esistono quindi **solo come trascrizione dentro la bolla**,
   e il laboratorio che le firma e' **interno al fornitore**.
+
+
+## Aggiunte del 19/08/2026 — divergenze emerse nel lotto R1 (riconciliazione verticale)
+
+⚠️ **Queste tre non vengono da grezzi nuovi: vengono dall'aver messo le note già scritte
+davanti al documento che le prescrive.** È il primo gruppo del canone che nasce da una
+riconciliazione **verticale** invece che orizzontale, e le prime due riguardano il **manuale
+HACCP**, cioè il documento prescrittivo di vertice dell'archivio.
+
+| Divergenza | Le versioni | Chi vince |
+|---|---|---|
+| **Il manuale HACCP dichiara rimosso il carrello ricambi, e tre documenti successivi lo smentiscono** | `manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt` §9.1 nota (5), nella revisione **08/04/2026**: «il carrello ricambi di linea **è stato rimosso**; ogni intervento in produzione richiede il modulo MOD-PR-04 con conta attrezzi in ingresso e in uscita» · `non_conformita_interne_registro_2026.csv` `NC-2026-029`, azione «rimozione carrello da area produttiva, armadio chiuso in officina», **chiusa il 02/04/2026** · `report_fermo_macchina_confezionatrice_MAP.txt` del **10/05**: guarnizione «presa dal carrello ricambi **che tengo a bordo linea 1**» · `non_conformita_interne_registro_2026.csv` `NC-2026-089` del 10/05, causa radice «**carrello ricambi ancora in area produttiva nonostante chiusura NC audit**» · `Verbale_ispezione_ATS_09_06_2026.pdf`, **diffida** sul carrello a bordo della confezionatrice | **Nessuno.** ⚠️ **Specie nuova, e la più grave del gruppo**: è la famiglia isolata in 1B — *un'azione correttiva registrata che il dato disponibile non conferma* — applicata al **manuale di autocontrollo**. La revisione in vigore incorpora come fatto compiuto una rimozione che un mese dopo l'azienda stessa registra come non avvenuta, e il manuale è il documento che si esibisce all'ente di certificazione e all'autorità |
+| **La validazione del CCP2 potrebbe essere scaduta, e il manuale lo chiede a sé stesso** | `manuale_HACCP_...` §11.3: «CCP2 mediante studio di penetrazione termica su prodotto farcito peggiore caso, rapporto Studio Alimentaria **SA-VAL-21/09 del 2021**, rivalidazione prevista 2024 - **NOTA: rivalidazione eseguita? vedi verbale team 03/2024**» · §8.1 riga CCP2, voce Verifica: «challenge test/validazione trattamento **ogni 3 anni** o a modifica di prodotto/processo» | **Nessuno.** Al 10/05/2026 la validazione del punto critico che ha deviato ha **cinque anni**, e il documento che la prescrive **non sa dire se sia stata rifatta**: la nota interrogativa è rimasta dentro la revisione 5 dell'08/04/2026. Il `verbale team 03/2024` che dovrebbe scioglierla **non è in archivio** — assenza verificata sui 160 file del manifest v1.1. È un'incoerenza **intra-file** su un documento prescrittivo, stessa specie del piè di pagina del datalogger, ma su una premessa di validità del CCP2 |
+| **L'attività dell'acqua di AF-SN-0450: il manuale dà due matrici, e questo cambia l'arbitrato del 18/08** | `manuale_HACCP_...` §5.1, Famiglia A: «**aw 0,30-0,40 (prodotto); farcitura in massa aw 0,90-0,94**, pH 5,4-5,9» · `Scheda_tecnica_prodotto_AF-SN-0450_rev4.pdf` → aw **0,93** · `Rapporto_di_Prova_AnalyticaVeneta_2026_04187.pdf` → aw **0,936** · `test_shelf_life_accelerata_confezione_MAP_snack.csv` → aw **0,31** | ⚠️ **Nessuno, e la riga del 18/08 va letta con questa accanto.** L'arbitrato del lotto 1A concludeva «la scheda tecnica, confermata dal laboratorio accreditato; l'anomalia sta nel file delle prove di shelf life». Il manuale mostra che **i due valori misurano matrici diverse**: 0,31 è compatibile con l'aw *del prodotto* (0,30-0,40), 0,93 con quella *della farcitura in massa* (0,90-0,94). Ne segue che il file delle prove **non è più l'anomalo**, e che nasce una divergenza nuova: **manuale contro scheda tecnica sull'aw del prodotto**, 0,30-0,40 contro 0,93. ⚠️ La riga del 18/08 **resta dov'è**: il canone si accresce, e questa dice che cosa è cambiato |
+
+### Perché questo gruppo vale più di quanto sembri
+
+Le prime due divergenze si trovano **solo** leggendo il manuale HACCP **come documento a sé**,
+invece che come fonte da citare per un limite. La terza si trova solo mettendo il manuale
+accanto a una divergenza che il canone aveva già arbitrato. ⚠️ **Nessuna delle tre sarebbe
+emersa dalla riconciliazione orizzontale**, che confronta i documenti che registrano: il
+manuale non registra niente, prescrive — e per due volte su tre **prescrive male, o dichiara
+compiuto ciò che non lo è**.

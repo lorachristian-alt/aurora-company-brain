@@ -203,6 +203,11 @@ def main():
         for n, fam in candidate:
             f.write("%s\n" % n.slug)
         f.write("# --- da qui in giu': note toccate in corso di lotto (E32) ---\n")
+        f.write("# Preesistenti, che il lotto modifica senza citarne i grezzi.\n")
+        f.write("# --- da qui in giu': note NATE in questo lotto ---\n")
+        f.write("# Si dichiarano QUANDO SI CREANO, non si deducono a fine lotto: e'\n")
+        f.write("# la stessa disciplina di E32 applicata alle note nuove, e serve a\n")
+        f.write("# conta_perimetro_lotto.py, che i numeri del perimetro li legge da qui.\n")
     print("\nscritti:\n  %s\n  %s" % (EL_GREZZI, EL_NOTE))
     print("\nPerimetro: 0 grezzi, %d note." % len(candidate))
     return 0

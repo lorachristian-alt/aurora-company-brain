@@ -6,7 +6,8 @@
 > **Perché esiste** · Il repository conserva le decisioni; questo file conserva la
 > giurisprudenza — il modo di giudicare che nei documenti non è scritto perché viveva
 > nella conversazione.
-> **Data** · 19/08/2026, dopo il **gate del lotto 1C** (commit `eb8f035`) e la sessione di
+> **Data** · 19/08/2026, dopo la **chiusura del lotto R1** e il gate intermedio che l'ha
+> autorizzata. Nella stessa giornata: il gate del lotto 1C (commit `eb8f035`) e la sessione di
 > manutenzione che ne è seguita. ⚠️ L'intestazione diceva ancora «dopo la chiusura del lotto
 > 1B (commit `d54ffb3`)» mentre il file conteneva già la giurisprudenza del gate 1C: è la
 > data del documento, e sbagliata fa credere vecchio ciò che è nuovo.
@@ -42,8 +43,8 @@ per decisione del titolare: ci andrà a fine progetto, prima del corpus v2).
 | 1 | `00_INIZIA_QUI.md` | mappa, modello operativo, regole d'oro, glossario |
 | 2 | `06_operativo/scaletta_end_to_end.md` | le sessioni S0-S7, i principi, gli stop-loss |
 | 3 | `06_operativo/decision_log.md` | ogni decisione, datata, col motivo |
-| 4 | `01_metodo/metodo_03_canonizzazione.md` | il manuale supremo della canonizzazione (E1-E35 inclusi) |
-| 4-bis | `06_operativo/registro_emendamenti.md` | l'indice genealogico dei **35** emendamenti: chi li ha approvati, quando, dove vivono. ⚠️ Il numero **non si legge a occhio**: lo dà `verifica_emendamenti.py`, che controlla anche che ogni riga punti a una sezione esistente |
+| 4 | `01_metodo/metodo_03_canonizzazione.md` | il manuale supremo della canonizzazione (E1-E38 inclusi) |
+| 4-bis | `06_operativo/registro_emendamenti.md` | l'indice genealogico dei **38** emendamenti: chi li ha approvati, quando, dove vivono. ⚠️ Il numero **non si legge a occhio**: lo dà `verifica_emendamenti.py`, che controlla anche che ogni riga punti a una sezione esistente |
 | 5 | `06_operativo/matrice_lotti_corpus_v1.md` | il piano dei 12 lotti + registro modifiche + tabella di tracciamento |
 | 6 | gli stati: canonizzazione e RAG di produzione | dove siamo, due linee di lavoro, due file |
 | 7 | `06_operativo/rapporto_gate_s2.md`, `rapporto_gate_s3.md`, `rapporto_lotto_1a.md`, `rapporto_lotto_1b*` | la storia dei gate |
@@ -71,14 +72,14 @@ crea regole: spiega come si sono applicate.
 
 | Grandezza | Valore |
 |---|---|
-| Note nel vault | **179** |
+| Note nel vault | **183** |
 | di cui `_index` | 11 |
-| di cui note-strumento del progetto | 9 |
+| di cui note-strumento del progetto | 10 |
 | di cui note di diario (`sessione`, `daily`) | 4 |
-| **di cui note di contenuto** | **155** |
-| Note per cartella | areas 94 · entities 22 · data 22 · code 10 · projects 8 · docs 8 · workspace 7 · concepts 5 · self 1 · outputs 1 · sources 1 |
-| Note per `type` | atomica 97 · conflitto 33 · entita 18 · hub 12 · index 11 · concetto 4 · sessione 4 |
-| Questioni aperte (`type: conflitto`) | 33 |
+| **di cui note di contenuto** | **158** |
+| Note per cartella | areas 96 · entities 22 · data 22 · code 11 · docs 9 · projects 8 · workspace 7 · concepts 5 · self 1 · outputs 1 · sources 1 |
+| Note per `type` | atomica 100 · conflitto 34 · entita 18 · hub 12 · index 11 · concetto 4 · sessione 4 |
+| Questioni aperte (`type: conflitto`) | 34 |
 | Grezzi in `sources\` | 160 |
 | Grezzi citati da almeno una nota | **35** |
 | Grezzi restanti | **125** |
@@ -93,18 +94,18 @@ crea regole: spiega come si sono applicate.
 - **Metodo a 35 emendamenti** (`verifica_emendamenti.py`): E34 — la nota-sessione entra nel
   rituale di chiusura e il blocco dei conteggi si genera dopo di essa — ed E35 — esiste il
   **lotto di manutenzione** — sono entrati il 19/08/2026, per ordine diretto del coordinatore.
-- **PROSSIMO: FINIRE il lotto R1.** ⚠️ R1 è stato **aperto ed eseguito a metà** il 19/08/2026:
-  perimetro generato da script (**71 note**, zero grezzi), primo giro di correzioni chiuso
-  (**41 note corrette**, tasso di difetto **57,7 %**), QA di lotto verde a 0 errori, pacchetto
-  per il giudizio già generato dopo le correzioni. **Mancano** lo strato di giudizio, la
-  revisione col canone e il ri-giudizio, che `metodo_03` §9.5 affida a una **sessione diversa da
-  quella che ha scritto le note** — e la sessione che le ha scritte è quella che ha chiuso il
-  primo giro. `# CHIUSO` **non è in testa all'elenco del lotto**, ed è voluto.
-  ⚠️ **Il rapporto `06_operativo/rapporto_lotto_r1.md` porta una domanda per il coordinatore, e
-  va letto prima dell'approvazione del titolare**: 57,7 % di difetto basta a dire che il ripasso
-  va rifatto a fine corsa, o E29 in vigore basta a impedire che si riformi? Il rapporto argomenta
-  che il ripasso **è già dovuto comunque**, perché R1 ha potuto usare 8 fonti prescrittive su 36
-  e le altre 28 riapriranno note già scritte, lotto per lotto (righe T55-T63 della matrice).
+- **PROSSIMO: il GATE del lotto R1**, che è **chiuso** dal 19/08/2026. Il rapporto è
+  `06_operativo/rapporto_lotto_r1.md`. ⚠️ Il gate del 19/08 era **intermedio**: autorizzava il
+  lotto a finire, non lo approvava.
+  **Che cosa il lotto ha prodotto**, in una riga per tipo: 71 note guardate, **41 corrette**,
+  tasso di difetto **57,7 %**, di cui **7 affermavano il falso**; tre giri di giudizio (24, 13 e
+  9 rilievi accolti) e una revisione col canone (**7 A · 3 B · 0 C** più **17 doppie padrone**);
+  **tre divergenze nuove nel canone**, due delle quali sul manuale HACCP; **dodici righe** di
+  tracciamento nuove; cinque note di contenuto e quattro note-strumento nate; lo strumento di
+  E29 con le **36 fonti prescrittive** del corpus.
+  ⚠️ **Il lotto si è chiuso nominando un pattern, non con un quarto giro** (E26). Il pattern è
+  **«la cautela non si propaga»**, ed è al §9 del rapporto: **è l'unica cosa che il gate deve
+  decidere** — se diventi un emendamento a `metodo_03` o se basti il passo 2-bis com'è.
 - **Poi**: il tema 2, il resto della matrice, quindi S6 (misura «dopo» sul vault, con
   `predizioni.md` pre-registrato) e S7 (pubblicazione).
 
@@ -259,6 +260,15 @@ coerente.
     inoltrava `--note-toccate` ai figli, e un collaudo che chiamava i figli direttamente — con
     il flag esplicito — non poteva vederlo. «7 difetti su 7» era vero e non provava ciò che
     sembrava provare.)
+30. **Un GATE INTERMEDIO non approva un lotto: lo autorizza a finire** (19/08/2026, lotto R1).
+    Specie nuova, e va chiamata per nome perché fra un anno «gate del lotto R1» e «gate
+    intermedio del lotto R1» non sembrino la stessa occasione. Serve quando il ciclo di
+    giudizio non è ancora girato e il coordinatore deve sbloccarlo **senza pronunciarsi sul
+    merito**: fissa gli emendamenti che il lotto ha già dimostrato necessari, detta le guardie
+    per la parte che resta, e rinvia il verdetto al rapporto finale. ⚠️ Ha anche mostrato come
+    si respinge un candidato emendamento: **verificandolo nel codice**. La proposta di alzare
+    il tetto delle 350 parole è caduta perché `parole_corpo` chiama `corpo_senza_fonti`, quindi
+    la riga della fonte non era mai stata contata — le note erano cresciute di **prosa**.
 
 ---
 
@@ -280,6 +290,8 @@ coerente.
 | Undici note su CCP e tarature senza il manuale HACCP | la fonte che prescrive va cercata apposta: quattro di quelle note dichiaravano mancante ciò che il manuale contiene (1C) |
 | Il `summary` corretto per ultimo, quando il corpo era già stato attenuato | title e summary si rileggono come note a sé **a ogni giro** di giudizio, non una volta sola (1C) |
 | Blocco dei conteggi generato PRIMA della nota-sessione | 172 contro 173 nello stesso giorno, e la differenza era la nota di diario: il blocco è l'**ultimo** numero prodotto prima del commit (E34, 19/08/2026) |
+| Il pacchetto per il giudizio tagliato in fette **senza le fonti** | i giudici confrontavano le note con sé stesse e hanno dichiarato da soli il verdetto **degradato**: il difetto stava fra generatore e giudice, non dentro nessuno dei due (§4.29, lotto R1) |
+| Il manuale HACCP **ricopiato invece che linkato** in diciassette note | mentre si agganciavano le note alla fonte che le prescrive, il vault ha guadagnato copie della stessa prescrizione: **wikilink alla padrona più la fonte in `fonti`**, e si riscrive solo il minimo perché la nota regga da sola (lotto R1) |
 | Il prompt riutilizzabile rimasto indietro di sedici emendamenti | 1A, 1B e 1C hanno girato con le regole nel testo incollato invece che nello strumento: chi opera **segnala** lo scostamento, chi istruisce lo **colma** (§4.27, 19/08/2026) |
 
 ---
@@ -302,6 +314,15 @@ coerente.
 - **Questioni aperte in crescita** (**32**, dal blocco dei conteggi — la riga diceva 24): al
   gate finale ognuna deve essere «aperta dichiarata» con la sua ragione, non semplicemente
   rimasta aperta. Il numero si legge dal blocco, non si aggiorna a mente.
+- ⚠️ **«La cautela non si propaga»**, il pattern nominato alla chiusura di R1: si dichiara come
+  lettura ciò che era affermato come dato, e la dichiarazione resta dove è stata scritta —
+  mentre `summary`, celle di tabella e glosse ai wikilink restano in modalità assertiva. **È
+  sopravvissuto a due giri di revisione mirata**, e un difetto che sopravvive a due revisioni
+  non è una disattenzione: è un punto cieco del metodo. Da decidere al gate di R1 se diventi un
+  emendamento.
+- **Le due prescrizioni più duplicate del vault** — la seconda firma (§4.3.2.1) e il CCP4 —
+  sono anche quelle su cui il vault regge le conclusioni più forti: se una copia diverge,
+  diverge un'accusa. Padroni dichiarati in R1; da riverificare a ogni lotto che le tocca.
 - **Il tasso di difetto della riconciliazione verticale** (57,7 % su 71 note, lotto R1): è il
   numero che decide se il ripasso vada rifatto a fine corsa o se E29 in vigore basti. ⚠️ Il
   difetto è **storico** — tutte le 71 note sono state scritte prima che E29 esistesse — ma le 28

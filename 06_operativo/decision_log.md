@@ -984,3 +984,59 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   ⚠️ È un candidato emendamento per il gate — escludere dal conteggio la riga che cita una fonte
   prescrittiva, oppure alzare il tetto per le note che ne portano una — **non una deroga presa
   qui**: il tetto è stato rispettato in tutte e 41.
+- **2026-08-19** · lotto R1, gate intermedio del coordinatore · **Il GATE INTERMEDIO è una
+  specie nuova, e va chiamata per nome** · un gate che **non approva il lotto: lo autorizza a
+  finire**. Serve quando il ciclo di giudizio non è ancora girato e il coordinatore deve
+  sbloccarlo senza pronunciarsi sul merito. ⚠️ Ha prodotto **E36-E38** e ha respinto un
+  candidato emendamento verificandolo **nel codice**: la proposta di alzare il tetto delle 350
+  parole cadeva perché `qa_comune.parole_corpo` chiama `corpo_senza_fonti`, quindi la riga della
+  fonte non è mai stata contata e le note erano cresciute di **prosa**, non di locator.
+- **2026-08-19** · lotto R1 · **I subagenti si lanciano perché il metodo li prescrive, non come
+  eccezione** · §9.5 passo 3 vuole la revisione col canone su una sessione diversa da quella che
+  ha scritto le note, e il passo 6 vuole lo strato di giudizio su un subagente a contesto pulito
+  che il canone **non** lo riceve. Il perimetro si garantisce con la **fisica del contesto**, non
+  con una clausola di prompt. Otto giudici e un revisore, tutti a contesto pulito.
+- **2026-08-19** · lotto R1, giro 1 · ⚠️ **IL PRIMO TENTATIVO DI GIUDIZIO È STATO ANNULLATO, e
+  il difetto era nello strumento di chi coordinava** · lo script che ritagliava il pacchetto in
+  fette **scartava l'appendice con il testo estratto delle fonti**, che il generatore mette in
+  coda: i giudici confrontavano le note **con sé stesse**. ⚠️ **Entrambi se ne sono accorti da
+  soli e hanno dichiarato il proprio verdetto DEGRADATO** invece di emetterlo come valido.
+  Generatore sano, giudici sani, difetto **fra** loro: è la classe di §4.29, la stessa riparata
+  la mattina sulla suite QA, ricomparsa il pomeriggio sullo strumento di taglio. Da qui la
+  versione 2 dello script: **ogni fetta porta le fonti che le sue note citano**, e lo verifica.
+- **2026-08-19** · lotto R1, revisione col canone · **Tre divergenze di categoria B, aggiunte al
+  canone in sezione datata, e due riguardano il manuale HACCP** · (a) il manuale **dichiara
+  rimosso** il carrello ricambi nella revisione dell'08/04, mentre la `NC-2026-089` del 10/05 lo
+  dà «ancora in area produttiva nonostante chiusura NC audit» e il 09/06 arriva una diffida
+  dell'autorità; (b) il manuale **non sa dire se la validazione del CCP2 sia stata rifatta** — la
+  nota «rivalidazione eseguita?» è sopravvissuta a una revisione, e il verbale che dovrebbe
+  scioglierla non è in archivio; (c) l'**attività dell'acqua su due matrici** (0,30-0,40 prodotto,
+  0,90-0,94 farcitura) toglie la base all'arbitrato del 18/08 che dava il file delle prove come
+  anomalo. ⚠️ **Nessuna delle tre sarebbe emersa dalla riconciliazione orizzontale**: il manuale
+  non registra, prescrive — e per due volte su tre prescrive male o dichiara compiuto ciò che non
+  lo è.
+- **2026-08-19** · lotto R1 · **Diciassette doppie padrone: il lotto ha ricopiato il manuale
+  invece di linkarlo** · è il difetto **opposto** a quello che riparava. Due prescrizioni erano
+  duplicate senza avere alcun padrone: la **seconda firma** in cinque note e la **gestione dei
+  reclami** in tre. Padrone dichiarati: `doc-mod-qa-07` per la prima, la nuova
+  `doc-gestione-reclami-haccp` per la seconda. ⚠️ La forma giusta è **wikilink alla padrona più
+  la fonte in `fonti`**, e si riscrive solo il minimo perché la nota regga da sola come unità di
+  recupero.
+- **2026-08-19** · lotto R1, chiusura · ⚠️ **IL PATTERN NOMINATO AL TERZO GIRO: LA CAUTELA NON
+  SI PROPAGA** · tre giri di giudizio con **24, 13 e 9** rilievi accolti. Il terzo non si è
+  esaurito, quindi E26 impone di chiudere nominando il pattern invece di ripetere il ciclo. **Tre
+  giudici indipendenti, a contesto pulito, su fette diverse, hanno descritto la stessa classe**:
+  si dichiara come lettura ciò che era affermato come dato, e la dichiarazione resta **dove è
+  stata scritta** — mentre la stessa affermazione, ripetuta nel `summary`, in una cella di
+  tabella o in una glossa a un wikilink, mantiene la grammatica del fatto. ⚠️ **È il pattern di
+  1C spostato di un posto**: là era «il corpo cautela, l'intestazione afferma», qui è lo stesso
+  movimento esteso a **ogni** superficie di sintesi, comprese quelle che nessuno rilegge perché
+  non sembrano prosa. Il candidato emendamento sta nel rapporto §10: *la cautela deve stare
+  accanto all'affermazione che sana, e una riga di tabella o una glossa sono affermazioni di
+  fatto quanto il corpo.*
+- **2026-08-19** · lotto R1, chiusura · **I tre numeri di E35: 71 note guardate, 41 corrette,
+  57,7 % di tasso di difetto** · e sette delle 41 **affermavano il falso**, contro quattro su
+  undici nel campione di 1C: il 17 % invece del 36 %. ⚠️ **L'ipotesi che il 57,7 % sia debito
+  storico regge ma non è dimostrata**, e il gate intermedio ha stabilito come si dimostra: **al
+  primo lotto canonizzato sotto E29**, dichiarando il tasso di riapertura. Sarà il rapporto del
+  primo lotto del tema 2 a portare quel numero.
