@@ -575,4 +575,14 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   riguarda la sonda della cella**: l'argomento non regge, e la nota ora lo dice. E' il tipo di
   errore che nessuno strato deterministico puo' prendere, perche' non e' un dato sbagliato: e' un
   ragionamento sbagliato su dati giusti.
+- **2026-08-19** · S4 lotto 1B, gate · **`conta_stato.py` entra nella suite: i conteggi del vault
+  si INCOLLANO, non si ricompongono** · fix di processo deliberato dal coordinatore, e nasce da
+  **due sviste in due lotti**: nel rapporto 1A «46 note di contenuto» contro le 32 dello stesso
+  documento, e nello stato «105 note, 88 di contenuto» quando `qa_all.py` ne contava 106 e 89.
+  ⚠️ **Nessuno dei due era un errore di canonizzazione**: erano due sottrazioni fatte a mano su
+  numeri veri, ed e' il modo piu' facile di perdere credibilita' su un lavoro corretto. Lo script
+  emette un blocco markdown con note per cartella e per `type`, `_index`, note-strumento, note di
+  diario, note di contenuto, questioni aperte, grezzi citati e restanti. **Da qui in poi stato e
+  rapporti di lotto lo incollano verbatim**; se un numero non e' nel blocco, o lo produce un
+  altro script, oppure non si dichiara.
 

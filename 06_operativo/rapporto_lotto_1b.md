@@ -34,6 +34,31 @@
 
 ---
 
+## 1-bis. I conteggi del vault a chiusura del lotto, da script
+
+<!-- CONTEGGI DEL VAULT — generati da `06_operativo\qa\conta_stato.py` il 2026-08-19.
+     Si incollano VERBATIM: non si ricompongono a mano, non si riscrivono in prosa. -->
+
+| Grandezza | Valore |
+|---|---|
+| Note nel vault | **145** |
+| di cui `_index` | 11 |
+| di cui note-strumento del progetto | 6 |
+| di cui note di diario (`sessione`, `daily`) | 2 |
+| **di cui note di contenuto** | **126** |
+| Note per cartella | areas 71 · data 20 · entities 19 · projects 8 · docs 7 · code 7 · concepts 5 · workspace 5 · self 1 · outputs 1 · sources 1 |
+| Note per `type` | atomica 78 · conflitto 24 · entita 15 · index 11 · hub 11 · concetto 4 · sessione 2 |
+| Questioni aperte (`type: conflitto`) | 24 |
+| Grezzi in `sources\` | 160 |
+| Grezzi citati da almeno una nota | **33** |
+| Grezzi restanti | **127** |
+
+⚠️ **Incollato verbatim da `conta_stato.py`**, che nasce a questo gate: in due lotti su due
+i totali ricomposti a mano in prosa erano sbagliati, e nessuno dei due errori era di
+canonizzazione. Vedi §7.
+
+---
+
 ## 2. Lo spezzamento in apertura, e perché il taglio è dove è
 
 Il lotto 1B della matrice approvata aveva **6 grezzi**. Il conteggio dei fatti prima di

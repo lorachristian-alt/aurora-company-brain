@@ -16,8 +16,7 @@
 |---|---|
 | Lotti chiusi | **3** — `l26130` (fetta pilota, S2), **`1A`** (Linea 1: turno, CCP, confezionatrice) e **`1B`** (freddo ed energia) |
 | Grezzi copiati nel vault | 160/160, verificati contro `manifest_corpus_v1.1.json`: zero scarti, zero estranei, zero sottocartelle |
-| Grezzi canonizzati | **33** dei 160 |
-| Note prodotte | **145** (di cui 11 `_index`, 6 note-strumento e 2 di diario): **126 di contenuto** |
+| I conteggi del vault | nel blocco qui sotto, **incollato verbatim** da `conta_stato.py` |
 | Suite QA | **verde sul perimetro di lotto**; sul vault tre controlli su quattro sono a zero errori |
 | `llms.txt` | rigenerato dal frontmatter, allineato |
 | Matrice dei lotti | **approvata e congelata il 18/08**; il lotto 1 spezzato in 1A e 1B, poi 1B spezzato in 1B e 1C: **12 lotti**, 160/160 grezzi, zero scoperti, zero doppi |
@@ -28,6 +27,31 @@ cui 11 `_index` e 6 note-strumento: 88 di contenuto». `qa_all.py` a chiusura di
 **106** note: il 105 escludeva `_index-sources` ma sottraeva ugualmente tutti e undici gli
 `_index`. Il numero corretto è **89 note di contenuto**. La correzione resta visibile, come
 prescrive la regola del gate 1A.
+
+## I conteggi, da script
+
+<!-- CONTEGGI DEL VAULT — generati da `06_operativo\qa\conta_stato.py` il 2026-08-19.
+     Si incollano VERBATIM: non si ricompongono a mano, non si riscrivono in prosa. -->
+
+| Grandezza | Valore |
+|---|---|
+| Note nel vault | **145** |
+| di cui `_index` | 11 |
+| di cui note-strumento del progetto | 6 |
+| di cui note di diario (`sessione`, `daily`) | 2 |
+| **di cui note di contenuto** | **126** |
+| Note per cartella | areas 71 · data 20 · entities 19 · projects 8 · docs 7 · code 7 · concepts 5 · workspace 5 · self 1 · outputs 1 · sources 1 |
+| Note per `type` | atomica 78 · conflitto 24 · entita 15 · index 11 · hub 11 · concetto 4 · sessione 2 |
+| Questioni aperte (`type: conflitto`) | 24 |
+| Grezzi in `sources\` | 160 |
+| Grezzi citati da almeno una nota | **33** |
+| Grezzi restanti | **127** |
+
+⚠️ **Questo blocco non si riscrive a mano.** Nasce al gate del lotto 1B da due sviste di
+conteggio in due lotti — 46 contro 32 nel rapporto 1A, 105 e 88 in questo stato quando
+`qa_all.py` contava 106 e 89 — e nessuna delle due era un errore di canonizzazione: erano
+sottrazioni fatte a mano su numeri veri. Da qui in poi lo stato e i rapporti **incollano**,
+non ricompongono.
 
 ## Il lotto 1B, chiuso il 19/08/2026
 
