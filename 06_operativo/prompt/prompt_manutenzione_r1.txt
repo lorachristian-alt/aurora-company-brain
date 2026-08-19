@@ -1,0 +1,469 @@
+=====================================================================
+PROMPT — SESSIONE DI MANUTENZIONE + APERTURA DEL LOTTO R1
+Corpus v1 · Aurora Food Group S.r.l. (simulazione dichiarata)
+File: 06_operativo\prompt\prompt_manutenzione_r1.txt
+Scritto dal coordinatore il 19/08/2026, dopo il gate del lotto 1C.
+=====================================================================
+
+COME SEI STATO LANCIATO
+- Terminale nella RADICE del repository
+  C:\Users\buulo\Desktop\.eval_do_not_index\Aurora_Food_Group_SRL
+  con: claude --add-dir "C:\Users\buulo\Desktop\aurora-cervello"
+
+PERCHE' QUESTA SESSIONE ESISTE, E PERCHE' NON APRE SUBITO R1
+Il gate del lotto 1C ha deciso che il prossimo atto e' R1, la riconciliazione
+verticale. Rivedendo il repository prima di scrivere questo testo il
+coordinatore ha trovato quattro difetti negli strumenti con cui R1 dovrebbe
+girare, e che il prompt riutilizzabile dei lotti era rimasto al gate S2 — 19
+emendamenti su 35. Vuol dire che 1A, 1B e 1C hanno girato su regole che
+viaggiavano solo nel testo incollato di volta in volta: esattamente la
+malattia che E27 ha curato, ricomparsa altrove.
+
+Aprire R1 con quegli strumenti significherebbe produrre un lotto di
+correzioni controllato da una rete bucata. La §4.25 del passaggio di consegne
+dice che un controllo bacato non e' un candidato da valutare al gate: e' un
+guasto, e si ripara subito, perche' l'effetto di accumularlo e' che i lotti
+dopo ereditano lo stesso buco.
+
+Non e' una revisione generale del progetto: sono riparazioni nominate, una per
+una, e poi si apre R1.
+
+CLASSIFICAZIONE DELLE ISTRUZIONI
+Le PARTI 1, 2 e i punti 3.6 e 3.7 sono PERMANENTI: vivono in metodo_03, nel
+registro degli emendamenti, nel passaggio di consegne, nel collaudo. Il resto
+della PARTE 3 e' UNA TANTUM: sono correzioni di registro. La PARTE 5 e'
+l'apertura di un lotto, e vale come tale.
+
+---------------------------------------------------------------------
+PARTE 0 — I DUE PROMPT DEL COORDINATORE: VERIFICA E COMMIT
+---------------------------------------------------------------------
+Entrambi i prompt di questa sessione sono scritti dal coordinatore: non li hai
+scritti tu e non ne modifichi il contenuto. §4.27 — un artefatto che ISTRUISCE
+una sessione non lo scrive la sessione, che e' la stessa ragione per cui il
+giudice non riceve il canone. Tu li verifichi, e committi quello che manca.
+
+0.1 prompt_s4_lotti.txt e' GIA' COMMITTATO E PUSHATO dal titolare: commit
+    2ba5e39, e main coincide con origin/main. Verifica solo che la copia di
+    lavoro sia integra, e devono tornare tutti e cinque:
+      righe 416 · byte 23.641 · CRLF 416 · LF isolati 0 · BOM assente
+      sha256 281948eeb14c3da983554952e3e949efe3749725ac71a07630018b8b36991ce3
+    Se anche uno solo non torna, FERMATI e dillo: qualcosa ha toccato il file
+    dopo il commit, e la prima ipotesi e' un fine riga riscritto — l'errore che
+    il lotto 1A ha gia' pagato riscrivendo canone e matrice con Python su
+    Windows.
+
+0.2 Questo file, prompt_manutenzione_r1.txt, e' invece NON TRACCIATO, ed e'
+    l'unica cosa che `git status` deve mostrare in apertura — se ne mostra
+    altre, dillo prima di toccare qualsiasi cosa. Non porta la propria impronta
+    al proprio interno, perche' un file non puo' contenere il suo sha256: il
+    suo controllo e' il commit. Quindi
+    COMMITTALO E PUSHALO PRIMA DI ESEGUIRLO, come si e' fatto con la matrice
+    dei lotti e con la config C: un piano si congela prima di eseguirlo, e un
+    incarico che vive solo nel testo incollato sparisce con la finestra del
+    terminale. Messaggio:
+
+      prompt della sessione di manutenzione e apertura del lotto R1
+
+      Scritto dal coordinatore (§4.27: un artefatto che istruisce una sessione
+      non lo scrive la sessione). Resta a verbale di cio' che la sessione e'
+      stata mandata a fare. E34 ed E35 sono nella coda del prompt dei lotti e
+      non ancora in metodo_03: colmarlo e' il primo adempimento.
+
+0.3 Poi LEGGI PER INTERO prompt_s4_lotti.txt: governa il resto della sessione e
+    tutti i lotti successivi. La sua coda dichiara uno scostamento voluto — il
+    prompt e' a E35, il registro degli emendamenti a E33 — e la PARTE 1 lo
+    colma. Se dopo la PARTE 1 lo scostamento non e' zero, non hai finito.
+
+---------------------------------------------------------------------
+PARTE 1 — DUE EMENDAMENTI APPROVATI DAL COORDINATORE (PERMANENTI)
+---------------------------------------------------------------------
+Applicali a metodo_03 con marcatore inline, e scrivi la riga in
+registro_emendamenti.md nello stesso turno. Occasione: «ordine diretto del
+coordinatore, 19/08/2026, fuori da un gate», come E27 ed E28 — la colonna
+«dove nasce» e' l'unico posto in cui quella differenza resta scritta.
+
+E34 — §9.5. Il ciclo di chiusura del lotto acquista un passo che oggi vive
+solo nel prompt dei lotti: la NOTA-SESSIONE nel journal di workspace\. E il
+blocco dei conteggi di conta_stato.py si genera DOPO di essa, come ultimo
+numero prodotto prima del commit.
+  Il caso che lo genera: il blocco incollato nello stato e nel rapporto 1C
+  dice 172 note (workspace 5, sessione 2); qa_all.py dello STESSO GIORNO, in
+  06_operativo\qa\2026-08-19_vault\ e in 2026-08-19_1c\, ne conta 173
+  (workspace 6, sessione 3). La differenza e' la nota di diario del lotto,
+  scritta dopo il conteggio. Le note di contenuto restano 153 in entrambi,
+  quindi nessuna decisione e' stata presa su un numero sbagliato — ma il
+  blocco nato per finire le sviste di conteggio e' generato nel punto
+  sbagliato del rituale, e uno strumento che fotografa un vault che non
+  esiste piu' e' peggio di nessuno strumento: da' l'autorita' dello script a
+  un numero vecchio. Scrivi anche il perche' nella riga di metodo_03, non
+  solo la regola.
+
+E35 — §7 e §9.4/§9.5. Esiste il LOTTO DI MANUTENZIONE: quello che non
+canonizza grezzi nuovi ma ripara note gia' scritte, quando un gate scopre un
+difetto di classe che le attraversa. Regole, tutte da scrivere in metodo_03:
+  - perimetro di SOLE NOTE: l'elenco dei grezzi porta in testa
+    «# MANUTENZIONE» e non ha righe utili; le note stanno in
+    qa\lotti\<lotto>_note.txt, che e' il perimetro vero;
+  - la suite accetta zero grezzi SOLO SE l'elenco delle note esiste e non e'
+    vuoto, e il report lo dichiara in chiaro («perimetro di manutenzione: 0
+    grezzi, N note»). GUARDIA, e va scritta: un perimetro vuoto per errore di
+    battitura deve restare un errore. Non e' una deroga che allenta un
+    controllo: e' una modalita' dichiarata che lo estende a un oggetto che
+    prima non poteva essere controllato affatto;
+  - l'elenco delle note lo genera uno SCRIPT, mai la memoria, e il criterio
+    con cui lo genera si scrive nel rapporto;
+  - niente capacita' 25-35: un lotto di manutenzione non punta a produrre
+    note. Se una correzione fa emergere un fatto senza padrone la nota si
+    scrive, e sopra le 30 valgono le soglie di E28 come per tutti;
+  - il rapporto dichiara TRE numeri: note guardate, note corrette, tasso di
+    difetto;
+  - vale come UN lotto nel conteggio del ritmo.
+
+---------------------------------------------------------------------
+PARTE 2 — QUATTRO GUASTI DELLO STRUMENTO (FIX DI CODICE, PERMANENTI)
+---------------------------------------------------------------------
+Sono fix, non emendamenti: precedente del gate 1A, dove il falso positivo
+sulla fonte non agganciata fu classificato fix di codice. Ma valgono per
+sempre e vanno collaudati, perche' la regola del gate 1A ammette solo fix che
+AGGIUNGONO agganci; questi aggiungono copertura e non ne tolgono, e devi
+verificarlo tu prima di dichiararli chiusi.
+
+FIX 1 — qa_all.py non inoltra --note-toccate ai quattro script figli.
+  Guarda la riga: base = ["--perimetro"] + args.perimetro + ["--report", d,
+  "--vault", args.vault]. Il flag non c'e'. Oggi E32 al lotto regge SOLO
+  perche' ogni figlio, dentro leggi_perimetro, si ricalcola da se' la
+  convenzione lotti/<lotto>_note.txt quando il perimetro e' passato come
+  @elenco.txt. Chi passasse l'elenco esplicitamente — nome diverso, o percorso
+  diverso, che e' proprio il caso di un lotto di manutenzione — se lo vedrebbe
+  ignorare IN SILENZIO, con la QA verde e le note modificate fuori perimetro.
+  Inoltralo.
+
+FIX 2 — leggi_perimetro deve accettare l'elenco a zero grezzi come previsto da
+  E35, con la guardia scritta sopra, e il report deve dirlo. Oggi esce con
+  «--perimetro lotto richiede l'elenco dei grezzi del lotto», e R1 non e'
+  lanciabile affatto.
+
+FIX 3 — il collaudo non esercita il lanciatore, ed e' il difetto che rende
+  invisibili gli altri due. _collaudo\collaudo_suite.py invoca i figli
+  direttamente, con --note-toccate esplicito: prova una via che nessun lotto
+  usa. I 7 difetti su 7 sono veri, ma nessuno passa da qa_all.py.
+  Scrivi nel docstring del collaudo l'ELENCO DELLE VIE DI PRODUZIONE e pianta
+  almeno un difetto per ciascuna. Le vie sono cinque, piu' un caso negativo:
+
+    V1  qa_all --perimetro lotto @lotti\<lotto>.txt --lotto <n>, elenco delle
+        note toccate per CONVENZIONE. E' la via dei lotti dal 1C in poi.
+    V2  la stessa, con --note-toccate ESPLICITO. metodo_03 §7 la dichiara
+        («letto per convenzione, oppure passato con --note-toccate»): e' una
+        via promessa dal metodo, oggi rotta, sanata dal FIX 1.
+    V3  qa_all --perimetro lotto ... --pacchetto-giudizio. Il controllo E33
+        che il pacchetto rifletta il testo corrente c'e' gia': portalo su
+        questa via.
+    V4  qa_all --perimetro vault. E' la via del gate e di ogni misura, e
+        finora non e' mai stata collaudata affatto.
+    V5  qa_all su perimetro di MANUTENZIONE: zero grezzi piu' elenco note
+        (E35).
+    V-neg  zero grezzi SENZA elenco note, o con elenco vuoto: deve continuare
+        a uscire in ERRORE. E' la guardia di E35, e un caso negativo non
+        collaudato e' una guardia che nessuno ha mai visto scattare.
+
+  ATTENZIONE, non moltiplicare: i sette difetti esistenti restano la batteria
+  sostanziale e si portano su V1, che e' la via principale. Alle altre basta
+  un difetto ciascuna, scelto per esercitare cio' che quella via ha di proprio
+  — l'inoltro del flag su V2, il testo aggiornato su V3, un controllo che solo
+  il perimetro vault emette su V4, il perimetro a zero grezzi su V5.
+  Nove-dieci difetti in tutto, non trentacinque.
+  L'invocazione diretta dei figli si puo' TENERE, ma dichiarata nel docstring
+  come via NON di produzione: serve a isolare un guasto quando qa_all e'
+  rosso, non a dimostrare copertura. Un test che non si sa a quale via
+  appartiene conta come copertura per sbaglio.
+  Se uno dei difetti nuovi non viene visto, il fix corrispondente non e'
+  finito: non chiudere e dillo nel rapporto.
+
+FIX 4 — l'etichetta del lotto nei report. 06_operativo\qa\2026-08-19_1c\
+  qa_all.md ha in intestazione «Perimetro: lotto (lotto l26130)»: nel run
+  finale --lotto non e' stato passato e ha vinto il default, mentre la
+  cartella e' giusta perche' e' stato passato --report. 1A e 1B portano
+  l'etichetta corretta. Il documento che prova la QA di un lotto porta il nome
+  di un altro lotto, e al gate finale quei report sono la prova.
+  Il fix: se --lotto non e' passato e il perimetro e' @lotti\<nome>.txt,
+  args.lotto prende <nome> invece del default l26130. Aggiunge
+  un'informazione corretta e non ne toglie nessuna.
+  NON rigenerare il report di 1C: rifarlo oggi fotograferebbe un vault diverso
+  da quello che il gate ha approvato. L'errata sta al punto 3.2.
+  Se il contesto stringe, FIX 4 e' l'unica cosa di tutto l'incarico che puo'
+  slittare al gate di R1: dillo e slittala, non tagliare altrove.
+
+---------------------------------------------------------------------
+PARTE 3 — IGIENE DEI REGISTRI
+---------------------------------------------------------------------
+Ogni numero qui sotto si riporta da script e si incolla; nessuno si ricompone
+in prosa. Se un numero non esce da uno script, o gliene dai uno, o non si
+dichiara.
+
+3.1 stato_canonizzazione.md (una tantum)
+  - §«Cosa resta» dice «127 grezzi non ancora canonizzati»: sono 125, come
+    dicono il blocco dei conteggi tre sezioni sopra e la tabella del perimetro
+    vault nello stesso file. Errore di trascrizione, non di canonizzazione;
+  - «Le 41 righe della tabella di tracciamento»: il coordinatore ne conta 54,
+    da T1 a T54, nessuna mancante e nessuna duplicata. Vedi 3.5: il numero lo
+    dovra' produrre uno script, non la lettura;
+  - rigenera il blocco dei conteggi ADESSO, dopo aver verificato che la
+    nota-sessione del lotto 1C esista (e' lei la differenza fra 172 e 173), e
+    incollalo verbatim. Il blocco vecchio non si «corregge»: si sostituisce,
+    perche' lo stato e' una fotografia;
+  - la riga che dice ancora che la decisione sulle 30 note CCP «e' del
+    titolare e sta nel rapporto 1C §11» e' superata: la decisione e' presa ed
+    e' R1. Due righe dello stesso file dicono cose diverse;
+  - la sezione «Densita' del pilota — il dato per dimensionare i lotti»
+    consiglia ancora «un lotto da 30 grezzi va preventivato attorno alle 60-70
+    note»: e' superata da E31. Barrala come le fasce della matrice, con la
+    riga che dice da cosa e' superata. Non cancellarla: e' la misura che ha
+    retto la pianificazione per quattro lotti.
+
+3.2 rapporto_lotto_1c.md — DUE ERRATA datate, non riscritture (una tantum)
+  - il §1-bis porta il blocco a 172. Non toccarlo: aggiungi sotto una riga di
+    errata che dichiara la divergenza con qa_all dello stesso giorno (173,
+    workspace 6, sessione 3), la causa (blocco generato prima della
+    nota-sessione) e che le note di contenuto restano 153;
+  - nel §5, dove i numeri della QA sono citati: l'intestazione del report
+    porta l'etichetta di default `l26130`, il perimetro eseguito e' quello di
+    1C, e la cartella fa fede (vedi FIX 4).
+  Precedente per entrambe: il gate 1A, dove un numero corretto ha lasciato
+  un'errata visibile perche' il rapporto di lotto non e' un verbale di misura,
+  ma la correzione deve restare leggibile.
+
+3.3 passaggio_di_consegne_coordinatore.md (una tantum)
+  - l'intestazione dice ancora «dopo la chiusura del lotto 1B (commit
+    d54ffb3)» mentre il file contiene gia' la giurisprudenza del gate 1C:
+    portala al gate del lotto 1C, commit eb8f035;
+  - §2, riga 4-bis: «l'indice genealogico dei 27 emendamenti» → 33, che
+    diventeranno 35 con questa sessione. Il numero lo da'
+    verifica_emendamenti.py;
+  - §6: «Questioni aperte in crescita (24)» → il numero del blocco, 32;
+  - §3 RISCRITTA per intero dopo il gate 1C. Deve dire: quattro lotti chiusi,
+    35 grezzi su 160, i conteggi incollati, E31 adottata e piano a ~28-30
+    lotti, e come PROSSIMO l'apertura di R1 — non «una decisione», che era
+    vero prima del gate e non lo e' piu'. E' il gesto che la §8 di quel file
+    impone per primo e che alla chiusura di 1C e' stato fatto a meta': §4 e §5
+    aggiornate, §3 no;
+  - §4 fuori ordine (20, 21, 24, 25, 23, 22): NON RINUMERARE. Quelle regole si
+    citano per numero — §4.18, §4.25 — e rinumerarle romperebbe ogni citazione
+    esistente, dentro e fuori dal file. Riordina fisicamente le voci tenendo
+    ciascuna il suo numero, e scrivi la regola accanto al titolo della
+    sezione: «i numeri sono permanenti, l'ordine e' di servizio».
+
+3.4 00_INIZIA_QUI.md (una tantum)
+  La sezione «Dove siamo adesso (18/08/2026)» si ELIMINA e al suo posto va un
+  PUNTATORE ai due file di stato e alla §3 del passaggio di consegne. Non
+  aggiungere un terzo padrone da tenere allineato: due fotografie dello stesso
+  momento divergono sempre, e questa lo dimostra gia' — dice «138 grezzi
+  restanti» e «prossimo passo: Sessioni 4-5» quando i restanti sono 125 e il
+  prossimo passo e' R1. Si elimina la duplicazione, non si raddoppia la
+  manutenzione. Il resto del file — mappa, regole d'oro, glossario — e' stabile
+  e non si tocca; controlla solo che la regola d'oro 6 nomini i cinque gesti.
+
+3.5 matrice_lotti_corpus_v1.md (una tantum, piu' uno script permanente)
+  - il cappello dice ancora «come i 138 grezzi non ancora canonizzati si
+    dividono in dodici lotti tematici». Le fasce dentro sono barrate
+    correttamente, il cappello no, ed e' la prima cosa che si legge: allinealo
+    (35 canonizzati, 125 restanti, piano a ~28-30 lotti per E31) e cita il
+    registro delle modifiche;
+  - T22 esce come RICONCILIATA e T30, dichiarato suo duplicato, esce come
+    chiusa: la stessa questione con due esiti diversi. Al gate finale la prova
+    dei conflitti e' quella tabella, e due esiti sulla stessa riga la
+    indeboliscono. Allinea T30 a RICONCILIATA tenendo la dichiarazione di
+    duplicazione: nessuna riga sparisce;
+  - SCRIVI LO SCRIPT che conta la tabella: righe totali e ripartizione per
+    esito (chiusa / aperta dichiarata / riconciliata / tracciata). Vive
+    accanto agli altri, il suo output si incolla nello stato e nei rapporti di
+    lotto, e da qui in poi il numero delle righe non si legge piu' a occhio.
+    Motivo: e' l'ultimo numero del progetto dichiarato senza script, ed e' gia'
+    uscito sbagliato una volta.
+
+3.6 Le righe nuove di giurisprudenza (PERMANENTI), dettate dal coordinatore
+  — §8: quando al gate nasce un principio, arriva li' nello stesso giro. Una
+  riga ciascuna, datata 19/08/2026, col caso che l'ha generata:
+
+  §4.26 — I NUMERI SONO PERMANENTI, L'ORDINE E' DI SERVIZIO. Un elenco
+    numerato che si riordina non si rinumera: le regole si citano per numero,
+    e rinumerare rompe le citazioni di tutti i documenti che le richiamano.
+    (Caso: la §4 di questo stesso file.)
+
+  §4.27 — UN ARTEFATTO CHE ISTRUISCE UNA SESSIONE NON LO SCRIVE LA SESSIONE.
+    Il prompt riutilizzabile e' del coordinatore: una sessione che riscrive le
+    proprie istruzioni e' il canonizzatore che si riscrive il manuale, ed e' la
+    stessa ragione per cui il giudice non riceve il canone. Chi opera segnala
+    lo scostamento; chi istruisce lo colma. (Caso: prompt_s4_lotti.txt rimasto
+    a 19 emendamenti su 35 per tre lotti.)
+
+  §4.28 — DUE FOTOGRAFIE DELLO STESSO MOMENTO DIVERGONO SEMPRE. Quando due
+    documenti descrivono lo stato di oggi, uno dei due diventa un puntatore:
+    si elimina la duplicazione, non si raddoppia la manutenzione. (Caso:
+    «Dove siamo adesso» di 00_INIZIA_QUI contro §3 e i due file di stato.)
+
+  §4.29 — IL COLLAUDO ESERCITA LA VIA CHE LA PRODUZIONE USA, NON UNA VIA
+    EQUIVALENTE. Un test che invoca i componenti direttamente mentre la
+    produzione passa dal lanciatore verifica un percorso che nessuno percorre:
+    i componenti risultano sani e resta scoperto tutto cio' che sta FRA loro —
+    l'inoltro degli argomenti, i default, l'ordine di chiamata. E' la classe di
+    difetto che nessun test di unita' vede per costruzione, perche' non vive
+    dentro nessuna unita'. ATTENZIONE, requisito operativo e non consiglio:
+    almeno un difetto piantato PER OGNI VIA REALMENTE IN USO, e l'elenco delle
+    vie sta scritto nel docstring del collaudo, cosi' la copertura si legge
+    invece di presumerla. (Caso: qa_all.py non inoltrava --note-toccate, e un
+    collaudo che chiamava i figli direttamente non poteva vederlo.)
+
+  In §5, errori pagati, due righe: il blocco dei conteggi generato prima della
+  nota-sessione (172 contro 173); il prompt riutilizzabile rimasto indietro di
+  sedici emendamenti mentre le regole viaggiavano nel testo incollato.
+
+  In §7-bis, AVVERTENZA PERMANENTE dettata dal titolare: il vault non e' nella
+  cartella che il coordinatore vede, quindi i numeri del vault li legge SOLO
+  dagli output committati. Un coordinatore che non puo' contare da se' si fida
+  degli script, e per questo gli script devono essere l'unica fonte dei numeri
+  — ed e' anche la ragione per cui la divergenza 172/173 e' saltata fuori: due
+  script, stesso giorno, numeri diversi, entrambi nel repository.
+
+  Nella stessa §7-bis, seconda avvertenza operativa: quando il coordinatore
+  verifica da se' l'allineamento col remote (§7-bis punto 8) usa SOLO comandi
+  git di sola lettura — `git log`, `git rev-list --left-right --count
+  origin/main...main`, oppure `git --no-optional-locks status`. Un `git status`
+  normale lanciato dal ponte crea `.git\index.lock` e non riesce a cancellarlo,
+  e quel lock blocca il git del titolare al comando successivo. E' successo il
+  19/08/2026: due lock stantii, spostati fuori dal repository in
+  `.eval_do_not_index\_to_delete\`, che il titolare puo' cancellare.
+
+3.7 La limitazione retroattiva del collaudo (PERMANENTE): una riga datata
+  19/08/2026 nel decision_log.md, coordinatore. Dichiara il limite senza
+  gonfiarlo, e distingue i due casi, perche' sono diversi:
+
+    I collaudi della suite hanno validato l'invocazione diretta dei singoli
+    script, non il lanciatore: «5 difetti su 5» (pilota, 1A) e «7 su 7» (gate
+    1C) provano che i controlli funzionano, NON che qa_all.py li chiami con
+    gli argomenti giusti. Non invalida nessun lotto chiuso, e i due casi vanno
+    tenuti separati:
+    - per il lotto 1C la via per convenzione ha funzionato, ed e' verificabile
+      su disco: 06_operativo\qa\2026-08-19_1c\qa_all.md dichiara perimetro di
+      lotto su 51 note e riporta gli avvisi di lunghezza su
+      `fatto-cariche-f-gas-impianti-frigoriferi` (346 parole) e
+      `fatto-convalida-md-1800-scaduta` (320), cioe' proprio le due note
+      estese che senza E32 erano sfuggite;
+    - per pilota, 1A e 1B la convenzione non li ha protetti perche' NON
+      ESISTEVA: E32 nasce al gate di 1C, e in lotti\ c'e' un solo _note.txt.
+      Le loro note modificate erano fuori perimetro, ed e' il fatto gia'
+      registrato che ha generato E32 — non una scoperta di oggi.
+    Quello che resta scoperto e' cio' che sta fra il lanciatore e i figli, ed
+    e' colmato dal requisito di §4.29.
+
+  La stessa limitazione va in UNA RIGA nel docstring di collaudo_suite.py,
+  accanto al conteggio dei difetti: la cifra e il suo limite devono viaggiare
+  insieme, altrimenti «7 su 7 verdi» continua a significare piu' di quanto
+  vale. Non e' un registro in piu' — e' la nota d'uso del numero, nel posto
+  dove il numero nasce.
+
+---------------------------------------------------------------------
+PARTE 4 — CHIUSURA DELLA MANUTENZIONE, PRIMA DI APRIRE R1
+---------------------------------------------------------------------
+Due commit distinti, entrambi pushati. Non uno solo: mischiare emendamenti al
+metodo e correzioni di numeri rende illeggibile la storia del repo, che e' la
+prova del metodo.
+
+  commit A — «E34 ed E35 in metodo_03; la suite copre il perimetro di
+             manutenzione e il collaudo passa dal lanciatore»
+  commit B — «Igiene dei registri: numeri riportati da script, §3 e §4 del
+             passaggio di consegne, 00_INIZIA_QUI a puntatore»
+
+Prima dei commit rilancia e allega gli esiti al riepilogo per il coordinatore:
+verifica_emendamenti.py, verifica_matrice_lotti.py, collaudo_suite.py,
+qa_all.py --perimetro vault, conta_stato.py, e lo script nuovo della tabella
+di tracciamento. Del collaudo riporta l'esito VIA PER VIA — quale difetto su
+quale V — non il totale aggregato: e' il numero che d'ora in poi dimostra
+§4.29, e un totale tornerebbe a nascondere esattamente cio' che questa
+riparazione ha scoperto.
+
+Cinque gesti anche per questa sessione: stato, decision log, passaggio di
+consegne, commit, push. Niente zip: il vault non e' stato toccato.
+
+STOP DICHIARATO: se a questo punto il contesto e' consumato, CHIUDI QUI. La
+manutenzione e' un blocco compiuto, R1 si apre a mente fresca nella sessione
+dopo, e la §5 del prompt dei lotti dice che si chiude a confine di lotto — R1
+non e' ancora aperto, quindi questo E' un confine. Non aprire R1 con quel poco
+che resta: il passaggio che al pilota e in 1A ha trovato entrambe le fughe di
+canone e' la revisione col canone, e quella si fa a mente fresca o non si fa.
+
+---------------------------------------------------------------------
+PARTE 5 — APERTURA DEL LOTTO R1 (RICONCILIAZIONE VERTICALE)
+---------------------------------------------------------------------
+Da qui vale il ciclo di lotto di prompt_s4_lotti.txt, §3 e §3-bis, senza
+sconti. Quello che segue e' cio' che R1 ha di proprio.
+
+5.1 PRIMA lo strumento di E29: l'ELENCO DELLE FONTI PRESCRITTIVE del corpus,
+  in 06_operativo\, fuori dal vault (e' metodo, non contenuto). Una riga per
+  grezzo che PRESCRIVE invece di registrare — manuale HACCP, istruzioni
+  operative, procedure, capitolati, schede tecniche, politiche, contratti
+  firmati — con: che cosa prescrive, il lotto a cui appartiene, e una colonna
+  GIA' CANONIZZATO ricavata da script incrociando i grezzi citati dalle note.
+  Serve a R1 e servira' a ogni lotto dopo.
+
+5.2 GUARDIA, ed e' la piu' importante di R1: una fonte prescrittiva il cui
+  grezzo appartiene a un lotto NON ancora canonizzato NON si cita e non si
+  usa. Citarla la farebbe risultare «gia' coperta» e manderebbe in rosso la
+  disgiunzione della matrice; scriverne il contenuto senza citarla e' contesto
+  importato, cioe' il difetto che ha richiesto quattro giri di giudizio in 1B.
+  Si apre una riga nella tabella di tracciamento con l'obbligo esplicito per
+  il lotto che la porta. Precedente identico: T18, dove la terza gamba stava
+  in un file del lotto 10 ed e' stata tracciata invece che usata. In pratica:
+  in R1 sono citabili solo le fonti prescrittive gia' nel vault — il manuale
+  HACCP del pilota in testa — e IO-05, PRO-QA-08, il capitolato, il DVR NO.
+
+5.3 L'elenco delle note candidate lo genera uno script, e il criterio si
+  scrive nel rapporto: la nota nomina un punto critico, una taratura, una
+  frequenza di verifica, un limite o una responsabilita' di processo, e fra le
+  sue fonti non c'e' nessuna fonte prescrittiva. Output in
+  qa\lotti\r1_riconciliazione_verticale_note.txt, con l'elenco grezzi vuoto
+  marcato «# MANUTENZIONE». Il numero di partenza noto e' 30 note che nominano
+  un CCP senza citare il manuale, dal §11 del rapporto 1C: se lo script ne da'
+  un altro, vince lo script e la differenza si spiega.
+
+5.4 PERIMETRO: R1 guarda solo le note su cui una fonte prescrittiva dice
+  qualcosa. NON e' un ripasso generale del vault, e non e' l'occasione per
+  sistemare altro che ti capita sotto gli occhi: quello che trovi e non
+  appartiene a R1 va in tabella di tracciamento o nel rapporto, non nelle
+  correzioni.
+
+5.5 La distinzione che da' il senso al lotto: una nota che si limita a NON
+  citare la fonte e' incompleta; una nota che DICHIARA MANCANTE cio' che il
+  manuale contiene AFFERMA IL FALSO. In 1C erano quattro su undici. Tienile
+  separate nel conteggio: il tasso di difetto che il rapporto deve dichiarare
+  e' il secondo numero, non il primo, ed e' quello che dira' se il ripasso va
+  rifatto a fine corsa o se E29 in vigore basta.
+
+5.6 Le note che tocchi vanno TUTTE nell'elenco note mentre le tocchi (E32), e
+  il pacchetto per il giudizio si genera dopo le correzioni pre-giudizio
+  (E33). Giudizio v2, revisione col canone, ri-giudizio con la regola
+  d'arresto di E26: se il terzo giro produce ancora rilievi, il rapporto
+  NOMINA il pattern.
+
+5.7 Il rapporto di R1 dichiara i tre numeri di E35 — note guardate, note
+  corrette, tasso di difetto — piu' i conflitti nuovi che le correzioni fanno
+  emergere. Poi il gate: il rapporto va al coordinatore PRIMA che il titolare
+  approvi, perche' quel tasso decide una cosa che vale per tutto il resto del
+  progetto.
+
+---------------------------------------------------------------------
+GUARDIE GENERALI, VALIDE PER TUTTA LA SESSIONE
+---------------------------------------------------------------------
+- 03_valutazione\ non si apre mai. 02_corpus\, 05_rag_produzione\ e
+  04_misurazioni\ non si toccano.
+- Il canone guida e non appare: mai citato, mai copiato, mai parafrasato.
+- Ogni numero da script, output incollato. Nessuna sottrazione a mano: le due
+  sviste di 1A e 1B erano esattamente questo, su numeri veri.
+- I fine riga si preservano: dopo ogni riscrittura da script, diff contro la
+  copia precedente sulle righe preesistenti (precedente 1A, i CR LF
+  raddoppiati).
+- Le chiusure a mano degli avvisi si registrano SEMPRE con motivazione
+  scritta, mai in silenzio.
+- Se qualcosa di quanto scritto qui contraddice metodo_03, vince metodo_03 e
+  lo segnali. Se contraddice prompt_s4_lotti.txt, entrambi sono del
+  coordinatore e l'errore e' suo: segnalalo lo stesso, non compensarlo a mano.
+=====================================================================
