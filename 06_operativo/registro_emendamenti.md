@@ -1,6 +1,6 @@
 # Registro degli emendamenti a `metodo_03`
 
-> **Cos'è** · L'indice genealogico dei 28 emendamenti al manuale di canonizzazione: chi li
+> **Cos'è** · L'indice genealogico dei 33 emendamenti al manuale di canonizzazione: chi li
 > ha approvati, quando, e dove vive oggi la regola. **È un indice, non una copia.**
 > **Cosa NON contiene** · Il testo delle regole. Quello vive in
 > `01_metodo\metodo_03_canonizzazione.md`, che ne resta l'unico padrone: qui c'è l'oggetto
@@ -26,7 +26,7 @@
 Sezioni e presenza dei marcatori sono verificate contro `metodo_03` da
 `06_operativo\verifica_emendamenti.py`, non a occhio.
 
-## I 28 emendamenti
+## I 33 emendamenti
 
 | # | Data | Dove nasce | Tipo | Oggetto, in una riga | Vive in | Marc. | Il perché |
 |---|---|---|---|---|---|---|---|
@@ -58,6 +58,11 @@ Sezioni e presenza dei marcatori sono verificate contro `metodo_03` da
 | **E26** | 19/08/2026 | gate del lotto 1B | regola nuova | regola d'arresto del ri-giudizio: zero rilievi accolti, e comunque il terzo giro col pattern nominato | §9.5, passo 5 | sì | `rapporto_lotto_1b.md` appendice A |
 | **E27** | 19/08/2026 | ⚠️ **FUORI da un gate — ordine diretto del coordinatore** | regola nuova | l'aggiornamento del passaggio di consegne è il **quinto gesto** del rituale di chiusura | §9.5, passo 8 | sì | decision log 19/08 · principio 5 della scaletta |
 | **E28** | 19/08/2026 | ⚠️ **FUORI da un gate — ordine diretto del coordinatore**, in apertura del lotto 1C | chiarimento | **corregge la soglia di E21**: si spezza se la proiezione supera il +25 % **e** le 30 note; sotto le 30 si dichiara e si procede; oltre le 40 si spezza sempre | §9.4 | sì | decision log 19/08 · rapporto del lotto 1C |
+| **E29** | 19/08/2026 | gate del lotto 1C | regola nuova | **riconciliazione VERTICALE**: chi tocca un CCP, una taratura o un limite cita la fonte che lo **prescrive**, con l'elenco delle fonti prescrittive come strumento | §5.1-bis | sì | `rapporto_lotto_1c.md` §6-bis · decision log 19/08 — undici note senza il manuale HACCP, quattro delle quali dichiaravano mancante ciò che il manuale contiene |
+| **E30** | 19/08/2026 | gate del lotto 1C | chiarimento | `title` e `summary` si rileggono come note a sé **a ogni giro** di giudizio, non una volta sola | §9.5, passo 2-bis | sì | `rapporto_lotto_1c.md` §6-bis — al terzo giro sei rilievi su sette stavano ancora nell'intestazione |
+| **E31** | 19/08/2026 | gate del lotto 1C | regola nuova | il budget di lotto è una **capacità** (25-35 note di contenuto), non una stima da densità; la fascia è **provvisoria**, da rivedere a dieci lotti chiusi | §9.4 | sì | `rapporto_lotto_1c.md` §9 — la densità varia del 147 %, le note per lotto del 50 % |
+| **E32** | 19/08/2026 | gate del lotto 1C | regola nuova | il perimetro di lotto comprende anche le note che il lotto ha **modificato**, dichiarate in `qa\lotti\<lotto>_note.txt` | §7 | sì | decision log 19/08 — due difetti passati indenni alla QA di lotto in 1C |
+| **E33** | 19/08/2026 | gate del lotto 1C | chiarimento | il pacchetto per lo strato di giudizio si genera **dopo** le correzioni pre-giudizio | §9.5, passo 2 | sì | decision log 19/08 — due rilievi su dodici, al primo giro di 1C, su testo che non esisteva più |
 
 ## Le anomalie di genealogia, dette per nome
 
@@ -69,7 +74,9 @@ Sezioni e presenza dei marcatori sono verificate contro `metodo_03` da
    nell'appendice A come obbligo già approvato, ma quel gate non ha prodotto una tabella
    di emendamenti come avevano fatto S2 e 1A.
 3. **E27 ed E28 sono nati fuori da un gate**, su ordine diretto del coordinatore del
-   19/08/2026, e sono approvati a pieno titolo. La convenzione del progetto è **«gli
+   19/08/2026, e sono approvati a pieno titolo. ⚠️ **E29-E33 invece sono del gate del lotto
+   1C**, lo stesso giorno: la vicinanza di data non li rende la stessa cosa, e la colonna
+   «dove nasce» è l'unico posto in cui la differenza resta scritta. La convenzione del progetto è **«gli
    emendamenti li approva il coordinatore»**, non «solo ai gate»: sta scritto qui perché fra
    un anno un numero senza gate accanto non sembri un numero senza padre.
 4. **Tre emendamenti non hanno marcatore inline, e non è un disallineamento: sono i refusi**

@@ -182,6 +182,23 @@ aggiornato, zero note orfane, zero fatti del canone senza padrone, llms.txt (nel
 showcase (in `06_operativo/showcase/`) rigenerati. Fine di ogni sessione: zip
 di backup del vault + commit + push + stato.
 
+⚠️ **Quanti lotti sono davvero, aggiornato al 19/08/2026: circa 28-30, non 12.**
+La matrice ne pianificava dodici sulla densità del pilota — 2,1 note di contenuto per
+grezzo. I quattro lotti chiusi danno 2,1 · 6,0 · 9,5 · 13,5, e ciò che si mantiene
+costante non è la densità (dispersione **147 %**) ma **il lotto**: 46 · 42 · 38 · 27 note,
+dispersione **50 %**. Da qui **E31**: il budget di un lotto è una **capacità di 25-35 note**,
+e quanti grezzi ci stiano si decide in apertura contando i fatti.
+
+**Conseguenza da mettere in conto adesso, non a metà strada:** i 125 grezzi restanti
+valgono **circa 28-30 lotti**, non nove. A un lotto per sessione di lavoro, le Sessioni
+4-5 non sono due sessioni: sono una fase lunga, e il calendario va rifatto su quel numero.
+⚠️ La capacità 25-35 poggia su **quattro osservazioni** e si rivede **a dieci lotti chiusi**.
+
+**Prossimo atto, e non è il lotto 2:** il lotto di manutenzione **R1 — riconciliazione
+verticale**, deciso al gate del lotto 1C. Le note del vault che nominano un punto critico
+senza citare la fonte che lo prescrive vanno corrette **prima** di canonizzare altro: non
+sono incomplete, alcune **affermano il falso**, e la misura «dopo» girerebbe su quelle.
+
 ---
 
 ## Sessione 6 — Pre-registrazione e misura «dopo» · Terminale: cartelle di misura

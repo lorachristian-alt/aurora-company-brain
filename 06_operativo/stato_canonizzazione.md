@@ -19,8 +19,8 @@
 | I conteggi del vault | nel blocco qui sotto, **incollato verbatim** da `conta_stato.py` |
 | Suite QA | **verde sul perimetro di lotto**; sul vault tre controlli su quattro sono a zero errori |
 | `llms.txt` | rigenerato dal frontmatter, allineato |
-| Matrice dei lotti | **12 lotti**, 160/160 grezzi, zero scoperti, zero doppi (`verifica_matrice_lotti.py` verde). ⚠️ **I budget dei lotti 2-10 sono da ricalibrare**: sono costruiti sulla densità del pilota, 2,1 note per grezzo, contro le 6,0 · 9,5 · 13,5 misurate dopo — vedi il rapporto del lotto 1C |
-| **Prossimo lotto** | **da decidere col titolare**: la ricalibrazione propone di spezzare i lotti 2-10 prima di aprirli, perché ai consuntivi veri ciascuno vale più del tetto di 40 note fissato da E28 |
+| Matrice dei lotti | 160/160 grezzi, zero scoperti, zero doppi (`verifica_matrice_lotti.py` verde). ⚠️ **I budget dei lotti 2-10 sono SUPERATI** e il piano non è più a 12 lotti: vale **E31**, la capacità di 25-35 note per lotto, e i grezzi si decidono in apertura. **Stima: circa 28-30 lotti**, scritta anche nella scaletta perché cambia il calendario di S4-S5. Ridisegnato in dettaglio **solo il tema 2** (2A · 2B · 2C) |
+| **PROSSIMO ATTO** | ⚠️ **R1 — riconciliazione verticale, NON il lotto 2.** Le note che nominano un punto critico senza citare la fonte che lo prescrive vanno corrette prima di canonizzare altro: non sono incomplete, **alcune affermano il falso**, e la misura «dopo» girerebbe su quelle. Ciclo di lotto completo, e dentro R1 nasce l'elenco delle fonti prescrittive di **E29**. Solo dopo: il tema 2 |
 
 ⚠️ **Errata del 19/08/2026 sui numeri del lotto 1A.** Questo stato dichiarava «105 note, di
 cui 11 `_index` e 6 note-strumento: 88 di contenuto». `qa_all.py` a chiusura di 1A contava

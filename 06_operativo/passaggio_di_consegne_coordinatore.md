@@ -156,6 +156,21 @@ coerente.
     stesso giorno consegna azoto sfuso, e l'inventario registra 18 bombole a scorta su una
     rampa di emergenza. ⚠️ Chi scrive una riconciliazione **dichiara l'inferenza**: che la
     bombola venisse da quella rampa nessuna fonte lo afferma.
+24. **Quando un consuntivo smentisce una stima, non si sostituisce la stima con un'altra
+    stima: si cambia la grandezza su cui si pianifica** (19/08/2026, gate 1C). La matrice
+    pianificava sulla **densità** note/grezzo; i consuntivi l'hanno smentita quattro volte
+    su quattro. La reazione giusta non era ricalcolare le fasce con una densità nuova — che
+    avrebbe dato 903 note e 36 lotti — ma accorgersi che **l'invariante è il lotto** e
+    pianificare su quello (E31). ⚠️ Il segnale che si sta sbagliando grandezza: la stima
+    nuova è più assurda della vecchia.
+25. **Un emendamento che corregge il PERIMETRO o l'ORDINE di un controllo si applica
+    subito; si rimandano al gate solo quelli che cambiano il modo di scrivere le note**
+    (19/08/2026, gate 1C). ⚠️ **Un controllo bacato non è un candidato: è un guasto.** E32
+    ed E33 hanno lasciato passare quattro cose in un lotto solo — due difetti indenni per
+    il perimetro, due rilievi sprecati su testo che non esisteva più — e accumularli per
+    valutarne «l'effetto cumulato» significa solo far ereditare lo stesso buco ai lotti
+    successivi. **Chi li applica pianta anche il difetto nel collaudo**, o il buco si
+    riapre in silenzio.
 23. **La fonte che PRESCRIVE non si cerca da sola: va cercata** (19/08/2026, lotto 1C).
     La riconciliazione incrociata funziona in orizzontale — si confrontano i documenti che
     *registrano* la stessa grandezza — e manca la verticale: il documento che **prescrive**

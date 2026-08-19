@@ -1,11 +1,19 @@
 # -*- coding: utf-8 -*-
 """collaudo_suite — la suite QA trova tutto cio' che deve, e niente di cio' che non deve.
 
-Costruisce un vault finto con DUE note: una corretta, costruita su valori
-riscontrati nei grezzi veri, e una con SEI difetti piantati apposta. Poi lancia
+Costruisce un vault finto con TRE note: una corretta, costruita su valori riscontrati
+nei grezzi veri; una con sei difetti piantati apposta; e una TOCCATA, che non cita
+nessun grezzo del lotto e porta un settimo difetto — serve a provare E32. Poi lancia
 la suite e verifica che ciascun difetto sia stato trovato, che la nota corretta
 NON abbia prodotto errori, e che non abbia prodotto nemmeno gli avvisi elencati
 in VIETATI — la prova che un fix che allenta un controllo non ha aperto buchi.
+
+⚠️ Due difetti sono piantati per i due emendamenti del gate 1C, che hanno chiuso
+altrettanti buchi nel CICLO di controllo, non nelle note:
+  - **E32** — una nota MODIFICATA dal lotto ma che non cita i suoi grezzi deve entrare
+    nel perimetro se dichiarata in `<lotto>_note.txt`. Senza E32 il suo difetto passa.
+  - **E33** — il pacchetto per lo strato di giudizio deve riflettere il testo CORRENTE
+    delle note: se si genera prima delle correzioni, manda al giudice testo morto.
 
 Un controllo che non e' stato collaudato non e' un controllo: e' una speranza.
 
@@ -21,10 +29,13 @@ QA = os.path.dirname(QUI)
 sys.path.insert(0, QA)
 VAULT = os.path.join(QUI, "vault_finto")
 REPORT = os.path.join(QUI, "report")
+ELENCO_TOCCATE = os.path.join(QUI, "note_toccate_collaudo.txt")
 
 # --- i due grezzi veri su cui poggia il collaudo -----------------------------
 LOG = "log_temperature_pastorizzatore_linea1_10_05_26.log"
 OEE = "calcolo_sfrido_efficienza_OEE_linea_bakery.csv"
+# grezzo FUORI dal perimetro del collaudo: la nota che lo cita entra solo per E32
+SCHEDA = "scheda_manutenzione_ordinaria_forni_industrial.csv"
 
 INDEX_AREAS = """\
 ---
@@ -40,7 +51,10 @@ data_nota: 2026-08-16
 Banco di prova della suite. Non e' un archivio.
 
 ## Hub
-- [[area-qualita]] — l'hub d'area che regge le due note del collaudo.
+- [[area-qualita]] — l'hub d'area che regge le note del collaudo.
+
+## Note che non stanno sotto un hub
+- [[fatto-collaudo-toccata]] — la nota modificata dal lotto senza citarne i grezzi (E32).
 """
 
 HUB = """\
@@ -146,6 +160,34 @@ Il rimando qui sotto punta a una nota che non esiste: [[nota-che-non-esiste-mai]
 - [[verbale_inesistente_2026.pdf]] — pag. 1, §2
 """ % (LOG, LOG)
 
+# --- la nota TOCCATA: non cita i grezzi del lotto, e porta un difetto (E32) ---
+# Difetto piantato: il numero 77777 non compare nella fonte citata. Se il perimetro di
+# lotto non comprende le note modificate, questo errore non viene mai emesso.
+TOCCATA = """\
+---
+title: "Nota toccata dal lotto senza citarne i grezzi"
+summary: "Nota estesa durante il lotto ma costruita su un altro grezzo: serve a provare che il perimetro di lotto comprende anche cio' che il lotto ha modificato."
+type: atomica
+area: qualita
+tags: [areas, qualita, collaudo, e32]
+fonti:
+  - %s
+stato: risolto
+aliases: []
+data_nota: 2026-08-19
+related: "[[area-qualita]]"
+---
+
+# Nota toccata dal lotto senza citarne i grezzi
+
+Il piano di manutenzione registra 77777 interventi sul pastorizzatore: il numero non
+compare in nessuna fonte citata, ed e' il difetto piantato per E32.
+
+## Fonti
+- [[%s]] — riga 20
+""" % (SCHEDA, SCHEDA)
+
+
 # --- cosa il collaudo PRETENDE di trovare -------------------------------------
 ATTESI = [
     ("fonte inventata",        "qa_frontmatter",     r"verbale_inesistente_2026\.pdf.*manifest|manifest.*verbale_inesistente"),
@@ -154,6 +196,8 @@ ATTESI = [
     ("wikilink rotto",         "qa_link_integrity",  r"wikilink rotto.*nota-che-non-esiste-mai"),
     ("summary multi-frase",     "qa_frontmatter",     r"fatto-collaudo-rotto.*?piu' di una frase"),
     ("numero senza riscontro", "qa_provenance",      r"99999|99\.999"),
+    # E32: senza il perimetro esteso alle note modificate, questo difetto non viene emesso
+    ("difetto in nota toccata", "qa_provenance",      r"fatto-collaudo-toccata.*77777|77777.*fatto-collaudo-toccata"),
 ]
 
 
@@ -179,6 +223,9 @@ def prepara():
     scrivi(os.path.join(VAULT, "areas", "area-qualita.md"), HUB)
     scrivi(os.path.join(VAULT, "areas", "fatto-collaudo-buono.md"), BUONA)
     scrivi(os.path.join(VAULT, "areas", "fatto-collaudo-rotto.md"), ROTTA)
+    scrivi(os.path.join(VAULT, "areas", "fatto-collaudo-toccata.md"), TOCCATA)
+    scrivi(ELENCO_TOCCATE, "# E32 — la nota che il lotto ha modificato senza citarne i grezzi\n"
+                           "fatto-collaudo-toccata\n")
     subprocess.run([sys.executable, os.path.join(QA, "genera_llms.py"), "--vault", VAULT],
                    cwd=QA, capture_output=True, text=True)
 
@@ -191,10 +238,43 @@ def esegui():
     for s in ("qa_frontmatter.py", "qa_link_integrity.py", "qa_provenance.py", "qa_copertura.py"):
         r = subprocess.run(
             [sys.executable, os.path.join(QA, s), "--perimetro", "lotto", LOG, OEE,
-             "--vault", VAULT, "--report", REPORT],
+             "--note-toccate", ELENCO_TOCCATE, "--vault", VAULT, "--report", REPORT],
             cwd=QA, capture_output=True, text=True, encoding="utf-8", errors="replace")
         out[s.replace(".py", "")] = (r.stdout or "") + (r.stderr or "")
     return out
+
+
+def collaudo_pacchetto_giudizio():
+    """E33: il pacchetto riflette il testo CORRENTE delle note, non quello di prima.
+
+    Si genera il pacchetto, si modifica una nota, si rigenera: se il pacchetto non cambia
+    — o se il testo nuovo non c'e' dentro — vuol dire che al giudice si puo' mandare testo
+    morto senza accorgersene, che e' esattamente cio' che e' successo al primo giro del
+    lotto 1C.
+    """
+    def genera():
+        subprocess.run([sys.executable, os.path.join(QA, "qa_provenance.py"),
+                        "--perimetro", "lotto", LOG, OEE, "--note-toccate", ELENCO_TOCCATE,
+                        "--vault", VAULT, "--report", REPORT, "--pacchetto-giudizio"],
+                       cwd=QA, capture_output=True, text=True)
+        p = os.path.join(REPORT, "pacchetto_giudizio_provenance.txt")
+        return io.open(p, encoding="utf-8").read() if os.path.isfile(p) else ""
+
+    prima = genera()
+    nota = os.path.join(VAULT, "areas", "fatto-collaudo-toccata.md")
+    testo = io.open(nota, encoding="utf-8").read()
+    marcatore = "FRASE-CORRETTA-DOPO-IL-PACCHETTO"
+    io.open(nota, "w", encoding="utf-8").write(testo.replace("## Fonti", marcatore + "\n\n## Fonti"))
+    dopo = genera()
+    io.open(nota, "w", encoding="utf-8").write(testo)          # si rimette com'era
+
+    ok_cambia = prima != dopo
+    ok_contiene = marcatore in dopo
+    print("%-42s %s" % ("il pacchetto cambia col testo (E33)",
+                        "SI, bene" if ok_cambia else "*** NO: manda testo morto ***"))
+    print("%-42s %s" % ("il pacchetto porta la correzione (E33)",
+                        "SI, bene" if ok_contiene else "*** NO ***"))
+    return ok_cambia and ok_contiene
 
 
 def main():
@@ -242,11 +322,17 @@ def main():
         falsi += colpiti
 
     print("\n" + "=" * 74)
-    if mancati or falsi:
-        print("COLLAUDO FALLITO — difetti non trovati: %s | falsi positivi: %d"
-              % (", ".join(mancati) or "nessuno", len(falsi)))
+    print("COLLAUDO — il pacchetto per il giudizio (E33)")
+    print("=" * 74)
+    pacchetto_ok = collaudo_pacchetto_giudizio()
+
+    print("\n" + "=" * 74)
+    if mancati or falsi or not pacchetto_ok:
+        print("COLLAUDO FALLITO — difetti non trovati: %s | falsi positivi: %d | pacchetto: %s"
+              % (", ".join(mancati) or "nessuno", len(falsi), "ok" if pacchetto_ok else "ROTTO"))
         return 1
-    print("COLLAUDO SUPERATO — 6 difetti su 6 trovati, 0 falsi positivi e 0 avvisi vietati\n          sulla nota corretta.")
+    print("COLLAUDO SUPERATO — 7 difetti su 7 trovati, il pacchetto del giudizio riflette il\n"
+          "          testo corrente, 0 falsi positivi e 0 avvisi vietati sulla nota corretta.")
     return 0
 
 

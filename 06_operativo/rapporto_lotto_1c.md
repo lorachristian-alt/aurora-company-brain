@@ -19,7 +19,7 @@
 | Perché non si è spezzato | **E28** (approvato in apertura di questo lotto): si spezza sopra il +25 % **e** sopra le 30 note. 27 < 30 |
 | Densità | **13,5 note per grezzo** — contro 9,5 (1B), 6,0 (1A) e 2,1 (pilota) |
 | Note esistenti estese | 13 — 9 di contenuto e 4 hub d'area, più 4 `_index` |
-| QA di lotto | **0 ERRORI, 9 AVVISI** |
+| QA di lotto | **0 ERRORI, 14 AVVISI** — su **51 note**, cioè col perimetro esteso di E32 |
 | Giri di giudizio | **3** (`PROMPT_GIUDIZIO` v2), chiusi dalla regola d'arresto E26 |
 | Emendamenti nati qui | **E28** |
 
@@ -185,8 +185,13 @@ ricalibrazione dei lotti restanti è al §9.
 
 | Famiglia | Quanti | Motivazione |
 |---|---|---|
-| `summary` e `title` si sovrappongono per meno del 20 % | 6 | Sono le note-questione, il cui **titolo è una domanda** («La convalida è annuale o semestrale?») e il cui summary è **la risposta con i dati**: per costruzione condividono poche parole. Riscrivere il titolo per far salire la sovrapposizione peggiorerebbe la nota |
-| Corpo fra 301 e 350 parole | 2 | `fatto-convalida-md-1800-scaduta` (309) e `fatto-strumenti-cf-02-e-ccp4` (311). Entrambe hanno ricevuto in questo lotto **una gamba nuova** — il secondo registro e il quarto strumento — e spezzarle separerebbe un confronto dal suo termine |
+| `summary` e `title` si sovrappongono per meno del 20 % | 8 | Sono le note-questione, il cui **titolo è una domanda** («La convalida è annuale o semestrale?») e il cui summary è **la risposta con i dati**: per costruzione condividono poche parole. Riscrivere il titolo per far salire la sovrapposizione peggiorerebbe la nota |
+| Corpo fra 301 e 350 parole | 6 | Note che in questo lotto hanno ricevuto **una gamba nuova** — il secondo registro, il quarto strumento, la fonte prescrittiva — e spezzarle separerebbe un confronto dal suo termine. Nessuna supera il tetto di 350 |
+
+⚠️ **I numeri sono più alti di quelli del primo passaggio perché il perimetro è cresciuto**:
+con E32 la QA di lotto guarda **51 note invece di 40**, cioè anche le undici che il lotto ha
+modificato senza citarne i grezzi. Gli avvisi in più erano già nel vault, e adesso li vede il
+controllo che si lancia a ogni lotto.
 
 ⚠️ **Nessun avviso di fonte inutile e nessuno di link mancante**: il giudice, indipendentemente,
 ha confermato che **ogni fonte elencata sorregge almeno un'affermazione** in tutte e 28 le note

@@ -389,6 +389,10 @@ def aggiungi_argomenti(ap):
                     metavar="MODO",
                     help="'vault' oppure 'lotto <file1> <file2> ...' "
                          "(oppure 'lotto @elenco.txt')")
+    ap.add_argument("--note-toccate", default=None, metavar="ELENCO",
+                    help="elenco delle note che il lotto ha MODIFICATO senza citarne i grezzi "
+                         "(E32). Se non si passa, accanto a `@lotti/<lotto>.txt` si cerca "
+                         "`lotti/<lotto>_note.txt`")
     ap.add_argument("--report", default=None,
                     help="cartella del report; default 06_operativo\\qa\\<data>_<lotto>\\")
     ap.add_argument("--vault", default=VAULT)
@@ -413,20 +417,58 @@ def leggi_perimetro(args):
         elenco = voci[0][1:]
         voci = [r.strip() for r in open(elenco, encoding="utf-8")
                 if r.strip() and not r.strip().startswith("#")]
+        # E32: accanto all'elenco dei grezzi, la convenzione cerca l'elenco delle note
+        # modificate dal lotto. Se il file non c'e', non e' un errore: molti lotti non
+        # estendono nessuna nota vecchia.
+        if getattr(args, "note_toccate", None) is None:
+            per_convenzione = elenco[:-4] + "_note.txt" if elenco.endswith(".txt") else None
+            if per_convenzione and os.path.isfile(per_convenzione):
+                args.note_toccate = per_convenzione
     if not voci:
         print("--perimetro lotto richiede l'elenco dei grezzi del lotto")
         sys.exit(1)
     return "lotto", set(voci)
 
 
-def note_del_perimetro(note, modo, file_lotto):
-    """Le note che il lotto ha prodotto: quelle che citano almeno un suo grezzo,
-    piu' gli `_index` e gli hub d'area, che il lotto tocca sempre."""
+def note_toccate(args):
+    """I nomi delle note che il lotto ha MODIFICATO senza citarne i grezzi (E32).
+
+    ⚠️ Nasce dal lotto 1C, dove estendere due note vecchie ha introdotto una data senza
+    fonte e una nota oltre le 350 parole: la QA di lotto non le vedeva, perche' quelle
+    note non citano i grezzi del lotto. Un controllo che non copre cio' che il lotto ha
+    toccato non e' un controllo.
+    """
+    f = getattr(args, "note_toccate", None)
+    if not f:
+        return set()
+    if not os.path.isfile(f):
+        print("elenco delle note toccate non trovato: %s" % f)
+        sys.exit(1)
+    fuori = set()
+    for r in io.open(f, encoding="utf-8"):
+        r = r.strip()
+        if not r or r.startswith("#"):
+            continue
+        fuori.add(r[:-3] if r.endswith(".md") else r)
+    return fuori
+
+
+def note_del_perimetro(note, modo, file_lotto, toccate=None):
+    """Le note che il lotto ha prodotto O modificato.
+
+    Tre insiemi, e il terzo e' l'emendamento E32:
+      1. le note che citano almeno un grezzo del lotto;
+      2. gli `_index`, che il lotto tocca sempre;
+      3. le note **dichiarate come modificate** dal lotto, che possono non citare
+         nessuno dei suoi grezzi — una scheda entita' estesa, un hub d'area a cui si
+         aggiunge una riga, una nota vecchia che riceve un rimando.
+    """
     if modo == "vault":
         return note
+    toccate = toccate or set()
     dentro = []
     for n in note:
-        if n.type == "index" or any(f in file_lotto for f in n.fonti):
+        if n.type == "index" or any(f in file_lotto for f in n.fonti) or n.slug in toccate:
             dentro.append(n)
     return dentro
 

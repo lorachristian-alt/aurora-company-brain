@@ -87,7 +87,7 @@ def main():
     valutabili = [n for n in note
                   if n.cartella not in Q.ESCLUSE_QUALITA and n.type != "index"]
     if modo == "lotto":
-        dentro = {x.slug for x in Q.note_del_perimetro(note, modo, file_lotto)}
+        dentro = {x.slug for x in Q.note_del_perimetro(note, modo, file_lotto, Q.note_toccate(args))}
         valutabili = [n for n in valutabili if n.slug in dentro]
 
     for n in valutabili:

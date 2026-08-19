@@ -245,7 +245,7 @@ def main():
     modo, file_lotto = Q.leggi_perimetro(args)
 
     note = Q.tutte_le_note(args.vault)
-    perimetro = Q.note_del_perimetro(note, modo, file_lotto)
+    perimetro = Q.note_del_perimetro(note, modo, file_lotto, Q.note_toccate(args))
     aree_con_hub = {n.slug[len("area-"):] for n in note
                     if n.cartella == "areas" and n.slug.startswith("area-")}
     nomi_manifest = Q.manifest_nomi()

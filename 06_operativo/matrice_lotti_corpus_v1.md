@@ -61,16 +61,54 @@ Il numero del lotto **è** l'ordine di esecuzione.
 | 1A | Linea 1: il turno, i CCP e la confezionatrice | 7 | 34-42 | — |
 | 1B | Freddo ed energia: cella CF-02, tunnel TS-01, consumi e fattura | 4 | 22-30 | — |
 | 1C | Metrologia e gas tecnici: parco strumenti, tarature, azoto alimentare | 2 | 12-18 | — |
-| 2 | Igiene, sanificazione, autocontrollo, MOCA | 12 | 20-30 | — |
-| 3 | Sistema qualità, certificazioni, audit, crisi | 13 | 22-32 | — |
-| 4 | Filiera in entrata, fornitori, logistica | 14 | 26-36 | — |
-| 5 | Commerciale: cliente, listini, marginalità | 15 | 28-38 | — |
-| 6 | Amministrazione, bilancio, cassa | 15 | 28-40 | `amministrazione` |
-| 7 | Persone: lavoro, organico, sindacato | 15 | 24-34 | `risorse-umane` |
-| 8 | Sicurezza sul lavoro, ambiente, assicurazioni | 11 | 16-24 | `sicurezza-ambiente` |
-| 9 | R&D, nuovi prodotti, investimenti, visione | 12 | 22-30 | `ricerca-sviluppo` |
-| 10 | Rumore di fondo e forma dell'archivio | 18 | 14-22 | — |
-| | **totale** | **138** | **246-352** | 4 hub d'area nuovi |
+| 2 | Igiene, sanificazione, autocontrollo, MOCA | 12 | ~~20-30~~ **SUPERATO** — ridisegnato in 3 pacchetti, vedi sotto | — |
+| 3 | Sistema qualità, certificazioni, audit, crisi | 13 | ~~22-32~~ **SUPERATO** — da ripacchettizzare in apertura | — |
+| 4 | Filiera in entrata, fornitori, logistica | 14 | ~~26-36~~ **SUPERATO** — da ripacchettizzare in apertura | — |
+| 5 | Commerciale: cliente, listini, marginalità | 15 | ~~28-38~~ **SUPERATO** — da ripacchettizzare in apertura | — |
+| 6 | Amministrazione, bilancio, cassa | 15 | ~~28-40~~ **SUPERATO** — da ripacchettizzare in apertura | `amministrazione` |
+| 7 | Persone: lavoro, organico, sindacato | 15 | ~~24-34~~ **SUPERATO** — da ripacchettizzare in apertura | `risorse-umane` |
+| 8 | Sicurezza sul lavoro, ambiente, assicurazioni | 11 | ~~16-24~~ **SUPERATO** — da ripacchettizzare in apertura | `sicurezza-ambiente` |
+| 9 | R&D, nuovi prodotti, investimenti, visione | 12 | ~~22-30~~ **SUPERATO** — da ripacchettizzare in apertura | `ricerca-sviluppo` |
+| 10 | Rumore di fondo e forma dell'archivio | 18 | ~~14-22~~ **SUPERATO** — da ripacchettizzare in apertura | — |
+| | **totale** | **138** | ~~246-352~~ — il budget non si stima più a tavolino: **E31** | 4 hub d'area nuovi |
+
+### ⚠️ I budget dei lotti 2-10 sono SUPERATI, e il piano non è più a 12 lotti — 19/08/2026
+
+**Le fasce qui sopra restano scritte e barrate**: erano costruite sulla densità del pilota
+(2,1 note per grezzo), e i consuntivi dei quattro lotti chiusi le smentiscono. **Non sono
+state sostituite con altre fasce**, perché sostituire una stima sbagliata con una peggiore
+non è una ricalibrazione: al loro posto vale **E31**, il budget come **capacità**.
+
+| | |
+|---|---|
+| **Capacità di un lotto** | **25-35 note di contenuto** — la fascia in cui sono caduti tutti e quattro i lotti chiusi (46 · 42 · 38 · 27) |
+| **Quanti grezzi ci stanno** | si decide **in apertura**, contando i fatti (E21, E28), non in pianificazione |
+| **Pacchetti indicativi** | **3-5 grezzi** per i lotti di contenuto, **8-10** per il rumore di fondo |
+| **Stima del numero di lotti** | ⚠️ **circa 28-30 invece di 12.** Cambia il calendario delle Sessioni 4-5, non solo questa matrice |
+| **La capacità è PROVVISORIA** | 25-35 poggia su **quattro osservazioni**, tre delle quali su lotti piccolissimi: **si rivede a dieci lotti chiusi** |
+
+⚠️ **Solo il lotto 2 è ridisegnato in dettaglio** (qui sotto). Gli altri restano temi, non
+lotti: ripacchettizzarli tutti adesso sarebbe di nuovo pianificazione a lungo raggio su dati
+scarsi, cioè l'errore che questa stessa ricalibrazione ha appena smontato.
+
+### Il ridisegno del tema 2 — igiene, sanificazione, autocontrollo, MOCA
+
+Dodici grezzi, tre pacchetti che seguono le cuciture della storia e non il conteggio dei file.
+⚠️ **I budget qui sotto sono capacità attese, non promesse**: valgono fino al conteggio dei
+fatti in apertura, che può spezzare ancora.
+
+| Lotto | Tema | Grezzi | Capacità attesa |
+|---|---|---|---|
+| **2A** | **Il lavaggio CIP**: il log di maggio, l'istruzione operativa che prescrive il criterio, la scheda di sicurezza del detergente | `log_lavaggio_CIP_linea1_maggio.log` · `IO-05_istruzione_operativa_lavaggio_CIP.docx` · `scheda_sicurezza_detergente_acido_lavaggio_CIP.txt` | 25-35 |
+| **2B** | **L'autocontrollo di igiene**: tamponi di superficie, acqua potabile, acque reflue, allergeni e la formazione che li riguarda | `registro_tamponi_superfici_listeria_salmonella.csv` · `piano_autocontrollo_acqua_potabile_analisi.csv` · `analisi_acque_reflue_autocontrollo_2026.xlsx` · `scheda_allergeni_matrice_cross_contamination.docx` · `formazione_allergeni_operatori_2026.pptx` | 25-35 |
+| **2C** | **I materiali a contatto**: registro MOCA, dichiarazione di conformità del film col suo duplicato, capitolato degli imballaggi | `estratto_registro_carico_scarico_MOCA.xlsx` · `DoC_MOCA_Flexipack_film_PP_EVOH_2026.pdf` · `doc 2 (1).pdf` · `capitolato_tecnico_fornitura_imballaggi_plastici.txt` | 25-35 |
+
+**Perché il taglio è dove è.** `IO-05` è la **fonte prescrittiva** del log CIP (E29): separarli
+metterebbe il registro in un lotto e la regola che lo giudica in un altro, che è esattamente il
+difetto che il lotto 1C ha pagato col manuale HACCP. Il duplicato `doc 2 (1).pdf` resta con il
+suo originale, perché è **una nota sola con due nomi in `fonti`** (divieto 21). Gli allergeni
+stanno con l'autocontrollo e non con i MOCA: la contaminazione crociata è un pericolo di
+processo, la migrazione dal film è un pericolo di materiale.
 
 **Il budget si misura sulle note di CONTENUTO** (E17): esclusi gli `_index`, che nascono
 per cartella toccata, e le note-strumento di `code\`. Le fasce qui sopra non sono una
@@ -389,9 +427,19 @@ esiste. Questa tabella è il rimedio, e **si aggiorna alla chiusura di ogni lott
 del commit.
 
 ⚠️ **Al gate finale, «conflitti chiusi / aperti dichiarati» si prova con questa tabella,
-non a memoria.** Una riga può uscire solo in due modi: `chiusa` — la gamba è arrivata e la
-nota lo dice — oppure `aperta dichiarata` — l'archivio non la chiude, e c'è una nota
-`type: conflitto` che lo scrive. Nessuna riga sparisce.
+non a memoria.** Nessuna riga sparisce, e gli esiti con cui una riga esce sono **tre**, non
+due — la distinzione è del coordinatore, al gate del lotto 1C:
+
+| Esito | Che cosa significa |
+|---|---|
+| **chiusa** | la gamba mancante è arrivata, la nota lo dice, e la questione non era una divergenza o si è risolta con un vincitore |
+| **aperta dichiarata** | l'archivio non la chiude, e c'è una nota `type: conflitto` che lo scrive |
+| **riconciliata** | ⚠️ **due fonti che sembravano contraddirsi smettono di farlo**, perché una terza spiega il meccanismo che le concilia |
+
+⚠️ **La terza non è un pareggio: è un risultato del vault**, ed è ciò che la misura «dopo»
+dovrà saper mostrare. Un archivio grezzo lascia la contraddizione apparente dov'è; un archivio
+che ha capito il meccanismo la scioglie e lo dichiara. Le due righe riconciliate finora sono
+**T22** (lotto 1B) e **T17** (lotto 1C).
 
 Le righe qui sotto sono il **seme**, ricavato dagli obblighi di lotto e dalla lista di
 tracciamento del gate S2 §6.2. Le questioni che nasceranno canonizzando si aggiungono qui.
@@ -414,12 +462,12 @@ tracciamento del gate S2 §6.2. Le questioni che nasceranno canonizzando si aggi
 | T14 | Data di pagamento dell'acconto Criotech: 15/05 · 20/05 · 25-26/05 | **lotto 6** | **lotto 9** (preventivo e verbale di CdA) | tracciata |
 | T15 | Impianto assicurativo: la polizza in archivio è Novaria, il report OpEx parla di Generali e AIG | **lotto 6** | **lotto 8** (polizze) | tracciata |
 | T16 | Costi fissi OpEx contro i contratti minori (fotocopiatrice, antivirus, distributori) | **lotto 6** | **lotto 10** | tracciata |
-| T17 | Azoto: la bolla Nordgas del 06/05 registra scarico **in serbatoio fisso** SB-AUR-01 e bombole solo di CO2; il quaderno dello stesso giorno scrive «bombola nordgas cambiata alle 16 ma durata poco» | **lotto 1A** (gamba del quaderno) | chiusa in **1C** | **chiusa — non era una divergenza, era una riconciliazione.** `fatto-azoto-due-vie-serbatoio-e-rampa`: l'inventario registra **18 bombole di azoto «scorta rampa»** con nota «rampa emergenza PKM-450», quindi le bombole esistono in giacenza e non devono essere arrivate quel giorno per poter essere cambiate quel giorno. ⚠️ Che *quella* bombola venisse dalla rampa resta una lettura dichiarata, non un fatto di una fonte |
+| T17 | Azoto: la bolla Nordgas del 06/05 registra scarico **in serbatoio fisso** SB-AUR-01 e bombole solo di CO2; il quaderno dello stesso giorno scrive «bombola nordgas cambiata alle 16 ma durata poco» | **lotto 1A** (gamba del quaderno) | chiusa in **1C** | **RICONCILIATA** — non era una divergenza. `fatto-azoto-due-vie-serbatoio-e-rampa`: l'inventario registra **18 bombole di azoto «scorta rampa»** con nota «rampa emergenza PKM-450», quindi le bombole esistono in giacenza e non devono essere arrivate quel giorno per poter essere cambiate quel giorno. ⚠️ Che *quella* bombola venisse dalla rampa resta una lettura dichiarata, non un fatto di una fonte |
 | T18 | Frigotecnica **Berica** (contratto) contro Frigotecnica **Scaligera** (scheda manutenzione), sugli stessi impianti CF-02 e TS-01 | **lotto 1A** (gamba della scheda) | chiusa in **1B** | **aperta dichiarata** — `questione-manutentore-frigo-berica-scaligera`: il contratto è l'unico documento con P.IVA e certificato F-gas, il piano di manutenzione non porta identificativi. Registrata in `alias_entita.md` classe C. ⚠️ **Terza gamba nota e non ancora canonizzata**: `elenco_interni_telefonici.txt` riga 34 scrive «manutenzione frigo Frigotecnica Berica (h24)». Quel file è del **lotto 10** (metodo_03 §1.3 esempio 18: si spalma sulle schede, non fa nota propria) e il divieto 9-bis impone di non usarlo prima: **il lotto 10 deve aggiungerlo alla questione e alla scheda entità** |
 | T19 | Linea 1 in produzione domenica 10/05 su tre turni, mentre il piano della settimana 19 non la prevede | **lotto 1A** — aperta: `questione-linea1-domenica-10-05-fuori-piano` | **lotti 5 e 7** — gamba della storia «domeniche della promo», vedi T12 | tracciata |
 | T20 | Base metrologica dell'arbitrato datalogger contro registro cartaceo | **lotto 1A** — **gamba trovata dove non era prevista**: la scheda di manutenzione attesta le tarature delle sonde del PT-104, nota `fatto-sonde-pt-104-in-taratura` | chiusa in **1C** | **chiusa** — `fatto-datalogger-dl-001-in-taratura`: il canale del cuore prodotto è tarato dal 28/11/2025 al 28/11/2026 da un laboratorio accreditato, incertezza ±0,15 °C. ⚠️ **La chiusura ha però aperto T44**: i due registri della metrologia del `PT-104` non concordano su date, periodicità ed esecutore |
 | T21 | Sonda di conducibilità del CIP-01 con taratura scaduta dall'08/04/2026, «allarmi sonda su log maggio» | **lotto 1A** (scheda manutenzione) | **lotto 2** (log CIP e IO-05) | tracciata |
-| T22 | Manutenzioni arretrate su CF-02 (assorbimenti scaduti dal 30/04, resistenze di sbrinamento rimandate) | **lotto 1A** (scheda manutenzione) | chiusa in **1B** | **chiusa** — non era una divergenza ma una riconciliazione: `fatto-anomalia-consumo-cf-02-maggio` lega l'ordine di lavoro `OdL-26-0175` della scheda alle annotazioni dei consumi, e `fatto-allarmi-alta-temperatura-cf-02-aprile` porta la gamba di aprile. ⚠️ **T30 è la stessa questione, duplicata nel seme della tabella** |
+| T22 | Manutenzioni arretrate su CF-02 (assorbimenti scaduti dal 30/04, resistenze di sbrinamento rimandate) | **lotto 1A** (scheda manutenzione) | chiusa in **1B** | **RICONCILIATA** — non era una divergenza: `fatto-anomalia-consumo-cf-02-maggio` lega l'ordine di lavoro `OdL-26-0175` della scheda alle annotazioni dei consumi, e `fatto-allarmi-alta-temperatura-cf-02-aprile` porta la gamba di aprile. ⚠️ **T30 è la stessa questione, duplicata nel seme della tabella** |
 | T23 | O2 residuo in confezione: la scheda tecnica prescrive **max 1,0 %**, il quaderno applica **«lim 2%»** | **lotto 1A** | — | **aperta dichiarata** — `questione-limite-o2-residuo`. In più la scheda **non dichiara a quale momento** della vita del prodotto valga il tetto: lacuna registrata in `doc-limite-o2-residuo-af-sn-0450` |
 | T24 | aw e umidità di AF-SN-0450: scheda tecnica e **rapporto di prova del laboratorio accreditato** concordano su aw ≈ 0,93 e umidità ≈ 32 g/100 g; le prove di shelf life danno 0,31 e 5,6 % | **lotto 1A** | — | **aperta dichiarata** — `questione-aw-umidita-af-sn-0450`. ⚠️ **Il primo impianto della nota era rovesciato**: sembrava che la scheda tecnica fosse la fonte dubbia. Il ri-giudizio ha segnalato l'esistenza del rapporto di prova, che misura lo stesso lotto con metodo normato e dichiara **conformi** i valori della scheda. L'anomalia sta nel file delle prove, che è la base della proposta di TMC a sei mesi |
 | T25 | Convalida annuale dell'`MD-3200`: la scheda di manutenzione la data al `06-feb-26` con scadenza `06/02/27`; l'elenco tarature dà altre date | **lotto 1A** | chiusa in **1C** | **aperta dichiarata** — `questione-convalida-md-3200-due-registri`: `06-feb-26` → `06/02/27` e frequenza 12 mesi contro `04/03/2026` → `04/09/2026`, cioè semestrale. Cambia il mese e la durata della copertura |
@@ -488,6 +536,7 @@ La matrice è un piano: si annota quando cambia, non si riscrive in silenzio.
 
 | Data | Lotto | Cosa è cambiato, e perché |
 |---|---|---|
+| 2026-08-19 | **2-10** | **RICALIBRAZIONE: i budget dei lotti 2-10 sono SUPERATI, e il piano passa da 12 a ~28-30 lotti.** Le fasce erano costruite sulla densità del pilota (2,1 note per grezzo); i consuntivi danno 6,0 · 9,5 · 13,5. ⚠️ **Il calcolo lineare chiesto dal coordinatore è stato eseguito e rifiutato**: dà 903 note e 36 lotti, perché moltiplica una grandezza instabile (densità, dispersione 147 %) per una stabile. L'invariante è il **lotto** (27-46 note, dispersione 50 %), non la densità. Al posto delle fasce vale **E31**, il budget come capacità 25-35, **provvisoria fino a dieci lotti chiusi**. Ridisegnato in dettaglio **solo il tema 2** (in 2A, 2B, 2C); gli altri restano temi da ripacchettizzare in apertura. Le stime vecchie **restano barrate, non cancellate** |
 | 2026-08-19 | **1C** | **Errata: le righe dell'elenco tarature sono 120, non 121.** Il conteggio della matrice era a mano, quello di apertura del lotto è da script (`conta_1c.py`). Il file porta inoltre **due righe di intestazione**, la seconda a riga 64 con nomi di colonna diversi: non è un difetto da aggirare, è un fatto dell'archivio e ha una nota nel vault |
 | 2026-08-18 | 1 · 10 | `bolletta_VenetaEnergia_maggio2026.pdf` spostata dal lotto 10 al lotto 1: sta con `consumi_energetici_forni_kwh_maggio26.csv`, di cui è la gamba di riconciliazione sul costo dell'energia. Non è rumore |
 | 2026-08-18 | 7 · 10 | `Nuova cartella di lavoro.xlsx` spostata dal lotto 10 al lotto 7: ispezionata, **non è un file vuoto** — contiene un appunto sulle timbrature e una `SUM` mai calcolata. Il nome ingannava |

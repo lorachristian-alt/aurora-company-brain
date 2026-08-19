@@ -772,3 +772,58 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   **cambia il calendario delle Sessioni 4-5**. ⚠️ **Cio' che non ho fatto:** riscrivere le fasce dei
   lotti 2-10 coi numeri della proiezione. Una stima sbagliata sostituita da una peggiore non e' una
   ricalibrazione.
+- **2026-08-19** · S4 lotto 1C, gate · **Cinque emendamenti approvati dal coordinatore e applicati
+  a metodo_03: E29-E33** · **E29** la riconciliazione ha due direzioni e quella **verticale** va
+  cercata apposta — chi tocca un CCP, una taratura, un limite o una responsabilita' di processo
+  cita la fonte che lo **prescrive**, con l'**elenco delle fonti prescrittive** come strumento;
+  **E30** `title` e `summary` si rileggono come note a se' **a ogni giro** di giudizio; **E31** il
+  budget di lotto e' una **capacita'** di 25-35 note, provvisoria fino a dieci lotti chiusi;
+  **E32** il perimetro di lotto comprende anche le note **modificate**, dichiarate in
+  `qa\lotti\<lotto>_note.txt`; **E33** il pacchetto per lo strato di giudizio si genera **dopo**
+  le correzioni pre-giudizio. Registrati in `registro_emendamenti.md` con occasione «gate del
+  lotto 1C» e col caso reale che li ha generati.
+- **2026-08-19** · S4 lotto 1C, gate · **E32 ed E33 non aspettano il gate finale perche' non sono
+  migliorie: sono guasti del ciclo di controllo** · principio del coordinatore, ora §4.25 del
+  passaggio di consegne: **un emendamento che corregge il perimetro o l'ordine di un controllo si
+  applica subito; si rimandano al gate solo quelli che cambiano il modo di scrivere le note.**
+  ⚠️ Un controllo che non copre cio' che deve coprire non si accumula per valutarne «l'effetto
+  cumulato»: l'effetto cumulato e' che i lotti successivi ereditano lo stesso buco. **Entrambi
+  hanno un difetto piantato nel collaudo** (`_collaudo/collaudo_suite.py`): una nota modificata e
+  dichiarata ma che non cita i grezzi del lotto, e la verifica che il pacchetto del giudizio
+  rifletta il testo corrente. ⚠️ **Provato che il difetto E32 non viene visto senza E32**:
+  lanciando la suite senza `--note-toccate`, l'errore piantato non compare. Il collaudo passa a
+  **7 difetti su 7** piu' i due controlli sul pacchetto.
+- **2026-08-19** · S4 lotto 1C, gate · **La tabella di tracciamento ha TRE esiti, non due: chiusa,
+  aperta dichiarata, RICONCILIATA** · decisione del coordinatore. ⚠️ **Una divergenza apparente
+  che l'archivio scioglie non e' un pareggio: e' un risultato del vault**, ed e' esattamente cio'
+  che la misura «dopo» dovra' saper mostrare — un archivio grezzo lascia la contraddizione dov'e',
+  un archivio che ha capito il meccanismo la scioglie e lo dichiara. Le due righe riconciliate:
+  **T22** (1B, gli arretrati della cella) e **T17** (1C, l'azoto che entra per due vie).
+- **2026-08-19** · S4 lotto 1C, gate · **La ricalibrazione: adottata E31, ma i lotti 2-10 NON si
+  ripacchettizzano adesso** · il coordinatore ha ratificato il rifiuto del calcolo lineare che lui
+  stesso aveva ordinato, e ha aggiunto il vincolo che mancava: ridisegnare tutti i 28-30 lotti
+  oggi sarebbe **di nuovo pianificazione a lungo raggio su dati scarsi**, cioe' lo stesso errore
+  in un'altra forma. Quindi: ridisegnato in dettaglio **solo il tema 2** (2A lavaggio CIP · 2B
+  autocontrollo di igiene · 2C materiali a contatto), gli altri marcati «da ripacchettizzare in
+  apertura» con pacchetti indicativi di **3-5 grezzi** (contenuto) e **8-10** (rumore). **Le stime
+  vecchie restano barrate, non cancellate.** ⚠️ **La stima complessiva — circa 28-30 lotti invece
+  di 12 — e' stata scritta anche nella SCALETTA**, perche' cambia il calendario delle Sessioni 4-5
+  e il titolare deve averla ora, non scoprirla a meta' strada.
+- **2026-08-19** · S4 lotto 1C, gate · **Principio generale dalla ricalibrazione: quando un
+  consuntivo smentisce una stima, non si sostituisce la stima con un'altra stima — si cambia la
+  grandezza su cui si pianifica** · §4.24 del passaggio di consegne. Il segnale che si sta
+  sbagliando grandezza: **la stima nuova e' piu' assurda della vecchia** (903 note, 36 lotti).
+- **2026-08-19** · S4 lotto 1C, gate · **PROSSIMO ATTO: R1, il lotto di manutenzione della
+  riconciliazione verticale. NON il lotto 2** · le 30 note che nominano un punto critico senza
+  citare la fonte che lo prescrive **non sono incomplete: alcune affermano il falso** — quattro su
+  undici, nel campione del lotto 1C, dichiaravano assente cio' che il manuale HACCP scrive per
+  esteso. ⚠️ **Con quel tasso, lasciarle li' significa portarle dentro la Sessione 6**: la misura
+  «dopo» girerebbe su un vault che nega cio' che l'archivio prescrive, e le predizioni
+  pre-registrate riguardano proprio contraddizione e multi-hop, cioe' le domande che quelle note
+  toccano. **R1 si esegue col ciclo di lotto completo** — elenco da script, QA, giudizio v2,
+  revisione, ri-giudizio, re-QA, llms.txt, rapporto, commit dedicato — e vale come un lotto nel
+  conteggio del ritmo. Dentro R1 nasce lo **strumento di E29**, l'elenco delle fonti prescrittive
+  del corpus. **Perimetro:** solo le note su cui una fonte prescrittiva dice qualcosa; non e' un
+  ripasso generale del vault. Il rapporto di R1 dichiara **quante note guardate, quante corrette e
+  il tasso di difetto**: quel numero dira' se il ripasso va rifatto a fine corsa o se E29 in
+  vigore basta.

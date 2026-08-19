@@ -1302,6 +1302,29 @@ per ciascuna si verifica cosa dicono tutte le fonti del lotto che la nominano. �
 controllo che `qa_copertura.py` prepara con l'elenco delle note per tema, e che il revisore
 indipendente esegue col canone alla mano.
 
+⚠️ **La riconciliazione ha due direzioni, e quella verticale va cercata apposta** (E29). Il
+confronto descritto qui sopra è **orizzontale**: mette a fianco i documenti che *registrano*
+la stessa grandezza. Ma per ogni grandezza esiste anche il documento che **prescrive** come
+vada misurata — un manuale, una procedura, un'istruzione operativa, un capitolato, un
+contratto — e quello non compare mai da solo, perché non parla dell'oggetto: parla della
+regola.
+
+**La regola operativa:** se una nota tocca un **punto critico di controllo**, una **taratura**,
+una **frequenza di verifica**, un **limite** o una **responsabilità di processo**, la fonte
+prescrittiva si apre e si cita — oppure il rapporto dichiara perché non serve.
+
+**Lo strumento, perché un obbligo senza strumento non si rispetta:** l'**elenco delle fonti
+prescrittive del corpus** vive in `06_operativo\fonti_prescrittive.md`, si costruisce da
+script, si aggiorna a ogni lotto, e il ciclo lo consulta al passo 2 di §9.5.
+
+Nasce dal lotto 1C: **undici note** discutevano punti critici e tarature senza citare il
+manuale HACCP, e in **quattro** casi quel manuale conteneva esattamente ciò che la nota
+dichiarava mancante — che l'`MD-1800` è «gestito come CCP assimilato al CCP3», che il pericolo
+«frammenti di plastica da organi macchina» non è rilevabile dal metal detector, che la verifica
+del CCP3 è annuale e del costruttore, che esiste un `PRP-03` sulla taratura degli strumenti.
+⚠️ **Non era incompletezza: erano affermazioni false**, ed è la ragione per cui questa regola
+non aspetta il gate finale.
+
 ### 5.2 Contraddizione con vincitore → nota padrona, `stato: risolto`
 
 Quando l'archivio, letto per intero, indica quale fonte prevale:
@@ -1512,6 +1535,17 @@ Perciò ogni script accetta `--perimetro lotto <elenco-file>` oppure `--perimetr
 
 Un lotto non si chiude con `--perimetro vault` verde: si chiude con `--perimetro lotto`
 verde. È il pass finale che deve essere verde su tutto.
+
+⚠️ **Il perimetro di lotto comprende anche le note che il lotto ha MODIFICATO** (E32), non
+solo quelle che citano i suoi grezzi. Le note estese — una scheda entità che riceve una riga,
+un hub d'area a cui si aggiunge un rimando, una nota vecchia che acquista una gamba — **non
+citano i grezzi del lotto e uscirebbero dal controllo proprio mentre le si tocca**.
+
+Si dichiarano in un elenco accanto a quello dei grezzi: `qa\lotti\<lotto>_note.txt`, letto
+per convenzione dagli script, oppure passato con `--note-toccate`. **Nasce da un caso pagato**:
+nel lotto 1C due note estese hanno introdotto **una data senza fonte e una nota oltre le 350
+parole**, e la QA di lotto non le ha viste — le ha prese la QA a perimetro vault, che non si
+lancia a ogni lotto. Un controllo che non copre ciò che il lotto ha toccato non è un controllo.
 
 ### 7.0 Cosa resta fuori dai conteggi di qualità
 
@@ -1966,11 +2000,31 @@ dei fatti.**
 **Il budget di un lotto si misura sulle NOTE DI CONTENUTO** (E17): sono escluse dal conteggio
 gli `_index` — che sono apparato di navigazione e nascono per cartella toccata, non per fatto
 — e le note-strumento di `code\`, che documentano attrezzi del progetto e non fatti
-dell'azienda. **Il budget si fissa lotto per lotto nel prompt di quel lotto**, non una volta
-per tutte qui: dipende da quanti fatti portano i grezzi scelti, che è cosa diversa dal loro
-numero. Il pilota della Sessione 2 ha prodotto **41 note di contenuto su 22 grezzi** — poco
-meno di due note per documento — ed è il primo dato disponibile per dimensionare i lotti
-successivi.
+dell'azienda.
+
+### Il budget è una CAPACITÀ, non una stima (E31)
+
+⚠️ **Un lotto punta a 25-35 note di contenuto**, e **quanti grezzi ci stiano dentro si decide
+in apertura contando i fatti** (E21, E28) — non in pianificazione, moltiplicando una densità
+per un numero di file.
+
+**Perché la densità non serve a pianificare.** I quattro lotti chiusi al 19/08/2026 danno:
+
+| Lotto | Grezzi | Note di contenuto | Densità |
+|---|---|---|---|
+| pilota L26130 | 22 | 46 | 2,1 |
+| 1A | 7 | 42 | 6,0 |
+| 1B | 4 | 38 | 9,5 |
+| 1C | 2 | 27 | 13,5 |
+
+I grezzi per lotto sono passati **da 22 a 2** mentre le note restavano **fra 46 e 27**: la
+densità varia del **147 %** sulla propria media, le note per lotto del **50 %**. **L'invariante
+non è la densità: è il lotto.** Proiettare la densità misurata sui grezzi restanti dava 903
+note e 36 lotti — un artefatto, prodotto moltiplicando una grandezza instabile per una stabile.
+
+⚠️ **La fascia 25-35 è essa stessa PROVVISORIA, e va rivista a dieci lotti chiusi.** Oggi
+poggia su **quattro osservazioni**, tre delle quali su lotti piccolissimi: è la miglior stima
+disponibile, non una costante del metodo.
 
 ### 9.5 Il ciclo di un lotto, senza scorciatoie
 
@@ -1983,6 +2037,22 @@ note → suite QA → revisore indipendente → correzioni propagate → suite Q
    cassa. Mai «i prossimi 20 file».
 2. **Suite QA** con `--perimetro lotto` (§7). Si va avanti solo con zero ERRORI. Gli
    AVVISI si motivano per iscritto nello stato di sessione.
+
+   ⚠️ **Prima di generare il pacchetto per lo strato di giudizio si finiscono le correzioni**
+   (E33). Un pacchetto generato prima manda al giudice **testo che non esiste più**, e i
+   rilievi che ne tornano sono lavoro sprecato per lui e rumore nel verdetto: nel lotto 1C
+   sono stati due su dodici al primo giro. Il comando che lo produce si lancia **per ultimo**,
+   dopo la QA e dopo la rilettura del passo 2-bis.
+
+2-bis. **Rilettura contro le sole fonti**, prima di ogni giro di giudizio. Due passaggi, e
+   nascono da due pattern pagati:
+   - **il «Perché conta»** — la frase scritta per far capire porta dentro ciò che chi scrive
+     sa dall'archivio e le fonti della nota non contengono (*contesto importato*, lotto 1B);
+   - ⚠️ **il `title` e il `summary`, letti come note a sé** (E30). L'intestazione si scrive per
+     prima e si corregge per ultima: quando una correzione attenua il corpo, il summary resta
+     com'era e **afferma quello che il corpo cautela**. Nel lotto 1C, al terzo giro, **sei
+     rilievi su sette stavano ancora lì**, e in cinque casi il corpo era corretto. Si rilegge
+     **a ogni giro**, non una volta sola.
 3. **Revisore indipendente, con il canone alla mano.** È una sessione diversa da quella
    che ha scritto le note. Classifica ogni rilievo:
 

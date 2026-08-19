@@ -436,7 +436,7 @@ def main():
 
     note = Q.tutte_le_note(args.vault)
     per_slug = {n.slug: n for n in note}
-    perimetro = Q.note_del_perimetro(note, modo, file_lotto)
+    perimetro = Q.note_del_perimetro(note, modo, file_lotto, Q.note_toccate(args))
 
     rep = Q.Report("qa_provenance (perimetro: %s, %d note)" % (modo, len(perimetro)))
     for n in perimetro:

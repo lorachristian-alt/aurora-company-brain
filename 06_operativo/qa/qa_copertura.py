@@ -29,7 +29,7 @@ def main():
     modo, file_lotto = Q.leggi_perimetro(args)
 
     note = Q.tutte_le_note(args.vault)
-    perimetro = Q.note_del_perimetro(note, modo, file_lotto)
+    perimetro = Q.note_del_perimetro(note, modo, file_lotto, Q.note_toccate(args))
     rep = Q.Report("qa_copertura (perimetro: %s, %d note)" % (modo, len(perimetro)))
 
     # ---- 1. nessun documento muto ------------------------------------------

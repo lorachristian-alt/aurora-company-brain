@@ -53,6 +53,10 @@ def main():
     voci_pilota, _ = leggi(PILOTA)
     elenchi = [("fetta_l26130 (pilota, S2)", voci_pilota, True)]
     for n in sorted(os.listdir(DIR_LOTTI)):
+        # E32: accanto all'elenco dei grezzi vive `<lotto>_note.txt`, che elenca le NOTE
+        # modificate dal lotto. Non e' un elenco di grezzi e qui non si legge.
+        if n.lower().endswith("_note.txt"):
+            continue
         if n.lower().endswith(".txt"):
             voci, chiuso = leggi(os.path.join(DIR_LOTTI, n))
             elenchi.append((n[:-4], voci, chiuso))
