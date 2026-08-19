@@ -1,7 +1,7 @@
-## qa_provenance (perimetro: vault, 183 note)
+## qa_provenance (perimetro: vault, 214 note)
 
 - ERRORI: **0**
-- AVVISI: **53**
+- AVVISI: **59**
 
 ### Avvisi
 
@@ -15,6 +15,7 @@
 | `fatto-integrita-log-allarmi-cf-02.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `fatto-prodotto-non-segregato-deviazione-ccp2.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `fatto-repliche-shelf-life-l26130-divergenti.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
+| `fatto-taniche-e-rifiuti-cip.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `fatto-verifiche-ccp3-turno-l26130.md` |  | provenance | citazione senza riscontro in nessuna fonte citata: «dalle 15 alle 18.45 linea ferma per rottura valvola azoto,
 verifiche n» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 | `fatto-verifiche-ccp3-turno-l26130.md` |  | provenance | citazione senza riscontro in nessuna fonte citata: «Verifica di fine turno (capoturno)» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
@@ -51,6 +52,8 @@ verifiche n» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 | `questione-misura-frammento-strumentale.md` |  | provenance | fonte immagine 'IMG_20260514_152241_frammento_REC-2026-011.jpg': riscontro visivo, da chiudere a mano |
 | `doc-ccp2-limite-critico.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `doc-gestione-reclami-haccp.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
+| `doc-programmi-cip-per-linea.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
+| `doc-registrazioni-cip.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `doc-scheda-tecnica-af-sn-0450.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `entita-elena-marchetti.md` |  | provenance | la fonte 'MOD-QA-31_reclamo_REC-2026-011.pdf' non aggancia nessuna affermazione della nota: rumore nel payload |
 | `entita-frigotecnica-berica.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
@@ -58,6 +61,9 @@ verifiche n» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 | `concetto-atmosfera-protettiva.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `concetto-fefo.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `concetto-shelf-life.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
+| `kpi-durate-fasi-cip-maggio.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
+| `kpi-portata-cip-maggio.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `kpi-shelf-life-af-sn-0450.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
+| `kpi-temperature-cip-maggio.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `questione-limite-o2-residuo.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `questione-scarti-riavvio-l26130.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |

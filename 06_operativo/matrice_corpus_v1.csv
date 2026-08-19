@@ -233,3 +233,35 @@ scheda_manutenzione_ordinaria_forni_industrial.csv;Voci di piano della cella CF-
 consumi_energetici_forni_kwh_maggio26.csv;Consumo della cella CF-01 a maggio: 6.638 kWh, +22,3% sull'anno prima;entities;macchina-cf-01;1B;fatta
 non_conformita_interne_registro_2026.csv;La cella CF-01 e' fra i quattro punti critici del preavviso di ispezione ATS;entities;macchina-cf-01;1B;fatta
 contratto_manutenzione_impianto_frigo_TS01.docx;Doppia data della procura del direttore di stabilimento nell'intestazione delle parti;workspace;bozza-contratto-manutenzione-frigo;1B;fatta
+IO-05_istruzione_operativa_lavaggio_CIP.docx;Il documento in quanto documento: revisione 4 in vigore, tre firme, storia delle revisioni e il testo cancellato che si porta dentro;docs;doc-io-05-lavaggio-cip;2A;fatta
+IO-05_istruzione_operativa_lavaggio_CIP.docx;I parametri delle sei fasi del ciclo: prodotto, concentrazione, temperatura, tempo e portata;docs;doc-parametri-fasi-cip;2A;fatta
+IO-05_istruzione_operativa_lavaggio_CIP.docx;I quattro criteri di accettazione di un lavaggio, e cosa si fa se uno non passa;docs;doc-criteri-accettazione-cip;2A;fatta
+IO-05_istruzione_operativa_lavaggio_CIP.docx;I sei programmi per linea e circuito, e chi li sceglie;docs;doc-programmi-cip-per-linea;2A;fatta
+IO-05_istruzione_operativa_lavaggio_CIP.docx;Le cinque regole per il ciclo interrotto;docs;doc-ciclo-cip-interrotto;2A;fatta
+IO-05_istruzione_operativa_lavaggio_CIP.docx;Le registrazioni obbligatorie durante il ciclo e la seconda firma estesa al registro CIP;docs;doc-registrazioni-cip;2A;fatta
+IO-05_istruzione_operativa_lavaggio_CIP.docx;I DPI obbligatori, e la riga della FFP2 cancellata dall'RSPP;docs;doc-dpi-lavaggio-cip;2A;fatta
+IO-05_istruzione_operativa_lavaggio_CIP.docx;L'abilitazione al CIP subordinata alla formazione registrata su MOD-HR-11;areas;fatto-abilitazione-obbligatoria-cip;2A;fatta
+IO-05_istruzione_operativa_lavaggio_CIP.docx;Stoccaggio delle taniche, travasi, codici CER e scarichi;areas;fatto-taniche-e-rifiuti-cip;2A;fatta
+IO-05_istruzione_operativa_lavaggio_CIP.docx;L'impianto CIP-01: identificazione, circuiti serviti, strumenti in linea;entities;macchina-cip-01;2A;fatta
+IO-05_istruzione_operativa_lavaggio_CIP.docx;Chemifood Italia, fornitore dei tre prodotti chimici del CIP con codice F0052;entities;entita-chemifood-italia;2A;fatta
+IO-05_istruzione_operativa_lavaggio_CIP.docx;Che cos'e' il lavaggio in loco, e i quattro fattori da cui dipende;concepts;concetto-cip;2A;fatta
+log_lavaggio_CIP_linea1_maggio.log;Il confronto fra cio' che il log registra e cio' che IO-05 prescrive: contraddizione con vincitore, prevale IO-05;areas;fatto-cip-fuori-criterio;2A;fatta
+log_lavaggio_CIP_linea1_maggio.log;Trenta cicli fra il 02/05 e il 30/05, ventotto PASS e due ABORT, tre operatori, tre giorni senza righe;areas;fatto-cicli-cip-maggio;2A;fatta
+log_lavaggio_CIP_linea1_maggio.log;Il ciclo straordinario dell'11/05 alle 05:12, unico diurno e unico giorno con due cicli;areas;fatto-ciclo-cip-straordinario-11-05;2A;fatta
+log_lavaggio_CIP_linea1_maggio.log;Due cicli chiusi PASS con la sonda di conducibilita' in circuito aperto;areas;fatto-cicli-cip-chiusi-con-sonda-guasta;2A;fatta
+log_lavaggio_CIP_linea1_maggio.log;I due cicli interrotti per soda sotto soglia, e il rabbocco manuale;areas;fatto-abort-cip-per-soda-bassa;2A;fatta
+log_lavaggio_CIP_linea1_maggio.log;Il programma P2 dichiarato su tutti i cicli, e la fase 6 che il P2 non prevede;areas;fatto-programma-p2-ogni-giorno;2A;fatta
+log_lavaggio_CIP_linea1_maggio.log;Le durate delle sei fasi, tutte sotto il prescritto;data;kpi-durate-fasi-cip-maggio;2A;fatta
+log_lavaggio_CIP_linea1_maggio.log;Centosettanta letture di portata, nessuna ai 15 m3/h prescritti;data;kpi-portata-cip-maggio;2A;fatta
+log_lavaggio_CIP_linea1_maggio.log;Le temperature delle due fasi chimiche e le letture fuori finestra;data;kpi-temperature-cip-maggio;2A;fatta
+log_lavaggio_CIP_linea1_maggio.log;La conducibilita' del risciacquo finale, e il criterio non verificabile sul tracciato;data;kpi-conducibilita-risciacquo-cip-maggio;2A;fatta
+log_lavaggio_CIP_linea1_maggio.log;Il consumo del centro di costo CIP diviso per i cicli del mese;data;kpi-consumi-energia-maggio-2026;2A;assorbita in altra nota
+log_lavaggio_CIP_linea1_maggio.log;Il CIP profondo del sabato 09/05 confermato dal tracciato;data;kpi-produzione-0450-linea1-maggio;2A;assorbita in altra nota
+scheda_sicurezza_detergente_acido_lavaggio_CIP.txt;La scheda in archivio: prodotto, composizione, classificazione CLP, e le quattro pagine che l'OCR non porta;docs;doc-sds-detergente-acido-cip;2A;fatta
+scheda_sicurezza_detergente_acido_lavaggio_CIP.txt;Le condizioni d'uso prescritte dal fabbricante: concentrazione, temperatura, stoccaggio;docs;doc-condizioni-uso-detergente-acido;2A;fatta
+scheda_sicurezza_detergente_acido_lavaggio_CIP.txt;I DPI prescritti dal fabbricante: guanti, tuta, occhiali, filtro;docs;doc-dpi-detergente-acido;2A;fatta
+scheda_sicurezza_detergente_acido_lavaggio_CIP.txt;In sala CIP c'e' la revisione 6 mentre in archivio c'e' la 7;areas;fatto-sds-revisione-in-linea-superata;2A;fatta
+scheda_sicurezza_detergente_acido_lavaggio_CIP.txt;Il prodotto della scheda non e' quello che IO-05 prescrive;areas;questione-prodotto-acido-cip-an-15-o-acidfood-25;2A;fatta
+scheda_sicurezza_detergente_acido_lavaggio_CIP.txt;Due prescrizioni in vigore sui DPI dell'acido;areas;questione-dpi-cip-due-prescrizioni;2A;fatta
+scheda_sicurezza_detergente_acido_lavaggio_CIP.txt;La verifica del lavaocchi: settimanale per la scheda, mensile per la prassi;areas;questione-frequenza-verifica-lavaocchi-cip;2A;fatta
+non_conformita_interne_registro_2026.csv;Le quattro non conformita' del CIP nel 2026, e la NC che contesta il criterio di risciacquo;areas;fatto-nc-cip-2026;2A;fatta

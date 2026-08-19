@@ -50,9 +50,30 @@ Cosa resta fuori, e non e' una scelta di comodo: gli `_index` (apparato di navig
 note-strumento del progetto (E20: documentano attrezzi, non fatti dell'azienda), le note di
 diario e tutto cio' che sta in `workspace\\` e `sources\\` (metodo_03 §7.0).
 
+=====================================================================================
+LA MODALITA' RISTRETTA — E37, la riconciliazione verticale ARRETRATA
+=====================================================================================
+E37 (metodo_03 §9.5, passo 5-ter) chiede che questo script si rilanci **ristretto alle
+fonti prescrittive che un lotto porta dentro il vault**, all'APERTURA di quel lotto: le
+note che restituisce entrano nel suo `qa\\lotti\\<lotto>_note.txt` e quindi nel suo
+perimetro di QA (E32).
+
+⚠️ **Non basta cambiare l'insieme delle fonti: va cambiata anche la condizione 1**, o si
+ricade nel difetto che E36 ha corretto. Una fonte prescrittiva governa un DOMINIO, e le
+note da riaprire sono quelle che parlano di **quel** dominio senza avere sotto mano
+**quella** fonte — non tutte le note che nominano un limite qualsiasi. Percio' un dominio
+si dichiara in `DOMINI` con due cose insieme: le **fonti** che lo governano e le
+**espressioni** che lo riconoscono. Un dominio senza espressioni proprie sarebbe il
+criterio generico applicato a un elenco piu' corto, cioe' la forma sbagliata di E29.
+
+⚠️ **Il default resta il lotto R1, invariato**: questa modalita' AGGIUNGE un aggancio, non
+ne allenta nessuno (§4.9 del passaggio di consegne).
+
 Uso:
-    python candidate_r1.py               # scrive gli elenchi del lotto e stampa il riepilogo
-    python candidate_r1.py --stdout      # solo riepilogo, non scrive niente
+    python candidate_r1.py                     # il perimetro del lotto R1 (default)
+    python candidate_r1.py --stdout            # solo riepilogo, non scrive niente
+    python candidate_r1.py --dominio cip --lotto lotto_02a_cip
+                                               # E37: le note che il lotto 2A riapre
 Esce 0 se l'elenco e' stato prodotto, 1 se e' vuoto (un perimetro vuoto e' un errore).
 """
 import argparse, io, os, re, sys
@@ -104,6 +125,32 @@ FAMIGLIE = [
 ]
 FAMIGLIE = [(nome, [re.compile(r, re.I) for r in rx]) for nome, rx in FAMIGLIE]
 
+# --- E37: i DOMINI, per la modalita' ristretta -------------------------------------
+# Un dominio dichiara INSIEME le fonti prescrittive che lo governano e le espressioni che
+# lo riconoscono in una nota. Le due meta' non si separano: le fonti da sole darebbero il
+# criterio generico su un elenco piu' corto, le espressioni da sole non direbbero quale
+# fonte manca. Chi apre un lotto con fonti prescrittive nuove aggiunge qui il suo dominio,
+# e il criterio finisce nel rapporto perche' e' scritto qui e non nella memoria di nessuno.
+DOMINI = {
+    # Lotto 2A. `IO-05` prescrive fasi, parametri, criteri di accettazione e registrazioni
+    # del lavaggio CIP; la scheda di sicurezza prescrive le condizioni d'uso del detergente
+    # acido — concentrazioni, temperature, DPI, incompatibilita'.
+    "cip": {
+        "fonti": {
+            "IO-05_istruzione_operativa_lavaggio_CIP.docx",
+            "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
+        },
+        "espressioni": [
+            r"\bCIP\b", r"\bCIP-?01\b", r"lavagg", r"sanific", r"detergent", r"risciacqu",
+            r"conducibilit", r"\bsoda\b", r"caustic", r"acido nitric", r"\bPAA\b",
+            r"peracetic", r"disinfez", r"pulizi", r"tampon[ei] superfic", r"\bigien",
+        ],
+        "cosa": "lavaggio CIP, sanificazione, conducibilita' e prodotti chimici di lavaggio",
+    },
+}
+for _d in DOMINI.values():
+    _d["rx"] = [re.compile(r, re.I) for r in _d["espressioni"]]
+
 
 def testo_della_nota(n):
     """title + summary + corpo senza il blocco Fonti: si cerca cio' che la nota AFFERMA,
@@ -118,9 +165,17 @@ def famiglie_toccate(testo):
 
 
 def main():
-    ap = argparse.ArgumentParser(description="Genera il perimetro di note del lotto R1.")
+    ap = argparse.ArgumentParser(description="Genera il perimetro di note di una riconciliazione verticale.")
     ap.add_argument("--stdout", action="store_true")
+    ap.add_argument("--dominio", choices=sorted(DOMINI),
+                    help="E37: restringe a un dominio prescrittivo (vedi DOMINI)")
+    ap.add_argument("--lotto", help="slug del lotto: scrive qa\\lotti\\<slug>_note.txt")
     args = ap.parse_args()
+
+    dom = DOMINI[args.dominio] if args.dominio else None
+    lotto = args.lotto or LOTTO
+    el_grezzi = os.path.join(DIR_LOTTI, lotto + ".txt")
+    el_note = os.path.join(DIR_LOTTI, lotto + "_note.txt")
 
     note = Q.tutte_le_note()
     candidate, gia_coperte, fuori_classe = [], [], 0
@@ -130,22 +185,39 @@ def main():
                 or n.fm is None or Q.e_nota_strumento(n):
             fuori_classe += 1
             continue
-        fam = famiglie_toccate(testo_della_nota(n))
-        if not fam:
-            continue
+        testo = testo_della_nota(n)
         fonti = {str(f) for f in n.fonti}
-        # una famiglia e' SCOPERTA se la nota non cita nessuna delle fonti che la governano
-        scoperte = [f for f in fam if not (fonti & GOVERNA.get(f, PRESCRITTIVE))]
+        if dom:
+            # E37 + E36: la nota parla del DOMINIO, e non ha sotto mano la fonte che
+            # quel dominio lo governa. Le due condizioni valgono insieme, come sempre.
+            if not any(r.search(testo) for r in dom["rx"]):
+                continue
+            fam = [args.dominio]
+            scoperte = fam if not (fonti & dom["fonti"]) else []
+            coperta_da = sorted(fonti & dom["fonti"])
+        else:
+            fam = famiglie_toccate(testo)
+            if not fam:
+                continue
+            # una famiglia e' SCOPERTA se la nota non cita nessuna delle fonti che la governano
+            scoperte = [f for f in fam if not (fonti & GOVERNA.get(f, PRESCRITTIVE))]
+            coperta_da = sorted(fonti & PRESCRITTIVE)
         if scoperte:
             candidate.append((n, scoperte))
         else:
-            gia_coperte.append((n, fam, sorted(fonti & PRESCRITTIVE)))
+            gia_coperte.append((n, fam, coperta_da))
 
     candidate.sort(key=lambda c: (c[0].cartella, c[0].slug))
 
     # ---- il riepilogo, che e' cio' che va nel rapporto -------------------------
     print("=" * 78)
-    print("PERIMETRO DEL LOTTO R1 — riconciliazione verticale")
+    if dom:
+        print("PERIMETRO RIAPERTO DAL LOTTO %s — riconciliazione verticale arretrata (E37)"
+              % lotto)
+        print("dominio «%s»: %s" % (args.dominio, dom["cosa"]))
+        print("fonti che lo governano: %s" % ", ".join(sorted(dom["fonti"])))
+    else:
+        print("PERIMETRO DEL LOTTO R1 — riconciliazione verticale")
     print("generato da candidate_r1.py il %s" % date.today().isoformat())
     print("=" * 78)
     print("Note del vault ................................ %d" % len(note))
@@ -163,7 +235,8 @@ def main():
             conta_fam[f] = conta_fam.get(f, 0) + 1
     print("| Famiglia nominata | Note candidate |")
     print("|---|---|")
-    for nome, _rx in FAMIGLIE:
+    nomi = [args.dominio] if dom else [nome for nome, _rx in FAMIGLIE]
+    for nome in nomi:
         print("| %s | %d |" % (nome, conta_fam.get(nome, 0)))
     print("")
     per_cartella = {}
@@ -187,12 +260,40 @@ def main():
         return 1
 
     os.makedirs(DIR_LOTTI, exist_ok=True)
-    with io.open(EL_GREZZI, "w", encoding="utf-8", newline="\n") as f:
+
+    coda_e32 = ("# --- da qui in giu': note toccate in corso di lotto (E32) ---\n"
+                "# Preesistenti, che il lotto modifica senza citarne i grezzi.\n"
+                "# --- da qui in giu': note NATE in questo lotto ---\n"
+                "# Si dichiarano QUANDO SI CREANO, non si deducono a fine lotto: e'\n"
+                "# la stessa disciplina di E32 applicata alle note nuove, e serve a\n"
+                "# conta_perimetro_lotto.py, che i numeri del perimetro li legge da qui.\n")
+
+    if dom:
+        # E37, modalita' ristretta: il lotto canonizza grezzi SUOI, quindi l'elenco dei
+        # grezzi e' del lotto e questo script non lo tocca. Si scrive solo l'elenco
+        # delle note che la fonte prescrittiva nuova RIAPRE.
+        with io.open(el_note, "w", encoding="utf-8", newline="\n") as f:
+            f.write("# Note RIAPERTE dal lotto %s — riconciliazione verticale ARRETRATA (E37).\n"
+                    % lotto)
+            f.write("# GENERATO da 06_operativo\\candidate_r1.py --dominio %s il %s.\n"
+                    % (args.dominio, date.today().isoformat()))
+            f.write("# Criterio: la nota parla di %s,\n" % dom["cosa"])
+            f.write("# e fra le sue fonti non c'e' nessuna delle fonti che governano quel\n")
+            f.write("# dominio: %s.\n" % ", ".join(sorted(dom["fonti"])))
+            f.write("# Non si edita a mano: si rilancia lo script.\n")
+            for n, _fam in candidate:
+                f.write("%s\n" % n.slug)
+            f.write(coda_e32)
+        print("\nscritto:\n  %s" % el_note)
+        print("\nNote riaperte per riconciliazione verticale: %d." % len(candidate))
+        return 0
+
+    with io.open(el_grezzi, "w", encoding="utf-8", newline="\n") as f:
         f.write("# MANUTENZIONE\n")
         f.write("# Lotto R1 - riconciliazione verticale. Nessun grezzo nuovo si canonizza qui:\n")
         f.write("# si riparano note gia' scritte (E35, metodo_03 §9.4-bis). Il perimetro vero\n")
-        f.write("# e' l'elenco delle note qui accanto, %s.\n" % os.path.basename(EL_NOTE))
-    with io.open(EL_NOTE, "w", encoding="utf-8", newline="\n") as f:
+        f.write("# e' l'elenco delle note qui accanto, %s.\n" % os.path.basename(el_note))
+    with io.open(el_note, "w", encoding="utf-8", newline="\n") as f:
         f.write("# Perimetro del lotto R1, GENERATO da 06_operativo\\candidate_r1.py il %s.\n"
                 % date.today().isoformat())
         f.write("# Criterio: la nota nomina un punto critico, una taratura, una frequenza di\n")
@@ -202,13 +303,8 @@ def main():
         f.write("# mentre le si tocca (E32), sotto la riga di separazione.\n")
         for n, fam in candidate:
             f.write("%s\n" % n.slug)
-        f.write("# --- da qui in giu': note toccate in corso di lotto (E32) ---\n")
-        f.write("# Preesistenti, che il lotto modifica senza citarne i grezzi.\n")
-        f.write("# --- da qui in giu': note NATE in questo lotto ---\n")
-        f.write("# Si dichiarano QUANDO SI CREANO, non si deducono a fine lotto: e'\n")
-        f.write("# la stessa disciplina di E32 applicata alle note nuove, e serve a\n")
-        f.write("# conta_perimetro_lotto.py, che i numeri del perimetro li legge da qui.\n")
-    print("\nscritti:\n  %s\n  %s" % (EL_GREZZI, EL_NOTE))
+        f.write(coda_e32)
+    print("\nscritti:\n  %s\n  %s" % (el_grezzi, el_note))
     print("\nPerimetro: 0 grezzi, %d note." % len(candidate))
     return 0
 

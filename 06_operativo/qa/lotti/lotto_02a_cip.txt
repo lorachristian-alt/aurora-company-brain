@@ -1,0 +1,29 @@
+# CHIUSO il 19/08/2026 - lotto canonizzato: i suoi grezzi sono citati dalle note
+# Lotto 2A — Il lavaggio CIP: il log di maggio, l'istruzione che lo prescrive,
+# la scheda di sicurezza del detergente acido.
+# Nato dal ridisegno del tema 2 in 2A/2B/2C (matrice, 19/08/2026), reso elenco
+# all'apertura del lotto il 19/08/2026.
+#
+# Perche' il taglio e' qui: IO-05 e' la FONTE PRESCRITTIVA del log CIP (E29).
+# Separarli metterebbe il registro in un lotto e la regola che lo giudica in un
+# altro, che e' il difetto pagato in 1C col manuale HACCP.
+#
+# E37 SCATTA ALL'APERTURA, ed e' il primo lotto in cui accade: IO-05 e la scheda
+# di sicurezza sono fonti prescrittive, quindi le note gia' scritte che parlano di
+# lavaggio, sanificazione, conducibilita' e prodotti chimici si riaprono. L'elenco
+# lo genera `candidate_r1.py --dominio cip` e sta in lotto_02a_cip_note.txt.
+#
+# Riconciliazioni che questo lotto deve chiudere o dichiarare:
+#   - T21 e T29 (duplicate fra loro, e la duplicazione si dichiara): sonda di
+#     conducibilita' del CIP-01 con taratura scaduta dall'08/04/2026 e «allarmi
+#     sonda su log maggio». La gamba di 1A e' la scheda di manutenzione; la
+#     seconda gamba e' questo log;
+#   - T56: le sei fonti prescrittive del tema 2 che riguardano note gia' scritte —
+#     qui entrano le prime due, IO-05 e la scheda di sicurezza.
+#
+# GUARDIA: CIP contro IO-05 e' una contraddizione CON VINCITORE gia' registrata
+# nel canone (metodo_03 §5.2, esempio 17): nota padrona `stato: risolto`, IO-05
+# prevale, il log resta com'e'. NON si apre una questione.
+log_lavaggio_CIP_linea1_maggio.log
+IO-05_istruzione_operativa_lavaggio_CIP.docx
+scheda_sicurezza_detergente_acido_lavaggio_CIP.txt

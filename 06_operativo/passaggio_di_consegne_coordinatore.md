@@ -6,10 +6,12 @@
 > **Perché esiste** · Il repository conserva le decisioni; questo file conserva la
 > giurisprudenza — il modo di giudicare che nei documenti non è scritto perché viveva
 > nella conversazione.
-> **Data** · 19/08/2026, dopo il **GATE del lotto R1**, che lo ha APPROVATO. Nella stessa
-> giornata, e sono occasioni diverse: il gate del lotto 1C (commit `eb8f035`), la sessione di
-> manutenzione che ne è seguita, il **gate intermedio** che l'ha autorizzata a finire, e infine
-> questo gate di merito. ⚠️ L'intestazione diceva ancora «dopo la chiusura del lotto
+> **Data** · 19/08/2026, dopo la **chiusura del lotto 2A** — il lavaggio CIP, primo lotto
+> del tema 2 e primo **esperimento** del metodo. Prima, nella stessa giornata, il **GATE del
+> lotto R1**, che lo ha APPROVATO. Nella stessa giornata, e sono occasioni diverse: il gate
+> del lotto 1C (commit `eb8f035`), la sessione di manutenzione che ne è seguita, il **gate
+> intermedio** che l'ha autorizzata a finire, il gate di merito di R1 e la chiusura di 2A.
+> ⚠️ L'intestazione diceva ancora «dopo la chiusura del lotto
 > 1B (commit `d54ffb3`)» mentre il file conteneva già la giurisprudenza del gate 1C: è la
 > data del documento, e sbagliata fa credere vecchio ciò che è nuovo.
 
@@ -65,29 +67,33 @@ crea regole: spiega come si sono applicate.
   numeri **non si citano mai separati**.
 - **Config C congelata** (`d36d7ce`, impronta `afb58939…`): intoccabile fino a fine S6,
   difetti di formato compresi.
-- **Canonizzazione — quattro lotti chiusi**: pilota L26130 (22 grezzi) + 1A (7) + 1B (4) +
-  1C (2) = **35 grezzi su 160**. I conteggi, incollati da `conta_stato.py` il 19/08/2026:
+- **Canonizzazione — cinque lotti chiusi**: pilota L26130 (22 grezzi) + 1A (7) + 1B (4) +
+  1C (2) + **2A (3)** = **38 grezzi su 160**, più il lotto di manutenzione R1. I conteggi,
+  incollati da `conta_stato.py` il 19/08/2026 **dopo la nota-sessione** (E34):
 
 <!-- CONTEGGI DEL VAULT — generati da `06_operativo\qa\conta_stato.py` il 2026-08-19.
      Si incollano VERBATIM: non si ricompongono a mano, non si riscrivono in prosa. -->
 
 | Grandezza | Valore |
 |---|---|
-| Note nel vault | **183** |
+| Note nel vault | **217** |
 | di cui `_index` | 11 |
-| di cui note-strumento del progetto | 10 |
-| di cui note di diario (`sessione`, `daily`) | 4 |
-| **di cui note di contenuto** | **158** |
-| Note per cartella | areas 96 · entities 22 · data 22 · code 11 · docs 9 · projects 8 · workspace 7 · concepts 5 · self 1 · outputs 1 · sources 1 |
-| Note per `type` | atomica 100 · conflitto 34 · entita 18 · hub 12 · index 11 · concetto 4 · sessione 4 |
-| Questioni aperte (`type: conflitto`) | 34 |
+| di cui note-strumento del progetto | 13 |
+| di cui note di diario (`sessione`, `daily`) | 5 |
+| **di cui note di contenuto** | **188** |
+| Note per cartella | areas 109 · data 26 · entities 24 · docs 19 · code 14 · projects 8 · workspace 8 · concepts 6 · self 1 · outputs 1 · sources 1 |
+| Note per `type` | atomica 127 · conflitto 37 · entita 19 · hub 13 · index 11 · concetto 5 · sessione 5 |
+| Questioni aperte (`type: conflitto`) | 37 |
 | Grezzi in `sources\` | 160 |
-| Grezzi citati da almeno una nota | **35** |
-| Grezzi restanti | **125** |
+| Grezzi citati da almeno una nota | **38** |
+| Grezzi restanti | **122** |
 
 - **QA a perimetro vault**: frontmatter, link e provenance a **zero errori**; la copertura è
-  rossa solo per **incompletezza** — 125 grezzi non ancora canonizzati e 3 aree senza hub.
-  Nessun errore residuo è un difetto delle note che esistono.
+  rossa solo per **incompletezza** — i grezzi non ancora canonizzati e 3 aree senza hub.
+  Nessun errore residuo è un difetto delle note che esistono. ⚠️ Alla misura del 19/08, prima
+  della chiusura di 2A, i 126 errori erano **125 di incompletezza più uno solo di merito**: un
+  falso positivo del controllo delle doppie padrone, che confronta valori numerici nudi e vede
+  «0,9 · 1,1 · 1,4» in due note che parlano di cose diverse.
 - **Pianificazione**: **E31 adottata al gate del lotto 1C** — il budget di lotto è una
   **capacità** (25-35 note di contenuto), non una stima da densità, ed è **provvisoria fino a
   dieci lotti chiusi**. Il piano vale **circa 28-30 lotti**, non dodici; i temi 3-10 si
@@ -106,14 +112,19 @@ crea regole: spiega come si sono applicate.
   ⚠️ **Si è chiuso NOMINANDO un pattern, non con un quarto giro** (E26): è la prima volta che
   quella regola viene esercitata fino in fondo, e ha prodotto la scoperta più utile della
   giornata invece di un'ora in più. Il pattern — **«la cautela non si propaga»** — è ora E39.
-- **PROSSIMO: il lotto 2A, il lavaggio CIP.** Tre grezzi: il log del CIP di maggio, `IO-05` che
-  ne prescrive il criterio, la scheda di sicurezza del detergente acido. ⚠️ **Gira DA SOLO**, e
-  il tetto dei due lotti contigui è un massimo, non una quota: porta **tre regole al primo
-  impiego** (E37, E39, E40) più **una misura che decide una questione di progetto**. È il primo
-  lotto in cui **E37 scatta, e scatta all'apertura**, perché `IO-05` è una fonte prescrittiva ed
-  è proprio la fonte del log. **Ed è anche un ESPERIMENTO**: primo lotto canonizzato sotto E29
-  ed E36, dichiara **due tassi distinti** — riapertura (il debito) e difetto di produzione (il
-  metodo) — che la §6 descrive per esteso.
+- **Il lotto 2A è CHIUSO** (19/08/2026), e il suo rapporto è `06_operativo/rapporto_lotto_02a.md`.
+  3 grezzi, **30 note di contenuto** dentro la capacità, QA **0 ERRORI**, **10 note riaperte da
+  E37** di cui 4 corrette, **tre giri di giudizio** (12, 7 e 9 rilievi accolti), revisione col
+  canone **6 A · 9 B · 0 C**, **nove divergenze nuove nel canone**, **cinque righe** di
+  tracciamento nuove e due chiuse.
+- ⚠️ **PROSSIMO: il GATE del lotto 2A**, e porta due cose che il coordinatore deve pesare.
+  **(1) IL NUMERO DELL'ESPERIMENTO**: tasso di difetto di **produzione** **3,3 %** (1 su 30)
+  contro il **57,7 %** di R1, misurato con lo **stesso criterio** e prodotto da script.
+  L'ipotesi del debito storico regge, e l'unico caso è dichiarato col suo nome invece di essere
+  aggiustato. ⚠️ Il criterio scritto al gate di R1 chiede **due** lotti prima di decidere sul
+  candidato-script: questo è il primo. **(2) IL PATTERN NOMINATO AL TERZO GIRO** (E26):
+  «**l'attributo che la fonte non dà**» — un ruolo, un primato, un'identità fra due eventi, una
+  causa. Il gate deve decidere se diventi un emendamento o resti un'osservazione.
 - **Poi**: 2B e 2C, il resto della matrice, quindi S6 (misura «dopo» sul vault, con
   `predizioni.md` pre-registrato) e S7 (pubblicazione).
 
@@ -291,6 +302,32 @@ coerente.
     altro strumento: la mattina riparata sulla suite, il pomeriggio ritrovata sullo strumento
     di taglio. Il collaudo della via V3 ora pianta anche quel difetto.
 
+32. **La formula che attesta una verifica non si scrive senza aver fatto la verifica**
+    (19/08/2026, lotto 2A). E3 dà all'assenza una forma verificabile — «cercata su tutto
+    `sources\`, manifest v1.1» — e in due note di questo lotto quella formula è comparsa
+    **senza che la ricerca fosse stata fatta**: il registro dichiarato assente stava in dieci
+    grezzi, e uno era già fra le fonti di quella nota. ⚠️ **Una formula di attestazione usata a
+    vuoto è peggio del silenzio**, perché dà a un'affermazione falsa la forma di una
+    verificata, e nessun controllo automatico può accorgersene: su un'assenza lo strato
+    deterministico non ha niente da cercare. **Il criterio generale**: dove una regola prescrive
+    una *forma* per attestare un *gesto*, la forma non va mai scritta prima del gesto — vale per
+    E3 come per ogni futura formula di attestazione.
+33. **Quando il canone sa un numero che il vault non può ancora scrivere, vince il vault e si
+    apre una riga** (19/08/2026, lotto 2A). Il canone fissa il limite del risciacquo CIP a 536
+    µS/cm e conta 18 cicli su 28 sopra soglia; il conteggio è esatto, ma quel limite presuppone
+    un dato che sta in un grezzo di un lotto **non ancora canonizzato**. ⚠️ Le due tentazioni
+    sono opposte e sbagliate entrambe: **scrivere il numero** è una fuga di canone della specie
+    già pagata due volte; **tacere del limite** lascerebbe la nota a dichiarare verificabile ciò
+    che non lo è. Si fa la terza cosa: la nota dichiara il criterio **non verificabile sulle
+    proprie fonti**, e una riga di tracciamento porta l'obbligo al lotto che avrà la gamba.
+34. **Un giudizio che non converge non chiede un altro giro: chiede di guardare il gesto che lo
+    rigenera** (19/08/2026, lotto 2A). Tre giri hanno dato 12, 7 e 9 rilievi accolti, e i
+    rilievi non erano gli stessi che tornavano — quelli corretti restavano corretti. ⚠️ **Ne
+    nascevano di nuovi della stessa specie perché correggere significa riscrivere, e ogni
+    riscrittura è una nuova occasione di commettere lo stesso genere di errore.** È la stessa
+    meccanica del *contesto importato* di 1B, che E26 aveva già codificato come regola d'arresto:
+    qui se ne vede la ragione, e conferma che il quarto giro sarebbe stato lavoro sprecato.
+
 ---
 
 ## 5. Errori già pagati — non ripeterli
@@ -314,6 +351,9 @@ coerente.
 | Il pacchetto per il giudizio tagliato in fette **senza le fonti** | i giudici confrontavano le note con sé stesse e hanno dichiarato da soli il verdetto **degradato**: il difetto stava fra generatore e giudice, non dentro nessuno dei due (§4.29, lotto R1) |
 | Il manuale HACCP **ricopiato invece che linkato** in diciassette note | mentre si agganciavano le note alla fonte che le prescrive, il vault ha guadagnato copie della stessa prescrizione: **wikilink alla padrona più la fonte in `fonti`**, e si riscrive solo il minimo perché la nota regga da sola (lotto R1) |
 | Il prompt riutilizzabile rimasto indietro di sedici emendamenti | 1A, 1B e 1C hanno girato con le regole nel testo incollato invece che nello strumento: chi opera **segnala** lo scostamento, chi istruisce lo **colma** (§4.27, 19/08/2026) |
+| **Due assenze dichiarate con la formula di E3 senza aver fatto la ricerca** | il registro dato per assente stava in dieci grezzi, uno dei quali era già fonte di quella nota; il valore dato per ignoto stava nel piano di autocontrollo. Le ha trovate la **revisione col canone**, non la QA: su un'assenza lo strato deterministico non ha nulla da cercare (§4.32, lotto 2A) |
+| **Una sostituzione di testo fallita in silenzio, e nessuno se ne è accorto** | una correzione del secondo giro non è andata a segno; la QA resta verde su una frase sbagliata che è ancora lì, e l'ha ripresa il giudice al giro dopo. **Chi corregge a programma verifica che la correzione sia entrata**, o la corregge due volte credendo di averla fatta una (lotto 2A) |
+| **Il pacchetto del giudizio generato prima della fine delle correzioni** | sei note su quaranta sono state modificate dopo la generazione del primo pacchetto: E33 dice che si genera **per ultimo**, e qui non lo è stato. Nessun rilievo è caduto su testo morto, ma la regola esiste per non doverlo verificare a posteriori (lotto 2A) |
 
 ---
 
@@ -346,6 +386,19 @@ coerente.
   due giri mirati è un punto cieco del metodo; e **simmetria col precedente** — E30 è nato
   esattamente così dal lotto 1C, e lasciare la regola più larga in un paragrafo di rapporto
   sarebbe la malattia di E27.
+- ⚠️ **L'ESPERIMENTO DI 2A HA DATO IL SUO NUMERO, e ne serve un secondo.** Tasso di difetto
+  di **produzione** **3,3 %** (1 su 30) contro il **57,7 %** di R1, stesso criterio, prodotto da
+  script. **L'ipotesi del debito storico regge**: con E29 ed E36 in vigore il metodo eredita il
+  difetto, non lo produce. ⚠️ **Ma è un lotto solo**, e il criterio del gate di R1 ne chiede
+  **due**: il secondo sarà 2B. Se anche lì il tasso resta a una cifra, la rete finale di fine
+  corsa può essere dimensionata sulle sole righe di tracciamento, come già previsto.
+- ⚠️ **IL PATTERN DI 2A, NOMINATO AL TERZO GIRO: «l'attributo che la fonte non dà».** Un ruolo
+  («il capo officina»), un primato («è la prima volta»), un'identità fra due eventi, una causa.
+  ⚠️ Si rigenera per una ragione meccanica: un archivio nomina **per sigla**, chi scrive deve
+  rendere la sigla leggibile fuori contesto, e **il gesto naturale per farlo è aggiungere la
+  qualifica** — che quasi sempre è vera, ma sta in un'altra fonte. È la classe del `PARLANTE_3`
+  di metodo_03, che lì è un caso singolo e qui si rivela una famiglia. **Da decidere al gate di
+  2A** se diventi emendamento: la regola di E28 suggerisce di attendere un secondo lotto.
 - ⚠️ **CANDIDATO PARCHEGGIATO, col suo criterio di decisione scritto in anticipo** (19/08/2026,
   gate di R1). Si potrebbe scrivere uno script che segnali le **superfici di sintesi rimaste
   assertive quando il corpo porta una qualificazione**. ⚠️ **Non si costruisce adesso, e la
@@ -355,7 +408,13 @@ coerente.
   perché nessuno lo riapra a numeri visti: **se in quei due lotti il pattern «la cautela non si
   propaga» ricompare ancora al terzo giro di giudizio, la rilettura non basta e serve la
   macchina; se non ricompare, E39 basta e il candidato si chiude come non necessario.** Il
-  primo dei due lotti è **2A**.
+  primo dei due lotti è **2A**, ed è chiuso: ⚠️ **il pattern «la cautela non si propaga» è
+  ricomparso, e per tre volte** — nel titolo e nelle glosse di una nota la cui cautela era nel
+  corpo, in un summary che affermava ciò che il corpo sospendeva, e **in un summary rimasto
+  indietro nel giro stesso in cui la cautela veniva apposta al corpo su rilievo del giudice**.
+  ⚠️ Quest'ultimo è il caso che pesa: E39 dice *che cosa* fare, non *quando*, e la propagazione
+  fatta a fine giro arriva tardi. Il secondo lotto sotto E39 sarà **2B**; se il pattern
+  ricompare ancora al terzo giro, il criterio dice che la rilettura non basta.
 - **Le due prescrizioni più duplicate del vault** — la seconda firma (§4.3.2.1) e il CCP4 —
   sono anche quelle su cui il vault regge le conclusioni più forti: se una copia diverge,
   diverge un'accusa. Padroni dichiarati in R1; da riverificare a ogni lotto che le tocca.

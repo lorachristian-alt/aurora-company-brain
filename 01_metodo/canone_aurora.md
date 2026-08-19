@@ -448,3 +448,46 @@ accanto a una divergenza che il canone aveva già arbitrato. ⚠️ **Nessuna de
 emersa dalla riconciliazione orizzontale**, che confronta i documenti che registrano: il
 manuale non registra niente, prescrive — e per due volte su tre **prescrive male, o dichiara
 compiuto ciò che non lo è**.
+
+## Aggiunte del 19/08/2026 — divergenze emerse nel lotto 2A (il lavaggio CIP)
+
+Il lotto porta dentro il vault il log del CIP di maggio **e le due fonti che lo prescrivono**:
+`IO-05` e la scheda di sicurezza del detergente acido. Le due righe che questo canone già
+teneva sul CIP — l'esito dei lavaggi e la portata — sono state riscontrate riga per riga e
+**restano valide**. Quelle qui sotto sono divergenze **nuove**, e hanno una caratteristica
+comune che le distingue da tutte le altre registrate finora.
+
+⚠️ **Non sono registri che si contraddicono: sono DUE DOCUMENTI PRESCRITTIVI IN VIGORE che
+non concordano fra loro.** Fino a qui il canone raccoglieva divergenze fra documenti che
+*registrano* — due letture dello stesso DDT, due conteggi dello stesso turno — o al più fra
+un registro e la fonte che lo governa (T64). Qui la contraddizione è **fra due prescrizioni**,
+e nessuna delle due è il registro dell'altra: chi lavora ha davanti due istruzioni valide che
+gli dicono cose diverse.
+
+| Divergenza | Le versioni | Chi vince |
+|---|---|---|
+| **Quale sia il detergente acido del CIP** | `IO-05_istruzione_operativa_lavaggio_CIP.docx` §3, §5 e §12: **`CHEMIFOOD AN-15`, «Acido nitrico 15%»**, dosato all'1,0-1,5 % · `scheda_sicurezza_detergente_acido_lavaggio_CIP.txt` §1.1 e §3.2: **`ACIDFOOD CIP 25`, cod. `CF-AC-025`**, acido nitrico **20-25 %** più acido fosforico 5-1O %. Stesso fornitore, Chemifood Italia; **nessuna delle due sigle compare nell'altro documento** | **Nessuno.** ⚠️ **Pesa oltre sé stessa**: se sono due prodotti diversi, l'archivio **non contiene la scheda di sicurezza del prodotto realmente in uso**, e ogni confronto fra le due fonti — concentrazioni, temperature, DPI — perde il presupposto. Se sono lo stesso prodotto, l'istruzione ne dichiara una concentrazione di principio attivo che la scheda smentisce |
+| **Con quali DPI si maneggia l'acido** | `IO-05` §2: guanti in **neoprene**, e — dopo la cancellazione della FFP2 da parte dell'RSPP — **semimaschera con filtro `B-P2`**; grembiule antiacido · scheda di sicurezza §8.2: guanti in **gomma butilica o fluoroelastomero** `EN 374` **classe 6**, **facciale con filtro tipo `E`**, tuta antiacido **tipo 3** `EN l4605` | **Nessuno.** Entrambi i documenti sono in vigore e ciascuno è autorevole nel proprio dominio: l'istruzione è **verificata dall'RSPP**, la scheda è del **fabbricante della sostanza**. Nessuno dei due cita l'altro sui dispositivi. ⚠️ La cancellazione della FFP2 prova che in Aurora la protezione respiratoria **è stata riesaminata almeno una volta**; se quel riesame abbia tenuto conto della scheda, che chiede il tipo `E`, nessun documento lo dice |
+| **Ogni quanto si verifica il lavaocchi di sala CIP** | Scheda di sicurezza §8.2: **verifica settimanale** di docce di emergenza e lavaocchi · `IO-05` §3, annotazione attribuita a `Dal Maso I.` e incorporata nella revisione in vigore: «lavaocchi controllato da me **ogni primo lunedì del mese**» | **Nessuno.** ⚠️ **Specie propria**: non è una regola contro una regola, è **una regola contro una dichiarazione di prassi**. L'annotazione non contesta la frequenza del fabbricante — **non la nomina** — e un documento verificato dall'RSPP incorpora così, senza segnalarla, una cadenza quattro volte più lunga di quella richiesta |
+| **La sequenza delle fasi eseguita non è quella che il programma dichiarato prevede** | `IO-05` §6: al programma `P2` competono le fasi **1-2-3-4-5**, e la sanificazione è la **fase 6**, che appartiene a `P4` e `P5` ed è elencata **in coda** · `log_lavaggio_CIP_linea1_maggio.log`: tutti e 30 i cicli dichiarano `PRG=IO-05_P2_LINEA1`, il `P1` non compare mai, e i 28 cicli completi eseguono **sei** fasi con `SANIF_PAA` **fra il lavaggio acido e il risciacquo finale** | **`IO-05`**, e il log resta com'è. ⚠️ Lo scarto è **doppio**: nella composizione — una fase in più di quelle che il `P2` prevede — e nell'**ordine**, perché la sanificazione cade prima del risciacquo finale invece che dopo. ⚠️ Il tracciato risulta così **più severo** del nome che porta, non meno: è un'etichetta che non corrisponde al contenuto, sull'unico campo che direbbe quale programma doveva girare quella notte |
+| **Il prolungamento automatico che l'istruzione descrive non ha riscontro** | `IO-05` §7 punto 2: «se non arriva a 75 °C **il pannello allunga il tempo da solo**, NON forzare l'avanzamento» · il log: la fase alcalina dura `1200 s` **in tutti e 28 i cicli**, comprese le notti in cui 57 letture su 116 stanno sotto i 75 °C | **Nessuno, e non si sceglie.** È la famiglia isolata nel lotto 1B — *un'azione correttiva o automatismo dichiarato che il dato non conferma* — applicata a un **automatismo di impianto**. Se il pannello non lo esegua, o lo esegua senza registrarlo, il tracciato non lo dice: nessun campo distingue una durata impostata da una prolungata |
+| **Il pannello non misura la grandezza che l'istruzione chiede di registrare** | `IO-05` §7 punto 1: si registra la «**concentrazione** soda letta dalla sonda di conducibilità (deve stare tra 1,5 e 2,0 **%**)» · il log: le unità di misura presenti sono `mS/cm`, `C`, `m3/h` e `%` **del livello tanica** — **mai una concentrazione di prodotto** · `non_conformita_interne_registro_2026.csv` `NC-2026-113` del 29/05, IN CORSO: «fase sanificazione PAA registrata **senza concentrazione misurata**», causa «kit titolazione esaurito» | **Nessuno: è una lacuna di misura, non una divergenza di valori.** La concentrazione si determina **a mano, per titolazione**, e il pannello dà una conducibilità: sono due grandezze diverse, legate da una curva che nessun documento dell'archivio riporta. La NC del 29/05 è la prova che la misura manuale esiste, e che quando il kit finisce la registrazione resta vuota |
+
+### Una riga che il canone aveva già, e che questo lotto rende verificabile solo a metà
+
+⚠️ La riga «**Esito dei lavaggi CIP**» di questo canone dichiara **18 cicli su 28** chiusi
+`PASS` con risciacquo finale sopra il limite, e fissa quel limite a **536 µS/cm**. Il
+conteggio è stato riprodotto ed è esatto — 18 su 28 con l'ultima lettura del risciacquo
+finale sopra 0,536 mS/cm.
+
+⚠️ **Ma quel limite non è ricavabile dai tre grezzi del lotto.** `IO-05` prescrive uno
+**scarto** — «≤ 50 µS/cm **sopra il valore dell'acqua di rete**» — e il log non registra mai
+l'acqua di rete. I 536 presuppongono di conoscerla; il termine di paragone sta in un grezzo
+che appartiene al **lotto 2B** e che quindi **non si cita e non si usa** (divieto 9-bis).
+
+Perciò la nota del vault dichiara il criterio **non verificabile sulle proprie fonti** e si
+ferma lì, e la riga **T72** della tabella di tracciamento porta l'obbligo esplicito per il
+lotto 2B: quando quel dato entra, il criterio va applicato ai 28 cicli e questa riga del
+canone acquista la sua gamba numerica dentro il vault. ⚠️ **È la prima volta che il canone
+conosce un numero che i grezzi già canonizzati non permettono di scrivere**, e la distanza
+fra i due si chiude con una riga di tracciamento, non con una deroga.

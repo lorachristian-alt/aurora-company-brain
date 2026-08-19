@@ -1,0 +1,62 @@
+# Note RIAPERTE dal lotto lotto_02a_cip — riconciliazione verticale ARRETRATA (E37).
+# GENERATO da 06_operativo\candidate_r1.py --dominio cip il 2026-08-19.
+# Criterio: la nota parla di lavaggio CIP, sanificazione, conducibilita' e prodotti chimici di lavaggio,
+# e fra le sue fonti non c'e' nessuna delle fonti che governano quel
+# dominio: IO-05_istruzione_operativa_lavaggio_CIP.docx, scheda_sicurezza_detergente_acido_lavaggio_CIP.txt.
+# Non si edita a mano: si rilancia lo script.
+fatto-fermo-forno-ft-01-05-05
+fatto-ispezione-ats-carrello-ricambi
+fatto-strumenti-taratura-scaduta-in-uso
+questione-nc-067-sbrinamenti-tunnel
+kpi-consumi-energia-maggio-2026
+kpi-manutenzioni-arretrate-2026
+kpi-produzione-0450-linea1-maggio
+kpi-quadratura-consumi-energetici-maggio
+doc-manuale-haccp
+macchina-ft-01
+# --- da qui in giu': note toccate in corso di lotto (E32) ---
+# Preesistenti, che il lotto modifica senza citarne i grezzi.
+area-qualita
+_index-docs
+_index-areas
+_index-data
+_index-entities
+_index-concepts
+_index-code
+# --- da qui in giu': note NATE in questo lotto ---
+# Si dichiarano QUANDO SI CREANO, non si deducono a fine lotto: e'
+# la stessa disciplina di E32 applicata alle note nuove, e serve a
+# conta_perimetro_lotto.py, che i numeri del perimetro li legge da qui.
+macchina-cip-01
+doc-io-05-lavaggio-cip
+doc-parametri-fasi-cip
+doc-criteri-accettazione-cip
+doc-programmi-cip-per-linea
+doc-ciclo-cip-interrotto
+doc-registrazioni-cip
+doc-dpi-lavaggio-cip
+doc-sds-detergente-acido-cip
+doc-condizioni-uso-detergente-acido
+doc-dpi-detergente-acido
+entita-chemifood-italia
+concetto-cip
+fatto-cip-fuori-criterio
+fatto-cicli-cip-maggio
+fatto-ciclo-cip-straordinario-11-05
+fatto-cicli-cip-chiusi-con-sonda-guasta
+fatto-abort-cip-per-soda-bassa
+fatto-programma-p2-ogni-giorno
+fatto-abilitazione-obbligatoria-cip
+fatto-taniche-e-rifiuti-cip
+fatto-sds-revisione-in-linea-superata
+fatto-nc-cip-2026
+questione-prodotto-acido-cip-an-15-o-acidfood-25
+questione-dpi-cip-due-prescrizioni
+questione-frequenza-verifica-lavaocchi-cip
+kpi-durate-fasi-cip-maggio
+kpi-portata-cip-maggio
+kpi-temperature-cip-maggio
+kpi-conducibilita-risciacquo-cip-maggio
+script-taglia-pacchetto
+script-conteggi-lotto-02a
+script-misura-due-tassi

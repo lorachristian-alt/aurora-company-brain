@@ -3,10 +3,11 @@
 > **Cos'è** · Lo stato di oggi del vault: cosa è stato canonizzato, con quale esito, e
 > cosa resta. Solo stato, mai una regola: le regole stanno in
 > `01_metodo\metodo_03_canonizzazione.md`, le decisioni in `06_operativo\decision_log.md`.
-> **Aggiornato al** · 19/08/2026, **gate del lotto R1**, che lo ha **APPROVATO** e ha prodotto
-> **E39** ed **E40**. Nella stessa giornata, e sono occasioni diverse: la manutenzione degli
-> strumenti, E34 ed E35, il gate intermedio con E36-E38, la chiusura di R1 — la riconciliazione
-> verticale, primo lotto di manutenzione del progetto — e i numeri riportati da script.
+> **Aggiornato al** · 19/08/2026, **chiusura del lotto 2A** — il lavaggio CIP, primo lotto del
+> tema 2 e **primo esperimento del metodo**. Prima, nella stessa giornata: il **gate del lotto
+> R1**, che lo ha **APPROVATO** e ha prodotto **E39** ed **E40**; e prima ancora la
+> manutenzione degli strumenti, E34 ed E35, il gate intermedio con E36-E38 e la chiusura di
+> R1. Tutti i numeri qui dentro sono riportati da script.
 > Lo stato della pipeline RAG sta in `06_operativo\stato_rag_produzione.md`, non qui; il
 > piano dei lotti e la tabella di tracciamento delle questioni trasversali stanno in
 > `06_operativo\matrice_lotti_corpus_v1.md`, non qui.
@@ -17,13 +18,13 @@
 
 | | |
 |---|---|
-| Lotti chiusi | **4 di canonizzazione** — `l26130` (fetta pilota, S2), **`1A`** (Linea 1: turno, CCP, confezionatrice), **`1B`** (freddo ed energia) e **`1C`** (metrologia e gas tecnici) — **più `R1`**, il primo **lotto di manutenzione** (E35), approvato al suo gate il 19/08/2026. ⚠️ **R1 vale un lotto nel ritmo ma NON entra nella serie della capacità** (E38): misura riparazioni, non produzione |
+| Lotti chiusi | **5 di canonizzazione** — `l26130` (fetta pilota, S2), **`1A`** (Linea 1: turno, CCP, confezionatrice), **`1B`** (freddo ed energia), **`1C`** (metrologia e gas tecnici) e **`2A`** (il lavaggio CIP) — **più `R1`**, il primo **lotto di manutenzione** (E35), approvato al suo gate il 19/08/2026. ⚠️ **R1 vale un lotto nel ritmo ma NON entra nella serie della capacità** (E38): misura riparazioni, non produzione |
 | Grezzi copiati nel vault | 160/160, verificati contro `manifest_corpus_v1.1.json`: zero scarti, zero estranei, zero sottocartelle |
 | I conteggi del vault | nel blocco qui sotto, **incollato verbatim** da `conta_stato.py` |
 | Suite QA | **verde sul perimetro di lotto**; sul vault tre controlli su quattro sono a zero errori |
 | `llms.txt` | rigenerato dal frontmatter, allineato |
 | Matrice dei lotti | 160/160 grezzi, zero scoperti, zero doppi (`verifica_matrice_lotti.py` verde). ⚠️ **I budget dei lotti 2-10 sono SUPERATI** e il piano non è più a 12 lotti: vale **E31**, la capacità di 25-35 note per lotto, e i grezzi si decidono in apertura. **Stima: circa 28-30 lotti**, scritta anche nella scaletta perché cambia il calendario di S4-S5. Ridisegnato in dettaglio **solo il tema 2** (2A · 2B · 2C) |
-| **PROSSIMO ATTO** | **Il lotto 2A — il lavaggio CIP.** Tre grezzi: il log del CIP di maggio, `IO-05` che ne prescrive il criterio, la scheda di sicurezza del detergente acido. ⚠️ **Gira DA SOLO**: porta tre regole al primo impiego (**E37**, **E39**, **E40**) più una misura che decide una questione di progetto, e il tetto dei due lotti contigui è un massimo, non una quota. È il **primo lotto in cui E37 scatta, e scatta all'apertura**, perché `IO-05` è la fonte prescrittiva del log. **Ed è un ESPERIMENTO**: primo lotto canonizzato sotto E29 ed E36, dichiara **due tassi distinti e non li mescola** — riapertura (misura il debito) e difetto di produzione (misura il metodo) |
+| **PROSSIMO ATTO** | **Il GATE del lotto 2A**: il rapporto `06_operativo\rapporto_lotto_02a.md` va al coordinatore. ⚠️ Porta **un numero che decide una questione di progetto** — il tasso di difetto di produzione, **3,3 %** contro il 57,7 % di R1 — e **un pattern nominato al terzo giro** (E26), «l'attributo che la fonte non dà». Dopo l'approvazione: **2B** (autocontrollo di igiene), che deve chiudere due cose che 2A lascia aperte — la conducibilità dell'acqua di rete e il piano dei tamponi |
 
 ⚠️ **Errata del 19/08/2026 sui numeri del lotto 1A.** Questo stato dichiarava «105 note, di
 cui 11 `_index` e 6 note-strumento: 88 di contenuto». `qa_all.py` a chiusura di 1A contava
@@ -38,23 +39,67 @@ prescrive la regola del gate 1A.
 
 | Grandezza | Valore |
 |---|---|
-| Note nel vault | **183** |
+| Note nel vault | **217** |
 | di cui `_index` | 11 |
-| di cui note-strumento del progetto | 10 |
-| di cui note di diario (`sessione`, `daily`) | 4 |
-| **di cui note di contenuto** | **158** |
-| Note per cartella | areas 96 · entities 22 · data 22 · code 11 · docs 9 · projects 8 · workspace 7 · concepts 5 · self 1 · outputs 1 · sources 1 |
-| Note per `type` | atomica 100 · conflitto 34 · entita 18 · hub 12 · index 11 · concetto 4 · sessione 4 |
-| Questioni aperte (`type: conflitto`) | 34 |
+| di cui note-strumento del progetto | 13 |
+| di cui note di diario (`sessione`, `daily`) | 5 |
+| **di cui note di contenuto** | **188** |
+| Note per cartella | areas 109 · data 26 · entities 24 · docs 19 · code 14 · projects 8 · workspace 8 · concepts 6 · self 1 · outputs 1 · sources 1 |
+| Note per `type` | atomica 127 · conflitto 37 · entita 19 · hub 13 · index 11 · concetto 5 · sessione 5 |
+| Questioni aperte (`type: conflitto`) | 37 |
 | Grezzi in `sources\` | 160 |
-| Grezzi citati da almeno una nota | **35** |
-| Grezzi restanti | **125** |
+| Grezzi citati da almeno una nota | **38** |
+| Grezzi restanti | **122** |
 
 ⚠️ **Questo blocco non si riscrive a mano.** Nasce al gate del lotto 1B da due sviste di
 conteggio in due lotti — 46 contro 32 nel rapporto 1A, 105 e 88 in questo stato quando
 `qa_all.py` contava 106 e 89 — e nessuna delle due era un errore di canonizzazione: erano
 sottrazioni fatte a mano su numeri veri. Da qui in poi lo stato e i rapporti **incollano**,
 non ricompongono.
+
+## Il lotto 2A, chiuso il 19/08/2026 — il lavaggio CIP
+
+**Perimetro:** 3 grezzi — il log del lavaggio CIP di maggio, `IO-05` che lo prescrive, la
+scheda di sicurezza del detergente acido — più **10 note riaperte** da E37, **7 toccate** e
+**33 nate**: **50 note controllate**.
+
+| | |
+|---|---|
+| Capacità attesa | 25-35 note di contenuto (E31) |
+| Prodotte | **30** di contenuto — **dentro la fascia** |
+| Densità | **10,0 note per grezzo** |
+| QA di lotto | **0 ERRORI, 44 AVVISI**, motivati nel rapporto §4 |
+| Giri di giudizio | **tre**: 12, 7 e 9 rilievi accolti — **il ciclo non converge** |
+| Revisione col canone | **6 A · 9 B · 0 C** |
+| Righe di tracciamento | **T21 e T29 chiuse**; **cinque nuove**, da T70 a T74 |
+| Canone | **nove divergenze nuove**, in sezione datata |
+
+### L'esperimento, e il numero che il gate deve pesare
+
+| Tasso | Valore | Misura |
+|---|---|---|
+| di **riapertura** | **40,0 %** *(4 su 10)* | il **debito** |
+| di **difetto di produzione** | **3,3 %** *(1 su 30)* | il **metodo** |
+
+⚠️ **Contro il 57,7 % di R1, l'ipotesi del debito storico regge.** R1 misurava note scritte
+tutte prima che E29 ed E36 esistessero; qui, con le stesse regole in vigore e lo stesso
+criterio, il metodo produce il difetto in **un caso su trenta**. L'unico caso è dichiarato
+col suo nome e **non è stato aggiustato**: bastava aggiungere una fonte per portare il tasso
+a zero.
+
+### Che cosa ha trovato
+
+Il tracciato chiude conformi **28 cicli su 30**, e **nessuno** ha girato con i parametri
+prescritti: sei fasi su sei più corte, **170 letture di portata su 170** sotto il valore
+prescritto, temperature fuori finestra. Vince `IO-05`, il log resta com'è.
+
+⚠️ **La radice è nella forma del criterio**: l'accettazione è scritta come **scarto
+dall'acqua di rete**, un riferimento che il pannello non acquisisce. E **tre divergenze di
+specie nuova** — due documenti **prescrittivi** in vigore che non concordano fra loro, su
+quale sia il detergente acido, su quali DPI, su ogni quanto verificare il lavaocchi.
+
+⚠️ **Due assenze dichiarate false**, ed è l'errore più grave del lotto: la formula di E3 usata
+**senza** la ricerca su tutto `sources\`. Le ha trovate la revisione col canone.
 
 ## Il lotto R1, chiuso il 19/08/2026 — riconciliazione verticale
 

@@ -1116,3 +1116,87 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   sessione è **un massimo, non una quota** (§4.16). 2A porta **tre regole al primo impiego** —
   E37, E39, E40 — più una **misura che decide una questione di progetto**: un lotto che porta un
   esperimento non condivide la sessione con un altro lotto.
+- **2026-08-19** · lotto 2A, apertura · **E37 SCATTA PER LA PRIMA VOLTA, E LO STRUMENTO NON
+  C'ERA** · `IO-05` e la scheda di sicurezza sono fonti prescrittive, e sono le fonti del log
+  che il lotto canonizza: E37 impone di riaprire le note gia' scritte **prima** di scriverne di
+  nuove. ⚠️ `candidate_r1.py` era pero' scritto per il solo lotto R1 — perimetro fisso, criterio
+  fisso — e ha acquistato una **modalita' ristretta** (`--dominio`). **Non basta cambiare
+  l'insieme delle fonti: va cambiata anche la condizione su cio' di cui la nota parla**, o si
+  ricade nella forma di E29 che E36 ha corretto. Perciò un dominio dichiara **insieme** le
+  fonti che lo governano e le espressioni che lo riconoscono, e le due meta' non si separano.
+  Fix **monotono**: il default su R1 da' output **identico** alla versione committata,
+  verificato per confronto prima di usarlo. Esito: **10 note riaperte, 4 corrette**.
+- **2026-08-19** · lotto 2A · **LO STRUMENTO CHE PREPARA L'INGRESSO DI UN GIUDICE SI RIFIUTA DI
+  PRODURNE UNO DEGRADATO** · il pacchetto del lotto e' di 603.633 caratteri e va tagliato in
+  fette: e' **esattamente lo strumento che in R1 scartava l'appendice delle fonti**, mandando i
+  giudici a confrontare le note con se' stesse. Il nuovo `taglia_pacchetto.py` porta a ogni
+  fetta il testo integrale delle fonti che le sue note citano, **si rifiuta di scrivere** una
+  fetta priva di appendice, e scrive in testa al giudice che **dichiarare degradato il proprio
+  ingresso e' un esito legittimo** (§4.31). ⚠️ **Ha funzionato in tutti e nove i giudizi**: ogni
+  giudice ha aperto la risposta verificando l'ingresso ed elencando le fonti trovate. La riga
+  di §4.31 non e' rimasta una massima: e' diventata il primo paragrafo di nove verdetti.
+- **2026-08-19** · lotto 2A · **L'ESPERIMENTO HA IL SUO NUMERO: 3,3 % CONTRO 57,7 %** · i due
+  tassi che il gate di R1 aveva prescritto sono stati prodotti da script
+  (`misura_due_tassi.py`) e **tenuti separati**: tasso di riapertura **40,0 %** (4 su 10), che
+  misura il **debito**; tasso di difetto di produzione **3,3 %** (1 su 30), che misura il
+  **metodo**. ⚠️ **L'ipotesi del debito storico regge**: R1 misurava note scritte tutte prima
+  che E29 ed E36 esistessero, e qui, con le stesse regole in vigore e lo **stesso criterio**,
+  il difetto nasce in un caso su trenta. ⚠️ **L'unico caso e' dichiarato col suo nome e non e'
+  stato aggiustato**: bastava aggiungere una fonte a una nota per portare il tasso a zero, e
+  sarebbe stato truccare il numero che l'esperimento esiste per produrre. ⚠️ Il criterio scritto
+  al gate di R1 chiede **due** lotti prima di decidere: questo e' il primo.
+- **2026-08-19** · lotto 2A · **DUE ASSENZE DICHIARATE FALSE, ED E' L'ERRORE PIU' GRAVE DEL
+  LOTTO** · in due note era stata usata la formula di E3 — «assenza verificata su tutto
+  `sources\`, manifest v1.1» — **senza che la ricerca su tutto `sources\` fosse stata fatta**.
+  Il registro `MOD-HR-11` c'era, in dieci grezzi, e uno di essi **era gia' fra le fonti di
+  quella nota**; il valore della conducibilita' dell'acqua di rete c'era, nel piano di
+  autocontrollo. ⚠️ **La formula di E3 esiste per rendere verificabile un'assenza: usarla senza
+  il gesto che attesta e' peggio del silenzio**, perche' da' a un'affermazione falsa la forma di
+  una verificata. Le ha trovate la revisione col canone, non lo strato deterministico — che su
+  un'assenza non ha niente da cercare. Le due sono nate a ore diverse e con fonti diverse: e' un
+  difetto **di classe**, non una svista.
+- **2026-08-19** · lotto 2A · **IL CANONE CONOSCE UN NUMERO CHE IL VAULT NON PUO' ANCORA
+  SCRIVERE** · la riga «Esito dei lavaggi CIP» del canone da' **18 cicli su 28** sopra il limite
+  e fissa quel limite a **536 µS/cm**. Il conteggio e' stato riprodotto ed e' **esatto**. Ma
+  `IO-05` prescrive uno **scarto** dall'acqua di rete, e il log non la registra mai: i 536
+  presuppongono di conoscerla, e quel dato sta in un grezzo del **lotto 2B**. ⚠️ **Scriverlo
+  sarebbe stata una fuga di canone della stessa specie delle due gia' pagate dal progetto.** La
+  nota dichiara quindi il criterio **non verificabile sulle proprie fonti** — che e' vero — e la
+  riga **T72** porta l'obbligo per 2B. **La distanza fra canone e vault si chiude con una riga
+  di tracciamento, non con una deroga.**
+- **2026-08-19** · lotto 2A, chiusura · ⚠️ **IL PATTERN NOMINATO AL TERZO GIRO: L'ATTRIBUTO CHE
+  LA FONTE NON DA'** · tre giri di giudizio con **12, 7 e 9** rilievi accolti. Il ciclo **non
+  converge**, e non perche' i rilievi tornino: quelli corretti restano corretti, ma a ogni
+  passata ne emergono di nuovi **della stessa specie**. La specie e' una sola — **attribuire a
+  un soggetto un attributo che la fonte non da'**: un ruolo («il capo officina», «approvata
+  dalla direzione», «il fabbricante della sostanza»), un primato («e' la prima volta»),
+  un'identita' fra due eventi, una causa, una categoria. ⚠️ **Perche' si rigenera, ed e'
+  meccanico**: un archivio nomina per sigla — `OP=BISSOLI_M`, `ing. M. Fantin` — e chi scrive
+  deve rendere quella sigla leggibile fuori contesto; **il gesto naturale per renderla leggibile
+  e' aggiungere la qualifica**, che quasi sempre e' vera ma sta in un'altra fonte. E' la classe
+  del `PARLANTE_3` di metodo_03, che la' e' un caso singolo e qui si rivela una **famiglia**.
+  ⚠️ E ha la stessa meccanica del *contesto importato* di 1B: **ogni correzione riscrive, e ogni
+  riscrittura e' una nuova occasione di attribuire**. Non si propone come emendamento: una
+  classe vista in un lotto solo vale come osservazione (E28).
+- **2026-08-19** · lotto 2A · **TRE DIVERGENZE DI SPECIE NUOVA: DUE PRESCRIZIONI IN VIGORE CHE
+  NON CONCORDANO** · fino a oggi il canone raccoglieva divergenze fra documenti che
+  **registrano** — due letture dello stesso DDT, due conteggi dello stesso turno — o al piu' fra
+  un registro e la fonte che lo governa (T64). Qui la contraddizione e' **fra due documenti
+  prescrittivi**, e nessuno dei due e' il registro dell'altro: quale sia il detergente acido
+  (T67), quali DPI indossare (T68), ogni quanto verificare il lavaocchi (T69). ⚠️ **Chi lavora
+  ha davanti due istruzioni valide che gli dicono cose diverse**, e nessuna delle due cita
+  l'altra sul punto in cui divergono. Le nove divergenze del lotto sono nel canone in sezione
+  datata.
+- **2026-08-19** · lotto 2A · **LA SESSIONE SI E' INTERROTTA A META' LOTTO, E NON SI E' PERSO
+  NULLA** · un limite di quota ha ucciso tre subagenti in volo e fermato la sessione mentre
+  scriveva nel vault. ⚠️ **La regola di §5 — chiudere solo a confine di lotto — presuppone una
+  chiusura VOLONTARIA, e qui non c'e' stata.** Alla ripresa nulla era corrotto, e non per
+  fortuna: il gate precedente era **gia' committato e pushato**; gli elenchi del perimetro si
+  scrivono **mentre** si tocca una nota (E32) e non a memoria; ogni numero viene **da uno
+  script** e non dal contesto della conversazione; il pacchetto e le fette sono **file**, e i
+  giudici caduti si sono rilanciati sullo stesso ingresso byte per byte. Il controllo di ripresa
+  e' stato affidato a un **auditor indipendente**, con l'ordine esplicito di non riparare nulla:
+  **nessun danno**. ⚠️ Una sua misura divergeva dalla mia — 41 avvisi contro 40 — e non era un
+  errore di nessuno dei due: aveva fotografato l'istante prima di una correzione. **Due misure
+  vere dello stesso oggetto in due istanti diversi**, ed e' la ragione per cui un numero si cita
+  con l'ora della sua misura.

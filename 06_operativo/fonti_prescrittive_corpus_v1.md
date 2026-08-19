@@ -43,8 +43,8 @@ esplicito per il lotto che la porterà. Precedente identico: **T18**.
 
 | | Quante |
 |---|---|
-| **CITABILI oggi** (grezzo già canonizzato) | **8** |
-| **DA TRACCIARE** (grezzo in un lotto futuro) | **28** |
+| **CITABILI oggi** (grezzo già canonizzato) | **10** |
+| **DA TRACCIARE** (grezzo in un lotto futuro) | **26** |
 | **totale fonti prescrittive** | **36** |
 
 ---
@@ -60,13 +60,13 @@ esplicito per il lotto che la porterà. Precedente identico: **T18**.
 | `scheda_manutenzione_ordinaria_forni_industrial.csv` | misto | **Prescrive la periodicita'** degli interventi su impianti e strumenti, e **registra** le esecuzioni. E' uno dei due registri paralleli della metrologia trovati nel lotto 1C | lotto_01a_linea1_turno_ccp | **sì** | **sì** |
 | `contratto_manutenzione_impianto_frigo_TS01.docx` | prescrittiva | Obblighi di manutenzione sugli impianti del freddo: perimetro degli impianti coperti, periodicita', adempimenti F-gas, responsabilita' del manutentore. ⚠️ E' una **bozza mai firmata**, ed e' un fatto gia' canonizzato: prescrive cio' che le parti avevano concordato di scrivere, non un obbligo perfezionato | lotto_01b_freddo_energia | **sì** | **sì** |
 | `elenco_attrezzature_taratura_strumenti_2026.csv` | misto | **Prescrive** la periodicita' di taratura e convalida del parco strumenti, e **registra** lo stato di ciascuno. E' l'altro dei due registri paralleli della metrologia | lotto_01c_metrologia_gas | **sì** | **sì** |
+| `IO-05_istruzione_operativa_lavaggio_CIP.docx` | prescrittiva | L'istruzione operativa del lavaggio CIP: fasi, parametri, registrazioni obbligatorie | lotto_02a_cip | **sì** | **sì** |
+| `scheda_sicurezza_detergente_acido_lavaggio_CIP.txt` | prescrittiva | Condizioni d'uso e di sicurezza del detergente acido del CIP | lotto_02a_cip | **sì** | **sì** |
 | `manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt` | prescrittiva | I punti critici di controllo, i loro **limiti critici**, le **frequenze di verifica**, le **azioni correttive** e **chi ne risponde**. E' la fonte prescrittiva madre del corpus: ogni nota che nomina un CCP, una taratura o una frequenza di verifica ricade su questa | pilota (fetta L26130) | **sì** | **sì** |
-| `DoC_MOCA_Flexipack_film_PP_EVOH_2026.pdf` | prescrittiva | La dichiarazione di conformita' del materiale a contatto: **condizioni d'impiego** entro cui il film e' dichiarato idoneo | lotto_02_igiene | no | **NO** — si traccia |
-| `IO-05_istruzione_operativa_lavaggio_CIP.docx` | prescrittiva | L'istruzione operativa del lavaggio CIP: fasi, parametri, registrazioni obbligatorie | lotto_02_igiene | no | **NO** — si traccia |
-| `capitolato_tecnico_fornitura_imballaggi_plastici.txt` | prescrittiva | Le specifiche tecniche che il film di imballaggio deve rispettare. E' il termine prescrittivo della divergenza sulla barriera al vapore gia' registrata nella matrice | lotto_02_igiene | no | **NO** — si traccia |
-| `piano_autocontrollo_acqua_potabile_analisi.csv` | misto | **Prescrive** il piano di autocontrollo dell'acqua potabile - punti, parametri, frequenze - e **registra** gli esiti | lotto_02_igiene | no | **NO** — si traccia |
-| `scheda_allergeni_matrice_cross_contamination.docx` | prescrittiva | La matrice della contaminazione incrociata da allergeni: che cosa non puo' seguire che cosa, e con quale bonifica | lotto_02_igiene | no | **NO** — si traccia |
-| `scheda_sicurezza_detergente_acido_lavaggio_CIP.txt` | prescrittiva | Condizioni d'uso e di sicurezza del detergente acido del CIP | lotto_02_igiene | no | **NO** — si traccia |
+| `piano_autocontrollo_acqua_potabile_analisi.csv` | misto | **Prescrive** il piano di autocontrollo dell'acqua potabile - punti, parametri, frequenze - e **registra** gli esiti | lotto_02b_autocontrollo_igiene | no | **NO** — si traccia |
+| `scheda_allergeni_matrice_cross_contamination.docx` | prescrittiva | La matrice della contaminazione incrociata da allergeni: che cosa non puo' seguire che cosa, e con quale bonifica | lotto_02b_autocontrollo_igiene | no | **NO** — si traccia |
+| `DoC_MOCA_Flexipack_film_PP_EVOH_2026.pdf` | prescrittiva | La dichiarazione di conformita' del materiale a contatto: **condizioni d'impiego** entro cui il film e' dichiarato idoneo | lotto_02c_moca | no | **NO** — si traccia |
+| `capitolato_tecnico_fornitura_imballaggi_plastici.txt` | prescrittiva | Le specifiche tecniche che il film di imballaggio deve rispettare. E' il termine prescrittivo della divergenza sulla barriera al vapore gia' registrata nella matrice | lotto_02c_moca | no | **NO** — si traccia |
 | `PRO-QA-08_gestione_reclami_cliente_rev2.docx` | prescrittiva | La procedura di gestione dei reclami: tempi di risposta, responsabilita', registrazioni | lotto_03_sistema_qualita | no | **NO** — si traccia |
 | `politica_qualita_e_sicurezza_alimentare_2026.docx` | prescrittiva | La politica per la qualita' e la sicurezza alimentare: impegni della direzione e responsabilita' assegnate | lotto_03_sistema_qualita | no | **NO** — si traccia |
 | `procedura_ritiro_prodotto_CRISI_GDO.txt` | prescrittiva | La procedura di ritiro e richiamo del prodotto: chi decide, in quanto tempo, con quali comunicazioni | lotto_03_sistema_qualita | no | **NO** — si traccia |
