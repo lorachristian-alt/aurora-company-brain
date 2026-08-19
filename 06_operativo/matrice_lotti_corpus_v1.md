@@ -1,8 +1,14 @@
 # Matrice dei lotti — canonizzazione del corpus v1
 
-> **Cos'è** · Il piano di lavoro delle Sessioni 4-5: come i **138 grezzi non ancora
-> canonizzati** si dividono in dodici lotti tematici, in che ordine si eseguono, con quale
-> budget di note e con quali obblighi ciascuno.
+> **Cos'è** · Il piano di lavoro delle Sessioni 4-5: come i grezzi non ancora canonizzati
+> si dividono in lotti tematici, in che ordine si eseguono, con quale capacità di note e
+> con quali obblighi ciascuno.
+> ⚠️ **Al 19/08/2026, dopo il gate del lotto 1C: 35 grezzi canonizzati, 125 restanti, e il
+> piano vale circa 28-30 lotti, non dodici.** I dodici temi restano l'ossatura, ma i temi
+> 3-10 si ripacchettizzano in apertura (E31); solo il tema 2 è già ridisegnato in 2A/2B/2C.
+> Le fasce di note dei lotti 2-10 sono **barrate**, non cancellate. Il perché e la data
+> stanno nel **registro delle modifiche** in fondo a questo file, che è il padrone della
+> cronologia di questa matrice.
 > **Quando si usa** · All'apertura di ogni lotto, per sapere cosa entra e cosa ci si
 > aspetta. E al gate finale, per dimostrare che i 160 sono stati coperti tutti.
 > **Cosa non toccare** · La regola di partizione: **ogni grezzo sta in esattamente un
@@ -438,8 +444,13 @@ due — la distinzione è del coordinatore, al gate del lotto 1C:
 
 ⚠️ **La terza non è un pareggio: è un risultato del vault**, ed è ciò che la misura «dopo»
 dovrà saper mostrare. Un archivio grezzo lascia la contraddizione apparente dov'è; un archivio
-che ha capito il meccanismo la scioglie e lo dichiara. Le due righe riconciliate finora sono
-**T22** (lotto 1B) e **T17** (lotto 1C).
+che ha capito il meccanismo la scioglie e lo dichiara.
+
+⚠️ **Quante righe escono con quale esito NON si scrive qui, e non si legge a occhio.** Il
+numero lo produce `06_operativo\conta_tracciamento.py`, e si incolla nello stato e nei
+rapporti di lotto. Questo paragrafo dichiarava «due righe riconciliate, T22 e T17» ed era
+già vecchio di una riga: è esattamente il motivo per cui il conteggio è passato a uno
+script il 19/08/2026.
 
 Le righe qui sotto sono il **seme**, ricavato dagli obblighi di lotto e dalla lista di
 tracciamento del gate S2 §6.2. Le questioni che nasceranno canonizzando si aggiungono qui.
@@ -475,7 +486,7 @@ tracciamento del gate S2 §6.2. Le questioni che nasceranno canonizzando si aggi
 | T27 | Materiale della guarnizione **originale** della valvola azoto: PTFE (mail del costruttore), FKM (manuale della macchina), EPDM (piano di manutenzione) | **lotto 1A** — `questione-materiale-guarnizione-pkm-450` estesa | — | **aperta dichiarata**: due fonti su tre danno un fluoropolimero, la terza no, e nessun documento le mette a confronto |
 | T28 | Codice del ricambio della valvola azoto: le sigle salgono da due a **quattro**, e due vengono dal costruttore stesso | **lotto 1A** — `questione-codice-ricambio-valvola-pkm-450` estesa | — | **aperta dichiarata** |
 | T29 | Sonda di conducibilità del `CIP-01`, taratura scaduta dall'`2026-04-08`, «allarmi sonda su log maggio» | **lotto 1A** (scheda manutenzione) | **lotto 2** (log CIP e IO-05) | tracciata |
-| T30 | Assorbimenti del compressore `CF-02` scaduti dal `30/04/26` e resistenze di sbrinamento rimandate, con «assorbimento anomalo segnalato 08/05» | **lotto 1A** (scheda manutenzione) | chiusa in **1B** | **chiusa** — **duplicato di T22**, stessa questione con altre parole: il seme della tabella la conteneva due volte (come T21 e T29). Nessuna riga sparisce, si dichiara la duplicazione |
+| T30 | Assorbimenti del compressore `CF-02` scaduti dal `30/04/26` e resistenze di sbrinamento rimandate, con «assorbimento anomalo segnalato 08/05» | **lotto 1A** (scheda manutenzione) | chiusa in **1B** | **RICONCILIATA** — **duplicato di T22**, stessa questione con altre parole: il seme della tabella la conteneva due volte (come T21 e T29). Nessuna riga sparisce, si dichiara la duplicazione. ⚠️ **Allineata a T22 il 19/08/2026**: usciva come «chiusa» mentre la riga di cui è dichiarata duplicato usciva come «riconciliata», e la stessa questione con due esiti diversi indebolisce proprio la tabella con cui al gate finale si provano i conflitti. L'esito vero è quello di T22: non era una divergenza |
 | T31 | Proposta di R&D di portare il TMC a **sei mesi** contro i **45 giorni** della scheda tecnica in vigore | **lotto 1A** — registrata in `kpi-shelf-life-af-sn-0450` | **lotto 9** (R&D), se il corpus porta la revisione | tracciata — non è una contraddizione fra documenti: è una proposta contro una specifica in vigore |
 | T32 | Posizione dell'`MD-3200` in linea: la scheda tecnica lo colloca **fra il raffreddamento e il confezionamento**, l'elenco attrezzature lo dà «Linea 1 - post confezionamento» | **lotto 1A** — trovata dallo strato di giudizio, che ha visto la nota affermare il contrario della propria fonte | chiusa in **1C** | **aperta dichiarata** — `questione-posizione-md-3200-in-linea`: la colonna `Ubicazione` dell'elenco dà «Linea 1 - post confezionamento». Cambia l'oggetto del controllo, e in una delle due letture ricadrebbe nel campo del metal detector anche ciò che entra **durante** il confezionamento |
 | T33 | Il rapporto di prova del laboratorio contiene **prove chimico-fisiche** sul lotto L26130 che nessuna nota del pilota aveva canonizzato: aw, pH, umidità, cloruri, con metodo e incertezza | **lotto 1A** — trovato dal ri-giudizio | il grezzo appartiene alla fetta pilota: la lacuna di copertura si chiude qui, non in un lotto futuro | **chiusa** — le prove sono ora citate da `questione-aw-umidita-af-sn-0450` |
@@ -536,6 +547,7 @@ La matrice è un piano: si annota quando cambia, non si riscrive in silenzio.
 
 | Data | Lotto | Cosa è cambiato, e perché |
 |---|---|---|
+| 2026-08-19 | **manutenzione** | **Il cappello allineato, T30 allineata a T22, e il numero delle righe passa a uno script.** Il cappello diceva ancora «138 grezzi in dodici lotti tematici» mentre le fasce dentro erano già barrate: è la prima cosa che si legge, e diceva il contrario del corpo. **T30 usciva «chiusa» mentre T22, di cui è dichiarata duplicato, usciva «RICONCILIATA»**: la stessa questione con due esiti, sulla tabella che al gate finale è la prova dei conflitti. Allineata a RICONCILIATA tenendo la dichiarazione di duplicazione — nessuna riga sparisce. E le righe della tabella si contano ora con `06_operativo\conta_tracciamento.py`: era **l'ultimo numero del progetto dichiarato senza script**, ed era già uscito sbagliato una volta (lo stato ne dichiarava 41, sono 54) |
 | 2026-08-19 | **2-10** | **RICALIBRAZIONE: i budget dei lotti 2-10 sono SUPERATI, e il piano passa da 12 a ~28-30 lotti.** Le fasce erano costruite sulla densità del pilota (2,1 note per grezzo); i consuntivi danno 6,0 · 9,5 · 13,5. ⚠️ **Il calcolo lineare chiesto dal coordinatore è stato eseguito e rifiutato**: dà 903 note e 36 lotti, perché moltiplica una grandezza instabile (densità, dispersione 147 %) per una stabile. L'invariante è il **lotto** (27-46 note, dispersione 50 %), non la densità. Al posto delle fasce vale **E31**, il budget come capacità 25-35, **provvisoria fino a dieci lotti chiusi**. Ridisegnato in dettaglio **solo il tema 2** (in 2A, 2B, 2C); gli altri restano temi da ripacchettizzare in apertura. Le stime vecchie **restano barrate, non cancellate** |
 | 2026-08-19 | **1C** | **Errata: le righe dell'elenco tarature sono 120, non 121.** Il conteggio della matrice era a mano, quello di apertura del lotto è da script (`conta_1c.py`). Il file porta inoltre **due righe di intestazione**, la seconda a riga 64 con nomi di colonna diversi: non è un difetto da aggirare, è un fatto dell'archivio e ha una nota nel vault |
 | 2026-08-18 | 1 · 10 | `bolletta_VenetaEnergia_maggio2026.pdf` spostata dal lotto 10 al lotto 1: sta con `consumi_energetici_forni_kwh_maggio26.csv`, di cui è la gamba di riconciliazione sul costo dell'energia. Non è rumore |

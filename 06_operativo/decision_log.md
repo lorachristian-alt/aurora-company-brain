@@ -827,3 +827,92 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   ripasso generale del vault. Il rapporto di R1 dichiara **quante note guardate, quante corrette e
   il tasso di difetto**: quel numero dira' se il ripasso va rifatto a fine corsa o se E29 in
   vigore basta.
+- **2026-08-19** · manutenzione post-1C, coordinatore · **LIMITAZIONE RETROATTIVA DEL COLLAUDO
+  DELLA SUITE: i numeri «5 su 5» e «7 su 7» valgono meno di quanto sembravano** · fino a oggi
+  `_collaudo\collaudo_suite.py` invocava i quattro script **direttamente**, con `--note-toccate`
+  esplicito. Quei collaudi provano che **i controlli funzionano**; NON provano che `qa_all.py` li
+  chiami con gli argomenti giusti, ed è esattamente lì che si annidava il difetto trovato oggi
+  (il flag non veniva inoltrato). ⚠️ **Non invalida nessun lotto chiuso**, e i due casi vanno
+  tenuti separati perché sono diversi:
+  **(a) il lotto 1C** — la via per convenzione **ha funzionato**, ed è verificabile su disco:
+  `06_operativo\qa\2026-08-19_1c\qa_all.md` dichiara perimetro di lotto su **51 note** e riporta
+  gli avvisi di lunghezza su `fatto-cariche-f-gas-impianti-frigoriferi` (346 parole) e
+  `fatto-convalida-md-1800-scaduta` (320), cioè proprio le due note estese che senza E32 erano
+  sfuggite;
+  **(b) pilota, 1A e 1B** — la convenzione non li ha protetti perché **non esisteva**: E32 nasce
+  al gate di 1C, e in `qa\lotti\` c'è un solo `_note.txt`. Le loro note modificate erano fuori
+  perimetro, ed è il fatto **già registrato** che ha generato E32 — non una scoperta di oggi.
+  Quello che restava scoperto è **ciò che sta fra il lanciatore e i figli**, ed è colmato dal
+  requisito di §4.29. La stessa limitazione è scritta **nel docstring del collaudo**, accanto al
+  conteggio dei difetti: la cifra e il suo limite devono viaggiare insieme, o «7 su 7 verdi»
+  continua a significare più di quanto vale.
+- **2026-08-19** · manutenzione post-1C, coordinatore fuori da un gate · **E34 in `metodo_03`
+  §9.5, passo 5-bis: la nota-sessione entra nel rituale, e il blocco dei conteggi si genera DOPO
+  di essa** · il blocco incollato nello stato e nel rapporto 1C dichiara **172** note (workspace
+  5, sessione 2), `qa_all.py` dello **stesso giorno** ne conta **173** (workspace 6, sessione 3):
+  la differenza è la nota di diario del lotto, scritta dopo il conteggio. Le note di contenuto
+  restano **153** in entrambi, quindi nessuna decisione è stata presa su un numero sbagliato.
+  ⚠️ Ma **uno strumento nato per finire le sviste di conteggio, generato nel punto sbagliato del
+  rituale, è peggio di nessuno strumento**: dà l'autorità dello script a un numero vecchio. Il
+  blocco è ora l'**ultimo numero prodotto prima del commit**.
+- **2026-08-19** · manutenzione post-1C, coordinatore fuori da un gate · **E35 in `metodo_03` §7
+  e §9.4-bis: esiste il LOTTO DI MANUTENZIONE** · quello che non canonizza grezzi nuovi ma
+  **ripara note già scritte**, quando un gate scopre un difetto di classe che le attraversa. Il
+  primo è R1. Regole proprie: perimetro di **sole note** (elenco grezzi vuoto con
+  `# MANUTENZIONE` in testa, il perimetro vero è `qa\lotti\<lotto>_note.txt`); l'elenco delle
+  note lo **genera uno script** e il criterio si scrive nel rapporto; **niente capacità 25-35**,
+  perché un lotto di manutenzione non punta a produrre note; il rapporto dichiara **tre numeri**
+  — note guardate, note corrette, tasso di difetto; vale come **un lotto** nel ritmo.
+  ⚠️ **Con una GUARDIA, e va scritta**: zero grezzi si accettano **solo** se l'elenco delle note
+  esiste e non è vuoto, e il report lo dichiara in chiaro. Un perimetro vuoto per errore di
+  battitura deve restare un errore, altrimenti la via più rapida per una QA verde diventa
+  cancellare l'elenco. Non è una deroga che allenta un controllo: è una modalità dichiarata che
+  lo **estende** a un oggetto che prima non poteva essere controllato affatto.
+- **2026-08-19** · manutenzione post-1C · **Quattro fix agli strumenti, tutti collaudati prima di
+  dichiararli chiusi** · sono **fix di codice, non emendamenti** (precedente: il gate 1A, dove il
+  falso positivo sulla fonte non agganciata fu classificato così), e tutti e quattro
+  **AGGIUNGONO copertura senza toglierne** — verificato, non assunto: la QA a perimetro vault
+  rilanciata dopo i fix produce report **identici byte per byte** a quelli committati, e il
+  perimetro del lotto 1C rilanciato in una cartella di scarto è identico **sotto l'intestazione**.
+  **FIX 1** — `qa_all.py` non inoltrava `--note-toccate` ai quattro figli: E32 reggeva **solo**
+  perché ogni figlio si ricalcolava la convenzione da sé. Chi passava l'elenco esplicitamente se
+  lo vedeva ignorare **in silenzio**, con la QA verde e le note modificate fuori perimetro.
+  **FIX 2** — `leggi_perimetro` rifiutava l'elenco a zero grezzi: R1 non era **lanciabile
+  affatto**. Ora lo accetta con la guardia di E35, e il report lo dichiara.
+  **FIX 3** — il collaudo non esercitava il lanciatore, ed è il difetto che rendeva invisibili
+  gli altri due (vedi la limitazione retroattiva qui sopra e §4.29).
+  **FIX 4** — l'etichetta del lotto nei report: se `--lotto` non è passato e il perimetro è
+  `@lotti\<nome>.txt`, l'etichetta prende `<nome>` invece del default `l26130`. ⚠️ **Il report di
+  1C NON è stato rigenerato**: rifarlo oggi fotograferebbe un vault diverso da quello che il gate
+  ha approvato. L'errata sta nel §5 del rapporto 1C.
+- **2026-08-19** · manutenzione post-1C · **Il collaudo dichiara le VIE DI PRODUZIONE nel proprio
+  docstring, e il verdetto è una tabella via per via, non un totale** · cinque vie più un caso
+  negativo: V1 lotto per convenzione (i sette difetti sostanziali) · V2 `--note-toccate`
+  esplicito · V3 `--pacchetto-giudizio` · V4 perimetro vault · V5 perimetro di manutenzione ·
+  V-neg zero grezzi senza elenco, che **deve** uscire in errore. L'invocazione diretta dei figli
+  **si tiene, dichiarata come via NON di produzione**: serve a isolare un guasto quando `qa_all`
+  è rosso, non a dimostrare copertura. ⚠️ **Un totale aggregato tornerebbe a nascondere proprio
+  ciò che questa riparazione ha scoperto**, cioè quale via non è esercitata da nessuno.
+  Controprova eseguita: con gli strumenti **pre-fix**, V2 e V5 falliscono; disattivando il solo
+  FIX 4, fallisce la sola verifica dell'etichetta. Un difetto che passa anche senza il suo fix
+  non è un difetto: è copertura per sbaglio.
+- **2026-08-19** · manutenzione post-1C · **Un numero solo aveva tre valori, e nessuno dei tre
+  veniva dallo script** · gli avvisi della QA del lotto 1C: **8** nella prosa del §5 del rapporto
+  (che era il totale di **una** delle due famiglie), **9** nello stato, **14** nel report di
+  `qa_all.py`. La tabella del §5, che li elenca per famiglia, sommava già correttamente a 14.
+  Corretti tutti e tre a partire dallo script, con errata visibile. È la stessa classe della
+  divergenza 172/173: **non un errore di canonizzazione, un totale ricomposto in prosa.**
+- **2026-08-19** · manutenzione post-1C · **`00_INIZIA_QUI.md` non tiene più lo stato: lo
+  indica** · la sezione «Dove siamo adesso (18/08/2026)» diceva «138 grezzi restanti» e «prossimo
+  passo: Sessioni 4-5» quando i restanti erano **125** e il prossimo passo era **R1**. È stata
+  **eliminata e sostituita da un puntatore** ai due file di stato e alla §3 del passaggio di
+  consegne — non aggiornata, perché aggiornarla avrebbe conservato il difetto invece di
+  chiuderlo. ⚠️ Principio, ora §4.28: **due fotografie dello stesso momento divergono sempre**;
+  si elimina la duplicazione, non si raddoppia la manutenzione.
+- **2026-08-19** · manutenzione post-1C · **T30 allineata a RICONCILIATA, e le righe della
+  tabella di tracciamento passano a uno script** · T22 usciva **RICONCILIATA** e T30, dichiarato
+  suo duplicato, usciva **chiusa**: la stessa questione con due esiti diversi, sulla tabella con
+  cui al gate finale si provano i conflitti. Allineata tenendo la dichiarazione di duplicazione —
+  **nessuna riga sparisce**. E il conteggio delle righe passa a `06_operativo\conta_tracciamento.py`:
+  era **l'ultimo numero del progetto dichiarato senza script**, ed era già uscito sbagliato (lo
+  stato ne dichiarava 41; sono **54**, da T1 a T54, nessuna mancante e nessuna duplicata).

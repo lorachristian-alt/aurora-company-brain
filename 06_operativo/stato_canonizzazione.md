@@ -3,7 +3,9 @@
 > **Cos'è** · Lo stato di oggi del vault: cosa è stato canonizzato, con quale esito, e
 > cosa resta. Solo stato, mai una regola: le regole stanno in
 > `01_metodo\metodo_03_canonizzazione.md`, le decisioni in `06_operativo\decision_log.md`.
-> **Aggiornato al** · 19/08/2026, chiusura del lotto 1C della Sessione 4.
+> **Aggiornato al** · 19/08/2026, **sessione di manutenzione** dopo il gate del lotto 1C:
+> quattro riparazioni degli strumenti, E34 ed E35 in `metodo_03`, e i numeri riportati da
+> script. Il prossimo atto è l'apertura di **R1**.
 > Lo stato della pipeline RAG sta in `06_operativo\stato_rag_produzione.md`, non qui; il
 > piano dei lotti e la tabella di tracciamento delle questioni trasversali stanno in
 > `06_operativo\matrice_lotti_corpus_v1.md`, non qui.
@@ -35,13 +37,13 @@ prescrive la regola del gate 1A.
 
 | Grandezza | Valore |
 |---|---|
-| Note nel vault | **172** |
+| Note nel vault | **173** |
 | di cui `_index` | 11 |
 | di cui note-strumento del progetto | 6 |
-| di cui note di diario (`sessione`, `daily`) | 2 |
+| di cui note di diario (`sessione`, `daily`) | 3 |
 | **di cui note di contenuto** | **153** |
-| Note per cartella | areas 93 · entities 22 · data 22 · projects 8 · docs 7 · code 7 · concepts 5 · workspace 5 · self 1 · outputs 1 · sources 1 |
-| Note per `type` | atomica 93 · conflitto 32 · entita 18 · hub 12 · index 11 · concetto 4 · sessione 2 |
+| Note per cartella | areas 93 · entities 22 · data 22 · projects 8 · docs 7 · code 7 · workspace 6 · concepts 5 · self 1 · outputs 1 · sources 1 |
+| Note per `type` | atomica 93 · conflitto 32 · entita 18 · hub 12 · index 11 · concetto 4 · sessione 3 |
 | Questioni aperte (`type: conflitto`) | 32 |
 | Grezzi in `sources\` | 160 |
 | Grezzi citati da almeno una nota | **35** |
@@ -65,7 +67,7 @@ dei gas alimentari Nordgas del 06/05, in OCR degradato.
 | Prodotte | **27** di contenuto — **sforato di 9**, dichiarato in apertura e approvato |
 | Densità | **13,5 note per grezzo**, contro 9,5 di 1B, 6,0 di 1A e 2,1 del pilota |
 | Perché non si è spezzato | **E28**, approvato in apertura di questo lotto: si spezza sopra il +25 % **e** sopra le 30 note. 27 note stanno sotto il tetto, e i due grezzi sono una storia sola |
-| QA di lotto | **0 ERRORI, 9 AVVISI**, motivati nel rapporto |
+| QA di lotto | **0 ERRORI, 14 AVVISI**, motivati nel rapporto. ⚠️ *Errata del 19/08/2026: questa cella diceva 9. Il report di lotto conta 14 — `qa_frontmatter` 6, `qa_provenance` 8 — e lo stesso numero era ricomposto in prosa anche nel §5 del rapporto 1C, dove diceva 8. Tre valori per un numero solo: sono tutti e tre corretti a partire dallo script, che è l'unica fonte.* |
 | Passaggi di controllo | rilettura dei «Perché conta» contro le sole fonti (antidoto 1B), **tre giri di giudizio** — 27 rilievi, tutti accolti — e revisione col canone |
 | Versione del prompt di giudizio | **v2** |
 | Righe dell'elenco | **120**, non 121 come diceva la matrice: errata registrata nel registro delle modifiche |
@@ -91,8 +93,12 @@ balance, piano di manutenzione, verbale ATS — e non dalla lettura dei due file
 lotto:** undici note discutevano punti critici, tarature e frequenze **senza citare il manuale
 HACCP**, che è la fonte che le prescrive — e in quattro casi il manuale conteneva esattamente
 ciò che la nota dichiarava mancante. **Nel vault ci sono oggi 30 note che nominano un CCP e non
-citano il manuale**: la decisione se guardarle ora o al gate finale è del titolare, e sta nel
-rapporto del lotto 1C §11.
+citano il manuale.** ⚠️ **La decisione è PRESA, e la porta il gate del lotto 1C: si guardano
+ora, ed è il lotto R1.** Questa riga diceva ancora «la decisione è del titolare e sta nel
+rapporto 1C §11», che era vero prima del gate e non lo è più — il prossimo atto in cima a
+questo file e questa riga dicevano due cose diverse. ⚠️ **30 è il numero di partenza noto, non
+il perimetro di R1**: il perimetro lo genera uno script, il criterio si scrive nel rapporto, e
+se lo script dà un altro numero vince lo script (E35).
 
 ## Il lotto 1B, chiuso il 19/08/2026
 
@@ -171,17 +177,28 @@ apporto_lotto_1a.md`.
 Tutti gli errori residui del vault sono la sua **incompletezza**: nessuno è un difetto delle
 note che esistono.
 
-## Densità del pilota — il dato per dimensionare i lotti di S4
+## ~~Densità del pilota — il dato per dimensionare i lotti di S4~~ — SUPERATA da E31
 
-**41 note di contenuto su 22 grezzi** al momento del gate, **46 su 22** a chiusura: poco più
+⚠️ **Superata il 19/08/2026 dall'emendamento E31**, al gate del lotto 1C: il budget di un
+lotto è una **capacità** — 25-35 note di contenuto — e non una stima ricavata moltiplicando
+una densità per un numero di file. I quattro consuntivi danno 2,1 · 6,0 · 9,5 · 13,5 note per
+grezzo: la densità varia del 147 % sulla propria media, le note per lotto del 50 %.
+**L'invariante non è la densità, è il lotto.** Quanti grezzi entrino si decide in apertura
+contando i fatti (E21, E28).
+
+**Non si cancella**, come le fasce della matrice: è la misura che ha retto la pianificazione
+per quattro lotti, e la sezione barrata è il solo posto in cui resta scritto su che cosa
+poggiavano i budget di allora.
+
+~~**41 note di contenuto su 22 grezzi** al momento del gate, **46 su 22** a chiusura: poco più
 di due note di contenuto per documento. È la prima misura disponibile del rapporto fra
 documenti e fatti, e serve a dimensionare i lotti delle Sessioni 4-5: **un lotto da 30 grezzi
 va preventivato attorno alle 60-70 note di contenuto**, più gli `_index` delle cartelle che
-tocca.
+tocca.~~
 
-⚠️ Il rapporto non è costante e non va usato come formula: dipende da quanti fatti porta ogni
+~~⚠️ Il rapporto non è costante e non va usato come formula: dipende da quanti fatti porta ogni
 documento. La fetta pilota era **densa per costruzione** — è il caso centrale dell'archivio —
-e un lotto di rumore di fondo produrrà molte meno note per documento.
+e un lotto di rumore di fondo produrrà molte meno note per documento.~~
 
 ## In cima al prossimo lotto della Linea 1: il quaderno del capoturno
 
@@ -299,7 +316,10 @@ giudizio, e senza il secondo giro sarebbe rimasta.
 
 ## Cosa resta
 
-- **127 grezzi** non ancora canonizzati, che sono l'oggetto del resto delle Sessioni 4-5.
+- **125 grezzi** non ancora canonizzati, che sono l'oggetto del resto delle Sessioni 4-5.
+  ⚠️ *Errata del 19/08/2026: questa riga diceva 127. Era un errore di trascrizione, non di
+  canonizzazione — il blocco dei conteggi qui sopra e la tabella del perimetro vault dello
+  stesso file dicevano già 125.*
 - Le **tre aree** del vocabolario chiuso ancora senza hub: risorse umane, sicurezza-ambiente,
   ricerca-sviluppo. Nasceranno con i lotti che le toccheranno; `amministrazione` è nata con
   il lotto 1B.
@@ -311,7 +331,21 @@ giudizio, e senza il secondo giro sarebbe rimasta.
   entrerà il documento che li porta.
 - La **mappatura file × fatto** (`06_operativo\matrice_corpus_v1.csv`), che si compila lotto
   per lotto e si committa a ogni chiusura di lotto — non in blocco.
-- Le **41 righe** della tabella di tracciamento, che vivono in `matrice_lotti_corpus_v1.md`
+- Le righe della **tabella di tracciamento**, che vivono in `matrice_lotti_corpus_v1.md`
   e al gate finale sono la prova che nessun conflitto è stato dimenticato. ⚠️ Due coppie del
   seme iniziale — T21/T29 e T22/T30 — sono **duplicati**: la duplicazione è dichiarata sulle
   righe, non risolta cancellandone una.
+  ⚠️ *Errata del 19/08/2026: questa riga diceva «41 righe», e le righe sono 54. Da qui in poi
+  il numero non si legge più a occhio: lo produce `06_operativo\conta_tracciamento.py`, ed è
+  l'ultimo numero del progetto che era ancora dichiarato senza script.*
+
+<!-- TABELLA DI TRACCIAMENTO - generata da `06_operativo\conta_tracciamento.py`
+     il 2026-08-19. Si incolla VERBATIM: il numero delle righe non si legge a occhio. -->
+
+| Esito | Righe | Quali |
+|---|---|---|
+| riconciliata | **3** | T17, T22, T30 |
+| aperta dichiarata | **23** | T1, T2, T3, T4, T18, T23, T24, T25, T26, T27, T28, T32, T35, T36, T37, T38, T42, T43, T44, T45, T46, T47, T48 |
+| chiusa | **2** | T20, T33 |
+| tracciata | **26** | T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T19, T21, T29, T31, T34, T39, T40, T41, T49, T50, T51, T52, T53, T54 |
+| **totale righe** | **54** | da T1 a T54, nessuna mancante e nessuna duplicata |

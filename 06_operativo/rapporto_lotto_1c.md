@@ -61,6 +61,19 @@
 | Grezzi citati da almeno una nota | **35** |
 | Grezzi restanti | **125** |
 
+⚠️ **ERRATA del 19/08/2026 — il blocco qui sopra NON si tocca, e la divergenza si dichiara.**
+`qa_all.py` dello **stesso giorno** conta **173** note (`workspace` 6, `sessione` 3), in
+`06_operativo\qa\2026-08-19_vault\` e in `06_operativo\qa\2026-08-19_1c\`; questo blocco
+ne dichiara **172** (`workspace` 5, `sessione` 2). **Causa:** il blocco è stato generato
+**prima** della nota-sessione del lotto nel journal di `workspace\`, che è essa stessa una
+nota del vault — quindi fotografa un vault che al momento del commit già non esisteva più.
+⚠️ **Le note di contenuto restano 153 in entrambi**: nessuna decisione di questo lotto è stata
+presa su un numero sbagliato, e la differenza è tutta nel diario. Il blocco resta com'era
+perché un rapporto di lotto non è un verbale di misura, ma la correzione deve restare
+leggibile (precedente: gate 1A). ⚠️ **Da qui in poi non può più succedere: è l'emendamento
+E34**, che porta la nota-sessione dentro il rituale di chiusura e fa del blocco dei conteggi
+**l'ultimo numero prodotto prima del commit** (`metodo_03` §9.5, passo 5-bis).
+
 ---
 
 ## 2. Il criterio di aggancio: come 120 righe diventano 27 note
@@ -181,7 +194,26 @@ ricalibrazione dei lotti restanti è al §9.
 
 ## 5. Gli avvisi della QA, motivati
 
-**0 ERRORI, 8 AVVISI**, in tre famiglie disgiunte che sommano al totale.
+**0 ERRORI, 14 AVVISI**, in due famiglie disgiunte che sommano al totale.
+
+⚠️ **ERRATA del 19/08/2026, due voci sulla stessa sezione.**
+
+1. **Il numero.** Questa riga diceva «**0 ERRORI, 8 AVVISI**, in **tre** famiglie»: sono
+   **14**, in **due** famiglie, ed è quello che dice la tabella qui sotto (8 + 6) e quello che
+   conta `qa_all.py` — `qa_frontmatter` 6, `qa_provenance` 8, gli altri due a zero. L'8 era il
+   totale di una sola delle due famiglie, ricomposto in prosa invece che incollato dallo
+   script: **è la stessa svista che ha generato il blocco dei conteggi**, e cade sotto la
+   stessa regola. Le motivazioni della tabella non cambiano di una parola: cambia il totale
+   che le riassume.
+2. **L'etichetta del report.** `06_operativo\qa\2026-08-19_1c\qa_all.md` porta in
+   intestazione «Perimetro: lotto (lotto `l26130`)». **Il perimetro eseguito è quello di 1C** —
+   51 note, e gli avvisi di lunghezza sono su `fatto-cariche-f-gas-impianti-frigoriferi` (346
+   parole) e `fatto-convalida-md-1800-scaduta` (320), che sono note di questo lotto. Nel run
+   finale `--lotto` non è stato passato e ha vinto il default, mentre la **cartella** è giusta
+   perché è stato passato `--report`: **la cartella fa fede.** ⚠️ **Il report NON si rigenera**,
+   perché rifarlo oggi fotograferebbe un vault diverso da quello che il gate ha approvato.
+   Il difetto dello strumento è riparato dal **FIX 4** del 19/08/2026: se `--lotto` non è
+   passato e il perimetro è `@lotti/<nome>.txt`, l'etichetta prende `<nome>`.
 
 | Famiglia | Quanti | Motivazione |
 |---|---|---|

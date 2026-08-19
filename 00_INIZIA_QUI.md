@@ -86,28 +86,30 @@ originale di lavoro** (`Desktop\sources`) vivono FUORI dal repository. `02_corpu
 
 ---
 
-## Dove siamo adesso (18/08/2026)
+## Dove siamo adesso — non è scritto qui, ed è deliberato
 
-**Fatto:** corpus v1 congelato con manifest SHA-256; **tre baseline misurate sul grezzo** —
-A (agentico, 70,6% corrette), B (RAG semplice, 44,7%) il 14/08, e **C (RAG Advanced di
-produzione, 14,5% sulle 282 e 7,6% sulle 251 rispondibili)** il 17-18/08; manuale di
-canonizzazione approvato (S1) e fetta pilota L26130 canonizzata con design validato (S2);
-pipeline RAG di produzione costruita, congelata e documentata in `05_rag_produzione/`.
+⚠️ **Questa guida NON tiene lo stato del progetto: lo indica.** Fino al 19/08/2026 c'era qui
+una sezione «Dove siamo adesso (18/08/2026)» che raccontava i grezzi restanti e il prossimo
+passo. È stata **eliminata**, non aggiornata, e la ragione vale più della sezione: **due
+fotografie dello stesso momento divergono sempre.** Questa diceva «138 grezzi restanti» e
+«prossimo passo: Sessioni 4-5» quando i restanti erano **125** e il prossimo passo era **R1**
+— e nessuno se n'era accorto, perché per accorgersene bisogna leggere due file e confrontarli.
+Si elimina la duplicazione, non si raddoppia la manutenzione (§4.28 del passaggio di consegne).
 
-⚠️ **La correttezza di C si cita SEMPRE con due numeri, 14,5% e 7,6%, mai uno solo:** le
-altre 22 corrette vengono da domande la cui risposta giusta è «il dato non c'è», e il
-sistema ci arriva perché si astiene sempre, non perché sappia distinguere.
+**Dove sta lo stato di oggi, e chi lo possiede:**
 
-**Deciso** (dettagli e motivi nel decision log): Chroma resta il metro (B), Qdrant è il
-motore (C); Notion solo come fonte in entrata; la config C è **intoccabile fino a fine
-Sessione 6**, difetti di formato compresi — fra «prima» e «dopo» cambia solo la forma
-dell'archivio, i bug dello strumento inclusi; `predizioni.md` va scritto e committato
-**prima** della misura «dopo»; il vault sotto git privato slitta a fine progetto.
+| Cosa | File |
+|---|---|
+| Lo stato della canonizzazione — lotti chiusi, note, grezzi restanti, prossimo atto | `06_operativo/stato_canonizzazione.md` |
+| Lo stato della pipeline RAG di produzione | `06_operativo/stato_rag_produzione.md` |
+| «Dove siamo» in forma breve, per chi riprende il coordinamento | `06_operativo/passaggio_di_consegne_coordinatore.md` §3 |
+| I numeri del vault, da script | il blocco di `06_operativo/qa/conta_stato.py`, incollato nei tre file qui sopra |
 
-**La cosa più utile che la baseline C ha insegnato:** il collo di bottiglia è il
-**generatore**, non il recupero — 70,2% di fonti giuste contro 14,5% di risposte giuste.
+⚠️ **I numeri del vault si leggono solo da quel blocco.** Non si stimano e non si ricompongono
+in prosa: è la regola d'oro 5, applicata anche a chi scrive documentazione.
 
-**Prossimo passo:** Sessioni 4-5, canonizzazione integrale dei 138 grezzi che restano.
+Quello che invece **non cambia** e resta qui è il resto di questa guida: la mappa delle
+cartelle, il modello operativo, le regole d'oro e il glossario. Sono struttura, non stato.
 
 ## Le 6 regole d'oro
 
