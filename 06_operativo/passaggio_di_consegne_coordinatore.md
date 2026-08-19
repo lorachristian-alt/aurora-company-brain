@@ -1,0 +1,174 @@
+# Passaggio di consegne — il ruolo di coordinatore
+
+> **Cos'è** · Il documento che permette a una NUOVA chat di coordinamento (Cowork) di
+> riprendere il progetto senza perdere nulla di ciò che è stato deciso, e soprattutto
+> senza perdere i CRITERI con cui è stato deciso.
+> **Perché esiste** · Il repository conserva le decisioni; questo file conserva la
+> giurisprudenza — il modo di giudicare che nei documenti non è scritto perché viveva
+> nella conversazione.
+> **Data** · 19/08/2026, dopo la chiusura del lotto 1B (commit `d54ffb3`).
+
+---
+
+## 1. Il modello operativo (non cambiarlo)
+
+- **La chat Cowork è il cervello**: strategia, revisione ai gate, scrittura dei prompt.
+  Non esegue mai le sessioni operative e non scrive nel vault.
+- **Il terminale (Claude Code) è le mani**: ogni sessione si apre in una cartella precisa
+  e incolla un prompt preciso. La cartella del TERMINALE è il perimetro.
+- **Antigravity / VS è la plancia**: l'IDE si apre dove serve, l'agente nativo dell'IDE
+  resta spettatore.
+- Il titolare (Christian) fa da ponte: incolla i prompt nel terminale e riporta in chat
+  ciò che il terminale risponde. Il coordinatore risponde con **quale opzione scegliere**
+  e con **il testo esatto da incollare** (di solito nel campo note, tasto `n`).
+- Ogni sessione operativa chiude con **quattro gesti**: stato, decision log, commit,
+  `git push`. Nei lotti si aggiunge lo **zip del vault** fuori dal repository.
+
+---
+
+## 2. Dove sta la verità (ordine di lettura per la nuova chat)
+
+Repository: `C:\Users\buulo\Desktop\.eval_do_not_index\Aurora_Food_Group_SRL`
+(remote privato `github.com/lorachristian-alt/aurora-company-brain`, pubblico solo in S7).
+Vault Obsidian: `C:\Users\buulo\Desktop\aurora-cervello` (fuori dal repo, NON sotto git
+per decisione del titolare: ci andrà a fine progetto, prima del corpus v2).
+
+| Ordine | File | Cosa dà |
+|---|---|---|
+| 1 | `00_INIZIA_QUI.md` | mappa, modello operativo, regole d'oro, glossario |
+| 2 | `06_operativo/scaletta_end_to_end.md` | le sessioni S0-S7, i principi, gli stop-loss |
+| 3 | `06_operativo/decision_log.md` | ogni decisione, datata, col motivo |
+| 4 | `01_metodo/metodo_03_canonizzazione.md` | il manuale supremo della canonizzazione (E1-E26 inclusi) |
+| 5 | `06_operativo/matrice_lotti_corpus_v1.md` | il piano dei 12 lotti + registro modifiche + tabella di tracciamento |
+| 6 | gli stati: canonizzazione e RAG di produzione | dove siamo, due linee di lavoro, due file |
+| 7 | `06_operativo/rapporto_gate_s2.md`, `rapporto_gate_s3.md`, `rapporto_lotto_1a.md`, `rapporto_lotto_1b*` | la storia dei gate |
+| 8 | `01_metodo/metodo_02_misurazione.md` (+ addendum) e i verbali in `04_misurazioni/` | i numeri e come sono stati fatti |
+
+**Regola**: se questo file e i documenti divergono, vincono i documenti. Questo file non
+crea regole: spiega come si sono applicate.
+
+---
+
+## 3. Dove siamo (19/08/2026)
+
+- **Corpus v1 congelato**: 160 file, manifest SHA-256 v1.1. Intoccabile.
+- **Baseline misurate sul grezzo**, stesse 282 domande:
+  A (agentico, opus-5) 70,6% · B (RAG semplice, Chroma) 44,7% · C (RAG produzione locale,
+  3B su hardware minimo) 14,5% complessivo **e 7,6% sulle 251 rispondibili** — i due
+  numeri **non si citano mai separati**.
+- **Config C congelata** (`d36d7ce`, impronta `afb58939…`): intoccabile fino a fine S6,
+  difetti di formato compresi.
+- **Canonizzazione**: pilota L26130 (22 grezzi) + lotti 1A (7) e 1B (4) = **33 grezzi su
+  160**, vault a **145 note**, 24 questioni aperte. QA a perimetro vault: frontmatter,
+  link e provenance a **zero errori**; la copertura è rossa solo per incompletezza.
+- **Prossimo**: lotto 1C (tarature + bolla azoto, 2 grezzi), poi i lotti 2-10.
+- **Poi**: S6 (misura «dopo» sul vault, con `predizioni.md` pre-registrato) e S7
+  (pubblicazione).
+
+---
+
+## 4. La giurisprudenza — i criteri con cui si giudica ai gate
+
+Sono i principi che hanno deciso i casi difficili. Riusarli è ciò che rende il progetto
+coerente.
+
+1. **Nessun numero senza script.** Vale anche per i totali dello stato e dei rapporti:
+   si incolla l'output di `conta_stato.py`, non si ricompongono somme in prosa. (Nato da
+   due sviste di conteggio a mano.)
+2. **Congelato di misura ≠ attrezzatura di cantiere.** Intoccabili senza appello: P1, P3,
+   config C — ciò che produce il confronto prima/dopo. Evolvono con versione dichiarata,
+   solo a confine di lotto e solo in avanti: metodo_03, suite QA, prompt di giudizio
+   (oggi `PROMPT_GIUDIZIO_V2`).
+3. **Le esenzioni si danno per CLASSE, mai per cartella.** Le note-strumento del progetto
+   (prefisso `script-` in `code\`) sono esenti da `fonti`, dallo strato di giudizio e
+   dalla componente unica; le note di contenuto della stessa cartella no. La classe è
+   definita una volta sola e le regole la citano.
+4. **Le note non traslocano mai.** L'area si assegna sull'area che governa i fatti OGGI,
+   non su un assetto futuro. Un hub d'area non nasce vuoto per comodità di archiviazione.
+5. **Si spezza lungo le cuciture, mai attraverso le storie.** Un lotto si divide dove non
+   si rompe una riconciliazione (E21: fatti contati prima di scrivere, oltre +25% si
+   spezza).
+6. **Il budget non comanda sul contenuto.** Un budget rispettato tagliando fatti è peggio
+   di uno sforato e dichiarato.
+7. **Una divergenza con una sola gamba canonizzata non si scrive in nessuna nota** (E25):
+   vive solo nella tabella di tracciamento. È la causa radice delle due sole fughe di
+   canone del progetto.
+8. **Un'assenza affermata è un fatto**: si verifica su tutto `sources\`, si data e si
+   riferisce al manifest (E3). Errore pagato due volte (PRP-09 nel pilota, ossigeno
+   residuo in 1A).
+9. **I fix agli strumenti devono essere monotoni o collaudati.** Un fix che AGGIUNGE
+   agganci si accetta; un fix che ALLENTA un controllo si accetta solo con perimetro
+   chiuso e un difetto piantato nuovo che dimostri che il buco non si apre.
+10. **La testimonianza non si riscrive.** Il testo di un giudice o di un rispondente resta
+    com'è; le correzioni di interpretazione vivono nel rapporto e nel decision log.
+11. **Un verbale di misura chiuso non si ritocca.** Ciò che cambia dopo va in appendice
+    datata o in errata visibile.
+12. **Chi genera, canonizza o risponde non apre mai `03_valutazione\`**; chi valuta è
+    sempre una sessione diversa da chi ha risposto. Il perimetro si garantisce con la
+    fisica (cartella del terminale), non con una clausola di prompt.
+13. **Il canone guida, non appare**: mai citato come fonte, mai copiato nel vault. Le
+    divergenze di categoria B si REGISTRANO nel canone in sezione datata — il canone si
+    accresce, non si riscrive.
+14. **Riconciliazione incrociata** (E2, poi §5.1-bis): non solo fra i grezzi del lotto,
+    ma fra il lotto e ciò che il vault già sa. È la regola più redditizia: rende di più
+    a ogni lotto che passa.
+15. **Il ciclo di ri-giudizio ha una regola d'arresto** (E26): si ferma al primo giro con
+    zero rilievi accolti, e comunque al terzo; se il terzo produce ancora rilievi, il
+    lotto si chiude solo dopo che il rapporto ha NOMINATO il pattern che li rigenera.
+16. **Ritmo**: massimo due lotti tematicamente contigui per sessione, mai tre — la
+    revisione col canone si esegue a mente fresca. Il tetto è un massimo, non una quota.
+17. **Onestà commerciale**: si vende la TRACCIABILITÀ, non la correttezza. Il determinismo
+    si garantisce sul retrieval; i costi si dichiarano, mai «zero»; i numeri di C si
+    citano sempre doppi e sempre come pavimento (hardware minimo).
+
+---
+
+## 5. Errori già pagati — non ripeterli
+
+| Errore | Lezione, ora scritta |
+|---|---|
+| `core.autocrlf` avrebbe riscritto i grezzi al checkout | `.gitattributes` con `* -text` prima del primo commit |
+| Sessione S1 committò senza pushare | il push è il quarto gesto, sempre |
+| Conteggi a mano sbagliati (46 vs 32; 105 vs 89) | `conta_stato.py`, output incollato verbatim |
+| Nucleo del pilota contato 16 invece di 17 | gli elenchi si generano da script, mai a mano |
+| Due fughe di canone, stesso movente | E25 |
+| Assenza dichiarata senza cercare ovunque | E3 |
+| Otto note nate dalle correzioni mai ri-giudicate | E9, poi E26 |
+| `powercfg` cambiato per il run e non ripristinato | annotare i valori PRIMA, dichiarare ogni comando di sistema |
+| Finestra del terminale chiusa durante un run | i runner girano staccati e riprendibili riga per riga |
+
+---
+
+## 6. Vigilanze aperte (da tenere d'occhio al prossimo gate)
+
+- **Densità crescente**: 2,1 (pilota) → 6,0 (1A) → 9,5 (1B) note di contenuto per grezzo.
+  Le stime della matrice per i lotti 2-10 sono sistematicamente basse: **ricalibrare**
+  alla chiusura di 1C.
+- **Questioni aperte in crescita** (24): al gate finale ognuna deve essere «aperta
+  dichiarata» con la sua ragione, non semplicemente rimasta aperta.
+- **Terzo compito di PROMPT_GIUDIZIO_V2**: 17 accolte su 26 al primo impiego; il rumore ha
+  una forma sola (il giudice non conosce il grafo). Al gate finale si decide se resta, si
+  tara o si toglie.
+- **Tabella di tracciamento** delle questioni trasversali: è la prova, al gate finale, che
+  nessuna gamba mancante è stata dimenticata.
+- **Da fissare prima di S6** (già deciso, verificare che sia applicato): `predizioni.md`
+  committato PRIMA della misura; `fonti_corrette` conta il grezzo (la nota è navigazione);
+  tasso di allucinazione = `allucinata + sbagliata` su `non_rispondibile`.
+- **Post-ciclo, candidato non impegno**: misurare la config di riferimento 8B su hardware
+  adeguato, DOPO S6 (mai insieme alla canonizzazione: una variabile alla volta).
+
+---
+
+## 7. Come si lavora in chat (formato delle risposte)
+
+Il terminale pone domande a pannelli. Il coordinatore risponde con:
+
+1. **quale opzione**, in una parola;
+2. **perché**, in poche righe, citando la regola o il precedente;
+3. **il testo esatto da incollare** nel campo note, in un blocco di codice, con dentro le
+   condizioni operative (adempimenti, registri da aggiornare, guardie).
+
+Prima di approvare un gate, il coordinatore **legge il documento vero** (staging dal
+device e lettura integrale), non il riassunto: due errori sono stati trovati così.
+Al termine di ogni sessione operativa il coordinatore **verifica il push** da sé
+(`git log --oneline -N` e `git status -sb` sul device).
