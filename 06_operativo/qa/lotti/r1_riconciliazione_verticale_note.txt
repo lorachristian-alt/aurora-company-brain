@@ -1,0 +1,84 @@
+# Perimetro del lotto R1, GENERATO da 06_operativo\candidate_r1.py il 2026-08-19.
+# Criterio: la nota nomina un punto critico, una taratura, una frequenza di
+# verifica, un limite o una responsabilita' di processo, e fra le sue fonti
+# non c'e' nessuna fonte prescrittiva (elenco di E29). Non si edita a mano:
+# si rilancia lo script. Le note che il lotto TOCCA in piu' si aggiungono
+# mentre le si tocca (E32), sotto la riga di separazione.
+area-amministrazione
+area-direzione
+area-logistica
+area-manutenzione
+area-produzione
+fatto-accettazione-con-riserva-gas-06-05
+fatto-allarme-acustico-md-3200-basso
+fatto-blackout-21-04-riavvio-centraline
+fatto-datalogger-dl-001-in-taratura
+fatto-decisione-proseguire-valvola-08-05
+fatto-energia-reattiva-oltre-soglia
+fatto-fermo-forno-ft-01-05-05
+fatto-fermo-pkm-450-l26130
+fatto-giro-di-vite-seconde-firme-ccp3
+fatto-integrita-log-allarmi-cf-02
+fatto-microperdite-saldatura-l26130
+fatto-nc-102-origine-interna
+fatto-nessuna-nc-per-allarmi-cf-02
+fatto-operatore-senza-formazione-haccp-l26130
+fatto-operatori-ccp3-linea1-maggio
+fatto-porta-cella-cf-02-aperta-38-minuti
+fatto-potenza-impegnata-quasi-satura
+fatto-prodotto-non-segregato-deviazione-ccp2
+fatto-quaderno-capoturno-linea1
+fatto-riepilogo-datalogger-inaffidabile
+fatto-risalita-termica-post-riavvio-l26130
+fatto-riunione-direzione-reclamo-l26130
+fatto-sonda-prodotto-cf-02-in-avaria
+fatto-sonde-pt-104-in-taratura
+fatto-strumenti-cf-02-e-ccp4
+fatto-tassello-aisi-clip-rotta
+fatto-valvola-modulante-pt-104-revisione-rimandata
+questione-durata-deviazione-ccp2-l26130
+questione-limite-allarme-porta-cf-02
+questione-sbrinamenti-fascia-notturna-cf-02
+questione-sigla-kit-tasselli-ccp3
+questione-taratura-termoregistratore-cf-02
+questione-tassello-inox-non-passato
+questione-tmc-farina-mv26-0429a
+questione-verifiche-ccp3-10-05-tre-versioni
+concetto-ccp
+concetto-fefo
+kpi-fattura-energia-maggio-2026
+kpi-incremento-energia-maggio-su-aprile
+kpi-mass-balance-l26130
+kpi-metano-forni-maggio-2026
+kpi-parco-strumenti-taratura-2026
+kpi-quadratura-consumi-energetici-maggio
+kpi-sbrinamenti-cf-02-aprile
+kpi-seconde-firme-ccp3-maggio
+kpi-shelf-life-af-sn-0450
+questione-costo-energia-elettrica
+questione-scarti-riavvio-l26130
+doc-mod-qa-07
+doc-scheda-tecnica-af-sn-0450
+entita-calservice-italia
+entita-ionut-popescu
+entita-ivano-dal-maso
+entita-metrolab-taratura
+entita-veneta-energia
+lotto-mv26-0429a
+macchina-cf-01
+macchina-cf-02
+macchina-linea-1
+macchina-pkm-450
+macchina-ts-01
+prodotto-af-sn-0450
+fatto-blocco-cautelativo-lotti
+fatto-misura-frammento-rec-2026-011
+fatto-richiesta-relazione-48-ore
+questione-data-apertura-rec-2026-011
+# --- da qui in giu': note toccate in corso di lotto (E32) ---
+doc-gestione-deviazioni-haccp
+_index-docs
+questione-periodicita-taratura-canali-datalogger-ccp2
+area-qualita
+sessione-r1-riconciliazione-verticale
+_index-workspace

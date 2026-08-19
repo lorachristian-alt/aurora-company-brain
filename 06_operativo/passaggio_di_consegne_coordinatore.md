@@ -71,14 +71,14 @@ crea regole: spiega come si sono applicate.
 
 | Grandezza | Valore |
 |---|---|
-| Note nel vault | **173** |
+| Note nel vault | **176** |
 | di cui `_index` | 11 |
 | di cui note-strumento del progetto | 6 |
-| di cui note di diario (`sessione`, `daily`) | 3 |
-| **di cui note di contenuto** | **153** |
-| Note per cartella | areas 93 · entities 22 · data 22 · projects 8 · docs 7 · code 7 · workspace 6 · concepts 5 · self 1 · outputs 1 · sources 1 |
-| Note per `type` | atomica 93 · conflitto 32 · entita 18 · hub 12 · index 11 · concetto 4 · sessione 3 |
-| Questioni aperte (`type: conflitto`) | 32 |
+| di cui note di diario (`sessione`, `daily`) | 4 |
+| **di cui note di contenuto** | **155** |
+| Note per cartella | areas 94 · entities 22 · data 22 · projects 8 · docs 8 · code 7 · workspace 7 · concepts 5 · self 1 · outputs 1 · sources 1 |
+| Note per `type` | atomica 94 · conflitto 33 · entita 18 · hub 12 · index 11 · concetto 4 · sessione 4 |
+| Questioni aperte (`type: conflitto`) | 33 |
 | Grezzi in `sources\` | 160 |
 | Grezzi citati da almeno una nota | **35** |
 | Grezzi restanti | **125** |
@@ -93,15 +93,18 @@ crea regole: spiega come si sono applicate.
 - **Metodo a 35 emendamenti** (`verifica_emendamenti.py`): E34 — la nota-sessione entra nel
   rituale di chiusura e il blocco dei conteggi si genera dopo di essa — ed E35 — esiste il
   **lotto di manutenzione** — sono entrati il 19/08/2026, per ordine diretto del coordinatore.
-- **PROSSIMO: l'apertura del lotto R1, la riconciliazione verticale.** ⚠️ Non «una decisione»,
-  che era vero prima del gate 1C e non lo è più: **la decisione è presa, e il gate l'ha
-  presa.** Nel vault ci sono 30 note che nominano un CCP senza citare il manuale HACCP che lo
-  prescrive, e in 1C quattro su undici **dichiaravano mancante ciò che il manuale contiene**:
-  non sono incomplete, affermano il falso, e la misura «dopo» girerebbe su quelle. R1 è il
-  primo **lotto di manutenzione** (E35): perimetro di sole note generato da script, tre numeri
-  nel rapporto — note guardate, note corrette, tasso di difetto — e il rapporto va al
-  coordinatore **prima** che il titolare approvi, perché quel tasso decide se il ripasso va
-  rifatto a fine corsa.
+- **PROSSIMO: FINIRE il lotto R1.** ⚠️ R1 è stato **aperto ed eseguito a metà** il 19/08/2026:
+  perimetro generato da script (**71 note**, zero grezzi), primo giro di correzioni chiuso
+  (**41 note corrette**, tasso di difetto **57,7 %**), QA di lotto verde a 0 errori, pacchetto
+  per il giudizio già generato dopo le correzioni. **Mancano** lo strato di giudizio, la
+  revisione col canone e il ri-giudizio, che `metodo_03` §9.5 affida a una **sessione diversa da
+  quella che ha scritto le note** — e la sessione che le ha scritte è quella che ha chiuso il
+  primo giro. `# CHIUSO` **non è in testa all'elenco del lotto**, ed è voluto.
+  ⚠️ **Il rapporto `06_operativo/rapporto_lotto_r1.md` porta una domanda per il coordinatore, e
+  va letto prima dell'approvazione del titolare**: 57,7 % di difetto basta a dire che il ripasso
+  va rifatto a fine corsa, o E29 in vigore basta a impedire che si riformi? Il rapporto argomenta
+  che il ripasso **è già dovuto comunque**, perché R1 ha potuto usare 8 fonti prescrittive su 36
+  e le altre 28 riapriranno note già scritte, lotto per lotto (righe T55-T63 della matrice).
 - **Poi**: il tema 2, il resto della matrice, quindi S6 (misura «dopo» sul vault, con
   `predizioni.md` pre-registrato) e S7 (pubblicazione).
 
@@ -299,6 +302,10 @@ coerente.
 - **Questioni aperte in crescita** (**32**, dal blocco dei conteggi — la riga diceva 24): al
   gate finale ognuna deve essere «aperta dichiarata» con la sua ragione, non semplicemente
   rimasta aperta. Il numero si legge dal blocco, non si aggiorna a mente.
+- **Il tasso di difetto della riconciliazione verticale** (57,7 % su 71 note, lotto R1): è il
+  numero che decide se il ripasso vada rifatto a fine corsa o se E29 in vigore basti. ⚠️ Il
+  difetto è **storico** — tutte le 71 note sono state scritte prima che E29 esistesse — ma le 28
+  fonti prescrittive non ancora citabili lo riapriranno lotto per lotto. Da decidere al gate di R1.
 - **Terzo compito di PROMPT_GIUDIZIO_V2**: 17 accolte su 26 al primo impiego; il rumore ha
   una forma sola (il giudice non conosce il grafo). Al gate finale si decide se resta, si
   tara o si toglie.

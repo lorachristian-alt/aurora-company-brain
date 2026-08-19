@@ -916,3 +916,71 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   **nessuna riga sparisce**. E il conteggio delle righe passa a `06_operativo\conta_tracciamento.py`:
   era **l'ultimo numero del progetto dichiarato senza script**, ed era già uscito sbagliato (lo
   stato ne dichiarava 41; sono **54**, da T1 a T54, nessuna mancante e nessuna duplicata).
+- **2026-08-19** · lotto R1, apertura e primo giro · **Il criterio del perimetro è stato
+  RAFFORZATO rispetto a come era stato dettato, e non in silenzio** · l'ordine diceva «la nota
+  nomina un punto critico, una taratura, una frequenza, un limite o una responsabilità di
+  processo, e fra le sue fonti non c'è **nessuna** fonte prescrittiva». Applicato alla lettera
+  lasciava **fuori dal perimetro 26 note che nominano un punto critico senza citare il manuale
+  HACCP**, perché ne citavano un'altra — l'elenco attrezzature, la checklist del metal detector,
+  il piano di manutenzione. ⚠️ Ma **il limite critico di un CCP lo prescrive il manuale, non il
+  registro degli strumenti**: lasciarle fuori avrebbe fatto mancare a R1 esattamente le note che
+  lo hanno generato. Il criterio in vigore è: **una nota deve avere sotto mano la fonte che
+  prescrive CIÒ DI CUI PARLA, non una fonte prescrittiva qualsiasi.** È il **candidato E36** del
+  rapporto: qui resta come scelta di esecuzione motivata, non come regola approvata.
+- **2026-08-19** · lotto R1, apertura e primo giro · **I tre numeri di E35: 71 note guardate, 41
+  corrette, 57,7 % di tasso di difetto** · e sette delle 41 non erano incomplete ma
+  **affermavano il falso**, contro quattro su undici nel campione di 1C. La più grave:
+  `questione-durata-deviazione-ccp2-l26130` legava il perimetro del prodotto da segregare alla
+  **durata** della deviazione, mentre il manuale lo lega a **tutto il prodotto transitato
+  dall'ultimo controllo conforme** — una grandezza diversa e più larga. Le altre sei sono
+  elencate al §4 del rapporto.
+- **2026-08-19** · lotto R1, apertura e primo giro · **Il numero di partenza era 30, lo script
+  ne ha dati 71, e vince lo script** · la differenza è tutta spiegabile: la famiglia «punto
+  critico» dello script è più larga di «nomina un CCP» (comprende `limite critico`, `HACCP`,
+  `prerequisito`, `PRP`) e porta il conto a 40; le altre quattro famiglie — taratura, frequenza,
+  limite, responsabilità di processo — al gate di 1C **non erano state contate affatto**, perché
+  si guardava il solo manuale HACCP.
+- **2026-08-19** · lotto R1 · **Trenta note del perimetro sono state guardate e chiuse SENZA
+  correzione, e le due ragioni sono diverse** · undici perché **nessuna fonte prescrittiva
+  citabile le governa** — energia, costi, utenze: il corpus non contiene il contratto di
+  fornitura elettrica, e una soglia contrattuale non è una prescrizione di processo. Diciannove
+  perché **la prescrizione ha già un padrone che la porta** e la nota lo linka: ricopiarla
+  violerebbe «un fatto, un padrone». ⚠️ È anche il motivo per cui il tasso non è più alto: il
+  vault aveva già `doc-ccp2-limite-critico`, `doc-ccp4-limite-critico` e `doc-manuale-haccp`,
+  nate in 1B e 1C, quindi la verticale era **in parte già fatta**.
+- **2026-08-19** · lotto R1 · **Le fonti prescrittive del corpus sono 36, di cui solo 8
+  citabili** · l'elenco vive in `06_operativo\fonti_prescrittive_corpus_v1.md`, fuori dal vault
+  perché è metodo e non contenuto, ed è generato da `elenco_fonti_prescrittive.py`: la curatela —
+  quali grezzi prescrivono e che cosa — sta nel sorgente; **lotto di appartenenza e «già
+  canonizzato» li produce lo script**, incrociando gli elenchi dei lotti e i `fonti` di tutte le
+  note. Le 28 non citabili hanno una riga di tracciamento ciascuna per lotto, da T55 a T63, con
+  l'obbligo esplicito per chi le porterà: **citarle le farebbe risultare «già coperte» e
+  manderebbe in rosso la disgiunzione della matrice** (precedente identico: T18).
+- **2026-08-19** · lotto R1 · **Il criterio con cui un grezzo è dichiarato fonte prescrittiva** ·
+  prescrive chi dice **come una cosa DEVE essere** — limite, frequenza, metodo, responsabilità,
+  specifica, obbligo, tariffa in vigore — invece di **registrare ciò che è successo**. ⚠️ Un
+  **certificato non è una fonte prescrittiva**: attesta uno stato, non lo prescrive, e il
+  requisito che dimostra vive in una norma che questo corpus non contiene. Un **listino superato**
+  non è in vigore: è la fotografia di una prescrizione passata. I documenti che fanno tutte e due
+  le cose — un piano di manutenzione detta la periodicità e annota le esecuzioni — sono marcati
+  `misto` e valgono come prescrittivi.
+- **2026-08-19** · lotto R1 · **Il lotto NON è stato chiuso, ed è una scelta di metodo, non una
+  resa** · `metodo_03` §9.5 vuole la revisione col canone in **una sessione diversa da quella che
+  ha scritto le note** e lo strato di giudizio su **un subagente a contesto pulito**. La sessione
+  che ha scritto le 41 correzioni non può essere anche quella che le giudica: un giudizio
+  auto-somministrato vale quanto un canonizzatore che si riscrive il manuale. ⚠️ Perciò
+  **`# CHIUSO` NON è stato messo in testa all'elenco del lotto**, il pacchetto per il giudizio è
+  già generato dopo le correzioni (E33), e lo stato registra esattamente che cosa manca — come
+  §5 del prompt dei lotti impone quando un lotto non si chiude nella sessione che lo apre.
+- **2026-08-19** · lotto R1 · **Quattro avvisi della QA sono preesistenti e NON sono stati
+  corretti** · un summary di 258 caratteri, due note lontane dall'`_index` della propria
+  cartella, una fonte poco agganciata. Cadono nel perimetro di R1 ma **non appartengono a R1**:
+  la regola di perimetro dice che quello che si trova e non è del lotto va nel rapporto o in
+  tabella di tracciamento, non nelle correzioni. Si dichiarano al §5 del rapporto.
+- **2026-08-19** · lotto R1 · **Il tetto delle 350 parole entra in tensione con E29** ·
+  ventiquattro note su 41 corrette sono finite nella fascia di avviso 301-350 **solo per aver
+  aggiunto la prescrizione che le governa**, e in nessun caso sono state spezzate: spezzarle
+  separerebbe l'affermazione dalla prescrizione, cioè ricreerebbe il difetto che il lotto ripara.
+  ⚠️ È un candidato emendamento per il gate — escludere dal conteggio la riga che cita una fonte
+  prescrittiva, oppure alzare il tetto per le note che ne portano una — **non una deroga presa
+  qui**: il tetto è stato rispettato in tutte e 41.
