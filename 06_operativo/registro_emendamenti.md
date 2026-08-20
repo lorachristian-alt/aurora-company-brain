@@ -1,6 +1,6 @@
 # Registro degli emendamenti a `metodo_03`
 
-> **Cos'è** · L'indice genealogico dei 40 emendamenti al manuale di canonizzazione: chi li
+> **Cos'è** · L'indice genealogico dei 44 emendamenti al manuale di canonizzazione: chi li
 > ha approvati, quando, e dove vive oggi la regola. **È un indice, non una copia.**
 > **Cosa NON contiene** · Il testo delle regole. Quello vive in
 > `01_metodo\metodo_03_canonizzazione.md`, che ne resta l'unico padrone: qui c'è l'oggetto
@@ -26,7 +26,7 @@
 Sezioni e presenza dei marcatori sono verificate contro `metodo_03` da
 `06_operativo\verifica_emendamenti.py`, non a occhio.
 
-## I 40 emendamenti
+## I 44 emendamenti
 
 | # | Data | Dove nasce | Tipo | Oggetto, in una riga | Vive in | Marc. | Il perché |
 |---|---|---|---|---|---|---|---|
@@ -70,6 +70,10 @@ Sezioni e presenza dei marcatori sono verificate contro `metodo_03` da
 | **E38** | 19/08/2026 | gate intermedio del lotto R1 | chiarimento | i **lotti di manutenzione non entrano nella serie della capacità** quando a dieci lotti chiusi si rivedrà la fascia 25-35 di E31 | §9.4 | sì | decision log 19/08 — mettere insieme due grandezze che misurano cose diverse è ciò che ha prodotto le 903 note del calcolo lineare |
 | **E39** | 19/08/2026 | gate del lotto R1 | regola nuova | **LA CAUTELA SI PROPAGA**: apposta una qualificazione a un'affermazione, la stessa qualificazione va portata su **tutte le altre occorrenze di quell'affermazione** dentro la nota. Estende E30, che resta com'è | §9.5, passo 2-bis | sì | `rapporto_lotto_r1.md` §9 · decision log 19/08 — il pattern con cui R1 si è chiuso al terzo giro (E26) **dopo che due giri di revisione mirata lo avevano mancato**: un difetto che sopravvive a due revisioni non è una disattenzione, è un punto cieco del metodo. ⚠️ **Il caso che la genera**: tre giudici indipendenti, a contesto pulito, su fette diverse, hanno descritto la stessa classe con tre parole diverse. ⚠️ **La forma conta più della regola** — il gesto parte dall'AFFERMAZIONE, non dalla superficie, e non è «rileggere di più»; l'elenco delle superfici resta **aperto**, perché chiuderlo ricreerebbe il difetto di E30 |
 | **E40** | 19/08/2026 | gate del lotto R1 | regola nuova | **LA PRESCRIZIONE SI LINKA, NON SI RICOPIA**: si linka la nota padrona della prescrizione, e se non esiste la si crea; il testo prescrittivo non si ricopia dentro la nota | §5.1-bis | sì | `rapporto_lotto_r1.md` §11 · decision log 19/08 — è **il rovescio di E29/E36** e la scoperta più preziosa di R1: agganciando le note alla prescrizione il lotto ha prodotto **17 doppie padrone**, e due prescrizioni erano ricopiate **senza avere alcun padrone**. Per un tratto il vault ha avuto più copie della stessa prescrizione di prima. ⚠️ **Senza E40, E37 è una macchina che produce duplicati**: chi riapre le note che una fonte governa ricopia per gesto naturale. Le due prescrizioni più duplicate — seconda firma e CCP4 — reggono le conclusioni più forti del vault: **se una copia diverge, diverge un'accusa** |
+| **E41** | 20/08/2026 | gate del lotto 2A | regola nuova | **OGNI LOTTO DICHIARA I DUE TASSI**, da `misura_due_tassi.py`, tenuti separati: riapertura (il **debito** ereditato) e difetto di produzione (il **metodo**) | §9.5, passo 5-ter | sì | `rapporto_lotto_02a.md` §7 · decision log 20/08 — **una misura sola è un aneddoto: quello che conta è la serie**, ed è la serie che a fine corsa dirà quanto il metodo produce il difetto invece di ereditarlo, con un denominatore vero. Il primo punto è **3,3 % contro il 57,7 %** di R1, stesso criterio, entrambi da script. ⚠️ **Il caso residuo si dichiara col suo nome e non si aggiusta**: aggiungere una fonte per portare il tasso a zero truccherebbe il numero che la misura esiste per produrre. ⚠️ Ne discende una scelta di pianificazione: la rete finale **non è un secondo passaggio sul vault**, è la chiusura delle righe di tracciamento di E37 |
+| **E42** | 20/08/2026 | gate del lotto 2A | chiarimento | **corregge il QUANDO di E39**: la propagazione della cautela si fa **nello stesso turno della qualificazione**, non a fine giro | §9.5, passo 2-bis | sì | `rapporto_lotto_02a.md` §6 · decision log 20/08 — E39 diceva *che cosa* fare e non *quando*, e «quando» non è ovvio: **chi corregge su rilievo sta pensando al rilievo, non alla nota intera**. Il caso: in 2A una cautela apposta al corpo per chiudere un rilievo del giudice **non è arrivata al summary nel giro stesso in cui veniva scritta**. È la conferma meccanica di E30 — l'intestazione si corregge per ultima — e rende la ricerca delle altre occorrenze **parte del gesto di qualificare**. E39 resta col suo numero (§4.26) |
+| **E43** | 20/08/2026 | gate del lotto 2A | regola nuova | **CHI DICHIARA UN'ASSENZA LASCIA L'ARTEFATTO DELLA RICERCA** in `06_operativo\ricerche_assenza\`, la nota vi rimanda, e la QA verifica che l'artefatto esista | §10, divieto 12-bis · §7.3 | sì | `rapporto_lotto_02a.md` §5.4 · decision log 20/08 — ⚠️ **E3 è stato pagato QUATTRO volte in cinque lotti**: `PRP-09` nel pilota, l'ossigeno residuo in 1A, **due note in 2A** dove la formula di attestazione era scritta senza che la ricerca fosse stata fatta. È §4.20 al rovescio: **quando una regola viene violata sempre, il difetto non è nella diligenza di chi la applica ma nel fatto che nessuno può verificarla**. ⚠️ Nessuno script può verificare il *contenuto* di un'assenza; la **procedura** sì, e tanto basta a chiudere il difetto |
+| **E44** | 20/08/2026 | gate del lotto 2A | regola nuova | **generalizza E34 a TUTTE le misure di chiusura** — QA di lotto, QA a perimetro vault, collaudo, `verifica_matrice_lotti`, `conta_tracciamento` — che si eseguono **dopo l'ultima scrittura**, e ogni numero dichiarato **porta l'ora della propria misura** | §9.5, passo 5-bis | sì | `rapporto_lotto_02a.md` §9 · decision log 20/08 — in 2A il report della QA a perimetro vault portava le **19:34** con 214 note e 126 errori, mentre il lotto si è chiuso alle **22:01** con 217 note e 125 errori. **Nessuno dei due è sbagliato: sono due istanti**, ma solo uno è quello che il rapporto ha il diritto di dichiarare. Stessa classe del 172/173 che E34 ha chiuso su `conta_stato`, e lo stesso giorno riapparsa fra due misure della QA di lotto (40 avvisi contro 41): **seconda osservazione, quindi si scrive** |
 
 ## Le anomalie di genealogia, dette per nome
 
@@ -85,7 +89,9 @@ Sezioni e presenza dei marcatori sono verificate contro `metodo_03` da
    INTERMEDIO**, specie nuova per questo registro: un gate che non approva un lotto ma lo
    **autorizza a finire**, perché il ciclo di giudizio non era ancora girato. La colonna «dove
    nasce» lo dice, perché fra un anno «gate del lotto R1» e «gate intermedio del lotto R1» non
-   sembrino la stessa occasione. ⚠️ **Dal 19/08/2026 la distinzione non è più teorica: E39 ed
+   sembrino la stessa occasione. ⚠️ **E41-E44 nascono al gate del lotto 2A**, un gate di
+   merito come quello di R1, e sono la prima volta che quattro emendamenti escono da un solo
+   gate. ⚠️ **Dal 19/08/2026 la distinzione non è più teorica: E39 ed
    E40 nascono al GATE del lotto R1**, quello che ne ha approvato il merito, e stanno nella
    stessa giornata di E36-E38 che nascevano al gate intermedio dello stesso lotto. Due
    occasioni diverse, stesso lotto, stesso giorno: è precisamente il caso che questa nota era

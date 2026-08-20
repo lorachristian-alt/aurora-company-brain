@@ -2159,6 +2159,16 @@ note → suite QA → revisore indipendente → correzioni propagate → suite Q
      ricreerebbe il difetto di E30** — che era chiuso su due superfici, ed è per questo che
      il pattern gli è passato accanto. Una riga di tabella e una glossa di tre parole sono
      affermazioni di fatto quanto il corpo.
+
+     ⚠️ **E42 — LA PROPAGAZIONE SI FA NELLO STESSO TURNO DELLA QUALIFICAZIONE**, non a fine
+     giro. E39 dice *che cosa* fare; non diceva *quando*, e «quando» non è ovvio: **chi
+     corregge su rilievo sta pensando al rilievo, non alla nota intera.** Il caso che lo
+     mostra è del lotto 2A: una cautela apposta al corpo per chiudere un rilievo del giudice
+     **non è arrivata al summary nel giro stesso in cui veniva scritta**, e quel summary
+     continuava ad affermare ciò che il corpo aveva appena smesso di affermare. È la conferma
+     meccanica di E30 — l'intestazione si scrive per prima e si corregge per ultima — e la
+     ragione per cui la ricerca delle altre occorrenze è **parte del gesto di qualificare**,
+     non un controllo successivo. È un chiarimento a E39, che resta col suo numero (§4.26).
 3. **Revisore indipendente, con il canone alla mano.** È una sessione diversa da quella
    che ha scritto le note. Classifica ogni rilievo:
 
@@ -2211,6 +2221,21 @@ note → suite QA → revisore indipendente → correzioni propagate → suite Q
    è stata presa su un numero sbagliato; ma **uno strumento nato per finire le sviste di
    conteggio, generato nel punto sbagliato del rituale, è peggio di nessuno strumento**, perché
    dà l'autorità dello script a un numero vecchio.
+
+   ⚠️ **E44 — LA REGOLA VALE PER TUTTE LE MISURE DI CHIUSURA, NON SOLO PER I CONTEGGI**, e ogni
+   numero che il rapporto dichiara **porta l'ora della propria misura**. Si eseguono **dopo
+   l'ultima scrittura**: QA di lotto, QA a perimetro vault, `collaudo_suite.py`,
+   `verifica_matrice_lotti.py`, `conta_tracciamento.py`, `misura_due_tassi.py`.
+
+   ⚠️ **Il caso che la generalizza è del lotto 2A, ed è la seconda osservazione della stessa
+   classe.** Il report della QA a perimetro vault portava le **19:34** e dichiarava 214 note e
+   126 errori; il lotto si è chiuso alle **22:01**, con 217 note e 125 errori di copertura.
+   **Nessuno dei due numeri è sbagliato — sono due istanti** — ma solo uno è quello che il
+   rapporto ha il diritto di dichiarare, e un'affermazione come «nessuna regressione sul vault»
+   si fa **sulla misura finale**. È la stessa classe del 172/173 che E34 ha chiuso su
+   `conta_stato.py`, e lo stesso giorno si è ripresentata anche fra due misure indipendenti
+   della QA di lotto — 40 avvisi contro 41 — dove la divergenza non era un errore di nessuno
+   dei due: era **l'istante**. Due osservazioni bastano a scrivere la regola.
 5-ter. **RICONCILIAZIONE VERTICALE DELLE NOTE GIÀ SCRITTE, quando il lotto porta una fonte
    prescrittiva** (E37). All'apertura di ogni lotto che introduce nel vault uno o più documenti
    che **prescrivono**, lo script che genera i perimetri di manutenzione si rilancia
@@ -2233,8 +2258,30 @@ note → suite QA → revisore indipendente → correzioni propagate → suite Q
      soglia si mette sulla grandezza che il rischio consuma, e qui il rischio è che la
      riparazione si mangi la canonizzazione senza che nessuno se ne accorga.
 
-   La rete finale resta: **un secondo lotto di manutenzione a fine corsa**, dimensionato su
-   quello che le righe di tracciamento avranno lasciato aperto — non sull'intero vault.
+   ⚠️ **E41 — OGNI LOTTO DICHIARA I DUE TASSI, E NON LI MESCOLA.** Il rapporto li produce con
+   `06_operativo\misura_due_tassi.py` e li tiene in due blocchi separati, perché misurano due
+   grandezze diverse:
+
+   | Tasso | Che cosa misura | Denominatore |
+   |---|---|---|
+   | **di riapertura** | il **DEBITO** ereditato: quante note già scritte la riconciliazione arretrata ha riaperto, e quante ne sono state corrette | le note riaperte |
+   | **di difetto di produzione** | il **METODO**: quante fra le note **nate** nel lotto parlano del dominio prescrittivo senza avere fra le proprie fonti la fonte che lo governa | le note nate, escluse le note-strumento (E20) |
+
+   ⚠️ **Una misura sola è un aneddoto: quello che conta è la SERIE.** È la serie che a fine
+   corsa permetterà di dire quanto il metodo *produce* il difetto invece di *ereditarlo*, con
+   un denominatore vero invece che con un caso. Costa il rilancio di uno script che esiste già.
+
+   ⚠️ **Il caso residuo si dichiara col suo nome e NON si aggiusta.** Aggiungere una fonte a una
+   nota per portare il tasso a zero significa **truccare il numero che la misura esiste per
+   produrre**: il primo punto della serie — 3,3 % nel lotto 2A contro il 57,7 % di R1 — vale
+   perché l'unico caso è stato scritto col suo nome invece di essere fatto sparire.
+
+   La rete finale resta: **un secondo lotto di manutenzione a fine corsa**. ⚠️ **Ma non è un
+   secondo passaggio sul vault, ed è il primo punto della serie a deciderlo**: è la chiusura
+   delle righe di tracciamento che E37 lascia aperte, e si dimensiona **su quelle**. Con un
+   tasso di produzione dell'ordine del 3 %, un ripasso generale guarderebbe centinaia di note
+   per trovare l'errore in una su trenta — ed è il calcolo lineare del lotto 1C in un'altra
+   forma.
 
 6. **Stato su disco** (`06_operativo\stato_canonizzazione.md`): lotto chiuso, note
    prodotte, esito QA, avvisi motivati, cosa resta.
@@ -2333,6 +2380,28 @@ significherebbe misurare un archivio che contiene già tutte le risposte.
     ⚠️ Il pilota della Sessione 2 ha scritto che nessun grezzo conteneva la regola di
     composizione del codice di lotto: il manuale HACCP la dichiara in due punti, ed era
     dentro la fetta.
+
+    ⚠️ **E43 — CHI DICHIARA UN'ASSENZA LASCIA L'ARTEFATTO DELLA RICERCA.** La ricerca su tutto
+    `sources\` produce un **output datato**, con i termini cercati, il perimetro e l'esito, e
+    quell'output si salva in **`06_operativo\ricerche_assenza\`**. La nota che dichiara
+    l'assenza vi **rimanda**, e `qa_frontmatter.py` verifica che ogni nota che porta la formula
+    di E3 rimandi a un artefatto **che esiste davvero**.
+
+    ⚠️ **Perché diventa un controllo e non l'ennesimo richiamo, ed è un ragionamento che vale
+    oltre questo caso.** E3 è stato **pagato quattro volte in cinque lotti**: `PRP-09` nel
+    pilota, l'ossigeno residuo in 1A, e **due note nel lotto 2A** dove la formula di
+    attestazione era stata scritta *senza* che la ricerca fosse stata fatta. È §4.20 applicata
+    al rovescio — «quando una soglia scatta sempre, il difetto è nella grandezza che misura» —:
+    **quando una regola viene violata sempre, il difetto non è nella diligenza di chi la
+    applica, è nel fatto che nessuno può verificarla.** Una regola pagata quattro volte non ha
+    bisogno di essere ripetuta: ha bisogno di un controllo.
+
+    ⚠️ **Che cosa il controllo può e non può fare, detto con precisione.** Nessuno script può
+    verificare il *contenuto* di un'assenza — non esiste modo automatico di stabilire che
+    «nessun grezzo dice X» sia vero. Ma la **procedura** sì: che la ricerca sia stata eseguita,
+    con quali termini e su quale perimetro, è un fatto che lascia un file. **Un'attestazione
+    non verificabile diventa così verificabile nella sua procedura**, che è il massimo
+    ottenibile e basta a chiudere il difetto che è costato quattro volte.
 
 **Sulle date e sui metadati**
 13. **Mai la data di oggi come `data_fatto`.** Se non si sa quando, il campo si omette.

@@ -1200,3 +1200,64 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   errore di nessuno dei due: aveva fotografato l'istante prima di una correzione. **Due misure
   vere dello stesso oggetto in due istanti diversi**, ed e' la ragione per cui un numero si cita
   con l'ora della sua misura.
+- **2026-08-20** · **GATE DEL LOTTO 2A: APPROVATO**, e l'esperimento del metodo ha dato il suo
+  verdetto · tasso di difetto di **produzione 3,3 %** (1 su 30) contro il **57,7 %** di R1,
+  stesso criterio di conteggio ed entrambi da script. ⚠️ **L'ipotesi del debito storico regge:**
+  quel 57,7 % non era il tasso con cui il metodo sbaglia oggi, era il residuo di note scritte
+  quando il metodo era piu' povero. ⚠️ **La conseguenza e' di pianificazione, e si scrive ORA
+  perche' governa la fine della corsa: la rete finale NON e' un secondo passaggio sul vault.**
+  Con un difetto su trenta, un ripasso generale guarderebbe centinaia di note per trovarne uno —
+  sarebbe il calcolo lineare di 1C in un'altra forma. La rete finale e' la **chiusura delle
+  righe di tracciamento** che E37 lascia aperte, e si dimensiona su quelle.
+- **2026-08-20** · gate 2A · **QUATTRO EMENDAMENTI DA UN SOLO GATE — E41, E42, E43, E44** · e' il
+  massimo finora, e non e' un segno di fertilita': **tre dei quattro nascono da un errore
+  commesso in 2A, non da un'idea.** **E41** ogni lotto dichiara i due tassi — riapertura
+  (debito) e difetto di produzione (metodo) — perche' una misura sola e' un aneddoto e quello che
+  conta e' la serie. **E42** la propagazione della cautela si fa **nello stesso turno della
+  qualificazione**: chi corregge su rilievo sta pensando al rilievo, non alla nota intera.
+  **E43** chi dichiara un'assenza lascia l'artefatto della ricerca. **E44** le misure di chiusura
+  si prendono **dopo l'ultima scrittura**, e ogni numero porta l'ora della propria misura.
+- **2026-08-20** · gate 2A · **E43 E' STATO INTRODOTTO «IN AVANTI», ED E' UNA MIA SCELTA DI
+  PROGETTAZIONE CHE VA DICHIARATA** · il controllo nuovo trovava **29 note** che portano la
+  formula di attestazione senza rimando a un artefatto. Sono **anteriori alla regola**: renderle
+  rosse avrebbe messo il vault fuori norma su un difetto che nessuno poteva evitare, e avrebbe
+  **bloccato ogni lotto futuro** su un debito pregresso. Il controllo e' quindi **errore per le
+  note con `data_nota` dal 20/08/2026, avviso dichiarato per le precedenti**. ⚠️ **Un avviso non
+  e' un condono:** il debito e' misurabile in ogni momento — gli avvisi che portano «debito
+  anteriore a E43» — ed e' iscritto fra le vigilanze del passaggio di consegne, dentro la rete
+  finale. **Un controllo nuovo che rende rosso il pregresso non viene disattivato: viene
+  ignorato**, ed e' il modo in cui una suite smette di essere creduta.
+- **2026-08-20** · gate 2A · **IL PRIMO CONTROLLO CHE NON GUARDA IL CONTENUTO DI UNA NOTA MA IL
+  SUO SUPPORTO** · la QA verifica l'omogeneita' dei fine riga nel vault, misurando lo stile
+  dominante e segnalando chi se ne discosta. ⚠️ **Al primo lancio ha trovato 21 note gia'
+  tornate a CRLF** dopo la normalizzazione del giorno prima: ogni riscrittura ripristina il
+  terminatore della piattaforma, e per un giorno intero nessuno se n'era accorto perche'
+  **nessuno script guardava**. E' la prova che un difetto senza controllo non e' un difetto
+  raro: e' un difetto invisibile. Il vault e' **l'oggetto che la Sessione 6 misurera'**, e la
+  sua forma fisica fa parte dell'oggetto.
+- **2026-08-20** · gate 2A · **IL VAULT PORTA 126 ERRORI E NON I 125 ATTESI, E IL
+  CENTOVENTISEIESIMO NON SI CORREGGE DI PASSAGGIO** · 122 grezzi non canonizzati piu' 3 aree
+  senza hub sono **incompletezza**; il residuo e' un **rilievo di merito**: il controllo delle
+  doppie padrone accosta due note che condividono i valori `0,9 · 1,1 · 1,4`. ⚠️ **E' un falso
+  positivo dimostrabile** — le due note non hanno **nessuna fonte in comune** e i tre numeri sono
+  grandezze diverse con unita' diverse (percentuali di ossigeno contro millisiemens): il
+  controllo confronta valori **nudi**. ⚠️ **Non e' stato corretto, ed e' la decisione:** la
+  correzione **allenta** un controllo, e §4.9 impone per quello un perimetro chiuso e un difetto
+  piantato nuovo. **Un controllo si stringe di passaggio, non si allarga**; allentarlo dentro un
+  gate che sta chiudendo altro e' il modo in cui una suite perde potere senza che nessuno
+  decida di togliergliene.
+- **2026-08-20** · gate 2A · **«L'ATTRIBUTO CHE LA FONTE NON DA'» RESTA UN'OSSERVAZIONE, MA CON
+  IL SUO CRITERIO DI DECISIONE SCRITTO OGGI** · la classe nominata al terzo giro di 2A non
+  diventa emendamento: vale E28, una classe vista in un lotto solo si conta, non si scrive.
+  ⚠️ **Ma non si affida alla memoria, e il criterio si fissa PRIMA di vedere i numeri del
+  prossimo lotto, perche' nessuno lo riapra dopo: se la classe ricompare al TERZO GIRO di
+  giudizio del lotto 2B, diventa emendamento; se non ricompare, resta un'osservazione e la riga
+  di vigilanza si chiude.** Un criterio deciso a numeri visti non e' un criterio, e' una
+  giustificazione.
+- **2026-08-20** · gate 2A · **IL LOTTO STA A CAVALLO DELLA MEZZANOTTE, E LE DATE NON SI
+  «CORREGGONO»** · 2A e' dichiarato chiuso il **19/08**, ma le note scritte dopo mezzanotte
+  portano `data_nota` del **20/08**, e in `qa\` restano due cartelle datate. ⚠️ **Non e' un
+  difetto:** la relazione `data_fatto <= data_nota` e' verificata e le date sono **quelle vere**.
+  Ritoccarle per farle combaciare con la data dichiarata del lotto sarebbe **falsificare un dato
+  per rendere piu' bella una tabella**. Il rapporto lo dice in chiaro, perche' al gate finale chi
+  confronta le date trovera' due giorni e deve sapere perche'.

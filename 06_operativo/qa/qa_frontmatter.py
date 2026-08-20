@@ -199,6 +199,104 @@ def controlla(nota, rep, oggi, nomi_manifest, aree_con_hub):
     # --- grammatica dei locator ------------------------------------------------------
     controlla_locator(nota, rep)
 
+    # --- E43: l'assenza dichiarata lascia l'artefatto della ricerca -------------------
+    controlla_artefatto_assenza(nota, rep)
+
+
+# ---- E43 ---------------------------------------------------------------------------
+# Nessuno script puo' verificare il CONTENUTO di un'assenza: non esiste modo automatico di
+# stabilire che «nessun grezzo dice X» sia vero. La PROCEDURA si': che la ricerca sia stata
+# eseguita, con quali termini e su quale perimetro, e' un fatto che lascia un file.
+#
+# ⚠️ E3 e' stato pagato QUATTRO volte in cinque lotti — PRP-09 nel pilota, l'ossigeno residuo
+# in 1A, due note in 2A dove la formula di attestazione era scritta SENZA che la ricerca fosse
+# stata fatta. E' §4.20 al rovescio: quando una regola viene violata sempre, il difetto non e'
+# nella diligenza di chi la applica, e' nel fatto che nessuno puo' verificarla.
+FORMULA_E3 = re.compile(r"(?:assenza\s+verificata|verificat[ao]\s+su\s+tutto\s+`?sources)", re.I)
+RIMANDO_E3 = re.compile(r"ricerche_assenza[\\/]([\w.\-]+)", re.I)
+DIR_RICERCHE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                            "ricerche_assenza")
+
+# ⚠️ E43 NASCE IL 20/08/2026, E UN CONTROLLO NUOVO NON PUO' RENDERE ROSSO IL PREGRESSO.
+# Al momento in cui la regola entra, 29 note gia' scritte dichiarano un'assenza senza
+# artefatto: pretenderlo da loro bloccherebbe ogni lotto futuro su un difetto che nessuno
+# poteva evitare quando quelle note sono nate. La regola vale quindi IN AVANTI — ERRORE dalle
+# note nate con E43 in vigore — e sul pregresso emette un AVVISO che dichiara il debito.
+# E' la stessa disciplina dell'esperimento del lotto 2A: il debito ereditato si misura e si
+# programma, non si nasconde e non si spaccia per produzione corrente.
+NASCITA_E43 = date(2026, 8, 20)
+
+
+def controlla_artefatto_assenza(nota, rep):
+    """Chi dichiara un'assenza rimanda all'artefatto della ricerca, e l'artefatto esiste."""
+    if nota.type in ("index", "sessione", "daily"):
+        return
+    if not FORMULA_E3.search(nota.corpo):
+        return
+    dn = (nota.fm or {}).get("data_nota")
+    try:
+        nuova = datetime.strptime(str(dn), "%Y-%m-%d").date() >= NASCITA_E43
+    except Exception:
+        nuova = isinstance(dn, date) and dn >= NASCITA_E43
+    segnala = rep.errore if nuova else rep.avviso
+    coda = "" if nuova else " — debito anteriore a E43, da sanare a fine corsa"
+
+    rimandi = RIMANDO_E3.findall(nota.corpo)
+    if not rimandi:
+        segnala(nota.nome, CONTROLLO,
+                "dichiara un'assenza con la formula di E3 ma non rimanda a un artefatto "
+                "di ricerca in 06_operativo\\ricerche_assenza\\ (E43)%s" % coda)
+        return
+    for r in rimandi:
+        if not os.path.isfile(os.path.join(DIR_RICERCHE, r)):
+            segnala(nota.nome, CONTROLLO,
+                    "rimanda all'artefatto di ricerca '%s', che non esiste in "
+                    "06_operativo\\ricerche_assenza\\ (E43)%s" % (r, coda))
+
+
+# ---- I FINE RIGA DEL VAULT ---------------------------------------------------------
+# ⚠️ E' il primo controllo del progetto che non guarda il CONTENUTO di una nota ma il suo
+# SUPPORTO, e c'e' una ragione perche' esista: il vault e' l'oggetto che la Sessione 6
+# misurera', e fino al lotto 2A nessuno script ne guardava la forma fisica. In quel lotto 39
+# note sono nate con terminatori CRLF in un vault che usa LF — se ne e' accorto un occhio, non
+# uno strumento — e poi altre 21 ci sono tornate perche' ogni riscrittura le riportava al
+# terminatore della piattaforma: quella seconda volta non se n'era accorto nessuno.
+#
+# Il controllo non impone un terminatore: pretende OMOGENEITA'. Il riferimento e' la
+# maggioranza delle note del VAULT — non del perimetro — perche' un lotto piccolo scritto
+# tutto male si dichiarerebbe altrimenti conforme a se stesso.
+
+def terminatori(percorso):
+    """(crlf, lf_isolati) di un file, contati sui byte."""
+    d = open(percorso, "rb").read()
+    crlf = d.count(b"\r\n")
+    return crlf, d.count(b"\n") - crlf
+
+
+def stile_dominante(note):
+    """Il terminatore che il vault usa davvero: 'crlf' o 'lf', a maggioranza."""
+    c = l = 0
+    for n in note:
+        crlf, lf = terminatori(n.percorso)
+        if crlf and not lf:
+            c += 1
+        elif lf and not crlf:
+            l += 1
+    return "crlf" if c > l else "lf"
+
+
+def controlla_fine_riga(nota, rep, dominante):
+    crlf, lf = terminatori(nota.percorso)
+    if crlf and lf:
+        rep.errore(nota.nome, CONTROLLO,
+                   "fine riga MISTI dentro lo stesso file: %d CRLF e %d LF isolati" % (crlf, lf))
+        return
+    suo = "crlf" if crlf else "lf"
+    if (crlf or lf) and suo != dominante:
+        rep.errore(nota.nome, CONTROLLO,
+                   "fine riga %s in un vault che usa %s: il supporto del vault va omogeneo"
+                   % (suo.upper(), dominante.upper()))
+
 
 def controlla_locator(nota, rep):
     """Ogni riga del blocco `## Fonti` porta un wikilink al grezzo e, subito dopo
@@ -252,8 +350,10 @@ def main():
     oggi = date.today()
 
     rep = Q.Report("qa_frontmatter (perimetro: %s, %d note)" % (modo, len(perimetro)))
+    dominante = stile_dominante(note)
     for n in perimetro:
         controlla(n, rep, oggi, nomi_manifest, aree_con_hub)
+        controlla_fine_riga(n, rep, dominante)
 
     rep.stampa()
     d = Q.cartella_report(args, modo, "l26130")

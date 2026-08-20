@@ -6,9 +6,14 @@
 > `scheda_sicurezza_detergente_acido_lavaggio_CIP.txt`.
 > **Chiuso il** · 19/08/2026, **con la coda dei controlli finali dopo la mezzanotte**: i
 > report della suite portano quindi due date, `2026-08-19_02a` e `2026-08-20_02a`, e la
-> seconda è quella dell'ultima misura. ⚠️ I `data_nota` delle note restano al **19/08**, che
-> è il giorno in cui sono state scritte: cambiarli a posteriori romperebbe la relazione
-> `data_fatto ≤ data_nota` già verificata su ciascuna.
+> seconda è quella dell'ultima misura.
+> ⚠️ **Le note portano quindi due `data_nota` diverse, e va detto qui perché al gate finale
+> non sembri un difetto**: quelle scritte prima di mezzanotte hanno `2026-08-19`, le poche
+> nate dopo hanno `2026-08-20`, e il lotto è dichiarato chiuso il 19. **Nessuna data si
+> corregge**: sono quelle vere, la relazione `data_fatto ≤ data_nota` è verificata su
+> ciascuna, e riscriverle a posteriori significherebbe far dire a un metadato una cosa
+> comoda invece di una cosa vera. Chi al gate finale confronterà le `data_nota` con la data
+> del lotto troverà due giorni, e questa riga gli dice perché.
 > ⚠️ **È anche un ESPERIMENTO**: primo lotto canonizzato sotto E29 ed E36, e il §7 porta i
 > **due tassi distinti** che il gate deve pesare.
 
@@ -518,6 +523,72 @@ Tutti eseguiti prima del commit, e ciascuno verificato da uno script.
 | Grezzi in `sources\` | 160 |
 | Grezzi citati da almeno una nota | **38** |
 | Grezzi restanti | **122** |
+
+### La misura finale sul vault (E44, adempimento una tantum del gate)
+
+⚠️ **Il rapporto dichiarava un numero preso troppo presto.** La QA a perimetro vault era stata
+lanciata alle **19:34 del 19/08**, quando il lotto era ancora a metà: quel report dice **214
+note e 126 errori**, mentre il lotto si è chiuso alle **22:01** con 217 note. Nessuno dei due
+numeri è sbagliato — sono due istanti — ma **solo l'ultimo è quello che un rapporto ha il
+diritto di dichiarare**, ed è la ragione per cui E44 esiste.
+
+**La misura vera, ripresa al gate:**
+
+| | |
+|---|---|
+| Lanciata il | **20/08/2026 alle 22:04:54**, chiusa alle **22:05:29** |
+| Perimetro | vault intero |
+| Esito | **126 ERRORI, 149 AVVISI** |
+| `qa_frontmatter` · `qa_link_integrity` · `qa_provenance` | **0 errori ciascuno** |
+| `qa_copertura` | **126** |
+
+⚠️ **Gli AVVISI di questa riga sono 149 e resteranno 149 solo fino a fine gate**, e il perché
+va detto qui invece di lasciarlo scoprire a chi confronta i documenti: il gate ha poi aggiunto
+alla QA **due controlli** — l'artefatto di E43 e l'omogeneità dei fine riga — e la misura del
+vault ripresa alle **22:25** dà **126 errori e 178 avvisi**. Gli errori non cambiano; i 29
+avvisi in più sono il **debito dichiarato di E43**. **Due misure vere dello stesso vault a
+due ore diverse, con due strumenti diversi**: è esattamente il caso per cui E44 chiede che
+ogni numero porti l'ora della propria misura.
+
+**Di che cosa sono fatti i 126**, contati sul report:
+
+| Composizione | Quanti |
+|---|---|
+| grezzi non ancora canonizzati | **122** |
+| aree senza hub (`sicurezza-ambiente`, `risorse-umane`, `ricerca-sviluppo`) | **3** |
+| **rilievo di merito** — possibile doppia padrona | **1** |
+
+⚠️ **Il conto atteso al gate era 125, e non torna per una ragione che ha un nome.** I 122 + 3
+sono incompletezza pura; il centoventiseiesimo **no**: è il rilievo di doppia padrona fra
+`fatto-microperdite-saldatura-l26130` e `kpi-conducibilita-risciacquo-cip-maggio`, che il
+controllo apre perché le due note condividono tre valori — `0,9 · 1,1 · 1,4`.
+
+**È un falso positivo, e si dimostra:** le due note **non hanno nessuna fonte in comune** —
+l'una sta sul test di shelf life e sul manuale HACCP, l'altra sul log del CIP e su `IO-05` —
+e i tre numeri sono **grandezze diverse con unità diverse**: percentuali di ossigeno residuo
+contro millisiemens per centimetro. Il controllo confronta valori numerici **nudi**, senza
+unità e senza guardare se le due note possano davvero affermare lo stesso fatto.
+
+⚠️ **Non lo chiudo in questo turno, e la ragione è di metodo.** Le tre vie per chiuderlo sono:
+aggiungere un wikilink fra le due note — **tappezzeria**, divieto 25; togliere un numero —
+**non si toccano i dati**; restringere il controllo, per esempio richiedendo che due candidate
+doppie padrone condividano almeno una fonte. La terza è quella giusta, ma **allenta un
+controllo**, e §4.9 impone per questi fix perimetro chiuso e un difetto piantato nuovo: è un
+lavoro a sé, non una correzione di passaggio. **Portato al coordinatore come rilievo, con una
+riga in §6 del passaggio di consegne.**
+
+### L'errore del vault scende per la prima volta, ma non nel modo che ci si aspettava
+
+| Misura | Errori | Di cui incompletezza | Di cui merito |
+|---|---|---|---|
+| chiusura di R1, 19/08 | **128** | 128 (125 grezzi + 3 aree) | 0 |
+| chiusura di 2A, 20/08 22:05 | **126** | 125 (122 grezzi + 3 aree) | **1** |
+
+⚠️ **È la prima volta nel progetto che il numero scende** — fin qui era solo cresciuto o
+rimasto fermo — e scende di due. Ma la lettura onesta è **doppia**: l'incompletezza è calata
+di **tre** (i tre grezzi che 2A ha canonizzato), e nello stesso tempo è **comparso un rilievo
+di merito che prima non c'era**. Dire «meno due» e fermarsi lì nasconderebbe che le due
+grandezze si muovono in direzioni opposte.
 
 ### Gli strumenti nati o cambiati in questo lotto
 

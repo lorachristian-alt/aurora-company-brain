@@ -3,11 +3,13 @@
 > **Cos'è** · Lo stato di oggi del vault: cosa è stato canonizzato, con quale esito, e
 > cosa resta. Solo stato, mai una regola: le regole stanno in
 > `01_metodo\metodo_03_canonizzazione.md`, le decisioni in `06_operativo\decision_log.md`.
-> **Aggiornato al** · 19/08/2026, **chiusura del lotto 2A** — il lavaggio CIP, primo lotto del
-> tema 2 e **primo esperimento del metodo**. Prima, nella stessa giornata: il **gate del lotto
-> R1**, che lo ha **APPROVATO** e ha prodotto **E39** ed **E40**; e prima ancora la
-> manutenzione degli strumenti, E34 ed E35, il gate intermedio con E36-E38 e la chiusura di
-> R1. Tutti i numeri qui dentro sono riportati da script.
+> **Aggiornato al** · 20/08/2026, **GATE del lotto 2A**, che lo ha **APPROVATO** e ha prodotto
+> **quattro emendamenti in un colpo solo — E41, E42, E43, E44** — il massimo finora da un
+> singolo gate, e tre dei quattro nati da un errore commesso. Prima, il 19/08: la **chiusura
+> del lotto 2A** (il lavaggio CIP, primo lotto del tema 2 e **primo esperimento del metodo**),
+> il **gate del lotto R1** con **E39** ed **E40**, e prima ancora la manutenzione degli
+> strumenti, E34 ed E35, il gate intermedio con E36-E38 e la chiusura di R1. Tutti i numeri qui
+> dentro sono riportati da script, **e da E44 ognuno porta l'ora della propria misura**.
 > Lo stato della pipeline RAG sta in `06_operativo\stato_rag_produzione.md`, non qui; il
 > piano dei lotti e la tabella di tracciamento delle questioni trasversali stanno in
 > `06_operativo\matrice_lotti_corpus_v1.md`, non qui.
@@ -21,10 +23,10 @@
 | Lotti chiusi | **5 di canonizzazione** — `l26130` (fetta pilota, S2), **`1A`** (Linea 1: turno, CCP, confezionatrice), **`1B`** (freddo ed energia), **`1C`** (metrologia e gas tecnici) e **`2A`** (il lavaggio CIP) — **più `R1`**, il primo **lotto di manutenzione** (E35), approvato al suo gate il 19/08/2026. ⚠️ **R1 vale un lotto nel ritmo ma NON entra nella serie della capacità** (E38): misura riparazioni, non produzione |
 | Grezzi copiati nel vault | 160/160, verificati contro `manifest_corpus_v1.1.json`: zero scarti, zero estranei, zero sottocartelle |
 | I conteggi del vault | nel blocco qui sotto, **incollato verbatim** da `conta_stato.py` |
-| Suite QA | **verde sul perimetro di lotto**; sul vault tre controlli su quattro sono a zero errori |
+| Suite QA | **verde sul perimetro di lotto**; sul vault tre controlli su quattro sono a zero errori. ⚠️ Dal gate di 2A la QA ha **due controlli nuovi**: l'artefatto di ricerca che E43 impone a chi dichiara un'assenza, e **l'omogeneità dei fine riga** — il primo controllo del progetto che non guarda il contenuto di una nota ma il suo **supporto** |
 | `llms.txt` | rigenerato dal frontmatter, allineato |
 | Matrice dei lotti | 160/160 grezzi, zero scoperti, zero doppi (`verifica_matrice_lotti.py` verde). ⚠️ **I budget dei lotti 2-10 sono SUPERATI** e il piano non è più a 12 lotti: vale **E31**, la capacità di 25-35 note per lotto, e i grezzi si decidono in apertura. **Stima: circa 28-30 lotti**, scritta anche nella scaletta perché cambia il calendario di S4-S5. Ridisegnato in dettaglio **solo il tema 2** (2A · 2B · 2C) |
-| **PROSSIMO ATTO** | **Il GATE del lotto 2A**: il rapporto `06_operativo\rapporto_lotto_02a.md` va al coordinatore. ⚠️ Porta **un numero che decide una questione di progetto** — il tasso di difetto di produzione, **3,3 %** contro il 57,7 % di R1 — e **un pattern nominato al terzo giro** (E26), «l'attributo che la fonte non dà». Dopo l'approvazione: **2B** (autocontrollo di igiene), che deve chiudere due cose che 2A lascia aperte — la conducibilità dell'acqua di rete e il piano dei tamponi |
+| **PROSSIMO ATTO** | **Il lotto 2B — l'autocontrollo di igiene**, aperto dal gate del 20/08/2026. Cinque grezzi: tamponi di superficie, acqua potabile, acque reflue, matrice degli allergeni, formazione sugli allergeni. Porta l'obbligo principale **T72** — la conducibilità dell'acqua di rete, il termine mancante del criterio del CIP — la **seconda misura della serie di E41** e il **primo esercizio di E43**. ⚠️ **Gira da solo**, e la ragione è empirica: la sessione di 2A è stata uccisa a metà da un limite di quota, ed è andata bene solo perché il gate precedente era già pushato |
 
 ⚠️ **Errata del 19/08/2026 sui numeri del lotto 1A.** Questo stato dichiarava «105 note, di
 cui 11 `_index` e 6 note-strumento: 88 di contenuto». `qa_all.py` a chiusura di 1A contava
@@ -34,18 +36,18 @@ prescrive la regola del gate 1A.
 
 ## I conteggi, da script
 
-<!-- CONTEGGI DEL VAULT — generati da `06_operativo\qa\conta_stato.py` il 2026-08-19.
+<!-- CONTEGGI DEL VAULT — generati da `06_operativo\qa\conta_stato.py` il 2026-08-20.
      Si incollano VERBATIM: non si ricompongono a mano, non si riscrivono in prosa. -->
 
 | Grandezza | Valore |
 |---|---|
-| Note nel vault | **217** |
+| Note nel vault | **218** |
 | di cui `_index` | 11 |
-| di cui note-strumento del progetto | 13 |
+| di cui note-strumento del progetto | 14 |
 | di cui note di diario (`sessione`, `daily`) | 5 |
 | **di cui note di contenuto** | **188** |
-| Note per cartella | areas 109 · data 26 · entities 24 · docs 19 · code 14 · projects 8 · workspace 8 · concepts 6 · self 1 · outputs 1 · sources 1 |
-| Note per `type` | atomica 127 · conflitto 37 · entita 19 · hub 13 · index 11 · concetto 5 · sessione 5 |
+| Note per cartella | areas 109 · data 26 · entities 24 · docs 19 · code 15 · projects 8 · workspace 8 · concepts 6 · self 1 · outputs 1 · sources 1 |
+| Note per `type` | atomica 128 · conflitto 37 · entita 19 · hub 13 · index 11 · concetto 5 · sessione 5 |
 | Questioni aperte (`type: conflitto`) | 37 |
 | Grezzi in `sources\` | 160 |
 | Grezzi citati da almeno una nota | **38** |
@@ -272,15 +274,24 @@ apporto_lotto_1a.md`.
 
 ## Il perimetro vault
 
+⚠️ **Misurato il 20/08/2026 alle 22:25:02-22:25:27**, dopo l'ultima scrittura del gate (E44).
+
 | Controllo | Errori su tutto il vault |
 |---|---|
-| `qa_frontmatter` | **0** |
+| `qa_frontmatter` | **0** (110 avvisi, di cui **29 sono il debito dichiarato di E43**) |
 | `qa_link_integrity` | **0** |
 | `qa_provenance` | **0** |
-| `qa_copertura` | 128 — **125 grezzi non ancora canonizzati e 3 aree senza hub** |
+| `qa_copertura` | **126** — 122 grezzi non ancora canonizzati, 3 aree senza hub, **1 rilievo di merito** |
+| **totale suite** | **126 errori, 178 avvisi** |
 
-Tutti gli errori residui del vault sono la sua **incompletezza**: nessuno è un difetto delle
-note che esistono.
+⚠️ **Per la prima volta il totale del vault SCENDE** — era 128 al gate di 1C — e scende perché
+tre grezzi sono stati canonizzati da 2A. **Ma non tutti gli errori sono più incompletezza**:
+il centoventiseiesimo è un **rilievo di merito**, il controllo delle doppie padrone che
+accosta due note per i valori `0,9 · 1,1 · 1,4`. È un **falso positivo dimostrabile** — le due
+note non hanno nessuna fonte in comune e i numeri sono grandezze diverse con unità diverse —
+e **non è stato corretto**: la correzione allenta un controllo, e §4.9 vuole per quello un
+perimetro chiuso e un difetto piantato nuovo. Sta fra le vigilanze del passaggio di consegne,
+da chiudere prima del gate finale.
 
 ## ~~Densità del pilota — il dato per dimensionare i lotti di S4~~ — SUPERATA da E31
 

@@ -250,6 +250,77 @@ Il rimando qui sotto punta a una nota che non esiste: [[nota-che-non-esiste-mai]
 - [[verbale_inesistente_2026.pdf]] — pag. 1, §2
 """ % (LOG, LOG)
 
+# --- la nota dell'ASSENZA SENZA ARTEFATTO: il difetto piantato di E43 ---------
+# ⚠️ E3 e' stato pagato quattro volte in cinque lotti, e la quarta perche' la formula di
+# attestazione era stata scritta SENZA che la ricerca fosse stata fatta. E43 chiede che la
+# ricerca lasci il suo artefatto: questa nota porta la formula e NON rimanda a nessun
+# artefatto, con `data_nota` successiva alla nascita della regola, e la suite deve vederlo.
+ASSENZA = """\
+---
+title: "Nota che dichiara un'assenza senza lasciarne l'artefatto"
+summary: "Porta la formula di E3 senza rimandare a nessuna ricerca depositata: serve a provare che il controllo di E43 vede la formula usata a vuoto."
+type: atomica
+area: qualita
+tags: [areas, qualita, collaudo, e43]
+fonti:
+  - %s
+stato: risolto
+aliases: []
+data_nota: 2026-08-20
+related: "[[area-qualita]]"
+---
+
+# Nota che dichiara un'assenza senza lasciarne l'artefatto
+
+Il datalogger registra 68,9 gradi alle 14:21:07 del 10/05/2026.
+
+⚠️ Nessun grezzo dell'archivio riporta il valore di riferimento: assenza verificata su tutto
+`sources\\`, manifest v1.1, alla `data_nota` di questa nota.
+
+## Perche' conta
+
+E' il difetto piantato di E43: la formula di attestazione c'e', l'artefatto della ricerca no.
+Si aggancia a [[area-qualita]] e alla gemella [[fatto-collaudo-buono]].
+
+## Fonti
+- [[%s]] — riga 14:21:07
+""" % (LOG, LOG)
+
+# --- la nota col FINE RIGA sbagliato: il difetto piantato della forma fisica ---
+# ⚠️ E' il primo controllo che guarda il SUPPORTO e non il contenuto. Nel lotto 2A 39 note
+# sono nate con CRLF in un vault che usa LF, e se ne e' accorto un occhio invece di uno
+# strumento; poi altre 21 ci sono tornate dopo essere state riscritte, e nessuno se ne e'
+# accorto affatto. Questa nota viene scritta con il terminatore OPPOSTO a quello del vault
+# finto, e la suite deve vederlo.
+FINERIGA = """\
+---
+title: "Nota scritta con il fine riga sbagliato"
+summary: "Identica alle altre nel contenuto, ma salvata con un terminatore di riga diverso da quello del resto del vault: serve a provare il controllo sulla forma fisica."
+type: atomica
+area: qualita
+tags: [areas, qualita, collaudo, fine-riga]
+fonti:
+  - %s
+stato: risolto
+aliases: []
+data_nota: 2026-08-16
+related: "[[area-qualita]]"
+---
+
+# Nota scritta con il fine riga sbagliato
+
+Il foglio di efficienza dichiara 5.580 pezzi prodotti sul turno del 10/05/2026.
+
+## Perche' conta
+
+Il contenuto e' corretto: l'unico difetto sta nel supporto, ed e' invisibile a ogni
+controllo che guardi solo il testo. Si aggancia a [[area-qualita]] e a
+[[fatto-collaudo-buono]].
+
+## Fonti
+- [[%s]] — riga 145, colonna `Pz_prodotti`
+""" % (OEE, OEE)
+
 # --- la nota TOCCATA: non cita i grezzi del lotto, e porta un difetto (E32) ---
 # Difetto piantato: il numero 77777 non compare nella fonte citata. Se il perimetro di
 # lotto non comprende le note modificate, questo errore non viene mai emesso.
@@ -288,6 +359,10 @@ ATTESI = [
     ("numero senza riscontro", "qa_provenance",      r"99999|99\.999"),
     # E32: senza il perimetro esteso alle note modificate, questo difetto non viene emesso
     ("difetto in nota toccata", "qa_provenance",      r"fatto-collaudo-toccata.*77777|77777.*fatto-collaudo-toccata"),
+    # E43: la formula di attestazione senza l'artefatto della ricerca
+    ("assenza senza artefatto", "qa_frontmatter",     r"fatto-collaudo-assenza.*artefatto|artefatto.*fatto-collaudo-assenza"),
+    # la forma FISICA del vault: il primo controllo che non guarda il contenuto
+    ("fine riga difforme",      "qa_frontmatter",     r"fatto-collaudo-fineriga.*fine riga|fine riga.*fatto-collaudo-fineriga"),
 ]
 
 
@@ -306,6 +381,24 @@ def scrivi(p, t):
         f.write(t)
 
 
+def scrivi_fine_riga_opposto(p, testo):
+    """Scrive col terminatore CONTRARIO a quello che `scrivi` usa su questa piattaforma.
+
+    Non impone un valore: guarda che cosa produce `scrivi` e fa l'opposto, cosi' il difetto
+    resta piantato sia su Windows sia altrove."""
+    LF, CRLF = chr(10), chr(13) + chr(10)
+    os.makedirs(os.path.dirname(p), exist_ok=True)
+    sonda = os.path.join(os.path.dirname(p), "_sonda_fine_riga.tmp")
+    with io.open(sonda, "w", encoding="utf-8") as f:
+        f.write("a" + LF + "b" + LF)
+    crlf_di_default = CRLF.encode() in open(sonda, "rb").read()
+    os.remove(sonda)
+    dati = testo.replace(CRLF, LF)
+    if not crlf_di_default:
+        dati = dati.replace(LF, CRLF)
+    open(p, "wb").write(dati.encode("utf-8"))
+
+
 def prepara():
     if os.path.isdir(VAULT):
         shutil.rmtree(VAULT)
@@ -316,6 +409,9 @@ def prepara():
     scrivi(os.path.join(VAULT, "areas", "fatto-collaudo-buono.md"), BUONA)
     scrivi(os.path.join(VAULT, "areas", "fatto-collaudo-rotto.md"), ROTTA)
     scrivi(os.path.join(VAULT, "areas", "fatto-collaudo-toccata.md"), TOCCATA)
+    scrivi(os.path.join(VAULT, "areas", "fatto-collaudo-assenza.md"), ASSENZA)
+    # ⚠️ scritta a BYTE, col terminatore OPPOSTO a quello che `scrivi` produce: e' il difetto.
+    scrivi_fine_riga_opposto(os.path.join(VAULT, "areas", "fatto-collaudo-fineriga.md"), FINERIGA)
 
     intestazione = "# elenco del collaudo - %s\n"
     nota_toccata = ("# E32 - la nota che il lotto ha modificato senza citarne i grezzi\n"
