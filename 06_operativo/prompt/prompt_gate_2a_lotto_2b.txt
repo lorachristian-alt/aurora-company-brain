@@ -1,0 +1,254 @@
+=====================================================================
+PROMPT — GATE DEL LOTTO 2A (adempimenti) + APERTURA DEL LOTTO 2B
+Corpus v1 · Aurora Food Group S.r.l. (simulazione dichiarata)
+File: 06_operativo\prompt\prompt_gate_2a_lotto_2b.txt
+Scritto dal coordinatore il 20/08/2026, letto il rapporto 2A sul disco.
+=====================================================================
+
+COME SEI STATO LANCIATO
+- Terminale nella RADICE del repository
+  C:\Users\buulo\Desktop\.eval_do_not_index\Aurora_Food_Group_SRL
+  con: claude --add-dir "C:\Users\buulo\Desktop\aurora-cervello"
+
+---------------------------------------------------------------------
+PARTE 0 — I PROMPT: VERIFICA E COMMIT
+---------------------------------------------------------------------
+0.1 `prompt_s4_lotti.txt` e' stato aggiornato dal coordinatore, da E40 a
+    E44. Verifica che la copia di lavoro sia integra:
+      righe 499 · byte 29.134 · CRLF 499 · LF isolati 0 · BOM assente
+      sha256 7c66828456538816b34d1c88c64c0b43df436202dea5dd44b8e89bea710a25bb
+    Se anche uno non torna, FERMATI e dillo.
+
+0.2 Questo file e' NON TRACCIATO. Committali entrambi e pusha PRIMA di
+    eseguire. Messaggio:
+
+      prompt dei lotti a E44 e prompt del gate 2A + lotto 2B
+
+      Scritti dal coordinatore (§4.27). E41-E44 sono nella coda del
+      prompt dei lotti e non ancora in metodo_03: colmarlo e' il primo
+      adempimento.
+
+0.3 Rileggi `prompt_s4_lotti.txt` per intero: quattro punti del §3 sono
+    cambiati, e tutti e quattro scattano nel lotto 2B.
+
+---------------------------------------------------------------------
+PARTE 1 — IL VERDETTO: 2A E' APPROVATO
+---------------------------------------------------------------------
+Il coordinatore ha letto `rapporto_lotto_02a.md` per intero e riverificato
+i numeri sul disco. Il lotto e' APPROVATO. Le ragioni, perche' valgano da
+precedente:
+
+- capacita' rispettata senza forzarla: **30 note di contenuto** dentro la
+  fascia 25-35 di E31, primo lotto che ci cade senza scostamento da
+  dichiarare. La capacita' come grandezza di pianificazione ha retto alla
+  prova, ed e' la conferma che E31 aveva ragione a spostare la
+  pianificazione dalla densita' al lotto;
+- **E37 ha scattato per la prima volta e ha funzionato**: dieci note
+  riaperte da `IO-05`, quattro corrette, sei chiuse dichiarando che la
+  fonte non le governa. Il passo che al gate di R1 era una promessa in
+  tabella e' diventato un controllo che produce numeri;
+- **E39 ha trovato tre casi al primo impiego**, e uno di essi giustifica
+  da solo la scelta di lasciare APERTO l'elenco delle superfici: cinque
+  superfici, di cui due — le glosse dell'hub e una cella di tabella —
+  **non erano nella nota qualificata** ma in un'altra che la indicizza.
+  Un elenco chiuso su «title e summary» ne avrebbe prese due su cinque;
+- E26 rispettata: il terzo giro non si e' esaurito e il lotto si e'
+  chiuso NOMINANDO la classe, non con un quarto giro;
+- l'interruzione forzata non ha prodotto danni, e **non per fortuna**: il
+  gate di R1 era gia' pushato, gli elenchi del perimetro si scrivono
+  mentre si tocca (E32), i numeri vengono da script e il pacchetto e' un
+  file. Sono quattro decisioni prese mesi-lotti prima che hanno pagato
+  tutte insieme il giorno in cui e' servito. Il controllo di ripresa
+  affidato a un auditor con il divieto di riparare e' il modo giusto di
+  verificarlo;
+- la divergenza 40/41 avvisi fra te e l'auditor: **la lettura che ne hai
+  dato e' giusta ed e' la piu' preziosa del rapporto** — due misure vere
+  dello stesso oggetto in due istanti diversi. Da li' nasce E44, sotto.
+
+---------------------------------------------------------------------
+PARTE 2 — L'ESPERIMENTO: IL VERDETTO E LA SUA CONSEGUENZA
+---------------------------------------------------------------------
+**3,3 % contro 57,7 %, stesso criterio, entrambi da script. L'ipotesi del
+debito storico REGGE**, e il modo in cui e' stata prodotta vale quanto il
+numero: l'unico caso residuo e' dichiarato col suo nome invece di essere
+aggiustato con una fonte in piu'. **Aggiustarlo avrebbe truccato il numero
+che l'esperimento esiste per produrre**, e non farlo e' la prova che la
+misura e' onesta.
+
+**La conseguenza di pianificazione, che il coordinatore fissa adesso:**
+la rete finale — il secondo lotto di manutenzione previsto al gate di R1 —
+**NON e' un secondo passaggio sul vault**. E' la chiusura delle righe di
+tracciamento che E37 lascia aperte, e si dimensiona su quelle. Con un
+tasso di produzione del 3,3 % un ripasso generale a fine corsa
+guarderebbe centinaia di note per trovare l'errore in una su trenta:
+sarebbe il calcolo lineare del lotto 1C in un'altra forma.
+
+ATTENZIONE — **Il numero e' confermato, non dimostrato, e lo dichiari tu
+stesso: 30 note, un lotto, un dominio.** Da qui E41.
+
+---------------------------------------------------------------------
+PARTE 3 — QUATTRO EMENDAMENTI APPROVATI (PERMANENTI)
+---------------------------------------------------------------------
+Marcatore inline in metodo_03 e riga nel registro nello stesso turno.
+Occasione: «gate del lotto 2A».
+
+E41 — OGNI LOTTO DICHIARA I DUE TASSI, da `misura_due_tassi.py`, tenuti
+  separati. Una misura sola e' un aneddoto; la serie e' cio' che a S7
+  permettera' di dire quanto il metodo produce il difetto invece di
+  ereditarlo, con un denominatore vero invece che con un caso. Costa il
+  rilancio di uno script che esiste gia'.
+
+E42 — LA PROPAGAZIONE DELLA CAUTELA SI FA NELLO STESSO TURNO DELLA
+  QUALIFICAZIONE (il tuo C1). E39 dice *che cosa*; non diceva *quando*, e
+  il terzo caso del §6 mostra che «quando» non e' ovvio: una cautela
+  apposta al corpo per chiudere un rilievo non e' arrivata al summary
+  **nel giro stesso in cui veniva scritta**. Chi corregge su rilievo sta
+  pensando al rilievo, non alla nota intera. E' un chiarimento a E39, che
+  resta col suo numero (§4.26).
+
+E43 — CHI DICHIARA UN'ASSENZA LASCIA L'ARTEFATTO DELLA RICERCA. La §4.32
+  che hai scritto e' giusta e si ferma un passo prima: dice che nessun
+  controllo automatico puo' accorgersene, e questo e' vero del CONTENUTO
+  di un'assenza — non della PROCEDURA. La ricerca lascia il suo output
+  datato, coi termini cercati e il perimetro, in
+  `06_operativo\ricerche_assenza\`; la nota vi rimanda; e la QA verifica
+  che ogni nota che porta la formula di E3 rimandi a un artefatto che
+  esiste. Un'attestazione non verificabile diventa verificabile.
+  ATTENZIONE — **La ragione per cui questo diventa un controllo e non
+  l'ennesimo richiamo: E3 e' stato pagato QUATTRO volte** — PRP-09 nel
+  pilota, l'ossigeno residuo in 1A, due note in 2A. Vale la logica di
+  §4.20 rovesciata: quando una regola viene violata sempre, il difetto
+  non e' nella diligenza di chi la applica, e' nel fatto che nessuno puo'
+  verificarla. **Una regola pagata quattro volte non ha bisogno di essere
+  ripetuta: ha bisogno di un controllo.**
+
+E44 — LE MISURE DI CHIUSURA SI PRENDONO DOPO L'ULTIMA SCRITTURA, E OGNI
+  NUMERO PORTA L'ORA DELLA PROPRIA MISURA. Generalizza E34 da
+  `conta_stato.py` a tutte: QA di lotto, QA a perimetro vault, collaudo,
+  `verifica_matrice_lotti`, `conta_tracciamento`.
+  ATTENZIONE — **Il caso e' in questo lotto, e l'ho trovato confrontando i
+  file**: `qa\2026-08-19_vault\qa_all.md` e' delle **19:34** e dichiara
+  **214 note e 126 errori**; il lotto si e' chiuso alle **22:01** con
+  `conta_stato` a **217 note** e 122 grezzi restanti, cioe' 125 errori di
+  copertura. Nessuno dei due e' sbagliato — sono due istanti, esattamente
+  come il 40/41 dell'auditor — ma **solo uno e' quello che il rapporto ha
+  il diritto di dichiarare**, e il «nessuna regressione sul vault» va
+  detto sulla misura finale. E' la stessa classe del 172/173 che E34 ha
+  chiuso su `conta_stato`: seconda osservazione, quindi si scrive.
+  ADEMPIMENTO UNA TANTUM che ne discende: rilancia `qa_all --perimetro
+  vault` ADESSO, sul vault come e' oggi, e correggi nel rapporto 2A il
+  numero e l'ora. Se il conto e' 125 errori — 122 grezzi non canonizzati
+  piu' 3 aree senza hub — allora **e' la prima volta nel progetto che
+  l'errore del vault SCENDE**, ed e' una riga che merita di essere
+  scritta nello stato: fin qui quel numero e' solo cresciuto o rimasto
+  fermo.
+
+---------------------------------------------------------------------
+PARTE 4 — I TRE CANDIDATI CHE HAI PORTATO: DUE NON SI SCRIVONO
+---------------------------------------------------------------------
+4.1 LA CLASSE «L'ATTRIBUTO CHE LA FONTE NON DA'» — **non si scrive
+    adesso, e la tua motivazione e' accolta per intero.** Una classe
+    nominata al primo lotto in cui si vede vale come osservazione, e la
+    disciplina di E28 — contarne almeno due prima di scrivere — vale
+    anche per le regole di scrittura.
+    ATTENZIONE — **Ma non si affida alla memoria.** Riga in §6 del
+    passaggio di consegne, vigilanze aperte, col criterio di decisione
+    scritto ORA perche' nessuno lo riapra a numeri visti: **se la classe
+    ricompare al terzo giro di giudizio del prossimo lotto, diventa
+    emendamento; se non ricompare, resta un'osservazione e la riga si
+    chiude.** La forma che avrebbe — «la qualifica che rende leggibile
+    una sigla viene da una fonte della nota, o si dichiara inferenza» —
+    e' gia' scritta nel tuo §5.7 e si riprende da li'.
+
+4.2 C2, LA GUARDIA DI CHI PREPARA UN INGRESSO — **non si scrive, e la
+    ragione che dai e' quella giusta**: una guardia che non ha mai
+    scattato e' una guardia di cui non si conosce il costo. Resta nello
+    strumento, dove ti serve, e diventa metodo quando un secondo
+    strumento dovra' preparare un ingresso.
+
+4.3 C3, LA RIGA AL GIUDICE — **si tiene, e correggo l'attribuzione della
+    prova.** Hai ragione che 2A non la dimostra: nessuno ne ha avuto
+    bisogno. Ma la dimostrazione c'e' gia', ed e' di **R1**, dove due
+    giudici hanno dichiarato degradato il proprio ingresso invece di
+    emettere un verdetto sul nulla. 2A aggiunge solo che non fa danno e
+    che i giudici eseguono il controllo. Nessuna v3: `PROMPT_GIUDIZIO`
+    resta congelato.
+
+---------------------------------------------------------------------
+PARTE 5 — DUE COSE MINORI, MA CHE VANNO SCRITTE
+---------------------------------------------------------------------
+5.1 I FINE RIGA DEL VAULT NON HANNO UN CONTROLLO. Le 39 note con CRLF le
+    hai trovate e corrette tu, e va bene; ma nessuno script guarda la
+    forma FISICA del vault, che e' **l'oggetto che la Sessione 6
+    misurera'**. E' il primo difetto del progetto che non riguarda il
+    contenuto delle note ma il loro supporto. Fix di codice, monotono —
+    aggiunge un controllo e non ne toglie: la QA verifica l'omogeneita'
+    dei fine riga nel vault, con il suo difetto piantato nel collaudo su
+    una via di produzione (§4.29).
+
+5.2 IL LOTTO STA A CAVALLO DELLA MEZZANOTTE. In `qa\` ci sono due
+    cartelle, `2026-08-19_02a` e `2026-08-20_02a`, e il lotto e'
+    dichiarato chiuso il 19/08. Le note scritte dopo la mezzanotte
+    portano `data_nota` del 20. Non e' un difetto e non si «corregge»
+    nessuna data — la relazione `data_fatto <= data_nota` e' verificata e
+    le date sono quelle vere — ma **il rapporto lo deve dire in una
+    riga**, perche' al gate finale chi confronta le `data_nota` con la
+    data dichiarata del lotto trovera' due giorni e dovra' sapere
+    perche'.
+
+---------------------------------------------------------------------
+PARTE 6 — CHIUSURA DEL GATE
+---------------------------------------------------------------------
+Commit dedicato — «Gate del lotto 2A: E41-E44, il controllo dei fine riga,
+la misura finale sul vault» — piu' i cinque gesti. Nel passaggio di
+consegne: la riga di §6 della PARTE 4.1 col suo criterio, la §3 riscritta
+col prossimo atto che diventa il lotto 2B, e i numeri dal blocco. Push.
+
+---------------------------------------------------------------------
+PARTE 7 — APERTURA DEL LOTTO 2B (autocontrollo di igiene)
+---------------------------------------------------------------------
+Ciclo di lotto di `prompt_s4_lotti.txt` §3. Cinque grezzi dalla matrice:
+tamponi di superficie, autocontrollo dell'acqua potabile, analisi delle
+acque reflue, matrice degli allergeni, formazione sugli allergeni.
+
+7.1 T72 E' L'OBBLIGO PRINCIPALE DI QUESTO LOTTO, e nasce dal tuo §3: il
+    canone fissa il limite del risciacquo CIP a 536 µS/cm e conta 18
+    cicli su 28 sopra soglia, ma quel limite presuppone la conducibilita'
+    dell'acqua di rete, che sta **in un grezzo di questo lotto**. Appena
+    entra, la gamba c'e' e la riga si chiude — o si dichiara aperta se il
+    grezzo non la porta davvero. ATTENZIONE — **Non anticipare il
+    numero del canone**: si scrive cio' che la fonte del lotto dice, e se
+    coincide col canone tanto meglio; se non coincide e' una divergenza
+    di categoria B e si registra nel canone in sezione datata.
+
+7.2 E37 SCATTA DI NUOVO, e questa volta su piu' fonti: la matrice degli
+    allergeni e il piano di autocontrollo sono fonti prescrittive.
+    Rilancia `candidate_r1.py --dominio` ristretto a quelle che entrano,
+    e il rapporto dichiara riaperte e corrette.
+
+7.3 E41: i due tassi, ed e' **la seconda misura della serie**. Il primo
+    punto dice 3,3 %; questo dira' se era il metodo o era quel dominio.
+    Dichiarali con la stessa forma e dallo stesso script, senza
+    aggiustare nulla.
+
+7.4 RITMO: **2B gira da solo**, e la ragione e' empirica, non dottrinale.
+    La sessione precedente e' stata uccisa a meta' lotto da un limite di
+    quota con tre subagenti in volo: e' andata bene perche' il gate
+    precedente era gia' pushato e nulla viveva nel contesto. Un lotto che
+    chiude vale piu' di due lasciati a meta', e il tetto di due e' un
+    massimo, non una quota.
+
+7.5 E43 vale da subito: se in questo lotto dichiari un'assenza, l'artefatto
+    della ricerca si produce PRIMA di scrivere la formula. E' il lotto in
+    cui la regola nasce, ed e' il lotto in cui si collauda.
+
+---------------------------------------------------------------------
+GUARDIE GENERALI
+---------------------------------------------------------------------
+- 03_valutazione\ non si apre mai. 02_corpus\, 05_rag_produzione\ e
+  04_misurazioni\ non si toccano.
+- Il canone guida e non appare.
+- Ogni numero da script, output incollato, e da E44 ogni numero porta
+  l'ora della propria misura.
+- Se qualcosa qui contraddice metodo_03, vince metodo_03 e lo segnali.
+=====================================================================

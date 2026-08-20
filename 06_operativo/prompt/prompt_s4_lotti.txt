@@ -41,7 +41,7 @@ l'occasione tipica, non la condizione.
 §1 STUDIO PRELIMINARE (ogni sessione, anche le successive)
 ---------------------------------------------------------------------
 1. 01_metodo\metodo_03_canonizzazione.md — INTEGRALE. E' il manuale
-   supremo, con i 40 emendamenti gia' dentro. In caso di contrasto con
+   supremo, con i 44 emendamenti gia' dentro. In caso di contrasto con
    questo prompt, vince metodo_03 e lo segnali.
 2. 06_operativo\registro_emendamenti.md — l'indice genealogico: serve
    a vedere in dieci secondi se questo prompt e' rimasto indietro.
@@ -114,7 +114,19 @@ cosa sola, ma decisiva:
    si dichiara e si spezza in uno di canonizzazione piu' uno di
    manutenzione — stessa logica di E28, una soglia sulla grandezza che
    il rischio consuma. Una riga di tracciamento e' una promessa; questo
-   passo e' un controllo. Poi applica la soglia doppia di E28:
+   passo e' un controllo.
+
+   E IL RAPPORTO DICHIARA I DUE TASSI (E41), da `misura_due_tassi.py`,
+   tenuti separati perche' misurano cose diverse: il TASSO DI
+   RIAPERTURA (note vecchie riaperte / corrette) misura il DEBITO
+   ereditato; il TASSO DI DIFETTO DI PRODUZIONE (note nate nel lotto
+   che parlano del dominio senza la fonte che lo governa) misura il
+   METODO. Una misura sola e' un aneddoto: la serie e' cio' che a S7
+   permettera' di dire quanto il metodo produce il difetto invece di
+   ereditarlo, con un denominatore vero. Il caso residuo si dichiara
+   col suo nome e NON si aggiusta: aggiungere una fonte per portare il
+   tasso a zero significa truccare il numero che la misura esiste per
+   produrre. Poi applica la soglia doppia di E28:
 
    - proiezione oltre il +25% del budget E oltre le 30 note ......
      si SPEZZA prima di scrivere;
@@ -171,7 +183,13 @@ cosa sola, ma decisiva:
      l'obbligo esplicito per il lotto che la porta (precedente T18);
    - E3: mai dichiarare un'assenza senza ricerca su TUTTO sources\,
      datata e riferita al manifest. E22: la data della verifica sta in
-     `data_nota`, non si riscrive nel corpo;
+     `data_nota`, non si riscrive nel corpo. E43: la ricerca lascia il
+     suo ARTEFATTO — output datato dello script, coi termini cercati e
+     il perimetro, in `06_operativo\ricerche_assenza\` — e la nota vi
+     rimanda. ATTENZIONE: la formula di attestazione non si scrive mai
+     prima del gesto che attesta (§4.32). E3 e' stato pagato QUATTRO
+     volte in cinque lotti, e una regola pagata quattro volte non ha
+     bisogno di essere ripetuta: ha bisogno di un controllo;
    - E25: di una divergenza con UNA SOLA GAMBA canonizzata non si
      scrive nulla, nemmeno che esiste. Vive solo nella tabella di
      tracciamento. E' la causa radice delle due sole fughe di canone
@@ -217,7 +235,12 @@ cosa sola, ma decisiva:
      L'elenco e' esemplificativo e APERTO: chiuderlo ricreerebbe il
      difetto di E30, che era chiuso su due superfici. Una riga di
      tabella e una glossa di tre parole sono affermazioni di fatto
-     quanto il corpo.
+     quanto il corpo. E42: la ricerca delle altre occorrenze si fa
+     NELLO STESSO TURNO della qualificazione, non a fine giro — chi
+     corregge su rilievo sta pensando al rilievo, non alla nota
+     intera, e in 2A una cautela apposta al corpo per chiudere un
+     rilievo non e' arrivata al summary nel giro stesso in cui veniva
+     scritta;
 
 4. QA DI LOTTO. `python qa_all.py --perimetro lotto
    @lotti\<lotto>.txt --lotto <nome>` — zero ERRORI per andare avanti,
@@ -303,6 +326,15 @@ cosa sola, ma decisiva:
       lancia `conta_stato.py` (E34): il blocco dei conteggi e'
       l'ultimo numero che si produce prima del commit, altrimenti
       fotografa un vault che gia' non esiste piu';
+    - E44, che generalizza E34 a TUTTE le misure di chiusura: QA di
+      lotto, QA a perimetro vault, collaudo, `verifica_matrice_lotti`,
+      `conta_tracciamento`. Si eseguono DOPO l'ultima scrittura, e ogni
+      numero che il rapporto dichiara porta L'ORA della propria misura.
+      Nel lotto 2A la QA a perimetro vault girava alle 19:34 e il lotto
+      si e' chiuso alle 22:01: quel report dichiara 214 note e 126
+      errori dove il vault finale ne ha 217 e 125. Nessuno dei due e'
+      sbagliato — sono due istanti — ma solo uno e' quello che il
+      rapporto ha il diritto di dichiarare;
     - stato, decision log, passaggio di consegne, commit, push (§5).
 
 ---------------------------------------------------------------------
@@ -440,8 +472,8 @@ STOP-LOSS E COSA NON FARE
 ---------------------------------------------------------------------
 ALLINEAMENTO DI QUESTO PROMPT
 ---------------------------------------------------------------------
-Allineato al: 2026-08-19, dopo il gate del lotto R1.
-Ultimo emendamento recepito: E40.
+Allineato al: 2026-08-20, dopo il gate del lotto 2A.
+Ultimo emendamento recepito: E44.
 Scritto dal coordinatore: questo file e' l'istruzione DATA alla
 sessione, e una sessione non riscrive le proprie istruzioni.
 Recepiti rispetto alla versione precedente (ferma al gate S2, 19
@@ -455,7 +487,10 @@ manutenzione · E36 la fonte che prescrive CIO' DI CUI la nota parla ·
 E37 la riconciliazione verticale arretrata e' un passo dell'apertura ·
 E38 i lotti di manutenzione fuori dalla serie della capacita' · E39 la
 cautela si propaga a ogni superficie di sintesi · E40 la prescrizione
-si linka, non si ricopia. E39 ed E40 nascono col gate di R1: la prima
+si linka, non si ricopia · E41 ogni lotto dichiara i due tassi · E42 la
+cautela si propaga nello stesso turno · E43 l'assenza lascia l'artefatto
+della ricerca · E44 le misure di chiusura si prendono dopo l'ultima
+scrittura e portano l'ora. E41-E44 nascono col gate di 2A: la prima
 sessione che usa questa versione li applica a metodo_03 e al registro
 PRIMA di aprire il lotto.
 CONTROLLO DI SCOSTAMENTO: confronta questa riga con l'ultima riga di
