@@ -1,0 +1,244 @@
+=====================================================================
+PROMPT — GATE DEL LOTTO 2B: COMPLETAMENTO DEL CICLO + APERTURA 2B-bis
+Corpus v1 · Aurora Food Group S.r.l. (simulazione dichiarata)
+File: 06_operativo\prompt\prompt_gate_2b_completamento.txt
+Scritto dal coordinatore il 21/08/2026, letto il rapporto 2B sul disco.
+=====================================================================
+
+COME SEI STATO LANCIATO
+- Terminale nella RADICE del repository
+  C:\Users\buulo\Desktop\.eval_do_not_index\Aurora_Food_Group_SRL
+  con: claude --add-dir "C:\Users\buulo\Desktop\aurora-cervello"
+
+---------------------------------------------------------------------
+PARTE 0 — I PROMPT: VERIFICA E COMMIT
+---------------------------------------------------------------------
+0.1 `prompt_s4_lotti.txt` e' stato aggiornato dal coordinatore, da E44 a
+    E46. Verifica che la copia di lavoro sia integra:
+      righe 521 · byte 30.707 · CRLF 521 · LF isolati 0 · BOM assente
+      sha256 b112b524d8e7d07bdb5d15b8f7c44f679156267fe2e1778cbbe54cfd50321abf
+    Se anche uno non torna, FERMATI e dillo.
+
+0.2 Questo file e' NON TRACCIATO. Committali entrambi e pusha PRIMA di
+    eseguire. Messaggio:
+
+      prompt dei lotti a E46 e prompt del gate 2B + completamento + 2B-bis
+
+      Scritti dal coordinatore (§4.27). E45 ed E46 sono nella coda del
+      prompt dei lotti e non ancora in metodo_03: colmarlo e' il primo
+      adempimento.
+
+---------------------------------------------------------------------
+PARTE 1 — IL VERDETTO SU 2B: APPROVATO CONDIZIONATAMENTE
+---------------------------------------------------------------------
+Il coordinatore ha letto `rapporto_lotto_02b.md` per intero — §3, §5.4,
+§5.5, §9, §9-bis, §10 — e riverificato i numeri sul disco. Il lotto e'
+fatto bene, MA IL CICLO HA UN PASSO DICHIARATO SCOPERTO: la revisione col
+canone. Il lotto e' approvato A CONDIZIONE che il ciclo si completi in
+questa sessione (PARTE 3). Fino ad allora non si dichiara chiuso al gate.
+
+Cio' che e' gia' ratificato, perche' verificato sul disco:
+
+- lo spezzamento 2B/2B-bis in apertura (E28), col taglio su una cucitura
+  vera;
+- T72 chiusa DA UN DATO — rete 486 µS/cm contro limite 536 — ed e' la
+  prima riga della tabella chiusa da un lotto successivo con un dato
+  invece che con una decisione: e' esattamente cio' che la tabella di
+  tracciamento esiste per produrre, e va detto cosi' nello stato;
+- i numeri di chiusura presi fra le 00:00:52 e le 00:01:43, DOPO l'ultima
+  scrittura, ognuno con l'ora: E44 alla prima prova, eseguito alla
+  lettera — compreso il rilancio di misura_due_tassi quando il secondo
+  giro ha aggiunto la ventisettesima nota;
+- l'errore del vault scende per la seconda volta consecutiva, 128 → 126 →
+  123, ed e' esattamente il conto dei grezzi canonizzati piu' il falso
+  positivo noto. La contabilita' incompletezza/merito del §9-bis e' la
+  forma giusta e da qui in poi e' quella;
+- il pacchetto E33 generato presto, COLTO in tempo e rigenerato, col
+  pacchetto scartato agli atti: la regola ha funzionato da controllo, e
+  la trasparenza sul quasi-errore vale quanto l'errore evitato;
+- T82 (NC-2026-034, Listeria assente dal registro tamponi) tracciata: e'
+  una trovata seria e la riconciliazione orizzontale che l'ha prodotta
+  e' il metodo che lavora.
+
+---------------------------------------------------------------------
+PARTE 2 — LA CONTRADDIZIONE SCIOLTA: E45, E LA COLPA E' DEL TESTO MIO
+---------------------------------------------------------------------
+Il §10 del rapporto pone la domanda giusta e parte da due premesse
+sbagliate, e vanno corrette a verbale perche' non fermino un terzo lotto:
+
+  (a) IL CANONE NON VIVE IN 03_valutazione\. Sta in 01_metodo\. La
+      guardia su 03_valutazione\ riguarda l'ESAME — domande e risposte —
+      e resta assoluta, subagenti compresi. Due perimetri, due ragioni.
+  (b) UN SUBAGENTE A CONTESTO NUOVO NON E' QUESTA SESSIONE. Il perimetro
+      si garantisce con la fisica del contesto (regola d'oro 3): un
+      subagente a contesto pulito non eredita nulla. E' il meccanismo con
+      cui il progetto ha SEMPRE fatto questo passo — lo stato della S2
+      scrive «un secondo subagente a contesto nuovo, con il canone e la
+      tabella alias alla mano, come prescrive §9.5 passo 3», e cosi'
+      hanno fatto 1A, 1B, 1C, R1 e 2A, compresa la revisione che in 2A ha
+      trovato le due assenze false.
+
+  E il punto che scioglie il timore: LE DUE FUGHE DI CANONE NON SONO NATE
+  DAL REVISORE. Sono nate da CHI SCRIVEVA le note, e nel pilota da
+  un'informazione del report del revisore ricopiata in una nota senza
+  grezzo. Il revisore DEVE avere il canone: la categoria C esiste perche'
+  quattro revisori senza canone segnalarono 82 trappole volute.
+
+  ATTENZIONE — la scelta di fermarsi era comunque GIUSTA: fra un passo
+  scoperto e dichiarato e una contaminazione possibile, il primo e'
+  reversibile. Il difetto sta nella formulazione della guardia nei
+  prompt del coordinatore, che non portava l'eccezione — ed e' la
+  SECONDA sessione che lo stesso dubbio ferma. §7-bis.6: si emenda la
+  fonte.
+
+E45 — «SESSIONE DIVERSA» SIGNIFICA CONTESTO DIVERSO. metodo_03 §9.5,
+  chiarimento con marcatore a passo 3 (revisione: subagente a contesto
+  nuovo, CON canone e tabella alias) e passo 5/giudizio (subagenti a
+  contesto pulito, SENZA canone, mai). Il perimetro e' garantito dalla
+  fisica del contesto, non da chi preme il tasto di lancio. Caso: due
+  lotti fermati dallo stesso dubbio — R1 chiese l'autorizzazione, 2B si
+  e' fermato — perche' la risposta viveva solo nel testo incollato di un
+  gate. Riga nel registro, occasione «gate del lotto 2B».
+
+E46 — I DUE TASSI SI DICHIARANO COL NOME DEL DOMINIO MISURATO. E' il tuo
+  candidato §9.1, approvato nella tua stessa forma: non si allarga lo
+  script — dichiarare un dominio per ognuna delle 36 fonti sarebbe il
+  lavoro fatto due volte — ma NON SI FA DIRE AL NUMERO PIU' DI QUANTO
+  MISURA. La serie si riscrive con le etichette: R1 57,7 % (perimetro
+  CCP e tarature) · 2A 3,3 % (dominio cip) · 2B 0,0 % (dominio acqua).
+  Il caso che lo genera va nella riga del registro: nello stesso lotto,
+  script a 0,0 % e giudizio che trova due note scoperte verso il manuale
+  HACCP — misure entrambe vere, di cose diverse. Marcatore accanto a
+  E41. Riga nel registro, occasione «gate del lotto 2B».
+
+Entrambi si applicano ADESSO, prima del completamento: E45 e' il passo
+che stai per eseguire, ed eseguirlo prima di scriverlo sarebbe la
+malattia di E27 un'ultima volta.
+
+---------------------------------------------------------------------
+PARTE 3 — IL COMPLETAMENTO DEL CICLO DI 2B
+---------------------------------------------------------------------
+Nell'ordine, e ogni misura rifatta alla fine porta l'ora (E44):
+
+3.1 REVISIONE COL CANONE, subagente a contesto nuovo, col canone e
+    `alias_entita.md` alla mano, classificazione A/B/C, su tutte le note
+    del perimetro di 2B (candidate + toccate + nate). Bersagli che il tuo
+    §10 elenca: riproduzione indipendente dei conteggi delle note di
+    misura, l'assenza dichiarata col suo artefatto E43, la copertura dei
+    fatti chiave dei tre grezzi. Guardie: i rilievi A si verificano SUI
+    GREZZI prima di correggere; le B vanno nel canone in sezione datata;
+    NIENTE del report entra in una nota senza che un grezzo lo porti; le
+    C si annotano nel decision log.
+
+3.2 Correzioni propagate → RI-GIUDIZIO delle note toccate (E9, con E26
+    come regola d'arresto e E30/E39 a ogni giro) → re-QA di lotto.
+
+3.3 MISURE DI CHIUSURA RIFATTE (E44): qa_all lotto e vault, conta_stato
+    dopo la nota-sessione aggiornata, misura_due_tassi (il terzo punto
+    della serie e' PROVVISORIO finche' la revisione puo' toccare note),
+    conta_tracciamento, collaudo. Ogni numero con l'ora.
+
+3.4 Il rapporto 2B si aggiorna: esito della revisione, serie E41 con le
+    etichette di dominio (E46), e il §10 acquista la chiusura — il passo
+    e' stato eseguito, da chi, quando, con che esito.
+
+3.5 Commit «S4 lotto 2B: completamento — revisione col canone, ciclo
+    intero» + push. Cinque gesti. Zip del vault se le note sono cambiate.
+
+CONDIZIONE DEL GATE: se la revisione produce solo rilievi gestiti nel
+ciclo (A corretti e ri-giudicati, B registrate, C annotate), il lotto 2B
+e' APPROVATO senza un altro giro del coordinatore, e prosegui. Se emerge
+qualcosa di STRUTTURALE — una classe nuova, un guasto di strumento, una
+fuga di canone — STOP: rapporto al coordinatore prima di 2B-bis.
+
+---------------------------------------------------------------------
+PARTE 4 — GIURISPRUDENZA E VIGILANZE (permanenti)
+---------------------------------------------------------------------
+4.1 LA VIGILANZA SU «L'ATTRIBUTO CHE LA FONTE NON DA'» SI CHIUDE, e il
+    verdetto del tuo §5.5 e' RATIFICATO: al terzo giro la classe compare
+    una volta sola, su una nota che il lotto non ha scritto — debito, non
+    produzione. Applicare la lettera del criterio avrebbe fatto diventare
+    emendamento una classe che il metodo non produce piu'.
+
+4.2 Ma la ratifica esige una riga di giurisprudenza, perche' un criterio
+    pre-registrato e' stato RILETTO a numeri visti, e senza regola questo
+    diventa un precedente per truccare. §4.38:
+      UN CRITERIO PRE-REGISTRATO SI PUO' RILEGGERE A NUMERI VISTI SOLO SE
+      la rilettura poggia su una distinzione che il progetto aveva gia'
+      consacrato PER ALTRA VIA e PRIMA dell'esito (qui: debito contro
+      produzione, E41, nata lo stesso giorno del criterio), E il rapporto
+      mostra ENTRAMBE le letture — quella alla lettera e quella
+      applicata — col loro esito. Se manca una delle due condizioni, vale
+      la lettera. (Caso: §5.5 del rapporto 2B, che le mostra entrambe.)
+    E l'occorrenza a debito non sparisce: si conta nel debito della rete
+    finale, con le 29 note di E43.
+
+4.3 LA SPECIE NUOVA DEL §5.4 — l'affermazione universale verificata sul
+    sottoinsieme che l'ha suggerita — si parcheggia col criterio scritto
+    ORA, riga in §6 del passaggio di consegne:
+      se ricompare al TERZO giro di giudizio di 2B-bis SU NOTE NATE O
+      RISCRITTE dal lotto (produzione, non debito — la distinzione di
+      §4.38 si applica in anticipo, non a numeri visti), diventa
+      emendamento con la forma gia' scritta nel §5.4: «un'affermazione di
+      unicita', primato o massimo si scrive col perimetro su cui e' stata
+      verificata, e quel perimetro non e' mai piu' largo delle fonti
+      della nota». Se non ricompare, la riga si chiude.
+
+4.4 Nel passaggio di consegne: §4.38, la riga di §6 del punto 4.3, la §3
+    riscritta a completamento avvenuto coi numeri dal blocco e col
+    prossimo atto, e in §5 una riga sull'episodio della guardia fraintesa
+    — l'errore era nella formulazione del coordinatore, e due sessioni
+    ferme sono il prezzo pagato.
+
+---------------------------------------------------------------------
+PARTE 5 — STOP DICHIARATO
+---------------------------------------------------------------------
+Se dopo il completamento di 2B il contesto e' consumato, CHIUDI QUI: il
+completamento e' un blocco compiuto, committato e pushato, e 2B-bis apre
+a mente fresca nella sessione dopo con questo stesso prompt (la PARTE 6
+e' scritta per essere ripresa da un terminale nuovo). Non aprire 2B-bis
+con quel poco che resta.
+
+---------------------------------------------------------------------
+PARTE 6 — APERTURA DEL LOTTO 2B-bis (allergeni e formazione)
+---------------------------------------------------------------------
+Ciclo di lotto di `prompt_s4_lotti.txt` §3, senza sconti. Due grezzi:
+la matrice di cross-contamination degli allergeni e la formazione
+allergeni 2026. Il conteggio dei fatti e' gia' stato eseguito allo
+spezzamento: riverificalo in apertura, come E21 chiede.
+
+6.1 E37 SCATTA: la scheda allergeni e' una fonte prescrittiva, ed e' la
+    ragione per cui lo spezzamento e' passato di li'. `candidate_r1.py
+    --dominio` ristretto alle fonti che entrano; riaperte e corrette
+    dichiarate nel rapporto; le riaperte fuori dalla capacita'.
+
+6.2 E41 + E46: quarto punto della serie, col dominio dichiarato
+    (`allergeni`). E' anche il primo lotto in cui il tasso di produzione
+    si misura DOPO che E46 ha detto cosa il numero non copre: se il
+    giudizio trova scoperture verso fonti di altri domini, il rapporto le
+    conta a parte, come il §9.1 di 2B prescrive.
+
+6.3 LA SPECIE UNIVERSALE SI OSSERVA QUI (PARTE 4.3): al terzo giro, su
+    note nate o riscritte dal lotto. Il rapporto dichiara l'esito della
+    vigilanza in una riga, qualunque sia.
+
+6.4 Guardia di merito, dalla matrice: gli allergeni stanno con
+    l'autocontrollo e non coi MOCA — la contaminazione crociata e' un
+    pericolo di processo, la migrazione dal film un pericolo di
+    materiale. La formazione allergeni porta presenze e date: E2 verso
+    il registro dei corsi HACCP scaduti (lotto 3, non anticipare: se la
+    gamba manca, tabella di tracciamento).
+
+6.5 RITMO: 2B-bis CHIUDE LA SESSIONE, qualunque cosa dica il contesto
+    residuo. Chiusura piena: ciclo intero, adempimenti del passo 11,
+    cinque gesti, push, zip. Poi il rapporto al coordinatore per il gate.
+
+---------------------------------------------------------------------
+GUARDIE GENERALI
+---------------------------------------------------------------------
+- 03_valutazione\ non si apre mai, per nessuno, subagenti compresi.
+- Il canone guida e non appare NELLE NOTE; il revisore lo riceve (E45),
+  il giudizio mai.
+- Ogni numero da script, con l'ora della misura (E44).
+- Se qualcosa qui contraddice metodo_03, vince metodo_03 e lo segnali.
+=====================================================================

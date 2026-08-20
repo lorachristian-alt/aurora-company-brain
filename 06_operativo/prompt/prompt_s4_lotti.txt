@@ -41,7 +41,7 @@ l'occasione tipica, non la condizione.
 §1 STUDIO PRELIMINARE (ogni sessione, anche le successive)
 ---------------------------------------------------------------------
 1. 01_metodo\metodo_03_canonizzazione.md — INTEGRALE. E' il manuale
-   supremo, con i 44 emendamenti gia' dentro. In caso di contrasto con
+   supremo, con i 46 emendamenti gia' dentro. In caso di contrasto con
    questo prompt, vince metodo_03 e lo segnali.
 2. 06_operativo\registro_emendamenti.md — l'indice genealogico: serve
    a vedere in dieci secondi se questo prompt e' rimasto indietro.
@@ -56,6 +56,9 @@ l'occasione tipica, non la condizione.
 7. 01_metodo\canone_aurora.md — GUIDA la tua comprensione, non appare
    MAI: mai citato come fonte, mai copiato nel vault, mai parafrasato
    in una nota. Ogni fatto scritto discende da un grezzo.
+   ATTENZIONE (E45) — questa guardia vale per le NOTE, non per il
+   revisore del passo 7, che il canone DEVE riceverlo. Due sessioni si
+   sono fermate credendo il contrario: non e' mai stato vietato.
 
 PERIMETRO: 03_valutazione\ NON si apre MAI, per nessuna ragione.
 02_corpus\ e 05_rag_produzione\ non si toccano (la config C e'
@@ -117,7 +120,13 @@ cosa sola, ma decisiva:
    passo e' un controllo.
 
    E IL RAPPORTO DICHIARA I DUE TASSI (E41), da `misura_due_tassi.py`,
-   tenuti separati perche' misurano cose diverse: il TASSO DI
+   tenuti separati perche' misurano cose diverse — e ciascuno COL NOME
+   DEL DOMINIO su cui e' misurato (E46): lo script controlla il dominio
+   dichiarato, il giudice guarda tutte le fonti, e un numero che si
+   chiama «difetto di produzione» senza il suo dominio dice piu' di
+   quanto misura. Nato in 2B: script a 0,0 % sul dominio `acqua` mentre
+   il giudizio trovava due note scoperte verso il manuale HACCP —
+   misure entrambe vere, di cose diverse: il TASSO DI
    RIAPERTURA (note vecchie riaperte / corrette) misura il DEBITO
    ereditato; il TASSO DI DIFETTO DI PRODUZIONE (note nate nel lotto
    che parlano del dominio senza la fonte che lo governa) misura il
@@ -269,7 +278,17 @@ cosa sola, ma decisiva:
    padrona altrove. Le segnalazioni respinte si motivano una per una
    nel rapporto, non si scartano in blocco.
 
-7. REVISIONE COL CANONE. Sessione diversa da quella che ha scritto.
+7. REVISIONE COL CANONE. Sessione diversa da quella che ha scritto —
+   e «SESSIONE DIVERSA» SIGNIFICA CONTESTO DIVERSO (E45): un subagente
+   a contesto NUOVO, lanciato da questa sessione col canone e
+   `alias_entita.md` alla mano, QUALIFICA. Il perimetro e' garantito
+   dalla fisica del contesto, non da chi preme il tasto di lancio. Le
+   due fughe di canone del progetto sono nate da CHI SCRIVEVA le note,
+   mai dal revisore, che il canone deve averlo: la categoria C esiste
+   perche' quattro revisori senza canone segnalarono 82 trappole.
+   Contenimento: i rilievi A si verificano SUI GREZZI prima di
+   correggere; niente del report del revisore entra in una nota senza
+   che un grezzo lo porti; dopo le correzioni, ri-giudizio (E9).
    A = errore vero, si corregge e si propaga alle note sorelle;
    B = divergenza reale non registrata, si apre la questione e si
    aggiunge una riga al canone in sezione datata (il canone si
@@ -472,8 +491,8 @@ STOP-LOSS E COSA NON FARE
 ---------------------------------------------------------------------
 ALLINEAMENTO DI QUESTO PROMPT
 ---------------------------------------------------------------------
-Allineato al: 2026-08-20, dopo il gate del lotto 2A.
-Ultimo emendamento recepito: E44.
+Allineato al: 2026-08-21, dopo il gate del lotto 2B.
+Ultimo emendamento recepito: E46.
 Scritto dal coordinatore: questo file e' l'istruzione DATA alla
 sessione, e una sessione non riscrive le proprie istruzioni.
 Recepiti rispetto alla versione precedente (ferma al gate S2, 19
@@ -490,9 +509,12 @@ cautela si propaga a ogni superficie di sintesi · E40 la prescrizione
 si linka, non si ricopia · E41 ogni lotto dichiara i due tassi · E42 la
 cautela si propaga nello stesso turno · E43 l'assenza lascia l'artefatto
 della ricerca · E44 le misure di chiusura si prendono dopo l'ultima
-scrittura e portano l'ora. E41-E44 nascono col gate di 2A: la prima
-sessione che usa questa versione li applica a metodo_03 e al registro
-PRIMA di aprire il lotto.
+scrittura e portano l'ora · E45 «sessione diversa» significa contesto
+diverso — il subagente a contesto nuovo qualifica, per la revisione
+(che il canone lo riceve) come per il giudizio (che non lo riceve) ·
+E46 i due tassi si dichiarano col nome del dominio misurato. E45 ed
+E46 nascono col gate di 2B: la prima sessione che usa questa versione
+li applica a metodo_03 e al registro PRIMA di aprire il lotto.
 CONTROLLO DI SCOSTAMENTO: confronta questa riga con l'ultima riga di
 `registro_emendamenti.md`. Se il registro e' piu' avanti, il prompt e'
 vecchio: dillo nel rapporto, non compensare a mano.
