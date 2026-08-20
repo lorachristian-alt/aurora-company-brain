@@ -147,6 +147,35 @@ DOMINI = {
         ],
         "cosa": "lavaggio CIP, sanificazione, conducibilita' e prodotti chimici di lavaggio",
     },
+    # Lotto 2B. La scheda allergeni (PRPo1) prescrive matrice, sequenze di produzione,
+    # tipi di lavaggio, validazione della pulizia, rework, etichettatura precauzionale e
+    # segregazione a magazzino. E' la fonte che GOVERNA il rischio allergeni del sito.
+    "allergeni": {
+        "fonti": {
+            "scheda_allergeni_matrice_cross_contamination.docx",
+        },
+        "espressioni": [
+            r"allergen", r"glutin", r"sesamo", r"frutta a guscio", r"soia",
+            r"contaminazione crociat", r"cross[- ]contamination", r"rework",
+            r"sequenza di produzione", r"puo' contenere", r"può contenere",
+            r"etichettatura precauzional", r"PAL", r"PRPo1",
+        ],
+        "cosa": "allergeni, contaminazione crociata, sequenze di produzione, rework ed etichettatura precauzionale",
+    },
+    # Lotto 2B. Il piano di autocontrollo dell'acqua potabile prescrive punti di prelievo,
+    # parametri, metodi e valori di parametro del D.Lgs. 18/2023: e' la fonte che governa
+    # la qualita' dell'acqua usata in stabilimento, CIP e ghiaccio compresi.
+    "acqua": {
+        "fonti": {
+            "piano_autocontrollo_acqua_potabile_analisi.csv",
+        },
+        "espressioni": [
+            r"acqua potabil", r"acqua di rete", r"potabilit", r"addolcitor",
+            r"cloro residu", r"ghiaccio", r"coliform", r"E\.\s?coli",
+            r"enterococch", r"durezza total", r"D\.Lgs\.?\s*18/2023",
+        ],
+        "cosa": "acqua potabile, punti di prelievo, parametri di potabilita' e acqua di processo",
+    },
 }
 for _d in DOMINI.values():
     _d["rx"] = [re.compile(r, re.I) for r in _d["espressioni"]]

@@ -1,0 +1,17 @@
+# Note RIAPERTE dal lotto lotto_02b_allergeni — riconciliazione verticale ARRETRATA (E37).
+# GENERATO da 06_operativo\candidate_r1.py --dominio allergeni il 2026-08-20.
+# Criterio: la nota parla di allergeni, contaminazione crociata, sequenze di produzione, rework ed etichettatura precauzionale,
+# e fra le sue fonti non c'e' nessuna delle fonti che governano quel
+# dominio: scheda_allergeni_matrice_cross_contamination.docx.
+# Non si edita a mano: si rilancia lo script.
+fatto-programma-p2-ogni-giorno
+doc-criteri-accettazione-cip
+doc-manuale-haccp
+doc-programmi-cip-per-linea
+doc-scheda-tecnica-af-sn-0450
+# --- da qui in giu': note toccate in corso di lotto (E32) ---
+# Preesistenti, che il lotto modifica senza citarne i grezzi.
+# --- da qui in giu': note NATE in questo lotto ---
+# Si dichiarano QUANDO SI CREANO, non si deducono a fine lotto: e'
+# la stessa disciplina di E32 applicata alle note nuove, e serve a
+# conta_perimetro_lotto.py, che i numeri del perimetro li legge da qui.

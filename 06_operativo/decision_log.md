@@ -1261,3 +1261,86 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   Ritoccarle per farle combaciare con la data dichiarata del lotto sarebbe **falsificare un dato
   per rendere piu' bella una tabella**. Il rapporto lo dice in chiaro, perche' al gate finale chi
   confronta le date trovera' due giorni e deve sapere perche'.
+- **2026-08-20** · lotto 2B, apertura · **IL LOTTO SI SPEZZA PRIMA DI SCRIVERE UNA RIGA** · il
+  conteggio dei fatti in apertura (E21) proiettava **oltre le 40 note** sui cinque grezzi, e
+  sopra quaranta E28 non lascia scelta. `lotto_02b_autocontrollo_igiene.txt` non esiste piu':
+  al suo posto **2B** (tamponi, acqua potabile, acque reflue) e **2B-bis** (scheda allergeni,
+  formazione). ⚠️ **Il taglio non passa dove passerebbe guardando la dimensione:** da una parte
+  i registri che portano **risultati di misura con un limite**, dall'altra il **sistema
+  prescrittivo** degli allergeni. La ragione e' che la scheda allergeni **apre da sola un
+  dominio di riconciliazione verticale** (E37): tenerla qui avrebbe messo due riconciliazioni
+  in un lotto solo, e **nessuna delle due sarebbe stata fatta per intero**.
+- **2026-08-20** · lotto 2B · **T72 E' LA PRIMA RIGA DI TRACCIAMENTO CHIUSA DA UN LOTTO
+  SUCCESSIVO CON UN DATO** · il criterio di accettazione del risciacquo CIP e' uno **scarto
+  dall'acqua di rete**, e il lotto 2A lo aveva dichiarato non verificabile perche' quel valore
+  non era nel vault. Ora c'e': **486 µS/cm**, e il limite diventa **536**. Applicato ai cicli di
+  maggio risulta **superato in 18 su 28** se fa fede l'ultima lettura del risciacquo, in **24**
+  se fa fede la piu' alta. ⚠️ **Il numero porta tre condizioni dichiarate**, e la piu' scomoda
+  e' che **la risoluzione del log e' il doppio della tolleranza del criterio**: scalini da 100
+  µS/cm contro un margine di 50. ⚠️ **La nota di 2A e' stata riaperta e corretta**, non lasciata
+  com'era: e' la differenza fra chiudere una riga e dichiararla chiusa.
+- **2026-08-20** · lotto 2B · **E43 ALLA PRIMA ESECUZIONE HA FATTO TRE COSE, E LA TERZA E' LA
+  PIU' UTILE** · la ricerca su tutto `sources\` ha (1) **impedito un'affermazione falsa** —
+  l'assenza era scritta male e la ricerca l'ha fatta cadere; (2) fatto emergere un fatto che il
+  lotto non avrebbe visto; (3) ⚠️ **impedito un DOPPIONE**: il fatto emerso aveva gia' una nota
+  padrona nel vault, scritta in 2A, e stavo per riscriverlo con la sua fonte e il suo locator.
+  **Un doppione non lo trova nessun controllo automatico**, e questo l'ha trovato una regola
+  nata per un altro scopo.
+- **2026-08-20** · lotto 2B · **IL TASSO DI DIFETTO DI PRODUZIONE MISURA UN DOMINIO SOLO, E VA
+  DETTO OGNI VOLTA** · `misura_due_tassi.py` da' **0,0 %** (0 su 27) sul dominio `acqua`, ma lo
+  strato di giudizio ha trovato **due note che parlavano di zoning dei tamponi e di frequenza
+  di potabilita' senza citare il manuale HACCP**, che prescrive entrambi. ⚠️ **Le due misure
+  non si contraddicono: misurano cose diverse** — lo script controlla il dominio dichiarato, il
+  giudice guarda tutte le fonti del pacchetto. Ma il numero si chiama «tasso di difetto di
+  produzione», e chi lo legge capisce *tutte* le prescrizioni. **Candidato emendamento: il
+  tasso si dichiara col nome del dominio su cui e' misurato.** Non si propone di allargare lo
+  script: allargarlo vorrebbe dire dichiarare un dominio per ognuna delle trentasei fonti
+  prescrittive del corpus.
+- **2026-08-21** · lotto 2B, chiusura · ⚠️ **IL GIUDIZIO NON CONVERGE IN TRE GIRI, E LA SPECIE
+  NOMINATA E' NUOVA: L'AFFERMAZIONE UNIVERSALE VERIFICATA SUL SOTTOINSIEME CHE L'HA SUGGERITA**
+  · 8, 2 e 3 rilievi accolti. «i quattro valori **piu' alti dell'anno**» — falso, maggio li
+  supera; «l'**unica** non conformita' **dell'archivio** su una persona» — falso, il registro NC
+  ne porta un'altra; «l'**unico** punto col limite a 500» — ce n'e' un secondo; «**nessuno dei
+  due** documenti cita l'altro» — uno cita l'altro. ⚠️ **Perche' si rigenera, ed e' meccanico:**
+  scrivere una nota significa leggere a fondo **un** documento, e un superlativo sembra il
+  riassunto di quella lettura. **Ma «l'unico» non e' un aggettivo: e' un quantificatore
+  universale**, e le sue condizioni di verita' stanno **fuori dal testo che si ha davanti**. La
+  specie **non si elimina scrivendo meglio, perche' nasce dallo scrivere bene**. Si ripara in
+  un modo solo: **restringendo la frase al perimetro che si e' davvero guardato** — e tutte e
+  tre le correzioni hanno sostituito «dell'archivio» con «di questo registro».
+- **2026-08-21** · lotto 2B, chiusura · **LA VIGILANZA APERTA AL GATE DI 2A SI CHIUDE, E LA
+  LETTURA VA DATA PER INTERO PERCHE' E' AL LIMITE** · il criterio era: se «l'attributo che la
+  fonte non da'» ricompare **al terzo giro** del prossimo lotto, diventa emendamento. Al terzo
+  giro, dei tre rilievi accolti, **due sono della specie nuova** e uno solo — gli orari dei
+  turni — e' della vecchia. ⚠️ **E quell'uno sta in una nota che questo lotto NON ha scritto**:
+  viene da un lotto precedente e il lotto l'ha soltanto toccata. **E' debito, non produzione**,
+  ed e' esattamente la distinzione che E41 esiste per misurare. Far diventare emendamento una
+  classe che al terzo giro **non si e' piu' prodotta**, sulla base di un difetto ereditato,
+  sarebbe applicare il criterio contro il suo scopo. **La riga si chiude**, e al suo posto il
+  gate riceve la specie nuova.
+- **2026-08-21** · lotto 2B · ⚠️ **LA REVISIONE COL CANONE NON E' STATA ESEGUITA, E IL LOTTO NON
+  SI DICHIARA VERIFICATO DAL CANONE** · il passo 7 del ciclo la richiede; le guardie generali
+  del prompt di sessione dicono «`03_valutazione\` non si apre mai», e **un subagente lanciato
+  da qui e' questa sessione**. ⚠️ **Fra lasciare un passo scoperto e contaminare il vault ho
+  scelto il primo, che e' reversibile:** le due sole fughe di canone del progetto sono nate
+  esattamente da li'. **Che cosa manca, in concreto:** la riproduzione indipendente dei
+  conteggi, il controllo sulle assenze dichiarate, e la copertura dei fatti chiave che solo il
+  canone conosce — cioe' il passaggio che in 2A trovo' le due assenze false. Il gate deve
+  saperlo **prima** di approvare.
+- **2026-08-21** · lotto 2B · **IL PACCHETTO PER IL GIUDIZIO E' STATO GENERATO TROPPO PRESTO,
+  ED E' UN MIO ERRORE DI PROCESSO** · E33 vuole il pacchetto **dopo** la QA e la rilettura. L'ho
+  generato al primo verde e **poi** ho fatto il lavoro di T72: una nota e' nata dopo, altre sono
+  cambiate. Me ne sono accorto prima che il giudice finisse, ho rigenerato, e **il giudizio che
+  conta ha letto il testo corrente**. ⚠️ **Il pacchetto scartato resta agli atti col suo nome** —
+  `pacchetto_giudizio_SCARTATO_generato_troppo_presto.txt` — perche' e' esattamente il difetto
+  per cui E33 esiste. **La lezione non e' «rigenerare»: e' che l'ordine dei passi non ammette un
+  lavoro grosso in mezzo.**
+- **2026-08-21** · lotto 2B · **UNA POSITIVITA' A LISTERIA CHE UN REGISTRO HA E L'ALTRO NO** ·
+  `NC-2026-034` del 24/02/2026, gravita' **critica**: «Positivita Listeria spp. su tampone
+  ambientale zona scarico Linea 3». **Il registro dei tamponi non porta ne' quella data ne' quel
+  risultato.** Le spiegazioni possibili — prelievo fuori piano, specie diverse (`Listeria spp.`
+  contro `Listeria monocytogenes`), registro incompleto — **nessuna fonte dell'archivio le
+  distingue**. ⚠️ **Chi guardasse il solo `MOD-QA-19`, come farebbe un auditor, vedrebbe una
+  positivita' nell'anno invece di due.** Riga **T82**, questione aperta dichiarata. ⚠️ **L'ha
+  trovata lo strato di giudizio al secondo giro, non la scrittura**: e' il terzo caso in questo
+  lotto in cui il giudice trova cio' che la lettura di un documento solo non poteva vedere.

@@ -265,3 +265,30 @@ scheda_sicurezza_detergente_acido_lavaggio_CIP.txt;Il prodotto della scheda non 
 scheda_sicurezza_detergente_acido_lavaggio_CIP.txt;Due prescrizioni in vigore sui DPI dell'acido;areas;questione-dpi-cip-due-prescrizioni;2A;fatta
 scheda_sicurezza_detergente_acido_lavaggio_CIP.txt;La verifica del lavaocchi: settimanale per la scheda, mensile per la prassi;areas;questione-frequenza-verifica-lavaocchi-cip;2A;fatta
 non_conformita_interne_registro_2026.csv;Le quattro non conformita' del CIP nel 2026, e la NC che contesta il criterio di risciacquo;areas;fatto-nc-cip-2026;2A;fatta
+registro_tamponi_superfici_listeria_salmonella.csv;Il piano MOD-QA-19 letto dalle colonne del registro: tre zone di rischio, ventuno punti e limiti diversi per lo stesso parametro;docs;doc-piano-tamponi-superfici;2B;fatta
+registro_tamponi_superfici_listeria_salmonella.csv;148 righe di risultato da gennaio a maggio, dieci campagne, otto non conformi e una senza esito;data;kpi-tamponi-superfici-2026;2B;fatta
+registro_tamponi_superfici_listeria_salmonella.csv;Listeria monocytogenes PRESENTE nello scarico sotto PT-104 il 13/04, e il campionamento esteso a cinque scarichi;areas;fatto-listeria-scarico-pt-104-aprile;2B;fatta
+registro_tamponi_superfici_listeria_salmonella.csv;I quattro punti di zona 1 della Linea 1 salgono insieme ad aprile, con la promo indicata come causa dal compilatore;areas;fatto-carica-in-salita-linea-1-aprile;2B;fatta
+registro_tamponi_superfici_listeria_salmonella.csv;NC-26-055: il nastro del forno FT-01 a 52 su un limite di 50, in fondo a un trend annotato da aprile;areas;fatto-nc-26-055-nastro-forno-maggio;2B;fatta
+registro_tamponi_superfici_listeria_salmonella.csv;NC-26-056: le ganasce PKM-450 a 1,2x10^3 il giorno dopo l'intervento sulla valvola azoto;areas;fatto-nc-26-056-ganasce-pkm-450-maggio;2B;fatta
+registro_tamponi_superfici_listeria_salmonella.csv;NC-26-018: le ruote dei carrelli fuori scala a febbraio, e la pulizia settimanale entrata a piano;areas;fatto-nc-26-018-ruote-carrelli-febbraio;2B;fatta
+registro_tamponi_superfici_listeria_salmonella.csv;L'unica non conformita' su una persona: le mani dell'addetto farcitura, chiusa con richiamo e ripetizione;areas;fatto-mani-addetto-farcitura-non-conforme;2B;fatta
+registro_tamponi_superfici_listeria_salmonella.csv;La riga senza risultato: dato non pervenuto dal laboratorio, e nessun rapporto successivo lo integra;areas;fatto-lettura-mancante-registro-tamponi;2B;fatta
+registro_tamponi_superfici_listeria_salmonella.csv;Quattro grafie di data nello stesso registro, e l'intestazione delle colonne ripetuta a meta' file;areas;fatto-date-in-quattro-grafie-registro-tamponi;2B;fatta
+registro_tamponi_superfici_listeria_salmonella.csv;La frequenza prescritta da IO-05 e quella documentata dal registro non coincidono: divergenza di ritmo, non di volume;areas;questione-frequenza-tamponi-prescritta-e-reale;2B;fatta
+piano_autocontrollo_acqua_potabile_analisi.csv;Il piano dell'acqua letto dai rapporti di prova: sei punti di prelievo e due regimi di analisi;docs;doc-piano-autocontrollo-acqua;2B;fatta
+piano_autocontrollo_acqua_potabile_analisi.csv;La conducibilita' per punto di prelievo: 486 alla rete, misura unica dell'archivio;data;kpi-conducibilita-acqua-per-punto;2B;fatta
+piano_autocontrollo_acqua_potabile_analisi.csv;NC-ACQ-26-01: coliformi e carica nel produttore di ghiaccio, e la verifica supplementare a quattro settimane;areas;fatto-nc-acq-26-01-ghiaccio-aprile;2B;fatta
+piano_autocontrollo_acqua_potabile_analisi.csv;Il cloro residuo al produttore di ghiaccio scende per tre mesi prima della non conformita';areas;fatto-cloro-residuo-ghiaccio-in-calo;2B;fatta
+piano_autocontrollo_acqua_potabile_analisi.csv;NC-ACQ-26-02: il ferro oltre il limite al lavabo degli spogliatoi, e il flussaggio che lo riporta dentro;areas;fatto-nc-acq-26-02-ferro-spogliatoi-aprile;2B;fatta
+piano_autocontrollo_acqua_potabile_analisi.csv;La durezza dell'acqua addolcita sotto il valore consigliato, dichiarata come deroga invece che come deviazione;areas;fatto-durezza-acqua-addolcita-in-deroga;2B;fatta
+piano_autocontrollo_acqua_potabile_analisi.csv;Il dubbio del compilatore sul modulo di chiusura, sciolto dal manuale HACCP;areas;fatto-modulo-nc-acqua-riconciliato;2B;fatta
+piano_autocontrollo_acqua_potabile_analisi.csv;Il criterio di conducibilita' del risciacquo CIP, applicato con il valore dell'acqua di rete;areas;fatto-criterio-conducibilita-cip-superato;2B;fatta
+analisi_acque_reflue_autocontrollo_2026.xlsx;L'autocontrollo dello scarico S1: dodici parametri, limiti di tabella, frequenza trimestrale;docs;doc-autocontrollo-scarico-s1;2B;fatta
+analisi_acque_reflue_autocontrollo_2026.xlsx;Quattro prelievi nel 2026 con un solo superamento, e lo storico 2025 che lo colloca fuori serie;data;kpi-parametri-scarico-s1-2026;2B;fatta
+analisi_acque_reflue_autocontrollo_2026.xlsx;Il superamento dei grassi del 19/03, e la causa che l'azienda si attribuisce nella relazione al gestore;areas;fatto-superamento-grassi-scarico-marzo;2B;fatta
+analisi_acque_reflue_autocontrollo_2026.xlsx;La pulizia del degrassatore da semestrale a trimestrale: l'unica azione che sopravvive all'evento;areas;fatto-degrassatore-frequenza-trimestrale;2B;fatta
+analisi_acque_reflue_autocontrollo_2026.xlsx;Tre medie dichiarate e mai calcolate, una con errore di formula;areas;fatto-medie-non-calcolate-file-reflue;2B;fatta
+analisi_acque_reflue_autocontrollo_2026.xlsx;Il blocco di appunti informali in coda al foglio, e il pozzetto di prelievo pieno di fango;areas;fatto-appunti-in-coda-file-reflue;2B;fatta
+registro_tamponi_superfici_listeria_salmonella.csv;Il laboratorio esterno accreditato che esegue tutti e tre gli autocontrolli;entities;entita-analytica-veneta;2B;fatta
+registro_tamponi_superfici_listeria_salmonella.csv;Una positivita a Listeria del 24/02 che il registro delle non conformita porta e il registro dei tamponi no;areas;questione-listeria-24-02-non-nel-registro-tamponi;2B;fatta

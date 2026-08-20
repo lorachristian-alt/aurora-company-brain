@@ -3,13 +3,14 @@
 > **Cos'è** · Lo stato di oggi del vault: cosa è stato canonizzato, con quale esito, e
 > cosa resta. Solo stato, mai una regola: le regole stanno in
 > `01_metodo\metodo_03_canonizzazione.md`, le decisioni in `06_operativo\decision_log.md`.
-> **Aggiornato al** · 20/08/2026, **GATE del lotto 2A**, che lo ha **APPROVATO** e ha prodotto
-> **quattro emendamenti in un colpo solo — E41, E42, E43, E44** — il massimo finora da un
-> singolo gate, e tre dei quattro nati da un errore commesso. Prima, il 19/08: la **chiusura
-> del lotto 2A** (il lavaggio CIP, primo lotto del tema 2 e **primo esperimento del metodo**),
-> il **gate del lotto R1** con **E39** ed **E40**, e prima ancora la manutenzione degli
-> strumenti, E34 ed E35, il gate intermedio con E36-E38 e la chiusura di R1. Tutti i numeri qui
-> dentro sono riportati da script, **e da E44 ognuno porta l'ora della propria misura**.
+> **Aggiornato al** · **21/08/2026, chiusura del lotto 2B** — l'autocontrollo analitico:
+> tamponi di superficie, acqua potabile, acque reflue. ⚠️ **Il lotto è arrivato con cinque
+> grezzi e ne ha canonizzati tre**: si è spezzato in apertura (E28) e gli allergeni sono
+> passati a **2B-bis**. Prima, il 20/08: il **GATE del lotto 2A**, che lo ha **APPROVATO** e ha
+> prodotto **E41-E44**, quattro emendamenti da un solo gate. Prima ancora, il 19/08: la
+> chiusura di 2A, il gate di R1 con E39 ed E40, la manutenzione degli strumenti, E34 ed E35, il
+> gate intermedio con E36-E38 e la chiusura di R1. Tutti i numeri qui dentro sono riportati da
+> script, **e da E44 ognuno porta l'ora della propria misura**.
 > Lo stato della pipeline RAG sta in `06_operativo\stato_rag_produzione.md`, non qui; il
 > piano dei lotti e la tabella di tracciamento delle questioni trasversali stanno in
 > `06_operativo\matrice_lotti_corpus_v1.md`, non qui.
@@ -20,13 +21,13 @@
 
 | | |
 |---|---|
-| Lotti chiusi | **5 di canonizzazione** — `l26130` (fetta pilota, S2), **`1A`** (Linea 1: turno, CCP, confezionatrice), **`1B`** (freddo ed energia), **`1C`** (metrologia e gas tecnici) e **`2A`** (il lavaggio CIP) — **più `R1`**, il primo **lotto di manutenzione** (E35), approvato al suo gate il 19/08/2026. ⚠️ **R1 vale un lotto nel ritmo ma NON entra nella serie della capacità** (E38): misura riparazioni, non produzione |
+| Lotti chiusi | **6 di canonizzazione** — `l26130` (fetta pilota, S2), **`1A`** (Linea 1: turno, CCP, confezionatrice), **`1B`** (freddo ed energia), **`1C`** (metrologia e gas tecnici) **`2A`** (il lavaggio CIP) e **`2B`** (l'autocontrollo analitico) — **più `R1`**, il primo **lotto di manutenzione** (E35), approvato al suo gate il 19/08/2026. ⚠️ **R1 vale un lotto nel ritmo ma NON entra nella serie della capacità** (E38): misura riparazioni, non produzione |
 | Grezzi copiati nel vault | 160/160, verificati contro `manifest_corpus_v1.1.json`: zero scarti, zero estranei, zero sottocartelle |
 | I conteggi del vault | nel blocco qui sotto, **incollato verbatim** da `conta_stato.py` |
 | Suite QA | **verde sul perimetro di lotto**; sul vault tre controlli su quattro sono a zero errori. ⚠️ Dal gate di 2A la QA ha **due controlli nuovi**: l'artefatto di ricerca che E43 impone a chi dichiara un'assenza, e **l'omogeneità dei fine riga** — il primo controllo del progetto che non guarda il contenuto di una nota ma il suo **supporto** |
 | `llms.txt` | rigenerato dal frontmatter, allineato |
 | Matrice dei lotti | 160/160 grezzi, zero scoperti, zero doppi (`verifica_matrice_lotti.py` verde). ⚠️ **I budget dei lotti 2-10 sono SUPERATI** e il piano non è più a 12 lotti: vale **E31**, la capacità di 25-35 note per lotto, e i grezzi si decidono in apertura. **Stima: circa 28-30 lotti**, scritta anche nella scaletta perché cambia il calendario di S4-S5. Ridisegnato in dettaglio **solo il tema 2** (2A · 2B · 2C) |
-| **PROSSIMO ATTO** | **Il lotto 2B — l'autocontrollo di igiene**, aperto dal gate del 20/08/2026. Cinque grezzi: tamponi di superficie, acqua potabile, acque reflue, matrice degli allergeni, formazione sugli allergeni. Porta l'obbligo principale **T72** — la conducibilità dell'acqua di rete, il termine mancante del criterio del CIP — la **seconda misura della serie di E41** e il **primo esercizio di E43**. ⚠️ **Gira da solo**, e la ragione è empirica: la sessione di 2A è stata uccisa a metà da un limite di quota, ed è andata bene solo perché il gate precedente era già pushato |
+| **PROSSIMO ATTO** | **Il GATE del lotto 2B**: il rapporto `06_operativo\rapporto_lotto_02b.md` va al coordinatore. ⚠️ **Porta tre cose che il gate deve pesare**: il lotto **si è spezzato in apertura** e 2B-bis è già misurato e pronto; il giudizio **non è converso** in tre giri e il rapporto **nomina la specie** — l'affermazione universale verificata sul sottoinsieme che l'ha suggerita; e ⚠️ **la revisione col canone NON è stata eseguita**, perché le guardie della sessione vietano di aprire `03_valutazione\`. Dopo l'approvazione: **2B-bis** (gli allergeni) |
 
 ⚠️ **Errata del 19/08/2026 sui numeri del lotto 1A.** Questo stato dichiarava «105 note, di
 cui 11 `_index` e 6 note-strumento: 88 di contenuto». `qa_all.py` a chiusura di 1A contava
@@ -36,22 +37,22 @@ prescrive la regola del gate 1A.
 
 ## I conteggi, da script
 
-<!-- CONTEGGI DEL VAULT — generati da `06_operativo\qa\conta_stato.py` il 2026-08-20.
+<!-- CONTEGGI DEL VAULT — generati da `06_operativo\qa\conta_stato.py` il 2026-08-21.
      Si incollano VERBATIM: non si ricompongono a mano, non si riscrivono in prosa. -->
 
 | Grandezza | Valore |
 |---|---|
-| Note nel vault | **218** |
+| Note nel vault | **246** |
 | di cui `_index` | 11 |
 | di cui note-strumento del progetto | 14 |
-| di cui note di diario (`sessione`, `daily`) | 5 |
-| **di cui note di contenuto** | **188** |
-| Note per cartella | areas 109 · data 26 · entities 24 · docs 19 · code 15 · projects 8 · workspace 8 · concepts 6 · self 1 · outputs 1 · sources 1 |
-| Note per `type` | atomica 128 · conflitto 37 · entita 19 · hub 13 · index 11 · concetto 5 · sessione 5 |
-| Questioni aperte (`type: conflitto`) | 37 |
+| di cui note di diario (`sessione`, `daily`) | 6 |
+| **di cui note di contenuto** | **215** |
+| Note per cartella | areas 129 · data 29 · entities 25 · docs 22 · code 15 · workspace 9 · projects 8 · concepts 6 · self 1 · outputs 1 · sources 1 |
+| Note per `type` | atomica 152 · conflitto 39 · entita 20 · hub 13 · index 11 · sessione 6 · concetto 5 |
+| Questioni aperte (`type: conflitto`) | 39 |
 | Grezzi in `sources\` | 160 |
-| Grezzi citati da almeno una nota | **38** |
-| Grezzi restanti | **122** |
+| Grezzi citati da almeno una nota | **41** |
+| Grezzi restanti | **119** |
 
 ⚠️ **Questo blocco non si riscrive a mano.** Nasce al gate del lotto 1B da due sviste di
 conteggio in due lotti — 46 contro 32 nel rapporto 1A, 105 e 88 in questo stato quando
@@ -274,18 +275,16 @@ apporto_lotto_1a.md`.
 
 ## Il perimetro vault
 
-⚠️ **Misurato il 20/08/2026 alle 22:25:02-22:25:27**, dopo l'ultima scrittura del gate (E44).
+⚠️ **Misurato il 21/08/2026 alle 00:01:20**, dopo l'ultima scrittura del lotto 2B (E44).
 
 | Controllo | Errori su tutto il vault |
 |---|---|
-| `qa_frontmatter` | **0** (110 avvisi, di cui **29 sono il debito dichiarato di E43**) |
-| `qa_link_integrity` | **0** |
-| `qa_provenance` | **0** |
-| `qa_copertura` | **126** — 122 grezzi non ancora canonizzati, 3 aree senza hub, **1 rilievo di merito** |
-| **totale suite** | **126 errori, 178 avvisi** |
+| `qa_frontmatter` · `qa_link_integrity` · `qa_provenance` | **0 ciascuno** |
+| `qa_copertura` | **123** — 119 grezzi non ancora canonizzati, 3 aree senza hub, **1 rilievo di merito** |
+| **totale suite** | **123 errori, 193 avvisi** |
 
-⚠️ **Per la prima volta il totale del vault SCENDE** — era 128 al gate di 1C — e scende perché
-tre grezzi sono stati canonizzati da 2A. **Ma non tutti gli errori sono più incompletezza**:
+⚠️ **Il totale del vault scende per la seconda volta consecutiva** — 128 → 126 → **123** — e
+scende ogni volta **esattamente dei grezzi che il lotto ha canonizzato**. **Ma non tutti gli errori sono più incompletezza**:
 il centoventiseiesimo è un **rilievo di merito**, il controllo delle doppie padrone che
 accosta due note per i valori `0,9 · 1,1 · 1,4`. È un **falso positivo dimostrabile** — le due
 note non hanno nessuna fonte in comune e i numeri sono grandezze diverse con unità diverse —
@@ -465,3 +464,29 @@ giudizio, e senza il secondo giro sarebbe rimasta.
 | chiusa | **2** | T20, T33 |
 | tracciata | **26** | T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T19, T21, T29, T31, T34, T39, T40, T41, T49, T50, T51, T52, T53, T54 |
 | **totale righe** | **54** | da T1 a T54, nessuna mancante e nessuna duplicata |
+
+## Il lotto 2B, chiuso il 20-21/08/2026 — l'autocontrollo analitico
+
+⚠️ **Il lotto sta a cavallo della mezzanotte, come 2A**: le note portano `data_nota:
+2026-08-20`, la nota-sessione porta **2026-08-21** perché è stata scritta dopo, e in `qa\`
+ci sono due cartelle datate. **Nessuna data è stata ritoccata.**
+
+| | |
+|---|---|
+| Grezzi | **3 su 5** — il lotto si è spezzato in apertura (E28), gli allergeni vanno a **2B-bis** |
+| Note nate | **27** di contenuto, dentro la capacità 25-35 di E31 |
+| Note riaperte (E37, dominio `acqua`) | **5**, di cui **3 corrette** |
+| Note toccate (E32) | **9** |
+| Giri di giudizio | **3** — 8, 2 e 3 rilievi accolti. **Non converge**, e il rapporto **nomina la specie** invece di fare un quarto giro |
+| Righe di tracciamento | **T72 chiusa**, T71 e T82 aperte dichiarate, T77 riconciliata, sei nuove tracciate. Totale **82** |
+| Revisione col canone | ⚠️ **NON eseguita** — le guardie della sessione vietano `03_valutazione\` |
+
+**Che cosa ha chiuso.** La conducibilità dell'acqua di rete — **486 µS/cm** — è entrata nel
+vault, e il criterio del risciacquo CIP che 2A aveva dichiarato non verificabile è stato
+applicato: **superato in 18 cicli su 28** se fa fede l'ultima lettura, in **24** se fa fede la
+più alta. ⚠️ **È la prima riga di tracciamento del progetto chiusa da un lotto successivo con
+un dato**, non con una decisione.
+
+**Che cosa ha aperto.** Una positività a **Listeria del 24/02/2026**, gravità critica, che sta
+nel registro delle non conformità e **non** in quello dei tamponi: chi guardasse il solo
+`MOD-QA-19`, come farebbe un auditor, vedrebbe una positività nell'anno invece di due.

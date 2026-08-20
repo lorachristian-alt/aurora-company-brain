@@ -1,0 +1,54 @@
+# Note RIAPERTE dal lotto lotto_02b_acqua — riconciliazione verticale ARRETRATA (E37).
+# GENERATO da 06_operativo\candidate_r1.py --dominio acqua il 2026-08-20.
+# Criterio: la nota parla di acqua potabile, punti di prelievo, parametri di potabilita' e acqua di processo,
+# e fra le sue fonti non c'e' nessuna delle fonti che governano quel
+# dominio: piano_autocontrollo_acqua_potabile_analisi.csv.
+# Non si edita a mano: si rilancia lo script.
+fatto-cip-fuori-criterio
+kpi-conducibilita-risciacquo-cip-maggio
+doc-condizioni-uso-detergente-acido
+doc-criteri-accettazione-cip
+doc-parametri-fasi-cip
+# --- da qui in giu': note toccate in corso di lotto (E32) ---
+# Preesistenti, che il lotto modifica senza citarne i grezzi.
+area-qualita
+macchina-cip-01
+macchina-linea-1
+_index-areas
+_index-docs
+_index-data
+_index-entities
+fatto-nc-cip-2026
+_index-workspace
+# --- da qui in giu': note NATE in questo lotto ---
+# Si dichiarano QUANDO SI CREANO, non si deducono a fine lotto: e'
+# la stessa disciplina di E32 applicata alle note nuove, e serve a
+# conta_perimetro_lotto.py, che i numeri del perimetro li legge da qui.
+
+doc-piano-tamponi-superfici
+doc-piano-autocontrollo-acqua
+doc-autocontrollo-scarico-s1
+kpi-tamponi-superfici-2026
+kpi-conducibilita-acqua-per-punto
+kpi-parametri-scarico-s1-2026
+fatto-listeria-scarico-pt-104-aprile
+fatto-nc-26-056-ganasce-pkm-450-maggio
+fatto-nc-26-055-nastro-forno-maggio
+fatto-nc-26-018-ruote-carrelli-febbraio
+fatto-carica-in-salita-linea-1-aprile
+fatto-mani-addetto-farcitura-non-conforme
+fatto-lettura-mancante-registro-tamponi
+fatto-date-in-quattro-grafie-registro-tamponi
+fatto-nc-acq-26-01-ghiaccio-aprile
+fatto-cloro-residuo-ghiaccio-in-calo
+fatto-nc-acq-26-02-ferro-spogliatoi-aprile
+fatto-durezza-acqua-addolcita-in-deroga
+fatto-superamento-grassi-scarico-marzo
+fatto-degrassatore-frequenza-trimestrale
+fatto-medie-non-calcolate-file-reflue
+fatto-appunti-in-coda-file-reflue
+questione-frequenza-tamponi-prescritta-e-reale
+fatto-modulo-nc-acqua-riconciliato
+entita-analytica-veneta
+fatto-criterio-conducibilita-cip-superato
+questione-listeria-24-02-non-nel-registro-tamponi
