@@ -469,7 +469,7 @@ gli dicono cose diverse.
 | **Quale sia il detergente acido del CIP** | `IO-05_istruzione_operativa_lavaggio_CIP.docx` §3, §5 e §12: **`CHEMIFOOD AN-15`, «Acido nitrico 15%»**, dosato all'1,0-1,5 % · `scheda_sicurezza_detergente_acido_lavaggio_CIP.txt` §1.1 e §3.2: **`ACIDFOOD CIP 25`, cod. `CF-AC-025`**, acido nitrico **20-25 %** più acido fosforico 5-1O %. Stesso fornitore, Chemifood Italia; **nessuna delle due sigle compare nell'altro documento** | **Nessuno.** ⚠️ **Pesa oltre sé stessa**: se sono due prodotti diversi, l'archivio **non contiene la scheda di sicurezza del prodotto realmente in uso**, e ogni confronto fra le due fonti — concentrazioni, temperature, DPI — perde il presupposto. Se sono lo stesso prodotto, l'istruzione ne dichiara una concentrazione di principio attivo che la scheda smentisce |
 | **Con quali DPI si maneggia l'acido** | `IO-05` §2: guanti in **neoprene**, e — dopo la cancellazione della FFP2 da parte dell'RSPP — **semimaschera con filtro `B-P2`**; grembiule antiacido · scheda di sicurezza §8.2: guanti in **gomma butilica o fluoroelastomero** `EN 374` **classe 6**, **facciale con filtro tipo `E`**, tuta antiacido **tipo 3** `EN l4605` | **Nessuno.** Entrambi i documenti sono in vigore e ciascuno è autorevole nel proprio dominio: l'istruzione è **verificata dall'RSPP**, la scheda è del **fabbricante della sostanza**. Nessuno dei due cita l'altro sui dispositivi. ⚠️ La cancellazione della FFP2 prova che in Aurora la protezione respiratoria **è stata riesaminata almeno una volta**; se quel riesame abbia tenuto conto della scheda, che chiede il tipo `E`, nessun documento lo dice |
 | **Ogni quanto si verifica il lavaocchi di sala CIP** | Scheda di sicurezza §8.2: **verifica settimanale** di docce di emergenza e lavaocchi · `IO-05` §3, annotazione attribuita a `Dal Maso I.` e incorporata nella revisione in vigore: «lavaocchi controllato da me **ogni primo lunedì del mese**» | **Nessuno.** ⚠️ **Specie propria**: non è una regola contro una regola, è **una regola contro una dichiarazione di prassi**. L'annotazione non contesta la frequenza del fabbricante — **non la nomina** — e un documento verificato dall'RSPP incorpora così, senza segnalarla, una cadenza quattro volte più lunga di quella richiesta |
-| **La sequenza delle fasi eseguita non è quella che il programma dichiarato prevede** | `IO-05` §6: al programma `P2` competono le fasi **1-2-3-4-5**, e la sanificazione è la **fase 6**, che appartiene a `P4` e `P5` ed è elencata **in coda** · `log_lavaggio_CIP_linea1_maggio.log`: tutti e 30 i cicli dichiarano `PRG=IO-05_P2_LINEA1`, il `P1` non compare mai, e i 28 cicli completi eseguono **sei** fasi con `SANIF_PAA` **fra il lavaggio acido e il risciacquo finale** | **`IO-05`**, e il log resta com'è. ⚠️ Lo scarto è **doppio**: nella composizione — una fase in più di quelle che il `P2` prevede — e nell'**ordine**, perché la sanificazione cade prima del risciacquo finale invece che dopo. ⚠️ Il tracciato risulta così **più severo** del nome che porta, non meno: è un'etichetta che non corrisponde al contenuto, sull'unico campo che direbbe quale programma doveva girare quella notte |
+| **La sequenza delle fasi eseguita non è quella che il programma dichiarato prevede** | `IO-05` §6: al programma `P2` competono le fasi **1-2-3-4-5**, e la sanificazione è la **fase 6**, che appartiene a `P4` e `P5` ed è elencata **in coda** · `log_lavaggio_CIP_linea1_maggio.log`: tutti e 30 i cicli dichiarano `PRG=IO-05_P2_LINEA1`, il `P1` non compare mai, e i 28 cicli completi eseguono **sei** fasi con `SANIF_PAA` **fra il lavaggio acido e il risciacquo finale** | **`IO-05`**, e il log resta com'è — ⚠️ **ma l'arbitrato è stato riaperto il 21/08 dal lotto 2B-bis: v. B3 in fondo a questo file.** Lo scarto è **doppio**: nella composizione — una fase in più di quelle che il `P2` prevede — e nell'**ordine**, perché la sanificazione cade prima del risciacquo finale invece che dopo. ⚠️ Il tracciato risulta così **più severo** del nome che porta, non meno: è un'etichetta che non corrisponde al contenuto, sull'unico campo che direbbe quale programma doveva girare quella notte |
 | **Il prolungamento automatico che l'istruzione descrive non ha riscontro** | `IO-05` §7 punto 2: «se non arriva a 75 °C **il pannello allunga il tempo da solo**, NON forzare l'avanzamento» · il log: la fase alcalina dura `1200 s` **in tutti e 28 i cicli**, comprese le notti in cui 57 letture su 116 stanno sotto i 75 °C | **Nessuno, e non si sceglie.** È la famiglia isolata nel lotto 1B — *un'azione correttiva o automatismo dichiarato che il dato non conferma* — applicata a un **automatismo di impianto**. Se il pannello non lo esegua, o lo esegua senza registrarlo, il tracciato non lo dice: nessun campo distingue una durata impostata da una prolungata |
 | **Il pannello non misura la grandezza che l'istruzione chiede di registrare** | `IO-05` §7 punto 1: si registra la «**concentrazione** soda letta dalla sonda di conducibilità (deve stare tra 1,5 e 2,0 **%**)» · il log: le unità di misura presenti sono `mS/cm`, `C`, `m3/h` e `%` **del livello tanica** — **mai una concentrazione di prodotto** · `non_conformita_interne_registro_2026.csv` `NC-2026-113` del 29/05, IN CORSO: «fase sanificazione PAA registrata **senza concentrazione misurata**», causa «kit titolazione esaurito» | **Nessuno: è una lacuna di misura, non una divergenza di valori.** La concentrazione si determina **a mano, per titolazione**, e il pannello dà una conducibilità: sono due grandezze diverse, legate da una curva che nessun documento dell'archivio riporta. La NC del 29/05 è la prova che la misura manuale esiste, e che quando il kit finisce la registrazione resta vuota |
 
@@ -574,3 +574,161 @@ ordini Tosano**, volumi lavaggio raddoppiati)».
 ⚠️ Il perimetro delle domeniche lavorate che questo canone censisce **non comprende marzo**. La
 nota del vault fa la cosa giusta e **si rifiuta di fondere le due campagne**, ma la riga qui
 mancava.
+
+---
+
+## Divergenze nuove — revisione del lotto 2B-bis, 21/08/2026
+
+> **Come è nata questa sezione** · Revisione indipendente del lotto 2B-bis (gli allergeni: la
+> scheda con la matrice di cross contamination e la formazione annuale che la insegna),
+> passo 3 di `metodo_03` §9.5, eseguita da un revisore a contesto pulito con questo canone
+> alla mano (E45).
+> ⚠️ **Tutte e otto nascono dai grezzi.** ⚠️ **Una sola non è scrivibile in nessuna nota** —
+> B6 poggia su un grezzo che nessun lotto ha ancora canonizzato, e il divieto 9-bis vale anche
+> quando la divergenza è vera: il canone la registra, il vault aspetta il suo lotto. **Le altre
+> sette sono entrate nel vault il giorno stesso.**
+
+### B1 · Il documento di vertice e quello che lo attua non concordano su quali proteine si cercano, né ogni quanto
+
+`manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt` §9.2, rev. 5 dell'08/04/2026: «lavaggio
+validato tra referenze incompatibili con test proteina specifica (**latte, uovo, soia**) a cura
+QC (Pozzato S., **1 validazione/trimestre per linea**)».
+
+`scheda_allergeni_matrice_cross_contamination.docx` §6.2: test rapidi su **latte, uovo,
+sesamo** — **la soia non c'è**; §6.1: la validazione è «eseguita 2024, riverificata 2025, da
+ripetere dopo l'installazione del tunnel `CR-SP180`», cioè **una tantum**, non trimestrale per
+linea.
+
+⚠️ **Il sesamo — l'allergene nuovo — non è nel piano di test del documento di vertice**, che
+pure lo dichiara «in fase di introduzione con la referenza in sviluppo `AF-SN-0470`»; e la
+scheda che dovrebbe attuarlo toglie invece la soia. Sono **due prescrittivi in vigore, uno
+annesso all'altro** (All. 12), e **nessuno dei due cita l'altro sul punto**.
+
+⚠️ **È la divergenza più pesante del gruppo, ed è anche quella che il lotto poteva cogliere da
+solo**: il manuale è già nel vault e questo stesso lotto lo cita come fonte.
+
+### B2 · La scheda allergeni prescrive di aprire una non conformità sul modulo dei reclami
+
+Scheda §6.4: «Due non conformita' consecutive: fermo linea e **apertura NC su `MOD-QA-31`** con
+riesame della procedura di lavaggio».
+
+`MOD-QA-31` è la scheda **reclami** — `procedura_ritiro_prodotto_CRISI_GDO.txt` riga 197,
+«`MOD-QA-31` Gestione reclami e segnalazioni», e il file `MOD-QA-31_reclamo_REC-2026-011.pdf`.
+Le non conformità interne stanno su **`MOD-QA-18`**.
+
+⚠️ **Lo stesso inciampo è già auto-segnalato altrove nel corpus**:
+`piano_autocontrollo_acqua_potabile_analisi.csv` riga 90, «chiusura `NC-ACQ-26-01` su
+`MOD-QA-31`? **no, registro NC qualità (refuso, verificare modulo giusto con Marchetti)**».
+
+⚠️ **È la famiglia di B4 del gruppo precedente — le serie parallele di numerazione delle non
+conformità — estesa dai numeri ai moduli.** Non è un refuso isolato: **in Aurora la sigla del
+modulo su cui si apre una NC è instabile**, e lo è in tre documenti indipendenti.
+
+### B3 · Come sia composto «il lavaggio completo CIP», e un arbitrato di questo canone che ne esce indebolito
+
+`IO-05_istruzione_operativa_lavaggio_CIP.docx` §5 elenca **sei voci** — prerisciacquo,
+lavaggio alcalino, risciacquo intermedio, lavaggio acido, risciacquo finale, **sanificazione
+«solo se richiesta dal programma»** — sotto la frase «**il ciclo completo ha 5 fasi**». ⚠️ **Il
+conto torna solo se la sanificazione non è contata**, cioè se il ciclo completo è quello senza.
+
+Scheda §5.3: il lavaggio di tipo **`L3`** — «completo CIP secondo `IO-05`» — è «soda caustica,
+risciacquo, acido, risciacquo, **sanificante PAA**».
+
+⚠️ **Gli scarti sono due e vanno in direzioni opposte.** La scheda **omette il prerisciacquo**,
+che in `IO-05` è la fase 1, e **include la sanificazione**, che `IO-05` tiene condizionata.
+**Non è «`IO-05` più una fase»: è `IO-05` meno la prima e più l'ultima.**
+
+⚠️ **Questo riapre una riga già arbitrata.** Il gruppo del lotto 2A registra che i cicli
+completi del log eseguono **sei** fasi con `SANIF_PAA` e arbitra «**`IO-05`**, e il log resta
+com'è», concludendo che il tracciato è **più severo del nome che porta**. Il PRPo1 mostra che
+**la fase in più ha una fonte prescrittiva in vigore che la chiede**: il log non la sta
+aggiungendo di sua iniziativa.
+
+⚠️ **Quindi l'arbitrato non regge come scritto**, e la divergenza cambia specie: non è più
+*un'etichetta che non corrisponde al contenuto*, è **la famiglia isolata in 2A — due
+prescrittivi in vigore che non concordano — su un terzo termine**. ⚠️ **E il log non attua
+nessuna delle due composizioni**: le esegue tutte e sei, e mette la sanificazione **fra
+l'acido e il risciacquo finale**, mentre entrambi i prescrittivi la elencano in coda.
+
+### B4 · La nota alla matrice spiega una casella che la matrice non contiene
+
+Scheda §3, note alla matrice: «"**PC soia**" su **Linea 1 e Linea 2** deriva dalla lecitina di
+soia presente in alcuni semilavorati e dal flusso promiscuo di linea».
+
+Nella matrice **nessuna referenza di Linea 2 porta `PC` sulla soia**: `AF-CR-0212` e
+`AF-CR-0215` hanno **`C`**, `AF-CR-0220` ha **`A`**.
+
+⚠️ **Incoerenza intra-file su un documento prescrittivo** — la stessa specie del riepilogo della
+scheda di manutenzione (18/08) e delle due date della procura (19/08).
+
+### B5 · L'aula dà arachidi e solfiti come possibili; la matrice li dà assenti
+
+`formazione_allergeni_operatori_2026.pptx`, slide 4, tabella «Dove lo trovi da noi»: «5 Arachidi
+| **non presente ma ATTENZIONE ai fornitori**»; «12 Anidride solforosa e solfiti | **possibile
+in alcune materie prime**».
+
+La matrice li dà **`A`** su tutte e sette le referenze, e la legenda definisce `A` come «non in
+ricetta **e non presente nel flusso della linea**, nessuna dicitura».
+
+⚠️ **E l'elenco degli allergeni «non presenti nel sito» della scheda §3 è di sei voci** —
+crostacei, pesce, sedano, senape, lupini, molluschi — **e arachidi e solfiti non ci sono**:
+restano `A` senza che nessun documento li dichiari assenti dal sito.
+
+### B6 · Il registro della formazione non conferma nessuna delle sessioni allergeni del 2026 · ⚠️ non scrivibile
+
+`registro_presenze_corsi_HACCP_scaduti.csv`, estrazione del **18/05/2026**: le sole righe
+«**Allergeni (PRPo1)**» sono **cinque**, tutte del **09/10/2025**, con scadenza **09/10/2027**
+ed ente «interno (Marchetti)».
+
+**Non c'è nessuna riga** per la sessione annuale del **19-20/03/2026**, né per la straordinaria
+del **10/04/2026** che la scheda §9.2 dichiara erogata a tre nomi: **nessuno dei tre ha una riga
+allergeni**.
+
+⚠️ **E la validità registrata è biennale, mentre §9.1 prescrive il richiamo annuale.**
+
+⚠️ **`Bissoli Mirco — Manutentore notte` non ha alcuna riga allergeni**, e ha l'HACCP base
+**scaduto** dal 20/04/2026 con la nota «turno notte - organizzare recupero diurno pagato»: al
+18/05 la sessione di recupero proposta per il 26/03 **non risulta fatta**. ⚠️ **Corrobora
+`fatto-turno-notte-senza-formazione`, che chiude correttamente con «la risposta non è nel
+materiale»** — e conferma che quella chiusura era la sola onesta.
+
+⚠️ **Il grezzo è fuori dal perimetro di 2B-bis e non è ancora canonizzato: la divergenza sta
+qui e non può entrare in nessuna nota** finché quel file non entra in un lotto (divieto 9-bis).
+
+### B7 · L'aula dichiara registrati tamponi allergeni che `MOD-QA-19` non contiene
+
+`formazione_allergeni_operatori_2026.pptx`, slide 8, nota del relatore: «i tamponi post-pulizia
+di Sara includono anche **la ricerca allergeni (proteina del latte)** sui punti critici della
+Linea 2, non solo la carica batterica».
+
+`registro_tamponi_superfici_listeria_salmonella.csv` porta **sette parametri** — carica
+batterica, *Listeria*, Enterobacteriaceae, *Salmonella*, *S. aureus*, muffe, lieviti — e
+**nessuno è una proteina o un allergene**. I test proteina esistono davvero — `NC-2026-101` del 19/05 verbalizza
+un «tampone proteina latte su sfogliatrice» — ma **non lasciano traccia in `MOD-QA-19`**, e la
+scheda stessa li tiene su due binari distinti (§6.2 test rapidi ≠ §6.3 `MOD-QA-19`).
+
+⚠️ **Forza media, e va detto**: la lettura innocente è che il relatore parli dei test rapidi.
+Ma **chi interrogasse l'archivio su «dove sono registrati i tamponi allergeni» non troverebbe
+nulla**, e questo è un fatto sull'archivio, non sul relatore.
+
+### B8 · Un limite «non rilevato» come condizione di avvio di un prodotto che quell'allergene lo contiene
+
+Scheda §6.2: «proteina **latte**: **prima di ogni partenza bio su Linea 2**…; limite: **non
+rilevato**». Matrice, riga `AF-CR-0220`, la sfogliatina bio: **latte = `C`**, cioè
+**ingrediente**.
+
+⚠️ **Il vincolo di §4.3 sul bio è di certificazione biologica** — contaminazione da
+convenzionale, vincolo ICEA — **non allergenica**: la scheda **sovrappone i due senza
+distinguerli**, e ne esce un criterio di accettazione che il prodotto controllato non può
+soddisfare.
+
+### Che cosa dicono, prese insieme
+
+⚠️ **Sei delle otto stanno fra la scheda allergeni e un documento che le sta sopra o accanto**
+— il manuale HACCP, l'istruzione CIP, il registro delle NC, il registro dei tamponi, il
+registro della formazione. **Una sola è intra-file** (B4), e una è di merito (B8).
+
+⚠️ **Il PRPo1 è un documento che prescrive molto e si riconcilia poco.** È annesso al manuale
+(All. 12) e non lo cita mai; nomina `IO-05` e ne cambia il contenuto; nomina `MOD-QA-31` e
+intende `MOD-QA-18`; nomina `MOD-QA-19` per registrazioni che quel registro non porta. **Il
+canone lo registra come tratto del documento**, non come una serie di sviste indipendenti.

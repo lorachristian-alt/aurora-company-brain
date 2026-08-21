@@ -1,17 +1,57 @@
-# Note RIAPERTE dal lotto lotto_02b_allergeni — riconciliazione verticale ARRETRATA (E37).
-# GENERATO da 06_operativo\candidate_r1.py --dominio allergeni il 2026-08-20.
+# Note RIAPERTE dal lotto lotto_02b_bis_allergeni — riconciliazione verticale ARRETRATA (E37).
+# GENERATO da 06_operativo\candidate_r1.py --dominio allergeni il 2026-08-21.
 # Criterio: la nota parla di allergeni, contaminazione crociata, sequenze di produzione, rework ed etichettatura precauzionale,
 # e fra le sue fonti non c'e' nessuna delle fonti che governano quel
 # dominio: scheda_allergeni_matrice_cross_contamination.docx.
 # Non si edita a mano: si rilancia lo script.
 fatto-programma-p2-ogni-giorno
+questione-frequenza-tamponi-prescritta-e-reale
 doc-criteri-accettazione-cip
 doc-manuale-haccp
 doc-programmi-cip-per-linea
 doc-scheda-tecnica-af-sn-0450
 # --- da qui in giu': note toccate in corso di lotto (E32) ---
 # Preesistenti, che il lotto modifica senza citarne i grezzi.
+area-qualita
+area-logistica
+_index-areas
+_index-docs
+_index-entities
 # --- da qui in giu': note NATE in questo lotto ---
 # Si dichiarano QUANDO SI CREANO, non si deducono a fine lotto: e'
 # la stessa disciplina di E32 applicata alle note nuove, e serve a
 # conta_perimetro_lotto.py, che i numeri del perimetro li legge da qui.
+
+doc-matrice-allergeni-referenze
+doc-sequenze-produzione-allergeni
+doc-tipi-lavaggio-allergeni
+doc-validazione-pulizia-allergeni
+doc-regole-rework
+doc-etichettatura-precauzionale
+doc-stoccaggio-segregato-allergeni
+doc-responsabilita-allergeni
+doc-formazione-allergeni-2026
+fatto-sessioni-formazione-allergeni-2026
+fatto-scheda-allergeni-modifiche-non-accettate
+fatto-deroga-sequenza-l2-cancellata
+fatto-rework-linea-1-sospeso
+fatto-latte-riclassificato-af-sn-0450
+fatto-pc-sesamo-condizionato-al-prototipo
+fatto-saletta-pilota-sesamo-segregato
+questione-rework-congelamento-slide-e-scheda
+fatto-turno-notte-senza-formazione
+entita-chiara-vicentini
+prodotto-af-sn-0470
+fatto-validazione-pulizia-da-ripetere
+fatto-referenze-fuori-scheda-horeca
+fatto-firma-registro-formazione-all-ingresso
+fatto-cartello-bacheca-2024-senza-sesamo
+fatto-quasi-incidente-sequenza-novembre
+questione-precauzionale-af-sn-0450-soia
+fatto-passaggi-barrati-scheda-allergeni
+questione-proteine-test-manuale-e-scheda
+questione-nc-lavaggi-sul-modulo-reclami
+questione-composizione-lavaggio-completo
+questione-arachidi-solfiti-aula-e-matrice
+questione-tamponi-allergeni-non-registrati
+fatto-proteina-latte-prima-del-bio

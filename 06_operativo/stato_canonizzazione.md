@@ -26,13 +26,13 @@
 
 | | |
 |---|---|
-| Lotti chiusi | **6 di canonizzazione** — `l26130` (fetta pilota, S2), **`1A`** (Linea 1: turno, CCP, confezionatrice), **`1B`** (freddo ed energia), **`1C`** (metrologia e gas tecnici) **`2A`** (il lavaggio CIP) e **`2B`** (l'autocontrollo analitico) — **più `R1`**, il primo **lotto di manutenzione** (E35), approvato al suo gate il 19/08/2026. ⚠️ **R1 vale un lotto nel ritmo ma NON entra nella serie della capacità** (E38): misura riparazioni, non produzione |
+| Lotti chiusi | **7 di canonizzazione** — `l26130` (fetta pilota, S2), **`1A`** (Linea 1: turno, CCP, confezionatrice), **`1B`** (freddo ed energia), **`1C`** (metrologia e gas tecnici), **`2A`** (il lavaggio CIP), **`2B`** (l'autocontrollo analitico) e **`2B-bis`** (gli allergeni) — **più `R1`**, il primo **lotto di manutenzione** (E35), approvato al suo gate il 19/08/2026. ⚠️ **R1 vale un lotto nel ritmo ma NON entra nella serie della capacità** (E38): misura riparazioni, non produzione |
 | Grezzi copiati nel vault | 160/160, verificati contro `manifest_corpus_v1.1.json`: zero scarti, zero estranei, zero sottocartelle |
 | I conteggi del vault | nel blocco qui sotto, **incollato verbatim** da `conta_stato.py` |
 | Suite QA | **verde sul perimetro di lotto**; sul vault tre controlli su quattro sono a zero errori. ⚠️ Dal gate di 2A la QA ha **due controlli nuovi**: l'artefatto di ricerca che E43 impone a chi dichiara un'assenza, e **l'omogeneità dei fine riga** — il primo controllo del progetto che non guarda il contenuto di una nota ma il suo **supporto** |
 | `llms.txt` | rigenerato dal frontmatter, allineato |
 | Matrice dei lotti | 160/160 grezzi, zero scoperti, zero doppi (`verifica_matrice_lotti.py` verde). ⚠️ **I budget dei lotti 2-10 sono SUPERATI** e il piano non è più a 12 lotti: vale **E31**, la capacità di 25-35 note per lotto, e i grezzi si decidono in apertura. **Stima: circa 28-30 lotti**, scritta anche nella scaletta perché cambia il calendario di S4-S5. Ridisegnato in dettaglio **solo il tema 2** (2A · 2B · 2C) |
-| **PROSSIMO ATTO** | **Il lotto 2B-bis — gli allergeni e la formazione.** Due grezzi, col dominio `allergeni` già dichiarato in `candidate_r1.py` e **5 note candidate già misurate**. ⚠️ Porta un esperimento: la **specie universale** si osserva al terzo giro col criterio aggiornato al gate, e **il lotto non riceve nessun promemoria** — un esperimento avvertito non misura niente. Chiude la sessione, ciclo intero, revisione col canone compresa (E45) |
+| **PROSSIMO ATTO** | **Il gate del lotto 2B-bis.** ⚠️ Tre cose lo aspettano, e nessuna è di contenuto: **la seconda cecità della catena di provenienza** — il barrato, T96, dopo le formule di T89 — su cui la decisione di estendere il cantiere è del gate e non della sessione; **un arbitrato del canone riaperto** (B3); e **una specie d'errore nuova, nominata e non emendata**, col suo criterio pre-registrato già scritto nel §11 del rapporto |
 
 ⚠️ **Errata del 19/08/2026 sui numeri del lotto 1A.** Questo stato dichiarava «105 note, di
 cui 11 `_index` e 6 note-strumento: 88 di contenuto». `qa_all.py` a chiusura di 1A contava
@@ -47,17 +47,17 @@ prescrive la regola del gate 1A.
 
 | Grandezza | Valore |
 |---|---|
-| Note nel vault | **246** |
+| Note nel vault | **281** |
 | di cui `_index` | 11 |
-| di cui note-strumento del progetto | 14 |
-| di cui note di diario (`sessione`, `daily`) | 6 |
-| **di cui note di contenuto** | **215** |
-| Note per cartella | areas 129 · data 29 · entities 25 · docs 22 · code 15 · workspace 9 · projects 8 · concepts 6 · self 1 · outputs 1 · sources 1 |
-| Note per `type` | atomica 152 · conflitto 39 · entita 20 · hub 13 · index 11 · sessione 6 · concetto 5 |
-| Questioni aperte (`type: conflitto`) | 39 |
+| di cui note-strumento del progetto | 15 |
+| di cui note di diario (`sessione`, `daily`) | 7 |
+| **di cui note di contenuto** | **248** |
+| Note per cartella | areas 151 · docs 31 · data 29 · entities 27 · code 16 · workspace 10 · projects 8 · concepts 6 · self 1 · outputs 1 · sources 1 |
+| Note per `type` | atomica 177 · conflitto 46 · entita 22 · hub 13 · index 11 · sessione 7 · concetto 5 |
+| Questioni aperte (`type: conflitto`) | 46 |
 | Grezzi in `sources\` | 160 |
-| Grezzi citati da almeno una nota | **41** |
-| Grezzi restanti | **119** |
+| Grezzi citati da almeno una nota | **43** |
+| Grezzi restanti | **117** |
 
 ⚠️ **Questo blocco non si riscrive a mano.** Nasce al gate del lotto 1B da due sviste di
 conteggio in due lotti — 46 contro 32 nel rapporto 1A, 105 e 88 in questo stato quando
@@ -471,6 +471,41 @@ giudizio, e senza il secondo giro sarebbe rimasta.
 | chiusa | **2** | T20, T33 |
 | tracciata | **26** | T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T19, T21, T29, T31, T34, T39, T40, T41, T49, T50, T51, T52, T53, T54 |
 | **totale righe** | **54** | da T1 a T54, nessuna mancante e nessuna duplicata |
+
+## Il lotto 2B-bis, chiuso il 21/08/2026 — gli allergeni
+
+**Due grezzi**: la scheda con la matrice di cross contamination e il materiale della formazione
+annuale agli operatori. **33 note nate**, 44 controllate, **0 errori e 25 avvisi** sul perimetro
+di lotto alle 14:47:43.
+
+⚠️ **Il criterio pre-registrato al gate di 2B si è avverato**: al terzo giro di giudizio, tre
+dei cinque rilievi erano della specie universale, **su note nate dal lotto**. Ne è nata **E47**,
+il primo emendamento del progetto nato da un criterio scritto in anticipo.
+
+⚠️ **La revisione col canone ha trovato la seconda cecità dell'estrattore**: quattro passaggi
+**barrati** nel `.docx`, invisibili nel testo estratto, di cui il vault ne aveva colto uno solo
+— e solo perché un commento accanto usa la parola «cancellata». **Riga T96**, e l'estrattore
+**non è stato toccato**.
+
+⚠️ **E ha trovato un documento che dichiara un difetto che non ha**: l'avvertenza sul
+disallineamento della matrice, che la nota aveva propagato senza contare le colonne. **Contate:
+sedici campi su tutte e sette le referenze.** Riga T105, chiusa.
+
+**Otto divergenze nuove nel canone**, di cui **sei fra la scheda e un documento che il vault
+aveva già** — la diagnosi del revisore era che il lotto avesse canonizzato *dentro* i suoi due
+file e non *contro* l'archivio, e i numeri la confermano. **Una riapre un arbitrato del canone**
+(B3); **una è vera e non scrivibile** (B6), perché il suo grezzo non è in nessun lotto.
+
+**I due tassi, dominio `allergeni`** (E46): riapertura **0,0 %** su 6, produzione **9,1 %** su
+33. ⚠️ **Il tasso di produzione risale dopo due lotti sotto il 4 %**, e le tre note sono tutte
+del sotto-dominio della formazione, dove la fonte che governa è il materiale d'aula.
+
+**Il ri-giudizio dopo la revisione** ha prodotto 5 errori e 17 avvisi, tutti accolti. ⚠️ **Uno
+era un numero che avevo contato io e che nessuna fonte enuncia** — il «sei fasi» del lavaggio,
+passato attraverso il revisore, il canone, una nota e una riga di tracciamento. **Da lì la
+specie nuova**, nominata e non emendata (E28), col criterio nel §11 del rapporto.
+
+Il dettaglio sta in `rapporto_lotto_02b_bis.md`.
 
 ## Il lotto 2B, chiuso il 20-21/08/2026 — l'autocontrollo analitico
 

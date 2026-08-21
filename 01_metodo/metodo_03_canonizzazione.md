@@ -2213,6 +2213,40 @@ note → suite QA → revisore indipendente → correzioni propagate → suite Q
    otto, cioè un quinto delle note di contenuto, ed è un buco che si apre proprio sulle note
    scritte di fretta a fine sessione.
 
+   ⚠️ **E47 — UN'AFFERMAZIONE UNIVERSALE SI SCRIVE COL PERIMETRO SU CUI È STATA VERIFICATA, E
+   QUEL PERIMETRO NON È MAI PIÙ LARGO DELLE FONTI DELLA NOTA.** Vale per «l'unico», «il primo»,
+   «il più alto», «nessun altro», «ogni», «tutti», «sempre», e per le negazioni che dicono la
+   stessa cosa al rovescio («e non su linea», «mai»).
+
+   | Come si scrive | Invece di |
+   |---|---|
+   | «l'unica non conformità **di questo registro**» | «l'unica non conformità **dell'archivio**» |
+   | «**questa fonte** non porta altri impegni» | «**ogni documento** che la nomina vi attacca un adempimento» |
+   | «insegnato **in aula** il 19 e il 20 marzo» | «insegnato **a tutti i turni**» |
+
+   ⚠️ **Perché serve una regola e non basta l'attenzione: la specie nasce dallo scrivere bene.**
+   Chi scrive una nota ha letto a fondo **un** documento, e un superlativo sembra il riassunto
+   onesto di quella lettura — mentre è un **quantificatore** le cui condizioni di verità stanno
+   **fuori dal testo che si ha davanti**, in tutte le righe che non si stanno guardando o in
+   tutti i documenti che non si stanno citando. **Il gesto che la produce è lo stesso che
+   produce una buona sintesi.**
+
+   ⚠️ **E non si estirpa nominandola.** Nominata al terzo giro del lotto 2B, è ricomparsa **dieci
+   volte** nella revisione col canone dello stesso lotto, **tre volte dentro le correzioni che
+   la stavano correggendo**, e ancora al primo, secondo e terzo giro di 2B-bis. **Il rimedio non
+   è ricordarsene: è che ogni affermazione universale nasca già col suo perimetro attaccato**, e
+   che chi rilegge la controlli come si controlla una cifra.
+
+   ⚠️ **La verifica è semplice e va fatta sempre**: si guarda il quantificatore, si chiede *su
+   quale insieme sarebbe falso*, e si confronta quell'insieme con l'elenco `fonti` della nota.
+   Se l'insieme è più grande, **la frase si restringe** — non si aggiunge una fonte per
+   giustificarla, perché quella non è la nota che deve affermarlo.
+
+   ⚠️ **Quando l'affermazione universale è il PUNTO della nota**, e non un ornamento, allora è la
+   nota a essere nel posto sbagliato: un fatto che riguarda tutto l'archivio si scrive dove
+   l'archivio si guarda per intero — nella **tabella di tracciamento**, non in una nota che cita
+   due grezzi.
+
    ⚠️ **Quando il ciclo si ferma** (E26). Correggere riscrive, e riscrivere crea note nuove da
    giudicare: senza una regola d'arresto il giro può ripetersi all'infinito. La regola, in tre
    righe:

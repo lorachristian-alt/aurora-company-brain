@@ -73,6 +73,13 @@ Le sostituzioni note dello scanner sono `0`↔`O`, `l`↔`1`, `S`↔`5`.
 | `entita-adel-ben-salah` | «Ben Salah A.» · «adel» | registro NC, quaderno OCR |
 | `entita-roberto-guerra` | «Guerra R.» | registro NC |
 | `entita-mirco-bissoli` | «Bissoli M.» · `BISSOLI_M` (log CIP) · «mirco» | log CIP, quaderno OCR |
+| `entita-chiara-vicentini` | «dott.ssa Chiara Vicentini» · **«C. Vicentini»** · **«Vicentini C.»** · «il consulente esterno» | manuale HACCP *(unica fonte che dia il nome per esteso)*, scheda allergeni, formazione allergeni |
+
+⚠️ **Il nome per esteso lo dà UNA fonte sola**, il manuale di autocontrollo: la scheda allergeni
+e il materiale di formazione la nominano sempre e solo per iniziale. **Chi canonizza quei due
+documenti senza il manuale non può sapere come si chiami** — ed è successo: la prima stesura
+della scheda entità le aveva attribuito un nome sbagliato, corretto dallo strato di giudizio al
+primo giro del lotto 2B-bis.
 
 ### A.3 Clienti, fornitori, enti
 
@@ -219,3 +226,5 @@ Ogni sessione che canonizza aggiunge qui una riga quando estende la tabella.
 | 2026-08-18 | S4 lotto 1A — Linea 1: turno, CCP, confezionatrice | Classe A: i lotti `L26124` e `L26128` con le loro forme OCR, la forma `L26l3O-L1-T2` sul lotto L26130, e tre degradi generici del quaderno del capoturno (cifre con `O` al posto di `0`, la `l` al posto dell'`1` nel giorno giuliano, i marcatori di porzione perduta). Nessuna riga di classe B o C: le divergenze trovate in questo lotto hanno tutte una nota-questione |
 | 2026-08-19 | S4 lotto 1B — freddo ed energia | Classe A: le forme `CF02` e `TS01` del log della centralina, i due centri di costo dei contatori di reparto, e due fornitori nuovi — Frigotecnica Berica (con P.IVA e certificato F-gas) e Veneta Energia (con codice fornitore e POD). Classe B: **il terzo quasi-omografo Peruffo**, Attilio Peruffo di Frigotecnica accanto ai due revisori legali. Classe C: tre divergenze nuove — nome del manutentore, refrigerante del tunnel, e la sigla `FRIGOTEC-11` che non si scioglie |
 | 2026-08-16 | S2 — fetta pilota L26130 | Classe A: matricola `PKM450-1808-0342` sulla PKM-450. Classe C: quattro divergenze nuove trovate dal revisore indipendente — codice del kit valvola, materiale della guarnizione provvisoria, TMC e modo di consegna del lotto farina MV26-0429/A. Tutte con la loro nota-questione nel vault e la riga corrispondente nel canone |
+| 2026-08-21 | S4 lotto 2B — autocontrollo analitico | Classe A: il laboratorio esterno `Analytica Veneta S.r.l.` con la sua forma accreditata. **Classe B: le tre serie parallele di numerazione delle non conformità** — `NC-26-nnn`, `NC-2026-nnn`, `NC-ACQ-26-nn` — con la tabella delle collisioni e la nota di famiglia: **due cifre nell'anno separano eventi che non hanno nulla in comune** |
+| 2026-08-21 | S4 lotto 2B-bis — gli allergeni | Classe A: `entita-chiara-vicentini`, **con l'avvertenza che il nome per esteso lo dà una fonte sola**. ⚠️ **La riga esiste perché questa sessione aveva INVENTATO un nome proprio** — «Claudia» invece di «Chiara» — canonizzando due documenti che il nome non lo portano: **è il caso che ha insegnato che un'iniziale non si scioglie a naso** |

@@ -74,8 +74,9 @@ crea regole: spiega come si sono applicate.
   numeri **non si citano mai separati**.
 - **Config C congelata** (`d36d7ce`, impronta `afb58939…`): intoccabile fino a fine S6,
   difetti di formato compresi.
-- **Canonizzazione — sei lotti chiusi**: pilota L26130 (22 grezzi) + 1A (7) + 1B (4) + 1C (2)
-  + 2A (3) + **2B (3)** = **41 grezzi su 160**, più il lotto di manutenzione R1. I conteggi,
+- **Canonizzazione — sette lotti chiusi**: pilota L26130 (22 grezzi) + 1A (7) + 1B (4) + 1C (2)
+  + 2A (3) + 2B (3) + **2B-bis (2)** = **43 grezzi su 160**, più il lotto di manutenzione R1.
+  I conteggi,
   incollati da `conta_stato.py` il 21/08/2026 **dopo la nota-sessione** (E34) e dopo l'ultima
   scrittura (E44):
 
@@ -84,25 +85,38 @@ crea regole: spiega come si sono applicate.
 
 | Grandezza | Valore |
 |---|---|
-| Note nel vault | **246** |
+| Note nel vault | **281** |
 | di cui `_index` | 11 |
-| di cui note-strumento del progetto | 14 |
-| di cui note di diario (`sessione`, `daily`) | 6 |
-| **di cui note di contenuto** | **215** |
-| Note per cartella | areas 129 · data 29 · entities 25 · docs 22 · code 15 · workspace 9 · projects 8 · concepts 6 · self 1 · outputs 1 · sources 1 |
-| Note per `type` | atomica 152 · conflitto 39 · entita 20 · hub 13 · index 11 · sessione 6 · concetto 5 |
-| Questioni aperte (`type: conflitto`) | 39 |
+| di cui note-strumento del progetto | 15 |
+| di cui note di diario (`sessione`, `daily`) | 7 |
+| **di cui note di contenuto** | **248** |
+| Note per cartella | areas 151 · docs 31 · data 29 · entities 27 · code 16 · workspace 10 · projects 8 · concepts 6 · self 1 · outputs 1 · sources 1 |
+| Note per `type` | atomica 177 · conflitto 46 · entita 22 · hub 13 · index 11 · sessione 7 · concetto 5 |
+| Questioni aperte (`type: conflitto`) | 46 |
 | Grezzi in `sources\` | 160 |
-| Grezzi citati da almeno una nota | **41** |
-| Grezzi restanti | **119** |
+| Grezzi citati da almeno una nota | **43** |
+| Grezzi restanti | **117** |
 
-- **QA a perimetro vault — misurata il 21/08/2026 alle 00:01:20**, dopo l'ultima scrittura del
-  lotto 2B (E44): **123 errori, 193 avvisi**. Frontmatter, link e provenance a **zero errori**;
-  la copertura porta tutti e 123 — **119 grezzi non ancora canonizzati, 3 aree senza hub e 1
-  rilievo di merito**, il falso positivo delle doppie padrone descritto in §6. ⚠️ **Il totale
-  scende per la seconda volta consecutiva** — 128 → 126 → 123 — e scende ogni volta
+- **QA a perimetro vault — misurata il 21/08/2026 alle 14:47:43**, dopo l'ultima scrittura del
+  lotto 2B-bis (E44): **121 errori, 214 avvisi**. Frontmatter, link e provenance a **zero
+  errori**; la copertura porta tutti e 121 — **117 grezzi non ancora canonizzati, 3 aree senza
+  hub e 1 rilievo di merito**, il falso positivo delle doppie padrone descritto in §6. ⚠️ **Il
+  totale scende per la terza volta consecutiva** — 128 → 126 → 123 → 121 — e scende ogni volta
   **esattamente dei grezzi che il lotto ha canonizzato**. ⚠️ Fra gli avvisi resta il **debito
   dichiarato di E43**, note anteriori alla regola che attestano un'assenza senza artefatto.
+- ⚠️ **I due tassi (E41), con il nome del dominio misurato (E46)**: R1 **57,7 %** (perimetro
+  CCP e tarature) · 2A **3,3 %** (dominio `cip`) · 2B **0,0 %** su 27 (dominio `acqua`) ·
+  **2B-bis 9,1 % su 33** (dominio `allergeni`). ⚠️ **Il tasso di produzione risale dopo due
+  lotti sotto il 4 %**, e le tre note sono tutte del sotto-dominio della **formazione**, dove
+  la fonte che governa è il materiale d'aula e non la scheda prescrittiva: **il criterio di
+  `candidate_r1.py` conosce UNA fonte governante per dominio**, e questo è un fatto sullo
+  strumento, non sul lotto.
+- ⚠️ **La catena di provenienza si è scoperta cieca una seconda volta.** Dopo le formule mai
+  calcolate dei fogli di calcolo (T89), il **barrato** dei `.docx` (**T96**): quattro passaggi
+  della scheda allergeni portano il barrato attivo e **nessuno si distingue nel testo
+  estratto**, di cui il vault ne aveva colto **uno solo** — e solo perché un commento accanto
+  usa la parola «cancellata». **L'estrattore di misura non è stato toccato**: la decisione su
+  un'estensione di cantiere è del gate.
 - **Il collaudo della suite**: **22 difetti piantati su 22**, su tutte e cinque le vie di
   produzione più il caso negativo, 0 falsi positivi. I due difetti nuovi del gate — l'assenza
   senza artefatto e il fine riga difforme — sono esercitati sulla **via V1**, che ora ne conta
@@ -584,6 +598,30 @@ coerente.
   ⚠️ **2B-bis NON riceve alcun promemoria sulla specie** oltre alle regole già in vigore (E39,
   passo 2-bis). **Un esperimento avvertito non misura niente**, e un avvertimento che vivesse
   solo nel prompt sarebbe la malattia di E27.
+
+  ✅ **CHIUSA il 21/08/2026: il criterio si è avverato, ed è diventato E47.** Al **terzo giro**
+  di giudizio di 2B-bis, **tre dei cinque rilievi** sono di questa specie, e stanno **su note
+  NATE dal lotto** — produzione, non debito. La metà del criterio che era rimasta in piedi
+  chiedeva esattamente questo, e non c'è stato niente da interpretare.
+
+  ⚠️ **E47 è il primo emendamento del progetto nato da un criterio pre-registrato che si è
+  avverato**, invece che da un difetto trovato per caso. **La forma scritta è quella che il
+  criterio annunciava**, allargata su un punto solo: non solo unicità, primato e massimo, ma
+  **ogni quantificatore** — «ogni», «tutti», «sempre», «mai», e le negazioni che dicono la
+  stessa cosa al rovescio.
+
+  ⚠️ **E47 porta con sé una regola di collocazione che il criterio non prevedeva**: quando
+  l'affermazione universale **è il punto** della nota e non un ornamento, **la nota è nel posto
+  sbagliato** — un fatto che riguarda tutto l'archivio si scrive **nella tabella di
+  tracciamento**, che è il solo posto da cui l'archivio si guarda per intero. **La prima
+  applicazione è T96**, il punto cieco sul barrato.
+
+  ⚠️ **La specie è ricomparsa anche DOPO E47**, nella revisione col canone dello stesso lotto —
+  tre righe d'indice e una scomposizione (A2, A3, A5, A10). **Questo non riapre la vigilanza**:
+  E47 è stata scritta **dopo** il terzo giro e **prima** della revisione, e la revisione ha
+  fatto esattamente il lavoro che E47 le chiede di fare. ⚠️ **Ma dice una cosa che il prossimo
+  gate deve sapere: E47 non estingue la specie, la rende TROVABILE.** Il controllo del
+  quantificatore va fatto **da chi rilegge**, come si controlla una cifra — non da chi scrive.
 - ✅ **LA REVISIONE COL CANONE NON È PIÙ UNA VIGILANZA: È CHIUSA DA E45.** Il lotto 2B aveva
   dichiarato il passo scoperto credendo che la guardia su `03_valutazione\` coprisse il canone.
   **Non lo copre**: il canone sta in `01_metodo\`, la guardia riguarda l'esame, e un subagente

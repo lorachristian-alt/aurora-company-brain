@@ -1487,3 +1487,82 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   davanti. ⚠️ **La ragione e' E46 applicato ai criteri**: un giro di giudizio di un lotto non
   misura la specie nell'intero metodo, misura la specie in quel lotto. ⚠️ **E 2B-bis non riceve
   nessun promemoria**: un esperimento avvertito non misura niente.
+
+- **2026-08-21** · **E47 SCRITTA: IL CRITERIO PRE-REGISTRATO SI E' AVVERATO, E NON C'E' STATO
+  NIENTE DA INTERPRETARE** · al terzo giro di giudizio del lotto 2B-bis, **tre dei cinque
+  rilievi** erano della specie universale e stavano **su note NATE dal lotto** — produzione, non
+  debito. La meta' del criterio rimasta in piedi al gate di 2B chiedeva esattamente questo.
+  ⚠️ **E47 e' il primo emendamento del progetto nato da un criterio scritto in anticipo**, non da
+  un difetto trovato per caso. ⚠️ **La forma e' stata allargata su un punto solo**: non piu' solo
+  unicita', primato e massimo, ma **ogni quantificatore** — «ogni», «tutti», «sempre», «mai» — e
+  le negazioni che dicono la stessa cosa al rovescio. ⚠️ **E porta una regola di collocazione che
+  il criterio non prevedeva**: quando l'affermazione universale **e' il punto** della nota, la
+  nota e' nel posto sbagliato, e il fatto va nella **tabella di tracciamento** — il solo posto da
+  cui l'archivio si guarda per intero. Prima applicazione: **T96**.
+- **2026-08-21** · ⚠️ **IL SECONDO PUNTO CIECO DELLA CATENA DI PROVENIENZA: IL BARRATO** ·
+  la revisione col canone ha segnalato quattro passaggi barrati nel `.docx` della scheda
+  allergeni, **verificati aprendo il file come archivio prima di correggere qualsiasi cosa**: uno
+  di essi e' **la frase su cui poggiava un'intera nota**, un altro e' **meta'** della tolleranza
+  sul rework. **Nessuno dei quattro si distingue nel testo estratto**, e il vault ne aveva colto
+  **uno solo** — non perche' l'avesse visto, ma perche' un commento accanto usa la parola
+  «cancellata». ⚠️ **E' la stessa famiglia di T89**, le formule mai calcolate: la seconda volta
+  che la catena si scopre cieca a qualcosa che sta nel file. ⚠️ **L'estrattore di misura NON e'
+  stato toccato** (metodo_01 §5-bis): la decisione su un'estensione di cantiere e' del gate, e la
+  riga **T96** dice che finche' non c'e', l'unica difesa e' una verifica **a mano**.
+- **2026-08-21** · **UN'AUTODICHIARAZIONE DI DIFETTO SI VERIFICA, NON SI CITA** · la scheda
+  allergeni avverte che «la tabella si e' rovinata... le colonne non sono piu' allineate», e la
+  nota del vault aveva **propagato l'avvertenza come un rischio reale**, deducendone che si puo'
+  attribuire un allergene alla referenza sbagliata. **Ricontate: intestazione e tutte e sette le
+  referenze portano sedici campi**, e i valori cadono nella colonna giusta. ⚠️ **Il difetto non
+  era nel documento, era nella nota** — e verificare quell'avvertenza era **esattamente il
+  compito del lotto**. Riga **T105**, chiusa.
+- **2026-08-21** · **B3 RIAPRE UN ARBITRATO GIA' SCRITTO NEL CANONE, E L'ARBITRATO NON E' STATO
+  RISCRITTO** · il gruppo del lotto 2A arbitrava «`IO-05`, e il log resta com'e'», concludendo
+  che il tracciato fosse *piu' severo del nome che porta*. **La scheda allergeni prescrive la
+  fase che il log esegue in piu'**: il log non la aggiunge di sua iniziativa. ⚠️ **La riga del
+  canone porta ora il rimando a B3 e la dichiarazione che non regge come formulata**, invece di
+  essere corretta in silenzio: **un arbitrato che cambia deve restare leggibile insieme alla
+  ragione per cui e' cambiato.**
+- **2026-08-21** · **UNA DIVERGENZA VERA E NON SCRIVIBILE: IL DIVIETO 9-bis VALE ANCHE COSI'** ·
+  B6 — il registro della formazione non conferma nessuna sessione allergeni del 2026 — e'
+  verificata sul grezzo, ma quel grezzo **non e' in nessun lotto**. ⚠️ **Sta nel canone e non nel
+  vault**, e la riga **T102** dice a quale lotto tocca. ⚠️ **Corrobora una chiusura prudente**:
+  `fatto-turno-notte-senza-formazione` chiude con «la risposta non e' nel materiale», e il
+  registro conferma che al 18/05 il recupero **non risulta fatto**. La prudenza era la lettura
+  giusta, non un ripiego.
+- **2026-08-21** · ⚠️ **IL TASSO DI PRODUZIONE RISALE A 9,1 %, E SI DICHIARA COSI' COM'E'** ·
+  dominio `allergeni`, 3 note su 33, dopo 3,3 % (`cip`) e 0,0 % (`acqua`). **Le tre note sono
+  tutte del sotto-dominio della formazione**, dove la fonte che governa e' il materiale d'aula e
+  non la scheda prescrittiva. ⚠️ **Il numero non e' stato aggiustato** e la spiegazione non e' un
+  alibi: il criterio di `candidate_r1.py` **conosce una sola fonte governante per dominio**, e su
+  un dominio che ne ha due la misura sovrastima. **E' un fatto sullo strumento, non sul lotto**, e
+  la correzione dello strumento e' materia del gate.
+- **2026-08-21** · **UNA SPECIE D'ERRORE NUOVA, NOMINATA E NON EMENDATA: IL CONTEGGIO CHE NASCE
+  DALLA LETTURA** · il ri-giudizio dopo la revisione ha trovato «sei fasi» dove nessuna delle due
+  fonti dice sei, «due colonne» dove cambiano due caselle, «due divieti» dove c'e' un divieto e un
+  obbligo, e due locator spostati. ⚠️ **Il caso del "sei" e' passato attraverso tre livelli** — il
+  revisore col canone, poi il canone, una nota e una riga di tracciamento — **senza che nessuno lo
+  contasse sulla fonte**: l'ha contato il giudice. ⚠️ **E' imparentata con E23 ma non e' E23**:
+  quella nasce per i valori *calcolati*, questa riguarda **contare e localizzare**, che sembrano
+  atti di lettura e sono atti di inferenza. ⚠️ **Non emendata: e' la prima volta che si nomina**
+  (E28), e il criterio pre-registrato sta nel §11 del rapporto — **scritto prima che il prossimo
+  lotto parta**, perche' un criterio riletto a esito visto non misura piu' niente (§4.43).
+- **2026-08-21** · **IL CICLO SI E' FERMATO DOVE E26 DICE, NON DOVE CONVERGEVA** · dopo il
+  ri-giudizio le correzioni sono state applicate e la QA e' tornata a **zero errori**, ma **non e'
+  stato aperto un quarto giro**. ⚠️ **La regola d'arresto chiede di nominare il pattern e
+  fermarsi**, non di rincorrere la convergenza — e i ventidue rilievi si sono rivelati due
+  famiglie sole: la specie di E47, che **era gia' in vigore mentre la si riproduceva**, e la
+  specie nuova del conteggio. ⚠️ **Che E47 non estingua la specie e' il fatto che il gate deve
+  sapere**: la rende **trovabile**, e il controllo del quantificatore e' un gesto **di chi
+  rilegge**, non di chi scrive.
+- **2026-08-21** · **IL CSV DELLA MATRICE FILE x FATTO ERA MALFORMATO DA UN LOTTO PRECEDENTE, E
+  LO SCRIPT CI SI E' ROTTO SOPRA** · rigenerando le righe di 2B-bis lo script e' andato in errore
+  **a meta' scrittura**, lasciando il file a 184 righe delle 293 che aveva. ⚠️ **Ripristinato
+  subito da git e poi diagnosticato invece di riprovare**: tre righe portavano **sette campi
+  invece di sei**, per un **punto e virgola non protetto dentro il campo `fatto`**. ⚠️ **E il
+  difetto era visibile da un lotto**: nel censimento comparivano **tre lotti fantasma** col nome
+  di una nota, perche' lo slittamento spostava la nota nella colonna del lotto. **Nessuno li
+  aveva guardati.** Riparate riunendo i due tronconi e riscrivendo con il quoting corretto: il
+  lotto 1B torna da 49 a **52 righe**, e col lotto nuovo il CSV arriva a **334**. ⚠️ **Che lo
+  script debba RIFIUTARSI di scrivere quando rilegge una riga malformata, invece di fermarsi a
+  meta', e' una decisione del gate**: oggi il danno era reversibile perche' il file e' in git.
