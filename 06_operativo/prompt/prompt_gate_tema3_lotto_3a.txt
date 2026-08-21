@@ -1,0 +1,189 @@
+=====================================================================
+PROMPT — GATE DEL RIPACCHETTAMENTO TEMA 3 + APERTURA DEL LOTTO 3A
+Corpus v1 · Aurora Food Group S.r.l. (simulazione dichiarata)
+File: 06_operativo\prompt\prompt_gate_tema3_lotto_3a.txt
+Scritto dal coordinatore il 21/08/2026, letto tutto sul disco.
+=====================================================================
+
+COME SEI STATO LANCIATO
+- Terminale nella RADICE del repository
+  C:\Users\buulo\Desktop\.eval_do_not_index\Aurora_Food_Group_SRL
+  con: claude --add-dir "C:\Users\buulo\Desktop\aurora-cervello"
+
+---------------------------------------------------------------------
+PARTE 0 — VERIFICA E COMMIT
+---------------------------------------------------------------------
+0.1 `prompt_s4_lotti.txt` NON e' cambiato: resta a E49, sha256
+    d2971c186de3a3e5d5690d8429091c67ff5d5f97296056a53cd3a12dff896a51.
+    Verifica l'impronta e basta. Anche questo gate non produce
+    emendamenti nuovi: e' il secondo, e la nota nello stato si
+    aggiorna — due gate consecutivi senza emendamenti al modo di
+    scrivere le note.
+0.2 Questo file e' NON TRACCIATO: committalo e pusha PRIMA di eseguire.
+    Messaggio: «prompt del gate tema 3 + apertura 3A».
+
+---------------------------------------------------------------------
+PARTE 1 — IL VERDETTO: 2dafd15 E' APPROVATO, E LE DUE CONTRADDIZIONI
+          AL PROMPT SONO RATIFICATE ENTRAMBE
+---------------------------------------------------------------------
+Il coordinatore ha verificato sul disco: la riga dell'arbitrato nel
+canone («riaperto e confermato il 21/08/2026, v. B3»), B3 e B4 corretti
+col ribaltamento scritto dentro, il predicato di `misura_due_tassi`
+(riga 84: intersezione con un INSIEME di fonti), il docstring del
+collaudo con le vie e i quattro difetti E48, l'elenco di sources\ del
+vault, T99, T107, T108, e i cinque pacchetti del tema 3.
+
+1.1 LA CONTRADDIZIONE SU 2.4 E' RATIFICATA, ED E' IL CASO PIU'
+    ISTRUTTIVO DEL GATE. L'ordine del coordinatore — riformulare
+    l'arbitrato — discendeva da B3 com'era scritta, e B3 era essa
+    stessa un caso E49: una conclusione entrata nel canone senza
+    riaprire il file. Hai verificato la riga sulla fonte PRIMA di
+    eseguire il ribaltamento, trovato che §5.3 confina il sanificante
+    nell'L3 e che il log non dichiara mai il tipo di lavaggio, e
+    RICHIUSO l'arbitrato piu' preciso di prima: il tracciato e' piu'
+    severo di ENTRAMBI i prescrittivi, con lo scarto doppio — una fase
+    in piu' e l'ordine diverso. Se avessi eseguito l'ordine alla
+    lettera, un errore del canone sarebbe entrato nel vault CON LA
+    FIRMA DEL GATE. Questo merita una riga di giurisprudenza, e la
+    scrivi tu nella §4 del passaggio di consegne, al primo numero
+    libero — il coordinatore non detta piu' numeri di sezione che non
+    ha contato (precedente §4.38/§4.43):
+      UN ORDINE DI GATE CHE DISCENDE DA UNA RIGA DI REGISTRO EREDITA
+      LA PROVENIENZA DI QUELLA RIGA. Chi lo esegue verifica la riga
+      sulla fonte prima del ribaltamento, e un ordine eseguito contro
+      la fonte non e' obbedienza: e' un errore importato dall'alto.
+      (Caso: B3 e l'arbitrato CIP, 21/08/2026 — il coordinatore ordino'
+      la riformulazione, l'esecutore verifico' e l'arbitrato ne usci'
+      confermato e piu' preciso.)
+
+1.2 LA CONTRADDIZIONE SU 2.5 E' RATIFICATA. `misura_due_tassi` gestiva
+    gia' le fonti multiple — il dominio `cip` ne dichiarava due dal
+    lotto 2A — e il difetto vero era la DICHIARAZIONE del dominio
+    allergeni, non lo strumento. L'affermazione contraria stava nel
+    rapporto di 2B-bis ed era un'istanza della specie del §11: un
+    fatto sullo strumento scritto guardando il risultato invece del
+    codice — passata anche dalla ratifica del coordinatore, e va detto.
+    Adempimenti: ERRATA datata nel rapporto 2B-bis dove afferma che lo
+    strumento conosce una sola fonte per dominio; annotazione alla
+    riga 2B-bis della serie («dominio dichiarato incompleto: mancava
+    il materiale d'aula»); la serie NON si riscrive (E46). La suite
+    `collaudo_due_tassi` gia' esiste: verifica che porti un difetto
+    piantato sul caso multi-fonte, e se manca piantalo.
+
+1.3 Ratificati inoltre: l'estensione E48 con la proprieta' di PREFISSO
+    ESATTO (la separazione provabile per costruzione e' la forma
+    migliore che potesse prendere); i due difetti tuoi dichiarati con
+    il modo in cui sono stati trovati — e il confronto RIGA PER RIGA
+    col report precedente, che ha preso quindici avvisi fantasma dove
+    il totale non li vedeva, diventa prassi dichiarata nel docstring
+    del collaudo: dopo un fix alla suite, gli esiti sulle note fuori
+    perimetro si confrontano riga per riga col run precedente, e un
+    esito che cambia dove nessuno ha toccato e' un difetto del fix;
+    la riverifica dei barrati (30 note, 4 corrette) col rilievo del
+    revisore sul secondo grezzo gia' dichiarato; lo stop prima di 3A,
+    invocando la PARTE 3, per la ragione giusta.
+
+1.4 E LO STRATO DEL BARRATO SI E' GIA' RIPAGATO: il nono impegno della
+    politica per la qualita' — la crescita del fatturato come obiettivo
+    primario — e' BARRATO, in un documento che dichiara la priorita'
+    della sicurezza alimentare, ed e' indistinguibile dagli altri otto
+    nel testo estratto. Senza E48 sarebbe entrato nel vault come
+    impegno vigente, dentro il documento prescrittivo di vertice del
+    tema 3. T107 e T108 lo portano. Va nello stato con questa forma:
+    lo strumento ha impedito il suo primo errore PRIMA di essere usato
+    in un lotto.
+
+---------------------------------------------------------------------
+PARTE 2 — QUATTRO ADEMPIMENTI MINORI (una tantum, prima di 3A)
+---------------------------------------------------------------------
+2.1 IL «161 GREZZI» E' UN'ETICHETTA IMPROPRIA, NON UN ERRORE DI CONTO:
+    `prova_invarianza` enumera sources\ del vault, che porta i 160
+    grezzi PIU' `_index-sources.md`. Correggi l'etichetta dove compare
+    — stato, rapporto — in «161 file di sources\, cioe' 160 grezzi piu'
+    l'_index»; e lo script, per i run futuri, esclude i `.md` come
+    fanno conta_stato e verifica_matrice (fix di coerenza: la prova sui
+    160 resta identica), dichiarando nel report il passaggio 161 → 160
+    e il perche', cosi' il numero che cambia fra due run ha la sua
+    spiegazione scritta.
+
+2.2 LA CONTABILITA' DEL COLLAUDO SI DICHIARA: «24 su 24» e i quattro
+    difetti E48 convivono solo se una parte sono controlli di
+    NON-scatto contati a parte (come i due del pacchetto, da sempre).
+    Il docstring e il report del collaudo dicano esplicitamente:
+    difetti che devono scattare N, controlli di non-scatto M — la
+    cifra e la sua composizione viaggiano insieme (precedente: la
+    nota d'uso del «7 su 7»).
+
+2.3 LA FAMIGLIA «L'AFFERMAZIONE CHE SI SMENTISCE DENTRO LA NOTA
+    STESSA» HA IL SUO CRITERIO ADESSO, non «quando ricompare»: la
+    disciplina consolidata scrive il criterio PRIMA del prossimo
+    esperimento, e il rapporto 2B-bis qui e' rimasto un passo
+    indietro. Riga in §6 del passaggio di consegne:
+      la specie: un'affermazione la cui smentita sta NELLA STESSA
+      NOTA — «non piu' X» sopra fatti che dicono «non solo X»,
+      «nessuno dei due cita l'altro» accanto alla citazione riportata,
+      un titolo che afferma cio' che il corpo dichiara di non sapere;
+      diventa emendamento se ricompare al terzo giro di 3A su note
+      nate dal lotto; se non ricompare, la riga non si chiude da sola:
+      decide il gate con le osservazioni davanti.
+    Nessun promemoria a 3A oltre le regole in vigore.
+
+2.4 REGISTRI: §3 del passaggio di consegne (tema 3 ripacchettato,
+    prossimo atto 3A), la riga di §4 del punto 1.1, la riga di §6 del
+    punto 2.3, l'errata del punto 1.2. Commit «Gate del tema 3:
+    ratifiche, errata dello strumento, criterio della terza specie»
+    + push.
+
+---------------------------------------------------------------------
+PARTE 3 — APERTURA DEL LOTTO 3A (riesame della direzione + cruscotto)
+---------------------------------------------------------------------
+Ciclo di `prompt_s4_lotti.txt` §3, senza sconti. Due grezzi: il verbale
+di riesame della direzione SGQ 2026 e il cruscotto KPI qualita'.
+Conteggio dei fatti gia' eseguito al ripacchettamento (~34 note,
+estremo alto della capacita'): RIVERIFICALO in apertura (E21) — se il
+riconteggio supera, valgono le soglie di E28 e si spezza prima di
+scrivere.
+
+3.1 IL CRUSCOTTO E' IL BANCO DI PROVA DELLO STRATO [FORMULA]: 65
+    formule mai calcolate, primo lotto che esercita l'estensione E48 su
+    dati veri. Il rapporto dichiara quanti riscontri arrivano dallo
+    strato [FORMULA], e quante affermazioni delle note poggiano su
+    valori che il RAG di misura non vedra' mai — quel numero e'
+    materiale per S7, perche' e' il caso in cui la nota SUPERA il
+    grezzo per costruzione.
+
+3.2 GLI OBBLIGHI EREDITATI, dalla tabella di tracciamento: T11, T50 e
+    T51 passano dal cruscotto (costo della non qualita', taratura
+    strumenti, notifica ATS); T90 cerca nel verbale l'esito del riesame
+    del 05/06 sul rework — e si riconcilia con la tolleranza barrata
+    appena sistemata; la collisione delle tre serie NC si verifica su
+    ogni codice NC che il cruscotto o il verbale citano, con la grafia
+    esatta della fonte. Gli obblighi che cadono in altri pacchetti
+    restano dove la matrice li ha messi.
+
+3.3 E37 NON scatta su 3A — ne' il verbale ne' il cruscotto sono fonti
+    prescrittive — e scattera' su 3B, 3D e 3E. E41+E46: sesto punto
+    della serie, dominio dichiarato con TUTTE le fonti governanti
+    (la lezione di 2B-bis, appena pagata).
+
+3.4 LE DUE VIGILANZE APERTE SI OSSERVANO AL TERZO GIRO, su note nate
+    dal lotto: la specie del conteggio non enunciato (§11 di 2B-bis) e
+    la specie della smentita interna (2.3 qui sopra). Il rapporto
+    dichiara l'esito di entrambe, una riga ciascuna.
+
+3.5 RITMO: 3A chiude la sessione — ciclo intero, revisione col canone
+    via subagente (E45), misure E44 con l'ora, adempimenti del passo
+    11, cinque gesti, push, zip. Poi il rapporto al coordinatore.
+
+---------------------------------------------------------------------
+GUARDIE GENERALI
+---------------------------------------------------------------------
+- 03_valutazione\ non si apre mai, per nessuno, subagenti compresi.
+- Il canone guida e non appare NELLE NOTE; il revisore lo riceve (E45),
+  il giudizio mai.
+- Ogni numero da script, con l'ora della misura (E44).
+- L'estrattore di MISURA non si tocca; l'estrazione di cantiere e' la
+  via di QA e giudizio, e la prova del prefisso gira a ogni chiusura.
+- Se qualcosa qui contraddice metodo_03 O LE FONTI, vince la fonte e
+  lo segnali: il precedente e' il punto 1.1 di questo stesso file.
+=====================================================================
