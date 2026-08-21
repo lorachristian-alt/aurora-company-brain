@@ -150,9 +150,27 @@ DOMINI = {
     # Lotto 2B. La scheda allergeni (PRPo1) prescrive matrice, sequenze di produzione,
     # tipi di lavaggio, validazione della pulizia, rework, etichettatura precauzionale e
     # segregazione a magazzino. E' la fonte che GOVERNA il rischio allergeni del sito.
+    #
+    # ⚠️ DUE FONTI, dal gate del 21/08/2026, e la seconda e' stata aggiunta per un numero.
+    # Il lotto 2B-bis ha misurato un tasso di difetto di produzione del 9,1 %, e tutte e tre
+    # le note scoperte erano del sotto-dominio della FORMAZIONE: parlano di allergeni ma
+    # nascono dal materiale d'aula, non dalla scheda. Il criterio le contava scoperte perche'
+    # il dominio dichiarava una fonte sola, e la misura sovrastimava.
+    #
+    # ⚠️ Il materiale di formazione E' governante su quel sotto-dominio: la scheda §9
+    # prescrive la formazione ma non ne fissa il contenuto, e le regole che l'operatore
+    # riceve — le cinque regole d'oro, i divieti, il test finale — stanno solo li'. Una nota
+    # sulla formazione allergeni che cita il .pptx **non e' scoperta**: cita la fonte che
+    # quel pezzo di dominio lo governa davvero.
+    #
+    # ⚠️ E QUESTO NON RISCRIVE LA SERIE. Il 9,1 % del lotto 2B-bis resta il numero misurato
+    # con lo strumento di allora, e resta scritto cosi' (E46). Il prossimo lotto dichiara la
+    # versione dello strumento che usa: due misure fatte con criteri diversi non stanno sulla
+    # stessa curva.
     "allergeni": {
         "fonti": {
             "scheda_allergeni_matrice_cross_contamination.docx",
+            "formazione_allergeni_operatori_2026.pptx",
         },
         "espressioni": [
             r"allergen", r"glutin", r"sesamo", r"frutta a guscio", r"soia",

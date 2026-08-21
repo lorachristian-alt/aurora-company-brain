@@ -13,7 +13,7 @@
 
 ## Riga di riepilogo per lo stato di sessione
 
-> suite QA · perimetro vault · **121 ERRORI, 214 AVVISI** · esito **ROSSO**
+> suite QA · perimetro vault · **121 ERRORI, 219 AVVISI** · esito **ROSSO**
 
 ---
 
@@ -50,7 +50,7 @@
 ## qa_frontmatter (perimetro: vault, 281 note)
 
 - ERRORI: **0**
-- AVVISI: **138**
+- AVVISI: **139**
 
 ### Avvisi
 
@@ -111,7 +111,7 @@
 | `fatto-piano-produzione-sett19-21.md` |  | frontmatter | corpo di 331 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-prodotto-non-segregato-deviazione-ccp2.md` |  | frontmatter | corpo di 348 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-prodotto-non-segregato-deviazione-ccp2.md` |  | frontmatter | dichiara un'assenza con la formula di E3 ma non rimanda a un artefatto di ricerca in 06_operativo\ricerche_assenza\ (E43) — debito anteriore a E43, da sanare a fine corsa |
-| `fatto-programma-p2-ogni-giorno.md` |  | frontmatter | corpo di 343 parole: fra 301 e 350, si motiva o si spezza |
+| `fatto-programma-p2-ogni-giorno.md` |  | frontmatter | corpo di 342 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-referenze-fuori-scheda-horeca.md` |  | frontmatter | summary contiene piu' di una frase |
 | `fatto-repliche-shelf-life-l26130-divergenti.md` |  | frontmatter | corpo di 331 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-rework-linea-1-sospeso.md` |  | frontmatter | summary di 288 caratteri (tetto 250) |
@@ -140,6 +140,7 @@
 | `questione-listeria-24-02-non-nel-registro-tamponi.md` |  | frontmatter | summary contiene piu' di una frase |
 | `questione-materiale-guarnizione-pkm-450.md` |  | frontmatter | dichiara un'assenza con la formula di E3 ma non rimanda a un artefatto di ricerca in 06_operativo\ricerche_assenza\ (E43) — debito anteriore a E43, da sanare a fine corsa |
 | `questione-prodotto-acido-cip-an-15-o-acidfood-25.md` |  | frontmatter | summary di 272 caratteri (tetto 250) |
+| `questione-rework-congelamento-slide-e-scheda.md` |  | frontmatter | summary di 266 caratteri (tetto 250) |
 | `questione-validazione-ccp2-mai-confermata.md` |  | frontmatter | corpo di 329 parole: fra 301 e 350, si motiva o si spezza |
 | `questione-verifiche-ccp3-10-05-tre-versioni.md` |  | frontmatter | dichiara un'assenza con la formula di E3 ma non rimanda a un artefatto di ricerca in 06_operativo\ricerche_assenza\ (E43) — debito anteriore a E43, da sanare a fine corsa |
 | `fatto-blocco-cautelativo-lotti.md` |  | frontmatter | corpo di 335 parole: fra 301 e 350, si motiva o si spezza |
@@ -222,7 +223,7 @@
 ## qa_provenance (perimetro: vault, 281 note)
 
 - ERRORI: **0**
-- AVVISI: **64**
+- AVVISI: **68**
 
 ### Avvisi
 
@@ -293,6 +294,12 @@ verifiche n» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 | `kpi-temperature-cip-maggio.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `questione-limite-o2-residuo.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `questione-scarti-riavvio-l26130.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
+| `bozza-contratto-manutenzione-frigo.md` |  | provenance | riscontro in testo revocato: «giusta procura del 15/09/2024 03/11/2025» si trova SOLO in un passaggio barrato della fonte, e la nota non lo dichiara |
+| `bozza-contratto-manutenzione-frigo.md` |  | provenance | riscontro in testo revocato: «16.200,00» si trova SOLO in un passaggio barrato della fonte, e la nota non lo dichiara |
+| `bozza-lettera-tosano-reclamo.md` |  | provenance | riscontro in testo revocato: «frammento di plastica dura
+di colore azzurro» si trova SOLO in un passaggio barrato della fonte, e la nota non lo dichiara |
+| `bozza-lettera-tosano-reclamo.md` |  | provenance | riscontro in testo revocato: «è compatibile per colore e consistenza con una
+guarnizione u» si trova SOLO in un passaggio barrato della fonte, e la nota non lo dichiara |
 
 
 ## qa_copertura (perimetro: vault, 281 note)
@@ -651,7 +658,7 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `fatto-pc-sesamo-condizionato-al-prototipo.md` | atomica | aperto | 1 |
 | `fatto-porta-cella-cf-02-aperta-38-minuti.md` | atomica | aperto | 2 |
 | `fatto-prodotto-non-segregato-deviazione-ccp2.md` | atomica | aperto | 2 |
-| `fatto-programma-p2-ogni-giorno.md` | atomica | risolto | 2 |
+| `fatto-programma-p2-ogni-giorno.md` | atomica | risolto | 3 |
 | `fatto-proteina-latte-prima-del-bio.md` | atomica | aperto | 1 |
 | `fatto-quasi-incidente-sequenza-novembre.md` | atomica | aperto | 1 |
 | `fatto-referenze-fuori-scheda-horeca.md` | atomica | aperto | 1 |
@@ -885,7 +892,7 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `ricetta_base_esperimento_snack_salato_v12.txt` | **nessuna** |
 | `richiesta_campionatura_fiera_Cibus_2026.csv` | **nessuna** |
 | `scadenzario_effetti_RIBA_giugno26.csv` | **nessuna** |
-| `scheda_allergeni_matrice_cross_contamination.docx` | fatto-cartello-bacheca-2024-senza-sesamo, fatto-deroga-sequenza-l2-cancellata, fatto-latte-riclassificato-af-sn-0450, fatto-passaggi-barrati-scheda-allergeni, fatto-pc-sesamo-condizionato-al-prototipo, fatto-proteina-latte-prima-del-bio, fatto-referenze-fuori-scheda-horeca, fatto-rework-linea-1-sospeso, fatto-saletta-pilota-sesamo-segregato, fatto-scheda-allergeni-modifiche-non-accettate, fatto-sessioni-formazione-allergeni-2026, fatto-validazione-pulizia-da-ripetere, questione-arachidi-solfiti-aula-e-matrice, questione-composizione-lavaggio-completo, questione-nc-lavaggi-sul-modulo-reclami, questione-precauzionale-af-sn-0450-soia, questione-proteine-test-manuale-e-scheda, questione-rework-congelamento-slide-e-scheda, questione-tamponi-allergeni-non-registrati, doc-etichettatura-precauzionale, doc-formazione-allergeni-2026, doc-matrice-allergeni-referenze, doc-regole-rework, doc-responsabilita-allergeni, doc-sequenze-produzione-allergeni, doc-stoccaggio-segregato-allergeni, doc-tipi-lavaggio-allergeni, doc-validazione-pulizia-allergeni, entita-chiara-vicentini, prodotto-af-sn-0470 |
+| `scheda_allergeni_matrice_cross_contamination.docx` | fatto-cartello-bacheca-2024-senza-sesamo, fatto-deroga-sequenza-l2-cancellata, fatto-latte-riclassificato-af-sn-0450, fatto-passaggi-barrati-scheda-allergeni, fatto-pc-sesamo-condizionato-al-prototipo, fatto-programma-p2-ogni-giorno, fatto-proteina-latte-prima-del-bio, fatto-referenze-fuori-scheda-horeca, fatto-rework-linea-1-sospeso, fatto-saletta-pilota-sesamo-segregato, fatto-scheda-allergeni-modifiche-non-accettate, fatto-sessioni-formazione-allergeni-2026, fatto-validazione-pulizia-da-ripetere, questione-arachidi-solfiti-aula-e-matrice, questione-composizione-lavaggio-completo, questione-nc-lavaggi-sul-modulo-reclami, questione-precauzionale-af-sn-0450-soia, questione-proteine-test-manuale-e-scheda, questione-rework-congelamento-slide-e-scheda, questione-tamponi-allergeni-non-registrati, doc-etichettatura-precauzionale, doc-formazione-allergeni-2026, doc-matrice-allergeni-referenze, doc-regole-rework, doc-responsabilita-allergeni, doc-sequenze-produzione-allergeni, doc-stoccaggio-segregato-allergeni, doc-tipi-lavaggio-allergeni, doc-validazione-pulizia-allergeni, entita-chiara-vicentini, prodotto-af-sn-0470 |
 | `scheda_manutenzione_ordinaria_forni_industrial.csv` | fatto-anomalia-consumo-cf-02-maggio, fatto-assistenza-esterna-24-04-cf-02, fatto-cariche-f-gas-impianti-frigoriferi, fatto-cicli-cip-chiusi-con-sonda-guasta, fatto-convalida-md-1800-scaduta, fatto-due-registri-paralleli-della-metrologia, fatto-fermo-forno-ft-01-05-05, fatto-guarnizione-pkm-450-manutenzione-scaduta, fatto-manutenzioni-rimandate-per-promo, fatto-obblighi-registro-f-gas, fatto-ricambi-fuori-area-produzione-manuale-pkm, fatto-riepilogo-manutenzione-non-quadra, fatto-sonde-pt-104-in-taratura, fatto-strumenti-cf-02-e-ccp4, fatto-ts-01-fine-vita-dismissione, fatto-valvola-modulante-pt-104-revisione-rimandata, questione-codice-ricambio-valvola-pkm-450, questione-convalida-md-1800-scaduta-o-valida, questione-convalida-md-3200-due-registri, questione-due-registri-tarature-pt-104, questione-manutentore-frigo-berica-scaligera, questione-materiale-guarnizione-pkm-450, questione-nc-067-sbrinamenti-tunnel, questione-periodicita-taratura-canali-datalogger-ccp2, questione-refrigerante-ts-01, questione-sigla-kit-tasselli-ccp3, questione-taratura-termoregistratore-cf-02, entita-pakmatic, macchina-cf-01, macchina-ft-01, macchina-md-3200, macchina-ts-01, kpi-manutenzioni-arretrate-2026 |
 | `scheda_sicurezza_detergente_acido_lavaggio_CIP.txt` | fatto-sds-revisione-in-linea-superata, fatto-taniche-e-rifiuti-cip, questione-dpi-cip-due-prescrizioni, questione-frequenza-verifica-lavaocchi-cip, questione-prodotto-acido-cip-an-15-o-acidfood-25, doc-condizioni-uso-detergente-acido, doc-dpi-detergente-acido, doc-sds-detergente-acido-cip, entita-chemifood-italia, macchina-cip-01 |
 | `scheda_tecnica_farina_tipo_0_MolinoVeneto.txt` | **nessuna** |

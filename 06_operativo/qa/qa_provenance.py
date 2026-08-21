@@ -9,8 +9,13 @@ riproducibile, e un numero non riproducibile non vale — regola d'oro 5):
 
   * strato DETERMINISTICO, qui dentro, senza LLM: estrae dal corpo le stringhe
     verificabili con una regex — numeri, date, orari, codici, citazioni fra
-    virgolette basse — e le cerca nel testo estratto delle fonti con la `text_of`
-    congelata, dopo normalizzazione alias. E' questo strato a produrre gli ERRORI.
+    virgolette basse — e le cerca nel testo delle fonti, dopo normalizzazione
+    alias. E' questo strato a produrre gli ERRORI.
+    ⚠️ **Dal 21/08/2026 (E48) il riscontro si cerca nell'ESTRAZIONE DI CANTIERE**
+    (`estrazione_cantiere.testo_cantiere`), che parte da `text_of` congelata e vi
+    APPENDE marcati i due strati che quella non vede: le formule dei fogli di
+    calcolo e i passaggi barrati dei documenti. **L'estrattore di misura resta
+    byte-identico** e la separazione si prova (`estrazione_cantiere --prova`).
 
   * strato di GIUDIZIO, che gira altrove (subagente a contesto pulito): risponde
     alle due domande che una regex non puo' porre. Produce solo AVVISI. Il testo
@@ -24,6 +29,7 @@ Uso:
 import argparse, io, os, re, sys
 
 import qa_comune as Q
+import estrazione_cantiere as EC
 
 CONTROLLO = "provenance"
 
@@ -199,6 +205,25 @@ def numeri_esenti(testo):
 
 # -------------------------------------------------------------- verifica nota
 
+# ⚠️ E48 — QUANDO UN RISCONTRO VIVE SOLO IN TESTO BARRATO.
+# Il barrato e' contenuto REVOCATO: chi lo cita come se fosse in vigore afferma il
+# falso, ed e' la classe piu' grave del progetto. Ma una nota che PARLA del barrato
+# — e ce ne sono, ed e' esattamente quello che deve fare — riporta per forza le
+# parole revocate, e segnalarla sarebbe punire il comportamento giusto.
+#
+# Il criterio e' a livello di NOTA e non di singola citazione, ed e' una scelta:
+# una nota che dice da qualche parte «barrato», «revocato» o «cancellato» sa di
+# star maneggiando testo cancellato, e la distinzione fine fra le sue frasi non e'
+# alla portata di una regex. ⚠️ **Il collaudo pianta entrambi i versi**: una nota
+# che afferma come vigente un testo barrato (deve essere segnalata) e una che lo
+# dichiara revocato (non deve esserlo).
+RE_DICHIARA_REVOCA = __import__("re").compile(r"barrat|revocat|cancellat|depennat", __import__("re").I)
+
+
+def dichiara_la_revoca(nota):
+    return bool(RE_DICHIARA_REVOCA.search(nota.grezzo))
+
+
 def testo_di_riscontro(nota, per_slug):
     """Il materiale contro cui si verifica la nota.
 
@@ -208,7 +233,7 @@ def testo_di_riscontro(nota, per_slug):
     """
     pezzi = {}
     for f in nota.fonti:
-        pezzi[str(f)] = Q.testo_fonte(str(f))
+        pezzi[str(f)] = EC.testo_cantiere(str(f))
     if nota.type in ("hub", "index"):
         for target, _ in nota.wikilink():
             sp = per_slug.get(target)
@@ -232,6 +257,10 @@ def controlla(nota, rep, per_slug):
 
     norm_pezzi = {k: Q.norm(v) for k, v in pezzi.items()}
     compatti = {k: re.sub(r"[-\s/_.]", "", v) for k, v in norm_pezzi.items()}
+    # lo stesso materiale, senza i passaggi revocati (E48)
+    vigenti = {str(f): Q.norm(EC.testo_vigente(str(f))) for f in nota.fonti}
+    comp_vig = {k: re.sub(r"[-\s/_.]", "", v) for k, v in vigenti.items()}
+    nota_dichiara = dichiara_la_revoca(nota)
     ha_jpg = any(str(f).lower().endswith((".jpg", ".jpeg")) for f in nota.fonti)
 
     corpo = nota.corpo_senza_fonti
@@ -241,18 +270,38 @@ def controlla(nota, rep, per_slug):
     for genere, tok in estrai_affermazioni(corpo):
         if genere == "numero" and any(v in esenti for v in varianti_numero(tok)):
             continue
-        trovato = False
-        for k in pezzi:
+        def _cerca(nn, cc):
             if genere == "numero":
-                ok = any(Q.presente(v, norm_pezzi[k], compatti[k]) for v in varianti_numero(tok))
-            elif genere == "data":
-                ok = any(Q.presente(v, norm_pezzi[k], compatti[k]) for v in varianti_data(tok))
-            elif genere == "citazione":
-                ok = Q.norm(tok) in norm_pezzi[k]
+                return any(Q.presente(v, nn, cc) for v in varianti_numero(tok))
+            if genere == "data":
+                return any(Q.presente(v, nn, cc) for v in varianti_data(tok))
+            if genere == "citazione":
+                return Q.norm(tok) in nn
+            return Q.presente(tok, nn, cc)
+
+        trovato = False
+        # ⚠️ nessuna uscita anticipata da questo ciclo: `agganci` serve al controllo
+        # del «rumore nel payload», che conta gli agganci di OGNI fonte. Un `break`
+        # qui dentro spegne le fonti successive e inventa quindici avvisi che non
+        # esistono — provato il 21/08/2026 confrontando il vault prima e dopo.
+        dentro_revocato = False
+        dentro_vigente = False
+        for k in pezzi:
+            if not _cerca(norm_pezzi[k], compatti[k]):
+                continue
+            agganci[k] += 1
+            trovato = True
+            if k not in vigenti:               # gli spoke di hub e _index non hanno strati
+                dentro_vigente = True
+            elif _cerca(vigenti[k], comp_vig[k]):
+                dentro_vigente = True
             else:
-                ok = Q.presente(tok, norm_pezzi[k], compatti[k])
-            if ok:
-                agganci[k] += 1; trovato = True
+                dentro_revocato = True
+        solo_revocato = dentro_revocato and not dentro_vigente
+        if trovato and solo_revocato and not nota_dichiara:
+            rep.avviso(n, CONTROLLO,
+                       "riscontro in testo revocato: «%s» si trova SOLO in un passaggio "
+                       "barrato della fonte, e la nota non lo dichiara" % tok[:60])
         if not trovato:
             msg = "%s senza riscontro in nessuna fonte citata: «%s»" % (genere, tok[:70])
             # clausola 3: l'estrattore congelato e' cieco sulle immagini
@@ -269,7 +318,8 @@ def controlla(nota, rep, per_slug):
         f = m.group(1).strip()
         if f.lower().endswith((".jpg", ".jpeg")):
             continue
-        t = Q.norm(Q.testo_fonte(f))
+        t = Q.norm(EC.testo_cantiere(f))
+        t_vig = Q.norm(EC.testo_vigente(f))
         for cit in RE_CITAZIONE.findall(riga):
             if not e_citazione(cit):
                 continue           # e' il nome di un foglio o di una sezione dentro il locator
@@ -279,6 +329,10 @@ def controlla(nota, rep, per_slug):
                            "citazione non ritrovata testualmente in %s: «%s»" % (f, cit[:60]))
             else:
                 agganci[f] = agganci.get(f, 0) + 1
+                if Q.norm(cit) not in t_vig and not dichiara_la_revoca(nota):
+                    rep.avviso(n, CONTROLLO,
+                               "riscontro in testo revocato: «%s» e' barrato in %s, e la "
+                               "nota non lo dichiara" % (cit[:50], f))
 
     # --- fix del 18/08/2026: gli identificatori marcati a codice contano come aggancio ---
     #
@@ -354,7 +408,7 @@ def controlla_locator_punta(nota, rep):
         est = f.rsplit(".", 1)[-1].lower()
         try:
             if est in ("log", "txt"):
-                t = Q.testo_fonte(f)
+                t = EC.testo_cantiere(f)
                 for ts in RE_ORA.findall(loc)[:4]:
                     if ts not in t:
                         rep.errore(nota.nome, CONTROLLO,
@@ -362,7 +416,7 @@ def controlla_locator_punta(nota, rep):
             elif est == "csv":
                 mm = re.search(r"riga\s+(\d+)", loc)
                 if mm:
-                    n_righe = Q.testo_fonte(f).count("\n") + 1
+                    n_righe = EC.testo_cantiere(f).count("\n") + 1
                     if int(mm.group(1)) > n_righe:
                         rep.errore(nota.nome, CONTROLLO,
                                    "il locator cita la riga %s ma %s ne ha %d"
@@ -386,7 +440,7 @@ def controlla_locator_punta(nota, rep):
                                    % (mm.group(1), f, npag))
             elif est == "eml":
                 mm = re.search(r"header\s+([\w-]+)", loc)
-                if mm and ("%s:" % mm.group(1)).lower() not in Q.testo_fonte(f).lower():
+                if mm and ("%s:" % mm.group(1)).lower() not in EC.testo_cantiere(f).lower():
                     rep.errore(nota.nome, CONTROLLO,
                                "il locator cita l'header %s, assente da %s" % (mm.group(1), f))
         except Exception as ex:
@@ -417,7 +471,7 @@ def pacchetto_giudizio(note, dove):
     r.append("TESTO ESTRATTO DELLE FONTI CITATE")
     r.append("=" * 70)
     for f in sorted(set(usate)):
-        t = Q.testo_fonte(f)
+        t = EC.testo_cantiere(f)
         r.append("\n--- %s ---" % f)
         r.append(t if t.strip() else "(nessun testo estraibile: e' un'immagine, riscontro visivo)")
     p = os.path.join(dove, "pacchetto_giudizio_provenance.txt")

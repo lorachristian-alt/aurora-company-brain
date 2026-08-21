@@ -1,7 +1,7 @@
 ## qa_frontmatter (perimetro: vault, 281 note)
 
 - ERRORI: **0**
-- AVVISI: **138**
+- AVVISI: **139**
 
 ### Avvisi
 
@@ -62,7 +62,7 @@
 | `fatto-piano-produzione-sett19-21.md` |  | frontmatter | corpo di 331 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-prodotto-non-segregato-deviazione-ccp2.md` |  | frontmatter | corpo di 348 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-prodotto-non-segregato-deviazione-ccp2.md` |  | frontmatter | dichiara un'assenza con la formula di E3 ma non rimanda a un artefatto di ricerca in 06_operativo\ricerche_assenza\ (E43) — debito anteriore a E43, da sanare a fine corsa |
-| `fatto-programma-p2-ogni-giorno.md` |  | frontmatter | corpo di 343 parole: fra 301 e 350, si motiva o si spezza |
+| `fatto-programma-p2-ogni-giorno.md` |  | frontmatter | corpo di 342 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-referenze-fuori-scheda-horeca.md` |  | frontmatter | summary contiene piu' di una frase |
 | `fatto-repliche-shelf-life-l26130-divergenti.md` |  | frontmatter | corpo di 331 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-rework-linea-1-sospeso.md` |  | frontmatter | summary di 288 caratteri (tetto 250) |
@@ -91,6 +91,7 @@
 | `questione-listeria-24-02-non-nel-registro-tamponi.md` |  | frontmatter | summary contiene piu' di una frase |
 | `questione-materiale-guarnizione-pkm-450.md` |  | frontmatter | dichiara un'assenza con la formula di E3 ma non rimanda a un artefatto di ricerca in 06_operativo\ricerche_assenza\ (E43) — debito anteriore a E43, da sanare a fine corsa |
 | `questione-prodotto-acido-cip-an-15-o-acidfood-25.md` |  | frontmatter | summary di 272 caratteri (tetto 250) |
+| `questione-rework-congelamento-slide-e-scheda.md` |  | frontmatter | summary di 266 caratteri (tetto 250) |
 | `questione-validazione-ccp2-mai-confermata.md` |  | frontmatter | corpo di 329 parole: fra 301 e 350, si motiva o si spezza |
 | `questione-verifiche-ccp3-10-05-tre-versioni.md` |  | frontmatter | dichiara un'assenza con la formula di E3 ma non rimanda a un artefatto di ricerca in 06_operativo\ricerche_assenza\ (E43) — debito anteriore a E43, da sanare a fine corsa |
 | `fatto-blocco-cautelativo-lotti.md` |  | frontmatter | corpo di 335 parole: fra 301 e 350, si motiva o si spezza |

@@ -74,8 +74,13 @@ crea regole: spiega come si sono applicate.
   numeri **non si citano mai separati**.
 - **Config C congelata** (`d36d7ce`, impronta `afb58939…`): intoccabile fino a fine S6,
   difetti di formato compresi.
-- **Canonizzazione — sette lotti chiusi**: pilota L26130 (22 grezzi) + 1A (7) + 1B (4) + 1C (2)
-  + 2A (3) + 2B (3) + **2B-bis (2)** = **43 grezzi su 160**, più il lotto di manutenzione R1.
+- **Canonizzazione — sette lotti chiusi, e il TEMA 2 È COMPLETO**: pilota L26130 (22 grezzi)
+  + 1A (7) + 1B (4) + 1C (2) + 2A (3) + 2B (3) + **2B-bis (2)** = **43 grezzi su 160**, più il
+  lotto di manutenzione R1. ⚠️ **Il prossimo atto è il TEMA 3, il sistema qualità: tredici
+  grezzi, da ripacchettare in apertura** (E31) in pacchetti da 3-5 lungo le cuciture — e il
+  primo pacchetto eredita cinque obblighi già scritti in tabella di tracciamento, fra cui il
+  cruscotto KPI, che porta **65 formule** e sarà il primo banco di prova su dati veri
+  dell'estrazione di cantiere.
   I conteggi,
   incollati da `conta_stato.py` il 21/08/2026 **dopo la nota-sessione** (E34) e dopo l'ultima
   scrittura (E44):
@@ -507,6 +512,7 @@ coerente.
 | Il prompt riutilizzabile rimasto indietro di sedici emendamenti | 1A, 1B e 1C hanno girato con le regole nel testo incollato invece che nello strumento: chi opera **segnala** lo scostamento, chi istruisce lo **colma** (§4.27, 19/08/2026) |
 | **Due assenze dichiarate con la formula di E3 senza aver fatto la ricerca** | il registro dato per assente stava in dieci grezzi, uno dei quali era già fonte di quella nota; il valore dato per ignoto stava nel piano di autocontrollo. Le ha trovate la **revisione col canone**, non la QA: su un'assenza lo strato deterministico non ha nulla da cercare (§4.32, lotto 2A) |
 | **Una sostituzione di testo fallita in silenzio, e nessuno se ne è accorto** | una correzione del secondo giro non è andata a segno; la QA resta verde su una frase sbagliata che è ancora lì, e l'ha ripresa il giudice al giro dopo. **Chi corregge a programma verifica che la correzione sia entrata**, o la corregge due volte credendo di averla fatta una (lotto 2A) |
+| **Un conteggio mai fatto sulla fonte, creduto da quattro presidi in fila** | un «sei fasi» **contato da chi scriveva** ha attraversato il revisore col canone, il canone, una nota e una riga di tracciamento senza che nessuno riaprisse il file; la fonte diceva «5 fasi» sopra un elenco di **sei voci**, e lo scarto vero era un altro — la scheda **omette il prerisciacquo** e **include la sanificazione**. ⚠️ **Ognuno ha creduto a quello prima**: il conteggio *sembra* un atto di lettura ed *è* un atto di inferenza. Da qui **E49** — la riga B è una nota senza cartella — e la vigilanza del §6 sulle note |
 | **Il pacchetto del giudizio generato prima della fine delle correzioni** | sei note su quaranta sono state modificate dopo la generazione del primo pacchetto: E33 dice che si genera **per ultimo**, e qui non lo è stato. Nessun rilievo è caduto su testo morto, ma la regola esiste per non doverlo verificare a posteriori (lotto 2A) || **Una guardia formulata male, e due lotti fermi** | ⚠️ **L'errore è del testo del coordinatore, non di chi lo leggeva.** I prompt portavano «`03_valutazione\` non si apre mai» **senza l'eccezione del revisore**, e il canone non vive lì: sta in `01_metodo\`. R1 si è fermato a chiedere l'autorizzazione, **2B si è fermato dichiarando il passo scoperto** e ha chiuso senza revisione col canone. **Due sessioni, lo stesso dubbio, e la risposta viveva solo nel testo incollato di un gate.** Riparato con **E45**, che lo scrive in `metodo_03` §9.5 passo 3 — cioè dove chi opera lo cerca. ⚠️ **La lezione è §7-bis.6: quando la stessa domanda ferma due sessioni, si emenda la fonte, non si risponde una terza volta.** |
 
 ---
@@ -622,6 +628,28 @@ coerente.
   fatto esattamente il lavoro che E47 le chiede di fare. ⚠️ **Ma dice una cosa che il prossimo
   gate deve sapere: E47 non estingue la specie, la rende TROVABILE.** Il controllo del
   quantificatore va fatto **da chi rilegge**, come si controlla una cifra — non da chi scrive.
+- ⚠️ **IL CONTEGGIO CHE NASCE DALLA LETTURA E NON DALLA FONTE.** Un numero di elementi
+  («sei fasi», «due colonne», «due divieti», «tre serie») o una posizione («§8.1», «colonna
+  `logica FEFO`») che la nota ricava **guardando** e che la fonte **non enuncia**. Nominata al
+  ri-giudizio del lotto 2B-bis, dove è una delle **due sole famiglie** in cui si sono divisi
+  ventidue rilievi. ⚠️ **È imparentata con E23 e non è E23**: quella nasce per i valori
+  *calcolati*, questa riguarda **contare e localizzare** — atti che sembrano di lettura e sono
+  di inferenza. ⚠️ **E49 la copre nel canone; nelle note resta scoperta**, ed è per questo che
+  ha un criterio.
+
+  ✅ **CRITERIO DI DECISIONE, scritto al gate del 21/08/2026 PRIMA che il tema 3 parta.**
+
+  | | |
+  |---|---|
+  | **diventa emendamento** | se ricompare al **TERZO GIRO** di giudizio del primo pacchetto del tema 3, **su note NATE dal lotto** — produzione, non debito |
+  | **forma proposta** | *un numero che la fonte non enuncia è un valore derivato anche quando si ottiene contando, e si scrive col modo in cui è stato ottenuto — oppure non si scrive* |
+  | **non decade da sola** | se al terzo giro non compare, la riga **non si chiude automaticamente**: decide il gate con tutte le osservazioni davanti |
+
+  ⚠️ **Il tema 3 NON riceve alcun promemoria** oltre alle regole in vigore. Un esperimento
+  avvertito non misura niente. ⚠️ **E al gate del 21/08 la specie ha già colpito una seconda
+  volta**: il rapporto di 2B-bis affermava che `candidate_r1.py` «conosce una sola fonte
+  governante per dominio», e il codice ne gestiva due **dal lotto 2A** — affermazione ricavata
+  guardando il risultato invece di leggere il codice, e ratificata in buona fede.
 - ✅ **LA REVISIONE COL CANONE NON È PIÙ UNA VIGILANZA: È CHIUSA DA E45.** Il lotto 2B aveva
   dichiarato il passo scoperto credendo che la guardia su `03_valutazione\` coprisse il canone.
   **Non lo copre**: il canone sta in `01_metodo\`, la guardia riguarda l'esame, e un subagente

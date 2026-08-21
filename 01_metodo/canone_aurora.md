@@ -469,7 +469,7 @@ gli dicono cose diverse.
 | **Quale sia il detergente acido del CIP** | `IO-05_istruzione_operativa_lavaggio_CIP.docx` §3, §5 e §12: **`CHEMIFOOD AN-15`, «Acido nitrico 15%»**, dosato all'1,0-1,5 % · `scheda_sicurezza_detergente_acido_lavaggio_CIP.txt` §1.1 e §3.2: **`ACIDFOOD CIP 25`, cod. `CF-AC-025`**, acido nitrico **20-25 %** più acido fosforico 5-1O %. Stesso fornitore, Chemifood Italia; **nessuna delle due sigle compare nell'altro documento** | **Nessuno.** ⚠️ **Pesa oltre sé stessa**: se sono due prodotti diversi, l'archivio **non contiene la scheda di sicurezza del prodotto realmente in uso**, e ogni confronto fra le due fonti — concentrazioni, temperature, DPI — perde il presupposto. Se sono lo stesso prodotto, l'istruzione ne dichiara una concentrazione di principio attivo che la scheda smentisce |
 | **Con quali DPI si maneggia l'acido** | `IO-05` §2: guanti in **neoprene**, e — dopo la cancellazione della FFP2 da parte dell'RSPP — **semimaschera con filtro `B-P2`**; grembiule antiacido · scheda di sicurezza §8.2: guanti in **gomma butilica o fluoroelastomero** `EN 374` **classe 6**, **facciale con filtro tipo `E`**, tuta antiacido **tipo 3** `EN l4605` | **Nessuno.** Entrambi i documenti sono in vigore e ciascuno è autorevole nel proprio dominio: l'istruzione è **verificata dall'RSPP**, la scheda è del **fabbricante della sostanza**. Nessuno dei due cita l'altro sui dispositivi. ⚠️ La cancellazione della FFP2 prova che in Aurora la protezione respiratoria **è stata riesaminata almeno una volta**; se quel riesame abbia tenuto conto della scheda, che chiede il tipo `E`, nessun documento lo dice |
 | **Ogni quanto si verifica il lavaocchi di sala CIP** | Scheda di sicurezza §8.2: **verifica settimanale** di docce di emergenza e lavaocchi · `IO-05` §3, annotazione attribuita a `Dal Maso I.` e incorporata nella revisione in vigore: «lavaocchi controllato da me **ogni primo lunedì del mese**» | **Nessuno.** ⚠️ **Specie propria**: non è una regola contro una regola, è **una regola contro una dichiarazione di prassi**. L'annotazione non contesta la frequenza del fabbricante — **non la nomina** — e un documento verificato dall'RSPP incorpora così, senza segnalarla, una cadenza quattro volte più lunga di quella richiesta |
-| **La sequenza delle fasi eseguita non è quella che il programma dichiarato prevede** | `IO-05` §6: al programma `P2` competono le fasi **1-2-3-4-5**, e la sanificazione è la **fase 6**, che appartiene a `P4` e `P5` ed è elencata **in coda** · `log_lavaggio_CIP_linea1_maggio.log`: tutti e 30 i cicli dichiarano `PRG=IO-05_P2_LINEA1`, il `P1` non compare mai, e i 28 cicli completi eseguono **sei** fasi con `SANIF_PAA` **fra il lavaggio acido e il risciacquo finale** | **`IO-05`**, e il log resta com'è — ⚠️ **ma l'arbitrato è stato riaperto il 21/08 dal lotto 2B-bis: v. B3 in fondo a questo file.** Lo scarto è **doppio**: nella composizione — una fase in più di quelle che il `P2` prevede — e nell'**ordine**, perché la sanificazione cade prima del risciacquo finale invece che dopo. ⚠️ Il tracciato risulta così **più severo** del nome che porta, non meno: è un'etichetta che non corrisponde al contenuto, sull'unico campo che direbbe quale programma doveva girare quella notte |
+| **La sequenza delle fasi eseguita non è quella che il programma dichiarato prevede** | `IO-05` §6: al programma `P2` competono le fasi **1-2-3-4-5**, e la sanificazione è la **fase 6**, che appartiene a `P4` e `P5` ed è elencata **in coda** · `log_lavaggio_CIP_linea1_maggio.log`: tutti e 30 i cicli dichiarano `PRG=IO-05_P2_LINEA1`, il `P1` non compare mai, e i 28 cicli completi eseguono **sei** fasi con `SANIF_PAA` **fra il lavaggio acido e il risciacquo finale** | **`IO-05`**, e il log resta com'è — ⚠️ **riaperto e confermato il 21/08/2026: v. B3 in fondo a questo file.** Il tracciato risulta più severo **di entrambi** i prescrittivi, non solo di `IO-05`. Lo scarto è **doppio**: nella composizione — una fase in più di quelle che il `P2` prevede — e nell'**ordine**, perché la sanificazione cade prima del risciacquo finale invece che dopo. ⚠️ Il tracciato risulta così **più severo** del nome che porta, non meno: è un'etichetta che non corrisponde al contenuto, sull'unico campo che direbbe quale programma doveva girare quella notte |
 | **Il prolungamento automatico che l'istruzione descrive non ha riscontro** | `IO-05` §7 punto 2: «se non arriva a 75 °C **il pannello allunga il tempo da solo**, NON forzare l'avanzamento» · il log: la fase alcalina dura `1200 s` **in tutti e 28 i cicli**, comprese le notti in cui 57 letture su 116 stanno sotto i 75 °C | **Nessuno, e non si sceglie.** È la famiglia isolata nel lotto 1B — *un'azione correttiva o automatismo dichiarato che il dato non conferma* — applicata a un **automatismo di impianto**. Se il pannello non lo esegua, o lo esegua senza registrarlo, il tracciato non lo dice: nessun campo distingue una durata impostata da una prolungata |
 | **Il pannello non misura la grandezza che l'istruzione chiede di registrare** | `IO-05` §7 punto 1: si registra la «**concentrazione** soda letta dalla sonda di conducibilità (deve stare tra 1,5 e 2,0 **%**)» · il log: le unità di misura presenti sono `mS/cm`, `C`, `m3/h` e `%` **del livello tanica** — **mai una concentrazione di prodotto** · `non_conformita_interne_registro_2026.csv` `NC-2026-113` del 29/05, IN CORSO: «fase sanificazione PAA registrata **senza concentrazione misurata**», causa «kit titolazione esaurito» | **Nessuno: è una lacuna di misura, non una divergenza di valori.** La concentrazione si determina **a mano, per titolazione**, e il pannello dà una conducibilità: sono due grandezze diverse, legate da una curva che nessun documento dell'archivio riporta. La NC del 29/05 è la prova che la misura manuale esiste, e che quando il kit finisce la registrazione resta vuota |
 
@@ -624,7 +624,7 @@ Le non conformità interne stanno su **`MOD-QA-18`**.
 conformità — estesa dai numeri ai moduli.** Non è un refuso isolato: **in Aurora la sigla del
 modulo su cui si apre una NC è instabile**, e lo è in tre documenti indipendenti.
 
-### B3 · Come sia composto «il lavaggio completo CIP», e un arbitrato di questo canone che ne esce indebolito
+### B3 · Come sia composto «il lavaggio completo CIP»
 
 `IO-05_istruzione_operativa_lavaggio_CIP.docx` §5 elenca **sei voci** — prerisciacquo,
 lavaggio alcalino, risciacquo intermedio, lavaggio acido, risciacquo finale, **sanificazione
@@ -638,28 +638,42 @@ risciacquo, acido, risciacquo, **sanificante PAA**».
 che in `IO-05` è la fase 1, e **include la sanificazione**, che `IO-05` tiene condizionata.
 **Non è «`IO-05` più una fase»: è `IO-05` meno la prima e più l'ultima.**
 
-⚠️ **Questo riapre una riga già arbitrata.** Il gruppo del lotto 2A registra che i cicli
-completi del log eseguono **sei** fasi con `SANIF_PAA` e arbitra «**`IO-05`**, e il log resta
-com'è», concludendo che il tracciato è **più severo del nome che porta**. Il PRPo1 mostra che
-**la fase in più ha una fonte prescrittiva in vigore che la chiede**: il log non la sta
-aggiungendo di sua iniziativa.
+⚠️ **Questa riga è stata scritta una prima volta come indebolimento di un arbitrato del lotto
+2A, e la seconda lettura l'ha corretta.** Il gruppo del lotto 2A arbitra «**`IO-05`**, e il log
+resta com'è», concludendo che il tracciato è **più severo del nome che porta**; sembrava che il
+PRPo1 togliesse a quella conclusione il fondamento, perché prescrive la fase che il log esegue
+in più.
 
-⚠️ **Quindi l'arbitrato non regge come scritto**, e la divergenza cambia specie: non è più
-*un'etichetta che non corrisponde al contenuto*, è **la famiglia isolata in 2A — due
-prescrittivi in vigore che non concordano — su un terzo termine**. ⚠️ **E il log non attua
-nessuna delle due composizioni**: le esegue tutte e sei, e mette la sanificazione **fra
-l'acido e il risciacquo finale**, mentre entrambi i prescrittivi la elencano in coda.
+⚠️ **Non lo toglie, e la ragione sta nella riga che il primo passaggio non aveva letto**:
+§5.3 prescrive quel sanificante **solo dentro il lavaggio `L3`, e l'`L3` solo in quattro
+circostanze** — «Obbligatorio: dopo sesamo; prima del bio; dopo referenze con crema nocciola; a
+fine settimana produttiva». ⚠️ **E il log non dichiara mai il tipo di lavaggio**: §5.4 lo
+affida al registro del capoturno, non al pannello. **Che i 28 cicli di maggio fossero `L3` non
+lo dice nessuna fonte**, e il `SANIF_PAA` compare in 28 cicli su 30 — molto più spesso delle
+occasioni che l'`L3` prevede.
 
-### B4 · La nota alla matrice spiega una casella che la matrice non contiene
+⚠️ **Quindi l'arbitrato del lotto 2A regge, e ne esce più preciso**: il tracciato è più severo
+**di entrambi i documenti**, non solo di `IO-05`. ⚠️ **La divergenza sulla composizione resta
+vera e vive per conto proprio**: riguarda che cosa sia il lavaggio completo, non che cosa
+faccia il pannello di notte.
+
+### B4 · La nota alla matrice motiva un perimetro che la tabella non elenca
 
 Scheda §3, note alla matrice: «"**PC soia**" su **Linea 1 e Linea 2** deriva dalla lecitina di
 soia presente in alcuni semilavorati e dal flusso promiscuo di linea».
 
-Nella matrice **nessuna referenza di Linea 2 porta `PC` sulla soia**: `AF-CR-0212` e
+Nella tabella **nessuna referenza di Linea 2 porta `PC` sulla soia**: `AF-CR-0212` e
 `AF-CR-0215` hanno **`C`**, `AF-CR-0220` ha **`A`**.
 
-⚠️ **Incoerenza intra-file su un documento prescrittivo** — la stessa specie del riepilogo della
-scheda di manutenzione (18/08) e delle due date della procura (19/08).
+⚠️ **Questa riga era stata scritta come incoerenza intra-file, e non lo è.** Lo stesso documento
+dichiara che su Linea 2 girano **referenze che la tabella non contiene**: §3, «crema nocciola
+usato su referenze fuori scheda (mercato Ho.Re.Ca.) lavorate su Linea 2», e §4.3, sequenza tipo
+di Linea 2, voce «referenze con crema nocciola (fuori scheda)». **Il perimetro della motivazione
+esiste: è fatto di referenze che la matrice, per costruzione, non elenca.**
+
+⚠️ **Resta il fatto sull'archivio, ed è più utile di quello che avevo scritto**: la matrice
+motiva una classificazione su una linea le cui referenze rilevanti **non hanno una riga**, e chi
+legge la sola tabella non può ricostruire il perimetro.
 
 ### B5 · L'aula dà arachidi e solfiti come possibili; la matrice li dà assenti
 

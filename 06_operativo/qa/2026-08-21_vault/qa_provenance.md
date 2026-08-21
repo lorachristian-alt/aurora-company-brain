@@ -1,7 +1,7 @@
 ## qa_provenance (perimetro: vault, 281 note)
 
 - ERRORI: **0**
-- AVVISI: **64**
+- AVVISI: **68**
 
 ### Avvisi
 
@@ -72,3 +72,9 @@ verifiche n» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 | `kpi-temperature-cip-maggio.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `questione-limite-o2-residuo.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `questione-scarti-riavvio-l26130.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
+| `bozza-contratto-manutenzione-frigo.md` |  | provenance | riscontro in testo revocato: «giusta procura del 15/09/2024 03/11/2025» si trova SOLO in un passaggio barrato della fonte, e la nota non lo dichiara |
+| `bozza-contratto-manutenzione-frigo.md` |  | provenance | riscontro in testo revocato: «16.200,00» si trova SOLO in un passaggio barrato della fonte, e la nota non lo dichiara |
+| `bozza-lettera-tosano-reclamo.md` |  | provenance | riscontro in testo revocato: «frammento di plastica dura
+di colore azzurro» si trova SOLO in un passaggio barrato della fonte, e la nota non lo dichiara |
+| `bozza-lettera-tosano-reclamo.md` |  | provenance | riscontro in testo revocato: «è compatibile per colore e consistenza con una
+guarnizione u» si trova SOLO in un passaggio barrato della fonte, e la nota non lo dichiara |

@@ -107,23 +107,30 @@ era stata fatta in entrata e non in uscita.**
 | **B1** | Il manuale cerca **soia**, la scheda **sesamo**; trimestrale contro una tantum | `questione-proteine-test-manuale-e-scheda` · **T97** |
 | **B2** | La NC del lavaggio da aprire sul modulo dei **reclami** | `questione-nc-lavaggi-sul-modulo-reclami` · **T98** |
 | **B3** | Il lavaggio completo, composto in due modi diversi | `questione-composizione-lavaggio-completo` · **T99** |
-| **B4** | La nota che spiega una casella che la matrice non contiene | dentro `questione-precauzionale-af-sn-0450-soia` · **T100** |
+| **B4** | La nota che motiva un perimetro che la tabella non elenca | dentro `questione-precauzionale-af-sn-0450-soia` · **T100** |
 | **B5** | Arachidi e solfiti: possibili in aula, assenti in matrice | `questione-arachidi-solfiti-aula-e-matrice` · **T101** |
 | **B6** | Il registro della formazione non conferma nessuna sessione 2026 | ⚠️ **solo canone** · **T102** |
 | **B7** | Tamponi allergeni dichiarati in aula, assenti da `MOD-QA-19` | `questione-tamponi-allergeni-non-registrati` · **T103** |
 | **B8** | «Non rilevato» come condizione per avviare un prodotto che lo contiene | `fatto-proteina-latte-prima-del-bio` · **T104** |
 
-### 6.1 B3 riapre un arbitrato già scritto nel canone
+### 6.1 B3 riapre un arbitrato già scritto nel canone — e al gate il ri-giudizio l'ha richiuso
 
 ⚠️ **Il gruppo del lotto 2A arbitrava «`IO-05`, e il log resta com'è»**, concludendo che il
-tracciato fosse *più severo del nome che porta*. **Non regge come scritto**: la fase che il log
-esegue in più **ha una fonte prescrittiva in vigore che la chiede**, ed è la scheda allergeni. La
-divergenza **cambia specie** — da *etichetta che non corrisponde al contenuto* a *due
-prescrittivi che non concordano* — e **la riga del canone di 2A porta ora il rimando a B3**.
+tracciato fosse *più severo del nome che porta*. **Sembrava non reggere**: la fase che il log
+esegue in più ha una fonte prescrittiva che la chiede, ed è la scheda allergeni. Su questa
+lettura la divergenza cambiava specie, e la riga del canone di 2A ha ricevuto il rimando a B3.
 
-⚠️ **La formulazione di B3 è stata corretta dopo il ri-giudizio** (§8.1): il «cinque contro sei»
-non stava nelle fonti. **Lo scarto vero è che la scheda omette il prerisciacquo e include la
-sanificazione**, e il log non attua nessuna delle due composizioni.
+⚠️ **La formulazione di B3 è stata corretta due volte.** La prima dopo il ri-giudizio del lotto
+(§8.1): il «cinque contro sei» non stava nelle fonti, e lo scarto vero è che **la scheda omette
+il prerisciacquo e include la sanificazione**.
+
+⚠️ **La seconda al gate, e ha ribaltato la conclusione.** §5.3 prescrive quel sanificante **solo
+dentro il lavaggio di tipo `L3`, obbligatorio in quattro circostanze nominate**, e §5.4 affida
+il tipo di lavaggio al registro del capoturno: **il log non lo dichiara mai**. Quindi **la scheda
+non giustifica il `SANIF_PAA` che compare in 28 cicli su 30**, l'arbitrato del lotto 2A **regge**,
+e ne esce più preciso — il tracciato è più severo **di entrambi** i documenti, non solo di
+`IO-05`. **La divergenza sulla composizione resta vera e vive per conto proprio.** Il dettaglio
+sta nel §14.
 
 ### 6.2 B6 è vera e non è scrivibile
 
@@ -310,3 +317,209 @@ il lotto 1B torna da 49 a **52 righe** — le tre che aveva perso. Poi generate 
 ⚠️ **Che cosa il gate deve decidere**: se lo script debba **rifiutarsi di scrivere** quando
 rilegge una riga malformata, invece di fermarsi a metà. Oggi il danno è stato reversibile
 perché il file è in git; **la prossima volta potrebbe non esserlo**.
+
+---
+
+# PARTE SECONDA — il gate del 21/08/2026
+
+> **Che cos'è** · Gli adempimenti del gate, eseguiti nella stessa sessione che ha chiuso il
+> lotto. **Il verdetto sul lotto era già dato**: qui c'è che cosa il gate ha chiesto di
+> costruire, e che cosa la costruzione ha trovato.
+
+## 13. E48 e l'estensione di cantiere
+
+### 13.1 La forma, e perché la separazione si prova invece di dichiararla
+
+`estrazione_cantiere.testo_cantiere` parte da `qa_comune.testo_fonte` — **byte-identica, mai
+toccata** — e vi **appende in coda** i due strati marcati, `[FORMULA: …]` e `[BARRATO: …]`.
+
+⚠️ **L'append non è una comodità: è ciò che rende la separazione dimostrabile.** Il testo
+della via congelata resta un **prefisso esatto** di quello di cantiere, e `--prova` lo verifica
+tagliando il secondo alla lunghezza del primo e confrontandoli carattere per carattere.
+
+| Misura | Valore | Ora |
+|---|---|---|
+| Grezzi esaminati | **161** | 16:23:15 |
+| Con almeno uno strato | **24** | 16:23:15 |
+| Righe aggiunte in tutto | **1.737** — 1.697 formule, 40 barrati | 16:23:15 |
+| **Prefisso violato** | **0** | 16:23:15 |
+
+⚠️ **Le 1.697 formule combaciano cifra per cifra col censimento indipendente** del 21/08
+mattina, che le aveva contate aprendo gli `.xlsx` come zip invece che con `openpyxl`. **Due
+strumenti diversi, lo stesso numero.**
+
+⚠️ **E i 40 barrati stanno in 11 documenti, non in uno.** Fra questi `IO-05` (2) e il contratto
+di manutenzione frigo (6), **entrambi canonizzati da lotti precedenti**.
+
+### 13.2 Due difetti miei, e come sono venuti fuori
+
+**a) Un `break` che ha inventato quindici avvisi.** Agganciando `qa_provenance` al cantiere
+avevo messo un'uscita anticipata nel ciclo che conta gli agganci **per fonte** — e il controllo
+del «rumore nel payload» legge proprio quel conteggio. Quindici avvisi nuovi su note **non
+toccate**.
+
+⚠️ **Il totale non l'avrebbe mostrato.** L'ha mostrato il confronto **riga per riga** col
+report precedente: 61 righe prima, 61 dopo, **zero nuove e zero sparite**. Un cambiamento di
+strumento che non porta il proprio prima/dopo non è verificato.
+
+**b) Il controllo del revocato che non poteva scattare mai.** La prima stesura toglieva i
+marcatori `[BARRATO: …]` dalla coda — ma **il testo barrato sta già dentro il testo congelato**,
+perché l'estrattore restituisce le parole di ogni run senza guardarne la formattazione.
+Riparato togliendo anche l'occorrenza originale, **un'occorrenza per ogni run barrato**: è
+un'approssimazione, e va nella direzione giusta — può far scattare un avviso di troppo, mai
+zittirne uno dovuto.
+
+### 13.3 I quattro difetti piantati, e i tre tentativi falliti
+
+Il fix insieme **allenta e stringe**, quindi i difetti sono quattro e non due: un valore che
+vive solo in una formula e che prima era rosso *(divieto)*; un valore attribuito a una formula
+che non c'è *(deve restare rosso)*; una nota che dà per **vigenti** due clausole barrate *(deve
+essere segnalata)*; la gemella che le **dichiara** revocate *(non deve esserlo)*.
+
+**Collaudo da 22 a 24 difetti su 24**, su tutte e cinque le vie più il caso negativo.
+
+⚠️ **I primi tre tentativi sono falliti, e per tre ragioni tutte mie**: le formule fra caporali
+sono **una parola sola** e la soglia di citazione ne chiede cinque; una citazione l'avevo
+trascritta «proprieta'» dove la fonte scrive «proprietà»; e la nota che doveva **non** dichiarare
+la revoca conteneva «cancellati» **nel proprio summary**.
+
+⚠️ **L'ultima è la più istruttiva**: il predicato guarda anche il summary, ed è giusto che lo
+faccia — il summary è ciò che il retrieval mostra per primo (E18). **Ho corretto la nota, non
+la regola.**
+
+### 13.4 Che cosa ha trovato appena acceso
+
+Al primo giro sul vault il controllo del revocato ha segnalato **quattro casi**, tutti in
+`workspace\`: la **bozza del contratto frigo**, che riporta un canone barrato, e la **bozza
+della lettera a Tosano**, che riporta frasi barrate della lettera di risposta.
+
+⚠️ **Non erano nel perimetro della riverifica e non sono state toccate.** La riga sta qui perché
+il lotto che aprirà quelle bozze sappia che l'avviso esiste già.
+
+## 14. La riverifica del barrato (2.3), e l'arbitrato riaperto (2.4)
+
+### 14.1 Trenta note riviste, quattro corrette
+
+**Mini-perimetro dichiarato (E32): tutte le trenta note che citano la scheda allergeni**, non
+quelle che sembravano sospette.
+
+⚠️ **La più grave era `questione-rework-congelamento-slide-e-scheda`**, il cui summary diceva che
+«la scheda allergeni **in vigore** tollera il recupero a inizio turno successivo». Quella riga è
+**barrata a metà** nel documento — il barrato copre cinque parole su tredici — e la pratica
+risulta per giunta **sospesa** (T90). Corrette anche `doc-regole-rework`,
+`questione-precauzionale-af-sn-0450-soia` e `doc-etichettatura-precauzionale`, con la
+qualificazione propagata nello stesso turno (E39/E42).
+
+⚠️ **Il revisore ha segnalato che la riverifica ha toccato un grezzo su due**: anche `IO-05`
+porta due barrati. **Verificati: il vault li dichiara già entrambi** — la cancellazione della
+FFP2 da parte dell'RSPP e il «CANCELLATO» sulla fase acida che non si salta. Nessun difetto, e
+la segnalazione era giusta lo stesso.
+
+### 14.2 L'arbitrato del 2A: riaperto, e richiuso più preciso
+
+**Tutte e tre le gambe erano canonizzate**, quindi la nota si riformulava invece di limitarsi a
+dichiarare l'arbitrato superato. `fatto-programma-p2-ogni-giorno` è passata da `risolto` ad
+`aperto` e la conclusione è stata riscritta.
+
+⚠️ **Poi il ri-giudizio l'ha ribaltata, ed è il rilievo più importante di tutto il gate.** §5.3
+prescrive il sanificante **solo dentro il lavaggio `L3`**, e l'`L3` **solo in quattro
+circostanze nominate**: «Obbligatorio: dopo sesamo; prima del bio; dopo referenze con crema
+nocciola; a fine settimana produttiva». ⚠️ **E §5.4 affida il tipo di lavaggio al registro del
+capoturno: il log non lo dichiara mai.**
+
+**Che i 28 cicli di maggio fossero `L3` non lo dice nessuna fonte**, e il `SANIF_PAA` compare
+in **28 cicli su 30** — molto più spesso delle occasioni dell'`L3`.
+
+⚠️ **Quindi l'arbitrato del lotto 2A regge, e ne esce più preciso**: il tracciato è più severo
+**di entrambi** i documenti, non solo di `IO-05`. La nota è tornata a `risolto`; **il canone,
+T99 e questo rapporto sono stati corretti**.
+
+⚠️ **La divergenza sulla composizione resta vera** — la scheda omette il prerisciacquo e
+include il sanificante — **e vive per conto proprio**: riguarda che cosa sia il lavaggio
+completo, non che cosa faccia il pannello di notte.
+
+### 14.3 E B4 del canone cade come l'avevo scritta
+
+Avevo registrato come **incoerenza intra-file** il fatto che la nota alla matrice motivi il
+«`PC` soia» su «Linea 1 e Linea 2» mentre nella tabella nessuna referenza di Linea 2 lo porta.
+
+⚠️ **Lo stesso documento dichiara che su Linea 2 girano referenze che la tabella non contiene**:
+«crema nocciola usato su referenze fuori scheda (mercato Ho.Re.Ca.) **lavorate su Linea 2**», e
+la sequenza tipo della linea le elenca. **Il perimetro esiste: è la matrice a non contenerlo.**
+
+⚠️ **Il fatto sull'archivio resta, ed è più utile di quello che avevo scritto**: chi legge la
+sola tabella non può ricostruire da dove venga quella classificazione.
+
+## 15. E49 applicata a sé stessa
+
+**Due delle otto righe B del canone portavano affermazioni che non reggevano** — B3 e B4 — e
+nessuna delle due era un refuso: erano **conclusioni** scritte senza riaprire il file.
+
+⚠️ **È esattamente ciò che E49 dice**: la riga B è una nota senza cartella, e un errore scritto
+lì **si propaga a tutti i lotti futuri** invece che a una nota sola. La regola è nata a questo
+gate e **il gate stesso ne ha fornito due casi**.
+
+⚠️ **Il canone si accresce e si corregge, e la correzione resta visibile**: le due righe portano
+ora il proprio ribaltamento scritto dentro, non riscritto in silenzio.
+
+## 16. Il pattern del ri-giudizio del gate, e dove il ciclo si ferma (E26)
+
+**19 rilievi su 6 note: 3 errori e 16 avvisi.** ⚠️ **I tre errori stanno tutti nella parte
+riscritta oggi, nessuno in quella corretta oggi** — e nessun rilievo di classe «testo revocato
+dato per vigente»: la riverifica del barrato ha tenuto.
+
+Le famiglie sono due, e la prima è già sotto vigilanza:
+
+**a) Il conteggio o l'inferenza data per fatto della fonte** — «quattro divieti», «tre
+conseguenze», «sei voci», «è scarto», «tutte e tre costano denaro», la ratio dei divieti. ⚠️ **È
+la specie del §11**, che ha già il suo criterio pre-registrato e si osserva al tema 3. **Cinque
+istanze in sei note**: non si è spenta.
+
+**b) L'affermazione che si smentisce dentro la nota stessa** — «non più X» dove i fatti
+elencati dicono «non solo X»; «nessuno dei due cita l'altro» in una nota che riporta la
+citazione; un titolo che dice «l'etichetta» dove il corpo dichiara di non sapere che cosa
+finisca sull'etichetta. ⚠️ **È una specie nuova e non si emenda ora** (E28): la si nomina, e se
+ricompare al tema 3 avrà il suo criterio.
+
+⚠️ **Il ciclo si ferma qui.** Le correzioni sono applicate e la QA è tornata a zero errori, ma
+**non si apre un altro giro**: E26 chiede di nominare il pattern, non di rincorrere la
+convergenza.
+
+## 17. I numeri di chiusura del gate (E44)
+
+| Misura | Valore | Ora |
+|---|---|---|
+| Suite QA, perimetro **vault** | **121 ERRORI, 219 AVVISI** | 16:22:21 |
+| Suite QA, perimetro di **riverifica** (31 note) | **0 ERRORI, 19 AVVISI** | 16:20:15 |
+| Collaudo della suite | **24 difetti su 24** (erano 22) | 16:22:40 |
+| Collaudo dei due tassi | **3 casi su 3**, nei due versi | 16:22:40 |
+| Collaudo del CSV | **6 casi su 6** | 16:22:40 |
+| Invarianza dell'estrattore di misura | **0 violazioni su 161 grezzi** | 16:23:15 |
+| Emendamenti | **concordi a 49** | 16:23:04 |
+| Matrice dei lotti | **160 grezzi, 18 elenchi, 0 guasti** | 16:23:04 |
+| Tabella di tracciamento | **106 righe**, integra | 16:23:04 |
+| CSV file × fatto | **334 righe, 6 campi per riga** | 16:23:06 |
+| Note nel vault | **281**, di cui **248 di contenuto** | 16:23:15 |
+| Grezzi citati / restanti | **43 / 117** | 16:23:15 |
+
+⚠️ **Gli errori del vault non si muovono — 121 — e gli avvisi salgono di cinque**: quattro sono
+i «riscontro in testo revocato» sulle due bozze, e nessuno è un difetto nuovo introdotto dal
+gate. **Nessun grezzo è stato canonizzato in questa parte: era manutenzione.**
+
+## 18. Che cosa il coordinatore deve sapere prima del tema 3
+
+1. ⚠️ **Due righe del canone erano sbagliate, e il gate le aveva ratificate** — B3 e B4. Non è
+   una svista di trascrizione: erano conclusioni scritte senza riaprire il file, ed è la ragione
+   per cui E49 è nata a questo stesso gate.
+2. ⚠️ **La PARTE 2.5 chiedeva di insegnare a `misura_due_tassi` le fonti multiple, e le sapeva
+   già fare** dal lotto 2A. L'affermazione contraria è **mia**, sta nel rapporto di 2B-bis, ed è
+   stata ratificata in buona fede: un fatto sullo strumento ricavato **guardando il risultato
+   invece di leggere il codice**. Il difetto vero era la dichiarazione del dominio `allergeni`,
+   ora corretta con le due guardie.
+3. ⚠️ **La serie dei tassi non è stata riscritta**: il 9,1 % resta il numero misurato con lo
+   strumento di allora (E46), e il primo lotto del tema 3 dichiarerà la versione che usa.
+4. ⚠️ **Una specie d'errore nuova è stata nominata e non emendata** — l'affermazione che si
+   smentisce dentro la nota — accanto a quella del §11 che è ancora aperta.
+5. **Il tema 3 non è stato aperto in questa sessione**, e la PARTE 3 lo prevede: la manutenzione
+   è stata piena, e i tredici grezzi con il loro ripacchettamento sono lavoro di apertura, non
+   una coda.

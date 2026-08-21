@@ -19,7 +19,22 @@ si legge invece di presumerla.
 
   V1   qa_all --perimetro lotto @lotti/<lotto>.txt --lotto <n>
        Elenco delle note toccate letto per CONVENZIONE. E' la via dei lotti dal 1C in
-       poi, ed e' la via principale: qui girano i SETTE difetti sostanziali.
+       poi, ed e' la via principale: qui girano i difetti sostanziali.
+
+       ⚠️ Dal 21/08/2026 (E48) V1 porta anche i QUATTRO difetti degli STRATI DI
+       CANTIERE, e sono quattro perche' il fix insieme ALLENTA e STRINGE, e un
+       collaudo che ne provi un verso solo non prova niente:
+         a) un valore che vive SOLO dentro una formula — la soglia di quadratura del
+            mass balance — che prima dell'estrazione di cantiere era ROSSO e ora deve
+            trovare riscontro (si verifica come DIVIETO: nessun errore su quella nota);
+         b) un valore attribuito a una formula che nel file non c'e', che deve restare
+            ROSSO: lo strato nuovo non e' una scorciatoia che promuove a riscontro
+            qualunque cosa;
+         c) una nota che afferma come VIGENTI due clausole che il documento porta
+            barrate, e che deve essere segnalata: e' la classe piu' grave del progetto,
+            perche' non e' un'imprecisione ma una regola revocata data per applicabile;
+         d) la sua gemella che le stesse parole le DICHIARA revocate, e che non deve
+            essere segnalata — altrimenti il controllo punisce il comportamento giusto.
 
   V2   la stessa, ma con --note-toccate ESPLICITO e nessun `<lotto>_note.txt` accanto
        all'elenco. metodo_03 §7 la dichiara («letto per convenzione, oppure passato con
@@ -116,6 +131,14 @@ LOG = "log_temperature_pastorizzatore_linea1_10_05_26.log"
 OEE = "calcolo_sfrido_efficienza_OEE_linea_bakery.csv"
 # grezzo FUORI dal perimetro del collaudo: la nota che lo cita entra solo per E32
 SCHEDA = "scheda_manutenzione_ordinaria_forni_industrial.csv"
+
+# --- i due grezzi che esercitano gli STRATI DI CANTIERE (E48) -----------------
+# Scelti perche' portano davvero i due strati, e in quantita' verificabile:
+# il mass balance ha 12 celle con formula e NESSUN valore in cache — il testo
+# congelato su quelle celle e' vuoto; il contratto frigo porta 6 passaggi barrati,
+# fra cui un canone e una clausola sulla proprieta' del refrigerante.
+XLSX = "tracciabilita_lotti_massbalance_L26130.xlsx"
+DOCX = "contratto_manutenzione_impianto_frigo_TS01.docx"
 
 # --- V3b: l'appendice delle fonti dentro il pacchetto per il giudizio ---------
 # Il titolo con cui `qa_provenance.pacchetto_giudizio` apre l'appendice. Se cambia
@@ -349,6 +372,155 @@ compare in nessuna fonte citata, ed e' il difetto piantato per E32.
 """ % (SCHEDA, SCHEDA)
 
 
+# --- E48, difetto 1: un fatto che vive SOLO in una formula --------------------
+# ⚠️ Il verso e' quello dell'ALLENTAMENTO: prima dell'estrazione di cantiere questa
+# nota era ROSSA — le celle con formula e senza cache l'estrattore congelato le legge
+# `None`, quindi la formula non esisteva per la QA. Ora deve trovare riscontro, e il
+# collaudo lo verifica come DIVIETO: nessun errore su questa nota.
+FORMULA_VERA = """\
+---
+title: "La quadratura del mass balance e' una formula, non un valore"
+summary: "Le colonne di scarto e di resa del foglio Mass balance non contengono numeri ma formule mai calcolate, e il giudizio di quadratura dipende da una soglia dell'un percento scritta dentro la formula stessa."
+type: atomica
+area: qualita
+tags: [areas, qualita, collaudo, e48]
+fonti:
+  - %s
+stato: risolto
+aliases: []
+data_nota: 2026-08-21
+related: "[[area-qualita]]"
+---
+
+# La quadratura del mass balance e' una formula, non un valore
+
+Il foglio giudica quadrato un lotto quando lo scarto sta entro **0,01** del carico in
+ingresso.
+
+⚠️ Quella soglia non e' scritta in nessuna cella: sta **dentro la formula** della colonna
+di giudizio, che confronta il valore assoluto dello scarto col carico moltiplicato per
+essa.
+
+## Perche' conta
+
+E' il difetto piantato di E48 nel verso dell'allentamento: `0,01` non compare da nessuna
+parte nel testo estratto dalla via congelata — le celle con formula non hanno valore in
+cache — e prima dell'estrazione di cantiere questa nota era ROSSA. Si aggancia a
+[[area-qualita]] e a [[fatto-collaudo-buono]].
+
+## Fonti
+- [[%s]] — foglio «Mass balance», riga 6, la colonna di giudizio della quadratura.
+""" % (XLSX, XLSX)
+
+# --- E48, difetto 2: una formula INVENTATA, che deve restare rossa ------------
+# ⚠️ Il contrappeso del precedente: aprire uno strato nuovo apre anche un modo nuovo
+# di sbagliare, e una formula che nel file non c'e' deve restare un ERRORE.
+FORMULA_FINTA = """\
+---
+title: "Una formula che nel foglio non esiste"
+summary: "Attribuisce al foglio del mass balance una formula di somma su un intervallo che quel foglio non contiene, per provare che lo strato nuovo non e' una scorciatoia."
+type: atomica
+area: qualita
+tags: [areas, qualita, collaudo, e48]
+fonti:
+  - %s
+stato: risolto
+aliases: []
+data_nota: 2026-08-21
+related: "[[area-qualita]]"
+---
+
+# Una soglia che nel foglio non esiste
+
+Il foglio giudicherebbe quadrato un lotto entro **4242,42** kg di scarto, valore scritto
+dentro la formula della colonna di giudizio.
+
+## Perche' conta
+
+E' il difetto piantato di E48 nel verso della STRETTA: quel numero non sta ne' nelle
+celle ne' nelle formule, e lo strato nuovo non deve diventare una scorciatoia che
+promuove a riscontro qualunque cosa. Si aggancia a [[area-qualita]].
+
+## Fonti
+- [[%s]] — foglio «Mass balance», riga 6.
+""" % (XLSX, XLSX)
+
+# --- E48, difetto 3: un testo BARRATO dato per vigente ------------------------
+# ⚠️ E' la classe piu' grave: una nota che afferma come in vigore una clausola che il
+# documento porta cancellata AFFERMA IL FALSO. La nota qui sotto non usa mai le parole
+# «barrato», «revocato» o «cancellato», ed e' proprio questo a doverla far segnalare.
+BARRATO_VIGENTE = """\
+---
+title: "Il canone del contratto di manutenzione e la proprieta' del refrigerante"
+summary: "Riporta il corrispettivo annuo del contratto di manutenzione dell'impianto frigorifero e la clausola che assegna al manutentore il refrigerante recuperato dagli impianti."
+type: atomica
+area: qualita
+tags: [areas, qualita, collaudo, e48]
+fonti:
+  - %s
+stato: risolto
+aliases: []
+data_nota: 2026-08-21
+related: "[[area-qualita]]"
+---
+
+# Il canone del contratto di manutenzione
+
+Il contratto fissa il corrispettivo annuo in **Euro 16.200,00**.
+
+E stabilisce inoltre che «Il refrigerante recuperato resta di proprietà del
+Manutentore».
+
+## Perche' conta
+
+E' il difetto piantato di E48 sul secondo strato. ⚠️ **Questa nota non usa nessuna delle
+parole che segnalano la revoca**, ed e' voluto: e' proprio la sua reticenza a doverla far
+segnalare, perche' entrambe le affermazioni poggiano su passaggi che il documento non
+tiene piu' in vigore. Si aggancia a [[area-qualita]].
+
+## Fonti
+- [[%s]] — §corrispettivo e §obblighi del manutentore.
+""" % (DOCX, DOCX)
+
+# --- E48, difetto 4: lo stesso barrato, DICHIARATO ----------------------------
+# ⚠️ Il caso negativo del precedente, e serve quanto lui: una nota che il barrato lo
+# dichiara sta facendo il proprio mestiere, e segnalarla punirebbe il comportamento
+# giusto. Il collaudo pretende che su questa nota l'avviso NON compaia.
+BARRATO_DICHIARATO = """\
+---
+title: "Nel contratto di manutenzione il canone e la proprieta' del refrigerante sono cancellati"
+summary: "Il corrispettivo annuo e la clausola che attribuisce al manutentore il refrigerante recuperato compaiono nel testo come passaggi barrati, e questa nota li registra come tali."
+type: atomica
+area: qualita
+tags: [areas, qualita, collaudo, e48]
+fonti:
+  - %s
+stato: aperto
+aliases: []
+data_nota: 2026-08-21
+related: "[[area-qualita]]"
+---
+
+# Due clausole cancellate nel contratto di manutenzione
+
+Il corrispettivo annuo di **Euro 16.200,00** e' **barrato** nel documento.
+
+E' barrata anche la clausola «Il refrigerante recuperato resta di proprietà del
+Manutentore».
+
+Che cosa le sostituisca, il contratto non lo dice.
+
+## Perche' conta
+
+E' il caso negativo del difetto di E48: la nota riporta le stesse parole revocate della
+sua gemella, ma le dichiara cancellate. Su di essa l'avviso non deve comparire. Si
+aggancia a [[area-qualita]].
+
+## Fonti
+- [[%s]] — §corrispettivo e §obblighi del manutentore, i due passaggi barrati.
+""" % (DOCX, DOCX)
+
+
 # --- cosa il collaudo PRETENDE di trovare -------------------------------------
 ATTESI = [
     ("fonte inventata",        "qa_frontmatter",     r"verbale_inesistente_2026\.pdf.*manifest|manifest.*verbale_inesistente"),
@@ -363,6 +535,10 @@ ATTESI = [
     ("assenza senza artefatto", "qa_frontmatter",     r"fatto-collaudo-assenza.*artefatto|artefatto.*fatto-collaudo-assenza"),
     # la forma FISICA del vault: il primo controllo che non guarda il contenuto
     ("fine riga difforme",      "qa_frontmatter",     r"fatto-collaudo-fineriga.*fine riga|fine riga.*fatto-collaudo-fineriga"),
+    # E48: lo strato delle formule non e' una scorciatoia — una formula inventata resta rossa
+    ("formula inventata",       "qa_provenance",      r"fatto-collaudo-formula-finta.*4242|4242,42"),
+    # E48: un riscontro che vive SOLO in un passaggio barrato, dato per vigente
+    ("barrato dato per vigente","qa_provenance",      r"fatto-collaudo-barrato-vigente.*revocato"),
 ]
 
 
@@ -372,6 +548,11 @@ ATTESI = [
 # riassunto della nota buona, che porta un'abbreviazione ed e' una frase sola.
 VIETATI = [
     ("summary multi-frase sulla nota corretta", r"piu' di una frase"),
+    # E48, verso dell'ALLENTAMENTO: un fatto che vive solo in una formula ORA ha riscontro,
+    # e prima dell'estrazione di cantiere questa stessa nota era rossa.
+    ("errore sulla nota che cita una formula vera", r"ERRORE.*fatto-collaudo-formula-vera"),
+    # E48, caso negativo del barrato: chi lo DICHIARA non si segnala
+    ("avviso di revoca sulla nota che la dichiara", r"fatto-collaudo-barrato-dichiarato.*revocato"),
 ]
 
 
@@ -412,19 +593,26 @@ def prepara():
     scrivi(os.path.join(VAULT, "areas", "fatto-collaudo-assenza.md"), ASSENZA)
     # ⚠️ scritta a BYTE, col terminatore OPPOSTO a quello che `scrivi` produce: e' il difetto.
     scrivi_fine_riga_opposto(os.path.join(VAULT, "areas", "fatto-collaudo-fineriga.md"), FINERIGA)
+    # E48: i quattro difetti degli strati di cantiere
+    scrivi(os.path.join(VAULT, "areas", "fatto-collaudo-formula-vera.md"), FORMULA_VERA)
+    scrivi(os.path.join(VAULT, "areas", "fatto-collaudo-formula-finta.md"), FORMULA_FINTA)
+    scrivi(os.path.join(VAULT, "areas", "fatto-collaudo-barrato-vigente.md"), BARRATO_VIGENTE)
+    scrivi(os.path.join(VAULT, "areas", "fatto-collaudo-barrato-dichiarato.md"), BARRATO_DICHIARATO)
 
     intestazione = "# elenco del collaudo - %s\n"
     nota_toccata = ("# E32 - la nota che il lotto ha modificato senza citarne i grezzi\n"
                     "fatto-collaudo-toccata\n")
 
     # V1 - la via per convenzione: l'elenco delle note sta ACCANTO a quello dei grezzi
-    scrivi(EL_V1, intestazione % "V1, via per convenzione" + LOG + "\n" + OEE + "\n")
+    scrivi(EL_V1, intestazione % "V1, via per convenzione"
+           + LOG + "\n" + OEE + "\n" + XLSX + "\n" + DOCX + "\n")
     scrivi(EL_V1[:-4] + "_note.txt", nota_toccata)
 
     # V2 - la via esplicita: NESSUN `<lotto>_note.txt` accanto, cosi' la convenzione non
     # puo' salvare il caso. Se il flag non viene inoltrato, il difetto della nota toccata
     # non viene emesso e la QA resta verde su una nota fuori perimetro.
-    scrivi(EL_V2, intestazione % "V2, via esplicita" + LOG + "\n" + OEE + "\n")
+    scrivi(EL_V2, intestazione % "V2, via esplicita"
+           + LOG + "\n" + OEE + "\n" + XLSX + "\n" + DOCX + "\n")
     scrivi(ELENCO_TOCCATE, nota_toccata)
 
     # V5 - perimetro di MANUTENZIONE (E35): zero grezzi, l'elenco delle note e' il perimetro

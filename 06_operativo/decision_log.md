@@ -1566,3 +1566,78 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   lotto 1B torna da 49 a **52 righe**, e col lotto nuovo il CSV arriva a **334**. ⚠️ **Che lo
   script debba RIFIUTARSI di scrivere quando rilegge una riga malformata, invece di fermarsi a
   meta', e' una decisione del gate**: oggi il danno era reversibile perche' il file e' in git.
+
+- **2026-08-21** · **E48: L'ESTENSIONE DI CANTIERE SI FA, E L'ESTRATTORE DI MISURA NON SI TOCCA** ·
+  la soglia era scritta al gate precedente — «piu' di tre grezzi non canonizzati con formule
+  invisibili» — e il censimento ne conta **dieci**, fra cui il cruscotto KPI del tema 3 con le
+  sue 65 formule; T96 ha poi raddoppiato la ragione col barrato. ⚠️ **La forma scelta e' additiva
+  e la separazione si PROVA, non si dichiara**: `estrazione_cantiere.testo_cantiere` parte da
+  `qa_comune.testo_fonte` e **appende in coda** i due strati marcati (`[FORMULA:]`, `[BARRATO:]`),
+  cosi' il testo della via congelata resta un **prefisso esatto** di quello di cantiere.
+  `--prova` lo verifica su tutti i 161 grezzi: **0 violazioni**. ⚠️ **Lo strato vede 1.697 formule
+  e 40 barrati in 24 file**, e le 1.697 combaciano cifra per cifra col censimento indipendente
+  del 21/08 mattina.
+- **2026-08-21** · ⚠️ **UN «BREAK» MIO HA INVENTATO QUINDICI AVVISI, E LI HA TROVATI IL CONFRONTO
+  PRIMA/DOPO** · agganciando `qa_provenance` all'estrazione di cantiere avevo messo un'uscita
+  anticipata nel ciclo che conta gli agganci per fonte: il controllo del «rumore nel payload»
+  legge quel conteggio, e con il `break` le fonti successive smettevano di essere contate.
+  **Quindici avvisi nuovi su note che non erano state toccate.** ⚠️ **Non me ne sarei accorto
+  guardando il totale**: il confronto riga per riga col report precedente — 61 righe prima, 61
+  dopo, **zero nuovi e zero spariti** — e' l'unica prova che un cambiamento di strumento non ha
+  spostato niente. **Un fix che non porta il proprio prima/dopo non e' verificato.**
+- **2026-08-21** · **UN RISCONTRO CHE VIVE SOLO IN TESTO BARRATO NON SOSTIENE UN'AFFERMAZIONE AL
+  PRESENTE** · e la prima stesura del controllo **non funzionava affatto**: toglievo i marcatori
+  `[BARRATO: ...]` dalla coda, ma il testo barrato **sta gia' dentro il testo congelato**, perche'
+  l'estrattore restituisce le parole di ogni run senza guardarne la formattazione. Il controllo
+  non poteva scattare mai. ⚠️ **Riparato togliendo anche l'occorrenza originale**, un'occorrenza
+  per ogni run barrato: e' un'approssimazione, e va nella direzione giusta — puo' far scattare un
+  avviso di troppo, mai zittirne uno dovuto. ⚠️ **L'esenzione e' a livello di NOTA**: chi scrive
+  «barrato», «revocato» o «cancellato' sa di star maneggiando testo cancellato, e segnalarlo
+  punirebbe il comportamento giusto. Il collaudo pianta **entrambi i versi**.
+- **2026-08-21** · **QUATTRO DIFETTI PIANTATI PER E48, PERCHE' IL FIX INSIEME ALLENTA E STRINGE** ·
+  un valore che vive **solo dentro una formula** e che prima era rosso (divieto: nessun errore);
+  un valore attribuito a una formula **che non c'e'**, che deve restare rosso; una nota che
+  afferma come **vigenti** due clausole barrate, che dev'essere segnalata; la sua gemella che le
+  **dichiara** revocate, che non dev'esserlo. **Collaudo da 22 a 24 difetti su 24**, tutte le vie.
+  ⚠️ **E i primi tre tentativi sono falliti per tre ragioni tutte mie**: le formule fra caporali
+  sono una parola sola e la soglia di citazione ne chiede cinque; una citazione l'avevo trascritta
+  «proprieta'» dove la fonte scrive «proprietà»; e la nota che doveva **non** dichiarare la revoca
+  conteneva «cancellati» **nel proprio summary**. ⚠️ **L'ultima e' la piu' istruttiva**: il
+  predicato guarda anche il summary, ed e' giusto che lo faccia — il summary e' cio' che il
+  retrieval mostra per primo (E18). **Ho corretto la nota, non la regola.**
+- **2026-08-21** · **LA RIVERIFICA DEL BARRATO HA TROVATO QUATTRO NOTE CHE AFFERMAVANO IL FALSO** ·
+  mini-perimetro dichiarato (E32): **tutte** le trenta note che citano la scheda allergeni, non
+  quelle che sembravano sospette. ⚠️ **La piu' grave e'
+  `questione-rework-congelamento-slide-e-scheda`**, il cui summary diceva che «la scheda allergeni
+  **in vigore** tollera il recupero a inizio turno successivo»: quella riga e' **barrata a meta'**
+  nel documento, e la pratica risulta per giunta **sospesa** (T90). Corrette anche
+  `doc-regole-rework`, `questione-precauzionale-af-sn-0450-soia` e `doc-etichettatura-precauzionale`,
+  con la qualificazione propagata nello stesso turno (E39/E42).
+- **2026-08-21** · ⚠️ **E LO STRUMENTO NUOVO HA TROVATO DA SOLO QUATTRO CASI FUORI PERIMETRO** ·
+  al primo giro sul vault, il controllo del revocato ha segnalato **due bozze di `workspace\\`** —
+  la bozza del contratto frigo, che riporta un canone barrato, e la bozza della lettera a Tosano,
+  che riporta frasi barrate della lettera di risposta. **Non erano nel perimetro della riverifica
+  e non sono state toccate**: la riga sta qui perche' il prossimo lotto che apra quelle bozze sappia
+  che l'avviso c'e' gia' e che cosa significa.
+- **2026-08-21** · **L'ARBITRATO DEL LOTTO 2A E' STATO RIAPERTO, NON RISCRITTO IN SILENZIO** ·
+  `fatto-programma-p2-ogni-giorno` concludeva «vale `IO-05`, il log resta com'e', il tracciato e'
+  piu' severo del nome che porta». Tutte e tre le gambe nuove sono canonizzate — `IO-05`, la
+  scheda §5.3, e la scheda stessa come fonte del PRP che chiede la fase in piu' — quindi la nota
+  **si riformula** invece di limitarsi a dichiarare l'arbitrato superato (E25 non si applica).
+  ⚠️ **La specie cambia**: da *etichetta che non corrisponde al contenuto* a **due prescrittivi in
+  vigore che non concordano**, e il log non e' l'esecuzione fedele di nessuno dei due. `stato` da
+  **risolto ad aperto**: le note non traslocano, gli stati cambiano.
+- **2026-08-21** · ⚠️ **IL PROMPT DEL GATE CHIEDEVA DI INSEGNARE A `misura_due_tassi` LE FONTI
+  MULTIPLE, E LE SAPEVA GIA' FARE** · il predicato di copertura e' un'intersezione fra insiemi, e
+  il dominio `cip` dichiara **due** fonti **dal lotto 2A**. ⚠️ **L'affermazione contraria sta nel
+  rapporto di 2B-bis, l'ho scritta io ed e' stata ratificata in buona fede**: e' un fatto sullo
+  strumento ricavato **guardando il risultato invece di leggere il codice**, cioe' un'altra istanza
+  della specie del §11. **Il difetto vero era nella dichiarazione del dominio `allergeni`**, che
+  elencava una fonte sola. Aggiunto il materiale di formazione, con perimetro chiuso e i due versi
+  piantati. ⚠️ **La serie non si riscrive**: il 9,1 % resta il numero misurato con lo strumento di
+  allora (E46), e il prossimo lotto dichiara la versione che usa.
+- **2026-08-21** · **IL CSV SI RIFIUTA DI NASCERE MALFORMATO** · la guardia sta **in scrittura** e
+  non in lettura, ed e' il punto: un controllo in lettura arriva sempre dopo il danno. Se una riga
+  contiene il separatore, un a capo o una virgoletta nuda, **non si scrive niente** e sul disco
+  resta il file vecchio e integro. ⚠️ **E a ogni chiusura il CSV dichiara righe e campi per riga
+  con l'ora** (E44): 334 righe, 6 campi, nessun lotto fantasma.

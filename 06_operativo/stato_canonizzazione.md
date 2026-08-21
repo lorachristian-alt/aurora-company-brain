@@ -29,10 +29,10 @@
 | Lotti chiusi | **7 di canonizzazione** — `l26130` (fetta pilota, S2), **`1A`** (Linea 1: turno, CCP, confezionatrice), **`1B`** (freddo ed energia), **`1C`** (metrologia e gas tecnici), **`2A`** (il lavaggio CIP), **`2B`** (l'autocontrollo analitico) e **`2B-bis`** (gli allergeni) — **più `R1`**, il primo **lotto di manutenzione** (E35), approvato al suo gate il 19/08/2026. ⚠️ **R1 vale un lotto nel ritmo ma NON entra nella serie della capacità** (E38): misura riparazioni, non produzione |
 | Grezzi copiati nel vault | 160/160, verificati contro `manifest_corpus_v1.1.json`: zero scarti, zero estranei, zero sottocartelle |
 | I conteggi del vault | nel blocco qui sotto, **incollato verbatim** da `conta_stato.py` |
-| Suite QA | **verde sul perimetro di lotto**; sul vault tre controlli su quattro sono a zero errori. ⚠️ Dal gate di 2A la QA ha **due controlli nuovi**: l'artefatto di ricerca che E43 impone a chi dichiara un'assenza, e **l'omogeneità dei fine riga** — il primo controllo del progetto che non guarda il contenuto di una nota ma il suo **supporto** |
+| Suite QA | **verde sul perimetro di lotto**; ⚠️ **dal gate del 21/08 la provenance legge l'ESTRAZIONE DI CANTIERE** (E48), che aggiunge marcati formule e barrato — l'estrattore di misura resta byte-identico e `estrazione_cantiere.py --prova` lo dimostra su tutti i 161 grezzi; sul vault tre controlli su quattro sono a zero errori. ⚠️ Dal gate di 2A la QA ha **due controlli nuovi**: l'artefatto di ricerca che E43 impone a chi dichiara un'assenza, e **l'omogeneità dei fine riga** — il primo controllo del progetto che non guarda il contenuto di una nota ma il suo **supporto** |
 | `llms.txt` | rigenerato dal frontmatter, allineato |
 | Matrice dei lotti | 160/160 grezzi, zero scoperti, zero doppi (`verifica_matrice_lotti.py` verde). ⚠️ **I budget dei lotti 2-10 sono SUPERATI** e il piano non è più a 12 lotti: vale **E31**, la capacità di 25-35 note per lotto, e i grezzi si decidono in apertura. **Stima: circa 28-30 lotti**, scritta anche nella scaletta perché cambia il calendario di S4-S5. Ridisegnato in dettaglio **solo il tema 2** (2A · 2B · 2C) |
-| **PROSSIMO ATTO** | **Il gate del lotto 2B-bis.** ⚠️ Tre cose lo aspettano, e nessuna è di contenuto: **la seconda cecità della catena di provenienza** — il barrato, T96, dopo le formule di T89 — su cui la decisione di estendere il cantiere è del gate e non della sessione; **un arbitrato del canone riaperto** (B3); e **una specie d'errore nuova, nominata e non emendata**, col suo criterio pre-registrato già scritto nel §11 del rapporto |
+| **PROSSIMO ATTO** | **Il TEMA 3, il sistema qualità: tredici grezzi, da RIPACCHETTARE in apertura** (E31) in pacchetti da 3-5 lungo le cuciture, col conteggio dei fatti prima di scrivere (E21). ⚠️ **Il primo pacchetto eredita cinque obblighi già in tabella di tracciamento**, e il cruscotto KPI porta **65 formule** che l'estrazione di cantiere ora vede: è il primo lotto che la esercita su dati veri, e il rapporto dovrà dichiarare quanti riscontri arrivino dallo strato `[FORMULA]` |
 
 ⚠️ **Errata del 19/08/2026 sui numeri del lotto 1A.** Questo stato dichiarava «105 note, di
 cui 11 `_index` e 6 note-strumento: 88 di contenuto». `qa_all.py` a chiusura di 1A contava
@@ -471,6 +471,34 @@ giudizio, e senza il secondo giro sarebbe rimasta.
 | chiusa | **2** | T20, T33 |
 | tracciata | **26** | T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T19, T21, T29, T31, T34, T39, T40, T41, T49, T50, T51, T52, T53, T54 |
 | **totale righe** | **54** | da T1 a T54, nessuna mancante e nessuna duplicata |
+
+## Il gate del lotto 2B-bis, 21/08/2026 — l'estensione di cantiere
+
+**2B-bis approvato.** Il gate ha poi chiesto una manutenzione piena, e questa è la parte che ne
+è uscita.
+
+⚠️ **E48: l'estrazione di cantiere.** La QA e il pacchetto del giudizio leggono ora un testo che
+**aggiunge marcati** i due strati che l'estrattore congelato non vede — `[FORMULA: …]` e
+`[BARRATO: …]`. **L'estrattore di misura non è stato toccato**, e la separazione **si prova**:
+il testo della via congelata è un **prefisso esatto** di quello di cantiere su tutti i 161
+grezzi, zero violazioni. Lo strato vede **1.697 formule e 40 barrati in 24 file**, e le 1.697
+combaciano cifra per cifra col censimento indipendente della mattina.
+
+⚠️ **E49: la riga B è una nota senza cartella.** Ogni affermazione che entra nel canone porta lo
+stesso riscontro che porterebbe in una nota, **valori contati compresi**. ⚠️ **Il gate ne ha
+fornito subito due casi**: B3 e B4 portavano conclusioni scritte senza riaprire il file, e sono
+state entrambe ribaltate dal ri-giudizio.
+
+⚠️ **L'arbitrato del lotto 2A regge, e ne esce più preciso.** La scheda allergeni prescrive il
+sanificante **solo dentro il lavaggio `L3`, obbligatorio in quattro circostanze**, e il log non
+dichiara mai il tipo di lavaggio: **il tracciato è più severo di entrambi i documenti**, non
+solo di `IO-05`.
+
+**Trenta note riviste contro il file aperto come archivio, quattro corrette.** La più grave
+dava per vigente una tolleranza **barrata a metà** su una pratica **sospesa**.
+
+**Collaudo della suite da 22 a 24 difetti su 24**, più due collaudi nuovi a perimetro chiuso —
+i due tassi e il CSV. Il dettaglio sta nella **parte seconda** di `rapporto_lotto_02b_bis.md`.
 
 ## Il lotto 2B-bis, chiuso il 21/08/2026 — gli allergeni
 

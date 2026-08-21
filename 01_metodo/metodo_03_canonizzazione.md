@@ -496,6 +496,32 @@ emette per essa un **AVVISO da chiudere a mano**, non un ERRORE. Senza questa cl
 ogni nota costruita sulla foto del frammento o sulla foto del pannello PKM-450 sarebbe
 un errore bloccante per costruzione.
 
+⚠️ **E48 — L'ESTRATTORE CONGELATO È CIECO A DUE STRATI CHE STANNO DENTRO IL FILE, E LA QA LI
+VEDE ATTRAVERSO UN'ESTRAZIONE DI CANTIERE.** Non sono le immagini, che il manuale già copre: sono
+**le formule dei fogli di calcolo** — 1.697 celle nel corpus, **tutte senza valore in cache**, e
+l'estrattore le legge `None` — e **il barrato dei documenti**, che vive in una proprietà del
+carattere accanto alle stesse parole di tutte le altre.
+
+⚠️ **Il modo in cui si ripara NON è toccare l'estrattore.** `qa_comune.testo_fonte` è il
+**modulo di misura** e resta byte-identico (metodo_01 §5-bis): ogni numero delle baseline è
+vincolato al suo comportamento, e cambiarlo invaliderebbe confronti già pubblicati. **La QA e il
+pacchetto del giudizio usano invece un'estrazione DI CANTIERE**, che parte da quella congelata e
+**aggiunge i due strati marcati** — `[FORMULA: ...]` e `[BARRATO: ...]` — così che chi legge
+sappia sempre da quale strato viene il riscontro. **Che le due vie restino separate si dimostra**,
+non si dichiara: l'output della via congelata prima e dopo dev'essere lo stesso.
+
+⚠️ **Un riscontro che vive SOLO in testo barrato non sostiene un'affermazione al presente.** Il
+barrato è **contenuto revocato**: la nota che lo usa lo dichiara come tale, e la provenance
+segnala con un avviso dedicato — «riscontro in testo revocato» — chi lo cita come se fosse
+vigente. ⚠️ **Una nota che afferma come vigente un testo revocato AFFERMA IL FALSO**, ed è la
+classe più grave del progetto: non è un'imprecisione, è una regola che non c'è più data per
+applicabile.
+
+⚠️ **Un fatto letto da una formula o dalla struttura del file porta `verifica: strutturale`**,
+come le fonti immagine portano `verifica: visiva`. Le due dicono la stessa cosa in due domini
+diversi: **il riscontro non sta nel testo che l'estrattore restituisce**, e chi rilegge deve
+sapere dove cercarlo.
+
 ⚠️ **Le fonti sono SOLO file del corpus.** Mai `canone_aurora.md`, mai un altro
 documento di metodo, mai una nota del vault. Il canone guida la mano di chi canonizza e
 non compare da nessuna parte (§5.5).
@@ -2205,6 +2231,20 @@ note → suite QA → revisore indipendente → correzioni propagate → suite Q
 
    ⚠️ La categoria C è la ragione per cui il revisore riceve il canone: quattro revisori
    senza registro hanno già segnalato 82 problemi, in buona parte trappole (metodo_01 §4).
+
+   ⚠️ **E49 — LA RIGA B È UNA NOTA SENZA CARTELLA.** Ogni affermazione che entra nel canone
+   porta **lo stesso riscontro sulla fonte che porterebbe in una nota**: la citazione testuale,
+   il locator nella grammatica chiusa, e **i valori contati** (E7). Il canone non è un taccuino
+   di impressioni del revisore: è la fonte che governa come si leggono i grezzi, e un errore
+   scritto lì **si propaga a tutti i lotti futuri** invece che a una nota sola.
+
+   ⚠️ **Il caso che l'ha resa necessaria è un conteggio.** Un «sei fasi» **contato da chi
+   scriveva** e mai verificato sulla fonte ha attraversato **il revisore, il canone, una nota e
+   una riga di tracciamento** senza che nessuno lo contasse — e la fonte diceva «5 fasi» sopra
+   un elenco di sei voci, cioè **né cinque né sei nel senso in cui la riga lo usava**.
+   ⚠️ **Quattro presidi in fila non hanno fermato un numero che nessuna fonte enunciava**,
+   perché ognuno ha creduto a quello prima: il conteggio **sembra** un atto di lettura e **è**
+   un atto di inferenza.
 4. **Correzioni propagate.** Una correzione non si applica solo dove il revisore l'ha
    vista: si cerca lo stesso errore in tutte le note del lotto e nei lotti precedenti.
 5. **Suite QA di nuovo**, da capo — **e con essa lo strato di giudizio su ogni nota nuova o
