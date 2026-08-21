@@ -41,7 +41,7 @@ l'occasione tipica, non la condizione.
 §1 STUDIO PRELIMINARE (ogni sessione, anche le successive)
 ---------------------------------------------------------------------
 1. 01_metodo\metodo_03_canonizzazione.md — INTEGRALE. E' il manuale
-   supremo, con i 46 emendamenti gia' dentro. In caso di contrasto con
+   supremo, con i 49 emendamenti gia' dentro. In caso di contrasto con
    questo prompt, vince metodo_03 e lo segnali.
 2. 06_operativo\registro_emendamenti.md — l'indice genealogico: serve
    a vedere in dieci secondi se questo prompt e' rimasto indietro.
@@ -208,6 +208,26 @@ cosa sola, ma decisiva:
      fonte;
    - E18: se la nota stabilisce una regola decisionale, il `summary`
      la enuncia — e' cio' che il retrieval mostra per primo;
+   - E47: un'affermazione universale — «l'unico», «il primo», «il piu'
+     alto», «nessun altro», «ogni», «tutti», «sempre», e le negazioni
+     equivalenti — si scrive col PERIMETRO su cui e' stata verificata,
+     e quel perimetro non e' mai piu' largo delle `fonti` della nota.
+     Se l'affermazione universale E' il punto della nota, il posto
+     giusto e' la tabella di tracciamento: nessuna nota ha per fonti
+     l'intero archivio. E' l'unico emendamento nato da un criterio
+     pre-registrato che si e' avverato, e fra 2B e 2B-bis la specie e'
+     ricomparsa piu' di venti volte, tre volte DENTRO le correzioni
+     che la stavano correggendo: non si estirpa con l'attenzione;
+   - E48, i due strati che l'estrattore congelato non vede: le FORMULE
+     dei fogli di calcolo (1.697 celle nel corpus, tutte senza valore
+     in cache) e il BARRATO dei documenti. La QA e il pacchetto del
+     giudizio usano l'estrazione DI CANTIERE che li porta MARCATI
+     ([FORMULA], [BARRATO]); l'estrattore di misura resta identico.
+     Un riscontro che vive SOLO in testo barrato non sostiene
+     un'affermazione al presente: e' contenuto revocato, e la nota che
+     lo usa lo dichiara. Un fatto letto da formula o da struttura del
+     file porta `verifica: strutturale`, come le immagini portano
+     `verifica: visiva`;
    - duplicati: UNA nota sola, entrambi i nomi in `fonti`, una riga
      che dichiara la duplicazione;
    - integrita' e stati autodichiarati dei file (checksum falliti,
@@ -298,6 +318,13 @@ cosa sola, ma decisiva:
    Al revisore si chiede sempre un campione delle note nate dai
    documenti multi-fatto: se non sono agganciabili a una domanda
    plausibile, e' sovra-atomizzazione.
+   E49: LA RIGA B E' UNA NOTA SENZA CARTELLA. Ogni affermazione che
+   entra nel canone porta lo stesso riscontro sulla fonte che
+   porterebbe in una nota — valori CONTATI compresi (E7). Il caso: un
+   «sei fasi» contato da chi scriveva e mai verificato sulla fonte ha
+   attraversato revisore, canone, una nota e una riga di tracciamento
+   senza che nessuno lo contasse — e la fonte diceva «5 fasi» sopra
+   sei voci.
 
 8. RI-GIUDIZIO E REGOLA D'ARRESTO (E9 + E26). Dopo le correzioni si
    RIGIUDICA, non si rilancia solo la QA: le note nate dalle
@@ -491,8 +518,8 @@ STOP-LOSS E COSA NON FARE
 ---------------------------------------------------------------------
 ALLINEAMENTO DI QUESTO PROMPT
 ---------------------------------------------------------------------
-Allineato al: 2026-08-21, dopo il gate del lotto 2B.
-Ultimo emendamento recepito: E46.
+Allineato al: 2026-08-21, dopo il gate del lotto 2B-bis.
+Ultimo emendamento recepito: E49.
 Scritto dal coordinatore: questo file e' l'istruzione DATA alla
 sessione, e una sessione non riscrive le proprie istruzioni.
 Recepiti rispetto alla versione precedente (ferma al gate S2, 19
@@ -512,9 +539,13 @@ della ricerca · E44 le misure di chiusura si prendono dopo l'ultima
 scrittura e portano l'ora · E45 «sessione diversa» significa contesto
 diverso — il subagente a contesto nuovo qualifica, per la revisione
 (che il canone lo riceve) come per il giudizio (che non lo riceve) ·
-E46 i due tassi si dichiarano col nome del dominio misurato. E45 ed
-E46 nascono col gate di 2B: la prima sessione che usa questa versione
-li applica a metodo_03 e al registro PRIMA di aprire il lotto.
+E46 i due tassi si dichiarano col nome del dominio misurato · E47
+l'affermazione universale porta il suo perimetro · E48 gli strati
+invisibili all'estrattore (formule, barrato) entrano marcati
+nell'estrazione di cantiere · E49 la riga B e' una nota senza
+cartella. E48 ed E49 nascono col gate di 2B-bis: la prima sessione
+che usa questa versione li applica a metodo_03 e al registro PRIMA di
+aprire il lotto.
 CONTROLLO DI SCOSTAMENTO: confronta questa riga con l'ultima riga di
 `registro_emendamenti.md`. Se il registro e' piu' avanti, il prompt e'
 vecchio: dillo nel rapporto, non compensare a mano.
