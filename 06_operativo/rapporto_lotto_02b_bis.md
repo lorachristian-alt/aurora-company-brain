@@ -523,3 +523,53 @@ gate. **Nessun grezzo è stato canonizzato in questa parte: era manutenzione.**
 5. **Il tema 3 non è stato aperto in questa sessione**, e la PARTE 3 lo prevede: la manutenzione
    è stata piena, e i tredici grezzi con il loro ripacchettamento sono lavoro di apertura, non
    una coda.
+
+## 19. L'apertura del tema 3, e perche' la scrittura non e' stata aperta
+
+**Il ripacchettamento è fatto** (PARTE 4, E31): tredici grezzi in **cinque pacchetti**, lungo
+cuciture documentali e non tematiche.
+
+| Pacchetto | Grezzi | Perche' stanno insieme |
+|---|---|---|
+| **3A** riesame della direzione | verbale + cruscotto KPI | Il cruscotto **non è un documento a sé**: si intitola «riesame direzione» e dichiara «target definiti nel riesame del 12/03/2026». È il dato di ingresso del §5 del verbale |
+| **3B** politica e formazione | politica + registro presenze | Cosa l'azienda dichiara di volere, e se chi deve attuarlo è formato. ⚠️ **Rende scrivibile B6** (T102) |
+| **3C** certificazione e audit | certificato + rilievo + incarico + email | ⚠️ Vi cade **T83**, l'auditor annotato sette giorni prima delle date certificate |
+| **3D** i reclami | `PRO-QA-08` + segnalazione + RASFF | ⚠️ Fonte prescrittiva: **E37 scatta**. Vi cadono **T5 e T6** |
+| **3E** crisi e controllo pubblico | procedura di ritiro + notifica ATS | I due casi in cui il sistema risponde a qualcuno di fuori |
+
+⚠️ **I pacchetti sono da 2-4 grezzi e non da 3-5**, e il criterio e' **il conteggio dei fatti**
+(E21/E28), non il numero dei file: **il solo verbale di riesame porta 45 sezioni numerate**, e
+tre grezzi di questo tema in un pacchetto avrebbero superato le quaranta note oltre le quali lo
+spezzamento e' obbligato comunque. **Conteggio di 3A, fatto prima di scrivere: ~34 note** — 22
+dal verbale, 12 dal cruscotto — dentro la capienza di E31.
+
+⚠️ **E37 non scatta su 3A**, ed e' una decisione motivata e non un'omissione: ne' il verbale ne'
+il cruscotto sono fonti prescrittive secondo `fonti_prescrittive_corpus_v1.md`. Scatterà su
+3B, 3D e 3E.
+
+### 19.1 Due ritrovamenti dell'apertura, gia' tracciati
+
+⚠️ **T107 — il nono impegno della politica per la qualita' e' BARRATO**: «perseguire la crescita
+del fatturato quale obiettivo primario dell'organizzazione», dentro un documento che dichiara la
+sicurezza alimentare. **Nel testo estratto e' indistinguibile dagli altri otto.**
+
+⚠️ **E' la prova, su dati veri e prima ancora che il lotto si apra, che E48 non era un
+adempimento formale**: senza lo strato del barrato quella riga sarebbe entrata nel vault come
+impegno vigente, e **nessun controllo l'avrebbe fermata**.
+
+**T108 — `PRO-QA-08` porta tre barrati sostanziali**, e due sono cancellazioni **mute**: il
+perimetro della procedura, la catena di comunicazione al titolare, e il laboratorio che esegue
+le analisi.
+
+### 19.2 Perche' 3A non e' stato scritto
+
+**La PARTE 3 del prompt lo prevede**, e con parole precise: la PARTE 2 e' una manutenzione
+piena, e **«il ripacchettamento e' esso stesso lavoro di apertura»**.
+
+⚠️ **Aprire il ciclo di 3A qui avrebbe significato cominciare un lotto sapendo di non chiuderlo
+nella stessa finestra**, mentre il ritmo della PARTE 4.4 chiede «un pacchetto per sessione,
+**chiusura piena**». **Un lotto aperto e non chiuso e' esattamente cio' che questo progetto
+evita**, ed e' la ragione per cui la soglia esiste.
+
+**3A e' pronto**: elenco scritto, cuciture motivate, conteggio dei fatti dichiarato, obblighi
+mappati, E37 valutata. **Si apre e basta.**

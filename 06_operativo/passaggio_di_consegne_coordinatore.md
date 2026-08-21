@@ -76,11 +76,13 @@ crea regole: spiega come si sono applicate.
   difetti di formato compresi.
 - **Canonizzazione — sette lotti chiusi, e il TEMA 2 È COMPLETO**: pilota L26130 (22 grezzi)
   + 1A (7) + 1B (4) + 1C (2) + 2A (3) + 2B (3) + **2B-bis (2)** = **43 grezzi su 160**, più il
-  lotto di manutenzione R1. ⚠️ **Il prossimo atto è il TEMA 3, il sistema qualità: tredici
-  grezzi, da ripacchettare in apertura** (E31) in pacchetti da 3-5 lungo le cuciture — e il
-  primo pacchetto eredita cinque obblighi già scritti in tabella di tracciamento, fra cui il
-  cruscotto KPI, che porta **65 formule** e sarà il primo banco di prova su dati veri
-  dell'estrazione di cantiere.
+  lotto di manutenzione R1. ⚠️ **Il TEMA 3 È STATO APERTO E RIPACCHETTATO il 21/08/2026, e non
+  è stato scritto**: i tredici grezzi sono ora **cinque pacchetti** — `3A` riesame della
+  direzione + cruscotto · `3B` politica + registro presenze · `3C` certificazione e audit ·
+  `3D` reclami · `3E` crisi e ispezioni. ⚠️ **I pacchetti sono da 2-4 grezzi perché il criterio
+  è il conteggio dei fatti e non il numero dei file**: il solo verbale di riesame porta 45
+  sezioni numerate. **Il prossimo atto è aprire 3A**, che ha già conteggio, cuciture e obblighi
+  scritti nel proprio elenco.
   I conteggi,
   incollati da `conta_stato.py` il 21/08/2026 **dopo la nota-sessione** (E34) e dopo l'ultima
   scrittura (E44):

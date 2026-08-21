@@ -1641,3 +1641,27 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   contiene il separatore, un a capo o una virgoletta nuda, **non si scrive niente** e sul disco
   resta il file vecchio e integro. ⚠️ **E a ogni chiusura il CSV dichiara righe e campi per riga
   con l'ora** (E44): 334 righe, 6 campi, nessun lotto fantasma.
+- **2026-08-21** · **IL TEMA 3 E' STATO RIPACCHETTATO IN APERTURA, E LA SCRITTURA NON E' STATA
+  APERTA** · tredici grezzi diventano **cinque pacchetti** lungo le cuciture documentali, non
+  tematiche: il cruscotto KPI non e' un documento a se' — si intitola «riesame direzione» e
+  dichiara «target definiti nel riesame del 12/03/2026» — ed e' il dato di ingresso del §5 del
+  verbale, quindi sta con lui. ⚠️ **I pacchetti sono da 2-4 grezzi e non da 3-5, e il criterio e'
+  E28: il CONTEGGIO DEI FATTI, non il numero dei file.** I grezzi di questo tema sono molto piu'
+  densi di quelli dei temi 1 e 2 — il solo verbale porta **45 sezioni numerate** — e tre insieme
+  avrebbero superato le quaranta note che impongono lo spezzamento comunque.
+  ⚠️ **LA SCRITTURA DI 3A NON E' STATA APERTA, ed e' la PARTE 3 del prompt del gate ad averlo
+  previsto**: la PARTE 2 e' stata una manutenzione piena — E48 con l'estensione di cantiere e i
+  suoi collaudi, E49, la riverifica di trenta note, un arbitrato riaperto e richiuso, due righe
+  di canone ribaltate, tre suite di collaudo — e **il prompt dice esplicitamente che il
+  ripacchettamento e' esso stesso lavoro di apertura**. ⚠️ **Aprire il ciclo di 3A qui avrebbe
+  significato cominciare un lotto sapendo di non chiuderlo nella stessa finestra**, e il ritmo
+  della PARTE 4.4 chiede «un pacchetto per sessione, **chiusura piena**». **Un lotto aperto e non
+  chiuso e' esattamente cio' che questo progetto evita.**
+- **2026-08-21** · ⚠️ **L'ESTRAZIONE DI CANTIERE HA GIA' PAGATO SE' STESSA, PRIMA DI ESSERE USATA
+  IN UN LOTTO** · aprendo il tema 3 per il conteggio dei fatti, lo strato del barrato ha mostrato
+  che **il nono impegno della politica per la qualita' e' cancellato**: «perseguire la crescita
+  del fatturato quale obiettivo primario dell'organizzazione», in un documento che dichiara la
+  sicurezza alimentare. ⚠️ **Nel testo estratto e' indistinguibile dagli altri otto**, e senza lo
+  strato sarebbe entrato nel vault come impegno vigente **senza che nessun controllo lo
+  fermasse**. Riga **T107**. ⚠️ E `PRO-QA-08`, che e' fonte prescrittiva, ne porta **tre**, di cui
+  due sono cancellazioni mute: riga **T108**.
