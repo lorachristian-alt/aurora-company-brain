@@ -1,0 +1,194 @@
+=====================================================================
+PROMPT — GATE FINALE DEL LOTTO 2B + APERTURA DEL LOTTO 2B-bis
+Corpus v1 · Aurora Food Group S.r.l. (simulazione dichiarata)
+File: 06_operativo\prompt\prompt_gate_2b_finale_2bbis.txt
+Scritto dal coordinatore il 21/08/2026, letto il completamento sul disco.
+La PARTE 6 di prompt_gate_2b_completamento.txt e' SOSTITUITA dalla
+PARTE 4 di questo file: quel documento resta a verbale.
+=====================================================================
+
+COME SEI STATO LANCIATO
+- Terminale nella RADICE del repository
+  C:\Users\buulo\Desktop\.eval_do_not_index\Aurora_Food_Group_SRL
+  con: claude --add-dir "C:\Users\buulo\Desktop\aurora-cervello"
+
+---------------------------------------------------------------------
+PARTE 0 — VERIFICA E COMMIT
+---------------------------------------------------------------------
+0.1 `prompt_s4_lotti.txt` NON e' cambiato: resta a E46, sha256
+    b112b524d8e7d07bdb5d15b8f7c44f679156267fe2e1778cbbe54cfd50321abf.
+    Verifica l'impronta e basta. Questo gate non produce emendamenti
+    nuovi al metodo, ed e' la prima volta che accade: va detto nello
+    stato, perche' e' un segnale che il metodo si sta stabilizzando.
+0.2 Questo file e' NON TRACCIATO: committalo e pusha PRIMA di eseguire.
+    Messaggio: «prompt del gate finale 2B + apertura 2B-bis».
+
+---------------------------------------------------------------------
+PARTE 1 — IL VERDETTO: 2B E' APPROVATO, PIENAMENTE
+---------------------------------------------------------------------
+La condizione del gate e' soddisfatta e il coordinatore ha riletto sul
+disco §10.1-10.6 del rapporto, T89, la tabella §4 e il log. Le ragioni,
+da precedente:
+
+- la dimostrazione d'integrita' dopo l'interruzione — impronte di 250
+  file prima/dopo, zero differenze — e' il modo giusto: dimostrato, non
+  presunto. I due json finiti nel vault per l'os.chdir sono stati visti
+  e spostati: dichiarali nel rapporto in una riga se non c'e' gia';
+- E45 ed E46 scritte PRIMA di eseguire il passo che E45 autorizza:
+  l'ordine giusto, eseguito alla lettera;
+- la revisione col canone ha reso esattamente cio' che il §10 vecchio
+  prevedeva di perdere: 14 A tutti verificati sui grezzi, 5 B nel canone,
+  24 conteggi riprodotti e nessuno sbagliato. «Il lotto regge sui numeri
+  e cede sui quantificatori» e' la diagnosi piu' precisa del progetto
+  finora, e va cosi' com'e' nello stato;
+- il ri-giudizio ha prodotto la prova che nessuno voleva: TRE rilievi
+  introdotti dalla correzione stessa, piu' un quarto della stessa
+  origine. La specie del §5.4 si rigenera nel gesto che la corregge, ed
+  e' ora documentato con nomi e righe;
+- il §10 vecchio lasciato a verbale con la chiusura datata sotto (§10.1)
+  e' la regola 19 applicata ai rapporti: giusto cosi';
+- la decisione di NON rileggere il criterio della specie a evidenza
+  vista, citando §4.43 e le sue due condizioni non soddisfatte, e'
+  ESEMPLARE: hai applicato contro il tuo stesso risultato una regola
+  nata il giorno prima. E' la cosa che distingue un metodo da una
+  raccolta di buone intenzioni;
+- lo stop prima di 2B-bis era dovuto (due strutturali emerse) ed e'
+  stato eseguito.
+
+Le due strutturali, deliberate:
+
+1. LA TRAPPOLA DELLE TRE SERIE NC — gestita bene e RATIFICATA: alias
+   classe B, canone B4, «Da non confondere con» nelle tre note ambigue.
+   Un obbligo in piu', da tabella di tracciamento se non c'e' gia': il
+   LOTTO 3 porta il registro NC completo e il cruscotto — quando entra,
+   la collisione si verifica SU TUTTO il registro, e ogni nota che cita
+   una NC per codice usa la grafia esatta della fonte con la
+   disambiguazione dove serve. La riga dice questo, col lotto 3 come
+   destinatario.
+
+2. IL PUNTO CIECO DELLE FORMULE (T89) — la scelta di non toccare
+   l'estrattore era giusta: qa_comune lo dichiara «riusato IDENTICO» e
+   quello e' il modulo di misura. Ma T89 non puo' aspettare il gate
+   finale SENZA UN NUMERO: oggi nessuno sa se il buco riguarda un file o
+   trenta. La PARTE 2.1 lo conta.
+
+---------------------------------------------------------------------
+PARTE 2 — ADEMPIMENTI DEL GATE (una tantum, salvo dove detto)
+---------------------------------------------------------------------
+2.1 CENSIMENTO DELLE FORMULE, subito e da script. Uno script nuovo in
+    06_operativo\ apre ogni foglio di calcolo del corpus come archivio e
+    conta: file con almeno una formula, celle con formula per file, e
+    quante di quelle formule producono un valore che l'estrattore
+    congelato NON restituisce (formule con risultato non cacheato, o
+    errore senza valore). Output incollato nel rapporto e nella riga
+    T89, con l'ora (E44). ATTENZIONE — NON si decide oggi se estendere la QA: si
+    decide AL GATE DI 2B-bis, col numero in mano — se le formule
+    invisibili sono diffuse nei lotti che arrivano (il lotto 6 e' pieno
+    di xlsx), l'estensione di cantiere si fa PRIMA di quei lotti; se e'
+    un caso isolato, basta il percorso di lettura dichiarato, come la
+    nota delle medie gia' fa. Il criterio si scrive ora perche' nessuno
+    lo riapra a numeri visti: SOGLIA — se piu' di tre grezzi non ancora
+    canonizzati portano formule invisibili, l'estensione si fa.
+    ATTENZIONE — Se si fara', sara' un fix che TOGLIE falsi positivi, cioe'
+    allenta: perimetro chiuso e DUE difetti piantati — un fatto-formula
+    vero che oggi risulta senza riscontro e dovra' trovarlo, e un
+    fatto-formula inventato che dovra' restare rosso. L'estrattore di
+    MISURA non si tocca comunque: l'estensione vive nella suite,
+    dichiarata come attrezzatura di cantiere (§4.2).
+
+2.2 I TRE DIFETTI DELLO STRUMENTO DI E43 (§10.4), decisi uno a uno:
+    - il primo e' un refuso e si corregge: l'artefatto scriva
+      «N occorrenze in M file», che e' cio' che conta;
+    - il secondo NON e' un difetto di codice: la scelta dei termini e'
+      giudizio, e nessuno script la puo' fare. Il fix e' di FORMATO:
+      l'artefatto acquista una sezione «termini considerati e scartati,
+      col perche'» — cosi' chi lo rilegge puo' giudicare il perimetro
+      della ricerca, che e' esattamente cio' che il caso mS/cm/COND ha
+      mostrato mancare. E' un fix che aggiunge trasparenza: monotono;
+    - il terzo NON si corregge restringendo il matching: la ricerca di
+      un'assenza DEVE essere larga — meglio un falso positivo da
+      scartare a mano che una vera occorrenza mancata. «Riconducibilita'»
+      dentro i risultati e' il costo giusto; l'errore fu consumare il
+      risultato senza verificarlo, e quella regola esiste gia'. Una riga
+      nel docstring dello strumento lo dichiara, cosi' nessuno
+      «migliora» il matching fra sei mesi.
+
+2.3 LA VIGILANZA SULLA SPECIE UNIVERSALE — il criterio si AGGIORNA ORA,
+    PRIMA che l'esperimento di 2B-bis parta, e la distinzione con §4.43
+    va scritta nella riga di §6: §4.43 vieta di rileggere un criterio
+    A ESITO VISTO, e l'esito di 2B-bis non esiste ancora. Il
+    completamento ha prodotto un fatto sopravvenuto — la specie
+    rigenerata IN PRODUZIONE, dentro il gesto di correzione, tre casi
+    piu' uno — che il criterio non prevedeva. Aggiornamento in una
+    direzione sola:
+      - resta: se al terzo giro di 2B-bis la specie compare su note
+        nate o riscritte dal lotto, diventa emendamento con la forma
+        gia' scritta nel §5.4;
+      - decade: la chiusura automatica. Se al terzo giro NON compare,
+        la riga NON si chiude da sola: il gate di 2B-bis decide con
+        TUTTE le osservazioni davanti — 2B, il completamento, 2B-bis.
+        Chiudere una riga su un esperimento pulito ignorando tre casi
+        di produzione documentati sarebbe far dire al criterio piu' di
+        quanto misura (E46, applicato ai criteri).
+    ATTENZIONE — 2B-bis NON riceve promemoria sulla specie oltre alle regole in
+    vigore (E39, passo 2-bis): un esperimento avvertito non misura
+    niente, e un avvertimento che vive solo nel prompt e' la malattia
+    di E27. Le regole sono quelle scritte; il giudizio fara' il resto.
+
+2.4 REGISTRI: la §3 del passaggio di consegne riscritta (2B chiuso col
+    ciclo intero, serie E41 con domini, prossimo atto 2B-bis); la riga
+    di §6 del punto 2.3; stato aggiornato con la frase della diagnosi;
+    commit «Gate finale 2B: censimento formule, strumento E43, criterio
+    della specie aggiornato» + push.
+
+---------------------------------------------------------------------
+PARTE 3 — STOP DICHIARATO
+---------------------------------------------------------------------
+Se dopo la PARTE 2 il contesto e' consumato, CHIUDI QUI coi cinque
+gesti: 2B-bis apre a mente fresca con questo stesso file, dalla PARTE 4.
+
+---------------------------------------------------------------------
+PARTE 4 — APERTURA DEL LOTTO 2B-bis (allergeni e formazione)
+---------------------------------------------------------------------
+Sostituisce la PARTE 6 di prompt_gate_2b_completamento.txt. Ciclo di
+lotto di `prompt_s4_lotti.txt` §3, senza sconti. Due grezzi: la matrice
+di cross-contamination degli allergeni e la formazione allergeni 2026.
+Il conteggio dei fatti fu fatto allo spezzamento: riverificalo (E21).
+
+4.1 E37 SCATTA IN APERTURA: la scheda allergeni e' una fonte
+    prescrittiva — e' la ragione del taglio. `candidate_r1.py --dominio`
+    ristretto alle fonti che entrano; riaperte e corrette dichiarate;
+    le riaperte fuori dalla capacita'.
+
+4.2 E41 + E46: quarto punto della serie, dominio `allergeni` dichiarato.
+    Se il giudizio trova scoperture verso fonti di ALTRI domini, si
+    contano a parte, come il §9.1 di 2B prescrive.
+
+4.3 LA SPECIE UNIVERSALE SI OSSERVA AL TERZO GIRO, col criterio
+    aggiornato della PARTE 2.3. Il rapporto dichiara l'esito in una
+    riga, qualunque sia, e il gate di 2B-bis decide con le tre
+    osservazioni davanti.
+
+4.4 Guardie di merito, dalla matrice: gli allergeni stanno con
+    l'autocontrollo, non coi MOCA — contaminazione crociata e' pericolo
+    di processo, migrazione dal film e' pericolo di materiale. La
+    formazione porta presenze e date: E2 verso il registro dei corsi
+    HACCP scaduti, che e' del lotto 3 e NON si anticipa (E25) — se la
+    gamba manca, tabella di tracciamento.
+
+4.5 RITMO: 2B-bis CHIUDE LA SESSIONE, qualunque cosa dica il contesto.
+    Ciclo intero — QA, giudizio, revisione col canone via subagente
+    (E45), ri-giudizio, misure E44 con l'ora — adempimenti del passo 11,
+    cinque gesti, push, zip. Poi il rapporto al coordinatore per il gate.
+
+---------------------------------------------------------------------
+GUARDIE GENERALI
+---------------------------------------------------------------------
+- 03_valutazione\ non si apre mai, per nessuno, subagenti compresi.
+- Il canone guida e non appare NELLE NOTE; il revisore lo riceve (E45),
+  il giudizio mai.
+- Ogni numero da script, con l'ora della misura (E44).
+- L'estrattore di misura non si tocca; l'eventuale estensione di
+  cantiere della PARTE 2.1 si decide al gate di 2B-bis, non prima.
+- Se qualcosa qui contraddice metodo_03, vince metodo_03 e lo segnali.
+=====================================================================
