@@ -1344,3 +1344,105 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   positivita' nell'anno invece di due.** Riga **T82**, questione aperta dichiarata. ⚠️ **L'ha
   trovata lo strato di giudizio al secondo giro, non la scrittura**: e' il terzo caso in questo
   lotto in cui il giudice trova cio' che la lettura di un documento solo non poteva vedere.
+- **2026-08-21** · **GATE DEL LOTTO 2B: APPROVATO CONDIZIONATAMENTE**, e la condizione era
+  completare il ciclo · il coordinatore ha ratificato lo spezzamento in apertura, T72 chiusa da
+  un dato, i numeri di E44 presi dopo l'ultima scrittura, la contabilita' incompletezza/merito
+  del §9-bis e T82. ⚠️ **Ma il lotto aveva un passo dichiarato scoperto — la revisione col
+  canone — e fino al suo completamento non si dichiarava chiuso al gate.**
+- **2026-08-21** · **E45 — «SESSIONE DIVERSA» SIGNIFICA CONTESTO DIVERSO, NON MANO DIVERSA** ·
+  ⚠️ **Il §10 del rapporto 2B poneva la domanda giusta partendo da due premesse sbagliate, ed
+  entrambe erano colpa della formulazione dei prompt, non di chi le leggeva.** (a) **Il canone
+  non vive in `03_valutazione\`**: sta in `01_metodo\`, e la guardia su `03_valutazione\`
+  riguarda l'**esame** — domande e risposte — e resta assoluta, subagenti compresi. Due
+  perimetri, due ragioni. (b) **Un subagente a contesto pulito non e' la sessione che ha
+  scritto**: il perimetro e' garantito dalla fisica del contesto, ed e' il meccanismo con cui il
+  progetto ha sempre fatto questo passo, 1A 1B 1C R1 e 2A comprese. ⚠️ **E il timore era
+  rovesciato: le due fughe di canone del progetto non sono nate dal revisore**, sono nate da chi
+  scriveva le note, e nel pilota da un'informazione **del report del revisore** ricopiata in una
+  nota senza grezzo. **Il revisore DEVE avere il canone**: la categoria C esiste perche' quattro
+  revisori senza canone segnalarono 82 trappole volute. ⚠️ **La scelta di fermarsi restava
+  giusta** — fra un passo scoperto e dichiarato e una contaminazione possibile, il primo e'
+  reversibile — ma **e' la seconda sessione che lo stesso dubbio ferma**, e §7-bis.6 dice che a
+  quel punto si emenda la fonte. La regola vive ora in `metodo_03` §9.5 passo 3, dove chi opera
+  la cerca.
+- **2026-08-21** · **E46 — I DUE TASSI SI DICHIARANO COL NOME DEL DOMINIO MISURATO** ·
+  approvato nella forma proposta dal §9.1 del rapporto 2B. **Non si allarga lo script**:
+  dichiarare un dominio per ognuna delle 36 fonti prescrittive sarebbe il lavoro fatto due
+  volte. ⚠️ **Si fa l'unica cosa che serve — non far dire al numero piu' di quanto misura** — e
+  la serie si riscrive con le etichette: **R1 57,7 %** *(perimetro CCP e tarature)* · **2A 3,3 %**
+  *(dominio `cip`)* · **2B 0,0 %** *(dominio `acqua`)*. Le scoperture verso fonti di altri domini
+  si contano **a parte**.
+- **2026-08-21** · **LA RILETTURA DI UN CRITERIO PRE-REGISTRATO HA UNA REGOLA, ALTRIMENTI E' UN
+  PRECEDENTE PER TRUCCARE** · il gate ha **ratificato** il verdetto del §5.5 di 2B — la
+  vigilanza su «l'attributo che la fonte non da'» si chiude — ma la ratifica esigeva una riga di
+  giurisprudenza, perche' un criterio scritto **prima** e' stato **riletto a numeri visti**.
+  **§4.43 del passaggio di consegne**, e le due condizioni sono entrambe necessarie: la
+  rilettura poggia su una distinzione **gia' consacrata per altra via e prima dell'esito**
+  (debito contro produzione, cioe' E41, nata lo stesso giorno del criterio e per un'altra
+  ragione), **e** il rapporto mostra **entrambe** le letture col loro esito. ⚠️ **Se manca una
+  delle due, vale la lettera:** una distinzione inventata dopo l'esito non e' una distinzione,
+  e' una scusa. ⚠️ **E l'occorrenza a debito non sparisce**: si conta nel debito della rete
+  finale con le 29 note di E43.
+- **2026-08-21** · **LA NUMERAZIONE DELLA GIURISPRUDENZA: §4.38 ERA GIA' OCCUPATA** · il prompt
+  del gate chiedeva la riga come §4.38, scritto prima che la chiusura di 2B ne aggiungesse
+  cinque (§4.38-4.42) la notte precedente. La riga ha preso **§4.43**, il primo numero libero, e
+  il fatto e' annotato nella riga stessa. ⚠️ **Non e' pedanteria: due righe con lo stesso numero
+  in un registro che si cita per numero sono il modo in cui una giurisprudenza smette di essere
+  citabile.**
+- **2026-08-21** · **IL CICLO DI 2B E' COMPLETO: LA REVISIONE COL CANONE HA RESO 14 A, 5 B, 0 C** ·
+  eseguita da un subagente a contesto pulito col canone e la tabella alias. ⚠️ **I conteggi
+  tornano tutti** — ventiquattro grandezze riprodotte in modo indipendente, nessuna sbagliata —
+  **e cedono i quantificatori**: dieci dei quattordici A sono della specie che il §5.4 aveva gia'
+  nominato, e **due stavano nel `summary`, col corpo che li smentiva sei righe sotto**. ⚠️ **Uno
+  e' di specie diversa e piu' grave**: la nota delle medie non calcolate **descriveva un
+  meccanismo che il file non ha** — diceva due celle vuote e un errore da formula su intervallo
+  vuoto, mentre l'XML mostra che le due celle **contengono la formula** e la terza **porta
+  l'errore senza formula**. La spiegazione plausibile era in grassetto e non veniva da nessuna
+  fonte.
+- **2026-08-21** · ⚠️ **IL RI-GIUDIZIO HA DATO LA PROVA CHE NOMINARE UNA SPECIE NON LA ESTIRPA** ·
+  undici rilievi accolti, e **tre li avevo introdotti io correggendo**, poche ore prima:
+  scrivendo la disambiguazione delle sigle NC ho scritto in tre note «l'archivio porta tre serie
+  parallele», e le fonti di quelle note ne documentano **due**. Un quarto ha la stessa origine —
+  un conteggio esatto tratto da un documento che non e' fonte di quella nota. ⚠️ **La specie si
+  rigenera nel gesto stesso che la corregge**, perche' spiegare *perche'* due sigle si somigliano
+  significa guardare tutto l'archivio, cioe' fuori dalle fonti che si stanno citando. **Il rimedio
+  non e' attenzione: e' che ogni affermazione universale nasca col suo perimetro attaccato.**
+- **2026-08-21** · ⚠️ **L'ESTRATTORE CONGELATO NON VEDE LE FORMULE DEI FOGLI DI CALCOLO, ED E' UN
+  PUNTO CIECO DELLA CATENA DI PROVENIENZA** · il giudice ha contestato due formule `AVERAGE`
+  citate in una nota **perche' nel testo estratto non ci sono**; ha ragione lui sul testo estratto
+  e ha ragione la nota sul file. **L'estrattore restituisce i valori, non le formule**: dell'errore
+  `#DIV/0!` porta traccia, delle due `AVERAGE` no. ⚠️ **QA e strato di giudizio girano entrambi su
+  quel testo, quindi un fatto che vive in una formula e' invisibile a entrambi.** La nota dichiara
+  ora il percorso di lettura invece di tacerlo; riga **T89** al gate finale. ⚠️ **Non si tocca
+  l'estrattore**: e' congelato (metodo_01 §5-bis) e cambiarlo invaliderebbe il confronto delle
+  misure.
+- **2026-08-21** · **CINQUE DIVERGENZE NUOVE NEL CANONE, E UNA E' UNA TRAPPOLA DI ENTITY
+  RESOLUTION** · sezione datata 21/08/2026. ⚠️ **B4 e' quella che pesa**: l'archivio porta **tre
+  serie parallele** di numerazione delle non conformita' — `NC-26-nnn` nel registro tamponi,
+  `NC-2026-nnn` nel registro interno `MOD-QA-18`, `NC-ACQ-26-nn` nel registro dell'acqua — e fra
+  le prime due **corrono due cifre nell'anno e nient'altro**: `NC-26-055` e' il nastro del forno,
+  `NC-2026-055` e' il sesamo in saletta pilota. **Quattro righe di classe B in `alias_entita.md`**
+  e la sezione «Da non confondere con» nelle tre note che portano una sigla ambigua. ⚠️ **E nessuna
+  non conformita' dei due registri analitici compare in `MOD-QA-18`**, che pure dichiara di essere
+  il registro delle non conformita' interne.
+- **2026-08-21** · **IL CRITERIO SULLA SPECIE UNIVERSALE NON E' STATO ANTICIPATO, ED E' UNA
+  DECISIONE** · la revisione e il ri-giudizio hanno dato **evidenza molto piu' forte** di quando
+  la riga di vigilanza e' stata scritta: la specie e' ricomparsa in produzione, dentro le
+  correzioni stesse. ⚠️ **Il criterio fissato al gate dice «al terzo giro di giudizio di 2B-bis»,
+  e resta quello.** Rileggerlo adesso sarebbe esattamente cio' che **§4.43** e' nato per impedire,
+  e le sue due condizioni **non sono soddisfatte**: la distinzione su cui poggerebbe la rilettura
+  — se il giudizio post-revisione conti come «giro» — **non era consacrata prima dell'esito**.
+  **L'evidenza si consegna, il criterio non si tocca.**
+- **2026-08-21** · **STOP PRIMA DI 2B-bis, COME LA CONDIZIONE DEL GATE PRESCRIVE** · il gate
+  dichiarava: se emerge qualcosa di strutturale — una classe nuova, un guasto di strumento, una
+  fuga di canone — **stop e rapporto al coordinatore prima di 2B-bis**. ⚠️ **Ne sono emerse due**:
+  la trappola di entity resolution di B4 (classe nuova) e il punto cieco dell'estrattore sulle
+  formule (guasto di strumento). **Nessuna fuga di canone**: la verifica dell'interruzione e le
+  impronte `sha256` di 250 file lo escludono. Il lotto 2B-bis **non e' stato aperto**.
+- **2026-08-21** · **IL PRIMO REVISORE E' CADUTO PER UN ERRORE DI RETE, E L'ASSENZA DI DANNI E'
+  STATA DIMOSTRATA INVECE CHE PRESUNTA** · l'agente era in sola lettura e si e' fermato a meta'.
+  ⚠️ **Verifica con impronta `sha256` di 250 file — le 246 note del vault piu' canone, tabella
+  alias, manuale e registro — prima e dopo: zero differenze.** Piu' gli invarianti: QA di lotto,
+  QA vault, matrice, tracciamento, emendamenti, collaudo, fine riga, tutti identici alle misure
+  della notte. ⚠️ **Un'impronta costa dieci secondi e trasforma «non credo abbia toccato nulla»
+  in un fatto**: da qui in poi si prende prima di ogni agente che lavori sul vault.

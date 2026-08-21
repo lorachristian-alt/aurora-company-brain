@@ -3,7 +3,9 @@
 > **Cos'è** · Lo stato di oggi del vault: cosa è stato canonizzato, con quale esito, e
 > cosa resta. Solo stato, mai una regola: le regole stanno in
 > `01_metodo\metodo_03_canonizzazione.md`, le decisioni in `06_operativo\decision_log.md`.
-> **Aggiornato al** · **21/08/2026, chiusura del lotto 2B** — l'autocontrollo analitico:
+> **Aggiornato al** · **21/08/2026, COMPLETAMENTO del ciclo del lotto 2B** — la revisione col
+> canone, che alla chiusura era stata dichiarata scoperta, è stata eseguita e il ciclo è
+> intero. Prima, nella notte, la **chiusura del lotto 2B** — l'autocontrollo analitico:
 > tamponi di superficie, acqua potabile, acque reflue. ⚠️ **Il lotto è arrivato con cinque
 > grezzi e ne ha canonizzati tre**: si è spezzato in apertura (E28) e gli allergeni sono
 > passati a **2B-bis**. Prima, il 20/08: il **GATE del lotto 2A**, che lo ha **APPROVATO** e ha
@@ -275,13 +277,15 @@ apporto_lotto_1a.md`.
 
 ## Il perimetro vault
 
-⚠️ **Misurato il 21/08/2026 alle 00:01:20**, dopo l'ultima scrittura del lotto 2B (E44).
+⚠️ **Misurato il 21/08/2026 alle 09:22:21**, dopo l'ultima scrittura del **completamento** del
+lotto 2B (E44). Alla chiusura della notte i numeri erano 123 e 193: **gli errori non si sono
+mossi, gli avvisi sono saliti di quattro** perché la revisione ha allungato le note.
 
 | Controllo | Errori su tutto il vault |
 |---|---|
 | `qa_frontmatter` · `qa_link_integrity` · `qa_provenance` | **0 ciascuno** |
 | `qa_copertura` | **123** — 119 grezzi non ancora canonizzati, 3 aree senza hub, **1 rilievo di merito** |
-| **totale suite** | **123 errori, 193 avvisi** |
+| **totale suite** | **123 errori, 197 avvisi** |
 
 ⚠️ **Il totale del vault scende per la seconda volta consecutiva** — 128 → 126 → **123** — e
 scende ogni volta **esattamente dei grezzi che il lotto ha canonizzato**. **Ma non tutti gli errori sono più incompletezza**:
@@ -479,7 +483,7 @@ ci sono due cartelle datate. **Nessuna data è stata ritoccata.**
 | Note toccate (E32) | **9** |
 | Giri di giudizio | **3** — 8, 2 e 3 rilievi accolti. **Non converge**, e il rapporto **nomina la specie** invece di fare un quarto giro |
 | Righe di tracciamento | **T72 chiusa**, T71 e T82 aperte dichiarate, T77 riconciliata, sei nuove tracciate. Totale **82** |
-| Revisione col canone | ⚠️ **NON eseguita** — le guardie della sessione vietano `03_valutazione\` |
+| Revisione col canone | ✅ **eseguita il 21/08/2026**, dopo che **E45** ha sciolto la contraddizione: **14 rilievi A, 5 B, 0 C**. I 14 A verificati sui grezzi e corretti; le 5 B nel canone in sezione datata; ri-giudizio delle note toccate, **11 rilievi accolti**, e QA di lotto di nuovo verde |
 
 **Che cosa ha chiuso.** La conducibilità dell'acqua di rete — **486 µS/cm** — è entrata nel
 vault, e il criterio del risciacquo CIP che 2A aveva dichiarato non verificabile è stato

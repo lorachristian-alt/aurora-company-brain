@@ -169,6 +169,21 @@ che il dato è illeggibile nella fonte, e se serve apre una questione aperta.
 | **TS-01** — il tunnel di surgelazione esistente, «un rottame» | il **tunnel Criotech CR-SP180** — quello da acquistare, acconto 87.000 € | Uno è in servizio, l'altro è un investimento in corso | `macchina-ts-01` in `entities`, `progetto-tunnel-surgelazione` in `projects` |
 | **Marco Fantin** — direttore di stabilimento | **«fantini» / «Rossato di Tecnoforni»** — nella trascrizione automatica il parlante si autocorregge | La trascrizione è dichiaratamente non verificata | Non si crea un'entità «Fantini»: si riporta la correzione a verbale |
 | **Attilio Peruffo** — legale rappresentante di **Frigotecnica Berica S.r.l.**, Montecchio Maggiore (VI), firma i commenti di trattativa come «Peruffo A. (Frigotecnica)» (`contratto_manutenzione_impianto_frigo_TS01.docx`) | **Peruffo Maria Grazia** — revisore legale di Aurora, Registro n. 148223 (`visura_camerale_ordinaria_AuroraFoodGroup.pdf`) · e **Peruzzi Maurizio**, n. 118442 (`bilancio_esercizio_2025_deposito_CCIAA.pdf`) | Un fornitore esterno e un revisore legale: ruoli, documenti e numeri di iscrizione diversi. **Il cognome Peruffo compare ora su due persone diverse, e in archivio ci sono tre quasi-omografi** | Tre schede distinte. ⚠️ La riga «Da non confondere con» sulle schede dei revisori si scrive nel lotto che canonizza visura e bilancio: oggi quelle note non esistono, e un rimando non può nascere prima della nota |
+| **`NC-26-018`** — ruote dei carrelli di farcitura fuori limite, registro tamponi `MOD-QA-19`, 14/02/2026 | **`NC-2026-018`** — fermo del forno `FT-01` per pressostato gas in avaria, registro non conformità `MOD-QA-18` | Due registri diversi, due date diverse, due oggetti che non hanno nulla in comune | Le due sigle **non si uniscono mai**. La nota `fatto-nc-26-018-ruote-carrelli-febbraio` porta «Da non confondere con» |
+| **`NC-26-041`** — Listeria nello scarico sotto `PT-104`, `MOD-QA-19`, 13/04/2026 | **`NC-2026-041`** — ordine straordinario Tosano, cambio formato non pianificato, `MOD-QA-18`, 05/03/2026 | Idem | Idem |
+| **`NC-26-055`** — nastro del forno `FT-01` a 52 UFC/cm², `MOD-QA-19`, 11/05/2026 | **`NC-2026-055`** — prototipo `AF-SN-0470` v12, sesamo lavorato in saletta pilota senza segregazione, `MOD-QA-18`, 25/03/2026 | Idem | Le due sigle **non si uniscono mai**. La nota `fatto-nc-26-055-nastro-forno-maggio` porta «Da non confondere con» |
+| **`NC-26-056`** — ganasce `PKM-450` a 1,2×10³ UFC/cm², `MOD-QA-19`, 11/05/2026 | **`NC-2026-056`** — quarta dimissione in cinque mesi su Linea 2, `MOD-QA-18`, 26/03/2026 | Idem | Le due sigle **non si uniscono mai**. La nota `fatto-nc-26-056-ganasce-pkm-450-maggio` porta «Da non confondere con» |
+
+⚠️ **Le quattro righe qui sopra sono una FAMIGLIA, non quattro casi**, e vanno lette insieme:
+l'archivio porta **tre serie parallele di numerazione delle non conformità** — `NC-26-nnn` nel
+registro dei tamponi `MOD-QA-19`, `NC-2026-nnn` nel registro delle non conformità interne
+`MOD-QA-18`, `NC-ACQ-26-nn` nel registro dell'acqua — e **nessun documento le riconcilia**.
+⚠️ **La differenza fra le prime due grafie è di due cifre nell'anno, e nient'altro**: una
+ricerca per sigla che normalizzi `26` e `2026` unisce eventi che non hanno nulla in comune.
+⚠️ **E nessuna non conformità dei due registri analitici compare in `MOD-QA-18`**, che pure
+dichiara nel proprio titolo di essere il registro delle non conformità interne.
+*(Trovate dalla revisione del lotto 2B, 21/08/2026; il caso sta nel canone, sezione del
+21/08/2026, rilievo B4.)*
 
 ---
 

@@ -330,9 +330,9 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `fatto-modulo-nc-acqua-riconciliato.md` | atomica | risolto | 3 |
 | `fatto-muffe-l26128-45-giorni.md` | atomica | aperto | 3 |
 | `fatto-nc-102-origine-interna.md` | atomica | risolto | 2 |
-| `fatto-nc-26-018-ruote-carrelli-febbraio.md` | atomica | risolto | 1 |
-| `fatto-nc-26-055-nastro-forno-maggio.md` | atomica | risolto | 1 |
-| `fatto-nc-26-056-ganasce-pkm-450-maggio.md` | atomica | risolto | 1 |
+| `fatto-nc-26-018-ruote-carrelli-febbraio.md` | atomica | risolto | 2 |
+| `fatto-nc-26-055-nastro-forno-maggio.md` | atomica | risolto | 2 |
+| `fatto-nc-26-056-ganasce-pkm-450-maggio.md` | atomica | risolto | 2 |
 | `fatto-nc-acq-26-01-ghiaccio-aprile.md` | atomica | risolto | 1 |
 | `fatto-nc-acq-26-02-ferro-spogliatoi-aprile.md` | atomica | risolto | 1 |
 | `fatto-nc-cip-2026.md` | atomica | risolto | 3 |
@@ -520,7 +520,7 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `menu_mensa_aprile_maggio.txt` | **nessuna** |
 | `modulo richiesta ferie VUOTO da stampare.txt` | **nessuna** |
 | `noleggio_distributori_automatici_contratto.txt` | **nessuna** |
-| `non_conformita_interne_registro_2026.csv` | fatto-accettazione-con-riserva-gas-06-05, fatto-decisione-proseguire-valvola-08-05, fatto-deviazione-ccp2-l26130, fatto-fermo-pkm-450-l26130, fatto-modulo-nc-acqua-riconciliato, fatto-nc-102-origine-interna, fatto-nc-cip-2026, fatto-nessuna-nc-per-allarmi-cf-02, fatto-porta-cella-cf-02-aperta-38-minuti, fatto-registro-cartaceo-mod-qa-12, fatto-riparazione-guarnizione-non-originale, fatto-strumenti-map-azoto-pkm-450, fatto-ts-01-fine-vita-dismissione, questione-carrello-ricambi-dichiarato-rimosso, questione-durata-deviazione-ccp2-l26130, questione-limite-allarme-porta-cf-02, questione-listeria-24-02-non-nel-registro-tamponi, questione-nc-067-sbrinamenti-tunnel, questione-sbrinamenti-fascia-notturna-cf-02, entita-ivano-dal-maso, entita-nordgas, macchina-cf-01, concetto-fefo, kpi-temperatura-uscita-tunnel-ts-01-aprile, questione-limite-o2-residuo |
+| `non_conformita_interne_registro_2026.csv` | fatto-accettazione-con-riserva-gas-06-05, fatto-decisione-proseguire-valvola-08-05, fatto-deviazione-ccp2-l26130, fatto-fermo-pkm-450-l26130, fatto-modulo-nc-acqua-riconciliato, fatto-nc-102-origine-interna, fatto-nc-26-018-ruote-carrelli-febbraio, fatto-nc-26-055-nastro-forno-maggio, fatto-nc-26-056-ganasce-pkm-450-maggio, fatto-nc-cip-2026, fatto-nessuna-nc-per-allarmi-cf-02, fatto-porta-cella-cf-02-aperta-38-minuti, fatto-registro-cartaceo-mod-qa-12, fatto-riparazione-guarnizione-non-originale, fatto-strumenti-map-azoto-pkm-450, fatto-ts-01-fine-vita-dismissione, questione-carrello-ricambi-dichiarato-rimosso, questione-durata-deviazione-ccp2-l26130, questione-limite-allarme-porta-cf-02, questione-listeria-24-02-non-nel-registro-tamponi, questione-nc-067-sbrinamenti-tunnel, questione-sbrinamenti-fascia-notturna-cf-02, entita-ivano-dal-maso, entita-nordgas, macchina-cf-01, concetto-fefo, kpi-temperatura-uscita-tunnel-ts-01-aprile, questione-limite-o2-residuo |
 | `nota_commercialista_credito_imposta_beni_strumentali.docx` | **nessuna** |
 | `nota_infortunio_INAIL_operaio_linea3.txt` | **nessuna** |
 | `nota_spese_trasferte_Zampieri_aprile.csv` | **nessuna** |

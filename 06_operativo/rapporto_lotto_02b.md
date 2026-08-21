@@ -95,13 +95,20 @@ Da `misura_due_tassi.py`, **ripreso dopo l'ultima scrittura il 21/08/2026 alle 0
 ventisettesima è nata dal secondo giro di giudizio. **Il tasso non cambia, il denominatore
 sì** — ed è la ragione per cui E44 chiede l'ora accanto al numero.
 
-**La serie, che è la cosa che conta:**
+**La serie, che è la cosa che conta** — e da **E46** ogni punto porta il **dominio** su cui è
+stato misurato, perché lo script ne controlla uno per volta:
 
-| Misura | Riapertura (debito) | Difetto di produzione (metodo) |
-|---|---|---|
-| **R1** (manutenzione, 19/08) | — | **57,7 %** |
-| **2A** (20/08) | 40,0 % (4/10) | **3,3 %** (1/30) |
-| **2B** (21/08, 00:01) | **60,0 %** (3/5) | **0,0 %** (0/27) |
+| Misura | Dominio misurato | Riapertura (debito) | Difetto di produzione (metodo) |
+|---|---|---|---|
+| **R1** (manutenzione, 19/08) | perimetro CCP e tarature | — | **57,7 %** |
+| **2A** (20/08) | `cip` | 40,0 % (4/10) | **3,3 %** (1/30) |
+| **2B** (21/08, 00:01) | `acqua` | **60,0 %** (3/5) | **0,0 %** (0/27) |
+
+⚠️ **L'etichetta non è decorazione: è la correzione di ciò che questo lotto ha scoperto.** Lo
+0,0 % vale sul dominio `acqua`, e nello stesso lotto il giudizio ha trovato **due note
+scoperte verso il manuale HACCP**, che è una fonte prescrittiva di un altro dominio. **Le due
+misure sono entrambe vere e misurano cose diverse** — vedi §9.1, approvato come **E46** al
+gate del 21/08.
 
 ⚠️ **Il secondo tasso è il numero che decide, ed è il terzo punto della serie.** Il 57,7 % di
 R1 non era il tasso con cui il metodo sbaglia: era il residuo di note scritte quando il metodo
@@ -244,6 +251,19 @@ che questa specie viene nominata e vale E28: *un'affermazione di unicità, prima
 scrive col perimetro su cui è stata verificata, e quel perimetro non è mai più largo delle fonti
 della nota.*
 
+> ⚠️ **Aggiornamento del 21/08, dopo il completamento del ciclo.** La revisione col canone ha
+> trovato **dieci** casi di questa specie che erano sopravvissuti ai tre giri, e il ri-giudizio
+> che è seguito ne ha trovati altri **otto preesistenti più tre che avevo introdotto io
+> correggendo** — vedi §10.5. **L'evidenza è ora molto più forte di quando la riga è stata
+> scritta.**
+>
+> ⚠️ **Ma il criterio di scioglimento è stato fissato al gate del 21/08 e dice «al terzo giro di
+> giudizio di 2B-bis»: non lo si anticipa.** Rileggerlo adesso, a evidenza vista, sarebbe
+> esattamente ciò che §4.43 del passaggio di consegne è nato per impedire — e le sue due
+> condizioni qui **non sono soddisfatte**, perché la distinzione su cui poggerebbe la rilettura
+> (il giudizio post-revisione conta come «giro»?) **non era consacrata prima dell'esito**.
+> **L'evidenza si consegna al coordinatore; il criterio resta quello scritto.**
+
 ### 5.5 Il verdetto sulla vigilanza aperta al gate di 2A
 
 Il gate di 2A aveva parcheggiato «l'attributo che la fonte non dà» **col criterio scritto in
@@ -331,8 +351,11 @@ gli strumenti che c'erano. `misura_due_tassi.py`, `conta_perimetro_lotto.py`,
 
 ### 9.1 Il tasso di difetto di produzione misura UN dominio, e questo lo sopravvaluta
 
+> ✅ **APPROVATO al gate del 21/08/2026 come E46, nella forma qui proposta.** La serie di §3
+> porta ora l'etichetta di dominio, e il manuale la riporta accanto a E41.
+
 ⚠️ **È il candidato principale, e nasce da una contraddizione fra due misure di questo
-stesso lotto.** `misura_due_tassi.py` dà **0,0 %** di difetto di produzione: nessuna delle 26
+stesso lotto.** `misura_due_tassi.py` dà **0,0 %** di difetto di produzione: nessuna delle 27
 note nuove parla del dominio `acqua` senza citare il piano dell'acqua. **Lo strato di giudizio
 ha però trovato che due note parlavano di zoning dei tamponi e di frequenza di potabilità
 senza citare il manuale HACCP**, che è la fonte che prescrive entrambi.
@@ -349,6 +372,11 @@ significherebbe dichiarare un dominio per ogni fonte prescrittiva del corpus, e 
 trentasei — ma di **non far dire al numero più di quanto misura**.
 
 ### 9.2 Osservazione, non emendamento: «l'attributo che la fonte non dà» è ricomparso
+
+> ✅ **RATIFICATO al gate del 21/08/2026**: la vigilanza si chiude, e la rilettura del criterio
+> pre-registrato ha prodotto una riga di giurisprudenza propria — §4.43 del passaggio di
+> consegne — perché un criterio riletto a numeri visti, senza regola, diventa il precedente
+> con cui truccare i criteri futuri.
 
 ⚠️ **La classe parcheggiata al gate di 2A è ricomparsa in questo lotto**, e va registrata
 perché il criterio di decisione era stato scritto in anticipo. Tre degli otto rilievi del
@@ -368,8 +396,10 @@ giro. **Il verdetto su questa riga lo dà il terzo giro, e sta in §5.**
 
 ## 9-bis. I numeri di chiusura, presi dopo l'ultima scrittura
 
-⚠️ **Tutte le misure che seguono sono state prese il 21/08/2026 fra le 00:00:52 e le
-00:01:43**, cioè **dopo** l'ultima scrittura nel vault, come impone E44.
+⚠️ **Le misure sono state prese due volte**, e valgono quelle nuove: la prima serie alla
+chiusura del lotto — 21/08/2026, 00:00:52-00:01:43 — la seconda **dopo il completamento del
+ciclo**, il **21/08/2026 fra le 09:22:04 e le 09:22:43**. E44 chiede che si prendano dopo
+l'ultima scrittura, e l'ultima scrittura è quella della revisione.
 
 <!-- CONTEGGI DEL VAULT — generati da `06_operativo\qa\conta_stato.py` il 2026-08-21.
      Si incollano VERBATIM: non si ricompongono a mano, non si riscrivono in prosa. -->
@@ -388,13 +418,21 @@ giro. **Il verdetto su questa riga lo dà il terzo giro, e sta in §5.**
 | Grezzi citati da almeno una nota | **41** |
 | Grezzi restanti | **119** |
 
-| Misura | Valore | Ora |
+| Misura | Alla chiusura (00:01) | Dopo il completamento (09:22) |
 |---|---|---|
-| Suite QA, perimetro **di lotto** | **0 ERRORI, 23 AVVISI** | 00:00:58 |
-| Suite QA, perimetro **vault** | **123 ERRORI, 193 AVVISI** | 00:01:20 |
-| Tabella di tracciamento | **82 righe**, da T1 a T82, integra | 00:01:15 |
-| Collaudo della suite | **22 difetti su 22**, cinque vie più il caso negativo | 00:01:35 |
-| Emendamenti | registro e manuale **concordano** | 00:01:43 |
+| Suite QA, perimetro **di lotto** | 0 ERRORI, 23 AVVISI | **0 ERRORI, 27 AVVISI** |
+| Suite QA, perimetro **vault** | 123 ERRORI, 193 AVVISI | **123 ERRORI, 197 AVVISI** |
+| Tabella di tracciamento | 82 righe | **89 righe**, da T1 a T89, integra |
+| Perimetro del lotto | 41 note | **41 note** (5 candidate + 9 toccate + 27 nate) |
+| Due tassi (dominio `acqua`) | 60,0 % · 0,0 % su 27 | **60,0 % · 0,0 % su 27** |
+| Collaudo della suite | 22 su 22 | **22 difetti su 22** |
+| Emendamenti | concordi a 44 | **concordi a 46** |
+| Matrice dei lotti | 17 elenchi | **160 grezzi, 17 elenchi, 0 guasti** |
+
+⚠️ **Gli errori non si muovono e gli avvisi salgono di quattro**: la revisione non ha aggiunto
+difetti bloccanti, ha allungato le note. **I conteggi del vault non cambiano affatto** — 246
+note, 215 di contenuto, 41 grezzi citati — perché la revisione ha **corretto** e non
+**prodotto**: nessuna nota nuova, sedici riscritte.
 
 ⚠️ **L'errore del vault scende per la seconda volta consecutiva**, e stavolta di tre:
 
@@ -410,7 +448,15 @@ deciso di non correggere finché non avrà il suo perimetro chiuso.
 
 ---
 
-## 10. La revisione col canone NON è stata eseguita, e il perché va letto
+## 10. La revisione col canone — dichiarata scoperta il 21/08 alle 00:08, eseguita alle 08:52
+
+> ✅ **CHIUSA.** Il gate del 21/08/2026 ha sciolto la contraddizione con **E45**, e il ciclo è
+> stato completato nella stessa giornata. Quello che segue è il testo con cui il lotto aveva
+> dichiarato il passo scoperto — **si lascia, non si cancella**, perché la decisione di
+> fermarsi è stata ratificata come corretta e le premesse sbagliate sono la ragione per cui
+> E45 esiste — e sotto c'è l'esito della revisione.
+
+### 10.1 Com'era scritto alla chiusura del lotto, e perché si lascia
 
 ⚠️ **Il passo 7 del ciclo di lotto chiede una revisione col canone, e questa sessione non
 l'ha fatta.** Non per dimenticanza: **le guardie generali del prompt di questa sessione dicono
@@ -434,5 +480,125 @@ restano scoperti:
 ⚠️ **Il lotto NON si dichiara verificato dal canone**, e il gate deve saperlo prima di
 approvarlo. È il caso di §4.31 applicato a se stesso: **un lotto che dichiara scoperto un
 proprio controllo vale più di uno che lo dà per fatto.**
+
+### 10.2 Le due premesse erano sbagliate, ed erano del testo del coordinatore
+
+⚠️ **Il canone non vive in `03_valutazione\`: sta in `01_metodo\`.** La guardia riguarda
+**l'esame** — domande e risposte — e resta assoluta, subagenti compresi. **Due perimetri, due
+ragioni**, e i prompt non portavano la distinzione.
+
+⚠️ **E un subagente a contesto pulito non è la sessione che ha scritto**: il perimetro è
+garantito dalla **fisica del contesto**, non da chi preme il tasto di lancio. È il meccanismo
+con cui il progetto ha sempre fatto questo passo, 1A 1B 1C R1 e 2A comprese.
+
+⚠️ **Il timore era rovesciato.** Le due fughe di canone del progetto **non sono nate dal
+revisore**: sono nate da chi scriveva le note, e nel pilota da un'informazione **del report del
+revisore** ricopiata in una nota senza grezzo. Il revisore **deve** avere il canone — la
+categoria C esiste perché quattro revisori senza canone segnalarono 82 trappole volute.
+
+**La decisione di fermarsi resta ratificata come corretta**: fra un passo scoperto e dichiarato
+e una contaminazione possibile, il primo è reversibile. ⚠️ **Ma è la seconda sessione che lo
+stesso dubbio ferma** — R1 chiese l'autorizzazione, 2B si fermò — e a quel punto **si emenda la
+fonte**: la regola vive ora in `metodo_03` §9.5 passo 3, come **E45**.
+
+### 10.3 L'esito della revisione: 14 rilievi A, 5 B, 0 C
+
+Eseguita il **21/08/2026** da un **revisore a contesto pulito**, col canone e `alias_entita.md`
+alla mano, sulle 41 note del perimetro. ⚠️ **Il primo tentativo è caduto per un errore di rete
+a metà lavoro**: l'agente era in sola lettura, e la verifica dell'interruzione — impronta
+`sha256` di **250 file** prima e dopo — ha dato **zero differenze**. Il secondo è arrivato in
+fondo.
+
+| Categoria | Quanti | Che cosa se n'è fatto |
+|---|---|---|
+| **A — errore vero** | **14** | verificati **sui grezzi** uno per uno, tutti confermati, tutti corretti |
+| **B — divergenza non registrata** | **5** | nel canone, sezione datata 21/08/2026; quattro righe in `alias_entita.md`; sei righe di tracciamento, T83-T88 |
+| **C — falso allarme** | **0** | il revisore ne dichiara quattro **considerate e non segnalate**, perché il canone le conosce come volute |
+
+⚠️ **Dieci dei quattordici A sono della specie che il §5.4 aveva già nominato** — l'affermazione
+universale verificata sul sottoinsieme che l'ha suggerita: «unica dell'archivio», «prima
+volta», «OGNI parametro», «tutte e cinque le campagne», «sempre più vicine». **Il lotto l'aveva
+nominata e non l'aveva estirpata**, ed è la prova più forte che quella riga di vigilanza serve.
+
+⚠️ **Due di essi stavano nel `summary`**, cioè nel campo che il retrieval legge per primo, **con
+il corpo della nota che li smentiva sei righe più sotto**: la nota della Listeria diceva
+«unica positività dell'archivio» in testa e «non è l'unica dell'archivio» nel corpo. **La
+propagazione di E39 si era fermata prima dell'intestazione**, che è esattamente il difetto per
+cui E30 esiste.
+
+⚠️ **E uno è di specie diversa e più grave — A3.** La nota delle medie non calcolate non
+esagerava un quantificatore: **descriveva un meccanismo che il file non ha.** Diceva che due
+celle erano vuote e che la terza portava l'errore di una formula su intervallo vuoto. L'XML dice
+il contrario su tutti e tre i punti: le due celle **contengono la formula** e non il risultato,
+la terza **porta l'errore e nessuna formula**. ⚠️ **La spiegazione plausibile del meccanismo era
+in grassetto**, e non veniva da nessuna fonte.
+
+### 10.4 Che cosa la revisione ha trovato che nessuno strato automatico poteva trovare
+
+**I conteggi tornano tutti.** Il revisore ha riprodotto in modo indipendente ventiquattro
+grandezze — le 148 righe, le 8 non conformità, i 18 e i 24 su 28, il 536, i valori dello scarico
+e lo storico 2025 — e **nessuna è sbagliata**. L'unico numero che ha corretto è il
+quantificatore di A7, non un conteggio.
+
+**L'assenza dichiarata regge, e l'artefatto la dimostra solo in parte.** ⚠️ **Tre difetti dello
+strumento di E43**, e vanno al gate:
+
+1. l'artefatto scrive «TROVATO in **9 file**» dove sono **9 occorrenze su 6 file**: conta
+   coppie file-termine e le chiama file;
+2. i termini cercati **non coprono `mS/cm` né il tag `COND`**, quindi il log del CIP — 368
+   letture di conducibilità — **è invisibile alla ricerca**. L'affermazione sopravvive perché
+   quelle letture sono di circuito e non di rete, **ma è il ragionamento a reggerla, non
+   l'artefatto**;
+3. un **falso positivo** — «riconducibilità» dentro una nota del commercialista — era entrato
+   nella nota come menzione vera. Corretto.
+
+⚠️ **La regola di E43 ha funzionato, lo strumento no del tutto**: l'artefatto prova che il gesto
+è stato fatto, non che il perimetro fosse quello giusto.
+
+### 10.5 Il ri-giudizio dopo le correzioni, e la prova che nessuno voleva
+
+Le correzioni della revisione hanno toccato sedici note, e per E9 sono state **rigiudicate**:
+pacchetto rigenerato (E33), giudice a contesto pulito, senza canone.
+
+| Esito | Note |
+|---|---|
+| `pulita` | **25** |
+| `afferma_oltre` | **11** |
+
+**Tutti e undici accolti.** Otto erano preesistenti e della specie già nominata — «l'unica
+osservazione d'archivio», «l'unico documento dell'archivio», «l'unico controllo dell'archivio»,
+«l'unica dell'archivio soggetta a un limite» — più tre attribuzioni: una causa, un meccanismo e
+un'intenzione.
+
+⚠️ **Ma tre degli undici li avevo introdotti IO, correggendo, poche ore prima.** Scrivendo la
+disambiguazione delle sigle di non conformità — che è la correzione del rilievo B4 — ho scritto
+in tre note **«l'archivio porta tre serie parallele di numerazione»**, e le fonti di quelle tre
+note **ne documentano due**: la terza sta in un registro che nessuna delle tre cita. Un
+quarto rilievo ha la stessa origine: **«il registro delle non conformità interne ne porta almeno
+nove con causa di usura»**, un conteggio esatto tratto da un documento che non è fonte di quella
+nota.
+
+⚠️ **È la prova che il §5.4 non poteva darsi da solo.** Nominare la specie non la estirpa,
+**perché la specie si rigenera nel gesto stesso che la corregge**: scrivere una disambiguazione
+significa spiegare *perché* due sigle si somigliano, e la spiegazione migliore è quella che
+guarda tutto l'archivio — cioè fuori dalle fonti che si stanno citando. **Il rimedio non è
+attenzione: è che ogni affermazione universale nasca già col suo perimetro attaccato.**
+
+⚠️ **E un rilievo è di un'altra specie ancora, e vale come segnalazione al gate.** Il giudice ha
+contestato le due formule `AVERAGE` citate nella nota delle medie **perché nel testo estratto
+non ci sono**. Ha ragione lui sul testo estratto e ho ragione io sul file: **l'estrattore
+congelato del progetto restituisce i valori dei fogli di calcolo, non le formule.** Dell'errore
+`#DIV/0!` porta traccia, delle due `AVERAGE` no. ⚠️ **Non è un difetto della nota: è un punto
+cieco della catena di provenienza**, perché QA e giudizio girano entrambi su quel testo. La
+nota dichiara ora il percorso di lettura, e la riga **T89** porta il problema al gate finale.
+
+### 10.6 Il ciclo si ferma qui, e non con un quarto giro
+
+⚠️ **Per E26 il ciclo non si chiude ripetendo il giro**: il pattern è nominato dal §5.4, il
+ri-giudizio ne ha confermato la meccanica, e un altro giro troverebbe altri superlativi senza
+dire nulla di nuovo. **Le correzioni sono state applicate, la QA di lotto è tornata verde, e il
+lotto si chiude.**
+
+---
 
 ---

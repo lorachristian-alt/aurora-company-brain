@@ -40,9 +40,9 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `fatto-mani-addetto-farcitura-non-conforme.md` | atomica | risolto | 1 |
 | `fatto-medie-non-calcolate-file-reflue.md` | atomica | aperto | 1 |
 | `fatto-modulo-nc-acqua-riconciliato.md` | atomica | risolto | 3 |
-| `fatto-nc-26-018-ruote-carrelli-febbraio.md` | atomica | risolto | 1 |
-| `fatto-nc-26-055-nastro-forno-maggio.md` | atomica | risolto | 1 |
-| `fatto-nc-26-056-ganasce-pkm-450-maggio.md` | atomica | risolto | 1 |
+| `fatto-nc-26-018-ruote-carrelli-febbraio.md` | atomica | risolto | 2 |
+| `fatto-nc-26-055-nastro-forno-maggio.md` | atomica | risolto | 2 |
+| `fatto-nc-26-056-ganasce-pkm-450-maggio.md` | atomica | risolto | 2 |
 | `fatto-nc-acq-26-01-ghiaccio-aprile.md` | atomica | risolto | 1 |
 | `fatto-nc-acq-26-02-ferro-spogliatoi-aprile.md` | atomica | risolto | 1 |
 | `fatto-nc-cip-2026.md` | atomica | risolto | 3 |

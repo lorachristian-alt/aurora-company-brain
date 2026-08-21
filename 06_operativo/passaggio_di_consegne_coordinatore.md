@@ -154,13 +154,25 @@ crea regole: spiega come si sono applicate.
 - ⚠️ **E41, terzo punto della serie**: difetto di **produzione 0,0 %** (0 su 27), riapertura
   **60,0 %** (3 su 5). La serie del metodo è ora **57,7 % → 3,3 % → 0,0 %**, e il criterio
   scritto al gate di R1 — «due lotti prima di decidere» — è **soddisfatto**.
-- ⚠️ **PROSSIMO: il GATE del lotto 2B**, e porta tre cose da pesare. **(1)** Il giudizio **non
-  converge in tre giri** (8, 2 e 3 rilievi accolti) e il rapporto **nomina la specie** invece di
-  fare un quarto giro: *l'affermazione universale verificata sul sottoinsieme che l'ha
-  suggerita*. **(2)** ⚠️ **La revisione col canone NON è stata eseguita** e il lotto **non si
-  dichiara verificato dal canone** — vedi §6. **(3)** Un candidato emendamento sul tasso di
-  difetto di produzione. Dopo l'approvazione: **2B-bis**, gli allergeni, col dominio già
-  dichiarato e **5 note candidate già misurate**.
+- ✅ **Il GATE del lotto 2B ha APPROVATO CONDIZIONATAMENTE**, e la condizione — completare il
+  ciclo — **è stata soddisfatta il 21/08/2026**. Il gate ha prodotto **E45** («sessione diversa»
+  significa contesto diverso) ed **E46** (i due tassi si dichiarano col dominio misurato), e ha
+  ratificato la chiusura della vigilanza di 2A con una riga di giurisprudenza propria, **§4.43**.
+- ⚠️ **IL COMPLETAMENTO HA PRODOTTO PIÙ DI QUANTO IL GATE SI ASPETTASSE, e va letto prima di
+  aprire 2B-bis.** La revisione col canone ha reso **14 rilievi A, 5 B, 0 C**; il ri-giudizio
+  che è seguito ne ha resi **altri 11**. ⚠️ **Due cose sono STRUTTURALI e la condizione del gate
+  chiede lo stop:** (1) **una trappola di entity resolution nuova** — tre serie parallele di
+  numerazione delle non conformità che collidono su soggetti diversi, `NC-26-055` contro
+  `NC-2026-055` — ora in `alias_entita.md` classe B e nel canone (B4); (2) **un punto cieco
+  della catena di provenienza**: l'estrattore congelato **non vede le formule** dei fogli di
+  calcolo, e QA e giudizio girano entrambi su quel testo (**T89**).
+- ⚠️ **E la specie del §5.4 si è rigenerata nel gesto che la correggeva**: tre degli undici
+  rilievi del ri-giudizio li ha introdotti la correzione stessa. **L'evidenza è molto più forte
+  di quando la riga di vigilanza è stata scritta, e il criterio NON è stato anticipato**: resta
+  «al terzo giro di 2B-bis», perché rileggerlo a evidenza vista è ciò che §4.43 impedisce.
+- ⚠️ **PROSSIMO: il lotto 2B-bis** — gli allergeni e la formazione, due grezzi, col dominio
+  `allergeni` già dichiarato in `candidate_r1.py` e **5 note candidate già misurate**. **Non è
+  stato aperto**: la condizione del gate impone lo stop davanti a un rilievo strutturale.
 - **Poi**: 2B e 2C, il resto della matrice, quindi S6 (misura «dopo» sul vault, con
   `predizioni.md` pre-registrato) e S7 (pubblicazione).
 
@@ -418,7 +430,31 @@ coerente.
     della sessione vietano di aprire `03_valutazione\` e **un subagente lanciato dalla sessione
     è la sessione**. ⚠️ **Fra lasciare un passo scoperto e contaminare il vault si è scelto il
     primo, che è reversibile**: le due sole fughe di canone del progetto sono nate da lì. È §4.31
-    applicato a se stesso.
+    applicato a se stesso. ⚠️ **Ratificato al gate: la scelta era corretta, le premesse no** —
+    il canone non vive in `03_valutazione\` e un subagente a contesto nuovo non è la sessione
+    che ha scritto. **E45** lo chiarisce nel manuale, ed è lì che doveva stare.
+43. **Un criterio pre-registrato si può rileggere a numeri visti solo a due condizioni**
+    (21/08/2026, gate 2B). ⚠️ **Il caso è quello di §5.5 del rapporto 2B**, e senza una regola
+    diventerebbe il precedente con cui truccare ogni criterio futuro: una vigilanza era stata
+    parcheggiata con la sua condizione di scioglimento scritta **prima**, e al momento di
+    applicarla la si è letta in un modo che la lettera non prevedeva. **Le due condizioni sono
+    entrambe necessarie:**
+
+    | | La condizione |
+    |---|---|
+    | **1** | la rilettura poggia su una distinzione che il progetto aveva **già consacrato per altra via e PRIMA** dell'esito — qui *debito contro produzione*, cioè **E41**, nata lo stesso giorno del criterio e per un'altra ragione |
+    | **2** | il rapporto mostra **ENTRAMBE** le letture — quella alla lettera e quella applicata — **col loro esito**, così che chi legge veda che cosa si sarebbe deciso in ciascuna |
+
+    ⚠️ **Se manca anche una sola delle due, vale la lettera.** Una distinzione inventata dopo
+    l'esito non è una distinzione, è una scusa; e una rilettura che mostra un solo ramo non è
+    una rilettura, è una conclusione.
+
+    ⚠️ **E l'occorrenza a debito non sparisce**: l'unica ricomparsa della classe vecchia al terzo
+    giro di 2B sta in una nota ereditata, e **si conta nel debito della rete finale** insieme
+    alle 29 note di E43. Assolvere la produzione non condona il pregresso.
+
+    *(Il prompt del gate la chiamava §4.38; quel numero era già occupato dalle cinque righe che
+    la chiusura di 2B ha scritto la notte prima, e la riga prende il primo libero.)*
 
 ---
 
@@ -445,7 +481,7 @@ coerente.
 | Il prompt riutilizzabile rimasto indietro di sedici emendamenti | 1A, 1B e 1C hanno girato con le regole nel testo incollato invece che nello strumento: chi opera **segnala** lo scostamento, chi istruisce lo **colma** (§4.27, 19/08/2026) |
 | **Due assenze dichiarate con la formula di E3 senza aver fatto la ricerca** | il registro dato per assente stava in dieci grezzi, uno dei quali era già fonte di quella nota; il valore dato per ignoto stava nel piano di autocontrollo. Le ha trovate la **revisione col canone**, non la QA: su un'assenza lo strato deterministico non ha nulla da cercare (§4.32, lotto 2A) |
 | **Una sostituzione di testo fallita in silenzio, e nessuno se ne è accorto** | una correzione del secondo giro non è andata a segno; la QA resta verde su una frase sbagliata che è ancora lì, e l'ha ripresa il giudice al giro dopo. **Chi corregge a programma verifica che la correzione sia entrata**, o la corregge due volte credendo di averla fatta una (lotto 2A) |
-| **Il pacchetto del giudizio generato prima della fine delle correzioni** | sei note su quaranta sono state modificate dopo la generazione del primo pacchetto: E33 dice che si genera **per ultimo**, e qui non lo è stato. Nessun rilievo è caduto su testo morto, ma la regola esiste per non doverlo verificare a posteriori (lotto 2A) |
+| **Il pacchetto del giudizio generato prima della fine delle correzioni** | sei note su quaranta sono state modificate dopo la generazione del primo pacchetto: E33 dice che si genera **per ultimo**, e qui non lo è stato. Nessun rilievo è caduto su testo morto, ma la regola esiste per non doverlo verificare a posteriori (lotto 2A) || **Una guardia formulata male, e due lotti fermi** | ⚠️ **L'errore è del testo del coordinatore, non di chi lo leggeva.** I prompt portavano «`03_valutazione\` non si apre mai» **senza l'eccezione del revisore**, e il canone non vive lì: sta in `01_metodo\`. R1 si è fermato a chiedere l'autorizzazione, **2B si è fermato dichiarando il passo scoperto** e ha chiuso senza revisione col canone. **Due sessioni, lo stesso dubbio, e la risposta viveva solo nel testo incollato di un gate.** Riparato con **E45**, che lo scrive in `metodo_03` §9.5 passo 3 — cioè dove chi opera lo cerca. ⚠️ **La lezione è §7-bis.6: quando la stessa domanda ferma due sessioni, si emenda la fonte, non si risponde una terza volta.** |
 
 ---
 
@@ -499,8 +535,8 @@ coerente.
   distinzione che E41 esiste per misurare. Far diventare emendamento una classe che al terzo
   giro **non si è più prodotta**, sulla base di un difetto ereditato, applicherebbe il criterio
   contro il suo scopo. **La riga si chiude, e al suo posto subentra quella qui sotto.**
-- ⚠️ **LA SPECIE NOMINATA AL TERZO GIRO DI 2B: «L'AFFERMAZIONE UNIVERSALE VERIFICATA SUL
-  SOTTOINSIEME CHE L'HA SUGGERITA».** «l'unico», «il primo», «il più alto», «nessun altro».
+- ⚠️ **LA SPECIE NOMINATA AL TERZO GIRO DI 2B, COL CRITERIO DI DECISIONE FISSATO AL GATE:
+  «L'AFFERMAZIONE UNIVERSALE VERIFICATA SUL SOTTOINSIEME CHE L'HA SUGGERITA».** «l'unico», «il primo», «il più alto», «nessun altro».
   Cinque casi in tre giri di giudizio, e il ciclo **non converge**. ⚠️ **Si rigenera per una
   ragione meccanica e scomoda: nasce dallo scrivere bene.** Chi scrive una nota ha letto a
   fondo **un** documento, e un superlativo sembra il riassunto onesto di quella lettura;
@@ -511,19 +547,23 @@ coerente.
   verifica è **un insieme intero**, e si ripara **solo** restringendo la frase al perimetro
   davvero guardato — tutte e tre le correzioni hanno sostituito «dell'archivio» con «di questo
   registro». **Non si propone come emendamento adesso**, e vale E28: è la prima volta che la
-  si nomina. **Criterio di decisione, fissato ORA perché nessuno lo riapra a numeri visti: se
-  la specie ricompare al TERZO GIRO di giudizio del prossimo lotto — 2B-bis — diventa
-  emendamento; se non ricompare, la riga si chiude.** La forma che avrebbe è nel §5.4 del
-  rapporto 2B.
-- ⚠️ **LA REVISIONE COL CANONE È SCOPERTA DA UN LOTTO, ed è una decisione da prendere al
-  gate.** Il passo 7 del ciclo la richiede; le guardie del prompt di sessione dicono
-  «`03_valutazione\` non si apre mai», e un subagente lanciato dalla sessione **è** la
-  sessione. Il lotto 2B **non si dichiara verificato dal canone**. ⚠️ **Non è una questione di
-  diligenza ma di chi ha il permesso**: se il coordinatore vuole che il passo 7 sia eseguito
-  dalla sessione operativa, la guardia va riscritta esplicitamente; altrimenti la revisione va
-  affidata a una sessione che il coordinatore lancia. **Finché la contraddizione resta, ogni
-  lotto chiuderà con quel passo scoperto** — e in 2A quel passo aveva trovato le due assenze
-  false, cioè il difetto che nessuno strato deterministico vede.
+  si nomina.
+  ✅ **Criterio di decisione, fissato al gate del 21/08/2026 e scritto ORA perché nessuno lo
+  riapra a numeri visti: se la specie ricompare al TERZO GIRO di giudizio di 2B-bis SU NOTE
+  NATE O RISCRITTE DAL LOTTO — produzione, non debito — diventa emendamento; se non ricompare,
+  la riga si chiude.** ⚠️ **La distinzione fra debito e produzione è scritta QUI, in anticipo,
+  e non a numeri visti**: è la condizione 1 di §4.43 applicata prima invece che dopo, ed è il
+  modo di non ripetere l'incertezza che quella riga di giurisprudenza è dovuta nascere per
+  chiudere. **La forma che l'emendamento avrebbe è già scritta**, nel §5.4 del rapporto 2B:
+  *un'affermazione di unicità, primato o massimo si scrive col perimetro su cui è stata
+  verificata, e quel perimetro non è mai più largo delle fonti della nota.*
+- ✅ **LA REVISIONE COL CANONE NON È PIÙ UNA VIGILANZA: È CHIUSA DA E45.** Il lotto 2B aveva
+  dichiarato il passo scoperto credendo che la guardia su `03_valutazione\` coprisse il canone.
+  **Non lo copre**: il canone sta in `01_metodo\`, la guardia riguarda l'esame, e un subagente
+  a contesto pulito **è** la sessione diversa che il passo 3 chiede. ⚠️ **La regola è ora nel
+  manuale** (E45, §9.5 passo 3) invece che nel testo incollato di un gate, ed è lì che chi opera
+  la cerca. **Il ciclo di 2B è stato completato nella sessione del 21/08**: la revisione è stata
+  eseguita, e il suo esito sta nel §10 del rapporto 2B.
 - ⚠️ **IL TASSO DI DIFETTO DI PRODUZIONE MISURA UN DOMINIO SOLO.** In 2B dava 0,0 % mentre il
   giudizio trovava due note scoperte rispetto al manuale HACCP, che è una fonte prescrittiva di
   **un altro** dominio. Le due misure non si contraddicono, ma **il nome del numero promette

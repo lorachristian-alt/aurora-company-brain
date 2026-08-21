@@ -491,3 +491,86 @@ lotto 2B: quando quel dato entra, il criterio va applicato ai 28 cicli e questa 
 canone acquista la sua gamba numerica dentro il vault. ⚠️ **È la prima volta che il canone
 conosce un numero che i grezzi già canonizzati non permettono di scrivere**, e la distanza
 fra i due si chiude con una riga di tracciamento, non con una deroga.
+
+---
+
+## Divergenze nuove — revisione del lotto 2B, 21/08/2026
+
+> **Come è nata questa sezione** · Revisione indipendente del lotto 2B (autocontrollo
+> analitico: tamponi di superficie, acqua potabile, acque reflue), passo 3 di `metodo_03`
+> §9.5, eseguita da un revisore a contesto pulito con questo canone alla mano.
+> ⚠️ **Tutte e cinque nascono dai grezzi**, e ognuna porta il documento e la riga in cui si
+> legge: nessuna è stata dedotta da questo canone. Il canone si accresce, non si riscrive.
+
+### B1 · Un auditor CSQA in stabilimento sette giorni prima delle date certificate
+
+`registro_tamponi_superfici_listeria_salmonella.csv`, rapporto `AV-26/0158`, `Data_prelievo`
+**`2026-02-10`**, riga «uscita PT-104 / Listeria monocytogenes», colonna `Note`: «**prelievo in
+presenza auditor CSQA prova a campione**».
+
+`Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt`, intestazione: «Date audit / Audit dates:
+**17/02/2026 - 18/02/2026**».
+
+⚠️ **Nessuno dei due documenti prevale e l'archivio non scioglie.** O c'è stata una presenza
+CSQA una settimana prima delle date certificate — che nessun documento registra — o la
+campagna di febbraio è datata male, **ed è l'unica del file in grafia `aaaa-mm-gg`**, o
+l'annotazione è stata scritta a posteriori sulla riga sbagliata.
+
+### B2 · Un tampone di superficie fuori limite che `MOD-QA-19` non contiene
+
+`non_conformita_interne_registro_2026.csv`, riga `NC-2026-005`, data **`2026-01-13`**:
+«Tampone superficie **impastatrice IMP-300** oltre limite CBT, ripetuto dopo sanificazione»,
+causa «sanificazione weekend incompleta», azione «rilavaggio secondo IO-05, **tampone di
+verifica MOD-QA-19**».
+
+Il registro dei tamponi ha una campagna **proprio quel giorno** (`AV-26/0142`, 13/01/26) e
+**non contiene il punto `IMP-300`** — che non compare fra i 21 punti dell'anno — né alcun
+tampone di verifica successivo su quel punto.
+
+⚠️ **Pesa più della gemella del 24/02**: qui l'evento cade **nello stesso giorno di una
+campagna registrata**, il che indebolisce la spiegazione «prelievo straordinario fuori piano».
+
+### B3 · `NC-2026-034` dichiara due azioni che il registro dei tamponi non conferma
+
+Stessa riga di B2-bis, `non_conformita_interne_registro_2026.csv`, `NC-2026-034` del
+**24/02/2026**, gravità **critica**, chiusa il 28/02: azione «sanificazione straordinaria,
+**ritampone a 48 h negativo**, **aumento frequenza MOD-QA-19**».
+
+Il `MOD-QA-19` **non porta nessun prelievo il 26/02** — le sole date di febbraio sono 10/02 e
+14/02 — e **non mostra alcun infittimento** né a marzo né ad aprile: la campagna di marzo è di
+dimensione ordinaria, e l'unico passaggio a frequenza quindicinale che il registro documenta è
+di **maggio**, motivato dal registro stesso con la positività di **aprile**.
+
+⚠️ **È la famiglia già isolata in 1B — un'azione correttiva registrata che il dato disponibile
+non conferma — applicata al piano di monitoraggio ambientale**, su una non conformità di
+gravità critica chiusa in quattro giorni.
+
+### B4 · Tre serie di numerazione delle non conformità, con collisioni fra soggetti diversi
+
+⚠️ **È una trappola di entity resolution: quasi-omografi che designano eventi diversi.**
+
+| Sigla | Documento | Evento |
+|---|---|---|
+| `NC-26-018` | registro tamponi, 14/02 | ruote carrelli farcitura fuori limite |
+| `NC-2026-018` | `MOD-QA-18` | fermo forno `FT-01`, pressostato gas in avaria |
+| `NC-26-041` | registro tamponi, 13/04 | Listeria nello scarico sotto `PT-104` |
+| `NC-2026-041` | `MOD-QA-18`, 05/03 | ordine straordinario Tosano, cambio formato |
+| `NC-26-055` | registro tamponi, 11/05 | nastro forno `FT-01` a 52 UFC/cm² |
+| `NC-2026-055` | `MOD-QA-18`, 25/03 | prototipo `AF-SN-0470` v12, sesamo in saletta pilota |
+| `NC-26-056` | registro tamponi, 11/05 | ganasce `PKM-450` a 1,2×10³ |
+| `NC-2026-056` | `MOD-QA-18`, 26/03 | quarta dimissione in 5 mesi su Linea 2 |
+| `NC-ACQ-26-01` · `-02` | registro acqua | ghiaccio; ferro agli spogliatoi |
+
+⚠️ **E nessuna delle non conformità dei due registri analitici compare in `MOD-QA-18`**, che è
+il registro che dichiara di essere il registro delle non conformità interne (riga 1 di titolo).
+La differenza fra le due grafie è di **due cifre nell'anno**, e nient'altro.
+
+### B5 · Lavoro domenicale a marzo
+
+`analisi_acque_reflue_autocontrollo_2026.xlsx`, foglio «Scarico finale», riga 24: la causa del
+superamento del 19/03 è «trascinamento grassi da lavaggio teglie Linea 2 (**campagna domenicale
+ordini Tosano**, volumi lavaggio raddoppiati)».
+
+⚠️ Il perimetro delle domeniche lavorate che questo canone censisce **non comprende marzo**. La
+nota del vault fa la cosa giusta e **si rifiuta di fondere le due campagne**, ma la riga qui
+mancava.

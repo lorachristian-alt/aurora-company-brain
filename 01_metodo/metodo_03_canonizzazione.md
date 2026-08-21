@@ -2172,6 +2172,31 @@ note → suite QA → revisore indipendente → correzioni propagate → suite Q
 3. **Revisore indipendente, con il canone alla mano.** È una sessione diversa da quella
    che ha scritto le note. Classifica ogni rilievo:
 
+   ⚠️ **E45 — «SESSIONE DIVERSA» SIGNIFICA CONTESTO DIVERSO, NON MANO DIVERSA.** Il perimetro
+   che questa riga protegge è **la fisica del contesto**, non chi preme il tasto di lancio: un
+   **subagente a contesto pulito non eredita nulla** da chi ha scritto le note, e vale come
+   sessione diversa a tutti gli effetti. È il meccanismo con cui il progetto ha **sempre** fatto
+   questo passo — la Sessione 2 lo scrive già così, e così hanno fatto 1A, 1B, 1C, R1 e 2A,
+   compresa la revisione che in 2A ha trovato le due assenze false.
+
+   | Chi | Riceve il canone? | Perché |
+   |---|---|---|
+   | il **revisore** del passo 3 | **SÌ, e deve** | senza canone non può distinguere una trappola voluta da un errore: quattro revisori senza registro segnalarono **82** problemi, in buona parte trappole |
+   | lo **strato di giudizio** del passo 5 | **MAI** | giudica una nota contro le sue fonti, e il canone gli direbbe la risposta |
+   | chi **scrive** le note | **MAI** | ⚠️ è da qui che il progetto ha pagato entrambe le sue fughe di canone |
+
+   ⚠️ **Le due fughe di canone del progetto NON sono nate dal revisore.** Sono nate da chi
+   scriveva le note, e nel pilota da un'informazione **del report del revisore** ricopiata in
+   una nota senza che un grezzo la portasse. **La guardia giusta non è tenere il canone lontano
+   dal revisore: è impedire che qualcosa passi dal suo report a una nota senza un grezzo.**
+
+   ⚠️ **E il canone non vive in `03_valutazione\`**: sta in `01_metodo\`. La guardia su
+   `03_valutazione\` riguarda **l'esame** — domande e risposte — e resta assoluta, subagenti
+   compresi. **Due perimetri, due ragioni**, e confonderli ha fermato due lotti: R1 ha chiesto
+   l'autorizzazione, 2B si è fermato dichiarando il passo scoperto. **La scelta di fermarsi era
+   corretta** — fra un passo scoperto e dichiarato e una contaminazione possibile, il primo è
+   reversibile — ma il difetto stava nella formulazione della guardia, non in chi la leggeva.
+
    | Categoria | Cosa significa | Cosa si fa |
    |---|---|---|
    | **A — errore vero** | La nota dice qualcosa che le fonti non dicono, o «corregge» una contraddizione voluta | Si corregge la nota, e si controllano le note sorelle scritte con lo stesso criterio |
@@ -2270,6 +2295,26 @@ note → suite QA → revisore indipendente → correzioni propagate → suite Q
    ⚠️ **Una misura sola è un aneddoto: quello che conta è la SERIE.** È la serie che a fine
    corsa permetterà di dire quanto il metodo *produce* il difetto invece di *ereditarlo*, con
    un denominatore vero invece che con un caso. Costa il rilancio di uno script che esiste già.
+
+   ⚠️ **E46 — I DUE TASSI SI DICHIARANO COL NOME DEL DOMINIO SU CUI SONO MISURATI.** Lo script
+   controlla **un** dominio prescrittivo per volta — quello che il lotto ha dichiarato — e non
+   tutte le fonti prescrittive del corpus. **Il numero è vero, il suo nome promette di più**, e
+   chi lo legge capisce «tutte le prescrizioni».
+
+   La serie si scrive quindi con l'etichetta accanto:
+   **R1 57,7 %** *(perimetro CCP e tarature)* · **2A 3,3 %** *(dominio `cip`)* ·
+   **2B 0,0 %** *(dominio `acqua`)*.
+
+   ⚠️ **Il caso che l'ha generata, ed è istruttivo perché nessuna delle due misure sbagliava.**
+   Nel lotto 2B lo script dava **0,0 % su 27 note** mentre lo strato di giudizio trovava **due
+   note** che parlavano di zoning dei tamponi e di frequenza di potabilità **senza citare il
+   manuale HACCP**, che prescrive entrambi. Lo script guardava il dominio `acqua`, il giudice
+   guardava tutte le fonti del pacchetto: **due misure vere di due cose diverse.**
+
+   ⚠️ **Non si allarga lo script**, e la ragione è di costo: dichiarare un dominio per ognuna
+   delle **36** fonti prescrittive del corpus sarebbe fare il lavoro due volte, una in codice e
+   una a mano. **Si fa l'unica cosa che serve: non far dire al numero più di quanto misura**, e
+   le scoperture verso fonti di altri domini **si contano a parte** nel rapporto.
 
    ⚠️ **Il caso residuo si dichiara col suo nome e NON si aggiusta.** Aggiungere una fonte a una
    nota per portare il tasso a zero significa **truccare il numero che la misura esiste per

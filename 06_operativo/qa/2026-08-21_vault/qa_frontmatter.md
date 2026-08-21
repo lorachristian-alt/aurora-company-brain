@@ -1,7 +1,7 @@
 ## qa_frontmatter (perimetro: vault, 246 note)
 
 - ERRORI: **0**
-- AVVISI: **125**
+- AVVISI: **129**
 
 ### Avvisi
 
@@ -15,6 +15,7 @@
 | `fatto-allarmi-alta-temperatura-cf-02-aprile.md` |  | frontmatter | corpo di 346 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-allarmi-alta-temperatura-cf-02-aprile.md` |  | frontmatter | dichiara un'assenza con la formula di E3 ma non rimanda a un artefatto di ricerca in 06_operativo\ricerche_assenza\ (E43) — debito anteriore a E43, da sanare a fine corsa |
 | `fatto-anomalia-consumo-cf-02-maggio.md` |  | frontmatter | corpo di 348 parole: fra 301 e 350, si motiva o si spezza |
+| `fatto-appunti-in-coda-file-reflue.md` |  | frontmatter | corpo di 301 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-assistenza-esterna-24-04-cf-02.md` |  | frontmatter | corpo di 341 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-assistenza-esterna-24-04-cf-02.md` |  | frontmatter | dichiara un'assenza con la formula di E3 ma non rimanda a un artefatto di ricerca in 06_operativo\ricerche_assenza\ (E43) — debito anteriore a E43, da sanare a fine corsa |
 | `fatto-avvertenza-costruttore-guarnizioni-non-originali.md` |  | frontmatter | corpo di 315 parole: fra 301 e 350, si motiva o si spezza |
@@ -42,12 +43,14 @@
 | `fatto-integrita-log-allarmi-cf-02.md` |  | frontmatter | corpo di 311 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-ispezione-ats-carrello-ricambi.md` |  | frontmatter | corpo di 321 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-lettura-mancante-registro-tamponi.md` |  | frontmatter | corpo di 305 parole: fra 301 e 350, si motiva o si spezza |
-| `fatto-listeria-scarico-pt-104-aprile.md` |  | frontmatter | corpo di 331 parole: fra 301 e 350, si motiva o si spezza |
+| `fatto-listeria-scarico-pt-104-aprile.md` |  | frontmatter | corpo di 323 parole: fra 301 e 350, si motiva o si spezza |
+| `fatto-medie-non-calcolate-file-reflue.md` |  | frontmatter | corpo di 350 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-microperdite-saldatura-l26130.md` |  | frontmatter | corpo di 328 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-muffe-l26128-45-giorni.md` |  | frontmatter | corpo di 319 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-nc-102-origine-interna.md` |  | frontmatter | summary di 258 caratteri (tetto 250) |
 | `fatto-nc-102-origine-interna.md` |  | frontmatter | corpo di 324 parole: fra 301 e 350, si motiva o si spezza |
-| `fatto-nc-26-056-ganasce-pkm-450-maggio.md` |  | frontmatter | corpo di 328 parole: fra 301 e 350, si motiva o si spezza |
+| `fatto-nc-26-018-ruote-carrelli-febbraio.md` |  | frontmatter | corpo di 316 parole: fra 301 e 350, si motiva o si spezza |
+| `fatto-nc-26-056-ganasce-pkm-450-maggio.md` |  | frontmatter | corpo di 343 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-nc-acq-26-01-ghiaccio-aprile.md` |  | frontmatter | corpo di 341 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-nc-cip-2026.md` |  | frontmatter | corpo di 349 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-nessuna-nc-per-allarmi-cf-02.md` |  | frontmatter | corpo di 343 parole: fra 301 e 350, si motiva o si spezza |
@@ -68,7 +71,7 @@
 | `fatto-strumenti-esclusi-da-taratura.md` |  | frontmatter | dichiara un'assenza con la formula di E3 ma non rimanda a un artefatto di ricerca in 06_operativo\ricerche_assenza\ (E43) — debito anteriore a E43, da sanare a fine corsa |
 | `fatto-strumenti-map-azoto-pkm-450.md` |  | frontmatter | dichiara un'assenza con la formula di E3 ma non rimanda a un artefatto di ricerca in 06_operativo\ricerche_assenza\ (E43) — debito anteriore a E43, da sanare a fine corsa |
 | `fatto-strumenti-taratura-scaduta-in-uso.md` |  | frontmatter | corpo di 350 parole: fra 301 e 350, si motiva o si spezza |
-| `fatto-superamento-grassi-scarico-marzo.md` |  | frontmatter | corpo di 342 parole: fra 301 e 350, si motiva o si spezza |
+| `fatto-superamento-grassi-scarico-marzo.md` |  | frontmatter | corpo di 323 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-taniche-e-rifiuti-cip.md` |  | frontmatter | corpo di 349 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-taniche-e-rifiuti-cip.md` |  | frontmatter | dichiara un'assenza con la formula di E3 ma non rimanda a un artefatto di ricerca in 06_operativo\ricerche_assenza\ (E43) — debito anteriore a E43, da sanare a fine corsa |
 | `fatto-valvola-modulante-pt-104-revisione-rimandata.md` |  | frontmatter | corpo di 339 parole: fra 301 e 350, si motiva o si spezza |
@@ -86,7 +89,7 @@
 | `fatto-blocco-cautelativo-lotti.md` |  | frontmatter | corpo di 335 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-misura-frammento-rec-2026-011.md` |  | frontmatter | corpo di 326 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-richiesta-relazione-48-ore.md` |  | frontmatter | corpo di 345 parole: fra 301 e 350, si motiva o si spezza |
-| `doc-autocontrollo-scarico-s1.md` |  | frontmatter | corpo di 314 parole: fra 301 e 350, si motiva o si spezza |
+| `doc-autocontrollo-scarico-s1.md` |  | frontmatter | corpo di 346 parole: fra 301 e 350, si motiva o si spezza |
 | `doc-ciclo-cip-interrotto.md` |  | frontmatter | summary di 263 caratteri (tetto 250) |
 | `doc-condizioni-uso-detergente-acido.md` |  | frontmatter | summary di 274 caratteri (tetto 250) |
 | `doc-condizioni-uso-detergente-acido.md` |  | frontmatter | corpo di 301 parole: fra 301 e 350, si motiva o si spezza |
@@ -98,14 +101,14 @@
 | `doc-parametri-fasi-cip.md` |  | frontmatter | corpo di 322 parole: fra 301 e 350, si motiva o si spezza |
 | `doc-piano-autocontrollo-acqua.md` |  | frontmatter | summary di 259 caratteri (tetto 250) |
 | `doc-piano-autocontrollo-acqua.md` |  | frontmatter | corpo di 340 parole: fra 301 e 350, si motiva o si spezza |
-| `doc-piano-tamponi-superfici.md` |  | frontmatter | corpo di 346 parole: fra 301 e 350, si motiva o si spezza |
+| `doc-piano-tamponi-superfici.md` |  | frontmatter | corpo di 347 parole: fra 301 e 350, si motiva o si spezza |
 | `doc-programmi-cip-per-linea.md` |  | frontmatter | summary di 253 caratteri (tetto 250) |
 | `doc-registrazioni-cip.md` |  | frontmatter | summary di 279 caratteri (tetto 250) |
 | `doc-registrazioni-cip.md` |  | frontmatter | dichiara un'assenza con la formula di E3 ma non rimanda a un artefatto di ricerca in 06_operativo\ricerche_assenza\ (E43) — debito anteriore a E43, da sanare a fine corsa |
 | `doc-sds-detergente-acido-cip.md` |  | frontmatter | corpo di 320 parole: fra 301 e 350, si motiva o si spezza |
 | `entita-chemifood-italia.md` |  | frontmatter | summary di 266 caratteri (tetto 250) |
 | `concetto-cip.md` |  | frontmatter | summary di 258 caratteri (tetto 250) |
-| `kpi-conducibilita-acqua-per-punto.md` |  | frontmatter | corpo di 348 parole: fra 301 e 350, si motiva o si spezza |
+| `kpi-conducibilita-acqua-per-punto.md` |  | frontmatter | corpo di 342 parole: fra 301 e 350, si motiva o si spezza |
 | `kpi-consumi-energia-maggio-2026.md` |  | frontmatter | corpo di 317 parole: fra 301 e 350, si motiva o si spezza |
 | `kpi-durate-fasi-cip-maggio.md` |  | frontmatter | summary di 260 caratteri (tetto 250) |
 | `kpi-durate-fasi-cip-maggio.md` |  | frontmatter | corpo di 328 parole: fra 301 e 350, si motiva o si spezza |
@@ -113,6 +116,7 @@
 | `kpi-manutenzioni-arretrate-2026.md` |  | frontmatter | corpo di 344 parole: fra 301 e 350, si motiva o si spezza |
 | `kpi-mass-balance-l26130.md` |  | frontmatter | corpo di 332 parole: fra 301 e 350, si motiva o si spezza |
 | `kpi-metano-forni-maggio-2026.md` |  | frontmatter | dichiara un'assenza con la formula di E3 ma non rimanda a un artefatto di ricerca in 06_operativo\ricerche_assenza\ (E43) — debito anteriore a E43, da sanare a fine corsa |
+| `kpi-parametri-scarico-s1-2026.md` |  | frontmatter | corpo di 349 parole: fra 301 e 350, si motiva o si spezza |
 | `kpi-produzione-0450-linea1-maggio.md` |  | frontmatter | corpo di 330 parole: fra 301 e 350, si motiva o si spezza |
 | `kpi-quadratura-consumi-energetici-maggio.md` |  | frontmatter | corpo di 334 parole: fra 301 e 350, si motiva o si spezza |
 | `kpi-sbrinamenti-cf-02-aprile.md` |  | frontmatter | dichiara un'assenza con la formula di E3 ma non rimanda a un artefatto di ricerca in 06_operativo\ricerche_assenza\ (E43) — debito anteriore a E43, da sanare a fine corsa |
