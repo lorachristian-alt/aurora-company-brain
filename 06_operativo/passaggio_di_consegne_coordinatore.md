@@ -489,6 +489,26 @@ coerente.
     *(Il prompt del gate la chiamava §4.38; quel numero era già occupato dalle cinque righe che
     la chiusura di 2B ha scritto la notte prima, e la riga prende il primo libero.)*
 
+44. **Un ordine di gate che discende da una riga di registro eredita la provenienza di quella
+    riga** (21/08/2026, gate del tema 3). Chi lo esegue **verifica la riga sulla fonte prima
+    del ribaltamento**, e un ordine eseguito contro la fonte non è obbedienza: **è un errore
+    importato dall'alto**.
+
+    ⚠️ **Il caso: B3 e l'arbitrato CIP.** Il coordinatore ordinò di riformulare l'arbitrato del
+    lotto 2A perché il canone lo dichiarava indebolito. **Ma B3 era essa stessa un caso E49** —
+    una conclusione entrata nel canone senza riaprire il file. L'esecutore ha verificato prima
+    di eseguire, trovato che §5.3 **confina il sanificante dentro l'`L3`** e che il log **non
+    dichiara mai il tipo di lavaggio**, e ha **richiuso** l'arbitrato più preciso di prima: il
+    tracciato è più severo **di entrambi** i prescrittivi.
+
+    ⚠️ **Se l'ordine fosse stato eseguito alla lettera, un errore del canone sarebbe entrato nel
+    vault CON LA FIRMA DEL GATE** — cioè con l'unica autorità che avrebbe potuto fermarlo.
+
+    ⚠️ **Perché non è disobbedienza, ed è la parte che conta**: l'ordine non è stato ignorato,
+    è stato **eseguito fino al punto in cui la fonte lo contraddiceva**, e la contraddizione è
+    stata riportata al gate con le righe in mano. **La catena di comando regge; è la catena di
+    provenienza a non poter essere scavalcata da nessuno dei due.**
+
 ---
 
 ## 5. Errori già pagati — non ripeterli
@@ -652,6 +672,29 @@ coerente.
   volta**: il rapporto di 2B-bis affermava che `candidate_r1.py` «conosce una sola fonte
   governante per dominio», e il codice ne gestiva due **dal lotto 2A** — affermazione ricavata
   guardando il risultato invece di leggere il codice, e ratificata in buona fede.
+- ⚠️ **L'AFFERMAZIONE CHE SI SMENTISCE DENTRO LA NOTA STESSA.** Non un'affermazione falsa
+  contro la fonte — quella la prende il giudizio — ma una **la cui smentita sta nella stessa
+  nota**: «non più X» sopra fatti elencati che dicono «non solo X»; «nessuno dei due cita
+  l'altro» accanto alla citazione riportata tre righe sopra; un titolo che afferma ciò che il
+  corpo dichiara di non sapere. Nominata al ri-giudizio del gate del 21/08/2026, dove è una
+  delle **due sole famiglie** in cui si sono divisi diciannove rilievi.
+
+  ⚠️ **Perché è una specie e non tre casi**: nasce dal **riscrivere per correggere**. Chi
+  aggiunge una qualificazione in un punto lascia in piedi la frase che quella qualificazione
+  contraddice, e il difetto **non è visibile leggendo la frase**: è visibile solo leggendo la
+  nota intera. **È il difetto che una regex non può vedere e un lettore distratto nemmeno.**
+
+  ✅ **CRITERIO DI DECISIONE, scritto ORA e non «quando ricompare».**
+
+  | | |
+  |---|---|
+  | **diventa emendamento** | se ricompare al **TERZO GIRO** di giudizio del lotto **3A**, **su note nate dal lotto** — produzione, non debito |
+  | **non decade da sola** | se al terzo giro non compare, la riga **non si chiude automaticamente**: decide il gate con le osservazioni davanti |
+
+  ⚠️ **3A non riceve alcun promemoria** oltre alle regole in vigore. ⚠️ **E il criterio si scrive
+  adesso perché il rapporto di 2B-bis, su questa specie, era rimasto un passo indietro**: l'aveva
+  nominata e rimandata a «quando ricompare», che è esattamente ciò che la disciplina consolidata
+  di questo progetto non fa. **Il criterio precede l'esperimento, sempre.**
 - ✅ **LA REVISIONE COL CANONE NON È PIÙ UNA VIGILANZA: È CHIUSA DA E45.** Il lotto 2B aveva
   dichiarato il passo scoperto credendo che la guardia su `03_valutazione\` coprisse il canone.
   **Non lo copre**: il canone sta in `01_metodo\`, la guardia riguarda l'esame, e un subagente

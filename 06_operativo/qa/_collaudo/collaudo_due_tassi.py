@@ -22,6 +22,12 @@ prova che non ha aperto un buco. Da qui i due versi, che sono due e non uno:
      darebbe zero sempre, ed e' il modo in cui una misura smette di essere una misura
      senza che nessuno se ne accorga.
 
+  3. E DUE CONTROPROVE sulla forma dell'insieme, perche' il predicato e'
+     un'INTERSEZIONE e non un confronto con una fonte sola: una nota che cita
+     **entrambe** le governanti resta coperta, e una che ne cita **una governante piu'
+     una estranea** resta coperta lo stesso. ⚠️ Sono i casi che dimostrano che
+     l'aggiunta di una fonte al dominio **allarga la copertura e non la sposta**.
+
 ⚠️ **Il numero gia' pubblicato non si tocca**: il 9,1 % del lotto 2B-bis e' stato
 misurato con lo strumento di allora e resta scritto cosi' (E46). Questo collaudo
 verifica lo strumento di adesso, non riscrive la serie.
@@ -103,6 +109,10 @@ def main():
              "collaudo-tassi-nessuna", [ESTRANEA], True),
             ("controprova: cita la prima fonte governante",
              "collaudo-tassi-solo-scheda", [SCHEDA], False),
+            ("cita ENTRAMBE le fonti governanti",
+             "collaudo-tassi-entrambe", [SCHEDA, AULA], False),
+            ("cita una governante E una estranea: resta coperta",
+             "collaudo-tassi-mista", [AULA, ESTRANEA], False),
         ]
         esiti = []
         for etichetta, slug, fonti, atteso in casi:

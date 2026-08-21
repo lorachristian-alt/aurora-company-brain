@@ -82,6 +82,32 @@ si legge invece di presumerla.
      «7 difetti su 7» ha significato per mesi piu' di quanto valeva.
 
 =====================================================================================
+LA CIFRA E LA SUA COMPOSIZIONE, CHE NON SI SEPARANO MAI
+=====================================================================================
+⚠️ Il verdetto porta DUE numeri e non li somma: **difetti che devono scattare** e
+**controlli di NON-scatto**. Sono cose diverse — che un controllo parli quando deve, e
+che taccia quando deve — e un totale unico fa dire alla cifra piu' di quanto vale.
+
+⚠️ **Il caso che l'ha imposto**: al gate del 21/08/2026 il collaudo dichiarava «24 su
+24» sommando le due nature, e i quattro difetti piantati per E48 erano in realta' **due
+scatti e due non-scatti**. La contabilita' non era sbagliata, era muta: chi leggeva «24
+difetti» credeva a ventiquattro controlli che scattano.
+
+=====================================================================================
+DOPO UN FIX ALLA SUITE, GLI ESITI SI CONFRONTANO RIGA PER RIGA
+=====================================================================================
+⚠️ **Non basta guardare i totali, e questo e' un caso pagato.** Il 21/08/2026, agganciando
+`qa_provenance` all'estrazione di cantiere, un `break` nel ciclo che conta gli agganci
+per fonte ha prodotto **quindici avvisi nuovi su note che nessuno aveva toccato**. Il
+totale del vault sarebbe passato da 64 a 79 — un numero che si poteva raccontare come
+«lo strato nuovo vede di piu'» — e invece era un difetto del fix.
+
+**La prassi, da qui in avanti**: dopo ogni modifica alla suite si rilancia il perimetro
+**vault**, si prende il report precedente da git e si confrontano gli esiti **riga per
+riga**. ⚠️ **Un esito che cambia dove nessuno ha toccato e' un difetto del fix**, e va
+trovato prima del commit, non al gate dopo.
+
+=====================================================================================
 IL LIMITE DEL NUMERO, ACCANTO AL NUMERO
 =====================================================================================
 ⚠️ Fino al 19/08/2026 questo collaudo invocava i figli DIRETTAMENTE: «5 difetti su 5»
@@ -750,8 +776,17 @@ def collaudo_appendice_fonti():
 
 # --------------------------------------------------------------- il verdetto
 
-def registra(esiti, via, etichetta, ok):
-    esiti.append((via, etichetta, ok))
+# ⚠️ SCATTO E NON-SCATTO SI CONTANO SEPARATI, E LA CIFRA VIAGGIA CON LA SUA COMPOSIZIONE.
+# Non tutte le voci di questo collaudo sono difetti piantati: alcune verificano che un
+# controllo **non** parli — che il perimetro di lotto NON emetta il controllo delle aree,
+# che la nota corretta NON riceva l'avviso vietato, che il barrato DICHIARATO non venga
+# segnalato. Sono verifiche necessarie quanto le altre, e sommarle ai difetti produce un
+# numero che dice piu' di quanto vale.
+# ⚠️ E' lo stesso difetto del «7 difetti su 7» del gate 1C, che per mesi ha significato
+# «i controlli funzionano» quando provava soltanto «i controlli esistono». **La cifra e la
+# sua composizione non si separano mai.**
+def registra(esiti, via, etichetta, ok, scatta=True):
+    esiti.append((via, etichetta, ok, scatta))
     print("%-5s %-56s %s" % (via, etichetta, "TROVATO" if ok else "*** NON TROVATO ***"))
 
 
@@ -792,8 +827,8 @@ def main():
     registra(esiti, "V3", "il pacchetto del giudizio riflette il testo corrente",
              collaudo_pacchetto_giudizio())
     premessa, porta, guardia = collaudo_appendice_fonti()
-    registra(esiti, "V3", "premessa: la sentinella e' nelle fonti e in nessuna nota", premessa)
-    registra(esiti, "V3", "il pacchetto PORTA l'appendice col testo delle fonti", porta)
+    registra(esiti, "V3", "premessa: la sentinella e' nelle fonti e in nessuna nota", premessa, scatta=False)
+    registra(esiti, "V3", "il pacchetto PORTA l'appendice col testo delle fonti", porta, scatta=False)
     registra(esiti, "V3", "difetto piantato: senza appendice il controllo diventa rosso", guardia)
 
     # ---------------- V4: il perimetro vault, mai collaudato prima d'oggi ---------
@@ -807,7 +842,7 @@ def main():
     registra(esiti, "V4", "aree popolate: il controllo e' emesso a perimetro vault",
              re.search(rx_area, figli_v4.get("qa_copertura", ""), re.I) is not None)
     registra(esiti, "V4", "...e NON e' emesso a perimetro lotto - e' cio' che lo rende suo",
-             re.search(rx_area, figli_v1.get("qa_copertura", ""), re.I) is None)
+             re.search(rx_area, figli_v1.get("qa_copertura", ""), re.I) is None, scatta=False)
 
     # ---------------- V5: il perimetro di manutenzione (E35) ----------------------
     print("\n" + "=" * 78)
@@ -817,15 +852,15 @@ def main():
     out_v5, cod_v5, dir_v5 = lancia_qa_all(["--perimetro", "lotto", "@" + EL_V5], "v5")
     figli_v5 = per_script(out_v5)
     registra(esiti, "V5", "il perimetro a zero grezzi e' accettato, non esce in errore",
-             "richiede l'elenco dei grezzi" not in out_v5 and cod_v5 in (0, 1, 2))
+             "richiede l'elenco dei grezzi" not in out_v5 and cod_v5 in (0, 1, 2), scatta=False)
     registra(esiti, "V5", "difetto in nota toccata visto col perimetro a zero grezzi",
              re.search(rx_toccata, figli_v5.get("qa_provenance", ""), re.I | re.S) is not None)
     p_v5 = os.path.join(dir_v5, "qa_all.md")
     testo_v5 = io.open(p_v5, encoding="utf-8").read() if os.path.isfile(p_v5) else ""
     registra(esiti, "V5", "il report DICHIARA «perimetro di manutenzione: 0 grezzi, N note»",
-             re.search(r"perimetro di manutenzione: 0 grezzi, \d+ note", testo_v5) is not None)
+             re.search(r"perimetro di manutenzione: 0 grezzi, \d+ note", testo_v5) is not None, scatta=False)
     registra(esiti, "V5", "FIX 4: l'etichetta del lotto viene dall'elenco, non dal default",
-             ("collaudo_v5" in testo_v5) and ("l26130" not in testo_v5))
+             ("collaudo_v5" in testo_v5) and ("l26130" not in testo_v5), scatta=False)
 
     # ---------------- V-neg: la guardia di E35 deve scattare ----------------------
     print("\n" + "=" * 78)
@@ -867,6 +902,7 @@ def main():
         colpiti = [r for r in avvisi_buona if re.search(rx, r, re.I)]
         print("%-56s %s" % (etichetta, "assente, bene" if not colpiti else "*** COMPARSO ***"))
         falsi += colpiti
+        esiti.append(("V1", "non-scatto: " + etichetta, not colpiti, False))
 
     # ---------------- la via NON di produzione, dichiarata come tale --------------
     print("\n" + "=" * 78)
@@ -884,16 +920,21 @@ def main():
     print("           esiste per scoprire: quale via non e' esercitata da nessuno.")
     print("=" * 78)
     conteggio = {}
-    for via, _etichetta, ok in esiti:
-        t, o = conteggio.get(via, (0, 0))
-        conteggio[via] = (t + 1, o + (1 if ok else 0))
-    print("| Via   | Attesi | Visti |")
-    print("|-------|--------|-------|")
+    for via, _etichetta, ok, scatta in esiti:
+        d, dok, n, nok = conteggio.get(via, (0, 0, 0, 0))
+        if scatta:
+            conteggio[via] = (d + 1, dok + (1 if ok else 0), n, nok)
+        else:
+            conteggio[via] = (d, dok, n + 1, nok + (1 if ok else 0))
+    print("| Via   | Difetti che devono scattare | Controlli di NON-scatto |")
+    print("|-------|-----------------------------|-------------------------|")
     for via in ("V1", "V2", "V3", "V4", "V5", "Vneg"):
         if via in conteggio:
-            tot, ok = conteggio[via]
-            print("| %-5s | %6d | %5d%s |" % (via, tot, ok, "" if ok == tot else " ***"))
-    mancati = ["%s / %s" % (via, etichetta) for via, etichetta, ok in esiti if not ok]
+            d, dok, n, nok = conteggio[via]
+            sd = "%d su %d%s" % (dok, d, "" if dok == d else " ***") if d else "-"
+            sn = "%d su %d%s" % (nok, n, "" if nok == n else " ***") if n else "-"
+            print("| %-5s | %-27s | %-23s |" % (via, sd, sn))
+    mancati = ["%s / %s" % (via, etichetta) for via, etichetta, ok, _s in esiti if not ok]
 
     print("")
     if mancati or falsi:
@@ -906,12 +947,16 @@ def main():
         print("Un difetto non visto significa che il FIX corrispondente NON e' finito:")
         print("non si chiude, e lo si dice nel rapporto (passaggio di consegne, 4.29).")
         return 1
-    tot = len(esiti)
-    print("COLLAUDO SUPERATO - %d difetti su %d, su TUTTE E CINQUE le vie di produzione" % (tot, tot))
-    print("          piu' il caso negativo, 0 falsi positivi e 0 avvisi vietati sulla")
-    print("          nota corretta. Il numero vale per le vie che ha esercitato: e' per")
-    print("          questo che l'elenco delle vie sta nel docstring, e il verdetto e'")
-    print("          una tabella e non un totale.")
+    nd = sum(1 for _v, _e, _o, s in esiti if s)
+    nn = len(esiti) - nd
+    print("COLLAUDO SUPERATO - %d difetti piantati su %d, PIU' %d controlli di NON-scatto"
+          % (nd, nd, nn))
+    print("          su %d, su TUTTE E CINQUE le vie di produzione piu' il caso negativo." % nn)
+    print("          I due numeri NON si sommano in un totale: un difetto che scatta e un")
+    print("          controllo che tace provano cose diverse, e sommarli fa dire alla cifra")
+    print("          piu' di quanto vale: e' il difetto del \"7 su 7\" del gate 1C.")
+    print("          Il numero vale per le vie che ha esercitato: per questo l'elenco delle")
+    print("          vie sta nel docstring, e il verdetto e' una tabella.")
     return 0
 
 

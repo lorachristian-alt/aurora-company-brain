@@ -236,7 +236,7 @@ alle **14:46**.
 | **R1** | perimetro CCP e tarature | — | **57,7 %** |
 | **2A** | dominio `cip` | — | **3,3 %** |
 | **2B** | dominio `acqua` | 60,0 % | **0,0 %** — 0 su 27 |
-| **2B-bis** | dominio **`allergeni`** | **0,0 %** — 0 su 6 | **9,1 %** — 3 su 33 |
+| **2B-bis** | dominio **`allergeni`** ⚠️ *dichiarato incompleto: mancava il materiale d'aula, corretto al gate del 21/08* | **0,0 %** — 0 su 6 | **9,1 %** — 3 su 33 |
 
 ⚠️ **Il tasso di produzione risale, e va dichiarato così com'è.** Le tre note sono
 `fatto-turno-notte-senza-formazione`, `fatto-firma-registro-formazione-all-ingresso` e
@@ -246,8 +246,20 @@ dove la fonte che governa è il materiale d'aula e non la scheda prescrittiva.
 ⚠️ **Questo non è un alibi, ed è una misura e non un giudizio.** Il criterio di
 `candidate_r1.py` è **deliberatamente largo**: chiede che una nota che parla di allergeni abbia
 fra le fonti la scheda che gli allergeni li prescrive. Le tre note **non ce l'hanno**, e il
-numero è 9,1 %. ⚠️ **Se un lotto futuro misurasse un dominio con due fonti governanti, il
-criterio andrebbe esteso a entrambe** — ed è un fatto sullo strumento, non sul lotto.
+numero è 9,1 %.
+
+> ⚠️ **ERRATA — 21/08/2026, gate del tema 3.** Qui questo rapporto affermava che *«se un lotto
+> futuro misurasse un dominio con due fonti governanti, il criterio andrebbe esteso a
+> entrambe»*, e che lo strumento **conosce una sola fonte governante per dominio**.
+> **È falso.** Il predicato di `misura_due_tassi` è un'**intersezione fra insiemi** — riga 84,
+> `{str(f) for f in n.fonti} & dom["fonti"]` — e il dominio `cip` dichiara **due** fonti **dal
+> lotto 2A**. Lo strumento le fonti multiple le gestiva già.
+> ⚠️ **Il difetto vero era la DICHIARAZIONE del dominio `allergeni`**, che ne elencava una sola:
+> mancava il materiale d'aula, che è ciò che governa il sotto-dominio della formazione.
+> ⚠️ **E questa errata è essa stessa un caso della specie del §11**: un fatto sullo strumento
+> scritto **guardando il risultato invece del codice**. È passata dalla ratifica del
+> coordinatore senza che nessuno dei due aprisse il file. **La riga resta visibile con la sua
+> correzione, non riscritta.**
 
 ⚠️ **E la riapertura a 0,0 % su 6 non è un lotto pulito**: significa che **nessuna** delle sei
 note riaperte è stata agganciata alla scheda allergeni. Cinque sono state chiuse dichiarando
@@ -339,7 +351,7 @@ tagliando il secondo alla lunghezza del primo e confrontandoli carattere per car
 
 | Misura | Valore | Ora |
 |---|---|---|
-| Grezzi esaminati | **161** | 16:23:15 |
+| Grezzi esaminati | **160** *(erano stati riportati come 161: i file di `sources\` sono 161, cioè i 160 grezzi più l'`_index`)* | 16:23:15 |
 | Con almeno uno strato | **24** | 16:23:15 |
 | Righe aggiunte in tutto | **1.737** — 1.697 formule, 40 barrati | 16:23:15 |
 | **Prefisso violato** | **0** | 16:23:15 |
@@ -491,10 +503,10 @@ convergenza.
 |---|---|---|
 | Suite QA, perimetro **vault** | **121 ERRORI, 219 AVVISI** | 16:22:21 |
 | Suite QA, perimetro di **riverifica** (31 note) | **0 ERRORI, 19 AVVISI** | 16:20:15 |
-| Collaudo della suite | **24 difetti su 24** (erano 22) | 16:22:40 |
-| Collaudo dei due tassi | **3 casi su 3**, nei due versi | 16:22:40 |
+| Collaudo della suite | **18 difetti piantati su 18 · 9 controlli di non-scatto su 9** *(dichiarati separati dal gate del tema 3: prima erano sommati in «24 su 24»)* | 16:22:40 |
+| Collaudo dei due tassi | **5 casi su 5**, nei due versi più due controprove sulla forma dell'insieme | 16:22:40 |
 | Collaudo del CSV | **6 casi su 6** | 16:22:40 |
-| Invarianza dell'estrattore di misura | **0 violazioni su 161 grezzi** | 16:23:15 |
+| Invarianza dell'estrattore di misura | **0 violazioni su 160 grezzi** | 16:23:15 |
 | Emendamenti | **concordi a 49** | 16:23:04 |
 | Matrice dei lotti | **160 grezzi, 18 elenchi, 0 guasti** | 16:23:04 |
 | Tabella di tracciamento | **106 righe**, integra | 16:23:04 |

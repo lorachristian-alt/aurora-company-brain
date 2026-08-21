@@ -472,6 +472,29 @@ giudizio, e senza il secondo giro sarebbe rimasta.
 | tracciata | **26** | T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T19, T21, T29, T31, T34, T39, T40, T41, T49, T50, T51, T52, T53, T54 |
 | **totale righe** | **54** | da T1 a T54, nessuna mancante e nessuna duplicata |
 
+## Il gate del tema 3, 21/08/2026 — ratifiche e adempimenti minori
+
+**Ripacchettamento approvato**, e **due contraddizioni al prompt ratificate entrambe**.
+
+⚠️ **Lo strato del barrato ha impedito il suo primo errore PRIMA di essere usato in un lotto.**
+Aprendo il tema 3 per contare i fatti, ha mostrato che **il nono impegno della politica per la
+qualità è barrato** — «perseguire la crescita del fatturato quale obiettivo primario
+dell'organizzazione» — dentro il documento prescrittivo di vertice del tema, che dichiara la
+priorità della sicurezza alimentare. **Nel testo estratto è indistinguibile dagli altri otto.**
+Righe **T107** e **T108**.
+
+⚠️ **Due gate consecutivi senza emendamenti al modo di scrivere le note.** Il registro resta a
+**E49**: quello del lotto 2B-bis ne aveva prodotti due, questo nessuno. Gli adempimenti sono
+stati tutti sugli **strumenti** e sui **registri**.
+
+**Adempimenti**: l'etichetta «161 grezzi» corretta in **160** *(erano i file di `sources\`,
+`_index` compreso)*, con lo script che ora esclude i `.md` e **dichiara il passaggio nel
+report**; la contabilità del collaudo che dichiara la propria composizione — **18 difetti
+piantati e 9 controlli di non-scatto, che non si sommano**; il criterio della terza specie
+scritto **prima** dell'esperimento; l'errata datata nel rapporto 2B-bis sullo strumento dei due
+tassi; e la riga **§4.44** — *un ordine di gate che discende da una riga di registro eredita la
+provenienza di quella riga*.
+
 ## Il gate del lotto 2B-bis, 21/08/2026 — l'estensione di cantiere
 
 **2B-bis approvato.** Il gate ha poi chiesto una manutenzione piena, e questa è la parte che ne
@@ -480,7 +503,7 @@ giudizio, e senza il secondo giro sarebbe rimasta.
 ⚠️ **E48: l'estrazione di cantiere.** La QA e il pacchetto del giudizio leggono ora un testo che
 **aggiunge marcati** i due strati che l'estrattore congelato non vede — `[FORMULA: …]` e
 `[BARRATO: …]`. **L'estrattore di misura non è stato toccato**, e la separazione **si prova**:
-il testo della via congelata è un **prefisso esatto** di quello di cantiere su tutti i 161
+il testo della via congelata è un **prefisso esatto** di quello di cantiere su tutti i 160
 grezzi, zero violazioni. Lo strato vede **1.697 formule e 40 barrati in 24 file**, e le 1.697
 combaciano cifra per cifra col censimento indipendente della mattina.
 

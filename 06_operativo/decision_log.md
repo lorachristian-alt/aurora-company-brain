@@ -1665,3 +1665,37 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   strato sarebbe entrato nel vault come impegno vigente **senza che nessun controllo lo
   fermasse**. Riga **T107**. ⚠️ E `PRO-QA-08`, che e' fonte prescrittiva, ne porta **tre**, di cui
   due sono cancellazioni mute: riga **T108**.
+- **2026-08-21** · **GATE DEL TEMA 3: DUE CONTRADDIZIONI AL PROMPT RATIFICATE, E NESSUN
+  EMENDAMENTO NUOVO** · secondo gate consecutivo che non tocca il modo di scrivere le note: il
+  registro resta a **E49**. ⚠️ **La ratifica piu' istruttiva e' quella su 2.4**: l'ordine di
+  riformulare l'arbitrato CIP discendeva da B3 **com'era scritta**, e B3 era essa stessa un caso
+  E49 — una conclusione entrata nel canone senza riaprire il file. Verificata la riga sulla fonte
+  prima di eseguire, l'arbitrato ne e' uscito **confermato e piu' preciso**. ⚠️ **Se l'ordine
+  fosse stato eseguito alla lettera, un errore del canone sarebbe entrato nel vault con la firma
+  del gate** — cioe' con l'unica autorita' che avrebbe potuto fermarlo. Da qui **§4.44**, che il
+  coordinatore ha dettato nel contenuto lasciando il numero a chi lo conta: le voci di §4
+  arrivavano a **43**.
+- **2026-08-21** · **IL «161 GREZZI» ERA UN'ETICHETTA IMPROPRIA, NON UN ERRORE DI CONTO** ·
+  `prova_invarianza` enumerava `sources\` per intero, che porta i 160 grezzi **piu'
+  `_index-sources.md`**. ⚠️ **La prova sui 160 e' identica prima e dopo**, ma un numero che cambia
+  fra due run deve avere la spiegazione scritta accanto: lo script ora esclude i `.md` come fanno
+  `conta_stato` e `verifica_matrice_lotti`, e **stampa nel report il passaggio 161 → 160 con il
+  perche'**, cosi' il prossimo lettore non cerca un guasto che non c'e'.
+- **2026-08-21** · **LA CIFRA DEL COLLAUDO VIAGGIA CON LA SUA COMPOSIZIONE** · «24 su 24»
+  sommava due nature diverse: **difetti che devono scattare** e **controlli di NON-scatto**. Ora
+  sono **18 e 9**, dichiarati separati e non sommati. ⚠️ **Dei quattro difetti piantati per E48,
+  due sono scatti e due sono non-scatti** — ed e' proprio la struttura del fix, che insieme
+  allenta e stringe. ⚠️ **E' lo stesso difetto del «7 difetti su 7» del gate 1C**: una
+  contabilita' non sbagliata ma **muta**, che faceva credere a sette controlli che scattano.
+- **2026-08-21** · **IL CONFRONTO RIGA PER RIGA DOPO UN FIX ALLA SUITE DIVENTA PRASSI SCRITTA** ·
+  sta ora nel docstring del collaudo: dopo ogni modifica alla suite si rilancia il perimetro
+  vault, si prende il report precedente da git e si confrontano gli esiti **riga per riga**.
+  ⚠️ **Un esito che cambia dove nessuno ha toccato e' un difetto del fix** — e il caso e' il
+  `break` del 21/08, che produsse quindici avvisi fantasma dove il totale li avrebbe raccontati
+  come «lo strato nuovo vede di piu'».
+- **2026-08-21** · **LA TERZA SPECIE HA IL SUO CRITERIO PRIMA DELL'ESPERIMENTO, NON DOPO** ·
+  «l'affermazione che si smentisce dentro la nota stessa» era stata nominata e rimandata a
+  «quando ricompare», e su questo il rapporto di 2B-bis **era rimasto un passo indietro** rispetto
+  alla disciplina consolidata. ⚠️ **Il criterio precede l'esperimento, sempre**: diventa
+  emendamento se ricompare al terzo giro di **3A** su note nate dal lotto, e se non ricompare la
+  riga **non si chiude da sola**. Nessun promemoria a 3A.

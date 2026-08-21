@@ -221,11 +221,20 @@ def prova_invarianza(stampa=True):
       2. tagliando il testo di cantiere alla lunghezza del congelato si
          riottiene il congelato, carattere per carattere.
     """
-    grezzi = sorted(os.listdir(Q.SOURCES))
+    # ⚠️ I GREZZI SONO I FILE DI `sources\` MENO GLI `.md`, ed e' la stessa esclusione che
+    # fanno `conta_stato` e `verifica_matrice_lotti`. Fino al 21/08/2026 questa prova
+    # enumerava tutto e diceva «161 grezzi»: erano i 160 del manifest **piu'
+    # `_index-sources.md`**, che e' una nota del vault e non un grezzo del corpus.
+    # ⚠️ **Non era un errore di conto, era un'etichetta impropria** — la prova sui 160 e'
+    # identica prima e dopo — ma un numero che cambia fra due run deve avere la sua
+    # spiegazione scritta accanto, altrimenti il prossimo lettore cerca un guasto che non
+    # c'e'. Da qui la riga di passaggio stampata nel report.
+    tutti = sorted(f for f in os.listdir(Q.SOURCES)
+                   if os.path.isfile(os.path.join(Q.SOURCES, f)))
+    grezzi = [f for f in tutti if not f.lower().endswith(".md")]
+    esclusi = [f for f in tutti if f.lower().endswith(".md")]
     guasti, con_strati, righe = [], 0, 0
     for g in grezzi:
-        if not os.path.isfile(os.path.join(Q.SOURCES, g)):
-            continue
         base = Q.testo_fonte(g)
         cant = testo_cantiere(g)
         if not cant.startswith(base) or cant[:len(base)] != base:
@@ -235,6 +244,12 @@ def prova_invarianza(stampa=True):
             con_strati += 1
             righe += n
     if stampa:
+        if esclusi:
+            print("file in sources\\ ............... %d  (%d grezzi + %d .md del vault: %s)"
+                  % (len(tutti), len(grezzi), len(esclusi), ", ".join(esclusi)))
+            print("   ⚠️ prima del 21/08/2026 questa prova diceva «%d grezzi»: erano %d,"
+                  % (len(tutti), len(grezzi)))
+            print("      piu' l'_index di sources\\. Etichetta corretta, prova invariata.")
         print("grezzi esaminati .............. %d" % len(grezzi))
         print("con almeno uno strato ......... %d" % con_strati)
         print("righe aggiunte in tutto ....... %d" % righe)
@@ -245,10 +260,11 @@ def prova_invarianza(stampa=True):
         if guasti:
             print("INVARIANZA VIOLATA: l'estrazione di cantiere ha alterato il testo congelato.")
         else:
-            print("INVARIANZA PROVATA: su tutti i %d grezzi il testo della via congelata e'"
+            print("INVARIANZA PROVATA: su tutti i %d grezzi del corpus il testo della via"
                   % len(grezzi))
-            print("un prefisso ESATTO di quello di cantiere. L'estrattore di misura non e'")
-            print("stato toccato, e questo non e' un'affermazione: e' il risultato del confronto.")
+            print("congelata e' un prefisso ESATTO di quello di cantiere. L'estrattore di")
+            print("misura non e' stato toccato, e questo non e' un'affermazione: e' il")
+            print("risultato del confronto.")
     return not guasti
 
 
