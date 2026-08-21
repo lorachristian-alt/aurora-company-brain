@@ -29,16 +29,16 @@
 | `concepts\` | 6 |
 | `data\` | 29 |
 | `outputs\` | 1 |
-| `code\` | 15 |
+| `code\` | 16 |
 | `workspace\` | 9 |
 | `sources\` | 1 |
-| **totale** | **246** |
+| **totale** | **247** |
 
-*Escluse `workspace\` e `sources\` dai conteggi di qualità: **236** note.*
+*Escluse `workspace\` e `sources\` dai conteggi di qualità: **237** note.*
 
 | `type` | Note |
 |---|---|
-| `atomica` | 152 |
+| `atomica` | 153 |
 | `concetto` | 5 |
 | `conflitto` | 39 |
 | `entita` | 20 |
@@ -47,7 +47,7 @@
 | `sessione` | 6 |
 
 ---
-## qa_frontmatter (perimetro: lotto, 47 note)
+## qa_frontmatter (perimetro: lotto, 48 note)
 
 - ERRORI: **0**
 - AVVISI: **26**
@@ -79,18 +79,18 @@
 | `doc-piano-autocontrollo-acqua.md` |  | frontmatter | summary di 259 caratteri (tetto 250) |
 | `doc-piano-autocontrollo-acqua.md` |  | frontmatter | corpo di 340 parole: fra 301 e 350, si motiva o si spezza |
 | `doc-piano-tamponi-superfici.md` |  | frontmatter | corpo di 347 parole: fra 301 e 350, si motiva o si spezza |
-| `kpi-conducibilita-acqua-per-punto.md` |  | frontmatter | corpo di 342 parole: fra 301 e 350, si motiva o si spezza |
+| `kpi-conducibilita-acqua-per-punto.md` |  | frontmatter | corpo di 322 parole: fra 301 e 350, si motiva o si spezza |
 | `kpi-parametri-scarico-s1-2026.md` |  | frontmatter | corpo di 349 parole: fra 301 e 350, si motiva o si spezza |
 | `kpi-tamponi-superfici-2026.md` |  | frontmatter | corpo di 344 parole: fra 301 e 350, si motiva o si spezza |
 
 
-## qa_link_integrity (perimetro: lotto, 246 note nel vault)
+## qa_link_integrity (perimetro: lotto, 247 note nel vault)
 
 - ERRORI: **0**
 - AVVISI: **0**
 
 
-## qa_provenance (perimetro: lotto, 47 note)
+## qa_provenance (perimetro: lotto, 48 note)
 
 - ERRORI: **0**
 - AVVISI: **1**
@@ -102,7 +102,7 @@
 | `macchina-cip-01.md` |  | provenance | la fonte 'scheda_sicurezza_detergente_acido_lavaggio_CIP.txt' non aggancia nessuna affermazione della nota: rumore nel payload |
 
 
-## qa_copertura (perimetro: lotto, 47 note)
+## qa_copertura (perimetro: lotto, 48 note)
 
 - ERRORI: **0**
 - AVVISI: **0**
@@ -158,6 +158,7 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `macchina-cip-01.md` | hub | aperto | 4 |
 | `questione-frequenza-tamponi-prescritta-e-reale.md` | conflitto | aperto | 2 |
 | `questione-listeria-24-02-non-nel-registro-tamponi.md` | conflitto | aperto | 2 |
+| `script-censimento-formule.md` | atomica | risolto | 0 |
 
 ### Grezzi del perimetro e note che li citano
 

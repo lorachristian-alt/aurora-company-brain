@@ -1,4 +1,4 @@
-## qa_link_integrity (perimetro: vault, 246 note nel vault)
+## qa_link_integrity (perimetro: vault, 247 note nel vault)
 
 - ERRORI: **0**
 - AVVISI: **8**

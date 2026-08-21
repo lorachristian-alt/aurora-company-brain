@@ -1,4 +1,4 @@
-## qa_copertura (perimetro: vault, 246 note)
+## qa_copertura (perimetro: vault, 247 note)
 
 - ERRORI: **123**
 - AVVISI: **0**
@@ -393,6 +393,7 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `questione-validazione-ccp2-mai-confermata.md` | atomica | aperto | 1 |
 | `questione-verifiche-ccp3-10-05-tre-versioni.md` | conflitto | aperto | 4 |
 | `script-candidate-r1.md` | atomica | risolto | 0 |
+| `script-censimento-formule.md` | atomica | risolto | 0 |
 | `script-cerca-assenza.md` | atomica | risolto | 0 |
 | `script-conta-perimetro-lotto.md` | atomica | risolto | 0 |
 | `script-conta-tracciamento.md` | atomica | risolto | 0 |

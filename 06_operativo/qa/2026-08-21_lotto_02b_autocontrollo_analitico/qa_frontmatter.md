@@ -1,4 +1,4 @@
-## qa_frontmatter (perimetro: lotto, 47 note)
+## qa_frontmatter (perimetro: lotto, 48 note)
 
 - ERRORI: **0**
 - AVVISI: **26**
@@ -30,6 +30,6 @@
 | `doc-piano-autocontrollo-acqua.md` |  | frontmatter | summary di 259 caratteri (tetto 250) |
 | `doc-piano-autocontrollo-acqua.md` |  | frontmatter | corpo di 340 parole: fra 301 e 350, si motiva o si spezza |
 | `doc-piano-tamponi-superfici.md` |  | frontmatter | corpo di 347 parole: fra 301 e 350, si motiva o si spezza |
-| `kpi-conducibilita-acqua-per-punto.md` |  | frontmatter | corpo di 342 parole: fra 301 e 350, si motiva o si spezza |
+| `kpi-conducibilita-acqua-per-punto.md` |  | frontmatter | corpo di 322 parole: fra 301 e 350, si motiva o si spezza |
 | `kpi-parametri-scarico-s1-2026.md` |  | frontmatter | corpo di 349 parole: fra 301 e 350, si motiva o si spezza |
 | `kpi-tamponi-superfici-2026.md` |  | frontmatter | corpo di 344 parole: fra 301 e 350, si motiva o si spezza |

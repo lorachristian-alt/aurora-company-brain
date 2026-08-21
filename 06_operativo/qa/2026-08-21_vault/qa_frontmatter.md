@@ -1,4 +1,4 @@
-## qa_frontmatter (perimetro: vault, 246 note)
+## qa_frontmatter (perimetro: vault, 247 note)
 
 - ERRORI: **0**
 - AVVISI: **129**
@@ -108,7 +108,7 @@
 | `doc-sds-detergente-acido-cip.md` |  | frontmatter | corpo di 320 parole: fra 301 e 350, si motiva o si spezza |
 | `entita-chemifood-italia.md` |  | frontmatter | summary di 266 caratteri (tetto 250) |
 | `concetto-cip.md` |  | frontmatter | summary di 258 caratteri (tetto 250) |
-| `kpi-conducibilita-acqua-per-punto.md` |  | frontmatter | corpo di 342 parole: fra 301 e 350, si motiva o si spezza |
+| `kpi-conducibilita-acqua-per-punto.md` |  | frontmatter | corpo di 322 parole: fra 301 e 350, si motiva o si spezza |
 | `kpi-consumi-energia-maggio-2026.md` |  | frontmatter | corpo di 317 parole: fra 301 e 350, si motiva o si spezza |
 | `kpi-durate-fasi-cip-maggio.md` |  | frontmatter | summary di 260 caratteri (tetto 250) |
 | `kpi-durate-fasi-cip-maggio.md` |  | frontmatter | corpo di 328 parole: fra 301 e 350, si motiva o si spezza |

@@ -6,7 +6,9 @@
 > **Perché esiste** · Il repository conserva le decisioni; questo file conserva la
 > giurisprudenza — il modo di giudicare che nei documenti non è scritto perché viveva
 > nella conversazione.
-> **Data** · **21/08/2026, dopo la chiusura del lotto 2B** — l'autocontrollo analitico, il
+> **Data** · **21/08/2026, dopo il GATE FINALE del lotto 2B, che lo ha APPROVATO pienamente.**
+> ⚠️ **È il primo gate del progetto che non produce emendamenti nuovi**: il manuale resta a 46.
+> Prima, nella stessa giornata, il completamento del ciclo e la chiusura del lotto 2B — l'autocontrollo analitico, il
 > primo lotto che **si è spezzato in apertura prima di scrivere una riga** e il primo che
 > **chiude una riga di tracciamento con un dato** invece che con una decisione. Prima, il
 > 20/08, il **GATE del lotto 2A**, che lo ha APPROVATO e ha prodotto **E41-E44** — quattro
@@ -154,10 +156,20 @@ crea regole: spiega come si sono applicate.
 - ⚠️ **E41, terzo punto della serie**: difetto di **produzione 0,0 %** (0 su 27), riapertura
   **60,0 %** (3 su 5). La serie del metodo è ora **57,7 % → 3,3 % → 0,0 %**, e il criterio
   scritto al gate di R1 — «due lotti prima di decidere» — è **soddisfatto**.
-- ✅ **Il GATE del lotto 2B ha APPROVATO CONDIZIONATAMENTE**, e la condizione — completare il
-  ciclo — **è stata soddisfatta il 21/08/2026**. Il gate ha prodotto **E45** («sessione diversa»
-  significa contesto diverso) ed **E46** (i due tassi si dichiarano col dominio misurato), e ha
-  ratificato la chiusura della vigilanza di 2A con una riga di giurisprudenza propria, **§4.43**.
+- ✅ **Il lotto 2B è APPROVATO PIENAMENTE** (gate finale del 21/08/2026, dopo un'approvazione
+  condizionata e il completamento del ciclo nella stessa giornata). Il gate intermedio aveva
+  prodotto **E45** ed **E46** e la riga **§4.43**; ⚠️ **il gate finale non ha prodotto
+  emendamenti, e il manuale resta a 46 — è la prima volta, e vale come segnale.**
+- ⚠️ **IL GATE FINALE HA CHIESTO UN NUMERO, E IL NUMERO È GRANDE.** Il censimento delle formule
+  (`censimento_formule.py`, 21/08 alle 12:39:33) dice: **1.697 celle con formula in 13 file su
+  15, e nessuna con valore in cache** — **zero**. ⚠️ **Non è un difetto sporadico, è una
+  proprietà sistematica del corpus**: ogni cella calcolata risulta vuota nel testo estratto, e
+  «questa colonna è vuota, dunque nessuno l'ha compilata» **è una lettura possibile ma non
+  l'unica**. **Dieci dei tredici file non sono ancora canonizzati** — budget per linea, libro
+  unico, cruscotto KPI, vendor rating — e la soglia scritta al gate («più di tre») **è
+  superata**. ✅ **Il vault regge**: `kpi-mass-balance-l26130` scriveva già «formule mai
+  calcolate», che è esatto. **L'estensione di cantiere si farà, ma si decide al gate di 2B-bis**,
+  e l'estrattore di misura non si tocca in nessun caso (**T89**).
 - ⚠️ **IL COMPLETAMENTO HA PRODOTTO PIÙ DI QUANTO IL GATE SI ASPETTASSE, e va letto prima di
   aprire 2B-bis.** La revisione col canone ha reso **14 rilievi A, 5 B, 0 C**; il ri-giudizio
   che è seguito ne ha resi **altri 11**. ⚠️ **Due cose sono STRUTTURALI e la condizione del gate
@@ -548,15 +560,30 @@ coerente.
   davvero guardato — tutte e tre le correzioni hanno sostituito «dell'archivio» con «di questo
   registro». **Non si propone come emendamento adesso**, e vale E28: è la prima volta che la
   si nomina.
-  ✅ **Criterio di decisione, fissato al gate del 21/08/2026 e scritto ORA perché nessuno lo
-  riapra a numeri visti: se la specie ricompare al TERZO GIRO di giudizio di 2B-bis SU NOTE
-  NATE O RISCRITTE DAL LOTTO — produzione, non debito — diventa emendamento; se non ricompare,
-  la riga si chiude.** ⚠️ **La distinzione fra debito e produzione è scritta QUI, in anticipo,
-  e non a numeri visti**: è la condizione 1 di §4.43 applicata prima invece che dopo, ed è il
-  modo di non ripetere l'incertezza che quella riga di giurisprudenza è dovuta nascere per
-  chiudere. **La forma che l'emendamento avrebbe è già scritta**, nel §5.4 del rapporto 2B:
-  *un'affermazione di unicità, primato o massimo si scrive col perimetro su cui è stata
-  verificata, e quel perimetro non è mai più largo delle fonti della nota.*
+  ✅ **CRITERIO DI DECISIONE, aggiornato al gate finale del 21/08/2026 e scritto PRIMA che
+  l'esperimento di 2B-bis parta.** Il criterio ha due metà, e solo una è cambiata:
+
+  | | |
+  |---|---|
+  | **resta** | se la specie ricompare al **TERZO GIRO** di giudizio di 2B-bis **su note nate o riscritte dal lotto** — produzione, non debito — **diventa emendamento**, con la forma già scritta nel §5.4 del rapporto 2B: *un'affermazione di unicità, primato o massimo si scrive col perimetro su cui è stata verificata, e quel perimetro non è mai più largo delle fonti della nota* |
+  | **decade** | **la chiusura automatica.** Se al terzo giro non compare, **la riga NON si chiude da sola**: il gate di 2B-bis decide con **tutte** le osservazioni davanti — 2B, il completamento, 2B-bis |
+
+  ⚠️ **Perché è cambiata, e perché questo NON è §4.43.** Il completamento di 2B ha prodotto un
+  **fatto sopravvenuto** che il criterio non prevedeva: la specie **rigenerata in produzione,
+  dentro il gesto stesso di correzione** — tre casi più uno, con nomi e righe (§10.5 del
+  rapporto 2B). ⚠️ **§4.43 vieta di rileggere un criterio A ESITO VISTO, e l'esito di 2B-bis
+  non esiste ancora**: qui non si sta guardando il risultato dell'esperimento per decidere come
+  leggerlo, si sta correggendo il criterio **prima** che l'esperimento parta. È la differenza
+  fra cambiare le regole a partita in corso e cambiarle prima del fischio d'inizio.
+
+  ⚠️ **E la ragione del cambiamento è E46 applicato ai criteri**: chiudere la riga su un
+  esperimento pulito, ignorando tre casi di produzione documentati, sarebbe **far dire al
+  criterio più di quanto misura**. Un giro di giudizio di un lotto non misura la specie
+  nell'intero metodo: misura la specie in quel lotto.
+
+  ⚠️ **2B-bis NON riceve alcun promemoria sulla specie** oltre alle regole già in vigore (E39,
+  passo 2-bis). **Un esperimento avvertito non misura niente**, e un avvertimento che vivesse
+  solo nel prompt sarebbe la malattia di E27.
 - ✅ **LA REVISIONE COL CANONE NON È PIÙ UNA VIGILANZA: È CHIUSA DA E45.** Il lotto 2B aveva
   dichiarato il passo scoperto credendo che la guardia su `03_valutazione\` coprisse il canone.
   **Non lo copre**: il canone sta in `01_metodo\`, la guardia riguarda l'esame, e un subagente

@@ -24,6 +24,15 @@ PROCEDURA — che la ricerca sia stata eseguita, con quali termini, su quale per
 quale esito — perche' quella lascia un file. `qa_frontmatter.py` verifica poi che ogni nota
 che porta la formula di E3 rimandi a un artefatto **che esiste**.
 
+⚠️ **IL MATCHING E' LARGO APPOSTA, E NON SI "MIGLIORA".** Cercando `conducibilit` senza accenti
+la ricerca trova anche `RICONDUCIBILITA'` dentro una nota del commercialista: **e' un falso
+positivo, ed e' il costo giusto.** Una ricerca che attesta un'ASSENZA deve sbagliare per
+eccesso: meglio dieci risultati da scartare a mano che una vera occorrenza mancata. ⚠️ **Chi
+fra sei mesi vorra' restringere il confronto — parole intere, accenti, maiuscole — legga
+questa riga prima: il difetto del caso `riconducibilita` non fu il matching largo, fu
+CONSUMARE IL RISULTATO SENZA GUARDARLO.** Quella regola esiste gia': i risultati si leggono uno
+per uno prima di scrivere qualunque cosa.
+
 ⚠️ **La ricerca guarda il TESTO ESTRATTO, non il nome del file.** Usa lo stesso estrattore
 congelato della suite (`text_of`, metodo_01 §5-bis), cosi' cerca dentro i `.docx` e i `.pdf`
 come dentro i `.txt` — ed e' proprio dentro un `.docx` che stava, in 2A, il documento dato
@@ -52,6 +61,10 @@ def main():
                     help="i termini da cercare; basta che UNO compaia perche' l'assenza cada")
     ap.add_argument("--nome", required=True, help="slug dell'artefatto, senza estensione")
     ap.add_argument("--nota", default="", help="la nota che dichiarera' l'assenza, se gia' nota")
+    ap.add_argument("--scartati", nargs="*", default=[],
+                    help="termini CONSIDERATI e non cercati, nella forma termine=perche'. "
+                         "Non e' un vezzo: senza, chi rilegge l'artefatto non puo' giudicare "
+                         "il PERIMETRO della ricerca, e il perimetro e' meta' della prova")
     args = ap.parse_args()
 
     manifest = sorted(Q.manifest_nomi())
@@ -84,12 +97,27 @@ def main():
          "| Perimetro | i **%d** file del manifest `manifest_corpus_v1.1.json`, in `sources\\` |" % len(manifest),
          "| File con testo estraibile | **%d** |" % letti,
          "| File senza testo estraibile | **%d** — elencati sotto |" % len(ciechi),
-         "| Confronto | senza accenti, senza distinzione di maiuscole |",
+         "| Confronto | senza accenti, senza distinzione di maiuscole — **largo apposta** |",
          "| Esito | **%s** |" % ("ASSENZA CONFERMATA" if not trovati
-                                 else "TROVATO in %d file: l'assenza NON si scrive" % len(trovati)),
+                                 else "TROVATO: %d occorrenze in %d file — l'assenza NON si scrive"
+                                      % (len(trovati), len({f for f, _ in trovati}))),
          ""]
     if args.nota:
         r += ["Dichiarata nella nota `%s`." % args.nota, ""]
+    r += ["## I termini considerati e NON cercati, col perche'", "",
+          "> ⚠️ **Il perimetro di una ricerca è metà della prova.** Chi rilegge questo artefatto",
+          "> deve poter giudicare non solo che cosa è stato cercato, ma che cosa è stato",
+          "> **escluso** — ed è il punto che il caso `mS/cm` ha mostrato mancare: una ricerca",
+          "> sulla conducibilità che non cercava `mS/cm` lasciava fuori un intero tracciato.", ""]
+    if args.scartati:
+        for s in args.scartati:
+            k, _, perche = s.partition("=")
+            r += ["- `%s` — %s" % (k.strip(), perche.strip() or "**motivo non dichiarato**")]
+    else:
+        r += ["⚠️ **Nessuno dichiarato.** Chi ha lanciato la ricerca non ha registrato quali",
+              "termini abbia considerato e scartato: l'artefatto prova che il gesto è stato",
+              "fatto, **non che il perimetro fosse quello giusto**."]
+    r += [""]
     if trovati:
         r += ["## Dove è stato trovato", ""]
         r += ["- `%s` — termine `%s`" % (f, t) for f, t in trovati] + [""]
@@ -106,7 +134,8 @@ def main():
     io.open(os.path.join(DIR, out), "w", encoding="utf-8", newline="\n").write("\n".join(r) + "\n")
 
     print("artefatto: 06_operativo\\ricerche_assenza\\%s" % out)
-    print("file letti: %d · ciechi: %d · trovati: %d" % (letti, len(ciechi), len(trovati)))
+    print("file letti: %d · ciechi: %d · occorrenze trovate: %d in %d file"
+          % (letti, len(ciechi), len(trovati), len({f for f, _ in trovati})))
     if trovati:
         print("\n⚠️ TROVATO — l'assenza NON si dichiara:")
         for f, t in trovati[:10]:

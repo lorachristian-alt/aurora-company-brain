@@ -3,7 +3,10 @@
 > **Cos'è** · Lo stato di oggi del vault: cosa è stato canonizzato, con quale esito, e
 > cosa resta. Solo stato, mai una regola: le regole stanno in
 > `01_metodo\metodo_03_canonizzazione.md`, le decisioni in `06_operativo\decision_log.md`.
-> **Aggiornato al** · **21/08/2026, COMPLETAMENTO del ciclo del lotto 2B** — la revisione col
+> **Aggiornato al** · **21/08/2026, GATE FINALE del lotto 2B, che lo ha APPROVATO pienamente.**
+> ⚠️ **È il primo gate del progetto che NON produce emendamenti nuovi al metodo** — il manuale
+> resta a 46 — ed è un segnale che vale la pena registrare: il metodo si sta stabilizzando.
+> Prima, nella stessa giornata, il **COMPLETAMENTO del ciclo del lotto 2B** — la revisione col
 > canone, che alla chiusura era stata dichiarata scoperta, è stata eseguita e il ciclo è
 > intero. Prima, nella notte, la **chiusura del lotto 2B** — l'autocontrollo analitico:
 > tamponi di superficie, acqua potabile, acque reflue. ⚠️ **Il lotto è arrivato con cinque
@@ -29,7 +32,7 @@
 | Suite QA | **verde sul perimetro di lotto**; sul vault tre controlli su quattro sono a zero errori. ⚠️ Dal gate di 2A la QA ha **due controlli nuovi**: l'artefatto di ricerca che E43 impone a chi dichiara un'assenza, e **l'omogeneità dei fine riga** — il primo controllo del progetto che non guarda il contenuto di una nota ma il suo **supporto** |
 | `llms.txt` | rigenerato dal frontmatter, allineato |
 | Matrice dei lotti | 160/160 grezzi, zero scoperti, zero doppi (`verifica_matrice_lotti.py` verde). ⚠️ **I budget dei lotti 2-10 sono SUPERATI** e il piano non è più a 12 lotti: vale **E31**, la capacità di 25-35 note per lotto, e i grezzi si decidono in apertura. **Stima: circa 28-30 lotti**, scritta anche nella scaletta perché cambia il calendario di S4-S5. Ridisegnato in dettaglio **solo il tema 2** (2A · 2B · 2C) |
-| **PROSSIMO ATTO** | **Il GATE del lotto 2B**: il rapporto `06_operativo\rapporto_lotto_02b.md` va al coordinatore. ⚠️ **Porta tre cose che il gate deve pesare**: il lotto **si è spezzato in apertura** e 2B-bis è già misurato e pronto; il giudizio **non è converso** in tre giri e il rapporto **nomina la specie** — l'affermazione universale verificata sul sottoinsieme che l'ha suggerita; e ⚠️ **la revisione col canone NON è stata eseguita**, perché le guardie della sessione vietano di aprire `03_valutazione\`. Dopo l'approvazione: **2B-bis** (gli allergeni) |
+| **PROSSIMO ATTO** | **Il lotto 2B-bis — gli allergeni e la formazione.** Due grezzi, col dominio `allergeni` già dichiarato in `candidate_r1.py` e **5 note candidate già misurate**. ⚠️ Porta un esperimento: la **specie universale** si osserva al terzo giro col criterio aggiornato al gate, e **il lotto non riceve nessun promemoria** — un esperimento avvertito non misura niente. Chiude la sessione, ciclo intero, revisione col canone compresa (E45) |
 
 ⚠️ **Errata del 19/08/2026 sui numeri del lotto 1A.** Questo stato dichiarava «105 note, di
 cui 11 `_index` e 6 note-strumento: 88 di contenuto». `qa_all.py` a chiusura di 1A contava

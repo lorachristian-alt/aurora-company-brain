@@ -1,4 +1,4 @@
-## qa_copertura (perimetro: lotto, 47 note)
+## qa_copertura (perimetro: lotto, 48 note)
 
 - ERRORI: **0**
 - AVVISI: **0**
@@ -54,6 +54,7 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `macchina-cip-01.md` | hub | aperto | 4 |
 | `questione-frequenza-tamponi-prescritta-e-reale.md` | conflitto | aperto | 2 |
 | `questione-listeria-24-02-non-nel-registro-tamponi.md` | conflitto | aperto | 2 |
+| `script-censimento-formule.md` | atomica | risolto | 0 |
 
 ### Grezzi del perimetro e note che li citano
 

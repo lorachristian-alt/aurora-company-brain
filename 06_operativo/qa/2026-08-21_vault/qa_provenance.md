@@ -1,4 +1,4 @@
-## qa_provenance (perimetro: vault, 246 note)
+## qa_provenance (perimetro: vault, 247 note)
 
 - ERRORI: **0**
 - AVVISI: **60**

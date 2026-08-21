@@ -29,16 +29,16 @@
 | `concepts\` | 6 |
 | `data\` | 29 |
 | `outputs\` | 1 |
-| `code\` | 15 |
+| `code\` | 16 |
 | `workspace\` | 9 |
 | `sources\` | 1 |
-| **totale** | **246** |
+| **totale** | **247** |
 
-*Escluse `workspace\` e `sources\` dai conteggi di qualità: **236** note.*
+*Escluse `workspace\` e `sources\` dai conteggi di qualità: **237** note.*
 
 | `type` | Note |
 |---|---|
-| `atomica` | 152 |
+| `atomica` | 153 |
 | `concetto` | 5 |
 | `conflitto` | 39 |
 | `entita` | 20 |
@@ -47,7 +47,7 @@
 | `sessione` | 6 |
 
 ---
-## qa_frontmatter (perimetro: vault, 246 note)
+## qa_frontmatter (perimetro: vault, 247 note)
 
 - ERRORI: **0**
 - AVVISI: **129**
@@ -157,7 +157,7 @@
 | `doc-sds-detergente-acido-cip.md` |  | frontmatter | corpo di 320 parole: fra 301 e 350, si motiva o si spezza |
 | `entita-chemifood-italia.md` |  | frontmatter | summary di 266 caratteri (tetto 250) |
 | `concetto-cip.md` |  | frontmatter | summary di 258 caratteri (tetto 250) |
-| `kpi-conducibilita-acqua-per-punto.md` |  | frontmatter | corpo di 342 parole: fra 301 e 350, si motiva o si spezza |
+| `kpi-conducibilita-acqua-per-punto.md` |  | frontmatter | corpo di 322 parole: fra 301 e 350, si motiva o si spezza |
 | `kpi-consumi-energia-maggio-2026.md` |  | frontmatter | corpo di 317 parole: fra 301 e 350, si motiva o si spezza |
 | `kpi-durate-fasi-cip-maggio.md` |  | frontmatter | summary di 260 caratteri (tetto 250) |
 | `kpi-durate-fasi-cip-maggio.md` |  | frontmatter | corpo di 328 parole: fra 301 e 350, si motiva o si spezza |
@@ -187,7 +187,7 @@
 | `sessione-s4-lotto-02b.md` |  | frontmatter | summary di 269 caratteri (tetto 250) |
 
 
-## qa_link_integrity (perimetro: vault, 246 note nel vault)
+## qa_link_integrity (perimetro: vault, 247 note nel vault)
 
 - ERRORI: **0**
 - AVVISI: **8**
@@ -206,7 +206,7 @@
 | `fatto-taniche-e-rifiuti-cip.md` |  | link | lontana dall'_index della propria cartella (3 salti): indizio di cattiva collocazione |
 
 
-## qa_provenance (perimetro: vault, 246 note)
+## qa_provenance (perimetro: vault, 247 note)
 
 - ERRORI: **0**
 - AVVISI: **60**
@@ -278,7 +278,7 @@ verifiche n» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 | `questione-scarti-riavvio-l26130.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 
 
-## qa_copertura (perimetro: vault, 246 note)
+## qa_copertura (perimetro: vault, 247 note)
 
 - ERRORI: **123**
 - AVVISI: **0**
@@ -673,6 +673,7 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `questione-validazione-ccp2-mai-confermata.md` | atomica | aperto | 1 |
 | `questione-verifiche-ccp3-10-05-tre-versioni.md` | conflitto | aperto | 4 |
 | `script-candidate-r1.md` | atomica | risolto | 0 |
+| `script-censimento-formule.md` | atomica | risolto | 0 |
 | `script-cerca-assenza.md` | atomica | risolto | 0 |
 | `script-conta-perimetro-lotto.md` | atomica | risolto | 0 |
 | `script-conta-tracciamento.md` | atomica | risolto | 0 |

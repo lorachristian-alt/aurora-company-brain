@@ -602,3 +602,97 @@ lotto si chiude.**
 ---
 
 ---
+
+---
+
+## 11. Il gate finale — che cosa il gate ha chiesto, e che cosa ha trovato
+
+> ✅ **Il lotto 2B è APPROVATO pienamente** al gate del 21/08/2026. Questa sezione registra gli
+> adempimenti che il gate ha chiesto e i loro esiti, perché due di essi hanno prodotto numeri
+> che nessuno si aspettava.
+
+### 11.1 Il censimento delle formule — T89 ha il suo numero, ed è grande
+
+⚠️ **Il gate lo ha chiesto per una ragione precisa: «T89 non può aspettare il gate finale senza
+un numero, oggi nessuno sa se il buco riguardi un file o trenta».** Uno script nuovo
+(`06_operativo\censimento_formule.py`) apre ogni foglio di calcolo del corpus come archivio e
+conta le celle con formula, distinguendo quelle che l'estrattore congelato **non restituisce
+affatto** da quelle di cui restituisce il solo risultato.
+
+<!-- CENSIMENTO DELLE FORMULE — generato da `06_operativo\censimento_formule.py`
+     il 2026-08-21 alle 12:39:33. Si incolla VERBATIM. -->
+
+| Grandezza | Valore |
+|---|---|
+| Fogli di calcolo nel manifest | **15** |
+| Con almeno una formula | **13** |
+| Con almeno una formula **invisibile** | **13** |
+| di cui **non ancora canonizzati** | **10** ← il numero della soglia |
+| **Celle con formula, in tutto il corpus** | **1.697** |
+| di cui **invisibili all'estrattore** | **1.697** |
+| di cui visibili a metà *(risultato sì, formula no)* | **0** |
+
+I dieci file non ancora canonizzati che portano formule invisibili: il **budget per linea**
+(332 formule), il **libro unico** (425), il **previsionale di cassa** in due copie (102 ×2), il
+**vendor rating** (73), gli **scostamenti dei costi** (115), la **marginalità per referenza**
+(84), il **cruscotto KPI qualità** (65), il **registro MOCA** (3) e una cartella di lavoro
+vuota di nome (1).
+
+⚠️ **Il numero che conta non è 1.697: è lo ZERO dell'ultima riga.** Nessun foglio di calcolo del
+corpus porta valori in cache. **Non è un difetto sporadico di un compilatore distratto: è una
+proprietà sistematica dell'archivio**, e cambia la natura del problema. Ogni cella calcolata
+risulta vuota nel testo estratto, quindi **«questa colonna è vuota, dunque nessuno l'ha
+compilata» è una lettura possibile ma non l'unica** — e finora è stata l'unica offerta.
+
+⚠️ **Il vault regge, e va detto perché non era scontato.** Ho cercato le note che descrivono
+colonne vuote su fonti `.xlsx`: `kpi-mass-balance-l26130` scrive «**formule mai calcolate**», che
+è esatto; `fatto-piano-produzione-sett19-21` scrive «le colonne calcolate sono vuote», che è
+vero ma non dice che sono formule. **Nessuna afferma il falso**, e la prima lo aveva capito
+prima che esistesse lo strumento per misurarlo.
+
+✅ **Soglia superata**: il criterio scritto al gate diceva «più di tre grezzi non ancora
+canonizzati», e sono **dieci**. **L'estensione di cantiere della QA si farà** — ma la decisione
+operativa resta al gate di 2B-bis, come il gate ha prescritto, e **l'estrattore di misura non
+si tocca in nessun caso**.
+
+### 11.2 I tre difetti dello strumento di E43, decisi uno a uno
+
+| Difetto | Decisione | Che cosa è cambiato |
+|---|---|---|
+| «TROVATO in 9 file» dove erano 9 occorrenze in 6 file | **refuso, si corregge** | l'artefatto scrive ora «**N occorrenze in M file**» |
+| i termini non coprivano `mS/cm` | **non è un difetto di codice** — la scelta dei termini è giudizio | l'artefatto acquista la sezione «**termini considerati e NON cercati, col perché**» |
+| il falso positivo «riconducibilità» | **non si corregge restringendo** | una riga nel docstring dichiara che **il matching è largo apposta** |
+
+⚠️ **La terza decisione è quella che vale, e va motivata perché sembra un difetto lasciato
+lì.** Una ricerca che attesta un'**assenza** deve sbagliare per eccesso: meglio dieci risultati
+da scartare a mano che una vera occorrenza mancata. **Il difetto del caso «riconducibilità» non
+fu il matching largo: fu consumare il risultato senza guardarlo.** La riga nel docstring esiste
+perché nessuno «migliori» il matching fra sei mesi.
+
+⚠️ **E la ricerca è stata rifatta col perimetro allargato, ottenendo una prova per il secondo
+punto.** Includendo il tag `COND` — che sembrava l'omissione più ovvia — la ricerca restituisce
+**96 file su 155** e diventa inservibile, perché come sottostringa matcha «SECONDO»,
+«CONDIZIONI», «CONDOTTA». **Quel termine sta ora fra gli scartati con la sua ragione misurata**,
+non ipotizzata. Il nuovo artefatto trova **10 occorrenze in 7 file**, e fra queste il log del
+CIP, che porta conducibilità vere **di un'altra acqua**: il circuito, non la rete.
+
+### 11.3 Il criterio sulla specie universale è stato aggiornato, non riletto
+
+⚠️ **La distinzione è sottile e va scritta, perché senza di essa questo sarebbe §4.43
+violato.** §4.43 vieta di rileggere un criterio **a esito visto**; qui **l'esito di 2B-bis non
+esiste ancora**, e il criterio è stato corretto **prima che l'esperimento parta**, per un fatto
+sopravvenuto che non prevedeva: la specie rigenerata **in produzione, dentro il gesto di
+correzione** (§10.5).
+
+**Resta**: se al terzo giro di 2B-bis la specie compare su note nate o riscritte dal lotto,
+diventa emendamento. **Decade**: la chiusura automatica — se non compare, il gate di 2B-bis
+decide con tutte le osservazioni davanti. ⚠️ **La ragione è E46 applicato ai criteri**: un giro
+di giudizio di un lotto non misura la specie nell'intero metodo, misura la specie in quel
+lotto.
+
+### 11.4 Una riga di igiene, perché il gate l'ha chiesta
+
+⚠️ **Durante la verifica dell'interruzione, i due file d'impronta `sha256` sono finiti dentro il
+vault**: lo script faceva `os.chdir` sulla cartella del vault e scriveva in quella corrente.
+Visti e spostati fuori nello stesso turno. **Non erano `.md` e non sono mai entrati in nessun
+conteggio**, ma stavano dove non dovevano.

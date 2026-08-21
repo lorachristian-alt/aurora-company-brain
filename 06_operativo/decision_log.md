@@ -1446,3 +1446,44 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   QA vault, matrice, tracciamento, emendamenti, collaudo, fine riga, tutti identici alle misure
   della notte. ⚠️ **Un'impronta costa dieci secondi e trasforma «non credo abbia toccato nulla»
   in un fatto**: da qui in poi si prende prima di ogni agente che lavori sul vault.
+- **2026-08-21** · **GATE FINALE DEL LOTTO 2B: APPROVATO PIENAMENTE, E SENZA EMENDAMENTI NUOVI** ·
+  la condizione del gate intermedio — completare il ciclo — era soddisfatta. ⚠️ **E' il primo
+  gate del progetto che non produce emendamenti al metodo**, che resta a 46: **e' un segnale che
+  il metodo si sta stabilizzando**, e va registrato perche' fin qui ogni gate ne aveva prodotti.
+- **2026-08-21** · ⚠️ **IL CENSIMENTO DELLE FORMULE: 1.697 CELLE, TUTTE INVISIBILI, E ZERO CON
+  VALORE IN CACHE** · `censimento_formule.py`, lanciato alle 12:39:33. Tredici fogli di calcolo
+  su quindici portano formule, e **nessuno porta un valore calcolato**. ⚠️ **Il numero che conta
+  non e' 1.697: e' lo zero.** Non e' un compilatore distratto, e' **una proprieta' sistematica
+  del corpus** — e cambia la natura del problema, perche' «questa colonna e' vuota, dunque
+  nessuno l'ha compilata» diventa **una lettura possibile fra due**. **Dieci dei tredici file non
+  sono ancora canonizzati**, fra cui il budget per linea (332 formule) e il libro unico (425):
+  la soglia scritta al gate — piu' di tre — **e' superata di sette**. ✅ **Nessuna nota del vault
+  afferma il falso**: `kpi-mass-balance-l26130` scriveva gia' «formule mai calcolate», e lo
+  scriveva prima che esistesse lo strumento per misurarlo. ⚠️ **L'estensione della QA si fara' ma
+  si decide al gate di 2B-bis**, e **l'estrattore di misura non si tocca**: e' congelato, ed e'
+  il modulo con cui si confrontano le baseline.
+- **2026-08-21** · **I TRE DIFETTI DELLO STRUMENTO DI E43, DECISI UNO A UNO E NON IN BLOCCO** ·
+  il primo era un refuso di conteggio e si corregge («N occorrenze in M file»). ⚠️ **Il secondo
+  non e' un difetto di codice**: quali termini cercare e' **giudizio**, e nessuno script lo puo'
+  fare — il fix e' di FORMATO, e l'artefatto acquista la sezione «termini considerati e NON
+  cercati, col perche'», cosi' chi rilegge puo' giudicare **il perimetro**, che e' meta' della
+  prova. ⚠️ **Il terzo non si corregge affatto**: una ricerca che attesta un'ASSENZA **deve**
+  sbagliare per eccesso, e «riconducibilita'» fra i risultati e' il costo giusto. **Il difetto
+  del caso non fu il matching largo, fu consumare il risultato senza guardarlo.** Una riga nel
+  docstring lo dichiara, cosi' nessuno «migliora» il matching fra sei mesi.
+- **2026-08-21** · **LA RICERCA RIFATTA HA PRODOTTO LA PROVA DEL SECONDO PUNTO** · rilanciata col
+  perimetro allargato a `mS/cm`. ⚠️ **Includendo anche il tag `COND` — che sembrava l'omissione
+  piu' ovvia — la ricerca restituisce 96 file su 155 e diventa inservibile**, perche' come
+  sottostringa matcha «SECONDO», «CONDIZIONI», «CONDOTTA». **Quel termine sta ora fra gli
+  scartati con una ragione MISURATA, non ipotizzata**, ed e' esattamente il genere di cosa che la
+  sezione nuova esiste per conservare. Il nuovo artefatto trova 10 occorrenze in 7 file, fra cui
+  il log del CIP: conducibilita' vere, ma **di un'altra acqua** — il circuito, non la rete.
+- **2026-08-21** · **IL CRITERIO SULLA SPECIE UNIVERSALE E' STATO AGGIORNATO, E NON E' UNA
+  RILETTURA** · ⚠️ **§4.43 vieta di rileggere un criterio A ESITO VISTO, e l'esito di 2B-bis non
+  esiste ancora**: il criterio e' stato corretto **prima che l'esperimento parta**, per un fatto
+  sopravvenuto che non prevedeva — la specie rigenerata **in produzione, dentro il gesto di
+  correzione**. **Resta** l'emendamento se compare al terzo giro su note nate o riscritte;
+  **decade la chiusura automatica**: se non compare, decide il gate con tutte le osservazioni
+  davanti. ⚠️ **La ragione e' E46 applicato ai criteri**: un giro di giudizio di un lotto non
+  misura la specie nell'intero metodo, misura la specie in quel lotto. ⚠️ **E 2B-bis non riceve
+  nessun promemoria**: un esperimento avvertito non misura niente.
