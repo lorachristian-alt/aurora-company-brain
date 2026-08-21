@@ -543,7 +543,7 @@ cuciture documentali e non tematiche.
 
 | Pacchetto | Grezzi | Perche' stanno insieme |
 |---|---|---|
-| **3A** riesame della direzione | verbale + cruscotto KPI | Il cruscotto **non è un documento a sé**: si intitola «riesame direzione» e dichiara «target definiti nel riesame del 12/03/2026». È il dato di ingresso del §5 del verbale |
+| **3A** riesame della direzione | verbale + cruscotto KPI | Il cruscotto **non è un documento a sé**: dichiara «target definiti nel riesame del 12/03/2026». ⚠️ *(Qui era scritto che ne fosse il dato di ingresso: il verso è stato corretto al secondo giro di giudizio di 3A — il cruscotto ne **discende**, e misura se quegli obiettivi reggano.)* |
 | **3B** politica e formazione | politica + registro presenze | Cosa l'azienda dichiara di volere, e se chi deve attuarlo è formato. ⚠️ **Rende scrivibile B6** (T102) |
 | **3C** certificazione e audit | certificato + rilievo + incarico + email | ⚠️ Vi cade **T83**, l'auditor annotato sette giorni prima delle date certificate |
 | **3D** i reclami | `PRO-QA-08` + segnalazione + RASFF | ⚠️ Fonte prescrittiva: **E37 scatta**. Vi cadono **T5 e T6** |

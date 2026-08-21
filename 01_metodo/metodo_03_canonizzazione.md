@@ -2287,6 +2287,46 @@ note → suite QA → revisore indipendente → correzioni propagate → suite Q
    l'archivio si guarda per intero — nella **tabella di tracciamento**, non in una nota che cita
    due grezzi.
 
+   ⚠️ **E50 — UN NUMERO CHE LA FONTE NON ENUNCIA È UN VALORE DERIVATO ANCHE QUANDO SI OTTIENE
+   CONTANDO, E SI SCRIVE COL MODO IN CUI È STATO OTTENUTO — OPPURE NON SI SCRIVE.** Vale per i
+   conteggi di elementi («tre indicatori», «sei mancati», «quattro azioni», «nove punti») e per
+   le posizioni ricavate guardando («la riga sopra la tabella», «il primo dell'elenco»).
+
+   ⚠️ **Perché non basta che il numero sia giusto.** Un conteggio esatto scritto senza la sua
+   provenienza è indistinguibile da uno sbagliato: chi rilegge non sa se sia stato **letto** o
+   **ottenuto**, e quindi non sa se ricontarlo. **La marca `(contate)` non certifica il numero:
+   dichiara che va ricontato.**
+
+   ⚠️ **La firma della specie, misurata su tre giri di giudizio**: *un conteggio esaustivo che ne
+   dichiara due dove la tabella ne porta tre*. Al lotto 3A è comparsa così cinque volte al
+   secondo giro e due al terzo — e **le cinque marcate `(contate)` erano tutte esatte, mentre le
+   sbagliate erano tutte non marcate**. La marca non rende esatto il conteggio: rende visibile
+   che è un conteggio.
+
+   ⚠️ **Quando il numero è il PUNTO della frase** — «l'unico», «tutti e nove», «nessuno» — allora
+   vale anche E47, e il perimetro va dichiarato insieme al modo.
+
+   ⚠️ **E51 — UN'AFFERMAZIONE NON PUÒ ESSERE SMENTITA DALLA NOTA CHE LA CONTIENE.** Titolo,
+   `summary` e corpo si rileggono **insieme e a ogni giro** (E30), e la contraddizione interna è
+   un difetto quanto l'affermazione falsa: chi legge la nota non sa a quale delle due metà
+   credere, e il retrieval mostra per prima quella che potrebbe essere la sbagliata.
+
+   | Le quattro forme in cui si presenta | Esempio misurato |
+   |---|---|
+   | **summary contro corpo** | il summary dice «due non conformità **conseguenti**», il corpo «senza dire che ne siano l'effetto» |
+   | **titolo contro corpo** | il titolo dice «che il registro **non mostra**», il corpo «questa fonte non lo dice» |
+   | **frase contro la propria tabella** | «le righe sono ordinate per numero», e la tabella tre righe sopra porta 4 prima di 5 |
+   | **due metà che si escludono** | «è il dato di ingresso del riesame» **e** «i suoi target vengono da lì» |
+
+   ⚠️ **Nasce dal correggere, non dallo scrivere.** Chi aggiunge una qualificazione in un punto
+   lascia in piedi la frase che quella qualificazione contraddice — e il difetto **non è visibile
+   leggendo la frase**: è visibile solo leggendo la nota intera. È il motivo per cui questa specie
+   sopravvive ai giri di giudizio che la producono.
+
+   ⚠️ **Il controllo è meccanico e va fatto a ogni giro**: si legge il titolo, poi il `summary`,
+   poi le affermazioni del corpo, **e si cerca la coppia che non regge insieme**. Se una delle due
+   è più cauta, vince la più cauta.
+
    ⚠️ **Quando il ciclo si ferma** (E26). Correggere riscrive, e riscrivere crea note nuove da
    giudicare: senza una regola d'arresto il giro può ripetersi all'infinito. La regola, in tre
    righe:

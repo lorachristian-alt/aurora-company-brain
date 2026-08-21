@@ -1,29 +1,7 @@
-## qa_provenance (perimetro: vault, 311 note)
+## qa_provenance (perimetro: vault, 324 note)
 
-- ERRORI: **11**
-- AVVISI: **71**
-
-### Errori
-
-| Nota | Riga | Controllo | Rilievo |
-|---|---|---|---|
-| `fatto-ccp-stato-al-riesame-2026.md` |  | provenance | citazione senza riscontro in nessuna fonte citata: «la Direzione prende atto che
-il TS-01 è il principale fattore di risch» |
-| `fatto-decisione-erp-rimandata.md` |  | provenance | citazione senza riscontro in nessuna fonte citata: «estrazione manuale dei dati spedizioni da più fogli Excel» |
-| `fatto-mock-recall-marzo-2026.md` |  | provenance | citazione senza riscontro in nessuna fonte citata: «estrazione manuale dei dati spedizioni da più
-fogli Excel» |
-| `fatto-riesame-straordinario-e-facolta-rsgq.md` |  | provenance | citazione senza riscontro in nessuna fonte citata: «Resta facoltà della RSGQ di convocare un riesame straordinario al
-veri» |
-| `fatto-risorse-adeguate-con-riserva.md` |  | provenance | citazione senza riscontro in nessuna fonte citata: «il magazzino ricambi critici non è presidiato» |
-| `fatto-risorse-adeguate-con-riserva.md` |  | provenance | citazione senza riscontro in nessuna fonte citata: «si riserva di valutare un
-inserimento in Qualità nel secondo semestre,» |
-| `fatto-sei-nc-aperte-oltre-sessanta-giorni.md` |  | provenance | citazione senza riscontro in nessuna fonte citata: «chiusura NC entro 30 gg ≥ 90 %» |
-| `fatto-sistema-adeguato-con-riserve.md` |  | provenance | citazione senza riscontro in nessuna fonte citata: «Il mantenimento delle certificazioni BRCGS grade AA e IFS Higher Level» |
-| `doc-azioni-deliberate-riesame-2026.md` |  | provenance | citazione senza riscontro in nessuna fonte citata: «recepisce la NC-2026-055 (sesamo in saletta R&D) e
-l'azione A11 del ri» |
-| `kpi-indicatori-2025-consuntivo.md` |  | provenance | citazione senza riscontro in nessuna fonte citata: «la produzione non libera le persone» |
-| `kpi-reclami-2025.md` |  | provenance | citazione senza riscontro in nessuna fonte citata: «Ali' saldature film, consumatore numero verde,
-Famila etichetta bio, p» |
+- ERRORI: **0**
+- AVVISI: **74**
 
 ### Avvisi
 
@@ -33,11 +11,13 @@ Famila etichetta bio, p» |
 | `fatto-cariche-f-gas-impianti-frigoriferi.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `fatto-ccp-stato-al-riesame-2026.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `fatto-contatori-reparto-meta-stabilimento.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
+| `fatto-cruscotto-colonne-mai-calcolate.md` |  | provenance | la fonte 'cruscotto_KPI_qualita_2026.xlsx' non aggancia nessuna affermazione della nota: rumore nel payload |
 | `fatto-decisione-erp-rimandata.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `fatto-due-elenchi-in-un-file-strumenti.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `fatto-due-nc-minori-audit-2026.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `fatto-giro-di-vite-seconde-firme-ccp3.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `fatto-integrita-log-allarmi-cf-02.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
+| `fatto-listeria-canalina-linea3-al-riesame.md` |  | provenance | la fonte 'cruscotto_KPI_qualita_2026.xlsx' non aggancia nessuna affermazione della nota: rumore nel payload |
 | `fatto-prodotto-non-segregato-deviazione-ccp2.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `fatto-repliche-shelf-life-l26130-divergenti.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `fatto-taniche-e-rifiuti-cip.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
@@ -63,6 +43,7 @@ verifiche n» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 | `questione-codice-allarme-pkm-450.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `questione-composizione-lavaggio-completo.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `questione-convalida-md-1800-scaduta-o-valida.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
+| `questione-due-registri-dei-tamponi.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `questione-due-registri-tarature-pt-104.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `questione-durata-deviazione-ccp2-l26130.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `questione-posizione-md-3200-in-linea.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |

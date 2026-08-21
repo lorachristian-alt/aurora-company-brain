@@ -1,0 +1,66 @@
+# Note del lotto 3A — il riesame della direzione e i suoi dati di ingresso.
+#
+# ⚠️ E37 NON SCATTA SU QUESTO LOTTO, ed è una decisione motivata e non un'omissione:
+# né il verbale di riesame né il cruscotto KPI sono fonti prescrittive secondo
+# `06_operativo\fonti_prescrittive_corpus_v1.md`. Il verbale DELIBERA e il cruscotto
+# MISURA; nessuno dei due fissa una regola che altre note debbano citare.
+# La riconciliazione verticale arretrata scatterà su 3B (la politica), 3D
+# (`PRO-QA-08`) e 3E (la procedura di ritiro).
+#
+# RICONTEGGIO DEI FATTI IN APERTURA (E21), rifatto sui grezzi letti per intero:
+#   verbale ...... 28 note   (era stimato 22 al ripacchettamento)
+#   cruscotto ...... 8 note   (era stimato 12)
+#   totale ......... 36 note  — due sopra la stima di 34, e all'ESTREMO ALTO della
+#   capienza di E31 (25-35). ⚠️ Sotto la soglia dei 40 oltre la quale E28 impone lo
+#   spezzamento comunque, quindi il lotto NON si spezza — ma se la scrittura sfora
+#   i 40 si spezza in corsa, e questa riga è il patto scritto prima di cominciare.
+# --- da qui in giu': note toccate in corso di lotto (E32) ---
+# Preesistenti, che il lotto modifica senza citarne i grezzi.
+area-qualita
+_index-data
+_index-docs
+_index-areas
+# --- da qui in giu': note NATE in questo lotto ---
+
+doc-riesame-direzione-2026
+fatto-azioni-riesame-2025-non-tutte-chiuse
+fatto-audit-csqa-febbraio-2026-esito
+fatto-due-nc-minori-audit-2026
+fatto-evidenze-audit-oltre-termine
+fatto-audit-interni-2025-nove-su-dieci
+fatto-audit-cliente-tosano-novembre
+kpi-reclami-2025
+questione-nc-interne-registrate-su-mod-qa-31
+fatto-sei-nc-aperte-oltre-sessanta-giorni
+fatto-costo-non-qualita-2025-parziale
+kpi-indicatori-2025-consuntivo
+fatto-mock-recall-marzo-2026
+fatto-ccp-stato-al-riesame-2026
+fatto-tarature-92-percento-al-riesame
+kpi-vendor-rating-2025
+fatto-listeria-canalina-linea3-al-riesame
+fatto-turnover-linea2-e-domeniche
+fatto-straordinari-oltre-limite-linea2
+fatto-formazione-2025-sotto-obiettivo
+fatto-risorse-adeguate-con-riserva
+fatto-investimento-tunnel-confermato
+fatto-decisione-erp-rimandata
+fatto-revisione-modulistica-ccp
+fatto-digitalizzazione-archivio-rinviata
+fatto-politica-riconfermata-senza-modifiche
+kpi-obiettivi-2026-avanzamento
+doc-azioni-deliberate-riesame-2026
+fatto-sistema-adeguato-con-riserve
+fatto-riesame-straordinario-e-facolta-rsgq
+doc-cruscotto-kpi-2026
+kpi-indicatori-mensili-2026
+fatto-cruscotto-colonne-mai-calcolate
+fatto-maggio-fuori-scala
+fatto-ore-formazione-crollate
+kpi-registro-reclami-2026
+kpi-pareto-cause-nc-2026
+kpi-tamponi-per-zona-2026
+questione-mock-recall-due-ore-o-quattro
+kpi-costo-non-qualita-due-totali
+questione-due-registri-dei-tamponi
+questione-cruscotto-e-obiettivi-non-si-mappano

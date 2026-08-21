@@ -26,13 +26,13 @@
 
 | | |
 |---|---|
-| Lotti chiusi | **7 di canonizzazione** — `l26130` (fetta pilota, S2), **`1A`** (Linea 1: turno, CCP, confezionatrice), **`1B`** (freddo ed energia), **`1C`** (metrologia e gas tecnici), **`2A`** (il lavaggio CIP), **`2B`** (l'autocontrollo analitico) e **`2B-bis`** (gli allergeni) — **più `R1`**, il primo **lotto di manutenzione** (E35), approvato al suo gate il 19/08/2026. ⚠️ **R1 vale un lotto nel ritmo ma NON entra nella serie della capacità** (E38): misura riparazioni, non produzione |
+| Lotti chiusi | **8 di canonizzazione** — `l26130` (fetta pilota, S2), **`1A`** (Linea 1: turno, CCP, confezionatrice), **`1B`** (freddo ed energia), **`1C`** (metrologia e gas tecnici), **`2A`** (il lavaggio CIP), **`2B`** (l'autocontrollo analitico) **`2B-bis`** (gli allergeni) e **`3A`** (il riesame della direzione) — **più `R1`**, il primo **lotto di manutenzione** (E35), approvato al suo gate il 19/08/2026. ⚠️ **R1 vale un lotto nel ritmo ma NON entra nella serie della capacità** (E38): misura riparazioni, non produzione |
 | Grezzi copiati nel vault | 160/160, verificati contro `manifest_corpus_v1.1.json`: zero scarti, zero estranei, zero sottocartelle |
 | I conteggi del vault | nel blocco qui sotto, **incollato verbatim** da `conta_stato.py` |
 | Suite QA | **verde sul perimetro di lotto**; ⚠️ **dal gate del 21/08 la provenance legge l'ESTRAZIONE DI CANTIERE** (E48), che aggiunge marcati formule e barrato — l'estrattore di misura resta byte-identico e `estrazione_cantiere.py --prova` lo dimostra su tutti i 161 grezzi; sul vault tre controlli su quattro sono a zero errori. ⚠️ Dal gate di 2A la QA ha **due controlli nuovi**: l'artefatto di ricerca che E43 impone a chi dichiara un'assenza, e **l'omogeneità dei fine riga** — il primo controllo del progetto che non guarda il contenuto di una nota ma il suo **supporto** |
 | `llms.txt` | rigenerato dal frontmatter, allineato |
 | Matrice dei lotti | 160/160 grezzi, zero scoperti, zero doppi (`verifica_matrice_lotti.py` verde). ⚠️ **I budget dei lotti 2-10 sono SUPERATI** e il piano non è più a 12 lotti: vale **E31**, la capacità di 25-35 note per lotto, e i grezzi si decidono in apertura. **Stima: circa 28-30 lotti**, scritta anche nella scaletta perché cambia il calendario di S4-S5. Ridisegnato in dettaglio **solo il tema 2** (2A · 2B · 2C) |
-| **PROSSIMO ATTO** | **Il lotto 3A — il riesame della direzione e i suoi dati di ingresso** *(verbale + cruscotto KPI)*. ⚠️ **Il tema 3 è già stato ripacchettato**: cinque pacchetti, cuciture motivate, conteggio dei fatti fatto, obblighi mappati — **3A si apre e basta**. ⚠️ **Il cruscotto porta 65 formule mai calcolate** ed è il primo lotto che esercita l'estrazione di cantiere su dati veri: il rapporto dovrà dichiarare **quanti riscontri arrivino dallo strato `[FORMULA]`**. ⚠️ **E37 NON scatta su 3A** — né il verbale né il cruscotto sono fonti prescrittive — mentre scatterà su 3B, 3D e 3E |
+| **PROSSIMO ATTO** | **Il gate del lotto 3A**, e poi il pacchetto **3C** *(certificazione e audit)*. ⚠️ **3C va anticipato rispetto a 3B**: il rapporto d'audit porta **sette divergenze** che il canone registra e il vault non può scrivere, **due delle quali correggono cose già scritte** — il termine delle evidenze è il 18/03 e non il 17, e la questione che il lotto R1 lasciò aperta sulla rivalidazione del CCP2 **ha una risposta**. Una terza riguarda **un avviso di riduzione del grade AA** che il vault non sa |
 
 ⚠️ **Errata del 19/08/2026 sui numeri del lotto 1A.** Questo stato dichiarava «105 note, di
 cui 11 `_index` e 6 note-strumento: 88 di contenuto». `qa_all.py` a chiusura di 1A contava
@@ -42,22 +42,22 @@ prescrive la regola del gate 1A.
 
 ## I conteggi, da script
 
-<!-- CONTEGGI DEL VAULT — generati da `06_operativo\qa\conta_stato.py` il 2026-08-21.
+<!-- CONTEGGI DEL VAULT — generati da `06_operativo\qa\conta_stato.py` il 2026-08-22.
      Si incollano VERBATIM: non si ricompongono a mano, non si riscrivono in prosa. -->
 
 | Grandezza | Valore |
 |---|---|
-| Note nel vault | **281** |
+| Note nel vault | **324** |
 | di cui `_index` | 11 |
 | di cui note-strumento del progetto | 15 |
-| di cui note di diario (`sessione`, `daily`) | 7 |
-| **di cui note di contenuto** | **248** |
-| Note per cartella | areas 151 · docs 31 · data 29 · entities 27 · code 16 · workspace 10 · projects 8 · concepts 6 · self 1 · outputs 1 · sources 1 |
-| Note per `type` | atomica 177 · conflitto 46 · entita 22 · hub 13 · index 11 · sessione 7 · concetto 5 |
-| Questioni aperte (`type: conflitto`) | 46 |
+| di cui note di diario (`sessione`, `daily`) | 8 |
+| **di cui note di contenuto** | **290** |
+| Note per cartella | areas 181 · data 38 · docs 34 · entities 27 · code 16 · workspace 11 · projects 8 · concepts 6 · self 1 · outputs 1 · sources 1 |
+| Note per `type` | atomica 215 · conflitto 50 · entita 22 · hub 13 · index 11 · sessione 8 · concetto 5 |
+| Questioni aperte (`type: conflitto`) | 50 |
 | Grezzi in `sources\` | 160 |
-| Grezzi citati da almeno una nota | **43** |
-| Grezzi restanti | **117** |
+| Grezzi citati da almeno una nota | **45** |
+| Grezzi restanti | **115** |
 
 ⚠️ **Questo blocco non si riscrive a mano.** Nasce al gate del lotto 1B da due sviste di
 conteggio in due lotti — 46 contro 32 nel rapporto 1A, 105 e 88 in questo stato quando
@@ -471,6 +471,34 @@ giudizio, e senza il secondo giro sarebbe rimasta.
 | chiusa | **2** | T20, T33 |
 | tracciata | **26** | T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T19, T21, T29, T31, T34, T39, T40, T41, T49, T50, T51, T52, T53, T54 |
 | **totale righe** | **54** | da T1 a T54, nessuna mancante e nessuna duplicata |
+
+## Il lotto 3A, chiuso il 22/08/2026 — il riesame della direzione
+
+**Due grezzi**, il verbale di riesame del 12/03 e il cruscotto degli indicatori. **42 note nate**,
+54 controllate, **0 errori e 28 avvisi** sul perimetro di lotto alle 01:38:50.
+
+⚠️ **Primo impiego dell'estrazione di cantiere su dati veri, e il ritrovamento non è un numero
+mancante**: delle 65 formule del cruscotto, quelle della colonna «Stato» contengono **il verso di
+ogni confronto** — se il target sia un tetto o un pavimento la tabella non lo dice, lo dice la
+formula, e cambia riga per riga.
+
+⚠️ **Due emendamenti da due criteri scritti in anticipo, verificati nello stesso giro**: **E50**
+*(un numero che la fonte non enuncia è derivato anche quando si ottiene contando)* e **E51**
+*(un'affermazione non può essere smentita dalla nota che la contiene)*. Il registro passa a **51**.
+
+⚠️ **La diagnosi del revisore, che il lotto si porta dietro**: ha letto i due grezzi come
+documenti, **quasi mai uno contro l'altro e mai contro il vault**. Le tre omissioni più costose
+erano in casa — il costo della non qualità con **due totali diversi nello stesso file**, lo stesso
+indicatore che vale 6.800 in un grezzo e 2.400 nell'altro, cinque reclami contro tre nella stessa
+finestra.
+
+⚠️ **E la più grave era stata esclusa in apertura per una decisione scritta**: «E37 non scatta su
+questo lotto». L'argomento era corretto — il verbale delibera e non prescrive — **ma il verbale
+cita un criterio prescrittivo e lo cambia**, e il mock recall risulta dentro il limite per due
+fonti e fuori per il riesame.
+
+**Quindici divergenze nuove nel canone**, di cui **sette non scrivibili**: stanno dietro al
+rapporto d'audit, che nessun lotto ha aperto. Il dettaglio in `rapporto_lotto_03a.md`.
 
 ## Il gate del tema 3, 21/08/2026 — ratifiche e adempimenti minori
 

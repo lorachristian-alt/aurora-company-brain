@@ -746,3 +746,161 @@ registro della formazione. **Una sola è intra-file** (B4), e una è di merito (
 (All. 12) e non lo cita mai; nomina `IO-05` e ne cambia il contenuto; nomina `MOD-QA-31` e
 intende `MOD-QA-18`; nomina `MOD-QA-19` per registrazioni che quel registro non porta. **Il
 canone lo registra come tratto del documento**, non come una serie di sviste indipendenti.
+
+---
+
+## Divergenze nuove — revisione del lotto 3A, 22/08/2026
+
+> **Come è nata questa sezione** · Revisione indipendente del lotto 3A (il riesame della
+> direzione e il cruscotto KPI), passo 3 di `metodo_03` §9.5, eseguita da un revisore a
+> contesto pulito col canone alla mano (E45).
+> ⚠️ **È la sezione più ricca che il progetto abbia prodotto: quindici divergenze**, e la
+> ragione è nella diagnosi del revisore — **il lotto ha letto i due grezzi come documenti,
+> quasi mai uno contro l'altro e mai contro il vault che aveva intorno.**
+> ⚠️ **Sette voci non sono scrivibili in nessuna nota** (divieto 9-bis) e stanno in fondo, in
+> C7: poggiano sul rapporto d'audit, che nessun lotto ha ancora canonizzato.
+
+### C1 · Il mock recall del 10/03: conforme per due fonti, non conforme per il riesame
+
+`manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt`: «mock recall annuale (`PRO-QA-14`) con
+obiettivo di ricostruzione **≥ 99% entro 4 h**».
+`non_conformita_interne_registro_2026.csv`, `NC-2026-044`: le 3 h 50 sono «**entro il limite di
+4 h della `PRO-QA-14`** ma vicino alla soglia», gravità **media**.
+`verbale_riesame_direzione_SGQ_2026.txt` §5.3: «contro obiettivo **2 h** (**NON conforme**)».
+
+⚠️ **Il verbale prende metà del criterio del manuale e cambia l'altra metà**: applica la soglia
+del 99 % sul bilancio di massa e sostituisce il tempo. ⚠️ **E dalla non conformità discendono un
+obiettivo 2026 a zero e il rinvio della decisione sul gestionale.** È la divergenza più pesante
+del lotto, ed è scritta nel vault: `questione-mock-recall-due-ore-o-quattro`.
+
+### C2 · I reclami di gennaio-febbraio 2026: cinque nel verbale, tre nel registro, e nessuno coincide
+
+`verbale…` §4.2: «n. **5** (Ali' saldature film, consumatore numero verde, Famila etichetta bio,
+piu' 2 minori)».
+`cruscotto_KPI_qualita_2026.xlsx`, foglio «Reclami»: **tre** righe nel bimestre, e sono peso
+sotto tolleranza *(Tosano)*, confezione non sigillata *(consumatore dal **form del sito**)*,
+muffa a 5 gg dal TMC *(Alì)*.
+
+⚠️ **Nessuna delle tre coincide con le tre descritte**: l'unico reclamo Alì è per muffa e non per
+saldature, l'unico consumatore è arrivato dal form e non dal numero verde, e **«Famila» non
+compare fra i reclami di nessun registro**.
+
+### C3 · Lo stesso indicatore con due target a un ordine di grandezza di distanza
+
+`verbale…` §10.1: «Reclami / mio pezzi · **< 0,85**». `cruscotto…` riga 6: «Reclami cliente per
+milione di pz (ppm) · target **8**».
+
+⚠️ **E il cruscotto dichiara di derivare i target da quel riesame.** ⚠️ *(Una gamba non è
+scrivibile: `PRO-QA-08` porta «Obiettivo 2026: < 8,0» su un denominatore diverso — **confezioni**
+invece di **pezzi** — ed è il grezzo del lotto 3D.)*
+
+### C4 · Il cruscotto e la tabella obiettivi non si mappano
+
+**Due target su dieci contraddicono il verbale**; **quattro obiettivi del riesame non hanno riga
+nel cruscotto**, fra cui l'unico giudicato non raggiungibile; **cinque righe del cruscotto non
+hanno un obiettivo nel riesame**. ⚠️ **Il documento che dovrebbe dire se gli obiettivi reggano
+misura in larga parte altro.** Nel vault: `questione-cruscotto-e-obiettivi-non-si-mappano`.
+
+### C5 · Il costo della non qualità al 28/02: 6.800 nel verbale, 2.400 nel cruscotto
+
+`verbale…` §10.1: «**6.800** al 28/02». `cruscotto…` riga 12: gennaio 980 + febbraio 1.420 =
+**2.400** *(somma)*. ⚠️ **Stesso indicatore, stessa data, 2,8 volte di scarto fra i due grezzi
+dello stesso lotto.**
+
+### C6 · Il costo gen-mag vale 24.420 in un foglio e 39.500 nell'altro, nello STESSO file
+
+Foglio «KPI mensili», riga 12: **24.420 €** *(somma)*. Foglio «NC per causa», colonna dei costi:
+**39.500 €** *(somma)*. ⚠️ **Il canone già portava i due valori senza dire che sono lo stesso
+workbook.** Nel vault: `kpi-costo-non-qualita-due-totali`.
+
+### C7 · Le deviazioni CCP: il cruscotto le colloca nel mese sbagliato
+
+`verbale…` §5.4 e `non_conformita_interne_registro_2026.csv` datano l'unica deviazione al
+**14/01/2026** (`NC-2026-006`); `cruscotto…` riga 9 dà **gennaio 0** e **febbraio 1**. ⚠️ Il
+totale al 28/02 coincide, il mese no.
+
+### C8 · L'analisi di Pareto conta 56 non conformità dove il registro ne ha 119
+
+`cruscotto…`, «NC per causa»: 14+11+9+7+6+4+5 = **56** *(somma)*; la cella `TOTALE` è una formula
+mai calcolata. `non_conformita_interne_registro_2026.csv`, stesso periodo: **119 righe**, di cui
+73 chiuse. ⚠️ **56 non è né il totale né le chiuse, e il perimetro non è dichiarato.** Corollario:
+«NC aperte a fine mese» dà **19** a maggio, il registro ne ha **43** non chiuse.
+
+### C9 · La Listeria del 24/02: l'azione raddoppia la frequenza in zona 2, l'evento è in zona 3
+
+Il verbale §6.3 e il registro delle NC collocano l'evento sulla **canalina di Linea 3**, e il
+registro dei tamponi censisce quel punto in **zona 3**; l'azione verbalizzata raddoppia la
+frequenza **in zona 2**. ⚠️ **Aggiunge una gamba a B3 del lotto 2B e la sposta più in alto**:
+l'azione non è più solo annotata da chi compila, è **verbalizzata davanti alla direzione** — e
+con il perimetro sbagliato.
+
+### C10 · Il cruscotto dei tamponi non è ricavabile da `MOD-QA-19`
+
+Nove punti contro ventuno; le guarnizioni della cella in **zona 2** qui e in **zona 1** nel
+registro; una **«zona 4»** che il registro non ha; punti fra i più campionati assenti; e
+percentuali che **nessun numero di prelievi del registro può produrre** — al massimo sette in un
+mese. ⚠️ **Due registri paralleli della stessa grandezza, nessuno dichiarato prevalente**: è la
+famiglia isolata nel lotto 1C. Nel vault: `questione-due-registri-dei-tamponi`.
+
+### C11 · Le tarature in scadenza a marzo che il registro degli strumenti non ha
+
+`verbale…` §6.1: «In scadenza marzo: **termometro campione di laboratorio** e **2 sonde
+spillone**». `elenco_attrezzature_taratura_strumenti_2026.csv`: **nessun «termometro campione»**;
+le due sonde spillone scadono nel **2027**; le sole scadenze di marzo 2026 sono due strumenti
+**già `SCADUTO`**. ⚠️ **Un'attestazione resa alla direzione contro il registro che dovrebbe
+sostenerla**, ed è la specie isolata in 1C.
+
+### C12 · «Settimane 19-21» è una quarta versione delle domeniche della promo
+
+`verbale…` §7.2 le colloca in «**aprile-maggio**»; `piano_produzione_settimanale_sett19_21.xlsx`
+fa cominciare la settimana 19 il **04/05**. ⚠️ **Nelle settimane che il verbale nomina non cade
+nessuna domenica di aprile**, e il 10/05 è già «la terza domenica consecutiva». Quarta versione
+di un insieme che il canone porta già in tre.
+
+### C13 · La clausola IFS della NC di audit
+
+`verbale…` §3.2: «rif. BRCGS 9 cl. 2.10.2 / **IFS 2.3.9.2**». `non_conformita_interne_registro_2026.csv`,
+`NC-2026-028`: «/ **IFS 5.1.2**». ⚠️ **Vince il verbale** — il rapporto d'audit scrive 2.3.9.2 —
+ma la divergenza fra i due grezzi canonizzati resta, e il registro delle NC porta la clausola
+sbagliata.
+
+### C14 · La tabella delle azioni perde i co-responsabili che il corpo del verbale nomina
+
+§5.2 «**Zanella e Faggionato** presenteranno» → `A4` solo Faggionato. §7.2 «incarica **HR e il
+Responsabile Produzione**» → `A5` solo Sartori. §6.2 «mandato all'**ufficio acquisti**» → `A7`
+Trentin, che il §1 colloca in Amministrazione. ⚠️ **Incoerenza intra-file, sull'unica tabella che
+va in bacheca ai reparti come estratto.**
+
+### C15 · Il consuntivo 2025 è chiuso con un evento del 2026, fuori dal periodo dichiarato
+
+Il riesame «copre il periodo 01/01/2025 - 28/02/2026»; l'ultima riga del consuntivo 2025 —
+«Mock recall entro 2 h · **v. 5.3** · NO» — rimanda a un evento del **10/03/2026**, **posteriore
+di due giorni alla riunione**.
+
+### C16 · ⚠️ NON SCRIVIBILI IN NESSUNA NOTA — `Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt`
+
+**Nessuna delle 322 note del vault cita questo file, e nessun lotto lo ha canonizzato.** Le sette
+voci qui sotto sono vere e appartengono al canone; **il vault le aspetta** (divieto 9-bis). ⚠️ **È
+la vena più ricca del perimetro di 3A, e sta dietro a un file che il progetto non ha ancora
+aperto.**
+
+1. **Il termine è il 18/03, non il 17/03**: «entro 28 gg dalla **riunione di chiusura**, ossia
+   entro il **18/03/2026**». Il vault ha canonizzato il 17/03 e i «sedici giorni» fino al titolo
+   di una nota; con il 18/03 sono **quindici**.
+2. **«2 NC minori» è un rendiconto parziale**: il rapporto dà «0 NC maggiori, 2 NC minori **e 5
+   osservazioni**», e le chiude come «NC nn. 1-7». Il verbale le osservazioni non le nomina.
+3. **Due termometri dei CCP con taratura scaduta dal 30/11/2025** — matricole `TP-08` e `TP-11`,
+   che **non esistono nel registro degli strumenti**, mentre il §6.1 dichiara il 92 % in validità.
+4. **Il seguito del ritardo**: sollecito PEC del 20/03, nuovo termine perentorio 01/04, arrivo il
+   02/04, e l'avviso che «in caso di reiterazione… comportera' la segnalazione ai fini del grading
+   BRCGS (**riduzione a grade A**)». ⚠️ **Il vault sa del ritardo e non sa che il grade AA — che
+   la direzione chiama «obiettivo primario» — è stato messo in guardia.**
+5. **La rivalidazione del CCP2 ha una risposta**: la questione aperta dal lotto R1 chiedeva se
+   fosse stata rifatta; l'ente dichiara che «non risulta ancora formalizzata» e che la validazione
+   2021 «resta tecnicamente applicabile».
+6. **Terza gamba sul limite di 4 h**: il test di rintracciabilità dell'audit è «2 h 50 min —
+   **ESITO: CONFORME**», e il mock recall 2025 «esito conforme». Con un obiettivo di 2 h nessuno
+   dei due lo sarebbe.
+7. **Formazione allergeni: quattro operatori, non tre.** L'osservazione ne conta **quattro**
+   assunti «tra ottobre 2025 e gennaio 2026»; `NC-2026-015` ne dichiara **tre**. ⚠️ E i quattro
+   rimpiazzi sono un dato sul turnover che il §7.1 del verbale non porta.

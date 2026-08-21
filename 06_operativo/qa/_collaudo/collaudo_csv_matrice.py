@@ -16,9 +16,13 @@ nome di una nota, perche' lo slittamento dei campi spostava la nota nella colonn
 lotto. Sono rimaste li' per un lotto intero senza che nessuno le guardasse.
 
 IL DIFETTO CHE QUESTO COLLAUDO PIANTA, e il verso conta:
-una riga malformata dev'essere **RIFIUTATA IN SCRITTURA**, non scoperta in lettura. Un
-controllo in lettura arriva sempre dopo il danno; un controllo in scrittura lo impedisce,
-e lascia sul disco il file vecchio e integro invece di uno nuovo e mezzo.
+una riga che **non sopravvive al giro di andata e ritorno** dev'essere rifiutata **in
+scrittura**, non scoperta in lettura. Un controllo in lettura arriva sempre dopo il danno;
+un controllo in scrittura lo impedisce, e lascia sul disco il file vecchio e integro.
+
+⚠️ **E il controllo guarda l'EFFETTO, non la forma del campo.** La prima stesura vietava il
+separatore dentro un campo, e ha rifiutato la prima scrittura legittima che ha incontrato:
+`csv` quota da se', e il punto e virgola in un summary e' punteggiatura, non un difetto.
 
 Uso:
     python collaudo_csv_matrice.py
@@ -38,18 +42,26 @@ def riga(fatto, lotto="1B"):
             "nota_padrona_prevista": "fatto-esempio", "lotto": lotto, "stato": "fatta"}
 
 
+# ⚠️ RIVISTO IL 22/08/2026, dopo che la guardia ha rifiutato la prima scrittura legittima
+# che ha incontrato. Un punto e virgola dentro un campo NON e' un difetto: `csv` lo quota e
+# il giro di andata e ritorno torna — e il punto e virgola dentro un summary e' punteggiatura
+# italiana normale, presente in decine di note del vault.
+# ⚠️ **Il difetto e' la PERDITA nel giro**, non la forma del campo: questi casi scrivono
+# davvero su un temporaneo, rileggono e confrontano.
 CASI = [
     # (etichetta, riga, deve_essere_rifiutata)
     ("la riga pulita passa",
      riga("Porta della cella aperta 38 minuti il 15/04 con allarme a cinque minuti"), False),
-    ("il separatore dentro il campo `fatto` — il caso vero del 21/08",
-     riga("presa in carico a NO; l'episodio si ripete il 30/05 e diventa NC-2026-114"), True),
+    ("il separatore dentro il campo `fatto` viene quotato e riletto uguale",
+     riga("presa in carico a NO; l'episodio si ripete il 30/05 e diventa NC-2026-114"), False),
     ("il separatore dentro un altro campo",
-     riga("un fatto qualunque", lotto="1B;2A"), True),
+     riga("un fatto qualunque", lotto="1B;2A"), False),
     ("un ritorno a capo dentro il campo",
-     riga("un fatto\nspezzato in due righe"), True),
-    ("una virgoletta nuda dentro il campo",
-     riga('un fatto con "virgolette" dritte'), True),
+     riga("un fatto\nspezzato in due righe"), False),
+    ("una virgoletta dentro il campo",
+     riga('un fatto con "virgolette" dritte'), False),
+    ("un campo che NON e' una stringa viene rifiutato",
+     riga(12345), True),
 ]
 
 
@@ -60,6 +72,8 @@ def main():
     esiti = []
     for etichetta, r, atteso in CASI:
         guasti = G.controlla_riga(r, "riga di collaudo")
+        if not guasti:
+            guasti = G.prova_andata_e_ritorno([r])
         rifiutata = bool(guasti)
         ok = (rifiutata == atteso)
         esiti.append(ok)

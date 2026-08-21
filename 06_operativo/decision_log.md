@@ -1699,3 +1699,48 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   alla disciplina consolidata. ⚠️ **Il criterio precede l'esperimento, sempre**: diventa
   emendamento se ricompare al terzo giro di **3A** su note nate dal lotto, e se non ricompare la
   riga **non si chiude da sola**. Nessun promemoria a 3A.
+- **2026-08-22** · **E50 ED E51: DUE CRITERI PRE-REGISTRATI SI SONO AVVERATI NELLO STESSO GIRO** ·
+  al terzo giro di giudizio del lotto 3A entrambe le specie sorvegliate compaiono **su note nate
+  dal lotto**, che era la condizione scritta in anticipo. ⚠️ **E50 — il conteggio che la fonte non
+  enuncia**: il dato che ne ha deciso la forma e' che al terzo giro **le cinque cifre marcate
+  `(contate)` erano tutte esatte e quelle sbagliate erano tutte non marcate**. La marca non
+  certifica il numero: **dichiara che va ricontato**. ⚠️ **E51 — l'affermazione smentita dalla nota
+  che la contiene**: nasce dal CORREGGERE, non dallo scrivere, ed e' per questo che sopravvive ai
+  giri di giudizio che la producono. ⚠️ **La sua istanza piu' istruttiva non e' in una nota ma in
+  un documento di metodo**: la motivazione del pacchetto 3A diceva che il cruscotto fosse «il dato
+  di ingresso del riesame» **e** che «i suoi target vengono da li'».
+- **2026-08-22** · ⚠️ **LA RICONCILIAZIONE VERTICALE NON SI DECIDE SULLA NATURA DEL DOCUMENTO, MA
+  SU CHE COSA IL DOCUMENTO FA** · l'apertura di 3A dichiaro' che E37 non scattava perche' ne' il
+  verbale ne' il cruscotto sono fonti prescrittive. **L'argomento era formalmente corretto e la
+  conclusione sbagliata**: il verbale **cita un criterio prescrittivo e lo cambia** — il mock
+  recall, che il manuale HACCP fissa a «≥ 99% entro 4 h» e il registro delle NC registra come
+  dentro quel limite, il riesame lo dichiara **NON conforme** contro un obiettivo di 2 h.
+  ⚠️ **Il costo e' misurabile**: e' la divergenza piu' pesante del lotto, e il lotto se l'era
+  preclusa per iscritto.
+- **2026-08-22** · **LE NOTE NATE DALLA REVISIONE HANNO UN TASSO DI DIFETTO MOLTO PIU' ALTO DI
+  QUELLE NATE DAL CICLO** · il ri-giudizio dopo la revisione ha prodotto **43 rilievi e 16 errori**,
+  piu' del terzo giro, e **quasi tutti sulle quattro note nate dalla revisione**. ⚠️ **Nascono da
+  una divergenza gia' trovata da qualcun altro, si scrivono in fretta per non perderla, e non
+  passano i tre giri che le altre hanno passato.** ⚠️ **Il caso peggiore**: la questione sul mock
+  recall citava `PRO-QA-14` **cinque volte senza averlo letto**, e quel documento e' nel corpus.
+  **E' un pattern nuovo e non ha ancora una regola.**
+- **2026-08-22** · **LA GUARDIA DEL CSV HA RIFIUTATO LA PRIMA SCRITTURA LEGITTIMA CHE HA
+  INCONTRATO** · vietava che un campo CONTENESSE il separatore, e sbagliava bersaglio: `csv.DictWriter`
+  **quota da se'**, e il punto e virgola dentro un summary e' punteggiatura italiana, presente in
+  decine di note. ⚠️ **Il difetto vero non era la forma del campo: era la PERDITA nel giro di andata
+  e ritorno** — le tre righe rotte del 21/08 erano state scritte senza quoting da un percorso
+  diverso. La guardia ora **scrive su un temporaneo, rilegge e confronta cella per cella**: e' un
+  controllo **piu' forte**, perche' guarda l'effetto invece della forma.
+- **2026-08-22** · **`qa_frontmatter` VIETAVA LA FORMA CHE E48 PRESCRIVE** · il campo
+  `verifica: strutturale` era impossibile: il controllo lo rifiutava su qualunque nota senza
+  `.jpg`. ⚠️ **Una regola in vigore che lo strumento rende inapplicabile e' una regola che non
+  esiste**, e nessuno se n'era accorto perche' nessun lotto aveva ancora avuto un fatto letto da
+  formula. Corretto a perimetro chiuso: `strutturale` e' ammesso **solo se almeno una fonte porta
+  davvero uno strato di cantiere**.
+- **2026-08-22** · **IL LOTTO 3A HA SFORATO IL PROPRIO PATTO DI APERTURA, E LO DICHIARA** ·
+  conteggio dichiarato prima di scrivere **36 note**, scritte **38**, e **quattro** aggiunte dalla
+  revisione: **42**, oltre la soglia dei 40 di E28. ⚠️ **Il patto diceva «se sfora si spezza in
+  corsa» e non e' stato fatto**: le quattro oltre il tetto sono nate **dalla revisione**, a lotto
+  gia' giudicato tre volte, e spezzare li' avrebbe significato rifare il ciclo su due lotti.
+  ⚠️ **Ma la regola non distingue fra sforare SCRIVENDO e sforare per divergenze trovate DOPO**, e
+  quella distinzione spetta al gate. Riga **T117**.

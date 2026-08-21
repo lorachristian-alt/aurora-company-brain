@@ -15,6 +15,7 @@ import argparse, os, re, sys
 from datetime import date, datetime
 
 import qa_comune as Q
+import estrazione_cantiere as EC
 
 CONTROLLO = "frontmatter"
 
@@ -151,12 +152,33 @@ def controlla(nota, rep, oggi, nomi_manifest, aree_con_hub):
                        % (date_lette["data_fatto"], date_lette["data_nota"]))
 
     # --- fonti ----------------------------------------------------------------
+    #
+    # ⚠️ IL CAMPO `verifica` HA DUE VALORI, E CIASCUNO HA LA SUA CONDIZIONE.
+    #   `visiva`      -> la nota cita un `.jpg`, che l'estrattore congelato non legge (§2.3).
+    #   `strutturale` -> il riscontro sta in uno STRATO DI CANTIERE (E48): una formula di
+    #                    foglio di calcolo o un passaggio barrato. Sono cose che stanno nel
+    #                    file e che il testo estratto non restituisce come tali.
+    #
+    # ⚠️ IL PERIMETRO E' CHIUSO, ed e' la condizione di §4.9 per un fix che ALLENTA: prima
+    # del 21/08/2026 questo controllo vietava il campo `verifica` su qualunque nota senza
+    # `.jpg`, e quindi rendeva impossibile la forma che E48 prescrive. Ora `strutturale` e'
+    # ammesso **solo** se almeno una fonte porta davvero uno strato — non basta dichiararlo.
+    # Il collaudo pianta entrambi i versi: una nota che lo dichiara e ha lo strato deve
+    # passare, una che lo dichiara senza strato deve restare rossa.
     fonti = nota.fonti
     ha_jpg = any(str(f).lower().endswith((".jpg", ".jpeg")) for f in fonti)
-    if ha_jpg and fm.get("verifica") != "visiva":
+    ha_strati = any(EC.strati(str(f)) for f in fonti)
+    v = fm.get("verifica")
+    if ha_jpg and v != "visiva":
         rep.errore(n, CONTROLLO, "fonti contiene un .jpg: serve `verifica: visiva` (§2.3)")
-    if not ha_jpg and fm.get("verifica") is not None:
-        rep.errore(n, CONTROLLO, "`verifica` presente ma nessuna fonte .jpg")
+    elif v == "strutturale" and not ha_strati:
+        rep.errore(n, CONTROLLO,
+                   "`verifica: strutturale` ma nessuna fonte porta uno strato di cantiere "
+                   "(formule o barrato): E48 chiede il riscontro, non la dichiarazione")
+    elif v is not None and v not in ("visiva", "strutturale"):
+        rep.errore(n, CONTROLLO, "`verifica` ammette solo `visiva` o `strutturale`: «%s»" % v)
+    elif not ha_jpg and v == "visiva":
+        rep.errore(n, CONTROLLO, "`verifica: visiva` ma nessuna fonte .jpg")
 
     for f in fonti:
         f = str(f)

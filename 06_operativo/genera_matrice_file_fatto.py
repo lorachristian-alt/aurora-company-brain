@@ -69,15 +69,52 @@ def righe_esistenti():
     return righe
 
 
+# ⚠️ CORRETTA IL 22/08/2026, ALLA PRIMA ESECUZIONE VERA. La prima stesura vietava che un
+# campo CONTENESSE il separatore, e sbagliava bersaglio: `csv.DictWriter` **quota** da se'
+# i campi che lo contengono, quindi scriverli e' sicuro — e il punto e virgola dentro un
+# summary e' punteggiatura italiana normale, presente in decine di note. La guardia ha
+# rifiutato la prima scrittura legittima che ha incontrato.
+#
+# ⚠️ **Il difetto vero non era la forma del campo, era la PERDITA nel giro di andata e
+# ritorno**: le tre righe rotte del 21/08 erano state scritte senza quoting da un percorso
+# diverso, e si sono viste solo rileggendo. Quindi il controllo verifica l'EFFETTO, non la
+# forma: si scrive su un file temporaneo, lo si rilegge, e si confronta cella per cella
+# con cio' che si voleva scrivere. **Se il giro non torna, il CSV vero non si tocca.**
 def controlla_riga(r, dove):
-    """Nessun campo puo' contenere il separatore, un a capo o una virgoletta nuda."""
+    """Il campo dev'essere una stringa: il resto lo garantisce la prova di andata e ritorno."""
     guasti = []
     for col in COLONNE:
-        v = "" if r.get(col) is None else str(r[col])
-        for cattivo, nome in ((";", "separatore"), ("\n", "a capo"),
-                              ("\r", "ritorno carrello"), ('"', "virgoletta")):
-            if cattivo in v:
-                guasti.append("%s: il campo `%s` contiene un %s" % (dove, col, nome))
+        v = r.get(col)
+        if v is not None and not isinstance(v, str):
+            guasti.append("%s: il campo `%s` non e' una stringa" % (dove, col))
+    return guasti
+
+
+def prova_andata_e_ritorno(righe):
+    """Scrive su un temporaneo, rilegge, e confronta. Ritorna l'elenco degli scarti."""
+    import tempfile
+    fd, tmp = tempfile.mkstemp(suffix=".csv"); os.close(fd)
+    try:
+        with io.open(tmp, "w", encoding="utf-8", newline="") as f:
+            w = csv.DictWriter(f, fieldnames=COLONNE, delimiter=";")
+            w.writeheader()
+            w.writerows(righe)
+        with io.open(tmp, encoding="utf-8", newline="") as f:
+            rilette = [r for r in csv.DictReader(f, delimiter=";")]
+    finally:
+        try: os.remove(tmp)
+        except OSError: pass
+    guasti = []
+    if len(rilette) != len(righe):
+        guasti.append("rilette %d righe su %d scritte" % (len(rilette), len(righe)))
+        return guasti
+    for i, (a, b) in enumerate(zip(righe, rilette), start=1):
+        if None in b:
+            guasti.append("riga %d: rileggendola ha piu' campi di quanti ne ha l'intestazione" % i)
+            continue
+        for col in COLONNE:
+            if (a.get(col) or "") != (b.get(col) or ""):
+                guasti.append("riga %d, campo `%s`: scritto e riletto non coincidono" % (i, col))
     return guasti
 
 
@@ -138,12 +175,14 @@ def main():
     tenute = [r for r in vecchie if r["lotto"] != args.lotto]
     tutte = tenute + nuove
 
-    # ⚠️ guardia 1: si controlla PRIMA di aprire il file in scrittura
+    # ⚠️ guardia 1: la prova di andata e ritorno, PRIMA di toccare il file vero
     guasti = []
     for i, r in enumerate(tutte, start=1):
         guasti += controlla_riga(r, "riga %d" % i)
+    guasti += prova_andata_e_ritorno(tutte)
     if guasti:
-        print("SCRITTURA RIFIUTATA: %d campi non protetti." % len(guasti))
+        print("SCRITTURA RIFIUTATA: %d scarti fra cio' che si scrive e cio' che si rilegge."
+              % len(guasti))
         for g in guasti[:10]:
             print("   ", g)
         print("Il CSV NON e' stato toccato: resta quello di prima, integro.")

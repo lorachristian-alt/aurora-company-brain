@@ -1,6 +1,6 @@
-## qa_copertura (perimetro: vault, 311 note)
+## qa_copertura (perimetro: vault, 324 note)
 
-- ERRORI: **120**
+- ERRORI: **122**
 - AVVISI: **0**
 
 ### Errori
@@ -57,7 +57,6 @@
 | `(copertura)` |  | copertura | il grezzo 'contestazione_sindacale_straordinari_Tosano.txt' non compare in `fonti` di nessuna nota |
 | `(copertura)` |  | copertura | il grezzo 'contratto_fornitura_MolinoVeneto_2026_firmato.pdf' non compare in `fonti` di nessuna nota |
 | `(copertura)` |  | copertura | il grezzo 'corso_inglese_aziendale_proposta.txt' non compare in `fonti` di nessuna nota |
-| `(copertura)` |  | copertura | il grezzo 'cruscotto_KPI_qualita_2026.xlsx' non compare in `fonti` di nessuna nota |
 | `(copertura)` |  | copertura | il grezzo 'doc 2 (1).pdf' non compare in `fonti` di nessuna nota |
 | `(copertura)` |  | copertura | il grezzo 'elenco_chiavi_e_accessi.txt' non compare in `fonti` di nessuna nota |
 | `(copertura)` |  | copertura | il grezzo 'elenco_interni_telefonici.txt' non compare in `fonti` di nessuna nota |
@@ -124,6 +123,9 @@
 | `(copertura)` |  | copertura | il grezzo 'volantino_convenzione_palestra.txt' non compare in `fonti` di nessuna nota |
 | `(copertura)` |  | copertura | il grezzo '~$ttera_risposta_Tosano_reclamo_BOZZA_v3.docx' non compare in `fonti` di nessuna nota |
 | `fatto-microperdite-saldatura-l26130.md` |  | copertura | possibile doppia padrona con 'kpi-conducibilita-risciacquo-cip-maggio.md': 3 valori in comune (0,9, 1,1, 1,4) e nessun wikilink fra le due |
+| `fatto-microperdite-saldatura-l26130.md` |  | copertura | possibile doppia padrona con 'kpi-indicatori-mensili-2026.md': 4 valori in comune (0,8, 0,9, 1,1, 1,4) e nessun wikilink fra le due |
+| `fatto-repliche-shelf-life-l26130-divergenti.md` |  | copertura | possibile doppia padrona con 'kpi-indicatori-mensili-2026.md': 3 valori in comune (0,8, 0,9, 6,1) e nessun wikilink fra le due |
+| `kpi-conducibilita-risciacquo-cip-maggio.md` |  | copertura | possibile doppia padrona con 'kpi-indicatori-mensili-2026.md': 3 valori in comune (0,9, 1,1, 1,4) e nessun wikilink fra le due |
 | `(copertura)` |  | copertura | l'area 'ricerca-sviluppo' non ha il suo hub area-ricerca-sviluppo in areas\ |
 | `(copertura)` |  | copertura | l'area 'risorse-umane' non ha il suo hub area-risorse-umane in areas\ |
 | `(copertura)` |  | copertura | l'area 'sicurezza-ambiente' non ha il suo hub area-sicurezza-ambiente in areas\ |
@@ -266,12 +268,13 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 |---|---|---|---|
 | `area-qualita.md` | hub | aperto | 1 |
 | `doc-autocontrollo-scarico-s1.md` | atomica | risolto | 1 |
-| `doc-azioni-deliberate-riesame-2026.md` | atomica | aperto | 1 |
+| `doc-azioni-deliberate-riesame-2026.md` | atomica | aperto | 2 |
 | `doc-ccp2-limite-critico.md` | atomica | risolto | 1 |
 | `doc-ccp4-limite-critico.md` | atomica | risolto | 1 |
 | `doc-ciclo-cip-interrotto.md` | atomica | risolto | 1 |
 | `doc-condizioni-uso-detergente-acido.md` | atomica | risolto | 1 |
 | `doc-criteri-accettazione-cip.md` | atomica | risolto | 1 |
+| `doc-cruscotto-kpi-2026.md` | atomica | aperto | 2 |
 | `doc-dpi-detergente-acido.md` | atomica | risolto | 1 |
 | `doc-dpi-lavaggio-cip.md` | atomica | risolto | 1 |
 | `doc-etichettatura-precauzionale.md` | atomica | risolto | 1 |
@@ -309,14 +312,14 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `fatto-appunti-in-coda-file-reflue.md` | atomica | aperto | 1 |
 | `fatto-audit-cliente-tosano-novembre.md` | atomica | risolto | 1 |
 | `fatto-audit-csqa-febbraio-2026-esito.md` | atomica | risolto | 1 |
-| `fatto-audit-interni-2025-nove-su-dieci.md` | atomica | risolto | 1 |
+| `fatto-audit-interni-2025-nove-su-dieci.md` | atomica | risolto | 2 |
 | `fatto-azioni-riesame-2025-non-tutte-chiuse.md` | atomica | risolto | 1 |
 | `fatto-blocco-cautelativo-lotti.md` | atomica | risolto | 6 |
 | `fatto-buchi-registro-strumenti.md` | atomica | aperto | 1 |
 | `fatto-carica-in-salita-linea-1-aprile.md` | atomica | risolto | 1 |
 | `fatto-cartello-bacheca-2024-senza-sesamo.md` | atomica | aperto | 2 |
 | `fatto-catena-riferibilita-tarature-interne.md` | atomica | risolto | 1 |
-| `fatto-ccp-stato-al-riesame-2026.md` | atomica | risolto | 1 |
+| `fatto-ccp-stato-al-riesame-2026.md` | atomica | risolto | 2 |
 | `fatto-certificato-analisi-gas-alimentari.md` | atomica | aperto | 2 |
 | `fatto-cicli-cip-chiusi-con-sonda-guasta.md` | atomica | risolto | 3 |
 | `fatto-cicli-cip-maggio.md` | atomica | risolto | 2 |
@@ -324,8 +327,9 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `fatto-cip-fuori-criterio.md` | atomica | risolto | 2 |
 | `fatto-cloro-residuo-ghiaccio-in-calo.md` | atomica | risolto | 1 |
 | `fatto-convalida-md-1800-scaduta.md` | atomica | aperto | 3 |
-| `fatto-costo-non-qualita-2025-parziale.md` | atomica | aperto | 1 |
+| `fatto-costo-non-qualita-2025-parziale.md` | atomica | aperto | 2 |
 | `fatto-criterio-conducibilita-cip-superato.md` | atomica | risolto | 3 |
+| `fatto-cruscotto-colonne-mai-calcolate.md` | atomica | aperto | 1 |
 | `fatto-datalogger-dl-001-in-taratura.md` | atomica | risolto | 2 |
 | `fatto-date-in-quattro-grafie-registro-tamponi.md` | atomica | aperto | 1 |
 | `fatto-decisione-erp-rimandata.md` | atomica | aperto | 1 |
@@ -347,8 +351,9 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `fatto-ispezione-ats-carrello-ricambi.md` | atomica | risolto | 1 |
 | `fatto-latte-riclassificato-af-sn-0450.md` | atomica | risolto | 1 |
 | `fatto-lettura-mancante-registro-tamponi.md` | atomica | aperto | 1 |
-| `fatto-listeria-canalina-linea3-al-riesame.md` | atomica | aperto | 1 |
+| `fatto-listeria-canalina-linea3-al-riesame.md` | atomica | aperto | 2 |
 | `fatto-listeria-scarico-pt-104-aprile.md` | atomica | risolto | 1 |
+| `fatto-maggio-fuori-scala.md` | atomica | risolto | 1 |
 | `fatto-mani-addetto-farcitura-non-conforme.md` | atomica | risolto | 1 |
 | `fatto-medie-non-calcolate-file-reflue.md` | atomica | aperto | 1 |
 | `fatto-microperdite-saldatura-l26130.md` | atomica | risolto | 2 |
@@ -365,6 +370,7 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `fatto-nc-cip-2026.md` | atomica | risolto | 3 |
 | `fatto-nessuna-nc-per-allarmi-cf-02.md` | atomica | aperto | 3 |
 | `fatto-operatore-senza-formazione-haccp-l26130.md` | atomica | risolto | 2 |
+| `fatto-ore-formazione-crollate.md` | atomica | aperto | 2 |
 | `fatto-passaggi-barrati-scheda-allergeni.md` | atomica | aperto | 1 |
 | `fatto-pc-sesamo-condizionato-al-prototipo.md` | atomica | aperto | 1 |
 | `fatto-politica-riconfermata-senza-modifiche.md` | atomica | aperto | 1 |
@@ -402,16 +408,21 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `fatto-verifiche-ccp3-turno-l26130.md` | atomica | risolto | 3 |
 | `kpi-conducibilita-acqua-per-punto.md` | atomica | risolto | 1 |
 | `kpi-conducibilita-risciacquo-cip-maggio.md` | atomica | risolto | 3 |
+| `kpi-costo-non-qualita-due-totali.md` | atomica | aperto | 2 |
 | `kpi-durate-fasi-cip-maggio.md` | atomica | risolto | 2 |
 | `kpi-indicatori-2025-consuntivo.md` | atomica | risolto | 1 |
+| `kpi-indicatori-mensili-2026.md` | atomica | risolto | 1 |
 | `kpi-mass-balance-l26130.md` | atomica | aperto | 2 |
 | `kpi-obiettivi-2026-avanzamento.md` | atomica | risolto | 1 |
 | `kpi-parametri-scarico-s1-2026.md` | atomica | risolto | 1 |
 | `kpi-parco-strumenti-taratura-2026.md` | hub | aperto | 2 |
+| `kpi-pareto-cause-nc-2026.md` | atomica | aperto | 2 |
 | `kpi-portata-cip-maggio.md` | atomica | risolto | 2 |
-| `kpi-reclami-2025.md` | atomica | risolto | 1 |
+| `kpi-reclami-2025.md` | atomica | risolto | 2 |
+| `kpi-registro-reclami-2026.md` | atomica | aperto | 2 |
 | `kpi-seconde-firme-ccp3-maggio.md` | atomica | risolto | 2 |
 | `kpi-shelf-life-af-sn-0450.md` | atomica | aperto | 3 |
+| `kpi-tamponi-per-zona-2026.md` | atomica | aperto | 2 |
 | `kpi-tamponi-superfici-2026.md` | atomica | risolto | 1 |
 | `kpi-temperatura-uscita-tunnel-ts-01-aprile.md` | atomica | risolto | 3 |
 | `kpi-temperature-cip-maggio.md` | atomica | risolto | 2 |
@@ -428,8 +439,10 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `questione-composizione-lavaggio-completo.md` | conflitto | aperto | 3 |
 | `questione-convalida-md-1800-scaduta-o-valida.md` | conflitto | aperto | 3 |
 | `questione-convalida-md-3200-due-registri.md` | conflitto | aperto | 3 |
+| `questione-cruscotto-e-obiettivi-non-si-mappano.md` | conflitto | aperto | 2 |
 | `questione-data-apertura-rec-2026-011.md` | conflitto | aperto | 4 |
 | `questione-dpi-cip-due-prescrizioni.md` | conflitto | aperto | 2 |
+| `questione-due-registri-dei-tamponi.md` | conflitto | aperto | 2 |
 | `questione-due-registri-tarature-pt-104.md` | conflitto | aperto | 3 |
 | `questione-durata-deviazione-ccp2-l26130.md` | conflitto | aperto | 3 |
 | `questione-frequenza-tamponi-prescritta-e-reale.md` | conflitto | aperto | 2 |
@@ -438,7 +451,8 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `questione-limite-o2-residuo.md` | conflitto | aperto | 4 |
 | `questione-listeria-24-02-non-nel-registro-tamponi.md` | conflitto | aperto | 2 |
 | `questione-misura-frammento-strumentale.md` | conflitto | aperto | 2 |
-| `questione-nc-interne-registrate-su-mod-qa-31.md` | conflitto | aperto | 3 |
+| `questione-mock-recall-due-ore-o-quattro.md` | conflitto | aperto | 3 |
+| `questione-nc-interne-registrate-su-mod-qa-31.md` | conflitto | aperto | 5 |
 | `questione-nc-lavaggi-sul-modulo-reclami.md` | conflitto | aperto | 5 |
 | `questione-periodicita-taratura-canali-datalogger-ccp2.md` | conflitto | aperto | 3 |
 | `questione-posizione-md-3200-in-linea.md` | conflitto | aperto | 4 |
@@ -471,6 +485,7 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `sessione-s4-lotto-02a.md` | sessione | — | 0 |
 | `sessione-s4-lotto-02b.md` | sessione | — | 0 |
 | `sessione-s4-lotto-02b-bis.md` | sessione | — | 0 |
+| `sessione-s4-lotto-03a.md` | sessione | — | 0 |
 | `sessione-s4-lotto-1a.md` | sessione | — | 0 |
 | `sessione-s4-lotto-1c.md` | sessione | — | 0 |
 
@@ -551,7 +566,7 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `contratto_fornitura_MolinoVeneto_2026_firmato.pdf` | **nessuna** |
 | `contratto_manutenzione_impianto_frigo_TS01.docx` | fatto-assistenza-esterna-24-04-cf-02, fatto-cariche-f-gas-impianti-frigoriferi, fatto-obblighi-registro-f-gas, fatto-ts-01-fine-vita-dismissione, questione-manutentore-frigo-berica-scaligera, questione-refrigerante-ts-01, entita-frigotecnica-berica, macchina-cf-01, macchina-cf-02, macchina-ts-01, bozza-contratto-manutenzione-frigo |
 | `corso_inglese_aziendale_proposta.txt` | **nessuna** |
-| `cruscotto_KPI_qualita_2026.xlsx` | **nessuna** |
+| `cruscotto_KPI_qualita_2026.xlsx` | fatto-audit-interni-2025-nove-su-dieci, fatto-ccp-stato-al-riesame-2026, fatto-costo-non-qualita-2025-parziale, fatto-cruscotto-colonne-mai-calcolate, fatto-listeria-canalina-linea3-al-riesame, fatto-maggio-fuori-scala, fatto-ore-formazione-crollate, questione-cruscotto-e-obiettivi-non-si-mappano, questione-due-registri-dei-tamponi, doc-cruscotto-kpi-2026, kpi-costo-non-qualita-due-totali, kpi-indicatori-mensili-2026, kpi-pareto-cause-nc-2026, kpi-reclami-2025, kpi-registro-reclami-2026, kpi-tamponi-per-zona-2026 |
 | `doc 2 (1).pdf` | **nessuna** |
 | `elenco_attrezzature_taratura_strumenti_2026.csv` | fatto-buchi-registro-strumenti, fatto-catena-riferibilita-tarature-interne, fatto-convalida-md-1800-scaduta, fatto-datalogger-dl-001-in-taratura, fatto-due-elenchi-in-un-file-strumenti, fatto-due-registri-paralleli-della-metrologia, fatto-strumenti-cf-02-e-ccp4, fatto-strumenti-esclusi-da-taratura, fatto-strumenti-map-azoto-pkm-450, fatto-strumenti-taratura-scaduta-in-uso, fatto-tassello-aisi-clip-rotta, fatto-verifica-metrologia-legale-bilance, questione-convalida-md-1800-scaduta-o-valida, questione-convalida-md-3200-due-registri, questione-due-registri-tarature-pt-104, questione-periodicita-taratura-canali-datalogger-ccp2, questione-posizione-md-3200-in-linea, questione-sigla-kit-tasselli-ccp3, questione-taratura-termoregistratore-cf-02, entita-calservice-italia, entita-metrolab-taratura, macchina-md-3200, kpi-parco-strumenti-taratura-2026 |
 | `elenco_chiavi_e_accessi.txt` | **nessuna** |
@@ -576,13 +591,13 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `log_timbrature_fabbrica_maggio_settimana2.csv` | **nessuna** |
 | `mail_fornitore_ingrediente_nuovo_paprika_specifiche.txt` | **nessuna** |
 | `mail_titolare_Aurora_visione_aziendale_5anni.txt` | **nessuna** |
-| `manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt` | area-qualita, fatto-abilitazione-obbligatoria-cip, fatto-accettazione-con-riserva-gas-06-05, fatto-allarme-acustico-md-3200-basso, fatto-allarmi-alta-temperatura-cf-02-aprile, fatto-certificato-analisi-gas-alimentari, fatto-convalida-md-1800-scaduta, fatto-datalogger-dl-001-in-taratura, fatto-decisione-proseguire-valvola-08-05, fatto-deviazione-ccp2-l26130, fatto-due-registri-paralleli-della-metrologia, fatto-fermo-forno-ft-01-05-05, fatto-giro-di-vite-seconde-firme-ccp3, fatto-microperdite-saldatura-l26130, fatto-modulo-nc-acqua-riconciliato, fatto-nessuna-nc-per-allarmi-cf-02, fatto-operatore-senza-formazione-haccp-l26130, fatto-operatori-ccp3-linea1-maggio, fatto-prodotto-non-segregato-deviazione-ccp2, fatto-registro-cartaceo-mod-qa-12, fatto-riepilogo-datalogger-inaffidabile, fatto-risalita-termica-post-riavvio-l26130, fatto-sonde-pt-104-in-taratura, fatto-strumenti-cf-02-e-ccp4, fatto-strumenti-esclusi-da-taratura, fatto-strumenti-taratura-scaduta-in-uso, fatto-tassello-aisi-clip-rotta, fatto-valvola-modulante-pt-104-revisione-rimandata, fatto-verifiche-ccp3-turno-l26130, questione-carrello-ricambi-dichiarato-rimosso, questione-convalida-md-1800-scaduta-o-valida, questione-convalida-md-3200-due-registri, questione-due-registri-tarature-pt-104, questione-durata-deviazione-ccp2-l26130, questione-nc-lavaggi-sul-modulo-reclami, questione-periodicita-taratura-canali-datalogger-ccp2, questione-posizione-md-3200-in-linea, questione-proteine-test-manuale-e-scheda, questione-sigla-kit-tasselli-ccp3, questione-taratura-termoregistratore-cf-02, questione-tassello-inox-non-passato, questione-tmc-farina-mv26-0429a, questione-validazione-ccp2-mai-confermata, questione-verifiche-ccp3-10-05-tre-versioni, fatto-blocco-cautelativo-lotti, fatto-misura-frammento-rec-2026-011, fatto-richiesta-relazione-48-ore, questione-data-apertura-rec-2026-011, doc-ccp2-limite-critico, doc-ccp4-limite-critico, doc-gestione-deviazioni-haccp, doc-gestione-reclami-haccp, doc-manuale-haccp, doc-mod-qa-07, doc-piano-autocontrollo-acqua, doc-piano-tamponi-superfici, entita-chemifood-italia, entita-chiara-vicentini, entita-elena-marchetti, entita-ionut-popescu, entita-ivano-dal-maso, entita-nordgas, lotto-l26130, lotto-mv26-0429a, macchina-cf-02, macchina-cip-01, macchina-linea-1, macchina-md-3200, macchina-pkm-450, macchina-pt-104, macchina-ts-01, prodotto-af-sn-0450, concetto-ccp, concetto-cip, kpi-mass-balance-l26130, kpi-parco-strumenti-taratura-2026, kpi-seconde-firme-ccp3-maggio, kpi-shelf-life-af-sn-0450, kpi-temperatura-uscita-tunnel-ts-01-aprile |
+| `manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt` | area-qualita, fatto-abilitazione-obbligatoria-cip, fatto-accettazione-con-riserva-gas-06-05, fatto-allarme-acustico-md-3200-basso, fatto-allarmi-alta-temperatura-cf-02-aprile, fatto-certificato-analisi-gas-alimentari, fatto-convalida-md-1800-scaduta, fatto-datalogger-dl-001-in-taratura, fatto-decisione-proseguire-valvola-08-05, fatto-deviazione-ccp2-l26130, fatto-due-registri-paralleli-della-metrologia, fatto-fermo-forno-ft-01-05-05, fatto-giro-di-vite-seconde-firme-ccp3, fatto-microperdite-saldatura-l26130, fatto-modulo-nc-acqua-riconciliato, fatto-nessuna-nc-per-allarmi-cf-02, fatto-operatore-senza-formazione-haccp-l26130, fatto-operatori-ccp3-linea1-maggio, fatto-prodotto-non-segregato-deviazione-ccp2, fatto-registro-cartaceo-mod-qa-12, fatto-riepilogo-datalogger-inaffidabile, fatto-risalita-termica-post-riavvio-l26130, fatto-sonde-pt-104-in-taratura, fatto-strumenti-cf-02-e-ccp4, fatto-strumenti-esclusi-da-taratura, fatto-strumenti-taratura-scaduta-in-uso, fatto-tassello-aisi-clip-rotta, fatto-valvola-modulante-pt-104-revisione-rimandata, fatto-verifiche-ccp3-turno-l26130, questione-carrello-ricambi-dichiarato-rimosso, questione-convalida-md-1800-scaduta-o-valida, questione-convalida-md-3200-due-registri, questione-due-registri-tarature-pt-104, questione-durata-deviazione-ccp2-l26130, questione-mock-recall-due-ore-o-quattro, questione-nc-lavaggi-sul-modulo-reclami, questione-periodicita-taratura-canali-datalogger-ccp2, questione-posizione-md-3200-in-linea, questione-proteine-test-manuale-e-scheda, questione-sigla-kit-tasselli-ccp3, questione-taratura-termoregistratore-cf-02, questione-tassello-inox-non-passato, questione-tmc-farina-mv26-0429a, questione-validazione-ccp2-mai-confermata, questione-verifiche-ccp3-10-05-tre-versioni, fatto-blocco-cautelativo-lotti, fatto-misura-frammento-rec-2026-011, fatto-richiesta-relazione-48-ore, questione-data-apertura-rec-2026-011, doc-ccp2-limite-critico, doc-ccp4-limite-critico, doc-gestione-deviazioni-haccp, doc-gestione-reclami-haccp, doc-manuale-haccp, doc-mod-qa-07, doc-piano-autocontrollo-acqua, doc-piano-tamponi-superfici, entita-chemifood-italia, entita-chiara-vicentini, entita-elena-marchetti, entita-ionut-popescu, entita-ivano-dal-maso, entita-nordgas, lotto-l26130, lotto-mv26-0429a, macchina-cf-02, macchina-cip-01, macchina-linea-1, macchina-md-3200, macchina-pkm-450, macchina-pt-104, macchina-ts-01, prodotto-af-sn-0450, concetto-ccp, concetto-cip, kpi-mass-balance-l26130, kpi-parco-strumenti-taratura-2026, kpi-seconde-firme-ccp3-maggio, kpi-shelf-life-af-sn-0450, kpi-temperatura-uscita-tunnel-ts-01-aprile |
 | `manuale_uso_manutenzione_PKM450_estratto.pdf` | fatto-avvertenza-costruttore-guarnizioni-non-originali, fatto-guarnizione-pkm-450-manutenzione-scaduta, fatto-ricambi-fuori-area-produzione-manuale-pkm, questione-codice-allarme-pkm-450, questione-codice-ricambio-valvola-pkm-450, questione-materiale-guarnizione-pkm-450, entita-pakmatic, concetto-atmosfera-protettiva |
 | `manutenzione_fotocopiatrice_contratto_copie.csv` | **nessuna** |
 | `menu_mensa_aprile_maggio.txt` | **nessuna** |
 | `modulo richiesta ferie VUOTO da stampare.txt` | **nessuna** |
 | `noleggio_distributori_automatici_contratto.txt` | **nessuna** |
-| `non_conformita_interne_registro_2026.csv` | fatto-accettazione-con-riserva-gas-06-05, fatto-decisione-proseguire-valvola-08-05, fatto-deroga-sequenza-l2-cancellata, fatto-deviazione-ccp2-l26130, fatto-fermo-pkm-450-l26130, fatto-modulo-nc-acqua-riconciliato, fatto-nc-102-origine-interna, fatto-nc-26-018-ruote-carrelli-febbraio, fatto-nc-26-055-nastro-forno-maggio, fatto-nc-26-056-ganasce-pkm-450-maggio, fatto-nc-cip-2026, fatto-nessuna-nc-per-allarmi-cf-02, fatto-porta-cella-cf-02-aperta-38-minuti, fatto-registro-cartaceo-mod-qa-12, fatto-riparazione-guarnizione-non-originale, fatto-strumenti-map-azoto-pkm-450, fatto-ts-01-fine-vita-dismissione, questione-carrello-ricambi-dichiarato-rimosso, questione-durata-deviazione-ccp2-l26130, questione-limite-allarme-porta-cf-02, questione-listeria-24-02-non-nel-registro-tamponi, questione-nc-067-sbrinamenti-tunnel, questione-nc-interne-registrate-su-mod-qa-31, questione-nc-lavaggi-sul-modulo-reclami, questione-sbrinamenti-fascia-notturna-cf-02, entita-ivano-dal-maso, entita-nordgas, macchina-cf-01, concetto-fefo, kpi-temperatura-uscita-tunnel-ts-01-aprile, questione-limite-o2-residuo |
+| `non_conformita_interne_registro_2026.csv` | fatto-accettazione-con-riserva-gas-06-05, fatto-decisione-proseguire-valvola-08-05, fatto-deroga-sequenza-l2-cancellata, fatto-deviazione-ccp2-l26130, fatto-fermo-pkm-450-l26130, fatto-modulo-nc-acqua-riconciliato, fatto-nc-102-origine-interna, fatto-nc-26-018-ruote-carrelli-febbraio, fatto-nc-26-055-nastro-forno-maggio, fatto-nc-26-056-ganasce-pkm-450-maggio, fatto-nc-cip-2026, fatto-nessuna-nc-per-allarmi-cf-02, fatto-porta-cella-cf-02-aperta-38-minuti, fatto-registro-cartaceo-mod-qa-12, fatto-riparazione-guarnizione-non-originale, fatto-strumenti-map-azoto-pkm-450, fatto-ts-01-fine-vita-dismissione, questione-carrello-ricambi-dichiarato-rimosso, questione-durata-deviazione-ccp2-l26130, questione-limite-allarme-porta-cf-02, questione-listeria-24-02-non-nel-registro-tamponi, questione-mock-recall-due-ore-o-quattro, questione-nc-067-sbrinamenti-tunnel, questione-nc-interne-registrate-su-mod-qa-31, questione-nc-lavaggi-sul-modulo-reclami, questione-sbrinamenti-fascia-notturna-cf-02, entita-ivano-dal-maso, entita-nordgas, macchina-cf-01, concetto-fefo, kpi-temperatura-uscita-tunnel-ts-01-aprile, questione-limite-o2-residuo |
 | `nota_commercialista_credito_imposta_beni_strumentali.docx` | **nessuna** |
 | `nota_infortunio_INAIL_operaio_linea3.txt` | **nessuna** |
 | `nota_spese_trasferte_Zampieri_aprile.csv` | **nessuna** |
@@ -592,7 +607,7 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `ordini_acquisto_materie_prime_aperti_giugno.csv` | **nessuna** |
 | `organigramma_aziendale_aggiornato_marzo26.pptx` | **nessuna** |
 | `panel_test_assaggio_interno_cornetto_premium.csv` | **nessuna** |
-| `piano_autocontrollo_acqua_potabile_analisi.csv` | fatto-cloro-residuo-ghiaccio-in-calo, fatto-criterio-conducibilita-cip-superato, fatto-durezza-acqua-addolcita-in-deroga, fatto-modulo-nc-acqua-riconciliato, fatto-nc-acq-26-01-ghiaccio-aprile, fatto-nc-acq-26-02-ferro-spogliatoi-aprile, questione-nc-lavaggi-sul-modulo-reclami, doc-piano-autocontrollo-acqua, entita-analytica-veneta, kpi-conducibilita-acqua-per-punto, kpi-conducibilita-risciacquo-cip-maggio |
+| `piano_autocontrollo_acqua_potabile_analisi.csv` | fatto-cloro-residuo-ghiaccio-in-calo, fatto-criterio-conducibilita-cip-superato, fatto-durezza-acqua-addolcita-in-deroga, fatto-modulo-nc-acqua-riconciliato, fatto-nc-acq-26-01-ghiaccio-aprile, fatto-nc-acq-26-02-ferro-spogliatoi-aprile, questione-nc-interne-registrate-su-mod-qa-31, questione-nc-lavaggi-sul-modulo-reclami, doc-piano-autocontrollo-acqua, entita-analytica-veneta, kpi-conducibilita-acqua-per-punto, kpi-conducibilita-risciacquo-cip-maggio |
 | `piano_produzione_settimanale_sett19_21.xlsx` | fatto-operatori-ccp3-linea1-maggio, fatto-piano-produzione-sett19-21, questione-linea1-domenica-10-05-fuori-piano, macchina-linea-1, questione-velocita-nominali-linee |
 | `piano_turni_apprendisti_tecnologi_food.txt` | **nessuna** |
 | `politica_qualita_e_sicurezza_alimentare_2026.docx` | **nessuna** |
@@ -609,7 +624,7 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `registro_carico_scarico_rifiuti_estratto_2026.pdf` | **nessuna** |
 | `registro_estintori_scadenze.csv` | **nessuna** |
 | `registro_presenze_corsi_HACCP_scaduti.csv` | **nessuna** |
-| `registro_tamponi_superfici_listeria_salmonella.csv` | fatto-carica-in-salita-linea-1-aprile, fatto-date-in-quattro-grafie-registro-tamponi, fatto-lettura-mancante-registro-tamponi, fatto-listeria-scarico-pt-104-aprile, fatto-mani-addetto-farcitura-non-conforme, fatto-nc-26-018-ruote-carrelli-febbraio, fatto-nc-26-055-nastro-forno-maggio, fatto-nc-26-056-ganasce-pkm-450-maggio, questione-frequenza-tamponi-prescritta-e-reale, questione-listeria-24-02-non-nel-registro-tamponi, questione-tamponi-allergeni-non-registrati, doc-piano-tamponi-superfici, entita-analytica-veneta, kpi-tamponi-superfici-2026 |
+| `registro_tamponi_superfici_listeria_salmonella.csv` | fatto-carica-in-salita-linea-1-aprile, fatto-date-in-quattro-grafie-registro-tamponi, fatto-lettura-mancante-registro-tamponi, fatto-listeria-scarico-pt-104-aprile, fatto-mani-addetto-farcitura-non-conforme, fatto-nc-26-018-ruote-carrelli-febbraio, fatto-nc-26-055-nastro-forno-maggio, fatto-nc-26-056-ganasce-pkm-450-maggio, questione-due-registri-dei-tamponi, questione-frequenza-tamponi-prescritta-e-reale, questione-listeria-24-02-non-nel-registro-tamponi, questione-tamponi-allergeni-non-registrati, doc-piano-tamponi-superfici, entita-analytica-veneta, kpi-tamponi-per-zona-2026, kpi-tamponi-superfici-2026 |
 | `reperibilita_gennaio_febbraio_2026.csv` | **nessuna** |
 | `report_costi_fissi_OpEx_manutenzioni.txt` | **nessuna** |
 | `report_fermo_macchina_confezionatrice_MAP.txt` | area-manutenzione, fatto-azoto-due-vie-serbatoio-e-rampa, fatto-decisione-proseguire-valvola-08-05, fatto-fermo-pkm-450-l26130, fatto-forni-in-temperatura-durante-fermo-10-05, fatto-guarnizione-pkm-450-manutenzione-scaduta, fatto-riparazione-guarnizione-non-originale, questione-arrivo-officina-fermo-pkm-450, questione-carrello-ricambi-dichiarato-rimosso, questione-codice-allarme-pkm-450, questione-codice-ricambio-valvola-pkm-450, questione-materiale-guarnizione-pkm-450, entita-elena-marchetti, entita-ivano-dal-maso, macchina-pkm-450, kpi-oee-l26130-l1-t2, questione-scarti-riavvio-l26130 |
@@ -617,7 +632,7 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `ricetta_base_esperimento_snack_salato_v12.txt` | **nessuna** |
 | `richiesta_campionatura_fiera_Cibus_2026.csv` | **nessuna** |
 | `scadenzario_effetti_RIBA_giugno26.csv` | **nessuna** |
-| `scheda_allergeni_matrice_cross_contamination.docx` | fatto-cartello-bacheca-2024-senza-sesamo, fatto-deroga-sequenza-l2-cancellata, fatto-latte-riclassificato-af-sn-0450, fatto-passaggi-barrati-scheda-allergeni, fatto-pc-sesamo-condizionato-al-prototipo, fatto-programma-p2-ogni-giorno, fatto-proteina-latte-prima-del-bio, fatto-referenze-fuori-scheda-horeca, fatto-rework-linea-1-sospeso, fatto-saletta-pilota-sesamo-segregato, fatto-scheda-allergeni-modifiche-non-accettate, fatto-sessioni-formazione-allergeni-2026, fatto-validazione-pulizia-da-ripetere, questione-arachidi-solfiti-aula-e-matrice, questione-composizione-lavaggio-completo, questione-nc-lavaggi-sul-modulo-reclami, questione-precauzionale-af-sn-0450-soia, questione-proteine-test-manuale-e-scheda, questione-rework-congelamento-slide-e-scheda, questione-tamponi-allergeni-non-registrati, doc-etichettatura-precauzionale, doc-formazione-allergeni-2026, doc-matrice-allergeni-referenze, doc-regole-rework, doc-responsabilita-allergeni, doc-sequenze-produzione-allergeni, doc-stoccaggio-segregato-allergeni, doc-tipi-lavaggio-allergeni, doc-validazione-pulizia-allergeni, entita-chiara-vicentini, prodotto-af-sn-0470 |
+| `scheda_allergeni_matrice_cross_contamination.docx` | fatto-cartello-bacheca-2024-senza-sesamo, fatto-deroga-sequenza-l2-cancellata, fatto-latte-riclassificato-af-sn-0450, fatto-passaggi-barrati-scheda-allergeni, fatto-pc-sesamo-condizionato-al-prototipo, fatto-programma-p2-ogni-giorno, fatto-proteina-latte-prima-del-bio, fatto-referenze-fuori-scheda-horeca, fatto-rework-linea-1-sospeso, fatto-saletta-pilota-sesamo-segregato, fatto-scheda-allergeni-modifiche-non-accettate, fatto-sessioni-formazione-allergeni-2026, fatto-validazione-pulizia-da-ripetere, questione-arachidi-solfiti-aula-e-matrice, questione-composizione-lavaggio-completo, questione-nc-interne-registrate-su-mod-qa-31, questione-nc-lavaggi-sul-modulo-reclami, questione-precauzionale-af-sn-0450-soia, questione-proteine-test-manuale-e-scheda, questione-rework-congelamento-slide-e-scheda, questione-tamponi-allergeni-non-registrati, doc-azioni-deliberate-riesame-2026, doc-etichettatura-precauzionale, doc-formazione-allergeni-2026, doc-matrice-allergeni-referenze, doc-regole-rework, doc-responsabilita-allergeni, doc-sequenze-produzione-allergeni, doc-stoccaggio-segregato-allergeni, doc-tipi-lavaggio-allergeni, doc-validazione-pulizia-allergeni, entita-chiara-vicentini, prodotto-af-sn-0470 |
 | `scheda_manutenzione_ordinaria_forni_industrial.csv` | fatto-anomalia-consumo-cf-02-maggio, fatto-assistenza-esterna-24-04-cf-02, fatto-cariche-f-gas-impianti-frigoriferi, fatto-cicli-cip-chiusi-con-sonda-guasta, fatto-convalida-md-1800-scaduta, fatto-due-registri-paralleli-della-metrologia, fatto-fermo-forno-ft-01-05-05, fatto-guarnizione-pkm-450-manutenzione-scaduta, fatto-manutenzioni-rimandate-per-promo, fatto-obblighi-registro-f-gas, fatto-ricambi-fuori-area-produzione-manuale-pkm, fatto-riepilogo-manutenzione-non-quadra, fatto-sonde-pt-104-in-taratura, fatto-strumenti-cf-02-e-ccp4, fatto-ts-01-fine-vita-dismissione, fatto-valvola-modulante-pt-104-revisione-rimandata, questione-codice-ricambio-valvola-pkm-450, questione-convalida-md-1800-scaduta-o-valida, questione-convalida-md-3200-due-registri, questione-due-registri-tarature-pt-104, questione-manutentore-frigo-berica-scaligera, questione-materiale-guarnizione-pkm-450, questione-nc-067-sbrinamenti-tunnel, questione-periodicita-taratura-canali-datalogger-ccp2, questione-refrigerante-ts-01, questione-sigla-kit-tasselli-ccp3, questione-taratura-termoregistratore-cf-02, entita-pakmatic, macchina-cf-01, macchina-ft-01, macchina-md-3200, macchina-ts-01, kpi-manutenzioni-arretrate-2026 |
 | `scheda_sicurezza_detergente_acido_lavaggio_CIP.txt` | fatto-sds-revisione-in-linea-superata, fatto-taniche-e-rifiuti-cip, questione-dpi-cip-due-prescrizioni, questione-frequenza-verifica-lavaocchi-cip, questione-prodotto-acido-cip-an-15-o-acidfood-25, doc-condizioni-uso-detergente-acido, doc-dpi-detergente-acido, doc-sds-detergente-acido-cip, entita-chemifood-italia, macchina-cip-01 |
 | `scheda_tecnica_farina_tipo_0_MolinoVeneto.txt` | **nessuna** |
@@ -632,7 +647,7 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `verbale_assemblea_condominio_capannone.txt` | **nessuna** |
 | `verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt` | **nessuna** |
 | `verbale_incontro_Mario_Rossi_Buyer_Tosano_05_05.txt` | **nessuna** |
-| `verbale_riesame_direzione_SGQ_2026.txt` | fatto-audit-cliente-tosano-novembre, fatto-audit-csqa-febbraio-2026-esito, fatto-audit-interni-2025-nove-su-dieci, fatto-azioni-riesame-2025-non-tutte-chiuse, fatto-ccp-stato-al-riesame-2026, fatto-costo-non-qualita-2025-parziale, fatto-decisione-erp-rimandata, fatto-digitalizzazione-archivio-rinviata, fatto-due-nc-minori-audit-2026, fatto-evidenze-audit-oltre-termine, fatto-formazione-2025-sotto-obiettivo, fatto-investimento-tunnel-confermato, fatto-listeria-canalina-linea3-al-riesame, fatto-mock-recall-marzo-2026, fatto-politica-riconfermata-senza-modifiche, fatto-revisione-modulistica-ccp, fatto-riesame-straordinario-e-facolta-rsgq, fatto-risorse-adeguate-con-riserva, fatto-sei-nc-aperte-oltre-sessanta-giorni, fatto-sistema-adeguato-con-riserve, fatto-straordinari-oltre-limite-linea2, fatto-tarature-92-percento-al-riesame, fatto-turnover-linea2-e-domeniche, questione-nc-interne-registrate-su-mod-qa-31, doc-azioni-deliberate-riesame-2026, doc-riesame-direzione-2026, kpi-indicatori-2025-consuntivo, kpi-obiettivi-2026-avanzamento, kpi-reclami-2025, kpi-vendor-rating-2025 |
+| `verbale_riesame_direzione_SGQ_2026.txt` | fatto-audit-cliente-tosano-novembre, fatto-audit-csqa-febbraio-2026-esito, fatto-audit-interni-2025-nove-su-dieci, fatto-azioni-riesame-2025-non-tutte-chiuse, fatto-ccp-stato-al-riesame-2026, fatto-costo-non-qualita-2025-parziale, fatto-decisione-erp-rimandata, fatto-digitalizzazione-archivio-rinviata, fatto-due-nc-minori-audit-2026, fatto-evidenze-audit-oltre-termine, fatto-formazione-2025-sotto-obiettivo, fatto-investimento-tunnel-confermato, fatto-listeria-canalina-linea3-al-riesame, fatto-mock-recall-marzo-2026, fatto-ore-formazione-crollate, fatto-politica-riconfermata-senza-modifiche, fatto-revisione-modulistica-ccp, fatto-riesame-straordinario-e-facolta-rsgq, fatto-risorse-adeguate-con-riserva, fatto-sei-nc-aperte-oltre-sessanta-giorni, fatto-sistema-adeguato-con-riserve, fatto-straordinari-oltre-limite-linea2, fatto-tarature-92-percento-al-riesame, fatto-turnover-linea2-e-domeniche, questione-cruscotto-e-obiettivi-non-si-mappano, questione-mock-recall-due-ore-o-quattro, questione-nc-interne-registrate-su-mod-qa-31, doc-azioni-deliberate-riesame-2026, doc-cruscotto-kpi-2026, doc-riesame-direzione-2026, kpi-costo-non-qualita-due-totali, kpi-indicatori-2025-consuntivo, kpi-obiettivi-2026-avanzamento, kpi-pareto-cause-nc-2026, kpi-reclami-2025, kpi-registro-reclami-2026, kpi-vendor-rating-2025 |
 | `verbale_scale_up_industriale_cornetto_premium.txt` | **nessuna** |
 | `verifica_periodica_impianto_terra_DPR462.pdf` | **nessuna** |
 | `visura_camerale_ordinaria_AuroraFoodGroup.pdf` | **nessuna** |

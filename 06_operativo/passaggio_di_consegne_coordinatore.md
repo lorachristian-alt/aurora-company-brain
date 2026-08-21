@@ -76,36 +76,39 @@ crea regole: spiega come si sono applicate.
   difetti di formato compresi.
 - **Canonizzazione — sette lotti chiusi, e il TEMA 2 È COMPLETO**: pilota L26130 (22 grezzi)
   + 1A (7) + 1B (4) + 1C (2) + 2A (3) + 2B (3) + **2B-bis (2)** = **43 grezzi su 160**, più il
-  lotto di manutenzione R1. ⚠️ **Il TEMA 3 È STATO APERTO E RIPACCHETTATO il 21/08/2026, e non
-  è stato scritto**: i tredici grezzi sono ora **cinque pacchetti** — `3A` riesame della
-  direzione + cruscotto · `3B` politica + registro presenze · `3C` certificazione e audit ·
-  `3D` reclami · `3E` crisi e ispezioni. ⚠️ **I pacchetti sono da 2-4 grezzi perché il criterio
-  è il conteggio dei fatti e non il numero dei file**: il solo verbale di riesame porta 45
-  sezioni numerate. **Il prossimo atto è aprire 3A**, che ha già conteggio, cuciture e obblighi
-  scritti nel proprio elenco.
+  lotto di manutenzione R1, **e il primo pacchetto del tema 3 è chiuso**: `3A` — il riesame della
+  direzione e il cruscotto KPI — porta il totale a **45 grezzi su 160**. ⚠️ **Restano quattro
+  pacchetti**: `3B` politica + registro presenze · `3C` certificazione e audit · `3D` reclami ·
+  `3E` crisi e ispezioni. ⚠️ **`3C` va anticipato**: il rapporto d'audit porta sette divergenze
+  che il canone registra e il vault non può scrivere, **due delle quali correggono cose già
+  scritte**, e una riguarda un **avviso di riduzione del grade AA** che il vault non sa.
   I conteggi,
   incollati da `conta_stato.py` il 21/08/2026 **dopo la nota-sessione** (E34) e dopo l'ultima
   scrittura (E44):
 
-<!-- CONTEGGI DEL VAULT — generati da `06_operativo\qa\conta_stato.py` il 2026-08-21.
+<!-- CONTEGGI DEL VAULT — generati da `06_operativo\qa\conta_stato.py` il 2026-08-22.
      Si incollano VERBATIM: non si ricompongono a mano, non si riscrivono in prosa. -->
 
 | Grandezza | Valore |
 |---|---|
-| Note nel vault | **281** |
+| Note nel vault | **324** |
 | di cui `_index` | 11 |
 | di cui note-strumento del progetto | 15 |
-| di cui note di diario (`sessione`, `daily`) | 7 |
-| **di cui note di contenuto** | **248** |
-| Note per cartella | areas 151 · docs 31 · data 29 · entities 27 · code 16 · workspace 10 · projects 8 · concepts 6 · self 1 · outputs 1 · sources 1 |
-| Note per `type` | atomica 177 · conflitto 46 · entita 22 · hub 13 · index 11 · sessione 7 · concetto 5 |
-| Questioni aperte (`type: conflitto`) | 46 |
+| di cui note di diario (`sessione`, `daily`) | 8 |
+| **di cui note di contenuto** | **290** |
+| Note per cartella | areas 181 · data 38 · docs 34 · entities 27 · code 16 · workspace 11 · projects 8 · concepts 6 · self 1 · outputs 1 · sources 1 |
+| Note per `type` | atomica 215 · conflitto 50 · entita 22 · hub 13 · index 11 · sessione 8 · concetto 5 |
+| Questioni aperte (`type: conflitto`) | 50 |
 | Grezzi in `sources\` | 160 |
-| Grezzi citati da almeno una nota | **43** |
-| Grezzi restanti | **117** |
+| Grezzi citati da almeno una nota | **45** |
+| Grezzi restanti | **115** |
 
-- **QA a perimetro vault — misurata il 21/08/2026 alle 14:47:43**, dopo l'ultima scrittura del
-  lotto 2B-bis (E44): **121 errori, 214 avvisi**. Frontmatter, link e provenance a **zero
+- **QA a perimetro vault — misurata il 22/08/2026 alle 01:38:50**, dopo l'ultima scrittura del
+  lotto 3A (E44): **122 errori, 243 avvisi**. ⚠️ **Il totale SALE per la prima volta**, e la causa
+  non è nel lotto: 115 grezzi *(erano 117)* + 3 aree senza hub *(invariate)* + **4 rilievi di
+  doppia padrona** *(era 1)*. I tre nuovi sono **falsi positivi** del controllo già noto, tutti
+  contro `kpi-indicatori-mensili-2026`, che porta cinquanta numeri piccoli in una nota sola.
+  ⚠️ *Il testo qui sotto è la misura precedente, del 21/08:* **121 errori, 214 avvisi**. Frontmatter, link e provenance a **zero
   errori**; la copertura porta tutti e 121 — **117 grezzi non ancora canonizzati, 3 aree senza
   hub e 1 rilievo di merito**, il falso positivo delle doppie padrone descritto in §6. ⚠️ **Il
   totale scende per la terza volta consecutiva** — 128 → 126 → 123 → 121 — e scende ogni volta
@@ -672,6 +675,11 @@ coerente.
   volta**: il rapporto di 2B-bis affermava che `candidate_r1.py` «conosce una sola fonte
   governante per dominio», e il codice ne gestiva due **dal lotto 2A** — affermazione ricavata
   guardando il risultato invece di leggere il codice, e ratificata in buona fede.
+
+  ✅ **CHIUSA il 22/08/2026: la specie è comparsa al terzo giro di 3A su note nate dal lotto, ed è
+  diventata E50.** ⚠️ **Il dato che ha deciso la forma della regola**: al terzo giro **le cinque
+  cifre marcate `(contate)` erano tutte esatte, e quelle sbagliate erano tutte non marcate**. **La
+  marca non certifica il numero: dichiara che va ricontato**, ed è per questo che funziona.
 - ⚠️ **L'AFFERMAZIONE CHE SI SMENTISCE DENTRO LA NOTA STESSA.** Non un'affermazione falsa
   contro la fonte — quella la prende il giudizio — ma una **la cui smentita sta nella stessa
   nota**: «non più X» sopra fatti elencati che dicono «non solo X»; «nessuno dei due cita
@@ -695,6 +703,25 @@ coerente.
   adesso perché il rapporto di 2B-bis, su questa specie, era rimasto un passo indietro**: l'aveva
   nominata e rimandata a «quando ricompare», che è esattamente ciò che la disciplina consolidata
   di questo progetto non fa. **Il criterio precede l'esperimento, sempre.**
+
+  ✅ **CHIUSA il 22/08/2026: la specie è comparsa al terzo giro di 3A su quattro note, tutte nate
+  dal lotto, ed è diventata E51.** ⚠️ **Quattro forme distinte**, tutte misurate: summary contro
+  corpo, titolo contro corpo, frase contro la propria tabella, due metà che si escludono.
+  ⚠️ **E l'istanza più istruttiva non stava in una nota ma in un documento di metodo** — la
+  motivazione del pacchetto 3A, propagata in tre file prima che il giudizio la vedesse.
+- ⚠️ **LE NOTE NATE DALLA REVISIONE HANNO UN TASSO DI DIFETTO MOLTO PIÙ ALTO DI QUELLE NATE DAL
+  CICLO.** Al lotto 3A il ri-giudizio dopo la revisione ha prodotto **43 rilievi e 16 errori** —
+  più del terzo giro, che ne aveva 16 e 5 — **e quasi tutti sulle quattro note nate dalla
+  revisione**, non sulle trentotto nate dal ciclo.
+
+  ⚠️ **La ragione è strutturale, non di attenzione**: quelle note nascono da una divergenza che
+  qualcun altro ha già trovato, si scrivono in fretta per non perderla, e **non passano i tre giri
+  che le altre hanno passato**. ⚠️ **Il caso peggiore del lotto**: la questione sul mock recall
+  citava `PRO-QA-14` **cinque volte senza averlo letto**, e quel documento è nel corpus.
+
+  ⚠️ **Non ha ancora un criterio, e va deciso al gate**: se le note nate dalla revisione debbano
+  passare un giro di giudizio dedicato prima della chiusura, o se il ri-giudizio esistente basti
+  purché si sappia dove guardare.
 - ✅ **LA REVISIONE COL CANONE NON È PIÙ UNA VIGILANZA: È CHIUSA DA E45.** Il lotto 2B aveva
   dichiarato il passo scoperto credendo che la guardia su `03_valutazione\` coprisse il canone.
   **Non lo copre**: il canone sta in `01_metodo\`, la guardia riguarda l'esame, e un subagente
