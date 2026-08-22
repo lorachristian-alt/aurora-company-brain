@@ -68,25 +68,65 @@ def main():
     # linkare l'altra. La soglia e' alta apposta — su un lotto tematico tutte le
     # note condividono qualche numero, e un controllo isterico qui produrrebbe
     # link inventati, che costano piu' del difetto che segnalano.
+    #
+    # ⚠️ FIX DEL 22/08/2026, gate del lotto 3A. PERIMETRO CHIUSO (§4.9): il controllo
+    # ALLENTA, e le due condizioni che aggiunge sono entrambe necessarie.
+    #
+    # IL CASO. Dal gate di 2A il controllo portava un rilievo, tenuto rosso «finche' non
+    # avra' il suo turno». Col lotto 3A e' passato da 1 a 4, tutti contro la stessa nota:
+    # `kpi-indicatori-mensili-2026`, una tabella di dieci indicatori per cinque mesi, che
+    # porta **cinquanta decimali piccoli in una nota sola**. I valori «in comune» erano
+    # 0,8 · 0,9 · 1,1 · 1,4 · 6,1 — numeri che in questo archivio compaiono ovunque, dalla
+    # conducibilita' alle percentuali di lotti bloccati.
+    #
+    # ⚠️ **Un controllo il cui rosso cresce col lavoro fatto bene e' un controllo che verra'
+    # ignorato** (§4.35). E i temi 3-6 portano altre tabelle come questa.
+    #
+    # LE DUE CONDIZIONI, e perche' non basta l'una senza l'altra:
+    #
+    #   1. FONTE CONDIVISA. Due note sono doppie padrone dello stesso fatto solo se il
+    #      fatto viene dallo **stesso grezzo**. Se le fonti sono disgiunte i fatti sono
+    #      diversi, e la coincidenza dei numeri e' aritmetica, non semantica. ⚠️ Tutte e
+    #      quattro le coppie segnalate il 22/08 — **compresa quella originaria di 2A** —
+    #      avevano **zero fonti in comune**: era un falso positivo dal principio.
+    #
+    #   2. VALORI IDENTIFICANTI. Un numero a una sola cifra decimale non identifica nulla
+    #      in un archivio che misura temperature, percentuali e conducibilita': «0,9» e'
+    #      un valore di sfondo. Contano solo i numeri con almeno **tre cifre significative**
+    #      — cosi' `18.600`, `99,6` e `1,42` contano, `0,9` e `1,1` no.
+    #
+    # ⚠️ La prima da sola lascerebbe scattare due note dello stesso lotto che condividono
+    # tre decimali di sfondo — ed e' il caso piu' probabile, non il piu' raro, perche' le
+    # note di un lotto citano gli stessi grezzi. La seconda da sola lascerebbe scattare due
+    # note di lotti diversi che nominano lo stesso peso o lo stesso importo per ragioni
+    # scollegate. **Insieme descrivono la doppia padrona: stesso fatto, stessa fonte.**
+    def identificante(s):
+        """Almeno tre cifre significative: sotto, il numero e' rumore di sfondo."""
+        cifre = "".join(c for c in s if c.isdigit()).lstrip("0")
+        return len(cifre) >= 3
+
     profili = {}
     for n in perimetro:
         if n.type in ("index", "hub", "conflitto") or n.fm is None:
             continue
-        num = {t for g, t in P.estrai_affermazioni(n.corpo_senza_fonti) if g == "numero"}
+        num = {t for g, t in P.estrai_affermazioni(n.corpo_senza_fonti)
+               if g == "numero" and identificante(t)}
         if num:
-            profili[n.slug] = (n, num)
+            profili[n.slug] = (n, num, {str(f) for f in n.fonti})
     slugs = sorted(profili)
     for i, a in enumerate(slugs):
         for b in slugs[i + 1:]:
-            na, sa = profili[a]; nb, sb = profili[b]
+            na, sa, fa = profili[a]; nb, sb, fb = profili[b]
             comuni = sa & sb
             if len(comuni) < 3:
+                continue
+            if not (fa & fb):
                 continue
             link_a = {t for t, _ in na.wikilink()}
             link_b = {t for t, _ in nb.wikilink()}
             if b not in link_a and a not in link_b:
                 rep.errore(na.nome, CONTROLLO,
-                           "possibile doppia padrona con '%s': %d valori in comune (%s) e nessun wikilink fra le due"
+                           "possibile doppia padrona con '%s': %d valori identificanti in comune (%s), fonte condivisa, e nessun wikilink fra le due"
                            % (nb.nome, len(comuni), ", ".join(sorted(comuni)[:4])))
 
     # ---- 4. aree popolate (solo a vault) ------------------------------------------

@@ -165,10 +165,16 @@ tassi**. Non è una dimenticanza: `candidate_r1.py` dichiara tre domini — `cip
 `acqua` — e il riesame della direzione non ne è uno. **E37 non ha girato in apertura, e la ragione
 sta scritta nell'elenco del lotto.**
 
-⚠️ **Ma la revisione ha mostrato che quella decisione era sbagliata nel merito** (§3), e questo è
-il punto che il gate deve guardare: **il tasso di produzione non è stato misurato su un lotto che
-avrebbe dovuto averne uno**. La serie resta a quattro punti — R1, 2A, 2B, 2B-bis — e il quinto
-manca.
+⚠️ **Ma la revisione ha mostrato che quella decisione era sbagliata nel merito** (§3).
+
+✅ **Il gate ha deciso il 22/08: la serie accetta il buco, dichiarato, e NON si retro-misura.**
+Misurare i due tassi adesso darebbe un tasso di produzione **già ripulito dalle correzioni della
+revisione**, incomparabile con gli altri quattro che misurano il lotto **come il ciclo l'ha
+prodotto**. ⚠️ **Un punto di serie misurato con un metro diverso è peggio di un punto mancante,
+perché il punto mancante si vede.**
+
+**Il quinto punto della serie si scrive così: «NON MISURATO — dominio non dichiarato in apertura
+per errore del gate».** La risposta in avanti è **E53**.
 
 ### 9.2 L'errore del vault sale, per la prima volta
 
@@ -201,3 +207,75 @@ lotto aumenta il debito dichiarato**, e la causa non è nel lotto.
    correggono il vault, e una riguarda **il grade AA messo in guardia**. È il grezzo del lotto 3C.
 4. **Le note nate dalla revisione hanno un tasso di difetto molto più alto di quelle nate dal
    ciclo** (§5): è un pattern nuovo, e non ha ancora una regola.
+
+---
+
+# PARTE SECONDA — il gate del 22/08/2026
+
+## 11. Il fix delle doppie padrone, e che cosa ha rivelato del caso originario
+
+**Il gate di 2A lo lasciò rosso «finché non avrà il suo turno».** Il turno è arrivato quando da
+**1 rilievo è passato a 4**, tutti contro la stessa nota.
+
+⚠️ **Prima di toccare il controllo ho guardato le quattro coppie, e il dato ha deciso la forma del
+fix**: **tutte e quattro avevano ZERO fonti in comune** — *compresa quella originaria del lotto
+2A*. **Era un falso positivo dal principio**, e i valori «in comune» erano `0,8 · 0,9 · 1,1 · 1,4
+· 6,1`, cioè rumore di sfondo di questo archivio.
+
+**Il fix aggiunge due condizioni, entrambe necessarie:**
+
+| Condizione | Perché |
+|---|---|
+| **fonte condivisa** | due note sono padrone dello stesso fatto **solo se il fatto viene dallo stesso grezzo**; con fonti disgiunte la coincidenza è aritmetica, non semantica |
+| **valori identificanti** | almeno **tre cifre significative**: in un archivio che misura temperature, percentuali e conducibilità, «0,9» non identifica nulla |
+
+⚠️ **Nessuna delle due basta da sola, ed è il motivo per cui sono due.** La prima da sola lascia
+scattare due note dello stesso lotto che condividono tre decimali di sfondo — **il caso frequente,
+non il raro**, perché le note di un lotto citano gli stessi grezzi. La seconda da sola lascia
+scattare due note di lotti diversi che nominano lo stesso importo per ragioni scollegate.
+
+**Collaudo a perimetro chiuso, nei due versi** (§4.9): la doppia padrona vera **scatta**, i
+decimali di sfondo **tacciono**, e tacciono anche tre valori identificanti **se le fonti sono
+disgiunte**.
+
+### 11.1 La misura, dopo
+
+| Misura | Prima | Dopo | Ora |
+|---|---|---|---|
+| QA perimetro **vault** | **122 errori** | **118 errori** | 09:49:20 |
+| di cui grezzi non canonizzati | 115 | **115** | |
+| di cui aree senza hub | 3 | **3** | |
+| di cui **rilievi di merito** | 4 | **0** | |
+
+⚠️ **Il rilievo di merito va a zero, e non perché il controllo sia stato spento**: perché il caso
+che lo teneva acceso, riletto, non era un difetto. **Il controllo continua a scattare sulla doppia
+padrona vera**, e ora lo dimostra un collaudo invece di una promessa.
+
+## 12. I tre emendamenti del gate
+
+**E52** — le soglie governano la **proiezione d'apertura** e la **scrittura del ciclo**; le note
+post-revisione ne sono fuori ma **si dichiarano sempre come gruppo, con esiti separati**. ⚠️ **La
+regola viene da due consuntivi**, 1B e 3A, non da un principio. **T117 si chiude qui.**
+
+**E53** — il dominio si decide su **ciò che i grezzi fanno**, non su ciò che sono, e **si verifica
+da script** in apertura. ⚠️ **Nasce da un'affermazione del coordinatore**, ed è il caso più
+istruttivo dei tre.
+
+**E54** — nessuna nota cita o descrive un documento che chi scrive non ha aperto.
+
+## 13. L'errore di apertura era del coordinatore, e la parte che conta è perché non potevo vederlo
+
+**La frase «E37 non scatta su 3A» stava nel prompt del gate precedente**, e il coordinatore lo
+dichiara per iscritto.
+
+⚠️ **È il terzo caso in tre gate in cui un'affermazione del coordinatore era sbagliata nel merito**
+— B3, il multi-fonte, questo — **e il primo in cui non l'ho contraddetta.** La differenza non è
+di attenzione:
+
+> Nei due precedenti c'era **un ordine da verificare**: «riformula l'arbitrato», «insegna allo
+> strumento le fonti multiple». Un ordine si esegue aprendo la fonte, e aprendola si vede.
+> ⚠️ **Qui c'era un'esenzione, che non si presenta come un ordine: si presenta come un lavoro che
+> non c'è da fare.** E non esiste il gesto di «verificare un lavoro che non si deve fare».
+
+⚠️ **Per questo la risposta non poteva essere la diligenza, e doveva essere uno script.** E53 non
+chiede a chi apre un lotto di essere più attento: gli toglie la possibilità di non guardare.

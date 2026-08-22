@@ -1744,3 +1744,36 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   gia' giudicato tre volte, e spezzare li' avrebbe significato rifare il ciclo su due lotti.
   ⚠️ **Ma la regola non distingue fra sforare SCRIVENDO e sforare per divergenze trovate DOPO**, e
   quella distinzione spetta al gate. Riga **T117**.
+- **2026-08-22** · **E52, E53 ED E54 AL GATE DI 3A, E NESSUNO DEI TRE NASCE DA UN DIFETTO DELLE
+  NOTE** · **E52** viene da **due consuntivi di pianificazione** (1B e 3A) e ratifica lo sforamento:
+  le soglie governano la proiezione e la scrittura del ciclo, **le note post-revisione ne sono
+  fuori** ma si dichiarano sempre come gruppo con esiti separati — ed e' quel numero che il gate
+  guarda. **T117 si chiude qui.** ⚠️ **E53** viene da un'affermazione **del coordinatore**: il
+  dominio si verifica **da script** in apertura, mai sulla parola di chi coordina. ⚠️ **E54** viene
+  da un documento che stava nel corpus e che nessuno aveva aperto.
+- **2026-08-22** · ⚠️ **L'ERRORE DEL §3 DI 3A E' DEL COORDINATORE, E LO DICE LUI** · la frase «E37
+  non scatta su 3A — ne' il verbale ne' il cruscotto sono fonti prescrittive» stava nella PARTE 3.3
+  del prompt del gate precedente. ⚠️ **E' il terzo caso in tre gate in cui un'affermazione del
+  coordinatore era sbagliata nel merito** — B3, il multi-fonte, questo — **e il primo in cui
+  l'esecutore non poteva contraddirla**: nei due precedenti c'era un **ordine da verificare**, qui
+  c'era un'**esenzione**, che non si presenta come un ordine ma **come un lavoro che non c'e' da
+  fare**. ⚠️ **Non esiste il gesto di "verificare un lavoro che non si deve fare"**, e per questo
+  la risposta non poteva essere la diligenza: doveva essere uno script. E' E53.
+- **2026-08-22** · **LA SERIE ACCETTA IL BUCO, DICHIARATO, E NON SI RETRO-MISURA** · misurare i due
+  tassi di 3A **adesso** darebbe un tasso di produzione **gia' ripulito dalle correzioni della
+  revisione**: un numero incomparabile con gli altri quattro, che misurano il lotto **come il ciclo
+  l'ha prodotto**. ⚠️ **Un punto di serie misurato con un metro diverso e' peggio di un punto
+  mancante**, perche' il punto mancante si vede. Il quinto punto e' «**NON MISURATO — dominio non
+  dichiarato in apertura per errore del gate**», scritto cosi'.
+- **2026-08-22** · **IL FALSO POSITIVO DELLE DOPPIE PADRONE E' CHIUSO, E LE CONDIZIONI SONO DUE** ·
+  il gate di 2A lo lascio' rosso «finche' non avra' il suo turno», e il turno e' arrivato quando da
+  **1 e' passato a 4** — tutti contro `kpi-indicatori-mensili-2026`, una tabella che porta
+  **cinquanta decimali piccoli in una nota sola**. ⚠️ **Verificate le quattro coppie: tutte con
+  ZERO fonti in comune, compresa quella originaria di 2A** — era un falso positivo dal principio.
+  ⚠️ **Il fix aggiunge DUE condizioni, entrambe necessarie**: **fonte condivisa** — due note sono
+  padrone dello stesso fatto solo se il fatto viene dallo stesso grezzo — e **valori identificanti**,
+  almeno tre cifre significative, perche' «0,9» in questo archivio e' rumore di sfondo. ⚠️ **Nessuna
+  delle due basta da sola**, e il collaudo lo esercita nei due versi a perimetro chiuso (§4.9):
+  la doppia padrona vera scatta, i decimali di sfondo tacciono, e tacciono anche tre valori
+  identificanti se le fonti sono disgiunte. **Vault da 122 a 118 errori: 115 grezzi + 3 hub, zero
+  di merito.**

@@ -13,7 +13,7 @@
 
 ## Riga di riepilogo per lo stato di sessione
 
-> suite QA · perimetro vault · **122 ERRORI, 243 AVVISI** · esito **ROSSO**
+> suite QA · perimetro vault · **118 ERRORI, 243 AVVISI** · esito **ROSSO**
 
 ---
 
@@ -328,7 +328,7 @@ guarnizione u» si trova SOLO in un passaggio barrato della fonte, e la nota non
 
 ## qa_copertura (perimetro: vault, 324 note)
 
-- ERRORI: **122**
+- ERRORI: **118**
 - AVVISI: **0**
 
 ### Errori
@@ -450,10 +450,6 @@ guarnizione u» si trova SOLO in un passaggio barrato della fonte, e la nota non
 | `(copertura)` |  | copertura | il grezzo 'visura_camerale_ordinaria_AuroraFoodGroup.pdf' non compare in `fonti` di nessuna nota |
 | `(copertura)` |  | copertura | il grezzo 'volantino_convenzione_palestra.txt' non compare in `fonti` di nessuna nota |
 | `(copertura)` |  | copertura | il grezzo '~$ttera_risposta_Tosano_reclamo_BOZZA_v3.docx' non compare in `fonti` di nessuna nota |
-| `fatto-microperdite-saldatura-l26130.md` |  | copertura | possibile doppia padrona con 'kpi-conducibilita-risciacquo-cip-maggio.md': 3 valori in comune (0,9, 1,1, 1,4) e nessun wikilink fra le due |
-| `fatto-microperdite-saldatura-l26130.md` |  | copertura | possibile doppia padrona con 'kpi-indicatori-mensili-2026.md': 4 valori in comune (0,8, 0,9, 1,1, 1,4) e nessun wikilink fra le due |
-| `fatto-repliche-shelf-life-l26130-divergenti.md` |  | copertura | possibile doppia padrona con 'kpi-indicatori-mensili-2026.md': 3 valori in comune (0,8, 0,9, 6,1) e nessun wikilink fra le due |
-| `kpi-conducibilita-risciacquo-cip-maggio.md` |  | copertura | possibile doppia padrona con 'kpi-indicatori-mensili-2026.md': 3 valori in comune (0,9, 1,1, 1,4) e nessun wikilink fra le due |
 | `(copertura)` |  | copertura | l'area 'ricerca-sviluppo' non ha il suo hub area-ricerca-sviluppo in areas\ |
 | `(copertura)` |  | copertura | l'area 'risorse-umane' non ha il suo hub area-risorse-umane in areas\ |
 | `(copertura)` |  | copertura | l'area 'sicurezza-ambiente' non ha il suo hub area-sicurezza-ambiente in areas\ |

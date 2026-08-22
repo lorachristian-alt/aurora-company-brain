@@ -2058,6 +2058,21 @@ corregge la soglia di E21):
 | supera il budget ma resta **sotto le 30 note** | lo scostamento si **dichiara nel rapporto** e si procede |
 | supera le **40 note di contenuto** | si spezza **sempre**, qualunque cosa dica il budget |
 
+⚠️ **E52 — LE SOGLIE GOVERNANO LA PROIEZIONE D'APERTURA E LA SCRITTURA DEL CICLO, NON LE NOTE CHE
+LA RETE DI CONTROLLO PRODUCE.** Le note nate **dalla revisione col canone e dal ri-giudizio** non
+contano nella soglia di spezzamento: sono **il costo della rete**, non della pianificazione, e
+spezzare a ciclo chiuso significherebbe **rifare i giri su due lotti** per note che i giri li
+hanno già attraversati dall'altra parte.
+
+⚠️ **Ma si dichiarano SEMPRE nel rapporto, come gruppo a sé**, con la loro origine e **i loro
+esiti di giudizio tenuti separati da quelli del ciclo**. ⚠️ **È quel numero che il gate guarda**:
+al lotto 3A il gruppo post-revisione era di quattro note e ha prodotto **43 rilievi**, mentre le
+trentotto del ciclo, al terzo giro, ne avevano prodotti sedici. **Un gruppo piccolo con un tasso
+molto più alto è un segnale, e sommarlo al ciclo lo cancella.**
+
+⚠️ **La regola viene da due consuntivi** — 1B e 3A — non da un principio: prima di essi lo
+sforamento era un caso singolo, e un caso singolo non fa una soglia.
+
 ⚠️ **Perché la soglia è doppia, e perché quella percentuale da sola non proteggeva niente.**
 E21 misurava uno **scostamento relativo da una stima**; il rischio che la regola esiste per
 contenere è il **carico di revisione**, che si misura in **note assolute**. Le stime della
@@ -2375,7 +2390,26 @@ note → suite QA → revisore indipendente → correzioni propagate → suite Q
    `conta_stato.py`, e lo stesso giorno si è ripresentata anche fra due misure indipendenti
    della QA di lotto — 40 avvisi contro 41 — dove la divergenza non era un errore di nessuno
    dei due: era **l'istante**. Due osservazioni bastano a scrivere la regola.
-5-ter. **RICONCILIAZIONE VERTICALE DELLE NOTE GIÀ SCRITTE, quando il lotto porta una fonte
+5-ter. ⚠️ **E53 — IL DOMINIO SI DECIDE SU CIÒ CHE I GREZZI FANNO, NON SU CIÒ CHE SONO, E SI
+   VERIFICA DA SCRIPT IN APERTURA.** Si cercano nei grezzi del lotto **le sigle e i nomi
+   dell'elenco delle fonti prescrittive**, e l'esito di quella ricerca — qualunque sia — va nel
+   rapporto.
+
+   ⚠️ **Un documento che CITA un criterio prescrittivo entra nel dominio anche se non prescrive
+   nulla di suo**, e a maggior ragione se **lo cambia**. Un verbale che delibera non è una fonte
+   prescrittiva; ma se riporta un limite prescritto altrove e ne scrive un altro, **quel limite è
+   materia di riconciliazione**, e chi non guarda non lo vede.
+
+   ⚠️ **«Nessun dominio» è una dichiarazione che si motiva con l'esito della ricerca, mai con la
+   natura del documento — E MAI SULLA PAROLA DI CHI COORDINA.** Al lotto 3A l'esenzione era
+   scritta nel prompt del gate, era **formalmente corretta e sbagliata nel merito**, ed è costata
+   **il quinto punto della serie dei due tassi**: il verbale citava il criterio del mock recall e
+   lo cambiava, e nessuno l'ha cercato perché nessuno doveva cercarlo.
+
+   ⚠️ **Ogni lotto dichiara il proprio dominio in apertura, o il proprio «nessuno» motivato**,
+   così la serie di E41 non ha più buchi non dichiarati.
+
+   **RICONCILIAZIONE VERTICALE DELLE NOTE GIÀ SCRITTE, quando il lotto porta una fonte
    prescrittiva** (E37). All'apertura di ogni lotto che introduce nel vault uno o più documenti
    che **prescrivono**, lo script che genera i perimetri di manutenzione si rilancia
    **ristretto a quelle fonti**: le note che restituisce entrano nell'elenco
@@ -2483,6 +2517,22 @@ significherebbe misurare un archivio che contiene già tutte le risposte.
 ---
 
 ## 10. Cosa non fare — mai
+
+⚠️ **E54 — NESSUNA NOTA CITA O DESCRIVE UN DOCUMENTO CHE CHI SCRIVE NON HA APERTO.** Vale per
+ogni nome in `fonti` **e per ogni documento nominato nel corpo**: o è stato aperto, o la nota non
+ne parla. Se è il grezzo di un lotto futuro vale il **divieto 9-bis** — sta nel canone e nel vault
+entra col suo lotto.
+
+⚠️ **Il caso, e il modo in cui è stato pagato.** Una questione del lotto 3A citava `PRO-QA-14`
+**cinque volte senza che nessuno l'avesse letto**, compreso un «nessuno dichiara di modificare
+`PRO-QA-14`» — che è un'affermazione **sul contenuto** di un documento mai aperto. ⚠️ **Il
+documento era nel corpus**, e conteneva la spiegazione della divergenza che la nota stava
+descrivendo: il criterio delle quattro ore vi compare due volte, e il «due ore» che il verbale usa
+vi compare pure — ma riferito **alla valutazione preliminare di una crisi**, che è un'altra cosa.
+
+⚠️ **Citare un documento non letto non è una svista di forma: è affermare sul suo contenuto.** E
+il costo non è l'imprecisione — è che **la risposta stava lì**, e la nota ha scritto che non
+c'era.
 
 **Sul corpus**
 1. Non modificare, rinominare, spostare o «ripulire» un grezzo, né in `Desktop\sources`

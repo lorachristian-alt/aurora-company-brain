@@ -32,7 +32,7 @@
 | Suite QA | **verde sul perimetro di lotto**; ⚠️ **dal gate del 21/08 la provenance legge l'ESTRAZIONE DI CANTIERE** (E48), che aggiunge marcati formule e barrato — l'estrattore di misura resta byte-identico e `estrazione_cantiere.py --prova` lo dimostra su tutti i 161 grezzi; sul vault tre controlli su quattro sono a zero errori. ⚠️ Dal gate di 2A la QA ha **due controlli nuovi**: l'artefatto di ricerca che E43 impone a chi dichiara un'assenza, e **l'omogeneità dei fine riga** — il primo controllo del progetto che non guarda il contenuto di una nota ma il suo **supporto** |
 | `llms.txt` | rigenerato dal frontmatter, allineato |
 | Matrice dei lotti | 160/160 grezzi, zero scoperti, zero doppi (`verifica_matrice_lotti.py` verde). ⚠️ **I budget dei lotti 2-10 sono SUPERATI** e il piano non è più a 12 lotti: vale **E31**, la capacità di 25-35 note per lotto, e i grezzi si decidono in apertura. **Stima: circa 28-30 lotti**, scritta anche nella scaletta perché cambia il calendario di S4-S5. Ridisegnato in dettaglio **solo il tema 2** (2A · 2B · 2C) |
-| **PROSSIMO ATTO** | **Il gate del lotto 3A**, e poi il pacchetto **3C** *(certificazione e audit)*. ⚠️ **3C va anticipato rispetto a 3B**: il rapporto d'audit porta **sette divergenze** che il canone registra e il vault non può scrivere, **due delle quali correggono cose già scritte** — il termine delle evidenze è il 18/03 e non il 17, e la questione che il lotto R1 lasciò aperta sulla rivalidazione del CCP2 **ha una risposta**. Una terza riguarda **un avviso di riduzione del grade AA** che il vault non sa |
+| **PROSSIMO ATTO** | **Il lotto 3C — certificazione e audit**, anticipato su 3B. ⚠️ **3C va anticipato rispetto a 3B**: il rapporto d'audit porta **sette divergenze** che il canone registra e il vault non può scrivere, **due delle quali correggono cose già scritte** — il termine delle evidenze è il 18/03 e non il 17, e la questione che il lotto R1 lasciò aperta sulla rivalidazione del CCP2 **ha una risposta**. Una terza riguarda **un avviso di riduzione del grade AA** che il vault non sa |
 
 ⚠️ **Errata del 19/08/2026 sui numeri del lotto 1A.** Questo stato dichiarava «105 note, di
 cui 11 `_index` e 6 note-strumento: 88 di contenuto». `qa_all.py` a chiusura di 1A contava
@@ -471,6 +471,29 @@ giudizio, e senza il secondo giro sarebbe rimasta.
 | chiusa | **2** | T20, T33 |
 | tracciata | **26** | T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T19, T21, T29, T31, T34, T39, T40, T41, T49, T50, T51, T52, T53, T54 |
 | **totale righe** | **54** | da T1 a T54, nessuna mancante e nessuna duplicata |
+
+## Il gate del lotto 3A, 22/08/2026 — tre emendamenti e il falso positivo chiuso
+
+**3A approvato**, ed è insieme **il lotto più difettoso del progetto e quello che ha prodotto più
+regole**: cinque emendamenti in due giorni, due da criteri pre-registrati e tre dal proprio gate.
+
+⚠️ **Il miglior singolo ritrovamento del progetto per S7 è la lettura strutturale del cruscotto**:
+**il verso di ogni confronto vive solo dentro la formula** — chi legge il foglio non può sapere se
+un 64 % contro un target di 70 sia un successo o un fallimento.
+
+⚠️ **E l'errore di apertura era del coordinatore, che lo dichiara**: l'esenzione «E37 non scatta su
+3A» stava nel prompt del gate precedente, ed è **il terzo caso in tre gate** in cui un'affermazione
+del coordinatore era sbagliata nel merito — **il primo in cui l'esecutore non poteva
+contraddirla**, perché un'esenzione non si presenta come un ordine da verificare. Da qui **E53**:
+il dominio si verifica **da script**.
+
+**E52** ratifica lo sforamento e chiude T117 · **E53** il dominio da script · **E54** nessuna nota
+cita un documento non aperto. Registro a **54**.
+
+⚠️ **Il falso positivo delle doppie padrone è chiuso**, dopo essere stato rosso dal gate di 2A:
+tutte e quattro le coppie avevano **zero fonti in comune**, quella originaria compresa. Il fix
+chiede **fonte condivisa** e **valori identificanti**, con collaudo nei due versi. **Vault da 122 a
+118 errori: 115 grezzi + 3 hub, zero di merito.**
 
 ## Il lotto 3A, chiuso il 22/08/2026 — il riesame della direzione
 

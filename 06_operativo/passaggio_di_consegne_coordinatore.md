@@ -77,7 +77,12 @@ crea regole: spiega come si sono applicate.
 - **Canonizzazione — sette lotti chiusi, e il TEMA 2 È COMPLETO**: pilota L26130 (22 grezzi)
   + 1A (7) + 1B (4) + 1C (2) + 2A (3) + 2B (3) + **2B-bis (2)** = **43 grezzi su 160**, più il
   lotto di manutenzione R1, **e il primo pacchetto del tema 3 è chiuso**: `3A` — il riesame della
-  direzione e il cruscotto KPI — porta il totale a **45 grezzi su 160**. ⚠️ **Restano quattro
+  direzione e il cruscotto KPI — porta il totale a **45 grezzi su 160**. ⚠️ **La serie dei due
+  tassi (E41/E46) ha quattro punti e un buco dichiarato**: R1 57,7 % · 2A 3,3 % · 2B 0,0 % ·
+  2B-bis 9,1 % · **3A NON MISURATO — dominio non dichiarato in apertura per errore del gate**.
+  ⚠️ **Il buco non si retro-misura**: farlo ora, dopo le correzioni della revisione, darebbe un
+  tasso già ripulito, incomparabile con gli altri quattro che misurano il lotto **come il ciclo
+  l'ha prodotto**. La risposta in avanti è **E53**. ⚠️ **Restano quattro
   pacchetti**: `3B` politica + registro presenze · `3C` certificazione e audit · `3D` reclami ·
   `3E` crisi e ispezioni. ⚠️ **`3C` va anticipato**: il rapporto d'audit porta sette divergenze
   che il canone registra e il vault non può scrivere, **due delle quali correggono cose già
@@ -537,6 +542,7 @@ coerente.
 | Il prompt riutilizzabile rimasto indietro di sedici emendamenti | 1A, 1B e 1C hanno girato con le regole nel testo incollato invece che nello strumento: chi opera **segnala** lo scostamento, chi istruisce lo **colma** (§4.27, 19/08/2026) |
 | **Due assenze dichiarate con la formula di E3 senza aver fatto la ricerca** | il registro dato per assente stava in dieci grezzi, uno dei quali era già fonte di quella nota; il valore dato per ignoto stava nel piano di autocontrollo. Le ha trovate la **revisione col canone**, non la QA: su un'assenza lo strato deterministico non ha nulla da cercare (§4.32, lotto 2A) |
 | **Una sostituzione di testo fallita in silenzio, e nessuno se ne è accorto** | una correzione del secondo giro non è andata a segno; la QA resta verde su una frase sbagliata che è ancora lì, e l'ha ripresa il giudice al giro dopo. **Chi corregge a programma verifica che la correzione sia entrata**, o la corregge due volte credendo di averla fatta una (lotto 2A) |
+| **Un'ESENZIONE dettata dall'alto, che nessuno poteva verificare** | il prompt del gate scriveva «E37 non scatta su 3A — né il verbale né il cruscotto sono fonti prescrittive». Era **formalmente corretto e sbagliato nel merito**: il verbale **cita** il criterio del mock recall e **lo cambia**, quindi il dominio c'era. ⚠️ **È il terzo caso in tre gate in cui un'affermazione del coordinatore era sbagliata nel merito, e il primo in cui l'esecutore non poteva contraddirla**: nei due precedenti — B3 e il multi-fonte — c'era un **ordine da verificare**; **un'esenzione non si presenta come un ordine**, si presenta come un lavoro che non c'è da fare. ⚠️ **Il costo è misurato: il quinto punto della serie dei due tassi.** La risposta strutturale è **E53** — il dominio si verifica **da script** in apertura, mai sulla parola di chi coordina |
 | **Un conteggio mai fatto sulla fonte, creduto da quattro presidi in fila** | un «sei fasi» **contato da chi scriveva** ha attraversato il revisore col canone, il canone, una nota e una riga di tracciamento senza che nessuno riaprisse il file; la fonte diceva «5 fasi» sopra un elenco di **sei voci**, e lo scarto vero era un altro — la scheda **omette il prerisciacquo** e **include la sanificazione**. ⚠️ **Ognuno ha creduto a quello prima**: il conteggio *sembra* un atto di lettura ed *è* un atto di inferenza. Da qui **E49** — la riga B è una nota senza cartella — e la vigilanza del §6 sulle note |
 | **Il pacchetto del giudizio generato prima della fine delle correzioni** | sei note su quaranta sono state modificate dopo la generazione del primo pacchetto: E33 dice che si genera **per ultimo**, e qui non lo è stato. Nessun rilievo è caduto su testo morto, ma la regola esiste per non doverlo verificare a posteriori (lotto 2A) || **Una guardia formulata male, e due lotti fermi** | ⚠️ **L'errore è del testo del coordinatore, non di chi lo leggeva.** I prompt portavano «`03_valutazione\` non si apre mai» **senza l'eccezione del revisore**, e il canone non vive lì: sta in `01_metodo\`. R1 si è fermato a chiedere l'autorizzazione, **2B si è fermato dichiarando il passo scoperto** e ha chiuso senza revisione col canone. **Due sessioni, lo stesso dubbio, e la risposta viveva solo nel testo incollato di un gate.** Riparato con **E45**, che lo scrive in `metodo_03` §9.5 passo 3 — cioè dove chi opera lo cerca. ⚠️ **La lezione è §7-bis.6: quando la stessa domanda ferma due sessioni, si emenda la fonte, non si risponde una terza volta.** |
 
@@ -709,6 +715,22 @@ coerente.
   corpo, titolo contro corpo, frase contro la propria tabella, due metà che si escludono.
   ⚠️ **E l'istanza più istruttiva non stava in una nota ma in un documento di metodo** — la
   motivazione del pacchetto 3A, propagata in tre file prima che il giudizio la vedesse.
+- ⚠️ **IL GRUPPO POST-REVISIONE, E IL SUO CRITERIO.** Le note nate dalla revisione e dal
+  ri-giudizio **non contano nella soglia di spezzamento** (E52) ma si dichiarano sempre come
+  gruppo, con esiti separati.
+
+  ✅ **CRITERIO DI DECISIONE, scritto al gate del 22/08/2026, PRIMA del prossimo lotto che
+  produca note post-revisione.**
+
+  | | |
+  |---|---|
+  | **il gruppo prende un mini-ciclo dedicato** | se al prossimo lotto che produce note post-revisione **il tasso di rilievi del gruppo è ancora più del doppio di quello del ciclo** |
+  | **in che cosa consiste** | rilettura **2-bis con le fonti aperte davanti**, giudizio, e **un secondo giro se il primo trova errori** — come regola, non come diligenza |
+  | **se non lo è** | **E54 è bastato**: il caso peggiore di 3A era una citazione non letta, e E54 ora la vieta |
+
+  ⚠️ **Il numero di 3A, per confronto**: quattro note post-revisione, **43 rilievi**; trentotto
+  note di ciclo, **16 rilievi** al terzo giro. Il gruppo era **un decimo delle note e più del
+  doppio dei rilievi**.
 - ⚠️ **LE NOTE NATE DALLA REVISIONE HANNO UN TASSO DI DIFETTO MOLTO PIÙ ALTO DI QUELLE NATE DAL
   CICLO.** Al lotto 3A il ri-giudizio dopo la revisione ha prodotto **43 rilievi e 16 errori** —
   più del terzo giro, che ne aveva 16 e 5 — **e quasi tutti sulle quattro note nate dalla
@@ -719,9 +741,10 @@ coerente.
   che le altre hanno passato**. ⚠️ **Il caso peggiore del lotto**: la questione sul mock recall
   citava `PRO-QA-14` **cinque volte senza averlo letto**, e quel documento è nel corpus.
 
-  ⚠️ **Non ha ancora un criterio, e va deciso al gate**: se le note nate dalla revisione debbano
-  passare un giro di giudizio dedicato prima della chiusura, o se il ri-giudizio esistente basti
-  purché si sappia dove guardare.
+  ✅ **Il criterio c'è, ed è scritto qui sopra.** ⚠️ **E la vigilanza resta aperta**: E54 vieta la
+  citazione non letta, che era il caso peggiore, ma **non tocca la ragione strutturale** — quelle
+  note nascono da una divergenza già trovata, si scrivono per non perderla, e non passano i tre
+  giri che le altre hanno passato.
 - ✅ **LA REVISIONE COL CANONE NON È PIÙ UNA VIGILANZA: È CHIUSA DA E45.** Il lotto 2B aveva
   dichiarato il passo scoperto credendo che la guardia su `03_valutazione\` coprisse il canone.
   **Non lo copre**: il canone sta in `01_metodo\`, la guardia riguarda l'esame, e un subagente
