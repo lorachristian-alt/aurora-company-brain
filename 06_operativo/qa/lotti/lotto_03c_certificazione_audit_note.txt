@@ -1,0 +1,74 @@
+# Note RIAPERTE dal lotto lotto_03c_certificazione_audit — riconciliazione verticale ARRETRATA (E37).
+# GENERATO da 06_operativo\candidate_r1.py --dominio certificazione il 2026-08-22.
+# Criterio: la nota parla di il rapporto con l'ente di certificazione: titolo in vigore, scope, condizioni di validita' e uso del marchio, obblighi di comunicazione, chiusura delle non conformita' e programmazione degli audit,
+# e fra le sue fonti non c'e' nessuna delle fonti che governano quel
+# dominio: Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf, Conferma_incarico_audit_rinnovo_2026.pdf.
+# Non si edita a mano: si rilancia lo script.
+area-qualita
+fatto-audit-cliente-tosano-novembre
+fatto-audit-csqa-febbraio-2026-esito
+fatto-due-nc-minori-audit-2026
+fatto-evidenze-audit-oltre-termine
+fatto-obblighi-registro-f-gas
+fatto-proteina-latte-prima-del-bio
+fatto-sistema-adeguato-con-riserve
+questione-carrello-ricambi-dichiarato-rimosso
+questione-data-riunione-direzione
+kpi-pareto-cause-nc-2026
+doc-azioni-deliberate-riesame-2026
+doc-ccp2-limite-critico
+doc-manuale-haccp
+doc-mod-qa-07
+doc-riesame-direzione-2026
+doc-sequenze-produzione-allergeni
+entita-analytica-veneta
+macchina-ft-01
+# --- da qui in giu': note toccate in corso di lotto (E32) ---
+# Preesistenti, che il lotto modifica senza citarne i grezzi.
+questione-validazione-ccp2-mai-confermata
+_index-docs
+_index-entities
+_index-self
+# --- da qui in giu': note NATE in questo lotto ---
+# Si dichiarano QUANDO SI CREANO, non si deducono a fine lotto: e'
+# la stessa disciplina di E32 applicata alle note nuove, e serve a
+# conta_perimetro_lotto.py, che i numeri del perimetro li legge da qui.
+
+self-certificazioni
+doc-rapporto-audit-csqa-2026
+doc-conferma-incarico-audit-rinnovo-2026
+entita-csqa-certificazioni
+entita-icea
+fatto-grade-aa-messo-in-guardia
+fatto-chiusura-nc-documentale-e-il-richiamo
+fatto-condizioni-uso-marchio-brcgs
+fatto-due-nc-e-cinque-osservazioni
+fatto-nc1-seconde-firme-undici-moduli-su-venti
+fatto-nc2-carrello-ricambi-a-bordo-linea
+fatto-termometri-tp08-tp11-fuori-dal-registro
+fatto-test-rintracciabilita-audit-2h50
+fatto-rivalidazione-ccp2-non-formalizzata
+fatto-quattro-neoassunti-linea2-senza-formazione-allergeni
+fatto-semilavorati-senza-identificazione-in-cella
+fatto-zanzariera-lacerata-e-porta-officina
+fatto-vendor-rating-senza-imballaggi-e-laboratorio
+fatto-scope-certificato-e-quattro-esclusioni
+fatto-referenze-nello-scope-del-certificato
+fatto-audit-di-rinnovo-giugno-2026
+questione-categorie-e-durata-audit-divergenti
+questione-sette-nc-o-due
+questione-clausola-della-nc1-in-due-versioni
+questione-scadenza-certificato-luglio-o-aprile
+questione-proroga-informale-al-27-03
+questione-data-di-emissione-del-rapporto-di-audit
+entita-nadia-franceschini
+fatto-riserva-su-nc1-efficacia-da-verificare
+fatto-impianto-haccp-verificato-in-audit
+fatto-chi-e-stato-intervistato-in-audit
+questione-tre-o-quattro-neoassunti-senza-formazione
+questione-quando-l-ente-torna-a-verificare
+questione-evidenze-del-02-04-nove-o-cinque
+questione-convalida-md-3200-tre-date
+sessione-s4-lotto-03c
+fatto-due-nc-interne-sul-proprio-ritardo
+questione-vendor-rating-2025-c-e-o-non-c-e

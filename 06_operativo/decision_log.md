@@ -1777,3 +1777,88 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   la doppia padrona vera scatta, i decimali di sfondo tacciono, e tacciono anche tre valori
   identificanti se le fonti sono disgiunte. **Vault da 122 a 118 errori: 115 grezzi + 3 hub, zero
   di merito.**
+- **2026-08-22** · **LE SETTE `C` DELLA REVISIONE DEL LOTTO 3C, perche' non tornino al lotto
+  dopo** · ⚠️ **C1 — il vendor rating in archivio contiene i tre fornitori che l'osservazione n. 5
+  da' per mancanti, e NON e' una contraddizione**: `vendor_rating_fornitori_2026.xlsx` porta
+  `F0031`, `F0044` e `F0090`, ma e' la valutazione **2026**, «approvato nel riesame della
+  direzione del 12/03/2026», con la nota «peso alzato dopo l'audit» — **e' il vendor rating
+  ESTESO che l'ente registra fra le evidenze del 02/04**. L'osservazione parla del **2025**.
+  ⚠️ **C2 — la scheda tecnica dello snack riporta il certificato BRCGS e non viola la condizione
+  2**: la condizione vieta il logo «sul prodotto o sul suo imballo primario destinato al
+  consumatore finale», e **una scheda tecnica e' comunicazione business-to-business**. Nessun
+  documento del corpus mostra il riferimento su una confezione. ⚠️ **C3 — «in scadenza il
+  28/07/2026» della mail dell'11 marzo non e' un errore del lotto**: precede di un mese
+  l'emissione dell'edizione 3, e `questione-scadenza-certificato-luglio-o-aprile` lo dichiara.
+  ⚠️ **C4 — le `data_fatto` disomogenee fra 17/02 e 18/02 non sono un errore**: il rapporto non
+  data i singoli rilievi, e giorno dell'ispezione e giorno della riunione di chiusura sono
+  entrambi difendibili. ⚠️ **C5 — il bonifico CSQA compare due volte nell'estratto conto e non
+  sono due pagamenti**: le righe 59 e 60 sono identiche **saldo progressivo compreso**
+  (99.840,45), quindi e' una riga duplicata nel file. **Non toccare la quadratura.** ⚠️ **C6 —
+  «Reclami 2025: n. 41 totali» del rapporto coincide col verbale di riesame §4.1**: e' una
+  **conferma esterna di un dato interno**, e vale la pena saperlo. ⚠️ **C7 — non e' un errore di
+  nota ma la tabella alias e' superata**: `alias_entita.md` avverte «il nome per esteso lo da'
+  UNA fonte sola» per Chiara Vicentini, e il rapporto d'audit §2 la scrive per esteso. **Le
+  fonti ora sono due, e l'avvertenza va aggiornata, non cancellata.**
+- **2026-08-22** · ⚠️ **UNA RICERCA RISTRETTA SUL TEMA INVECE CHE SULL'OGGETTO PRODUCE
+  UN'ASSENZA FALSA** · verificando la settima voce di T116 — «i neoassunti senza formazione
+  allergeni sono quattro, **non tre**» — la prima ricerca chiedeva righe che nominassero
+  **insieme** un numero, la formazione e gli allergeni: **non trovo' nulla**, e stavo per
+  scrivere nella matrice che il «tre» non esisteva. ⚠️ **Esiste**: `NC-2026-015` del 28/01/2026
+  dice «registro formazione MOD-HR-11 non aggiornato per **3 neoassunti Linea 2**» — **e la
+  parola «allergeni» in quella riga non c'e'.** ⚠️ **Un'assenza dichiarata su una ricerca
+  ristretta e' peggio di un dubbio**, perche' si presenta come un fatto verificato. E3 chiede la
+  ricerca su TUTTO `sources\`; questo caso aggiunge che **anche i TERMINI vanno presi larghi**,
+  e che si cerca **l'oggetto** — il registro, il modulo, la linea — non il tema.
+- **2026-08-22** · **IL DOMINIO `certificazione` E' PROBABILMENTE DICHIARATO TROPPO LARGO, E IL
+  NUMERO LO DICE** · il tasso di difetto di produzione di 3C e' **38,7 %**, il piu' alto della
+  serie — ma **otto delle dodici note contate come scoperte citano un'altra fonte prescrittiva**
+  che governa cio' di cui parlano davvero, e delle quattro restanti **tre hanno la prescrizione
+  fuori dal corpus**. ⚠️ **Le ESPRESSIONI del dominio riconoscono le note che parlano
+  dell'AUDIT, mentre le sue FONTI governano il TITOLO e gli obblighi verso l'ente**: e' l'errore
+  che E36 corresse per le note, ricomparso nella dichiarazione di un dominio. ⚠️ **Il numero non
+  e' stato aggiustato** (E41), e le quattro correzioni verticali vere del lotto — `MOD-PR-04`,
+  `PRP-05`/`PRP-12`, `PRP-02`, `PRP-04` — **non lo toccano affatto**, perche' sono di un altro
+  dominio. **Decide il gate.** T129.
+- **2026-08-22** · **LOTTO 3C CHIUSO — E53 AL PRIMO IMPIEGO, E IL DOMINIO SI E' VERIFICATO IN
+  VENTI SECONDI** · quattro grezzi dell'ente di certificazione, **38 note nuove**, QA di lotto a
+  **zero errori**, vault da 118 a **114** — e i quattro in meno sono esattamente i quattro grezzi
+  canonizzati. ⚠️ **La domanda che il lotto 3A non aveva potuto porsi ha avuto risposta prima di
+  scrivere una riga**: `verifica_dominio.py` ha trovato **sette fonti prescrittive citate per
+  sigla** dentro i grezzi, quattro citabili. **E53 funziona.**
+- **2026-08-22** · ⚠️ **UNO SCRIPT CHE TACE NON E' UNO SCRIPT CHE ASSOLVE** · il primo
+  `verifica_dominio.py` chiudeva `RX_SIGLA` con un **confine di parola**, e fra la `I` di
+  `CPI_certificato_...` e l'underscore **quel confine non c'e'**, perche' l'underscore e' un
+  carattere di parola: **ogni sigla del corpus veniva scartata in
+  silenzio**, e restavano i soli riscontri deboli. ⚠️ **L'ha tradito un NUMERO — 28 fonti su 36
+  «nominate» — non una rilettura del codice**: un elenco che dice quasi sempre di si' non e' una
+  verifica. Da li' le **due classi di forza**, sigla e parola comune, che non si sommano mai.
+- **2026-08-22** · **IL CERTIFICATO STAVA NELLA CARTELLA SBAGLIATA, E IL METODO LO DICEVA CON UN
+  ESEMPIO SVOLTO SU QUEL FILE** · `metodo_03` §5, riga 3 della tabella: «Certificato BRCGS →
+  `self\` → `self-certificazioni.md`. **Scartata `docs`**: in `docs` vanno i documenti che Aurora
+  **scrive e applica**, non gli attestati che riceve». ⚠️ **L'errore l'ha trovato l'INDICE DELLA
+  CARTELLA al momento di aggiornarlo**, non chi scriveva: la riga era sotto gli occhi allora, e
+  non un minuto prima. ⚠️ **`self\` si apre con questo lotto**, dopo quattro mesi di vuoto.
+- **2026-08-22** · ⚠️ **IL SUPERLATIVO SULL'ARCHIVIO: LA CLASSE D'ERRORE CHE HA CHIUSO IL CICLO
+  DI GIUDIZIO** · i due soli rilievi del secondo giro avevano la stessa forma, la forma e' stata
+  **nominata**, e al terzo giro — partito con l'istruzione di cercarla — ne sono usciti **altri
+  tre**. ⚠️ **Il terzo giro ha trovato piu' rilievi del secondo, e non e' un peggioramento: e'
+  che gli e' stato detto che cosa cercare.** ⚠️ **La regola NON e' «niente superlativi»**: dei
+  quattordici verificati, **dieci reggono** — tutti quelli il cui soggetto e' **un documento
+  citato**. **Il discrimine e' il SOGGETTO, non la forma**: un superlativo sull'archivio non e'
+  verificabile da nessuna nota, perche' **nessuna nota ha l'archivio fra le proprie fonti**. E'
+  la stessa specie di E36 un gradino piu' su. **Candidato emendamento, T142.**
+- **2026-08-22** · **IL CRITERIO PRE-REGISTRATO SUL GRUPPO POST-REVISIONE E' STATO ESERCITATO E
+  NON HA SCATTATO** · gruppo: **4 note, 0 rilievi al secondo giro**; ciclo: **51 note, 2
+  rilievi**. **E54 e' bastato**, nessun mini-ciclo. ⚠️ **E' la prima volta in questo progetto che
+  un criterio scritto PRIMA viene esercitato e si chiude senza discussione**, e funziona proprio
+  perche' era stato scritto quando non si sapeva come sarebbe andata. ⚠️ **Ma il gruppo e'
+  cresciuto dopo**: i ritrovamenti del terzo giro hanno prodotto **due note che non sono passate
+  dal giudizio** — la regola d'arresto E26 ha la precedenza sul ri-giudizio. **T141.**
+- **2026-08-22** · ⚠️ **DUE RITROVAMENTI HANNO CORRETTO COSE SCRITTE IN QUESTO STESSO LOTTO** ·
+  il **«sedici giorni» NON era un refuso del vault**: `NC-2026-061` del registro interno dice
+  «con **16 gg di ritardo**», quindi **Aurora conta sedici in due documenti** ed e' coerente con
+  se' stessa; l'ente conta quindici perche' il termine e' suo e lo fissa al 18/03. **T126 e'
+  stata riscritta dentro lo stesso lotto**, e dice che cosa diceva prima. ⚠️ **E il vendor
+  rating**: i tre fornitori che l'audit da' per mancanti dal 2025 sono **classificati nel riesame
+  di marzo**, con un indizio — «bobina fuori spessore 10/02/26» — che punta a una valutazione
+  ritoccata dopo l'audit. **T140.**

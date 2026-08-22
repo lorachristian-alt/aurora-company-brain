@@ -50,7 +50,13 @@ LOCATOR = {
              r"foglio\s+«[^»]+»\s*!\s*[A-Z]{1,3}\d+",
              r"foglio\s+«[^»]+»\s*,\s*riga\s+`[^`]+`"],
     "pdf":  [r"pag\.\s*\d+\s*,\s*§"],
-    "eml":  [r"corpo\s*,\s*punto\s+\d+", r"header\s+[\w-]+"],
+    # E55, 22/08/2026: un `.eml` puo' essere una CATENA — piu' messaggi quotati uno dentro
+    # l'altro — e allora «corpo, punto 1)» indica quattro punti diversi nello stesso file.
+    # La forma lunga nomina prima quale messaggio, con la sua data. La forma breve resta
+    # valida per un `.eml` a messaggio unico, che e' il caso di tutti i lotti precedenti.
+    "eml":  [r"corpo\s+del\s+messaggio\s+del\s+\d{1,2}/\d{1,2}\s*,",
+             r"§(?:pi[eè] di pagina|intestazione)\s+del\s+messaggio\s+del\s+\d{1,2}/\d{1,2}\s*:",
+             r"corpo\s*,\s*punto\s+\d+", r"header\s+[\w-]+"],
     "txt":  [r"\[%s\]\s*,\s*PARLANTE_\d+" % ORA, r"§"],
     "docx": [r"§", r"slide\s+\d+"],
     "pptx": [r"slide\s+\d+", r"§"],

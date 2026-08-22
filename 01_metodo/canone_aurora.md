@@ -904,3 +904,100 @@ aperto.**
 7. **Formazione allergeni: quattro operatori, non tre.** L'osservazione ne conta **quattro**
    assunti «tra ottobre 2025 e gennaio 2026»; `NC-2026-015` ne dichiara **tre**. ⚠️ E i quattro
    rimpiazzi sono un dato sul turnover che il §7.1 del verbale non porta.
+
+---
+
+## Divergenze nuove — revisione del lotto 3C, 22/08/2026
+
+> **Come si legge questa sezione.** Otto divergenze qualificate `B` dal revisore col canone, su
+> un lotto che porta il **certificato BRCGS**, il **rapporto d'audit CSQA del febbraio 2026**,
+> la **conferma d'incarico del rinnovo** e la **catena di quattro mail** fra l'ente e la RSGQ.
+> ⚠️ **Quattro sono entrate nel vault come note, quattro no**, e il perché è sempre lo stesso:
+> il **divieto 9-bis** — una gamba sta in un lotto non ancora canonizzato, e allora la
+> divergenza si registra qui e **non si scrive in nessuna nota**.
+
+### D1 — L'inventario delle evidenze del 02/04 non torna, e la voce che manca è quella decisiva ✍️ **scritta**
+
+**L'ente registra NOVE voci ricevute** (`Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt` §6),
+**la RSGQ ne elenca CINQUE** nel messaggio del 2 aprile, e copre **due dei sette rilievi**.
+⚠️ **L'ente verbalizza di aver ricevuto la «foto rimozione carrello ricambi»; il mittente
+allega la foto di un «armadio dedicato ordinato (in consegna)»** — e cinque giorni dopo l'ente
+scrive che la rimozione non è dimostrata. **Le tre righe non stanno insieme in nessun ordine.**
+Nota: `questione-evidenze-del-02-04-nove-o-cinque`.
+
+### D2 — Il prossimo controllo dell'ente è di sorveglianza nel 2027 o di rinnovo nel 2026 ✍️ **scritta**
+
+Due cluster coerenti al loro interno e incompatibili fra loro, **a quattro giorni di
+distanza**: il rapporto §6 e il certificato dicono **audit di sorveglianza 02/2027** e riaudit
+**06/02-06/03/2027**; la conferma d'incarico e la mail del 7 aprile dicono **audit di rinnovo
+23-24 giugno 2026** con campionamento **aprile-giugno**. ⚠️ **Divergono su tre cose insieme**:
+quando, che tipo di audit sia, e quando Aurora sarà misurata sull'applicazione della seconda
+firma. Nota: `questione-quando-l-ente-torna-a-verificare`.
+
+### D3 — La convalida annuale del metal detector ha tre date ✍️ **scritta**
+
+`11/2025` secondo il rapporto d'audit — cioè **dichiarata all'auditor** — `06-feb-26` secondo
+il piano di manutenzione, `04/03/2026` secondo il registro delle attrezzature. ⚠️ **E la
+periodicità non torna nemmeno fra i due registri interni**: dodici mesi contro sei, sullo
+stesso strumento, nello stesso anno; il manuale HACCP prescrive «verifica annuale». Nota:
+`questione-convalida-md-3200-tre-date`.
+
+### D4 — La clausola della NC 1 esiste in tre versioni, e il registro interno le incrocia ✍️ **scritta**
+
+`BRCGS 2.10.2 / IFS 2.3.9.2` (rapporto, verbale di riesame, manuale) · `BRCGS 2.10.2 / IFS
+5.1.2` (registro NC interne, `NC-2026-028`) · `BRCGS 3.11.3 / IFS 5.1.2` (mail del 7 aprile).
+⚠️ **La combinazione mista è quella con cui Aurora ha archiviato la NC a sistema, e non
+compare in nessun documento dell'ente.** Nota: `questione-clausola-della-nc1-in-due-versioni`.
+
+⚠️ **Una quinta gamba esiste e non è citabile**: `PRO-QA-08_gestione_reclami_cliente_rev2.docx`
+riga 113 ripete `BRCGS 9 cl. 2.10.2 / IFS 5.1.2`. **Il suo lotto — `3D`, reclami — non è
+canonizzato**, e il divieto 9-bis vieta di citarla e di scriverne il contenuto. **Alla
+canonizzazione di 3D quella riga va aggiunta alla nota.**
+
+### D5 — La parcella dell'audit di febbraio esiste in quattro versioni incompatibili 🚫 **non scrivibile**
+
+| Fonte | Che cosa dice |
+|---|---|
+| `Fatture_Elettroniche_SDI_Inbound_Q2.txt` | fattura **2201/26 del 28-02-2026**, «AUDIT COMBINATO BRCGS ISSUE 9 + IFS FOOD V8 - 2 GG UOMO X 2 AUDITOR» |
+| `estratto_conto_unicredit_maggio26.csv` riga 59 | bonifico **13/05/26**, **5.490,00**, «FT 2201/26» |
+| `report_costi_fissi_OpEx_manutenzioni.txt` righe 176 e 282 | «fattura CSQA n. **2026/1187** = **6.850 €** + iva», «PAGATA il **15/04**» |
+| `previsionale_cassa_giugno_agosto2026.xlsx` | «CSQA Certificazioni Srl Saldo audit febbraio 30/06/2026 **6100** sì fattura ferma da marzo» |
+
+⚠️ **Quattro numeri di fattura, importo e data che non si riconciliano.** 🚫 **Tre gambe su
+quattro stanno nel lotto 6 (amministrazione), non canonizzato**: la divergenza si registra qui
+e **non entra in nessuna nota**. Obbligo esplicito per il lotto che porta l'amministrazione.
+
+### D6 — La durata dell'audit ha un terzo testimone, ed è quello che decide 🚫 **non scrivibile**
+
+Il vault tiene aperta la divergenza fra «2 giorni uomo x 2 auditor (32 h on site)» del rapporto
+e «2,0 giornate/uomo on site» del certificato
+(`questione-categorie-e-durata-audit-divergenti`, T123). ⚠️ **La fattura decide**: la riga
+fatturata è **«2 GG UOMO X 2 AUDITOR»**, cioè la versione del rapporto. 🚫 **Ma la fattura è
+del lotto 6**: la nota resta aperta e **non si chiude con questa gamba**. Obbligo esplicito
+per il lotto dell'amministrazione, che dovrà tornare su T123.
+
+⚠️ **Corollario contabile, e vale come domanda per S7**: il rinnovo costa **4.850,00** per
+**metà** delle giornate/uomo fatturate a febbraio. Nessun documento lo spiega.
+
+### D7 — CSQA ha due partite IVA nel corpus, entrambe valide 🚫 **non scrivibile**
+
+`02603680246` nel piè di pagina della mail del 7 aprile; **`IT02052850241`** nell'intestazione
+della fattura elettronica. **Stessa ragione sociale, stesso indirizzo.** ⚠️ **Entrambe superano
+il controllo di Luhn**, quindi per la regola di ammissione della tabella alias **non sono una
+variante ma due identificativi distinti**: non si uniscono. 🚫 La seconda gamba è del lotto 6:
+`entita-csqa-certificazioni` ne porta **una sola**, ed è quella del pacchetto certificazione.
+
+### D8 — Due obblighi di comunicazione con un termine, e nessuna traccia dell'adempimento 🚫 **non scrivibile**
+
+**Il certificato**, condizione 3: gli eventi gravi — richiami, ritiri, allerte, **provvedimenti
+dell'Autorità competente** — «devono essere notificati **entro 3 giorni lavorativi**». Il
+corpus ha `Verbale_ispezione_ATS_09_06_2026.pdf`, **con diffida**.
+
+**L'accordo quadro Tosano**, art. 11.2: comunicare «entro **5 giorni lavorativi** ogni
+sospensione, ritiro, **downgrade** o mancato rinnovo, nonche' l'esito di ogni audit di
+certificazione con evidenza delle non conformita' rilevate»; art. 16.2: risoluzione di diritto.
+
+⚠️ **Ricerca su tutto il corpus: ZERO documenti registrano l'una o l'altra comunicazione.**
+⚠️ **È l'anello che manca a `fatto-grade-aa-messo-in-guardia`**, che chiama il declassamento il
+fatto più pesante del pacchetto **senza sapere che un downgrade è un evento contrattuale con un
+termine di cinque giorni**. 🚫 L'accordo Tosano è del lotto 5: obbligo esplicito per quel lotto.

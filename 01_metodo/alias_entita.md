@@ -73,7 +73,7 @@ Le sostituzioni note dello scanner sono `0`↔`O`, `l`↔`1`, `S`↔`5`.
 | `entita-adel-ben-salah` | «Ben Salah A.» · «adel» | registro NC, quaderno OCR |
 | `entita-roberto-guerra` | «Guerra R.» | registro NC |
 | `entita-mirco-bissoli` | «Bissoli M.» · `BISSOLI_M` (log CIP) · «mirco» | log CIP, quaderno OCR |
-| `entita-chiara-vicentini` | «dott.ssa Chiara Vicentini» · **«C. Vicentini»** · **«Vicentini C.»** · «il consulente esterno» | manuale HACCP *(unica fonte che dia il nome per esteso)*, scheda allergeni, formazione allergeni |
+| `entita-chiara-vicentini` | «dott.ssa Chiara Vicentini» · **«C. Vicentini»** · **«Vicentini C.»** · «il consulente esterno» | manuale HACCP, **rapporto d'audit CSQA §2** *(le due fonti che danno il nome per esteso, dal lotto 3C del 22/08/2026: prima era una sola)*, scheda allergeni, formazione allergeni |
 
 ⚠️ **Il nome per esteso lo dà UNA fonte sola**, il manuale di autocontrollo: la scheda allergeni
 e il materiale di formazione la nominano sempre e solo per iniziale. **Chi canonizza quei due

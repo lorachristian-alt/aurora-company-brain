@@ -464,7 +464,7 @@ sostituisce l'altro.
 | `.csv` | `riga <n>` oppure `riga <chiave>, colonna <NOME>` | `riga 145, colonna Pz_prodotti` |
 | `.xlsx` | `foglio «<Nome>», riga <n>` · `foglio «<Nome>», righe <n>-<m>` · `foglio «<Nome>»!<cella>` | `foglio «A valle», righe 6-9` |
 | `.pdf` | `pag. <n>, §<sezione>` | `pag. 1, §4 «Misurazione del frammento»` |
-| `.eml` | `corpo, punto <n>` oppure `header <Nome>` | `corpo, punto 3)` |
+| `.eml` | `corpo, punto <n>` oppure `header <Nome>`. **(E55)** ⚠️ Se il file è una **catena** — più messaggi quotati uno dentro l'altro — il locator nomina prima **quale** messaggio, con la sua data: `corpo del messaggio del <GG/MM>, punto <n>`. Senza, «corpo, punto 1)» indica quattro punti diversi nello stesso file, e chi verifica non sa quale | `corpo, punto 3)` · `corpo del messaggio del 11/03, capoverso 2` |
 | `.txt` (trascrizioni) | `[hh:mm:ss], <PARLANTE_n>` | `[00:03:02], PARLANTE_3` |
 | `.txt` · `.docx` · `.pptx` | `§<sezione>` oppure `slide <n>` | `slide 4` |
 | `.xml` | `elemento <Percorso/Elemento>` | `elemento DatiRiepilogo/ImportoTotaleDocumento` |

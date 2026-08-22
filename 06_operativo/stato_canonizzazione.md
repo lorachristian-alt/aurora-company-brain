@@ -32,7 +32,7 @@
 | Suite QA | **verde sul perimetro di lotto**; ⚠️ **dal gate del 21/08 la provenance legge l'ESTRAZIONE DI CANTIERE** (E48), che aggiunge marcati formule e barrato — l'estrattore di misura resta byte-identico e `estrazione_cantiere.py --prova` lo dimostra su tutti i 161 grezzi; sul vault tre controlli su quattro sono a zero errori. ⚠️ Dal gate di 2A la QA ha **due controlli nuovi**: l'artefatto di ricerca che E43 impone a chi dichiara un'assenza, e **l'omogeneità dei fine riga** — il primo controllo del progetto che non guarda il contenuto di una nota ma il suo **supporto** |
 | `llms.txt` | rigenerato dal frontmatter, allineato |
 | Matrice dei lotti | 160/160 grezzi, zero scoperti, zero doppi (`verifica_matrice_lotti.py` verde). ⚠️ **I budget dei lotti 2-10 sono SUPERATI** e il piano non è più a 12 lotti: vale **E31**, la capacità di 25-35 note per lotto, e i grezzi si decidono in apertura. **Stima: circa 28-30 lotti**, scritta anche nella scaletta perché cambia il calendario di S4-S5. Ridisegnato in dettaglio **solo il tema 2** (2A · 2B · 2C) |
-| **PROSSIMO ATTO** | **Il lotto 3C — certificazione e audit**, anticipato su 3B. ⚠️ **3C va anticipato rispetto a 3B**: il rapporto d'audit porta **sette divergenze** che il canone registra e il vault non può scrivere, **due delle quali correggono cose già scritte** — il termine delle evidenze è il 18/03 e non il 17, e la questione che il lotto R1 lasciò aperta sulla rivalidazione del CCP2 **ha una risposta**. Una terza riguarda **un avviso di riduzione del grade AA** che il vault non sa |
+| **PROSSIMO ATTO** | **Il gate del lotto 3C**, e poi **3B** *(politica e formazione)*. ⚠️ **3C va anticipato rispetto a 3B**: il rapporto d'audit porta **sette divergenze** che il canone registra e il vault non può scrivere, **due delle quali correggono cose già scritte** — il termine delle evidenze è il 18/03 e non il 17, e la questione che il lotto R1 lasciò aperta sulla rivalidazione del CCP2 **ha una risposta**. Una terza riguarda **un avviso di riduzione del grade AA** che il vault non sa |
 
 ⚠️ **Errata del 19/08/2026 sui numeri del lotto 1A.** Questo stato dichiarava «105 note, di
 cui 11 `_index` e 6 note-strumento: 88 di contenuto». `qa_all.py` a chiusura di 1A contava
@@ -47,17 +47,17 @@ prescrive la regola del gate 1A.
 
 | Grandezza | Valore |
 |---|---|
-| Note nel vault | **324** |
+| Note nel vault | **362** |
 | di cui `_index` | 11 |
 | di cui note-strumento del progetto | 15 |
-| di cui note di diario (`sessione`, `daily`) | 8 |
-| **di cui note di contenuto** | **290** |
-| Note per cartella | areas 181 · data 38 · docs 34 · entities 27 · code 16 · workspace 11 · projects 8 · concepts 6 · self 1 · outputs 1 · sources 1 |
-| Note per `type` | atomica 215 · conflitto 50 · entita 22 · hub 13 · index 11 · sessione 8 · concetto 5 |
+| di cui note di diario (`sessione`, `daily`) | 9 |
+| **di cui note di contenuto** | **327** |
+| Note per cartella | areas 212 · data 38 · docs 36 · entities 30 · code 16 · workspace 12 · projects 8 · concepts 6 · self 2 · outputs 1 · sources 1 |
+| Note per `type` | atomica 252 · conflitto 50 · entita 22 · hub 13 · index 11 · sessione 9 · concetto 5 |
 | Questioni aperte (`type: conflitto`) | 50 |
 | Grezzi in `sources\` | 160 |
-| Grezzi citati da almeno una nota | **45** |
-| Grezzi restanti | **115** |
+| Grezzi citati da almeno una nota | **49** |
+| Grezzi restanti | **111** |
 
 ⚠️ **Questo blocco non si riscrive a mano.** Nasce al gate del lotto 1B da due sviste di
 conteggio in due lotti — 46 contro 32 nel rapporto 1A, 105 e 88 in questo stato quando
@@ -471,6 +471,29 @@ giudizio, e senza il secondo giro sarebbe rimasta.
 | chiusa | **2** | T20, T33 |
 | tracciata | **26** | T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T19, T21, T29, T31, T34, T39, T40, T41, T49, T50, T51, T52, T53, T54 |
 | **totale righe** | **54** | da T1 a T54, nessuna mancante e nessuna duplicata |
+
+## Il lotto 3C, chiuso il 22/08/2026 — certificazione e audit
+
+**Il primo pacchetto dell'archivio scritto da qualcuno che non è Aurora**: il certificato
+BRCGS, il rapporto d'audit CSQA, la conferma d'incarico del rinnovo e una catena di quattro
+mail. **Trentotto note nuove, QA verde, tre giri di giudizio.**
+
+⚠️ **Il fatto che il vault non sapeva: il grade AA è sotto avvertimento.** L'ente ha registrato
+il ritardo a sistema e scritto che alla prossima reiterazione il grade scende ad **A** — non
+per un difetto tecnico, **per il solo ritardo di trasmissione** — mentre la direzione chiama
+quelle certificazioni «obiettivo primario».
+
+**E53 al primo impiego**: dominio verificato da script in apertura, sette fonti prescrittive
+citate per sigla dentro i grezzi. **E55**: la grammatica dei locator non sapeva indirizzare un
+`.eml` a **catena**, e questo ne porta quattro messaggi.
+
+⚠️ **`self\` si apre con questo lotto**, dopo quattro mesi di vuoto: il certificato stava in
+`docs\`, e `metodo_03` §5 aveva un esempio svolto **su quel file esatto** che lo manda in
+`self\`. **L'errore l'ha trovato l'indice della cartella, non chi scriveva.**
+
+⚠️ **La classe d'errore nominata al secondo giro e cercata al terzo: il superlativo
+sull'archivio.** Quattordici verificati, **dieci confermati** — tutti quelli il cui soggetto è
+un documento citato. **Il discrimine è il soggetto, non la forma.**
 
 ## Il gate del lotto 3A, 22/08/2026 — tre emendamenti e il falso positivo chiuso
 

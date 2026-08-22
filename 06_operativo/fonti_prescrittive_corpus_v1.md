@@ -9,7 +9,7 @@
 > **Chi lo genera** · `06_operativo\elenco_fonti_prescrittive.py`. Le colonne
 > «lotto» e «già canonizzato» le produce lo script; che cosa prescrive è curatela,
 > e vive nel sorgente perché abbia un padrone solo.
-> **Generato il** · 2026-08-19
+> **Generato il** · 2026-08-22
 
 ---
 
@@ -25,8 +25,16 @@ tariffa in vigore — invece di **registrare ciò che è successo**.
 | **Registrano** | log, registri, rapporti di prova, verbali, bolle, fatture, mail, quaderni, cruscotti, analisi, preventivi non accettati |
 | **`misto`** | prescrive **e** registra: un piano di manutenzione detta la periodicità e annota le esecuzioni. Per la riconciliazione verticale vale come prescrittivo — ciò che conta è che contenga una prescrizione da citare |
 
-⚠️ **Un certificato non è una fonte prescrittiva**: attesta uno stato, non lo
-prescrive. Il requisito che dimostra vive nella norma, che in questo corpus non c'è.
+⚠️ **Un certificato non è una fonte prescrittiva PER I REQUISITI CHE ATTESTA**: quelli
+vivono nella norma, che in questo corpus non c'è. ⚠️ **Ma le CONDIZIONI DI VALIDITÀ
+stampate sul certificato prescrivono, e vincolano l'azienda**: dove si può usare il
+marchio e dove no, entro quanti giorni si comunica una modifica di processo, che cosa
+fa decadere il titolo. **Affinata il 22/08/2026, aprendo il lotto 3C**: la formulazione
+precedente — «un certificato non è una fonte prescrittiva», senza distinzioni — avrebbe
+tenuto fuori dall'elenco un documento che impone **sei obblighi numerati** con un
+termine di tre giorni lavorativi. ⚠️ **La regola vecchia era vera sulla METÀ del
+documento che aveva guardato.**
+
 Per lo stesso motivo un listino **superato** non è in vigore: è la fotografia di una
 prescrizione passata.
 
@@ -43,9 +51,9 @@ esplicito per il lotto che la porterà. Precedente identico: **T18**.
 
 | | Quante |
 |---|---|
-| **CITABILI oggi** (grezzo già canonizzato) | **10** |
+| **CITABILI oggi** (grezzo già canonizzato) | **12** |
 | **DA TRACCIARE** (grezzo in un lotto futuro) | **26** |
-| **totale fonti prescrittive** | **36** |
+| **totale fonti prescrittive** | **38** |
 
 ---
 
@@ -62,14 +70,16 @@ esplicito per il lotto che la porterà. Precedente identico: **T18**.
 | `elenco_attrezzature_taratura_strumenti_2026.csv` | misto | **Prescrive** la periodicita' di taratura e convalida del parco strumenti, e **registra** lo stato di ciascuno. E' l'altro dei due registri paralleli della metrologia | lotto_01c_metrologia_gas | **sì** | **sì** |
 | `IO-05_istruzione_operativa_lavaggio_CIP.docx` | prescrittiva | L'istruzione operativa del lavaggio CIP: fasi, parametri, registrazioni obbligatorie | lotto_02a_cip | **sì** | **sì** |
 | `scheda_sicurezza_detergente_acido_lavaggio_CIP.txt` | prescrittiva | Condizioni d'uso e di sicurezza del detergente acido del CIP | lotto_02a_cip | **sì** | **sì** |
+| `piano_autocontrollo_acqua_potabile_analisi.csv` | misto | **Prescrive** il piano di autocontrollo dell'acqua potabile - punti, parametri, frequenze - e **registra** gli esiti | lotto_02b_autocontrollo_analitico | **sì** | **sì** |
+| `scheda_allergeni_matrice_cross_contamination.docx` | prescrittiva | La matrice della contaminazione incrociata da allergeni: che cosa non puo' seguire che cosa, e con quale bonifica | lotto_02b_bis_allergeni | **sì** | **sì** |
 | `manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt` | prescrittiva | I punti critici di controllo, i loro **limiti critici**, le **frequenze di verifica**, le **azioni correttive** e **chi ne risponde**. E' la fonte prescrittiva madre del corpus: ogni nota che nomina un CCP, una taratura o una frequenza di verifica ricade su questa | pilota (fetta L26130) | **sì** | **sì** |
-| `piano_autocontrollo_acqua_potabile_analisi.csv` | misto | **Prescrive** il piano di autocontrollo dell'acqua potabile - punti, parametri, frequenze - e **registra** gli esiti | lotto_02b_autocontrollo_igiene | no | **NO** — si traccia |
-| `scheda_allergeni_matrice_cross_contamination.docx` | prescrittiva | La matrice della contaminazione incrociata da allergeni: che cosa non puo' seguire che cosa, e con quale bonifica | lotto_02b_autocontrollo_igiene | no | **NO** — si traccia |
 | `DoC_MOCA_Flexipack_film_PP_EVOH_2026.pdf` | prescrittiva | La dichiarazione di conformita' del materiale a contatto: **condizioni d'impiego** entro cui il film e' dichiarato idoneo | lotto_02c_moca | no | **NO** — si traccia |
 | `capitolato_tecnico_fornitura_imballaggi_plastici.txt` | prescrittiva | Le specifiche tecniche che il film di imballaggio deve rispettare. E' il termine prescrittivo della divergenza sulla barriera al vapore gia' registrata nella matrice | lotto_02c_moca | no | **NO** — si traccia |
-| `PRO-QA-08_gestione_reclami_cliente_rev2.docx` | prescrittiva | La procedura di gestione dei reclami: tempi di risposta, responsabilita', registrazioni | lotto_03_sistema_qualita | no | **NO** — si traccia |
-| `politica_qualita_e_sicurezza_alimentare_2026.docx` | prescrittiva | La politica per la qualita' e la sicurezza alimentare: impegni della direzione e responsabilita' assegnate | lotto_03_sistema_qualita | no | **NO** — si traccia |
-| `procedura_ritiro_prodotto_CRISI_GDO.txt` | prescrittiva | La procedura di ritiro e richiamo del prodotto: chi decide, in quanto tempo, con quali comunicazioni | lotto_03_sistema_qualita | no | **NO** — si traccia |
+| `politica_qualita_e_sicurezza_alimentare_2026.docx` | prescrittiva | La politica per la qualita' e la sicurezza alimentare: impegni della direzione e responsabilita' assegnate | lotto_03b_politica_formazione | no | **NO** — si traccia |
+| `Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf` | misto | **Attesta** il grade AA e lo scope certificato — e per quella meta' NON e' prescrittivo, perche' i requisiti dello standard nel corpus non ci sono. ⚠️ **Ma le sei CONDIZIONI DI VALIDITA' E USO DEL MARCHIO prescrivono**, e vincolano: il logo BRCGS si usa solo nella comunicazione business-to-business ed **e' vietato sul prodotto e sul suo imballo primario**; ogni modifica significativa di processo, layout, scope o assetto societario va comunicata **entro 3 giorni lavorativi**, e altrettanto gli eventi gravi — richiami, ritiri, allerte, provvedimenti dell'Autorita'; il certificato non e' trasferibile e resta di proprieta' dell'ente | lotto_03c_certificazione_audit | no | **NO** — si traccia |
+| `Conferma_incarico_audit_rinnovo_2026.pdf` | prescrittiva | Gli obblighi dell'incarico di audit di rinnovo: la **documentazione preliminare da trasmettere almeno 20 giorni prima** della data concordata e il suo elenco puntuale, la restituzione controfirmata **entro il 20/04/2026**, il corrispettivo e i termini di pagamento. ⚠️ E prescrive in avanti anche una conseguenza: **un ulteriore ritardo nella chiusura delle NC apre una non conformita' sul processo di gestione delle azioni correttive** | lotto_03c_certificazione_audit | no | **NO** — si traccia |
+| `PRO-QA-08_gestione_reclami_cliente_rev2.docx` | prescrittiva | La procedura di gestione dei reclami: tempi di risposta, responsabilita', registrazioni | lotto_03d_reclami | no | **NO** — si traccia |
+| `procedura_ritiro_prodotto_CRISI_GDO.txt` | prescrittiva | La procedura di ritiro e richiamo del prodotto: chi decide, in quanto tempo, con quali comunicazioni | lotto_03e_crisi_ispezioni | no | **NO** — si traccia |
 | `Listino_MolinoVeneto_giu2026.pdf` | prescrittiva | Il listino del fornitore in vigore da giugno 2026 | lotto_04_filiera_logistica | no | **NO** — si traccia |
 | `contratto_fornitura_MolinoVeneto_2026_firmato.pdf` | prescrittiva | Il contratto **firmato** di fornitura della farina: formula di indicizzazione, prezzi, modalita' di consegna. Prevale sul listino, ed e' una contraddizione con vincitore gia' registrata nel canone | lotto_04_filiera_logistica | no | **NO** — si traccia |
 | `scheda_tecnica_farina_tipo_0_MolinoVeneto.txt` | prescrittiva | Le specifiche della farina tipo 0: parametri, TMC, modo di conservazione | lotto_04_filiera_logistica | no | **NO** — si traccia |

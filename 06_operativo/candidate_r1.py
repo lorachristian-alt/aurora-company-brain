@@ -183,6 +183,48 @@ DOMINI = {
     # Lotto 2B. Il piano di autocontrollo dell'acqua potabile prescrive punti di prelievo,
     # parametri, metodi e valori di parametro del D.Lgs. 18/2023: e' la fonte che governa
     # la qualita' dell'acqua usata in stabilimento, CIP e ghiaccio compresi.
+    # Lotto 3C. ⚠️ **E' il primo dominio che nasce da una VERIFICA DA SCRIPT (E53) e non da
+    # una dichiarazione**: `verifica_dominio.py --lotto lotto_03c_certificazione_audit` alle
+    # 10:05:31 del 22/08/2026 ha trovato SETTE fonti prescrittive citate per sigla dentro i
+    # grezzi del lotto, quattro delle quali citabili — `HACCP`, `IO-05`, `AF-SN-0450`, la
+    # scheda del detergente. Un rapporto d'audit REGISTRA, ma cita clausole e criteri per
+    # costruzione: il dominio c'era, ed era verificabile in apertura.
+    #
+    # ⚠️ LE DUE FONTI DEL DOMINIO PRESCRIVONO DAVVERO, e la prima ha costretto ad affinare una
+    # regola dell'elenco. Il certificato **attesta** il grade — e per quella meta' non prescrive
+    # nulla, perche' i requisiti dello standard nel corpus non ci sono — **ma le sue sei
+    # CONDIZIONI DI VALIDITA' E USO DEL MARCHIO vincolano l'azienda**: dove il logo si puo'
+    # usare, entro quanti giorni si comunica una modifica, che cosa fa decadere il titolo.
+    # La conferma d'incarico prescrive gli obblighi verso l'ente per il rinnovo.
+    #
+    # ⚠️ Il dominio NON e' «gli audit»: e' **il rapporto con l'ente di certificazione** — che
+    # cosa il titolo obbliga a fare, entro quando, e con quali conseguenze se si manca.
+    "certificazione": {
+        "fonti": {
+            "Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf",
+            "Conferma_incarico_audit_rinnovo_2026.pdf",
+        },
+        # ⚠️ IL PRIMO TAGLIO DI QUESTE ESPRESSIONI ERA SBAGLIATO, e lo ha detto il numero:
+        # 119 note riaperte su 288 valutate, cioe' **due note del vault su cinque**. Un debito
+        # vero non ha quella forma. Dentro c'erano `certificat[oi]`, `non conformit`, `NC-\d`
+        # e `scope`, che in un archivio di qualita' alimentare stanno **dappertutto** — e
+        # «certificato» prende per primo il **certificato di TARATURA**, che appartiene a un
+        # altro dominio e ha gia' la sua fonte.
+        #
+        # ⚠️ E' esattamente il difetto che E36 ha corretto, ricomparso dall'altra parte: **il
+        # criterio generico applicato a un elenco piu' corto**. Un dominio si riconosce dalle
+        # espressioni che nomina LUI e nessun altro. Qui: l'ente, gli schemi, il titolo e il
+        # marchio — non la parola «certificato» e non la parola «non conformita'».
+        "espressioni": [
+            r"\bBRCGS?\b", r"\bIFS\b", r"\bCSQA\b", r"\bACCREDIA\b",
+            r"\bBRC/IT/", r"\bIFS/IT/", r"\bIssue\s?9\b", r"\bIT BIO\b",
+            r"\bgrade\s?A{1,2}\b", r"\bHigher Level\b",
+            r"audit di (?:rinnovo|sorveglianza|certificazione)",
+            r"organismo di certificaz", r"ente di certificaz", r"uso del marchio",
+            r"certificazione (?:bio|biologica|di prodotto|di sistema)",
+        ],
+        "cosa": "il rapporto con l'ente di certificazione: titolo in vigore, scope, condizioni di validita' e uso del marchio, obblighi di comunicazione, chiusura delle non conformita' e programmazione degli audit",
+    },
     "acqua": {
         "fonti": {
             "piano_autocontrollo_acqua_potabile_analisi.csv",

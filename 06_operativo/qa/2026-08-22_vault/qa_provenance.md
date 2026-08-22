@@ -1,7 +1,7 @@
-## qa_provenance (perimetro: vault, 324 note)
+## qa_provenance (perimetro: vault, 362 note)
 
 - ERRORI: **0**
-- AVVISI: **74**
+- AVVISI: **78**
 
 ### Avvisi
 
@@ -14,6 +14,7 @@
 | `fatto-cruscotto-colonne-mai-calcolate.md` |  | provenance | la fonte 'cruscotto_KPI_qualita_2026.xlsx' non aggancia nessuna affermazione della nota: rumore nel payload |
 | `fatto-decisione-erp-rimandata.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `fatto-due-elenchi-in-un-file-strumenti.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
+| `fatto-due-nc-e-cinque-osservazioni.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `fatto-due-nc-minori-audit-2026.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `fatto-giro-di-vite-seconde-firme-ccp3.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `fatto-integrita-log-allarmi-cf-02.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
@@ -21,6 +22,7 @@
 | `fatto-prodotto-non-segregato-deviazione-ccp2.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `fatto-repliche-shelf-life-l26130-divergenti.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `fatto-taniche-e-rifiuti-cip.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
+| `fatto-test-rintracciabilita-audit-2h50.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `fatto-verifiche-ccp3-turno-l26130.md` |  | provenance | citazione senza riscontro in nessuna fonte citata: «dalle 15 alle 18.45 linea ferma per rottura valvola azoto,
 verifiche n» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 | `fatto-verifiche-ccp3-turno-l26130.md` |  | provenance | citazione senza riscontro in nessuna fonte citata: «Verifica di fine turno (capoturno)» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
@@ -43,6 +45,7 @@ verifiche n» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 | `questione-codice-allarme-pkm-450.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `questione-composizione-lavaggio-completo.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `questione-convalida-md-1800-scaduta-o-valida.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
+| `questione-convalida-md-3200-tre-date.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `questione-due-registri-dei-tamponi.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `questione-due-registri-tarature-pt-104.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `questione-durata-deviazione-ccp2-l26130.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
@@ -50,6 +53,7 @@ verifiche n» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 | `questione-sigla-kit-tasselli-ccp3.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `questione-tamponi-allergeni-non-registrati.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `questione-tassello-inox-non-passato.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
+| `questione-tre-o-quattro-neoassunti-senza-formazione.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `questione-verifiche-ccp3-10-05-tre-versioni.md` |  | provenance | citazione senza riscontro in nessuna fonte citata: «Verifica di fine turno (capoturno)» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 | `questione-verifiche-ccp3-10-05-tre-versioni.md` |  | provenance | citazione senza riscontro in nessuna fonte citata: «dalle 15 alle 18.45 linea ferma per rottura valvola azoto. verifiche n» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 | `questione-verifiche-ccp3-10-05-tre-versioni.md` |  | provenance | citazione senza riscontro in nessuna fonte citata: «prodoto nn confezionato si acumula meso su carelli in CF O1 / temp cel» — la nota cita un .jpg, riscontro visivo da chiudere a mano |

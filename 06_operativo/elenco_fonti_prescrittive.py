@@ -157,6 +157,25 @@ FONTI = [
      "Le specifiche dell'ingrediente nuovo dichiarate dal fornitore"),
     ("ricetta_base_esperimento_snack_salato_v12.txt", "prescrittiva",
      "La formulazione: quantita' e ordine, cioe' come il prodotto DEVE essere fatto"),
+    # ⚠️ LOTTO 3C, 22/08/2026. Le due fonti che il pacchetto certificazione porta dentro, e
+    # sono la prima applicazione della regola affinata qui sopra: **un certificato non
+    # prescrive i requisiti che attesta, ma prescrive le proprie condizioni di validita'**.
+    ("Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf", "misto",
+     "**Attesta** il grade AA e lo scope certificato — e per quella meta' NON e' prescrittivo, "
+     "perche' i requisiti dello standard nel corpus non ci sono. ⚠️ **Ma le sei CONDIZIONI DI "
+     "VALIDITA' E USO DEL MARCHIO prescrivono**, e vincolano: il logo BRCGS si usa solo nella "
+     "comunicazione business-to-business ed **e' vietato sul prodotto e sul suo imballo "
+     "primario**; ogni modifica significativa di processo, layout, scope o assetto societario "
+     "va comunicata **entro 3 giorni lavorativi**, e altrettanto gli eventi gravi — richiami, "
+     "ritiri, allerte, provvedimenti dell'Autorita'; il certificato non e' trasferibile e resta "
+     "di proprieta' dell'ente"),
+    ("Conferma_incarico_audit_rinnovo_2026.pdf", "prescrittiva",
+     "Gli obblighi dell'incarico di audit di rinnovo: la **documentazione preliminare da "
+     "trasmettere almeno 20 giorni prima** della data concordata e il suo elenco puntuale, la "
+     "restituzione controfirmata **entro il 20/04/2026**, il corrispettivo e i termini di "
+     "pagamento. ⚠️ E prescrive in avanti anche una conseguenza: **un ulteriore ritardo nella "
+     "chiusura delle NC apre una non conformita' sul processo di gestione delle azioni "
+     "correttive**"),
     ("noleggio_distributori_automatici_contratto.txt", "prescrittiva",
      "Obblighi del contratto di noleggio. Fonte prescrittiva **minore**, senza aggancio a punti "
      "critici o responsabilita' di processo"),
@@ -234,8 +253,15 @@ def main():
     fuori.append("| **Registrano** | log, registri, rapporti di prova, verbali, bolle, fatture, mail, quaderni, cruscotti, analisi, preventivi non accettati |")
     fuori.append("| **`misto`** | prescrive **e** registra: un piano di manutenzione detta la periodicità e annota le esecuzioni. Per la riconciliazione verticale vale come prescrittivo — ciò che conta è che contenga una prescrizione da citare |")
     fuori.append("")
-    fuori.append("⚠️ **Un certificato non è una fonte prescrittiva**: attesta uno stato, non lo")
-    fuori.append("prescrive. Il requisito che dimostra vive nella norma, che in questo corpus non c'è.")
+    fuori.append("⚠️ **Un certificato non è una fonte prescrittiva PER I REQUISITI CHE ATTESTA**: quelli")
+    fuori.append("vivono nella norma, che in questo corpus non c'è. ⚠️ **Ma le CONDIZIONI DI VALIDITÀ")
+    fuori.append("stampate sul certificato prescrivono, e vincolano l'azienda**: dove si può usare il")
+    fuori.append("marchio e dove no, entro quanti giorni si comunica una modifica di processo, che cosa")
+    fuori.append("fa decadere il titolo. **Affinata il 22/08/2026, aprendo il lotto 3C**: la formulazione")
+    fuori.append("precedente — «un certificato non è una fonte prescrittiva», senza distinzioni — avrebbe")
+    fuori.append("tenuto fuori dall'elenco un documento che impone **sei obblighi numerati** con un")
+    fuori.append("termine di tre giorni lavorativi. ⚠️ **La regola vecchia era vera sulla METÀ del")
+    fuori.append("documento che aveva guardato.**\n")
     fuori.append("Per lo stesso motivo un listino **superato** non è in vigore: è la fotografia di una")
     fuori.append("prescrizione passata.\n")
     fuori.append("---\n")
