@@ -41,7 +41,7 @@ l'occasione tipica, non la condizione.
 §1 STUDIO PRELIMINARE (ogni sessione, anche le successive)
 ---------------------------------------------------------------------
 1. 01_metodo\metodo_03_canonizzazione.md — INTEGRALE. E' il manuale
-   supremo, con i 49 emendamenti gia' dentro. In caso di contrasto con
+   supremo, con i 54 emendamenti gia' dentro. In caso di contrasto con
    questo prompt, vince metodo_03 e lo segnali.
 2. 06_operativo\registro_emendamenti.md — l'indice genealogico: serve
    a vedere in dieci secondi se questo prompt e' rimasto indietro.
@@ -143,6 +143,31 @@ cosa sola, ma decisiva:
      e si procede;
    - oltre le 40 note ...... si spezza sempre.
 
+   E52 — le soglie governano la PROIEZIONE d'apertura e la SCRITTURA
+   del ciclo. Le note nate dalla revisione e dal ri-giudizio NON
+   contano nella soglia di spezzamento: sono il costo della rete di
+   controllo, non della pianificazione, e spezzare a ciclo chiuso
+   significherebbe rifare i giri su due lotti. Si dichiarano pero'
+   SEMPRE nel rapporto, come gruppo, con la loro origine e i loro
+   esiti di giudizio separati: in 3A quel gruppo ha avuto un tasso di
+   difetto molto piu' alto del ciclo (43 rilievi, quasi tutti su
+   quattro note), e il numero del gruppo e' cio' che il gate guarda.
+   Due casi (1B, 3A): la regola viene dai consuntivi.
+
+   E53 — IL DOMINIO DELLA RICONCILIAZIONE VERTICALE SI DECIDE SU CIO'
+   CHE I GREZZI FANNO, NON SU CIO' CHE SONO, e si verifica DA SCRIPT
+   in apertura: si cercano nei grezzi del lotto le sigle e i nomi
+   dell'elenco delle fonti prescrittive. Un documento che CITA un
+   criterio prescrittivo — e a maggior ragione uno che lo CAMBIA,
+   come un verbale che delibera — entra nel dominio anche se non
+   prescrive nulla lui stesso. «Nessun dominio» e' una dichiarazione
+   che si motiva con l'esito di quella ricerca, mai con la natura del
+   documento, E MAI SULLA PAROLA DEL COORDINATORE: in 3A l'esenzione
+   scritta nel prompt del gate era formalmente corretta e sbagliata
+   nel merito, ed e' costata il quinto punto della serie dei tassi.
+   Ogni lotto dichiara il dominio (o il suo «nessuno» motivato) in
+   apertura, cosi' la serie E41 non ha piu' buchi non dichiarati.
+
    Perche' la soglia e' doppia: cio' che il rischio consuma e' il
    CARICO DI REVISIONE, che si misura in note assolute. Una soglia
    costruita sullo scostamento percentuale da stime ferme al pilota
@@ -205,7 +230,20 @@ cosa sola, ma decisiva:
      del progetto;
    - E23: il marcatore di un valore derivato sta ACCANTO al numero,
      entro sessanta caratteri. E24: date e orari nella grafia della
-     fonte;
+     fonte. E50: un numero che la fonte non enuncia e' un valore
+     derivato ANCHE QUANDO SI OTTIENE CONTANDO — la marca non
+     certifica il numero, dichiara che va ricontato, e il dato di 3A
+     lo prova: le cifre marcate erano tutte esatte, le sbagliate
+     tutte non marcate. Per chi giudica: le cifre NON marcate sono le
+     sospette;
+   - E54: NESSUNA NOTA CITA O DESCRIVE UN DOCUMENTO CHE CHI SCRIVE
+     NON HA APERTO. Vale per ogni nome in `fonti` e per ogni documento
+     NOMINATO nel corpo: o e' stato aperto, o la nota non ne parla
+     (e se e' un grezzo di un lotto futuro vale il divieto 9-bis). Il
+     caso: una questione citava `PRO-QA-14` cinque volte senza che
+     nessuno l'avesse letto — compreso un «nessuno dichiara di
+     modificarlo» — e il documento era nel corpus, con dentro la
+     spiegazione della divergenza;
    - E18: se la nota stabilisce una regola decisionale, il `summary`
      la enuncia — e' cio' che il retrieval mostra per primo;
    - E47: un'affermazione universale — «l'unico», «il primo», «il piu'
@@ -264,7 +302,12 @@ cosa sola, ma decisiva:
      L'elenco e' esemplificativo e APERTO: chiuderlo ricreerebbe il
      difetto di E30, che era chiuso su due superfici. Una riga di
      tabella e una glossa di tre parole sono affermazioni di fatto
-     quanto il corpo. E42: la ricerca delle altre occorrenze si fa
+     quanto il corpo. E51: un'affermazione non puo' essere SMENTITA
+     DALLA NOTA CHE LA CONTIENE — «non piu' X» sopra fatti che dicono
+     «non solo X», un titolo che afferma cio' che il corpo dichiara di
+     non sapere. Nasce dal correggere, non dallo scrivere: dopo ogni
+     correzione si rilegge la nota INTERA come un solo argomento.
+     E42: la ricerca delle altre occorrenze si fa
      NELLO STESSO TURNO della qualificazione, non a fine giro — chi
      corregge su rilievo sta pensando al rilievo, non alla nota
      intera, e in 2A una cautela apposta al corpo per chiudere un
@@ -518,8 +561,8 @@ STOP-LOSS E COSA NON FARE
 ---------------------------------------------------------------------
 ALLINEAMENTO DI QUESTO PROMPT
 ---------------------------------------------------------------------
-Allineato al: 2026-08-21, dopo il gate del lotto 2B-bis.
-Ultimo emendamento recepito: E49.
+Allineato al: 2026-08-22, dopo il gate del lotto 3A.
+Ultimo emendamento recepito: E54.
 Scritto dal coordinatore: questo file e' l'istruzione DATA alla
 sessione, e una sessione non riscrive le proprie istruzioni.
 Recepiti rispetto alla versione precedente (ferma al gate S2, 19
@@ -543,9 +586,14 @@ E46 i due tassi si dichiarano col nome del dominio misurato · E47
 l'affermazione universale porta il suo perimetro · E48 gli strati
 invisibili all'estrattore (formule, barrato) entrano marcati
 nell'estrazione di cantiere · E49 la riga B e' una nota senza
-cartella. E48 ed E49 nascono col gate di 2B-bis: la prima sessione
-che usa questa versione li applica a metodo_03 e al registro PRIMA di
-aprire il lotto.
+cartella · E50 il numero contato e' un derivato e la marca dichiara
+il riconteggio · E51 una nota non si smentisce da sola · E52 le note
+post-revisione fuori dalla soglia di spezzamento ma dichiarate come
+gruppo · E53 il dominio si decide su cio' che i grezzi fanno,
+verificato da script in apertura · E54 nessuna nota cita un documento
+non aperto. E52-E54 nascono col gate di 3A: la prima sessione che usa
+questa versione li applica a metodo_03 e al registro PRIMA di aprire
+il lotto.
 CONTROLLO DI SCOSTAMENTO: confronta questa riga con l'ultima riga di
 `registro_emendamenti.md`. Se il registro e' piu' avanti, il prompt e'
 vecchio: dillo nel rapporto, non compensare a mano.

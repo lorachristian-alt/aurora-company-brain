@@ -1,0 +1,197 @@
+=====================================================================
+PROMPT — GATE DEL LOTTO 3A + FIX DELLE DOPPIE PADRONE + LOTTO 3C
+Corpus v1 · Aurora Food Group S.r.l. (simulazione dichiarata)
+File: 06_operativo\prompt\prompt_gate_3a_lotto_3c.txt
+Scritto dal coordinatore il 22/08/2026, letto il rapporto per intero.
+=====================================================================
+
+COME SEI STATO LANCIATO
+- Terminale nella RADICE del repository
+  C:\Users\buulo\Desktop\.eval_do_not_index\Aurora_Food_Group_SRL
+  con: claude --add-dir "C:\Users\buulo\Desktop\aurora-cervello"
+
+---------------------------------------------------------------------
+PARTE 0 — VERIFICA E COMMIT
+---------------------------------------------------------------------
+0.1 `prompt_s4_lotti.txt` e' stato aggiornato dal coordinatore, da E49
+    a E54. Verifica l'integrita':
+      righe 600 · byte 35.840 · CRLF 600 · LF isolati 0 · BOM assente
+      sha256 2cecc206af305d0a6d25ed4f36b017b6dfcc382ffdf1d772f334fa2fd4519dc9
+    Se anche uno non torna, FERMATI e dillo.
+0.2 Questo file e' NON TRACCIATO: committali entrambi e pusha PRIMA di
+    eseguire. Messaggio: «prompt dei lotti a E54 e prompt del gate 3A +
+    lotto 3C». E52-E54 sono nella coda del prompt e non ancora in
+    metodo_03: colmarlo e' il primo adempimento della PARTE 2.
+
+---------------------------------------------------------------------
+PARTE 1 — IL VERDETTO: 3A E' APPROVATO, E L'ERRORE D'APERTURA E' DEL
+          COORDINATORE
+---------------------------------------------------------------------
+Il coordinatore ha letto il rapporto per intero. 3A e' insieme il lotto
+piu' difettoso del progetto — 68 rilievi al primo giro, quindici
+divergenze dalla revisione, tre delle quali in casa — e quello che ha
+prodotto piu' regole: due criteri pre-registrati avverati INSIEME, e
+tre emendamenti nuovi da questo gate. Le ragioni dell'approvazione:
+
+- la lettura strutturale del cruscotto e' il miglior singolo
+  ritrovamento del progetto per S7: «il verso di ogni confronto vive
+  solo dentro la formula» — chi legge il foglio non puo' sapere se un
+  64 % contro un target di 70 sia un successo o un fallimento. Va
+  nello stato con queste parole;
+- E50 ed E51 sono RATIFICATI, e la forma di E50 — la marca non
+  certifica il numero, dichiara che va ricontato — e' decisa dal dato,
+  non dall'estetica: cinque cifre marcate tutte esatte, le sbagliate
+  tutte non marcate;
+- il §5 e' il paragrafo piu' onesto scritto finora: il caso PRO-QA-14
+  dichiarato per intero, con la spiegazione della divergenza trovata
+  nel documento non letto. Ne nasce E54;
+- la §4.44 contata da te sul file, il collaudo dichiarato per
+  composizione (18 scatto + 9 non-scatto, che non si sommano), il CSV
+  con la guardia che ora verifica l'EFFETTO (andata e ritorno) invece
+  della forma: tutte e tre le correzioni sono la forma giusta;
+- la scomposizione del 122 (§9.2) e' il modo giusto di dichiarare un
+  numero che sale: 115 incompletezza + 3 hub + 4 doppie padrone, di
+  cui 3 falsi positivi nuovi. Senza la scomposizione, «l'errore sale
+  dopo un lotto canonizzato» sarebbe sembrato un guasto del lotto.
+
+ATTENZIONE — E L'ERRORE DEL §3 E' DEL COORDINATORE, TESTUALMENTE: la
+frase «E37 non scatta su 3A — ne' il verbale ne' il cruscotto sono
+fonti prescrittive» sta nella PARTE 3.3 del prompt del gate precedente,
+scritta da me. Tu l'hai eseguita, non inventata. E' il terzo caso in
+tre gate — B3, il multi-fonte, questo — in cui un'affermazione del
+coordinatore era sbagliata nel merito; nei primi due hai verificato e
+contraddetto, qui non potevi, perche' un'ESENZIONE non si presenta come
+un ordine da verificare. La risposta strutturale e' E53: il dominio si
+verifica DA SCRIPT in apertura, mai sulla parola del coordinatore.
+Riga in §5 del passaggio di consegne, errori pagati: l'esenzione
+dettata dall'alto e' costata il quinto punto della serie.
+
+---------------------------------------------------------------------
+PARTE 2 — LE QUATTRO DECISIONI DEL GATE
+---------------------------------------------------------------------
+2.1 T117 / E52 — LO SFORAMENTO E' RATIFICATO E LA REGOLA SI SCRIVE.
+    Non spezzare a ciclo chiuso era giusto: rifare i giri su due lotti
+    per quattro note nate dalla revisione sarebbe stato il costo
+    sbagliato. E52 (gia' nel prompt dei lotti, da applicare a
+    metodo_03 col registro): le soglie di E28 governano la proiezione
+    e la scrittura del ciclo; le note post-revisione ne sono fuori, ma
+    si dichiarano SEMPRE come gruppo, con origine ed esiti separati.
+    Due casi — 1B e 3A — quindi la regola viene dai consuntivi.
+    T117 si chiude con E52.
+
+2.2 LA SERIE ACCETTA IL BUCO, DICHIARATO — E NON SI RETRO-MISURA.
+    Misurare i due tassi ORA, dopo le correzioni della revisione,
+    darebbe un tasso di produzione gia' ripulito: un numero
+    incomparabile con gli altri quattro, che misurano il lotto come il
+    ciclo l'ha prodotto. Il quinto punto della serie e' «NON MISURATO
+    — dominio non dichiarato in apertura per errore del gate», scritto
+    cosi' nella serie, e la risposta in avanti e' E53: il dominio si
+    verifica da script a ogni apertura, e «nessun dominio» si motiva
+    con l'esito della ricerca delle sigle prescrittive nei grezzi.
+    E53 a metodo_03 col registro.
+
+2.3 IL GRUPPO POST-REVISIONE HA IL SUO CRITERIO, pre-registrato ora:
+    il rapporto di ogni lotto dichiara gli esiti di giudizio del
+    gruppo post-revisione separati da quelli del ciclo (e' dentro
+    E52); SE al prossimo lotto che produce note post-revisione il
+    tasso del gruppo e' ancora piu' del doppio di quello del ciclo,
+    il gruppo prende un mini-ciclo dedicato — rilettura 2-bis con le
+    fonti APERTE davanti, giudizio, e un secondo giro se il primo
+    trova errori — come regola, non come diligenza. Se non lo e',
+    E54 e' bastato (il caso peggiore era una citazione non letta,
+    che E54 ora vieta). Riga in §6.
+
+2.4 E54 A METODO_03, divieto in §10 col marcatore e la riga nel
+    registro: nessuna nota cita o descrive un documento che chi
+    scrive non ha aperto. Il caso PRO-QA-14 nella riga del registro.
+
+---------------------------------------------------------------------
+PARTE 3 — IL FALSO POSITIVO DELLE DOPPIE PADRONE: IL SUO TURNO E' ORA
+---------------------------------------------------------------------
+Il gate di 2A lo lascio' rosso «finche' non avra' il suo turno». Il
+turno e' arrivato: da 1 rilievo a 4, tutti contro la stessa nota, e la
+causa e' meccanica — una tabella di dieci indicatori mensili porta
+cinquanta decimali piccoli in una nota sola, e il tema 3-6 di tabelle
+cosi' ne portera' altre. E' il primo caso in cui canonizzare AUMENTA il
+debito dichiarato, e un controllo il cui rosso cresce col lavoro fatto
+bene e' un controllo che verra' ignorato (§4.35, stessa logica).
+
+Fix che allenta, quindi §4.9 alla lettera: perimetro chiuso e difetti
+piantati NEI DUE VERSI — una doppia padrona VERA (stessa fonte, stessa
+grandezza, stesso valore) che deve continuare a scattare, e il caso dei
+decimali comuni SENZA fonte condivisa che non deve piu'. La forma del
+fix la decidi tu sul codice (fonte condivisa richiesta, o soglia di
+specificita' del valore — un numero a una cifra decimale non identifica
+niente in questo archivio), e la dichiari nel rapporto. Dopo il fix:
+QA a perimetro vault RIMISURATA con l'ora, scomposizione dichiarata —
+attesa: 118 = 115 incompletezza + 3 hub, e il rilievo di merito a 1 o
+0 secondo cio' che il fix dimostra del caso originario di 2A.
+
+---------------------------------------------------------------------
+PARTE 4 — REGISTRI E CHIUSURA DEL GATE
+---------------------------------------------------------------------
+§3 del passaggio di consegne riscritta (nove lotti chiusi, serie a
+quattro punti piu' il buco dichiarato, prossimo atto 3C anticipato);
+la riga di §5 della PARTE 1; la riga di §6 della PARTE 2.3; T117
+chiusa con E52; la riga nel REGISTRO DELLE MODIFICHE della matrice per
+l'anticipo di 3C (motivo: due correzioni al vault gia' scritte e il
+grade AA in guardia — piu' tardi arriva la gamba, piu' note ha gia'
+attraversato). Commit «Gate 3A: E52-E54, il fix delle doppie padrone,
+3C anticipato» + push.
+
+---------------------------------------------------------------------
+PARTE 5 — STOP DICHIARATO
+---------------------------------------------------------------------
+Se dopo le PARTI 2-4 il contesto e' consumato, CHIUDI coi cinque
+gesti: 3C apre a mente fresca con questo stesso file, dalla PARTE 6.
+
+---------------------------------------------------------------------
+PARTE 6 — APERTURA DEL LOTTO 3C (il rapporto d'audit), ANTICIPATO
+---------------------------------------------------------------------
+La raccomandazione e' ACCOLTA, con la logica di R1: il rapporto
+d'audit porta sette divergenze gia' nel canone (C-serie del 22/08) di
+cui DUE correggono cose gia' scritte nel vault — il «sedici» nel
+titolo di una nota che i documenti danno a quindici, e la questione
+del lotto R1 sulla rivalidazione del CCP2 che ha una risposta — e UNA
+che il vault non sa: il grade AA messo in guardia, con sollecito PEC e
+termine perentorio, mentre la direzione lo chiama obiettivo primario.
+Ogni lotto che passa senza quella gamba e' un lotto in cui il vault
+resta sbagliato su cose che l'archivio sa.
+
+Ciclo di `prompt_s4_lotti.txt` §3, senza sconti, e in particolare:
+
+6.1 E53 AL PRIMO IMPIEGO: il dominio si verifica da script in
+    apertura, cercando nei grezzi del lotto le sigle dell'elenco
+    prescrittivo. Un rapporto d'audit REGISTRA rilievi, ma se cita
+    criteri prescrittivi — e un audit BRCGS li cita per costruzione —
+    il dominio c'e'. L'esito della ricerca sta nel rapporto,
+    qualunque sia.
+
+6.2 LE DUE CORREZIONI AL VAULT si fanno col perimetro dichiarato
+    (E32): la nota col «sedici» nel titolo, la questione di R1 che
+    si chiude — riga di tracciamento aggiornata con l'esito «chiusa»
+    e la gamba citata. E il grade AA prende la sua nota padrona: e'
+    il fatto nuovo piu' pesante del lotto.
+
+6.3 LE TRE VIGILANZE: le due specie ora emendate (E50, E51) escono
+    dalla sorveglianza — sono regole, la QA e il giudizio le
+    applicano; resta il criterio del gruppo post-revisione (2.3).
+    E37/E53 decideranno il dominio; se c'e', i due tassi tornano
+    nella serie come sesto punto.
+
+6.4 RITMO: 3C chiude la sessione — ciclo intero, revisione col canone
+    via subagente (E45), misure E44 con l'ora, adempimenti del passo
+    11, cinque gesti, push, zip. Poi il rapporto al coordinatore.
+
+---------------------------------------------------------------------
+GUARDIE GENERALI
+---------------------------------------------------------------------
+- 03_valutazione\ non si apre mai, per nessuno, subagenti compresi.
+- Il canone guida e non appare NELLE NOTE; il revisore lo riceve (E45),
+  il giudizio mai.
+- Ogni numero da script, con l'ora della misura (E44).
+- L'estrattore di MISURA non si tocca; l'estrazione di cantiere e' la
+  via di QA e giudizio.
+- Se qualcosa qui contraddice metodo_03 O LE FONTI, vince la fonte e
+  lo segnali: i precedenti sono tre, e uno e' in questo stesso file.
+=====================================================================
