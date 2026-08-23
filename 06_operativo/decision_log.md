@@ -2060,3 +2060,85 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   si chiude **con l'errata dentro**. ⚠️ **Seconda volta in due gate che un numero composto a mano
   dal coordinatore arriva sbagliato, e sono gli unici due numeri di questo gate che nessuno
   script produceva.**
+- **2026-08-24** · ✅ **LOTTO 3D CHIUSO — i reclami: 3 grezzi, 35 note di contenuto, QA di lotto
+  a ZERO ERRORI** · e' il primo lotto che gira con E59, E60 ed E61 in vigore. ⚠️ **Due dei tre
+  strumenti che quelle regole prescrivono NON esistevano**, e sono stati costruiti in apertura:
+  `grandezze_condivise.py` (l'artefatto d'apertura di E2 che E60 impone) e `collauda_dominio.py`
+  (la prova di E59). **Una regola che prescrive uno strumento inesistente e' una regola che si
+  applica a mano** — cioe' esattamente cio' che quel gate stava correggendo.
+- **2026-08-24** · ⚠️ **IL LOTTO 3D SI E' SPEZZATO PER LA SOGLIA DI E37, NON PER QUELLA DI E28**
+  · la riconciliazione verticale arretrata sul dominio `reclami` ha riaperto **65 note** contro
+  le **35** che il ciclo ha prodotto: **le riaperte superano le nuove**, e la regola impone di
+  dichiararlo e di spezzare in canonizzazione piu' manutenzione. Nasce **R2**, e il suo perimetro
+  **si rigenera all'apertura**: con `PRO-QA-08` ormai canonizzata, l'insieme sara' diverso, e la
+  differenza misura quanto 3D ha gia' sanato. ⚠️ **E' la prima volta che quella soglia scatta**:
+  le altre volte il lotto si e' spezzato sulla proiezione delle note nuove.
+- **2026-08-24** · ⚠️ **E59 AL PRIMO IMPIEGO HA TROVATO UN DIFETTO DEL PROPRIO COLLAUDO, NON
+  DEL DOMINIO** · la prima stesura di `collauda_dominio.py` respingeva **sei espressioni su
+  nove**, fra cui la sigla del modulo che la procedura istituisce — l'espressione piu' specifica
+  che quel dominio possa avere. ⚠️ **La ragione e' strutturale: la fonte del dominio la stava
+  portando quel lotto**, quindi nessuna nota poteva citarla e la colonna «dentro» era zero **per
+  costruzione**. ⚠️ **E c'era di peggio**: contare come «governata altrove» una nota che parla
+  di reclami citando il manuale HACCP e' **il contrario del vero** — quella nota e' **scoperta**,
+  cioe' cio' che il tasso di E41 esiste per contare. Applicata cosi', la prova avrebbe respinto
+  le espressioni giuste e lasciato passare le sbagliate. **Lo strumento e' stato riscritto in due
+  prove che non si sommano**: la **specificita'** (sempre applicabile, ed e' quella che 3B ha
+  fatto a mano) e il **dentro/fuori** (applicabile solo se la fonte del dominio e' gia' citata).
+  ⚠️ **E una sospetta non si scarica cambiando la soglia**: si scarica con `--motivata`, che la
+  registra in chiaro, **e con una ragione scritta nel rapporto**.
+- **2026-08-24** · ⚠️ **LA META' DI E59 CHE IN APERTURA NON SI PUO' FARE, ALLA CHIUSURA SI FA** ·
+  a lotto chiuso `PRO-QA-08` e' citata da 22 note, la prova B diventa applicabile, e **il dominio
+  la supera su tutte e nove le espressioni** — la piu' larga a 0,39 contro una soglia di 0,50.
+  ⚠️ **E `campione reso`, che in apertura non riconosceva NESSUNA nota, alla chiusura ne
+  riconosce cinque e tutte e cinque citano il dominio**: quota fuori **0,00**. **Non e' un
+  emendamento che il lotto propone: e' un'osservazione con un consuntivo**, per il gate.
+- **2026-08-24** · ⛔ **IL DOCUMENTO CHE L'ARCHIVIO DICHIARAVA DI NON AVERE ERA IN `sources\`
+  DALL'INIZIO — E3 PAGATO PER LA QUINTA VOLTA, CON UNA FORMA NUOVA** ·
+  `questione-data-apertura-rec-2026-011`, scritta il 19/08, elencava fra le cose che sarebbero
+  servite «la mail automatica di notifica della segnalazione, **che l'archivio non contiene**».
+  L'archivio la contiene, ed e' il primo grezzo del lotto 3D. ⚠️ **Il grezzo esisteva fin
+  dall'inizio, in un lotto non ancora canonizzato — e E3 chiede la ricerca su TUTTO `sources\`,
+  non sui lotti chiusi.** ⚠️ **E il controllo di E43 non poteva prenderla**: quella nota non usa
+  la formula di attestazione, dichiara l'assenza dentro un elenco di «cosa servirebbe per
+  chiuderla». **La superficie in cui un'assenza si nasconde e' piu' larga della formula che la
+  dichiara**, ed e' la stessa scoperta che il gate 3B ha fatto sull'intestazione, un piano piu'
+  in la'. **T161**.
+- **2026-08-24** · ⛔ **IL DOCUMENTO ARRIVA E LA DIVERGENZA SI ALLARGA: TRE ORE PER LO STESSO
+  ARRIVO** · la notifica del form dichiara `2026-05-12 18:23:47 CEST` e la riunione concorda; **ma
+  la prima mail interna sul reclamo, delle 14:33 dello stesso pomeriggio, dice che era arrivato
+  ALLE 13:05 dal form**. ⚠️ **La difficolta' non e' quale ora sia giusta: e' che la mail e'
+  ANTERIORE alla notifica** — descrive la segnalante, il prodotto, il lotto letto dalla foto e il
+  punto vendita quasi quattro ore prima che il messaggio esistesse. **T5 non si chiude: si
+  allarga**, e ha una padrona.
+- **2026-08-24** · ⛔ **TRE QUALIFICAZIONI PER LO STESSO RECLAMO, E FORSE DUE SCALE DIVERSE** ·
+  la scheda dice **Classe 2**, il registro degli indicatori **CRITICO**, la prima mail interna
+  **GRAVE**. ⚠️ **Ma la scoperta non e' la terza qualificazione: e' che la scheda NON dichiara
+  di applicare `PRO-QA-08`** — attribuisce la scala al **par. 4 di un'altra procedura**, e lo
+  scrive due volte. **Non e' detto che le fonti stiano leggendo la stessa scala in due modi:
+  potrebbero applicarne due diverse.** ⚠️ **L'ha trovata la TERZA DOMANDA del prompt di
+  giudizio**, quella sulla lacuna di copertura che il metodo descrive come segnale «poco piu' di
+  una volta su due». Divieto 9-bis rispettato: il vault registra che la scheda cita quella
+  procedura e **non dice nulla di cio' che contiene**. **T159**, obbligo esplicito per 3E.
+- **2026-08-24** · ⚠️ **IL RILIEVO CHE NESSUN ALTRO STRATO PUO' VEDERE: IL NOME DEL FILE** · al
+  primo giro un giudice ha preso il **titolo** di una nota che affermava «rincorse **a voce**»,
+  dove la fonte dice solo «finora l'ho rincorsa io»; la correzione ha sistemato titolo, summary
+  e corpo. ⚠️ **Al secondo giro lo stesso rilievo e' tornato, e sul NOME DEL FILE.** ⚠️ **E'
+  E30 un gradino piu' in la': lo slug si scrive PRIMA del titolo e non si corregge MAI**, ed e'
+  l'unica superficie che nessuna rilettura del testo tocca. **La QA non la guarda** — non e'
+  un'affermazione per nessun controllo — **ma il giudice la vede**, perche' il nome della nota e'
+  la prima cosa che il pacchetto gli mette davanti. Nota rinominata.
+- **2026-08-24** · ⚠️ **E61 IN FLAGRANZA TRE VOLTE, E DUE DENTRO UNA RICONCILIAZIONE: QUANDO
+  SI AGGIUNGE UNA FONTE, VA RILETTA ANCHE LA FRASE VECCHIA** · E61 dice di rileggere la frase
+  **nuova** che la correzione scrive. ⚠️ **Due casi di questo lotto mostrano il verso
+  opposto**: aggiungere una fonte a `questione-data-apertura-rec-2026-011` ha reso **falsa** una
+  frase che c'era gia' («il termine di 48 ore non e' di nessuna delle fonti di questa nota» — e
+  la fonte aggiunta lo contiene), e la riconciliazione di E60 su
+  `questione-nc-interne-registrate-su-mod-qa-31` ha attribuito un contenuto al manuale HACCP, che
+  **quella nota non ha fra le fonti** (la gemella si', e li' la stessa frase regge). **Una
+  correzione che AGGIUNGE UNA FONTE cambia il perimetro di verita' della nota intera**, e le
+  frasi che c'erano prima vanno rilette contro il perimetro nuovo. Osservazione per il gate.
+- **2026-08-24** · ⚠️ **E39: LA CAUTELA E' STATA PROPAGATA DENTRO LA NOTA E NON FRA LE NOTE** ·
+  il primo giro ha corretto «rincorse a voce» in una nota; **la stessa affermazione stava nella
+  nota sorella `doc-indicatori-reclami`, e li' e' rimasta** — l'ha presa il secondo giro. E39
+  chiede tutte le altre occorrenze **dell'affermazione**, ed E42 di cercarle **nello stesso
+  turno**: la ricerca e' stata fatta **dentro** la nota e non **fra** le note.

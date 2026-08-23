@@ -1227,3 +1227,105 @@ Grazia** (visura), **Peruzzi Maurizio** (bilancio) e **Attilio Peruffo** (Frigot
 famiglia sale a quattro nel vault**, e a sei nel corpus: 🚫 `PERUZZI Loris` e 🚫 `Peruzzi
 Luciano` stanno in due grezzi non canonizzati. **Classe B della tabella alias: non si uniscono
 mai.**
+
+
+## Divergenze nuove — revisione del lotto 3D, 24/08/2026
+
+> Il lotto dei **reclami**: `PRO-QA-08`, la catena della segnalazione del consumatore e la
+> catena dell'allerta RASFF. **Sette divergenze**, di cui **cinque scrivibili subito** e due
+> con obbligo esplicito per il lotto che porterà la procedura di ritiro.
+
+### F1 — La procedura di ritiro ha DUE CODICI, e le due gambe sono già canonizzate ✍️ **scritta**
+
+`PRO-QA-08` §3 rimanda per il ritiro a **`PRO-QA-11`** «Gestione ritiro e richiamo prodotto»;
+il **manuale HACCP** §10.3 rimanda a **`PRO-QA-14` rev. 3** «Gestione ritiro e richiamo del
+prodotto», e il §9 del manuale ripete «vedi `PRO-QA-14` per il ritiro». ⚠️ **Nessuno dei due
+documenti nomina l'altra sigla**, e il più recente dei due — la procedura, 14/03/2026 — è
+quello che usa la sigla che nessun altro documento del corpus conosce: **`PRO-QA-11` compare in
+un file solo su 160**, ed è `PRO-QA-08` stessa. Nota:
+`questione-due-codici-per-la-procedura-di-ritiro`.
+
+### F2 — `PRO-QA-08` designa DUE procedure diverse ✍️ **scritta**
+
+Il documento con quel codice è la procedura dei **reclami**; il manuale HACCP, nella riga del
+prerequisito `PRP-09`, usa la stessa sigla per la procedura di **rintracciabilità**
+(identificazione del lotto, mass balance, esercitazione annuale). ⚠️ **Due oggetti, un codice**,
+e nessuna fonte che li distingua — mentre la **politica per la qualità** impegna l'azienda «alla
+procedura `PRO-QA-08`» per i reclami. Nota:
+`questione-pro-qa-08-reclami-o-rintracciabilita`. **Classe C della tabella alias.**
+
+### F3 — Il «riesame trimestrale HACCP» non esiste in nessun'altra fonte ✍️ **scritta**
+
+La responsabile qualità dichiara di registrare l'allerta RASFF «nel **riesame trimestrale
+HACCP**». Il manuale dà: team **almeno semestrale** (§4.2), riesame del piano **annuale**
+(§12.1); il verbale di riesame colloca il prossimo ordinario a **marzo 2027** (§12.2). ⚠️
+**Nessun documento dell'archivio conosce una cadenza trimestrale.** ⚠️ E il §12.1 elenca fra i
+trigger di riesame **straordinario** proprio l'«allerta RASFF **su ingredienti in uso**» —
+cioè la ragione per cui, non essendo l'additivo in uso, il riesame straordinario **non era
+dovuto**. Nota: `questione-riesame-trimestrale-haccp`.
+
+### F4 — La richiesta dell'auditor sulle allerte non è nel rapporto d'audit ✍️ **scritta**
+
+La mail del 19/03 motiva la registrazione con «l'auditor a febbraio ci ha chiesto **proprio di
+dimostrare la sorveglianza sistematica sulle allerte RASFF**». Il rapporto dell'audit di
+febbraio porta **due non conformità minori e cinque osservazioni**, e **nessuna riguarda le
+allerte**: né «allerta» né «RASFF» compaiono nel documento. ⚠️ **Non è detto che sia falso** —
+un auditor chiede più di quanto finisca in un rapporto — **ma un'evidenza tenuta a sistema per
+rispondere a una richiesta risponde a qualcosa che l'archivio non contiene**. Nota:
+`questione-richiesta-auditor-sulle-allerte`.
+
+### F5 — I reclami si contano su due denominatori diversi, e ora la gamba prescrittiva c'è ✍️ **scritta**
+
+`PRO-QA-08` §10 prescrive «reclami totali per milione di **confezioni vendute**», obiettivo
+**< 8,0**; la politica per la qualità dice lo stesso; il verbale di riesame §4.1 conta per
+milione di **pezzi venduti**, obiettivo **< 1,0** e target 2026 **< 0,85**. ⚠️ **La divergenza
+era già a canone da C3 del lotto 3A e da E1 del lotto 3B, e la gamba che mancava era proprio
+il prescrittivo**: adesso c'è, e la questione ha una padrona —
+`questione-reclami-per-confezioni-o-per-pezzi`.
+
+### F6 — Il grezzo della segnalazione non concorda con sé stesso su quanti turni ✍️ **scritta**
+
+Mail del **13/05 09:22**: quel giorno l'`AF-SN-0450` è stato prodotto solo su Linea 1, e il
+lotto è «con ogni probabilità **`L26130-L1-T2` o `-T3`**» — il turno 1 aveva confezionato con
+la valvola originale. Mail del **14/05 19:12**: la referenza è stata prodotta «SOLO su Linea 1,
+**turni 1 e 2**». ⚠️ **Il turno 3 c'è in una frase e non c'è nell'altra**, a un giorno di
+distanza e dalla stessa persona — e la scheda del reclamo blocca **tre** lotti, turno 3
+compreso. Si aggiunge alla divergenza già a canone sulla Linea 1 che produce una domenica non
+assegnata dal piano. Scritta in `fatto-perimetro-stimato-del-ritiro`.
+
+### F7 — Il suffisso del lotto: letto dalla foto o illeggibile, dalla stessa foto ✍️ **scritta**
+
+La segnalante scrive che dopo il codice ci sono «una L e dei numeri dopo» ma **stampati male**.
+La mail interna del **12/05 14:33** dichiara che **dalla foto si legge** `L26130-L1-T2`; quella
+del **13/05 09:22** lo dà **non leggibile** e da verificare. ⚠️ **La fotografia è la stessa.**
+Scritta in `fatto-segnalazione-dal-form-12-05`.
+
+### F8 — La scheda del reclamo classifica citando un'ALTRA procedura 🚫 **non scrivibile per intero**
+
+`MOD-QA-31` scrive «Classe 2 (**`PRO-QA-14` par. 4**)» in intestazione e ripete «ai sensi del
+par. 4 della `PRO-QA-14`» nella valutazione del rischio. ⚠️ **La scheda non dichiara di
+applicare la scala di `PRO-QA-08`**: attribuisce la classificazione al paragrafo della
+procedura di **ritiro e crisi**. ⚠️ **Che cosa quel paragrafo contenga, il vault non lo può
+dire**: il documento appartiene a un lotto non ancora canonizzato, e il divieto 9-bis vale per
+intero. **Obbligo esplicito per il lotto che lo porta**: verificare se porti una scala di
+classificazione dei reclami, se coincida con quella di `PRO-QA-08` §5, e quale delle due
+governi. Nota parziale: `questione-classe-del-reclamo-rec-2026-011`. **T159.**
+
+### F9 — Undici annotazioni di revisione dentro un prescrittivo approvato ✍️ **scritta**
+
+`PRO-QA-08` rev. 2, approvata il 14/03/2026, porta **tre passaggi barrati** e **undici
+annotazioni di revisione lasciate nel flusso del testo** *(contate con l'estrazione di
+cantiere)*, di cui due datate **02/04** e **12/05** — cioè posteriori all'approvazione. ⚠️ **Il
+campo «copia controllata n.» è in bianco**: quello che l'archivio conserva è **una copia di
+lavoro**, e le modifiche non sono state accettate. ⚠️ **Dieci annotazioni su undici descrivono
+una regola, una richiesta o una lacuna; una sola registra un EVENTO** — «È successo» — ed è
+quella da cui nasce il divieto di rispondere a voce al consumatore. Note:
+`fatto-pro-qa-08-copia-di-lavoro`, `fatto-nessuno-risponde-a-voce-al-consumatore`.
+
+### F10 — Una prova di solidità del canone, dalla scadenza dichiarata dalla consumatrice
+
+⚠️ **Non è una divergenza: è una conferma, e vale la pena registrarla.** La segnalante dichiara
+la scadenza **24/06/2026** su un prodotto del lotto `L26130`, cioè del **10/05/2026**: sono
+**45 giorni** *(contati)*, esattamente la shelf life della scheda tecnica in vigore. **Un dato
+scritto da un consumatore, senza alcun accesso ai documenti dell'azienda, cade sul valore
+prescritto.**

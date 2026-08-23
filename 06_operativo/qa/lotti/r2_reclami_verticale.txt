@@ -1,0 +1,19 @@
+# MANUTENZIONE
+# Lotto R2 - riconciliazione verticale sul dominio `reclami`. Nessun grezzo nuovo si
+# canonizza qui: si riparano note gia' scritte (E35, metodo_03 §9.4-bis). Il perimetro
+# vero e' l'elenco delle note qui accanto, r2_reclami_verticale_note.txt.
+#
+# NATO DALLO SPEZZAMENTO DEL LOTTO 3D, il 23/08/2026, per la soglia di E37: la
+# riconciliazione verticale arretrata sul dominio `reclami` ha riaperto 65 note, contro
+# le ~35 che il ciclo di 3D proietta di produrre. **Le riaperte superano le nuove**, e la
+# regola dice che il lotto si dichiara e si spezza in uno di canonizzazione piu' uno di
+# manutenzione - stessa logica di E28: una soglia sulla grandezza che il rischio consuma.
+#
+# ⚠️ IL PERIMETRO SI RIGENERA ALL'APERTURA, non si eredita: quando R2 apre, `PRO-QA-08`
+# sara' gia' canonizzata da 3D, e `candidate_r1.py --dominio reclami` restituira' un
+# insieme diverso - le note che 3D ha gia' agganciato saranno uscite dal perimetro da
+# sole. Rigenerarlo e' il gesto che dice quanto 3D ha gia' sanato.
+#
+# ⚠️ E LA SUA MISURA E' DIVERSA da quella di un lotto di canonizzazione: tre numeri
+# (quante guardate, quante corrette, tasso di difetto), niente capacita' 25-35, e resta
+# FUORI dalla serie della capacita' per E38.

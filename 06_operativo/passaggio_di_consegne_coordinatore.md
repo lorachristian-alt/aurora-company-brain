@@ -65,7 +65,7 @@ crea regole: spiega come si sono applicate.
 
 ---
 
-## 3. Dove siamo (23/08/2026, notte — dopo il gate del lotto 3B)
+## 3. Dove siamo (24/08/2026, notte — dopo il lotto 3D)
 
 - **Corpus v1 congelato**: 160 file, manifest SHA-256 v1.1. Intoccabile.
 - **Baseline misurate sul grezzo**, stesse 282 domande:
@@ -74,37 +74,33 @@ crea regole: spiega come si sono applicate.
   numeri **non si citano mai separati**.
 - **Config C congelata** (`d36d7ce`, impronta `afb58939…`): intoccabile fino a fine S6.
 
-### Canonizzazione: DIECI lotti chiusi, e del tema 3 restano due pacchetti
+### Canonizzazione: UNDICI lotti chiusi, e del tema 3 resta un pacchetto
 
-⚠️ **Questo numero non si conta più: si INCOLLA**, da `verifica_matrice_lotti.py`, che dal
-23/08/2026 lo stampa leggendo i marcatori `# CHIUSO` degli elenchi. Fino a quel giorno viveva a
-mano nei prompt del coordinatore, ed era uscito **«undici»** (§4.47, §4.49).
+⚠️ **Questo numero non si conta: si INCOLLA**, da `verifica_matrice_lotti.py`, che dal
+23/08/2026 lo stampa leggendo i marcatori `# CHIUSO` degli elenchi.
 
 ```
-lotti chiusi: 10
-   di cui di canonizzazione ... 9 (lotto_01a_linea1_turno_ccp, lotto_01b_freddo_energia,
-                                   lotto_01c_metrologia_gas, lotto_02a_cip,
-                                   lotto_02b_autocontrollo_analitico, lotto_02b_bis_allergeni,
-                                   lotto_03a_riesame_direzione, lotto_03b_politica_formazione,
-                                   lotto_03c_certificazione_audit)
+lotti chiusi: 11
+   di cui di canonizzazione ... 10 (lotto_01a_linea1_turno_ccp, lotto_01b_freddo_energia,
+                                    lotto_01c_metrologia_gas, lotto_02a_cip,
+                                    lotto_02b_autocontrollo_analitico, lotto_02b_bis_allergeni,
+                                    lotto_03a_riesame_direzione, lotto_03b_politica_formazione,
+                                    lotto_03c_certificazione_audit, lotto_03d_reclami)
    di cui di manutenzione ..... 1 (r1_riconciliazione_verticale)
    elenchi ancora aperti ...... 16
    FUORI dal conteggio: la fetta pilota (22 grezzi), anteriore alla matrice e
                         senza marcatore `# CHIUSO`. Canonizzata in S2.
 ```
 
-⚠️ **La fetta pilota è un undicesimo perimetro chiuso, e sta fuori dal conteggio per
-costruzione**: non è un elenco della matrice. **La differenza fra dieci e undici è esattamente
-questa**, ed è scritta qui perché non torni a essere l'aritmetica di qualcuno.
-⚠️ **`riverifica_barrato` NON è un lotto chiuso**: è un mini-perimetro dentro il gate di
-2B-bis, e infatti il suo elenco porta `# MANUTENZIONE` ma non `# CHIUSO`.
+⚠️ **E ne esiste un dodicesimo che non ha ancora aperto: `R2`**, la riconciliazione verticale
+sul dominio `reclami`, nata dallo **spezzamento di 3D** — la prima volta che scatta la soglia
+di E37 (65 riaperte contro 35 nuove). Il suo perimetro **si rigenera all'apertura**: con
+`PRO-QA-08` ormai canonizzata, `candidate_r1.py` restituirà un insieme diverso, e **la
+differenza misura quanto 3D ha già sanato**.
 
-**51 grezzi su 160, ne restano 109. Del tema 3 restano `3D` reclami e `3E` crisi e ispezioni.**
+**54 grezzi su 160, ne restano 106. Del tema 3 resta `3E`, crisi e ispezioni.**
 
-⚠️ **`3B` ha aperto l'ottava area del vocabolario, `risorse-umane`**, e l'ha aperta **piena**:
-tredici note. Restano scoperte `sicurezza-ambiente` e `ricerca-sviluppo`.
-
-### La serie dei due tassi (E41/E46): SETTE punti
+### La serie dei due tassi (E41/E46): OTTO punti
 
 | Lotto | Dominio | Difetto di produzione |
 |---|---|---|
@@ -113,100 +109,83 @@ tredici note. Restano scoperte `sicurezza-ambiente` e `ricerca-sviluppo`.
 | 2B | `acqua` | **0,0 %** su 27 |
 | 2B-bis | `allergeni` | **9,1 %** su 33 |
 | 3A | — | ⚠️ **NON MISURATO** |
-| 3C | `certificazione` | **38,7 %** su 31 — ⚠️ **con riserva** |
-| **3B** | **`formazione`** | **36,4 %** su 22 — ⚠️ **con riserva**, ratificato al gate |
+| 3C | `certificazione` | **38,7 %** su 31 — con riserva |
+| 3B | `formazione` | **36,4 %** su 22 — con riserva |
+| **3D** | **`reclami`** | **20,0 %** su 35 — ⚠️ **il primo punto con la dichiarazione COLLAUDATA** |
 
-⚠️ **I due punti alti della serie hanno la stessa causa, ed è ora misurata TRE volte: la
-dichiarazione del dominio, non il metodo.** 2B-bis troppo stretta, 3C troppo larga, 3B troppo
-larga **sotto la regola della coppia** — cioè con E56 già in vigore e applicata. **Tre
-dichiarazioni su tre nate sbagliate**: una regola che chiede attenzione ha fallito al suo primo
-impiego, ed è per questo che il gate ha risposto con **E59**, che la COLLAUDA da script.
+⚠️ **È il punto più basso dei tre del tema 3, ed è il primo prodotto da un dominio che ha
+superato una prova meccanica.** ⚠️ **Ma un punto non fa una tendenza**, e va letto con la sua
+riserva: **la prova B di E59 non era applicabile in apertura**, perché la fonte del dominio la
+portava il lotto stesso. Il rimisurato a fine ciclo darebbe 8,9 % su 45 e **non si usa** (E41
+per il rimisurare, E52 per il denominatore).
 
-⚠️ **E nessuno dei punti si rimisura** (§4.45). Per 3B lo script oggi darebbe **26,1 %**: il
-punto dichiarato resta **36,4 %**, che è il lotto come il ciclo lo ha prodotto (E41).
+### I conteggi, incollati da `conta_stato.py` (24/08/2026 alle 01:10)
 
-### I conteggi, incollati da `conta_stato.py` (23/08/2026 alle 23:23)
-
-<!-- CONTEGGI DEL VAULT — generati da `06_operativo\qa\conta_stato.py` il 2026-08-23.
+<!-- CONTEGGI DEL VAULT — generati da `06_operativo\qa\conta_stato.py` il 2026-08-24.
      Si incollano VERBATIM: non si ricompongono a mano, non si riscrivono in prosa. -->
 
 | Grandezza | Valore |
 |---|---|
-| Note nel vault | **386** |
+| Note nel vault | **432** |
 | di cui `_index` | 11 |
 | di cui note-strumento del progetto | 15 |
-| di cui note di diario (`sessione`, `daily`) | 10 |
-| **di cui note di contenuto** | **350** |
-| Note per cartella | areas 229 · data 41 · docs 38 · entities 31 · code 16 · workspace 13 · projects 8 · concepts 6 · self 2 · outputs 1 · sources 1 |
-| Note per `type` | atomica 270 · conflitto 53 · entita 23 · hub 14 · index 11 · sessione 10 · concetto 5 |
-| Questioni aperte (`type: conflitto`) | 53 |
+| di cui note di diario (`sessione`, `daily`) | 11 |
+| **di cui note di contenuto** | **395** |
+| Note per cartella | areas 251 · docs 52 · data 49 · entities 32 · code 16 · workspace 14 · projects 8 · concepts 6 · self 2 · outputs 1 · sources 1 |
+| Note per `type` | atomica 306 · conflitto 61 · entita 24 · hub 14 · index 11 · sessione 11 · concetto 5 |
+| Questioni aperte (`type: conflitto`) | 61 |
 | Grezzi in `sources\` | 160 |
-| Grezzi citati da almeno una nota | **51** |
-| Grezzi restanti | **109** |
-
-⚠️ **Il vault è identico a quello con cui 3B ha chiuso**: questo gate non ha toccato nessuna
-nota. Tutto ciò che è cambiato sta negli **strumenti** e nei **registri**.
+| Grezzi citati da almeno una nota | **54** |
+| Grezzi restanti | **106** |
 
 ### Le altre misure di chiusura, ognuna con la sua ora (E44)
 
 | Misura | Valore | Quando |
 |---|---|---|
-| **QA a perimetro vault** | **111 ERRORI, 298 AVVISI** | 23:20 |
-| di cui grezzi non ancora canonizzati | **109** | |
+| **QA a perimetro lotto** | **0 ERRORI, 65 avvisi** — 61 note controllate | 01:09 |
+| **QA a perimetro vault** | **108 ERRORI, 344 avvisi** | 01:10 |
+| di cui grezzi non ancora canonizzati | **106** | |
 | di cui aree senza hub | **2** | |
 | di cui **rilievi di merito** | **0** | |
-| ⚠️ avvisi **286 → 298** | **+14** debiti dell'intestazione, **−2** falsi positivi rimossi | |
-| **Collaudi** | **10 su 10** — tre nuovi: `intestazione` (8 casi), `lotti_chiusi` (8), `copie_stato` (5) | 23:19 |
-| **Emendamenti** | registro e manuale **concordano a 61** | 23:23 |
-| **Copie di stato** | **4 su 4 concordi col padrone** | 23:23 |
-| **Matrice** | completa e disgiunta: 160 grezzi, **27 elenchi** | 23:23 |
-| **Tracciamento** | **158 righe** — 7 riconciliate · 73 aperte dichiarate · **19 chiuse** · 59 tracciate | 23:23 |
+| **Collaudi** | **10 su 10** | 01:10 |
+| **Emendamenti** | registro e manuale **concordano a 61** | 01:10 |
+| **Copie di stato** | **4 su 4** concordi col padrone | 01:10 |
+| **Matrice** | completa e disgiunta — **lotti chiusi: 11** | 01:10 |
+| **Tracciamento** | **167 righe**, da T1 a T167 | 01:10 |
 
-### ⚠️ Il censimento del gate 3B: le copie di stato, e una superficie che era il buco più vecchio
+⚠️ **Il vault scende da 111 a 108 errori**, ed è esattamente ciò che 3D ha fatto: tre grezzi
+canonizzati. **Zero rilievi di merito.**
 
-| | Che cosa | Esito |
-|---|---|---|
-| **copie di stato** | passata su tutti i **38** script | **3 sostituzioni**, più le 2 già riparate il 22-23/08; **4 vocabolari** del manuale ora **confrontati** col padrone da `verifica_copie_stato.py` |
-| **superfici** | sonda con difetto piantato, controllo per controllo | ⛔ **`qa_provenance` non guardava `title` e `summary`**: un numero inventato lì passava la QA a **verde**, e il vault ne portava **quattordici** |
+### ⚠️ Che cosa il lotto 3D ha trovato, e che il gate deve pesare
 
-⚠️ **Cinque emendamenti dichiarano l'intestazione portante — E18, E30, E39, E42, E51 — e
-nessuno dei cinque aveva uno strato deterministico dietro.** ⚠️ **Ed è durato tanto per la sua
-FORMA**: `qa_provenance` e `metodo_03` §7.1 **concordavano**, entrambi dicevano «dal corpo della
-nota». **Non c'era nessuna divergenza fra codice e manuale da trovare**: la lacuna stava fra due
-dichiarazioni del progetto che nessuno aveva mai messo una accanto all'altra. **Un difetto che
-non è una contraddizione non si trova rileggendo: si trova facendo l'elenco** (§4.49).
-
-⚠️ **La copia peggiore era la più silenziosa**: `ricalibra_budget.py` teneva due tabelle a mano
-**ferme al 19/08** e **nessuno lo lanciava** — uno strumento che non mente mai a voce alta
-perché non parla mai. Riscritto: legge tutto, e **dichiara lo scarto** (133 note su 512
-appartengono a più di un lotto chiuso).
+| | |
+|---|---|
+| ⛔ **Il documento che l'archivio dichiarava di non avere** | una questione del 19/08 elencava fra le cose che servivano «la mail automatica di notifica della segnalazione, **che l'archivio non contiene**»: l'archivio la contiene, ed è il primo grezzo di 3D. **E3 pagato per la QUINTA volta**, con una forma che **E43 non poteva prendere** — l'assenza non usa la formula di attestazione. **T161** |
+| ⛔ **Il documento arriva e la divergenza si allarga** | la notifica dice `18:23:47`, **la prima mail interna dice 13:05** — ed è **anteriore** alla notifica che descrive. **T5 non si chiude** |
+| ⛔ **Tre qualificazioni, e forse due scale** | Classe 2 / `CRITICO` / «GRAVE», e **la scheda non dichiara di applicare `PRO-QA-08`**: cita il paragrafo di **un'altra procedura**. **T159**, obbligo esplicito per 3E |
+| ⛔ **`PRO-QA-11` compare in un file su 160** | e il documento che governa il ritiro **ne usa un altro**, `PRO-QA-14`, secondo il manuale HACCP. **T163** |
+| ⛔ **`PRO-QA-08` designa DUE procedure** | i reclami e la rintracciabilità del `PRP-09`. **T164**, e classe C della tabella alias |
+| ⛔ **Un obbligo del canone non eseguito** | D4 chiedeva a 3D di aggiungere una riga a una nota. **Né la QA né il giudice potevano prenderlo**: la prima non legge il canone, il secondo non lo riceve per costruzione |
+| ⚠️ **Lo SLUG è una superficie, e nessun controllo la guarda** | il nome del file ha continuato ad affermare «a voce» dopo che titolo, summary e corpo erano corretti. **Si scrive prima del titolo e non si corregge mai** |
+| ⚠️ **Una correzione che AGGIUNGE UNA FONTE cambia il perimetro di verità della nota** | tre casi: aggiungere una fonte ha reso **false** frasi che c'erano già. **E61 guarda avanti; qui serviva guardare indietro** |
+| ⚠️ **La metà di E59 che in apertura non si può fare, alla chiusura si fa** | e il dominio la supera su tutte e nove le espressioni |
+| ⚠️ **Il contrario della sovra-atomizzazione, secondo lotto di fila** | due paragrafi numerati **senza nessuna nota**, uno con **la definizione di reclamo chiuso** |
 
 ### Il metodo: 61 emendamenti, e nessun candidato in sospeso
 
 **E59** la dichiarazione del dominio si collauda prima della misura · **E60** E2 ha l'artefatto
 d'apertura e il passo pre-giudizio · **E61** una correzione è una scrittura.
 
-⚠️ **Tutti e tre danno un APPIGLIO MECCANICO a una regola già in vigore che veniva affidata
-alla diligenza**, e in tutti e tre i casi il consuntivo dice che la diligenza aveva già
-fallito. **Nessuno dei tre introduce una regola nuova sul contenuto delle note.**
+⚠️ **Due dei tre strumenti che E59 ed E60 prescrivono NON esistevano**, e sono stati costruiti
+in apertura di 3D: `grandezze_condivise.py` e `collauda_dominio.py`. **Una regola che prescrive
+uno strumento inesistente è una regola che si applica a mano.**
 
-⚠️ **E60 CHIEDE UNO SCRIPT CHE NON ESISTE ANCORA**: l'artefatto delle **grandezze condivise** in
-apertura — codici, entità, date e importi comuni fra i grezzi del lotto e fra il lotto e il
-vault. **Va costruito prima di aprire 3D**, che è il primo lotto tenuto a usarlo.
+### PROSSIMO ATTO: il gate del lotto 3D
 
-### PROSSIMO ATTO: il lotto 3D — i reclami
+Nove punti da pesare, nel §9 di `rapporto_lotto_03d.md`. **Poi `3E`** — crisi e ispezioni, che
+chiude il tema 3 e porta il documento su cui pendono **due obblighi espliciti** (T159 e T163) —
+**e `R2`**, la manutenzione nata dallo spezzamento.
 
-Ciclo intero di `prompt_s4_lotti.txt` §3, dalla **PARTE 5** di
-`prompt\prompt_gate_3b_lotto_3d.txt`. Tre grezzi: `PRO-QA-08_gestione_reclami_cliente_rev2.docx`,
-la segnalazione del cliente privato, la catena `Fwd_Fwd_Fwd_…RASFF.eml`.
-
-| Che cosa porta | |
-|---|---|
-| **T146** | il **`PRO-QA-08`** che la politica nomina nell'impegno 6 e di cui nessuna nota può ancora dire nulla. **E37 scatta**: è una fonte prescrittiva |
-| **T5 e T6** | il reclamo **`REC-2026-011`** si riapre — data di apertura e ora della segnalazione dal form del sito |
-| **tre barrati sostanziali** | in `PRO-QA-08`: i reclami dei fornitori, la comunicazione al titolare per le classi 1 e 2, il laboratorio interno |
-| **il primo lotto sotto E59** | la dichiarazione del dominio si **collauda** prima della misura, e il rapporto dichiara l'esito **espressione per espressione** |
-| **il primo lotto sotto E60** | artefatto delle grandezze condivise in apertura, rilettura contro le note vicine prima del giudizio |
 ---
 
 ## 4. La giurisprudenza — i criteri con cui si giudica ai gate

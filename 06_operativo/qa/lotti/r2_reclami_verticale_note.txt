@@ -1,0 +1,77 @@
+# Note RIAPERTE dal lotto lotto_03d_reclami — riconciliazione verticale ARRETRATA (E37).
+# GENERATO da 06_operativo\candidate_r1.py --dominio reclami il 2026-08-23.
+# Criterio: la nota parla di il ciclo del reclamo di cliente e consumatore: ricezione e protocollo, classificazione e tempi, verifiche immediate sul lotto, indagine della causa radice, campione reso, comunicazione, azioni correttive e indicatori,
+# e fra le sue fonti non c'e' nessuna delle fonti che governano quel
+# dominio: PRO-QA-08_gestione_reclami_cliente_rev2.docx.
+# Non si edita a mano: si rilancia lo script.
+area-commerciale
+area-direzione
+area-manutenzione
+area-qualita
+fatto-avvertenza-costruttore-guarnizioni-non-originali
+fatto-condizioni-uso-marchio-brcgs
+fatto-convalida-md-1800-scaduta
+fatto-cruscotto-colonne-mai-calcolate
+fatto-decisione-proseguire-valvola-08-05
+fatto-fermo-forno-ft-01-05-05
+fatto-giro-di-vite-seconde-firme-ccp3
+fatto-ispezione-ats-carrello-ricambi
+fatto-maggio-fuori-scala
+fatto-microperdite-saldatura-l26130
+fatto-modulo-nc-acqua-riconciliato
+fatto-nc-102-origine-interna
+fatto-nc-cip-2026
+fatto-nessuna-nc-per-allarmi-cf-02
+fatto-operatore-senza-formazione-haccp-l26130
+fatto-politica-cultura-sicurezza-alimentare
+fatto-politica-otto-impegni-e-il-nono-ritirato
+fatto-preventivo-potenza-630-kw-tunnel
+fatto-prodotto-non-segregato-deviazione-ccp2
+fatto-quaderno-capoturno-linea1
+fatto-rework-linea-1-sospeso
+fatto-riparazione-guarnizione-non-originale
+fatto-riunione-direzione-reclamo-l26130
+fatto-verifiche-ccp3-turno-l26130
+questione-carrello-ricambi-dichiarato-rimosso
+questione-cruscotto-e-obiettivi-non-si-mappano
+questione-data-riunione-direzione
+questione-materiale-guarnizione-pkm-450
+questione-nc-interne-registrate-su-mod-qa-31
+questione-nc-lavaggi-sul-modulo-reclami
+questione-posizione-md-3200-in-linea
+concetto-fefo
+kpi-indicatori-2025-consuntivo
+kpi-indicatori-mensili-2026
+kpi-obiettivi-2026-avanzamento
+kpi-obiettivi-politica-2026
+kpi-pareto-cause-nc-2026
+kpi-reclami-2025
+kpi-registro-reclami-2026
+kpi-seconde-firme-ccp3-maggio
+questione-aw-umidita-af-sn-0450
+doc-conferma-incarico-audit-rinnovo-2026
+doc-cruscotto-kpi-2026
+doc-gestione-deviazioni-haccp
+doc-gestione-reclami-haccp
+doc-limite-o2-residuo-af-sn-0450
+doc-riesame-direzione-2026
+doc-validazione-pulizia-allergeni
+entita-analytica-veneta
+entita-elena-marchetti
+entita-ivano-dal-maso
+entita-tosano-cerea
+lotto-l26130
+macchina-md-3200
+prodotto-af-sn-0450
+fatto-blocco-cautelativo-lotti
+fatto-misura-frammento-rec-2026-011
+fatto-richiesta-relazione-48-ore
+progetto-gestione-reclamo-rec-2026-011
+questione-data-apertura-rec-2026-011
+questione-misura-frammento-strumentale
+# --- da qui in giu': note toccate in corso di lotto (E32) ---
+# Preesistenti, che il lotto modifica senza citarne i grezzi.
+# --- da qui in giu': note NATE in questo lotto ---
+# Si dichiarano QUANDO SI CREANO, non si deducono a fine lotto: e'
+# la stessa disciplina di E32 applicata alle note nuove, e serve a
+# conta_perimetro_lotto.py, che i numeri del perimetro li legge da qui.

@@ -1,0 +1,2309 @@
+Giudichi note di un archivio aziendale rispetto ai documenti che dichiarano come
+fonte. Non devi migliorare le note, non devi riscriverle e non devi rispondere
+alle domande che pongono: devi giudicare se stanno in piedi sulle loro fonti.
+
+Per ogni nota ricevi: il nome, il corpo integrale, l'elenco delle fonti che
+dichiara e il testo estratto di ciascuna di quelle fonti.
+
+Rispondi SOLO a queste tre domande, in quest'ordine:
+1. Ogni fonte elencata contribuisce davvero alla nota? Una fonte che non sorregge
+   nessuna affermazione e' rumore nel payload, e va segnalata.
+2. La nota afferma qualcosa che le fonti non dicono, pur senza numeri? Cerca le
+   affermazioni qualitative: cause, intenzioni, conseguenze, attribuzioni di una
+   frase a una persona, giudizi di conformita'. I numeri, le date e i codici NON
+   sono affar tuo: li ha gia' verificati lo strato deterministico.
+
+3. Esiste, FRA LE FONTI CHE HAI RICEVUTO IN QUESTO PACCHETTO, un documento che
+   misura o afferma la stessa grandezza di cui la nota parla, e che la nota NON
+   cita? Non e' un difetto di provenienza: e' una lacuna di copertura. La segnali
+   FUORI dal verdetto, in coda alla risposta, dicendo quale nota e quale
+   documento, e NON cambi per questo l'esito della nota.
+
+Assegna a ogni nota esattamente un esito:
+- `pulita` — ogni fonte contribuisce e nessuna affermazione eccede le fonti
+- `fonte_inutile` — almeno una fonte elencata non sorregge nulla
+- `afferma_oltre` — almeno un'affermazione non ha riscontro nelle fonti citate
+- `entrambi` — sia una fonte inutile sia un'affermazione che eccede
+
+Restituisci UNA riga JSON per nota, con esattamente questi campi:
+`nota`, `esito`, `motivazione` (una riga sola, che cita l'affermazione o la fonte
+esatta a cui ti riferisci).
+
+Regole che non puoi violare:
+- Non essere generoso: se un'affermazione non e' ritrovabile leggendo le fonti,
+  non e' fondata anche se e' plausibile e ben scritta.
+- Un'inferenza DICHIARATA come tale («i due documenti, letti insieme, mostrano
+  che…», «la trascrizione non lo afferma: e' un'attribuzione») e' legittima e non
+  si segnala. E' l'inferenza fatta passare per dato della fonte che si segnala.
+- Una nota che riporta due valori divergenti senza sceglierne uno sta facendo il
+  suo mestiere: non e' un difetto, e non si segnala.
+- Non proponi correzioni e non riscrivi niente. Riporti, e basta.
+- Non ricevi il canone e non devi cercarlo: confronti la nota contro le sue
+  fonti, punto. Il giudizio sulla copertura dei fatti spetta a un altro ruolo.
+- La terza domanda non ti autorizza a giudicare la copertura dell'archivio: ti
+  chiede solo di segnalare cio' che hai gia' sotto gli occhi dentro il pacchetto.
+  Se un documento non e' nel pacchetto, per te non esiste.
+
+
+======================================================================
+PROMPT v2 del 2026-08-18 — non modificarlo per questo lotto.\n
+======================================================================
+
+======================================================================
+FETTA 4 DI 4 — 10 note da giudicare.
+Giudichi SOLO le note di questa fetta, contro le fonti in coda a questo
+file. ⚠️ Se l'appendice delle fonti mancasse o non contenesse i documenti
+che le note citano, DICHIARA L'INGRESSO DEGRADATO e non emettere verdetti:
+è un esito legittimo e vale più di un verdetto costruito sul nulla.
+======================================================================
+
+----------------------------------------------------------------------
+>>>>> NOTA DA GIUDICARE: doc-pro-qa-08.md
+----------------------------------------------------------------------
+---
+title: "PRO-QA-08: la procedura che governa i reclami di cliente e consumatore"
+summary: "La rev. 2 del 14/03/2026 definisce come Aurora riceve, registra, classifica, indaga e chiude i reclami di clienti e consumatori, e dichiara di recepire la NC 1 dell'audit CSQA di febbraio."
+type: atomica
+area: qualita
+tags: [docs, qualita, reclami, pro-qa-08, procedure]
+fonti:
+  - PRO-QA-08_gestione_reclami_cliente_rev2.docx
+stato: risolto
+aliases: ["PRO-QA-08", "la procedura reclami"]
+data_fatto: 2026-03-14
+data_nota: 2026-08-23
+related: "[[_index-docs]], [[area-qualita]], [[doc-gestione-reclami-haccp]], [[doc-classi-reclamo]], [[progetto-gestione-reclamo-rec-2026-011]]"
+---
+
+# PRO-QA-08 — la procedura dei reclami
+
+La procedura definisce come l'azienda **riceve, registra, classifica, indaga e chiude** i
+reclami che arrivano da clienti — GDO, grossisti, Ho.Re.Ca. — e da consumatori finali. Si
+applica ai prodotti fabbricati o confezionati nello stabilimento di Cologna Veneta, **a
+marchio Aurora e a marchio del cliente**, qualunque sia il canale di arrivo: comunicazione
+scritta, telefonata al commerciale, form del sito, agente di vendita, resi contestati al
+ricevimento.
+
+Restano **fuori** le contestazioni di natura solo amministrativa — differenze di prezzo,
+errori di fatturazione — che segue l'Amministrazione.
+
+## Le tre revisioni
+
+| Rev. | Data | Che cosa cambia | Approvata da |
+|---|---|---|---|
+| 0 | 10/06/2019 | prima emissione | G. Bertoldi |
+| 1 | 22/09/2023 | adeguamento a BRCGS Issue 9 e IFS v8; **la classificazione a quattro classi nasce qui** | M. Fantin |
+| 2 | 14/03/2026 | recepimento della NC 1 dell'audit CSQA di febbraio (§7.4); precisazioni su campione reso e comunicazione al consumatore | M. Fantin |
+
+La rev. 2 è **redatta** dalla responsabile qualità, **verificata** dalla consulente HACCP e
+**approvata** dal direttore di stabilimento.
+
+## Perché conta
+
+⚠️ **È la fonte che prescrive il ciclo del reclamo, e fino a questo lotto il vault non
+l'aveva.** Il manuale HACCP dedica ai reclami un capoverso solo — modulo, ventiquattro ore,
+reperto ([[doc-gestione-reclami-haccp]]) — mentre qui stanno i termini per classe, il metodo
+di indagine, la gestione del campione e gli indicatori.
+
+⚠️ **La procedura dichiara di recepire una non conformità, e la data lo colloca**: la NC 1
+è dell'audit del 17-18/02/2026, la rev. 2 è del 14/03/2026. La nota di revisione chiede la
+distribuzione in copia controllata **entro fine marzo**.
+
+⚠️ **Il documento porta tre passaggi barrati e sei annotazioni di revisione lasciate nel
+testo**: sono contenuto, non refusi, e stanno nelle note collegate.
+
+## Fonti
+
+- [[PRO-QA-08_gestione_reclami_cliente_rev2.docx]] — §1 «SCOPO» e §2 «CAMPO DI APPLICAZIONE»: i canali di ricezione e le esclusioni amministrative.
+- [[PRO-QA-08_gestione_reclami_cliente_rev2.docx]] — §12 «STATO DELLE REVISIONI»: le tre revisioni con date, descrizioni e approvatori.
+- [[PRO-QA-08_gestione_reclami_cliente_rev2.docx]] — §intestazione: «rev. 2», 14/03/2026, redatto Marchetti, verificato Vicentini, approvato Fantin.
+
+----------------------------------------------------------------------
+>>>>> NOTA DA GIUDICARE: doc-protocollo-reclami.md
+----------------------------------------------------------------------
+---
+title: "Come si apre un reclamo: chi lo inoltra, il protocollo REC e il modulo MOD-QA-31"
+summary: "Chiunque riceva un reclamo lo inoltra senza filtri al RSGQ, che entro 8 ore lavorative lo protocolla con numerazione progressiva annuale REC-AAAA-NNN, apre il MOD-QA-31 e lo classifica."
+type: atomica
+area: qualita
+tags: [docs, qualita, reclami, pro-qa-08, mod-qa-31, protocollo]
+fonti:
+  - PRO-QA-08_gestione_reclami_cliente_rev2.docx
+stato: risolto
+aliases: []
+data_nota: 2026-08-23
+related: "[[doc-pro-qa-08]], [[doc-classi-reclamo]], [[area-qualita]], [[progetto-gestione-reclamo-rec-2026-011]]"
+---
+
+# L'apertura di un reclamo, in quattro gesti
+
+**Chiunque** riceva un reclamo — centralino, commerciale, agente, sito web — lo inoltra
+**senza filtri** al RSGQ, all'indirizzo della qualità. Il RSGQ poi:
+
+1. **protocolla** il reclamo con numerazione **progressiva annuale**, nel formato
+   `REC-AAAA-NNN`;
+2. **apre il `MOD-QA-31`** compilandone la sezione A: dati del reclamante, prodotto, codice
+   articolo, EAN, lotto, data e luogo di acquisto, descrizione del difetto;
+3. **richiede al reclamante**, se mancano, la fotografia del prodotto, del lotto stampato e
+   del difetto;
+4. **classifica** il reclamo secondo la scala delle quattro classi.
+
+Il termine per l'insieme di questi gesti è di **8 ore lavorative** dalla ricezione.
+
+## Perché conta
+
+⚠️ **«Senza filtri» è una prescrizione, non un modo di dire**: la procedura toglie a chi
+riceve il reclamo ogni facoltà di valutarlo prima di inoltrarlo, e la stessa scelta torna in
+§8.2, dove al personale non autorizzato è vietato entrare nel merito col reclamante
+([[doc-comunicazione-consumatore]]).
+
+⚠️ **La numerazione è progressiva ANNUALE, e la procedura non dice su che cosa progredisca**:
+sulla data del reclamo, su quella del protocollo, o sull'ordine in cui le pratiche vengono
+aperte. È una lacuna che si vede nel registro, dove l'ordine dei numeri non segue quello
+delle date — vedi [[kpi-registro-reclami-2026]].
+
+## Fonti
+
+- [[PRO-QA-08_gestione_reclami_cliente_rev2.docx]] — §6.1 «Ricezione e registrazione (entro 8 ore lavorative)»: i quattro gesti del RSGQ e l'obbligo di inoltro senza filtri.
+
+----------------------------------------------------------------------
+>>>>> NOTA DA GIUDICARE: doc-responsabilita-reclami.md
+----------------------------------------------------------------------
+---
+title: "Chi fa che cosa in un reclamo: la matrice di responsabilità di PRO-QA-08"
+summary: "La procedura assegna dieci attività fra cinque ruoli con la scala responsabile-approva-collabora-informato: il RSGQ è responsabile di sei attività su dieci, e la decisione di ritiro è del Direttore di Stabilimento."
+type: atomica
+area: qualita
+tags: [docs, qualita, reclami, pro-qa-08, responsabilita, ruoli]
+fonti:
+  - PRO-QA-08_gestione_reclami_cliente_rev2.docx
+stato: risolto
+aliases: []
+data_nota: 2026-08-23
+related: "[[doc-pro-qa-08]], [[entita-elena-marchetti]], [[fatto-fantin-approva-le-azioni-correttive]], [[area-qualita]]"
+---
+
+# La matrice di responsabilità
+
+La legenda della procedura: **R** = responsabile, **A** = approva, **C** = collabora,
+**I** = informato.
+
+| Attività | RSGQ | Ass. Qualità | Dir. Commerciale | Resp. Produzione | Dir. Stabilimento |
+|---|---|---|---|---|---|
+| ricezione e protocollo | **R** | C | C | — | I |
+| apertura del modulo | **R** | C | I | — | — |
+| classificazione della gravità | **R** | C | — | — | I |
+| indagine sulla causa radice | **R** | C | — | C | I |
+| gestione del campione reso | C | **R** | — | — | — |
+| risposta scritta al cliente GDO | C | — | **R** | — | I |
+| risposta al consumatore finale | **R** | C | I | — | — |
+| azioni correttive | C | — | — | **R** | **A** |
+| verifica di efficacia | **R** | C | — | — | I |
+| decisione di ritiro o richiamo | C | — | C | — | **R** |
+
+## Perché conta
+
+⚠️ **Il RSGQ è responsabile di sei attività su dieci** *(contate)*, e nelle altre quattro
+compare come **collaboratore**: campione reso, risposta al cliente GDO, azioni correttive,
+decisione di ritiro. ⚠️ **Non è mai «informato» e non approva mai nulla**: è dentro tutte e
+dieci le righe, in uno dei due ruoli operativi.
+
+⚠️ **La decisione di ritiro è del Direttore di Stabilimento, e la qualità vi collabora
+soltanto.** È il punto in cui la procedura separa l'accertamento tecnico dalla decisione
+industriale, e la separazione è dichiarata nella matrice prima ancora che nel testo.
+
+⚠️ **Le azioni correttive hanno una R e una A distinte** — responsabile la Produzione,
+approva il Direttore di Stabilimento — ed è l'unica riga della tabella in cui compaiono
+entrambe. Come ci sia arrivata lo dice un'annotazione di revisione lasciata nel documento:
+vedi [[fatto-fantin-approva-le-azioni-correttive]].
+
+## Fonti
+
+- [[PRO-QA-08_gestione_reclami_cliente_rev2.docx]] — §4 «RESPONSABILITÀ»: la legenda e la matrice delle dieci attività per cinque ruoli.
+
+----------------------------------------------------------------------
+>>>>> NOTA DA GIUDICARE: doc-seconda-firma-indagine.md
+----------------------------------------------------------------------
+---
+title: "PRO-QA-08 §7.4: la seconda firma sulle registrazioni CCP riesaminate in un'indagine"
+summary: "Dopo la NC 1 dell'audit CSQA del 17-18/02/2026, tutte le registrazioni manuali dei CCP riesaminate in un'indagine devono portare la verifica in seconda firma del capoturno entro fine turno, e la sua assenza è essa stessa una non conformità interna."
+type: atomica
+area: qualita
+tags: [docs, qualita, reclami, pro-qa-08, seconda-firma, ccp, non-conformita]
+fonti:
+  - PRO-QA-08_gestione_reclami_cliente_rev2.docx
+stato: risolto
+aliases: []
+data_fatto: 2026-03-14
+data_nota: 2026-08-23
+related: "[[doc-pro-qa-08]], [[fatto-giro-di-vite-seconde-firme-ccp3]], [[fatto-nc1-seconde-firme-undici-moduli-su-venti]], [[area-qualita]]"
+---
+
+# La seconda firma, e perché sta nella procedura dei reclami
+
+Il paragrafo dichiara la propria origine: **a seguito della NC 1 dell'audit CSQA del
+17-18/02/2026**, tutte le registrazioni manuali dei CCP riesaminate nel corso di un'indagine
+su reclamo **devono riportare la verifica in seconda firma del capoturno entro fine turno**.
+
+E aggiunge una conseguenza: **l'assenza della seconda firma su una registrazione oggetto di
+indagine è essa stessa una non conformità interna**, da registrare e trattare secondo la
+`PRO-QA-05`.
+
+## Perché conta
+
+⚠️ **È il punto in cui una non conformità d'audit diventa una regola di procedura, e la
+procedura lo dichiara.** La rev. 2 esiste per questo: la nota di revisione in testa al
+documento dice che recepisce la NC 1 «al par. 7.4».
+
+⚠️ **La regola trasforma una lacuna documentale in un evento da registrare.** Prima, una
+registrazione senza seconda firma era un modulo incompleto; dopo il 14/03/2026, se quella
+registrazione finisce in un'indagine su reclamo, è **una non conformità interna** — cioè un
+fatto che entra a sua volta in un registro.
+
+⚠️ **Il perimetro è più stretto di quanto sembri, e va letto con attenzione**: la regola vale
+per le registrazioni **riesaminate nel corso dell'indagine**, non per tutte le registrazioni
+manuali dei CCP. Il giro di vite generale sulle seconde firme è un fatto diverso e sta in
+[[fatto-giro-di-vite-seconde-firme-ccp3]].
+
+## Fonti
+
+- [[PRO-QA-08_gestione_reclami_cliente_rev2.docx]] — §7.4 «Verifica delle registrazioni in seconda firma»: l'origine nella NC 1, l'obbligo entro fine turno e la qualificazione dell'assenza come non conformità interna.
+
+----------------------------------------------------------------------
+>>>>> NOTA DA GIUDICARE: doc-verifiche-immediate-reclamo.md
+----------------------------------------------------------------------
+---
+title: "Le cinque verifiche immediate che PRO-QA-08 impone entro 24 ore sulle classi 1 e 2"
+summary: "Sui reclami di classe 1 e 2 il RSGQ verifica la rintracciabilità del lotto, riesamina le registrazioni di produzione e controllo, blocca cautelativamente la giacenza con cartellino giallo, riesamina i campioni di riserva e, per la classe 1, convoca il team HACCP."
+type: atomica
+area: qualita
+tags: [docs, qualita, reclami, pro-qa-08, rintracciabilita, blocco-lotti]
+fonti:
+  - PRO-QA-08_gestione_reclami_cliente_rev2.docx
+stato: risolto
+aliases: []
+data_nota: 2026-08-23
+related: "[[doc-pro-qa-08]], [[doc-classi-reclamo]], [[fatto-blocco-cautelativo-lotti]], [[area-qualita]]"
+---
+
+# Le verifiche immediate, entro 24 ore
+
+Per i reclami di **classe 1 e 2**, il RSGQ con l'Assistente Qualità:
+
+1. **verifica la rintracciabilità** del lotto su `MOD-MAG-02`: quantità prodotta, spedita,
+   giacenza residua, clienti destinatari;
+2. **estrae e riesamina le registrazioni** di produzione e controllo del lotto — `MOD-QA-12`
+   per il CCP2, `MOD-QA-07` rev. 5 per il CCP3, `MOD-PR-04` per i fermi macchina, e le
+   registrazioni del lavaggio CIP;
+3. **blocca cautelativamente** l'eventuale giacenza a magazzino, con **cartellino giallo**
+   `NON CONFORME`;
+4. **preleva e riesamina i campioni di riserva** del lotto, conservati a temperatura di
+   esercizio per la shelf life più un mese;
+5. per la **classe 1**, informa la direzione e **convoca il team HACCP** per valutare
+   l'attivazione della `PRO-QA-11`.
+
+## Perché conta
+
+⚠️ **Il blocco cautelativo è prescritto, non discrezionale**, ed è dovuto già in classe 2:
+non aspetta l'esito dell'indagine né una decisione di ritiro. Il caso in cui l'azienda lo ha
+applicato sta in [[fatto-blocco-cautelativo-lotti]].
+
+⚠️ **Il punto 5 è il ponte verso la procedura di ritiro, e la nomina senza contenerla**: che
+cosa comporti l'attivazione della `PRO-QA-11` questa procedura non lo dice, e il documento
+che lo dice non è ancora nel perimetro di questo vault.
+
+## Fonti
+
+- [[PRO-QA-08_gestione_reclami_cliente_rev2.docx]] — §6.2 «Verifiche immediate (entro 24 ore per classi 1 e 2)»: i cinque adempimenti, i moduli nominati e il cartellino giallo.
+
+----------------------------------------------------------------------
+>>>>> NOTA DA GIUDICARE: entita-federalimentare-veneto.md
+----------------------------------------------------------------------
+---
+title: "Federalimentare Veneto — l'associazione di categoria che diffonde le allerte agli associati"
+summary: "Associazione di categoria con sede a Venezia Mestre, la cui area sicurezza alimentare diffonde agli associati circolari riservate sulle allerte RASFF: è il canale da cui l'allerta 2026.1467 è arrivata in Aurora."
+type: entita
+area: qualita
+tags: [entities, qualita, associazioni, allerte, rasff]
+fonti:
+  - Fwd_Fwd_Fwd_ATTENZIONE_richiamo_prodotto_concorrente_RASFF.eml
+stato: risolto
+aliases: ["Federalimentare Veneto", "l'associazione di categoria"]
+data_nota: 2026-08-23
+related: "[[_index-entities]], [[fatto-allerta-rasff-2026-1467]], [[area-qualita]]"
+---
+
+# Federalimentare Veneto
+
+## Identificazione
+
+| | |
+|---|---|
+| che cos'è | associazione di categoria dell'industria alimentare |
+| articolazione nominata | **Area Sicurezza Alimentare** |
+| sede | Via Torino 151/C, **30172 Venezia Mestre (VE)** |
+| riferimento interno | dott.ssa Boscaro, interno 4 |
+| come comunica | **circolari agli associati**, numerate per anno |
+
+## Dove compare
+
+- [[fatto-allerta-rasff-2026-1467]] — la circolare **n. 2026/041** del 18 marzo 2026, che porta in Aurora la notifica RASFF sull'ossido di etilene.
+
+## Da non confondere con
+
+- **l'ente di certificazione**, che verifica il sistema qualità e non diffonde allerte;
+- **l'autorità sanitaria**, che pubblica gli avvisi di sicurezza: la circolare **rimanda** al sito del Ministero, non lo sostituisce.
+
+## Questioni aperte
+
+Nessuna. L'archivio porta di questa entità un solo documento.
+
+## Perché conta
+
+⚠️ **È un canale di sorveglianza, non una fonte prescrittiva**: le sue circolari
+**raccomandano**, e la circolare stessa lo scrive — «si raccomanda agli associati di». Ciò
+che ne discende in azienda è una decisione aziendale, non un obbligo dell'associazione.
+
+⚠️ **La circolare è dichiarata riservata agli associati**, con divieto di diffusione a terzi
+senza autorizzazione: è un'informazione che entra in azienda con un vincolo dichiarato.
+
+## Fonti
+
+- [[Fwd_Fwd_Fwd_ATTENZIONE_richiamo_prodotto_concorrente_RASFF.eml]] — corpo del messaggio del 18/03, intestazione e piè di firma della circolare: l'Area Sicurezza Alimentare, la numerazione «CIRCOLARE ASSOCIATI n. 2026/041», la sede di Venezia Mestre, il riferimento interno e la clausola di riservatezza agli associati.
+
+----------------------------------------------------------------------
+>>>>> NOTA DA GIUDICARE: kpi-registro-reclami-2026.md
+----------------------------------------------------------------------
+---
+title: "Dieci reclami nei primi cinque mesi del 2026, e i quattro aperti nascono dallo stesso lotto"
+summary: "Il registro porta dieci reclami da gennaio a maggio: i primi sei sono chiusi, e i quattro aperti — due da consumatore e due da cliente GDO — nascono dal lotto L26130 della referenza AF-SN-0450."
+type: atomica
+area: qualita
+tags: [data, qualita, reclami, 2026, corpo-estraneo, l26130]
+fonti:
+  - cruscotto_KPI_qualita_2026.xlsx
+  - verbale_riesame_direzione_SGQ_2026.txt
+  - segnalazione_qualita_cliente_privato_corpo_estraneo.txt
+stato: aperto
+aliases: []
+data_fatto: 2026-05-19
+data_nota: 2026-08-21
+related: "[[lotto-l26130]], [[progetto-gestione-reclamo-rec-2026-011]], [[kpi-reclami-2025]], [[questione-referenza-del-secondo-reclamo]], [[questione-classe-del-reclamo-rec-2026-011]], [[area-qualita]]"
+---
+
+# I dieci reclami del 2026
+
+| N. | Data | Origine | Prodotto / lotto | Tipologia | Gravità | Stato |
+|---|---|---|---|---|---|---|
+| 1 | 14/01 | GDO Tosano | `AF-CR-0215` | peso sotto tolleranza | minore | chiuso |
+| 2 | 03/02 | consumatore, **form sito** | `AF-SN-0450` | confezione non sigillata | minore | chiuso |
+| 3 | 22/02 | GDO Alì | `AF-FC-0330` | muffa a 5 gg dal TMC | maggiore | chiuso |
+| 4 | 11/03 | GDO Tosano | `AF-CR-0215` | sfogliatura irregolare | minore | chiuso |
+| 5 | 29/03 | consumatore, centralino | `AF-SN-0450` | prodotto troppo salato | minore | chiuso |
+| 6 | 18/04 | GDO Rossetto | `AF-FC-0330` | cartone bagnato | minore | chiuso |
+| **7** | **12/05** | consumatore, **form sito** | `AF-SN-0450` `L26130-L1-T2` | **corpo estraneo, plastica dura azzurra** | **CRITICO** | **aperto** |
+| **8** | **15/05** | consumatore, **form sito** | `AF-SN-0450` `L26130-L1-T2` | corpo estraneo, frammento rigido | **CRITICO** | **aperto** |
+| **9** | **14/05** | GDO Tosano | `L26130 / L26131` | richiesta relazione formale 48 h | **CRITICO** | **aperto** |
+| **10** | **19/05** | GDO Alì | `L26130-L1-T2` | blocco cautelativo in CE.DI. | maggiore | **aperto** |
+
+## Due cose che la tabella mostra da sola
+
+⚠️ **I quattro reclami aperti nascono dallo stesso lotto**, fra il 12/05 e il 19/05 — con il
+nono che ne affianca un secondo, `L26131`. **Tre sono
+critici**, e nel 2025 i reclami con corpo estraneo erano stati **quattro in tutto l'anno**
+([[kpi-reclami-2025]]).
+
+⚠️ **E l'ordine delle date non è quello dei numeri**: il reclamo **9** è del **14/05** e il
+reclamo **8** del **15/05**. La numerazione **non segue la data del reclamo** — segue, forse,
+l'ordine di registrazione. **Il registro non lo dichiara.**
+
+## ⚠️ Due righe che una fonte del lotto 3D mette in discussione
+
+| Riga | Che cosa dice il registro | Che cosa dice la corrispondenza interna |
+|---|---|---|
+| **7**, 12/05 | gravità **`CRITICO`** | la scheda del reclamo lo classifica **Classe 2** — vedi [[questione-classe-del-reclamo-rec-2026-011]] |
+| **8**, 15/05 | prodotto **`AF-SN-0450`**, lotto **`L26130-L1-T2`** | la responsabile qualità lo attribuisce alla **`AF-SN-0455`** del formato promozionale, e **il segnalante dichiara di non ricordare il lotto** — vedi [[questione-referenza-del-secondo-reclamo]] |
+
+## I pezzi coinvolti
+
+⚠️ **I due reclami da consumatore valgono un pezzo ciascuno; quello del cliente ne conta 9.360 e
+quello del blocco cautelativo 1.440.** La gravità «CRITICO» è la stessa, la scala no.
+
+## Fonti
+
+- [[segnalazione_qualita_cliente_privato_corpo_estraneo.txt]] — §messaggio del 15/05 ore 22:31: «formato promo 3+1 (quindi AF-SN-0455, stessa linea, stessi giorni)», e l'apertura di `REC-2026-012` collegata alla `011`.
+- [[segnalazione_qualita_cliente_privato_corpo_estraneo.txt]] — §messaggio del 15/05 ore 22:31: «formato promo 3+1 (quindi AF-SN-0455, stessa linea, stessi giorni)», e l'apertura di `REC-2026-012` collegata alla `011`.
+- [[verbale_riesame_direzione_SGQ_2026.txt]] — §4.1, «Ripartizione 2025:  corpo estraneo 4 - confezionamento 17 - organolettici».
+- [[cruscotto_KPI_qualita_2026.xlsx]] — foglio «Reclami», riga 1 «Registro reclami cliente e consumatore 2026», riga 5 l'intestazione «N. Data Origine Cliente / consumatore Prodotto Lotto Tipologia Gravità Pz coinvolti Stato Chiuso il gg aperto» e le dieci righe da «1 14/01/2026 cliente GDO Tosano Cerea SpA» a «10 19/05/2026 cliente GDO Alì SpA AF-SN-0450 L26130-L1-T2 blocco cautelativo merce in CE.DI. maggiore 1440 aperto».
+
+----------------------------------------------------------------------
+>>>>> NOTA DA GIUDICARE: questione-classe-del-reclamo-rec-2026-011.md
+----------------------------------------------------------------------
+---
+title: "REC-2026-011 è di classe 2, critico o grave? Tre qualificazioni, e forse due scale diverse"
+summary: "La scheda del reclamo classifica REC-2026-011 come Classe 2 citando il paragrafo di un'altra procedura, il registro del cruscotto lo segna CRITICO e la prima mail interna lo dice GRAVE: tre qualificazioni, e non è certo che si riferiscano alla stessa scala."
+type: conflitto
+area: qualita
+tags: [data, conflitto, qualita, reclami, rec-2026-011, classificazione, termini]
+fonti:
+  - MOD-QA-31_reclamo_REC-2026-011.pdf
+  - RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml
+  - cruscotto_KPI_qualita_2026.xlsx
+  - PRO-QA-08_gestione_reclami_cliente_rev2.docx
+stato: aperto
+aliases: []
+data_fatto: 2026-05-12
+data_nota: 2026-08-23
+related: "[[doc-classi-reclamo]], [[progetto-gestione-reclamo-rec-2026-011]], [[kpi-registro-reclami-2026]], [[area-qualita]]"
+---
+
+# Di che classe è il reclamo per corpo estraneo?
+
+## Le versioni a confronto
+
+| Fonte | Cosa dice | Locator | Che peso ha |
+|---|---|---|---|
+| Scheda di gestione del reclamo | **Classe 2**, e la attribuisce al **par. 4 di un'ALTRA procedura**, non a `PRO-QA-08` | pag. 1, §intestazione «Classificazione» e §5 «Valutazione del rischio» | È il modulo che `PRO-QA-08` indica come **il documento della pratica**, e la classificazione è un adempimento del RSGQ |
+| Registro dei reclami del cruscotto, reclamo n. 7 | **CRITICO** | foglio «Reclami», riga 12 | È il registro che alimenta gli indicatori e il riesame della direzione |
+| Mail interna del 12/05, ore 14:33 | un reclamo «che classifico come **GRAVE** ai sensi della procedura reclami» | corpo del messaggio del 12/05 | È la prima qualificazione scritta, dalla stessa persona, **poche ore dopo l'arrivo** |
+
+## ⚠️ E c'è un terzo scarto, che riguarda quale procedura si stia applicando
+
+La scheda del reclamo **non dichiara di classificare secondo `PRO-QA-08`**: attribuisce la
+scala al **par. 4 di un'altra procedura**, che nomina per sigla, e lo fa due volte — in
+intestazione e nella valutazione del rischio.
+
+⚠️ **Quel documento non è ancora nel vault**, e questa nota quindi **non dice nulla di ciò
+che contiene**: né se porti una scala a quattro classi, né se coincida con quella di
+`PRO-QA-08`, né quale delle due sia in vigore. Dice solo ciò che la scheda dichiara di
+applicare.
+
+⚠️ **Ma cambia la forma della questione**: non è detto che le due fonti stiano leggendo la
+stessa scala in due modi. Potrebbero star applicando **due scale diverse**, e in quel caso
+la domanda non è quale classe sia giusta — è quale procedura governi la classificazione
+dei reclami.
+
+## Perché le due parole non sono sinonimi
+
+⚠️ **La procedura dà alle due parole due significati distinti, con termini distinti**, e la
+scala che usa il cruscotto — minore, maggiore, CRITICO — **ricalca le prime tre classi**:
+
+| Classe | Denominazione nella procedura | Prima risposta | Chiusura |
+|---|---|---|---|
+| 1 | **Critico** | **4 ore** | immediata attivazione della `PRO-QA-11` |
+| 2 | **Maggiore** | 24 ore | 15 giorni lavorativi |
+| 3 | Minore | 3 giorni lavorativi | 30 giorni lavorativi |
+
+⚠️ **Che «CRITICO» del cruscotto sia la classe 1 della procedura è un'inferenza di questa
+nota, e va dichiarata come tale**: il cruscotto non nomina le classi, usa tre aggettivi di
+gravità che coincidono con le denominazioni delle prime tre. Nessun documento dell'archivio
+afferma la corrispondenza.
+
+## Perché non si sceglie
+
+Le due fonti sono di prima mano, hanno lo stesso autore dichiarato e **nessuna dichiara di
+correggere l'altra**. La scheda è il documento formale della pratica; il cruscotto è il
+documento su cui la direzione legge gli indicatori.
+
+⚠️ **E il criterio della procedura non scioglie il dubbio: lo colloca.** La classe 1 richiede
+un **corpo estraneo pericoloso**, la classe 2 un corpo estraneo **non pericoloso**. La scheda
+motiva la classe 2 con dimensione e bordi netti — cioè con gli attributi che, in un giudizio
+di pericolosità, spingerebbero nella direzione opposta. **La procedura non definisce
+«pericoloso» oltre l'aggettivo**, e lascia la valutazione a chi classifica.
+
+## Cosa servirebbe per chiuderla
+
+- Una **riclassificazione registrata**: la scheda prevede che la valutazione del rischio sia riesaminata, e un riesame verbalizzato direbbe quale delle due prevale.
+- Il **`MOD-QA-31` in versione aggiornata**, che l'archivio porta in una sola stesura.
+- Una **regola di conversione** fra la scala del cruscotto e le classi della procedura, che nessun documento dichiara.
+- La **procedura che la scheda cita al par. 4**, che il vault non ha ancora: finché non c'è, non si sa se le scale a confronto siano una o due.
+
+## Perché non è una questione di parole
+
+⚠️ **La classe è un calendario.** Fra classe 1 e classe 2 il termine di prima risposta passa
+da **4 ore a 24**, quello per protocollare da 4 a 8, quello per verificare le registrazioni
+del lotto da 12 a 48 ore. E la classe 1 fa scattare due obblighi che la 2 non ha: la
+**comunicazione immediata** ai tre vertici ([[fatto-classe-1-sempre-alla-direzione]]) e la
+**convocazione del team HACCP** per valutare l'attivazione della procedura di ritiro.
+
+⚠️ **Dichiarare la classe sbagliata non è un errore di etichetta: sposta i termini rispetto
+ai quali la pratica risulta in ritardo o in orario.**
+
+## Fonti
+
+- [[MOD-QA-31_reclamo_REC-2026-011.pdf]] — pag. 1, §intestazione: «Classificazione  Classe 2 (PRO-QA-14 par. 4) - corpo estraneo rigido non metallico»; §5 «Valutazione del rischio»: «Classificazione di gravita': Classe 2 ai sensi del par. 4 della PRO-QA-14».
+- [[RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml]] — corpo del messaggio del 12/05, ore 14:33: «un reclamo che classifico come GRAVE ai sensi della procedura reclami».
+- [[cruscotto_KPI_qualita_2026.xlsx]] — foglio «Reclami», riga 12: il reclamo del 12/05 da form sito con gravità `CRITICO`.
+- [[PRO-QA-08_gestione_reclami_cliente_rev2.docx]] — §5 «CLASSIFICAZIONE DEI RECLAMI»: la scala a quattro classi con denominazioni, criteri, esempi e i due tempi massimi.
+- [[PRO-QA-08_gestione_reclami_cliente_rev2.docx]] — §6.3 «Tempistiche di sintesi»: i termini per fase delle classi 1, 2 e 3.
+
+----------------------------------------------------------------------
+>>>>> NOTA DA GIUDICARE: questione-ora-di-arrivo-della-segnalazione.md
+----------------------------------------------------------------------
+---
+title: "A che ora è arrivata la segnalazione del 12/05: alle 13:05 o alle 18:23?"
+summary: "La mail interna del pomeriggio del 12/05 dichiara che il reclamo è arrivato dal form del sito alle 13:05, mentre la notifica automatica dello stesso form dichiara di essere stata inviata alle 18:23:47: le due ore non si conciliano e l'archivio non le spiega."
+type: conflitto
+area: qualita
+tags: [data, conflitto, qualita, reclami, rec-2026-011, date, form-sito]
+fonti:
+  - segnalazione_qualita_cliente_privato_corpo_estraneo.txt
+  - PRO-QA-08_gestione_reclami_cliente_rev2.docx
+  - MOD-QA-31_reclamo_REC-2026-011.pdf
+  - RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml
+  - trascrizione_riunione_direzione_12_05_2026.txt
+stato: aperto
+aliases: []
+data_fatto: 2026-05-12
+data_nota: 2026-08-23
+related: "[[fatto-segnalazione-dal-form-12-05]], [[questione-data-apertura-rec-2026-011]], [[progetto-gestione-reclamo-rec-2026-011]], [[area-qualita]]"
+---
+
+# A che ora è arrivata la segnalazione?
+
+## Le versioni a confronto
+
+| Fonte | Cosa dice | Locator | Che peso ha |
+|---|---|---|---|
+| Mail interna del 12/05, ore 14:33 | il reclamo «e' arrivato alle 13:05 dal form "contatti" del sito» | corpo del messaggio del 12/05 | È la prima comunicazione interna sul reclamo, scritta dalla responsabile qualità **lo stesso pomeriggio** |
+| Notifica automatica del form | `data invio: 2026-05-12 18:23:47 CEST` | §notifica automatica del 12/05 | È il messaggio **generato dal sistema**, non da una persona, e dichiara la propria ora nel proprio corpo |
+| Riunione di direzione | il reclamo è arrivato dal form «ieri sera alle 18 e 23» | [00:00:37], PARLANTE_3 | Riferisce a voce, il giorno dopo, e **concorda con la notifica**. ⚠️ Che chi parla sia la stessa persona che ha scritto la mail delle 14:33 è **un'inferenza**: la trascrizione dichiara in testa «parlanti non verificati» |
+
+## Perché non si sceglie
+
+**Le due ore distano cinque ore e diciotto minuti, e non è uno scarto di arrotondamento.**
+
+⚠️ **La difficoltà non è quale ora sia giusta: è che la mail delle 14:33 è ANTERIORE alla
+notifica.** Se la segnalazione fosse partita dal form alle 18:23, la comunicazione interna
+che la descrive — con il nome della segnalante, il prodotto, il lotto letto dalla foto e il
+punto vendita — sarebbe stata scritta **quasi quattro ore prima che il messaggio esistesse**.
+E quella comunicazione dichiara essa stessa che il reclamo è arrivato **dal form**.
+
+⚠️ **E l'intera catena interna del 12/05 sta prima delle 18:23**: la mail delle 14:33, la
+risposta del direttore di stabilimento delle 17:55, lo sfogo del titolare delle 22:40. Solo
+l'ultima è posteriore.
+
+Nessuna delle tre fonti dichiara di correggere le altre, e **nessuna afferma che le
+segnalazioni siano state due**. Le spiegazioni che si potrebbero immaginare — un secondo
+invio dallo stesso form, un ritardo del sistema di notifica, un'ora trascritta male — **non
+sono scritte da nessuna parte**, e una nota non le può assumere.
+
+## Cosa servirebbe per chiuderla
+
+- Il **log del server** del form, che registri gli invii con i loro orari.
+- Una **seconda notifica automatica** relativa alla stessa segnalante, che l'archivio non contiene.
+- Il `MOD-QA-31` con l'**ora** di ricezione: il modulo porta la data di apertura, non l'ora.
+
+## Perché non è una sottigliezza
+
+⚠️ **Dall'ora di ricezione decorrono i termini della procedura.** Il §6.1 dà **8 ore
+lavorative** per protocollare e classificare, e il §6.3 dà **4 ore** per la prima risposta di
+un reclamo di classe 1. Fra le 13:05 e le 18:23 dello stesso giorno c'è la differenza fra un
+termine che scade in giornata e uno che scade il mattino dopo.
+
+⚠️ **La data di apertura della pratica è una questione diversa e ha la sua padrona**:
+[[questione-data-apertura-rec-2026-011]]. Questa nota riguarda l'**arrivo**, non
+l'**apertura**.
+
+## Fonti
+
+- [[RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml]] — corpo del messaggio del 12/05, ore 14:33: «e' arrivato alle 13:05 dal form "contatti" del sito un reclamo».
+- [[segnalazione_qualita_cliente_privato_corpo_estraneo.txt]] — §notifica automatica del 12/05: `data invio: 2026-05-12 18:23:47 CEST`, e l'intestazione «Inviato: martedì 12 maggio 2026 18:23».
+- [[RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml]] — corpo del messaggio del 12/05, ore 17:55: la risposta del direttore di stabilimento, anteriore all'ora dichiarata dalla notifica.
+- [[PRO-QA-08_gestione_reclami_cliente_rev2.docx]] — §6.1 «Ricezione e registrazione (entro 8 ore lavorative)» e §6.3 «Tempistiche di sintesi»: i termini che decorrono dalla ricezione.
+- [[MOD-QA-31_reclamo_REC-2026-011.pdf]] — pag. 1, §intestazione: «Data apertura 12/05/2026», senza ora di ricezione.
+- [[trascrizione_riunione_direzione_12_05_2026.txt]] — [00:00:37], PARLANTE_3: «ieri sera alle 18 e 23 e arrivato dal form del sito un reclamo».
+
+----------------------------------------------------------------------
+>>>>> NOTA DA GIUDICARE: questione-referenza-del-secondo-reclamo.md
+----------------------------------------------------------------------
+---
+title: "Il secondo reclamo è sulla AF-SN-0455 o sulla AF-SN-0450?"
+summary: "La responsabile qualità attribuisce il secondo reclamo alla referenza del formato promozionale AF-SN-0455, mentre il cruscotto degli indicatori lo registra sulla AF-SN-0450 con lotto L26130-L1-T2, che il segnalante dichiara di non ricordare."
+type: conflitto
+area: qualita
+tags: [data, conflitto, qualita, reclami, rec-2026-012, referenze]
+fonti:
+  - segnalazione_qualita_cliente_privato_corpo_estraneo.txt
+  - cruscotto_KPI_qualita_2026.xlsx
+stato: aperto
+aliases: []
+data_fatto: 2026-05-15
+data_nota: 2026-08-23
+related: "[[fatto-secondo-reclamo-rec-2026-012]], [[kpi-registro-reclami-2026]], [[progetto-gestione-reclamo-rec-2026-011]], [[area-qualita]]"
+---
+
+# Su quale referenza è il secondo reclamo?
+
+## Le versioni a confronto
+
+| Fonte | Referenza | Lotto | Locator |
+|---|---|---|---|
+| Mail della responsabile qualità del 15/05, ore 22:31 | **`AF-SN-0455`**, dedotta dal formato promozionale 3+1 | non indicato | §messaggio del 15/05 ore 22:31 |
+| Registro dei reclami del cruscotto, riga 8 | **`AF-SN-0450`** | **`L26130-L1-T2`** | foglio «Reclami», riga 13 |
+
+Il **segnalante non dichiara né la referenza né il lotto**: descrive «snack multicereali»,
+dice di aver buttato la confezione e di **non ricordare il lotto**, e colloca la scadenza a
+fine giugno 2026.
+
+## Perché non si sceglie
+
+⚠️ **Le due fonti non sono indipendenti nel modo in cui sembrano**: l'attribuzione della mail
+è **dichiaratamente un'inferenza** — «formato promo 3+1 (quindi AF-SN-0455, stessa linea, stessi giorni)» — mentre
+quella del cruscotto è **affermata senza motivazione**, e aggiunge un lotto che nessuna fonte
+di questa vicenda riporta.
+
+⚠️ **Il dato del cruscotto è più preciso e meno sostenuto.** Il segnalante dichiara di non
+ricordare il lotto e di aver buttato la confezione: da dove venga `L26130-L1-T2` sulla riga 8
+del registro, l'archivio non lo dice. Può essere una ricostruzione fatta a posteriori
+collegando i due reclami, e in quel caso sarebbe **un'ipotesi registrata come dato**.
+
+⚠️ **La differenza non è nominale.** Se la referenza fosse la `0455`, il perimetro del
+prodotto potenzialmente interessato comprenderebbe un formato che il blocco cautelativo dei
+lotti `L26130` e `L26131` non nomina — vedi [[fatto-blocco-cautelativo-lotti]].
+
+## Cosa servirebbe per chiuderla
+
+- Il **`MOD-QA-31` della pratica `REC-2026-012`**, che l'archivio non contiene.
+- Una **risposta del segnalante** con il lotto o la fotografia della confezione, che non c'è.
+- Il **dato di vendita del formato promozionale** nel periodo, che direbbe quali lotti vi sono confluiti.
+
+## Fonti
+
+- [[segnalazione_qualita_cliente_privato_corpo_estraneo.txt]] — §messaggio del 15/05 ore 22:31: «formato promo 3+1 (quindi AF-SN-0455, stessa linea, stessi giorni)».
+- [[segnalazione_qualita_cliente_privato_corpo_estraneo.txt]] — §messaggio del secondo segnalante del 15/05: «Non ricordo il lotto, la scadenza era fine giugno 2026».
+- [[cruscotto_KPI_qualita_2026.xlsx]] — foglio «Reclami», riga 13: il reclamo del 15/05 da form sito registrato su `AF-SN-0450`, lotto `L26130-L1-T2`.
+
+
+======================================================================
+
+
+======================================================================
+TESTO ESTRATTO DELLE FONTI CITATE
+======================================================================
+
+--- Fwd_Fwd_Fwd_ATTENZIONE_richiamo_prodotto_concorrente_RASFF.eml ---
+From: Elena Marchetti <e.marchetti@aurorafoodgroup.it>
+To: Marco Fantin <m.fantin@aurorafoodgroup.it>, Giancarlo Bertoldi <g.bertoldi@aurorafoodgroup.it>
+Cc: Sara Pozzato <s.pozzato@aurorafoodgroup.it>, Alberto Zanchetta <a.zanchetta@aurorafoodgroup.it>
+Subject: R: I: I: I: ATTENZIONE - richiamo prodotto concorrente - allerta RASFF 2026.1467 ossido di etilene in farina di semi di carrube (E410)
+Date: Thu, 19 Mar 2026 16:12:38 +0100
+Message-ID: <AM0PR07MBC7050E17EF8E@aurorafoodgroup.it>
+Buonasera,
+
+rispondo alla domanda del titolare ("noi lo usiamo?") dopo verifica puntuale, cosi' chiudiamo il giro di mail.
+
+VERIFICA EFFETTUATA (con Sara, su schede tecniche in vigore e ricettario R&D):
+
+1. E410 (farina di semi di carrube) NON e' presente in nessuna ricetta attiva di produzione: ne' linea 1 (snack/focaccine ATM), ne' linea 2 (croissanteria), ne' linea 3. Verificate tutte le referenze a codice, comprese le PL Tosano e la sfogliatina bio AF-CR-0220.
+2. Unico punto aperto: il preparato semilavorato per crema alla vaniglia usato nelle PROVE R&D (non in produzione, solo campionature del progetto creme spalmabili) contiene "addensanti: E410, E412" in etichetta. Ho chiesto oggi stesso al fornitore la dichiarazione scritta di conformita' con esiti analitici su ossido di etilene ed ETO totale (2-cloroetanolo compreso) lotto per lotto. Alberto: le campionature restano SEGREGATE in cella R&D fino a riscontro, non escono nemmeno per assaggi interni.
+3. Il richiamo citato nell'allerta riguarda un concorrente e un lotto specifico di E410 di origine extra-UE: nessun collegamento con i ns. fornitori qualificati (l'elenco fornitori approvati non include il produttore segnalato).
+
+Quindi: per la produzione corrente NON siamo coinvolti, nessuna azione sui lotti. Registro comunque l'allerta nel riesame trimestrale HACCP come "allerta valutata - non applicabile", con questa mail come evidenza (l'auditor a febbraio ci ha chiesto proprio di dimostrare la sorveglianza sistematica sulle allerte RASFF).
+
+Cordialmente
+dott.ssa Elena Marchetti - RSGQ / Team Leader HACCP
+Aurora Food Group S.r.l. - Via dell'Industria 27, 37044 Cologna Veneta (VR)
+Tel. 0442 85 41 22 int. 214 - P.IVA 03984710230
+Riservato ai sensi del Reg. UE 2016/679 / Confidential pursuant to EU Reg. 2016/679
+
+
+-----Messaggio originale-----
+Da: Giancarlo Bertoldi <g.bertoldi@aurorafoodgroup.it>
+Inviato: giovedi 19 marzo 2026 07:44
+A: Elena Marchetti; Marco Fantin
+Oggetto: I: I: I: ATTENZIONE - richiamo prodotto concorrente - allerta RASFF ossido di etilene
+
+> noi lo usiamo?? rispondetemi oggi
+> g
+> Inviato dal mio iPhone
+>
+> -----Messaggio originale-----
+> Da: Marco Fantin <m.fantin@aurorafoodgroup.it>
+> Inviato: mercoledi 18 marzo 2026 22:31
+> A: Giancarlo Bertoldi
+> Oggetto: I: I: ATTENZIONE - richiamo prodotto concorrente - allerta RASFF
+> ossido di etilene
+>
+>> Giancarlo, girata dalla Silvia stasera, vedi sotto. Un concorrente
+>> (croissant farciti, GDO) sta richiamando per l'additivo E410
+>> contaminato. Domanda da girare a Elena, io a memoria direi che non
+>> lo usiamo ma non metto la mano sul fuoco sui semilavorati.
+>> MF
+>>
+>> -----Messaggio originale-----
+>> Da: Silvia Bertoldi <s.bertoldi@aurorafoodgroup.it>
+>> Inviato: mercoledi 18 marzo 2026 21:0
+>> 6
+>> A: Marco Fantin <m.fantin@aurorafoodgroup.it>
+>> Oggetto: I: ATTENZIONE - richiamo prodotto concorrente - allerta RASFF
+>> ossido di etilene in additivo
+>>
+>>> Marco guarda questa, arrivata dall'associazione. Il prodotto
+>>> richiamato e' su un volantino dove ci siamo anche noi. Se domani
+>>> qualche buyer comincia a chiedere dichiarazioni a raffica voglio
+>>> che abbiamo gia' la risposta pronta. Puoi girarla a chi di dovere?
+>>> S.
+>>> Inviato dal mio iPhone
+>>>
+>>> -----Messaggio originale-----
+>>> Da: Area Sicurezza Alimentare - Federalimentare Veneto
+>>> <sicurezza.alimentare@federalimveneto.it>
+>>> Inviato: mercoledi 18 marzo 2026 17:5
+>>> 2
+>>> A: undisclosed-recipients
+>>> Oggetto: ATTENZIONE - richiamo prodotto concorrente - allerta RASFF
+>>> 2026.1467 ossido di etilene in farina di semi di carrube (E410)
+>>>
+>>>> CIRCOLARE ASSOCIATI n. 2026/041 - AREA SICUREZZA ALIMENTARE
+>>>> === COMUNICAZIONE RISERVATA AGLI ASSOCIATI ===
+>>>>
+>>>> Gentili Associati,
+>>>> Vi segnaliamo la pubblicazione sul portale RASFF (Rapid Alert
+>>>> System for Food and Feed) della notifica 2026.1467 relativa a
+>>>> presenza di OSSIDO DI ETILENE oltre i limiti di legge in un
+>>>> lotto di FARINA DI SEMI DI CARRUBE (addensante E410) di origine
+>>>> extra-UE, utilizzato come ingrediente in prodotti dolciari e
+>>>> da forno farciti distribuiti anche sul mercato italiano.
+>>>> Un'azienda del comparto (che non citiamo, la notizia e' comunque
+>>>> di dominio pubblico sul sito del Ministero della Salute, sezione
+>>>> avvisi di sicurezza del 17/03/2026) ha avviato il RICHIAMO
+>>>> volontario di piu' lotti di croissant farciti a marchio proprio
+>>>> e a marchio del distributore.
+>>>> Si raccomanda agli associati di:
+>>>> 1. verificare la presenza di E410 (e in generale di addensanti
+>>>> a base di gomme vegetali: E410, E412, E415) nelle proprie
+>>>> ricette e nei semilavorati acquistati;
+>>>> 2. richiedere ai fornitori dichiarazioni aggiornate con esiti
+>>>> analitici su ossido di etilene ed ETO totale;
+>>>> 3. conservare evidenza documentale della valutazione svolta,
+>>>> anche ai fini degli audit di certificazione.
+>>>> L'Area Sicurezza Alimentare resta a disposizione (rif. dott.ssa
+>>>> Boscaro, int. 4).
+>>>> Cordiali saluti
+>>>> Federalimentare Veneto - Area Sicurezza Alimentare
+>>>> Via Torino 151/C - 30172 Venezia Mestre (VE)
+>>>> La presente circolare e' riservata agli associati. E' vietata la
+>>>> diffusione a terzi senza autorizzazione.
+>>>> Per non ricevere piu' le circolari scrivere a
+>>>> comunicazione@federalimveneto.it
+
+
+
+--- MOD-QA-31_reclamo_REC-2026-011.pdf ---
+AURORA FOOD GROUP S.r.l. - Sistema Gestione Qualita' - MOD-QA-31 rev.4
+REC-2026-011 - pag. 1 - documento riservato
+pag. 1
+MOD-QA-31 rev.4 - Scheda di gestione reclamo
+                    SCHEDA DI GESTIONE RECLAMO
+                         MOD-QA-31 rev. 4
+N. reclamo             REC-2026-011
+Data apertura          12/05/2026
+Aperto da              Marchetti E. (RSGQ)
+Origine                consumatore finale - form del sito web
+Classificazione        Classe 2 (PRO-QA-14 par. 4) - corpo estraneo rigido non metallico
+1. Dati del reclamante
+Sig.ra Milena Grigolon - Bussolengo (VR)
+Punto vendita di acquisto: Tosano Bussolengo
+Contatto fornito: indirizzo e-mail e recapito telefonico (agli atti, non riportati
+per riservatezza ai sensi del Reg. UE 2016/679)
+2. Prodotto
+Voce
+Dato
+Denominazione
+Snack salato rustico multicereali 100 g in atmosfera
+protettiva
+Codice articolo
+AF-SN-0450
+EAN
+8034123450123
+Lotto dichiarato
+L26130
+Data produzione lotto
+10/05/2026 - Linea 1
+TMC riportato in confezione
+24/06/2026
+3. Descrizione del reclamo (parole del reclamante)
+Rinvenimento di frammento rigido di colore azzurro all'interno della confezione,
+percepito durante la masticazione. Nessuna lesione riportata. Il reclamante dichiara
+di aver conservato il frammento e la confezione.
+4. Verifiche effettuate
+Verifica
+Esito
+Data
+Richiesta del campione al reclamante
+accettato il ritiro, campione ricevuto
+a mezzo corriere
+15/05/2026
+Misurazione del frammento
+~9 x 4 mm, spessore 1,5 mm, bordo di
+frattura netto (prima stima da
+fotografia il 14/05)
+15/05/2026
+Verifica registrazioni CCP3
+(MOD-QA-07)
+verifiche orarie complete e conformi:
+il pericolo non e' metallico e non e'
+coperto dal CCP3
+14/05/2026
+Verifica fermo macchina del 10/05
+fermo 15:05-18:45, sostituzione
+guarnizione
+14/05/2026
+Invio a laboratorio esterno per
+identificazione
+rapporto 2026/04187
+18/05/2026
+Ricostruzione a monte e a valle del
+lotto
+mass balance con scostamento aperto
+14/05/2026
+5. Valutazione del rischio
+Corpo estraneo rigido di dimensione superiore ai 7 mm, con bordi netti: rischio di lesione
+al cavo orale non escludibile. Classificazione di gravita': Classe 2 ai sensi del par. 4
+della PRO-QA-14 - ritiro dal circuito distributivo, non richiamo al consumatore. La
+classificazione sara' riesaminata alla luce dell'esito del laboratorio: qualora il frammento
+risultasse tagliente si passera' alla Classe 1, con notifica all'autorita' sanitaria entro
+24 ore ai sensi dell'art. 19 Reg. CE 178/2002.
+
+AURORA FOOD GROUP S.r.l. - Sistema Gestione Qualita' - MOD-QA-31 rev.4
+REC-2026-011 - pag. 2 - documento riservato
+pag. 2
+6. Azioni immediate
+- Blocco cautelativo dei lotti L26130-L1-T2, L26130-L1-T3 e L26131-L1-T2 (12/05/2026)
+- Comunicazione al cliente GDO e alle altre insegne servite (14/05/2026)
+- Sospensione dell'utilizzo del ricambio non originale sulla PKM-450 (15/05/2026)
+7. Stato
+APERTO. Chiusura subordinata all'esito del laboratorio e alla decisione sul ritiro.
+Responsabile Qualita' - RSGQ
+_______________________________
+dott.ssa Elena Marchetti
+
+
+
+--- PRO-QA-08_gestione_reclami_cliente_rev2.docx ---
+AURORA FOOD GROUP S.r.l. — PROCEDURA PRO-QA-08
+
+Sistema di Gestione Qualità e Sicurezza Alimentare — BRCGS Food Safety Issue 9 / IFS Food v8
+
+
+[Marchetti E. - la rev.2 recepisce la NC 1 audit CSQA del 17-18/02/2026: aggiunta la seconda firma di verifica al par. 7.4. Da distribuire in copia controllata entro fine marzo.]
+
+1. SCOPO
+
+La presente procedura definisce le modalità operative con cui Aurora Food Group S.r.l. riceve, registra, classifica, indaga e chiude i reclami provenienti da clienti (GDO, grossisti, Ho.Re.Ca.) e da consumatori finali, al fine di:
+
+garantire una risposta tempestiva e documentata a ogni segnalazione;
+individuare la causa radice ed attuare azioni correttive efficaci;
+alimentare il riesame della direzione con indicatori misurabili;
+assicurare la conformità ai requisiti BRCGS Food Safety Issue 9 (cl. 3.10) e IFS Food v8 (cap. 5.8).
+
+La presente procedura si applica anche ai reclami dei fornitori. [Vicentini C. - i reclami VERSO i fornitori sono in PRO-ACQ-03, non qui. Tolto.]
+
+2. CAMPO DI APPLICAZIONE
+
+Si applica a tutti i reclami relativi a prodotti fabbricati e/o confezionati presso lo stabilimento di Via dell'Industria 27, Cologna Veneta (VR), a marchio Aurora e a marchio del cliente (private label), qualunque sia il canale di ricezione:
+
+comunicazione scritta del cliente (PEC, e-mail, portale fornitori GDO);
+segnalazione telefonica agli uffici commerciali;
+form "Contattaci" del sito www.aurorafoodgroup.it;
+segnalazione tramite agente di vendita;
+resi non conformi contestati al ricevimento merci del cliente.
+
+Sono escluse le contestazioni di natura esclusivamente amministrativa (differenze di prezzo, errori di fatturazione), gestite dall'Amministrazione secondo prassi interna.
+
+3. RIFERIMENTI
+
+Reg. (CE) 178/2002 — principi generali della legislazione alimentare, art. 19
+Reg. (CE) 852/2004 — igiene dei prodotti alimentari
+BRCGS Food Safety Issue 9, clausole 3.10.1 e 3.10.2
+IFS Food v8, requisiti 5.8.1 e 5.8.2
+PRO-QA-11 Gestione ritiro e richiamo prodotto
+PRO-QA-05 Azioni correttive e preventive
+MOD-QA-31 Modulo di gestione reclami
+
+4. RESPONSABILITÀ
+
+
+Legenda: R = responsabile, A = approva, C = collabora, I = informato.
+
+[Marchetti E. - Fantin ha chiesto di essere "A" sulle azioni correttive e "R" solo sulla decisione di ritiro. Verbale riunione del 05/03/2026.]
+
+5. CLASSIFICAZIONE DEI RECLAMI
+
+Ogni reclamo viene classificato dal RSGQ entro 8 ore lavorative dalla ricezione, secondo la seguente scala:
+
+
+I reclami di classe 1 e 2 vengono comunicati al titolare solo se il cliente è del canale GDO. [Vicentini C. - NO: i critici vanno SEMPRE alla direzione, anche se il reclamante è un consumatore. Riscrivere come sotto.]
+
+I reclami di classe 1 sono comunicati immediatamente, per le vie brevi e poi per iscritto, all'Amministratore Delegato, al Direttore di Stabilimento e alla Direzione Commerciale, indipendentemente dal canale di provenienza.
+
+6. FLUSSO OPERATIVO
+
+6.1 Ricezione e registrazione (entro 8 ore lavorative)
+
+Chiunque riceva un reclamo (centralino, commerciale, agente, sito web) lo inoltra senza filtri al RSGQ all'indirizzo qualita@aurorafoodgroup.it. Il RSGQ:
+
+1. protocolla il reclamo con numerazione progressiva annuale (formato REC-AAAA-NNN, es. REC-2026-014);
+2. apre il modulo MOD-QA-31 compilando la sezione A (dati del reclamante, prodotto, codice articolo, EAN, lotto, data e luogo di acquisto, descrizione del difetto);
+3. richiede al reclamante, ove mancanti, fotografia del prodotto, del lotto stampato e del difetto;
+4. classifica il reclamo secondo il par. 5.
+
+[Pozzato S. - il form del sito non chiede il lotto in campo obbligatorio, metà dei reclami arrivano senza. Si può far modificare il form? Segnalato a Sartori il 12/05.]
+
+6.2 Verifiche immediate (entro 24 ore per classi 1 e 2)
+
+Il RSGQ, con il supporto dell'Assistente Qualità:
+
+1. verifica la rintracciabilità del lotto su MOD-MAG-02 (quantità prodotta, quantità spedita, giacenza residua, clienti destinatari);
+2. estrae e riesamina le registrazioni di produzione e di controllo del lotto: MOD-QA-12 (CCP2), MOD-QA-07 rev.5 (CCP3), MOD-PR-04 (fermi macchina), registrazioni CIP;
+3. blocca cautelativamente l'eventuale giacenza del lotto a magazzino, con cartellino giallo NON CONFORME;
+4. preleva e riesamina i campioni di riserva del lotto (campioteca, conservazione a temperatura di esercizio per shelf life + 1 mese);
+5. per la classe 1, informa la direzione e convoca il team HACCP per la valutazione di attivazione della PRO-QA-11.
+
+6.3 Tempistiche di sintesi
+
+
+7. INDAGINE E RICERCA DELLA CAUSA RADICE
+
+7.1 Metodo
+
+Per i reclami di classe 1 e 2 la ricerca della causa radice è obbligatoria e documentata nella sezione C del MOD-QA-31. Il metodo di riferimento è la combinazione di:
+
+diagramma di Ishikawa (causa-effetto): il difetto viene analizzato lungo le 6 M — Materiali (materie prime, imballi), Metodi (procedure, istruzioni), Macchine (impianti, utensili, manutenzione), Manodopera (formazione, comportamenti), Misurazioni (strumenti, registrazioni), Ambiente (layout, flussi, infestanti). Per ogni ramo il team elenca le cause possibili e le verifica una a una con evidenze;
+metodo dei 5 perché: per il ramo risultato più probabile, si domanda iterativamente "perché?" fino a raggiungere la causa organizzativa di fondo, di norma entro 5 passaggi.
+
+Esempio applicativo (didattico): frammento plastico in prodotto confezionato → perché? guarnizione deteriorata rilasciata dalla macchina → perché? montata guarnizione non idonea al contatto alimentare → perché? ricambio originale non disponibile a magazzino → perché? scorta minima ricambi critici non definita → perché? la manutenzione non dispone di un elenco di ricambi critici con scorta minima → causa radice: assenza di gestione pianificata dei ricambi critici.
+
+[Marchetti E. - l'esempio l'ho preso volutamente generico ma dopo il caso del 12/05 forse è meglio cambiarlo, sembra scritto apposta. Sentire Fantin.]
+[Vicentini C. - lo lascerei: se lo cambia adesso, in audit chiederanno perché. Piuttosto va allineato il piano di manutenzione, che è la vera carenza.]
+
+7.2 Team di indagine
+
+L'indagine per i reclami di classe 1 è condotta dal team HACCP integrato dal Responsabile di Produzione e, ove pertinente, dal Capo officina. Il consulente HACCP esterno (Studio Alimentaria, Verona) partecipa su richiesta del RSGQ.
+
+7.3 Gestione del campione reso dal consumatore
+
+1. Il campione oggetto di reclamo viene richiesto al reclamante; il ritiro avviene a cura dell'agente di zona o tramite corriere prepagato.
+2. Al ricevimento, l'Assistente Qualità fotografa il campione integro, lo identifica con il numero di protocollo REC e lo registra nella sezione B del MOD-QA-31.
+3. Il campione è conservato in busta sigillata, in area segregata del laboratorio QC, a temperatura idonea, per almeno 12 mesi dalla chiusura del reclamo.
+4. Eventuali analisi (identificazione materiale del corpo estraneo, analisi microbiologiche) sono affidate al laboratorio esterno Analytica Veneta S.r.l. (ACCREDIA n. 0987), con catena di custodia documentata.
+5. Il campione non viene mai restituito, distrutto o manipolato prima della chiusura del reclamo e comunque non senza autorizzazione scritta del RSGQ.
+
+6. Eventuali analisi sono eseguite dal laboratorio interno. [Marchetti E. - il lab interno fa solo tamponi e pH, l'identificazione materiali va fuori. Corretto con Analytica Veneta.]
+
+7.4 Verifica delle registrazioni in seconda firma
+
+A seguito della NC 1 dell'audit CSQA del 17-18/02/2026 (rif. BRCGS 9 cl. 2.10.2 / IFS 5.1.2), tutte le registrazioni manuali dei CCP riesaminate nel corso dell'indagine devono riportare la verifica in seconda firma del capoturno entro fine turno. L'assenza della seconda firma su una registrazione oggetto di indagine è essa stessa una non conformità interna, da registrare e trattare secondo PRO-QA-05.
+
+[Marchetti E. - le evidenze di chiusura NC sono partite il 02/04/2026, in ritardo sui 28 gg. CSQA ha accettato con riserva, verificherà al prossimo audit. NON dimenticare.]
+
+8. COMUNICAZIONE AL CLIENTE
+
+8.1 Clienti GDO e private label
+
+La risposta scritta ai clienti GDO (Tosano Cerea S.p.A., Alì S.p.A., Rossetto Trade S.p.A., Famila Nordest) è predisposta dal RSGQ per i contenuti tecnici e firmata dalla Direzione Commerciale. Deve contenere: ricostruzione dei fatti, esito delle verifiche, causa individuata o ipotesi in corso di verifica, azioni correttive con date, eventuali proposte di gestione della merce.
+
+Per i clienti con portale fornitori o con richieste di riscontro a termine (es. Assicurazione Qualità Tosano: riscontro entro 48 h), i termini contrattuali del cliente prevalgono su quelli del par. 6.3 se più stringenti.
+
+8.2 Consumatori finali
+
+La risposta al consumatore è cortese, non ammette responsabilità prima della chiusura dell'indagine, ringrazia per la segnalazione e informa dell'avvio delle verifiche. Eventuali omaggi o rimborsi sono decisi dalla Direzione Commerciale. Ogni comunicazione al consumatore su reclami di classe 1 è preventivamente condivisa con la direzione.
+
+[Bertoldi S. - aggiungere che NESSUNO risponde al consumatore a voce entrando nel merito, nemmeno il centralino. È successo. La telefonata va deviata alla qualità e basta.]
+
+Il personale non autorizzato (centralino, commerciale, agenti, produzione) non fornisce al reclamante alcuna informazione di merito, né a voce né per iscritto: raccoglie i dati e inoltra al RSGQ.
+
+9. AZIONI CORRETTIVE E VERIFICA DI EFFICACIA
+
+1. Per ogni causa radice individuata, il team definisce almeno un'azione correttiva con responsabile e scadenza, registrata su MOD-QA-31 sezione D e nel registro azioni correttive di PRO-QA-05.
+2. Le azioni che richiedono investimenti sono sottoposte al Direttore di Stabilimento e, oltre la sua delega di spesa, all'Amministratore Delegato.
+3. La verifica di efficacia è pianificata alla chiusura dell'azione ed eseguita dal RSGQ entro i termini del par. 6.3, con evidenza oggettiva (assenza di recidiva, esito audit interno, dati di monitoraggio).
+4. Un reclamo si considera chiuso solo con: risposta definitiva inviata, azioni correttive attuate, verifica di efficacia pianificata.
+
+10. INDICATORI
+
+
+Gli indicatori sono presentati al riesame della direzione e, in forma aggregata, al team HACCP.
+
+[Pozzato S. - il dato "confezioni vendute" me lo deve passare Trentin dall'amministrazione ogni mese, finora l'ho rincorsa io. Formalizzare?]
+
+11. REGISTRAZIONI E ARCHIVIAZIONE
+
+
+12. STATO DELLE REVISIONI
+
+
+Documento di proprietà di Aurora Food Group S.r.l. — copia controllata n. ___ — la copia stampata non è garantita come aggiornata.
+
+Codice
+Titolo
+Revisione
+Data emissione
+Redatto
+Verificato
+Approvato
+PRO-QA-08
+Gestione dei reclami cliente e consumatore
+rev. 2
+14/03/2026
+dott.ssa E. Marchetti (RSGQ)
+dott.ssa C. Vicentini (cons. HACCP)
+ing. M. Fantin (Dir. Stabilimento)
+Attività
+RSGQ (Marchetti)
+Ass. Qualità (Pozzato)
+Dir. Commerciale (S. Bertoldi)
+Resp. Produzione (Zanella)
+Dir. Stabilimento (Fantin)
+Ricezione e protocollo reclamo
+R
+C
+C
+—
+I
+Apertura MOD-QA-31
+R
+C
+I
+—
+—
+Classificazione gravità
+R
+C
+—
+—
+I
+Indagine causa radice
+R
+C
+—
+C
+I
+Gestione campione reso
+C
+R
+—
+—
+—
+Risposta scritta al cliente GDO
+C
+—
+R
+—
+I
+Risposta al consumatore finale
+R
+C
+I
+—
+—
+Azioni correttive
+C
+—
+—
+R
+A
+Verifica di efficacia
+R
+C
+—
+—
+I
+Decisione ritiro/richiamo
+C
+—
+C
+—
+R
+Classe
+Denominazione
+Descrizione
+Esempi
+Tempo max prima risposta
+Tempo max chiusura
+1
+Critico
+Rischio per la salute del consumatore, potenziale ritiro/richiamo, coinvolgimento autorità
+corpo estraneo pericoloso, allergene non dichiarato, contaminazione microbiologica patogena
+4 ore
+Immediata attivazione PRO-QA-11
+2
+Maggiore
+Difetto rilevante di sicurezza percepita o di conformità legale, senza rischio sanitario accertato
+corpo estraneo non pericoloso, muffe entro shelf life, errore peso/etichetta
+24 ore
+15 giorni lavorativi
+3
+Minore
+Difetto qualitativo senza implicazioni di sicurezza
+difetti organolettici, confezione danneggiata, farcitura scarsa
+3 giorni lavorativi
+30 giorni lavorativi
+4
+Segnalazione
+Osservazione non classificabile come reclamo
+preferenze di gusto, richieste informazioni
+5 giorni lavorativi
+Registrazione semplice
+Fase
+Classe 1
+Classe 2
+Classe 3
+Protocollo e apertura MOD-QA-31
+4 h
+8 h
+24 h
+Prima risposta al reclamante
+4 h
+24 h
+3 gg lav.
+Verifica registrazioni lotto
+12 h
+48 h
+5 gg lav.
+Analisi causa radice completata
+5 gg
+10 gg
+20 gg
+Chiusura e risposta definitiva
+come da PRO-QA-11
+15 gg lav.
+30 gg lav.
+Verifica di efficacia AC
+entro 60 gg
+entro 90 gg
+se applicabile
+Indicatore
+Formula
+Obiettivo 2026
+Frequenza riesame
+Reclami totali per milione di confezioni vendute
+n. reclami x 1.000.000 / confezioni vendute
+< 8,0
+mensile
+Reclami classe 1
+conteggio assoluto
+0
+mensile
+Tempo medio di chiusura classe 2
+media gg lavorativi
+≤ 12 gg
+trimestrale
+Reclami per corpo estraneo
+conteggio assoluto
+≤ 3/anno
+mensile
+Recidive su stessa causa radice
+conteggio assoluto
+0
+trimestrale
+Registrazione
+Modulo
+Responsabile
+Conservazione
+Luogo
+Reclamo e indagine
+MOD-QA-31
+RSGQ
+shelf life + 3 anni, min. 5 anni
+ufficio qualità, raccoglitore annuale
+Campione reso
+etichetta REC + sez. B MOD-QA-31
+Ass. Qualità
+12 mesi da chiusura
+laboratorio QC, area segregata
+Rapporti di prova esterni
+rapporto Analytica Veneta
+RSGQ
+5 anni
+fascicolo reclamo
+Corrispondenza cliente
+PEC / e-mail
+Dir. Commerciale
+5 anni
+server, cartella COMM/reclami
+Azioni correttive
+registro PRO-QA-05
+RSGQ
+5 anni
+ufficio qualità
+Rev.
+Data
+Descrizione modifica
+Redatto
+Approvato
+0
+10/06/2019
+Prima emissione
+E. Marchetti
+G. Bertoldi
+1
+22/09/2023
+Adeguamento a BRCGS Issue 9 e IFS v8; nuova classificazione a 4 classi
+E. Marchetti
+M. Fantin
+2
+14/03/2026
+Recepimento NC 1 audit CSQA 02/2026 (par. 7.4); precisazioni su campione reso e comunicazione al consumatore
+E. Marchetti
+M. Fantin
+[BARRATO: La presente procedura si applica anche ai reclami dei fornitori.]
+[BARRATO: I reclami di classe 1 e 2 vengono comunicati al titolare solo se il cliente è del canale GDO.]
+[BARRATO: 6. Eventuali analisi sono eseguite dal laboratorio interno. [Marchetti E. - il lab interno fa solo tamponi e pH, l'identificazione materiali va fuori. Corretto con Analytica Veneta.]]
+
+
+--- RE_RE_URGENTE_reclamo_corpo_estraneo_lotto_L26130.eml ---
+From: Elena Marchetti <e.marchetti@aurorafoodgroup.it>
+To: Marco Fantin <m.fantin@aurorafoodgroup.it>, Ivano Dal Maso <i.dalmaso@aurorafoodgroup.it>
+Cc: Giancarlo Bertoldi <g.bertoldi@aurorafoodgroup.it>, Sara Pozzato <s.pozzato@aurorafoodgroup.it>, Denis Zanella <d.zanella@aurorafoodgroup.it>
+Subject: R: R: URGENTE - reclamo corpo estraneo lotto L26130
+Date: Wed, 13 May 2026 08:41:22 +0200
+Message-ID: <AM0PR07MB3F5262205F37@aurorafoodgroup.it>
+Buongiorno a tutti,
+
+riepilogo per iscritto quanto concordato ora a voce con l'ing. Fantin, cosi resta traccia agli atti del sistema qualita (rif. procedura gestione reclami, modulo MOD-QA-31 rev. corrente).
+
+1) La sig.ra Grigolon la chiamo IO stamattina entro le 10:00. Non il commerciale, non la produzione: il reclamo e' di natura igienico-sanitaria e la gestione del contatto col consumatore compete alla scrivente in qualita' di RSGQ. Le chiedero' di conservare il frammento e la confezione (con codice lotto leggibile) e le propongo il ritiro a ns. cura per le analisi.
+
+2) Ho aperto il reclamo n. REC-2026-011 su MOD-QA-31 (la scheda e' in compilazione agli atti, come la foto caricata dal form dalla signora). Il frammento e' plastica rigida di colore azzurro, dimensione stimata dalla foto 7-9 mm. NON metallica: il metal detector MD-3200 non puo' rilevarla, quindi il CCP3 NON e' in causa, e' tutto a monte.
+
+3) Blocco cautelativo: ho messo in stato BLOCCATO a magazzino i lotti L26130-L1-T2 e L26131-L1-T2 di AF-SN-0450. Nicola e' avvisato, movimentazioni solo con mia firma su MOD-MAG-02.
+
+4) Ivano: "guarnision del carel" non e' una risposta che posso mettere in una relazione per Tosano. Mi servono OGGI: marca/tipo della guarnizione montata il 10/05 sulla PKM-450, colore, materiale, se ne manca un pezzo, e dove era custodito il ricambio. Ti ricordo che la custodia dei ricambi in area produttiva era gia' oggetto di rilievo in sede di audit CSQA di febbraio.
+
+5) Sara: recupera il tracciato del datalogger PT-104 del 10/05 turno 2 e il MOD-QA-12 dello stesso turno. Voglio vederli affiancati prima di scrivere qualsiasi cosa all'esterno.
+
+Se il frammento combacia con la guarnizione siamo davanti a un corpo estraneo di origine interna su lotto gia' distribuito, con quello che ne consegue. Ne parliamo alle 14 in sala riunioni.
+
+Cordialmente
+dott.ssa Elena Marchetti
+Responsabile Sistema Gestione Qualita' - Team Leader HACCP
+Aurora Food Group S.r.l.
+Via dell'Industria 27 - 37044 Cologna Veneta (VR)
+Tel. 0442 85 41 22 int. 214 - e.marchetti@aurorafoodgroup.it
+P.IVA 03984710230
+
+Le informazioni contenute nella presente comunicazione e i relativi allegati possono essere riservate e sono, comunque, destinate esclusivamente alle persone o alla Societa' sopraindicati. La diffusione, distribuzione e/o copiatura del documento trasmesso da parte di qualsiasi soggetto diverso dal destinatario e' proibita, ai sensi del Regolamento UE 2016/679. This message and its attachments are confidential and intended solely for the addressee. Any unauthorized use is prohibited.
+
+
+-----Messaggio originale-----
+Da: Ivano Dal Maso <i.dalmaso@aurorafoodgroup.it>
+Inviato: mercoledi 13 maggio 2026 06:58
+A: Elena Marchetti; Marco Fantin
+Oggetto: R: R: URGENTE - reclamo corpo estraneo lotto L26130
+
+> guarnision azzurra. carel.
+>
+> Ivano
+> Inviato dal mio iPhone
+>
+>
+> -----Messaggio originale-----
+> Da: Giancarlo Bertoldi <g.bertoldi@aurorafoodgroup.it>
+> Inviato: martedi 12 maggio 2026 22:40
+> A: Elena Marchetti; Marco Fantin; Ivano Dal Maso
+> Cc: Silvia Bertoldi
+> Oggetto: R: URGENTE - reclamo corpo estraneo lotto L26130
+>
+>> MA STIAMO SCHERZANDO??? UN PEZZO DI PLASTICA DENTRO UNO SNACK CHE VA DA
+>> TOSANO che e' il nostro primo cliente e me lo dite alle due del pomeriggio
+>> e alle dieci di sera nessuno mi ha ancora detto COSA E' quel pezzo e DA DOVE
+>> VIENE io domattina alle 7 sono in ufficio e voglio sapere tutto e VOGLIO
+>> SAPERE CHI CHIAMA LA SIGNORA perche' se la signora va dai carabinieri o
+>> peggio sui giornali altro che promozione sottocosto qui saltano gli ordini
+>> di un anno e il tunnel nuovo lo paghiamo con cosa
+>> e la macchina dell azoto non era gia rotta la settimana scorsa?? qualcuno
+>> mi aveva detto che era tutto a posto MARCO
+>>
+>> G.
+>>
+>>
+>>> -----Messaggio originale-----
+>>> Da: Marco Fantin <m.fantin@aurorafoodgroup.it>
+>>> Inviato: martedi 12 maggio 2026 17:55
+>>> A: Elena Marchetti
+>>> Cc: Giancarlo Bertoldi; Ivano Dal Maso; Denis Zanella
+>>> Oggetto: R: URGENTE - reclamo corpo estraneo lotto L26130
+>>>
+>>> Elena,
+>>> visto. Tre cose, in ordine:
+>>> 1. lotto bloccato subito, anche il 131 per prudenza
+>>> 2. Ivano mi dici SUBITO cosa hai montato sulla PKM-450 il 10/05
+>>> 3. la signora va richiamata domani mattina, decidiamo alle 8 chi lo fa
+>>> Riunione domattina ore 8:00 in sala. Non scriviamo niente a Tosano
+>>> finche' non sappiamo cos'e' il pezzo.
+>>> MF
+>>>
+>>> Ing. Marco Fantin - Direttore di Stabilimento
+>>> Aurora Food Group S.r.l. - Cologna Veneta (VR)
+>>>
+>>>
+>>>> -----Messaggio originale-----
+>>>> Da: Elena Marchetti <e.marchetti@aurorafoodgroup.it>
+>>>> Inviato: martedi 12 maggio 2026 14:33
+>>>> A: Marco Fantin; Denis Zanella
+>>>> Cc: Giancarlo Bertoldi; Sara Pozzato
+>>>> Oggetto: URGENTE - reclamo corpo estraneo lotto L26130
+>>>> Priorita': Alta
+>>>>
+>>>> Buongiorno,
+>>>> e' arrivato alle 13:05 dal form "contatti" del sito un reclamo che
+>>>> classifico come GRAVE ai sensi della procedura reclami:
+>>>>
+>>>> Segnalante: sig.ra Milena Grigolon, Bussolengo (VR), tel. lasciato nel form
+>>>> Prodotto: Snack salato rustico multicereali 100 g - AF-SN-0450
+>>>> (private label Tosano "Bonta' di Casa"), EAN 8034123450123
+>>>> Lotto stampato: L26130 (dalla foto si legge L26130-L1-T2)
+>>>> Acquisto: punto vendita Tosano di Bussolengo, scontrino conservato
+>>>> Difetto lamentato: FRAMMENTO DI PLASTICA DURA DI COLORE AZZURRO
+>>>> trovato all'interno del prodotto durante il consumo. Nessuna lesione,
+>>>> ma la signora e' comprensibilmente alterata.
+>>>>
+>>>> La signora ha allegato una foto (vedi allegato). Apro il MOD-QA-31 e
+>>>> avvio la rintracciabilita' del lotto. Il lotto L26130-L1-T2 e' del
+>>>> 10/05/2026, Linea 1, turno 2 - lo stesso turno del fermo macchina
+>>>> della confezionatrice, per quello che puo' valere.
+>>>> Resto in attesa di istruzioni sulla gestione del contatto.
+>>>>
+>>>> Cordialmente
+>>>> dott.ssa Elena Marchetti - RSGQ
+>>>> Aurora Food Group S.r.l.
+>>>> cid:image001.png@01DC9A2B.4F1E7C40
+
+
+
+--- cruscotto_KPI_qualita_2026.xlsx ---
+Cruscotto indicatori qualità 2026 - riesame direzione
+E. Marchetti - dati gennaio/maggio - target definiti nel riesame del 12/03/2026
+
+
+Indicatore Target gen feb mar apr mag Media Trend Stato
+Reclami cliente per milione di pz (ppm) 8 4.2 6.1 5.4 7.8 19.6
+Lotti bloccati / lotti prodotti % 1.5 0.8 1.1 0.9 1.4 4.8
+Tamponi ambientali conformi % 95 97.2 96.1 95.8 92.4 88.9
+Deviazioni CCP registrate (n.) 0 0 1 0 1 3
+NC interne aperte a fine mese (n.) 5 6 8 11 14 19
+Tempo medio chiusura NC (gg) 20 18 24 31 38 44
+Costo della non qualità (€) 1600 980 1420 1180 2240 18600
+Ore formazione erogate 40 32 18 44 12 6
+Fornitori in classe A % 70 72 72 68 64 64
+Audit interni eseguiti / piano % 100 100 100 66 50 33
+
+maggio è fuori scala su quasi tutto: è il mese del reclamo corpo estraneo
+le ore di formazione sono crollate perché la produzione non libera le persone (segnalato 3 volte)
+Registro reclami cliente e consumatore 2026
+
+
+
+N. Data Origine Cliente / consumatore Prodotto Lotto Tipologia Gravità Pz coinvolti Stato Chiuso il gg aperto
+1 14/01/2026 cliente GDO Tosano Cerea SpA AF-CR-0215 L26008-L2-T1 peso pezzo sotto tolleranza minore 480 chiuso 28/01/2026
+2 03/02/2026 consumatore privato - form sito AF-SN-0450 L26031-L1-T1 confezione non sigillata minore 1 chiuso 19/02/2026
+3 22/02/2026 cliente GDO Alì SpA AF-FC-0330 L26050-L1-T2 muffa a 5 gg dal TMC maggiore 96 chiuso 14/03/2026
+4 11/03/2026 cliente GDO Tosano Cerea SpA AF-CR-0215 L26066-L2-T2 sfogliatura irregolare minore 1200 chiuso 02/04/2026
+5 29/03/2026 consumatore privato - centralino AF-SN-0450 L26085-L1-T3 prodotto troppo salato minore 1 chiuso 09/04/2026
+6 18/04/2026 cliente GDO Rossetto Trade SpA AF-FC-0330 L26105-L1-T1 cartone bagnato in consegna minore 240 chiuso 30/04/2026
+7 12/05/2026 consumatore privato - form sito AF-SN-0450 L26130-L1-T2 CORPO ESTRANEO plastica dura azzurra CRITICO 1 aperto
+8 15/05/2026 consumatore privato - form sito AF-SN-0450 L26130-L1-T2 corpo estraneo - frammento rigido CRITICO 1 aperto
+9 14/05/2026 cliente GDO Tosano Cerea SpA AF-SN-0450 L26130 / L26131 richiesta relazione formale 48h CRITICO 9360 aperto
+10 19/05/2026 cliente GDO Alì SpA AF-SN-0450 L26130-L1-T2 blocco cautelativo merce in CE.DI. maggiore 1440 aperto
+Non conformità 2026 per causa radice - analisi di Pareto
+
+
+
+Causa radice N. NC % % cumulata Costo € Azione in corso
+Registrazioni incomplete o non verificate 14 4200 seconda firma di fine turno - NON ancora applicata
+Manutenzione rimandata / ricambi non originali 11 21400 ordine ricambi urgenti PKM-450
+Errore umano di linea 9 3100 rifare formazione (rimandata per carichi produttivi)
+Materia prima non conforme 7 5800 vendor rating e audit fornitore Lievital
+Pulizia insufficiente / CIP abortito 6 2900 revisione IO-05 e turni di lavaggio
+Taratura strumenti scaduta 4 1200 contratto con ente esterno da rinnovare
+Altro / non determinata 5 900
+TOTALE
+
+le prime due cause sono esattamente le due NC minori dell'audit CSQA di febbraio
+Andamento tamponi ambientali per zona - % conformità
+
+
+
+Zona Punto gen feb mar apr mag Media Note
+Zona 1 Nastro uscita forno FT-01 100 100 100 97 94
+Zona 1 Ganasce saldanti PKM-450 100 97 100 92 83
+Zona 1 Scivolo metal detector MD-3200 100 100 97 95 89
+Zona 2 Carrelli di trasferimento 97 94 97 92 88
+Zona 2 Guarnizioni cella CF-02 100 100 94 89 86
+Zona 3 Scarico a pavimento reparto forni 92 89 86 78 72
+Zona 3 Ruote carrelli / pavimento corridoio 94 92 89 86 81
+Zona 4 Spogliatoi e servizi 100 100 97 97 94
+- Mani operatore (tampone personale) 97 94 92 89 86
+[FORMULA: KPI mensili!H6 =AVERAGE(C6:G6)]
+[FORMULA: KPI mensili!I6 =IF(G6>F6,"in aumento",IF(G6<F6,"in calo","stabile"))]
+[FORMULA: KPI mensili!J6 =IF(G6<=B6,"nel target","FUORI TARGET")]
+[FORMULA: KPI mensili!H7 =AVERAGE(C7:G7)]
+[FORMULA: KPI mensili!I7 =IF(G7>F7,"in aumento",IF(G7<F7,"in calo","stabile"))]
+[FORMULA: KPI mensili!J7 =IF(G7<=B7,"nel target","FUORI TARGET")]
+[FORMULA: KPI mensili!H8 =AVERAGE(C8:G8)]
+[FORMULA: KPI mensili!I8 =IF(G8>F8,"in aumento",IF(G8<F8,"in calo","stabile"))]
+[FORMULA: KPI mensili!J8 =IF(G8>=B8,"nel target","FUORI TARGET")]
+[FORMULA: KPI mensili!H9 =AVERAGE(C9:G9)]
+[FORMULA: KPI mensili!I9 =IF(G9>F9,"in aumento",IF(G9<F9,"in calo","stabile"))]
+[FORMULA: KPI mensili!J9 =IF(G9<=B9,"nel target","FUORI TARGET")]
+[FORMULA: KPI mensili!H10 =AVERAGE(C10:G10)]
+[FORMULA: KPI mensili!I10 =IF(G10>F10,"in aumento",IF(G10<F10,"in calo","stabile"))]
+[FORMULA: KPI mensili!J10 =IF(G10<=B10,"nel target","FUORI TARGET")]
+[FORMULA: KPI mensili!H11 =AVERAGE(C11:G11)]
+[FORMULA: KPI mensili!I11 =IF(G11>F11,"in aumento",IF(G11<F11,"in calo","stabile"))]
+[FORMULA: KPI mensili!J11 =IF(G11<=B11,"nel target","FUORI TARGET")]
+[FORMULA: KPI mensili!H12 =AVERAGE(C12:G12)]
+[FORMULA: KPI mensili!I12 =IF(G12>F12,"in aumento",IF(G12<F12,"in calo","stabile"))]
+[FORMULA: KPI mensili!J12 =IF(G12<=B12,"nel target","FUORI TARGET")]
+[FORMULA: KPI mensili!H13 =AVERAGE(C13:G13)]
+[FORMULA: KPI mensili!I13 =IF(G13>F13,"in aumento",IF(G13<F13,"in calo","stabile"))]
+[FORMULA: KPI mensili!J13 =IF(G13>=B13,"nel target","FUORI TARGET")]
+[FORMULA: KPI mensili!H14 =AVERAGE(C14:G14)]
+[FORMULA: KPI mensili!I14 =IF(G14>F14,"in aumento",IF(G14<F14,"in calo","stabile"))]
+[FORMULA: KPI mensili!J14 =IF(G14>=B14,"nel target","FUORI TARGET")]
+[FORMULA: KPI mensili!H15 =AVERAGE(C15:G15)]
+[FORMULA: KPI mensili!I15 =IF(G15>F15,"in aumento",IF(G15<F15,"in calo","stabile"))]
+[FORMULA: KPI mensili!J15 =IF(G15>=B15,"nel target","FUORI TARGET")]
+[FORMULA: Reclami!L6 =IF(K6="","APERTO DA "&(DATE(2026,6,5)-DATEVALUE(B6))&" gg","")]
+[FORMULA: Reclami!L7 =IF(K7="","APERTO DA "&(DATE(2026,6,5)-DATEVALUE(B7))&" gg","")]
+[FORMULA: Reclami!L8 =IF(K8="","APERTO DA "&(DATE(2026,6,5)-DATEVALUE(B8))&" gg","")]
+[FORMULA: Reclami!L9 =IF(K9="","APERTO DA "&(DATE(2026,6,5)-DATEVALUE(B9))&" gg","")]
+[FORMULA: Reclami!L10 =IF(K10="","APERTO DA "&(DATE(2026,6,5)-DATEVALUE(B10))&" gg","")]
+[FORMULA: Reclami!L11 =IF(K11="","APERTO DA "&(DATE(2026,6,5)-DATEVALUE(B11))&" gg","")]
+[FORMULA: Reclami!L12 =IF(K12="","APERTO DA "&(DATE(2026,6,5)-DATEVALUE(B12))&" gg","")]
+[FORMULA: Reclami!L13 =IF(K13="","APERTO DA "&(DATE(2026,6,5)-DATEVALUE(B13))&" gg","")]
+[FORMULA: Reclami!L14 =IF(K14="","APERTO DA "&(DATE(2026,6,5)-DATEVALUE(B14))&" gg","")]
+[FORMULA: Reclami!L15 =IF(K15="","APERTO DA "&(DATE(2026,6,5)-DATEVALUE(B15))&" gg","")]
+[FORMULA: NC per causa!C6 =B6/SUM($B$6:$B$12)]
+[FORMULA: NC per causa!D6 =SUM($C$6:C6)]
+[FORMULA: NC per causa!C7 =B7/SUM($B$6:$B$12)]
+[FORMULA: NC per causa!D7 =SUM($C$6:C7)]
+[FORMULA: NC per causa!C8 =B8/SUM($B$6:$B$12)]
+[FORMULA: NC per causa!D8 =SUM($C$6:C8)]
+[FORMULA: NC per causa!C9 =B9/SUM($B$6:$B$12)]
+[FORMULA: NC per causa!D9 =SUM($C$6:C9)]
+[FORMULA: NC per causa!C10 =B10/SUM($B$6:$B$12)]
+[FORMULA: NC per causa!D10 =SUM($C$6:C10)]
+[FORMULA: NC per causa!C11 =B11/SUM($B$6:$B$12)]
+[FORMULA: NC per causa!D11 =SUM($C$6:C11)]
+[FORMULA: NC per causa!C12 =B12/SUM($B$6:$B$12)]
+[FORMULA: NC per causa!D12 =SUM($C$6:C12)]
+[FORMULA: NC per causa!B13 =SUM(B6:B12)]
+[FORMULA: NC per causa!E13 =SUM(E6:E12)]
+[FORMULA: Tamponi trend!H6 =AVERAGE(C6:G6)]
+[FORMULA: Tamponi trend!H7 =AVERAGE(C7:G7)]
+[FORMULA: Tamponi trend!H8 =AVERAGE(C8:G8)]
+[FORMULA: Tamponi trend!H9 =AVERAGE(C9:G9)]
+[FORMULA: Tamponi trend!H10 =AVERAGE(C10:G10)]
+[FORMULA: Tamponi trend!H11 =AVERAGE(C11:G11)]
+[FORMULA: Tamponi trend!H12 =AVERAGE(C12:G12)]
+[FORMULA: Tamponi trend!H13 =AVERAGE(C13:G13)]
+[FORMULA: Tamponi trend!H14 =AVERAGE(C14:G14)]
+
+
+--- segnalazione_qualita_cliente_privato_corpo_estraneo.txt ---
+Da: no-reply@aurorafoodgroup.it
+A: info@aurorafoodgroup.it
+Inviato: martedì 12 maggio 2026 18:23
+Oggetto: [SITO WEB] Nuovo messaggio dal form contatti - ID #4471
+
+=== NOTIFICA AUTOMATICA MODULO CONTATTI ===
+sito: www.aurorafoodgroup.it/contatti
+form_id: contact-form-7 id="212" title="Contatti generale"
+data invio: 2026-05-12 18:23:47 CEST
+ip mittente: 93.148.212.67
+user_agent: Mozilla/5.0 (Linux; Android 13; SM-A536B) AppleWebKit/537.36
+(KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36
+referrer: https://www.google.com/
+honeypot: [vuoto - ok]
+gdpr_consent: on
+------------------------------------------
+
+[nome-cognome]: Milena Grigolon
+[email]: milena.grigolon@########.it
+[telefono]: 348 ## ## ###
+[citta]: Bussolengo VR
+[motivo-contatto]: Reclamo / segnalazione prodotto
+[allegato-1]: IMG_20260512_181102.jpg (2,4 MB) - salvato su server, vedi allegato
+
+[messaggio]:
+Buonasera scrivo perche sono MOLTO arrabbiata e anche spaventata. Oggi
+pomeriggio mia figlia di 7 anni stava mangiando la merenda, uno dei vostri
+snack salati quello multicereali comprato al tosano di bussolengo ieri,
+e per fortuna che me lo ha fatto vedere invece di ingoiarlo perche dentro
+cera UN PEZZO DI PLASTICA DURA AZZURRA grande come un unghia, con il bordo
+TAGLIENTE. Vi rendete conto?? poteva soffocarsi o tagliarsi la boca. Ho
+fatto la foto che vi alego, ho tenuto il pezzo di plastica e anche la
+confezione con tutto lo scontrino.
+Sulla confezione ce scritto snack rustico multicereali 100g e il lotto è
+L26130 qualcosa, cè anche una L e dei numeri dopo ma sono stampati male,
+scadenza 24 06 2026.
+Adesso io voglio sapere COSA CE FINITO dentro la merenda di mia figlia e
+come è possibile una cosa del genere in un azienda che dovrebbe controllare.
+Se non mi rispondete entro pochi giorni vado dai carabinieri a fare
+denuncia e lo scrivo anche sui social e sulle recensioni di google cosi
+la gente lo sa cosa vende il tosano, ho gia pronto tutto.
+Aspetto una risposta VELOCE. e non provate a dirmi che me lo sono inventata
+perche ho foto scontrino e testimoni.
+Milena Grigolon
+
+------------------------------------------
+Questa e' una mail generata automaticamente dal sito web. Non rispondere a
+questo indirizzo. Per rispondere al mittente usare l'indirizzo indicato nel
+campo [email].
+cid:image001.png@01DC8A22.4F117B60
+
+________________________________________
+
+Da: Federica Sartori <f.sartori@aurorafoodgroup.it>
+A: Elena Marchetti <e.marchetti@aurorafoodgroup.it>
+Cc: Silvia Bertoldi <s.bertoldi@aurorafoodgroup.it>
+Inviato: mercoledì 13 maggio 2026 08:41
+Oggetto: I: [SITO WEB] Nuovo messaggio dal form contatti - ID #4471
+
+Elena buongiorno,
+ti giro questa arrivata ieri sera sul form del sito, l'ho vista solo adesso
+aprendo la casella info@. Mi sembra seria, c'è di mezzo una bambina. La
+signora minaccia carabinieri e social. Silvia in cc perché parla del Tosano.
+La foto allegata la vedi dal server, è un pezzetto azzurro su un tagliere,
+si vede abbastanza bene.
+Fede
+
+> [messaggio]:
+> Buonasera scrivo perche sono MOLTO arrabbiata e anche spaventata. Oggi
+> pomeriggio mia figlia di 7 anni stava mangiando la merenda [...]
+
+________________________________________
+
+Da: Elena Marchetti <e.marchetti@aurorafoodgroup.it>
+A: Federica Sartori <f.sartori@aurorafoodgroup.it>; Silvia Bertoldi <s.bertoldi@aurorafoodgroup.it>
+Cc: Marco Fantin <m.fantin@aurorafoodgroup.it>; Sara Pozzato <s.pozzato@aurorafoodgroup.it>
+Inviato: mercoledì 13 maggio 2026 09:22
+Oggetto: R: I: [SITO WEB] Nuovo messaggio dal form contatti - ID #4471 - APERTURA RECLAMO
+
+Buongiorno a tutti,
+presa in carico. Apro reclamo su MOD-QA-31, n. progressivo REC-2026-011,
+classificazione: corpo estraneo - segnalazione consumatore - prodotto
+AF-SN-0450, lotto dichiarato L26130 (suffisso linea/turno non leggibile
+dal consumatore, DA VERIFICARE: quel giorno per l'AF-SN-0450 la produzione
+era solo su Linea 1, quindi con ogni probabilità L26130-L1-T2 o -T3 (il T1 ha confezionato con la valvola originale)).
+
+Azioni immediate:
+1. Sara: recuperare i controcampioni del lotto L26130 (entrambi i turni) e
+   ispezionarli; recuperare MOD-QA-07 (metal detector) e MOD-QA-12 del
+   10/05, li voglio sulla mia scrivania entro oggi;
+2. Nicola: verificare giacenze L26130 e L26131 a magazzino e quanto è già
+   uscito verso CE.DI. Cerea, con date DDT (mi serve per l'eventuale
+   valutazione di ritiro, che AD OGGI non è decisa);
+3. io rispondo alla signora oggi stesso e chiedo il campione: senza il
+   frammento fisico non possiamo fare nessuna identificazione del materiale;
+4. NESSUNO contatti Tosano prima che si sia riuniti: la comunicazione al
+   cliente, SE dovuta, deve essere una sola e concordata. Silvia ne parliamo
+   nel pomeriggio.
+Ricordo a tutti che ai sensi della procedura reclami la riservatezza è
+obbligatoria: niente commenti in reparto.
+E.M.
+
+dott.ssa Elena Marchetti - RSGQ / Team Leader HACCP
+Aurora Food Group S.r.l. - Via dell'Industria 27, 37044 Cologna Veneta (VR)
+Il contenuto della presente e-mail e dei relativi allegati è strettamente
+riservato ai sensi del Reg. UE 2016/679 (GDPR).
+
+________________________________________
+
+Da: Elena Marchetti <e.marchetti@aurorafoodgroup.it>
+A: milena.grigolon@########.it
+Inviato: mercoledì 13 maggio 2026 15:47
+Oggetto: Aurora Food Group - riscontro alla Sua segnalazione del 12/05/2026 (rif. REC-2026-011)
+
+Gentile Sig.ra Grigolon,
+
+abbiamo ricevuto la Sua segnalazione del 12 maggio u.s. relativa al prodotto
+"Snack salato rustico multicereali 100 g", lotto L26130, e desideriamo
+innanzitutto scusarci per l'accaduto e per il comprensibile spavento, tanto
+più trattandosi della merenda di una bambina. La ringraziamo per la
+tempestività e la precisione della segnalazione, incluse le fotografie.
+
+La informiamo che la Sua segnalazione è stata immediatamente registrata nel
+nostro sistema di gestione qualità (rif. pratica REC-2026-011) e che sono
+state avviate le verifiche interne sul lotto indicato, come previsto dalle
+procedure del nostro sistema di autocontrollo certificato.
+
+Per poter completare le analisi ci è indispensabile ricevere il frammento
+da Lei rinvenuto, unitamente, se possibile, alla confezione originale.
+Provvederemo noi a ogni onere: un nostro incaricato può ritirare il tutto
+al Suo domicilio nel giorno e nell'orario che vorrà indicarci, oppure
+possiamo inviarLe una busta preaffrancata con imballo idoneo. Il frammento
+sarà analizzato per identificarne natura e provenienza e ricevera' ns.
+riscontro scritto sugli esiti.
+
+Come gesto di attenzione, e senza che ciò costituisca riconoscimento di
+responsabilità che potrà essere accertata solo a valle delle analisi,
+desideriamo farLe pervenire un rimborso del prodotto acquistato e una
+selezione di nostri prodotti.
+
+Restiamo a disposizione al numero diretto 0442 854122 (int. 214, dott.ssa
+Marchetti) per qualsiasi chiarimento e La terremo aggiornata sugli
+sviluppi delle verifiche.
+
+Con i più cordiali saluti,
+dott.ssa Elena Marchetti
+Responsabile Qualità - Aurora Food Group S.r.l.
+
+________________________________________
+
+Da: Elena Marchetti <e.marchetti@aurorafoodgroup.it>
+A: Marco Fantin <m.fantin@aurorafoodgroup.it>
+Cc: Sara Pozzato <s.pozzato@aurorafoodgroup.it>
+Inviato: giovedì 14 maggio 2026 19:12
+Oggetto: REC-2026-011 - RISERVATA - prime evidenze interne
+
+Marco,
+ti scrivo qui perché domani mattina voglio parlartene a voce prima della
+riunione, ma intanto metto in fila i fatti. RISERVATA, non inoltrare.
+
+1. Il frammento: la signora ha accettato il ritiro, il campione arriva
+   domani con il corriere. Dalla foto: plastica rigida, colore azzurro,
+   ca. 9 mm nella dimensione massima, bordo di frattura netto. Non è film MAP (il nostro è
+   trasparente), non è un componente del prodotto.
+2. Il lotto: L26130 = giorno 130 = 10/05/2026. L'AF-SN-0450 quel giorno è
+   stato prodotto SOLO su Linea 1, turni 1 e 2.
+3. E qui viene il punto. Dal MOD-PR-04 risulta che il 10/05 alle 15:05,
+   turno 2, la PKM-450 è stata ferma 3 h 40 per la rottura della valvola
+   di iniezione azoto - quella che Ivano aveva segnalato in perdita già
+   l'8/05. La riparazione l'ha fatta Ivano in emergenza. Sul modulo ha
+   scritto solo "sostituita guarnizione, ripartiti". Gli ho chiesto oggi
+   CON COSA l'ha sostituita, visto che il ricambio originale Pakmatic
+   sarebbe arrivato solo il 15: mi ha risposto che ha usato una guarnizione
+   "compatibile" presa dal carrello ricambi che tiene a bordo linea.
+   Colore della guarnizione: AZZURRO.
+4. Il metal detector MD-3200 su quel lotto ha funzionato regolarmente
+   (MOD-QA-07 completo, verifiche orarie ok) ma la plastica NON è
+   metallica: il MD non poteva vederla. Non è un fallimento del CCP3, è
+   un corpo estraneo che il CCP3 non copre.
+5. Nota a margine che non c'entra col reclamo ma che DEVI sapere prima
+   che la trovi qualcun altro: confrontando il datalogger del PT-104 con
+   il MOD-QA-12 dello stesso turno c'è una discrepanza sulle temperature
+   tra le 14:18 e le 14:47. Ne parliamo domani a quattr'occhi. È
+   esattamente la NC 1 dell'audit di febbraio.
+
+Se il laboratorio conferma la compatibilità del frammento con la
+guarnizione (ho già chiesto ad Analytica Veneta la comparazione, campione
+della guarnizione residua incluso), il perimetro è: lotto L26130-L1-T2 con
+certezza, L26131 in via cautelativa perché la guarnizione non originale è
+rimasta montata fino al 15/05. Stima confezioni interessate: la sto
+facendo con Nicola, ordine di grandezza 8.000-8.500 pezzi sui due lotti.
+
+Intanto oggi è arrivata anche la PEC della Perbellini (Tosano QA): chiede
+spiegazioni scritte entro 48 ore. Quindi la riservatezza è già finita:
+la signora ha reclamato ANCHE al punto vendita, era prevedibile.
+
+Domani 8:00, prima che arrivi Giancarlo.
+Elena
+
+________________________________________
+
+Da: no-reply@aurorafoodgroup.it
+A: info@aurorafoodgroup.it
+Inviato: venerdì 15 maggio 2026 21:05
+Oggetto: [SITO WEB] Nuovo messaggio dal form contatti - ID #4488
+
+=== NOTIFICA AUTOMATICA MODULO CONTATTI ===
+sito: www.aurorafoodgroup.it/contatti
+data invio: 2026-05-15 21:05:12 CEST
+ip mittente: 151.34.88.201
+user_agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X)
+AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1
+honeypot: [vuoto - ok]
+gdpr_consent: on
+------------------------------------------
+
+[nome-cognome]: Stefano B.
+[email]: s.bertag##@#####.com
+[telefono]:
+[citta]: Sona (VR)
+[motivo-contatto]: Reclamo / segnalazione prodotto
+[allegato-1]: [nessun allegato]
+
+[messaggio]:
+Salve, segnalo che in una confezione dei vostri snack multicereali comprata
+al supermercato (promo 3+1) ho trovato un pezzetto di plastica rigida di
+colore celeste/azzurro, piccolo, circa mezzo centimetro. Me ne sono accorto
+masticando, non mi sono fatto niente ma poteva andare peggio. La confezione
+l'ho buttata purtroppo, il pezzetto l'ho tenuto. Non ricordo il lotto, la
+scadenza era fine giugno 2026. Non voglio fare polemiche, ve lo segnalo perché
+se è successo a me magari è successo ad altri e fate i vostri controlli.
+Se vi serve il pezzetto ditemi come farvelo avere.
+
+------------------------------------------
+Questa e' una mail generata automaticamente dal sito web. Non rispondere a
+questo indirizzo.
+
+________________________________________
+
+Da: Elena Marchetti <e.marchetti@aurorafoodgroup.it>
+A: Marco Fantin <m.fantin@aurorafoodgroup.it>; Silvia Bertoldi <s.bertoldi@aurorafoodgroup.it>
+Inviato: venerdì 15 maggio 2026 22:31
+Oggetto: I: [SITO WEB] Nuovo messaggio dal form contatti - ID #4488 - SECONDO CASO
+
+Ve lo giro senza commenti perché il commento lo capite da soli. Secondo
+consumatore, stessa descrizione, plastica rigida azzurra, snack
+multicereali, formato promo 3+1 (quindi AF-SN-0455, stessa linea, stessi
+giorni). Confezione buttata ma frammento conservato. Apro REC-2026-012 e
+lo collego alla 011.
+Con due segnalazioni indipendenti sullo stesso evento la valutazione del
+ritiro cautelativo di L26130 e L26131 non è più rimandabile: la porto
+formalmente in riunione lunedì mattina con i numeri (giacenze, uscito,
+a scaffale, costi). Marco avvisa tu Giancarlo nel weekend, meglio che lo
+sappia da te che da una PEC lunedì.
+Buonanotte, si fa per dire.
+E.M.
+
+Inviato dal mio iPhone
+
+> [messaggio]:
+> Salve, segnalo che in una confezione dei vostri snack multicereali
+> comprata al supermercato (promo 3+1) ho trovato un pezzetto di plastica
+> rigida di colore celeste/azzurro [...]
+
+
+
+--- trascrizione_riunione_direzione_12_05_2026.txt ---
+trascrizione automatica - riunione direzione 13 05 2026 sala riunioni primo piano
+file audio: REC_20260513_1732.m4a
+durata 00:21:56
+nota: trascrizione generata automaticamente, parlanti non verificati
+
+[00:00:03] PARLANTE_1: ok siamo tutti registro perche poi federica deve fare il verbale
+[00:00:08] PARLANTE_2: si ma spegni quando parliamo di
+[00:00:10] PARLANTE_1: no registro tutto basta
+[00:00:14] PARLANTE_3: [rumore di sedia]
+[00:00:17] PARLANTE_1: allora il punto e uno solo oggi il reclamo poi se avanza tempo la cassa e il tunnel di crio tec
+[00:00:24] PARLANTE_2: e gli straordinari giancarlo c'e anche la lettera della rsu
+[00:00:27] PARLANTE_1: si si anche quella dopo
+[00:00:31] PARLANTE_3: allora se posso riassumo io la situazione del reclamo
+[00:00:34] PARLANTE_1: vai elena
+[00:00:37] PARLANTE_3: ieri sera alle 18 e 23 e arrivato dal form del sito un reclamo di una consumatrice una signora grigolon di bussolengo che dichiara di aver trovato un frammento di plastica dura di colore azzurro all'interno di uno snack
+[00:00:52] PARLANTE_3: il prodotto e il rustico multicereali 100 grammi il codice e AF-SN-0450 acquistato al tosano di bussolengo federica me l'ha girato stamattina e alle 9 e 22 ho aperto la pratica
+[00:01:01] PARLANTE_1: quale lotto
+[00:01:03] PARLANTE_3: il lotto che riporta e L26130 quindi giorno 130 che sarebbe il 10 maggio linea 1 turno
+[00:01:10] PARLANTE_2: turno 2 il pomeriggio
+[00:01:12] PARLANTE_3: turno 2 esatto ho aperto il MOD-QA-31 la gestione reclami e protocollato tutto
+[00:01:18] PARLANTE_1: plastica azzurra
+[00:01:20] PARLANTE_3: azzurra si la signora ha mandato anche due foto dal telefono si vede un frammento di circa un centimetro forse un centimetro e mezzo
+[00:01:29] PARLANTE_1: [incomprensibile]
+[00:01:32] PARLANTE_2: aspetta aspetta perche azzurro a me azzurro dice qualcosa
+[00:01:36] PARLANTE_4: in che senso ti dice qualcosa marco
+[00:01:39] PARLANTE_2: nel senso che il 10 pomeriggio sulla linea 1 abbiamo avuto il fermo della confezionatrice la PKM-450 la valvola dell'azoto che gia perdeva da giorni ivano l'aveva segnalata l'8
+[00:01:52] PARLANTE_1: e quindi
+[00:01:54] PARLANTE_2: e quindi ivano ha fatto una riparazione d'emergenza per non tenere ferma la linea tutta la sera ha preso una guarnizione dal carrello dei ricambi quello che tiene a bordo linea
+[00:02:04] PARLANTE_3: il carrello a bordo linea che era la non conformita numero due dell'audit di febbraio lo dico per il verbale
+[00:02:11] PARLANTE_2: si elena lo so grazie
+[00:02:13] PARLANTE_3: no perche l'ho scritto nel piano di azione che andava tolto e non e stato
+[00:02:17] PARLANTE_2: elena adesso non e il momento di
+[00:02:19] PARLANTE_1: basta basta uno alla volta e la guarnizione di che colore era
+[00:02:24] PARLANTE_2: devo chiedere a ivano ma quelle non originali che tiene lui sono azzurre mi pare son quelle in silicone azzur
+[00:02:31] PARLANTE_1: [incomprensibile] porca miseria
+[00:02:34] PARLANTE_4: quindi stiamo dicendo che e nostra la plastica
+[00:02:37] PARLANTE_2: non lo stiamo dicendo silvia stiamo dicendo che e possibile va verificato ho gia mandato a chiamare ivano per farmi dare il pezzo smontato se ce l'ha ancora
+[00:02:46] PARLANTE_1: se ce l'ha ancora
+[00:02:48] PARLANTE_2: se manca un pezzo dalla guarnizione vecchia o da quella nuova che ha tagliato lui a misura allora
+[00:02:53] PARLANTE_3: scusate ma c'e anche l'altra cosa del lotto 130 e va detta adesso
+[00:02:58] PARLANTE_1: quale altra cosa
+[00:03:02] PARLANTE_3: sara ha scaricato ieri i dati del datalogger del PT-104 per la verifica settimanale e sul turno 2 del 10 maggio dalle 14 e 18 alle 14 e 47 la temperatura e scesa sotto i 72 gradi il minimo registrato e 68 virgola 9
+[00:03:18] PARLANTE_1: e il ccp2
+[00:03:20] PARLANTE_3: e il CCP2 si il limite critico e 72 gradi al cuore per almeno due minuti e per quasi mezz'ora eravamo sotto
+[00:03:27] PARLANTE_2: e sul cartaceo cosa c'e scritto
+[00:03:30] PARLANTE_3: eh appunto sul MOD-QA-12 l'operatore ha scritto 74 e 5 conforme
+[00:03:36] PARLANTE_1: come 74 e 5 se la macchina dice 68
+[00:03:39] PARLANTE_3: ha copiato il set point secondo me non ha guardato il display oppure ha compilato a fine turno tutto insieme come fanno sempre
+[00:03:46] PARLANTE_2: che e esattamente la non conformita uno dell'audit la seconda firma di verifica che non
+[00:03:51] PARLANTE_3: che non e mai partita si le evidenze le ho mandate a csqa il 2 aprile lo so che era in ritardo marco me l'hai gia detto tre volte
+[00:03:58] PARLANTE_1: [sospiro] quindi ricapitolando abbiamo un lotto con deviazione del ccp2 non gestita un fermo macchina con guarnizione non originale e un reclamo per plastica azzurra tutto sullo stesso lotto
+[00:04:12] PARLANTE_2: si
+[00:04:12] PARLANTE_3: si
+[00:04:14] PARLANTE_4: [incomprensibile] madonna
+[00:04:16] PARLANTE_1: e il metal detector niente ovvio
+[00:04:19] PARLANTE_3: il MD-3200 la plastica non la vede giancarlo non e metallo il metal detector fa il metallo ferroso non ferroso e acciaio i tasselli sono passati tutti le verifiche orarie sono a posto sul MOD-QA-07
+[00:04:31] PARLANTE_1: si si lo so era per dire che non abbiamo una rete di sicurezza li
+[00:04:35] PARLANTE_2: il raggi x era nel piano investimenti del 2025 e l'abbiamo tagliato per fare spazio al tunnel lo dico cosi resta agli atti
+[00:04:42] PARLANTE_1: marco anche tu adesso con gli atti
+[00:04:44] PARLANTE_2: [risate]
+[00:04:46] PARLANTE_1: allora decisioni cosa facciamo coi lotti
+[00:04:50] PARLANTE_3: la mia proposta come rsgq e blocco immediato del L26130 e in via cautelativa anche del 131 che e stato confezionato con la stessa guarnizione riparata prima della sostituzione del ricambio originale
+[00:05:03] PARLANTE_2: il ricambio pakmatic arriva il 15 venerdi
+[00:05:06] PARLANTE_3: appunto quindi tutto quello che e passato dalla PKM-450 tra la riparazione di ivano e il 15 e potenzialmente
+[00:05:12] PARLANTE_1: quanta roba e
+[00:05:15] PARLANTE_6: posso io ho i numeri di magazzino me li son fatti dare da nicola prima di salire
+[00:05:19] PARLANTE_1: vai denis
+[00:05:21] PARLANTE_6: allora tra 130 e 131 parliamo di circa ottomilaquattrocento confezioni pero attenzione una parte grossa e gia uscita
+[00:05:29] PARLANTE_1: quanto gia uscita
+[00:05:31] PARLANTE_6: sui cinquemilacento pezzi gia consegnati al cedi di cerea e in parte gia a scaffale il resto e ancora da noi in CF-01 e al magazzino di via palu
+[00:05:40] PARLANTE_4: cinquemilacento a scaffale col marchio bonta di casa
+[00:05:44] PARLANTE_6: in parte bonta di casa in parte ali si
+[00:05:47] PARLANTE_4: quindi se si arriva al ritiro lo facciamo sul private label di tosano fantastico proprio adesso che rossi mi sta chiedendo il meno quattro e mezzo sul listino
+[00:05:56] PARLANTE_1: una cosa alla volta silvia
+[00:05:58] PARLANTE_4: no giancarlo non e una cosa alla volta e la stessa cosa se gli diamo il fianco su un reclamo corpo estraneo quello il meno quattro e mezzo me lo chiede col sorriso e ci aggiunge pure la listing fee
+[00:06:08] PARLANTE_2: quant'era la listing fee
+[00:06:10] PARLANTE_4: dodicimila per mettere dentro lo 0455 il formato promo
+[00:06:14] PARLANTE_1: ok ok dopo torniamo su tosano adesso i lotti chi e d'accordo per il blocco di tutti e due
+[00:06:20] PARLANTE_2: d'accordo
+[00:06:21] PARLANTE_3: d'accordo ovviamente
+[00:06:22] PARLANTE_6: d'accordo
+[00:06:23] PARLANTE_4: d'accordo pero decidiamo anche cosa diciamo a tosano perche non possiamo bloccare e stare zitti la perbellini le cose le viene a sapere
+[00:06:31] PARLANTE_3: la dottoressa perbellini va informata da noi prima che lo scopra da sola su questo sono
+[00:06:36] PARLANTE_1: aspetta aspetta informata di cosa esattamente perche c'e modo e modo
+[00:06:41] PARLANTE_3: giancarlo io come team leader haccp ho degli obblighi se il prodotto e potenzialmente non sicuro e gia sul mercato c'e l'articolo 19 del regolamento 178 il ritiro non e una cortesia che facciamo a tosano
+[00:06:53] PARLANTE_1: elena non mi fare la lezione lo so anch'io il centosettantotto sto dicendo che prima di scrivere nero su bianco frammento di plastica dobbiamo essere sicuri che sia nostra
+[00:07:02] PARLANTE_2: su questo ha ragione lui elena se poi la plastica viene fuori che e del sacchetto della signora o di casa sua noi abbiamo ritirato ottomila pezzi per niente
+[00:07:10] PARLANTE_3: e se invece e nostra e aspettiamo e nel frattempo un bambino si rompe un dente chi va a firmare marco tu o io
+[00:07:16] PARLANTE_2: [incomprensibile]
+[00:07:18] PARLANTE_1: [rumore di sedia] calmi
+[00:07:21] PARLANTE_4: la via di mezzo c'e si chiama ritiro cautelativo lo vestiamo da eccesso di prudenza verso il cliente non da ammissione
+[00:07:28] PARLANTE_1: quanto ci costa
+[00:07:30] PARLANTE_6: nicola ha fatto un conto veloce tra logistica smaltimento riaccrediti e il lavoro nostro siamo sull'ordine dei trentamila trentacinquemila
+[00:07:38] PARLANTE_5: trentunmilacinquecento per la precisione e l'ho messo su un foglio che vi giro dopo (con dentro anche il trasporto di ritorno che nicola si era dimenticato)
+[00:07:46] PARLANTE_1: trentunmila e cinque proprio nel mese che dobbiamo dare l'acconto a crio tec
+[00:07:51] PARLANTE_5: eh appunto volevo arrivarci io giancarlo posso dire due cose sulla cassa
+[00:07:55] PARLANTE_1: di pure luisa tanto ormai
+[00:07:58] PARLANTE_5: allora l'acconto sul tunnel a spirale e il trenta per cento di duecentonovantamila quindi ottantasettemila euro e crio tec li vuole entro fine maggio se no slitta la consegna
+[00:08:08] PARLANTE_1: non puo slittare la consegna il TS-01 e un rottame se ci molla in campagna natalizia siamo
+[00:08:14] PARLANTE_5: lo so infatti non sto dicendo di non pagare sto dicendo che l'incasso grosso di tosano quello delle fatture di marzo con la riba a novanta giorni entra il 10 giugno e fino ad allora il conto e in tensione
+[00:08:26] PARLANTE_1: quanto in tensione
+[00:08:28] PARLANTE_5: se paghiamo gli ottantasettemila e ci mettiamo anche il ritiro andiamo oltre l'affidamento di conto che e duecentocinquantamila quindi bisogna usare l'anticipo fatture ho gia sentito la filiale di unicredit qua a cologna il plafond anticipo e quattrocentomila e ne stiamo usando
+[00:08:42] PARLANTE_5: [incomprensibile] duecentoventi mi pare devo verificare
+[00:08:46] PARLANTE_1: quindi ci sta dentro
+[00:08:48] PARLANTE_5: ci sta dentro stretto se non arriva altro se tosano per dire si mette a contestare le fatture dei lotti ritirati o a compensare col ritiro allora no
+[00:08:56] PARLANTE_4: lo fara silvia lo sa lo fara la compensazione la fanno sempre
+[00:08:59] PARLANTE_5: appunto per quello lo dico adesso
+[00:09:02] PARLANTE_1: ok quindi ordine dei pagamenti prima crio tec poi il resto e per il ritiro vediamo se la polizza copre qualcosa luisa la polizza rc prodotto la garanzia richiamo
+[00:09:12] PARLANTE_5: c'e la garanzia ritiro nella polizza ma c'e una franchigia importante mi pare quindicimila e la polizza scade pure il 30 giugno col rinnovo da firmare guardo le condizioni e vi dico anche se onestamente non l'ho mai letta tutta quella polizza e scritta in corpo quattro
+[00:09:26] PARLANTE_1: [risate] come tutte le polizze
+[00:09:29] PARLANTE_2: torniamo un attimo alla produzione che io alle sei devo essere giu allora io propongo per la linea 1 fermo tecnico domattina primo turno smontiamo la valvola verifichiamo la guarnizione di ivano la fotografiamo la pesiamo e la confrontiamo col frammento della signora se la signora ce lo manda
+[00:09:44] PARLANTE_3: il frammento va fatto avere anche al laboratorio esterno analytica per la caratterizzazione del materiale se e lo stesso polimero della guarnizione
+[00:09:52] PARLANTE_2: si ok
+[00:09:54] PARLANTE_3: e la signora va richiamata oggi io proporrei che la chiami sara che e brava con
+[00:09:58] PARLANTE_1: no la chiamo io la signora e una cliente e un consumatore nostro la chiamo io e mi scuso e basta senza entrare nel merito
+[00:10:05] PARLANTE_3: giancarlo con rispetto no deve essere una chiamata gestita col modulo reclami se le dici una parola sbagliata quella se la ritrova scritta
+[00:10:12] PARLANTE_4: papa ha ragione elena su questa
+[00:10:14] PARLANTE_1: va bene va bene chiamate voi ma gentili
+[00:10:17] PARLANTE_3: sempre
+[00:10:19] PARLANTE_2: poi c'e l'operatore del MOD-QA-12 quello del 74 e 5 va sentito ma senza processarlo perche se lo processiamo quello domani scrive quello che vede il giorno dopo non scrive piu niente
+[00:10:29] PARLANTE_3: va fatta formazione supplementare a tutto il turno e va finalmente attivata la seconda firma entro fine turno come da piano azioni dell'audit che era gia
+[00:10:37] PARLANTE_2: si elena era gia scritto lo sappiamo
+[00:10:39] PARLANTE_3: era gia scritto a febbraio marco siamo a maggio
+[00:10:42] PARLANTE_1: e chi era l'operatore
+[00:10:44] PARLANTE_2: era il turno di popesco il turno 2 ma non e detto che il modulo l'abbia scritto lui c'erano quattro persone
+[00:10:50] PARLANTE_3: ionut e uno dei piu precisi tra l'altro sul suo quaderno segna tutto anche troppo
+[00:10:55] PARLANTE_1: il quaderno [risate] il famoso quaderno di popesco
+[00:10:58] PARLANTE_2: ridi ridi che con quel quaderno ci abbiamo ricostruito mezza settimana quando e saltato il gestionale a marzo
+[00:11:10] PARLANTE_4: quello che e venuto giovedi
+[00:11:18] PARLANTE_2: tutti i file in che senso
+[00:11:38] PARLANTE_5: anche i miei excel scusa
+[00:11:40] PARLANTE_1: anche i tuoi excel luisa
+[00:11:42] PARLANTE_5: ma li capisce lui il mio excel che io ho le note tra parentesi dappertutto
+[00:11:46] PARLANTE_1: [risate] dice di si dice che piu roba gli diamo meglio
+[00:11:50] PARLANTE_3: io su questo devo mettere un paletto formale nei registri qualita ci sono dati sensibili nomi di consumatori il reclamo della grigolon per dire c'e il gdpr non si puo dare tutto a un fornitore esterno senza nomina a responsabile del trattamento
+[00:12:02] PARLANTE_1: e infatti gli facciamo firmare quello che serve elena tu preparami la lista di cosa non
+[00:12:07] PARLANTE_2: [incomprensibile] scusate e arrivato ivano lo faccio salire
+[00:12:11] PARLANTE_1: fallo salire
+[00:12:14] [rumore di porta]
+[00:12:18] PARLANTE_7: permesso
+[00:12:19] PARLANTE_1: vieni ivano siediti
+[00:12:22] PARLANTE_7: no sto in piedi che son sporco go le man onte
+[00:12:25] PARLANTE_2: ivano la guarnizione che hai messo sulla PKM il 10 quella della valvola azoto ce l'hai ancora quella vecchia che hai tolto
+[00:12:32] PARLANTE_7: la vecia l'ho butada era finita spacada in due
+[00:12:36] PARLANTE_2: e quella nuova che hai messo di che colore era
+[00:12:39] PARLANTE_7: quela azzurra quela in silicone che go sul carelo perche l'originale pakmatic ariva venerdi lo sapevi anca ti marco te l'ho anca deto
+[00:12:47] PARLANTE_2: si si lo so non e un processo l'hai tagliata a misura tu
+[00:12:51] PARLANTE_7: si col cutter la era un fila granda
+[00:12:54] PARLANTE_3: e i ritagli scusi dal maso i ritagli del taglio dove sono finiti
+[00:12:58] PARLANTE_7: [incomprensibile] i ritagli boh saranno nel bidon o
+[00:13:02] PARLANTE_7: o la
+[00:13:04] [silenzio]
+[00:13:09] PARLANTE_1: o la dove ivano
+[00:13:12] PARLANTE_7: eh no digo che go tagia sora el nastro che la machina era ferma eh la linea era ferma no girava niente pero
+[00:13:19] PARLANTE_3: ha tagliato la guarnizione sopra il nastro trasportatore
+[00:13:22] PARLANTE_7: la machina era ferma dotoressa
+[00:13:25] PARLANTE_3: la macchina era ferma ma i prodotti erano
+[00:13:27] PARLANTE_2: ok ok ivano grazie dopo vengo giu io e vediamo insieme il punto esatto va la intanto
+[00:13:33] PARLANTE_7: [incomprensibile] scusa marco mi no volevo
+[00:13:36] PARLANTE_1: lo sappiamo ivano nessuno ti sta accusando vai pure
+[00:13:40] [rumore di porta]
+[00:13:44] PARLANTE_1: [sospiro lungo]
+[00:13:47] PARLANTE_4: beh almeno adesso sappiamo
+[00:13:49] PARLANTE_2: non sappiamo ancora niente silvia sappiamo che e possibile e diverso comunque il fermo domattina lo confermo e faccio fare a denis un controllo visivo su tutto quello che e ancora in casa del 130 e del 131
+[00:13:59] PARLANTE_6: col personale che ho lo faccio ma mi servono almeno quattro persone in piu dal turno di notte
+[00:14:04] PARLANTE_2: prenditele
+[00:14:05] PARLANTE_6: si ma andiamo di nuovo in straordinario denis cioe scusa marco andiamo di nuovo in straordinario e siamo gia oltre con sei operai della linea 2 la rsu ha gia mandato la lettera per le duecentocinquanta ore
+[00:14:15] PARLANTE_2: lo so
+[00:14:17] PARLANTE_4: le tre domeniche di fila per la promo sottocosto era aprile maggio settimane 19 20 21 gli ordini li ha voluti tosano mica noi
+[00:14:24] PARLANTE_6: si ma le ore le fanno i miei mica tosano silvia e infatti me ne sono andati via quattro in cinque mesi dalla linea 2 tutti col motivo dei turni della domenica
+[00:14:32] PARLANTE_1: questo e un problema vero ma non di stasera federica sta gia preparando una proposta coi riposi compensativi la vediamo lunedi con la rsu
+[00:14:40] PARLANTE_6: va bene pero mettiamola in calendario davvero perche l'ultima volta
+[00:14:43] PARLANTE_1: e in calendario denis
+[00:14:46] PARLANTE_3: posso ricapitolare le azioni per il verbale che sara poi lo devo passare a federica
+[00:14:50] PARLANTE_1: vai
+[00:14:52] PARLANTE_3: uno blocco immediato lotti L26130 e L26131 tutte le referenze passate dalla PKM-450 etichettatura non conforme e segregazione in CF-01 e a via palu registrazione su MOD-MAG-02 responsabile faggionato entro stasera
+[00:15:06] PARLANTE_3: due fermo tecnico linea 1 domattina primo turno smontaggio valvola azoto verifica guarnizione fotografie responsabile fantin con dal maso
+[00:15:15] PARLANTE_3: tre richiamo alla signora grigolon lo faccio io con sara oggi entro le 18 richiesta del frammento per analisi
+[00:15:22] PARLANTE_3: quattro frammento e campione guarnizione ad analytica veneta per caratterizzazione polimero
+[00:15:28] PARLANTE_3: cinque comunicazione a tosano alla dottoressa perbellini la prepariamo domani mattina io e silvia e la firma l'ingegner fantin
+[00:15:35] PARLANTE_2: perche io scusa
+[00:15:37] PARLANTE_3: perche i verbali tecnici li firmi sempre tu marco
+[00:15:40] PARLANTE_2: [risate] va bene va bene
+[00:15:43] PARLANTE_3: sei valutazione ritiro cautelativo decisione entro giovedi quando abbiamo l'esito almeno preliminare da analytica costo stimato trentunmilacinquecento come da foglio della rag trentin
+[00:15:53] PARLANTE_3: sette verifica copertura assicurativa garanzia ritiro richiamo responsabile trentin
+[00:15:59] PARLANTE_3: otto formazione registrazioni ccp e attivazione seconda firma su MOD-QA-12 e MOD-QA-07 responsabile io con zanella entro fine mese e stavolta davvero
+[00:16:08] PARLANTE_1: e stavolta davvero [risate]
+[00:16:19] PARLANTE_1: bene otto punti mi sembra
+[00:16:21] PARLANTE_5: nove scusate manca il nono l'acconto crio tec lo mando o no perche il bonifico se deve partire questa settimana io devo
+[00:16:28] PARLANTE_1: mandalo luisa mandalo il tunnel non si tocca piuttosto tiro io dal mio ma il tunnel
+[00:16:34] PARLANTE_5: ok allora ottantasettemila a criotech impianti questa settimana e attivo l'anticipo sulle fatture di aprile lo segno (poi giancarlo mi firmi la distinta domani mattina non come l'altra volta)
+[00:16:44] PARLANTE_1: si luisa domani mattina promesso
+[00:16:47] PARLANTE_4: e a rossi cosa dico se mi chiama che mi chiama di sicuro
+[00:16:51] PARLANTE_1: a rossi non dici niente finche non abbiamo scritto alla perbellini le due cose devono arrivare insieme se no quello usa il reclamo per il listino te l'ho detto
+[00:16:59] PARLANTE_4: l'ho detto io veramente [risate]
+[00:17:02] PARLANTE_1: l'hai detto tu va bene l'hai detto tu
+[00:17:05] PARLANTE_2: io vado giu che fantini mi aspetta cioe che... aspetta chi mi aspetta rossato quello di tecnoforni per il bruciatore del FT-02
+[00:17:12] PARLANTE_1: quello e un altro capitolo ancora quanto ci costa il bruciatore
+[00:17:16] PARLANTE_2: non lo so ancora gianni mi da il preventivo stasera se e sopra i cinquemila te lo porto a firmare
+[00:17:21] PARLANTE_5: sopra i duemila marco sopra i duemila me lo porti che c'e la procedura acquisti (quella che nessuno segue)
+[00:17:27] PARLANTE_2: [risate] va bene luisa sopra i duemila
+[00:17:30] PARLANTE_1: ok chiudiamo ah no ultima cosa due minuti l'ispezione dell'ulss
+[00:17:35] PARLANTE_3: la notifica non e ancora arrivata giancarlo ne abbiamo parlato con la dottoressa vicentini che ha sentito dire che stanno programmando il giro delle registrate qua in zona per giugno requisiti strutturali regolamento 852 allegato due
+[00:17:47] PARLANTE_1: quindi ci arrivera
+[00:17:49] PARLANTE_3: probabilmente a giugno si e con lo stato dei pavimenti della zona forni linea 1 io un giro di resina lo farei prima
+[00:17:56] PARLANTE_2: i pavimenti li ho gia preventivati elena diciotto mila la zona forni
+[00:18:00] PARLANTE_5: diciottomila anche questi (li segno nella lista dei desideri)
+[00:18:04] PARLANTE_1: [risate] la lista dei desideri della trentin
+[00:18:07] PARLANTE_1: va bene chiudiamo davvero grazie a tutti elena il verbale a federica entro domani
+[00:18:12] PARLANTE_3: entro domani si
+[00:18:14] PARLANTE_4: papa due minuti tu ed io sulla telefonata a rossi di doma
+[00:18:17] PARLANTE_1: si resta resta
+[00:18:19] [rumore di sedie]
+[00:18:23] PARLANTE_2: [incomprensibile] ... il quaderno di popesco fattelo dare comunque elena secondo me sul 10 c'e scritto
+[00:18:29] PARLANTE_3: gia chiesto ieri me lo porta domani con
+[00:18:32] [registrazione interrotta]
+[00:18:32] --- fine segmento 1 ---
+
+[00:18:40] --- segmento 2 ---
+[00:18:41] PARLANTE_1: e ripartito si vede la lucetta si ok
+[00:18:44] PARLANTE_4: allora rossi il punto e che il rinnovo listino 2026 2027 lui e partito da meno quattro e mezzo su tutto
+[00:18:51] PARLANTE_1: su tutto tutto
+[00:18:53] PARLANTE_4: su tutto e sul cornetto private label lo 0215 noi col meno quattro e mezzo andiamo sotto zero di margine industriale sotto zero papa non basso sotto
+[00:19:02] PARLANTE_1: coi numeri di chi della trentin o i tuoi
+[00:19:05] PARLANTE_4: della trentin e anche i miei stavolta dicono la stessa cosa piu o meno
+[00:19:09] PARLANTE_1: piu o meno [risate]
+[00:19:11] PARLANTE_4: e poi c'e la listing fee di dodicimila per lo 0455 e adesso con sta storia del reclamo io la trattativa la congelerei finche
+[00:19:18] PARLANTE_1: no congelarla no silvia se la congeli lui capisce che abbiamo un problema piuttosto la rallenti chiedi i dati dei volumi promo di
+[00:19:26] PARLANTE_4: [incomprensibile]
+[00:19:28] PARLANTE_1: esatto cosi prendiamo due settimane e intanto si chiude la storia del lotto e poi c'e il discorso vega se partiamo con minerbe la capacita raddoppia e allora il listino lo trattiamo da un'altra posizione ma questo rossi non lo deve
+[00:19:39] PARLANTE_4: non lo sa nessuno di vega papa neanche in azienda
+[00:19:42] PARLANTE_1: e deve restare cosi finche la banca non
+[00:19:45] [incomprensibile]
+[00:19:48] [rumore di sedia]
+[00:19:50] --- fine segmento 2 ---
+
+[00:20:11] --- segmento 3 ---
+[00:20:12] PARLANTE_4: e ancora acceso questo
+[00:20:14] PARLANTE_1: lascialo tanto poi federica taglia
+[00:20:17] PARLANTE_4: senti un'altra cosa la mail della perbellini di domani chi la scrive materialmente perche elena scrive in un modo che
+[00:20:24] PARLANTE_1: in burocratese [risate]
+[00:20:26] PARLANTE_4: eh cita le norme ogni due righe alla perbellini va bene eh lei e una di qualita pure lei pero il tono lo voglio vedere prima io
+[00:20:33] PARLANTE_1: va bene la scrive elena e la rileggi tu prima che parta e non deve esserci scritto da nessuna parte guarnizione finche analytica non
+[00:20:41] PARLANTE_4: si dice frammento in corso di caratterizzazione una cosa cosi
+[00:20:45] PARLANTE_1: brava una cosa cosi
+[00:20:48] PARLANTE_4: e la signora grigolon se chiede un rimborso o
+[00:20:51] PARLANTE_1: le mandiamo un pacco dei nostri e le scuse e se chiede altro passa dalla polizza per quello ho detto alla trentin di guardarla
+[00:20:58] PARLANTE_4: sperando che il ritiro sia coperto
+[00:21:00] PARLANTE_1: sperando si perche tra franchigia e scoperto queste polizze quando servono davvero
+[00:21:05] PARLANTE_4: [incomprensibile]
+[00:21:07] PARLANTE_1: e poi c'e la storia che la garanzia richiamo mi pare copra solo se c'e rischio per la salute accertato non se ritiriamo per prudenza devo far vedere le condizioni al bellotto no al broker
+[00:21:17] PARLANTE_4: al broker si il bellotto fa i conti non le polizze
+[00:21:20] PARLANTE_1: [risate] vero
+[00:21:23] PARLANTE_4: ok io scappo che ho la call con quelli di famila alle sei e mezza per la sfogliatina bio
+[00:21:28] PARLANTE_1: vai vai io resto che devo richiamare il consulente quello dei file che mi ha mandato una lista lunga cosi di cartelle che vuole
+[00:21:35] PARLANTE_4: dagli anche i verbali vecchi cosi almeno una volta li legge qualcuno [risate]
+[00:21:39] PARLANTE_1: [risate] appunto
+[00:21:42] [rumore di porta]
+[00:21:46] [colpi di tosse]
+[00:21:51] PARLANTE_1: pronto si buonasera sono bertoldi della aurora la disturbo per
+[00:21:56] [fine registrazione]
+
+
+
+--- verbale_riesame_direzione_SGQ_2026.txt ---
+AURORA FOOD GROUP S.R.L. - Via dell'Industria 27 - 37044 Cologna Veneta (VR)
+SISTEMA DI GESTIONE QUALITA' E SICUREZZA ALIMENTARE
+
+VERBALE DI RIESAME DELLA DIREZIONE - ANNO 2026
+Rif. BRCGS Food Safety Issue 9 cl. 1.1.4 - IFS Food v8 par. 1.4 - Manuale HACCP Aurora v4
+
+Data: 12/03/2026 - ore 9:00 / 13:20 - Sala riunioni uffici, primo piano
+Redazione verbale: dott.ssa E. Marchetti (RSGQ)
+Approvazione: ing. M. Fantin (Direttore di Stabilimento)
+
+1. PARTECIPANTI
+
+   Presente   Giancarlo Bertoldi        Amministratore Delegato (presente fino ore 11:10)
+   Presente   ing. Marco Fantin         Direttore di Stabilimento / Operations
+   Presente   dott.ssa Elena Marchetti  Responsabile SGQ - Team Leader HACCP
+   Presente   Denis Zanella             Responsabile Produzione
+   Presente   Nicola Faggionato         Responsabile Magazzino e Spedizioni
+   Presente   rag. Luisa Trentin        Amministrazione (solo punti 6 e 9)
+   Presente   Federica Sartori          HR (solo punto 7)
+   Presente   Sara Pozzato              Assistente Qualita / QC
+   Invitata   dott.ssa Chiara Vicentini Consulente HACCP esterna - Studio Alimentaria
+   Assente g. Silvia Bertoldi           Direzione Commerciale (trasferta cliente)
+   Assente g. dott. Alberto Zanchetta   R&D
+
+   Il presente riesame copre il periodo 01/01/2025 - 28/02/2026. Il precedente
+   riesame si e' tenuto in data 14/03/2025 (verbale RD-2025-01).
+
+2. VERIFICA AZIONI DEL PRECEDENTE RIESAME
+
+   2.1  Delle n. 11 azioni deliberate nel riesame 2025 risultano:
+        - chiuse con evidenza:            8
+        - chiuse parzialmente:            2  (piano tarature esteso; polivalenze Linea 2)
+        - non attuate:                    1  (digitalizzazione archivio qualita - rinviata
+                                             per mancanza di risorse, ripresa al punto 9.4)
+
+   2.2  La Direzione prende atto che l'azione "matrice polivalenze Linea 2" risulta
+        superata dagli eventi (v. punto 7 - turnover) e va riformulata.
+
+3. DATI DI INGRESSO - ESITI AUDIT
+
+   3.1  Audit di certificazione CSQA Certificazioni S.r.l. (Thiene VI), 17-18/02/2026,
+        combinato BRCGS Food Safety Issue 9 + IFS Food v8.
+        Auditor lead dott.ssa N. Franceschini, co-auditor p.i. F. Menegazzo.
+        Esito: conferma grade AA BRCGS (cert. BRC/IT/24/00871) e IFS Higher Level
+        97,32% (cert. IFS/IT/25/03390).
+
+   3.2  Non conformita' rilevate: n. 2 minori.
+        NC 1 - registrazioni manuali CCP2/CCP3 senza verifica in seconda firma entro
+               fine turno (rif. BRCGS 9 cl. 2.10.2 / IFS 2.3.9.2). Registrata a sistema
+               come NC-2026-028.
+        NC 2 - ricambi e attrezzi di manutenzione custoditi in area produttiva senza
+               controllo integrita' (BRCGS cl. 4.7.5). Registrata come NC-2026-029.
+
+   3.3  Termine per l'invio delle evidenze di chiusura: 28 giorni dalla notifica,
+        ovvero 17/03/2026. Alla data odierna la raccolta evidenze NON risulta
+        completata: mancano le firme di presa visione dei capiturno sul modulo
+        MOD-QA-12 revisionato e le foto dell'armadio ricambi in officina.
+        La Direzione RICHIAMA la RSGQ al rispetto tassativo della scadenza.
+        [annotazione a margine: evidenze poi trasmesse a CSQA in data 02/04/2026,
+        oltre il termine - v. NC-2026-049 e NC-2026-061]
+
+   3.4  Audit interni 2025: eseguiti 9 su 10 pianificati (90%). L'audit su gestione
+        vetro/plastica dura e' slittato a gennaio 2026, eseguito il 28/01/2026.
+
+   3.5  Audit clienti: audit igienico Tosano (dott.ssa Perbellini) del 06/11/2025,
+        esito positivo con 3 osservazioni, tutte chiuse.
+
+4. DATI DI INGRESSO - RECLAMI E NON CONFORMITA'
+
+   4.1  Reclami cliente/consumatore anno 2025: n. 41 totali, pari a 0,89 reclami
+        per milione di pezzi venduti (obiettivo: < 1,0 - RAGGIUNTO).
+        Ripartizione 2025:  corpo estraneo 4 - confezionamento 17 - organolettici
+        12 - etichettatura 5 - altro 3. Nessun reclamo con esito sanitario.
+
+   4.2  Reclami gennaio-febbraio 2026: n. 5 (Ali' saldature film, consumatore
+        numero verde, Famila etichetta bio, piu' 2 minori). Andamento in linea.
+
+   4.3  Non conformita' interne: anno 2025 n. 214 (di cui 9 gravi); gennaio-febbraio
+        2026 n. 37 registrate a MOD-QA-31. Le NC aperte da oltre 60 giorni alla data
+        odierna sono n. 6: la Direzione ne chiede la revisione puntuale entro il
+        30/04 (resp. RSGQ).
+
+   4.4  Costo della non qualita' 2025: 68.400 euro stimati (sfridi da NC, resi,
+        declassamenti). Dato parziale: mancano i costi di 31 NC prive di stima.
+        La Direzione richiama i responsabili di reparto alla compilazione del campo
+        costo entro 5 giorni dalla chiusura della NC.
+
+5. DATI DI INGRESSO - INDICATORI KPI QUALITA'
+
+   5.1  Tabella indicatori (consuntivo 2025 vs obiettivo):
+
+        Indicatore                              Obiettivo    Consuntivo   Esito
+        ------------------------------------------------------------------------
+        Reclami / mio pezzi                     < 1,0        0,89         OK
+        Resa prima scelta Linea 1               > 97,0%      97,4%        OK
+        Resa prima scelta Linea 2               > 96,5%      95,8%        NO
+        Resa prima scelta Linea 3               > 97,0%      97,1%        OK
+        Deviazioni CCP con blocco lotto         0            1            NO
+        Verifiche MD eseguite / previste        100%         99,2%        NO
+        Tamponi ambientali conformi             > 95%        96,3%        OK
+        Puntualita' consegne CE.DI. (OTIF)      > 98%        96,1%        NO
+        Ore formazione / addetto                >= 8         6,2          NO
+        Mock recall entro 2 h                   100%         v. 5.3       NO
+
+   5.2  La resa Linea 2 sconta i volumi promozionali Tosano e il ricorso a personale
+        neoassunto. Il dato OTIF risente dei ritardi sul CE.DI. di Cerea (v. NC-2026-042
+        del 06/03: slot 7:30 mancato, arrivo 10:52, carico respinto). Zanella e
+        Faggionato presenteranno entro il 15/04 un piano congiunto carico notturno.
+
+   5.3  Mock recall del 10/03/2026 su lotto AF-SN-0450 L26068-L1-T2: tracciabilita'
+        a monte completata in 55 min (conforme), a valle in 3 h 50 min contro
+        obiettivo 2 h (NON conforme - v. NC-2026-044). Causa: estrazione manuale dei
+        dati spedizioni da piu' fogli Excel. Il tema rimanda alla decisione ERP
+        (punto 9.2). Bilancio di massa ricostruito al 99,6% (accettabile > 99%).
+
+   5.4  CCP - stato delle verifiche:
+        CCP1 setacciatura/magnete: nessuna deviazione 2025-2026.
+        CCP2 PT-104: 1 deviazione 2025 (lotto riprocessato); nessuna nel bimestre.
+        CCP3 MD-3200: evento del 09/02/2026 (tassello Fe non rilevato, NC-2026-022)
+             gestito con ricontrollo retroattivo; intervento assistenza Loma eseguito.
+        CCP4 surgelazione: 1 deviazione 14/01/2026 (NC-2026-006) da degrado TS-01.
+        La Direzione prende atto che il TS-01 e' il principale fattore di rischio
+        impiantistico e conferma l'investimento di cui al punto 9.1.
+
+6. DATI DI INGRESSO - TARATURE, FORNITORI, LABORATORIO
+
+   6.1  Tarature: piano 2026 emesso; 92% strumenti in corso di validita' al 28/02.
+        In scadenza marzo: termometro campione di laboratorio e 2 sonde spillone.
+        Resp. Pozzato, verifica scadenzario mensile documentata.
+
+   6.2  Valutazione fornitori 2025 (vendor rating su qualita'/servizio/documenti):
+        - classe A: F0012 Molino Veneto, F0025, F0029, F0061 Nordgas, F0090 Analytica
+        - classe B: F0021 Latteria Bassanese (consegna a +9,5 gradi respinta il
+          21/01/26), F0044 Flexipack (bobina fuori spessore 10/02/26), F0031
+          Euroglass (rotture da trasporto), F0095
+        - classe C: nessuno.
+        F0018 Oleificio Adriatico: qualita' regolare ma aumento listino +11%;
+        la Direzione da' mandato all'ufficio acquisti di sondare un secondo
+        fornitore di olio alto oleico entro giugno.
+
+   6.3  Laboratorio esterno Analytica Veneta S.r.l. (ACCREDIA n. 0987): contratto
+        rinnovato; piano analitico 2026 approvato (patogeni, shelf life, MOCA).
+        Evento Listeria spp. su tampone ambientale canalina Linea 3 del 24/02
+        (NC-2026-034): sanificazione straordinaria e ritampone negativo a 48 h;
+        frequenza MOD-QA-19 raddoppiata in zona 2 per 3 mesi.
+
+7. DATI DI INGRESSO - RISORSE UMANE E FORMAZIONE
+
+   7.1  Organico al 28/02/2026: 50 unita' (38 produzione, 12 uffici).
+        Turnover Linea 2: n. 2 dimissioni tra gennaio e febbraio 2026, tutte
+        con motivazione dichiarata legata ai turni domenicali per gli ordini Tosano.
+        [nota successiva a verbale: quarta dimissione registrata il 26/03 -
+        NC-2026-056]
+
+   7.2  Straordinari: proiezione superamento del limite di 250 h/anno per 6 addetti
+        di Linea 2 se confermate le domeniche promozionali di aprile-maggio
+        ("Sottocosto Primavera", settimane 19-21). E' pervenuta contestazione RSU.
+        La Direzione incarica HR e il Responsabile Produzione di predisporre un
+        piano riposi compensativi e di valutare 2 inserimenti in somministrazione.
+        L'AD chiede tuttavia che gli ordini Tosano "non si tocchino".
+
+   7.3  Formazione: consuntivo 2025 pari a 6,2 h/addetto contro obiettivo 8.
+        Attestati HACCP in scadenza nel quadrimestre: n. 5 (registro MOD-HR-11).
+        Piano formazione 2026 approvato seduta stante: HACCP base e aggiornamento,
+        allergeni e sequenze di produzione (a cura dott.ssa Vicentini), corpi
+        estranei e cultura della sicurezza alimentare, ripasso MOD-QA-07 rev.5.
+
+   7.4  Infortuni: 1 evento lieve 2025 (nessuno grave). Si rimanda al riesame
+        sicurezza con RSPP p.i. Bonato per il dettaglio.
+
+8. ADEGUATEZZA DELLE RISORSE
+
+   8.1  La Direzione valuta le risorse ADEGUATE CON RISERVA:
+        a) organico Linea 2 sottodimensionato rispetto ai volumi promozionali;
+        b) funzione Qualita' composta da 2 persone (RSGQ + assistente) a fronte di
+           2 standard certificati, 1 linea bio ICEA e crescente richiesta
+           documentale dei clienti GDO;
+        c) manutenzione: 2 addetti interni (Dal Maso, Bissoli) piu' terzisti; il
+           parco macchine Linea 1 (PKM-450 in particolare) mostra usura crescente
+           e il magazzino ricambi critici non e' presidiato.
+        L'AD si riserva di valutare un inserimento in Qualita' nel secondo
+        semestre, subordinato all'andamento di cassa (v. punto 9.1).
+
+9. DECISIONI DELLA DIREZIONE
+
+   9.1  Investimento tunnel di surgelazione a spirale Criotech CR-SP180 (fornitore
+        F0070) in sostituzione del TS-01: CONFERMATO. Ordine gia' emesso; acconto
+        30% pari a 87.000 euro in scadenza a maggio 2026. La rag. Trentin segnala
+        la concomitanza con incassi Tosano a 90 gg (RIBA) e l'utilizzo previsto
+        della linea anticipo fatture UniCredit. La Direzione approva la copertura
+        finanziaria proposta e incarica lo Studio Bellotto di istruire la pratica
+        del credito d'imposta beni strumentali con perizia di interconnessione.
+
+   9.2  Sistema informativo: prosegue la valutazione comparativa ERP CSB-System vs
+        SAP Business One, anche alla luce dell'esito del mock recall (punto 5.3).
+        Decisione attesa entro settembre 2026. Referenti: Fantin, Trentin.
+
+   9.3  Revisione modulistica CCP: MOD-QA-12 e MOD-QA-07 rev.5 integrati con campo
+        di seconda firma di verifica entro fine turno, come da azione correttiva
+        NC audit. La RSGQ verifichera' l'efficacia con controlli a campione
+        settimanali per 8 settimane dalla messa in uso.
+
+   9.4  Digitalizzazione archivio qualita': l'AD chiede di riportare il tema con
+        un preventivo concreto entro l'autunno; per ora si conferma l'archivio
+        cartaceo con scansione dei soli documenti critici.
+
+   9.5  Politica per la sicurezza alimentare: riconfermata senza modifiche,
+        ripubblicata in bacheca con data 12/03/2026.
+
+10. OBIETTIVI 2026
+
+   10.1 Tabella obiettivi (con stato di avanzamento al 28/02):
+
+        Obiettivo 2026                              Target       Avanzamento
+        -----------------------------------------------------------------------
+        Reclami / mio pezzi                         < 0,85       in linea (5 recl.)
+        Resa prima scelta Linea 2                   > 96,5%      12%   (in ritardo)
+        OTIF consegne CE.DI.                        > 98%        20%   (in ritardo)
+        Deviazioni CCP con blocco lotto             0            n. 1 al 28/02
+        Mock recall a valle entro 2 h               100%         0%    (v. 5.3)
+        Ore formazione / addetto                    >= 8         15%
+        Chiusura NC entro 30 gg                     >= 90%       71%
+        Messa in servizio tunnel CR-SP180           31/10/2026   ordine emesso
+        Costo non qualita'                          < 60.000     6.800 al 28/02
+
+   10.2 Gli obiettivi sono giudicati raggiungibili ad eccezione della resa Linea 2,
+        che dipende dalla soluzione del punto 7.2.
+
+11. AZIONI DELIBERATE
+
+        N.   Azione                                          Resp.        Scadenza
+        -----------------------------------------------------------------------------
+        A1   Invio evidenze chiusura NC audit a CSQA         Marchetti    17/03/2026
+        A2   Verifica efficacia doppia firma CCP2/CCP3       Marchetti    31/05/2026
+        A3   Armadio ricambi chiuso in officina + inventario Dal Maso     31/03/2026
+        A4   Piano carico notturno consegne Cerea            Faggionato   15/04/2026
+        A5   Piano riposi compensativi + 2 somministrati L2  Sartori      30/04/2026
+        A6   Revisione NC aperte oltre 60 gg                 Marchetti    30/04/2026
+        A7   Secondo fornitore olio alto oleico              Trentin      30/06/2026
+        A8   Pratica credito imposta CR-SP180 con Bellotto   Trentin      31/05/2026
+        A9   Recupero attestati HACCP in scadenza            Sartori      21/05/2026
+        A10  Preventivo digitalizzazione archivio            Fantin       30/09/2026
+        A11  Aggiornamento matrice allergeni con saletta R&D Marchetti    30/06/2026
+
+12. CONCLUSIONI
+
+   12.1 La Direzione giudica il Sistema di Gestione COMPLESSIVAMENTE ADEGUATO,
+        EFFICACE e ALLINEATO agli indirizzi strategici, con le riserve espresse ai
+        punti 5.2, 7.2 e 8.1. Il mantenimento delle certificazioni BRCGS grade AA
+        e IFS Higher Level e' confermato quale obiettivo primario.
+
+   12.2 Prossimo riesame ordinario: marzo 2027. Resta facolta' della RSGQ di
+        convocare un riesame straordinario al verificarsi di eventi significativi
+        per la sicurezza del prodotto o la continuita' delle certificazioni.
+
+   12.3 Il verbale viene letto e approvato seduta stante.
+
+   Letto, confermato e sottoscritto.
+
+   Il Direttore di Stabilimento          Il Responsabile SGQ
+   ing. Marco Fantin                     dott.ssa Elena Marchetti
+   (f.to in originale)                   (f.to in originale)
+
+   L'Amministratore Delegato
+   Giancarlo Bertoldi
+   (f.to in originale - punti 1-9)
+
+Distribuzione: AD, DS, RSGQ, Resp. Produzione, Resp. Magazzino, Amministrazione,
+HR, bacheca reparti (estratto punti 10-11).
+Archiviazione: raccoglitore RIESAMI - ufficio qualita' - conservazione 5 anni.
+RD-2026-01 - pag. 6 di 6

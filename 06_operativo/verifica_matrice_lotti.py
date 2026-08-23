@@ -136,9 +136,6 @@ def main():
     print("nomi distinti nella matrice  %d" % len(proprietario))
     print("scoperti ................... %d" % len(scoperti))
 
-    if guasti:
-        print("\nLA MATRICE NON E' COMPLETA E DISGIUNTA: non si esegue.")
-        sys.exit(1)
     # ---- IL NUMERO CHE DA QUI IN POI SI INCOLLA E NON SI CONTA ----------------------
     chiusi = [e for e in elenchi if e[2] and e[4]]
     canonizzazione = [e for e in chiusi if not e[3]]
@@ -157,6 +154,10 @@ def main():
     print("guasti ..................... %d" % len(guasti))
     for g in guasti:
         print("   %s" % g)
+
+    if guasti:
+        print("\nLA MATRICE NON E' COMPLETA E DISGIUNTA: non si esegue.")
+        sys.exit(1)
     print("\nMatrice completa e disgiunta: %d grezzi, %d elenchi." % (len(su_disco), len(elenchi)))
     sys.exit(0)
 

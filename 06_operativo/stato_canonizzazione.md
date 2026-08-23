@@ -3,7 +3,11 @@
 > **Cos'è** · Lo stato di oggi del vault: cosa è stato canonizzato, con quale esito, e
 > cosa resta. Solo stato, mai una regola: le regole stanno in
 > `01_metodo\metodo_03_canonizzazione.md`, le decisioni in `06_operativo\decision_log.md`.
-> **Aggiornato al** · **23/08/2026, GATE DEL LOTTO 3B — approvato, e ne escono E59, E60
+> **Aggiornato al** · **24/08/2026, chiusura del LOTTO 3D** — i reclami: tre grezzi, 45
+> note di contenuto, QA di lotto a zero errori, e **il documento che l'archivio dichiarava
+> di non avere**. ⚠️ **Il lotto si e' spezzato per la soglia di E37, la prima volta**, e ne
+> nasce il lotto di manutenzione **R2**. Prima, nella stessa sessione, il **GATE DEL LOTTO
+> 3B — approvato, e ne escono E59, E60
 > ed E61.** Il gate non ha toccato nessuna nota: il vault e' quello con cui 3B ha chiuso.
 > ⚠️ **Il censimento delle superfici ha trovato il buco piu' vecchio della suite**: lo strato
 > deterministico di `qa_provenance` **non guardava `title` e `summary`**, e nel vault ci sono
@@ -30,7 +34,7 @@
 
 | | |
 |---|---|
-| Lotti chiusi | **10**, e il numero **si incolla da `verifica_matrice_lotti.py`** (23/08/2026, gate 3B): `lotti chiusi: 10` — **9 di canonizzazione** (`1A`, `1B`, `1C`, `2A`, `2B`, `2B-bis`, `3A`, `3B`, `3C`) **piu' `R1`**, il primo e finora unico lotto di manutenzione (E35). ⚠️ **FUORI dal conteggio la fetta pilota `l26130`** (22 grezzi, S2): non porta il marcatore `# CHIUSO` e non e' un elenco della matrice — **e la differenza fra dieci e undici e' esattamente questa**. ⚠️ **R1 vale un lotto nel ritmo ma NON entra nella serie della capacita'** (E38). ⚠️ **Fino al 23/08 questo numero lo componeva a mano il coordinatore, ed era uscito «undici»** (§4.47, §4.49) |
+| Lotti chiusi | **11**, e il numero **si incolla da `verifica_matrice_lotti.py`**: `lotti chiusi: 11` — **10 di canonizzazione** (`1A`, `1B`, `1C`, `2A`, `2B`, `2B-bis`, `3A`, `3B`, `3C`, **`3D`**) **piu' `R1`**, il lotto di manutenzione (E35). ⚠️ **FUORI dal conteggio la fetta pilota `l26130`** (22 grezzi, S2): non porta il marcatore `# CHIUSO` e non e' un elenco della matrice. ⚠️ **R1 vale un lotto nel ritmo ma NON entra nella serie della capacita'** (E38). ⚠️ **E ne nasce un dodicesimo che non ha ancora aperto**: **`R2`**, la riconciliazione verticale sul dominio `reclami`, dallo spezzamento di 3D |
 | Grezzi copiati nel vault | 160/160, verificati contro `manifest_corpus_v1.1.json`: zero scarti, zero estranei, zero sottocartelle |
 | I conteggi del vault | nel blocco qui sotto, **incollato verbatim** da `conta_stato.py` |
 | Suite QA | **verde sul perimetro di lotto**; ⚠️ **dal gate del 21/08 la provenance legge l'ESTRAZIONE DI CANTIERE** (E48), che aggiunge marcati formule e barrato — l'estrattore di misura resta byte-identico e `estrazione_cantiere.py --prova` lo dimostra su tutti i 161 grezzi; sul vault tre controlli su quattro sono a zero errori. ⚠️ Dal gate di 2A la QA ha **due controlli nuovi**: l'artefatto di ricerca che E43 impone a chi dichiara un'assenza, e **l'omogeneità dei fine riga** — il primo controllo del progetto che non guarda il contenuto di una nota ma il suo **supporto** |
@@ -47,23 +51,23 @@ prescrive la regola del gate 1A.
 ## I conteggi, da script
 
 <!-- CONTEGGI DEL VAULT — generati da `06_operativo\qa\conta_stato.py` il 2026-08-23,
-     alle 23:23, dopo l'ultima scrittura del gate del lotto 3B (E44). Il vault non e'
-     cambiato: il gate non ha toccato nessuna nota.
+     alle 01:10 del 24/08, dopo la nota-sessione (E34) e dopo l'ultima scrittura del
+     lotto 3D (E44).
      Si incollano VERBATIM: non si ricompongono a mano, non si riscrivono in prosa. -->
 
 | Grandezza | Valore |
 |---|---|
-| Note nel vault | **386** |
+| Note nel vault | **432** |
 | di cui `_index` | 11 |
 | di cui note-strumento del progetto | 15 |
-| di cui note di diario (`sessione`, `daily`) | 10 |
-| **di cui note di contenuto** | **350** |
-| Note per cartella | areas 229 · data 41 · docs 38 · entities 31 · code 16 · workspace 13 · projects 8 · concepts 6 · self 2 · outputs 1 · sources 1 |
-| Note per `type` | atomica 270 · conflitto 53 · entita 23 · hub 14 · index 11 · sessione 10 · concetto 5 |
-| Questioni aperte (`type: conflitto`) | 53 |
+| di cui note di diario (`sessione`, `daily`) | 11 |
+| **di cui note di contenuto** | **395** |
+| Note per cartella | areas 251 · docs 52 · data 49 · entities 32 · code 16 · workspace 14 · projects 8 · concepts 6 · self 2 · outputs 1 · sources 1 |
+| Note per `type` | atomica 306 · conflitto 61 · entita 24 · hub 14 · index 11 · sessione 11 · concetto 5 |
+| Questioni aperte (`type: conflitto`) | 61 |
 | Grezzi in `sources\` | 160 |
-| Grezzi citati da almeno una nota | **51** |
-| Grezzi restanti | **109** |
+| Grezzi citati da almeno una nota | **54** |
+| Grezzi restanti | **106** |
 
 ⚠️ **Questo blocco non si riscrive a mano.** Nasce al gate del lotto 1B da due sviste di
 conteggio in due lotti — 46 contro 32 nel rapporto 1A, 105 e 88 in questo stato quando
@@ -477,6 +481,84 @@ giudizio, e senza il secondo giro sarebbe rimasta.
 | chiusa | **2** | T20, T33 |
 | tracciata | **26** | T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T19, T21, T29, T31, T34, T39, T40, T41, T49, T50, T51, T52, T53, T54 |
 | **totale righe** | **54** | da T1 a T54, nessuna mancante e nessuna duplicata |
+
+## Il lotto 3D, chiuso il 24/08/2026 — i reclami
+
+**Tre grezzi**: la procedura `PRO-QA-08` che governa il ciclo del reclamo, la catena della
+segnalazione del consumatore, la catena dell'allerta RASFF. **45 note di contenuto** — 35 dal
+ciclo e **10 dalla revisione col canone**, che E52 tiene fuori dalla soglia. QA di lotto a
+**zero errori**.
+
+⚠️ **Il lotto si e' spezzato in apertura per la soglia di E37, ed e' la prima volta**: la
+riconciliazione verticale arretrata sul dominio `reclami` ha riaperto **65 note** contro le 35
+del ciclo. **Le riaperte superano le nuove**, e nasce **R2**.
+
+### ⚠️ Due strumenti che il gate precedente prescriveva e che non esistevano
+
+`grandezze_condivise.py` (l'artefatto d'apertura di E2, che E60 impone) e `collauda_dominio.py`
+(la prova di E59) **sono stati costruiti in apertura di questo lotto**. Una regola che
+prescrive uno strumento inesistente e' una regola che si applica a mano.
+
+### ⚠️ E59 al primo impiego ha trovato un difetto del proprio collaudo
+
+Il primo `collauda_dominio.py` respingeva **sei espressioni su nove**, fra cui la sigla del
+modulo che la procedura istituisce. ⚠️ **La fonte del dominio la stava portando questo lotto**:
+la colonna «dentro» era zero **per costruzione**. ⚠️ **E contare come "governata altrove" una
+nota che parla di reclami citando il manuale HACCP e' il contrario del vero: quella nota e'
+SCOPERTA.** Lo strumento e' stato riscritto in **due prove che non si sommano**, e la seconda
+si dichiara **non applicabile** quando non si puo' fare.
+
+### ⚠️ Il documento che l'archivio dichiarava di non avere
+
+Una questione del 19/08 elencava fra le cose che servivano «la mail automatica di notifica
+della segnalazione, **che l'archivio non contiene**». L'archivio la contiene, ed e' il primo
+grezzo di questo lotto. ⚠️ **E3 pagato per la QUINTA volta**, e con una forma nuova: il grezzo
+c'era, in un lotto non ancora canonizzato — **e E3 chiede la ricerca su TUTTO `sources\`**.
+⚠️ **Il controllo di E43 non poteva prenderla**: quella nota non usa la formula di
+attestazione. **T161.**
+
+### ⚠️ Il documento arriva e la divergenza si allarga
+
+La notifica dichiara `2026-05-12 18:23:47 CEST`; **la prima mail interna, delle 14:33 dello
+stesso pomeriggio, dice che era arrivato alle 13:05 dal form**. La mail e' **anteriore** alla
+notifica che descrive. **T5 non si chiude: si allarga.**
+
+### ⚠️ Tre qualificazioni, e forse due scale diverse
+
+Classe 2 sulla scheda, `CRITICO` sul registro, «GRAVE» nella prima mail. ⚠️ **E la scheda non
+dichiara di applicare `PRO-QA-08`**: attribuisce la scala al paragrafo di **un'altra
+procedura**. L'ha trovata **la terza domanda del prompt di giudizio**. **T159**, obbligo
+esplicito per 3E.
+
+### La revisione col canone: 10 A, 7 B, 7 C
+
+⚠️ **Il rilievo piu' grave e' un obbligo che il canone aveva scritto per questo lotto e che non
+era stato eseguito** (D4 del gate 3C). ⚠️ **Ne' la QA ne' il giudice potevano prenderlo**: la
+prima non legge il canone, il secondo non lo riceve per costruzione. **E' la ragione per cui il
+passo 7 esiste.**
+
+⚠️ **E per il secondo lotto di fila la diagnosi e' il CONTRARIO della sovra-atomizzazione**:
+due paragrafi numerati del prescrittivo **senza nessuna nota**, uno dei quali conteneva **la
+definizione di reclamo chiuso**.
+
+### ⚠️ Lo slug e' una superficie, e nessun controllo la guarda
+
+Il secondo giro di giudizio ha preso il **nome del file** di una nota, che continuava ad
+affermare cio' che titolo, summary e corpo avevano smesso di affermare. ⚠️ **Lo slug si scrive
+prima del titolo e non si corregge mai**; la QA non lo legge come affermazione, **ma il giudice
+lo vede**.
+
+### I due tassi (E41/E46)
+
+| | Punto DICHIARATO | Rimisurato |
+|---|---|---|
+| **riapertura** *(debito)* | ⚠️ **non misurato in 3D**: le 65 riaperte sono di **R2** | — |
+| **difetto di produzione** *(metodo)* | **20,0 %** — 7 su 35, dominio `reclami` | 8,9 % su 45 |
+
+⚠️ **Il punto e' 20,0 %, ed e' il primo prodotto da un dominio che ha superato una prova
+meccanica.** Il rimisurato non si usa (E41), e il denominatore del punto sono le **35 note del
+ciclo**, non le 45 (E52).
+
 
 ## Il lotto 3B, chiuso il 23/08/2026 — la politica e la formazione
 

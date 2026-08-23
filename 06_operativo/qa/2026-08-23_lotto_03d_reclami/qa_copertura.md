@@ -1,0 +1,68 @@
+## qa_copertura (perimetro: lotto, 51 note)
+
+- ERRORI: **0**
+- AVVISI: **0**
+
+
+## Note candidate per tema
+
+*Il verdetto sulla copertura dei fatti chiave lo da' il revisore indipendente,
+col canone alla mano. Questo elenco e' il materiale su cui lavora.*
+
+### direzione
+
+| Nota | type | stato | fonti |
+|---|---|---|---|
+| `fatto-fantin-approva-le-azioni-correttive.md` | atomica | risolto | 1 |
+
+### qualita
+
+| Nota | type | stato | fonti |
+|---|---|---|---|
+| `area-qualita.md` | hub | aperto | 3 |
+| `doc-campione-reso.md` | atomica | risolto | 1 |
+| `doc-causa-radice-reclami.md` | atomica | risolto | 1 |
+| `doc-classi-reclamo.md` | atomica | risolto | 1 |
+| `doc-comunicazione-consumatore.md` | atomica | risolto | 1 |
+| `doc-comunicazione-reclamo-cliente.md` | atomica | risolto | 1 |
+| `doc-conservazione-reclami.md` | atomica | risolto | 1 |
+| `doc-gestione-reclami-haccp.md` | atomica | risolto | 1 |
+| `doc-indicatori-reclami.md` | atomica | risolto | 1 |
+| `doc-pro-qa-08.md` | atomica | risolto | 1 |
+| `doc-protocollo-reclami.md` | atomica | risolto | 1 |
+| `doc-responsabilita-reclami.md` | atomica | risolto | 1 |
+| `doc-seconda-firma-indagine.md` | atomica | risolto | 1 |
+| `doc-verifiche-immediate-reclamo.md` | atomica | risolto | 1 |
+| `entita-federalimentare-veneto.md` | entita | risolto | 1 |
+| `fatto-allerta-rasff-2026-1467.md` | atomica | risolto | 1 |
+| `fatto-allerta-registrata-come-non-applicabile.md` | atomica | risolto | 1 |
+| `fatto-ccp3-non-in-causa-sul-frammento.md` | atomica | risolto | 2 |
+| `fatto-classe-1-sempre-alla-direzione.md` | atomica | risolto | 1 |
+| `fatto-confezioni-vendute-rincorse-a-voce.md` | atomica | aperto | 1 |
+| `fatto-due-segnalazioni-rendono-il-ritiro-non-rimandabile.md` | atomica | risolto | 1 |
+| `fatto-e410-non-in-nessuna-ricetta-attiva.md` | atomica | risolto | 1 |
+| `fatto-esempio-cinque-perche-e-il-caso-del-12-05.md` | atomica | risolto | 1 |
+| `fatto-evidenze-nc1-partite-il-02-04.md` | atomica | aperto | 1 |
+| `fatto-form-sito-senza-lotto-obbligatorio.md` | atomica | aperto | 1 |
+| `fatto-frammento-non-e-film-map.md` | atomica | risolto | 1 |
+| `fatto-laboratorio-interno-escluso-dalle-analisi.md` | atomica | risolto | 1 |
+| `fatto-perimetro-stimato-del-ritiro.md` | atomica | risolto | 1 |
+| `fatto-reclami-fornitori-tolti-da-pro-qa-08.md` | atomica | risolto | 1 |
+| `fatto-risposta-alla-consumatrice-13-05.md` | atomica | risolto | 2 |
+| `fatto-secondo-reclamo-rec-2026-012.md` | atomica | risolto | 1 |
+| `fatto-segnalazione-dal-form-12-05.md` | atomica | risolto | 1 |
+| `fatto-semilavorato-vaniglia-segregato.md` | atomica | aperto | 1 |
+| `kpi-registro-reclami-2026.md` | atomica | aperto | 2 |
+| `progetto-gestione-reclamo-rec-2026-011.md` | hub | attivo | 2 |
+| `questione-classe-del-reclamo-rec-2026-011.md` | conflitto | aperto | 3 |
+| `questione-data-apertura-rec-2026-011.md` | conflitto | aperto | 5 |
+| `questione-ora-di-arrivo-della-segnalazione.md` | conflitto | aperto | 3 |
+| `questione-referenza-del-secondo-reclamo.md` | conflitto | aperto | 2 |
+
+### Grezzi del perimetro e note che li citano
+
+| Grezzo | Note che lo citano |
+|---|---|
+| `Fwd_Fwd_Fwd_ATTENZIONE_richiamo_prodotto_concorrente_RASFF.eml` | fatto-allerta-rasff-2026-1467, fatto-allerta-registrata-come-non-applicabile, fatto-e410-non-in-nessuna-ricetta-attiva, fatto-semilavorato-vaniglia-segregato, entita-federalimentare-veneto |
+| `PRO-QA-08_gestione_reclami_cliente_rev2.docx` | fatto-classe-1-sempre-alla-direzione, fatto-confezioni-vendute-rincorse-a-voce, fatto-esempio-cinque-perche-e-il-caso-del-12-05, fatto-evidenze-nc1-partite-il-02-04, fatto-fantin-approva-le-azioni-correttive, fatto-form-sito-senza-lotto-obbligatorio, fatto-laboratorio-interno-escluso-dalle-analisi, fatto-reclami-fornitori-tolti-da-pro-qa-08, fatto-risposta-alla-consumatrice-13-05, doc-campione-reso, doc-causa-radice-reclami, doc-classi-reclamo, doc-comunicazione-consumatore, doc-comunicazione-reclamo-cliente, doc-conservazione-reclami, doc-indicatori-reclami, doc-pro-qa-08, doc-protocollo-reclami, doc-responsabilita-reclami, doc-seconda-firma-indagine, doc-verifiche-immediate-reclamo, questione-classe-del-reclamo-rec-2026-011 |
+| `segnalazione_qualita_cliente_privato_corpo_estraneo.txt` | fatto-ccp3-non-in-causa-sul-frammento, fatto-due-segnalazioni-rendono-il-ritiro-non-rimandabile, fatto-frammento-non-e-film-map, fatto-perimetro-stimato-del-ritiro, fatto-risposta-alla-consumatrice-13-05, fatto-secondo-reclamo-rec-2026-012, fatto-segnalazione-dal-form-12-05, questione-data-apertura-rec-2026-011, questione-ora-di-arrivo-della-segnalazione, questione-referenza-del-secondo-reclamo |

@@ -217,6 +217,24 @@ dichiara nel proprio titolo di essere il registro delle non conformità interne.
 | Refrigerante del tunnel `TS-01`: **R404A** (48,0 kg, GWP 3.922) contro **R448A** | `contratto_manutenzione_impianto_frigo_TS01.docx` §art. 2.1 · `scheda_manutenzione_ordinaria_forni_industrial.csv` riga 44 | `questione-refrigerante-ts-01` in `areas\`, `stato: aperto`. Sono due miscele diverse: cambiano GWP, tonnellate equivalenti e frequenza del controllo perdite |
 | Sigla `FRIGOTEC-11` dell'operatore esterno in assistenza sulla centralina della cella | `log_allarmi_cella_frigo_surgelati_aprile.log`, righe 08:55:02 e 11:40:47 del 24/04 | **Non si scioglie.** La sigla richiama «Frigotecnica», ma nessun documento la lega a una ragione sociale, e la questione su chi sia il manutentore è aperta: la sigla **non entra** negli `aliases` di nessuna entità |
 
+### Aggiunte del lotto 3D — 24/08/2026
+
+**Classe A — varianti da unire.**
+
+| Forma canonica | Varianti attestate | Dove |
+|---|---|---|
+| **Federalimentare Veneto** | «Area Sicurezza Alimentare - Federalimentare Veneto», «Federalimentare Veneto - Area Sicurezza Alimentare» | `Fwd_Fwd_Fwd_ATTENZIONE_richiamo_prodotto_concorrente_RASFF.eml`, circolare 2026/041 |
+| **Rossetto Trade S.p.A.** | «GDO Rossetto», «Rossetto Trade SpA» | `PRO-QA-08` §8.1; `cruscotto_KPI_qualita_2026.xlsx` foglio «Reclami» |
+| **Famila Nordest** | «Famila» | `PRO-QA-08` §8.1; `verbale_riesame_direzione_SGQ_2026.txt` |
+| **Studio Alimentaria (Verona)** | seconda attestazione, accanto a `entita-chiara-vicentini` | `PRO-QA-08` §7.2; `manuale_HACCP…txt` §4.1 |
+
+**Classe C — divergenze che NON si uniscono, e vanno tenute distinte.**
+
+| Forme | Perché non si uniscono |
+|---|---|
+| **`PRO-QA-11`** e **`PRO-QA-14`** | Due sigle per la procedura di ritiro e richiamo: la prima compare in **un solo file su 160** — `PRO-QA-08` §3 — la seconda in cinque, manuale HACCP compreso. ⚠️ **Nessun documento dichiara che siano la stessa cosa**, e unirle a mano deciderebbe una questione aperta. Nota: `questione-due-codici-per-la-procedura-di-ritiro` |
+| **`PRO-QA-08` (reclami)** e **`PRO-QA-08` (rintracciabilità)** | La stessa sigla designa due procedure diverse: il documento la usa per i reclami, il manuale HACCP per la rintracciabilità del `PRP-09`. ⚠️ **È l'omografia, non la variante**: unirle significherebbe affermare che sono un documento solo. Nota: `questione-pro-qa-08-reclami-o-rintracciabilita` |
+
 ## Registro delle aggiunte
 
 Ogni sessione che canonizza aggiunge qui una riga quando estende la tabella.
@@ -230,3 +248,4 @@ Ogni sessione che canonizza aggiunge qui una riga quando estende la tabella.
 | 2026-08-21 | S4 lotto 2B — autocontrollo analitico | Classe A: il laboratorio esterno `Analytica Veneta S.r.l.` con la sua forma accreditata. **Classe B: le tre serie parallele di numerazione delle non conformità** — `NC-26-nnn`, `NC-2026-nnn`, `NC-ACQ-26-nn` — con la tabella delle collisioni e la nota di famiglia: **due cifre nell'anno separano eventi che non hanno nulla in comune** |
 | 2026-08-21 | S4 lotto 2B-bis — gli allergeni | Classe A: `entita-chiara-vicentini`, **con l'avvertenza che il nome per esteso lo dà una fonte sola**. ⚠️ **La riga esiste perché questa sessione aveva INVENTATO un nome proprio** — «Claudia» invece di «Chiara» — canonizzando due documenti che il nome non lo portano: **è il caso che ha insegnato che un'iniziale non si scioglie a naso** |
 | 2026-08-23 | S4 lotto 3B — politica e formazione | Classe A: `entita-federica-sartori`, con **due fonti nuove** — la politica e lo scadenzario — e la mansione «HR e segreteria» che il registro dichiara. ⚠️ **Che «f.sartori», «Sartori Federica» e «Sartori F.» siano la stessa persona resta un'INFERENZA**, e la scheda lo dichiara. Classe B: il quarto quasi-omografo **Peruzzi**. ⚠️ **E un errore da non ripetere**: la prima stesura di `doc-scadenzario-formazione-2026` puntava a un `entita-francesca-sartori` **che non esiste** — nome proprio inventato, come gia' successe per Vicentini — e la QA non lo vedeva perche' non guardava `related`. Riparata la QA lo stesso giorno |
+| 2026-08-24 | S4 lotto 3D — i reclami | Classe A: `entita-federalimentare-veneto`, e le ragioni sociali per esteso di **due clienti GDO** che il vault portava in forma abbreviata — `Rossetto Trade S.p.A.` e `Famila Nordest` — piu' `Studio Alimentaria (Verona)` accanto alla consulente HACCP. ⚠️ **Classe C: due coppie di SIGLE DI PROCEDURA che non si uniscono** — `PRO-QA-11`/`PRO-QA-14` per il ritiro, e `PRO-QA-08` che designa sia i reclami sia la rintracciabilita'. **Non sono varianti grafiche: sono due questioni aperte**, e unire le sigle a mano le deciderebbe |

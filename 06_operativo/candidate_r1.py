@@ -303,6 +303,53 @@ DOMINI = {
         ],
         "cosa": "la formazione del personale come PREREQUISITO del sistema HACCP: obbligo, periodicita', moduli per ruolo, registrazione su MOD-HR-11 e verifica di efficacia",
     },
+    # Lotto 3D. ⚠️ **E' IL PRIMO DOMINIO DICHIARATO SOTTO E56 *E* COLLAUDATO SOTTO E59**, e
+    # ha una particolarita' che va detta prima dei numeri: **la fonte del dominio la sta
+    # portando questo lotto**, quindi al momento della dichiarazione **nessuna nota del vault
+    # puo' citarla**. Il collaudo di E59 puo' percio' dire solo quanto un'espressione pesca
+    # FUORI, non quanto pesca dentro: meta' della prova resta scoperta, e il rapporto lo
+    # dichiara invece di darlo per fatto (§4.42).
+    #
+    # ⚠️ **LA FONTE E' UNA SOLA, ED E' UNA SCELTA, non una mancanza.** `PRO-QA-08` governa il
+    # ciclo del reclamo dall'inizio alla fine: ricezione e protocollo (par. 6.1), classi e
+    # tempi (par. 5 e 6.3), verifiche immediate sul lotto (6.2), indagine della causa radice
+    # (7.1), campione reso (7.3), comunicazione al cliente e al consumatore (8), azioni
+    # correttive (9), indicatori (10), archiviazione (11).
+    #
+    # ⚠️ **CIO' CHE E' STATO LASCIATO FUORI, e il motivo, perche' un dominio si legge anche da
+    # quello — ed e' qui che 3C ha sbagliato**, mettendo le espressioni su una cosa e le fonti
+    # su un'altra:
+    #   - `ritiro` e `richiamo`: li governa **`PRO-QA-11`**, che e' del lotto 3E e non e'
+    #     canonizzata. `PRO-QA-08` la **richiama**, non la contiene: par. 6.2.5 dice «convoca
+    #     il team HACCP per la valutazione di attivazione della PRO-QA-11». Un'espressione sul
+    #     ritiro pescherebbe note che un'altra fonte governa;
+    #   - `azione correttiva`: la governa **`PRO-QA-05`**, che nel corpus non c'e'. `PRO-QA-08`
+    #     par. 9 prescrive che l'azione si apra, non come si gestisce;
+    #   - `non conformita'` e `NC-\d`: sono di tutto l'archivio, e la NC 1 dell'audit e'
+    #     governata dal rapporto d'audit. E' la parola che al primo taglio di 3C riapriva due
+    #     note del vault su cinque;
+    #   - `campione` e `controcampione`: la campioteca la prescrive **anche** il manuale HACCP.
+    #     Resta fuori `campione` da solo; entra `campione reso`, che e' la locuzione con cui
+    #     `PRO-QA-08` par. 7.3 nomina l'oggetto che LUI governa;
+    #   - `metal detector`, `CCP3`: `PRO-QA-08` par. 6.2.2 dice di **riesaminare** quelle
+    #     registrazioni durante l'indagine; a prescriverle e' il manuale HACCP.
+    "reclami": {
+        "fonti": {
+            "PRO-QA-08_gestione_reclami_cliente_rev2.docx",
+        },
+        "espressioni": [
+            r"\breclam",                       # reclamo, reclami, reclamante: il nome dell'oggetto
+            r"\bREC-20\d\d-\d{3}\b",           # il protocollo che par. 6.1.1 istituisce
+            r"\bMOD-QA-31\b",                  # il modulo che par. 6.1.2 istituisce
+            r"\bPRO-QA-08\b",
+            r"corpo estrane",                  # l'esempio di classe 1 di par. 5, e il caso del lotto
+            r"causa radice",                   # par. 7.1, il metodo obbligatorio per classi 1 e 2
+            r"campione reso",                  # par. 7.3, l'oggetto che questa procedura governa
+            r"blocco cautelativ",              # par. 6.2.3
+            r"consumatore final",              # par. 8.2, la meta' di cui questa procedura e' padrona
+        ],
+        "cosa": "il ciclo del reclamo di cliente e consumatore: ricezione e protocollo, classificazione e tempi, verifiche immediate sul lotto, indagine della causa radice, campione reso, comunicazione, azioni correttive e indicatori",
+    },
     "acqua": {
         "fonti": {
             "piano_autocontrollo_acqua_potabile_analisi.csv",
@@ -393,7 +440,15 @@ def main():
     print("  valutate ..................................... %d" % (len(note) - fuori_classe))
     print("")
     print("Nominano qualcosa che una fonte prescrittiva governa:")
-    print("  e CITANO gia' una fonte prescrittiva ......... %d  (fuori perimetro)" % len(gia_coperte))
+    # ⚠️ L'etichetta cambia col MODO, perche' l'insieme cambia: in modalita' ristretta
+    # (E37) «coperta» significa che la nota cita una fonte DEL DOMINIO, non una fonte
+    # prescrittiva qualsiasi. Dirlo con la stessa parola nei due casi farebbe leggere il
+    # numero come non e' - ed e' la specie che il censimento del gate 3B ha censito: una
+    # dichiarazione che promette piu' di quanto misura (§4.49).
+    if dom:
+        print("  e CITANO gia' una fonte DEL DOMINIO ........... %d  (fuori perimetro)" % len(gia_coperte))
+    else:
+        print("  e CITANO gia' una fonte prescrittiva ......... %d  (fuori perimetro)" % len(gia_coperte))
     print("  e NON ne citano nessuna ...................... %d  <-- IL PERIMETRO" % len(candidate))
     print("")
     conta_fam = {}
