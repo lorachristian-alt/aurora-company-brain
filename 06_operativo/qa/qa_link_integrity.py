@@ -15,6 +15,8 @@ from collections import deque
 import qa_comune as Q
 import genera_llms
 
+RE_WIKILINK = re.compile(r"\[\[([^\]|]+)(?:\|[^\]]*)?\]\]")
+
 CONTROLLO = "link"
 
 
@@ -60,10 +62,24 @@ def main():
         rep.errore("_index-%s.md" % c, CONTROLLO, "la cartella '%s' non ha il suo _index" % c)
 
     # ---- 2. wikilink rotti (ovunque, workspace compresa) -----------------------
+    #
+    # ⚠️ IL CONTROLLO GUARDAVA IL SOLO CORPO, E `related` NO — riparato il 23/08/2026, lotto
+    # 3B. `Nota.wikilink()` legge `self.corpo`, quindi un rimando rotto scritto nel frontmatter
+    # era **invisibile**: la QA dava 0 ERRORI su un vault che ne portava due, e uno stava li'
+    # da un lotto precedente. ⚠️ **E' la stessa specie di E32**, un controllo il cui perimetro
+    # non copre cio' che deve, e per §4 un controllo bacato non e' un candidato: e' un guasto,
+    # e si ripara subito. Il caso che l'ha trovato: `doc-scadenzario-formazione-2026` puntava a
+    # `[[entita-francesca-sartori]]`, **un nome proprio inventato** — la scheda si chiama
+    # `entita-federica-sartori` — e l'ha visto la revisione col canone, non la suite.
+    #
+    # ⚠️ Il fix AGGIUNGE agganci (§4.9) e ha comunque il suo difetto piantato in
+    # `_collaudo\collaudo_related_rotto.py`, o il buco si riapre in silenzio.
     archi = {}
     for n in note:
         uscenti = []
-        for target, riga in n.wikilink():
+        rel = str((n.fm or {}).get("related") or "")
+        da_related = [(m.group(1).strip(), 0) for m in RE_WIKILINK.finditer(rel)]
+        for target, riga in list(n.wikilink()) + da_related:
             if target in per_slug:
                 uscenti.append(target)
             elif "." in target:

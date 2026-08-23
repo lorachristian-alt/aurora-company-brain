@@ -1,7 +1,7 @@
-## qa_provenance (perimetro: vault, 362 note)
+## qa_provenance (perimetro: vault, 386 note)
 
 - ERRORI: **0**
-- AVVISI: **78**
+- AVVISI: **79**
 
 ### Avvisi
 
@@ -23,6 +23,7 @@
 | `fatto-repliche-shelf-life-l26130-divergenti.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `fatto-taniche-e-rifiuti-cip.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `fatto-test-rintracciabilita-audit-2h50.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
+| `fatto-tre-righe-del-registro-con-un-obbligo-non-chiuso.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `fatto-verifiche-ccp3-turno-l26130.md` |  | provenance | citazione senza riscontro in nessuna fonte citata: «dalle 15 alle 18.45 linea ferma per rottura valvola azoto,
 verifiche n» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 | `fatto-verifiche-ccp3-turno-l26130.md` |  | provenance | citazione senza riscontro in nessuna fonte citata: «Verifica di fine turno (capoturno)» — la nota cita un .jpg, riscontro visivo da chiudere a mano |

@@ -1919,3 +1919,73 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   dichiara altrimenti. ⚠️ **La §3 gia' portava lo stesso scarto prima di questo gate** —
   «sette lotti chiusi» sopra un elenco di otto — e la riscrittura lo chiude. **I precedenti sono
   quattro: B3, il multi-fonte, l'esenzione E37 di 3A, il «sedici giorni».**
+- **2026-08-23** · ⚠️ **UN CONTROLLO BACATO TROVATO IN APERTURA DI 3B, E RIPARATO SUBITO (§4)** ·
+  l'insieme dei lotti canonizzati di `verifica_dominio.py` era **una lista di nomi scritta a
+  mano**, cioe' una copia di un fatto il cui padrone e' altrove, e si era disallineata in
+  silenzio: portava `lotto_02b_autocontrollo_igiene`, **nome morto dal 20/08** quando il lotto 2B
+  si spezzo' in apertura, e **non portava** `lotto_02b_autocontrollo_analitico`,
+  `lotto_03c_certificazione_audit` ne' `r1_riconciliazione_verticale`, tutti CHIUSI.
+  ⚠️ **Il costo, se non fosse stato visto**: in apertura di 3B lo script dichiarava
+  `Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf` **NON CITABILE** il giorno dopo che 3C lo aveva
+  canonizzato — una fonte governante tenuta fuori dalla dichiarazione del dominio, cioe' il
+  verso «troppo stretto» di E56 che in 2B-bis costo' un 9,1 % gonfiato. ⚠️ **E' la seconda
+  volta che QUESTO script mente in silenzio**: la prima fu il `` in coda alla sigla, il
+  22/08. **Il fix legge l'insieme dal marcatore `# CHIUSO` in testa all'elenco**, che e' lo
+  stesso dato che `verifica_matrice_lotti.py` gia' pretende e non puo' invecchiare
+  separatamente. ⚠️ **Il fix ALLENTA un controllo** — rende citabili fonti prima rifiutate —
+  **quindi ha il suo difetto piantato** (§4.9): `collaudo_dominio_canonizzati.py`, cinque casi
+  nei due versi, e il caso 2 e' il difetto piantato — un lotto senza `# CHIUSO` deve restare
+  NON CITABILE. **Sei collaudi su sei alle 16:56.**
+- **2026-08-23** · ⚠️ **E56 HA COLTO IL PROPRIO AUTORE AL PRIMO IMPIEGO** · il dominio
+  `formazione` di 3B — **il primo dichiarato sotto la regola della coppia** — e' nato **troppo
+  largo**, nello stesso verso di 3C: l'espressione `formazion` riconosceva **la parola**, e con
+  essa la struttura del registro, chi lo estrae, la sua intestazione ripetuta e l'indicatore
+  delle ore. Le fonti del dominio governano **l'obbligo di formare e registrare**, non un file e
+  non un KPI. **Tasso col primo taglio: 63,6 % su 22.** ⚠️ **La prova e' per ESPRESSIONE, non
+  per numero**: `formazion` da sola pescava **tutte e quattordici** le scoperte. Stretta la
+  coppia, **36,4 % (8 su 22)**, ed e' il numero dichiarato. ⚠️ **Ci si e' fermati dopo UNA
+  stretta**, e il residuo si dichiara: cinque delle otto le pesca `registro (?:della )?formazion`,
+  che riconosce la MENZIONE del registro e non l'obbligo. **Continuare a restringere a numero
+  visto sarebbe il trucco che E41 vieta, spostato di un piano** (§4.43). ⚠️ **E il tasso non e'
+  stato rimisurato dopo aver corretto le tre lacune vere**: E41 lo vieta. **T148.**
+- **2026-08-23** · **DUE CONTEGGI MIEI ERANO SBAGLIATI, E LI HA PRESI IL RICONTEGGIO, NON UNA
+  RILETTURA** · il primo censimento del registro della formazione dava **101 righe di dato, 57
+  dipendenti, 16 corsi, 7 enti**: includeva le **quattro righe di coda** e **un'intestazione
+  ripetuta a meta' file**. I numeri veri sono **96 · 52 · 14 · 6**. ⚠️ **E la differenza cambiava
+  una conclusione**: la divergenza con le «50 persone» della politica passava da **sette** a
+  **due**, e con i tre nomi fuori perimetro si chiude quasi. ⚠️ **E' la specie di E50 applicata
+  a chi scrive il metodo**, non alle note: un conteggio ottenuto guardando, non marcato, e
+  sbagliato. **L'intestazione ripetuta e' diventata essa stessa una nota** — integrita' del file
+  come contenuto (metodo_03 §5.5).
+- **2026-08-23** · ⚠️ **UN SECONDO CONTROLLO BACATO, TROVATO DALLA REVISIONE COL CANONE E NON
+  DALLA SUITE** · `qa_link_integrity.py` cercava i wikilink rotti chiamando `Nota.wikilink()`,
+  che per contratto legge **il solo CORPO**: **il campo `related` restava fuori**, e `related`
+  porta il rimando **spoke → hub**, cioe' il link piu' importante che una nota scriva.
+  ⚠️ **Il buco non era teorico: il vault ne portava DUE e la QA dava 0 ERRORI.** Uno l'ha
+  scritto il lotto 3B — `doc-scadenzario-formazione-2026` puntava a `entita-francesca-sartori`,
+  **un nome proprio inventato**, lo stesso errore che la tabella alias registra per Vicentini —
+  e **l'altro stava li' da un lotto precedente**. ⚠️ **E' la stessa specie di E32**: un
+  controllo il cui perimetro non copre cio' che deve, quindi per §4 **un guasto, non un
+  candidato**, riparato subito col difetto piantato (`collaudo_related_rotto.py`, 5 casi nei due
+  versi). ⚠️ **Il punto che vale oltre il caso**: un nome che non esiste **non richiede
+  giudizio, richiede un confronto con un elenco** — e a trovarlo e' stato un revisore, non uno
+  script. **Due guasti di perimetro in un giorno solo**, contando quello di `verifica_dominio`.
+- **2026-08-23** · ⚠️ **IL TERZO GIRO DI GIUDIZIO DI 3B HA CHIUSO IL CICLO NOMINANDO UN PATTERN
+  NUOVO: LA CORREZIONE E' UNA SCRITTURA, E NESSUNO LA GIUDICA COME TALE** · giri a 18, 10 e 12
+  rilievi su 31 note; **al terzo, almeno SETTE dei dodici cadono su frasi che al secondo non
+  c'erano: le ha scritte la correzione**. Due forme: la prima gia' nota — l'intestazione rimasta
+  indietro (E30, E51) — e la seconda nuova, **la frase scritta correggendo che afferma essa
+  stessa oltre le fonti**. Quattro casi, e il peggiore: «la foto decisiva non compare in nessuno
+  dei due elenchi» era la correzione di una frase vaga, **e il §6 della fonte la elenca** — la
+  correzione ha reso FALSA una frase che prima era soltanto imprecisa. ⚠️ **E30, E39, E42 ed
+  E51 guardano tutte all'affermazione VECCHIA e a dove sopravvive; nessuna guarda alla frase
+  NUOVA.** Candidato emendamento al gate.
+- **2026-08-23** · **LA REVISIONE COL CANONE DI 3B: 2 A, 13 B, 5 C, e una diagnosi che ribalta
+  la domanda del passo 7** · non c'e' sovra-atomizzazione: c'e' **il contrario**. Un fatto con
+  **tre padroni** (le righe di coda del registro, descritte in tre note) e **cinque righe del
+  registro senza nessuna nota**, fra cui **un'addetta alla squadra di emergenza col primo
+  soccorso scaduto da tre mesi** e l'unico «SUBITO» di tutto il file. ⚠️ **E la diagnosi vera**:
+  *il lotto ha letto benissimo i due grezzi COME DOCUMENTI e quasi mai uno contro il vault* —
+  **sette delle otto divergenze scrivibili nascono dall'accostamento col verbale di riesame**,
+  canonizzato il giorno prima. **La riconciliazione orizzontale (E2) e' il passo che questo lotto
+  ha fatto peggio**, e dentro un grezzo denso si conta invece di leggere.

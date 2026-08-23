@@ -46,7 +46,7 @@ Uso:
     python verifica_dominio.py --lotto <nome> --contesto 0   # senza le righe di riscontro
 Esce sempre 0: e' una misura, non un cancello.
 """
-import argparse, os, re, sys
+import argparse, io, os, re, sys
 from datetime import datetime
 
 QUI = os.path.dirname(os.path.abspath(__file__))
@@ -57,13 +57,43 @@ from elenco_fonti_prescrittive import FONTI, elenchi_dei_lotti
 DIR_LOTTI = os.path.join(QUI, "qa", "lotti")
 
 # I lotti gia' canonizzati: una fonte prescrittiva di un lotto che non c'e' ancora e' NON
-# CITABILE (E29, e divieto 9-bis). E' un dato di stato, non una regola: il padrone resta
-# `stato_canonizzazione.md`, e qui vive solo il nome del lotto.
-CANONIZZATI = {
-    "lotto_01a_linea1_turno_ccp", "lotto_01b_freddo_energia", "lotto_01c_metrologia_gas",
-    "lotto_02a_cip", "lotto_02b_autocontrollo_igiene", "lotto_02b_bis_allergeni",
-    "lotto_03a_riesame_direzione", "pilota (fetta L26130)",
-}
+# CITABILE (E29, e divieto 9-bis).
+#
+# ⚠️ QUESTO INSIEME SI LEGGE DAL DISCO, E NON SI SCRIVE A MANO. Fino al 23/08/2026 era una
+# lista di nomi codificata qui dentro, ed era una COPIA di un fatto il cui padrone e' altrove:
+# si e' disallineata in silenzio, come ogni copia. Al gate del lotto 3C portava
+# `lotto_02b_autocontrollo_igiene`, **un nome morto dal 20/08** — quando il lotto 2B si spezzo'
+# in apertura, l'elenco fu rinominato in `..._analitico` (registro delle modifiche della
+# matrice) — e **non portava ne' `lotto_02b_autocontrollo_analitico`, ne'
+# `lotto_03c_certificazione_audit`, ne' `r1_riconciliazione_verticale`, tutti CHIUSI**.
+#
+# ⚠️ IL COSTO SAREBBE STATO ESATTAMENTE QUELLO CHE E53 ESISTE PER IMPEDIRE: in apertura del
+# lotto 3B lo script dichiarava `Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf` NON CITABILE,
+# quando 3C lo aveva canonizzato il giorno prima. Una fonte governante esclusa dalla
+# dichiarazione del dominio e' il verso "troppo stretto" di E56, che in 2B-bis e' costato un
+# 9,1 % gonfiato.
+#
+# ⚠️ E' la seconda volta che QUESTO script mente in silenzio: la prima fu il `` in coda alla
+# sigla. **Uno script che tace non e' uno script che assolve** — e la difesa non e' rileggerlo
+# meglio, e' togliergli le copie: il marcatore `# CHIUSO` in testa all'elenco e' lo stesso dato
+# che `verifica_matrice_lotti.py` gia' pretende, e non puo' invecchiare separatamente.
+def lotti_canonizzati():
+    """I lotti chiusi, letti dal marcatore `# CHIUSO` in testa al loro elenco.
+
+    Il pilota non ha un elenco — e' anteriore alla matrice — e si aggiunge per nome, con
+    l'etichetta che `elenchi_dei_lotti()` gli da'.
+    """
+    fuori = {"pilota (fetta L26130)"}
+    for n in sorted(os.listdir(DIR_LOTTI)):
+        if not n.endswith(".txt") or n.endswith("_note.txt"):
+            continue
+        with io.open(os.path.join(DIR_LOTTI, n), encoding="utf-8") as fh:
+            if fh.readline().lstrip().upper().startswith("# CHIUSO"):
+                fuori.add(n[:-4])
+    return fuori
+
+
+CANONIZZATI = lotti_canonizzati()
 
 # Parole del nome di un file che non identificano nulla: cercarle darebbe un riscontro
 # ovunque. Non e' una lista di comodo — e' l'elenco delle parole con cui questo corpus dice

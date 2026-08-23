@@ -3,19 +3,17 @@
 > **Cos'è** · Lo stato di oggi del vault: cosa è stato canonizzato, con quale esito, e
 > cosa resta. Solo stato, mai una regola: le regole stanno in
 > `01_metodo\metodo_03_canonizzazione.md`, le decisioni in `06_operativo\decision_log.md`.
-> **Aggiornato al** · **23/08/2026, GATE del lotto 3C, che lo ha APPROVATO** e ha prodotto
-> **E56, E57 ed E58** — tre emendamenti da un gate solo, per la seconda volta dopo 3A, e
-> **nessuno dei tre da un difetto delle note**: E56 corregge **la dichiarazione con cui si
-> misura**, E57 **il modo di scrivere**, E58 **il perimetro di un controllo**.
-> ⚠️ **Il gate ha esercitato per la prima volta E58, e al primo impiego ha trovato difetti in
-> ENTRAMBE le note che non erano mai passate dal giudizio** (T141). ⚠️ **E il giudizio dedicato
-> ha tirato fuori più di quello che cercava**: una nota entrata nel perimetro per una correzione
-> soppressiva ha rivelato che **il «sedici giorni» aveva un solo titolare, non due**, e che
-> «due contatori veri di due titolari diversi» — la formula con cui questo stesso gate aveva
-> ratificato T126 — era sbagliata. **T126 e' alla terza stesura.** Prima, il 22/08: la chiusura
-> del lotto **3C** (certificazione e audit, 4 grezzi, 38 note) e il **gate del lotto 3A** con
-> E52-E54. Tutti i numeri qui dentro sono riportati da script, **e da E44 ognuno porta l'ora
-> della propria misura**.
+> **Aggiornato al** · **23/08/2026, chiusura del LOTTO 3B** — la politica per la qualità e lo
+> scadenzario della formazione. **L'area `risorse-umane` si apre**, ed è l'ottava delle dieci del
+> vocabolario: restano scoperte `sicurezza-ambiente` e `ricerca-sviluppo`. Prima, nella stessa
+> giornata, il **GATE del lotto 3C**, che lo ha **APPROVATO** e ha prodotto **E56, E57 ed E58**.
+> ⚠️ **Due controlli bacati riparati in un giorno solo, e nessuno dei due l'ha trovato uno
+> script**: la lista dei lotti canonizzati scritta a mano dentro `verifica_dominio.py`, e
+> `qa_link_integrity.py` che cercava i wikilink rotti **solo nel corpo** — col vault che ne
+> portava **due** e la QA a **zero errori**. ⚠️ **E `E56` ha colto il proprio autore**: il primo
+> dominio dichiarato sotto la regola della coppia è nato **troppo largo**, nello stesso verso di
+> 3C. Tutti i numeri qui dentro sono riportati da script, **e da E44 ognuno porta l'ora della
+> propria misura**.
 > Lo stato della pipeline RAG sta in `06_operativo\stato_rag_produzione.md`, non qui; il
 > piano dei lotti e la tabella di tracciamento delle questioni trasversali stanno in
 > `06_operativo\matrice_lotti_corpus_v1.md`, non qui.
@@ -26,13 +24,13 @@
 
 | | |
 |---|---|
-| Lotti chiusi | **10 in tutto: 9 di canonizzazione** — `l26130` (fetta pilota, S2), **`1A`** (Linea 1: turno, CCP, confezionatrice), **`1B`** (freddo ed energia), **`1C`** (metrologia e gas tecnici), **`2A`** (il lavaggio CIP), **`2B`** (l'autocontrollo analitico), **`2B-bis`** (gli allergeni), **`3A`** (il riesame della direzione) e **`3C`** (certificazione e audit) — **piu' `R1`**, il primo e finora unico **lotto di manutenzione** (E35), approvato al suo gate il 19/08/2026. ⚠️ **R1 vale un lotto nel ritmo ma NON entra nella serie della capacita'** (E38): misura riparazioni, non produzione. ⚠️ **Il conto e' da script**, sui marcatori `# CHIUSO` degli elenchi (nove file) piu' il pilota, che elenco non ne ha perche' e' anteriore alla matrice; **`riverifica_barrato` NON e' un lotto chiuso**, e' un mini-perimetro dentro il gate di 2B-bis |
+| Lotti chiusi | **11 in tutto: 10 di canonizzazione** — `l26130` (fetta pilota, S2), **`1A`**, **`1B`**, **`1C`**, **`2A`**, **`2B`**, **`2B-bis`**, **`3A`**, **`3C`** e **`3B`** (la politica e la formazione) — **più `R1`**, il primo e finora unico **lotto di manutenzione** (E35). ⚠️ **R1 vale un lotto nel ritmo ma NON entra nella serie della capacità** (E38). ⚠️ **Il conto è da script**, sui marcatori `# CHIUSO` degli elenchi (dieci file) più il pilota, che elenco non ne ha perché è anteriore alla matrice |
 | Grezzi copiati nel vault | 160/160, verificati contro `manifest_corpus_v1.1.json`: zero scarti, zero estranei, zero sottocartelle |
 | I conteggi del vault | nel blocco qui sotto, **incollato verbatim** da `conta_stato.py` |
 | Suite QA | **verde sul perimetro di lotto**; ⚠️ **dal gate del 21/08 la provenance legge l'ESTRAZIONE DI CANTIERE** (E48), che aggiunge marcati formule e barrato — l'estrattore di misura resta byte-identico e `estrazione_cantiere.py --prova` lo dimostra su tutti i 161 grezzi; sul vault tre controlli su quattro sono a zero errori. ⚠️ Dal gate di 2A la QA ha **due controlli nuovi**: l'artefatto di ricerca che E43 impone a chi dichiara un'assenza, e **l'omogeneità dei fine riga** — il primo controllo del progetto che non guarda il contenuto di una nota ma il suo **supporto** |
 | `llms.txt` | rigenerato dal frontmatter, allineato |
 | Matrice dei lotti | 160/160 grezzi, zero scoperti, zero doppi (`verifica_matrice_lotti.py` verde). ⚠️ **I budget dei lotti 2-10 sono SUPERATI** e il piano non è più a 12 lotti: vale **E31**, la capacità di 25-35 note per lotto, e i grezzi si decidono in apertura. **Stima: circa 28-30 lotti**, scritta anche nella scaletta perché cambia il calendario di S4-S5. Ridisegnato in dettaglio **solo il tema 2** (2A · 2B · 2C) |
-| **PROSSIMO ATTO** | **Il lotto `3B` — la politica e la formazione**, terzo pacchetto del tema 3. ⚠️ **E' il PRIMO lotto che dichiarera' un dominio sotto E56**, quindi il primo punto della serie misurato su una dichiarazione costruita con la regola della coppia espressioni-fonti. ⚠️ **Apre con gli strumenti nuovi al completo**: `verifica_dominio.py` con le due classi di forza (E53), E21 per il conteggio dei fatti, E28/E52 per le soglie, E37 se il dominio c'e'. **Nessuna specie e' sotto criterio pre-registrato in questo lotto.** Poi restano `3D` reclami e `3E` crisi e ispezioni |
+| **PROSSIMO ATTO** | **Il gate del lotto 3B**, e poi **`3D`** *(i reclami)* e **`3E`** *(crisi e ispezioni)*, che chiudono il tema 3. ⚠️ **Il gate ha sette cose da decidere**, e la prima è un candidato emendamento: **la correzione è una scrittura, e nessuno la giudica come tale**. ⚠️ **E `3D` porta un obbligo esplicito**: `PRO-QA-08`, che la politica nomina nell'impegno 6 e di cui nessuna nota può ancora dire nulla (**T146**) |
 
 ⚠️ **Errata del 19/08/2026 sui numeri del lotto 1A.** Questo stato dichiarava «105 note, di
 cui 11 `_index` e 6 note-strumento: 88 di contenuto». `qa_all.py` a chiusura di 1A contava
@@ -43,22 +41,22 @@ prescrive la regola del gate 1A.
 ## I conteggi, da script
 
 <!-- CONTEGGI DEL VAULT — generati da `06_operativo\qa\conta_stato.py` il 2026-08-23,
-     alle 15:54, dopo l'ultima scrittura del gate del lotto 3C (E44).
+     alle 18:42, dopo la nota-sessione (E34) e dopo l'ultima scrittura (E44).
      Si incollano VERBATIM: non si ricompongono a mano, non si riscrivono in prosa. -->
 
 | Grandezza | Valore |
 |---|---|
-| Note nel vault | **362** |
+| Note nel vault | **386** |
 | di cui `_index` | 11 |
 | di cui note-strumento del progetto | 15 |
-| di cui note di diario (`sessione`, `daily`) | 9 |
-| **di cui note di contenuto** | **327** |
-| Note per cartella | areas 212 · data 38 · docs 36 · entities 30 · code 16 · workspace 12 · projects 8 · concepts 6 · self 2 · outputs 1 · sources 1 |
-| Note per `type` | atomica 252 · conflitto 50 · entita 22 · hub 13 · index 11 · sessione 9 · concetto 5 |
-| Questioni aperte (`type: conflitto`) | 50 |
+| di cui note di diario (`sessione`, `daily`) | 10 |
+| **di cui note di contenuto** | **350** |
+| Note per cartella | areas 229 · data 41 · docs 38 · entities 31 · code 16 · workspace 13 · projects 8 · concepts 6 · self 2 · outputs 1 · sources 1 |
+| Note per `type` | atomica 270 · conflitto 53 · entita 23 · hub 14 · index 11 · sessione 10 · concetto 5 |
+| Questioni aperte (`type: conflitto`) | 53 |
 | Grezzi in `sources\` | 160 |
-| Grezzi citati da almeno una nota | **49** |
-| Grezzi restanti | **111** |
+| Grezzi citati da almeno una nota | **51** |
+| Grezzi restanti | **109** |
 
 ⚠️ **Questo blocco non si riscrive a mano.** Nasce al gate del lotto 1B da due sviste di
 conteggio in due lotti — 46 contro 32 nel rapporto 1A, 105 e 88 in questo stato quando
@@ -472,6 +470,74 @@ giudizio, e senza il secondo giro sarebbe rimasta.
 | chiusa | **2** | T20, T33 |
 | tracciata | **26** | T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T19, T21, T29, T31, T34, T39, T40, T41, T49, T50, T51, T52, T53, T54 |
 | **totale righe** | **54** | da T1 a T54, nessuna mancante e nessuna duplicata |
+
+## Il lotto 3B, chiuso il 23/08/2026 — la politica e la formazione
+
+**Perimetro:** 2 grezzi — la **Politica per la qualità `DOC-QA-01` rev. 8** e lo **scadenzario
+della formazione** estratto il 18/05/2026 — più **8 note riaperte** da E37 e **23 nate**.
+
+| | |
+|---|---|
+| Capacità attesa | 25-35 note di contenuto (E31) |
+| Prodotte | **23** — **sotto la fascia**, e si dichiara: due grezzi, non tre o quattro |
+| QA di lotto | **0 ERRORI, 43 avvisi** — misura delle 18:39 |
+| Giri di giudizio | **tre**: 18, 10 e 12 rilievi — ⚠️ **il terzo non è andato meglio del secondo** |
+| Revisione col canone | **2 A · 13 B · 5 C** |
+| Giudizio dedicato (E58) | **tre giri**: 2, 2 e **0** rilievi — chiuso sul giro pulito |
+| Tassi (E41/E46) | riapertura **12,5 %** · produzione **36,4 %** su 22, dominio `formazione` |
+
+### ⚠️ L'area `risorse-umane` nasce, e nasce piena
+
+Fino a oggi il vocabolario chiuso portava `risorse-umane` **senza che nessuna nota lo usasse**.
+L'hub apre con **tredici note**, non con una cartella vuota per comodità di archiviazione.
+⚠️ **E la formazione non è solo di quest'area**: il manuale HACCP la porta come prerequisito
+`PRP-04`, quindi le note guardano anche a `area-qualita`.
+
+### ⚠️ Due controlli bacati, e nessuno dei due l'ha trovato uno script
+
+| Controllo | Il buco | Chi l'ha visto |
+|---|---|---|
+| `verifica_dominio.py` | l'insieme dei lotti canonizzati era **una lista di nomi scritta a mano**: portava un nome morto dal 20/08 e non portava tre lotti chiusi. **Dichiarava NON CITABILE il certificato BRCGS il giorno dopo che 3C lo aveva canonizzato** | **un numero**, in apertura |
+| `qa_link_integrity.py` | cercava i wikilink rotti chiamando `Nota.wikilink()`, che legge **il solo CORPO**: `related` restava fuori, e **il vault ne portava due con la QA a zero errori** — uno da un lotto precedente | **la revisione col canone** |
+
+⚠️ **Entrambi sono COPIE o PERIMETRI, non logiche sbagliate**, ed entrambi per §4 sono guasti e
+non candidati: riparati subito, ciascuno col suo difetto piantato. **I collaudi passano da
+cinque a sette.**
+
+### ⚠️ E56 al primo impiego ha colto il proprio autore
+
+Il dominio `formazione` — **il primo dichiarato sotto la regola della coppia** — è nato **troppo
+largo**, nello stesso verso di 3C. **La prova è per espressione, non per numero**: `\bformazion`
+da sola pescava **tutte e quattordici** le scoperte, perché riconosce **la parola** e con essa la
+struttura del registro, chi lo estrae e un indicatore.
+
+**Stretta la coppia: 63,6 % → 36,4 %.** ⚠️ **E ci si è fermati lì, dopo UNA stretta**:
+continuare a restringere a numero visto sarebbe il trucco che E41 vieta, spostato di un piano.
+**T148.**
+
+### ⚠️ Il pattern che ha chiuso il ciclo: la correzione è una scrittura
+
+Dei dodici rilievi del terzo giro, **almeno sette cadono su frasi che al secondo non c'erano:
+le ha scritte la correzione**. Due forme — l'intestazione rimasta indietro *(nota: E30, E51)* e
+**la frase scritta correggendo che afferma essa stessa oltre le fonti** *(nuova)*.
+
+⚠️ **Il caso peggiore**: «la foto decisiva non compare in nessuno dei due elenchi» era la
+correzione di una frase vaga, **e il §6 della fonte la elenca**. La correzione ha reso **falsa**
+una frase che prima era soltanto imprecisa. **Candidato emendamento al gate.**
+
+### La revisione col canone, e la diagnosi che ribalta la domanda
+
+**Tredici divergenze nuove nel canone**, otto scrivibili. Le tre che pesano: il **97,32 %** come
+«Valore 2025» in un documento emesso il 12/01 quando l'audit è del 17-18/02; «attestati HACCP in
+scadenza: **n. 5**» dichiarato alla direzione contro i **dieci** del registro — **e da quel
+cinque discende l'azione `A9`**; i reclami per milione, dove la politica rende scrivibile una
+gamba che 3A dava per bloccata.
+
+⚠️ **Non c'è sovra-atomizzazione: c'è il contrario.** Un fatto con tre padroni, e **cinque righe
+del registro senza nessuna nota** — fra cui un'**addetta alla squadra di emergenza col primo
+soccorso scaduto da tre mesi**, con l'unico «SUBITO» di tutto il file. ⚠️ **E la diagnosi vera**:
+*il lotto ha letto benissimo i due grezzi come DOCUMENTI, e quasi mai uno contro il vault* —
+**sette delle otto divergenze scrivibili nascono dall'accostamento col verbale di riesame**.
 
 ## Il gate del lotto 3C, 23/08/2026 — tre emendamenti, e il giudizio che ha trovato di piu'
 

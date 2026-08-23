@@ -1,0 +1,281 @@
+Giudichi note di un archivio aziendale rispetto ai documenti che dichiarano come
+fonte. Non devi migliorare le note, non devi riscriverle e non devi rispondere
+alle domande che pongono: devi giudicare se stanno in piedi sulle loro fonti.
+
+Per ogni nota ricevi: il nome, il corpo integrale, l'elenco delle fonti che
+dichiara e il testo estratto di ciascuna di quelle fonti.
+
+Rispondi SOLO a queste tre domande, in quest'ordine:
+1. Ogni fonte elencata contribuisce davvero alla nota? Una fonte che non sorregge
+   nessuna affermazione e' rumore nel payload, e va segnalata.
+2. La nota afferma qualcosa che le fonti non dicono, pur senza numeri? Cerca le
+   affermazioni qualitative: cause, intenzioni, conseguenze, attribuzioni di una
+   frase a una persona, giudizi di conformita'. I numeri, le date e i codici NON
+   sono affar tuo: li ha gia' verificati lo strato deterministico.
+
+3. Esiste, FRA LE FONTI CHE HAI RICEVUTO IN QUESTO PACCHETTO, un documento che
+   misura o afferma la stessa grandezza di cui la nota parla, e che la nota NON
+   cita? Non e' un difetto di provenienza: e' una lacuna di copertura. La segnali
+   FUORI dal verdetto, in coda alla risposta, dicendo quale nota e quale
+   documento, e NON cambi per questo l'esito della nota.
+
+Assegna a ogni nota esattamente un esito:
+- `pulita` — ogni fonte contribuisce e nessuna affermazione eccede le fonti
+- `fonte_inutile` — almeno una fonte elencata non sorregge nulla
+- `afferma_oltre` — almeno un'affermazione non ha riscontro nelle fonti citate
+- `entrambi` — sia una fonte inutile sia un'affermazione che eccede
+
+Restituisci UNA riga JSON per nota, con esattamente questi campi:
+`nota`, `esito`, `motivazione` (una riga sola, che cita l'affermazione o la fonte
+esatta a cui ti riferisci).
+
+Regole che non puoi violare:
+- Non essere generoso: se un'affermazione non e' ritrovabile leggendo le fonti,
+  non e' fondata anche se e' plausibile e ben scritta.
+- Un'inferenza DICHIARATA come tale («i due documenti, letti insieme, mostrano
+  che…», «la trascrizione non lo afferma: e' un'attribuzione») e' legittima e non
+  si segnala. E' l'inferenza fatta passare per dato della fonte che si segnala.
+- Una nota che riporta due valori divergenti senza sceglierne uno sta facendo il
+  suo mestiere: non e' un difetto, e non si segnala.
+- Non proponi correzioni e non riscrivi niente. Riporti, e basta.
+- Non ricevi il canone e non devi cercarlo: confronti la nota contro le sue
+  fonti, punto. Il giudizio sulla copertura dei fatti spetta a un altro ruolo.
+- La terza domanda non ti autorizza a giudicare la copertura dell'archivio: ti
+  chiede solo di segnalare cio' che hai gia' sotto gli occhi dentro il pacchetto.
+  Se un documento non e' nel pacchetto, per te non esiste.
+
+
+======================================================================
+PROMPT v2 del 2026-08-18 — non modificarlo per questo lotto.\n
+======================================================================
+
+
+----------------------------------------------------------------------
+>>>>> NOTA DA GIUDICARE: fatto-cinque-righe-di-perimetro-incerto-nel-registro.md
+----------------------------------------------------------------------
+---
+title: "Cinque righe del registro dicono qualcosa sul perimetro: due domande da verificare, due istruzioni e una scadenza d'ingresso"
+summary: "Il registro tiene una riga per una dipendente cessata il 19/04 che dichiara «riga da eliminare», una per un agente di cui si dubita che sia in perimetro, una per il datore di lavoro con scadenza N/D e obbligo da verificare, una per una tirocinante senza date e una per un dimissionario al 31/05."
+type: atomica
+area: risorse-umane
+tags: [areas, risorse-umane, formazione, scadenzario, perimetro, organico]
+fonti:
+  - registro_presenze_corsi_HACCP_scaduti.csv
+stato: aperto
+aliases: []
+data_fatto: 2026-05-18
+data_nota: 2026-08-23
+related: "[[area-risorse-umane]], [[doc-scadenzario-formazione-2026]], [[kpi-formazione-stati-al-18-05]], [[questione-cinquanta-o-cinquantadue-persone]], [[fatto-due-sessioni-formative-programmate-per-il-09-06]]"
+---
+
+# Le cinque righe *(contate)*, e che cosa porta ciascuna
+
+⚠️ **Non tutte portano una domanda**: **tre danno un'istruzione** — «riga da eliminare», «non
+pianificare», «DA FARE prima ingresso 15/06» — e **due chiedono una verifica**. ⚠️ **Il
+raggruppamento e' di questa nota**: il registro le mette in fila senza classificarle.
+
+| Riga | Stato | La nota del registro |
+|---|---|---|
+| **Peruzzi Erika**, Operaia Linea 2, HACCP base | `VALIDO` | «**CESSATA 19/04 - riga da eliminare**» |
+| **Zampieri Paolo**, Agente vendita GDO, Sicurezza generale 4h | `N/D` | «agente - **verificare se in perimetro formazione aziendale** (Bellotto dice no)» |
+| **Bertoldi Giancarlo**, Amministratore Delegato, Sicurezza generale 4h del 18/01/2021 | `N/D` | «**datore di lavoro - verificare obbligo formativo specifico** con Bonato» |
+| **Meneghello Giulia**, Tirocinante R&D, HACCP base | `N/D` | «**DA FARE prima ingresso 15/06** - sessione giugno» |
+| **Hoxha Fatjon**, Operaio Linea 2, HACCP base | `VALIDO` | «**DIMISSIONARIO 31/05** - non pianificare» |
+
+## ⚠️ Una riga valida intesta una persona che non lavora più qui
+
+`Peruzzi Erika` risulta **cessata il 19/04** e la sua riga porta ancora `VALIDO` con scadenza
+`05/05/2027`. **La riga non è stata eliminata**, e il registro se ne accorge da solo: la nota
+dice «riga da eliminare».
+
+⚠️ **Conta perché il file viene usato per contare**: finché quella riga c'è, i **52 dipendenti
+distinti** *(contati)* ne comprendono almeno uno che al 18/05 non è in organico
+([[questione-cinquanta-o-cinquantadue-persone]]).
+
+## ⚠️ Due righe portano una verifica da fare, e una porta gia' un parere
+
+Per il datore di lavoro il registro annota «verificare obbligo formativo specifico con
+Bonato»: **una domanda aperta e il nome di chi dovrebbe rispondere** — ⚠️ **E «Bonato & Partners» e' l'ente formatore di quella stessa riga**: che sia lo stesso
+Bonato e' un'inferenza di questa nota, non un fatto del registro. Per l'agente annota «verificare se in perimetro
+formazione aziendale (**Bellotto dice no**)»: **una verifica da fare e, fra parentesi, un
+parere gia' dato**. ⚠️ **Chi sia Bellotto il registro non lo dice**, e questa nota non lo
+inferisce.
+
+## ⚠️ E una riga è un obbligo con una data che il registro stesso si dà
+
+La tirocinante ha `Data corso` e `Scadenza` **vuote** e la nota fissa il termine: **prima
+dell'ingresso del 15/06**, nella sessione di giugno
+([[fatto-due-sessioni-formative-programmate-per-il-09-06]]). ⚠️ **E' l'unica riga del file che
+nomini una data di ingresso**: il registro non ha una colonna per l'assunzione, quindi delle
+altre righe non dice se la formazione l'abbia preceduta o seguita.
+
+## Fonti
+
+- [[registro_presenze_corsi_HACCP_scaduti.csv]] — riga 101, «Peruzzi Erika;Operaia Linea 2;HACCP base;05/05/2024;05/05/2027;VALIDO;Studio Alimentaria (Vicentini);CESSATA 19/04 - riga da eliminare»; riga 97, «Zampieri Paolo;Agente vendita GDO;Sicurezza generale 4h;N/D;N/D;N/D;;agente - verificare se in perimetro formazione aziendale (Bellotto dice no)»; riga 80, «Bertoldi Giancarlo;Amministratore Delegato;Sicurezza generale 4h;18/01/2021;N/D;N/D;Bonato & Partners;datore di lavoro - verificare obbligo formativo specifico con Bonato»; riga 100, «Meneghello Giulia;Tirocinante R&D;HACCP base;;;N/D;Studio Alimentaria (Vicentini);DA FARE prima ingresso 15/06 - sessione giugno»; riga 27, «Hoxha Fatjon;Operaio Linea 2;HACCP base;05/05/2024;05/05/2027;VALIDO;Studio Alimentaria (Vicentini);DIMISSIONARIO 31/05 - non pianificare».
+
+----------------------------------------------------------------------
+>>>>> NOTA DA GIUDICARE: fatto-tre-righe-del-registro-con-un-obbligo-non-chiuso.md
+----------------------------------------------------------------------
+---
+title: "Tre righe del registro portano un obbligo operativo che al 18/05 nessuna riga chiude"
+summary: "Il magazziniere è annotato «NON ABILITATO ALLA GUIDA fino a rinnovo» col patentino scaduto dal 10/04; un'addetta alla squadra di emergenza ha il primo soccorso scaduto dall'08/02 con «sostituire o rinnovare SUBITO»; e un operaio di Linea 3, con i due titoli che il registro gli intesta validi, porta un addestramento «DA REGISTRARE»."
+type: atomica
+area: risorse-umane
+tags: [areas, risorse-umane, formazione, scadenzario, emergenza, abilitazioni]
+fonti:
+  - registro_presenze_corsi_HACCP_scaduti.csv
+stato: aperto
+aliases: []
+data_fatto: 2026-05-18
+data_nota: 2026-08-23
+related: "[[area-risorse-umane]], [[doc-scadenzario-formazione-2026]], [[fatto-diciassette-titoli-scaduti-al-18-05]], [[fatto-squadra-emergenza-antincendio-in-scadenza]]"
+---
+
+# Le tre righe
+
+| Dipendente | Titolo | Stato | L'annotazione, testuale |
+|---|---|---|---|
+| **Preda Radu**, magazziniere | `Carrello elevatore 12h`, scaduto il **10/04/2026** | `SCADUTO` | «**NON ABILITATO ALLA GUIDA fino a rinnovo** - avvisato Faggionato 05/05» |
+| **Trentin Luisa**, amministrazione | `Primo soccorso gruppo B 12h`, scaduto l'**08/02/2026** | `SCADUTO` | «**addetta squadra! sostituire o rinnovare SUBITO**» |
+| **Corradin Emanuele**, operaio Linea 3 | `Sicurezza specifica rischio alto 12h`, valido al **11/01/2029** | `VALIDO` | «addestramento carrelli cella **DA REGISTRARE** (nota RSPP 05/05)» |
+
+## ⚠️ Che cosa hanno in comune, e che cosa no
+
+**Tutte e tre annotano una conseguenza che va oltre lo stato del titolo**: un **divieto**, una **sostituzione o un rinnovo**, un **adempimento da fare**. ⚠️ **Non sono le sole righe del file con
+un'annotazione operativa** — altre portano «AGG. BIENNALE NON FATTO - urgente», «segnalato a
+Zanella», «organizzare recupero diurno pagato» — **e questa nota non le mette in ordine di
+gravità**: il registro non ne stabilisce uno.
+
+⚠️ **La terza non è nemmeno scaduta**: `Corradin` ha il titolo valido fino al 2029, e
+l'annotazione riguarda **un addestramento diverso** dal corso della riga.
+
+## ⚠️ Al 18/05 nessuna delle tre ha una riga che la chiuda
+
+Alla data dell'estrazione **il registro non porta**: una riga di rinnovo del patentino carrello,
+una riga di primo soccorso valida intestata a `Trentin Luisa`, una riga dell'addestramento
+carrelli cella. **Le tre annotazioni restano, e nient'altro le segue.**
+
+## Che cosa questa nota non dice
+
+⚠️ **Se il divieto di guida sia stato rispettato o violato, questo file non lo dice**: annota il
+divieto e chi è stato avvisato, non i turni. ⚠️ **Che cosa chieda la «nota RSPP 05/05», e a
+quante persone, qui non si legge**: quel documento non è fra le fonti di questa nota, e la cella
+lo nomina soltanto. ⚠️ **L'appartenenza alla squadra il registro la nomina su tre righe** — Refosco, Sbalchiero e
+Trentin — **ma non ha una colonna che la porti**: se la squadra sia solo quella, il file non lo
+dice ([[fatto-squadra-emergenza-antincendio-in-scadenza]]).
+
+## Fonti
+
+- [[registro_presenze_corsi_HACCP_scaduti.csv]] — riga 71, «Preda Radu;Magazziniere;Carrello elevatore 12h;10/04/2021;10/04/2026;SCADUTO;CFP Veneto Sicuro;NON ABILITATO ALLA GUIDA fino a rinnovo - avvisato Faggionato 05/05»; riga 92, «Trentin Luisa;Amministrazione;Primo soccorso gruppo B 12h;08/02/2023;08/02/2026;SCADUTO;Croce Verde Verona;addetta squadra! sostituire o rinnovare SUBITO»; riga 47, «Corradin Emanuele;Operaio Linea 3;Sicurezza specifica rischio alto 12h;11/01/2024;11/01/2029;VALIDO;Bonato & Partners;addestramento carrelli cella DA REGISTRARE (nota RSPP 05/05)»; riga 7, «Popescu Ionut;Capoturno Linea 1;Preposto 8h;15/09/2023;15/09/2025;SCADUTO;Bonato & Partners;AGG. BIENNALE NON FATTO - urgente»; riga 2, «estrazione del 18/05/2026».
+
+
+======================================================================
+TESTO ESTRATTO DELLE FONTI CITATE
+======================================================================
+
+--- registro_presenze_corsi_HACCP_scaduti.csv ---
+SCADENZARIO FORMAZIONE OBBLIGATORIA - AURORA FOOD GROUP SRL;;;;;;;
+estrazione del 18/05/2026 da file formazione_master.xlsx foglio 2 - f.sartori;;;;;;;
+ATTENZIONE: le scadenze HACCP seguono la procedura interna (3 anni) non un obbligo di legge regionale - v. nota Vicentini 2024;;;;;;;
+Dipendente;Mansione;Corso;Data corso;Scadenza;Stato;Ente formatore;Note
+Popescu Ionut;Capoturno Linea 1;HACCP avanzato;12/06/2024;12/06/2027;VALIDO;Studio Alimentaria (Vicentini);
+Popescu Ionut;Capoturno Linea 1;Sicurezza specifica rischio alto 12h;03/02/2022;03/02/2027;VALIDO;Bonato & Partners;agg. 6h da fare entro scad.
+Popescu Ionut;Capoturno Linea 1;Preposto 8h;15/09/2023;15/09/2025;SCADUTO;Bonato & Partners;AGG. BIENNALE NON FATTO - urgente
+Rossin Davide;Operaio Linea 1;HACCP base;20/04/2023;20/04/2026;SCADUTO;Studio Alimentaria (Vicentini);inserire nella sessione di giugno
+Rossin Davide;Operaio Linea 1;Sicurezza specifica rischio alto 12h;10/05/2023;10/05/2028;VALIDO;Bonato & Partners;
+Perin Luca;Operaio Linea 1;HACCP base;20/04/2023;20/04/2026;SCADUTO;Studio Alimentaria (Vicentini);sessione giugno
+Perin Luca;Operaio Linea 1;Sicurezza specifica rischio alto 12h;10/05/2023;10/05/2028;VALIDO;Bonato & Partners;
+Osei Samuel;Operaio Linea 1;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);
+Osei Samuel;Operaio Linea 1;Sicurezza specifica rischio alto 12h;11/01/2024;11/01/2029;VALIDO;Bonato & Partners;
+Vasilescu Andrei;Operaio Linea 1;HACCP base;2023-04-20;2026-04-20;SCADUTO;Studio Alimentaria (Vicentini);
+Vasilescu Andrei;Operaio Linea 1;Allergeni (PRPo1);09/10/2025;09/10/2027;VALIDO;interno (Marchetti);
+Bogoni Marta;Operaia Linea 1;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);
+Bogoni Marta;Operaia Linea 1;Sicurezza specifica rischio alto 12h;11/01/2024;11/01/2029;VALIDO;Bonato & Partners;
+Furlan Alessandro;Operaio Linea 1;HACCP base;20/04/2023;20/04/2026;SCADUTO;Studio Alimentaria (Vicentini);
+El Amrani Hassan;Operaio Linea 1;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);
+El Amrani Hassan;Operaio Linea 1;Allergeni (PRPo1);09/10/2025;09/10/2027;VALIDO;interno (Marchetti);
+Peloso Giorgio;Operaio Linea 1 notte;HACCP base;20/04/2023;20/04/2026;SCADUTO;Studio Alimentaria (Vicentini);assente sessione gen - RECUPERO
+Peloso Giorgio;Operaio Linea 1 notte;Sicurezza specifica rischio alto 12h;10/05/2023;10/05/2028;VALIDO;Bonato & Partners;
+Munteanu Cristian;Operaio Linea 1 notte;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);
+Ben Salah Adel;Capoturno Linea 2;HACCP avanzato;12/06/2024;12/06/2027;VALIDO;Studio Alimentaria (Vicentini);
+Ben Salah Adel;Capoturno Linea 2;Preposto 8h;22/03/2024;22/03/2026;SCADUTO;Bonato & Partners;agg. biennale - prenotato 09/06?
+Ben Salah Adel;Capoturno Linea 2;Allergeni (PRPo1);09/10/2025;09/10/2027;VALIDO;interno (Marchetti);
+Hoxha Fatjon;Operaio Linea 2;HACCP base;05/05/2024;05/05/2027;VALIDO;Studio Alimentaria (Vicentini);DIMISSIONARIO 31/05 - non pianificare
+Mansouri Youssef;Operaio Linea 2;HACCP base;05/05/2024;05/05/2027;VALIDO;Studio Alimentaria (Vicentini);
+Mansouri Youssef;Operaio Linea 2;Sicurezza specifica rischio alto 12h;07/07/2021;07/07/2026;IN SCADENZA;Bonato & Partners;agg. entro luglio!
+Dal Ben Elisa;Operaia Linea 2;HACCP base;05/05/2024;05/05/2027;VALIDO;Studio Alimentaria (Vicentini);
+Dal Ben Elisa;Operaia Linea 2;Allergeni (PRPo1);09/10/2025;09/10/2027;VALIDO;interno (Marchetti);
+Ciobanu Marius;Operaio Linea 2;HACCP base;20/04/2023;20/04/2026;SCADUTO;Studio Alimentaria (Vicentini);2 assenze ai recuperi - segnalato a Zanella
+Ciobanu Marius;Operaio Linea 2;Sicurezza specifica rischio alto 12h;10/05/2023;10/05/2028;VALIDO;Bonato & Partners;
+Bertacco Paolo;Operaio Linea 2 / RLS;HACCP base;05/05/2024;05/05/2027;VALIDO;Studio Alimentaria (Vicentini);
+Bertacco Paolo;Operaio Linea 2 / RLS;Corso RLS 32h;10/12/2024;agg. annuale;VALIDO;FLAI/ente paritetico;agg. 4h fatto 03/2026
+Refosco Sonia;Operaia Linea 2;HACCP base;05/05/2024;05/05/2027;VALIDO;Studio Alimentaria (Vicentini);
+Refosco Sonia;Operaia Linea 2;Primo soccorso gruppo B 12h;14/03/2024;14/03/2027;VALIDO;Croce Verde Verona;addetta squadra emergenza
+Sow Ibrahim;Operaio Linea 2;HACCP base;05-mag-24;05-mag-27;VALIDO;Studio Alimentaria (Vicentini);
+Sow Ibrahim;Operaio Linea 2;Sicurezza specifica rischio alto 12h;07/07/2021;07/07/2026;IN SCADENZA;Bonato & Partners;
+Gecchele Nicolo';Operaio Linea 2;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);
+Lupu Vasile;Operaio Linea 2;HACCP base;05/05/2024;05/05/2027;VALIDO;Studio Alimentaria (Vicentini);
+Lupu Vasile;Operaio Linea 2;Allergeni (PRPo1);09/10/2025;09/10/2027;VALIDO;interno (Marchetti);
+Guerra Roberto;Capoturno Linea 3;HACCP avanzato;12/06/2024;12/06/2027;VALIDO;Studio Alimentaria (Vicentini);
+Guerra Roberto;Capoturno Linea 3;Primo soccorso gruppo B 12h;14/03/2024;14/03/2027;VALIDO;Croce Verde Verona;
+Guerra Roberto;Capoturno Linea 3;Preposto 8h;22/03/2024;22/03/2026;SCADUTO;Bonato & Partners;stessa sessione di Ben Salah
+Corradin Emanuele;Operaio Linea 3;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);
+Corradin Emanuele;Operaio Linea 3;Sicurezza specifica rischio alto 12h;11/01/2024;11/01/2029;VALIDO;Bonato & Partners;addestramento carrelli cella DA REGISTRARE (nota RSPP 05/05)
+Ilie Petru;Operaio Linea 3;HACCP base;20/04/2023;20/04/2026;SCADUTO;Studio Alimentaria (Vicentini);
+Miotto Sara;Operaia Linea 3;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);
+Miotto Sara;Operaia Linea 3;Sicurezza specifica rischio alto 12h;11/01/2024;11/01/2029;VALIDO;Bonato & Partners;
+Bouzid Karim;Operaio Linea 3;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);
+Tadiello Federico;Operaio Linea 3;HACCP base;20/04/2023;20/04/2026;SCADUTO;Studio Alimentaria (Vicentini);
+Melnyk Oleg;Operaio Linea 3;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);
+Melnyk Oleg;Operaio Linea 3;Carrello elevatore 12h;18/11/2021;18/11/2026;IN SCADENZA;CFP Veneto Sicuro;
+Sbalchiero Damiano;Operaio Linea 3 notte;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);
+Sbalchiero Damiano;Operaio Linea 3 notte;Antincendio livello 2 (rischio medio) 8h;30/06/2021;30/06/2026;IN SCADENZA;Bonato & Partners;squadra emergenza - PRIORITA'
+Marobin Anna;Operaia confezionamento;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);
+Marobin Anna;Operaia confezionamento;Primo soccorso gruppo B 12h;14/03/2024;14/03/2027;VALIDO;Croce Verde Verona;
+Peretto Chiara;Operaia confezionamento;HACCP base;20/04/2023;20/04/2026;SCADUTO;Studio Alimentaria (Vicentini);
+Ba Mamadou;Operaio confezionamento;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);
+Frigo Lucia;Operaia confezionamento;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);
+Visentin Stefano;Operaio confezionamento;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);
+Visentin Stefano;Operaio confezionamento;Sicurezza specifica rischio alto 12h;11/01/2024;11/01/2029;VALIDO;Bonato & Partners;
+Faggionato Nicola;Resp. magazzino e spedizioni;HACCP base;12/06/2024;12/06/2027;VALIDO;Studio Alimentaria (Vicentini);
+Faggionato Nicola;Resp. magazzino e spedizioni;Carrello elevatore 12h;03/03/2023;03/03/2028;VALIDO;CFP Veneto Sicuro;
+Faggionato Nicola;Resp. magazzino e spedizioni;Antincendio livello 2 8h;30/06/2021;30/06/2026;IN SCADENZA;Bonato & Partners;
+Faggionato Nicola;Resp. magazzino e spedizioni;Preposto 8h;22/03/2024;22/03/2026;SCADUTO;Bonato & Partners;
+Segato Alberto;Magazziniere;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);
+Segato Alberto;Magazziniere;Carrello elevatore 12h;03/03/2023;03/03/2028;VALIDO;CFP Veneto Sicuro;
+Preda Radu;Magazziniere;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);
+Preda Radu;Magazziniere;Carrello elevatore 12h;10/04/2021;10/04/2026;SCADUTO;CFP Veneto Sicuro;NON ABILITATO ALLA GUIDA fino a rinnovo - avvisato Faggionato 05/05
+Mattiello Gianluca;Magazziniere;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);
+Mattiello Gianluca;Magazziniere;Carrello elevatore 12h;03/03/2023;03/03/2028;VALIDO;CFP Veneto Sicuro;
+Dal Maso Ivano;Capo officina;Sicurezza specifica rischio alto 12h;03/02/2022;03/02/2027;VALIDO;Bonato & Partners;
+Dal Maso Ivano;Capo officina;Antincendio livello 2 8h;30/06/2021;30/06/2026;IN SCADENZA;Bonato & Partners;
+Dal Maso Ivano;Capo officina;HACCP base;12/06/2024;12/06/2027;VALIDO;Studio Alimentaria (Vicentini);manutenzione = igiene, insistere che partecipi agli agg.
+Bissoli Mirco;Manutentore notte;HACCP base;20/04/2023;20/04/2026;SCADUTO;Studio Alimentaria (Vicentini);turno notte - organizzare recupero diurno pagato
+Bissoli Mirco;Manutentore notte;Antincendio livello 2 8h;15/02/2024;15/02/2029;VALIDO;Bonato & Partners;
+Dipendente;Mansione;Corso;Data corso;Scadenza;Stato;Ente formatore;Note
+Bertoldi Giancarlo;Amministratore Delegato;Sicurezza generale 4h;18/01/2021;N/D;N/D;Bonato & Partners;datore di lavoro - verificare obbligo formativo specifico con Bonato
+Bertoldi Silvia;Direzione Commerciale;HACCP base;12/06/2024;12/06/2027;VALIDO;Studio Alimentaria (Vicentini);
+Bertoldi Silvia;Direzione Commerciale;Sicurezza generale + specifica basso 8h;12/09/2023;12/09/2028;VALIDO;Bonato & Partners;
+Fantin Marco;Direttore di Stabilimento;HACCP avanzato;12/06/2024;12/06/2027;VALIDO;Studio Alimentaria (Vicentini);
+Fantin Marco;Direttore di Stabilimento;Dirigente sicurezza 16h;20/02/2023;20/02/2028;VALIDO;Bonato & Partners;
+Marchetti Elena;Resp. Qualita' / TL HACCP;HACCP avanzato + agg. normativo;03/10/2025;03/10/2028;VALIDO;Studio Alimentaria (Vicentini);docente interna per allergeni
+Marchetti Elena;Resp. Qualita' / TL HACCP;Sicurezza specifica rischio alto 12h;05/03/2024;05/03/2029;VALIDO;Bonato & Partners;
+Pozzato Sara;Assistente Qualita' QC;HACCP avanzato;12/06/2024;12/06/2027;VALIDO;Studio Alimentaria (Vicentini);
+Pozzato Sara;Assistente Qualita' QC;Primo soccorso gruppo B 12h;14/03/2024;14/03/2027;VALIDO;Croce Verde Verona;
+Zanella Denis;Resp. Produzione;HACCP avanzato;12/06/2024;12/06/2027;VALIDO;Studio Alimentaria (Vicentini);
+Zanella Denis;Resp. Produzione;Preposto 8h;22/03/2024;22/03/2026;SCADUTO;Bonato & Partners;COME GLI ALTRI PREPOSTI - sessione unica 09/06 da confermare
+Trentin Luisa;Amministrazione;Sicurezza generale + specifica basso 8h;12/09/2023;12/09/2028;VALIDO;Bonato & Partners;
+Trentin Luisa;Amministrazione;Primo soccorso gruppo B 12h;08/02/2023;08/02/2026;SCADUTO;Croce Verde Verona;addetta squadra! sostituire o rinnovare SUBITO
+Sartori Federica;HR e segreteria;Sicurezza generale + specifica basso 8h;12/09/2023;12/09/2028;VALIDO;Bonato & Partners;
+Sartori Federica;HR e segreteria;HACCP base;12/06/2024;12/06/2027;VALIDO;Studio Alimentaria (Vicentini);
+Zanchetta Alberto;R&D tecnologo;HACCP avanzato;12/06/2024;12/06/2027;VALIDO;Studio Alimentaria (Vicentini);
+Zanchetta Alberto;R&D tecnologo;Sicurezza specifica rischio alto 12h;05/03/2024;05/03/2029;VALIDO;Bonato & Partners;
+Zampieri Paolo;Agente vendita GDO;Sicurezza generale 4h;N/D;N/D;N/D;;agente - verificare se in perimetro formazione aziendale (Bellotto dice no)
+Bonomo Elisa;Customer service;Sicurezza generale + specifica basso 8h;12/09/2023;12/09/2028;VALIDO;Bonato & Partners;
+Bonomo Elisa;Customer service;HACCP base;12/06/2024;12/06/2027;VALIDO;Studio Alimentaria (Vicentini);
+Meneghello Giulia;Tirocinante R&D;HACCP base;;;N/D;Studio Alimentaria (Vicentini);DA FARE prima ingresso 15/06 - sessione giugno
+Peruzzi Erika;Operaia Linea 2;HACCP base;05/05/2024;05/05/2027;VALIDO;Studio Alimentaria (Vicentini);CESSATA 19/04 - riga da eliminare
+TOTALE SCADUTI: 17;;;;;;;conteggio a mano, verificare
+TOTALE IN SCADENZA (entro 90 gg): 5;;;;;;;
+sessione recupero HACCP prenotata: 09/06/2026 mattina, aula mensa, docente Vicentini - max 20 posti;;;;;;;
+sessione preposti + agg.: da confermare con Bonato, proposta 09/06 pomeriggio;;;;;;;

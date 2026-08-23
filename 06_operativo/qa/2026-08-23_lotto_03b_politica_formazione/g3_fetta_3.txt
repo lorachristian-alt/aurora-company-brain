@@ -1,0 +1,2210 @@
+Giudichi note di un archivio aziendale rispetto ai documenti che dichiarano come
+fonte. Non devi migliorare le note, non devi riscriverle e non devi rispondere
+alle domande che pongono: devi giudicare se stanno in piedi sulle loro fonti.
+
+Per ogni nota ricevi: il nome, il corpo integrale, l'elenco delle fonti che
+dichiara e il testo estratto di ciascuna di quelle fonti.
+
+Rispondi SOLO a queste tre domande, in quest'ordine:
+1. Ogni fonte elencata contribuisce davvero alla nota? Una fonte che non sorregge
+   nessuna affermazione e' rumore nel payload, e va segnalata.
+2. La nota afferma qualcosa che le fonti non dicono, pur senza numeri? Cerca le
+   affermazioni qualitative: cause, intenzioni, conseguenze, attribuzioni di una
+   frase a una persona, giudizi di conformita'. I numeri, le date e i codici NON
+   sono affar tuo: li ha gia' verificati lo strato deterministico.
+
+3. Esiste, FRA LE FONTI CHE HAI RICEVUTO IN QUESTO PACCHETTO, un documento che
+   misura o afferma la stessa grandezza di cui la nota parla, e che la nota NON
+   cita? Non e' un difetto di provenienza: e' una lacuna di copertura. La segnali
+   FUORI dal verdetto, in coda alla risposta, dicendo quale nota e quale
+   documento, e NON cambi per questo l'esito della nota.
+
+Assegna a ogni nota esattamente un esito:
+- `pulita` — ogni fonte contribuisce e nessuna affermazione eccede le fonti
+- `fonte_inutile` — almeno una fonte elencata non sorregge nulla
+- `afferma_oltre` — almeno un'affermazione non ha riscontro nelle fonti citate
+- `entrambi` — sia una fonte inutile sia un'affermazione che eccede
+
+Restituisci UNA riga JSON per nota, con esattamente questi campi:
+`nota`, `esito`, `motivazione` (una riga sola, che cita l'affermazione o la fonte
+esatta a cui ti riferisci).
+
+Regole che non puoi violare:
+- Non essere generoso: se un'affermazione non e' ritrovabile leggendo le fonti,
+  non e' fondata anche se e' plausibile e ben scritta.
+- Un'inferenza DICHIARATA come tale («i due documenti, letti insieme, mostrano
+  che…», «la trascrizione non lo afferma: e' un'attribuzione») e' legittima e non
+  si segnala. E' l'inferenza fatta passare per dato della fonte che si segnala.
+- Una nota che riporta due valori divergenti senza sceglierne uno sta facendo il
+  suo mestiere: non e' un difetto, e non si segnala.
+- Non proponi correzioni e non riscrivi niente. Riporti, e basta.
+- Non ricevi il canone e non devi cercarlo: confronti la nota contro le sue
+  fonti, punto. Il giudizio sulla copertura dei fatti spetta a un altro ruolo.
+- La terza domanda non ti autorizza a giudicare la copertura dell'archivio: ti
+  chiede solo di segnalare cio' che hai gia' sotto gli occhi dentro il pacchetto.
+  Se un documento non e' nel pacchetto, per te non esiste.
+
+
+======================================================================
+PROMPT v2 del 2026-08-18 — non modificarlo per questo lotto.\n
+======================================================================
+
+======================================================================
+FETTA 3 DI 3 — 9 note da giudicare.
+Giudichi SOLO le note di questa fetta, contro le fonti in coda a questo
+file. ⚠️ Se l'appendice delle fonti mancasse o non contenesse i documenti
+che le note citano, DICHIARA L'INGRESSO DEGRADATO e non emettere verdetti:
+è un esito legittimo e vale più di un verdetto costruito sul nulla.
+======================================================================
+
+----------------------------------------------------------------------
+>>>>> NOTA DA GIUDICARE: questione-sessioni-allergeni-2026-non-a-registro.md
+----------------------------------------------------------------------
+---
+title: "La sessione allergeni straordinaria del 10/04 non ha una riga nel registro, e i tre nomi che la scheda dichiara formati non ne hanno nessuna"
+summary: "La scheda allergeni data al 10/04/2026 la sessione straordinaria post NC-2026-055 e nomina i tre che l'hanno ricevuta; nel registro estratto il 18/05 le sole righe «Allergeni (PRPo1)» sono cinque, tutte del 09/10/2025, e nessuna intesta quei tre nomi."
+type: conflitto
+area: risorse-umane
+tags: [areas, risorse-umane, formazione, allergeni, divergenza, mod-hr-11]
+fonti:
+  - registro_presenze_corsi_HACCP_scaduti.csv
+  - scheda_allergeni_matrice_cross_contamination.docx
+stato: aperto
+aliases: []
+data_fatto: 2026-05-18
+data_nota: 2026-08-23
+related: "[[area-risorse-umane]], [[fatto-sessioni-formazione-allergeni-2026]], [[fatto-formazione-allergeni-registrata-biennale]], [[doc-scadenzario-formazione-2026]], [[fatto-quattro-neoassunti-linea2-senza-formazione-allergeni]], [[area-qualita]]"
+---
+
+# Le versioni a confronto
+
+| Documento | Che cosa dice delle sessioni allergeni 2026 |
+|---|---|
+| **Scheda allergeni**, §9.2 | «Sessione straordinaria post NC-2026-055 erogata il **10/04/2026** a R&D (Zanchetta, Meneghello) e capiturno Linea 1 (Popescu)» |
+| **Registro della formazione**, estratto il **18/05/2026** | ⚠️ **nessuna riga `Allergeni (PRPo1)` del 2026**: le sole **cinque** *(contate)* sono del **09/10/2025** |
+
+⚠️ **E i tre nominati dalla sessione straordinaria non hanno alcuna riga allergeni**: le cinque
+righe intestano Vasilescu, El Amrani, Ben Salah, Dal Ben e Lupu
+([[fatto-formazione-allergeni-registrata-biennale]]).
+
+## Perché non si sceglie
+
+**Le due letture sono entrambe compatibili con i documenti**, e nessuno dei due le distingue:
+
+| | |
+|---|---|
+| **La sessione c'è stata e il registro non la porta** | allora questo estratto **non è** il `MOD-HR-11` che la scheda prescrive, o non ne è aggiornato |
+| **Il registro è completo al 18/05** | allora la formazione che la scheda dà per erogata **non risulta registrata dove la prescrizione dice di registrarla** |
+
+⚠️ **La scheda prescrive il registro per nome** — «registro `MOD-HR-11`» — e questo file
+**non dichiara di esserlo** ([[doc-scadenzario-formazione-2026]]). Finché quel legame non è
+dichiarato da un documento, la divergenza non è fra due registrazioni: è fra una registrazione
+e un documento che non si sa se sia il registro.
+
+## Cosa servirebbe per chiuderla
+
+Il `MOD-HR-11` stesso, oppure `formazione_master.xlsx` da cui questo estratto viene: **nessuno
+dei due è fra le fonti di questa nota**, e il secondo lo nomina soltanto la riga di testata del
+registro.
+
+## Fonti
+
+- [[registro_presenze_corsi_HACCP_scaduti.csv]] — riga 15, «Vasilescu Andrei;Operaio Linea 1;Allergeni (PRPo1);09/10/2025;09/10/2027;VALIDO;interno (Marchetti);» — e con essa le righe 20, 26, 31 e 42, che sono le sole altre quattro righe «Allergeni (PRPo1)» del file, tutte con data corso «09/10/2025» e scadenza «09/10/2027». Nessun'altra riga del file porta quel corso.
+- [[scheda_allergeni_matrice_cross_contamination.docx]] — §9.2, «Sessione straordinaria post NC-2026-055 erogata il 10/04/2026 a R&D» e «(Zanchetta, Meneghello) e capiturno Linea 1 (Popescu).»; §9.1, «su allergeni al momento dell'assunzione e con richiamo annuale (registro» e «MOD-HR-11). Modulo specifico per: capiturno (sequenze e lavaggi), QC (test».
+
+----------------------------------------------------------------------
+>>>>> NOTA DA GIUDICARE: questione-tre-o-quattro-neoassunti-senza-formazione.md
+----------------------------------------------------------------------
+---
+title: "Gli operatori di Linea 2 senza formazione registrata sono tre o quattro, a tre settimane di distanza"
+summary: "Il registro delle non conformità interne apre il 28/01/2026 una NC per il MOD-HR-11 non aggiornato per 3 neoassunti di Linea 2, chiusa il 20/02; l'audit CSQA del 17-18/02 ne trova 4, e nessuno dei due documenti dice di quanti parli l'altro."
+type: atomica
+area: qualita
+tags: [areas, qualita, audit, formazione, allergeni, linea-2, divergenza]
+fonti:
+  - non_conformita_interne_registro_2026.csv
+  - Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt
+  - scheda_allergeni_matrice_cross_contamination.docx
+  - registro_presenze_corsi_HACCP_scaduti.csv
+stato: aperto
+aliases: []
+data_fatto: 2026-02-18
+data_nota: 2026-08-22
+related: "[[area-qualita]], [[fatto-quattro-neoassunti-linea2-senza-formazione-allergeni]], [[fatto-turnover-linea2-e-domeniche]], [[fatto-sessioni-formazione-allergeni-2026]], [[questione-sessioni-allergeni-2026-non-a-registro]], [[doc-scadenzario-formazione-2026]], [[entita-federica-sartori]]"
+---
+
+# Tre, poi quattro
+
+| Documento | Quando | Quanti | Che cosa dice |
+|---|---|---|---|
+| **Registro NC interne**, `NC-2026-015` | **28/01/2026** | **3** | «Audit interno: registro formazione MOD-HR-11 non aggiornato per 3 neoassunti Linea 2», gravità **media**, causa «passaggio consegne HR incompleto», azione «aggiornamento registro, pianificate sessioni HACCP», responsabile **Sartori F.** ([[entita-federica-sartori]]), **chiusa il 20/02/2026** |
+| **Audit CSQA**, osservazione n. 4 | **17-18/02/2026** | **4** | operatori assunti «tra ottobre 2025 e gennaio 2026», formazione allergeni non registrata su `MOD-HR-11` |
+
+## ⚠️ Chi prescrive l'obbligo, e che cosa dice il registro tre mesi dopo
+
+**L'obbligo che entrambi i documenti danno per mancato è scritto altrove**: la scheda allergeni
+lo impone all'assunzione e con richiamo annuale, su `MOD-HR-11`
+([[fatto-sessioni-formazione-allergeni-2026]] ne è la nota padrona).
+
+Lo scadenzario estratto il **18/05/2026** porta **cinque** righe `Allergeni (PRPo1)`
+*(contate)*, tutte del **09/10/2025**: nessuna successiva. ⚠️ **Ma il registro non dichiara di
+essere il `MOD-HR-11`**, quindi l'assenza di righe **non prova** che la formazione non sia stata
+registrata dove doveva ([[questione-sessioni-allergeni-2026-non-a-registro]]): prova che
+**questo estratto non la porta**.
+
+## Perché non si sceglie
+
+⚠️ **Non è detto che sia una contraddizione**, e per questo la nota non decide: le finestre di
+assunzione dichiarate non coincidono — l'audit arriva fino a **gennaio 2026** — e un quarto
+assunto a gennaio poteva non essere nel conteggio del 28/01. **Ma i due documenti contano la
+stessa cosa sulla stessa linea a tre settimane di distanza, e nessuno dei due dice di quanti
+parli l'altro.**
+
+## ⚠️ Il fatto che pesa più del numero
+
+**Aurora lo sapeva già, e da un proprio audit interno.** La non conformità è di **venti giorni
+prima** dell'audit di certificazione.
+
+⚠️ **L'auditor esterno ha trovato scoperto un punto su cui l'azienda aveva già aperto una
+propria non conformità venti giorni prima.** ⚠️ **E la NC interna risulta CHIUSA il 20/02**,
+cioè **due giorni dopo la fine dell'audit**: il registro porta `Data_chiusura` **20/02/2026** e
+`Stato` **CHIUSA**.
+
+⚠️ **La NC risulta chiusa DOPO che l'auditor aveva rilevato lo stesso punto**, e se la chiusura
+abbia recepito il rilievo esterno o fosse già programmata **nessuno dei due documenti lo dice**.
+⚠️ **E il rapporto non nomina mai la numerazione `NC-2026-###`**: dal suo testo non risulta che
+l'ente sapesse della non conformità interna.
+
+## Fonti
+
+- [[non_conformita_interne_registro_2026.csv]] — riga 17, `NC-2026-015`: «NC-2026-015;28/01/2026;audit;Qualità;Audit interno: registro formazione MOD-HR-11 non aggiornato per 3 neoassunti Linea 2;;media;passaggio consegne HR incompleto;aggiornamento registro, pianificate sessioni HACCP;Sartori F.;20/02/2026;CHIUSA;»; riga 2, intestazione «N_NC;Data;Origine;Reparto;Descrizione;Prodotto_Lotto;Gravità;Causa_radice;Azione_correttiva;Responsabile;Data_chiusura;Stato;Costo_stimato_€».
+- [[Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt]] — §4, «OSSERVAZIONE n. 4 (MINORE)»: «Evidenza oggettiva: per n. 4 operatori assunti sulla Linea 2 tra ottobre 2025», «  e gennaio 2026 (personale in sostituzione per turnover) la formazione» e «  specifica allergeni non risulta registrata su MOD-HR-11; risulta eseguito».
+- [[scheda_allergeni_matrice_cross_contamination.docx]] — §9.1, «Tutto il personale di produzione, magazzino e manutenzione riceve formazione» e «su allergeni al momento dell'assunzione e con richiamo annuale (registro».
+- [[registro_presenze_corsi_HACCP_scaduti.csv]] — riga 15, «Vasilescu Andrei;Operaio Linea 1;Allergeni (PRPo1);09/10/2025;09/10/2027;VALIDO;interno (Marchetti);» — e con essa le righe 20, 26, 31 e 42, le sole altre quattro righe «Allergeni (PRPo1)» del file.
+
+----------------------------------------------------------------------
+>>>>> NOTA DA GIUDICARE: doc-politica-qualita-2026.md
+----------------------------------------------------------------------
+---
+title: "La Politica per la qualità e la sicurezza alimentare 2026 è il DOC-QA-01 rev. 8, emesso il 12/01/2026"
+summary: "Il documento che dichiara gli impegni della Direzione: otto impegni, quattro sulla cultura della sicurezza alimentare, i piani food defense e food fraud, nove obiettivi misurabili con target 2026, e il riesame almeno annuale."
+type: atomica
+area: qualita
+tags: [docs, qualita, politica, doc-qa-01, brcgs]
+fonti:
+  - politica_qualita_e_sicurezza_alimentare_2026.docx
+stato: risolto
+aliases: ["DOC-QA-01", "Politica per la qualità 2026"]
+data_fatto: 2026-01-12
+data_nota: 2026-08-23
+related: "[[area-qualita]], [[_index-docs]], [[fatto-politica-otto-impegni-e-il-nono-ritirato]], [[fatto-politica-cultura-sicurezza-alimentare]], [[fatto-politica-food-defense-e-food-fraud]], [[kpi-obiettivi-politica-2026]], [[fatto-politica-firmata-il-15-01]], [[entita-elena-marchetti]]"
+---
+
+# Il documento, e che cosa contiene
+
+| Voce | Valore |
+|---|---|
+| Codice | **`DOC-QA-01` rev. 8** |
+| Emissione | **12/01/2026** |
+| Distribuzione | bacheche di reparto, sala riunioni, intranet, **copia ai nuovi assunti col pacchetto di ingresso** |
+| Riga della firma | «Il Legale Rappresentante — Amministratore Delegato», **Giancarlo Bertoldi** — ⚠️ e lo **spazio della firma è vuoto** nel documento |
+
+**Sei parti** *(contate)*: gli impegni della Direzione, la cultura della sicurezza alimentare,
+food defense e food fraud, gli obiettivi misurabili 2026, la comunicazione, il riesame.
+
+## Perché conta
+
+**È il documento in cui l'azienda dichiara che cosa vuole**, e lo dichiara in forma
+azionabile: la frase con cui si chiude è una regola decisionale — «nessun obiettivo di
+produzione, di costo o di consegna giustifica una deroga alla sicurezza degli alimenti» — e
+non un proposito.
+
+## Che cosa la revisione 8 ha cambiato, e su richiesta di chi
+
+⚠️ **Il documento porta un'annotazione firmata Marchetti E.** — che la revisione l'abbia
+scritta lei il documento non lo dice — e quell'annotazione elenca che cosa la revisione 8 ha
+cambiato: «aggiornati gli obiettivi numerici 2026 e rafforzato il paragrafo sulla cultura della
+sicurezza alimentare». **L'annotazione attribuisce la seconda modifica a una richiesta dello standard** — `BRCGS
+Issue 9, cl. 1.1.2` — e questo è quanto il documento dice: che la richiesta esista, il
+documento non la porta.
+
+⚠️ **La stessa annotazione porta un'istruzione sull'ordine dei gesti**: «Da far firmare al
+titolare PRIMA della riunione di riesame di gennaio, non dopo come l'anno scorso»
+([[fatto-politica-firmata-il-15-01]]). ⚠️ **E la copia da cui questo testo viene la firma non
+ce l'ha**: lo spazio è una riga di trattini.
+
+## Il riesame e la comunicazione, come il documento li prescrive
+
+**Riesame** almeno una volta l'anno nel riesame di direzione, «e comunque al verificarsi di
+cambiamenti significativi di processo, prodotto, mercato o normativa»; verifica adeguatezza,
+grado di raggiungimento degli obiettivi e disponibilità delle risorse.
+
+**Comunicazione**: affissione in bacheca, illustrazione a ogni nuovo assunto, richiamo nelle
+sessioni di formazione annuali, disponibilità alle parti esterne che ne facciano richiesta, e
+incontri di reparto **almeno semestrali** sull'andamento degli obiettivi.
+
+## Fonti
+
+- [[politica_qualita_e_sicurezza_alimentare_2026.docx]] — §intestazione, «Documento DOC-QA-01 rev. 8 — emissione 12/01/2026 — distribuzione: bacheche di reparto, sala riunioni, intranet, copia ai nuovi assunti con il pacchetto di ingresso»; §intestazione, annotazione: «aggiornati gli obiettivi numerici 2026 e rafforzato il paragrafo sulla cultura della sicurezza alimentare (richiesta esplicita BRCGS Issue 9, cl. 1.1.2)» e «Da far firmare al titolare PRIMA della riunione di riesame di gennaio, non dopo come l'anno scorso»; §RIESAME, «e comunque al verificarsi di cambiamenti significativi di processo, prodotto, mercato o normativa»; §COMUNICAZIONE, «Gli obiettivi e il loro andamento sono comunicati al personale con incontri di reparto almeno semestrali»; §chiusura, «nessun obiettivo di produzione, di costo o di consegna giustifica una deroga alla sicurezza degli alimenti».
+
+----------------------------------------------------------------------
+>>>>> NOTA DA GIUDICARE: doc-scadenzario-formazione-2026.md
+----------------------------------------------------------------------
+---
+title: "Lo scadenzario della formazione obbligatoria è un'estrazione del 18/05/2026 da formazione_master.xlsx, e porta 96 righe di dato"
+summary: "Il file dichiara di essere l'estrazione del 18/05/2026 dal foglio 2 di formazione_master.xlsx a cura di f.sartori; porta 96 righe di dato (contate) su 52 dipendenti, 30 mansioni, 14 corsi e 6 enti formatori, con lo stato di ciascun titolo."
+type: atomica
+area: risorse-umane
+tags: [docs, risorse-umane, formazione, scadenzario, mod-hr-11]
+fonti:
+  - registro_presenze_corsi_HACCP_scaduti.csv
+  - manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt
+stato: risolto
+aliases: ["scadenzario formazione", "formazione_master.xlsx"]
+data_fatto: 2026-05-18
+data_nota: 2026-08-23
+related: "[[area-risorse-umane]], [[_index-docs]], [[kpi-formazione-stati-al-18-05]], [[fatto-validita-haccp-da-procedura-non-in-archivio]], [[entita-francesca-sartori]], [[area-qualita]]"
+---
+
+# Che cos'è questo file, e che cosa non è
+
+| Voce | Valore |
+|---|---|
+| Titolo | «SCADENZARIO FORMAZIONE OBBLIGATORIA - AURORA FOOD GROUP SRL» |
+| Origine dichiarata | «estrazione del 18/05/2026 da file formazione_master.xlsx foglio 2 - f.sartori» |
+| Righe di dato | **96** *(contate)* |
+| Dipendenti distinti | **52** *(contati)* · Mansioni **30** *(contate)* |
+| Corsi distinti | **14** *(contati)* · Enti formatori **6** *(contati)*, piu' una riga senza ente |
+
+**Otto colonne**: `Dipendente`, `Mansione`, `Corso`, `Data corso`, `Scadenza`, `Stato`,
+`Ente formatore`, `Note`.
+
+## ⚠️ È una fotografia, e il file dice di che cosa
+
+**Il padrone del dato non è questo file**: è `formazione_master.xlsx`, foglio 2, che il file
+nomina e che **non è fra le fonti di questa nota**. Questo è un estratto a una data, e ogni
+conclusione che se ne trae vale **al 18/05/2026**.
+
+⚠️ **E non ha una colonna delle ore**: ha corsi, date, scadenze e stati. **L'indicatore
+«ore/addetto/anno» non si ricava da questo file**, e dove quell'indicatore diverga lo dice
+[[questione-ore-formazione-due-valori-per-il-2025]].
+
+## Il registro che la prescrizione nomina è un altro
+
+⚠️ **Il manuale HACCP prescrive `MOD-HR-11` come registro della formazione**, dentro il
+prerequisito `PRP-04`, e **quella sigla non compare in nessuna delle 96 righe di questo file**.
+Che lo scadenzario sia il `MOD-HR-11`, una sua vista o un documento diverso, **nessuna delle due
+fonti di questa nota lo dichiara** ([[doc-manuale-haccp]]).
+
+## Le quattro righe di coda, che dati non sono
+
+Il file si chiude con quattro righe fuori tabella: due totali dichiarati
+([[kpi-formazione-stati-al-18-05]]) e due sessioni programmate
+([[fatto-due-sessioni-formative-programmate-per-il-09-06]]).
+
+## Fonti
+
+- [[registro_presenze_corsi_HACCP_scaduti.csv]] — riga 1, «SCADENZARIO FORMAZIONE OBBLIGATORIA - AURORA FOOD GROUP SRL»; riga 2, «estrazione del 18/05/2026 da file formazione_master.xlsx foglio 2 - f.sartori»; riga 4, intestazione «Dipendente;Mansione;Corso;Data corso;Scadenza;Stato;Ente formatore;Note».
+- [[manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt]] — §9.1, «PRP-04 Igiene e formazione del personale (MOD-HR-11 registro formazione; visite».
+
+----------------------------------------------------------------------
+>>>>> NOTA DA GIUDICARE: entita-federica-sartori.md
+----------------------------------------------------------------------
+---
+title: "Federica Sartori è HR e segreteria, estrae lo scadenzario della formazione e affigge la politica in bacheca"
+summary: "Il registro la porta come «HR e segreteria»; estrae il 18/05/2026 lo scadenzario della formazione da formazione_master.xlsx e firma l'annotazione che data la firma della politica al 15/01 e l'affissione in bacheca al 16/01."
+type: entita
+area: risorse-umane
+tags: [entities, risorse-umane, formazione, politica, persone]
+fonti:
+  - registro_presenze_corsi_HACCP_scaduti.csv
+  - politica_qualita_e_sicurezza_alimentare_2026.docx
+stato: aperto
+aliases: ["Sartori F.", "f.sartori", "Federica"]
+data_nota: 2026-08-23
+related: "[[area-risorse-umane]], [[_index-entities]], [[doc-scadenzario-formazione-2026]], [[fatto-politica-firmata-il-15-01]], [[entita-elena-marchetti]]"
+---
+
+# Identificazione
+
+| Voce | Valore |
+|---|---|
+| Come compare | «**f.sartori**» *(scadenzario)* · «**Sartori F.**» *(annotazione alla politica)* · «**Federica**» *(tabella alias)* |
+| Ruolo dichiarato | **«HR e segreteria»**, nelle due righe che il registro le intesta |
+
+**Il registro la porta due volte come dipendente**, con mansione «HR e segreteria»: `Sicurezza
+generale + specifica basso 8h` valido al 12/09/2028 e `HACCP base` valido al 12/06/2027.
+
+⚠️ **Che «f.sartori» dell'intestazione, «Sartori Federica» delle due righe e «Sartori F.»
+dell'annotazione alla politica siano la stessa persona è un'INFERENZA di questa nota**, fondata
+sull'iniziale e sulla mansione. **Le due fonti di questa nota non le mettono una accanto
+all'altra.**
+
+## Dove compare
+
+| Documento | Che cosa fa |
+|---|---|
+| **Scadenzario formazione** | ne è l'estrattore: «estrazione del 18/05/2026 da file formazione_master.xlsx foglio 2 - f.sartori» ([[doc-scadenzario-formazione-2026]]) |
+| **Politica `DOC-QA-01` rev. 8** | firma l'annotazione che data firma e affissione, e segnala la copia staccata in Linea 3 ([[fatto-politica-firmata-il-15-01]]) |
+
+## Da non confondere con
+
+- ⚠️ **Le altre annotazioni della politica sono di altri**: la revisione 8 e la frase sulla
+  cultura sono di Marchetti E. ([[entita-elena-marchetti]]), il punto 9 da togliere è di
+  Vicentini C. ([[entita-chiara-vicentini]]), il 78 % ricontrollato è di Pozzato S.
+
+## Questioni aperte
+
+- ⚠️ **La mansione è dichiarata, la responsabilità sui due documenti no.** Che sia lei a
+  estrarre lo scadenzario e ad affiggere la politica lo dicono le due righe citate; che questo
+  discenda dal ruolo, o che il ruolo comporti altro, **le fonti di questa nota non lo dicono**.
+
+## Fonti
+
+- [[registro_presenze_corsi_HACCP_scaduti.csv]] — riga 2, «estrazione del 18/05/2026 da file formazione_master.xlsx foglio 2 - f.sartori»; riga 93, «Sartori Federica;HR e segreteria;Sicurezza generale + specifica basso 8h;12/09/2023;12/09/2028;VALIDO;Bonato & Partners;»; riga 94, «Sartori Federica;HR e segreteria;HACCP base;12/06/2024;12/06/2027;VALIDO;Studio Alimentaria (Vicentini);».
+- [[politica_qualita_e_sicurezza_alimentare_2026.docx]] — §chiusura, annotazione: «firmata dal titolare il 15/01, l'originale è nel raccoglitore DOC-QA in qualità. Ho appeso le copie nelle bacheche il 16/01».
+
+----------------------------------------------------------------------
+>>>>> NOTA DA GIUDICARE: kpi-enti-formatori-e-corsi.md
+----------------------------------------------------------------------
+---
+title: "Sei enti formatori si dividono i quattordici corsi del registro, e la linea di taglio è fra sicurezza alimentare e sicurezza sul lavoro"
+summary: "Il registro nomina sei enti formatori distinti su quattordici corsi: Studio Alimentaria tiene i tre corsi HACCP, la formazione allergeni è interna a Marchetti, e i restanti quattro enti si dividono i corsi di sicurezza sul lavoro; nessun ente di questo registro compare in entrambe le materie."
+type: atomica
+area: risorse-umane
+tags: [data, risorse-umane, formazione, enti-formatori, scadenzario]
+fonti:
+  - registro_presenze_corsi_HACCP_scaduti.csv
+stato: risolto
+aliases: []
+data_fatto: 2026-05-18
+data_nota: 2026-08-23
+related: "[[area-risorse-umane]], [[doc-scadenzario-formazione-2026]], [[entita-chiara-vicentini]], [[entita-elena-marchetti]], [[fatto-diciassette-titoli-scaduti-al-18-05]]"
+---
+
+# Chi forma che cosa
+
+| Ente formatore | I corsi che tiene, nel registro |
+|---|---|
+| **Studio Alimentaria (Vicentini)** | `HACCP base`, `HACCP avanzato`, `HACCP avanzato + agg. normativo` |
+| **Bonato & Partners** | `Sicurezza specifica rischio alto 12h`, `Preposto 8h`, `Antincendio livello 2 8h` e `(rischio medio) 8h`, `Sicurezza generale + specifica basso 8h`, `Sicurezza generale 4h`, `Dirigente sicurezza 16h` |
+| **interno (Marchetti)** | `Allergeni (PRPo1)` |
+| **CFP Veneto Sicuro** | `Carrello elevatore 12h` |
+| **Croce Verde Verona** | `Primo soccorso gruppo B 12h` |
+| **FLAI/ente paritetico** | `Corso RLS 32h` |
+
+**Sei enti** *(contati)* e **quattordici corsi** *(contati)* su 96 righe di dato, piu' una riga
+senza ente.
+
+## ⚠️ Due filiere che non si toccano
+
+**La linea di taglio corre fra le due materie**, e il registro la mostra senza dichiararla:
+la **sicurezza alimentare** passa da un consulente esterno e da una docenza interna, la
+**sicurezza sul lavoro** da quattro enti diversi. **Nessun ente DI QUESTO REGISTRO compare in
+entrambe le materie.**
+
+⚠️ **E le due sessioni programmate per il 09/06 sono una per filiera**
+([[fatto-due-sessioni-formative-programmate-per-il-09-06]]) — **che sia una conseguenza della
+divisione degli enti il registro non lo dice**: porta le due righe senza collegarle. ⚠️ **Le periodicità il
+registro non le enuncia**, e dalle date si vede che variano **dentro** ciascun gruppo prima
+che fra i due: `HACCP base` a tre anni contro `Allergeni (PRPo1)` a due, `Sicurezza specifica`
+a cinque anni contro `Preposto 8h` a due.
+
+## ⚠️ La formazione allergeni è l'unica erogata internamente
+
+Le cinque righe `Allergeni (PRPo1)` portano come ente **«interno (Marchetti)»**: è l'unico
+corso **di questo registro** che non abbia un ente esterno
+([[fatto-formazione-allergeni-registrata-biennale]]).
+
+## Fonti
+
+- [[registro_presenze_corsi_HACCP_scaduti.csv]] — riga 5, «Popescu Ionut;Capoturno Linea 1;HACCP avanzato;12/06/2024;12/06/2027;VALIDO;Studio Alimentaria (Vicentini);»; riga 6, «Popescu Ionut;Capoturno Linea 1;Sicurezza specifica rischio alto 12h;03/02/2022;03/02/2027;VALIDO;Bonato & Partners;agg. 6h da fare entro scad.»; riga 54, «Melnyk Oleg;Operaio Linea 3;Carrello elevatore 12h;18/11/2021;18/11/2026;IN SCADENZA;CFP Veneto Sicuro»; riga 15, «Vasilescu Andrei;Operaio Linea 1;Allergeni (PRPo1);09/10/2025;09/10/2027;VALIDO;interno (Marchetti);»; colonne `Corso` ed `Ente formatore` sulle 96 righe di dato.
+
+----------------------------------------------------------------------
+>>>>> NOTA DA GIUDICARE: kpi-formazione-stati-al-18-05.md
+----------------------------------------------------------------------
+---
+title: "Al 18/05/2026 lo scadenzario porta 70 titoli validi, 17 scaduti e 6 in scadenza"
+summary: "Su 96 righe di dato, la colonna Stato dà 70 VALIDO, 17 SCADUTO, 6 IN SCADENZA e 3 N/D, che sommano esattamente 96; il file dichiara in coda «TOTALE SCADUTI: 17», che torna, e «TOTALE IN SCADENZA (entro 90 gg): 5», che con le righe marcate non torna."
+type: atomica
+area: risorse-umane
+tags: [data, risorse-umane, formazione, scadenzario, kpi]
+fonti:
+  - registro_presenze_corsi_HACCP_scaduti.csv
+stato: risolto
+aliases: []
+data_fatto: 2026-05-18
+data_nota: 2026-08-23
+related: "[[area-risorse-umane]], [[doc-scadenzario-formazione-2026]], [[fatto-in-scadenza-cinque-o-sei]], [[fatto-diciassette-titoli-scaduti-al-18-05]], [[area-qualita]]"
+---
+
+# La colonna `Stato`, contata riga per riga
+
+| Stato | Righe *(contate)* |
+|---|---|
+| `VALIDO` | **70** |
+| `SCADUTO` | **17** |
+| `IN SCADENZA` | **6** |
+| `N/D` | **3** |
+| **totale righe di dato** | **96** |
+
+## I due totali che il file dichiara da sé
+
+> «TOTALE SCADUTI: 17» — e nella colonna `Note` della stessa riga: «conteggio a mano, verificare»
+>
+> «TOTALE IN SCADENZA (entro 90 gg): 5»
+
+⚠️ **Il totale che invita a verificare è quello giusto**: gli scaduti contati sono **17**, come
+il file dichiara. ⚠️ **Quello che non porta avvertenze è quello che non torna con la colonna**:
+il file dichiara **cinque** in scadenza, le righe marcate `IN SCADENZA` sono **sei**
+([[fatto-in-scadenza-cinque-o-sei]]).
+
+## ⚠️ Le quattro righe di coda non sono dati, e il file non le separa
+
+Sotto la tabella il file porta **quattro righe fuori schema** — i due totali e le due sessioni
+programmate ([[fatto-due-sessioni-formative-programmate-per-il-09-06]]) — senza alcuna riga
+vuota o marcatore che le distingua. **Chi legge il `.csv` a macchina se le trova dentro la
+tabella**, e contandole otterrebbe **96 + 4 = 100 righe** *(calcolato)* invece di 96, oltre a
+una intestazione ripetuta a metà file. ⚠️ **I conteggi di questa nota escludono tutte e
+cinque**, e per questo la somma degli stati torna esatta.
+
+## Perché conta
+
+**Diciassette titoli scaduti su 96 righe** non è una percentuale di persone: una persona ha
+più titoli, e uno scaduto può convivere con altri validi. **Il numero delle persone toccate è
+un'altra grandezza**, e sta in [[fatto-diciassette-titoli-scaduti-al-18-05]].
+
+## Fonti
+
+- [[registro_presenze_corsi_HACCP_scaduti.csv]] — riga 102, «TOTALE SCADUTI: 17» con nota «conteggio a mano, verificare»; riga 103, «TOTALE IN SCADENZA (entro 90 gg): 5»; colonna `Stato` sulle 96 righe di dato, cioè le righe 5-101 esclusa la 79, che è l'intestazione ripetuta, più le righe 102-105 di coda che dati non sono.
+
+----------------------------------------------------------------------
+>>>>> NOTA DA GIUDICARE: kpi-indicatori-2025-consuntivo.md
+----------------------------------------------------------------------
+---
+title: "Sei indicatori su dieci mancano l'obiettivo nel consuntivo 2025"
+summary: "La tabella del riesame confronta dieci indicatori con il proprio obiettivo: quattro lo raggiungono e sei no, e fra questi ultimi la prova di richiamo, che rimanda a un altro paragrafo invece di portare un valore."
+type: atomica
+area: qualita
+tags: [data, qualita, kpi, consuntivo-2025, riesame-direzione]
+fonti:
+  - verbale_riesame_direzione_SGQ_2026.txt
+stato: risolto
+aliases: []
+data_fatto: 2025-12-31
+data_nota: 2026-08-21
+related: "[[kpi-obiettivi-2026-avanzamento]], [[kpi-reclami-2025]], [[fatto-mock-recall-marzo-2026]], [[area-qualita]]"
+---
+
+# Il consuntivo 2025, indicatore per indicatore
+
+⚠️ **Questa tabella è il CONSUNTIVO ANNUALE**; l'andamento mensile sta in
+[[kpi-indicatori-mensili-2026]] e il dettaglio dei reclami in [[kpi-reclami-2025]]. **I due elenchi non coincidono né per indicatori né per
+periodo**, e alcuni valori si somigliano senza misurare la stessa cosa.
+
+| Indicatore | Obiettivo | Consuntivo | Esito |
+|---|---|---|---|
+| Reclami / mio pezzi | < 1,0 | **0,89** | OK |
+| Resa prima scelta Linea 1 | > 97,0 % | **97,4 %** | OK |
+| Resa prima scelta **Linea 2** | > 96,5 % | **95,8 %** | **NO** |
+| Resa prima scelta Linea 3 | > 97,0 % | **97,1 %** | OK |
+| **Deviazioni CCP con blocco lotto** | 0 | **1** | **NO** |
+| **Verifiche MD eseguite / previste** | 100 % | **99,2 %** | **NO** |
+| Tamponi ambientali conformi | > 95 % | **96,3 %** | OK |
+| **Puntualità consegne CE.DI. (OTIF)** | > 98 % | **96,1 %** | **NO** |
+| **Ore formazione / addetto** | ≥ 8 | **6,2** | **NO** |
+| **Mock recall entro 2 h** | 100 % | *v. §5.3* | **NO** |
+
+⚠️ **Tre dei sei mancati hanno un obiettivo che non ammette scarti** *(contati)*: le deviazioni
+CCP con blocco lotto vogliono **zero** e ne è arrivata una; le verifiche del metal detector
+vogliono il **100 %** e si fermano al 99,2 %; la prova di richiamo entro due ore vuole il
+**100 %** e rimanda a un altro paragrafo.
+
+## Le due spiegazioni che il verbale dà, e quella che non dà
+
+**La resa di Linea 2** «sconta i volumi promozionali Tosano e il ricorso a personale
+neoassunto». **L'OTIF** risente dei ritardi sul CE.DI. di Cerea, con un caso nominato:
+`NC-2026-042` del 06/03, «slot 7:30 mancato, arrivo 10:52, carico respinto».
+
+⚠️ **Sulle ore di formazione il verbale non dà una spiegazione qui.** Una spiegazione esiste, e
+viene da un'altra fonte: [[fatto-ore-formazione-crollate]].
+
+## Fonti
+
+- [[verbale_riesame_direzione_SGQ_2026.txt]] — §5.1, «Tabella indicatori (consuntivo 2025 vs obiettivo):» e le dieci righe della tabella; §5.2, «La resa Linea 2 sconta i volumi promozionali Tosano e il ricorso a personale», «neoassunto. Il dato OTIF risente dei ritardi sul CE.DI. di Cerea (v. NC-2026-042» e «del 06/03: slot 7:30 mancato, arrivo 10:52, carico respinto).».
+
+----------------------------------------------------------------------
+>>>>> NOTA DA GIUDICARE: kpi-obiettivi-politica-2026.md
+----------------------------------------------------------------------
+---
+title: "La politica 2026 fissa nove obiettivi misurabili, ciascuno con il valore 2025, il target e un responsabile"
+summary: "La tabella degli obiettivi del DOC-QA-01 rev. 8 porta nove righe con indicatore, valore 2025, target 2026 e responsabile: quattro sono di RSGQ, una di HR e RSGQ, una della Direzione, una del Resp. Produzione, una della Manutenzione e una di tutte le funzioni; e un indicatore parte da «non misurato»."
+type: atomica
+area: qualita
+tags: [data, qualita, politica, obiettivi, kpi]
+fonti:
+  - politica_qualita_e_sicurezza_alimentare_2026.docx
+stato: risolto
+aliases: []
+data_fatto: 2026-01-12
+data_nota: 2026-08-23
+related: "[[area-qualita]], [[doc-politica-qualita-2026]], [[questione-ore-formazione-due-valori-per-il-2025]], [[fatto-politica-cultura-sicurezza-alimentare]], [[kpi-indicatori-2025-consuntivo]]"
+---
+
+# I nove obiettivi *(contati)*, come la politica li scrive
+
+| Obiettivo | Indicatore | Valore 2025 | Target 2026 | Responsabile |
+|---|---|---|---|---|
+| Mantenimento certificazioni | esito audit BRCGS e IFS | AA / Higher Level 97,32% | conferma grade e livello | RSGQ |
+| Reclami cliente e consumatore | reclami per milione di confezioni | 9,4 | **< 8,0** | RSGQ |
+| Reclami critici (classe 1) | numero assoluto | 1 | **0** | RSGQ |
+| Non conformità audit interni | NC maggiori | 2 | **0** | RSGQ |
+| Chiusura azioni correttive | % chiuse entro scadenza | 78% | **≥ 95%** | tutte le funzioni |
+| Registrazioni CCP in seconda firma | % conformità a campione | **non misurato** | 100% | Resp. Produzione |
+| Formazione sicurezza alimentare | ore/addetto/anno | **4,2** | **≥ 6** | HR + RSGQ |
+| Cultura sicurezza alimentare | partecipazione questionario | 61% | ≥ 80% | Direzione |
+| Efficienza risorsa idrica CIP | m³ acqua/ton prodotto | 3,9 | ≤ 3,6 | Manutenzione |
+
+## ⚠️ Un indicatore parte da «non misurato»
+
+**Le registrazioni CCP verificate in seconda firma** hanno come valore 2025 la parola **«non
+misurato»** e come target il **100 %**: un obiettivo di piena conformità su una grandezza di
+cui la tabella **non porta il punto di partenza**. ⚠️ **Se sia deliberato o una casella
+rimasta vuota, il documento non lo dice.**
+
+## ⚠️ Un numero è rivendicato da chi l'ha ricontrollato
+
+Il **78 %** delle azioni correttive chiuse in scadenza porta l'annotazione: «il 78% delle azioni
+correttive chiuse in scadenza è il dato vero del registro 2025, l'ho ricontrollato. Fa
+impressione scritto qui, ma almeno il target 95% ha un senso».
+
+## ⚠️ Le ore di formazione non tornano con l'altro documento che le misura
+
+Il valore 2025 di questa tabella è **4,2** e il target **≥ 6**. ⚠️ **Il consuntivo del riesame
+di direzione, per lo stesso anno e lo stesso indicatore, ne dà un altro — e un altro obiettivo.**
+Il confronto ha la sua nota padrona: [[questione-ore-formazione-due-valori-per-il-2025]].
+
+## Fonti
+
+- [[politica_qualita_e_sicurezza_alimentare_2026.docx]] — §GLI OBIETTIVI MISURABILI PER IL 2026, righe della tabella: «Mantenimento certificazioni», «esito audit BRCGS e IFS», «AA / Higher Level 97,32%», «conferma grade e livello», «Reclami cliente e consumatore», «reclami per milione di confezioni», «Reclami critici (classe 1)», «Non conformità audit interni», «Chiusura azioni correttive», «% chiuse entro scadenza», «Registrazioni CCP verificate in seconda firma», «% conformità a campione», «non misurato», «Formazione sicurezza alimentare», «ore/addetto/anno», «Cultura sicurezza alimentare», «partecipazione questionario anonimo», «Efficienza risorsa idrica CIP», «m3 acqua/ton prodotto»; annotazione a margine: «il 78% delle azioni correttive chiuse in scadenza è il dato vero del registro 2025, l'ho ricontrollato. Fa impressione scritto qui, ma almeno il target 95% ha un senso».
+
+
+======================================================================
+
+
+======================================================================
+TESTO ESTRATTO DELLE FONTI CITATE
+======================================================================
+
+--- Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt ---
+CSQA CERTIFICAZIONI S.r.l. - Via S. Gaetano 74 - 36016 Thiene (VI)
+RAPPORTO DI AUDIT / AUDIT REPORT
+
+Audit combinato / Combined audit:
+  BRCGS FOOD SAFETY - ISSUE 9  (announced)
+  IFS FOOD - VERSION 8
+
+Organizzazione auditata / Audited company:  AURORA FOOD GROUP S.r.l.
+Sito / Site:                                Via dell'Industria 27 - 37044 Cologna Veneta (VR) - Italia
+Sito aggiuntivo / Additional storage:       Via Palù 3/A - Cologna Veneta (VR) (magazzino PF surgelato)
+Registrazione sanitaria:                    n. 037/2019/SIAN - ULSS 9 Scaligera
+Certificato BRCGS n.:                       BRC/IT/24/00871
+Certificato IFS n.:                         IFS/IT/25/03390
+Date audit / Audit dates:                   17/02/2026 - 18/02/2026
+Auditor lead:                               dott.ssa Nadia FRANCESCHINI
+Co-auditor:                                 p.i. Fabrizio MENEGAZZO
+Durata / Duration:                          2 giorni uomo x 2 auditor (32 h on site)
+
+ESITO / RESULT
+  BRCGS Food Safety Issue 9:   GRADE AA   (0 NC maggiori, 2 NC minori e 5 osservazioni)
+  IFS Food v8:                 HIGHER LEVEL - 97,32 %
+  Raccomandazione: mantenimento della certificazione, subordinato alla chiusura
+  delle NC minori entro 28 giorni con invio di evidenze oggettive (action plan +
+  evidence) all'ente. Termine ultimo invio evidenze: 18/03/2026.
+
+CATEGORIE DI PRODOTTO / PRODUCT SCOPE
+  BRCGS cat. 07 - Bakery; IFS product scope 6.
+  Prodotti da forno farciti e snack salati in atmosfera protettiva (ATM/MAP);
+  croissanteria surgelata; prodotti da forno surgelati; incluse produzioni a
+  marchio del cliente (private label GDO - "Bontà di Casa" e altri).
+  Esclusioni: nessuna.
+
+----------------------------------------------------------------------------
+1. PROGRAMMA DELL'AUDIT / AUDIT PLAN (come eseguito)
+----------------------------------------------------------------------------
+
+GIORNO 1 - 17/02/2026
+08:30-09:15  Riunione di apertura. Presenti: Bertoldi G. (AD), Fantin M. (Dir.
+             Stabilimento), Marchetti E. (RSGQ), Pozzato S. (QA), Zanella D.
+             (Resp. Produzione), Vicentini C. (consulente HACCP).
+09:15-10:45  Riesame documentale: manuale HACCP rev.4, analisi dei pericoli,
+             validazioni CCP2, piano PRP, gestione documenti (PRO-QA-01).
+10:45-12:30  Ispezione stabilimento - percorso materie prime: rampe ricevimento,
+             silos farina, magazzino ingredienti, cella CF-01 (+4 °C).
+             Presenti: Faggionato N., Marchetti E.
+12:30-13:15  Pausa pranzo (auditor separati, mensa aziendale)
+13:15-15:30  Ispezione Linea 1: setacciatura/magnete (CCP1), IMP-300, forno FT-01,
+             tunnel termico PT-104 (CCP2), raffreddamento, metal detector MD-3200
+             (CCP3), confezionatrice MAP PKM-450. Intervista operatori turno 1 e
+             capoturno Popescu I.
+15:30-16:45  Verifica registrazioni CCP2/CCP3: MOD-QA-12, MOD-QA-07 rev.5, log
+             elettronici, confronto carta/datalogger. Intervista Pozzato S.
+16:45-17:30  Taratura e manutenzione: piano tarature, officina, intervista
+             Dal Maso I. Ispezione officina e carrelli attrezzi.
+17:30-18:00  Riepilogo di fine giornata con RSGQ.
+
+GIORNO 2 - 18/02/2026
+08:30-10:00  Ispezione Linea 2 (croissanteria): impasto, sfogliatura, cella
+             lievitazione, forno FT-02. Intervista capoturno Ben Salah A.
+             Gestione allergeni: verifica cambio produzione, check-list, matrice.
+10:00-11:00  Ispezione Linea 3 e area surgelazione: tunnel TS-01, MD-1800,
+             cella CF-02 (-18 °C). Intervista Guerra R. Sopralluogo magazzino
+             esterno Via Palù 3/A (a campione, 45 min, con Faggionato N.).
+11:00-12:30  Test di rintracciabilità: lotto sfida AF-CR-0215 lotto L26028-L2-T1
+             (28/01/2026) -> mass balance 99,4% in 2 h 50 min. ESITO: CONFORME.
+             Ricostruzione a monte fino ai lotti farina Molino Veneto (F0012) e
+             burro Latteria Bassanese (F0021). Verifica DoC film MOCA Flexipack
+             (F0044) ex Reg. 1935/2004.
+12:30-13:15  Pausa
+13:15-14:30  Food defense / food fraud: piano TACCP/VACCP, vulnerability
+             assessment materie prime, accessi sito. Intervista Fantin M.
+14:30-15:30  Personale: formazione (MOD-HR-11), visite mediche, indumenti,
+             lavaggio mani. Intervista HR Sartori F. Reclami: registro MOD-QA-31,
+             analisi trend 2025. Vendor rating fornitori.
+15:30-16:30  Verifica azioni correttive audit precedente (tutte chiuse), riesame
+             direzione, audit interni, mock recall 2025 (esito conforme).
+16:30-17:15  Preparazione conclusioni (auditor)
+17:15-18:00  Riunione di chiusura. Lettura delle NC. Presenti: Bertoldi G.,
+             Fantin M., Marchetti E., Pozzato S., Zanella D.
+
+----------------------------------------------------------------------------
+2. PERSONE INTERVISTATE / INTERVIEWED PERSONS
+----------------------------------------------------------------------------
+  Giancarlo Bertoldi        Amministratore Delegato (apertura/chiusura)
+  ing. Marco Fantin         Direttore di Stabilimento
+  dott.ssa Elena Marchetti  RSGQ - Team Leader HACCP
+  Sara Pozzato              Assistente Qualità / QC
+  Denis Zanella             Responsabile Produzione
+  Ionut Popescu             Capoturno Linea 1
+  Adel Ben Salah            Capoturno Linea 2
+  Roberto Guerra            Capoturno Linea 3
+  Ivano Dal Maso            Capo officina / Manutenzione
+  Nicola Faggionato         Resp. Magazzino e Spedizioni
+  Federica Sartori          HR
+  dott.ssa Chiara Vicentini consulente HACCP esterna (solo riunioni e doc.)
+  n. 6 operatori di linea (turno 1) intervistati sul campo
+
+----------------------------------------------------------------------------
+3. EVIDENZE RACCOLTE (ESTRATTO) / OBJECTIVE EVIDENCE (EXTRACT)
+----------------------------------------------------------------------------
+- Manuale HACCP rev.4 del 15/01/2024; analisi pericoli con matrice PxG; albero
+  decisioni Codex applicato; 4 CCP definiti (setacciatura/magnete, PT-104,
+  MD-3200, surgelazione) + PRPo allergeni. VERIFICATO.
+- CCP2: limite critico ≥ 72,0 °C per ≥ 2 min, set point 74,0-76,0 °C; tracciati
+  datalogger PT-104 disponibili e conservati; MOD-QA-12 compilato ogni 60 min.
+  Campione verificato: 12-16/01/2026, 03-06/02/2026. VEDI NC n. 1.
+- CCP3: verifica tasselli Fe 2,0 / Non-Fe 2,5 / AISI 316 3,0 mm ogni 60 min su
+  MOD-QA-07 rev.5; certificati tasselli in corso di validità; verifica annuale
+  costruttore eseguita 11/2025. VEDI NC n. 1 (seconda firma) e OSSERVAZIONE n. 2.
+- CCP4: registrazioni T cuore ogni 2 h conformi nel campione (gen-feb 2026);
+  monitoraggio continuo CF-02 con allarme funzionante (test eseguito in audit).
+- Test rintracciabilità: conforme (99,4%, 2 h 50 min).
+- Sanificazione: IO-05, schede CIP-01, prodotti Chemifood; verifiche ATP a
+  campione conformi; piano tamponi con lab. Analytica Veneta (ACCREDIA 0987).
+- Reclami 2025: n. 41 totali, di cui 4 per corpo estraneo (chiusi). Trend
+  presentato in riesame direzione.
+
+----------------------------------------------------------------------------
+4. ELENCO NON CONFORMITA' / NON-CONFORMITY LIST
+----------------------------------------------------------------------------
+Tutte le NC sotto riportate sono classificate MINORI (minor).
+Termine di chiusura / Deadline: piano d'azione + evidenze entro 28 gg dalla
+riunione di chiusura, ossia entro il 18/03/2026.
+Per ciascuna NC è richiesta: correzione, analisi della causa radice (root cause
+analysis), azione correttiva, evidenza oggettiva.
+
+===========================================================================
+NC n. 1 (MINORE)
+Standard/clausola: BRCGS Issue 9 cl. 2.10.2 - IFS Food v8 cl. 2.3.9.2
+Requisito: le registrazioni dei controlli ai CCP devono essere verificate da
+  persona autorizzata diversa dall'esecutore, con firma di verifica.
+Evidenza oggettiva: le registrazioni manuali del monitoraggio CCP2 (MOD-QA-12)
+  e CCP3 (MOD-QA-07 rev.5) del periodo 12-16/01/2026 (Linea 1, turni 1 e 2)
+  risultano prive della verifica in seconda firma del capoturno entro fine
+  turno in 11 moduli su 20 esaminati. La verifica QA settimanale risulta
+  invece eseguita. Intervistato il capoturno, la prassi della seconda firma
+  non risulta sistematica.
+Root cause richiesta: SI - da trasmettere con il piano d'azione.
+Azione correttiva proposta dall'azienda (in sede di audit): richiamo formativo
+  dei capiturno, modifica del MOD con campo firma evidenziato, controllo
+  giornaliero QA per 3 mesi.
+Termine: 18/03/2026        Stato al rilascio del rapporto: APERTA
+===========================================================================
+NC n. 2 (MINORE)
+Standard/clausola: BRCGS Issue 9 cl. 4.7.5
+Requisito: attrezzature e ricambi utilizzati per la manutenzione devono essere
+  gestiti in modo da prevenire la contaminazione del prodotto; gli interventi
+  devono concludersi con verifica di integrità e rimozione di materiali.
+Evidenza oggettiva: presso la Linea 1, a bordo linea (lato confezionatrice
+  PKM-450), è custodito stabilmente un carrello di manutenzione contenente
+  ricambi (guarnizioni, o-ring, raccordi, min. viteria) e attrezzi manuali,
+  senza inventario, senza controllo di integrità e senza segregazione rispetto
+  all'area di produzione aperta. Il capo officina conferma che il carrello
+  staziona in area produttiva "per rapidità di intervento".
+Root cause richiesta: SI
+Azione correttiva proposta dall'azienda (in sede di audit): rimozione del
+  carrello dall'area produttiva, gestione ricambi da magazzino officina con
+  prelievo per singolo intervento e conta attrezzi su MOD-PR-04.
+Termine: 18/03/2026        Stato al rilascio del rapporto: APERTA
+===========================================================================
+OSSERVAZIONE n. 1 (MINORE)
+Standard/clausola: IFS Food v8 cl. 4.18.1 - BRCGS 9 cl. 3.9.2
+Requisito: identificazione dei semilavorati in tutte le fasi.
+Evidenza oggettiva: in cella CF-01 n. 3 carrelli di farcitura semilavorata
+  (crema base per AF-SN-0450) identificati con solo appunto manoscritto
+  "ven" senza lotto, data di produzione né scadenza interna. La procedura
+  interna prevede etichetta semilavorato completa.
+Root cause richiesta: SI
+Azione correttiva proposta: rietichettatura immediata (eseguita in audit),
+  etichette prestampate a bordo linea, formazione operatori.
+Termine: 18/03/2026        Stato: APERTA (correzione immediata eseguita)
+===========================================================================
+OSSERVAZIONE n. 2 (MINORE)
+Standard/clausola: BRCGS Issue 9 cl. 6.4.2
+Requisito: gli strumenti di misura utilizzati per il monitoraggio dei CCP
+  devono essere tarati con riferibilità a campioni riconosciuti.
+Evidenza oggettiva: n. 2 termometri a penetrazione in uso al QC (matricole
+  TP-08 e TP-11, utilizzati per verifiche T cuore L3) con taratura scaduta
+  il 30/11/2025; il piano prevede taratura semestrale. Il termometro TP-08
+  risulta comunque conforme alla verifica interna con termometro campione.
+Root cause richiesta: SI
+Azione correttiva proposta: invio immediato a centro LAT, revisione dello
+  scadenzario tarature con alert automatico.
+Termine: 18/03/2026        Stato: APERTA
+===========================================================================
+OSSERVAZIONE n. 3 (MINORE)
+Standard/clausola: BRCGS Issue 9 cl. 4.4.9
+Requisito: le aperture verso l'esterno devono prevenire l'ingresso di
+  infestanti.
+Evidenza oggettiva: nella zona officina/manutenzione la finestra lato est
+  presenta zanzariera lacerata (strappo di circa 15 cm) e non a tenuta sul
+  telaio. L'officina comunica con il corridoio di accesso all'area
+  produttiva Linea 1 tramite porta non mantenuta chiusa.
+Root cause richiesta: SI
+Azione correttiva proposta: sostituzione zanzariera, chiudiporta automatico,
+  inserimento controllo aperture nel giro ispettivo mensile PRP-08.
+Termine: 18/03/2026        Stato: APERTA
+===========================================================================
+OSSERVAZIONE n. 4 (MINORE)
+Standard/clausola: IFS Food v8 cl. 3.3.1 - BRCGS 9 cl. 7.1.2
+Requisito: formazione specifica per il personale che manipola allergeni, con
+  registrazione.
+Evidenza oggettiva: per n. 4 operatori assunti sulla Linea 2 tra ottobre 2025
+  e gennaio 2026 (personale in sostituzione per turnover) la formazione
+  specifica allergeni non risulta registrata su MOD-HR-11; risulta eseguito
+  il solo affiancamento generico. Gli operatori intervistati mostrano
+  conoscenza parziale della matrice allergeni.
+Root cause richiesta: SI
+Azione correttiva proposta: sessione formativa dedicata entro 15 gg con test
+  di apprendimento, revisione del processo di inserimento neoassunti.
+Termine: 18/03/2026        Stato: APERTA
+===========================================================================
+OSSERVAZIONE n. 5 (MINORE)
+Standard/clausola: BRCGS Issue 9 cl. 3.5.1.2 - IFS v8 cl. 4.4.5
+Requisito: monitoraggio continuativo delle prestazioni dei fornitori.
+Evidenza oggettiva: il vendor rating 2025 risulta compilato per i soli
+  fornitori di materie prime alimentari; mancano i fornitori di imballaggio
+  primario (F0044 Flexipack Nordest, F0031 Euroglass Boccacci) e il
+  laboratorio esterno (F0090). Inoltre per gli imballi primari la
+  rintracciabilità del lotto film in produzione è registrata solo a livello
+  di giorno e non di bobina.
+Root cause richiesta: SI
+Azione correttiva proposta: estensione vendor rating a tutti i fornitori
+  critici; registrazione n. bobina film su dossier di lotto.
+Termine: 18/03/2026        Stato: APERTA
+===========================================================================
+
+Riepilogo: n. 2 NC minori e 5 osservazioni, n. 0 NC maggiori, n. 0 NC critiche.
+BRCGS: grade AA confermato (announced). IFS: 97,32% - Higher Level.
+
+----------------------------------------------------------------------------
+5. OSSERVAZIONI (non conformità non attribuite / opportunità di miglioramento)
+----------------------------------------------------------------------------
+OSS-1  La rivalidazione dello studio di penetrazione termica CCP2 (prevista
+       2024 da piano interno) non risulta ancora formalizzata; la validazione
+       2021 resta tecnicamente applicabile non essendo intervenute modifiche
+       di prodotto/processo. Si raccomanda la formalizzazione.
+OSS-2  Alla sostituzione del tunnel TS-01 con il tunnel a spirale Criotech
+       CR-SP180 sarà necessario riesame HACCP e nuova mappatura (CCP4).
+OSS-3  L'archivio documentale cartaceo (ufficio QA) è di difficile
+       consultazione; l'azienda dichiara allo studio un progetto di
+       digitalizzazione.
+
+----------------------------------------------------------------------------
+6. CHIUSURA DELLE NC - REGISTRAZIONI DELL'ENTE (sezione compilata da CSQA)
+----------------------------------------------------------------------------
+
+18/03/2026 - Termine per l'invio di piano d'azione ed evidenze: NESSUNA
+RICEZIONE alla data indicata.
+
+20/03/2026 - Sollecito n. 1 inviato a mezzo PEC a aurorafoodgroup@pec.it,
+c.a. dott.ssa Marchetti E. (rif. prot. CSQA 26-1174). Nuovo termine
+perentorio: 01/04/2026.
+
+02/04/2026 - Ricevute a mezzo PEC (prot. in ingresso CSQA 26-1493) le
+evidenze di chiusura per le NC 1-7: piano d'azione firmato Fantin M./
+Marchetti E., root cause analysis per singola NC, MOD-QA-12 e MOD-QA-07
+rev.5 aggiornati con campo seconda firma, registro conta attrezzi su
+MOD-PR-04, foto rimozione carrello ricambi, certificati taratura TP-08/
+TP-11, MOD-HR-11 formazione allergeni del 27/02/2026 con test, vendor
+rating esteso, foto zanzariera sostituita.
+TRASMISSIONE PERVENUTA IN RITARDO rispetto al termine del 18/03/2026 e
+oltre il termine di sollecito del 01/04/2026 (un giorno).
+
+NOTA CSQA (Franceschini N., 03/04/2026): le evidenze trasmesse il 02/04/2026
+sono valutate ADEGUATE alla chiusura documentale delle NC minori nn. 1-7;
+l'efficacia sarà verificata in campo al prossimo audit. Si richiama
+l'attenzione dell'organizzazione sul rispetto dei termini di trasmissione:
+il ritardo è registrato a sistema e, in caso di reiterazione al prossimo
+ciclo, comporterà la segnalazione ai fini del grading BRCGS (riduzione a
+grade A) e la valutazione ai sensi del regolamento IFS Integrity Program.
+Stato NC nn. 1-7: CHIUSE DOCUMENTALMENTE il 03/04/2026 - verifica di
+efficacia rinviata all'audit di sorveglianza 02/2027.
+
+Il presente rapporto è di proprietà di CSQA Certificazioni S.r.l. e non può
+essere riprodotto parzialmente senza autorizzazione. Il certificato resta di
+proprietà dell'ente ed è soggetto alle condizioni contrattuali di rilascio.
+
+Rapporto emesso da: dott.ssa Nadia Franceschini (lead auditor)
+Riesaminato da: ufficio tecnico CSQA - schema Food
+Data emissione rapporto: 27/02/2026 - integrazione sez. 6: 03/04/2026
+
+
+
+--- manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt ---
+AURORA FOOD GROUP S.r.l. - Via dell'Industria 27 - 37044 Cologna Veneta (VR)
+SISTEMA DI AUTOCONTROLLO IGIENICO-SANITARIO
+MANUALE HACCP - REVISIONE 4 del 15/01/2024
+Manuale HACCP rev.5 - pag. 1 di 78 - Doc. non controllato se stampato
+
+Redatto da: dott.ssa Elena Marchetti (RSGQ - Team Leader HACCP)
+Verificato da: dott.ssa Chiara Vicentini (consulente esterna - Studio Alimentaria, Verona)
+Approvato da: ing. Marco Fantin (Direttore di Stabilimento)
+
+Copia controllata n. 03 - assegnataria: Sara Pozzato (QC laboratorio)
+Distribuzione: Direzione, Qualità, Produzione, Manutenzione, Magazzino
+
+
+1. SCOPO E CAMPO DI APPLICAZIONE
+
+1.1 Scopo
+Il presente Manuale descrive il sistema di autocontrollo igienico-sanitario adottato da
+Aurora Food Group S.r.l. presso lo stabilimento di Via dell'Industria 27, Cologna Veneta
+(VR), registrazione sanitaria n. 037/2019/SIAN - ULSS 9 Scaligera, ai fini della garanzia
+della sicurezza alimentare dei prodotti fabbricati, in conformità ai principi del sistema
+HACCP di cui al Codex Alimentarius e alla legislazione comunitaria e nazionale applicabile.
+
+1.2 Campo di applicazione
+Il sistema si applica a tutte le fasi di ricevimento, stoccaggio, lavorazione,
+confezionamento in atmosfera protettiva (ATM/MAP), surgelazione, stoccaggio del prodotto
+finito e spedizione, relative alle seguenti categorie di prodotto:
+a) prodotti da forno farciti e snack salati confezionati in ATM (Linea 1);
+b) croissanteria surgelata, anche a marchio del cliente (Linea 2);
+c) prodotti da forno surgelati (Linea 3).
+Sono incluse le lavorazioni in private label per la Grande Distribuzione Organizzata
+(marchio "Bontà di Casa" - Tosano Cerea S.p.A. e altri). E' incluso il secondo magazzino
+di prodotto finito surgelato sito in Via Palù 3/A, Cologna Veneta (VR).
+Sono escluse dal campo di applicazione le attività di trasporto affidate a vettori terzi,
+per le quali si applica la procedura PRO-QA-09 (qualifica e monitoraggio dei vettori),
+vedi All. 7.
+
+Manuale HACCP rev.5 - pag. 2 di 78 - Doc. non controllato se stampato
+
+2. RIFERIMENTI NORMATIVI
+
+- Reg. (CE) n. 852/2004 del 29/04/2004 sull'igiene dei prodotti alimentari e s.m.i.;
+- Reg. (CE) n. 178/2002 che stabilisce i principi e i requisiti generali della
+  legislazione alimentare (rintracciabilità, obblighi degli OSA, artt. 18-19);
+- Reg. (UE) n. 1169/2011 relativo alla fornitura di informazioni sugli alimenti ai
+  consumatori (allergeni, All. II);
+- Reg. (CE) n. 2073/2005 sui criteri microbiologici applicabili ai prodotti alimentari;
+- Reg. (CE) n. 1935/2004 sui materiali e oggetti destinati a venire a contatto con i
+  prodotti alimentari (MOCA);
+- Codex Alimentarius - General Principles of Food Hygiene CAC/RCP 1-1969, rev. 4 (2003)
+  e Annex on HACCP System and Guidelines for its Application;
+- D.Lgs. 6 novembre 2007 n. 193 "Attuazione della direttiva 2004/41/CE relativa ai
+  controlli in materia di sicurezza alimentare e applicazione dei regolamenti comunitari
+  nel medesimo settore" (regime sanzionatorio);
+- BRCGS Food Safety Issue 9 (standard volontario, cert. n. BRC/IT/24/00871);
+- IFS Food v8 (standard volontario, cert. n. IFS/IT/25/03390);
+- Linee guida regionali Regione Veneto in materia di autocontrollo (DGR applicabili).
+
+Nota (1): l'elenco completo dei riferimenti, comprese le norme ISO di supporto ai metodi
+di prova (ISO 11290-1, ISO 6579-1, ISO 4833-1), è riportato nell'All. 1 "Elenco documenti
+di origine esterna", tenuto aggiornato da RSGQ.
+
+3. TERMINI E DEFINIZIONI
+
+3.1 Ai fini del presente Manuale si applicano le definizioni del Codex Alimentarius
+CAC/RCP 1-1969 rev.4 e del Reg. (CE) 178/2002. In particolare:
+- Pericolo: agente biologico, chimico o fisico contenuto in un alimento, o condizione
+  in cui un alimento si trova, in grado di provocare un effetto nocivo sulla salute;
+- CCP (Punto Critico di Controllo): fase in cui il controllo può essere applicato ed è
+  essenziale per prevenire o eliminare un pericolo per la sicurezza alimentare o per
+  ridurlo a un livello accettabile;
+- PRP (Programma di Prerequisiti): pratiche e condizioni di base necessarie per il
+  mantenimento di un ambiente igienico;
+- PRPo (PRP operativo): PRP identificato dall'analisi dei pericoli come essenziale per
+  controllare la probabilità di introdurre pericoli;
+- Limite critico: criterio che distingue l'accettabilità dall'inaccettabilità;
+- Deviazione: mancato rispetto di un limite critico.
+
+Manuale HACCP rev.5 - pag. 5 di 78 - Doc. non controllato se stampato
+
+4. IL TEAM HACCP
+
+4.1 Composizione
+Il Team HACCP è nominato dalla Direzione con ordine di servizio ODS-02/2024 ed è così
+composto:
+
+Ruolo nel team | Nome | Funzione aziendale | Competenze
+Team Leader | dott.ssa Elena Marchetti | Responsabile Qualità (RSGQ) | Laurea CTF ind. alimentare, corso HACCP avanzato, lead auditor ISO 22000
+Membro | Sara Pozzato | Assistente Qualità / QC laboratorio interno | diploma perito chimico, campionamenti e analisi
+Membro | ing. Marco Fantin | Direttore di Stabilimento / Operations | processi e impianti
+Membro | Denis Zanella | Responsabile Produzione | conduzione linee 1-2-3
+Membro | Ivano Dal Maso | Capo officina / Manutenzione | impianti, taratura, MOCA lubrificanti
+Membro | dott. Alberto Zanchetta | R&D - tecnologo alimentare | formulazioni, shelf life, allergeni
+Membro | Nicola Faggionato | Resp. Magazzino e Spedizioni | catena del freddo, FEFO
+Consulente esterno | dott.ssa Chiara Vicentini | Studio Alimentaria (Verona) | consulenza HACCP, aggiornamento normativo
+
+4.2 Il Team si riunisce con frequenza almeno semestrale e comunque in occasione di:
+modifiche di prodotto/processo, nuove referenze, non conformità significative, esiti di
+audit, allerta RASFF pertinenti. I verbali sono conservati da RSGQ (vedi All. 3).
+
+4.3 Compiti del Team Leader
+4.3.1 Il Team Leader convoca e coordina il Team, mantiene aggiornato il piano HACCP,
+verifica l'attuazione delle azioni correttive e riferisce alla Direzione in sede di
+riesame (PRO-QA-02).
+4.3.2 Verifica delle registrazioni
+4.3.2.1 Il Team Leader, o suo delegato formalmente individuato (Sara Pozzato), verifica
+con cadenza definita le registrazioni dei monitoraggi ai CCP. La verifica in seconda
+firma delle registrazioni manuali CCP2 e CCP3 deve avvenire entro la fine del turno di
+produzione a cura del capoturno, e comunque entro 24 ore a cura di QA. (2)
+4.3.2.2 Le registrazioni elettroniche (datalogger PT-104, log MD-3200) sono riesaminate
+settimanalmente da QA con estrazione a campione e confronto con le registrazioni
+cartacee corrispondenti.
+
+(2) Nota: requisito rafforzato a seguito audit CSQA del 17-18/02/2026, rif. NC minore
+BRCGS 9 cl. 2.10.2 / IFS v8 cl. 2.3.9.2 - vedi piano azioni correttive AC-2026-03.
+
+Manuale HACCP rev.5 - pag. 9 di 78 - Doc. non controllato se stampato
+
+5. DESCRIZIONE DEL PRODOTTO E DESTINAZIONE D'USO
+
+5.1 Famiglie di prodotto
+
+Famiglia A - Snack salati e focaccine in ATM (Linea 1)
+Referenze rappresentative: AF-SN-0450 Snack salato rustico multicereali 100 g;
+AF-SN-0455 formato promo 3+1; AF-FC-0330 Focaccina olio EVO 2x90 g.
+Caratteristiche: prodotto da forno cotto, farcito/condito, confezionato in flow-pack in
+atmosfera protettiva (miscela N2/CO2 - E941/E290, fornitore Nordgas S.p.A.), aw 0,30-0,40 (prodotto); farcitura in massa aw 0,90-0,94,
+pH 5,4-5,9, shelf life 45 gg a T ambiente ≤ 25 °C. Consumo diretto senza ulteriore
+trattamento (ready to eat).
+Destinazione: consumatore generico via GDO. Non destinato specificatamente a lattanti o
+soggetti allergici (per allergeni vedi par. 9 e All. 12 - matrice allergeni).
+
+Famiglia B - Croissanteria surgelata (Linea 2)
+Referenze rappresentative: AF-CR-0212 Cornetto Premium burro 6x50 g; AF-CR-0215 Cornetto
+Premium PL 8x45 g; AF-CR-0220 Sfogliatina bio ai cereali (cert. ICEA IT BIO 006).
+Prodotto crudo lievitato o semicotto, surgelato, TMC 12 mesi a -18 °C. Destinato a
+cottura completa da parte del consumatore o del punto vendita (not ready to eat).
+
+Famiglia C - Prodotti da forno surgelati (Linea 3)
+Prodotti cotti surgelati, TMC 12 mesi a -18 °C, cella CF-02.
+
+5.2 Il dettaglio composizionale di ciascuna referenza è riportato nelle schede tecniche
+di prodotto (archivio ST, gestione a cura di R&D - dott. Zanchetta) e non è duplicato
+nel presente Manuale, vedi All. 5.
+
+6. DIAGRAMMA DI FLUSSO
+
+6.1 Il diagramma di flusso è stato elaborato dal Team HACCP e verificato in campo in
+data 11/12/2023 (verifica in situ, turno 1 e turno 2, firme sul modulo di verifica).
+Si riporta la descrizione testuale delle fasi; la rappresentazione grafica è in All. 6.
+
+Fase 01 - Ricevimento materie prime (farine sfuse e in sacchi, grassi, zuccheri, lievito,
+         ingredienti vari, imballi primari MOCA e secondari). Controlli al ricevimento
+         secondo PRO-QA-05: integrità, temperatura ove applicabile, DDT, lotto, CoA.
+Fase 02 - Stoccaggio: silos farina (2x25 t), magazzino ingredienti a T ambiente, cella
+         CF-01 (+4 °C) per burro/panna (fornitore Latteria Bassanese), cella CF-02
+         (-18 °C) per surgelati e semilavorati congelati.
+Fase 03 - Setacciatura farina e passaggio su magnete permanente >>> CCP1
+Fase 04 - Dosaggio ingredienti / pesatura (verifica bilance secondo piano tarature).
+Fase 05 - Impastamento (IMP-300, 300 kg/ciclo, controllo T impasto ≤ 27 °C).
+Fase 06 - Laminazione/sfogliatura (Linea 2), formatura, farcitura.
+Fase 07 - Lievitazione in cella (Linea 2: 28-30 °C, UR 75-80%).
+Fase 08 - Cottura forno tunnel FT-01 (Linea 1) / FT-02 (Linea 2) - PRP forno, profilo
+         tempo/temperatura da scheda processo.
+Fase 09 - Trattamento termico di pastorizzazione superficiale post-farcitura in tunnel
+         termico PT-104 (solo Linea 1) >>> CCP2
+Fase 10 - Raffreddamento in spirale (Linea 1: da 65 °C a ≤ 30 °C in ≤ 55 min, aria
+         filtrata G4+F7).
+Fase 11 - Surgelazione (Linea 3: tunnel TS-01, in sostituzione con tunnel a spirale
+         Criotech CR-SP180) >>> CCP4
+Fase 12 - Rilevazione metalli su prodotto confezionato/non confezionato: MD-3200
+         (Linea 1) >>> CCP3 ; MD-1800 (Linea 3, gestito come CCP assimilato al CCP3
+         con medesimi limiti, vedi nota tabella).
+Fase 13 - Confezionamento primario in ATM: confezionatrice flow-pack PKM-450 (Linea 1),
+         film PP/EVOH fornitore Flexipack Nordest (DoC ex Reg. 1935/2004); controllo
+         miscela gas e tenuta saldature (PRP confezionamento, MOD-QA-15 (3)).
+Fase 14 - Etichettatura e stampa lotto/TMC (formato lotto: L26<ggg>-<linea>-<turno>).
+Fase 15 - Confezionamento secondario (cartone, fornitore Rational Pack), pallettizzazione.
+Fase 16 - Stoccaggio prodotto finito: magazzino T ambiente / cella CF-02 -18 °C /
+         magazzino esterno Via Palù 3/A.
+Fase 17 - Spedizione (vettori qualificati: Trasporti Frigo Veneto, Logistica Zorzi,
+         FrigoExpress Nordest, Autotrasporti Bregolin; controllo T pianale per surgelato).
+
+(3) il MOD-QA-15 sostituisce dal 01/02/2024 il precedente MOD-QA-15a; le copie della
+revisione superata sono state ritirate, ad eccezione
+
+Manuale HACCP rev.5 - pag. 14 di 78 - Doc. non controllato se stampato
+
+7. ANALISI DEI PERICOLI (Principio 1)
+
+7.1 Metodologia
+Per ciascuna fase del diagramma di flusso il Team ha identificato i pericoli Biologici
+(B), Chimici (C, inclusi allergeni ove pertinente come categoria a sé - A) e Fisici (F),
+valutandone la significatività mediante stima di Probabilità (P) x Gravità (G), ciascuna
+su scala 1-4:
+P: 1 = remota; 2 = occasionale; 3 = probabile; 4 = frequente
+G: 1 = trascurabile; 2 = moderata; 3 = grave; 4 = critica (pericolo di vita)
+
+Matrice di rischio R = P x G:
+R ≤ 3: pericolo non significativo, gestito da PRP;
+4 ≤ R ≤ 6: pericolo significativo, gestito da PRP rafforzato o PRPo;
+R ≥ 8: pericolo significativo, da sottoporre all'albero delle decisioni per
+l'individuazione di eventuale CCP.
+
+7.2 Estratto della tabella di analisi dei pericoli (tabella completa in All. 8)
+
+Fase | Pericolo | Tipo | P | G | R | Misura di controllo
+01 Ricevimento | micotossine (DON, OTA) in farina | C | 2 | 3 | 6 | qualifica fornitore F0012 Molino Veneto, CoA per lotto, piano analisi
+01 Ricevimento | Salmonella spp. in materie prime | B | 2 | 4 | 8 | CoA, cottura successiva (fase 08), piano tamponi
+02 Stoccaggio | sviluppo microbico per rottura catena freddo | B | 2 | 3 | 6 | monitoraggio T celle CF-01/CF-02, allarmi, PRP
+03 Setacciatura | corpi estranei > 800 µm, frammenti metallici da silos/coclee | F | 3 | 3 | 9 | CCP1 - setaccio + magnete
+05 Impastamento | frammenti da usura organi meccanici IMP-300 | F | 2 | 3 | 6 | PRP manutenzione preventiva, ispezione visiva
+06 Farcitura | contaminazione crociata allergeni (latte, uova, soia, frutta a guscio, sesamo su AF-SN-0470) | A | 3 | 3 | 9 | PRPo1 - gestione allergeni (par. 9.2)
+08 Cottura | sopravvivenza patogeni per cottura insufficiente | B | 2 | 4 | 8 | scheda processo, PRP forno; per L1 il controllo finale è demandato a CCP2
+09 Pastorizzazione PT-104 | sopravvivenza di L. monocytogenes / S. aureus su prodotto farcito RTE | B | 3 | 4 | 12 | CCP2
+11 Surgelazione | sviluppo microbico per abbattimento lento | B | 2 | 3 | 6 | CCP4 (mantenuto CCP per criticità commerciale e storicità impianto TS-01)
+12 Metal detection | frammenti metallici Fe/NonFe/AISI da monte | F | 3 | 4 | 12 | CCP3
+13 Confezionamento | migrazione da MOCA non conforme | C | 1 | 3 | 3 | PRP: DoC fornitore F0044, vedi All. 10
+13 Confezionamento | frammenti di guarnizioni/plastiche da organi macchina PKM-450 | F | 2 | 3 | 6 | PRP manutenzione; ispezione post-intervento (4)
+16 Stoccaggio PF | abuso termico surgelato | B | 2 | 3 | 6 | monitoraggio CF-02, registrazione continua
+
+(4) il pericolo "frammenti di plastica da organi macchina" NON è rilevabile dal metal
+detector MD-3200; la misura di controllo è di natura preventiva (manutenzione,
+ispezione avvio linea, controllo integrità dopo ogni intervento, MOD-PR-04).
+
+Manuale HACCP rev.5 - pag. 22 di 78 - Doc. non controllato se stampato
+
+7.3 Albero delle decisioni (Principio 2)
+E' stato applicato l'albero delle decisioni Codex (CAC/RCP 1-1969 rev.4, diagramma 2)
+a tutti i pericoli con R ≥ 8:
+
+D1: esistono misure preventive di controllo? Se no -> modificare fase/processo/prodotto.
+D2: la fase è specificatamente progettata per eliminare o ridurre il pericolo a un
+    livello accettabile? Se sì -> CCP.
+D3: la contaminazione potrebbe verificarsi a livelli inaccettabili o aumentare fino a
+    livelli inaccettabili? Se no -> non è CCP.
+D4: una fase successiva eliminerà o ridurrà il pericolo a un livello accettabile?
+    Se sì -> non è CCP; se no -> CCP.
+
+Esiti: fase 03 -> CCP1; fase 09 -> CCP2; fase 12 -> CCP3; fase 11 -> CCP4.
+La gestione allergeni (fase 06 e trasversale) esita in PRPo1 in quanto il controllo non
+è riconducibile a un limite critico misurabile in linea (razionale in All. 12).
+
+8. PIANO HACCP - TABELLA DEI CCP (Principi 3-4-5-6-7)
+
+8.1 Tabella riepilogativa dei punti critici di controllo
+
+============================================================================
+CCP1 - SETACCIATURA FARINA E MAGNETE
+Fase: 03 - Setacciatura farina
+Pericolo: F - corpi estranei > 800 µm; particelle ferrose
+Limite critico: assenza corpi estranei > 800 µm; setaccio maglia 800 µm integro;
+  magnete permanente 10.000 Gauss efficiente
+Monitoraggio: controllo integrità rete setaccio e ispezione/pulizia magnete con
+  registrazione di quanto trattenuto
+Frequenza: integrità setaccio a inizio e fine turno; magnete: ispezione e pulizia
+  settimanale; verifica potenza magnetica (gaussmetro esterno) annuale
+Responsabile: capoturno di linea (Popescu I. - T. / Ben Salah A. / Guerra R.);
+  verifica QA
+Azione correttiva: in caso di rete lacerata: blocco e segregazione della farina
+  setacciata dall'ultimo controllo conforme; sostituzione rete; apertura NC su
+  registro NC interne; valutazione QA sul rilascio
+Verifica: riesame settimanale registrazioni a cura QA; verifica annuale potenza
+  magnete con rapporto esterno
+Registrazione: registro setacciatura e scheda magnete (allegate al dossier di lotto);
+  rapporto taratura gaussmetro
+----------------------------------------------------------------------------
+CCP2 - TRATTAMENTO TERMICO PT-104 (LINEA 1)
+Fase: 09 - Pastorizzazione tunnel termico PT-104
+Pericolo: B - sopravvivenza di patogeni (L. monocytogenes, S. aureus) su prodotto RTE
+Limite critico: temperatura al cuore del prodotto ≥ 72,0 °C mantenuta per ≥ 2 min;
+  set point di esercizio 74,0-76,0 °C
+Monitoraggio: registrazione in continuo T camera e T cuore (sonda a spillone su
+  prodotto campione) tramite datalogger PT-104; lettura e trascrizione manuale su
+  modulo MOD-QA-12 (registro CCP2 temperature)
+Frequenza: registrazione datalogger in continuo; trascrizione manuale su MOD-QA-12
+  ogni 60 minuti; verifica in seconda firma del capoturno entro fine turno
+Responsabile: operatore di linea addetto al PT-104; capoturno per la seconda firma;
+  QA per il riesame
+Azione correttiva: BLOCCO DEL LOTTO e segregazione di tutto il prodotto transitato
+  dall'ultimo controllo conforme; RIPROCESSO del prodotto ove tecnologicamente
+  possibile, altrimenti declassamento/distruzione; verifica taratura sonde;
+  registrazione della deviazione e notifica immediata a RSGQ (Marchetti E.)
+Verifica: confronto settimanale QA tra tracciato datalogger e MOD-QA-12; taratura
+  sonde semestrale (centro LAT); challenge test/validazione trattamento ogni 3 anni
+  o a modifica di prodotto/processo
+Registrazione: MOD-QA-12; tracciati datalogger PT-104 (archivio elettronico, 24 mesi);
+  rapporti di taratura
+----------------------------------------------------------------------------
+CCP3 - METAL DETECTOR MD-3200 (LINEA 1)
+Fase: 12 - Rilevazione metalli
+Pericolo: F - frammenti metallici Fe / Non-Fe / acciaio inox
+Limite critico: rilevazione ed espulsione dei tasselli di prova certificati:
+  Fe diametro 2,0 mm; Non-Fe diametro 2,5 mm; AISI 316 diametro 3,0 mm
+Monitoraggio: passaggio dei tre tasselli certificati in condizioni di produzione
+  (tassello su confezione, posizioni testa/centro/coda) con verifica espulsione
+Frequenza: ogni 60 minuti, nonché a inizio turno, fine turno, cambio prodotto e
+  dopo ogni intervento sull'apparecchio
+Responsabile: operatore di linea; capoturno per la seconda firma entro fine turno;
+  QA per il riesame settimanale
+Azione correttiva: in caso di mancata rilevazione anche di un solo tassello: fermo
+  linea, blocco e segregazione di tutto il prodotto dall'ultima verifica conforme,
+  ripasso integrale al MD dopo ripristino; chiamata assistenza (Loma); apertura NC;
+  in caso di espulsione prodotto in produzione: gestione scarto secondo IO dedicata
+Verifica: riesame settimanale QA dei moduli; verifica annuale del costruttore;
+  taratura tasselli certificata
+Registrazione: modulo MOD-QA-07 rev.5 (verifica metal detector); log elettronico
+  MD-3200; certificati tasselli
+NOTA: il MD-1800 (Linea 3) è gestito con medesimi limiti critici, frequenze e
+  modulistica; le registrazioni riportano l'identificativo macchina.
+----------------------------------------------------------------------------
+CCP4 - SURGELAZIONE (LINEA 3)
+Fase: 11 - Surgelazione tunnel TS-01 (in sostituzione: Criotech CR-SP180)
+Pericolo: B - sviluppo microbico per abbattimento termico insufficiente/lento
+Limite critico: temperatura al cuore del prodotto ≤ -18 °C entro 240 min dall'ingresso
+  in tunnel; cella di stoccaggio CF-02 ≤ -18 °C
+Monitoraggio: rilevazione T al cuore su campione a fine tunnel (sonda a penetrazione);
+  registrazione in continuo T cella CF-02 (sistema di monitoraggio con allarme)
+Frequenza: T cuore: ogni 2 ore per referenza in produzione; CF-02: continuo con
+  soglia allarme -16 °C e notifica a Faggionato N. e Guerra R.
+Responsabile: capoturno Linea 3 (Guerra R.); magazzino per CF-02; QA per riesame
+Azione correttiva: prodotto che non raggiunge -18 °C entro 240 min: prolungamento
+  permanenza e nuova verifica; se non risolutivo, blocco lotto e valutazione QA
+  (declassamento a catena del fresco ove ammissibile, altrimenti distruzione);
+  per CF-02 fuori limite: trasferimento prodotto, chiamata frigorista, valutazione
+  QA su tempo/temperatura di esposizione
+Verifica: riesame settimanale registrazioni; taratura sonde semestrale; mappatura
+  termica cella CF-02 annuale
+Registrazione: registro surgelazione L3; tracciato continuo CF-02; MOD-MAG-02 per
+  eventuali movimentazioni di segregazione
+============================================================================
+
+Manuale HACCP rev.5 - pag. 31 di 78 - Doc. non controllato se stampato
+
+9. PROGRAMMI DI PREREQUISITI (PRP) E PRP OPERATIVI
+
+9.1 Elenco dei PRP attivi (procedure richiamate, non duplicate qui - vedi All. 2):
+PRP-01 Pulizia e sanificazione (CIP-01, istruzione operativa IO-05; detergenti
+       Chemifood Italia F0052: soda caustica, acido nitrico, sanificante PAA;
+       schede di sicurezza in archivio SDS)
+PRP-02 Disinfestazione e monitoraggio infestanti (ditta esterna, 24 postazioni esca +
+       6 lampade UV, report mensile)
+PRP-03 Manutenzione preventiva impianti e taratura strumenti (piano annuale a cura
+       Dal Maso I.; lubrificanti food grade H1; divieto di deposito di ricambi e
+       attrezzi in area produttiva al di fuori degli interventi - vedi nota (5))
+PRP-04 Igiene e formazione del personale (MOD-HR-11 registro formazione; visite
+       mediche; regole di accesso, indumenti, lavaggio mani)
+PRP-05 Qualifica e monitoraggio fornitori (vendor rating annuale; fornitori critici:
+       F0012, F0021, F0044, F0090)
+PRP-06 Gestione dell'acqua (acquedotto + analisi potabilità semestrali)
+PRP-07 Gestione rifiuti e sottoprodotti (ex Reg. 1069/2009 ove applicabile)
+PRP-08 Controllo corpi estranei: vetro e plastica dura (registro vetri/plexiglas,
+       ispezioni mensili; politica no-vetro in produzione; coltelli censiti)
+PRP-09 Rintracciabilità (PRO-QA-08: identificazione lotto L26<ggg>-<linea>-<turno>,
+       mass balance, esercitazione annuale - vedi PRO-QA-14 per il ritiro)
+PRP-10 Catena del freddo e trasporti (qualifica vettori, controllo T pianale)
+PRP-11 Food defense e sicurezza sito (BRCGS 9 sez. 4.2; TACCP a cura team dedicato)
+PRP-12 Gestione MOCA (DoC fornitori F0044 Flexipack, F0031 Euroglass; test migrazione)
+
+(5) nota rafforzata a seguito audit CSQA 17-18/02/2026, NC minore BRCGS cl. 4.7.5
+(ricambi e attrezzi custoditi in area produttiva senza controllo integrità): il
+carrello ricambi di linea è stato rimosso; ogni intervento in produzione richiede
+il modulo MOD-PR-04 con conta attrezzi in ingresso e in uscita.
+
+9.2 PRPo1 - Gestione allergeni
+Allergeni presenti in stabilimento: GLUTINE (cereali), LATTE (burro, panna - F0021
+Latteria Bassanese), UOVA, SOIA, FRUTTA A GUSCIO; SESAMO in fase di introduzione con
+la referenza in sviluppo AF-SN-0470 (v12, R&D Zanchetta A. / Meneghello G.).
+Misure: matrice allergeni per referenza (All. 12, doc. "scheda allergeni matrice
+cross contamination"); sequenze di produzione dal meno allergenico al più allergenico;
+lavaggio validato tra referenze incompatibili con test proteina specifica (latte,
+uovo, soia) a cura QC (Pozzato S., 1 validazione/trimestre per linea); gestione rework
+vincolata alla matrice; etichettatura precauzionale deliberata dal Team HACCP, non
+applicata di default; formazione specifica registrata su MOD-HR-11.
+Monitoraggio PRPo1: check-list di cambio produzione; esito test proteine.
+Azione in caso di fallimento: blocco prodotto dal cambio produzione, valutazione QA,
+eventuale rietichettatura o declassamento.
+
+Manuale HACCP rev.5 - pag. 44 di 78 - Doc. non controllato se stampato
+
+10. GESTIONE DELLE DEVIAZIONI E DEL PRODOTTO POTENZIALMENTE NON SICURO
+
+10.1 Ogni deviazione da un limite critico comporta: (a) identificazione e segregazione
+del prodotto coinvolto dall'ultimo controllo conforme, con cartellino BLOCCATO e
+registrazione su MOD-MAG-02; (b) registrazione della deviazione sul modulo del CCP
+interessato e sul registro NC interne; (c) notifica a RSGQ entro il turno; (d) decisione
+documentata di RSGQ sul destino del prodotto (rilascio previo riprocesso / declassamento
+/ distruzione), con razionale scritto; (e) analisi della causa radice per deviazioni
+ripetute (≥ 2 nello stesso trimestre sullo stesso CCP).
+10.2 Il prodotto bloccato è fisicamente segregato in area dedicata del magazzino o
+identificato informaticamente con stato di blocco; la movimentazione richiede firma QA.
+10.3 Qualora la deviazione sia rilevata dopo la spedizione, si applica la procedura
+PRO-QA-14 rev.3 "Gestione ritiro e richiamo del prodotto" e, ove ne ricorrano i
+presupposti, la notifica ex art. 19 Reg. (CE) 178/2002 all'Autorità competente
+(ULSS 9 Scaligera - SIAN).
+10.4 Reclami dei consumatori e dei clienti: gestione su MOD-QA-31, con valutazione di
+sicurezza entro 24 h a cura QA; i reclami per corpo estraneo comportano sempre la
+richiesta del reperto e, ove disponibile, l'identificazione merceologica del materiale.
+
+11. PROCEDURE DI VERIFICA (Principio 6)
+
+11.1 Attività di verifica pianificate:
+- riesame settimanale delle registrazioni CCP (QA - Pozzato S., supervisione Marchetti E.);
+- audit interni: programma annuale che copre tutte le sezioni BRCGS/IFS almeno una
+  volta/anno; auditor qualificati o consulente esterno (Vicentini C.);
+- piano analitico su prodotto finito e ambiente: tamponi di superficie e ambientali
+  (MOD-QA-19) con laboratorio esterno Analytica Veneta S.r.l. (ACCREDIA n. 0987),
+  ricerca L. monocytogenes ISO 11290-1 e Salmonella spp. ISO 6579-1 secondo piano
+  di zoning (zona 1 contatto diretto, zona 2 prossimità, zona 3 ambiente, zona 4
+  esterna alle aree di lavorazione);
+- shelf life test su referenze rappresentative (challenge test ove richiesto);
+- verifica annuale metal detector a cura del costruttore; taratura sonde semestrale;
+- mock recall annuale (PRO-QA-14) con obiettivo di ricostruzione ≥ 99% entro 4 h;
+- verifica potabilità acqua semestrale.
+11.2 Gli esiti delle verifiche confluiscono nel riesame della direzione (PRO-QA-02,
+verbale annuale) e nell'aggiornamento dell'analisi dei pericoli.
+
+11.3 Validazione
+Le misure di controllo ai CCP sono state validate come segue: CCP2 mediante studio di
+penetrazione termica su prodotto farcito peggiore caso (AF-SN-0450 con farcitura fredda,
+rapporto Studio Alimentaria SA-VAL-21/09 del 2021, rivalidazione prevista 2024 - NOTA:
+rivalidazione eseguita? vedi verbale team 03/2024); CCP3 mediante test di sensibilità
+in condizioni dinamiche con prodotto; CCP4 mediante mappatura tunnel TS-01 (2019 - da
+ripetere su CR-SP180 al collaudo, azione a carico Fantin M. / Criotech).
+
+Manuale HACCP rev.5 - pag. 58 di 78 - Doc. non controllato se stampato
+
+12. RIESAME DEL SISTEMA
+
+12.1 Il piano HACCP è riesaminato dal Team con frequenza annuale e comunque al
+verificarsi di: modifiche di layout, nuovi impianti (es. sostituzione TS-01 con
+CR-SP180 - riesame straordinario pianificato al collaudo), nuove referenze (AF-SN-0470
+con introduzione SESAMO - riesame obbligatorio pre-lancio), esiti sfavorevoli di audit
+o di analisi, reclami per pericolo sanitario, allerta RASFF su ingredienti in uso.
+12.2 Il riesame annuale 2026 del sistema HACCP si integra con il riesame della
+direzione SGQ del 12/03/2026 (verbale VRD-2026-01).
+12.3 Ogni revisione del Manuale è approvata da Direzione; la matrice delle revisioni
+è riportata in ultima pagina. Rev. 4 del 15/01/2024: adeguamento a BRCGS Issue 9 e
+IFS v8, inserimento PT-104 come CCP2 in sostituzione del precedente CP cottura,
+aggiornamento zoning tamponi.
+
+13. DOCUMENTAZIONE E CONSERVAZIONE
+
+13.1 Le registrazioni relative ai CCP sono conservate per 24 mesi oltre il TMC del
+prodotto cui si riferiscono. I moduli in uso: MOD-QA-07 rev.5, MOD-QA-12, MOD-QA-19,
+MOD-PR-04, MOD-MAG-02, MOD-HR-11, MOD-QA-31. La modulistica è gestita secondo
+PRO-QA-01 (tenuta sotto controllo dei documenti); l'uso di moduli in revisione
+superata costituisce non conformità interna.
+13.2 Archivio: cartaceo presso ufficio QA (armadi 1-4); elettronico su server aziendale
+\\AURORA-SRV01\Qualita (backup notturno). E' in valutazione la digitalizzazione
+dell'archivio storico (input della Direzione, vedi verbale riesame 12/03/2026).
+
+ALLEGATI (richiamati nel testo)
+All. 1 - Elenco documenti di origine esterna
+All. 2 - Elenco PRP e procedure richiamate
+All. 3 - Verbali del Team HACCP
+All. 5 - Schede tecniche di prodotto (archivio R&D)
+All. 6 - Diagrammi di flusso grafici per linea
+All. 7 - Qualifica vettori e trasporti
+All. 8 - Tabella completa analisi dei pericoli
+All. 10 - Dossier MOCA
+All. 12 - Matrice allergeni e validazione pulizie
+
+Manuale HACCP rev.5 - pag. 78 di 78 - Doc. non controllato se stampato
+
+MATRICE DELLE REVISIONI
+Rev. 0 - 06/2019 - prima emissione (consulente: Studio Alimentaria)
+Rev. 1 - 03/2021 - inserimento Linea 3 surgelati, CCP4
+Rev. 2 - 09/2022 - adeguamento BRCGS Issue 9 (transizione)
+Rev. 3 - 02/2023 - nuova confezionatrice PKM-450, aggiornamento fase 13
+Rev. 4 - 15/01/2024
+Rev. 5 - 08/04/2026 - recepimento esiti audit CSQA 17-18/02/2026 (note 2 e 5), aggiornamento PRPo1 allergene sesamo su AF-SN-0470, recepimento riesame direzione 12/03/2026 - approvata E. Marchetti / M. Fantin
+
+Firme (originale firmato in archivio QA, copia scansionata)
+Redatto: E. Marchetti ______________
+Verificato: C. Vicentini ______________
+Approvato: M. Fantin ______________
+
+fine estratto - le pagine 32-43 e 45-57 (istruzioni operative di dettaglio e schede
+di monitoraggio) non sono incluse nel presente estratto
+
+
+
+--- non_conformita_interne_registro_2026.csv ---
+REGISTRO NON CONFORMITA' INTERNE - AURORA FOOD GROUP S.R.L. - ANNO 2026 - MOD-QA-18 rev.3 - agg. Pozzato S.
+N_NC;Data;Origine;Reparto;Descrizione;Prodotto_Lotto;Gravità;Causa_radice;Azione_correttiva;Responsabile;Data_chiusura;Stato;Costo_stimato_€
+NC-2026-001;07/01/2026;interna;Linea 1;Sottopeso rilevato su selezionatrice, 14 pezzi sotto tolleranza su AF-SN-0450;AF-SN-0450 L26007-L1-T1;bassa;dosatore starato dopo fermo natalizio;ritaratura dosatore, ricontrollo 100% inizio turno;Popescu I.;08/01/2026;CHIUSA;120,00
+NC-2026-002;08/01/2026;interna;Magazzino;Rotazione FEFO non rispettata su farina tipo 00, bancale con scadenza piu vicina dietro;F0012 farina 00;bassa;mappatura ubicazioni non aggiornata;riubicazione bancali, richiamo verbale addetto;Faggionato N.;12/01/2026;CHIUSA;
+NC-2026-003;09/01/2026;fornitore;Ricevimento merci;DDT Molino Veneto non riporta n. lotto farina W300, merce accettata con riserva;F0012;media;errore compilazione fornitore;richiesta DDT integrativo, sollecito a fornitore;Faggionato N.;15/01/2026;CHIUSA;N/D
+NC-2026-004;12/01/2026;interna;Linea 2;Cella lievitazione fuori range UR% per 40 min, croissant turno 1 con sviluppo irregolare;AF-CR-0212 L26012-L2-T1;media;sonda umidità sporca;pulizia sonda, inserita in piano tarature;Ben Salah A.;14/01/2026;CHIUSA;850,00
+NC-2026-005;2026-01-13;interna;Laboratorio;Tampone superficie impastatrice IMP-300 oltre limite CBT, ripetuto dopo sanificazione;;media;sanificazione weekend incompleta;rilavaggio secondo IO-05, tampone di verifica MOD-QA-19;Pozzato S.;16/01/2026;CHIUSA;90,00
+NC-2026-006;14/01/2026;interna;Linea 3;Tunnel TS-01 tempo di abbattimento 265 min, oltre limite CCP4 240 min su carico parziale;AF-CR-0215 L26014-L2-T2;alta;piastre TS-01 con brina, resa frigorifera degradata;sbrinamento straordinario, lotto trattenuto e ricontrollato T cuore;Guerra R.;16/01/2026;CHIUSA;1.450,00
+NC-2026-007;15-gen-26;interna;Manutenzione;Perdita olio idraulico sfogliatrice Linea 2, gocciolamento su pavimento non su prodotto;;media;guarnizione pistone usurata;sostituzione guarnizione, verifica assenza contaminazione;Dal Maso I.;15/01/2026;CHIUSA;310,00
+NC-2026-008;16/01/2026;reclamo;Qualità;Reclamo Alì S.p.A. per 3 confezioni AF-SN-0450 con saldatura film aperta;AF-SN-0450 L26007-L1-T2;media;temperatura barra saldante instabile;controllo tenuta a campione rinforzato, taratura PKM-450;Marchetti E.;22/01/2026;CHIUSA;240,00
+NC-2026-009;19/01/2026;interna;Linea 1;Verifica MD-3200 ora 16:00 non registrata su MOD-QA-07, tassello AISI 316 passato ma firma mancante;L26019-L1-T2;media;operaio nuovo non formato su frequenza oraria;formazione MOD-HR-11, ripasso checklist metal detector;Zanella D.;26/01/2026;CHIUSA;
+NC-2026-010;20/01/2026;interna;Spedizioni;Pedana AF-FC-0330 caricata su vettore sbagliato, resa a stabilimento dopo 6 h a +9 gradi;AF-FC-0330 L26019-L1-T1;alta;scambio documenti in baia di carico;lotto declassato e distrutto, doppia verifica targa/DDT;Faggionato N.;23/01/2026;CHIUSA;1.980,00
+NC-2026-011;21/01/2026;fornitore;Ricevimento merci;Burro Latteria Bassanese consegnato a +9,5 gradi al cuore, respinto;F0021;alta;vettore fornitore con frigo in avaria;reso totale, segnalazione in valutazione fornitori;Pozzato S.;21/01/2026;CHIUSA;0
+NC-2026-012;23/01/2026;interna;Linea 2;Impasto croissant turno notte con dosaggio burro errato, 180 kg fuori ricetta;AF-CR-0215 L26023-L2-T3;media;ricetta v. precedente ancora attiva su pannello IMP-300;sfrido, aggiornamento ricettario a pannello con blocco versioni;Ben Salah A.;27/01/2026;CHIUSA;620,00
+NC-2026-013;26/01/2026;interna;CIP;Concentrazione soda caustica CIP-01 sotto range in fase 2, lavaggio ripetuto;;bassa;fusto detergente Chemifood quasi vuoto, pescante scoperto;sostituzione fusto, spia livello richiesta a manutenzione;Dal Maso I.;28/01/2026;CHIUSA;180,00
+NC-2026-014;27/01/2026;interna;Linea 1;Etichette AF-SN-0450 con EAN parzialmente stampato su 2 cartoni, non leggibile a scanner;AF-SN-0450 L26026-L1-T1;bassa;testina stampante sporca;pulizia testina, ricontrollo leggibilita;Popescu I.;27/01/2026;CHIUSA;60,00
+NC-2026-015;28/01/2026;audit;Qualità;Audit interno: registro formazione MOD-HR-11 non aggiornato per 3 neoassunti Linea 2;;media;passaggio consegne HR incompleto;aggiornamento registro, pianificate sessioni HACCP;Sartori F.;20/02/2026;CHIUSA;
+NC-2026-016;29/01/2026;interna;Magazzino;Scarico lotto su MOD-MAG-02 con quantita errata, giacenza contabile non torna con fisico;AF-CR-0212;bassa;errore trascrizione manuale;rettifica inventariale, controllo incrociato settimanale;Faggionato N.;05/02/2026;CHIUSA;N/D
+NC-2026-017;30/01/2026;interna;Linea 3;Sonda T cella CF-02 segnala -12,4 per 25 min poi rientra, datalogger ok, allarme tardivo;;alta;sbrinamento evaporatore programmato in orario di carico;spostato ciclo sbrinamento su fascia notturna;Guerra R.;03/02/2026;CHIUSA;0
+NC-2026-018,02/02/2026,interna,Linea 1,Fermo forno FT-01 per 55 min, bruciatore in blocco, prodotto in transito declassato, chiamato tecnico TecnoForni, Rossato arrivato ore 11:40,AF-FC-0330 L26033-L1-T1,media,pressostato gas in avaria,sostituzione pressostato, verifica combustione,Dal Maso I.,04/02/2026,CHIUSA,1.150,00
+NC-2026-019;03/02/26;reclamo;Qualità;Reclamo consumatore via numero verde: croissant con gusto "vecchio", lotto non fornito dal chiamante;AF-CR-0212;bassa;non determinabile, campione non reso;risposta cortesia, verifica shelf life di riferimento;Marchetti E.;10/02/2026;CHIUSA;35,00
+NC-2026-020;04/02/2026;interna;Linea 2;Sfogliatrice: nastro con giunzione danneggiata, rischio frammenti, fermata preventiva;;alta;usura giunzione oltre soglia;sostituzione nastro, ispezione integrita registrata;Dal Maso I.;05/02/2026;CHIUSA;780,00
+NC-2026-021;05/02/2026;interna;Laboratorio;Ritardo invio campioni shelf life ad Analytica Veneta, finestra analitica T0 persa su un lotto;AF-SN-0455 L26033-L1-T2;bassa;corriere non prenotato;riprogrammazione piano campionamento;Pozzato S.;09/02/2026;CHIUSA;150,00
+NC-2026-022;09/02/2026;interna;Linea 1;CCP3: tassello Fe 2,0 mm non rilevato in verifica ore 10:00, linea fermata, ritest ok dopo reset;L26040-L1-T1;critica;deriva sensibilita MD-3200 dopo sbalzo tensione;ricontrollo retroattivo prodotto dall'ultima verifica conforme, intervento Loma;Marchetti E.;13/02/2026;CHIUSA;2.300,00
+NC-2026-023;10/02/2026;fornitore;Ricevimento merci;Film MAP Flexipack con bobina fuori specifica spessore, micro-fori in saldatura;F0044;media;lotto film non conforme;reso bobine, richiesta DoC 1935/2004 aggiornata;Zanella D.;18/02/2026;CHIUSA;540,00
+NC-2026-024;11/02/2026;interna;Linea 2;Operaio senza copricapo corretto ripreso in area sfoglia da RSGQ durante giro igiene;;bassa;mancata vigilanza capoturno;richiamo, ripasso regole GMP a inizio turno;Ben Salah A.;11/02/2026;CHIUSA;
+NC-2026-025;12/02/2026;interna;Linea 3;Confezioni AF-CR-0215 con brina interna anomala su 2 cartoni a campione;AF-CR-0215 L26040-L2-T2;media;sbalzo termico in trasferimento a CF-02;riduzione tempo sosta in anticella;Guerra R.;19/02/2026;CHIUSA;210,00
+NC-2026-026;13/02/2026;interna;Amministrazione;Fattura F0018 Oleificio Adriatico registrata con prezzo listino vecchio (differenza +11%);F0018;bassa;listino 2026 non caricato a gestionale;nota credito richiesta, listino aggiornato (v. Trentin);Trentin L.;27/02/2026;CHIUSA;#RIF!
+NC-2026-027;16/02/2026;interna;Linea 1;Registro MOD-QA-12 turno 3 compilato in blocco a fine turno anziche a frequenza prevista;L26047-L1-T3;media;prassi scorretta consolidata turno notte;richiamo formale, sensibilizzazione registrazioni in tempo reale;Marchetti E.;;APERTA;
+NC-2026-028;17/02/2026;audit;Qualità;AUDIT CSQA NC minore 1: registrazioni manuali CCP2/CCP3 prive di verifica in seconda firma entro fine turno (rif. BRCGS 9 cl. 2.10.2 / IFS 5.1.2);;alta;procedura non prevede doppia firma a fine turno;revisione MOD-QA-12 e MOD-QA-07 con campo seconda firma, formazione capiturno, evidenze a CSQA entro 28 gg;Marchetti E.;02/04/2026;CHIUSA;400,00
+NC-2026-029;17/02/2026;audit;Manutenzione;AUDIT CSQA NC minore 2: ricambi e attrezzi di manutenzione custoditi in area produttiva senza controllo integrita (BRCGS cl. 4.7.5);;alta;carrello ricambi tenuto a bordo linea per comodita interventi;rimozione carrello da area produttiva, armadio chiuso in officina, inventario attrezzi in/out;Dal Maso I.;02/04/2026;CHIUSA;650,00
+NC-2026-030;18/02/2026;audit;Qualità;Audit CSQA raccomandazione: migliorare tracciabilita rework in scheda allergeni;;bassa;;aggiornamento matrice cross contamination previsto Q2;Marchetti E.;;IN CORSO;
+NC-2026-031;19/02/2026;interna;Linea 2;Turno domenicale: assenza non programmata di 2 operai, ordine Tosano completato con 3 h straordinario extra;AF-CR-0215 L26050-L2-T1;media;copertura organico insufficiente su festivi;segnalato a HR, v. anche contestazione RSU;Zanella D.;;APERTA;960,00
+NC-2026-032;20/02/2026;fornitore;Ricevimento merci;Vasetti Euroglass con 12 pezzi scheggiati su bancale, bancale segregato;F0031;alta;danno da trasporto;reso parziale, foto a fornitore, controllo 100% bancali vetro in ingresso;Faggionato N.;26/02/2026;CHIUSA;380,00
+NC-2026-033;23/02/2026;interna;Linea 1;PT-104: set point corretto ma registratore carta esaurita, 2 h senza traccia cartacea (datalogger ok);L26054-L1-T2;media;scorta rotoli carta esaurita;scorta minima a bordo macchina, controllo inizio turno;Popescu I.;25/02/2026;CHIUSA;45,00
+NC-2026-034;24/02/2026;interna;Laboratorio;Positivita Listeria spp. su tampone ambientale zona scarico Linea 3 (canalina), prodotto non coinvolto;;critica;ristagno acqua in canalina;sanificazione straordinaria, ritampone a 48 h negativo, aumento frequenza MOD-QA-19;Pozzato S.;28/02/2026;CHIUSA;720,00
+NC-2026-035;25/02/2026;interna;Magazzino;Bancale AF-SN-0455 promo 3+1 con cartoni ammaccati da transpallet;AF-SN-0455 L26054-L1-T1;bassa;manovra errata in corsia stretta;ricondizionamento, richiamo carrellista;Faggionato N.;25/02/2026;CHIUSA;140,00
+NC-2026-036;26/02/2026;reclamo;Qualità;Segnalazione Famila: sfogliatina bio con etichetta bio parzialmente coperta da bollino promo;AF-CR-0220 L26054-L2-T1;bassa;posizionamento bollino manuale impreciso;istruzione posizionamento, verifica a campione;Marchetti E.;05/03/2026;CHIUSA;90,00
+NC-2026-037;27/02/2026;interna;Linea 3;MD-1800 verifica ore 22:00 saltata per cambio turno, recuperata ore 22:35;L26058-L3-T3;media;sovrapposizione consegne turno;procedura passaggio consegne con firma;Guerra R.;06/03/2026;CHIUSA;
+NC-2026-038;02/03/2026;interna;Linea 1;Azoto in linea PKM-450: valore O2 residuo in confezione 2,8% oltre target 2,0% su controllo a campione;AF-SN-0450 L26061-L1-T1;media;taratura miscelatore gas;ritaratura, controllo O2 ogni 2 h per una settimana;Zanella D.;09/03/2026;CHIUSA;330,00
+NC-2026-039;03/03/2026;interna;CIP;IO-05 non seguita in fase risciacquo finale, conducibilita fuori soglia al primo test;;media;operatore nuovo turno notte;affiancamento, ripetizione lavaggio;Dal Maso I.;04/03/2026;CHIUSA;160,00
+NC-2026-040;2026-03-04;fornitore;Ricevimento merci;Lievito Lievital consegnato con shelf life residua 40% sotto accordo 60%;F0029;bassa;errore picking fornitore;accettazione in deroga con consumo prioritario;Pozzato S.;04/03/2026;CHIUSA;0
+NC-2026-041;05/03/2026;interna;Linea 2;Ordine straordinario Tosano promo: cambio formato non pianificato, 40 min fermo per attrezzaggio;AF-CR-0215;bassa;pianificazione ordini promo tardiva;riunione settimanale produzione-commerciale;Zanella D.;12/03/2026;CHIUSA;480,00
+NC-2026-042;06/03/2026;interna;Spedizioni;Ritardo consegna CE.DI. Tosano Cerea: slot ore 7:30 mancato, camion arrivato 10:52, carico respinto e riprenotato;AF-CR-0215 L26061-L2-T2;alta;vettore Trasporti Frigo Veneto partito in ritardo + coda tangenziale;contestazione a vettore, v. pratica logistica, penale Tosano in valutazione;Faggionato N.;;APERTA;1.750,00
+NC-2026-043;09/03/2026;interna;Linea 1;Focaccina AF-FC-0330 con colore fondo disomogeneo turno 1, 6 teglie declassate;AF-FC-0330 L26068-L1-T1;bassa;zona forno FT-01 con resistenza degradata;segnalato a manutenzione, taratura profilo cottura;Popescu I.;13/03/2026;CHIUSA;270,00
+NC-2026-044;10/03/2026;interna;Qualità;Esercitazione annuale di rintracciabilita: completata in 3 h 50 min, entro il limite di 4 h della PRO-QA-14 ma vicino alla soglia;AF-SN-0450 L26068-L1-T2;media;estrazione dati spedizioni manuale da piu fogli Excel;azione: valutare modulo tracciabilita ERP (v. progetto CSB/SAP);Marchetti E.;;IN CORSO;
+NC-2026-045;11/03/2026;interna;Linea 3;Interruzione elettrica 18 min, TS-01 in ripartenza lenta, monitoraggio T cuore straordinario;L26070-L3-T2;media;microinterruzione rete Veneta Energia;verifica gruppo continuita solo su datalogger, ok;Guerra R.;13/03/2026;CHIUSA;390,00
+NC-2026-046;12/03/2026;interna;Amministrazione;Scadenzario RIBA: insoluto tecnico su incasso grossista Ho.Re.Ca., ripresentato;;bassa;coordinate variate non comunicate;anagrafica aggiornata;Trentin L.;19/03/2026;CHIUSA;25,00
+NC-2026-047;13/03/2026;reclamo;Qualità;Reclamo Rossetto Trade: 1 cartone AF-FC-0330 con data TMC stampata poco leggibile;AF-FC-0330 L26068-L1-T2;bassa;ugello inkjet parzialmente ostruito;pulizia programmata inkjet a ogni cambio lotto;Marchetti E.;20/03/2026;CHIUSA;70,00
+NC-2026-048;16/03/2026;interna;Linea 2;Straordinari oltre soglia: superamento 250 h/anno proiettato per 6 operai Linea 2, segnalazione HR;;alta;3 domeniche consecutive promo Sottocosto Primavera Tosano;piano ferie/riposi compensativi, v. contestazione RSU, valutare interinali;Sartori F.;;APERTA;N/D
+NC-2026-049;17/03/2026;interna;Linea 1;Evidenze chiusura NC audit CSQA non ancora inviate, scadenza 28 gg al 17/03 SUPERATA;;alta;carico lavoro RSGQ, raccolta firme capiturno incompleta;sollecito interno, invio evidenze poi effettuato 02/04 con scuse a CSQA;Marchetti E.;02/04/2026;CHIUSA;
+NC-2026-050;18/03/2026;interna;Magazzino;Inventario CF-02: 14 cartoni AF-CR-0212 non trovati in ubicazione dichiarata;AF-CR-0212 L26054-L2-T1;media;ubicazione manuale non aggiornata dopo spostamento;ritrovati in fila 7, rettifica MOD-MAG-02;Faggionato N.;18/03/2026;CHIUSA;0
+N_NC;Data;Origine;Reparto;Descrizione;Prodotto_Lotto;Gravità;Causa_radice;Azione_correttiva;Responsabile;Data_chiusura;Stato;Costo_stimato_€
+NC-2026-051;19/03/2026;interna;Linea 2;Cornetto PL Tosano: peso medio confezione 8x45 al limite inferiore, aggiustato dosaggio;AF-CR-0215 L26075-L2-T2;bassa;deriva dosatrice;taratura, controllo peso rinforzato;Ben Salah A.;20/03/2026;CHIUSA;110,00
+NC-2026-052;20/03/2026;fornitore;Ricevimento merci;Zucchero F0025 con sacco lacerato su bancale, sacco segregato e reso;F0025;bassa;danno da movimentazione;reso 1 sacco, nota a fornitore;Pozzato S.;20/03/2026;CHIUSA;18,00
+NC-2026-053;23/03/2026;interna;Linea 3;Guanto in nitrile trovato in cassone sfrido a fine turno, conteggio guanti non torna;L26082-L3-T2;alta;mancata registrazione consegna DPI;verifica prodotto confezionato ok (MD passato), conteggio DPI a inizio/fine turno;Guerra R.;27/03/2026;CHIUSA;340,00
+NC-2026-054;24/03/2026;interna;Linea 1;Verifica MD-3200 con esito registrato ma tassello non-Fe 2,5 usato al posto del previsto in sequenza;L26083-L1-T1;media;confusione tasselli in astuccio unico;astucci separati ed etichettati per tipologia;Popescu I.;31/03/2026;CHIUSA;55,00
+NC-2026-055;25/03/2026;interna;R&D;Prototipo AF-SN-0470 v12: sesamo lavorato in saletta pilota senza segregazione completa utensili;AF-SN-0470 proto v12;alta;procedura allergeni non estesa a saletta R&D;utensili dedicati sesamo, aggiornamento PRPo1 e matrice allergeni;Zanchetta A.;10/04/2026;CHIUSA;220,00
+NC-2026-056;26/03/2026;interna;Linea 2;4a dimissione in 5 mesi su Linea 2 (motivo: turni domenicali), copertura turni critica;;alta;carico festivo continuativo promo Tosano;v. NC-2026-048, ricerca 2 nuovi addetti, colloqui in corso;Sartori F.;;APERTA;
+NC-2026-057;27/03/2026;interna;Spedizioni;Documenti di trasporto: 2 DDT con lotto trascritto a mano diverso dal lotto caricato;AF-SN-0450 L26082-L1-T1;media;trascrizione manuale in baia;controllo incrociato etichetta pallet/DDT prima della partenza;Faggionato N.;03/04/2026;CHIUSA;
+NC-2026-058;30/03/2026;interna;Linea 1;Fermo PKM-450 25 min per bobina film inceppata, sfrido film 2 bobine parziali;L26089-L1-T2;bassa;giunzione bobina difettosa;segnalazione a Flexipack, controllo giunzioni in ingresso;Zanella D.;30/03/2026;CHIUSA;260,00
+NC-2026-059;31/03/2026;interna;Laboratorio;Taratura termometro campione scaduta il 15/03, rilevata al riordino strumenti;;media;scadenzario tarature non consultato;taratura eseguita presso centro LAT, alert scadenzario;Pozzato S.;08/04/2026;CHIUSA;185,00
+NC-2026-060;01/04/2026;interna;Linea 3;Infortunio lieve: schiacciamento dito operaio durante movimentazione stampi, 12 gg prognosi, denuncia INAIL;;alta;presa non corretta, stampi senza maniglia;v. pratica RSPP Bonato, valutazione ausili di presa, riunione sicurezza;Fantin M.;;IN CORSO;3.200,00
+NC-2026-061;02/04/2026;interna;Qualità;Invio a CSQA evidenze chiusura NC audit con 16 gg di ritardo sulla scadenza;;media;v. NC-2026-049;accettate da CSQA con nota, richiamo a pianificazione scadenze enti;Marchetti E.;09/04/2026;CHIUSA;
+NC-2026-062;03/04/2026;fornitore;Ricevimento merci;Bombole CO2 Nordgas: 1 bombola con cappellotto mancante, respinta;F0061;media;controllo pre-consegna fornitore carente;sostituzione bombola, nota a Nordgas;Faggionato N.;07/04/2026;CHIUSA;0
+NC-2026-063;06/04/2026;interna;Linea 2;Domenica promo: pulizia di fine turno abbreviata per consegna lunedi ore 6, tampone lunedi conforme ma fuori prassi;L26096-L2-T1;media;pressione tempi ordini straordinari Tosano;ribadita inderogabilita sanificazione completa, rimodulato orario carico;Ben Salah A.;10/04/2026;CHIUSA;
+NC-2026-064;07/04/2026;interna;Linea 1;Snack promo 3+1: fascetta promozionale storta su circa 300 confezioni, ricondizionate;AF-SN-0455 L26096-L1-T2;bassa;applicatore fascette non registrato;registrazione applicatore;Popescu I.;08/04/2026;CHIUSA;190,00
+NC-2026-065,08/04/2026,reclamo,Qualità,Reclamo consumatore Verona, acquisto presso Tosano, cornetto con farcitura scarsa, richiesta rimborso, gestito con buono omaggio,AF-CR-0212 L26089-L2-T1,bassa,dosatrice farcitura a inizio rampa,verifica dosaggio inizio produzione,Marchetti E.,15/04/2026,CHIUSA,40,00
+NC-2026-066;09/04/2026;interna;Magazzino;Scorta film MAP sotto punto di riordino senza ordine emesso;F0044;bassa;richiesta d'acquisto ferma in approvazione;sblocco RdA, soglia riordino automatica a gestionale;Trentin L.;14/04/2026;CHIUSA;
+NC-2026-067;10/04/2026;interna;Linea 3;TS-01 allarme sbrinamento ricorrente, 3 eventi in settimana, capacita ridotta;;alta;obsolescenza impianto (v. sostituzione Criotech CR-SP180);manutenzione tampone, pianificazione installazione nuovo tunnel;Dal Maso I.;;IN CORSO;2.600,00
+NC-2026-068;13/04/2026;interna;Linea 1;CCP2: registrazione MOD-QA-12 ore 18:00 mancante, datalogger conforme, seconda firma assente;L26103-L1-T2;media;nuova prassi doppia firma non ancora assimilata;richiamo capiturno, monitoraggio settimanale RSGQ;Marchetti E.;24/04/2026;CHIUSA;
+NC-2026-069;14/04/2026;fornitore;Ricevimento merci;Farina W300 Molino Veneto: alveogramma fuori specifica (W 265 vs min 280) su un lotto;F0012;media;lotto fornitore non conforme;reso, richiesta certificato analisi lotto sostitutivo;Pozzato S.;21/04/2026;CHIUSA;450,00
+NC-2026-070;15/04/2026;interna;Linea 2;Assenza improvvisa capoturno, turno coperto da Zanella, registrazioni igiene in ritardo;L26105-L2-T1;bassa;organico corto (v. dimissioni);matrice polivalenze aggiornata;Zanella D.;17/04/2026;CHIUSA;
+NC-2026-071;16/04/2026;interna;CIP;Consumo acido nitrico anomalo +18% sul mese, sospetta perdita su linea dosaggio;;media;raccordo dosatore trafilante;sostituzione raccordo, lettura contatori settimanale;Dal Maso I.;22/04/2026;CHIUSA;290,00
+NC-2026-072;17/04/2026;interna;Spedizioni;Slot Cerea ore 7:00 mancato per seconda volta nel trimestre, arrivo 8:40, scarico accettato con riserva;AF-CR-0215 L26105-L2-T2;media;partenza ritardata carico notturno;v. NC-2026-042, anticipata chiusura carico a ore 5:30;Faggionato N.;28/04/2026;CHIUSA;600,00
+NC-2026-073;20/04/2026;interna;Linea 1;Micro-fermate ripetute PKM-450 (7 in un turno), vibrazione anomala zona gruppo saldante;L26110-L1-T1;media;usura componenti gruppo saldante;ordine ricambi Pakmatic, intervento programmato;Dal Maso I.;;IN CORSO;820,00
+NC-2026-074;21/04/2026;interna;Laboratorio;Campioni panel test cornetto premium conservati fuori range prima dell'assaggio;AF-CR-0212;bassa;frigo saletta panel scollegato per lavori;ripetizione sessione panel;Zanchetta A.;24/04/2026;CHIUSA;130,00
+NC-2026-075;22/04/2026;reclamo;Qualità;Segnalazione Anna Perbellini (Tosano QA): 2 pallet con etichetta logistica SSCC non scansionabile al CE.DI.;AF-SN-0450 L26110-L1-T2;media;stampante etichette pallet con nastro esaurito a meta stampa;ristampa e ricontrollo scansione 100% prima del carico;Faggionato N.;29/04/2026;CHIUSA;220,00
+NC-2026-076;23/04/2026;interna;Linea 2;Ordine promo settimana 19: pianificate 3 domeniche consecutive, capienza straordinari esaurita per 4 operai;;alta;volumi promo oltre capacita Linea 2;v. NC-2026-048, richiesta a Fantin di rivedere accettazione volumi;Zanella D.;;APERTA;
+NC-2026-077;24/04/2026;interna;Linea 3;Cartoni AF-CR-0215 con punto di colla debole, 1 cartone aperto in movimentazione;AF-CR-0215 L26113-L2-T1;bassa;colla fredda sotto temperatura di esercizio;preriscaldo colla, controllo primo cartone;Guerra R.;27/04/2026;CHIUSA;85,00
+NC-2026-078;27/04/2026;interna;Magazzino;FEFO non rispettato su film MAP: bobine nuove usate prima delle vecchie;F0044;bassa;bancali sovrapposti in area MOCA;riorganizzazione area, etichetta data ingresso in evidenza;Faggionato N.;30/04/2026;CHIUSA;
+NC-2026-079;28/04/2026;interna;Linea 1;Test tenuta MAP a campione: 1 confezione su 30 con perdita lenta, lotto ricontrollato al 10%;AF-SN-0450 L26117-L1-T2;media;pressione barra saldante irregolare (v. NC-2026-073);intervento su gruppo saldante anticipato;Zanella D.;05/05/2026;CHIUSA;410,00
+NC-2026-080;29/04/2026;interna;Amministrazione;Tensione di cassa: acconto Criotech 30% (87.000) in scadenza maggio con incasso Tosano marzo atteso 10/06, attivato anticipo fatture;;alta;sfasamento incassi RIBA 90 gg vs uscite CapEx;v. Trentin/Bertoldi, utilizzo linea anticipo fatture UniCredit;Trentin L.;;APERTA;N/D
+NC-2026-081;30/04/2026;interna;Linea 2;Registro formazione: 5 attestati HACCP in scadenza aprile non rinnovati;;media;calendario corsi slittato per turni promo;sessione recupero pianificata 21/05 (v. MOD-HR-11);Sartori F.;;APERTA;750,00
+NC-2026-082;04/05/2026;interna;Linea 1;Controllo O2 residuo confezioni: 2,4% su target 2,0% a inizio turno, ritarato in 20 min;AF-SN-0450 L26124-L1-T1;bassa;deriva flussimetro azoto;ritaratura, annotazione su registro macchina;Popescu I.;04/05/2026;CHIUSA;60,00
+TOTALE COSTI GEN-APR (parziale, v. foglio riepilogo);;;;;;;;;;;;24.815,00
+NC-2026-083;05/05/2026;interna;Direzione;Richiesta buyer Tosano (Rossi M.): -4,5% listino 2026/27 + listing fee 12.000 su AF-SN-0455, margine AF-CR-0215 proiettato sotto zero;AF-CR-0215 / AF-SN-0455;alta;pressione negoziale canale GDO;analisi margini in corso, v. verbale incontro 05/05, decisione entro giugno;Bertoldi S.;;APERTA;12.000,00
+NC-2026-084;06/05/2026;fornitore;Ricevimento merci;Consegna Nordgas azoto/CO2: DDT con codice serbatoio corretto ma certificato analisi consegnato solo in copia sbiadita;F0061;bassa;copia da fascicolo vettore;richiesto originale via PEC, ricevuto 08/05;Faggionato N.;08/05/2026;CHIUSA;
+NC-2026-085;07/05/2026;interna;Linea 3;MD-1800: falso scarto ripetuto su 11 confezioni, ricontrollate ok;AF-CR-0215 L26127-L2-T2;bassa;prodotto molto freddo, effetto prodotto non compensato;compensazione effetto prodotto aggiornata;Guerra R.;07/05/2026;CHIUSA;95,00
+NC-2026-086;08/05/2026;interna;Manutenzione;Segnalazione Dal Maso: valvola iniezione azoto PKM-450 trafila, ricambio originale Pakmatic in arrivo 15/05, si decide di proseguire la produzione con monitoraggio;;alta;usura valvola oltre vita utile;ordine ricambio urgente F0077, controllo O2 residuo ogni ora fino a sostituzione;Dal Maso I.;;APERTA;1.100,00
+NC-2026-087;08/05/2026;interna;Linea 2;Turno domenicale 10/05 confermato per promo settimana 20 nonostante organico corto;;media;ordini straordinari Tosano settimane 19-21;v. NC-2026-076;Zanella D.;;APERTA;
+NC-2026-088;10/05/2026;interna;Linea 1;DEVIAZIONE CCP2: PT-104 sotto 72,0 gradi dalle 14:18 alle 14:47 (minimo 68,9) da datalogger, turno 2. Sul cartaceo MOD-QA-12 risulta "74,5 conforme": discrepanza carta/datalogger in accertamento;AF-SN-0450 L26130-L1-T2;critica;in accertamento: calo vapore PT-104 + registrazione cartacea non veritiera, seconda firma assente;lotto L26130-L1-T2 BLOCCATO, riesame datalogger, colloquio con operatore turno 2, v. NC-2026-092;Marchetti E.;;APERTA;N/D
+NC-2026-089;10/05/2026;interna;Linea 1;Rottura valvola azoto PKM-450 ore 15:05, fermo macchina 3 h 40 min. Riparazione d'emergenza con guarnizione non originale (azzurra) prelevata dal carrello ricambi a bordo linea. Su MOD-PR-04 annotato solo "sostituita guarnizione, ripartiti";AF-SN-0450 L26130-L1-T2;critica;mancata sostituzione preventiva valvola (v. NC-2026-086), ricambio non originale, carrello ricambi ancora in area produttiva nonostante chiusura NC audit;sostituzione con ricambio originale al 15/05, verifica integrita guarnizione provvisoria, richiamo procedura MOD-PR-04;Dal Maso I.;;APERTA;4.900,00
+NC-2026-090;11/05/2026;interna;Qualità;Verifica straordinaria lotto L26130: riprocesso non effettuato, prodotto gia confezionato e in parte spedito prima dell'analisi datalogger;AF-SN-0450 L26130-L1-T2;critica;lettura datalogger PT-104 solo a fine settimana, non a fine turno;lettura datalogger giornaliera obbligatoria, blocco spedizioni residuo lotto;Marchetti E.;;APERTA;
+NC-2026-091;12/05/2026;reclamo;Qualità;RECLAMO da form sito web: sig.ra M.G. (Bussolengo VR) segnala frammento di plastica dura azzurra in snack AF-SN-0450 lotto L26130 acquistato presso Tosano Bussolengo. Aperta gestione MOD-QA-31, richiesto campione e foto;AF-SN-0450 L26130-L1-T2;critica;presunta origine: guarnizione azzurra non originale PKM-450 (v. NC-2026-089), materiale non metallico non rilevabile da MD-3200;raccolta campione, blocco lotti L26130 e L26131, informativa a Tosano QA (Perbellini), valutazione ritiro cautelativo;Marchetti E.;;APERTA;N/D
+NC-2026-092;12/05/2026;interna;Qualità;Blocco cautelativo lotti L26130 e L26131 tutte le referenze Linea 1 coinvolte, circa 8.400 confezioni di cui 5.100 gia a scaffale;AF-SN-0450 L26130 / L26131;critica;v. NC-2026-088 NC-2026-089 NC-2026-091;segregazione magazzino, conteggio giacenze, procedura ritiro CRISI GDO in pre-allerta, stima costo ritiro 31.500;Fantin M.;;APERTA;31.500,00
+NC-2026-093;13/05/2026;interna;Magazzino;Segregazione L26130/L26131: 3 pallet gia in baia carico per Ali, richiamati prima della partenza;AF-SN-0450 L26130-L1-T2;alta;flusso blocco lotti non immediato su MOD-MAG-02;etichette BLOCCATO rosse su tutti i pallet, blocco anche a gestionale;Faggionato N.;13/05/2026;CHIUSA;280,00
+NC-2026-094;14/05/2026;reclamo;Qualità;Tosano QA (dott.ssa Perbellini) chiede relazione scritta entro 48 h su reclamo corpo estraneo lotto L26130, in valutazione ritiro cautelativo da punti vendita;AF-SN-0450 L26130;critica;v. NC-2026-091;relazione in preparazione (Marchetti/Fantin), riunione con Bertoldi G. 15/05 ore 8:00;Marchetti E.;;APERTA;
+NC-2026-095;14/05/2026;interna;Laboratorio;Analisi frammento reclamo: materiale plastico rigido azzurro ~9 mm, compatibile visivamente con guarnizione provvisoria PKM-450, inviato ad Analytica Veneta per conferma FTIR;AF-SN-0450 L26130;critica;v. NC-2026-089;esito FTIR atteso entro 20/05, conservazione controcampione;Pozzato S.;;APERTA;350,00
+NC-2026-096;14-mag-26;interna;Linea 1;Ricontrollo confezioni L26130 residue in magazzino: trovati altri 2 frammenti azzurri in 1.240 confezioni ispezionate;AF-SN-0450 L26130-L1-T2;critica;v. NC-2026-089;ispezione estesa al 100% del residuo, conteggio frammenti vs guarnizione ricostruita;Zanella D.;;APERTA;1.900,00
+NC-2026-097;15/05/2026;interna;Manutenzione;Sostituzione valvola azoto PKM-450 con ricambio originale Pakmatic, guarnizione provvisoria rimossa e ricostruita a banco: mancano circa 2 cm2 di materiale;;critica;v. NC-2026-089;fotografia e verbale ricostruzione, materiale mancante compatibile con frammenti trovati, relazione a QA;Dal Maso I.;15/05/2026;CHIUSA;760,00
+NC-2026-098;15/05/2026;interna;Direzione;Riunione di crisi: decisione su ritiro cautelativo L26130/L26131 rinviata in attesa esito FTIR e conteggio frammenti, posizione Tosano da gestire entro 48 h;;critica;v. NC-2026-092 NC-2026-094;bozza comunicazione a Tosano, pre-allerta procedura ritiro, valutazione assicurazione RC prodotto;Fantin M.;;APERTA;
+NC-2026-099;18/05/2026;interna;Qualità;Audit interno straordinario su gestione ricambi e doppia firma CCP: entrambe le NC audit CSQA risultano di fatto riaperte dagli eventi del 10/05;;alta;efficacia azioni correttive di febbraio non verificata sul campo;verifica efficacia con checklist settimanale per 8 settimane, riesame direzione straordinario proposto;Marchetti E.;;APERTA;
+NC-2026-100;19/05/2026;interna;Spedizioni;Camion reso lotti bloccati da CE.DI. Cerea: 2 pallet L26131 rientrati con cartoni bagnati, non riutilizzabili nemmeno per ispezione;AF-SN-0450 L26131;media;telo camion vettore danneggiato;conteggio a parte, addebito a vettore in valutazione;Faggionato N.;;APERTA;540,00
+NC-2026-101;19/05/2026;interna;Linea 2;Tampone proteina latte su sfogliatrice dopo cambio produzione bio: esito positivo al primo test, rilavaggio e ritest negativo;AF-CR-0220 L26139-L2-T1;alta;lavaggio intermedio abbreviato per recupero tempi promo;ribadita sequenza allergeni da matrice, ritest obbligatorio prima di avvio bio;Ben Salah A.;22/05/2026;CHIUSA;310,00
+NC-2026-102;20/05/2026;interna;Laboratorio;Esito FTIR Analytica Veneta: frammento compatibile con elastomero guarnizione non originale, incompatibile con film MAP e con MOCA di linea;AF-SN-0450 L26130;critica;conferma origine interna (v. NC-2026-089);trasmissione esito a Tosano QA, aggiornamento relazione, decisione ritiro attesa da direzione;Marchetti E.;;APERTA;
+NC-2026-103;21/05/2026;interna;HR;Sessione recupero formazione HACCP erogata, 2 assenti su 9 per turni;;bassa;v. NC-2026-081;sessione integrativa 04/06;Sartori F.;;IN CORSO;
+NC-2026-104;22/05/2026;interna;Magazzino;Conteggio finale giacenze bloccate: 3.290 confezioni in stabilimento, 5.100 stimate a scaffale, riconciliazione con venduto Tosano in corso;AF-SN-0450 L26130 / L26131;alta;v. NC-2026-092;riconciliazione con dati sell-in Tosano, report a direzione;Faggionato N.;;APERTA;
+NC-2026-105;25/05/2026;fornitore;Qualità;Contestazione a Pakmatic: ricambio originale ordinato 08/05 consegnato 15/05 oltre termine urgenza concordato;F0077;media;disponibilita ricambio a magazzino fornitore;richiesta scorta ricambi critici in conto deposito;Dal Maso I.;;APERTA;
+NC-2026-106;26/05/2026;interna;Linea 1;Verifica efficacia doppia firma: su 21 registrazioni MOD-QA-12 settimana 21, 19 con seconda firma, 2 senza;L26146-L1-T1;media;assimilazione prassi ancora parziale;prosegue monitoraggio 8 settimane, richiamo individuale;Marchetti E.;;IN CORSO;
+NC-2026-107;27/05/2026;interna;Direzione;Preavviso ispezione ATS/ULSS 9 del 09/06 su requisiti strutturali Reg. CE 852/2004 All. II: sopralluogo interno evidenzia 4 punti critici (pavimento zona forni, zanzariere, spogliatoio L3, intonaco cella CF-01);;alta;manutenzione strutturale rinviata per priorita di cassa;piano interventi urgenti pre-ispezione, preventivi entro 30/05;Fantin M.;;APERTA;8.500,00
+NC-2026-108;28/05/2026;interna;Amministrazione;Costo evento L26130: prima stima complessiva (blocco+ispezioni+FTIR+eventuale ritiro) oltre 40.000, riserva a bilancio da definire;;alta;v. NC-2026-092;quantificazione con Trentin, informativa a Bellotto per trattamento contabile;Trentin L.;;APERTA;40.000,00
+NC-2026-109;28/05/2026;interna;Linea 3;TS-01 fermo 2 h per allarme compressore, produzione dirottata su cella con monitoraggio manuale CCP4;AF-CR-0215 L26148-L2-T2;alta;obsolescenza impianto, v. NC-2026-067;pressing su cronoprogramma installazione Criotech;Guerra R.;;APERTA;1.750,00
+NC-2026-109;28/05/2026;interna;Linea 3;TS-01 fermo 2 h per allarme compressore, produzione dirottata su cella con monitoraggio manuale CCP4;AF-CR-0215 L26148-L2-T2;alta;obsolescenza impianto, v. NC-2026-067;pressing su cronoprogramma installazione Criotech;Guerra R.;;APERTA;1.750,00
+NC-2026-110;29/05/2026;interna;Qualità;Riesame straordinario SGQ post-evento L26130 convocato per il 05/06, odg: efficacia azioni audit, gestione crisi, risorse manutenzione;;alta;v. NC-2026-099;convocazione inviata da RSGQ a direzione e capiturno;Marchetti E.;;APERTA;
+NC-2026-111;29/05/2026;interna;Spedizioni;Slot Cerea del 29/05 ore 7:30: arrivo 7:26, scarico regolare ma bolle pallet EPAL non firmate dal ricevimento;;bassa;fretta in banchina lato CE.DI.;v. contenzioso pedane con Vantini, buoni pallet da regolarizzare;Faggionato N.;;APERTA;
+NC-2026-112;29/5/26;interna;Linea 2;Ordine promo settimana 22 ridotto da Tosano a 48 h dal carico, 1.800 cartoni gia prodotti in eccesso;AF-CR-0215 L26146-L2-T1;media;variazione ordini promo senza preavviso contrattuale;ricollocazione su altri clienti, segnalazione a commerciale (Bertoldi S.);Zanella D.;;APERTA;2.150,00
+NC-2026-113;29/05/2026;interna;CIP;Registrazione IO-05 lavaggio linea 1 post-blocco lotti: fase sanificazione PAA registrata senza concentrazione misurata;;media;kit titolazione esaurito;riordino kit da Chemifood, lavaggio ripetuto con misura;Pozzato S.;;IN CORSO;140,00
+NC-2026-114,30/05/2026,interna,Magazzino,Cella CF-02 porta rimasta socchiusa 35 min durante inventario lotti bloccati, T salita a -15,2, prodotto ok da datalogger,,media,fermo porta difettoso,riparazione fermo porta, allarme porta aperta ridotto a 5 min,Faggionato N.,,APERTA,320,00
+NC-2026-115;30/05/2026;reclamo;Qualità;Richiesta sig.ra Grigolon di riscontro scritto: sollecito, seconda mail senza risposta da 10 gg;AF-SN-0450 L26130;alta;gestione reclamo assorbita dal fronte Tosano;lettera di riscontro predisposta, invio previsto 03/06 con esito FTIR;Marchetti E.;;APERTA;
+NC-2026-116;;interna;Linea 1;Prova tenuta MAP post-sostituzione valvola: O2 residuo medio 1,6%, conforme su 60 confezioni;AF-SN-0450 L26149-L1-T1;bassa;;esito registrato, chiusura monitoraggio orario;Zanella D.;30/05/2026;CHIUSA;0
+NC-2026-117;31/05/2026;interna;Direzione;Mancato aggiornamento analisi rischi food defense dopo evento corpo estraneo;;media;priorita assorbite dalla gestione crisi;aggiornamento pianificato con consulente Vicentini entro giugno;Marchetti E.;;APERTA;
+NC-2026-118;31/05/2026;interna;Amministrazione;Registrazione costi NC maggio incompleta: 6 NC senza costo stimato, riepilogo mensile non quadrato;;bassa;celle vuote nel registro, v. righe precedenti;richiamo a responsabili per stima costi entro 5 gg dalla chiusura;Trentin L.;;APERTA;N/D
+
+
+
+--- politica_qualita_e_sicurezza_alimentare_2026.docx ---
+AURORA FOOD GROUP S.r.l.
+
+POLITICA PER LA QUALITÀ E LA SICUREZZA ALIMENTARE — ANNO 2026
+
+Documento DOC-QA-01 rev. 8 — emissione 12/01/2026 — distribuzione: bacheche di reparto, sala riunioni, intranet, copia ai nuovi assunti con il pacchetto di ingresso
+
+[Marchetti E. - rev.8: aggiornati gli obiettivi numerici 2026 e rafforzato il paragrafo sulla cultura della sicurezza alimentare (richiesta esplicita BRCGS Issue 9, cl. 1.1.2). Da far firmare al titolare PRIMA della riunione di riesame di gennaio, non dopo come l'anno scorso.]
+
+La Direzione di Aurora Food Group S.r.l. considera la sicurezza alimentare e la qualità dei propri prodotti la condizione prima della propria presenza sul mercato. Produciamo prodotti da forno farciti e snack salati in atmosfera protettiva e croissanteria surgelata, anche a marchio dei nostri clienti: ogni confezione che esce dallo stabilimento di Cologna Veneta porta con sé la nostra reputazione e quella di chi si fida di noi.
+
+I NOSTRI IMPEGNI
+
+La Direzione si impegna a:
+
+1. immettere sul mercato esclusivamente prodotti sicuri, legali, autentici e conformi alle specifiche concordate con i clienti;
+2. mantenere e migliorare un sistema di gestione conforme agli standard BRCGS Food Safety (attuale grade AA) e IFS Food (attuale Higher Level), certificato da ente terzo accreditato;
+3. rispettare la legislazione alimentare applicabile, con particolare riferimento ai Reg. (CE) 178/2002 e 852/2004 e alla normativa in materia di etichettatura e allergeni;
+4. assicurare le risorse — umane, tecniche ed economiche — necessarie al funzionamento e al miglioramento del sistema, come dimostrato dal piano investimenti 2026 che destina alla Linea 3 il rinnovo completo del processo di surgelazione;
+5. gestire i rischi per la sicurezza alimentare secondo la metodologia HACCP, presidiando i punti critici di controllo identificati e i programmi di prerequisito, inclusa la gestione degli allergeni;
+6. ascoltare i clienti e i consumatori, trattando ogni reclamo come un'occasione di miglioramento secondo la procedura PRO-QA-08;
+7. selezionare e monitorare i fornitori di materie prime, imballi e servizi secondo criteri documentati di sicurezza e affidabilità;
+8. promuovere a tutti i livelli una cultura positiva della sicurezza alimentare.
+
+9. perseguire la crescita del fatturato quale obiettivo primario dell'organizzazione.
+
+[Vicentini C. - punto 9 da togliere: in una politica per la qualità l'obiettivo primario dichiarato non può essere il fatturato, in audit è un rilievo servito su un piatto. La crescita sta nel budget, non qui.]
+
+LA CULTURA DELLA SICUREZZA ALIMENTARE
+
+Crediamo che la sicurezza alimentare non sia responsabilità del solo ufficio Qualità, ma il risultato dei gesti quotidiani di ognuna delle 50 persone che lavorano in Aurora. Per questo la Direzione si impegna a:
+
+garantire che ogni persona, a ogni livello, possa segnalare un problema, un dubbio o un errore — proprio o altrui — senza timore di conseguenze: preferiamo un lotto fermato per eccesso di prudenza a una firma messa per abitudine;
+misurare annualmente la cultura della sicurezza alimentare attraverso il questionario anonimo al personale e discuterne gli esiti nel riesame di direzione, con un piano di azioni dedicato;
+assicurare che la formazione non sia un adempimento ma un momento di comprensione: le sessioni si tengono in linguaggio semplice e con esempi del nostro stabilimento, e la loro efficacia viene verificata;
+dare l'esempio: la Direzione partecipa ai sopralluoghi igienici programmati e rispetta per prima le regole di accesso ai reparti.
+
+[Marchetti E. - la frase sulla firma "messa per abitudine" l'ho voluta io, dopo febbraio. Se qualcuno in produzione la legge e si riconosce, meglio: è scritta apposta.]
+
+FOOD DEFENSE E FOOD FRAUD
+
+L'azienda mantiene attivi un piano di food defense, per prevenire atti intenzionali di contaminazione o sabotaggio (valutazione delle aree sensibili, controllo degli accessi, gestione dei visitatori e degli appaltatori), e un piano di valutazione della vulnerabilità alle frodi alimentari sulle materie prime, con particolare attenzione alle categorie a maggior rischio per il nostro processo (farine, burro, olio di girasole alto oleico, prodotti biologici). Entrambi i piani sono riesaminati almeno annualmente dal team dedicato e aggiornati al variare delle condizioni di fornitura.
+
+GLI OBIETTIVI MISURABILI PER IL 2026
+
+
+[Pozzato S. - il 78% delle azioni correttive chiuse in scadenza è il dato vero del registro 2025, l'ho ricontrollato. Fa impressione scritto qui, ma almeno il target 95% ha un senso.]
+
+COMUNICAZIONE
+
+La presente Politica è affissa nelle bacheche di reparto, illustrata a ogni nuovo assunto nel percorso di inserimento, richiamata nelle sessioni di formazione annuali e resa disponibile alle parti interessate esterne che ne facciano richiesta. Gli obiettivi e il loro andamento sono comunicati al personale con incontri di reparto almeno semestrali.
+
+RIESAME
+
+La Politica e gli obiettivi sono riesaminati almeno una volta l'anno nel riesame di direzione, e comunque al verificarsi di cambiamenti significativi di processo, prodotto, mercato o normativa. Il riesame verifica l'adeguatezza della Politica, il grado di raggiungimento degli obiettivi e la disponibilità delle risorse.
+
+La Direzione chiede a ogni collaboratore di fare propria questa Politica: nessun obiettivo di produzione, di costo o di consegna giustifica una deroga alla sicurezza degli alimenti.
+
+Cologna Veneta, 12 gennaio 2026
+
+
+[Sartori F. - firmata dal titolare il 15/01, l'originale è nel raccoglitore DOC-QA in qualità. Ho appeso le copie nelle bacheche il 16/01. Quella della Linea 3 qualcuno l'ha staccata per appenderci i turni: riappesa il 20/01, tenere d'occhio.]
+
+Obiettivo
+Indicatore
+Valore 2025
+Target 2026
+Responsabile
+Mantenimento certificazioni
+esito audit BRCGS e IFS
+AA / Higher Level 97,32%
+conferma grade e livello
+RSGQ
+Reclami cliente e consumatore
+reclami per milione di confezioni
+9,4
+< 8,0
+RSGQ
+Reclami critici (classe 1)
+numero assoluto
+1
+0
+RSGQ
+Non conformità audit interni
+NC maggiori
+2
+0
+RSGQ
+Chiusura azioni correttive
+% chiuse entro scadenza
+78%
+≥ 95%
+tutte le funzioni
+Registrazioni CCP verificate in seconda firma
+% conformità a campione
+non misurato
+100%
+Resp. Produzione
+Formazione sicurezza alimentare
+ore/addetto/anno
+4,2
+≥ 6
+HR + RSGQ
+Cultura sicurezza alimentare
+partecipazione questionario anonimo
+61%
+≥ 80%
+Direzione
+Efficienza risorsa idrica CIP
+m3 acqua/ton prodotto
+3,9
+≤ 3,6
+Manutenzione
+Ruolo
+Nome
+Firma
+Il Legale Rappresentante — Amministratore Delegato
+Giancarlo Bertoldi
+_______________________
+[BARRATO: 9. perseguire la crescita del fatturato quale obiettivo primario dell'organizzazione.]
+
+
+--- registro_presenze_corsi_HACCP_scaduti.csv ---
+SCADENZARIO FORMAZIONE OBBLIGATORIA - AURORA FOOD GROUP SRL;;;;;;;
+estrazione del 18/05/2026 da file formazione_master.xlsx foglio 2 - f.sartori;;;;;;;
+ATTENZIONE: le scadenze HACCP seguono la procedura interna (3 anni) non un obbligo di legge regionale - v. nota Vicentini 2024;;;;;;;
+Dipendente;Mansione;Corso;Data corso;Scadenza;Stato;Ente formatore;Note
+Popescu Ionut;Capoturno Linea 1;HACCP avanzato;12/06/2024;12/06/2027;VALIDO;Studio Alimentaria (Vicentini);
+Popescu Ionut;Capoturno Linea 1;Sicurezza specifica rischio alto 12h;03/02/2022;03/02/2027;VALIDO;Bonato & Partners;agg. 6h da fare entro scad.
+Popescu Ionut;Capoturno Linea 1;Preposto 8h;15/09/2023;15/09/2025;SCADUTO;Bonato & Partners;AGG. BIENNALE NON FATTO - urgente
+Rossin Davide;Operaio Linea 1;HACCP base;20/04/2023;20/04/2026;SCADUTO;Studio Alimentaria (Vicentini);inserire nella sessione di giugno
+Rossin Davide;Operaio Linea 1;Sicurezza specifica rischio alto 12h;10/05/2023;10/05/2028;VALIDO;Bonato & Partners;
+Perin Luca;Operaio Linea 1;HACCP base;20/04/2023;20/04/2026;SCADUTO;Studio Alimentaria (Vicentini);sessione giugno
+Perin Luca;Operaio Linea 1;Sicurezza specifica rischio alto 12h;10/05/2023;10/05/2028;VALIDO;Bonato & Partners;
+Osei Samuel;Operaio Linea 1;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);
+Osei Samuel;Operaio Linea 1;Sicurezza specifica rischio alto 12h;11/01/2024;11/01/2029;VALIDO;Bonato & Partners;
+Vasilescu Andrei;Operaio Linea 1;HACCP base;2023-04-20;2026-04-20;SCADUTO;Studio Alimentaria (Vicentini);
+Vasilescu Andrei;Operaio Linea 1;Allergeni (PRPo1);09/10/2025;09/10/2027;VALIDO;interno (Marchetti);
+Bogoni Marta;Operaia Linea 1;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);
+Bogoni Marta;Operaia Linea 1;Sicurezza specifica rischio alto 12h;11/01/2024;11/01/2029;VALIDO;Bonato & Partners;
+Furlan Alessandro;Operaio Linea 1;HACCP base;20/04/2023;20/04/2026;SCADUTO;Studio Alimentaria (Vicentini);
+El Amrani Hassan;Operaio Linea 1;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);
+El Amrani Hassan;Operaio Linea 1;Allergeni (PRPo1);09/10/2025;09/10/2027;VALIDO;interno (Marchetti);
+Peloso Giorgio;Operaio Linea 1 notte;HACCP base;20/04/2023;20/04/2026;SCADUTO;Studio Alimentaria (Vicentini);assente sessione gen - RECUPERO
+Peloso Giorgio;Operaio Linea 1 notte;Sicurezza specifica rischio alto 12h;10/05/2023;10/05/2028;VALIDO;Bonato & Partners;
+Munteanu Cristian;Operaio Linea 1 notte;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);
+Ben Salah Adel;Capoturno Linea 2;HACCP avanzato;12/06/2024;12/06/2027;VALIDO;Studio Alimentaria (Vicentini);
+Ben Salah Adel;Capoturno Linea 2;Preposto 8h;22/03/2024;22/03/2026;SCADUTO;Bonato & Partners;agg. biennale - prenotato 09/06?
+Ben Salah Adel;Capoturno Linea 2;Allergeni (PRPo1);09/10/2025;09/10/2027;VALIDO;interno (Marchetti);
+Hoxha Fatjon;Operaio Linea 2;HACCP base;05/05/2024;05/05/2027;VALIDO;Studio Alimentaria (Vicentini);DIMISSIONARIO 31/05 - non pianificare
+Mansouri Youssef;Operaio Linea 2;HACCP base;05/05/2024;05/05/2027;VALIDO;Studio Alimentaria (Vicentini);
+Mansouri Youssef;Operaio Linea 2;Sicurezza specifica rischio alto 12h;07/07/2021;07/07/2026;IN SCADENZA;Bonato & Partners;agg. entro luglio!
+Dal Ben Elisa;Operaia Linea 2;HACCP base;05/05/2024;05/05/2027;VALIDO;Studio Alimentaria (Vicentini);
+Dal Ben Elisa;Operaia Linea 2;Allergeni (PRPo1);09/10/2025;09/10/2027;VALIDO;interno (Marchetti);
+Ciobanu Marius;Operaio Linea 2;HACCP base;20/04/2023;20/04/2026;SCADUTO;Studio Alimentaria (Vicentini);2 assenze ai recuperi - segnalato a Zanella
+Ciobanu Marius;Operaio Linea 2;Sicurezza specifica rischio alto 12h;10/05/2023;10/05/2028;VALIDO;Bonato & Partners;
+Bertacco Paolo;Operaio Linea 2 / RLS;HACCP base;05/05/2024;05/05/2027;VALIDO;Studio Alimentaria (Vicentini);
+Bertacco Paolo;Operaio Linea 2 / RLS;Corso RLS 32h;10/12/2024;agg. annuale;VALIDO;FLAI/ente paritetico;agg. 4h fatto 03/2026
+Refosco Sonia;Operaia Linea 2;HACCP base;05/05/2024;05/05/2027;VALIDO;Studio Alimentaria (Vicentini);
+Refosco Sonia;Operaia Linea 2;Primo soccorso gruppo B 12h;14/03/2024;14/03/2027;VALIDO;Croce Verde Verona;addetta squadra emergenza
+Sow Ibrahim;Operaio Linea 2;HACCP base;05-mag-24;05-mag-27;VALIDO;Studio Alimentaria (Vicentini);
+Sow Ibrahim;Operaio Linea 2;Sicurezza specifica rischio alto 12h;07/07/2021;07/07/2026;IN SCADENZA;Bonato & Partners;
+Gecchele Nicolo';Operaio Linea 2;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);
+Lupu Vasile;Operaio Linea 2;HACCP base;05/05/2024;05/05/2027;VALIDO;Studio Alimentaria (Vicentini);
+Lupu Vasile;Operaio Linea 2;Allergeni (PRPo1);09/10/2025;09/10/2027;VALIDO;interno (Marchetti);
+Guerra Roberto;Capoturno Linea 3;HACCP avanzato;12/06/2024;12/06/2027;VALIDO;Studio Alimentaria (Vicentini);
+Guerra Roberto;Capoturno Linea 3;Primo soccorso gruppo B 12h;14/03/2024;14/03/2027;VALIDO;Croce Verde Verona;
+Guerra Roberto;Capoturno Linea 3;Preposto 8h;22/03/2024;22/03/2026;SCADUTO;Bonato & Partners;stessa sessione di Ben Salah
+Corradin Emanuele;Operaio Linea 3;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);
+Corradin Emanuele;Operaio Linea 3;Sicurezza specifica rischio alto 12h;11/01/2024;11/01/2029;VALIDO;Bonato & Partners;addestramento carrelli cella DA REGISTRARE (nota RSPP 05/05)
+Ilie Petru;Operaio Linea 3;HACCP base;20/04/2023;20/04/2026;SCADUTO;Studio Alimentaria (Vicentini);
+Miotto Sara;Operaia Linea 3;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);
+Miotto Sara;Operaia Linea 3;Sicurezza specifica rischio alto 12h;11/01/2024;11/01/2029;VALIDO;Bonato & Partners;
+Bouzid Karim;Operaio Linea 3;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);
+Tadiello Federico;Operaio Linea 3;HACCP base;20/04/2023;20/04/2026;SCADUTO;Studio Alimentaria (Vicentini);
+Melnyk Oleg;Operaio Linea 3;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);
+Melnyk Oleg;Operaio Linea 3;Carrello elevatore 12h;18/11/2021;18/11/2026;IN SCADENZA;CFP Veneto Sicuro;
+Sbalchiero Damiano;Operaio Linea 3 notte;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);
+Sbalchiero Damiano;Operaio Linea 3 notte;Antincendio livello 2 (rischio medio) 8h;30/06/2021;30/06/2026;IN SCADENZA;Bonato & Partners;squadra emergenza - PRIORITA'
+Marobin Anna;Operaia confezionamento;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);
+Marobin Anna;Operaia confezionamento;Primo soccorso gruppo B 12h;14/03/2024;14/03/2027;VALIDO;Croce Verde Verona;
+Peretto Chiara;Operaia confezionamento;HACCP base;20/04/2023;20/04/2026;SCADUTO;Studio Alimentaria (Vicentini);
+Ba Mamadou;Operaio confezionamento;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);
+Frigo Lucia;Operaia confezionamento;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);
+Visentin Stefano;Operaio confezionamento;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);
+Visentin Stefano;Operaio confezionamento;Sicurezza specifica rischio alto 12h;11/01/2024;11/01/2029;VALIDO;Bonato & Partners;
+Faggionato Nicola;Resp. magazzino e spedizioni;HACCP base;12/06/2024;12/06/2027;VALIDO;Studio Alimentaria (Vicentini);
+Faggionato Nicola;Resp. magazzino e spedizioni;Carrello elevatore 12h;03/03/2023;03/03/2028;VALIDO;CFP Veneto Sicuro;
+Faggionato Nicola;Resp. magazzino e spedizioni;Antincendio livello 2 8h;30/06/2021;30/06/2026;IN SCADENZA;Bonato & Partners;
+Faggionato Nicola;Resp. magazzino e spedizioni;Preposto 8h;22/03/2024;22/03/2026;SCADUTO;Bonato & Partners;
+Segato Alberto;Magazziniere;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);
+Segato Alberto;Magazziniere;Carrello elevatore 12h;03/03/2023;03/03/2028;VALIDO;CFP Veneto Sicuro;
+Preda Radu;Magazziniere;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);
+Preda Radu;Magazziniere;Carrello elevatore 12h;10/04/2021;10/04/2026;SCADUTO;CFP Veneto Sicuro;NON ABILITATO ALLA GUIDA fino a rinnovo - avvisato Faggionato 05/05
+Mattiello Gianluca;Magazziniere;HACCP base;11/01/2024;11/01/2027;VALIDO;Studio Alimentaria (Vicentini);
+Mattiello Gianluca;Magazziniere;Carrello elevatore 12h;03/03/2023;03/03/2028;VALIDO;CFP Veneto Sicuro;
+Dal Maso Ivano;Capo officina;Sicurezza specifica rischio alto 12h;03/02/2022;03/02/2027;VALIDO;Bonato & Partners;
+Dal Maso Ivano;Capo officina;Antincendio livello 2 8h;30/06/2021;30/06/2026;IN SCADENZA;Bonato & Partners;
+Dal Maso Ivano;Capo officina;HACCP base;12/06/2024;12/06/2027;VALIDO;Studio Alimentaria (Vicentini);manutenzione = igiene, insistere che partecipi agli agg.
+Bissoli Mirco;Manutentore notte;HACCP base;20/04/2023;20/04/2026;SCADUTO;Studio Alimentaria (Vicentini);turno notte - organizzare recupero diurno pagato
+Bissoli Mirco;Manutentore notte;Antincendio livello 2 8h;15/02/2024;15/02/2029;VALIDO;Bonato & Partners;
+Dipendente;Mansione;Corso;Data corso;Scadenza;Stato;Ente formatore;Note
+Bertoldi Giancarlo;Amministratore Delegato;Sicurezza generale 4h;18/01/2021;N/D;N/D;Bonato & Partners;datore di lavoro - verificare obbligo formativo specifico con Bonato
+Bertoldi Silvia;Direzione Commerciale;HACCP base;12/06/2024;12/06/2027;VALIDO;Studio Alimentaria (Vicentini);
+Bertoldi Silvia;Direzione Commerciale;Sicurezza generale + specifica basso 8h;12/09/2023;12/09/2028;VALIDO;Bonato & Partners;
+Fantin Marco;Direttore di Stabilimento;HACCP avanzato;12/06/2024;12/06/2027;VALIDO;Studio Alimentaria (Vicentini);
+Fantin Marco;Direttore di Stabilimento;Dirigente sicurezza 16h;20/02/2023;20/02/2028;VALIDO;Bonato & Partners;
+Marchetti Elena;Resp. Qualita' / TL HACCP;HACCP avanzato + agg. normativo;03/10/2025;03/10/2028;VALIDO;Studio Alimentaria (Vicentini);docente interna per allergeni
+Marchetti Elena;Resp. Qualita' / TL HACCP;Sicurezza specifica rischio alto 12h;05/03/2024;05/03/2029;VALIDO;Bonato & Partners;
+Pozzato Sara;Assistente Qualita' QC;HACCP avanzato;12/06/2024;12/06/2027;VALIDO;Studio Alimentaria (Vicentini);
+Pozzato Sara;Assistente Qualita' QC;Primo soccorso gruppo B 12h;14/03/2024;14/03/2027;VALIDO;Croce Verde Verona;
+Zanella Denis;Resp. Produzione;HACCP avanzato;12/06/2024;12/06/2027;VALIDO;Studio Alimentaria (Vicentini);
+Zanella Denis;Resp. Produzione;Preposto 8h;22/03/2024;22/03/2026;SCADUTO;Bonato & Partners;COME GLI ALTRI PREPOSTI - sessione unica 09/06 da confermare
+Trentin Luisa;Amministrazione;Sicurezza generale + specifica basso 8h;12/09/2023;12/09/2028;VALIDO;Bonato & Partners;
+Trentin Luisa;Amministrazione;Primo soccorso gruppo B 12h;08/02/2023;08/02/2026;SCADUTO;Croce Verde Verona;addetta squadra! sostituire o rinnovare SUBITO
+Sartori Federica;HR e segreteria;Sicurezza generale + specifica basso 8h;12/09/2023;12/09/2028;VALIDO;Bonato & Partners;
+Sartori Federica;HR e segreteria;HACCP base;12/06/2024;12/06/2027;VALIDO;Studio Alimentaria (Vicentini);
+Zanchetta Alberto;R&D tecnologo;HACCP avanzato;12/06/2024;12/06/2027;VALIDO;Studio Alimentaria (Vicentini);
+Zanchetta Alberto;R&D tecnologo;Sicurezza specifica rischio alto 12h;05/03/2024;05/03/2029;VALIDO;Bonato & Partners;
+Zampieri Paolo;Agente vendita GDO;Sicurezza generale 4h;N/D;N/D;N/D;;agente - verificare se in perimetro formazione aziendale (Bellotto dice no)
+Bonomo Elisa;Customer service;Sicurezza generale + specifica basso 8h;12/09/2023;12/09/2028;VALIDO;Bonato & Partners;
+Bonomo Elisa;Customer service;HACCP base;12/06/2024;12/06/2027;VALIDO;Studio Alimentaria (Vicentini);
+Meneghello Giulia;Tirocinante R&D;HACCP base;;;N/D;Studio Alimentaria (Vicentini);DA FARE prima ingresso 15/06 - sessione giugno
+Peruzzi Erika;Operaia Linea 2;HACCP base;05/05/2024;05/05/2027;VALIDO;Studio Alimentaria (Vicentini);CESSATA 19/04 - riga da eliminare
+TOTALE SCADUTI: 17;;;;;;;conteggio a mano, verificare
+TOTALE IN SCADENZA (entro 90 gg): 5;;;;;;;
+sessione recupero HACCP prenotata: 09/06/2026 mattina, aula mensa, docente Vicentini - max 20 posti;;;;;;;
+sessione preposti + agg.: da confermare con Bonato, proposta 09/06 pomeriggio;;;;;;;
+
+
+
+--- scheda_allergeni_matrice_cross_contamination.docx ---
+AURORA FOOD GROUP S.R.L. - GESTIONE ALLERGENI (PRPo1)
+SCHEDA ALLERGENI E MATRICE DI CROSS CONTAMINATION PER REFERENZA
+Documento SGQ - collegato a: Manuale HACCP Aurora v4, IO-05 (CIP), MOD-QA-19 (tamponi)
+Rev. 6 del 21/04/2026 - redatto: dott.ssa E. Marchetti (RSGQ) - verificato: dott.ssa C. Vicentini (Studio Alimentaria) - approvato: ing. M. Fantin
+Rev. precedente: rev. 5 del 09/09/2025 rev. 4 del 12/02/2024
+
+[Marchetti E. - questa revisione recepisce la NC-2026-055 (sesamo in saletta R&D) e l'azione A11 del riesame di direzione del 12/03/2026]
+
+1. SCOPO E CAMPO DI APPLICAZIONE
+
+Definire, per ciascuna referenza a listino e per i prototipi R&D, la presenza degli
+allergeni di cui all'Allegato II del Reg. (UE) n. 1169/2011 e le regole operative di
+prevenzione della contaminazione crociata su Linea 1 (snack/focacce ATM), Linea 2
+(croissanteria) e Linea 3 (surgelazione), inclusa la saletta pilota R&D.
+
+1. LEGENDA
+
+   C   = CONTIENE (allergene presente in ricetta, dichiarato in etichetta nell'elenco ingredienti)
+   PC  = PUO' CONTENERE (cross contamination non eliminabile: etichettatura precauzionale, v. par. 8)
+   A   = ASSENTE (non in ricetta e non presente nel flusso della linea, nessuna dicitura)
+
+I 14 allergeni All. II Reg. (UE) 1169/2011 sono numerati come segue:
+ 1 Cereali contenenti glutine        8 Frutta a guscio
+ 2 Crostacei                         9 Sedano
+ 3 Uova                             10 Senape
+ 4 Pesce                            11 Semi di sesamo
+ 5 Arachidi                         12 Anidride solforosa e solfiti (>10 mg/kg)
+ 6 Soia                             13 Lupini
+ 7 Latte                            14 Molluschi
+
+1. MATRICE ALLERGENI PER REFERENZA
+
+[Pozzato S. - la tabella si e' rovinata con l'ultimo salvataggio, i valori sono giusti ma le colonne non sono piu' allineate]
+
+Codice; Descrizione; 1 glutine; 2 crostacei; 3 uova; 4 pesce; 5 arachidi; 6 soia; 7 latte; 8 frutta guscio; 9 sedano; 10 senape; 11 sesamo; 12 solfiti; 13 lupini; 14 molluschi
+AF-SN-0450; Snack salato rustico multicereali 100 g ATM; C; A; A; A; A; PC; PC; A; A; A; PC; A; A; A
+AF-SN-0455; Snack salato rustico 100 g promo 3+1; C; A; A; A; A; PC; PC; A; A; A; PC; A; A; A
+AF-SN-0470; Snack paprika e semi (prototipo v12, saletta R&D); C; A; A; A; A; PC; PC; A; A; A; C; A; A; A
+AF-CR-0212; Cornetto Premium burro 6x50 g surgelato; C; A; C; A; A; C; C; PC; A; A; A; A; A; A
+AF-CR-0215; Cornetto Premium PL Tosano 8x45 g surgelato; C; A; C; A; A; C; C; PC; A; A; A; A; A; A
+AF-FC-0330; Focaccina olio EVO 2x90 g ATM; C; A; A; A; A; PC; PC; A; A; A; PC; A; A; A
+AF-CR-0220; Sfogliatina bio ai cereali (linea bio); C; A; A; A; A; A; C; PC; A; A; A; A; A; A
+
+Note alla matrice:
+"PC soia" su Linea 1 e Linea 2 deriva dalla lecitina di soia presente in alcuni
+  semilavorati e dal flusso promiscuo di linea; confermato dopo valutazione del rischio
+  del 21/04/2026 con la dott.ssa Vicentini.
+"PC latte" su AF-SN-0450/0455 e AF-FC-0330 deriva dalla condivisione del forno FT-01
+  e del pastorizzatore PT-104 con produzioni contenenti burro in spennellatura.
+  Il latte su AF-SN-0450 era classificato A nella rev. 5: riclassificato PC
+"PC sesamo" su Linea 1: introdotto in rev. 6 a seguito dell'avvio delle prove del
+  prototipo AF-SN-0470 v12 (sesamo in ricetta). Vale finche' il prototipo resta in
+  sviluppo nel sito (v. NC-2026-055). Se AF-SN-0470 andra' in produzione su Linea 1,
+  la matrice sara' interamente rivalutata.
+"PC frutta a guscio" su croissanteria e sfogliatina: deriva dal semilavorato crema
+  nocciola usato su referenze fuori scheda (mercato Ho.Re.Ca.) lavorate su Linea 2.
+Referenze crostacei, pesce, sedano, senape, lupini, molluschi: NON presenti nel sito.
+  Non ammessi in ricettazione R&D senza riesame preventivo del presente documento.
+
+1. REGOLE DI SEQUENZA DI PRODUZIONE
+
+4.1 Principio generale: si produce sempre DAL PRODOTTO A MINOR CARICO ALLERGENICO
+    VERSO QUELLO A MAGGIOR CARICO. Il rientro alla condizione "pulita" richiede
+    lavaggio validato (par. 5) e ritest (par. 6).
+
+4.2 Linea 1 (impasto - FT-01 - PT-104 - MD-3200 - PKM-450):
+    sequenza tipo giornaliera:
+1. AF-FC-0330 focaccina (no uovo, no sesamo)
+2. AF-SN-0450 / AF-SN-0455 multicereali
+3. [solo su pianificazione dedicata] prove AF-SN-0470 con sesamo
+    Dopo qualsiasi lavorazione con sesamo: lavaggio completo di fine produzione
+    secondo IO-05 + ispezione visiva + tampone proteina specifica prima di
+    qualunque nuova partenza. VIETATO programmare sesamo a inizio giornata.
+
+4.3 Linea 2 (IMP-300 - sfogliatrice - cella lievitazione - FT-02):
+    sequenza tipo:
+1. AF-CR-0220 sfogliatina BIO (anche per vincolo ICEA: il bio parte sempre
+         a linea pulita, mai dopo convenzionale senza lavaggio validato)
+1. AF-CR-0212 / AF-CR-0215 croissant burro
+2. referenze con crema nocciola (fuori scheda)
+    In caso di urgenza ordini Tosano e' ammesso invertire 1 e 2 con doppio
+    risciacquo rapido.
+    [Commento: Vicentini C. - la deroga cancellata sopra NON e' mai stata validata,
+    l'ho tolta io: v. anche NC-2026-101 del 19/05, tampone latte positivo proprio
+    dopo un cambio abbreviato. Non deve rientrare nelle prossime revisioni.]
+
+4.4 Linea 3 (TS-01/CR-SP180 - CF-02): il tunnel non introduce allergeni; il rischio
+    e' il trascinamento da vassoi e nastri. Vassoi dedicati per la linea bio,
+    identificati con bordo verde.
+
+4.5 Saletta pilota R&D: dalla rev. 6 il sesamo si lavora SOLO con utensili dedicati
+    (contenitore rosso "SESAMO R&D"), su banco dedicato, con smaltimento sfridi in
+    sacco chiuso. Divieto di transito degli utensili R&D verso le linee.
+
+1. LAVAGGI INTERMEDI E DI FINE PRODUZIONE
+
+5.1 Lavaggio di tipo L1 (a secco): aspirazione e spazzolatura, ammesso solo tra
+    referenze con identico profilo allergenico (es. AF-SN-0450 -> AF-SN-0455).
+5.2 Lavaggio di tipo L2 (umido intermedio): risciacquo, detersione manuale zone di
+    contatto, risciacquo finale. Obbligatorio tra famiglie diverse della stessa
+    linea (es. focaccina -> multicereali).
+5.3 Lavaggio di tipo L3 (completo CIP secondo IO-05): soda caustica, risciacquo,
+    acido, risciacquo, sanificante PAA, con registrazione concentrazioni e
+    conducibilita' di risciacquo. Obbligatorio: dopo sesamo; prima del bio; dopo
+    referenze con crema nocciola; a fine settimana produttiva.
+5.4 Il capoturno registra tipo di lavaggio, ora inizio/fine e firma. La seconda
+    firma di verifica e' del QC (Pozzato) o del RSGQ.
+
+1. VALIDAZIONE DELLA PULIZIA E MONITORAGGIO
+
+6.1 Validazione iniziale (eseguita 2024, riverificata 2025, da ripetere dopo
+    l'installazione del tunnel CR-SP180): tre cicli consecutivi di lavaggio L3 con
+    esito conforme su tutti i punti di campionamento critici.
+6.2 Test rapidi proteina specifica a tampone (lateral flow):
+proteina LATTE: prima di ogni partenza bio su Linea 2 e dopo ogni L3
+      post-croissanteria; limite: non rilevato.
+proteina UOVO: dopo L3 su attrezzature promiscue croissanteria;
+SESAMO: dopo ogni lavorazione prototipo AF-SN-0470 (saletta e, se coinvolta,
+      Linea 1); limite: non rilevato.
+6.3 Tamponi superfici generali secondo MOD-QA-19 (piano campionamento a zone);
+    conferme trimestrali con analisi ELISA presso Analytica Veneta S.r.l.
+    (ACCREDIA n. 0987).
+6.4 Esito non conforme: rilavaggio completo e ritest. Due non conformita'
+    consecutive: fermo linea e apertura NC su MOD-QA-31 con riesame della
+    procedura di lavaggio.
+6.5 Registrazioni conservate 3 anni presso ufficio qualita'.
+
+1. GESTIONE DEL REWORK
+
+7.1 Definizione: reintroduzione in processo di semilavorato o prodotto conforme
+    per requisiti igienico-sanitari ma non conforme per aspetto/formato.
+7.2 Regola generale: il rework e' ammesso ESCLUSIVAMENTE "like into like", cioe'
+    nella stessa identica referenza (stesso codice articolo) e comunque previa
+    autorizzazione scritta del QC su modulo dedicato, con tracciatura del lotto di
+    origine sul MOD-MAG-02.
+7.3 VIETATO il rework: da referenze contenenti sesamo verso qualunque altra
+    referenza; da convenzionale verso bio; da croissanteria (uovo, latte, soia)
+    verso Linea 1; di prodotto proveniente da lotti bloccati o oggetto di NC.
+7.4 Il rework di AF-SN-0450/0455 e' ammesso solo entro il turno di produzione e
+    solo per prodotto mai uscito dalla linea. E' tollerato il recupero a inizio
+    turno successivo se conservato coperto a bordo linea
+    [Commento: Vicentini C. - il rework su AF-SN-0450 va vietato: dopo l'evento del
+    lotto L26130 (frammento plastica azzurra, MD non in grado di rilevare materiale
+    non metallico) il recupero di prodotto sfuso a bordo linea e' un punto cieco.
+    Da portare in riesame straordinario del 05/06, intanto sospendere in via
+    cautelativa.]
+7.5 In attesa delle decisioni del riesame straordinario, il rework su Linea 1 e'
+    SOSPESO con disposizione verbale del DS del 26/05/2026.
+
+1. ETICHETTATURA PRECAUZIONALE (PAL)
+
+8.1 La dicitura "Puo' contenere: ..." si applica SOLO agli allergeni classificati
+    PC nella matrice del par. 3, a seguito di valutazione del rischio documentata.
+    E' vietato l'uso generico di diciture cautelative non giustificate.
+8.2 Diciture in uso:
+    AF-SN-0450 / AF-SN-0455 / AF-FC-0330: "Puo' contenere: soia, latte, sesamo."
+    AF-CR-0212 / AF-CR-0215: "Puo' contenere: frutta a guscio."
+    AF-CR-0220: "Puo' contenere: frutta a guscio."
+8.3 Ogni modifica della matrice comporta: verifica testi etichetta con il cliente
+    (per le private label: ufficio qualita' Tosano, dott.ssa Perbellini, per il
+    marchio "Bonta' di Casa"), aggiornamento specifiche, smaltimento o
+    sovrastampa autorizzata dei film in giacenza (F0044 Flexipack).
+8.4 Il passaggio del sesamo da PC a C su una referenza di linea NON e' gestibile
+    con la sola PAL: richiede nuova etichetta con sesamo in ingredienti.
+
+1. FORMAZIONE DEL PERSONALE
+
+9.1 Tutto il personale di produzione, magazzino e manutenzione riceve formazione
+    su allergeni al momento dell'assunzione e con richiamo annuale (registro
+    MOD-HR-11). Modulo specifico per: capiturno (sequenze e lavaggi), QC (test
+    rapidi), R&D (regole saletta pilota), manutentori (attrezzi e lubrificanti
+    food grade, divieto di materiali non censiti a contatto prodotto).
+9.2 Sessione straordinaria post NC-2026-055 erogata il 10/04/2026 a R&D
+    (Zanchetta, Meneghello) e capiturno Linea 1 (Popescu).
+9.3 Richiami HACCP in scadenza: v. azione A9 del riesame di direzione (sessione
+    del 21/05/2026, 2 assenti da recuperare il 04/06).
+9.4 L'efficacia della formazione e' verificata con questionario e con le
+    osservazioni in campo del giro igiene settimanale del RSGQ.
+
+1. RESPONSABILITA'
+
+    RSGQ (Marchetti): matrice, valutazione del rischio, PAL, riesame documento.
+    QC (Pozzato): test rapidi, tamponi, seconda firma lavaggi.
+    Resp. Produzione (Zanella) e capiturno: rispetto sequenze e lavaggi.
+    R&D (Zanchetta): segregazione saletta pilota, comunicazione nuovi allergeni
+    in ricettazione PRIMA dell'ingresso della materia prima in sito.
+    Magazzino (Faggionato): stoccaggio segregato materie prime allergeniche,
+    identificazione bancali, FEFO.
+
+1. STOCCAGGIO MATERIE PRIME ALLERGENICHE
+
+11.1 Tabella di segregazione a magazzino (estratto, colonne compattate):
+materia prima; fornitore; allergene; area stoccaggio; identificazione
+farine (tipo 0 W300, 00, semola); F0012 Molino Veneto; glutine; silos + area A1; etichetta bianca
+burro e panna UHT; F0021 Latteria Bassanese; latte; CF-01 ripiano dedicato; etichetta blu
+semilavorato con lecitina; vari; soia; area A2 scaffale basso; etichetta gialla
+semi di sesamo (solo R&D); acquisto locale; sesamo; armadio chiuso saletta R&D; contenitore rosso
+crema nocciola (Ho.Re.Ca.); fuori scheda; frutta a guscio; area A2 scaffale alto; etichetta arancio
+11.2 Divieto di travaso in contenitori anonimi; ogni contenitore aperto riporta
+     nome prodotto, allergene, data apertura, lotto (MOD-MAG-02).
+11.3 Sversamenti di materia prima allergenica: pulizia immediata a umido, sacco
+     dedicato, registrazione sul giornale di reparto e avviso al capoturno.
+
+Documento di proprieta' di Aurora Food Group S.r.l. - vietata la diffusione esterna
+senza autorizzazione della Direzione. Copia controllata n. 3 - bacheca qualita'.
+File: scheda_allergeni_matrice_cross_contamination_rev6.docx - ultima modifica
+26/05/2026 18:42 - modifiche non accettate presenti nel documento
+[BARRATO: rev. 4 del 12/02/2024]
+[BARRATO: Il latte su AF-SN-0450 era classificato A nella rev. 5: riclassificato PC]
+[BARRATO: In caso di urgenza ordini Tosano e' ammesso invertire 1 e 2 con doppio]
+[BARRATO: E' tollerato il recupero a inizio]
+
+
+--- verbale_riesame_direzione_SGQ_2026.txt ---
+AURORA FOOD GROUP S.R.L. - Via dell'Industria 27 - 37044 Cologna Veneta (VR)
+SISTEMA DI GESTIONE QUALITA' E SICUREZZA ALIMENTARE
+
+VERBALE DI RIESAME DELLA DIREZIONE - ANNO 2026
+Rif. BRCGS Food Safety Issue 9 cl. 1.1.4 - IFS Food v8 par. 1.4 - Manuale HACCP Aurora v4
+
+Data: 12/03/2026 - ore 9:00 / 13:20 - Sala riunioni uffici, primo piano
+Redazione verbale: dott.ssa E. Marchetti (RSGQ)
+Approvazione: ing. M. Fantin (Direttore di Stabilimento)
+
+1. PARTECIPANTI
+
+   Presente   Giancarlo Bertoldi        Amministratore Delegato (presente fino ore 11:10)
+   Presente   ing. Marco Fantin         Direttore di Stabilimento / Operations
+   Presente   dott.ssa Elena Marchetti  Responsabile SGQ - Team Leader HACCP
+   Presente   Denis Zanella             Responsabile Produzione
+   Presente   Nicola Faggionato         Responsabile Magazzino e Spedizioni
+   Presente   rag. Luisa Trentin        Amministrazione (solo punti 6 e 9)
+   Presente   Federica Sartori          HR (solo punto 7)
+   Presente   Sara Pozzato              Assistente Qualita / QC
+   Invitata   dott.ssa Chiara Vicentini Consulente HACCP esterna - Studio Alimentaria
+   Assente g. Silvia Bertoldi           Direzione Commerciale (trasferta cliente)
+   Assente g. dott. Alberto Zanchetta   R&D
+
+   Il presente riesame copre il periodo 01/01/2025 - 28/02/2026. Il precedente
+   riesame si e' tenuto in data 14/03/2025 (verbale RD-2025-01).
+
+2. VERIFICA AZIONI DEL PRECEDENTE RIESAME
+
+   2.1  Delle n. 11 azioni deliberate nel riesame 2025 risultano:
+        - chiuse con evidenza:            8
+        - chiuse parzialmente:            2  (piano tarature esteso; polivalenze Linea 2)
+        - non attuate:                    1  (digitalizzazione archivio qualita - rinviata
+                                             per mancanza di risorse, ripresa al punto 9.4)
+
+   2.2  La Direzione prende atto che l'azione "matrice polivalenze Linea 2" risulta
+        superata dagli eventi (v. punto 7 - turnover) e va riformulata.
+
+3. DATI DI INGRESSO - ESITI AUDIT
+
+   3.1  Audit di certificazione CSQA Certificazioni S.r.l. (Thiene VI), 17-18/02/2026,
+        combinato BRCGS Food Safety Issue 9 + IFS Food v8.
+        Auditor lead dott.ssa N. Franceschini, co-auditor p.i. F. Menegazzo.
+        Esito: conferma grade AA BRCGS (cert. BRC/IT/24/00871) e IFS Higher Level
+        97,32% (cert. IFS/IT/25/03390).
+
+   3.2  Non conformita' rilevate: n. 2 minori.
+        NC 1 - registrazioni manuali CCP2/CCP3 senza verifica in seconda firma entro
+               fine turno (rif. BRCGS 9 cl. 2.10.2 / IFS 2.3.9.2). Registrata a sistema
+               come NC-2026-028.
+        NC 2 - ricambi e attrezzi di manutenzione custoditi in area produttiva senza
+               controllo integrita' (BRCGS cl. 4.7.5). Registrata come NC-2026-029.
+
+   3.3  Termine per l'invio delle evidenze di chiusura: 28 giorni dalla notifica,
+        ovvero 17/03/2026. Alla data odierna la raccolta evidenze NON risulta
+        completata: mancano le firme di presa visione dei capiturno sul modulo
+        MOD-QA-12 revisionato e le foto dell'armadio ricambi in officina.
+        La Direzione RICHIAMA la RSGQ al rispetto tassativo della scadenza.
+        [annotazione a margine: evidenze poi trasmesse a CSQA in data 02/04/2026,
+        oltre il termine - v. NC-2026-049 e NC-2026-061]
+
+   3.4  Audit interni 2025: eseguiti 9 su 10 pianificati (90%). L'audit su gestione
+        vetro/plastica dura e' slittato a gennaio 2026, eseguito il 28/01/2026.
+
+   3.5  Audit clienti: audit igienico Tosano (dott.ssa Perbellini) del 06/11/2025,
+        esito positivo con 3 osservazioni, tutte chiuse.
+
+4. DATI DI INGRESSO - RECLAMI E NON CONFORMITA'
+
+   4.1  Reclami cliente/consumatore anno 2025: n. 41 totali, pari a 0,89 reclami
+        per milione di pezzi venduti (obiettivo: < 1,0 - RAGGIUNTO).
+        Ripartizione 2025:  corpo estraneo 4 - confezionamento 17 - organolettici
+        12 - etichettatura 5 - altro 3. Nessun reclamo con esito sanitario.
+
+   4.2  Reclami gennaio-febbraio 2026: n. 5 (Ali' saldature film, consumatore
+        numero verde, Famila etichetta bio, piu' 2 minori). Andamento in linea.
+
+   4.3  Non conformita' interne: anno 2025 n. 214 (di cui 9 gravi); gennaio-febbraio
+        2026 n. 37 registrate a MOD-QA-31. Le NC aperte da oltre 60 giorni alla data
+        odierna sono n. 6: la Direzione ne chiede la revisione puntuale entro il
+        30/04 (resp. RSGQ).
+
+   4.4  Costo della non qualita' 2025: 68.400 euro stimati (sfridi da NC, resi,
+        declassamenti). Dato parziale: mancano i costi di 31 NC prive di stima.
+        La Direzione richiama i responsabili di reparto alla compilazione del campo
+        costo entro 5 giorni dalla chiusura della NC.
+
+5. DATI DI INGRESSO - INDICATORI KPI QUALITA'
+
+   5.1  Tabella indicatori (consuntivo 2025 vs obiettivo):
+
+        Indicatore                              Obiettivo    Consuntivo   Esito
+        ------------------------------------------------------------------------
+        Reclami / mio pezzi                     < 1,0        0,89         OK
+        Resa prima scelta Linea 1               > 97,0%      97,4%        OK
+        Resa prima scelta Linea 2               > 96,5%      95,8%        NO
+        Resa prima scelta Linea 3               > 97,0%      97,1%        OK
+        Deviazioni CCP con blocco lotto         0            1            NO
+        Verifiche MD eseguite / previste        100%         99,2%        NO
+        Tamponi ambientali conformi             > 95%        96,3%        OK
+        Puntualita' consegne CE.DI. (OTIF)      > 98%        96,1%        NO
+        Ore formazione / addetto                >= 8         6,2          NO
+        Mock recall entro 2 h                   100%         v. 5.3       NO
+
+   5.2  La resa Linea 2 sconta i volumi promozionali Tosano e il ricorso a personale
+        neoassunto. Il dato OTIF risente dei ritardi sul CE.DI. di Cerea (v. NC-2026-042
+        del 06/03: slot 7:30 mancato, arrivo 10:52, carico respinto). Zanella e
+        Faggionato presenteranno entro il 15/04 un piano congiunto carico notturno.
+
+   5.3  Mock recall del 10/03/2026 su lotto AF-SN-0450 L26068-L1-T2: tracciabilita'
+        a monte completata in 55 min (conforme), a valle in 3 h 50 min contro
+        obiettivo 2 h (NON conforme - v. NC-2026-044). Causa: estrazione manuale dei
+        dati spedizioni da piu' fogli Excel. Il tema rimanda alla decisione ERP
+        (punto 9.2). Bilancio di massa ricostruito al 99,6% (accettabile > 99%).
+
+   5.4  CCP - stato delle verifiche:
+        CCP1 setacciatura/magnete: nessuna deviazione 2025-2026.
+        CCP2 PT-104: 1 deviazione 2025 (lotto riprocessato); nessuna nel bimestre.
+        CCP3 MD-3200: evento del 09/02/2026 (tassello Fe non rilevato, NC-2026-022)
+             gestito con ricontrollo retroattivo; intervento assistenza Loma eseguito.
+        CCP4 surgelazione: 1 deviazione 14/01/2026 (NC-2026-006) da degrado TS-01.
+        La Direzione prende atto che il TS-01 e' il principale fattore di rischio
+        impiantistico e conferma l'investimento di cui al punto 9.1.
+
+6. DATI DI INGRESSO - TARATURE, FORNITORI, LABORATORIO
+
+   6.1  Tarature: piano 2026 emesso; 92% strumenti in corso di validita' al 28/02.
+        In scadenza marzo: termometro campione di laboratorio e 2 sonde spillone.
+        Resp. Pozzato, verifica scadenzario mensile documentata.
+
+   6.2  Valutazione fornitori 2025 (vendor rating su qualita'/servizio/documenti):
+        - classe A: F0012 Molino Veneto, F0025, F0029, F0061 Nordgas, F0090 Analytica
+        - classe B: F0021 Latteria Bassanese (consegna a +9,5 gradi respinta il
+          21/01/26), F0044 Flexipack (bobina fuori spessore 10/02/26), F0031
+          Euroglass (rotture da trasporto), F0095
+        - classe C: nessuno.
+        F0018 Oleificio Adriatico: qualita' regolare ma aumento listino +11%;
+        la Direzione da' mandato all'ufficio acquisti di sondare un secondo
+        fornitore di olio alto oleico entro giugno.
+
+   6.3  Laboratorio esterno Analytica Veneta S.r.l. (ACCREDIA n. 0987): contratto
+        rinnovato; piano analitico 2026 approvato (patogeni, shelf life, MOCA).
+        Evento Listeria spp. su tampone ambientale canalina Linea 3 del 24/02
+        (NC-2026-034): sanificazione straordinaria e ritampone negativo a 48 h;
+        frequenza MOD-QA-19 raddoppiata in zona 2 per 3 mesi.
+
+7. DATI DI INGRESSO - RISORSE UMANE E FORMAZIONE
+
+   7.1  Organico al 28/02/2026: 50 unita' (38 produzione, 12 uffici).
+        Turnover Linea 2: n. 2 dimissioni tra gennaio e febbraio 2026, tutte
+        con motivazione dichiarata legata ai turni domenicali per gli ordini Tosano.
+        [nota successiva a verbale: quarta dimissione registrata il 26/03 -
+        NC-2026-056]
+
+   7.2  Straordinari: proiezione superamento del limite di 250 h/anno per 6 addetti
+        di Linea 2 se confermate le domeniche promozionali di aprile-maggio
+        ("Sottocosto Primavera", settimane 19-21). E' pervenuta contestazione RSU.
+        La Direzione incarica HR e il Responsabile Produzione di predisporre un
+        piano riposi compensativi e di valutare 2 inserimenti in somministrazione.
+        L'AD chiede tuttavia che gli ordini Tosano "non si tocchino".
+
+   7.3  Formazione: consuntivo 2025 pari a 6,2 h/addetto contro obiettivo 8.
+        Attestati HACCP in scadenza nel quadrimestre: n. 5 (registro MOD-HR-11).
+        Piano formazione 2026 approvato seduta stante: HACCP base e aggiornamento,
+        allergeni e sequenze di produzione (a cura dott.ssa Vicentini), corpi
+        estranei e cultura della sicurezza alimentare, ripasso MOD-QA-07 rev.5.
+
+   7.4  Infortuni: 1 evento lieve 2025 (nessuno grave). Si rimanda al riesame
+        sicurezza con RSPP p.i. Bonato per il dettaglio.
+
+8. ADEGUATEZZA DELLE RISORSE
+
+   8.1  La Direzione valuta le risorse ADEGUATE CON RISERVA:
+        a) organico Linea 2 sottodimensionato rispetto ai volumi promozionali;
+        b) funzione Qualita' composta da 2 persone (RSGQ + assistente) a fronte di
+           2 standard certificati, 1 linea bio ICEA e crescente richiesta
+           documentale dei clienti GDO;
+        c) manutenzione: 2 addetti interni (Dal Maso, Bissoli) piu' terzisti; il
+           parco macchine Linea 1 (PKM-450 in particolare) mostra usura crescente
+           e il magazzino ricambi critici non e' presidiato.
+        L'AD si riserva di valutare un inserimento in Qualita' nel secondo
+        semestre, subordinato all'andamento di cassa (v. punto 9.1).
+
+9. DECISIONI DELLA DIREZIONE
+
+   9.1  Investimento tunnel di surgelazione a spirale Criotech CR-SP180 (fornitore
+        F0070) in sostituzione del TS-01: CONFERMATO. Ordine gia' emesso; acconto
+        30% pari a 87.000 euro in scadenza a maggio 2026. La rag. Trentin segnala
+        la concomitanza con incassi Tosano a 90 gg (RIBA) e l'utilizzo previsto
+        della linea anticipo fatture UniCredit. La Direzione approva la copertura
+        finanziaria proposta e incarica lo Studio Bellotto di istruire la pratica
+        del credito d'imposta beni strumentali con perizia di interconnessione.
+
+   9.2  Sistema informativo: prosegue la valutazione comparativa ERP CSB-System vs
+        SAP Business One, anche alla luce dell'esito del mock recall (punto 5.3).
+        Decisione attesa entro settembre 2026. Referenti: Fantin, Trentin.
+
+   9.3  Revisione modulistica CCP: MOD-QA-12 e MOD-QA-07 rev.5 integrati con campo
+        di seconda firma di verifica entro fine turno, come da azione correttiva
+        NC audit. La RSGQ verifichera' l'efficacia con controlli a campione
+        settimanali per 8 settimane dalla messa in uso.
+
+   9.4  Digitalizzazione archivio qualita': l'AD chiede di riportare il tema con
+        un preventivo concreto entro l'autunno; per ora si conferma l'archivio
+        cartaceo con scansione dei soli documenti critici.
+
+   9.5  Politica per la sicurezza alimentare: riconfermata senza modifiche,
+        ripubblicata in bacheca con data 12/03/2026.
+
+10. OBIETTIVI 2026
+
+   10.1 Tabella obiettivi (con stato di avanzamento al 28/02):
+
+        Obiettivo 2026                              Target       Avanzamento
+        -----------------------------------------------------------------------
+        Reclami / mio pezzi                         < 0,85       in linea (5 recl.)
+        Resa prima scelta Linea 2                   > 96,5%      12%   (in ritardo)
+        OTIF consegne CE.DI.                        > 98%        20%   (in ritardo)
+        Deviazioni CCP con blocco lotto             0            n. 1 al 28/02
+        Mock recall a valle entro 2 h               100%         0%    (v. 5.3)
+        Ore formazione / addetto                    >= 8         15%
+        Chiusura NC entro 30 gg                     >= 90%       71%
+        Messa in servizio tunnel CR-SP180           31/10/2026   ordine emesso
+        Costo non qualita'                          < 60.000     6.800 al 28/02
+
+   10.2 Gli obiettivi sono giudicati raggiungibili ad eccezione della resa Linea 2,
+        che dipende dalla soluzione del punto 7.2.
+
+11. AZIONI DELIBERATE
+
+        N.   Azione                                          Resp.        Scadenza
+        -----------------------------------------------------------------------------
+        A1   Invio evidenze chiusura NC audit a CSQA         Marchetti    17/03/2026
+        A2   Verifica efficacia doppia firma CCP2/CCP3       Marchetti    31/05/2026
+        A3   Armadio ricambi chiuso in officina + inventario Dal Maso     31/03/2026
+        A4   Piano carico notturno consegne Cerea            Faggionato   15/04/2026
+        A5   Piano riposi compensativi + 2 somministrati L2  Sartori      30/04/2026
+        A6   Revisione NC aperte oltre 60 gg                 Marchetti    30/04/2026
+        A7   Secondo fornitore olio alto oleico              Trentin      30/06/2026
+        A8   Pratica credito imposta CR-SP180 con Bellotto   Trentin      31/05/2026
+        A9   Recupero attestati HACCP in scadenza            Sartori      21/05/2026
+        A10  Preventivo digitalizzazione archivio            Fantin       30/09/2026
+        A11  Aggiornamento matrice allergeni con saletta R&D Marchetti    30/06/2026
+
+12. CONCLUSIONI
+
+   12.1 La Direzione giudica il Sistema di Gestione COMPLESSIVAMENTE ADEGUATO,
+        EFFICACE e ALLINEATO agli indirizzi strategici, con le riserve espresse ai
+        punti 5.2, 7.2 e 8.1. Il mantenimento delle certificazioni BRCGS grade AA
+        e IFS Higher Level e' confermato quale obiettivo primario.
+
+   12.2 Prossimo riesame ordinario: marzo 2027. Resta facolta' della RSGQ di
+        convocare un riesame straordinario al verificarsi di eventi significativi
+        per la sicurezza del prodotto o la continuita' delle certificazioni.
+
+   12.3 Il verbale viene letto e approvato seduta stante.
+
+   Letto, confermato e sottoscritto.
+
+   Il Direttore di Stabilimento          Il Responsabile SGQ
+   ing. Marco Fantin                     dott.ssa Elena Marchetti
+   (f.to in originale)                   (f.to in originale)
+
+   L'Amministratore Delegato
+   Giancarlo Bertoldi
+   (f.to in originale - punti 1-9)
+
+Distribuzione: AD, DS, RSGQ, Resp. Produzione, Resp. Magazzino, Amministrazione,
+HR, bacheca reparti (estratto punti 10-11).
+Archiviazione: raccoglitore RIESAMI - ufficio qualita' - conservazione 5 anni.
+RD-2026-01 - pag. 6 di 6

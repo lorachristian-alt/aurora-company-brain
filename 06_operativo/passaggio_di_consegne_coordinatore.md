@@ -65,36 +65,31 @@ crea regole: spiega come si sono applicate.
 
 ---
 
-## 3. Dove siamo (23/08/2026)
+## 3. Dove siamo (23/08/2026, sera)
 
 - **Corpus v1 congelato**: 160 file, manifest SHA-256 v1.1. Intoccabile.
 - **Baseline misurate sul grezzo**, stesse 282 domande:
   A (agentico, opus-5) 70,6% · B (RAG semplice, Chroma) 44,7% · C (RAG produzione locale,
   3B su hardware minimo) 14,5% complessivo **e 7,6% sulle 251 rispondibili** — i due
   numeri **non si citano mai separati**.
-- **Config C congelata** (`d36d7ce`, impronta `afb58939…`): intoccabile fino a fine S6,
-  difetti di formato compresi.
+- **Config C congelata** (`d36d7ce`, impronta `afb58939…`): intoccabile fino a fine S6.
 
-### Canonizzazione: DIECI lotti chiusi, e il tema 3 è a metà
+### Canonizzazione: UNDICI lotti chiusi, e del tema 3 restano due pacchetti
 
-**Nove di canonizzazione** — pilota `l26130` (22 grezzi) + `1A` (7) + `1B` (4) + `1C` (2) +
-`2A` (3) + `2B` (3) + `2B-bis` (2) + `3A` (2) + `3C` (4) — **più `R1`**, il primo e finora
-unico **lotto di manutenzione** (E35). **49 grezzi su 160, ne restano 111.**
+**Dieci di canonizzazione** — pilota `l26130` (22 grezzi) + `1A` (7) + `1B` (4) + `1C` (2) +
+`2A` (3) + `2B` (3) + `2B-bis` (2) + `3A` (2) + `3C` (4) + **`3B` (2)** — **più `R1`**, il primo
+e finora unico **lotto di manutenzione** (E35). **51 grezzi su 160, ne restano 109.**
 
-⚠️ **Il conto è da script**, sui marcatori `# CHIUSO` degli elenchi (nove file) più il pilota,
-che elenco non ne ha perché è anteriore alla matrice. **`riverifica_barrato` NON è un lotto
-chiuso**: è un mini-perimetro dentro il gate di 2B-bis. ⚠️ **La versione precedente di questa
-sezione diceva «sette lotti chiusi» sopra un elenco di otto**, e il prompt del gate di 3C ne
-chiedeva undici: **sono dieci**, ed è il quinto ordine del coordinatore corretto dalla verifica.
+⚠️ **Il conto è da script**, sui marcatori `# CHIUSO` degli elenchi più il pilota, che elenco non
+ne ha perché è anteriore alla matrice. **`riverifica_barrato` NON è un lotto chiuso**: è un
+mini-perimetro dentro il gate di 2B-bis.
 
-⚠️ **`R1` vale un lotto nel ritmo ma NON entra nella serie della capacità** (E38): misura
-riparazioni, non produzione.
+**Del tema 3 restano `3D` reclami e `3E` crisi e ispezioni.**
 
-**Del tema 3 restano tre pacchetti**: `3B` politica e formazione · `3D` reclami · `3E` crisi e
-ispezioni. ⚠️ **`3C` fu anticipato su `3B`** perché portava due correzioni a cose già scritte nel
-vault e un fatto che il vault non sapeva — l'avviso di riduzione del grade AA.
+⚠️ **`3B` ha aperto l'ottava area del vocabolario, `risorse-umane`**, e l'ha aperta **piena**:
+tredici note. Restano scoperte `sicurezza-ambiente` e `ricerca-sviluppo`.
 
-### La serie dei due tassi (E41/E46): SEI punti, uno non misurato e uno con riserva
+### La serie dei due tassi (E41/E46): SETTE punti
 
 | Lotto | Dominio | Difetto di produzione |
 |---|---|---|
@@ -102,88 +97,80 @@ vault e un fatto che il vault non sapeva — l'avviso di riduzione del grade AA.
 | 2A | `cip` | **3,3 %** |
 | 2B | `acqua` | **0,0 %** su 27 |
 | 2B-bis | `allergeni` | **9,1 %** su 33 |
-| 3A | — | ⚠️ **NON MISURATO** — dominio non dichiarato in apertura, per errore del gate |
-| 3C | `certificazione` | **38,7 %** su 31 — ⚠️ **con RISERVA**: il dominio era dichiarato troppo largo |
+| 3A | — | ⚠️ **NON MISURATO** |
+| 3C | `certificazione` | **38,7 %** su 31 — ⚠️ **con riserva** |
+| **3B** | **`formazione`** | **36,4 %** su 22 — ⚠️ **con riserva** |
 
-⚠️ **Nessuno dei due punti guasti si rimisura, e la ragione è la stessa** (§4.45): la serie
-fotografa le dichiarazioni **come sono state fatte**. Retro-misurare 3A darebbe un tasso già
-ripulito dalle correzioni; rimisurare 3C darebbe un numero prodotto con una regola che nel lotto
-non c'era. **Una serie i cui punti sono tutti prodotti con la regola dell'ultimo gate non può più
-mostrare il proprio miglioramento**, ed è esattamente ciò che a S7 deve dimostrare.
+⚠️ **I due punti alti della serie hanno la stessa causa, e ora è misurata due volte: la
+dichiarazione del dominio, non il metodo.** In 3C le espressioni riconoscevano l'audit e le
+fonti governavano il titolo; in 3B `\bformazion` riconosceva **la parola**, e con essa la
+struttura di un file e un indicatore.
 
-⚠️ **La risposta in avanti è E56**, e `3B` è **il primo lotto che dichiarerà un dominio sotto
-quella regola**: il suo tasso sarà il primo punto della serie misurato su una dichiarazione
-costruita come coppia espressioni-fonti.
+⚠️ **E nessuno dei due si rimisura** (§4.45). Per 3B lo script oggi darebbe **26,1 %**, perché
+tre note hanno ricevuto la fonte governante dopo il giudizio: **il punto dichiarato resta
+36,4 %**, che è il lotto come il ciclo lo ha prodotto (E41).
 
-### I conteggi, incollati da `conta_stato.py` (23/08/2026, dopo l'ultima scrittura — E44)
+### I conteggi, incollati da `conta_stato.py` (23/08/2026 alle 18:42, dopo la nota-sessione)
 
 <!-- CONTEGGI DEL VAULT — generati da `06_operativo\qa\conta_stato.py` il 2026-08-23.
      Si incollano VERBATIM: non si ricompongono a mano, non si riscrivono in prosa. -->
 
 | Grandezza | Valore |
 |---|---|
-| Note nel vault | **362** |
+| Note nel vault | **386** |
 | di cui `_index` | 11 |
 | di cui note-strumento del progetto | 15 |
-| di cui note di diario (`sessione`, `daily`) | 9 |
-| **di cui note di contenuto** | **327** |
-| Note per cartella | areas 212 · data 38 · docs 36 · entities 30 · code 16 · workspace 12 · projects 8 · concepts 6 · self 2 · outputs 1 · sources 1 |
-| Note per `type` | atomica 252 · conflitto 50 · entita 22 · hub 13 · index 11 · sessione 9 · concetto 5 |
-| Questioni aperte (`type: conflitto`) | 50 |
+| di cui note di diario (`sessione`, `daily`) | 10 |
+| **di cui note di contenuto** | **350** |
+| Note per cartella | areas 229 · data 41 · docs 38 · entities 31 · code 16 · workspace 13 · projects 8 · concepts 6 · self 2 · outputs 1 · sources 1 |
+| Note per `type` | atomica 270 · conflitto 53 · entita 23 · hub 14 · index 11 · sessione 10 · concetto 5 |
+| Questioni aperte (`type: conflitto`) | 53 |
 | Grezzi in `sources\` | 160 |
-| Grezzi citati da almeno una nota | **49** |
-| Grezzi restanti | **111** |
+| Grezzi citati da almeno una nota | **51** |
+| Grezzi restanti | **109** |
 
 ### Le altre misure di chiusura, ognuna con la sua ora (E44)
 
 | Misura | Valore | Quando |
 |---|---|---|
-| **QA a perimetro vault** | **114 ERRORI, 258 avvisi** | 15:53 del 23/08 |
-| di cui grezzi non ancora canonizzati | **111** | |
-| di cui aree senza hub | **3** — ricerca-sviluppo, risorse-umane, sicurezza-ambiente | |
+| **QA a perimetro vault** | **111 ERRORI, 286 avvisi** | 18:44 |
+| di cui grezzi non ancora canonizzati | **109** | |
+| di cui aree senza hub | **2** | |
 | di cui **rilievi di merito** | **0** | |
-| **Emendamenti** | registro e manuale **concordano a 58** | 15:54 |
-| **Matrice** | **completa e disgiunta**: 160 grezzi, 25 elenchi | 15:54 |
-| **Tracciamento** | **142 righe** — 7 riconciliate · 63 aperte dichiarate · 15 chiuse · 57 tracciate | 15:54 |
-| **Collaudi** | **5 su 5**: suite 18+9, due tassi 5, CSV 7, doppie padrone 3, locator eml 3 | 15:47 |
+| **Collaudi** | **7 su 7** — i due nuovi sono `collaudo_dominio_canonizzati` e `collaudo_related_rotto` | 18:40 |
+| **Emendamenti** | registro e manuale **concordano a 58** | 18:39 |
+| **Matrice** | completa e disgiunta: 160 grezzi, **27 elenchi** | 18:39 |
+| **Tracciamento** | **157 righe** — 7 riconciliate · 74 aperte dichiarate · 17 chiuse · 59 tracciate | 18:39 |
 
-⚠️ **Gli «elenchi» della matrice sono 25 e i lotti chiusi sono 10**: fra gli elenchi ci sono i
-pacchetti non ancora aperti e i due perimetri di sole note che il gate di 3C ha creato per il
-giudizio dedicato. **Il numero degli elenchi non è il numero dei lotti**, e leggerlo così è
-l'errore che questa riga esiste per impedire.
+⚠️ **Il vault scende da 114 a 111**, ed è esattamente ciò che 3B ha fatto: due grezzi
+canonizzati più l'hub `area-risorse-umane`. **Zero rilievi di merito.**
 
-⚠️ **Il vault resta a 114 errori come alla chiusura di 3C, e nessuno è di merito**: il gate ha
-corretto tre note senza introdurre regressioni. L'avviso in più — 258 contro 257 — è
-`fatto-due-nc-interne-sul-proprio-ritardo` che entra nella fascia 301-350 parole.
+### ⚠️ Due controlli bacati riparati in un giorno, e nessuno trovato da uno script
 
-⚠️ **UNA NOTA DI IGIENE DEGLI ARTEFATTI, ed è E44 in piccolo**: la cartella
-`qa\2026-08-22_vault\` porta `qa_all.md` delle 12:17 con la misura vera del gate di 3C
-(114/257) e un `qa_frontmatter.md` delle 12:19 scritto da una corsa **a tre note**. **Due
-perimetri nella stessa cartella di report**, e chi rileggesse i file singoli leggerebbe un
-numero che non è quello dichiarato. Il totale autorevole per il 22/08 resta quello di
-`qa_all.md`.
+| Controllo | Il buco | Chi l'ha visto |
+|---|---|---|
+| `verifica_dominio.py` | i lotti canonizzati erano **una lista scritta a mano**: un nome morto dal 20/08, e tre lotti chiusi mancanti. **Dichiarava non citabile un certificato canonizzato il giorno prima** | **un numero**, in apertura |
+| `qa_link_integrity.py` | cercava i wikilink rotti **solo nel corpo**: `related` fuori, **due link rotti nel vault e la QA a zero errori** — uno da un lotto precedente | **la revisione col canone** |
 
-### Il metodo: 58 emendamenti, tre dei quali nati a questo gate
+⚠️ **Nessuno dei due era una logica sbagliata: erano una COPIA e un PERIMETRO.** Per §4 sono
+guasti, non candidati, e sono stati riparati subito con difetto piantato. **La domanda che
+lasciano al gate: ci sono altre copie di stato dentro la suite?**
 
-**E56** la dichiarazione del dominio è una coppia espressioni-fonti · **E57** il superlativo si
-giudica dal soggetto · **E58** ogni nota vede il giudizio almeno una volta. ⚠️ **È la seconda
-volta che tre emendamenti escono da un gate solo** (la prima fu 3A), e **nessuno dei tre nasce
-da un difetto delle note**: E56 corregge la dichiarazione con cui si misura, E57 il modo di
-scrivere, E58 il perimetro di un controllo.
+### Il metodo: 58 emendamenti, e un candidato che aspetta il gate
 
-⚠️ **E58 ha pagato subito**: al primo impiego il giudizio dedicato ha trovato **difetti in
-entrambe** le note che nessuno aveva mai giudicato, e per strada ha corretto una ratifica di
-questo stesso gate — il «sedici giorni» **ha un solo titolare, non due**, e il «quindici» non lo
-scrive nessuna fonte. **T126 è alla terza stesura**, e tutte e tre sono cadute su un conteggio
-attribuito a una fonte che non lo enuncia.
+**E56** la dichiarazione del dominio è una coppia · **E57** il superlativo si giudica dal
+soggetto · **E58** ogni nota vede il giudizio almeno una volta, con la regola d'arresto di E26.
 
-### PROSSIMO ATTO: il lotto `3B`, politica e formazione
+⚠️ **Il candidato di 3B**: *una correzione è una scrittura, e vale per lei ciò che vale per la
+nota*. **Sette casi misurati** fra il terzo giro e il ciclo dedicato, e nel peggiore la
+correzione ha reso **falsa** una frase che prima era soltanto vaga. E30, E39, E42 ed E51
+guardano tutte all'affermazione **vecchia**; nessuna guarda alla frase **nuova**.
 
-Apre con gli strumenti nuovi al completo — `verifica_dominio.py` con le due classi di forza
-(E53), la dichiarazione a coppia (E56), E21 per il conteggio dei fatti, E28/E52 per le soglie,
-E37 se il dominio c'è. **Nessuna specie è sotto criterio pre-registrato in questo lotto**: se il
-terzo giro ne nomina una nuova (E26), il rapporto la porta col suo criterio scritto prima del
-lotto successivo. **Poi `3D` e `3E`, il resto della matrice, quindi S6 e S7.**
+### PROSSIMO ATTO: il gate del lotto 3B
+
+Sette punti da decidere, nel §7 di `rapporto_lotto_03b.md`. **Poi `3D` e `3E`**, che chiudono il
+tema 3 — e `3D` porta un obbligo esplicito, **`PRO-QA-08`**, che la politica nomina
+nell'impegno 6 e di cui nessuna nota può ancora dire nulla (**T146**).
 
 ---
 
@@ -520,6 +507,51 @@ coerente.
 
 ---
 
+
+47. **UNA COPIA DI STATO DENTRO UNO STRUMENTO SI DISALLINEA IN SILENZIO, E LO FA SEMPRE**
+    (23/08/2026, lotto 3B). Se un dato ha un padrone, lo strumento lo **legge**; se lo
+    **ricopia**, prima o poi mente.
+
+    ⚠️ **Due casi in un giorno solo, e nessuno dei due trovato da uno script.**
+    `verifica_dominio.py` teneva i lotti canonizzati in una **lista di nomi scritta a mano**:
+    portava un nome morto dal 20/08 e non portava tre lotti chiusi, e **dichiarava non citabile
+    un certificato canonizzato il giorno prima**. `qa_link_integrity.py` cercava i wikilink
+    rotti **solo nel corpo**, e il vault ne portava **due con la QA a zero errori** — uno da un
+    lotto precedente.
+
+    ⚠️ **Nessuno dei due era una logica sbagliata: erano una COPIA e un PERIMETRO**, cioè le due
+    forme in cui uno strumento smette di dire il vero senza rompersi. **Per §4 sono guasti, non
+    candidati**, e si riparano subito col difetto piantato.
+
+    ⚠️ **E la domanda che lasciano vale più dei due fix**: *quante altre copie di stato ci sono
+    dentro la suite?* Un controllo che ricopia va cercato, non aspettato.
+
+48. **LA CORREZIONE È UNA SCRITTURA, E NESSUNO LA GIUDICA COME TALE** (23/08/2026, terzo giro
+    del lotto 3B). ⚠️ **Candidato emendamento, non ancora regola**: sta qui perché è il modo di
+    decidere che il gate deve valutare.
+
+    **Dei dodici rilievi del terzo giro, almeno sette cadono su frasi che al secondo non
+    c'erano: le ha scritte la correzione.** Due forme:
+
+    | Forma | Stato |
+    |---|---|
+    | la correzione attenua il corpo e **lascia indietro l'intestazione** | **già nota**: E30 più E51 |
+    | ⚠️ **la frase scritta correggendo afferma essa stessa oltre le fonti** | **nuova** |
+
+    ⚠️ **Il caso che la rende urgente**: «la foto decisiva non compare in nessuno dei due
+    elenchi» era la correzione di una frase vaga, **e il §6 della fonte la elenca**. La
+    correzione ha reso **falsa** una frase che prima era soltanto imprecisa.
+
+    ⚠️ **Perché le regole che ci sono non bastano**: E30, E39, E42 ed E51 guardano tutte
+    all'affermazione **vecchia** e a dove sopravvive. **Nessuna guarda alla frase nuova.** E la
+    ragione per cui non basta «rileggere di più» è quella di E39: chi scrive la correzione **sta
+    pensando al rilievo**, e la frase che scrive gli sembra la risposta al rilievo, non
+    un'affermazione da verificare.
+
+    ⚠️ **E si riproduce dentro le correzioni fatte per chiuderla**: nel ciclo dedicato di E58 la
+    stessa forma è ricomparsa al primo e al secondo giro, ed è sparita solo al terzo — quando la
+    verifica è stata fatta **delimitazione per delimitazione, cella per cella**.
+
 ## 5. Errori già pagati — non ripeterli
 
 | Errore | Lezione, ora scritta |
@@ -549,11 +581,45 @@ coerente.
 | **Il pacchetto del giudizio generato prima della fine delle correzioni** | sei note su quaranta sono state modificate dopo la generazione del primo pacchetto: E33 dice che si genera **per ultimo**, e qui non lo è stato. Nessun rilievo è caduto su testo morto, ma la regola esiste per non doverlo verificare a posteriori (lotto 2A) || **Una guardia formulata male, e due lotti fermi** | ⚠️ **L'errore è del testo del coordinatore, non di chi lo leggeva.** I prompt portavano «`03_valutazione\` non si apre mai» **senza l'eccezione del revisore**, e il canone non vive lì: sta in `01_metodo\`. R1 si è fermato a chiedere l'autorizzazione, **2B si è fermato dichiarando il passo scoperto** e ha chiuso senza revisione col canone. **Due sessioni, lo stesso dubbio, e la risposta viveva solo nel testo incollato di un gate.** Riparato con **E45**, che lo scrive in `metodo_03` §9.5 passo 3 — cioè dove chi opera lo cerca. ⚠️ **La lezione è §7-bis.6: quando la stessa domanda ferma due sessioni, si emenda la fonte, non si risponde una terza volta.** |
 | **DUE NOTE CHIUSE SENZA AVER MAI VISTO UN GIUDICE, e difettose entrambe** | le due note nate dai ritrovamenti del terzo giro di 3C hanno passato QA e controllo delle citazioni e sono uscite dal lotto con la regola d'arresto E26 invocata a copertura. ⚠️ **Giudicate al gate del 23/08, sono tornate `afferma_oltre` tutte e due**: una attribuiva all'ente conteggi che la sua unica fonte non riporta e diceva nel titolo «le chiude in una settimana» dove il registro porta sedici giorni; l'altra chiudeva con «l'archivio non scioglie». ⚠️ **La QA verifica la FORMA, il giudizio verifica che la nota non affermi oltre le proprie fonti**: nessuno dei due sostituisce l'altro, e una nota che ha visto solo il primo è una nota mai giudicata. Riparato con **E58** |
 | **UN CONTEGGIO ATTRIBUITO A UNA FONTE CHE NON LO ENUNCIA — per la terza volta sulla stessa riga** | T126 diceva che «Aurora conta sedici in DUE documenti, il verbale e il registro», e il gate lo aveva ratificato come «due contatori veri, di due titolari diversi». ⚠️ **Il verbale non porta né «sedici» né «16»**: fissa la scadenza al 17/03, che del sedici è la premessa. ⚠️ **E il «quindici» non lo scrive nessuno: nessuna fonte dell'ente conta i giorni.** Il solo conteggio scritto in una fonte è il «16 gg» di `NC-2026-061`; l'altro numero è **aritmetica del vault**, e ora porta la marca `(contati)`. ⚠️ **La sostanza reggeva** — due termini diversi, due conti possibili — **ed è questo che l'ha resa invisibile a due revisioni**: la riga era vera nel merito e falsa su chi lo dicesse. È la classe di **E49** e di **E50**, e l'ha presa il **giudizio dedicato di E58**, non una rilettura |
-| **UN CENSIMENTO CHE MESCOLAVA DUE REGIMI, e il numero era il doppio abbondante** | il primo giro di `censimento_superlativi.py` dava **42 note e 47 occorrenze**, e dentro c'erano gli esistenziali negativi — «nessun documento dell'archivio riporta X» — che sono **assenze dichiarate**, governate da **E3 ed E43** e verificabili con la ricerca e il suo artefatto. Le occorrenze scoperte davvero sono **9**. ⚠️ **Pubblicare 42 avrebbe ripetuto in piccolo l'errore del 38,7 %**: un numero vero, con un nome che promette più di quanto misura. ⚠️ **E la classificazione dipendeva dall'ORDINE delle parole** finché la finestra è rimasta la frase intera |
+| **UN CENSIMENTO CHE MESCOLAVA DUE REGIMI, e il numero era il doppio abbondante** | il primo giro di `censimento_superlativi.py` dava **42 note e 47 occorrenze**, e dentro c'erano gli esistenziali negativi — «nessun documento dell'archivio riporta X» — che sono **assenze dichiarate**, governate da **E3 ed E43** e verificabili con la ricerca e il suo artefatto. Le occorrenze scoperte davvero sono **9**. ⚠️ **Pubblicare 42 avrebbe ripetuto in piccolo l'errore del 38,7 %**: un numero vero, con un nome che promette più di quanto misura. ⚠️ **E la classificazione dipendeva dall'ORDINE delle parole** finché la finestra è rimasta la frase intera |
+| **UN NOME PROPRIO INVENTATO IN UN WIKILINK, E LA QA CHE NON GUARDAVA DOVE STAVA** | `doc-scadenzario-formazione-2026` puntava a `[[entita-francesca-sartori]]`: la scheda si chiama **Federica**. ⚠️ **È lo stesso errore che la tabella alias registra per Vicentini**, e la QA dava **0 ERRORI** perché `Nota.wikilink()` legge il solo CORPO e `related` restava fuori. ⚠️ **Nel vault ce n'erano due, e il secondo stava lì da un lotto precedente**. **A trovarlo è stata la revisione col canone, non la suite** — e un nome che non esiste non richiede giudizio: richiede un confronto con un elenco |
+| **IL PRIMO DOMINIO DICHIARATO SOTTO E56 È NATO SBAGLIATO, NELLO STESSO VERSO DI 3C** | l'espressione `formazion` riconosceva **la parola**, e con essa la struttura del registro, chi lo estrae e l'indicatore delle ore — mentre le fonti del dominio governano **l'obbligo di formare e registrare**. Tasso col primo taglio **63,6 %**, col secondo **36,4 %**. ⚠️ **La prova è per ESPRESSIONE, non per numero**: `formazion` da sola pescava tutte e quattordici le scoperte. ⚠️ **E ci si è fermati dopo UNA stretta**: continuare a restringere a numero visto sarebbe il trucco di E41 spostato di un piano (§4.43) |
+| **UNA SOTTRAZIONE SBAGLIATA INTRODOTTA CORREGGENDO** | «52 meno due fa 51» in una nota riscritta per chiudere un rilievo: **fa cinquanta**, ed è il numero che gli altri due documenti dichiarano. ⚠️ **L'errore non era nella nota originale: l'ha portato la correzione**, ed è il caso più piccolo e più chiaro del pattern del §4.48 |
 
 ---
 
 ## 6. Vigilanze aperte (da tenere d'occhio al prossimo gate)
+
+- ⚠️ **LA CORREZIONE CHE AFFERMA OLTRE LE FONTI, E IL SUO CRITERIO SCRITTO ORA.** Nominata al
+  terzo giro del lotto 3B, dove **almeno sette dei dodici rilievi cadono su frasi che la
+  correzione del giro precedente aveva scritto**. Due forme: l'intestazione rimasta indietro
+  *(già coperta da E30 ed E51)* e **la frase nuova che afferma oltre le fonti** *(scoperta)*.
+
+  ✅ **CRITERIO DI DECISIONE, scritto PRIMA del lotto che lo verificherà.**
+
+  | | |
+  |---|---|
+  | **diventa emendamento** | se al **terzo giro** di giudizio del prossimo lotto almeno **due** rilievi cadono su frasi **introdotte dalle correzioni dei giri precedenti**, e non su testo della prima stesura |
+  | **forma proposta** | *una correzione è una scrittura, e vale per lei ciò che vale per la nota: prima di applicarla si guarda la fonte che dovrebbe sorreggerla* |
+  | **non decade da sola** | se non compare, la riga **non si chiude automaticamente**: decide il gate con le osservazioni davanti |
+
+  ⚠️ **Il prossimo lotto NON riceve alcun promemoria** oltre alle regole in vigore: un
+  esperimento avvertito non misura niente. ⚠️ **E il criterio si scrive adesso**, non «quando
+  ricompare», perché è la disciplina che questo progetto ha consolidato dal gate di 2B-bis.
+
+  ⚠️ **Una cosa il lotto 3B la ha già mostrata, e conta per come si leggerà l'esito**: nel ciclo
+  dedicato di E58 la forma è ricomparsa al primo e al secondo giro **dentro le correzioni fatte
+  per chiuderla**, ed è sparita solo al terzo — quando la verifica è stata fatta **delimitazione
+  per delimitazione, cella per cella**. **Il rimedio che funziona non è rileggere: è verificare
+  ogni frase negativa contro il file.**
+
+- ⚠️ **QUANTE ALTRE COPIE DI STATO CI SONO DENTRO LA SUITE?** Il 23/08 sono stati riparati **due
+  controlli in un giorno**, e nessuno dei due aveva una logica sbagliata: uno teneva **una copia
+  a mano** di un fatto il cui padrone è altrove, l'altro aveva **un perimetro** che non copriva
+  ciò che doveva. ⚠️ **Entrambi mentivano in silenzio, e nessuno dei due è stato trovato da uno
+  script**: il primo da un numero implausibile, il secondo dalla revisione col canone.
+  **Da guardare prima del gate finale**, dove la QA a perimetro vault deve essere verde: un
+  controllo che ricopia va cercato, non aspettato.
 
 - **Densità crescente**: 2,1 (pilota) → 6,0 (1A) → 9,5 (1B) → **13,5 (1C)** note di
   contenuto per grezzo. ⚠️ **Alla chiusura di 1C la lettura è cambiata**: le note *per

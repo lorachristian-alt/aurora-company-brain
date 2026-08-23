@@ -1001,3 +1001,191 @@ certificazione con evidenza delle non conformita' rilevate»; art. 16.2: risoluz
 ⚠️ **È l'anello che manca a `fatto-grade-aa-messo-in-guardia`**, che chiama il declassamento il
 fatto più pesante del pacchetto **senza sapere che un downgrade è un evento contrattuale con un
 termine di cinque giorni**. 🚫 L'accordo Tosano è del lotto 5: obbligo esplicito per quel lotto.
+
+
+---
+
+## Divergenze nuove — revisione del lotto 3B, 23/08/2026
+
+> **Come si legge questa sezione.** Tredici divergenze su un lotto che porta la **Politica per
+> la qualità `DOC-QA-01` rev. 8** e lo **scadenzario della formazione** estratto il 18/05/2026.
+> ⚠️ **Otto sono scrivibili, cinque no**: il divieto 9-bis, e stavolta i grezzi che mancano sono
+> tre — il registro presenze del corso sicurezza, il fascicolo dell'infortunio e le timbrature.
+> ⚠️ **E il lotto ha letto benissimo i due grezzi, quasi mai uno contro il vault**: sette delle
+> otto scrivibili nascono dall'accostamento col **verbale di riesame**, canonizzato il giorno
+> prima e già citato da decine di note.
+
+### E1 — Reclami per milione: «confezioni» contro «pezzi», e stavolta la gamba è scrivibile
+
+`politica_qualita_e_sicurezza_alimentare_2026.docx`, §GLI OBIETTIVI MISURABILI PER IL 2026:
+«Reclami cliente e consumatore / **reclami per milione di confezioni** / **9,4** / **< 8,0**».
+`verbale_riesame_direzione_SGQ_2026.txt` §4.1: «Reclami cliente/consumatore anno 2025: n. 41 totali, pari a **0,89 reclami**» e «per milione
+di pezzi venduti (obiettivo: **< 1,0** - RAGGIUNTO).»; §10.1: «Reclami / mio pezzi **< 0,85**».
+
+⚠️ **La riga C3 del lotto 3A dava la gamba «confezioni» per NON scrivibile**, perché stava in
+`PRO-QA-08` (lotto 3D): **la politica la rende scrivibile oggi**, e aggiunge il **consuntivo**,
+che il canone non aveva.
+
+⚠️ **E la conversione di unità non chiude.** Dai due consuntivi: 41/0,89 = **46,07 milioni di
+pezzi**, 41/9,4 = **4,36 milioni di confezioni**, rapporto **10,56** *(calcolati)*. Con quel
+fattore il target della politica varrebbe **0,76** per milione di pezzi, non **0,85**.
+**Nessuno**: due misure dello stesso indicatore su due denominatori, e nessun documento le
+riconcilia.
+
+### E2 — Due tabelle di obiettivi 2026 che non si mappano, e un riesame che riconferma «senza modifiche»
+
+Politica: **nove obiettivi** *(contati)*. `verbale_riesame_direzione_SGQ_2026.txt` §10.1:
+**nove** *(contati)*. **In comune due soli indicatori** — reclami e ore/addetto — **e su
+entrambi i valori divergono**. Un terzo è quasi-omonimo e diverge: «Chiusura azioni correttive,
+% chiuse entro scadenza **≥ 95%**» contro «Chiusura NC entro 30 gg **>= 90%**». **Sei righe
+della politica non hanno un obiettivo nel verbale, e sei del verbale non hanno una riga nella
+politica** *(contate)*.
+
+⚠️ E il verbale §9.5 scrive: «Politica per la sicurezza alimentare: **riconfermata senza
+modifiche**, ripubblicata in bacheca con data 12/03/2026».
+
+**Nessuno.** È **C4 del lotto 3A** — il cruscotto che non si mappa col riesame — **con un terzo
+documento**: l'azienda porta tre tabelle di obiettivi 2026, e nessuna delle tre cita le altre.
+
+### E3 — Il 97,32 % come «Valore 2025» in un documento emesso il 12/01/2026
+
+Politica, intestazione: «Documento **`DOC-QA-01` rev. 8** — emissione **12/01/2026**»; tabella:
+«Mantenimento certificazioni / esito audit BRCGS e IFS / **AA / Higher Level 97,32%**».
+`Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt`: «Date audit: **17/02/2026 - 18/02/2026**», «IFS
+Food v8: **HIGHER LEVEL - 97,32 %**».
+
+**Nessuno, e l'archivio non scioglie.** O l'audit 2025 ha dato lo stesso punteggio **a due
+decimali** — e nessun documento del corpus lo dice — oppure quella riga è stata scritta **dopo
+il 18/02** in un documento che porta la data del 12/01 e la firma del 15/01. ⚠️ Stessa specie
+di **C15 (3A)**: un consuntivo chiuso con un evento fuori dal periodo.
+
+### E4 — «La riunione di riesame di gennaio» che nell'archivio si tiene a marzo
+
+Politica, annotazione di intestazione: «Da far firmare al titolare **PRIMA della riunione di
+riesame di gennaio**, non dopo come l'anno scorso».
+`verbale_riesame_direzione_SGQ_2026.txt`: «**Data: 12/03/2026** - ore 9:00 / 13:20»; «riesame si e' tenuto in data **14/03/2025**
+(verbale RD-2025-01).»; §12.2 «Prossimo riesame ordinario: **marzo 2027**».
+
+**Nessuno.** Il riesame di direzione di Aurora è un evento **di marzo** in tutte e tre le
+occorrenze datate del corpus; l'istruzione che governa l'ordine dei gesti ne presuppone uno di
+gennaio. ⚠️ **La conseguenza è di merito**: la firma del 15/01 rispetta la prescrizione solo
+rispetto a una riunione che quell'anno non risulta essersi tenuta.
+
+### E5 — Il registro dei titoli non registra NULLA del 2026
+
+`registro_presenze_corsi_HACCP_scaduti.csv`, estrazione del **18/05/2026**: righe con `Data
+corso` nel 2026 = **zero su 96** *(contate)*; la data di corso più recente è **09/10/2025**.
+
+Contro: `formazione_allergeni_operatori_2026.pptx` slide 1, «Data: **19/03/2026** — turni 1 e 2
+in sala mensa, turno 3 il **20/03**» e «**Firma sul registro `MOD-HR-11`** ALL'INGRESSO, non
+all'uscita»; `scheda_allergeni_matrice_cross_contamination.docx` §9.2, «Sessione straordinaria
+post `NC-2026-055` **erogata il 10/04/2026**»; e **lo stesso registro**, riga 35, colonna
+`Note`: «**agg. 4h fatto 03/2026**», su una riga la cui `Data corso` resta `10/12/2024`.
+
+**Nessuno.** ⚠️ **Non è l'assenza di una sessione: è l'assenza dell'intero anno**, e il file
+**si contraddice da solo** annotando nelle `Note` un aggiornamento che non ha una riga.
+Completa **2B-bis B6**, che il divieto 9-bis teneva fermo e che il lotto 3B ha scaricato solo a
+metà. 🚫 Una quarta gamba non è citabile: il corso sicurezza del 14-15/04/2026 — v. **E9**.
+
+### E6 — La sessione di recupero HACCP ha tre date
+
+`verbale_riesame_direzione_SGQ_2026.txt` §11: «**A9** Recupero attestati HACCP in scadenza ·
+Sartori · **21/05/2026**».
+`scheda_allergeni_matrice_cross_contamination.docx` §9.3: «Richiami HACCP in scadenza: v. azione
+A9 del riesame di direzione (**sessione del 21/05/2026, 2 assenti da recuperare il 04/06**)».
+`registro_presenze_corsi_HACCP_scaduti.csv` riga 104, estratta il 18/05 **dalla stessa persona
+responsabile di A9**: «sessione recupero HACCP **prenotata: 09/06/2026** mattina, aula mensa,
+docente Vicentini - max 20 posti».
+
+**Nessuno.** Tre giorni prima della scadenza di `A9` il responsabile dell'azione prenota la
+sessione **dopo** la scadenza; la scheda dà la sessione come tenuta il 21/05 con due assenti.
+⚠️ **Possibile che la scheda abbia letto la scadenza dell'azione come data della sessione** — ma
+i «2 assenti da recuperare il 04/06» sono un dettaglio che una scadenza non produce.
+
+### E7 — «Attestati HACCP in scadenza nel quadrimestre: n. 5» contro i dieci del registro
+
+`verbale_riesame_direzione_SGQ_2026.txt` §7.3, seduta del 12/03/2026: «Attestati HACCP in
+scadenza nel quadrimestre: **n. 5** (registro MOD-HR-11).»
+`registro_presenze_corsi_HACCP_scaduti.csv`: **dieci** righe `HACCP base` con scadenza
+`20/04/2026` *(contate)*, e **nessun altro titolo HACCP in scadenza fra il 12/03 e il
+12/07/2026** *(contato)*.
+
+**Il registro.** ⚠️ È la specie isolata nel lotto 1C e ripresa in **C11** — **un'attestazione
+resa alla direzione contro il registro che dovrebbe sostenerla** — e qui il verbale cita il
+registro **per nome**. ⚠️ **Da quel cinque discende l'azione `A9`**, dimensionata sulla metà del
+problema.
+
+### E8 — Quante persone lavorano in Aurora, e la terza gamba che riapre il conto
+
+Politica §LA CULTURA: «ognuna delle **50 persone** che lavorano in Aurora».
+`verbale_riesame_direzione_SGQ_2026.txt` §7.1: «Organico al 28/02/2026: **50 unita'** (38
+produzione, 12 uffici)».
+`registro_presenze_corsi_HACCP_scaduti.csv`: **52 nomi distinti** *(contati)*; tolte la cessata
+del 19/04 e la tirocinante che entra il 15/06 restano **50** *(calcolato)*.
+
+🚫 **E la terza gamba riapre tutto**: `verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt`
+porta **22 convocati**, di cui **17 nomi che il registro non contiene** *(contati)* — il corpus
+ne nomina almeno **69** *(calcolato)*. **Il lotto 3B non poteva vederlo** (9-bis), e la
+questione nel vault chiude su «tolti quei due restano cinquanta».
+**Obbligo esplicito per il lotto che canonizza la formazione sicurezza.**
+
+### E9 — Il `MOD-HR-11` esiste in archivio, ed è un ALTRO documento 🚫 **non scrivibile**
+
+`verbale_formazione_sicurezza_lavoratori_accordo_stato_regioni.txt`, riga 1: «**`MOD-HR-11`
+rev.2 - registro formazione**»; in calce: «**Registrazione su scadenzario formazione
+`MOD-HR-11` a cura di F. Sartori**».
+
+⚠️ **Due documenti diversi portano lo stesso codice di modulo**, e il secondo chiama
+«scadenzario formazione `MOD-HR-11`» proprio il file del lotto 3B: **il legame che tutte le note
+di 3B dichiarano «non affermato da nessuna fonte» È affermato** — e in contraddizione con
+l'intestazione dello stesso documento che lo afferma.
+
+⚠️ **E il corso non lascia traccia**: 16 ore il **14-15/04/2026**, 22 partecipanti, attestati
+`SBP-FORM-2026-0341`→`0360` — e il registro estratto il **18/05** non porta **nessuna** riga con
+quella data. 🚫 Il grezzo non è canonizzato: **obbligo esplicito per il suo lotto**, che dovrà
+tornare su **E5**, **E8** e su `doc-scadenzario-formazione-2026`.
+
+### E10 — L'addestramento chiesto per un reparto, registrato su una riga 🚫 **non scrivibile**
+
+`nota_infortunio_INAIL_operaio_linea3.txt`, sopralluogo del 04/05/2026, punto d):
+«l'addestramento documentato sulla movimentazione carrelli in cella non e' presente nel
+fascicolo (**`MOD-HR-11` privo della voce specifica**)»; richiesta 5: «inserimento
+dell'addestramento specifico a registro **per tutti gli addetti Linea 3 e magazzino**».
+`registro_presenze_corsi_HACCP_scaduti.csv` riga 47: l'annotazione «addestramento carrelli cella
+**DA REGISTRARE** (nota RSPP 05/05)» compare **su una riga sola**, quella dell'infortunato.
+
+**Nessuno.** ⚠️ Terza fonte indipendente che tratta il `MOD-HR-11` come **il registro dei
+titoli**, e una prescrizione del RSPP eseguita su una frazione del perimetro chiesto.
+
+### E11 — Un divieto operativo dichiarato, e nessun atto che lo chiuda 🚫 **non scrivibile**
+
+`registro_presenze_corsi_HACCP_scaduti.csv` riga 71: «Preda Radu;Magazziniere;Carrello elevatore
+12h;10/04/2021;**10/04/2026**;SCADUTO;CFP Veneto Sicuro;**NON ABILITATO ALLA GUIDA fino a
+rinnovo - avvisato Faggionato 05/05**».
+`log_timbrature_fabbrica_maggio_settimana2.csv`: `0603;PREDA RADU` in turno `MAGAZZ. T2` il 04,
+05, 06, 07, 08 e **domenica 10/05/2026**.
+
+**Nessuno, forza media.** Le timbrature **non dicono che abbia guidato**, e nessun documento
+registra il rinnovo: resta **un divieto scritto senza un atto che lo chiuda**. 🚫 Le timbrature
+non sono canonizzate.
+
+### E12 — Il testo barrato è contenuto revocato, e il §6 non lo elenca fra i tratti del corpus
+
+Politica: il nono impegno — «perseguire la crescita del fatturato quale obiettivo primario
+dell'organizzazione» — sta **nel flusso del testo** ed è **barrato**;
+`scheda_allergeni_matrice_cross_contamination_rev6.docx` porta **quattro** frammenti barrati e
+dichiara «modifiche non accettate presenti nel documento»;
+`contratto_manutenzione_impianto_frigo_TS01.docx` le dichiara in testa.
+
+⚠️ **Un'estrazione che non porta il barrato legge nove impegni invece di otto**, e restituisce
+**con citazione vera** l'esatta frase che il consulente ha fatto togliere perché «in audit è un
+rilievo servito su un piatto». **Va al §6**, accanto a OCR, encoding e date multiformato.
+
+### E13 — Il quarto quasi-omografo Peruzzi
+
+`Peruzzi Erika`, operaia Linea 2, `HACCP base` 05/05/2024→05/05/2027, «CESSATA 19/04 - riga da
+eliminare» (`registro_presenze_corsi_HACCP_scaduti.csv` riga 101), accanto a **Peruffo Maria
+Grazia** (visura), **Peruzzi Maurizio** (bilancio) e **Attilio Peruffo** (Frigotecnica). ⚠️ **La
+famiglia sale a quattro nel vault**, e a sei nel corpus: 🚫 `PERUZZI Loris` e 🚫 `Peruzzi
+Luciano` stanno in due grezzi non canonizzati. **Classe B della tabella alias: non si uniscono
+mai.**

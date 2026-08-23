@@ -1,0 +1,1347 @@
+PACCHETTO PER LA REVISIONE COL CANONE - lotto 3B (politica e formazione)
+==============================================================================
+Le 22 note NATE nel lotto piu' la nota preesistente corretta dalla riconciliazione verticale.
+Le note hanno gia' attraversato TRE giri di giudizio (E26).
+==============================================================================
+
+
+------------------------------------------------------------------------------
+>>>>> NOTA DA REVISIONARE: area-risorse-umane.md
+------------------------------------------------------------------------------
+---
+title: "Risorse umane — formazione obbligatoria, organico e i titoli che scadono"
+summary: "L'area che presidia chi lavora in Aurora e che cosa deve saper fare per farlo: la formazione obbligatoria e le sue scadenze, il perimetro di chi va formato, e quanto il registro dei titoli copra davvero l'organico."
+type: hub
+area: risorse-umane
+tags: [areas, risorse-umane, formazione, organico, scadenzario]
+fonti:
+  - registro_presenze_corsi_HACCP_scaduti.csv
+  - manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt
+stato: aperto
+data_nota: 2026-08-23
+related: "[[_index-areas]], [[area-qualita]], [[doc-scadenzario-formazione-2026]], [[entita-federica-sartori]]"
+---
+
+# Risorse umane
+
+Il presidio di **chi lavora in Aurora e di che cosa deve saper fare per farlo**: la formazione
+obbligatoria, le sue scadenze, e il perimetro di chi vada formato.
+
+⚠️ **L'area si apre con lo scadenzario della formazione**, che è di HR e riguarda la qualità.
+
+⚠️ **E la formazione non è solo di quest'area**: il manuale HACCP la porta come **prerequisito
+del sistema** — `PRP-04`, «Igiene e formazione del personale» — ed è la ragione per cui molte
+delle note qui sotto guardano anche a [[area-qualita]].
+
+## Il documento che tiene i titoli
+
+- [[doc-scadenzario-formazione-2026]] — l'estrazione del 18/05/2026 da `formazione_master.xlsx`: che cos'è, che cosa non è, e perché non è detto che sia il `MOD-HR-11` che la prescrizione nomina.
+- [[fatto-registro-formazione-intestazione-ripetuta]] — l'intestazione ripetuta a metà file e le righe di coda dentro la tabella.
+
+### Che cosa dice, contato
+
+- [[kpi-formazione-stati-al-18-05]] — 70 validi, 17 scaduti, 6 in scadenza, 3 senza stato.
+- [[fatto-diciassette-titoli-scaduti-al-18-05]] — diciassette persone diverse, e dieci sono una sessione HACCP del 2023 scaduta in blocco.
+- [[kpi-enti-formatori-e-corsi]] — sei enti, quattordici corsi, due filiere che non si toccano.
+- [[fatto-squadra-emergenza-antincendio-in-scadenza]] — tre titoli antincendio allo stesso 30/06, uno sul turno di notte.
+- [[fatto-due-sessioni-formative-programmate-per-il-09-06]] — una sessione prenotata, una da confermare, venti posti.
+- [[fatto-in-scadenza-cinque-o-sei]] — il totale dichiara cinque e la colonna ne marca sei: il totale ha ragione, la colonna no.
+
+### La formazione allergeni, dove la prescrizione e il registro non tornano
+
+- [[fatto-formazione-allergeni-registrata-biennale]] — cinque righe del 09/10/2025, registrate a due anni dove la scheda ne prescrive uno.
+- [[fatto-validita-haccp-da-procedura-non-in-archivio]] — i tre anni dell'HACCP vengono da una procedura che l'archivio non ha.
+
+## Il perimetro: chi va formato
+
+- [[fatto-quattro-righe-di-perimetro-incerto-nel-registro]] — una cessata, un agente, il datore di lavoro e una tirocinante: quattro righe che portano una domanda.
+- [[entita-federica-sartori]] — chi estrae il registro e chi affigge la politica.
+
+## Questioni aperte
+
+- [[questione-ore-formazione-due-valori-per-il-2025]] — 4,2 nella politica e 6,2 nel riesame per lo stesso anno, con due obiettivi diversi.
+- [[questione-sessioni-allergeni-2026-non-a-registro]] — le sessioni che la scheda dà per erogate non hanno una riga nel registro.
+- [[questione-cinquanta-o-cinquantadue-persone]] — quante persone lavorano in Aurora, secondo due documenti che non contano la stessa cosa.
+
+## Fonti
+
+- [[registro_presenze_corsi_HACCP_scaduti.csv]] — riga 1, «SCADENZARIO FORMAZIONE OBBLIGATORIA - AURORA FOOD GROUP SRL».
+- [[manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt]] — §9.1, «PRP-04 Igiene e formazione del personale (MOD-HR-11 registro formazione; visite».
+
+------------------------------------------------------------------------------
+>>>>> NOTA DA REVISIONARE: doc-politica-qualita-2026.md
+------------------------------------------------------------------------------
+---
+title: "La Politica per la qualità e la sicurezza alimentare 2026 è il DOC-QA-01 rev. 8, emesso il 12/01/2026"
+summary: "Il documento che dichiara gli impegni della Direzione: otto impegni, quattro sulla cultura della sicurezza alimentare, i piani food defense e food fraud, nove obiettivi misurabili con target 2026, e il riesame almeno annuale."
+type: atomica
+area: qualita
+tags: [docs, qualita, politica, doc-qa-01, brcgs]
+fonti:
+  - politica_qualita_e_sicurezza_alimentare_2026.docx
+stato: risolto
+aliases: ["DOC-QA-01", "Politica per la qualità 2026"]
+data_fatto: 2026-01-12
+data_nota: 2026-08-23
+related: "[[area-qualita]], [[_index-docs]], [[fatto-politica-otto-impegni-e-il-nono-ritirato]], [[fatto-politica-cultura-sicurezza-alimentare]], [[fatto-politica-food-defense-e-food-fraud]], [[kpi-obiettivi-politica-2026]], [[fatto-politica-firmata-il-15-01]], [[entita-elena-marchetti]]"
+---
+
+# Il documento, e che cosa contiene
+
+| Voce | Valore |
+|---|---|
+| Codice | **`DOC-QA-01` rev. 8** |
+| Emissione | **12/01/2026** |
+| Distribuzione | bacheche di reparto, sala riunioni, intranet, **copia ai nuovi assunti col pacchetto di ingresso** |
+| Riga della firma | «Il Legale Rappresentante — Amministratore Delegato», **Giancarlo Bertoldi** — ⚠️ e lo **spazio della firma è vuoto** nel documento |
+
+**Sei parti** *(contate)*: gli impegni della Direzione, la cultura della sicurezza alimentare,
+food defense e food fraud, gli obiettivi misurabili 2026, la comunicazione, il riesame.
+
+## Perché conta
+
+**È il documento in cui l'azienda dichiara che cosa vuole**, e lo dichiara in forma
+azionabile: la frase con cui si chiude è una regola decisionale — «nessun obiettivo di
+produzione, di costo o di consegna giustifica una deroga alla sicurezza degli alimenti» — e
+non un proposito.
+
+## Che cosa la revisione 8 ha cambiato, e su richiesta di chi
+
+⚠️ **Il documento porta un'annotazione firmata Marchetti E.** — che la revisione l'abbia
+scritta lei il documento non lo dice — e quell'annotazione elenca che cosa la revisione 8 ha
+cambiato: «aggiornati gli obiettivi numerici 2026 e rafforzato il paragrafo sulla cultura della
+sicurezza alimentare». **L'annotazione attribuisce la seconda modifica a una richiesta dello standard** — `BRCGS
+Issue 9, cl. 1.1.2` — e questo è quanto il documento dice: che la richiesta esista, il
+documento non la porta.
+
+⚠️ **La stessa annotazione porta un'istruzione sull'ordine dei gesti**: «Da far firmare al
+titolare PRIMA della riunione di riesame di gennaio, non dopo come l'anno scorso»
+([[fatto-politica-firmata-il-15-01]]). ⚠️ **E la copia da cui questo testo viene la firma non
+ce l'ha**: lo spazio è una riga di trattini.
+
+## Il riesame e la comunicazione, come il documento li prescrive
+
+**Riesame** almeno una volta l'anno nel riesame di direzione, «e comunque al verificarsi di
+cambiamenti significativi di processo, prodotto, mercato o normativa»; verifica adeguatezza,
+grado di raggiungimento degli obiettivi e disponibilità delle risorse.
+
+**Comunicazione**: affissione in bacheca, illustrazione a ogni nuovo assunto, richiamo nelle
+sessioni di formazione annuali, disponibilità alle parti esterne che ne facciano richiesta, e
+incontri di reparto **almeno semestrali** sull'andamento degli obiettivi.
+
+## Fonti
+
+- [[politica_qualita_e_sicurezza_alimentare_2026.docx]] — §intestazione, «Documento DOC-QA-01 rev. 8 — emissione 12/01/2026 — distribuzione: bacheche di reparto, sala riunioni, intranet, copia ai nuovi assunti con il pacchetto di ingresso»; §intestazione, annotazione: «aggiornati gli obiettivi numerici 2026 e rafforzato il paragrafo sulla cultura della sicurezza alimentare (richiesta esplicita BRCGS Issue 9, cl. 1.1.2)» e «Da far firmare al titolare PRIMA della riunione di riesame di gennaio, non dopo come l'anno scorso»; §RIESAME, «e comunque al verificarsi di cambiamenti significativi di processo, prodotto, mercato o normativa»; §COMUNICAZIONE, «Gli obiettivi e il loro andamento sono comunicati al personale con incontri di reparto almeno semestrali»; §chiusura, «nessun obiettivo di produzione, di costo o di consegna giustifica una deroga alla sicurezza degli alimenti».
+
+------------------------------------------------------------------------------
+>>>>> NOTA DA REVISIONARE: doc-scadenzario-formazione-2026.md
+------------------------------------------------------------------------------
+---
+title: "Lo scadenzario della formazione obbligatoria è un'estrazione del 18/05/2026 da formazione_master.xlsx, e porta 96 righe di dato"
+summary: "Il file dichiara di essere l'estrazione del 18/05/2026 dal foglio 2 di formazione_master.xlsx a cura di f.sartori; porta 96 righe di dato (contate) su 52 dipendenti, 30 mansioni, 14 corsi e 6 enti formatori, con lo stato di ciascun titolo."
+type: atomica
+area: risorse-umane
+tags: [docs, risorse-umane, formazione, scadenzario, mod-hr-11]
+fonti:
+  - registro_presenze_corsi_HACCP_scaduti.csv
+  - manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt
+stato: risolto
+aliases: ["scadenzario formazione", "formazione_master.xlsx"]
+data_fatto: 2026-05-18
+data_nota: 2026-08-23
+related: "[[area-risorse-umane]], [[_index-docs]], [[kpi-formazione-stati-al-18-05]], [[fatto-validita-haccp-da-procedura-non-in-archivio]], [[entita-francesca-sartori]], [[area-qualita]]"
+---
+
+# Che cos'è questo file, e che cosa non è
+
+| Voce | Valore |
+|---|---|
+| Titolo | «SCADENZARIO FORMAZIONE OBBLIGATORIA - AURORA FOOD GROUP SRL» |
+| Origine dichiarata | «estrazione del 18/05/2026 da file formazione_master.xlsx foglio 2 - f.sartori» |
+| Righe di dato | **96** *(contate)* |
+| Dipendenti distinti | **52** *(contati)* · Mansioni **30** *(contate)* |
+| Corsi distinti | **14** *(contati)* · Enti formatori **6** *(contati)*, piu' una riga senza ente |
+
+**Otto colonne**: `Dipendente`, `Mansione`, `Corso`, `Data corso`, `Scadenza`, `Stato`,
+`Ente formatore`, `Note`.
+
+## ⚠️ È una fotografia, e il file dice di che cosa
+
+**Il padrone del dato non è questo file**: è `formazione_master.xlsx`, foglio 2, che il file
+nomina e che **non è fra le fonti di questa nota**. Questo è un estratto a una data, e ogni
+conclusione che se ne trae vale **al 18/05/2026**.
+
+⚠️ **E non ha una colonna delle ore**: ha corsi, date, scadenze e stati. **L'indicatore
+«ore/addetto/anno» non si ricava da questo file**, e dove quell'indicatore diverga lo dice
+[[questione-ore-formazione-due-valori-per-il-2025]].
+
+## Il registro che la prescrizione nomina, e se sia questo
+
+⚠️ **Il manuale HACCP prescrive `MOD-HR-11` come registro della formazione**, dentro il
+prerequisito `PRP-04`, e **quella sigla non compare in nessuna delle 96 righe di questo file**.
+Che lo scadenzario sia il `MOD-HR-11`, una sua vista o un documento diverso, **nessuna delle due
+fonti di questa nota lo dichiara** ([[doc-manuale-haccp]]).
+
+## Le quattro righe di coda, che dati non sono
+
+Il file si chiude con quattro righe fuori tabella: due totali dichiarati
+([[kpi-formazione-stati-al-18-05]]) e due sessioni programmate
+([[fatto-due-sessioni-formative-programmate-per-il-09-06]]).
+
+## Fonti
+
+- [[registro_presenze_corsi_HACCP_scaduti.csv]] — riga 1, «SCADENZARIO FORMAZIONE OBBLIGATORIA - AURORA FOOD GROUP SRL»; riga 2, «estrazione del 18/05/2026 da file formazione_master.xlsx foglio 2 - f.sartori»; riga 4, intestazione «Dipendente;Mansione;Corso;Data corso;Scadenza;Stato;Ente formatore;Note».
+- [[manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt]] — §9.1, «PRP-04 Igiene e formazione del personale (MOD-HR-11 registro formazione; visite».
+
+------------------------------------------------------------------------------
+>>>>> NOTA DA REVISIONARE: entita-federica-sartori.md
+------------------------------------------------------------------------------
+---
+title: "Sartori Federica risulta HR e segreteria, e le due iniziali che firmano scadenzario e politica sono verosimilmente le sue"
+summary: "Il registro porta due righe intestate a Sartori Federica, mansione HR e segreteria; l'estrazione del 18/05/2026 e' firmata «f.sartori» e l'annotazione alla politica «Sartori F.», e che si tratti della stessa persona questa nota lo dichiara come inferenza."
+type: entita
+area: risorse-umane
+tags: [entities, risorse-umane, formazione, politica, persone]
+fonti:
+  - registro_presenze_corsi_HACCP_scaduti.csv
+  - politica_qualita_e_sicurezza_alimentare_2026.docx
+stato: aperto
+aliases: ["Sartori F.", "f.sartori", "Federica"]
+data_nota: 2026-08-23
+related: "[[area-risorse-umane]], [[_index-entities]], [[doc-scadenzario-formazione-2026]], [[fatto-politica-firmata-il-15-01]], [[entita-elena-marchetti]]"
+---
+
+# Identificazione
+
+| Voce | Valore |
+|---|---|
+| Come compare | «**f.sartori**» *(riga 2 dello scadenzario)* · «**Sartori Federica**» *(righe 93 e 94)* · «**Sartori F.**» *(annotazione alla politica)* |
+| Ruolo dichiarato | **«HR e segreteria»**, nelle due righe che il registro le intesta |
+
+**Il registro la porta due volte come dipendente**, con mansione «HR e segreteria»: `Sicurezza
+generale + specifica basso 8h` valido al 12/09/2028 e `HACCP base` valido al 12/06/2027.
+
+⚠️ **Che «f.sartori» dell'intestazione, «Sartori Federica» delle due righe e «Sartori F.»
+dell'annotazione alla politica siano la stessa persona è un'INFERENZA di questa nota**, fondata
+sull'iniziale e sulla mansione. **Le due fonti di questa nota non le mettono una accanto
+all'altra.**
+
+## Dove compare
+
+| Documento | Che cosa fa |
+|---|---|
+| **Scadenzario formazione** | ne è l'estrattore: «estrazione del 18/05/2026 da file formazione_master.xlsx foglio 2 - f.sartori» ([[doc-scadenzario-formazione-2026]]) |
+| **Politica `DOC-QA-01` rev. 8** | firma l'annotazione che data firma e affissione, e segnala la copia staccata in Linea 3 ([[fatto-politica-firmata-il-15-01]]) |
+
+## Da non confondere con
+
+- ⚠️ **Le altre annotazioni della politica sono di altri**: la revisione 8 e la frase sulla
+  cultura sono di Marchetti E. ([[entita-elena-marchetti]]), il punto 9 da togliere è di
+  Vicentini C. ([[entita-chiara-vicentini]]), il 78 % ricontrollato è di Pozzato S.
+
+## Questioni aperte
+
+- ⚠️ **La mansione è dichiarata, la responsabilità sui due documenti no.** Che sia lei a
+  estrarre lo scadenzario e ad affiggere la politica lo dicono le due righe citate; che questo
+  discenda dal ruolo, o che il ruolo comporti altro, **le fonti di questa nota non lo dicono**.
+
+## Fonti
+
+- [[registro_presenze_corsi_HACCP_scaduti.csv]] — riga 2, «estrazione del 18/05/2026 da file formazione_master.xlsx foglio 2 - f.sartori»; riga 93, «Sartori Federica;HR e segreteria;Sicurezza generale + specifica basso 8h;12/09/2023;12/09/2028;VALIDO;Bonato & Partners;»; riga 94, «Sartori Federica;HR e segreteria;HACCP base;12/06/2024;12/06/2027;VALIDO;Studio Alimentaria (Vicentini);».
+- [[politica_qualita_e_sicurezza_alimentare_2026.docx]] — §chiusura, annotazione: «firmata dal titolare il 15/01, l'originale è nel raccoglitore DOC-QA in qualità. Ho appeso le copie nelle bacheche il 16/01».
+
+------------------------------------------------------------------------------
+>>>>> NOTA DA REVISIONARE: fatto-politica-otto-impegni-e-il-nono-ritirato.md
+------------------------------------------------------------------------------
+---
+title: "La Politica per la qualità impegna la Direzione su otto punti, e il nono — la crescita del fatturato — è barrato"
+summary: "L'elenco «I NOSTRI IMPEGNI» del DOC-QA-01 rev. 8 porta otto impegni in vigore; un nono, «perseguire la crescita del fatturato quale obiettivo primario dell'organizzazione», è barrato nel documento, con l'annotazione di chi ne ha chiesto la rimozione."
+type: atomica
+area: qualita
+tags: [areas, docs, qualita, politica, doc-qa-01, barrato]
+fonti:
+  - politica_qualita_e_sicurezza_alimentare_2026.docx
+stato: risolto
+aliases: []
+data_fatto: 2026-01-12
+data_nota: 2026-08-23
+related: "[[area-qualita]], [[doc-politica-qualita-2026]], [[entita-chiara-vicentini]], [[fatto-politica-cultura-sicurezza-alimentare]]"
+---
+
+# Gli otto impegni in vigore
+
+La Direzione si impegna a:
+
+| # | Impegno, in breve |
+|---|---|
+| 1 | immettere sul mercato solo prodotti **sicuri, legali, autentici** e conformi alle specifiche concordate |
+| 2 | mantenere il sistema conforme a **BRCGS Food Safety** *(grade AA)* e **IFS Food** *(Higher Level)*, certificato da ente terzo accreditato |
+| 3 | rispettare la legislazione alimentare, con riferimento ai **Reg. (CE) 178/2002 e 852/2004** e all'etichettatura e allergeni |
+| 4 | assicurare le risorse, «come dimostrato dal piano investimenti 2026 che destina alla Linea 3 il rinnovo completo del processo di surgelazione» |
+| 5 | gestire i rischi **secondo la metodologia HACCP**, presidiando i CCP e i prerequisiti, allergeni compresi |
+| 6 | trattare ogni reclamo come occasione di miglioramento, **secondo la procedura `PRO-QA-08`** |
+| 7 | selezionare e monitorare i fornitori secondo criteri documentati |
+| 8 | promuovere a tutti i livelli una **cultura positiva della sicurezza alimentare** |
+
+## ⚠️ Il nono impegno c'è, ed è barrato
+
+> «9. perseguire la crescita del fatturato quale obiettivo primario dell'organizzazione.»
+
+**Nel documento quella riga è BARRATA**, e accanto porta l'annotazione di chi ne ha chiesto la
+rimozione: «punto 9 da togliere: in una politica per la qualità l'obiettivo primario dichiarato
+non può essere il fatturato, in audit è un rilievo servito su un piatto. La crescita sta nel
+budget, non qui» ([[entita-chiara-vicentini]]).
+
+⚠️ **Il barrato è contenuto revocato, e questa nota lo dichiara**: gli impegni in vigore sono
+**otto** *(contati)*, e il nono è una **proposta ritirata**, non un impegno dell'azienda. Il documento che
+li porta è [[doc-politica-qualita-2026]].
+
+⚠️ **La riga barrata chiude la sequenza, numerata come le altre otto**: nel documento la
+distinguono il tratto che la cancella e l'annotazione che ne chiede la rimozione.
+
+## Fonti
+
+- [[politica_qualita_e_sicurezza_alimentare_2026.docx]] — §I NOSTRI IMPEGNI, punti 1-8: «immettere sul mercato esclusivamente prodotti sicuri, legali, autentici e conformi alle specifiche concordate con i clienti», «mantenere e migliorare un sistema di gestione conforme agli standard BRCGS Food Safety (attuale grade AA) e IFS Food (attuale Higher Level), certificato da ente terzo accreditato», «rispettare la legislazione alimentare applicabile, con particolare riferimento ai Reg. (CE) 178/2002 e 852/2004», «come dimostrato dal piano investimenti 2026 che destina alla Linea 3 il rinnovo completo del processo di surgelazione», «gestire i rischi per la sicurezza alimentare secondo la metodologia HACCP, presidiando i punti critici di controllo identificati e i programmi di prerequisito, inclusa la gestione degli allergeni», «trattando ogni reclamo come un'occasione di miglioramento secondo la procedura PRO-QA-08», «selezionare e monitorare i fornitori di materie prime, imballi e servizi secondo criteri documentati di sicurezza e affidabilità», «promuovere a tutti i livelli una cultura positiva della sicurezza alimentare»; §I NOSTRI IMPEGNI, punto 9 **barrato**: «perseguire la crescita del fatturato quale obiettivo primario dell'organizzazione»; annotazione a margine: «in una politica per la qualità l'obiettivo primario dichiarato non può essere il fatturato, in audit è un rilievo servito su un piatto. La crescita sta nel budget, non qui».
+
+------------------------------------------------------------------------------
+>>>>> NOTA DA REVISIONARE: fatto-politica-cultura-sicurezza-alimentare.md
+------------------------------------------------------------------------------
+---
+title: "La politica impegna la Direzione su quattro gesti di cultura della sicurezza alimentare, e uno è la segnalazione senza conseguenze"
+summary: "Il paragrafo sulla cultura, rafforzato nella revisione 8 su richiesta dello standard, impegna la Direzione a garantire la segnalazione senza timore di conseguenze, a misurare la cultura con un questionario anonimo annuale, a verificare l'efficacia della formazione e a dare l'esempio nei sopralluoghi."
+type: atomica
+area: qualita
+tags: [areas, docs, qualita, politica, cultura-sicurezza, formazione]
+fonti:
+  - politica_qualita_e_sicurezza_alimentare_2026.docx
+  - scheda_allergeni_matrice_cross_contamination.docx
+stato: risolto
+aliases: []
+data_fatto: 2026-01-12
+data_nota: 2026-08-23
+related: "[[area-qualita]], [[doc-politica-qualita-2026]], [[fatto-politica-otto-impegni-e-il-nono-ritirato]], [[kpi-obiettivi-politica-2026]], [[entita-elena-marchetti]], [[area-risorse-umane]]"
+---
+
+# I quattro impegni sulla cultura *(contati: il documento li elenca senza numerarli)*
+
+Il paragrafo si apre dichiarando che la sicurezza alimentare «non sia responsabilità del solo
+ufficio Qualità, ma il risultato dei gesti quotidiani di ognuna delle **50 persone** che
+lavorano in Aurora».
+
+| # | L'impegno |
+|---|---|
+| 1 | che **ogni persona, a ogni livello, possa segnalare** un problema, un dubbio o un errore — proprio o altrui — **senza timore di conseguenze** |
+| 2 | **misurare annualmente** la cultura col **questionario anonimo** al personale, discuterne gli esiti nel riesame di direzione, con un piano di azioni dedicato |
+| 3 | che la formazione «non sia un adempimento ma un momento di comprensione»: linguaggio semplice, esempi dello stabilimento, e **efficacia verificata** — e **come** la si verifichi non lo dice la politica ma la scheda allergeni, §9.4 |
+| 4 | **dare l'esempio**: la Direzione partecipa ai sopralluoghi igienici programmati e rispetta per prima le regole di accesso |
+
+## ⚠️ Una frase è rivendicata da chi l'ha scritta, e dice perché
+
+> «preferiamo un lotto fermato per eccesso di prudenza a una firma messa per abitudine»
+
+**L'annotazione a margine la attribuisce, e la colloca senza datarla**: «la frase sulla firma "messa per
+abitudine" l'ho voluta io, dopo febbraio. Se qualcuno in produzione la legge e si riconosce,
+meglio: è scritta apposta» ([[entita-elena-marchetti]]).
+
+⚠️ **«Dopo febbraio» è la sola indicazione temporale che l'annotazione dà**, e questa nota non
+va oltre: a quale fatto di febbraio si riferisca il documento non lo dice.
+
+## Perché conta
+
+**Il secondo e il terzo impegno hanno un indicatore che li misura** — la partecipazione al
+questionario e le ore di formazione per addetto — e stanno nella stessa tabella degli obiettivi
+([[kpi-obiettivi-politica-2026]]). ⚠️ **Non sono i soli impegni misurati** — la tabella misura
+anche le certificazioni e i reclami — **ma sono i due che la tabella collega al paragrafo sulla
+cultura**, quello che la revisione 8 ha rafforzato su richiesta dello standard.
+
+## Fonti
+
+- [[scheda_allergeni_matrice_cross_contamination.docx]] — §9.4, «L'efficacia della formazione e' verificata con questionario e con le».
+- [[politica_qualita_e_sicurezza_alimentare_2026.docx]] — §LA CULTURA DELLA SICUREZZA ALIMENTARE, «Crediamo che la sicurezza alimentare non sia responsabilità del solo ufficio Qualità», «ognuna delle 50 persone che lavorano in Aurora», «garantire che ogni persona, a ogni livello, possa segnalare un problema, un dubbio o un errore», «senza timore di conseguenze: preferiamo un lotto fermato per eccesso di prudenza a una firma messa per abitudine», «misurare annualmente la cultura della sicurezza alimentare attraverso il questionario anonimo al personale», «assicurare che la formazione non sia un adempimento ma un momento di comprensione», «dare l'esempio: la Direzione partecipa ai sopralluoghi igienici programmati»; annotazione a margine: «la frase sulla firma "messa per abitudine" l'ho voluta io, dopo febbraio».
+
+------------------------------------------------------------------------------
+>>>>> NOTA DA REVISIONARE: fatto-politica-food-defense-e-food-fraud.md
+------------------------------------------------------------------------------
+---
+title: "La politica dichiara attivi un piano di food defense e uno di vulnerabilità alle frodi, riesaminati almeno annualmente"
+summary: "Il DOC-QA-01 rev. 8 dichiara attivi un piano di food defense — aree sensibili, accessi, visitatori e appaltatori — e un piano di valutazione della vulnerabilità alle frodi sulle materie prime, con quattro categorie a maggior rischio nominate (contate), entrambi riesaminati almeno annualmente da un team dedicato."
+type: atomica
+area: qualita
+tags: [areas, docs, qualita, politica, food-defense, food-fraud, materie-prime]
+fonti:
+  - politica_qualita_e_sicurezza_alimentare_2026.docx
+stato: risolto
+aliases: []
+data_fatto: 2026-01-12
+data_nota: 2026-08-23
+related: "[[area-qualita]], [[doc-politica-qualita-2026]], [[fatto-politica-otto-impegni-e-il-nono-ritirato]], [[doc-manuale-haccp]]"
+---
+
+# I due piani, come la politica li descrive
+
+| Piano | Che cosa copre, secondo il documento |
+|---|---|
+| **Food defense** | prevenire «atti intenzionali di contaminazione o sabotaggio»: valutazione delle aree sensibili, controllo degli accessi, gestione dei visitatori e degli appaltatori |
+| **Food fraud** | valutazione della **vulnerabilità alle frodi alimentari sulle materie prime** |
+
+**Le categorie a maggior rischio, nominate una per una**: farine, burro, olio di girasole alto
+oleico, prodotti biologici — **quattro** *(contate)*, che il documento elenca senza contarle.
+
+**Entrambi** sono «riesaminati almeno annualmente dal team dedicato e aggiornati al variare
+delle condizioni di fornitura».
+
+## ⚠️ Che i piani esistano è quanto questa nota può dire
+
+**La politica li dichiara attivi**, e questa è l'affermazione: nessuno dei due piani è fra le
+fonti di questa nota, e questa nota **non dice nulla del loro contenuto** oltre a ciò che la
+politica ne riassume.
+
+⚠️ **Nemmeno la composizione del «team dedicato» è dichiarata qui**, né la data dell'ultimo
+riesame.
+
+## Perché conta
+
+**È il punto in cui [[doc-politica-qualita-2026]] nomina le MATERIE PRIME una per una**: altrove
+parla di «fornitori di materie prime, imballi e servizi» in generale, e nell'incipit nomina
+invece le categorie di **prodotto finito** — «prodotti da forno farciti e snack salati in
+atmosfera protettiva e croissanteria surgelata». Le quattro nominate sono quelle su
+cui l'azienda dichiara di concentrare la valutazione di vulnerabilità.
+
+## Fonti
+
+- [[politica_qualita_e_sicurezza_alimentare_2026.docx]] — §FOOD DEFENSE E FOOD FRAUD, «L'azienda mantiene attivi un piano di food defense, per prevenire atti intenzionali di contaminazione o sabotaggio», «(valutazione delle aree sensibili, controllo degli accessi, gestione dei visitatori e degli appaltatori)», «un piano di valutazione della vulnerabilità alle frodi alimentari sulle materie prime», «con particolare attenzione alle categorie a maggior rischio per il nostro processo (farine, burro, olio di girasole alto oleico, prodotti biologici)» e «Entrambi i piani sono riesaminati almeno annualmente dal team dedicato e aggiornati al variare delle condizioni di fornitura».
+
+------------------------------------------------------------------------------
+>>>>> NOTA DA REVISIONARE: fatto-politica-firmata-il-15-01.md
+------------------------------------------------------------------------------
+---
+title: "L'annotazione data la firma della politica al 15/01 e l'affissione al 16/01, e in Linea 3 qualcuno l'ha staccata per appenderci i turni"
+summary: "L'annotazione a chiusura del documento data la firma del titolare al 15/01, l'affissione delle copie in bacheca al 16/01 e la riaffissione della copia di Linea 3 al 20/01, dopo che era stata staccata per fare posto ai turni."
+type: atomica
+area: qualita
+tags: [areas, docs, qualita, politica, comunicazione, bacheche]
+fonti:
+  - politica_qualita_e_sicurezza_alimentare_2026.docx
+stato: risolto
+aliases: []
+data_fatto: 2026-01-20
+data_nota: 2026-08-23
+related: "[[area-qualita]], [[doc-politica-qualita-2026]], [[entita-federica-sartori]], [[fatto-politica-cultura-sicurezza-alimentare]]"
+---
+
+# La catena, come l'annotazione la data
+
+| Quando | Che cosa |
+|---|---|
+| **15/01** | il titolare firma; l'originale è «nel raccoglitore `DOC-QA` in qualità» |
+| **16/01** | le copie sono appese nelle bacheche |
+| **20/01** | la copia della **Linea 3** è riappesa, dopo essere stata staccata |
+
+## ⚠️ Perché la terza riga vale quanto le prime due
+
+Il documento **elenca l'affissione in bacheca** fra le vie con cui la politica è comunicata al
+personale ([[doc-politica-qualita-2026]]). Nei giorni in cui la comunicazione parte, in un reparto **la bacheca è stata usata per altro**: «Quella della Linea 3
+qualcuno l'ha staccata per appenderci i turni: riappesa il 20/01, tenere d'occhio».
+
+⚠️ **Quanto sia rimasta staccata l'annotazione non lo dice**, né se sia successo di nuovo dopo
+il 20/01: «tenere d'occhio» è una raccomandazione a chi scrive, non una registrazione.
+
+## L'ordine dei gesti era stato prescritto, e se ne verifica una metà
+
+L'annotazione della revisione 8 chiedeva di far firmare il titolare **prima** della riunione di
+riesame di gennaio, «non dopo come l'anno scorso». **La firma è del 15/01.**
+
+⚠️ **Che quella riunione si sia tenuta, e quando, questo documento non lo scrive**: la
+prescrizione è verificabile solo per la metà che il documento porta — la data della firma — e
+questa nota non va oltre. Il riesame di direzione ha la sua nota padrona
+([[doc-riesame-direzione-2026]]).
+
+## Fonti
+
+- [[politica_qualita_e_sicurezza_alimentare_2026.docx]] — §chiusura, annotazione: «firmata dal titolare il 15/01, l'originale è nel raccoglitore DOC-QA in qualità. Ho appeso le copie nelle bacheche il 16/01. Quella della Linea 3 qualcuno l'ha staccata per appenderci i turni: riappesa il 20/01, tenere d'occhio.»; §intestazione, annotazione: «Da far firmare al titolare PRIMA della riunione di riesame di gennaio, non dopo come l'anno scorso»; §COMUNICAZIONE, «La presente Politica è affissa nelle bacheche di reparto».
+
+------------------------------------------------------------------------------
+>>>>> NOTA DA REVISIONARE: kpi-obiettivi-politica-2026.md
+------------------------------------------------------------------------------
+---
+title: "La politica 2026 fissa nove obiettivi misurabili, col target e un responsabile, e per uno il valore di partenza manca"
+summary: "La tabella degli obiettivi del DOC-QA-01 rev. 8 porta nove righe con indicatore, valore 2025, target 2026 e responsabile: quattro sono di RSGQ, una di HR e RSGQ, una della Direzione, una del Resp. Produzione, una della Manutenzione e una di tutte le funzioni; e un indicatore parte da «non misurato»."
+type: atomica
+area: qualita
+tags: [data, qualita, politica, obiettivi, kpi]
+fonti:
+  - politica_qualita_e_sicurezza_alimentare_2026.docx
+stato: risolto
+aliases: []
+data_fatto: 2026-01-12
+data_nota: 2026-08-23
+related: "[[area-qualita]], [[doc-politica-qualita-2026]], [[questione-ore-formazione-due-valori-per-il-2025]], [[fatto-politica-cultura-sicurezza-alimentare]], [[kpi-indicatori-2025-consuntivo]]"
+---
+
+# I nove obiettivi *(contati)*, come la politica li scrive
+
+| Obiettivo | Indicatore | Valore 2025 | Target 2026 | Responsabile |
+|---|---|---|---|---|
+| Mantenimento certificazioni | esito audit BRCGS e IFS | AA / Higher Level 97,32% | conferma grade e livello | RSGQ |
+| Reclami cliente e consumatore | reclami per milione di confezioni | 9,4 | **< 8,0** | RSGQ |
+| Reclami critici (classe 1) | numero assoluto | 1 | **0** | RSGQ |
+| Non conformità audit interni | NC maggiori | 2 | **0** | RSGQ |
+| Chiusura azioni correttive | % chiuse entro scadenza | 78% | **≥ 95%** | tutte le funzioni |
+| Registrazioni CCP in seconda firma | % conformità a campione | **non misurato** | 100% | Resp. Produzione |
+| Formazione sicurezza alimentare | ore/addetto/anno | **4,2** | **≥ 6** | HR + RSGQ |
+| Cultura sicurezza alimentare | partecipazione questionario | 61% | ≥ 80% | Direzione |
+| Efficienza risorsa idrica CIP | m³ acqua/ton prodotto | 3,9 | ≤ 3,6 | Manutenzione |
+
+## ⚠️ Un indicatore parte da «non misurato»
+
+**Le registrazioni CCP verificate in seconda firma** hanno come valore 2025 la parola **«non
+misurato»** e come target il **100 %**: un obiettivo di piena conformità su una grandezza di
+cui la tabella **non porta il punto di partenza**. ⚠️ **Se sia deliberato o una casella
+rimasta vuota, il documento non lo dice.**
+
+## ⚠️ Un numero è rivendicato da chi l'ha ricontrollato
+
+Il **78 %** delle azioni correttive chiuse in scadenza porta l'annotazione: «il 78% delle azioni
+correttive chiuse in scadenza è il dato vero del registro 2025, l'ho ricontrollato. Fa
+impressione scritto qui, ma almeno il target 95% ha un senso».
+
+## ⚠️ Le ore di formazione non tornano con l'altro documento che le misura
+
+Il valore 2025 di questa tabella è **4,2** e il target **≥ 6**. ⚠️ **Il consuntivo del riesame
+di direzione, per lo stesso anno e lo stesso indicatore, ne dà un altro — e un altro obiettivo.**
+Il confronto ha la sua nota padrona: [[questione-ore-formazione-due-valori-per-il-2025]].
+
+## Fonti
+
+- [[politica_qualita_e_sicurezza_alimentare_2026.docx]] — §GLI OBIETTIVI MISURABILI PER IL 2026, righe della tabella: «Mantenimento certificazioni», «esito audit BRCGS e IFS», «AA / Higher Level 97,32%», «conferma grade e livello», «Reclami cliente e consumatore», «reclami per milione di confezioni», «Reclami critici (classe 1)», «Non conformità audit interni», «Chiusura azioni correttive», «% chiuse entro scadenza», «Registrazioni CCP verificate in seconda firma», «% conformità a campione», «non misurato», «Formazione sicurezza alimentare», «ore/addetto/anno», «Cultura sicurezza alimentare», «partecipazione questionario anonimo», «Efficienza risorsa idrica CIP», «m3 acqua/ton prodotto»; annotazione a margine: «il 78% delle azioni correttive chiuse in scadenza è il dato vero del registro 2025, l'ho ricontrollato. Fa impressione scritto qui, ma almeno il target 95% ha un senso».
+
+------------------------------------------------------------------------------
+>>>>> NOTA DA REVISIONARE: questione-ore-formazione-due-valori-per-il-2025.md
+------------------------------------------------------------------------------
+---
+title: "Le ore di formazione per addetto hanno due valori per il 2025 e due obiettivi per il 2026, in due documenti aziendali"
+summary: "La politica emessa il 12/01/2026 dà per il 2025 4,2 ore/addetto e fissa il target 2026 a «≥ 6»; il verbale del 12/03/2026 dà per lo stesso 2025 6,2 ore e un obiettivo di «>= 8», che scrive due volte. I due si muovono nello stesso verso, e il verbale la politica la nomina — ma senza confrontarne i numeri, e nessuno dei due dichiara come il valore sia ottenuto."
+type: conflitto
+area: qualita
+tags: [areas, qualita, formazione, kpi, divergenza, politica]
+fonti:
+  - politica_qualita_e_sicurezza_alimentare_2026.docx
+  - verbale_riesame_direzione_SGQ_2026.txt
+stato: aperto
+aliases: []
+data_fatto: 2026-03-12
+data_nota: 2026-08-23
+related: "[[area-qualita]], [[kpi-obiettivi-politica-2026]], [[kpi-indicatori-2025-consuntivo]], [[kpi-obiettivi-2026-avanzamento]], [[fatto-ore-formazione-crollate]], [[doc-politica-qualita-2026]], [[area-risorse-umane]]"
+---
+
+# Le versioni a confronto
+
+| Documento | Quando | Valore **2025** | Obiettivo **2026** |
+|---|---|---|---|
+| **Politica `DOC-QA-01` rev. 8** | emessa **12/01/2026** | **4,2** ore/addetto/anno | **≥ 6** |
+| **Verbale di riesame**, §5.1 e §10.1 | seduta del **12/03/2026** | **6,2** ore/addetto | **>= 8** |
+
+⚠️ **La divergenza è doppia**: non tornano né il consuntivo dell'anno chiuso né il traguardo
+di quello in corso. E **il verbale scrive «>= 8» in più punti** — al §5.1 come obiettivo contro
+cui misura il consuntivo 2025, al §10.1 come target 2026: dentro di sé è coerente.
+
+⚠️ **Non è una differenza di periodo né di unità**: entrambe le righe dichiarano il **2025** e
+le **ore per addetto**.
+
+## Perché non si sceglie
+
+⚠️ **Consuntivo e obiettivo si muovono NELLO STESSO VERSO**, e di due punti ciascuno: il
+consuntivo da **4,2** a **6,2**, l'obiettivo da **≥ 6** a **>= 8**. **Un dato rivisto al rialzo
+fra gennaio e marzo, con l'asticella alzata di conseguenza, è una lettura compatibile con
+entrambi i documenti** — e nessuno dei due la dichiara.
+
+⚠️ **Ma resta che due documenti aziendali danno per lo STESSO anno due valori diversi, e
+nessuno dei due dichiara come il valore sia ottenuto**: né il denominatore — quante teste — né
+che cosa conti come ora di formazione. ⚠️ **E il verbale la politica la nomina**, al §9.5:
+«riconfermata senza modifiche, ripubblicata in bacheca». **La nomina senza confrontarne i
+numeri.** Il registro della formazione, che
+sarebbe la fonte naturale del conto, **non ha una colonna delle ore**: ha corsi, date e
+scadenze ([[doc-scadenzario-formazione-2026]]).
+
+## Cosa servirebbe per chiuderla
+
+Il calcolo che porta al valore, oppure il file da cui il registro è estratto —
+`formazione_master.xlsx`, foglio 2. **Nessuno dei due è fra le fonti di questa nota.**
+
+## Fonti
+
+- [[politica_qualita_e_sicurezza_alimentare_2026.docx]] — §GLI OBIETTIVI MISURABILI PER IL 2026, riga «Formazione sicurezza alimentare», indicatore «ore/addetto/anno», valore 2025 «4,2», target «≥ 6», responsabile «HR + RSGQ».
+- [[verbale_riesame_direzione_SGQ_2026.txt]] — §5.1, «Tabella indicatori (consuntivo 2025 vs obiettivo):», riga «Ore formazione / addetto» con obiettivo «>= 8» e consuntivo «6,2»; §10.1, «Tabella obiettivi (con stato di avanzamento al 28/02):», riga «Ore formazione / addetto» con target «>= 8».
+
+------------------------------------------------------------------------------
+>>>>> NOTA DA REVISIONARE: questione-cinquanta-o-cinquantadue-persone.md
+------------------------------------------------------------------------------
+---
+title: "Politica e verbale dicono cinquanta persone, il registro della formazione intesta righe a cinquantadue nomi"
+summary: "Politica e verbale di riesame danno entrambi cinquanta — il verbale con la data, «Organico al 28/02/2026: 50 unita' (38 produzione, 12 uffici)» — mentre il registro della formazione intesta righe a 52 nomi distinti, fra cui una cessata e una tirocinante non ancora entrata."
+type: conflitto
+area: risorse-umane
+tags: [areas, risorse-umane, organico, politica, formazione, divergenza]
+fonti:
+  - politica_qualita_e_sicurezza_alimentare_2026.docx
+  - registro_presenze_corsi_HACCP_scaduti.csv
+  - verbale_riesame_direzione_SGQ_2026.txt
+stato: aperto
+aliases: []
+data_fatto: 2026-05-18
+data_nota: 2026-08-23
+related: "[[area-risorse-umane]], [[doc-politica-qualita-2026]], [[doc-scadenzario-formazione-2026]], [[fatto-quattro-righe-di-perimetro-incerto-nel-registro]], [[fatto-politica-cultura-sicurezza-alimentare]]"
+---
+
+# I tre conteggi a confronto
+
+| Documento | Quando | Quante persone |
+|---|---|---|
+| **Politica `DOC-QA-01` rev. 8** | emessa **12/01/2026** | «ognuna delle **50 persone** che lavorano in Aurora» |
+| **Verbale di riesame**, §7.1 | **28/02/2026** | «Organico al 28/02/2026: **50 unita'** (38 produzione, 12 uffici)» |
+| **Registro della formazione** | estratto **18/05/2026** | **52 nomi distinti** *(contati)* |
+
+## Perché non si sceglie, benché la distanza sia di due
+
+⚠️ **I due numeri non contano la stessa cosa, e nessuno dei due dichiara che cosa conti.** La
+politica dà il cinquanta in una frase sulla cultura, non in una tabella di organico; il
+registro intesta righe a chiunque abbia un titolo formativo censito.
+
+⚠️ **Il cinquanta è scritto DUE volte, e la seconda con la sua data**: il verbale di riesame
+lo dà al **28/02/2026** e lo scompone in «38 produzione, 12 uffici». **Fra i due documenti che
+dichiarano un numero di persone concordano**, pur dandolo in due forme diverse — una frase
+sulla cultura e una riga di organico con la sua data: la distanza è tutta col registro.
+
+⚠️ **E il registro non conta l'organico: censisce chi ha un titolo formativo.** Fra i suoi 52
+nomi c'è una dipendente **cessata il 19/04**, la cui riga il registro stesso dichiara «da
+eliminare», e una **tirocinante** che entra il 15/06
+([[fatto-quattro-righe-di-perimetro-incerto-nel-registro]]). ⚠️ **Del terzo caso — l'agente di
+vendita — il registro dubita che sia in perimetro FORMATIVO, non che sia estraneo
+all'organico**, e questa nota non lo toglie dal conto.
+
+⚠️ **Tolti quei due restano CINQUANTA** *(calcolato)*, cioè **esattamente il numero che gli
+altri due documenti dichiarano**. ⚠️ **Non per questo la questione si chiude, e va detto perché
+la coincidenza invita a chiuderla**: il registro censisce chi ha un titolo formativo, non chi è
+in organico, e chi fosse in forza senza alcun corso **non comparirebbe affatto**. **Che i due
+insiemi coincidano è una possibilità, non un fatto letto da una fonte.**
+
+⚠️ **E i quattro mesi fra i due documenti non sono una spiegazione neutra**: nessuno dei due
+dichiara una data di riferimento per il proprio conteggio — la politica non ne dà una, il
+registro dà la data dell'**estrazione**, non quella dell'organico.
+
+## Cosa servirebbe per chiuderla
+
+⚠️ **La domanda che resta non è più «cinquanta o cinquantadue»**: è **se il registro copra
+tutto l'organico**. Servirebbe il libro unico o una situazione del personale nominativa, da
+confrontare riga per riga coi 52 nomi. **Non sono fra le fonti di questa nota.**
+
+## Fonti
+
+- [[politica_qualita_e_sicurezza_alimentare_2026.docx]] — §LA CULTURA DELLA SICUREZZA ALIMENTARE, «ma il risultato dei gesti quotidiani di ognuna delle 50 persone che lavorano in Aurora».
+- [[verbale_riesame_direzione_SGQ_2026.txt]] — §7.1, «Organico al 28/02/2026: 50 unita' (38 produzione, 12 uffici).».
+- [[registro_presenze_corsi_HACCP_scaduti.csv]] — riga 101, «Peruzzi Erika;Operaia Linea 2;HACCP base;05/05/2024;05/05/2027;VALIDO;Studio Alimentaria (Vicentini);CESSATA 19/04 - riga da eliminare»; riga 97, «Zampieri Paolo;Agente vendita GDO;Sicurezza generale 4h;N/D;N/D;N/D;;agente - verificare se in perimetro formazione aziendale (Bellotto dice no)»; riga 100, «Meneghello Giulia;Tirocinante R&D;HACCP base;;;N/D;Studio Alimentaria (Vicentini);DA FARE prima ingresso 15/06 - sessione giugno»; colonna `Dipendente` sulle 96 righe di dato.
+
+------------------------------------------------------------------------------
+>>>>> NOTA DA REVISIONARE: kpi-formazione-stati-al-18-05.md
+------------------------------------------------------------------------------
+---
+title: "Al 18/05/2026 lo scadenzario porta 70 titoli validi, 17 scaduti e 6 in scadenza"
+summary: "Su 96 righe di dato, la colonna Stato dà 70 VALIDO, 17 SCADUTO, 6 IN SCADENZA e 3 N/D, che sommano esattamente 96; il file dichiara in coda «TOTALE SCADUTI: 17», che torna, e «TOTALE IN SCADENZA (entro 90 gg): 5», che con le righe marcate non torna."
+type: atomica
+area: risorse-umane
+tags: [data, risorse-umane, formazione, scadenzario, kpi]
+fonti:
+  - registro_presenze_corsi_HACCP_scaduti.csv
+stato: risolto
+aliases: []
+data_fatto: 2026-05-18
+data_nota: 2026-08-23
+related: "[[area-risorse-umane]], [[doc-scadenzario-formazione-2026]], [[fatto-in-scadenza-cinque-o-sei]], [[fatto-diciassette-titoli-scaduti-al-18-05]], [[area-qualita]]"
+---
+
+# La colonna `Stato`, contata riga per riga
+
+| Stato | Righe *(contate)* |
+|---|---|
+| `VALIDO` | **70** |
+| `SCADUTO` | **17** |
+| `IN SCADENZA` | **6** |
+| `N/D` | **3** |
+| **totale righe di dato** | **96** |
+
+## I due totali che il file dichiara da sé
+
+> «TOTALE SCADUTI: 17» — e nella colonna `Note` della stessa riga: «conteggio a mano, verificare»
+>
+> «TOTALE IN SCADENZA (entro 90 gg): 5»
+
+⚠️ **Il totale che invita a verificare è quello giusto**: gli scaduti contati sono **17**, come
+il file dichiara. ⚠️ **Quello che non porta avvertenze è quello che non torna con la colonna**:
+il file dichiara **cinque** in scadenza, le righe marcate `IN SCADENZA` sono **sei**
+([[fatto-in-scadenza-cinque-o-sei]]).
+
+## ⚠️ Le quattro righe di coda non sono dati, e il file non le separa
+
+Sotto la tabella il file porta **quattro righe fuori schema** — i due totali e le due sessioni
+programmate ([[fatto-due-sessioni-formative-programmate-per-il-09-06]]) — senza alcuna riga
+vuota o marcatore che le distingua. **Chi legge il `.csv` a macchina se le trova dentro la
+tabella**, e contandole otterrebbe **96 + 4 = 100 righe** *(calcolato)* invece di 96, oltre a
+una intestazione ripetuta a metà file. ⚠️ **I conteggi di questa nota escludono tutte e
+cinque**, e per questo la somma degli stati torna esatta.
+
+## Perché conta
+
+**Diciassette titoli scaduti su 96 righe** non è una percentuale di persone: una persona ha
+più titoli, e uno scaduto può convivere con altri validi. **Il numero delle persone toccate è
+un'altra grandezza**, e sta in [[fatto-diciassette-titoli-scaduti-al-18-05]].
+
+## Fonti
+
+- [[registro_presenze_corsi_HACCP_scaduti.csv]] — riga 102, «TOTALE SCADUTI: 17» con nota «conteggio a mano, verificare»; riga 103, «TOTALE IN SCADENZA (entro 90 gg): 5»; colonna `Stato` sulle 96 righe di dato, cioè le righe 5-101 tolta la 79 — intestazione ripetuta — e tolte le righe 102-105 di coda, che dati non sono.
+
+------------------------------------------------------------------------------
+>>>>> NOTA DA REVISIONARE: kpi-enti-formatori-e-corsi.md
+------------------------------------------------------------------------------
+---
+title: "Sei enti formatori si dividono i quattordici corsi del registro, e la linea di taglio è fra sicurezza alimentare e sicurezza sul lavoro"
+summary: "Il registro nomina sei enti formatori distinti su quattordici corsi: Studio Alimentaria tiene i tre corsi HACCP, la formazione allergeni è interna a Marchetti, e i restanti quattro enti si dividono i corsi di sicurezza sul lavoro; nessun ente di questo registro compare in entrambe le materie."
+type: atomica
+area: risorse-umane
+tags: [data, risorse-umane, formazione, enti-formatori, scadenzario]
+fonti:
+  - registro_presenze_corsi_HACCP_scaduti.csv
+stato: risolto
+aliases: []
+data_fatto: 2026-05-18
+data_nota: 2026-08-23
+related: "[[area-risorse-umane]], [[doc-scadenzario-formazione-2026]], [[entita-chiara-vicentini]], [[entita-elena-marchetti]], [[fatto-diciassette-titoli-scaduti-al-18-05]]"
+---
+
+# Chi forma che cosa
+
+| Ente formatore | I corsi che tiene, nel registro |
+|---|---|
+| **Studio Alimentaria (Vicentini)** | `HACCP base`, `HACCP avanzato`, `HACCP avanzato + agg. normativo` |
+| **Bonato & Partners** | `Sicurezza specifica rischio alto 12h`, `Preposto 8h`, `Antincendio livello 2 8h` e `(rischio medio) 8h`, `Sicurezza generale + specifica basso 8h`, `Sicurezza generale 4h`, `Dirigente sicurezza 16h` |
+| **interno (Marchetti)** | `Allergeni (PRPo1)` |
+| **CFP Veneto Sicuro** | `Carrello elevatore 12h` |
+| **Croce Verde Verona** | `Primo soccorso gruppo B 12h` |
+| **FLAI/ente paritetico** | `Corso RLS 32h` |
+
+**Sei enti** *(contati)* e **quattordici corsi** *(contati)* su 96 righe di dato, piu' una riga
+senza ente.
+
+## ⚠️ Due filiere che non si toccano
+
+**La linea di taglio corre fra le due materie**, e il registro la mostra senza dichiararla:
+la **sicurezza alimentare** passa da un consulente esterno e da una docenza interna, la
+**sicurezza sul lavoro** da quattro enti diversi. **Nessun ente DI QUESTO REGISTRO compare in
+entrambe le materie.**
+
+⚠️ **E le due sessioni programmate per il 09/06 sono una per filiera**
+([[fatto-due-sessioni-formative-programmate-per-il-09-06]]) — **che sia una conseguenza della
+divisione degli enti il registro non lo dice**: porta le due righe senza collegarle. ⚠️ **Una sola periodicità il registro la enuncia**, in testa: «le scadenze HACCP seguono la
+procedura interna (3 anni)». **Le altre si leggono dalle date**, e variano **dentro** ciascun
+gruppo prima che fra i due: `Allergeni (PRPo1)` a due anni contro i tre dell'HACCP,
+`Sicurezza specifica` a cinque contro i due del `Preposto 8h`.
+
+## ⚠️ La formazione allergeni è l'unica erogata internamente
+
+Le cinque righe `Allergeni (PRPo1)` portano come ente **«interno (Marchetti)»**: è l'unico
+corso **di questo registro** che non abbia un ente esterno
+([[fatto-formazione-allergeni-registrata-biennale]]).
+
+## Fonti
+
+- [[registro_presenze_corsi_HACCP_scaduti.csv]] — riga 5, «Popescu Ionut;Capoturno Linea 1;HACCP avanzato;12/06/2024;12/06/2027;VALIDO;Studio Alimentaria (Vicentini);»; riga 6, «Popescu Ionut;Capoturno Linea 1;Sicurezza specifica rischio alto 12h;03/02/2022;03/02/2027;VALIDO;Bonato & Partners;agg. 6h da fare entro scad.»; riga 54, «Melnyk Oleg;Operaio Linea 3;Carrello elevatore 12h;18/11/2021;18/11/2026;IN SCADENZA;CFP Veneto Sicuro»; riga 15, «Vasilescu Andrei;Operaio Linea 1;Allergeni (PRPo1);09/10/2025;09/10/2027;VALIDO;interno (Marchetti);»; riga 3, «ATTENZIONE: le scadenze HACCP seguono la procedura interna (3 anni) non un obbligo di legge regionale - v. nota Vicentini 2024»; colonne `Corso` ed `Ente formatore` sulle 96 righe di dato.
+
+------------------------------------------------------------------------------
+>>>>> NOTA DA REVISIONARE: fatto-diciassette-titoli-scaduti-al-18-05.md
+------------------------------------------------------------------------------
+---
+title: "I diciassette titoli scaduti al 18/05 riguardano diciassette persone diverse, e dieci sono HACCP base con la stessa data di corso"
+summary: "Le righe SCADUTE sono 17 e appartengono a 17 dipendenti distinti: 10 HACCP base, 5 Preposto 8h, un carrello elevatore e un primo soccorso. I dieci HACCP base portano tutti la stessa data di corso, 20/04/2023, e la stessa scadenza, 20/04/2026, con lo stesso ente formatore."
+type: atomica
+area: risorse-umane
+tags: [areas, risorse-umane, formazione, haccp, scadenzario, scaduti]
+fonti:
+  - registro_presenze_corsi_HACCP_scaduti.csv
+stato: risolto
+aliases: []
+data_fatto: 2026-05-18
+data_nota: 2026-08-23
+related: "[[area-risorse-umane]], [[kpi-formazione-stati-al-18-05]], [[doc-scadenzario-formazione-2026]], [[fatto-due-sessioni-formative-programmate-per-il-09-06]], [[entita-chiara-vicentini]], [[area-qualita]]"
+---
+
+# I diciassette, per corso
+
+| Corso | Righe scadute *(contate)* |
+|---|---|
+| **HACCP base** | **10** |
+| **Preposto 8h** | **5** |
+| Carrello elevatore 12h | 1 |
+| Primo soccorso gruppo B 12h | 1 |
+
+⚠️ **Diciassette righe e diciassette persone diverse** *(contate)*: nessuno compare due volte
+fra gli scaduti.
+
+## ⚠️ I dieci HACCP base hanno la stessa data, e sono scaduti tutti insieme
+
+Tutte e dieci le righe portano **data corso `20/04/2023`** e **scadenza `20/04/2026`**, con lo
+stesso ente formatore. **Non sono dieci scadenze sparse: dieci titoli con la stessa data di
+corso sono scaduti lo stesso giorno**, e al 18/05 nessuno risulta rinnovato. ⚠️ **Che si
+trattasse di una sessione unica è una lettura ragionevole che il registro non dichiara**: dà
+la data e l'ente, non l'evento.
+
+Toccano **cinque mansioni distinte** *(contate)*: Linea 1 *(quattro operai più uno di notte)*,
+Linea 2, Linea 3 *(due)*, confezionamento e **il manutentore notte**.
+
+## Che cosa le Note dicono di cinque di loro
+
+| Dipendente | La nota nel registro |
+|---|---|
+| Peloso Giorgio | «assente sessione gen - RECUPERO» |
+| Ciobanu Marius | «2 assenze ai recuperi - segnalato a Zanella» |
+| Bissoli Mirco | «turno notte - organizzare recupero diurno pagato» |
+| Rossin Davide · Perin Luca | «inserire nella sessione di giugno» · «sessione giugno» |
+
+⚠️ **Una riga registra due recuperi già mancati** — «2 assenze ai recuperi - segnalato a
+Zanella» — **e un'altra un'assenza con un recupero da fare**: «assente sessione gen -
+RECUPERO». ⚠️ **Quando siano state le due assenze di Ciobanu il registro non lo dice.**
+
+## ⚠️ Una delle dieci righe porta la data in un'altra grafia
+
+`Vasilescu Andrei` ha `2023-04-20` e `2026-04-20` dove le altre nove hanno `20/04/2023` e
+`20/04/2026`: **stesso giorno, due formati nello stesso file**
+([[fatto-date-in-quattro-grafie-registro-tamponi]]).
+
+## Fonti
+
+- [[registro_presenze_corsi_HACCP_scaduti.csv]] — riga 8, «Rossin Davide;Operaio Linea 1;HACCP base;20/04/2023;20/04/2026;SCADUTO;Studio Alimentaria (Vicentini);inserire nella sessione di giugno»; riga 21, «Peloso Giorgio;Operaio Linea 1 notte;HACCP base;20/04/2023;20/04/2026;SCADUTO;Studio Alimentaria (Vicentini);assente sessione gen - RECUPERO»; riga 32, «Ciobanu Marius;Operaio Linea 2;HACCP base;20/04/2023;20/04/2026;SCADUTO;Studio Alimentaria (Vicentini);2 assenze ai recuperi - segnalato a Zanella»; riga 77, «Bissoli Mirco;Manutentore notte;HACCP base;20/04/2023;20/04/2026;SCADUTO;Studio Alimentaria (Vicentini);turno notte - organizzare recupero diurno pagato»; riga 14, «Vasilescu Andrei;Operaio Linea 1;HACCP base;2023-04-20;2026-04-20;SCADUTO;Studio Alimentaria (Vicentini);». Le diciassette righe con `Stato` uguale a `SCADUTO` sono le 7, 8, 10, 14, 18, 21, 25, 32, 45, 48, 52, 59, 67, 71, 77, 90 e 92.
+
+------------------------------------------------------------------------------
+>>>>> NOTA DA REVISIONARE: fatto-formazione-allergeni-registrata-biennale.md
+------------------------------------------------------------------------------
+---
+title: "Le sole righe «Allergeni (PRPo1)» del registro sono cinque, tutte del 09/10/2025, e sono registrate con validità biennale"
+summary: "Il registro porta cinque righe di formazione allergeni, tutte con data corso 09/10/2025, scadenza 09/10/2027 e formatore interno; la scheda allergeni che governa il prerequisito prescrive invece il richiamo annuale, e la scadenza registrata è di due anni."
+type: atomica
+area: risorse-umane
+tags: [areas, risorse-umane, formazione, allergeni, prpo1, scadenzario, mod-hr-11]
+fonti:
+  - registro_presenze_corsi_HACCP_scaduti.csv
+  - scheda_allergeni_matrice_cross_contamination.docx
+stato: risolto
+aliases: []
+data_fatto: 2025-10-09
+data_nota: 2026-08-23
+related: "[[area-risorse-umane]], [[fatto-sessioni-formazione-allergeni-2026]], [[doc-scadenzario-formazione-2026]], [[questione-sessioni-allergeni-2026-non-a-registro]], [[entita-elena-marchetti]], [[area-qualita]]"
+---
+
+# Le cinque righe, tutte uguali tranne il nome
+
+| Dipendente | Mansione | Data corso | Scadenza | Ente |
+|---|---|---|---|---|
+| Vasilescu Andrei | Operaio Linea 1 | 09/10/2025 | **09/10/2027** | interno (Marchetti) |
+| El Amrani Hassan | Operaio Linea 1 | 09/10/2025 | **09/10/2027** | interno (Marchetti) |
+| Ben Salah Adel | Capoturno Linea 2 | 09/10/2025 | **09/10/2027** | interno (Marchetti) |
+| Dal Ben Elisa | Operaia Linea 2 | 09/10/2025 | **09/10/2027** | interno (Marchetti) |
+| Lupu Vasile | Operaio Linea 2 | 09/10/2025 | **09/10/2027** | interno (Marchetti) |
+
+**Cinque righe** *(contate)*, una sola data di corso, un solo formatore.
+
+## ⚠️ La validità registrata è il doppio di quella prescritta
+
+La scheda che governa il prerequisito allergeni prescrive, al suo §9.1, che «Tutto il personale
+di produzione, magazzino e manutenzione riceve formazione su allergeni al momento
+dell'assunzione e con **richiamo annuale** (registro `MOD-HR-11`)». **La nota padrona di quella
+prescrizione e' [[fatto-sessioni-formazione-allergeni-2026]]**, che porta il §9 per intero.
+
+**Il registro fissa la scadenza a due anni dal corso.** Con la regola prescritta ne basterebbe
+**uno**: la differenza fra le due regole è di **dodici mesi** *(calcolato)* su ognuna delle
+cinque righe.
+
+⚠️ **Al 18/05/2026 la differenza non si vede ancora**: con entrambe le regole i cinque
+risultano validi. **Si vedrà a un anno dal corso**, quando i cinque saranno scaduti secondo la
+scheda e ancora validi secondo il registro.
+
+## ⚠️ Cinque righe su cinquantadue dipendenti *(contati)*
+
+La scheda prescrive la formazione allergeni per **produzione, magazzino e manutenzione**; il
+registro ne porta **cinque righe in tutto**, tutte di linea. ⚠️ **Che cosa significhi l'assenza
+delle altre — nessuna formazione, oppure formazione registrata altrove — questo file non lo
+dice**: è un estratto, e il padrone del dato che nomina non è fra le fonti di questa nota
+([[doc-scadenzario-formazione-2026]]).
+
+## Fonti
+
+- [[registro_presenze_corsi_HACCP_scaduti.csv]] — riga 15, «Vasilescu Andrei;Operaio Linea 1;Allergeni (PRPo1);09/10/2025;09/10/2027;VALIDO;interno (Marchetti);»; riga 20, «El Amrani Hassan;Operaio Linea 1;Allergeni (PRPo1);09/10/2025;09/10/2027;VALIDO;interno (Marchetti);»; riga 26, «Ben Salah Adel;Capoturno Linea 2;Allergeni (PRPo1);09/10/2025;09/10/2027;VALIDO;interno (Marchetti);»; riga 31, «Dal Ben Elisa;Operaia Linea 2;Allergeni (PRPo1);09/10/2025;09/10/2027;VALIDO;interno (Marchetti);»; riga 42, «Lupu Vasile;Operaio Linea 2;Allergeni (PRPo1);09/10/2025;09/10/2027;VALIDO;interno (Marchetti);».
+- [[scheda_allergeni_matrice_cross_contamination.docx]] — §9.1, «Tutto il personale di produzione, magazzino e manutenzione riceve formazione» e «su allergeni al momento dell'assunzione e con richiamo annuale (registro».
+
+------------------------------------------------------------------------------
+>>>>> NOTA DA REVISIONARE: questione-sessioni-allergeni-2026-non-a-registro.md
+------------------------------------------------------------------------------
+---
+title: "La sessione allergeni straordinaria del 10/04 non ha una riga nel registro, e i tre nomi che la scheda dichiara formati non ne hanno nessuna"
+summary: "La scheda allergeni data al 10/04/2026 la sessione straordinaria post NC-2026-055 e nomina i tre che l'hanno ricevuta; nel registro estratto il 18/05 le sole righe «Allergeni (PRPo1)» sono cinque, tutte del 09/10/2025, e nessuna intesta quei tre nomi."
+type: conflitto
+area: risorse-umane
+tags: [areas, risorse-umane, formazione, allergeni, divergenza, mod-hr-11]
+fonti:
+  - registro_presenze_corsi_HACCP_scaduti.csv
+  - scheda_allergeni_matrice_cross_contamination.docx
+stato: aperto
+aliases: []
+data_fatto: 2026-05-18
+data_nota: 2026-08-23
+related: "[[area-risorse-umane]], [[fatto-sessioni-formazione-allergeni-2026]], [[fatto-formazione-allergeni-registrata-biennale]], [[doc-scadenzario-formazione-2026]], [[fatto-quattro-neoassunti-linea2-senza-formazione-allergeni]], [[area-qualita]]"
+---
+
+# Le versioni a confronto
+
+| Documento | Che cosa dice delle sessioni allergeni 2026 |
+|---|---|
+| **Scheda allergeni**, §9.2 | «Sessione straordinaria post NC-2026-055 erogata il **10/04/2026** a R&D (Zanchetta, Meneghello) e capiturno Linea 1 (Popescu)» |
+| **Lo scadenzario estratto il 18/05/2026** | ⚠️ **nessuna riga `Allergeni (PRPo1)` del 2026**: le sole **cinque** *(contate)* sono del **09/10/2025** |
+
+⚠️ **E i tre nominati dalla sessione straordinaria non hanno alcuna riga allergeni**: le cinque
+righe intestano Vasilescu, El Amrani, Ben Salah, Dal Ben e Lupu
+([[fatto-formazione-allergeni-registrata-biennale]]).
+
+## Perché non si sceglie
+
+**Le due letture sono entrambe compatibili con i documenti**, e nessuno dei due le distingue:
+
+| | |
+|---|---|
+| **La sessione c'è stata e il registro non la porta** | allora questo estratto **non è** il `MOD-HR-11` che la scheda prescrive, o non ne è aggiornato |
+| **Il registro è completo al 18/05** | allora la formazione che la scheda dà per erogata **non risulta registrata dove la prescrizione dice di registrarla** |
+
+⚠️ **La scheda prescrive il registro per nome** — «registro `MOD-HR-11`» — e questo file
+**non dichiara di esserlo** ([[doc-scadenzario-formazione-2026]]). Finché quel legame non è
+dichiarato da un documento, la divergenza non è fra due registrazioni: è fra una registrazione
+e un documento che non si sa se sia il registro.
+
+## Cosa servirebbe per chiuderla
+
+Il `MOD-HR-11` stesso, oppure `formazione_master.xlsx` da cui questo estratto viene: **nessuno
+dei due è fra le fonti di questa nota**, e il secondo lo nomina soltanto la riga di testata del
+registro.
+
+## Fonti
+
+- [[registro_presenze_corsi_HACCP_scaduti.csv]] — riga 15, «Vasilescu Andrei;Operaio Linea 1;Allergeni (PRPo1);09/10/2025;09/10/2027;VALIDO;interno (Marchetti);» — e con essa le righe 20, 26, 31 e 42, che sono le sole altre quattro righe «Allergeni (PRPo1)» del file, tutte con data corso «09/10/2025» e scadenza «09/10/2027». Nessun'altra riga del file porta quel corso.
+- [[scheda_allergeni_matrice_cross_contamination.docx]] — §9.2, «Sessione straordinaria post NC-2026-055 erogata il 10/04/2026 a R&D» e «(Zanchetta, Meneghello) e capiturno Linea 1 (Popescu).»; §9.1, «su allergeni al momento dell'assunzione e con richiamo annuale (registro» e «MOD-HR-11). Modulo specifico per: capiturno (sequenze e lavaggi), QC (test».
+
+------------------------------------------------------------------------------
+>>>>> NOTA DA REVISIONARE: fatto-validita-haccp-da-procedura-non-in-archivio.md
+------------------------------------------------------------------------------
+---
+title: "La validità triennale dei titoli HACCP viene da una procedura interna che l'archivio non contiene"
+summary: "Una nota di testata del registro dichiara che «le scadenze HACCP seguono la procedura interna (3 anni) non un obbligo di legge regionale», rimandando a una nota Vicentini del 2024; le scadenze registrate sono coerenti con i tre anni, ma la procedura che fisserebbe quei tre anni non risulta fra i grezzi."
+type: atomica
+area: risorse-umane
+tags: [areas, risorse-umane, formazione, haccp, scadenzario, assenza]
+fonti:
+  - registro_presenze_corsi_HACCP_scaduti.csv
+  - manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt
+stato: aperto
+aliases: []
+data_fatto: 2026-05-18
+data_nota: 2026-08-23
+related: "[[area-risorse-umane]], [[doc-scadenzario-formazione-2026]], [[fatto-diciassette-titoli-scaduti-al-18-05]], [[entita-chiara-vicentini]], [[area-qualita]]"
+---
+
+# La regola che governa le scadenze, e dove il file dice che sta
+
+Il registro porta in testa, prima della tabella, una riga di avvertenza:
+
+> «ATTENZIONE: le scadenze HACCP seguono la procedura interna (3 anni) non un obbligo di legge
+> regionale - v. nota Vicentini 2024»
+
+**La regola è coerente con i dati**: le **dieci** righe `HACCP base` scadute *(contate)*
+portano corso `20/04/2023` e scadenza `20/04/2026`, cioè **tre anni** *(calcolati)*
+([[fatto-diciassette-titoli-scaduti-al-18-05]]).
+
+## ⚠️ Il documento che la prescrive non risulta in archivio
+
+**Nessun grezzo porta una procedura che fissi una validità triennale della formazione**:
+ricerca su tutto `sources\`, con i termini «validita triennale»,
+«validità triennale», «rinnovo triennale», «scadenza triennale», «procedura gestione della
+formazione» e «procedura formazione del personale»: **zero occorrenze**. Ricerca depositata in
+`06_operativo\ricerche_assenza\procedura-scadenze-haccp-triennali_2026-08-23_2026-08-23.md`.
+
+⚠️ **Il perimetro della ricerca è parte della prova, e l'artefatto lo dichiara**: «procedura
+interna» è stato scartato perché troppo generico, e con esso il codice del registro — un
+registro non è la procedura che lo nomina. **La riferibilità della regola si ferma a questa
+riga di testata.**
+
+⚠️ **E la fonte che prescrive il registro non fissa alcuna periodicità**: il manuale HACCP
+nomina il prerequisito e il modulo. ⚠️ **Una periodicità l'estratto non la porta** — e
+dichiara di essere parziale, con le procedure «richiamate, non duplicate qui».
+
+⚠️ **La riga fa due affermazioni, e solo la prima è verificabile qui**: che le scadenze
+seguano i tre anni si vede nei dati di questo file; che ciò dipenda da una procedura interna
+**e non** da un obbligo di legge regionale è un'affermazione **sul diritto applicabile**, e
+questa nota non ha fra le proprie fonti nulla che la sostenga né che la smentisca.
+
+## Perché conta
+
+⚠️ **Chi legge una scadenza HACCP in questo registro sta leggendo l'applicazione di una regola
+che non può aprire.** Se la procedura cambiasse, **cambierebbero insieme le scadenze dei titoli
+HACCP** — dieci dei diciassette scaduti — e il registro non ne porterebbe traccia.
+
+⚠️ **Non è l'unico criterio che il file nomina** — una riga porta «agg. annuale» nella colonna
+`Scadenza` e un'altra «AGG. BIENNALE NON FATTO» nelle `Note` — **ma è l'unico scritto in testa
+e riferito a un documento esterno.**
+
+## Fonti
+
+- [[manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt]] — §9.1, «PRP-04 Igiene e formazione del personale (MOD-HR-11 registro formazione; visite».
+- [[registro_presenze_corsi_HACCP_scaduti.csv]] — riga 3, «ATTENZIONE: le scadenze HACCP seguono la procedura interna (3 anni) non un obbligo di legge regionale - v. nota Vicentini 2024»; riga 8, «Rossin Davide;Operaio Linea 1;HACCP base;20/04/2023;20/04/2026;SCADUTO».
+
+------------------------------------------------------------------------------
+>>>>> NOTA DA REVISIONARE: fatto-due-sessioni-formative-programmate-per-il-09-06.md
+------------------------------------------------------------------------------
+---
+title: "Il registro programma per il 09/06/2026 una sessione di recupero HACCP con venti posti e una sessione preposti ancora da confermare"
+summary: "Le due righe di coda del file annotano la sessione di recupero HACCP prenotata per la mattina del 09/06/2026 in aula mensa con docente Vicentini e un massimo di venti posti, e una sessione preposti proposta per il pomeriggio dello stesso giorno, da confermare con l'ente formatore."
+type: atomica
+area: risorse-umane
+tags: [areas, risorse-umane, formazione, haccp, preposto, scadenzario]
+fonti:
+  - registro_presenze_corsi_HACCP_scaduti.csv
+stato: aperto
+aliases: []
+data_fatto: 2026-06-09
+data_nota: 2026-08-23
+related: "[[area-risorse-umane]], [[doc-scadenzario-formazione-2026]], [[fatto-diciassette-titoli-scaduti-al-18-05]], [[entita-chiara-vicentini]], [[kpi-formazione-stati-al-18-05]]"
+---
+
+# Le due sessioni, come il file le annota
+
+| | Sessione |
+|---|---|
+| **HACCP, recupero** | «prenotata: 09/06/2026 mattina, aula mensa, docente Vicentini - **max 20 posti**» |
+| **Preposti + aggiornamento** | «da confermare con Bonato, proposta 09/06 pomeriggio» |
+
+## ⚠️ Una è prenotata, l'altra è una proposta
+
+**Il file distingue i due stati con le proprie parole**: la prima è «prenotata» e ha luogo,
+ora, docente e capienza; la seconda è «da confermare» e «proposta». **Solo la prima ha una
+data che il registro dia per fissata.**
+
+## I posti bastano per gli HACCP scaduti, e non per tutto il resto
+
+Gli `HACCP base` scaduti al 18/05 sono **dieci** e i posti sono **venti**
+([[fatto-diciassette-titoli-scaduti-al-18-05]]). ⚠️ **Ma la sessione di recupero non è l'unica
+domanda su quei venti posti**: il registro porta anche la riga di una tirocinante, senza data
+corso e senza scadenza, annotata «DA FARE prima ingresso 15/06 - sessione giugno», e due righe
+scadute annotate «inserire nella sessione di giugno» e «sessione giugno».
+
+⚠️ **Quante persone la sessione debba assorbire il file non lo somma**, e questa nota non lo
+somma al posto suo: **tre righe nominano «sessione giugno»** *(contate)* — Rossin, Perin e la
+tirocinante — le scadute `HACCP base` sono dieci, e i due insiemi si sovrappongono in parte.
+
+## Perché conta
+
+**La sessione preposti riguarda i cinque `Preposto 8h` scaduti**, uno dei quali porta la nota
+«AGG. BIENNALE NON FATTO - urgente». ⚠️ **È l'unica delle due sessioni che al 18/05 non ha
+ancora né una conferma né un'aula**, e copre il corso con la seconda concentrazione di scadenze.
+
+## Fonti
+
+- [[registro_presenze_corsi_HACCP_scaduti.csv]] — riga 104, «sessione recupero HACCP prenotata: 09/06/2026 mattina, aula mensa, docente Vicentini - max 20 posti»; riga 105, «sessione preposti + agg.: da confermare con Bonato, proposta 09/06 pomeriggio»; riga 100, «Meneghello Giulia;Tirocinante R&D;HACCP base;;;N/D;Studio Alimentaria (Vicentini);DA FARE prima ingresso 15/06 - sessione giugno»; riga 7, «Popescu Ionut;Capoturno Linea 1;Preposto 8h;15/09/2023;15/09/2025;SCADUTO;Bonato & Partners;AGG. BIENNALE NON FATTO - urgente».
+
+------------------------------------------------------------------------------
+>>>>> NOTA DA REVISIONARE: fatto-quattro-righe-di-perimetro-incerto-nel-registro.md
+------------------------------------------------------------------------------
+---
+title: "Quattro righe del registro portano una domanda invece di un dato: chi vada formato, e fino a quando"
+summary: "Il registro tiene una riga per una dipendente cessata il 19/04 che dichiara «riga da eliminare», una per un agente di cui si dubita che sia in perimetro, una per il datore di lavoro con scadenza N/D e obbligo da verificare, e una per una tirocinante senza date."
+type: atomica
+area: risorse-umane
+tags: [areas, risorse-umane, formazione, scadenzario, perimetro, organico]
+fonti:
+  - registro_presenze_corsi_HACCP_scaduti.csv
+stato: aperto
+aliases: []
+data_fatto: 2026-05-18
+data_nota: 2026-08-23
+related: "[[area-risorse-umane]], [[doc-scadenzario-formazione-2026]], [[kpi-formazione-stati-al-18-05]], [[questione-cinquanta-o-cinquantadue-persone]], [[fatto-due-sessioni-formative-programmate-per-il-09-06]]"
+---
+
+# Le quattro righe *(contate)*, e la domanda che ciascuna porta
+
+| Riga | Stato | La nota del registro |
+|---|---|---|
+| **Peruzzi Erika**, Operaia Linea 2, HACCP base | `VALIDO` | «**CESSATA 19/04 - riga da eliminare**» |
+| **Zampieri Paolo**, Agente vendita GDO, Sicurezza generale 4h | `N/D` | «agente - **verificare se in perimetro formazione aziendale** (Bellotto dice no)» |
+| **Bertoldi Giancarlo**, Amministratore Delegato, Sicurezza generale 4h del 18/01/2021 | `N/D` | «**datore di lavoro - verificare obbligo formativo specifico** con Bonato» |
+| **Meneghello Giulia**, Tirocinante R&D, HACCP base | `N/D` | «**DA FARE prima ingresso 15/06** - sessione giugno» |
+
+## ⚠️ Una riga valida intesta una persona che non lavora più qui
+
+`Peruzzi Erika` risulta **cessata il 19/04** e la sua riga porta ancora `VALIDO` con scadenza
+`05/05/2027`. **La riga non è stata eliminata**, e il registro se ne accorge da solo: la nota
+dice «riga da eliminare».
+
+⚠️ **Conta perché il registro serve a contare**: finché quella riga c'è, i **52 dipendenti
+distinti** del file ne comprendono almeno uno che al 18/05 non è in organico
+([[questione-cinquanta-o-cinquantadue-persone]]).
+
+## ⚠️ Due righe portano una verifica da fare, e una porta gia' un parere
+
+Per il datore di lavoro il registro annota «verificare obbligo formativo specifico con Bonato»:
+**una domanda aperta e il nome di chi dovrebbe rispondere**. Per l'agente annota «verificare se
+in perimetro formazione aziendale (**Bellotto dice no**)»: **una verifica da fare e, fra
+parentesi, un parere gia' dato**. ⚠️ **Chi siano Bonato e Bellotto queste due righe non lo
+dicono**, e questa nota non lo inferisce.
+
+## ⚠️ E una riga è un obbligo con una data che il registro stesso si dà
+
+La tirocinante ha `Data corso` e `Scadenza` **vuote** e la nota fissa il termine: **prima
+dell'ingresso del 15/06**, nella sessione di giugno
+([[fatto-due-sessioni-formative-programmate-per-il-09-06]]). **È l'unica riga del file in cui
+la formazione precede l'ingresso invece di seguirlo.**
+
+## Fonti
+
+- [[registro_presenze_corsi_HACCP_scaduti.csv]] — riga 101, «Peruzzi Erika;Operaia Linea 2;HACCP base;05/05/2024;05/05/2027;VALIDO;Studio Alimentaria (Vicentini);CESSATA 19/04 - riga da eliminare»; riga 97, «Zampieri Paolo;Agente vendita GDO;Sicurezza generale 4h;N/D;N/D;N/D;;agente - verificare se in perimetro formazione aziendale (Bellotto dice no)»; riga 80, «Bertoldi Giancarlo;Amministratore Delegato;Sicurezza generale 4h;18/01/2021;N/D;N/D;Bonato & Partners;datore di lavoro - verificare obbligo formativo specifico con Bonato»; riga 100, «Meneghello Giulia;Tirocinante R&D;HACCP base;;;N/D;Studio Alimentaria (Vicentini);DA FARE prima ingresso 15/06 - sessione giugno».
+
+------------------------------------------------------------------------------
+>>>>> NOTA DA REVISIONARE: fatto-squadra-emergenza-antincendio-in-scadenza.md
+------------------------------------------------------------------------------
+---
+title: "Tre titoli antincendio scadono lo stesso giorno, il 30/06/2026, e uno dei tre porta l'annotazione «squadra emergenza - PRIORITA'»"
+summary: "Tre delle quattro righe «Antincendio livello 2» del registro portano data corso 30/06/2021 e scadenza 30/06/2026 — il capo officina, il responsabile magazzino e spedizioni e un operaio di Linea 3 notte, annotato come squadra emergenza con priorità; la quarta, del manutentore notte, è del 2024 e vale fino al 2029."
+type: atomica
+area: risorse-umane
+tags: [areas, risorse-umane, formazione, antincendio, emergenza, scadenzario]
+fonti:
+  - registro_presenze_corsi_HACCP_scaduti.csv
+stato: aperto
+aliases: []
+data_fatto: 2026-06-30
+data_nota: 2026-08-23
+related: "[[area-risorse-umane]], [[fatto-in-scadenza-cinque-o-sei]], [[kpi-formazione-stati-al-18-05]], [[entita-ivano-dal-maso]], [[doc-scadenzario-formazione-2026]]"
+---
+
+# Le tre righe
+
+| Dipendente | Mansione | Corso | Scadenza |
+|---|---|---|---|
+| **Sbalchiero Damiano** | Operaio Linea 3 **notte** | Antincendio livello 2 (rischio medio) 8h | **30/06/2026** |
+| **Faggionato Nicola** | Resp. magazzino e spedizioni | Antincendio livello 2 8h | **30/06/2026** |
+| **Dal Maso Ivano** | Capo officina | Antincendio livello 2 8h | **30/06/2026** |
+
+**Tutte e tre** *(contate)* portano data corso `30/06/2021` e stato `IN SCADENZA`.
+
+⚠️ **Ma le righe `Antincendio livello 2` del registro sono QUATTRO** *(contate)*: la quarta è
+del manutentore notte, `15/02/2024` → `15/02/2029`, **`VALIDO`**. **Non è tutto l'antincendio
+di Aurora a scadere il 30/06: sono tre titoli su quattro**, e il quarto è di due anni e mezzo
+più giovane.
+
+## ⚠️ Una sola porta l'annotazione, e nomina la squadra
+
+`Sbalchiero Damiano` è annotato «**squadra emergenza - PRIORITA'**». ⚠️ **Le altre due righe
+non dicono se anche loro siano in squadra**, e il registro non ha una colonna che lo dichiari:
+chi componga la squadra di emergenza **queste righe non lo dicono**.
+
+⚠️ **Il corso non è lo stesso su tutte e tre**: Sbalchiero ha «Antincendio livello 2 **(rischio
+medio)** 8h», gli altri due «Antincendio livello 2 8h». **Che siano lo stesso corso scritto in
+due modi, o due corsi diversi, il registro non lo dichiara.**
+
+## Perché conta
+
+**È l'unica delle sei righe in scadenza che il registro marchi come prioritaria**, e riguarda
+il **turno di notte** ([[fatto-in-scadenza-cinque-o-sei]]). ⚠️ **Perché il registro la chiami
+prioritaria non lo dice**: la nota è «squadra emergenza - PRIORITA'», e nient'altro.
+
+⚠️ **E il turno di notte ha due righe antincendio con esiti opposti**: quella di Sbalchiero
+scade il 30/06, quella di Bissoli vale fino al 2029. **Che questo lasci il turno coperto o
+scoperto il registro non lo dice**, perché la composizione della squadra il registro non la dichiara: annota l'appartenenza su
+singole righe, non l'elenco
+([[entita-ivano-dal-maso]]).
+
+## Fonti
+
+- [[registro_presenze_corsi_HACCP_scaduti.csv]] — riga 78, «Bissoli Mirco;Manutentore notte;Antincendio livello 2 8h;15/02/2024;15/02/2029;VALIDO;Bonato & Partners;»; riga 56, «Sbalchiero Damiano;Operaio Linea 3 notte;Antincendio livello 2 (rischio medio) 8h;30/06/2021;30/06/2026;IN SCADENZA;Bonato & Partners;squadra emergenza - PRIORITA'»; riga 66, «Faggionato Nicola;Resp. magazzino e spedizioni;Antincendio livello 2 8h;30/06/2021;30/06/2026;IN SCADENZA;Bonato & Partners;»; riga 75, «Dal Maso Ivano;Capo officina;Antincendio livello 2 8h;30/06/2021;30/06/2026;IN SCADENZA;Bonato & Partners;».
+
+------------------------------------------------------------------------------
+>>>>> NOTA DA REVISIONARE: fatto-in-scadenza-cinque-o-sei.md
+------------------------------------------------------------------------------
+---
+title: "I titoli in scadenza sono cinque secondo il totale del file e sei secondo la colonna Stato, e la sesta e' fuori dai novanta giorni"
+summary: "Il file dichiara «TOTALE IN SCADENZA (entro 90 gg): 5» mentre le righe marcate IN SCADENZA sono sei; cinque scadono entro il 07/07/2026, dentro i novanta giorni dall'estrazione del 18/05, la sesta il 18/11/2026, che è fuori."
+type: atomica
+area: risorse-umane
+tags: [areas, risorse-umane, formazione, scadenzario, riconciliazione]
+fonti:
+  - registro_presenze_corsi_HACCP_scaduti.csv
+stato: risolto
+aliases: []
+data_fatto: 2026-05-18
+data_nota: 2026-08-23
+related: "[[area-risorse-umane]], [[kpi-formazione-stati-al-18-05]], [[doc-scadenzario-formazione-2026]], [[fatto-squadra-emergenza-antincendio-in-scadenza]]"
+---
+
+# I due conteggi, e perche' uno dei due e' esatto
+
+| | |
+|---|---|
+| **Il totale in coda al file** | «TOTALE IN SCADENZA (entro 90 gg): **5**» |
+| **La colonna `Stato`** | **6** righe marcate `IN SCADENZA` *(contate)* |
+
+## Le sei righe, con la loro scadenza
+
+| Dipendente | Corso | Scadenza | Entro 90 gg dal 18/05? |
+|---|---|---|---|
+| Sbalchiero Damiano | Antincendio livello 2 (rischio medio) 8h | **30/06/2026** | sì |
+| Faggionato Nicola | Antincendio livello 2 8h | **30/06/2026** | sì |
+| Dal Maso Ivano | Antincendio livello 2 8h | **30/06/2026** | sì |
+| Mansouri Youssef | Sicurezza specifica rischio alto 12h | **07/07/2026** | sì |
+| Sow Ibrahim | Sicurezza specifica rischio alto 12h | **07/07/2026** | sì |
+| **Melnyk Oleg** | **Carrello elevatore 12h** | **18/11/2026** | ⚠️ **no** |
+
+## ⚠️ La divergenza si scioglie, e il numero dichiarato è quello giusto
+
+**Il criterio è scritto nel totale stesso**: «entro 90 gg». Dall'estrazione del **18/05/2026** i
+novanta giorni cadono a **metà agosto** *(calcolato)*, e **cinque righe su sei ci stanno dentro**. La sesta —
+`Carrello elevatore 12h` di Melnyk Oleg, scadenza **18/11/2026** — è **sei mesi dopo**.
+
+⚠️ **Non è il totale a sbagliare: è la colonna `Stato` su una riga.** Il conteggio dichiarato è
+coerente col criterio dichiarato; la marca `IN SCADENZA` su quella riga non lo è.
+
+⚠️ **Ed è istruttivo che l'avvertenza stia sull'altro totale**: la riga degli scaduti porta
+«conteggio a mano, verificare» e il suo numero **torna**; la riga che non porta avvertenze è
+quella che diverge dalla colonna ([[kpi-formazione-stati-al-18-05]]).
+
+## Che cosa resta da sapere
+
+Sapere **quale regola alimenti la colonna `Stato`** — se una formula del foglio di origine o una
+marcatura a mano. Il file di origine che la riga di testata nomina **non è fra le fonti di
+questa nota**.
+
+## Fonti
+
+- [[registro_presenze_corsi_HACCP_scaduti.csv]] — riga 103, «TOTALE IN SCADENZA (entro 90 gg): 5»; riga 29, «Mansouri Youssef;Operaio Linea 2;Sicurezza specifica rischio alto 12h;07/07/2021;07/07/2026;IN SCADENZA;Bonato & Partners;agg. entro luglio!»; riga 39, «Sow Ibrahim;Operaio Linea 2;Sicurezza specifica rischio alto 12h;07/07/2021;07/07/2026;IN SCADENZA»; riga 54, «Melnyk Oleg;Operaio Linea 3;Carrello elevatore 12h;18/11/2021;18/11/2026;IN SCADENZA;CFP Veneto Sicuro»; riga 56, «Sbalchiero Damiano;Operaio Linea 3 notte;Antincendio livello 2 (rischio medio) 8h;30/06/2021;30/06/2026;IN SCADENZA»; riga 66, «Faggionato Nicola;Resp. magazzino e spedizioni;Antincendio livello 2 8h;30/06/2021;30/06/2026;IN SCADENZA»; riga 75, «Dal Maso Ivano;Capo officina;Antincendio livello 2 8h;30/06/2021;30/06/2026;IN SCADENZA»; riga 2, «estrazione del 18/05/2026».
+
+------------------------------------------------------------------------------
+>>>>> NOTA DA REVISIONARE: fatto-registro-formazione-intestazione-ripetuta.md
+------------------------------------------------------------------------------
+---
+title: "Il registro della formazione ripete la riga di intestazione a metà file, e non separa le righe di coda dalla tabella"
+summary: "La riga 79 del file ripete l'intestazione «Dipendente;Mansione;Corso;...» già presente alla riga 4, e sotto la tabella quattro righe di annotazione stanno nello stesso schema dei dati: chi conta il file a macchina, senza toglierle, ottiene cinque righe in più."
+type: atomica
+area: risorse-umane
+tags: [areas, risorse-umane, formazione, scadenzario, integrita-file, csv]
+fonti:
+  - registro_presenze_corsi_HACCP_scaduti.csv
+stato: risolto
+aliases: []
+data_fatto: 2026-05-18
+data_nota: 2026-08-23
+related: "[[area-risorse-umane]], [[doc-scadenzario-formazione-2026]], [[kpi-formazione-stati-al-18-05]], [[fatto-due-sessioni-formative-programmate-per-il-09-06]]"
+---
+
+# Le cinque righe che non sono dati
+
+| Dove | Che cos'è |
+|---|---|
+| **riga 79** | l'intestazione **ripetuta**: «Dipendente;Mansione;Corso;Data corso;Scadenza;Stato;Ente formatore;Note» |
+| **quattro righe in coda** | i due totali dichiarati e le due sessioni programmate |
+
+**Nessuna delle cinque è separata dalla tabella** da una riga vuota o da un marcatore: stanno
+nello stesso schema a punto e virgola delle righe di dato.
+
+## ⚠️ Che cosa costa, in concreto
+
+Un conteggio ingenuo del file dà **101 righe** *(calcolato)* dove le righe di dato sono **96**:
+cinque in più, cioè un **+5,2 %** *(calcolato)* su ogni grandezza che si ricavi contando.
+⚠️ **E l'errore non è uniforme**: la riga 79 porta la parola «Dipendente» nella colonna dei
+nomi, quindi entra anche nel conteggio dei **dipendenti distinti**, mentre le righe di coda
+portano testo libero nella prima colonna e vi entrano ciascuna come un nome a sé.
+
+## Perché è contenuto e non un dettaglio di formato
+
+**Il file dichiara di essere un estratto** — «estrazione del 18/05/2026 da file
+formazione_master.xlsx foglio 2» — e porta l'intestazione due volte
+([[doc-scadenzario-formazione-2026]]).
+
+⚠️ **Perché la porti due volte il file non lo dice**, e questa nota non lo inferisce: registra
+che la riga c'è, dove sta, e che cosa fa ai conteggi di chi legge il `.csv` a macchina. **È
+questo che la rende contenuto e non formato**: lo stato autodichiarato di un file è un fatto.
+
+## Fonti
+
+- [[registro_presenze_corsi_HACCP_scaduti.csv]] — riga 4 e riga 79, entrambe «Dipendente;Mansione;Corso;Data corso;Scadenza;Stato;Ente formatore;Note»; riga 102, «TOTALE SCADUTI: 17»; riga 103, «TOTALE IN SCADENZA (entro 90 gg): 5»; riga 104, «sessione recupero HACCP prenotata: 09/06/2026 mattina, aula mensa, docente Vicentini - max 20 posti»; riga 105, «sessione preposti + agg.: da confermare con Bonato, proposta 09/06 pomeriggio»; riga 2, «estrazione del 18/05/2026 da file formazione_master.xlsx foglio 2 - f.sartori».
+
+------------------------------------------------------------------------------
+>>>>> NOTA DA REVISIONARE: questione-tre-o-quattro-neoassunti-senza-formazione.md
+------------------------------------------------------------------------------
+---
+title: "Gli operatori di Linea 2 senza formazione registrata sono tre o quattro, a tre settimane di distanza"
+summary: "Il registro delle non conformità interne apre il 28/01/2026 una NC per il MOD-HR-11 non aggiornato per 3 neoassunti di Linea 2, chiusa il 20/02; l'audit CSQA del 17-18/02 ne trova 4, e nessuno dei due documenti dice di quanti parli l'altro."
+type: atomica
+area: qualita
+tags: [areas, qualita, audit, formazione, allergeni, linea-2, divergenza]
+fonti:
+  - non_conformita_interne_registro_2026.csv
+  - Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt
+  - scheda_allergeni_matrice_cross_contamination.docx
+  - registro_presenze_corsi_HACCP_scaduti.csv
+stato: aperto
+aliases: []
+data_fatto: 2026-02-18
+data_nota: 2026-08-22
+related: "[[area-qualita]], [[fatto-quattro-neoassunti-linea2-senza-formazione-allergeni]], [[fatto-turnover-linea2-e-domeniche]], [[fatto-sessioni-formazione-allergeni-2026]], [[questione-sessioni-allergeni-2026-non-a-registro]], [[doc-scadenzario-formazione-2026]], [[entita-federica-sartori]]"
+---
+
+# Tre, poi quattro
+
+| Documento | Quando | Quanti | Che cosa dice |
+|---|---|---|---|
+| **Registro NC interne**, `NC-2026-015` | **28/01/2026** | **3** | «Audit interno: registro formazione MOD-HR-11 non aggiornato per 3 neoassunti Linea 2», gravità **media**, causa «passaggio consegne HR incompleto», azione «aggiornamento registro, pianificate sessioni HACCP», responsabile **Sartori F.** ([[entita-federica-sartori]]), **chiusa il 20/02/2026** |
+| **Audit CSQA**, osservazione n. 4 | **17-18/02/2026** | **4** | operatori assunti «tra ottobre 2025 e gennaio 2026», formazione allergeni non registrata su `MOD-HR-11` |
+
+## ⚠️ Chi prescrive l'obbligo, e che cosa dice il registro tre mesi dopo
+
+**L'obbligo che entrambi i documenti danno per mancato è scritto altrove**: la scheda allergeni
+lo impone all'assunzione e con richiamo annuale, su `MOD-HR-11`
+([[fatto-sessioni-formazione-allergeni-2026]] ne è la nota padrona).
+
+Lo scadenzario estratto il **18/05/2026** porta **cinque** righe `Allergeni (PRPo1)`
+*(contate)*, tutte del **09/10/2025**: nessuna successiva. ⚠️ **Ma il registro non dichiara di
+essere il `MOD-HR-11`**, quindi l'assenza di righe **non prova** che la formazione non sia stata
+registrata dove doveva ([[questione-sessioni-allergeni-2026-non-a-registro]]): prova che
+**questo estratto non la porta**.
+
+## Perché non si sceglie
+
+⚠️ **Non è detto che sia una contraddizione.** **Una finestra di assunzione la dichiara solo
+l'audit** — «tra ottobre 2025 e gennaio 2026» — mentre la NC dice «3 neoassunti Linea 2»: un
+quarto assunto a gennaio poteva non essere nel conteggio del 28/01. ⚠️ **E non è detto che
+contino la stessa cosa**: la NC parla di **registro non aggiornato**, l'osservazione di
+**formazione allergeni non registrata**. **Nessuno dei due dice di quanti parli l'altro.**
+
+## ⚠️ Il fatto che pesa più del numero
+
+**Aurora lo sapeva già, e da un proprio audit interno.** La non conformità è di **venti giorni
+prima** dell'audit di certificazione.
+
+⚠️ **L'auditor esterno ha trovato scoperto un punto su cui l'azienda aveva già aperto una
+propria non conformità venti giorni prima.** ⚠️ **E la NC interna risulta CHIUSA il 20/02**,
+cioè **due giorni dopo la fine dell'audit**: il registro porta `Data_chiusura` **20/02/2026** e
+`Stato` **CHIUSA**.
+
+⚠️ **La NC risulta chiusa DOPO che l'auditor aveva rilevato lo stesso punto**, e se la chiusura
+abbia recepito il rilievo esterno **nessuno dei due documenti lo dice**. ⚠️ **E il rapporto non
+nomina mai la numerazione `NC-2026-###`.**
+
+## Fonti
+
+- [[non_conformita_interne_registro_2026.csv]] — riga 17, `NC-2026-015`: «NC-2026-015;28/01/2026;audit;Qualità;Audit interno: registro formazione MOD-HR-11 non aggiornato per 3 neoassunti Linea 2;;media;passaggio consegne HR incompleto;aggiornamento registro, pianificate sessioni HACCP;Sartori F.;20/02/2026;CHIUSA;»; riga 2, intestazione «N_NC;Data;Origine;Reparto;Descrizione;Prodotto_Lotto;Gravità;Causa_radice;Azione_correttiva;Responsabile;Data_chiusura;Stato;Costo_stimato_€».
+- [[Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt]] — §4, «OSSERVAZIONE n. 4 (MINORE)»: «Evidenza oggettiva: per n. 4 operatori assunti sulla Linea 2 tra ottobre 2025», «  e gennaio 2026 (personale in sostituzione per turnover) la formazione» e «  specifica allergeni non risulta registrata su MOD-HR-11; risulta eseguito».
+- [[scheda_allergeni_matrice_cross_contamination.docx]] — §9.1, «Tutto il personale di produzione, magazzino e manutenzione riceve formazione» e «su allergeni al momento dell'assunzione e con richiamo annuale (registro».
+- [[registro_presenze_corsi_HACCP_scaduti.csv]] — riga 15, «Vasilescu Andrei;Operaio Linea 1;Allergeni (PRPo1);09/10/2025;09/10/2027;VALIDO;interno (Marchetti);» — e con essa le righe 20, 26, 31 e 42, le sole altre quattro righe «Allergeni (PRPo1)» del file.

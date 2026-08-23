@@ -1,0 +1,69 @@
+# Note RIAPERTE dal lotto lotto_03b_politica_formazione — riconciliazione verticale ARRETRATA (E37).
+# GENERATO da 06_operativo\candidate_r1.py --dominio formazione il 2026-08-23, e RIGENERATO
+# lo stesso giorno dopo che la coppia espressioni-fonti e' stata STRETTA (E56).
+#
+# ⚠️ IL PRIMO TAGLIO NE RIAPRIVA QUINDICI, e sette erano un falso perimetro: l'espressione
+# `formazion` riconosceva LA PAROLA, e con essa note sul cruscotto, sugli indicatori e sulla
+# struttura del registro — che le fonti del dominio non governano. Le fonti governano
+# l'OBBLIGO di formare e di registrare su MOD-HR-11, non un file e non un KPI.
+#
+# ⚠️ Le sette che cadono restano scritte qui sotto, commentate, perche' un perimetro che si
+# stringe senza lasciar traccia non e' verificabile:
+#   - fatto-cruscotto-colonne-mai-calcolate
+#   - fatto-ore-formazione-crollate
+#   - fatto-semilavorati-senza-identificazione-in-cella
+#   - questione-cruscotto-e-obiettivi-non-si-mappano
+#   - kpi-indicatori-mensili-2026
+#   - kpi-obiettivi-2026-avanzamento
+#   - kpi-pareto-cause-nc-2026
+#
+# Non si edita a mano: si rilancia lo script.
+area-produzione
+fatto-chiusura-nc-documentale-e-il-richiamo
+fatto-formazione-2025-sotto-obiettivo
+fatto-mani-addetto-farcitura-non-conforme
+fatto-riserva-su-nc1-efficacia-da-verificare
+questione-evidenze-del-02-04-nove-o-cinque
+questione-tre-o-quattro-neoassunti-senza-formazione
+kpi-indicatori-2025-consuntivo
+
+# --- da qui in giu': note toccate in corso di lotto (E32) ---
+# Preesistenti, che il lotto modifica senza citarne i grezzi.
+# --- da qui in giu': note NATE in questo lotto ---
+# Si dichiarano QUANDO SI CREANO, non si deducono a fine lotto: e'
+# la stessa disciplina di E32 applicata alle note nuove, e serve a
+# conta_perimetro_lotto.py, che i numeri del perimetro li legge da qui.
+
+# --- da qui in giu': note toccate in corso di lotto (E32) ---
+# Note gia' nel vault che il lotto ha MODIFICATO. L'elenco si scrive MENTRE si modifica.
+_index-areas
+_index-docs
+_index-data
+_index-entities
+area-qualita
+questione-tre-o-quattro-neoassunti-senza-formazione
+
+# --- da qui in giu': note NATE in questo lotto ---
+area-risorse-umane
+doc-politica-qualita-2026
+doc-scadenzario-formazione-2026
+entita-federica-sartori
+fatto-politica-otto-impegni-e-il-nono-ritirato
+fatto-politica-cultura-sicurezza-alimentare
+fatto-politica-food-defense-e-food-fraud
+fatto-politica-firmata-il-15-01
+kpi-obiettivi-politica-2026
+questione-ore-formazione-due-valori-per-il-2025
+questione-cinquanta-o-cinquantadue-persone
+kpi-formazione-stati-al-18-05
+kpi-enti-formatori-e-corsi
+fatto-diciassette-titoli-scaduti-al-18-05
+fatto-formazione-allergeni-registrata-biennale
+questione-sessioni-allergeni-2026-non-a-registro
+fatto-validita-haccp-da-procedura-non-in-archivio
+fatto-due-sessioni-formative-programmate-per-il-09-06
+fatto-cinque-righe-di-perimetro-incerto-nel-registro
+fatto-squadra-emergenza-antincendio-in-scadenza
+fatto-in-scadenza-cinque-o-sei
+fatto-registro-formazione-intestazione-ripetuta
+fatto-tre-righe-del-registro-con-un-obbligo-non-chiuso

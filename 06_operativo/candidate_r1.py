@@ -173,10 +173,10 @@ DOMINI = {
             "formazione_allergeni_operatori_2026.pptx",
         },
         "espressioni": [
-            r"allergen", r"glutin", r"sesamo", r"frutta a guscio", r"soia",
-            r"contaminazione crociat", r"cross[- ]contamination", r"rework",
+            r"allergen", r"\bglutin", r"\bsesamo\b", r"frutta a guscio", r"\bsoia\b",
+            r"contaminazione crociat", r"cross[- ]contamination", r"\brework\b",
             r"sequenza di produzione", r"puo' contenere", r"può contenere",
-            r"etichettatura precauzional", r"PAL", r"PRPo1",
+            r"etichettatura precauzional", r"\bPAL\b", r"\bPRPo1\b",
         ],
         "cosa": "allergeni, contaminazione crociata, sequenze di produzione, rework ed etichettatura precauzionale",
     },
@@ -225,14 +225,92 @@ DOMINI = {
         ],
         "cosa": "il rapporto con l'ente di certificazione: titolo in vigore, scope, condizioni di validita' e uso del marchio, obblighi di comunicazione, chiusura delle non conformita' e programmazione degli audit",
     },
+    # Lotto 3B. ⚠️ **E' IL PRIMO DOMINIO DICHIARATO SOTTO E56**: la coppia
+    # espressioni-fonti si giustifica a vicenda, ed e' stata costruita chiedendosi, per ogni
+    # espressione, QUALE fonte del dominio governi cio' che quell'espressione riconosce. Le
+    # espressioni che non hanno passato quella prova sono elencate qui sotto col loro motivo,
+    # perche' un dominio si legge anche da cio' che ha lasciato fuori.
+    #
+    # ⚠️ LE DUE FONTI GOVERNANO DAVVERO, e sono di due livelli diversi:
+    #   - la SCHEDA ALLERGENI §9.1 prescrive l'obbligo e la sua periodicita' — «Tutto il
+    #     personale di produzione, magazzino e manutenzione riceve formazione su allergeni al
+    #     momento dell'assunzione e con richiamo annuale (registro MOD-HR-11)» — piu' i moduli
+    #     per ruolo (§9.1) e la verifica di efficacia (§9.4);
+    #   - il MANUALE HACCP prescrive il prerequisito che la contiene: «PRP-04 Igiene e
+    #     formazione del personale (MOD-HR-11 registro formazione)», e al §9.2 «formazione
+    #     specifica registrata su MOD-HR-11». E' la fonte che dice CHE la formazione e' un
+    #     prerequisito del sistema, non solo una buona pratica.
+    #
+    # ⚠️ IL MATERIALE D'AULA e' la terza fonte, ed e' qui per la ragione che ha corretto il
+    # 9,1 % di 2B-bis: la scheda prescrive CHE si formi, il .pptx e' cio' che l'operatore
+    # riceve. Una nota sul contenuto della formazione che cita il materiale **non e' scoperta**.
+    #
+    # ⚠️ CHE COSA E' RIMASTO FUORI, e perche' — e' il verso «troppo largo» che 3C ha pagato:
+    #   - la FORMAZIONE ANTINFORTUNISTICA (preposto, antincendio, primo soccorso, carrello
+    #     elevatore, rischio alto 12h, RLS, dirigente): la governa il **DVR**, che e' fonte
+    #     prescrittiva ma appartiene al lotto 8 e NON e' citabile. Le sue espressioni non
+    #     entrano, o il tasso conterebbe scoperte note che una fonte non canonizzabile governa;
+    #   - la VALIDITA' TRIENNALE dell'HACCP: il registro la attribuisce a una «procedura
+    #     interna (3 anni)» che **nel corpus non c'e'**. Espressione senza fonte: fuori;
+    #   - gli IMPEGNI E GLI OBIETTIVI DELLA POLITICA: nessuna fonte del corpus prescrive che
+    #     cosa una politica per la qualita' debba contenere — lo fa il protocollo BRCGS, che il
+    #     corpus non ha. Il certificato prescrive le condizioni di validita' e uso del marchio,
+    #     **non il contenuto della politica**. Fuori: e' esattamente l'errore di 3C, dove le
+    #     espressioni riconoscevano l'audit e le fonti governavano il titolo.
+    "formazione": {
+        "fonti": {
+            "scheda_allergeni_matrice_cross_contamination.docx",
+            "manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt",
+            "formazione_allergeni_operatori_2026.pptx",
+        },
+        # ⚠️ IL CONFINE DI PAROLA IN TESTA A `formazion` NON E' UN DETTAGLIO, ed e' costato
+        # un giro: senza `\b` l'espressione pesca **`informazion`** — «un'informazione»,
+        # «la stessa informazione» — e al primo taglio ha riaperto **cinque note** che di
+        # formazione non parlano affatto (gli appunti in coda al file reflue, la carica in
+        # salita, le quattro grafie del registro tamponi, la durezza in deroga, la SDS in
+        # linea). E' il criterio generico di 3C in miniatura: **un dominio si riconosce dalle
+        # espressioni che nomina LUI e nessun altro**.
+        #
+        # ⚠️ E' ANCHE IL SECONDO BUG DI CONFINE IN DUE GIORNI, nel verso opposto a quello di
+        # `verifica_dominio.py`: la' un `\b` **in coda** alla sigla la faceva sparire in
+        # silenzio, qui un `\b` **mancante in testa** faceva rumore. Uno strumento che
+        # riconosce testo si sbaglia sui bordi, non sul centro.
+        # ⚠️ SECONDO TAGLIO, e il primo era TROPPO LARGO: e' il verso di 3C, riprodotto dal
+        # primo lotto che dichiara un dominio sotto E56. Col taglio di apertura il tasso di
+        # difetto di produzione dava **63,6 % su 22 note**, il piu' alto della serie, e la prova
+        # che il numero misurava la dichiarazione e non il metodo sta in una riga sola:
+        # **`\bformazion` da sola pescava tutte e quattordici le scoperte.**
+        #
+        # ⚠️ LA PROVA E' PER ESPRESSIONE, non per numero, ed e' il test che E56 prescrive: per
+        # ciascuna, quale fonte del dominio governa cio' che riconosce?
+        #   - `\bformazion` riconosce **la parola**, e con essa la struttura del registro, chi lo
+        #     estrae, la sua intestazione ripetuta e l'indicatore delle ore. **Nessuna fonte del
+        #     dominio governa un file: governano l'OBBLIGO di formare e di registrare.** Fuori;
+        #   - `HACCP (base|avanzato)` sono **nomi di corso del registro**, e la loro validita'
+        #     viene dalla «procedura interna (3 anni)» che nel corpus non c'e'. Fuori;
+        #   - `ore/addetto` e `ore per addetto` sono l'indicatore, e lo governa la tabella degli
+        #     obiettivi della politica, che **non e' una fonte prescrittiva**. Fuori;
+        #   - `scadenzario formazion` e' il nome del documento, non l'obbligo. Fuori.
+        #
+        # ⚠️ RESTANO le espressioni che nominano l'OBBLIGO e la sua registrazione, che e'
+        # esattamente cio' che `PRP-04` e la scheda §9.1 prescrivono.
+        "espressioni": [
+            r"\bMOD-HR-11\b", r"\bPRP-04\b", r"richiamo annual",
+            r"registro (?:della )?formazion", r"formazione (?:specifica|allergeni|obbligatoria|del personale)",
+            r"sessione formativ", r"sessioni? di formazion", r"efficacia della formazion",
+            r"\bneoassunt", r"nuovo assunto", r"nuovi assunti",
+            r"\baddestrament", r"\baffiancament",
+        ],
+        "cosa": "la formazione del personale come PREREQUISITO del sistema HACCP: obbligo, periodicita', moduli per ruolo, registrazione su MOD-HR-11 e verifica di efficacia",
+    },
     "acqua": {
         "fonti": {
             "piano_autocontrollo_acqua_potabile_analisi.csv",
         },
         "espressioni": [
             r"acqua potabil", r"acqua di rete", r"potabilit", r"addolcitor",
-            r"cloro residu", r"ghiaccio", r"coliform", r"E\.\s?coli",
-            r"enterococch", r"durezza total", r"D\.Lgs\.?\s*18/2023",
+            r"cloro residu", r"\bghiaccio\b", r"coliform", r"E\.\s?coli",
+            r"enterococch", r"durezza total", r"\bD\.Lgs\.?\s*18/2023\b",
         ],
         "cosa": "acqua potabile, punti di prelievo, parametri di potabilita' e acqua di processo",
     },
