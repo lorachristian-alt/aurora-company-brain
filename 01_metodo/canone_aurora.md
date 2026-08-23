@@ -190,6 +190,44 @@ Caratteristiche volute, che una pipeline deve saper reggere:
 - **metadati coerenti con l'emittente**: la visura dice InfoCamere, il CPI dice Vigili del Fuoco;
 - **rumore di fondo**: ~22 file (menù della trattoria convenzionata, cancelleria, condominio, palestra) che non
   c'entrano nulla con la storia e servono a impedire che il retrieval «indovini per contesto».
+- **testo BARRATO nei documenti** *(riga aggiunta il 23/08/2026, al gate del lotto 3B — T157)*: passaggi cancellati con la barratura, che nel testo estratto sono **indistinguibili da quelli vigenti**.
+
+### Il barrato — accrescimento del 23/08/2026, gate del lotto 3B (T157)
+
+⚠️ **Chi legge questo canone deve aspettarsi il barrato, perché è un tratto del corpus e non
+un incidente di qualche file.** La riga entra qui perché lo strumento che lo vede esiste da
+`E48` — l'**estrazione di cantiere**, che lo restituisce marcato `[BARRATO: …]` — mentre
+l'**estrattore di misura non lo vede e resta identico**: chi confronta il prima e il dopo di una
+misura sta leggendo un archivio in cui il barrato è testo normale.
+
+**Il conto, misurato sul corpus il 23/08/2026 con `estrazione_cantiere.testo_cantiere` (E49: il
+numero è contato sulla fonte, non riportato):**
+
+| | |
+|---|---|
+| grezzi che portano almeno un passaggio barrato | **11** |
+| passaggi barrati in tutto | **40** |
+| di quegli 11, già canonizzati | **6** |
+| formati | `.docx` per dieci, `.pptx` per uno |
+
+⚠️ **Il numero corregge il «tre» del prompt di questo gate**, che era composto a mano: è la
+stessa specie che questo gate sta legiferando — un conteggio del coordinatore invece di una
+lettura dalla fonte (§4.47).
+
+**Perché il barrato cambia il senso di un documento, e non lo sfuma:**
+
+- **la politica per la qualità 2026** elenca nove impegni, e il nono — «perseguire la crescita
+  del fatturato quale obiettivo primario dell'organizzazione» — è **barrato**. Nel testo
+  estratto è indistinguibile dagli altri otto: chi legge il grezzo conta nove impegni dove
+  l'azienda ne ha lasciati otto, e il nono è **una proposta ritirata**;
+- **`PRO-QA-08`** porta **tre** barrati sostanziali — l'applicazione ai reclami dei fornitori, la
+  comunicazione al titolare per le classi 1 e 2, il laboratorio interno;
+- **la lettera di risposta a Tosano** ne porta **nove**, il numero più alto del corpus, e la sua
+  natura di **bozza** è proprio ciò che il barrato racconta.
+
+**La regola che ne discende, e che vale per ogni nota:** un riscontro che vive **solo** in testo
+barrato **non sostiene un'affermazione al presente** — è contenuto **revocato**, e la nota che
+lo usa lo dichiara. Un fatto letto dalla struttura del file porta `verifica: strutturale`.
 
 
 ## Contraddizioni verificate e volute (secondo gruppo)

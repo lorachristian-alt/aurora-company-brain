@@ -1,136 +1,176 @@
 # -*- coding: utf-8 -*-
-"""ricalibra_budget — i budget dei lotti restanti, ricalcolati sui consuntivi veri.
+"""ricalibra_budget — la densita' misurata sui lotti chiusi, LETTA e non ricopiata.
 
-Le fasce della matrice sono state costruite in fase di pianificazione sulla densita'
-del pilota — 2,1 note di contenuto per grezzo. I lotti chiusi dopo il pilota misurano
-6,0 · 9,5 · 13,5: con le stime vecchie il controllo di apertura (E21/E28) scatterebbe a
-ogni lotto, e una regola che scatta sempre viene scavalcata per prassi.
+⚠️ RISCRITTO IL 23/08/2026, AL GATE DEL LOTTO 3B, DAL CENSIMENTO DELLE COPIE DI STATO
+(§4.49 del passaggio di consegne). Questo script era il caso piu' grave del censimento:
+teneva **due liste scritte a mano** — i lotti chiusi coi loro consuntivi e i lotti restanti
+con le loro fasce — e le teneva ferme al **19/08/2026**. Cinque lotti dopo, la prima tabella
+diceva che i lotti chiusi erano quattro; il resto del progetto ne contava dieci.
 
-Questo script fa due cose, entrambe da script e non a mano (regola d'oro 5):
-  1. calcola la densita' misurata, lotto per lotto e aggregata;
-  2. proietta le note dei lotti restanti e dice quali superano il tetto di 40 note di
-     E28 — cioe' quali vanno spezzati PRIMA di aprirli — e in quanti pezzi.
+⚠️ **Nessuno se n'era accorto perche' nessuno lo lanciava**, ed e' la forma peggiore della
+malattia di §4.47: uno strumento che non mente mai a voce alta perche' non parla mai, e che
+al primo rilancio avrebbe dato numeri di cinque lotti fa con l'aria di darli di oggi.
+
+DA DOVE LEGGE, ADESSO. Niente qui dentro e' scritto a mano:
+  - i **lotti** e i loro grezzi ........ dagli elenchi in `qa\\lotti\\` e dalla fetta pilota;
+  - **chiuso / manutenzione** .......... dai marcatori, via `verifica_matrice_lotti.leggi`;
+  - le **note** di ogni lotto .......... dal vault, incrociando `fonti` coi grezzi del lotto;
+  - la **capacita'** ................... da E31: 25-35 note di contenuto, tetto 40 (E28).
+
+⚠️ CHE COSA MISURA, DETTO COL SUO NOME (E46). «Note del lotto» qui significa **note di
+contenuto che citano almeno un grezzo di quel lotto**, non «note che quel lotto ha prodotto»:
+una nota estesa da un lotto successivo (E32) cita grezzi di due lotti e viene contata in
+**entrambi**. Lo scarto si dichiara in coda, nota per nota, e non si aggiusta: e' il numero
+che le fonti sanno dare, e un numero che si aggiusta a mano e' il difetto che questo file e'
+stato riscritto per togliere.
+
+⚠️ LE FASCE DEI LOTTI 2-10 NON ESISTONO PIU' (E31), e non sono state sostituite da altre
+fasce: al loro posto vale la **capacita'**. La proiezione qui sotto e' quindi sulla capacita',
+non su una densita' per grezzo — che i consuntivi hanno gia' mostrato essere un artefatto.
 
 Uso:
     python ricalibra_budget.py
+    python ricalibra_budget.py --vault <percorso>
+Esce 0 sempre: e' un consuntivo, non un controllo.
 """
 from __future__ import division
 
-# --- consuntivi: note di CONTENUTO prodotte, da conta_stato.py a ogni chiusura -------
-CHIUSI = [
-    # (lotto, grezzi, note di contenuto prodotte)
-    ("pilota L26130", 22, 46),
-    ("1A", 7, 42),
-    ("1B", 4, 38),
-    ("1C", 2, 27),
-]
+import argparse
+import os
+import sys
 
-# --- i lotti restanti, come stanno oggi nella matrice --------------------------------
-# classe: 'contenuto'  = documenti operativi densi, riconciliabili col vault
-#         'normativo'  = documenti lunghi ma monotematici (DVR, CPI, AUA, polizze)
-#         'rumore'     = fondo d'archivio: nota corta e pochi link (metodo_03 §1.3 es. 23)
-RESTANTI = [
-    (2,  "Igiene, sanificazione, autocontrollo, MOCA",        12, (20, 30), "contenuto"),
-    (3,  "Sistema qualita', certificazioni, audit, crisi",    13, (22, 32), "contenuto"),
-    (4,  "Filiera in entrata, fornitori, logistica",          14, (26, 36), "contenuto"),
-    (5,  "Commerciale: cliente, listini, marginalita'",       15, (28, 38), "contenuto"),
-    (6,  "Amministrazione, bilancio, cassa",                  15, (28, 40), "contenuto"),
-    (7,  "Persone: lavoro, organico, sindacato",              15, (24, 34), "contenuto"),
-    (8,  "Sicurezza sul lavoro, ambiente, assicurazioni",     11, (16, 24), "normativo"),
-    (9,  "R&D, nuovi prodotti, investimenti, visione",        12, (22, 30), "contenuto"),
-    (10, "Rumore di fondo e forma dell'archivio",             18, (14, 22), "rumore"),
-]
+QUI = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, os.path.join(QUI, "qa"))
+import qa_comune as Q                    # noqa: E402
+import verifica_matrice_lotti as V       # noqa: E402
 
-TETTO_E28 = 40          # oltre questa soglia il lotto si spezza sempre
-BERSAGLIO = 30          # dimensione a cui si punta spezzando: sotto la soglia doppia
+DIR_LOTTI = os.path.join(QUI, "qa", "lotti")
+PILOTA = os.path.join(QUI, "qa", "fetta_l26130.txt")
+
+# E31 + E28: la capacita' e la soglia, che sono l'unico budget in vigore.
+CAPACITA = (25, 35)
+TETTO_E28 = 40
+BERSAGLIO = 30
+
+
+def elenchi():
+    """(nome, grezzi, chiuso, manutenzione, della_matrice) per ogni elenco, pilota compreso."""
+    voci, _c, _m = V.leggi(PILOTA)
+    fuori = [("pilota L26130", voci, True, False, False)]
+    for n in sorted(os.listdir(DIR_LOTTI)):
+        if n.lower().endswith("_note.txt") or not n.lower().endswith(".txt"):
+            continue
+        voci, chiuso, manut = V.leggi(os.path.join(DIR_LOTTI, n))
+        fuori.append((n[:-4], voci, chiuso, manut, True))
+    return fuori
+
+
+def note_di_contenuto(vault):
+    """Le note di contenuto del vault, con l'insieme dei grezzi che ciascuna cita.
+
+    Stessa definizione di `conta_stato.py`, e non una seconda: fuori gli `_index`, le
+    note-strumento del progetto (E20) e le note di diario."""
+    fuori = []
+    for n in Q.tutte_le_note(vault):
+        if n.type == "index" or Q.e_nota_strumento(n) or n.type in ("sessione", "daily"):
+            continue
+        fuori.append((n.slug, {str(f) for f in n.fonti if f}))
+    return fuori
 
 
 def main():
-    print("=" * 78)
-    print("DENSITA' MISURATA SUI LOTTI CHIUSI")
-    print("=" * 78)
-    tot_g = tot_n = 0
-    for nome, g, n in CHIUSI:
-        print("  %-14s %2d grezzi -> %3d note di contenuto   densita' %5.1f" % (nome, g, n, n / g))
-        tot_g += g; tot_n += n
-    print("  %-14s %2d grezzi -> %3d note                    densita' %5.1f  (media pesata)"
-          % ("TOTALE", tot_g, tot_n, tot_n / tot_g))
+    ap = argparse.ArgumentParser(description="Densita' misurata e capacita' dei lotti restanti.")
+    ap.add_argument("--vault", default=Q.VAULT)
+    args = ap.parse_args()
 
-    dopo = [(g, n) for nome, g, n in CHIUSI if nome != "pilota L26130"]
-    dg = sum(g for g, _ in dopo); dn = sum(n for _, n in dopo)
-    d_recente = dn / dg
-    print("  %-14s %2d grezzi -> %3d note                    densita' %5.1f  <-- riferimento"
-          % ("dopo il pilota", dg, dn, d_recente))
+    tutti = elenchi()
+    note = note_di_contenuto(args.vault)
 
-    # densita' attesa per classe: si parte dal riferimento misurato e si corregge
-    # verso il basso per le classi che il pilota ha mostrato meno dense.
-    DENSITA = {
-        "contenuto": d_recente,
-        "normativo": d_recente * 0.75,
-        "rumore":    d_recente * 0.30,
-    }
-    print("\n  densita' attesa per classe:")
-    for k in ("contenuto", "normativo", "rumore"):
-        print("    %-10s %5.1f note/grezzo" % (k, DENSITA[k]))
+    chiusi = [e for e in tutti if e[2]]
+    aperti = [e for e in tutti if not e[2] and e[4]]
 
-    print("\n" + "=" * 78)
-    print("PROIEZIONE DEI LOTTI RESTANTI, E CHI VA SPEZZATO PRIMA DI APRIRLO")
-    print("=" * 78)
-    print("| # | Tema | Grezzi | Budget vecchio | Proiezione | Budget nuovo | Verdetto |")
-    print("|---|---|---|---|---|---|---|")
-    tot_proj = 0
-    tot_pezzi = 0
-    for num, tema, grezzi, (bmin, bmax), classe in RESTANTI:
-        d = DENSITA[classe]
-        proj = grezzi * d
-        tot_proj += proj
-        pezzi = max(1, int(proj / BERSAGLIO) + (1 if proj % BERSAGLIO else 0))
-        tot_pezzi += pezzi
-        per_pezzo = proj / pezzi
-        nuovo = (int(proj * 0.85), int(proj * 1.15))
-        if proj > TETTO_E28:
-            verdetto = "**SPEZZARE in %d** (~%d grezzi, ~%d note per pezzo)" % (
-                pezzi, round(grezzi / pezzi), round(per_pezzo))
-        elif proj > bmax:
-            verdetto = "budget alzato, non si spezza"
-        else:
-            verdetto = "invariato"
-        print("| %d | %s | %d | %d-%d | **%d** | %d-%d | %s |"
-              % (num, tema, grezzi, bmin, bmax, round(proj), nuovo[0], nuovo[1], verdetto))
-    print("| | **totale** | **%d** | 200-286 | **%d** | | **%d lotti invece di 9** |"
-          % (sum(r[2] for r in RESTANTI), round(tot_proj), tot_pezzi))
+    # a quanti lotti chiusi appartiene ogni nota: e' lo scarto da dichiarare
+    per_nota = {}
+    conteggio = {}
+    for nome, grezzi, _c, _m, _d in chiusi:
+        g = set(grezzi)
+        dentro = [slug for slug, fonti in note if fonti & g]
+        conteggio[nome] = dentro
+        for slug in dentro:
+            per_nota.setdefault(slug, []).append(nome)
+    condivise = {s: l for s, l in per_nota.items() if len(l) > 1}
 
-    print(chr(10) + "=" * 78)
-    print("IL CONTROLLO CHE SMONTA IL MODELLO LINEARE")
-    print("=" * 78)
-    print("  Le NOTE PER LOTTO sono molto piu' stabili del rapporto note/grezzo:")
-    for nome, g, n_ in CHIUSI:
-        print("    %-14s %2d grezzi -> %3d note" % (nome, g, n_))
-    note_lotto = [n_ for _, _, n_ in CHIUSI]
-    media = sum(note_lotto) / len(note_lotto)
-    scarto_n = max(note_lotto) - min(note_lotto)
-    dens = [n_ / g for _, g, n_ in CHIUSI]
-    print("    note per lotto: min %d, max %d, scarto %d su una media di %.0f (%.0f%%)"
-          % (min(note_lotto), max(note_lotto), scarto_n, media, 100 * scarto_n / media))
-    print("    densita':       min %.1f, max %.1f, scarto %.1f su una media di %.1f (%.0f%%)"
-          % (min(dens), max(dens), max(dens) - min(dens), sum(dens) / len(dens),
-             100 * (max(dens) - min(dens)) / (sum(dens) / len(dens))))
-    print("  ATTENZIONE: i grezzi per lotto sono passati da 22 a 2 mentre le note restavano")
-    print("  fra 46 e 27. Cio' che si mantiene costante e' il LOTTO, non la densita': moltiplicare")
-    print("  una densita' misurata su lotti da 2-7 grezzi per lotti da 12-18 e' un artefatto.")
+    print("=" * 84)
+    print("I LOTTI CHIUSI, LETTI DAI MARCATORI - e le loro note, lette dal vault")
+    print("=" * 84)
+    print("| Lotto | Grezzi | Note di contenuto che li citano | Note/grezzo | Specie |")
+    print("|---|---|---|---|---|")
+    canon = []
+    for nome, grezzi, _c, manut, della_matrice in chiusi:
+        n_g, n_n = len(grezzi), len(conteggio[nome])
+        specie = "manutenzione" if manut else ("pilota" if not della_matrice else "canonizzazione")
+        dens = "-" if not n_g else "%.1f" % (n_n / n_g)
+        print("| %s | %d | %d | %s | %s |" % (nome, n_g, n_n, dens, specie))
+        if not manut:
+            canon.append((nome, n_g, n_n))
+    print("")
+    print("lotti chiusi ............... %d   (di cui manutenzione: %d, fuori dalla serie per E38)"
+          % (len(chiusi) - 1, sum(1 for e in chiusi if e[3])))
+    print("   ⚠ il pilota e' contato a parte: non ha marcatore e non e' della matrice")
 
-    print("\n" + "=" * 78)
-    print("REGOLA CHE NE DISCENDE")
-    print("=" * 78)
-    print("  Con densita' attesa %.1f note/grezzo e tetto di %d note (E28):" % (d_recente, TETTO_E28))
-    print("    massimo %d grezzi per lotto di CONTENUTO" % int(TETTO_E28 / DENSITA["contenuto"]))
-    print("    massimo %d grezzi per lotto NORMATIVO" % int(TETTO_E28 / DENSITA["normativo"]))
-    print("    massimo %d grezzi per lotto di RUMORE" % int(TETTO_E28 / DENSITA["rumore"]))
-    print("\n  Note totali proiettate a fine corsa: %d di contenuto sui %d grezzi restanti,"
-          % (round(tot_proj), sum(r[2] for r in RESTANTI)))
-    print("  piu' le %d gia' scritte = **%d note di contenuto** nel vault finale."
-          % (tot_n, round(tot_proj) + tot_n))
+    print("")
+    print("=" * 84)
+    print("LO SCARTO, DICHIARATO: le note che appartengono a PIU' DI UN LOTTO")
+    print("=" * 84)
+    print("note contate in due o piu' lotti ... %d su %d"
+          % (len(condivise), sum(len(v) for v in conteggio.values())))
+    for slug in sorted(condivise)[:20]:
+        print("   %-58s %s" % (slug, " + ".join(condivise[slug])))
+    if len(condivise) > 20:
+        print("   ... e altre %d" % (len(condivise) - 20))
+    print("⚠ Sono le note che un lotto successivo ha ESTESO (E32): il conteggio le vede in")
+    print("  entrambi i lotti, e questo numero e' la misura di quanto la somma ecceda il vero.")
+
+    print("")
+    print("=" * 84)
+    print("IL CONTROLLO CHE SMONTA IL MODELLO LINEARE (lotto 1C, ancora vero)")
+    print("=" * 84)
+    if canon:
+        n_note = [n for _n, _g, n in canon]
+        dens = [n / g for _n, g, n in canon if g]
+        media = sum(n_note) / len(n_note)
+        print("  note per lotto di canonizzazione: min %d, max %d, scarto %d su una media di %.0f (%.0f%%)"
+              % (min(n_note), max(n_note), max(n_note) - min(n_note), media,
+                 100 * (max(n_note) - min(n_note)) / media))
+        if dens:
+            m_d = sum(dens) / len(dens)
+            print("  densita' note/grezzo ...........: min %.1f, max %.1f, scarto %.1f su una media di %.1f (%.0f%%)"
+                  % (min(dens), max(dens), max(dens) - min(dens), m_d,
+                     100 * (max(dens) - min(dens)) / m_d))
+    print("  Cio' che si mantiene costante e' il LOTTO, non la densita': moltiplicare una")
+    print("  densita' misurata su lotti da 2-7 grezzi per lotti da 12-18 e' un artefatto,")
+    print("  ed e' esattamente la ragione per cui E31 ha sostituito le fasce con la capacita'.")
+
+    print("")
+    print("=" * 84)
+    print("GLI ELENCHI ANCORA APERTI, E LA CAPACITA' DI E31 (%d-%d note, tetto %d)"
+          % (CAPACITA[0], CAPACITA[1], TETTO_E28))
+    print("=" * 84)
+    print("| Elenco | Grezzi | Pezzi da ~%d note attesi |" % BERSAGLIO)
+    print("|---|---|---|")
+    tot_g = 0
+    for nome, grezzi, _c, _m, _d in aperti:
+        tot_g += len(grezzi)
+        print("| %s | %d | %s |"
+              % (nome, len(grezzi),
+                 "si ripacchettizza in apertura (E31)" if len(grezzi) > 5 else "1"))
+    print("| **totale** | **%d** | |" % tot_g)
+    print("")
+    print("⚠ Quanti pezzi servano NON si proietta qui: E31 dice che i grezzi di un lotto si")
+    print("  decidono in APERTURA contando i fatti (E21), non moltiplicando una densita'.")
+    print("  Questo script misura il consuntivo; la proiezione la fa l'apertura del lotto.")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

@@ -1328,6 +1328,37 @@ per ciascuna si verifica cosa dicono tutte le fonti del lotto che la nominano. �
 controllo che `qa_copertura.py` prepara con l'elenco delle note per tema, e che il revisore
 indipendente esegue col canone alla mano.
 
+⚠️ **E60 — E2 HA UN ARTEFATTO D'APERTURA E UN PASSO PRIMA DEL GIUDIZIO.** Il paragrafo qui
+sopra descrive il gesto e lo affida alla diligenza di chi chiude il lotto. **Due lotti di fila
+hanno dimostrato che alla diligenza non si può affidare**, e in entrambi la riconciliazione
+l'ha fatta **il revisore al posto del ciclo** — cioè la rete di controllo al posto del lavoro.
+
+| Il caso | Che cosa ha trovato il revisore che il ciclo non aveva cercato |
+|---|---|
+| **3A** | il rilievo era testuale: **«mai contro il vault intorno»** |
+| **3B** | **sette divergenze scrivibili su otto** nascono dall'accostamento col **verbale di riesame canonizzato il giorno prima**, non dai due grezzi del lotto |
+
+**Da qui in poi E2 ha due appigli meccanici, e nessuno dei due è «rileggere con più
+attenzione»:**
+
+1. **IN APERTURA, L'ELENCO DELLE GRANDEZZE CONDIVISE, DA SCRIPT.** Codici, entità, date e
+   importi che compaiono **in più di un grezzo del lotto**, e **fra il lotto e il vault** —
+   cioè anche quelli che una nota già scritta porta. È l'artefatto che dice **dove guardare**
+   prima di sapere che cosa si troverà, ed è il solo modo di cercare una divergenza che vive
+   fra il lotto e una nota di un mese fa.
+2. **PRIMA DEL GIUDIZIO, LA RILETTURA CONTRO LE NOTE VICINE.** Il lotto si rilegge contro le
+   note che il vault **già porta sullo stesso tema** — quelle che citano le stesse entità e
+   gli stessi hub. È il passo che in 3B ha fatto il revisore, spostato dove costa meno.
+
+**Il rapporto dichiara i confronti fatti, uno per uno**: un confronto non dichiarato è un
+confronto che nessuno può distinguere da un confronto non fatto.
+
+⚠️ **Perché l'artefatto sta in APERTURA e non alla chiusura.** Il paragrafo «come si esegue»
+qui sopra colloca l'elenco delle grandezze **alla chiusura del lotto**, ed è tardi per due
+ragioni: a lotto scritto una divergenza trovata costa una riscrittura invece di una scelta di
+stesura, e chi ha appena finito di scrivere **cerca conferme**, non smentite. In apertura
+l'elenco è una mappa; in chiusura è un esame.
+
 ⚠️ **La riconciliazione ha due direzioni, e quella verticale va cercata apposta** (E29). Il
 confronto descritto qui sopra è **orizzontale**: mette a fianco i documenti che *registrano*
 la stessa grandezza. Ma per ogni grandezza esiste anche il documento che **prescrive** come
@@ -1664,7 +1695,7 @@ tradotta da «risposta» a «nota».
 
 **Come si implementa, in due strati.** La distinzione va decisa qui, non in Sessione 2:
 
-- **Strato deterministico (Python, nessun LLM).** Estrae dal corpo della nota le
+- **Strato deterministico (Python, nessun LLM).** Estrae dalla nota le
   **stringhe verificabili con una regex**: numeri con o senza separatori, date nei tre
   formati del corpus, orari, codici (`AF-__-____`, `L26___-L_-T_`, `MV26-____/_`,
   `MOD-__-__`, `NC-2026-___`, `REC-2026-___`, EAN a 13 cifre), citazioni fra virgolette
@@ -1678,6 +1709,38 @@ tradotta da «risposta» a «nota».
 
 Un controllo di provenance che confonde i due strati non è riproducibile, e un numero
 non riproducibile non vale (regola d'oro 5).
+
+⚠️ **LE SUPERFICI DELLO STRATO DETERMINISTICO, DICHIARATE PER INTERO** (23/08/2026, gate
+del lotto 3B, censimento delle superfici — §4.49):
+
+| Superficie | Verificata | Perché |
+|---|---|---|
+| corpo, **celle di tabella e glosse ai wikilink comprese** | **sì** | una riga di tabella è un'affermazione di fatto quanto il corpo (E39) |
+| **`title`** e **`summary`** del frontmatter | **sì, dal 23/08/2026** | vedi il riquadro qui sotto |
+| blocco `## Fonti`: le **citazioni fra virgolette** | **sì**, contro il file di *quella* riga | è il controllo di citazione testuale (E6) |
+| blocco `## Fonti`: i **numeri del locator** | **no, e deliberatamente** | `riga 12`, `§3`, `pag. 4` sono **coordinate**, non affermazioni sul mondo: verificarle come fatti fabbricherebbe rilievi su ogni nota corretta. Che il locator punti davvero lì lo controlla il suo controllo |
+
+⚠️ **IL `title` E IL `SUMMARY` SONO ENTRATI NELLA SUPERFICIE IL 23/08/2026, E PRIMA NON
+CI ERANO MAI STATI.** È il buco più vecchio della suite, e stava esattamente dove il progetto
+trova più difetti: **cinque emendamenti dichiarano l'intestazione portante** — E18 (il
+`summary` enuncia la regola decisionale), E30 (`title` e `summary` come note a sé, a ogni
+giro), E39 ed E42 (la cautela ci si propaga), E51 (la nota non si smentisce da sola) — e
+**nessuno dei cinque aveva uno strato deterministico dietro**. Un numero, una data o un
+codice inventati nell'intestazione passavano la QA a **verde**.
+
+⚠️ **Alla prima misura il vault ne portava quattordici**, e quasi tutti della stessa
+specie: **date scritte con l'anno dove la fonte non lo scrive** — `05/05/2026` nella nota,
+`5/5` nel quaderno OCR che è la sua fonte. Sono E24 (la grafia della fonte) ed E50 (l'anno
+inferito è un derivato) sulla superficie che nessuno controllava.
+
+⚠️ **Il pregresso resta debito, non diventa rosso** (§4.35, come per E43): ERRORE per le
+note nate dal 23/08/2026, **AVVISO dichiarato** per quelle di prima, che portano in coda
+«debito anteriore alla superficie dell'intestazione». Il difetto è piantato in
+`_collaudo\collaudo_intestazione.py`, negli **otto** casi dei due versi.
+
+⚠️ **Un'affermazione già presente nel corpo si verifica una volta sola**: il `title`
+ripete quasi sempre l'H1, e contarla due volte raddoppierebbe ogni rilievo senza trovare
+nulla di nuovo.
 
 | Controllo | Come si esegue | Esito |
 |---|---|---|
@@ -1738,7 +1801,7 @@ successo con il manuale HACCP.
 
 | Controllo | Regola | Esito |
 |---|---|---|
-| Wikilink rotti | ogni `[[...]]` risolve a un file esistente nel vault (nota o grezzo in `sources\`) | ERRORE |
+| Wikilink rotti | ogni `[[...]]` risolve a un file esistente nel vault (nota o grezzo in `sources\`). **La superficie è il CORPO più il campo `related`** (23/08/2026, lotto 3B): `related` porta il rimando spoke → hub, e finché restava fuori il vault ha tenuto **due link rotti con la QA a zero errori** | ERRORE |
 | Nomi ambigui | due file con lo stesso nome in cartelle diverse | ERRORE |
 | **Orfani** (definizione unica, vedi sotto) | nota non raggiungibile da **nessuno** degli 11 `_index` | ERRORE |
 | Copertura di prossimità | nota raggiungibile, ma non entro **due salti** dall'`_index` della **propria** cartella | AVVISO |
@@ -1753,6 +1816,7 @@ successo con il manuale HACCP.
 
 ```
 grafo   = archi orientati: da ogni nota, i wikilink uscenti del suo CORPO
+          PIU' quelli del campo `related` del frontmatter
           (i link verso sources\ NON sono archi: sono fonti, non relazioni)
 radici  = gli 11 _index
 visitati = BFS(grafo, radici)          # orientato, profondità ILLIMITATA
@@ -1771,6 +1835,22 @@ strutturale.
 
 Gli `_index` sono **esentati** dalla regola degli orfani e dal minimo di wikilink.
 `_showcase\` non esiste più dentro il vault (§8.2): non serve escluderla da nulla.
+
+⚠️ **`related` È ENTRATO NEL GRAFO IL 23/08/2026, E QUESTO PSEUDOCODICE DICEVA IL
+CONTRARIO FINO A QUEL GIORNO.** Il controllo dei rotti è stato riparato in giornata, ma la
+riga qui sopra continuava a descrivere il grafo del solo corpo: **la dichiarazione era
+rimasta indietro rispetto al controllo**, che è la stessa specie di E30 applicata a un
+manuale invece che a una nota — il corpo si corregge, l'intestazione resta com'era. L'ha
+presa il **censimento delle superfici** del gate di 3B (§4.49), non una rilettura.
+
+⚠️ **Le superfici di questo controllo, dichiarate per intero perché il collaudo le
+eserciti una per una:**
+
+| Superficie | Nel controllo dei rotti | Nel grafo (orfani, prossimità, componente) | Chi la esercita |
+|---|---|---|---|
+| corpo, blocco `## Fonti` compreso | sì | sì | `collaudo_suite` |
+| campo `related` del frontmatter | sì | sì | `collaudo_related_rotto` |
+| corpo del **primo hub** citato in `related` *(reciprocità)* | — | — | è un controllo a sé, e la sua superficie è **deliberatamente** il solo corpo dell'hub: un hub elenca i propri spoke nel corpo |
 
 ⚠️ **L'aritmetica dell'esenzione E20, che non è un'esenzione in più.** Escludere le
 note-strumento dalla componente unica lascia `_index-code` come vertice isolato: la sua
@@ -2210,6 +2290,13 @@ note → suite QA → revisore indipendente → correzioni propagate → suite Q
      meccanica di E30 — l'intestazione si scrive per prima e si corregge per ultima — e la
      ragione per cui la ricerca delle altre occorrenze è **parte del gesto di qualificare**,
      non un controllo successivo. È un chiarimento a E39, che resta col suo numero (§4.26).
+   - ⚠️ **LA RILETTURA CONTRO LE NOTE VICINE DEL VAULT** (E60, §5.1-bis). I tre passaggi qui
+     sopra guardano **dentro** la nota; questo guarda **fuori**, ed è l'unico dei quattro che
+     può trovare una divergenza con una nota scritta un mese fa. Il lotto si rilegge contro le
+     note che il vault già porta sullo stesso tema — quelle che citano **le stesse entità e
+     gli stessi hub** — e il rapporto dichiara i confronti fatti, uno per uno. **In 3B questo
+     passo l'ha fatto il revisore al posto del ciclo, e ha prodotto sette delle otto
+     divergenze scrivibili del lotto.**
 3. **Revisore indipendente, con il canone alla mano.** È una sessione diversa da quella
    che ha scritto le note. Classifica ogni rilievo:
 
@@ -2429,6 +2516,44 @@ note → suite QA → revisore indipendente → correzioni propagate → suite Q
    fonti**. Nessuno dei due sostituisce l'altro, e una nota che ha visto solo il primo è una
    nota mai giudicata.
 
+   ⚠️ **E61 — UNA CORREZIONE È UNA SCRITTURA, E VALE PER LEI CIÒ CHE VALE PER LA NOTA.**
+   Prima di applicare una correzione si **guarda la fonte che dovrebbe sorreggerla**, e la
+   frase **nuova** che la correzione introduce si rilegge contro le fonti **come una frase di
+   prima stesura**: E54 vale per lei, E47 ed E57 valgono per lei, E23 ed E50 valgono per i
+   numeri che porta.
+
+   ⚠️ **Perché le regole che ci sono non bastavano, ed è una lacuna di DIREZIONE, non di
+   diligenza.** E30, E39, E42 ed E51 guardano tutte all'affermazione **vecchia** e a dove
+   sopravvive — l'intestazione rimasta indietro, la cautela non propagata, la nota che si
+   smentisce da sola. **Nessuna guardava la frase nuova.** La metà scoperta del gesto era
+   proprio quella che nessuno rileggeva, perché sembrava già il frutto di una rilettura.
+
+   ⚠️ **E la ragione per cui «rileggere di più» non chiude il buco è quella di E39, un passo
+   più in là**: chi scrive la correzione **sta pensando al rilievo**, e la frase che scrive gli
+   sembra **la risposta al rilievo**, non un'affermazione da verificare. Una frase che nasce
+   come risposta non viene mai trattata come affermazione.
+
+   | I casi | Che cosa è successo |
+   |---|---|
+   | completamento di **2B** | **tre** rilievi introdotti correggendo |
+   | terzo giro di **3B** | **almeno sette** dei dodici rilievi cadono su frasi che al secondo giro non c'erano |
+   | il peggiore, in 3B | «la foto decisiva non compare in nessuno dei due elenchi» correggeva una frase vaga, **e il §6 della fonte la elenca**: la correzione ha reso **FALSA** una frase che prima era soltanto imprecisa |
+   | il più piccolo, in 3B | «52 meno due fa 51» scritto riscrivendo una nota per chiudere un rilievo: **fa cinquanta**, ed è il numero che altri due documenti dichiarano |
+
+   ⚠️ **La specie si riproduce dentro le correzioni fatte per chiuderla.** Nel giudizio
+   dedicato di E58 sul lotto 3B la stessa forma è ricomparsa al **primo** e al **secondo** giro
+   ed è sparita solo al **terzo**, quando la verifica è stata fatta **delimitazione per
+   delimitazione, cella per cella**. È il dato che dice quale sia il rimedio: **non rileggere,
+   ma verificare ogni frase contro il file** — e in particolare **ogni frase negativa**, che
+   afferma su ciò che la fonte NON contiene ed è quindi la più facile da scrivere senza
+   guardare.
+
+   ⚠️ **Assorbe la vigilanza aperta al gate di 3B** (§6 del passaggio di consegne): il criterio
+   pre-registrato chiedeva la ricomparsa al terzo giro del lotto successivo, ma le
+   osservazioni erano **già due** quando fu scritto — 2B e 3B — e con due consuntivi il
+   conteggio di E28 era completo. **Non è una rilettura a esito visto (§4.43): l'esperimento
+   non era partito, e la seconda osservazione era anteriore al criterio, non successiva.**
+
 5-bis. **NOTA-SESSIONE nel journal** (`workspace\`), **e solo DOPO di essa il blocco dei
    conteggi di `conta_stato.py`** (E34). Quel blocco è **l'ultimo numero che si produce prima
    del commit**: è lui che si incolla nello stato (passo 6) e nel rapporto di lotto.
@@ -2517,6 +2642,40 @@ note → suite QA → revisore indipendente → correzioni propagate → suite Q
    ⚠️ **A tradirlo è stato UN NUMERO, non una rilettura del codice: 28 fonti su 36 «nominate».**
    **Un elenco che dice quasi sempre di sì non è una verifica**, e **uno script che tace non è
    uno script che assolve.**
+
+   ⚠️ **E59 — LA DICHIARAZIONE DEL DOMINIO SI COLLAUDA PRIMA DELLA MISURA.** E56 dice che le
+   due metà della dichiarazione devono corrispondersi; **E59 dice come si verifica che si
+   corrispondano davvero, e lo fa prima che il numero esca.** Ogni **espressione** del dominio
+   si prova **da script** contro due insiemi di note:
+
+   | Insieme | Che cosa dice l'esito |
+   |---|---|
+   | le note che **citano una fonte del dominio** | quante ne riconosce: è il lavoro che l'espressione deve fare |
+   | le note che **non citano nessuna fonte del dominio** | quante ne pesca **fuori**: è il difetto che l'espressione porta |
+
+   **Un'espressione che riconosce PREVALENTEMENTE note governate da altre fonti è generica, e
+   NON entra nella dichiarazione.** Il collaudo si esegue **prima** di leggere il tasso, e il
+   rapporto dichiara il suo esito **accanto** alla dichiarazione del dominio — espressione per
+   espressione, non in totale: un dominio è buono o cattivo **per espressione**, e la somma
+   nasconde esattamente l'espressione che sbaglia.
+
+   ⚠️ **Perché la cura non basta, ed è un dato e non un sospetto: TRE DICHIARAZIONI SU TRE
+   SONO NATE SBAGLIATE.** 2B-bis troppo stretta, 3C troppo larga — e **3B troppo larga anche
+   sotto la regola della coppia**, cioè con E56 già in vigore e applicata. Una regola che
+   chiede attenzione ha fallito al suo primo impiego: quello che serve non è più attenzione,
+   è **una prova**.
+
+   ⚠️ **Ed è la prova che 3B ha eseguito a mano, meccanizzata.** Il dominio `formazione` fu
+   stretto perché qualcuno mise `\bformazion` alla prova per espressione e vide che **da sola
+   pescava tutte e quattordici le scoperte**: la parola riconosceva la struttura di un file e
+   un indicatore, mentre le fonti governavano **l'obbligo di formare e registrare**. Il tasso
+   passò da **63,6 %** a **36,4 %**. Quel gesto era diligenza di una sessione; qui diventa un
+   passo del ciclo.
+
+   ⚠️ **Il collaudo NON è un'occasione per restringere a numero visto.** Si prova
+   **l'espressione**, non il tasso, e la prova si chiude quando le espressioni hanno superato
+   il collaudo — non quando il numero piace. Restringere guardando il risultato è il trucco
+   che E41 vieta, spostato di un piano (§4.43 del passaggio di consegne).
 
    **RICONCILIAZIONE VERTICALE DELLE NOTE GIÀ SCRITTE, quando il lotto porta una fonte
    prescrittiva** (E37). All'apertura di ogni lotto che introduce nel vault uno o più documenti

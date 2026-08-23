@@ -73,7 +73,7 @@ DIR_LOTTI = os.path.join(QUI, "qa", "lotti")
 # dichiarazione del dominio e' il verso "troppo stretto" di E56, che in 2B-bis e' costato un
 # 9,1 % gonfiato.
 #
-# ⚠️ E' la seconda volta che QUESTO script mente in silenzio: la prima fu il `` in coda alla
+# ⚠️ E' la seconda volta che QUESTO script mente in silenzio: la prima fu il `\b` in coda alla
 # sigla. **Uno script che tace non e' uno script che assolve** — e la difesa non e' rileggerlo
 # meglio, e' togliergli le copie: il marcatore `# CHIUSO` in testa all'elenco e' lo stesso dato
 # che `verifica_matrice_lotti.py` gia' pretende, e non puo' invecchiare separatamente.

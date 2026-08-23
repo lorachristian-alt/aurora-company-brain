@@ -27,6 +27,7 @@ Uso:
     python qa_provenance.py --perimetro lotto @fetta.txt --pacchetto-giudizio
 """
 import argparse, io, os, re, sys
+from datetime import date, datetime
 
 import qa_comune as Q
 import estrazione_cantiere as EC
@@ -171,6 +172,26 @@ def varianti_numero(s):
     return {x for x in v if x}
 
 
+# ⚠️ LA SUPERFICIE `title`/`summary` ENTRA NEL CONTROLLO IL 23/08/2026, E UN CONTROLLO
+# NUOVO NON RENDE ROSSO IL PREGRESSO (§4.35). Al momento in cui entra, il vault porta
+# quattordici affermazioni verificabili che vivono solo nell'intestazione e che nessuna fonte
+# citata sorregge: quasi tutte sono date scritte con l'anno dove la fonte non lo scrive
+# (E24 - la grafia della fonte; E50 - l'anno inferito e' un derivato). Pretenderlo da note
+# nate quando nessuno guardava li' bloccherebbe ogni lotto futuro dietro una sanatoria.
+# Quindi: ERRORE per le note nate con la regola in vigore, AVVISO DICHIARATO per il pregresso
+# - la stessa disciplina con cui E43 e' entrato il 20/08 (`qa_frontmatter.NASCITA_E43`).
+NASCITA_SUPERFICIE_INTESTAZIONE = date(2026, 8, 23)
+
+
+def nota_e_nuova(nota, nascita):
+    """Vero se la nota e' nata con la regola gia' in vigore. `data_nota` e' il padrone."""
+    dn = (nota.fm or {}).get("data_nota")
+    try:
+        return datetime.strptime(str(dn), "%Y-%m-%d").date() >= nascita
+    except (ValueError, TypeError):
+        return isinstance(dn, date) and dn >= nascita
+
+
 def estrai_affermazioni(testo):
     """Le stringhe che una regex puo' verificare. Ritorna [(genere, testo)]."""
     fuori = []
@@ -264,10 +285,43 @@ def controlla(nota, rep, per_slug):
     ha_jpg = any(str(f).lower().endswith((".jpg", ".jpeg")) for f in nota.fonti)
 
     corpo = nota.corpo_senza_fonti
-    esenti = numeri_esenti(corpo)
+
+    # ---- LA SUPERFICIE DEL CONTROLLO: corpo PIU' intestazione -------------------------
+    #
+    # ⚠️ IL CONTROLLO GUARDAVA IL SOLO CORPO, E `title`/`summary` NO - riparato il
+    # 23/08/2026, gate del lotto 3B, dal censimento delle superfici (§4.49). Il progetto
+    # dichiara l'intestazione **portante** in due punti - E18 («se la nota stabilisce una
+    # regola decisionale, il `summary` la enuncia») ed E30 («`title` e `summary` si
+    # rileggono COME NOTE A SE', a ogni giro») - e non la verificava in nessuno: un numero,
+    # una data o un codice inventati li' passavano la QA a **verde**.
+    #
+    # ⚠️ E' la superficie su cui il progetto trova piu' difetti di ogni altra: E30 nasce
+    # da 1C, dove al terzo giro **sei rilievi su sette** stavano nell'intestazione col corpo
+    # gia' corretto; E39, E42 ed E51 la inseguono da tre lotti; E61 nasce dal gesto che ce li
+    # scrive. **Nessuno dei cinque emendamenti aveva uno strato deterministico dietro.**
+    #
+    # ⚠️ Il fix AGGIUNGE agganci (§4.9) e ha il suo difetto piantato in
+    # `_collaudo\collaudo_intestazione.py`, o il buco si riapre in silenzio.
+    #
+    # Un'affermazione gia' presente nel corpo si verifica UNA volta sola: il `title` ripete
+    # quasi sempre l'H1, e contarla due volte raddoppierebbe ogni rilievo senza aggiungere
+    # nulla.
+    intestazione = "\n".join(str((nota.fm or {}).get(k) or "") for k in ("title", "summary"))
+    esenti = numeri_esenti(corpo) | numeri_esenti(intestazione)
     agganci = {k: 0 for k in pezzi}
 
-    for genere, tok in estrai_affermazioni(corpo):
+    aff_corpo = list(estrai_affermazioni(corpo))
+    gia_viste = set(aff_corpo)
+    affermazioni = [(g, t, "") for g, t in aff_corpo]
+    for g, t in estrai_affermazioni(intestazione):
+        # una stessa affermazione compare quasi sempre due volte nell'intestazione, una
+        # nel `title` e una nel `summary`: e' un rilievo solo, non due.
+        if (g, t) in gia_viste:
+            continue
+        gia_viste.add((g, t))
+        affermazioni.append((g, t, " (nell'intestazione: `title`/`summary`)"))
+
+    for genere, tok, dove in affermazioni:
         if genere == "numero" and any(v in esenti for v in varianti_numero(tok)):
             continue
         def _cerca(nn, cc):
@@ -303,10 +357,14 @@ def controlla(nota, rep, per_slug):
                        "riscontro in testo revocato: «%s» si trova SOLO in un passaggio "
                        "barrato della fonte, e la nota non lo dichiara" % tok[:60])
         if not trovato:
-            msg = "%s senza riscontro in nessuna fonte citata: «%s»" % (genere, tok[:70])
+            msg = "%s senza riscontro in nessuna fonte citata: «%s»%s" % (genere, tok[:70], dove)
             # clausola 3: l'estrattore congelato e' cieco sulle immagini
             if ha_jpg:
                 rep.avviso(n, CONTROLLO, msg + " — la nota cita un .jpg, riscontro visivo da chiudere a mano")
+            elif dove and not nota_e_nuova(nota, NASCITA_SUPERFICIE_INTESTAZIONE):
+                # §4.35: il pregresso dell'intestazione si dichiara debito, non si rende rosso
+                rep.avviso(n, CONTROLLO,
+                           msg + " — debito anteriore alla superficie dell'intestazione (23/08/2026), da sanare a fine corsa")
             else:
                 rep.errore(n, CONTROLLO, msg)
 

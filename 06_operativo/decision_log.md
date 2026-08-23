@@ -1929,7 +1929,7 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   `Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf` **NON CITABILE** il giorno dopo che 3C lo aveva
   canonizzato — una fonte governante tenuta fuori dalla dichiarazione del dominio, cioe' il
   verso «troppo stretto» di E56 che in 2B-bis costo' un 9,1 % gonfiato. ⚠️ **E' la seconda
-  volta che QUESTO script mente in silenzio**: la prima fu il `` in coda alla sigla, il
+  volta che QUESTO script mente in silenzio**: la prima fu il `\b` in coda alla sigla, il
   22/08. **Il fix legge l'insieme dal marcatore `# CHIUSO` in testa all'elenco**, che e' lo
   stesso dato che `verifica_matrice_lotti.py` gia' pretende e non puo' invecchiare
   separatamente. ⚠️ **Il fix ALLENTA un controllo** — rende citabili fonti prima rifiutate —
@@ -1938,11 +1938,11 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   NON CITABILE. **Sei collaudi su sei alle 16:56.**
 - **2026-08-23** · ⚠️ **E56 HA COLTO IL PROPRIO AUTORE AL PRIMO IMPIEGO** · il dominio
   `formazione` di 3B — **il primo dichiarato sotto la regola della coppia** — e' nato **troppo
-  largo**, nello stesso verso di 3C: l'espressione `formazion` riconosceva **la parola**, e con
+  largo**, nello stesso verso di 3C: l'espressione `\bformazion` riconosceva **la parola**, e con
   essa la struttura del registro, chi lo estrae, la sua intestazione ripetuta e l'indicatore
   delle ore. Le fonti del dominio governano **l'obbligo di formare e registrare**, non un file e
   non un KPI. **Tasso col primo taglio: 63,6 % su 22.** ⚠️ **La prova e' per ESPRESSIONE, non
-  per numero**: `formazion` da sola pescava **tutte e quattordici** le scoperte. Stretta la
+  per numero**: `\bformazion` da sola pescava **tutte e quattordici** le scoperte. Stretta la
   coppia, **36,4 % (8 su 22)**, ed e' il numero dichiarato. ⚠️ **Ci si e' fermati dopo UNA
   stretta**, e il residuo si dichiara: cinque delle otto le pesca `registro (?:della )?formazion`,
   che riconosce la MENZIONE del registro e non l'obbligo. **Continuare a restringere a numero
@@ -1989,3 +1989,74 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   **sette delle otto divergenze scrivibili nascono dall'accostamento col verbale di riesame**,
   canonizzato il giorno prima. **La riconciliazione orizzontale (E2) e' il passo che questo lotto
   ha fatto peggio**, e dentro un grezzo denso si conta invece di leggere.
+- **2026-08-23** · ✅ **GATE DEL LOTTO 3B: E59, E60 ed E61, e il lotto e' approvato** · terza
+  volta che tre emendamenti escono da un gate solo (dopo 3A e 3C), ma questi tre hanno una cosa
+  in comune che i gruppi precedenti non avevano: ⚠️ **nessuno introduce una regola nuova sul
+  CONTENUTO delle note. Tutti e tre danno un APPIGLIO MECCANICO a una regola gia' in vigore che
+  veniva affidata alla diligenza** — e in tutti e tre i casi il consuntivo dice che la diligenza
+  aveva gia' fallito. **E59**: E56 chiedeva la corrispondenza fra le due meta' del dominio, e la
+  prima dichiarazione scritta sotto quella regola e' nata larga lo stesso — **tre dichiarazioni
+  su tre sbagliate**, quindi la dichiarazione si COLLAUDA da script prima della misura. **E60**:
+  E2 e' la regola piu' redditizia del metodo e per **due lotti di fila** l'ha eseguita il
+  revisore invece del ciclo, quindi artefatto d'apertura (grandezze condivise, da script) e passo
+  pre-giudizio (rilettura contro le note vicine del vault). **E61**: E30, E39, E42 ed E51
+  guardano tutte all'affermazione vecchia, **nessuna alla frase nuova che la correzione scrive**.
+- **2026-08-23** · **LA VIGILANZA DELLA CORREZIONE-SCRITTURA SI CHIUDE PRIMA DELLA SCADENZA, ED
+  E' UNA DECISIONE CHE VA MOTIVATA PERCHE' NON DIVENTI UN PRECEDENTE LASCO** · il criterio
+  pre-registrato chiedeva la ricomparsa al terzo giro del lotto **successivo**; il gate lo assorbe
+  in E61 senza aspettare. ⚠️ **Non e' §4.43**, che vieta di rileggere un criterio **a esito
+  visto**: l'esperimento **non era partito**, e si sta chiudendo il criterio prima del fischio
+  d'inizio, non dopo il gol. ⚠️ **E le osservazioni erano GIA' DUE quando il criterio fu
+  scritto**: i tre rilievi introdotti correggendo nel completamento di **2B** sono la stessa
+  famiglia dei sette di **3B**, e la sessione che scrisse il criterio non li aveva davanti.
+  **Con due consuntivi il conteggio di E28 e' completo**: la vigilanza era ridondante rispetto
+  alla storia.
+- **2026-08-23** · 🚨 **IL CENSIMENTO DELLE SUPERFICI HA TROVATO IL BUCO PIU' VECCHIO DELLA
+  SUITE, E NON ERA `related`: `qa_provenance` NON GUARDAVA `title` E `summary`** · un numero, una
+  data o un codice inventati nell'intestazione passavano la QA a **verde**. ⚠️ **Cinque
+  emendamenti dichiarano l'intestazione portante** — E18, E30, E39, E42, E51 — e **nessuno dei
+  cinque aveva uno strato deterministico dietro**; e' la superficie su cui il progetto trova piu'
+  difetti di ogni altra (nel lotto 1C, al terzo giro, **sei rilievi su sette** stavano li' col
+  corpo gia' corretto). ⚠️ **La ragione per cui e' durato tanto e' la sua FORMA, ed e' la parte
+  che diventa giurisprudenza**: `qa_provenance` e `metodo_03` §7.1 **concordavano** — entrambi
+  dicevano «dal corpo della nota». **Non c'era nessuna divergenza fra codice e manuale da
+  trovare**: la lacuna stava fra due dichiarazioni del progetto che nessuno aveva mai messo una
+  accanto all'altra. **Un difetto che non e' una contraddizione non si trova rileggendo: si
+  trova facendo l'elenco.** ⚠️ **Nel vault ce n'erano QUATTORDICI**, quasi tutti della stessa
+  specie — **date scritte con l'anno dove la fonte non lo scrive**: `05/05/2026` nel titolo,
+  `5/5` nel quaderno OCR che ne e' la fonte, col **corpo corretto** nella grafia della fonte
+  (E24). Riparato, con debito §4.35 (**T158**) e difetto piantato in `collaudo_intestazione.py`.
+  ⚠️ **E il fix ha tolto DUE falsi positivi**: due avvisi «rumore nel payload» stavano su fonti
+  che agganciano un'affermazione della nota — che vive nel summary. **Non ha allargato niente:
+  ha visto di piu'.**
+- **2026-08-23** · **IL CENSIMENTO DELLE COPIE DI STATO: DUE SPECIE, DUE CURE OPPOSTE** · passata
+  su tutti i **38** script di `06_operativo\` e `qa\`. Lo **stato derivabile** (elenchi,
+  conteggi, percorsi) non si controlla: **si cancella**, e lo strumento legge dal padrone — tre
+  sostituzioni, piu' le due riparate il 22-23/08. I **vocabolari chiusi del manuale** (aree,
+  prefissi, `type`, cartelle) **non potevano diventare una lettura a runtime**: far leggere a
+  `qa_comune` un manuale in prosa manderebbe rossa tutta la suite al primo titolo riformattato, e
+  §4.35 dice gia' che il difetto prevedibile e' che il controllo venga **disattivato**. Quindi la
+  copia resta dove serve e **`verifica_copie_stato.py` la confronta col padrone**. ⚠️ **La copia
+  peggiore era la piu' silenziosa**: `ricalibra_budget.py` teneva due tabelle a mano **ferme al
+  19/08** — diceva quattro lotti chiusi, cinque lotti dopo — **e nessuno lo lanciava**. E' la
+  forma peggiore di §4.47: uno strumento che non mente mai a voce alta perche' non parla mai.
+- **2026-08-23** · ⚠️ **IL CONTEGGIO DEI LOTTI CHIUSI PASSA DA UN'ARITMETICA A UNO SCRIPT, E IL
+  PRIMO RICONOSCIMENTO DEL MARCATORE ERA GIA' SBAGLIATO** · il numero viveva a mano nei prompt
+  del coordinatore ed e' uscito **«undici» dove i marcatori `# CHIUSO` erano DIECI** (9 di
+  canonizzazione + R1; la fetta pilota non ha marcatore e non e' della matrice). Ora lo stampa
+  `verifica_matrice_lotti.py` e la §3 lo **incolla**. ⚠️ **E il riconoscimento scritto lo stesso
+  giorno faceva `startswith` su una riga di prosa**: il lotto **1B**, di canonizzazione,
+  risultava di manutenzione per una riga che va a capo su «*manutenzione* mai firmato». **Un
+  conteggio nato per togliere l'aritmetica dalle mani di qualcuno ha sbagliato alla prima
+  misura, e per la stessa ragione che stava riparando** — un riscontro **debole** preso per
+  forte (E56). Difetti piantati nei due versi in `collaudo_lotti_chiusi.py`.
+- **2026-08-23** · ⛔ **SESTA CORREZIONE AL COORDINATORE: I GREZZI COL BARRATO SONO UNDICI, NON
+  TRE** · lo scrivono il §2.6 del prompt di questo gate e la riga **T157**. Misurato con
+  `estrazione_cantiere.testo_cantiere` su tutti i 160 grezzi: **11 grezzi, 40 passaggi, 6 gia'
+  canonizzati**. ⚠️ **I «tre» erano i tre che la revisione aveva davanti** — la politica, la
+  scheda allergeni, il contratto frigo — ed e' **esattamente la specie che E47 descrive e che E57
+  ha appena normato**: un'affermazione il cui soggetto e' **l'archivio**, verificata sul
+  sottoinsieme che l'ha suggerita. La riga del canone porta il numero **contato** (E49), e T157
+  si chiude **con l'errata dentro**. ⚠️ **Seconda volta in due gate che un numero composto a mano
+  dal coordinatore arriva sbagliato, e sono gli unici due numeri di questo gate che nessuno
+  script produceva.**

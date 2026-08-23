@@ -1,26 +1,36 @@
 ## qa_provenance (perimetro: vault, 386 note)
 
 - ERRORI: **0**
-- AVVISI: **79**
+- AVVISI: **91**
 
 ### Avvisi
 
 | Nota | Riga | Controllo | Rilievo |
 |---|---|---|---|
 | `area-logistica.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
+| `fatto-carica-in-salita-linea-1-aprile.md` |  | provenance | data senza riscontro in nessuna fonte citata: «13/04/2026» (nell'intestazione: `title`/`summary`) — debito anteriore alla superficie dell'intestazione (23/08/2026), da sanare a fine corsa |
 | `fatto-cariche-f-gas-impianti-frigoriferi.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `fatto-ccp-stato-al-riesame-2026.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
+| `fatto-contatori-reparto-meta-stabilimento.md` |  | provenance | numero senza riscontro in nessuna fonte citata: «82.000» (nell'intestazione: `title`/`summary`) — debito anteriore alla superficie dell'intestazione (23/08/2026), da sanare a fine corsa |
 | `fatto-contatori-reparto-meta-stabilimento.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `fatto-cruscotto-colonne-mai-calcolate.md` |  | provenance | la fonte 'cruscotto_KPI_qualita_2026.xlsx' non aggancia nessuna affermazione della nota: rumore nel payload |
 | `fatto-decisione-erp-rimandata.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `fatto-due-elenchi-in-un-file-strumenti.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `fatto-due-nc-e-cinque-osservazioni.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `fatto-due-nc-minori-audit-2026.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
+| `fatto-fermo-forno-ft-01-05-05.md` |  | provenance | data senza riscontro in nessuna fonte citata: «05/05/2026» (nell'intestazione: `title`/`summary`) — debito anteriore alla superficie dell'intestazione (23/08/2026), da sanare a fine corsa |
+| `fatto-fermo-forno-ft-01-05-05.md` |  | provenance | ora senza riscontro in nessuna fonte citata: «15:20» (nell'intestazione: `title`/`summary`) — debito anteriore alla superficie dell'intestazione (23/08/2026), da sanare a fine corsa |
 | `fatto-giro-di-vite-seconde-firme-ccp3.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `fatto-integrita-log-allarmi-cf-02.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `fatto-listeria-canalina-linea3-al-riesame.md` |  | provenance | la fonte 'cruscotto_KPI_qualita_2026.xlsx' non aggancia nessuna affermazione della nota: rumore nel payload |
+| `fatto-mani-addetto-farcitura-non-conforme.md` |  | provenance | data senza riscontro in nessuna fonte citata: «13/04/2026» (nell'intestazione: `title`/`summary`) — debito anteriore alla superficie dell'intestazione (23/08/2026), da sanare a fine corsa |
+| `fatto-operatore-senza-formazione-haccp-l26130.md` |  | provenance | data senza riscontro in nessuna fonte citata: «10/05/2026» (nell'intestazione: `title`/`summary`) — debito anteriore alla superficie dell'intestazione (23/08/2026), da sanare a fine corsa |
+| `fatto-piano-produzione-sett19-21.md` |  | provenance | data senza riscontro in nessuna fonte citata: «24/05/2026» (nell'intestazione: `title`/`summary`) — debito anteriore alla superficie dell'intestazione (23/08/2026), da sanare a fine corsa |
 | `fatto-prodotto-non-segregato-deviazione-ccp2.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
+| `fatto-quaderno-capoturno-linea1.md` |  | provenance | data senza riscontro in nessuna fonte citata: «12/05/2026» (nell'intestazione: `title`/`summary`) — debito anteriore alla superficie dell'intestazione (23/08/2026), da sanare a fine corsa |
+| `fatto-quaderno-capoturno-linea1.md` |  | provenance | numero senza riscontro in nessuna fonte citata: «2026» (nell'intestazione: `title`/`summary`) — debito anteriore alla superficie dell'intestazione (23/08/2026), da sanare a fine corsa |
 | `fatto-repliche-shelf-life-l26130-divergenti.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
+| `fatto-sonde-pt-104-in-taratura.md` |  | provenance | data senza riscontro in nessuna fonte citata: «10/05/2026» (nell'intestazione: `title`/`summary`) — debito anteriore alla superficie dell'intestazione (23/08/2026), da sanare a fine corsa |
 | `fatto-taniche-e-rifiuti-cip.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `fatto-test-rintracciabilita-audit-2h50.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `fatto-tre-righe-del-registro-con-un-obbligo-non-chiuso.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
@@ -37,6 +47,7 @@ verifiche n» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 | `fatto-verifiche-ccp3-turno-l26130.md` |  | provenance | ora senza riscontro in nessuna fonte citata: «17:00» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 | `fatto-verifiche-ccp3-turno-l26130.md` |  | provenance | ora senza riscontro in nessuna fonte citata: «19:55» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 | `fatto-verifiche-ccp3-turno-l26130.md` |  | provenance | fonte immagine 'MOD-QA-07_10-05-26_L1_T2_scansione.jpg': riscontro visivo, da chiudere a mano |
+| `questione-arrivo-officina-fermo-pkm-450.md` |  | provenance | ora senza riscontro in nessuna fonte citata: «15:50» (nell'intestazione: `title`/`summary`) — debito anteriore alla superficie dell'intestazione (23/08/2026), da sanare a fine corsa |
 | `questione-codice-allarme-pkm-450.md` |  | provenance | codice senza riscontro in nessuna fonte citata: «E-214» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 | `questione-codice-allarme-pkm-450.md` |  | provenance | codice senza riscontro in nessuna fonte citata: «E-214» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 | `questione-codice-allarme-pkm-450.md` |  | provenance | codice senza riscontro in nessuna fonte citata: «E-214» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
@@ -62,6 +73,7 @@ verifiche n» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 | `questione-verifiche-ccp3-10-05-tre-versioni.md` |  | provenance | ora senza riscontro in nessuna fonte citata: «19:55» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 | `questione-verifiche-ccp3-10-05-tre-versioni.md` |  | provenance | fonte immagine 'MOD-QA-07_10-05-26_L1_T2_scansione.jpg': riscontro visivo, da chiudere a mano |
 | `fatto-misura-frammento-rec-2026-011.md` |  | provenance | fonte immagine 'IMG_20260514_152241_frammento_REC-2026-011.jpg': riscontro visivo, da chiudere a mano |
+| `fatto-richiesta-relazione-48-ore.md` |  | provenance | data senza riscontro in nessuna fonte citata: «14/05/2026» (nell'intestazione: `title`/`summary`) — debito anteriore alla superficie dell'intestazione (23/08/2026), da sanare a fine corsa |
 | `questione-misura-frammento-strumentale.md` |  | provenance | fonte immagine 'IMG_20260514_152241_frammento_REC-2026-011.jpg': riscontro visivo, da chiudere a mano |
 | `doc-ccp2-limite-critico.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `doc-gestione-reclami-haccp.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
@@ -70,13 +82,13 @@ verifiche n» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 | `doc-responsabilita-allergeni.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `doc-scheda-tecnica-af-sn-0450.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `doc-stoccaggio-segregato-allergeni.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
-| `entita-elena-marchetti.md` |  | provenance | la fonte 'MOD-QA-31_reclamo_REC-2026-011.pdf' non aggancia nessuna affermazione della nota: rumore nel payload |
 | `entita-frigotecnica-berica.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
-| `entita-ivano-dal-maso.md` |  | provenance | la fonte 'R_ricambio_valvola_iniezione_azoto_PKM450_URGENTE.eml' non aggancia nessuna affermazione della nota: rumore nel payload |
 | `macchina-cip-01.md` |  | provenance | la fonte 'scheda_sicurezza_detergente_acido_lavaggio_CIP.txt' non aggancia nessuna affermazione della nota: rumore nel payload |
+| `macchina-ft-01.md` |  | provenance | data senza riscontro in nessuna fonte citata: «05/05/2026» (nell'intestazione: `title`/`summary`) — debito anteriore alla superficie dell'intestazione (23/08/2026), da sanare a fine corsa |
 | `concetto-atmosfera-protettiva.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `concetto-fefo.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `concetto-shelf-life.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
+| `kpi-consumi-energia-maggio-2026.md` |  | provenance | numero senza riscontro in nessuna fonte citata: «82.000» (nell'intestazione: `title`/`summary`) — debito anteriore alla superficie dell'intestazione (23/08/2026), da sanare a fine corsa |
 | `kpi-durate-fasi-cip-maggio.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `kpi-portata-cip-maggio.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `kpi-shelf-life-af-sn-0450.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
