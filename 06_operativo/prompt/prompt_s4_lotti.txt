@@ -41,7 +41,7 @@ l'occasione tipica, non la condizione.
 §1 STUDIO PRELIMINARE (ogni sessione, anche le successive)
 ---------------------------------------------------------------------
 1. 01_metodo\metodo_03_canonizzazione.md — INTEGRALE. E' il manuale
-   supremo, con i 58 emendamenti gia' dentro. In caso di contrasto con
+   supremo, con i 61 emendamenti gia' dentro. In caso di contrasto con
    questo prompt, vince metodo_03 e lo segnali.
 2. 06_operativo\registro_emendamenti.md — l'indice genealogico: serve
    a vedere in dieci secondi se questo prompt e' rimasto indietro.
@@ -181,6 +181,14 @@ cosa sola, ma decisiva:
    strumento le citazioni hanno DUE CLASSI DI FORZA e non si sommano:
    una SIGLA e' una citazione, una parola comune del nome non dimostra
    nulla da sola.
+   E59 — LA DICHIARAZIONE SI COLLAUDA PRIMA DELLA MISURA: ogni
+   espressione del dominio si prova, da script, contro le note che
+   citano le fonti del dominio e contro quelle che non le citano;
+   un'espressione che riconosce prevalentemente note governate da
+   altre fonti e' generica e NON entra. Tre dichiarazioni su tre sono
+   nate sbagliate (2B-bis stretta, 3C larga, 3B larga anche sotto la
+   regola della coppia): la cura non basta, serve la prova — ed e'
+   la stessa prova che 3B ha eseguito a mano per stringere.
 
    Perche' la soglia e' doppia: cio' che il rischio consuma e' il
    CARICO DI REVISIONE, che si misura in note assolute. Una soglia
@@ -198,7 +206,18 @@ cosa sola, ma decisiva:
      fonti del lotto E con le note che il vault ha gia'. E' la regola
      piu' redditizia del metodo e rende di piu' a ogni lotto che
      passa: in 1C quattro divergenze su nove sono nate dal confronto
-     con documenti vecchi, non dai due grezzi del lotto;
+     con documenti vecchi, non dai due grezzi del lotto.
+     E60 — E2 HA UN ARTEFATTO D'APERTURA E UN PASSO PRIMA DEL
+     GIUDIZIO, perche' due lotti di fila l'hanno affidata alla
+     diligenza e in entrambi l'ha fatta il revisore al posto del
+     ciclo (3A: «mai contro il vault intorno»; 3B: sette divergenze
+     su otto trovate accostando il verbale del giorno prima). In
+     apertura: l'elenco delle GRANDEZZE CONDIVISE, da script —
+     codici, entita', date e importi comuni fra i grezzi del lotto,
+     e fra il lotto e il vault. Prima del giudizio: rilettura del
+     lotto contro le note che il vault gia' porta sullo stesso tema
+     (quelle che citano le stesse entita' e gli stessi hub). Il
+     rapporto dichiara i confronti fatti, uno per uno;
    - E29, riconciliazione VERTICALE: chi tocca un punto critico, una
      taratura, una frequenza di verifica o una responsabilita' di
      processo APRE E CITA la fonte che lo PRESCRIVE — o dichiara
@@ -415,6 +434,15 @@ cosa sola, ma decisiva:
    chiuse senza aver mai visto un giudice (T141) — e la fuga di
    canone del pilota fu presa esattamente dal giudizio delle note
    nate dalle correzioni.
+   E61 — UNA CORREZIONE E' UNA SCRITTURA, e vale per lei cio' che
+   vale per la nota: PRIMA di applicarla si guarda la fonte che
+   dovrebbe sorreggerla, e la frase NUOVA che la correzione
+   introduce si rilegge contro le fonti come una frase di prima
+   stesura. E30, E39, E42 ed E51 guardano tutte all'affermazione
+   vecchia e a dove sopravvive; nessuna guardava la frase nuova. I
+   casi: tre rilievi introdotti correggendo nel completamento di 2B,
+   sette in 3B — e nel peggiore la correzione ha reso FALSA una
+   frase che prima era soltanto vaga.
 
 9. RE-QA, poi llms.txt rigenerato, poi `_index` e hub aggiornati.
 
@@ -593,8 +621,8 @@ STOP-LOSS E COSA NON FARE
 ---------------------------------------------------------------------
 ALLINEAMENTO DI QUESTO PROMPT
 ---------------------------------------------------------------------
-Allineato al: 2026-08-22, dopo il gate del lotto 3C.
-Ultimo emendamento recepito: E58.
+Allineato al: 2026-08-23, dopo il gate del lotto 3B.
+Ultimo emendamento recepito: E61.
 Scritto dal coordinatore: questo file e' l'istruzione DATA alla
 sessione, e una sessione non riscrive le proprie istruzioni.
 Recepiti rispetto alla versione precedente (ferma al gate S2, 19
@@ -626,9 +654,12 @@ verificato da script in apertura · E54 nessuna nota cita un documento
 non aperto · E55 il locator di una catena nomina il messaggio con la
 data · E56 la dichiarazione del dominio e' una coppia espressioni-fonti
 · E57 il superlativo si giudica dal soggetto · E58 ogni nota vede il
-giudizio almeno una volta. E56-E58 nascono col gate di 3C: la prima
-sessione che usa questa versione li applica a metodo_03 e al registro
-PRIMA di aprire il lotto.
+giudizio almeno una volta · E59 la dichiarazione del dominio si
+collauda prima della misura · E60 la riconciliazione orizzontale ha
+l'artefatto d'apertura e il passo pre-giudizio · E61 una correzione e'
+una scrittura. E59-E61 nascono col gate di 3B: la prima sessione che
+usa questa versione li applica a metodo_03 e al registro PRIMA di
+aprire il lotto.
 CONTROLLO DI SCOSTAMENTO: confronta questa riga con l'ultima riga di
 `registro_emendamenti.md`. Se il registro e' piu' avanti, il prompt e'
 vecchio: dillo nel rapporto, non compensare a mano.

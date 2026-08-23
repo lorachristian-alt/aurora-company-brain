@@ -1,0 +1,182 @@
+=====================================================================
+PROMPT — GATE DEL LOTTO 3B + APERTURA DEL LOTTO 3D
+Corpus v1 · Aurora Food Group S.r.l. (simulazione dichiarata)
+File: 06_operativo\prompt\prompt_gate_3b_lotto_3d.txt
+Scritto dal coordinatore il 23/08/2026, letti il rapporto e il §7.
+=====================================================================
+
+COME SEI STATO LANCIATO
+- Terminale nella RADICE del repository
+  C:\Users\buulo\Desktop\.eval_do_not_index\Aurora_Food_Group_SRL
+  con: claude --add-dir "C:\Users\buulo\Desktop\aurora-cervello"
+
+---------------------------------------------------------------------
+PARTE 0 — VERIFICA E COMMIT
+---------------------------------------------------------------------
+0.1 `prompt_s4_lotti.txt` e' stato aggiornato dal coordinatore, da E58
+    a E61. Verifica l'integrita':
+      righe 666 · byte 40.093 · CRLF 666 · LF isolati 0 · BOM assente
+      sha256 dcfaef626122b3a8aa5a1604ba06861d95f4aeb4af442a83c5ed8792d6d7c369
+    Se anche uno non torna, FERMATI e dillo.
+0.2 Questo file e' NON TRACCIATO: committali entrambi e pusha PRIMA di
+    eseguire. Messaggio: «prompt dei lotti a E61 e prompt del gate 3B +
+    lotto 3D». E59-E61 sono nella coda del prompt e non ancora in
+    metodo_03: colmarlo e' il primo adempimento della PARTE 2.
+
+---------------------------------------------------------------------
+PARTE 1 — IL VERDETTO: 3B E' APPROVATO, E LE DUE CORREZIONI AL
+          COORDINATORE SONO RATIFICATE
+---------------------------------------------------------------------
+Il coordinatore ha letto il rapporto e i sette punti del §7. Prima, le
+due correzioni al gate stesso, perche' valgono da precedente:
+
+- il «sedici giorni» ha UN SOLO titolare e il «quindici» non lo scrive
+  nessuna fonte: la ratifica del gate precedente — «due contatori
+  veri, di due titolari» — era essa stessa composta dal riporto invece
+  che dalla fonte, cioe' la specie che il progetto combatte, prodotta
+  al livello che dovrebbe controllarla. QUINTA correzione al
+  coordinatore in cinque gate, e la prima su una RATIFICA. T126 alla
+  terza stesura e l'errata nel rapporto 3C sono la forma giusta;
+- i lotti chiusi erano DIECI, non undici: un conteggio del coordinatore
+  composto a mano, la malattia che il progetto cura con gli script
+  ricomparsa nei prompt. RISPOSTA STRUTTURALE, adempimento: il numero
+  dei lotti chiusi si legge da `verifica_matrice_lotti.py` — gli
+  elenchi con `# CHIUSO` — e lo script lo stampi esplicitamente
+  («lotti chiusi: N»); da qui in poi la §3 del passaggio di consegne
+  lo INCOLLA, e il coordinatore smette di contarlo.
+
+E le ratifiche del lotto: T107 chiusa — il nono impegno barrato e' ora
+una proposta ritirata registrata, che e' l'esito giusto; l'area
+`risorse-umane` nata piena; tredici B nel canone con ogni citazione
+verificata (E49 al lavoro); i due conteggi sbagliati presi dal
+riconteggio; il criterio della correzione-scrittura scritto in §6
+PRIMA del lotto successivo, come la disciplina chiede.
+
+---------------------------------------------------------------------
+PARTE 2 — LE DECISIONI SUI SETTE PUNTI DEL §7
+---------------------------------------------------------------------
+2.1 LA CORREZIONE E' UNA SCRITTURA → E61, ADESSO. Il criterio scritto
+    in §6 viene ASSORBITO dall'emendamento, e la ragione va detta con
+    cura perche' non diventi un precedente lasco: NON e' una rilettura
+    a esito visto (§4.43 — l'esperimento non e' partito), e le
+    osservazioni erano GIA' DUE quando il criterio fu scritto — i tre
+    rilievi introdotti correggendo nel completamento di 2B sono la
+    stessa famiglia, e la sessione che scrisse il criterio non li
+    aveva davanti. Con 2B e 3B il conteggio E28 era completo: la
+    vigilanza era ridondante rispetto alla storia. E61 a metodo_03
+    col marcatore e la riga nel registro (occasione: «gate del lotto
+    3B»); la riga di §6 si chiude dichiarando l'assorbimento.
+
+2.2 IL 36,4 % REGGE. Il punto della serie e' quello che il ciclo ha
+    prodotto, con la storia dichiarata (63,6 → 36,4, stretto una volta
+    su prova per espressione); il 26,1 post-correzioni non si usa
+    (E41). ATTENZIONE — Ma T148 dice la cosa piu' importante: TRE dichiarazioni
+    su tre sono nate sbagliate, anche sotto la regola della coppia. La
+    cura non basta, serve la prova → E59: LA DICHIARAZIONE SI COLLAUDA
+    PRIMA DELLA MISURA — ogni espressione provata da script contro le
+    note che citano le fonti del dominio e contro quelle che non le
+    citano; un'espressione che pesca prevalentemente fuori e' generica
+    e non entra. E' la prova che 3B ha fatto a mano, meccanizzata.
+    E59 a metodo_03 col registro; T148 si chiude con E59.
+
+2.3 LE COPIE DI STATO: CENSIMENTO, SUBITO, E IN DUE PASSATE. La
+    domanda «quante altre copie ci sono» non si lascia aperta:
+    (a) una passata su TUTTI gli script di 06_operativo\ e qa\ per
+        liste e valori scritti a mano che duplicano stato ricavabile
+        da una fonte (lotti chiusi, elenchi, conteggi, percorsi):
+        ogni copia trovata diventa una lettura dalla fonte, con
+        l'elenco delle sostituzioni nel rapporto;
+    (b) per OGNI controllo della suite: l'elenco delle SUPERFICI che
+        il controllo dichiara di coprire (corpo, related, fonti,
+        title, summary, celle di tabella) contro le superfici che il
+        collaudo ESERCITA con un difetto piantato. Il caso
+        `qa_link_integrity`/`related` — due link rotti nel vault con
+        la QA a zero — e' esattamente una superficie dichiarata e mai
+        esercitata. Dove manca il difetto, si pianta. E' §4.29 esteso
+        dalle vie alle superfici, e la riga di giurisprudenza si
+        scrive in §4 al primo numero libero, contato sul file:
+          UN CONTROLLO COPRE LE SUPERFICI CHE IL SUO COLLAUDO
+          ESERCITA, NON QUELLE CHE IL SUO DOCSTRING DICHIARA. (Caso:
+          due link rotti in `related` con la QA a zero, e una lista
+          di lotti chiusi scritta a mano dentro uno strumento di
+          verifica.)
+
+2.4 E2 FATTO PEGGIO PER LA SECONDA VOLTA → E60. Due lotti di fila, e
+    in entrambi la riconciliazione l'ha fatta il revisore al posto
+    del ciclo. L'artefatto d'apertura (grandezze condivise, da
+    script) e il passo pre-giudizio (rilettura contro le note vicine
+    del vault) sono gia' nel prompt dei lotti: E60 a metodo_03 col
+    registro. La proposta della sessione e' accolta nella sostanza e
+    resa meccanica dove si puo'.
+
+2.5 T149 (MOD-HR-11): RATIFICATO — obbligo esplicito per il lotto del
+    corso sicurezza, e le tre note con «nessuna fonte afferma» si
+    riapriranno li' con la gamba in mano. 2.7 idem: T146, T147, T156
+    restano dove il tracciamento le ha messe.
+
+2.6 IL BARRATO NEL CANONE (T157): SI SCRIVE ORA. Il §6 del canone
+    acquista la riga che dichiara il barrato come tratto del corpus —
+    tre grezzi lo portano, E48 lo estrae, e chi legge il canone deve
+    aspettarselo. E' un accrescimento datato, non una riscrittura.
+    T157 si chiude.
+
+---------------------------------------------------------------------
+PARTE 3 — REGISTRI E CHIUSURA DEL GATE
+---------------------------------------------------------------------
+E59-E61 a metodo_03 con marcatore e riga nel registro nello stesso
+turno; il censimento 2.3 con l'elenco delle sostituzioni e dei difetti
+piantati nuovi; la riga del canone (2.6); la riga di giurisprudenza
+(2.3b); lo script che stampa «lotti chiusi: N»; §3 del passaggio di
+consegne riscritta coi numeri INCOLLATI — lotti chiusi compresi — e
+prossimo atto 3D; la riga di §6 della correzione-scrittura chiusa per
+assorbimento. Commit «Gate 3B: E59-E61, il censimento delle copie e
+delle superfici, il barrato nel canone» + push.
+
+---------------------------------------------------------------------
+PARTE 4 — STOP DICHIARATO
+---------------------------------------------------------------------
+Se dopo le PARTI 2-3 il contesto e' consumato, CHIUDI coi cinque
+gesti: 3D apre a mente fresca con questo stesso file, dalla PARTE 5.
+
+---------------------------------------------------------------------
+PARTE 5 — APERTURA DEL LOTTO 3D
+---------------------------------------------------------------------
+Il quarto pacchetto del tema 3, come il ripacchettamento l'ha
+definito. Ciclo di `prompt_s4_lotti.txt` §3, senza sconti, e in
+particolare:
+
+5.1 T146 E' L'OBBLIGO PRINCIPALE: il PRO-QA-08 — che la politica
+    nomina nell'impegno 6 e di cui nessuna nota puo' ancora dire
+    nulla — entra con questo pacchetto se la matrice ce lo mette, e
+    con lui il reclamo REC-2026-011 si riapre (T5, T6, dalla matrice
+    originale del tema). E37 scattera': il PRO-QA-08 e' una fonte
+    prescrittiva, e le note del pilota che lo aspettano sono in
+    tabella dal gate S2.
+
+5.2 APERTURA CON TUTTI GLI STRUMENTI NUOVI: E53 verifica il dominio,
+    E56 dichiara la coppia, E59 LA COLLAUDA — e' il primo lotto in
+    cui la dichiarazione passa dalla prova meccanica prima della
+    misura, e il rapporto dichiara l'esito del collaudo accanto alla
+    dichiarazione; E60 produce l'artefatto delle grandezze condivise
+    in apertura e il passo pre-giudizio prima del giudizio; E61 vale
+    per ogni correzione di ogni giro.
+
+5.3 RITMO: 3D chiude la sessione — ciclo intero, revisione col canone
+    via subagente (E45), giudizio dedicato alle note dell'ultimo giro
+    se nascono (E58), misure E44 con l'ora, adempimenti del passo 11,
+    cinque gesti, push, zip. Poi il rapporto al coordinatore.
+
+---------------------------------------------------------------------
+GUARDIE GENERALI
+---------------------------------------------------------------------
+- 03_valutazione\ non si apre mai, per nessuno, subagenti compresi.
+- Il canone guida e non appare NELLE NOTE; il revisore lo riceve (E45),
+  il giudizio mai.
+- Ogni numero da script, con l'ora della misura (E44) — compreso il
+  numero dei lotti chiusi, che da questo gate si incolla e non si
+  conta.
+- L'estrattore di MISURA non si tocca; l'estrazione di cantiere e' la
+  via di QA e giudizio.
+- Se qualcosa qui contraddice metodo_03 O LE FONTI, vince la fonte e
+  lo segnali: i precedenti sono cinque, e l'ultimo era una ratifica.
+=====================================================================
