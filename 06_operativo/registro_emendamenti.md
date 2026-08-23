@@ -1,6 +1,6 @@
 # Registro degli emendamenti a `metodo_03`
 
-> **Cos'è** · L'indice genealogico dei 55 emendamenti al manuale di canonizzazione: chi li
+> **Cos'è** · L'indice genealogico dei 58 emendamenti al manuale di canonizzazione: chi li
 > ha approvati, quando, e dove vive oggi la regola. **È un indice, non una copia.**
 > **Cosa NON contiene** · Il testo delle regole. Quello vive in
 > `01_metodo\metodo_03_canonizzazione.md`, che ne resta l'unico padrone: qui c'è l'oggetto
@@ -26,7 +26,7 @@
 Sezioni e presenza dei marcatori sono verificate contro `metodo_03` da
 `06_operativo\verifica_emendamenti.py`, non a occhio.
 
-## I 44 emendamenti
+## I 58 emendamenti
 
 | # | Data | Dove nasce | Tipo | Oggetto, in una riga | Vive in | Marc. | Il perché |
 |---|---|---|---|---|---|---|---|
@@ -85,6 +85,9 @@ Sezioni e presenza dei marcatori sono verificate contro `metodo_03` da
 | **E53** | 22/08/2026 | gate del lotto 3A | regola nuova | **il dominio della riconciliazione verticale si decide su CIO' CHE I GREZZI FANNO, non su cio' che sono, e si verifica DA SCRIPT in apertura**, cercando nei grezzi le sigle dell'elenco prescrittivo. «Nessun dominio» si motiva con l'esito di quella ricerca, **mai con la natura del documento e mai sulla parola di chi coordina** | §9.5, passo 5-ter | si | `rapporto_lotto_03a.md` §3 — ⚠️ **E' il terzo caso in tre gate in cui un'affermazione del coordinatore era sbagliata nel merito**, e l'unico in cui l'esecutore non poteva contraddirla: **un'ESENZIONE non si presenta come un ordine da verificare**. ⚠️ **Il costo e' misurato**: il verbale di riesame CITAVA il criterio del mock recall e lo CAMBIAVA — quindi il dominio c'era — e l'esenzione dettata dall'alto e' costata **il quinto punto della serie dei due tassi**. ⚠️ **Un documento che cita un criterio prescrittivo entra nel dominio anche se non prescrive nulla di suo**, e a maggior ragione se lo cambia |
 | **E54** | 22/08/2026 | gate del lotto 3A | divieto | **nessuna nota cita o descrive un documento che chi scrive non ha aperto**: vale per ogni nome in `fonti` e per ogni documento NOMINATO nel corpo. Se e' il grezzo di un lotto futuro vale il divieto 9-bis | §10 | si | `rapporto_lotto_03a.md` §5 — ⚠️ **Il caso**: una questione del lotto 3A citava `PRO-QA-14` **cinque volte senza che nessuno l'avesse letto**, compreso un «nessuno dichiara di modificare PRO-QA-14» — che e' un'affermazione **sul contenuto** di un documento mai aperto. ⚠️ **E il documento era nel corpus, con dentro la spiegazione della divergenza**: il criterio delle quattro ore vi compare due volte, e il «due ore» del verbale vi compare pure, ma riferito **alla valutazione preliminare di una crisi**. ⚠️ **Il costo non e' l'imprecisione: e' che la risposta stava li', e la nota ha scritto che non c'era** |
 | **E55** | 22/08/2026 | lotto 3C, in corso di scrittura | chiarimento | **il locator di un `.eml` a CATENA nomina prima il messaggio, con la sua data**: `corpo del messaggio del <GG/MM>, punto <n>`. La forma breve resta valida per un `.eml` a messaggio unico | §2.3, riga `.eml` della tabella dei locator | si | `rapporto_lotto_03c.md` §2 — ⚠️ **La grammatica dei locator e' CHIUSA, e questo e' il primo caso in cui non sapeva indirizzare un documento che esiste**: `R_R_R_scadenza_certificato_BRCGS_...eml` porta **quattro messaggi** fra CSQA e la RSGQ, dal 11/03 al 07/04, e «corpo, punto 1)» ne indicherebbe quattro diversi. ⚠️ **Non e' una regola nuova ma un chiarimento**: si applica alla chiusura del lotto e si elenca nel rapporto, come §4 del prompt dei lotti prescrive. ⚠️ **Il difetto era gia' nel corpus prima di 3C** — il prefisso `R_R_R_` dice da solo che il file e' una catena, e nessun lotto ci era ancora arrivato |
+| **E56** | 23/08/2026 | gate del lotto 3C | regola nuova | **la dichiarazione del dominio e' una COPPIA ESPRESSIONI-FONTI che si giustificano a vicenda**: ogni espressione entra solo se una fonte del dominio governa cio' che riconosce, e ogni fonte governante si dichiara. Nello strumento le citazioni hanno **due classi di forza** — sigla = citazione, parola comune = niente — **e non si sommano** | §9.5, passo 5-ter | si | `rapporto_lotto_03c.md` §5.2 e §10 · T129 — ⚠️ **I due versi dell'errore sono stati pagati ENTRAMBI, ed e' per questo che la regola viene dai consuntivi e non da un principio**: in **2B-bis** il dominio `allergeni` era troppo **stretto** — mancava il materiale d'aula — e il **9,1 %** contava scoperte note coperte; in **3C** il dominio `certificazione` era troppo **largo** — espressioni sull'audit, fonti sul titolo — e il **38,7 %** contava scoperte note governate da altre fonti. ⚠️ **Il tasso misura la dichiarazione tanto quanto il metodo**, e la dichiarazione si scrive con la cura di una nota. ⚠️ **Il punto NON si rimisura**: la serie fotografa le dichiarazioni come sono state fatte, il 38,7 % resta con la riserva accanto (E46). ⚠️ **Le due classi di forza nascono da un difetto MUTO**: il primo `verifica_dominio.py` chiudeva la sigla con `` e l'underscore non e' un confine di parola, quindi **ogni sigla del corpus veniva scartata in silenzio**. **A tradirlo e' stato un numero — 28 fonti su 36 «nominate» — non una rilettura del codice** |
+| **E57** | 23/08/2026 | gate del lotto 3C | regola nuova | **IL DISCRIMINE E' IL SOGGETTO**, test operativo di E47: un superlativo o un'esclusiva con **soggetto-documento** si verifica sulla fonte e regge; uno con **soggetto-archivio** non e' verificabile da nessuna nota e si restringe al perimetro citato, o va in tabella di tracciamento | §9.5, passo 5, accanto a E47 | si | `rapporto_lotto_03c.md` §7.1 · T142 — ⚠️ **E' E47 un gradino piu' su, e la stessa forma di E36**: la' l'affermazione eccedeva **il documento**, qui eccede **il perimetro**. ⚠️ **Il dato che rende utile la regola e' che la classe NON e' «i superlativi»**: al terzo giro di 3C ne sono stati verificati **quattordici** e confermati **dieci**, tutti e dieci con soggetto-documento — una regola sulla forma ne avrebbe cancellate dieci vere. ⚠️ **Ha due lotti di casi piu' una nota preesistente**: uno dei quattro difetti era `fatto-obblighi-registro-f-gas`, del lotto **1B**, **quindi la classe stava gia' nel vault e 3C ce l'ha solo trovata**. ⚠️ **Le occorrenze si riparano nel lotto che le tocca o nella rete finale**, non aprendo un giro sul vault: il censimento di questo gate ne da' il numero, non la riparazione |
+| **E58** | 23/08/2026 | gate del lotto 3C | chiarimento | **E26 ferma il CICLO, non la PRIMA ESPOSIZIONE: ogni nota vede lo strato di giudizio almeno una volta.** Le note nate dai ritrovamenti dell'ultimo giro ricevono un **giudizio DEDICATO**, solo su di esse — non un giro nuovo sul lotto — e le correzioni **soppressive** si applicano senza riaprire il ciclo (criterio 1B) | §9.5, passo 5, accanto a E26 | si | `rapporto_lotto_03c.md` §7.2 · T141 — ⚠️ **E' un chiarimento e non una regola nuova**: dice che cosa E26 ha sempre significato, e la prova e' che **E9 esiste da S2 per chiudere esattamente questo buco**. ⚠️ **Il caso**: due note del terzo giro di 3C — `fatto-due-nc-interne-sul-proprio-ritardo` e `questione-vendor-rating-2025-c-e-o-non-c-e` — chiuse **senza aver mai visto un giudice**, con la regola d'arresto invocata a copertura. ⚠️ **La QA verifica la forma, il giudizio verifica che la nota non affermi oltre le proprie fonti**: nessuno dei due sostituisce l'altro. ⚠️ **E la fuga di canone del pilota fu presa esattamente dal giudizio delle note nate dalle correzioni**, che erano un quinto del lotto ⚠️ **La regola d'arresto e' quella di E26, ed e' stata aggiunta lo stesso giorno perche' il primo impiego l'ha resa necessaria**: la riga «le correzioni che AGGIUNGONO si rigiudicano» senza arresto girerebbe all'infinito. Il giudizio dedicato si chiude al primo giro con zero rilievi accolti e **comunque al terzo**, col pattern nominato. ⚠️ **Al gate di 3C ha girato TRE volte e ogni giro ha trovato qualcosa che il precedente non aveva visto**, **compreso un difetto in una correzione appena scritta per chiuderne un altro** — la firma di E47 |
 
 ## Le anomalie di genealogia, dette per nome
 
@@ -162,6 +165,22 @@ Sezioni e presenza dei marcatori sono verificate contro `metodo_03` da
    che nessuno aveva aperto. ⚠️ **Il lotto 3A e' insieme il piu' difettoso del progetto e quello
    che ha prodotto piu' regole**: cinque emendamenti in due giorni, di cui due da criteri
    pre-registrati e tre dal proprio gate.
+
+   ⚠️ **E56, E57 ed E58 nascono al gate del lotto 3C, e sono la seconda volta che tre
+   emendamenti escono da un gate solo** — la prima fu 3A, e prima ancora i quattro di 2A.
+   ⚠️ **Nessuno dei tre nasce da un difetto delle NOTE, e il bersaglio e' diverso ogni volta**:
+   E56 corregge **la dichiarazione con cui si misura**, E57 corregge **il modo di scrivere**, E58
+   corregge **il perimetro di un controllo**. ⚠️ **E la loro provenienza segue tre vie distinte,
+   che vale la pena tenere separate**: E56 viene da **due consuntivi opposti** (2B-bis troppo
+   stretto, 3C troppo largo) come E52; E57 viene dal **pattern nominato al terzo giro** che E26
+   impone di nominare invece di inseguire, ed e' quindi il frutto diretto di una regola d'arresto
+   applicata bene; E58 viene da un **debito dichiarato dall'esecutore** — T141 — cioe' da una
+   sessione che ha scritto quello che non aveva fatto invece di lasciarlo passare.
+   ⚠️ **E55 e' del lotto 3C ma non del suo gate**: e' stato applicato **in corso di scrittura**
+   come §4 consente ai chiarimenti, e il gate lo ha **ratificato**. La colonna «dove nasce»
+   distingue le due occasioni, perche' sono due cose diverse: un chiarimento applicato in corsa
+   e' una decisione dell'esecutore che il coordinatore conferma; un emendamento di gate e' una
+   decisione del coordinatore.
 
 ## Regola di manutenzione
 

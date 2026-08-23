@@ -1862,3 +1862,60 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   rating**: i tre fornitori che l'audit da' per mancanti dal 2025 sono **classificati nel riesame
   di marzo**, con un indizio — «bobina fuori spessore 10/02/26» — che punta a una valutazione
   ritoccata dopo l'audit. **T140.**
+- **2026-08-23** · **GATE DEL LOTTO 3C: APPROVATO, con E56, E57 ed E58** · tre emendamenti da un
+  gate solo, per la seconda volta dopo 3A, e **nessuno dei tre da un difetto delle note**. **E56**
+  — la dichiarazione del dominio e' una **coppia espressioni-fonti che si giustificano a
+  vicenda**, e viene da **due consuntivi opposti**: 2B-bis troppo stretto (9,1 %), 3C troppo largo
+  (38,7 %). **E57** — il **discrimine e' il soggetto** del superlativo, e viene dal pattern che
+  E26 impone di nominare al terzo giro invece di inseguirlo. **E58** — **E26 ferma il ciclo, non
+  la prima esposizione**, e viene da un debito che l'esecutore aveva dichiarato invece di lasciar
+  passare (T141).
+- **2026-08-23** · **IL 38,7 % DI 3C NON SI RIMISURA, e la scelta e' del gate** · la
+  dichiarazione del dominio era sbagliata e la regola che la corregge esiste da oggi, ma **la
+  serie fotografa le dichiarazioni come sono state fatte**: rimisurare darebbe sei punti tutti
+  prodotti con la regola dell'ultimo gate, cioe' una serie che non puo' piu' mostrare il proprio
+  miglioramento. **Il numero resta, con la riserva scritta accanto** (E46). **T129 chiusa.**
+- **2026-08-23** · ⚠️ **IL GIUDIZIO DEDICATO DI E58, AL PRIMO IMPIEGO, HA TROVATO DIFETTI IN
+  ENTRAMBE LE NOTE MAI GIUDICATE — due su due `afferma_oltre`** · ed e' il dato che giustifica la
+  regola meglio di qualsiasi argomento: se il debito di T141 fosse stato formale, il giudizio
+  sarebbe tornato pulito. **La prima** attribuiva all'ente conteggi e contenuti che la sua unica
+  fonte non riporta, e il titolo diceva «le chiude in una settimana» mentre `NC-2026-049` va dal
+  17/03 al 02/04; **la seconda** chiudeva con «l'archivio non scioglie» — **la classe di E57, in
+  una nota nata due giorni prima che E57 esistesse** — e con un «nessuno lo ha contestato»
+  mentre il rapporto d'audit registra «Azione correttiva proposta... Stato: APERTA».
+  **Al secondo giro dedicato entrambe tornano `pulita`.**
+- **2026-08-23** · ⚠️ **IL GIUDIZIO DEDICATO HA TIRATO FUORI UN DIFETTO PIU' GRANDE DI QUELLO
+  CHE CERCAVA, E CORREGGE UNA RATIFICA DI QUESTO STESSO GATE** · `fatto-evidenze-audit-oltre-termine`
+  era entrata nel perimetro solo per una correzione soppressiva (portava una fonte **due volte**
+  in `fonti`); giudicata, e' tornata `afferma_oltre`. **Il verbale di riesame non porta ne'
+  «sedici» ne' «16»** — verificato riga per riga — e **nessuna fonte dell'ente conta i giorni di
+  ritardo**: ne' il rapporto, ne' le due mail. **Il solo conteggio SCRITTO in una fonte del corpus
+  e' il «16 gg» di `NC-2026-061`, piu' il «(un giorno)» con cui il rapporto d'audit §6 misura il
+  ritardo sul sollecito del 01/04.** ⚠️ **QUESTA VOCE SUPERA QUELLA DEL 22/08 qui sopra**, che
+  diceva «Aurora conta sedici in due documenti»: il secondo documento non esiste. ⚠️ **Quindi
+  «due contatori veri, di due titolari diversi» —
+  la formula con cui il gate aveva ratificato T126 — e' sbagliata: il contatore e' UNO, e il
+  quindici e' aritmetica del vault.** La sostanza regge (due termini, due conti possibili), la
+  lettura no. **T126 alla terza stesura, e tutte e tre sono cadute sullo stesso punto: un
+  conteggio attribuito a una fonte che non lo enuncia** — la classe di E49 e di E50. I due numeri
+  ora portano la marca `(contati)`.
+- **2026-08-23** · **IL CENSIMENTO DI E57 SI E' DOVUTO SPEZZARE IN DUE, e il primo numero era
+  ingannevole** · `censimento_superlativi.py` al primo giro dava **42 note e 47 occorrenze**, e
+  quel numero mescolava due regimi: accanto ai superlativi c'erano gli **esistenziali negativi**
+  — «nessun documento dell'archivio riporta X» — che sono **assenze dichiarate** e le governano
+  gia' **E3 ed E43**, con la ricerca su tutto `sources` e il suo artefatto. **Le due classi non si
+  sommano**: **9 note di classe `superlativo`** (le sole scoperte) e **31 di classe `assenza`**.
+  ⚠️ **Pubblicare 42 avrebbe ripetuto in piccolo l'errore del 38,7 %**: un numero vero con un
+  nome che promette piu' di quanto misura. ⚠️ **E la classificazione dipendeva dall'ORDINE delle
+  parole** finche' la finestra e' rimasta la frase intera: stretta a sessanta caratteri intorno al
+  termine di perimetro, come E23. **T142.**
+- **2026-08-23** · ⚠️ **QUINTO ORDINE DEL COORDINATORE CORRETTO DALLA VERIFICA, e stavolta e' un
+  conteggio** · il prompt del gate chiede di riscrivere la §3 del passaggio di consegne con
+  «undici lotti chiusi». **I lotti chiusi sono DIECI**: nove di canonizzazione — il pilota
+  `l26130` piu' `1A`, `1B`, `1C`, `2A`, `2B`, `2B-bis`, `3A`, `3C` — piu' `R1`, il solo lotto di
+  manutenzione. Contati da script sui marcatori `# CHIUSO` degli elenchi (nove file) piu' il
+  pilota, che elenco non ne ha perche' e' anteriore alla matrice. ⚠️ **`riverifica_barrato` non
+  e' un lotto chiuso**: e' un mini-perimetro dentro il gate di 2B-bis, e nessun documento lo
+  dichiara altrimenti. ⚠️ **La §3 gia' portava lo stesso scarto prima di questo gate** —
+  «sette lotti chiusi» sopra un elenco di otto — e la riscrittura lo chiude. **I precedenti sono
+  quattro: B3, il multi-fonte, l'esenzione E37 di 3A, il «sedici giorni».**

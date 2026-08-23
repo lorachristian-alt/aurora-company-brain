@@ -2302,6 +2302,36 @@ note → suite QA → revisore indipendente → correzioni propagate → suite Q
    l'archivio si guarda per intero — nella **tabella di tracciamento**, non in una nota che cita
    due grezzi.
 
+   ⚠️ **E57 — IL DISCRIMINE È IL SOGGETTO**, ed è il test operativo di E47 sui superlativi e
+   sulle esclusive. Un superlativo non è vietato: è **verificabile o non verificabile**, e a
+   dirlo è il **soggetto** dell'affermazione, non la sua forma.
+
+   | Soggetto del superlativo | Verificabile? | Cosa si fa |
+   |---|---|---|
+   | **un documento fra le `fonti`** | **sì** — si apre, si legge, si conta | regge com'è: «è l'unica cosa che **questo verbale** chiami *obiettivo primario*» |
+   | **il pacchetto dei grezzi del lotto** | **sì**, se sono tutti fra le `fonti` della nota | regge, col perimetro nominato |
+   | **l'archivio, il vault, «tutto il resto»** | ⚠️ **no, mai** | si **restringe** al perimetro citato, oppure va in **tabella di tracciamento** |
+
+   ⚠️ **Nessuna nota ha l'archivio fra le proprie fonti**, ed è la ragione per cui la terza riga
+   non ammette eccezioni: un'affermazione su ciò che l'archivio contiene **altrove** parla di
+   documenti che la nota non cita, e nessuna lettura per quanto accurata la può verificare dal
+   posto in cui si trova. Non è un difetto di diligenza: è un'affermazione **fuori competenza**.
+
+   ⚠️ **È E47 un gradino più su, ed è la stessa forma di E36**: là l'affermazione eccedeva **il
+   documento**, qui eccede **il perimetro**.
+
+   ⚠️ **Il dato che rende utile la regola: la classe non è «i superlativi».** Al lotto 3C il
+   terzo giro ne ha verificati **quattordici** e ne ha confermati **dieci** — tutti e dieci con
+   soggetto-documento. Una regola che vietasse la forma avrebbe cancellato dieci affermazioni
+   vere e verificabili riga per riga; il test sul soggetto ne toglie quattro e lascia in piedi
+   le altre. **Una regola che scatta sempre viene scavalcata per prassi** (§9.4): questa scatta
+   su meno di un terzo dei casi, e su quelli scatta senza discussione.
+
+   ⚠️ **E la classe non è nata in 3C: ci è stata solo trovata.** Uno dei quattro casi era
+   `fatto-obblighi-registro-f-gas`, nota del lotto **1B**. Chi ne trova un'occorrenza fuori dal
+   proprio perimetro la ripara **nel lotto che la tocca** o nella rete finale: non si apre un
+   giro sul vault per una classe di scrittura.
+
    ⚠️ **E50 — UN NUMERO CHE LA FONTE NON ENUNCIA È UN VALORE DERIVATO ANCHE QUANDO SI OTTIENE
    CONTANDO, E SI SCRIVE COL MODO IN CUI È STATO OTTENUTO — OPPURE NON SI SCRIVE.** Vale per i
    conteggi di elementi («tre indicatori», «sei mancati», «quattro azioni», «nove punti») e per
@@ -2362,6 +2392,43 @@ note → suite QA → revisore indipendente → correzioni propagate → suite Q
    lotto è sanato ex post — il suo rapporto nomina il pattern — e da qui in poi il pattern si
    nomina al terzo giro, non al quarto.
 
+   ⚠️ **E58 — E26 FERMA IL CICLO, NON LA PRIMA ESPOSIZIONE: OGNI NOTA VEDE LO STRATO DI GIUDIZIO
+   ALMENO UNA VOLTA.** La regola d'arresto qui sopra dice quando si smette di **rigirare** il
+   lotto; non autorizza a chiudere una nota che il giudizio **non ha mai visto**. Sono due cose
+   diverse, e confonderle riapre esattamente il buco che E9 esiste per chiudere: nel pilota le
+   note nate dalle correzioni erano **un quinto del lotto**, e **la fuga di canone fu presa
+   proprio dal giudizio di quelle note**.
+
+   | Che cosa fa l'ultimo giro | Che cosa si fa |
+   |---|---|
+   | **corregge** note già giudicate | il ciclo si chiude (E26): sono note che il giudizio ha già visto |
+   | **fa nascere note nuove** | ⚠️ **giudizio DEDICATO, solo su quelle** — non un quarto giro sul lotto |
+   | il giudizio dedicato produce correzioni **soppressive** (tolgono un'affermazione, non ne aggiungono) | si applicano **senza riaprire il ciclo**: è il criterio del lotto 1B |
+   | il giudizio dedicato produce correzioni che **aggiungono** affermazioni | quelle affermazioni non sono ancora state giudicate, e il giudizio dedicato si ripete su di esse |
+
+   ⚠️ **Il costo è piccolo, e va detto perché è la ragione per cui la regola è applicabile.** Il
+   giudizio dedicato è un pacchetto di **poche note**, generato dopo le correzioni (E33), a
+   contesto pulito come tutti gli altri e senza canone. Non è un giro di lotto: non rimette in
+   discussione le note già chiuse e non sposta la regola d'arresto di un passo.
+
+   ⚠️ **E IL GIUDIZIO DEDICATO EREDITA LA REGOLA D'ARRESTO DI E26, che è la sua.** La terza
+   riga della tabella qui sopra — le correzioni che *aggiungono* si rigiudicano — senza un
+   arresto proprio girerebbe all'infinito, perché ogni correzione è ancora una frase. **Vale
+   quindi lo stesso arresto del ciclo**: si chiude al primo giro dedicato che torna con zero
+   rilievi accolti, e **comunque al terzo**; se il terzo ne produce ancora, la nota si chiude
+   dopo che il rapporto ha **nominato la classe** che li rigenera. ⚠️ **Questa riga nasce dal
+   primo impiego di E58**: al gate di 3C il giudizio dedicato ha girato tre volte, e ogni giro
+   ha trovato qualcosa che il precedente non aveva visto — **compreso un difetto in una
+   correzione appena scritta per chiuderne un altro**, che è la firma di E47.
+
+   ⚠️ **Il caso**: al lotto 3C i ritrovamenti del terzo giro hanno prodotto **due note** —
+   `fatto-due-nc-interne-sul-proprio-ritardo` e `questione-vendor-rating-2025-c-e-o-non-c-e` —
+   che hanno passato la QA e il controllo delle citazioni **ma non lo strato di giudizio**
+   (T141). ⚠️ **La differenza fra i due controlli è la sostanza di questa regola**: la QA
+   verifica **la forma**, il giudizio verifica che **la nota non affermi oltre le proprie
+   fonti**. Nessuno dei due sostituisce l'altro, e una nota che ha visto solo il primo è una
+   nota mai giudicata.
+
 5-bis. **NOTA-SESSIONE nel journal** (`workspace\`), **e solo DOPO di essa il blocco dei
    conteggi di `conta_stato.py`** (E34). Quel blocco è **l'ultimo numero che si produce prima
    del commit**: è lui che si incolla nello stato (passo 6) e nel rapporto di lotto.
@@ -2408,6 +2475,48 @@ note → suite QA → revisore indipendente → correzioni propagate → suite Q
 
    ⚠️ **Ogni lotto dichiara il proprio dominio in apertura, o il proprio «nessuno» motivato**,
    così la serie di E41 non ha più buchi non dichiarati.
+
+   ⚠️ **E56 — LA DICHIARAZIONE DEL DOMINIO È UNA COPPIA ESPRESSIONI-FONTI CHE SI GIUSTIFICANO A
+   VICENDA.** Un dominio non è un elenco di parole, e nemmeno un elenco di documenti: sono **due
+   elenchi che si tengono l'un l'altro**. Ogni **espressione** entra solo se una **fonte** del
+   dominio governa ciò che quell'espressione riconosce; ogni **fonte governante** si dichiara.
+   Scritta al rovescio, la regola dice che cosa va cercato prima di misurare: *per ogni
+   espressione, quale fonte del dominio governa le note che questa pesca? e per ogni fonte,
+   quali espressioni la chiamano in causa?*
+
+   | Verso dell'errore | Il caso | Che cosa ha fatto al numero |
+   |---|---|---|
+   | dominio **troppo stretto** | 2B-bis, `allergeni`: mancava il **materiale d'aula**, che è la fonte governante della formazione | **9,1 %** gonfiato — contava scoperte note che una fonte non dichiarata copriva |
+   | dominio **troppo largo** | 3C, `certificazione`: le espressioni riconoscevano le note **sull'audit**, le fonti governavano **il titolo e gli obblighi verso l'ente** | **38,7 %** gonfiato — contava scoperte note governate da **altre** fonti prescrittive |
+
+   ⚠️ **I due versi sono stati pagati entrambi, ed è per questo che la regola viene dai
+   consuntivi e non da un principio.** Un caso solo avrebbe insegnato a stringere, oppure ad
+   allargare; **due casi opposti insegnano che il difetto non è la larghezza ma la mancanza di
+   corrispondenza fra le due metà della dichiarazione.**
+
+   ⚠️ **Il tasso misura la dichiarazione tanto quanto il metodo**, e ne discende un obbligo
+   pratico: **la dichiarazione del dominio si scrive con la stessa cura di una nota**, perché è
+   un artefatto di misura come lo script che la legge.
+
+   ⚠️ **Un punto già misurato NON si rimisura a dichiarazione corretta.** La serie fotografa le
+   dichiarazioni **come sono state fatte**, ed è così che insegna: il numero resta, e accanto
+   gli si scrive la riserva (E46 — il numero dice **su che cosa** è misurato). Rimisurare
+   darebbe una serie di numeri tutti prodotti con la regola dell'ultimo gate, cioè una serie che
+   non può più mostrare il proprio miglioramento.
+
+   ⚠️ **Nello strumento le citazioni hanno DUE CLASSI DI FORZA, e non si sommano mai.** Una
+   **sigla** dentro un documento è una **citazione** — chi scrive «IO-05» sta indicando quel
+   documento; una **parola comune del nome** — «certificato», «manutenzione», «produzione» —
+   **non dimostra nulla da sola**, e un riscontro debole non diventa forte sommandosi ad altri
+   riscontri deboli.
+
+   ⚠️ **Il caso che le ha prodotte è un difetto MUTO, ed è il motivo per cui la separazione sta
+   nel manuale e non solo nel sorgente.** Il primo `verifica_dominio.py` chiudeva la sigla con
+   `\b`, e fra la `I` di `CPI_certificato_…` e l'underscore **non c'è confine di parola**: ogni
+   sigla del corpus veniva scartata **in silenzio**, e restavano i soli riscontri deboli.
+   ⚠️ **A tradirlo è stato UN NUMERO, non una rilettura del codice: 28 fonti su 36 «nominate».**
+   **Un elenco che dice quasi sempre di sì non è una verifica**, e **uno script che tace non è
+   uno script che assolve.**
 
    **RICONCILIAZIONE VERTICALE DELLE NOTE GIÀ SCRITTE, quando il lotto porta una fonte
    prescrittiva** (E37). All'apertura di ogni lotto che introduce nel vault uno o più documenti

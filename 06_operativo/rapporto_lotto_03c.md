@@ -392,6 +392,25 @@ stessa**; l'ente conta quindici perché il termine è suo e lo fissa al 18/03.
 **La riga T126 è stata riscritta dentro lo stesso lotto**, e dice che cosa diceva prima. ⚠️ **La
 prima stesura affermava che il vault era «sbagliato»: non lo era, contava da un altro giorno.**
 
+> 🛑 **ERRATA del 23/08/2026, scritta al gate di questo lotto.** Il capoverso qui sopra
+> resta come fu scritto — un rapporto documenta cio' che la sessione fece — ma **due sue
+> affermazioni non reggono sulle fonti**, e le ha trovate il **giudizio dedicato di E58**:
+>
+> - «**Aurora conta sedici in due documenti diversi**»: ⚠️ **il verbale di riesame non porta
+>   ne' «sedici» ne' «16»** — verificato riga per riga. Fissa la scadenza al **17/03**, che del
+>   sedici e' la **premessa**, non l'enunciato. **Il sedici ha un solo titolare: `NC-2026-061`.**
+> - «**l'ente conta quindici**»: ⚠️ **il quindici non lo scrive nessuno.** E' il conto del vault
+>   fra il 18/03 e il 02/04, e ora porta la marca `(contati)` (E50). ⚠️ **L'ente un conteggio
+>   pero' lo scrive**, contro un altro termine: il rapporto d'audit §6 dice «oltre il termine di
+>   sollecito del 01/04/2026 **(un giorno)**».
+>
+> ⚠️ **La sostanza del §9 regge — termini diversi, conti diversi, Aurora coerente con se'
+> stessa — ma la lettura «due contatori veri» no.** **T126 e' alla terza stesura**, e tutte e
+> tre sono cadute sullo stesso punto: **un conteggio attribuito a una fonte che non lo enuncia**,
+> la classe di E49 e di E50. La correzione vive in T126 e nella nota
+> `fatto-evidenze-audit-oltre-termine`; qui resta l'errata, come prescrive la regola del gate 1A.
+
+
 ⚠️ **E il vendor rating: i tre fornitori che l'audit dà per mancanti sono classificati nel
 riesame di marzo**, dentro la «Valutazione fornitori 2025». **Un indizio punta a una
 valutazione ritoccata dopo l'audit** — la motivazione di classe B per Flexipack è una bobina

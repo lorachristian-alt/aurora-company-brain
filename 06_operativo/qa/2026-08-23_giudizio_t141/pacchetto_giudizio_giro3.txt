@@ -1,0 +1,912 @@
+Giudichi note di un archivio aziendale rispetto ai documenti che dichiarano come
+fonte. Non devi migliorare le note, non devi riscriverle e non devi rispondere
+alle domande che pongono: devi giudicare se stanno in piedi sulle loro fonti.
+
+Per ogni nota ricevi: il nome, il corpo integrale, l'elenco delle fonti che
+dichiara e il testo estratto di ciascuna di quelle fonti.
+
+Rispondi SOLO a queste tre domande, in quest'ordine:
+1. Ogni fonte elencata contribuisce davvero alla nota? Una fonte che non sorregge
+   nessuna affermazione e' rumore nel payload, e va segnalata.
+2. La nota afferma qualcosa che le fonti non dicono, pur senza numeri? Cerca le
+   affermazioni qualitative: cause, intenzioni, conseguenze, attribuzioni di una
+   frase a una persona, giudizi di conformita'. I numeri, le date e i codici NON
+   sono affar tuo: li ha gia' verificati lo strato deterministico.
+
+3. Esiste, FRA LE FONTI CHE HAI RICEVUTO IN QUESTO PACCHETTO, un documento che
+   misura o afferma la stessa grandezza di cui la nota parla, e che la nota NON
+   cita? Non e' un difetto di provenienza: e' una lacuna di copertura. La segnali
+   FUORI dal verdetto, in coda alla risposta, dicendo quale nota e quale
+   documento, e NON cambi per questo l'esito della nota.
+
+Assegna a ogni nota esattamente un esito:
+- `pulita` — ogni fonte contribuisce e nessuna affermazione eccede le fonti
+- `fonte_inutile` — almeno una fonte elencata non sorregge nulla
+- `afferma_oltre` — almeno un'affermazione non ha riscontro nelle fonti citate
+- `entrambi` — sia una fonte inutile sia un'affermazione che eccede
+
+Restituisci UNA riga JSON per nota, con esattamente questi campi:
+`nota`, `esito`, `motivazione` (una riga sola, che cita l'affermazione o la fonte
+esatta a cui ti riferisci).
+
+Regole che non puoi violare:
+- Non essere generoso: se un'affermazione non e' ritrovabile leggendo le fonti,
+  non e' fondata anche se e' plausibile e ben scritta.
+- Un'inferenza DICHIARATA come tale («i due documenti, letti insieme, mostrano
+  che…», «la trascrizione non lo afferma: e' un'attribuzione») e' legittima e non
+  si segnala. E' l'inferenza fatta passare per dato della fonte che si segnala.
+- Una nota che riporta due valori divergenti senza sceglierne uno sta facendo il
+  suo mestiere: non e' un difetto, e non si segnala.
+- Non proponi correzioni e non riscrivi niente. Riporti, e basta.
+- Non ricevi il canone e non devi cercarlo: confronti la nota contro le sue
+  fonti, punto. Il giudizio sulla copertura dei fatti spetta a un altro ruolo.
+- La terza domanda non ti autorizza a giudicare la copertura dell'archivio: ti
+  chiede solo di segnalare cio' che hai gia' sotto gli occhi dentro il pacchetto.
+  Se un documento non e' nel pacchetto, per te non esiste.
+
+
+======================================================================
+PROMPT v2 del 2026-08-18 — non modificarlo per questo lotto.\n
+======================================================================
+
+
+----------------------------------------------------------------------
+>>>>> NOTA DA GIUDICARE: fatto-evidenze-audit-oltre-termine.md
+----------------------------------------------------------------------
+---
+title: "Le evidenze di chiusura delle NC di audit arrivano il 02/04, oltre il termine: l'ente lo fissa al 18/03, il verbale di riesame al 17/03"
+summary: "I due termini sono diversi: il rapporto d'audit e le due mail CSQA fissano il 18/03 contando 28 giorni dalla riunione di chiusura, il verbale di riesame fissa il 17/03 contando 28 giorni dalla notifica; il solo conteggio dei giorni di ritardo SCRITTO in una fonte e' il «16 gg» di NC-2026-061 nel registro interno, e il quindici e' un valore contato (18/03 al 02/04)."
+type: atomica
+area: qualita
+tags: [areas, qualita, audit, non-conformita, scadenze]
+fonti:
+  - verbale_riesame_direzione_SGQ_2026.txt
+  - Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt
+  - R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml
+  - non_conformita_interne_registro_2026.csv
+stato: aperto
+aliases: []
+data_fatto: 2026-04-02
+data_nota: 2026-08-21
+related: "[[fatto-due-nc-minori-audit-2026]], [[doc-azioni-deliberate-riesame-2026]], [[fatto-chiusura-nc-documentale-e-il-richiamo]], [[fatto-grade-aa-messo-in-guardia]], [[questione-proroga-informale-al-27-03]], [[fatto-due-nc-interne-sul-proprio-ritardo]], [[area-qualita]]"
+---
+
+# Il termine mancato, e chi l'ha scritto
+
+**Il termine, in due versioni che partono da due giorni diversi.**
+
+| Chi lo scrive | Come lo calcola | Quando cade | Ritardo che ne segue |
+|---|---|---|---|
+| **rapporto d'audit CSQA**; le **due mail** ne ripetono la data | «28 gg **dalla riunione di chiusura**» | **18/03/2026** | **15 giorni (contati)** |
+| **verbale di riesame**, §3.3 | «28 giorni **dalla notifica**» | **17/03/2026** | **16 giorni (contati)** |
+| **registro NC interne**, `NC-2026-061` | non lo calcola: lo **dichiara** | — | «**16 gg di ritardo**» |
+
+⚠️ **Un solo conteggio è SCRITTO in una fonte, ed è il «16 gg» del registro interno**
+([[fatto-due-nc-interne-sul-proprio-ritardo]]): nessuna fonte dell'ente conta i giorni, e il
+verbale nemmeno — fissa la scadenza al 17/03, che ne è solo la premessa. **Quindici e sedici
+della quarta colonna li conta questa nota, dalle date.** Entrambe le decorrenze fanno ventotto
+giorni e cadono su due giorni diversi; se le due parti se ne siano accorte, i documenti non lo
+dicono.
+
+**Lo stato al 12/03**, giorno del riesame: la raccolta **non** risulta completata — mancano le
+firme dei capiturno su `MOD-QA-12` e le foto dell'armadio ricambi — e la direzione **richiama la
+RSGQ «al rispetto tassativo della scadenza»**.
+
+⚠️ **E il verbale porta un'aggiunta successiva alla propria approvazione**: «evidenze poi
+trasmesse a CSQA in data **02/04/2026**, oltre il termine», con le due sigle.
+
+## Perché conta più del ritardo
+
+⚠️ **La stessa azione è `A1` fra le deliberate**, con responsabile la RSGQ e scadenza
+**17/03/2026** ([[doc-azioni-deliberate-riesame-2026]]): **la prima dell'elenco, e quella
+mancata**.
+
+⚠️ **L'annotazione accosta al ritardo due sigle che non descrive**, e il registro interno le
+descrive ([[fatto-due-nc-interne-sul-proprio-ritardo]]): la numerazione `NC-2026-###` è di
+Aurora, e **i due documenti dell'ente fra queste fonti non la usano**.
+
+## Che cosa il pacchetto certificazione ha aggiunto
+
+⚠️ **Il ritardo non è finito con la trasmissione.** L'ente lo ha **registrato a sistema**, e
+alla prossima reiterazione il grade scende da AA ad A ([[fatto-grade-aa-messo-in-guardia]]); la
+chiusura è **solo documentale** ([[fatto-chiusura-nc-documentale-e-il-richiamo]]); e fra
+sollecito e trasmissione c'è **una seconda scadenza con due date**
+([[questione-proroga-informale-al-27-03]]).
+
+## Fonti
+
+- [[non_conformita_interne_registro_2026.csv]] — riga 51, `NC-2026-049`: «NC-2026-049;17/03/2026;interna;Linea 1;Evidenze chiusura NC audit CSQA non ancora inviate, scadenza 28 gg al 17/03 SUPERATA;;alta;carico lavoro RSGQ, raccolta firme capiturno incompleta;»; riga 64, `NC-2026-061`: «NC-2026-061;02/04/2026;interna;Qualità;Invio a CSQA evidenze chiusura NC audit con 16 gg di ritardo sulla scadenza;;media;v. NC-2026-049;accettate da CSQA con nota, richiamo a pianificazione scadenze enti;Marchetti E.;09/04/2026;CHIUSA;».
+- [[Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt]] — §4, «Termine di chiusura / Deadline: piano d'azione + evidenze entro 28 gg dalla» e «riunione di chiusura, ossia entro il 18/03/2026.»; §6, «18/03/2026 - Termine per l'invio di piano d'azione ed evidenze: NESSUNA» e «RICEZIONE alla data indicata.».
+- [[R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml]] — corpo del messaggio del 20/03, «delle 2 NC minori rilevate nell'audit del 17-18/02 u.s., il cui termine» e «(28 giorni) e' scaduto il 18/03/2026. In assenza di riscontro entro»; corpo del messaggio del 07/04, «Dobbiamo tuttavia rilevare che la trasmissione e' avvenuta OLTRE il termine di 28 giorni previsto dal protocollo BRCGS (scadenza: 18/03/2026), nonostante il ns. sollecito del 20/03 e la proroga informalmente accordata dalla dott.ssa Franceschini al 27/03.».
+- [[verbale_riesame_direzione_SGQ_2026.txt]] — §3.3, «Termine per l'invio delle evidenze di chiusura: 28 giorni dalla notifica,», «ovvero 17/03/2026. Alla data odierna la raccolta evidenze NON risulta», «completata: mancano le firme di presa visione dei capiturno sul modulo», «MOD-QA-12 revisionato e le foto dell'armadio ricambi in officina.», «La Direzione RICHIAMA la RSGQ al rispetto tassativo della scadenza.» e l'annotazione «[annotazione a margine: evidenze poi trasmesse a CSQA in data 02/04/2026,», «oltre il termine - v. NC-2026-049 e NC-2026-061]»; §11, riga «A1   Invio evidenze chiusura NC audit a CSQA         Marchetti    17/03/2026».
+
+
+======================================================================
+TESTO ESTRATTO DELLE FONTI CITATE
+======================================================================
+
+--- R_R_R_scadenza_certificato_BRCGS_e_audit_di_rinnovo.eml ---
+From: Segreteria Certificazione Food - CSQA <food@csqa.it>
+To: Elena Marchetti <e.marchetti@aurorafoodgroup.it>
+Cc: Nadia Franceschini <n.franceschini@csqa.it>, Marco Fantin <m.fantin@aurorafoodgroup.it>
+Subject: R: R: R: Scadenza certificato BRCGS Food Safety n. BRC/IT/24/00871 - pianificazione audit di rinnovo e chiusura NC audit 17-18/02/2026
+Date: Tue, 07 Apr 2026 10:26:31 +0200
+Message-ID: <1775550391.244ce.c55ecfc2@csqa.it>
+Gentile dott.ssa Marchetti,
+
+confermiamo la ricezione in data 02/04/2026 del Vs. piano di azioni correttive e delle relative evidenze oggettive a chiusura delle non conformita' minori rilevate in sede di audit del 17-18/02/2026:
+
+- NC 1 (BRCGS Issue 9, clausola 3.11.3 / IFS Food v8, req. 5.1.2): registrazioni manuali dei monitoraggi CCP2 e CCP3 prive di verifica in seconda firma entro fine turno;
+- NC 2 (BRCGS Issue 9, clausola 4.7.5): ricambi e attrezzature di manutenzione custoditi in area produttiva senza controllo di integrita'.
+
+Dobbiamo tuttavia rilevare che la trasmissione e' avvenuta OLTRE il termine di 28 giorni previsto dal protocollo BRCGS (scadenza: 18/03/2026), nonostante il ns. sollecito del 20/03 e la proroga informalmente accordata dalla dott.ssa Franceschini al 27/03.
+
+Il lead auditor, esaminata la documentazione, la ritiene ACCETTABILE CON RISERVA:
+
+- per la NC 1, l'evidenza trasmessa (revisione del modulo MOD-QA-12 con campo "verifica di seconda firma" e registro formazione MOD-HR-11 del 30/03) e' formalmente adeguata; l'EFFICACIA dell'azione correttiva sara' pero' oggetto di verifica puntuale in campo durante l'audit di rinnovo, con campionamento esteso delle registrazioni CCP2/CCP3 del periodo aprile-giugno;
+- per la NC 2, la sola emissione della disposizione interna non e' sufficiente: dovra' essere evidente la rimozione fisica dei materiali di manutenzione dalle aree di produzione (o la loro custodia in armadi/carrelli chiusi e inventariati). Anche questo punto sara' verificato in campo.
+
+Vi ricordiamo che il ritardo nella chiusura delle NC e' esso stesso oggetto di valutazione ai fini del grade (Issue 9, protocollo di audit, par. 1.9.5).
+
+Per l'audit di rinnovo combinato BRCGS Food Safety Issue 9 + IFS Food v8 confermiamo le date proposte: 23-24 GIUGNO 2026, team di audit: dott.ssa Nadia Franceschini (lead) e p.i. Fabrizio Menegazzo (co-auditor), come da conferma di incarico allegata da restituire controfirmata entro il 20/04. Il certificato BRC/IT/24/00871 scade il 09/04/2027: le date indicate consentono il rinnovo senza soluzione di continuita', ulteriori slittamenti no.
+
+Cordiali saluti
+
+Segreteria Certificazione Agroalimentare
+CSQA Certificazioni S.r.l.
+Via S. Gaetano 74 - 36016 Thiene (VI)
+Tel. 0445 31 30 11 - food@csqa.it - www.csqa.it
+P.IVA 02603680246
+Informativa ai sensi del Reg. UE 2016/679: il presente messaggio e gli eventuali allegati contengono informazioni riservate destinate esclusivamente ai destinatari. This message and any attachments are confidential and intended solely for the named recipients.
+
+
+-----Messaggio originale-----
+Da: Elena Marchetti <e.marchetti@aurorafoodgroup.it>
+Inviato: giovedi 2 aprile 2026 19:52
+A: food@csqa.it
+Cc: Nadia Franceschini <n.franceschini@csqa.it>; Marco Fantin <m.fantin@aurorafoodgroup.it>
+Oggetto: R: R: Scadenza certificato BRCGS Food Safety n. BRC/IT/24/00871 - pianificazione audit di rinnovo e chiusura NC audit 17-18/02/2026
+
+> Gentile Segreteria, gentile dott.ssa Franceschini,
+> trasmetto in allegato, scusandomi ancora per il ritardo rispetto ai
+> termini, il piano delle azioni correttive con le evidenze di chiusura:
+> - NC 1: MOD-QA-12 rev.6 con campo di verifica in seconda firma a fine
+>   turno; verbale di formazione capiturno del 30/03 (MOD-HR-11, firme di
+>   Popescu, Ben Salah, Guerra); disposizione organizzativa DO-2026-03.
+> - NC 2: disposizione interna DO-2026-04 "gestione ricambi e attrezzature
+>   in area produttiva" con divieto di deposito a bordo linea e obbligo di
+>   carrello chiuso; foto dell'armadio dedicato ordinato (in consegna).
+> Il ritardo e' dipeso dal sovraccarico operativo di marzo (campagne
+> promozionali del ns. cliente principale) che ha assorbito la scrivente e
+> l'ufficio qualita': me ne assumo la responsabilita'.
+> Resto in attesa di riscontro sulle date del 23-24/06 che per noi sono
+> confermabili.
+> Cordialmente
+> dott.ssa Elena Marchetti - RSGQ / Team Leader HACCP
+> Aurora Food Group S.r.l. - Cologna Veneta (VR)
+> Tel. 0442 85 41 22 int. 214
+>
+>
+> -----Messaggio originale-----
+> Da: Segreteria Certificazione Food - CSQA <food@csqa.it>
+> Inviato: venerdi 20 marzo 2026 09:05
+> A: e.marchetti@aurorafoodgroup.it
+> Oggetto: R: Scadenza certificato BRCGS Food Safety n. BRC/IT/24/00871 - pianificazione audit di rinnovo e chiusura NC audit 17-18/02/2026
+>
+>> Gentile dott.ssa Marchetti,
+>> con la presente sollecitiamo la trasmissione delle evidenze di chiusura
+>> delle 2 NC minori rilevate nell'audit del 17-18/02 u.s., il cui termine
+>> (28 giorni) e' scaduto il 18/03/2026. In assenza di riscontro entro
+>> breve saremo tenuti a segnalare la mancata chiusura nei termini, con
+>> possibile impatto sul grade attuale (AA) in sede di rinnovo.
+>> Restiamo inoltre in attesa di conferma delle date proposte per l'audit
+>> di rinnovo combinato: 23-24/06/2026 (alternativa: 07-08/07/2026).
+>> Cordiali saluti
+>> Segreteria Certificazione Agroalimentare - CSQA Certificazioni S.r.l.
+>>
+>>
+>>> -----Messaggio originale-----
+>>> Da: Segreteria Certificazione Food - CSQA <food@csqa.it>
+>>> Inviato: mercoledi 11 marzo 2026 14:22
+>>> A: e.marchetti@aurorafoodgroup.it
+>>> Oggetto: Scadenza certificato BRCGS Food Safety n. BRC/IT/24/00871 - pianificazione audit di rinnovo
+>>>
+>>>> Gentile Organizzazione,
+>>>> Vi informiamo che il certificato BRCGS Food Safety Issue 9 n.
+>>>> BRC/IT/24/00871 (grade AA) risulta in scadenza il 28/07/2026.
+>>>> Al fine di garantire la continuita' della certificazione, l'audit di
+>>>> rinnovo deve svolgersi entro la finestra prevista dal protocollo.
+>>>> Proponiamo le seguenti date per l'audit combinato BRCGS + IFS Food v8
+>>>> (cert. IFS/IT/25/03390, Higher Level 97,32%):
+>>>> - 23-24 giugno 2026 (preferenziale)
+>>>> - 07-08 luglio 2026
+>>>> Vi ricordiamo inoltre che risultano ancora aperte le n. 2 NC minori
+>>>> dell'audit del 17-18/02/2026, con evidenze attese entro il 18/03/2026.
+>>>> Cordiali saluti
+>>>> Segreteria Certificazione Agroalimentare
+>>>> CSQA Certificazioni S.r.l. - Thiene (VI)
+
+[allegato] Conferma_incarico_audit_rinnovo_2026_AuroraFoodGroup.pdf
+
+--- Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt ---
+CSQA CERTIFICAZIONI S.r.l. - Via S. Gaetano 74 - 36016 Thiene (VI)
+RAPPORTO DI AUDIT / AUDIT REPORT
+
+Audit combinato / Combined audit:
+  BRCGS FOOD SAFETY - ISSUE 9  (announced)
+  IFS FOOD - VERSION 8
+
+Organizzazione auditata / Audited company:  AURORA FOOD GROUP S.r.l.
+Sito / Site:                                Via dell'Industria 27 - 37044 Cologna Veneta (VR) - Italia
+Sito aggiuntivo / Additional storage:       Via Palù 3/A - Cologna Veneta (VR) (magazzino PF surgelato)
+Registrazione sanitaria:                    n. 037/2019/SIAN - ULSS 9 Scaligera
+Certificato BRCGS n.:                       BRC/IT/24/00871
+Certificato IFS n.:                         IFS/IT/25/03390
+Date audit / Audit dates:                   17/02/2026 - 18/02/2026
+Auditor lead:                               dott.ssa Nadia FRANCESCHINI
+Co-auditor:                                 p.i. Fabrizio MENEGAZZO
+Durata / Duration:                          2 giorni uomo x 2 auditor (32 h on site)
+
+ESITO / RESULT
+  BRCGS Food Safety Issue 9:   GRADE AA   (0 NC maggiori, 2 NC minori e 5 osservazioni)
+  IFS Food v8:                 HIGHER LEVEL - 97,32 %
+  Raccomandazione: mantenimento della certificazione, subordinato alla chiusura
+  delle NC minori entro 28 giorni con invio di evidenze oggettive (action plan +
+  evidence) all'ente. Termine ultimo invio evidenze: 18/03/2026.
+
+CATEGORIE DI PRODOTTO / PRODUCT SCOPE
+  BRCGS cat. 07 - Bakery; IFS product scope 6.
+  Prodotti da forno farciti e snack salati in atmosfera protettiva (ATM/MAP);
+  croissanteria surgelata; prodotti da forno surgelati; incluse produzioni a
+  marchio del cliente (private label GDO - "Bontà di Casa" e altri).
+  Esclusioni: nessuna.
+
+----------------------------------------------------------------------------
+1. PROGRAMMA DELL'AUDIT / AUDIT PLAN (come eseguito)
+----------------------------------------------------------------------------
+
+GIORNO 1 - 17/02/2026
+08:30-09:15  Riunione di apertura. Presenti: Bertoldi G. (AD), Fantin M. (Dir.
+             Stabilimento), Marchetti E. (RSGQ), Pozzato S. (QA), Zanella D.
+             (Resp. Produzione), Vicentini C. (consulente HACCP).
+09:15-10:45  Riesame documentale: manuale HACCP rev.4, analisi dei pericoli,
+             validazioni CCP2, piano PRP, gestione documenti (PRO-QA-01).
+10:45-12:30  Ispezione stabilimento - percorso materie prime: rampe ricevimento,
+             silos farina, magazzino ingredienti, cella CF-01 (+4 °C).
+             Presenti: Faggionato N., Marchetti E.
+12:30-13:15  Pausa pranzo (auditor separati, mensa aziendale)
+13:15-15:30  Ispezione Linea 1: setacciatura/magnete (CCP1), IMP-300, forno FT-01,
+             tunnel termico PT-104 (CCP2), raffreddamento, metal detector MD-3200
+             (CCP3), confezionatrice MAP PKM-450. Intervista operatori turno 1 e
+             capoturno Popescu I.
+15:30-16:45  Verifica registrazioni CCP2/CCP3: MOD-QA-12, MOD-QA-07 rev.5, log
+             elettronici, confronto carta/datalogger. Intervista Pozzato S.
+16:45-17:30  Taratura e manutenzione: piano tarature, officina, intervista
+             Dal Maso I. Ispezione officina e carrelli attrezzi.
+17:30-18:00  Riepilogo di fine giornata con RSGQ.
+
+GIORNO 2 - 18/02/2026
+08:30-10:00  Ispezione Linea 2 (croissanteria): impasto, sfogliatura, cella
+             lievitazione, forno FT-02. Intervista capoturno Ben Salah A.
+             Gestione allergeni: verifica cambio produzione, check-list, matrice.
+10:00-11:00  Ispezione Linea 3 e area surgelazione: tunnel TS-01, MD-1800,
+             cella CF-02 (-18 °C). Intervista Guerra R. Sopralluogo magazzino
+             esterno Via Palù 3/A (a campione, 45 min, con Faggionato N.).
+11:00-12:30  Test di rintracciabilità: lotto sfida AF-CR-0215 lotto L26028-L2-T1
+             (28/01/2026) -> mass balance 99,4% in 2 h 50 min. ESITO: CONFORME.
+             Ricostruzione a monte fino ai lotti farina Molino Veneto (F0012) e
+             burro Latteria Bassanese (F0021). Verifica DoC film MOCA Flexipack
+             (F0044) ex Reg. 1935/2004.
+12:30-13:15  Pausa
+13:15-14:30  Food defense / food fraud: piano TACCP/VACCP, vulnerability
+             assessment materie prime, accessi sito. Intervista Fantin M.
+14:30-15:30  Personale: formazione (MOD-HR-11), visite mediche, indumenti,
+             lavaggio mani. Intervista HR Sartori F. Reclami: registro MOD-QA-31,
+             analisi trend 2025. Vendor rating fornitori.
+15:30-16:30  Verifica azioni correttive audit precedente (tutte chiuse), riesame
+             direzione, audit interni, mock recall 2025 (esito conforme).
+16:30-17:15  Preparazione conclusioni (auditor)
+17:15-18:00  Riunione di chiusura. Lettura delle NC. Presenti: Bertoldi G.,
+             Fantin M., Marchetti E., Pozzato S., Zanella D.
+
+----------------------------------------------------------------------------
+2. PERSONE INTERVISTATE / INTERVIEWED PERSONS
+----------------------------------------------------------------------------
+  Giancarlo Bertoldi        Amministratore Delegato (apertura/chiusura)
+  ing. Marco Fantin         Direttore di Stabilimento
+  dott.ssa Elena Marchetti  RSGQ - Team Leader HACCP
+  Sara Pozzato              Assistente Qualità / QC
+  Denis Zanella             Responsabile Produzione
+  Ionut Popescu             Capoturno Linea 1
+  Adel Ben Salah            Capoturno Linea 2
+  Roberto Guerra            Capoturno Linea 3
+  Ivano Dal Maso            Capo officina / Manutenzione
+  Nicola Faggionato         Resp. Magazzino e Spedizioni
+  Federica Sartori          HR
+  dott.ssa Chiara Vicentini consulente HACCP esterna (solo riunioni e doc.)
+  n. 6 operatori di linea (turno 1) intervistati sul campo
+
+----------------------------------------------------------------------------
+3. EVIDENZE RACCOLTE (ESTRATTO) / OBJECTIVE EVIDENCE (EXTRACT)
+----------------------------------------------------------------------------
+- Manuale HACCP rev.4 del 15/01/2024; analisi pericoli con matrice PxG; albero
+  decisioni Codex applicato; 4 CCP definiti (setacciatura/magnete, PT-104,
+  MD-3200, surgelazione) + PRPo allergeni. VERIFICATO.
+- CCP2: limite critico ≥ 72,0 °C per ≥ 2 min, set point 74,0-76,0 °C; tracciati
+  datalogger PT-104 disponibili e conservati; MOD-QA-12 compilato ogni 60 min.
+  Campione verificato: 12-16/01/2026, 03-06/02/2026. VEDI NC n. 1.
+- CCP3: verifica tasselli Fe 2,0 / Non-Fe 2,5 / AISI 316 3,0 mm ogni 60 min su
+  MOD-QA-07 rev.5; certificati tasselli in corso di validità; verifica annuale
+  costruttore eseguita 11/2025. VEDI NC n. 1 (seconda firma) e OSSERVAZIONE n. 2.
+- CCP4: registrazioni T cuore ogni 2 h conformi nel campione (gen-feb 2026);
+  monitoraggio continuo CF-02 con allarme funzionante (test eseguito in audit).
+- Test rintracciabilità: conforme (99,4%, 2 h 50 min).
+- Sanificazione: IO-05, schede CIP-01, prodotti Chemifood; verifiche ATP a
+  campione conformi; piano tamponi con lab. Analytica Veneta (ACCREDIA 0987).
+- Reclami 2025: n. 41 totali, di cui 4 per corpo estraneo (chiusi). Trend
+  presentato in riesame direzione.
+
+----------------------------------------------------------------------------
+4. ELENCO NON CONFORMITA' / NON-CONFORMITY LIST
+----------------------------------------------------------------------------
+Tutte le NC sotto riportate sono classificate MINORI (minor).
+Termine di chiusura / Deadline: piano d'azione + evidenze entro 28 gg dalla
+riunione di chiusura, ossia entro il 18/03/2026.
+Per ciascuna NC è richiesta: correzione, analisi della causa radice (root cause
+analysis), azione correttiva, evidenza oggettiva.
+
+===========================================================================
+NC n. 1 (MINORE)
+Standard/clausola: BRCGS Issue 9 cl. 2.10.2 - IFS Food v8 cl. 2.3.9.2
+Requisito: le registrazioni dei controlli ai CCP devono essere verificate da
+  persona autorizzata diversa dall'esecutore, con firma di verifica.
+Evidenza oggettiva: le registrazioni manuali del monitoraggio CCP2 (MOD-QA-12)
+  e CCP3 (MOD-QA-07 rev.5) del periodo 12-16/01/2026 (Linea 1, turni 1 e 2)
+  risultano prive della verifica in seconda firma del capoturno entro fine
+  turno in 11 moduli su 20 esaminati. La verifica QA settimanale risulta
+  invece eseguita. Intervistato il capoturno, la prassi della seconda firma
+  non risulta sistematica.
+Root cause richiesta: SI - da trasmettere con il piano d'azione.
+Azione correttiva proposta dall'azienda (in sede di audit): richiamo formativo
+  dei capiturno, modifica del MOD con campo firma evidenziato, controllo
+  giornaliero QA per 3 mesi.
+Termine: 18/03/2026        Stato al rilascio del rapporto: APERTA
+===========================================================================
+NC n. 2 (MINORE)
+Standard/clausola: BRCGS Issue 9 cl. 4.7.5
+Requisito: attrezzature e ricambi utilizzati per la manutenzione devono essere
+  gestiti in modo da prevenire la contaminazione del prodotto; gli interventi
+  devono concludersi con verifica di integrità e rimozione di materiali.
+Evidenza oggettiva: presso la Linea 1, a bordo linea (lato confezionatrice
+  PKM-450), è custodito stabilmente un carrello di manutenzione contenente
+  ricambi (guarnizioni, o-ring, raccordi, min. viteria) e attrezzi manuali,
+  senza inventario, senza controllo di integrità e senza segregazione rispetto
+  all'area di produzione aperta. Il capo officina conferma che il carrello
+  staziona in area produttiva "per rapidità di intervento".
+Root cause richiesta: SI
+Azione correttiva proposta dall'azienda (in sede di audit): rimozione del
+  carrello dall'area produttiva, gestione ricambi da magazzino officina con
+  prelievo per singolo intervento e conta attrezzi su MOD-PR-04.
+Termine: 18/03/2026        Stato al rilascio del rapporto: APERTA
+===========================================================================
+OSSERVAZIONE n. 1 (MINORE)
+Standard/clausola: IFS Food v8 cl. 4.18.1 - BRCGS 9 cl. 3.9.2
+Requisito: identificazione dei semilavorati in tutte le fasi.
+Evidenza oggettiva: in cella CF-01 n. 3 carrelli di farcitura semilavorata
+  (crema base per AF-SN-0450) identificati con solo appunto manoscritto
+  "ven" senza lotto, data di produzione né scadenza interna. La procedura
+  interna prevede etichetta semilavorato completa.
+Root cause richiesta: SI
+Azione correttiva proposta: rietichettatura immediata (eseguita in audit),
+  etichette prestampate a bordo linea, formazione operatori.
+Termine: 18/03/2026        Stato: APERTA (correzione immediata eseguita)
+===========================================================================
+OSSERVAZIONE n. 2 (MINORE)
+Standard/clausola: BRCGS Issue 9 cl. 6.4.2
+Requisito: gli strumenti di misura utilizzati per il monitoraggio dei CCP
+  devono essere tarati con riferibilità a campioni riconosciuti.
+Evidenza oggettiva: n. 2 termometri a penetrazione in uso al QC (matricole
+  TP-08 e TP-11, utilizzati per verifiche T cuore L3) con taratura scaduta
+  il 30/11/2025; il piano prevede taratura semestrale. Il termometro TP-08
+  risulta comunque conforme alla verifica interna con termometro campione.
+Root cause richiesta: SI
+Azione correttiva proposta: invio immediato a centro LAT, revisione dello
+  scadenzario tarature con alert automatico.
+Termine: 18/03/2026        Stato: APERTA
+===========================================================================
+OSSERVAZIONE n. 3 (MINORE)
+Standard/clausola: BRCGS Issue 9 cl. 4.4.9
+Requisito: le aperture verso l'esterno devono prevenire l'ingresso di
+  infestanti.
+Evidenza oggettiva: nella zona officina/manutenzione la finestra lato est
+  presenta zanzariera lacerata (strappo di circa 15 cm) e non a tenuta sul
+  telaio. L'officina comunica con il corridoio di accesso all'area
+  produttiva Linea 1 tramite porta non mantenuta chiusa.
+Root cause richiesta: SI
+Azione correttiva proposta: sostituzione zanzariera, chiudiporta automatico,
+  inserimento controllo aperture nel giro ispettivo mensile PRP-08.
+Termine: 18/03/2026        Stato: APERTA
+===========================================================================
+OSSERVAZIONE n. 4 (MINORE)
+Standard/clausola: IFS Food v8 cl. 3.3.1 - BRCGS 9 cl. 7.1.2
+Requisito: formazione specifica per il personale che manipola allergeni, con
+  registrazione.
+Evidenza oggettiva: per n. 4 operatori assunti sulla Linea 2 tra ottobre 2025
+  e gennaio 2026 (personale in sostituzione per turnover) la formazione
+  specifica allergeni non risulta registrata su MOD-HR-11; risulta eseguito
+  il solo affiancamento generico. Gli operatori intervistati mostrano
+  conoscenza parziale della matrice allergeni.
+Root cause richiesta: SI
+Azione correttiva proposta: sessione formativa dedicata entro 15 gg con test
+  di apprendimento, revisione del processo di inserimento neoassunti.
+Termine: 18/03/2026        Stato: APERTA
+===========================================================================
+OSSERVAZIONE n. 5 (MINORE)
+Standard/clausola: BRCGS Issue 9 cl. 3.5.1.2 - IFS v8 cl. 4.4.5
+Requisito: monitoraggio continuativo delle prestazioni dei fornitori.
+Evidenza oggettiva: il vendor rating 2025 risulta compilato per i soli
+  fornitori di materie prime alimentari; mancano i fornitori di imballaggio
+  primario (F0044 Flexipack Nordest, F0031 Euroglass Boccacci) e il
+  laboratorio esterno (F0090). Inoltre per gli imballi primari la
+  rintracciabilità del lotto film in produzione è registrata solo a livello
+  di giorno e non di bobina.
+Root cause richiesta: SI
+Azione correttiva proposta: estensione vendor rating a tutti i fornitori
+  critici; registrazione n. bobina film su dossier di lotto.
+Termine: 18/03/2026        Stato: APERTA
+===========================================================================
+
+Riepilogo: n. 2 NC minori e 5 osservazioni, n. 0 NC maggiori, n. 0 NC critiche.
+BRCGS: grade AA confermato (announced). IFS: 97,32% - Higher Level.
+
+----------------------------------------------------------------------------
+5. OSSERVAZIONI (non conformità non attribuite / opportunità di miglioramento)
+----------------------------------------------------------------------------
+OSS-1  La rivalidazione dello studio di penetrazione termica CCP2 (prevista
+       2024 da piano interno) non risulta ancora formalizzata; la validazione
+       2021 resta tecnicamente applicabile non essendo intervenute modifiche
+       di prodotto/processo. Si raccomanda la formalizzazione.
+OSS-2  Alla sostituzione del tunnel TS-01 con il tunnel a spirale Criotech
+       CR-SP180 sarà necessario riesame HACCP e nuova mappatura (CCP4).
+OSS-3  L'archivio documentale cartaceo (ufficio QA) è di difficile
+       consultazione; l'azienda dichiara allo studio un progetto di
+       digitalizzazione.
+
+----------------------------------------------------------------------------
+6. CHIUSURA DELLE NC - REGISTRAZIONI DELL'ENTE (sezione compilata da CSQA)
+----------------------------------------------------------------------------
+
+18/03/2026 - Termine per l'invio di piano d'azione ed evidenze: NESSUNA
+RICEZIONE alla data indicata.
+
+20/03/2026 - Sollecito n. 1 inviato a mezzo PEC a aurorafoodgroup@pec.it,
+c.a. dott.ssa Marchetti E. (rif. prot. CSQA 26-1174). Nuovo termine
+perentorio: 01/04/2026.
+
+02/04/2026 - Ricevute a mezzo PEC (prot. in ingresso CSQA 26-1493) le
+evidenze di chiusura per le NC 1-7: piano d'azione firmato Fantin M./
+Marchetti E., root cause analysis per singola NC, MOD-QA-12 e MOD-QA-07
+rev.5 aggiornati con campo seconda firma, registro conta attrezzi su
+MOD-PR-04, foto rimozione carrello ricambi, certificati taratura TP-08/
+TP-11, MOD-HR-11 formazione allergeni del 27/02/2026 con test, vendor
+rating esteso, foto zanzariera sostituita.
+TRASMISSIONE PERVENUTA IN RITARDO rispetto al termine del 18/03/2026 e
+oltre il termine di sollecito del 01/04/2026 (un giorno).
+
+NOTA CSQA (Franceschini N., 03/04/2026): le evidenze trasmesse il 02/04/2026
+sono valutate ADEGUATE alla chiusura documentale delle NC minori nn. 1-7;
+l'efficacia sarà verificata in campo al prossimo audit. Si richiama
+l'attenzione dell'organizzazione sul rispetto dei termini di trasmissione:
+il ritardo è registrato a sistema e, in caso di reiterazione al prossimo
+ciclo, comporterà la segnalazione ai fini del grading BRCGS (riduzione a
+grade A) e la valutazione ai sensi del regolamento IFS Integrity Program.
+Stato NC nn. 1-7: CHIUSE DOCUMENTALMENTE il 03/04/2026 - verifica di
+efficacia rinviata all'audit di sorveglianza 02/2027.
+
+Il presente rapporto è di proprietà di CSQA Certificazioni S.r.l. e non può
+essere riprodotto parzialmente senza autorizzazione. Il certificato resta di
+proprietà dell'ente ed è soggetto alle condizioni contrattuali di rilascio.
+
+Rapporto emesso da: dott.ssa Nadia Franceschini (lead auditor)
+Riesaminato da: ufficio tecnico CSQA - schema Food
+Data emissione rapporto: 27/02/2026 - integrazione sez. 6: 03/04/2026
+
+
+--- non_conformita_interne_registro_2026.csv ---
+REGISTRO NON CONFORMITA' INTERNE - AURORA FOOD GROUP S.R.L. - ANNO 2026 - MOD-QA-18 rev.3 - agg. Pozzato S.
+N_NC;Data;Origine;Reparto;Descrizione;Prodotto_Lotto;Gravità;Causa_radice;Azione_correttiva;Responsabile;Data_chiusura;Stato;Costo_stimato_€
+NC-2026-001;07/01/2026;interna;Linea 1;Sottopeso rilevato su selezionatrice, 14 pezzi sotto tolleranza su AF-SN-0450;AF-SN-0450 L26007-L1-T1;bassa;dosatore starato dopo fermo natalizio;ritaratura dosatore, ricontrollo 100% inizio turno;Popescu I.;08/01/2026;CHIUSA;120,00
+NC-2026-002;08/01/2026;interna;Magazzino;Rotazione FEFO non rispettata su farina tipo 00, bancale con scadenza piu vicina dietro;F0012 farina 00;bassa;mappatura ubicazioni non aggiornata;riubicazione bancali, richiamo verbale addetto;Faggionato N.;12/01/2026;CHIUSA;
+NC-2026-003;09/01/2026;fornitore;Ricevimento merci;DDT Molino Veneto non riporta n. lotto farina W300, merce accettata con riserva;F0012;media;errore compilazione fornitore;richiesta DDT integrativo, sollecito a fornitore;Faggionato N.;15/01/2026;CHIUSA;N/D
+NC-2026-004;12/01/2026;interna;Linea 2;Cella lievitazione fuori range UR% per 40 min, croissant turno 1 con sviluppo irregolare;AF-CR-0212 L26012-L2-T1;media;sonda umidità sporca;pulizia sonda, inserita in piano tarature;Ben Salah A.;14/01/2026;CHIUSA;850,00
+NC-2026-005;2026-01-13;interna;Laboratorio;Tampone superficie impastatrice IMP-300 oltre limite CBT, ripetuto dopo sanificazione;;media;sanificazione weekend incompleta;rilavaggio secondo IO-05, tampone di verifica MOD-QA-19;Pozzato S.;16/01/2026;CHIUSA;90,00
+NC-2026-006;14/01/2026;interna;Linea 3;Tunnel TS-01 tempo di abbattimento 265 min, oltre limite CCP4 240 min su carico parziale;AF-CR-0215 L26014-L2-T2;alta;piastre TS-01 con brina, resa frigorifera degradata;sbrinamento straordinario, lotto trattenuto e ricontrollato T cuore;Guerra R.;16/01/2026;CHIUSA;1.450,00
+NC-2026-007;15-gen-26;interna;Manutenzione;Perdita olio idraulico sfogliatrice Linea 2, gocciolamento su pavimento non su prodotto;;media;guarnizione pistone usurata;sostituzione guarnizione, verifica assenza contaminazione;Dal Maso I.;15/01/2026;CHIUSA;310,00
+NC-2026-008;16/01/2026;reclamo;Qualità;Reclamo Alì S.p.A. per 3 confezioni AF-SN-0450 con saldatura film aperta;AF-SN-0450 L26007-L1-T2;media;temperatura barra saldante instabile;controllo tenuta a campione rinforzato, taratura PKM-450;Marchetti E.;22/01/2026;CHIUSA;240,00
+NC-2026-009;19/01/2026;interna;Linea 1;Verifica MD-3200 ora 16:00 non registrata su MOD-QA-07, tassello AISI 316 passato ma firma mancante;L26019-L1-T2;media;operaio nuovo non formato su frequenza oraria;formazione MOD-HR-11, ripasso checklist metal detector;Zanella D.;26/01/2026;CHIUSA;
+NC-2026-010;20/01/2026;interna;Spedizioni;Pedana AF-FC-0330 caricata su vettore sbagliato, resa a stabilimento dopo 6 h a +9 gradi;AF-FC-0330 L26019-L1-T1;alta;scambio documenti in baia di carico;lotto declassato e distrutto, doppia verifica targa/DDT;Faggionato N.;23/01/2026;CHIUSA;1.980,00
+NC-2026-011;21/01/2026;fornitore;Ricevimento merci;Burro Latteria Bassanese consegnato a +9,5 gradi al cuore, respinto;F0021;alta;vettore fornitore con frigo in avaria;reso totale, segnalazione in valutazione fornitori;Pozzato S.;21/01/2026;CHIUSA;0
+NC-2026-012;23/01/2026;interna;Linea 2;Impasto croissant turno notte con dosaggio burro errato, 180 kg fuori ricetta;AF-CR-0215 L26023-L2-T3;media;ricetta v. precedente ancora attiva su pannello IMP-300;sfrido, aggiornamento ricettario a pannello con blocco versioni;Ben Salah A.;27/01/2026;CHIUSA;620,00
+NC-2026-013;26/01/2026;interna;CIP;Concentrazione soda caustica CIP-01 sotto range in fase 2, lavaggio ripetuto;;bassa;fusto detergente Chemifood quasi vuoto, pescante scoperto;sostituzione fusto, spia livello richiesta a manutenzione;Dal Maso I.;28/01/2026;CHIUSA;180,00
+NC-2026-014;27/01/2026;interna;Linea 1;Etichette AF-SN-0450 con EAN parzialmente stampato su 2 cartoni, non leggibile a scanner;AF-SN-0450 L26026-L1-T1;bassa;testina stampante sporca;pulizia testina, ricontrollo leggibilita;Popescu I.;27/01/2026;CHIUSA;60,00
+NC-2026-015;28/01/2026;audit;Qualità;Audit interno: registro formazione MOD-HR-11 non aggiornato per 3 neoassunti Linea 2;;media;passaggio consegne HR incompleto;aggiornamento registro, pianificate sessioni HACCP;Sartori F.;20/02/2026;CHIUSA;
+NC-2026-016;29/01/2026;interna;Magazzino;Scarico lotto su MOD-MAG-02 con quantita errata, giacenza contabile non torna con fisico;AF-CR-0212;bassa;errore trascrizione manuale;rettifica inventariale, controllo incrociato settimanale;Faggionato N.;05/02/2026;CHIUSA;N/D
+NC-2026-017;30/01/2026;interna;Linea 3;Sonda T cella CF-02 segnala -12,4 per 25 min poi rientra, datalogger ok, allarme tardivo;;alta;sbrinamento evaporatore programmato in orario di carico;spostato ciclo sbrinamento su fascia notturna;Guerra R.;03/02/2026;CHIUSA;0
+NC-2026-018,02/02/2026,interna,Linea 1,Fermo forno FT-01 per 55 min, bruciatore in blocco, prodotto in transito declassato, chiamato tecnico TecnoForni, Rossato arrivato ore 11:40,AF-FC-0330 L26033-L1-T1,media,pressostato gas in avaria,sostituzione pressostato, verifica combustione,Dal Maso I.,04/02/2026,CHIUSA,1.150,00
+NC-2026-019;03/02/26;reclamo;Qualità;Reclamo consumatore via numero verde: croissant con gusto "vecchio", lotto non fornito dal chiamante;AF-CR-0212;bassa;non determinabile, campione non reso;risposta cortesia, verifica shelf life di riferimento;Marchetti E.;10/02/2026;CHIUSA;35,00
+NC-2026-020;04/02/2026;interna;Linea 2;Sfogliatrice: nastro con giunzione danneggiata, rischio frammenti, fermata preventiva;;alta;usura giunzione oltre soglia;sostituzione nastro, ispezione integrita registrata;Dal Maso I.;05/02/2026;CHIUSA;780,00
+NC-2026-021;05/02/2026;interna;Laboratorio;Ritardo invio campioni shelf life ad Analytica Veneta, finestra analitica T0 persa su un lotto;AF-SN-0455 L26033-L1-T2;bassa;corriere non prenotato;riprogrammazione piano campionamento;Pozzato S.;09/02/2026;CHIUSA;150,00
+NC-2026-022;09/02/2026;interna;Linea 1;CCP3: tassello Fe 2,0 mm non rilevato in verifica ore 10:00, linea fermata, ritest ok dopo reset;L26040-L1-T1;critica;deriva sensibilita MD-3200 dopo sbalzo tensione;ricontrollo retroattivo prodotto dall'ultima verifica conforme, intervento Loma;Marchetti E.;13/02/2026;CHIUSA;2.300,00
+NC-2026-023;10/02/2026;fornitore;Ricevimento merci;Film MAP Flexipack con bobina fuori specifica spessore, micro-fori in saldatura;F0044;media;lotto film non conforme;reso bobine, richiesta DoC 1935/2004 aggiornata;Zanella D.;18/02/2026;CHIUSA;540,00
+NC-2026-024;11/02/2026;interna;Linea 2;Operaio senza copricapo corretto ripreso in area sfoglia da RSGQ durante giro igiene;;bassa;mancata vigilanza capoturno;richiamo, ripasso regole GMP a inizio turno;Ben Salah A.;11/02/2026;CHIUSA;
+NC-2026-025;12/02/2026;interna;Linea 3;Confezioni AF-CR-0215 con brina interna anomala su 2 cartoni a campione;AF-CR-0215 L26040-L2-T2;media;sbalzo termico in trasferimento a CF-02;riduzione tempo sosta in anticella;Guerra R.;19/02/2026;CHIUSA;210,00
+NC-2026-026;13/02/2026;interna;Amministrazione;Fattura F0018 Oleificio Adriatico registrata con prezzo listino vecchio (differenza +11%);F0018;bassa;listino 2026 non caricato a gestionale;nota credito richiesta, listino aggiornato (v. Trentin);Trentin L.;27/02/2026;CHIUSA;#RIF!
+NC-2026-027;16/02/2026;interna;Linea 1;Registro MOD-QA-12 turno 3 compilato in blocco a fine turno anziche a frequenza prevista;L26047-L1-T3;media;prassi scorretta consolidata turno notte;richiamo formale, sensibilizzazione registrazioni in tempo reale;Marchetti E.;;APERTA;
+NC-2026-028;17/02/2026;audit;Qualità;AUDIT CSQA NC minore 1: registrazioni manuali CCP2/CCP3 prive di verifica in seconda firma entro fine turno (rif. BRCGS 9 cl. 2.10.2 / IFS 5.1.2);;alta;procedura non prevede doppia firma a fine turno;revisione MOD-QA-12 e MOD-QA-07 con campo seconda firma, formazione capiturno, evidenze a CSQA entro 28 gg;Marchetti E.;02/04/2026;CHIUSA;400,00
+NC-2026-029;17/02/2026;audit;Manutenzione;AUDIT CSQA NC minore 2: ricambi e attrezzi di manutenzione custoditi in area produttiva senza controllo integrita (BRCGS cl. 4.7.5);;alta;carrello ricambi tenuto a bordo linea per comodita interventi;rimozione carrello da area produttiva, armadio chiuso in officina, inventario attrezzi in/out;Dal Maso I.;02/04/2026;CHIUSA;650,00
+NC-2026-030;18/02/2026;audit;Qualità;Audit CSQA raccomandazione: migliorare tracciabilita rework in scheda allergeni;;bassa;;aggiornamento matrice cross contamination previsto Q2;Marchetti E.;;IN CORSO;
+NC-2026-031;19/02/2026;interna;Linea 2;Turno domenicale: assenza non programmata di 2 operai, ordine Tosano completato con 3 h straordinario extra;AF-CR-0215 L26050-L2-T1;media;copertura organico insufficiente su festivi;segnalato a HR, v. anche contestazione RSU;Zanella D.;;APERTA;960,00
+NC-2026-032;20/02/2026;fornitore;Ricevimento merci;Vasetti Euroglass con 12 pezzi scheggiati su bancale, bancale segregato;F0031;alta;danno da trasporto;reso parziale, foto a fornitore, controllo 100% bancali vetro in ingresso;Faggionato N.;26/02/2026;CHIUSA;380,00
+NC-2026-033;23/02/2026;interna;Linea 1;PT-104: set point corretto ma registratore carta esaurita, 2 h senza traccia cartacea (datalogger ok);L26054-L1-T2;media;scorta rotoli carta esaurita;scorta minima a bordo macchina, controllo inizio turno;Popescu I.;25/02/2026;CHIUSA;45,00
+NC-2026-034;24/02/2026;interna;Laboratorio;Positivita Listeria spp. su tampone ambientale zona scarico Linea 3 (canalina), prodotto non coinvolto;;critica;ristagno acqua in canalina;sanificazione straordinaria, ritampone a 48 h negativo, aumento frequenza MOD-QA-19;Pozzato S.;28/02/2026;CHIUSA;720,00
+NC-2026-035;25/02/2026;interna;Magazzino;Bancale AF-SN-0455 promo 3+1 con cartoni ammaccati da transpallet;AF-SN-0455 L26054-L1-T1;bassa;manovra errata in corsia stretta;ricondizionamento, richiamo carrellista;Faggionato N.;25/02/2026;CHIUSA;140,00
+NC-2026-036;26/02/2026;reclamo;Qualità;Segnalazione Famila: sfogliatina bio con etichetta bio parzialmente coperta da bollino promo;AF-CR-0220 L26054-L2-T1;bassa;posizionamento bollino manuale impreciso;istruzione posizionamento, verifica a campione;Marchetti E.;05/03/2026;CHIUSA;90,00
+NC-2026-037;27/02/2026;interna;Linea 3;MD-1800 verifica ore 22:00 saltata per cambio turno, recuperata ore 22:35;L26058-L3-T3;media;sovrapposizione consegne turno;procedura passaggio consegne con firma;Guerra R.;06/03/2026;CHIUSA;
+NC-2026-038;02/03/2026;interna;Linea 1;Azoto in linea PKM-450: valore O2 residuo in confezione 2,8% oltre target 2,0% su controllo a campione;AF-SN-0450 L26061-L1-T1;media;taratura miscelatore gas;ritaratura, controllo O2 ogni 2 h per una settimana;Zanella D.;09/03/2026;CHIUSA;330,00
+NC-2026-039;03/03/2026;interna;CIP;IO-05 non seguita in fase risciacquo finale, conducibilita fuori soglia al primo test;;media;operatore nuovo turno notte;affiancamento, ripetizione lavaggio;Dal Maso I.;04/03/2026;CHIUSA;160,00
+NC-2026-040;2026-03-04;fornitore;Ricevimento merci;Lievito Lievital consegnato con shelf life residua 40% sotto accordo 60%;F0029;bassa;errore picking fornitore;accettazione in deroga con consumo prioritario;Pozzato S.;04/03/2026;CHIUSA;0
+NC-2026-041;05/03/2026;interna;Linea 2;Ordine straordinario Tosano promo: cambio formato non pianificato, 40 min fermo per attrezzaggio;AF-CR-0215;bassa;pianificazione ordini promo tardiva;riunione settimanale produzione-commerciale;Zanella D.;12/03/2026;CHIUSA;480,00
+NC-2026-042;06/03/2026;interna;Spedizioni;Ritardo consegna CE.DI. Tosano Cerea: slot ore 7:30 mancato, camion arrivato 10:52, carico respinto e riprenotato;AF-CR-0215 L26061-L2-T2;alta;vettore Trasporti Frigo Veneto partito in ritardo + coda tangenziale;contestazione a vettore, v. pratica logistica, penale Tosano in valutazione;Faggionato N.;;APERTA;1.750,00
+NC-2026-043;09/03/2026;interna;Linea 1;Focaccina AF-FC-0330 con colore fondo disomogeneo turno 1, 6 teglie declassate;AF-FC-0330 L26068-L1-T1;bassa;zona forno FT-01 con resistenza degradata;segnalato a manutenzione, taratura profilo cottura;Popescu I.;13/03/2026;CHIUSA;270,00
+NC-2026-044;10/03/2026;interna;Qualità;Esercitazione annuale di rintracciabilita: completata in 3 h 50 min, entro il limite di 4 h della PRO-QA-14 ma vicino alla soglia;AF-SN-0450 L26068-L1-T2;media;estrazione dati spedizioni manuale da piu fogli Excel;azione: valutare modulo tracciabilita ERP (v. progetto CSB/SAP);Marchetti E.;;IN CORSO;
+NC-2026-045;11/03/2026;interna;Linea 3;Interruzione elettrica 18 min, TS-01 in ripartenza lenta, monitoraggio T cuore straordinario;L26070-L3-T2;media;microinterruzione rete Veneta Energia;verifica gruppo continuita solo su datalogger, ok;Guerra R.;13/03/2026;CHIUSA;390,00
+NC-2026-046;12/03/2026;interna;Amministrazione;Scadenzario RIBA: insoluto tecnico su incasso grossista Ho.Re.Ca., ripresentato;;bassa;coordinate variate non comunicate;anagrafica aggiornata;Trentin L.;19/03/2026;CHIUSA;25,00
+NC-2026-047;13/03/2026;reclamo;Qualità;Reclamo Rossetto Trade: 1 cartone AF-FC-0330 con data TMC stampata poco leggibile;AF-FC-0330 L26068-L1-T2;bassa;ugello inkjet parzialmente ostruito;pulizia programmata inkjet a ogni cambio lotto;Marchetti E.;20/03/2026;CHIUSA;70,00
+NC-2026-048;16/03/2026;interna;Linea 2;Straordinari oltre soglia: superamento 250 h/anno proiettato per 6 operai Linea 2, segnalazione HR;;alta;3 domeniche consecutive promo Sottocosto Primavera Tosano;piano ferie/riposi compensativi, v. contestazione RSU, valutare interinali;Sartori F.;;APERTA;N/D
+NC-2026-049;17/03/2026;interna;Linea 1;Evidenze chiusura NC audit CSQA non ancora inviate, scadenza 28 gg al 17/03 SUPERATA;;alta;carico lavoro RSGQ, raccolta firme capiturno incompleta;sollecito interno, invio evidenze poi effettuato 02/04 con scuse a CSQA;Marchetti E.;02/04/2026;CHIUSA;
+NC-2026-050;18/03/2026;interna;Magazzino;Inventario CF-02: 14 cartoni AF-CR-0212 non trovati in ubicazione dichiarata;AF-CR-0212 L26054-L2-T1;media;ubicazione manuale non aggiornata dopo spostamento;ritrovati in fila 7, rettifica MOD-MAG-02;Faggionato N.;18/03/2026;CHIUSA;0
+N_NC;Data;Origine;Reparto;Descrizione;Prodotto_Lotto;Gravità;Causa_radice;Azione_correttiva;Responsabile;Data_chiusura;Stato;Costo_stimato_€
+NC-2026-051;19/03/2026;interna;Linea 2;Cornetto PL Tosano: peso medio confezione 8x45 al limite inferiore, aggiustato dosaggio;AF-CR-0215 L26075-L2-T2;bassa;deriva dosatrice;taratura, controllo peso rinforzato;Ben Salah A.;20/03/2026;CHIUSA;110,00
+NC-2026-052;20/03/2026;fornitore;Ricevimento merci;Zucchero F0025 con sacco lacerato su bancale, sacco segregato e reso;F0025;bassa;danno da movimentazione;reso 1 sacco, nota a fornitore;Pozzato S.;20/03/2026;CHIUSA;18,00
+NC-2026-053;23/03/2026;interna;Linea 3;Guanto in nitrile trovato in cassone sfrido a fine turno, conteggio guanti non torna;L26082-L3-T2;alta;mancata registrazione consegna DPI;verifica prodotto confezionato ok (MD passato), conteggio DPI a inizio/fine turno;Guerra R.;27/03/2026;CHIUSA;340,00
+NC-2026-054;24/03/2026;interna;Linea 1;Verifica MD-3200 con esito registrato ma tassello non-Fe 2,5 usato al posto del previsto in sequenza;L26083-L1-T1;media;confusione tasselli in astuccio unico;astucci separati ed etichettati per tipologia;Popescu I.;31/03/2026;CHIUSA;55,00
+NC-2026-055;25/03/2026;interna;R&D;Prototipo AF-SN-0470 v12: sesamo lavorato in saletta pilota senza segregazione completa utensili;AF-SN-0470 proto v12;alta;procedura allergeni non estesa a saletta R&D;utensili dedicati sesamo, aggiornamento PRPo1 e matrice allergeni;Zanchetta A.;10/04/2026;CHIUSA;220,00
+NC-2026-056;26/03/2026;interna;Linea 2;4a dimissione in 5 mesi su Linea 2 (motivo: turni domenicali), copertura turni critica;;alta;carico festivo continuativo promo Tosano;v. NC-2026-048, ricerca 2 nuovi addetti, colloqui in corso;Sartori F.;;APERTA;
+NC-2026-057;27/03/2026;interna;Spedizioni;Documenti di trasporto: 2 DDT con lotto trascritto a mano diverso dal lotto caricato;AF-SN-0450 L26082-L1-T1;media;trascrizione manuale in baia;controllo incrociato etichetta pallet/DDT prima della partenza;Faggionato N.;03/04/2026;CHIUSA;
+NC-2026-058;30/03/2026;interna;Linea 1;Fermo PKM-450 25 min per bobina film inceppata, sfrido film 2 bobine parziali;L26089-L1-T2;bassa;giunzione bobina difettosa;segnalazione a Flexipack, controllo giunzioni in ingresso;Zanella D.;30/03/2026;CHIUSA;260,00
+NC-2026-059;31/03/2026;interna;Laboratorio;Taratura termometro campione scaduta il 15/03, rilevata al riordino strumenti;;media;scadenzario tarature non consultato;taratura eseguita presso centro LAT, alert scadenzario;Pozzato S.;08/04/2026;CHIUSA;185,00
+NC-2026-060;01/04/2026;interna;Linea 3;Infortunio lieve: schiacciamento dito operaio durante movimentazione stampi, 12 gg prognosi, denuncia INAIL;;alta;presa non corretta, stampi senza maniglia;v. pratica RSPP Bonato, valutazione ausili di presa, riunione sicurezza;Fantin M.;;IN CORSO;3.200,00
+NC-2026-061;02/04/2026;interna;Qualità;Invio a CSQA evidenze chiusura NC audit con 16 gg di ritardo sulla scadenza;;media;v. NC-2026-049;accettate da CSQA con nota, richiamo a pianificazione scadenze enti;Marchetti E.;09/04/2026;CHIUSA;
+NC-2026-062;03/04/2026;fornitore;Ricevimento merci;Bombole CO2 Nordgas: 1 bombola con cappellotto mancante, respinta;F0061;media;controllo pre-consegna fornitore carente;sostituzione bombola, nota a Nordgas;Faggionato N.;07/04/2026;CHIUSA;0
+NC-2026-063;06/04/2026;interna;Linea 2;Domenica promo: pulizia di fine turno abbreviata per consegna lunedi ore 6, tampone lunedi conforme ma fuori prassi;L26096-L2-T1;media;pressione tempi ordini straordinari Tosano;ribadita inderogabilita sanificazione completa, rimodulato orario carico;Ben Salah A.;10/04/2026;CHIUSA;
+NC-2026-064;07/04/2026;interna;Linea 1;Snack promo 3+1: fascetta promozionale storta su circa 300 confezioni, ricondizionate;AF-SN-0455 L26096-L1-T2;bassa;applicatore fascette non registrato;registrazione applicatore;Popescu I.;08/04/2026;CHIUSA;190,00
+NC-2026-065,08/04/2026,reclamo,Qualità,Reclamo consumatore Verona, acquisto presso Tosano, cornetto con farcitura scarsa, richiesta rimborso, gestito con buono omaggio,AF-CR-0212 L26089-L2-T1,bassa,dosatrice farcitura a inizio rampa,verifica dosaggio inizio produzione,Marchetti E.,15/04/2026,CHIUSA,40,00
+NC-2026-066;09/04/2026;interna;Magazzino;Scorta film MAP sotto punto di riordino senza ordine emesso;F0044;bassa;richiesta d'acquisto ferma in approvazione;sblocco RdA, soglia riordino automatica a gestionale;Trentin L.;14/04/2026;CHIUSA;
+NC-2026-067;10/04/2026;interna;Linea 3;TS-01 allarme sbrinamento ricorrente, 3 eventi in settimana, capacita ridotta;;alta;obsolescenza impianto (v. sostituzione Criotech CR-SP180);manutenzione tampone, pianificazione installazione nuovo tunnel;Dal Maso I.;;IN CORSO;2.600,00
+NC-2026-068;13/04/2026;interna;Linea 1;CCP2: registrazione MOD-QA-12 ore 18:00 mancante, datalogger conforme, seconda firma assente;L26103-L1-T2;media;nuova prassi doppia firma non ancora assimilata;richiamo capiturno, monitoraggio settimanale RSGQ;Marchetti E.;24/04/2026;CHIUSA;
+NC-2026-069;14/04/2026;fornitore;Ricevimento merci;Farina W300 Molino Veneto: alveogramma fuori specifica (W 265 vs min 280) su un lotto;F0012;media;lotto fornitore non conforme;reso, richiesta certificato analisi lotto sostitutivo;Pozzato S.;21/04/2026;CHIUSA;450,00
+NC-2026-070;15/04/2026;interna;Linea 2;Assenza improvvisa capoturno, turno coperto da Zanella, registrazioni igiene in ritardo;L26105-L2-T1;bassa;organico corto (v. dimissioni);matrice polivalenze aggiornata;Zanella D.;17/04/2026;CHIUSA;
+NC-2026-071;16/04/2026;interna;CIP;Consumo acido nitrico anomalo +18% sul mese, sospetta perdita su linea dosaggio;;media;raccordo dosatore trafilante;sostituzione raccordo, lettura contatori settimanale;Dal Maso I.;22/04/2026;CHIUSA;290,00
+NC-2026-072;17/04/2026;interna;Spedizioni;Slot Cerea ore 7:00 mancato per seconda volta nel trimestre, arrivo 8:40, scarico accettato con riserva;AF-CR-0215 L26105-L2-T2;media;partenza ritardata carico notturno;v. NC-2026-042, anticipata chiusura carico a ore 5:30;Faggionato N.;28/04/2026;CHIUSA;600,00
+NC-2026-073;20/04/2026;interna;Linea 1;Micro-fermate ripetute PKM-450 (7 in un turno), vibrazione anomala zona gruppo saldante;L26110-L1-T1;media;usura componenti gruppo saldante;ordine ricambi Pakmatic, intervento programmato;Dal Maso I.;;IN CORSO;820,00
+NC-2026-074;21/04/2026;interna;Laboratorio;Campioni panel test cornetto premium conservati fuori range prima dell'assaggio;AF-CR-0212;bassa;frigo saletta panel scollegato per lavori;ripetizione sessione panel;Zanchetta A.;24/04/2026;CHIUSA;130,00
+NC-2026-075;22/04/2026;reclamo;Qualità;Segnalazione Anna Perbellini (Tosano QA): 2 pallet con etichetta logistica SSCC non scansionabile al CE.DI.;AF-SN-0450 L26110-L1-T2;media;stampante etichette pallet con nastro esaurito a meta stampa;ristampa e ricontrollo scansione 100% prima del carico;Faggionato N.;29/04/2026;CHIUSA;220,00
+NC-2026-076;23/04/2026;interna;Linea 2;Ordine promo settimana 19: pianificate 3 domeniche consecutive, capienza straordinari esaurita per 4 operai;;alta;volumi promo oltre capacita Linea 2;v. NC-2026-048, richiesta a Fantin di rivedere accettazione volumi;Zanella D.;;APERTA;
+NC-2026-077;24/04/2026;interna;Linea 3;Cartoni AF-CR-0215 con punto di colla debole, 1 cartone aperto in movimentazione;AF-CR-0215 L26113-L2-T1;bassa;colla fredda sotto temperatura di esercizio;preriscaldo colla, controllo primo cartone;Guerra R.;27/04/2026;CHIUSA;85,00
+NC-2026-078;27/04/2026;interna;Magazzino;FEFO non rispettato su film MAP: bobine nuove usate prima delle vecchie;F0044;bassa;bancali sovrapposti in area MOCA;riorganizzazione area, etichetta data ingresso in evidenza;Faggionato N.;30/04/2026;CHIUSA;
+NC-2026-079;28/04/2026;interna;Linea 1;Test tenuta MAP a campione: 1 confezione su 30 con perdita lenta, lotto ricontrollato al 10%;AF-SN-0450 L26117-L1-T2;media;pressione barra saldante irregolare (v. NC-2026-073);intervento su gruppo saldante anticipato;Zanella D.;05/05/2026;CHIUSA;410,00
+NC-2026-080;29/04/2026;interna;Amministrazione;Tensione di cassa: acconto Criotech 30% (87.000) in scadenza maggio con incasso Tosano marzo atteso 10/06, attivato anticipo fatture;;alta;sfasamento incassi RIBA 90 gg vs uscite CapEx;v. Trentin/Bertoldi, utilizzo linea anticipo fatture UniCredit;Trentin L.;;APERTA;N/D
+NC-2026-081;30/04/2026;interna;Linea 2;Registro formazione: 5 attestati HACCP in scadenza aprile non rinnovati;;media;calendario corsi slittato per turni promo;sessione recupero pianificata 21/05 (v. MOD-HR-11);Sartori F.;;APERTA;750,00
+NC-2026-082;04/05/2026;interna;Linea 1;Controllo O2 residuo confezioni: 2,4% su target 2,0% a inizio turno, ritarato in 20 min;AF-SN-0450 L26124-L1-T1;bassa;deriva flussimetro azoto;ritaratura, annotazione su registro macchina;Popescu I.;04/05/2026;CHIUSA;60,00
+TOTALE COSTI GEN-APR (parziale, v. foglio riepilogo);;;;;;;;;;;;24.815,00
+NC-2026-083;05/05/2026;interna;Direzione;Richiesta buyer Tosano (Rossi M.): -4,5% listino 2026/27 + listing fee 12.000 su AF-SN-0455, margine AF-CR-0215 proiettato sotto zero;AF-CR-0215 / AF-SN-0455;alta;pressione negoziale canale GDO;analisi margini in corso, v. verbale incontro 05/05, decisione entro giugno;Bertoldi S.;;APERTA;12.000,00
+NC-2026-084;06/05/2026;fornitore;Ricevimento merci;Consegna Nordgas azoto/CO2: DDT con codice serbatoio corretto ma certificato analisi consegnato solo in copia sbiadita;F0061;bassa;copia da fascicolo vettore;richiesto originale via PEC, ricevuto 08/05;Faggionato N.;08/05/2026;CHIUSA;
+NC-2026-085;07/05/2026;interna;Linea 3;MD-1800: falso scarto ripetuto su 11 confezioni, ricontrollate ok;AF-CR-0215 L26127-L2-T2;bassa;prodotto molto freddo, effetto prodotto non compensato;compensazione effetto prodotto aggiornata;Guerra R.;07/05/2026;CHIUSA;95,00
+NC-2026-086;08/05/2026;interna;Manutenzione;Segnalazione Dal Maso: valvola iniezione azoto PKM-450 trafila, ricambio originale Pakmatic in arrivo 15/05, si decide di proseguire la produzione con monitoraggio;;alta;usura valvola oltre vita utile;ordine ricambio urgente F0077, controllo O2 residuo ogni ora fino a sostituzione;Dal Maso I.;;APERTA;1.100,00
+NC-2026-087;08/05/2026;interna;Linea 2;Turno domenicale 10/05 confermato per promo settimana 20 nonostante organico corto;;media;ordini straordinari Tosano settimane 19-21;v. NC-2026-076;Zanella D.;;APERTA;
+NC-2026-088;10/05/2026;interna;Linea 1;DEVIAZIONE CCP2: PT-104 sotto 72,0 gradi dalle 14:18 alle 14:47 (minimo 68,9) da datalogger, turno 2. Sul cartaceo MOD-QA-12 risulta "74,5 conforme": discrepanza carta/datalogger in accertamento;AF-SN-0450 L26130-L1-T2;critica;in accertamento: calo vapore PT-104 + registrazione cartacea non veritiera, seconda firma assente;lotto L26130-L1-T2 BLOCCATO, riesame datalogger, colloquio con operatore turno 2, v. NC-2026-092;Marchetti E.;;APERTA;N/D
+NC-2026-089;10/05/2026;interna;Linea 1;Rottura valvola azoto PKM-450 ore 15:05, fermo macchina 3 h 40 min. Riparazione d'emergenza con guarnizione non originale (azzurra) prelevata dal carrello ricambi a bordo linea. Su MOD-PR-04 annotato solo "sostituita guarnizione, ripartiti";AF-SN-0450 L26130-L1-T2;critica;mancata sostituzione preventiva valvola (v. NC-2026-086), ricambio non originale, carrello ricambi ancora in area produttiva nonostante chiusura NC audit;sostituzione con ricambio originale al 15/05, verifica integrita guarnizione provvisoria, richiamo procedura MOD-PR-04;Dal Maso I.;;APERTA;4.900,00
+NC-2026-090;11/05/2026;interna;Qualità;Verifica straordinaria lotto L26130: riprocesso non effettuato, prodotto gia confezionato e in parte spedito prima dell'analisi datalogger;AF-SN-0450 L26130-L1-T2;critica;lettura datalogger PT-104 solo a fine settimana, non a fine turno;lettura datalogger giornaliera obbligatoria, blocco spedizioni residuo lotto;Marchetti E.;;APERTA;
+NC-2026-091;12/05/2026;reclamo;Qualità;RECLAMO da form sito web: sig.ra M.G. (Bussolengo VR) segnala frammento di plastica dura azzurra in snack AF-SN-0450 lotto L26130 acquistato presso Tosano Bussolengo. Aperta gestione MOD-QA-31, richiesto campione e foto;AF-SN-0450 L26130-L1-T2;critica;presunta origine: guarnizione azzurra non originale PKM-450 (v. NC-2026-089), materiale non metallico non rilevabile da MD-3200;raccolta campione, blocco lotti L26130 e L26131, informativa a Tosano QA (Perbellini), valutazione ritiro cautelativo;Marchetti E.;;APERTA;N/D
+NC-2026-092;12/05/2026;interna;Qualità;Blocco cautelativo lotti L26130 e L26131 tutte le referenze Linea 1 coinvolte, circa 8.400 confezioni di cui 5.100 gia a scaffale;AF-SN-0450 L26130 / L26131;critica;v. NC-2026-088 NC-2026-089 NC-2026-091;segregazione magazzino, conteggio giacenze, procedura ritiro CRISI GDO in pre-allerta, stima costo ritiro 31.500;Fantin M.;;APERTA;31.500,00
+NC-2026-093;13/05/2026;interna;Magazzino;Segregazione L26130/L26131: 3 pallet gia in baia carico per Ali, richiamati prima della partenza;AF-SN-0450 L26130-L1-T2;alta;flusso blocco lotti non immediato su MOD-MAG-02;etichette BLOCCATO rosse su tutti i pallet, blocco anche a gestionale;Faggionato N.;13/05/2026;CHIUSA;280,00
+NC-2026-094;14/05/2026;reclamo;Qualità;Tosano QA (dott.ssa Perbellini) chiede relazione scritta entro 48 h su reclamo corpo estraneo lotto L26130, in valutazione ritiro cautelativo da punti vendita;AF-SN-0450 L26130;critica;v. NC-2026-091;relazione in preparazione (Marchetti/Fantin), riunione con Bertoldi G. 15/05 ore 8:00;Marchetti E.;;APERTA;
+NC-2026-095;14/05/2026;interna;Laboratorio;Analisi frammento reclamo: materiale plastico rigido azzurro ~9 mm, compatibile visivamente con guarnizione provvisoria PKM-450, inviato ad Analytica Veneta per conferma FTIR;AF-SN-0450 L26130;critica;v. NC-2026-089;esito FTIR atteso entro 20/05, conservazione controcampione;Pozzato S.;;APERTA;350,00
+NC-2026-096;14-mag-26;interna;Linea 1;Ricontrollo confezioni L26130 residue in magazzino: trovati altri 2 frammenti azzurri in 1.240 confezioni ispezionate;AF-SN-0450 L26130-L1-T2;critica;v. NC-2026-089;ispezione estesa al 100% del residuo, conteggio frammenti vs guarnizione ricostruita;Zanella D.;;APERTA;1.900,00
+NC-2026-097;15/05/2026;interna;Manutenzione;Sostituzione valvola azoto PKM-450 con ricambio originale Pakmatic, guarnizione provvisoria rimossa e ricostruita a banco: mancano circa 2 cm2 di materiale;;critica;v. NC-2026-089;fotografia e verbale ricostruzione, materiale mancante compatibile con frammenti trovati, relazione a QA;Dal Maso I.;15/05/2026;CHIUSA;760,00
+NC-2026-098;15/05/2026;interna;Direzione;Riunione di crisi: decisione su ritiro cautelativo L26130/L26131 rinviata in attesa esito FTIR e conteggio frammenti, posizione Tosano da gestire entro 48 h;;critica;v. NC-2026-092 NC-2026-094;bozza comunicazione a Tosano, pre-allerta procedura ritiro, valutazione assicurazione RC prodotto;Fantin M.;;APERTA;
+NC-2026-099;18/05/2026;interna;Qualità;Audit interno straordinario su gestione ricambi e doppia firma CCP: entrambe le NC audit CSQA risultano di fatto riaperte dagli eventi del 10/05;;alta;efficacia azioni correttive di febbraio non verificata sul campo;verifica efficacia con checklist settimanale per 8 settimane, riesame direzione straordinario proposto;Marchetti E.;;APERTA;
+NC-2026-100;19/05/2026;interna;Spedizioni;Camion reso lotti bloccati da CE.DI. Cerea: 2 pallet L26131 rientrati con cartoni bagnati, non riutilizzabili nemmeno per ispezione;AF-SN-0450 L26131;media;telo camion vettore danneggiato;conteggio a parte, addebito a vettore in valutazione;Faggionato N.;;APERTA;540,00
+NC-2026-101;19/05/2026;interna;Linea 2;Tampone proteina latte su sfogliatrice dopo cambio produzione bio: esito positivo al primo test, rilavaggio e ritest negativo;AF-CR-0220 L26139-L2-T1;alta;lavaggio intermedio abbreviato per recupero tempi promo;ribadita sequenza allergeni da matrice, ritest obbligatorio prima di avvio bio;Ben Salah A.;22/05/2026;CHIUSA;310,00
+NC-2026-102;20/05/2026;interna;Laboratorio;Esito FTIR Analytica Veneta: frammento compatibile con elastomero guarnizione non originale, incompatibile con film MAP e con MOCA di linea;AF-SN-0450 L26130;critica;conferma origine interna (v. NC-2026-089);trasmissione esito a Tosano QA, aggiornamento relazione, decisione ritiro attesa da direzione;Marchetti E.;;APERTA;
+NC-2026-103;21/05/2026;interna;HR;Sessione recupero formazione HACCP erogata, 2 assenti su 9 per turni;;bassa;v. NC-2026-081;sessione integrativa 04/06;Sartori F.;;IN CORSO;
+NC-2026-104;22/05/2026;interna;Magazzino;Conteggio finale giacenze bloccate: 3.290 confezioni in stabilimento, 5.100 stimate a scaffale, riconciliazione con venduto Tosano in corso;AF-SN-0450 L26130 / L26131;alta;v. NC-2026-092;riconciliazione con dati sell-in Tosano, report a direzione;Faggionato N.;;APERTA;
+NC-2026-105;25/05/2026;fornitore;Qualità;Contestazione a Pakmatic: ricambio originale ordinato 08/05 consegnato 15/05 oltre termine urgenza concordato;F0077;media;disponibilita ricambio a magazzino fornitore;richiesta scorta ricambi critici in conto deposito;Dal Maso I.;;APERTA;
+NC-2026-106;26/05/2026;interna;Linea 1;Verifica efficacia doppia firma: su 21 registrazioni MOD-QA-12 settimana 21, 19 con seconda firma, 2 senza;L26146-L1-T1;media;assimilazione prassi ancora parziale;prosegue monitoraggio 8 settimane, richiamo individuale;Marchetti E.;;IN CORSO;
+NC-2026-107;27/05/2026;interna;Direzione;Preavviso ispezione ATS/ULSS 9 del 09/06 su requisiti strutturali Reg. CE 852/2004 All. II: sopralluogo interno evidenzia 4 punti critici (pavimento zona forni, zanzariere, spogliatoio L3, intonaco cella CF-01);;alta;manutenzione strutturale rinviata per priorita di cassa;piano interventi urgenti pre-ispezione, preventivi entro 30/05;Fantin M.;;APERTA;8.500,00
+NC-2026-108;28/05/2026;interna;Amministrazione;Costo evento L26130: prima stima complessiva (blocco+ispezioni+FTIR+eventuale ritiro) oltre 40.000, riserva a bilancio da definire;;alta;v. NC-2026-092;quantificazione con Trentin, informativa a Bellotto per trattamento contabile;Trentin L.;;APERTA;40.000,00
+NC-2026-109;28/05/2026;interna;Linea 3;TS-01 fermo 2 h per allarme compressore, produzione dirottata su cella con monitoraggio manuale CCP4;AF-CR-0215 L26148-L2-T2;alta;obsolescenza impianto, v. NC-2026-067;pressing su cronoprogramma installazione Criotech;Guerra R.;;APERTA;1.750,00
+NC-2026-109;28/05/2026;interna;Linea 3;TS-01 fermo 2 h per allarme compressore, produzione dirottata su cella con monitoraggio manuale CCP4;AF-CR-0215 L26148-L2-T2;alta;obsolescenza impianto, v. NC-2026-067;pressing su cronoprogramma installazione Criotech;Guerra R.;;APERTA;1.750,00
+NC-2026-110;29/05/2026;interna;Qualità;Riesame straordinario SGQ post-evento L26130 convocato per il 05/06, odg: efficacia azioni audit, gestione crisi, risorse manutenzione;;alta;v. NC-2026-099;convocazione inviata da RSGQ a direzione e capiturno;Marchetti E.;;APERTA;
+NC-2026-111;29/05/2026;interna;Spedizioni;Slot Cerea del 29/05 ore 7:30: arrivo 7:26, scarico regolare ma bolle pallet EPAL non firmate dal ricevimento;;bassa;fretta in banchina lato CE.DI.;v. contenzioso pedane con Vantini, buoni pallet da regolarizzare;Faggionato N.;;APERTA;
+NC-2026-112;29/5/26;interna;Linea 2;Ordine promo settimana 22 ridotto da Tosano a 48 h dal carico, 1.800 cartoni gia prodotti in eccesso;AF-CR-0215 L26146-L2-T1;media;variazione ordini promo senza preavviso contrattuale;ricollocazione su altri clienti, segnalazione a commerciale (Bertoldi S.);Zanella D.;;APERTA;2.150,00
+NC-2026-113;29/05/2026;interna;CIP;Registrazione IO-05 lavaggio linea 1 post-blocco lotti: fase sanificazione PAA registrata senza concentrazione misurata;;media;kit titolazione esaurito;riordino kit da Chemifood, lavaggio ripetuto con misura;Pozzato S.;;IN CORSO;140,00
+NC-2026-114,30/05/2026,interna,Magazzino,Cella CF-02 porta rimasta socchiusa 35 min durante inventario lotti bloccati, T salita a -15,2, prodotto ok da datalogger,,media,fermo porta difettoso,riparazione fermo porta, allarme porta aperta ridotto a 5 min,Faggionato N.,,APERTA,320,00
+NC-2026-115;30/05/2026;reclamo;Qualità;Richiesta sig.ra Grigolon di riscontro scritto: sollecito, seconda mail senza risposta da 10 gg;AF-SN-0450 L26130;alta;gestione reclamo assorbita dal fronte Tosano;lettera di riscontro predisposta, invio previsto 03/06 con esito FTIR;Marchetti E.;;APERTA;
+NC-2026-116;;interna;Linea 1;Prova tenuta MAP post-sostituzione valvola: O2 residuo medio 1,6%, conforme su 60 confezioni;AF-SN-0450 L26149-L1-T1;bassa;;esito registrato, chiusura monitoraggio orario;Zanella D.;30/05/2026;CHIUSA;0
+NC-2026-117;31/05/2026;interna;Direzione;Mancato aggiornamento analisi rischi food defense dopo evento corpo estraneo;;media;priorita assorbite dalla gestione crisi;aggiornamento pianificato con consulente Vicentini entro giugno;Marchetti E.;;APERTA;
+NC-2026-118;31/05/2026;interna;Amministrazione;Registrazione costi NC maggio incompleta: 6 NC senza costo stimato, riepilogo mensile non quadrato;;bassa;celle vuote nel registro, v. righe precedenti;richiamo a responsabili per stima costi entro 5 gg dalla chiusura;Trentin L.;;APERTA;N/D
+
+
+--- verbale_riesame_direzione_SGQ_2026.txt ---
+AURORA FOOD GROUP S.R.L. - Via dell'Industria 27 - 37044 Cologna Veneta (VR)
+SISTEMA DI GESTIONE QUALITA' E SICUREZZA ALIMENTARE
+
+VERBALE DI RIESAME DELLA DIREZIONE - ANNO 2026
+Rif. BRCGS Food Safety Issue 9 cl. 1.1.4 - IFS Food v8 par. 1.4 - Manuale HACCP Aurora v4
+
+Data: 12/03/2026 - ore 9:00 / 13:20 - Sala riunioni uffici, primo piano
+Redazione verbale: dott.ssa E. Marchetti (RSGQ)
+Approvazione: ing. M. Fantin (Direttore di Stabilimento)
+
+1. PARTECIPANTI
+
+   Presente   Giancarlo Bertoldi        Amministratore Delegato (presente fino ore 11:10)
+   Presente   ing. Marco Fantin         Direttore di Stabilimento / Operations
+   Presente   dott.ssa Elena Marchetti  Responsabile SGQ - Team Leader HACCP
+   Presente   Denis Zanella             Responsabile Produzione
+   Presente   Nicola Faggionato         Responsabile Magazzino e Spedizioni
+   Presente   rag. Luisa Trentin        Amministrazione (solo punti 6 e 9)
+   Presente   Federica Sartori          HR (solo punto 7)
+   Presente   Sara Pozzato              Assistente Qualita / QC
+   Invitata   dott.ssa Chiara Vicentini Consulente HACCP esterna - Studio Alimentaria
+   Assente g. Silvia Bertoldi           Direzione Commerciale (trasferta cliente)
+   Assente g. dott. Alberto Zanchetta   R&D
+
+   Il presente riesame copre il periodo 01/01/2025 - 28/02/2026. Il precedente
+   riesame si e' tenuto in data 14/03/2025 (verbale RD-2025-01).
+
+2. VERIFICA AZIONI DEL PRECEDENTE RIESAME
+
+   2.1  Delle n. 11 azioni deliberate nel riesame 2025 risultano:
+        - chiuse con evidenza:            8
+        - chiuse parzialmente:            2  (piano tarature esteso; polivalenze Linea 2)
+        - non attuate:                    1  (digitalizzazione archivio qualita - rinviata
+                                             per mancanza di risorse, ripresa al punto 9.4)
+
+   2.2  La Direzione prende atto che l'azione "matrice polivalenze Linea 2" risulta
+        superata dagli eventi (v. punto 7 - turnover) e va riformulata.
+
+3. DATI DI INGRESSO - ESITI AUDIT
+
+   3.1  Audit di certificazione CSQA Certificazioni S.r.l. (Thiene VI), 17-18/02/2026,
+        combinato BRCGS Food Safety Issue 9 + IFS Food v8.
+        Auditor lead dott.ssa N. Franceschini, co-auditor p.i. F. Menegazzo.
+        Esito: conferma grade AA BRCGS (cert. BRC/IT/24/00871) e IFS Higher Level
+        97,32% (cert. IFS/IT/25/03390).
+
+   3.2  Non conformita' rilevate: n. 2 minori.
+        NC 1 - registrazioni manuali CCP2/CCP3 senza verifica in seconda firma entro
+               fine turno (rif. BRCGS 9 cl. 2.10.2 / IFS 2.3.9.2). Registrata a sistema
+               come NC-2026-028.
+        NC 2 - ricambi e attrezzi di manutenzione custoditi in area produttiva senza
+               controllo integrita' (BRCGS cl. 4.7.5). Registrata come NC-2026-029.
+
+   3.3  Termine per l'invio delle evidenze di chiusura: 28 giorni dalla notifica,
+        ovvero 17/03/2026. Alla data odierna la raccolta evidenze NON risulta
+        completata: mancano le firme di presa visione dei capiturno sul modulo
+        MOD-QA-12 revisionato e le foto dell'armadio ricambi in officina.
+        La Direzione RICHIAMA la RSGQ al rispetto tassativo della scadenza.
+        [annotazione a margine: evidenze poi trasmesse a CSQA in data 02/04/2026,
+        oltre il termine - v. NC-2026-049 e NC-2026-061]
+
+   3.4  Audit interni 2025: eseguiti 9 su 10 pianificati (90%). L'audit su gestione
+        vetro/plastica dura e' slittato a gennaio 2026, eseguito il 28/01/2026.
+
+   3.5  Audit clienti: audit igienico Tosano (dott.ssa Perbellini) del 06/11/2025,
+        esito positivo con 3 osservazioni, tutte chiuse.
+
+4. DATI DI INGRESSO - RECLAMI E NON CONFORMITA'
+
+   4.1  Reclami cliente/consumatore anno 2025: n. 41 totali, pari a 0,89 reclami
+        per milione di pezzi venduti (obiettivo: < 1,0 - RAGGIUNTO).
+        Ripartizione 2025:  corpo estraneo 4 - confezionamento 17 - organolettici
+        12 - etichettatura 5 - altro 3. Nessun reclamo con esito sanitario.
+
+   4.2  Reclami gennaio-febbraio 2026: n. 5 (Ali' saldature film, consumatore
+        numero verde, Famila etichetta bio, piu' 2 minori). Andamento in linea.
+
+   4.3  Non conformita' interne: anno 2025 n. 214 (di cui 9 gravi); gennaio-febbraio
+        2026 n. 37 registrate a MOD-QA-31. Le NC aperte da oltre 60 giorni alla data
+        odierna sono n. 6: la Direzione ne chiede la revisione puntuale entro il
+        30/04 (resp. RSGQ).
+
+   4.4  Costo della non qualita' 2025: 68.400 euro stimati (sfridi da NC, resi,
+        declassamenti). Dato parziale: mancano i costi di 31 NC prive di stima.
+        La Direzione richiama i responsabili di reparto alla compilazione del campo
+        costo entro 5 giorni dalla chiusura della NC.
+
+5. DATI DI INGRESSO - INDICATORI KPI QUALITA'
+
+   5.1  Tabella indicatori (consuntivo 2025 vs obiettivo):
+
+        Indicatore                              Obiettivo    Consuntivo   Esito
+        ------------------------------------------------------------------------
+        Reclami / mio pezzi                     < 1,0        0,89         OK
+        Resa prima scelta Linea 1               > 97,0%      97,4%        OK
+        Resa prima scelta Linea 2               > 96,5%      95,8%        NO
+        Resa prima scelta Linea 3               > 97,0%      97,1%        OK
+        Deviazioni CCP con blocco lotto         0            1            NO
+        Verifiche MD eseguite / previste        100%         99,2%        NO
+        Tamponi ambientali conformi             > 95%        96,3%        OK
+        Puntualita' consegne CE.DI. (OTIF)      > 98%        96,1%        NO
+        Ore formazione / addetto                >= 8         6,2          NO
+        Mock recall entro 2 h                   100%         v. 5.3       NO
+
+   5.2  La resa Linea 2 sconta i volumi promozionali Tosano e il ricorso a personale
+        neoassunto. Il dato OTIF risente dei ritardi sul CE.DI. di Cerea (v. NC-2026-042
+        del 06/03: slot 7:30 mancato, arrivo 10:52, carico respinto). Zanella e
+        Faggionato presenteranno entro il 15/04 un piano congiunto carico notturno.
+
+   5.3  Mock recall del 10/03/2026 su lotto AF-SN-0450 L26068-L1-T2: tracciabilita'
+        a monte completata in 55 min (conforme), a valle in 3 h 50 min contro
+        obiettivo 2 h (NON conforme - v. NC-2026-044). Causa: estrazione manuale dei
+        dati spedizioni da piu' fogli Excel. Il tema rimanda alla decisione ERP
+        (punto 9.2). Bilancio di massa ricostruito al 99,6% (accettabile > 99%).
+
+   5.4  CCP - stato delle verifiche:
+        CCP1 setacciatura/magnete: nessuna deviazione 2025-2026.
+        CCP2 PT-104: 1 deviazione 2025 (lotto riprocessato); nessuna nel bimestre.
+        CCP3 MD-3200: evento del 09/02/2026 (tassello Fe non rilevato, NC-2026-022)
+             gestito con ricontrollo retroattivo; intervento assistenza Loma eseguito.
+        CCP4 surgelazione: 1 deviazione 14/01/2026 (NC-2026-006) da degrado TS-01.
+        La Direzione prende atto che il TS-01 e' il principale fattore di rischio
+        impiantistico e conferma l'investimento di cui al punto 9.1.
+
+6. DATI DI INGRESSO - TARATURE, FORNITORI, LABORATORIO
+
+   6.1  Tarature: piano 2026 emesso; 92% strumenti in corso di validita' al 28/02.
+        In scadenza marzo: termometro campione di laboratorio e 2 sonde spillone.
+        Resp. Pozzato, verifica scadenzario mensile documentata.
+
+   6.2  Valutazione fornitori 2025 (vendor rating su qualita'/servizio/documenti):
+        - classe A: F0012 Molino Veneto, F0025, F0029, F0061 Nordgas, F0090 Analytica
+        - classe B: F0021 Latteria Bassanese (consegna a +9,5 gradi respinta il
+          21/01/26), F0044 Flexipack (bobina fuori spessore 10/02/26), F0031
+          Euroglass (rotture da trasporto), F0095
+        - classe C: nessuno.
+        F0018 Oleificio Adriatico: qualita' regolare ma aumento listino +11%;
+        la Direzione da' mandato all'ufficio acquisti di sondare un secondo
+        fornitore di olio alto oleico entro giugno.
+
+   6.3  Laboratorio esterno Analytica Veneta S.r.l. (ACCREDIA n. 0987): contratto
+        rinnovato; piano analitico 2026 approvato (patogeni, shelf life, MOCA).
+        Evento Listeria spp. su tampone ambientale canalina Linea 3 del 24/02
+        (NC-2026-034): sanificazione straordinaria e ritampone negativo a 48 h;
+        frequenza MOD-QA-19 raddoppiata in zona 2 per 3 mesi.
+
+7. DATI DI INGRESSO - RISORSE UMANE E FORMAZIONE
+
+   7.1  Organico al 28/02/2026: 50 unita' (38 produzione, 12 uffici).
+        Turnover Linea 2: n. 2 dimissioni tra gennaio e febbraio 2026, tutte
+        con motivazione dichiarata legata ai turni domenicali per gli ordini Tosano.
+        [nota successiva a verbale: quarta dimissione registrata il 26/03 -
+        NC-2026-056]
+
+   7.2  Straordinari: proiezione superamento del limite di 250 h/anno per 6 addetti
+        di Linea 2 se confermate le domeniche promozionali di aprile-maggio
+        ("Sottocosto Primavera", settimane 19-21). E' pervenuta contestazione RSU.
+        La Direzione incarica HR e il Responsabile Produzione di predisporre un
+        piano riposi compensativi e di valutare 2 inserimenti in somministrazione.
+        L'AD chiede tuttavia che gli ordini Tosano "non si tocchino".
+
+   7.3  Formazione: consuntivo 2025 pari a 6,2 h/addetto contro obiettivo 8.
+        Attestati HACCP in scadenza nel quadrimestre: n. 5 (registro MOD-HR-11).
+        Piano formazione 2026 approvato seduta stante: HACCP base e aggiornamento,
+        allergeni e sequenze di produzione (a cura dott.ssa Vicentini), corpi
+        estranei e cultura della sicurezza alimentare, ripasso MOD-QA-07 rev.5.
+
+   7.4  Infortuni: 1 evento lieve 2025 (nessuno grave). Si rimanda al riesame
+        sicurezza con RSPP p.i. Bonato per il dettaglio.
+
+8. ADEGUATEZZA DELLE RISORSE
+
+   8.1  La Direzione valuta le risorse ADEGUATE CON RISERVA:
+        a) organico Linea 2 sottodimensionato rispetto ai volumi promozionali;
+        b) funzione Qualita' composta da 2 persone (RSGQ + assistente) a fronte di
+           2 standard certificati, 1 linea bio ICEA e crescente richiesta
+           documentale dei clienti GDO;
+        c) manutenzione: 2 addetti interni (Dal Maso, Bissoli) piu' terzisti; il
+           parco macchine Linea 1 (PKM-450 in particolare) mostra usura crescente
+           e il magazzino ricambi critici non e' presidiato.
+        L'AD si riserva di valutare un inserimento in Qualita' nel secondo
+        semestre, subordinato all'andamento di cassa (v. punto 9.1).
+
+9. DECISIONI DELLA DIREZIONE
+
+   9.1  Investimento tunnel di surgelazione a spirale Criotech CR-SP180 (fornitore
+        F0070) in sostituzione del TS-01: CONFERMATO. Ordine gia' emesso; acconto
+        30% pari a 87.000 euro in scadenza a maggio 2026. La rag. Trentin segnala
+        la concomitanza con incassi Tosano a 90 gg (RIBA) e l'utilizzo previsto
+        della linea anticipo fatture UniCredit. La Direzione approva la copertura
+        finanziaria proposta e incarica lo Studio Bellotto di istruire la pratica
+        del credito d'imposta beni strumentali con perizia di interconnessione.
+
+   9.2  Sistema informativo: prosegue la valutazione comparativa ERP CSB-System vs
+        SAP Business One, anche alla luce dell'esito del mock recall (punto 5.3).
+        Decisione attesa entro settembre 2026. Referenti: Fantin, Trentin.
+
+   9.3  Revisione modulistica CCP: MOD-QA-12 e MOD-QA-07 rev.5 integrati con campo
+        di seconda firma di verifica entro fine turno, come da azione correttiva
+        NC audit. La RSGQ verifichera' l'efficacia con controlli a campione
+        settimanali per 8 settimane dalla messa in uso.
+
+   9.4  Digitalizzazione archivio qualita': l'AD chiede di riportare il tema con
+        un preventivo concreto entro l'autunno; per ora si conferma l'archivio
+        cartaceo con scansione dei soli documenti critici.
+
+   9.5  Politica per la sicurezza alimentare: riconfermata senza modifiche,
+        ripubblicata in bacheca con data 12/03/2026.
+
+10. OBIETTIVI 2026
+
+   10.1 Tabella obiettivi (con stato di avanzamento al 28/02):
+
+        Obiettivo 2026                              Target       Avanzamento
+        -----------------------------------------------------------------------
+        Reclami / mio pezzi                         < 0,85       in linea (5 recl.)
+        Resa prima scelta Linea 2                   > 96,5%      12%   (in ritardo)
+        OTIF consegne CE.DI.                        > 98%        20%   (in ritardo)
+        Deviazioni CCP con blocco lotto             0            n. 1 al 28/02
+        Mock recall a valle entro 2 h               100%         0%    (v. 5.3)
+        Ore formazione / addetto                    >= 8         15%
+        Chiusura NC entro 30 gg                     >= 90%       71%
+        Messa in servizio tunnel CR-SP180           31/10/2026   ordine emesso
+        Costo non qualita'                          < 60.000     6.800 al 28/02
+
+   10.2 Gli obiettivi sono giudicati raggiungibili ad eccezione della resa Linea 2,
+        che dipende dalla soluzione del punto 7.2.
+
+11. AZIONI DELIBERATE
+
+        N.   Azione                                          Resp.        Scadenza
+        -----------------------------------------------------------------------------
+        A1   Invio evidenze chiusura NC audit a CSQA         Marchetti    17/03/2026
+        A2   Verifica efficacia doppia firma CCP2/CCP3       Marchetti    31/05/2026
+        A3   Armadio ricambi chiuso in officina + inventario Dal Maso     31/03/2026
+        A4   Piano carico notturno consegne Cerea            Faggionato   15/04/2026
+        A5   Piano riposi compensativi + 2 somministrati L2  Sartori      30/04/2026
+        A6   Revisione NC aperte oltre 60 gg                 Marchetti    30/04/2026
+        A7   Secondo fornitore olio alto oleico              Trentin      30/06/2026
+        A8   Pratica credito imposta CR-SP180 con Bellotto   Trentin      31/05/2026
+        A9   Recupero attestati HACCP in scadenza            Sartori      21/05/2026
+        A10  Preventivo digitalizzazione archivio            Fantin       30/09/2026
+        A11  Aggiornamento matrice allergeni con saletta R&D Marchetti    30/06/2026
+
+12. CONCLUSIONI
+
+   12.1 La Direzione giudica il Sistema di Gestione COMPLESSIVAMENTE ADEGUATO,
+        EFFICACE e ALLINEATO agli indirizzi strategici, con le riserve espresse ai
+        punti 5.2, 7.2 e 8.1. Il mantenimento delle certificazioni BRCGS grade AA
+        e IFS Higher Level e' confermato quale obiettivo primario.
+
+   12.2 Prossimo riesame ordinario: marzo 2027. Resta facolta' della RSGQ di
+        convocare un riesame straordinario al verificarsi di eventi significativi
+        per la sicurezza del prodotto o la continuita' delle certificazioni.
+
+   12.3 Il verbale viene letto e approvato seduta stante.
+
+   Letto, confermato e sottoscritto.
+
+   Il Direttore di Stabilimento          Il Responsabile SGQ
+   ing. Marco Fantin                     dott.ssa Elena Marchetti
+   (f.to in originale)                   (f.to in originale)
+
+   L'Amministratore Delegato
+   Giancarlo Bertoldi
+   (f.to in originale - punti 1-9)
+
+Distribuzione: AD, DS, RSGQ, Resp. Produzione, Resp. Magazzino, Amministrazione,
+HR, bacheca reparti (estratto punti 10-11).
+Archiviazione: raccoglitore RIESAMI - ufficio qualita' - conservazione 5 anni.
+RD-2026-01 - pag. 6 di 6
