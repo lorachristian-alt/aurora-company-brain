@@ -41,7 +41,7 @@ l'occasione tipica, non la condizione.
 §1 STUDIO PRELIMINARE (ogni sessione, anche le successive)
 ---------------------------------------------------------------------
 1. 01_metodo\metodo_03_canonizzazione.md — INTEGRALE. E' il manuale
-   supremo, con i 54 emendamenti gia' dentro. In caso di contrasto con
+   supremo, con i 58 emendamenti gia' dentro. In caso di contrasto con
    questo prompt, vince metodo_03 e lo segnali.
 2. 06_operativo\registro_emendamenti.md — l'indice genealogico: serve
    a vedere in dieci secondi se questo prompt e' rimasto indietro.
@@ -168,6 +168,20 @@ cosa sola, ma decisiva:
    Ogni lotto dichiara il dominio (o il suo «nessuno» motivato) in
    apertura, cosi' la serie E41 non ha piu' buchi non dichiarati.
 
+   E56 — LA DICHIARAZIONE DEL DOMINIO E' UNA COPPIA ESPRESSIONI-FONTI
+   CHE SI GIUSTIFICANO A VICENDA: ogni espressione entra solo se una
+   fonte del dominio governa cio' che l'espressione riconosce, e ogni
+   fonte governante va dichiarata. I due versi dell'errore sono gia'
+   stati pagati entrambi: in 2B-bis il dominio era troppo stretto
+   (mancava il materiale d'aula) e il 9,1 % contava scoperte note
+   coperte; in 3C era troppo largo (espressioni sull'audit, fonti sul
+   titolo) e il 38,7 % contava scoperte note governate da altre fonti.
+   Il tasso misura la dichiarazione tanto quanto il metodo: la
+   dichiarazione si scrive con la stessa cura delle note. Nello
+   strumento le citazioni hanno DUE CLASSI DI FORZA e non si sommano:
+   una SIGLA e' una citazione, una parola comune del nome non dimostra
+   nulla da sola.
+
    Perche' la soglia e' doppia: cio' che il rischio consuma e' il
    CARICO DI REVISIONE, che si misura in note assolute. Una soglia
    costruita sullo scostamento percentuale da stime ferme al pilota
@@ -255,7 +269,16 @@ cosa sola, ma decisiva:
      l'intero archivio. E' l'unico emendamento nato da un criterio
      pre-registrato che si e' avverato, e fra 2B e 2B-bis la specie e'
      ricomparsa piu' di venti volte, tre volte DENTRO le correzioni
-     che la stavano correggendo: non si estirpa con l'attenzione;
+     che la stavano correggendo: non si estirpa con l'attenzione.
+     E57, il test operativo: IL DISCRIMINE E' IL SOGGETTO. Un
+     superlativo o un'esclusiva il cui soggetto e' UN DOCUMENTO
+     CITATO si verifica sulla fonte e regge («e' l'unica cosa che
+     questo verbale chiami obiettivo primario»); uno il cui soggetto
+     e' L'ARCHIVIO, il vault o «tutto il resto» non e' verificabile
+     da nessuna nota, perche' nessuna nota ha l'archivio fra le
+     fonti: si restringe al perimetro citato, o va in tabella di
+     tracciamento. Quattordici casi verificati in 3C: dieci reggono,
+     tutti con soggetto-documento;
    - E48, i due strati che l'estrattore congelato non vede: le FORMULE
      dei fogli di calcolo (1.697 celle nel corpus, tutte senza valore
      in cache) e il BARRATO dei documenti. La QA e il pacchetto del
@@ -383,6 +406,15 @@ cosa sola, ma decisiva:
      esauriscono, il problema non sono piu' le singole note: e' una
      classe d'errore, e ripetere il ciclo la insegue invece di
      chiuderla.
+   E58 — E26 FERMA IL CICLO, NON LA PRIMA ESPOSIZIONE: ogni nota vede
+   lo strato di giudizio ALMENO UNA VOLTA. Le note nate dai
+   ritrovamenti dell'ultimo giro ricevono un giudizio DEDICATO, solo
+   su di esse — non un nuovo giro sul lotto — e le eventuali
+   correzioni si applicano senza riaprire il ciclo se sono
+   soppressive (criterio 1B). Il caso: due note del terzo giro di 3C
+   chiuse senza aver mai visto un giudice (T141) — e la fuga di
+   canone del pilota fu presa esattamente dal giudizio delle note
+   nate dalle correzioni.
 
 9. RE-QA, poi llms.txt rigenerato, poi `_index` e hub aggiornati.
 
@@ -561,8 +593,8 @@ STOP-LOSS E COSA NON FARE
 ---------------------------------------------------------------------
 ALLINEAMENTO DI QUESTO PROMPT
 ---------------------------------------------------------------------
-Allineato al: 2026-08-22, dopo il gate del lotto 3A.
-Ultimo emendamento recepito: E54.
+Allineato al: 2026-08-22, dopo il gate del lotto 3C.
+Ultimo emendamento recepito: E58.
 Scritto dal coordinatore: questo file e' l'istruzione DATA alla
 sessione, e una sessione non riscrive le proprie istruzioni.
 Recepiti rispetto alla versione precedente (ferma al gate S2, 19
@@ -591,9 +623,12 @@ il riconteggio · E51 una nota non si smentisce da sola · E52 le note
 post-revisione fuori dalla soglia di spezzamento ma dichiarate come
 gruppo · E53 il dominio si decide su cio' che i grezzi fanno,
 verificato da script in apertura · E54 nessuna nota cita un documento
-non aperto. E52-E54 nascono col gate di 3A: la prima sessione che usa
-questa versione li applica a metodo_03 e al registro PRIMA di aprire
-il lotto.
+non aperto · E55 il locator di una catena nomina il messaggio con la
+data · E56 la dichiarazione del dominio e' una coppia espressioni-fonti
+· E57 il superlativo si giudica dal soggetto · E58 ogni nota vede il
+giudizio almeno una volta. E56-E58 nascono col gate di 3C: la prima
+sessione che usa questa versione li applica a metodo_03 e al registro
+PRIMA di aprire il lotto.
 CONTROLLO DI SCOSTAMENTO: confronta questa riga con l'ultima riga di
 `registro_emendamenti.md`. Se il registro e' piu' avanti, il prompt e'
 vecchio: dillo nel rapporto, non compensare a mano.
