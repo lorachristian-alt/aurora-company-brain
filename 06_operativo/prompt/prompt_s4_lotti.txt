@@ -2,7 +2,7 @@
 PROMPT SESSIONI 4-5 — CANONIZZAZIONE A LOTTI DEL CORPUS RESTANTE
 Corpus v1 · Aurora Food Group S.r.l. (simulazione dichiarata)
 File: 06_operativo\prompt\prompt_s4_lotti.txt
-Allineato al 2026-08-19 · ultimo emendamento recepito: E35
+L'allineamento e il controllo di scostamento stanno SOLO in coda.
 =====================================================================
 
 QUESTO PROMPT GOVERNA OGNI SESSIONE DI CANONIZZAZIONE A LOTTI: S4, S5,
@@ -32,8 +32,7 @@ COME SEI STATO LANCIATO
 
 CHI SEI
 Il canonizzatore industriale. Il metodo e' gia' scritto, emendato
-trentacinque volte e collaudato su quattro lotti: tu lo APPLICHI su
-scala. Non inventi regole nuove: quando il metodo tace, ti fermi e lo
+e collaudato lotto dopo lotto: tu lo APPLICHI su scala. Non inventi regole nuove: quando il metodo tace, ti fermi e lo
 segnali. Gli emendamenti li approva il COORDINATORE — il gate e'
 l'occasione tipica, non la condizione.
 
@@ -41,7 +40,7 @@ l'occasione tipica, non la condizione.
 §1 STUDIO PRELIMINARE (ogni sessione, anche le successive)
 ---------------------------------------------------------------------
 1. 01_metodo\metodo_03_canonizzazione.md — INTEGRALE. E' il manuale
-   supremo, con i 61 emendamenti gia' dentro. In caso di contrasto con
+   supremo, con tutti gli emendamenti gia' dentro. In caso di contrasto con
    questo prompt, vince metodo_03 e lo segnali.
 2. 06_operativo\registro_emendamenti.md — l'indice genealogico: serve
    a vedere in dieci secondi se questo prompt e' rimasto indietro.
@@ -189,6 +188,17 @@ cosa sola, ma decisiva:
    nate sbagliate (2B-bis stretta, 3C larga, 3B larga anche sotto la
    regola della coppia): la cura non basta, serve la prova — ed e'
    la stessa prova che 3B ha eseguito a mano per stringere.
+   La prova ha DUE META' che non si sommano — A, la specificita'
+   (quante note l'espressione riconosce in esclusiva e che quota del
+   dominio copre da sola), si puo' fare sempre; B, dentro/fuori,
+   solo se una fonte del dominio e' gia' citata da qualche nota. Se
+   il lotto porta LUI la fonte del dominio, la meta' B e'
+   inapplicabile in apertura: SI DICHIARA tale e SI ESEGUE A LOTTO
+   CHIUSO, quando misura qualcosa di reale, e il rapporto ne
+   dichiara l'esito accanto al tasso (esteso al gate 3D; consuntivo:
+   nove espressioni su nove). Un'espressione sospetta non si scarica
+   cambiando la soglia: si scarica con `--motivata`, in chiaro
+   nell'uscita e con una ragione scritta nel rapporto.
 
    Perche' la soglia e' doppia: cio' che il rischio consuma e' il
    CARICO DI REVISIONE, che si misura in note assolute. Una soglia
@@ -199,8 +209,8 @@ cosa sola, ma decisiva:
    Dichiari in apertura: N grezzi, capacita' attesa, tema, e se hai
    spezzato, dove passa il taglio e perche'.
 
-2. CANONIZZA per metodo_03. Promemoria dei punti che i quattro lotti
-   chiusi hanno pagato di persona:
+2. CANONIZZA per metodo_03. Promemoria dei punti che i lotti chiusi
+   hanno pagato di persona:
    - hub-first dentro il tema del lotto; un fatto, un padrone;
    - E2, riconciliazione ORIZZONTALE: i numeri si confrontano fra le
      fonti del lotto E con le note che il vault ha gia'. E' la regola
@@ -332,6 +342,17 @@ cosa sola, ma decisiva:
      corregge per ultima, quindi quando una correzione attenua il
      corpo il summary resta com'era e afferma quello che il corpo
      cautela;
+   - LO SLUG E' LA TERZA INTESTAZIONE (E30, esteso al gate 3D): il
+     nome del file si scrive PRIMA del titolo ed e' l'unica
+     superficie che nessuna rilettura del testo tocca. La QA non lo
+     legge come affermazione; il giudice lo vede, perche' e' la
+     prima cosa che il pacchetto gli mette davanti. A ogni correzione
+     che tocca `title` o `summary` si verifica anche lo slug: se
+     afferma cio' che la correzione ha smentito, si rinomina, coi
+     wikilink aggiornati NELLO STESSO TURNO (E42). Il caso:
+     `fatto-confezioni-vendute-rincorse-a-voce` ha continuato ad
+     affermare «a voce» dopo che titolo, summary e corpo erano stati
+     corretti;
    - LA CAUTELA SI PROPAGA (E39), ed e' il pattern che ha chiuso R1 al
      terzo giro dopo che due giri mirati lo avevano mancato. Il gesto
      NON e' «rileggere di piu'»: parte dall'affermazione, non dalla
@@ -341,6 +362,12 @@ cosa sola, ma decisiva:
      LE ALTRE OCCORRENZE di quella affermazione e portaci la stessa
      qualificazione. Le superfici dove si nasconde: `summary`, `title`,
      celle di tabella, glosse dopo un wikilink, frasi di chiusura.
+     E LA RICERCA CORRE FRA LE NOTE, NON SOLO DENTRO (esteso al gate
+     3D): l'affermazione qualificata si cerca con lo strumento su
+     tutto il vault — la sorella che la ripete non la trova la
+     memoria — e la correzione dichiara l'esito della ricerca. Il
+     caso: la cautela apposta a una nota di 3D non era arrivata a
+     `doc-indicatori-reclami`, che ripeteva la stessa affermazione.
      L'elenco e' esemplificativo e APERTO: chiuderlo ricreerebbe il
      difetto di E30, che era chiuso su due superfici. Una riga di
      tabella e una glossa di tre parole sono affermazioni di fatto
@@ -355,6 +382,18 @@ cosa sola, ma decisiva:
      intera, e in 2A una cautela apposta al corpo per chiudere un
      rilievo non e' arrivata al summary nel giro stesso in cui veniva
      scritta;
+   - E63 — LA COPERTURA SI VERIFICA ANCHE AL CONTRARIO: per ogni
+     grezzo PRESCRITTIVO del lotto si scorre l'elenco dei paragrafi o
+     punti numerati, e ogni paragrafo SENZA NOTA si dichiara nel
+     rapporto col suo motivo — coperto da un'altra nota, nessun
+     fatto, fuori dominio. Una DEFINIZIONE OPERATIVA (che cosa e' X,
+     quando X si dice chiuso) non resta mai senza padrona: e' il
+     criterio con cui l'azienda risponde a una domanda vera, e un
+     vault che tratta la domanda senza avere il criterio risponde
+     senza sapere. Due lotti di fila (3B: cinque righe di registro
+     senza nessuna nota; 3D: la definizione di reclamo chiuso in un
+     paragrafo senza padrona): la regola viene dai consuntivi, come
+     la disciplina di E28 chiede;
 
 4. QA DI LOTTO. `python qa_all.py --perimetro lotto
    @lotti\<lotto>.txt --lotto <nome>` — zero ERRORI per andare avanti,
@@ -410,6 +449,15 @@ cosa sola, ma decisiva:
    attraversato revisore, canone, una nota e una riga di tracciamento
    senza che nessuno lo contasse — e la fonte diceva «5 fasi» sopra
    sei voci.
+   E62 — UN OBBLIGO DEL CANONE VERSO UN LOTTO FUTURO SI SPECCHIA IN
+   TABELLA: quando una riga B, o un gate, scrive nel canone un
+   obbligo che un lotto futuro dovra' eseguire, NELLO STESSO TURNO
+   si apre la riga di tracciamento con l'obbligo esplicito. Il
+   canone resta il padrone del contenuto; la tabella e' l'indice che
+   l'apertura legge. Il caso: la riga D4 chiedeva a 3D di toccare
+   una nota, nessuna riga T lo diceva, e l'apertura non poteva
+   vederlo — l'ha preso il passo 7 alla fine del ciclo, cioe'
+   l'unico strato che il canone lo ha.
 
 8. RI-GIUDIZIO E REGOLA D'ARRESTO (E9 + E26). Dopo le correzioni si
    RIGIUDICA, non si rilancia solo la QA: le note nate dalle
@@ -443,6 +491,15 @@ cosa sola, ma decisiva:
    casi: tre rilievi introdotti correggendo nel completamento di 2B,
    sette in 3B — e nel peggiore la correzione ha reso FALSA una
    frase che prima era soltanto vaga.
+   ESTESO AL GATE 3D, IL VERSO ALL'INDIETRO: una correzione che
+   MUOVE IL PERIMETRO — aggiunge o toglie una fonte — cambia il
+   perimetro di verita' della nota INTERA, e le frasi che c'erano
+   prima si rileggono contro il perimetro nuovo. L'appiglio e'
+   meccanico: se la correzione tocca il blocco Fonti, la rilettura
+   e' dell'intera nota, non della sola frase nuova. Tre casi in 3D,
+   due dentro una riconciliazione: aggiungere una fonte ha reso
+   FALSE frasi che prima reggevano — compresa una che dichiarava
+   l'assenza proprio di cio' che la fonte aggiunta contiene.
 
 9. RE-QA, poi llms.txt rigenerato, poi `_index` e hub aggiornati.
 
@@ -531,6 +588,12 @@ verticale). Regole proprie, tutto il resto identico:
   un difetto piantato NUOVO che dimostri che il buco non si apre. Dopo
   ogni fix, `_collaudo\collaudo_suite.py` si rilancia e il rapporto ne
   riporta l'esito.
+- Un fix o uno strumento nuovo che introduce una LISTA o un VALORE
+  scritto a mano DICHIARA la copia e la aggiunge nello stesso turno
+  al censimento di `verifica_copie_stato.py`: nessuno script si
+  accorge da solo di una copia che nasce domani (gate 3B, punto
+  lasciato aperto — la vigilanza e' di chi scrive, non del
+  controllo).
 - Ogni emendamento approvato prende la sua riga in
   `registro_emendamenti.md` nello stesso turno, e QUESTO PROMPT si
   aggiorna se la regola va ripetuta a ogni lotto: una regola che vive
@@ -621,8 +684,8 @@ STOP-LOSS E COSA NON FARE
 ---------------------------------------------------------------------
 ALLINEAMENTO DI QUESTO PROMPT
 ---------------------------------------------------------------------
-Allineato al: 2026-08-23, dopo il gate del lotto 3B.
-Ultimo emendamento recepito: E61.
+Allineato al: 2026-08-24, dopo il gate del lotto 3D.
+Ultimo emendamento recepito: E63.
 Scritto dal coordinatore: questo file e' l'istruzione DATA alla
 sessione, e una sessione non riscrive le proprie istruzioni.
 Recepiti rispetto alla versione precedente (ferma al gate S2, 19
@@ -657,9 +720,18 @@ data · E56 la dichiarazione del dominio e' una coppia espressioni-fonti
 giudizio almeno una volta · E59 la dichiarazione del dominio si
 collauda prima della misura · E60 la riconciliazione orizzontale ha
 l'artefatto d'apertura e il passo pre-giudizio · E61 una correzione e'
-una scrittura. E59-E61 nascono col gate di 3B: la prima sessione che
-usa questa versione li applica a metodo_03 e al registro PRIMA di
-aprire il lotto.
+una scrittura · E62 l'obbligo del canone verso un lotto futuro si
+specchia in tabella di tracciamento · E63 la copertura si verifica
+anche al contrario: il paragrafo prescrittivo senza nota si dichiara.
+E62-E63 nascono col gate di 3D: la prima sessione che usa questa
+versione li applica a metodo_03 e al registro PRIMA di aprire il
+lotto. Allo stesso gate sono ESTESI, senza numero nuovo, E30 (lo slug
+e' la terza intestazione), E39 (la ricerca fra le note), E59 (la
+meta' B a lotto chiuso) ed E61 (la rilettura all'indietro quando il
+perimetro si muove): le estensioni si applicano a metodo_03 DENTRO il
+testo dei rispettivi emendamenti, datate con l'occasione, e la riga
+di ciascuno nel registro prende la coda dell'estensione —
+`verifica_emendamenti.py` deve restare verde, e concorde a 63.
 CONTROLLO DI SCOSTAMENTO: confronta questa riga con l'ultima riga di
 `registro_emendamenti.md`. Se il registro e' piu' avanti, il prompt e'
 vecchio: dillo nel rapporto, non compensare a mano.

@@ -1,0 +1,296 @@
+=====================================================================
+PROMPT — GATE DEL LOTTO 3D + APERTURA DEL LOTTO 3E
+Corpus v1 · Aurora Food Group S.r.l. (simulazione dichiarata)
+File: 06_operativo\prompt\prompt_gate_3d_lotto_3e.txt
+Scritto dal coordinatore il 24/08/2026, letti il rapporto del lotto,
+il rapporto del gate 3B eseguito e la tabella del §9.
+=====================================================================
+
+COME SEI STATO LANCIATO
+- Terminale nella RADICE del repository
+  C:\Users\buulo\Desktop\.eval_do_not_index\Aurora_Food_Group_SRL
+  con: claude --add-dir "C:\Users\buulo\Desktop\aurora-cervello"
+
+---------------------------------------------------------------------
+PARTE 0 — VERIFICA E COMMIT
+---------------------------------------------------------------------
+0.1 `prompt_s4_lotti.txt` e' stato aggiornato dal coordinatore, da E61
+    a E63 piu' quattro estensioni. Verifica l'integrita':
+      righe 738 · byte 44.841 · CRLF 738 · LF isolati 0 · BOM assente
+      sha256 0981f3492449cdd029028746de551db4c68a26b2e4df7538f9ea407b2f40df13
+    Se anche uno non torna, FERMATI e dillo.
+0.2 Questo file e' NON TRACCIATO: committali entrambi e pusha PRIMA di
+    eseguire. Messaggio: «prompt dei lotti a E63 e prompt del gate 3D +
+    lotto 3E». E62-E63 e le quattro estensioni sono nella coda del
+    prompt e non ancora in metodo_03: colmarlo e' il primo adempimento
+    della PARTE 2.
+
+---------------------------------------------------------------------
+PARTE 1 — IL VERDETTO: 3D E' APPROVATO, E IL COORDINATORE PAGA DUE
+          VOLTE
+---------------------------------------------------------------------
+Il coordinatore ha letto il rapporto del lotto e il rapporto del gate
+3B eseguito. Prima, le due partite in casa del coordinatore:
+
+- la SESTA correzione e' RATIFICATA, con T157 chiusa e l'errata
+  dentro: il barrato sta in 11 grezzi con 40 passaggi (6 gia'
+  canonizzati), non nei «tre» che il mio prompt affermava. Il rapporto
+  ha ragione anche sulla diagnosi: i lotti chiusi e il barrato erano
+  gli unici due numeri del gate che nessuno script produceva, ed
+  erano gli unici due sbagliati. LA REGOLA PER IL COORDINATORE, che
+  vale da qui in avanti: dove il numero e' verificabile nel repo con
+  uno strumento che esiste, il coordinatore lo VERIFICA prima di
+  scriverlo — o non lo scrive, e ordina la misura;
+- e applicando a me stesso il censimento delle copie ne ho trovata
+  una NEL MIO STRUMENTO: la testata di `prompt_s4_lotti.txt` portava
+  una seconda riga di allineamento, ferma a «E35» — ventisei
+  emendamenti indietro rispetto alla coda, che e' il padrone
+  dichiarato. Rimossa, insieme ai numeri a mano della stessa testata
+  («trentacinque volte», «quattro lotti», «i 61 emendamenti»):
+  l'allineamento vive in coda sola. Riga in §5 del passaggio di
+  consegne: e' un errore del coordinatore, pagato.
+
+Le ratifiche del gate 3B eseguito, che valgono da precedente:
+- il censimento delle copie con l'elenco delle sostituzioni, la
+  §4.49, e `qa_provenance` esteso a `title` e `summary` — il buco
+  piu' vecchio della suite, trovato FACENDO L'ELENCO e non
+  rileggendo, perche' codice e manuale concordavano. Il pregresso a
+  AVVISO dichiarato (§4.35) e i quattordici debiti dell'intestazione
+  in T158, verso la rete finale o il lotto che tocca ciascuna nota:
+  RATIFICATO. I due falsi positivi rimossi sono la prova che il fix
+  vede di piu', non di meno.
+
+E le ratifiche del lotto 3D:
+- lo SPEZZAMENTO per la soglia di E37 — 65 riaperte contro 35 nuove —
+  con la nascita di `r2_reclami_verticale`: la regola applicata alla
+  lettera al primo caso che la esercita. E la riga giusta e' quella
+  del rapporto: il perimetro di R2 SI RIGENERA alla sua apertura, non
+  si eredita, e la differenza rispetto alle 65 misura quanto il tema
+  ha gia' sanato;
+- i due strumenti costruiti in apertura (`grandezze_condivise.py`,
+  `collauda_dominio.py`): una regola che prescrive uno strumento
+  inesistente e' una regola che si applica a mano. E il riuso
+  DELIBERATO di `qa_provenance.estrai_affermazioni` e' la forma
+  giusta: una sola definizione di affermazione, il rumore lo filtra
+  chi legge — una grammatica «piu' intelligente» sarebbe una seconda
+  definizione;
+- E59 al primo impiego ha trovato UN DIFETTO DEL COLLAUDO: la prova
+  come descritta avrebbe respinto le espressioni giuste e lasciato
+  passare le sbagliate, su un lotto che porta lui la fonte del
+  dominio. La riscrittura in due prove che non si sommano (A
+  specificita', B dentro/fuori) e lo scarico solo via `--motivata`
+  con ragione scritta sono RATIFICATI e ora vivono nell'estensione;
+- il 20,0 % su 35 REGGE ed e' il primo punto della serie con la
+  dichiarazione collaudata; si legge con la riserva scritta (prova B
+  inapplicabile in apertura) e il 14,3 % post-correzioni non si usa
+  (E41), come l'8,9 % su 45 non si usa (E52). Due lacune vere su
+  sette e il residuo dichiarato col suo nome e' la forma giusta;
+- E3 pagato la QUINTA volta, e stavolta il documento c'era: la mail
+  di notifica stava in sources\ mentre una nota dichiarava l'assenza
+  dentro un elenco, fuori dalla formula di E43. T161 chiusa nel
+  lotto; la risposta strutturale e' al punto 2.9;
+- la mail delle 14:33 che da' il reclamo alle 13:05, ANTERIORE alla
+  notifica delle 18:23:47: T5 che si allarga con una padrona e' il
+  vault che lavora. Con T159 (la scheda non dichiara quale procedura
+  applichi la scala) e T160/T162: tracciamento corretto;
+- l'obbligo D4 del canone NON eseguito dal ciclo e PRESO dal passo 7
+  e' il rilievo piu' grave e insieme la prova del perche' il passo 7
+  esiste: ne' la QA ne' il giudice potevano prenderlo, per
+  costruzione. La risposta strutturale e' E62 (punto 2.5);
+- lo slug preso dal giudice al secondo giro, E61 in flagranza tre
+  volte, E39 fermatasi alla porta della nota sorella: tre lezioni,
+  tre estensioni (punti 2.1-2.4);
+- il giudizio dedicato di E58 col criterio 1B applicato alla lettera
+  (solo le 2 correzioni additive su 14 tornate al giudice), e la
+  fotografia sbagliata presa dal giro dedicato — col problema piu'
+  vecchio della correzione, portato sotto un giudice da E32;
+- la densita' di difetto del gruppo post-revisione piu' alta del
+  ciclo, dichiarata come E52 impone e con la stessa lettura di 3A;
+- il canone accresciuto (F1-F10, con la prova di solidita' dei 45
+  giorni), le due sigle di procedura in classe C della tabella alias,
+  e le respinte del §4.5 motivate una per una.
+
+---------------------------------------------------------------------
+PARTE 2 — LE DECISIONI SUGLI OTTO PUNTI DEL §9
+---------------------------------------------------------------------
+Numerazione del §9 del rapporto. Prima l'adempimento d'apertura:
+E62-E63 a metodo_03 col marcatore e la riga nel registro (occasione:
+«gate del lotto 3D»), e le QUATTRO ESTENSIONI dentro il testo di E30,
+E39, E59 ed E61, datate con l'occasione — la riga di ciascuno nel
+registro prende la coda dell'estensione, senza numero nuovo.
+`verifica_emendamenti.py` deve restare verde, e concorde a 63.
+
+2.1 PUNTO 2 → E61 SI ESTENDE ALL'INDIETRO. Una correzione che muove
+    il perimetro — aggiunge o toglie una fonte — cambia il perimetro
+    di verita' della nota intera, e le frasi che c'erano prima si
+    rileggono contro il perimetro nuovo. L'appiglio e' meccanico: se
+    la correzione tocca il blocco Fonti, la rilettura e' dell'intera
+    nota. Tre casi in un lotto solo, e il gate 3B aveva gia' lasciato
+    scritto che a E61 mancava un appiglio: per questo verso ora c'e'.
+    Non e' una rilettura a esito visto (§4.43): e' un buco di
+    perimetro della regola, mostrato in flagranza.
+
+2.2 PUNTO 1 → E59 SI COMPLETA: la meta' B, inapplicabile in apertura
+    quando il lotto porta lui la fonte del dominio, SI DICHIARA tale
+    e SI ESEGUE A LOTTO CHIUSO, con l'esito nel rapporto accanto al
+    tasso. L'osservazione col consuntivo (nove su nove, e `campione
+    reso` da muta a cinque su cinque dentro) e' accolta e resa
+    meccanica: costa un comando alla chiusura, e senza di lei la
+    riserva del 20,0 % resterebbe per sempre non scioglibile.
+
+2.3 PUNTO 3 → E30 SI ESTENDE: LO SLUG E' LA TERZA INTESTAZIONE. Si
+    scrive prima del titolo e nessuna rilettura del testo lo tocca;
+    a ogni correzione che tocca `title` o `summary` si verifica anche
+    lo slug, e se afferma cio' che la correzione ha smentito si
+    rinomina coi wikilink aggiornati nello stesso turno (E42). NON si
+    costruisce un controllo di QA sullo slug: un nome compresso non
+    ha grammatica, e un controllo che legge slug fabbricherebbe un
+    rilievo su ogni nota corretta. La rete e' doppia gia' adesso: il
+    gesto alla correzione, e il giudice — che lo slug lo vede.
+
+2.4 PUNTO 4 → E39 SI ESTENDE: LA RICERCA CORRE FRA LE NOTE. Le altre
+    occorrenze dell'affermazione qualificata si cercano con lo
+    strumento su tutto il vault, non dentro la sola nota corretta, e
+    la correzione dichiara l'esito della ricerca. E42 gia' fissa il
+    turno; questa fissa il perimetro.
+
+2.5 PUNTO 5 → E62, NUOVO: UN OBBLIGO DEL CANONE VERSO UN LOTTO
+    FUTURO SI SPECCHIA IN TABELLA nello stesso turno in cui si
+    scrive. Il canone resta il padrone del contenuto; la tabella e'
+    l'indice che l'apertura legge. D4 e' il caso: scritto al gate di
+    3C solo nel canone, invisibile all'apertura di 3D per
+    costruzione, preso dall'unico strato che il canone lo ha — alla
+    fine del ciclo invece che all'inizio. ADEMPIMENTO una tantum:
+    scorri il canone e verifica che ogni obbligo verso lotti futuri
+    ancora aperto abbia la sua riga T; quelli senza riga la prendono
+    adesso, dichiarati nel rapporto del gate.
+
+2.6 PUNTO 6 → E63, NUOVO: LA COPERTURA SI VERIFICA ANCHE AL
+    CONTRARIO. Per ogni grezzo prescrittivo si scorre l'elenco dei
+    paragrafi numerati e ogni paragrafo senza nota si dichiara col
+    motivo; una definizione operativa non resta mai senza padrona.
+    Due lotti di fila — le cinque righe di registro di 3B, la
+    definizione di reclamo chiuso di 3D — quindi la disciplina di E28
+    e' soddisfatta: la regola viene dai consuntivi. Le due note nate
+    in 3D (`doc-chiusura-di-un-reclamo`, `doc-riferimenti-pro-qa-08`)
+    sono la forma che la regola meccanizza.
+
+2.7 PUNTO 7 → IL DEBITO E' RATIFICATO DOV'E': T159 e T160, T162-T167
+    restano nella tabella, e R2 in coda DOPO 3E. La ragione
+    dell'ordine e' di merito, non di comodo: 3E tocca ancora il
+    dominio reclami (T159, e la meta' di T163), e un R2 rigenerato
+    DOPO la chiusura del tema fotografa il sanato di tutto il tema 3,
+    non di meta'. All'apertura di R2 il rapporto dichiara la
+    differenza fra il perimetro rigenerato e le 65 note dello
+    spezzamento.
+
+2.8 PUNTO 8 → PRO-QA-11: RATIFICATO. La questione con entrambe le
+    gambe (T163) e' la meta' scrivibile, ed e' scritta; l'altra meta'
+    aspetta 3E con l'obbligo esplicito in tabella. Nessun anticipo:
+    il divieto 9-bis vale anche per i codici.
+
+2.9 FUORI TABELLA, LA RISPOSTA STRUTTURALE ALLA QUINTA E3: IL
+    CONTROLLO DI E43 ACQUISTA IL RICONOSCITORE DELLA CLASSE
+    `assenza`. Il censimento di T142 gia' riconosce la forma («31
+    note e 32 occorrenze» alla misura del 23/08): quel riconoscitore
+    entra nel controllo di E43, che smette di cercare la formula e
+    comincia a cercare L'ASSENZA — un'assenza dichiarata fuori dalla
+    formula di attestazione e' ERRORE per le note nate da oggi,
+    AVVISO dichiarato per il pregresso (§4.35), col conteggio del
+    pregresso in una riga T al primo numero libero, contato sul
+    file. E' un fix che AGGIUNGE agganci (§4), con collaudo: difetti
+    piantati nei due versi — assenza in formula con artefatto che
+    passa, assenza fuori formula che scatta — piu' il non-scatto
+    (§4.29/§4.49). La superficie in cui un'assenza si nasconde e'
+    piu' larga della formula che la dichiara: ora il controllo
+    guarda la superficie.
+
+2.10 I DUE COLLAUDI CHE RIFANNO LA LOGICA (gate 3B, punto 4): riga T
+    al primo numero libero, contato sul file — si riportano alla
+    chiamata della via di produzione alla prossima occasione che
+    tocca la suite, non oggi. Un debito dichiarato non e' un debito
+    dimenticato.
+
+2.11 LA REVISIONE DELLA CAPACITA' E' DOVUTA: la §2 del prompt la
+    fissa a dieci lotti di canonizzazione chiusi. Conta i lotti di
+    canonizzazione chiusi DAGLI ELENCHI, da script (i `# MANUTENZIONE`
+    non entrano, E38): se sono almeno dieci, il rapporto di questo
+    gate RACCOGLIE la serie dei consuntivi per lotto — grezzi, note
+    di contenuto, giri di giudizio, rilievi — e la porta al
+    coordinatore. LA DECISIONE sulla capacita' si prende al gate di
+    3E coi numeri davanti, non qui a memoria.
+
+---------------------------------------------------------------------
+PARTE 3 — REGISTRI E CHIUSURA DEL GATE
+---------------------------------------------------------------------
+E62-E63 a metodo_03 col marcatore e la riga nel registro nello stesso
+turno; le quattro estensioni dentro il testo di E30/E39/E59/E61 con
+data e occasione, e la coda nelle rispettive righe di registro; il
+controllo delle assenze col suo collaudo e la sua riga T (2.9); la
+riga T dei collaudi-fotocopia (2.10); la verifica degli obblighi del
+canone senza riga T (2.5); la raccolta dei consuntivi della capacita'
+(2.11); §3 del passaggio di consegne riscritta coi numeri INCOLLATI
+— lotti chiusi compresi, dallo script — e prossimo atto 3E; §5 con la
+riga della copia trovata nella testata del prompt del coordinatore.
+Commit «Gate 3D: E62-E63, le quattro estensioni, il controllo delle
+assenze» + push.
+
+---------------------------------------------------------------------
+PARTE 4 — STOP DICHIARATO
+---------------------------------------------------------------------
+Se dopo le PARTI 2-3 il contesto e' consumato, CHIUDI coi cinque
+gesti: 3E apre a mente fresca con questo stesso file, dalla PARTE 5.
+
+---------------------------------------------------------------------
+PARTE 5 — APERTURA DEL LOTTO 3E
+---------------------------------------------------------------------
+L'ultimo pacchetto del tema 3, come il ripacchettamento l'ha
+definito. Ciclo di `prompt_s4_lotti.txt` §3, senza sconti, e in
+particolare:
+
+5.1 GLI OBBLIGHI EREDITATI, dalla tabella: T159 e' il principale —
+    quale procedura governi la scala delle classi la scheda non lo
+    dichiara, e il vault non scrive nulla del contenuto finche' 3E
+    non porta la procedura che la scheda cita. Con lui la meta' di
+    T163 (il documento che governa il ritiro e i suoi codici) e le
+    altre righe che la tabella assegna al pacchetto. E37 scattera'
+    se il dominio c'e' — e lo dice lo script (E53), non questo
+    prompt: il precedente di 3A non si ripete.
+
+5.2 APERTURA CON TUTTI GLI STRUMENTI, NESSUNO ESCLUSO: E53 verifica
+    il dominio, E56 dichiara la coppia, E59 la collauda — meta' B a
+    chiusura se in apertura e' inapplicabile, dichiarandolo; E60
+    produce l'artefatto delle grandezze condivise e il passo
+    pre-giudizio; E61 vale nei due versi, con l'appiglio del blocco
+    Fonti; E62 e E63 sono in vigore dal primo turno; E21/E28/E52
+    governano le soglie.
+
+5.3 LA CHIUSURA DI 3E E' LA CHIUSURA DEL TEMA 3: il rapporto
+    dichiara il quadro del tema — i lotti che lo hanno composto, la
+    serie dei tassi del tema coi loro domini, il debito residuo in
+    tabella — e porta i consuntivi della capacita' (2.11) se non
+    gia' raccolti al gate. DOPO 3E viene R2, in sessione nuova, con
+    perimetro RIGENERATO da `candidate_r1.py --dominio reclami` e la
+    differenza rispetto alle 65 dichiarata in apertura.
+
+5.4 RITMO: 3E chiude la sessione — ciclo intero, revisione col
+    canone via subagente (E45), giudizio dedicato alle note
+    dell'ultimo giro se nascono (E58), misure E44 con l'ora,
+    adempimenti del passo 11, cinque gesti, push, zip. Poi il
+    rapporto al coordinatore.
+
+---------------------------------------------------------------------
+GUARDIE GENERALI
+---------------------------------------------------------------------
+- 03_valutazione\ non si apre mai, per nessuno, subagenti compresi.
+- Il canone guida e non appare NELLE NOTE; il revisore lo riceve (E45),
+  il giudizio mai.
+- Ogni numero da script, con l'ora della misura (E44) — i lotti
+  chiusi si incollano, non si contano, e ora vale anche per il
+  coordinatore.
+- L'estrattore di MISURA non si tocca; l'estrazione di cantiere e' la
+  via di QA e giudizio.
+- Se qualcosa qui contraddice metodo_03 O LE FONTI, vince la fonte e
+  lo segnali: le correzioni al coordinatore sono sei, e l'ultima
+  l'ha misurata lo strumento che il progetto aveva appena costruito.
+=====================================================================
