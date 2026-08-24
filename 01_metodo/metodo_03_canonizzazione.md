@@ -1251,6 +1251,37 @@ per `type: hub`. Gli `_index` portano il nome della cartella (`_index-areas`,
 - Gli alias si linkano con la forma `[[nota|testo mostrato]]` quando la frase lo
   richiede; il target resta il nome del file.
 
+⚠️ **E64 — IL RIMANDO NOMINA, NON ASSERISCE.** Una frase di raccordo verso un'altra nota
+**non afferma nulla del contenuto di quella nota né delle sue fonti**. La forma che regge
+**nomina**: « la questione ha le sue fonti e sta in `[[…]]` », « il seguito è in `[[…]]` ».
+La forma che non regge **descrive**: « `[[…]]` dice che il termine è di 48 ore »,
+« `[[…]]` dimostra che il turno 3 non esiste ».
+
+⚠️ **La ragione è di perimetro, non di stile: un'affermazione sul contenuto di un'altra
+nota è verificabile solo dalle fonti di QUELLA nota, cioè da nessuna fonte di questa.** Il
+giudizio guarda ogni nota contro **le sue** fonti (§9.5, passo 5), e la glossa dopo un
+wikilink è già una superficie di provenienza (§7.1, clausola 4): la nota che descrive la
+sorella **afferma oltre le proprie fonti anche quando la descrizione è esatta**. E resta
+esatta finché la sorella non viene corretta — che è esattamente il momento in cui nessuno
+rilegge i rimandi che la nominano.
+
+⚠️ **È la specie di E36 portata sul wikilink**: là la nota citava una fonte prescrittiva che
+non prescriveva ciò di cui parlava, qui la nota cita una nota di cui riferisce ciò che non può
+verificare. ⚠️ **E nasce dal buon proposito di tessere il grafo**, che è la ragione per cui
+sopravvive ai giri: chi scrive **sta collegando, non affermando** — ma il lettore e il giudice
+leggono un'affermazione.
+
+⚠️ **Il test operativo, ed è di scrittura, non di controllo:** togli dalla frase tutto ciò
+che segue il nome della nota. Se quel che resta regge, era un rimando. **Se togliendolo la
+frase perde qualcosa, quel qualcosa è un'affermazione**: o ha le sue fonti *in questa nota*
+— e allora si scrive come fatto, con la fonte e il locator — oppure non si scrive.
+
+⚠️ **Il caso**: il terzo giro del lotto 3E l'ha nominata come E26 impone, e l'ha nominata
+**da tre fette indipendenti**. La regola si scrive al gate **senza aspettare l'esperimento del
+criterio pre-registrato**, ed è la via di E50 ed E51: quando il terzo giro nomina una specie
+con casi plurimi, il gate la scrive. **Non è §4.43** — il criterio scritto la sera prima
+chiedeva una terza osservazione a una specie che ne aveva già tre, tutte anteriori al criterio.
+
 ### 4.3 I link ai grezzi
 
 I 160 grezzi vivono in `aurora-cervello\sources\` (§9.1) e si linkano **con il nome
@@ -1353,6 +1384,29 @@ attenzione»:**
 **Il rapporto dichiara i confronti fatti, uno per uno**: un confronto non dichiarato è un
 confronto che nessuno può distinguere da un confronto non fatto.
 
+⚠️ **L'ACCOSTAMENTO PER EVENTO** (E60, **esteso al gate del lotto 3E, 24/08/2026**). Se due
+fonti — **del lotto o già del vault** — registrano **lo stesso evento**, cioè la stessa data e
+lo stesso oggetto (un lotto produttivo, un fermo, una consegna, un blocco), il passo
+pre-giudizio **le legge una di fronte all'altra, riga per riga**, e il rapporto **dichiara
+l'accostamento**.
+
+⚠️ **Le grandezze condivise NON bastano, e il caso lo dimostra al numero.** In 3E il blocco
+del perimetro e il mass balance del lotto `L26130` — **compilati lo stesso giorno dalla stessa
+funzione** — **concordavano su tre numeri** e divergevano su **giacenza, attribuzione e
+perimetro comunicato**. L'artefatto d'apertura elenca le grandezze che *coincidono*: è una
+mappa di dove guardare, e **su quelle tre l'accostamento sarebbe risultato una conferma**. Le
+cinque righe B sono uscite dalla **ricostruzione**, non dalle grandezze — cioè da ciò che le
+due fonti *raccontano* dello stesso pomeriggio.
+
+⚠️ **L'appiglio è meccanico**: due fonti con la stessa data e lo stesso oggetto si accostano,
+senza chiedersi prima se divergeranno. **Il criterio non è «sembrano in contrasto» — è
+«parlano dello stesso fatto».**
+
+⚠️ **Ed è il TERZO LOTTO DI FILA in cui la E2 vera l'ha fatta il revisore** (3A, 3B, 3E): il
+ciclo deve riprendersela, e questo è il gesto con cui se la riprende. ⚠️ **Il vault aveva
+entrambe le gambe da agosto**, e a metterle una di fronte all'altra è stata la revisione col
+canone — cioè la rete di controllo, di nuovo al posto del lavoro.
+
 ⚠️ **Perché l'artefatto sta in APERTURA e non alla chiusura.** Il paragrafo «come si esegue»
 qui sopra colloca l'elenco delle grandezze **alla chiusura del lotto**, ed è tardi per due
 ragioni: a lotto scritto una divergenza trovata costa una riscrittura invece di una scelta di
@@ -1371,8 +1425,9 @@ una **frequenza di verifica**, un **limite** o una **responsabilità di processo
 prescrittiva si apre e si cita — oppure il rapporto dichiara perché non serve.
 
 **Lo strumento, perché un obbligo senza strumento non si rispetta:** l'**elenco delle fonti
-prescrittive del corpus** vive in `06_operativo\fonti_prescrittive.md`, si costruisce da
-script, si aggiorna a ogni lotto, e il ciclo lo consulta al passo 2 di §9.5.
+prescrittive del corpus** vive in `06_operativo\fonti_prescrittive_corpus_v1.md` (**36
+fonti**), si costruisce da script, si aggiorna a ogni lotto, e il ciclo lo consulta al passo 2
+di §9.5.
 
 Nasce dal lotto 1C: **undici note** discutevano punti critici e tarature senza citare il
 manuale HACCP, e in **quattro** casi quel manuale conteneva esattamente ciò che la nota
@@ -2222,12 +2277,41 @@ densità varia del **147 %** sulla propria media, le note per lotto del **50 %**
 non è la densità: è il lotto.** Proiettare la densità misurata sui grezzi restanti dava 903
 note e 36 lotti — un artefatto, prodotto moltiplicando una grandezza instabile per una stabile.
 
-⚠️ **La fascia 25-35 è essa stessa PROVVISORIA, e va rivista a dieci lotti chiusi.** Oggi
-poggia su **quattro osservazioni**, tre delle quali su lotti piccolissimi: è la miglior stima
-disponibile, non una costante del metodo.
+⚠️ **LA REVISIONE A DIECI LOTTI È STATA ESEGUITA — 24/08/2026, gate del lotto 3E — E LA
+FASCIA 25-35 È CONFERMATA.** La riga che stava qui la dichiarava *provvisoria, da rivedere a
+dieci lotti chiusi*: la soglia è stata raggiunta, i consuntivi sono nel **§6 di
+`06_operativo\rapporto_gate_3d.md`**, e la decisione è questa.
 
-⚠️ **E38 — I LOTTI DI MANUTENZIONE NON ENTRANO NELLA SERIE DELLA CAPACITÀ.** Quando a dieci
-lotti chiusi si rivedrà la fascia 25-35, **si contano solo i lotti di canonizzazione**. Un lotto
+| | |
+|---|---|
+| **che cosa la fascia è** | una **grandezza di PROGETTO**: serve al **taglio dei pacchetti in apertura**, cioè a decidere quanti grezzi stanno in un lotto. Non è una previsione, e **non è la soglia che spezza** |
+| **che cosa spezza** | i **tetti duri di E28** — 30 con lo scostamento, 40 sempre — che restano com'erano. **Hanno spezzato giusto due volte** (2B e 3E), e in entrambe la conta d'apertura ha retto |
+| **il consuntivo** | fascia rispettata **4 volte su 10**; superata 5, mancata dal basso 1. ⚠️ **Contando il solo ciclo** — cioè togliendo le note post-revisione, che E52 tiene già fuori dalla soglia — **i lotti dentro la fascia diventano SEI su dieci** |
+| **che cosa NON si fa** | **non si sostituisce la fascia con un'altra fascia.** La densità `note/grezzo` dei dieci lotti va da **7,0 a 25,5**: ciò che si mantiene costante è **il lotto**, non la densità, ed è esattamente la ragione per cui E31 sostituì le fasce con la capacità. **Ricalibrare la fascia sui consuntivi ripeterebbe l'errore che E31 ha già corretto**, spostato di un piano |
+
+⚠️ **La domanda giusta non era «25-35 è il numero giusto?» ma «CHE COSA CONSUMA IL RISCHIO, LE
+NOTE O I GIRI?»** — e la risposta dei consuntivi è che **non sono le note**. I giri di giudizio
+sono **tre in sette lotti su dieci**, e non per caso: il ciclo **quasi mai si chiude per
+esaurimento**, si chiude al terzo giro con il pattern nominato (E26).
+
+⚠️ **Da qui in poi la vigilanza sta su due grandezze, e nessuna delle due è il conteggio delle
+note del ciclo:**
+
+1. **LA DENSITÀ DI DIFETTO DEL GRUPPO POST-REVISIONE.** E52 lo dichiara già come gruppo, con
+   esiti separati; il gate lo guarda già. È stato **più alto del ciclo in 3A, in 3D e in 3E** —
+   tre lotti su tre in cui il confronto è stato fatto — e un gruppo piccolo con un tasso molto
+   più alto è un segnale che **sommarlo al ciclo cancella**.
+2. **LA COSTANZA DEI TRE GIRI.** Se un lotto mostrerà che **tre giri sistematicamente non
+   bastano**, la domanda si riapre — **sui giri**, non sulle note.
+
+⚠️ **E la lezione di metodo del quarto punto dei consuntivi resta scritta dov'è**: le tre serie
+di rilievi dei dieci lotti **non si sommano** — rilievi accolti, errori, note tornate
+`afferma_oltre` sono tre grandezze diverse — e chi legge quella colonna come una sola serie
+legge un numero che non esiste. È E46 applicato a un consuntivo.
+
+⚠️ **E38 — I LOTTI DI MANUTENZIONE NON ENTRANO NELLA SERIE DELLA CAPACITÀ**, e **nella
+revisione eseguita il 24/08/2026 non ci sono entrati**: i dieci consuntivi sono **dieci lotti di
+canonizzazione**, con `R1` fuori. Un lotto
 di manutenzione non punta a produrre note e le sue poche note nuove nascono per caso, da fatti
 senza padrone emersi correggendo: metterlo nella stessa serie abbasserebbe la media di una
 grandezza che misura un'altra cosa. ⚠️ È lo stesso errore del calcolo lineare che ha prodotto
@@ -2337,6 +2421,29 @@ note → suite QA → revisore indipendente → correzioni propagate → suite Q
      `fatto-confezioni-vendute-rincorse-dalla-qualita` non è arrivata a `doc-indicatori-reclami`,
      che portava la stessa affermazione, e **l'ha presa il giro dopo**.
 
+     ⚠️ **E GLI HUB SONO SUPERFICI DELLA RICERCA** (E39, **seconda estensione**, gate del lotto
+     3E, 24/08/2026). Quando una correzione **toglie o qualifica** un'affermazione di uno
+     **spoke**, le **glosse degli hub che lo elencano** si rileggono **nello stesso turno**.
+     ⚠️ **L'appiglio è il grafo, e non chiede giudizio: chi corregge una nota apre gli hub che
+     la linkano** — i backlink li danno senza cercarli, ed è il gesto che porta l'occhio lì.
+
+     ⚠️ **Non è una superficie in più nell'elenco: è una superficie di un'ALTRA NOTA.** Le
+     superfici del paragrafo qui sopra — `summary`, `title`, celle di tabella, frasi di
+     chiusura — stanno tutte dentro la nota che si corregge, e la ricerca del vault (3D) le
+     cerca in note **sorelle**, che ripetono la stessa affermazione. La glossa di un hub non
+     ripete l'affermazione: **la riassume**, spesso in tre parole e con parole diverse, e per
+     questo **la ricerca testuale non la trova**. La trova il grafo.
+
+     ⚠️ **E non è un avviso, è un errore**: la clausola 4 di §7.1 classifica come **ERRORE
+     sull'hub** una glossa che dice ciò che lo spoke non dice. La regola esisteva già dal lato
+     del controllo; **mancava il gesto dal lato di chi scrive** — che è la stessa forma di E42,
+     un turno invece che un perimetro.
+
+     ⚠️ **Il caso**: nel lotto 3E **tre glosse** di hub dicevano ciò che le correzioni avevano
+     tolto dagli spoke, e nessuna delle due estensioni precedenti le nominava. **Sono state
+     trovate scavando sotto un falso allarme** — sei segnalazioni sugli hub respinte nella
+     classificazione e scavate comunque.
+
      ⚠️ **E42 — LA PROPAGAZIONE SI FA NELLO STESSO TURNO DELLA QUALIFICAZIONE**, non a fine
      giro. E39 dice *che cosa* fare; non diceva *quando*, e «quando» non è ovvio: **chi
      corregge su rilievo sta pensando al rilievo, non alla nota intera.** Il caso che lo
@@ -2353,6 +2460,17 @@ note → suite QA → revisore indipendente → correzioni propagate → suite Q
      gli stessi hub** — e il rapporto dichiara i confronti fatti, uno per uno. **In 3B questo
      passo l'ha fatto il revisore al posto del ciclo, e ha prodotto sette delle otto
      divergenze scrivibili del lotto.**
+
+     ⚠️ **E DENTRO QUESTO PASSO STA L'ACCOSTAMENTO PER EVENTO** (E60 esteso, gate del lotto
+     3E): due fonti che registrano **lo stesso evento** — stessa data, stesso oggetto — si
+     leggono **una di fronte all'altra, riga per riga**, e l'accostamento si dichiara. **Le
+     grandezze condivise non bastano**: in 3E le due ricostruzioni concordavano su tre numeri
+     e divergevano su tutto il resto, e ne sono uscite **cinque righe B**.
+   - ⚠️ **I RIMANDI, RILETTI COME AFFERMAZIONI** (E64, §4.2). Ogni frase che nomina un'altra
+     nota si rilegge chiedendosi se **descrive** ciò che quella nota contiene: se lo descrive,
+     afferma su fonti che non sono le proprie. È la superficie che il terzo giro di 3E ha
+     nominato da tre fette indipendenti, e **cresce con il grafo**: più un lotto tesse, più
+     ne produce.
    - ⚠️ **E63 — LA COPERTURA SI VERIFICA ANCHE AL CONTRARIO.** I controlli di copertura partono
      dalla **nota** e chiedono se ha una fonte (§7.4); questo parte dalla **fonte** e chiede se
      ha una nota. Per ogni grezzo **prescrittivo** del lotto si scorre l'elenco dei **paragrafi
@@ -2669,6 +2787,32 @@ note → suite QA → revisore indipendente → correzioni propagate → suite Q
    conteggio di E28 era completo. **Non è una rilettura a esito visto (§4.43): l'esperimento
    non era partito, e la seconda osservazione era anteriore al criterio, non successiva.**
 
+   ⚠️ **L'APPIGLIO DELLA FRASE NUOVA: OGNI CORREZIONE DICHIARA NEL PROPRIO TURNO LA COPPIA
+   FRASE NUOVA → RISCONTRO** (E61, **seconda estensione**, gate del lotto 3E, 24/08/2026).
+   Fonte e **locator**, nella grammatica di §2.3, esattamente come una riga B del canone porta
+   il suo (E49). ⚠️ **Chi non può citare il riscontro NON corregge: apre un rilievo.**
+
+   ⚠️ **Perché serviva un gesto e non un richiamo.** Il verso all'indietro qui sopra ha il suo
+   appiglio meccanico — *se la correzione tocca il blocco `Fonti`, si rilegge la nota intera* —
+   ma **il verso in avanti, la frase nuova, non ne aveva nessuno**: diceva «rileggila contro le
+   fonti», che è la stessa cosa che il metodo chiede per ogni frase e che per la frase nuova non
+   accadeva. **Il criterio pre-registrato del gate di 3B si è avverato**, e non una volta: tre
+   correzioni su tre giri in **3E**, dopo tre in **3D** e sette in **3B**, ognuna presa dal giro
+   dopo.
+
+   | Il consuntivo | |
+   |---|---|
+   | **3B** | sette dei dodici rilievi del terzo giro su frasi che al secondo non c'erano |
+   | **3D** | tre casi, due dentro una riconciliazione di E60 |
+   | **3E** | **tre correzioni su tre giri**, tutte prese dal giro successivo |
+
+   ⚠️ **La rete funziona, ma ogni maglia costa un giro**, ed è questo il conto che l'estensione
+   chiude: un difetto introdotto al primo giro e preso al secondo consuma un giro intero del
+   budget di E26, che ne concede tre. ⚠️ **Il gesto è meccanico quanto può esserlo senza uno
+   script**: la coppia dichiarata è **verificabile da chi rilegge il turno** — non chiede fiducia,
+   chiede una citazione — e questo la distingue da «rileggere con più attenzione», che è la forma
+   che questo manuale rifiuta da E39 in poi.
+
 5-bis. **NOTA-SESSIONE nel journal** (`workspace\`), **e solo DOPO di essa il blocco dei
    conteggi di `conta_stato.py`** (E34). Quel blocco è **l'ultimo numero che si produce prima
    del commit**: è lui che si incolla nello stato (passo 6) e nel rapporto di lotto.
@@ -2864,9 +3008,15 @@ note → suite QA → revisore indipendente → correzioni propagate → suite Q
    tutte le fonti prescrittive del corpus. **Il numero è vero, il suo nome promette di più**, e
    chi lo legge capisce «tutte le prescrizioni».
 
-   La serie si scrive quindi con l'etichetta accanto:
-   **R1 57,7 %** *(perimetro CCP e tarature)* · **2A 3,3 %** *(dominio `cip`)* ·
-   **2B 0,0 %** *(dominio `acqua`)*.
+   La serie si scrive quindi **con l'etichetta accanto**, nella forma
+   `<lotto> <tasso> (dominio <nome>)` — per esempio *R1 57,7 % (perimetro CCP e tarature)*.
+
+   ⚠️ **La serie stessa NON vive qui, e la copia che ci viveva è stata tolta al gate del lotto
+   3E.** Il manuale porta **la forma**, il cui padrone è questo file; **i punti** hanno un altro
+   padrone, che è la §3 di `06_operativo\passaggio_di_consegne_coordinatore.md`, riscritta a
+   ogni lotto. La copia che stava qui si era fermata a **tre punti** mentre la serie ne aveva
+   **nove**: è la seconda malattia della famiglia di T39 — **l'indice che resta indietro** — e
+   un elenco che cresce a ogni lotto non si tiene in un manuale che si emenda ai gate.
 
    ⚠️ **Il caso che l'ha generata, ed è istruttivo perché nessuna delle due misure sbagliava.**
    Nel lotto 2B lo script dava **0,0 % su 27 note** mentre lo strato di giudizio trovava **due
@@ -2883,6 +3033,26 @@ note → suite QA → revisore indipendente → correzioni propagate → suite Q
    nota per portare il tasso a zero significa **truccare il numero che la misura esiste per
    produrre**: il primo punto della serie — 3,3 % nel lotto 2A contro il 57,7 % di R1 — vale
    perché l'unico caso è stato scritto col suo nome invece di essere fatto sparire.
+
+   ⚠️ **IL PUNTO DEGENERE SI DICHIARA** (E41, **esteso al gate del lotto 3E, 24/08/2026**). Un
+   lotto **mono-fonte il cui unico grezzo È la fonte che governa il dominio** produce uno
+   **0,0 % STRUTTURALE**: ogni nota nata cita quella fonte **per costruzione**, e **nessuna può
+   risultare scoperta**. Il numero è vero, e **il suo potere discriminante è nullo**.
+
+   **Il punto ENTRA nella serie, con la dicitura accanto**: *«degenere: lotto mono-fonte sulla
+   fonte del dominio»*.
+
+   | | |
+   |---|---|
+   | **perché entra** | la serie fotografa **le misure come sono state prese** — è la stessa disciplina per cui il 38,7 % di 3C resta con la sua riserva e il lotto non si rimisura (E56). Togliere un punto perché non insegna niente è riscrivere la serie a esito visto |
+   | **perché porta la dicitura** | un `0,0 %` senza di essa **si legge come un successo del metodo**, e sarebbe la lettura opposta al vero: lì il metodo non è stato messo alla prova. **È E46 portato alle conseguenze** — il numero dice su che cosa è misurato, e qui deve dire anche **che cosa non poteva misurare** |
+   | **ciò che NON si fa** | **non si inventa un dominio artificiale per ottenere un numero «utile»**. Sarebbe il trucco di E41 rovesciato: là si aggiungeva una fonte per portare il tasso a zero, qui si allargherebbe il dominio per portarlo sopra zero. **Le due mosse sono lo stesso errore in due direzioni** |
+
+   ⚠️ **Il caso è 3E**: `0,0 % su 30` note, **un grezzo solo** — `PRO-QA-14`, che è la procedura
+   che governa il dominio `ritiro`. ⚠️ **E si riconosce IN APERTURA, non a misura fatta**: il
+   conto dei grezzi e la dichiarazione del dominio (E53, E56) bastano a dirlo prima di scrivere
+   una riga, e **il lotto che sa di essere degenere lo dichiara in apertura**. Un punto degenere
+   riconosciuto solo alla fine è un numero che per qualche ora ha detto una cosa falsa.
 
    La rete finale resta: **un secondo lotto di manutenzione a fine corsa**. ⚠️ **Ma non è un
    secondo passaggio sul vault, ed è il primo punto della serie a deciderlo**: è la chiusura

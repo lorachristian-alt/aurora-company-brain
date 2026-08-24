@@ -2198,3 +2198,69 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   del confine sono divergenze del documento con se' stesso. Sono note `atomica` col prefisso
   `fatto-`, come `fatto-perimetro-stimato-del-ritiro` del lotto 3D, **e lo slug si e' riscritto
   con loro**.
+- **2026-08-24** · ⚠️ **E64 — IL RIMANDO NOMINA, NON ASSERISCE**, approvato al gate del lotto 3E ·
+  una frase di raccordo verso un'altra nota **non afferma nulla del contenuto di quella nota ne'
+  delle sue fonti**: « la questione ha le sue fonti e sta in `[[x]]` » regge, « `[[x]]` dice
+  che... » no. ⚠️ **La ragione e' di perimetro, non di stile**: un'affermazione sul contenuto di
+  un'altra nota e' verificabile **solo dalle fonti di quella nota**, cioe' da nessuna fonte di
+  questa — ed e' **la specie di E36 portata sul wikilink**. ⚠️ **Scritta senza aspettare
+  l'esperimento del criterio pre-registrato la sera prima, e non e' §4.43**: il terzo giro di 3E
+  l'aveva gia' nominata **da tre fette indipendenti**, quindi le osservazioni erano tre e tutte
+  **anteriori** al criterio. E' la via di E50 ed E51. Vive in **§4.2**, richiamata nel passo
+  2-bis di §9.5.
+- **2026-08-24** · ⚠️ **QUATTRO ESTENSIONI SENZA NUMERO NUOVO, tutte applicate nel turno in cui
+  sono state scritte** · **E41** il punto degenere si dichiara — un lotto mono-fonte sulla fonte
+  del dominio produce uno `0,0 %` strutturale, che entra nella serie con la dicitura e **non si
+  aggiusta inventando un dominio artificiale**; **E39** gli hub sono superfici della ricerca,
+  perche' la glossa **riassume** invece di ripetere e la ricerca testuale non la trova;
+  **E60** l'accostamento per evento, perche' le grandezze condivise **non bastano** — in 3E le
+  due ricostruzioni concordavano su tre numeri e divergevano su tutto il resto; **E61** la frase
+  nuova porta il suo riscontro **nel proprio turno**, fonte e locator come una riga B, e chi non
+  puo' citarlo **non corregge: apre un rilievo**.
+- **2026-08-24** · ⚠️ **LA CAPACITA' 25-35 E' CONFERMATA COME GRANDEZZA DI PROGETTO, e la riga
+  «provvisoria» del 19/08 si chiude** · revisione eseguita a dieci lotti di canonizzazione
+  chiusi, coi consuntivi del §6 di `rapporto_gate_3d.md` davanti. La fascia serve **al taglio
+  dei pacchetti in apertura**; a spezzare restano i **tetti duri di E28**, che hanno spezzato
+  giusto due volte. ⚠️ **NON si sostituisce la fascia con un'altra fascia**: la densita' va da
+  **7,0 a 25,5**, cioe' cio' che si mantiene costante e' **il lotto**, e ricalibrare sui
+  consuntivi ripeterebbe l'errore che **E31** ha gia' corretto, spostato di un piano.
+  ⚠️ **La domanda vera era «che cosa consuma il rischio, le note o i giri?», e la risposta e'
+  che non sono le note**: tre giri in **sette** lotti su dieci — le tre eccezioni sono 1A (due),
+  1B (quattro, prima che E26 esistesse) e 3D (due piu' due dedicati). ⚠️ **Il consuntivo del
+  gate 3D scriveva «otto», e la sua stessa tabella ne conta sette**: il numero e' corretto qui,
+  il rapporto di quel gate resta com'e' perche' e' un verbale. La vigilanza va sulla **densita' del
+  gruppo post-revisione** (piu' alta del ciclo in 3A, 3D e 3E) e sulla **costanza dei tre giri**.
+- **2026-08-24** · ⛔ **UN CONFRONTO DICHIARATO SENZA L'ORA DEL PRIMO TERMINE E' MEZZA MISURA, E
+  MEZZA MISURA NON SI DICHIARA** · il rapporto di 3E scriveva «gli avvisi salgono da 425 a 426»,
+  e **il 425 non e' mai stato misurato**: non compare in nessun report, commit o documento. Le
+  misure vere del 24/08 sono **344** (chiusura 3D), **369** (gate 3D, 13:27) e **426** (3E,
+  15:17), lette dai `qa_all.md` versionati. ⚠️ **Il passaggio e' 369 → 426, cioe' +57**: +35
+  link integrity (30 «lontana dall'`_index`»), +16 frontmatter (14 summary oltre il tetto), +6
+  provenance. ⚠️ **Il 425 e' coerente con un numero ottenuto ALL'INDIETRO**, sottraendo da 426
+  l'unita' che il lotto credeva di aver aggiunto — **il gesto che E44 vieta**. Il termine
+  «prima» sugli **errori** era invece giusto (108, gate 3D). **Zero rilievi di merito in tutte e
+  tre le misure**: cambia il numero dichiarato, non il merito del lotto.
+- **2026-08-24** · ⚠️ **UNA PIANIFICAZIONE SCRITTA IN UN PROMPT PORTA IL CONDIZIONALE DELLA
+  MISURA** · corollario alla regola del coordinatore, dal gate di 3E. Il prompt scriveva «la
+  chiusura di 3E e' la chiusura del tema 3» e la conta dei fatti l'ha smentito. ⚠️ **NON conta
+  come settima correzione**: quando la frase fu scritta il conto di E21 non esisteva ancora, e
+  non c'era nulla di verificabile da verificare. **Ma la forma era sbagliata**, e si scrive
+  « ultimo pacchetto, **salvo il conto di E21** » — perche' un'apertura puo' sempre smentire un
+  piano **ed e' fatta apposta**. E' E53 applicato a una pianificazione invece che a un dominio.
+- **2026-08-24** · ⚠️ **LA RESPINTA DI UN'ESPRESSIONE VIAGGIA CON LA DICHIARAZIONE DEL DOMINIO** ·
+  `\bPRO-QA-11\b`, tolta dal dominio `ritiro` dalla meta' B di E59 con quota fuori **0,57**, **non
+  rientra nella rigenerazione di R2 senza una prova nuova**. La condizione e' scritta in testa a
+  `qa\lotti\r2_reclami_verticale.txt` e nella matrice, cioe' **dove passa chi apre il lotto**: e' la
+  forma di **E62**. ⚠️ **Un esito di collaudo che vive solo in un rapporto chiuso non lo vede chi
+  apre il lotto sei giorni dopo**, e l'espressione tornerebbe dentro per la via piu' naturale del
+  mondo — copiando la dichiarazione del lotto che portava la fonte.
+- **2026-08-24** · ⚠️ **DUE PUNTATORI A FILE RIPARATI, ED ERANO LA STESSA SPECIE: UNA BARRA
+  ROVESCIA MANGIATA** · `metodo_03` §5.1-bis rimandava a `06_operativo\fonti_prescrittive.md`, che
+  **non esiste** (il file e' `fonti_prescrittive_corpus_v1.md`, 36 fonti); la matrice portava un
+  **byte di controllo 0x0C** al posto di `\f`, quindi il nome che ne usciva era
+  `06_operativo` + form-feed + `onti_prescrittive_corpus_v1.md`. ⚠️ **Non e' tipografia: e' lo
+  strumento della riconciliazione verticale**, e i due rimandi che dovrebbero portarcelo
+  puntavano a un file che non c'e'. ⚠️ **Il secondo era invisibile a ogni lettura e a ogni
+  ricerca del nome giusto**. Il repository e' stato scandito per intero: **gli unici altri byte
+  di controllo stanno nei `pacchetto_giudizio_*.txt`**, dove vengono dall'estrazione dei grezzi e
+  sono il verbale di cio' che il giudice ha ricevuto — **non si toccano**.
