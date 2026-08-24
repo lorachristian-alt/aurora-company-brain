@@ -1,0 +1,817 @@
+Giudichi note di un archivio aziendale rispetto ai documenti che dichiarano come
+fonte. Non devi migliorare le note, non devi riscriverle e non devi rispondere
+alle domande che pongono: devi giudicare se stanno in piedi sulle loro fonti.
+
+Per ogni nota ricevi: il nome, il corpo integrale, l'elenco delle fonti che
+dichiara e il testo estratto di ciascuna di quelle fonti.
+
+Rispondi SOLO a queste tre domande, in quest'ordine:
+1. Ogni fonte elencata contribuisce davvero alla nota? Una fonte che non sorregge
+   nessuna affermazione e' rumore nel payload, e va segnalata.
+2. La nota afferma qualcosa che le fonti non dicono, pur senza numeri? Cerca le
+   affermazioni qualitative: cause, intenzioni, conseguenze, attribuzioni di una
+   frase a una persona, giudizi di conformita'. I numeri, le date e i codici NON
+   sono affar tuo: li ha gia' verificati lo strato deterministico.
+
+3. Esiste, FRA LE FONTI CHE HAI RICEVUTO IN QUESTO PACCHETTO, un documento che
+   misura o afferma la stessa grandezza di cui la nota parla, e che la nota NON
+   cita? Non e' un difetto di provenienza: e' una lacuna di copertura. La segnali
+   FUORI dal verdetto, in coda alla risposta, dicendo quale nota e quale
+   documento, e NON cambi per questo l'esito della nota.
+
+Assegna a ogni nota esattamente un esito:
+- `pulita` — ogni fonte contribuisce e nessuna affermazione eccede le fonti
+- `fonte_inutile` — almeno una fonte elencata non sorregge nulla
+- `afferma_oltre` — almeno un'affermazione non ha riscontro nelle fonti citate
+- `entrambi` — sia una fonte inutile sia un'affermazione che eccede
+
+Restituisci UNA riga JSON per nota, con esattamente questi campi:
+`nota`, `esito`, `motivazione` (una riga sola, che cita l'affermazione o la fonte
+esatta a cui ti riferisci).
+
+Regole che non puoi violare:
+- Non essere generoso: se un'affermazione non e' ritrovabile leggendo le fonti,
+  non e' fondata anche se e' plausibile e ben scritta.
+- Un'inferenza DICHIARATA come tale («i due documenti, letti insieme, mostrano
+  che…», «la trascrizione non lo afferma: e' un'attribuzione») e' legittima e non
+  si segnala. E' l'inferenza fatta passare per dato della fonte che si segnala.
+- Una nota che riporta due valori divergenti senza sceglierne uno sta facendo il
+  suo mestiere: non e' un difetto, e non si segnala.
+- Non proponi correzioni e non riscrivi niente. Riporti, e basta.
+- Non ricevi il canone e non devi cercarlo: confronti la nota contro le sue
+  fonti, punto. Il giudizio sulla copertura dei fatti spetta a un altro ruolo.
+- La terza domanda non ti autorizza a giudicare la copertura dell'archivio: ti
+  chiede solo di segnalare cio' che hai gia' sotto gli occhi dentro il pacchetto.
+  Se un documento non e' nel pacchetto, per te non esiste.
+
+
+======================================================================
+PROMPT v2 del 2026-08-18 — non modificarlo per questo lotto.\n
+======================================================================
+
+======================================================================
+FETTA 3 DI 4 — 10 note da giudicare.
+Giudichi SOLO le note di questa fetta, contro le fonti in coda a questo
+file. ⚠️ Se l'appendice delle fonti mancasse o non contenesse i documenti
+che le note citano, DICHIARA L'INGRESSO DEGRADATO e non emettere verdetti:
+è un esito legittimo e vale più di un verdetto costruito sul nulla.
+======================================================================
+
+----------------------------------------------------------------------
+>>>>> NOTA DA GIUDICARE: fatto-team-di-crisi-convocato-15-05.md
+----------------------------------------------------------------------
+---
+title: "Il team di crisi è convocato per la mattina del 15 maggio, e la decisione sul ritiro è ancora aperta"
+summary: "L'annotazione del 14/05 registra la convocazione del team di crisi per il 15/05 alle 8:00 in sala riunioni e per telefono, con la decisione sul ritiro cautelativo ancora da prendere e due posizioni dichiarate."
+type: atomica
+area: direzione
+tags: [projects, qualita, direzione, ritiro, rec-2026-011, crisi]
+fonti:
+  - procedura_ritiro_prodotto_CRISI_GDO.txt
+stato: risolto
+aliases: []
+data_fatto: 2026-05-14
+data_nota: 2026-08-24
+related: "[[doc-team-di-crisi]], [[fatto-procedura-applicata-al-caso-di-maggio]], [[fatto-costo-stimato-del-ritiro-31500]], [[fatto-due-segnalazioni-rendono-il-ritiro-non-rimandabile]], [[area-direzione]]"
+---
+
+# La riunione, e le due posizioni
+
+> team crisi convocato x domattina **15/05 h 8:00** sala riunioni + tel
+
+La convocazione avviene con i mezzi che il §5 della procedura ammette: «**con qualsiasi
+mezzo**».
+
+Sulla decisione, l'annotazione scrive due posizioni:
+
+| Chi | Che cosa sostiene |
+|---|---|
+| chi scrive (RSGQ) | «**propendo SI su entrambi i lotti**», e aspettare l'identificazione del materiale significa «**perdere il weekend di vendite a scaffale**» |
+| Bertoldi | vuole «**capire prima quanto costa**» |
+
+E una riga di commento: «**Il costo lo sa.**»
+
+## Perché conta
+
+⚠️ **La decisione sul ritiro cautelativo, alla sera del 14/05, non era presa**, e l'annotazione
+la registra come aperta: è il punto in cui la procedura consegna la scelta al team.
+
+⚠️ **L'annotazione registra le due posizioni e non dice come si siano conciliate**: la
+decisione, alla sera del 14/05, non c'è.
+
+⚠️ **Il conflitto fra l'accertamento e il calendario commerciale è dichiarato per iscritto**, ed
+è la stessa tensione che [[fatto-due-segnalazioni-rendono-il-ritiro-non-rimandabile]] registra
+dall'altro lato.
+
+## Fonti
+
+- [[procedura_ritiro_prodotto_CRISI_GDO.txt]] — §ANNOTAZIONE MANOSCRITTA SU COPIA CONTROLLATA N. 02, 14/05/26 h 17:40, E. Marchetti: «team crisi convocato x domattina 15/05 h 8:00 sala riunioni + tel» e «decidere: ritiro cautelativo si/no -> propendo SI su entrambi i lotti, aspettare identificazione materiale = perdere il weekend di vendite a scaffale. Bertoldi vuole "capire prima quanto costa". Il costo lo sa.»
+
+----------------------------------------------------------------------
+>>>>> NOTA DA GIUDICARE: doc-avviso-al-consumatore-e-portavoce.md
+----------------------------------------------------------------------
+---
+title: "In caso di richiamo l'avviso va esposto a scaffale, e il portavoce è soltanto l'Amministratore Delegato"
+summary: "PRO-QA-14 impone in classe 1 la predisposizione dell'avviso al consumatore da esporre nei punti vendita e riserva ogni dichiarazione pubblica all'Amministratore Delegato o a un suo delegato, con la bozza già scritta nell'Allegato 3."
+type: atomica
+area: direzione
+tags: [docs, qualita, direzione, ritiro, richiamo, pro-qa-14, comunicazione]
+fonti:
+  - procedura_ritiro_prodotto_CRISI_GDO.txt
+stato: risolto
+aliases: []
+data_nota: 2026-08-24
+related: "[[doc-pro-qa-14]], [[doc-classi-di-gravita-della-crisi]], [[area-direzione]], [[area-qualita]]"
+---
+
+# L'avviso, e chi parla
+
+In caso di **richiamo** — quindi in classe 1 — la fase 3 prescrive due cose insieme: la
+**predisposizione dell'avviso al consumatore da esporre a scaffale**, e la **valutazione con la
+Direzione** di un comunicato stampa o di una pubblicazione sul sito.
+
+> Il portavoce è **ESCLUSIVAMENTE l'AD o suo delegato: nessun altro rilascia dichiarazioni.**
+
+## La bozza è già scritta
+
+L'Allegato 3 porta il testo pronto: denominazione, marchio, formato, lotto e TMC, lo
+stabilimento di produzione, il motivo del richiamo, e l'invito a **non consumare il prodotto e
+a riportarlo al punto vendita**, dove sarà rimborsato o sostituito **anche in assenza di
+scontrino**. La bozza chiude con una frase di perimetro: «**Nessun altro lotto o prodotto**
+Aurora Food Group è interessato dal presente avviso».
+
+## Perché conta
+
+⚠️ **La riserva sul portavoce è scritta in maiuscolo e senza eccezioni**, ed è l'unica regola
+della procedura formulata come divieto assoluto.
+
+⚠️ **Il rimborso senza scontrino è una scelta già presa**, non da decidere nel momento della
+crisi.
+
+⚠️ **La frase di chiusura dell'avviso è un'affermazione di perimetro che va verificata prima di
+essere esposta**: dichiara che nessun altro lotto è coinvolto, e quel perimetro lo stabilisce
+la ricostruzione della fase 2.
+
+## Fonti
+
+- [[procedura_ritiro_prodotto_CRISI_GDO.txt]] — §6 «FLUSSO OPERATIVO», FASE 3, punto c): l'avviso a scaffale, la valutazione del comunicato con la Direzione e la riserva sul portavoce.
+- [[procedura_ritiro_prodotto_CRISI_GDO.txt]] — §8.2 «BOZZA AVVISO AL CONSUMATORE DA ESPORRE A SCAFFALE (All. 3)»: il testo pronto, il rimborso «anche in assenza di scontrino» e la frase «Nessun altro lotto o prodotto Aurora Food Group è interessato dal presente avviso».
+
+----------------------------------------------------------------------
+>>>>> NOTA DA GIUDICARE: doc-classi-di-gravita-della-crisi.md
+----------------------------------------------------------------------
+---
+title: "Le tre classi di gravità della crisi, e che cosa ciascuna obbliga a fare"
+summary: "PRO-QA-14 §4 classifica l'evento in tre classi con azioni diverse: la classe 1 impone richiamo e notifica all'Autorità entro 24 ore, la 2 il ritiro, la 3 nessuna notifica, e la valutazione è del RSGQ col team di crisi."
+type: atomica
+area: qualita
+tags: [docs, qualita, ritiro, richiamo, pro-qa-14, classificazione]
+fonti:
+  - procedura_ritiro_prodotto_CRISI_GDO.txt
+stato: risolto
+aliases: []
+data_nota: 2026-08-24
+related: "[[doc-pro-qa-14]], [[area-qualita]], [[doc-classi-reclamo]], [[questione-classe-del-reclamo-rec-2026-011]]"
+---
+
+# Classe 1, 2 e 3 — e le azioni che ne discendono
+
+La valutazione è **del RSGQ con il supporto del team di crisi**, e si registra su `MOD-QA-31`
+**con il razionale della decisione**.
+
+| Classe | Che cos'è | Azione prescritta |
+|---|---|---|
+| **1** | rischio sanitario **grave e immediato**: patogeni in prodotto RTE, allergene non dichiarato, corpo estraneo **tagliente o perforante**, contaminante chimico oltre i limiti | **RICHIAMO** + notifica all'Autorità competente ex art. 19 Reg. 178/2002 **entro 24 h** + eventuale comunicato al consumatore |
+| **2** | rischio **potenziale o non immediato**: corpo estraneo **non tagliente**, deviazione di processo da valutare, difetto di confezionamento che compromette la conservabilità | **RITIRO**, notifica all'Autorità **se il prodotto può essere non sicuro**, comunicazione ai clienti |
+| **3** | difetto di qualità **senza rischio sanitario**: difetti organolettici, peso, etichettatura non ingannevole | gestione commerciale, **nessuna notifica**, eventuale ritiro volontario concordato |
+
+## Perché conta
+
+⚠️ **Il discrimine fra classe 1 e classe 2 per un corpo estraneo è una sola parola —
+tagliente** — e da quella parola dipendono il richiamo, la notifica all'Autorità e l'avviso al
+consumatore.
+
+⚠️ **La notifica in classe 2 non è automatica**: è condizionata al giudizio «se il prodotto può
+essere non sicuro», e il §6 lo lega a due condizioni congiunte — la possibile non conformità ai
+requisiti dell'**art. 14 del Reg. 178/2002** e l'**uscita dal controllo diretto dell'azienda**.
+
+⚠️ **Questa scala ha tre classi e usa `MOD-QA-31` per registrarle**, come la scala dei reclami
+di [[doc-classi-reclamo]]: quale delle due si applichi a un caso concreto è la materia di
+[[questione-classe-del-reclamo-rec-2026-011]].
+
+## Fonti
+
+- [[procedura_ritiro_prodotto_CRISI_GDO.txt]] — §4 «CLASSIFICAZIONE DELLA GRAVITA'»: le tre classi con le rispettive azioni, la competenza del RSGQ e la registrazione su MOD-QA-31 «con il razionale della decisione».
+
+----------------------------------------------------------------------
+>>>>> NOTA DA GIUDICARE: doc-comunicazione-ai-clienti-nella-crisi.md
+----------------------------------------------------------------------
+---
+title: "Ai clienti GDO si comunica entro ventiquattro ore, e per Tosano la procedura nomina la persona"
+summary: "PRO-QA-14 §6 fase 3 impone la comunicazione a tutti i destinatari dei lotti via PEC e telefono, indicando per la GDO l'ufficio qualità e il buyer e per Tosano nominativamente la dott.ssa Perbellini, e vuole che preceda ogni notizia ai media."
+type: atomica
+area: commerciale
+tags: [docs, qualita, commerciale, ritiro, pro-qa-14, gdo, comunicazione]
+fonti:
+  - procedura_ritiro_prodotto_CRISI_GDO.txt
+stato: risolto
+aliases: []
+data_nota: 2026-08-24
+related: "[[doc-pro-qa-14]], [[doc-notifica-all-autorita]], [[entita-tosano-cerea]], [[fatto-richiesta-relazione-48-ore]], [[area-commerciale]]"
+---
+
+# Chi si avvisa, e in che ordine
+
+La comunicazione va a **tutti i destinatari dei lotti**. Per la grande distribuzione la
+procedura indica **l'ufficio qualità del cliente più il buyer**; per Tosano fa un nome — la
+**dott.ssa Anna Perbellini, QA fornitori** — e mette il Category Manager per conoscenza. Il
+mezzo è **PEC più telefono**, e il modello è la bozza pronta dell'Allegato 2.
+
+⚠️ **Il termine porta con sé una precedenza**: la tabella delle tempistiche scrive «entro 24 h,
+**comunque prima della notifica ai media** se richiamo».
+
+## Il termine delle quarantotto ore era già qui
+
+La stessa tabella fissa la **risposta a richieste QA cliente entro 48 h**, e ne dichiara la
+fonte: il **capitolato Tosano**. ⚠️ **La procedura è del 10/09/2025**, quindi il termine che
+quel cliente attiverà a maggio ([[fatto-richiesta-relazione-48-ore]]) **era già scritto in
+questo documento** otto mesi prima.
+
+## Perché conta
+
+⚠️ **Un prescrittivo che fa un nome proprio dichiara un rapporto**: la persona nominata è il
+canale che l'azienda si è data verso **l'unico cliente per cui questa procedura fa
+un'eccezione nominativa**.
+
+⚠️ **L'ordine fra clienti e media non è una cortesia commerciale**: è scritto come vincolo di
+sequenza dentro lo stesso termine.
+
+## Fonti
+
+- [[procedura_ritiro_prodotto_CRISI_GDO.txt]] — §6 «FLUSSO OPERATIVO», FASE 3, punto b): i destinatari, «per Tosano: dott.ssa Anna Perbellini - QA fornitori - e per conoscenza il Category Manager», il mezzo PEC più telefono e il rimando all'All. 2.
+- [[procedura_ritiro_prodotto_CRISI_GDO.txt]] — §7 «TEMPISTICHE RIEPILOGATIVE»: «Comunicazione clienti GDO entro 24 h, comunque prima della notifica ai media se richiamo» e «Risposta a richieste QA cliente entro 48 h (capitolato Tosano)».
+
+----------------------------------------------------------------------
+>>>>> NOTA DA GIUDICARE: doc-flusso-della-crisi-sei-fasi.md
+----------------------------------------------------------------------
+---
+title: "Il flusso della crisi ha sei fasi, e le prime tre hanno un termine misurato in ore"
+summary: "PRO-QA-14 §6 scandisce la crisi in sei fasi dalla segnalazione alla chiusura, con la valutazione preliminare entro due ore, il blocco e la ricostruzione entro quattro dalla convocazione e le notifiche entro ventiquattro dalla conferma del rischio."
+type: atomica
+area: qualita
+tags: [docs, qualita, ritiro, pro-qa-14, crisi, tempistiche]
+fonti:
+  - procedura_ritiro_prodotto_CRISI_GDO.txt
+stato: risolto
+aliases: []
+data_nota: 2026-08-24
+related: "[[doc-pro-qa-14]], [[area-qualita]], [[doc-mass-balance-nella-crisi]], [[doc-notifica-all-autorita]], [[doc-riesame-post-crisi]]"
+---
+
+# Dalle segnalazione alla chiusura, in sei fasi
+
+| Fase | Che cosa impone | Entro |
+|---|---|---|
+| **0 — Segnalazione (T0)** | ogni segnalazione potenzialmente rilevante va **senza filtro** al RSGQ, fuori orario ai numeri di reperibilità; registrazione immediata su `MOD-QA-31` | — |
+| **1 — Valutazione preliminare** | prodotto e lotti coinvolti, natura del pericolo, classificazione, prima stima delle quantità; esito verbalizzato anche in forma sintetica | **2 ore da T0** |
+| **2 — Blocco e ricostruzione** | blocco informatico e fisico su `MOD-MAG-02` con cartellini BLOCCATO, ricostruzione **a valle** e **a monte**, mass balance, sospensione delle spedizioni | **4 ore dalla convocazione** |
+| **3 — Notifiche** | Autorità competente, clienti, ed eventuale avviso al consumatore | **24 ore dalla conferma del rischio** |
+| **4 — Gestione del reso** | rientro con DDT dedicato, segregazione in **zona R** del magazzino di Via Palù, conta e riconciliazione, destino deciso dal RSGQ con verbale | — |
+| **5 — Chiusura e riesame** | causa radice coi cinque perché o Ishikawa, azioni correttive, **confronto fra i tempi effettivi e quelli di procedura**, costi quantificati dall'Amministrazione | **15 giorni dalla chiusura operativa** |
+
+## Perché conta
+
+⚠️ **Le tre soglie non partono dallo stesso istante**: le due ore dalla segnalazione, le quattro
+**dalla convocazione**, le ventiquattro **dalla conferma del rischio**. Sommarle darebbe un
+termine che la procedura non fissa.
+
+⚠️ **La classe 3 esce dal flusso alla fase 1** e torna alla gestione ordinaria dei reclami.
+
+⚠️ **La fase 5 chiede di misurare la procedura contro sé stessa** — i tempi effettivi contro
+quelli prescritti — e lo chiede **dopo ogni crisi reale**, non solo nella simulazione annuale.
+
+## Fonti
+
+- [[procedura_ritiro_prodotto_CRISI_GDO.txt]] — §6 «FLUSSO OPERATIVO»: le fasi da 0 a 5 con i rispettivi termini, il blocco su MOD-MAG-02, la zona R e il riesame entro 15 giorni.
+
+----------------------------------------------------------------------
+>>>>> NOTA DA GIUDICARE: doc-gestione-del-prodotto-reso.md
+----------------------------------------------------------------------
+---
+title: "Il prodotto ritirato rientra con un DDT dedicato, si segrega in zona R e il suo destino lo decide il RSGQ con verbale"
+summary: "PRO-QA-14 fase 4 prescrive il rientro con causale reso per ritiro, la segregazione in area identificata del magazzino di Via Palù, la riconciliazione col mass balance, tre destini possibili e la conservazione di almeno dieci pezzi per lotto."
+type: atomica
+area: logistica
+tags: [docs, qualita, logistica, ritiro, pro-qa-14, reso]
+fonti:
+  - procedura_ritiro_prodotto_CRISI_GDO.txt
+stato: risolto
+aliases: []
+data_nota: 2026-08-24
+related: "[[doc-pro-qa-14]], [[doc-flusso-della-crisi-sei-fasi]], [[doc-mass-balance-nella-crisi]], [[area-logistica]], [[area-qualita]]"
+---
+
+# Che fine fa il prodotto che torna indietro
+
+La fase 4 mette in fila cinque passaggi:
+
+1. il prodotto rientra con **DDT dedicato**, causale «reso per ritiro», ed è **segregato in area
+   dedicata identificata** — magazzino di Via Palù, **zona R**;
+2. **conta e riconciliazione con il mass balance**, con aggiornamento delle quantità;
+3. il **destino lo decide il RSGQ con verbale**: distruzione tramite ditta autorizzata con
+   formulario, **declassamento ad alimento zootecnico** ove ammissibile, e **riutilizzo escluso
+   per i prodotti di classe 1**;
+4. conservazione di campioni per eventuale contenzioso o analisi: **minimo 10 pezzi per lotto**,
+   in cella dedicata;
+5. tutte le evidenze **confluiscono nel dossier di crisi**.
+
+## Perché conta
+
+⚠️ **Il reso rientra nel conto**: la riconciliazione col mass balance chiude il cerchio aperto
+alla fase 2, e senza di essa il bilancio resterebbe una fotografia del momento del blocco.
+
+⚠️ **Il divieto di riutilizzo è limitato alla classe 1**, quindi per le classi 2 e 3 il
+riutilizzo non è escluso dalla procedura: è una decisione del RSGQ, da verbalizzare.
+
+⚠️ **I dieci pezzi per lotto sono un minimo, non una quantità**, e la procedura ne dichiara
+lo scopo — «eventuale contenzioso/analisi» — e il luogo, una **cella dedicata**.
+
+## Fonti
+
+- [[procedura_ritiro_prodotto_CRISI_GDO.txt]] — §6 «FLUSSO OPERATIVO», FASE 4 «GESTIONE DEL PRODOTTO RESO»: i cinque punti, dal DDT dedicato con causale «reso per ritiro» alla zona R del magazzino di Via Palù, i tre destini possibili, il «min. 10 pz per lotto» e il dossier di crisi.
+
+----------------------------------------------------------------------
+>>>>> NOTA DA GIUDICARE: doc-mass-balance-nella-crisi.md
+----------------------------------------------------------------------
+---
+title: "Il mass balance della crisi ha una formula scritta e un obiettivo di ricostruzione del 99 per cento in quattro ore"
+summary: "PRO-QA-14 §6 fase 2 definisce il bilancio di massa come giacenza più spedito più scarti più campioni e fissa l'obiettivo di ricostruzione ad almeno il 99 per cento entro quattro ore, dichiarandolo target del mock recall."
+type: atomica
+area: qualita
+tags: [docs, qualita, ritiro, pro-qa-14, mass-balance, rintracciabilita]
+fonti:
+  - procedura_ritiro_prodotto_CRISI_GDO.txt
+stato: risolto
+aliases: []
+data_nota: 2026-08-24
+related: "[[doc-pro-qa-14]], [[doc-flusso-della-crisi-sei-fasi]], [[kpi-mass-balance-l26130]], [[questione-mock-recall-due-ore-o-quattro]], [[area-qualita]]"
+---
+
+# La formula, e il bersaglio
+
+Il punto d) della fase 2 scrive il bilancio come un'uguaglianza:
+
+> prodotto totale del lotto = **giacenza + spedito + scarti + campioni**
+
+e gli mette accanto un obiettivo: **ricostruzione ≥ 99 % entro 4 h**, dichiarato «target mock
+recall».
+
+Gli altri tre punti della stessa fase dicono che cosa va ricostruito: **a valle** i clienti
+destinatari, i DDT, le quantità spedite per lotto, le date di consegna e i vettori; **a monte**
+i lotti di materie prime e di imballi, e le altre produzioni che li condividono, per valutare
+se il blocco vada esteso.
+
+## Perché conta
+
+⚠️ **I quattro addendi sono un elenco chiuso**, e uno di essi — i campioni — è la voce che nel
+mock recall del 07/11/2025 ha prodotto lo scostamento residuo.
+
+⚠️ **Il 99 % e le 4 ore stanno nella procedura che li possiede**, e la divergenza con
+l'obiettivo di due ore del verbale di riesame è [[questione-mock-recall-due-ore-o-quattro]].
+
+⚠️ **La ricostruzione a monte serve a decidere l'estensione del blocco**, non solo a
+documentarla: è la fase in cui un lotto sospetto può trascinarne altri.
+
+## Fonti
+
+- [[procedura_ritiro_prodotto_CRISI_GDO.txt]] — §6 «FLUSSO OPERATIVO», FASE 2, punti b), c) e d): la ricostruzione a valle e a monte, la formula del mass balance e l'«Obiettivo di ricostruzione: >= 99% entro 4 h (target mock recall)».
+
+----------------------------------------------------------------------
+>>>>> NOTA DA GIUDICARE: doc-mock-recall-annuale.md
+----------------------------------------------------------------------
+---
+title: "Il mock recall è annuale, senza preavviso agli operativi, e ha due criteri di accettazione"
+summary: "PRO-QA-14 §10 prescrive almeno una simulazione completa l'anno su un lotto reale spedito, senza preavviso, e la accetta solo con ricostruzione di almeno il 99 per cento entro quattro ore e reperibilità del team di almeno l'80 per cento al primo tentativo."
+type: atomica
+area: qualita
+tags: [docs, qualita, ritiro, pro-qa-14, mock-recall, rintracciabilita]
+fonti:
+  - procedura_ritiro_prodotto_CRISI_GDO.txt
+stato: risolto
+aliases: []
+data_nota: 2026-08-24
+related: "[[doc-pro-qa-14]], [[doc-mass-balance-nella-crisi]], [[fatto-mock-recall-07-11-2025]], [[questione-mock-recall-due-ore-o-quattro]], [[area-qualita]]"
+---
+
+# La prova che l'azienda si fa da sola
+
+**Almeno una volta l'anno**, e **senza preavviso agli operativi**, il RSGQ avvia una simulazione
+completa su **un lotto reale spedito**. La simulazione comprende:
+
+- ricostruzione **a monte**, fino ai lotti di materia prima e alla **bobina del film**;
+- ricostruzione **a valle**: clienti, DDT, quantità;
+- **mass balance**;
+- **prova di contatto** dei membri del team di crisi;
+- compilazione delle bozze di comunicazione **senza invio**.
+
+**I criteri di accettazione sono due**: ricostruzione **≥ 99 % entro 4 h** e reperibilità del
+team **≥ 80 % al primo tentativo di chiamata**.
+
+⚠️ **L'esito del mock recall è dato di ingresso del riesame della direzione**, e la procedura lo
+dichiara al punto 10.4.
+
+## Perché conta
+
+⚠️ **Il secondo criterio misura le persone, non i dati**: l'80 % di reperibilità al primo
+tentativo è una soglia sull'organizzazione, e su nove ruoli significa che **due mancati contatti
+la fanno fallire** *(calcolato)*.
+
+⚠️ **«Senza preavviso agli operativi» qualifica chi non sa**: il RSGQ che la avvia lo sa per
+forza, ed è la ragione per cui la prova misura la macchina e non chi la lancia.
+
+⚠️ **Le bozze si compilano senza inviarle**, quindi la prova arriva fino al gesto precedente
+alla comunicazione reale.
+
+## Fonti
+
+- [[procedura_ritiro_prodotto_CRISI_GDO.txt]] — §10 «SIMULAZIONE ANNUALE DI RICHIAMO (MOCK RECALL)», punti 10.1, 10.2 e 10.4: la periodicità, il contenuto della simulazione, i due criteri di accettazione e l'esito come dato di ingresso del riesame.
+
+----------------------------------------------------------------------
+>>>>> NOTA DA GIUDICARE: doc-modulistica-e-dossier-di-crisi.md
+----------------------------------------------------------------------
+---
+title: "La crisi lascia due moduli e un dossier, e il dossier si conserva cinque anni"
+summary: "PRO-QA-14 §9 elenca MOD-QA-31 per aprire e tracciare l'evento e MOD-MAG-02 per il blocco dei lotti, e istituisce il dossier di crisi che raccoglie valutazioni, mail, notifiche, DDT dei resi ed esiti analitici, con conservazione quinquennale."
+type: atomica
+area: qualita
+tags: [docs, qualita, ritiro, pro-qa-14, moduli, registrazioni]
+fonti:
+  - procedura_ritiro_prodotto_CRISI_GDO.txt
+stato: risolto
+aliases: []
+data_nota: 2026-08-24
+related: "[[doc-pro-qa-14]], [[doc-flusso-della-crisi-sei-fasi]], [[doc-mock-recall-annuale]], [[area-qualita]]"
+---
+
+# Che cosa resta scritto, e per quanto
+
+| Registrazione | A che cosa serve |
+|---|---|
+| **`MOD-QA-31`** | «Gestione reclami e segnalazioni»: **apre e traccia l'evento** |
+| **`MOD-MAG-02`** | carico, scarico e **blocco dei lotti** |
+| **Dossier di crisi** | raccoglie valutazioni, mail, notifiche, DDT dei resi, esiti analitici e il verbale di riesame. **Conservazione: 5 anni** |
+| **Registro delle esercitazioni** | il mock recall |
+
+## Perché conta
+
+⚠️ **La procedura non istituisce un modulo proprio per aprire l'evento**: usa `MOD-QA-31`, che
+il §9 intitola «Gestione reclami e segnalazioni» e a cui assegna il compito di «apre e traccia
+l'evento». **A quale procedura quel modulo appartenga, questa fonte non lo dice.**
+
+⚠️ **Il dossier di crisi non è un modulo ma un contenitore**, e il suo contenuto è elencato per
+genere: chi lo compone sa che cosa deve trovarci dentro chi lo aprirà dopo.
+
+⚠️ **I cinque anni sono l'unico termine di conservazione che questa procedura fissa.**
+
+## Fonti
+
+- [[procedura_ritiro_prodotto_CRISI_GDO.txt]] — §9 «MODULISTICA E REGISTRAZIONI»: MOD-QA-31, MOD-MAG-02, il dossier di crisi con «Conservazione: 5 anni» e il registro delle esercitazioni.
+
+----------------------------------------------------------------------
+>>>>> NOTA DA GIUDICARE: doc-notifica-all-autorita.md
+----------------------------------------------------------------------
+---
+title: "La notifica all'Autorità va fatta entro ventiquattro ore e il suo contenuto è un elenco di otto voci"
+summary: "PRO-QA-14 §6 fase 3 impone la notifica al SIAN della ULSS 9 Scaligera entro ventiquattro ore dalla conferma del rischio, via portale regionale e PEC, con un contenuto elencato voce per voce e la responsabilità in capo al RSGQ."
+type: atomica
+area: qualita
+tags: [docs, qualita, ritiro, pro-qa-14, notifiche, autorita]
+fonti:
+  - procedura_ritiro_prodotto_CRISI_GDO.txt
+stato: risolto
+aliases: []
+data_nota: 2026-08-24
+related: "[[doc-pro-qa-14]], [[doc-flusso-della-crisi-sei-fasi]], [[doc-comunicazione-ai-clienti-nella-crisi]], [[area-qualita]]"
+---
+
+# A chi si notifica, entro quando, e con che cosa dentro
+
+La notifica scatta quando il prodotto **può essere non conforme ai requisiti di sicurezza**
+dell'art. 14 del Reg. 178/2002 **ed è uscito dal controllo diretto dell'azienda**: sono due
+condizioni, e la procedura le lega con una «e».
+
+| | |
+|---|---|
+| A chi | **SIAN — ULSS 9 Scaligera** |
+| Come | portale e modulistica regionale, **più PEC** |
+| Entro | **24 h dalla conferma del rischio** |
+| Chi risponde | il **RSGQ** |
+
+**Il contenuto della notifica è elencato**: identificazione dell'operatore con il numero di
+registrazione `037/2019/SIAN`, prodotto, lotto o lotti, TMC, quantità, pericolo, distribuzione
+e azioni intraprese — **otto voci** *(contate)*.
+
+## Perché conta
+
+⚠️ **Il numero di registrazione sanitaria è scritto dentro la procedura**, non solo negli atti
+dell'autorità: chi compila la notifica non deve andarlo a cercare.
+
+⚠️ **L'obbligo nasce da due condizioni congiunte**, e la seconda — che il prodotto sia uscito
+dal controllo dell'azienda — è la stessa linea che separa il blocco dal ritiro.
+
+⚠️ **La procedura nomina la struttura ricevente per esteso**, e la nomina come l'Autorità
+competente ai fini dell'art. 19.
+
+## Fonti
+
+- [[procedura_ritiro_prodotto_CRISI_GDO.txt]] — §6 «FLUSSO OPERATIVO», FASE 3, punto a): la notifica ex art. 19 al «SIAN - ULSS 9 Scaligera, tramite il portale/modulistica regionale e PEC, entro 24 h», la responsabilità del RSGQ e l'elenco del contenuto, con «n. reg. 037/2019/SIAN».
+
+
+======================================================================
+TESTO ESTRATTO DELLE FONTI CITATE
+======================================================================
+
+--- procedura_ritiro_prodotto_CRISI_GDO.txt ---
+AURORA FOOD GROUP S.r.l. - Cologna Veneta (VR)
+SISTEMA DI GESTIONE QUALITA' E SICUREZZA ALIMENTARE
+
+PROCEDURA PRO-QA-14 rev. 3 del 10/09/2025
+GESTIONE RITIRO E RICHIAMO DEL PRODOTTO
+
+Redatta: dott.ssa E. Marchetti (RSGQ)      Verificata: dott.ssa C. Vicentini
+Approvata: ing. M. Fantin (Dir. Stabilimento)
+Copia controllata n. 02 - distribuzione: Direzione, Qualità, Commerciale,
+Magazzino, Produzione
+Pagina 1 di 14 - Documento non controllato se stampato
+
+1. SCOPO
+Definire responsabilità, modalità operative e tempistiche per la gestione del
+ritiro e del richiamo di prodotto immesso sul mercato da Aurora Food Group
+S.r.l., in ottemperanza agli artt. 18 e 19 del Reg. (CE) 178/2002, ai requisiti
+BRCGS Food Safety Issue 9 (sez. 3.11) e IFS Food v8 (cl. 5.9), nonché ai
+capitolati dei clienti GDO (in particolare capitolato fornitori Tosano Cerea
+S.p.A., ed. 2025, par. 11 "Gestione emergenze e ritiri").
+
+2. CAMPO DI APPLICAZIONE
+Tutti i prodotti finiti spediti dallo stabilimento di Via dell'Industria 27 e
+dal magazzino di Via Palù 3/A, a marchio proprio, a marchio del cliente
+("Bontà di Casa" e altri) e biologici (ICEA IT BIO 006).
+
+3. DEFINIZIONI
+3.1 RITIRO (withdrawal): rimozione del prodotto dalla catena di distribuzione
+    quando il prodotto NON è ancora nella disponibilità del consumatore finale
+    o comunque quando non è necessario allertare il consumatore (prodotto a
+    CE.DI., a deposito cliente, a scaffale ma non venduto).
+3.2 RICHIAMO (recall): rimozione del prodotto quando questo è già nella
+    disponibilità del consumatore finale, con necessità di informare il
+    consumatore stesso (avviso a scaffale, comunicati, sito web, canali del
+    Ministero della Salute).
+3.3 BLOCCO: sospensione cautelativa della movimentazione di lotti presso i
+    magazzini aziendali, registrata su MOD-MAG-02.
+3.4 CRISI: qualunque evento che possa comportare rischio per la salute del
+    consumatore, danno reputazionale grave o interruzione delle forniture ai
+    clienti strategici.
+
+4. CLASSIFICAZIONE DELLA GRAVITA'
+La valutazione è effettuata dal RSGQ con il supporto del team di crisi.
+
+CLASSE 1 - Rischio sanitario grave e immediato (patogeni in prodotto RTE,
+  allergene non dichiarato, corpo estraneo tagliente/perforante, contaminante
+  chimico oltre i limiti di legge). Azione: RICHIAMO + notifica Autorità
+  competente ex art. 19 Reg. 178/2002 entro 24 h + eventuale comunicato al
+  consumatore.
+CLASSE 2 - Rischio sanitario potenziale o non immediato (corpo estraneo non
+  tagliente, deviazione di processo con rischio da valutare, difetto di
+  confezionamento che compromette la conservabilità). Azione: RITIRO, notifica
+  all'Autorità se il prodotto può essere non sicuro, comunicazione ai clienti.
+CLASSE 3 - Difetto di qualità senza rischio sanitario (difetti organolettici,
+  peso, etichettatura non ingannevole). Azione: gestione commerciale, nessuna
+  notifica, eventuale ritiro volontario concordato.
+La classificazione è registrata su MOD-QA-31 con il razionale della decisione.
+
+5. TEAM DI CRISI - COMPOSIZIONE E REPERIBILITA'
+Il team di crisi è convocato dal RSGQ o dal Direttore di Stabilimento con
+qualsiasi mezzo (telefono, WhatsApp gruppo "AURORA CRISI"). Reperibilità
+24/7 per i ruoli contrassegnati (*).
+
+Ruolo                        Titolare                    Telefono
+Coordinatore crisi (*)       ing. Marco Fantin           348 22 41 507
+RSGQ - valutazione rischio(*)dott.ssa Elena Marchetti    347 90 118 62
+QA operativo / segreteria    Sara Pozzato                345 61 30 274
+Direzione / portavoce        Giancarlo Bertoldi (AD)     335 74 402 18
+Commerciale GDO              Silvia Bertoldi             340 55 87 931
+Rintracciabilità/magazzino(*)Nicola Faggionato           349 41 76 083
+Produzione                   Denis Zanella               346 88 20 415
+Consulente HACCP             dott.ssa Chiara Vicentini   049 87 655 40 (studio)
+Legale (esterno)             avv. Storti - Verona        045 80 31 226 (ufficio)
+Sostituti: per Fantin -> Zanella; per Marchetti -> Pozzato; per Faggionato ->
+addetto spedizioni turno.
+L'elenco è verificato ad ogni revisione e in occasione del mock recall annuale.
+
+6. FLUSSO OPERATIVO (descrizione sequenziale, vedi diagramma All. 1)
+
+FASE 0 - SEGNALAZIONE (T0)
+Qualsiasi segnalazione potenzialmente rilevante (reclamo consumatore, reclamo
+cliente GDO, esito analitico non conforme, deviazione CCP scoperta a
+posteriori, allerta RASFF su materia prima, comunicazione fornitore) è
+inoltrata SENZA FILTRO a RSGQ. Fuori orario: ai numeri di reperibilità.
+Registrazione immediata su MOD-QA-31.
+
+FASE 1 - VALUTAZIONE PRELIMINARE (entro 2 ORE da T0)
+Il RSGQ, sentiti i membri del team pertinenti, effettua la valutazione
+preliminare: identificazione prodotto e lotti coinvolti, natura del pericolo,
+classificazione di gravità (par. 4), prima stima delle quantità. Esito
+verbalizzato anche in forma sintetica (mail al team di crisi).
+Se CLASSE 1 o 2: convocazione del team di crisi e passaggio a FASE 2.
+Se CLASSE 3: gestione ordinaria reclami (PRO-QA-13).
+
+FASE 2 - BLOCCO E RICOSTRUZIONE (entro 4 ORE dalla convocazione)
+a) Blocco informatico e fisico dei lotti coinvolti presso i magazzini aziendali
+   (Via dell'Industria e Via Palù 3/A) - Faggionato, MOD-MAG-02, cartellini
+   BLOCCATO;
+b) ricostruzione A VALLE: clienti destinatari, DDT, quantità spedite per lotto,
+   date di consegna, vettori;
+c) ricostruzione A MONTE: lotti di materie prime e imballi utilizzati, altre
+   produzioni che li condividono (valutazione estensione blocco);
+d) MASS BALANCE: prodotto totale del lotto = giacenza + spedito + scarti +
+   campioni. Obiettivo di ricostruzione: >= 99% entro 4 h (target mock recall).
+e) sospensione immediata delle spedizioni dei lotti in dubbio.
+
+FASE 3 - NOTIFICHE (entro 24 ORE dalla conferma del rischio)
+Se il prodotto può essere non conforme ai requisiti di sicurezza (art. 14 Reg.
+178/2002) ed è uscito dal controllo diretto dell'azienda:
+a) NOTIFICA ALL'AUTORITA' COMPETENTE ex art. 19 Reg. 178/2002: SIAN - ULSS 9
+   Scaligera, tramite il portale/modulistica regionale e PEC, entro 24 h.
+   Responsabile: RSGQ. La notifica contiene: identificazione OSA (n. reg.
+   037/2019/SIAN), prodotto, lotto/i, TMC, quantità, pericolo, distribuzione,
+   azioni intraprese;
+b) COMUNICAZIONE AI CLIENTI: a tutti i destinatari dei lotti (per la GDO:
+   ufficio qualità del cliente + buyer; per Tosano: dott.ssa Anna Perbellini
+   - QA fornitori - e per conoscenza il Category Manager). Mezzo: PEC +
+   telefono. Modello di comunicazione in All. 2 (bozza pronta, par. 8.1);
+c) se RICHIAMO (Classe 1): predisposizione avviso al consumatore da esporre a
+   scaffale (All. 3, bozza par. 8.2) e valutazione con la Direzione di
+   comunicato stampa/sito web. Il portavoce è ESCLUSIVAMENTE l'AD o suo
+   delegato: nessun altro rilascia dichiarazioni.
+
+FASE 4 - GESTIONE DEL PRODOTTO RESO
+a) Il prodotto ritirato/richiamato rientra con DDT dedicato causale "reso per
+   ritiro" ed è segregato in area dedicata identificata (magazzino Via Palù,
+   zona R);
+b) conta e riconciliazione con il mass balance (aggiornamento quantità);
+c) destino deciso da RSGQ con verbale: distruzione tramite ditta autorizzata
+   (con formulario), declassamento ad alimento zootecnico ove ammissibile,
+   riutilizzo escluso per prodotti Classe 1;
+d) conservazione campioni per eventuale contenzioso/analisi (min. 10 pz per
+   lotto, cella dedicata);
+e) tutte le evidenze confluiscono nel dossier di crisi.
+
+FASE 5 - CHIUSURA E RIESAME
+Entro 15 giorni dalla chiusura operativa: riunione di riesame del team di
+crisi con: causa radice (metodo 5 perché / Ishikawa), azioni correttive con
+responsabili e scadenze, valutazione dei tempi effettivi vs quelli di
+procedura, aggiornamento dell'analisi dei pericoli se pertinente, relazione
+alla Direzione. Costi della crisi quantificati da Amministrazione (Trentin L.)
+e registrati.
+
+7. TEMPISTICHE RIEPILOGATIVE (vincolanti)
+Valutazione preliminare               entro 2 h dalla segnalazione
+Convocazione team di crisi            immediata per Classe 1-2
+Blocco lotti e mass balance           entro 4 h dalla convocazione
+Notifica ASL/ATS (ULSS 9) art. 19     entro 24 h dalla conferma
+Comunicazione clienti GDO             entro 24 h, comunque prima della notifica
+                                      ai media se richiamo
+Risposta a richieste QA cliente       entro 48 h (capitolato Tosano)
+Riesame post-crisi                    entro 15 gg
+
+8. MODELLI DI COMUNICAZIONE (bozze pronte all'uso)
+
+8.1 BOZZA COMUNICAZIONE AL CLIENTE (All. 2 - da personalizzare)
+-----------------------------------------------------------------
+Spett.le [Cliente], c.a. Ufficio Assicurazione Qualità
+Oggetto: [RITIRO CAUTELATIVO / RICHIAMO] prodotto [descrizione] -
+lotto/i [XXXX] - TMC [XXXX]
+
+Con la presente Vi informiamo che, a seguito di [descrizione sintetica
+dell'evento], questa azienda ha disposto in via [cautelativa/obbligatoria]
+il [ritiro/richiamo] del prodotto:
+- Denominazione: [___] - Codice articolo: [___] - EAN: [___]
+- Lotto/i: [___] - TMC: [___] - Formato: [___]
+- Quantità consegnate a Vs. CE.DI.: [___] colli in data [___] con DDT [___]
+Vi chiediamo di: sospendere immediatamente la movimentazione e la vendita
+dei lotti indicati; quantificare le giacenze presso CE.DI. e punti vendita;
+segregare la merce in attesa di nostre istruzioni per il reso.
+Il pericolo identificato è: [___]. La valutazione del rischio è: [___].
+[Se richiamo: Vi trasmettiamo in allegato l'avviso per il consumatore da
+esporre presso i punti vendita.]
+Restiamo a disposizione ai seguenti recapiti dedicati: [___].
+Ci scusiamo per il disagio e Vi ringraziamo per la collaborazione.
+Aurora Food Group S.r.l. - Il Responsabile Qualità
+-----------------------------------------------------------------
+
+8.2 BOZZA AVVISO AL CONSUMATORE DA ESPORRE A SCAFFALE (All. 3)
+-----------------------------------------------------------------
+              AVVISO IMPORTANTE DI [RICHIAMO] PRODOTTO
+Aurora Food Group S.r.l. informa i gentili consumatori che, in via
+precauzionale, è stato disposto il richiamo del seguente prodotto:
+   [DENOMINAZIONE DI VENDITA]
+   Marchio: [___]   Formato: [___]
+   Lotto: [___]   Termine minimo di conservazione: [___]
+   Prodotto nello stabilimento di Via dell'Industria 27, Cologna Veneta (VR)
+MOTIVO DEL RICHIAMO: [possibile presenza di ___]
+Si invitano i consumatori in possesso del prodotto con il lotto indicato a
+NON CONSUMARLO e a riportarlo al punto vendita, dove sarà rimborsato o
+sostituito anche in assenza di scontrino.
+Nessun altro lotto o prodotto Aurora Food Group è interessato dal presente
+avviso. Per informazioni: numero dedicato [___] - qualita@aurorafoodgroup.it
+Ci scusiamo per il disagio.
+-----------------------------------------------------------------
+
+9. MODULISTICA E REGISTRAZIONI
+MOD-QA-31  Gestione reclami e segnalazioni (apre e traccia l'evento)
+MOD-MAG-02 Carico/scarico e blocco lotti
+Dossier di crisi: raccoglie valutazioni, mail, notifiche, DDT resi, esiti
+analitici, verbale di riesame. Conservazione: 5 anni.
+Registro delle esercitazioni (mock recall).
+
+10. SIMULAZIONE ANNUALE DI RICHIAMO (MOCK RECALL)
+10.1 Almeno una volta l'anno, senza preavviso agli operativi, RSGQ avvia una
+simulazione completa su un lotto reale spedito, comprensiva di: ricostruzione
+a monte (fino ai lotti di materia prima e bobina film) e a valle (clienti,
+DDT, quantità), mass balance, prova di contatto dei membri del team di crisi,
+compilazione bozze di comunicazione SENZA INVIO.
+10.2 Criteri di accettazione: ricostruzione >= 99% entro 4 h; reperibilità
+team >= 80% al primo tentativo di chiamata.
+10.3 Ultima esercitazione eseguita: 07/11/2025, lotto sfida AF-CR-0212
+L25311-L3-T1. Esito: ricostruzione 99,6% in 2 h 20 min; mass balance chiuso
+(scostamento 0,4% = campioni QC non registrati a sistema, azione correttiva
+sulla registrazione campioni chiusa il 28/11/2025); reperibilità 8/9 (avv.
+Storti non raggiunto al primo giro, raggiunto al secondo). ESITO: CONFORME.
+Verbale in dossier esercitazioni.
+10.4 L'esito del mock recall è dato di ingresso del riesame della direzione.
+
+11. RIFERIMENTI
+Reg. (CE) 178/2002 artt. 14, 18, 19; Reg. (CE) 852/2004; BRCGS Issue 9 sez.
+3.11; IFS Food v8 cl. 5.9; capitolati clienti GDO; PRO-QA-08 rintracciabilità;
+PRO-QA-13 reclami; Linee guida Ministero della Salute per la notifica.
+
+MATRICE REVISIONI
+rev.0 06/2019 prima emissione - rev.1 04/2021 inserimento richiamo consumatore
+rev.2 09/2022 adeguamento BRCGS 9 - rev.3 10/09/2025 nuovi recapiti team,
+criteri mock recall, modello avviso scaffale
+
+Pagina 14 di 14 - Documento non controllato se stampato
+
+===========================================================================
+[ANNOTAZIONE MANOSCRITTA SU COPIA CONTROLLATA N. 02 - trascrizione]
+14/05/26 - h 17:40 - E. Marchetti
+
+APPLICAZIONE PROCEDURA - CASO PLASTICA AZZURRA
+- segnalazione: reclamo web 12/05 sig.ra Grigolon (Bussolengo) frammento
+  plastica dura azzurra in AF-SN-0450 lotto L26130 acquistato Tosano
+  Bussolengo. Foto ricevuta. Reperto richiesto, arriva con corriere.
+- 14/05 h 10:15 mail Perbellini (Tosano QA): chiede spiegazioni SCRITTE
+  entro 48h -> scadenza sab 16/05 h 10!! prepara bozza stasera
+- valutazione: plastica dura ~9x4 mm non tagliente?? da vedere il pezzo
+  vero. Classe 2 per ora (ritiro, non richiamo) MA se tagliente -> Classe 1
+  e notifica ULSS. Sentita Vicentini tel h 15.
+- correlazione probabile: intervento PKM-450 del 10/05 (guarnizione non
+  originale azzurra - MOD-PR-04 di Dal Maso dice solo "sostituita
+  guarnizione") + MD-3200 NON rileva plastica, ovvio
+- lotti coinvolti: L26130 e L26131 (turni successivi stessa guarnizione)
+  tot ~ 8.400 conf. di cui ~ 5.100 GIA' A SCAFFALE, resto CE.DI. Cerea +
+  ns. magazzino (bloccato il 13/05 MOD-MAG-02, Faggionato ok h 19:30)
+- costo stimato ritiro: 31.500 € (merce + logistica reso + distruzione +
+  nota credito) - stima con Trentin, NON comunicare al cliente
+- mass balance L26130 avviato, Pozzato ci lavora domattina presto
+- guarnizione: pezzo NON originale preso dal carrello ricambi = esattamente
+  NC 2 audit CSQA febbraio!!! e la registrazione MOD-QA-12 del 10/05 turno 2
+  NON torna col datalogger (deviazione PT-104 14:18-14:47) = NC 1. Le due
+  NC "chiuse" il 2/4 si sono materializzate tutte e due in un giorno solo.
+  Da dire a Fantin PRIMA che lo scriva Tosano.
+- team crisi convocato x domattina 15/05 h 8:00 sala riunioni + tel
+- decidere: ritiro cautelativo si/no -> propendo SI su entrambi i lotti,
+  aspettare identificazione materiale = perdere il weekend di vendite a
+  scaffale. Bertoldi vuole "capire prima quanto costa". Il costo lo sa.
+- verificare se anche L26129 usa la PKM-450 dopo le 15:05 del 10/5 -> NO,
+  L26129 e' del 09/05, prima della riparazione, ok
+- promemoria: aggiornare questa procedura -> inserire nel par. 4 il caso
+  "corpo estraneo da manutenzione" con richiamo a MOD-PR-04 e conta pezzi
+[firma illeggibile] EM
+===========================================================================
+
+   PERIMETRO DEL BLOCCO - definizione (E.M. 14/05/2026 h 18:05)
+   Non sono coinvolti i due lotti per intero. La guarnizione non originale e' stata montata
+   alle 18:45 del 10/05: e' interessato SOLO il prodotto confezionato dal riavvio in poi.
+   - L26130-L1-T2 (dalle 18:45 alle 22:00) ......... 3.290 conf. - in magazzino, BLOCCATE
+   - L26130-L1-T3 (dalle 22:00 alle 03:00) ......... 1.480 conf. - in magazzino, BLOCCATE
+   - L26131-L1-T2 (11/05, guarnizione ancora montata) 3.630 conf. - di cui 5.100 gia' spedite
+     [ricontrollare: il totale spedito comprende anche pezzi del T2, Faggionato verifica]
+   Totale interessato ~ 8.400 conf., di cui ~5.100 gia' a scaffale o in CE.DI.
+   Il prodotto dei turni precedenti le 15:05 del 10/05 e' stato confezionato con la valvola
+   originale e non rientra nel perimetro (circa 29.000 conf. sui due lotti).
+   ⚠ ESTENSIONE: la guarnizione e' stata sostituita con l'originale solo il 15/05 e alla rimozione
+   mancavano ~2 cm2 di materiale. Va valutato anche il prodotto dal 12 al 15/05 (L26132, L26133,
+   L26134): ispezione a campione rinforzata AQL 0,65 + ricostruzione dei frammenti recuperati.
+   Esito da riportare in NC-2026-097. NON ancora fatto al 14/05.
+

@@ -1,20 +1,12 @@
-## qa_link_integrity (perimetro: vault, 470 note nel vault)
+## qa_link_integrity (perimetro: lotto, 470 note nel vault)
 
 - ERRORI: **0**
-- AVVISI: **60**
+- AVVISI: **52**
 
 ### Avvisi
 
 | Nota | Riga | Controllo | Rilievo |
 |---|---|---|---|
-| `fatto-abort-cip-per-soda-bassa.md` |  | link | lontana dall'_index della propria cartella (3 salti): indizio di cattiva collocazione |
-| `fatto-assistenza-esterna-24-04-cf-02.md` |  | link | lontana dall'_index della propria cartella (3 salti): indizio di cattiva collocazione |
-| `fatto-blackout-21-04-riavvio-centraline.md` |  | link | lontana dall'_index della propria cartella (3 salti): indizio di cattiva collocazione |
-| `fatto-cicli-cip-maggio.md` |  | link | lontana dall'_index della propria cartella (3 salti): indizio di cattiva collocazione |
-| `fatto-ciclo-cip-straordinario-11-05.md` |  | link | lontana dall'_index della propria cartella (3 salti): indizio di cattiva collocazione |
-| `fatto-programma-p2-ogni-giorno.md` |  | link | lontana dall'_index della propria cartella (3 salti): indizio di cattiva collocazione |
-| `fatto-sonda-prodotto-cf-02-in-avaria.md` |  | link | lontana dall'_index della propria cartella (3 salti): indizio di cattiva collocazione |
-| `fatto-taniche-e-rifiuti-cip.md` |  | link | lontana dall'_index della propria cartella (3 salti): indizio di cattiva collocazione |
 | `fatto-classe-2-provvisoria-sul-frammento.md` |  | link | lontana dall'_index della propria cartella (3 salti): indizio di cattiva collocazione |
 | `fatto-costo-stimato-del-ritiro-31500.md` |  | link | lontana dall'_index della propria cartella (5 salti): indizio di cattiva collocazione |
 | `fatto-due-nc-di-febbraio-materializzate.md` |  | link | lontana dall'_index della propria cartella (3 salti): indizio di cattiva collocazione |

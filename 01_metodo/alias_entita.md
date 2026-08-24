@@ -235,6 +235,30 @@ dichiara nel proprio titolo di essere il registro delle non conformità interne.
 | **`PRO-QA-11`** e **`PRO-QA-14`** | Due sigle per la procedura di ritiro e richiamo: la prima compare in **un solo file su 160** — `PRO-QA-08` §3 — la seconda in cinque, manuale HACCP compreso. ⚠️ **Nessun documento dichiara che siano la stessa cosa**, e unirle a mano deciderebbe una questione aperta. Nota: `questione-due-codici-per-la-procedura-di-ritiro` |
 | **`PRO-QA-08` (reclami)** e **`PRO-QA-08` (rintracciabilità)** | La stessa sigla designa due procedure diverse: il documento la usa per i reclami, il manuale HACCP per la rintracciabilità del `PRP-09`. ⚠️ **È l'omografia, non la variante**: unirle significherebbe affermare che sono un documento solo. Nota: `questione-pro-qa-08-reclami-o-rintracciabilita` |
 
+### Aggiunte del lotto 3E — 24/08/2026
+
+**Classe A — varianti da unire.**
+
+| Forma canonica | Varianti attestate | Dove |
+|---|---|---|
+| **`PRO-QA-14`** | «PRO-QA-14 rev. 3», «PRO-QA-14 par. 4», «procedura PRO-QA-14 rev.3» | `procedura_ritiro_prodotto_CRISI_GDO.txt` §intestazione e §11; `MOD-QA-31_reclamo_REC-2026-011.pdf` pag. 1; `manuale_HACCP…txt` §10.3 |
+| **`MOD-MAG-02`** | «MOD-MAG-02», «cartellini BLOCCATO» *(la registrazione, non la sigla)* | `procedura_ritiro_prodotto_CRISI_GDO.txt` §3.3, §6 FASE 2 e §9 |
+
+**Classe B — quasi-omografi: soggetti DIVERSI, mai da unire.**
+
+| Soggetto 1 | Soggetto 2 | Prova che sono diversi | Cosa si fa |
+|---|---|---|---|
+| **Giancarlo Bertoldi** — Amministratore Delegato, «Direzione / portavoce» del team di crisi | **Silvia Bertoldi** — «Commerciale GDO» del team di crisi, recapito diverso | La tabella del §5 li elenca su **due righe distinte, con due ruoli e due numeri** | Due entità: `entita-giancarlo-bertoldi` esiste; la seconda **non si unisce alla prima** e nasce nel lotto che la userà |
+
+**Classe C — divergenze che NON si uniscono, e vanno tenute distinte.**
+
+| Forme | Perché non si uniscono |
+|---|---|
+| **`PRO-QA-13`** e **`PRO-QA-08`** | `PRO-QA-14` §11 chiama **`PRO-QA-13`** la procedura dei reclami, che nell'archivio è **`PRO-QA-08`** per propria intestazione. ⚠️ **È la terza sigla della famiglia**, dopo `PRO-QA-11`/`PRO-QA-14`: le tre non si conciliano, e il quadro sta in `questione-tre-sigle-per-le-procedure-di-qualita`. **Nessun documento porta la sigla `PRO-QA-13`** fra quelli che questo lotto cita |
+
+⚠️ **Le due sigle di procedura in classe C salgono a tre**, e la classe che il lotto 3D aveva
+inaugurato — sigle di documento invece che nomi propri — si conferma al lotto successivo.
+
 ## Registro delle aggiunte
 
 Ogni sessione che canonizza aggiunge qui una riga quando estende la tabella.
@@ -249,3 +273,4 @@ Ogni sessione che canonizza aggiunge qui una riga quando estende la tabella.
 | 2026-08-21 | S4 lotto 2B-bis — gli allergeni | Classe A: `entita-chiara-vicentini`, **con l'avvertenza che il nome per esteso lo dà una fonte sola**. ⚠️ **La riga esiste perché questa sessione aveva INVENTATO un nome proprio** — «Claudia» invece di «Chiara» — canonizzando due documenti che il nome non lo portano: **è il caso che ha insegnato che un'iniziale non si scioglie a naso** |
 | 2026-08-23 | S4 lotto 3B — politica e formazione | Classe A: `entita-federica-sartori`, con **due fonti nuove** — la politica e lo scadenzario — e la mansione «HR e segreteria» che il registro dichiara. ⚠️ **Che «f.sartori», «Sartori Federica» e «Sartori F.» siano la stessa persona resta un'INFERENZA**, e la scheda lo dichiara. Classe B: il quarto quasi-omografo **Peruzzi**. ⚠️ **E un errore da non ripetere**: la prima stesura di `doc-scadenzario-formazione-2026` puntava a un `entita-francesca-sartori` **che non esiste** — nome proprio inventato, come gia' successe per Vicentini — e la QA non lo vedeva perche' non guardava `related`. Riparata la QA lo stesso giorno |
 | 2026-08-24 | S4 lotto 3D — i reclami | Classe A: `entita-federalimentare-veneto`, e le ragioni sociali per esteso di **due clienti GDO** che il vault portava in forma abbreviata — `Rossetto Trade S.p.A.` e `Famila Nordest` — piu' `Studio Alimentaria (Verona)` accanto alla consulente HACCP. ⚠️ **Classe C: due coppie di SIGLE DI PROCEDURA che non si uniscono** — `PRO-QA-11`/`PRO-QA-14` per il ritiro, e `PRO-QA-08` che designa sia i reclami sia la rintracciabilita'. **Non sono varianti grafiche: sono due questioni aperte**, e unire le sigle a mano le deciderebbe |
+| 2026-08-24 | S4 lotto 3E — la crisi e il ritiro | Classe A: `PRO-QA-14` con le sue tre forme attestate e `MOD-MAG-02`. **Classe B: i due Bertoldi** — l'Amministratore Delegato e la Commerciale GDO — che la tabella del team di crisi elenca su due righe distinte con due ruoli e due recapiti. **Classe C: `PRO-QA-13`**, la terza sigla della famiglia delle procedure, che `PRO-QA-14` §11 usa per i reclami e che **nessun documento citato porta in intestazione** |

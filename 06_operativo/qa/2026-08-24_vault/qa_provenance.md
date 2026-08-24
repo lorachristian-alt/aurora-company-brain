@@ -1,7 +1,7 @@
-## qa_provenance (perimetro: vault, 432 note)
+## qa_provenance (perimetro: vault, 470 note)
 
 - ERRORI: **0**
-- AVVISI: **104**
+- AVVISI: **110**
 
 ### Avvisi
 
@@ -31,6 +31,7 @@
 | `fatto-nessuno-risponde-a-voce-al-consumatore.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `fatto-operatore-senza-formazione-haccp-l26130.md` |  | provenance | data senza riscontro in nessuna fonte citata: «10/05/2026» (nell'intestazione: `title`/`summary`) — debito anteriore alla superficie dell'intestazione (23/08/2026), da sanare a fine corsa |
 | `fatto-piano-produzione-sett19-21.md` |  | provenance | data senza riscontro in nessuna fonte citata: «24/05/2026» (nell'intestazione: `title`/`summary`) — debito anteriore alla superficie dell'intestazione (23/08/2026), da sanare a fine corsa |
+| `fatto-pro-qa-14-copia-controllata-02.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `fatto-prodotto-non-segregato-deviazione-ccp2.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `fatto-quaderno-capoturno-linea1.md` |  | provenance | data senza riscontro in nessuna fonte citata: «12/05/2026» (nell'intestazione: `title`/`summary`) — debito anteriore alla superficie dell'intestazione (23/08/2026), da sanare a fine corsa |
 | `fatto-quaderno-capoturno-linea1.md` |  | provenance | numero senza riscontro in nessuna fonte citata: «2026» (nell'intestazione: `title`/`summary`) — debito anteriore alla superficie dell'intestazione (23/08/2026), da sanare a fine corsa |
@@ -72,6 +73,7 @@ verifiche n» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 | `questione-tamponi-allergeni-non-registrati.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `questione-tassello-inox-non-passato.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `questione-tre-o-quattro-neoassunti-senza-formazione.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
+| `questione-una-revisione-che-registra-fatti-posteriori.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `questione-verifiche-ccp3-10-05-tre-versioni.md` |  | provenance | citazione senza riscontro in nessuna fonte citata: «Verifica di fine turno (capoturno)» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 | `questione-verifiche-ccp3-10-05-tre-versioni.md` |  | provenance | citazione senza riscontro in nessuna fonte citata: «dalle 15 alle 18.45 linea ferma per rottura valvola azoto. verifiche n» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 | `questione-verifiche-ccp3-10-05-tre-versioni.md` |  | provenance | citazione senza riscontro in nessuna fonte citata: «prodoto nn confezionato si acumula meso su carelli in CF O1 / temp cel» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
@@ -84,13 +86,16 @@ verifiche n» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 stimata dalla foto 7-9 mm» — la nota cita un .jpg, riscontro visivo da chiudere a mano |
 | `questione-misura-frammento-strumentale.md` |  | provenance | fonte immagine 'IMG_20260514_152241_frammento_REC-2026-011.jpg': riscontro visivo, da chiudere a mano |
 | `doc-ccp2-limite-critico.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
+| `doc-comunicazione-ai-clienti-nella-crisi.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `doc-comunicazione-consumatore.md` |  | provenance | la fonte 'PRO-QA-08_gestione_reclami_cliente_rev2.docx' non aggancia nessuna affermazione della nota: rumore nel payload |
+| `doc-gestione-del-prodotto-reso.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `doc-gestione-reclami-haccp.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `doc-programmi-cip-per-linea.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `doc-registrazioni-cip.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `doc-responsabilita-allergeni.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `doc-responsabilita-reclami.md` |  | provenance | la fonte 'PRO-QA-08_gestione_reclami_cliente_rev2.docx' non aggancia nessuna affermazione della nota: rumore nel payload |
 | `doc-responsabilita-reclami.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
+| `doc-riesame-post-crisi.md` |  | provenance | la fonte 'procedura_ritiro_prodotto_CRISI_GDO.txt' non aggancia nessuna affermazione della nota: rumore nel payload |
 | `doc-scheda-tecnica-af-sn-0450.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `doc-stoccaggio-segregato-allergeni.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `doc-verifiche-immediate-reclamo.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
@@ -109,6 +114,7 @@ stimata dalla foto 7-9 mm» — la nota cita un .jpg, riscontro visivo da chiude
 | `questione-limite-o2-residuo.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `questione-richiesta-auditor-sulle-allerte.md` |  | provenance | la fonte 'Rilievo_Audit_BRC_IFS_CSQA_febbraio2026.txt' non aggancia nessuna affermazione della nota: rumore nel payload |
 | `questione-scarti-riavvio-l26130.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
+| `questione-tre-sigle-per-le-procedure-di-qualita.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `bozza-contratto-manutenzione-frigo.md` |  | provenance | riscontro in testo revocato: «giusta procura del 15/09/2024 03/11/2025» si trova SOLO in un passaggio barrato della fonte, e la nota non lo dichiara |
 | `bozza-contratto-manutenzione-frigo.md` |  | provenance | riscontro in testo revocato: «16.200,00» si trova SOLO in un passaggio barrato della fonte, e la nota non lo dichiara |
 | `bozza-lettera-tosano-reclamo.md` |  | provenance | riscontro in testo revocato: «frammento di plastica dura

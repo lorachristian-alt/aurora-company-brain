@@ -1329,3 +1329,108 @@ la scadenza **24/06/2026** su un prodotto del lotto `L26130`, cioè del **10/05/
 **45 giorni** *(contati)*, esattamente la shelf life della scheda tecnica in vigore. **Un dato
 scritto da un consumatore, senza alcun accesso ai documenti dell'azienda, cade sul valore
 prescritto.**
+
+## Divergenze nuove — revisione del lotto 3E, 24/08/2026
+
+> Il lotto della **procedura di ritiro** `PRO-QA-14`, della sua annotazione manoscritta del 14/05
+> e del blocco che quella sera definisce il perimetro. **Sette divergenze, tutte scrivibili**, e
+> **cinque nascono dallo stesso accostamento**: il blocco del perimetro contro
+> `tracciabilita_lotti_massbalance_L26130.xlsx`, «compilato in emergenza il **14/05/2026** da S.
+> Pozzato su richiesta di E. Marchetti». ⚠️ **Due ricostruzioni dello stesso evento, dello stesso
+> giorno, della stessa funzione — e il vault aveva entrambe le gambe canonizzate senza averle mai
+> messe una di fronte all'altra.**
+
+### G1 — La giacenza bloccata dello stesso sotto-lotto vale 3.290 in un documento e 1.180 nell'altro ✍️ **scritta**
+
+`procedura_ritiro_prodotto_CRISI_GDO.txt`, §PERIMETRO DEL BLOCCO: «`L26130-L1-T2` (dalle 18:45
+alle 22:00) ......... **3.290 conf.** - in magazzino, BLOCCATE», per la sola finestra
+successiva al riavvio. · `tracciabilita_lotti_massbalance_L26130.xlsx`, foglio «A valle», riga 8:
+«giacenza magazzino Aurora», **1180**, «BLOCCATO QA», per **l'intero turno**.
+
+⚠️ **Lo scarto è impossibile in un verso solo**: la finestra è un sottoinsieme del turno, e il
+bloccato del sottoinsieme non può eccedere quello del turno. **2.110 di differenza**
+*(calcolato: 3.290 − 1.180)*. Nota: `questione-perimetro-del-blocco-e-mass-balance`.
+
+### G2 — Il «5.100» che il perimetro attribuisce a un sotto-lotto è, nel mass balance, lo spedito di un altro ✍️ **scritta**
+
+Il blocco scrive «`L26131-L1-T2` … **3.630 conf.** - di cui **5.100 gia' spedite**», e annota di
+ricontrollare perché «il totale spedito comprende anche pezzi del T2». · Il mass balance, foglio
+«A valle» riga 6, dà **5100** come spedito di **`L26130-L1-T2`** a Tosano col DDT «2026/1188»
+dell'11/05; per `L26131-L1-T2` lo spedito è **4260** a Tosano più **980** a Rossetto, cioè
+**5.240** *(calcolato)*.
+
+⚠️ **Nemmeno la lettura più benevola regge**: il totale spedito dei tre sotto-lotti è **11.780**
+*(calcolato: 5.100 + 1.440 + 4.260 + 980)*, non 5.100.
+
+### G3 — Il perimetro comunicato al cliente la mattina è più largo di quello definito la sera ✍️ **scritta**
+
+Mass balance, foglio «Clienti coinvolti», riga 6: Tosano è avvisata il **14/05/2026 alle 09:15**
+per **9360** pezzi, cioè **5.100 + 4.260** *(calcolato)*, tutte le consegne dei due turni a quel
+cliente. · Il blocco, la sera dello stesso giorno alle 18:05, conta **~ 8.400 conf. in tutto**,
+su tre clienti.
+
+⚠️ **È il numero che finisce nella relazione di 48 ore chiesta da quel cliente.**
+
+### G4 — Un cliente risulta in RICHIAMO mentre la classificazione in vigore dice ritiro ✍️ **scritta**
+
+Mass balance, foglio «A valle» riga 11: `L26131-L1-T2` → Rossetto Trade SpA, **980** pz, stato
+**«RICHIAMATO»**; foglio «Clienti coinvolti» riga 8: **15/05/2026, 08:05, «richiamo
+autorizzato»**. · `PRO-QA-14` §3.2 definisce il richiamo come rimozione «quando questo è già
+nella disponibilità del consumatore finale», e il §4 lo assegna alla **classe 1** con notifica
+all'Autorità entro 24 h. · L'annotazione del **14/05 h 17:40** classifica «**Classe 2 per ora
+(ritiro, non richiamo)**».
+
+⚠️ **Le due letture non sono equivalenti**: uso improprio della parola in un foglio di lavoro,
+oppure un richiamo autorizzato fuori dalla classe dichiarata il giorno prima — e in quel caso
+mancano l'avviso al consumatore e la notifica all'Autorità. **Nessuna fonte le distingue.**
+Nota: `questione-un-richiamo-in-classe-2`.
+
+### G5 — Il turno 3 ha 1.480 confezioni bloccate e non esiste nel mass balance ✍️ **scritta**
+
+Il blocco: «`L26130-L1-T3` (dalle 22:00 alle 03:00) ......... **1.480 conf.** - in magazzino,
+BLOCCATE». · Il mass balance, foglio «A valle», porta **sette righe** *(contate)* e nessuna con
+quel codice; il foglio «Mass balance» ne porta **due** *(contate)*, `L26130-L1-T2` e
+`L26131-L1-T2`.
+
+⚠️ **È una gamba nuova e più pesante di F6 del lotto 3D**: là il turno 3 mancava fra due mail,
+qui manca nel documento con cui la rintracciabilità si dimostra a un cliente e a un ente — il cui
+foglio di quadratura si intitola «requisito BRCGS cl. 3.9.2». Nota:
+`fatto-il-turno-3-non-e-nel-mass-balance`.
+
+### G6 — La procedura che governa ritiri e richiami non recepisce l'obbligo di notifica all'ente ✍️ **scritta**
+
+`Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf`, condizioni di validità, punto 3: «gli eventi
+gravi (**richiami, ritiri, allerte sanitarie, provvedimenti dell'Autorità competente**) devono
+essere notificati **entro 3 giorni lavorativi**». ⚠️ **Il punto 3 porta DUE obblighi, e la cl.
+1.1.10 è citata a proposito del primo** — le modifiche significative di processo, layout, scope
+o assetto societario — non del secondo. · `PRO-QA-14` §6 FASE 3 elenca **tre destinatari**
+*(contati)* — Autorità competente, clienti, consumatore se richiamo — e **l'ente non c'è**; il
+§7 porta **sette righe** *(contate)* e nessuna lo nomina.
+
+⚠️ **Non manca la registrazione dell'adempimento: manca la prescrizione.** Chi esegue la
+procedura alla lettera non notifica all'ente. ⚠️ **Completa D8 del lotto 3C dal lato
+scrivibile**: là si registrava l'assenza di traccia, qui l'assenza dell'obbligo. Nota:
+`questione-il-ritiro-non-notifica-all-ente`.
+
+### G7 — Il recapito dello studio della consulente HACCP porta il prefisso di un'altra città ✍️ **scritta**, forza media
+
+`PRO-QA-14` §5: «Consulente HACCP», recapito «**049** 87 655 40 (studio)»; **nella riga
+successiva** il legale esterno è «avv. Storti - **Verona**» col prefisso «**045**». ·
+`manuale_HACCP…txt` §4.1 e `PRO-QA-08` §7.2 collocano entrambi lo **Studio Alimentaria a
+Verona**.
+
+⚠️ **La stessa tabella dimostra che i prefissi sono usati con precisione.** ⚠️ **Forza dichiarata
+media**: uno studio può avere una seconda sede, e nessuna fonte lo esclude né lo afferma. Nota:
+`questione-prefisso-dello-studio-della-consulente`.
+
+### Una prova di solidità del canone, dal mock recall del 2025
+
+`PRO-QA-14` §10.3 dichiara il lotto sfida **`L25311-L3-T1`** per un'esercitazione del
+**07/11/2025**. ⚠️ **`311` è il 7 novembre 2025** *(calcolato: 304 giorni al 31/10, più 7)*:
+**la regola di composizione del codice di lotto regge su un altro anno, un'altra referenza e
+un'altra linea**, dentro un documento del 2025 che nessun lotto aveva ancora aperto.
+
+⚠️ **E il `-L3-` non è un errore**: `AF-CR-0212` è croissanteria, che porta lotti `-L2-`, ma il
+piano di produzione assegna quella referenza alla **Linea 3**. Registrata come prova di
+solidità, non come rilievo.
+

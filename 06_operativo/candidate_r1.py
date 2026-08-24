@@ -350,6 +350,71 @@ DOMINI = {
         ],
         "cosa": "il ciclo del reclamo di cliente e consumatore: ricezione e protocollo, classificazione e tempi, verifiche immediate sul lotto, indagine della causa radice, campione reso, comunicazione, azioni correttive e indicatori",
     },
+    # Lotto 3E. ⚠️ **Stessa condizione di 3D: la fonte del dominio la porta questo lotto**, e
+    # quindi la prova B di E59 e' inapplicabile in apertura. Da E59 esteso (gate del lotto 3D)
+    # non e' piu' un'osservazione ma un obbligo: **si dichiara inapplicabile e si RIESEGUE a
+    # lotto chiuso**, con l'esito accanto al tasso.
+    #
+    # ⚠️ **LA FONTE E' UNA SOLA: `PRO-QA-14` rev. 3** — il file si chiama
+    # `procedura_ritiro_prodotto_CRISI_GDO.txt`, e la sigla che porta in intestazione NON e'
+    # quella con cui `PRO-QA-08` lo chiama (T163). Governa il ciclo della crisi per intero:
+    # definizioni di ritiro, richiamo, blocco e crisi (par. 3), classificazione della gravita'
+    # (par. 4), team di crisi e reperibilita' (par. 5), le sei fasi coi loro tempi (par. 6 e 7),
+    # modelli di comunicazione (par. 8), modulistica e dossier (par. 9), mock recall (par. 10).
+    #
+    # ⚠️ **LA NOTIFICA ATS RESTA FUORI DALLE FONTI DEL DOMINIO, ed e' una decisione.** E'
+    # l'atto di un'autorita' che prescrive per UN evento — l'ispezione del 09/06 — non una
+    # regola permanente dell'azienda, e infatti non e' nell'elenco delle fonti prescrittive.
+    # ⚠️ Le sue espressioni — `ispezione`, `controllo ufficiale`, `ULSS`, `SIAN` — sarebbero
+    # espressioni **senza una fonte del dominio che le governi**, cioe' esattamente la meta'
+    # scoperta che E56 vieta. **Se il lotto 3E scopre che quell'atto governa qualcosa di
+    # permanente, si dichiara al gate, non si allarga qui a lotto aperto.**
+    #
+    # ⚠️ **CIO' CHE E' STATO LASCIATO FUORI DELLE ESPRESSIONI, e il motivo:**
+    #   - `\britir` e `\brichiam` DA SOLI: `ritiro` e' anche il ritiro del reperto, che
+    #     `PRO-QA-08` par. 7.3 governa, e `richiamo` e' anche il **richiamo annuale** della
+    #     formazione e il «richiamo a MOD-PR-04». Sono le due parole del titolo del documento,
+    #     ed e' esattamente la trappola di `\bformazion` in 3B: **la parola non e' la cosa**.
+    #     Entrano solo nelle forme in cui la procedura le usa come atto — «ritiro cautelativo»,
+    #     «ritiro dal mercato», «richiamo del prodotto», «ritiro volontario»;
+    #   - `classe 1|2|3`: la scala delle classi ce l'ha anche `PRO-QA-08` par. 5, ed e'
+    #     precisamente la questione aperta di T159. Un'espressione sulle classi pescherebbe le
+    #     note del dominio `reclami`;
+    #   - `causa radice`, `\bMOD-QA-31\b`, `\breclam`: sono del dominio `reclami`. `PRO-QA-14`
+    #     li **usa** — par. 6 FASE 0 registra su MOD-QA-31, par. 5 FASE 5 chiede i 5 perche' —
+    #     ma a prescriverli e' l'altra procedura;
+    #   - `\bCCP\b`, `metal detector`: li governa il manuale HACCP;
+    #   - `mass balance` DA SOLO: la rintracciabilita' la prescrivono anche il manuale HACCP e
+    #     l'art. 18 del Reg. 178/2002 citato da piu' fonti. Entra `mass balance` perche' il
+    #     par. 6 FASE 2 d) ne fissa **la formula e il target** — e la prova A dira' se basta.
+    "ritiro": {
+        "fonti": {
+            "procedura_ritiro_prodotto_CRISI_GDO.txt",
+        },
+        "espressioni": [
+            r"\bPRO-QA-14\b",                   # la sigla della fonte stessa
+            # ⚠️ `\bPRO-QA-11\b` E' STATA TOLTA A LOTTO CHIUSO, e non e' un ripensamento:
+            # e' la META' B di E59 — eseguita alla chiusura, come l'estensione del gate del
+            # lotto 3D impone — che l'ha respinta con quota fuori **0,57**. Riconosce 7 note e
+            # QUATTRO di esse citano SOLO altre prescrittive: e' la sigla che `PRO-QA-08` usa,
+            # e pesca quindi le note del dominio `reclami`, non di questo.
+            # ⚠️ **Non e' una stretta a numero visto** (§4.43): il tasso era gia' a 0,0 %,
+            # e a decidere e' stata la prova, non il numero. E' anche la prima volta che la
+            # meta' B respinge qualcosa: in apertura non era applicabile.
+            r"ritiro (?:cautelativ|dal mercato|volontario|del prodotto)",
+            r"richiamo (?:del )?prodotto|richiamo dal mercato",
+            r"mock recall",                      # par. 10, l'esercitazione che questa fonte istituisce
+            r"team di crisi",                    # par. 5, l'organo che questa fonte istituisce
+            r"\bMOD-MAG-02\b",                  # il modulo che par. 3.3 e par. 9 istituiscono
+            r"dossier di crisi",                 # par. 9, l'oggetto che questa fonte nomina
+            r"mass balance",                     # par. 6 FASE 2 d): formula e target
+            r"blocco (?:dei )?lotti|lotti bloccati|cartellin[oi] BLOCCATO",
+        ],
+        "cosa": "il ciclo del ritiro e del richiamo dal mercato: definizioni, classificazione "
+                "della gravita', team di crisi e reperibilita', blocco e ricostruzione col mass "
+                "balance, notifiche all'autorita' e ai clienti, gestione del reso, riesame "
+                "post-crisi e mock recall annuale",
+    },
     "acqua": {
         "fonti": {
             "piano_autocontrollo_acqua_potabile_analisi.csv",

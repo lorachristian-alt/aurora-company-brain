@@ -1,0 +1,1447 @@
+Giudichi note di un archivio aziendale rispetto ai documenti che dichiarano come
+fonte. Non devi migliorare le note, non devi riscriverle e non devi rispondere
+alle domande che pongono: devi giudicare se stanno in piedi sulle loro fonti.
+
+Per ogni nota ricevi: il nome, il corpo integrale, l'elenco delle fonti che
+dichiara e il testo estratto di ciascuna di quelle fonti.
+
+Rispondi SOLO a queste tre domande, in quest'ordine:
+1. Ogni fonte elencata contribuisce davvero alla nota? Una fonte che non sorregge
+   nessuna affermazione e' rumore nel payload, e va segnalata.
+2. La nota afferma qualcosa che le fonti non dicono, pur senza numeri? Cerca le
+   affermazioni qualitative: cause, intenzioni, conseguenze, attribuzioni di una
+   frase a una persona, giudizi di conformita'. I numeri, le date e i codici NON
+   sono affar tuo: li ha gia' verificati lo strato deterministico.
+
+3. Esiste, FRA LE FONTI CHE HAI RICEVUTO IN QUESTO PACCHETTO, un documento che
+   misura o afferma la stessa grandezza di cui la nota parla, e che la nota NON
+   cita? Non e' un difetto di provenienza: e' una lacuna di copertura. La segnali
+   FUORI dal verdetto, in coda alla risposta, dicendo quale nota e quale
+   documento, e NON cambi per questo l'esito della nota.
+
+Assegna a ogni nota esattamente un esito:
+- `pulita` — ogni fonte contribuisce e nessuna affermazione eccede le fonti
+- `fonte_inutile` — almeno una fonte elencata non sorregge nulla
+- `afferma_oltre` — almeno un'affermazione non ha riscontro nelle fonti citate
+- `entrambi` — sia una fonte inutile sia un'affermazione che eccede
+
+Restituisci UNA riga JSON per nota, con esattamente questi campi:
+`nota`, `esito`, `motivazione` (una riga sola, che cita l'affermazione o la fonte
+esatta a cui ti riferisci).
+
+Regole che non puoi violare:
+- Non essere generoso: se un'affermazione non e' ritrovabile leggendo le fonti,
+  non e' fondata anche se e' plausibile e ben scritta.
+- Un'inferenza DICHIARATA come tale («i due documenti, letti insieme, mostrano
+  che…», «la trascrizione non lo afferma: e' un'attribuzione») e' legittima e non
+  si segnala. E' l'inferenza fatta passare per dato della fonte che si segnala.
+- Una nota che riporta due valori divergenti senza sceglierne uno sta facendo il
+  suo mestiere: non e' un difetto, e non si segnala.
+- Non proponi correzioni e non riscrivi niente. Riporti, e basta.
+- Non ricevi il canone e non devi cercarlo: confronti la nota contro le sue
+  fonti, punto. Il giudizio sulla copertura dei fatti spetta a un altro ruolo.
+- La terza domanda non ti autorizza a giudicare la copertura dell'archivio: ti
+  chiede solo di segnalare cio' che hai gia' sotto gli occhi dentro il pacchetto.
+  Se un documento non e' nel pacchetto, per te non esiste.
+
+
+======================================================================
+PROMPT v2 del 2026-08-18 — non modificarlo per questo lotto.\n
+======================================================================
+
+======================================================================
+FETTA 2 DI 2 — 3 note da giudicare.
+Giudichi SOLO le note di questa fetta, contro le fonti in coda a questo
+file. ⚠️ Se l'appendice delle fonti mancasse o non contenesse i documenti
+che le note citano, DICHIARA L'INGRESSO DEGRADATO e non emettere verdetti:
+è un esito legittimo e vale più di un verdetto costruito sul nulla.
+======================================================================
+
+----------------------------------------------------------------------
+>>>>> NOTA DA GIUDICARE: questione-perimetro-del-blocco-e-mass-balance.md
+----------------------------------------------------------------------
+---
+title: "Il perimetro del blocco e il mass balance dello stesso giorno non concordano su nessuno dei numeri"
+summary: "Il blocco del perimetro del 14/05 alle 18:05 e la ricostruzione di rintracciabilità compilata lo stesso giorno danno tre numeri diversi per le stesse quantità: giacenza bloccata, quota spedita e prodotto coinvolto."
+type: conflitto
+area: qualita
+tags: [data, conflitto, qualita, logistica, ritiro, rec-2026-011, mass-balance]
+fonti:
+  - procedura_ritiro_prodotto_CRISI_GDO.txt
+  - tracciabilita_lotti_massbalance_L26130.xlsx
+stato: aperto
+aliases: []
+data_fatto: 2026-05-14
+data_nota: 2026-08-24
+related: "[[fatto-perimetro-del-blocco-dal-riavvio]], [[fatto-lo-spedito-eccede-il-sotto-lotto]], [[kpi-mass-balance-l26130]], [[lotto-l26130]], [[area-qualita]]"
+---
+
+# Due ricostruzioni dello stesso evento, dello stesso giorno
+
+Il **blocco del perimetro** è datato **14/05/2026 alle 18:05**; il **mass balance** è «compilato
+in emergenza il **14/05/2026** da S. Pozzato su richiesta di E. Marchetti». **Stesso giorno,
+stessa funzione, tre numeri che non tornano.**
+
+## Le versioni a confronto
+
+| Grandezza | Blocco del perimetro | Mass balance |
+|---|---|---|
+| giacenza bloccata in Aurora di `L26130-L1-T2` | **3.290 conf.**, «in magazzino, BLOCCATE», per la sola finestra 18:45-22:00 | **1.180** pz, «giacenza magazzino Aurora», `BLOCCATO QA`, per **tutto** il turno |
+| la quota di **5.100** | attribuita a `L26131-L1-T2`, «di cui 5.100 gia' spedite» | è lo **spedito di `L26130-L1-T2`** a Tosano, col DDT «2026/1188» dell'11/05 |
+| prodotto coinvolto | **~ 8.400 conf.** | il foglio dei clienti coinvolti porta **9.360** per Tosano |
+
+## Perché non si sceglie
+
+⚠️ **Il primo scarto è aritmeticamente impossibile in un verso solo**: la finestra 18:45-22:00 è
+un **sottoinsieme** del turno, e il bloccato del sottoinsieme non può eccedere il bloccato del
+turno. Scarto **2.110** *(calcolato: 3.290 − 1.180)*. Nessuna delle due fonti dichiara un
+perimetro diverso dall'altra.
+
+⚠️ **Il secondo scarto spiega la riga che non torna, e la spiega in modo diverso da come il
+documento ipotizza**: il blocco annota di ricontrollare, perché «il totale spedito comprende anche pezzi
+del T2», e il mass balance mostra che **5.100 non è un totale ma lo spedito di un altro
+sotto-lotto**, con un numero di DDT proprio.
+
+⚠️ **Il terzo scarto riguarda ciò che l'azienda ha comunicato al cliente.** La mattina del
+14/05 alle 09:15 Tosano è avvisata per **9.360** pezzi — cioè **5.100 + 4.260** *(calcolato)*,
+tutte le consegne dei due turni a quel cliente — mentre la sera dello stesso giorno il perimetro
+interno ne conta **8.400 in tutto**, su tre clienti.
+
+## Cosa servirebbe per chiuderla
+
+- Il **`MOD-MAG-02`** del blocco, che nessuna di queste fonti porta.
+- L'**esito della verifica** che il blocco assegna a Faggionato.
+- Una **ripartizione dello spedito per sotto-lotto** concordata fra le due ricostruzioni.
+
+## Fonti
+
+- [[procedura_ritiro_prodotto_CRISI_GDO.txt]] — §PERIMETRO DEL BLOCCO - definizione (E.M. 14/05/2026 h 18:05): i tre sotto-lotti coi conteggi e il «Totale interessato ~ 8.400 conf.».
+- [[tracciabilita_lotti_massbalance_L26130.xlsx]] — foglio «A valle», righe 6-9: la riga di `L26130-L1-T2` col DDT «2026/1188» e «5100», e la riga «giacenza magazzino Aurora» con «1180» e «BLOCCATO QA».
+- [[tracciabilita_lotti_massbalance_L26130.xlsx]] — foglio «Clienti coinvolti», riga 6: «Tosano Cerea SpA», «9360», «14/05/2026», «09:15».
+
+----------------------------------------------------------------------
+>>>>> NOTA DA GIUDICARE: questione-prefisso-dello-studio-della-consulente.md
+----------------------------------------------------------------------
+---
+title: "Il recapito dello studio della consulente HACCP porta un prefisso che non è quello della città che due fonti le attribuiscono"
+summary: "La procedura di ritiro dà allo studio della consulente esterna un numero con prefisso 049, mentre il manuale HACCP e la procedura dei reclami collocano lo Studio Alimentaria a Verona, e la stessa tabella assegna il prefisso 045 all'altro professionista veronese."
+type: conflitto
+area: qualita
+tags: [data, conflitto, qualita, consulenti, recapiti, entita]
+fonti:
+  - procedura_ritiro_prodotto_CRISI_GDO.txt
+  - manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt
+  - PRO-QA-08_gestione_reclami_cliente_rev2.docx
+stato: aperto
+aliases: []
+data_nota: 2026-08-24
+related: "[[entita-chiara-vicentini]], [[doc-team-di-crisi]], [[doc-manuale-haccp]], [[area-qualita]]"
+---
+
+# Dove ha lo studio la consulente HACCP?
+
+## Le versioni a confronto
+
+| Fonte | Che cosa dice |
+|---|---|
+| **`PRO-QA-14`** §5, tabella del team di crisi | la riga del **consulente HACCP** porta il recapito «**049** 87 655 40 (studio)» |
+| **la stessa tabella**, riga successiva | la riga del **legale esterno** dice «avv. Storti - Verona» e porta «**045** 80 31 226 (ufficio)» |
+| **Manuale HACCP**, §4.1 | «Consulente esterno | dott.ssa Chiara Vicentini | **Studio Alimentaria (Verona)**» |
+| **`PRO-QA-08`** §7.2 | «Il consulente HACCP esterno (**Studio Alimentaria, Verona**) partecipa su richiesta del RSGQ» |
+
+## Perché non si sceglie
+
+⚠️ **La stessa tabella dimostra che i prefissi sono usati con precisione**: all'altro
+professionista, dichiarato di Verona nella riga accanto, assegna il **045**.
+
+⚠️ **Le due letture restano aperte**: uno studio può avere una seconda sede, e **nessuna delle
+fonti di questa nota lo esclude** — ma nessuna lo afferma.
+
+⚠️ **Forza dichiarata: media.** È una divergenza fra un recapito e una città, non fra due
+affermazioni sullo stesso oggetto, e nessuna delle fonti dichiara di correggere l'altra.
+
+## Cosa servirebbe per chiuderla
+
+- Un **documento con la carta intestata dello studio**, che queste fonti non portano.
+- Una **revisione della procedura** che allinei il recapito.
+
+## Fonti
+
+- [[procedura_ritiro_prodotto_CRISI_GDO.txt]] — §5 «TEAM DI CRISI - COMPOSIZIONE E REPERIBILITA'»: le righe del consulente HACCP e del legale esterno, coi rispettivi recapiti.
+- [[manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt]] — §4.1: «Consulente esterno», «dott.ssa Chiara Vicentini», «Studio Alimentaria (Verona)».
+- [[PRO-QA-08_gestione_reclami_cliente_rev2.docx]] — §7.2: «Il consulente HACCP esterno (Studio Alimentaria, Verona) partecipa su richiesta del RSGQ».
+
+----------------------------------------------------------------------
+>>>>> NOTA DA GIUDICARE: questione-un-richiamo-in-classe-2.md
+----------------------------------------------------------------------
+---
+title: "Un cliente risulta in richiamo mentre la classificazione in vigore dice ritiro"
+summary: "Il mass balance registra la consegna a Rossetto Trade come RICHIAMATO e il foglio dei clienti come richiamo autorizzato il 15/05, mentre l'annotazione del giorno prima classifica l'evento in classe 2, che secondo la procedura comporta il ritiro e non il richiamo."
+type: conflitto
+area: qualita
+tags: [data, conflitto, qualita, commerciale, ritiro, richiamo, rec-2026-011]
+fonti:
+  - procedura_ritiro_prodotto_CRISI_GDO.txt
+  - tracciabilita_lotti_massbalance_L26130.xlsx
+stato: aperto
+aliases: []
+data_fatto: 2026-05-15
+data_nota: 2026-08-24
+related: "[[doc-classi-di-gravita-della-crisi]], [[concetto-ritiro-e-richiamo]], [[fatto-classe-2-provvisoria-sul-frammento]], [[questione-classe-del-reclamo-rec-2026-011]], [[area-qualita]]"
+---
+
+# Ritiro o richiamo, per un cliente su tre
+
+## Le versioni a confronto
+
+| Fonte | Che cosa dice |
+|---|---|
+| Mass balance, foglio «A valle» | `L26131-L1-T2` → Rossetto Trade SpA, CE.DI. Villafranca, 980 pz, stato **`RICHIAMATO`** |
+| Mass balance, foglio «Clienti coinvolti» | Rossetto Trade, **15/05/2026 ore 08:05**, esito contatto «**richiamo autorizzato**» |
+| Annotazione del 14/05, h 17:40 | «**Classe 2 per ora (ritiro, non richiamo)** MA se tagliente -> Classe 1 e notifica ULSS» |
+| `PRO-QA-14` §3.2 e §4 | il **richiamo** è la rimozione quando il prodotto è **già nella disponibilità del consumatore**, ed è l'azione della **classe 1**, con notifica all'Autorità entro 24 h |
+
+## Perché non si sceglie
+
+⚠️ **Le due letture possibili non sono equivalenti.** O «richiamato» è linguaggio corrente in un
+foglio di lavoro — e allora il termine che la procedura definisce è usato per un'altra cosa nel
+documento con cui si dimostra la rintracciabilità a un cliente e a un ente. Oppure il richiamo è
+stato davvero autorizzato, e allora **è stato autorizzato fuori dalla classe dichiarata il
+giorno prima**.
+
+⚠️ **Nella seconda lettura mancherebbero due adempimenti che la classe 1 impone**: l'avviso al
+consumatore e la notifica all'Autorità entro 24 ore. **Nessuna delle fonti di questa nota porta
+l'uno o l'altra.**
+
+⚠️ **La cronologia non aiuta a scegliere**: l'autorizzazione è del **15/05 alle 08:05**, cioè il
+giorno dopo l'annotazione e la mattina della riunione del team di crisi.
+
+## Cosa servirebbe per chiuderla
+
+- La **classificazione definitiva** registrata su `MOD-QA-31` col razionale, che il §4 prescrive.
+- Il **verbale della riunione del team di crisi** del 15/05.
+- La **comunicazione a Rossetto Trade**, che nessuna di queste fonti porta.
+
+## Fonti
+
+- [[tracciabilita_lotti_massbalance_L26130.xlsx]] — foglio «A valle», riga 11: la riga di `L26131-L1-T2` col DDT «2026/1206», «Rossetto Trade SpA», «980» e lo stato «RICHIAMATO».
+- [[tracciabilita_lotti_massbalance_L26130.xlsx]] — foglio «Clienti coinvolti», riga 8: «Rossetto Trade SpA», «15/05/2026», «08:05», «richiamo autorizzato».
+- [[procedura_ritiro_prodotto_CRISI_GDO.txt]] — §3.2 «RICHIAMO (recall)» e §4 «CLASSIFICAZIONE DELLA GRAVITA'», classi 1 e 2.
+- [[procedura_ritiro_prodotto_CRISI_GDO.txt]] — §ANNOTAZIONE MANOSCRITTA, 14/05/26 h 17:40: «Classe 2 per ora (ritiro, non richiamo)».
+
+
+======================================================================
+
+
+======================================================================
+TESTO ESTRATTO DELLE FONTI CITATE
+======================================================================
+
+--- PRO-QA-08_gestione_reclami_cliente_rev2.docx ---
+AURORA FOOD GROUP S.r.l. — PROCEDURA PRO-QA-08
+
+Sistema di Gestione Qualità e Sicurezza Alimentare — BRCGS Food Safety Issue 9 / IFS Food v8
+
+
+[Marchetti E. - la rev.2 recepisce la NC 1 audit CSQA del 17-18/02/2026: aggiunta la seconda firma di verifica al par. 7.4. Da distribuire in copia controllata entro fine marzo.]
+
+1. SCOPO
+
+La presente procedura definisce le modalità operative con cui Aurora Food Group S.r.l. riceve, registra, classifica, indaga e chiude i reclami provenienti da clienti (GDO, grossisti, Ho.Re.Ca.) e da consumatori finali, al fine di:
+
+garantire una risposta tempestiva e documentata a ogni segnalazione;
+individuare la causa radice ed attuare azioni correttive efficaci;
+alimentare il riesame della direzione con indicatori misurabili;
+assicurare la conformità ai requisiti BRCGS Food Safety Issue 9 (cl. 3.10) e IFS Food v8 (cap. 5.8).
+
+La presente procedura si applica anche ai reclami dei fornitori. [Vicentini C. - i reclami VERSO i fornitori sono in PRO-ACQ-03, non qui. Tolto.]
+
+2. CAMPO DI APPLICAZIONE
+
+Si applica a tutti i reclami relativi a prodotti fabbricati e/o confezionati presso lo stabilimento di Via dell'Industria 27, Cologna Veneta (VR), a marchio Aurora e a marchio del cliente (private label), qualunque sia il canale di ricezione:
+
+comunicazione scritta del cliente (PEC, e-mail, portale fornitori GDO);
+segnalazione telefonica agli uffici commerciali;
+form "Contattaci" del sito www.aurorafoodgroup.it;
+segnalazione tramite agente di vendita;
+resi non conformi contestati al ricevimento merci del cliente.
+
+Sono escluse le contestazioni di natura esclusivamente amministrativa (differenze di prezzo, errori di fatturazione), gestite dall'Amministrazione secondo prassi interna.
+
+3. RIFERIMENTI
+
+Reg. (CE) 178/2002 — principi generali della legislazione alimentare, art. 19
+Reg. (CE) 852/2004 — igiene dei prodotti alimentari
+BRCGS Food Safety Issue 9, clausole 3.10.1 e 3.10.2
+IFS Food v8, requisiti 5.8.1 e 5.8.2
+PRO-QA-11 Gestione ritiro e richiamo prodotto
+PRO-QA-05 Azioni correttive e preventive
+MOD-QA-31 Modulo di gestione reclami
+
+4. RESPONSABILITÀ
+
+
+Legenda: R = responsabile, A = approva, C = collabora, I = informato.
+
+[Marchetti E. - Fantin ha chiesto di essere "A" sulle azioni correttive e "R" solo sulla decisione di ritiro. Verbale riunione del 05/03/2026.]
+
+5. CLASSIFICAZIONE DEI RECLAMI
+
+Ogni reclamo viene classificato dal RSGQ entro 8 ore lavorative dalla ricezione, secondo la seguente scala:
+
+
+I reclami di classe 1 e 2 vengono comunicati al titolare solo se il cliente è del canale GDO. [Vicentini C. - NO: i critici vanno SEMPRE alla direzione, anche se il reclamante è un consumatore. Riscrivere come sotto.]
+
+I reclami di classe 1 sono comunicati immediatamente, per le vie brevi e poi per iscritto, all'Amministratore Delegato, al Direttore di Stabilimento e alla Direzione Commerciale, indipendentemente dal canale di provenienza.
+
+6. FLUSSO OPERATIVO
+
+6.1 Ricezione e registrazione (entro 8 ore lavorative)
+
+Chiunque riceva un reclamo (centralino, commerciale, agente, sito web) lo inoltra senza filtri al RSGQ all'indirizzo qualita@aurorafoodgroup.it. Il RSGQ:
+
+1. protocolla il reclamo con numerazione progressiva annuale (formato REC-AAAA-NNN, es. REC-2026-014);
+2. apre il modulo MOD-QA-31 compilando la sezione A (dati del reclamante, prodotto, codice articolo, EAN, lotto, data e luogo di acquisto, descrizione del difetto);
+3. richiede al reclamante, ove mancanti, fotografia del prodotto, del lotto stampato e del difetto;
+4. classifica il reclamo secondo il par. 5.
+
+[Pozzato S. - il form del sito non chiede il lotto in campo obbligatorio, metà dei reclami arrivano senza. Si può far modificare il form? Segnalato a Sartori il 12/05.]
+
+6.2 Verifiche immediate (entro 24 ore per classi 1 e 2)
+
+Il RSGQ, con il supporto dell'Assistente Qualità:
+
+1. verifica la rintracciabilità del lotto su MOD-MAG-02 (quantità prodotta, quantità spedita, giacenza residua, clienti destinatari);
+2. estrae e riesamina le registrazioni di produzione e di controllo del lotto: MOD-QA-12 (CCP2), MOD-QA-07 rev.5 (CCP3), MOD-PR-04 (fermi macchina), registrazioni CIP;
+3. blocca cautelativamente l'eventuale giacenza del lotto a magazzino, con cartellino giallo NON CONFORME;
+4. preleva e riesamina i campioni di riserva del lotto (campioteca, conservazione a temperatura di esercizio per shelf life + 1 mese);
+5. per la classe 1, informa la direzione e convoca il team HACCP per la valutazione di attivazione della PRO-QA-11.
+
+6.3 Tempistiche di sintesi
+
+
+7. INDAGINE E RICERCA DELLA CAUSA RADICE
+
+7.1 Metodo
+
+Per i reclami di classe 1 e 2 la ricerca della causa radice è obbligatoria e documentata nella sezione C del MOD-QA-31. Il metodo di riferimento è la combinazione di:
+
+diagramma di Ishikawa (causa-effetto): il difetto viene analizzato lungo le 6 M — Materiali (materie prime, imballi), Metodi (procedure, istruzioni), Macchine (impianti, utensili, manutenzione), Manodopera (formazione, comportamenti), Misurazioni (strumenti, registrazioni), Ambiente (layout, flussi, infestanti). Per ogni ramo il team elenca le cause possibili e le verifica una a una con evidenze;
+metodo dei 5 perché: per il ramo risultato più probabile, si domanda iterativamente "perché?" fino a raggiungere la causa organizzativa di fondo, di norma entro 5 passaggi.
+
+Esempio applicativo (didattico): frammento plastico in prodotto confezionato → perché? guarnizione deteriorata rilasciata dalla macchina → perché? montata guarnizione non idonea al contatto alimentare → perché? ricambio originale non disponibile a magazzino → perché? scorta minima ricambi critici non definita → perché? la manutenzione non dispone di un elenco di ricambi critici con scorta minima → causa radice: assenza di gestione pianificata dei ricambi critici.
+
+[Marchetti E. - l'esempio l'ho preso volutamente generico ma dopo il caso del 12/05 forse è meglio cambiarlo, sembra scritto apposta. Sentire Fantin.]
+[Vicentini C. - lo lascerei: se lo cambia adesso, in audit chiederanno perché. Piuttosto va allineato il piano di manutenzione, che è la vera carenza.]
+
+7.2 Team di indagine
+
+L'indagine per i reclami di classe 1 è condotta dal team HACCP integrato dal Responsabile di Produzione e, ove pertinente, dal Capo officina. Il consulente HACCP esterno (Studio Alimentaria, Verona) partecipa su richiesta del RSGQ.
+
+7.3 Gestione del campione reso dal consumatore
+
+1. Il campione oggetto di reclamo viene richiesto al reclamante; il ritiro avviene a cura dell'agente di zona o tramite corriere prepagato.
+2. Al ricevimento, l'Assistente Qualità fotografa il campione integro, lo identifica con il numero di protocollo REC e lo registra nella sezione B del MOD-QA-31.
+3. Il campione è conservato in busta sigillata, in area segregata del laboratorio QC, a temperatura idonea, per almeno 12 mesi dalla chiusura del reclamo.
+4. Eventuali analisi (identificazione materiale del corpo estraneo, analisi microbiologiche) sono affidate al laboratorio esterno Analytica Veneta S.r.l. (ACCREDIA n. 0987), con catena di custodia documentata.
+5. Il campione non viene mai restituito, distrutto o manipolato prima della chiusura del reclamo e comunque non senza autorizzazione scritta del RSGQ.
+
+6. Eventuali analisi sono eseguite dal laboratorio interno. [Marchetti E. - il lab interno fa solo tamponi e pH, l'identificazione materiali va fuori. Corretto con Analytica Veneta.]
+
+7.4 Verifica delle registrazioni in seconda firma
+
+A seguito della NC 1 dell'audit CSQA del 17-18/02/2026 (rif. BRCGS 9 cl. 2.10.2 / IFS 5.1.2), tutte le registrazioni manuali dei CCP riesaminate nel corso dell'indagine devono riportare la verifica in seconda firma del capoturno entro fine turno. L'assenza della seconda firma su una registrazione oggetto di indagine è essa stessa una non conformità interna, da registrare e trattare secondo PRO-QA-05.
+
+[Marchetti E. - le evidenze di chiusura NC sono partite il 02/04/2026, in ritardo sui 28 gg. CSQA ha accettato con riserva, verificherà al prossimo audit. NON dimenticare.]
+
+8. COMUNICAZIONE AL CLIENTE
+
+8.1 Clienti GDO e private label
+
+La risposta scritta ai clienti GDO (Tosano Cerea S.p.A., Alì S.p.A., Rossetto Trade S.p.A., Famila Nordest) è predisposta dal RSGQ per i contenuti tecnici e firmata dalla Direzione Commerciale. Deve contenere: ricostruzione dei fatti, esito delle verifiche, causa individuata o ipotesi in corso di verifica, azioni correttive con date, eventuali proposte di gestione della merce.
+
+Per i clienti con portale fornitori o con richieste di riscontro a termine (es. Assicurazione Qualità Tosano: riscontro entro 48 h), i termini contrattuali del cliente prevalgono su quelli del par. 6.3 se più stringenti.
+
+8.2 Consumatori finali
+
+La risposta al consumatore è cortese, non ammette responsabilità prima della chiusura dell'indagine, ringrazia per la segnalazione e informa dell'avvio delle verifiche. Eventuali omaggi o rimborsi sono decisi dalla Direzione Commerciale. Ogni comunicazione al consumatore su reclami di classe 1 è preventivamente condivisa con la direzione.
+
+[Bertoldi S. - aggiungere che NESSUNO risponde al consumatore a voce entrando nel merito, nemmeno il centralino. È successo. La telefonata va deviata alla qualità e basta.]
+
+Il personale non autorizzato (centralino, commerciale, agenti, produzione) non fornisce al reclamante alcuna informazione di merito, né a voce né per iscritto: raccoglie i dati e inoltra al RSGQ.
+
+9. AZIONI CORRETTIVE E VERIFICA DI EFFICACIA
+
+1. Per ogni causa radice individuata, il team definisce almeno un'azione correttiva con responsabile e scadenza, registrata su MOD-QA-31 sezione D e nel registro azioni correttive di PRO-QA-05.
+2. Le azioni che richiedono investimenti sono sottoposte al Direttore di Stabilimento e, oltre la sua delega di spesa, all'Amministratore Delegato.
+3. La verifica di efficacia è pianificata alla chiusura dell'azione ed eseguita dal RSGQ entro i termini del par. 6.3, con evidenza oggettiva (assenza di recidiva, esito audit interno, dati di monitoraggio).
+4. Un reclamo si considera chiuso solo con: risposta definitiva inviata, azioni correttive attuate, verifica di efficacia pianificata.
+
+10. INDICATORI
+
+
+Gli indicatori sono presentati al riesame della direzione e, in forma aggregata, al team HACCP.
+
+[Pozzato S. - il dato "confezioni vendute" me lo deve passare Trentin dall'amministrazione ogni mese, finora l'ho rincorsa io. Formalizzare?]
+
+11. REGISTRAZIONI E ARCHIVIAZIONE
+
+
+12. STATO DELLE REVISIONI
+
+
+Documento di proprietà di Aurora Food Group S.r.l. — copia controllata n. ___ — la copia stampata non è garantita come aggiornata.
+
+Codice
+Titolo
+Revisione
+Data emissione
+Redatto
+Verificato
+Approvato
+PRO-QA-08
+Gestione dei reclami cliente e consumatore
+rev. 2
+14/03/2026
+dott.ssa E. Marchetti (RSGQ)
+dott.ssa C. Vicentini (cons. HACCP)
+ing. M. Fantin (Dir. Stabilimento)
+Attività
+RSGQ (Marchetti)
+Ass. Qualità (Pozzato)
+Dir. Commerciale (S. Bertoldi)
+Resp. Produzione (Zanella)
+Dir. Stabilimento (Fantin)
+Ricezione e protocollo reclamo
+R
+C
+C
+—
+I
+Apertura MOD-QA-31
+R
+C
+I
+—
+—
+Classificazione gravità
+R
+C
+—
+—
+I
+Indagine causa radice
+R
+C
+—
+C
+I
+Gestione campione reso
+C
+R
+—
+—
+—
+Risposta scritta al cliente GDO
+C
+—
+R
+—
+I
+Risposta al consumatore finale
+R
+C
+I
+—
+—
+Azioni correttive
+C
+—
+—
+R
+A
+Verifica di efficacia
+R
+C
+—
+—
+I
+Decisione ritiro/richiamo
+C
+—
+C
+—
+R
+Classe
+Denominazione
+Descrizione
+Esempi
+Tempo max prima risposta
+Tempo max chiusura
+1
+Critico
+Rischio per la salute del consumatore, potenziale ritiro/richiamo, coinvolgimento autorità
+corpo estraneo pericoloso, allergene non dichiarato, contaminazione microbiologica patogena
+4 ore
+Immediata attivazione PRO-QA-11
+2
+Maggiore
+Difetto rilevante di sicurezza percepita o di conformità legale, senza rischio sanitario accertato
+corpo estraneo non pericoloso, muffe entro shelf life, errore peso/etichetta
+24 ore
+15 giorni lavorativi
+3
+Minore
+Difetto qualitativo senza implicazioni di sicurezza
+difetti organolettici, confezione danneggiata, farcitura scarsa
+3 giorni lavorativi
+30 giorni lavorativi
+4
+Segnalazione
+Osservazione non classificabile come reclamo
+preferenze di gusto, richieste informazioni
+5 giorni lavorativi
+Registrazione semplice
+Fase
+Classe 1
+Classe 2
+Classe 3
+Protocollo e apertura MOD-QA-31
+4 h
+8 h
+24 h
+Prima risposta al reclamante
+4 h
+24 h
+3 gg lav.
+Verifica registrazioni lotto
+12 h
+48 h
+5 gg lav.
+Analisi causa radice completata
+5 gg
+10 gg
+20 gg
+Chiusura e risposta definitiva
+come da PRO-QA-11
+15 gg lav.
+30 gg lav.
+Verifica di efficacia AC
+entro 60 gg
+entro 90 gg
+se applicabile
+Indicatore
+Formula
+Obiettivo 2026
+Frequenza riesame
+Reclami totali per milione di confezioni vendute
+n. reclami x 1.000.000 / confezioni vendute
+< 8,0
+mensile
+Reclami classe 1
+conteggio assoluto
+0
+mensile
+Tempo medio di chiusura classe 2
+media gg lavorativi
+≤ 12 gg
+trimestrale
+Reclami per corpo estraneo
+conteggio assoluto
+≤ 3/anno
+mensile
+Recidive su stessa causa radice
+conteggio assoluto
+0
+trimestrale
+Registrazione
+Modulo
+Responsabile
+Conservazione
+Luogo
+Reclamo e indagine
+MOD-QA-31
+RSGQ
+shelf life + 3 anni, min. 5 anni
+ufficio qualità, raccoglitore annuale
+Campione reso
+etichetta REC + sez. B MOD-QA-31
+Ass. Qualità
+12 mesi da chiusura
+laboratorio QC, area segregata
+Rapporti di prova esterni
+rapporto Analytica Veneta
+RSGQ
+5 anni
+fascicolo reclamo
+Corrispondenza cliente
+PEC / e-mail
+Dir. Commerciale
+5 anni
+server, cartella COMM/reclami
+Azioni correttive
+registro PRO-QA-05
+RSGQ
+5 anni
+ufficio qualità
+Rev.
+Data
+Descrizione modifica
+Redatto
+Approvato
+0
+10/06/2019
+Prima emissione
+E. Marchetti
+G. Bertoldi
+1
+22/09/2023
+Adeguamento a BRCGS Issue 9 e IFS v8; nuova classificazione a 4 classi
+E. Marchetti
+M. Fantin
+2
+14/03/2026
+Recepimento NC 1 audit CSQA 02/2026 (par. 7.4); precisazioni su campione reso e comunicazione al consumatore
+E. Marchetti
+M. Fantin
+[BARRATO: La presente procedura si applica anche ai reclami dei fornitori.]
+[BARRATO: I reclami di classe 1 e 2 vengono comunicati al titolare solo se il cliente è del canale GDO.]
+[BARRATO: 6. Eventuali analisi sono eseguite dal laboratorio interno. [Marchetti E. - il lab interno fa solo tamponi e pH, l'identificazione materiali va fuori. Corretto con Analytica Veneta.]]
+
+
+--- manuale_HACCP_Aurora_v4_2024_ESTRATTO_REALE.txt ---
+AURORA FOOD GROUP S.r.l. - Via dell'Industria 27 - 37044 Cologna Veneta (VR)
+SISTEMA DI AUTOCONTROLLO IGIENICO-SANITARIO
+MANUALE HACCP - REVISIONE 4 del 15/01/2024
+Manuale HACCP rev.5 - pag. 1 di 78 - Doc. non controllato se stampato
+
+Redatto da: dott.ssa Elena Marchetti (RSGQ - Team Leader HACCP)
+Verificato da: dott.ssa Chiara Vicentini (consulente esterna - Studio Alimentaria, Verona)
+Approvato da: ing. Marco Fantin (Direttore di Stabilimento)
+
+Copia controllata n. 03 - assegnataria: Sara Pozzato (QC laboratorio)
+Distribuzione: Direzione, Qualità, Produzione, Manutenzione, Magazzino
+
+
+1. SCOPO E CAMPO DI APPLICAZIONE
+
+1.1 Scopo
+Il presente Manuale descrive il sistema di autocontrollo igienico-sanitario adottato da
+Aurora Food Group S.r.l. presso lo stabilimento di Via dell'Industria 27, Cologna Veneta
+(VR), registrazione sanitaria n. 037/2019/SIAN - ULSS 9 Scaligera, ai fini della garanzia
+della sicurezza alimentare dei prodotti fabbricati, in conformità ai principi del sistema
+HACCP di cui al Codex Alimentarius e alla legislazione comunitaria e nazionale applicabile.
+
+1.2 Campo di applicazione
+Il sistema si applica a tutte le fasi di ricevimento, stoccaggio, lavorazione,
+confezionamento in atmosfera protettiva (ATM/MAP), surgelazione, stoccaggio del prodotto
+finito e spedizione, relative alle seguenti categorie di prodotto:
+a) prodotti da forno farciti e snack salati confezionati in ATM (Linea 1);
+b) croissanteria surgelata, anche a marchio del cliente (Linea 2);
+c) prodotti da forno surgelati (Linea 3).
+Sono incluse le lavorazioni in private label per la Grande Distribuzione Organizzata
+(marchio "Bontà di Casa" - Tosano Cerea S.p.A. e altri). E' incluso il secondo magazzino
+di prodotto finito surgelato sito in Via Palù 3/A, Cologna Veneta (VR).
+Sono escluse dal campo di applicazione le attività di trasporto affidate a vettori terzi,
+per le quali si applica la procedura PRO-QA-09 (qualifica e monitoraggio dei vettori),
+vedi All. 7.
+
+Manuale HACCP rev.5 - pag. 2 di 78 - Doc. non controllato se stampato
+
+2. RIFERIMENTI NORMATIVI
+
+- Reg. (CE) n. 852/2004 del 29/04/2004 sull'igiene dei prodotti alimentari e s.m.i.;
+- Reg. (CE) n. 178/2002 che stabilisce i principi e i requisiti generali della
+  legislazione alimentare (rintracciabilità, obblighi degli OSA, artt. 18-19);
+- Reg. (UE) n. 1169/2011 relativo alla fornitura di informazioni sugli alimenti ai
+  consumatori (allergeni, All. II);
+- Reg. (CE) n. 2073/2005 sui criteri microbiologici applicabili ai prodotti alimentari;
+- Reg. (CE) n. 1935/2004 sui materiali e oggetti destinati a venire a contatto con i
+  prodotti alimentari (MOCA);
+- Codex Alimentarius - General Principles of Food Hygiene CAC/RCP 1-1969, rev. 4 (2003)
+  e Annex on HACCP System and Guidelines for its Application;
+- D.Lgs. 6 novembre 2007 n. 193 "Attuazione della direttiva 2004/41/CE relativa ai
+  controlli in materia di sicurezza alimentare e applicazione dei regolamenti comunitari
+  nel medesimo settore" (regime sanzionatorio);
+- BRCGS Food Safety Issue 9 (standard volontario, cert. n. BRC/IT/24/00871);
+- IFS Food v8 (standard volontario, cert. n. IFS/IT/25/03390);
+- Linee guida regionali Regione Veneto in materia di autocontrollo (DGR applicabili).
+
+Nota (1): l'elenco completo dei riferimenti, comprese le norme ISO di supporto ai metodi
+di prova (ISO 11290-1, ISO 6579-1, ISO 4833-1), è riportato nell'All. 1 "Elenco documenti
+di origine esterna", tenuto aggiornato da RSGQ.
+
+3. TERMINI E DEFINIZIONI
+
+3.1 Ai fini del presente Manuale si applicano le definizioni del Codex Alimentarius
+CAC/RCP 1-1969 rev.4 e del Reg. (CE) 178/2002. In particolare:
+- Pericolo: agente biologico, chimico o fisico contenuto in un alimento, o condizione
+  in cui un alimento si trova, in grado di provocare un effetto nocivo sulla salute;
+- CCP (Punto Critico di Controllo): fase in cui il controllo può essere applicato ed è
+  essenziale per prevenire o eliminare un pericolo per la sicurezza alimentare o per
+  ridurlo a un livello accettabile;
+- PRP (Programma di Prerequisiti): pratiche e condizioni di base necessarie per il
+  mantenimento di un ambiente igienico;
+- PRPo (PRP operativo): PRP identificato dall'analisi dei pericoli come essenziale per
+  controllare la probabilità di introdurre pericoli;
+- Limite critico: criterio che distingue l'accettabilità dall'inaccettabilità;
+- Deviazione: mancato rispetto di un limite critico.
+
+Manuale HACCP rev.5 - pag. 5 di 78 - Doc. non controllato se stampato
+
+4. IL TEAM HACCP
+
+4.1 Composizione
+Il Team HACCP è nominato dalla Direzione con ordine di servizio ODS-02/2024 ed è così
+composto:
+
+Ruolo nel team | Nome | Funzione aziendale | Competenze
+Team Leader | dott.ssa Elena Marchetti | Responsabile Qualità (RSGQ) | Laurea CTF ind. alimentare, corso HACCP avanzato, lead auditor ISO 22000
+Membro | Sara Pozzato | Assistente Qualità / QC laboratorio interno | diploma perito chimico, campionamenti e analisi
+Membro | ing. Marco Fantin | Direttore di Stabilimento / Operations | processi e impianti
+Membro | Denis Zanella | Responsabile Produzione | conduzione linee 1-2-3
+Membro | Ivano Dal Maso | Capo officina / Manutenzione | impianti, taratura, MOCA lubrificanti
+Membro | dott. Alberto Zanchetta | R&D - tecnologo alimentare | formulazioni, shelf life, allergeni
+Membro | Nicola Faggionato | Resp. Magazzino e Spedizioni | catena del freddo, FEFO
+Consulente esterno | dott.ssa Chiara Vicentini | Studio Alimentaria (Verona) | consulenza HACCP, aggiornamento normativo
+
+4.2 Il Team si riunisce con frequenza almeno semestrale e comunque in occasione di:
+modifiche di prodotto/processo, nuove referenze, non conformità significative, esiti di
+audit, allerta RASFF pertinenti. I verbali sono conservati da RSGQ (vedi All. 3).
+
+4.3 Compiti del Team Leader
+4.3.1 Il Team Leader convoca e coordina il Team, mantiene aggiornato il piano HACCP,
+verifica l'attuazione delle azioni correttive e riferisce alla Direzione in sede di
+riesame (PRO-QA-02).
+4.3.2 Verifica delle registrazioni
+4.3.2.1 Il Team Leader, o suo delegato formalmente individuato (Sara Pozzato), verifica
+con cadenza definita le registrazioni dei monitoraggi ai CCP. La verifica in seconda
+firma delle registrazioni manuali CCP2 e CCP3 deve avvenire entro la fine del turno di
+produzione a cura del capoturno, e comunque entro 24 ore a cura di QA. (2)
+4.3.2.2 Le registrazioni elettroniche (datalogger PT-104, log MD-3200) sono riesaminate
+settimanalmente da QA con estrazione a campione e confronto con le registrazioni
+cartacee corrispondenti.
+
+(2) Nota: requisito rafforzato a seguito audit CSQA del 17-18/02/2026, rif. NC minore
+BRCGS 9 cl. 2.10.2 / IFS v8 cl. 2.3.9.2 - vedi piano azioni correttive AC-2026-03.
+
+Manuale HACCP rev.5 - pag. 9 di 78 - Doc. non controllato se stampato
+
+5. DESCRIZIONE DEL PRODOTTO E DESTINAZIONE D'USO
+
+5.1 Famiglie di prodotto
+
+Famiglia A - Snack salati e focaccine in ATM (Linea 1)
+Referenze rappresentative: AF-SN-0450 Snack salato rustico multicereali 100 g;
+AF-SN-0455 formato promo 3+1; AF-FC-0330 Focaccina olio EVO 2x90 g.
+Caratteristiche: prodotto da forno cotto, farcito/condito, confezionato in flow-pack in
+atmosfera protettiva (miscela N2/CO2 - E941/E290, fornitore Nordgas S.p.A.), aw 0,30-0,40 (prodotto); farcitura in massa aw 0,90-0,94,
+pH 5,4-5,9, shelf life 45 gg a T ambiente ≤ 25 °C. Consumo diretto senza ulteriore
+trattamento (ready to eat).
+Destinazione: consumatore generico via GDO. Non destinato specificatamente a lattanti o
+soggetti allergici (per allergeni vedi par. 9 e All. 12 - matrice allergeni).
+
+Famiglia B - Croissanteria surgelata (Linea 2)
+Referenze rappresentative: AF-CR-0212 Cornetto Premium burro 6x50 g; AF-CR-0215 Cornetto
+Premium PL 8x45 g; AF-CR-0220 Sfogliatina bio ai cereali (cert. ICEA IT BIO 006).
+Prodotto crudo lievitato o semicotto, surgelato, TMC 12 mesi a -18 °C. Destinato a
+cottura completa da parte del consumatore o del punto vendita (not ready to eat).
+
+Famiglia C - Prodotti da forno surgelati (Linea 3)
+Prodotti cotti surgelati, TMC 12 mesi a -18 °C, cella CF-02.
+
+5.2 Il dettaglio composizionale di ciascuna referenza è riportato nelle schede tecniche
+di prodotto (archivio ST, gestione a cura di R&D - dott. Zanchetta) e non è duplicato
+nel presente Manuale, vedi All. 5.
+
+6. DIAGRAMMA DI FLUSSO
+
+6.1 Il diagramma di flusso è stato elaborato dal Team HACCP e verificato in campo in
+data 11/12/2023 (verifica in situ, turno 1 e turno 2, firme sul modulo di verifica).
+Si riporta la descrizione testuale delle fasi; la rappresentazione grafica è in All. 6.
+
+Fase 01 - Ricevimento materie prime (farine sfuse e in sacchi, grassi, zuccheri, lievito,
+         ingredienti vari, imballi primari MOCA e secondari). Controlli al ricevimento
+         secondo PRO-QA-05: integrità, temperatura ove applicabile, DDT, lotto, CoA.
+Fase 02 - Stoccaggio: silos farina (2x25 t), magazzino ingredienti a T ambiente, cella
+         CF-01 (+4 °C) per burro/panna (fornitore Latteria Bassanese), cella CF-02
+         (-18 °C) per surgelati e semilavorati congelati.
+Fase 03 - Setacciatura farina e passaggio su magnete permanente >>> CCP1
+Fase 04 - Dosaggio ingredienti / pesatura (verifica bilance secondo piano tarature).
+Fase 05 - Impastamento (IMP-300, 300 kg/ciclo, controllo T impasto ≤ 27 °C).
+Fase 06 - Laminazione/sfogliatura (Linea 2), formatura, farcitura.
+Fase 07 - Lievitazione in cella (Linea 2: 28-30 °C, UR 75-80%).
+Fase 08 - Cottura forno tunnel FT-01 (Linea 1) / FT-02 (Linea 2) - PRP forno, profilo
+         tempo/temperatura da scheda processo.
+Fase 09 - Trattamento termico di pastorizzazione superficiale post-farcitura in tunnel
+         termico PT-104 (solo Linea 1) >>> CCP2
+Fase 10 - Raffreddamento in spirale (Linea 1: da 65 °C a ≤ 30 °C in ≤ 55 min, aria
+         filtrata G4+F7).
+Fase 11 - Surgelazione (Linea 3: tunnel TS-01, in sostituzione con tunnel a spirale
+         Criotech CR-SP180) >>> CCP4
+Fase 12 - Rilevazione metalli su prodotto confezionato/non confezionato: MD-3200
+         (Linea 1) >>> CCP3 ; MD-1800 (Linea 3, gestito come CCP assimilato al CCP3
+         con medesimi limiti, vedi nota tabella).
+Fase 13 - Confezionamento primario in ATM: confezionatrice flow-pack PKM-450 (Linea 1),
+         film PP/EVOH fornitore Flexipack Nordest (DoC ex Reg. 1935/2004); controllo
+         miscela gas e tenuta saldature (PRP confezionamento, MOD-QA-15 (3)).
+Fase 14 - Etichettatura e stampa lotto/TMC (formato lotto: L26<ggg>-<linea>-<turno>).
+Fase 15 - Confezionamento secondario (cartone, fornitore Rational Pack), pallettizzazione.
+Fase 16 - Stoccaggio prodotto finito: magazzino T ambiente / cella CF-02 -18 °C /
+         magazzino esterno Via Palù 3/A.
+Fase 17 - Spedizione (vettori qualificati: Trasporti Frigo Veneto, Logistica Zorzi,
+         FrigoExpress Nordest, Autotrasporti Bregolin; controllo T pianale per surgelato).
+
+(3) il MOD-QA-15 sostituisce dal 01/02/2024 il precedente MOD-QA-15a; le copie della
+revisione superata sono state ritirate, ad eccezione
+
+Manuale HACCP rev.5 - pag. 14 di 78 - Doc. non controllato se stampato
+
+7. ANALISI DEI PERICOLI (Principio 1)
+
+7.1 Metodologia
+Per ciascuna fase del diagramma di flusso il Team ha identificato i pericoli Biologici
+(B), Chimici (C, inclusi allergeni ove pertinente come categoria a sé - A) e Fisici (F),
+valutandone la significatività mediante stima di Probabilità (P) x Gravità (G), ciascuna
+su scala 1-4:
+P: 1 = remota; 2 = occasionale; 3 = probabile; 4 = frequente
+G: 1 = trascurabile; 2 = moderata; 3 = grave; 4 = critica (pericolo di vita)
+
+Matrice di rischio R = P x G:
+R ≤ 3: pericolo non significativo, gestito da PRP;
+4 ≤ R ≤ 6: pericolo significativo, gestito da PRP rafforzato o PRPo;
+R ≥ 8: pericolo significativo, da sottoporre all'albero delle decisioni per
+l'individuazione di eventuale CCP.
+
+7.2 Estratto della tabella di analisi dei pericoli (tabella completa in All. 8)
+
+Fase | Pericolo | Tipo | P | G | R | Misura di controllo
+01 Ricevimento | micotossine (DON, OTA) in farina | C | 2 | 3 | 6 | qualifica fornitore F0012 Molino Veneto, CoA per lotto, piano analisi
+01 Ricevimento | Salmonella spp. in materie prime | B | 2 | 4 | 8 | CoA, cottura successiva (fase 08), piano tamponi
+02 Stoccaggio | sviluppo microbico per rottura catena freddo | B | 2 | 3 | 6 | monitoraggio T celle CF-01/CF-02, allarmi, PRP
+03 Setacciatura | corpi estranei > 800 µm, frammenti metallici da silos/coclee | F | 3 | 3 | 9 | CCP1 - setaccio + magnete
+05 Impastamento | frammenti da usura organi meccanici IMP-300 | F | 2 | 3 | 6 | PRP manutenzione preventiva, ispezione visiva
+06 Farcitura | contaminazione crociata allergeni (latte, uova, soia, frutta a guscio, sesamo su AF-SN-0470) | A | 3 | 3 | 9 | PRPo1 - gestione allergeni (par. 9.2)
+08 Cottura | sopravvivenza patogeni per cottura insufficiente | B | 2 | 4 | 8 | scheda processo, PRP forno; per L1 il controllo finale è demandato a CCP2
+09 Pastorizzazione PT-104 | sopravvivenza di L. monocytogenes / S. aureus su prodotto farcito RTE | B | 3 | 4 | 12 | CCP2
+11 Surgelazione | sviluppo microbico per abbattimento lento | B | 2 | 3 | 6 | CCP4 (mantenuto CCP per criticità commerciale e storicità impianto TS-01)
+12 Metal detection | frammenti metallici Fe/NonFe/AISI da monte | F | 3 | 4 | 12 | CCP3
+13 Confezionamento | migrazione da MOCA non conforme | C | 1 | 3 | 3 | PRP: DoC fornitore F0044, vedi All. 10
+13 Confezionamento | frammenti di guarnizioni/plastiche da organi macchina PKM-450 | F | 2 | 3 | 6 | PRP manutenzione; ispezione post-intervento (4)
+16 Stoccaggio PF | abuso termico surgelato | B | 2 | 3 | 6 | monitoraggio CF-02, registrazione continua
+
+(4) il pericolo "frammenti di plastica da organi macchina" NON è rilevabile dal metal
+detector MD-3200; la misura di controllo è di natura preventiva (manutenzione,
+ispezione avvio linea, controllo integrità dopo ogni intervento, MOD-PR-04).
+
+Manuale HACCP rev.5 - pag. 22 di 78 - Doc. non controllato se stampato
+
+7.3 Albero delle decisioni (Principio 2)
+E' stato applicato l'albero delle decisioni Codex (CAC/RCP 1-1969 rev.4, diagramma 2)
+a tutti i pericoli con R ≥ 8:
+
+D1: esistono misure preventive di controllo? Se no -> modificare fase/processo/prodotto.
+D2: la fase è specificatamente progettata per eliminare o ridurre il pericolo a un
+    livello accettabile? Se sì -> CCP.
+D3: la contaminazione potrebbe verificarsi a livelli inaccettabili o aumentare fino a
+    livelli inaccettabili? Se no -> non è CCP.
+D4: una fase successiva eliminerà o ridurrà il pericolo a un livello accettabile?
+    Se sì -> non è CCP; se no -> CCP.
+
+Esiti: fase 03 -> CCP1; fase 09 -> CCP2; fase 12 -> CCP3; fase 11 -> CCP4.
+La gestione allergeni (fase 06 e trasversale) esita in PRPo1 in quanto il controllo non
+è riconducibile a un limite critico misurabile in linea (razionale in All. 12).
+
+8. PIANO HACCP - TABELLA DEI CCP (Principi 3-4-5-6-7)
+
+8.1 Tabella riepilogativa dei punti critici di controllo
+
+============================================================================
+CCP1 - SETACCIATURA FARINA E MAGNETE
+Fase: 03 - Setacciatura farina
+Pericolo: F - corpi estranei > 800 µm; particelle ferrose
+Limite critico: assenza corpi estranei > 800 µm; setaccio maglia 800 µm integro;
+  magnete permanente 10.000 Gauss efficiente
+Monitoraggio: controllo integrità rete setaccio e ispezione/pulizia magnete con
+  registrazione di quanto trattenuto
+Frequenza: integrità setaccio a inizio e fine turno; magnete: ispezione e pulizia
+  settimanale; verifica potenza magnetica (gaussmetro esterno) annuale
+Responsabile: capoturno di linea (Popescu I. - T. / Ben Salah A. / Guerra R.);
+  verifica QA
+Azione correttiva: in caso di rete lacerata: blocco e segregazione della farina
+  setacciata dall'ultimo controllo conforme; sostituzione rete; apertura NC su
+  registro NC interne; valutazione QA sul rilascio
+Verifica: riesame settimanale registrazioni a cura QA; verifica annuale potenza
+  magnete con rapporto esterno
+Registrazione: registro setacciatura e scheda magnete (allegate al dossier di lotto);
+  rapporto taratura gaussmetro
+----------------------------------------------------------------------------
+CCP2 - TRATTAMENTO TERMICO PT-104 (LINEA 1)
+Fase: 09 - Pastorizzazione tunnel termico PT-104
+Pericolo: B - sopravvivenza di patogeni (L. monocytogenes, S. aureus) su prodotto RTE
+Limite critico: temperatura al cuore del prodotto ≥ 72,0 °C mantenuta per ≥ 2 min;
+  set point di esercizio 74,0-76,0 °C
+Monitoraggio: registrazione in continuo T camera e T cuore (sonda a spillone su
+  prodotto campione) tramite datalogger PT-104; lettura e trascrizione manuale su
+  modulo MOD-QA-12 (registro CCP2 temperature)
+Frequenza: registrazione datalogger in continuo; trascrizione manuale su MOD-QA-12
+  ogni 60 minuti; verifica in seconda firma del capoturno entro fine turno
+Responsabile: operatore di linea addetto al PT-104; capoturno per la seconda firma;
+  QA per il riesame
+Azione correttiva: BLOCCO DEL LOTTO e segregazione di tutto il prodotto transitato
+  dall'ultimo controllo conforme; RIPROCESSO del prodotto ove tecnologicamente
+  possibile, altrimenti declassamento/distruzione; verifica taratura sonde;
+  registrazione della deviazione e notifica immediata a RSGQ (Marchetti E.)
+Verifica: confronto settimanale QA tra tracciato datalogger e MOD-QA-12; taratura
+  sonde semestrale (centro LAT); challenge test/validazione trattamento ogni 3 anni
+  o a modifica di prodotto/processo
+Registrazione: MOD-QA-12; tracciati datalogger PT-104 (archivio elettronico, 24 mesi);
+  rapporti di taratura
+----------------------------------------------------------------------------
+CCP3 - METAL DETECTOR MD-3200 (LINEA 1)
+Fase: 12 - Rilevazione metalli
+Pericolo: F - frammenti metallici Fe / Non-Fe / acciaio inox
+Limite critico: rilevazione ed espulsione dei tasselli di prova certificati:
+  Fe diametro 2,0 mm; Non-Fe diametro 2,5 mm; AISI 316 diametro 3,0 mm
+Monitoraggio: passaggio dei tre tasselli certificati in condizioni di produzione
+  (tassello su confezione, posizioni testa/centro/coda) con verifica espulsione
+Frequenza: ogni 60 minuti, nonché a inizio turno, fine turno, cambio prodotto e
+  dopo ogni intervento sull'apparecchio
+Responsabile: operatore di linea; capoturno per la seconda firma entro fine turno;
+  QA per il riesame settimanale
+Azione correttiva: in caso di mancata rilevazione anche di un solo tassello: fermo
+  linea, blocco e segregazione di tutto il prodotto dall'ultima verifica conforme,
+  ripasso integrale al MD dopo ripristino; chiamata assistenza (Loma); apertura NC;
+  in caso di espulsione prodotto in produzione: gestione scarto secondo IO dedicata
+Verifica: riesame settimanale QA dei moduli; verifica annuale del costruttore;
+  taratura tasselli certificata
+Registrazione: modulo MOD-QA-07 rev.5 (verifica metal detector); log elettronico
+  MD-3200; certificati tasselli
+NOTA: il MD-1800 (Linea 3) è gestito con medesimi limiti critici, frequenze e
+  modulistica; le registrazioni riportano l'identificativo macchina.
+----------------------------------------------------------------------------
+CCP4 - SURGELAZIONE (LINEA 3)
+Fase: 11 - Surgelazione tunnel TS-01 (in sostituzione: Criotech CR-SP180)
+Pericolo: B - sviluppo microbico per abbattimento termico insufficiente/lento
+Limite critico: temperatura al cuore del prodotto ≤ -18 °C entro 240 min dall'ingresso
+  in tunnel; cella di stoccaggio CF-02 ≤ -18 °C
+Monitoraggio: rilevazione T al cuore su campione a fine tunnel (sonda a penetrazione);
+  registrazione in continuo T cella CF-02 (sistema di monitoraggio con allarme)
+Frequenza: T cuore: ogni 2 ore per referenza in produzione; CF-02: continuo con
+  soglia allarme -16 °C e notifica a Faggionato N. e Guerra R.
+Responsabile: capoturno Linea 3 (Guerra R.); magazzino per CF-02; QA per riesame
+Azione correttiva: prodotto che non raggiunge -18 °C entro 240 min: prolungamento
+  permanenza e nuova verifica; se non risolutivo, blocco lotto e valutazione QA
+  (declassamento a catena del fresco ove ammissibile, altrimenti distruzione);
+  per CF-02 fuori limite: trasferimento prodotto, chiamata frigorista, valutazione
+  QA su tempo/temperatura di esposizione
+Verifica: riesame settimanale registrazioni; taratura sonde semestrale; mappatura
+  termica cella CF-02 annuale
+Registrazione: registro surgelazione L3; tracciato continuo CF-02; MOD-MAG-02 per
+  eventuali movimentazioni di segregazione
+============================================================================
+
+Manuale HACCP rev.5 - pag. 31 di 78 - Doc. non controllato se stampato
+
+9. PROGRAMMI DI PREREQUISITI (PRP) E PRP OPERATIVI
+
+9.1 Elenco dei PRP attivi (procedure richiamate, non duplicate qui - vedi All. 2):
+PRP-01 Pulizia e sanificazione (CIP-01, istruzione operativa IO-05; detergenti
+       Chemifood Italia F0052: soda caustica, acido nitrico, sanificante PAA;
+       schede di sicurezza in archivio SDS)
+PRP-02 Disinfestazione e monitoraggio infestanti (ditta esterna, 24 postazioni esca +
+       6 lampade UV, report mensile)
+PRP-03 Manutenzione preventiva impianti e taratura strumenti (piano annuale a cura
+       Dal Maso I.; lubrificanti food grade H1; divieto di deposito di ricambi e
+       attrezzi in area produttiva al di fuori degli interventi - vedi nota (5))
+PRP-04 Igiene e formazione del personale (MOD-HR-11 registro formazione; visite
+       mediche; regole di accesso, indumenti, lavaggio mani)
+PRP-05 Qualifica e monitoraggio fornitori (vendor rating annuale; fornitori critici:
+       F0012, F0021, F0044, F0090)
+PRP-06 Gestione dell'acqua (acquedotto + analisi potabilità semestrali)
+PRP-07 Gestione rifiuti e sottoprodotti (ex Reg. 1069/2009 ove applicabile)
+PRP-08 Controllo corpi estranei: vetro e plastica dura (registro vetri/plexiglas,
+       ispezioni mensili; politica no-vetro in produzione; coltelli censiti)
+PRP-09 Rintracciabilità (PRO-QA-08: identificazione lotto L26<ggg>-<linea>-<turno>,
+       mass balance, esercitazione annuale - vedi PRO-QA-14 per il ritiro)
+PRP-10 Catena del freddo e trasporti (qualifica vettori, controllo T pianale)
+PRP-11 Food defense e sicurezza sito (BRCGS 9 sez. 4.2; TACCP a cura team dedicato)
+PRP-12 Gestione MOCA (DoC fornitori F0044 Flexipack, F0031 Euroglass; test migrazione)
+
+(5) nota rafforzata a seguito audit CSQA 17-18/02/2026, NC minore BRCGS cl. 4.7.5
+(ricambi e attrezzi custoditi in area produttiva senza controllo integrità): il
+carrello ricambi di linea è stato rimosso; ogni intervento in produzione richiede
+il modulo MOD-PR-04 con conta attrezzi in ingresso e in uscita.
+
+9.2 PRPo1 - Gestione allergeni
+Allergeni presenti in stabilimento: GLUTINE (cereali), LATTE (burro, panna - F0021
+Latteria Bassanese), UOVA, SOIA, FRUTTA A GUSCIO; SESAMO in fase di introduzione con
+la referenza in sviluppo AF-SN-0470 (v12, R&D Zanchetta A. / Meneghello G.).
+Misure: matrice allergeni per referenza (All. 12, doc. "scheda allergeni matrice
+cross contamination"); sequenze di produzione dal meno allergenico al più allergenico;
+lavaggio validato tra referenze incompatibili con test proteina specifica (latte,
+uovo, soia) a cura QC (Pozzato S., 1 validazione/trimestre per linea); gestione rework
+vincolata alla matrice; etichettatura precauzionale deliberata dal Team HACCP, non
+applicata di default; formazione specifica registrata su MOD-HR-11.
+Monitoraggio PRPo1: check-list di cambio produzione; esito test proteine.
+Azione in caso di fallimento: blocco prodotto dal cambio produzione, valutazione QA,
+eventuale rietichettatura o declassamento.
+
+Manuale HACCP rev.5 - pag. 44 di 78 - Doc. non controllato se stampato
+
+10. GESTIONE DELLE DEVIAZIONI E DEL PRODOTTO POTENZIALMENTE NON SICURO
+
+10.1 Ogni deviazione da un limite critico comporta: (a) identificazione e segregazione
+del prodotto coinvolto dall'ultimo controllo conforme, con cartellino BLOCCATO e
+registrazione su MOD-MAG-02; (b) registrazione della deviazione sul modulo del CCP
+interessato e sul registro NC interne; (c) notifica a RSGQ entro il turno; (d) decisione
+documentata di RSGQ sul destino del prodotto (rilascio previo riprocesso / declassamento
+/ distruzione), con razionale scritto; (e) analisi della causa radice per deviazioni
+ripetute (≥ 2 nello stesso trimestre sullo stesso CCP).
+10.2 Il prodotto bloccato è fisicamente segregato in area dedicata del magazzino o
+identificato informaticamente con stato di blocco; la movimentazione richiede firma QA.
+10.3 Qualora la deviazione sia rilevata dopo la spedizione, si applica la procedura
+PRO-QA-14 rev.3 "Gestione ritiro e richiamo del prodotto" e, ove ne ricorrano i
+presupposti, la notifica ex art. 19 Reg. (CE) 178/2002 all'Autorità competente
+(ULSS 9 Scaligera - SIAN).
+10.4 Reclami dei consumatori e dei clienti: gestione su MOD-QA-31, con valutazione di
+sicurezza entro 24 h a cura QA; i reclami per corpo estraneo comportano sempre la
+richiesta del reperto e, ove disponibile, l'identificazione merceologica del materiale.
+
+11. PROCEDURE DI VERIFICA (Principio 6)
+
+11.1 Attività di verifica pianificate:
+- riesame settimanale delle registrazioni CCP (QA - Pozzato S., supervisione Marchetti E.);
+- audit interni: programma annuale che copre tutte le sezioni BRCGS/IFS almeno una
+  volta/anno; auditor qualificati o consulente esterno (Vicentini C.);
+- piano analitico su prodotto finito e ambiente: tamponi di superficie e ambientali
+  (MOD-QA-19) con laboratorio esterno Analytica Veneta S.r.l. (ACCREDIA n. 0987),
+  ricerca L. monocytogenes ISO 11290-1 e Salmonella spp. ISO 6579-1 secondo piano
+  di zoning (zona 1 contatto diretto, zona 2 prossimità, zona 3 ambiente, zona 4
+  esterna alle aree di lavorazione);
+- shelf life test su referenze rappresentative (challenge test ove richiesto);
+- verifica annuale metal detector a cura del costruttore; taratura sonde semestrale;
+- mock recall annuale (PRO-QA-14) con obiettivo di ricostruzione ≥ 99% entro 4 h;
+- verifica potabilità acqua semestrale.
+11.2 Gli esiti delle verifiche confluiscono nel riesame della direzione (PRO-QA-02,
+verbale annuale) e nell'aggiornamento dell'analisi dei pericoli.
+
+11.3 Validazione
+Le misure di controllo ai CCP sono state validate come segue: CCP2 mediante studio di
+penetrazione termica su prodotto farcito peggiore caso (AF-SN-0450 con farcitura fredda,
+rapporto Studio Alimentaria SA-VAL-21/09 del 2021, rivalidazione prevista 2024 - NOTA:
+rivalidazione eseguita? vedi verbale team 03/2024); CCP3 mediante test di sensibilità
+in condizioni dinamiche con prodotto; CCP4 mediante mappatura tunnel TS-01 (2019 - da
+ripetere su CR-SP180 al collaudo, azione a carico Fantin M. / Criotech).
+
+Manuale HACCP rev.5 - pag. 58 di 78 - Doc. non controllato se stampato
+
+12. RIESAME DEL SISTEMA
+
+12.1 Il piano HACCP è riesaminato dal Team con frequenza annuale e comunque al
+verificarsi di: modifiche di layout, nuovi impianti (es. sostituzione TS-01 con
+CR-SP180 - riesame straordinario pianificato al collaudo), nuove referenze (AF-SN-0470
+con introduzione SESAMO - riesame obbligatorio pre-lancio), esiti sfavorevoli di audit
+o di analisi, reclami per pericolo sanitario, allerta RASFF su ingredienti in uso.
+12.2 Il riesame annuale 2026 del sistema HACCP si integra con il riesame della
+direzione SGQ del 12/03/2026 (verbale VRD-2026-01).
+12.3 Ogni revisione del Manuale è approvata da Direzione; la matrice delle revisioni
+è riportata in ultima pagina. Rev. 4 del 15/01/2024: adeguamento a BRCGS Issue 9 e
+IFS v8, inserimento PT-104 come CCP2 in sostituzione del precedente CP cottura,
+aggiornamento zoning tamponi.
+
+13. DOCUMENTAZIONE E CONSERVAZIONE
+
+13.1 Le registrazioni relative ai CCP sono conservate per 24 mesi oltre il TMC del
+prodotto cui si riferiscono. I moduli in uso: MOD-QA-07 rev.5, MOD-QA-12, MOD-QA-19,
+MOD-PR-04, MOD-MAG-02, MOD-HR-11, MOD-QA-31. La modulistica è gestita secondo
+PRO-QA-01 (tenuta sotto controllo dei documenti); l'uso di moduli in revisione
+superata costituisce non conformità interna.
+13.2 Archivio: cartaceo presso ufficio QA (armadi 1-4); elettronico su server aziendale
+\\AURORA-SRV01\Qualita (backup notturno). E' in valutazione la digitalizzazione
+dell'archivio storico (input della Direzione, vedi verbale riesame 12/03/2026).
+
+ALLEGATI (richiamati nel testo)
+All. 1 - Elenco documenti di origine esterna
+All. 2 - Elenco PRP e procedure richiamate
+All. 3 - Verbali del Team HACCP
+All. 5 - Schede tecniche di prodotto (archivio R&D)
+All. 6 - Diagrammi di flusso grafici per linea
+All. 7 - Qualifica vettori e trasporti
+All. 8 - Tabella completa analisi dei pericoli
+All. 10 - Dossier MOCA
+All. 12 - Matrice allergeni e validazione pulizie
+
+Manuale HACCP rev.5 - pag. 78 di 78 - Doc. non controllato se stampato
+
+MATRICE DELLE REVISIONI
+Rev. 0 - 06/2019 - prima emissione (consulente: Studio Alimentaria)
+Rev. 1 - 03/2021 - inserimento Linea 3 surgelati, CCP4
+Rev. 2 - 09/2022 - adeguamento BRCGS Issue 9 (transizione)
+Rev. 3 - 02/2023 - nuova confezionatrice PKM-450, aggiornamento fase 13
+Rev. 4 - 15/01/2024
+Rev. 5 - 08/04/2026 - recepimento esiti audit CSQA 17-18/02/2026 (note 2 e 5), aggiornamento PRPo1 allergene sesamo su AF-SN-0470, recepimento riesame direzione 12/03/2026 - approvata E. Marchetti / M. Fantin
+
+Firme (originale firmato in archivio QA, copia scansionata)
+Redatto: E. Marchetti ______________
+Verificato: C. Vicentini ______________
+Approvato: M. Fantin ______________
+
+fine estratto - le pagine 32-43 e 45-57 (istruzioni operative di dettaglio e schede
+di monitoraggio) non sono incluse nel presente estratto
+
+
+
+--- procedura_ritiro_prodotto_CRISI_GDO.txt ---
+AURORA FOOD GROUP S.r.l. - Cologna Veneta (VR)
+SISTEMA DI GESTIONE QUALITA' E SICUREZZA ALIMENTARE
+
+PROCEDURA PRO-QA-14 rev. 3 del 10/09/2025
+GESTIONE RITIRO E RICHIAMO DEL PRODOTTO
+
+Redatta: dott.ssa E. Marchetti (RSGQ)      Verificata: dott.ssa C. Vicentini
+Approvata: ing. M. Fantin (Dir. Stabilimento)
+Copia controllata n. 02 - distribuzione: Direzione, Qualità, Commerciale,
+Magazzino, Produzione
+Pagina 1 di 14 - Documento non controllato se stampato
+
+1. SCOPO
+Definire responsabilità, modalità operative e tempistiche per la gestione del
+ritiro e del richiamo di prodotto immesso sul mercato da Aurora Food Group
+S.r.l., in ottemperanza agli artt. 18 e 19 del Reg. (CE) 178/2002, ai requisiti
+BRCGS Food Safety Issue 9 (sez. 3.11) e IFS Food v8 (cl. 5.9), nonché ai
+capitolati dei clienti GDO (in particolare capitolato fornitori Tosano Cerea
+S.p.A., ed. 2025, par. 11 "Gestione emergenze e ritiri").
+
+2. CAMPO DI APPLICAZIONE
+Tutti i prodotti finiti spediti dallo stabilimento di Via dell'Industria 27 e
+dal magazzino di Via Palù 3/A, a marchio proprio, a marchio del cliente
+("Bontà di Casa" e altri) e biologici (ICEA IT BIO 006).
+
+3. DEFINIZIONI
+3.1 RITIRO (withdrawal): rimozione del prodotto dalla catena di distribuzione
+    quando il prodotto NON è ancora nella disponibilità del consumatore finale
+    o comunque quando non è necessario allertare il consumatore (prodotto a
+    CE.DI., a deposito cliente, a scaffale ma non venduto).
+3.2 RICHIAMO (recall): rimozione del prodotto quando questo è già nella
+    disponibilità del consumatore finale, con necessità di informare il
+    consumatore stesso (avviso a scaffale, comunicati, sito web, canali del
+    Ministero della Salute).
+3.3 BLOCCO: sospensione cautelativa della movimentazione di lotti presso i
+    magazzini aziendali, registrata su MOD-MAG-02.
+3.4 CRISI: qualunque evento che possa comportare rischio per la salute del
+    consumatore, danno reputazionale grave o interruzione delle forniture ai
+    clienti strategici.
+
+4. CLASSIFICAZIONE DELLA GRAVITA'
+La valutazione è effettuata dal RSGQ con il supporto del team di crisi.
+
+CLASSE 1 - Rischio sanitario grave e immediato (patogeni in prodotto RTE,
+  allergene non dichiarato, corpo estraneo tagliente/perforante, contaminante
+  chimico oltre i limiti di legge). Azione: RICHIAMO + notifica Autorità
+  competente ex art. 19 Reg. 178/2002 entro 24 h + eventuale comunicato al
+  consumatore.
+CLASSE 2 - Rischio sanitario potenziale o non immediato (corpo estraneo non
+  tagliente, deviazione di processo con rischio da valutare, difetto di
+  confezionamento che compromette la conservabilità). Azione: RITIRO, notifica
+  all'Autorità se il prodotto può essere non sicuro, comunicazione ai clienti.
+CLASSE 3 - Difetto di qualità senza rischio sanitario (difetti organolettici,
+  peso, etichettatura non ingannevole). Azione: gestione commerciale, nessuna
+  notifica, eventuale ritiro volontario concordato.
+La classificazione è registrata su MOD-QA-31 con il razionale della decisione.
+
+5. TEAM DI CRISI - COMPOSIZIONE E REPERIBILITA'
+Il team di crisi è convocato dal RSGQ o dal Direttore di Stabilimento con
+qualsiasi mezzo (telefono, WhatsApp gruppo "AURORA CRISI"). Reperibilità
+24/7 per i ruoli contrassegnati (*).
+
+Ruolo                        Titolare                    Telefono
+Coordinatore crisi (*)       ing. Marco Fantin           348 22 41 507
+RSGQ - valutazione rischio(*)dott.ssa Elena Marchetti    347 90 118 62
+QA operativo / segreteria    Sara Pozzato                345 61 30 274
+Direzione / portavoce        Giancarlo Bertoldi (AD)     335 74 402 18
+Commerciale GDO              Silvia Bertoldi             340 55 87 931
+Rintracciabilità/magazzino(*)Nicola Faggionato           349 41 76 083
+Produzione                   Denis Zanella               346 88 20 415
+Consulente HACCP             dott.ssa Chiara Vicentini   049 87 655 40 (studio)
+Legale (esterno)             avv. Storti - Verona        045 80 31 226 (ufficio)
+Sostituti: per Fantin -> Zanella; per Marchetti -> Pozzato; per Faggionato ->
+addetto spedizioni turno.
+L'elenco è verificato ad ogni revisione e in occasione del mock recall annuale.
+
+6. FLUSSO OPERATIVO (descrizione sequenziale, vedi diagramma All. 1)
+
+FASE 0 - SEGNALAZIONE (T0)
+Qualsiasi segnalazione potenzialmente rilevante (reclamo consumatore, reclamo
+cliente GDO, esito analitico non conforme, deviazione CCP scoperta a
+posteriori, allerta RASFF su materia prima, comunicazione fornitore) è
+inoltrata SENZA FILTRO a RSGQ. Fuori orario: ai numeri di reperibilità.
+Registrazione immediata su MOD-QA-31.
+
+FASE 1 - VALUTAZIONE PRELIMINARE (entro 2 ORE da T0)
+Il RSGQ, sentiti i membri del team pertinenti, effettua la valutazione
+preliminare: identificazione prodotto e lotti coinvolti, natura del pericolo,
+classificazione di gravità (par. 4), prima stima delle quantità. Esito
+verbalizzato anche in forma sintetica (mail al team di crisi).
+Se CLASSE 1 o 2: convocazione del team di crisi e passaggio a FASE 2.
+Se CLASSE 3: gestione ordinaria reclami (PRO-QA-13).
+
+FASE 2 - BLOCCO E RICOSTRUZIONE (entro 4 ORE dalla convocazione)
+a) Blocco informatico e fisico dei lotti coinvolti presso i magazzini aziendali
+   (Via dell'Industria e Via Palù 3/A) - Faggionato, MOD-MAG-02, cartellini
+   BLOCCATO;
+b) ricostruzione A VALLE: clienti destinatari, DDT, quantità spedite per lotto,
+   date di consegna, vettori;
+c) ricostruzione A MONTE: lotti di materie prime e imballi utilizzati, altre
+   produzioni che li condividono (valutazione estensione blocco);
+d) MASS BALANCE: prodotto totale del lotto = giacenza + spedito + scarti +
+   campioni. Obiettivo di ricostruzione: >= 99% entro 4 h (target mock recall).
+e) sospensione immediata delle spedizioni dei lotti in dubbio.
+
+FASE 3 - NOTIFICHE (entro 24 ORE dalla conferma del rischio)
+Se il prodotto può essere non conforme ai requisiti di sicurezza (art. 14 Reg.
+178/2002) ed è uscito dal controllo diretto dell'azienda:
+a) NOTIFICA ALL'AUTORITA' COMPETENTE ex art. 19 Reg. 178/2002: SIAN - ULSS 9
+   Scaligera, tramite il portale/modulistica regionale e PEC, entro 24 h.
+   Responsabile: RSGQ. La notifica contiene: identificazione OSA (n. reg.
+   037/2019/SIAN), prodotto, lotto/i, TMC, quantità, pericolo, distribuzione,
+   azioni intraprese;
+b) COMUNICAZIONE AI CLIENTI: a tutti i destinatari dei lotti (per la GDO:
+   ufficio qualità del cliente + buyer; per Tosano: dott.ssa Anna Perbellini
+   - QA fornitori - e per conoscenza il Category Manager). Mezzo: PEC +
+   telefono. Modello di comunicazione in All. 2 (bozza pronta, par. 8.1);
+c) se RICHIAMO (Classe 1): predisposizione avviso al consumatore da esporre a
+   scaffale (All. 3, bozza par. 8.2) e valutazione con la Direzione di
+   comunicato stampa/sito web. Il portavoce è ESCLUSIVAMENTE l'AD o suo
+   delegato: nessun altro rilascia dichiarazioni.
+
+FASE 4 - GESTIONE DEL PRODOTTO RESO
+a) Il prodotto ritirato/richiamato rientra con DDT dedicato causale "reso per
+   ritiro" ed è segregato in area dedicata identificata (magazzino Via Palù,
+   zona R);
+b) conta e riconciliazione con il mass balance (aggiornamento quantità);
+c) destino deciso da RSGQ con verbale: distruzione tramite ditta autorizzata
+   (con formulario), declassamento ad alimento zootecnico ove ammissibile,
+   riutilizzo escluso per prodotti Classe 1;
+d) conservazione campioni per eventuale contenzioso/analisi (min. 10 pz per
+   lotto, cella dedicata);
+e) tutte le evidenze confluiscono nel dossier di crisi.
+
+FASE 5 - CHIUSURA E RIESAME
+Entro 15 giorni dalla chiusura operativa: riunione di riesame del team di
+crisi con: causa radice (metodo 5 perché / Ishikawa), azioni correttive con
+responsabili e scadenze, valutazione dei tempi effettivi vs quelli di
+procedura, aggiornamento dell'analisi dei pericoli se pertinente, relazione
+alla Direzione. Costi della crisi quantificati da Amministrazione (Trentin L.)
+e registrati.
+
+7. TEMPISTICHE RIEPILOGATIVE (vincolanti)
+Valutazione preliminare               entro 2 h dalla segnalazione
+Convocazione team di crisi            immediata per Classe 1-2
+Blocco lotti e mass balance           entro 4 h dalla convocazione
+Notifica ASL/ATS (ULSS 9) art. 19     entro 24 h dalla conferma
+Comunicazione clienti GDO             entro 24 h, comunque prima della notifica
+                                      ai media se richiamo
+Risposta a richieste QA cliente       entro 48 h (capitolato Tosano)
+Riesame post-crisi                    entro 15 gg
+
+8. MODELLI DI COMUNICAZIONE (bozze pronte all'uso)
+
+8.1 BOZZA COMUNICAZIONE AL CLIENTE (All. 2 - da personalizzare)
+-----------------------------------------------------------------
+Spett.le [Cliente], c.a. Ufficio Assicurazione Qualità
+Oggetto: [RITIRO CAUTELATIVO / RICHIAMO] prodotto [descrizione] -
+lotto/i [XXXX] - TMC [XXXX]
+
+Con la presente Vi informiamo che, a seguito di [descrizione sintetica
+dell'evento], questa azienda ha disposto in via [cautelativa/obbligatoria]
+il [ritiro/richiamo] del prodotto:
+- Denominazione: [___] - Codice articolo: [___] - EAN: [___]
+- Lotto/i: [___] - TMC: [___] - Formato: [___]
+- Quantità consegnate a Vs. CE.DI.: [___] colli in data [___] con DDT [___]
+Vi chiediamo di: sospendere immediatamente la movimentazione e la vendita
+dei lotti indicati; quantificare le giacenze presso CE.DI. e punti vendita;
+segregare la merce in attesa di nostre istruzioni per il reso.
+Il pericolo identificato è: [___]. La valutazione del rischio è: [___].
+[Se richiamo: Vi trasmettiamo in allegato l'avviso per il consumatore da
+esporre presso i punti vendita.]
+Restiamo a disposizione ai seguenti recapiti dedicati: [___].
+Ci scusiamo per il disagio e Vi ringraziamo per la collaborazione.
+Aurora Food Group S.r.l. - Il Responsabile Qualità
+-----------------------------------------------------------------
+
+8.2 BOZZA AVVISO AL CONSUMATORE DA ESPORRE A SCAFFALE (All. 3)
+-----------------------------------------------------------------
+              AVVISO IMPORTANTE DI [RICHIAMO] PRODOTTO
+Aurora Food Group S.r.l. informa i gentili consumatori che, in via
+precauzionale, è stato disposto il richiamo del seguente prodotto:
+   [DENOMINAZIONE DI VENDITA]
+   Marchio: [___]   Formato: [___]
+   Lotto: [___]   Termine minimo di conservazione: [___]
+   Prodotto nello stabilimento di Via dell'Industria 27, Cologna Veneta (VR)
+MOTIVO DEL RICHIAMO: [possibile presenza di ___]
+Si invitano i consumatori in possesso del prodotto con il lotto indicato a
+NON CONSUMARLO e a riportarlo al punto vendita, dove sarà rimborsato o
+sostituito anche in assenza di scontrino.
+Nessun altro lotto o prodotto Aurora Food Group è interessato dal presente
+avviso. Per informazioni: numero dedicato [___] - qualita@aurorafoodgroup.it
+Ci scusiamo per il disagio.
+-----------------------------------------------------------------
+
+9. MODULISTICA E REGISTRAZIONI
+MOD-QA-31  Gestione reclami e segnalazioni (apre e traccia l'evento)
+MOD-MAG-02 Carico/scarico e blocco lotti
+Dossier di crisi: raccoglie valutazioni, mail, notifiche, DDT resi, esiti
+analitici, verbale di riesame. Conservazione: 5 anni.
+Registro delle esercitazioni (mock recall).
+
+10. SIMULAZIONE ANNUALE DI RICHIAMO (MOCK RECALL)
+10.1 Almeno una volta l'anno, senza preavviso agli operativi, RSGQ avvia una
+simulazione completa su un lotto reale spedito, comprensiva di: ricostruzione
+a monte (fino ai lotti di materia prima e bobina film) e a valle (clienti,
+DDT, quantità), mass balance, prova di contatto dei membri del team di crisi,
+compilazione bozze di comunicazione SENZA INVIO.
+10.2 Criteri di accettazione: ricostruzione >= 99% entro 4 h; reperibilità
+team >= 80% al primo tentativo di chiamata.
+10.3 Ultima esercitazione eseguita: 07/11/2025, lotto sfida AF-CR-0212
+L25311-L3-T1. Esito: ricostruzione 99,6% in 2 h 20 min; mass balance chiuso
+(scostamento 0,4% = campioni QC non registrati a sistema, azione correttiva
+sulla registrazione campioni chiusa il 28/11/2025); reperibilità 8/9 (avv.
+Storti non raggiunto al primo giro, raggiunto al secondo). ESITO: CONFORME.
+Verbale in dossier esercitazioni.
+10.4 L'esito del mock recall è dato di ingresso del riesame della direzione.
+
+11. RIFERIMENTI
+Reg. (CE) 178/2002 artt. 14, 18, 19; Reg. (CE) 852/2004; BRCGS Issue 9 sez.
+3.11; IFS Food v8 cl. 5.9; capitolati clienti GDO; PRO-QA-08 rintracciabilità;
+PRO-QA-13 reclami; Linee guida Ministero della Salute per la notifica.
+
+MATRICE REVISIONI
+rev.0 06/2019 prima emissione - rev.1 04/2021 inserimento richiamo consumatore
+rev.2 09/2022 adeguamento BRCGS 9 - rev.3 10/09/2025 nuovi recapiti team,
+criteri mock recall, modello avviso scaffale
+
+Pagina 14 di 14 - Documento non controllato se stampato
+
+===========================================================================
+[ANNOTAZIONE MANOSCRITTA SU COPIA CONTROLLATA N. 02 - trascrizione]
+14/05/26 - h 17:40 - E. Marchetti
+
+APPLICAZIONE PROCEDURA - CASO PLASTICA AZZURRA
+- segnalazione: reclamo web 12/05 sig.ra Grigolon (Bussolengo) frammento
+  plastica dura azzurra in AF-SN-0450 lotto L26130 acquistato Tosano
+  Bussolengo. Foto ricevuta. Reperto richiesto, arriva con corriere.
+- 14/05 h 10:15 mail Perbellini (Tosano QA): chiede spiegazioni SCRITTE
+  entro 48h -> scadenza sab 16/05 h 10!! prepara bozza stasera
+- valutazione: plastica dura ~9x4 mm non tagliente?? da vedere il pezzo
+  vero. Classe 2 per ora (ritiro, non richiamo) MA se tagliente -> Classe 1
+  e notifica ULSS. Sentita Vicentini tel h 15.
+- correlazione probabile: intervento PKM-450 del 10/05 (guarnizione non
+  originale azzurra - MOD-PR-04 di Dal Maso dice solo "sostituita
+  guarnizione") + MD-3200 NON rileva plastica, ovvio
+- lotti coinvolti: L26130 e L26131 (turni successivi stessa guarnizione)
+  tot ~ 8.400 conf. di cui ~ 5.100 GIA' A SCAFFALE, resto CE.DI. Cerea +
+  ns. magazzino (bloccato il 13/05 MOD-MAG-02, Faggionato ok h 19:30)
+- costo stimato ritiro: 31.500 € (merce + logistica reso + distruzione +
+  nota credito) - stima con Trentin, NON comunicare al cliente
+- mass balance L26130 avviato, Pozzato ci lavora domattina presto
+- guarnizione: pezzo NON originale preso dal carrello ricambi = esattamente
+  NC 2 audit CSQA febbraio!!! e la registrazione MOD-QA-12 del 10/05 turno 2
+  NON torna col datalogger (deviazione PT-104 14:18-14:47) = NC 1. Le due
+  NC "chiuse" il 2/4 si sono materializzate tutte e due in un giorno solo.
+  Da dire a Fantin PRIMA che lo scriva Tosano.
+- team crisi convocato x domattina 15/05 h 8:00 sala riunioni + tel
+- decidere: ritiro cautelativo si/no -> propendo SI su entrambi i lotti,
+  aspettare identificazione materiale = perdere il weekend di vendite a
+  scaffale. Bertoldi vuole "capire prima quanto costa". Il costo lo sa.
+- verificare se anche L26129 usa la PKM-450 dopo le 15:05 del 10/5 -> NO,
+  L26129 e' del 09/05, prima della riparazione, ok
+- promemoria: aggiornare questa procedura -> inserire nel par. 4 il caso
+  "corpo estraneo da manutenzione" con richiamo a MOD-PR-04 e conta pezzi
+[firma illeggibile] EM
+===========================================================================
+
+   PERIMETRO DEL BLOCCO - definizione (E.M. 14/05/2026 h 18:05)
+   Non sono coinvolti i due lotti per intero. La guarnizione non originale e' stata montata
+   alle 18:45 del 10/05: e' interessato SOLO il prodotto confezionato dal riavvio in poi.
+   - L26130-L1-T2 (dalle 18:45 alle 22:00) ......... 3.290 conf. - in magazzino, BLOCCATE
+   - L26130-L1-T3 (dalle 22:00 alle 03:00) ......... 1.480 conf. - in magazzino, BLOCCATE
+   - L26131-L1-T2 (11/05, guarnizione ancora montata) 3.630 conf. - di cui 5.100 gia' spedite
+     [ricontrollare: il totale spedito comprende anche pezzi del T2, Faggionato verifica]
+   Totale interessato ~ 8.400 conf., di cui ~5.100 gia' a scaffale o in CE.DI.
+   Il prodotto dei turni precedenti le 15:05 del 10/05 e' stato confezionato con la valvola
+   originale e non rientra nel perimetro (circa 29.000 conf. sui due lotti).
+   ⚠ ESTENSIONE: la guarnizione e' stata sostituita con l'originale solo il 15/05 e alla rimozione
+   mancavano ~2 cm2 di materiale. Va valutato anche il prodotto dal 12 al 15/05 (L26132, L26133,
+   L26134): ispezione a campione rinforzata AQL 0,65 + ricostruzione dei frammenti recuperati.
+   Esito da riportare in NC-2026-097. NON ancora fatto al 14/05.
+
+
+
+--- tracciabilita_lotti_massbalance_L26130.xlsx ---
+TRACCIABILITÀ LOTTO L26130-L1-T2 - ricostruzione a monte
+compilato in emergenza il 14/05/2026 da S. Pozzato su richiesta di E. Marchetti - DA VERIFICARE
+
+
+Materia prima Fornitore Lotto fornitore DDT ingresso Data ingresso Qtà impiegata UM TMC Certificato Note
+Farina tipo 0 W300 Molino Veneto SpA MV26-0429/A 48392 04/05/2026 840 kg 04/11/2026 CoA agli atti
+Farina tipo 0 W300 Molino Veneto SpA MV26-0431/B 48392 04/05/2026 210 kg 06/11/2026 CoA agli atti coda bancale precedente
+Olio girasole alto oleico Oleificio Adriatico SpA OA-2604-118 5521 28/04/2026 96 kg 28/10/2026 CoA agli atti
+Semi misti tostati Chemifood/terzi SM-26-0088 3312 22/04/2026 38 kg 22/02/2027
+Lievito compresso Lievital Srl LV26-1180 9922 07/05/2026 21 kg 21/05/2026 consumato quasi a scadenza
+Sale marino fino - SL-25-4410 - 12/03/2026 14.5 kg 12/03/2028
+Film MAP PP/EVOH FLEXBAR 65 AZ Flexipack Nordest Srl FX26-0338 7741 30/04/2026 62 kg - DoC DC-2026-041 bobine n. 4 - usata anche su L26131
+Vaschetta PP 100 g Flexipack Nordest Srl FX26-0290 7741 30/04/2026 8600 pz - DoC DC-2026-041
+Azoto alimentare E941 Nordgas SpA NG-26-0506 BN-4471 06/05/2026 42 m3 - CoA gas serbatoio S2
+
+impasto totale teorico
+
+(S.P.) il lotto lievito LV26-1180 scadeva il 21/05, verificare se è stato usato anche il 11/05
+Destinazione del prodotto finito - lotti L26130 e L26131
+
+
+
+Lotto Cod. art. Pz prodotti DDT uscita Data Cliente Destinazione Pz spediti Stato Rintracciato
+L26130-L1-T2 AF-SN-0450 8940 2026/1188 11/05/2026 Tosano Cerea SpA CE.DI. Cerea (VR) 5100 A SCAFFALE parziale
+L26130-L1-T2 AF-SN-0450 2026/1191 11/05/2026 Alì SpA CE.DI. Padova 1440 BLOCCATO C/O CLIENTE sì
+L26130-L1-T2 AF-SN-0450 giacenza magazzino Aurora 1180 BLOCCATO QA sì
+L26130-L1-T2 AF-SN-0450 scarti di linea / campioni 220 DISTRUTTO sì
+L26131-L1-T2 AF-SN-0450 7620 2026/1204 12/05/2026 Tosano Cerea SpA CE.DI. Cerea (VR) 4260 A SCAFFALE parziale
+L26131-L1-T2 AF-SN-0450 2026/1206 12/05/2026 Rossetto Trade SpA CE.DI. Villafranca 980 RICHIAMATO sì
+L26131-L1-T2 AF-SN-0450 giacenza magazzino Aurora 2380 BLOCCATO QA sì
+Bilancio di massa - verifica di quadratura (requisito BRCGS cl. 3.9.2)
+
+
+
+Lotto Pz prodotti Pz spediti Pz in giacenza Pz distrutti Totale rendicontato Differenza Quadratura % Esito
+L26130-L1-T2 8940 1180 220
+L26131-L1-T2 7620 2380 0
+
+scostamento non spiegato su L26130:
+ipotesi: pz prelevati per il panel test del 11/05 e non registrati su MOD-MAG-02
+(E.M.) NON possiamo presentare un mass balance che non quadra all'audit. Ivano deve dirmi dove sono finiti.
+
+tempo di ricostruzione: 4 h 20 min
+target BRCGS: < 4 h
+Clienti da avvisare in caso di ritiro - contatti e stato della comunicazione
+
+
+
+Cliente Referente Ruolo Telefono Email Pz coinvolti Avvisato il Ora Esito contatto Note
+Tosano Cerea SpA dott.ssa Anna Perbellini Assicurazione Qualità 045 764 2210 qualita@tosanocerea.it 9360 14/05/2026 09:15 chiede relazione 48h ha già bloccato a sistema
+Tosano Cerea SpA Luca Vantini Ricevimento CE.DI. 045 764 2218 cedi.cerea@tosanocerea.it 9360 14/05/2026 09:40 informato
+Alì SpA dott. Fabio Meneghini Qualità 049 892 1140 qualita@alisupermercati.it 1440 14/05/2026 11:20 merce bloccata in cedi
+Rossetto Trade SpA Sandra Bortolotti Acquisti 045 630 8890 acquisti@rossettotrade.it 980 15/05/2026 08:05 richiamo autorizzato vuole nota di credito
+Famila Nordest - - 0 non coinvolto referenza diversa
+[FORMULA: A monte!F16 =SUMIF(G6:G11,"kg",F6:F11)]
+[FORMULA: Mass balance!C6 =5100+1440]
+[FORMULA: Mass balance!F6 =C6+D6+E6]
+[FORMULA: Mass balance!G6 =B6-F6]
+[FORMULA: Mass balance!H6 =F6/B6]
+[FORMULA: Mass balance!I6 =IF(ABS(G6)<=B6*0.01,"quadra","NON QUADRA")]
+[FORMULA: Mass balance!C7 =4260+980]
+[FORMULA: Mass balance!F7 =C7+D7+E7]
+[FORMULA: Mass balance!G7 =B7-F7]
+[FORMULA: Mass balance!H7 =F7/B7]
+[FORMULA: Mass balance!I7 =IF(ABS(G7)<=B7*0.01,"quadra","NON QUADRA")]
+[FORMULA: Mass balance!D9 =G6]

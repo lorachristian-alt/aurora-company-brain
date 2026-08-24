@@ -1,0 +1,851 @@
+Giudichi note di un archivio aziendale rispetto ai documenti che dichiarano come
+fonte. Non devi migliorare le note, non devi riscriverle e non devi rispondere
+alle domande che pongono: devi giudicare se stanno in piedi sulle loro fonti.
+
+Per ogni nota ricevi: il nome, il corpo integrale, l'elenco delle fonti che
+dichiara e il testo estratto di ciascuna di quelle fonti.
+
+Rispondi SOLO a queste tre domande, in quest'ordine:
+1. Ogni fonte elencata contribuisce davvero alla nota? Una fonte che non sorregge
+   nessuna affermazione e' rumore nel payload, e va segnalata.
+2. La nota afferma qualcosa che le fonti non dicono, pur senza numeri? Cerca le
+   affermazioni qualitative: cause, intenzioni, conseguenze, attribuzioni di una
+   frase a una persona, giudizi di conformita'. I numeri, le date e i codici NON
+   sono affar tuo: li ha gia' verificati lo strato deterministico.
+
+3. Esiste, FRA LE FONTI CHE HAI RICEVUTO IN QUESTO PACCHETTO, un documento che
+   misura o afferma la stessa grandezza di cui la nota parla, e che la nota NON
+   cita? Non e' un difetto di provenienza: e' una lacuna di copertura. La segnali
+   FUORI dal verdetto, in coda alla risposta, dicendo quale nota e quale
+   documento, e NON cambi per questo l'esito della nota.
+
+Assegna a ogni nota esattamente un esito:
+- `pulita` — ogni fonte contribuisce e nessuna affermazione eccede le fonti
+- `fonte_inutile` — almeno una fonte elencata non sorregge nulla
+- `afferma_oltre` — almeno un'affermazione non ha riscontro nelle fonti citate
+- `entrambi` — sia una fonte inutile sia un'affermazione che eccede
+
+Restituisci UNA riga JSON per nota, con esattamente questi campi:
+`nota`, `esito`, `motivazione` (una riga sola, che cita l'affermazione o la fonte
+esatta a cui ti riferisci).
+
+Regole che non puoi violare:
+- Non essere generoso: se un'affermazione non e' ritrovabile leggendo le fonti,
+  non e' fondata anche se e' plausibile e ben scritta.
+- Un'inferenza DICHIARATA come tale («i due documenti, letti insieme, mostrano
+  che…», «la trascrizione non lo afferma: e' un'attribuzione») e' legittima e non
+  si segnala. E' l'inferenza fatta passare per dato della fonte che si segnala.
+- Una nota che riporta due valori divergenti senza sceglierne uno sta facendo il
+  suo mestiere: non e' un difetto, e non si segnala.
+- Non proponi correzioni e non riscrivi niente. Riporti, e basta.
+- Non ricevi il canone e non devi cercarlo: confronti la nota contro le sue
+  fonti, punto. Il giudizio sulla copertura dei fatti spetta a un altro ruolo.
+- La terza domanda non ti autorizza a giudicare la copertura dell'archivio: ti
+  chiede solo di segnalare cio' che hai gia' sotto gli occhi dentro il pacchetto.
+  Se un documento non e' nel pacchetto, per te non esiste.
+
+
+======================================================================
+PROMPT v2 del 2026-08-18 — non modificarlo per questo lotto.\n
+======================================================================
+
+======================================================================
+FETTA 1 DI 1 — 4 note da giudicare.
+Giudichi SOLO le note di questa fetta, contro le fonti in coda a questo
+file. ⚠️ Se l'appendice delle fonti mancasse o non contenesse i documenti
+che le note citano, DICHIARA L'INGRESSO DEGRADATO e non emettere verdetti:
+è un esito legittimo e vale più di un verdetto costruito sul nulla.
+======================================================================
+
+----------------------------------------------------------------------
+>>>>> NOTA DA GIUDICARE: fatto-il-turno-3-non-e-nel-mass-balance.md
+----------------------------------------------------------------------
+---
+title: "Il turno 3 del 10 maggio ha 1.480 confezioni bloccate e non compare in nessuna riga del mass balance"
+summary: "Il blocco del perimetro conta 1.480 confezioni bloccate per il sotto-lotto L26130-L1-T3, mentre la ricostruzione di rintracciabilità non porta nessuna riga con quel codice, né nella destinazione del prodotto né nella quadratura."
+type: atomica
+area: qualita
+tags: [areas, qualita, logistica, ritiro, rec-2026-011, mass-balance, turni]
+fonti:
+  - procedura_ritiro_prodotto_CRISI_GDO.txt
+  - tracciabilita_lotti_massbalance_L26130.xlsx
+stato: aperto
+aliases: []
+data_fatto: 2026-05-14
+data_nota: 2026-08-24
+related: "[[fatto-perimetro-del-blocco-dal-riavvio]], [[kpi-mass-balance-l26130]], [[questione-perimetro-del-blocco-e-mass-balance]], [[lotto-l26130]], [[area-qualita]]"
+---
+
+# Un sotto-lotto che esiste in un documento e non nell'altro
+
+| | |
+|---|---|
+| **Blocco del perimetro**, 14/05 h 18:05 | «`L26130-L1-T3` (dalle 22:00 alle 03:00) ......... **1.480 conf.** - in magazzino, BLOCCATE» |
+| **Mass balance**, foglio «A valle» | **sette righe** *(contate)*, quattro per `L26130-L1-T2` e tre per `L26131-L1-T2`. **Nessuna riga porta `L26130-L1-T3`** |
+| **Mass balance**, foglio «Mass balance» | **due righe** *(contate)*: `L26130-L1-T2` e `L26131-L1-T2` |
+
+## Perché conta
+
+⚠️ **Il documento che manca del turno 3 è quello con cui la rintracciabilità si dimostra a un
+cliente e a un ente**, e il suo foglio di quadratura si intitola «verifica di quadratura
+(requisito BRCGS cl. 3.9.2)».
+
+⚠️ **Mille quattrocentottanta confezioni sono bloccate in magazzino secondo un documento e non
+esistono secondo l'altro**, e nessuna delle due fonti dichiara di limitare il proprio perimetro
+a due soli sotto-lotti.
+
+⚠️ **Il mass balance porta già uno scostamento non spiegato sul `L26130-L1-T2`**, con
+un'annotazione siglata **(E.M.)** che dice «NON possiamo presentare un mass balance che non
+quadra all'audit» — e questa è una seconda mancanza, di natura diversa: non pezzi che non
+tornano, **un intero turno che non compare**.
+
+## Fonti
+
+- [[procedura_ritiro_prodotto_CRISI_GDO.txt]] — §PERIMETRO DEL BLOCCO - definizione (E.M. 14/05/2026 h 18:05): «L26130-L1-T3 (dalle 22:00 alle 03:00) ......... 1.480 conf. - in magazzino, BLOCCATE».
+- [[tracciabilita_lotti_massbalance_L26130.xlsx]] — foglio «A valle», righe 6-12: i soli codici `L26130-L1-T2` e `L26131-L1-T2`.
+- [[tracciabilita_lotti_massbalance_L26130.xlsx]] — foglio «Mass balance», righe 6-7: le due sole righe della quadratura.
+
+----------------------------------------------------------------------
+>>>>> NOTA DA GIUDICARE: doc-bozza-comunicazione-al-cliente.md
+----------------------------------------------------------------------
+---
+title: "La bozza di comunicazione al cliente chiede tre cose, e una di esse è ciò da cui dipende il perimetro reale del ritiro"
+summary: "L'Allegato 2 di PRO-QA-14 è la lettera pronta per il cliente: elenca i dati identificativi del prodotto da riportare e chiede di sospendere la movimentazione, quantificare le giacenze presso CE.DI. e punti vendita, e segregare la merce."
+type: atomica
+area: commerciale
+tags: [docs, qualita, commerciale, ritiro, pro-qa-14, comunicazione, gdo]
+fonti:
+  - procedura_ritiro_prodotto_CRISI_GDO.txt
+stato: risolto
+aliases: []
+data_nota: 2026-08-24
+related: "[[doc-pro-qa-14]], [[doc-comunicazione-ai-clienti-nella-crisi]], [[doc-avviso-al-consumatore-e-portavoce]], [[area-commerciale]]"
+---
+
+# Che cosa la lettera chiede al cliente
+
+La bozza dell'Allegato 2 è scritta con i campi da riempire, e la parte che non si riempie sono
+**le tre richieste al destinatario** *(contate)*:
+
+1. **sospendere immediatamente** la movimentazione e la vendita dei lotti indicati;
+2. **quantificare le giacenze presso CE.DI. e punti vendita**;
+3. **segregare la merce** in attesa di istruzioni per il reso.
+
+I dati che la lettera deve portare sono elencati: denominazione, **codice articolo**, **EAN**,
+lotti, **TMC**, formato, e «Quantità consegnate a Vs. CE.DI.: [___] colli in data [___] con DDT
+[___]». Chiudono la lettera il pericolo identificato, la valutazione del rischio e i «recapiti
+dedicati».
+
+## Perché conta
+
+⚠️ **La seconda richiesta è l'atto da cui dipende il perimetro reale del ritiro.** Fino a quel
+momento l'azienda sa che cosa ha spedito; quanto ne sia ancora recuperabile lo sa solo il
+cliente, e questa riga è il modo in cui glielo chiede.
+
+⚠️ **La lettera è predisposta prima della crisi, non durante**, ed è la stessa scelta della
+bozza di avviso al consumatore: nel momento in cui serve, si personalizza e si manda.
+
+⚠️ **Le tre richieste non sono condizionate alla classe**: l'oggetto della lettera si apre con
+la scelta «[RITIRO CAUTELATIVO / RICHIAMO]», ma **sospendere, quantificare e segregare si
+chiedono in entrambi i casi**.
+
+## Fonti
+
+- [[procedura_ritiro_prodotto_CRISI_GDO.txt]] — §8.1 «BOZZA COMUNICAZIONE AL CLIENTE (All. 2 - da personalizzare)»: i campi identificativi, «Vi chiediamo di: sospendere immediatamente la movimentazione e la vendita», «quantificare le giacenze presso CE.DI. e punti vendita» e «segregare la merce in attesa di nostre istruzioni per il reso».
+
+----------------------------------------------------------------------
+>>>>> NOTA DA GIUDICARE: doc-tempistiche-vincolanti-della-crisi.md
+----------------------------------------------------------------------
+---
+title: "Le sette tempistiche della crisi sono dichiarate vincolanti, e una di esse non compare altrove nella procedura"
+summary: "Il §7 di PRO-QA-14 raccoglie in sette righe i termini della crisi e li qualifica come vincolanti, e la riga sulla convocazione del team — immediata per le classi 1 e 2 — è l'unica formulazione di quell'urgenza in tutto il documento."
+type: atomica
+area: qualita
+tags: [docs, qualita, ritiro, pro-qa-14, tempistiche, crisi]
+fonti:
+  - procedura_ritiro_prodotto_CRISI_GDO.txt
+stato: risolto
+aliases: []
+data_nota: 2026-08-24
+related: "[[doc-pro-qa-14]], [[doc-flusso-della-crisi-sei-fasi]], [[doc-team-di-crisi]], [[doc-comunicazione-ai-clienti-nella-crisi]], [[area-qualita]]"
+---
+
+# I sette termini, e la parola «vincolanti»
+
+| Adempimento | Termine |
+|---|---|
+| Valutazione preliminare | **entro 2 h** dalla segnalazione |
+| **Convocazione team di crisi** | **immediata** per Classe 1-2 |
+| Blocco lotti e mass balance | entro **4 h** dalla convocazione |
+| Notifica ASL/ATS (ULSS 9) art. 19 | entro **24 h** dalla conferma |
+| Comunicazione clienti GDO | entro **24 h**, comunque **prima della notifica ai media se richiamo** |
+| Risposta a richieste QA cliente | entro **48 h** (capitolato Tosano) |
+| Riesame post-crisi | entro **15 gg** |
+
+**Sette righe** *(contate)*, sotto un titolo che le dichiara **«(vincolanti)»**.
+
+## Perché conta
+
+⚠️ **La riga della convocazione non ha un gemello nel flusso operativo.** Il §6 dice che in
+classe 1 o 2 si convoca il team, e **non dice entro quando**: la parola «**immediata**» sta solo
+qui. È quindi questo paragrafo, e non il flusso, a fissare l'urgenza con cui si passa dalla
+valutazione al blocco.
+
+⚠️ **I termini non decorrono dallo stesso istante**, e il paragrafo lo scrive per **tre** di
+essi *(contati)*: dalla segnalazione, dalla convocazione, dalla conferma del rischio. **Per il
+riesame post-crisi scrive «entro 15 gg» e basta**, mentre la fase 5 lo àncora alla chiusura
+operativa: il dies a quo di quel termine sta altrove.
+
+⚠️ **Una delle sette righe non nasce dall'azienda**: le 48 ore sono del **capitolato Tosano**, e
+la procedura le recepisce dichiarandone la fonte.
+
+⚠️ **La parola «vincolanti» sta nel titolo del paragrafo**, in un documento redatto dal RSGQ e
+approvato dal Direttore di Stabilimento, e la fase 5 chiede poi di misurare i tempi effettivi
+contro questi.
+
+## Fonti
+
+- [[procedura_ritiro_prodotto_CRISI_GDO.txt]] — §7 «TEMPISTICHE RIEPILOGATIVE (vincolanti)»: le sette righe, dalla valutazione preliminare al riesame post-crisi.
+- [[procedura_ritiro_prodotto_CRISI_GDO.txt]] — §6 «FLUSSO OPERATIVO», FASE 1: «Se CLASSE 1 o 2: convocazione del team di crisi e passaggio a FASE 2», senza termine.
+
+----------------------------------------------------------------------
+>>>>> NOTA DA GIUDICARE: questione-il-ritiro-non-notifica-all-ente.md
+----------------------------------------------------------------------
+---
+title: "La procedura del ritiro elenca tre destinatari delle notifiche, e l'ente di certificazione non è fra questi"
+summary: "Il certificato BRCGS impone di notificare a CSQA entro tre giorni lavorativi richiami, ritiri, allerte e provvedimenti dell'Autorità, mentre la procedura che governa proprio quegli eventi non nomina l'ente né fra i destinatari della fase 3 né nelle tempistiche vincolanti."
+type: conflitto
+area: qualita
+tags: [data, conflitto, qualita, certificazione, ritiro, notifiche, brcgs]
+fonti:
+  - procedura_ritiro_prodotto_CRISI_GDO.txt
+  - Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf
+stato: aperto
+aliases: []
+data_nota: 2026-08-24
+related: "[[doc-notifica-all-autorita]], [[doc-tempistiche-vincolanti-della-crisi]], [[fatto-condizioni-uso-marchio-brcgs]], [[doc-pro-qa-14]], [[area-qualita]]"
+---
+
+# Un obbligo con una data, e la procedura che dovrebbe eseguirlo
+
+## Le versioni a confronto
+
+| Fonte | Che cosa prescrive |
+|---|---|
+| **Certificato BRCGS**, condizioni di validità, punto 3 | «gli eventi gravi (**richiami, ritiri, allerte sanitarie, provvedimenti dell'Autorità competente**) devono essere notificati **entro 3 giorni lavorativi**». ⚠️ Il punto porta **due** obblighi, e la cl. **1.1.10** è citata a proposito del **primo**, quello sulle modifiche significative |
+| **`PRO-QA-14`** §6 FASE 3 | **tre destinatari** *(contati)*: l'Autorità competente, i clienti, e il consumatore se richiamo. **L'ente non c'è** |
+| **`PRO-QA-14`** §7 «TEMPISTICHE RIEPILOGATIVE (vincolanti)» | **sette righe** *(contate)*, nessuna delle quali nomina l'ente di certificazione |
+| **`PRO-QA-14`** §11 | cita «BRCGS Issue 9 sez. **3.11**», che è la sezione del ritiro e del richiamo |
+
+## Perché non si sceglie
+
+⚠️ **Gli eventi che il certificato elenca sono esattamente quelli che questa procedura
+governa**: richiami e ritiri sono il suo oggetto, e la fase 0 raccoglie senza filtro «qualsiasi
+segnalazione potenzialmente rilevante», fra cui l'allerta RASFF su materia prima.
+
+⚠️ **Non è un'omissione di registrazione ma di prescrizione**: la procedura non dimentica di
+allegare un modulo, **non istituisce affatto l'adempimento**, e chi la esegue alla lettera non
+notifica all'ente.
+
+⚠️ **Il termine dell'ente è il più LARGO dei tre** che governano lo stesso evento: tre giorni
+lavorativi contro le 24 ore dell'Autorità e le 24 dei clienti. ⚠️ **Non è quindi un problema di
+tempi ma di destinatario**: la procedura ha il termine più stretto e non ha quello che
+scadrebbe per ultimo.
+
+## Cosa servirebbe per chiuderla
+
+- Una **revisione di `PRO-QA-14`** che recepisca l'obbligo di notifica all'ente.
+- Una **procedura di gestione della certificazione** che assegni l'adempimento, che queste fonti non portano.
+- La **traccia di una notifica** all'ente per un evento passato, che nessuna di queste fonti contiene.
+
+## Fonti
+
+- [[Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf]] — pag. 1, §«CONDIZIONI DI VALIDITÀ E USO DEL MARCHIO», punto 3: gli eventi gravi «devono essere notificati entro 3 giorni lavorativi».
+- [[procedura_ritiro_prodotto_CRISI_GDO.txt]] — §6 «FLUSSO OPERATIVO», FASE 3 «NOTIFICHE», punti a), b) e c).
+- [[procedura_ritiro_prodotto_CRISI_GDO.txt]] — §7 «TEMPISTICHE RIEPILOGATIVE (vincolanti)».
+- [[procedura_ritiro_prodotto_CRISI_GDO.txt]] — §11 «RIFERIMENTI»: «BRCGS Issue 9 sez. 3.11».
+
+
+======================================================================
+
+
+======================================================================
+TESTO ESTRATTO DELLE FONTI CITATE
+======================================================================
+
+--- Certificato_BRCGS_Food_Issue9_Aurora_2026.pdf ---
+CSQA Certificazioni S.r.l. — Via S. Gaetano 74, 36016 Thiene (VI) — Organismo accreditato ACCREDIA
+Certificato BRC/IT/24/00871 — Ed. 3 del 10/04/2026 — pag. 1 — Il presente certificato è di proprietà di CSQA Certificazioni S.r.l.
+pag. 1
+Certificato di Conformità BRCGS Food Safety Issue 9 — n. BRC/IT/24/00871
+[LOGO CSQA]                                                  [LOGO BRCGS FOOD SAFETY CERTIFICATED]
+CERTIFICATO DI CONFORMITÀ
+CSQA Certificazioni S.r.l., in qualità di Organismo di Certificazione riconosciuto da BRCGS
+(certification body n. 038) e accreditato ACCREDIA per lo schema BRCGS Food Safety,
+CERTIFICA CHE
+Aurora Food Group S.r.l.
+Via dell'Industria 27 — 37044 Cologna Veneta (VR) — Italia
+P.IVA / C.F. 03984710230
+Sito produttivo oggetto di audit:
+Via dell'Industria 27 — 37044 Cologna Veneta (VR)
+Unità ausiliaria (deposito prodotto finito surgelato): Via Palù 3/A — Cologna Veneta (VR)
+ha soddisfatto i requisiti dello standard
+BRCGS FOOD SAFETY — ISSUE 9 (agosto 2022)
+con il seguente esito:
+Voce
+Dettaglio
+Numero certificato
+BRC/IT/24/00871
+Grade conseguito
+AA
+Programma di audit
+Announced (annunciato)
+Date dell'audit
+17 e 18 febbraio 2026
+Auditor lead
+dott.ssa Nadia Franceschini
+Co-auditor
+p.i. Fabrizio Menegazzo
+Durata audit
+2,0 giornate/uomo on site
+Data di emissione del certificato
+10/04/2026
+Data di scadenza del certificato
+09/04/2027
+Data entro cui deve essere condotto il riaudit
+dal 06/02/2027 al 06/03/2027
+Edizione del certificato
+3 (prima emissione: 12/04/2024)
+SCOPE DI CERTIFICAZIONE
+Produzione di prodotti da forno salati farciti e non farciti (snack multicereali, focaccine
+all'olio extravergine di oliva) confezionati in atmosfera protettiva (flow-pack ATM/MAP), e
+produzione di croissanteria e sfogliati crudi e semilavorati lievitati, surgelati mediante
+tunnel di surgelazione e confezionati in astuccio e sacchetto, a marchio proprio e a marchio
+del distributore (private label).
+Campo
+Valore
+Categorie di prodotto BRCGS
+07 — Bakery; 15 — Dried foods and ingredients (limitatamente ai
+semilavorati); 05 — Fruit, vegetables and nuts: NON APPLICABILE
+Processi
+Cottura in forno tunnel, trattamento termico di pastorizzazione,
+surgelazione, confezionamento in atmosfera protettiva (MAP)
+Moduli volontari aggiuntivi
+Nessuno
+Prodotti a marchio del cliente
+Sì — private label GDO
+ESCLUSIONI DALLO SCOPE
+Sono esclusi dal campo di applicazione della presente certificazione:
+
+CSQA Certificazioni S.r.l. — Via S. Gaetano 74, 36016 Thiene (VI) — Organismo accreditato ACCREDIA
+Certificato BRC/IT/24/00871 — Ed. 3 del 10/04/2026 — pag. 2 — Il presente certificato è di proprietà di CSQA Certificazioni S.r.l.
+pag. 2
+1. i prodotti commercializzati e non fabbricati presso il sito (attività di trading);
+2. la linea creme spalmabili in vasetto di vetro, non attiva alla data dell'audit;
+3. le attività di trasporto e distribuzione affidate a vettori terzi;
+4. lo sviluppo prototipale di nuove referenze (codice AF-SN-0470) non ancora immesse sul mercato.
+L'esclusione è riportata, ai sensi del protocollo BRCGS, anche sul rapporto di audit n.
+AU-2026-0233 disponibile sulla piattaforma BRCGS Directory.
+
+CSQA Certificazioni S.r.l. — Via S. Gaetano 74, 36016 Thiene (VI) — Organismo accreditato ACCREDIA
+Certificato BRC/IT/24/00871 — Ed. 3 del 10/04/2026 — pag. 3 — Il presente certificato è di proprietà di CSQA Certificazioni S.r.l.
+pag. 3
+ESITO DELL'AUDIT
+Nel corso dell'audit del 17-18/02/2026 sono state rilevate n. 2 (due) non conformità di grado
+minore e nessuna non conformità di grado maggiore o critico. Le azioni correttive proposte
+dall'Organizzazione sono state esaminate e giudicate adeguate dal Comitato di Certificazione;
+la chiusura documentale delle non conformità è stata verificata sulla base delle evidenze
+oggettive trasmesse dall'Organizzazione.
+N.
+Clausola
+Grado
+Stato
+1
+2.10.2
+Minore
+Chiusa su evidenza documentale
+2
+4.7.5
+Minore
+Chiusa su evidenza documentale
+Il mantenimento della certificazione è subordinato all'esito favorevole degli audit di
+sorveglianza e di rinnovo condotti secondo il programma indicato in prima pagina, nonché al
+rispetto del Regolamento Generale di Certificazione CSQA doc. REG-01 rev. 21.
+CONDIZIONI DI VALIDITÀ E USO DEL MARCHIO
+1. Il presente certificato è valido esclusivamente per il sito, lo scope e le categorie di
+   prodotto sopra indicati e non è trasferibile.
+2. Il logo BRCGS e il riferimento alla certificazione possono essere utilizzati unicamente
+   nella comunicazione business-to-business; ne è vietato l'uso sul prodotto o sul suo imballo
+   primario destinato al consumatore finale.
+3. Ogni modifica significativa di processo, layout, scope o assetto societario deve essere
+   comunicata a CSQA Certificazioni S.r.l. entro 3 giorni lavorativi ai sensi della cl. 1.1.10
+   dello standard; gli eventi gravi (richiami, ritiri, allerte sanitarie, provvedimenti
+   dell'Autorità competente) devono essere notificati entro 3 giorni lavorativi.
+4. La validità del certificato può essere verificata in ogni momento sulla piattaforma BRCGS
+   Directory (www.brcgsdirectory.com) ovvero contattando CSQA Certificazioni S.r.l.
+5. CSQA Certificazioni S.r.l. si riserva la facoltà di sospendere o revocare il certificato in
+   caso di inadempienza alle condizioni contrattuali, esito negativo delle verifiche o mancato
+   pagamento dei corrispettivi.
+6. Il certificato rimane di proprietà di CSQA Certificazioni S.r.l. e deve essere restituito a
+   semplice richiesta.
+RIFERIMENTI
+Documento
+Riferimento
+Standard
+BRCGS Food Safety Issue 9 — August 2022
+Rapporto di audit
+AU-2026-0233 del 18/02/2026
+Contratto di certificazione
+CTR-2023-1187 del 06/11/2023
+Regolamento di certificazione
+CSQA REG-01 rev. 21
+Delibera del Comitato di Certificazione
+CdC seduta n. 14/2026 del 08/04/2026
+Thiene (VI), 10/04/2026
+Presidente del Comitato di Certificazione — CSQA Certificazioni
+S.r.l.
+_______________________________
+dott. Pietro Bonato
+[LOGO CSQA]        [LOGO ACCREDIA — membro degli accordi di mutuo riconoscimento EA, IAF e ILAC]
+
+CSQA Certificazioni S.r.l. — Via S. Gaetano 74, 36016 Thiene (VI) — Organismo accreditato ACCREDIA
+Certificato BRC/IT/24/00871 — Ed. 3 del 10/04/2026 — pag. 4 — Il presente certificato è di proprietà di CSQA Certificazioni S.r.l.
+pag. 4
+ALLEGATO 1 AL CERTIFICATO n. BRC/IT/24/00871 — SCOPE DI DETTAGLIO PER REFERENZA
+Il presente allegato costituisce parte integrante del certificato e ne segue le condizioni di
+validità. Elenco delle referenze rientranti nello scope alla data di emissione:
+Codice articolo
+Denominazione
+Tecnologia
+Confezionamento
+Marchio
+Nello scope
+AF-SN-0450
+Snack salato rustico
+multicereali 100 g
+Cottura +
+pastorizzazione PT-104
+Flow-pack ATM
+(N2/CO2)
+PL "Bontà di Casa" /
+Alì
+SÌ
+AF-SN-0455
+Snack salato rustico
+100 g formato promo
+3+1
+Cottura +
+pastorizzazione PT-104
+Flow-pack ATM
+multipack
+PL Tosano
+SÌ
+AF-FC-0330
+Focaccina olio EVO
+2x90 g
+Cottura forno tunnel
+FT-01
+Flow-pack ATM
+GDO
+SÌ
+AF-CR-0212
+Cornetto Premium
+burro 6x50 g surgelato
+Lievitazione +
+surgelazione
+Astuccio + sacchetto
+Aurora
+SÌ
+AF-CR-0215
+Cornetto Premium PL
+8x45 g surgelato
+Lievitazione +
+surgelazione
+Sacchetto
+PL Tosano
+SÌ
+AF-CR-0220
+Sfogliatina bio ai
+cereali
+Lievitazione +
+surgelazione
+Sacchetto
+Famila
+SÌ
+AF-SN-0470
+Snack salato paprika e
+semi (v12)
+Prototipo R&D
+—
+—
+NO — escluso
+Note all'allegato:
+- Le referenze surgelate sono prodotte sulla Linea 2 (croissanteria) e sulla Linea 3
+  (surgelazione, tunnel TS-01) e stoccate presso la cella CF-02 (-18 °C) e il deposito di Via
+  Palù 3/A.
+- Le referenze in atmosfera protettiva sono prodotte sulla Linea 1 (forno FT-01,
+  pastorizzatore PT-104, metal detector MD-3200, confezionatrice PKM-450).
+- La referenza AF-CR-0220 è inoltre certificata biologica ai sensi del Reg. UE 2018/848 —
+  organismo di controllo ICEA, codice IT BIO 006; tale certificazione è distinta e non
+  oggetto del presente documento.
+Fine dell'allegato 1.
+Presidente del Comitato di Certificazione — CSQA Certificazioni
+S.r.l.
+_______________________________
+dott. Pietro Bonato
+
+
+
+--- procedura_ritiro_prodotto_CRISI_GDO.txt ---
+AURORA FOOD GROUP S.r.l. - Cologna Veneta (VR)
+SISTEMA DI GESTIONE QUALITA' E SICUREZZA ALIMENTARE
+
+PROCEDURA PRO-QA-14 rev. 3 del 10/09/2025
+GESTIONE RITIRO E RICHIAMO DEL PRODOTTO
+
+Redatta: dott.ssa E. Marchetti (RSGQ)      Verificata: dott.ssa C. Vicentini
+Approvata: ing. M. Fantin (Dir. Stabilimento)
+Copia controllata n. 02 - distribuzione: Direzione, Qualità, Commerciale,
+Magazzino, Produzione
+Pagina 1 di 14 - Documento non controllato se stampato
+
+1. SCOPO
+Definire responsabilità, modalità operative e tempistiche per la gestione del
+ritiro e del richiamo di prodotto immesso sul mercato da Aurora Food Group
+S.r.l., in ottemperanza agli artt. 18 e 19 del Reg. (CE) 178/2002, ai requisiti
+BRCGS Food Safety Issue 9 (sez. 3.11) e IFS Food v8 (cl. 5.9), nonché ai
+capitolati dei clienti GDO (in particolare capitolato fornitori Tosano Cerea
+S.p.A., ed. 2025, par. 11 "Gestione emergenze e ritiri").
+
+2. CAMPO DI APPLICAZIONE
+Tutti i prodotti finiti spediti dallo stabilimento di Via dell'Industria 27 e
+dal magazzino di Via Palù 3/A, a marchio proprio, a marchio del cliente
+("Bontà di Casa" e altri) e biologici (ICEA IT BIO 006).
+
+3. DEFINIZIONI
+3.1 RITIRO (withdrawal): rimozione del prodotto dalla catena di distribuzione
+    quando il prodotto NON è ancora nella disponibilità del consumatore finale
+    o comunque quando non è necessario allertare il consumatore (prodotto a
+    CE.DI., a deposito cliente, a scaffale ma non venduto).
+3.2 RICHIAMO (recall): rimozione del prodotto quando questo è già nella
+    disponibilità del consumatore finale, con necessità di informare il
+    consumatore stesso (avviso a scaffale, comunicati, sito web, canali del
+    Ministero della Salute).
+3.3 BLOCCO: sospensione cautelativa della movimentazione di lotti presso i
+    magazzini aziendali, registrata su MOD-MAG-02.
+3.4 CRISI: qualunque evento che possa comportare rischio per la salute del
+    consumatore, danno reputazionale grave o interruzione delle forniture ai
+    clienti strategici.
+
+4. CLASSIFICAZIONE DELLA GRAVITA'
+La valutazione è effettuata dal RSGQ con il supporto del team di crisi.
+
+CLASSE 1 - Rischio sanitario grave e immediato (patogeni in prodotto RTE,
+  allergene non dichiarato, corpo estraneo tagliente/perforante, contaminante
+  chimico oltre i limiti di legge). Azione: RICHIAMO + notifica Autorità
+  competente ex art. 19 Reg. 178/2002 entro 24 h + eventuale comunicato al
+  consumatore.
+CLASSE 2 - Rischio sanitario potenziale o non immediato (corpo estraneo non
+  tagliente, deviazione di processo con rischio da valutare, difetto di
+  confezionamento che compromette la conservabilità). Azione: RITIRO, notifica
+  all'Autorità se il prodotto può essere non sicuro, comunicazione ai clienti.
+CLASSE 3 - Difetto di qualità senza rischio sanitario (difetti organolettici,
+  peso, etichettatura non ingannevole). Azione: gestione commerciale, nessuna
+  notifica, eventuale ritiro volontario concordato.
+La classificazione è registrata su MOD-QA-31 con il razionale della decisione.
+
+5. TEAM DI CRISI - COMPOSIZIONE E REPERIBILITA'
+Il team di crisi è convocato dal RSGQ o dal Direttore di Stabilimento con
+qualsiasi mezzo (telefono, WhatsApp gruppo "AURORA CRISI"). Reperibilità
+24/7 per i ruoli contrassegnati (*).
+
+Ruolo                        Titolare                    Telefono
+Coordinatore crisi (*)       ing. Marco Fantin           348 22 41 507
+RSGQ - valutazione rischio(*)dott.ssa Elena Marchetti    347 90 118 62
+QA operativo / segreteria    Sara Pozzato                345 61 30 274
+Direzione / portavoce        Giancarlo Bertoldi (AD)     335 74 402 18
+Commerciale GDO              Silvia Bertoldi             340 55 87 931
+Rintracciabilità/magazzino(*)Nicola Faggionato           349 41 76 083
+Produzione                   Denis Zanella               346 88 20 415
+Consulente HACCP             dott.ssa Chiara Vicentini   049 87 655 40 (studio)
+Legale (esterno)             avv. Storti - Verona        045 80 31 226 (ufficio)
+Sostituti: per Fantin -> Zanella; per Marchetti -> Pozzato; per Faggionato ->
+addetto spedizioni turno.
+L'elenco è verificato ad ogni revisione e in occasione del mock recall annuale.
+
+6. FLUSSO OPERATIVO (descrizione sequenziale, vedi diagramma All. 1)
+
+FASE 0 - SEGNALAZIONE (T0)
+Qualsiasi segnalazione potenzialmente rilevante (reclamo consumatore, reclamo
+cliente GDO, esito analitico non conforme, deviazione CCP scoperta a
+posteriori, allerta RASFF su materia prima, comunicazione fornitore) è
+inoltrata SENZA FILTRO a RSGQ. Fuori orario: ai numeri di reperibilità.
+Registrazione immediata su MOD-QA-31.
+
+FASE 1 - VALUTAZIONE PRELIMINARE (entro 2 ORE da T0)
+Il RSGQ, sentiti i membri del team pertinenti, effettua la valutazione
+preliminare: identificazione prodotto e lotti coinvolti, natura del pericolo,
+classificazione di gravità (par. 4), prima stima delle quantità. Esito
+verbalizzato anche in forma sintetica (mail al team di crisi).
+Se CLASSE 1 o 2: convocazione del team di crisi e passaggio a FASE 2.
+Se CLASSE 3: gestione ordinaria reclami (PRO-QA-13).
+
+FASE 2 - BLOCCO E RICOSTRUZIONE (entro 4 ORE dalla convocazione)
+a) Blocco informatico e fisico dei lotti coinvolti presso i magazzini aziendali
+   (Via dell'Industria e Via Palù 3/A) - Faggionato, MOD-MAG-02, cartellini
+   BLOCCATO;
+b) ricostruzione A VALLE: clienti destinatari, DDT, quantità spedite per lotto,
+   date di consegna, vettori;
+c) ricostruzione A MONTE: lotti di materie prime e imballi utilizzati, altre
+   produzioni che li condividono (valutazione estensione blocco);
+d) MASS BALANCE: prodotto totale del lotto = giacenza + spedito + scarti +
+   campioni. Obiettivo di ricostruzione: >= 99% entro 4 h (target mock recall).
+e) sospensione immediata delle spedizioni dei lotti in dubbio.
+
+FASE 3 - NOTIFICHE (entro 24 ORE dalla conferma del rischio)
+Se il prodotto può essere non conforme ai requisiti di sicurezza (art. 14 Reg.
+178/2002) ed è uscito dal controllo diretto dell'azienda:
+a) NOTIFICA ALL'AUTORITA' COMPETENTE ex art. 19 Reg. 178/2002: SIAN - ULSS 9
+   Scaligera, tramite il portale/modulistica regionale e PEC, entro 24 h.
+   Responsabile: RSGQ. La notifica contiene: identificazione OSA (n. reg.
+   037/2019/SIAN), prodotto, lotto/i, TMC, quantità, pericolo, distribuzione,
+   azioni intraprese;
+b) COMUNICAZIONE AI CLIENTI: a tutti i destinatari dei lotti (per la GDO:
+   ufficio qualità del cliente + buyer; per Tosano: dott.ssa Anna Perbellini
+   - QA fornitori - e per conoscenza il Category Manager). Mezzo: PEC +
+   telefono. Modello di comunicazione in All. 2 (bozza pronta, par. 8.1);
+c) se RICHIAMO (Classe 1): predisposizione avviso al consumatore da esporre a
+   scaffale (All. 3, bozza par. 8.2) e valutazione con la Direzione di
+   comunicato stampa/sito web. Il portavoce è ESCLUSIVAMENTE l'AD o suo
+   delegato: nessun altro rilascia dichiarazioni.
+
+FASE 4 - GESTIONE DEL PRODOTTO RESO
+a) Il prodotto ritirato/richiamato rientra con DDT dedicato causale "reso per
+   ritiro" ed è segregato in area dedicata identificata (magazzino Via Palù,
+   zona R);
+b) conta e riconciliazione con il mass balance (aggiornamento quantità);
+c) destino deciso da RSGQ con verbale: distruzione tramite ditta autorizzata
+   (con formulario), declassamento ad alimento zootecnico ove ammissibile,
+   riutilizzo escluso per prodotti Classe 1;
+d) conservazione campioni per eventuale contenzioso/analisi (min. 10 pz per
+   lotto, cella dedicata);
+e) tutte le evidenze confluiscono nel dossier di crisi.
+
+FASE 5 - CHIUSURA E RIESAME
+Entro 15 giorni dalla chiusura operativa: riunione di riesame del team di
+crisi con: causa radice (metodo 5 perché / Ishikawa), azioni correttive con
+responsabili e scadenze, valutazione dei tempi effettivi vs quelli di
+procedura, aggiornamento dell'analisi dei pericoli se pertinente, relazione
+alla Direzione. Costi della crisi quantificati da Amministrazione (Trentin L.)
+e registrati.
+
+7. TEMPISTICHE RIEPILOGATIVE (vincolanti)
+Valutazione preliminare               entro 2 h dalla segnalazione
+Convocazione team di crisi            immediata per Classe 1-2
+Blocco lotti e mass balance           entro 4 h dalla convocazione
+Notifica ASL/ATS (ULSS 9) art. 19     entro 24 h dalla conferma
+Comunicazione clienti GDO             entro 24 h, comunque prima della notifica
+                                      ai media se richiamo
+Risposta a richieste QA cliente       entro 48 h (capitolato Tosano)
+Riesame post-crisi                    entro 15 gg
+
+8. MODELLI DI COMUNICAZIONE (bozze pronte all'uso)
+
+8.1 BOZZA COMUNICAZIONE AL CLIENTE (All. 2 - da personalizzare)
+-----------------------------------------------------------------
+Spett.le [Cliente], c.a. Ufficio Assicurazione Qualità
+Oggetto: [RITIRO CAUTELATIVO / RICHIAMO] prodotto [descrizione] -
+lotto/i [XXXX] - TMC [XXXX]
+
+Con la presente Vi informiamo che, a seguito di [descrizione sintetica
+dell'evento], questa azienda ha disposto in via [cautelativa/obbligatoria]
+il [ritiro/richiamo] del prodotto:
+- Denominazione: [___] - Codice articolo: [___] - EAN: [___]
+- Lotto/i: [___] - TMC: [___] - Formato: [___]
+- Quantità consegnate a Vs. CE.DI.: [___] colli in data [___] con DDT [___]
+Vi chiediamo di: sospendere immediatamente la movimentazione e la vendita
+dei lotti indicati; quantificare le giacenze presso CE.DI. e punti vendita;
+segregare la merce in attesa di nostre istruzioni per il reso.
+Il pericolo identificato è: [___]. La valutazione del rischio è: [___].
+[Se richiamo: Vi trasmettiamo in allegato l'avviso per il consumatore da
+esporre presso i punti vendita.]
+Restiamo a disposizione ai seguenti recapiti dedicati: [___].
+Ci scusiamo per il disagio e Vi ringraziamo per la collaborazione.
+Aurora Food Group S.r.l. - Il Responsabile Qualità
+-----------------------------------------------------------------
+
+8.2 BOZZA AVVISO AL CONSUMATORE DA ESPORRE A SCAFFALE (All. 3)
+-----------------------------------------------------------------
+              AVVISO IMPORTANTE DI [RICHIAMO] PRODOTTO
+Aurora Food Group S.r.l. informa i gentili consumatori che, in via
+precauzionale, è stato disposto il richiamo del seguente prodotto:
+   [DENOMINAZIONE DI VENDITA]
+   Marchio: [___]   Formato: [___]
+   Lotto: [___]   Termine minimo di conservazione: [___]
+   Prodotto nello stabilimento di Via dell'Industria 27, Cologna Veneta (VR)
+MOTIVO DEL RICHIAMO: [possibile presenza di ___]
+Si invitano i consumatori in possesso del prodotto con il lotto indicato a
+NON CONSUMARLO e a riportarlo al punto vendita, dove sarà rimborsato o
+sostituito anche in assenza di scontrino.
+Nessun altro lotto o prodotto Aurora Food Group è interessato dal presente
+avviso. Per informazioni: numero dedicato [___] - qualita@aurorafoodgroup.it
+Ci scusiamo per il disagio.
+-----------------------------------------------------------------
+
+9. MODULISTICA E REGISTRAZIONI
+MOD-QA-31  Gestione reclami e segnalazioni (apre e traccia l'evento)
+MOD-MAG-02 Carico/scarico e blocco lotti
+Dossier di crisi: raccoglie valutazioni, mail, notifiche, DDT resi, esiti
+analitici, verbale di riesame. Conservazione: 5 anni.
+Registro delle esercitazioni (mock recall).
+
+10. SIMULAZIONE ANNUALE DI RICHIAMO (MOCK RECALL)
+10.1 Almeno una volta l'anno, senza preavviso agli operativi, RSGQ avvia una
+simulazione completa su un lotto reale spedito, comprensiva di: ricostruzione
+a monte (fino ai lotti di materia prima e bobina film) e a valle (clienti,
+DDT, quantità), mass balance, prova di contatto dei membri del team di crisi,
+compilazione bozze di comunicazione SENZA INVIO.
+10.2 Criteri di accettazione: ricostruzione >= 99% entro 4 h; reperibilità
+team >= 80% al primo tentativo di chiamata.
+10.3 Ultima esercitazione eseguita: 07/11/2025, lotto sfida AF-CR-0212
+L25311-L3-T1. Esito: ricostruzione 99,6% in 2 h 20 min; mass balance chiuso
+(scostamento 0,4% = campioni QC non registrati a sistema, azione correttiva
+sulla registrazione campioni chiusa il 28/11/2025); reperibilità 8/9 (avv.
+Storti non raggiunto al primo giro, raggiunto al secondo). ESITO: CONFORME.
+Verbale in dossier esercitazioni.
+10.4 L'esito del mock recall è dato di ingresso del riesame della direzione.
+
+11. RIFERIMENTI
+Reg. (CE) 178/2002 artt. 14, 18, 19; Reg. (CE) 852/2004; BRCGS Issue 9 sez.
+3.11; IFS Food v8 cl. 5.9; capitolati clienti GDO; PRO-QA-08 rintracciabilità;
+PRO-QA-13 reclami; Linee guida Ministero della Salute per la notifica.
+
+MATRICE REVISIONI
+rev.0 06/2019 prima emissione - rev.1 04/2021 inserimento richiamo consumatore
+rev.2 09/2022 adeguamento BRCGS 9 - rev.3 10/09/2025 nuovi recapiti team,
+criteri mock recall, modello avviso scaffale
+
+Pagina 14 di 14 - Documento non controllato se stampato
+
+===========================================================================
+[ANNOTAZIONE MANOSCRITTA SU COPIA CONTROLLATA N. 02 - trascrizione]
+14/05/26 - h 17:40 - E. Marchetti
+
+APPLICAZIONE PROCEDURA - CASO PLASTICA AZZURRA
+- segnalazione: reclamo web 12/05 sig.ra Grigolon (Bussolengo) frammento
+  plastica dura azzurra in AF-SN-0450 lotto L26130 acquistato Tosano
+  Bussolengo. Foto ricevuta. Reperto richiesto, arriva con corriere.
+- 14/05 h 10:15 mail Perbellini (Tosano QA): chiede spiegazioni SCRITTE
+  entro 48h -> scadenza sab 16/05 h 10!! prepara bozza stasera
+- valutazione: plastica dura ~9x4 mm non tagliente?? da vedere il pezzo
+  vero. Classe 2 per ora (ritiro, non richiamo) MA se tagliente -> Classe 1
+  e notifica ULSS. Sentita Vicentini tel h 15.
+- correlazione probabile: intervento PKM-450 del 10/05 (guarnizione non
+  originale azzurra - MOD-PR-04 di Dal Maso dice solo "sostituita
+  guarnizione") + MD-3200 NON rileva plastica, ovvio
+- lotti coinvolti: L26130 e L26131 (turni successivi stessa guarnizione)
+  tot ~ 8.400 conf. di cui ~ 5.100 GIA' A SCAFFALE, resto CE.DI. Cerea +
+  ns. magazzino (bloccato il 13/05 MOD-MAG-02, Faggionato ok h 19:30)
+- costo stimato ritiro: 31.500 € (merce + logistica reso + distruzione +
+  nota credito) - stima con Trentin, NON comunicare al cliente
+- mass balance L26130 avviato, Pozzato ci lavora domattina presto
+- guarnizione: pezzo NON originale preso dal carrello ricambi = esattamente
+  NC 2 audit CSQA febbraio!!! e la registrazione MOD-QA-12 del 10/05 turno 2
+  NON torna col datalogger (deviazione PT-104 14:18-14:47) = NC 1. Le due
+  NC "chiuse" il 2/4 si sono materializzate tutte e due in un giorno solo.
+  Da dire a Fantin PRIMA che lo scriva Tosano.
+- team crisi convocato x domattina 15/05 h 8:00 sala riunioni + tel
+- decidere: ritiro cautelativo si/no -> propendo SI su entrambi i lotti,
+  aspettare identificazione materiale = perdere il weekend di vendite a
+  scaffale. Bertoldi vuole "capire prima quanto costa". Il costo lo sa.
+- verificare se anche L26129 usa la PKM-450 dopo le 15:05 del 10/5 -> NO,
+  L26129 e' del 09/05, prima della riparazione, ok
+- promemoria: aggiornare questa procedura -> inserire nel par. 4 il caso
+  "corpo estraneo da manutenzione" con richiamo a MOD-PR-04 e conta pezzi
+[firma illeggibile] EM
+===========================================================================
+
+   PERIMETRO DEL BLOCCO - definizione (E.M. 14/05/2026 h 18:05)
+   Non sono coinvolti i due lotti per intero. La guarnizione non originale e' stata montata
+   alle 18:45 del 10/05: e' interessato SOLO il prodotto confezionato dal riavvio in poi.
+   - L26130-L1-T2 (dalle 18:45 alle 22:00) ......... 3.290 conf. - in magazzino, BLOCCATE
+   - L26130-L1-T3 (dalle 22:00 alle 03:00) ......... 1.480 conf. - in magazzino, BLOCCATE
+   - L26131-L1-T2 (11/05, guarnizione ancora montata) 3.630 conf. - di cui 5.100 gia' spedite
+     [ricontrollare: il totale spedito comprende anche pezzi del T2, Faggionato verifica]
+   Totale interessato ~ 8.400 conf., di cui ~5.100 gia' a scaffale o in CE.DI.
+   Il prodotto dei turni precedenti le 15:05 del 10/05 e' stato confezionato con la valvola
+   originale e non rientra nel perimetro (circa 29.000 conf. sui due lotti).
+   ⚠ ESTENSIONE: la guarnizione e' stata sostituita con l'originale solo il 15/05 e alla rimozione
+   mancavano ~2 cm2 di materiale. Va valutato anche il prodotto dal 12 al 15/05 (L26132, L26133,
+   L26134): ispezione a campione rinforzata AQL 0,65 + ricostruzione dei frammenti recuperati.
+   Esito da riportare in NC-2026-097. NON ancora fatto al 14/05.
+
+
+
+--- tracciabilita_lotti_massbalance_L26130.xlsx ---
+TRACCIABILITÀ LOTTO L26130-L1-T2 - ricostruzione a monte
+compilato in emergenza il 14/05/2026 da S. Pozzato su richiesta di E. Marchetti - DA VERIFICARE
+
+
+Materia prima Fornitore Lotto fornitore DDT ingresso Data ingresso Qtà impiegata UM TMC Certificato Note
+Farina tipo 0 W300 Molino Veneto SpA MV26-0429/A 48392 04/05/2026 840 kg 04/11/2026 CoA agli atti
+Farina tipo 0 W300 Molino Veneto SpA MV26-0431/B 48392 04/05/2026 210 kg 06/11/2026 CoA agli atti coda bancale precedente
+Olio girasole alto oleico Oleificio Adriatico SpA OA-2604-118 5521 28/04/2026 96 kg 28/10/2026 CoA agli atti
+Semi misti tostati Chemifood/terzi SM-26-0088 3312 22/04/2026 38 kg 22/02/2027
+Lievito compresso Lievital Srl LV26-1180 9922 07/05/2026 21 kg 21/05/2026 consumato quasi a scadenza
+Sale marino fino - SL-25-4410 - 12/03/2026 14.5 kg 12/03/2028
+Film MAP PP/EVOH FLEXBAR 65 AZ Flexipack Nordest Srl FX26-0338 7741 30/04/2026 62 kg - DoC DC-2026-041 bobine n. 4 - usata anche su L26131
+Vaschetta PP 100 g Flexipack Nordest Srl FX26-0290 7741 30/04/2026 8600 pz - DoC DC-2026-041
+Azoto alimentare E941 Nordgas SpA NG-26-0506 BN-4471 06/05/2026 42 m3 - CoA gas serbatoio S2
+
+impasto totale teorico
+
+(S.P.) il lotto lievito LV26-1180 scadeva il 21/05, verificare se è stato usato anche il 11/05
+Destinazione del prodotto finito - lotti L26130 e L26131
+
+
+
+Lotto Cod. art. Pz prodotti DDT uscita Data Cliente Destinazione Pz spediti Stato Rintracciato
+L26130-L1-T2 AF-SN-0450 8940 2026/1188 11/05/2026 Tosano Cerea SpA CE.DI. Cerea (VR) 5100 A SCAFFALE parziale
+L26130-L1-T2 AF-SN-0450 2026/1191 11/05/2026 Alì SpA CE.DI. Padova 1440 BLOCCATO C/O CLIENTE sì
+L26130-L1-T2 AF-SN-0450 giacenza magazzino Aurora 1180 BLOCCATO QA sì
+L26130-L1-T2 AF-SN-0450 scarti di linea / campioni 220 DISTRUTTO sì
+L26131-L1-T2 AF-SN-0450 7620 2026/1204 12/05/2026 Tosano Cerea SpA CE.DI. Cerea (VR) 4260 A SCAFFALE parziale
+L26131-L1-T2 AF-SN-0450 2026/1206 12/05/2026 Rossetto Trade SpA CE.DI. Villafranca 980 RICHIAMATO sì
+L26131-L1-T2 AF-SN-0450 giacenza magazzino Aurora 2380 BLOCCATO QA sì
+Bilancio di massa - verifica di quadratura (requisito BRCGS cl. 3.9.2)
+
+
+
+Lotto Pz prodotti Pz spediti Pz in giacenza Pz distrutti Totale rendicontato Differenza Quadratura % Esito
+L26130-L1-T2 8940 1180 220
+L26131-L1-T2 7620 2380 0
+
+scostamento non spiegato su L26130:
+ipotesi: pz prelevati per il panel test del 11/05 e non registrati su MOD-MAG-02
+(E.M.) NON possiamo presentare un mass balance che non quadra all'audit. Ivano deve dirmi dove sono finiti.
+
+tempo di ricostruzione: 4 h 20 min
+target BRCGS: < 4 h
+Clienti da avvisare in caso di ritiro - contatti e stato della comunicazione
+
+
+
+Cliente Referente Ruolo Telefono Email Pz coinvolti Avvisato il Ora Esito contatto Note
+Tosano Cerea SpA dott.ssa Anna Perbellini Assicurazione Qualità 045 764 2210 qualita@tosanocerea.it 9360 14/05/2026 09:15 chiede relazione 48h ha già bloccato a sistema
+Tosano Cerea SpA Luca Vantini Ricevimento CE.DI. 045 764 2218 cedi.cerea@tosanocerea.it 9360 14/05/2026 09:40 informato
+Alì SpA dott. Fabio Meneghini Qualità 049 892 1140 qualita@alisupermercati.it 1440 14/05/2026 11:20 merce bloccata in cedi
+Rossetto Trade SpA Sandra Bortolotti Acquisti 045 630 8890 acquisti@rossettotrade.it 980 15/05/2026 08:05 richiamo autorizzato vuole nota di credito
+Famila Nordest - - 0 non coinvolto referenza diversa
+[FORMULA: A monte!F16 =SUMIF(G6:G11,"kg",F6:F11)]
+[FORMULA: Mass balance!C6 =5100+1440]
+[FORMULA: Mass balance!F6 =C6+D6+E6]
+[FORMULA: Mass balance!G6 =B6-F6]
+[FORMULA: Mass balance!H6 =F6/B6]
+[FORMULA: Mass balance!I6 =IF(ABS(G6)<=B6*0.01,"quadra","NON QUADRA")]
+[FORMULA: Mass balance!C7 =4260+980]
+[FORMULA: Mass balance!F7 =C7+D7+E7]
+[FORMULA: Mass balance!G7 =B7-F7]
+[FORMULA: Mass balance!H7 =F7/B7]
+[FORMULA: Mass balance!I7 =IF(ABS(G7)<=B7*0.01,"quadra","NON QUADRA")]
+[FORMULA: Mass balance!D9 =G6]

@@ -17,3 +17,19 @@
 # ⚠️ E LA SUA MISURA E' DIVERSA da quella di un lotto di canonizzazione: tre numeri
 # (quante guardate, quante corrette, tasso di difetto), niente capacita' 25-35, e resta
 # FUORI dalla serie della capacita' per E38.
+#
+# ⚠️ AGGIORNATO IL 24/08/2026, ALL'APERTURA DEL LOTTO 3E: R2 COPRE DUE DOMINI, NON UNO.
+# Il lotto 3E porta `PRO-QA-14` e la sua riconciliazione verticale sul dominio `ritiro`
+# riapre 35 note, contro una proiezione di 30-35 nuove: E37 scatta, e le riaperte escono
+# dal lotto di canonizzazione.
+# ⚠️ NON nasce un terzo lotto di manutenzione, ed e' una decisione misurata: 14 delle 35
+# note del dominio `ritiro` stanno GIA' nel perimetro di R2 (misura del 24/08/2026), e due
+# elenchi di manutenzione che si contendono le stesse quattordici note sarebbero due
+# padroni dello stesso lavoro. Le due procedure - PRO-QA-08 e PRO-QA-14 - sono le due meta'
+# dello stesso ciclo, e chi ripara l'una guarda l'altra.
+# ⚠️ IL PERIMETRO SI RIGENERA ALL'APERTURA, come gia' dichiarato, e da entrambi i domini:
+#     python candidate_r1.py --dominio reclami --lotto r2_reclami_verticale
+#     python candidate_r1.py --dominio ritiro  --lotto r2_reclami_verticale
+# La differenza rispetto alle 65 + 35 di partenza misura quanto 3D e 3E hanno gia' sanato,
+# e si dichiara in apertura di R2.
+# ⚠️ R2 viene DOPO la chiusura del tema 3, cioe' dopo 3F.

@@ -2142,3 +2142,59 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   nota sorella `doc-indicatori-reclami`, e li' e' rimasta** — l'ha presa il secondo giro. E39
   chiede tutte le altre occorrenze **dell'affermazione**, ed E42 di cercarle **nello stesso
   turno**: la ricerca e' stata fatta **dentro** la nota e non **fra** le note.
+- **2026-08-24** · ⛔ **IL CONTROLLO DI E43 SMETTE DI CERCARE LA FORMULA E COMINCIA A CERCARE
+  L'ASSENZA — e trova QUATTRO casi in flagranza, DUE dei quali FALSI** · gate del lotto 3D. Il
+  controllo cercava la **formula di attestazione** di E3 e non vedeva nessuna assenza scritta in
+  prosa: e' T161, la quinta E3. Adesso riconosce anche la **classe `assenza`** con la grammatica
+  che `qa_comune` definisce **una volta sola** e che il censimento di T142 usa per contare la
+  classe. ⚠️ **Al primo lancio: quattro ERRORI, tutti su note del lotto 3D nate lo stesso
+  giorno.** Due affermazioni erano **false** — «nessun documento dell'archivio conosce una
+  cadenza trimestrale» (la parola sta in **22 grezzi**, uno dei quali e' un grezzo dello stesso
+  lotto) e «un elenco che nessun altro documento dell'archivio compila» (quei nomi stanno in
+  **altri sedici**). ⚠️ **E3 pagato la sesta e la settima volta, dallo strumento nato per
+  prendere la quinta.** Tre correzioni soppressive, una attestazione con l'artefatto. **T169**
+  conta il pregresso: **25 note**, AVVISO per §4.35.
+- **2026-08-24** · ⚠️ **LA GRAMMATICA DELLA CLASSE `assenza` SI SPOSTA IN `qa_comune`, E LO
+  SPOSTAMENTO SI PROVA** · da quel giorno i chiamanti sono due — il censimento, che produce il
+  numero, e il controllo, che lo fa rispettare — e **due copie della stessa grammatica
+  divergerebbero in un mese**. ⚠️ **La prova che lo spostamento non ha riscritto niente e' una
+  misura, non una dichiarazione**: censimento eseguito **prima e dopo** sullo stesso vault, con
+  `--frasi`, uscite **identiche riga per riga** salvo l'ora.
+- **2026-08-24** · ⚠️ **L'ADEMPIMENTO UNA TANTUM DI E62: SEDICI OBBLIGHI DEL CANONE GUARDATI,
+  QUINDICI GIA' IN TABELLA, UNO SCOPERTO** · la terza gamba dell'organico (canone E8) chiedeva
+  al lotto della formazione sicurezza di tornare sul conto delle cinquanta persone, e **nessuna
+  riga della tabella lo diceva**: T144 non lo copre, perche' misura i due grezzi di 3B e non
+  conosce la gamba che il divieto 9-bis teneva fuori. **T168.** ⚠️ **Quindici su sedici erano
+  gia' a posto, ed e' il dato che rende E62 una regola e non un allarme**: il difetto non e'
+  sistematico, e' **intermittente** — cioe' quello che la diligenza non prende.
+- **2026-08-24** · ⚠️ **UNA RIGA T PUO' INVECCHIARE SENZA CHE NESSUNO SE NE ACCORGA** · T39
+  portava l'obbligo sui quasi-omografi Peruffo/Peruzzi dicendo «va scritta su tutte e tre»: nel
+  vault sono **quattro** dal lotto 3B e nel corpus **sei**. Riga aggiornata. ⚠️ **E62 impedisce
+  che un obbligo nasca senza riga; non impedisce che una riga resti indietro quando il canone
+  cresce**, ed e' la seconda malattia della stessa famiglia. La cura e' quella di §4.47 — la
+  copia si confronta col padrone — ma qui il confronto e' fra due prose, e l'ha fatto un
+  censimento a mano.
+- **2026-08-24** · ⛔ **IL LOTTO 3E SI SPEZZA IN DUE PRIMA DI SCRIVERE UNA RIGA, E IL TEMA 3 NON
+  CHIUDE PIU' CON LUI** · la conta dei fatti in apertura (E21) da' **62 fatti** sui due grezzi —
+  38 la procedura di ritiro, 24 la notifica ATS — e la proiezione supera **le quaranta note che
+  impongono lo spezzamento comunque** (E28). Nascono `lotto_03e_crisi_ritiro` e
+  `lotto_03f_controllo_pubblico_ats`, ed **e' 3F a chiudere il tema**. ⚠️ **Il prompt del gate
+  diceva che 3E era l'ultimo pacchetto**: e' stata la misura a cambiarlo, non una scelta di
+  comodo, ed e' la stessa disciplina di E53 — il dominio si verifica da script, mai sulla parola
+  di chi coordina.
+- **2026-08-24** · ⚠️ **E37 SCATTA ANCHE SU 3E, MA NON NASCE UN TERZO LOTTO DI MANUTENZIONE** ·
+  la verticale sul dominio `ritiro` riapre **35 note** contro una proiezione di 30-35 nuove, e le
+  riaperte escono dal lotto. ⚠️ **La decisione di mandarle a R2 invece che a un R3 e' MISURATA**:
+  **14 delle 35 stanno gia' nel perimetro di R2**, e due elenchi di manutenzione che si
+  contendono le stesse quattordici note sarebbero due padroni dello stesso lavoro. R2 si apre
+  con **due domini rigenerati**, `reclami` e `ritiro`.
+- **2026-08-24** · ⚠️ **UN ELENCO DI LOTTO SI RINOMINA COME SI RINOMINA UNA NOTA** ·
+  `lotto_03e_crisi_ispezioni` non contiene piu' le ispezioni, e il nome lo diceva ancora. E'
+  **E30 esteso applicato a un elenco invece che a una nota**: la superficie che si scrive per
+  prima e che nessuna rilettura tocca vale anche fuori dal vault.
+- **2026-08-24** · ⚠️ **DUE QUESTIONI NATE `conflitto` SONO DIVENTATE `atomica`, E LO SCHEMA HA
+  RAGIONE** · `type: conflitto` esige **due fonti diverse** (§7.3), e una contraddizione
+  **interna a un grezzo** ha una fonte sola: l'aritmetica del perimetro del blocco e i due orari
+  del confine sono divergenze del documento con se' stesso. Sono note `atomica` col prefisso
+  `fatto-`, come `fatto-perimetro-stimato-del-ritiro` del lotto 3D, **e lo slug si e' riscritto
+  con loro**.
