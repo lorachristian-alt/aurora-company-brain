@@ -86,10 +86,18 @@ cosa sola, ma decisiva:
   2 e' gia' ridisegnato in 2A / 2B / 2C.
 - Il piano vale circa 28-30 lotti, non 12. Se il conto che fai in
   apertura si discosta, e' un dato: si scrive nel rapporto.
-- La capacita' 25-35 e' PROVVISORIA e si rivede a dieci lotti chiusi.
-  Quando la si rivedra' si contano SOLO i lotti di canonizzazione: i
-  lotti di manutenzione non entrano nella serie (E38), perche' misurano
-  una grandezza diversa — riparazioni, non produzione.
+- La capacita' 25-35 e' stata RIVISTA a dieci lotti di canonizzazione
+  chiusi (gate di 3E, 24/08/2026; consuntivi nel rapporto del gate 3D,
+  §6) ed e' CONFERMATA come grandezza di PROGETTO: serve al taglio dei
+  pacchetti in apertura, e i tetti duri di E28 (30/40) restano le
+  soglie che spezzano — e hanno spezzato giusto, 3E compreso. Cio'
+  che i consuntivi mettono sotto vigilanza non e' il conteggio del
+  ciclo ma la densita' di difetto del GRUPPO POST-REVISIONE (E52:
+  piu' alta del ciclo in 3A, 3D e 3E) e la costanza dei TRE giri di
+  giudizio: se un lotto mostrasse che tre giri sistematicamente non
+  bastano, la domanda si riapre — sui giri, non sulle note. I lotti
+  di manutenzione restano fuori dalla serie (E38): misurano
+  riparazioni, non produzione.
 - Ogni volta che la matrice cambia si scrive una riga nel suo REGISTRO
   DELLE MODIFICHE, con la data e il perche'. Le stime vecchie restano
   BARRATE, non cancellate: il registro e' cronologia.
@@ -134,7 +142,14 @@ cosa sola, ma decisiva:
    ereditarlo, con un denominatore vero. Il caso residuo si dichiara
    col suo nome e NON si aggiusta: aggiungere una fonte per portare il
    tasso a zero significa truccare il numero che la misura esiste per
-   produrre. Poi applica la soglia doppia di E28:
+   produrre.
+   ESTESO AL GATE 3E: un lotto MONO-FONTE il cui unico grezzo e' la
+   fonte che governa il dominio produce uno 0,0 % STRUTTURALE — ogni
+   nota cita la fonte per costruzione, e nessuna puo' risultare
+   scoperta. Il punto si dichiara DEGENERE nella serie, col potere
+   discriminante nullo scritto accanto: il numero e' vero e non
+   insegna niente, e fingere che insegni sarebbe il contrario di
+   E46. Poi applica la soglia doppia di E28:
 
    - proiezione oltre il +25% del budget E oltre le 30 note ......
      si SPEZZA prima di scrivere;
@@ -227,7 +242,17 @@ cosa sola, ma decisiva:
      e fra il lotto e il vault. Prima del giudizio: rilettura del
      lotto contro le note che il vault gia' porta sullo stesso tema
      (quelle che citano le stesse entita' e gli stessi hub). Il
-     rapporto dichiara i confronti fatti, uno per uno;
+     rapporto dichiara i confronti fatti, uno per uno.
+     ESTESO AL GATE 3E, L'ACCOSTAMENTO PER EVENTO: se due fonti — del
+     lotto o gia' del vault — registrano lo STESSO EVENTO (stessa
+     data, stesso oggetto: un lotto produttivo, un fermo, una
+     consegna), il passo pre-giudizio le legge UNA DI FRONTE
+     ALL'ALTRA, riga per riga, e il rapporto dichiara l'accostamento.
+     Le grandezze condivise non bastano: in 3E il blocco del
+     perimetro e il mass balance CONCORDAVANO su tre numeri e
+     divergevano su giacenza, attribuzione e perimetro comunicato —
+     cinque righe B dallo stesso accostamento, trovate dal revisore,
+     terzo lotto di fila in cui la E2 vera la faceva lui;
    - E29, riconciliazione VERTICALE: chi tocca un punto critico, una
      taratura, una frequenza di verifica o una responsabilita' di
      processo APRE E CITA la fonte che lo PRESCRIVE — o dichiara
@@ -308,6 +333,16 @@ cosa sola, ma decisiva:
      fonti: si restringe al perimetro citato, o va in tabella di
      tracciamento. Quattordici casi verificati in 3C: dieci reggono,
      tutti con soggetto-documento;
+   - E64: IL RIMANDO NOMINA, NON ASSERISCE. Una frase di raccordo
+     verso un'altra nota non afferma nulla del contenuto di quella
+     nota ne' delle sue fonti: «la questione ha le sue fonti e sta
+     in [[x]]» regge, «[[x]] dice che...» no — un'affermazione sul
+     contenuto di un'altra nota e' verificabile solo dalle fonti di
+     QUELLA nota, cioe' da nessuna frase di questa. E' la specie di
+     E36 portata sul wikilink, e nasce dal buon proposito di tessere
+     il grafo: chi scrive sta collegando, non affermando, ma il
+     lettore e il giudice leggono un'affermazione. Il terzo giro di
+     3E l'ha nominata come E26 impone, da tre fette indipendenti;
    - E48, i due strati che l'estrattore congelato non vede: le FORMULE
      dei fogli di calcolo (1.697 celle nel corpus, tutte senza valore
      in cache) e il BARRATO dei documenti. La QA e il pacchetto del
@@ -368,6 +403,13 @@ cosa sola, ma decisiva:
      memoria — e la correzione dichiara l'esito della ricerca. Il
      caso: la cautela apposta a una nota di 3D non era arrivata a
      `doc-indicatori-reclami`, che ripeteva la stessa affermazione.
+     E GLI HUB SONO SUPERFICI DELLA RICERCA (seconda estensione,
+     gate 3E): quando una correzione toglie o qualifica
+     un'affermazione di uno spoke, le GLOSSE degli hub che lo
+     elencano si rileggono — l'appiglio e' il grafo: chi corregge
+     una nota apre gli hub che la linkano. Tre glosse di 3E
+     dicevano cio' che le correzioni avevano tolto dagli spoke, e
+     la clausola 4 di metodo_03 §7.1 le rende un ERRORE sull'hub.
      L'elenco e' esemplificativo e APERTO: chiuderlo ricreerebbe il
      difetto di E30, che era chiuso su due superfici. Una riga di
      tabella e una glossa di tre parole sono affermazioni di fatto
@@ -500,6 +542,15 @@ cosa sola, ma decisiva:
    due dentro una riconciliazione: aggiungere una fonte ha reso
    FALSE frasi che prima reggevano — compresa una che dichiarava
    l'assenza proprio di cio' che la fonte aggiunta contiene.
+   SECONDA ESTENSIONE (gate 3E), L'APPIGLIO DELLA FRASE NUOVA: ogni
+   correzione dichiara NEL PROPRIO TURNO la coppia frase nuova →
+   riscontro (fonte e locator), come una riga B porta il suo (E49).
+   Chi non puo' citare il riscontro non corregge: apre un rilievo.
+   Il criterio pre-registrato al gate 3B si e' avverato in 3E — tre
+   correzioni su tre giri hanno introdotto il difetto che stavano
+   chiudendo, ognuna presa dal giro dopo: la rete funziona, ma ogni
+   maglia costa un giro, e la regola che non si applicava da sola
+   ha ora il suo gesto.
 
 9. RE-QA, poi llms.txt rigenerato, poi `_index` e hub aggiornati.
 
@@ -684,8 +735,8 @@ STOP-LOSS E COSA NON FARE
 ---------------------------------------------------------------------
 ALLINEAMENTO DI QUESTO PROMPT
 ---------------------------------------------------------------------
-Allineato al: 2026-08-24, dopo il gate del lotto 3D.
-Ultimo emendamento recepito: E63.
+Allineato al: 2026-08-24, dopo il gate del lotto 3E.
+Ultimo emendamento recepito: E64.
 Scritto dal coordinatore: questo file e' l'istruzione DATA alla
 sessione, e una sessione non riscrive le proprie istruzioni.
 Recepiti rispetto alla versione precedente (ferma al gate S2, 19
@@ -722,16 +773,20 @@ collauda prima della misura · E60 la riconciliazione orizzontale ha
 l'artefatto d'apertura e il passo pre-giudizio · E61 una correzione e'
 una scrittura · E62 l'obbligo del canone verso un lotto futuro si
 specchia in tabella di tracciamento · E63 la copertura si verifica
-anche al contrario: il paragrafo prescrittivo senza nota si dichiara.
-E62-E63 nascono col gate di 3D: la prima sessione che usa questa
-versione li applica a metodo_03 e al registro PRIMA di aprire il
-lotto. Allo stesso gate sono ESTESI, senza numero nuovo, E30 (lo slug
-e' la terza intestazione), E39 (la ricerca fra le note), E59 (la
-meta' B a lotto chiuso) ed E61 (la rilettura all'indietro quando il
-perimetro si muove): le estensioni si applicano a metodo_03 DENTRO il
-testo dei rispettivi emendamenti, datate con l'occasione, e la riga
-di ciascuno nel registro prende la coda dell'estensione —
-`verifica_emendamenti.py` deve restare verde, e concorde a 63.
+anche al contrario: il paragrafo prescrittivo senza nota si dichiara
+· E64 il rimando nomina, non asserisce. E62-E63, con le estensioni
+di E30/E39/E59/E61 del gate 3D, sono GIA' in metodo_03 e nel
+registro. E64 nasce col gate di 3E: la prima sessione che usa questa
+versione lo applica a metodo_03 e al registro PRIMA di aprire il
+lotto. Allo stesso gate sono ESTESI, senza numero nuovo, E41 (il
+punto degenere del lotto mono-fonte), E39 (gli hub come superfici
+della ricerca, seconda estensione), E60 (l'accostamento per evento)
+ed E61 (la frase nuova porta il riscontro nel turno, seconda
+estensione), e la revisione della capacita' e' ESEGUITA (v. §2): le
+estensioni si applicano a metodo_03 DENTRO il testo dei rispettivi
+emendamenti, datate con l'occasione, e la riga di ciascuno nel
+registro prende la coda dell'estensione —
+`verifica_emendamenti.py` deve restare verde, e concorde a 64.
 CONTROLLO DI SCOSTAMENTO: confronta questa riga con l'ultima riga di
 `registro_emendamenti.md`. Se il registro e' piu' avanti, il prompt e'
 vecchio: dillo nel rapporto, non compensare a mano.
