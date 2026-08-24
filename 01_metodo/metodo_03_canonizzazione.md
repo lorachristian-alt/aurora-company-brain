@@ -1897,6 +1897,31 @@ secondo anello. Serve un controllo in più, altrimenti un hub che esiste ma che
 | `summary` è una frase sola, ≤ 250 caratteri | AVVISO |
 | Parole del corpo (frontmatter e `## Fonti` esclusi) per `type: atomica`: ≤ 300 OK, 301-350 avviso, > 350 errore | AVVISO / ERRORE |
 | Il nome del file rispetta `<prefisso>-<slug>.md` con un prefisso della tabella §4.1 | AVVISO |
+| Una nota che dichiara un'assenza **con la formula di attestazione** di E3 rimanda a un artefatto di ricerca **che esiste** in `06_operativo\ricerche_assenza\` (E43) | ERRORE dalle note nate dal **20/08/2026**, AVVISO col debito prima |
+| Una nota che dichiara un'assenza **fuori dalla formula** — riconosciuta dalla classe `assenza` — fa lo stesso (E43, esteso al gate del lotto 3D) | ERRORE dalle note nate dal **24/08/2026**, AVVISO col debito prima |
+
+⚠️ **LE DUE VIE CON CUI QUESTO CONTROLLO RICONOSCE UN'ASSENZA, e le superfici che restano
+fuori.** Il requisito è uno — chi dichiara un'assenza lascia l'artefatto della ricerca — e
+l'aggancio è doppio, perché **la superficie in cui un'assenza si nasconde è più larga della
+formula che la dichiara** (T161: un'assenza scritta dentro un elenco di «cosa servirebbe per
+chiuderla», che nessun controllo vedeva).
+
+| Via | Che cosa riconosce |
+|---|---|
+| **la formula di attestazione** di E3 | «assenza verificata», «verificato su tutto `sources\`» |
+| **la classe `assenza`** — quantificatore più termine di perimetro nella stessa finestra, in esistenziale negativo | «nessun documento dell'archivio riporta X», e ogni sua variante in prosa |
+
+⚠️ **La grammatica della classe è UNA SOLA e vive in `qa_comune`**, dove la leggono sia questo
+controllo sia `censimento_superlativi.py`, che con la stessa definizione conta la classe per la
+tabella di tracciamento. **Due copie della stessa grammatica divergerebbero in un mese**, e il
+giorno in cui divergessero il progetto conterebbe una classe e ne fermerebbe un'altra.
+
+| Superficie fuori | Perché |
+|---|---|
+| il **superlativo affermativo** sull'archivio | è la classe di **E57**, non questa: non è verificabile da nessuna procedura, e si restringe o va in tabella. **Le due classi non si sommano mai** |
+| un perimetro **ristretto per iscritto** — «in nessun altro documento di questo lotto» | il perimetro è dichiarato, e l'affermazione regge com'è |
+| l'**archivio cartaceo** di Aurora | è un'omonimia: un oggetto fisico dell'azienda, che col vault non c'entra |
+| le **note-strumento del progetto** (E20) | parlano degli attrezzi del progetto, non di Aurora: «nessuna nota sia irraggiungibile» non è un'assenza dichiarata sul corpus. È lo stesso perimetro che il censimento esclude |
 
 ### 7.4 `qa_copertura.py` — nessun file muto, nessun fatto senza padrone
 
@@ -2262,6 +2287,24 @@ note → suite QA → revisore indipendente → correzioni propagate → suite Q
      com'era e **afferma quello che il corpo cautela**. Nel lotto 1C, al terzo giro, **sei
      rilievi su sette stavano ancora lì**, e in cinque casi il corpo era corretto. Si rilegge
      **a ogni giro**, non una volta sola;
+   - ⚠️ **LO SLUG È LA TERZA INTESTAZIONE** (E30, esteso al gate del lotto 3D, 24/08/2026).
+     Il **nome del file** si scrive **prima del titolo**, ed è l'unica superficie della nota
+     che **nessuna rilettura del testo tocca**: `title`, `summary` e corpo si rileggono a ogni
+     giro, lo slug no. **La QA non lo legge come affermazione, e non deve**: un nome compresso
+     non ha grammatica, e un controllo che leggesse gli slug fabbricherebbe un rilievo su ogni
+     nota corretta. ⚠️ **Ma il giudice lo vede**, perché il nome della nota è la prima cosa che
+     il pacchetto gli mette davanti.
+
+     **Il gesto, ed è tutto qui**: a ogni correzione che tocca `title` o `summary` **si
+     verifica anche lo slug**; se afferma ciò che la correzione ha appena smentito, **la nota
+     si rinomina, coi wikilink aggiornati nello stesso turno** (E42). La rete resta doppia — il
+     gesto di chi corregge, e il giudice che quel nome lo legge per primo.
+
+     ⚠️ **Il caso**: nel lotto 3D il primo giro corresse titolo, summary e corpo di una nota che
+     affermava «rincorse **a voce**», dove la fonte dice soltanto «finora l'ho rincorsa io» e
+     nessun canale. **Al secondo giro lo stesso rilievo è tornato, e sul nome del file** —
+     `fatto-confezioni-vendute-rincorse-a-voce` — che nessuna delle tre correzioni aveva
+     sfiorato;
    - ⚠️ **LA CAUTELA SI PROPAGA** (E39). È la forma larga del difetto che E30 aveva chiuso su
      due superfici, e **E30 resta com'è: E39 lo estende, non lo sostituisce.** Quando una
      correzione appone una **qualificazione** a un'affermazione — «che cosa misuri il file non
@@ -2281,6 +2324,19 @@ note → suite QA → revisore indipendente → correzioni propagate → suite Q
      il pattern gli è passato accanto. Una riga di tabella e una glossa di tre parole sono
      affermazioni di fatto quanto il corpo.
 
+     ⚠️ **E LA RICERCA CORRE FRA LE NOTE, NON SOLO DENTRO** (E39, esteso al gate del lotto 3D,
+     24/08/2026). Il perimetro della ricerca è **il vault**, non la nota che il rilievo ha
+     davanti: le altre occorrenze dell'affermazione qualificata **si cercano con lo strumento
+     su tutte le note**, e la correzione **dichiara l'esito della ricerca**. E42 fissa il
+     *turno* del gesto, questa riga ne fissa il *perimetro*: sono due lacune diverse della
+     stessa regola, e nessuna delle due si vedeva dall'altra.
+
+     ⚠️ **Perché serve lo strumento e non la memoria**: la nota sorella che ripete la stessa
+     affermazione **non la trova chi sta correggendo**, che sta pensando al rilievo e ha
+     davanti una nota sola. Il caso è del lotto 3D — la cautela apposta a
+     `fatto-confezioni-vendute-rincorse-dalla-qualita` non è arrivata a `doc-indicatori-reclami`,
+     che portava la stessa affermazione, e **l'ha presa il giro dopo**.
+
      ⚠️ **E42 — LA PROPAGAZIONE SI FA NELLO STESSO TURNO DELLA QUALIFICAZIONE**, non a fine
      giro. E39 dice *che cosa* fare; non diceva *quando*, e «quando» non è ovvio: **chi
      corregge su rilievo sta pensando al rilievo, non alla nota intera.** Il caso che lo
@@ -2297,6 +2353,26 @@ note → suite QA → revisore indipendente → correzioni propagate → suite Q
      gli stessi hub** — e il rapporto dichiara i confronti fatti, uno per uno. **In 3B questo
      passo l'ha fatto il revisore al posto del ciclo, e ha prodotto sette delle otto
      divergenze scrivibili del lotto.**
+   - ⚠️ **E63 — LA COPERTURA SI VERIFICA ANCHE AL CONTRARIO.** I controlli di copertura partono
+     dalla **nota** e chiedono se ha una fonte (§7.4); questo parte dalla **fonte** e chiede se
+     ha una nota. Per ogni grezzo **prescrittivo** del lotto si scorre l'elenco dei **paragrafi
+     o punti numerati**, e ogni paragrafo **senza nessuna nota** si dichiara nel rapporto **col
+     suo motivo**: coperto da un'altra nota, nessun fatto da scrivere, fuori dal dominio del
+     lotto.
+
+     ⚠️ **E una DEFINIZIONE OPERATIVA non resta mai senza padrona.** «Che cosa è X», «quando X
+     si dice chiuso», «chi decide oltre quale soglia» sono i criteri con cui l'azienda risponde
+     a una domanda vera, e **un vault che tratta la domanda senza avere il criterio risponde
+     senza sapere**: non sbaglia un fatto, sbaglia il metro con cui si misura.
+
+     ⚠️ **La regola viene dai consuntivi, come la disciplina di E28 chiede — due lotti di
+     fila.** In **3B**, cinque righe di un registro senza nessuna nota; in **3D**, il §9 di
+     `PRO-QA-08`, che porta **la definizione di reclamo chiuso** — «risposta definitiva inviata,
+     azioni correttive attuate, verifica di efficacia pianificata» — e l'escalation oltre la
+     delega di spesa, in un paragrafo che nessuna nota copriva. ⚠️ **È il contrario della
+     sovra-atomizzazione**, che è la domanda che il passo 3 fa al revisore: le dodici note del
+     prescrittivo mappavano dodici paragrafi e reggevano ognuna una domanda vera. **Il difetto
+     stava in ciò che non c'era, e nessuna domanda sul troppo lo trova.**
 3. **Revisore indipendente, con il canone alla mano.** È una sessione diversa da quella
    che ha scritto le note. Classifica ogni rilievo:
 
@@ -2347,6 +2423,29 @@ note → suite QA → revisore indipendente → correzioni propagate → suite Q
    ⚠️ **Quattro presidi in fila non hanno fermato un numero che nessuna fonte enunciava**,
    perché ognuno ha creduto a quello prima: il conteggio **sembra** un atto di lettura e **è**
    un atto di inferenza.
+
+   ⚠️ **E62 — UN OBBLIGO DEL CANONE VERSO UN LOTTO FUTURO SI SPECCHIA IN TABELLA, NELLO STESSO
+   TURNO IN CUI SI SCRIVE.** Quando una riga B — o un gate — scrive nel canone un obbligo che
+   **un lotto futuro dovrà eseguire** («alla canonizzazione di 3D quella riga va aggiunta alla
+   nota»), **nello stesso turno** si apre la riga di tracciamento che porta l'obbligo esplicito.
+
+   ⚠️ **Il canone resta il padrone del contenuto; la tabella è l'INDICE che l'apertura legge.**
+   Non è una copia e non ne diventa una: la riga T non ripete la divergenza, dice **che cosa
+   quel lotto deve fare** e rimanda al canone per il resto. È la stessa forma di E37 — una riga
+   di tracciamento è una promessa, e una promessa serve solo se sta **dove passa chi apre il
+   lotto**.
+
+   ⚠️ **Il caso, ed è il rilievo più grave del lotto 3D.** La riga **D4**, scritta al gate di
+   3C, chiedeva a 3D di aggiungere una coppia di clausole a una nota già esistente. **Nessuna
+   riga T lo diceva**, l'apertura di 3D non poteva vederlo, e l'obbligo è stato preso **da
+   questo passo** — la revisione col canone — cioè **alla fine del ciclo invece che
+   all'inizio**, dall'unico strato che il canone ce l'ha.
+
+   ⚠️ **Né la QA né il giudizio potevano prenderlo, per costruzione**: la prima non legge il
+   canone, il secondo non lo riceve mai (E45) e giudica una nota contro **le sue** fonti, non
+   contro un obbligo scritto altrove. **Un obbligo del canone lo può verificare solo chi ha il
+   canone**, ed è la ragione per cui questo passo esiste — **ma un controllo che scatta soltanto
+   alla fine costa un ciclo intero**, e questo è ciò che E62 toglie.
 4. **Correzioni propagate.** Una correzione non si applica solo dove il revisore l'ha
    vista: si cerca lo stesso errore in tutte le note del lotto e nei lotti precedenti.
 5. **Suite QA di nuovo**, da capo — **e con essa lo strato di giudizio su ogni nota nuova o
@@ -2548,6 +2647,22 @@ note → suite QA → revisore indipendente → correzioni propagate → suite Q
    afferma su ciò che la fonte NON contiene ed è quindi la più facile da scrivere senza
    guardare.
 
+   ⚠️ **E VALE ANCHE ALL'INDIETRO, QUANDO È IL PERIMETRO A MUOVERSI** (E61, esteso al gate del
+   lotto 3D, 24/08/2026). Una correzione che **aggiunge o toglie una fonte** non aggiunge
+   soltanto una frase: **cambia il perimetro di verità della nota intera**, e le frasi che
+   c'erano prima vanno rilette **contro il perimetro nuovo**. **L'appiglio è meccanico e non
+   chiede giudizio: se la correzione tocca il blocco `Fonti`, la rilettura è dell'INTERA
+   NOTA**, non della sola frase nuova.
+
+   ⚠️ **Le frasi che cadono per prime sono quelle NEGATIVE**, e si capisce perché: «il termine
+   di 48 ore non è di nessuna delle fonti di questa nota» è vera finché il perimetro non si
+   muove, e **la fonte aggiunta lo contiene**. Tre casi in 3D, due dentro una riconciliazione di
+   E60, e uno dichiarava **l'assenza proprio di ciò che la fonte aggiunta porta**.
+
+   ⚠️ **Non è una rilettura a esito visto** (§4.43): è un **buco di perimetro della regola**,
+   mostrato in flagranza tre volte in un lotto solo. Il gate di 3B aveva lasciato scritto che a
+   E61 mancava un appiglio meccanico — **per questo verso ora c'è**.
+
    ⚠️ **Assorbe la vigilanza aperta al gate di 3B** (§6 del passaggio di consegne): il criterio
    pre-registrato chiedeva la ricomparsa al terzo giro del lotto successivo, ma le
    osservazioni erano **già due** quando fu scritto — 2B e 3B — e con due consuntivi il
@@ -2658,6 +2773,38 @@ note → suite QA → revisore indipendente → correzioni propagate → suite Q
    rapporto dichiara il suo esito **accanto** alla dichiarazione del dominio — espressione per
    espressione, non in totale: un dominio è buono o cattivo **per espressione**, e la somma
    nasconde esattamente l'espressione che sbaglia.
+
+   ⚠️ **LA PROVA HA DUE METÀ CHE NON SI SOMMANO, E LA SECONDA SI ESEGUE A LOTTO CHIUSO** (E59,
+   esteso al gate del lotto 3D, 24/08/2026).
+
+   | Prova | Che cosa misura | Quando si può fare |
+   |---|---|---|
+   | **A — la specificità** | quante note ogni espressione riconosce **in esclusiva**, e che quota dell'unione del dominio copre **da sola** | **sempre** |
+   | **B — dentro e fuori** | quante fra le riconosciute citano una fonte del dominio, e quante soltanto altre prescrittive | **solo se una fonte del dominio è già citata da qualche nota** |
+
+   ⚠️ **Quando il lotto porta LUI la fonte del dominio, la prova B è inapplicabile in
+   apertura**: nessuna nota può ancora citarla, la colonna «dentro» vale zero **per
+   costruzione**, e ogni espressione — anche la sigla del modulo che la procedura istituisce —
+   risulta generica. **Si dichiara inapplicabile e si esegue A LOTTO CHIUSO**, quando misura
+   qualcosa di reale, e **il rapporto ne dichiara l'esito accanto al tasso**. Costa un comando
+   alla chiusura; senza di lei la riserva scritta accanto al punto resterebbe **non scioglibile
+   per sempre**.
+
+   ⚠️ **E l'inapplicabilità non era il difetto peggiore, ed è la ragione per cui le due metà non
+   si sommano**: contare come «governata altrove» una nota che parla del dominio citando
+   un'altra prescrittiva **è il contrario del vero** — quella nota è **scoperta**, cioè
+   esattamente ciò che il tasso di E41 esiste per contare. La prova, applicata così, **avrebbe
+   respinto le espressioni giuste e lasciato passare le sbagliate**.
+
+   ⚠️ **Il consuntivo che la rende meccanica.** In 3D la prova A passò in apertura **nove
+   espressioni su nove**, e `campione reso` non riconosceva **nessuna** nota del vault — fatto
+   dichiarato invece che ignorato. A lotto chiuso la prova B passò **nove su nove**, e `campione
+   reso`, muta in apertura, riconosceva **cinque note, tutte e cinque citanti il dominio**.
+
+   ⚠️ **Un'espressione sospetta NON si scarica cambiando la soglia**: si scarica con
+   `--motivata`, che la registra **in chiaro nell'uscita**, e con **una ragione scritta nel
+   rapporto**. Spostare la soglia guardando l'esito è il trucco che E41 vieta, di un piano più
+   in là (§4.43).
 
    ⚠️ **Perché la cura non basta, ed è un dato e non un sospetto: TRE DICHIARAZIONI SU TRE
    SONO NATE SBAGLIATE.** 2B-bis troppo stretta, 3C troppo larga — e **3B troppo larga anche
@@ -2879,6 +3026,30 @@ c'era.
     con quali termini e su quale perimetro, è un fatto che lascia un file. **Un'attestazione
     non verificabile diventa così verificabile nella sua procedura**, che è il massimo
     ottenibile e basta a chiudere il difetto che è costato quattro volte.
+
+    ⚠️ **E IL CONTROLLO SMETTE DI CERCARE LA FORMULA E COMINCIA A CERCARE L'ASSENZA** (E43,
+    esteso al gate del lotto 3D, 24/08/2026). L'aggancio alla sola formula lasciava scoperta
+    ogni assenza scritta **in prosa**: `qa_frontmatter.py` riconosce adesso anche la **classe
+    `assenza`** — quantificatore più termine di perimetro, in esistenziale negativo — con la
+    grammatica che `qa_comune` definisce una volta sola e che il censimento della classe usa
+    per contarla. Le due vie e le superfici escluse stanno in §7.3.
+
+    ⚠️ **Il caso è E3 pagato per la QUINTA volta in sette lotti, e la sua forma è nuova**:
+    `questione-data-apertura-rec-2026-011` elencava fra le cose che sarebbero servite per
+    chiuderla «la mail automatica di notifica della segnalazione, **che l'archivio non
+    contiene**» — e l'archivio la contiene, ed è il primo grezzo del lotto 3D (T161). **Non
+    usava la formula**, quindi il controllo non poteva prenderla: la formula è il modo in cui
+    un'assenza si dichiara *quando si sa di dichiararla*.
+
+    ⚠️ **Il pregresso resta debito e non diventa rosso** (§4.35, come per E43 il 20/08 e per la
+    superficie dell'intestazione il 23/08): ERRORE per le note nate dal **24/08/2026**, AVVISO
+    dichiarato per le altre, e il conteggio del pregresso vive nella sua riga di tracciamento.
+
+    ⚠️ **Ed è un fix che AGGIUNGE agganci**, quindi porta il difetto piantato **nei due versi**
+    più il **non-scatto**: `qa\_collaudo\collaudo_assenza_fuori_formula.py`, dieci casi, che
+    chiama la via di produzione e non una copia della sua logica (§4.29). **Metà dei casi
+    provano che l'aggancio nuovo NON scatta dove non deve**, ed è la metà che decide se un
+    controllo sopravvive: un controllo che fa rumore viene disattivato.
 
 **Sulle date e sui metadati**
 13. **Mai la data di oggi come `data_fatto`.** Se non si sa quando, il campo si omette.

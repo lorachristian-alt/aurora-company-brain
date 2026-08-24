@@ -254,32 +254,107 @@ DIR_RICERCHE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__fi
 # programma, non si nasconde e non si spaccia per produzione corrente.
 NASCITA_E43 = date(2026, 8, 20)
 
+# ⚠️ IL CONTROLLO SMETTE DI CERCARE LA FORMULA E COMINCIA A CERCARE L'ASSENZA.
+# Gate del lotto 3D, 24/08/2026, e nasce da E3 pagato per la QUINTA volta in sette lotti.
+#
+# Il caso: `questione-data-apertura-rec-2026-011` elencava fra le cose che sarebbero servite
+# per chiuderla «la mail automatica di notifica della segnalazione, CHE L'ARCHIVIO NON
+# CONTIENE». L'archivio la contiene, ed e' il primo grezzo del lotto 3D. ⚠️ **Il controllo non
+# poteva prenderla**: quell'assenza non usa la formula di attestazione, e' dichiarata dentro un
+# elenco di «cosa servirebbe per chiuderla».
+#
+# ⚠️ LA SUPERFICIE IN CUI UN'ASSENZA SI NASCONDE E' PIU' LARGA DELLA FORMULA CHE LA DICHIARA,
+# ed e' la stessa scoperta che il gate del lotto 3B ha fatto sull'intestazione, un piano piu' in
+# la': un difetto che non e' una contraddizione non si trova rileggendo il codice — il codice e
+# il manuale concordavano — si trova facendo l'elenco delle superfici.
+#
+# ⚠️ CHE COSA CAMBIA, ESATTAMENTE: cambia l'AGGANCIO, non il requisito. Il requisito resta
+# quello di E43 — chi dichiara un'assenza lascia l'artefatto della ricerca — e adesso l'assenza
+# si riconosce per DUE vie che non si sostituiscono:
+#   1. la FORMULA di attestazione di E3 (`FORMULA_E3`), com'e' sempre stato;
+#   2. il RICONOSCITORE DELLA CLASSE `assenza` di `qa_comune` — quantificatore piu' termine di
+#      perimetro dentro la finestra, in esistenziale negativo — cioe' la stessa grammatica con
+#      cui `censimento_superlativi.py` conta la classe per T142. **Una definizione sola**: se
+#      il controllo ne avesse una propria, il progetto conterebbe una classe e ne fermerebbe
+#      un'altra.
+#
+# ⚠️ E UN CONTROLLO NUOVO NON PUO' RENDERE ROSSO IL PREGRESSO (§4.35, come per E43 il 20/08 e
+# come per la superficie dell'intestazione il 23/08). La seconda via vale IN AVANTI — ERRORE
+# per le note nate dal 24/08/2026 — e sul pregresso emette un AVVISO che dichiara il debito,
+# contato nella sua riga di tracciamento.
+NASCITA_ASSENZA_FUORI_FORMULA = date(2026, 8, 24)
 
-def controlla_artefatto_assenza(nota, rep):
-    """Chi dichiara un'assenza rimanda all'artefatto della ricerca, e l'artefatto esiste."""
-    if nota.type in ("index", "sessione", "daily"):
-        return
-    if not FORMULA_E3.search(nota.corpo):
-        return
+
+def _nata_dal(nota, quando):
+    """Vero se la nota e' nata quando la regola era gia' in vigore."""
     dn = (nota.fm or {}).get("data_nota")
     try:
-        nuova = datetime.strptime(str(dn), "%Y-%m-%d").date() >= NASCITA_E43
+        return datetime.strptime(str(dn), "%Y-%m-%d").date() >= quando
     except Exception:
-        nuova = isinstance(dn, date) and dn >= NASCITA_E43
-    segnala = rep.errore if nuova else rep.avviso
-    coda = "" if nuova else " — debito anteriore a E43, da sanare a fine corsa"
+        return isinstance(dn, date) and dn >= quando
+
+
+def _regime(nota, rep, quando, coda_debito):
+    """La coppia (come segnalare, con quale coda) per una regola nata in una data."""
+    nuova = _nata_dal(nota, quando)
+    return (rep.errore if nuova else rep.avviso), ("" if nuova else coda_debito)
+
+
+def controlla_artefatto_assenza(nota, rep):
+    """Chi dichiara un'assenza rimanda all'artefatto della ricerca, e l'artefatto esiste.
+
+    L'assenza si riconosce per due vie — la formula di attestazione di E3 e il riconoscitore
+    della classe `assenza` — e ognuna porta il proprio regime di data.
+    """
+    if nota.type in ("index", "sessione", "daily"):
+        return
+
+    con_formula = bool(FORMULA_E3.search(nota.corpo))
+    # ⚠️ LE NOTE-STRUMENTO DEL PROGETTO RESTANO FUORI DALLA SECONDA VIA (E20), e non e' una
+    # deroga: parlano degli attrezzi del progetto, non di Aurora, e «la promessa del vault e' che
+    # nessuna nota sia irraggiungibile» non e' un'assenza dichiarata sul corpus. E' lo stesso
+    # perimetro che `censimento_superlativi.py` esclude, e per la stessa ragione.
+    # La formula di E3, invece, resta controllata ovunque: se una nota la scrive, l'artefatto
+    # deve esserci comunque.
+    assenze = []
+    if not Q.e_nota_strumento(nota):
+        _superlativi, assenze, _omonimie = Q.occorrenze_di_perimetro(nota)
+    if not con_formula and not assenze:
+        return
 
     rimandi = RIMANDO_E3.findall(nota.corpo)
+
+    if con_formula:
+        segnala, coda = _regime(nota, rep, NASCITA_E43,
+                                " — debito anteriore a E43, da sanare a fine corsa")
+        se_manca = ("dichiara un'assenza con la formula di E3 ma non rimanda a un artefatto "
+                    "di ricerca in 06_operativo\\ricerche_assenza\\ (E43)%s" % coda)
+    else:
+        # ⚠️ L'assenza c'e' e la formula no: e' la superficie che il gate del lotto 3D ha
+        # aperto. Si cita la frase, perche' un rilievo su una forma va mostrato a chi lo legge.
+        segnala, coda = _regime(
+            nota, rep, NASCITA_ASSENZA_FUORI_FORMULA,
+            " — debito anteriore al riconoscitore della classe `assenza`, da sanare a "
+            "fine corsa")
+        dove, _q, _p, frase = assenze[0]
+        se_manca = ("dichiara un'assenza sull'archivio FUORI dalla formula di attestazione di "
+                    "E3, in `%s` («%s»), e non rimanda a nessun artefatto di ricerca "
+                    "in 06_operativo\\ricerche_assenza\\: si riscrive con la formula e la "
+                    "ricerca lascia il suo artefatto, oppure si restringe il perimetro "
+                    "(E3, E43)%s" % (dove, _taglia(frase), coda))
+
     if not rimandi:
-        segnala(nota.nome, CONTROLLO,
-                "dichiara un'assenza con la formula di E3 ma non rimanda a un artefatto "
-                "di ricerca in 06_operativo\\ricerche_assenza\\ (E43)%s" % coda)
+        segnala(nota.nome, CONTROLLO, se_manca)
         return
     for r in rimandi:
         if not os.path.isfile(os.path.join(DIR_RICERCHE, r)):
             segnala(nota.nome, CONTROLLO,
                     "rimanda all'artefatto di ricerca '%s', che non esiste in "
                     "06_operativo\\ricerche_assenza\\ (E43)%s" % (r, coda))
+
+
+def _taglia(frase, quante=140):
+    return frase if len(frase) <= quante else frase[:quante].rstrip() + "…"
 
 
 # ---- I FINE RIGA DEL VAULT ---------------------------------------------------------

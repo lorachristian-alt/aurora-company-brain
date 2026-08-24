@@ -13,7 +13,7 @@
 
 ## Riga di riepilogo per lo stato di sessione
 
-> suite QA · perimetro vault · **108 ERRORI, 344 AVVISI** · esito **ROSSO**
+> suite QA · perimetro vault · **108 ERRORI, 369 AVVISI** · esito **ROSSO**
 
 ---
 
@@ -50,7 +50,7 @@
 ## qa_frontmatter (perimetro: vault, 432 note)
 
 - ERRORI: **0**
-- AVVISI: **215**
+- AVVISI: **240**
 
 ### Avvisi
 
@@ -65,12 +65,14 @@
 | `fatto-allarmi-alta-temperatura-cf-02-aprile.md` |  | frontmatter | corpo di 346 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-allarmi-alta-temperatura-cf-02-aprile.md` |  | frontmatter | dichiara un'assenza con la formula di E3 ma non rimanda a un artefatto di ricerca in 06_operativo\ricerche_assenza\ (E43) — debito anteriore a E43, da sanare a fine corsa |
 | `fatto-allerta-rasff-2026-1467.md` |  | frontmatter | summary di 268 caratteri (tetto 250) |
+| `fatto-allerta-rasff-2026-1467.md` |  | frontmatter | dichiara un'assenza sull'archivio FUORI dalla formula di attestazione di E3, in `corpo` («nessun documento del corpus contiene l'avviso ministeriale citato»), e non rimanda a nessun artefatto di ricerca in 06_operativo\ricerche_assenza\: si riscrive con la formula e la ricerca lascia il suo artefatto, oppure si restringe il perimetro (E3, E43) — debito anteriore al riconoscitore della classe `assenza`, da sanare a fine corsa |
 | `fatto-allerta-registrata-come-non-applicabile.md` |  | frontmatter | summary di 295 caratteri (tetto 250) |
 | `fatto-anomalia-consumo-cf-02-maggio.md` |  | frontmatter | corpo di 348 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-appunti-in-coda-file-reflue.md` |  | frontmatter | corpo di 301 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-assistenza-esterna-24-04-cf-02.md` |  | frontmatter | corpo di 341 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-assistenza-esterna-24-04-cf-02.md` |  | frontmatter | dichiara un'assenza con la formula di E3 ma non rimanda a un artefatto di ricerca in 06_operativo\ricerche_assenza\ (E43) — debito anteriore a E43, da sanare a fine corsa |
 | `fatto-avvertenza-costruttore-guarnizioni-non-originali.md` |  | frontmatter | corpo di 315 parole: fra 301 e 350, si motiva o si spezza |
+| `fatto-blackout-21-04-riavvio-centraline.md` |  | frontmatter | dichiara un'assenza sull'archivio FUORI dalla formula di attestazione di E3, in `corpo` («quello del 23 aprile, e nessun documento in archivio mette i due fatti in relazione»), e non rimanda a nessun artefatto di ricerca in 06_operativo\ricerche_assenza\: si riscrive con la formula e la ricerca lascia il suo artefatto, oppure si restringe il perimetro (E3, E43) — debito anteriore al riconoscitore della classe `assenza`, da sanare a fine corsa |
 | `fatto-carica-in-salita-linea-1-aprile.md` |  | frontmatter | corpo di 336 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-cariche-f-gas-impianti-frigoriferi.md` |  | frontmatter | corpo di 346 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-catena-riferibilita-tarature-interne.md` |  | frontmatter | dichiara un'assenza con la formula di E3 ma non rimanda a un artefatto di ricerca in 06_operativo\ricerche_assenza\ (E43) — debito anteriore a E43, da sanare a fine corsa |
@@ -115,6 +117,7 @@
 | `fatto-lettura-mancante-registro-tamponi.md` |  | frontmatter | corpo di 305 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-listeria-scarico-pt-104-aprile.md` |  | frontmatter | corpo di 323 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-mani-addetto-farcitura-non-conforme.md` |  | frontmatter | corpo di 302 parole: fra 301 e 350, si motiva o si spezza |
+| `fatto-manutenzioni-rimandate-per-promo.md` |  | frontmatter | dichiara un'assenza sull'archivio FUORI dalla formula di attestazione di E3, in `corpo` («⚠️ **Nessun documento dell'archivio collega questi rinvii a un guasto specifico**, e questa»), e non rimanda a nessun artefatto di ricerca in 06_operativo\ricerche_assenza\: si riscrive con la formula e la ricerca lascia il suo artefatto, oppure si restringe il perimetro (E3, E43) — debito anteriore al riconoscitore della classe `assenza`, da sanare a fine corsa |
 | `fatto-medie-non-calcolate-file-reflue.md` |  | frontmatter | corpo di 350 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-microperdite-saldatura-l26130.md` |  | frontmatter | corpo di 328 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-muffe-l26128-45-giorni.md` |  | frontmatter | corpo di 319 parole: fra 301 e 350, si motiva o si spezza |
@@ -127,7 +130,9 @@
 | `fatto-nessuna-nc-per-allarmi-cf-02.md` |  | frontmatter | corpo di 343 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-obblighi-registro-f-gas.md` |  | frontmatter | corpo di 329 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-operatore-senza-formazione-haccp-l26130.md` |  | frontmatter | corpo di 332 parole: fra 301 e 350, si motiva o si spezza |
+| `fatto-operatore-senza-formazione-haccp-l26130.md` |  | frontmatter | dichiara un'assenza sull'archivio FUORI dalla formula di attestazione di E3, in `corpo` («nota mette quindi in fila due cose che nessun altro documento dell'archivio tiene insieme»), e non rimanda a nessun artefatto di ricerca in 06_operativo\ricerche_assenza\: si riscrive con la formula e la ricerca lascia il suo artefatto, oppure si restringe il perimetro (E3, E43) — debito anteriore al riconoscitore della classe `assenza`, da sanare a fine corsa |
 | `fatto-operatori-ccp3-linea1-maggio.md` |  | frontmatter | corpo di 334 parole: fra 301 e 350, si motiva o si spezza |
+| `fatto-operatori-ccp3-linea1-maggio.md` |  | frontmatter | dichiara un'assenza sull'archivio FUORI dalla formula di attestazione di E3, in `summary` («Quattro operatori si alternano sui tre turni di Linea 1 — Meggiolaro T1, Visentin T2, Ferrarin T3, Baraldo come sostituto — mentre due sigle…»), e non rimanda a nessun artefatto di ricerca in 06_operativo\ricerche_assenza\: si riscrive con la formula e la ricerca lascia il suo artefatto, oppure si restringe il perimetro (E3, E43) — debito anteriore al riconoscitore della classe `assenza`, da sanare a fine corsa |
 | `fatto-passaggi-barrati-scheda-allergeni.md` |  | frontmatter | corpo di 328 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-pc-sesamo-condizionato-al-prototipo.md` |  | frontmatter | summary di 269 caratteri (tetto 250) |
 | `fatto-perimetro-stimato-del-ritiro.md` |  | frontmatter | corpo di 315 parole: fra 301 e 350, si motiva o si spezza |
@@ -145,8 +150,10 @@
 | `fatto-rework-linea-1-sospeso.md` |  | frontmatter | summary di 288 caratteri (tetto 250) |
 | `fatto-ricambi-fuori-area-produzione-manuale-pkm.md` |  | frontmatter | dichiara un'assenza con la formula di E3 ma non rimanda a un artefatto di ricerca in 06_operativo\ricerche_assenza\ (E43) — debito anteriore a E43, da sanare a fine corsa |
 | `fatto-riepilogo-datalogger-inaffidabile.md` |  | frontmatter | corpo di 345 parole: fra 301 e 350, si motiva o si spezza |
+| `fatto-riepilogo-datalogger-inaffidabile.md` |  | frontmatter | dichiara un'assenza sull'archivio FUORI dalla formula di attestazione di E3, in `corpo` («⚠️ **Nessun documento dell'archivio spiega il fallimento»), e non rimanda a nessun artefatto di ricerca in 06_operativo\ricerche_assenza\: si riscrive con la formula e la ricerca lascia il suo artefatto, oppure si restringe il perimetro (E3, E43) — debito anteriore al riconoscitore della classe `assenza`, da sanare a fine corsa |
 | `fatto-riesame-straordinario-e-facolta-rsgq.md` |  | frontmatter | summary di 253 caratteri (tetto 250) |
 | `fatto-risalita-termica-post-riavvio-l26130.md` |  | frontmatter | corpo di 336 parole: fra 301 e 350, si motiva o si spezza |
+| `fatto-risalita-termica-post-riavvio-l26130.md` |  | frontmatter | dichiara un'assenza sull'archivio FUORI dalla formula di attestazione di E3, in `corpo` («⚠️ **Nessun documento dell'archivio commenta questa finestra**»), e non rimanda a nessun artefatto di ricerca in 06_operativo\ricerche_assenza\: si riscrive con la formula e la ricerca lascia il suo artefatto, oppure si restringe il perimetro (E3, E43) — debito anteriore al riconoscitore della classe `assenza`, da sanare a fine corsa |
 | `fatto-risorse-adeguate-con-riserva.md` |  | frontmatter | summary di 294 caratteri (tetto 250) |
 | `fatto-risposta-alla-consumatrice-13-05.md` |  | frontmatter | summary di 258 caratteri (tetto 250) |
 | `fatto-risposta-alla-consumatrice-13-05.md` |  | frontmatter | corpo di 318 parole: fra 301 e 350, si motiva o si spezza |
@@ -178,22 +185,33 @@
 | `fatto-verifica-metrologia-legale-bilance.md` |  | frontmatter | dichiara un'assenza con la formula di E3 ma non rimanda a un artefatto di ricerca in 06_operativo\ricerche_assenza\ (E43) — debito anteriore a E43, da sanare a fine corsa |
 | `fatto-verifiche-ccp3-turno-l26130.md` |  | frontmatter | corpo di 311 parole: fra 301 e 350, si motiva o si spezza |
 | `questione-arrivo-officina-fermo-pkm-450.md` |  | frontmatter | dichiara un'assenza con la formula di E3 ma non rimanda a un artefatto di ricerca in 06_operativo\ricerche_assenza\ (E43) — debito anteriore a E43, da sanare a fine corsa |
+| `questione-carrello-ricambi-dichiarato-rimosso.md` |  | frontmatter | dichiara un'assenza sull'archivio FUORI dalla formula di attestazione di E3, in `corpo` («⚠️ **Le due letture possibili sono entrambe compatibili con l'archivio, e nessun documento»), e non rimanda a nessun artefatto di ricerca in 06_operativo\ricerche_assenza\: si riscrive con la formula e la ricerca lascia il suo artefatto, oppure si restringe il perimetro (E3, E43) — debito anteriore al riconoscitore della classe `assenza`, da sanare a fine corsa |
 | `questione-cinquanta-o-cinquantadue-persone.md` |  | frontmatter | summary di 273 caratteri (tetto 250) |
 | `questione-clausola-della-nc1-in-due-versioni.md` |  | frontmatter | summary contiene piu' di una frase |
 | `questione-clausola-della-nc1-in-due-versioni.md` |  | frontmatter | corpo di 348 parole: fra 301 e 350, si motiva o si spezza |
+| `questione-codice-allarme-pkm-450.md` |  | frontmatter | dichiara un'assenza sull'archivio FUORI dalla formula di attestazione di E3, in `corpo` («- In alternativa, l'estrazione del registro allarmi dalla memoria della macchina, che nessun documento dell'archivio contiene»), e non rimanda a nessun artefatto di ricerca in 06_operativo\ricerche_assenza\: si riscrive con la formula e la ricerca lascia il suo artefatto, oppure si restringe il perimetro (E3, E43) — debito anteriore al riconoscitore della classe `assenza`, da sanare a fine corsa |
 | `questione-codice-ricambio-valvola-pkm-450.md` |  | frontmatter | dichiara un'assenza con la formula di E3 ma non rimanda a un artefatto di ricerca in 06_operativo\ricerche_assenza\ (E43) — debito anteriore a E43, da sanare a fine corsa |
+| `questione-consegna-farina-mv26-0429a.md` |  | frontmatter | dichiara un'assenza sull'archivio FUORI dalla formula di attestazione di E3, in `corpo` («Le letture possibili sono almeno due, e **nessun documento dell'archivio dice quale sia»), e non rimanda a nessun artefatto di ricerca in 06_operativo\ricerche_assenza\: si riscrive con la formula e la ricerca lascia il suo artefatto, oppure si restringe il perimetro (E3, E43) — debito anteriore al riconoscitore della classe `assenza`, da sanare a fine corsa |
+| `questione-convalida-md-1800-scaduta-o-valida.md` |  | frontmatter | dichiara un'assenza sull'archivio FUORI dalla formula di attestazione di E3, in `corpo` («- L'esito dei due solleciti della qualità, che nessun documento in archivio riporta»), e non rimanda a nessun artefatto di ricerca in 06_operativo\ricerche_assenza\: si riscrive con la formula e la ricerca lascia il suo artefatto, oppure si restringe il perimetro (E3, E43) — debito anteriore al riconoscitore della classe `assenza`, da sanare a fine corsa |
+| `questione-data-di-emissione-del-rapporto-di-audit.md` |  | frontmatter | dichiara un'assenza sull'archivio FUORI dalla formula di attestazione di E3, in `corpo` («⚠️ **Nessun documento del corpus dice se le due versioni coincidano.** Chi volesse verificarlo»), e non rimanda a nessun artefatto di ricerca in 06_operativo\ricerche_assenza\: si riscrive con la formula e la ricerca lascia il suo artefatto, oppure si restringe il perimetro (E3, E43) — debito anteriore al riconoscitore della classe `assenza`, da sanare a fine corsa |
 | `questione-due-registri-dei-tamponi.md` |  | frontmatter | summary di 254 caratteri (tetto 250) |
 | `questione-evidenze-del-02-04-nove-o-cinque.md` |  | frontmatter | summary di 273 caratteri (tetto 250) |
+| `questione-frequenza-tamponi-prescritta-e-reale.md` |  | frontmatter | dichiara un'assenza sull'archivio FUORI dalla formula di attestazione di E3, in `corpo` («L'attenuazione «**di norma**» apre uno spazio che nessun documento dell'archivio riempie»), e non rimanda a nessun artefatto di ricerca in 06_operativo\ricerche_assenza\: si riscrive con la formula e la ricerca lascia il suo artefatto, oppure si restringe il perimetro (E3, E43) — debito anteriore al riconoscitore della classe `assenza`, da sanare a fine corsa |
 | `questione-frequenza-verifica-lavaocchi-cip.md` |  | frontmatter | summary di 261 caratteri (tetto 250) |
 | `questione-listeria-24-02-non-nel-registro-tamponi.md` |  | frontmatter | summary contiene piu' di una frase |
+| `questione-manutentore-frigo-berica-scaligera.md` |  | frontmatter | dichiara un'assenza sull'archivio FUORI dalla formula di attestazione di E3, in `corpo` («nessun altro documento la identifica così»), e non rimanda a nessun artefatto di ricerca in 06_operativo\ricerche_assenza\: si riscrive con la formula e la ricerca lascia il suo artefatto, oppure si restringe il perimetro (E3, E43) — debito anteriore al riconoscitore della classe `assenza`, da sanare a fine corsa |
 | `questione-materiale-guarnizione-pkm-450.md` |  | frontmatter | dichiara un'assenza con la formula di E3 ma non rimanda a un artefatto di ricerca in 06_operativo\ricerche_assenza\ (E43) — debito anteriore a E43, da sanare a fine corsa |
 | `questione-mock-recall-due-ore-o-quattro.md` |  | frontmatter | summary di 290 caratteri (tetto 250) |
 | `questione-ore-formazione-due-valori-per-il-2025.md` |  | frontmatter | summary di 361 caratteri (tetto 250) |
 | `questione-ore-formazione-due-valori-per-il-2025.md` |  | frontmatter | summary contiene piu' di una frase |
 | `questione-prodotto-acido-cip-an-15-o-acidfood-25.md` |  | frontmatter | summary di 272 caratteri (tetto 250) |
+| `questione-prodotto-acido-cip-an-15-o-acidfood-25.md` |  | frontmatter | dichiara un'assenza sull'archivio FUORI dalla formula di attestazione di E3, in `corpo` («Nessun documento dell'archivio dichiara una sostituzione, e la scheda non porta la dicitura»), e non rimanda a nessun artefatto di ricerca in 06_operativo\ricerche_assenza\: si riscrive con la formula e la ricerca lascia il suo artefatto, oppure si restringe il perimetro (E3, E43) — debito anteriore al riconoscitore della classe `assenza`, da sanare a fine corsa |
 | `questione-quando-l-ente-torna-a-verificare.md` |  | frontmatter | summary di 270 caratteri (tetto 250) |
 | `questione-rework-congelamento-slide-e-scheda.md` |  | frontmatter | summary di 266 caratteri (tetto 250) |
 | `questione-sessioni-allergeni-2026-non-a-registro.md` |  | frontmatter | summary di 251 caratteri (tetto 250) |
+| `questione-sigla-kit-tasselli-ccp3.md` |  | frontmatter | dichiara un'assenza sull'archivio FUORI dalla formula di attestazione di E3, in `corpo` («nessun documento in archivio la porta»), e non rimanda a nessun artefatto di ricerca in 06_operativo\ricerche_assenza\: si riscrive con la formula e la ricerca lascia il suo artefatto, oppure si restringe il perimetro (E3, E43) — debito anteriore al riconoscitore della classe `assenza`, da sanare a fine corsa |
+| `questione-taratura-termoregistratore-cf-02.md` |  | frontmatter | dichiara un'assenza sull'archivio FUORI dalla formula di attestazione di E3, in `corpo` («della cella, che in archivio non ha nessun documento»), e non rimanda a nessun artefatto di ricerca in 06_operativo\ricerche_assenza\: si riscrive con la formula e la ricerca lascia il suo artefatto, oppure si restringe il perimetro (E3, E43) — debito anteriore al riconoscitore della classe `assenza`, da sanare a fine corsa |
+| `questione-tassello-inox-non-passato.md` |  | frontmatter | dichiara un'assenza sull'archivio FUORI dalla formula di attestazione di E3, in `corpo` («Le due letture possibili sono entrambe compatibili con l'archivio e nessun documento»), e non rimanda a nessun artefatto di ricerca in 06_operativo\ricerche_assenza\: si riscrive con la formula e la ricerca lascia il suo artefatto, oppure si restringe il perimetro (E3, E43) — debito anteriore al riconoscitore della classe `assenza`, da sanare a fine corsa |
 | `questione-tre-o-quattro-neoassunti-senza-formazione.md` |  | frontmatter | corpo di 338 parole: fra 301 e 350, si motiva o si spezza |
 | `questione-validazione-ccp2-mai-confermata.md` |  | frontmatter | corpo di 316 parole: fra 301 e 350, si motiva o si spezza |
 | `questione-validazione-ccp2-mai-confermata.md` |  | frontmatter | dichiara un'assenza con la formula di E3 ma non rimanda a un artefatto di ricerca in 06_operativo\ricerche_assenza\ (E43) — debito anteriore a E43, da sanare a fine corsa |
@@ -203,6 +221,7 @@
 | `fatto-misura-frammento-rec-2026-011.md` |  | frontmatter | corpo di 326 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-richiesta-relazione-48-ore.md` |  | frontmatter | corpo di 345 parole: fra 301 e 350, si motiva o si spezza |
 | `progetto-gestione-reclamo-rec-2026-011.md` |  | frontmatter | summary di 254 caratteri (tetto 250) |
+| `questione-data-apertura-rec-2026-011.md` |  | frontmatter | dichiara un'assenza sull'archivio FUORI dalla formula di attestazione di E3, in `corpo` («dell'evento anziché quella della registrazione** — ma nessun documento dell'archivio lo»), e non rimanda a nessun artefatto di ricerca in 06_operativo\ricerche_assenza\: si riscrive con la formula e la ricerca lascia il suo artefatto, oppure si restringe il perimetro (E3, E43) — debito anteriore al riconoscitore della classe `assenza`, da sanare a fine corsa |
 | `doc-autocontrollo-scarico-s1.md` |  | frontmatter | corpo di 346 parole: fra 301 e 350, si motiva o si spezza |
 | `doc-campione-reso.md` |  | frontmatter | summary di 254 caratteri (tetto 250) |
 | `doc-ciclo-cip-interrotto.md` |  | frontmatter | summary di 263 caratteri (tetto 250) |
@@ -225,12 +244,14 @@
 | `doc-registrazioni-cip.md` |  | frontmatter | summary di 279 caratteri (tetto 250) |
 | `doc-registrazioni-cip.md` |  | frontmatter | dichiara un'assenza con la formula di E3 ma non rimanda a un artefatto di ricerca in 06_operativo\ricerche_assenza\ (E43) — debito anteriore a E43, da sanare a fine corsa |
 | `doc-sds-detergente-acido-cip.md` |  | frontmatter | corpo di 320 parole: fra 301 e 350, si motiva o si spezza |
+| `doc-sds-detergente-acido-cip.md` |  | frontmatter | dichiara un'assenza sull'archivio FUORI dalla formula di attestazione di E3, in `corpo` («archivio**, e nessuna nota può dichiarare che cosa vi fosse scritto»), e non rimanda a nessun artefatto di ricerca in 06_operativo\ricerche_assenza\: si riscrive con la formula e la ricerca lascia il suo artefatto, oppure si restringe il perimetro (E3, E43) — debito anteriore al riconoscitore della classe `assenza`, da sanare a fine corsa |
 | `doc-sequenze-produzione-allergeni.md` |  | frontmatter | summary di 272 caratteri (tetto 250) |
 | `doc-stoccaggio-segregato-allergeni.md` |  | frontmatter | summary di 271 caratteri (tetto 250) |
 | `doc-verifiche-immediate-reclamo.md` |  | frontmatter | summary di 263 caratteri (tetto 250) |
 | `entita-chemifood-italia.md` |  | frontmatter | summary di 266 caratteri (tetto 250) |
 | `entita-federica-sartori.md` |  | frontmatter | summary di 255 caratteri (tetto 250) |
 | `entita-icea.md` |  | frontmatter | summary contiene piu' di una frase |
+| `entita-veneta-energia.md` |  | frontmatter | dichiara un'assenza sull'archivio FUORI dalla formula di attestazione di E3, in `corpo` («nessun documento dell'archivio la descrive oltre il nome»), e non rimanda a nessun artefatto di ricerca in 06_operativo\ricerche_assenza\: si riscrive con la formula e la ricerca lascia il suo artefatto, oppure si restringe il perimetro (E3, E43) — debito anteriore al riconoscitore della classe `assenza`, da sanare a fine corsa |
 | `concetto-cip.md` |  | frontmatter | summary di 258 caratteri (tetto 250) |
 | `kpi-conducibilita-acqua-per-punto.md` |  | frontmatter | corpo di 322 parole: fra 301 e 350, si motiva o si spezza |
 | `kpi-consumi-energia-maggio-2026.md` |  | frontmatter | corpo di 317 parole: fra 301 e 350, si motiva o si spezza |
@@ -240,6 +261,7 @@
 | `kpi-incremento-energia-maggio-su-aprile.md` |  | frontmatter | dichiara un'assenza con la formula di E3 ma non rimanda a un artefatto di ricerca in 06_operativo\ricerche_assenza\ (E43) — debito anteriore a E43, da sanare a fine corsa |
 | `kpi-manutenzioni-arretrate-2026.md` |  | frontmatter | corpo di 344 parole: fra 301 e 350, si motiva o si spezza |
 | `kpi-mass-balance-l26130.md` |  | frontmatter | corpo di 332 parole: fra 301 e 350, si motiva o si spezza |
+| `kpi-mass-balance-l26130.md` |  | frontmatter | dichiara un'assenza sull'archivio FUORI dalla formula di attestazione di E3, in `corpo` («**Nessun documento dell'archivio conferma l'ipotesi.**»), e non rimanda a nessun artefatto di ricerca in 06_operativo\ricerche_assenza\: si riscrive con la formula e la ricerca lascia il suo artefatto, oppure si restringe il perimetro (E3, E43) — debito anteriore al riconoscitore della classe `assenza`, da sanare a fine corsa |
 | `kpi-metano-forni-maggio-2026.md` |  | frontmatter | dichiara un'assenza con la formula di E3 ma non rimanda a un artefatto di ricerca in 06_operativo\ricerche_assenza\ (E43) — debito anteriore a E43, da sanare a fine corsa |
 | `kpi-obiettivi-politica-2026.md` |  | frontmatter | summary di 300 caratteri (tetto 250) |
 | `kpi-obiettivi-politica-2026.md` |  | frontmatter | summary contiene piu' di una frase |
@@ -255,8 +277,11 @@
 | `kpi-temperatura-uscita-tunnel-ts-01-aprile.md` |  | frontmatter | corpo di 320 parole: fra 301 e 350, si motiva o si spezza |
 | `kpi-temperatura-uscita-tunnel-ts-01-aprile.md` |  | frontmatter | dichiara un'assenza con la formula di E3 ma non rimanda a un artefatto di ricerca in 06_operativo\ricerche_assenza\ (E43) — debito anteriore a E43, da sanare a fine corsa |
 | `questione-classe-del-reclamo-rec-2026-011.md` |  | frontmatter | summary di 257 caratteri (tetto 250) |
+| `questione-classe-del-reclamo-rec-2026-011.md` |  | frontmatter | dichiara un'assenza sull'archivio FUORI dalla formula di attestazione di E3, in `corpo` («Nessun documento dell'archivio»), e non rimanda a nessun artefatto di ricerca in 06_operativo\ricerche_assenza\: si riscrive con la formula e la ricerca lascia il suo artefatto, oppure si restringe il perimetro (E3, E43) — debito anteriore al riconoscitore della classe `assenza`, da sanare a fine corsa |
 | `questione-costo-energia-elettrica.md` |  | frontmatter | dichiara un'assenza con la formula di E3 ma non rimanda a un artefatto di ricerca in 06_operativo\ricerche_assenza\ (E43) — debito anteriore a E43, da sanare a fine corsa |
+| `questione-limite-o2-residuo.md` |  | frontmatter | dichiara un'assenza sull'archivio FUORI dalla formula di attestazione di E3, in `corpo` («nessun documento dell'archivio dichiara quale prevalga né come si concilino»), e non rimanda a nessun artefatto di ricerca in 06_operativo\ricerche_assenza\: si riscrive con la formula e la ricerca lascia il suo artefatto, oppure si restringe il perimetro (E3, E43) — debito anteriore al riconoscitore della classe `assenza`, da sanare a fine corsa |
 | `questione-ora-di-arrivo-della-segnalazione.md` |  | frontmatter | summary di 258 caratteri (tetto 250) |
+| `questione-pezzi-prodotti-l26130.md` |  | frontmatter | dichiara un'assenza sull'archivio FUORI dalla formula di attestazione di E3, in `corpo` («**Nessun documento in archivio dichiara il perimetro dell'uno o dell'altro**»), e non rimanda a nessun artefatto di ricerca in 06_operativo\ricerche_assenza\: si riscrive con la formula e la ricerca lascia il suo artefatto, oppure si restringe il perimetro (E3, E43) — debito anteriore al riconoscitore della classe `assenza`, da sanare a fine corsa |
 | `questione-reclami-per-confezioni-o-per-pezzi.md` |  | frontmatter | summary di 267 caratteri (tetto 250) |
 | `questione-riesame-trimestrale-haccp.md` |  | frontmatter | summary di 251 caratteri (tetto 250) |
 | `script-candidate-r1.md` |  | frontmatter | corpo di 338 parole: fra 301 e 350, si motiva o si spezza |
