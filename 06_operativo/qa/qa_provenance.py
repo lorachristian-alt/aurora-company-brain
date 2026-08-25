@@ -528,9 +528,14 @@ def pacchetto_giudizio(note, dove):
     r.append("\n\n" + "=" * 70)
     r.append("TESTO ESTRATTO DELLE FONTI CITATE")
     r.append("=" * 70)
+    # E10, SECONDO DELIMITATORE (lotto 3F, 24/08/2026). La forma «--- <nome> ---»
+    # COMPARE DENTRO I GREZZI — la notifica ATS ne porta due — e chi ritaglia il
+    # pacchetto la leggeva come inizio di un'altra fonte, troncando quella vera a 638
+    # caratteri su 13.186. Il delimitatore delle fonti prende quindi la stessa forma di
+    # quello delle note: un prefisso che in un grezzo non si scrive.
     for f in sorted(set(usate)):
         t = EC.testo_cantiere(f)
-        r.append("\n--- %s ---" % f)
+        r.append("\n>>>>> FONTE: %s" % f)
         r.append(t if t.strip() else "(nessun testo estraibile: e' un'immagine, riscontro visivo)")
     p = os.path.join(dove, "pacchetto_giudizio_provenance.txt")
     with io.open(p, "w", encoding="utf-8") as fh:

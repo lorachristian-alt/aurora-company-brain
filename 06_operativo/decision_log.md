@@ -2264,3 +2264,90 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   ricerca del nome giusto**. Il repository e' stato scandito per intero: **gli unici altri byte
   di controllo stanno nei `pacchetto_giudizio_*.txt`**, dove vengono dall'estrazione dei grezzi e
   sono il verbale di cio' che il giudice ha ricevuto — **non si toccano**.
+- **2026-08-24** · S4 lotto 3F · ⛔ **IL DELIMITATORE DELLE FONTI DEL PACCHETTO DI GIUDIZIO NON
+  POTEVA COMPARIRE DENTRO UN GREZZO, E CI COMPARIVA** · `qa_provenance` separava le fonti con
+  `--- <nome> ---` e `taglia_pacchetto` le rileggeva con quella forma; la notifica ATS del lotto
+  3F ne porta **due nel proprio testo**, e la fonte principale del lotto arrivava al giudice
+  **troncata a 638 caratteri su 13.186**, con le due mail interne **assenti da due fette su
+  tre**. ⚠️ **La guardia dichiarava tutte e tre le fette «complete»**: verificava che
+  l'appendice contenesse qualcosa, non che portasse la fonte intera. ⚠️ **E' E10 sul SECONDO
+  delimitatore**: il commento di `pacchetto_giudizio` spiegava gia' la stessa cosa per le note, e
+  la medicina non era stata applicata alle fonti. **Riparato SUBITO** (un controllo bacato e' un
+  guasto, non un candidato): il delimitatore diventa `>>>>> FONTE: <nome>`, la guardia confronta
+  i caratteri, e il difetto e' piantato in `collaudo_taglio_fonti.py` — cinque casi, due difetti
+  piantati, una premessa. ⚠️ **Nessun pregresso**: il corpus ha due soli grezzi con quella
+  forma, e il secondo (`budget_2026_vs_consuntivo_per_linea.xlsx`) e' del tema 6, non ancora
+  canonizzato.
+- **2026-08-24** · S4 lotto 3F · ⚠️ **IL DOMINIO `cip` PERDE DUE ESPRESSIONI, RESPINTE DALLA
+  PROVA B DI E59** · `pulizi` con quota fuori **0,57** e `\bigien` con **0,71**: riconoscevano in
+  maggioranza note che altre fonti prescrittive governano — `\bigien` ne prendeva quattordici e
+  **una sola** citava il dominio. ⚠️ **Il dominio nacque al lotto 2A, PRIMA che E56 ed E59
+  esistessero**, e le due parole generiche stavano li' da allora. ⚠️ **Il punto 2A della serie
+  — 3,3 % — NON si rimisura**: la serie fotografa le misure come sono state prese.
+- **2026-08-24** · S4 lotto 3F · ⚠️ **LA DICHIARAZIONE DEGENERE DI E41 ESTESO NON SI SCRIVE SU
+  3F, E IL CONDIZIONALE E' CIO' CHE L'HA IMPEDITO** · il prompt del gate diceva «3F e' mono-fonte
+  come 3E, e la dichiarazione degenere si scrive in apertura **se il conto la conferma**». Il
+  conto non la conferma: E41 esteso dichiara degenere un lotto mono-fonte **il cui unico grezzo
+  E' la fonte che governa il dominio**, e la notifica ATS **non e' una fonte prescrittiva del
+  corpus**. ⚠️ **E' il corollario del gate 3E applicato a una regola invece che a una
+  pianificazione**: scritta all'indicativo avrebbe prodotto una dichiarazione falsa in apertura.
+- **2026-08-25** · S4 lotto 3F, chiusura · ⚠️ **IL TASSO DI 3F E' 8,3 % SU 36, E I TRE CASI
+  RESIDUI SONO TUTTI ENUMERAZIONI** *(misura delle 09:16 del 25/08)* · nessuna delle tre note
+  afferma qualcosa sul lavaggio CIP: la prima trascrive l'elenco dei quattordici documenti
+  dell'autorita', la seconda elenca i titoli dei preparativi, la terza riporta il motivo di una
+  ripetizione di analisi. ⚠️ **NON si aggiustano** (E41): aggiungere `IO-05` per portare il
+  tasso a zero sarebbe il trucco che la regola vieta. ⚠️ **Candidato emendamento per il gate**:
+  `testo_della_nota` esclude gia' il blocco `Fonti`, ma **un elenco e una citazione contano come
+  «la nota parla del dominio» quanto un'affermazione** — e su un lotto che canonizza un atto
+  pubblico, cioe' un documento fatto di elenchi, la specie e' sistematica: tre casi su tre.
+- **2026-08-24** · S4 lotto 3F · ⚠️ **LA QA NON HA ESENZIONE PER UNA DATA DERIVATA, SOLO PER UN
+  NUMERO** · `RE_DERIVATO` vale per `genere == "numero"`; una data ottenuta da «Domani mattina»
+  piu' la data della mail non ha esenzione, e la nota ha dovuto **togliere la data dal corpo**,
+  con lo slug rinominato di conseguenza (E30 esteso, wikilink nello stesso turno). ⚠️ **La via
+  d'uscita facile — scrivere la data in lettere — passa il controllo e dice la stessa cosa: non
+  e' stata presa**, ed e' il motivo per cui il punto va al gate. **Candidato emendamento**: E50
+  dice che il numero contato e' un derivato, e una data inferita e' esattamente quello.
+- **2026-08-25** · S4 lotto 3F, chiusura · ⛔ **UNA DIVERGENZA VERA NON ENTRA IN VAULT: LA SUA
+  SECONDA GAMBA E' IL GREZZO DI UN LOTTO FUTURO** · il verbale prescrive il ripristino della
+  pavimentazione entro il **08/08/2026** e il titolare dichiara a verbale che i lavori saranno
+  anticipati «alla chiusura estiva di agosto»; `comunicazione_chiusura_estiva_2026.txt` fissa
+  quella chiusura dal **17 agosto**, nove giorni dopo il termine. ⚠️ **Quel file e' di
+  `lotto_07_persone`**, e a fermare la nota e' stato `verifica_matrice_lotti.py` con *GIA'
+  COPERTO — in `lotto_07_persone` ma gia' citato da una nota*: la QA era verde, le fonti c'erano,
+  la nota era corretta. ⚠️ **La regola esisteva dal 19/08** — *la terza gamba di una questione
+  si TRACCIA, non si usa, se il suo grezzo appartiene a un lotto futuro* (lotto 1B, T18 e T39) —
+  **e nessuno strato di questo lotto l'ha richiamata**: non la scrittura, non il giudizio (che
+  confronta la nota contro le fonti che la nota dichiara), non la revisione, che la divergenza
+  l'ha prodotta. **La questione e' diventata un fatto sulla sola gamba che a 3F compete** —
+  `fatto-il-titolare-promette-i-lavori-alla-chiusura-estiva` — e la divergenza vive a **T184**
+  con l'obbligo esplicito per il lotto 07.
+- **2026-08-25** · S4 lotto 3F, chiusura · ⛔ **`conta_perimetro_lotto.py` DAVA «NOTE NATE: 0»
+  SU DUE LOTTI, E NESSUNO SE N'ERA ACCORTO** · lo strumento divide il perimetro leggendo due
+  stringhe nei commenti dell'elenco delle note, e la seconda e' **`note NATE in questo lotto`**;
+  l'elenco di 3E scriveva «note NATE nel lotto» e 3F ne aveva copiato l'intestazione, quindi il
+  parser non cambiava mai sezione e **tutto finiva in «toccate»**. ⚠️ **Il rapporto di 3E non
+  se n'era accorto perche' aveva composto i suoi numeri a mano da altre fonti**, che e'
+  esattamente cio' che l'intestazione dello strumento vieta: *si incolla VERBATIM, i numeri del
+  perimetro non si ricompongono a mano*. ⚠️ **Riparati i DATI, non lo strumento**: i due
+  elenchi si allineano alla stringa dichiarata — gli altri undici la portavano gia' — e 3E si
+  riconta ora a **37 nate, 12 toccate, 49 controllate**. Cambiare il parser perche' accetti due
+  forme sarebbe stato **allargare** un controllo, e la disciplina del gate 1A ammette solo fix
+  che aggiungono agganci.
+- **2026-08-25** · S4 lotto 3F, chiusura · ⛔ **E26 HA CHIESTO IL PATTERN, E IL PATTERN E' IL
+  PERIMETRO DELL'AFFERMAZIONE** · il terzo giro ha prodotto ancora rilievi accolti (10 → 5 → 4),
+  quindi il lotto si chiude solo dopo averne nominato la classe. **Sei affermazioni, sei
+  perimetri diversi, nessuna dentro il perimetro delle proprie fonti**: un primato sull'archivio,
+  un'assenza sull'archivio, una regola generale importata, un nesso causale non dichiarato, e due
+  estensioni su un elenco della fonte. ⚠️ **E47 governa la prima specie, E3/E43 la seconda, E57
+  classifica l'ultima — e la classe che le contiene non ha regola**, quindi ogni emendamento le
+  chiude una porta e lei entra dall'altra. **Forma proposta al gate**: *un'affermazione vale nel
+  perimetro delle fonti che la nota cita, e per uscirne serve un artefatto o un rimando*.
+  ⚠️ **Le due specie senza porta — regola importata e nesso causale — sono anche le due che
+  nessun controllo deterministico puo' vedere**: non hanno numeri, superlativi o negazioni.
+- **2026-08-25** · S4 lotto 3F, chiusura · ⚠️ **IL TETTO DI PAROLE HA IMPOSTO UNO SPEZZAMENTO,
+  E LO SPEZZAMENTO ERA GIUSTO** · la divergenza sui costi era entrata come gamba dentro la nota
+  del sopralluogo interno, e il corpo saliva a **403 parole** contro un tetto di 350: errore di
+  QA. ⚠️ **Il tetto non chiedeva di tagliare, chiedeva di dividere** — e divisa, la gamba si
+  e' rivelata una divergenza a se', con due fonti proprie e un `type: conflitto` che regge
+  (`questione-la-stima-e-il-preventivo`, poi cresciuta a tre gambe col §5 del verbale). **La
+  nota nuova non e' un ripiego del budget: e' cio' che il budget ha fatto vedere.**

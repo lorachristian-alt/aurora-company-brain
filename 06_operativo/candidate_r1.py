@@ -140,10 +140,19 @@ DOMINI = {
             "IO-05_istruzione_operativa_lavaggio_CIP.docx",
             "scheda_sicurezza_detergente_acido_lavaggio_CIP.txt",
         },
+        # ⚠️ RESPINTE DALLA PROVA B DI E59, al lotto 3F (24/08/2026): `pulizi` con quota
+        # fuori **0,57** e `\bigien` con quota fuori **0,71**. Riconoscevano in maggioranza
+        # note che ALTRE fonti prescrittive governano — `\bigien` ne prendeva quattordici e
+        # una sola citava il dominio. Sono parole comuni, non marcatori di dominio, ed e'
+        # la stessa specie del 38,7 % di 3C e del 63,6 % di 3B al primo taglio.
+        #
+        # ⚠️ Il dominio `cip` nacque al lotto 2A, PRIMA che E56 ed E59 esistessero, e il suo
+        # punto della serie — **3,3 %** — NON si rimisura: la serie fotografa le misure come
+        # sono state prese (§4.45). Da qui in avanti vale la dichiarazione collaudata.
         "espressioni": [
             r"\bCIP\b", r"\bCIP-?01\b", r"lavagg", r"sanific", r"detergent", r"risciacqu",
             r"conducibilit", r"\bsoda\b", r"caustic", r"acido nitric", r"\bPAA\b",
-            r"peracetic", r"disinfez", r"pulizi", r"tampon[ei] superfic", r"\bigien",
+            r"peracetic", r"disinfez", r"tampon[ei] superfic",
         ],
         "cosa": "lavaggio CIP, sanificazione, conducibilita' e prodotti chimici di lavaggio",
     },

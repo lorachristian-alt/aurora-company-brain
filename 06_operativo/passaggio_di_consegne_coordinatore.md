@@ -75,7 +75,7 @@ crea regole: spiega come si sono applicate.
 
 ---
 
-## 3. Dove siamo (24/08/2026, sera — dopo il GATE del lotto 3E)
+## 3. Dove siamo (25/08/2026, mattina — dopo la CHIUSURA del lotto 3F e del TEMA 3)
 
 - **Corpus v1 congelato**: 160 file, manifest SHA-256 v1.1. Intoccabile.
 - **Baseline misurate sul grezzo**, stesse 282 domande:
@@ -84,43 +84,44 @@ crea regole: spiega come si sono applicate.
   numeri **non si citano mai separati**.
 - **Config C congelata** (`d36d7ce`, impronta `afb58939…`): intoccabile fino a fine S6.
 
-### Canonizzazione: UNDICI lotti di canonizzazione chiusi, e il tema 3 chiude con `3F`
+### Canonizzazione: DODICI lotti di canonizzazione chiusi, e il TEMA 3 È CHIUSO
 
 ⚠️ **Questo numero non si conta: si INCOLLA**, da `verifica_matrice_lotti.py`. **Vale anche per
 il coordinatore.**
 
 ```
-lotti chiusi: 12
-   di cui di canonizzazione ... 11 (lotto_01a_linea1_turno_ccp, lotto_01b_freddo_energia,
+lotti chiusi: 13
+   di cui di canonizzazione ... 12 (lotto_01a_linea1_turno_ccp, lotto_01b_freddo_energia,
                                     lotto_01c_metrologia_gas, lotto_02a_cip,
                                     lotto_02b_autocontrollo_analitico, lotto_02b_bis_allergeni,
                                     lotto_03a_riesame_direzione, lotto_03b_politica_formazione,
                                     lotto_03c_certificazione_audit, lotto_03d_reclami,
-                                    lotto_03e_crisi_ritiro)
+                                    lotto_03e_crisi_ritiro, lotto_03f_controllo_pubblico_ats)
    di cui di manutenzione ..... 1 (r1_riconciliazione_verticale)
-   elenchi ancora aperti ...... 20
+   elenchi ancora aperti ...... 19
    FUORI dal conteggio: la fetta pilota (22 grezzi), anteriore alla matrice e
                         senza marcatore `# CHIUSO`. Canonizzata in S2.
 ```
 
-⚠️ **I «20 elenchi aperti» comprendono i pacchetti di giudizio** (`giudizio_*`), che portano zero
-grezzi: **i lotti veri ancora aperti sono dodici**, `3F` compreso, più **`R2`**.
+⚠️ **I «19 elenchi aperti» comprendono i pacchetti di giudizio** (`giudizio_*`), che portano zero
+grezzi: **i lotti veri ancora aperti sono undici**, più **`R2`**.
 
-⛔ **IL TEMA 3 CHIUDE CON `3F`, NON CON `3E`, E LO DICE LA MATRICE.** La conta dei fatti in
-apertura (E21) ha dato **62 fatti** sui due grezzi del pacchetto, sopra il tetto delle quaranta
-note che impone lo spezzamento **comunque** (E28). ⚠️ **Il prompt del gate diceva che 3E era
-l'ultimo pacchetto: a cambiarlo è stata la misura**, e il gate di 3E ne ha tratto **§4.50** — una
-pianificazione scritta in un prompt porta il condizionale della misura.
+✅ **IL TEMA 3 È CHIUSO, e lo ha chiuso `3F`.** Sei lotti, tredici grezzi: `3A` riesame della
+direzione (2), `3B` politica e formazione (2), `3C` certificazione e audit (4), `3D` reclami
+(3), `3E` crisi e ritiro (1), `3F` controllo pubblico ATS (1). ⚠️ **Il tema era stato
+ripacchettato in cinque ed è finito in sei**: a cambiarlo è stata la conta dei fatti in
+apertura di 3E — 62 sui due grezzi, sopra il tetto dei quaranta di E28 — e il gate di 3E ne ha
+tratto **§4.50**: una pianificazione scritta in un prompt porta il condizionale della misura.
 
 ⚠️ **R2 copre DUE domini**, `reclami` e `ritiro`, e la decisione è misurata: E37 è scattato anche
 su 3E (35 riaperte contro 30-35 nuove), e **14 delle 35 stavano già nel perimetro di R2**. **R2
-si apre dopo `3F`**, col perimetro rigenerato da entrambi i domini — e **senza `\bPRO-QA-11\b`
+è il PROSSIMO ATTO dopo il gate di 3F**, col perimetro rigenerato da entrambi i domini — e **senza `\bPRO-QA-11\b`
 fra le espressioni del dominio `ritiro`**, salvo prova nuova (recepimento del gate, scritto in
 testa all'elenco di R2).
 
-**55 grezzi su 160, ne restano 105.**
+**56 grezzi su 160, ne restano 104.**
 
-### La serie dei due tassi (E41/E46): NOVE punti
+### La serie dei due tassi (E41/E46): DIECI punti
 
 | Lotto | Dominio | Difetto di produzione |
 |---|---|---|
@@ -133,6 +134,7 @@ testa all'elenco di R2).
 | 3B | `formazione` | **36,4 %** su 22 — con riserva |
 | 3D | `reclami` | **20,0 %** su 35 — primo punto collaudato, **riserva SCIOLTA al gate** |
 | **3E** | **`ritiro`** | **0,0 %** su 30 — ⚠️ **DEGENERE: lotto mono-fonte sulla fonte del dominio** |
+| **3F** | **`cip`** | **8,3 %** su 36 — ⚠️ **tre casi residui, tutti enumerazioni**, dichiarati e non aggiustati |
 
 ⚠️ **Il punto di 3E ENTRA nella serie, e porta la dicitura accanto — è E41 esteso al gate.** Il
 lotto ha **un grezzo solo**, e quel grezzo **è la fonte del dominio**: ogni nota nata lo cita per
@@ -141,18 +143,44 @@ discriminante è nullo.** Entra perché la serie fotografa **le misure come sono
 (stessa disciplina del 38,7 % di 3C); porta la dicitura perché **uno `0,0 %` nudo si legge come
 un successo del metodo**, e lì il metodo non è stato messo alla prova.
 
-⚠️ **E `3F` è mono-fonte anche lui**: la dichiarazione degenere si scrive **in apertura**, se il
-conto la conferma.
+✅ **E su `3F` la dichiarazione degenere NON si è scritta, perché il conto non la conferma.**
+3F è mono-fonte, ma E41 esteso dichiara degenere il lotto mono-fonte **il cui unico grezzo è la
+fonte che governa il dominio** — e la notifica ATS **non è una fonte prescrittiva del corpus**
+(`elenco_fonti_prescrittive.py`). ⚠️ **È §4.50 applicato a una REGOLA invece che a una
+pianificazione**: il condizionale del prompt del gate è ciò che ha impedito una dichiarazione
+falsa in apertura.
+
+⚠️ **Il dominio `cip` è stato ristretto prima di misurare**: `pulizi` e `\bigien` sono state
+respinte dalla prova B di E59 (quota fuori 0,57 e 0,71). **Il punto 2A — 3,3 % — NON si
+rimisura**: la serie fotografa le misure come sono state prese.
 
 ⚠️ **Questa tabella è il PADRONE della serie.** La copia che viveva in `metodo_03` §9.5 si era
 fermata a **tre punti su nove** ed è stata tolta al gate di 3E: il manuale porta **la forma** del
 punto, i punti stanno qui. È la seconda malattia della famiglia di **T39** — l'indice che resta
 indietro.
 
-### Il metodo: 64 emendamenti, e nessun candidato in sospeso
+### Il metodo: 64 emendamenti, e CINQUE voci che aspettano il gate di 3F
 
-⚠️ **Il gate del lotto 3E ha prodotto E64 e quattro estensioni**, tutte applicate nello stesso
-turno in cui sono state scritte:
+⛔ **IL LOTTO 3F NON HA PRODOTTO EMENDAMENTI, MA LASCIA CINQUE VOCI STRUTTURALI** — §10 del
+suo rapporto, e per §4 del prompt dei lotti vanno lette PRIMA di approvare:
+
+| | Voce | Stato |
+|---|---|---|
+| **1** | **il secondo delimitatore**: E10 protegge quello dei grezzi, non quello delle fonti dentro il pacchetto di giudizio | ✅ **riparato in corsa**, difetto piantato in `collaudo_taglio_fonti.py` |
+| **2** | **la data derivata**: `RE_DERIVATO` esenta solo `genere == "numero"`, mai una data | ⚠️ dichiarato, **non riparato** — tocca lo strato deterministico |
+| **3** | **il superlativo sull'elenco**: E57 classifica, non obbliga a contare | ⚠️ candidato, **tre occorrenze in un lotto solo** |
+| **4** | **l'unità della misura dei due tassi**: enumerare vale quanto affermare | ⚠️ candidato, **tre casi residui su tre** |
+| **5** | ⛔ **il perimetro dell'affermazione**: E47, E3/E43 ed E57 governano tre specie, e la classe che le contiene non ha regola | ⛔ **candidato, ed è il pattern che E26 ha imposto di nominare al terzo giro** |
+
+⚠️ **La 5 contiene la 3.** Sei affermazioni del terzo giro stanno fuori dal perimetro delle
+proprie fonti: un primato sull'archivio, un'assenza sull'archivio, una regola generale
+importata, un nesso causale non dichiarato, due estensioni su un elenco. **Forma proposta**:
+*un'affermazione vale nel perimetro delle fonti che la nota cita, e per uscirne serve un
+artefatto o un rimando*. ⚠️ **Il gate può accogliere la 3 e lasciare aperta la 5, non il
+contrario.**
+
+⚠️ **Il gate del lotto 3E aveva prodotto E64 e quattro estensioni**, tutte applicate nello
+stesso turno in cui sono state scritte:
 
 | | |
 |---|---|
@@ -172,45 +200,50 @@ ripeterebbe l'errore che E31 ha già corretto. ⚠️ **La domanda vera era «ch
 rischio, le note o i giri?», e la risposta è che non sono le note**: tre giri in **sette** lotti su
 dieci. Si guardano ora **la densità del gruppo post-revisione** e **la costanza dei tre giri**.
 
-### I conteggi, incollati da `conta_stato.py` (24/08/2026 alle 21:28)
+### I conteggi, incollati da `conta_stato.py` (25/08/2026 alle 09:21)
 
-<!-- CONTEGGI DEL VAULT — generati da `06_operativo\qa\conta_stato.py` il 2026-08-24.
+<!-- CONTEGGI DEL VAULT — generati da `06_operativo\qa\conta_stato.py` il 2026-08-25.
      Si incollano VERBATIM: non si ricompongono a mano, non si riscrivono in prosa. -->
 
 | Grandezza | Valore |
 |---|---|
-| Note nel vault | **470** |
+| Note nel vault | **507** |
 | di cui `_index` | 11 |
 | di cui note-strumento del progetto | 15 |
-| di cui note di diario (`sessione`, `daily`) | 12 |
-| **di cui note di contenuto** | **432** |
-| Note per cartella | areas 257 · docs 67 · data 55 · entities 32 · projects 17 · code 16 · workspace 15 · concepts 7 · self 2 · outputs 1 · sources 1 |
-| Note per `type` | atomica 336 · conflitto 67 · entita 24 · hub 14 · sessione 12 · index 11 · concetto 6 |
-| Questioni aperte (`type: conflitto`) | 67 |
+| di cui note di diario (`sessione`, `daily`) | 13 |
+| **di cui note di contenuto** | **468** |
+| Note per cartella | areas 285 · docs 71 · data 56 · entities 34 · projects 18 · code 16 · workspace 16 · concepts 7 · self 2 · outputs 1 · sources 1 |
+| Note per `type` | atomica 363 · conflitto 73 · entita 26 · hub 15 · sessione 13 · index 11 · concetto 6 |
+| Questioni aperte (`type: conflitto`) | 73 |
 | Grezzi in `sources\` | 160 |
-| Grezzi citati da almeno una nota | **55** |
-| Grezzi restanti | **105** |
+| Grezzi citati da almeno una nota | **56** |
+| Grezzi restanti | **104** |
 
-⚠️ **Sono identici a quelli delle 15:16, e non per copia: il gate non ha toccato nessuna nota**,
-verificato sul vault (zero file modificati dopo le 15:19) e rimisurato alle 21:28.
+⚠️ **Il lotto 3F si è lavorato il 24/08 e si è chiuso il mattino del 25**: il marcatore
+dell'elenco porta la data del lavoro, **le misure portano la data e l'ora in cui sono state
+prese**, che è l'unica cosa che E44 chiede. ⚠️ **Il vault è cresciuto di 37 note e di un
+grezzo citato**: 470 → 507, 55 → 56.
 
 ### Le altre misure di chiusura, ognuna con la sua ora (E44)
 
 | Misura | Valore | Quando |
 |---|---|---|
-| **Emendamenti** | registro e manuale **concordano a 64** | 21:27 |
-| **Copie di stato** | **4 su 4** concordi col padrone — **nessuna nuova introdotta dal gate** | 21:27 |
-| **Matrice** | completa e disgiunta — **160 grezzi, 33 elenchi**, guasti 0 | 21:27 |
-| **lotti chiusi** | **12** — 11 di canonizzazione + 1 di manutenzione, pilota escluso | 21:27 |
-| **Tracciamento** | **175 righe**, da T1 a T175 — 7 riconciliate · 88 aperte dichiarate · 22 chiuse · 58 tracciate | 21:28 |
-| **Vault** | **470 note**, di cui **432 di contenuto** · **55/160** grezzi | 21:28 |
-| **Collaudi** | **11 su 11** · `collaudo_suite` **18 difetti su 18 e 9 non-scatto su 9**, su tutte e cinque le vie | 21:29 |
-| **QA a perimetro vault** | **107 ERRORI, 426 avvisi** — di cui 105 grezzi non canonizzati, 2 aree senza hub, **0 rilievi di merito** | ⚠️ **15:17, chiusura del lotto 3E** |
+⚠️ **Tutte del 25/08/2026**, il mattino dopo la lavorazione.
 
-⚠️ **L'ultima riga porta l'ora delle 15:17 e non quella del gate, ed è deliberato**: il gate non
-ha toccato il vault, quindi **la misura del vault che ha diritto di essere dichiarata è quella
-del lotto**. ⚠️ **E rilanciarla avrebbe sovrascritto il report che documenta la chiusura di 3E**,
-che è l'artefatto a cui i numeri del rapporto di lotto rimandano.
+| Misura | Valore | Quando |
+|---|---|---|
+| **Emendamenti** | registro e manuale **concordano a 64** | 09:20 |
+| **Copie di stato** | **ogni copia concorda col suo padrone** | 09:29 |
+| **Matrice** | completa e disgiunta — **160 grezzi, 33 elenchi**, guasti 0 | 09:19 |
+| **lotti chiusi** | **13** — 12 di canonizzazione + 1 di manutenzione, pilota escluso | 09:19 |
+| **Tracciamento** | **186 righe**, da T1 a T186 — 7 riconciliate · 95 aperte dichiarate · 23 chiuse · 61 tracciate | 09:20 |
+| **Perimetro del lotto 3F** | **36 nate + 11 toccate = 47 controllate**, QA **0 errori, 44 avvisi** | 09:21 |
+| **Vault** | **507 note**, di cui **468 di contenuto** · **56/160** grezzi | 09:21 |
+| **Collaudi** | **12 su 12** · `collaudo_suite` **18 difetti su 18 e 9 non-scatto su 9**, su tutte e cinque le vie | 09:28 |
+| **QA a perimetro vault** | **106 ERRORI, 444 avvisi** — gli errori sono i **104 grezzi non canonizzati** più 2 aree senza hub, **0 rilievi di merito** | 09:29 |
+
+⚠️ **Il dodicesimo collaudo è nuovo**: `collaudo_taglio_fonti.py`, nato dal guasto del
+delimitatore riparato durante il lotto — cinque casi, **due difetti piantati** e una premessa.
 
 ### ⛔ IL 425 NON È MAI ESISTITO — un confronto riconciliato dal gate
 
@@ -240,19 +273,28 @@ lotto non aveva mosso il vault, e il lotto lo ha mosso di cinquantasette** — �
 | ⛔ **Cinque righe B da un accostamento solo** | Il perimetro del blocco contro il mass balance dello stesso pomeriggio: **T171-T175**. ⚠️ **Il vault aveva entrambe le gambe da agosto**, ed è **il terzo lotto di fila** in cui la E2 vera l'ha fatta il revisore — da cui **E60 esteso** |
 | ✅ **Il gate di 3E** | **E64** e **quattro estensioni**; **la capacità confermata**; il **425 riconciliato**; **due refusi riparati** (due puntatori a un file che non esiste, uno dei quali era un byte di controllo dentro un documento) |
 | ⚠️ **Due criteri pre-registrati chiusi in due giorni senza aspettare l'esperimento** | E61 il 23/08, E64 il 24/08. **In entrambi i casi le osservazioni erano già plurime quando il criterio fu scritto**, quindi non è §4.43. ⚠️ **Ma è la seconda volta di fila**, e vale la pena guardarla: un criterio pre-registrato che viene chiuso al gate successivo per «osservazioni già sufficienti» è un criterio che **non andava scritto in quella forma** |
+| ✅ **Il lotto 3F, e il TEMA 3 CHIUSO** | **36 note nate, 11 toccate, 47 controllate**, QA **0 errori**; **undici righe nuove**, T176-T186, e **T51 chiusa**. **Nessun emendamento nuovo** |
+| ⛔ **Un guasto della suite trovato PRIMA di giudicare, non dopo** | Il delimitatore delle fonti del pacchetto di giudizio compariva **dentro il grezzo**: la fonte principale arrivava al giudice **troncata a 638 caratteri su 13.186**, e la guardia diceva «completa». **E10 sul secondo delimitatore.** Riparato in corsa, con difetto piantato — e il pacchetto rifatto **ha cambiato il verdetto** |
+| ⛔ **Una divergenza vera NON è entrata in vault** | La sua seconda gamba è il grezzo di `lotto_07_persone`: **divieto 9-bis**, si traccia invece di usarla — **T184**. ⚠️ **A fermarla è stato `verifica_matrice_lotti.py`, non una lettura**: la QA era verde e la nota era corretta. ⚠️ **La regola aveva sei giorni** (lotto 1B, T18 e T39) **e nessuno strato l'ha richiamata** |
+| ⛔ **E26 ha chiesto il pattern, al terzo giro** | **Il perimetro dell'affermazione eccede il perimetro delle fonti**: sei occorrenze, sei specie — primato sull'archivio, assenza sull'archivio, regola generale importata, nesso causale, due estensioni su un elenco. **E47, E3/E43 ed E57 ne governano tre; la classe non ha regola** |
+| ⚠️ **Uno strumento che dava zero, e due lotti che non se n'erano accorti** | `conta_perimetro_lotto.py` dichiarava «note nate: 0» su 3E e 3F, perché i due elenchi scrivevano il separatore in una forma che il parser non cerca. ⚠️ **3E non se n'era accorto perché aveva composto i numeri a mano**, che è esattamente ciò che l'intestazione dello strumento vieta. **Riparati i dati, non lo strumento** |
 
-### PROSSIMO ATTO: il lotto `3F` — il controllo pubblico ATS
+### PROSSIMO ATTO: il GATE del lotto `3F`, che chiude anche il tema 3
 
-**Un grezzo**, `notifica_ATS_ispezione_programmata_igiene.txt`, **24 fatti** contati in apertura
-di 3E. **Chiude il tema 3**, e il rapporto dichiara il quadro del tema: i lotti che lo hanno
-composto, la serie dei tassi coi domini e le riserve, il debito residuo in tabella.
+Il rapporto è `06_operativo\rapporto_lotto_03f.md`, undici sezioni. ⚠️ **Per §4 del
+prompt dei lotti va letto PRIMA di approvare**, perché porta **cinque voci strutturali** (§10):
+il delimitatore riparato, la data derivata senza esenzione, il superlativo sull'elenco,
+l'unità della misura dei due tassi, e **il perimetro dell'affermazione** — che le contiene
+tutte e che **E26 ha imposto di nominare** perché il terzo giro ha prodotto ancora rilievi.
 
-⚠️ **Le superfici nuove sono in vigore dal primo turno**: **E64** sul raccordo — e questo lotto
-tesserà molto grafo verso il tema 3, quindi **la specie è in agguato per costruzione**; **E63**
-sui **12 capitoli del Reg. 852/2004** e sui **14 documenti richiesti**, dove ogni voce senza nota
-si dichiara; **E60 per evento**; **E61 con la coppia frase-riscontro**; **E39 con gli hub**;
-**metà B di E59 a chiusura**. ⚠️ **E la dichiarazione DEGENERE di E41 esteso si scrive in
-apertura**, se il conto la conferma: 3F è mono-fonte come 3E.
+⚠️ **Il §9 del rapporto è il quadro del tema 3**: i sei lotti che lo hanno composto, la serie
+dei tassi coi domini e le riserve, il debito residuo in tabella — **72 righe nate nel tema, da
+T109 a T186**.
+
+⚠️ **E una decisione da ratificare o rovesciare**: la divergenza B3 non è entrata in vault per
+il divieto 9-bis, e vive a **T184** con l'obbligo esplicito per il lotto 07. Se il gate
+ritenesse che una gamba di un lotto futuro si possa usare **quando il lotto futuro non è
+ancora aperto**, la nota andrebbe riscritta — e la regola del lotto 1B, con essa, rivista.
 
 **Poi `R2`** in sessione nuova, con **due domini rigenerati** e la differenza dichiarata rispetto
 alle **65 + 35** note dello spezzamento.
@@ -742,10 +784,35 @@ coerente.
 | **UNA DIVERGENZA FABBRICATA SU DUE ORE CHE SONO I DUE CAPI DELLO STESSO FERMO** | Il blocco del perimetro del lotto 3E delimita l'insieme alle **18:45** in una riga e alle **15:05** in un'altra, e ci ho scritto sopra una questione. ⚠️ **Non e' una divergenza**: il `MOD-PR-04` n. 2026/087, gia' canonizzato da mesi, porta «Ora chiamata: 15:05» e «Fermo produzione: DALLE 15:05 ALLE 18:45» — sono l'inizio e la fine dello stesso guasto, e in mezzo la linea era ferma. ⚠️ **La parola "riavvio", nella frase stessa che la nota citava, presupponeva un fermo**: l'indizio era dentro la citazione. ⚠️ **E la nota era onestamente cauta** — «le fonti di questa nota non lo dicono» — **ma aveva scelto la spiegazione sbagliata fra due possibili**: la cautela non salva da una lettura sbagliata. ⚠️ **L'errore si era propagato a due altre note**, che lo ripetevano come acquisito, e a prenderlo e' stata **la revisione col canone**, l'unico strato che aveva davanti un documento di un'altra area (lotto 3E) |
 | **UN CONFRONTO DICHIARATO SENZA L'ORA DEL PRIMO TERMINE, e il primo termine non esisteva** | Il rapporto del lotto 3E scrive che *«gli avvisi salgono da 425 a 426»*. ⚠️ **Il 425 non compare in nessuna misura del progetto**: non nei report di QA, non nei commit, non nei documenti. Le tre misure del vault del 24/08 sono **344** (chiusura 3D), **369** (gate 3D, 13:27) e **426** (3E, 15:17), tutte leggibili dai `qa_all.md` versionati. ⚠️ **Il passaggio vero è 369 → 426, cioè +57**, non +1: **+35** link integrity (30 «lontana dall'`_index`»), **+16** frontmatter (14 summary oltre il tetto), **+6** provenance. ⚠️ **Il 425 è coerente con un numero ottenuto ALL'INDIETRO**, sottraendo da 426 l'unità che il lotto credeva di aver aggiunto — cioè **il gesto che E44 vieta**, nella forma più difficile da vedere: il termine «prima» sugli **errori** (108) era giusto, e la riga sembrava una misura sola. ⚠️ **Il merito non cambia — zero rilievi di merito in tutte e tre le misure** — ma «+1» diceva che il lotto non aveva mosso il vault, e il lotto lo ha mosso di **cinquantasette**. **Un confronto dichiara l'ora di ENTRAMBI i termini, o non si dichiara** (gate del lotto 3E) |
 | **UN'AFFERMAZIONE INVERTITA, IN UNA NOTA NATA DA UNA REVISIONE E FINITA NEL CANONE** | «Il termine dell'ente e' il **piu' stretto** dei tre»: tre giorni lavorativi contro ventiquattro ore e' il piu' **largo**. ⚠️ **E la stessa nota ancorava alla clausola 1.1.10 l'obbligo sbagliato**: il punto 3 del certificato ne porta **due**, e la clausola e' citata a proposito del primo. ⚠️ **L'errore era entrato anche nella riga B del canone**, e li' un errore si propaga a tutti i lotti futuri (E49): corretto nella nota e nel canone **nello stesso turno**. ⚠️ **L'ha preso il GIUDIZIO DEDICATO di E58 alla prima esposizione** — cinque rilievi su sette note — ed e' il terzo lotto di fila in cui il gruppo post-revisione ha una densita' di difetto molto piu' alta del ciclo (lotto 3E) |
+| ⛔ **UNA DIVERGENZA SCRITTA USANDO IL GREZZO DI UN LOTTO NON ANCORA APERTO** | Il verbale prescrive il ripristino della pavimentazione entro il **08/08/2026** e il titolare promette i lavori «alla chiusura estiva di agosto»; `comunicazione_chiusura_estiva_2026.txt` fissa quella chiusura dal **17 agosto**. ⚠️ **Quel file è di `lotto_07_persone`**, e la regola esisteva dal 19/08: *la terza gamba di una questione si TRACCIA, non si usa, se il suo grezzo appartiene a un lotto futuro* (lotto 1B, T18 e T39). ⚠️ **Nessuno strato del lotto l'ha richiamata**: non la scrittura, non il giudizio — che confronta la nota contro le fonti **che la nota dichiara**, quindi non può vederla — non la revisione, che la divergenza l'ha **prodotta**. ⚠️ **A fermarla è stato `verifica_matrice_lotti.py` con un guasto di disgiunzione**: la QA era verde, le fonti c'erano, la nota era corretta. **La verifica di disgiunzione non tiene in ordine una tabella: impedisce che un lotto consuma il materiale di un altro** — e il costo di saltarla sarebbe stato invisibile. Riscritta sulla sola gamba di 3F; la divergenza vive a **T184** (lotto 3F) |
+| ⚠️ **UNO STRUMENTO CHE DAVA «ZERO» SU DUE LOTTI, E IL RAPPORTO CHE NON SE N'ERA ACCORTO PERCHÉ CONTAVA A MANO** | `conta_perimetro_lotto.py` divide il perimetro leggendo due stringhe nei commenti dell'elenco delle note; l'elenco di 3E scriveva la seconda in una forma diversa da quella cercata, 3F ne aveva copiato l'intestazione, e **il parser non cambiava mai sezione**: «note nate: 0 — nessuna» su lotti che ne avevano scritte trentasei e trentasette. ⚠️ **Il rapporto di 3E dichiarava numeri giusti perché li aveva composti a mano da altre fonti**, che è esattamente ciò che l'intestazione dello strumento vieta — *si incolla VERBATIM, i numeri del perimetro non si ricompongono a mano*. **Comporre a mano non è solo meno affidabile: nasconde il guasto dello strumento che avrebbe dovuto sostituire.** ⚠️ **Riparati i DATI, non lo strumento**: allargare il parser a due forme sarebbe stato **allentare** un controllo, e la disciplina del gate 1A ammette solo fix che aggiungono agganci (lotto 3F) |
 
 ---
 
 ## 6. Vigilanze aperte (da tenere d'occhio al prossimo gate)
+
+- ⛔ **IL PERIMETRO DELL'AFFERMAZIONE, che è la classe di cui E47, E3/E43 ed E57 governano tre
+  specie.** Nominata al **terzo giro del lotto 3F**, come E26 impone quando il terzo giro produce
+  ancora rilievi. **Sei affermazioni, sei perimetri diversi, nessuna dentro il perimetro delle
+  proprie fonti**: un primato sull'archivio, un'assenza sull'archivio, una regola generale
+  importata, un nesso causale non dichiarato, due estensioni su un elenco della fonte.
+
+  ⚠️ **Non è un difetto di lettura: le fonti erano lette bene.** Chi scrive dice una cosa vera
+  **di ciò che ha davanti** e la enuncia **di ciò che non ha davanti**.
+
+  ⚠️ **Due delle sei specie non hanno né regola né controllo**: la regola generale importata e
+  il nesso causale non dichiarato. **Nessun controllo deterministico può vederle** — non hanno
+  numeri, superlativi o negazioni — e le vede solo un lettore che confronti la frase col
+  perimetro. **È esattamente ciò che lo strato di giudizio ha fatto, tre volte.**
+
+  **Forma proposta al gate**: *un'affermazione vale nel perimetro delle fonti che la nota cita,
+  e per uscirne serve un artefatto o un rimando*. ⚠️ **Il gate può accogliere il candidato più
+  stretto sul superlativo-elenco e lasciare aperto questo, non il contrario**: se passa questo,
+  quello diventa un esempio invece che una regola.
+
+  ⚠️ **Che cosa guardare al prossimo gate**: se `R2` — che è di manutenzione e riscrive note
+  già giudicate — ne produce ancora. **Un lotto che corregge è il terreno naturale della
+  specie**, perché chi qualifica una frase tende ad allargarne il soggetto.
 
 - ⚠️ **LA CORREZIONE CHE AFFERMA OLTRE LE FONTI, E IL SUO CRITERIO SCRITTO ORA.** Nominata al
   terzo giro del lotto 3B, dove **almeno sette dei dodici rilievi cadono su frasi che la

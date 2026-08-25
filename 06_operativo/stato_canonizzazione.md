@@ -40,13 +40,13 @@
 
 | | |
 |---|---|
-| Lotti chiusi | **12**, e il numero **si incolla da `verifica_matrice_lotti.py`**: `lotti chiusi: 12` — **11 di canonizzazione** e 1 di manutenzione (`r1`), col **pilota escluso**. ⚠️ **E ne restano due dichiarati e non aperti**: **`3F`**, che chiude il tema 3, e **`R2`**, che dal 24/08 copre **due domini** — `reclami` e `ritiro` — col perimetro che si rigenera all'apertura |
+| Lotti chiusi | **13**, e il numero **si incolla da `verifica_matrice_lotti.py`**: `lotti chiusi: 13` — **12 di canonizzazione** e 1 di manutenzione (`r1`), col **pilota escluso**. ⚠️ **Il tema 3 è CHIUSO**: `3F` lo ha finito il 24/08. ⚠️ **Ne resta uno dichiarato e non aperto**: **`R2`**, che dal 24/08 copre **due domini** — `reclami` e `ritiro` — col perimetro che si rigenera all'apertura |
 | Grezzi copiati nel vault | 160/160, verificati contro `manifest_corpus_v1.1.json`: zero scarti, zero estranei, zero sottocartelle |
 | I conteggi del vault | nel blocco qui sotto, **incollato verbatim** da `conta_stato.py` |
 | Suite QA | **verde sul perimetro di lotto**; ⚠️ **dal gate del 21/08 la provenance legge l'ESTRAZIONE DI CANTIERE** (E48), che aggiunge marcati formule e barrato — l'estrattore di misura resta byte-identico e `estrazione_cantiere.py --prova` lo dimostra su tutti i 161 grezzi; sul vault tre controlli su quattro sono a zero errori. ⚠️ Dal gate di 2A la QA ha **due controlli nuovi**: l'artefatto di ricerca che E43 impone a chi dichiara un'assenza, e **l'omogeneità dei fine riga** — il primo controllo del progetto che non guarda il contenuto di una nota ma il suo **supporto** |
 | `llms.txt` | rigenerato dal frontmatter, allineato |
 | Matrice dei lotti | 160/160 grezzi, zero scoperti, zero doppi (`verifica_matrice_lotti.py` verde). ⚠️ **I budget dei lotti 2-10 sono SUPERATI** e il piano non è più a 12 lotti: vale **E31**, la capacità di 25-35 note per lotto, e i grezzi si decidono in apertura. ⚠️ **La fascia è stata RIVISTA a dieci lotti chiusi, il 24/08/2026 al gate di 3E, ed è CONFERMATA**: non è una previsione, è la grandezza con cui si tagliano i pacchetti in apertura, e a spezzare restano i tetti duri di E28. **Stima: circa 28-30 lotti**, scritta anche nella scaletta perché cambia il calendario di S4-S5. Ridisegnato in dettaglio **solo il tema 2** (2A · 2B · 2C) |
-| **PROSSIMO ATTO** | **Il lotto `3F` — il controllo pubblico ATS**, che **chiude il tema 3**: un grezzo, 24 fatti contati in apertura di 3E. ⚠️ **È mono-fonte come 3E, quindi la dichiarazione DEGENERE di E41 esteso si scrive in apertura se il conto la conferma.** Poi **`R2`** in sessione nuova, con **due domini rigenerati** e **senza `\bPRO-QA-11\b`** fra le espressioni del dominio `ritiro`, salvo prova nuova |
+| **PROSSIMO ATTO** | **Il gate del lotto 3F**, che chiude anche il tema 3 e ha **cinque voci strutturali** da decidere (§10 del rapporto): il delimitatore riparato, la data derivata senza esenzione, il superlativo sull'elenco, l'unità della misura dei due tassi e — la più larga — **il perimetro dell'affermazione**, il pattern che E26 ha imposto di nominare al terzo giro. Poi **`R2`** in sessione nuova, con **due domini rigenerati** e **senza `\bPRO-QA-11\b`** fra le espressioni del dominio `ritiro`, salvo prova nuova |
 
 ⚠️ **Errata del 19/08/2026 sui numeri del lotto 1A.** Questo stato dichiarava «105 note, di
 cui 11 `_index` e 6 note-strumento: 88 di contenuto». `qa_all.py` a chiusura di 1A contava
@@ -56,24 +56,25 @@ prescrive la regola del gate 1A.
 
 ## I conteggi, da script
 
-<!-- CONTEGGI DEL VAULT — generati da `06_operativo\qa\conta_stato.py` il 2026-08-24,
-     alle 15:16 del 24/08, dopo la nota-sessione (E34) e dopo l'ultima scrittura del
-     lotto 3E (E44).
+<!-- CONTEGGI DEL VAULT — generati da `06_operativo\qa\conta_stato.py` il 2026-08-25,
+     alle 09:21 del 25/08, dopo la nota-sessione (E34) e dopo l'ultima scrittura del
+     lotto 3F (E44). ⚠️ Il lotto si è lavorato il 24/08 e si è chiuso il mattino
+     del 25: la misura porta la data e l'ora in cui è stata presa.
      Si incollano VERBATIM: non si ricompongono a mano, non si riscrivono in prosa. -->
 
 | Grandezza | Valore |
 |---|---|
-| Note nel vault | **470** |
+| Note nel vault | **507** |
 | di cui `_index` | 11 |
 | di cui note-strumento del progetto | 15 |
-| di cui note di diario (`sessione`, `daily`) | 12 |
-| **di cui note di contenuto** | **432** |
-| Note per cartella | areas 257 · docs 67 · data 55 · entities 32 · projects 17 · code 16 · workspace 15 · concepts 7 · self 2 · outputs 1 · sources 1 |
-| Note per `type` | atomica 336 · conflitto 67 · entita 24 · hub 14 · sessione 12 · index 11 · concetto 6 |
-| Questioni aperte (`type: conflitto`) | 67 |
+| di cui note di diario (`sessione`, `daily`) | 13 |
+| **di cui note di contenuto** | **468** |
+| Note per cartella | areas 285 · docs 71 · data 56 · entities 34 · projects 18 · code 16 · workspace 16 · concepts 7 · self 2 · outputs 1 · sources 1 |
+| Note per `type` | atomica 363 · conflitto 73 · entita 26 · hub 15 · sessione 13 · index 11 · concetto 6 |
+| Questioni aperte (`type: conflitto`) | 73 |
 | Grezzi in `sources\` | 160 |
-| Grezzi citati da almeno una nota | **55** |
-| Grezzi restanti | **105** |
+| Grezzi citati da almeno una nota | **56** |
+| Grezzi restanti | **104** |
 
 ⚠️ **Questo blocco non si riscrive a mano.** Nasce al gate del lotto 1B da due sviste di
 conteggio in due lotti — 46 contro 32 nel rapporto 1A, 105 e 88 in questo stato quando
@@ -454,7 +455,8 @@ giudizio, e senza il secondo giro sarebbe rimasta.
 
 ## Cosa resta
 
-- **125 grezzi** non ancora canonizzati, che sono l'oggetto del resto delle Sessioni 4-5.
+- **104 grezzi** non ancora canonizzati, che sono l'oggetto del resto delle Sessioni 4-5
+  *(il numero si legge nel blocco dei conteggi qui sopra: 160 meno i 56 citati)*.
   ⚠️ *Errata del 19/08/2026: questa riga diceva 127. Era un errore di trascrizione, non di
   canonizzazione — il blocco dei conteggi qui sopra e la tabella del perimetro vault dello
   stesso file dicevano già 125.*
@@ -487,6 +489,54 @@ giudizio, e senza il secondo giro sarebbe rimasta.
 | chiusa | **2** | T20, T33 |
 | tracciata | **26** | T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T19, T21, T29, T31, T34, T39, T40, T41, T49, T50, T51, T52, T53, T54 |
 | **totale righe** | **54** | da T1 a T54, nessuna mancante e nessuna duplicata |
+
+## Il lotto 3F, chiuso il 24/08/2026 — il controllo pubblico ATS, E IL TEMA 3 CHIUDE
+
+⚠️ **È l'ultimo pacchetto del tema 3**: sei lotti, tredici grezzi, e con questo il tema è
+finito. Il lotto si è lavorato il **24/08** e si è chiuso il mattino del **25**; le misure di
+chiusura portano la data e l'ora in cui sono state prese (E44).
+
+| | | Strumento | Ora |
+|---|---|---|---|
+| grezzo | **1** — `notifica_ATS_ispezione_programmata_igiene.txt`: una PEC che incapsula un atto dell'autorità più **due mail interne** | — | — |
+| note **nate** | **36**, tutte di contenuto | `conta_perimetro_lotto.py` | 25/08, 09:21 |
+| note **toccate** (E32) | **11** | `conta_perimetro_lotto.py` | 25/08, 09:21 |
+| **note controllate** | **47** | `conta_perimetro_lotto.py` | 25/08, 09:21 |
+| suite QA, perimetro lotto | **0 ERRORI, 44 avvisi** | `qa_all.py` | 25/08, 09:20 |
+| giri di giudizio | **tre** — 10, 5 e 4 rilievi accolti | — | — |
+| tasso di **riapertura** | **non applicabile**: zero note riaperte, il grezzo non è una fonte prescrittiva | `misura_due_tassi.py` | 25/08, 09:16 |
+| tasso di **difetto di produzione** | **8,3 %** — 3 su 36, dominio `cip` | `misura_due_tassi.py` | 25/08, 09:16 |
+| righe nuove in tabella | **T176-T186**: sette aperte dichiarate, quattro tracciate | `conta_tracciamento.py` | 25/08, 09:20 |
+| righe chiuse | **T51**, che aspettava proprio la notifica ATS | `conta_tracciamento.py` | 25/08, 09:20 |
+| emendamenti nuovi | **nessuno**: il registro resta a **64** | `verifica_emendamenti.py` | 25/08, 09:20 |
+
+### Che cosa il lotto ha trovato
+
+| | |
+|---|---|
+| ⛔ **L'atto che l'ispezione richiama non è quello ricevuto** | **T176**: il preavviso sulla PEC porta `Prot. n. 0058214/2026` del 25/05, il verbale dichiara come proprio antecedente la «nota prot. n. **0045821** del **27/05/2026**» — numero più basso, data posteriore. Il protocollo richiamato **non compare in nessun altro documento**: assenza verificata su tutto `sources` con artefatto datato |
+| ⛔ **I registri CCP «rivisti uno per uno» quindici giorni prima del controllo** | **T179**, con la disposizione che la seconda firma «deve risultare sistematica da aprile in poi» — mentre il 13/04 una NC interna la registra assente. **Il periodo campionato dall'autorità è esattamente maggio** |
+| ⛔ **Il carrello dato per rimosso due volte e trovato in linea due volte** | **T180**, e **T185**: lo stesso pomeriggio il titolare dichiara a verbale che la procedura è «in revisione», mentre il manuale esibito quel giorno la dà per applicata |
+| ⛔ **La reazione in quindici giorni ha un antecedente di dodici giorni prima** | **T182**: in riunione di direzione l'ispezione è già attesa, con l'oggetto giusto e per canale informale, e il pavimento contestato è già preventivato — poi «nella lista dei desideri» |
+| ⛔ **Il preavviso rimanda al verbale per le modalità del riesame, e il verbale non le porta** | **T186**, la sola riga del lotto in cui la divergenza è **dell'autorità**, non dell'azienda |
+
+### Le tre cose che il lotto lascia al gate, oltre ai candidati
+
+⛔ **Un guasto della suite, riparato prima di giudicare.** Il delimitatore delle fonti del
+pacchetto di giudizio compariva **dentro il grezzo**, e la fonte principale arrivava al giudice
+troncata a **638 caratteri su 13.186** — con la guardia che dichiarava le fette «complete».
+E10 sul secondo delimitatore, riparato con difetto piantato in `collaudo_taglio_fonti.py`.
+
+⛔ **Una divergenza vera NON è entrata in vault.** La sua seconda gamba è il grezzo di
+`lotto_07_persone`, e per il **divieto 9-bis** si traccia invece di usarla: **T184**, con
+l'obbligo esplicito per quel lotto. A fermarla è stato `verifica_matrice_lotti.py`, non una
+lettura: la QA era verde e la nota era corretta.
+
+⛔ **E26 ha chiesto il pattern, e il pattern è il perimetro dell'affermazione.** Sei
+affermazioni del terzo giro stanno fuori dal perimetro delle proprie fonti — primato
+sull'archivio, assenza sull'archivio, regola generale importata, nesso causale, due estensioni
+su un elenco. **E47, E3/E43 ed E57 governano tre specie; la classe che le contiene non ha
+regola.**
 
 ## Il gate del lotto 3E, 24/08/2026 — APPROVATO: E64, quattro estensioni, la capacità confermata
 

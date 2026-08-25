@@ -33,6 +33,10 @@ Esce 0 se tutte le fette sono complete, 1 se anche una sola non lo e'.
 import argparse, io, os, re, sys
 
 SEP_NOTA = ">>>>> NOTA DA GIUDICARE:"
+# ⚠️ E10, SECONDO DELIMITATORE (lotto 3F): era `--- <nome> ---`, e quella forma COMPARE
+# dentro i grezzi. La notifica ATS ne porta due, e la fonte principale del lotto arrivava
+# al giudice troncata a 638 caratteri su 13.186 — in due fette su tre senza le mail.
+SEP_FONTE = ">>>>> FONTE:"
 TITOLO_APPENDICE = "TESTO ESTRATTO DELLE FONTI CITATE"
 
 
@@ -53,7 +57,7 @@ def spezza(testo):
 
     fonti, nome, buf = {}, None, []
     for riga in coda.split("\n"):
-        m = re.match(r"^--- (.+) ---$", riga)
+        m = re.match(r"^%s\s*(\S.*)$" % re.escape(SEP_FONTE), riga)
         if m:
             if nome:
                 fonti[nome] = "\n".join(buf)
@@ -109,13 +113,18 @@ def main():
         r.append(TITOLO_APPENDICE)
         r.append("=" * 70)
         for f in usate:
-            r.append("\n--- %s ---" % f)
+            r.append("\n%s %s" % (SEP_FONTE, f))
             r.append(fonti[f])
         fetta = "\n".join(r)
 
         # LA GUARDIA. Una fetta senza appendice, o con appendice vuota, non si scrive.
+        # ⚠️ E DAL LOTTO 3F LA GUARDIA CONFRONTA I CARATTERI, non la presenza: l'appendice
+        # deve portare OGNI fonte per intero, com'e' nel pacchetto. Un'appendice che c'e'
+        # ma porta un decimo del documento e' un ingresso degradato quanto una che manca,
+        # e la vecchia guardia — «piu' di 200 caratteri» — la dichiarava completa.
         coda = fetta.split(TITOLO_APPENDICE, 1)[-1]
-        completa = bool(usate) and len(coda.strip()) > 200
+        interi = all(fonti[f] in coda for f in usate)
+        completa = bool(usate) and len(coda.strip()) > 200 and interi
         p = os.path.join(args.report, "fetta_%d_giudizio.txt" % (n + 1))
         print("| fetta %d | %d note | %d fonti | %d caratteri | %s |"
               % (n + 1, len(blocco), len(usate), len(fetta),

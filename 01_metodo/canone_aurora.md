@@ -1434,3 +1434,97 @@ un'altra linea**, dentro un documento del 2025 che nessun lotto aveva ancora ape
 piano di produzione assegna quella referenza alla **Linea 3**. Registrata come prova di
 solidità, non come rilievo.
 
+## Divergenze nuove — revisione del lotto 3F, 24/08/2026
+
+> Il lotto del **controllo ufficiale**: il preavviso ATS del 25/05, il verbale del 09/06 e i
+> quindici giorni in mezzo. **Cinque divergenze: quattro scritte, una tracciata**, e **quattro nascono dallo
+> stesso accostamento**: il verbale contro ciò che l'azienda aveva già scritto altrove — nel
+> registro delle non conformità, nel manuale esibito quel giorno, nella comunicazione al
+> personale. ⚠️ **La quinta è di segno opposto: è l'atto dell'autorità a non mantenere ciò
+> che l'atto dell'autorità aveva promesso.**
+
+### B1 — L'ispezione era attesa dodici giorni prima della PEC, con l'oggetto giusto, e per canale informale ✍️ **scritta**
+
+`trascrizione_riunione_direzione_12_05_2026.txt` — riunione datata **13 05 2026** dalla prima
+riga del file, e la divergenza col nome del file è già canonizzata in
+`questione-data-riunione-direzione` — [00:17:35], PARLANTE_3: «la notifica non e ancora arrivata
+giancarlo ne abbiamo parlato con la dottoressa» e «vicentini che ha sentito dire che stanno
+programmando il giro delle registrate qua in» zona per giugno, «requisiti strutturali
+regolamento 852 allegato due». · `notifica_ATS_ispezione_programmata_igiene.txt` §OGGETTO:
+«controllo ufficiale sui requisiti strutturali e generali di igiene di cui» «al Reg. (CE) n.
+852/2004, Allegato II, Capitoli I-XII - Stabilimento di».
+
+⚠️ **L'oggetto era noto per esteso prima dell'atto**, e la notizia veniva dalla consulente
+esterna che «ha sentito dire»: non da una comunicazione dell'ente. ⚠️ **Tutto ciò che il lotto
+racconta come «reazione in quindici giorni» ha un antecedente di dodici giorni prima**, e in
+quell'antecedente il difetto strutturale che l'autorità contesterà è già sul tavolo col suo
+costo. Nota: `fatto-l-ispezione-attesa-dal-13-maggio-per-via-della-consulente`.
+
+### B2 — La stima di 8.500,00 € copre quattro punti; il solo pavimento della zona forni era dato per già preventivato a «diciotto mila» ✍️ **scritta**
+
+`non_conformita_interne_registro_2026.csv`, riga `NC-2026-107` del **27/05/2026**: quattro punti
+critici — pavimento zona forni, zanzariere, spogliatoio L3, intonaco cella CF-01 — con
+`Costo_stimato_€` **8.500,00** e `Azione_correttiva` «piano interventi urgenti pre-ispezione,
+preventivi entro 30/05». · `trascrizione_riunione_direzione_12_05_2026.txt`, [00:17:56],
+PARLANTE_2: «i pavimenti li ho gia preventivati elena diciotto mila la zona forni».
+
+⚠️ **La cifra minore copre più cose**, e vale **meno della metà** *(rapporto fra le due cifre,
+calcolato)*. ⚠️ **E l'azione correttiva dà i preventivi ancora da fare** quando per uno dei
+quattro punti un preventivo era stato annunciato due settimane prima. Nessuna delle due fonti
+dice che cosa comprenda. Nota: `questione-la-stima-e-il-preventivo`.
+
+### B3 — Il termine della prescrizione scade nove giorni prima della chiusura in cui i lavori sono promessi ⏳ **TRACCIATA, non scritta**
+
+`Verbale_ispezione_ATS_09_06_2026.pdf`, pag. 4, §4, PRESCRIZIONE N. 1: «TERMINE PER
+L'ADEGUAMENTO: 60 (sessanta) giorni dalla data del» «presente verbale, ovvero entro il
+08/08/2026.» · Stesso atto, pag. 5, §5, dichiarazioni del titolare a verbale: «anticiperemo i
+lavori alla» chiusura estiva di agosto. · `comunicazione_chiusura_estiva_2026.txt`,
+§intestazione «Cologna Veneta, 22 maggio 2026»; §corpo: ferie collettive «LUNEDI' 17 AGOSTO al
+VENERDI' 28 AGOSTO 2026 compresi».
+
+⚠️ **Fra il termine e l'inizio della chiusura passano nove giorni** *(differenza fra le due
+date, contata)*, **e la chiusura viene dopo**. ⚠️ **La parola «anticiperemo» è quella che
+rende la dichiarazione ambigua**: anticipare rispetto a un programma di miglioramento aziendale
+non è anticipare rispetto al termine dell'autorità, e le due scadenze non sono messe a confronto
+da nessuna delle due fonti. ⚠️ **E il §5 del verbale non era mai stato canonizzato.**
+
+⛔ **LA DIVERGENZA NON ENTRA IN VAULT, E LA RAGIONE È IL DIVIETO 9-bis.**
+`comunicazione_chiusura_estiva_2026.txt` è il **grezzo del lotto 07 (persone)**: usarlo ora
+metterebbe in rosso la verifica di disgiunzione della matrice e anticiperebbe il lavoro di
+quel lotto. ⚠️ **È la stessa disciplina del lotto 1B, 19/08/2026** — *la terza gamba di una
+questione si TRACCIA, non si usa, se il suo grezzo appartiene a un lotto futuro* (T18, T39).
+**La divergenza vive in tabella, a T184, con l'obbligo esplicito per il lotto 07.**
+
+⚠️ **Ciò che 3F scrive è la sola gamba che gli compete**: il termine, la dichiarazione del
+§5 e il fatto che **l'atto non fissa le date della chiusura estiva** — quindi non consente di
+dire se la promessa lo rispetti. Nota:
+`fatto-il-titolare-promette-i-lavori-alla-chiusura-estiva`.
+
+### B4 — Il titolare dichiara a verbale che la procedura è «in revisione», e lo stesso verbale elenca fra i documenti visionati il manuale che la dà per applicata ✍️ **scritta**
+
+`Verbale_ispezione_ATS_09_06_2026.pdf`, pag. 5, §5: «Per il carrello attrezzi la procedura di»
+«segregazione e' in revisione dopo l'audit di certificazione di febbraio;» provvediamo da subito
+alla rimozione. · Stesso atto, pag. 3, §2 DOCUMENTAZIONE VISIONATA: «Manuale di autocontrollo
+HACCP rev. 5 del 08/04/2026, a firma».
+
+⚠️ **Due affermazioni incompatibili dell'azienda davanti alla stessa autorità, nello stesso
+pomeriggio**: il manuale esibito dà la procedura per applicata e il carrello per rimosso, la
+dichiarazione a verbale dà la procedura per ancora in lavorazione. ⚠️ **È una gamba nuova su
+una divergenza già aperta**, che restringe: non più solo «rimosso o non rimosso», ma quale
+delle due versioni l'azienda sostenga. Nota: `questione-carrello-ricambi-dichiarato-rimosso`.
+
+### B5 — Il preavviso rimanda al verbale per le modalità del riesame, e il verbale non le porta ✍️ **scritta**
+
+`notifica_ATS_ispezione_programmata_igiene.txt`, §diritti dell'OSA: «di richiedere il riesame
+della documentazione relativa alle evidenze del controllo», «secondo le modalità che saranno
+indicate nel verbale.» · `Verbale_ispezione_ATS_09_06_2026.pdf`, pag. 5, §6 AVVERTENZE:
+«Avverso le prescrizioni impartite con il presente verbale e'» «ammesso ricorso gerarchico al
+Direttore Generale dell'Azienda ULSS 9» entro trenta giorni, e ricorso al T.A.R. entro sessanta
+«giorni ai sensi del D.Lgs. 104/2010. La presentazione del ricorso».
+
+⚠️ **Le due vie del §6 sono impugnazioni delle prescrizioni, non il riesame della
+documentazione**: né «riesame» né «art. 4» né «D.Lgs. 27/2021» compaiono nel verbale
+*(cercati nel documento citato, che è il perimetro dichiarato dal preavviso)*. ⚠️ **Un atto
+rimanda a un altro atto per le modalità di un diritto, e l'altro atto non le porta**: chi legge
+il preavviso sa di poter esercitare il riesame e non sa come. Nota:
+`doc-obblighi-dell-osa-durante-il-controllo`.
