@@ -1,0 +1,483 @@
+Giudichi note di un archivio aziendale rispetto ai documenti che dichiarano come
+fonte. Non devi migliorare le note, non devi riscriverle e non devi rispondere
+alle domande che pongono: devi giudicare se stanno in piedi sulle loro fonti.
+
+Per ogni nota ricevi: il nome, il corpo integrale, l'elenco delle fonti che
+dichiara e il testo estratto di ciascuna di quelle fonti.
+
+Rispondi SOLO a queste tre domande, in quest'ordine:
+1. Ogni fonte elencata contribuisce davvero alla nota? Una fonte che non sorregge
+   nessuna affermazione e' rumore nel payload, e va segnalata.
+2. La nota afferma qualcosa che le fonti non dicono, pur senza numeri? Cerca le
+   affermazioni qualitative: cause, intenzioni, conseguenze, attribuzioni di una
+   frase a una persona, giudizi di conformita'. I numeri, le date e i codici NON
+   sono affar tuo: li ha gia' verificati lo strato deterministico.
+
+3. Esiste, FRA LE FONTI CHE HAI RICEVUTO IN QUESTO PACCHETTO, un documento che
+   misura o afferma la stessa grandezza di cui la nota parla, e che la nota NON
+   cita? Non e' un difetto di provenienza: e' una lacuna di copertura. La segnali
+   FUORI dal verdetto, in coda alla risposta, dicendo quale nota e quale
+   documento, e NON cambi per questo l'esito della nota.
+
+Assegna a ogni nota esattamente un esito:
+- `pulita` — ogni fonte contribuisce e nessuna affermazione eccede le fonti
+- `fonte_inutile` — almeno una fonte elencata non sorregge nulla
+- `afferma_oltre` — almeno un'affermazione non ha riscontro nelle fonti citate
+- `entrambi` — sia una fonte inutile sia un'affermazione che eccede
+
+Restituisci UNA riga JSON per nota, con esattamente questi campi:
+`nota`, `esito`, `motivazione` (una riga sola, che cita l'affermazione o la fonte
+esatta a cui ti riferisci).
+
+Regole che non puoi violare:
+- Non essere generoso: se un'affermazione non e' ritrovabile leggendo le fonti,
+  non e' fondata anche se e' plausibile e ben scritta.
+- Un'inferenza DICHIARATA come tale («i due documenti, letti insieme, mostrano
+  che…», «la trascrizione non lo afferma: e' un'attribuzione») e' legittima e non
+  si segnala. E' l'inferenza fatta passare per dato della fonte che si segnala.
+- Una nota che riporta due valori divergenti senza sceglierne uno sta facendo il
+  suo mestiere: non e' un difetto, e non si segnala.
+- Non proponi correzioni e non riscrivi niente. Riporti, e basta.
+- Non ricevi il canone e non devi cercarlo: confronti la nota contro le sue
+  fonti, punto. Il giudizio sulla copertura dei fatti spetta a un altro ruolo.
+- La terza domanda non ti autorizza a giudicare la copertura dell'archivio: ti
+  chiede solo di segnalare cio' che hai gia' sotto gli occhi dentro il pacchetto.
+  Se un documento non e' nel pacchetto, per te non esiste.
+
+
+======================================================================
+PROMPT v2 del 2026-08-18 — non modificarlo per questo lotto.\n
+======================================================================
+
+======================================================================
+FETTA 1 DI 3 — 1 note da giudicare.
+Giudichi SOLO le note di questa fetta, contro le fonti in coda a questo
+file. ⚠️ Se l'appendice delle fonti mancasse o non contenesse i documenti
+che le note citano, DICHIARA L'INGRESSO DEGRADATO e non emettere verdetti:
+è un esito legittimo e vale più di un verdetto costruito sul nulla.
+======================================================================
+
+----------------------------------------------------------------------
+>>>>> NOTA DA GIUDICARE: fatto-le-48-ore-gia-in-procedura.md
+----------------------------------------------------------------------
+---
+title: "Il termine di 48 ore che il cliente impone era già dentro la procedura dei reclami, con il nome del cliente"
+summary: "`PRO-QA-08` §8.1 prevede i clienti con richieste di riscontro a termine e ne nomina uno solo, l'Assicurazione Qualità Tosano con le sue 48 ore, disponendo che i termini contrattuali del cliente prevalgano su quelli della procedura se più stringenti."
+type: atomica
+area: qualita
+tags: [areas, qualita, reclami, pro-qa-08, tosano, termini]
+fonti:
+  - PRO-QA-08_gestione_reclami_cliente_rev2.docx
+stato: risolto
+aliases: []
+data_nota: 2026-08-31
+related: "[[doc-riferimenti-pro-qa-08]], [[fatto-richiesta-relazione-48-ore]], [[entita-tosano-cerea]], [[progetto-gestione-reclamo-rec-2026-011]], [[area-qualita]]"
+---
+
+# Un cliente nominato dentro una procedura
+
+⚠️ **È l'unico cliente che il paragrafo nomina**, e lo nomina con il suo termine:
+«es. Assicurazione Qualità Tosano: riscontro entro 48 h».
+
+La disposizione è in due parti:
+
+| | |
+|---|---|
+| **la fattispecie** | i clienti «con portale fornitori o con richieste di riscontro a termine» |
+| **la regola** | «i termini contrattuali del cliente prevalgono su quelli del par. 6.3 se più stringenti» |
+
+## Che cosa questo cambia nella lettura del caso di maggio
+
+⚠️ **Il termine di 48 ore non arriva da fuori: era già il termine che Aurora si era data per
+questo cliente.** La richiesta del 14/05 non introduce un vincolo nuovo, **attiva uno già
+recepito** — e le fonti di quella richiesta stanno in [[fatto-richiesta-relazione-48-ore]].
+
+⚠️ **E il contenuto della risposta è già prescritto dallo stesso paragrafo**: «ricostruzione
+dei fatti, esito delle verifiche, causa individuata o ipotesi in corso di verifica, azioni
+correttive con date, eventuali proposte di gestione della merce».
+
+## Perché conta
+
+⚠️ **Una clausola contrattuale di un cliente è entrata nel testo di una procedura interna**,
+con nome e termine. Chi legge la procedura sa che quel cliente ha la precedenza; chi legge
+solo l'accordo quadro non sa che la procedura lo ha recepito.
+
+## Fonti
+
+- [[PRO-QA-08_gestione_reclami_cliente_rev2.docx]] — §8.1 «Clienti GDO e private label»: «Per i clienti con portale fornitori o con richieste di riscontro a termine (es. Assicurazione Qualità Tosano: riscontro entro 48 h), i termini contrattuali del cliente prevalgono su quelli del par. 6.3 se più stringenti.»; stesso paragrafo: «Deve contenere: ricostruzione dei fatti, esito delle verifiche, causa individuata o ipotesi in corso di verifica, azioni correttive con date, eventuali proposte di gestione della merce.»
+
+
+======================================================================
+TESTO ESTRATTO DELLE FONTI CITATE
+======================================================================
+
+>>>>> FONTE: PRO-QA-08_gestione_reclami_cliente_rev2.docx
+AURORA FOOD GROUP S.r.l. — PROCEDURA PRO-QA-08
+
+Sistema di Gestione Qualità e Sicurezza Alimentare — BRCGS Food Safety Issue 9 / IFS Food v8
+
+
+[Marchetti E. - la rev.2 recepisce la NC 1 audit CSQA del 17-18/02/2026: aggiunta la seconda firma di verifica al par. 7.4. Da distribuire in copia controllata entro fine marzo.]
+
+1. SCOPO
+
+La presente procedura definisce le modalità operative con cui Aurora Food Group S.r.l. riceve, registra, classifica, indaga e chiude i reclami provenienti da clienti (GDO, grossisti, Ho.Re.Ca.) e da consumatori finali, al fine di:
+
+garantire una risposta tempestiva e documentata a ogni segnalazione;
+individuare la causa radice ed attuare azioni correttive efficaci;
+alimentare il riesame della direzione con indicatori misurabili;
+assicurare la conformità ai requisiti BRCGS Food Safety Issue 9 (cl. 3.10) e IFS Food v8 (cap. 5.8).
+
+La presente procedura si applica anche ai reclami dei fornitori. [Vicentini C. - i reclami VERSO i fornitori sono in PRO-ACQ-03, non qui. Tolto.]
+
+2. CAMPO DI APPLICAZIONE
+
+Si applica a tutti i reclami relativi a prodotti fabbricati e/o confezionati presso lo stabilimento di Via dell'Industria 27, Cologna Veneta (VR), a marchio Aurora e a marchio del cliente (private label), qualunque sia il canale di ricezione:
+
+comunicazione scritta del cliente (PEC, e-mail, portale fornitori GDO);
+segnalazione telefonica agli uffici commerciali;
+form "Contattaci" del sito www.aurorafoodgroup.it;
+segnalazione tramite agente di vendita;
+resi non conformi contestati al ricevimento merci del cliente.
+
+Sono escluse le contestazioni di natura esclusivamente amministrativa (differenze di prezzo, errori di fatturazione), gestite dall'Amministrazione secondo prassi interna.
+
+3. RIFERIMENTI
+
+Reg. (CE) 178/2002 — principi generali della legislazione alimentare, art. 19
+Reg. (CE) 852/2004 — igiene dei prodotti alimentari
+BRCGS Food Safety Issue 9, clausole 3.10.1 e 3.10.2
+IFS Food v8, requisiti 5.8.1 e 5.8.2
+PRO-QA-11 Gestione ritiro e richiamo prodotto
+PRO-QA-05 Azioni correttive e preventive
+MOD-QA-31 Modulo di gestione reclami
+
+4. RESPONSABILITÀ
+
+
+Legenda: R = responsabile, A = approva, C = collabora, I = informato.
+
+[Marchetti E. - Fantin ha chiesto di essere "A" sulle azioni correttive e "R" solo sulla decisione di ritiro. Verbale riunione del 05/03/2026.]
+
+5. CLASSIFICAZIONE DEI RECLAMI
+
+Ogni reclamo viene classificato dal RSGQ entro 8 ore lavorative dalla ricezione, secondo la seguente scala:
+
+
+I reclami di classe 1 e 2 vengono comunicati al titolare solo se il cliente è del canale GDO. [Vicentini C. - NO: i critici vanno SEMPRE alla direzione, anche se il reclamante è un consumatore. Riscrivere come sotto.]
+
+I reclami di classe 1 sono comunicati immediatamente, per le vie brevi e poi per iscritto, all'Amministratore Delegato, al Direttore di Stabilimento e alla Direzione Commerciale, indipendentemente dal canale di provenienza.
+
+6. FLUSSO OPERATIVO
+
+6.1 Ricezione e registrazione (entro 8 ore lavorative)
+
+Chiunque riceva un reclamo (centralino, commerciale, agente, sito web) lo inoltra senza filtri al RSGQ all'indirizzo qualita@aurorafoodgroup.it. Il RSGQ:
+
+1. protocolla il reclamo con numerazione progressiva annuale (formato REC-AAAA-NNN, es. REC-2026-014);
+2. apre il modulo MOD-QA-31 compilando la sezione A (dati del reclamante, prodotto, codice articolo, EAN, lotto, data e luogo di acquisto, descrizione del difetto);
+3. richiede al reclamante, ove mancanti, fotografia del prodotto, del lotto stampato e del difetto;
+4. classifica il reclamo secondo il par. 5.
+
+[Pozzato S. - il form del sito non chiede il lotto in campo obbligatorio, metà dei reclami arrivano senza. Si può far modificare il form? Segnalato a Sartori il 12/05.]
+
+6.2 Verifiche immediate (entro 24 ore per classi 1 e 2)
+
+Il RSGQ, con il supporto dell'Assistente Qualità:
+
+1. verifica la rintracciabilità del lotto su MOD-MAG-02 (quantità prodotta, quantità spedita, giacenza residua, clienti destinatari);
+2. estrae e riesamina le registrazioni di produzione e di controllo del lotto: MOD-QA-12 (CCP2), MOD-QA-07 rev.5 (CCP3), MOD-PR-04 (fermi macchina), registrazioni CIP;
+3. blocca cautelativamente l'eventuale giacenza del lotto a magazzino, con cartellino giallo NON CONFORME;
+4. preleva e riesamina i campioni di riserva del lotto (campioteca, conservazione a temperatura di esercizio per shelf life + 1 mese);
+5. per la classe 1, informa la direzione e convoca il team HACCP per la valutazione di attivazione della PRO-QA-11.
+
+6.3 Tempistiche di sintesi
+
+
+7. INDAGINE E RICERCA DELLA CAUSA RADICE
+
+7.1 Metodo
+
+Per i reclami di classe 1 e 2 la ricerca della causa radice è obbligatoria e documentata nella sezione C del MOD-QA-31. Il metodo di riferimento è la combinazione di:
+
+diagramma di Ishikawa (causa-effetto): il difetto viene analizzato lungo le 6 M — Materiali (materie prime, imballi), Metodi (procedure, istruzioni), Macchine (impianti, utensili, manutenzione), Manodopera (formazione, comportamenti), Misurazioni (strumenti, registrazioni), Ambiente (layout, flussi, infestanti). Per ogni ramo il team elenca le cause possibili e le verifica una a una con evidenze;
+metodo dei 5 perché: per il ramo risultato più probabile, si domanda iterativamente "perché?" fino a raggiungere la causa organizzativa di fondo, di norma entro 5 passaggi.
+
+Esempio applicativo (didattico): frammento plastico in prodotto confezionato → perché? guarnizione deteriorata rilasciata dalla macchina → perché? montata guarnizione non idonea al contatto alimentare → perché? ricambio originale non disponibile a magazzino → perché? scorta minima ricambi critici non definita → perché? la manutenzione non dispone di un elenco di ricambi critici con scorta minima → causa radice: assenza di gestione pianificata dei ricambi critici.
+
+[Marchetti E. - l'esempio l'ho preso volutamente generico ma dopo il caso del 12/05 forse è meglio cambiarlo, sembra scritto apposta. Sentire Fantin.]
+[Vicentini C. - lo lascerei: se lo cambia adesso, in audit chiederanno perché. Piuttosto va allineato il piano di manutenzione, che è la vera carenza.]
+
+7.2 Team di indagine
+
+L'indagine per i reclami di classe 1 è condotta dal team HACCP integrato dal Responsabile di Produzione e, ove pertinente, dal Capo officina. Il consulente HACCP esterno (Studio Alimentaria, Verona) partecipa su richiesta del RSGQ.
+
+7.3 Gestione del campione reso dal consumatore
+
+1. Il campione oggetto di reclamo viene richiesto al reclamante; il ritiro avviene a cura dell'agente di zona o tramite corriere prepagato.
+2. Al ricevimento, l'Assistente Qualità fotografa il campione integro, lo identifica con il numero di protocollo REC e lo registra nella sezione B del MOD-QA-31.
+3. Il campione è conservato in busta sigillata, in area segregata del laboratorio QC, a temperatura idonea, per almeno 12 mesi dalla chiusura del reclamo.
+4. Eventuali analisi (identificazione materiale del corpo estraneo, analisi microbiologiche) sono affidate al laboratorio esterno Analytica Veneta S.r.l. (ACCREDIA n. 0987), con catena di custodia documentata.
+5. Il campione non viene mai restituito, distrutto o manipolato prima della chiusura del reclamo e comunque non senza autorizzazione scritta del RSGQ.
+
+6. Eventuali analisi sono eseguite dal laboratorio interno. [Marchetti E. - il lab interno fa solo tamponi e pH, l'identificazione materiali va fuori. Corretto con Analytica Veneta.]
+
+7.4 Verifica delle registrazioni in seconda firma
+
+A seguito della NC 1 dell'audit CSQA del 17-18/02/2026 (rif. BRCGS 9 cl. 2.10.2 / IFS 5.1.2), tutte le registrazioni manuali dei CCP riesaminate nel corso dell'indagine devono riportare la verifica in seconda firma del capoturno entro fine turno. L'assenza della seconda firma su una registrazione oggetto di indagine è essa stessa una non conformità interna, da registrare e trattare secondo PRO-QA-05.
+
+[Marchetti E. - le evidenze di chiusura NC sono partite il 02/04/2026, in ritardo sui 28 gg. CSQA ha accettato con riserva, verificherà al prossimo audit. NON dimenticare.]
+
+8. COMUNICAZIONE AL CLIENTE
+
+8.1 Clienti GDO e private label
+
+La risposta scritta ai clienti GDO (Tosano Cerea S.p.A., Alì S.p.A., Rossetto Trade S.p.A., Famila Nordest) è predisposta dal RSGQ per i contenuti tecnici e firmata dalla Direzione Commerciale. Deve contenere: ricostruzione dei fatti, esito delle verifiche, causa individuata o ipotesi in corso di verifica, azioni correttive con date, eventuali proposte di gestione della merce.
+
+Per i clienti con portale fornitori o con richieste di riscontro a termine (es. Assicurazione Qualità Tosano: riscontro entro 48 h), i termini contrattuali del cliente prevalgono su quelli del par. 6.3 se più stringenti.
+
+8.2 Consumatori finali
+
+La risposta al consumatore è cortese, non ammette responsabilità prima della chiusura dell'indagine, ringrazia per la segnalazione e informa dell'avvio delle verifiche. Eventuali omaggi o rimborsi sono decisi dalla Direzione Commerciale. Ogni comunicazione al consumatore su reclami di classe 1 è preventivamente condivisa con la direzione.
+
+[Bertoldi S. - aggiungere che NESSUNO risponde al consumatore a voce entrando nel merito, nemmeno il centralino. È successo. La telefonata va deviata alla qualità e basta.]
+
+Il personale non autorizzato (centralino, commerciale, agenti, produzione) non fornisce al reclamante alcuna informazione di merito, né a voce né per iscritto: raccoglie i dati e inoltra al RSGQ.
+
+9. AZIONI CORRETTIVE E VERIFICA DI EFFICACIA
+
+1. Per ogni causa radice individuata, il team definisce almeno un'azione correttiva con responsabile e scadenza, registrata su MOD-QA-31 sezione D e nel registro azioni correttive di PRO-QA-05.
+2. Le azioni che richiedono investimenti sono sottoposte al Direttore di Stabilimento e, oltre la sua delega di spesa, all'Amministratore Delegato.
+3. La verifica di efficacia è pianificata alla chiusura dell'azione ed eseguita dal RSGQ entro i termini del par. 6.3, con evidenza oggettiva (assenza di recidiva, esito audit interno, dati di monitoraggio).
+4. Un reclamo si considera chiuso solo con: risposta definitiva inviata, azioni correttive attuate, verifica di efficacia pianificata.
+
+10. INDICATORI
+
+
+Gli indicatori sono presentati al riesame della direzione e, in forma aggregata, al team HACCP.
+
+[Pozzato S. - il dato "confezioni vendute" me lo deve passare Trentin dall'amministrazione ogni mese, finora l'ho rincorsa io. Formalizzare?]
+
+11. REGISTRAZIONI E ARCHIVIAZIONE
+
+
+12. STATO DELLE REVISIONI
+
+
+Documento di proprietà di Aurora Food Group S.r.l. — copia controllata n. ___ — la copia stampata non è garantita come aggiornata.
+
+Codice
+Titolo
+Revisione
+Data emissione
+Redatto
+Verificato
+Approvato
+PRO-QA-08
+Gestione dei reclami cliente e consumatore
+rev. 2
+14/03/2026
+dott.ssa E. Marchetti (RSGQ)
+dott.ssa C. Vicentini (cons. HACCP)
+ing. M. Fantin (Dir. Stabilimento)
+Attività
+RSGQ (Marchetti)
+Ass. Qualità (Pozzato)
+Dir. Commerciale (S. Bertoldi)
+Resp. Produzione (Zanella)
+Dir. Stabilimento (Fantin)
+Ricezione e protocollo reclamo
+R
+C
+C
+—
+I
+Apertura MOD-QA-31
+R
+C
+I
+—
+—
+Classificazione gravità
+R
+C
+—
+—
+I
+Indagine causa radice
+R
+C
+—
+C
+I
+Gestione campione reso
+C
+R
+—
+—
+—
+Risposta scritta al cliente GDO
+C
+—
+R
+—
+I
+Risposta al consumatore finale
+R
+C
+I
+—
+—
+Azioni correttive
+C
+—
+—
+R
+A
+Verifica di efficacia
+R
+C
+—
+—
+I
+Decisione ritiro/richiamo
+C
+—
+C
+—
+R
+Classe
+Denominazione
+Descrizione
+Esempi
+Tempo max prima risposta
+Tempo max chiusura
+1
+Critico
+Rischio per la salute del consumatore, potenziale ritiro/richiamo, coinvolgimento autorità
+corpo estraneo pericoloso, allergene non dichiarato, contaminazione microbiologica patogena
+4 ore
+Immediata attivazione PRO-QA-11
+2
+Maggiore
+Difetto rilevante di sicurezza percepita o di conformità legale, senza rischio sanitario accertato
+corpo estraneo non pericoloso, muffe entro shelf life, errore peso/etichetta
+24 ore
+15 giorni lavorativi
+3
+Minore
+Difetto qualitativo senza implicazioni di sicurezza
+difetti organolettici, confezione danneggiata, farcitura scarsa
+3 giorni lavorativi
+30 giorni lavorativi
+4
+Segnalazione
+Osservazione non classificabile come reclamo
+preferenze di gusto, richieste informazioni
+5 giorni lavorativi
+Registrazione semplice
+Fase
+Classe 1
+Classe 2
+Classe 3
+Protocollo e apertura MOD-QA-31
+4 h
+8 h
+24 h
+Prima risposta al reclamante
+4 h
+24 h
+3 gg lav.
+Verifica registrazioni lotto
+12 h
+48 h
+5 gg lav.
+Analisi causa radice completata
+5 gg
+10 gg
+20 gg
+Chiusura e risposta definitiva
+come da PRO-QA-11
+15 gg lav.
+30 gg lav.
+Verifica di efficacia AC
+entro 60 gg
+entro 90 gg
+se applicabile
+Indicatore
+Formula
+Obiettivo 2026
+Frequenza riesame
+Reclami totali per milione di confezioni vendute
+n. reclami x 1.000.000 / confezioni vendute
+< 8,0
+mensile
+Reclami classe 1
+conteggio assoluto
+0
+mensile
+Tempo medio di chiusura classe 2
+media gg lavorativi
+≤ 12 gg
+trimestrale
+Reclami per corpo estraneo
+conteggio assoluto
+≤ 3/anno
+mensile
+Recidive su stessa causa radice
+conteggio assoluto
+0
+trimestrale
+Registrazione
+Modulo
+Responsabile
+Conservazione
+Luogo
+Reclamo e indagine
+MOD-QA-31
+RSGQ
+shelf life + 3 anni, min. 5 anni
+ufficio qualità, raccoglitore annuale
+Campione reso
+etichetta REC + sez. B MOD-QA-31
+Ass. Qualità
+12 mesi da chiusura
+laboratorio QC, area segregata
+Rapporti di prova esterni
+rapporto Analytica Veneta
+RSGQ
+5 anni
+fascicolo reclamo
+Corrispondenza cliente
+PEC / e-mail
+Dir. Commerciale
+5 anni
+server, cartella COMM/reclami
+Azioni correttive
+registro PRO-QA-05
+RSGQ
+5 anni
+ufficio qualità
+Rev.
+Data
+Descrizione modifica
+Redatto
+Approvato
+0
+10/06/2019
+Prima emissione
+E. Marchetti
+G. Bertoldi
+1
+22/09/2023
+Adeguamento a BRCGS Issue 9 e IFS v8; nuova classificazione a 4 classi
+E. Marchetti
+M. Fantin
+2
+14/03/2026
+Recepimento NC 1 audit CSQA 02/2026 (par. 7.4); precisazioni su campione reso e comunicazione al consumatore
+E. Marchetti
+M. Fantin
+[BARRATO: La presente procedura si applica anche ai reclami dei fornitori.]
+[BARRATO: I reclami di classe 1 e 2 vengono comunicati al titolare solo se il cliente è del canale GDO.]
+[BARRATO: 6. Eventuali analisi sono eseguite dal laboratorio interno. [Marchetti E. - il lab interno fa solo tamponi e pH, l'identificazione materiali va fuori. Corretto con Analytica Veneta.]]
