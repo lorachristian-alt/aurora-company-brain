@@ -1,0 +1,236 @@
+=====================================================================
+PROMPT — GATE DEL LOTTO 3F (chiusura del tema 3) + APERTURA DI R2
+Corpus v1 · Aurora Food Group S.r.l. (simulazione dichiarata)
+File: 06_operativo\prompt\prompt_gate_3f_r2.txt
+Scritto dal coordinatore il 25/08/2026, letti il rapporto (le undici
+sezioni, il §9 del tema e le cinque voci del §10).
+=====================================================================
+
+COME SEI STATO LANCIATO
+- Terminale nella RADICE del repository
+  C:\Users\buulo\Desktop\.eval_do_not_index\Aurora_Food_Group_SRL
+  con: claude --add-dir "C:\Users\buulo\Desktop\aurora-cervello"
+
+---------------------------------------------------------------------
+PARTE 0 — VERIFICA E COMMIT
+---------------------------------------------------------------------
+0.1 `prompt_s4_lotti.txt` e' stato aggiornato dal coordinatore, da E64
+    a E65 piu' tre estensioni. Verifica l'integrita':
+      righe 823 · byte 50.373 · CRLF 823 · LF isolati 0 · BOM assente
+      sha256 718a49c7b6fdf79b4cd22c939625a4189bb355270534859bd65ee0957278d239
+    Se anche uno non torna, FERMATI e dillo.
+0.2 Questo file e' NON TRACCIATO: committali entrambi e pusha PRIMA di
+    eseguire. Messaggio: «prompt dei lotti a E65 e prompt del gate 3F +
+    apertura R2». E65 e le tre estensioni sono nella coda del prompt e
+    non ancora in metodo_03: colmarlo e' il primo adempimento della
+    PARTE 2.
+
+---------------------------------------------------------------------
+PARTE 1 — IL VERDETTO: 3F E' APPROVATO, E IL TEMA 3 E' CHIUSO
+---------------------------------------------------------------------
+Il coordinatore ha letto il rapporto per intero. Le ratifiche, che
+valgono da precedente:
+
+- IL SECONDO DELIMITATORE: il guasto piu' serio trovato dalla suite
+  in tutto il progetto — la fonte principale al 5 %, meta' del lotto
+  assente da due fette su tre, e la guardia che diceva «completa» —
+  preso PRIMA di giudicare e riparato come la §4 impone. La forma
+  del fix e' ratificata in ogni parte: il prefisso che un grezzo non
+  scrive, la guardia che confronta i CARATTERI e non la presenza, e
+  soprattutto LA PREMESSA nel collaudo — verificare che il grezzo
+  finto porti davvero la riga insidiosa e' cio' che impedisce al
+  caso di passare per il motivo sbagliato. Il corpus scandito per
+  intero (il secondo caso aspettava al tema 6), nessun giudizio
+  passato degradato, e il controfattuale NON cercato: un giudizio su
+  fonti troncate e' ingresso degradato (§4.31) e vale zero. Tutto
+  ratificato;
+- B3 / T184: la divergenza vera fermata da `verifica_matrice_lotti`
+  con la QA verde e la nota corretta e' la dimostrazione di che cosa
+  serva la disgiunzione — impedire che un lotto consumi il materiale
+  di un altro. La regola c'era (1B, la terza gamba si traccia), lo
+  script l'ha fatta valere quando nessuna lettura l'aveva
+  richiamata. VA NELLO STATO con questa forma: a fermare la fuga e'
+  stato un controllo, non una lettura;
+- B1/B2 (l'antecedente del 13/05 che cambia la storia del lotto) e
+  il tetto di parole che HA DIVISO invece di tagliare: «la nota
+  nuova non e' un ripiego del budget, e' cio' che il budget ha fatto
+  vedere» e' una riga da stato;
+- E60 PER EVENTO AL PRIMO IMPIEGO: sei confronti col verbale
+  canonizzato in S2, cinque note e due questioni — nessuno sarebbe
+  esistito senza l'artefatto, e l'estensione aveva poche ore. E'
+  esattamente il gesto con cui il ciclo si riprende la E2;
+- E59 SUL DOMINIO STORICO: `pulizi` e `\bigien` respinte dal
+  collaudo ed espunte da `candidate_r1.DOMINI` con la ragione
+  scritta; il 3,3 % di 2A NON si rimisura e prende l'annotazione
+  (§4.45) — la serie fotografa le misure come sono state prese.
+  L'espressione MUTA `tampon[ei] superfic` RESTA nella
+  dichiarazione, con la mutezza annotata: non riconosce nulla oggi,
+  ma toglierla lascerebbe scoperte le note future sui tamponi
+  ambientali; si riesamina a ogni esercizio del dominio, e il
+  collaudo di E59 la riprovera' comunque;
+- IL PUNTO NON DEGENERE dichiarato con la clausola di E41 esteso che
+  si ferma da se', e i tre residui-enumerazione dichiarati senza
+  aggiustare: la forma giusta due volte;
+- `conta_perimetro_lotto.py`: la riparazione e' ratificata NELLA SUA
+  DISCIPLINA — i dati allineati alla forma che lo strumento
+  dichiara, non lo strumento allargato ad accettare due forme. E il
+  quadro del tema 3 (§9) va nello stato: sei lotti, tredici grezzi,
+  72 righe da T109 a T186, e la serie che NON si somma e non si
+  media — E46 applicato a una serie.
+
+E LE DUE PARTITE DI 3E, pagate qui: il rapporto di 3E aveva composto
+A MANO i numeri del perimetro («4 toccate») perche' lo strumento
+dava zero e nessuno l'ha dichiarato guasto — la prassi dello
+strumento dice «si incolla verbatim», e un controllo che da' un
+numero impossibile si dichiara, non si aggira (§4.25). ADEMPIMENTI:
+errata DATATA nel rapporto di 3E coi numeri ricontati dallo
+strumento riparato (37 nate · 12 toccate · 49 controllate), e riga
+in §5 del passaggio di consegne — e' la stessa malattia dei numeri a
+mano, comparsa stavolta dentro una sessione.
+
+---------------------------------------------------------------------
+PARTE 2 — LE DECISIONI SULLE CINQUE VOCI DEL §10
+---------------------------------------------------------------------
+Adempimento d'apertura: E65 a metodo_03 col marcatore e la riga nel
+registro (occasione: «gate del lotto 3F»); le TRE estensioni dentro
+il testo di E10, E50 ed E57, datate, con la coda nelle rispettive
+righe di registro. `verifica_emendamenti.py` deve restare verde, e
+concorde a 65.
+
+2.1 VOCE 1 → E10 SI ESTENDE: LA PROPRIETA' DEL DELIMITATORE VALE PER
+    OGNI DELIMITATORE DELLA CATENA — grezzo, note, fonti del
+    pacchetto, e ogni delimitatore che la catena acquistera': una
+    stringa che il contenuto non puo' scrivere, dichiarata e
+    COLLAUDATA per ciascuno. Il commento dello strumento la sapeva
+    per le note e non l'aveva detta per le fonti: da oggi la regola
+    e' una e vale per tutti.
+
+2.2 VOCE 2 → E50 SI ESTENDE E IL FIX SI FA SUBITO: il derivato e'
+    derivato qualunque sia il genere. L'esenzione `RE_DERIVATO` si
+    estende al genere `data` (e a ogni genere marcabile): e' un fix
+    di PERIMETRO di un controllo (§4), si applica adesso, con i
+    difetti piantati nei due versi — data derivata marcata che
+    passa, data non marcata senza fonte che scatta — piu' il
+    non-scatto di regressione sul numero, e il confronto riga per
+    riga sul fuori perimetro dopo il fix. POI la data del 26/05
+    RIENTRA nel corpo della nota con la marca del derivato: il
+    vault torna preciso quanto puo' essere. Lo slug resta
+    com'e' — «il mattino dopo» non afferma il falso, e un rinomino
+    senza necessita' e' churn;
+
+2.3 VOCE 5 → E65 NASCE, ED E' IL CAPPELLO: un'affermazione vale nel
+    perimetro delle fonti che la nota cita, e per uscirne serve un
+    artefatto o un rimando. E47, E3/E43, E57 ed E64 restano le porte
+    delle loro specie — E65 non le sostituisce, le contiene, e da'
+    per la prima volta una regola alla regola generale importata e
+    al nesso causale, le due specie senza porta deterministica che
+    solo chi confronta la frase col perimetro puo' vedere. E' il
+    pattern che E26 ha imposto di nominare, sei occorrenze in sei
+    specie: ogni emendamento chiudeva una porta e la classe entrava
+    dall'altra — ora la classe ha il suo nome sopra la porta.
+    VOCE 3 → ACCOLTA DENTRO E65 come dice il rapporto («la 5 rende
+    la 3 un esempio»), MA con la sua regola operativa che resta:
+    E57 ESTESO — il superlativo con soggetto-elenco porta IL CONTO,
+    come un derivato porta la marca. «Tre su dieci (contate)», non
+    «l'unica»: il gesto e' concreto, verificabile, e chiude la
+    porta specifica da cui la specie e' entrata tre volte.
+
+2.4 VOCE 4 → LO STRUMENTO NON SI TOCCA. I tre residui-enumerazione
+    dichiarati col loro nome SONO la forma giusta: cambiare l'unita'
+    della misura a numeri visti romperebbe la comparabilita' della
+    serie (§4.45) e sarebbe un fix che allenta (§4.9), su tre casi
+    di un solo lotto — e di un lotto fatto di elenchi per natura.
+    CRITERIO PRE-REGISTRATO, riga in §6 del passaggio di consegne:
+    SE in DUE lotti futuri i residui-enumerazione sono la meta' o
+    piu' delle scoperte del tasso, la distinzione
+    affermazione/enumerazione si meccanizza con la disciplina di
+    §4.9 — perimetro chiuso, difetti piantati nei due versi — e la
+    serie annota il cambio d'unita' dal punto in cui vale. Se non
+    accade, il residuo dichiarato basta.
+
+2.5 R2 E I CENSIMENTI: per le note del suo perimetro, R2 ripara
+    anche le occorrenze dei tre censimenti aperti — T142
+    (superlativi), T158 (intestazioni), T169 (assenze) — che vi
+    cadono, e il rapporto dichiara il conto: «censite nel
+    perimetro: N, riparate: M». E' la clausola «nel lotto che le
+    tocca», applicata al primo lotto che ne tocca tante.
+
+---------------------------------------------------------------------
+PARTE 3 — REGISTRI E CHIUSURA DEL GATE
+---------------------------------------------------------------------
+E65 a metodo_03 col marcatore e la riga nel registro nello stesso
+turno; le tre estensioni dentro i testi di E10/E50/E57 con data e
+occasione; il fix dell'esenzione data col suo collaudo e il
+confronto riga per riga (2.2), e la data del 26/05 reintegrata; il
+criterio pre-registrato in §6 (2.4); l'errata datata nel rapporto di
+3E e la riga di §5 (PARTE 1); §3 del passaggio di consegne riscritta
+coi numeri INCOLLATI — il tema 3 chiuso, prossimo atto R2; le righe
+da stato (B3 fermata dallo script; il tetto che divide; la serie che
+non si somma; il quadro del tema). Commit «Gate 3F: E65, le tre
+estensioni, la data derivata — il tema 3 e' chiuso» + push.
+
+---------------------------------------------------------------------
+PARTE 4 — STOP DICHIARATO
+---------------------------------------------------------------------
+Se dopo le PARTI 2-3 il contesto e' consumato, CHIUDI coi cinque
+gesti: R2 apre a mente fresca con questo stesso file, dalla PARTE 5.
+
+---------------------------------------------------------------------
+PARTE 5 — APERTURA DI R2 (manutenzione, due domini)
+---------------------------------------------------------------------
+Il lotto di manutenzione nato dagli spezzamenti di 3D e 3E. §3-bis
+di `prompt_s4_lotti.txt` alla lettera, e in particolare:
+
+5.1 PERIMETRO RIGENERATO, NON EREDITATO: `candidate_r1.py --dominio
+    reclami` e `--dominio ritiro`, coi domini nello stato in cui i
+    gate li hanno lasciati — SENZA `\bPRO-QA-11\b` (respinta dalla
+    prova B al gate di 3E, salvo prova nuova) e senza le espressioni
+    espunte. L'elenco delle note lo genera lo script, il criterio si
+    scrive nel rapporto, e il perimetro va in
+    `qa\lotti\r2_reclami_verticale_note.txt` (elenco grezzi vuoto
+    con `# MANUTENZIONE` in testa). IL RAPPORTO DICHIARA LA
+    DIFFERENZA rispetto alle 65 + 35 note degli spezzamenti: quella
+    differenza misura quanto 3D, 3E e 3F hanno gia' sanato, ed e' un
+    numero che il progetto aspetta da tre lotti.
+
+5.2 IL LAVORO: ogni nota del perimetro si rilegge contro le fonti
+    prescrittive dei due domini (E36: la fonte che prescrive CIO' DI
+    CUI la nota parla), con gli strumenti al completo — E61 con le
+    due estensioni, E39 con gli hub, E64 ed E65 in vigore dal primo
+    turno, l'estrazione di cantiere per i grezzi. Le correzioni sono
+    scritture: perimetro E32 tenuto MENTRE si lavora.
+
+5.3 I CENSIMENTI (2.5): le occorrenze di T142/T158/T169 sulle note
+    del perimetro si riparano qui, col conto dichiarato.
+
+5.4 I TRE NUMERI del §3-bis nel rapporto: note guardate, note
+    corrette, tasso di difetto — e' il tasso di riapertura dei due
+    domini, quello che gli spezzamenti hanno rimandato a R2. Niente
+    capacita' 25-35; se una correzione fa emergere un fatto senza
+    padrone la nota si scrive, e sopra le 30 nuove valgono le soglie
+    di E28. R2 vale UN lotto nel ritmo e resta fuori dalla serie
+    della capacita' (E38).
+
+5.5 RITMO: R2 chiude la sessione — revisione col canone via
+    subagente (E45) sulle note toccate, giudizio dedicato alle note
+    nate se nascono (E58), misure E44 con l'ora, adempimenti del
+    passo 11 in quanto applicabili, cinque gesti, push, zip. Poi il
+    rapporto al coordinatore. DOPO R2 viene il ripacchettamento del
+    TEMA 4 in apertura (E31) — al gate di R2, non prima.
+
+---------------------------------------------------------------------
+GUARDIE GENERALI
+---------------------------------------------------------------------
+- 03_valutazione\ non si apre mai, per nessuno, subagenti compresi.
+- Il canone guida e non appare NELLE NOTE; il revisore lo riceve (E45),
+  il giudizio mai.
+- Ogni numero da script, con l'ora della misura (E44) — e i numeri
+  del perimetro si INCOLLANO da `conta_perimetro_lotto.py`: uno
+  strumento che da' un numero impossibile si dichiara guasto, non
+  si aggira.
+- L'estrattore di MISURA non si tocca; l'estrazione di cantiere e' la
+  via di QA e giudizio.
+- Se qualcosa qui contraddice metodo_03 O LE FONTI, vince la fonte e
+  lo segnali: le correzioni al coordinatore sono sei, e la settima
+  aspetta solo un numero non verificato.
+=====================================================================

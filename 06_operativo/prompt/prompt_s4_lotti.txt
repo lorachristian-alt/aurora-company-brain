@@ -303,7 +303,14 @@ cosa sola, ma decisiva:
      certifica il numero, dichiara che va ricontato, e il dato di 3A
      lo prova: le cifre marcate erano tutte esatte, le sbagliate
      tutte non marcate. Per chi giudica: le cifre NON marcate sono le
-     sospette;
+     sospette.
+     ESTESO AL GATE 3F: il derivato e' derivato QUALUNQUE SIA IL
+     GENERE — una data ottenuta da «domani» piu' la data della mail
+     e' un valore derivato quanto un conteggio, porta la marca, e
+     l'esenzione del controllo vale per lei come per un numero. Il
+     caso: una nota ha dovuto togliere una data esatta dal corpo
+     per un buco dello strumento, e la via d'uscita facile —
+     scriverla in lettere — era un trucco, e non e' stata presa;
    - E54: NESSUNA NOTA CITA O DESCRIVE UN DOCUMENTO CHE CHI SCRIVE
      NON HA APERTO. Vale per ogni nome in `fonti` e per ogni documento
      NOMINATO nel corpo: o e' stato aperto, o la nota non ne parla
@@ -332,7 +339,13 @@ cosa sola, ma decisiva:
      da nessuna nota, perche' nessuna nota ha l'archivio fra le
      fonti: si restringe al perimetro citato, o va in tabella di
      tracciamento. Quattordici casi verificati in 3C: dieci reggono,
-     tutti con soggetto-documento;
+     tutti con soggetto-documento.
+     ESTESO AL GATE 3F: il superlativo il cui soggetto e' UN ELENCO
+     DELLA FONTE porta IL CONTO, come un valore derivato porta la
+     marca — «tre su dieci (contate)», non «l'unica». E57
+     classificava e non obbligava a contare: tre smentiti in un
+     lotto solo, due dentro correzioni scritte per chiuderli, tutti
+     controllabili in dieci secondi contando le righe della fonte;
    - E64: IL RIMANDO NOMINA, NON ASSERISCE. Una frase di raccordo
      verso un'altra nota non afferma nulla del contenuto di quella
      nota ne' delle sue fonti: «la questione ha le sue fonti e sta
@@ -343,6 +356,22 @@ cosa sola, ma decisiva:
      il grafo: chi scrive sta collegando, non affermando, ma il
      lettore e il giudice leggono un'affermazione. Il terzo giro di
      3E l'ha nominata come E26 impone, da tre fette indipendenti;
+   - E65 — IL CAPPELLO DELLA FAMIGLIA: UN'AFFERMAZIONE VALE NEL
+     PERIMETRO DELLE FONTI CHE LA NOTA CITA, E PER USCIRNE SERVE UN
+     ARTEFATTO O UN RIMANDO. Prima di scrivere una frase che
+     generalizza — un primato, un'assenza, una regola, un nesso
+     causale, una totalita' — chi scrive si chiede «dove lo so?»:
+     se la risposta non sta nelle fonti della nota, la frase si
+     restringe al perimetro citato, esce con l'artefatto (E43) o
+     col rimando che nomina (E64), o va in tabella di tracciamento.
+     E47, E3/E43, E57 ed E64 restano le porte delle loro specie; la
+     regola generale importata e il nesso causale non hanno porta
+     deterministica — nessun numero, nessun superlativo, nessuna
+     negazione — e li vede solo chi confronta la frase col
+     perimetro: chi scrive prima, il giudizio poi. Nominata da E26
+     al terzo giro di 3F: sei occorrenze, sei specie, nessuna
+     dentro il perimetro delle proprie fonti — ogni emendamento
+     chiudeva una porta, e la classe entrava dall'altra;
    - E48, i due strati che l'estrattore congelato non vede: le FORMULE
      dei fogli di calcolo (1.697 celle nel corpus, tutte senza valore
      in cache) e il BARRATO dei documenti. La QA e il pacchetto del
@@ -735,8 +764,8 @@ STOP-LOSS E COSA NON FARE
 ---------------------------------------------------------------------
 ALLINEAMENTO DI QUESTO PROMPT
 ---------------------------------------------------------------------
-Allineato al: 2026-08-24, dopo il gate del lotto 3E.
-Ultimo emendamento recepito: E64.
+Allineato al: 2026-08-25, dopo il gate del lotto 3F.
+Ultimo emendamento recepito: E65.
 Scritto dal coordinatore: questo file e' l'istruzione DATA alla
 sessione, e una sessione non riscrive le proprie istruzioni.
 Recepiti rispetto alla versione precedente (ferma al gate S2, 19
@@ -774,19 +803,20 @@ l'artefatto d'apertura e il passo pre-giudizio · E61 una correzione e'
 una scrittura · E62 l'obbligo del canone verso un lotto futuro si
 specchia in tabella di tracciamento · E63 la copertura si verifica
 anche al contrario: il paragrafo prescrittivo senza nota si dichiara
-· E64 il rimando nomina, non asserisce. E62-E63, con le estensioni
-di E30/E39/E59/E61 del gate 3D, sono GIA' in metodo_03 e nel
-registro. E64 nasce col gate di 3E: la prima sessione che usa questa
-versione lo applica a metodo_03 e al registro PRIMA di aprire il
-lotto. Allo stesso gate sono ESTESI, senza numero nuovo, E41 (il
-punto degenere del lotto mono-fonte), E39 (gli hub come superfici
-della ricerca, seconda estensione), E60 (l'accostamento per evento)
-ed E61 (la frase nuova porta il riscontro nel turno, seconda
-estensione), e la revisione della capacita' e' ESEGUITA (v. §2): le
-estensioni si applicano a metodo_03 DENTRO il testo dei rispettivi
-emendamenti, datate con l'occasione, e la riga di ciascuno nel
-registro prende la coda dell'estensione —
-`verifica_emendamenti.py` deve restare verde, e concorde a 64.
+· E64 il rimando nomina, non asserisce · E65 un'affermazione vale
+nel perimetro delle fonti che la nota cita, e per uscirne serve un
+artefatto o un rimando. Fino a E64, con le estensioni dei gate 3D e
+3E, tutto e' GIA' in metodo_03 e nel registro. E65 nasce col gate di
+3F: la prima sessione che usa questa versione lo applica a metodo_03
+e al registro PRIMA di aprire il lotto. Allo stesso gate sono
+ESTESI, senza numero nuovo, E10 (la proprieta' del delimitatore vale
+per OGNI delimitatore della catena: grezzo, note, fonti), E50 (il
+derivato e' derivato qualunque sia il genere) ed E57 (il superlativo
+con soggetto-elenco porta il conto): le estensioni si applicano a
+metodo_03 DENTRO il testo dei rispettivi emendamenti, datate con
+l'occasione, e la riga di ciascuno nel registro prende la coda
+dell'estensione — `verifica_emendamenti.py` deve restare verde, e
+concorde a 65.
 CONTROLLO DI SCOSTAMENTO: confronta questa riga con l'ultima riga di
 `registro_emendamenti.md`. Se il registro e' piu' avanti, il prompt e'
 vecchio: dillo nel rapporto, non compensare a mano.
