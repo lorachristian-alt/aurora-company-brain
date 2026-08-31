@@ -1,4 +1,4 @@
-## qa_link_integrity (perimetro: lotto, 508 note nel vault)
+## qa_link_integrity (perimetro: lotto, 509 note nel vault)
 
 - ERRORI: **0**
 - AVVISI: **31**

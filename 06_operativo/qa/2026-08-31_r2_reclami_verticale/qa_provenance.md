@@ -1,7 +1,7 @@
-## qa_provenance (perimetro: lotto, 114 note)
+## qa_provenance (perimetro: lotto, 115 note)
 
 - ERRORI: **0**
-- AVVISI: **35**
+- AVVISI: **36**
 
 ### Avvisi
 
@@ -44,3 +44,4 @@ stimata dalla foto 7-9 mm» — la nota cita un .jpg, riscontro visivo da chiude
 | `doc-riesame-post-crisi.md` |  | provenance | la fonte 'procedura_ritiro_prodotto_CRISI_GDO.txt' non aggancia nessuna affermazione della nota: rumore nel payload |
 | `doc-verifiche-immediate-reclamo.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 | `concetto-fefo.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
+| `kpi-registro-reclami-2026.md` |  | provenance | riscontro in testo revocato: «I reclami di classe 1 e 2 vengono comunicati al ti» e' barrato in PRO-QA-08_gestione_reclami_cliente_rev2.docx, e la nota non lo dichiara |
