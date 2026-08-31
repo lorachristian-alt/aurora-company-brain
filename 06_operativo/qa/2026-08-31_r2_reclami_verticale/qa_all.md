@@ -1,7 +1,7 @@
 # Suite QA delle note — report unico
 
 - Data: 2026-08-31
-- Perimetro: **lotto** (lotto `r2_reclami_verticale`) — **perimetro di manutenzione: 0 grezzi, 102 note** (E35)
+- Perimetro: **lotto** (lotto `r2_reclami_verticale`) — **perimetro di manutenzione: 0 grezzi, 103 note** (E35)
 - Vault: `C:\Users\buulo\Desktop\aurora-cervello`
 
 | Controllo | Codice di uscita |
@@ -13,7 +13,7 @@
 
 ## Riga di riepilogo per lo stato di sessione
 
-> suite QA · perimetro manutenzione (0 grezzi, 102 note) · **0 ERRORI, 116 AVVISI** · esito **GIALLO**
+> suite QA · perimetro manutenzione (0 grezzi, 103 note) · **0 ERRORI, 118 AVVISI** · esito **GIALLO**
 
 ---
 
@@ -22,7 +22,7 @@
 | Cartella | Note |
 |---|---|
 | `self\` | 2 |
-| `areas\` | 285 |
+| `areas\` | 286 |
 | `projects\` | 18 |
 | `docs\` | 71 |
 | `entities\` | 34 |
@@ -32,25 +32,25 @@
 | `code\` | 16 |
 | `workspace\` | 16 |
 | `sources\` | 1 |
-| **totale** | **507** |
+| **totale** | **508** |
 
-*Escluse `workspace\` e `sources\` dai conteggi di qualità: **490** note.*
+*Escluse `workspace\` e `sources\` dai conteggi di qualità: **491** note.*
 
 | `type` | Note |
 |---|---|
 | `atomica` | 363 |
 | `concetto` | 6 |
-| `conflitto` | 73 |
+| `conflitto` | 74 |
 | `entita` | 26 |
 | `hub` | 15 |
 | `index` | 11 |
 | `sessione` | 13 |
 
 ---
-## qa_frontmatter (perimetro: lotto, 113 note)
+## qa_frontmatter (perimetro: lotto, 114 note)
 
 - ERRORI: **0**
-- AVVISI: **50**
+- AVVISI: **52**
 
 ### Avvisi
 
@@ -84,12 +84,14 @@
 | `fatto-prodotto-non-segregato-deviazione-ccp2.md` |  | frontmatter | corpo di 348 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-prodotto-non-segregato-deviazione-ccp2.md` |  | frontmatter | dichiara un'assenza con la formula di E3 ma non rimanda a un artefatto di ricerca in 06_operativo\ricerche_assenza\ (E43) — debito anteriore a E43, da sanare a fine corsa |
 | `fatto-rework-linea-1-sospeso.md` |  | frontmatter | summary di 288 caratteri (tetto 250) |
+| `fatto-riunione-direzione-reclamo-l26130.md` |  | frontmatter | corpo di 336 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-sopralluogo-interno-del-27-maggio-quattro-punti-critici.md` |  | frontmatter | summary di 311 caratteri (tetto 250) |
+| `fatto-test-rintracciabilita-audit-2h50.md` |  | frontmatter | corpo di 314 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-verifiche-ccp3-turno-l26130.md` |  | frontmatter | corpo di 311 parole: fra 301 e 350, si motiva o si spezza |
 | `questione-carrello-ricambi-dichiarato-rimosso.md` |  | frontmatter | summary di 305 caratteri (tetto 250) |
 | `questione-consegna-farina-mv26-0429a.md` |  | frontmatter | dichiara un'assenza sull'archivio FUORI dalla formula di attestazione di E3, in `corpo` («Le letture possibili sono almeno due, e **nessun documento dell'archivio dice quale sia»), e non rimanda a nessun artefatto di ricerca in 06_operativo\ricerche_assenza\: si riscrive con la formula e la ricerca lascia il suo artefatto, oppure si restringe il perimetro (E3, E43) — debito anteriore al riconoscitore della classe `assenza`, da sanare a fine corsa |
 | `questione-materiale-guarnizione-pkm-450.md` |  | frontmatter | dichiara un'assenza con la formula di E3 ma non rimanda a un artefatto di ricerca in 06_operativo\ricerche_assenza\ (E43) — debito anteriore a E43, da sanare a fine corsa |
-| `fatto-blocco-cautelativo-lotti.md` |  | frontmatter | corpo di 335 parole: fra 301 e 350, si motiva o si spezza |
+| `fatto-blocco-cautelativo-lotti.md` |  | frontmatter | corpo di 350 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-misura-frammento-rec-2026-011.md` |  | frontmatter | corpo di 326 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-richiesta-relazione-48-ore.md` |  | frontmatter | corpo di 345 parole: fra 301 e 350, si motiva o si spezza |
 | `progetto-controllo-ufficiale-ats-2026.md` |  | frontmatter | summary di 261 caratteri (tetto 250) |
@@ -98,7 +100,7 @@
 | `doc-documentazione-richiesta-dall-ats.md` |  | frontmatter | summary di 262 caratteri (tetto 250) |
 | `doc-riesame-post-crisi.md` |  | frontmatter | summary di 257 caratteri (tetto 250) |
 | `doc-verifiche-immediate-reclamo.md` |  | frontmatter | summary di 263 caratteri (tetto 250) |
-| `kpi-mass-balance-l26130.md` |  | frontmatter | corpo di 332 parole: fra 301 e 350, si motiva o si spezza |
+| `kpi-mass-balance-l26130.md` |  | frontmatter | corpo di 340 parole: fra 301 e 350, si motiva o si spezza |
 | `kpi-mass-balance-l26130.md` |  | frontmatter | dichiara un'assenza sull'archivio FUORI dalla formula di attestazione di E3, in `corpo` («**Nessun documento dell'archivio conferma l'ipotesi.**»), e non rimanda a nessun artefatto di ricerca in 06_operativo\ricerche_assenza\: si riscrive con la formula e la ricerca lascia il suo artefatto, oppure si restringe il perimetro (E3, E43) — debito anteriore al riconoscitore della classe `assenza`, da sanare a fine corsa |
 | `kpi-obiettivi-politica-2026.md` |  | frontmatter | summary di 300 caratteri (tetto 250) |
 | `kpi-obiettivi-politica-2026.md` |  | frontmatter | summary contiene piu' di una frase |
@@ -108,7 +110,7 @@
 | `questione-un-richiamo-in-classe-2.md` |  | frontmatter | summary di 263 caratteri (tetto 250) |
 
 
-## qa_link_integrity (perimetro: lotto, 507 note nel vault)
+## qa_link_integrity (perimetro: lotto, 508 note nel vault)
 
 - ERRORI: **0**
 - AVVISI: **31**
@@ -150,7 +152,7 @@
 | `sessione-s4-lotto-03b.md` |  | link | dichiara l'hub [[area-risorse-umane]] come proprio in related, ma quell'hub non la elenca nel corpo |
 
 
-## qa_provenance (perimetro: lotto, 113 note)
+## qa_provenance (perimetro: lotto, 114 note)
 
 - ERRORI: **0**
 - AVVISI: **35**
@@ -198,7 +200,7 @@ stimata dalla foto 7-9 mm» — la nota cita un .jpg, riscontro visivo da chiude
 | `concetto-fefo.md` |  | provenance | summary e title si sovrappongono per meno del 20%: da ispezionare |
 
 
-## qa_copertura (perimetro: lotto, 113 note)
+## qa_copertura (perimetro: lotto, 114 note)
 
 - ERRORI: **0**
 - AVVISI: **0**
@@ -224,7 +226,7 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 |---|---|---|---|
 | `area-direzione.md` | hub | aperto | 1 |
 | `fatto-l-ispezione-attesa-dal-13-maggio-per-via-della-consulente.md` | atomica | risolto | 3 |
-| `fatto-riunione-direzione-reclamo-l26130.md` | atomica | risolto | 1 |
+| `fatto-riunione-direzione-reclamo-l26130.md` | atomica | risolto | 2 |
 | `questione-data-riunione-direzione.md` | conflitto | aperto | 2 |
 
 ### logistica
@@ -283,13 +285,13 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `entita-analytica-veneta.md` | entita | risolto | 3 |
 | `entita-elena-marchetti.md` | entita | risolto | 5 |
 | `fatto-aurora-classificata-a-rischio-medio-alto.md` | atomica | risolto | 1 |
-| `fatto-blocco-cautelativo-lotti.md` | atomica | risolto | 6 |
+| `fatto-blocco-cautelativo-lotti.md` | atomica | risolto | 8 |
 | `fatto-ccp3-non-in-causa-sul-frammento.md` | atomica | risolto | 3 |
-| `fatto-classe-2-provvisoria-sul-frammento.md` | atomica | risolto | 1 |
+| `fatto-classe-2-provvisoria-sul-frammento.md` | atomica | risolto | 2 |
 | `fatto-condizioni-uso-marchio-brcgs.md` | atomica | risolto | 1 |
 | `fatto-convalida-md-1800-scaduta.md` | atomica | aperto | 3 |
 | `fatto-cruscotto-colonne-mai-calcolate.md` | atomica | aperto | 1 |
-| `fatto-decisione-erp-rimandata.md` | atomica | aperto | 1 |
+| `fatto-decisione-erp-rimandata.md` | atomica | aperto | 2 |
 | `fatto-due-dei-tre-rilievi-e-il-sopralluogo-interno.md` | atomica | risolto | 3 |
 | `fatto-due-segnalazioni-rendono-il-ritiro-non-rimandabile.md` | atomica | risolto | 2 |
 | `fatto-form-sito-senza-lotto-obbligatorio.md` | atomica | aperto | 1 |
@@ -317,12 +319,12 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `fatto-rework-linea-1-sospeso.md` | atomica | aperto | 1 |
 | `fatto-semilavorati-senza-identificazione-in-cella.md` | atomica | risolto | 1 |
 | `fatto-sopralluogo-interno-del-27-maggio-quattro-punti-critici.md` | atomica | risolto | 3 |
-| `fatto-test-rintracciabilita-audit-2h50.md` | atomica | risolto | 3 |
+| `fatto-test-rintracciabilita-audit-2h50.md` | atomica | risolto | 4 |
 | `fatto-verifiche-ccp3-turno-l26130.md` | atomica | risolto | 3 |
-| `kpi-indicatori-2025-consuntivo.md` | atomica | risolto | 1 |
+| `kpi-indicatori-2025-consuntivo.md` | atomica | risolto | 2 |
 | `kpi-indicatori-mensili-2026.md` | atomica | risolto | 1 |
-| `kpi-mass-balance-l26130.md` | atomica | aperto | 2 |
-| `kpi-obiettivi-2026-avanzamento.md` | atomica | risolto | 1 |
+| `kpi-mass-balance-l26130.md` | atomica | aperto | 3 |
+| `kpi-obiettivi-2026-avanzamento.md` | atomica | risolto | 2 |
 | `kpi-obiettivi-politica-2026.md` | atomica | risolto | 1 |
 | `kpi-pareto-cause-nc-2026.md` | atomica | aperto | 2 |
 | `kpi-reclami-2025.md` | atomica | risolto | 2 |
@@ -335,7 +337,8 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `questione-aw-umidita-af-sn-0450.md` | conflitto | aperto | 3 |
 | `questione-carrello-ricambi-dichiarato-rimosso.md` | conflitto | aperto | 8 |
 | `questione-cruscotto-e-obiettivi-non-si-mappano.md` | conflitto | aperto | 2 |
-| `questione-data-apertura-rec-2026-011.md` | conflitto | aperto | 5 |
+| `questione-data-apertura-rec-2026-011.md` | conflitto | aperto | 6 |
+| `questione-due-cartellini-per-lo-stesso-blocco.md` | conflitto | aperto | 3 |
 | `questione-misura-frammento-strumentale.md` | conflitto | aperto | 3 |
 | `questione-posizione-md-3200-in-linea.md` | conflitto | aperto | 4 |
 | `questione-referenza-del-secondo-reclamo.md` | conflitto | aperto | 2 |

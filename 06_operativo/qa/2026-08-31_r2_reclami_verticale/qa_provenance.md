@@ -1,4 +1,4 @@
-## qa_provenance (perimetro: lotto, 113 note)
+## qa_provenance (perimetro: lotto, 114 note)
 
 - ERRORI: **0**
 - AVVISI: **35**

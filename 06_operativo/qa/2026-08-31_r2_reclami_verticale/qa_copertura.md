@@ -1,4 +1,4 @@
-## qa_copertura (perimetro: lotto, 113 note)
+## qa_copertura (perimetro: lotto, 114 note)
 
 - ERRORI: **0**
 - AVVISI: **0**
@@ -24,7 +24,7 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 |---|---|---|---|
 | `area-direzione.md` | hub | aperto | 1 |
 | `fatto-l-ispezione-attesa-dal-13-maggio-per-via-della-consulente.md` | atomica | risolto | 3 |
-| `fatto-riunione-direzione-reclamo-l26130.md` | atomica | risolto | 1 |
+| `fatto-riunione-direzione-reclamo-l26130.md` | atomica | risolto | 2 |
 | `questione-data-riunione-direzione.md` | conflitto | aperto | 2 |
 
 ### logistica
@@ -83,13 +83,13 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `entita-analytica-veneta.md` | entita | risolto | 3 |
 | `entita-elena-marchetti.md` | entita | risolto | 5 |
 | `fatto-aurora-classificata-a-rischio-medio-alto.md` | atomica | risolto | 1 |
-| `fatto-blocco-cautelativo-lotti.md` | atomica | risolto | 6 |
+| `fatto-blocco-cautelativo-lotti.md` | atomica | risolto | 8 |
 | `fatto-ccp3-non-in-causa-sul-frammento.md` | atomica | risolto | 3 |
-| `fatto-classe-2-provvisoria-sul-frammento.md` | atomica | risolto | 1 |
+| `fatto-classe-2-provvisoria-sul-frammento.md` | atomica | risolto | 2 |
 | `fatto-condizioni-uso-marchio-brcgs.md` | atomica | risolto | 1 |
 | `fatto-convalida-md-1800-scaduta.md` | atomica | aperto | 3 |
 | `fatto-cruscotto-colonne-mai-calcolate.md` | atomica | aperto | 1 |
-| `fatto-decisione-erp-rimandata.md` | atomica | aperto | 1 |
+| `fatto-decisione-erp-rimandata.md` | atomica | aperto | 2 |
 | `fatto-due-dei-tre-rilievi-e-il-sopralluogo-interno.md` | atomica | risolto | 3 |
 | `fatto-due-segnalazioni-rendono-il-ritiro-non-rimandabile.md` | atomica | risolto | 2 |
 | `fatto-form-sito-senza-lotto-obbligatorio.md` | atomica | aperto | 1 |
@@ -117,12 +117,12 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `fatto-rework-linea-1-sospeso.md` | atomica | aperto | 1 |
 | `fatto-semilavorati-senza-identificazione-in-cella.md` | atomica | risolto | 1 |
 | `fatto-sopralluogo-interno-del-27-maggio-quattro-punti-critici.md` | atomica | risolto | 3 |
-| `fatto-test-rintracciabilita-audit-2h50.md` | atomica | risolto | 3 |
+| `fatto-test-rintracciabilita-audit-2h50.md` | atomica | risolto | 4 |
 | `fatto-verifiche-ccp3-turno-l26130.md` | atomica | risolto | 3 |
-| `kpi-indicatori-2025-consuntivo.md` | atomica | risolto | 1 |
+| `kpi-indicatori-2025-consuntivo.md` | atomica | risolto | 2 |
 | `kpi-indicatori-mensili-2026.md` | atomica | risolto | 1 |
-| `kpi-mass-balance-l26130.md` | atomica | aperto | 2 |
-| `kpi-obiettivi-2026-avanzamento.md` | atomica | risolto | 1 |
+| `kpi-mass-balance-l26130.md` | atomica | aperto | 3 |
+| `kpi-obiettivi-2026-avanzamento.md` | atomica | risolto | 2 |
 | `kpi-obiettivi-politica-2026.md` | atomica | risolto | 1 |
 | `kpi-pareto-cause-nc-2026.md` | atomica | aperto | 2 |
 | `kpi-reclami-2025.md` | atomica | risolto | 2 |
@@ -135,7 +135,8 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `questione-aw-umidita-af-sn-0450.md` | conflitto | aperto | 3 |
 | `questione-carrello-ricambi-dichiarato-rimosso.md` | conflitto | aperto | 8 |
 | `questione-cruscotto-e-obiettivi-non-si-mappano.md` | conflitto | aperto | 2 |
-| `questione-data-apertura-rec-2026-011.md` | conflitto | aperto | 5 |
+| `questione-data-apertura-rec-2026-011.md` | conflitto | aperto | 6 |
+| `questione-due-cartellini-per-lo-stesso-blocco.md` | conflitto | aperto | 3 |
 | `questione-misura-frammento-strumentale.md` | conflitto | aperto | 3 |
 | `questione-posizione-md-3200-in-linea.md` | conflitto | aperto | 4 |
 | `questione-referenza-del-secondo-reclamo.md` | conflitto | aperto | 2 |

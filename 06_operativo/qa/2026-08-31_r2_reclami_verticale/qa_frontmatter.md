@@ -1,7 +1,7 @@
-## qa_frontmatter (perimetro: lotto, 113 note)
+## qa_frontmatter (perimetro: lotto, 114 note)
 
 - ERRORI: **0**
-- AVVISI: **50**
+- AVVISI: **52**
 
 ### Avvisi
 
@@ -35,12 +35,14 @@
 | `fatto-prodotto-non-segregato-deviazione-ccp2.md` |  | frontmatter | corpo di 348 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-prodotto-non-segregato-deviazione-ccp2.md` |  | frontmatter | dichiara un'assenza con la formula di E3 ma non rimanda a un artefatto di ricerca in 06_operativo\ricerche_assenza\ (E43) — debito anteriore a E43, da sanare a fine corsa |
 | `fatto-rework-linea-1-sospeso.md` |  | frontmatter | summary di 288 caratteri (tetto 250) |
+| `fatto-riunione-direzione-reclamo-l26130.md` |  | frontmatter | corpo di 336 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-sopralluogo-interno-del-27-maggio-quattro-punti-critici.md` |  | frontmatter | summary di 311 caratteri (tetto 250) |
+| `fatto-test-rintracciabilita-audit-2h50.md` |  | frontmatter | corpo di 314 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-verifiche-ccp3-turno-l26130.md` |  | frontmatter | corpo di 311 parole: fra 301 e 350, si motiva o si spezza |
 | `questione-carrello-ricambi-dichiarato-rimosso.md` |  | frontmatter | summary di 305 caratteri (tetto 250) |
 | `questione-consegna-farina-mv26-0429a.md` |  | frontmatter | dichiara un'assenza sull'archivio FUORI dalla formula di attestazione di E3, in `corpo` («Le letture possibili sono almeno due, e **nessun documento dell'archivio dice quale sia»), e non rimanda a nessun artefatto di ricerca in 06_operativo\ricerche_assenza\: si riscrive con la formula e la ricerca lascia il suo artefatto, oppure si restringe il perimetro (E3, E43) — debito anteriore al riconoscitore della classe `assenza`, da sanare a fine corsa |
 | `questione-materiale-guarnizione-pkm-450.md` |  | frontmatter | dichiara un'assenza con la formula di E3 ma non rimanda a un artefatto di ricerca in 06_operativo\ricerche_assenza\ (E43) — debito anteriore a E43, da sanare a fine corsa |
-| `fatto-blocco-cautelativo-lotti.md` |  | frontmatter | corpo di 335 parole: fra 301 e 350, si motiva o si spezza |
+| `fatto-blocco-cautelativo-lotti.md` |  | frontmatter | corpo di 350 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-misura-frammento-rec-2026-011.md` |  | frontmatter | corpo di 326 parole: fra 301 e 350, si motiva o si spezza |
 | `fatto-richiesta-relazione-48-ore.md` |  | frontmatter | corpo di 345 parole: fra 301 e 350, si motiva o si spezza |
 | `progetto-controllo-ufficiale-ats-2026.md` |  | frontmatter | summary di 261 caratteri (tetto 250) |
@@ -49,7 +51,7 @@
 | `doc-documentazione-richiesta-dall-ats.md` |  | frontmatter | summary di 262 caratteri (tetto 250) |
 | `doc-riesame-post-crisi.md` |  | frontmatter | summary di 257 caratteri (tetto 250) |
 | `doc-verifiche-immediate-reclamo.md` |  | frontmatter | summary di 263 caratteri (tetto 250) |
-| `kpi-mass-balance-l26130.md` |  | frontmatter | corpo di 332 parole: fra 301 e 350, si motiva o si spezza |
+| `kpi-mass-balance-l26130.md` |  | frontmatter | corpo di 340 parole: fra 301 e 350, si motiva o si spezza |
 | `kpi-mass-balance-l26130.md` |  | frontmatter | dichiara un'assenza sull'archivio FUORI dalla formula di attestazione di E3, in `corpo` («**Nessun documento dell'archivio conferma l'ipotesi.**»), e non rimanda a nessun artefatto di ricerca in 06_operativo\ricerche_assenza\: si riscrive con la formula e la ricerca lascia il suo artefatto, oppure si restringe il perimetro (E3, E43) — debito anteriore al riconoscitore della classe `assenza`, da sanare a fine corsa |
 | `kpi-obiettivi-politica-2026.md` |  | frontmatter | summary di 300 caratteri (tetto 250) |
 | `kpi-obiettivi-politica-2026.md` |  | frontmatter | summary contiene piu' di una frase |
