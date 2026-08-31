@@ -28,8 +28,21 @@
 # padroni dello stesso lavoro. Le due procedure - PRO-QA-08 e PRO-QA-14 - sono le due meta'
 # dello stesso ciclo, e chi ripara l'una guarda l'altra.
 # ⚠️ IL PERIMETRO SI RIGENERA ALL'APERTURA, come gia' dichiarato, e da entrambi i domini:
-#     python candidate_r1.py --dominio reclami --lotto r2_reclami_verticale
-#     python candidate_r1.py --dominio ritiro  --lotto r2_reclami_verticale
+#     python candidate_r1.py --dominio reclami ritiro --lotto r2_reclami_verticale
+#
+# ⛔ CORRETTO IL 31/08/2026, ALL'APERTURA DI R2, E LA VECCHIA FORMA ERA UN GUASTO.
+# Qui erano prescritte DUE invocazioni successive sullo stesso `--lotto`.
+# `candidate_r1.py` scrive l'elenco con "w": la seconda CANCELLA la prima, e il
+# perimetro sarebbe stato quello del solo `ritiro` — 31 note invece delle 102
+# dell'unione. Il file sarebbe apparso perfettamente corretto: intestazione giusta,
+# criterio giusto, note vere. Un dominio intero sparito in silenzio.
+# ⚠️ `--dominio` accetta ora piu' valori in una invocazione sola, e il perimetro
+# e' la loro UNIONE: una nota entra se e' scoperta per ALMENO UNO. Con un dominio
+# solo il comportamento e' identico a prima.
+# ⚠️ Difetto piantato in `qa\_collaudo\collaudo_domini_unione.py`, cinque casi:
+# la premessa (i due perimetri non sono contenuti l'uno nell'altro, o il difetto
+# passerebbe per il motivo sbagliato), la via vecchia che sovrascrive, l'unione,
+# il non-scatto di regressione a un dominio solo, e l'identita' dell'unione.
 # La differenza rispetto alle 65 + 35 di partenza misura quanto 3D e 3E hanno gia' sanato,
 # e si dichiara in apertura di R2.
 # ⚠️ R2 viene DOPO la chiusura del tema 3, cioe' dopo 3F.

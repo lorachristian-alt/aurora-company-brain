@@ -1,21 +1,37 @@
-# Note RIAPERTE dal lotto lotto_03d_reclami — riconciliazione verticale ARRETRATA (E37).
-# GENERATO da 06_operativo\candidate_r1.py --dominio reclami il 2026-08-23.
-# Criterio: la nota parla di il ciclo del reclamo di cliente e consumatore: ricezione e protocollo, classificazione e tempi, verifiche immediate sul lotto, indagine della causa radice, campione reso, comunicazione, azioni correttive e indicatori,
-# e fra le sue fonti non c'e' nessuna delle fonti che governano quel
-# dominio: PRO-QA-08_gestione_reclami_cliente_rev2.docx.
+# Note RIAPERTE dal lotto r2_reclami_verticale — riconciliazione verticale ARRETRATA (E37).
+# GENERATO da 06_operativo\candidate_r1.py --dominio reclami ritiro il 2026-08-31.
+# PERIMETRO = UNIONE dei 2 domini: una nota entra se e' scoperta
+# per ALMENO UNO. Le due condizioni di E37+E36 valgono dominio per
+# dominio, e non si mescolano fra loro.
+# Criterio, dominio «reclami»: la nota parla di il ciclo del reclamo di cliente e consumatore: ricezione e protocollo, classificazione e tempi, verifiche immediate sul lotto, indagine della causa radice, campione reso, comunicazione, azioni correttive e indicatori,
+#   e fra le sue fonti non c'e' nessuna delle fonti che lo governano:
+#   PRO-QA-08_gestione_reclami_cliente_rev2.docx.
+# Criterio, dominio «ritiro»: la nota parla di il ciclo del ritiro e del richiamo dal mercato: definizioni, classificazione della gravita', team di crisi e reperibilita', blocco e ricostruzione col mass balance, notifiche all'autorita' e ai clienti, gestione del reso, riesame post-crisi e mock recall annuale,
+#   e fra le sue fonti non c'e' nessuna delle fonti che lo governano:
+#   procedura_ritiro_prodotto_CRISI_GDO.txt.
 # Non si edita a mano: si rilancia lo script.
 area-commerciale
 area-direzione
 area-manutenzione
 area-qualita
+fatto-aurora-classificata-a-rischio-medio-alto
 fatto-avvertenza-costruttore-guarnizioni-non-originali
+fatto-ccp3-non-in-causa-sul-frammento
 fatto-condizioni-uso-marchio-brcgs
 fatto-convalida-md-1800-scaduta
 fatto-cruscotto-colonne-mai-calcolate
+fatto-decisione-erp-rimandata
 fatto-decisione-proseguire-valvola-08-05
+fatto-due-dei-tre-rilievi-e-il-sopralluogo-interno
+fatto-due-segnalazioni-rendono-il-ritiro-non-rimandabile
 fatto-fermo-forno-ft-01-05-05
+fatto-form-sito-senza-lotto-obbligatorio
+fatto-frammento-non-e-film-map
 fatto-giro-di-vite-seconde-firme-ccp3
+fatto-il-nesso-col-reclamo-escluso-dalla-qualita
 fatto-ispezione-ats-carrello-ricambi
+fatto-l-ispezione-attesa-dal-13-maggio-per-via-della-consulente
+fatto-la-documentazione-visionata-non-copre-l-elenco-richiesto
 fatto-maggio-fuori-scala
 fatto-microperdite-saldatura-l26130
 fatto-modulo-nc-acqua-riconciliato
@@ -23,25 +39,34 @@ fatto-nc-102-origine-interna
 fatto-nc-cip-2026
 fatto-nessuna-nc-per-allarmi-cf-02
 fatto-operatore-senza-formazione-haccp-l26130
+fatto-perimetro-stimato-del-ritiro
 fatto-politica-cultura-sicurezza-alimentare
 fatto-politica-otto-impegni-e-il-nono-ritirato
+fatto-porta-cella-cf-02-aperta-38-minuti
 fatto-preventivo-potenza-630-kw-tunnel
+fatto-pro-qa-14-copia-controllata-02
 fatto-prodotto-non-segregato-deviazione-ccp2
 fatto-quaderno-capoturno-linea1
 fatto-rework-linea-1-sospeso
 fatto-riparazione-guarnizione-non-originale
 fatto-riunione-direzione-reclamo-l26130
+fatto-semilavorati-senza-identificazione-in-cella
+fatto-sopralluogo-interno-del-27-maggio-quattro-punti-critici
+fatto-test-rintracciabilita-audit-2h50
 fatto-verifiche-ccp3-turno-l26130
 questione-carrello-ricambi-dichiarato-rimosso
+questione-codici-lotto-azoto-06-05
+questione-consegna-farina-mv26-0429a
 questione-cruscotto-e-obiettivi-non-si-mappano
 questione-data-riunione-direzione
 questione-materiale-guarnizione-pkm-450
-questione-nc-interne-registrate-su-mod-qa-31
-questione-nc-lavaggi-sul-modulo-reclami
 questione-posizione-md-3200-in-linea
+questione-tmc-farina-mv26-0429a
 concetto-fefo
+concetto-ritiro-e-richiamo
 kpi-indicatori-2025-consuntivo
 kpi-indicatori-mensili-2026
+kpi-mass-balance-l26130
 kpi-obiettivi-2026-avanzamento
 kpi-obiettivi-politica-2026
 kpi-pareto-cause-nc-2026
@@ -49,23 +74,41 @@ kpi-reclami-2025
 kpi-registro-reclami-2026
 kpi-seconde-firme-ccp3-maggio
 questione-aw-umidita-af-sn-0450
+questione-azoto-quantita-e-livello-06-05
+questione-pezzi-prodotti-l26130
+questione-referenza-del-secondo-reclamo
+questione-un-richiamo-in-classe-2
+doc-classi-di-gravita-della-crisi
 doc-conferma-incarico-audit-rinnovo-2026
 doc-cruscotto-kpi-2026
+doc-documentazione-richiesta-dall-ats
+doc-flusso-della-crisi-sei-fasi
 doc-gestione-deviazioni-haccp
 doc-gestione-reclami-haccp
 doc-limite-o2-residuo-af-sn-0450
+doc-modulistica-e-dossier-di-crisi
+doc-regole-rework
 doc-riesame-direzione-2026
+doc-riesame-post-crisi
+doc-riferimenti-pro-qa-08
+doc-riferimenti-pro-qa-14
 doc-validazione-pulizia-allergeni
+doc-verifiche-immediate-reclamo
 entita-analytica-veneta
 entita-elena-marchetti
 entita-ivano-dal-maso
 entita-tosano-cerea
 lotto-l26130
+lotto-mv26-0429a
 macchina-md-3200
 prodotto-af-sn-0450
 fatto-blocco-cautelativo-lotti
+fatto-classe-2-provvisoria-sul-frammento
 fatto-misura-frammento-rec-2026-011
+fatto-procedura-applicata-al-caso-di-maggio
+fatto-promemoria-di-aggiornare-la-procedura
 fatto-richiesta-relazione-48-ore
+progetto-controllo-ufficiale-ats-2026
 progetto-gestione-reclamo-rec-2026-011
 questione-data-apertura-rec-2026-011
 questione-misura-frammento-strumentale

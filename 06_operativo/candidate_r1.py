@@ -470,12 +470,22 @@ def famiglie_toccate(testo):
 def main():
     ap = argparse.ArgumentParser(description="Genera il perimetro di note di una riconciliazione verticale.")
     ap.add_argument("--stdout", action="store_true")
-    ap.add_argument("--dominio", choices=sorted(DOMINI),
-                    help="E37: restringe a un dominio prescrittivo (vedi DOMINI)")
+    # ⚠️ PIU' DOMINI IN UNA INVOCAZIONE SOLA, dall'apertura di R2 (31/08/2026).
+    # R2 copre `reclami` e `ritiro`, e l'elenco del lotto prescriveva DUE invocazioni
+    # sullo stesso `--lotto`: questo script scrive con "w", quindi la seconda
+    # CANCELLAVA la prima e il perimetro sarebbe stato quello del solo secondo dominio.
+    # Il file sarebbe apparso corretto, e un dominio intero sparito in silenzio.
+    # Il perimetro di piu' domini e' la loro UNIONE: una nota entra se e' scoperta per
+    # ALMENO UNO. Con un dominio solo il comportamento e' identico a prima.
+    ap.add_argument("--dominio", choices=sorted(DOMINI), nargs="+",
+                    help="E37: restringe a uno o piu' domini prescrittivi (vedi DOMINI). "
+                         "Con piu' domini il perimetro e' l'UNIONE dei loro perimetri.")
     ap.add_argument("--lotto", help="slug del lotto: scrive qa\\lotti\\<slug>_note.txt")
     args = ap.parse_args()
 
-    dom = DOMINI[args.dominio] if args.dominio else None
+    nomi_dom = list(args.dominio) if args.dominio else []
+    domini = [(nome, DOMINI[nome]) for nome in nomi_dom]
+    dom = domini[0][1] if len(domini) == 1 else None       # compatibilita' dei messaggi
     lotto = args.lotto or LOTTO
     el_grezzi = os.path.join(DIR_LOTTI, lotto + ".txt")
     el_note = os.path.join(DIR_LOTTI, lotto + "_note.txt")
@@ -490,14 +500,24 @@ def main():
             continue
         testo = testo_della_nota(n)
         fonti = {str(f) for f in n.fonti}
-        if dom:
+        if domini:
             # E37 + E36: la nota parla del DOMINIO, e non ha sotto mano la fonte che
             # quel dominio lo governa. Le due condizioni valgono insieme, come sempre.
-            if not any(r.search(testo) for r in dom["rx"]):
+            # Con piu' domini si valuta dominio per dominio e si UNISCE: una nota parla
+            # di `reclami` e cita `PRO-QA-08` — coperta li' — e parla anche di `ritiro`
+            # senza citare `PRO-QA-14`: e' scoperta, e nel perimetro ci sta.
+            fam, scoperte, coperte_da = [], [], set()
+            for nome, d in domini:
+                if not any(r.search(testo) for r in d["rx"]):
+                    continue
+                fam.append(nome)
+                if fonti & d["fonti"]:
+                    coperte_da |= fonti & d["fonti"]
+                else:
+                    scoperte.append(nome)
+            if not fam:
                 continue
-            fam = [args.dominio]
-            scoperte = fam if not (fonti & dom["fonti"]) else []
-            coperta_da = sorted(fonti & dom["fonti"])
+            coperta_da = sorted(coperte_da)
         else:
             fam = famiglie_toccate(testo)
             if not fam:
@@ -514,11 +534,15 @@ def main():
 
     # ---- il riepilogo, che e' cio' che va nel rapporto -------------------------
     print("=" * 78)
-    if dom:
+    if domini:
         print("PERIMETRO RIAPERTO DAL LOTTO %s — riconciliazione verticale arretrata (E37)"
               % lotto)
-        print("dominio «%s»: %s" % (args.dominio, dom["cosa"]))
-        print("fonti che lo governano: %s" % ", ".join(sorted(dom["fonti"])))
+        for nome, d in domini:
+            print("dominio «%s»: %s" % (nome, d["cosa"]))
+            print("  fonti che lo governano: %s" % ", ".join(sorted(d["fonti"])))
+        if len(domini) > 1:
+            print("PERIMETRO = UNIONE dei %d domini: una nota entra se e' scoperta per almeno uno."
+                  % len(domini))
     else:
         print("PERIMETRO DEL LOTTO R1 — riconciliazione verticale")
     print("generato da candidate_r1.py il %s" % date.today().isoformat())
@@ -534,7 +558,7 @@ def main():
     # prescrittiva qualsiasi. Dirlo con la stessa parola nei due casi farebbe leggere il
     # numero come non e' - ed e' la specie che il censimento del gate 3B ha censito: una
     # dichiarazione che promette piu' di quanto misura (§4.49).
-    if dom:
+    if domini:
         print("  e CITANO gia' una fonte DEL DOMINIO ........... %d  (fuori perimetro)" % len(gia_coperte))
     else:
         print("  e CITANO gia' una fonte prescrittiva ......... %d  (fuori perimetro)" % len(gia_coperte))
@@ -546,7 +570,7 @@ def main():
             conta_fam[f] = conta_fam.get(f, 0) + 1
     print("| Famiglia nominata | Note candidate |")
     print("|---|---|")
-    nomi = [args.dominio] if dom else [nome for nome, _rx in FAMIGLIE]
+    nomi = nomi_dom if domini else [nome for nome, _rx in FAMIGLIE]
     for nome in nomi:
         print("| %s | %d |" % (nome, conta_fam.get(nome, 0)))
     print("")
@@ -579,7 +603,7 @@ def main():
                 "# la stessa disciplina di E32 applicata alle note nuove, e serve a\n"
                 "# conta_perimetro_lotto.py, che i numeri del perimetro li legge da qui.\n")
 
-    if dom:
+    if domini:
         # E37, modalita' ristretta: il lotto canonizza grezzi SUOI, quindi l'elenco dei
         # grezzi e' del lotto e questo script non lo tocca. Si scrive solo l'elenco
         # delle note che la fonte prescrittiva nuova RIAPRE.
@@ -587,10 +611,16 @@ def main():
             f.write("# Note RIAPERTE dal lotto %s — riconciliazione verticale ARRETRATA (E37).\n"
                     % lotto)
             f.write("# GENERATO da 06_operativo\\candidate_r1.py --dominio %s il %s.\n"
-                    % (args.dominio, date.today().isoformat()))
-            f.write("# Criterio: la nota parla di %s,\n" % dom["cosa"])
-            f.write("# e fra le sue fonti non c'e' nessuna delle fonti che governano quel\n")
-            f.write("# dominio: %s.\n" % ", ".join(sorted(dom["fonti"])))
+                    % (" ".join(nomi_dom), date.today().isoformat()))
+            if len(domini) > 1:
+                f.write("# PERIMETRO = UNIONE dei %d domini: una nota entra se e' scoperta\n"
+                        % len(domini))
+                f.write("# per ALMENO UNO. Le due condizioni di E37+E36 valgono dominio per\n")
+                f.write("# dominio, e non si mescolano fra loro.\n")
+            for nome, d in domini:
+                f.write("# Criterio, dominio «%s»: la nota parla di %s,\n" % (nome, d["cosa"]))
+                f.write("#   e fra le sue fonti non c'e' nessuna delle fonti che lo governano:\n")
+                f.write("#   %s.\n" % ", ".join(sorted(d["fonti"])))
             f.write("# Non si edita a mano: si rilancia lo script.\n")
             for n, _fam in candidate:
                 f.write("%s\n" % n.slug)
