@@ -107,7 +107,7 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `fatto-nc-cip-2026.md` | atomica | risolto | 3 |
 | `fatto-nessuna-nc-per-allarmi-cf-02.md` | atomica | aperto | 3 |
 | `fatto-operatore-senza-formazione-haccp-l26130.md` | atomica | risolto | 2 |
-| `fatto-perimetro-stimato-del-ritiro.md` | atomica | risolto | 2 |
+| `fatto-perimetro-stimato-del-ritiro.md` | atomica | risolto | 3 |
 | `fatto-politica-cultura-sicurezza-alimentare.md` | atomica | risolto | 2 |
 | `fatto-politica-otto-impegni-e-il-nono-ritirato.md` | atomica | risolto | 1 |
 | `fatto-porta-cella-cf-02-aperta-38-minuti.md` | atomica | aperto | 2 |
@@ -120,10 +120,10 @@ col canone alla mano. Questo elenco e' il materiale su cui lavora.*
 | `fatto-sopralluogo-interno-del-27-maggio-quattro-punti-critici.md` | atomica | risolto | 3 |
 | `fatto-test-rintracciabilita-audit-2h50.md` | atomica | risolto | 4 |
 | `fatto-verifiche-ccp3-turno-l26130.md` | atomica | risolto | 3 |
-| `kpi-indicatori-2025-consuntivo.md` | atomica | risolto | 2 |
+| `kpi-indicatori-2025-consuntivo.md` | atomica | risolto | 3 |
 | `kpi-indicatori-mensili-2026.md` | atomica | risolto | 1 |
 | `kpi-mass-balance-l26130.md` | atomica | aperto | 3 |
-| `kpi-obiettivi-2026-avanzamento.md` | atomica | risolto | 2 |
+| `kpi-obiettivi-2026-avanzamento.md` | atomica | risolto | 3 |
 | `kpi-obiettivi-politica-2026.md` | atomica | risolto | 1 |
 | `kpi-pareto-cause-nc-2026.md` | atomica | aperto | 2 |
 | `kpi-reclami-2025.md` | atomica | risolto | 3 |
