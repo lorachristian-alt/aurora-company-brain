@@ -406,7 +406,36 @@ il ciclo prevede.
 | note nate dal **ciclo** | **30** — è il denominatore del tasso dichiarato, misurato alle **14:25:38** |
 | note nate dalla **revisione col canone** | **7** — fuori dalla soglia di spezzamento (E52) |
 | **totale nate nel lotto** | **37** |
-| note **toccate** (E32) | **4**, più i sei hub d'area |
+| note **toccate** (E32) | ~~**4**, più i sei hub d'area~~ → **12** *(v. errata sotto)* |
+
+> ⛔ **ERRATA del 31/08/2026, scritta al gate del lotto 3F.**
+>
+> **I numeri del perimetro di questo rapporto erano stati composti A MANO**, e sono
+> sbagliati. Quelli veri, incollati da `conta_perimetro_lotto.py` dopo la riparazione:
+>
+> | Voce | Diceva | È |
+> |---|---|---|
+> | note **nate** nel lotto | 37 | **37** — confermato |
+> | note **toccate** (E32) | **4**, più i sei hub d'area | **12** |
+> | **note controllate nel perimetro** | **58** | **49** |
+>
+> ⚠️ **La causa non è una svista di conteggio: è uno strumento che dava un numero
+> impossibile e che nessuno ha dichiarato guasto.** `conta_perimetro_lotto.py` divide il
+> perimetro leggendo due stringhe nei commenti dell'elenco delle note, e la seconda è
+> `note NATE in questo lotto`; l'elenco di 3E scriveva «note NATE nel lotto», quindi il
+> parser non cambiava mai sezione e **stampava «note nate: 0 — nessuna» su un lotto che
+> ne aveva scritte trentasette**.
+>
+> ⚠️ **La prassi dello strumento dice «si incolla VERBATIM, i numeri del perimetro non si
+> ricompongono a mano»**, ed è scritta nell'intestazione del suo stesso output. Comporre a
+> mano non è solo meno affidabile: **ha nascosto il guasto dello strumento che avrebbe
+> dovuto sostituire**, e il guasto è arrivato fino a 3F, che ne aveva copiato
+> l'intestazione. **Un controllo che dà un numero impossibile si dichiara, non si aggira.**
+>
+> ⚠️ **Riparati i DATI, non lo strumento**: i due elenchi si sono allineati alla stringa
+> che lo strumento dichiara — gli altri undici la portavano già. Allargare il parser a
+> due forme sarebbe stato **allentare** un controllo.
+
 
 ⚠️ **Il tasso non si rimisura sulle 37** (E41), e non si rimisura affatto dopo le correzioni: il
 punto della serie resta **0,0 % su 30**, con la riserva del lotto mono-fonte scritta accanto.
@@ -440,7 +469,7 @@ nota-sessione (E34).
 | Misura | Valore | Strumento | Ora |
 |---|---|---|---|
 | **QA, perimetro lotto** | **0 ERRORI, 78 avvisi** — esito **GIALLO** | `qa_all.py` | 15:15 |
-| note controllate nel perimetro | **58** — 37 nate + 4 toccate + gli hub | `qa_all.py` | 15:15 |
+| note controllate nel perimetro | ~~**58** — 37 nate + 4 toccate + gli hub~~ → **49** — 37 nate + 12 toccate, incollato da `conta_perimetro_lotto.py` *(errata del 31/08, §6.1)* | `conta_perimetro_lotto.py` | 25/08, 09:17 |
 | **QA, perimetro vault** | **107 ERRORI, 426 avvisi** | `qa_all.py` | 15:17 |
 | di cui grezzi non ancora canonizzati | **105** | | |
 | di cui aree senza hub | **2** — `ricerca-sviluppo`, `sicurezza-ambiente` | | |

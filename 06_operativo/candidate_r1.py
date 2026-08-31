@@ -149,6 +149,21 @@ DOMINI = {
         # ⚠️ Il dominio `cip` nacque al lotto 2A, PRIMA che E56 ed E59 esistessero, e il suo
         # punto della serie — **3,3 %** — NON si rimisura: la serie fotografa le misure come
         # sono state prese (§4.45). Da qui in avanti vale la dichiarazione collaudata.
+        #
+        # ⚠️ UNA DELLE QUATTORDICI E' MUTA, E RESTA — gate del lotto 3F, 31/08/2026.
+        # `tampon[ei] superfic` riconosce ZERO note (`collauda_dominio.py --dominio cip`,
+        # prova A, misurato alle 18:12 del 31/08/2026), e la prova A la segnala.
+        #
+        # ⚠️ La mutezza e' REALE SULLA SUPERFICIE CHE LA MISURA USA, e non e' un caso: la
+        # locuzione compare in SETTE punti del vault, e tutti e sette stanno dentro il blocco
+        # `## Fonti` — titoli di file e locator, cio' che `testo_della_nota` esclude apposta
+        # (E36 applicato allo strumento). Nessuna nota PARLA di tamponi superficiali nel
+        # corpo citando questo dominio.
+        #
+        # ⚠️ TOGLIERLA sarebbe il gesto sbagliato: lascerebbe scoperte le note future sui
+        # tamponi ambientali, che il piano di sanificazione governa. Si riesamina a OGNI
+        # esercizio del dominio — se resta muta a lotto chiuso, non stava riconoscendo
+        # niente — e il collaudo di E59 la riprovera' comunque, ogni volta.
         "espressioni": [
             r"\bCIP\b", r"\bCIP-?01\b", r"lavagg", r"sanific", r"detergent", r"risciacqu",
             r"conducibilit", r"\bsoda\b", r"caustic", r"acido nitric", r"\bPAA\b",

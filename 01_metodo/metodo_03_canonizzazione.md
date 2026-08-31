@@ -1282,6 +1282,10 @@ criterio pre-registrato**, ed è la via di E50 ed E51: quando il terzo giro nomi
 con casi plurimi, il gate la scrive. **Non è §4.43** — il criterio scritto la sera prima
 chiedeva una terza osservazione a una specie che ne aveva già tre, tutte anteriori al criterio.
 
+⚠️ **E64 è una delle porte di E65** (§9.5, passo 5), la regola che dice che un'affermazione
+vale nel perimetro delle fonti che la nota cita: **il rimando che descrive esce da quel
+perimetro passando per il wikilink**, ed è per questo che nominare basta e descrivere no.
+
 ### 4.3 I link ai grezzi
 
 I 160 grezzi vivono in `aurora-cervello\sources\` (§9.1) e si linkano **con il nome
@@ -1851,6 +1855,25 @@ sconti: sono i casi che il corpus impone e che una regola ingenua non prevede.
 un grezzo** (E10). Con un marcatore comune come `NOTA:` il conteggio delle note inviate si
 falsa, perché quella stringa compare anche nel testo dei documenti allegati come fonte — è
 successo con il manuale HACCP.
+
+⚠️ **ESTESO al gate del lotto 3F, 31/08/2026: LA PROPRIETÀ VALE PER OGNI DELIMITATORE DELLA
+CATENA**, non per il solo separatore delle note — il grezzo, le note, **le fonti allegate al
+pacchetto**, e ogni delimitatore che la catena acquisterà. **Ciascuno è una stringa che il
+contenuto non può scrivere, dichiarata e COLLAUDATA per sé.**
+
+⚠️ **Il caso**: `qa_provenance` separava le fonti del pacchetto con `--- <nome> ---` e
+`taglia_pacchetto` le rileggeva con quella forma. Il grezzo del lotto 3F ne portava **due nel
+proprio testo**, e la fonte principale arrivava al giudice **troncata a 638 caratteri su
+13.186**, con metà del lotto assente da due fette su tre — mentre la guardia dichiarava tutte
+e tre le fette «complete», perché verificava che l'appendice contenesse qualcosa e non che
+portasse la fonte **intera**.
+
+⚠️ **Il commento dello strumento sapeva già la regola per le note e non l'aveva detta per le
+fonti**: una proprietà scritta per un'istanza sola è una proprietà che il delimitatore
+successivo non eredita. ⚠️ **E la guardia si scrive sui CARATTERI, non sulla presenza**: che
+l'appendice contenga il nome della fonte non dice nulla su quanto ne contenga. ⚠️ **Il
+collaudo porta la sua PREMESSA** — si verifica prima che il grezzo finto porti davvero la riga
+insidiosa, altrimenti il caso passa per il motivo sbagliato (`collaudo_taglio_fonti.py`).
 
 ### 7.2 `qa_link_integrity.py` — zero rotti, zero orfani, un grafo solo
 
@@ -2572,6 +2595,54 @@ note → suite QA → revisore indipendente → correzioni propagate → suite Q
    otto, cioè un quinto delle note di contenuto, ed è un buco che si apre proprio sulle note
    scritte di fretta a fine sessione.
 
+   ⚠️ **E65 — UN'AFFERMAZIONE VALE NEL PERIMETRO DELLE FONTI CHE LA NOTA CITA, E PER USCIRNE
+   SERVE UN ARTEFATTO O UN RIMANDO.** È il cappello di una famiglia che il progetto aveva
+   affrontato **una porta per volta**, e che rientrava ogni volta dalla porta che nessun
+   emendamento presidiava.
+
+   | La specie | Che cosa afferma fuori perimetro | La sua porta |
+   |---|---|---|
+   | **primato sull'archivio** | «è la prima volta che…», «è il solo documento a…» | **E47** · **E57** |
+   | **assenza sull'archivio** | «l'archivio non porta…», «nessun documento…» | **E3** · **E43** |
+   | **rimando che descrive** | «`[[…]]` dimostra che il turno 3 non esiste» | **E64** |
+   | **regola generale importata** | «una classe di rischio non si guadagna con la conformità» | ⚠️ **nessuna, prima di E65** |
+   | **nesso causale non stabilito** | «ed è la ragione per cui il preavviso fu letto come una novità» | ⚠️ **nessuna, prima di E65** |
+
+   ⚠️ **E65 non sostituisce le quattro porte: le contiene.** Ognuna resta la regola operativa
+   della sua specie — il test sul soggetto, l'artefatto della ricerca, il rimando che nomina —
+   e continua a scattare dove scattava. **E65 dice la cosa che le tiene insieme**, e la dice
+   anche per le due specie che non avevano nessuno.
+
+   ⚠️ **Le due specie senza porta sono anche le due che nessun controllo deterministico può
+   vedere**: non contengono numeri, non contengono superlativi, non contengono negazioni. Le
+   vede **solo chi confronta la frase col perimetro** — lo strato di giudizio, o chi rilegge
+   con la domanda giusta in mano. **È la ragione per cui la regola è di scrittura e non di
+   suite**: nessuno script la farà rispettare al posto di chi scrive.
+
+   **Le due sole vie per uscire dal perimetro:**
+
+   - **l'artefatto** — la ricerca su tutto `sources\`, datata, in `06_operativo\ricerche_assenza\`
+     (E43): l'affermazione non è più della nota, è **della ricerca**, e chi rilegge sa dove
+     verificarla;
+   - **il rimando** — si **nomina** la nota che ha le fonti, e non si dice che cosa vi si legga
+     (E64).
+
+   ⚠️ **E la terza via, che sembra una via e non lo è: aggiungere una fonte.** Una fonte si
+   aggiunge quando **prescrive ciò di cui la nota parla** (E36), non per giustificare una frase
+   già scritta — quello è il gesto che E41 vieta sui tassi, spostato sulla provenienza.
+
+   ⚠️ **Il test è di scrittura, e si fa su OGNI affermazione, non solo sui quantificatori**:
+   si chiede *su quale insieme sarebbe falsa*, e si confronta quell'insieme con l'elenco
+   `fonti` della nota. **Se l'insieme è più grande, la frase è uscita dal perimetro** — e
+   allora si restringe, oppure prende l'artefatto, oppure diventa un rimando.
+
+   ⚠️ **Il caso, e perché la regola nasce al gate.** Il terzo giro del lotto 3F ha prodotto
+   **sei** occorrenze in **sei** specie diverse, su fette indipendenti, ed **E26 impone di
+   nominare il pattern quando il terzo giro produce ancora rilievi**. ⚠️ **Non è la specie che
+   si ripete: è la classe** — ogni emendamento le chiudeva una porta e lei entrava dall'altra.
+   Chi scrive dice una cosa vera **di ciò che ha davanti** e la enuncia **di ciò che non ha
+   davanti**, e il gesto che la produce è lo stesso che produce una buona sintesi (E47).
+
    ⚠️ **E47 — UN'AFFERMAZIONE UNIVERSALE SI SCRIVE COL PERIMETRO SU CUI È STATA VERIFICATA, E
    QUEL PERIMETRO NON È MAI PIÙ LARGO DELLE FONTI DELLA NOTA.** Vale per «l'unico», «il primo»,
    «il più alto», «nessun altro», «ogni», «tutti», «sempre», e per le negazioni che dicono la
@@ -2636,6 +2707,21 @@ note → suite QA → revisore indipendente → correzioni propagate → suite Q
    proprio perimetro la ripara **nel lotto che la tocca** o nella rete finale: non si apre un
    giro sul vault per una classe di scrittura.
 
+   ⚠️ **ESTESO al gate del lotto 3F, 31/08/2026: IL SUPERLATIVO CON SOGGETTO-ELENCO PORTA IL
+   CONTO.** Le prime due righe della tabella dicono che il superlativo **regge**; non dicevano
+   che va **contato**. **«Tre su dieci (contate)», non «l'unica»**: è la marca di E50 portata
+   sul quantificatore — non certifica il primato, **dichiara che è stato ottenuto contando**
+   l'elenco che sta nella fonte, e quindi che va ricontato.
+
+   ⚠️ **Il caso**: il lotto 3F ne ha prodotte **tre** in due giri, e in tutti e tre i casi **la
+   fonte, riletta, smentiva il superlativo** — «l'unico dei preparativi che riguarda lo stato
+   dei luoghi» dove sono tre, «l'unica voce che dipende da un terzo» dove sono tre, «l'unico
+   dei preparativi che compra tempo di qualcun altro» smentito dalla stessa mail.
+
+   ⚠️ **E non è la specie di E47: è quella che E47 dichiara SANA.** Erano tutti verificabili
+   in dieci secondi contando le righe di una mail — e **proprio perché il test sul soggetto li
+   assolveva, nessuno li contava**. La regola che classifica non obbliga: questa sì.
+
    ⚠️ **E50 — UN NUMERO CHE LA FONTE NON ENUNCIA È UN VALORE DERIVATO ANCHE QUANDO SI OTTIENE
    CONTANDO, E SI SCRIVE COL MODO IN CUI È STATO OTTENUTO — OPPURE NON SI SCRIVE.** Vale per i
    conteggi di elementi («tre indicatori», «sei mancati», «quattro azioni», «nove punti») e per
@@ -2654,6 +2740,22 @@ note → suite QA → revisore indipendente → correzioni propagate → suite Q
 
    ⚠️ **Quando il numero è il PUNTO della frase** — «l'unico», «tutti e nove», «nessuno» — allora
    vale anche E47, e il perimetro va dichiarato insieme al modo.
+
+   ⚠️ **ESTESO al gate del lotto 3F, 31/08/2026: IL DERIVATO È DERIVATO QUALUNQUE SIA IL
+   GENERE.** La regola parlava di numeri e lo strato deterministico l'aveva presa alla lettera:
+   l'esenzione di `qa_provenance` valeva per il solo `genere == "numero"`. **Una data ottenuta
+   per derivazione non ne aveva nessuna**, e la QA la respingeva **anche marcata**.
+
+   ⚠️ **Il caso**: la riunione di preparazione del lotto 3F è convocata per «Domani mattina» in
+   una mail del **25/05**. Il **26/05** è un derivato esatto e marcabile, e la nota ha dovuto
+   **togliere la data dal corpo**. ⚠️ **E la via d'uscita facile era un trucco** — scrivere
+   «il ventisei maggio» in lettere passa il controllo e dice la stessa cosa: **il vault
+   diventava meno preciso di quanto potesse essere, e chi scrive imparava ad aggirare un
+   controllo invece di soddisfarlo.**
+
+   ⚠️ **La marca vale per ogni genere marcabile, e con essa l'esenzione.** Il fix è di
+   **perimetro** di un controllo, non un allentamento: la marca resta obbligatoria e continua
+   a dichiarare che il valore va ricontato — cambia solo che ora la si può apporre a una data.
 
    ⚠️ **E51 — UN'AFFERMAZIONE NON PUÒ ESSERE SMENTITA DALLA NOTA CHE LA CONTIENE.** Titolo,
    `summary` e corpo si rileggono **insieme e a ogni giro** (E30), e la contraddizione interna è

@@ -2351,3 +2351,74 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   e' rivelata una divergenza a se', con due fonti proprie e un `type: conflitto` che regge
   (`questione-la-stima-e-il-preventivo`, poi cresciuta a tre gambe col §5 del verbale). **La
   nota nuova non e' un ripiego del budget: e' cio' che il budget ha fatto vedere.**
+- **2026-08-31** · gate del lotto 3F · ✅ **E65 NASCE, ED E' IL CAPPELLO DI UNA FAMIGLIA CHE
+  IL PROGETTO AVEVA AFFRONTATO UNA PORTA PER VOLTA** · *un'affermazione vale nel perimetro delle
+  fonti che la nota cita, e per uscirne serve un artefatto o un rimando*. ⚠️ **E47, E3/E43,
+  E57 ed E64 restano le porte delle loro specie**: E65 non le sostituisce, **le contiene**.
+  ⚠️ **E dà per la prima volta una regola a DUE specie che non ne avevano**: la **regola
+  generale importata** e il **nesso causale non stabilito** — che sono anche le due che nessun
+  controllo deterministico puo' vedere, perche' non hanno numeri, superlativi o negazioni.
+  ⚠️ **La ragione per cui serviva un cappello e non una sesta porta**: sei occorrenze in sei
+  specie al terzo giro di 3F, e **ogni emendamento chiudeva una porta mentre la classe entrava
+  dall'altra**. ⚠️ **Le vie d'uscita sono due sole** — l'artefatto della ricerca (E43) o il
+  rimando che nomina (E64) — e **la terza, che sembra una via e non lo e', e' aggiungere una
+  fonte**: quello e' il gesto che E41 vieta sui tassi, spostato sulla provenienza.
+- **2026-08-31** · gate del lotto 3F · ✅ **TRE ESTENSIONI SENZA NUMERO NUOVO: E10, E50, E57** ·
+  **E10** — la proprieta' del delimitatore vale per **ogni** delimitatore della catena, non per
+  il solo separatore delle note: una proprieta' scritta per un'istanza sola non si eredita.
+  **E50** — il derivato e' derivato **qualunque sia il genere**. **E57** — il superlativo con
+  soggetto-elenco **porta il conto**, come un derivato porta la marca. ⚠️ **E57 esteso non e'
+  la specie di E47: e' quella che E47 dichiara SANA** — i tre casi di 3F erano verificabili in
+  dieci secondi contando le righe di una mail, e **proprio perche' il test sul soggetto li
+  assolveva nessuno li contava**. La regola che classifica non obbliga: questa si'.
+- **2026-08-31** · gate del lotto 3F · ✅ **L'ESENZIONE DELLA DATA DERIVATA E' RIPARATA SUBITO,
+  ED E' UN FIX DI PERIMETRO** · `qa_provenance` esentava il solo `genere == "numero"`;
+  `valori_esenti` ora raccoglie per genere e la marca vale anche per una data. ⚠️ **La marca
+  resta OBBLIGATORIA e la finestra resta stretta** — sessanta caratteri, come per i numeri: non
+  e' un allentamento, e' il perimetro del controllo portato dove la regola gia' era.
+  ⚠️ **Collaudo `collaudo_data_derivata.py`, otto casi**: la premessa, il difetto piantato nei
+  **due versi** (data marcata che passa, data non marcata che scatta), il **non-scatto di
+  regressione** sul numero nei due versi, e tre non-scatti che impediscono al fix di diventare
+  un condono — la finestra che resta stretta, **i generi che non si travasano**, la data che la
+  fonte enuncia. ⚠️ **Confronto RIGA PER RIGA sul fuori perimetro**: 116 righe prima, 116
+  dopo, **zero differenze** — nessuna nota del vault usava ancora quella forma.
+  ⚠️ **Poi la data del 26/05 e' RIENTRATA nel corpo**, marcata: il vault torna preciso quanto
+  puo' essere. **Lo slug resta com'e'**: «il mattino dopo» non afferma il falso, e un rinomino
+  senza necessita' e' churn.
+- **2026-08-31** · gate del lotto 3F · ⛔ **LA VOCE 4 E' RESPINTA: LO STRUMENTO DEI DUE TASSI
+  NON SI TOCCA** · i tre residui-enumerazione di 3F, **dichiarati col loro nome, SONO la forma
+  giusta**. Cambiare l'unita' della misura **a numeri visti** romperebbe la comparabilita' della
+  serie (§4.45) e sarebbe un fix che allenta (§4.9), **su tre casi di un solo lotto** — e di un
+  lotto fatto di elenchi per natura. ⚠️ **CRITERIO PRE-REGISTRATO, in §6 del passaggio di
+  consegne**: se in **due** lotti futuri i residui-enumerazione sono la meta' o piu' delle
+  scoperte del tasso, la distinzione affermazione/enumerazione **si meccanizza** con la
+  disciplina di §4.9, e la serie annota il cambio d'unita' **dal punto in cui vale**. Se non
+  accade, il residuo dichiarato basta.
+- **2026-08-31** · gate del lotto 3F · ✅ **B3/T184 RATIFICATA COM'E': A FERMARE LA FUGA E'
+  STATO UN CONTROLLO, NON UNA LETTURA** · la divergenza aveva la nota corretta, le fonti al
+  posto giusto e **la QA verde**; a fermarla e' stato `verifica_matrice_lotti.py`. ⚠️ **E' la
+  dimostrazione di che cosa serva la verifica di disgiunzione**: non tenere in ordine una
+  tabella, ma **impedire che un lotto consumi il materiale di un altro**. ⚠️ **La regola c'era
+  gia'** (1B: la terza gamba si traccia) **e lo script l'ha fatta valere quando nessuna lettura
+  l'aveva richiamata** — il giudizio non poteva vederla, perche' confronta la nota contro le
+  fonti che la nota dichiara. T184 resta, con l'obbligo esplicito per il lotto 07.
+- **2026-08-31** · gate del lotto 3F · ⚠️ **L'ERRATA DEL RAPPORTO DI 3E, E LA MALATTIA DEI
+  NUMERI A MANO COMPARSA DENTRO UNA SESSIONE** · il rapporto di 3E aveva composto a mano i
+  numeri del perimetro — «4 toccate» — perche' `conta_perimetro_lotto.py` dava zero e nessuno
+  l'ha dichiarato guasto. ⚠️ **E' la stessa malattia del gate di 3B**, dove due numeri scritti
+  a memoria dal coordinatore erano gli unici due sbagliati — **ma peggiore**: la' erano
+  sbagliati, qui erano **giusti**, ed e' esattamente per questo che hanno nascosto il guasto
+  dello strumento per un lotto intero. **Un controllo che da' un numero impossibile si dichiara,
+  non si aggira** (§4.25). ADEMPIUTO: errata datata in §6.1 del rapporto di 3E, **37 nate · 12
+  toccate · 49 controllate**, e riga in §5 del passaggio di consegne.
+- **2026-08-31** · gate del lotto 3F · ✅ **RATIFICHE CHE VALGONO DA PRECEDENTE** · la **forma
+  del fix del delimitatore** in ogni sua parte — il prefisso che un grezzo non scrive, la
+  guardia che confronta i **caratteri** e non la presenza, e **la PREMESSA nel collaudo**, che
+  impedisce al caso di passare per il motivo sbagliato; **il controfattuale NON cercato**, perche'
+  un giudizio su fonti troncate e' ingresso degradato e vale zero (§4.31); **E60 per evento al
+  primo impiego**, sei confronti col verbale canonizzato in S2 che senza l'artefatto non
+  sarebbero esistiti; **E59 sul dominio storico**, con l'espressione MUTA `tampon[ei] superfic`
+  che **RESTA nella dichiarazione con la mutezza annotata** — toglierla lascerebbe scoperte le
+  note future sui tamponi ambientali, e il collaudo di E59 la riprovera' comunque;
+  **`conta_perimetro_lotto.py` riparato NELLA SUA DISCIPLINA**, i dati allineati alla forma che
+  lo strumento dichiara e non lo strumento allargato a due forme.

@@ -210,18 +210,43 @@ def estrai_affermazioni(testo):
     return fuori
 
 
-def numeri_esenti(testo):
+def valori_esenti(testo):
     """I valori derivati DICHIARATI: il risultato di una formula scritta per
-    esteso, o un numero marcato come calcolato/contato. La QA verifica gli
-    addendi, non il risultato (§5.4 e §7.1 clausola 2)."""
-    esenti = set()
+    esteso, o un valore marcato come calcolato/contato. La QA verifica gli
+    addendi, non il risultato (§5.4 e §7.1 clausola 2).
+
+    ⚠️ E50 ESTESO al gate del lotto 3F, 31/08/2026: IL DERIVATO E' DERIVATO
+    QUALUNQUE SIA IL GENERE. Fino a quel gate questa funzione raccoglieva i soli
+    NUMERI, e una data ottenuta per derivazione — «Domani mattina» in una mail
+    del 25/05 fa il 26/05 — veniva respinta ANCHE MARCATA. Due conseguenze, e la
+    seconda e' la peggiore: il vault perdeva precisione (la nota ha dovuto
+    togliere la data dal corpo), e la via d'uscita facile era scriverla in
+    lettere — cioe' AGGIRARE il controllo invece di soddisfarlo.
+
+    Ritorna {genere: varianti}: la marca vale per il genere del valore che la
+    precede, non per tutto cio' che le sta vicino. Il perimetro resta stretto —
+    sessanta caratteri prima della marca, come per i numeri — e la marca resta
+    OBBLIGATORIA: non si esenta nulla che non la porti.
+    """
+    esenti = {"numero": set(), "data": set()}
     for m in RE_FORMULA.finditer(testo):
-        esenti |= varianti_numero(m.group(2))
+        esenti["numero"] |= varianti_numero(m.group(2))
     for m in RE_DERIVATO.finditer(testo):
-        inizio = max(0, m.start() - 60)
-        for n in RE_NUMERO.finditer(testo[inizio:m.start()]):
-            esenti |= varianti_numero(n.group(0))
+        prima = testo[max(0, m.start() - 60):m.start()]
+        for n in RE_NUMERO.finditer(prima):
+            esenti["numero"] |= varianti_numero(n.group(0))
+        for d in RE_DATA.finditer(prima):
+            esenti["data"] |= varianti_data(d.group(0))
     return esenti
+
+
+def unisci_esenti(*mappe):
+    """Le esenzioni di corpo e intestazione, genere per genere."""
+    fuori = {"numero": set(), "data": set()}
+    for m in mappe:
+        for g in fuori:
+            fuori[g] |= m.get(g, set())
+    return fuori
 
 
 # -------------------------------------------------------------- verifica nota
@@ -307,7 +332,7 @@ def controlla(nota, rep, per_slug):
     # quasi sempre l'H1, e contarla due volte raddoppierebbe ogni rilievo senza aggiungere
     # nulla.
     intestazione = "\n".join(str((nota.fm or {}).get(k) or "") for k in ("title", "summary"))
-    esenti = numeri_esenti(corpo) | numeri_esenti(intestazione)
+    esenti = unisci_esenti(valori_esenti(corpo), valori_esenti(intestazione))
     agganci = {k: 0 for k in pezzi}
 
     aff_corpo = list(estrai_affermazioni(corpo))
@@ -322,7 +347,13 @@ def controlla(nota, rep, per_slug):
         affermazioni.append((g, t, " (nell'intestazione: `title`/`summary`)"))
 
     for genere, tok, dove in affermazioni:
-        if genere == "numero" and any(v in esenti for v in varianti_numero(tok)):
+        # ⚠️ E50 esteso (gate 3F): l'esenzione del derivato vale per ogni genere
+        # marcabile. I due rami sono separati apposta — un numero non esenta una
+        # data e viceversa — e il ramo del numero e' identico a quello di prima:
+        # il collaudo pianta il non-scatto di regressione proprio su questo.
+        if genere == "numero" and any(v in esenti["numero"] for v in varianti_numero(tok)):
+            continue
+        if genere == "data" and any(v in esenti["data"] for v in varianti_data(tok)):
             continue
         def _cerca(nn, cc):
             if genere == "numero":
