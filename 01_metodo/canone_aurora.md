@@ -1528,3 +1528,87 @@ documentazione**: né «riesame» né «art. 4» né «D.Lgs. 27/2021» compaion
 rimanda a un altro atto per le modalità di un diritto, e l'altro atto non le porta**: chi legge
 il preavviso sa di poter esercitare il riesame e non sa come. Nota:
 `doc-obblighi-dell-osa-durante-il-controllo`.
+
+## Divergenze nuove — revisione del lotto R2, 31/08/2026
+
+> Il lotto di **manutenzione a due domini**: `reclami` e `ritiro`, cioè `PRO-QA-08` e
+> `PRO-QA-14`. **Otto divergenze nuove, e nascono quasi tutte dallo stesso gesto**: le due
+> procedure sono arrivate in due lotti diversi, e **nessuno le aveva mai messe una accanto
+> all'altra**. ⚠️ **Due sono scritte in vault, sei si TRACCIANO e non si scrivono**: il lotto
+> chiude qui, e le righe **T187-T195** le portano con sé col loro obbligo.
+
+### H1 — I cinque recapiti di reperibilità del team di crisi divergono, cinque su cinque ⏳ **tracciata, non scritta** (T187)
+
+`PRO-QA-14` §5 dà al coordinatore di crisi «348 22 41 507»; `elenco_interni_telefonici.txt` dà
+allo stesso il «348 22 41 710». **Così per tutte e cinque le persone che compaiono in
+entrambi i documenti.** ⚠️ **Il §5 dichiara di sé che il recapito è «verificato ad ogni
+revisione»**, ed è il numero che si compone alle tre di notte. ⚠️ **Le due serie appartengono
+allo stesso blocco** `348 22 41…`: la spiegazione «privato contro aziendale» resta possibile e
+nessuna fonte la dichiara.
+
+### H2 — Una procedura approvata a settembre rendiconta eventi di novembre ⏳ **tracciata** (T188)
+
+Testata e matrice revisioni: «rev. 3 del 10/09/2025». §10.3: esercitazione del **07/11/2025**,
+con azione correttiva «chiusa il 28/11/2025». ⚠️ **O la copia controllata è stata modificata
+dopo l'approvazione senza aprire una revisione, o la data è sbagliata.** È la specie di **E3**
+(lotto 3B) e **C15** (lotto 3A), qui su una procedura di crisi.
+
+### H3 — Anche la procedura dei RECLAMI ha due codici ⏳ **tracciata** (T189)
+
+`PRO-QA-14` la chiama **`PRO-QA-13`** in §6 e in §11; la procedura stessa, il manuale e la
+politica la chiamano **`PRO-QA-08`**. `PRO-QA-13` non compare in nessun altro dei 160 grezzi.
+⚠️ **È la gemella di F1**: le due metà dello stesso ciclo **si chiamano l'un l'altra con un
+codice che l'altra non riconosce.**
+
+### H4 — Due scale in vigore assegnano il ritiro a classi diverse ⏳ **tracciata** (T190)
+
+| Fonte | Il corpo estraneo non pericoloso / non tagliente |
+|---|---|
+| `PRO-QA-08` §5 | **classe 2 «Maggiore»**, chiusura in «15 giorni lavorativi»; il ritiro sta in **classe 1** con l'«Immediata attivazione PRO-QA-11» |
+| `PRO-QA-14` §4 | **classe 2**, e l'azione è il **RITIRO** |
+
+⚠️ **Quattro classi contro tre, nessuna delle due nomina l'altra, ed entrambe si registrano
+sullo stesso `MOD-QA-31`.** ✅ **Risponde all'obbligo che F8 del lotto 3D aveva lasciato
+aperto**: la scala della crisi era la gamba che il divieto 9-bis teneva fuori.
+
+### H5 — Tre versioni della data del blocco, e da lì decorrono le 24 ore ⏳ **tracciata** (T191)
+
+`MOD-QA-31` §6: blocco il **12/05**, su **tre** lotti. Mail del **13/05 h 08:41**: blocco già
+fatto, su **due**. Annotazione di `PRO-QA-14`: «bloccato il 13/05 MOD-MAG-02, Faggionato ok
+h 19:30». ⚠️ **L'ultima colloca undici ore dopo un atto che la mail dà già per compiuto**, e
+`PRO-QA-08` §6.2 misura le verifiche immediate **entro 24 ore da quella data**.
+
+### H6 — Due cartellini diversi per lo stesso blocco ✍️ **scritta** (T192)
+
+`PRO-QA-08` §6.2: «cartellino giallo NON CONFORME». `PRO-QA-14` §6 FASE 2: «cartellini
+BLOCCATO». La mail del 13/05 registra lo stato «BLOCCATO» **per un blocco disposto a titolo di
+reclamo**. ⚠️ **Le due procedure sono in SEQUENZA, non in alternativa**, e nessuna dice che
+cosa succeda al cartellino nel passaggio. Nota: `questione-due-cartellini-per-lo-stesso-blocco`.
+
+### H7 — Una quarta tabella di obiettivi 2026, dentro la procedura dei reclami ⏳ **tracciata** (T193)
+
+`PRO-QA-08` §10 porta cinque indicatori con «Obiettivo 2026», e **tre non compaiono in nessuna
+delle tre tabelle già registrate da E2**: «Tempo medio di chiusura classe 2 ≤ 12 gg», «Reclami
+per corpo estraneo ≤ 3/anno», «Recidive su stessa causa radice: 0». ⚠️ **Lo stesso §10 dispone
+che gli indicatori vadano al riesame, e il riesame non li porta.** ⚠️ **E l'unità non
+coincide**: per milione di **confezioni vendute** qui, per milione di **pezzi** nei cruscotti.
+
+### H8 — Un obbligo attribuito al capitolato sta nell'accordo quadro ⏳ **tracciata**, forza media (T194)
+
+`PRO-QA-14` §1 e §7 mettono le 48 ore nel «capitolato fornitori Tosano Cerea S.p.A., ed.
+2025, par. 11»; l'obbligo che il cliente aziona il 14/05 è l'**art. 12.2 dell'accordo quadro**,
+e l'art. 11 dell'accordo ha un altro oggetto. ⚠️ **L'accordo identifica il capitolato per
+REVISIONE («rev. 7»), la procedura per EDIZIONE («ed. 2025»)**, e il capitolato non è nel
+corpus: la seconda metà non è verificabile.
+
+### ⛔ E un difetto di STRUMENTO, pagato dentro questo lotto (T195)
+
+**L'estrazione di cantiere mette le tabelle del `.docx` in coda al documento, non nel punto in
+cui stanno.** La tabella delle classi di `PRO-QA-08` §5 — «1 Critico», «2 Maggiore», «3
+Minore», «4 Segnalazione» — compare a circa **11.400 caratteri** dall'inizio, dopo il §12,
+mentre il §5 mostra un buco fra «secondo la seguente scala:» e il capoverso successivo.
+
+⚠️ **R2 ci è cascato dentro**: ha scritto che il registro dei reclami non usa la scala della
+procedura, e **la tabella dimostrava il contrario**. ⚠️ **Non è cecità** — le celle entrano, e
+altre tabelle dello stesso file si trovano — **è la POSIZIONE che si perde**, e un buco nel
+punto giusto sembra un'assenza.

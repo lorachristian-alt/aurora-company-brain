@@ -2422,3 +2422,65 @@ Formato: data · decisione · motivo. Si aggiunge in coda, non si riscrive.
   note future sui tamponi ambientali, e il collaudo di E59 la riprovera' comunque;
   **`conta_perimetro_lotto.py` riparato NELLA SUA DISCIPLINA**, i dati allineati alla forma che
   lo strumento dichiara e non lo strumento allargato a due forme.
+- **2026-08-31** · S4 lotto R2, apertura · ⛔ **DUE INVOCAZIONI SULLO STESSO `--lotto`
+  AVREBBERO PERSO UN DOMINIO INTERO, IN SILENZIO** · l'elenco di R2 prescriveva
+  `candidate_r1.py --dominio reclami` e poi `--dominio ritiro` sullo stesso `--lotto`; lo script
+  scrive con `"w"`, quindi **la seconda cancellava la prima**: il perimetro sarebbe stato quello
+  del solo `ritiro`, **31 note invece delle 102 dell'unione**, e il file sarebbe apparso
+  perfettamente corretto — intestazione giusta, criterio giusto, note vere. ⚠️ **E' la specie
+  di §4.47**: una procedura che SEMBRA comporre e invece sovrascrive, senza errore ne' avviso.
+  **Riparato in apertura**: `--dominio` accetta piu' valori e il perimetro e' la loro UNIONE —
+  una nota entra se e' scoperta per ALMENO UNO, e le due condizioni di E37+E36 valgono dominio
+  per dominio senza mescolarsi. ⚠️ **Difetto piantato in `collaudo_domini_unione.py`, cinque
+  casi**, e il primo e' LA PREMESSA: se un dominio fosse contenuto nell'altro, sovrascrivere
+  darebbe lo stesso insieme dell'unione e il difetto passerebbe per il motivo sbagliato.
+- **2026-08-31** · S4 lotto R2, apertura · ⛔ **LA DIFFERENZA CHE IL PROGETTO ASPETTAVA DA TRE
+  LOTTI DICE IL CONTRARIO DI QUEL CHE CI SI ASPETTAVA** · il perimetro `reclami` era **65** allo
+  spezzamento di 3D; oggi e' **86**. Delle 65 vecchie **63 sono ancora dentro**, **2 sono
+  uscite** — cioe' sanate da 3D, 3E o 3F — e le **23 entrate sono TUTTE note nate dal 23/08 in
+  poi**. ⚠️ **La dichiarazione del dominio non e' cambiata fra le due misure**: nove
+  espressioni identiche in `12a41aa`, `babc743`, `7831199` e `327741b`, confrontate commit per
+  commit — il confronto e' sullo stesso strumento e la crescita e' del vault. ⚠️ **E37 misura
+  un debito che ogni lotto nuovo alimenta**, e delle 102 note di oggi **30 sono nate dopo lo
+  spezzamento che ha creato R2**.
+- **2026-08-31** · S4 lotto R2, chiusura · ⚠️ **I TRE NUMERI: 102 GUARDATE, 21 CORRETTE, 20,6 %**
+  · le altre 81 nominavano una parola del dominio e non la sostanza, e per E36 la fonte non
+  andava aggiunta — aggiungerla per far scendere il numero sarebbe il trucco che E41 vieta,
+  spostato di un piano. **Il criterio e' scritto per espressione**: `\breclam` pesca 55 note
+  perche' «il reclamo di maggio» e' l'ancora temporale di mezzo archivio, `causa radice` ne
+  pesca 12 perche' e' il nome di una COLONNA del registro delle non conformita', `mass balance`
+  8 perche' e' il nome di un FOGLIO DI CALCOLO. ⚠️ **Un difetto su cinque non e' un residuo**:
+  la riconciliazione verticale su questi due domini **va rifatta a fine corsa**, ed e' la
+  domanda a cui il §3-bis chiede di rispondere col numero.
+- **2026-08-31** · S4 lotto R2, chiusura · ⚠️ **IL TETTO DELLE 350 PAROLE NON HA MARGINE IN UN
+  LOTTO DI MANUTENZIONE** · in un lotto di canonizzazione la nota si scrive da zero e il tetto
+  e' un vincolo di progetto; qui **la correzione e' un'AGGIUNTA a una nota gia' scritta bene**.
+  **Otto correzioni su ventuno hanno superato il tetto al primo tentativo** *(contate)*, e il
+  margine piu' stretto misurato era di **cinque parole**. ⚠️ **Un rimando `[[...]]` costa 6-10
+  parole nel conteggio**, perche' il contatore toglie le parentesi e conta lo slug. **Che cosa
+  si e' fatto**: stringere la correzione, poi comprimere la ripetizione che ha gia' un padrone
+  altrove (E64 usato per far spazio), e **una sola volta** dividere la nota. ⛔ **Che cosa NON
+  si e' fatto: tagliare un fatto per stare nel budget** — in un caso la compressione aveva tolto
+  tre azioni immediate del reclamo, e sono state rimesse. **La domanda per il gate e' se un
+  lotto di manutenzione debba stare sotto lo stesso tetto.**
+- **2026-08-31** · S4 lotto R2, chiusura · ⛔ **L'ESTRAZIONE DI CANTIERE METTE LE TABELLE DEL
+  `.docx` IN CODA, E R2 CI E' CASCATO DENTRO** · la tabella delle classi di `PRO-QA-08` §5 —
+  «1 Critico», «2 Maggiore», «3 Minore», «4 Segnalazione» — compare a circa **11.400
+  caratteri** dall'inizio, dopo il §12, mentre il §5 mostra un buco fra «secondo la seguente
+  scala:» e il capoverso successivo. ⚠️ **R2 ha scritto che il registro dei reclami non usava
+  la scala della procedura, e la tabella dimostrava il contrario**: le denominazioni sono
+  esattamente quelle. ⚠️ **Non e' cecita'** — le celle entrano, e altre tabelle dello stesso
+  file si trovano — **e' la POSIZIONE che si perde**, e un buco nel punto giusto sembra
+  un'assenza. ⚠️ **Nella stessa riga era stata citata come vigente una frase BARRATA**, con
+  accanto la riscrittura di chi l'aveva corretta. **Tracciato a T195, non riparato**: tocca
+  l'estrattore, e questa sessione non lo ha toccato di propria iniziativa.
+- **2026-08-31** · S4 lotto R2, chiusura · ⚠️ **OTTO DIVERGENZE NUOVE, E SEI NON ENTRANO IN
+  VAULT** · mettere `PRO-QA-08` e `PRO-QA-14` una accanto all'altra — cosa che nessun lotto
+  aveva potuto fare, perche' ciascuna era arrivata col suo — ha prodotto otto righe B: i cinque
+  recapiti del team di crisi che divergono cinque su cinque, la revisione di settembre che
+  rendiconta novembre, il **secondo codice della procedura dei reclami** (`PRO-QA-13`, gemella
+  di F1), **due scale che assegnano il ritiro a classi diverse** (e questa risponde all'obbligo
+  lasciato aperto da F8 del lotto 3D), tre date del blocco, i due cartellini, la quarta tabella
+  di obiettivi 2026, il capitolato Tosano. ⚠️ **Due sono scritte** — i cartellini e le 48 ore
+  — **sei si TRACCIANO e si dichiarano non scritte**, T187-T194: il lotto chiude qui, e
+  scriverle avrebbe voluto dire aprire un ciclo nuovo dentro un lotto che stava chiudendo.

@@ -75,7 +75,7 @@ crea regole: spiega come si sono applicate.
 
 ---
 
-## 3. Dove siamo (31/08/2026 — dopo il GATE del lotto 3F: il TEMA 3 è chiuso, E65 è in vigore)
+## 3. Dove siamo (31/08/2026 — dopo il lotto **R2**: il tema 3 è chiuso, E65 è in vigore)
 
 - **Corpus v1 congelato**: 160 file, manifest SHA-256 v1.1. Intoccabile.
 - **Baseline misurate sul grezzo**, stesse 282 domande:
@@ -84,27 +84,29 @@ crea regole: spiega come si sono applicate.
   numeri **non si citano mai separati**.
 - **Config C congelata** (`d36d7ce`, impronta `afb58939…`): intoccabile fino a fine S6.
 
-### Canonizzazione: DODICI lotti di canonizzazione chiusi, e il TEMA 3 È CHIUSO
+### Canonizzazione: DODICI lotti di canonizzazione chiusi, DUE di manutenzione, il TEMA 3 È CHIUSO
 
 ⚠️ **Questo numero non si conta: si INCOLLA**, da `verifica_matrice_lotti.py`. **Vale anche per
 il coordinatore.**
 
 ```
-lotti chiusi: 13
+lotti chiusi: 14
    di cui di canonizzazione ... 12 (lotto_01a_linea1_turno_ccp, lotto_01b_freddo_energia,
                                     lotto_01c_metrologia_gas, lotto_02a_cip,
                                     lotto_02b_autocontrollo_analitico, lotto_02b_bis_allergeni,
                                     lotto_03a_riesame_direzione, lotto_03b_politica_formazione,
                                     lotto_03c_certificazione_audit, lotto_03d_reclami,
                                     lotto_03e_crisi_ritiro, lotto_03f_controllo_pubblico_ats)
-   di cui di manutenzione ..... 1 (r1_riconciliazione_verticale)
+   di cui di manutenzione ..... 2 (r1_riconciliazione_verticale,
+                                  r2_reclami_verticale)
    elenchi ancora aperti ...... 19
    FUORI dal conteggio: la fetta pilota (22 grezzi), anteriore alla matrice e
                         senza marcatore `# CHIUSO`. Canonizzata in S2.
 ```
 
 ⚠️ **I «19 elenchi aperti» comprendono i pacchetti di giudizio** (`giudizio_*`), che portano zero
-grezzi: **i lotti veri ancora aperti sono undici**, più **`R2`**.
+grezzi: **i lotti veri ancora aperti sono undici**, e sono tutti di canonizzazione — `R2` è
+chiuso.
 
 ✅ **IL TEMA 3 È CHIUSO, e lo ha chiuso `3F`.** Sei lotti, tredici grezzi: `3A` riesame della
 direzione (2), `3B` politica e formazione (2), `3C` certificazione e audit (4), `3D` reclami
@@ -288,15 +290,24 @@ lotto non aveva mosso il vault, e il lotto lo ha mosso di cinquantasette** — �
 | ✅ **Il gate di 3F** | **E65** — il cappello del perimetro dell'affermazione — e **tre estensioni** dentro E10, E50 ed E57. ⚠️ **L'esenzione della data derivata riparata SUBITO**, con difetti piantati nei due versi e il confronto riga per riga sul fuori perimetro: **116 righe prima, 116 dopo, zero differenze**. ⚠️ **La voce 4 respinta**: lo strumento dei due tassi non si tocca, e la decisione ha un **criterio pre-registrato** in §6 |
 | ⚠️ **Uno strumento che dava zero, e due lotti che non se n'erano accorti** | `conta_perimetro_lotto.py` dichiarava «note nate: 0» su 3E e 3F, perché i due elenchi scrivevano il separatore in una forma che il parser non cerca. ⚠️ **3E non se n'era accorto perché aveva composto i numeri a mano**, che è esattamente ciò che l'intestazione dello strumento vieta. **Riparati i dati, non lo strumento** |
 
-### PROSSIMO ATTO: `R2` — il lotto di manutenzione a due domini
+### PROSSIMO ATTO: il GATE di `R2`, e poi il ripacchettamento del TEMA 4
 
-✅ **Il gate di 3F è chiuso: il lotto è APPROVATO e il TEMA 3 con lui.** La divergenza B3
-fermata dal divieto 9-bis è **ratificata così com'è** — la regola del lotto 1B regge, e a
-farla valere è stato uno **script**, quando nessuna lettura l'aveva richiamata. **T184 resta,
-con l'obbligo esplicito per il lotto 07.**
+✅ **`R2` è chiuso**, e il suo rapporto è `06_operativo\rapporto_lotto_r2.md`. ⚠️ **Porta
+tre cose strutturali e sei righe che aspettano di essere scritte**, e per §4 del prompt dei
+lotti va letto PRIMA di approvare.
 
-`R2` nasce dagli spezzamenti di **3D** e **3E**, e va eseguito col §3-bis di
-`prompt_s4_lotti.txt`. I punti che lo distinguono da un lotto di canonizzazione:
+| | Che cosa aspetta il gate |
+|---|---|
+| **1** | ⛔ **L'estrazione di cantiere mette le tabelle del `.docx` IN CODA al documento**, non nel punto in cui stanno — e R2 ci è cascato dentro, scrivendo un'affermazione falsa che la tabella smentiva. **T195, tracciata e non riparata**: tocca l'estrattore |
+| **2** | ⚠️ **Il tetto delle 350 parole non ha margine in un lotto di manutenzione**: otto correzioni su ventuno lo hanno superato al primo tentativo, il margine più stretto era di **cinque parole**. La domanda è se la manutenzione debba stare sotto lo stesso tetto |
+| **3** | ⚠️ **La riconciliazione verticale VA RIFATTA A FINE CORSA**: il tasso è **20,6 %**, e il perimetro **cresce più in fretta di quanto lo si sani** — 2 note uscite contro 23 entrate |
+| **4** | ⛔ **Sei divergenze nuove tracciate e NON scritte in vault** — **T187-T194** — fra cui **due scale che assegnano il ritiro a classi diverse** (risponde a F8 del lotto 3D) e il **secondo codice della procedura dei reclami** (`PRO-QA-13`, gemella di F1). Il gate decide se aprire un lotto per scriverle |
+
+**Poi il ripacchettamento del TEMA 4 in apertura (E31)**, al gate di R2 e non prima.
+
+<!-- ciò che segue è il piano con cui R2 è stato eseguito, tenuto come verbale -->
+
+I punti che lo distinguevano da un lotto di canonizzazione:
 
 | | |
 |---|---|
